@@ -47,7 +47,7 @@
  flavor_mor.14.title: "The Banū Marīn"
  flavor_mor.14.desc: "For decades, the local strongmen across the [ShowRegionName('maghreb_region')] have relied on strong and influential tribes to assert control and safeguard the trade routes. One such tribe is the Banū Marīn. Originally, they emerged from the ashes of the previous [ROOT.GetCountry.GetAdjective] dynasty and occupied [ShowLocationName('meknes')] in 1245.\n\nDue to their descent from our northeastern territories and their proximity to the hostilities between our people and the rulers of [ShowRegionName('iberia_region')], they once made up much of our army. Despite their military prowess, however, they spend most of their time with their families, as shepherds of great sheep flocks."
  flavor_mor.14.a: "We must accommodate them."
- every_location_with_wool_gains_tt: "Every owned [location|e] with [ShowGoodsName('wool')], such as [target_location.GetName], will gain the [ShowModifier('banu_marin_wool_modifier')] [modifier|e]"
+ every_location_with_wool_gains_tt: "Every owned [Concept('location','район')|e] with [ShowGoodsName('wool')], such as [target_location.GetName], will gain the [ShowModifier('banu_marin_wool_modifier')] [Concept('modifier','модифікатор')|e]"
  flavor_mor.14.b: "We cannot depend on remote and unruly tribes."
  flavor_mor.14.historical_info: "The Banū Marīn, or Marinids, were a Amazigh tribe from the Zenata group, originally living as nomadic herders in the northeastern Atlas Mountains of Morocco. Initially, they worked as mercenaries for the Almohad dynasty, but later rebelled and established their own authority in the 13th century. The tribe was key in founding the Marinid dynasty, which controlled Morocco and parts of North Africa. Renowned for their strong military capabilities, they significantly influenced the region's political dynamics, though internal strife eventually led to their decline."
 
@@ -204,8 +204,8 @@
  flavor_mor.1200.desc: "Ever since the start of the Reconquista, the [ShowReligionGroupAdjective('muslim')] rule over [ShowRegionName('iberia_region')] has been dwindling. Now, with important places such as [ShowLocationName('cordoba')] under the [target_country2.GetAdjective] rule, [target_character.GetName] has been thinking of launching an expedition and reclaiming the lands there. With the support of [target_character2.GetName], we can potentially not only restore $ADU$, but also extinguish this crusading spirit in the name of [ROOT.GetCountry.GetReligion.GetGodName]!"
  flavor_mor.1200.a: "Let us get [target_country.GetNameWithNoTooltip] to support us."
  flavor_mor.1200.b: "This expedition is not worth it."
- mor_reclaiming_corduba_and_most_of_andalucia_will_allow_us_to_request_vassalization_of_granada_tt: "Should we manage to own [ShowLocationName('cordoba')] and #Y 80%#! of [ShowAreaName('andalusia_area')] after we win the [war|e], we will be able to become $ADU$ and demand the annexation of [target_country.GetName]"
- mor_send_offer_to_granada_for_war_against_castile: "We will send an [alliance|e] offer to [target_country.GetName]"
+ mor_reclaiming_corduba_and_most_of_andalucia_will_allow_us_to_request_vassalization_of_granada_tt: "Should we manage to own [ShowLocationName('cordoba')] and #Y 80%#! of [ShowAreaName('andalusia_area')] after we win the [Concept('war','війна')|e], we will be able to become $ADU$ and demand the annexation of [target_country.GetName]"
+ mor_send_offer_to_granada_for_war_against_castile: "We will send an [Concept('alliance','союз')|e] offer to [target_country.GetName]"
 
  flavor_mor.1201.title: "$flavor_mor.1200.title$"
  flavor_mor.1201.desc: "[target_character.GetName] of [prev_country.GetName] has offered us an alliance in order to reclaim old [ShowReligionGroupAdjective('muslim')] locations in southern [ShowRegionName('iberia_region')], such as [ShowLocationName('cordoba')]."

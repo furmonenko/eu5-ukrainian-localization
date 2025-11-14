@@ -4,7 +4,7 @@
  flavor_geo.1.desc: "It has been ten years since we took up arms against the heads of the [GetUniqueInternationalOrganization('ilkhanate').GetName], and ousted tens of thousands of [ShowCultureGroupName('mongolian_group')] troops from our lands. Rife with corruption and committing raids and abuses against our people, the foreign horse lords collaborated closely with [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to keep our folk on a short leash. [target_character1.GetName], using the death of [target_character2.GetName] as a pretext, crushed our shackles, demanded the evacuation of foreign troops from within our borders and massacred those among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] [target_character1.GetSheHe] thought to be turncoats or influential. Today marks the tenth anniversary of this event, and celebrations are in order..."
  flavor_geo.1.a: "The festivities will spread across [ROOT.GetCountry.GetNameWithNoTooltip]!"
  flavor_geo.1.b: "Use this opportunity to cull influential members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
- every_location_target_province_30_prosperity_tt: "Every owned [location|e] in [target_province.GetName] gains [ShowNamedValue('prosperity_extreme_bonus')|+=2%] [prosperity|e]"
+ every_location_target_province_30_prosperity_tt: "Every owned [Concept('location','район')|e] in [target_province.GetName] gains [ShowNamedValue('prosperity_extreme_bonus')|+=2%] [prosperity|e]"
 
  flavor_geo.2.title: "Trade with the West"
  flavor_geo.2.desc: "In order to safeguard our future, it would be wise to consider diplomatic and mercantile relations with various affluent Westerners. Despite being the head of a strong [ROOT.GetCountry.GetFlavorRank], we are surrounded by hostile heathens. Correspondence with the West would only further our link to them and safeguard our position, at a time when even the once-powerful [GetUniqueInternationalOrganization('ilkhanate').GetName] is falling apart..."
@@ -54,7 +54,7 @@
  flavor_geo.9.a: "Coin for their cause!"
  flavor_geo.9.b: "Our knights will aid them!"
  flavor_geo.9.c: "We have no time for idle promises..."
- up_to_x_commoners_will_migrate_tt: "Some of our [ShowPopTypeName('peasants')] in our [capital|e]'s [province_definition|e] will migrate to [target_country.GetName]"
+ up_to_x_commoners_will_migrate_tt: "Some of our [ShowPopTypeName('peasants')] in our [Concept('capital','столиця')|e]'s [province_definition|e] will migrate to [target_country.GetName]"
 
  flavor_geo.10.title: "The [target_country2.GetAdjectiveWithNoTooltip] [target_country2.GetGovernment.GetRulerTitle] Responds"
  flavor_geo.10.desc: "After a long and arduous journey, our diplomats have returned from the West, bearing the response of the [target_country2.GetAdjective] [target_country2.GetGovernment.GetRulerTitle]. Their assistance would certainly aid our military efforts abroad.\n\nAn air of silence and dread falls across the room when the seal is broken, and the contents of the correspondence are revealed..."
@@ -93,7 +93,7 @@
  flavor_geo.16.a: "Let us simply maintain cordial relations..."
  flavor_geo.16.b: "This is a boundary they have overstepped!"
  flavor_geo.16.c: "Perhaps there is merit in their words?"
- suffer_20_opinion_with_every_catholic_in_range_tt: "Every known [ShowReligionAdjectiveWithNoTooltip('catholic')] [country|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_demolished_catholic_embassies')|-=0] [opinion|e] of us"
+ suffer_20_opinion_with_every_catholic_in_range_tt: "Every known [ShowReligionAdjectiveWithNoTooltip('catholic')] [Concept('country','держава')|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_demolished_catholic_embassies')|-=0] [opinion|e] of us"
  
  flavor_geo.17.title: "A Messenger from the [target_country.GetLongNameWithNoTooltip]"
  flavor_geo.17.desc_common: "Ever since we established a [ShowBuildingTypeName('missionary_building')] in [target_location1.GetName], we have enjoyed a healthy relationship with [target_character.GetName]."

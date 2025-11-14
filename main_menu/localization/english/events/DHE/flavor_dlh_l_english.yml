@@ -35,7 +35,7 @@
  flavor_dlh.6.a: "So be it." 
  flavor_dlh.6.b: "We will send a generous gift in hopes of appeasing them." 
  flavor_dlh.6.c: "They dare...?"
- mithilaarea_hazaribagh_province_granted_to_target_subject: "We will cede control of [locations|e] we own in [ShowProvinceDefinitionName('hazaribagh_province')|U] as well as [ShowAreaName('mithila_area')|U] to [target_subject.GetNameWithNoTooltip]..."
+ mithilaarea_hazaribagh_province_granted_to_target_subject: "We will cede control of [Concept('locations','райони')|e] we own in [ShowProvinceDefinitionName('hazaribagh_province')|U] as well as [ShowAreaName('mithila_area')|U] to [target_subject.GetNameWithNoTooltip]..."
 
  flavor_dlh.7.title: "Holding onto Power"
  flavor_dlh.7.desc: "Our so-called malevolent overlord is sick and dying. Their [GetCountry('DLH').GetFlavorRank] is naught but a pale visage of her old self. In an attempt to assure our allegiance and secure the vital [ShowGoodsName('silver')] trade, they have decided to send a most illustrious caravan of envoys and dignitaries, bearing news from the heart of [GetCountry('DLH').GetCapital.GetName]..."
@@ -70,8 +70,8 @@
  flavor_dlh.12.desc: "A prominent tribe of our [ShowCultureName('afghan_culture')] people, the [GetDynasty('lodi_dynasty').GetName] Dynasty has proven to be quite effective at governing the small settlements within [target_province.GetName]. Due to their diligence, [target_character2.GetName] has been thinking of giving them governance over the lands, as long as they are willing to follow [target_character2.GetHerHis] orders."
  flavor_dlh.12.a: "They are allowed to govern."
  flavor_dlh.12.b: "We do not trust them with the land."
- dlh_release_lodi_as_governors_tt: "The [GetDynasty('lodi_dynasty').GetName] Dynasty will be given control of the entire [target_province.GetName] [province|e] as our [ShowSubjectTypeName('vassal')]"
- dlh_all_afghani_pops_in_province_lose_30_satisfaction: "All [ShowCultureName('afghan_culture')] [pops|e] in [target_province.GetName] [province|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ dlh_release_lodi_as_governors_tt: "The [GetDynasty('lodi_dynasty').GetName] Dynasty will be given control of the entire [target_province.GetName] [Concept('province','провінція')|e] as our [ShowSubjectTypeName('vassal')]"
+ dlh_all_afghani_pops_in_province_lose_30_satisfaction: "All [ShowCultureName('afghan_culture')] [Concept('pops','населення')|e] in [target_province.GetName] [Concept('province','провінція')|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
 
  flavor_dlh.13.title: "Expansion of [GetDynasty('lodi_dynasty').GetNameWithNoTooltip] Holdings"
  flavor_dlh.13.desc: "With the increase of influence of the [GetDynasty('lodi_dynasty').GetName] dynasty, they have been rallying more support within their realm, extending their power over the entirety of [target_area.GetName]. We can cave in to their demands, but this small [ShowCultureName('afghan_culture')] tribe is slowly becoming into a pretender to the [ROOT.GetCountry.GetName] throne."
@@ -83,7 +83,7 @@
  flavor_dlh.14.desc: "After containing the [GetDynasty('lodi_dynasty').GetName] family and seizing their territories, we have managed to restore faith in [target_character.GetName]. No longer does [target_character.GetSheHe] have to be seen as a co-ruler with other influential dynasties, but as a true ruler of all [ROOT.GetCountry.GetName]."
  flavor_dlh.14.a: "Let [target_character.GetNameWithNoTooltip] claim all the glory."
  flavor_dlh.14.b: "Use this chance to centralize."
- dlh_all_afghan_locations_gain_prosperity_tt: "Every [location|e] that has [ShowCultureName('afghan_culture')] [pops|e] will gain [ShowNamedValue('prosperity_mild_bonus')|+=2%] [prosperity|e]"
+ dlh_all_afghan_locations_gain_prosperity_tt: "Every [Concept('location','район')|e] that has [ShowCultureName('afghan_culture')] [Concept('pops','населення')|e] will gain [ShowNamedValue('prosperity_mild_bonus')|+=2%] [prosperity|e]"
 
  flavor_dlh.15.title: "Administration of the [GetDynasty('lodi_dynasty').GetNameWithNoTooltip]"
  flavor_dlh.15.desc: "The governing experience of the [GetDynasty('lodi_dynasty').GetName] may be effective, but it is widely unpopular within [ROOT.GetCountry.GetName]. [target_character.GetName] is seen not as a rightful ruler, but as an usurper who only pursues [target_character.GetHerHis] own desires, even though all of it is opposition talk."
@@ -95,7 +95,7 @@
  flavor_dlh.16.desc: "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] of [ROOT.GetCountry.GetName] has seen recent policies passed by [target_character.GetName]. All of them are inefficient, weakening the economy as well as the stability of the [ROOT.GetCountry.GetFlavorRank]. This is slowly brewing into a revolt of some of our provinces."
  flavor_dlh.16.a: "We need to placate the masses quickly."
  flavor_dlh.16.b: "The economy and stability must be protected first."
- dlh_all_pops_lose_10_satisfaction_tt: "All [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ dlh_all_pops_lose_10_satisfaction_tt: "All [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
 
  flavor_dlh.17.title: "A Tomb for [target_character.GetNameWithNoTooltip]"
  flavor_dlh.17.desc: "With the passing of [target_character.GetName], all of [ROOT.GetCountry.GetName] weeps. With the pass of power to [target_character2.GetName], [target_character2.GetSheHe] has plans to construct a great tomb for [target_character.GetHerHim], inspired by the Dome of the Rock in [ShowLocationName('jerusalem')]."
@@ -157,7 +157,7 @@
  flavor_dlh.27.desc: "With the rule of [target_character.GetName] raging on, [target_character.GetHerHis] actions descend into madness even more. More unjust laws are passed, more arbitrary changes are made, campaigns are launched without any sort of planning. Whilst this is nothing uncommon for [target_character.GetHerHis] rule, it is certainly an issue that will spiral out of control as long as [target_character.GetNameWithNoTooltip] stays on the throne."
  flavor_dlh.27.historical_info: "$mad_sultan_historical_info$"
  flavor_dlh.27.a: "By [ROOT.GetCountry.GetReligion.GetGodName], this must stop."
- dlh_unique_mad_sultan_events_tt: "As long as [target_character.GetName] is the [ruler|e] of [ROOT.GetCountry.GetName], [events|e] surrounding [target_character.GetHerHim] will fire"
+ dlh_unique_mad_sultan_events_tt: "As long as [target_character.GetName] is the [Concept('ruler','правитель')|e] of [ROOT.GetCountry.GetName], [Concept('events','події')|e] surrounding [target_character.GetHerHim] will fire"
 
  flavor_dlh.28.title: "Sack of [target_location.GetNameWithNoTooltip]"
  flavor_dlh.28.desc: "With the forces of [ROOT.GetCountry.GetName] having stormed the streets of [target_location.GetName], [target_character2.GetName] has ordered the sacking of the [target_location.GetRank.GetName], hoping to make up for the lack of coffers in recent years."
@@ -169,7 +169,7 @@
  flavor_dlh.29.a: "Taxes shall be increased."
  flavor_dlh.29.b: "Restrict the madness of [target_character.GetNameWithNoTooltip]."
  flavor_dlh.29.historical_info: "$mad_sultan_historical_info$"
- dlh_every_location_in_area_gets_following_tt: "Every [location|e] in [target_area.GetName] will gain the [ShowModifier('dlh_increased_taxes')] [modifier|e] as well as lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
+ dlh_every_location_in_area_gets_following_tt: "Every [Concept('location','район')|e] in [target_area.GetName] will gain the [ShowModifier('dlh_increased_taxes')] [Concept('modifier','модифікатор')|e] as well as lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
  
  flavor_dlh.30.title: "Piety of [target_character.GetNameWithNoTooltip]"
  flavor_dlh.30.desc: "[target_character.GetName] considers [target_character.GetHerselfHimself] a faithful servant of [ROOT.GetCountry.GetReligion.GetGodName], even willing to go unconsiderable lengths to show this dedication. Wishing to step back for a while, [target_character.GetSheHe] wishes to study the holy scripts more whilst still remaining the idol [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
@@ -180,19 +180,19 @@
  flavor_dlh.31.desc: "Whilst [target_area.GetName] has been complying to the laws of [ROOT.GetCountry.GetName], [target_character.GetName] has decided to increase taxes there, hoping to make up for lost revenue. Whilst we could stop it, the people there have already refused this motion, and are already trying to become more autonomous from our rule."
  flavor_dlh.31.a: "This is not good."
  flavor_dlh.31.historical_info: "$mad_sultan_historical_info$"
- dlh_every_location_in_area_loses_control_tt: "Every [location|e] in [target_area.GetName] will lose [ShowNamedValue('control_extreme_penalty')|+=2%] [control|e]"
+ dlh_every_location_in_area_loses_control_tt: "Every [Concept('location','район')|e] in [target_area.GetName] will lose [ShowNamedValue('control_extreme_penalty')|+=2%] [control|e]"
 
  flavor_dlh.32.title: "Curbing the [ShowReligionAdjectiveWithNoTooltip('shia')] Populace"
  flavor_dlh.32.desc: "Although [ROOT.GetCountry.GetName] tries to be as tolerant as possible, the [ShowReligionAdjective('shia')] people within the [ROOT.GetCountry.GetFlavorRank] have been causing an uproar. Not being tolerated by the populace, they are not complying with most of the laws. We should do anything about it."
  flavor_dlh.32.a: "Let us demand conversion."
  flavor_dlh.32.b: "No need to cause more internal conflicts."
- dlh_15_percent_of_shia_pops_convert_to_root_religion_tt: "#Y 15%#! of our [ShowReligionName('shia')] [pops|e] will convert to [ROOT.GetCountry.GetReligion.GetName] but will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ dlh_15_percent_of_shia_pops_convert_to_root_religion_tt: "#Y 15%#! of our [ShowReligionName('shia')] [Concept('pops','населення')|e] will convert to [ROOT.GetCountry.GetReligion.GetName] but will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
 
  flavor_dlh.33.title: "The Right Hand of [target_character2.GetNameWithNoTooltip]"
  flavor_dlh.33.desc: "Previous policies have left [ROOT.GetCountry.GetName] in a precarious situation. Numerous rebellions, economic issues, religious conflicts, as well as external threats are not able to be handled by one man. Thankfully [target_character.GetName], a prominent general of [target_character2.GetName], has offered [target_character.GetHerHis] support in managing all of these problems."
  flavor_dlh.33.a: "[target_character.GetSheHe|U] will help us."
  flavor_dlh.33.b: "That sounds suspicious..."
- dlh_character_grants_positive_events_as_long_as_they_are_in_cabinet_tt: "As long as [target_character.GetName] is in our [cabinet|e], [target_character.GetSheHe] will provide us with various [events|e]"
+ dlh_character_grants_positive_events_as_long_as_they_are_in_cabinet_tt: "As long as [target_character.GetName] is in our [cabinet|e], [target_character.GetSheHe] will provide us with various [Concept('events','події')|e]"
 
  flavor_dlh.34.title: "Assistance in the Yamunā Canal"
  flavor_dlh.34.desc: "The Yamunā Canal in [ShowAreaName('doab_area')] has been left without support. Places such as [target_location.GetName], [target_location2.GetName], and [target_location3.GetName] have been suffering, and are in dire need of more funding. [target_character.GetName] has suggested we relocate some of our funds to aid the population there."
@@ -203,7 +203,7 @@
  flavor_dlh.35.desc: "Due to several provinces within [ROOT.GetCountry.GetName] having several harvest failures, they are now left with little to no food. [target_character.GetName] has proposed to the [ROOT.GetCountry.GetGovernment.GetCourtTitle] that we do something about it, sending aid to the locations that need them the most."
  flavor_dlh.35.a: "[target_character.GetSheHe|U] can be in charge of this policy."
  flavor_dlh.35.b: "Does [target_character.GetSheHe] think [target_character.GetSheHe] is the [ROOT.GetCountry.GetGovernment.GetRulerTitle]?"
- dlh_whilst_grand_vizier_is_in_council_or_ruler_allow_combat_famine_parliament_debate_tt: "As long as [target_character.GetName] is in the [cabinet|e] or is the [ruler|e] of [ROOT.GetCountry.GetName], we will be able to use the [ShowParliamentIssueType('dlh_famine_reductions')] [parliament_issue|e]"
+ dlh_whilst_grand_vizier_is_in_council_or_ruler_allow_combat_famine_parliament_debate_tt: "As long as [target_character.GetName] is in the [cabinet|e] or is the [Concept('ruler','правитель')|e] of [ROOT.GetCountry.GetName], we will be able to use the [ShowParliamentIssueType('dlh_famine_reductions')] [parliament_issue|e]"
 
  flavor_dlh.36.title: "Banning Torture"
  flavor_dlh.36.desc: "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have always used torture against the lesser people of [ROOT.GetCountry.GetName] to get their will done, as well as set examples. [target_character.GetName] has been thinking of banning this practice in order to properly rein in any rogue enforcers, as well as restore order in the justice system."
@@ -215,7 +215,7 @@
  flavor_dlh.37.desc: "With the majority of our population following the [ShowReligionAdjective('hindu')] faith, [target_character.GetName] has proposed we set a heavy tax on them. This would not only increase our revenues, but also convert a part of them to [ROOT.GetCountry.GetReligion.GetName]."
  flavor_dlh.37.a: "Let us impose this new tax."
  flavor_dlh.37.b: "Let us not upset them."
- dlh_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! of [ShowReligionAdjective('hindu')] [pops|e] will convert to [ROOT.GetCountry.GetReligion.GetName]"
+ dlh_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! of [ShowReligionAdjective('hindu')] [Concept('pops','населення')|e] will convert to [ROOT.GetCountry.GetReligion.GetName]"
  flavor_dlh.37.historical_info: "Despite the prosperity that was brought in Delhi during the reign of Fīrūz Šāh Tughlaq, one of the most radical reforms were the ones that not only implemented the $sharia$ Law on Hindu citizens, but also led a campaign of force conversion in the subcontinent. Anyone that resisted him, he would send his armies to massacre thousands of Hindus and desecrate the temples of the area."
 
  flavor_dlh.38.title: "The Coup of [target_character2.GetNameWithNoTooltip]"
@@ -266,8 +266,8 @@
  flavor_dlh.47.desc: "The Pashtun Nobles, highly influential [ShowCultureName('afghan_culture')] families within [ROOT.GetCountry.GetName], are becoming more and more rebellious. Seeing how our society is starting to favor them less, they are rallying up people in [target_area.GetName], specifically [target_location.GetName], to hopefully gain more autonomy."
  flavor_dlh.47.a: "Let them come."
  flavor_dlh.47.b: "They can have more privileges than the other nobles."
- dlh_afghan_unrest_tt: "All [ShowCultureName('afghan_culture')] [pops|e] in [target_area.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
- dlh_afghan_control_tt: "All owned [locations|e] in [target_area.GetName] will lose [ShowNamedValue('control_extreme_penalty')|+=2%] [control|e]."
+ dlh_afghan_unrest_tt: "All [ShowCultureName('afghan_culture')] [Concept('pops','населення')|e] in [target_area.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ dlh_afghan_control_tt: "All owned [Concept('locations','райони')|e] in [target_area.GetName] will lose [ShowNamedValue('control_extreme_penalty')|+=2%] [control|e]."
 
  flavor_dlh.48.title: "[target_character.GetNameWithNoTooltip]"
  flavor_dlh.48.desc: "With the grip that [target_country.GetName] has on [ROOT.GetCountry.GetName], governors come and go from [ROOT.GetCountry.GetCapital.GetName]. The latest one is [target_character.GetName], part of the [GetDynasty('sayyid_dynasty').GetName] dynasty, which claims that [target_character.GetSheHe] is a descendant of Muḥammad, the great prophet of [ShowReligionGroupName('muslim')]."
@@ -322,7 +322,7 @@
  flavor_dlh.59.desc: "Back in 1333, [target_character.GetName] led an expedition against the [ShowReligionAdjective('hindu')] states of [target_area.GetName]. However, despite the martial prowess of our [ROOT.GetCountry.GetGovernment.GetRulerTitle], our forces have suffered a disastrous loss, tarnishing the name of [ROOT.GetCountry.GetName] across all of $india$. Now, with the [ShowSituationName('fall_of_delhi')] looming, we may find it necessary to avenge our defeat."
  flavor_dlh.59.a: "We are not done yet."
  flavor_dlh.59.b: "A second failure will put a nail in our coffin."
- dlh_benefits_of_subjugating: "If we [conquer|e] and [own|e] at least [FixedPointToInt(Add_CFixedPoint(Multiply_CFixedPoint(IntToFixedPoint(target_area.GetNumLocations), '(CFixedPoint)0.3'), '(CFixedPoint)1'))] of the [locations|e] in [target_area.GetName] in 10 years, we will get the following:" # Multiply the amount of locations in Nepal by 0.3, add 1 and convert the FixedPoint Number to int to round down.
+ dlh_benefits_of_subjugating: "If we [conquer|e] and [own|e] at least [FixedPointToInt(Add_CFixedPoint(Multiply_CFixedPoint(IntToFixedPoint(target_area.GetNumLocations), '(CFixedPoint)0.3'), '(CFixedPoint)1'))] of the [Concept('locations','райони')|e] in [target_area.GetName] in 10 years, we will get the following:" # Multiply the amount of locations in Nepal by 0.3, add 1 and convert the FixedPoint Number to int to round down.
 
  flavor_dlh.60.title: "Success of Qarachil"
  flavor_dlh.60.desc: "Having learnt from the mistakes of 1333, the committed [ROOT.GetCountry.GetAdjective] generals swept the polities of western [ShowAreaName('nepal_area')] off the maps. Though we may not have conquered the majority of the area, many of our former foes have been humiliated and the faith in the [ROOT.GetCountry.GetFlavorRank] has been restored." 
@@ -384,7 +384,7 @@
  flavor_dlh.1101.desc: "[target_country2.GetName] has offered us the governorship of [ShowRegionName('bengal_region')], allowing us to seize the land of the rest of the governors."
  flavor_dlh.1101.a: "We will gladly accept this opportunity."
  flavor_dlh.1101.b: "Just the excuse for a rebellion."
- dlh_demand_annexation_of_other_bengali_subjects_tt: "The rest of the [target_country2.GetName] [subjects|e] in [ShowRegionName('bengal_region')] will be asked to be annexed by us"
+ dlh_demand_annexation_of_other_bengali_subjects_tt: "The rest of the [target_country2.GetName] [Concept('subjects','васали')|e] in [ShowRegionName('bengal_region')] will be asked to be annexed by us"
 
  flavor_dlh.1102.title: "$flavor_dlh_1100_title$"
  flavor_dlh.1102.desc: "[target_country.GetName] has been declared the governor of [ShowRegionName('bengal_region')]. They now demand that we give them our lands"

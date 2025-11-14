@@ -37,7 +37,7 @@
  flavor_teu.6.a: "Build a [ShowBuildingTypeNameWithNoTooltip('castle')] to oversee [target_location.GetProvince.GetNameWithNoTooltip]."
  flavor_teu.6.b: "Force the local #italic Komtur#! to deal with this."
 
- teuton_6_event_trigger_information: "This [event|e] can fire due to the following:\n[ShowTriggerConditionsForScope('teu_event_6_trigger', SCOPE.sLocation('target_location').GetLocation.MakeScope.Self))]"
+ teuton_6_event_trigger_information: "This [Concept('event','подія')|e] can fire due to the following:\n[ShowTriggerConditionsForScope('teu_event_6_trigger', SCOPE.sLocation('target_location').GetLocation.MakeScope.Self))]"
 
  flavor_teu.7.title: "City Laws of [target_location.GetNameWithNoTooltip]"
  flavor_teu.7.desc: "The [target_location.GetRank.GetName] of [target_location.GetName] is the economic backbone and the primary trading port of the [ROOT.GetCountry.GetLongName]. It, like a few others, continues to utilize the $lubeck$ City Law due to its deep connections with the [target_country.GetLongName], which is also a bone of contention with its [ROOT.GetCountry.GetGovernment.GetAdjective] overlords. In order to put an end to the conflict, [ROOT.GetCountry.GetNameWithNoTooltip] is willing to have [target_location.GetNameWithNoTooltip] embrace the [ShowEstatePrivilegeName('kulm_law')] while maintaining some privileges of the current order, empowering the local council and giving them greater autonomy. Such a resolution will let the [target_location.GetRank.GetNameWithNoTooltip] prosper as a commercial hub in the [target_location.GetMarket.GetName]."
@@ -70,7 +70,7 @@
  flavor_teu.14.desc: "A cleric of great potential has made a name out for [target_character.GetHerselfHimself] in the [ROOT.GetCountry.GetFlavorRank]. Having been part of the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] for a long time, [target_character.GetSheHe] is known as a skilled chronicler that could help produce a work to fill in the gaps of [target_work_of_art.GetName], which was produced back in [target_work_of_art.GetCreationDate] by [target_work_of_art.GetCreator.GetName]."
  flavor_teu.14.a: "We need [target_character.GetHerHis] services!"
  flavor_teu.14.b: "Dismiss [target_character.GetHerHim]."
- teu_event_within_5_to_10_years: "The [event|e] will fire within 5 to 10 years, providing [target_character.GetName] is still alive."
+ teu_event_within_5_to_10_years: "The [Concept('event','подія')|e] will fire within 5 to 10 years, providing [target_character.GetName] is still alive."
 
  flavor_teu.15.title: "$chronik_des_land_preussens$"
  flavor_teu.15.desc: "The labor of [target_character.GetName] has finally paid off, for [target_character.GetSheHe] has finally finished [target_character.GetHerHis] life's work, the [target_work_of_art.GetName], a [ShowWorkOfArtTypeName('chronicle')] detailing the history of the [ROOT.GetCountry.GetLongName] from 1360's to the present day."
@@ -89,8 +89,8 @@
  
  teu_impact_on_kulm_law: "[ShowEstatePrivilegeName('kulm_law')] will be modified by:\n#g +10.0%#! [ShowModifierTypeName('rural_migration_attraction')]\n#r -10.0%#! [ShowModifierTypeName('burghers_estate_max_tax')]"
  teu_impact_on_kulm_law_not_revised: "[ShowEstatePrivilegeName('kulm_law')] will be modified by:\n#r -50.0%#! [ShowModifierTypeName('german_migration_attraction_modifier')]"
- kulm_law_revised_tooltip: "Has revised the [ShowEstatePrivilegeName('kulm_law')] through the $flavor_teu.11.title$ [event|e]."
- kulm_law_not_revised_tooltip: "Has chosen not to revise the [ShowEstatePrivilegeName('kulm_law')] through the $flavor_teu.11.title$ [event|e]."
+ kulm_law_revised_tooltip: "Has revised the [ShowEstatePrivilegeName('kulm_law')] through the $flavor_teu.11.title$ [Concept('event','подія')|e]."
+ kulm_law_not_revised_tooltip: "Has chosen not to revise the [ShowEstatePrivilegeName('kulm_law')] through the $flavor_teu.11.title$ [Concept('event','подія')|e]."
 
  flavor_teu.100.title: "The Prussian Crusade"
  flavor_teu.100.desc: "Years ago, the glorious crusaders of the Baltic proclaimed their Prussian Crusade for the glory of Christ. Many men heeded its call, one of them was the pride of the [ROOT.GetCountry.GetAdjective] Crown: [target.GetName]."
@@ -232,7 +232,7 @@
  flavor_dan_teu.1.desc: "Calamity has struck in our possessions in [ShowProvinceDefinitionName('estonia_province')]. The native [ShowCultureName('estonian')] population, displeased by the fact that we showed them the Light of Christ all these decades ago, have risen up in an armed insurgency. On a calm day, they launched a deadly attack on our garrisons and castles. From amongst themselves, they have chosen four leaders they dare call 'kings'. Moreover, to add insult to injury, in their act of diabolic 'vengeance' they have started slaying their former overlords and caregivers in a pagan fury. We will not tolerate that and their rebellion shall be crushed."
  flavor_dan_teu.1.historical_info: "On the Night of Saint George in 1343, the native Estonian population rebelled against their Danish overlords and the various foreign nobles that ruled over them. To lead the rebellion, they selected 'Four Kings' from amongst themselves, who would later be lured into a trap and killed. The rebellion transcended the Danish borders and spread to the territories of Livonian Order and the Ösel islands."
  flavor_dan_teu.1.a: "Damn them!"
- TEU_st_georges_uprising: "Every [owned|e] [ShowCultureName('estonian')] [pop|e] in [ShowProvinceDefinitionName('estonia_province')] Province loses [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and joins [estonian_uprising.GetName].\n#r 75.0%#! of them have also changed [religion|e] to [ShowReligionName('muinaisusko')]."
+ TEU_st_georges_uprising: "Every [owned|e] [ShowCultureName('estonian')] [pop|e] in [ShowProvinceDefinitionName('estonia_province')] Province loses [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and joins [estonian_uprising.GetName].\n#r 75.0%#! of them have also changed [Concept('religion','віра')|e] to [ShowReligionName('muinaisusko')]."
  estonian_uprising: "Saint George's Night Uprising"
  STATIC_MODIFIER_NAME_teu_fervor_st_georges_night_uprising: "Saint George's Night Uprising"
 

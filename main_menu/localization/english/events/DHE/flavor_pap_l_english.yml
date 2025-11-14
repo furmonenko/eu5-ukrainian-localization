@@ -216,15 +216,15 @@
  flavor_pap.39.title: "The [ShowCultureNameWithNoTooltip('corsican')|U] Guard's Uncontrollable Behavior"
  flavor_pap.39.desc: "Our elite protective force has become a source of constant unrest within [ROOT.GetCountry.GetCapital.GetName]. The members of the [ShowCultureName('corsican')|U] Guard have increasingly engaged in violent brawls — not only among themselves but also with other military units and even civilians. Reports of street duels, deadly feuds, and unchecked aggression have become commonplace, turning parts of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] into battlegrounds. Citizens live in fear, and even Church officials hesitate to walk the streets at night. Many now argue that these men have outlived their usefulness."
  flavor_pap.39.a: "Disband the unit."
- flavor_pap.39.a.tt: "All [pops|e] in [ROOT.GetCountry.GetCapital.GetName] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
+ flavor_pap.39.a.tt: "All [Concept('pops','населення')|e] in [ROOT.GetCountry.GetCapital.GetName] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
  flavor_pap.39.b: "Ignore the problem and hope it resolves itself."
- flavor_pap.39.b.tt: "All [pops|e] in [ROOT.GetCountry.GetCapital.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
+ flavor_pap.39.b.tt: "All [Concept('pops','населення')|e] in [ROOT.GetCountry.GetCapital.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
  flavor_pap.39.historical_info: "By the mid-17th century, the Corsican Guard had become infamous for their uncontrollable behavior. Their strong sense of pride and loyalty led to frequent disputes, often escalating into violent brawls with other factions in Rome. One of the most infamous incidents occurred in 1662, when a Corsican Guard skirmish with the French ambassador's escort led to an international scandal. The resulting diplomatic outrage, combined with their continued reckless behavior, forced Pope Alexander VII to dissolve the Corsican Guard in 1662."
  
  flavor_pap.40.title: "Strengthening the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Navy"
  flavor_pap.40.desc: "The growing naval dominance of our adversaries threatens the security of our coasts and the safety of [ROOT.GetCountry.GetAdjective] lands. With enemy fleets expanding their reach, it has become clear that we must reinforce our naval forces to defend the faith and secure our influence over the Mediterranean. Many important figures are now pushing for a new naval initiative to increase our fleet's size and contribute to the [ShowReligionGroupAdjective('christian')|U] efforts to keep the Mediterranean safe."
  flavor_pap.40.a: "Support the initiative."
- flavor_pap.40.a.tt: "#G [ROOT.GetVariable('total_gained_ships_variable').GetValue]#! galley [ships|e] will be mustered in [target_location.GetName]"
+ flavor_pap.40.a.tt: "#G [ROOT.GetVariable('total_gained_ships_variable').GetValue]#! galley [Concept('ships','кораблі')|e] will be mustered in [target_location.GetName]"
  flavor_pap.40.b: "The sea is not our battlefield."
  flavor_pap.40.historical_info: "During the 16th and 17th centuries, the Papal Navy underwent a significant expansion due to the rising threat of Ottoman naval supremacy in the Mediterranean. Recognizing the necessity of a strong fleet, Pope Sixtus V decreed the establishment of ten permanent warships to form the core of the Papal Navy. While relatively small in comparison to the fleets of Venice or Spain, Papal navy contributed to the Christendom's efforts and was victorious in numerous naval engagements."
  
@@ -258,7 +258,7 @@
  flavor_pap.1201.desc: "Missionaries from far across the sea have sailed to our lands, bringing gifts to the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and exhibiting various mechanical inventions from Europe. They also exhibited great knowledge by creating a huge map of the world and proposing sound ideas for calendar reform. But they also brought with them strange religious and philosophical ideas, which may disrupt the traditional order of China. Should these missionaries be allowed to stay?"
  flavor_pap.1201.a: "Yes, we may benefit from their learning"
  flavor_pap.1201.b: "No, their foreign ideas are not acceptable in our society"
- all_catholic_will_love_tt: "All [ShowReligionAdjective('catholic')] [countries|e] which have discovered us receive [ShowBiasValue('opinion_accepted_jesuits')|+=0] [opinion|e] of [ROOT.GetCountry.GetName]"
+ all_catholic_will_love_tt: "All [ShowReligionAdjective('catholic')] [Concept('countries','держави')|e] which have discovered us receive [ShowBiasValue('opinion_accepted_jesuits')|+=0] [opinion|e] of [ROOT.GetCountry.GetName]"
 
  flavor_pap.1300.title: "Mission To [ShowRegionNameWithNoTooltip('japan_region')]"
  flavor_pap.1300.desc: "The legendary lands of [ShowRegionName('japan_region')] are beckoning us, crying out for salvation. We should seek out these islands of the Far East, and spread the Good News among their people."
@@ -326,8 +326,8 @@
  flavor_pap.1800.desc: "The fall of [ShowLocationName('constantinople')] sent shock waves throughout the [ShowReligionGroupAdjective('christian')] world, altering the balance of regional power and giving one of Christianity's most important sites to the hands of the infidel. Despite numerous military attempts to halt the [GetCountry('TUR').GetAdjective] expansion, our efforts have been met with little success.\n\nIn light of this, a bold suggestion has emerged: rather than continue a fruitless conflict, we should consider a diplomatic approach. It has been proposed that we send a letter to [ottoman_ruler.GetName], urging him to convert to [ShowReligionName('catholic')]. In return, we would recognize him as the legitimate Emperor of Rome, potentially uniting the faith under one banner and stabilizing the region."
  flavor_pap.1800.a: "This is madness!"
  flavor_pap.1800.b: "This is madness! But let us give it a try..."
- suffer_100_opinion_with_every_muslim_in_range_tt: "Every known [ShowReligionGroupAdjective('muslim')] [country|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_betrayed_the_true_faith')|-=0] [opinion|e] of us."
- gain_50_opinion_with_every_christian_in_range_tt: "Every known [ShowReligionGroupAdjective('christian')] [country|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_embraced_the_true_faith')|+=0] [opinion|e] of us."
+ suffer_100_opinion_with_every_muslim_in_range_tt: "Every known [ShowReligionGroupAdjective('muslim')] [Concept('country','держава')|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_betrayed_the_true_faith')|-=0] [opinion|e] of us."
+ gain_50_opinion_with_every_christian_in_range_tt: "Every known [ShowReligionGroupAdjective('christian')] [Concept('country','держава')|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_embraced_the_true_faith')|+=0] [opinion|e] of us."
  flavor_pap.1800.historical_info: "In 1461, Pope Pius II wrote a letter to Sultan Mehmed II of the Ottoman Empire, offering him the chance to convert to Christianity. In return, the Pope promised Mehmed Papal blessings, recognition as the legitimate ruler of Christian lands he controlled, and support in his future endeavors. The letter was, however, never delivered to the Sultan, and was likely only circulated among Christians in Europe." 
 
  flavor_pap.1801.title: "The Offer of the Roman Crown"
@@ -346,7 +346,7 @@
  flavor_pap.9000.title: "Papal State"
  flavor_pap.9000.desc: "The deep devotion of the Roman Catholics in Rome has awakened a desire for an independent state ruled by Popes of the Church. A large part of the population has expressed support for the idea of such an establishment and has now turned to [ROOT.GetCountry.GetGovernment.GetRuler.GetName] for approval."
  flavor_pap.9000.a: "We will never support such a state"
- every_catholic_hates_us_tt: "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('opinion_declined_independent_state_support')|+=0]"
+ every_catholic_hates_us_tt: "Every [ShowReligionAdjective('catholic')] [Concept('country','держава')|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('opinion_declined_independent_state_support')|+=0]"
  flavor_pap.9000.b: "Rome is rightfully theirs"
 
  flavor_pap.9001.title: "The Papal State"

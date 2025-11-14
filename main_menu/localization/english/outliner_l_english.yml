@@ -1,5 +1,5 @@
 ﻿l_english:
- OUTLINER_SHOWHIDE_TOOLTIP: "#T Перемкнути оглядач#!\nОглядач містить швидкий доступ та інформацію про статус важливих речей, таких як наші [armies|e], [navies|e], бої, нелояльні персонажі та багато іншого."
+ OUTLINER_SHOWHIDE_TOOLTIP: "#T Перемкнути оглядач#!\nОглядач містить швидкий доступ та інформацію про статус важливих речей, таких як наші [Concept('armies','армії')|e], [navies|e], бої, нелояльні персонажі та багато іншого."
  OUTLINER_SETTINGS: "#T Налаштування оглядача#!\nВідкриває меню, яке дозволяє налаштувати, що ви хочете бачити у своєму оглядачі."
  
  OUTLINER_CATEGORY_NAME_PLAYER: "Гравці"
@@ -87,9 +87,9 @@
  OUTLINER_ITEM_DIPLOMACY_CURRY_FAVORS_TOOLTIP: "ЛКМ: відкрити дипломатичні дії, ПКМ: скасувати здобуття послуг"
  OUTLINER_ITEM_DIPLOMACY_ANNEXATION: "[annexation|e]"
  OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COUNTRY: "Анексія"
- OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COUNTRY_TOOLTIP: "Анексія [country|e]"
+ OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COUNTRY_TOOLTIP: "Анексія [Concept('country','держава')|e]"
  OUTLINER_ITEM_DIPLOMACY_ANNEXATION_TOOLTIP: "ЛКМ: відкрити дипломатичні дії, ПКМ: скасувати анексію"
- OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COST_BASE_TT: "#T Вартість анексії#!\nВід [locations|e]: $COST$"
+ OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COST_BASE_TT: "#T Вартість анексії#!\nВід [Concept('locations','райони')|e]: $COST$"
  OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COST_MODIFIER_TT: "$MODIFIER$: $VALUE|2-=%$"
  OUTLINER_ITEM_DIPLOMACY_ANNEXATION_COST_MINIMUM_COST_TT: "Мінімальна вартість: $VALUE$"
 
@@ -132,14 +132,14 @@
  OUTLINER_CATEGORY_PRODUCTION_TRADES_TOOLTIP: "Перемкнути поточну торгівлю"
  OUTLINER_CATEGORY_PRODUCTION_ESTATE_BUILDINGS: "Будівництво будівель станами"
  OUTLINER_TEXT_PRODUCTION_ESTATE_BUILDINGS: "(Будує: $ESTATE$)"
- OUTLINER_TYPE_PRODUCTION_ESTATE_BUILDINGS: "В процесі: $AMOUNT$ [BUILDING_TYPE.GetName] [buildings|e], побудованих [estates|e]"
+ OUTLINER_TYPE_PRODUCTION_ESTATE_BUILDINGS: "В процесі: $AMOUNT$ [BUILDING_TYPE.GetName] [Concept('buildings','будівлі')|e], побудованих [Concept('estates','стани')|e]"
  OUTLINER_CATEGORY_PRODUCTION_ESTATE_BUILDINGS_TOOLTIP: "Перемкнути будівництво будівель станами"
  OUTLINER_CATEGORY_PRODUCTION_BUILDINGS: "Будівництво будівель"
  OUTLINER_CATEGORY_PRODUCTION_BUILDINGS_TOOLTIP: "Перемкнути будівництво будівель"
- OUTLINER_TYPE_PRODUCTION_BUILDINGS: "В процесі: $AMOUNT$ [BUILDING_TYPE.GetName] [buildings|e]"
- OUTLINER_TYPE_PRODUCTION_RGO_BUILDINGS: "В процесі: $AMOUNT$ [rgo|e] [buildings|e]"
- OUTLINER_TYPE_PRODUCTION_RGO_BUILDINGS_TOOLTIP: "Перемкнути всі [rgo|e] [buildings|e]"
- OUTLINER_TYPE_PRODUCTION_BUILDINGS_TOOLTIP: "Перемкнути всі [BUILDING_TYPE.GetName] [buildings|e]"
+ OUTLINER_TYPE_PRODUCTION_BUILDINGS: "В процесі: $AMOUNT$ [BUILDING_TYPE.GetName] [Concept('buildings','будівлі')|e]"
+ OUTLINER_TYPE_PRODUCTION_RGO_BUILDINGS: "В процесі: $AMOUNT$ [rgo|e] [Concept('buildings','будівлі')|e]"
+ OUTLINER_TYPE_PRODUCTION_RGO_BUILDINGS_TOOLTIP: "Перемкнути всі [rgo|e] [Concept('buildings','будівлі')|e]"
+ OUTLINER_TYPE_PRODUCTION_BUILDINGS_TOOLTIP: "Перемкнути всі [BUILDING_TYPE.GetName] [Concept('buildings','будівлі')|e]"
  OUTLINER_ITEM_PRODUCTION_DAYS_LEFT: "$DAYS|0$ днів"
  OUTLINER_ITEM_PRODUCTION_DAYS_LEFT_QUEUED: "$DAYS$ днів (+$QUEUED$)"
  OUTLINER_ITEM_PRODUCTION_IN_QUEUE: "У черзі"
@@ -217,7 +217,7 @@
  OUTLINER_AGENDA_ALERTS: "Сповіщення"
 
  #Law tooltip
- OUTLINER_LAW_SIDEMENU: "Натисніть, щоб обрати [policy|e] для"
+ OUTLINER_LAW_SIDEMENU: "Натисніть, щоб обрати [Concept('policy','політика')|e] для"
 
 
  # Construction names.. map tooltips and on c
@@ -239,6 +239,6 @@
  ARMY_LEVY_IN: "Збір [army_levy|e] у $PROV$"
  NAVY_LEVY_IN: "Збір [navy_levy|e] у $PROV$"
  MERCENARY_ARMY_NAVY_ARMY_RECRUIT_SHORT: "Найм"
- MERCENARY_ARMY_RECRUIT: "Найм [CHARACTER.GetNameWithNoTooltip] для збору [army|e]"
+ MERCENARY_ARMY_RECRUIT: "Найм [CHARACTER.GetNameWithNoTooltip] для збору [Concept('army','армія')|e]"
  MERCENARY_NAVY_RECRUIT: "Найм [CHARACTER.GetNameWithNoTooltip] для збору [navy|e]"
 

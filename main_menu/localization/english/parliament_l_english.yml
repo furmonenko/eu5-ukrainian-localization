@@ -7,7 +7,7 @@
  IO_PARLIAMENT_DURATION_TXT: "#T [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetName] in Session#!\nDebating [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebate.GetName] for another [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetRemainingParliamentDuration|W] days in @location![InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentLocation.GetName]."
  PARLIAMENT_ISSUE_WILL_FAIL: "#T Issue Will Fail#!\n@trigger_no! The [Player.GetGovernment.GetParliament.GetName] will #R NOT#! pass the [Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]."
  PARLIAMENT_ISSUE_WILL_NOT_FAIL: "#T Issue Will Pass#!\nThe [Player.GetGovernment.GetParliament.GetName] will pass the [Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]."
- HOSTILE_PARLIAMENT_MARKER: "#T Hostile [ParliamentMarker.GetGovernment.GetParliament.GetName] in Session#!\nCan be interrupted by [occupying|e] the [location|e]."
+ HOSTILE_PARLIAMENT_MARKER: "#T Hostile [ParliamentMarker.GetGovernment.GetParliament.GetName] in Session#!\nCan be interrupted by [occupying|e] the [Concept('location','район')|e]."
 
  PARLIAMENT_NEVER_CALLED: "The $NAME$ has not been called."
  PARLIAMENT_CALLED_DATE: "The $NAME$ was called $WHEN|Y$ ago "
@@ -51,25 +51,25 @@
 
  #Actions
  call_parliament: "Call Parliament"
- call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\nDuring this session we will get the following effects:\n[ShowModifierEffect('parliament_in_session')]\n\n$select_parliament_location_inform_choice_tt$"
+ call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [Concept('policies','політики')|e] in our [Concept('laws','закони')|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\nDuring this session we will get the following effects:\n[ShowModifierEffect('parliament_in_session')]\n\n$select_parliament_location_inform_choice_tt$"
  
  request_more_taxes: "Request Additional Taxes"
- request_more_taxes_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] from the [estates|e]."
+ request_more_taxes_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] from the [Concept('estates','стани')|e]."
  
  ask_for_larger_levies: "Ask for Larger Levies"
- ask_for_larger_levies_desc: "Asking the [estates|e] of our [Player.GetGovernment.GetParliament.GetName] to provide larger [army_levies|e] and [navy_levies|e] when called upon."
+ ask_for_larger_levies_desc: "Asking the [Concept('estates','стани')|e] of our [Player.GetGovernment.GetParliament.GetName] to provide larger [army_levies|e] and [navy_levies|e] when called upon."
  
  ask_for_law_changes: "Ask for Law Changes"
- ask_for_law_changes_desc: "Asking the [estates|e] to approve us changing a specific [policy|e] in our [laws|e]."
- ask_for_law_changes_select_law_title: "Select a [law|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
- ask_for_law_changes_select_policies_title: "Select a [policy|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
+ ask_for_law_changes_desc: "Asking the [Concept('estates','стани')|e] to approve us changing a specific [Concept('policy','політика')|e] in our [Concept('laws','закони')|e]."
+ ask_for_law_changes_select_law_title: "Select a [Concept('law','закон')|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
+ ask_for_law_changes_select_policies_title: "Select a [Concept('policy','політика')|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
  
  
- prepare_for_war_select_title: "Select [country|e] to gain a [casus_belli|e] on"
- prepare_for_war_select_province_title: "Select [province|e] to set as the [war_goal|e]"
- select_a_country_to_get_casus_belli_on: "Select a [country|e] that our [Player.GetGovernment.GetParliament.GetName] will grant us a [casus_belli|e] on."
+ prepare_for_war_select_title: "Select [Concept('country','держава')|e] to gain a [casus_belli|e] on"
+ prepare_for_war_select_province_title: "Select [Concept('province','провінція')|e] to set as the [war_goal|e]"
+ select_a_country_to_get_casus_belli_on: "Select a [Concept('country','держава')|e] that our [Player.GetGovernment.GetParliament.GetName] will grant us a [casus_belli|e] on."
  prepare_for_war: "Fabricate Casus Belli"
- prepare_for_war_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to approve a [war|e] by giving us a legitimate [casus_belli|e].\n• We will choose a country to get a [ShowCasusBelliName('cb_fabricated_conquer_province')] [casus_belli|e]"
+ prepare_for_war_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to approve a [Concept('war','війна')|e] by giving us a legitimate [casus_belli|e].\n• We will choose a country to get a [ShowCasusBelliName('cb_fabricated_conquer_province')] [casus_belli|e]"
  PARLIAMENT_IN_SESSION: "[Player.GetGovernment.GetParliament.GetName] in Session"
 
  #Issues
@@ -84,7 +84,7 @@
  promote_fortress_building_desc: "$promote_castle_building_desc$"
  sponsor_a_university: "Sponsor a $university$"
  sponsor_a_university_desc: "The dissemination of knowledge in the pursuit of mental enlightenment and comprehension of the divine is a pure goal and one we must back with all our financial and political might by establishing liturgical institutions of great recognition."
- pops_in_province_gain_20_satisfaction: "[pops|e] in the [province|e] of this [location|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]."
+ pops_in_province_gain_20_satisfaction: "[Concept('pops','населення')|e] in the [Concept('province','провінція')|e] of this [Concept('location','район')|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]."
  sponsor_a_confucian_academy: "Sponsor a $confucian_academy$"
  sponsor_a_confucian_academy_desc: "To pursue higher knowledge and offer our scholars an extensive infrastructure for their work, we should invest into our academies."
  sponsor_a_cathedral: "Sponsor a $cathedral$"
@@ -259,11 +259,11 @@
  
  tolerance_of_non_hindus: "Tolerance of Heathens"
  tolerance_of_non_hindus_desc: "With our realm being a multireligious one, and our ruler being a believer in tolerance, we should allow these different beliefs in our nation."
- VIJ_ALL_NON_HINDU_POPS_GAIN_SATISFACTION: "All our [heretics|e] and [heathen|e] [pops|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]." 
+ VIJ_ALL_NON_HINDU_POPS_GAIN_SATISFACTION: "All our [heretics|e] and [heathen|e] [Concept('pops','населення')|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]." 
  
  increase_non_hindu_control: "Control over the Heathens"
  increase_non_hindu_control_desc: "Rather than allowing our nation to be filled with many different faiths, we should try to control them further lest they rebel."
- VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL: "All our [locations|e] with at least #Y 5%#! [heretics|e] or [heathen|e] [pops|e] will gain [ShowNamedValue('control_mild_bonus')|+=2%] [control|e]."
+ VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL: "All our [Concept('locations','райони')|e] with at least #Y 5%#! [heretics|e] or [heathen|e] [Concept('pops','населення')|e] will gain [ShowNamedValue('control_mild_bonus')|+=2%] [control|e]."
  dlh_famine_reductions: "Combat Famines"
  dlh_famine_reductions_desc: "Instead of sitting idly whilst the population starves, we should provide aid for any location which may be lacking food."
  new_model_army_pi: "New Model Army"
@@ -279,7 +279,7 @@
 
  lit_measures_against_romuva: "Measures Against $romuva_ADJ$ Resurgence"
  lit_measures_against_romuva_desc: "With the resurgency of the [ShowReligionAdjective('romuva')] faith, many are worried that they may try and cause unrest. We need to summon the estates to deal with this matter."
- lit_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! of [ShowReligionAdjective('romuva')] [pops|e] will convert to [ROOT.GetCountry.GetReligion.GetName]"
+ lit_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! of [ShowReligionAdjective('romuva')] [Concept('pops','населення')|e] will convert to [ROOT.GetCountry.GetReligion.GetName]"
 
 
  ### IO Parliament Issues ###
@@ -293,10 +293,10 @@
  hre_roman_month_modifier_effect: "[ShowModifierEffect('pi_hre_increased_imperial_tax_modifier')]"
  hre_demand_internal_peace: "Demand Internal Peace"
  hre_demand_internal_peace_desc: "The authority of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is undermined due to internal conflicts within the [GetUniqueInternationalOrganization('hre').GetName]. It is in the Empire's interest to enforce internal peace and stability."
- hre_demand_internal_peace_tt: "Every [member|e] signs a [white_peace|e] in every [war|e] which has another [member] of the [THIS.GetInternationalOrganization.GetName]"
+ hre_demand_internal_peace_tt: "Every [member|e] signs a [white_peace|e] in every [Concept('war','війна')|e] which has another [member] of the [THIS.GetInternationalOrganization.GetName]"
  hre_establish_perpetual_diet: "Establish the Perpetual Diet"
  hre_establish_perpetual_diet_desc: "$perpetual_diet_law_desc$"
- hre_establish_perpetual_diet_tt: "The [parliament_seat|e] of [GetUniqueInternationalOrganization('hre').GetName] becomes the only valid [location|e] to hold the [parliament|e] in."
+ hre_establish_perpetual_diet_tt: "The [parliament_seat|e] of [GetUniqueInternationalOrganization('hre').GetName] becomes the only valid [Concept('location','район')|e] to hold the [parliament|e] in."
  hre_force_emperor_to_abdicate: "Force Emperor to Abdicate"
  hre_force_emperor_to_abdicate_desc: "The rule of the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] has been judged by the [ShowSpecialStatusNamePlural('elector')] as insufficient. The Imperial Diet has been called to discuss the future of the leadership of the [GetUniqueInternationalOrganization('hre').GetName]."
 
@@ -309,12 +309,12 @@
  #Agenda to add a privilege for the estate
  pa_add_privilege: "Grant Privilege"
  pa_add_privilege_simple: "Bribe Estate"
- pa_add_privilege_desc: "Sometimes you have to give permanent benefits to an [estate|e] to gain their support for something in the shorter term."
+ pa_add_privilege_desc: "Sometimes you have to give permanent benefits to an [Concept('estate','стан')|e] to gain their support for something in the shorter term."
 
  #Agenda to change a policy prefered by the estate
  pa_change_policy: "Change Policy"
  pa_change_policy_simple: "Bribe Estate"
- pa_change_policy_desc: "This [estate|e] takes issue with our current [policy|e] and would be more supportive if we alter our position to something more preferable."
+ pa_change_policy_desc: "This [Concept('estate','стан')|e] takes issue with our current [Concept('policy','політика')|e] and would be more supportive if we alter our position to something more preferable."
 
  #Societal value changes
  #<Push Towards> and <Move Towards> Loc
@@ -622,7 +622,7 @@
  pa_lessen_levy_obligations_for_peasants_desc: "$lessen_levy_obligations_desc$"
 
  #Institution Agendas
- pa_resist_institution_desc: "This [estate|e] wants us to act against the spread of"
+ pa_resist_institution_desc: "This [Concept('estate','стан')|e] wants us to act against the spread of"
  pa_rest_institution_end_desc: "in our country."
  pa_resist_feudalism: "Contain $feudalism$"
  pa_resist_feudalism_desc: "$pa_resist_institution_desc$ $feudalism$ $pa_rest_institution_end_desc$"
@@ -726,41 +726,41 @@
  pa_construct_monastery_desc: "Prominent clergymen are petitioning us to construct a remote monastic refuge for them to practice their faith in peace."
  pa_construct_market_village: "Demand for a New Marketplace"
  pa_construct_market_village_simple: "Demand for New Marketplaces"
- pa_construct_market_village_desc: "The [estate|e] is petitioning us to construct a new $market_village$ for their mercantile activities."
+ pa_construct_market_village_desc: "The [Concept('estate','стан')|e] is petitioning us to construct a new $market_village$ for their mercantile activities."
 
  #Diplomatic Agendas
  pa_break_alliance: "Break Alliance"
  pa_break_alliance_simple: "$pa_break_alliance$"
- pa_break_alliance_desc: "This alliance is against the interest of this [estate|e] and they think it would be beneficial if the [alliance|e] was broken."
+ pa_break_alliance_desc: "This alliance is against the interest of this [Concept('estate','стан')|e] and they think it would be beneficial if the [Concept('alliance','союз')|e] was broken."
  pa_reduce_opinion: "Reduce Opinion"
  pa_reduce_opinion_simple: "$pa_reduce_opinion$"
- pa_reduce_opinion_desc: "The mere thought of establishing relations with this country enrages this [estate|e] and they demand a strongly worded letter addressed at their ruler this instant."
+ pa_reduce_opinion_desc: "The mere thought of establishing relations with this country enrages this [Concept('estate','стан')|e] and they demand a strongly worded letter addressed at their ruler this instant."
  opinion_pa_reduce_opinion: "Insulted on estate request"
  pa_raise_opinion: "Increase Opinion"
  pa_raise_opinion_simple: "$pa_raise_opinion$"
- pa_raise_opinion_desc: "This [estate|e] would prefer if we establish relations with this country to whatever purpose they have in mind."
+ pa_raise_opinion_desc: "This [Concept('estate','стан')|e] would prefer if we establish relations with this country to whatever purpose they have in mind."
  opinion_pa_raise_opinion: "Courted on estate request"
  opinion_anti_scaligeri_league: "$antagonism_anti_scaligeri_league$"
 
  #Military Agendas
  pa_rethink_army_academy: "Shake up Army Academy"
  pa_rethink_army_academy_simple: "$pa_rethink_army_academy$"
- pa_rethink_army_academy_desc: "This [estate|e] is unhappy with the current principles of our military academy and wants us to re-evaluate their teachings."
+ pa_rethink_army_academy_desc: "This [Concept('estate','стан')|e] is unhappy with the current principles of our military academy and wants us to re-evaluate their teachings."
  pa_rethink_navy_academy: "Shake up Naval Academy"
  pa_rethink_navy_academy_simple: "$pa_rethink_navy_academy$"
  pa_rethink_navy_academy_desc: "$pa_rethink_army_academy_desc$"
  pa_reduce_land_recruitment: "Reduce Army Recruitment"
  pa_reduce_land_recruitment_simple: "$pa_reduce_land_recruitment$"
- pa_reduce_land_recruitment_desc: "The members of this [estate|e] are concerned with our intensive recruitment for the military and want to reduce the amount of people pressed into service."
+ pa_reduce_land_recruitment_desc: "The members of this [Concept('estate','стан')|e] are concerned with our intensive recruitment for the military and want to reduce the amount of people pressed into service."
  pa_reduce_naval_recruitment: "Reduce Navy Recruitment"
  pa_reduce_naval_recruitment_simple: "$pa_reduce_naval_recruitment$"
- pa_reduce_naval_recruitment_desc: "The members of this [estate|e] are concerned with our intensive recruitment for the navy and want to reduce the amount of people pressed into service."
+ pa_reduce_naval_recruitment_desc: "The members of this [Concept('estate','стан')|e] are concerned with our intensive recruitment for the navy and want to reduce the amount of people pressed into service."
 
  #$mamluk$ Actions
  promote_mamluks: "Promote a $mamluk$"
  promote_mamluks_desc: "Elite soldiers that are capable of prime positions in our administration, $mamluk$ soldiers and holders of the office are the backbone of our stratocratic administration and wield tremendous influence."
  new_mamluk_appears_tt: "#Y A new $mamluk$ will be promoted#!"
- promote_mamluks_tt: "New $mamluk$ candidates will appear through an [event|e]"
+ promote_mamluks_tt: "New $mamluk$ candidates will appear through an [Concept('event','подія')|e]"
 
  ### IO Parliament Agendas ###
  #HRE
@@ -770,7 +770,7 @@
  pa_hre_elevate_prussia_to_kingdom: "Elevate [GetCountry('PRU').GetNameWithNoTooltip] to a [ShowCountryRankNameWithNoTooltip('rank_kingdom')]"
  pa_hre_elevate_prussia_to_kingdom_simple: "Elevate [GetCountry('PRU').GetNameWithNoTooltip]"
  pa_hre_elevate_prussia_to_kingdom_desc: "The monarchs of [GetCountry('PRU').GetName] have always been ambitious in their strife towards power and glory. They formally requested the title of Kings even, though in the end they have to live as 'Kings in [GetCountry('PRU').GetNameWithNoTooltip]'. Elevating this country to a proper [ShowCountryRankName('rank_kingdom')] might gain us the last bit of favor though..."
- pa_hre_elevate_prussia_to_kingdom_tt: "[GetCountry('PRU').GetName] receives an [event|e] about our decision."
+ pa_hre_elevate_prussia_to_kingdom_tt: "[GetCountry('PRU').GetName] receives an [Concept('event','подія')|e] about our decision."
  pa_hre_grant_imperial_titles: "Grant Imperial Titles"
  pa_hre_grant_imperial_titles_simple: "$pa_hre_grant_imperial_titles$"
  pa_hre_grant_imperial_titles_desc: "The $elector_plural$ would greatly appreciate additional titles and prestige from the crown."

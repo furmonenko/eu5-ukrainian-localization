@@ -30,7 +30,7 @@
  artist_events.5.title: "A Champion of the Novel Arts"
  artist_events.5.desc: "Our people are known for their aptitude towards fine arts, particularly those that pertain to writing, etching our name and social footprint in the pages of history books. Few have reached such prominence to the level of [target_character.GetName], whose skills with the pen are fabled and move our people by the thousands. [target_character.GetHerHis|U] latest work exalts our recent history as well as our noble nature, an ode to our forefathers and a sharing of knowledge for our descendants."
  artist_events.5.a: "What a time to be alive!"
- artist_events.5.tt: "All our [pops|e] that reside in the [province|e] of our [capital|e] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]"
+ artist_events.5.tt: "All our [Concept('pops','населення')|e] that reside in the [Concept('province','провінція')|e] of our [Concept('capital','столиця')|e] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]"
  artist_events.5.b: "[target_character.GetHerHis|U]'s art will fetch a nice price."
 
  artist_events.6.title: "The Wall Art of [target_character.GetNameWithNoTooltip]"
@@ -109,7 +109,7 @@
  artist_events.21.title: "Life in the City"
  artist_events.21.desc: "The development of urban centers across our [ROOT.GetCountry.GetFlavorRank] has led to many boons experienced by our society. However, along with this new wave of centralization come the downsides of living in a highly urbanized environment. Originally designed by the guild spearheaded by [target_character.GetName], [target_location.GetName] has turned into a nightmarishly cramped and outright horrid place to live in."
  artist_events.21.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
- artist_events.21.tt: "All our [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ artist_events.21.tt: "All our [Concept('pops','населення')|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
 
  artist_events.22.title: "A Modernized Urban Center"
  artist_events.22.desc: "Many settlements within our domain are adorned with beautiful and newly-erected constructs. Among them, [target_location.GetName] has recently begun to attract many people from far away, due to the architectural works of [target_character.GetName], whose planning and designs have given [target_location.GetNameWithNoTooltip] a much-needed improvement."
@@ -160,7 +160,7 @@
  artist_events.32.title: "The Display of New Iconography in [target_location.GetNameWithNoTooltip]"
  artist_events.32.desc: "Works of faith and art hold considerable sway and power within our borders. As a result, when [target_character.GetName] unveiled [target_character.GetHerHis] new line of icons, folk of the [ROOT.GetCountry.GetReligion.GetAdjective] faith in [target_location.GetName] rejoiced at the sight of such remarkable beauty."
  artist_events.32.a: "It is but a sign of our artistic intellect and profound strength of faith."
- artist_events.32.tt: "All [ROOT.GetCountry.GetReligion.GetAdjective] [pops|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]"
+ artist_events.32.tt: "All [ROOT.GetCountry.GetReligion.GetAdjective] [Concept('pops','населення')|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]"
 
  artist_events.33.title: "Commissioning the Wrong People"
  artist_events.33.desc: "Affluent members of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have recently commissioned a series of icons by [target_character.GetName]. Despite the works finishing somewhat early, they have been incredibly vocal regarding the lack of care, professionalism, and expertise that is evident upon looking at the iconographer's work. Their anger may bring unforeseen consequences as they hold much sway in religious matters within our society."
@@ -180,8 +180,8 @@
  artist_events.36.desc: "For quite some time, [target_character.GetName] has been inquiring in a potential sponsorship that would help [target_character.GetHerHis] metallurgical skills. According to [target_character.GetHerHim], a set of metalsmithing lessons in [target_location.GetName] would go a long way to developing the smithing craft. Many of our advisors are fairly open to sponsoring this knowledge-seeking venture that [target_character.GetShortNameWithNoTooltip] has embarked on."
  artist_events.36.a: "Very well, fund [target_character.GetHerHis] studies!"
  artist_events.36.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
- based_on_same_culture_highest_lit_pop_tt: "The [artistic_skill|e] gained depends on the average [literacy|e] of [pops|e] that share the [culture|e] of the [artist|e], currently these are [target_pop.GetName]"
- based_on_country_average_literacy_tt: "The [artistic_skill|e] gained depends on the average [literacy|e] of our [country|e]"
+ based_on_same_culture_highest_lit_pop_tt: "The [artistic_skill|e] gained depends on the average [literacy|e] of [Concept('pops','населення')|e] that share the [Concept('culture','культура')|e] of the [artist|e], currently these are [target_pop.GetName]"
+ based_on_country_average_literacy_tt: "The [artistic_skill|e] gained depends on the average [literacy|e] of our [Concept('country','держава')|e]"
 
  artist_events.37.title: "[target_character.GetShortNameWithNoTooltip] Suggests Improvements"
  artist_events.37.desc: "[target_character.GetName] has recently suggested an elaborate plan to further boost the production of [target_material.GetName] in [target_location.GetName]. Under [target_character.GetHerHis] supervision, the volume of raw material extracted is forecasted to improve greatly for the duration of [target_character.GetHerHis] stay in the location. However, [target_character.GetSheHe] will not be available to commission our art on demand, in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
@@ -194,7 +194,7 @@
  artist_events.38.a: "[target_character.GetHerHis|U] work will compliment our offensive efforts."
  artist_events.38.b: "Seek to improve our infrastructure."
  artist_events.38.c: "Let our scholars and artists study and learn from such techniques."
- depends_on_prosp_artist_skill_and_control_tt: "The [development|e] gained depends upon the [control|e] and [prosperity|e] of the [locations|e] as well as the skill of the [artist|e]"
+ depends_on_prosp_artist_skill_and_control_tt: "The [development|e] gained depends upon the [control|e] and [prosperity|e] of the [Concept('locations','райони')|e] as well as the skill of the [artist|e]"
 
  artist_events.39.title: "The Deafening Sound of Progress"
  artist_events.39.desc: "[target_character.GetName] has become infamous for [target_character.GetHerHis] relentless hammering, forging from dawn until dusk. While [target_character.GetHerHis] work is of undeniable quality, the ceaseless noise has driven courtiers, advisors, and even the local animals to distraction.\n\nComplaints range from sleepless nights to disrupted poetry readings. [target_character_2.GetName] demands the metalsmith be relocated or silenced, arguing [target_character_2.GetHerHis] activities are too valuable to interfere with."
@@ -217,7 +217,7 @@
  artist_events.42.a: "The lawful gaze of [target_character_2.GetShortNameWithNoTooltip] smites corruption."
  artist_events.42.b: "We cannot risk aggravating [target_character.GetShortNameWithNoTooltip] and [target_character.GetHerHis] backers."
  artist_events.42.c: "[target_character.GetSheHe|U] forgets [target_character.GetHerHis] place."
- depends_on_change_policy_cost_tt: "The [stability|e] paid greatly depends on the current [costs|e] to change a [policy|e] in a [law|e]"
+ depends_on_change_policy_cost_tt: "The [stability|e] paid greatly depends on the current [costs|e] to change a [Concept('policy','політика')|e] in a [Concept('law','закон')|e]"
  target_character_will_never_dare_again_tt: "The knowledge and oratory prowess of [target_character_2.GetShortName] leaves no room for naysayers and thus [target_character.GetShortName] will never again attempt such an underhanded move"
 
  artist_events.43.title: "Lawful Good"

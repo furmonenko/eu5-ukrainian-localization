@@ -33,7 +33,7 @@
  flavor_byz.8.title: "Turks driven from Anatolia!"
  flavor_byz.8.desc: "The forces of the [GetCountry('TUR').GetName] have been driven out of [ShowRegionName('anatolia_region')], which was once the seat of their power. With [ShowRegionNameWithNoTooltip('anatolia_region')] secured our prosperity is assured!"
  flavor_byz.8.a: "The Phoenix rises!"
- towns_and_cities_anatolia_get_pop_growth_tt: "[towns_and_cities|e] we own across [ShowRegionNameWithNoTooltip('anatolia_region')] will benefit from the [ShowModifier('repopulation_of_anatolia_modifier')] [modifier|e] for #Y 10#! years"
+ towns_and_cities_anatolia_get_pop_growth_tt: "[towns_and_cities|e] we own across [ShowRegionNameWithNoTooltip('anatolia_region')] will benefit from the [ShowModifier('repopulation_of_anatolia_modifier')] [Concept('modifier','модифікатор')|e] for #Y 10#! years"
 
  flavor_byz.9.title: "The [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s Western Tour"
  flavor_byz.9.desc: "The forces of the [GetCountry('TUR').GetName] have been encroaching on our great city for some time, and directly threaten our great city of [target_province.GetName]. Despite the rift between the Eastern and Western Churches, [ROOT.GetCountry.GetGovernment.GetRuler.GetName] proposes to lead a diplomatic mission to our fellow [ShowReligionGroupAdjective('christian')] people to the East, in an effort to secure enough funds to repel the [GetCountry('TUR').GetAdjectiveWithNoTooltip].\n\nAlthough likely a profitable venture, it will tarnish our reputation and make us appear weak."
@@ -88,7 +88,7 @@
  flavor_byz.18.title: "Fall of [GetCountry('BYZ').GetNameWithNoTooltip]"
  flavor_byz.18.desc: "With the fall of [GetCountry('BYZ').GetName], the [ShowCultureName('greek_culture')] world has been shaken. After months and months of being at the mercy of [target_country.GetName], the walls of [target_location.GetName] have fallen. The [target_country.GetAdjectiveWithNoTooltip] forces stormed the city and sacked it, cutting deep into the [ShowCultureNameWithNoTooltip('greek_culture')] population all around the globe. Although the phoenix is now gone, much of our populace has been wounded by this news, primarily the communities in [target_location2.GetName]."
  flavor_byz.18.a: "The Purple Phoenix is no more."
- BYZ_FALL_OF_BYZANTIUM_CONVERSION: "All of our [ShowCultureName('greek_culture')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ BYZ_FALL_OF_BYZANTIUM_CONVERSION: "All of our [ShowCultureName('greek_culture')] [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
 
 flavor_byz.19.title: "Protecting [ShowAreaNameWithNoTooltip('morea_area')]"
 flavor_byz.19.desc: "During the Fourth Crusade and the fall of [ShowLocationName('constantinople')], the lands of [ShowAreaName('morea_area')] were seized by the Franks as our Empire was split apart temporarily. Their influence in the region still stands, as there are still roaming mercenaries there, directly opposing our rule."
@@ -135,8 +135,8 @@ while_remains_chance_to_revive_hellenism_tt: "#italic While [target_artist.GetNa
 flavor_byz.26.title: "The [ShowCultureNameWithNoTooltip('greek_culture')] People of [target_location.GetNameWithNoTooltip]"
 flavor_byz.26.desc: "With our forces landing in [ShowAreaName('west_anatolia_area')] and reclaiming the ports there, [target_location.GetName] stands as amongst the greatest of them all. Being a hot spot between [ShowCultureName('turkish_culture')] and [ROOT.GetCountry.GetAdjective] people in the past, it has yet again fallen into our hands. [target_character.GetName] is planning on keeping the city for the foreseeable future though, and is already strengthening its position in [ShowRegionName('anatolia_region')]."
 flavor_byz.26.a: "It shall be our main port in [ShowAreaNameWithNoTooltip('west_anatolia_area')]."
-BYZ_SMYRNA_PEOPLE_CONVERT_TO_GREEK: "#G 20%#! of the [pops|e] will convert to [ShowCultureName('greek_culture')]"
-BYZ_SMYRNA_GREEKS_GAIN_SATISFACTION: "All [ShowCultureName('greek_culture')] [pops|e] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
+BYZ_SMYRNA_PEOPLE_CONVERT_TO_GREEK: "#G 20%#! of the [Concept('pops','населення')|e] will convert to [ShowCultureName('greek_culture')]"
+BYZ_SMYRNA_GREEKS_GAIN_SATISFACTION: "All [ShowCultureName('greek_culture')] [Concept('pops','населення')|e] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
 
 flavor_byz.27.title: "Decline of the [target_character.GetDynasty.GetNameWithNoTooltip] Renaissance"
 flavor_byz.27.desc: "Whilst in the past many great artists flocked into our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in a phenomenon that is called the [target_character.GetDynasty.GetName] Renaissance, in recent years there has been a decline, where great men choose to join other courts instead of ours. Perhaps [target_character.GetName] should invest in stopping this decline."
@@ -164,7 +164,7 @@ flavor_byz.31.title: "Reforming the [target_character.GetDynasty.GetNameWithNoTo
 flavor_byz.31.desc: "Whilst our army dominated in the past using the Themata and the numerous levies they provided, the increase in wealth and the centralization of realms has led to armies becoming a full-time profession. [target_character.GetName] with [target_character.GetHerHis] council has been hard at work drafting a new army organization, one that depends less on the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] for troops."
 flavor_byz.31.a: "The army shall serve [target_character.GetNameWithNoTooltip]."
 flavor_byz.31.b: "Let us not override the role of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
-BYZ_ALL_THEMATA_PROVINCES_GAIN_NOBLE_LOYALTY: "All [ShowPopTypeName('nobles')] [pops|e] in [locations|e] with [ShowBuildingTypeName('thema_headquarters')] gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]."
+BYZ_ALL_THEMATA_PROVINCES_GAIN_NOBLE_LOYALTY: "All [ShowPopTypeName('nobles')] [Concept('pops','населення')|e] in [Concept('locations','райони')|e] with [ShowBuildingTypeName('thema_headquarters')] gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]."
 
 flavor_byz.32.title: "Rise of [target_character2.GetNameWithNoTooltip]"
 flavor_byz.32.desc: "Although the current period of [ROOT.GetCountry.GetAdjective] history can be described as a small revival of the nation, it does not come without its share of problems. Although we have recently come out of a devastating Civil War, there are still new sides that are being formed. One of them rallies under the banner of [target_character2.GetName], our #italic Grand Domestic#!. Only time will tell what this will lead to."
@@ -297,8 +297,8 @@ flavor_byz.52.title: "Reforming the Corpus Juris Civilis"
 flavor_byz.52.desc: "Despite our [ROOT.GetCountry.GetFlavorRank] being sovereign, that has not stopped our [ROOT.GetCountry.GetGovernment.GetCourtTitle] from intervening in the [ROOT.GetCountry.GetFlavorRank]'s politics. Always meddling in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], their desires often contradict those of [target_character.GetName]. Perhaps by making changes in our laws we can limit their power in [ROOT.GetCountry.GetName]."
 flavor_byz.52.a: "Let us re-write it, even if we anger our estates."
 flavor_byz.52.b: "The code has served [ROOT.GetCountry.GetNameWithNoTooltip] for many centuries already."
-BYZ_NO_MORE_COURT_EVENTS: "The #Y Byzantine Court Influence#! [events|e] will no longer trigger."
-BYZ_COURT_EVENTS_WILL_CONTINUE: "The #Y Byzantine Court Influence#! [events|e] will continue triggering."
+BYZ_NO_MORE_COURT_EVENTS: "The #Y Byzantine Court Influence#! [Concept('events','події')|e] will no longer trigger."
+BYZ_COURT_EVENTS_WILL_CONTINUE: "The #Y Byzantine Court Influence#! [Concept('events','події')|e] will continue triggering."
 
 flavor_byz.53.title: "Fortifying the [ShowBuildingTypeNameWithNoTooltip('theodosian_walls')]"
 flavor_byz.53.desc: "Ever since the Latins sacked [target_province.GetName] in 1204, the [ShowBuildingTypeName('theodosian_walls')] have been reduced to a fraction of their old glory. Previously, we lacked the resources to properly maintain them, but right now in these dire times, we must make sure they are ready for an assault."
@@ -309,14 +309,14 @@ flavor_byz.54.title: "Dealing with the [ShowCultureGroupNameWithNoTooltip('itali
 flavor_byz.54.desc: "Although the [ShowCultureGroupName('italian_group')] [ShowPopTypeName('burghers')] have helped us in the past at re-populating [target_location.GetName], it has become clear that right now, they are exploiting the [target_market.GetName]. We must get rid of them from [target_location.GetNameWithNoTooltip] lest they continue their mischiefs."
 flavor_byz.54.a: "[target_location.GetNameWithNoTooltip] only belongs to [target_character.GetNameWithNoTooltip]!" 
 flavor_byz.54.b: "Let us not cause another war with the [ShowCultureGroupNameWithNoTooltip('italian_group')] nations..."
-BYZ_ALL_ITALIAN_MERCHANTS_BECOME_UNHAPPY: "All [ShowCultureGroupName('italian_group')] [pops|e] lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]."
-byz_destroy_italian_quarters_tt: "The [ShowBuildingTypeName('galata')] and [ShowBuildingTypeName('venetian_quarter')] [buildings|e] will be destroyed in [target_location.GetName]"
+BYZ_ALL_ITALIAN_MERCHANTS_BECOME_UNHAPPY: "All [ShowCultureGroupName('italian_group')] [Concept('pops','населення')|e] lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]."
+byz_destroy_italian_quarters_tt: "The [ShowBuildingTypeName('galata')] and [ShowBuildingTypeName('venetian_quarter')] [Concept('buildings','будівлі')|e] will be destroyed in [target_location.GetName]"
 
 flavor_byz.55.title: "The Council of [ShowLocationNameWithNoTooltip('florence')]"
 flavor_byz.55.desc: "With our decline in power, and the rising threats all around us, [target_character.GetName] has been thinking the unthinkable in all of [ROOT.GetCountry.GetAdjective] history. If the [ROOT.GetCountry.GetFlavorRank] is to survive, then we need the support of [target_character2.GetName] and the entire [ShowReligionAdjective('catholic')] world. Perhaps [target_character.GetNameWithNoTooltip] should travel west and negotiate with [target_character2.GetNameWithNoTooltip]."
 flavor_byz.55.a: "Even if a deal with [target_country.GetNameWithNoTooltip] angers the Patriarchy..."
 flavor_byz.55.b: "This is an outrageous suggestion."
-BYZ_ALL_ORTHODOX_BECOME_UNHAPPY: "All [ShowReligionAdjective('orthodox')] [pops|e] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]."
+BYZ_ALL_ORTHODOX_BECOME_UNHAPPY: "All [ShowReligionAdjective('orthodox')] [Concept('pops','населення')|e] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]."
 
 flavor_byz.57.title: "Restoring [ShowRegionNameWithNoTooltip('anatolia_region')] Cities"
 flavor_byz.57.desc: "Since the Seljuk invasion of [ShowRegionName('anatolia_region')] and the fall of our many provinces there, many of the old [ShowCultureName('greek_culture')] cities there have been reduced to nothing more but barbarian bases. With our reconquest of the region, however, perhaps we can restore [ROOT.GetCountry.GetAdjective] order there."
@@ -436,8 +436,8 @@ thessaloniki_uprising: "Zealots of Thessalonica"
 
 #General Use Tooltips:
 BYZ_DEAL_REJECTED: "#N The deal is rejected.#!"
-BYZ_THE_COST_WILL_SCALE_WITH_RULERS_ADM: "The amount of [gold|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [adm|e]."
-BYZ_THE_COST_WILL_SCALE_WITH_RULERS_MIL: "The amount of [gold|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [mil|e]."
+BYZ_THE_COST_WILL_SCALE_WITH_RULERS_ADM: "The amount of [Concept('gold','золото')|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [adm|e]."
+BYZ_THE_COST_WILL_SCALE_WITH_RULERS_MIL: "The amount of [Concept('gold','золото')|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [mil|e]."
 BYZ_STABILITY_DEPENDS_ON_RULER_ADM: "The amount of [stability|e] we gain will scale with [target_character.GetName]'s [adm|e]."
 
 flavor_byz.1502.title: "The Beliefs of [target_character.GetNameWithNoTooltip]"
@@ -447,7 +447,7 @@ flavor_byz.1502.b: "Will [target_character.GetHerHis] gods protect [target_chara
 flavor_byz.1502.c: "[target_character.GetSheHe|U] is far too important, allow [target_character.GetHerHim] to continue."
 flavor_byz.1502.d: "Perhaps [target_character2.GetShortNameWithNoTooltip] will heed [target_character.GetHerHis] teachings."
 flavor_byz.1502.e: "Maybe [target_character.GetSheHe] is right after all."
-every_true_faith_pop_loses_20_satisfaction_tt: "[pops|e] in [ROOT.GetCountry.GetCapital.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
+every_true_faith_pop_loses_20_satisfaction_tt: "[Concept('pops','населення')|e] in [ROOT.GetCountry.GetCapital.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
 everyone_converts_tt: "Every member of the family of [target_character2.GetName] will embrace [ShowReligionNameWithNoTooltip('hellenism_religion')]"
 
 flavor_byz.1503.title: "A Common Enemy"

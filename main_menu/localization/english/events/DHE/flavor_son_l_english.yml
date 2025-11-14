@@ -34,7 +34,7 @@ flavor_son.6.desc: "With our rise to power in [ShowRegionName('sahel_region')], 
 flavor_son.6.historical_info: "After its fall in a six-month siege against the Songhai Empire, Djenné was brought into the fold. Due to its location, it served as a key trade hub for the entirety of the Empire. Leo Africanus mentioned that it had an abundance of many goods and that its merchants imported from the Europeans regularly."
 flavor_son.6.a: "The [target_location.GetRank.GetNameWithNoTooltip] will see new levels of prosperity!"
 flavor_son.6.b: "Aiding the [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] people there? Never."
-son_all_clergy_pops_in_location_gain_satisfaction_tt: "All [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [pops|e] will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]"
+son_all_clergy_pops_in_location_gain_satisfaction_tt: "All [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [Concept('pops','населення')|e] will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]"
 
 flavor_son.7.title: "The [ShowPolicyNameWithNoTooltip('sharia_law_policy')]"
 flavor_son.7.desc: "With the split between [ShowReligionGroupAdjective('muslim')] people and the unbelievers in [ShowRegionName('guinea_region')], [target_character.GetName] has proposed enforcing [ShowPolicyName('sharia_law_policy')] onto any heathen. Its purpose is to better allow us to control the citizens of our nation."
@@ -73,7 +73,7 @@ flavor_son.1000.a: "We shall go to [ShowLocationNameWithNoTooltip('mecca')] with
 flavor_son.1000.b: "Let us bring a modest amount of gold with us."
 flavor_son.1000.c: "We only need to perform the Ḥajj, not show off our wealth."
 flavor_son.1000.d: "There is no need to go to [ShowLocationNameWithNoTooltip('mecca')]."
-son_begin_hajj_tt: "The Ḥajj to [ShowLocationName('mecca')] will begin. The [gold|e] spent will be part of the #Y Caravan#!"
+son_begin_hajj_tt: "The Ḥajj to [ShowLocationName('mecca')] will begin. The [Concept('gold','золото')|e] spent will be part of the #Y Caravan#!"
 son_no_hajj_tt: "We will not embark in the Ḥajj to [ShowLocationName('mecca')]"
 
 flavor_son.1001.title: "The Scholars of [ShowRegionNameWithNoTooltip('maghreb_region')]"
@@ -107,9 +107,9 @@ flavor_son.1006.title: "End of the Ḥajj"
 flavor_son.1006.desc: "After months of traveling to [ShowLocationName('mecca')] and performing the duties of a [ShowReligionGroupAdjective('muslim')] follower, we have finally returned home, ready to administrate [ROOT.GetCountry.GetName] yet again."
 flavor_son.1006.a: "Let us see what remains of the caravan..."
 
-son_show_hajj_money_tt: "Current [gold|e] in #Y Caravan#!: @gold! #G [THIS.GetVariable('hajj_money').GetValue]#!"
+son_show_hajj_money_tt: "Current [Concept('gold','золото')|e] in #Y Caravan#!: @gold! #G [THIS.GetVariable('hajj_money').GetValue]#!"
 
 son_continue_hajj_tt: "We will continue the #Y Ḥajj#!"
 
 
-son_all_remaining_gold_will_return_to_treasury_tt: "All of the remaining [gold|e] from the #Y Ḥajj#! will return to our [treasury|e]"
+son_all_remaining_gold_will_return_to_treasury_tt: "All of the remaining [Concept('gold','золото')|e] from the #Y Ḥajj#! will return to our [treasury|e]"

@@ -7,7 +7,7 @@
  buddhism_events.2.title: "Monastic Orders Agitating Populace"
  buddhism_events.2.desc: "As it is the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s duty to protect the monastic institutions, those institutions also ought to protect the country against bad rulers. Due to what they feel is lacking attentiveness to the duties of a [ROOT.GetCountry.GetGovernment.GetRulerTitle], and inability and disinterest in upholding and protecting the common good in general, and the monastic organizations of our country in particular, some of the more powerful monasteries have openly come out in condemnation of [target_character.GetName], turning popular opinion against [target_character.GetHerHim]."
  buddhism_events.2.a: "This is an outrage!"
- buddhism_events.2.a.tt: "[ShowPopTypeName('peasants')] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] in those [locations|e] where they can hear the complaints of the [ShowPopTypeName('clergy')]"
+ buddhism_events.2.a.tt: "[ShowPopTypeName('peasants')] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] in those [Concept('locations','райони')|e] where they can hear the complaints of the [ShowPopTypeName('clergy')]"
  buddhism_events.2.b: "Make them some concessions."
  buddhism_events.2.c: "Solve it through 'alternative' means."
 
@@ -86,9 +86,9 @@
  buddhism_events.15.desc: "The island of [ShowAreaName('sailan_area')], recently conquered by our troops, is full of rich [ShowReligionGroupAdjective('buddhist')] monasteries and society seems to be practically run by the monks within them. As [target_ruler.GetName] has finally gotten to visit them, [target_ruler.GetSheHe] stands in awe before the economic and cultural wealth of the monastic orders."
  buddhism_events.15.a: "We must make this part of our culture!"
  buddhism_events.15.b: "Plunder their monasteries!"
- buddhism_events.15.b.tt: "Every [pop|e] in every owned [location|e] in [ShowAreaName('sailan_area')] loses [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
+ buddhism_events.15.b.tt: "Every [pop|e] in every owned [Concept('location','район')|e] in [ShowAreaName('sailan_area')] loses [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
  buddhism_events.15.c: "There is much we can learn from them."
- buddhism_events.15.c.tt: "Every [pop|e] in every owned [location|e] in [ShowAreaName('sailan_area')] gains [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
+ buddhism_events.15.c.tt: "Every [pop|e] in every owned [Concept('location','район')|e] in [ShowAreaName('sailan_area')] gains [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
 
  buddhism_events.16.title: "[ROOT.GetCountry.GetNameWithNoTooltip] Monasteries Deteriorating"
  buddhism_events.16.desc: "Due to a combination of lacking monastic discipline and a faltering economy, many of the great monasteries of [ROOT.GetCountry.GetName] have seen their membership dwindling over the last few years. A concerned member of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] has approached the [ROOT.GetCountry.GetGovernment.GetRulerTitle] with a warning that unless something is done soon, the dire situation may lead to the last few monks abandoning their vows or seeking to join monasteries elsewhere, leaving [ROOT.GetCountry.GetNameWithNoTooltip] impoverished both spiritually and economically.\n\nThere are, however, many local landowners more than ready to infringe on the land an empty [ShowBuildingTypeName('monastery')] would leave behind. As the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is meant to protect monastic life in [ROOT.GetCountry.GetNameWithNoTooltip], it will be clear to many observers that the responsibility for whatever happens will rest on [target_ruler.GetHerHis] shoulders."

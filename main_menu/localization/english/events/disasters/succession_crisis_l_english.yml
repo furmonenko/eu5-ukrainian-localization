@@ -4,13 +4,13 @@
  succession_crisis.1.title: "The Bid for the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Crown"
  succession_crisis.1.desc: "Years of mismanagement, court intrigue and an unstable rule have wrought the seeds of our downfall! Like shades in the dusk, many prominent individuals with [ROOT.GetCountry.GetGovernment.GetAdjective] aspirations have gathered in a petty attempt to prop up [scope_pretender.GetName] as the rightful ruler of the [ROOT.GetCountry.GetLongName]."
  succession_crisis.1.a: "Bring me [scope_pretender.GetHerHis] head on a pike!"
- succession_crisis.1.tt: "A number of our [provinces|e] that are dissatisfied with our rule will join the cause of [scope_pretender.GetNameWithNoTooltip]"
+ succession_crisis.1.tt: "A number of our [Concept('provinces','провінції')|e] that are dissatisfied with our rule will join the cause of [scope_pretender.GetNameWithNoTooltip]"
  
  succession_crisis.2.title: "Local Opposition"
  succession_crisis.2.desc: "Whilst the ruling of [target_ruler.GetName] has left a lot to be desired, the situation in places such as [target_province.GetName] has reached a new low. Cattle skinnier than a hay needle, starvation and depravity reigns in the streets of a once-great province. To that end, the peasants have taken up arms demanding direct compensation from the crown itself!"
  succession_crisis.2.a: "Blasted traitors!"
  succession_crisis.2.b: "We must give in to their demands..."
- every_location_loses_sat_and_joins_rebel_tt: "Every owned [location|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] and support the claim of[scope_pretender.GetName] on our throne"
+ every_location_loses_sat_and_joins_rebel_tt: "Every owned [Concept('location','район')|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] and support the claim of[scope_pretender.GetName] on our throne"
  
  succession_crisis.3.title: "A Resourceful Minister"
  succession_crisis.3.desc: "It can be said that despite our ruler's best efforts, the majority of beneficial policies come from the likes of our advisors. Individuals such as [target_character.GetName] have taken it upon themselves to see the [ROOT.GetCountry.GetLongName] through this troubling time..."
@@ -34,7 +34,7 @@
  succession_crisis.6.b: "Offer our territory in exchange."
  succession_crisis.6.c: "We need no help."
  if_they_accept_a_tt: "Should they accept, the following will occur:"
- sc_seek_foreign_aid_tt: "The selected [country|e] may offer conditional support or a truce in exchange for something"
+ sc_seek_foreign_aid_tt: "The selected [Concept('country','держава')|e] may offer conditional support or a truce in exchange for something"
  
  succession_crisis.7.title: "Request for Aid"
  succession_crisis.7.desc: "An envoy from [target_character1.GetName] has arrived, requesting assistance in [target_character1.GetHerHis] efforts to crush the ongoing [ShowDisasterName('succession_crisis')] in [target_country2.GetName]. During times of hardship and instability, it is vital to establish and maintain strong relations with our influential neighbors. Through [target_character1.GetHerHis] envoy, [target_character1.GetShortNameWithNoTooltip] has proposed the terms under which [target_character1.GetSheHe] may receive some much-needed aid."
@@ -51,7 +51,7 @@
  succession_crisis.9.a: "We need them."
  succession_crisis.9.b: "Let us not trade one peril for another!"
  succession_crisis_9_tt: "Many members of the [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')] $shared_conditional_support_key$"
- shared_conditional_support_key: "[pops|e] that support the pretender will shift their allegiance in exchange for a new [estate_privilege|e] for their [estate|e]"
+ shared_conditional_support_key: "[Concept('pops','населення')|e] that support the pretender will shift their allegiance in exchange for a new [estate_privilege|e] for their [Concept('estate','стан')|e]"
  
  succession_crisis.10.title: "Help from the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]"
  succession_crisis.10.desc: "Even as our people are divided on their support for the [succession_crisis_pretender_scope.GetName], the faithful look to the [ROOT.GetCountry.GetGovernment.GetEstateNameWith('clergy_estate')] for guidance. Recognizing the danger posed by a fractured [ROOT.GetCountry.GetFlavorRank], their leaders have now stepped forth, offering their support.\n\nIn exchange for a new privilege, their preachers will denounce the pretender as a usurper, calling upon the people to reaffirm their loyalty to [target_character1.GetName]. They argue that only through faith can the [ROOT.GetCountry.GetFlavorRank] be preserved and restored."

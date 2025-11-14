@@ -89,9 +89,9 @@
   delhi_situation.16.a: "We have no choice..."
   delhi_situation.16.b: "The situation can still improve!"
   end_situation_badly_tt: "The [ShowSituationName('fall_of_delhi')] [situation|e] will end"
-  we_will_lose_all_cores_tt: "We will abandon all [cores|e] in $india$ that we do not own directly"
+  we_will_lose_all_cores_tt: "We will abandon all [Concept('cores','ядра')|e] in $india$ that we do not own directly"
   gain_10_progress_for_claimants_tt: "Our foes will gain #R +10%#! #Y Share of Power#! during the [GetSituationByKey('fall_of_delhi').GetName] [situation|e]"
-  powerful_warlords_will_rise_tt: "Powerful [countries|e] will fill the power vacuum of our fall in $india$"
+  powerful_warlords_will_rise_tt: "Powerful [Concept('countries','держави')|e] will fill the power vacuum of our fall in $india$"
 
 #New Events
 
@@ -99,7 +99,7 @@
   delhi_situation.17.desc: "The Yamuna river has long been a lifeline for agriculture and trade in our lands. Recognizing its potential, our advisors and local governors wish to undertake extensive irrigation projects in [target_province.GetName], in order to ensure ensure that its fields flourish and its people prosper. The improved water supply will surely bolster local harvests, reduce famine risks, and strengthen our hold over the province and in [target_province_capital.GetName], the capital of the province, whose people will rejoice."
   delhi_situation.17.a: "Finance the irrigation works."
   delhi_situation.17.b: "We cannot afford this."
-  dev_gain_scales_with_control_and_prov_capital_gains_pop_satisfaction_tt: "The [development|e] gained will depend on the [control|e] of each [location|e]\nOur [pops|e] in [target_province_capital.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
+  dev_gain_scales_with_control_and_prov_capital_gains_pop_satisfaction_tt: "The [development|e] gained will depend on the [control|e] of each [Concept('location','район')|e]\nOur [Concept('pops','населення')|e] in [target_province_capital.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
 
   delhi_situation.18.title: "Mercenaries from the East"
   delhi_situation.18.desc: "Powerful horse lords and men of war have always been sought after to serve and protect the borders of our [ROOT.GetCountry.GetFlavorRank]. As we strive to maintain our control over our territories, it has become apparent that we stand to greatly benefit from outside help.\n\nThankfully, groups of [ShowCultureGroupName('mongolian_group')] riders that recently converted to our faith wish to migrate and find a new home around our capital, in [ROOT.GetCountry.GetCapital.GetName]. Although our advisors warn us against overly relying on men that fight for coin, it is perhaps a chance we cannot overlook."
@@ -117,7 +117,7 @@
   delhi_situation.20.desc: "It is true that no person can be a master of their fate throughout their life. This is even more evident for those whose harsh luck has thrown them into slavery. However, unlike most slaves from [ShowSubContinentName('east_africa')], the Ḥabshī are slowly gaining influence within our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Literate in matters of administration and militarily gifted, they are slowly becoming an integral part of our [ROOT.GetCountry.GetFlavorRank]. An exemplary [target_character2.GetWomanMan] of such origin by the name of [target_character2.GetName] has recently appeared, ready to serve us loyally."
   delhi_situation.20.historical_info: "Ḥabshī, Africans originally from Abyssinia, first arrived in India as military slaves and servants under early Islamic rulers. Though a few, like Jamal-ud-Din Yaqut, gained prominence in Delhi, their major political impact emerged later—especially in Bengal during the mid-15th century. Rising from servitude to power, these formidable soldiers and administrators left an indelible mark on the subcontinent's history, symbolizing a unique fusion of African heritage with South Asian culture and politics."
   delhi_situation.20.a: "They will be valuable assets in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!"
-  periodically_gain_habshi_advisors_tt: "As long as this [estate_privilege|e] remains active, gifted Ḥabshī slaves will appear through [events|e] for the duration of the [ShowSituationName('fall_of_delhi')] [situation|e]"
+  periodically_gain_habshi_advisors_tt: "As long as this [estate_privilege|e] remains active, gifted Ḥabshī slaves will appear through [Concept('events','події')|e] for the duration of the [ShowSituationName('fall_of_delhi')] [situation|e]"
 
   delhi_situation.21.title: "[target_character.GetNameWithNoTooltip]"
   delhi_situation.21.desc: "The arrival of Ḥabshī slaves has greatly benefited our growing [ROOT.GetCountry.GetFlavorRank]. From capable administrators to fearsome generals, they continue to leave a significant mark. One such individual is [target_character.GetName], whose well-developed skills will surely be of great value as a [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]."
@@ -132,4 +132,4 @@
   delhi_situation.22.a: "We must accommodate to their demands."
   delhi_situation.22.b: "Pay off their supporters."
   delhi_situation.22.c: "This is clearly beneath us."
-  every_supporting_pop_gains_25_satisfaction: "Every [pop|e] that follows the [target_rebel.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]. This could effectively end the [rebellion|e] depending on the [ShowModifierTypeName('pop_leave_rebels_threshold')] [modifier|e]"
+  every_supporting_pop_gains_25_satisfaction: "Every [pop|e] that follows the [target_rebel.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]. This could effectively end the [rebellion|e] depending on the [ShowModifierTypeName('pop_leave_rebels_threshold')] [Concept('modifier','модифікатор')|e]"

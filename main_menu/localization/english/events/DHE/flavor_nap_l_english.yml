@@ -90,7 +90,7 @@
  flavor_nap.230.title: "The [GetCountry('NAP').GetAdjectiveWithNoTooltip] Prince Consort"
  flavor_nap.230.desc: "The [GetCountry('NAP').GetAdjective] Prince Consort [target_character.GetName], member of our [ROOT.GetCountry.GetGovernment.GetAdjective] Family, has lived for many years in the [GetCountry('NAP').GetAdjectiveWithNoTooltip] court, married to [GetCountry('NAP').GetGovernment.GetRuler.GetName], but against any sense of justice or logic his right to rule as husband and as King has been denied and he holds no power over the matters of state.\n\nHe kindly asks us to intercede in his name in front of [target_pope.GetName] to reclaim his rights as King of [GetCountry('NAP').GetNameWithNoTooltip]."
  flavor_nap.230.a: "Let us ask [target_pope.GetNameWithNoTooltip] to correct this injustice."
- flavor_nap.230.a.tt: "If [target_pope.GetName] approves it, [target_character.GetName] will become the new [ruler|e] of [GetCountry('NAP').GetName]"
+ flavor_nap.230.a.tt: "If [target_pope.GetName] approves it, [target_character.GetName] will become the new [Concept('ruler','правитель')|e] of [GetCountry('NAP').GetName]"
  flavor_nap.230.b: "We will not meddle in the matters of [GetCountry('NAP').GetNameWithNoTooltip]."
 
  flavor_nap.231.title: "The Family of the Powerless King"
@@ -114,7 +114,7 @@
  flavor_nap.240.title: "The Ruler of [target_location.GetNameWithNoTooltip]"
  flavor_nap.240.desc: "The city of [target_location.GetName] and its hinterland has been ruled by the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of [ROOT.GetCountry.GetName] since the times of [charles_lame.GetName]. In 1309, it was chosen by [GetCharacter('pap_clement_v').GetName] to become the new seat of the [GetCountry('PAP').GetLongName] and the King of [ROOT.GetCountry.GetNameWithNoTooltip] graciously allowed it, transforming [target_location.GetNameWithNoTooltip] into the new capital of the [GetCountry('PAP').GetNameWithNoTooltip] in every sense except the legal one.\n\nNow the tables have turned, we could make use of a few coffers of gold and [GetCountry('PAP').GetGovernment.GetRuler.GetName] has plenty, let us sell [GetCountry('PAP').GetGovernment.GetRuler.GetHimHer] the rights to the city [GetCountry('PAP').GetGovernment.GetRuler.GetHeShe] already controls."
  flavor_nap.240.a: "We need the gold. Sell the rights!"
- flavor_nap.240.a.tt: "If [GetCountry('PAP').GetGovernment.GetRuler.GetName] approves it, [target_location.GetName] will no longer be part of our [core|e] territories"
+ flavor_nap.240.a.tt: "If [GetCountry('PAP').GetGovernment.GetRuler.GetName] approves it, [target_location.GetName] will no longer be part of our [Concept('core','ядро')|e] territories"
  flavor_nap.240.b: "We will never renounce our rights!"
 
  flavor_nap.241.title: "An Offer for [target_location.GetNameWithNoTooltip]"
@@ -179,15 +179,15 @@
  flavor_nap.101.desc: "Amalfi, a city in [target_location.GetName], has just faced a catastrophic blast from the ocean. Triggered by a massive earthquake beneath the Tyrrhenian Sea, a colossal wall of water crashed upon the unsuspecting town. Amid the deafening roar, buildings collapsed, ships were tossed, and lives were lost. The picturesque streets turned into a watery graveyard, as the waters reshaped the landscape forever. Amalfi's vibrant maritime culture and bustling trade have been left in ruins, a stark reminder of the unforgiving power of nature. The scars of the [GetCurrentYear] catastrophe will forever echo through the town's history."
  flavor_nap.101.a: "[ROOT.GetCountry.GetReligion.GetGodName] have mercy on them."
  flavor_nap.101.b: "Send help to the survivors now!"
- flavor_nap.101.a.tt: "[target_location.GetName] and neighboring coastal [locations|E] will lose [prosperity|e], lose [pops|e] and some [buildings|e] will be affected by the tsunami"
- flavor_nap.101.b.tt: "[target_location.GetName] and neighboring coastal [locations|E] will lose [prosperity|e], lose [pops|e] and some [buildings|e] will be affected by the tsunami.\nAs we are investing money, the devastation will be lesser as we start recovery sooner"
+ flavor_nap.101.a.tt: "[target_location.GetName] and neighboring coastal [locations|E] will lose [prosperity|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the tsunami"
+ flavor_nap.101.b.tt: "[target_location.GetName] and neighboring coastal [locations|E] will lose [prosperity|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the tsunami.\nAs we are investing money, the devastation will be lesser as we start recovery sooner"
  flavor_nap_treaty_villeneuve_common: "The [GetCountry('PAP').GetGovernment.GetRulerTitle] aims to mediate a settlement that would ensure peace and stability in the region.\n\nThe proposed treaty would delineate the territories, recognizing [GetCountry('NAP').GetNameWithNoTooltip]'s control over the mainland and [GetCountry('SIC').GetNameWithNoTooltip]'s control over the island. The terms would include annual tribute payments from [GetCountry('SIC').GetNameWithNoTooltip], the provision of war galleys to [GetCountry('NAP').GetNameWithNoTooltip], and military support from [GetCountry('SIC').GetNameWithNoTooltip] to [target_ruler.GetNameWithNoTooltip]'s [ROOT.GetCountry.GetFlavorRank]. The [GetCountry('PAP').GetGovernment.GetRulerTitle] seeks to establish a unified Kingdom of Sicily under the suzerainty of [GetCountry('NAP').GetNameWithNoTooltip] and the [GetCountry('PAP').GetLongName], ensuring cooperation and avoiding further conflicts."
 
  flavor_nap.102.title: "Treaty of Villeneuve"
  flavor_nap.102.desc: "A representative of [target_pope.GetName] approaches the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of [ROOT.GetCountry.GetName], [target_ruler.GetName], proposing a treaty to resolve the ongoing dispute with the [GetCountry('SIC').GetLongName], ruled by [target_sicily_ruler.GetName]. $flavor_nap_treaty_villeneuve_common$"
  flavor_nap.102.a: "[target_sicily_ruler.GetNameWithNoTooltip] can rule over [GetCountry('SIC').GetNameWithNoTooltip] if [target_sicily_ruler.GetSheHe] pays homage."
  flavor_nap.102.a.tt1: "[GetCountry('SIC').GetName] will receive an event to submit to us. They will decide if they pay us an annual tribute or become a vassal."
- flavor_nap.102.a.tt2: "We will lose all our [cores|e] in [ShowAreaName('sicily_area')]."
+ flavor_nap.102.a.tt2: "We will lose all our [Concept('cores','ядра')|e] in [ShowAreaName('sicily_area')]."
  flavor_nap.102.b: "Never. [ShowAreaNameWithNoTooltip('sicily_area')] is ours!"
 
  flavor_nap.103.title: "$flavor_nap.102.title$"
@@ -309,7 +309,7 @@
  flavor_nap.401.historical_info: "$flavor_nap.400.historical_info$"
  flavor_nap.401.a: "Crush the peasants with force!"
  flavor_nap.401.a.tt1: "Every [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pop|e] of not [ROOT.GetCountry.GetCulture.GetName] culture in [ShowRegionName('italy_region')] loses [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] and joins [rebel_target.GetName]."
- flavor_nap.401.a.tt2: "5 [locations|e] with the least [control|e] will have their [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] and joins [rebel_target.GetName]."
+ flavor_nap.401.a.tt2: "5 [Concept('locations','райони')|e] with the least [control|e] will have their [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [Concept('pops','населення')|e] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] and joins [rebel_target.GetName]."
  flavor_nap.401.b: "We will reach an agreement."
   
  flavor_nap.402.title: "A New Republic"

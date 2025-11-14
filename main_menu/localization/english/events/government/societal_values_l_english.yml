@@ -17,7 +17,7 @@
  societal_values.104.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  societal_values.105.title: "Major Revolt"
  societal_values.105.desc: "Our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are deeply upset at the news that their freedom of movement is to be further restricted. In fact, there have been massive revolts across our country because of this... Perhaps if they took the time to care for their personal hygiene they would not be so revolting?"
- societal_values.105.a.tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] in several [rural|e] [locations|e] like [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]"
+ societal_values.105.a.tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [Concept('pops','населення')|e] in several [rural|e] [Concept('locations','райони')|e] like [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]"
  societal_values.105.a: "The peasants are revolting!"
  societal_values.106.title: "Serfs Properly Exploited"
  societal_values.106.desc: "Our Policy of Serfdom has yielded results, as our Land Owners have recently made extra special efforts to exploit their serfs."
@@ -671,7 +671,7 @@
  societal_values.1601.title: "Provinces Frustrated by Lack of Autonomy"
  societal_values.1601.desc: "Our centralizing policies have led many in the provinces to feel that they have lost a lot of autonomy. There is talk of revolt in the air."
  societal_values.1601.a: "$common_string_let_them_revolt$"
- societal_values.1601.a.tt: "Up to #Y [ROOT.GetVariable('province_count').GetValue]#! [locations|e] lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
+ societal_values.1601.a.tt: "Up to #Y [ROOT.GetVariable('province_count').GetValue]#! [Concept('locations','райони')|e] lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
  societal_values.1601.b: "Give concessions."
  societal_values.1602.title: "Provinces Want Even More Autonomy"
  societal_values.1602.desc: "One of our provincial governors has figured out that, under our current decentralized policies, he could go into business for himself. The fact that the army he has managed to raise is way too small to support such a claim does not seem to worry him much."
@@ -1053,7 +1053,7 @@
  societal_values.2037.desc: "The social atmosphere in our region, paired with the humanist values of our people, has caused a diplomatic breakthrough to occur.\n\nNeighboring nations have agreed that each sovereign state should have a right to decide how to handle their faith, no matter how wrong or heretical they are. This has smoothed over diplomatic relationships with our neighbors, laying the groundwork for further diplomatic moves."
  societal_values.2037.a: "To each their own."
  societal_values.2037.b: "Nonsense! Our neighbors are all heretics!"
- every_neighbor_country_gets_opinion_diplomatic_move_on_us: "Every neighboring [country|e] will gain [ShowBiasValue('opinion_diplomatic_move')|+=0] opinion of the [ROOT.GetCountry.GetLongName]."
+ every_neighbor_country_gets_opinion_diplomatic_move_on_us: "Every neighboring [Concept('country','держава')|e] will gain [ShowBiasValue('opinion_diplomatic_move')|+=0] opinion of the [ROOT.GetCountry.GetLongName]."
 
  societal_values.2038.t: "Scientific Societies"
  societal_values.2038.desc: "Our humanist values have led to a lot of literate people forming small scientific societies, where they discuss a variety of practical and impractical concepts and topics.\n\nThey are of no particular importance individually, but as a whole, this fad may lead to some scientific research being performed that the state can take advantage of."
@@ -1092,7 +1092,7 @@
  societal_values.2105.title: "Protest of the Estates"
  societal_values.2105.desc: "Our efforts to pursue an absolutist state have not gone unnoticed by the estates of our country, and they want us to abandon these notions of absolutist rule in favor of a more liberal approach."
  societal_values.2105.a: "We must push harder."
- societal_values.2105.a.tt: "All our [upper_class|e] [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ societal_values.2105.a.tt: "All our [upper_class|e] [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
  societal_values.2105.b: "Concede to their points."
 
  societal_values.2106.title: "Unpopular Tax Collectors"
@@ -1132,7 +1132,7 @@
  societal_values.2113.title: "Abuses of the Masses"
  societal_values.2113.desc: "A large part of our population is not represented in our absolutist state and the interactions with our tax collectors have increased in hostility. They mention abuses and unreasonable high taxes levied by our officials and demand an elevated status in our government to protect themselves against such excesses."
  societal_values.2113.a: "Refuse it, what are they going to do about it?"
- societal_values.2113.a.tt: "All our [ShowPopTypeName('peasants')] and [ShowPopTypeName('burghers')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ societal_values.2113.a.tt: "All our [ShowPopTypeName('peasants')] and [ShowPopTypeName('burghers')] [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
  societal_values.2113.b: "Give in to their demands."
 
  societal_values.2114.title: "An Inadequate [ROOT.GetCountry.GetGovernment.GetRulerTitle]"
@@ -1170,7 +1170,7 @@
  societal_values.2207.title: "Freedom on Paper"
  societal_values.2207.desc: "While we guarantee certain rights to our population, even the lower class, our country is still riddled with abuses of power of the upper class against their perceived lesser. Heavy taxation has only increased the [ShowPopTypeName('peasants')] burden and complaints about our inaction has rapidly increased."
  societal_values.2207.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
- societal_values.2207.a.tt: "All our [ShowPopTypeName('peasants')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ societal_values.2207.a.tt: "All our [ShowPopTypeName('peasants')] [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
 
  societal_values.2208.title: "Longing for the Past"
  societal_values.2208.desc: "With the ongoing liberalization of our economy, more [ShowPopTypeName('burghers')] have acquired lands and are now employing [ShowPopTypeName('peasants')] on the same lands. Our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are opposed to these new landlords, citing their better life under the previous arrangements. Some of them already moved away from these lands in [target_province.GetName], where the fields and forests lie unexploited."
@@ -1216,7 +1216,7 @@
  scale_with_sinicized_unsinicized_key: "will scale based on our [ShowSocietyDirectionName('sinicized')] and [ShowSocietyDirectionName('unsinicized')] [societal_values|e]"
  stability_cost_scales_with_sinicized_vs_unsinicized_tt: "The [stability|e] $scale_with_sinicized_unsinicized_key$"
  legitimacy_cost_scales_with_sinicized_vs_unsinicized_tt: "The [government_power|e] $scale_with_sinicized_unsinicized_key$"
- between_3_5_become_chinese_tt: "Some of our [pops|e] in [target_province.GetName] will embrace the [target_culture.GetName] [culture|e]"
+ between_3_5_become_chinese_tt: "Some of our [Concept('pops','населення')|e] in [target_province.GetName] will embrace the [target_culture.GetName] [Concept('culture','культура')|e]"
 
  societal_values.2301.title: "Wave of Sinicization"
  societal_values.2301.desc: "Our presence in the sphere of influence of the [GetInternationalOrganization('middle_kingdom').GetName] is a complicated relationship between [target_character1.GetName] and [target_character2.GetName]. Contact between our two realms has created sparks of Sinicization. Indeed, [target_sinicized_pop_scope.GetName] have recently started displaying elements of influence of the [target_culture.GetName] culture, in defiance of our norms."
@@ -1256,7 +1256,7 @@
  societal_values.2309.desc: "Our renewed push to align our administration to [ShowSocietyDirectionName('sinicized')] standards has been met with stiff resistance in [target_province.GetName]. Guild elders, shrine custodians, and local notables decry foreign rites and scripts, warning that further pressure will fray communal bonds. Some petition for leniency, others threaten quiet obstruction, and the province's mixed communities grow wary of our intentions."
  societal_values.2309.a: "Their complaints are baseless."
  societal_values.2309.b: "Heed their concerns!"
- pops_in_target_province_resist_sinicization_tt: "Our [pops|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] as they attempt to resist our [ShowSocietyDirectionName('sinicized')] policies"
+ pops_in_target_province_resist_sinicization_tt: "Our [Concept('pops','населення')|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] as they attempt to resist our [ShowSocietyDirectionName('sinicized')] policies"
 
  societal_values.2310.title: "The [target_estate.GetNameWithNoTooltip] Resist [ShowSocietyDirectionNameWithNoTooltip('unsinicized')] Policies"
  societal_values.2310.desc: "Our turn away from Sinified norms has not gone unnoticed at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] of [ROOT.GetCountry.GetCapital.GetName]. The [target_estate.GetName] argue that rejecting established etiquette will weaken our standing and erode the prestige of our [ROOT.GetCountry.GetFlavorRank]. They insist we reconsider our course before their influence and loyalty are lost."
@@ -1279,7 +1279,7 @@
  societal_values.2314.title: "Native Inspirations"
  societal_values.2314.desc: "Renowned artisan [target_character.GetName] unveils an ambitious work drawn from our own stories, motifs, and rites. Courtiers and commoners alike are enthralled, and patrons clamor to see it completed — an affirmation that our heritage shines without needing to express itself in borrowed forms."
  societal_values.2314.a: "Art speaks to our soul."
- gains_depend_on_scope_target_character_total_abilities: "The gains for our [culture|e] will depend on the [total_ability|e] of [target_character.GetName]"
+ gains_depend_on_scope_target_character_total_abilities: "The gains for our [Concept('culture','культура')|e] will depend on the [total_ability|e] of [target_character.GetName]"
 
  societal_values.2315.title: "Migrants Arrive from [target_province_origin.GetNameWithNoTooltip]"
  societal_values.2315.desc: "Groups of families have begun to leave [target_province_origin.GetName], crossing into our lands from [target_country.GetName]. Drawn by new opportunities or discontent with their local administration, these migrants now settle in [target_province_destination.GetName], bringing with them customs and skills that may alter the balance of our society, pulling us ever closer to the [GetInternationalOrganization('middle_kingdom').GetName]."
@@ -1293,7 +1293,7 @@
  societal_values.2317.desc: "[target_culture.GetName] migrants have taken root in [target_province.GetName], and their growing presence now raises difficult questions. Some members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] urge us to impose stricter limits on their rights, fearing disloyalty and cultural dilution, while others argue that showing tolerance would strengthen our prestige and win the loyalty of these new subjects."
  societal_values.2317.a: "Crack down on their rights."
  societal_values.2317.b: "This is a line we will not cross."
- every_location_in_target_province_cracked_down_on_minorities_modifier: "Our [locations|e] in [target_province.GetName] will gain [ShowModifier('cracked_down_on_minorities_modifier')] for #Y 10#! years"
+ every_location_in_target_province_cracked_down_on_minorities_modifier: "Our [Concept('locations','райони')|e] in [target_province.GetName] will gain [ShowModifier('cracked_down_on_minorities_modifier')] for #Y 10#! years"
 
  societal_values.2318.title: "[target_country.GetAdjectiveWithNoTooltip] [ShowPopTypeNameWithNoTooltip('burghers')] Settle [target_location_destination.GetNameWithNoTooltip]"
  societal_values.2318.desc: "[ShowPopTypeName('burghers')] from [target_country.GetName] have begun establishing themselves around [target_location_destination.GetName], building networks that link our trade more closely to the [GetInternationalOrganization('middle_kingdom').GetName]. Their presence promises new goods and prosperity, but some warn that it will give foreign traders undue influence over our economy."
@@ -1303,13 +1303,13 @@
  societal_values.2319.desc: "Our proximity to [target_country.GetName] has greatly benefited our [ROOT.GetCountry.GetFlavorRank]. Recently, this relationship has yielded a new development. The [target_country.GetAdjectiveWithNoTooltip] have brought their [target_religion.GetName] faith into [target_province.GetName], where it now begins to find adherents among the populace. Some see this as a dangerous intrusion that undermines our traditions, while others argue it could strengthen ties with the [GetInternationalOrganization('middle_kingdom').GetName]."
  societal_values.2319.a: "Tolerate their worship."
  societal_values.2319.b: "Stamp out this heresy."
- approximately_10_percent_pop_target_province_convert_target_religion_tt: "Approximately #Y 10%#! of our [pops|e] that follow [our_religion_scope.GetName] in [target_province.GetName] will convert to [target_religion.GetName]"
+ approximately_10_percent_pop_target_province_convert_target_religion_tt: "Approximately #Y 10%#! of our [Concept('pops','населення')|e] that follow [our_religion_scope.GetName] in [target_province.GetName] will convert to [target_religion.GetName]"
 
  societal_values.2320.title: "Knowledge Sharing Within the Sphere of [target_country.GetNameWithNoTooltip]"
  societal_values.2320.desc: "As leader of the [GetInternationalOrganization('middle_kingdom').GetName], [target_country.GetName] has already embraced institutions absent from our own [ROOT.GetCountry.GetFlavorRank]. Their scholars and envoys offer to share methods, technologies, and practices with us, promising to narrow the gap between our states — though some caution that such gifts come at the price of deeper dependence."
  societal_values.2320.a: "An investment in knowledge pays the best interest."
  societal_values.2320.b: "We need no foreign meddling."
- gain_in_institutions_depends_on_monthly_towards_sinicized_tt: "The [institution|e] progress gained as well as the number of [locations|e] affected will depend on our [ShowModifierTypeName('monthly_towards_sinicized')]"
+ gain_in_institutions_depends_on_monthly_towards_sinicized_tt: "The [Concept('institution','інституція')|e] progress gained as well as the number of [Concept('locations','райони')|e] affected will depend on our [ShowModifierTypeName('monthly_towards_sinicized')]"
 
  societal_values.2321.title: "The Architecture of [target_country.GetNameWithNoTooltip]"  
  societal_values.2321.desc: "From the grand palaces of the [target_country.GetLongName] to its temples and gardens, [target_country.GetAdjectiveWithNoTooltip] architects have perfected a style that blends majesty with harmony. Delegates and builders from afar now bring knowledge of these designs to our [ROOT.GetCountry.GetFlavorRank]. We must decide whether to adopt their lessons or exalt our native traditions."  

@@ -50,9 +50,9 @@
  
  flavor_dan.10.title: "The Great Fire of [ShowLocationNameWithNoTooltip('kobenhavn')]"
  flavor_dan.10.desc: "Ignited during the casting of candles, a fire in the western quarter of [ShowLocationName('kobenhavn')] quickly spread through the entire city. While the exact damage is not yet known, most part of the city is devastated and destroyed. Much of the population has been made homeless by the catastrophe, and a significant amount of people have been killed by the flames.\n\nWhile the population is still busy clearing the rubble and ashes, we will have to plan for the future of [ShowLocationNameWithNoTooltip('kobenhavn')]. We can seize the opportunity to rebuild the city even more glorious than before, but it would cost us a large amount of gold."
- flavor_dan.10.a.tt: "[target_location.GetName] will lose [prosperity|e], lose [pops|e] and some [buildings|e] will be affected by the fire"
+ flavor_dan.10.a.tt: "[target_location.GetName] will lose [prosperity|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the fire"
  flavor_dan.10.a: "Go with the ambitious plan!"
- flavor_dan.10.b.tt: "[target_location.GetName] will lose [prosperity|e], lose [development|e], lose [pops|e] and some [buildings|e] will be affected by the fire"
+ flavor_dan.10.b.tt: "[target_location.GetName] will lose [prosperity|e], lose [development|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the fire"
  flavor_dan.10.b: "Do only what is necessary!"
  
  flavor_dan.11.title: "Our [ShowCultureNameWithNoTooltip('low_franconian')] Connections"
@@ -65,7 +65,7 @@
  flavor_dan.12.title: "[target_character.GetNameWithNoTooltip] starts Preaching"
  flavor_dan.12.desc: "After studying multiple years in towns like [ShowLocationName('rostock')], [ShowLocationName('wittenberg')], [ShowLocationName('kobenhavn')], and [ShowLocationName('leuven')], [target_character.GetName] has returned to [ROOT.GetCountry.GetName]. During his study years, he seems to have picked up a keen liking of the Reformers of our time and is now starting to preach the ideas of [ShowReligionName('lutheran')] in [ROOT.GetCountry.GetNameWithNoTooltip].\n\nIntervention of our [ROOT.GetCountry.GetFlavorRank] is necessary, if we want to preserve the [ShowReligionAdjective('catholic')] faith in the [ROOT.GetCountry.GetLongNameWithNoTooltip], while our support would ensure a [ShowReligionAdjectiveWithNoTooltip('lutheran')] stronghold in our country."
  flavor_dan.12.a: "Support his ideas."
- flavor_dan.12.a.tt: "Many [pops|e] will convert to [ShowReligionName('lutheran')]"
+ flavor_dan.12.a.tt: "Many [Concept('pops','населення')|e] will convert to [ShowReligionName('lutheran')]"
  flavor_dan.12.b: "We can not betray [ShowReligionNameWithNoTooltip('catholic')]."
  
  flavor_dan.13.title: "Growth of the Cattle Trade"
@@ -126,11 +126,11 @@
  flavor_dan.24.title: "The Translation of the New Testament"
  flavor_dan.24.desc: "As the Reformation sweeps across [ShowContinentName('europe')], its influence is beginning to take root in our lands. Many of our people, disillusioned with the old ways, are increasingly drawn to the teachings of [ShowReligionName('lutheran')]. Recently, [target_character1.GetName] and [target_character2.GetName] have completed a [ShowDialectName('danish_dialect')] translation of the New Testament, making the holy scriptures accessible to the common folk in their own language. The new edition has been met with remarkable enthusiasm, selling rapidly among the populace and further fueling the spread of [ShowReligionNameWithNoTooltip('lutheran')] within [ROOT.GetCountry.GetName]."
  flavor_dan.24.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
- flavor_dan.24.a.tt: "#Y 30%#! of all [pops|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
+ flavor_dan.24.a.tt: "#Y 30%#! of all [Concept('pops','населення')|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
  flavor_dan.24.b: "It is too late to act..."
- flavor_dan.24.b.tt: "#Y 30%#! of all [pops|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
+ flavor_dan.24.b.tt: "#Y 30%#! of all [Concept('pops','населення')|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
  flavor_dan.24.c: "Ban it immediately!"
- flavor_dan.24.c.tt: "#Y 10%#! of all [pops|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
+ flavor_dan.24.c.tt: "#Y 10%#! of all [Concept('pops','населення')|e] who follow [ShowReligionName('catholic')] in [ShowAreaName('denmark_area')] embrace [ShowReligionName('lutheran')]."
  flavor_dan.24.c.tt.2: "Relations with all [ShowReligionAdjectiveWithNoTooltip('lutheran')] nations in [ShowContinentNameWithNoTooltip('europe')] decreased by [ShowBiasValue('dan_banned_lutheran_bible')|0R]"
  
  flavor_dan.25.title: "Storming of the Church of Our Lady"
@@ -216,7 +216,7 @@
  flavor_dan.40.title: "Reconquest of [ShowAreaNameWithNoTooltip('skaneland_area')]"
  flavor_dan.40.desc: "The reign of [GetCharacter('dan_chistopher_ii').GetName] brought [ROOT.GetCountry.GetName] to the brink of collapse, with internal strife and foreign invasions nearly dissolving the kingdom. His death left [ROOT.GetCountry.GetNameWithNoTooltip] weakened and resulted in the loss of [ShowAreaName('skaneland_area')], a region not only rich in resources but deeply interwoven with our culture and heritage, to [GetCountry('SWE').GetName]. However, after years of struggle and determination, we have finally succeeded in reclaiming [ShowAreaNameWithNoTooltip('skaneland_area')] and reuniting it with the rest of [ROOT.GetCountry.GetNameWithNoTooltip]."
  flavor_dan.40.a: "Celebrate this victory!"
- flavor_dan.40.b.tt: "Every [location|e] in [ShowAreaName('skaneland_area')] will get the [ShowModifierEffect('dan_integrating_scania')] [modifier|e] for #Y 20#! years"
+ flavor_dan.40.b.tt: "Every [Concept('location','район')|e] in [ShowAreaName('skaneland_area')] will get the [ShowModifierEffect('dan_integrating_scania')] [Concept('modifier','модифікатор')|e] for #Y 20#! years"
  flavor_dan.40.b: "Focus on the area's reintegration."
  
  flavor_dan.41.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Golden Age of Painting"

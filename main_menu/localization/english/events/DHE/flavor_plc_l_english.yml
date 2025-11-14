@@ -57,7 +57,7 @@
  flavor_plc.10.a: "We must pay utmost heed to those sermons."
  flavor_plc.10.b: "Ignore [target_character.GetHerHim]."
  
- every_non_catholic_pop_loses_satisfaction: "Every [pop|e] of non-[skarga_religion.GetAdjective] [religion|e] loses [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]."
+ every_non_catholic_pop_loses_satisfaction: "Every [pop|e] of non-[skarga_religion.GetAdjective] [Concept('religion','віра')|e] loses [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]."
  
  flavor_plc.11.title: "[target_character.GetNameWithNoTooltip]"
  flavor_plc.11.desc: "The [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] is in awe with the recent achievements of [target_character.GetName], a rising star in our military. Though some had doubts about [target_character.GetShortNameWithNoTooltip]'s military prowess, the recollection of [target_character.GetHerHis] latest skirmish seems to have changed their opinions decisively. There is now a widespread agreement that [target_character.GetNameWithNoTooltip] should be raised to the rank of a #italic hetman#!."
@@ -97,7 +97,7 @@
  flavor_plc.16.desc: "The traitorous band of [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] under the leadership of [target_character.GetName] has taken up arms in open rebellion due to our rejection of their demands. Their puny [target_rebel.GetName] will not stand the military might of the [ROOT.GetCountry.GetGovernment.GetAdjective] forces."
  flavor_plc.16.historical_info: "Polish-Lithuanian #italic rokosz#! was a rebellion of the Szlachta in the name of defending their privileges and limiting the absolutist excesses of the King."
  flavor_plc.16.a: "Blasted traitors!"
- PLC_our_neighbors_rivals_enemies_have_been_notified: "All of our neighbors, [rivals|e], and [enemies|e] have been notified of our troubles."
+ PLC_our_neighbors_rivals_enemies_have_been_notified: "All of our neighbors, [Concept('rivals','суперники')|e], and [Concept('enemies','вороги')|e] have been notified of our troubles."
 
  flavor_plc.17.title: "[target_rebel.GetNameWithNoTooltip]"
  flavor_plc.17.desc: "The traitorous [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')] under the leadership of [target_character.GetName] decided to stage an uprising against our noble and just rule. Having secured the support of the [ShowCultureName('crimean')] Tatars, they are aiming to secure independence for themselves, or at the very least extension of privileges and enlargement of the register."
@@ -130,7 +130,7 @@
  flavor_plc.1000.desc: "It is a matter of fact that the [ROOT.GetCountry.GetReligion.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been granted many privileges, not all of which also apply to their [target_religion.GetAdjective] counterparts. Such a state of affairs is deeply troubling for the [target_religion.GetAdjectiveWithNoTooltip], who feel their ancient privileges are being violated. They have, therefore, submitted a request to have various privileges extended to them. Though that is not surprising, what is strange about the request is the support and backing of the [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], whose religious divide is no barrier for them to support the interests of fellow magnates of a different denomination."
  flavor_plc.1000.a: "Grant the privileges."
  flavor_plc.1000.b: "Refuse their requests."
- plc_required_for_further_events: "[ShowEstatePrivilegeName('plc_empower_orthodox_nobility')] is required for further [events|e] to fire regarding the Union of Brest."
+ plc_required_for_further_events: "[ShowEstatePrivilegeName('plc_empower_orthodox_nobility')] is required for further [Concept('events','події')|e] to fire regarding the Union of Brest."
  every_noble_pop_orthodox_loses_20_satisfaction: "[ShowPopTypeName('nobles')] that are [ShowReligionAdjective('orthodox')] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]."
 
  flavor_plc.1001.title: "Visit of the Patriarch"
@@ -138,14 +138,14 @@
  flavor_plc.1001.historical_info: "In 1588, the Patriarch of Constantinople, Jeremias II, made a visit to the lands of the Rus' to collect funds to bolster the Patriarchal treasury and his political power. Along the way, he granted the status of an Autocephalous Patriarchate to Moscow. During his visit to Ruthenia, he dismissed Kievian Metropolitan Onisifor and warned about polygyny among the clergy. Those actions, however, were not enough to appease the Ruthenian bishops, who felt Jeremias was not doing enough to combat the decline of piety amongst the Ruthenian commons."
  flavor_plc.1001.a: "Propose unification to the [leader_of_the_kyiv_patriarchate.GetAdjective] Metropolis."
  flavor_plc.1001.b: "Attempt to sway the [target_religion.GetAdjectiveWithNoTooltip] commons towards [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]."
- plc_revoking_empowered_orthodox_nobility_will_prevent: "Revoking [ShowEstatePrivilegeName('plc_empower_orthodox_nobility')] will prevent future [events|e] from firing."
+ plc_revoking_empowered_orthodox_nobility_will_prevent: "Revoking [ShowEstatePrivilegeName('plc_empower_orthodox_nobility')] will prevent future [Concept('events','події')|e] from firing."
  STATIC_MODIFIER_NAME_plc_diplomatic_efforts_to_unify_churches: "Unifying the Churches"
 
  flavor_plc.1002.title: "The Traitors Among Us"
  flavor_plc.1002.desc: "Not all of the [target_religion.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are yielding to our efforts to unite the two churches. Many are, in fact, actively battling our mission to establish a link between [GetCountry('PAP').GetLongName] and the [target_religion.GetAdjectiveWithNoTooltip] Church. Though we have successfully stopped the spread of this 'disunity' movement, it is clear that the eparchies ruled by defiant bishops will not join in on the union."
  flavor_plc.1002.historical_info: "$flavor_plc.1001.historical_info$"
  flavor_plc.1002.a: "Such a shame."
- flavor_plc.1002.tooltip: "[SCOPE.GetLocalVariable('amount_of_locations_affected').GetValue|0-] [provinces|e] will have the [pop_satisfaction|e] of their [target_religion.GetAdjective] [pops|e] reduced by [ROOT.ScriptValue('pop_satisfaction_severe_penalty')|%=+]"
+ flavor_plc.1002.tooltip: "[SCOPE.GetLocalVariable('amount_of_locations_affected').GetValue|0-] [Concept('provinces','провінції')|e] will have the [pop_satisfaction|e] of their [target_religion.GetAdjective] [Concept('pops','населення')|e] reduced by [ROOT.ScriptValue('pop_satisfaction_severe_penalty')|%=+]"
 
  flavor_plc.1003.title: "Union of [target_location.GetNameWithNoTooltip]"
  flavor_plc.1003.desc: "Our efforts to unite the Ruthenian [target_religion.GetAdjective] Church with the [ROOT.GetCountry.GetReligion.GetAdjective] Church have finally paid off, as today marks the signing of the Treaty of [target_location.GetName], creating the [target_io.GetName] under our leadership. The journey here was not easy as not all of the bishops were enthusiastic about the prospect of unification. It is regrettable that there has been so much resistance not just domestically, but also from other [target_religion.GetAdjectiveWithNoTooltip] nations as well."

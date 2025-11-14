@@ -2,7 +2,7 @@
  horde_civil_war.1.title: "The [ShowGovernmentTypeNameWithNoTooltip('steppe_horde')] Succession Crisis"
  horde_civil_war.1.desc: "The death of our previous ruler has left the [target_country.GetLongName] in a precarious situation. The new [target_country.Custom('GetRulerOrRegentTitle')] might have assumed the [target_country.GetAdjectiveWithNoTooltip] throne, yet [target_character.GetSheHe] lacks the unity and support of [target_character.GetHerHis] warriors. As such, [scope_pretender.GetName], a warlord within our borders, has started assembling loyalists to challenge [target_character.GetName] for [target_character.GetHerHis] throne..."
  horde_civil_war.1.a: "Bring me [scope_pretender.GetHerHis] head on a pike!"
- horde_civil_war.1.tt: "A number of our [provinces|e] that are dissatisfied with our rule will join the cause of [scope_pretender.GetNameWithNoTooltip]"
+ horde_civil_war.1.tt: "A number of our [Concept('provinces','провінції')|e] that are dissatisfied with our rule will join the cause of [scope_pretender.GetNameWithNoTooltip]"
 
  horde_civil_war.2.title: "A New [target_country.GetGovernment.GetRulerTitle] Emerges!"
  horde_civil_war.2.desc: "With the sudden death of [dead_ruler.GetName], the [target_country.GetLongName] witnesses a quick chain of bloody succession."
@@ -59,19 +59,19 @@
  horde_civil_war.1000.desc: "Usually the borders of [from_country.GetName] are regularly patrolled by our mounted scouts. However, the chaos caused by the ambition of [target_character.GetName] undermines our border security. It is only a matter of time before any upstarting [ShowGovernmentTypeName('steppe_horde')] or any other state falls into our state without warning..."
  horde_civil_war.1000.a: "Reinforce these patrols!"
  horde_civil_war.1000.b: "We will have to live without it..."
- horde_civil_war.1000.b.tt: "Every neighboring [country|e] will become aware of our current weak position..."
+ horde_civil_war.1000.b.tt: "Every neighboring [Concept('country','держава')|e] will become aware of our current weak position..."
 
  horde_civil_war.1001.title: "Weakness of [from_country.GetNameWithNoTooltip]"
  horde_civil_war.1001.desc: "Our neighbor, the [from_country.GetLongName], is struggling through their [ShowDisasterName('horde_civil_war')]. While tragic for their [from_country.GetGovernment.GetRulerTitle], it is an excellent opportunity for us. Their borders are lacking any kind of defense nor scouting patrols; their lands are ripe for a raiding party... or maybe an invasion altogether?"
  horde_civil_war.1001.a: "Let us stick to normal raids for now."
- horde_civil_war.1001.a.tt: "[ShowScriptedEffectForScope('horde_raid_location',SCOPE.sLocation('target').GetLocation.MakeScope.Self)]\n#Y These effects also apply to all other neighboring [locations|e] of [from_country.GetName]#!"
+ horde_civil_war.1001.a.tt: "[ShowScriptedEffectForScope('horde_raid_location',SCOPE.sLocation('target').GetLocation.MakeScope.Self)]\n#Y These effects also apply to all other neighboring [Concept('locations','райони')|e] of [from_country.GetName]#!"
  horde_civil_war.1001.b: "We should strike while they are weak!"
 
  horde_civil_war.1002.title: "The Internal Struggles of [from_country.GetNameWithNoTooltip]"
  horde_civil_war.1002.desc: "The barbarians of the [from_country.GetLongName] are struggling in their [ShowDisasterName('horde_civil_war')]. Our borders, once terrorized by their constant raids, can at long last recover. Some of our advisors, however, want to go further: according to them, the only way to maintain peace is through the destruction of the [from_country.GetLongNameWithNoTooltip] once and for all."
  horde_civil_war.1002.a: "They are right. We should prepare for war!"
  horde_civil_war.1002.b: "We cannot afford this in our current situation."
- horde_civil_war.1002.b.tt: "Every owned [location|e] which borders [from_country.GetName] gains [ShowModifier('recovering_from_raids')] for #Y 4 years#!, giving the following effects:\n[ShowModifierEffect('recovering_from_raids')]"
+ horde_civil_war.1002.b.tt: "Every owned [Concept('location','район')|e] which borders [from_country.GetName] gains [ShowModifier('recovering_from_raids')] for #Y 4 years#!, giving the following effects:\n[ShowModifierEffect('recovering_from_raids')]"
 
  horde_civil_war.100.title: "End of the [ShowGovernmentTypeNameWithNoTooltip('steppe_horde')] Succession Crisis"
  horde_civil_war.100.desc.no_horde: "The old laws of the hordes are no more! [target_ruler.GetName] established the [target_country.GetLongName], abolishing many old traditions of the [ShowGovernmentTypeName('steppe_horde')] and solidifying the position of the [target_country.GetGovernment.GetRulerTitle]. As a result of this, the old succession crisis from our nomadic days has been resolved."

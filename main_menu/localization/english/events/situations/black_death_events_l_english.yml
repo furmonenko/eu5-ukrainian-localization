@@ -15,19 +15,19 @@
  black_death.100.title: "End of the Black Death"
  black_death.100.desc: "It seems that the last remnants of the plague have finally disappeared. Are those of us that survived the cursed or the blessed?"
  black_death.100.a: "Did anyone survive?"
- total_death_toll_tt: "Throughout the [ShowSituationName('black_death')] [situation|e], the #R Reaper#! claimed the souls of [ROOT.GetVariable('bd_total_death_toll_variable').GetValue|V0] #Y K#! of our [pops|e]"
+ total_death_toll_tt: "Throughout the [ShowSituationName('black_death')] [situation|e], the #R Reaper#! claimed the souls of [ROOT.GetVariable('bd_total_death_toll_variable').GetValue|V0] #Y K#! of our [Concept('pops','населення')|e]"
 
  black_death.101.t: "Plague-as-Punishment"
  black_death.101.desc: "The end times are upon us! Or at least, so claim the ever-growing groups of flagellants that wander throughout the countryside processioning and preaching of apocalyptic events to come as punishment for our pride, which only through Christ's ire as flagellation we can dispel.\n\nWhile originally having the support of the Church, these groups have strayed too far from doctrine to be sanctioned anymore. The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] believe that they must be stamped out to prevent them from undermining stability."
  black_death.101.a: "Instruct local garrisons to disperse any flagellant gatherings."
  black_death.101.b: "Never mind the Church, they might be onto something!"
- plague_lessen_spread_piss_off_peasants_tt: "Every [location|e] we own in [target_province.GetName] will have the spread of the [GetDisease('bubonic_plague').GetName] reduced by #G -5%#! at the expense of [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] for its peasants"
+ plague_lessen_spread_piss_off_peasants_tt: "Every [Concept('location','район')|e] we own in [target_province.GetName] will have the spread of the [GetDisease('bubonic_plague').GetName] reduced by #G -5%#! at the expense of [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] for its peasants"
 
  black_death.102.t: "The Plague of Wage Fixing"
  black_death.102.desc: "Naturally, guilds wield great power over the economy. Generally, they are a positive force for society, providing the public with confidence in products, ensuring the market remains stable, and controlling the growth of competition, among other things. Now that plague has seeped into our nation, spreading throughout the land, it is more important than ever that guilds ensure that prices remain stable and work continues to be supplied.\n\nHowever, to ensure this, guilds have been controlling wages, keeping them as they have always been in spite of the labor shortage caused by the death around us. Many guild members have become greatly disgruntled, knowing that they could be earning more, but would be crushed by the guild if they went independent. We are now at a tipping point, and must decide between a stable market or appeasing the laborers."
  black_death.102.a: "The ungrateful laborers must be shown their place."
  black_death.102.b: "Trading market for societal stability is acceptable."
- plague_every_pop_in_province_30_satisfaction_tt: "[target_location.GetName] and every owned neighboring [location|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ plague_every_pop_in_province_30_satisfaction_tt: "[target_location.GetName] and every owned neighboring [Concept('location','район')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
 
  black_death.103.t: "Learning From The Plague"
  black_death.103.desc: "Court doctors and university intelligentsia believe that we should standardize successful plague treatment and prevention techniques to help alleviate the situation. At the moment, plague treatment and prevention is handled by a decentralized network of local plague doctors and medical practitioners, making it an expensive although potentially worthwhile endeavor to ensure all our doctors have the latest equipment and methodology. Things such as the wearing of robes and gloves, herb bags, and ready accessibility to mercury and arsenic could help ensure some of our people stay safe and healthy."
@@ -46,7 +46,7 @@
  black_death.1002.a: "Austerity will keep us pious and safe!"
  black_death.1002.b: "Self-indulgence will keep us happy and safe!"
  STATIC_MODIFIER_NAME_black_death_austerity_movement: "Austerity Movement"
- plague_satisfaction_and_spread_tt: "Every [location|e] we own in [target_province.GetName] that has not already overcome the disease, will have the spread of the [GetDisease('bubonic_plague').GetName] increased by #R 10%#! while increasing the [pop_satisfaction|e] of its peasants by #G 10%#!"
+ plague_satisfaction_and_spread_tt: "Every [Concept('location','район')|e] we own in [target_province.GetName] that has not already overcome the disease, will have the spread of the [GetDisease('bubonic_plague').GetName] increased by #R 10%#! while increasing the [pop_satisfaction|e] of its peasants by #G 10%#!"
 
  black_death.1003.t: "Black Death Claims the Throne"
  black_death.1003.desc: "[target_portrait_character.GetName] has been hiding the symptoms for some time. But alas, on their deathbed, it is clear that they too had fallen to this terrible ailment that haunts the [ROOT.GetCountry.GetFlavorRank].\n\nNot much can be done for [target_portrait_character.GetHerHim] now, only darkness awaits, for [target_portrait_character.GetHerHim], and us."
@@ -99,7 +99,7 @@
  black_death.1011.a: "Take in the refugees."
  black_death.1011.b: "Set up plague camps for the refugees."
  black_death.1011.c: "Turn away the refugees."
- pops_lose_10_satisfaction_tt: "Our [pops|e] in [target_location.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ pops_lose_10_satisfaction_tt: "Our [Concept('pops','населення')|e] in [target_location.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
 
  black_death.1012.t: "Papal Warning"
  black_death.1012.desc: "News has arrived of an official decree by [target_character.GetName] warning rulers and community leaders to avoid fuelling hatred against minorities. The Black Death is without a doubt an act of god. Anyone who claims otherwise is committing blasphemy and could be excommunicated.\n\nUnfortunately, minorities make for great scapegoats and targets for anger when great tragedy strikes. Whether we choose to continue to benefit from this, or heed the papal warning is up to us."
@@ -111,14 +111,14 @@
  black_death.1013.a: "Angry mob or not, payment is due!"
  black_death.1013.b: "During hard times, taxes should be lowered..."
  black_death.1013.c: "No taxes for anyone suffering!"
- every_pop_25_satisfaction_loss_tt: "Our [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
- every_pop_10_satisfaction_gain_tt: "Our [pops|e] in the [target_location.GetName] [location|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
+ every_pop_25_satisfaction_loss_tt: "Our [Concept('pops','населення')|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ every_pop_10_satisfaction_gain_tt: "Our [Concept('pops','населення')|e] in the [target_location.GetName] [Concept('location','район')|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
 
  black_death.1014.t: "Epidemic Overextension"
  black_death.1014.desc: "[target_country.GetLongName] is vast and proud. But our size makes it hard to respond to epidemic outbreaks in different corners of our [ROOT.GetCountry.GetFlavorRank] simultaneously;\n\nBefore us lie two options. We can either maintain centralized control over the response, which will be less effective, or we can empower local authorities to deal with their own outbreaks. Either way, the [ROOT.GetCountry.GetFlavorRank] will survive, we must simply make peace with the question of whether a sacrifice of blood or political power is best in these dark times."
  black_death.1014.a: "We must maintain central control at all costs!"
  black_death.1014.b: "We can allow some local autonomy..."
- far_away_locations_with_plague_loses_10_control_tt: "Our [locations|e] that reside the furthest from [ROOT.GetCountry.GetCapital.GetName], such as [target_location.GetName], will have their [control|e] decreased by #R -10%#!"
+ far_away_locations_with_plague_loses_10_control_tt: "Our [Concept('locations','райони')|e] that reside the furthest from [ROOT.GetCountry.GetCapital.GetName], such as [target_location.GetName], will have their [control|e] decreased by #R -10%#!"
  STATIC_MODIFIER_NAME_enforced_central_control_modifier: "Enforced Plague Measures"
 
 
@@ -128,8 +128,8 @@
  black_death.1015.b: "Allow the medicine to remain..."
  black_death.1015.c: "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] will pay for the expired goods."
  black_death.1015.b.nospamtooltip: "Every owned location with more than #N 20%#! [GetDisease('bubonic_plague').GetName] presence has a #V 50%#! chance of gaining an additional #N 50%#! [GetDisease('bubonic_plague').GetName]"
- every_location_with_plague_gets_10_more_tt: "The presence of the [GetDisease('bubonic_plague').GetNameWithNoTooltip] in already afflicted [locations|e] will be increased by #R +10%#!"
- reduce_plague_by_10_in_every_location_tt: "The presence of [GetDisease('bubonic_plague').GetName] will be reduced by #G -5%#! in every owned [location|e] in [ROOT.GetCountry.GetCapital.GetRegion.GetName]"
+ every_location_with_plague_gets_10_more_tt: "The presence of the [GetDisease('bubonic_plague').GetNameWithNoTooltip] in already afflicted [Concept('locations','райони')|e] will be increased by #R +10%#!"
+ reduce_plague_by_10_in_every_location_tt: "The presence of [GetDisease('bubonic_plague').GetName] will be reduced by #G -5%#! in every owned [Concept('location','район')|e] in [ROOT.GetCountry.GetCapital.GetRegion.GetName]"
 
  black_death.1016.t: "Social Cravings"
  black_death.1016.desc: "Ever since the arrival of the plague, many have avoided large gatherings and public festivals out of fear. But over time, even the most asocial individuals will eventually crave interacting with others.\n\nThe grumbles and complaints of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are growing louder by the day. Withholding and discouraging festivities any further could cause quite a lot of social upheaval."
@@ -152,8 +152,8 @@
  black_death.1020.a: "We cannot use my subjects as scapegoats."
  black_death.1020.b: "Spread rumors and accusations against minorities."
  STATIC_MODIFIER_NAME_minorities_used_as_scapegoats: "Minorities Used As Scapegoats"
- every_location_with_target_culture_receives_changes_tt: "Our [pops|e] that follow the [target_culture.GetName] [culture|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e] while our pops that follow the [ROOT.GetCountry.GetCulture.GetName] culture will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] in [locations|e] that host both cultures"
- every_location_with_target_culture_receives_changes2_tt: "We will allow the persecution of [target_culture.GetName] minorities. Our [pops|e] that follow the [ROOT.GetCountry.GetCulture.GetName] [culture|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] while our pops that follow the [target_culture.GetNameWithNoTooltip] culture will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] in [locations|e] that host both cultures"
+ every_location_with_target_culture_receives_changes_tt: "Our [Concept('pops','населення')|e] that follow the [target_culture.GetName] [Concept('culture','культура')|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e] while our pops that follow the [ROOT.GetCountry.GetCulture.GetName] culture will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] in [Concept('locations','райони')|e] that host both cultures"
+ every_location_with_target_culture_receives_changes2_tt: "We will allow the persecution of [target_culture.GetName] minorities. Our [Concept('pops','населення')|e] that follow the [ROOT.GetCountry.GetCulture.GetName] [Concept('culture','культура')|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] while our pops that follow the [target_culture.GetNameWithNoTooltip] culture will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] in [Concept('locations','райони')|e] that host both cultures"
 
  black_death.1021.t: "Plague Profiteers"
  black_death.1021.desc: "Lately, a group of [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have been buying all the stock for essential goods like medicine, spices, and preserved foods.\n\nThere is no explicit law which forbids this behavior, but allowing them to extort and starve the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] could lead to the plague spreading further..."
@@ -178,4 +178,4 @@
  black_death.1025.a: "We will deal with the rebels directly."
  black_death.1025.b: "Quickly, print our propaganda!"
  black_death.1025.c: "Blame the [blame_target.GetAdjectiveWithNoTooltip] people."
- every_location_with_plague_scaling_satisfaction_loss_tt: "[pops|e] that inhabit [location|e] currently afflicted with [GetDisease('bubonic_plague').GetNameWithNoTooltip] will suffer reduced [pop_satisfaction|e] based on the presence of the disease"
+ every_location_with_plague_scaling_satisfaction_loss_tt: "[Concept('pops','населення')|e] that inhabit [Concept('location','район')|e] currently afflicted with [GetDisease('bubonic_plague').GetNameWithNoTooltip] will suffer reduced [pop_satisfaction|e] based on the presence of the disease"

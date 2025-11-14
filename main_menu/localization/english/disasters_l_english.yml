@@ -1,7 +1,7 @@
 ﻿l_english:
 #Common Loc
- no_event_occurs_tt: "No [event|e] occurs"
- an_event_occurs_tt: "An [event|e] relevant to this [disaster|e] may occur"
+ no_event_occurs_tt: "No [Concept('event','подія')|e] occurs"
+ an_event_occurs_tt: "An [Concept('event','подія')|e] relevant to this [disaster|e] may occur"
 #Succession Crisis
  #Disaster
  succession_crisis: "Succession Crisis"
@@ -12,7 +12,7 @@
  succession_crisis_pretender: "Crown Pretenders"
  succession_crisis_crown_supporters: "Crown Supporters"
  succession_crisis_pretender_supporters: "Pretender Supporters"
- no_pretender_rebel_active_tt: "None of the active [rebels|e] are pretenders"
+ no_pretender_rebel_active_tt: "None of the active [Concept('rebels','повстанці')|e] are pretenders"
  succession_crisis_price: "$succession_crisis$ Actions Price"
  sc_seek_foreign_aid: "Seek Foreign Aid"
  sc_seek_foreign_aid_desc: "Threats from rival claimants to our [actor.GetFlavorRank] are escalating, and the situation is becoming dire. These pretenders will not cease in their efforts to usurp our ultimate authority, not until they have been fully eradicated. We must seek aid and allies abroad, if we are to secure our territorial integrity and preserve our rulership."
@@ -25,8 +25,8 @@
  sc_ask_help_from_the_burghers: "Request Help from the Burghers"
  sc_ask_help_from_the_burghers_desc: "Masters of coin who hold tremendous influence must be called upon to support military efforts, should the scheming pretenders throw our [actor.GetFlavorRank] into a civil war. Their overflowing purses will make a lovely addition to our treasury..."
  choose_writer: "Choose a [ShowArtistTypeNameWithNoTooltip('writer')]"
- selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "The selected [ShowArtistTypeName('writer')] will compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]. We will gain [legitimacy|e] depending greatly on the quality of the [work_of_art|e]"
- target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName] will be selected to compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]"
+ selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "The selected [ShowArtistTypeName('writer')] will compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [Concept('dynasty','династія')|e]. We will gain [legitimacy|e] depending greatly on the quality of the [work_of_art|e]"
+ target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName] will be selected to compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [Concept('dynasty','династія')|e]"
 
 
 #Ambrosian Republic
@@ -57,7 +57,7 @@
  select_ongoing_siege_to_bribe: "Select an ongoing [siege|e] to bribe"
  no_ongoing_siege_to_bribe: "@trigger_no! No ongoing [siege|e] to bribe"
  chosen_siege_tt: "The garrison in [target_siege.GetName] will surrender"
- no_chosen_siege_tt: "The garrison in the selected [location|e] will surrender"
+ no_chosen_siege_tt: "The garrison in the selected [Concept('location','район')|e] will surrender"
 
 #War of the Aragonese Union
  #Disaster
@@ -96,7 +96,7 @@
 
  pw_crush_rebellion: "Crush Rebellion"
  pw_crush_rebellion_desc: "The people rise against us, demanding right and privileges at the expense of [actor.GetGovernment.GetRulerOrRegent.GetName] and the established social order. We cannot allow this to happen! Any support for such movements must be immediately crushed."
- pw_crush_rebellion_tt: "The [pops|e] that support the selected [rebellion|e] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]"
+ pw_crush_rebellion_tt: "The [Concept('pops','населення')|e] that support the selected [rebellion|e] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]"
  pw_rebel_progress_reduction_tt: "The selected [rebellion|e] will have its progress reduced by #G -25%#!"
 
 #Struggle for Royal Power
@@ -122,20 +122,20 @@
  #Disaster
  horde_civil_war: "Horde Civil War"
  horde_civil_war_desc: "Once again the authority of our ruler is being questioned! A rival warlord threatens the Horde with a civil war, hungry to claim the throne for themselves. The horde must march to war against its own renegade warriors..."
- horde_civil_war_end_trigger_no_rebels: "Not a single [rebel|e] is a #Y Pretender#! rebel"
+ horde_civil_war_end_trigger_no_rebels: "Not a single [Concept('rebel','повстанець')|e] is a #Y Pretender#! rebel"
  horde_civil_war_crown_supporters: "Horde Loyalists"
  horde_civil_war_pretender_supporters: "Horde Renegades"
- GUI_REBEL_OWNED_LOCATIONS: "[locations|e] owned by the [rebels|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
- GUI_REBEL_MILITARY_STRENGTH_COMPARED_TO_US: "The [military_strength|e] of the [rebels|e] compared to us."
+ GUI_REBEL_OWNED_LOCATIONS: "[Concept('locations','райони')|e] owned by the [Concept('rebels','повстанці')|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
+ GUI_REBEL_MILITARY_STRENGTH_COMPARED_TO_US: "The [military_strength|e] of the [Concept('rebels','повстанці')|e] compared to us."
 
 #Revolution
  #Disaster
  revolution_disaster: "Revolution!"
  revolution_disaster_desc: "Decades of feudal oppression, economic difficulties, and religious intolerance have taken their toll on the peace of our nation, and our population's desire for liberty poses a serious threat to our reign. A popular uprising is all but inevitable..."
  revolution_disaster_end_trigger_tt: "The #Y Revolutionary Rebels#! are not planning a [civil_war|e]"
- MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip] [army|e] Size: [DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetArmyLevyPower]@levy\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
+ MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip] [Concept('army','армія')|e] Size: [DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetArmyLevyPower]@levy\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] [Concept('manpower','людські ресурси')|e]: [DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
  REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "Potential [military_strength|e] of [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]"
- REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip] [army|e] Size: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPower]@levy\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
+ REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip] [Concept('army','армія')|e] Size: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPower]@levy\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [Concept('manpower','людські ресурси')|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
  MONARCHIST_POTENTIAL_STRENGTH_TT: "Potential [military_strength|e] of [DisasterView.GetDisaster.GetOwner.GetName]"
 
 #Revolutionary Chaos
@@ -147,8 +147,8 @@
  #Disaster
  sinicization_disaster: "The Influence of China"
  sinicization_disaster_desc: "The influence of [GetCountry('CHI').GetName] has been a boon to our society in many ways. However, our relationship with this cultural giant has woven many foreign threads into the tapestry of our society, disconnecting us from our traditions and threatening our independence. If we are to maintain our unique culture, we must resist further corruption from these seductive outside influences. Coversely, however, we might benefit from closer ties..."
- has_opted_to_side_with_china_in_events_tt: "Has sufficiently #G promoted#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e]"
- has_opted_to_stay_sovereign_from_china_in_events_tt: "Has sufficiently #G curbed#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e]"
+ has_opted_to_side_with_china_in_events_tt: "Has sufficiently #G promoted#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [Concept('events','події')|e]"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "Has sufficiently #G curbed#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [Concept('events','події')|e]"
 
 #Crisis of the Chinese Dynasty
  #Disaster
@@ -162,8 +162,8 @@
  cmd_has_strenthened_crown_tt: "Has enacted the [ShowGenericActionName('cmd_strengthen_crown')] [action|e]"
 
  #Monthly Pulse
- fire_event_4_tt: "An [event|e] about [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] refusing to pay taxes may occur"
- fire_event_5_tt: "An [event|e] about [prosperity|e] decreasing throughout our [provinces|e] may occur"
+ fire_event_4_tt: "An [Concept('event','подія')|e] about [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] refusing to pay taxes may occur"
+ fire_event_5_tt: "An [Concept('event','подія')|e] about [prosperity|e] decreasing throughout our [Concept('provinces','провінції')|e] may occur"
 
 # Decline of Majapahit
  #Disaster
@@ -183,30 +183,30 @@
  DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT: "[legitimacy]: [Country.MakeScope.GetVariable('maj_legitimacy_impact').GetValue|-=2%]"
  DEMAK_MONTHLY_CHANGE_BREAKDOWN: "$DEMAK_MONTHLY_CHANGE_POP_SHARE$\n$DEMAK_MONTHLY_CHANGE_STABILITY_IMPACT$\n$DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT$"
  DEMAK_PROGRESS_GROWTH_HEADER: "$demak_progress$"
- DEMAK_PROGRESS_GROWTH_TOOLTIP: "$demak_progress$ is a measure of how pervasive the [ShowReligionAdjective('sunni')] [religion|e] is in our [Country.GetFlavorRank]. $demak_progress$ gain increases as the number of [ShowReligionAdjective('sunni')] [pops|e] grows. When it reaches #y 100.0%#!, all of our [ShowReligionAdjective('sunni')] [dominant_religion|e] [locations|e] will break away to form $DEM$."
+ DEMAK_PROGRESS_GROWTH_TOOLTIP: "$demak_progress$ is a measure of how pervasive the [ShowReligionAdjective('sunni')] [Concept('religion','віра')|e] is in our [Country.GetFlavorRank]. $demak_progress$ gain increases as the number of [ShowReligionAdjective('sunni')] [Concept('pops','населення')|e] grows. When it reaches #y 100.0%#!, all of our [ShowReligionAdjective('sunni')] [dominant_religion|e] [Concept('locations','райони')|e] will break away to form $DEM$."
 
 #Court and Country
  #Disaster
  court_and_country: "Court and Country"
  court_and_country_desc: "Resistance to increasing centralization in our country has culminated in a period of general crisis and conflict between Court and Country. Depending on how we handle this difficult time, we might come out of it a stronger country than before — if we manage to weather the storm, of course."
  court_and_country_tips_header: "Advice for Court and Country"
- court_and_country_tips_tt: "We can increase our [crown_power|e] through:\n$BULLET_WITH_TAB$Revoking [privileges|e]\n$BULLET_WITH_TAB$Increasing [control|e] across our [locations|e]\n$BULLET_WITH_TAB$Building a [ShowBuildingTypeName('counting_house')]\n$BULLET_WITH_TAB$Increasing our [legitimacy|e]\n$BULLET_WITH_TAB$Enacting certain [policies|e]"
- french_wars_of_religion_breakdown_tt: "Percentage of relevant [ShowReligionGroupAdjective('christian')] [religions|e] in our [country|e]\n[ShowReligionName('catholic')]:"
- x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2] [catholic|e] [pops|e]"
- court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] may refuse to pay taxes through an [event|e]"
- court_and_country_8_tt: "Local revolts may arise at the response of instability through an [event|e]"
- court_and_country_9_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] may rise up to demand their old privileges through an [event|e]"
- court_and_country_10_tt: "A [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] league may rise against us through an [event|e]"
- court_and_country_11_tt: "Officers within our armies may have their loyalty questioned through an [event|e]"
- court_and_country_12_tt: "We may find supporters within the army and the government through an [event|e]"
+ court_and_country_tips_tt: "We can increase our [crown_power|e] through:\n$BULLET_WITH_TAB$Revoking [privileges|e]\n$BULLET_WITH_TAB$Increasing [control|e] across our [Concept('locations','райони')|e]\n$BULLET_WITH_TAB$Building a [ShowBuildingTypeName('counting_house')]\n$BULLET_WITH_TAB$Increasing our [legitimacy|e]\n$BULLET_WITH_TAB$Enacting certain [Concept('policies','політики')|e]"
+ french_wars_of_religion_breakdown_tt: "Percentage of relevant [ShowReligionGroupAdjective('christian')] [Concept('religions','віри')|e] in our [Concept('country','держава')|e]\n[ShowReligionName('catholic')]:"
+ x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2] [catholic|e] [Concept('pops','населення')|e]"
+ court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] may refuse to pay taxes through an [Concept('event','подія')|e]"
+ court_and_country_8_tt: "Local revolts may arise at the response of instability through an [Concept('event','подія')|e]"
+ court_and_country_9_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] may rise up to demand their old privileges through an [Concept('event','подія')|e]"
+ court_and_country_10_tt: "A [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] league may rise against us through an [Concept('event','подія')|e]"
+ court_and_country_11_tt: "Officers within our armies may have their loyalty questioned through an [Concept('event','подія')|e]"
+ court_and_country_12_tt: "We may find supporters within the army and the government through an [Concept('event','подія')|e]"
 
 
 #Aspiration for Liberty Disaster
  #Disaster
  aspiration_for_liberty: "Aspiration for Liberty"
  aspiration_for_liberty_desc: "The population's thirst for liberty and the desire to enact enlightened ideals have made their rebellion seemingly unavoidable. Their rage towards our perceived failure to rule threatens to explode into a revolutionary conflagration! This will make things far more difficult for us going forward..."
- battles_on_foreign_grounds_tt: "Foreign wars may become more costly to maintain through an [event|e]"
- governmental_incompetence_event_tt: "The people may rise up against our governmental incompetence through an [event|e]"
+ battles_on_foreign_grounds_tt: "Foreign wars may become more costly to maintain through an [Concept('event','подія')|e]"
+ governmental_incompetence_event_tt: "The people may rise up against our governmental incompetence through an [Concept('event','подія')|e]"
 
 #Reform Society
  #Disaster
@@ -225,9 +225,9 @@
  pw_push_for_plutocracy_desc: "Wealth, not heritage, becomes the path to influence. [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')], financiers, and enterprising elites are due to gain favor, reshaping our current institutions into temples commerce and profit. Such a move will surely upset the strongest members among the [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]..."
  
  #Tooltips
- given_more_estate_power_nobles_estate_power_tt: "We have given more [estate_power|e] to the [GetCountry('POL').GetGovernment.GetEstateName('nobles_estate')] [estate|e]"
- given_more_estate_power_burghers_estate_power_tt: "We have given more [estate_power|e] to the [GetCountry('POL').GetGovernment.GetEstateName('burghers_estate')] [estate|e]"
- given_more_estate_power_crown_estate_power_tt: "We have secured more [estate_power|e] for the [GetCountry('POL').GetGovernment.GetEstateName('crown_estate')] [estate|e]"
+ given_more_estate_power_nobles_estate_power_tt: "We have given more [estate_power|e] to the [GetCountry('POL').GetGovernment.GetEstateName('nobles_estate')] [Concept('estate','стан')|e]"
+ given_more_estate_power_burghers_estate_power_tt: "We have given more [estate_power|e] to the [GetCountry('POL').GetGovernment.GetEstateName('burghers_estate')] [Concept('estate','стан')|e]"
+ given_more_estate_power_crown_estate_power_tt: "We have secured more [estate_power|e] for the [GetCountry('POL').GetGovernment.GetEstateName('crown_estate')] [Concept('estate','стан')|e]"
 
 #Death of Hayam Wuruk
  #Disaster
@@ -252,7 +252,7 @@
  #Disaster
  french_wars_of_religion: "French Wars of Religion"
  french_wars_of_religion_desc: "As new branches of the [ShowReligionGroupAdjective('christian')] faith appear across [ShowContinentName('europe')], the subsequent religious friction created within our society has reached a boiling point. Now we are beset by armed zealots — heretics and defenders of the true faith alike — threatening to drag our entire realm into vicious civil conflict."
- had_fwr_before_definitive_ending_tt: "Has not previously concluded this disaster either by achieving [religious_unity|e], or by signing the [ShowPolicyName('edict_of_nantes')] [policy|e]"
+ had_fwr_before_definitive_ending_tt: "Has not previously concluded this disaster either by achieving [religious_unity|e], or by signing the [ShowPolicyName('edict_of_nantes')] [Concept('policy','політика')|e]"
  lutheran_huguenots: "$lutheran_ADJ$ Huguenots"
  calvinist_huguenots: "$calvinist_ADJ$ Huguenots"
  catholic_huguenots: "$catholic_ADJ$ Huguenots"

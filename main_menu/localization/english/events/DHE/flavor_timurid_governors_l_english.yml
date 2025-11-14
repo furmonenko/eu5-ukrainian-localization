@@ -40,13 +40,13 @@
  flavor_tim_governor.6.desc: "Ever since being given governorship of [target_area.GetName], [target_character.GetName] has been hard at work to develop it into the jewel of [target_country.GetName]. Using the limited resources at [target_character.GetHerHis] disposal, it has turned out to be a great learning experience. The citizens, who doubted [target_character.GetHerHis] abilities at first, are now happy to be living under [target_character.GetHerHis] governance."
  flavor_tim_governor.6.a: "Further this development."
  flavor_tim_governor.6.b: "Let [target_character.GetHerHim] learn from this success."
- timurid_governor_increase_development_in_area_tt: "Every owned [location|e] in [target_area.GetName] will gain [ShowNamedValue('development_weak_bonus')|+=] [development|e]"
+ timurid_governor_increase_development_in_area_tt: "Every owned [Concept('location','район')|e] in [target_area.GetName] will gain [ShowNamedValue('development_weak_bonus')|+=] [development|e]"
 
  flavor_tim_governor.7.title: "Economic Policies Backfire in [target_area.GetNameWithNoTooltip]"
  flavor_tim_governor.7.desc: "Despite the best attempts of [target_character.GetName] to turn [target_area.GetName] into a jewel, [target_character.GetSheHe] has suffered setbacks. Certain economic policies imposed within [target_area.GetNameWithNoTooltip] led to houses and guilds being shut down, effectively leading to a decline."
  flavor_tim_governor.7.a: "By [ROOT.GetCountry.GetReligion.GetGodName], this is bad."
  flavor_tim_governor.7.b: "We should revert these policies."
- timurid_governor_decrease_development_in_area_tt: "Every owned [location|e] in [target_area.GetName] will lose [ShowNamedValue('development_weak_penalty')|+=] [development|e]"
+ timurid_governor_decrease_development_in_area_tt: "Every owned [Concept('location','район')|e] in [target_area.GetName] will lose [ShowNamedValue('development_weak_penalty')|+=] [development|e]"
 
  flavor_tim_governor.8.title: "Frontier Life"
  flavor_tim_governor.8.desc: "Ever since our exile in [target_area.GetName], the people there have been hardened. Always on the ready for any enemy raid, they are now renowned within the [target_country.GetAdjective] [ROOT.GetCountry.GetFlavorRank]. [target_character.GetName] has noticed this as well, and wishes to turn [target_area.GetNameWithNoTooltip] into a militaristic governorship to hopefully one day take revenge against [target_country.GetNameWithNoTooltip]."
@@ -67,13 +67,13 @@
  flavor_tim_governor.11.desc: "With [target_character.GetName] and [target_character.GetHerHis] effective policies imposed within [target_area.GetName], the province is now experiencing prosperity. The streets of [ROOT.GetCountry.GetCapital.GetName] are now filled with hard-working [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and content [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. We could spend more on this, or we could reap the current benefits."
  flavor_tim_governor.11.a: "Let us spend more for prosperity."
  flavor_tim_governor.11.b: "Instead of spending gold, let us enjoy the current state of things."
- timurid_governor_increase_prosperity_and_satisfaction_tt: "Every owned [location|e] in [target_area.GetName] will gain [ShowNamedValue('prosperity_weak_bonus')|+=2%] [prosperity|e] and their [pops|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
+ timurid_governor_increase_prosperity_and_satisfaction_tt: "Every owned [Concept('location','район')|e] in [target_area.GetName] will gain [ShowNamedValue('prosperity_weak_bonus')|+=2%] [prosperity|e] and their [Concept('pops','населення')|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
 
  flavor_tim_governor.12.title: "Governor Policies in [target_area.GetNameWithNoTooltip] Backfire"
  flavor_tim_governor.12.desc: "Recent policies introduced by [target_character.GetName] have backfired. Instead of bringing the prosperity [target_character.GetSheHe] hoped for, it led to a decline of productivity for the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. It is not too late though, we could try to revert some of them, even if it causes some instability within [ROOT.GetCountry.GetName]."
  flavor_tim_governor.12.a: "We reap what we sow."
  flavor_tim_governor.12.b: "Let us quickly revert them."
- timurid_governor_decrease_prosperity_and_satisfaction_in_area_tt: "Every owned [location|e] in [target_area.GetName] will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e] and their [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ timurid_governor_decrease_prosperity_and_satisfaction_in_area_tt: "Every owned [Concept('location','район')|e] in [target_area.GetName] will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e] and their [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
 
  flavor_tim_governor.13.title: "Development of the Port in [target_location.GetNameWithNoTooltip]"
  flavor_tim_governor.13.desc: "The governorship of [target_character.GetName] has brought prosperity to the port of [target_location.GetName]. An influx of traders from all over [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetName] has led to the [target_location.GetRank.GetName] becoming perhaps one of the greatest ports in the entire [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetFlavorRank]."

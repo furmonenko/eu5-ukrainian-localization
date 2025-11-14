@@ -196,8 +196,8 @@
  dissolve_league_peace_deal_entry_short: "Dissolve their League"
  
  peace_force_renounce_ilkhan_claim: "Force Renounce to the [GetUniqueInternationalOrganization('ilkhanate').GetName] Claim"
- peace_force_renounce_ilkhan_claim_entry: "Force a [country|e] to renounce their claim to the leadership of the [GetUniqueInternationalOrganization('ilkhanate').GetName]"
- peace_force_renounce_ilkhan_claim_entry_short: "Force a [country|e] to renounce their claim to the leadership of the [GetUniqueInternationalOrganization('ilkhanate').GetName]"
+ peace_force_renounce_ilkhan_claim_entry: "Force a [Concept('country','держава')|e] to renounce their claim to the leadership of the [GetUniqueInternationalOrganization('ilkhanate').GetName]"
+ peace_force_renounce_ilkhan_claim_entry_short: "Force a [Concept('country','держава')|e] to renounce their claim to the leadership of the [GetUniqueInternationalOrganization('ilkhanate').GetName]"
  
  force_convert: "Force Convert [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip] to [COUNTRY.GetReligion.GetNameWithNoTooltip]"
  force_convert_entry: "Force Convert [TARGET_COUNTRY.GetNameWithFlag] to [COUNTRY.GetReligion.GetName]"
@@ -259,8 +259,8 @@
  rtr_demand_occupied_territories: "Demand Occupied Territories"
  rtr_demand_occupied_territories_entry: "$rtr_demand_occupied_territories$"
  rtr_demand_occupied_territories_entry_short: "$rtr_demand_occupied_territories$"
- rtr_demand_occupied_territories_desc: "Demand all [occupied|e] locations from the target [country|e]."
- rtr_demand_occupied_territories_tt: "Every [loser.GetAdjective] [location|e] occupied by [winner.GetName] gets seized by [winner.GetNameWithNoTooltip]"
+ rtr_demand_occupied_territories_desc: "Demand all [occupied|e] locations from the target [Concept('country','держава')|e]."
+ rtr_demand_occupied_territories_tt: "Every [loser.GetAdjective] [Concept('location','район')|e] occupied by [winner.GetName] gets seized by [winner.GetNameWithNoTooltip]"
  rtr_demand_complete_annexation: "Demand Complete Annexation"
  rtr_demand_complete_annexation_entry: "$rtr_demand_complete_annexation$"
  rtr_demand_complete_annexation_entry_short: "$rtr_demand_complete_annexation$"

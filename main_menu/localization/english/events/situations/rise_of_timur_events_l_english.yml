@@ -68,7 +68,7 @@
  rise_of_timur.14.title: "Conquest of [ShowRegionNameWithNoTooltip('persia_region')]"
  rise_of_timur.14.desc: "[ShowRegionName('persia_region')] has been a center of the [ShowReligionGroupAdjective('muslim')] world for centuries, serving as a bridge between [ShowContinentName('europe')] and [ShowContinentName('asia')]. Many empires have risen and fallen in these lands, and now our great [ROOT.GetCountry.GetLongName] is again at its doorstep. They will not be able to stand in front of our unstoppable armies, as it is our destiny to rule over these lands."
  rise_of_timur.14.a: "[ShowRegionNameWithNoTooltip('persia_region')] shall bow before us."
- rise_of_timur.14.a.tt: "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [country|e] with its capital in [ShowRegionName('persia_region')]"
+ rise_of_timur.14.a.tt: "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [Concept('country','держава')|e] with its capital in [ShowRegionName('persia_region')]"
 
  rise_of_timur.15.title: "Conquest of [ShowRegionNameWithNoTooltip('anatolia_region')]"
  rise_of_timur.15.desc: "The [ShowCultureGroupName('turkic_group')] people have come a long way since the emergence from the Asian steppes. Centuries ago, some of the [ShowCultureGroupNameWithNoTooltip('turkic_group')] groups in the form of the Seljuk Empire dominated the lands of [ShowRegionName('persia_region')] penetrated deep into the [GetCountry('BYZ').GetAdjective] territory of [ShowRegionName('anatolia_region')]. Now it is turn for the people of [ShowRegionNameWithNoTooltip('anatolia_region')] to be unified once again under a new great [ShowCultureGroupNameWithNoTooltip('turkic_group')] [ROOT.GetCountry.GetFlavorRank]"
@@ -96,7 +96,7 @@
  rise_of_timur.1000.title.generic: "An Alliance of Hordes"
  rise_of_timur.1000.desc: "The [target_country.GetLongName] and its master, [target_character.GetName] are the descendants of $genghis_khan_name$'s legacy. As [from_character.GetName] claims blood relations to the great warlord, it is not surprising that our both realms share a bond which could serve as a base for a beneficial alliance."
  rise_of_timur.1000.a: "Reach out to [target_character.GetNameWithNoTooltip]."
- rise_of_timur.1000.a.tt: "We will request an [alliance|e] from [target_country.GetName]"
+ rise_of_timur.1000.a.tt: "We will request an [Concept('alliance','союз')|e] from [target_country.GetName]"
  rise_of_timur.1000.b: "Such alliance is of no use to us."
  rise_of_timur.1000.b.tt: "We will not bother ourselves with the likes of the [target_country.GetLongNameWithNoTooltip]"
 
@@ -104,7 +104,7 @@
  rise_of_timur.1001.desc: "News from [from_country.GetName] have reached [target_character.GetName]. It seems [from_character.GetName], referring to our common ancestorship in the [GetDynasty('borjigin_dynasty').GetName] family, wishes for an alliance between our two realms."
  rise_of_timur.1001.a: "[target_character.GetShortNameWithNoTooltip] seems quite promising..."
  rise_of_timur.1001.b: "[target_character.GetSheHe|U] is not even a child of $genghis_khan_name_no_tooltip$!"
- rise_of_timur.1001.b.tt: "We will reject the [alliance|e] offer from [from_country.GetName]"
+ rise_of_timur.1001.b.tt: "We will reject the [Concept('alliance','союз')|e] offer from [from_country.GetName]"
 
  rise_of_timur.1002.title: "Alliance Accepted"
  rise_of_timur.1002.desc: "News from [target_country.GetName] has reached our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. It seems [target_character.GetName] possesses the insight to acknowledge the military prowess of [from_character.GetName], and has accepted our offer of an alliance."
@@ -127,9 +127,9 @@
  rise_of_timur.1020.title: "The Turkoman of [ShowRegionNameWithNoTooltip('anatolia_region')]"
  rise_of_timur.1020.desc: "The [ShowCultureGroupName('turkic_group')] Seljuk Empire of old managed to unify not only the [ShowCultureGroupNameWithNoTooltip('turkic_group')] and [ShowCultureGroupName('iranian_group')] peoples of [ShowRegionName('persia_region')], but it also encroached into the lands of [ShowRegionName('anatolia_region')], where many [ShowCultureGroupNameWithNoTooltip('turkic_group')] people still live. In the same way, so did the troops of $genghis_khan_name$ and his descendants of the $ilkhanate$ extend their influence into the peninsula. With our influence expanded over them, we can restore the glory of those empires."
  rise_of_timur.1020.a: "The legacy of those empires lies on us!"
- rise_of_timur.1020.a.tt: "Every [country|e] with its capital in [ShowRegionName('anatolia_region')] which neighbors either us or any of our [subjects|e] gains the opportunity to become a [ShowSubjectTypeName('vassal')] of [from_country.GetName]"
+ rise_of_timur.1020.a.tt: "Every [Concept('country','держава')|e] with its capital in [ShowRegionName('anatolia_region')] which neighbors either us or any of our [Concept('subjects','васали')|e] gains the opportunity to become a [ShowSubjectTypeName('vassal')] of [from_country.GetName]"
  rise_of_timur.1020.b: "The [ROOT.GetCountry.GetLongNameWithNoTooltip] is not like those failed empires."
- rise_of_timur.1020.b.tt: "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [country|e] with its capital in [ShowRegionName('anatolia_region')]"
+ rise_of_timur.1020.b.tt: "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [Concept('country','держава')|e] with its capital in [ShowRegionName('anatolia_region')]"
 
  rise_of_timur.1021.title: "[from_country.GetNameWithNoTooltip]'s Offer"
  rise_of_timur.1021.desc: "The expansion and military might of the [from_country.GetLongName] is undeniable. Now that they have started spreading their tendrils on [ShowRegionName('anatolia_region')] they have come to us with a proposal. They offer us the possibility to willfully bend the knee to them and become one of their subjects. If we refuse, it is clear that they will resort to other means to ensure their dominion over our territory."
@@ -148,9 +148,9 @@
  rise_of_timur.1030.title.generic: "Opposition in Anatolia"
  rise_of_timur.1030.desc: "The glory of our great [ROOT.GetCountry.GetLongName] is undeniable and our right to rule over all the lands of [ShowRegionName('anatolia_region')] should be unquestioned. However, the foolish people of [target_country.GetName] resist in their struggles and their unsubstantiated claim of being the strongest [ShowCultureGroupName('turkic_group')] of the region. It is clear that we will have to put them in their place and let them know who the true [ShowCultureGroupNameWithNoTooltip('turkic_group')] is."
  rise_of_timur.1030.a: "Tell them who is in charge!"
- rise_of_timur.1030.a.at: "We make severe demands against [target_country.GetName] which will result in a [war|e] if they do not accept\nWe make the following demands from [target_country.GetName]:"
+ rise_of_timur.1030.a.at: "We make severe demands against [target_country.GetName] which will result in a [Concept('war','війна')|e] if they do not accept\nWe make the following demands from [target_country.GetName]:"
  rise_of_timur.1030.b: "[ShowRegionNameWithNoTooltip('anatolia_region')] is big enough for the both of us."
- timurs_demands_at: "All [target_country.GetAdjective] [subjects|e] in [ShowRegionName('anatolia_region')] become a [ShowSubjectTypeName('tributary')] of [from_country.GetName]"
+ timurs_demands_at: "All [target_country.GetAdjective] [Concept('subjects','васали')|e] in [ShowRegionName('anatolia_region')] become a [ShowSubjectTypeName('tributary')] of [from_country.GetName]"
 
  rise_of_timur.1031.title: "[from_country.GetAdjectiveWithNoTooltip] Threat"
  rise_of_timur.1031.desc: "The expansion of [from_country.GetName] seems unstoppable, and now they have come knocking at our door. Their ambitions extend to the whole region of [ShowRegionName('anatolia_region')], and they seem unconcerned with the struggles that we ourselves had to face to emerge as the most prominent [ShowCultureGroupName('turkic_group')] power in the region, as they want to claim that title for themselves. If we do not align ourselves with them and resign our spot to them, they are for sure to try to enforce it with their military might."

@@ -22,8 +22,8 @@
  flavor_mch.5.desc: "A few centuries ago, a dynasty of [ShowCultureName('jurchen_culture')] origins, the Jīn dynasty, managed to achieve great success by their vast conquests of [ShowRegionName('north_china_region')]. Though they were unable to fully claim the custodianship over the [GetInternationalOrganization('middle_kingdom').GetName], they were, nevertheless, able to fend off invasions from the southern Sòng dynasty, and perhaps could have achieved major success if not for the invasion of the [GetCountry('MGE').GetLongName]. Perhaps, as a powerful [ROOT.GetCountry.GetAdjective] state of [ShowCultureNameWithNoTooltip('jurchen_culture')] origins, we could take on their name."
  flavor_mch.5.a: "Proclaim the Later Jīn."
  flavor_mch.5.b: "We are the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] first and foremost."
- mch_warring_state_modifier_trigger: "[location|e] belongs to the [ShowCultureGroupName('chinese_group')] [culture_group|e] and [owner|e] has succeeded in subduing [GetCountry('KOR').GetName] through the $flavor_mch.10.title$ [event|e] chain."
- mch_lifan_yuan_modifier_trigger: "[location|e] has a [dominant_culture|e] which is neither accepted nor belongs to the [ShowCultureGroupName('chinese_group')] or [ShowCultureGroupName('jurchen_group')] [culture_group|e]."
+ mch_warring_state_modifier_trigger: "[Concept('location','район')|e] belongs to the [ShowCultureGroupName('chinese_group')] [culture_group|e] and [owner|e] has succeeded in subduing [GetCountry('KOR').GetName] through the $flavor_mch.10.title$ [Concept('event','подія')|e] chain."
+ mch_lifan_yuan_modifier_trigger: "[Concept('location','район')|e] has a [dominant_culture|e] which is neither accepted nor belongs to the [ShowCultureGroupName('chinese_group')] or [ShowCultureGroupName('jurchen_group')] [culture_group|e]."
  unlocked_warring_state: "Unlocked $warring_state$"
 
  map_QNG: "$QNG$ Yellow"
@@ -49,7 +49,7 @@
  flavor_mch.10.desc: "The [target_country.GetLongName] was, for many centuries, a faithful subject of the [GetInternationalOrganization('middle_kingdom').GetName]. However, it seems that for the [target_country.GetAdjectiveWithNoTooltip] state, our claim to the Mandate of Heaven is of little substance, as they refuse to become a loyal [ShowSubjectTypeName('tributary')] of [ROOT.GetCountry.GetName]. Shall we fail to rein them in, our claim may be questioned."
  flavor_mch.10.a: "We demand a kowtow!"
  flavor_mch.10.b: "They will be subdued in due time."
- mch_benefits_of_subjugating_korea: "We have 25 years to make [target_country.GetName] into our [subject|e]. If we succeed, [ShowGovernmentReformName('warring_state')] will provide us with additional benefits."
+ mch_benefits_of_subjugating_korea: "We have 25 years to make [target_country.GetName] into our [Concept('subject','васал')|e]. If we succeed, [ShowGovernmentReformName('warring_state')] will provide us with additional benefits."
 
  flavor_mch.11.success_title: "Fall of [target_country.GetNameWithNoTooltip]"
  flavor_mch.11.failure_title: "[target_country.GetNameWithNoTooltip] Stands Tall"

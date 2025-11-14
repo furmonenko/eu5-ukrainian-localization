@@ -114,8 +114,8 @@
  flavor_mal.21.b: "Maintaining peace in [ROOT.GetCountry.GetNameWithNoTooltip] is important."
  flavor_mal.21.c: "When in peace, prepare for war."
  flavor_mal.21.d: "[ROOT.GetCountry.GetCourtLanguage.GetNameWithNoTooltip] shall be spoken everywhere."
- mal_every_location_with_a_market_gains_development_tt: "Every [location|e] that has a [ShowBuildingTypeName('marketplace')] will gain [ShowNamedValue('development_mild_bonus')|+=] [development|e]."
- mal_every_armory_gains_an_extra_upgrade_if_possible_tt: "Every [ShowBuildingTypeName('armory')] [building|e] will be upgraded by #G 1#! level."
+ mal_every_location_with_a_market_gains_development_tt: "Every [Concept('location','район')|e] that has a [ShowBuildingTypeName('marketplace')] will gain [ShowNamedValue('development_mild_bonus')|+=] [development|e]."
+ mal_every_armory_gains_an_extra_upgrade_if_possible_tt: "Every [ShowBuildingTypeName('armory')] [Concept('building','будівля')|e] will be upgraded by #G 1#! level."
 
  flavor_mal.22.title: "Reclaiming [target_location.GetNameWithNoTooltip]"
  flavor_mal.22.desc: "In the past, we had controlled the [target_location.GetRank.GetName] of [target_location.GetName], however, we lost it to the [ShowCultureName('tuareg')] people. Now that it is finally reclaimed, [target_character.GetName] and [target_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle] have been debating on whether it should be fortified to prevent another loss, or whether its mines should be strengthened."
@@ -127,7 +127,7 @@
  flavor_mal.23.historical_info: "Since the founding of the Mali Empire, the Fulbe people have been in charge of the cattle-rearing of the [ROOT.GetCountry.GetFlavorRank]. They would often share their lands with other nearby groups, and their wealth was measured by how large their herd was."
  flavor_mal.23.a: "Let them serve us in the long term."
  flavor_mal.23.b: "All gold belongs to [target_character.GetNameWithNoTooltip]."
- mal_unlock_fulani_cattle_rearing_pens_tt: "Unlocks the [ShowBuildingTypeName('fulani_cattle_rearing_pen')] [building|e] for our [ShowGoodsName('livestock')] producing [locations|e] in [ShowRegionName('guinea_region')]"
+ mal_unlock_fulani_cattle_rearing_pens_tt: "Unlocks the [ShowBuildingTypeName('fulani_cattle_rearing_pen')] [Concept('building','будівля')|e] for our [ShowGoodsName('livestock')] producing [Concept('locations','райони')|e] in [ShowRegionName('guinea_region')]"
 
  flavor_mal.24.title: "Searching for the Lost Voyage"
  flavor_mal.24.desc: "While [target_character.GetName] thought the [ShowRegionName('south_atlantic_region')] expedition to have been in vain, [target_character2.GetName] thinks otherwise. [target_character2.GetSheHe|U] thinks that there must be something in the West. We could try to invest in new voyages, all for the sake of diving into the unknown."
@@ -163,7 +163,7 @@
  flavor_mal.30.title: "A Tyrannical Ruler"
  flavor_mal.30.desc: "[target_character.GetName] has been oppressing [target_character.GetHerHis] subjects, mistreating them and thinking of them as mere pawns. While [target_character.GetSheHe] has the power to do so, all of [ROOT.GetCountry.GetName] is murmuring of overthrowing [target_character.GetHerHim]."
  flavor_mal.30.a: "[target_character.GetNameWithNoTooltip] needs to be contained."
- mal_all_pops_lose_15_satisfaction_tt: "All of our [pops|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+2%] [pop_satisfaction|e]"
+ mal_all_pops_lose_15_satisfaction_tt: "All of our [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+2%] [pop_satisfaction|e]"
 
  flavor_mal.31.title: "Shifting Towards the Coast"
  flavor_mal.31.desc: "Whilst the Trans-Saharan trade has brought [ROOT.GetCountry.GetName] many riches in the past, it is now clear that there has been a shift towards maritime trade. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] has suggested that we instead focus on developing some of our coastal locations in [ShowRegionName('guinea_region')] instead, such as [target_location.GetName], to stay ahead in any economic matters."

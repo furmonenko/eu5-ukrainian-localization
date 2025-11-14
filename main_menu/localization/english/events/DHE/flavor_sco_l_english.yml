@@ -21,7 +21,7 @@
  flavor_sco.4.historical_info: "John Knox became something of a spokesman for Protestantism in Scotland in the 1540s. In June 1547, French assistance to fight the Protestants arrived and Knox and others were carried off to slavery in the French galleys but due to English intervention Knox was released. He could, however, not return to Scotland and continue his preaching but had to stay in England, where he had a large influence on the forming of the English Puritanism. He stayed there until the Catholic Mary Tudor ascended the throne, at which time he thought it wise to flee to the continent. In 1559 he again was able to return to Scotland and was astounded by the progress made by the Calvinist cause and by the eager reception given to him by all classes in the community."
  flavor_sco.4.a: "Banish [target_character.GetHerHim]."
  flavor_sco.4.b: "Probably nothing will come out of it."
- flavor_sco.4.tt_common: "[ShowBuildingTypeName('calvinist_preachers')] will spread through our [locations|e]"
+ flavor_sco.4.tt_common: "[ShowBuildingTypeName('calvinist_preachers')] will spread through our [Concept('locations','райони')|e]"
  flavor_sco.4.a.tt: "$flavor_sco.4.tt_common$, though in a reduced extent"
  flavor_sco.4.b.tt: "$flavor_sco.4.tt_common$"
 
@@ -29,7 +29,7 @@
  flavor_sco.5.desc: "A powerful group of [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], called the Lords of the Congregation, has presented a [ShowReligionName('calvinist')] proclamation which they call #italic The First Covenant#!, calling for the expulsion of the [ShowReligionAdjective('catholic')] Church from [ROOT.GetCountry.GetName] and the official embrace of the [ShowReligionAdjective('calvinist')] faith. The motives, however, are probably much more to be able to confiscate the vast riches of the [ShowReligionAdjectiveWithNoTooltip('catholic')] Church in our country than purely true faith."
  flavor_sco.5.a: "Support the Lords of the Congregation."
  flavor_sco.5.b: "Oppose the Lords of the Congregation."
- sco_prevent_catholic_conversion: "[ShowModifier('sco_the_first_congregation')] disables the [ShowCabinetActionName('promote_religion')] [cabinet_action|e] if [ROOT.GetCountry.GetName] [religion|e] is [ShowReligionAdjective('catholic')]."
+ sco_prevent_catholic_conversion: "[ShowModifier('sco_the_first_congregation')] disables the [ShowCabinetActionName('promote_religion')] [cabinet_action|e] if [ROOT.GetCountry.GetName] [Concept('religion','віра')|e] is [ShowReligionAdjective('catholic')]."
 
  flavor_sco.6.title: "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] East Indian Company"
  flavor_sco.6.desc: "As all other nations in this time with a coastline, the [ROOT.GetCountry.GetLongName] has also managed to duplicate the efforts of their overseas expansions, and have found a route to the East Indies. Creating a company to exploit its many riches will for sure be to our benefit."
@@ -42,7 +42,7 @@
  flavor_sco.7.a: "Invest in the road constructions."
  flavor_sco.7.b: "Aim for a [ROOT.GetCountry.GetFlavorRank] wide road construction project."
  flavor_sco.7.c: "We are not interested."
- flavor_sco.7.tt: "[ShowRoadTypeName('modern_road')] will be built in every [location|e] within the [ShowAreaName('scottish_highlands_area')] [area|e]. Every [location|e] within the [ShowAreaNameWithNoTooltip('scottish_highlands_area')] [area|e] gains [ShowNamedValue('development_mild_bonus')|+=] [development|e]"
+ flavor_sco.7.tt: "[ShowRoadTypeName('modern_road')] will be built in every [Concept('location','район')|e] within the [ShowAreaName('scottish_highlands_area')] [area|e]. Every [Concept('location','район')|e] within the [ShowAreaNameWithNoTooltip('scottish_highlands_area')] [area|e] gains [ShowNamedValue('development_mild_bonus')|+=] [development|e]"
 
  flavor_sco.8.title: "The [target_location.GetNameWithNoTooltip] Chamber of Commerce"
  flavor_sco.8.desc: "The opening of a proper [ROOT.GetCountry.GetAdjective] Chamber of Commerce could do a lot to help our trade and would be a key factor in keeping a strong grip on our national economy. A proposal has been put forth by some personalities of the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] together with the local government of [target_location.GetName], proposing it as a candidate to hold this Chamber of Commerce."

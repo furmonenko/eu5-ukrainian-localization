@@ -39,7 +39,7 @@
  flavor_maj.7.a: "They will bend the knee!"
  flavor_maj.7.b: "Let this union grow into friendship between our people."
  flavor_maj.7.c: "They declined? We expected better..."
- explain_options_flavor_maj.8: "If they accept, they will become our direct [subject|e] but if they decline, we will gain a [casus_belli|e] against them"
+ explain_options_flavor_maj.8: "If they accept, they will become our direct [Concept('subject','васал')|e] but if they decline, we will gain a [casus_belli|e] against them"
 
  flavor_maj.8.title: "The Demands of [target_country.GetNameWithNoTooltip]"
  flavor_maj.8.desc: "Not long after the newly wed couple of [target_character.GetName] and [target_character3.GetName] tied their fortunes, [target_character.GetShortNameWithNoTooltip] has made an egregious demand! It appears that the marriage was a ploy to demand our subjugation, referencing their growing influence and power over us. What a horrible turn of events!"
@@ -99,7 +99,7 @@
  flavor_maj.17.title: "[target_character.GetNameWithNoTooltip]"
  flavor_maj.17.desc: "A truly exceptional character has made [target_character.GetHisHer] way to our country. [target_character.GetName], as [target_character.GetSheHe] is known, is a [target_religion.GetAdjective] preacher from all the way in [birth_location.GetArea.GetName]. Before arriving in [ROOT.GetCountry.GetName], [target_character.GetShortNameWithNoTooltip] was also proselytizing in [ShowAreaName('champa_area')] and has now moved onto building a new [target_religion.GetGroup.GetAdjective] community in our [ROOT.GetCountry.GetFlavorRank]."
  flavor_maj.17.a: "This is fine."
- wali_songo_tt: "When [THIS.GetCharacter.GetName] will die, a [ShowBuildingTypeName('wali_songo_shrine')] will be built in a prominent [owned|e] [ShowReligionAdjective('sunni')] [location|e]."
+ wali_songo_tt: "When [THIS.GetCharacter.GetName] will die, a [ShowBuildingTypeName('wali_songo_shrine')] will be built in a prominent [owned|e] [ShowReligionAdjective('sunni')] [Concept('location','район')|e]."
 
  flavor_maj.18.title: "Death of a Wālī"
  flavor_maj.18.desc: "We have received news of the death of [target_character.GetName]. During [target_character.GetHerHis] lifetime, [target_character.GetSheHe] was revered as a great [ShowReligionAdjective('sunni')] teacher and a [target_character.GetWomanMan] truly dedicated to spreading [target_character.GetHerHis] faith. Whether this is good or not remains to be soon. One thing is certain however, there will be more like [target_character.GetHerHim]."
@@ -114,7 +114,7 @@
  flavor_maj.20.desc: "A [target_character.GetDaughterSon] of a member of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] not long ago, everything about him was completely unknown but [target_character.GetHerHis] name - Damarwulan. [target_character.GetSheHe|U] served us as a stable servant, but soon the rumors of [target_character.GetHerHis] natural beauty reached the prime minister's daughter and there are few fires harder to extinguish than young love.\n\nThe fate that awaits [target_character.GetHerHim] for [target_character.GetHerHis] affront should be clear as a summer day, however, [target_character.GetSheHe] has won favor of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and many see [target_character.GetHerHim] as a prophesized savior of the [ROOT.GetCountry.GetFlavorRank]."
  flavor_maj.20.a: "Perhaps [target_character.GetSheHe] is our savior."
  flavor_maj.20.b: "This would make for a good story!"
- maj_winning_10_battles_with_damarwulan: "When [target_character.GetName] wins at least 10 [battles|e], [target_character.GetSheHe] will receive #g +15#! [mil|e] and [ROOT.GetCountry.GetName] will receive #g +25#! [legitimacy|e]."
+ maj_winning_10_battles_with_damarwulan: "When [target_character.GetName] wins at least 10 [Concept('battles','битви')|e], [target_character.GetSheHe] will receive #g +15#! [mil|e] and [ROOT.GetCountry.GetName] will receive #g +25#! [legitimacy|e]."
 
  flavor_maj.21.title: "Victory of [target_character.GetNameWithNoTooltip]"
  flavor_maj.21.desc: "It never gets any easier. Rotten blood still reeks as one's own, the enemies' eyes are still human eyes, the night before the battle still keeps [target_character.GetName] wide awake.\n\nThe battle ends victoriously, like any other battle has before for [target_character.GetHerHim]. This is the tenth battle, and [target_character.GetSheHe] wishes ten is the final number. When [target_character.GetSheHe] returns to [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetSheHe] is received with the greatest of honors, [target_character.GetHerHis] name repeated so many times that [target_character.GetSheHe] forgets it is [target_character.GetHerHis] name and thinks it is just another word for 'victory'. [ROOT.GetCountry.GetGovernment.GetRuler.GetName] approaches [target_character.GetHerHim], [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] heart filled with joy."
@@ -148,7 +148,7 @@
  flavor_maj.26.desc: "We have been approached by a certain high-ranking minister, the [target_character.GetName] of the [target_country.GetLongName]. [target_character.GetSheHe|U] has served us in the past and has offered to lead an expedition into [ShowAreaName('south_sumatra_area')] in order to strengthen our grip on our subjects as well as to subdue [target_country2.GetName]."
  flavor_maj.26.a: "[target_character.GetNameWithNoTooltip] would be a good leader."
  flavor_maj.26.b: "We cannot fund such expeditions."
- maj_fire_will_event_if_target_character_lives: "If [target_character.GetName] dies before the end of the expedition, the [event|e] will not fire."
+ maj_fire_will_event_if_target_character_lives: "If [target_character.GetName] dies before the end of the expedition, the [Concept('event','подія')|e] will not fire."
 
  flavor_maj.27.title: "The $PGR$"
  flavor_maj.27.desc: "Following the expedition of [target_character.GetName], [target_character.GetSheHe] took control over the [ROOT.GetCountry.GetLongName] and established [target_character.GetHerHis] own state. As the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of $PGR$, [target_character.GetNameWithNoTooltip] is set out to control the famous [ShowGoodsName('goods_gold')] trade."

@@ -11,9 +11,9 @@
  flavor_usa.3.title: "Northwest Ordinance"
  flavor_usa.3.desc: "The areas between the Mississippi River, the [ShowAreaName('great_lakes_sea_zones_area')], and the Ohio River, also know as the Northwest Ordinance, have existed on the periphery of our country for a while now. A particular question is their administrative standing within our territory and if they shall be governed from our capital or they should become new states within [ROOT.GetCountry.GetName]. We should settle this conflict now, so a stable rule of these lands can begin."
  flavor_usa.3.a: "They will be separate states."
- flavor_usa.3.a.tt: "Every owned [location|e] in the Northwest Ordinance will gain [ShowNamedValue('development_weak_bonus')|+=] [development|e] and lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
+ flavor_usa.3.a.tt: "Every owned [Concept('location','район')|e] in the Northwest Ordinance will gain [ShowNamedValue('development_weak_bonus')|+=] [development|e] and lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
  flavor_usa.3.b: "Enforce our rule on these provinces."
- flavor_usa.3.b.tt: "Every owned [location|e] in the Northwest Ordinance will lose [ShowNamedValue('development_weak_penalty')|+=] [development|e] and gain [ShowNamedValue('control_mild_bonus')|+=2%] [control|e]"
+ flavor_usa.3.b.tt: "Every owned [Concept('location','район')|e] in the Northwest Ordinance will lose [ShowNamedValue('development_weak_penalty')|+=] [development|e] and gain [ShowNamedValue('control_mild_bonus')|+=2%] [control|e]"
 
  flavor_usa.4.title: "Declaration of Independence"
  flavor_usa.4.desc: "Multiple voices in our country, especially those who advocated for our independence before, are calling for an official act to cement the [ROOT.GetCountry.GetLongName] as a legitimate nation. They argue that without a Declaration of Independence, we would be considered outlaws by the countries of [ShowContinentName('europe')], rebels against a legitimate sovereign and government. To transform us into a legitimate nation, we need international recognition for our cause and foreign allies to support it."
@@ -42,9 +42,9 @@
  flavor_usa.9.title: "Unjust Taxation"
  flavor_usa.9.desc: "The heavy taxes we are laying upon the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] have caused unrest in [unrest_location.GetName]. Not only the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] themselves are in uproar about this injustice, but so are most of their countrymen in [unrest_location.GetProvince.GetName]. If we do not address their concern, this could spiral into a larger issue."
  flavor_usa.9.a: "What do they know about just taxes?"
- flavor_usa.9.a.tt: "All [pops|e] in the province of [unrest_location.GetProvince.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] but the locations also gain [ShowNamedValue('control_weak_bonus')|+=2%] [control|e]"
+ flavor_usa.9.a.tt: "All [Concept('pops','населення')|e] in the province of [unrest_location.GetProvince.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] but the locations also gain [ShowNamedValue('control_weak_bonus')|+=2%] [control|e]"
  flavor_usa.9.b: "Give them more autonomy."
- flavor_usa.9.b.tt: "All [pops|e] in the province of [unrest_location.GetProvince.GetName] gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] but the locations also lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
+ flavor_usa.9.b.tt: "All [Concept('pops','населення')|e] in the province of [unrest_location.GetProvince.GetName] gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] but the locations also lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
 
  flavor_usa.10.title: "[unrest_location.GetNameWithNoTooltip] Post Road"
  flavor_usa.10.desc: "The countryside of [ROOT.GetCountry.GetName] is poorly connected to our urban centers, and investment into our road network has been requested several times. Better roads would not only benefit our people, but increase the time it takes for our army to react to any foreign aggression, so investment seems wise."
@@ -56,9 +56,9 @@
 
  flavor_usa.12.title: "Great Fire of [target_location.GetNameWithNoTooltip]"
  flavor_usa.12.desc: "The [target_location.GetRank.GetName] of [target_location.GetName] is set ablaze by fire!\n\nWhile the hungry flames still burn through the houses, some representatives from [target_location.GetNameWithNoTooltip] have already started to organize a relief and re-construction plan for the [target_location.GetRank.GetNameWithNoTooltip]. It would be an expensive undertaking, but it could prove to be a good long-term investment for a valuable piece of land."
- flavor_usa.12.a.tt: "[target_location.GetName] will lose [prosperity|e], lose [pops|e] and some [buildings|e] will be affected by the fire"
+ flavor_usa.12.a.tt: "[target_location.GetName] will lose [prosperity|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the fire"
  flavor_usa.12.a: "Go with the ambitious plan!"
- flavor_usa.12.b.tt: "[target_location.GetName] will lose [prosperity|e], lose [development|e], lose [pops|e] and some [buildings|e] will be affected by the fire"
+ flavor_usa.12.b.tt: "[target_location.GetName] will lose [prosperity|e], lose [development|e], lose [Concept('pops','населення')|e] and some [Concept('buildings','будівлі')|e] will be affected by the fire"
  flavor_usa.12.b: "Do only what is necessary!"
 
  flavor_usa.13.title: "The Expedition of [target_character.GetNameWithNoTooltip] and [target_character_2.GetNameWithNoTooltip]"
@@ -75,7 +75,7 @@
  flavor_usa.15.title: "The Invention of the [ShowModifierWithNoTooltip('cotton_gin')]"
  flavor_usa.15.desc: "A new machine which separates [ShowGoodsName('cotton')] fibers from their seeds in a quick and easy way is currently being developed, and could significantly improve the output of our [ShowGoodsNameWithNoTooltip('cotton')] production. The machine is a wooden drum with small wire hooks that pulls the [ShowGoodsNameWithNoTooltip('cotton')] fibers through a mesh to separate the seeds from the rest of the plant while brushes removes the loose lint to prevent jams."
  flavor_usa.15.a: "We will need this machine!"
- flavor_usa.15.a.tt: "Every [location|e] with a [ShowGoodsNameWithNoTooltip('cotton')] [raw_material|e] gains [ShowModifier('cotton_gin')]."
+ flavor_usa.15.a.tt: "Every [Concept('location','район')|e] with a [ShowGoodsNameWithNoTooltip('cotton')] [raw_material|e] gains [ShowModifier('cotton_gin')]."
  flavor_usa.15.b: "The old ways are just fine."
 
  flavor_usa.16.title: "The [ShowBuildingTypeNameWithNoTooltip('usa_national_mint')]"
@@ -115,7 +115,7 @@
  flavor_usa.1002.desc: "With the issues of law resolved, a minority of delegates is now pushing for a discussion about the issue of slavery. While they accuse the institution as inhumane, many of the members of [target_io.GetName] heavily rely on the labor of [ShowPopTypeName('slaves')] in their plantations. Banning the practice for all members could destabilize us heavily, and might cause major harm to the relations with certain states and risk them leaving the Constitutional Convention all together."
  flavor_usa.1002.a: "Let every member decide for themselves."
  flavor_usa.1002.b: "Abolish it for everyone."
- flavor_usa.1002.b.tt: "All [ShowPopTypeName('peasants')] and former [ShowPopTypeName('slaves')] [pops|e] in our country gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]."
+ flavor_usa.1002.b.tt: "All [ShowPopTypeName('peasants')] and former [ShowPopTypeName('slaves')] [Concept('pops','населення')|e] in our country gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]."
 
  flavor_usa.1003.title: "Impeachable Offenses"
  flavor_usa.1003.desc: "Having maintained the Convention over the issue of slavery, we can now move towards the discussion among the specific [ShowLawName('legal_code_law')] we should follow. Not only need we to decide if all states of [target_io.GetName] shall follow the same [ShowLawNameWithNoTooltip('legal_code_law')], but also which legal code we should base it on."

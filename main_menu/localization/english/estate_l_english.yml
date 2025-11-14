@@ -10,11 +10,11 @@
  crown_estate: "Crown"
  crown_estate_desc: "This is the heart and source of authority for our entire realm and government, held solely by those at the very top and not granted to the other estates.\nIn general, it is best for the government estate to hold as much power as possible."
  dhimmi_estate: "Dhimmi"
- dhimmi_estate_desc: "This estate represents the religious minorities in our [country|e] who are considered 'People of the Book' in [ShowReligionGroupName('muslim')]. This usually refers to the [ShowReligionGroupAdjective('christian')] and [ShowReligionAdjective('judaism')] communities, but is sometimes extended to other [religions|e]. Their status and privileges can vary greatly between different countries, as do both their organization and numbers.\n$estate_common_crown_ending$"
+ dhimmi_estate_desc: "This estate represents the religious minorities in our [Concept('country','держава')|e] who are considered 'People of the Book' in [ShowReligionGroupName('muslim')]. This usually refers to the [ShowReligionGroupAdjective('christian')] and [ShowReligionAdjective('judaism')] communities, but is sometimes extended to other [Concept('religions','віри')|e]. Their status and privileges can vary greatly between different countries, as do both their organization and numbers.\n$estate_common_crown_ending$"
  tribes_estate: "Tribes"
- tribes_estate_desc: "This estate represents the different tribes and clans present in our [country|e]. They are traditionally organized into lineage and kinship groups and dispersed mostly in rural areas. These different groups live and work in very diverse ways, and their distance and relative independence from the main centers of power make them difficult to govern. Their unique customs also typically give them a reputation as fearsome, unpredictable warriors.\n$estate_common_crown_ending$"
+ tribes_estate_desc: "This estate represents the different tribes and clans present in our [Concept('country','держава')|e]. They are traditionally organized into lineage and kinship groups and dispersed mostly in rural areas. These different groups live and work in very diverse ways, and their distance and relative independence from the main centers of power make them difficult to govern. Their unique customs also typically give them a reputation as fearsome, unpredictable warriors.\n$estate_common_crown_ending$"
  cossacks_estate: "Cossacks"
- cossacks_estate_desc: "This estate represents the different groups of [ShowCultureName('cossack_culture')] people present in our [country|e]. Organized in semi-nomadic and semi-militarized groups, they live on the fringes of other nations, but can be convinced to serve them faithfully and be put to great use if given the appropriate incentives.\n$estate_common_crown_ending$"
+ cossacks_estate_desc: "This estate represents the different groups of [ShowCultureName('cossack_culture')] people present in our [Concept('country','держава')|e]. Organized in semi-nomadic and semi-militarized groups, they live on the fringes of other nations, but can be convinced to serve them faithfully and be put to great use if given the appropriate incentives.\n$estate_common_crown_ending$"
  estate_common_crown_ending: "In general, it is better for the government estate to have more power than the other estates."
  
  
@@ -298,7 +298,7 @@
  signoria_council: "Signoria Council"
  signoria_council_desc: "The Signoria of [GetCountry('FLO').GetName] is the name of the council of nine that governs the city, its members taken from the different guilds. Every two months, a lottery is held to reelect the council members. This constant shuffling ensures that the interests of the Republic prevail over personal ones. The fact all its members come from the guilds, though, makes it so that the same families are always the ones in charge."
  florence_guilds: "[GetCountry('FLO').GetNameWithNoTooltip] Guilds"
- florence_guilds_desc: "The different artisans and merchants of [GetCountry('FLO').GetName] traditionally are associates in different guilds. This ensures not only a high standard of quality for the products, but also avoids breeding unfair competition. However, the power and influence these guilds hold as a result is undeniable.\n\nThis unlocks the [law|e] [ShowLawName('guilds_of_florence')]."
+ florence_guilds_desc: "The different artisans and merchants of [GetCountry('FLO').GetName] traditionally are associates in different guilds. This ensures not only a high standard of quality for the products, but also avoids breeding unfair competition. However, the power and influence these guilds hold as a result is undeniable.\n\nThis unlocks the [Concept('law','закон')|e] [ShowLawName('guilds_of_florence')]."
 
 #Korea
  scholar_officials: "Scholar Officials"

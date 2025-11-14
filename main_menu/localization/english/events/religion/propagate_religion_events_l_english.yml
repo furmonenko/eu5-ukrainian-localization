@@ -8,7 +8,7 @@
  propagate_religion_events.2.desc: "A group of [target_country.GetReligion.GetAdjective] missionaries from [target_country.GetName] have come to us wanting to settle down in [target_location.GetName] to found a new community there for themselves and their converts. They are cooperating with local authorities and do not oppose our rule, but their presence will likely lead to their religion spreading more quickly into the entire area."
  propagate_religion_events.2.a: "We cannot let authority slip to outside groups such as this one."
  propagate_religion_events.2.b: "They will be a welcome addition to our society."
- location_pops_convert_to_muslim.tt: "#Y 1%#! of the [pops|e] in [target_location.GetName] will [convert|e] to [target_country.GetReligion.GetName]"
+ location_pops_convert_to_muslim.tt: "#Y 1%#! of the [Concept('pops','населення')|e] in [target_location.GetName] will [convert|e] to [target_country.GetReligion.GetName]"
 
  propagate_religion_events.3.title: "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Sailors"
  propagate_religion_events.3.desc: "From the most eastern seas to the warmer waters riding the monsoons, there is an abundance of ships constantly sailing between the many ports, from small dhows to great galleys. Taken together, this trade network provides goods and supplies for more than half of the world's population. What many of these galleys have in common is that they are manned by [ShowReligionGroupAdjective('muslim')] sailors from [ShowContinentName('africa')] or the [ShowSubContinentName('middle_east')] joined by converted locals."
@@ -24,18 +24,18 @@
  propagate_religion_events.5.desc: "The [target_location.GetDominantReligion.GetAdjective] believers of [target_location.GetName] have established a new place to serve as their house of worship. The Mosque is the new clear center of the community and will likely attract greater numbers to settle here. It will also facilitate local conversion of the entire area.\n\nThere is clear indication that the new Mosque is in part being funded by the many [target_country.GetAdjective] traders active in the region, and in our government some worry that this might lead to undue influence for them and their religion."
  propagate_religion_events.5.a: "We cannot allow this."
  propagate_religion_events.5.b: "Let us provide them with the support they need to build a better community."
- propagate_religion.5.b.tt: "Every [location|e] in [target_location.GetArea.GetName] will lose [ShowNamedValue('control_severe_penalty')|+=2%] [control|e] and gain [ShowModifier('mosque_of_x')] for #Y 10#! years"
+ propagate_religion.5.b.tt: "Every [Concept('location','район')|e] in [target_location.GetArea.GetName] will lose [ShowNamedValue('control_severe_penalty')|+=2%] [control|e] and gain [ShowModifier('mosque_of_x')] for #Y 10#! years"
 
  propagate_religion_events.6.title: "$rank_kingdom_muslim$ of [ROOT.GetCountry.GetNameWithNoTooltip]?"
  propagate_religion_events.6.desc: "With [ShowReligionGroupName('muslim')] increasingly becoming the dominant religion of our [ROOT.GetCountry.GetFlavorRank], many of our government officials, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], and other notables have begun to adopt Islamic and [ShowLanguageName('arabic_language')] notions of kingship, names, and titles. Many have in fact started to refer to the [ROOT.GetCountry.GetFlavorRank] as a $rank_kingdom_muslim$, even though our official state religion is still [ROOT.GetCountry.GetReligion.GetName]. Some advisors of [target_ruler.GetName] now suggest that it might be prudent to go along with this. If we start referring to our own country as a $rank_kingdom_muslim$, it might ease relations with the many [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] countries around the world."
  propagate_religion_events.6.a: "It is a sound idea."
- sultan_titles_for_non_muslims_tooltip: "We will adopt [ShowReligionGroupAdjective('muslim')] titles, improving our relations by #G 75#! towards all known [ShowReligionGroupAdjective('muslim')] [countries|e]."
+ sultan_titles_for_non_muslims_tooltip: "We will adopt [ShowReligionGroupAdjective('muslim')] titles, improving our relations by #G 75#! towards all known [ShowReligionGroupAdjective('muslim')] [Concept('countries','держави')|e]."
  propagate_religion_events.6.b: "No, we must defend the traditional values of the [ROOT.GetCountry.GetLongNameWithNoTooltip]!"
 
  propagate_religion_events.7.title: "Joining the Community of the Faithful"
  propagate_religion_events.7.desc: "As [ROOT.GetCountry.GetReligion.GetName] is now the official religion of [ROOT.GetCountry.GetName], we have joined the community of the Faithful. Though some remaining traditionalists lament this change, many more of our [ShowReligionGroupAdjective('muslim')] populace now rejoice over the just rule of our [ROOT.GetCountry.GetFlavorRank]."
  propagate_religion_events.7.a: "The [ROOT.GetCountry.GetLongNameWithNoTooltip] will be triumphant!"
- sultan_conversion_tooltip: "Our relations will improve by #G 50#! towards all known [ShowReligionGroupAdjective('muslim')] [countries|e]."
+ sultan_conversion_tooltip: "Our relations will improve by #G 50#! towards all known [ShowReligionGroupAdjective('muslim')] [Concept('countries','держави')|e]."
 
  propagate_religion_events.8.title: "Traveling Scholar"
  propagate_religion_events.8.desc: "A learned [target_character.GetWomanMan] from the land of [target_country.GetName] has arrived in [ROOT.GetCountry.GetCapital.GetName]. [target_character.GetSheHe|U] claims to have studied under scholars in many famous cities, and [target_character.GetSheHe] is versed in the politics of the greater [ShowReligionGroupAdjective('muslim')] world as well as in intricate matters of theology."

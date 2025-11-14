@@ -147,7 +147,7 @@
  flavor_brapru.27.a: "Encourage [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] settlers to settle in [ShowAreaNameWithNoTooltip('silesia_area')]"
  flavor_brapru.27.b: "They will recover themselves."
  STATIC_MODIFIER_NAME_PRU_settlers_in_silesia: "New Protestant Settlers"
- BRA_move_away_from_prosperity_silesia_tt: "Every [owned|e] [location|e] in [ShowAreaName('silesia_area')] moves away #r -25.0%#! from [prosperity|e]."
+ BRA_move_away_from_prosperity_silesia_tt: "Every [owned|e] [Concept('location','район')|e] in [ShowAreaName('silesia_area')] moves away #r -25.0%#! from [prosperity|e]."
 
  flavor_brapru.28.title: "Claiming Royal [ShowAreaNameWithNoTooltip('prussia_area')|U]"
  flavor_brapru.28.desc: "The corridor between [ROOT.GetCountry.GetAdjective] [ShowAreaName('pomerania_area')] and [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ShowAreaName('prussia_area')] would form a necessary component of our state, was it in our hands. In order for our territories to communicate with each other, they need to communicate over foreign borders or through ships. Such factors make our grip over [ShowAreaNameWithNoTooltip('prussia_area')] weak at best."
@@ -174,7 +174,7 @@
  flavor_brapru.31.historical_info: "The Berliner Religious Talks were held from September of 1662 to May of 1663. The goal of those meetings was to bring the Lutheran and the Calvinist faiths closer together and to promote Ecumenism. The catalyst to those events were the actions of the Elector of Brandenburg, Frederick Wilhelm, who was a Calvinist ruler of a mostly Lutheran country."
  flavor_brapru.31.a: "Let them convene."
  flavor_brapru.31.b: "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip] is the only true faith."
- PRU_may_push_toleranzedikt_in_the_future_with_following_effects: "With this [event|e], we will be able to push the Tolerance Edict in the future:"
+ PRU_may_push_toleranzedikt_in_the_future_with_following_effects: "With this [Concept('event','подія')|e], we will be able to push the Tolerance Edict in the future:"
  PRU_every_pop_of_other_protestant_denomination: "Every [pop|e] of [opposing_religion.GetAdjective] denomination gains [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]."
 
  flavor_brapru.32.title: "Das Toleranzedikt"
@@ -429,7 +429,7 @@
  flavor_brapru.1900.a: "We will deal with them in due time."
  STATIC_MODIFIER_NAME_PRU_robber_barons: "Robber Barons"
  PRU_use_cabinet_action_to_get_rid_of_barons: "[ShowCabinetActionName('pru_deal_with_robber_barons')] is available to deal with the Robber Barons in the province."
- remove_PRU_robber_barons_modifier: "[province|e] loses the effect of [GetModifier('PRU_robber_barons').GetNameWithTooltip]"
+ remove_PRU_robber_barons_modifier: "[Concept('province','провінція')|e] loses the effect of [GetModifier('PRU_robber_barons').GetNameWithTooltip]"
 
  flavor_brapru.1901.title: "Robber Barons in [robber_baron_province.GetNameWithNoTooltip]"
  flavor_brapru.1901.desc: "The plague that is the presence of robber barons has spread to the province of [robber_baron_province.GetName]. Their crime and arrogance are like a spit in our faces. Time to teach them a lesson to restore central authority in the country."

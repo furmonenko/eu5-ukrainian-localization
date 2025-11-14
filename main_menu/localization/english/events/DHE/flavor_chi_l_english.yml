@@ -38,7 +38,7 @@
  flavor_chi.5.desc: "The foreigners of [target_country.GetName] have been present in our lands for a while. Although their strange beliefs, which they call [target_country.GetReligion.GetName], may subvert our [ROOT.GetCountry.GetReligion.GetAdjective] teachings if allowed to spread through our lands, it is undeniable that the knowledge they bring may be greatly beneficial for us.\n\nSome among our [ROOT.GetCountry.GetGovernment.GetCourtTitle] argue that we should use any advantage we can get from them, even if at the cost of some people being deceived by this foreign religion. However, others fear for the integrity of our institutions if we allow such barbarian ideas to permeate our society."
  flavor_chi.5.historical_info: "In 1581, the first Jesuit missionaries arrived in China, bringing gifts to the Emperor and exhibiting various mechanical inventions from Europe. They also exhibited great knowledge by creating a huge map of the world and proposing sound ideas for a new calendar reform. But they also brought with them strange religious and philosophical ideas, which started to disrupt the traditional order of China."
  flavor_chi.5.a: "We may benefit from their learning."
- flavor_chi.5.a.tt: "Many of our [pops|e] will [convert|e] to [ShowReligionName('catholic')]"
+ flavor_chi.5.a.tt: "Many of our [Concept('pops','населення')|e] will [convert|e] to [ShowReligionName('catholic')]"
  flavor_chi.5.b: "Their foreign ideas are not acceptable in our society."
  
  flavor_chi.6.title: "The Financial Crisis"
@@ -110,15 +110,15 @@
  flavor_chi.18.desc: "Life at [ROOT.GetCountry.GetGovernment.GetCourtTitle] is usually very busy. Courtiers preparing the next feast, ministers composing a new decree as the whole palace whistles along in an occupied tune. Whilst the type of life that involves a position in our [ROOT.GetCountry.GetGovernment.GetCabinetTitle] is coveted by many, it has come to our notice that [target_character2.GetShortName] has become very melancholic.\n\nWhen approached, [target_character2.GetSheHe] spoke of [target_location.GetName], where [target_character2.GetSheHe] was born, some [ROOT.GetVariable('character_age_display_variable').GetValue] years ago. [target_character2.GetHerHis|U] wish is to return, and take some time to reconnect with [target_character2.GetHerHis] family and enjoy the quiet life away from [ROOT.GetCountry.GetCapital.GetName], tending to the local administration matters in [target_location.GetNameWithNoTooltip]..."
  flavor_chi.18.a: "Family is important, let [target_character2.GetHerHim] go."
  flavor_chi.18.b: "And who will tend to our bureaucracy?"
- target_province_gets_pop_sat_and_prosperity_tt: "Our [locations|e] in [target_province.GetName] will gain #G +[ROOT.GetVariable('character_prosperity_gain_variable_display').GetValue]%#! [prosperity|e] and their [pops|e] will gain #G +[ROOT.GetVariable('character_pop_satisfaction_gain_variable_display').GetValue]%#! [pop_satisfaction|e] according to the skills of [target_character2.GetShortNameWithNoTooltip]"
+ target_province_gets_pop_sat_and_prosperity_tt: "Our [Concept('locations','райони')|e] in [target_province.GetName] will gain #G +[ROOT.GetVariable('character_prosperity_gain_variable_display').GetValue]%#! [prosperity|e] and their [Concept('pops','населення')|e] will gain #G +[ROOT.GetVariable('character_pop_satisfaction_gain_variable_display').GetValue]%#! [pop_satisfaction|e] according to the skills of [target_character2.GetShortNameWithNoTooltip]"
  based_on_the_abilities_of_cabinet_tt: "Based on the combined skills of [target_character.GetShortNameWithNoTooltip] and [target_character2.GetShortNameWithNoTooltip]:"
  
  flavor_chi.19.title: "Friendship in High Places"
  flavor_chi.19.desc: "The bond shared between friends is a sacred one. Such is the case for [target_character.GetName] and [target_character2.GetName]. Together, these two kindred souls have penned a glorification of their shared interests and time in the [ROOT.GetCountry.GetGovernment.GetCabinetTitle].\n\nAccording to their writing, friendship is a priceless gift that cannot be bought nor sold, but its value is far greater than a mountain made of gold. For gold is cold and lifeless. It can neither see nor hear. In times of trouble, it is powerless to cheer. It has no ears to listen to, no heart to understand. It cannot bring you comfort or reach out a helping hand. So when you ask the heavens for a gift, be thankful if they send not diamonds, pearls, or riches but the love of real, true friends!"
  flavor_chi.19.a: "They set an exemplary standard."
  flavor_chi.19.b: "We have always had a good eye for great people."
- every_location_in_province_food_prosperity_satisfaction_tt: "[target_province.GetName]'s [locations|e] will gain #G +[ROOT.GetVariable('target_province_control_prosperity_variable_display').GetValue]%#! [prosperity|e] and their [pops|e] will gain #G +[ROOT.GetVariable('target_province_control_pop_satisfaction_variable_display').GetValue]%#! [pop_satisfaction|e] based on our [control|e] there"
- target_province_loses_prosperity_and_pop_satisfaction_tt: "[target_province.GetName] [locations|e]'s will lose [ShowNamedValue('prosperity_very_weak_penalty')|+=2%] [prosperity|e] and its [pops|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
+ every_location_in_province_food_prosperity_satisfaction_tt: "[target_province.GetName]'s [Concept('locations','райони')|e] will gain #G +[ROOT.GetVariable('target_province_control_prosperity_variable_display').GetValue]%#! [prosperity|e] and their [Concept('pops','населення')|e] will gain #G +[ROOT.GetVariable('target_province_control_pop_satisfaction_variable_display').GetValue]%#! [pop_satisfaction|e] based on our [control|e] there"
+ target_province_loses_prosperity_and_pop_satisfaction_tt: "[target_province.GetName] [Concept('locations','райони')|e]'s will lose [ShowNamedValue('prosperity_very_weak_penalty')|+=2%] [prosperity|e] and its [Concept('pops','населення')|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
 
  flavor_chi.20.title: "Famine in [target_province.GetNameWithNoTooltip]"
  flavor_chi.20.desc: "The people of [target_province.GetName] have experienced several rotations of bad crops. Coupled with misfortunes, bad omens, and the general feeling of insecurity, many whisper about the inadequacies of our government. A messenger has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle], asking for the transportation of valuable food. However, our advisors have reminded us that our impact will likely depend on the infrastructure of the province."
@@ -129,9 +129,9 @@
  flavor_chi.21.desc: "The people of [target_location.GetName] are blessed with a bustling and vibrant heartland, full of lush, fertile farmlands. Coupled with the locale's vital position in the heart of $china$, it is no wonder that it has attracted such growth and mercantile significance. To commemorate this and in an attempt to showcase our wealth, [target_character.GetName] has proposed the restoration of Prince Téng's pavilion, to serve as an illustrious symbol of our wealth and a powerful display of our superior architecture..."
  flavor_chi.21.a: "Let the complex grace the beauty of [target_province.GetNameWithNoTooltip]."
  flavor_chi.21.b: "We cannot afford this."
- target_province_gets_20_prosperity: "Every owned [location|e] in the [target_province.GetNameWithNoTooltip] [province|e] will gain [ShowNamedValue('prosperity_severe_bonus')|+=2%] [prosperity|e]"
- every_pop_target_province_loses_25_satisfaction_tt: "Every peasant [pop|e] in the [target_province.GetNameWithNoTooltip] [province|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
- every_pop_25_satisfaction_gain_tt: "Every peasant [pop|e] in the [target_province.GetNameWithNoTooltip] [province|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]"
+ target_province_gets_20_prosperity: "Every owned [Concept('location','район')|e] in the [target_province.GetNameWithNoTooltip] [Concept('province','провінція')|e] will gain [ShowNamedValue('prosperity_severe_bonus')|+=2%] [prosperity|e]"
+ every_pop_target_province_loses_25_satisfaction_tt: "Every peasant [pop|e] in the [target_province.GetNameWithNoTooltip] [Concept('province','провінція')|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ every_pop_25_satisfaction_gain_tt: "Every peasant [pop|e] in the [target_province.GetNameWithNoTooltip] [Concept('province','провінція')|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]"
 
  flavor_chi.22.title: "A Great Admiral"
  flavor_chi.22.desc: "More often than not, commoners and prisoners of war find it difficult to rise through the social ranks. Yet, it is quite remarkable when one such individual appears. This is the case of a eunuch by the name of [target_character.GetName]. Having been captured and castrated at a young age, [target_character.GetNameWithNoTooltip] began his servitude at the house of a local prince in [ShowAreaName('yunnan_area')]. After winning the prince's trust, [target_character.GetSheHe] was sent to [ShowLocationName('dadu')] to hone [target_character.GetHerHis] education, where he excelled. It is no miracle that such a man has made a great impression on [target_character2.GetName]. It is without a doubt that [target_character.GetNameWithNoTooltip] will make a fine admiral and leader for our glorious people."
@@ -153,7 +153,7 @@
  flavor_chi.25.desc: "The death of [dead_character.GetName] has left [ROOT.GetCountry.GetName] without a leading chancellor to take care of the courtly matters. It would seem that there is a natural successor though, for [dead_character.GetHerHis] nephew, [recipient.GetName], is a skilled statesman, who would be fit for the role. Many do fear [recipient.GetHerHis] appointment though, for [dead_character.GetShortNameWithNoTooltip]'s tenure was absolute and brutal, and many are worried that [recipient.GetNameWithNoTooltip] could follow in his uncle's footsteps."
  flavor_chi.25.a: "Appoint [recipient.GetNameWithNoTooltip]."
  flavor_chi.25.b: "We do not need another dictator."
- YUA_benefits_of_toqto: "When appointed, [recipient.GetName] will be sure to repeal the policies of his uncle, helping to push us towards a [ShowSocietyDirectionName('sinicized')] rule, while also repealing the [policy|e] of [ShowPolicyName('direct_appointment')] and [ShowPolicyName('limit_the_han_powers')]."
+ YUA_benefits_of_toqto: "When appointed, [recipient.GetName] will be sure to repeal the policies of his uncle, helping to push us towards a [ShowSocietyDirectionName('sinicized')] rule, while also repealing the [Concept('policy','політика')|e] of [ShowPolicyName('direct_appointment')] and [ShowPolicyName('limit_the_han_powers')]."
 
  flavor_chi.26.title: "Fate of the [ShowLawNameWithNoTooltip('keju_examination')]"
  flavor_chi.26_27.common_desc: "Now that [target_character.GetName] is in charge, [target_character.GetSheHe] is looking to reverse [target_character.GetHisHer] uncle's policies in many fields."
@@ -241,7 +241,7 @@
  flavor_chi.44.desc: "Few institutions during our rule have had as much influence as the Eunuchs behind our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. For better or worse, these elements hold considerable influence and at times project their own agenda, even overriding the will of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Many advisors in our [ROOT.GetCountry.GetGovernment.GetCourtTitle] voice their distaste for these practices, and urge us to curb the Eunuch influence..."
  flavor_chi.44.a: "We cannot risk their ire."
  flavor_chi.44.b: "Their power must be curbed!"
- chi_how_to_strengthen_the_reform: "The impact of the [ShowGovernmentReformName('empower_the_eunuchs')] [government_reform|e] can be increased with further [events|e] that give the [ShowModifierTypeName('eunuch_power')] [modifier|e]."
+ chi_how_to_strengthen_the_reform: "The impact of the [ShowGovernmentReformName('empower_the_eunuchs')] [government_reform|e] can be increased with further [Concept('events','події')|e] that give the [ShowModifierTypeName('eunuch_power')] [Concept('modifier','модифікатор')|e]."
 
  flavor_chi.45.title: "[target_character.GetNameWithNoTooltip]"
  flavor_chi.45.desc: "One of the great poets of our era, [target_character.GetName] is the pride of [target_character.GetHerHis] home province of [target_province.GetName]. Known by multiple art names like Shēng Ān, Bónán Shānrén and Diānnán Shùshǐ, [target_character.GetSheHe] is a master writer and lyricist, having already produced great quantities of works, generally around the theme of nature and culture. Some of [target_character.GetHerHis] works have already reached such widespread notoriety, that [target_character.GetHerHis] name is sure to be etched forever in the pages of history."
@@ -320,8 +320,8 @@
  flavor_chi.58.a: "Write the Eulogy."
  flavor_chi.58.b: "Why should that be done?"
  flavor_chi.58.c: "Fascinating religion indeed!"
- chi_every_sunni_pop_gains_10_satisfaction: "Every [pop|e] of [target_religion.GetAdjective] [religion|e] gains [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]."
- chi_every_sunni_country_gets_bias: "Every [country|e] of [target_religion.GetAdjective] [religion|e] gets [ShowBiasValue('chi_praised_islam')] [opinion|e] of [ROOT.GetCountry.GetName]."
+ chi_every_sunni_pop_gains_10_satisfaction: "Every [pop|e] of [target_religion.GetAdjective] [Concept('religion','віра')|e] gains [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]."
+ chi_every_sunni_country_gets_bias: "Every [Concept('country','держава')|e] of [target_religion.GetAdjective] [Concept('religion','віра')|e] gets [ShowBiasValue('chi_praised_islam')] [opinion|e] of [ROOT.GetCountry.GetName]."
 
  flavor_chi.59.title: "Fate of the [ShowLawNameWithNoTooltip('keju_examination')]"
  flavor_chi.59.desc: "Many representants of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are making complaints about our [ShowLawName('keju_examination')], citing its recent inefficiency. They call to ignore the examinations altogether, proposing that nominations to government posts shall be done by personal recommendation, something that would certainly suit the sons of the networking aristocracy."
@@ -448,7 +448,7 @@
  flavor_chi.83.desc: "A local member of the White Lotus, a dissident named [target_character.GetName], has started stirring up unrest from [target_character.GetHerHis] home in [target_location.GetName]. Plenty of [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] of [target_province.GetName] got tricked into believing [target_character.GetHerHis] millenarian lies that promise good for those who choose to follow [target_character.GetHerHim].\n\nWe need to face the reality that there might be a new rebellion brewing."
  flavor_chi.83.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
  white_lotus_rebellion: "White Lotus Rebellion"
- flavor_chi.83.tooltip: "Every [ShowPopTypeName('peasants')] [pop|e] in the [target_province.GetName] [province|e] will change allegiance to [target_rebel.GetName] and will have its [pop_satisfaction|e] reduced by [ROOT.ScriptValue('pop_satisfaction_mild_penalty')|%=+].\nEvery [location|e] in in the [target_province.GetName] [province|e] will get the [ShowModifier('chi_white_lotus_agitation')] [location_modifier|e] for [SCOPE.GetLocalVariable('length_of_agitation').GetValue|2-] Years."
+ flavor_chi.83.tooltip: "Every [ShowPopTypeName('peasants')] [pop|e] in the [target_province.GetName] [Concept('province','провінція')|e] will change allegiance to [target_rebel.GetName] and will have its [pop_satisfaction|e] reduced by [ROOT.ScriptValue('pop_satisfaction_mild_penalty')|%=+].\nEvery [Concept('location','район')|e] in in the [target_province.GetName] [Concept('province','провінція')|e] will get the [ShowModifier('chi_white_lotus_agitation')] [location_modifier|e] for [SCOPE.GetLocalVariable('length_of_agitation').GetValue|2-] Years."
 
  flavor_chi.84.title: "The Eight Tigers"
  flavor_chi.84.desc: "Eunuch circles have at times accumulated much influence in both external and internal affairs. However, recent reports have circulated the palace about a group of 8 prominent Eunuchs whose power, it is said, rivals that of the [ruler_scope.GetName] [ruler_scope.GetHerselfHimself]! Going by the title 'Eight Tigers', these oligarchs are aiming for controlling the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and crushing all opposing factions within the [ROOT.GetCountry.GetFlavorRank].\n\nTheir leader is considered to be a prominent character named [target_character.GetName], a eunuch whose influence in politics has earned [target_character.GetHerHim] a nickname implying [target_character.GetSheHe] is the real monarch."
@@ -682,7 +682,7 @@
  flavor_chi.125.desc: "[target_character.GetName] is a vicious dissident operating in the [ShowAreaName('shandong_area')] area of the country. [target_character.GetHeShe|U] claims descent from the Sòng dynasty and is a vivid agitator representing the White Lotus Sect. During the Yellow River rerouting project, [target_character.GetHeShe] has garnered many supporters among the workers, disrupting the process in the meantime.\n\nRecently, we have received intel on the exact whereabouts of [target_character.GetNameWithNoTooltip] giving us the information necessary to finally arrest this public enemy. However, such a move could lead to a bold reaction of [target_character.GetHerHis] fervent red turban wearing supporters."
  flavor_chi.125.a: "We must make the arrest."
  flavor_chi.125.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
- rtr_sped_up_red_turban_rebellions: "Arrested Leader of the Red Turbans via an [event|e]"
+ rtr_sped_up_red_turban_rebellions: "Arrested Leader of the Red Turbans via an [Concept('event','подія')|e]"
  chi_red_turban_rebellion: "This will make [ShowSituationName('red_turban_rebellions')] [situation|e] harder to avoid"
  until_the_end_of_red_turban_rebellion: "as long as the [ShowSituationName('red_turban_rebellions')] are active"
 
@@ -782,7 +782,7 @@
  flavor_chi.2000.title: "Age of Treasure Voyages"
  flavor_chi.2000.desc: "The last prosperous decades have aided us with plenty of disposable gold and resources to spend on our diplomatic efforts. We could, and most certainly should, make use of those funds to further bolster the already strong position of the [GetInternationalOrganization('middle_kingdom').GetName] in the eyes of the world. To do so, we shall send forward various maritime expeditions full of the richest gifts that [ROOT.GetCountry.GetName] can afford, so as to convince more nations to become part of our [ShowSubjectTypeName('tributary')] network."
  flavor_chi.2000.a: "So, we shall!"
- chi_able_to_send_treasure_voyages: "[ROOT.GetCountry.GetName] will be able to use the [ShowGenericActionName('start_a_treasure_voyage')] [action|e] to expend their [gold|e] in order to get more nations to join their [ShowSubjectTypeName('tributary')] network. This will only be possible as long as they are the [international_organization_leader_short|e] of the [GetInternationalOrganizationType('middle_kingdom').GetName]."
+ chi_able_to_send_treasure_voyages: "[ROOT.GetCountry.GetName] will be able to use the [ShowGenericActionName('start_a_treasure_voyage')] [action|e] to expend their [Concept('gold','золото')|e] in order to get more nations to join their [ShowSubjectTypeName('tributary')] network. This will only be possible as long as they are the [international_organization_leader_short|e] of the [GetInternationalOrganizationType('middle_kingdom').GetName]."
 
  flavor_chi.2001.title: "The End of an Age"
  flavor_chi.2001.desc: "Today, the state of [ROOT.GetCountry.GetName] looks back on the achievements of the Treasure Voyages and it sees nothing more than vain squandering of funds done for nothing but a little bit of prestige. It would be best if historians simply ommitted the existence of those exploits."
@@ -793,7 +793,7 @@
  flavor_chi.2002.desc: "After weeks of preparation, our grand navy is finally ready to set sail for the [target_area.GetName]. It is unknown what kind of adventures or misadventures $expedition_leader_name$ and $expedition_leader_name_herhis$ crew will encounter on the way, but, considering that [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] has entrusted them with such a responsibility, we are sure that they will not disappoint.\n\nAs per the plan, the fleet will set sail at daybreak from the port of [start_location.GetName] and it might take years until they return back to our shores. We bid them farewell!"
  flavor_chi.2002.a: "Good luck!"
 
- chinese_treasure_expeditions_send_tooltip: "The $expedition_name_treasure_voyage$ is sent towards [ROOT.GetVariable('chinese_treasure_target_location').GetLocation.GetName] under the leadership of [target_character.GetName].\nThe fleet holds #g [ROOT.GetVariable('chinese_treasure_voyage_cargo').GetValue|2]#! [gold|e] worth in cargo intended for gifts to [countries|e] that they will visit."
+ chinese_treasure_expeditions_send_tooltip: "The $expedition_name_treasure_voyage$ is sent towards [ROOT.GetVariable('chinese_treasure_target_location').GetLocation.GetName] under the leadership of [target_character.GetName].\nThe fleet holds #g [ROOT.GetVariable('chinese_treasure_voyage_cargo').GetValue|2]#! [Concept('gold','золото')|e] worth in cargo intended for gifts to [Concept('countries','держави')|e] that they will visit."
 
  flavor_chi.2003.title: "Hidden Event"
  flavor_chi.2003.desc: "Hidden Event"
@@ -810,7 +810,7 @@
 
  
 
- chinese_expedition_resolution_tt: "For the following months, the Chinese $expedition_name_treasure_voyage$ will stay in our port of [target_stop.GetName]. We will receive [events|e] allowing us to interact with them and that will modify their opinion of us. Depending on the opinion at the end of the stay, we will get different results:\n\nObedient (#y 67#! - #y 100#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_very_positive', ROOT.GetCountry.MakeScope.Self)]\nFavorable (#y 33#! - #y 66#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_positive', ROOT.GetCountry.MakeScope.Self)]\nLukewarm (#y -32#! - #y 32#!):\n$NOTHING_HAPPENS_EFFECT$\nDisrespectful (#y -66#! - #y -33#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_negative', ROOT.GetCountry.MakeScope.Self)]\nArrogant (#y -100#! - #y -67#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_very_negative', ROOT.GetCountry.MakeScope.Self)]"
+ chinese_expedition_resolution_tt: "For the following months, the Chinese $expedition_name_treasure_voyage$ will stay in our port of [target_stop.GetName]. We will receive [Concept('events','події')|e] allowing us to interact with them and that will modify their opinion of us. Depending on the opinion at the end of the stay, we will get different results:\n\nObedient (#y 67#! - #y 100#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_very_positive', ROOT.GetCountry.MakeScope.Self)]\nFavorable (#y 33#! - #y 66#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_positive', ROOT.GetCountry.MakeScope.Self)]\nLukewarm (#y -32#! - #y 32#!):\n$NOTHING_HAPPENS_EFFECT$\nDisrespectful (#y -66#! - #y -33#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_negative', ROOT.GetCountry.MakeScope.Self)]\nArrogant (#y -100#! - #y -67#!):\n[ShowScriptedEffectForScope('chi_expedition_resolution_very_negative', ROOT.GetCountry.MakeScope.Self)]"
 
  flavor_chi.2006.title: "Appropriate Gifts"
  flavor_chi.2006.desc: "With their mission in [ROOT.GetCountry.GetName] complete, the treasure fleet of [expedition_initiator.GetName] is currently restocking their supplies, anticipating to leave within a matter of several months. It would be customary to provide them with the best that our [ROOT.GetCountry.GetFlavorRank] can offer as a token of appreciation and as a confirmation of our [ShowSubjectTypeName('tributary')] relationship."
@@ -904,7 +904,7 @@
  change_opinion_of_expedition: "The $chinese_expedition_opinion$ towards us is increased by $VALUE|0Y$. (Currently: $show_current_chinese_expedition_amount$)"
  change_opinion_of_expedition_neg: "The $chinese_expedition_opinion$ towards us is decreased by $VALUE|0Y$. (Currently: $show_current_chinese_expedition_amount$)"
  give_gold_to_expedition: "$VALUE|2Y$ will be gifted to the $expedition_name_treasure_voyage$."
- chi_gift_received_count: "We have received [ROOT.GetVariable('gifts_received').GetValue|2+=] in [gold|e] which is converted into:"
+ chi_gift_received_count: "We have received [ROOT.GetVariable('gifts_received').GetValue|2+=] in [Concept('gold','золото')|e] which is converted into:"
 
  flavor_chi.2100.title: "Treasure Fleet Caught in a Storm"
  flavor_chi.2100.desc: "During their voyage, our most grand treasure fleet has encountered a most troubling foe during their sail: none other than the powerful forces of nature in the form of a massive storm that has taken our most experienced sailors by surprise. Numerous ships were lost during this calamity, losing many of our gifts and goods in the process."
@@ -1010,6 +1010,6 @@
  flavor_chi.2218.b: "Do not let them get the wrong idea."
 
 
- chi_neighboring_nations_might_get_cb_on_us: "Neighboring [nations|e] visited by the $expedition_name_treasure_voyage$ will be given a chance to declare [war|e] on [ROOT.GetCountry.GetName] with their support."
+ chi_neighboring_nations_might_get_cb_on_us: "Neighboring [nations|e] visited by the $expedition_name_treasure_voyage$ will be given a chance to declare [Concept('war','війна')|e] on [ROOT.GetCountry.GetName] with their support."
  not_is_treasure_voyage_active: "No $expedition_name_treasure_voyage$ is currently active."
  chinese_treasure_expeditions_when_expedition_returns: "When the expedition returns to [expedition_initiator.GetName]:"

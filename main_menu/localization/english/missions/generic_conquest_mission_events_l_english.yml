@@ -18,7 +18,7 @@
  conquest_mission_events.3.c: "We cannot afford this."
  conquest_mission_events.3.a: "Secure a better deal!"
  special_loan_with_lower_interest_tt: "This [loan|e] is offered at a lower [interest|e] rate"
- turn_away_the_loan_tt: "#italic Turn away the offer from our [estates|e]"
+ turn_away_the_loan_tt: "#italic Turn away the offer from our [Concept('estates','стани')|e]"
  extra_special_loan_with_lower_interest_tt: "The [loan|e] will be of a #G larger#! amount and an #G even lower#! [interest|e] rate due to the negotiation skills of [target_character.GetName]"
 
  conquest_mission_events.4.title: "Looting in [target_loot_location.GetNameWithNoTooltip]"
@@ -42,15 +42,15 @@
  conquest_mission_events.7.desc: "Integration efforts in [target_province.GetName] are making steady progress. In [target_location.GetName], the local population is beginning to adjust to our laws and customs.\n\nMarkets are reopening, our language is heard more often in the streets, and resistance has faded into quiet acceptance. Though some traditions remain, the region is slowly aligning itself with the rhythms of our [ROOT.GetCountry.GetFlavorRank]."
  conquest_mission_events.7.a: "Intensify the integration efforts."
  conquest_mission_events.7.b: "Let us try to respect the locals."
- locals_in_target_province_gain_mild_satisfaction_tt: "Our [pops|e] in [target_province.GetName] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
- locations_in_target_province_receive_very_weak_bonus_integration_tt: "[locations|e] in the aforementioned [province|e] that we are [integrating|e] will receive [ShowNamedValue('integration_progress_very_weak_bonus')|+=] [integration|e] progress"
+ locals_in_target_province_gain_mild_satisfaction_tt: "Our [Concept('pops','населення')|e] in [target_province.GetName] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
+ locations_in_target_province_receive_very_weak_bonus_integration_tt: "[Concept('locations','райони')|e] in the aforementioned [Concept('province','провінція')|e] that we are [integrating|e] will receive [ShowNamedValue('integration_progress_very_weak_bonus')|+=] [integration|e] progress"
 
  conquest_mission_events.8.title: "Integration Resistance in [target_province.GetNameWithNoTooltip]"
  conquest_mission_events.8.desc: "Resistance in [target_province.GetName] remains strong. In [target_location.GetName], officials report growing defiance toward our rule and policies.\n\nLocal leaders undermine our reforms, and our banners are treated with disdain. The population clings to the old ways, and our efforts to assimilate them are met with silence or open contempt."
  conquest_mission_events.8.a: "Their efforts are in vain!"
  conquest_mission_events.8.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  conquest_mission_events.8.c: "Introduce them to the whip."
- locals_in_target_province_lose_mild_satisfaction_tt: "Our [pops|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ locals_in_target_province_lose_mild_satisfaction_tt: "Our [Concept('pops','населення')|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
  mission_ruler_or_regent_is_conqueror_tt: "What little resistance is met in [target_province.GetName] stands no chance against [target_character.GetName]"
 
  conquest_mission_events.9.title: "Cultural Spread in [target_province.GetNameWithNoTooltip]"

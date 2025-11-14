@@ -5,7 +5,7 @@
  SCORE_INFO_TITLE: "#T Очки#!"
  SCORE_GAIN: "$NAME$ отримує $VAL|+=$ [score|e] щомісяця через:"
  RANK_SCORE_INFO: "$TYPE$ Ранг ($RANK|Y$): $VAL|+=2$"
- SCORE_NOT_RANKED: "[country|e] має бути серед $RANK|V$ найкращих країн в одній з трьох категорій."
+ SCORE_NOT_RANKED: "[Concept('country','держава')|e] має бути серед $RANK|V$ найкращих країн в одній з трьох категорій."
  SCORE_DETAILS: "[score|e] визначаються тим, наскільки добре справляється нація.\nНарахування очок зростає в міру просування гри до пізніших дат.\nНаразі очки для $NAME$ накопичуються зі швидкістю $VAL|+=%$."
  SCORE_HEGEMONY: "Фінальні [score|e] множаться на $VAL|+=%$, оскільки бути [hegemon|e] збільшує їх, а бути союзником зменшує."
  SCORE_EXTRA_DRO: "У книзі записів є детальний огляд, де ви можете побачити, як обчислюється ранг для кожної країни."
@@ -38,13 +38,13 @@
  ADM_SCORE_GOV_POWER: "[government_power|e]: $VAL|+=2$"
  ADM_SCORE_POP: "[population|e]: $VAL|+=2$"
  #
- DIP_SCORE_MARKETS: "[markets|e]: $VAL|+=2$"
- DIP_SCORE_MERCHANTS: "[merchants|e]: $VAL|+=2$"
+ DIP_SCORE_MARKETS: "[Concept('markets','ринки')|e]: $VAL|+=2$"
+ DIP_SCORE_MERCHANTS: "[Concept('merchants','купці')|e]: $VAL|+=2$"
  DIP_SCORE_FLEET: "[navy|e]: $VAL|+=2$"
- DIP_SCORE_SUBJECTS: "[subjects|e]: $VAL|+=2$"
+ DIP_SCORE_SUBJECTS: "[Concept('subjects','васали')|e]: $VAL|+=2$"
  DIP_SCORE_ALLIES: "[allies|e]: $VAL|+=2$"
  #
- MIL_SCORE_ARMY: "[army|e]: $VAL|+=2$"
+ MIL_SCORE_ARMY: "[Concept('army','армія')|e]: $VAL|+=2$"
  MIL_SCORE_DISCIPLINE: "[discipline|e]: $VAL|+=2$"
  MIL_SCORE_EXHAUSTION: "[war_exhaustion|e]: $VAL|+=2$"
 

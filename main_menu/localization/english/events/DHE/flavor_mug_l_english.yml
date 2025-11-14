@@ -4,7 +4,7 @@
  flavor_mug.1.historical_info: "The multicultural and multireligious character of the Mughals is what marked the reign of Akbar 'the Great'. He led several reforms to help with that, and even created his own faith. It was known as the Dīn-i Ilāhī, the Religion of God, which functioned similar to the Yasa-e Changezi of the Timurids, treating all sects as one."
  flavor_mug.1.a: "A religion for all our people is most ideal."
  flavor_mug.1.b: "Why abandon the ways of [ROOT.GetCountry.GetReligiousSchool.GetNameWithNoTooltip]?"
- mug_enable_din_i_ilahi_school_tt: "[ShowReligiousSchoolName('din_i_ilahi_school')] will be unlocked for all [ShowReligionAdjective('sunni')] and [ShowReligionAdjective('ibadi')] [countries|e]"
+ mug_enable_din_i_ilahi_school_tt: "[ShowReligiousSchoolName('din_i_ilahi_school')] will be unlocked for all [ShowReligionAdjective('sunni')] and [ShowReligionAdjective('ibadi')] [Concept('countries','держави')|e]"
 
  flavor_mug.2.title: "Birth of the [ShowLawNameWithNoTooltip('dahsala_system')]"
  flavor_mug.2.desc: "The current taxation system has become complicated with all of the different regional laws we have integrated from our conquests. It is safe to say that it is disorganized and that several reforms have to be made to remedy that fact. [target_character.GetName] wishes to organize it all into the [ShowLawName('dahsala_system')]. It is meant to properly organize the taxation of non-[ROOT.GetCountry.GetReligion.GetGroup.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] rather than abide to their local laws."
@@ -69,7 +69,7 @@ flavor_mug.13.title: "Promotion of [ShowLanguageNameWithNoTooltip('rajasthani_la
 flavor_mug.13.desc: "The [ShowLanguageName('rajasthani_language')] language has been prominent within the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Despite that, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has been lacking those people who are so versed in the ways of warfare. We could elevate them within the [ROOT.GetCountry.GetFlavorRank], but it runs the risk of angering the entrenched elites of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]."
 flavor_mug.13.a: "Let us promote them."
 flavor_mug.13.b: "No need to placate minorities."
-mug_all_rajput_pops_lose_satisfaction_tt: "All [pops|e] that speak the [ShowLanguageName('rajasthani_language')] [language|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+mug_all_rajput_pops_lose_satisfaction_tt: "All [Concept('pops','населення')|e] that speak the [ShowLanguageName('rajasthani_language')] [language|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
 
 flavor_mug.14.title: "Aiding the Grand Trunk Road"
 flavor_mug.14.desc: "Due to recent technological advancements, as well as negligence over trade within [ShowRegionName('hindustan_region')], the Grand Trunk Road has been in decline. Being the connection between [ShowRegionName('persia_region')] and [ShowRegionName('bengal_region')], it has led to it prospering in the past. [target_character.GetName] wishes to modernize this road, allowing for a grand road between [target_location.GetName] amd [target_location2.GetName]."
@@ -80,4 +80,4 @@ flavor_mug.15.title: "Founding of [target_location.GetNameWithNoTooltip]"
 flavor_mug.15.desc: "The [ShowRegionName('bengal_region')] Sūbah has been on the decline for some time. Having lost our control in the region, [target_character.GetName] now wishes to establish a [ShowLocationRankName('city')] there from which [target_character.GetHerHis] governors will rule. The people there are in support of it, and would be rejoiced by such project, but it would also be costly."
 flavor_mug.15.a: "Let us found it."
 flavor_mug.15.b: "Empowering the governors there is not our priority."
-mug_location_pops_gain_unrest_tt: "All [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
+mug_location_pops_gain_unrest_tt: "All [Concept('pops','населення')|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"

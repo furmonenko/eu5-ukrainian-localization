@@ -9,7 +9,20 @@ if len(sys.argv) < 2:
 
 filename = sys.argv[1]
 ukr_file = f"/mnt/c/Users/zfurm/Documents/Paradox Interactive/Europa Universalis V/mod/ukrainian_localization/main_menu/localization/english/{filename}"
-rus_file = f"/mnt/d/SteamLibrary/steamapps/common/Europa Universalis V/game/main_menu/localization/russian/{filename.replace('_english', '_russian')}"
+
+# Спочатку шукаємо в локальній копії (reference/russian/), потім в оригінальному місці
+rus_file_local = f"/mnt/c/Users/zfurm/Documents/Paradox Interactive/Europa Universalis V/mod/ukrainian_localization/reference/russian/{filename.replace('_english', '_russian')}"
+rus_file_original = f"/mnt/d/SteamLibrary/steamapps/common/Europa Universalis V/game/main_menu/localization/russian/{filename.replace('_english', '_russian')}"
+
+import os
+if os.path.exists(rus_file_local):
+    rus_file = rus_file_local
+    print(f"📁 Використовую локальну копію російського файлу")
+elif os.path.exists(rus_file_original):
+    rus_file = rus_file_original
+    print(f"📁 Використовую оригінальний російський файл")
+else:
+    rus_file = rus_file_local  # Для обробки помилки нижче
 
 # Базовий словник російське → українське
 TRANSLATION_MAP = {

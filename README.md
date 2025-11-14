@@ -40,19 +40,28 @@ ukrainian_localization/
 ├── .metadata/
 │   ├── metadata.json          # Метадані мода для лаунчера
 │   └── thumbnail.png          # Іконка мода
+├── .claude_docs/              # Документація для Claude Code
+│   ├── PROJECT_STATUS.md      # Детальний статус проекту
+│   ├── TRANSLATION_GUIDE.md   # Керівництво з перекладу
+│   └── SUMMARY.txt            # Підсумок сесії
+├── reference/
+│   └── russian/               # Російська локалізація (119 файлів, 17MB)
+├── scripts/                   # Автоматизовані скрипти
+│   ├── fix_any_file_universal.py
+│   ├── auto_translate_from_russian.py
+│   ├── fix_hints_with_icon.py
+│   └── README.md              # Документація скриптів
 ├── in_game/                   # Ігрові ресурси
 ├── loading_screen/            # Екран завантаження
 ├── main_menu/                 # Головне меню
 │   └── localization/
-│       └── english/           # Файли перекладу
-│           ├── alerts_l_english.yml
-│           ├── character_l_english.yml
-│           ├── game_concepts_l_english.yml
-│           ├── interfaces_l_english.yml
-│           └── ... (28+ файлів)
-├── CHANGELOG.md              # Історія змін
-├── CONTRIBUTING.md           # Гайд для контриб'юторів
-├── PROGRESS.md               # Детальний прогрес перекладу
+│       └── english/           # Файли перекладу (українською!)
+│           ├── alerts_l_english.yml           ✓ Виправлено
+│           ├── diplomacy_l_english.yml        ✓ Виправлено
+│           ├── government_l_english.yml       ✓ Виправлено
+│           └── ... (106 файлів)
+├── .claude                   # Конфігурація Claude Code
+├── QUICKSTART.md             # Швидкий старт
 └── README.md                 # Ця документація
 ```
 

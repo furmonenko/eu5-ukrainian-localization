@@ -1,0 +1,160 @@
+# Claude Code Project Configuration
+
+## Робоча директорія
+/mnt/c/Users/zfurm/Documents/Paradox Interactive/Europa Universalis V/mod/ukrainian_localization/main_menu/localization/english
+
+## Структура проекту
+
+### Основні шляхи
+- **Українська локалізація:** `/mnt/c/Users/zfurm/Documents/Paradox Interactive/Europa Universalis V/mod/ukrainian_localization/`
+- **Оригінальні файли гри:** `/mnt/d/SteamLibrary/steamapps/common/Europa Universalis V/game/`
+- **Російська локалізація (референс):** `/mnt/d/SteamLibrary/steamapps/common/Europa Universalis V/game/main_menu/localization/russian/`
+- **Скрипти для автоматизації:** `/tmp/fix_*.py` та `/tmp/auto_*.py`
+- **Документація:** `.claude_docs/`
+
+### Важливо
+Файли локалізації знаходяться в папці `english`, але містять **українські** переклади. Це обмеження гри.
+
+## Контекст проекту
+
+### Мета
+Виправити українську локалізацію Europa Universalis V, замінивши старий формат `[concept|e]` на новий `[Concept('concept','переклад')|e]`, щоб правильно працювали українські відмінки.
+
+### Основна проблема
+Старий формат завжди показує називний відмінок з великої літери:
+- ❌ "вашу Країна" → Неправильно
+- ✅ "вашу країну" → Правильно (з новим форматом)
+
+### Поточний прогрес
+Виправлено **21 файл** (~4931 заміна):
+- ✅ government_l_english.yml
+- ✅ general_tooltips_l_english.yml
+- ✅ diplomacy_l_english.yml
+- ✅ alerts_l_english.yml
+- ✅ economy_l_english.yml
+- ✅ actions_l_english.yml
+- ✅ hints_l_english.yml
+- ✅ units_l_english.yml
+- ✅ та інші (див. PROJECT_STATUS.md)
+
+### Що залишилось
+- triggers_l_english.yml (4039 старих форматів)
+- modifier_types_l_english.yml (3885)
+- interfaces_l_english.yml (2478)
+- messages_l_english.yml (1378)
+- та інші системні файли
+
+## Інструменти та скрипти
+
+### Основні скрипти в /tmp:
+
+1. **fix_any_file_universal.py**
+   - Використовує вже відомі переклади (з виправлених файлів)
+   - Застосовує 440+ унікальних перекладів автоматично
+
+2. **auto_translate_from_russian.py**
+   - Читає російський файл локалізації
+   - Автоматично перекладає російське → українське
+   - Базовий словник + транслітерація
+
+3. **fix_hints_with_icon.py**
+   - Розумно зіставляє варіанти _with_icon з базовими концептами
+   - Автоматично знаходить переклади для похідних форм
+
+### Типовий робочий процес:
+
+```bash
+# 1. Перевірити початковий стан
+grep -o '\[[a-z_]*|e\]' filename_l_english.yml | wc -l
+
+# 2. Автоматичне виправлення (3 етапи)
+python3 /tmp/fix_any_file_universal.py filename_l_english.yml
+python3 /tmp/auto_translate_from_russian.py filename_l_english.yml
+python3 /tmp/fix_hints_with_icon.py
+
+# 3. Доопрацювання залишків вручну (зазвичай 0-50 концептів)
+grep -o '\[[a-z_]*|e\]' filename_l_english.yml | sort -u
+
+# 4. Фінальна перевірка (має бути 0)
+grep -o '\[[a-z_]*|e\]' filename_l_english.yml | wc -l
+```
+
+## Правила роботи
+
+### Завжди:
+1. Працювати з UTF-8 BOM кодуванням
+2. Використовувати правильні відмінки української мови
+3. Малі літери для звичайних іменників (не власних назв)
+4. Перевіряти контекст перед вибором відмінку
+5. Уникати російських кальок ("терпимість" → "толерантність")
+
+### Ніколи:
+1. Не використовувати великі літери без потреби
+2. Не копіювати російські слова напряму
+3. Не забувати про множину (не додавати просто "s")
+4. Не залишати старий формат `[concept|e]`
+
+## База знань
+
+### Приклади частих перекладів:
+- `country` → "країна" / "країну" / "країни"
+- `pops` → "населення" (не "попи"!)
+- `war` → "війна" / "війну" / "війни"
+- `army` → "армія" / "армію" / "армії"
+- `cabinet_member` → "член кабінету" / "члена кабінету"
+- `tolerated_culture` → "толерантна культура" (не "терпима"!)
+
+### Документація:
+- `PROJECT_STATUS.md` - Детальний статус виконаної роботи
+- `TRANSLATION_GUIDE.md` - Повне керівництво з перекладу
+
+## Швидкі команди
+
+### Перевірка прогресу всіх файлів:
+```bash
+cd "/mnt/c/Users/zfurm/Documents/Paradox Interactive/Europa Universalis V/mod/ukrainian_localization/main_menu/localization/english"
+for f in *.yml; do
+    count=$(grep -o '\[[a-z_]*|e\]' "$f" 2>/dev/null | wc -l)
+    if [ $count -gt 0 ]; then
+        echo "$count $f"
+    fi
+done | sort -rn | head -20
+```
+
+### Пошук специфічного концепту:
+```bash
+grep -rn "\[concept_name|e\]" *.yml
+```
+
+### Статистика по одному файлу:
+```bash
+echo "Старих форматів:"
+grep -o '\[[a-z_]*|e\]' filename.yml | wc -l
+echo "Унікальних:"
+grep -o '\[[a-z_]*|e\]' filename.yml | sort -u | wc -l
+echo "Найчастіші:"
+grep -o '\[[a-z_]*|e\]' filename.yml | sort | uniq -c | sort -rn | head -10
+```
+
+## Наступні файли для роботи (пріоритет)
+
+1. **Легкі (< 100):**
+   - scripted_lists_l_english.yml (96)
+   - subject_interactions_l_english.yml (92)
+   - auto_modifiers_l_english.yml (90)
+
+2. **Середні (100-600):**
+   - tutorial_l_english.yml (556)
+   - lists_l_english.yml (509)
+   - scripted_triggers_l_english.yml (520)
+
+3. **Великі (> 1000):**
+   - messages_l_english.yml (1378)
+   - interfaces_l_english.yml (2478)
+   - modifier_types_l_english.yml (3885)
+   - triggers_l_english.yml (4039)
+
+## Контакти та додаткова інформація
+
+Проект: Українська локалізація Europa Universalis V
+Платформа: Windows (WSL2)

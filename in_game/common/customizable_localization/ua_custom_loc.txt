@@ -1,0 +1,296 @@
+# Система відмінків для української мови
+# Використання:
+#   [country.Custom('UA_GEN')] - родовий відмінок країни
+#   [location.Custom('UA_LOC_GEN')] - родовий відмінок локації
+#   [character.Custom('UA_CHAR_GEN')] - родовий відмінок персонажа
+#   [culture.Custom('UA_CUL_GEN')] - родовий відмінок культури
+
+#===========================================
+# ВІДМІНКИ ДЛЯ КРАЇН
+#===========================================
+
+# РОДОВИЙ ВІДМІНОК (кого? чого?) - "війна Франції"
+UA_GEN = {
+	type = country
+	log_loc_errors = no
+
+	# Приклади для деяких країн
+	text = { localization_key = FRA_UA_GEN trigger = { tag = FRA } }
+	text = { localization_key = ENG_UA_GEN trigger = { tag = ENG } }
+	text = { localization_key = CAS_UA_GEN trigger = { tag = CAS } }
+	text = { localization_key = POL_UA_GEN trigger = { tag = POL } }
+	text = { localization_key = UKR_UA_GEN trigger = { tag = UKR } }
+
+	# За замовчуванням використовується базова назва
+	text = { localization_key = DEFAULT_UA_GEN }
+}
+
+# ДАВАЛЬНИЙ ВІДМІНОК (кому? чому?) - "допомога Франції"
+UA_DAT = {
+	type = country
+	log_loc_errors = no
+
+	text = { localization_key = FRA_UA_DAT trigger = { tag = FRA } }
+	text = { localization_key = ENG_UA_DAT trigger = { tag = ENG } }
+	text = { localization_key = CAS_UA_DAT trigger = { tag = CAS } }
+	text = { localization_key = POL_UA_DAT trigger = { tag = POL } }
+	text = { localization_key = UKR_UA_DAT trigger = { tag = UKR } }
+
+	text = { localization_key = DEFAULT_UA_DAT }
+}
+
+# ОРУДНИЙ ВІДМІНОК (ким? чим?) - "з Францією"
+UA_INS = {
+	type = country
+	log_loc_errors = no
+
+	text = { localization_key = FRA_UA_INS trigger = { tag = FRA } }
+	text = { localization_key = ENG_UA_INS trigger = { tag = ENG } }
+	text = { localization_key = CAS_UA_INS trigger = { tag = CAS } }
+	text = { localization_key = POL_UA_INS trigger = { tag = POL } }
+	text = { localization_key = UKR_UA_INS trigger = { tag = UKR } }
+
+	text = { localization_key = DEFAULT_UA_INS }
+}
+
+# МІСЦЕВИЙ ВІДМІНОК (на кому? на чому?) - "у Франції"
+UA_LOC = {
+	type = country
+	log_loc_errors = no
+
+	text = { localization_key = FRA_UA_LOC trigger = { tag = FRA } }
+	text = { localization_key = ENG_UA_LOC trigger = { tag = ENG } }
+	text = { localization_key = CAS_UA_LOC trigger = { tag = CAS } }
+	text = { localization_key = POL_UA_LOC trigger = { tag = POL } }
+	text = { localization_key = UKR_UA_LOC trigger = { tag = UKR } }
+
+	text = { localization_key = DEFAULT_UA_LOC }
+}
+
+# ЗНАХІДНИЙ ВІДМІНОК (кого? що?) - "завоювати Францію"
+UA_ACC = {
+	type = country
+	log_loc_errors = no
+
+	text = { localization_key = FRA_UA_ACC trigger = { tag = FRA } }
+	text = { localization_key = ENG_UA_ACC trigger = { tag = ENG } }
+	text = { localization_key = CAS_UA_ACC trigger = { tag = CAS } }
+	text = { localization_key = POL_UA_ACC trigger = { tag = POL } }
+	text = { localization_key = UKR_UA_ACC trigger = { tag = UKR } }
+
+	text = { localization_key = DEFAULT_UA_ACC }
+}
+
+#===========================================
+# ВІДМІНКИ ДЛЯ ЛОКАЦІЙ (міста, провінції)
+#===========================================
+
+# РОДОВИЙ ВІДМІНОК - "оборона Києва"
+UA_LOC_GEN = {
+	type = location
+	log_loc_errors = no
+
+	# Українські міста
+	text = { localization_key = KYIV_UA_GEN trigger = { location_id = location:kyiv } }
+	text = { localization_key = LVIV_UA_GEN trigger = { location_id = location:lviv } }
+	text = { localization_key = ODESA_UA_GEN trigger = { location_id = location:odesa } }
+
+	# Європейські столиці
+	text = { localization_key = PARIS_UA_GEN trigger = { location_id = location:paris } }
+	text = { localization_key = LONDON_UA_GEN trigger = { location_id = location:london } }
+	text = { localization_key = ROME_UA_GEN trigger = { location_id = location:rome } }
+	text = { localization_key = MOSCOW_UA_GEN trigger = { location_id = location:moscow } }
+	text = { localization_key = WARSAW_UA_GEN trigger = { location_id = location:warsaw } }
+
+	text = { localization_key = DEFAULT_LOC_UA_GEN }
+}
+
+# ДАВАЛЬНИЙ ВІДМІНОК - "допомога Києву"
+UA_LOC_DAT = {
+	type = location
+	log_loc_errors = no
+
+	text = { localization_key = KYIV_UA_DAT trigger = { location_id = location:kyiv } }
+	text = { localization_key = LVIV_UA_DAT trigger = { location_id = location:lviv } }
+	text = { localization_key = ODESA_UA_DAT trigger = { location_id = location:odesa } }
+	text = { localization_key = PARIS_UA_DAT trigger = { location_id = location:paris } }
+	text = { localization_key = LONDON_UA_DAT trigger = { location_id = location:london } }
+	text = { localization_key = ROME_UA_DAT trigger = { location_id = location:rome } }
+	text = { localization_key = MOSCOW_UA_DAT trigger = { location_id = location:moscow } }
+	text = { localization_key = WARSAW_UA_DAT trigger = { location_id = location:warsaw } }
+
+	text = { localization_key = DEFAULT_LOC_UA_DAT }
+}
+
+# ОРУДНИЙ ВІДМІНОК - "володіти Києвом"
+UA_LOC_INS = {
+	type = location
+	log_loc_errors = no
+
+	text = { localization_key = KYIV_UA_INS trigger = { location_id = location:kyiv } }
+	text = { localization_key = LVIV_UA_INS trigger = { location_id = location:lviv } }
+	text = { localization_key = ODESA_UA_INS trigger = { location_id = location:odesa } }
+	text = { localization_key = PARIS_UA_INS trigger = { location_id = location:paris } }
+	text = { localization_key = LONDON_UA_INS trigger = { location_id = location:london } }
+	text = { localization_key = ROME_UA_INS trigger = { location_id = location:rome } }
+	text = { localization_key = MOSCOW_UA_INS trigger = { location_id = location:moscow } }
+	text = { localization_key = WARSAW_UA_INS trigger = { location_id = location:warsaw } }
+
+	text = { localization_key = DEFAULT_LOC_UA_INS }
+}
+
+# МІСЦЕВИЙ ВІДМІНОК - "у Києві"
+UA_LOC_LOC = {
+	type = location
+	log_loc_errors = no
+
+	text = { localization_key = KYIV_UA_LOC trigger = { location_id = location:kyiv } }
+	text = { localization_key = LVIV_UA_LOC trigger = { location_id = location:lviv } }
+	text = { localization_key = ODESA_UA_LOC trigger = { location_id = location:odesa } }
+	text = { localization_key = PARIS_UA_LOC trigger = { location_id = location:paris } }
+	text = { localization_key = LONDON_UA_LOC trigger = { location_id = location:london } }
+	text = { localization_key = ROME_UA_LOC trigger = { location_id = location:rome } }
+	text = { localization_key = MOSCOW_UA_LOC trigger = { location_id = location:moscow } }
+	text = { localization_key = WARSAW_UA_LOC trigger = { location_id = location:warsaw } }
+
+	text = { localization_key = DEFAULT_LOC_UA_LOC }
+}
+
+# ЗНАХІДНИЙ ВІДМІНОК - "завоювати Київ"
+UA_LOC_ACC = {
+	type = location
+	log_loc_errors = no
+
+	text = { localization_key = KYIV_UA_ACC trigger = { location_id = location:kyiv } }
+	text = { localization_key = LVIV_UA_ACC trigger = { location_id = location:lviv } }
+	text = { localization_key = ODESA_UA_ACC trigger = { location_id = location:odesa } }
+	text = { localization_key = PARIS_UA_ACC trigger = { location_id = location:paris } }
+	text = { localization_key = LONDON_UA_ACC trigger = { location_id = location:london } }
+	text = { localization_key = ROME_UA_ACC trigger = { location_id = location:rome } }
+	text = { localization_key = MOSCOW_UA_ACC trigger = { location_id = location:moscow } }
+	text = { localization_key = WARSAW_UA_ACC trigger = { location_id = location:warsaw } }
+
+	text = { localization_key = DEFAULT_LOC_UA_ACC }
+}
+
+#===========================================
+# ВІДМІНКИ ДЛЯ КУЛЬТУР
+#===========================================
+
+# РОДОВИЙ ВІДМІНОК - "представник української культури"
+UA_CUL_GEN = {
+	type = culture
+	log_loc_errors = no
+
+	# Слов'янські культури
+	text = { localization_key = UKRAINIAN_CUL_GEN trigger = { culture_id = culture:ukrainian } }
+	text = { localization_key = POLISH_CUL_GEN trigger = { culture_id = culture:polish } }
+	text = { localization_key = RUSSIAN_CUL_GEN trigger = { culture_id = culture:russian } }
+
+	# Західноєвропейські
+	text = { localization_key = FRENCH_CUL_GEN trigger = { culture_id = culture:french } }
+	text = { localization_key = ENGLISH_CUL_GEN trigger = { culture_id = culture:english } }
+	text = { localization_key = GERMAN_CUL_GEN trigger = { culture_id = culture:german } }
+
+	text = { localization_key = DEFAULT_CUL_UA_GEN }
+}
+
+# ОРУДНИЙ ВІДМІНОК - "з українською культурою"
+UA_CUL_INS = {
+	type = culture
+	log_loc_errors = no
+
+	text = { localization_key = UKRAINIAN_CUL_INS trigger = { culture_id = culture:ukrainian } }
+	text = { localization_key = POLISH_CUL_INS trigger = { culture_id = culture:polish } }
+	text = { localization_key = RUSSIAN_CUL_INS trigger = { culture_id = culture:russian } }
+	text = { localization_key = FRENCH_CUL_INS trigger = { culture_id = culture:french } }
+	text = { localization_key = ENGLISH_CUL_INS trigger = { culture_id = culture:english } }
+	text = { localization_key = GERMAN_CUL_INS trigger = { culture_id = culture:german } }
+
+	text = { localization_key = DEFAULT_CUL_UA_INS }
+}
+
+# ЗНАХІДНИЙ ВІДМІНОК - "прийняти українську культуру"
+UA_CUL_ACC = {
+	type = culture
+	log_loc_errors = no
+
+	text = { localization_key = UKRAINIAN_CUL_ACC trigger = { culture_id = culture:ukrainian } }
+	text = { localization_key = POLISH_CUL_ACC trigger = { culture_id = culture:polish } }
+	text = { localization_key = RUSSIAN_CUL_ACC trigger = { culture_id = culture:russian } }
+	text = { localization_key = FRENCH_CUL_ACC trigger = { culture_id = culture:french } }
+	text = { localization_key = ENGLISH_CUL_ACC trigger = { culture_id = culture:english } }
+	text = { localization_key = GERMAN_CUL_ACC trigger = { culture_id = culture:german } }
+
+	text = { localization_key = DEFAULT_CUL_UA_ACC }
+}
+
+#===========================================
+# ВІДМІНКИ ДЛЯ РЕЛІГІЙ
+#===========================================
+# Примітка: Релігії в EU5 мають складну структуру - religion і religion_group
+# Тут наводяться відмінки для найпоширеніших релігій
+
+# РОДОВИЙ ВІДМІНОК - "послідовник православ'я"
+UA_REL_GEN = {
+	type = none
+	log_loc_errors = no
+
+	# Можна розширити, коли буде доступ до religion ID
+	# Поки використовуємо базовий підхід
+	text = { localization_key = DEFAULT_REL_UA_GEN }
+}
+
+# ОРУДНИЙ ВІДМІНОК - "з православ'ям"
+UA_REL_INS = {
+	type = none
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_REL_UA_INS }
+}
+
+# ЗНАХІДНИЙ ВІДМІНОК - "прийняти православ'я"
+UA_REL_ACC = {
+	type = none
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_REL_UA_ACC }
+}
+
+# МІСЦЕВИЙ ВІДМІНОК - "в православ'ї"
+UA_REL_LOC = {
+	type = none
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_REL_UA_LOC }
+}
+
+#===========================================
+# ВІДМІНКИ ДЛЯ ПЕРСОНАЖІВ
+#===========================================
+# Примітка: Для персонажів складно створити систему відмінків,
+# оскільки імена динамічні. Але можна додати для титулів
+
+# РОДОВИЙ ВІДМІНОК - "правління короля"
+UA_CHAR_TITLE_GEN = {
+	type = character
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_CHAR_TITLE_GEN }
+}
+
+# ДАВАЛЬНИЙ ВІДМІНОК - "королю"
+UA_CHAR_TITLE_DAT = {
+	type = character
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_CHAR_TITLE_DAT }
+}
+
+# ОРУДНИЙ ВІДМІНОК - "з королем"
+UA_CHAR_TITLE_INS = {
+	type = character
+	log_loc_errors = no
+
+	text = { localization_key = DEFAULT_CHAR_TITLE_INS }
+}

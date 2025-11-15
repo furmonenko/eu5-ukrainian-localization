@@ -1011,7 +1011,7 @@
  game_concept_cabinet_efficiency: "Ефективність Кабінету"
  game_concept_cabinet_efficiency_desc: "Це швидкість і ефективність, з якою [Concept('characters','персонажі')|e] з [Concept('cabinet','ради')|e] будуть працювати, коли їм призначено виконувати [Concept('cabinet_actions','дії')|e]. На це впливає [Concept('crown_power','влади правителя')|e] і [Concept('societal_values','суспільних цінностей')|e], а також це може бути змінено [Concept('advances','покращень')|e], [Concept('government_reforms','державних принципів')|e], [Concept('policies','політик')|e] та [Concept('buildings','споруд')|e]."
  game_concept_cabinet: "Кабінет"
- game_concept_cabinet_desc: "$game_concept_cabinet$ — це збори вищих посадовців, які допомагають керувати [Concept('country','країною')|e] через [Concept('cabinet_actions','дії')|e]. Кількість [Concept('cabinet_seats','мест в совете')|e] збільшується [Concept('advances','покращень')|e]."
+ game_concept_cabinet_desc: "$game_concept_cabinet$ — це збори вищих посадовців, які допомагають керувати [Concept('country','країною')|e] через [Concept('cabinet_actions','дії')|e]. Кількість [Concept('cabinet_seats','мест в совете')|e] збільшується [Concept('advances','покращеннями')|e]."
  game_concept_cabinet_member: "член кабінету"
  game_concept_cabinet_members: "Члени Кабінету"
  game_concept_cabinet_member_desc: "$game_concept_cabinet_member$ — це [Concept('character','персонаж')|e], найнятий у [Concept('cabinet','раді')|e]."
@@ -1246,7 +1246,7 @@
  game_concept_market: "Ринок"
  game_concept_markets: "Ринки"
  game_concept_market_desc: "Ринок — це місце, де [Concept('goods','товари')|e] купуються і продаються.\nВін базується в [Concept('market_center','ринковому центрі')|e], але включає інші локації на основі їхнього [Concept('market_access','доступа к ринку')|e] і [Concept('protectionism','протекционизма')|e].\nУсі ці локації будуть виключно купувати і продавати на [Concept('stockpile','запасів')|e] цього ринку.\n\n[markets] кольорово кодовані залежно від того, наскільки вони релевантні для вас:\n\n$BULLET$ #G Зелений [market]#!: Ви володієте локаціями на цьому [market], і тому вам потрібно турбуватися про його [Concept('pop_needs','потребностями')|e].\n\n$BULLET$ #E Синій [market]#!: Ви не володієте [Concept('locations','локації')|e], але маєте [Concept('merchant_capacity','торговий потенціал')|e], і тому можете [Concept('trade','торгівля')|e] з них.\n\n$BULLET$ #L Коричневий [market]#!: Ви не [Concept('own','власний')|e] жодної [Concept('location','локація')|e] і не маєте жодного [Concept('merchant_capacity','торговий потенціал')|e].\n\n$BULLET$ Сірий [market]: [markets], які за межами вашого [Concept('trade_range','торгової дистанції')|e], і тому ви не можете взаємодіяти з ними."
- SUBTAB_TRADING_TT_TEXT: "У цій вкладці ви можете керувати своїми [Concept('trades','торгівлі')|e], якщо у вас є [Concept('merchant_capacity','торговий потенціал')|e] на будь-якому [Concept('market','ринку')|e]."
+ SUBTAB_TRADING_TT_TEXT: "У цій вкладці ви можете керувати своїми [Concept('trades','торгами')|e], якщо у вас є [Concept('merchant_capacity','торговий потенціал')|e] на будь-якому [Concept('market','ринку')|e]."
  game_concept_protectionism: "Захист Ринку"
  game_concept_trade_protection: "Захист Ринку"
  game_concept_protectionism_desc: "$MODIFIER_TYPE_DESC_local_trade_protection_factor$\n\nЗахист Ринку збільшується в основному з [Concept('control','контроль')|e] [location]."
@@ -2342,7 +2342,7 @@
  game_concept_legal_male_desc: "Юридичний чоловік — це жінка [Concept('character','персонаж')|e], яка за законом вважається чоловіком. Це дає їй ті самі права, що й її чоловічі колеги, у питанні [Concept('heir_selection','правил престолонаслідування')|e]. Цей статус може бути оголошений жінці через [ShowCharacterInteractionName('prefection')] [Concept('character_interaction','взаємодія з персонажем')|e]."
 
  game_concept_head_of_the_cabinet: "Голова Кабінету"
- game_concept_head_of_the_cabinet_desc: "Голова кабінету — це [Concept('character','персонаж')|e], якого двір підвищив до представника [Concept('cabinet','совет')|e].\n\n[character] отримує наступні бонуси:\n[ShowModifierEffect('head_of_the_cabinet_modifier')]"
+ game_concept_head_of_the_cabinet_desc: "Голова кабінету — це [Concept('character','персонаж')|e], якого двір підвищив до представника [Concept('cabinet','рада')|e].\n\n[character] отримує наступні бонуси:\n[ShowModifierEffect('head_of_the_cabinet_modifier')]"
 
  game_concept_natural_harbor_suitability: "Природна Придатність Гавані"
  game_concept_natural_harbor_suitability_desc: "Наскільки добре [Concept('location','локація')|e] природно підходить для стоянки кораблів і завантаження/розвантаження людей і матеріалів, до будь-яких рукотворних покращень. Це робить портові [Concept('buildings','споруд')|e] дешевшими для будівництва і покращує [Concept('harbor_capacity','розмір гавані')|e]."

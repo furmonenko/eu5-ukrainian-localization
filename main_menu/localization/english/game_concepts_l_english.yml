@@ -63,9 +63,9 @@
  game_concept_building_based: "Країна, Заснована на Будівлях"
  game_concept_extraterritorial_country_desc: "Екстериторіальною вважається та [Concept('country','країна')|e], яка володіє виключно [Concept('buildings','будівлями')|e] без необхідності [Concept('own','володіти')|e] цілими [Concept('locations','локаціями')|e]."
 
- game_concept_society_of_pops: "Суспільство Попів"
- game_concept_societies_of_pops: "Суспільства Попів"
- game_concept_pop_based: "Країна, Заснована на Попах"
+ game_concept_society_of_pops: "Суспільство Попсів"
+ game_concept_societies_of_pops: "Суспільства Попсів"
+ game_concept_pop_based: "Країна, Заснована на Попсах"
  game_concept_society_of_pops_desc: "$game_concept_society_of_pops$ — це [Concept('country','країна')|e], яка володіє виключно [Concept('pops','групами населення')|e] без необхідності [Concept('own','володіти')|e] цілими [Concept('locations','локаціями')|e]."
 
  game_concept_diplomacy: "Дипломатія"
@@ -125,7 +125,7 @@
  game_concept_province_definition: "Визначення Провінції"
  game_concept_province_definition_desc: "Визначення провінції — це попередньо визначена група [Concept('locations','регіонів')|e], яка визначає, як [Concept('provinces','провінцій')|e] створюються протягом гри.\n\n[Concept('areas_with_icon','areas_with_icon')|e] поділені на визначення провінцій, які, у свою чергу, містять [Concept('locations_with_icon','locations_with_icon')|e]. Усі [locations] в одному визначенні провінції, які [Concept('owned','володіє')|e] однією [Concept('country_with_icon','country_with_icon')|e], належатимуть до однієї [Concept('province','провінції')|e].\n\nЯкщо кілька [countries] [own] [locations] в одному визначенні провінції, буде стільки ж різних [provinces], кожна зі своєю власною [Concept('province_capital_with_icon','province_capital_with_icon')|e] та [Concept('food_stockpile_with_icon','food_stockpile_with_icon')|e]."
  game_concept_province_capital: "Столиця Провінції"
- game_concept_province_capital_desc: "Столиця провінції — це [Concept('location','локація')|e], яка є образним серцем своєї [Concept('province','провінція')|e]. Найбільш населена або розвинена [location] у [province] буде автоматично обрана як столиця провінції. Коли ця [location] стає [Concept('occupied','окупований')|e] під час [Concept('war','війни')|e], решта [locations] [province] автоматично потрапляють у руки загарбника протягом короткого періоду часу.\n\nСтолиця провінції також визначає [Concept('market','ринку')|e], з якого вся [Concept('province','провінція')|e] купує та продає [Concept('food','їжу')|e]."
+ game_concept_province_capital_desc: "Столиця провінції — це [Concept('location','локація')|e], яка є образним серцем своєї [Concept('province','провінції')|e]. Найбільш населена або розвинена [location] у [province] буде автоматично обрана як столиця провінції. Коли ця [location] стає [Concept('occupied','окупованою')|e] під час [Concept('war','війни')|e], решта [locations] [province] автоматично потрапляють у руки загарбника протягом короткого періоду часу.\n\nСтолиця провінції також визначає [Concept('market','ринок')|e], з якого вся [Concept('province','провінція')|e] купує та продає [Concept('food','їжу')|e]."
  game_concept_location: "Локація"
  game_concept_locations: "Локації"
  game_concept_location_desc: "Найменша одиниця землі та частина [Concept('province','провінції')|e]. Її базові характеристики визначаються [Concept('topography','рельефа')|e], [Concept('vegetation','флори')|e] та [Concept('climate','клімату')|e]. Вона також може містити [Concept('river','річка')|e].\n\nКожна локація має [Concept('raw_material','ресурси')|e], який може бути зібраний [Concept('pops','груп населення')|e], які там живуть. [Concept('buildings','будівлі')|e] можуть бути побудовані в локаціях і також [Concept('employ','наймати')|e] попів. Більшість локацій є [Concept('rural','сільськими')|e], але їм також може бути наданий статус [Concept('town_or_city','міського')|e].\n\nКожна локація може бути [Concept('owned','во владении')|e] та [Concept('controlled','під контролем')|e] [Concept('countries','країни')|e], а [Concept('armies','армії')|e] можуть переміщатися між різними локаціями, щоб завоювати їх під час [Concept('war','війни')|e]."
@@ -714,7 +714,7 @@
  game_concept_promoted: "Підвищений"
  game_concept_promotes: "Підвищує"
  game_concept_promotion: "Підвищення"
- game_concept_promote_desc: "[Concept('pops','групи населення')|e] [Concept('promote','піднятися')|e] з [ShowPopTypeName('peasants')], коли для них є можливі позиції в їхній [Concept('location','локації')|e]. Попи повинні бути принаймні [Concept('tolerated_culture','прийнятній культурі')|e], щоб підвищуватися."
+ game_concept_promote_desc: "[Concept('pops','групи населення')|e] [Concept('promote','піднятися')|e] з [ShowPopTypeName('peasants')], коли для них є можливі позиції в їхній [Concept('location','локації')|e]. Попси повинні бути принаймні [Concept('tolerated_culture','прийнятній культурі')|e], щоб підвищуватися."
 
 
  game_concept_demoted: "Знижений"
@@ -826,7 +826,7 @@
  game_concept_market_food: "Ринкова Їжа"
  game_concept_market_food_desc: "Кожна [Concept('province','провінція')|e] або [Concept('buy_food','купити їжу')|e], або [Concept('sell_food','продати їжу')|e] на [Concept('market','ринок')|e], до якого вона належить, за ціною, яка залежить від кількості $game_concept_food$, збереженої в $game_concept_market$ [Concept('stockpile','запас')|e]. [Concept('owner','власник')|e] $game_concept_province$ буде тим, хто постраждає від вартості або прибутку транзакції, що означає, що $game_concept_provinces$ з надлишком $game_concept_food$ додадуть до [Concept('income','дохід')|e] $game_concept_owner$, тоді як дефіцити призведуть до [Concept('expenses','витрати')|e].\n\nВи можете створювати [Concept('trades','торгівлі')|e] [Concept('food_raw_materials','сировина для їжі')|e] для переміщення $game_concept_food$ між $game_concept_markets$."
 
- game_concept_pop_food_consumption: "Споживання Їжі Попом"
+ game_concept_pop_food_consumption: "Споживання Їжі Попсом"
  game_concept_pop_food_consumption_desc: "Це скільки [Concept('food','їжі')|e] [Concept('pop','групою населення')|e] споживатиме щомісяця."
 
  game_concept_food_productivity: "Продуктивність Їжі"
@@ -1007,11 +1007,11 @@
  game_concept_cabinet_action_desc: "Член [Concept('cabinet','ради')|e] може бути призначений на $game_concept_cabinet_action$. Вони виконуються або до їх завершення, або до того, як ми вирішимо змінити їх. \nЦе різні доступні дії: \n\n#T $game_concept_adm_short$ $game_concept_actions$ #!\n[ShowCabinetTypeDatabase('adm')] \n\n#T $game_concept_diplomatic_actions$ #!\n[ShowCabinetTypeDatabase('dip')] \n\n#T $game_concept_mil_short$ $game_concept_actions$ #!\n[ShowCabinetTypeDatabase('mil')] "
  game_concept_cabinet_seat: "Місце в Кабінеті"
  game_concept_cabinet_seats: "Місця в Кабінеті"
- game_concept_cabinet_seats_desc: "Це визначає кількість [Concept('cabinet_members','членів')|e], яких [Concept('country','країни')|e] може одночасно наймати у своєму [Concept('cabinet','раді')|e]. Деякі [Concept('advances','покращень')|e] можуть збільшити кількість доступних $game_concept_cabinet_seats$."
+ game_concept_cabinet_seats_desc: "Це визначає кількість [Concept('cabinet_members','членів')|e], яких [Concept('country','країна')|e] може одночасно наймати у своєму [Concept('cabinet','раді')|e]. Деякі [Concept('advances','поліпшення')|e] можуть збільшити кількість доступних $game_concept_cabinet_seats$."
  game_concept_cabinet_efficiency: "Ефективність Кабінету"
- game_concept_cabinet_efficiency_desc: "Це швидкість і ефективність, з якою [Concept('characters','персонажі')|e] з [Concept('cabinet','ради')|e] будуть працювати, коли їм призначено виконувати [Concept('cabinet_actions','дії')|e]. На це впливає [Concept('crown_power','влади правителя')|e] і [Concept('societal_values','суспільних цінностей')|e], а також це може бути змінено [Concept('advances','покращень')|e], [Concept('government_reforms','державних принципів')|e], [Concept('policies','політик')|e] та [Concept('buildings','споруд')|e]."
+ game_concept_cabinet_efficiency_desc: "Це швидкість і ефективність, з якою [Concept('characters','персонажі')|e] з [Concept('cabinet','ради')|e] будуть працювати, коли їм призначено виконувати [Concept('cabinet_actions','дії')|e]. На це впливає [Concept('crown_power','влада правителя')|e] і [Concept('societal_values','суспільні цінності')|e], а також це може бути змінено [Concept('advances','поліпшеннями')|e], [Concept('government_reforms','державними принципами')|e], [Concept('policies','політиками')|e] та [Concept('buildings','спорудами')|e]."
  game_concept_cabinet: "Кабінет"
- game_concept_cabinet_desc: "$game_concept_cabinet$ — це збори вищих посадовців, які допомагають керувати [Concept('country','країною')|e] через [Concept('cabinet_actions','дії')|e]. Кількість [Concept('cabinet_seats','мест в совете')|e] збільшується [Concept('advances','покращеннями')|e]."
+ game_concept_cabinet_desc: "$game_concept_cabinet$ — це збори вищих посадовців, які допомагають керувати [Concept('country','країною')|e] через [Concept('cabinet_actions','дії')|e]. Кількість [Concept('cabinet_seats','місць у раді')|e] збільшується [Concept('advances','поліпшеннями')|e]."
  game_concept_cabinet_member: "член кабінету"
  game_concept_cabinet_members: "Члени Кабінету"
  game_concept_cabinet_member_desc: "$game_concept_cabinet_member$ — це [Concept('character','персонаж')|e], найнятий у [Concept('cabinet','раді')|e]."
@@ -1375,7 +1375,7 @@
  game_concept_civil_construction_desc: "Цивільні Будівництва — це все, що зараз будується в [Concept('location','локації')|e], що не є підрозділом [Concept('army','армії')|e] або [Concept('navy','флоту')|e], наприклад, [Concept('buildings','будівлі')|e], переміщення вашої [Concept('capital','столиця')|e], створення [Concept('market','ринки')|e] або будівництво [Concept('roads','дороги')|e]."
 
  game_concept_country_strength: "Сила Країни"
- game_concept_country_strength_desc: "Це оцінка сили [Concept('country','країни')|e]. Вона враховує її [Concept('military_strength','військової чисельності')|e], [Concept('income','доходу')|e] і [Concept('population','населення')|e]."
+ game_concept_country_strength_desc: "Це оцінка сили [Concept('country','країни')|e]. Вона враховує її [Concept('military_strength','військову чисельність')|e], [Concept('income','дохід')|e] і [Concept('population','населення')|e]."
 
  game_concept_military_strength: "Військова Сила"
  game_concept_military_strength_desc: "Військова Сила [Concept('country','країни')|e] розраховується з її максимальної [Concept('manpower','людських ресурсів')|e], розміру [Concept('army','армії')|e] і потужності [Concept('levy','ополчення')|e]."
@@ -1554,7 +1554,7 @@
  game_concept_pop_needs: "Потреби попа"
  game_concept_pop_needs_desc: "[Concept('pop_with_icon','pop_with_icon')|e] має список [Concept('goods_with_icon','goods_with_icon')|e], які їм потрібні для їхнього життя, що залежить від їхнього [Concept('pop_type','соціальний клас')|e], [Concept('culture','культура')|e], [Concept('religion','релігія')|e] і де вони живуть. Наприклад, [ShowPopTypeName('nobles')] мають набагато вищі вимоги, ніж [Concept('lower_class','нижчий клас')|e]. Якщо вони не можуть задовольнити ці потреби, їхня [Concept('pop_satisfaction_with_icon','pop_satisfaction_with_icon')|e] постраждає.\n\nКількість [goods], які вимагає [pop], зростає з [Concept('development_with_icon','development_with_icon')|e] [Concept('location','локація')|e], де вони живуть."
 
- game_concept_pop_satisfaction: "Задоволеність Попа"
+ game_concept_pop_satisfaction: "Задоволеність Попса"
  game_concept_pop_satisfaction_desc: "Це те, наскільки [Concept('pop','група населення')|e] задоволений своїм становищем у житті. На це впливають наступні фактори:\n$BULLET_WITH_TAB$[Concept('estate_satisfaction','задоволення стану')|e]\n$BULLET_WITH_TAB$[Concept('unrest','безлади')|e] [Concept('location','локації')|e]\n$BULLET_WITH_TAB$[Concept('tolerance','толерантність')|e] її [Concept('religion','релігії')|e]\n$BULLET_WITH_TAB$Чи є це [Concept('accepted_culture','визнання')|e] чи ні\n$BULLET_WITH_TAB$Доступ до [Concept('pop_needs','потреб')|e]\n$BULLET_WITH_TAB$[Concept('market_price','ринкова ціна')|e] [Concept('pop_needs','потреб')|e]\n$BULLET_WITH_TAB$[Concept('cultural_opinion','думка')|e] її [Concept('culture','культурі')|e] [culture] [Concept('country','країні')|e]"
  game_concept_average_satisfaction: "Середня Задоволеність"
  game_concept_average_satisfaction_desc: "Це середня [Concept('pop_satisfaction','задоволення груп населення')|e] в [Concept('location','локації')|e]. Це має негативний вплив на [Concept('prosperity','процвітанні')|e] і [Concept('control','контролі')|e] локації."
@@ -1577,7 +1577,7 @@
  game_concept_migrate: "Мігрувати"
  game_concept_migrates: "Мігрує"
  game_concept_migrated: "Мігрував"
- game_concept_migration_desc: "[Concept('pops','групи населення')|e] мігруватимуть з однієї [Concept('location','локації')|e] до іншої, якщо вони відчувають, що вони отримають краще життя. Попи з деяких [Concept('estates','станів')|e] можуть не мати дозволу на вільну міграцію, залежно від того, які [Concept('estate_privileges','становими привілеями')|e] [Concept('country','країні')|e] може прийняти. Попи зазвичай мігрують лише в межах того самого [Concept('market','ринку')|e], якщо вони не мігрують до [Concept('colonial_charter','колоніальне поселення')|e] або не мігрують через [Concept('event','події')|e]."
+ game_concept_migration_desc: "[Concept('pops','групи населення')|e] мігруватимуть з однієї [Concept('location','локації')|e] до іншої, якщо вони відчувають, що вони отримають краще життя. Попси з деяких [Concept('estates','станів')|e] можуть не мати дозволу на вільну міграцію, залежно від того, які [Concept('estate_privileges','становими привілеями')|e] [Concept('country','країні')|e] може прийняти. Попси зазвичай мігрують лише в межах того самого [Concept('market','ринку')|e], якщо вони не мігрують до [Concept('colonial_charter','колоніальне поселення')|e] або не мігрують через [Concept('event','події')|e]."
  game_concept_unrest: "Заворушення"
  game_concept_unrest_desc: "Це значення, яке негативно впливає на [Concept('pop_satisfaction','задоволення')|e] [Concept('pops','груп населення')|e] в певній [Concept('location','локації')|e]."
  game_concept_truce: "Перемир'я"

@@ -2,7 +2,7 @@
  game_concept_with_icon: "$ICON$ $NAME$"
  game_concept_modifier: "Модифікатор"
  game_concept_modifiers: "Модифікатори"
- game_concept_modifier_desc: "Модифікатори — це значення, які впливають на те, як працює гра, наприклад, додаючи або множачи певні розрахунки.\nМодифікатори прикріплені до певної сутності, наприклад [Concept('country_modifiers','модифікатори країни')|e] до [Concept('countries','країну')|e], [Concept('location_modifiers','модифікатори локації')|e] до [Concept('locations','регіони')|e], [Concept('character_modifiers','модифікатори персонажа')|e] до [Concept('characters','персонажів')|e] та [Concept('international_organization_modifiers','модификатори международного об'единения')|e] до [Concept('international_organizations','міжнародні об'єднання')|e]."
+ game_concept_modifier_desc: "Модифікатори — це значення, які впливають на те, як працює гра, наприклад, додаючи або множачи певні розрахунки.\nМодифікатори прикріплені до певної сутності, наприклад [Concept('country_modifiers','модифікатори країни')|e] до [Concept('countries','країну')|e], [Concept('location_modifiers','модифікатори локації')|e] до [Concept('locations','регіони')|e], [Concept('character_modifiers','модифікатори персонажа')|e] до [Concept('characters','персонажів')|e] та [Concept('international_organization_modifiers','модифікатори міжнародної організації')|e] до [Concept('international_organizations','міжнародні об'єднання')|e]."
  game_concept_location_modifier: "Модифікатор Локації"
  game_concept_location_modifiers: "Модифікатори Локацій"
  game_concept_location_modifier_desc: "Це [Concept('modifier','модифікатор')|e], що впливає на [Concept('location','локацію')|e]."
@@ -523,7 +523,7 @@
 
  game_concept_liturgical_language: "Літургійна Мова"
  game_concept_liturgical_languages: "Літургійні Мови"
- game_concept_liturgical_language_desc: "Це офіційна [Concept('language','язик')|e], яку [Concept('country','країною')|e] використовує для своєї офіційної [Concept('religion','релігії')|e]. Деякі релігії, такі як [ShowReligionName('catholic')], мають фіксовану $game_concept_liturgical_language$, яку не можна змінити, але інші релігії дозволяють країнам її змінювати. [Concept('language_power','сила')|e] $game_concept_liturgical_language$ країни впливає на швидкість, з якою вони [Concept('research','дослідження')|e] нові [Concept('advances','покращень')|e]."
+ game_concept_liturgical_language_desc: "Це офіційна [Concept('language','мову')|e], яку [Concept('country','країна')|e] використовує для своєї офіційної [Concept('religion','релігії')|e]. Деякі релігії, такі як [ShowReligionName('catholic')], мають фіксовану $game_concept_liturgical_language$, яку не можна змінити, але інші релігії дозволяють країнам її змінювати. [Concept('language_power','сила')|e] $game_concept_liturgical_language$ країни впливає на швидкість, з якою вони [Concept('research','дослідження')|e] нові [Concept('advances','покращень')|e]."
 
  game_concept_common_language: "Загальна Мова"
  game_concept_common_languages: "Загальні Мови"
@@ -619,7 +619,7 @@
  game_concept_international_organization_type_desc: "$game_concept_international_organization_type_upper_title$\n\n$game_concept_international_organization_type_upper_desc$\n[ShowDatabaseWithIcon('international_organization_type')]"
  game_concept_member: "Член"
  game_concept_members: "Члени"
- game_concept_member_desc: "Це [Concept('countries','країна')|e], які є частиною [Concept('international_organization','международное об'единение')|e]."
+ game_concept_member_desc: "Це [Concept('countries','країна')|e], які є частиною [Concept('international_organization','міжнародної організації')|e]."
  game_concept_elector: "Виборець"
  game_concept_electors: "Виборці"
  game_concept_electorship: "Виборче Право"
@@ -637,7 +637,7 @@
  game_concept_leadership_election_resolution_desc: "Це спеціальна [Concept('resolution','резолюція')|e], яка використовується для визначення того, як обирається [Concept('international_organization_leader_short','лідер')|e] [Concept('international_organization','міжнародна організація')|e]."
  game_concept_candidate: "Кандидат"
  game_concept_candidates: "Кандидати"
- game_concept_candidate_desc: "Це [Concept('countries','країна')|e], які наразі розглядаються як наступний [Concept('international_organization_leader_short','лідера')|e] [Concept('international_organization','международного об'единения')|e]."
+ game_concept_candidate_desc: "Це [Concept('countries','країна')|e], які наразі розглядаються як наступний [Concept('international_organization_leader_short','лідера')|e] [Concept('international_organization','міжнародної організації')|e]."
  game_concept_free_city: "Вільне Місто"
  game_concept_free_cities: "Вільні Міста"
  game_concept_free_imperial_city: "Вільне Імперське Місто"
@@ -653,7 +653,7 @@
  game_concept_avatar_desc: "Аватари — це різні аспекти, прояви або втілення, які конкретний [Concept('god','божества')|e] може прийняти в [ShowReligionName('hindu')]."
  game_concept_disease: "Хвороба"
  game_concept_diseases: "Хвороби"
- game_concept_disease_desc: "Хвороба може завдати лиха нашим [Concept('people','людям')|e]. Різні хвороби мають різні визначені шанси [Concept('outbreak','спалахів')|e], метод та ймовірність передачі та рівень смертності. Їхні жахливі наслідки можуть бути зменшені за допомогою [Concept('disease_resistance','устойчивость к епидемиям')|e]."
+ game_concept_disease_desc: "Хвороба може завдати лиха нашим [Concept('people','людям')|e]. Різні хвороби мають різні визначені шанси [Concept('outbreak','спалахів')|e], метод та ймовірність передачі та рівень смертності. Їхні жахливі наслідки можуть бути зменшені за допомогою [Concept('disease_resistance','опір к епидемиям')|e]."
  game_concept_disease_outbreak: "Спалах Хвороби"
  game_concept_disease_outbreaks: "Спалахи Хвороб"
  game_concept_outbreak: "Спалах"
@@ -745,7 +745,7 @@
  game_concept_rgo_desc: "Ініціали $game_concept_resource_gathering_operations$. Кожна [Concept('location','локація')|e] має [Concept('raw_material','сировинний товар')|e], який створюється з $rgo_mining$, $rgo_farming$, $rgo_gathering$, $rgo_forestry$ або $rgo_hunting$.\n\nКожен рівень $game_concept_rgo$ може [Concept('employ','наймати')|e] до #V 1,000#! [Concept('rgo_pops','робітники або раби')|e], тоді як максимальний рівень залежить від [Concept('development','розвиток')|e], [Concept('advances','досягнення')|e] та інших речей."
 
  game_concept_prosperity: "Процвітання"
- game_concept_prosperity_desc: "Процвітання представляє, наскільки процвітаюча та багата [Concept('location','локації')|e]. Позитивне процвітання збільшує [Concept('development','розвитку')|e] [location] з часом і робить його більш привабливим для [Concept('migration','мигрирует')|e].\n\nПроцвітання зростає природно з часом, але зменшується в результаті низького [Concept('pop_satisfaction','задоволення груп населення')|e], [Concept('diseases','епідемії')|e], [Concept('sieges','облоги')|e], [Concept('occupation','окупація')|e], [Concept('blockades','блокади')|e] або якщо [location] [Concept('looted','пограбування')|e] ворожою [Concept('army','військами')|e]. Негативне процвітання може мати руйнівні наслідки для [Concept('population','населенню')|e] [location]."
+ game_concept_prosperity_desc: "Процвітання представляє, наскільки процвітаюча та багата [Concept('location','локації')|e]. Позитивне процвітання збільшує [Concept('development','розвитку')|e] [location] з часом і робить його більш привабливим для [Concept('migration','міграції')|e].\n\nПроцвітання зростає природно з часом, але зменшується в результаті низького [Concept('pop_satisfaction','задоволення груп населення')|e], [Concept('diseases','епідемії')|e], [Concept('sieges','облоги')|e], [Concept('occupation','окупація')|e], [Concept('blockades','блокади')|e] або якщо [location] [Concept('looted','пограбування')|e] ворожою [Concept('army','військами')|e]. Негативне процвітання може мати руйнівні наслідки для [Concept('population','населенню')|e] [location]."
  game_concept_development: "Розвиток"
  game_concept_development_desc: "Розвиток представляє, наскільки культивована земля і наскільки вона використовується [Concept('pops','групи населення')|e], які там живуть. Чим вищий розвиток, тим більше людей можуть там жити, і тим більше його можна експлуатувати."
  game_concept_control: "Контроль"
@@ -1747,7 +1747,7 @@
  game_concept_religious_war: "Релігійна Війна"
  game_concept_crusade: "Хрестовий Похід"
  game_concept_jihad: "$jihad$"
- game_concept_religious_war_desc: "Релігійна війна оголошується [Concept('international_organization','международное об'единение')|e] країн тієї самої віри [Concept('heathen','язичницький')|e] країні. Найвідомішими прикладами в грі є #Y Хрестові походи#! і #Y Джихади#! [ShowReligionGroupAdjective('christian')] і [ShowReligionGroupAdjective('muslim')] [Concept('religions','релігій')|e]."
+ game_concept_religious_war_desc: "Релігійна війна оголошується [Concept('international_organization','міжнародну організацію')|e] країн тієї самої віри [Concept('heathen','язичницький')|e] країні. Найвідомішими прикладами в грі є #Y Хрестові походи#! і #Y Джихади#! [ShowReligionGroupAdjective('christian')] і [ShowReligionGroupAdjective('muslim')] [Concept('religions','релігій')|e]."
  game_concept_religious_school: "Релігійна Школа"
  game_concept_religious_schools: "Релігійні Школи"
  game_concept_religious_school_desc: "Святе Писання може бути непогрішним, але різні школи думки розвинулися про те, як закони і норми найкраще узгоджуються з ним.\nЯкої школи дотримується [Concept('country','країни')|e], вплине на її шлях вперед."
@@ -2257,7 +2257,7 @@
 
  game_concept_special_status_power: "Влада Спеціального Статусу"
  game_concept_special_status_power_short: "Влада"
- game_concept_special_status_power_desc: "Це політична влада, яку має група [Concept('members','членів')|e] з певним [Concept('special_status','особий статус')|e] в [Concept('international_organization','международного об'единения')|e]. Цей вплив може бути релевантним для прийняття певних [Concept('parliament_issues','питання')|e] в [Concept('parliament','парламенті')|e], якщо вони не вирішуються через [Concept('resolution','резолюции')|e]."
+ game_concept_special_status_power_desc: "Це політична влада, яку має група [Concept('members','членів')|e] з певним [Concept('special_status','особий статус')|e] в [Concept('international_organization','міжнародної організації')|e]. Цей вплив може бути релевантним для прийняття певних [Concept('parliament_issues','питання')|e] в [Concept('parliament','парламенті')|e], якщо вони не вирішуються через [Concept('resolution','резолюции')|e]."
 
  game_concept_international_organization_variable: "Значення Міжнародної Організації"
  game_concept_international_organization_variable_desc: "Значення в [Concept('international_organization','міжнародна організація')|e] можуть використовуватися для представлення різних механік залежно від $game_concept_international_organization$. У деяких випадках це представляє авторитет [Concept('international_organization_leader_short','лідер')|e] організації, як у [GetUniqueInternationalOrganization('hre').GetName] або [GetUniqueInternationalOrganization('middle_kingdom').GetName]. В інших, як у [GetInternationalOrganizationType('sect').GetName], це представляє вплив самої $game_concept_international_organization$. Можуть бути інші використання значень, і це залежатиме від кожного типу $game_concept_international_organization$."
@@ -2267,7 +2267,7 @@
 
  game_concept_international_organization_leader: "Лідер Міжнародної Організації"
  game_concept_international_organization_leader_short: "Лідер"
- game_concept_international_organization_leader_desc: "[Concept('international_organization','международного об'единения')|e] може мати [Concept('country','країна')|e] як свого [Concept('international_organization_leader_short','лідером')|e]. Кожна [international_organization] різна, але загалом це найпотужніша [Concept('country','країна')|e] в [international_organization].\n\nДеякі організації мають систему голосування за [country], яка має бути [international_organization_leader_short], тоді як інші покладаються на інші системи для визначення свого лідерства, а інші можуть не мати [international_organization_leader_short] взагалі."
+ game_concept_international_organization_leader_desc: "[Concept('international_organization','міжнародної організації')|e] може мати [Concept('country','країна')|e] як свого [Concept('international_organization_leader_short','лідером')|e]. Кожна [international_organization] різна, але загалом це найпотужніша [Concept('country','країна')|e] в [international_organization].\n\nДеякі організації мають систему голосування за [country], яка має бути [international_organization_leader_short], тоді як інші покладаються на інші системи для визначення свого лідерства, а інші можуть не мати [international_organization_leader_short] взагалі."
 
  game_concept_hre_emperor: "Імператор"
  game_concept_hre_emperor_desc: "Імператор — це [international_organization_leader_short] [Concept('holy_roman_empire','священну римську імперію')|e]. Обов'язок імператора — захищати [Concept('members','членів')|e] від зовнішніх і внутрішніх загроз."
@@ -2275,7 +2275,7 @@
  game_concept_hre_law_level_desc: "Рівень закону описує, наскільки децентралізованим або централізованим є конкретний закон для [Concept('holy_roman_empire','священна римська імперія')|e]. Нижчий рівень представляє більшу владу [Concept('hre_emperor','імператор')|e], тоді як вищий рівень представляє децентралізований статус.\n\nРеформи можна приймати лише на їх суміжному рівні, що означає, що імператор не може обрати реформу рівня 2, якщо поточний закон на реформі рівня 4. Більшість [Concept('laws','закони')|e] починаються на рівні #Y 3#!."
  game_concept_holy_roman_empire: "Священна Римська Імперія"
  game_concept_hre: "СРІ"
- game_concept_holy_roman_empire_desc: "[GetUniqueInternationalOrganization('hre').GetName] — це [Concept('international_organization','международное об'единение')|e], яка домінує в політичній сфері [ShowRegionName('north_german_region')], [ShowRegionName('south_german_region')] і частково [ShowRegionName('italy_region')] і [ShowRegionName('france_region')]. [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] — це об'єднання незліченних [Concept('countries','країн')|e] від незначної до середньої влади, які всі потрапляють під захист свого [Concept('international_organization_leader_short','лідера')|e].\n\n[GetUniqueInternationalOrganization('hre').GetLeaderTitle] — це голова цієї організації, який обирається на цю позицію."
+ game_concept_holy_roman_empire_desc: "[GetUniqueInternationalOrganization('hre').GetName] — це [Concept('international_organization','міжнародну організацію')|e], яка домінує в політичній сфері [ShowRegionName('north_german_region')], [ShowRegionName('south_german_region')] і частково [ShowRegionName('italy_region')] і [ShowRegionName('france_region')]. [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] — це об'єднання незліченних [Concept('countries','країн')|e] від незначної до середньої влади, які всі потрапляють під захист свого [Concept('international_organization_leader_short','лідера')|e].\n\n[GetUniqueInternationalOrganization('hre').GetLeaderTitle] — це голова цієї організації, який обирається на цю позицію."
  game_concept_hre_electoral_college: "Колегія Виборців"
  game_concept_hre_electoral_college_desc: "$game_concept_hre_electoral_college$ складається з [ShowSpecialStatusNamePlural('elector')] [GetUniqueInternationalOrganization('hre').GetName].\n\nЗакон [ShowLawName('golden_bull')] впливає на те, як [ShowSpecialStatusNamePluralWithNoTooltip('elector')] віддають свої голоси через наступні фактори:\n- встановлюється вплив [Concept('country_rank','ранга держави')|e]\n- вплив [Concept('opinion','думки')|e] зменшується вдвічі\n- вплив [Concept('great_power_score','рахунку великої держави')|e] збільшується вчетверо"
 
@@ -2286,7 +2286,7 @@
  game_concept_parliament_desc: "[Concept('country','країна')|e] може скликати свої [Concept('estates','стану')|e] на сесію $game_concept_parliament$, щоб вирішити будь-яке [Concept('parliament_issue','парламентські питання')|e], яке вони можуть мати, водночас даючи можливості створити [Concept('casus_belli','поводи для войни')|e], підвищити [Concept('taxes','податки')|e], збільшити [Concept('army_levies','армійське')|e] і [Concept('navy_levies','флотське')|e], або змінити будь-які з поточних [Concept('laws','звід правил')|e]. Будь-який [Concept('estate','стану')|e] може мати [Concept('parliament_agenda','парламентська вимога')|e] для вирішення, перш ніж вони заявлять свою підтримку.\n\n$game_concept_parliament$ може відбуватися в [Concept('capital','столичному')|e] або в іншій [Concept('location','локації')|e], яка отримує деякі невеликі переваги. Якщо [location] стає [Concept('occupied','окупований')|e], $game_concept_parliament$ зазнає невдачі.\n\n[Concept('international_organizations','международних об'единений')|e], такі як [GetUniqueInternationalOrganization('hre').GetName], також можуть мати $game_concept_parliament$. Однак система парламенту залежить від типу організації, оскільки деякі вимагають підтримки [Concept('members','членів')|e] певного [Concept('special_status','особим статусом')|e] та їх [Concept('special_status_power','сила')|e] для прийняття."
 
  game_concept_parliament_seat: "Місце Парламенту"
- game_concept_parliament_seat_desc: "Це [Concept('location','локації')|e], де відбувається [Concept('parliament','парламент')|e] [Concept('country','країни')|e] або [Concept('international_organization','международного об'единения')|e]."
+ game_concept_parliament_seat_desc: "Це [Concept('location','локації')|e], де відбувається [Concept('parliament','парламент')|e] [Concept('country','країни')|e] або [Concept('international_organization','міжнародної організації')|e]."
 
  game_concept_parliament_type: "Тип Парламенту"
  game_concept_parliament_types: "Типи Парламенту"

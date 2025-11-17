@@ -121,20 +121,20 @@
 
  game_concept_province: "Провінція"
  game_concept_provinces: "Провінції"
- game_concept_province_desc: "Провінція — це група [Concept('locations','регіонів')|e], якими [Concept('owned','у володінні')|e] одна [Concept('country','країни')|e]. Провінція спільно використовує та розподіляє [Concept('food','їжі')|e] між своїми локаціями, а [Concept('army_levies','армійський')|e] та [Concept('navy_levies','флотське')|e] набираються з цілої провінції одразу. Кілька [Concept('cabinet_actions','дій ради')|e] націлені на провінцію."
+ game_concept_province_desc: "Провінція — це група [Concept('locations','регіонів')|e], якими [Concept('owned','у володіють')|e] одна [Concept('country','країни')|e]. Провінція спільно використовує та розподіляє [Concept('food','їжі')|e] між своїми локаціями, а [Concept('army_levies','армійський')|e] та [Concept('navy_levies','флотське')|e] набираються з цілої провінції одразу. Кілька [Concept('cabinet_actions','дій ради')|e] націлені на провінцію."
  game_concept_province_definition: "Визначення Провінції"
  game_concept_province_definition_desc: "Визначення провінції — це попередньо визначена група [Concept('locations','регіонів')|e], яка визначає, як [Concept('provinces','провінцій')|e] створюються протягом гри.\n\n[Concept('areas_with_icon','areas_with_icon')|e] поділені на визначення провінцій, які, у свою чергу, містять [Concept('locations_with_icon','locations_with_icon')|e]. Усі [locations] в одному визначенні провінції, які [Concept('owned','володіє')|e] однією [Concept('country_with_icon','country_with_icon')|e], належатимуть до однієї [Concept('province','провінції')|e].\n\nЯкщо кілька [countries] [own] [locations] в одному визначенні провінції, буде стільки ж різних [provinces], кожна зі своєю власною [Concept('province_capital_with_icon','province_capital_with_icon')|e] та [Concept('food_stockpile_with_icon','food_stockpile_with_icon')|e]."
  game_concept_province_capital: "Столиця Провінції"
  game_concept_province_capital_desc: "Столиця провінції — це [Concept('location','локація')|e], яка є образним серцем своєї [Concept('province','провінції')|e]. Найбільш населена або розвинена [location] у [province] буде автоматично обрана як столиця провінції. Коли ця [location] стає [Concept('occupied','окупованою')|e] під час [Concept('war','війни')|e], решта [locations] [province] автоматично потрапляють у руки загарбника протягом короткого періоду часу.\n\nСтолиця провінції також визначає [Concept('market','ринок')|e], з якого вся [Concept('province','провінція')|e] купує та продає [Concept('food','їжу')|e]."
  game_concept_location: "Локація"
  game_concept_locations: "Локації"
- game_concept_location_desc: "Найменша одиниця землі та частина [Concept('province','провінції')|e]. Її базові характеристики визначаються [Concept('topography','рельефа')|e], [Concept('vegetation','флори')|e] та [Concept('climate','клімату')|e]. Вона також може містити [Concept('river','річка')|e].\n\nКожна локація має [Concept('raw_material','ресурси')|e], який може бути зібраний [Concept('pops','груп населення')|e], які там живуть. [Concept('buildings','будівлі')|e] можуть бути побудовані в локаціях і також [Concept('employ','наймати')|e] попів. Більшість локацій є [Concept('rural','сільськими')|e], але їм також може бути наданий статус [Concept('town_or_city','міського')|e].\n\nКожна локація може бути [Concept('owned','у володінні')|e] та [Concept('controlled','під контролем')|e] [Concept('countries','країни')|e], а [Concept('armies','армії')|e] можуть переміщатися між різними локаціями, щоб завоювати їх під час [Concept('war','війни')|e]."
+ game_concept_location_desc: "Найменша одиниця землі та частина [Concept('province','провінції')|e]. Її базові характеристики визначаються [Concept('topography','рельефа')|e], [Concept('vegetation','флори')|e] та [Concept('climate','клімату')|e]. Вона також може містити [Concept('river','річка')|e].\n\nКожна локація має [Concept('raw_material','ресурси')|e], який може бути зібраний [Concept('pops','груп населення')|e], які там живуть. [Concept('buildings','будівлі')|e] можуть бути побудовані в локаціях і також [Concept('employ','наймати')|e] попів. Більшість локацій є [Concept('rural','сільськими')|e], але їм також може бути наданий статус [Concept('town_or_city','міського')|e].\n\nКожна локація може бути [Concept('owned','у володіють')|e] та [Concept('controlled','під контролем')|e] [Concept('countries','країни')|e], а [Concept('armies','армії')|e] можуть переміщатися між різними локаціями, щоб завоювати їх під час [Concept('war','війни')|e]."
  game_concept_lake: "Озеро"
  game_concept_lakes: "Озера"
  game_concept_lake_desc: "Озера — це внутрішні водойми, які або не мають виходу до моря, або зв'язані з морями через річки. Через це жодному з більш-менш великих [Concept('ships','кораблів')|e] не потрапити в озеро."
  game_concept_seazone: "Морська Зона"
  game_concept_seazones: "Морські Зони"
- game_concept_seazone_desc: "Морська зона подібна до [Concept('location','локації')|e], за винятком того, що вона містить лише воду. Це поділ карти, який не [Concept('owned','у володінні')|e] або [Concept('controlled','під контролем')|e] ніким. Якщо морська зона прибережна, вона також матиме [Concept('maritime_presence','морська присутність')|e] від сусідніх [Concept('countries','країн')|e]."
+ game_concept_seazone_desc: "Морська зона подібна до [Concept('location','локації')|e], за винятком того, що вона містить лише воду. Це поділ карти, який не [Concept('owned','у володіють')|e] або [Concept('controlled','під контролем')|e] ніким. Якщо морська зона прибережна, вона також матиме [Concept('maritime_presence','морська присутність')|e] від сусідніх [Concept('countries','країн')|e]."
  game_concept_sea_current: "Морська Течія"
  game_concept_sea_currents: "Морські Течії"
  game_concept_sea_current_desc: "$game_concept_sea_current$ — особливість певної [Concept('seazones','акваторії')|e], що дозволяє [Concept('navies','флотам')|e] швидше пересуватися в тому чи іншому напрямку."
@@ -309,7 +309,7 @@
  game_concept_assimilated: "Асимільований"
  game_concept_assimilation: "Асиміляція"
  game_concept_assimilation_rate: "Швидкість Асиміляції"
- game_concept_assimilate_desc: "Це процес, за яким [Concept('pops','групи населення')|e] однієї [Concept('culture','культурі')|e] змінюються з часом на [Concept('primary_culture','основну культуру')|e] [Concept('country','країни')|e], яка [Concept('owns','володіючої')|e] їх.\n\nВона прискорюється, якщо [primary_culture] має високу [Concept('culture_war_power','міць')|e] проти [Concept('pop','группе населения')|e] культури.\n\nДеякі конкретні [Concept('cultures','культури')|e] безпосередньо пов'язані зі своєю [Concept('faith','вірі')|e], тому вони не зможуть бути асимільовані, якщо вони спочатку не [Concept('converted','навернення')|e]."
+ game_concept_assimilate_desc: "Це процес, за яким [Concept('pops','групи населення')|e] однієї [Concept('culture','культурі')|e] змінюються з часом на [Concept('primary_culture','основну культуру')|e] [Concept('country','країни')|e], яка [Concept('owns','володіючої')|e] їх.\n\nВона прискорюється, якщо [primary_culture] має високу [Concept('culture_war_power','міць')|e] проти [Concept('pop','групі населення')|e] культури.\n\nДеякі конкретні [Concept('cultures','культури')|e] безпосередньо пов'язані зі своєю [Concept('faith','вірі')|e], тому вони не зможуть бути асимільовані, якщо вони спочатку не [Concept('converted','навернення')|e]."
 
  game_concept_occupation: "Окупація"
  game_concept_occupations: "Окупації"
@@ -428,7 +428,7 @@
  game_concept_locked: "Заблокований"
  game_concept_locked_desc: "Заблокована [Concept('army','армія')|e] або [Concept('navy','флот')|e] не може отримувати накази, поки доступ до цього підрозділу не відновиться."
  game_concept_trade_profit: "Прибуток від Торгівлі"
- game_concept_trade_profit_desc: "Прибуток від торгівлі в основному залежить від різниці між [Concept('market_prices','риночними ценами')|e] [Concept('goods','товарів')|e] на [Concept('export_market','ринку експорту')|e] та [Concept('import_market','ринке импорта')|e]. Також є витрати на обслуговування, які зменшать прибуток, і деякі торгівлі можуть бути змушені платити [Concept('sound_toll','плата за проход')|e]."
+ game_concept_trade_profit_desc: "Прибуток від торгівлі в основному залежить від різниці між [Concept('market_prices','риночними ценами')|e] [Concept('goods','товарів')|e] на [Concept('export_market','ринку експорту')|e] та [Concept('import_market','ринке импорта')|e]. Також є витрати на обслуговування, які зменшать прибуток, і деякі торгівлі можуть бути змушені платити [Concept('sound_toll','плата за прохід')|e]."
  game_concept_trade: "Торгівля"
  game_concept_trading: "Торгівля"
  game_concept_trades: "Торгівлі"
@@ -460,7 +460,7 @@
  game_concept_common_goods_desc: "Деякі [Concept('goods','товари')|e], такі як [ShowGoodsName('stone')] або [ShowGoodsName('clay')], можуть бути вироблені скрізь без необхідності в [Concept('rgo','р.д.о.')|e], і це вважається звичайними товарами. Як звичайні $game_concept_goods$, вони потім надаються на [Concept('market','ринок')|e]."
 
  game_concept_topography: "Топографія"
- game_concept_topography_desc: "Рельєф — це нерівності та перепади висот у [Concept('location','локації')|e]. На рівній місцевості простіше розвивати [Concept('towns_and_cities','міста')|e], на пересіченій простіше обороня тися."
+ game_concept_topography_desc: "Рельєф — це нерівності та перепади висот у [Concept('location','локації')|e]. На рівній місцевості простіше розвивати [Concept('towns_and_cities','міста')|e], на пересіченій простіше оборонятися."
 
  game_concept_vegetation: "Рослинність"
  game_concept_vegetation_desc: "Флора характеризує рослинність, якою покрита [Concept('location','локація')|e]."
@@ -523,7 +523,7 @@
 
  game_concept_liturgical_language: "Літургійна Мова"
  game_concept_liturgical_languages: "Літургійні Мови"
- game_concept_liturgical_language_desc: "Це офіційна [Concept('language','мову')|e], яку [Concept('country','країна')|e] використовує для своєї офіційної [Concept('religion','релігії')|e]. Деякі релігії, такі як [ShowReligionName('catholic')], мають фіксовану $game_concept_liturgical_language$, яку не можна змінити, але інші релігії дозволяють країнам її змінювати. [Concept('language_power','сила')|e] $game_concept_liturgical_language$ країни впливає на швидкість, з якою вони [Concept('research','дослідження')|e] нові [Concept('advances','покращень')|e]."
+ game_concept_liturgical_language_desc: "Це офіційна [Concept('language','мова')|e], яку [Concept('country','країна')|e] використовує для своєї офіційної [Concept('religion','релігії')|e]. Деякі релігії, такі як [ShowReligionName('catholic')], мають фіксовану $game_concept_liturgical_language$, яку не можна змінити, але інші релігії дозволяють країнам її змінювати. [Concept('language_power','сила')|e] $game_concept_liturgical_language$ країни впливає на швидкість, з якою вони [Concept('research','дослідження')|e] нові [Concept('advances','покращень')|e]."
 
  game_concept_common_language: "Загальна Мова"
  game_concept_common_languages: "Загальні Мови"
@@ -583,7 +583,7 @@
  game_concept_consorts: "Дружини/Чоловіки"
  game_concept_spouse: "Подружжя"
  game_concept_spouses: "Подружжя"
- game_concept_consort_desc: "Дружина/чоловік — це [Concept('character','персонаж')|e], який [Concept('married','браке')|e] з [Concept('ruler','правителем')|e]. У деяких формах урядів вони можуть отримати повноваження, але в більшості випадків вони там, щоб допомогти забезпечити [Concept('heirs','спадкоємців')|e]."
+ game_concept_consort_desc: "Дружина/чоловік — це [Concept('character','персонаж')|e], який [Concept('married','у шлюбі')|e] з [Concept('ruler','правителем')|e]. У деяких формах урядів вони можуть отримати повноваження, але в більшості випадків вони там, щоб допомогти забезпечити [Concept('heirs','спадкоємців')|e]."
  game_concept_heir: "Спадкоємець"
  game_concept_heirs: "Спадкоємці"
  game_concept_heir_desc: "[Concept('character','персонаж')|e], який наступний у черзі, щоб стати [Concept('ruler','правитель')|e], коли поточний [ruler] помре або зречеться престолу. Порядок спадкування визначається [Concept('heir_selection','правила престолонаслідування')|e] [Concept('government','уряд')|e].\n\nЯкщо відбувається спадкування, але немає дійсного спадкоємця, або спадкоємець є [Concept('child','дитина')|e], спрацьовує [Concept('regency','регентства')|e]."
@@ -1054,7 +1054,7 @@
  game_concept_tribal_cohesion_desc: "Племінна Згуртованість — це міра того, наскільки члени нашого [ShowGovernmentTypeName('tribe')] узгоджені з точки зору [Concept('religion','релігії')|e] і [Concept('culture','культури')|e]. На низьких рівнях управління [ShowGovernmentTypeNameWithNoTooltip('tribe')] буде схоже на пастушіння котів, коли кожен хоче робити свою власну справу. Це повинно бути високим, щоб [ShowGovernmentTypeNameWithNoTooltip('tribe')] працювала плавно."
  game_concept_government_power: "Влада Уряду"
  game_concept_government_power_i: "@government_power!"
- game_concept_government_power_desc: "Це загальний термін для міри того, наскільки добре функціонує наш [Concept('government','уряд')|e]. Існує кілька типів: [Concept('legitimacy','легітимність')|e], [Concept('republican_tradition','республиканские традиции')|e], [Concept('devotion','благочестя')|e], [Concept('horde_unity','згуртованість орди')|e] і [Concept('tribal_cohesion','племенна єдність')|e]."
+ game_concept_government_power_desc: "Це загальний термін для міри того, наскільки добре функціонує наш [Concept('government','уряд')|e]. Існує кілька типів: [Concept('legitimacy','легітимність')|e], [Concept('republican_tradition','республіканська традиція')|e], [Concept('devotion','благочестя')|e], [Concept('horde_unity','згуртованість орди')|e] і [Concept('tribal_cohesion','племенна єдність')|e]."
  game_concept_policy: "Політика"
  game_concept_policies: "Політики"
  game_concept_policy_desc: "Кожен [Concept('law','правила')|e] має одну або кілька політик для вибору. Вони визначають, як закон обробляється в [Concept('country','країні')|e]."
@@ -1245,7 +1245,7 @@
  game_concept_import_market_desc: "Це [Concept('market','ринок')|e], де продаються [Concept('goods','товари')|e] торгівлі, створюючи [Concept('import','імпорт')|e]."
  game_concept_market: "Ринок"
  game_concept_markets: "Ринки"
- game_concept_market_desc: "Ринок — це місце, де [Concept('goods','товари')|e] купуються і продаються.\nВін базується в [Concept('market_center','ринковому центрі')|e], але включає інші локації на основі їхнього [Concept('market_access','доступа к ринку')|e] і [Concept('protectionism','протекционизма')|e].\nУсі ці локації будуть виключно купувати і продавати на [Concept('stockpile','запасів')|e] цього ринку.\n\n[markets] кольорово кодовані залежно від того, наскільки вони релевантні для вас:\n\n$BULLET$ #G Зелений [market]#!: Ви володієте локаціями на цьому [market], і тому вам потрібно турбуватися про його [Concept('pop_needs','потребностями')|e].\n\n$BULLET$ #E Синій [market]#!: Ви не володієте [Concept('locations','локації')|e], але маєте [Concept('merchant_capacity','торговий потенціал')|e], і тому можете [Concept('trade','торгівля')|e] з них.\n\n$BULLET$ #L Коричневий [market]#!: Ви не [Concept('own','власний')|e] жодної [Concept('location','локація')|e] і не маєте жодного [Concept('merchant_capacity','торговий потенціал')|e].\n\n$BULLET$ Сірий [market]: [markets], які за межами вашого [Concept('trade_range','торгової дистанції')|e], і тому ви не можете взаємодіяти з ними."
+ game_concept_market_desc: "Ринок — це місце, де [Concept('goods','товари')|e] купуються і продаються.\nВін базується в [Concept('market_center','ринковому центрі')|e], але включає інші локації на основі їхнього [Concept('market_access','доступа к ринку')|e] і [Concept('protectionism','протекціонізму')|e].\nУсі ці локації будуть виключно купувати і продавати на [Concept('stockpile','запасів')|e] цього ринку.\n\n[markets] кольорово кодовані залежно від того, наскільки вони релевантні для вас:\n\n$BULLET$ #G Зелений [market]#!: Ви володієте локаціями на цьому [market], і тому вам потрібно турбуватися про його [Concept('pop_needs','потребностями')|e].\n\n$BULLET$ #E Синій [market]#!: Ви не володієте [Concept('locations','локації')|e], але маєте [Concept('merchant_capacity','торговий потенціал')|e], і тому можете [Concept('trade','торгівля')|e] з них.\n\n$BULLET$ #L Коричневий [market]#!: Ви не [Concept('own','власний')|e] жодної [Concept('location','локація')|e] і не маєте жодного [Concept('merchant_capacity','торговий потенціал')|e].\n\n$BULLET$ Сірий [market]: [markets], які за межами вашого [Concept('trade_range','торгової дистанції')|e], і тому ви не можете взаємодіяти з ними."
  SUBTAB_TRADING_TT_TEXT: "У цій вкладці ви можете керувати своїми [Concept('trades','торгами')|e], якщо у вас є [Concept('merchant_capacity','торговий потенціал')|e] на будь-якому [Concept('market','ринку')|e]."
  game_concept_protectionism: "Захист Ринку"
  game_concept_trade_protection: "Захист Ринку"
@@ -1303,7 +1303,7 @@
  game_concept_type_of_country: "Тип країни"
  game_concept_country_type_list_title: "Список Типів Країн"
  game_concept_country_type_list: "$BULLET_WITH_TAB$[Concept('settled_country','осіла країна')|e]\n$BULLET_WITH_TAB$[Concept('army_based','стратократична країна')|e]\n$BULLET_WITH_TAB$[Concept('extraterritorial_country','екстериторіальна країна')|e]\n$BULLET_WITH_TAB$[Concept('society_of_pops','народна общність')|e]"
- game_concept_country_type_desc: "$game_concept_country_type$ визначає умову існування [Concept('country','країни')|e] і має величезні ігрові наслідки. Деякі $game_concept_countries$ визначаються [Concept('locations','регіонів')|e], які вони [Concept('own','володінні')|e], і не можуть існувати без них, тоді як інші визначаються своїми [Concept('armies','армій')|e], своїми [Concept('buildings','споруд')|e] або своїми [Concept('pops','груп населення')|e]."
+ game_concept_country_type_desc: "$game_concept_country_type$ визначає умову існування [Concept('country','країни')|e] і має величезні ігрові наслідки. Деякі $game_concept_countries$ визначаються [Concept('locations','регіонів')|e], які вони [Concept('own','володіють')|e], і не можуть існувати без них, тоді як інші визначаються своїми [Concept('armies','армій')|e], своїми [Concept('buildings','споруд')|e] або своїми [Concept('pops','груп населення')|e]."
  game_concept_diplomatic_range: "Дипломатична Дальність"
  game_concept_diplomatic_range_desc: "Дипломатична Дальність обмежує фізичну відстань, на яку наші дипломати можуть подорожувати для ведення дипломатії. Відстань, яку потрібно подолати, — від однієї столиці до іншої."
  game_concept_diplomatic_capacity: "Дипломатичний Потенціал"
@@ -1442,7 +1442,7 @@
  game_concept_hostile_desc: "Ворожа [Concept('country','країна')|e] — це та, яка хоче завдати нам шкоди, наприклад, [Concept('rebels','повстанці')|e], [Concept('pirates','пірати')|e] або країна, з якою ми перебуваємо у [Concept('war','війні')|e]."
  game_concept_regency: "Регентство"
  game_concept_regencies: "Регентства"
- game_concept_regency_desc: "Регентство відбувається, коли [Concept('government','уряд')|e] не має легітимного [Concept('ruler','правителя')|e], і замість цього керується [Concept('regent','регент')|e].\n\nЗазвичай це спричинено, коли [Concept('heir_selection','правилам престолонаслідування')|e] не дає дійсного [Concept('heir','наследника')|e], або коли [heir] є лише [Concept('child','дитиною')|e].\n\nУ [ShowGovernmentTypeName('monarchy')] [Concept('consort','консорт')|e] може стати [regent], але в іншому випадку це [Concept('character','персонаж')|e], пов'язаний з найпотужнішим [Concept('estate','стану')|e], або навіть [Concept('overlord','сюзерен')|e].\n\nРегентство триває до тих пір, поки не буде відновлено належного [ruler]."
+ game_concept_regency_desc: "Регентство відбувається, коли [Concept('government','уряд')|e] не має легітимного [Concept('ruler','правителя')|e], і замість цього керується [Concept('regent','регент')|e].\n\nЗазвичай це спричинено, коли [Concept('heir_selection','правилам престолонаслідування')|e] не дає дійсного [Concept('heir','спадкоємця')|e], або коли [heir] є лише [Concept('child','дитиною')|e].\n\nУ [ShowGovernmentTypeName('monarchy')] [Concept('consort','консорт')|e] може стати [regent], але в іншому випадку це [Concept('character','персонаж')|e], пов'язаний з найпотужнішим [Concept('estate','стану')|e], або навіть [Concept('overlord','сюзерен')|e].\n\nРегентство триває до тих пір, поки не буде відновлено належного [ruler]."
 
 
 
@@ -1496,7 +1496,7 @@
  game_concept_tax_base_desc: "Це загальна кількість [Concept('gold','золота')|e], згенерована в [Concept('location','локації')|e] щомісяця, яка походить від прибутку її [Concept('rgo','видобутку ресурсів')|e] і [Concept('buildings','споруд')|e], помноженого на [Concept('control','контролю')|e].\n\nКожен [Concept('estate','стан')|e] у [location] отримує [Concept('tax_base_share','частка податкової бази')|e] і сплачує частину цього до [Concept('treasury','скарбницю')|e] відповідно до [Concept('tax_rate','податковою ставкою')|e], накладеної на них."
 
  game_concept_max_tax_base: "Потенційна Податкова База"
- game_concept_max_tax_base_desc: "Потенційна Податкова База [Concept('location','локації')|e] — це комбінований прибуток її [Concept('rgo','видобувними підприємствами')|e] і [Concept('buildings','будівлями')|e] від продажу їхніх [Concept('goods','товарів')|e] на [Concept('market','ринку')|e]. Якщо в [location] присутні [ShowPopTypeName('burghers')], [Concept('burgher_trade','участия в торговле')|e] також може збільшити Потенційну Податкову Базу.\n\nПотенційна Податкова База, помножена на [Concept('control','контролю')|e], дає [Concept('tax_base','податкову базу')|e] [location], яка є [Concept('gold','золота')|e], що фактично створюється і розподіляється між [Concept('estates','станами')|e]."
+ game_concept_max_tax_base_desc: "Потенційна Податкова База [Concept('location','локації')|e] — це комбінований прибуток її [Concept('rgo','видобувними підприємствами')|e] і [Concept('buildings','будівлями')|e] від продажу їхніх [Concept('goods','товарів')|e] на [Concept('market','ринку')|e]. Якщо в [location] присутні [ShowPopTypeName('burghers')], [Concept('burgher_trade','участі в торгівлі')|e] також може збільшити Потенційну Податкову Базу.\n\nПотенційна Податкова База, помножена на [Concept('control','контролю')|e], дає [Concept('tax_base','податкову базу')|e] [location], яка є [Concept('gold','золота')|e], що фактично створюється і розподіляється між [Concept('estates','станами')|e]."
  game_concept_tax_base_share: "Частка Податкової Бази"
  game_concept_tax_base_share_desc: "[Concept('tax_base','податкова база')|e] [Concept('location','локації')|e] розподіляється між [Concept('estates','станами')|e] відповідно до їхньої відносної [Concept('population','населення')|e] в [location]. [ShowPopTypeName('nobles')] отримують набагато більшу частку на душу населення, ніж [ShowPopTypeName('burghers')], які в свою чергу отримують набагато більшу частку на душу населення, ніж [ShowPopTypeName('peasants')]."
 
@@ -1613,7 +1613,7 @@
  game_concept_fortifications: "Фортифікації"
  game_concept_fort: "Форт"
  game_concept_forts: "Форти"
- game_concept_fortification_desc: "Це оборонні [Concept('buildings','споруда')|e], призначені для захисту власних [Concept('locations','регіони')|e] [Concept('country','країни')|e] від [Concept('enemy','ворожих')|e] [Concept('armies','армій')|e]. [location] з фортом не може бути [Concept('sieged','обложити')|e] миттєво, але замість цього потребуватиме тривалої [siege]. Деякі [Concept('advances','покращень')|e] дозволять побудувати більш ефективні форти, кожен рівень збільшує складність [siege], необхідну для їх [Concept('occupy','окупації')|e].\n\nФорти мають [Concept('zone_of_control','зона контроля')|e] над сусідніми [locations].\n\nФорти мають витрати на [Concept('fort_maintenance_with_icon','fort_maintenance_with_icon')|e], які йдуть безпосередньо до [treasury] Країни, і залежать від цін на [goods] на їхньому [Concept('market','ринок')|e]. Усі [countries] мають [fort_limit] до кількості фортів, які вони можуть ефективно утримувати, і перевищення його значно збільшує [fort_maintenance]."
+ game_concept_fortification_desc: "Це оборонні [Concept('buildings','споруда')|e], призначені для захисту власних [Concept('locations','регіони')|e] [Concept('country','країни')|e] від [Concept('enemy','ворожих')|e] [Concept('armies','армій')|e]. [location] з фортом не може бути [Concept('sieged','обложити')|e] миттєво, але замість цього потребуватиме тривалої [siege]. Деякі [Concept('advances','покращень')|e] дозволять побудувати більш ефективні форти, кожен рівень збільшує складність [siege], необхідну для їх [Concept('occupy','окупації')|e].\n\nФорти мають [Concept('zone_of_control','зона контролю')|e] над сусідніми [locations].\n\nФорти мають витрати на [Concept('fort_maintenance_with_icon','fort_maintenance_with_icon')|e], які йдуть безпосередньо до [treasury] Країни, і залежать від цін на [goods] на їхньому [Concept('market','ринок')|e]. Усі [countries] мають [fort_limit] до кількості фортів, які вони можуть ефективно утримувати, і перевищення його значно збільшує [fort_maintenance]."
 
  game_concept_fort_limit: "Ліміт Фортів"
  game_concept_fort_limit_desc: "$game_concept_fort_limit$ [Concept('country_with_icon','country_with_icon')|e] представляє її здатність утримувати свої [Concept('fortifications_with_icon','fortifications_with_icon')|e] без перевантаження адміністрації. [country] може перевищити свій Ліміт Фортів, але це призведе до прогресивно вищих витрат на [Concept('fort_maintenance_with_icon','fort_maintenance_with_icon')|e].\n\n$game_concept_fort_limit$ збільшується головним чином з кількістю власних [Concept('locations_with_icon','locations_with_icon')|e], але також з [Concept('country_rank_with_icon','country_rank_with_icon')|e] і кількістю [locations] з [ShowLocationRankName('city')] [Concept('location_rank','ранг локації')|e]. [ShowSocietyDirectionName('defensive')] [Concept('societal_value_with_icon','societal_value_with_icon')|e] і деякі [Concept('advances_with_icon','advances_with_icon')|e] також можуть збільшити його."
@@ -1654,7 +1654,7 @@
  game_concept_merchant_capacity_desc: "Це представляє, скільки [Concept('country','країна')|e] може [Concept('export','експорт')|e] і/або [Concept('import','імпорт')|e] з [Concept('market','ринок')|e].\n\nКожна [Concept('trade','торгівля')|e], створена з цього [market], використовує [merchant_capacity] залежно від відстані до іншого [market] і обсягу [Concept('goods','товари')|e], які [trade] робить."
 
  game_concept_merchant_maintenance: "Утримання Торгового Маршруту"
- game_concept_merchant_maintenance_desc: "Це представляє вартість встановлення [Concept('trades','торгових сделок')|e] між [Concept('markets','ринками')|e]. Торгівля не безкоштовна, оскільки кораблі, вагони та каравани потрібно підтримувати, а самим торговцям потрібно платити.\n\nУтримання Торгівлі збільшується з відстанню і залежить від наявності [Concept('sound_tolls','плата за проход')|e]."
+ game_concept_merchant_maintenance_desc: "Це представляє вартість встановлення [Concept('trades','торгових угод')|e] між [Concept('markets','ринками')|e]. Торгівля не безкоштовна, оскільки кораблі, вагони та каравани потрібно підтримувати, а самим торговцям потрібно платити.\n\nУтримання Торгівлі збільшується з відстанню і залежить від наявності [Concept('sound_tolls','плата за прохід')|e]."
 
 
  game_concept_subject_taxation: "Оподаткування Підданих"
@@ -1946,7 +1946,7 @@
 
 
  game_concept_non_avoidable_attrition: "Неуникна Втрата"
- game_concept_non_avoidable_attrition_desc: "Зазвичай [Concept('armies','армії')|e] не зазнають [Concept('attrition','виснаженню')|e], якщо вони знаходяться в [Concept('zone_of_control','зоне контроля')|e] [Concept('fort','фортеці')|e], якою вони [Concept('own','у володінні')|e] і [Concept('control','під контролем')|e], але деякі речі, як-от [ShowSituationName('black_death')], не можна уникнути таким чином."
+ game_concept_non_avoidable_attrition_desc: "Зазвичай [Concept('armies','армії')|e] не зазнають [Concept('attrition','виснаженню')|e], якщо вони знаходяться в [Concept('zone_of_control','зоне контроля')|e] [Concept('fort','фортеці')|e], якою вони [Concept('own','у володіють')|e] і [Concept('control','під контролем')|e], але деякі речі, як-от [ShowSituationName('black_death')], не можна уникнути таким чином."
 
  game_concept_attrition_losses: "Втрати від Втрати"
  game_concept_attrition_loss: "Втрата від Втрати"
@@ -1996,7 +1996,7 @@
 
 
  game_concept_discipline: "Дисципліна"
- game_concept_discipline_desc: "Це впливає як на пошкодження, які [Concept('regiment','полком')|e] завдає в [Concept('combat','бою')|e], так і на [Concept('damage_taken','отримуваний')|e]. Чим вища дисципліна, тим більше пошкоджень завдано і тим менше [Concept('damage_taken','отримує')|e]."
+ game_concept_discipline_desc: "Це впливає як на пошкодження, які [Concept('regiment','полком')|e] завдає в [Concept('combat','бою')|e], так і на [Concept('damage_taken','отримуваний')|e]. Чим вища дисципліна, тим більше пошкоджень завдано і тим менше [Concept('damage_taken','отримується')|e]."
 
 
  game_concept_military_tactics: "Військова Тактика"
@@ -2328,7 +2328,7 @@
 
  game_concept_victory_card: "Карта Перемоги"
  game_concept_victory_cards: "Карти Перемоги"
- game_concept_victory_card_desc: "Карта перемоги — це мета завоювати цілу [Concept('area','область')|e] на карті для [Concept('country','країна')|e]. Коли вся область [Concept('owned','у володінні')|e], [Concept('controlled','під контролем')|e] і є [Concept('core','національних областей')|e], країна отримає [Concept('score','рахунок')|e]."
+ game_concept_victory_card_desc: "Карта перемоги — це мета завоювати цілу [Concept('area','область')|e] на карті для [Concept('country','країна')|e]. Коли вся область [Concept('owned','у володіють')|e], [Concept('controlled','під контролем')|e] і є [Concept('core','національних областей')|e], країна отримає [Concept('score','рахунок')|e]."
 
  game_concept_score: "Рахунок"
  game_concept_score_desc: "Це спосіб відстежувати, наскільки добре виступає [Concept('country','країна')|e]. Кожна країна має рейтинг у [Concept('adm_short','адміністративним')|e], [Concept('dip_short','дипломатичним')|e] і [Concept('mil_short','військовим')|e] виступі, і отримує рахунок зі свого рейтингу там.\nВеликі країни також отримують рахунок від утримання [Concept('victory_cards','перемоги')|e], які вони отримують одну кожну [Concept('age','епоху')|e]."
@@ -2357,7 +2357,7 @@
  game_concept_fow: "Туман Війни"
  game_concept_fog_of_war: "Туман Війни"
  game_concept_fow_vision: "Бачення"
- game_concept_fow_desc: "Пелена, яка затемнює [Concept('discovered','відкриття')|e] частини карти, називається [fow].\n\n[Concept('units','отряди')|e], що належать іншим [Concept('countries','країнам')|e], є [Concept('hidden','прихованими')|e], поки вони ховаються в [fow].\n\n[Concept('location','локація')|e] завжди видима її [Concept('controller','контролюючій державі')|e]. Крім того, [Concept('country','країні')|e] завжди може бачити [Concept('cores','національні регіони')|e], які вони [Concept('own','володінні')|e], навіть якщо вони [Concept('occupied','окупував')|e] [Concept('enemy','ворог')|e].\n\n[Concept('allies','союзники')|e], [Concept('subjects','васали')|e] і [Concept('overlords','сюзерени')|e] діляться своїм баченням один з одним.\n\nДеякі [Concept('locations','регіони')|e] завжди будуть у [fow], наприклад, ті, що з [ShowVegetationName('forest')] [Concept('vegetation','флора')|e] або [ShowTopographyName('mountains')] [Concept('topography','рельефа')|e].\n\n[Concept('seazones','акваторії')|e] з [ShowTopographyName('narrows')] [topography] будуть перешкоджати баченню лише з інших [seazones]."
+ game_concept_fow_desc: "Пелена, яка затемнює [Concept('discovered','відкриття')|e] частини карти, називається [fow].\n\n[Concept('units','отряди')|e], що належать іншим [Concept('countries','країнам')|e], є [Concept('hidden','прихованими')|e], поки вони ховаються в [fow].\n\n[Concept('location','локація')|e] завжди видима її [Concept('controller','контролюючій державі')|e]. Крім того, [Concept('country','країні')|e] завжди може бачити [Concept('cores','національні регіони')|e], які вони [Concept('own','володіють')|e], навіть якщо вони [Concept('occupied','окупував')|e] [Concept('enemy','ворог')|e].\n\n[Concept('allies','союзники')|e], [Concept('subjects','васали')|e] і [Concept('overlords','сюзерени')|e] діляться своїм баченням один з одним.\n\nДеякі [Concept('locations','регіони')|e] завжди будуть у [fow], наприклад, ті, що з [ShowVegetationName('forest')] [Concept('vegetation','флора')|e] або [ShowTopographyName('mountains')] [Concept('topography','рельефа')|e].\n\n[Concept('seazones','акваторії')|e] з [ShowTopographyName('narrows')] [topography] будуть перешкоджати баченню лише з інших [seazones]."
 
  game_concept_hidden: "Прихований"
  game_concept_hidden_desc: "[Concept('unit','загін')|e], розташований всередині [Concept('fow','тумані війни')|e], є [hidden] для інших [Concept('countries','країн')|e].\n\nКоли [unit] прихований, інші [countries] навіть не будуть знати про його існування, не кажучи вже про інформацію про його склад.\n\nПриховані [units] не отримують прямого бонусу [Concept('combat','бою')|e], але засідки часто можуть дати стратегічну перевагу."

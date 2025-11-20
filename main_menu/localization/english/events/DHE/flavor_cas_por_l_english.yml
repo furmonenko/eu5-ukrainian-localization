@@ -1,11 +1,10 @@
 ﻿l_english:
- flavor_cas_por.1.title: "Royal Fifth"
- flavor_cas_por.1.desc_common: "The [ROOT.GetCountry.GetGovernment.GetRulerTitle], as the sole ruler of [ROOT.GetCountry.GetName], is entitled to all the natural goods and wealth that is within the [ROOT.GetCountry.GetFlavorRank]. It is why all of natural resources extracted by the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] citizens rightfully belong to [target_character.GetName]. However, if everybody had to give up their goods to the government, there would be no incentive to actually conduct those mining operations and this is why we have decided to extract the resources in the [ShowPolicyName('royal_fifth_law')]."
- flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nThe topic of the tax has come up again, as it is about to become a lot more important due to the expanding extraction of [target_goods.GetName] in [target_location.GetName]. Local viceroys have been reluctant to enforce the tax believing it would stifle production."
- flavor_cas_por.1.a: "Enforce the [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
- flavor_cas_por.1.b: "Do not disrupt their operations."
-
+ flavor_cas_por.1.title: "Королівська п'ята"
+ flavor_cas_por.1.desc_common: "Як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'суверенна правителька', 'суверенний правитель' )] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] володіє всіма багатствами [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Усі природні ресурси, що видобуваються [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ими підданими, за правом належать [Select_CString(target_character.IsFemale, 'їй', 'йому' )]. Втім, якби кожна людина була зобов'язана віддавати державі все цінне, у людей зникло б будь-яке бажання займатися продуктивною працею. Ось чому ми вирішили стягувати з них лише частину видобутих ресурсів — «#TOOLTIP:POLICY,royal_fifth_law,X #L королівську п'яту#!#!»."
+ flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nГоловне джерело багатства [target_location.Custom('LR_RP')|l] [target_location.GetName] — це [target_goods.GetName|l]. Останнім часом видобуток цього ресурсу різко зріс, у зв'язку з чим питання оподаткування знову виходить на перший план. Місцеві віце-королі не хочуть стягувати #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий#! податок, бо побоюються завдати шкоди виробництву."
+ flavor_cas_por.1.a: "«Королівську п'яту» доведеться стягувати, подобається це комусь чи ні."
+ flavor_cas_por.1.b: "Не будемо заважати прибутковому видобутку."
  flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
- flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nThe recent discovery of [target_goods.GetName] in [target_location.GetName] has brought the topic of this tax back to the table, as the local viceroy is demanding the mine managers follow the tax, which has been largely relevant until now. Several advisors to the [ROOT.GetCountry.GetGovernment.GetRulerTitle] are arguing that it could harm the production of the resource."
+ flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nНещодавно в [target_location.Custom('LR_PP')|l] [target_location.GetName] зробили цінну знахідку — там є [target_goods.GetName|l]! У зв'язку з цим ми маємо знову обговорити доцільність стягування цього податку. Місцевий віце-король вимагає від керівників шахти сплачувати «королівську п'яту» в повному обсязі, однак придворні радники побоюються, що це негативно позначиться на видобутку."
  flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
- flavor_cas_por.2.b: "Forget about it for now."
+ flavor_cas_por.2.b: "Залишимо їх у спокої до певного часу."

@@ -1,0 +1,294 @@
+﻿l_english:
+#Common Loc
+ no_event_occurs_tt: "Жодна [Concept('event','подія')|e] не відбувається"
+ an_event_occurs_tt: "[Concept('event','Подія')|e], пов'язана з цим [disaster|e], може відбутися"
+#Succession Crisis
+ #Disaster
+ succession_crisis: "Криза спадкоємства"
+ succession_crisis_desc: "Наша держава в хаосі! Могутній претендент заявив свої права на наш трон всупереч волі нашого народу. Наші землі тепер у смертельній небезпеці як від внутрішніх, так і від зовнішніх ворогів..."
+ pretender_enforced_claim_tt: "Претенденту було даровано трон через спадкоємство"
+ no_heir_or_regent_or_bad_heir_tt: "Через [regent|e], слабкого [heir|e] або повну відсутність [heir|e], ця [disaster|e] тепер має легші вимоги"
+ pretender_is_cold_tt: "Претендент помер або покинув наш двір"
+ succession_crisis_pretender: "Претенденти на корону"
+ succession_crisis_crown_supporters: "Прихильники корони"
+ succession_crisis_pretender_supporters: "Прихильники претендента"
+ no_pretender_rebel_active_tt: "Жоден з активних [Concept('rebels','повстанців')|e] не є претендентом"
+ succession_crisis_price: "Ціна дій $succession_crisis$"
+ sc_seek_foreign_aid: "Шукати іноземну допомогу"
+ sc_seek_foreign_aid_desc: "Загрози від претендентів-суперників до нашої [actor.GetFlavorRank] зростають, і ситуація стає критичною. Ці претенденти не припинять своїх зусиль узурпувати нашу вищу владу, доки їх повністю не знищать. Ми мусимо шукати допомоги та союзників за кордоном, якщо хочемо зберегти нашу територіальну цілісність та владу."
+ sc_commission_dynastic_history: "Замовити династичну хроніку"
+ sc_commission_dynastic_history_desc: "Наші предки, та їхні батьки до них, завоювали та заселили величезні простори земель, що становлять нашу [actor.GetFlavorRank] сьогодні. Записавши історію наших славних предків, ми піднесемо велич нашої династії та зміцнимо нашу легітимність проти будь-якого претендента."
+ sc_ask_help_from_the_nobility: "Просити допомоги у дворянства"
+ sc_ask_help_from_the_nobility_desc: "Численні члени [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')] в нашій [actor.GetFlavorRank] мають значний вплив. Якщо ми здобудемо їхню прихильність, ми напевно переможемо будь-яких претендентів, що прагнуть скинути нас."
+ sc_ask_help_from_the_clergy: "Просити допомоги у духовенства"
+ sc_ask_help_from_the_clergy_desc: "Через відданість вірі наші непохитні [actor.GetReligion.GetGroup.GetAdjective] традиції залишаться міцними, коли ми шукатимемо прихильності та підтримки [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')] під час поточної кризи."
+ sc_ask_help_from_the_burghers: "Просити допомоги у бюргерів"
+ sc_ask_help_from_the_burghers_desc: "Володарів скарбниць, що мають величезний вплив, треба закликати підтримати військові зусилля, якщо підступні претенденти кинуть нашу [actor.GetFlavorRank] у громадянську війну. Їхні переповнені гаманці стануть чудовим доповненням до нашої скарбниці..."
+ choose_writer: "Обрати [ShowArtistTypeNameWithNoTooltip('writer')]"
+ selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "Обраний [ShowArtistTypeName('writer')] складе [ShowWorkOfArtTypeName('chronicle')] для [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [Concept('dynasty','династії')|e]. Ми отримаємо [legitimacy|e] залежно від якості [work_of_art|e]"
+ target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName] буде обрано для складання [ShowWorkOfArtTypeName('chronicle')] для [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [Concept('dynasty','династії')|e]"
+
+
+#Ambrosian Republic
+ #Disaster
+ ambrosian_republic_disaster: "Золота Амброзіанська республіка"
+ ambrosian_republic_disaster_desc: "Почалася криза спадкоємства, і доволі незвичайна: за відсутності сильного претендента на трон ідеалістичні вчені засновують молоду республіку у [ShowLocationName('milano')]. Ці бунтівні інтелектуали вже здобули значну народну підтримку і загрожують ще більше дестабілізувати всю державу."
+ has_chosen_ally_union_variable_tt: "Вступила в [union|e] з [ally|e] у події #Y Амброзіанська республіка#!"
+
+#Religious Turmoil
+ #Disaster
+ religious_turmoil: "Релігійні заворушення"
+ religious_turmoil_desc: "Розбіжності між релігійними групами в нашій державі стали непереборними, що призвело до зростання нетерпимості та фанатизму. Ми мусимо забезпечити, щоб наш народ йшов правильним шляхом, і направити тих, хто збився з дороги, назад до світла."
+ rt_push_for_spiritualist: "Просувати [ShowSocietyDirectionNameWithNoTooltip('spiritualist')]"
+ rt_push_for_spiritualist_desc: "Маси мусять бути направлені до спасіння і подалі від обіймів гордині та єретицтва. Тільки прийнявши [ShowSocietyDirectionName('spiritualist')], ми приборкаємо тих, хто бажає зруйнувати цей наріжний камінь нашої релігійної ідентичності."
+ rt_push_for_humanist: "Просувати [ShowSocietyDirectionNameWithNoTooltip('humanist')]"
+ rt_push_for_humanist_desc: "Поява нових гілок [ShowReligionGroupName('christian')] відкрила нову еру, зосереджену на розумінні релігійних розбіжностей та спільній роботі заради єдиного та різноманітного суспільства. Перед обличчям цього одкровення ми не можемо залишатися байдужими в такий бурхливий період, і мусимо праведно просувати ці новознайдені істини замість цього."
+ rt_support_conversion_efforts: "Підтримати зусилля зі звернення"
+ rt_support_conversion_efforts_desc: "Ми мусимо прагнути повернути тих, хто збився з шляху, назад до світла. Посиливши наші зусилля зі звернення, ми прискоримо процес зцілення нашого народу і нарешті залишимо цей бурхливий та темний період позаду."
+
+#War of the Roses
+ #Disaster
+ war_of_the_roses: "Війна троянд"
+ war_of_the_roses_desc: "[GetCountry('ENG').GetName] роздирається жорстоким конфліктом між молодшими гілками правлячої династії, «білою трояндою» [ShowDynastyName('york_dynasty')] та «червоною трояндою» [ShowDynastyName('lancaster_dynasty')], через те, чиє спадкове право на владу сильніше. Ця внутрішня боротьба може тягтися десятиліттями та зачепити все [GetCountry('ENG').GetGovernment.GetEstateName('nobles_estate')], повністю підриваючи стабільність [GetCountry('ENG').GetFlavorRank]!"
+
+ #Actions
+ wotr_bribe_garrison: "Підкупити гарнізон"
+ wotr_bribe_garrison_desc: "Лояльність суворо випробовується під час громадянської війни, і нестабільність вирує по всій нашій [actor.GetFlavorRank]. Ми маємо скористатися цим хаосом, пропонуючи гроші та гарантії ворожим твердиням, переконуючи їхніх командирів мирно здатися, а не потрапити під нашу облогу."
+ select_ongoing_siege_to_bribe: "Оберіть поточну [siege|e] для підкупу"
+ no_ongoing_siege_to_bribe: "@trigger_no! Немає поточних [siege|e] для підкупу"
+ chosen_siege_tt: "Гарнізон у [target_siege.GetName] здасться"
+ no_chosen_siege_tt: "Гарнізон в обраній [Concept('location','локації')|e] здасться"
+
+#War of the Aragonese Union
+ #Disaster
+ war_of_the_aragonese_union_disaster: "Війна унії"
+ war_of_the_aragonese_union_disaster_desc: "Розгнівані надмірними вимогами до них від [SCOPE.sCountry('CAS').GetGovernment.GetAdjective] корони, утворилися дві групи заможних повстанців: Арагонська та Валенсійська унії. Створені невдоволеними членами [GetCountry('ARA').GetGovernment.GetEstateName('nobles_estate')] та [GetCountry('ARA').GetGovernment.GetEstateName('burghers_estate')] станів, обидві унії закликають до обмеження влади правителя, зниження оподаткування та поваги до місцевих законів, привілеїв і традицій."
+
+#Savonarola
+ #Disaster
+ savonarola_disaster: "Повстання Савонароли"
+ savonarola_disaster_desc: "Проповідник-вискочка почав поширювати апокаліптичну вістку серед нашого народу. Його вогненні проповіді засуджують наше корумповане, морально зіпсоване суспільство, особливо тих, хто на верхівці. Ці марення викликають неабияке занепокоєння серед нашого населення — очевидно, цей божевільний має велику владу впливу..."
+
+#Ciompi Revolt
+ #Disaster
+ ciompi_revolt: "Повстання чомпі"
+ ciompi_revolt_desc: "Флоренція стикається з часом невпевненості, оскільки чомпі загрожують відкритим повстанням. Чомпі — складаються з робітників, ремісників та майстрів без гільдійних асоціацій — несуть тягар важкого оподаткування, але не мають політичного представництва через відсутність членства в гільдіях. Такі широкомасштабні заворушення мають потенціал занурити все наше суспільство в розбрат..."
+
+#Crisis of the Sayfawa Dynasty
+ #Disaster
+ crisis_of_the_sayfawa_dynasty: "Криза династії Сайфава"
+ crisis_of_the_sayfawa_dynasty_desc: "Незважаючи на довгу та успішну історію правління нашої династії в цьому регіоні, внутрішні чвари та ряд нелегітимних правителів спровокували серйозну кризу серед нас. Поки ми відволікаємося на боротьбу з нашими внутрішніми чварами, підступні вороги та наші могутні сусіди скористаються будь-якою можливістю розділити наші землі та стерти наш народ з лиця Землі. Ми мусимо знайти спосіб заявити зовнішньому світу те, що завжди належало нам по праву, не будучи поглиненими зсередини корозією всередині наших власних лав."
+
+#Muscovite Succession War
+ #Disaster
+ muscovite_succession_war: "Московська війна за спадщину"
+ muscovite_succession_war_desc: "[GetCountry('MOS').GetCapital.GetName] є осідком влади в [GetCountry('MOS').GetCapital.GetRegion.GetName]. Через кризу спадкоємства спалахнули внутрішні чвари між різними членами правлячої династії, кожен з яких претендує на право сидіти на троні. Ескалація цього конфлікту загрожує не лише розірвати їхню родину, а й може мати катастрофічні наслідки для всіх нас."
+
+#Peasants War
+ #Disaster
+ peasants_war: "Селянська війна"
+ peasants_war_desc: "Поки невдоволення кипить у сільській місцевості, доля простого люду стає дедалі тяжчою. Несправедливе оподаткування, гнітючі дворянські пани та відчуття відчаю довели селян до межі. Наростаюча хвиля гніву вирвалася назовні, призвівши до катаклізму, що стане відомим як Селянська війна."
+
+ pw_push_for_serfdom: "Просувати [ShowSocietyDirectionNameWithNoTooltip('serfdom')]"
+ pw_push_for_serfdom_desc: "Селянська чернь, що повстала проти нашої влади, мусить бути розчавлена з максимальною жорстокістю їхніми місцевими панами. Ми не можемо дозволити нашій владі послабнути, інакше ризикуємо стати жертвою влади черні!"
+ pw_push_for_free_subjects: "Просувати [ShowSocietyDirectionNameWithNoTooltip('free_subjects')]"
+ pw_push_for_free_subjects_desc: "Занадто довго люди страждали під ланцюгами феодальних панів, які насаджують свої несправедливі позиції жорстокістю. Наш моральний обов'язок — піднести простого чоловіка і здобути свободу для [SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')]!"
+
+ pw_crush_rebellion: "Придушити повстання"
+ pw_crush_rebellion_desc: "Народ повстає проти нас, вимагаючи прав та привілеїв за рахунок [actor.GetGovernment.GetRulerOrRegent.GetName] та встановленого суспільного ладу. Ми не можемо дозволити цьому статися! Будь-яка підтримка таких рухів мусить бути негайно придушена."
+ pw_crush_rebellion_tt: "[Concept('pops','Населення')|e], що підтримує обране [rebellion|e], втратить [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]"
+ pw_rebel_progress_reduction_tt: "Обране [rebellion|e] зменшить свій прогрес на #G -25%#!"
+
+#Struggle for Royal Power
+ #Disaster
+ struggle_for_royal_power: "Боротьба за королівську владу"
+ struggle_for_royal_power_desc: "Вирує конфлікт між владою монарха та силою сейму, і схоже, що наша звичайна ієрархія незабаром буде кинута виклику. Ми мусимо рішуче усунути ці загрози, якщо хочемо зберегти статус-кво. Настав час позбутися нагляду станів і захопити віжки влади!"
+
+#Dissolution of Delhi
+ #Disaster
+ dissolution_of_delhi: "Розпад Делі"
+ dissolution_of_delhi_desc: "Попри всі наші зусилля, ми не змогли відшкодувати шкоду, завдану нашими противниками. Наша колись велика імперія скотилася в хаос, оскільки наші вороги оточують нас з усіх боків. Це справді найтяжча ситуація, і ми мусимо зустріти її віч-на-віч, інакше ризикуємо стати жертвою агресивних намірів тих, хто жадає наших земель..."
+
+#Hook and Cod Wars
+ #Disaster
+ hook_and_cod_wars: "Війни гачка і тріски"
+ hook_and_cod_wars_desc: "Наша лінія спадкоємства неясна, і в результаті наші політичні лідери розділилися на дві фракції. Фракція Тріски, як правило, більш консервативна і підтримує визнаних правителів, тоді як Гачки зазвичай віддають перевагу незалежності і підтримують тих, чиї претензії менш обґрунтовані. Цей розкол може серйозно підірвати статус-кво, і з ним треба обережно поводитися."
+ hook_and_cod_wars_hooks_have_won_tt: "#Y Гачки#! здобули #Y 20#! балів впливу (зараз: #Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!)"
+ hook_and_cod_wars_cods_have_won_tt: "#Y Тріски#! здобули #Y 20#! балів впливу (зараз: #Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!)"
+ HACW_HOOK_TOOLTIP: "#Y Гачки#! є представниками [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('nobles_estate')] держави [DisasterView.GetDisaster.GetOwner.GetName]. Вони підтримують [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetName] та [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetHerHis] амбіції на трон"
+ HACW_COD_TOOLTIP: "#Y Тріски#! є представниками [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('burghers_estate')] держави [DisasterView.GetDisaster.GetOwner.GetName]. Вони підтримують [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetName] та [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetHerHis] амбіції на трон"
+
+#Horde Civil War
+ #Disaster
+ horde_civil_war: "Громадянська війна в Орді"
+ horde_civil_war_desc: "Знову влада нашого правителя ставиться під сумнів! Суперник-воєначальник загрожує Орді громадянською війною, жадний забрати трон собі. Орда мусить піти війною проти власних бунтівників..."
+ horde_civil_war_end_trigger_no_rebels: "Жоден [Concept('rebel','повстанець')|e] не є #Y претендентом#!"
+ horde_civil_war_crown_supporters: "Лоялісти орди"
+ horde_civil_war_pretender_supporters: "Бунтівники орди"
+ GUI_REBEL_OWNED_LOCATIONS: "[Concept('locations','Райони')|e], що належать [Concept('rebels','повстанцям')|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
+ GUI_REBEL_MILITARY_STRENGTH_COMPARED_TO_US: "[military_strength|e] [Concept('rebels','повстанців')|e] порівняно з нами."
+
+#Revolution
+ #Disaster
+ revolution_disaster: "Революція!"
+ revolution_disaster_desc: "Десятиліття феодального гноблення, економічних труднощів та релігійної нетерпимості взяли свою данину з миру нашої нації, і прагнення нашого населення до свободи становить серйозну загрозу нашому правлінню. Народне повстання майже неминуче..."
+ revolution_disaster_end_trigger_tt: "#Y Революційні повстанці#! не планують [civil_war|e]"
+ MONARCHIST_STR_DESC: "Розмір [DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip] [Concept('army','армії')|e]: [DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\nПотенційне [levy|e] [DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip]: [DisasterView.GetDisaster.GetOwner.GetArmyLevyPower]@levy\n[Concept('manpower','Людські ресурси')|e] [DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip]: [DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
+ REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "Потенційна [military_strength|e] [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]"
+ REVOLUTIONARIES_STR_DESC: "Розмір [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip] [Concept('army','армії')|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\nПотенційне [levy|e] [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPower]@levy\n[Concept('manpower','Людські ресурси')|e] [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
+ MONARCHIST_POTENTIAL_STRENGTH_TT: "Потенційна [military_strength|e] [DisasterView.GetDisaster.GetOwner.GetName]"
+
+#Revolutionary Chaos
+ #Disaster
+ revolutionary_chaos: "Революційний хаос"
+ revolutionary_chaos_desc: "Старого режиму більше немає! Ми повалили наших колишніх гнобителів і захопили владу для себе. Однак стабільність та безпека нашої молодої держави все ще під загрозою, оскільки конкуруючі фракції борються за те, хто повинен мати вищу владу в нашому новонародженому уряді. Ми мусимо придушити ці внутрішні заворушення, якщо хочемо залишатися стійкими проти зовнішніх загроз..."
+
+#Sinicization Disaster
+ #Disaster
+ sinicization_disaster: "Вплив Китаю"
+ sinicization_disaster_desc: "Вплив [GetCountry('CHI').GetName] був благом для нашого суспільства в багатьох відношеннях. Однак наші відносини з цим культурним гігантом вплели багато іноземних ниток у гобелен нашого суспільства, відриваючи нас від наших традицій і загрожуючи нашій незалежності. Якщо ми хочемо зберегти нашу унікальну культуру, ми мусимо чинити опір подальшому зіпсуттю від цих спокусливих зовнішніх впливів. З іншого боку, ми можемо виграти від тісніших зв'язків..."
+ has_opted_to_side_with_china_in_events_tt: "Достатньо #G просував#! вплив [GetCountry('CHI').GetNameWithNoTooltip] у нашому дворі через [Concept('events','події')|e]"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "Достатньо #G обмежував#! вплив [GetCountry('CHI').GetNameWithNoTooltip] у нашому дворі через [Concept('events','події')|e]"
+
+#Crisis of the Chinese Dynasty
+ #Disaster
+ crisis_of_the_chinese_dynasty: "Криза [GetCountry('CHI').GetLongNameWithNoTooltip]"
+ crisis_of_the_chinese_dynasty_desc: "Небо темніє і сіріє. Ми на межі втрати божественної прихильності! Зростає внутрішній та зовнішній тиск; руйнується бюрократія і сільськогосподарські невдачі схилили шальки ваги проти нас. Народ більше не визнає нас законними правителями нашої [GetCountry('CHI').GetFlavorRank]!"
+ ccd_celestial_authority_trigger: "Наш [celestial_authority_gc|e] складає принаймні #Y 90#! (зараз: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V1]#!)"
+
+ #Triggers
+ cmd_has_reformed_cabinet_tt: "Прийнято [ShowGenericActionName('cmd_reform_the_cabinet')] [action|e]"
+ cmd_has_restored_stability_tt: "Прийнято [ShowGenericActionName('cmd_restore_stability')] [action|e]"
+ cmd_has_strenthened_crown_tt: "Прийнято [ShowGenericActionName('cmd_strengthen_crown')] [action|e]"
+
+ #Monthly Pulse
+ fire_event_4_tt: "Може відбутися [Concept('event','подія')|e] про те, що [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] відмовляються платити податки"
+ fire_event_5_tt: "Може відбутися [Concept('event','подія')|e] про зниження [prosperity|e] по всіх наших [Concept('provinces','провінціях')|e]"
+
+# Decline of Majapahit
+ #Disaster
+ decline_of_majapahit: "Занепад $MAJ$"
+ decline_of_majapahit_desc: "Наша [GetCountry('MAJ').GetFlavorRank] не така процвітаюча, як колись. Обложені внутрішніми династичними конфліктами, цей період слабкості давно очікується нашими суперниками, які нетерпляче чекають будь-якого шансу зазіхнути на наші кордони. Тепер, з підйомом [ShowReligionGroupName('muslim')] у [ShowRegionName('indonesia_region')], ми можемо легко втратити значущість і потрапити в темну в'язницю забутих імперій..."
+
+ demak_progress: "Домінування [ShowReligionAdjectiveWithNoTooltip('sunni')]"
+
+ SUNNI_POPS: "Сунітське населення"
+ HINDU_POPS: "Індуїстське населення"
+ SUNNI_DOMINANCE_MAJAPAHIT: "$demak_progress$"
+ DEMAK_PROGRESS_GROWTH_TOOLTIP_TITLE: "Зростання $demak_progress$"
+ DEMAK_PROGRESS_GROWTH_TITLE: "$demak_progress$"
+ DEMAK_MONTHLY_CHANGE_HEADER: "$demak_progress$ змінюється щомісяця на [Country.MakeScope.GetVariable('demak_progress_growth').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_POP_SHARE: "Частка [ShowReligionAdjective('sunni')] порівняно з [ShowReligionAdjective('hindu')]: [Country.MakeScope.GetVariable('maj_sunni_percentage').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_STABILITY_IMPACT: "[stability]: [Country.MakeScope.GetVariable('maj_stability_impact').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT: "[legitimacy]: [Country.MakeScope.GetVariable('maj_legitimacy_impact').GetValue|-=2%]"
+ DEMAK_MONTHLY_CHANGE_BREAKDOWN: "$DEMAK_MONTHLY_CHANGE_POP_SHARE$\n$DEMAK_MONTHLY_CHANGE_STABILITY_IMPACT$\n$DEMAK_MONTHLY_CHANGE_LEGITIMACY_IMPACT$"
+ DEMAK_PROGRESS_GROWTH_HEADER: "$demak_progress$"
+ DEMAK_PROGRESS_GROWTH_TOOLTIP: "$demak_progress$ є мірою того, наскільки поширеною є [ShowReligionAdjective('sunni')] [Concept('religion','віра')|e] в нашій [Country.GetFlavorRank]. Приріст $demak_progress$ збільшується зі зростанням кількості [ShowReligionAdjective('sunni')] [Concept('pops','населення')|e]. Коли він досягне #y 100,0%#!, усі наші [ShowReligionAdjective('sunni')] [dominant_religion|e] [Concept('locations','райони')|e] відокремляться і утворять $DEM$."
+
+#Court and Country
+ #Disaster
+ court_and_country: "Двір і країна"
+ court_and_country_desc: "Опір зростаючій централізації в нашій країні кульмінував у період загальної кризи та конфлікту між двором і країною. Залежно від того, як ми подолаємо цей важкий час, ми можемо вийти з нього сильнішою країною, ніж раніше — якщо, звісно, зможемо пережити цю бурю."
+ court_and_country_tips_header: "Порада щодо двору і країни"
+ court_and_country_tips_tt: "Ми можемо збільшити нашу [crown_power|e] через:\n$BULLET_WITH_TAB$Скасування [privileges|e]\n$BULLET_WITH_TAB$Збільшення [control|e] у наших [Concept('locations','районах')|e]\n$BULLET_WITH_TAB$Будівництво [ShowBuildingTypeName('counting_house')]\n$BULLET_WITH_TAB$Збільшення нашої [legitimacy|e]\n$BULLET_WITH_TAB$Запровадження певних [Concept('policies','політик')|e]"
+ french_wars_of_religion_breakdown_tt: "Відсоток відповідних [ShowReligionGroupAdjective('christian')] [Concept('religions','вір')|e] у нашій [Concept('country','державі')|e]\n[ShowReligionName('catholic')]:"
+ x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2] [catholic|e] [Concept('pops','населення')|e]"
+ court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] можуть відмовитися платити податки через [Concept('event','подію')|e]"
+ court_and_country_8_tt: "Місцеві повстання можуть спалахнути у відповідь на нестабільність через [Concept('event','подію')|e]"
+ court_and_country_9_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] можуть повстати, щоб вимагати свої старі привілеї через [Concept('event','подію')|e]"
+ court_and_country_10_tt: "Ліга [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] може повстати проти нас через [Concept('event','подію')|e]"
+ court_and_country_11_tt: "Лояльність офіцерів у наших арміях може бути поставлена під сумнів через [Concept('event','подію')|e]"
+ court_and_country_12_tt: "Ми можемо знайти прихильників в армії та уряді через [Concept('event','подію')|e]"
+
+
+#Aspiration for Liberty Disaster
+ #Disaster
+ aspiration_for_liberty: "Прагнення до свободи"
+ aspiration_for_liberty_desc: "Жага населення до свободи та бажання втілити просвітницькі ідеали зробили їхнє повстання майже неминучим. Їхня лють на наш сприйнятий провал правління загрожує вибухнути революційною пожежею! Це зробить наше становище набагато складнішим у майбутньому..."
+ battles_on_foreign_grounds_tt: "Зовнішні війни можуть стати більш затратними через [Concept('event','подію')|e]"
+ governmental_incompetence_event_tt: "Народ може повстати проти нашої урядової некомпетентності через [Concept('event','подію')|e]"
+
+#Reform Society
+ #Disaster
+ reform_society: "Реформування суспільства"
+ reform_society_desc: "Система [ShowGovernmentReformName('altepetl')] служила нашому народові з дбайливістю та процвітанням протягом років. Однак наша слабка хватка на турботи наших підданих в інших містах-державах підняла хор незгодних голосів проти нашого правління. Якщо ми бажаємо зберегти нашу пишноту та консолідувати нашу владу, необхідні реформи централізації."
+
+#Rise of the Szlachta
+ #Disaster
+ rise_of_the_szlachta: "Повстання $nobles_estate_szlachta$"
+ rise_of_the_szlachta_desc: "Ми не незнайомі з владолюбними схильностями $nobles_estate_szlachta$. Зі зростанням впливу $nobles_estate_szlachta$ їхні зростаючі вимоги більше привілеїв заповнюють наш двір. Ці політичні маневри нагадують звіра джунглів, що крадеться, кружляє і чекає, щоб вдарити. Безсумнівно, вони скористаються першою ж можливістю кинути виклик нашій владі!"
+
+ #Actions
+ pw_push_for_aristocracy: "Просувати [ShowSocietyDirectionNameWithNoTooltip('aristocracy')]"
+ pw_push_for_aristocracy_desc: "Наші директиви все більше віддають перевагу привілеям [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')] та традиційній ієрархії. Меч і родовід визначають чиєсь місце в суспільстві, і старі родини мусять посилити свою хватку на владі. Але ця консолідація влади може розлютити інші могутні класи, такі як [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')]..."
+ pw_push_for_plutocracy: "Просувати [ShowSocietyDirectionNameWithNoTooltip('plutocracy')]"
+ pw_push_for_plutocracy_desc: "Багатство, а не спадщина, стає шляхом до впливу. [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')], фінансисти та підприємливі еліти мають здобути прихильність, перетворюючи наші нинішні установи на храми комерції та прибутку. Такий крок напевно розлютить найсильніших членів серед [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]..."
+ 
+ #Tooltips
+ given_more_estate_power_nobles_estate_power_tt: "Ми надали більше [estate_power|e] [GetCountry('POL').GetGovernment.GetEstateName('nobles_estate')] [Concept('estate','станові')|e]"
+ given_more_estate_power_burghers_estate_power_tt: "Ми надали більше [estate_power|e] [GetCountry('POL').GetGovernment.GetEstateName('burghers_estate')] [Concept('estate','станові')|e]"
+ given_more_estate_power_crown_estate_power_tt: "Ми забезпечили більше [estate_power|e] для [GetCountry('POL').GetGovernment.GetEstateName('crown_estate')] [Concept('estate','стану')|e]"
+
+#Death of Hayam Wuruk
+ #Disaster
+ death_of_hayan_wuruk: "Смерть [GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]"
+ death_of_hayan_wuruk_desc: "Смерть нашого великого лідера [GetCharacter('maj_hayam_wuruk').GetName] кинула нашу [GetCountry('MAJ').GetFlavorRank] у велике смуту. Цей бурхливий період може тривати довгі роки, оскільки ті, хто колись схилявся перед нами, повстають проти нашої влади. Спірна спадковість і занепад нашої [GetCountry('MAJ').GetAdjective] влади — це дві нагальні проблеми, які мусять бути вирішені негайно, якщо ми хочемо пережити цю катастрофу."
+
+#Curse of Stefan Uros III
+ #Disaster
+ curse_of_stefan_uros_iii: "Прокляття [GetCharacter('ser_stefan_decanski').GetNameWithNoTooltip]"
+ curse_of_stefan_uros_iii_desc: "Ніхто не заперечує величі та пишноти, що оточують легенду [GetCharacter('ser_stefan_dusan').GetName]. Виховані з найкращою освітою, вправні в придворному етикеті та досвідчені командири, [GetCharacter('ser_stefan_dusan').GetShortNameWithNoTooltip] вели нашу велику націю до нових висот. Однак, як і в усіх королівських інтригах, [GetCharacter('ser_stefan_dusan').GetHerHis] спадщина була побудована на стражданнях, вбивствах та підступності. Головним трофеєм, здобутим під час [GetCharacter('ser_stefan_dusan').GetHerHis] сходження, був [GetCharacter('ser_stefan_dusan').GetHerHis] власний батько, [GetCharacter('ser_stefan_decanski').GetName], чий передсмертний подих прокляв рід [GetCharacter('ser_stefan_dusan').GetNameWithNoTooltip] занепадом та руїною. Забобонні голоси в нашому дворі шепочуть, що обличчя старого [SCOPE.sCountry('actor').GetGovernment.GetRulerTitle] повернулося, знаменуючи початок нашого кінця..."
+
+#English Civil War Disaster
+ #Disaster
+ english_civil_war: "Англійська громадянська війна"
+ english_civil_war_desc: "Зростаюча напруга між короною та парламентом щодо влади та управління загрожує охопити всю країну. Віра нашого правителя в божественне право та релігійна політика розлютили парламент, так само як і [SCOPE.sCountry('actor').GetGovernment.GetRuler.GetHerHis] очевидне ігнорування належних процедур оподаткування. Ситуація загрожує вибухнути відкритою громадянською війною, якщо ми не знайдемо рішення швидко..."
+ lost_civil_war_tt: "#Y Парламентарі#! виграли [civil_war|e]"
+ won_civil_war_tt: "#Y Роялісти#! виграли [civil_war|e]"
+ parliamentarist_rebels: "Парламентарі"
+ complete_the_ecw_and_lose_tt: "[ShowDisasterName('english_civil_war')] завершиться"
+
+#French Wars of Religion Disaster
+ #Disaster
+ french_wars_of_religion: "Французькі релігійні війни"
+ french_wars_of_religion_desc: "Коли нові гілки [ShowReligionGroupAdjective('christian')] віри з'являються по всій [ShowContinentName('europe')], подальше релігійне тертя, створене в нашому суспільстві, досягло точки кипіння. Тепер ми обложені озброєними фанатиками — єретиками та захисниками справжньої віри — що загрожують затягти всю нашу державу в жорстокий громадянський конфлікт."
+ had_fwr_before_definitive_ending_tt: "Раніше не завершував цю катастрофу ані досягненням [religious_unity|e], ані підписанням [ShowPolicyName('edict_of_nantes')] [Concept('policy','політики')|e]"
+ lutheran_huguenots: "$lutheran_ADJ$ гугеноти"
+ calvinist_huguenots: "$calvinist_ADJ$ гугеноти"
+ catholic_huguenots: "$catholic_ADJ$ гугеноти"
+ #Actions
+ reach_compromise_with_huguenots: "Компроміс з гугенотами"
+ reach_compromise_with_huguenots_desc: "Ми не можемо підтримувати цей постійний розкол по всіх наших землях. Тому компроміс та єдність прокладуть шлях з цієї катастрофи."
+
+#Time of Troubles Disaster
+ #Disaster
+ time_of_troubles: "Смутний час"
+ time_of_troubles_desc: "Це темний період соціальних та економічних заворушень. Наша нація бореться з голодом та війною, а також намагається протистояти опозиції до [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')] та [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]. Обложені з усіх боків псами розбрату, наша [Country.GetFlavorRank] ось-ось буде розірвана та пожерта..."
+
+#Decline of the Empire
+ #Disaster
+ decline_of_empire: "Занепад імперії"
+ decline_of_empire_desc: "Колись могутня та непохитна, наша імперія тепер хитається на межі краху. Корупція гниє всередині наших інституцій, наші провінції стають неспокійними під вагою зневаги, і іноземні держави кружляють, як стерв'ятники, прагнучі розділити те, що залишилося від нашої слави. Золотий вік, що колись визначав нас, потьмянів у пам'яті, і тріщини в нашому фундаменті ростуть з кожним днем. Якщо ми не діятимемо швидко, щоб подолати гниль всередині та відновити контроль, наша імперія розпадеться, залишивши лише руїни та жаль, тінь нашої колишньої слави..."
+ has_not_had_decline_of_empire_last_25_years: "Не мала цієї [disaster|e] останніх #Y 25#! років"
+
+#Decline of Mali
+ #Disaster
+ decline_of_mali: "Занепад Малі"
+ decline_of_mali_desc: "Слабке правління, громадянські війни, підйом зовнішніх загроз та внутрішня стагнація — це основні виклики, з якими [GetCountry('MAL').GetLongName] зіткнулася останніми роками. Стабільність та безпека [GetCountry('MAL').GetFlavorRank] під загрозою, і лише сильна рука може вивести нас з цього повзучого згубу назад до слави."
+
+#Coup Attempt
+ #Disaster
+ coup_attempt: "Спроба перевороту"
+ coup_attempt_desc: "Тіньові загрози кружляють навколо нас, як хижі птахи, чекаючи, щоб розклювати нас — найстрашнішою з яких є передчасна загибель нашого правителя! Гірше того, його замінять маріонеткою, керованою з-за лаштунків цими самими вбивчими тінями."
+ recently_had_coup_attempt_inconclusive_tt: "НЕ мав безрезультатної або успішної спроби перевороту останніх #Y 5#! років"
+ conspirators_murdered_ruler_tt: "Змовники успішно вбили нашого правителя"
+
+#Byzantine Civil War
+ #Disaster
+ byzantine_succession_crisis: "[GetCountry('BYZ').GetAdjectiveWithNoTooltip] криза спадкоємства"
+ byzantine_succession_crisis_desc: "Підступні претенденти та впливові фігури в тіні планують повалити правлячий [GetCountry('BYZ').GetAdjective] династичний рід. Смута охоплює двір, коли могутні генерали та чужинці намагаються вплинути на результат цього бурхливого періоду. Наша ослаблена присутність у [ShowRegionName('balkan_region')] — це те, що призвело до цієї великої невизначеності щодо майбутнього останнього законного бастіону $ROM$..."
+
+#Castilian Civil War
+ #Disaster
+ castilian_civil_war: "[GetCountry('CAS').GetAdjectiveWithNoTooltip] громадянська війна"
+ castilian_civil_war_desc: "Наші вороги постійно шукають способи втрутитися в нашу політику, або підштовхуючи нестабільність, або підтримуючи конкуруючих претендентів на наше місце влади. Цей період нестабільності напевно виявить тих, хто прагне припинити наше правління та стерти нас зі сторінок історії. Багатство [ShowRegionName('iberia_region')] завжди притягувало жадібні погляди ворогів на наших кордонах, але ми не повинні дозволити їм бенкетувати!"

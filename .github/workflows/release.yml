@@ -2,7 +2,10 @@ name: Build Release
 
 on:
   release:
-    types: [created]
+    types: [published]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -30,7 +33,6 @@ jobs:
           Copy-Item -Recurse main_menu release/
           Copy-Item -Recurse loading_screen release/
 
-          # Create README for the release
           @"
           EU5 Ukrainian Localization - Редактор локалізації
           ================================================
@@ -49,12 +51,7 @@ jobs:
           Compress-Archive -Path release/* -DestinationPath EU5-Ukrainian-Localization.zip
         shell: pwsh
 
-      - name: Upload release asset
-        uses: actions/upload-release-asset@v1
+      - name: Upload to release
+        run: gh release upload ${{ github.event.release.tag_name }} EU5-Ukrainian-Localization.zip --clobber
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: EU5-Ukrainian-Localization.zip
-          asset_name: EU5-Ukrainian-Localization-${{ github.event.release.tag_name }}.zip
-          asset_content_type: application/zip
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

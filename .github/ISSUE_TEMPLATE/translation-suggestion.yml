@@ -1,0 +1,41 @@
+name: "Пропозиція перекладу"
+description: "Запропонувати переклад для неперекладених рядків (без Git)"
+labels: ["переклад"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Якщо ви не хочете працювати з Git, ви можете запропонувати переклад тут.
+        Ми застосуємо ваші зміни.
+
+  - type: input
+    id: category
+    attributes:
+      label: Категорія
+      description: "Що перекладали (events, interfaces, missions тощо)"
+      placeholder: "наприклад: events/DHE"
+    validations:
+      required: true
+
+  - type: textarea
+    id: translations
+    attributes:
+      label: Переклади
+      description: |
+        Вкажіть рядки у форматі:
+        KEY_NAME: "Ваш переклад"
+
+        Або просто напишіть ключ і переклад у вільній формі.
+      placeholder: |
+        DECLARE_WAR_TITLE: "Оголосити війну"
+        PEACE_DEAL_TITLE: "Мирний договір"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Примітки
+      description: "Складні місця, питання щодо термінології тощо"
+    validations:
+      required: false

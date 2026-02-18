@@ -1,0 +1,45 @@
+name: "Помилка в перекладі"
+description: "Повідомити про неправильний або некоректний переклад"
+labels: ["виправлення"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Файл
+      description: "Назва файлу (наприклад: diplomacy_l_english.yml)"
+      placeholder: "filename_l_english.yml"
+    validations:
+      required: true
+
+  - type: input
+    id: key
+    attributes:
+      label: Ключ рядка
+      description: "Ключ перед двокрапкою (наприклад: DECLARE_WAR_TITLE)"
+      placeholder: "KEY_NAME"
+    validations:
+      required: false
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Поточний переклад
+      description: "Що зараз написано в грі/файлі"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Правильний варіант
+      description: "Як має бути"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: "Де в грі це з'являється, скріншот або додаткові пояснення"
+    validations:
+      required: false

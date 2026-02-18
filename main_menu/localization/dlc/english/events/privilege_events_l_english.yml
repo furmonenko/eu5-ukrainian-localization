@@ -1,0 +1,20 @@
+﻿l_english:
+ privilege_events.100.title: "Запросити німецьких поселенців"
+ privilege_events.100.desc: "Через чуму та війну наша країна переважно знелюднена, а невелика кількість селян дуже розпорошена по наших величезних територіях, що робить діяльність, яка вимагає величезної кількості робітників, як-от збирання врожаю чи розчищення нових земель, дуже складною.\n\nМи можемо запросити нових поселенців та ремісників з німецьких земель прийти і створити нові міста на наших землях, забезпечивши їм допомогу та особливі привілеї, як-от право керуватися власними законами та нижчі податки."
+ privilege_events.100.desc.kulm_law: "Доволі переповнена [german_province.GetName] стала занадто конкурентним середовищем для життя. Ось чому багато хто з [german_province.GetNameWithNoTooltip] та околиць вирішили шукати кращого життя в [target_province.GetName], приваблені нашими щедрими привілеями, наданими в рамках [ShowEstatePrivilegeName('kulm_law')]."
+ privilege_events.100.a: "Привітайте їх."
+ privilege_events.100.b: "Допомогти їм оселитися безпосередньо."
+ privilege_events.100.c: "Нам не потрібно більше іноземців."
+ privilege_events.100.d: "Ми не можемо знайти більше людей, які бажають мігрувати."
+ enough_migrants_tt: "Є достатньо мігрантів"
+ not_enough_migrants_tt: "Більше немає мігрантів"
+
+ privilege_events.101.title: "Міграція до [target_province.GetNameWithNoTooltip]"
+ privilege_events.101.desc: "Натхненні привілеями, наданими [migration_destination_country.GetLongName], багато поселенців з [scope_german_location.GetProvinceDefinition.GetName] покинули свої родини в надії створити краще життя в [target_province.GetName]. Хоча такі міграції населення дозволені за нашими законами, багато таких переміщень можуть призвести до виснаження нашого населення."
+ privilege_events.101.a: "Невже ми нічого не можемо зробити?"
+ privilege_events.101.tt: "Ця [Concept('event','подія')|e] сталася через те, що [german_province.GetName] відповідає:\n[ShowTriggerConditionsForScope('privilege_events_100_is_in_bad_shape', SCOPE.sProvince('german_province').GetProvince.MakeScope.Self)]"
+
+ privilege_events.110.title: "Нова родина, що піднімається, для книги"
+ privilege_events.110.desc: "Нещодавно збагатілася родина [target_dynasty.GetName] стала дуже впливовою у своєму домі [location_scope.GetName], але їхнє простолюдне походження заборонить їм досягти посад справжньої влади в [ROOT.GetCountry.GetName].\n\nВони відправили посланця до нашого двору з проханням дозволити нам додати їхню родину до #italic Libro d'Oro#!, що облагородило б їх і зробило б їх #italic патриціями#! [ROOT.GetCountry.GetNameWithNoTooltip].\n\nДодавання нової родини таким чином до [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] напевно засмутить інших членів, але родина [target_dynasty.GetNameWithNoTooltip] також відправила велику скриню, повну золота, щоб допомогти нам прийняти рішення."
+ privilege_events.110.a: "Прийняти і запросити одного з них до двору."
+ privilege_events.110.b: "Відхилити цих простолюдів-вискочок."

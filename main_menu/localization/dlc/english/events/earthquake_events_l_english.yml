@@ -1,0 +1,51 @@
+﻿l_english:
+
+ STATIC_MODIFIER_NAME_minor_recovery_effort: "Незначні зусилля з відновлення"
+ STATIC_MODIFIER_NAME_major_recovery_effort: "Великі зусилля з відновлення"
+ earthquake_events.1.title: "Землетрус у [target_location.GetNameWithNoTooltip]"
+ earthquake_events.1.desc: "На жаль, велика катастрофа спіткала [target_location.GetName]. Було так, ніби небо і земля розкололися, створивши величезну сейсмічну активність, що призвела до переміщення багатьох наших громадян і загального руйнування багатьох будівель по всьому місту. Найбільше постраждала наша велична [ShowWorkOfArtName('hagia_sophia')], яка зазнала значних пошкоджень, на відновлення яких можуть піти роки та монети..."
+ earthquake_events.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ earthquake_events.1.b: "Профінансувати ремонт негайно!"
+
+ earthquake_events.title: "Землетрус у [target_location.GetNameWithNoTooltip] [GetCurrentYear] року"
+
+ earthquake_events_minor.desc: "Район навколо [target_location.GetName] повідомив про серію землетрусів протягом останніх кількох днів. Хоча населення було в паніці, і значні пошкодження виникли як під час землетрусу, так і внаслідок пожеж, що спалахнули, на щастя, збитки, схоже, перебувають у керованому стані. Наші радники також зазначили, що ми могли б використати спричинене руйнування як зручну можливість реінвестувати в [target_location.GetNameWithNoTooltip] і сформувати його відповідно до наших бажань."
+ earthquake_events_minor.a: "[target_location.GetOwner.Custom('common_string_negative')]"
+ earthquake_events_minor.a.tt: "[target_location.GetName] і сусідні [locations|E] втратять невелику кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою."
+ earthquake_events_minor.b: "Підтримати [target_location.GetNameWithNoTooltip] грошима"
+ earthquake_events_minor.b.tt: "[target_location.GetName] і сусідні [locations|E] втратять невелику кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою. З нашими інвестиціями в [location|E] нам буде легше відбудуватися."
+
+ earthquake_events_major.desc: "Землетрус вдарив по [target_location.GetName]! Сильні поштовхи протягом останніх кількох днів знищили [target_location.GetNameWithNoTooltip] і навколишню територію в величезному ступені. Хоча більша частина збитків ще не повністю підрахована, зрозуміло, що руйнування, спричинене цією подією, вплине на територію протягом тривалого часу, якщо ми негайно не вживемо заходів і не відправимо допомогу постраждалим!"
+ earthquake_events_major.a: "[target_location.GetOwner.Custom('common_string_negative')]"
+ earthquake_events_major.a.tt: "[target_location.GetName] і сусідні [locations|E] втратять значну кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою."
+ earthquake_events_major.b: "Реінвестиції необхідні, щоб допомогти [target_location.GetNameWithNoTooltip] відновитися"
+ earthquake_events_major.b.tt: "[target_location.GetName] і сусідні [locations|E] втратять значну кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою. З нашими інвестиціями в [location|E] нам буде легше відбудуватися."
+
+ earthquake_events_catastrophic.desc: "Протягом останніх кількох днів незрівнянний землетрус вдарив по [target_location.GetName]! Сила, з якою ця подія вдарила, була набагато більшою, ніж те, до чого ми звикли, і громадяни [target_location.GetNameWithNoTooltip] дуже постраждали від катастрофи. Багато хто похований під уламками будівель, ще більше втратили свій дім та притулок. Без реінвестицій [target_location.GetNameWithNoTooltip] напевно знадобляться десятиліття, щоб належним чином відновитися, і ми повинні належним чином подбати про постраждалу територію."
+ earthquake_events_catastrophic.a: "[target_location.GetOwner.Custom('common_string_negative')]"
+ earthquake_events_catastrophic.a.tt: "[target_location.GetName] і сусідні [locations|E] втратять величезну кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою."
+ earthquake_events_catastrophy.b: "Нам потрібно допомогти бідолашним душам!"
+ earthquake_events_catastrophy.b.tt: "[target_location.GetName] і сусідні [locations|E] втратять величезну кількість [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть знищені катастрофою. З нашими інвестиціями в [location|E] нам буде легше відбудуватися."
+
+ #specific earthquake loc
+ earthquake_events.79.historical_info: "Землетрус, що знищив Лісабон, був катастрофою величезних масштабів, що відлунала по всій Європі і навіть у Новому Світі. 1 листопада 1755 року земля раптом почала трястися, і будівлі почали руйнуватися. Для тих, хто вижив, це було далеко не кінець, оскільки в місті спалахнули пожежі, підтримувані сильними вітрами. Тисячі людей стали жертвами величезної припливної хвилі, що досягла суші лише кілька хвилин потому. Кількість загиблих оцінювалася від 20 000 до 40 000 осіб на той час, і з урахуванням усіх елементів пояснення #italic кара Божа#! було поглядом, широко поширеним як у Португалії, так і в інших місцях."
+
+ earthquake_events.7.historical_info: "Землетрус у Лісабоні 1531 року стався вранці 26 січня 1531 року. Інтенсивність струсу землі в поєднанні з наступним затопленням річки Тежу та цунамі, що вдарило по берегах Португалії, спричинила серйозні пошкодження місту та призвела до загибелі приблизно 30 000 людей."
+
+ earthquake_events.1000.title: "Землетрус у [target_location.GetNameWithNoTooltip]"
+ earthquake_events.1000.desc: "Ніби не було кінця нашим нещастям, руйнівний землетрус вдарив по [target_location.GetName] та прилеглих територіях. Майже кожна будівля в місті була знищена, що змусило тисячі мешканців тікати в пошуках нових домівок в інших місцях. Але це не тільки жахливий удар по колись жвавій економіці [target_location.GetNameWithNoTooltip] — це також може проторувати шлях для нападу наших ворогів!"
+ earthquake_events.1000.a: "Нехай Бог змилується над нами!"
+ earthquake_events.1000.b: "Ми повинні негайно відправити солдатів для укріплення території."
+ earthquake_events.1000.tt: "[target_location.GetName] і сусідні прибережні [locations|E] втратять [prosperity|e], втратять [Concept('pops','населення')|e], а деякі [Concept('buildings','будівлі')|e] будуть вражені катастрофою"
+ earthquake_events.1000.historical_info: "Землетрус 2 березня 1354 року спустошив Галліполі. Османи швидко скористалися можливістю перетнути Дарданелли та захопити місто, і таким чином отримали свій перший плацдарм у Європі."
+
+ earthquake_events.1001.title: "$earthquake_events.1000.title$"
+ earthquake_events.1001.desc: "[target_country.GetAdjectiveWithNoTooltip]е місто [target_location.GetName] було вражене руйнівним землетрусом і тепер лежить у хаосі та руїнах. Люди розсіялися на чотири вітри, а оборона в безладді. Це схоже на Богом дану можливість спробувати вирвати місто у [target_country.GetName] та переселити його нашими вірними підданими. Але більш обережний підхід полягав би в тому, щоб запросити деяких умілих міщан оселитися в [capital_location.GetName]."
+ earthquake_events.1001.a: "Знак від Бога! Плануйте напад!"
+ earthquake_events.1001.b: "Заманіть постраждалих переїхати до [capital_location.GetNameWithNoTooltip]."
+ earthquake_events.1001.historical_info: "$earthquake_events.1000.historical_info$"
+
+ earthquake_events.1100.title: "Доля [target_location.GetNameWithNoTooltip]"
+ earthquake_events.1100.desc: "[target_location.GetName] лежить у руїнах після землетрусу, і наше завоювання не зробило його кращим. Але знелюднене місто надає чудову можливість для переселення, і [ShowCultureName('turkish_culture')] анатолійці як міського, так і кочового походження вже почали переїжджати — звичайно, заохочені нами. Це стане важливим плацдармом у Румелії!"
+ earthquake_events.1100.a: "Це була воля Божа."
+ earthquake_events.1100.historical_info: "Після того, як османський командир Сулейман-паша завоював Галліполі, знелюднене місто було переселене турецькими мігрантами з Анатолії і стало першим оплотом турків у Європі. Це викликало великий страх у Константинополі і зрештою спровокувало Савойський хрестовий похід 1366—67 років."

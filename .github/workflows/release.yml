@@ -1,0 +1,60 @@
+name: Build Release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+
+      - name: Build executable
+        run: pyinstaller --onefile --windowed --name "EU5-Localization-Editor" tools/localization_gui.py
+
+      - name: Create release package
+        run: |
+          New-Item -ItemType Directory -Path release -Force
+          Copy-Item dist/EU5-Localization-Editor.exe release/
+          Copy-Item -Recurse main_menu release/
+          Copy-Item -Recurse loading_screen release/
+
+          # Create README for the release
+          @"
+          EU5 Ukrainian Localization - Редактор локалізації
+          ================================================
+
+          Як користуватися:
+          1. Запустіть EU5-Localization-Editor.exe
+          2. Натисніть "Вибрати папку мода" і вкажіть папку з файлами локалізації
+          3. Перекладайте рядки та зберігайте зміни
+
+          Папки main_menu/ та loading_screen/ містять файли локалізації.
+          Ви можете редагувати їх напряму або через GUI редактор.
+
+          Більше інформації: https://github.com/${{ github.repository }}
+          "@ | Out-File -FilePath release/README.txt -Encoding UTF8
+
+          Compress-Archive -Path release/* -DestinationPath EU5-Ukrainian-Localization.zip
+        shell: pwsh
+
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: EU5-Ukrainian-Localization.zip
+          asset_name: EU5-Ukrainian-Localization-${{ github.event.release.tag_name }}.zip
+          asset_content_type: application/zip

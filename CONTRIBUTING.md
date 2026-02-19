@@ -46,7 +46,7 @@
 
 Потім:
 ```bash
-git push origin master
+git push origin main
 ```
 І створіть Pull Request на GitHub.
 

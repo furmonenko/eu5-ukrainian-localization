@@ -1,15 +1,13 @@
-name: Build Release
+name: Validate translations
 
 on:
-  release:
-    types: [published]
-
-permissions:
-  contents: write
+  pull_request:
+    paths:
+      - 'translations/**/*.json'
 
 jobs:
-  build:
-    runs-on: windows-latest
+  validate-json:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -20,38 +18,18 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install PyInstaller
-        run: pip install pyinstaller
-
-      - name: Build executable
-        run: pyinstaller --onefile --windowed --name "EU5-Localization-Editor" tools/localization_gui.py
-
-      - name: Create release package
+      - name: Validate JSON syntax
         run: |
-          New-Item -ItemType Directory -Path release -Force
-          Copy-Item dist/EU5-Localization-Editor.exe release/
-          Copy-Item -Recurse main_menu release/
-          Copy-Item -Recurse loading_screen release/
-
-          @"
-          EU5 Ukrainian Localization - Редактор локалізації
-          ================================================
-
-          Як користуватися:
-          1. Запустіть EU5-Localization-Editor.exe
-          2. Натисніть "Вибрати папку мода" і вкажіть папку з файлами локалізації
-          3. Перекладайте рядки та зберігайте зміни
-
-          Папки main_menu/ та loading_screen/ містять файли локалізації.
-          Ви можете редагувати їх напряму або через GUI редактор.
-
-          Більше інформації: https://github.com/${{ github.repository }}
-          "@ | Out-File -FilePath release/README.txt -Encoding UTF8
-
-          Compress-Archive -Path release/* -DestinationPath EU5-Ukrainian-Localization.zip
-        shell: pwsh
-
-      - name: Upload to release
-        run: gh release upload ${{ github.event.release.tag_name }} EU5-Ukrainian-Localization.zip --clobber
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          python -c "
+          import json, pathlib, sys
+          bad = []
+          for path in pathlib.Path('translations').glob('**/*.json'):
+              try:
+                  json.loads(path.read_text(encoding='utf-8'))
+              except json.JSONDecodeError as e:
+                  bad.append(f'{path}: {e}')
+          if bad:
+              print('\n'.join(bad))
+              sys.exit(f'{len(bad)} file(s) with invalid JSON')
+          print('all translation JSON files are valid')
+          "

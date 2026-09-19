@@ -1,0 +1,150 @@
+{
+ "reformation.1.a": {
+  "en": "Only time will tell what this might bring.",
+  "uk": "Час покаже, у що це обернеться."
+ },
+ "reformation.1.desc": {
+  "en": "Thoughts of disapproval against the Roman [GetUniqueInternationalOrganization('catholic_church').GetName] are spreading across [ShowContinentName('europe')] following the increasing practice of indulgences, raising questions concerning the greed of the Church.\\n\\nWhile these stayed rather broad and general accusations for now, a particular incident in [target_location.GetName] has caused a humble monk by the name of [target_character.GetName] to write and publish a thesis on the nature of true worship and the nature of our faith. [target_character.GetSheHe|U] is specifically targeting the selling of indulgences, defaming them as greedy and unnecessary, as well as disputing the authority of the [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle] to sell the same forgiveness that only God can grant.",
+  "uk": "Поширення торгівлі індульгенціями змусило віруючих по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#! замислитися про жадібність Римської #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!.\\n\\nПоки що їхнє невдоволення має загальний характер, але одна з недавніх подій насторожує. [Select_CString(target_character.IsFemale,'Якась скромна черниця', 'Якийсь скромний чернець')] [target_character.GetName] з [target_location.Custom('LR_RP')|l] [target_location.GetName] [Select_CString(target_character.IsFemale,'написала', 'написав')] трактат про природу істинної віри та богошанування, у якому особливо [Select_CString(target_character.IsFemale,'засудила', 'засудив')] продаж індульгенцій, оголосивши її зайвою та гріховною. У цьому трактаті [target_character.GetName] ставить питання, чи має [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle|l] право торгувати прощенням, дарувати яке може лише Бог."
+ },
+ "reformation.1.title": {
+  "en": "The Lutheran Reformation",
+  "uk": "Лютеранська реформація"
+ },
+ "reformation.100.a": {
+  "en": "This is... concerning.",
+  "uk": ""
+ },
+ "reformation.100.desc": {
+  "en": "The teachings of Martin Luther have reached our lands. [ShowReligionName('lutheran')] pops have begun to appear among our people.",
+  "uk": ""
+ },
+ "reformation.100.title": {
+  "en": "The Reformation Spreads",
+  "uk": ""
+ },
+ "reformation.12.a": {
+  "en": "[target_character.GetSheHe|U] is free to chose [target_character.GetHerHis] confession.",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона вільна', 'Він вільний')] вирішувати, в що [Select_CString(target_character.IsFemale,'їй', 'йому')] вірити."
+ },
+ "reformation.12.b": {
+  "en": "We should advise [target_character.GetHerHim] to leave the country.",
+  "uk": "Нам слід порекомендувати [Select_CString(target_character.IsFemale,'їй', 'йому')] покинути державу."
+ },
+ "reformation.12.desc": {
+  "en": "What once were whispers of gossip in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has now manifested in a direct confession of [target_character.GetHerHim]. [target_character.GetSheHe|U] seems to no longer be able to proclaim [target_character.GetHerHis] faith in the one true [ROOT.GetCountry.GetReligion.GetGodName] and to be taking a liking to heresies instead.",
+  "uk": "Те, про що раніше шепотілися придворні, закінчилося відкритим визнанням. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] більше не вважає, що [ROOT.GetCountry.GetReligion.GetGodName] — єдиний і істинний Бог; натомість [Select_CString(target_character.IsFemale, 'вона вдалася', 'він вдався' )] до єресі."
+ },
+ "reformation.12.title": {
+  "en": "The Conviction of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її', 'його')] переконання"
+ },
+ "reformation.13.a": {
+  "en": "Good riddance to these heretics!",
+  "uk": "Туди їм і дорога, єретикам!"
+ },
+ "reformation.13.b": {
+  "en": "Replace the priest to please them.",
+  "uk": "Пришлемо нового священника, щоб їх заспокоїти."
+ },
+ "reformation.13.desc": {
+  "en": "The people of [target_location.GetName] do no longer feel like they have a future in our country, due to our religious differences. The preaching of the local priest of [target_location.GetNameWithNoTooltip] is no longer reaching responsive ears, and some have already started to leave the area for more favorable grounds.",
+  "uk": "Через релігійні розбіжності мешканці [target_location.Custom('LR_GEN')|l] [target_location.GetName] більше не бачать для себе майбутнього у нашій державі. Проповіді місцевого священника не доходять до їхніх вух, а дехто з них уже почав переселятися до спокійніших країв."
+ },
+ "reformation.13.title": {
+  "en": "The Exodus of [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] скоро спорожніє"
+ },
+ "reformation.14.a": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('university')] has no room for heretics.",
+  "uk": "У університеті не місце єретикам."
+ },
+ "reformation.14.b": {
+  "en": "[target_character.GetSheHe|U] does not pose any threat to our faith.",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона', 'Він')] не становить загрози для нашої віри."
+ },
+ "reformation.14.desc": {
+  "en": "[target_character.GetName], a fairly important member of our [ShowBuildingTypeName('university')] in [target_location.GetName], is publicly practicing [target_character.GetReligion.GetName] and [target_character.GetHerHis] teachings reflect opinions that are hardly in line with [ROOT.GetCountry.GetReligion.GetAdjective] doctrine. If we do not remove [target_character.GetHerHim] from [target_character.GetHerHis] position, this could propel the [ShowBuildingTypeNameWithNoTooltip('university')] of [target_location.GetNameWithNoTooltip] to be a bastion of heresy in the future.",
+  "uk": "[target_character.GetName], досить видатний вчений з #TOOLTIP:BUILDING_TYPE,university,X #L університету#!#! [target_location.Custom('LR_GEN')|l] [target_location.GetName], відкрито визнає, що [Select_CString(target_character.IsFemale,'її', 'його')] вірою є [target_character.GetReligion.GetName], і оспорює багато [ROOT.GetCountry.GetReligion.GetAdjective]их догматів у своїх публічних лекціях. Якщо ми не звільнимо [Select_CString(target_character.IsFemale,'її', 'його')] з посади, університет [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] може перетворитися на оплот єресі."
+ },
+ "reformation.14.title": {
+  "en": "A Heretic in Our [ShowBuildingTypeNameWithNoTooltip('university')]",
+  "uk": "Єретик у університеті"
+ },
+ "reformation.15.a": {
+  "en": "We will just build a new [ShowBuildingTypeNameWithNoTooltip('monastery')].",
+  "uk": "Треба збудувати новий монастир."
+ },
+ "reformation.15.b": {
+  "en": "We are not interested in disturbing them.",
+  "uk": "Нема чого їх турбувати."
+ },
+ "reformation.15.c": {
+  "en": "The Jesuits are always looking for more work!",
+  "uk": "Єзуїти люблять богоугодні справи!"
+ },
+ "reformation.15.desc": {
+  "en": "The [ShowBuildingTypeName('monastery')] in [target_location.GetName] has voluntarily joined the Reformation! The monks that previously inhabited the estate repurposed the building as a center of [ShowReligionAdjective('lutheran')] teachings. These [ShowBuildingTypeName('lutheran_preachers')] could tear our country's unity apart with their heresies if nothing is done!",
+  "uk": "Один з монастирів [target_location.Custom('LR_GEN')|l] [target_location.GetName] добровільно приєднався до реформації! Його ченці, що перетворили свою обитель на гніздо #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранської#!#! єресі, можуть розколоти нашу державу своїми нечестивими проповідями!"
+ },
+ "reformation.15.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('monastery')] Joins the Reformation",
+  "uk": "[ShowBuildingTypeNameWithNoTooltip('monastery')] приєднується до реформації"
+ },
+ "reformation.16.a": {
+  "en": "Give them what they ask for.",
+  "uk": "Дамо їм усе, про що вони просять."
+ },
+ "reformation.16.b": {
+  "en": "God will surely provide for them.",
+  "uk": "Господь подбає про них."
+ },
+ "reformation.16.desc": {
+  "en": "While we have taken the most radical steps towards embracing the ideas of [target_luther.GetName] and we claim the residence of some of the most important reformers of our age, our work can not be done with that. The reformers, just like [target_luther.GetNameWithNoTooltip] [target_luther.GetHerselfHimself], often struggle for financial funds to continue their work. We should support them, if we are truly invested in the survival of [ShowReligionName('lutheran')].",
+  "uk": "Хоча ми вже зробили радикальні кроки до визнання ідей, які проповідує [target_luther.GetName], і дали притулок найважливішим діячам реформації, нам не слід зупинятися на досягнутому. Навіть такі великі реформатори, як сам [target_luther.GetNameWithNoTooltip], часом потребують засобів до існування. Для виживання #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранства#!#! потрібна фінансова підтримка."
+ },
+ "reformation.16.title": {
+  "en": "The Worldly Needs of the Reformation",
+  "uk": "Мирські потреби реформації"
+ },
+ "reformation.2.a": {
+  "en": "Heresy! Burn the priest and his books!",
+  "uk": "Спалити [Select_CString(target_character.IsFemale,'єретичку', 'єретика')] і [Select_CString(target_character.IsFemale,'її', 'його')] книги!"
+ },
+ "reformation.2.b": {
+  "en": "Great news! Spread these Bibles far and wide",
+  "uk": "Чудові новини! Несіть слово Боже людям!"
+ },
+ "reformation.2.desc": {
+  "en": "A priest in [ROOT.GetCountry.GetCapital.GetName] has translated the Bible into the [ROOT.GetCountry.GetDominantLanguage.GetName] language, and has started to distribute copies of it to nearby villages throughout [ROOT.GetCountry.GetName]. They claim that translating bibles to other languages than [ROOT.GetCountry.GetLiturgicalLanguage.GetName] gives people the best resource for knowing God in a language that speaks to their minds and hearts. However, the Church opposes this, as this is clearly against the will of God!",
+  "uk": "[Select_CString(target_character.IsFemale,'Священниця', 'Священник')] з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [Select_CString(target_character.IsFemale,'що живе', 'що живе')] у місті [ROOT.GetCountry.GetCapital.GetName], [Select_CString(target_character.IsFemale,'переклала', 'переклав')] Біблію на #L [ROOT.GetCountry.GetCourtLanguage.GetName|l]ий#! мову і [Select_CString(target_character.IsFemale,'почала', 'почав')] поширювати її копії по сусідніх селах. [Select_CString(target_character.IsFemale,'Вона', 'Він')] стверджує, що переклад Біблії на будь-яку мову, крім #L [ROOT.GetCountry.GetLiturgicalLanguage.GetName|l]ої#!, допомагає людям пізнати Бога розумом і серцем. Однак церква виступає проти цієї практики, заявляючи, що вона суперечить Божій волі!"
+ },
+ "reformation.2.title": {
+  "en": "Bible Translated",
+  "uk": "Переклад Біблії"
+ },
+ "reformation.200.a": {
+  "en": "This is... concerning.",
+  "uk": ""
+ },
+ "reformation.200.desc": {
+  "en": "The Reformed teachings of [ShowReligionName('calvinist')] have found their way into our lands. A new confession stirs among our population.",
+  "uk": ""
+ },
+ "reformation.200.title": {
+  "en": "Calvinism Spreads",
+  "uk": ""
+ },
+ "reformation.3.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "reformation.3.desc": {
+  "en": "The Reformation has set [ShowContinentName('europe')] ablaze! Theologians in every [ShowBuildingTypeName('university')] and every church have no other topic but to comment on the work of [target_luther.GetName].\\n\\nIn our own territory, in the institutions of [target_location.GetName], a group of reformers emerged, spearheaded by [target_character.GetName]. [target_character.GetSheHe|U] is preaching of the corruption of [ShowReligionName('catholic')] and of the dire need of reform not only in [ROOT.GetCountry.GetName] but in the [GetInternationalOrganization('catholic_church').GetName], with or without the support of the entire Church.",
+  "uk": "#TOOLTIP:CONTINENT,europe,X #L Європу#!#! охопила Реформація! Своїми працями [target_luther.GetName] [Select_CString(target_character.IsFemale,'справила', 'справив')] справжній фурор, і тепер богослови у кожному #TOOLTIP:BUILDING_TYPE,university,X #L університеті#!#! та храмі без кінця обговорюють їх.\\n\\nЦей рух не оминув і нашу державу. У навчальних закладах [target_location.Custom('LR_RP')|l] [target_location.GetName] з'явилася група реформаторів, яку очолює [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] проповідує про розклад #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#! і кардинальні зміни, необхідні не лише #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DP')|L]#!#!, але й #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицькій церкві#!#! у цілому."
+ },
+ "reformation.3.title": {
+  "en": "The Reformer [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] виступає за реформацію"
+ }
+}

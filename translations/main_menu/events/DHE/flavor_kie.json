@@ -1,0 +1,278 @@
+{
+ "flavor_kie.1.a": {
+  "en": "Our coffers are always ready for the progress of [ShowLocationNameWithNoTooltip('kyiv')].",
+  "uk": "Ми готові виділити казенні кошти на розвиток Києва."
+ },
+ "flavor_kie.1.b": {
+  "en": "They do not have our permission to construct it.",
+  "uk": "Ми не дозволяємо будівництво."
+ },
+ "flavor_kie.1.c": {
+  "en": "We shall use all of our coffers to help them.",
+  "uk": "Ми не пошкодуємо грошей, щоб їм допомогти."
+ },
+ "flavor_kie.1.d": {
+  "en": "They can build it, only if we do not pay for it.",
+  "uk": "Хай будують, але платити за це ми не будемо."
+ },
+ "flavor_kie.1.desc": {
+  "en": "In order to preserve the pillars of the [ShowCultureName('ruthenian')] history and traditions, [target_ruler.GetName] has proposed to the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] of [ShowLocationName('kyiv')] to offer a sponsorship for a new [ShowBuildingTypeName('university')] in the [target_location.GetRank.GetName]. The [ShowLocationNameWithNoTooltip('kyiv')] Bratstvo is planned to host this center of learning, opening the door for many citizens within [ROOT.GetCountry.GetName] and abroad to be taught of the history of the [target_location.GetRank.GetNameWithNoTooltip].\\n\\nThis is sure to strengthen [ShowRegionName('ruthenia_region')], but at the same time, it would be a costly endeavor. Perhaps [target_ruler.GetNameWithNoTooltip] should let such a [ShowBuildingTypeNameWithNoTooltip('university')] be constructed over time, without any patronage from the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')].",
+  "uk": "[Select_CString(target_ruler.IsFemale,'Рухома', 'Рухомий')] ідеєю збереження #TOOLTIP:CULTURE,ruthenian,X #L руської#!#! історії та традицій, [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'попросила', 'попросив')] #TOOLTIP:LOCATION,kyiv_tt,X #L київських#!#! міщан виділити кошти на будівництво нового #TOOLTIP:BUILDING_TYPE,university,X #L університету#!#!. Подібний заклад дозволить багатьом підданим #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! та чужинцям ознайомитися з багатою історією нашої держави.\\n\\nХоча його будівництво напевно сприятиме зміцненню #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#!, воно також потребуватиме значних вкладень. Як [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l], ми можемо підтримати цю ініціативу, або ж дозволити місту самостійно профінансувати проєкт."
+ },
+ "flavor_kie.1.entry": {
+  "en": "Kyiv-Mohyla Academy",
+  "uk": ""
+ },
+ "flavor_kie.1.historical_info": {
+  "en": "Founded in 1615 by the Kyiv Brotherhood, the Kyiv-Mohyla Academy served as one of the few theological schools of Orthodox Christians within Ruthenia. Although it was not originally recognized as such, the treaty of Hadiach in 1658 elevated it to its university status. After the conquest of the city by Russia, Peter 'the Great' decided not only to retain it, but also allowed students ranging from Saint Petersburg to Greece to attend classes there. It was not until 1817 when it was closed, and in 1834 when Tsar Nicholas I created a new university in its place, the Saint Vladimir University.",
+  "uk": "Києво-Могилянська академія, заснована 1615 року Київським братством, була однією з небагатьох православно-християнських богословських шкіл на Русі. Цей навчальний заклад отримав університетський статус за Гадяцьким договором 1658 року. Цар усієї Русі Петро Великий, завоювавши місто, вирішив зберегти академію, а також дозволив відвідувати її студентам з різних земель — від Санкт-Петербурга до Греції. Академія проіснувала до 1817 року, а 1834 року цар Микола I створив на її місці новий університет Святого Володимира."
+ },
+ "flavor_kie.1.title": {
+  "en": "[ShowLocationNameWithNoTooltip('kyiv')] Academy of Culture",
+  "uk": "Київська академія культури"
+ },
+ "flavor_kie.2.a": {
+  "en": "If it is better treatment they want, then we will guarantee them that.",
+  "uk": "Ми гарантуємо, що з ними поводитимуться краще."
+ },
+ "flavor_kie.2.b": {
+  "en": "We are not here to seek the wrath of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Не варто даремно злити бояр."
+ },
+ "flavor_kie.2.b.entry": {
+  "en": "We are not here to seek the wrath of the $nobles_estate$.",
+  "uk": ""
+ },
+ "flavor_kie.2.c": {
+  "en": "These serfs demand too much, let us be harsher to them!",
+  "uk": "Ці смерди занадто багато хочуть. Треба бути з ними суворішими!"
+ },
+ "flavor_kie.2.d": {
+  "en": "This reform will be our biggest priority.",
+  "uk": "Ми зосередимо всі зусилля на цій реформі."
+ },
+ "flavor_kie.2.desc": {
+  "en": "The Kholop class has always been treated no better than [ShowPopTypeName('slaves')], leaving too much of our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [ShowRegionName('ruthenia_region')] to suffer mistreatment from the higher classes, such as the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. There has been a sentiment growing within [ROOT.GetCountry.GetName] wishing to abolish this exploitation that has been harming the corvée economy. This will not sit well within the powerful [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], but it is certain to increase the popular opinion of [target_character.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] завжди ставилися до холопів як до #TOOLTIP:POPTYPE,slaves,X #L рабів#!#!, принижуючи та утискаючи їх з будь-якого приводу. Однак останнім часом дедалі частіше можна почути думку, що подібне ставлення до робітників необхідно припиняти, оскільки воно шкодить розвитку #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Якщо ми даруємо холопам більше прав, то [target_character.GetName] напевно стане героєм в очах народу, але впливові бояри навряд чи будуть раді таким змінам."
+ },
+ "flavor_kie.2.entry": {
+  "en": "$flavor_kie.2.title$",
+  "uk": ""
+ },
+ "flavor_kie.2.historical_info": {
+  "en": "Kholops had been the backbone of the Ruthenian economy since the 11th century. Being close to a slave, an owner of one had unlimited power over them, but also was responsible for their actions. Within Kyiv, they represented the majority of the low class, until the 15th century when more rights were given to them, becoming closer to that of European serfs.",
+  "uk": "З XI століття холопи були основою руської економіки. Вони мало чим відрізнялися від рабів: власник міг робити з ними що завгодно, але при цьому відповідав за їхні вчинки. Більша частина киян низького походження була холопами. У XV столітті вони отримали більше прав, і їхнє становище стало нагадувати європейських кріпаків."
+ },
+ "flavor_kie.2.title": {
+  "en": "Future of the Kholop Class",
+  "uk": "Майбутнє холопів"
+ },
+ "flavor_kie.3.a": {
+  "en": "Let us hire [target_character.GetHerHim].",
+  "uk": "Ми наймемо [Select_CString(target_character.IsFemale,'її','його')]."
+ },
+ "flavor_kie.3.b": {
+  "en": "We have no need of a new Metropolitan.",
+  "uk": "Новий митрополит нам ні до чого."
+ },
+ "flavor_kie.3.c": {
+  "en": "Having the favor of both [target_character2.GetNameWithNoTooltip] and [target_location.GetNameWithNoTooltip] is a great benefit.",
+  "uk": "Нам безумовно знадобиться людина, яку поважають і місцеві жителі, і [target_character2.GetNameWithNoTooltip]."
+ },
+ "flavor_kie.3.c.entry": {
+  "en": "Having the favor of both him and the location is a great benefit.",
+  "uk": ""
+ },
+ "flavor_kie.3.d": {
+  "en": "[target_character.GetSheHe|U] will help us undermine the influence of [target_location.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetNameWithNoTooltip] допоможе нам підкорити місто."
+ },
+ "flavor_kie.3.d.entry": {
+  "en": "He will help us undermine the influence of the location.",
+  "uk": ""
+ },
+ "flavor_kie.3.desc": {
+  "en": "$flavor_kie.3.desc_common$ The [ROOT.GetCountry.GetGovernment.GetCourtTitle] thinks that such a figure will also be great for our [ROOT.GetCountry.GetGovernment.GetCabinetTitle], although it might be costly to maintain [target_character.GetHerHis] position in both places.",
+  "uk": "$flavor_kie.3.desc_common$ Придворні також вважають, що [Select_CString(target_character.IsFemale,'вона','він')] міг би стати нам у пригоді в раді, однак для оплати [Select_CString(target_character.IsFemale,'її','його')] послуг одразу на двох поблогах знадобиться чимало коштів."
+ },
+ "flavor_kie.3.desc_RUS": {
+  "en": "$flavor_kie.3.desc_common$ Many within the [ROOT.GetCountry.GetFlavorRank] think that such a [target_character.GetWomanMan] will be detrimental to our effort to strengthen our influence over the [target_location.GetRank.GetNameWithNoTooltip] of [target_location.GetNameWithNoTooltip]. It is why there has been a demand to put [target_character.GetHerHim] in charge of the Metropolitan there.",
+  "uk": "$flavor_kie.3.desc_common$ Багато хто в [ROOT.GetCountry.Custom('CL_PREP')] вважає, що [Select_CString(target_character.IsFemale,'її','його')] призначення підірве наш вплив над [target_location.Custom('LR_INST')|l], і саме тому [Select_CString(target_character.IsFemale,'її','його')] активно просувають на цю посаду."
+ },
+ "flavor_kie.3.desc_ZAZ": {
+  "en": "$flavor_kie.3.desc_common$ Being in favor with [target_character2.GetName], many think that such a [target_character.GetWomanMan] would make a great Metropolitan, a loyal subject that will allow us to better control [target_location.GetNameWithNoTooltip] and better develop its streets.",
+  "uk": "$flavor_kie.3.desc_common$ При цьому відомо, що [target_character2.GetName] також виявляє до [Select_CString(target_character.IsFemale,'неї','нього')] прихильність. Такий [Select_CString(target_character.IsFemale,'вірна підданка','вірний підданий')] напевно стане чудовим митрополитом і допоможе нам зміцнити свій вплив над містом."
+ },
+ "flavor_kie.3.desc_common": {
+  "en": "With the need to gain influence over [target_location.GetName], our nation has been searching for a new Metropolitan to rule over the [target_location.GetRank.GetName]. One of these individuals that would fit as a candidate is [target_character.GetName], a native of the people there.",
+  "uk": "Прагнучи посилити контроль над [target_location.Custom('LR_INST')|l] [target_location.GetName], влада намагається знайти нового митрополита, якому можна було б довірити управління цим районом. Найбільш відповідним кандидатом на цю роль є [target_character.GetName], [Select_CString(target_character.IsFemale,'яка виросла', 'який виріс')] у цих землях."
+ },
+ "flavor_kie.3.entry": {
+  "en": "Gideon Chetvertynsky, the Metropolitan",
+  "uk": ""
+ },
+ "flavor_kie.3.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_kie.4.a": {
+  "en": "We accept all kinds of art, even those that do not fit [ROOT.GetCountry.GetNameWithNoTooltip] perfectly.",
+  "uk": "Ми схвалюємо будь-яку творчість, навіть якщо вона відходить від усталених засад."
+ },
+ "flavor_kie.4.a.entry": {
+  "en": "We accept all kinds of art, even those that do not fit us perfectly.",
+  "uk": ""
+ },
+ "flavor_kie.4.b": {
+  "en": "[target_character.GetSheHe|U] shall have [target_character.GetHerHis] institution.",
+  "uk": "Ми допоможемо [Select_CString(target_character.IsFemale,'їй','йому')] заснувати свій заклад."
+ },
+ "flavor_kie.4.c": {
+  "en": "[target_character.GetSheHe|U] is not allowed in [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "В [ROOT.GetCountry.Custom('CL_PREP')] [Select_CString(target_character.IsFemale,'їй','йому')] не раді."
+ },
+ "flavor_kie.4.c.entry": {
+  "en": "He is not allowed in our country.",
+  "uk": ""
+ },
+ "flavor_kie.4.desc": {
+  "en": "With [target_location.GetName] turning into a cultural center for all [ROOT.GetCountry.GetAdjective] people to witness, it has also given the rise to many artists. One of them is [target_character.GetName], a renowned [ShowArtistTypeName('iconographer')] within the [ShowReligionName('orthodox')] community of the [target_location.GetRank.GetName]. Wishing to stray away from the traditional iconographic canons and develop [target_character.GetHerHis] new style, [target_character.GetSheHe] now wishes to be employed in our [ROOT.GetCountry.GetGovernment.GetCourtTitle], potentially to gain our favor so that [target_character.GetSheHe] can create [target_character.GetHerHis] own art institution within [ROOT.GetCountry.GetNameWithNoTooltip], as well as help spread the [ROOT.GetCountry.GetCulture.GetName] culture across [ShowContinentName('europe')].",
+  "uk": "[target_location.GetName] — наш головний культурний центр, що виховав безліч великих творців. [Select_CString(target_character.IsFemale,'Однією','Одним')] з них є [target_character.GetName], [Select_CString(target_character.IsFemale,'видатна іконописиця','видатний іконописець')], [Select_CString(target_character.IsFemale,'відома','відомий')] у релігійних колах міста. Прагнучи відійти від усталених іконописних традицій і створити власний стиль, [Select_CString(target_character.IsFemale,'вона виявила','він виявив')] бажання служити при нашому дворі. [Select_CString(target_character.IsFemale,'Вона','Він')] сподівається, що [Select_CString(target_character.IsFemale,'їй','йому')] вдасться здобути прихильність сильних світу цього, щоб у майбутньому заснувати в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! власний культурний заклад і тим самим сприяти поширенню #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! #TOOLTIP:RELIGION,orthodox_tt,X #L православної#!#! культури по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!."
+ },
+ "flavor_kie.4.entry": {
+  "en": "John Rutkovych, the Iconographer",
+  "uk": ""
+ },
+ "flavor_kie.4.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_kie.5.a": {
+  "en": "We shall aid with the construction of this new church.",
+  "uk": "Потрібно допомогти з будівництвом цієї церкви."
+ },
+ "flavor_kie.5.b": {
+  "en": "A project like that would be too costly.",
+  "uk": "Це занадто витратна затія."
+ },
+ "flavor_kie.5.desc": {
+  "en": "As the people of [ROOT.GetCountry.GetName] are proud of their [ROOT.GetCountry.GetReligion.GetAdjective] ways, there has been a request from the citizens residing within the [target_location.GetRank.GetName] of [target_location.GetName] that we construct a new church for them to pray to [ROOT.GetCountry.GetReligion.GetGodName]. This idea has intrigued [target_character2.GetName], who would like to set up a new residence there. The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] as well are in support of it, and are recommending that we hire [target_character.GetName], a renowned [target_character.GetArtistType.GetName] to help us design such monument.\\n\\nMeant to be dedicated to Saint Andrew, the Apostle of Rus', it will also gain us favors with the Patriarch, and show our devotion to other [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] nations.",
+  "uk": "Народ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! свято зберігає свої #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! традиції. Так, нещодавно жителі [target_location.Custom('LR_RP')|l] [target_location.GetName] попросили збудувати в цьому районі нову церкву. На щастя, [target_character2.GetName] вже давно хоче заснувати там свою резиденцію, тому [Select_CString(target_character2.IsFemale,'її','його')] вкрай зацікавила ця пропозиція. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] також підтримали ініціативу і навіть порекомендували найняти для цієї роботи талановитого архітектора на ім'я [target_character.GetName].\\n\\nПередбачається, що церква буде присвячена Андрію Первозванному, який, за переказами, у давнину відвідував руські землі. Будівництво подібної споруди напевно допоможе нам заслужити прихильність патріарха і налагодити відносини з іншими [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ими державами."
+ },
+ "flavor_kie.5.entry": {
+  "en": "$flavor_kie.5.title$",
+  "uk": ""
+ },
+ "flavor_kie.5.title": {
+  "en": "$st_andrew_church$",
+  "uk": ""
+ },
+ "flavor_kie.6.a": {
+  "en": "Let us strengthen the [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Ми підтримаємо [Select_CString(target_character.IsFemale,'її','його')] ініціативу."
+ },
+ "flavor_kie.6.a.entry": {
+  "en": "Let us strengthen the city.",
+  "uk": ""
+ },
+ "flavor_kie.6.b": {
+  "en": "We should just let this be a religious matter instead.",
+  "uk": "Хай з цим розбираються релігійні діячі."
+ },
+ "flavor_kie.6.desc": {
+  "en": "The growth of [target_location.GetName] has attracted many people of the [ShowReligionAdjective('orthodox')] and [ShowReligionAdjective('catholic')] faiths. Although they both believe in the same [ROOT.GetCountry.GetReligion.GetGodName], religious doctrines have never allowed them to properly co-exist, usually clashing over their beliefs of the Holy Trinity. [target_character.GetName] wishes to undo this, instead empowering the [ShowCultureName('ruthenian')] [ShowReligionNameWithNoTooltip('orthodox')] Church, straying it away from that of the [ShowCultureGroupName('russian_group')] ways.",
+  "uk": "У міру зростання [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] приваблює дедалі більше #TOOLTIP:RELIGION,orthodox_tt,X #L православних#!#! та #TOOLTIP:RELIGION,catholic_tt,X #L католиків#!#!. Хоча представники цих двох конфесій вірять в одного Бога, через віру в Святу Трійцю вони важко уживаються і постійно вступають один з одним у суперечки. Прагнучи покласти край цій ворожнечі, [target_character.GetName] намагається розвивати #TOOLTIP:CULTURE,ruthenian_tt,X #L руську#!#! православну церкву в іншому ключі, відмінному від #TOOLTIP:CULTUREGROUP,russian_group,X #L східнослов'янських#!#! релігійних традицій."
+ },
+ "flavor_kie.6.entry": {
+  "en": "$flavor_kie.6.title$",
+  "uk": ""
+ },
+ "flavor_kie.6.title": {
+  "en": "Metropolis of All Rus'",
+  "uk": "Митрополія Всієї Русі"
+ },
+ "flavor_kie.7.a": {
+  "en": "We shall maintain our stance in [target_location.GetNameWithNoTooltip].",
+  "uk": "Ми не станемо йти їм на поступки."
+ },
+ "flavor_kie.7.a.entry": {
+  "en": "We shall maintain our stance in [ShowLocationNameWithNoTooltip('kyiv')].",
+  "uk": ""
+ },
+ "flavor_kie.7.b": {
+  "en": "Perhaps it is time we loosen our control over the Metropolitan.",
+  "uk": "Можливо, настав час послабити контроль над митрополитом."
+ },
+ "flavor_kie.7.desc": {
+  "en": "Recent investigations in the [target_location.GetRank.GetName] of [target_location.GetName] have shown that the Metropolitan assigned by the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] has fallen out of favor with the local populace there. Reason being the rights we have revoked from them, treating it as we have been intolerant to their [ShowReligionName('orthodox')] ways. They now wish to instead separate from [ROOT.GetCountry.GetName] and look to join any [ShowReligionNameWithNoTooltip('orthodox')] realm that will protect their rights.",
+  "uk": "До нас дійшли вісті про те, що призначений нами митрополит втратив довіру жителів [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Люди нарікають, що ми не поважаємо їхні права і заважаємо їм сповідувати #TOOLTIP:RELIGION,$orthodox_tt$,X #L православну#!#! віру, у зв'язку з чим багато хто з них прагне вийти з-під впливу #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! і приєднатися до будь-якої іншої православної держави, яка буде готова за них заступитися."
+ },
+ "flavor_kie.7.entry": {
+  "en": "Trouble in Kyiv",
+  "uk": ""
+ },
+ "flavor_kie.7.title": {
+  "en": "Trouble in [ShowLocationNameWithNoTooltip('kyiv')]",
+  "uk": "Проблеми в Києві"
+ },
+ "flavor_kie.8.a": {
+  "en": "If they demand, we shall deliver.",
+  "uk": "Виконаємо їхні вимоги."
+ },
+ "flavor_kie.8.b": {
+  "en": "We will not allow them to control the [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Ми не дозволимо їм контролювати [target_location.Custom('LR_ACC')|l]."
+ },
+ "flavor_kie.8.b.entry": {
+  "en": "We will not allow them to control the city.",
+  "uk": ""
+ },
+ "flavor_kie.8.desc": {
+  "en": "[ShowRegionName('ruthenia_region')] has long lacked a Metropolitan to guide its people. Seeking to remedy this, the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have appealed to the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] to appoint one from among their own. They argue that this is the only way to ensure the region is properly administered without interference from the state. We could grant them this authority, though it would risk increasing their influence in [target_location.GetName].",
+  "uk": "В #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#! тривалий час не було митрополита, який би спрямовував народ. Прагнучи виправити це, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] звернулися до уряду з проханням призначити митрополита зі своїх лав. Вони стверджують, що це єдиний спосіб забезпечити належне управління регіоном без втручання держави. Ми могли б надати їм цю владу, хоча тим самим ризикуємо збільшити їхній вплив в [target_location.Custom('LR_PREP')|l] [target_location.GetName]."
+ },
+ "flavor_kie.8.entry": {
+  "en": "A New Metropolitan for Kyiv",
+  "uk": ""
+ },
+ "flavor_kie.8.title": {
+  "en": "A New Metropolitan for [ShowLocationNameWithNoTooltip('kyiv')]",
+  "uk": "Новий київський митрополит"
+ },
+ "flavor_kie.9.a": {
+  "en": "Let us employ this [target_character.GetWomanMan].",
+  "uk": "Ми наймемо [Select_CString(target_character.IsFemale,'її','його')]."
+ },
+ "flavor_kie.9.a.entry": {
+  "en": "Let us employ this man.",
+  "uk": ""
+ },
+ "flavor_kie.9.b": {
+  "en": "Let [target_character.GetHerHim] paint the entire [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Хай [Select_CString(target_character.IsFemale,'вона','він')] прикрасить своїми роботами наш двір."
+ },
+ "flavor_kie.9.b.entry": {
+  "en": "Let him paint the entire court.",
+  "uk": ""
+ },
+ "flavor_kie.9.c": {
+  "en": "We will stop this movement from ruining our art, starting from [target_character.GetHerHim].",
+  "uk": "Цей стиль лише шкодить нашому мистецтву. Ми не станемо [Select_CString(target_character.IsFemale,'її','його')] підтримувати."
+ },
+ "flavor_kie.9.desc": {
+  "en": "Within [ROOT.GetCountry.GetName], a number of lesser-known artists have been striving to develop a new artistic style inspired by the aesthetics of antiquity. Among them is [target_character.GetName], a mute from [ShowLocationName('hlukhiv')] who has studied and produced several notable works. Eager to help spread the growing neoclassical movement, [target_character.GetSheHe] now seeks employment under [target_character2.GetName] in the [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Декілька маловідомих художників #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! останнім часом намагаються створити новий напрямок, натхненний естетикою античності. [Select_CString(target_character.IsFemale,'Однією з таких художниць', 'Одним з таких художників')] є [target_character.GetName], [Select_CString(target_character.IsFemale,'уродженка', 'уродженець')] #TOOLTIP:LOCATION,hlukhiv_tt,X #L Глухова#!#!, [Select_CString(target_character.IsFemale,'яка вже встигла', 'який вже встиг')] написати декілька чудових полотен у новому стилі, прозваному неокласицизмом. Прагнучи поширити цю зароджувану художню течію, [Select_CString(target_character.IsFemale,'вона звернулася', 'він звернувся')] до нашого двору в надії, що [target_character2.GetName] візьме [Select_CString(target_character.IsFemale,'її', 'його')] на службу."
+ },
+ "flavor_kie.9.entry": {
+  "en": "$flavor_kie.9.title$",
+  "uk": ""
+ },
+ "flavor_kie.9.title": {
+  "en": "Rise of Neoclassical Painting in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Розквіт [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого неокласичного живопису"
+ },
+ "kie_all_kiev_pops_become_angrier_tt": {
+  "en": "All [ShowReligionAdjective('orthodox')] [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:RELIGION,orthodox_tt,X #L православні#!#! [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+ }
+}

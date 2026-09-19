@@ -1,0 +1,778 @@
+{
+ "devotion_events.1.a": {
+  "en": "What are we waiting for? Do it!",
+  "uk": "Чого ж ми чекаємо? Швидше за діло!"
+ },
+ "devotion_events.1.b": {
+  "en": "Prayer will solve all their problems.",
+  "uk": "Від бід можна врятуватися й молитвами."
+ },
+ "devotion_events.1.desc": {
+  "en": "A suggestion has been put forward to set up a general [ShowBuildingTypeName('hospital')|l], a place where the needy would be welcomed and assisted. Public health is very important, and to offer a free midwifery course and some establishments to combat disease would increase the well-being of everyone.",
+  "uk": "Нам пропонують створити центральний #TOOLTIP:BUILDING_TYPE,hospital,X #L шпиталь#!#!, де всі, хто потребує, зможуть отримати допомогу. Здоров'я населення надзвичайно важливе. Якщо запровадити безкоштовні уроки для повитух і вжити заходів для боротьби з хворобами, це піде народу на користь."
+ },
+ "devotion_events.1.title": {
+  "en": "General Hospital",
+  "uk": "Центральний шпиталь"
+ },
+ "devotion_events.10.a": {
+  "en": "How fortunate for us that we have chosen [target_heir.GetHerHim]!",
+  "uk": "Як добре, що ми обрали [Select_CString(target_heir.IsFemale, 'її', 'його' )]!"
+ },
+ "devotion_events.10.desc": {
+  "en": "[target_heir.GetName] quickly gained the trust and favor of the people of the [ROOT.GetCountry.GetLongName], especially the local aristocrats who [target_heir.GetSheHe] belonged to before becoming the [ROOT.GetCountry.GetGovernment.GetHeirTitle] of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. This has helped us regain authority and our hold on our rule is stronger than ever.",
+  "uk": "[ROOT.GetCountry.GetLongName] — це держава, в якій довіру й прихильність народу швидко [Select_CString(target_heir.IsFemale,'завоювала', 'завоював')] [target_heir.GetName]. Особливою підтримкою [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] і [Select_CString(target_heir.IsFemale, 'майбутня', 'майбутній' )] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] користується серед місцевої аристократії, до якої [Select_CString(target_heir.IsFemale, 'вона раніше належала', 'він раніше належав' )]. Це допомогло нам знову зміцнити владу, і наше становище стало ще міцнішим, ніж раніше."
+ },
+ "devotion_events.10.title": {
+  "en": "The Local Noble",
+  "uk": "Місцева шляхетна особа"
+ },
+ "devotion_events.100.a": {
+  "en": "Sooner or later they will come to their senses.",
+  "uk": "Рано чи пізно вони схаменуться."
+ },
+ "devotion_events.100.b": {
+  "en": "Enforce our authority!",
+  "uk": "Покажемо, що ми тут влада!"
+ },
+ "devotion_events.100.desc": {
+  "en": "The long rivalry between the [ROOT.GetCountry.GetFlavorRank] and our [target_location.GetRank.GetName] of [target_location.GetName] has damaged relations between us for many years. The [target_location.GetRank.GetNameWithNoTooltip] is seeking freedom from the authority of [target_ruler.GetName], and has been unwilling to shelter our [ROOT.GetCountry.GetGovernment.GetRulerTitle] and [target_ruler.GetHerHis] predecessors during times of unrest and war.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank|U] і [target_location.GetRank.GetName] [target_location.GetName] вже багато років живуть у розбраті, і наші стосунки залишають бажати кращого. Жителі [target_location.Custom('LR_GEN')|l] хочуть, щоб [target_ruler.GetName] не [Select_CString(target_ruler.IsFemale, 'володарювала', 'володарював' )] над ними. Ні [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], ні [Select_CString(target_ruler.IsFemale, 'її', 'його' )] попередники не зможуть отримати тут притулок у неспокійні часи."
+ },
+ "devotion_events.100.title": {
+  "en": "Conflict Between [target_location.GetRank.GetNameWithNoTooltip|U] and the [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip|U] і [ROOT.GetCountry.GetFlavorRank] ворогують"
+ },
+ "devotion_events.101.a": {
+  "en": "Sentence the heretics to prison once more.",
+  "uk": "Знову ув'язнимо єретиків у темницю."
+ },
+ "devotion_events.101.b": {
+  "en": "Burn the heretics.",
+  "uk": "Спалити єретиків!"
+ },
+ "devotion_events.101.desc": {
+  "en": "The heinous heretical book 'The Lanterne of Light' claims that the principal cause of the persecution of the original Christians was the illegal retention of precious goods by priests. It also goes on to compare the seats of archbishops or bishops with those of the Antichrist. This book has been found in the possession of a group of relapsed heretics that, despite many years in prison and many tearful abjurations, still refuse to change their ways.",
+  "uk": "Автор ганебної єретичної книги «Лампада світла» стверджує, що основною причиною переслідування перших християн було незаконне привласнення цінних предметів священиками. Мало того, він наважується порівнювати єпископів і архієпископів з Антихристом. Цю книгу знайшли у завзятих єретиків, які, провівши багато років у в'язниці й неодноразово зрікшись своїх переконань зі сльозами на очах, все так само дотримуються свого укладу."
+ },
+ "devotion_events.101.title": {
+  "en": "The Lanterne of Light",
+  "uk": "Лампада світла"
+ },
+ "devotion_events.104.a": {
+  "en": "Stop the [preacher.GetWomanMan]!",
+  "uk": "Треба [Select_CString(preacher.IsFemale, 'її', 'його' )] зупинити!"
+ },
+ "devotion_events.104.b": {
+  "en": "Allow [preacher.GetHerHim] to continue, but rescue the art.",
+  "uk": "Нехай продовжує, але предмети мистецтва треба врятувати."
+ },
+ "devotion_events.104.c": {
+  "en": "This [preacher.GetWomanMan] is wasted outside our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] з радістю прийме в себе таку людину!"
+ },
+ "devotion_events.104.desc": {
+  "en": "There is a vigorous preacher in [ROOT.GetCountry.GetCapital.GetName] whose outdoor sermons about the temptations of vanity objects have led to [preacher.GetHerHis] supporters collecting and burning cosmetics, arts, books deemed immoral, and musical instruments. [preacher.GetSheHe|U] rages on about how these objects might tempt one to sin and urges people, especially the famous artists of our [ROOT.GetCountry.GetFlavorRank], to bring the things [preacher.GetSheHe] deems immoral to [preacher.GetHerHis] bonfires.",
+  "uk": "У місті [ROOT.GetCountry.GetCapital.GetName] [Select_CString(preacher.IsFemale, 'з'явилася палка проповідниця', 'з'явився палкий проповідник' )], [Select_CString(preacher.IsFemale, 'яка', 'який' )] влаштовує просто неба проповіді про спокуси й розкіш. [Select_CString(preacher.IsFemale, 'Її', 'Його' )] прихильники почали збирати й спалювати предмети декору та мистецтва, музичні інструменти й книги, визнані аморальними. [Select_CString(preacher.IsFemale, 'Проповідниця', 'Проповідник' )] стверджує, що ці речі можуть спонукати до гріха, а тому розводить багаття й закликає жителів [ROOT.GetCountry.Custom('rank_ru_GEN')|l], особливо відомих діячів мистецтва, принести для спалення все, що [Select_CString(preacher.IsFemale, 'вона', 'він' )] вважатиме безнравним."
+ },
+ "devotion_events.104.title": {
+  "en": "Bonfire of the Vanities",
+  "uk": "Багаття марнославства"
+ },
+ "devotion_events.107.a": {
+  "en": "A most wonderful idea - we approve!",
+  "uk": "Ми підтримуємо цю прекрасну ідею!"
+ },
+ "devotion_events.107.b": {
+  "en": "Not this year - perhaps the next?",
+  "uk": "Може, наступного року?"
+ },
+ "devotion_events.107.desc": {
+  "en": "A jubilee - a holy year - involves pilgrimage to a sacred site such as [ShowLocationName('rome')] or our own capital. It is a special year of remission of sins and universal pardons, something [pope.GetName] usually convokes every 25 or 50 year, but who is [pope.GetSheHe] to say that we cannot convoke our own jubilee in [ROOT.GetCountry.GetCapital.GetName]?",
+  "uk": "Ювілей — це священний рік, коли здійснюється паломництво до святих місць, наприклад до [ShowLocationName('rome')] або нашої столиці. Це особливий рік відпущення гріхів і загального прощення, який [pope.GetName] оголошує раз на 25 або 50 років. Але чому б нам не оголосити власний ювілейний рік у місті [ROOT.GetCountry.GetCapital.GetName]?"
+ },
+ "devotion_events.107.desc_pope": {
+  "en": "A Jubilee, a tradition dating back to the times of [GetCharacter('pap_boniface_viii').GetName], is a special year of remission of sins, and it involves many pilgrimages to [ShowLocationName('rome')]. Convoked every 25 or 50 years, the time has come once again to decide whether we should declare this year as a Jubilee.",
+  "uk": "Традицію святкування ювілеїв запровадив [GetCharacter('pap_boniface_viii').GetName]. У ці священні роки відпускаються всі гріхи, а віряни здійснюють масові паломництва до #TOOLTIP:LOCATION,rome_tt,X #L Риму#!#!. Зазвичай ювілей відзначається кожні 25 або 50 років. Настав час вирішувати, чи будемо ми святкувати його цього року."
+ },
+ "devotion_events.107.title": {
+  "en": "Jubilee in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] святкує ювілей"
+ },
+ "devotion_events.108.a": {
+  "en": "This should be reserved for us!",
+  "uk": "Це наша прерогатива!"
+ },
+ "devotion_events.108.b": {
+  "en": "That is a wonderful idea!",
+  "uk": "Це прекрасна ідея!"
+ },
+ "devotion_events.108.desc": {
+  "en": "The [from_country.GetGovernment.GetRulerTitle] of the [from_country.GetLongName] has convoked a jubilee in [from_country.GetCapital.GetName], a holy year of remission of sins and universal pardons. This is a [ShowReligionGroupAdjective('christian')] tradition which dates back to 1300 when [GetCharacter('pap_boniface_viii').GetName] convoked a holy year in [ShowLocationName('rome')].",
+  "uk": "[from_country.GetGovernment.GetRulerTitle] держави [from_country.GetLongName] проголошує в столичному місті [from_country.GetCapital.GetName] ювілей відпущення гріхів і загального прощення. Ця #TOOLTIP:RELIGIONGROUP,christian,X #L християнська#!#! традиція бере початок у 1300 році, коли папа [GetCharacter('pap_boniface_viii').GetName] оголосив святий рік у #TOOLTIP:LOCATION,rome_tt,X #L Римі#!#!."
+ },
+ "devotion_events.108.title": {
+  "en": "Jubilee in [from_country.GetCapital.GetNameWithNoTooltip]",
+  "uk": "Ювілей у місті [from_country.GetCapital.GetNameWithNoTooltip]"
+ },
+ "devotion_events.109.a": {
+  "en": "[pope.GetSheHe|U] does not like it, not at all.",
+  "uk": "[Select_CString(pope.IsFemale, 'Їй', 'Йому' )] зовсім не подобається ця ідея."
+ },
+ "devotion_events.109.b": {
+  "en": "We need not worry. [pope.GetSheHe|U] approves!",
+  "uk": "Не варто турбуватися: [Select_CString(pope.IsFemale, 'вона', 'він' )] схвалює цю затію!"
+ },
+ "devotion_events.109.desc": {
+  "en": "The tradition of jubilees was started when [GetCharacter('pap_boniface_viii').GetName] convoked a holy year in [ShowLocationName('rome')] 1300. [pope.GetName] sent a messenger to us when the news about the jubilee in [ROOT.GetCountry.GetCapital.GetName] reached [pope.GetHerHim], and we fear [pope.GetHerHis] reaction.",
+  "uk": "Традиція ювілейного року бере початок у 1300 році, коли [GetCharacter('pap_boniface_viii').GetName] оголосив святий рік у #TOOLTIP:LOCATION,rome_tt,X #L Римі#!#!. Дізнавшись про ювілей у місті [ROOT.GetCountry.GetCapital.GetName], [pope.GetName] [Select_CString(pope.IsFemale, 'відправила', 'відправив' )] до нас посланця. Ми переживаємо, як [Select_CString(pope.IsFemale, 'вона', 'він' )] це сприйме…"
+ },
+ "devotion_events.109.title": {
+  "en": "The [papacy.GetGovernment.GetRulerTitle] Reacts to Jubilee in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "[papacy.GetGovernment.GetRulerTitle] висловлює ставлення до ювілею в місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
+ },
+ "devotion_events.11.a": {
+  "en": "We had our doubts about [target_heir.GetHerHim], but they are long gone now!",
+  "uk": "У нас були сумніви щодо [Select_CString(target_heir.IsFemale, 'неї', 'нього' )], але тепер ми [Select_CString(target_heir.IsFemale, 'в ній', 'в ньому' )] впевнені!"
+ },
+ "devotion_events.11.desc": {
+  "en": "Along with a great mind for diplomacy, military advancement, and administration, [target_heir.GetName], the [ROOT.GetCountry.GetGovernment.GetHeirTitle] of our [ROOT.GetCountry.GetGovernment.GetRulerTitle], has also brought alliances and connections with foreign courts that might prove indispensable.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetHeirTitle|U] [target_heir.GetName] не лише дуже [Select_CString(target_heir.IsFemale, 'обізнана', 'обізнаний' )] в дипломатії, військовій справі та управлінні, але й має корисні зв'язки при дворах інших держав, що дуже цінує [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
+ },
+ "devotion_events.11.title": {
+  "en": "The Foreign Noble",
+  "uk": "Чужоземна шляхетна особа"
+ },
+ "devotion_events.117.a": {
+  "en": "What else do they want?",
+  "uk": "Чого ще вони хочуть?"
+ },
+ "devotion_events.117.desc": {
+  "en": "A group of monks have confiscated a [ShowReligionAdjective('calvinist')] church in [target_location.GetName]! Their actions were not sanctioned by [target_ruler.GetName] and, had we known about their intentions, we would have persuaded the monks to choose another building for their chapel. This has of course upset the people of the affected [target_location.GetRank.GetName], and even though we forced the monks to return the church, the enraged [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] will not forget the slight.",
+  "uk": "[target_location.GetName] не вірить своїм очам: група ченців конфіскувала #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністську#!#! церкву! [target_ruler.GetName] не [Select_CString(target_ruler.IsFemale, 'схвалювала', 'схвалював' )] це рішення, і знай ми заздалегідь, що вони задумали, ми б переконали ченців обрати для каплиці інший будинок. Звісно, жителі [target_location.Custom('LR_GEN')|l] засмучені, і хоча ми змусили повернути церкву, розгнівані [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] не забудуть цей неповажний жест."
+ },
+ "devotion_events.117.title": {
+  "en": "Confiscation of a [ShowReligionAdjectiveWithNoTooltip('calvinist')|U] Church",
+  "uk": "Конфіскація кальвіністської церкви"
+ },
+ "devotion_events.118.a": {
+  "en": "The sale of indulgences is what triggered [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]! Keep them hidden.",
+  "uk": "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]ої віри не було б, якби не продаж індульгенцій! Краще їх сховати."
+ },
+ "devotion_events.118.b": {
+  "en": "Perhaps they helped [old_ruler.GetNameWithNoTooltip] get into heaven?",
+  "uk": "Можливо, з їхньою допомогою [old_ruler.GetNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'вознеслася', 'возніссся' )] на небо?"
+ },
+ "devotion_events.118.desc": {
+  "en": "The late [old_ruler.GetName] feared for [old_ruler.GetHerHis] place in heaven and collected many relics to ensure as little time was spent in purgatory as possible. As servants gathered [old_ruler.GetHerHis] belongings, they discovered 8100 relics and 42 holy skeletons secreted away in various places all over [old_ruler.GetNameWithNoTooltip]'s residence.",
+  "uk": "[Select_CString(old_ruler.IsFemale, 'Покійна', 'Покійний' )] [old_ruler.GetName] [Select_CString(old_ruler.IsFemale, 'боялася', 'боявся' )] за свою долю в надгробному світі й [Select_CString(old_ruler.IsFemale, 'зібрала', 'зібрав' )] безліч реліквій, щоб провести якомога менше часу в чистилищі. Слуги, які збирали [Select_CString(old_ruler.IsFemale, 'її', 'його' )] речі, виявили 8100 мощей і 42 скелети святих, які [old_ruler.GetNameWithNoTooltip] дбайливо [Select_CString(old_ruler.IsFemale, 'зберігала', 'зберігав' )] всюди у своїй резиденції."
+ },
+ "devotion_events.118.title": {
+  "en": "Hallesches Heilthum",
+  "uk": ""
+ },
+ "devotion_events.119.a": {
+  "en": "Ignore the matter and pray it goes away.",
+  "uk": "Не будемо звертати уваги й помолимося, щоб чутки вщухли."
+ },
+ "devotion_events.119.b": {
+  "en": "Deny it fervently.",
+  "uk": "Будемо все заперечувати."
+ },
+ "devotion_events.119.desc": {
+  "en": "The whispers and glances at [target_ruler.GetName] when [target_ruler.GetSheHe] travels the streets of [ROOT.GetCountry.GetCapital.GetName] are caused by a disturbing rumor. People actually believe that [target_ruler.GetNameWithNoTooltip] was not consecrated solemnly, but instead was consecrated with a Bible pressed to [target_ruler.GetHerHis] neck while inside a tavern of disrepute!",
+  "uk": "Коли [target_ruler.GetName] йде вулицями міста [ROOT.GetCountry.GetCapital.GetName], люди витріщаються й перешіптуються. Усьому причиною обурливі чутки: народ вірить, що замість урочистої церемонії рукопокладення [Select_CString(target_ruler.IsFemale, 'їй', 'йому' )] просто приклали Біблію до шиї в якомусь злачному шинку!"
+ },
+ "devotion_events.119.title": {
+  "en": "The Nag's Head Rumor",
+  "uk": "Чутки про неналежне рукопокладення"
+ },
+ "devotion_events.12.a": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetHeirTitle] might be a mere merchant's [target_heir.GetDaughterSon], but [target_heir.GetSheHe] has proven [target_heir.GetHerselfHimself]!",
+  "uk": "Може, [Select_CString(target_heir.IsFemale,'наша', 'наш')] [ROOT.GetCountry.GetGovernment.GetHeirTitle] і [Select_CString(target_heir.IsFemale,'донька', 'син')] простих купців, але [Select_CString(target_heir.IsFemale,'вона', 'він')] вже [Select_CString(target_heir.IsFemale,'довела', 'довів')] своє право на владу!"
+ },
+ "devotion_events.12.desc": {
+  "en": "A shrewd mind for negotiations, and a talent for bargaining that must come from [target_heir.GetHerHis] merchant parents, have made [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], free [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], and the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of the [ROOT.GetCountry.GetLongName] respect and fear [target_heir.GetName]. They will never attempt to fool [target_heir.GetHerHim] in any kinds of bargains or negotiations when [target_heir.GetSheHe] leads our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[target_heir.GetName] вміє вправно вести перемовини й укладати угоди — мабуть, [Select_CString(target_heir.IsFemale,'вона успадкувала', 'він успадкував')] ці таланти від своїх батьків-купців. Завдяки цим якостям [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], вільні [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! ставляться до [Select_CString(target_heir.IsFemale,'неї', 'нього')] з повагою й деяким острахом. Коли [Select_CString(target_heir.IsFemale,'майбутня', 'майбутній')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] візьме владу до своїх рук, ніхто не наважиться обдурити [Select_CString(target_heir.IsFemale,'її', 'його')]."
+ },
+ "devotion_events.12.title": {
+  "en": "The Merchant's [target_heir.GetDaughterSon]",
+  "uk": "[Select_CString(target_heir.IsFemale,'Купецька донька', 'Купецький син')]"
+ },
+ "devotion_events.13.a": {
+  "en": "We knew from the beginning that [target_heir.GetSheHe] will rule our [ROOT.GetCountry.GetFlavorRank] wisely.",
+  "uk": "Ми з самого початку знали, що [Select_CString(target_heir.IsFemale, 'вона', 'він' )] буде мудро правити [ROOT.GetCountry.Custom('rank_ru_INST')|l]."
+ },
+ "devotion_events.13.desc": {
+  "en": "Learned in the science of things divine, our [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s chosen successor, [target_heir.GetName], is able to use various forms of analysis and argument to help understand, explain, defend, or promote numerous religious topics.",
+  "uk": "[target_heir.GetName], [Select_CString(target_heir.IsFemale, 'майбутня', 'майбутній' )] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], чудово розбирається в науці про божественні явища. [Select_CString(target_heir.IsFemale, 'Вона', 'Він' )] вміє аналізувати й доводити свої доводи, щоб роз'яснювати, захищати або просувати різні релігійні питання."
+ },
+ "devotion_events.13.title": {
+  "en": "The Talented Theologian",
+  "uk": "Світило богослов'я"
+ },
+ "devotion_events.14.a": {
+  "en": "[target_heir.GetNameWithNoTooltip] had the people's support, now [target_heir.GetSheHe] has ours.",
+  "uk": "[target_heir.GetNameWithNoTooltip] користується підтримкою народу, а отже, отримає й нашу підтримку."
+ },
+ "devotion_events.14.desc": {
+  "en": "The people rejoiced when the local preacher, [target_heir.GetName], was chosen as the [ROOT.GetCountry.GetGovernment.GetHeirTitle] of [target_ruler.GetName] of the [ROOT.GetCountry.GetLongName]. Were they rejoicing because they saw an end to [target_heir.GetHerHis] constant sermons, or because they believed in [target_heir.GetHerHim] being able to make a difference in our [ROOT.GetCountry.GetFlavorRank]? No matter what, the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] support and trust the next [ROOT.GetCountry.GetGovernment.GetRulerTitle], [target_heir.GetNameWithNoTooltip].",
+  "uk": "Народ зрадів, дізнавшись, що [Select_CString(target_heir.IsFemale, 'місцева проповідниця', 'місцевий проповідник' )] [target_heir.GetName] — [Select_CString(target_heir.IsFemale, 'майбутня', 'майбутній' )] [ROOT.GetCountry.GetGovernment.GetHeirTitle|l], і [ROOT.GetCountry.GetLongName] належатиме [Select_CString(target_heir.IsFemale, 'їй', 'йому' )], коли [target_ruler.GetName] відійде від справ. Але чому вони зраділи більше — тому, що [Select_CString(target_heir.IsFemale, 'її', 'його' )] нескінченним проповідям настане кінець, чи тому, що [Select_CString(target_heir.IsFemale, 'вона', 'він' )], можливо, змінить життя в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] на краще? Як би там не було, [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] довіряють [Select_CString(target_heir.IsFemale, 'їй', 'йому' )] і вважають, що [target_heir.GetNameWithNoTooltip] — [Select_CString(target_heir.IsFemale, 'гідна', 'гідний' )] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "devotion_events.14.title": {
+  "en": "The Local Preacher",
+  "uk": "Місцевий проповідник"
+ },
+ "devotion_events.15.a": {
+  "en": "How did this happen?",
+  "uk": "Як же це сталося?"
+ },
+ "devotion_events.15.desc": {
+  "en": "It began, as it always does, with rumors, gossip, and sneaked glances filled with contempt and malice. If this challenge to [target_ruler.GetName]'s rule goes too far, that [target_ruler.GetSheHe] was not elected properly to the seat of our [ROOT.GetCountry.GetFlavorRank], people will no longer speak but might try to depose [target_ruler.GetHerHim]!",
+  "uk": "Як і скрізь, усе почалося з чуток, пліток і презирливих злісних поглядів нишком. Люди вважають, що [target_ruler.GetName] несправедливо [Select_CString(target_ruler.IsFemale, 'була обрана правителькою', 'був обраний правителем' )] [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Якщо невдоволення зайде надто далеко, народ може перейти від слів до діла й спробує усунути [Select_CString(target_ruler.IsFemale, 'її', 'його' )]!"
+ },
+ "devotion_events.15.title": {
+  "en": "Rule Challenged",
+  "uk": "Випробування для правителя"
+ },
+ "devotion_events.16.a": {
+  "en": "Convince [target_ruler.GetNameWithNoTooltip] to relent.",
+  "uk": "Можливо, [target_ruler.GetNameWithNoTooltip] відступиться — треба спробувати [Select_CString(target_ruler.IsFemale, 'її', 'його' )] переконати."
+ },
+ "devotion_events.16.b": {
+  "en": "[target_ruler.GetNameWithNoTooltip] is in the right!",
+  "uk": "[target_ruler.GetNameWithNoTooltip] все робить правильно!"
+ },
+ "devotion_events.16.desc": {
+  "en": "The strict, dictatorial attitude of [target_ruler.GetName] has provoked the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] of our [ROOT.GetCountry.GetFlavorRank], who demand that [target_ruler.GetNameWithNoTooltip]'s attempts to limit superstitious practices cease. The rage exuded from these simpletons over misguided traditions and pointless, non-doctrinal practices is baffling.",
+  "uk": "Суворий і нетерпимий до заперечень підхід до влади, який демонструє [target_ruler.GetName], призвів до того, що і [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], і [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] [ROOT.GetCountry.Custom('rank_ru_GEN')|l] почали вимагати, щоб [target_ruler.GetNameWithNoTooltip] [Select_CString(target_ruler.IsFemale, 'припинила', 'припинив' )] спроби покінчити з забобонами. Дивовижно, наскільки сильний гнів цих простаків, яким заборонили звичаї, що суперечать нашій вірі."
+ },
+ "devotion_events.16.title": {
+  "en": "Campaign Against Superstitious Practices",
+  "uk": "Боротьба з забобонами"
+ },
+ "devotion_events.18.a": {
+  "en": "Make sure [mad_seer.GetSheHe] is silenced, for good!",
+  "uk": "Нехай [Select_CString(mad_seer.IsFemale, 'вона', 'він' )] замовкне назавжди!"
+ },
+ "devotion_events.18.b": {
+  "en": "Neither acknowledge [mad_seer.GetHerHis] rants nor react to them.",
+  "uk": "Не будемо звертати уваги на дурницю, яку [Select_CString(mad_seer.IsFemale, 'вона', 'він' )] несе."
+ },
+ "devotion_events.18.c": {
+  "en": "[target_ruler.GetNameWithNoTooltip] will shelter such a fervent [mad_seer.GetReligion.GetAdjectiveWithNoTooltip]!",
+  "uk": "[target_ruler.GetNameWithNoTooltip] прихистить у себе людину таких палких поглядів [mad_seer.GetReligion.GetAdjectiveWithNoTooltip|l]ої природи!"
+ },
+ "devotion_events.18.desc": {
+  "en": "[mad_seer.GetSheHe|U] claims to be a seer who has seen the civic glory, the destruction of secular art and culture, and the great flood that will cleanse [ROOT.GetCountry.GetCapital.GetName] from its filth. The mad preacher calls for [ROOT.GetCountry.GetReligion.GetAdjective] renewal and has instituted an extreme puritanical campaign. Enlisting the help of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]'s young men, there is a risk that [mad_seer.GetSheHe] will cause disturbances or even dispute [target_ruler.GetName]'s right to rule!",
+  "uk": "Людина, яка називає себе [Select_CString(mad_seer.IsFemale, 'провидицею', 'провидцем' )], заявляє, що [Select_CString(mad_seer.IsFemale, 'бачила', 'бачив' )] мирську славу, руйнування світського мистецтва й культури, а також великий потоп, який очистить місто [ROOT.GetCountry.GetCapital.GetName] від скверни. [Select_CString(mad_seer.IsFemale, 'Божевільна проповідниця', 'Божевільний проповідник' )] закликає до оновлення #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри й організовує вкрай пуританську кампанію. Якщо [Select_CString(mad_seer.IsFemale, 'вона', 'він' )] отримає підтримку молодих жителів міста [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip], це може призвести до заворушень. Можливо, люди навіть почнуть сумніватися, що [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'гідна', 'гідний' )] правити!"
+ },
+ "devotion_events.18.title": {
+  "en": "The Mad Seer",
+  "uk": "Божевільний провидець"
+ },
+ "devotion_events.19.a": {
+  "en": "We will start with our own advisors.",
+  "uk": "Почнемо з наших власних радників."
+ },
+ "devotion_events.19.b": {
+  "en": "Remind people who is the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of the [ROOT.GetCountry.GetLongNameWithNoTooltip]!",
+  "uk": "Нагадати людям, що [ROOT.GetCountry.GetLongNameWithNoTooltip] — це держава, де править [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ },
+ "devotion_events.19.desc": {
+  "en": "To our chagrin, but not our surprise, the perpetual struggle between [target_ruler.GetName] and each institution in our [ROOT.GetCountry.GetFlavorRank] - ecclesiastical, educational, legal, medical, fiscal, administrative, and publicistic - only increases with each new reform suggested. By establishing and supporting like-minded people within the dissenting institutions, they can help us persuade the reluctant populace to change their minds on our [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s proposed policies.",
+  "uk": "[target_ruler.GetName] і всі інституції [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — релігійні, освітні, правові, медичні, податкові, управлінські та публіцистичні — нескінченно сперечаються, і з кожним новим проєктом реформ боротьба лише посилюється. Це, звісно, прикро, але ми очікували, що таке може статися. Якщо забезпечити в цих гніздах розбрату єдність поглядів і намагатися її підтримувати, можливо, непоступливе населення умірить свою впертість, а [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе приймати нові закони, не стикаючись із сильним спротивом."
+ },
+ "devotion_events.19.title": {
+  "en": "A Council After Our Own Tastes",
+  "uk": "Рада, яка припаде нам до вподоби"
+ },
+ "devotion_events.2.a": {
+  "en": "We need this, ignore the rabble!",
+  "uk": "Наші потреби важливіші, ніж невдоволення черні!"
+ },
+ "devotion_events.2.b": {
+  "en": "Do what is possible with the money we already have.",
+  "uk": "Зробимо все, що можна, на наявні гроші."
+ },
+ "devotion_events.2.desc": {
+  "en": "Our forts are the most important defense we have against intruders and enemies, but they are in great need of restoration. We would need to increase our taxes in order to fund this, and that will most certainly upset those who feel they already pay exorbitant taxes.",
+  "uk": "Наші фортеці — найважливіший засіб оборони від загарбників, але зараз вони дуже потребують ремонту. Щоб отримати кошти на відновлення, доведеться підвищити податки, але платники податків явно будуть невдоволені: вони й без того вважають нинішні побори непосильними."
+ },
+ "devotion_events.2.title": {
+  "en": "Fort Maintenance",
+  "uk": "Утримання фортець"
+ },
+ "devotion_events.200.a": {
+  "en": "It was wise of us to choose [target_heir.GetNameWithNoTooltip].",
+  "uk": "Розумно було обрати такого діяча, як [target_heir.GetNameWithNoTooltip]."
+ },
+ "devotion_events.200.desc": {
+  "en": "[target_heir.GetName] was the leader of prayers in the masjid and preacher at the congregational prayer on Friday before [target_heir.GetSheHe] was chosen to rule our [ROOT.GetCountry.GetFlavorRank] after [target_ruler.GetName]. The local community who had elected [target_heir.GetHerHim] as Imām Ḵaṭīb will be sad to see [target_heir.GetNameWithNoTooltip] leave, for few others are as learned and as virtuous as [target_heir.GetHerHim] in instructing the congregation in the basics of [ShowReligionGroupName('muslim')]. When [target_heir.GetSheHe] leaves, religious questions will now have to be asked to someone inferior to [target_heir.GetNameWithNoTooltip], but what they will lose, we will gain.",
+  "uk": "[target_heir.GetName] [Select_CString(target_heir.IsFemale, 'була проповідницею й керувала', 'був проповідником і керував' )] колективною п'ятничною молитвою, а тепер правитиме [ROOT.GetCountry.Custom('rank_ru_INST')|l], коли [target_ruler.GetName] відійде від справ. Місцева громада, яка обрала [Select_CString(target_heir.IsFemale, 'її', 'його' )] імам-хатибом, буде засмучена, коли [target_heir.GetNameWithNoTooltip] передасть свою справу іншому: складно буде знайти настільки ж вченого й доброчесного чоловіка, здатного роз'яснити парафіянам основи #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#!. Віруючим доведеться ставити питання про віру комусь менш гідному, але ми здобудемо те, чого позбудуться вони."
+ },
+ "devotion_events.200.title": {
+  "en": "The Local Imām Ḵaṭīb",
+  "uk": "Місцевий імам-хатиб"
+ },
+ "devotion_events.201.a": {
+  "en": "Make it one of the pillars.",
+  "uk": "Нехай аш-Шура буде основою управління."
+ },
+ "devotion_events.201.b": {
+  "en": "It seems an easy way to administrate our country.",
+  "uk": "Здається, це легкий спосіб управляти нашою державою."
+ },
+ "devotion_events.201.desc": {
+  "en": "Some may argue that the Al-Šūrā is part of the ruling structure, but not one of its pillars. Meetings should follow the teachings of [ShowReligionGroupName('muslim')], consultations the guidelines of the $common_string_quran$ and $sunnah$. The leader should be elected from the ones attending to head the meeting. Discussions are based on mušāwara and muḏākara - deliberation and consensus. Everyone may voice their opinions and the voices of the majority are accepted, as long as it does not violate the teachings of the $common_string_quran$ and $sharia$.",
+  "uk": "Хтось може посперечатися, що аш-Шура — лише елемент управління, а не один з його стовпів. Зібрання мають відповідати #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламському#!#! вченню, наради — ідеям Корану й Сунни. З-поміж присутніх обирається той, хто керуватиме зібранням. Під час обговорень слід дотримуватися принципів «мушавара» й «мудакара» — обмірковування й узгодження. Будь-хто може висловити свою думку, а підсумкове рішення приймається більшістю голосів, якщо не суперечить положенням Корану й Сунни."
+ },
+ "devotion_events.201.title": {
+  "en": "The Guiding Principles",
+  "uk": "Основоположні принципи"
+ },
+ "devotion_events.202.a": {
+  "en": "'In šā' Allāh.",
+  "uk": "Іншааллах."
+ },
+ "devotion_events.202.b": {
+  "en": "Wise words that we will heed.",
+  "uk": "Ми прислухаємося до цих мудрих слів."
+ },
+ "devotion_events.202.desc": {
+  "en": "Alī ibn Abī Ṭālib, cousin of the Prophet, peace be upon him, once said: 'Infuse your heart with mercy, love and kindness for your subjects. Be not in face of them a voracious animal, counting them as easy prey, for they are of two kinds: either they are your brothers in religion or your equals in creation. Error catches them unaware, deficiencies overcome them, evil deeds and sins are committed by them intentionally and by mistake. So grant them your pardon and your forgiveness to the same extent that you hope [ROOT.GetCountry.GetReligion.GetGodName] will grant you His pardon and His forgiveness. For you are above them, and he who appointed you is above you, and [ROOT.GetCountry.GetReligion.GetGodName] is above him who appointed you. [ROOT.GetCountry.GetReligion.GetGodName] has sought from you the fulfillment of their requirements and He is trying you with them.'\\n\\nA valuable lesson can be learned from his words, which we could devote ourselves to, or find ways to incorporate into our administration.",
+  "uk": "Алі ібн Абу Таліб, двоюрідний брат Пророка, мир йому, одного разу сказав: «Пропитай серце своє милістю до ввірених на твоє піклування, і любов'ю до них, і люб'язністю в поводженні з ними, і не будь з ними подібний до жадібного хижого звіра, що вважає добрим пожерти їх, адже вони — двох видів: або брати твої по вірі, або подібні до тебе у творінні, і якщо будуть оступатися, якщо стануть помилятися, добровільно чи мимоволі, даруй їм своє прощення й вибачення, подібно до того як бажаєш ти й сподіваєшся, що дарує [ROOT.GetCountry.GetReligion.GetGodName] своє прощення тобі й вибачення, адже ти поставлений над ними, а той, хто тебе призначив — над тобою, а [ROOT.GetCountry.GetReligion.GetGodName] — над тим, хто тебе призначив! Він поставив тебе про справи їхні турботу проявляти, по них тобі буде Він воздаяння своє дарувати».\\n\\nЗ його слів можна винести цінний урок. Ми могли б слідувати цим принципам або постаратися впровадити їх у нашу систему управління."
+ },
+ "devotion_events.202.title": {
+  "en": "Heart of Mercy",
+  "uk": "Милостиве серце"
+ },
+ "devotion_events.203.a": {
+  "en": "The coin will enlarge our coffers.",
+  "uk": "Дзвінкі монети поповнять нашу скарбницю."
+ },
+ "devotion_events.203.b": {
+  "en": "It will go to the poor and needy, as always.",
+  "uk": "Як і завжди, їх отримають бідні й нужденні."
+ },
+ "devotion_events.203.desc": {
+  "en": "The House of Wealth administers the taxes and serves as a treasury which manages personal finances and government expenditures. It administers the $zakah$ as well, the tax every wealthy [ShowReligionGroupAdjective('muslim')] pays to be distributed to those in need, unemployed, injured, or otherwise incapable to work. This last year, regardless of whatever problems our [ROOT.GetCountry.GetFlavorRank] faced, our people managed to have an exceptional one. The amount of $zakah$ that flows into the Bayt al-Māl exceeds any expectations we might have had.",
+  "uk": "Дім багатства завідує податками й слугує скарбницею, керуючи особистими фінансами та урядовими витратами. Крім того, там стягують закят — податок, який платять заможні #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульмани#!#! для допомоги нужденним, безробітним, тим, хто отримав каліцтво або з іншої причини не здатний працювати. [ROOT.GetCountry.Custom('rank_ru_DAT')] минулого року довелося нелегко, однак жителям щастило: закят, який надійшов до байт аль-мал, перевищив усі можливі очікування."
+ },
+ "devotion_events.203.title": {
+  "en": "Bayt al-Māl",
+  "uk": "Байт аль-мал"
+ },
+ "devotion_events.204.a": {
+  "en": "Education should be for all, men and women.",
+  "uk": "Освіта має бути доступною для всіх — і чоловіків, і жінок."
+ },
+ "devotion_events.204.b": {
+  "en": "This is a matter we need to reflect upon before we decide anything.",
+  "uk": "Треба поміркувати над цим, перш ніж приймати рішення."
+ },
+ "devotion_events.204.desc": {
+  "en": "Muḥammad, may peace be upon him, praised the women of al-Anṣār because shame did not prevent them from learning [ShowReligionGroupName('muslim')]. Fāṭima al-Fihrīya - who founded the University of al-Qarawīyīn, Lubnā of [ShowLocationName('cordoba')] - the skilled mathematician, and Fāṭima b. Abī al-Qāsim 'Abd al-Raḥmān b. Muḥammad b. Ḡālib al-Ansārī al-Šarrāṭ - whose works of legal theory, jurisprudence, and mysticism showed her great knowledge of Islamic sciences, are all great examples of what happens when you educate women. Throughout history, women have shown that they are willing and able to learn about [ShowReligionGroupNameWithNoTooltip('muslim')] and to continue the work of spreading [ROOT.GetCountry.GetReligion.GetName]. Giving women the great opportunity to learn and teach, we will be able to spread our faith much faster.",
+  "uk": "Мухаммед, мир йому, возносив хвалу ансарським жінкам, які не злякалися осуду й вивчали #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!. Фатіма аль-Фіхрі, яка заснувала університет аль-Карауїн, талановитий математик Лубна #TOOLTIP:LOCATION,cordoba_tt,X #L Кордовська#!#! і Фатіма б. Абі аль-Касім 'Абд аль-Рахман б. Мухаммед б. Галіб аль-Ансарі аль-Шаррат, чиї роботи про теорію права, юриспруденцію й містицизм являють глибокі знання в ісламській науці, — прекрасні приклади освічених жінок. Упродовж історії жінки неодноразово доводили, що хочуть і можуть осягати іслам і нести світло #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри. Давши жінкам можливість навчатися й навчати, ми зможемо набагато швидше поширювати свою віру."
+ },
+ "devotion_events.204.title": {
+  "en": "The Education of Women",
+  "uk": "Жіноча освіта"
+ },
+ "devotion_events.205.a": {
+  "en": "Allow more space for traders.",
+  "uk": "Торговцям потрібно більше місця."
+ },
+ "devotion_events.205.b": {
+  "en": "Make it a place of worship.",
+  "uk": "Тут будуть здійснюватися молитви."
+ },
+ "devotion_events.205.desc": {
+  "en": "[ROOT.GetCountry.GetCapital.GetName] attracts traders and merchants from all over the world, and the sound and smell of distressed animals, the voices bargaining, the fragrance of spices, and all the colors of the garments, the fabrics, and the carpets sold here can be overwhelming. An area in the center of the bazaar has been left untouched, intended for a mosque, but as the bazaar has become increasingly busy, that place could be better used for more market stalls.",
+  "uk": "Місто [ROOT.GetCountry.GetCapital.GetName] приваблює торговців і купців з усього світу. Море запахів і звуків, крики переляканих звірів, голоси, які сперечаються про ціни, аромат спецій, буяння кольорів найрізноманітнішого одягу, тканин і килимів — усе це вражає уяву. Ділянка в центрі базару залишається недоторканою, оскільки була призначена для мечеті. Але торговців і покупців стає дедалі більше, і це місце можна було б віддати під прилавки."
+ },
+ "devotion_events.205.title": {
+  "en": "The Bazaar",
+  "uk": "Базар"
+ },
+ "devotion_events.207.a": {
+  "en": "Remove our most corrupt governor appointments.",
+  "uk": "Позбавити посади найкорумпованіших губернаторів."
+ },
+ "devotion_events.207.desc": {
+  "en": "Each and every governor has their financial assets and other details recorded before they are appointed. This is then kept in a special office, only to be reviewed each year when they are being checked for discrepancies in the finances. This is to avoid corruption and bribery, but sometimes the system fails.",
+  "uk": "Перед призначенням кожного губернатора його фінансові накопичення та інші дані записуються й зберігаються в особливому кабінеті. Щороку ці записи оновлюються й підлягають перевірці на розбіжності у фінансах. Така система дозволяє запобігти хабарництву, але іноді й вона підводить."
+ },
+ "devotion_events.207.title": {
+  "en": "The Corrupt Governors",
+  "uk": "Корумповані губернатори"
+ },
+ "devotion_events.208.a": {
+  "en": "Ignore it, excuse it, forget it.",
+  "uk": "Заплющимо очі на звинувачення, пробачимо [Select_CString(minister.IsFemale,'радницю', 'радника')] й забудемо про суперечку."
+ },
+ "devotion_events.208.b": {
+  "en": "Try to find a solution to this.",
+  "uk": "Постараємося знайти вирішення проблеми."
+ },
+ "devotion_events.208.c": {
+  "en": "Fire the [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle].",
+  "uk": "Геть зі своєї посади, [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l]!"
+ },
+ "devotion_events.208.desc": {
+  "en": "[minister.GetName] upset the wrong [ROOT.GetCountry.GetReligion.GetAdjective] person with a statement that could be interpreted as if [minister.GetSheHe] had knowingly abandoned [ShowReligionGroupName('muslim')]. Before we could interrupt the discussion and perhaps save [minister.GetNameWithNoTooltip] from any accusations, declarations of being a kāfir, an unbeliever, had been made.",
+  "uk": "[minister.GetName] [Select_CString(minister.IsFemale, 'дозволила', 'дозволив' )] собі висловити неоднозначне твердження, яке можна було розцінити як свідоме заперечення #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#!. Це розсердило палкого прихильника #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри. Не встигли ми перервати суперечку й врятувати [Select_CString(minister.IsFemale, 'радницю', 'радника' )] від звинувачень, як [Select_CString(minister.IsFemale, 'її', 'його' )] вже назвали кафіром — [Select_CString(minister.IsFemale, 'невіруючою', 'невіруючим' )]."
+ },
+ "devotion_events.208.title": {
+  "en": "A Kāfir in Our [ROOT.GetCountry.GetGovernment.GetCourtTitle|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] і кафір"
+ },
+ "devotion_events.209.a": {
+  "en": "Force [target_ruler.GetNameWithNoTooltip] to promise to change [target_ruler.GetHerHis] ways.",
+  "uk": "Вимагати, щоб [target_ruler.GetNameWithNoTooltip] [Select_CString(target_ruler.IsFemale, 'пообіцяла', 'пообіцяв' )] змінитися."
+ },
+ "devotion_events.209.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] may utter any reproach they wish, but [target_ruler.GetNameWithNoTooltip] is [ROOT.GetCountry.GetGovernment.GetRulerTitle]!",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] базікають що завгодно, але [target_ruler.GetNameWithNoTooltip] все-таки [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ },
+ "devotion_events.209.desc": {
+  "en": "Complaints about [target_ruler.GetName]'s debauchery, decadent ways, and refusal to restore the prestige of [ShowReligionGroupName('muslim')] have become increasingly common. The [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] murmur in anger that [target_ruler.GetNameWithNoTooltip] spends [target_ruler.GetHerHis] days sleeping and nights with harlots and musicians. When the imām of [ROOT.GetCountry.GetCapital.GetName] named our [ROOT.GetCountry.GetGovernment.GetRulerTitle] in the public prayers, the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] even threw stones at him!",
+  "uk": "Люди дедалі більше обурюються тим, що [target_ruler.GetName] веде розпусний спосіб життя й не збирається відновлювати добре ім'я #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U] сердито обговорюють, як [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [target_ruler.GetNameWithNoTooltip] цілими днями спить, а ночі проводить у компанії блудниць і музикантів. Коли імам міста [ROOT.GetCountry.GetCapital.GetName] згадав це ім'я під час загальних молитов, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] закидали його камінням!"
+ },
+ "devotion_events.209.title": {
+  "en": "A Coup Against Decadence",
+  "uk": "Бунт проти розкладання"
+ },
+ "devotion_events.21.a": {
+  "en": "[target_ruler.GetNameWithNoTooltip] will shed [target_ruler.GetHerHis] religious garments for a crown!",
+  "uk": "[target_ruler.GetNameWithNoTooltip] змінить шати священнослужителя на корону!"
+ },
+ "devotion_events.21.b": {
+  "en": "That drastic step will not be taken yet.",
+  "uk": "Це занадто рішучий крок. Ще не час."
+ },
+ "devotion_events.21.desc": {
+  "en": "Each incident that lowers our devotion to our [ROOT.GetCountry.GetFlavorRank] sees more and more trouble approaching our doorstep. There are those that believe that religious considerations should be excluded from civil affairs, and their numbers have grown. They clamor for change and wish for us to secularize our government.",
+  "uk": "Кожен новий інцидент, що применшує нашу відданість [ROOT.GetCountry.Custom('rank_ru_DAT')|l], загрожує нам дедалі більшими проблемами. Дехто вважає, що релігійним поглядам не місце у світському житті, і кількість таких людей зростає. Вони вимагають змін і хочуть, щоб наш уряд відокремився від церкви."
+ },
+ "devotion_events.21.title": {
+  "en": "The Secularists Among Us",
+  "uk": "Секуляристи серед нас"
+ },
+ "devotion_events.210.a": {
+  "en": "Waste no time - expel them from [ROOT.GetCountry.GetFlavorRank]!",
+  "uk": "Якнайшвидше вигнати їх з [ROOT.GetCountry.Custom('rank_ru_GEN')|l]!"
+ },
+ "devotion_events.210.a.tt": {
+  "en": "Every owned [location|e] with [ShowReligionName('shia')] as the dominant [religion|e] will gain [ShowModifier('dev_rafida')] for 10 years",
+  "uk": "Кожен [Concept('location','район')|e], що нам належить, де домінуюча [Concept('religion','релігія')|e] — #TOOLTIP:RELIGION,shia_tt,X #L шиїзм#!#!, отримає модифікатор «[ShowModifier('dev_rafida')]» на 10 років"
+ },
+ "devotion_events.210.b": {
+  "en": "They may believe and call themselves whatever they wish.",
+  "uk": "Нехай вірять і називають себе як завгодно."
+ },
+ "devotion_events.210.desc": {
+  "en": "Followers of the [ShowReligionAdjective('shia')] faith - those we call the Rāfiḍa, who reject [ShowReligionGroupAdjective('muslim')] authority and leadership, who do not recognize 'Abū Bakr, 'Umar, and 'Uthmān as successors of the prophet Muḥammad, may peace be upon him - have made their presence known in our provinces and attracted others to join them. They even call themselves Rawāfiḍ - those who refuse - and pride themselves of having always rejected evil, not turned towards it.",
+  "uk": "#TOOLTIP:RELIGION,shia_tt,X #L Шиїти#!#!, яких ми називаємо рафідитами, заперечують #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламську#!#! владу й головування. Вони не визнають Абу Бакра, Умара й Усмана наступниками пророка Мухаммеда, мир йому. Рафідити набирають впливу в наших провінціях і надихають інших приєднатися до них. Вони навіть називають себе рафавідами — заперечувачами — й пишаються тим, що завжди відкидали зло й не схилялися до нього."
+ },
+ "devotion_events.210.title": {
+  "en": "The Rāfiḍa",
+  "uk": "Рафідити"
+ },
+ "devotion_events.211.a": {
+  "en": "These [ShowReligionAdjectiveWithNoTooltip('sunni')] fools have no place in our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Цим сліпцям-сунітам не місце в [ROOT.GetCountry.Custom('rank_ru_PREP')|l]."
+ },
+ "devotion_events.211.a.tt": {
+  "en": "Every owned [location|e] with [ShowReligionName('sunni')] as the dominant [religion|e] will gain [ShowModifier('dev_nasibi')] for 10 years",
+  "uk": "Кожен [Concept('location','район')|e], що нам належить, де домінуюча [Concept('religion','релігія')|e] — #TOOLTIP:RELIGION,sunni_tt,X #L сунізм#!#!, отримає модифікатор «[ShowModifier('dev_nasibi')]» на 10 років"
+ },
+ "devotion_events.211.b": {
+  "en": "Leave them be, they will one day realize their mistake.",
+  "uk": "Залишимо їх у спокої. Одного разу вони усвідомлять, що неправі."
+ },
+ "devotion_events.211.desc": {
+  "en": "Those we call the Nāṣibī, those who hate the 'Ahl Al-Bayt - the Household of the prophet Muḥammad, peace be upon him - and who hate their followers have emerged in our provinces. The [ShowReligionAdjective('sunni')] faithful who foolishly believe that 'Abū Bakr, 'Umar, and 'Uthmān are legitimate successors of Muḥammad, may peace be upon him, threaten the religious uniformity of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "У наших провінціях з'явилися ті, кого ми звемо насибітами. Вони ненавидять Ахль аль-Байт — сімейство пророка Мухаммеда, мир йому, — та його шанувальників. #TOOLTIP:RELIGION,sunni_tt,X #L Суніти#!#!, які помилково вірять, що Абу Бакр, Умар і Усман є законними наступниками Мухаммеда, мир йому, загрожують релігійній єдності [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "devotion_events.211.title": {
+  "en": "The Nāṣibī",
+  "uk": "Насибіти"
+ },
+ "devotion_events.212.a": {
+  "en": "We trusted them and they betrayed us!",
+  "uk": "Вони зрадили нашу довіру."
+ },
+ "devotion_events.212.b": {
+  "en": "[target_ruler.GetNameWithNoTooltip] blames [target_ruler.GetHerselfHimself] for being too naïve.",
+  "uk": "[target_ruler.GetNameWithNoTooltip] звинувачує себе в надмірній наївності."
+ },
+ "devotion_events.212.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] called for a meeting, a majlis, to discuss important and urgent matters in our [ROOT.GetCountry.GetFlavorRank]. Though their faces were honest and their words true, their intentions were deceitful and dishonest! Money squandered, prestige lost, and the hopes of a just majlis for our [ROOT.GetCountry.GetFlavorRank]'s good shattered and broken!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] скликав зібрання — меджліс — щоб обговорити важливі й термінові питання, що стосуються [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Учасники виглядали чесними людьми й вимовляли правдиві слова, але наміри їхні були підступними й корисливими! Гроші розтрачено, повагу втрачено, а надії на те, що в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] ще може з'явитися справедливий меджліс, рухнули."
+ },
+ "devotion_events.212.title": {
+  "en": "The Dishonesty in the Majlis",
+  "uk": "Обман у меджлісі"
+ },
+ "devotion_events.213.a": {
+  "en": "Remove [minister.GetHerHim] from our [ROOT.GetCountry.GetGovernment.GetCourtTitle], immediately!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] постановляє: негайно усунути [Select_CString(minister.IsFemale, 'її', 'його' )] з посади!"
+ },
+ "devotion_events.213.b": {
+  "en": "Dismiss the notion!",
+  "uk": "Відкинути цю думку!"
+ },
+ "devotion_events.213.desc": {
+  "en": "The work of a diligent [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] will expose them and, by extension, us to different cultures, religions, and traditions. We have always chosen to avert our gaze from the peculiar habits of [minister.GetName] and the obsession our [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] has with illuminated manuscripts and miniatures. Though our suspicions grew when we heard gossip and tales from servants and people of the [ROOT.GetCountry.GetGovernment.GetCourtTitle], we would never have anticipated the look on [minister.GetHerHis] face when the imām accused [minister.GetHerHim] of shirk - practicing idolatry!",
+  "uk": "Якщо [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] старанно виконує свої обов'язки, знайомство з новими культурами, релігіями й традиціями неминуче. [minister.GetName] вирізняється незвичними звичками, але ми воліли заплющувати очі на те, що [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] захоплюється мініатюрами й манускриптами з кольоровими ілюстраціями. Хоча розповіді й плітки слуг та інших людей, якими повниться [ROOT.GetCountry.GetGovernment.GetCourtTitle|l], вже викликали підозру, ми не очікували, що [minister.GetName] постане перед нами з таким виразом обличчя, коли імам звинуватив [Select_CString(minister.IsFemale, 'її', 'його' )] в ідолопоклонстві!"
+ },
+ "devotion_events.213.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U] Accused of Shirk",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U]: звинувачення в ідолопоклонстві"
+ },
+ "devotion_events.214.a": {
+  "en": "Go ahead, forbid them all!",
+  "uk": "Заборонити все!"
+ },
+ "devotion_events.214.b": {
+  "en": "Why bother?",
+  "uk": "Чому б це?"
+ },
+ "devotion_events.214.desc": {
+  "en": "We have been informed that [target_ruler.GetName]'s rule is questioned by our advisors. Apparently, the people are doubting [target_ruler.GetHerHis] piety. We must do something to establish a religious and political sovereignty! Idolatry is [ROOT.GetCountry.GetReligion.GetSinName], but still our people offer prayers to saintly figures, make pilgrimages to tombs and mosques, venerate trees, caves, and even stones. We must show our religious strength and abolish these things to grasp the power that is legitimately [target_ruler.GetNameWithNoTooltip]'s!",
+  "uk": "Нам повідомили, що радники почали ставити під сумнів владу, якою зараз володіє [target_ruler.GetName]. Мабуть, народ сумнівається в [Select_CString(target_ruler.IsFemale, 'її', 'його' )] правовірності. Необхідно терміново встановити верховенство релігійної та політичної влади! Ідолопоклонство — це [ROOT.GetCountry.GetReligion.GetSinName|l], але наш народ продовжує молитися статуям святих, здійснювати паломництва до гробниць і мечетей і схилятися перед деревами, печерами й навіть камінням. Необхідно довести, що наша віра сильніша, знищити єресь і знову взяти до рук владу, якою [target_ruler.GetNameWithNoTooltip] володіє по праву!"
+ },
+ "devotion_events.214.title": {
+  "en": "Abolish Idolatry?",
+  "uk": "Викорінення ідолопоклонства"
+ },
+ "devotion_events.215.a": {
+  "en": "Focus on taxes.",
+  "uk": "Зосередимося на податках."
+ },
+ "devotion_events.215.b": {
+  "en": "Focus on agriculture.",
+  "uk": "Зосередимося на сільському господарстві."
+ },
+ "devotion_events.215.c": {
+  "en": "Try to balance the two.",
+  "uk": "Постараємося знайти рівновагу."
+ },
+ "devotion_events.215.d": {
+  "en": "Our current policy is fine as is.",
+  "uk": "Нас влаштовує й поточна політика."
+ },
+ "devotion_events.215.desc": {
+  "en": "The people of our [ROOT.GetCountry.GetFlavorRank] are nomads and [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] who live off what the land provides. With this in mind, our governors need us to decide whether we should focus on taxes or agriculture. Some claim that the development of land is more important than the collection of the tax. Tax can only be obtained by the development of the land, and to demand tax without doing so will ruin our [ROOT.GetCountry.GetFlavorRank] and destroy its people. Others claim that people will develop the land without interference if just tax is demanded of them.",
+  "uk": "Жителі [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — кочівники й [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], які живуть тим, що дає земля. Наші губернатори просять нас вирішити, чому приділяти основну увагу — податкам чи сільському господарству. Одні стверджують, що освоєння земель важливіше за збір податків, оскільки податки можна отримати лише з розвинених земель, інакше і [ROOT.GetCountry.Custom('rank_ru_ACC')|l], і народ чекає катастрофа. Інші заявляють, що народ сам здатен освоїти землю, якщо вимагати від нього лише одного — податей."
+ },
+ "devotion_events.215.title": {
+  "en": "Taxes or Agriculture",
+  "uk": "Податки чи сільське господарство"
+ },
+ "devotion_events.216.a": {
+  "en": "Exclude state officials from entering any business.",
+  "uk": "Заборонимо державним чиновникам займатися підприємництвом."
+ },
+ "devotion_events.216.b": {
+  "en": "Distribute lands among the poor.",
+  "uk": "Розподілимо землі між бідняками."
+ },
+ "devotion_events.216.c": {
+  "en": "Choose none of them.",
+  "uk": "Не оберемо нічого."
+ },
+ "devotion_events.216.desc": {
+  "en": "After many meetings, discussions, and majlis, our advisors have brought us different reforms for us to consider. Two main factions have emerged with competing reforms, from which we are expected to choose one to improve our [ROOT.GetCountry.GetFlavorRank]. The first one proposes that we exclude state officials, such as diplomats and governors, from entering into any business. This would let them fully concentrate on their work in service to our [ROOT.GetCountry.GetFlavorRank], thus allowing them to do a better job. The second reform proposes that we distribute pasture lands and game reserves, which are currently reserved for the family of dignitaries, among the poor so that they may cultivate the land. Unpaid labor would also be made illegal.",
+  "uk": "Після численних зібрань, обговорень і меджлісів наші радники представили різні проєкти реформ. З двох основних ідей, які прямо суперечать одна одній, нам необхідно обрати одну — саме вона слугуватиме благу [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Перша пропозиція зводиться до заборони державним чиновникам, наприклад дипломатам і губернаторам, брати участь у будь-якому підприємництві, щоб вони повністю зосередилися на роботі й службі [ROOT.GetCountry.Custom('rank_ru_DAT')|l]. Укладачі другої реформи пропонують розподілити пасовищні землі й мисливські угіддя, призначені для високопосадовців, між бідними, які обробляти землю, а також заборонити неоплачувану працю."
+ },
+ "devotion_events.216.title": {
+  "en": "Reforms of the Pious",
+  "uk": "Реформи правовірних"
+ },
+ "devotion_events.219.a": {
+  "en": "Find volunteers and train them to become Muḥtasibīn.",
+  "uk": "Знайдемо й навчимо добровольців, які стануть мухтасибами."
+ },
+ "devotion_events.219.b": {
+  "en": "This not the correct way to deal with this.",
+  "uk": "Це не найкращий спосіб вирішення проблеми."
+ },
+ "devotion_events.219.desc": {
+  "en": "It has not been many months since we appointed a new Qāḍī - a judge ruling in accordance with $sharia$ - to each of our provinces, yet many of them already come to us with furrowed brows and anxious eyes. They tell us of our people's decadence, their crimes, and their impious ways. They have reminded us sternly of Ḥisba, our divinely sanctioned duty to intervene and command right and forbid wrong. The laws of [ROOT.GetCountry.GetReligion.GetGodName] must be followed. Our people need muṭṭawwi'īn - religious police - to enforce $sharia$.",
+  "uk": "Кілька місяців тому ми призначили в кожну провінцію нового каді — суддю, який керується нормами шаріату. Тепер же вони приходять до нас і розповідають, дивлячись на нас похмуро й з занепокоєнням, про занепад нашого народу, який погряз у злочинах і невір'ї. Каді суворо нагадують про хісбу — наш божественний обов'язок заохочувати благе й забороняти погане, адже хто ниспослав нам ці закони, якщо не [ROOT.GetCountry.GetReligion.GetGodName]? Нашому народу необхідний мутавін — релігійна поліція, яка стежитиме за дотриманням шаріату."
+ },
+ "devotion_events.219.title": {
+  "en": "The Qāḍī, the Ḥisba, and the Muḥtasib",
+  "uk": "Каді, хісба й мухтасиб"
+ },
+ "devotion_events.22.a": {
+  "en": "Find other sources of coin.",
+  "uk": "Знайти інші джерела грошей."
+ },
+ "devotion_events.22.b": {
+  "en": "Increase conscription to make up for the losses in volunteers.",
+  "uk": "Посилити військову повинність, щоб поповнити нестачу добровольців."
+ },
+ "devotion_events.22.desc": {
+  "en": "Disillusioned by what they see as corruption and decadence, fellow worshippers have stopped sending donations to us and are refusing to volunteer to fight in our armies as the bulwark of the [ROOT.GetCountry.GetReligion.GetAdjective] faith.",
+  "uk": "Запідозривши нас у корупції та занепаді, розчаровані парафіяни перестали робити пожертви й відмовляються добровільно битися на боці наших військ. Нас більше не вважають оплотом #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри."
+ },
+ "devotion_events.22.title": {
+  "en": "Decadence Rules",
+  "uk": "Розкладання влади"
+ },
+ "devotion_events.23.a": {
+  "en": "Ignore the depravity of [target_ruler.GetNameWithNoTooltip].",
+  "uk": "Може, [target_ruler.GetNameWithNoTooltip] і поводиться безнравно, але ми вдамо, що нічого не відбувається."
+ },
+ "devotion_events.23.b": {
+  "en": "Try to make a change.",
+  "uk": "Спробуємо щось змінити."
+ },
+ "devotion_events.23.desc": {
+  "en": "[target_ruler.GetName] has become corrupt, focusing on [target_ruler.GetHerHis] personal aims rather than the good of the [ROOT.GetCountry.GetReligion.GetAdjective] faith. With this in mind, it is no surprise our people have become disillusioned with [target_ruler.GetHerHim].",
+  "uk": "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'загрузла', 'загруз' )] у корупції. [Select_CString(target_ruler.IsFemale, 'Вона', 'Він' )] не дбає про процвітання #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри й лише переслідує власні цілі. Не дивно, що люди починають [Select_CString(target_ruler.IsFemale, 'в ній', 'в ньому' )] розчаровуватися."
+ },
+ "devotion_events.23.title": {
+  "en": "Corrupt [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] грузне в корупції"
+ },
+ "devotion_events.24.a": {
+  "en": "Marvelous! Such a great initiative.",
+  "uk": "Чудова ініціатива!"
+ },
+ "devotion_events.24.desc": {
+  "en": "Inspired by our holy cause, volunteers from the [ROOT.GetCountry.GetReligion.GetAdjective] world have arrived to help take the fight to the infidel and spread the true faith!",
+  "uk": "Надихнувшись нашою благою метою, на допомогу прибули добровольці — послідовники #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ого#! вчення. Вони хочуть битися з безбожниками в ім'я істинної віри!"
+ },
+ "devotion_events.24.title": {
+  "en": "Volunteers for the Holy Fight",
+  "uk": "Добровольці для священної битви"
+ },
+ "devotion_events.26.a": {
+  "en": "[target_heir.GetNameWithNoTooltip] might be just what we need.",
+  "uk": "Можливо, [target_heir.GetNameWithNoTooltip] — та людина, яка нам потрібна."
+ },
+ "devotion_events.26.desc": {
+  "en": "A no-nonsense [target_heir.GetWomanMan], well-versed in the art of rhetoric, the next ruler [target_heir.GetName] is already using [target_heir.GetHerHis] powers for good, spreading [target_heir.GetHerHis] ideas to any who will listen - members of the high society are eager to prove their intellect to [target_heir.GetHerHim], while others are simply fascinated by the fashionable [target_heir.GetWomanMan]. Regardless of why, there is clearly something special about [target_heir.GetNameWithNoTooltip], as even folks usually completely uninterested in politics find themselves taking part of the discussion.",
+  "uk": "[Select_CString(target_heir.IsFemale, 'Майбутня правителька', 'Майбутній правитель' )] [target_heir.GetName] — [Select_CString(target_heir.IsFemale, 'розсудлива жінка', 'розсудлива людина' )], яка прекрасно [Select_CString(target_heir.IsFemale, 'володіє', 'володіє' )] ораторським мистецтвом. [Select_CString(target_heir.IsFemale, 'Вона', 'Він' )] вміло використовує свої навички й ділиться ідеями з тими, хто готовий слухати. Люди з вищого суспільства прагнуть блиснути перед [Select_CString(target_heir.IsFemale, 'нею', 'ним' )] своїм розумом, а решта просто зачаровані [Select_CString(target_heir.IsFemale, 'ефектною дамою', 'ефектним чоловіком' )]. Як би там не було, [target_heir.GetNameWithNoTooltip] — [Select_CString(target_heir.IsFemale, 'особлива жінка', 'особливий чоловік' )]; навіть ті, хто раніше зовсім не цікавився політикою, починають захоплено брати участь у дискусії."
+ },
+ "devotion_events.26.title": {
+  "en": "The Influential Reformer",
+  "uk": "Впливовий реформатор"
+ },
+ "devotion_events.3.a": {
+  "en": "It is for the greater good; who wants to be invaded?",
+  "uk": "Це для загального блага. Хіба хтось хоче вторгнення ворога?"
+ },
+ "devotion_events.3.b": {
+  "en": "They are good enough as they are.",
+  "uk": "Наші фортеці й без того гарні."
+ },
+ "devotion_events.3.desc": {
+  "en": "The forts no longer look as if they would crumble before our eyes, they are now sturdy enough to withstand most attacks to their walls. Their defenses, although now functional and impressive despite their age, are still lacking in comparison to other nations' forts. We would need to dig deep into the pockets of our taxpayers in order to be able to fund the upgrades and the modernization our forts sorely need.",
+  "uk": "Наші фортеці більше не виглядають так, ніби ось-ось завалятся. Тепер вони достатньо міцні, щоб витримати облогу. Оборонні системи теж непогано працюють, попри свій поважний вік. Але вони вже поступаються спорудам інших держав. Фортеці гостро потребують модернізації, і для цього нам доведеться залізти до кишень платників податків."
+ },
+ "devotion_events.3.title": {
+  "en": "Modernization of the Forts",
+  "uk": "Модернізація фортець"
+ },
+ "devotion_events.4.a": {
+  "en": "We hear, and we reluctantly oblige.",
+  "uk": "На жаль, нам доведеться поступитися."
+ },
+ "devotion_events.4.b": {
+  "en": "Say what? WE CANNOT HEAR YOU!",
+  "uk": "Що-що? Вас не чутно!"
+ },
+ "devotion_events.4.desc": {
+  "en": "It is hard to hear our citizens rage against the raised taxes from the high, high walls and inside the thick, thick towers of our restored forts, but we do hear them threatening revolt and rebellion unless we lower the taxes.",
+  "uk": "Обурення громадян, невдоволених підвищенням податків, майже не чутно за високими й товстими стінами наших оновлених фортець. Але ми все ж чуємо, як вони погрожують влаштувати бунт, якщо податки не знизяться."
+ },
+ "devotion_events.4.title": {
+  "en": "Too High Taxes",
+  "uk": "Занадто високі податки"
+ },
+ "devotion_events.5.a": {
+  "en": "Vanity is a sin, even if it is for a fort!",
+  "uk": "Марнославство — гріх, і фортець це теж стосується!"
+ },
+ "devotion_events.5.b": {
+  "en": "Surely our subjects will appreciate their taxes going towards such beauty!",
+  "uk": "Наші піддані навряд чи будуть проти, якщо їхні податки підуть на таку красу!"
+ },
+ "devotion_events.5.desc": {
+  "en": "A gift of a stained-glass was placed in one of our forts, and the effect is exquisite. So exquisite, in fact, that we consider embellishing every fort we own with our sigil in stained-glass.",
+  "uk": "В одній з наших фортець встановили вітраж, піднесений у дар. Результат вийшов справді чудовим. Може, прикрасити всі наші фортеці вітражами з нашою символікою?"
+ },
+ "devotion_events.5.title": {
+  "en": "Embellishment of Forts",
+  "uk": "Прикрашання фортець"
+ },
+ "devotion_events.6.a": {
+  "en": "Our country is [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] and will always be [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip]!",
+  "uk": "У нас [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]а держава, і вона навіки залишиться [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ою!"
+ },
+ "devotion_events.6.b": {
+  "en": "Concede full religious freedom to the [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] отримає повну свободу віросповідання."
+ },
+ "devotion_events.6.desc": {
+  "en": "A group known for their radical ideas regarding religious reforms is condemning our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and the [ROOT.GetCountry.GetReligion.GetAdjective] doctrines in their rallying of the public. This has led to widespread complaints and demands for religious freedom from our not-so-loyal citizens of [target_location.GetName].",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] і #L [ROOT.GetCountry.GetReligion.GetAdjective|l]е#! вчення зазнали відкритої критики з боку групи, відомої своїми радикальними ідеями щодо релігійних реформ. Через це жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], забувши про вірність державі, тепер засипають нас скаргами й вимогами релігійних свобод."
+ },
+ "devotion_events.6.title": {
+  "en": "The Quest for Religious Freedom",
+  "uk": "У пошуках свободи віросповідання"
+ },
+ "devotion_events.7.a": {
+  "en": "Increase efforts to convert the heretics.",
+  "uk": "Докласти ще більше зусиль до навернення єретиків у нашу віру."
+ },
+ "devotion_events.7.b": {
+  "en": "Then we shall be ashamed.",
+  "uk": "Тоді ми вкриємо себе ганьбою."
+ },
+ "devotion_events.7.desc": {
+  "en": "One of our [ROOT.GetCountry.GetFlavorRank]'s purposes is to spread the [ROOT.GetCountry.GetReligion.GetAdjective] faith and protect it from heresy. It is a noble cause, but when heresy strikes in the very heart of our country it shames us. The [target_location.GetRank.GetName] of [target_location.GetName] does not follow the [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] faith and, if this situation is not addressed soon, it will bring us great shame.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank|U], крім усього іншого, поширює #L [ROOT.GetCountry.GetReligion.GetAdjective|l]у#! віру й захищає її від єресі. Це шляхетна мета, але єресь у самому серці нашої держави кидає на нас тінь ганьби. [target_location.GetRank.GetName|U] [target_location.GetName] не дотримується догм [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ої віри, і якщо з цим не розібратися якомога швидше, ми зганьбимо самі себе."
+ },
+ "devotion_events.7.title": {
+  "en": "False Beliefs",
+  "uk": "Хибні вірування"
+ },
+ "devotion_events.8.a": {
+  "en": "Forge those documents.",
+  "uk": "Підробимо документи."
+ },
+ "devotion_events.8.b": {
+  "en": "Keep that filth out of our archives!",
+  "uk": "Цій мерзоті не місце в наших архівах!"
+ },
+ "devotion_events.8.ct": {
+  "en": "The forgery might be discovered...",
+  "uk": "Підробку можуть викрити…"
+ },
+ "devotion_events.8.desc": {
+  "en": "It is a common defense against annexation and usurpation to forge documents, have them counterfeited or backdated, to corroborate one's arguments during times of struggles for expansion of land or privileges. Even now, these questionable methods are still used, and even we ponder if this practice should benefit us. We have done so in the past, but there is always the chance that someone will detect the discrepancies.",
+  "uk": "Підроблені документи — звичайний засіб захисту від захоплення земель або узурпації влади. Їх підробляють або складають заднім числом, щоб підкріпити свої доводи в боротьбі за нові території чи привілеї. Ці сумнівні методи використовуються навіть зараз, але ми сумніваємося, чи піде це нам на користь. У минулому ми неодноразово вдавалися до підробки, але завжди слід пам'ятати, що хтось може й помітити розбіжності."
+ },
+ "devotion_events.8.title": {
+  "en": "Forgery of Documents",
+  "uk": "Підробка документів"
+ },
+ "devotion_events.9.a": {
+  "en": "Bribe, blackmail, or beat anyone who let this secret slip!",
+  "uk": "Підкуповувати, шантажувати й бити всіх, хто видасть цю таємницю!"
+ },
+ "devotion_events.9.desc": {
+  "en": "Despite our best efforts to conceal the forgery, we were exposed. All we wanted to do was to protect our [ROOT.GetCountry.GetFlavorRank] from those who would seek to annex and usurp our provinces.",
+  "uk": "Як би ми не старалися приховати підробку документів, наш замисел викрили. Але ми діяли з благородних спонукань, намагаючись захистити [ROOT.GetCountry.Custom('rank_ru_ACC')|l] від посягань на наші провінції."
+ },
+ "devotion_events.9.title": {
+  "en": "Forged Documents",
+  "uk": "Підроблені документи"
+ }
+}

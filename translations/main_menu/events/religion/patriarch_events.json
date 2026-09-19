@@ -1,0 +1,98 @@
+{
+ "STATIC_MODIFIER_DESC_rooting_out_heresy": {
+  "en": "This location is undergoing an inquisition led by its Metropolitan in order to ensure religious conformance and the rooting out of all heresy.",
+  "uk": "У цьому районі діє інквізиція на чолі з митрополитом. Вона перевіряє дотримання догматів віри та викорінює будь-яку єресь."
+ },
+ "STATIC_MODIFIER_DESC_saints_enforced": {
+  "en": "We have forced the population in this location to adhere to our own religious customs at the cost of them highly resenting our rule. Over time it will, however, allow us to better integrate them into our society.",
+  "uk": "Ми змусили мешканців цієї провінції дотримуватися наших релігійних звичаїв. Це викликало певне невдоволення нашим правлінням, але з часом ці люди зможуть краще інтегруватися в наше суспільство."
+ },
+ "STATIC_MODIFIER_NAME_rooting_out_heresy": {
+  "en": "Supporting Local Inquisition",
+  "uk": "Підтримка місцевої інквізиції"
+ },
+ "STATIC_MODIFIER_NAME_saints_enforced": {
+  "en": "Religious Conformance",
+  "uk": "Релігійний догматизм"
+ },
+ "patriarch_events.1.a": {
+  "en": "We must enforce the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] saints and feasts.",
+  "uk": "Ми повинні примусити їх до вшанування [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их святих."
+ },
+ "patriarch_events.1.b": {
+  "en": "There is little to be gained on insisting.",
+  "uk": "Примусом ми нічого не доб'ємося."
+ },
+ "patriarch_events.1.desc": {
+  "en": "There is great uncertainty in the see of [local_saint_state_province.GetProvince.GetName]. While we are united in faith, the people of the state, including many of the local priests, are refusing to participate in the feasts and celebrations of saints that are customary within our borders. They claim that these are not canonical and that they will observe the religious customs of their own ancestors, including the veneration of a number of suspect saints from the area.",
+  "uk": "У нас виникла невизначеність у духовних питаннях, пов'язана з провінцією [local_saint_state_province.GetProvince.GetName]. Хоча ми з її мешканцями маємо спільну віру, багато хто з них, зокрема священики, відмовляються вшановувати місцевошанованих святих нашої держави, вважаючи їх неканонічними. Натомість вони дотримуються релігійних звичаїв своїх предків, шануючи власних сумнівних «святих»."
+ },
+ "patriarch_events.1.title": {
+  "en": "The Saints of [local_saint_state_province.GetProvince.GetNameWithNoTooltip]",
+  "uk": "Святі з провінції [local_saint_state_province.GetProvince.GetNameWithNoTooltip]"
+ },
+ "patriarch_events.2.a": {
+  "en": "He must learn his place!",
+  "uk": "Він повинен знати своє місце!"
+ },
+ "patriarch_events.2.b": {
+  "en": "We will make a further donation to the Church to show our humility.",
+  "uk": "На знак покаяння ми зробимо ще одну пожертву церкві."
+ },
+ "patriarch_events.2.desc": {
+  "en": "The bishop of [local_see_province.GetProvince.GetName] has objected to [target_character.GetName] and the aggrandizing way [target_character.GetSheHe] conducted the consecration of a Cathedral in [local_see_province.GetName]. While he insists he is not ungrateful for the great donations we have given to the Church, the bishop is questioning the use of breaking the liturgical canon to further the interests of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Коли [target_character.GetName] [Select_CString(target_character.IsFemale, 'влаштував', 'влаштувала' )] надмірно пишну церемонію освячення собору в провінції [local_see_province.GetProvince.GetName], місцевий єпископ виступив з осудом. Він стверджує, що вдячний нам за щедрі пожертви, але невдоволений тим, як ми порушуємо літургійний канон в інтересах держави."
+ },
+ "patriarch_events.2.title": {
+  "en": "Liturgical Influence",
+  "uk": "Літургійний вплив"
+ },
+ "patriarch_events.3.a": {
+  "en": "Let us give it a worthy renovation!",
+  "uk": "Проведемо масштабну реконструкцію!"
+ },
+ "patriarch_events.3.b": {
+  "en": "We can repair the damages but no more.",
+  "uk": "Оплатимо ремонт, але не більше того."
+ },
+ "patriarch_events.3.desc": {
+  "en": "The [ShowBuildingTypeName('cathedral')] of [local_see_province.GetName] has been damaged and is in urgent need of repair. The Metropolitan has let it be known that he expects us to help fund the repairs and that a general redecoration would also be quite beneficial for the Church.\\n\\nPious architecture has seen great development since this house of worship was first built and it could certainly benefit from us bringing in foreign experts...",
+  "uk": "#TOOLTIP:BUILDING_TYPE,cathedral,X #L Кафедральний собор#!#! у провінції [local_see_province.GetName] пошкоджений і потребує термінового ремонту. Митрополит дав зрозуміти, що розраховує на нашу фінансову допомогу і що собору не завадила б глобальна реконструкція.\\n\\nВідтоді як цей храм було збудовано, церковна архітектура пішла далеко вперед. До того ж для цієї роботи ми зможемо запросити іноземних зодчих…"
+ },
+ "patriarch_events.3.title": {
+  "en": "A [ShowBuildingTypeNameWithNoTooltip('cathedral')] for [local_see_province.GetNameWithNoTooltip]",
+  "uk": "Кафедральний собор у провінції [local_see_province.GetNameWithNoTooltip]"
+ },
+ "patriarch_events.4.a": {
+  "en": "Heretics must burn!",
+  "uk": "Спалити єретиків!"
+ },
+ "patriarch_events.4.b": {
+  "en": "Clearly he is mistaken.",
+  "uk": "Він явно помиляється."
+ },
+ "patriarch_events.4.desc": {
+  "en": "Our newly appointed Metropolitan of [judaizers_province.GetProvince.GetName] has uncovered a horrifying local heresy. He claims that the sect is denouncing the Trinity, the divinity of Christ, and the ecclesiastical hierarchy. The Metropolitan has asked us to help him in this time of need as he will require many more resources to root out this heresy which is widespread among high as well as low.\\n\\nThe case seems very clear. Except it seems the sect has some supporters even in [ROOT.GetCountry.GetCapital.GetName]. Can we really afford to lose the support of these men and women and are they really as heretic as the Metropolitan claims?",
+  "uk": "Нещодавно призначений митрополит провінції [judaizers_province.GetProvince.GetName] стверджує, що викрив жахливу місцеву єресь. За його словами, віровідступники заперечують Трійцю, божественну природу Христа і церковну ієрархію. Митрополит попросив нас підтримати його у важку годину, адже для боротьби з такою єрессю, що охопила всі стани суспільства, знадобиться дуже багато ресурсів.\\n\\nМені здається, тут усе очевидно — окрім того, що послідовники цієї секти є навіть у таких великих містах, як [ROOT.GetCountry.GetCapital.GetName]. Ми справді готові втратити підтримку цих людей? І чи такі вони небезпечні, як стверджує митрополит?"
+ },
+ "patriarch_events.4.title": {
+  "en": "Heresy in [judaizers_province.GetProvince.GetNameWithNoTooltip]!",
+  "uk": "Єресь у провінції [judaizers_province.GetProvince.GetNameWithNoTooltip]!"
+ },
+ "patriarch_events.5.a": {
+  "en": "Clearly our governor is right!",
+  "uk": "Звісно, губернатор правий!"
+ },
+ "patriarch_events.5.b": {
+  "en": "We must listen to these men of [ROOT.GetCountry.GetReligion.GetGodName].",
+  "uk": "[ROOT.GetCountry.GetReligion.GetGodName] і віряни гідні того, щоб до них прислухатися."
+ },
+ "patriarch_events.5.desc": {
+  "en": "The Bishop of [monastic_province.GetProvince.GetName] reports that the local monastic communities are growing at an unprecedented speed. The estates of a local monastery in [monastic_province.GetName] have in fact grown so big and are so well-kept that they have become the envy of our local administrator. The governor has become entangled in a conflict with the monks over where exactly the demarcation between their lands and those of the [ROOT.GetCountry.GetFlavorRank] goes.\\n\\nThe time has come for central authorities to step in and settle the dispute. Helping the monastery would undoubtedly secure their gratitude, but this could also be an opportunity to get hold of more land for the state...",
+  "uk": "Єпископ провінції [monastic_province.GetProvince.GetName] повідомляє, що місцеві монастирські общини зростають і розвиваються з неймовірною швидкістю. Їхнє господарство настільки велике й добре організоване, що викликає заздрість у місцевої адміністрації. Справа дійшла до того, що губернатор опинився втягнутий у конфлікт із ченцями щодо межування церковної та державної землі.\\n\\nСхоже, центральній владі час втрутитися. Прийнявши сторону монастирів, ми безсумнівно отримаємо їхню вдячність, але, з іншого боку, було б непогано збільшити державну власність…"
+ },
+ "patriarch_events.5.title": {
+  "en": "Monasteries Flourish in [monastic_province.GetNameWithNoTooltip]",
+  "uk": "Багаті монастирі провінції [monastic_province.GetNameWithNoTooltip]"
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "eng_didnt_support_rebels": {
+  "en": "Did not Support Rebels During War of the Roses",
+  "uk": "Відмова від підтримки повстанців у війні Червоної та Білої троянди"
+ },
+ "eng_support_during_war_of_the_roses": {
+  "en": "Support During War of the Roses",
+  "uk": "Підтримка у війні Червоної та Білої троянди"
+ },
+ "eng_supported_rebels_during_war_of_the_roses": {
+  "en": "Supported Rebels During War of the Roses",
+  "uk": "Підтримка повстанців у війні Червоної та Білої троянди"
+ },
+ "ensuing_chaos_distabilizes_peasants_estate_tt": {
+  "en": "The brewing chaos spreads, damaging the [estate_satisfaction|e] of our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]",
+  "uk": ""
+ },
+ "lancaster_rebel_name": {
+  "en": "The Lancaster Pretenders",
+  "uk": "Ланкастерські повстанці"
+ },
+ "lancaster_rebels_joining": {
+  "en": "All [pops|e] in [ShowProvinceDefinitionName('lancashire_province')] will join [lancaster_rebel.GetName]",
+  "uk": "Група повстанців «[lancaster_rebel.GetName]» отримає підтримку всіх [Concept('pops', 'груп населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,lancashire_province,X #L Ланкаширі#!#!"
+ },
+ "war_of_the_roses.1.a": {
+  "en": "Support the House of Lancaster.",
+  "uk": "Ми підтримуємо претендента з дому Ланкастерів."
+ },
+ "war_of_the_roses.1.b": {
+  "en": "Support the House of York.",
+  "uk": "Ми підтримуємо претендента з дому Йорків."
+ },
+ "war_of_the_roses.1.desc": {
+  "en": "Two junior branches of the House of Plantagenet, the House of Lancaster and the House of York, both claim to be the rightful heir to the throne of England. Sporadic fights between their supporters have already broken out in a number of provinces around the country.\\n\\nTheir heraldic symbols, a red rose and a white rose, have already become synonymous with the conflict now commonly known as the War of the Roses.",
+  "uk": "На англійський трон претендують представники дому Ланкастерів і дому Йорків — двох молодших гілок династії Плантагенетів. В окремих провінціях уже відбуваються сутички між прихильниками суперницьких претендентів.\\n\\nГеральдичним символом династії Йорків була біла троянда, прихильники Ланкастерів обрали своїм знаком червону. Їхня боротьба увійде в історію як війна Червоної та Білої троянди…"
+ },
+ "war_of_the_roses.1.desc.lancaster_ruler": {
+  "en": "The House of [ShowDynastyName('york_dynasty')], a junior branch of the House of [ShowDynastyName('plantagenet_dynasty')], has long disputed the right of the ruling House of [ShowDynastyName('lancaster_dynasty')] to the throne of [ROOT.GetCountry.GetName]. Now their supporters have taken up arms, and even within the House of [ShowDynastyNameWithNoTooltip('lancaster_dynasty')] a rival claimant has emerged to challenge [ROOT.GetGovernment.GetRuler.GetName].\\n\\nThe heraldic symbols of the two cadet houses, a red rose and a white rose, have already become synonymous with the conflict now commonly known as the [ShowDisasterName('war_of_the_roses')].",
+  "uk": ""
+ },
+ "war_of_the_roses.1.title": {
+  "en": "War of the Roses",
+  "uk": "Війна Червоної та Білої троянди"
+ },
+ "war_of_the_roses.100.a": {
+  "en": "Order has finally been restored.",
+  "uk": "Нарешті в країні буде порядок."
+ },
+ "war_of_the_roses.100.desc": {
+  "en": "The armed conflict over the succession to the English throne is finally over as [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] defeats the rivals! ",
+  "uk": "Збройний конфлікт за англійський трон завершився. Династія [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] розгромила суперників!"
+ },
+ "war_of_the_roses.100.title": {
+  "en": "The End of the War of the Roses",
+  "uk": "Закінчення війни Червоної та Білої троянди"
+ },
+ "war_of_the_roses.103.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "war_of_the_roses.103.desc": {
+  "en": "The new ruler of England, [GetCountry('ENG').GetGovernment.GetRuler.GetName], has not forgotten our help during the War of the Roses. As expected, the relations between our countries have greatly improved.",
+  "uk": "[GetCountry('ENG').GetGovernment.GetRuler.GetName], [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale,'нова правителька', 'новий правитель')] Англії, не [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale,'забула', 'забув')] про нашу допомогу у війні Червоної та Білої троянди. Як і слід було очікувати, відносини між нашими країнами значно поліпшилися."
+ },
+ "war_of_the_roses.103.title": {
+  "en": "Improved Relations with [GetCountry('ENG').GetNameWithNoTooltip]",
+  "uk": "Поліпшення відносин з [GetCountry('ENG').Custom('CL_INST')]"
+ },
+ "war_of_the_roses.104.a": {
+  "en": "Oh...",
+  "uk": "Ох…"
+ },
+ "war_of_the_roses.104.b": {
+  "en": "Good thing we did not!",
+  "uk": "Добре, що нас це не стосується!"
+ },
+ "war_of_the_roses.104.desc": {
+  "en": "With the rebellion of the House of Lancaster finally crushed, [GetCountry('ENG').GetGovernment.GetRuler.GetName] has now turned his attention to those who supported the revolt, both internally and externally.",
+  "uk": "Розгромивши Ланкастерів, [GetCountry('ENG').GetGovernment.GetRuler.GetName] [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale,'переключилася', 'переключився')] на тих, хто підтримав повстанський дім — як в Англії, так і за її межами…"
+ },
+ "war_of_the_roses.104.title": {
+  "en": "Relations Deteriorate with England",
+  "uk": "Погіршення відносин з Англією"
+ },
+ "war_of_the_roses.105.a": {
+  "en": "Oh...",
+  "uk": "Ох…"
+ },
+ "war_of_the_roses.105.b": {
+  "en": "Good thing we did not!",
+  "uk": "Добре, що нас це не стосується!"
+ },
+ "war_of_the_roses.105.desc": {
+  "en": "With the rebellion of the House of York finally crushed, [GetCountry('ENG').GetGovernment.GetRuler.GetName] has now turned his attention to those who supported the revolt, both internally and externally.",
+  "uk": "Розгромивши Йорків, [GetCountry('ENG').GetGovernment.GetRuler.GetName] [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale,'переключилася', 'переключився')] на тих, хто підтримав повстанський дім — як в Англії, так і за її межами…"
+ },
+ "war_of_the_roses.105.title": {
+  "en": "Relations Deteriorate with England",
+  "uk": "Погіршення відносин з Англією"
+ },
+ "war_of_the_roses.12.a": {
+  "en": "Send them a token force.",
+  "uk": "Ми відправимо їм невеликий загін."
+ },
+ "war_of_the_roses.12.b": {
+  "en": "Send them some money.",
+  "uk": "Ми надішлемо їм грошей."
+ },
+ "war_of_the_roses.12.c": {
+  "en": "We will not support rebels.",
+  "uk": "Ми не будемо підтримувати повстанців."
+ },
+ "war_of_the_roses.12.desc": {
+  "en": "A civil war over the succession to the throne is raging in England, a conflict that has become known as the War of the Roses. The revolting House of Lancaster is seeking foreign aid and has sent us an envoy requesting troops. Should they succeed in claiming the throne, our help would surely be remembered, improving our relations with England.",
+  "uk": "Між претендентами на англійський престол спалахнула громадянська війна, що отримала назву війни Червоної та Білої троянди. Повстанський дім Ланкастерів гостро потребує військ, і його прихильники звернулися за допомогою до нас. Якщо їхньому претенденту вдасться зійти на трон, наша підтримка допоможе поліпшити відносини з Англією."
+ },
+ "war_of_the_roses.12.title": {
+  "en": "Support for the House of Lancaster",
+  "uk": "Підтримка дому Ланкастерів"
+ },
+ "war_of_the_roses.13.a": {
+  "en": "Send them a token force.",
+  "uk": "Ми відправимо їм невеликий загін."
+ },
+ "war_of_the_roses.13.b": {
+  "en": "Send them some money.",
+  "uk": "Ми надішлемо їм грошей."
+ },
+ "war_of_the_roses.13.c": {
+  "en": "We will not support rebels.",
+  "uk": "Ми не будемо підтримувати повстанців."
+ },
+ "war_of_the_roses.13.desc": {
+  "en": "A civil war over the succession to the throne is raging in England, a conflict that has become known as the War of the Roses. The revolting House of York is seeking foreign aid and has sent us an envoy requesting troops. Some support might be a way to prevent a strong and unified England from waging war on us, and should the rebels succeed in claiming the throne, our help would surely be remembered, improving our relations with England.",
+  "uk": "Між претендентами на англійський престол спалахнула громадянська війна, що отримала назву війни Червоної та Білої троянди. Повстанський дім Йорків гостро потребує військ, і його прихильники звернулися за допомогою до нас. У наших інтересах, щоб Англія залишалася слабкою та розділеною — а якщо їхньому претенденту все ж вдасться зійти на трон, підтримка допоможе поліпшити відносини між нашими країнами."
+ },
+ "war_of_the_roses.13.title": {
+  "en": "Support for the House of York",
+  "uk": "Підтримка дому Йорків"
+ },
+ "war_of_the_roses.14.a": {
+  "en": "How dare they!",
+  "uk": "Та як вони посміли?"
+ },
+ "war_of_the_roses.14.desc": {
+  "en": "The rebels have sought foreign support for their revolt and have managed to convince [from.GetLongName] to aid them!\\n\\nThis is not ideal, but we will prevail!",
+  "uk": "Повстанці звернулися за допомогою до іноземних держав, і їм вдалося заручитися #L [from.GetAdjective|l]ою#! підтримкою!\\n\\nЦе недобрі вісті, але перемога все одно буде за нами!"
+ },
+ "war_of_the_roses.14.title": {
+  "en": "[from.GetNameWithNoTooltip] Intervenes!",
+  "uk": "Втручання [from.Custom('CL_GEN')]"
+ },
+ "war_of_the_roses.15.a": {
+  "en": "Dire news.",
+  "uk": "Жахливі вісті."
+ },
+ "war_of_the_roses.15.desc": {
+  "en": "The entire population of [disloyal_target.GetName] has now come out in support of [lancaster_rebel.GetName].\\n\\nThe royal army will definitely need to be expanded!",
+  "uk": "Група повстанців «[lancaster_rebel.GetName]» користується масовою підтримкою серед населення #L #TOOLTIP:LOCATIONRANK,[disloyal_target.Custom('LR_tt')],X [disloyal_target.Custom('LR_RP')]#!#! [disloyal_target.GetName].\\n\\nДоведеться збільшити чисельність королівської армії!"
+ },
+ "war_of_the_roses.15.title": {
+  "en": "Lancaster Support grows in [disloyal_target.GetNameWithNoTooltip]!",
+  "uk": "В [disloyal_target.Custom('LR_PREP')] [disloyal_target.GetNameWithNoTooltip] зростає підтримка Ланкастерів!"
+ },
+ "war_of_the_roses.15.title.fallback": {
+  "en": "Growing Lancaster Support!",
+  "uk": "Підтримка Ланкастерів зростає!"
+ },
+ "war_of_the_roses.16.a": {
+  "en": "Dire news.",
+  "uk": "Жахливі вісті."
+ },
+ "war_of_the_roses.16.desc": {
+  "en": "The entire population of [disloyal_target.GetName] has now come out in support of [york_rebel.GetName].\\n\\nThe royal army will definitely need to be expanded!",
+  "uk": "Група повстанців «[york_rebel.GetName]» користується масовою підтримкою серед населення #L #TOOLTIP:LOCATIONRANK,[disloyal_target.Custom('LR_tt')],X [disloyal_target.Custom('LR_RP')]#!#! [disloyal_target.GetName].\\n\\nДоведеться збільшити чисельність королівської армії!"
+ },
+ "war_of_the_roses.16.title": {
+  "en": "York Support grows in [disloyal_target.GetNameWithNoTooltip]!",
+  "uk": "В [disloyal_target.Custom('LR_PREP')] [disloyal_target.GetNameWithNoTooltip] зростає підтримка Йорків!"
+ },
+ "war_of_the_roses.16.title.fallback": {
+  "en": "Growing York Support!",
+  "uk": "Підтримка Йорків зростає!"
+ },
+ "war_of_the_roses.17.a": {
+  "en": "Another step forward.",
+  "uk": "Ще один крок уперед."
+ },
+ "war_of_the_roses.17.desc": {
+  "en": "The ravages of the ongoing civil war have taken a great toll on our [ROOT.GetCountry.GetFlavorRank]. Desolate streets, famine, and devastation have become close companions of the people in [target_siege.GetName]. After careful negotiations, the garrison accepted our terms and intends to march out, leaving the local fort unmanned for our armies to capture.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] стогне під тяжким тягарем громадянської війни. Так, в [target_siege.Custom('LR_PREP')|l] [target_siege.GetNameWithNoTooltip] голод і смерть давно спустошили вулиці. Після обережних переговорів вцілілі солдати міського гарнізону погодилися покинути місцеву фортецю, здавши її нашій армії без спротиву."
+ },
+ "war_of_the_roses.17.title": {
+  "en": "The Defenders of [target_siege.GetNameWithNoTooltip]",
+  "uk": "Захисники [target_siege.Custom('LR_GEN')|l] [target_siege.GetNameWithNoTooltip]"
+ },
+ "war_of_the_roses.18.a": {
+  "en": "Crush them!",
+  "uk": "Розчавити їх!"
+ },
+ "war_of_the_roses.18.desc": {
+  "en": "The pretenders have been bidding their time for a while now, amassing support across disloyal provinces throughout the [ROOT.GetCountry.GetFlavorRank]. Alas, they have now openly rebelled against our authority, denying the legitimacy of [target_character.GetName], posing a threat to the [target_dynasty.GetName] line.",
+  "uk": "Претенденти на престол вичікують, накопичуючи сили в повстанських провінціях #TOOLTIP:COUNTRY_RANK,[ROOT.GetCountry.Custom('CF_tt')],X [ROOT.GetCountry.Custom('rank_ru_GEN')|l]#!#!. Вони відкрито повстали проти нашої влади, заявивши, що [target_character.GetName] і династія [target_dynasty.GetName] не мають права на трон."
+ },
+ "war_of_the_roses.18.title": {
+  "en": "The Conflict of the [ShowDisasterNameWithNoTooltip('war_of_the_roses')]",
+  "uk": ""
+ },
+ "war_of_the_roses.2.a": {
+  "en": "This is most welcome.",
+  "uk": "Чудові новини."
+ },
+ "war_of_the_roses.2.desc": {
+  "en": "Local support for the Crown in the War of the Roses keeps growing among the people as [target_pop.GetName] rally to our banner!",
+  "uk": "Серед населення зростає підтримка корони. [target_pop.GetName] масово переходять на наш бік у війні Червоної та Білої троянди!"
+ },
+ "war_of_the_roses.2.title": {
+  "en": "Support for the Crown",
+  "uk": "Підтримка корони"
+ },
+ "war_of_the_roses.3.a": {
+  "en": "Dire news.",
+  "uk": "Жахливі вісті."
+ },
+ "war_of_the_roses.3.desc": {
+  "en": "The nobility of [disloyal_target.GetName] has long been divided over the War of the Roses, but now the faction favoring the House of Lancaster has won out and is openly proclaiming its support for the rebels.",
+  "uk": "Війна Червоної та Білої троянди розділила аристократів #L #TOOLTIP:LOCATIONRANK,[disloyal_target.Custom('LR_tt')],X [disloyal_target.Custom('LR_GEN')]#!#! [disloyal_target.GetName], але врешті-решт прихильники Ланкастерів здобули перемогу. Тепер ця територія відкрито підтримує повстанців."
+ },
+ "war_of_the_roses.3.title": {
+  "en": "Declaration for the Lancaster Pretenders!",
+  "uk": "Ланкастерські повстанці знаходять прихильників!"
+ },
+ "war_of_the_roses.4.a": {
+  "en": "Dire news.",
+  "uk": "Жахливі вісті."
+ },
+ "war_of_the_roses.4.desc": {
+  "en": "The nobility of [disloyal_target.GetName] has long been divided over the War of the Roses, but now the faction favoring the House of York has won out and is openly proclaiming its support for the rebels.",
+  "uk": "Війна Червоної та Білої троянди розділила аристократів #L #TOOLTIP:LOCATIONRANK,[disloyal_target.Custom('LR_tt')],X [disloyal_target.Custom('LR_GEN')]#!#! [disloyal_target.GetName], але врешті-решт прихильники Йорків здобули перемогу. Тепер ця територія відкрито підтримує повстанців."
+ },
+ "war_of_the_roses.4.title": {
+  "en": "Declaration for the York Pretenders!",
+  "uk": "Повстанці-йоркісти знаходять прихильників!"
+ },
+ "war_of_the_roses.5.a": {
+  "en": "These gifts should show our gratitude.",
+  "uk": "Нехай ці дари нагадають їм про нашу вдячність."
+ },
+ "war_of_the_roses.5.b": {
+  "en": "It is nothing but their duty.",
+  "uk": "Вони повинні виконувати свій обов'язок."
+ },
+ "war_of_the_roses.5.desc": {
+  "en": "The nobles have so far stood by the crown during the War of the Roses, expecting to be generously rewarded. But there is a growing opinion among many of them that there has so far been little recognition of their loyalty.",
+  "uk": "У війні Червоної та Білої троянди аристократія досі залишалася на боці корони, очікуючи щедрої винагороди за свою відданість. Однак тепер ситуація змінилася, і серед знаті наростає розчарування."
+ },
+ "war_of_the_roses.5.title": {
+  "en": "Nobles Disgruntled",
+  "uk": "Невдоволена знать"
+ },
+ "war_of_the_roses.6.a": {
+  "en": "He is a despicable traitor!",
+  "uk": "Віроломний зрадник!"
+ },
+ "war_of_the_roses.6.b": {
+  "en": "He is a loyal servant of the crown!",
+  "uk": "Який відданий слуга корони!"
+ },
+ "war_of_the_roses.6.desc": {
+  "en": "Powerful nobles play key roles in the Wars of the Roses, supporting either The House of [ShowDynastyName('york_dynasty')] or The House of [ShowDynastyName('lancaster_dynasty')] at different times. Now [kingmaker.GetName] is attempting to play Kingmaker, potentially shifting the balance of power in England.",
+  "uk": "Ключову роль у війні Червоної та Білої троянди відіграє підтримка могутніх магнатів. Деякі великі феодали неодноразово переходили з одного табору в інший, почергово підтримуючи то дім #TOOLTIP:DYNASTY,york_dynasty_tt,X #L Йорків#!#!, то династію #TOOLTIP:DYNASTY,lancaster_dynasty_tt,X #L Ланкастерів#!#!. Ось і зараз [kingmaker.GetName] приміряє на себе мантію творця королів. [Select_CString(kingmaker.IsFemale,'Її', 'Його')] дії можуть серйозно змінити співвідношення сил у країні…"
+ },
+ "war_of_the_roses.6.title": {
+  "en": "The Kingmaker",
+  "uk": "Творець королів"
+ },
+ "war_of_the_roses.8.a": {
+  "en": "Buy their continued support.",
+  "uk": "Доведеться заплатити їм за підтримку."
+ },
+ "war_of_the_roses.8.b": {
+  "en": "How dare they question me?",
+  "uk": "Та як вони сміють?!"
+ },
+ "war_of_the_roses.8.desc": {
+  "en": "Even our own commanders and soldiers are starting to question the legitimacy of the current rulership.",
+  "uk": "Навіть наші власні воєначальники та їхні солдати вже починають сумніватися в легітимності правлячої влади…"
+ },
+ "war_of_the_roses.8.title": {
+  "en": "Legitimacy Questioned",
+  "uk": "Легітимність під питанням"
+ },
+ "war_of_the_roses.9.a": {
+  "en": "Send money to help the local authorities.",
+  "uk": "Потрібно допомогти місцевій владі грошима."
+ },
+ "war_of_the_roses.9.b": {
+  "en": "The money is needed more closer to home.",
+  "uk": "Гроші потрібні нам тут."
+ },
+ "war_of_the_roses.9.desc": {
+  "en": "Many of those who have been forced to flee the country during the War of the Roses have sought refuge on the continent and the local authorities report rumors that an armed rising might be imminent. If we do not stop this, they will be able to build a stronghold there that can provide support for further insurrection.",
+  "uk": "Багато з тих, кому довелося тікати з країни під час війни Червоної та Білої троянди, знайшли притулок на континенті. Місцева влада попереджає, що серед втікачів ось-ось почнеться збройне повстання. Якщо не вжити термінових заходів, у повстанців з'явиться потужний плацдарм, звідки вони зможуть підтримувати своїх прихильників в Англії."
+ },
+ "war_of_the_roses.9.title": {
+  "en": "Rumors of Large Revolt on the Continent",
+  "uk": "Чутки про великий заколот на континенті"
+ },
+ "wotr_explain_action_tt": {
+  "en": "During the [civil_war|e] phase of the [ShowDisasterName('war_of_the_roses')], we will gain access to the [ShowGenericActionName('wotr_bribe_garrison')] [disaster|e] [action|e]",
+  "uk": "Коли [ShowDisasterName('war_of_the_roses')] перейде у фазу [Concept('civil_war','громадянської війни')|e], ми отримаємо доступ до [Concept('action','дії')|e] [Concept('disaster','лиха')|e] «[ShowGenericActionName('wotr_bribe_garrison')]»"
+ },
+ "wotr_foreign_power_intervenes": {
+  "en": "A Foreign [country|e] Intervenes",
+  "uk": "Втручання іншої [Concept('country','держави')|e]"
+ },
+ "wotr_lan_rebels_will_progress": {
+  "en": "[lancaster_rebel.GetName] will gain [ShowNamedValue('rebel_progress_weak_bonus')|-=2%] progress",
+  "uk": "Група повстанців «[lancaster_rebel.GetName]» отримує [ShowNamedValue('rebel_progress_weak_bonus')|-=2%] до прогресу"
+ },
+ "wotr_support_for_pretender_deeepens": {
+  "en": "Support for Pretenders grow",
+  "uk": "Підтримка повстанців зростає"
+ },
+ "wotr_support_for_pretenders": {
+  "en": "Declaration for Pretenders",
+  "uk": "Прихильники повстанців"
+ },
+ "wotr_yor_rebels_will_progress": {
+  "en": "[york_rebel.GetName] will gain [ShowNamedValue('rebel_progress_weak_bonus')|-=2%] progress",
+  "uk": "Група повстанців «[york_rebel.GetName]» отримує [ShowNamedValue('rebel_progress_weak_bonus')|-=2%] до прогресу"
+ },
+ "york_rebel_name": {
+  "en": "The York Pretenders",
+  "uk": "Повстанці-йоркісти"
+ },
+ "york_rebels_joining": {
+  "en": "All [pops|e] in [ShowProvinceDefinitionName('north_riding_province')] will join [york_rebel.GetName]",
+  "uk": "Група повстанців «[york_rebel.GetName]» отримає підтримку всіх [Concept('pops', 'груп населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,north_riding_province,X #L Північному Райдингу#!#!"
+ }
+}

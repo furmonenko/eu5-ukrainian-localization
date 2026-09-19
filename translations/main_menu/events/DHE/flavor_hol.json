@@ -1,0 +1,862 @@
+{
+ "NED_ALL_DUTCH_POPS_BECOME_HAPPIER": {
+  "en": "Every [pop|e] that is part of the [ShowCultureGroupName('netherlandish_group')] [culture_group|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Кожна [Concept('pop', 'група населення')|e], що належить до #TOOLTIP:CULTUREGROUP,netherlandish_group,X #L нідерландської#!#! [Concept('culture_group','культурної групи')|e], отримує [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
+ },
+ "NED_BUFFED_POLDERS": {
+  "en": "The [ShowBuildingTypeName('polders')] [building|e] #Y Maximum Level#! from [development|e] will now be #G Doubled#!.",
+  "uk": "#Y Максимальний рівень#! [Concept('development', 'розвитку')|e] #TOOLTIP:BUILDING_TYPE,polders,X #L польдерів#!#! буде підвищено #G вдвічі#!."
+ },
+ "NED_GAIN_GRAIN_SUPPLY_TO_DEAL_WITH_GRAIN_ISSUES": {
+  "en": "The issue will continue as long as [ROOT.GetCountry.GetCapital.GetMarket.GetName] lacks [ShowGoodsName('wheat')], and our [merchant_power|e] in the [target_location2.GetMarket.GetName] and [target_location.GetMarket.GetName] are below #Y 25#!.",
+  "uk": "Проблема не вирішиться, поки [ROOT.GetCountry.GetCapital.GetMarket.GetName|l] не перестане відчувати дефіцит #TOOLTIP:GOODS,wheat,X #L пшениці#!#!, а наша [Concept('merchant_power', 'торговельна перевага')|e] на таких ринках, як [target_location2.GetMarket.GetName|l] і [target_location.GetMarket.GetName|l], буде нижчою за #Y 100#!."
+ },
+ "STATIC_MODIFIER_DESC_hol_brilliant_minister": {
+  "en": "This character's abilities in the court are far beyond stellar. Their ideas and actions open a path for the state to a great future.",
+  "uk": "Талант цього придворного затьмарює зірки. Його ідеї та рішення відкривають нашій державі шлях до великого майбутнього."
+ },
+ "STATIC_MODIFIER_DESC_ned_bank_crisis": {
+  "en": "Once the center of pan-European finance, other cities in other countries have now run past [ShowLocationNameWithNoTooltip('amsterdam')]. Along with the poor economic policies of the Bank of [ShowLocationNameWithNoTooltip('amsterdam')] itself the credibility and viability of the Dutch banking sector is being seriously questioned.",
+  "uk": "Амстердам, що колись був фінансовим центром усієї Європи, поступився своїми позиціями столицям інших держав. Невдала економічна політика Амстердамського банку змусила світ серйозно засумніватися в надійності банківського сектору держави в цілому."
+ },
+ "STATIC_MODIFIER_NAME_hol_brilliant_minister": {
+  "en": "Brilliant Minister",
+  "uk": "Геніальний міністр"
+ },
+ "STATIC_MODIFIER_NAME_ned_bank_crisis": {
+  "en": "Crisis of the Dutch Financial Sector",
+  "uk": "Криза нідерландського фінансового сектору"
+ },
+ "flavor_hol.1.a": {
+  "en": "Sponsor the university.",
+  "uk": "Підтримати університет фінансово."
+ },
+ "flavor_hol.1.b": {
+  "en": "It is not worth it.",
+  "uk": "Воно того не варте."
+ },
+ "flavor_hol.1.desc": {
+  "en": "The education of the [ROOT.GetCountry.GetCulture.GetName] people is a great concern to the state. The apparatus of the government is in constant need of well-read individuals who can serve the state as administrators and governors. In order to increase the literacy and competence of potential new administrators, the advisors to [target_character.GetName] suggests to construct a university in [target_location.GetName].",
+  "uk": "Освіта #L [ROOT.GetCountry.GetCulture.GetName|l]ого#! народу — важливе завдання держави. Урядовий апарат потребує постійного припливу грамотних людей. Для підвищення компетентності майбутніх адміністраторів і радників [target_character.GetName] пропонує збудувати в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip] університет."
+ },
+ "flavor_hol.1.entry": {
+  "en": "Leiden University",
+  "uk": ""
+ },
+ "flavor_hol.1.historical_info": {
+  "en": "William, Prince of Orange, the leader of the Dutch Revolt in the Eighty Years' War founded the Leiden University in 1575 as the emerging Dutch Republic did not have any universities. Spain controlled southern Leuven where the only university in the Netherlands was. Prince William decided to found the first Dutch university in Leiden to educate citizens for religious purposes and give the country and its government educated men in other fields. Academic study had become important as the scientific renaissance had begun and Leiden was chosen as a reward for the heroic defense of Leiden against Spanish attacks in the previous year. Philip II of Spain appears on the official foundation certificate, as he was still the de jure count of Holland although he forbade any subject to study in Leiden.",
+  "uk": "Вільгельм I Оранський, який очолив Нідерландську буржуазну революцію в роки Вісімдесятилітньої війни, у 1575 році заснував Лейденський університет — на той момент єдиний на території Об'єднаних провінцій. До цього в Нідерландах університет був лише в Льовені на півдні держави, але він опинився під контролем Іспанії. Метою створення нового університету було релігійне навчання і підготовка освічених кадрів для державної служби. З настанням наукового відродження стали важливими й академічні студії. Місто Лейден було обране на вдячність за героїчне відбиття атак іспанців у попередньому році. На офіційній церемонії відкриття був присутній король Іспанії Філіп II, однак він заборонив своїм підданим навчатися в Лейдені."
+ },
+ "flavor_hol.1.title": {
+  "en": "[target_location.GetNameWithNoTooltip] University",
+  "uk": "Університет [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_hol.10.a": {
+  "en": "May [target_character.GetHisHer] ideas create a better future.",
+  "uk": "Нехай його ідеї роблять майбутнє кращим."
+ },
+ "flavor_hol.10.b": {
+  "en": "[target_character.GetHisHer|U] philosophies cannot stay in [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Його філософії немає місця в [ROOT.GetCountry.Custom('CL_PREP')]."
+ },
+ "flavor_hol.10.b.entry": {
+  "en": "His philosophies cannot stay in us.",
+  "uk": ""
+ },
+ "flavor_hol.10.desc": {
+  "en": "[target_character.GetName], more commonly known as just Erasmus, is a humanist and an aspiring scholar. [target_character.GetHisHer|U] world views as well as [target_character.GetHisHer] philosophies are renowned in [ShowContinentName('europe')] for their tolerant nature. Additionally, as a [target_character.GetWomanMan] of the middle ground, [target_character.GetHisHer] influence in the theology makes [target_character.GetHimHer] a beacon for those who value liberty more than orthodoxy.",
+  "uk": "[target_character.GetName], більш відомий як Еразм, є видатним ученим і гуманістом. Його погляди і філософські ідеї, що вирізняються терпимістю і схильністю до компромісів, відомі по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, а його внесок у богословську науку став маяком для тих, хто цінує свободу вище за догматизм."
+ },
+ "flavor_hol.10.entry": {
+  "en": "Desiderius Erasmus",
+  "uk": ""
+ },
+ "flavor_hol.10.historical_info": {
+  "en": "Desiderius Erasmus of Rotterdam, a prominent figure of the Northern Renaissance, was a Dutch humanist known for his extensive literary contributions in Latin and Greek. He played a significant role in classical scholarship and is celebrated for his natural Latin style. Erasmus advocated for tolerance, concord, and free-thinking within the Catholic Church, despite the backdrop of the European religious Reformation. His work, including #italic The Praise of Folly#! and #italic On Free Will#!, addressed theological and societal issues, often promoting a middle-ground approach that disappointed both Catholic and Protestant factions. Despite facing poverty and spiritual struggles early in life, Erasmus's writings reflect his convictions on education, marriage, social reform, and the importance of individual autonomy within religious institutions.",
+  "uk": "Нідерландський гуманіст Дезідерій Еразм Роттердамський, видатний діяч Північного Відродження, залишив велику літературну спадщину латинською і грецькою мовами. Його праці латиною вирізняються природністю слогу. Вихований у реформатській державі, Еразм тим не менш закликав до терпимості, згоди і вільнодумства в рамках католицької церкви. Такі його роботи, як «#italic Похвала глупоті#!» і «#italic Міркування про свободу волі#!», присвячені актуальним богословським і суспільним питанням, часто пропонували компромісну точку зору, що не влаштовувала ні католиків, ні протестантів. Подолавши злидні і духовне сум'яття юності, Еразм висвітлив у своїх працях такі теми, як освіта, шлюб, суспільні реформи й автономія особистості в рамках релігійних інституцій."
+ },
+ "flavor_hol.10.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.11.a": {
+  "en": "What a great man!",
+  "uk": "Воістину велика людина!"
+ },
+ "flavor_hol.11.desc": {
+  "en": "[target_character.GetName] is a scholar and lawyer who is known for [target_character.GetHisHer] famous book 'De Jure Belli ac Pacis'. Seen as a legal masterpiece, [target_character.GetHisHer] works are said to lay the foundation for laws to come. [target_character.GetHeShe|U] is also famous for [target_character.GetHisHer] celebrated escape from prison (where he was incarcerated due to political and religious conflicts) in a bookchest!",
+  "uk": "Учений і юрист [target_character.GetName] знаменитий насамперед своїм трактатом «Про право війни і миру», який вважається справжнім шедевром юридичної літератури. Вважається, що його праці заклали основи майбутнього юриспруденції. Також він прославився втечею в скрині з книгами з в'язниці, куди був ув'язнений з політичних і релігійних мотивів."
+ },
+ "flavor_hol.11.entry": {
+  "en": "Hugo Grotius, Father of International Law",
+  "uk": ""
+ },
+ "flavor_hol.11.historical_info": {
+  "en": "Hugo Grotius, a Dutch polymath born in Delft in 1583, made significant contributions to philosophy, political theory, and law, particularly in the realms of international law and natural rights. Despite being imprisoned for his involvement in religious controversies in the Dutch Republic, Grotius continued his intellectual pursuits and wrote influential works while in exile in France. His masterpieces, #italic De jure belli ac pacis#! and #italic Mare Liberum#!, laid the groundwork for modern international law, earning him the title #italic father of international law#!. Grotius's ideas on sovereignty, natural law, and rights influenced subsequent thinkers like John Locke and played a role in shaping political developments such as the Glorious Revolution in England and the American Revolution. His theological foundation for natural law, rooted in both Biblical revelation and human reason, remains a cornerstone of his legacy.",
+  "uk": "Учений-енциклопедист Гуго Гроцій, який народився в Делфті в 1583 році, залишив значний слід у філософії, політичній теорії та юриспруденції — особливо в сферах міжнародного і природного права. Через свою участь у релігійних конфліктах, що охопили Нідерланди, він був ув'язнений, а потім вигнаний до Франції, але це не завадило йому продовжити роботу над видатними трактатами. Такі його шедеври, як «#italic Про право війни і миру#!» і «#italic Вільне море#!», заклали фундамент майбутнього міжнародного права і принесли йому славу #italic батька-засновника#! цієї дисципліни. Ідеї Гроція про суверенітет, природне право та інші права вплинули на таких мислителів, як Джон Локк, і визначили хід розвитку таких великих політичних подій, як Славна революція в Англії та Американська революція. Ще однією фундаментальною частиною його спадщини є теологічне обґрунтування природного права, що спирається на біблійні одкровення і людський розум."
+ },
+ "flavor_hol.11.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.12.a": {
+  "en": "Bring [target_character.GetHerHim] to the court.",
+  "uk": "Наблизити [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+ },
+ "flavor_hol.12.b": {
+  "en": "[target_character.GetSheHe|U] is a regular man.",
+  "uk": "Це лише звичайна людина."
+ },
+ "flavor_hol.12.desc": {
+  "en": "The son of one diplomat of our court is getting popular for [target_character.GetHerHis] genius. According to some of our advisors, [target_character.GetSheHe] has shown marvelous skills with geometry and maths. [target_character.GetHerHis|U] abilities could be of use in the court and with a proper financing, [target_character.GetSheHe] could marvel us and the world.",
+  "uk": "Син одного з наших дипломатів прославився своїм талантом. Деякі радники вже називають його геніальним математиком. Якщо ми наблизимо його до двору і вкладемо достатні кошти, його досягнення зможуть здивувати не лише нас, а й увесь світ."
+ },
+ "flavor_hol.12.entry": {
+  "en": "Christiaan Huygens, the Mathematician",
+  "uk": ""
+ },
+ "flavor_hol.12.historical_info": {
+  "en": "Huygens was a Dutch mathematician, astronomer, and physicist who founded the wave theory of light, discovered the true shape of the rings of Saturn and made original contributions to the science of dynamics - the study of the action of forces on bodies. Forgotten until the early 19th century, his theories on light appear today as one of the most brilliant and original contributions to modern science and will always be remembered by the principle bearing his name.",
+  "uk": "Нідерландський математик, астроном і фізик Гюйгенс заклав основи хвильової теорії світла, відкрив справжню форму кілець Сатурна і зробив суттєвий внесок у динаміку — науку про дії сил на тіла. Незаслужено забуті до кінця XIX століття, його теорії і в наші дні цінуються як блискучий і оригінальний внесок у сучасну науку, а принцип, названий на його честь, збереже його ім'я у віках."
+ },
+ "flavor_hol.12.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.13.a": {
+  "en": "Attempt to save the [ShowBuildingTypeNameWithNoTooltip('wisselbank')].",
+  "uk": "Спробувати врятувати Амстердамський банк"
+ },
+ "flavor_hol.13.b": {
+  "en": "Close the Bank of [ShowLocationNameWithNoTooltip('amsterdam')] and deal with the consequences.",
+  "uk": "Закрити Амстердамський банк і розібратися з наслідками."
+ },
+ "flavor_hol.13.desc": {
+  "en": "The foundation of the [ShowBuildingTypeName('wisselbank')] was an historical feat of our society and merchant class. However, what started as a way to strictly control the value of money has been changing over the years, adding more and more exceptions to the rule - when not directly bending them. To the surprise of no one, the previously very highly respected institution has lost its past prestige and is considered a corrupted place.\\n\\nNow, however, the economic difficulties our nation is facing forces us to look back at the institution in a last attempt of recover its past prestige and, in the process, our own economy.",
+  "uk": "Заснування #TOOLTIP:BUILDING_TYPE,wisselbank,X #L Амстердамського банку#!#! стало епохальною подією для нашого суспільства — особливо для його купецької частини. Однак з роками цей банк перестав бути інструментом суворого контролю цінності грошей: до його правил додавалося дедалі більше винятків, а часом вони відверто порушувалися. Не дивно, що колись поважана інституція втратила престиж і набула слави розсадника корупції.\\n\\nАле зараз економічні труднощі держави змушують нас знову звернутися до нього, щоб востаннє спробувати відновити його репутацію, а заразом і нашу економіку."
+ },
+ "flavor_hol.13.entry": {
+  "en": "The Bank of Amsterdam & The International Capital Market",
+  "uk": ""
+ },
+ "flavor_hol.13.historical_info": {
+  "en": "Since the foundation of the Wisselbank, the initally strict policies of full reserve relaxed over time while financing overseas trade and the Dutch economy but maintaining liquidity through collateral. When the Fourth Anglo-Dutch War ocurred, the confidence in the bank was severely eroded as the Dutch East India Company defaulted. In 1790, the Wisselbank was declared insolvent, even after several attempts to recapitalize the institution were made. Eventually the City of Amsterdam took control of it and replaced it with the Nederlandsche Bank. The Wisselbank was closed in 1819.",
+  "uk": "Суворі правила повного резервування, запроваджені при заснуванні Амстердамського банку, з часом пом'якшувалися, що дозволяло фінансувати зовнішню торгівлю та економіку Нідерландів, підтримуючи ліквідність за рахунок заставного забезпечення. Четверта англо-голландська війна і дефолт Голландської Ост-Індської компанії підірвали довіру до банку, а в 1790 році після кількох спроб рекапіталізації його було оголошено банкрутом. Потім він перейшов до міської влади Амстердама і був замінений Нідерландським банком, а в 1819 році закрився остаточно."
+ },
+ "flavor_hol.13.title": {
+  "en": "The Bank of [ShowLocationNameWithNoTooltip('amsterdam')] & The International Capital Market",
+  "uk": "Банк Амстердама і міжнародний ринок капіталу"
+ },
+ "flavor_hol.14.a": {
+  "en": "[target_character.GetHerHis|U] maps will be of great use for the military.",
+  "uk": "Так, його карти були б безцінні для наших військових."
+ },
+ "flavor_hol.14.b": {
+  "en": "Let [target_character.GetHerHim] work in [target_character.GetHerHis] improvements to maps.",
+  "uk": "Нехай продовжує вдосконалювати своє мистецтво."
+ },
+ "flavor_hol.14.desc": {
+  "en": "From a humble family, [target_character.GetName] has shown an impressive ability to depict the world on paper. This ability might be of great use in military operations, however there is a risk that [target_character.GetHerHis] skills are being underused if [target_character.GetSheHe] is limited to military maps.",
+  "uk": "[target_character.GetName], який народився в скромній родині, має дивовижний талант зображати світ на папері. Його здібності могли б дуже стати в пригоді нашій армії, але якщо він малюватиме лише військові карти, є ризик, що його потенціал не розкриється повністю."
+ },
+ "flavor_hol.14.entry": {
+  "en": "Gerard Mercator, the Cartographer",
+  "uk": ""
+ },
+ "flavor_hol.14.historical_info": {
+  "en": "Flemish geographer, mathematician, and cartographer. He studied in Louvain where he had a geographical establishment (1534). From 1537 to 1540 he surveyed and mapped Flanders. In 1538 he produced his first map of the world (based on Ptolemy's map)",
+  "uk": "Фламандський географ, математик і картограф. Навчався в Льовені, де в 1534 році став штатним географом. З 1537 по 1540 рік досліджував і картографував Фландрію. У 1538 році представив свою першу карту світу (на основі карти Птолемея)."
+ },
+ "flavor_hol.14.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.15.a": {
+  "en": "Support [target_character2.GetNameWithNoTooltip].",
+  "uk": "Нашу підтримку отримає [target_character2.GetName]."
+ },
+ "flavor_hol.15.a.entry": {
+  "en": "Support him.",
+  "uk": ""
+ },
+ "flavor_hol.15.b": {
+  "en": "[target_character1.GetNameWithNoTooltip] is right.",
+  "uk": "[target_character1.GetName] говорить істину."
+ },
+ "flavor_hol.15.b.entry": {
+  "en": "The character is right.",
+  "uk": ""
+ },
+ "flavor_hol.15.desc": {
+  "en": "For years, our nation has debated between a more conservative [ShowReligionName('calvinist')] or a more open minded one, trying to accommodate the diverse faiths that populate our country.\\n\\nA synod is being celebrated in [ShowLocationName('dordrecht')], where the two main representatives of both sides have met to judge the doctrine of their opponent. This could be a great opportunity to publicly show our support to one of the two contenders and, with it, end this debate for good.",
+  "uk": "Уже багато років у нашій державі тривають суперечки між консервативними #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністами#!#! і більш ліберальною течією, що прагне до віротерпимості.\\n\\nУ #TOOLTIP:LOCATION,dordrecht_tt,X #L Дордрехті#!#! було скликано синод, щоб головні представники обох учень змогли обговорити доктрини одне одного. Для нас це чудова можливість публічно підтримати одну зі сторін і покласти край цій суперечці."
+ },
+ "flavor_hol.15.entry": {
+  "en": "Calvinist in $HOL$",
+  "uk": ""
+ },
+ "flavor_hol.15.historical_info": {
+  "en": "In a clerical meeting in Dordrecht (1618-1619) hard-line Calvinism was made State-religion. This was the end of a long struggle between a pluralistic and humanitarian faction, the Arminians, and a dogmatic, narrow-minded 'True Calvinistic' faction, the Gomarists. Moritz of Oranien supported the Gomarists, composed mainly of petty bourgeois and farmers, while Oldenbarneveld supported the Arminians, composed of intellectuals and rich bourgeois.",
+  "uk": "На Дордрехтському синоді (1618–1619 рр.) консервативний кальвінізм було оголошено державною релігією Нідерландів. Так було покладено край довгій суперечці між віротерпимими армініанцями і догматичними «істинними кальвіністами» — так званими гомаристами. Моріц Оранський підтримував гомаристів, у лавах яких були переважно селяни і бідні городяни, а Олденбарневельд виступав на боці армініанців — переважно інтелектуалів і багатих буржуа."
+ },
+ "flavor_hol.15.title": {
+  "en": "[ShowReligionNameWithNoTooltip('calvinist')] in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Кальвінізм у [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "flavor_hol.16.a": {
+  "en": "[target_character.GetSheHe|U] will make an Excellent Minister!",
+  "uk": "З [Select_CString(target_character.IsFemale, 'неї', 'нього' )] вийде чудовий міністр!"
+ },
+ "flavor_hol.16.b": {
+  "en": "There is no need for another advisor.",
+  "uk": "У нас і так достатньо радників."
+ },
+ "flavor_hol.16.desc": {
+  "en": "Born in one of the most important families of our nation, [target_character.GetName] is a great [target_character.GetWomanMan] whose talents are not being used correctly in [target_character.GetHerHis] position as Pensionary of [ShowLocationNameWithNoTooltip('dordrecht')]. We should hire [target_character.GetHerHim] and employ [target_character.GetHerHim] in our office.",
+  "uk": "[Select_CString(target_character.IsFemale,'Народившись', 'Народившись')] в одній із найвпливовіших родин нашої держави, [target_character.GetName] має цілу низку видатних талантів, які, на жаль, не розкриваються повною мірою на посаді пенсіонарія Дордрехта, яку [Select_CString(target_character.IsFemale,'вона обіймає', 'він обіймає')]. Нам слід взяти [Select_CString(target_character.IsFemale,'її', 'його')] на придворну службу."
+ },
+ "flavor_hol.16.entry": {
+  "en": "Jan de Witt, the Pensionary",
+  "uk": ""
+ },
+ "flavor_hol.16.historical_info": {
+  "en": "Jan de Witt became Raadpensionaris (Great Pensioner) in 1653. The Dutch Republic enjoyed under his guidance some of its most brilliant years. He also spent his life fighting the influence of the House of Orange, traditionally holding the office of Stadtholder, therefore in charge of the military affairs of the Republic, managing to have the Act of Exclusion voted against them in 1667. However, the defeats in 1672 against France and England made the Orangist party come back and have him imprisoned. On 20th August 1672, he and his brother Cornelis were slaughtered by a mob incited by his political opponents.",
+  "uk": "Ян де Вітт обійняв посаду Великого пенсіонарія Голландії в 1653 році. Період його правління став для республіки справжнім золотим віком. При цьому він усе своє життя боровся з впливом Оранської династії, представники якої традиційно обіймали посаду штатгальтерів і, як наслідок, командували збройними силами держави. У 1667 році він офіційно скасував цю посаду, але в 1672 році після поразок у війнах з Францією та Англією партія оранжистів знову прийшла до влади і ув'язнила його. 20 серпня 1672 року його і його брата Корнеліса розтерзав натовп, підбурюваний оранжистами."
+ },
+ "flavor_hol.16.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.17.a": {
+  "en": "Expand Loan Market.",
+  "uk": "Розширити ринок позик."
+ },
+ "flavor_hol.17.b": {
+  "en": "Issue Strict Control.",
+  "uk": "Запровадити суворий контроль."
+ },
+ "flavor_hol.17.desc": {
+  "en": "As our businesses everywhere become more lucrative, more and more people are interested in investing in them. These investors expect a return of their investments, and thus the necessity of creating an institution to guarantee that these investors will receive a future share of benefits. The solution to this problem came with the foundation of the Stock Exchange in Amsterdam that would provide these investors with bonds. However, our advisors tell us that the direction of this institution should lean towards controlling our economy or granting easier access to loans.",
+  "uk": "Оскільки наші численні підприємства зростають і процвітають, дедалі більше людей бажає вкласти в них кошти. Звісно, інвестори розраховують на повернення своїх вкладень з відсотками, тому нам час створити спеціальну інституцію, яка гарантує їм частку в майбутньому прибутку. Розв'язанням цієї проблеми може стати Амстердамська біржа, але радники продовжують дискутувати про те, що має бути для неї пріоритетніше: контроль над економікою чи полегшення доступу до позикових коштів."
+ },
+ "flavor_hol.17.entry": {
+  "en": "Creation of the Amsterdam Stock Exchange",
+  "uk": ""
+ },
+ "flavor_hol.17.historical_info": {
+  "en": "In the wake of the creation of the Bank of Amsterdam (1609), the city's stock exchange had become more and more active. Having taken over from Antwerp the role of leading financial place, the stock exchange flourished. Funds from all over Europe would become available and loans were easily accessible, at rates unmatched anywhere else. This was enhanced by the capitalistic success of the Dutch East India Company (1602) and even of the less successful West India Trade Company (1621).",
+  "uk": "Відкриття Амстердамського банку (1609 р.) пожвавило торги на міській біржі. Незабаром Амстердам відібрав у Антверпена статус фінансової столиці і став найбільшим європейським центром залучення капіталів з доступними позиками за найвигіднішими ставками. Цьому сприяли прибутки Голландської Ост-Індської компанії (1602 рік) і навіть менш успішної Вест-Індської компанії (1621 р.)."
+ },
+ "flavor_hol.17.title": {
+  "en": "Creation of the [ShowLocationNameWithNoTooltip('amsterdam')] Stock Exchange",
+  "uk": "Заснування Амстердамської біржі"
+ },
+ "flavor_hol.18.a": {
+  "en": "Our policy must be to contain [target_country.GetNameWithNoTooltip].",
+  "uk": "Наша політика має бути спрямована на стримування [target_country.Custom('CL_GEN')]."
+ },
+ "flavor_hol.18.a.entry": {
+  "en": "Our policy must be to contain them.",
+  "uk": ""
+ },
+ "flavor_hol.18.b": {
+  "en": "Pursue a friendly policy towards [target_country.GetNameWithNoTooltip].",
+  "uk": "Нам слід виявляти дружелюбність щодо [target_country.Custom('CL_GEN')]."
+ },
+ "flavor_hol.18.b.entry": {
+  "en": "Pursue a friendly policy towards them.",
+  "uk": ""
+ },
+ "flavor_hol.18.desc": {
+  "en": "Through the years, the [target_country.GetAdjective] [target_country.GetFlavorRank] has always been supportive of our [root_country.GetFlavorRank] as we had a mutual enemy in [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. Lately, however, [target_country.GetAdjectiveWithNoTooltip] domestic policies towards the Huguenots as well as their foreign policy in our immediate surroundings have made many fear [target_country.GetNameWithNoTooltip]. Perhaps it is now time to try to gather friends before the inevitable conflict with our southern neighbor.",
+  "uk": "Уже багато років [target_country.GetName] підтримує нашу [target_country.Custom('rank_ru_ACC')], адже в нас є спільний ворог — [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. Однак останнім часом [target_country.GetAdjectiveWithNoTooltip]а внутрішня політика щодо гугенотів, а також зовнішня політика щодо наших найближчих сусідів викликає обґрунтовані побоювання. Можливо, нам час збирати друзів і готуватися до неминучого конфлікту з південним сусідом."
+ },
+ "flavor_hol.18.entry": {
+  "en": "Dutch-French Tensions",
+  "uk": ""
+ },
+ "flavor_hol.18.title": {
+  "en": "[target_country.GetAdjectiveWithNoTooltip]-[root_country.GetCulture.GetNameWithNoTooltip] Tensions",
+  "uk": "[target_country.GetAdjectiveWithNoTooltip]о-[root_country.GetCulture.GetNameWithNoTooltip]ій конфлікт"
+ },
+ "flavor_hol.19.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "flavor_hol.19.a.entry": {
+  "en": "$common_string_alright$",
+  "uk": ""
+ },
+ "flavor_hol.19.a.tt": {
+  "en": "[root_country.GetLongName] will try to improve their relations with our [rivals|e]",
+  "uk": "Держава [root_country.GetLongName] спробує поліпшити відносини з нашими [Concept('rivals', 'суперниками')|e]"
+ },
+ "flavor_hol.19.desc": {
+  "en": "After years of, if not friendship at least friendly cooperation, [root_country.GetName] has begun to act more hostile towards us. We have received reports that they are seeking friends abroad among our enemies and that they intend to limit our influence in the Low Countries. While this is ungrateful it is perhaps also rather well timed. Without our goodwill to protect them the Low Countries would make a fine addition to our [target_country.GetFlavorRank].",
+  "uk": "Після багатьох років якщо не дружби, то, принаймні, добросусідського співробітництва уряд [root_country.Custom('CL_GEN')] поводиться дедалі ворожіше щодо нас. Надходять доповіді, що ця держава шукає союзників серед наших ворогів і має намір обмежити наш вплив у Нижніх землях. Це, звісно, невдячно, але вельми своєчасно. Адже якщо ми перестанемо виявляти добру волю, ці території можуть стати непоганим придбанням для [target_country.Custom('rank_ru_GEN')."
+ },
+ "flavor_hol.19.entry": {
+  "en": "$flavor_hol.19.title$",
+  "uk": ""
+ },
+ "flavor_hol.19.title": {
+  "en": "Le Prisonnier de Hollande",
+  "uk": ""
+ },
+ "flavor_hol.2.a": {
+  "en": "Condemn [ShowReligiousAspectNameWithNoTooltip('arminianism')]",
+  "uk": "Засудити армініанство"
+ },
+ "flavor_hol.2.a.tt": {
+  "en": "Replace the [ShowReligiousAspectName('gomarism')] with [ShowReligiousAspectName('instituionalized_gomarism')].\\n[ShowReligiousAspectName('arminianism')] becomes inaccessible to us",
+  "uk": "#TOOLTIP:RELIGIOUS_ASPECT,gomarism,X #L Гомаризм#!#! буде замінено #TOOLTIP:RELIGIOUS_ASPECT,instituionalized_gomarism,X #L офіційним гомаризмом#!#!.\\n#TOOLTIP:RELIGIOUS_ASPECT,arminianism,X #L Армініанство#!#! стане недоступним."
+ },
+ "flavor_hol.2.b": {
+  "en": "Reject [ShowReligiousAspectNameWithNoTooltip('gomarism')]",
+  "uk": "Відкинути гомаризм"
+ },
+ "flavor_hol.2.b.tt": {
+  "en": "Replace the [ShowReligiousAspectName('arminianism')] with [ShowReligiousAspectName('instituionalized_arminianism')].\\n[ShowReligiousAspectName('gomarism')] becomes inaccessible to us",
+  "uk": "#TOOLTIP:RELIGIOUS_ASPECT,arminianism,X #L Армініанство#!#! буде замінено #TOOLTIP:RELIGIOUS_ASPECT,instituionalized_arminianism,X #L офіційним армініанством#!#!.\\n#TOOLTIP:RELIGIOUS_ASPECT,gomarism,X #L Гомаризм#!#! стане недоступним."
+ },
+ "flavor_hol.2.c": {
+  "en": "This is none of our concern.",
+  "uk": "Нас це не стосується."
+ },
+ "flavor_hol.2.desc": {
+  "en": "[ShowReligiousAspectName('arminianism')], a movement within [ShowReligionName('calvinist')] founded by [loc_jacobus_arminius.GetName] with pluralistic and humanitarian views, has gained increasingly more popularity amongst the faithful of [ROOT.GetCountry.GetName]. This caused the birth of a counter movement in form of [ShowReligiousAspectName('gomarism')], founded by [loc_franciscus_gomarus.GetName], which tries to defend the ideals and views of [ShowReligionNameWithNoTooltip('calvinist')]. In order to stop the heated controversy before it escalates any further, a National Synod in [target_location.GetName] has been held to settle this religious conflict once and for all.",
+  "uk": "#TOOLTIP:RELIGIOUS_ASPECT,arminianism,X #L Армініанство#!#!, один із напрямків #TOOLTIP:RELIGION,calvinist_tt,X #L кальвінізму#!#!, заснував [loc_jacobus_arminius.GetName], спираючись на свої плюралістичні та гуманістичні погляди. На території [ROOT.GetCountry.Custom('CL_GEN')] воно набуло значно більшої популярності, ніж кальвінізм у його початковому вигляді. Для захисту ідеалів останнього [loc_franciscus_gomarus.GetName] заснував протилежну течію, названу #TOOLTIP:RELIGIOUS_ASPECT,gomarism,X #L гомаризмом#!#!. Щоб примирити ці два вчення, поки конфлікт між ними не переріс у повноцінну релігійну війну, в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip] було скликано синод реформатських церков."
+ },
+ "flavor_hol.2.entry": {
+  "en": "Synod of Dordrecht",
+  "uk": ""
+ },
+ "flavor_hol.2.historical_info": {
+  "en": "The rise of Arminianism caused a National Synod to be held in Dordrecht by the Dutch Reformed Church to settle the divisive controversy initiated. On November 13, 1618, the Dutch Reformed Church and voting representatives from eight foreign Reformed churches held the first meeting. The last and final meeting was held on May 9, 1619, and was the 154th meeting. It settled the controversy over Arminianism, condemned it, rejected the Arminian views and set forth the Reformed doctrine on each point, namely total depravity, unconditional election, limited atonement, irresistible grace, and the perseverance of the saints. The Remonstrants, as the Arminians were known, were directed to abstain from ministerial activities such as preaching, exhorting, administering the sacraments, and visiting the sick. They were also requested to sign The Act of Cessation, the legalization of the order to desist from the ministry but refused to sign it and were sentenced as 'disturbers of the public peace' and ordered to leave the United Provinces. The Synod condemned the religious doctrine of Arminianism as heresy.",
+  "uk": "Зростання популярності армініанства змусило Нідерландську реформатську церкву скликати синод у місті Дордрехт. 13 листопада 1618 року представники Нідерландської церкви і восьми іноземних реформатських церков провели перші збори, а останні, 154-ті, відбулися 9 травня 1619 року. Синод засудив армініанство, відкинув армініанські погляди і сформулював богословські канони кальвінізму, а саме повну людську гріховність, безумовне обрання, обмежене спокутування, непереборну благодать і стійкість святих. Армініанцям, також іменованим ремонстрантами, було заборонено займатися пастирською діяльністю, зокрема проповідувати, наставляти, здійснювати таїнства і відвідувати хворих. Їм також наказувалося підписати Акт про зречення, а ті, хто відмовився це зробити, звинувачувалися в «порушенні громадського спокою» і виганялися з території Об'єднаних провінцій. Релігійна доктрина армініанства як така була оголошена єрессю."
+ },
+ "flavor_hol.2.title": {
+  "en": "Synod of [target_location.GetNameWithNoTooltip]",
+  "uk": "Дордрехтський синод"
+ },
+ "flavor_hol.20.a": {
+  "en": "Favor an offensive approach.",
+  "uk": "Віддати перевагу наступу."
+ },
+ "flavor_hol.20.b": {
+  "en": "Favor a defensive approach.",
+  "uk": "Віддати перевагу обороні."
+ },
+ "flavor_hol.20.desc": {
+  "en": "The militaries of [ShowContinentName('europe')] are advancing in technologies and tactics at a rapid pace. It has become clear that we must reform our military as soon as possible so [ROOT.GetCountry.GetName] to hold any political influence on the stage of the great powers. Fortunately enough, [target_character.GetName] has already plans to address the matter at hand...",
+  "uk": "Тактика й оснащення #TOOLTIP:CONTINENT,europe,X #L європейських#!#! армій стрімко розвиваються. Очевидно, що нам потрібно якнайшвидше провести військову реформу, щоб зберегти політичну вагу [ROOT.GetCountry.Custom('CL_GEN')] на світовій арені. На щастя для нас, [target_character.GetName] уже [Select_CString(target_character.IsFemale,'підготувала', 'підготував')] дещо на цей рахунок…"
+ },
+ "flavor_hol.20.entry": {
+  "en": "$flavor_hol.20.title$",
+  "uk": ""
+ },
+ "flavor_hol.20.historical_info": {
+  "en": "Johann, Count of Nassau-Siegen along with his cousin, Prince Maurits, and brother Willem, were at the heart of the Dutch reforms. Relearning the lost skills of Classical armies from the translation of Roman military manuals, they reorganized battle formations to make them more flexible and to increase firepower. It was Johann who was the brains behind the most famous of all drill manuals, de Gheyn's Wapenhandelinghe, and the founder of one of the first military academies at Siegen in Germany.",
+  "uk": "На чолі нідерландської військової реформи стояли граф Йоганн Нассау-Зігенський, його кузен принц Моріц і брат Віллем. Відновивши втрачені знання про класичні армії за перекладами римських військових трактатів, вони реорганізували бойові порядки так, щоб підвищити їхню гнучкість і вогневу міць. Граф Йоганн узяв участь у написанні знаменитого посібника з поводження зі зброєю «Вапенханделінге» Якоба де Гейна і заснував одну з перших військових академій у німецькому Зігені."
+ },
+ "flavor_hol.20.title": {
+  "en": "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] Military Reforms",
+  "uk": "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]і військові реформи"
+ },
+ "flavor_hol.21.a": {
+  "en": "An Excellent Minister!",
+  "uk": "Чудовий міністр!"
+ },
+ "flavor_hol.21.desc": {
+  "en": "The true power of a ruler lies in the competence of their ministers. Fortunately enough for the [ROOT.GetCountry.GetCulture.GetName] [ROOT.GetCountry.GetFlavorRank], the court is blessed with the service of [target_character.GetName].",
+  "uk": "Істинна могутність правителя залежить від компетентності його міністрів. На щастя для всієї [ROOT.GetCountry.GetCulture.GetName]ої держави, при нашому дворі служать такі видатні люди, як [target_character.GetName]."
+ },
+ "flavor_hol.21.entry": {
+  "en": "Anthony Heinsius, the Pensionary",
+  "uk": ""
+ },
+ "flavor_hol.21.historical_info": {
+  "en": "Born in 1640, Anthony Hensius had enjoyed the confidence of William III of Orange all his life. Sent to Versailles after the peace of Nijmegen to supervise the execution of its clauses, he became Raad Pensionaris in 1688 after William moved to England. A tough negotiator and obstinate opponent of France, he was at the core of all anti-French coalitions that were set up in all the wars of the late 17th century. He died in 1720.",
+  "uk": "Антоній Гейнзіус, який народився в 1640 році, все своє життя був наділений довірою Вільгельма III Оранського. Після укладення Німвегенських мирних договорів він побував у Версалі у складі посольства, яке контролювало їх дотримання, а в 1688 році, коли Вільгельм переїхав до Англії, став великим пенсіонарієм Голландії. Розважливий дипломат і переконаний супротивник Франції, він стояв за всіма антифранцузькими коаліціями в усіх війнах кінця XVII століття. У 1720 році він помер."
+ },
+ "flavor_hol.21.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.22.a": {
+  "en": "Crush the Traitors.",
+  "uk": "Знищити зрадників."
+ },
+ "flavor_hol.22.a.tt": {
+  "en": "All [ShowCultureName('frisian')] [pops|e] will join the [target_rebel.GetName] [rebel|e]",
+  "uk": "Усі #TOOLTIP:CULTURE,frisian_tt,X #L фризькі#!#! [Concept('pops', 'групи населення')|e] приєднаються до [Concept('rebel', 'заколотників')|e] ([target_rebel.GetName])"
+ },
+ "flavor_hol.22.desc": {
+  "en": "Discontent with the behavior of our troops in the region, the [ShowPopTypeName('peasants')] of [ShowAreaName('friesland_area')] have taken up arms against us. Joined by mercenary soldiers, these revolters have had limited success on land but have already conducted some surprising maneuvers at sea. Indeed, the revolters are as many pirates as they are soldiers, and unless we put this thing down soon shipping will suffer.",
+  "uk": "[ShowPopTypeName('peasants')] #TOOLTIP:AREA,friesland_area,X #L Фрісландії#!#!, невдоволені поведінкою наших військ на своїй землі, взялися за зброю. Об'єднавшись з найманцями, вони не досягли суттєвих успіхів на суші, але вже здійснили низку несподіваних маневрів на морі. Оскільки піратів серед цих заколотників ледь не більше, ніж солдатів, вони можуть серйозно завадити нашій морській торгівлі."
+ },
+ "flavor_hol.22.entry": {
+  "en": "$flavor_hol.22.title$",
+  "uk": ""
+ },
+ "flavor_hol.22.title": {
+  "en": "Arumer Zwarte Hoop",
+  "uk": "Чорна армія Арума"
+ },
+ "flavor_hol.23.a": {
+  "en": "A great man.",
+  "uk": "Велика людина."
+ },
+ "flavor_hol.23.desc": {
+  "en": "Innovative ideas and thoughts are actively promoted in the [ROOT.GetCountry.GetCulture.GetName] state, which in turn cultivates more curious minds who seek to support the community with their philosophies. One such intellectual is [target_character.GetName] who is devoted to several philosophical fields.",
+  "uk": "[ROOT.GetCountry.GetCulture.GetName]а держава підтримує свіжі ідеї, що, своєю чергою, виховує нові допитливі уми, які шукають підтримки однодумців. До числа таких інтелектуалів входить [target_character.GetName], [Select_CString(target_character.IsFemale,'яка присвятила', 'який присвятив')] своє життя одразу кільком галузям філософії."
+ },
+ "flavor_hol.23.entry": {
+  "en": "Baruch Spinoza, Prince of Philosophers",
+  "uk": ""
+ },
+ "flavor_hol.23.historical_info": {
+  "en": "The son of an immigrant Portuguese Jewish family, Baruch Spinoza would lead a relatively simple life and supported himself as a lens maker and contributions from benefactors. While Spinoza is said to have been an excellent lens maker it is his devotion to philosophy, ethics, and theology that this man will be remembered for. Spinoza published few works in his lifetime but his ideas came to circulate all the same and resulted in the University of Heidelberg offering him a chair, which he declined for fear that it might restrain his thought.",
+  "uk": "Барух Спіноза, який народився в родині єврейських переселенців з Португалії, вів доволі просте життя, займаючись шліфуванням оптичних скелець. Кажуть, що в цьому ремеслі він досяг неабияких успіхів, однак в історію він увійшов завдяки своїм працям у галузі філософії, етики і теології. За життя Спіноза опублікував лише кілька своїх робіт, але його ідеї поширювалися, і врешті-решт Гейдельберзький університет запропонував йому кафедру. Він відмовився, побоюючись, що це обмежить свободу його думки."
+ },
+ "flavor_hol.23.title": {
+  "en": "[target_character.GetNameWithNoTooltip] - The Prince of Philosophers",
+  "uk": "[target_character.GetNameWithNoTooltip] — принц серед філософів"
+ },
+ "flavor_hol.24.a": {
+  "en": "Adopt [target_character.GetHisHer] philosophies.",
+  "uk": "Приймемо [Select_CString(target_character.IsFemale, 'її', 'його')] погляди."
+ },
+ "flavor_hol.24.b": {
+  "en": "Reject [target_character.GetHimHer] and [target_character.GetHisHer] ideas.",
+  "uk": "Відкинемо і [Select_CString(target_character.IsFemale, 'її саму', 'його самого')], і [Select_CString(target_character.IsFemale, 'її', 'його')] ідеї."
+ },
+ "flavor_hol.24.c": {
+  "en": "Banish this heretic!",
+  "uk": "Прогнати [Select_CString(target_character.IsFemale, 'цю єретичку', 'цього єретика')]!"
+ },
+ "flavor_hol.24.desc": {
+  "en": "[ShowReligionName('calvinist')] spreads in [ROOT.GetCountry.GetName] like a wildfire. Tossing aside the views of [ShowReligionName('lutheran')], the [ShowReligionAdjectiveWithNoTooltip('calvinist')] faithful have a significantly more radical approach against the [ShowReligionName('catholic')].\\n\\nThough, not everyone agrees with their ideologies. The theologian, [target_character.GetName] challenges the zealous ways, and proposes a more humanistic treatment of heretics. His way of thought led to the foundation of the [ShowReligiousAspectName('arminianism')] movement in [ShowReligionNameWithNoTooltip('calvinist')].",
+  "uk": "[ShowReligionName('calvinist')] поширюється по [ROOT.GetCountry.Custom('CL_DP')] подібно до лісової пожежі. Відкидаючи #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранські#!#! погляди, кальвіністи значно радикальніше виступають проти #TOOLTIP:RELIGION,catholic_tt,X #L католицької#!#! церкви.\\n\\nОднак їхні ідеї поділяють не всі. Богослов [target_character.GetName] засуджує фанатизм і закликає до більш гуманного поводження з єретиками. Його ідеї лягли в основу #TOOLTIP:RELIGIOUS_ASPECT,arminianism,X #L армініанської#!#! течії в кальвінізмі."
+ },
+ "flavor_hol.24.entry": {
+  "en": "Jacobus Arminius, Theologian",
+  "uk": ""
+ },
+ "flavor_hol.24.historical_info": {
+  "en": "Jacobus Arminius, a Dutch Reformed theologian, challenged Calvinism and developed the theological basis for Arminianism, sparking the Dutch Remonstrant movement. Despite initially defending Calvinistic predestination, Arminius began to doubt aspects of it and proposed modifications, emphasizing a grace sufficient for all to believe and be saved. His teachings were systematized posthumously in the Five Articles of the Remonstrants, leading to persecution by the Calvinist Synod of Dort, yet Arminianism persisted and influenced figures like John Wesley, who became its prominent advocate within the Methodist Movement.",
+  "uk": "Нідерландський теолог-реформат Якоб Арміній у своїй суперечці з кальвіністами розробив богословські ідеї армініанства, які лягли в основу руху ремонстрантів. Спочатку він був прихильником кальвіністської концепції призначення, але згодом засумнівався в деяких її аспектах і запропонував доповнити її ідеєю благодаті, що дає кожному можливість увірувати і спастися. Після його смерті вчення було систематизоване у формі П'яти пунктів Ремонстрації. Згодом армініанство було заборонене кальвіністським Дордрехтським синодом, але його ідеї збереглися і надихнули таких релігійних діячів, як засновник методизму Джон Веслі."
+ },
+ "flavor_hol.24.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.25.a": {
+  "en": "$flavor_hol.24.a$",
+  "uk": ""
+ },
+ "flavor_hol.25.b": {
+  "en": "$flavor_hol.24.b$",
+  "uk": ""
+ },
+ "flavor_hol.25.c": {
+  "en": "$flavor_hol.24.c$",
+  "uk": ""
+ },
+ "flavor_hol.25.desc": {
+  "en": "[ShowReligiousAspectName('arminianism')] is rising in popularity within [ShowReligionName('calvinist')]. However, not all are subscribing to the ideals of [trigger_character.GetName] and [trigger_character.GetHisHer] movement. Such a prominent opponent is the theologian [target_character.GetName] who argues against the leaning and humanist views [ShowReligiousAspectNameWithNoTooltip('arminianism')] advocates. Thus, the [ShowReligiousAspectName('gomarism')] movement is born.",
+  "uk": "У #TOOLTIP:RELIGION,calvinist_tt,X #L кальвінізмі#!#! набирає популярності течія #TOOLTIP:RELIGIOUS_ASPECT,arminianism,X #L армініанства#!#!. Однак [trigger_character.GetName] і його ідеали подобаються далеко не всім: такі видатні богослови, як [target_character.GetName], виступають проти армініанської поступливості та гуманізму. Їхні послідовники створили рух під назвою #TOOLTIP:RELIGIOUS_ASPECT,gomarism,X #L гомаризм#!#!."
+ },
+ "flavor_hol.25.entry": {
+  "en": "Franciscus Gomarus, Theologian",
+  "uk": ""
+ },
+ "flavor_hol.25.historical_info": {
+  "en": "The Dutch theologian Franciscus Gomarus vigorously opposed the teachings of Jacobus Arminius, advocating for absolute predestination and leading the Gomarists faction. Despite initially teaching quietly, Gomarus clashed with Arminius upon the latter's arrival at Leiden University, engaging in personal disputes and theological debates. He played a prominent role in the Synod of Dort, defending Calvinist doctrine, and continued his academic pursuits until his death, leaving behind a legacy of theological scholarship and controversy.",
+  "uk": "Нідерландський богослов Франціск Гомар, який очолював рух гомаристів, оспорював ідеї Якоба Армінія, виступаючи за абсолютне призначення. Спочатку він просував свої ідеї ненав'язливо, але коли Арміній прибув до Лейденського університету, Гомар став вести з ним особисті суперечки і теологічні дебати. Гомар став однією з ключових постатей Дордрехтського синоду, що захистив доктрину кальвінізму, і продовжував богословські пошуки до самої смерті, залишивши вельми значну і суперечливу спадщину."
+ },
+ "flavor_hol.25.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.26.a": {
+  "en": "May the Lord help us to end this heresy swiftly.",
+  "uk": "Нехай Господь допоможе нам викорінити цю єресь."
+ },
+ "flavor_hol.26.desc": {
+  "en": "The [target_country.GetAdjective] people have claimed a godless life. Independent from any kind of feudal rule, unleashed from any divine guidance, life in [target_country.GetNameWithNoTooltip] resembles more an anarchy than any bible-approved existence. As devout members of the [ShowReligionGroupAdjective('christian')] Faith, it is our holy duty to end this affront to the Lord, and end this 'freedom' once and for all.",
+  "uk": "[target_country.GetAdjective]ий народ забув про Бога. У [target_country.Custom('CL_PREP')], що відкинула феодальну владу і священні заповіді, панує не біблійний світоустрій, а хаос і анархія. Будучи захисниками [ShowReligionGroupAdjective('christian')]ої віри, ми зобов'язані виступити проти цих безбожників і покінчити з їхньою «свободою» раз і назавжди."
+ },
+ "flavor_hol.26.entry": {
+  "en": "The Hollandic-Frisian War",
+  "uk": ""
+ },
+ "flavor_hol.26.title": {
+  "en": "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] War",
+  "uk": "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]о-[target_country.GetAdjectiveWithNoTooltip]а війна"
+ },
+ "flavor_hol.27.a": {
+  "en": "May our art reach the hearts of its viewers.",
+  "uk": "Нехай наше мистецтво підкорює серця поціновувачів прекрасного."
+ },
+ "flavor_hol.27.desc": {
+  "en": "Prosperity and stability shape the current history of [ROOT.GetCountry.GetName]. Inspired by this [ROOT.GetCountry.GetCulture.GetName] Golden Age, artists from all corners of our nation are producing great paintings never seen before by mankind.",
+  "uk": "У [ROOT.GetCountry.Custom('CL_PREP')] настала епоха процвітання і стабільності. Натхненні [ROOT.GetCountry.GetCulture.GetName]им золотим віком, художники нашої держави творять шедеври, рівних яким ще не було в історії людства."
+ },
+ "flavor_hol.27.entry": {
+  "en": "$flavor_hol.27.title$",
+  "uk": ""
+ },
+ "flavor_hol.27.historical_info": {
+  "en": "The Dutch Golden Age painting flourished in the 17th century during the Dutch Republic's peak, marked by prosperity and innovation in trade, science, and art. Departing from traditional religious themes, Dutch artists embraced secular subjects with detailed realism, shaping distinct genres like portraiture, genre scenes, landscapes, seascapes, and still lifes. This specialization in painting genres, observed from the late 1620s to 1672, epitomized the era's artistic identity and influenced Western painting's future trajectory.",
+  "uk": "Золотий вік голландського живопису припав на XVII століття — період розквіту Голландії, ознаменований процвітанням і розвитком торгівлі, науки та мистецтва. Відійшовши від традиційних релігійних сюжетів, голландські художники звернулися до світських тем, поклавши початок таким жанрам, як портрет, жанрова сцена, пейзаж, мариністика і натюрморт. Поділ на жанри, що відбувався з 20-х по 70-ті роки XVII століття, визначив художню ідентичність цієї епохи і вплинув на подальший розвиток західного образотворчого мистецтва."
+ },
+ "flavor_hol.27.title": {
+  "en": "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] Golden Age Painting",
+  "uk": "Золотий вік [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]ого живопису"
+ },
+ "flavor_hol.28.a": {
+  "en": "Build the exchange bank.",
+  "uk": "Ми відкриємо валютний банк."
+ },
+ "flavor_hol.28.b": {
+  "en": "We do not need it.",
+  "uk": "Нам це ні до чого."
+ },
+ "flavor_hol.28.desc": {
+  "en": "With the volatility of precious metals used to mint coins, especially [ShowGoodsName('silver')], the need for a stable silver bank currency becomes apparent to many. Several [ShowPopTypeName('burghers')], past members of the city council, have proposed to create an exchange bank that would be the guarantor for this very needed currency value stability.\\n\\nNot everyone is on board with this idea, mostly among the [ShowPopTypeName('nobles')] who see this as a new way for the [ShowPopTypeNameWithNoTooltip('burghers')] to get more power for themselves. While this is not necessarily untrue, there is virtue in the proposal as it would lead to better control on the value of the currencies with which we trade.",
+  "uk": "Коливання цін на #TOOLTIP:GOODS,silver,X #L срібло#!#! та інші метали, що використовуються для карбування монет, змусили багатьох замислитися про необхідність стабільної банківської валюти. Група #TOOLTIP:POPTYPE,burghers,X #L городян#!#!, які раніше входили до міської ради, запропонувала заснувати валютний банк, який виступав би гарантом такого фінансового засобу.\\n\\nЦю ідею схвалили не всі: так, багато [ShowPopTypeName('nobles')] бачать у ній чергову спробу #TOOLTIP:POPTYPE,burghers,X #L городян#!#! посилити свій вплив. У чомусь це правда, але наявність такого банку справді дозволить нам краще контролювати цінність грошових коштів, що використовуються в торгівлі."
+ },
+ "flavor_hol.28.entry": {
+  "en": "Wisselbank",
+  "uk": ""
+ },
+ "flavor_hol.28.historical_info": {
+  "en": "Established in 1609, the Bank of Amsterdam, or Wisselbank, was an early exchange bank endorsed by the city of Amsterdam. Considered by some as the first true central bank, it played a crucial role in defending coinage standards and introduced the first international reserve currency, the bank guilder. The Wisselbank influenced state banks across Europe, but a shift in policy and defaults during the Fourth Anglo-Dutch War led to its insolvency in 1790. The City of Amsterdam assumed control in 1791, and the Nederlandsche Bank took over money issuance duties in 1814, leading to the Wisselbank's liquidation in 1819.",
+  "uk": "Заснований у 1609 році за підтримки міської влади нідерландської столиці, Амстердамський банк став одним із перших валютних банків в історії. Ця установа, яку іноді називають першим справжнім центральним банком, відігравала ключову роль у захисті грошових стандартів і емітувала першу у світі міжнародну резервну валюту — банківський гульден. Амстердамський банк вплинув на державні банки багатьох європейських держав, однак зміна його політики і дефолти великих компаній під час Четвертої англо-голландської війни призвели до того, що в 1790 році його було оголошено некредитоспроможним. У 1791 році банк перейшов під зовнішнє управління міської влади Амстердама, у 1814 році його функції грошової емісії були передані Нідерландському банку, а в 1819 році він закрився остаточно."
+ },
+ "flavor_hol.28.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('wisselbank')]",
+  "uk": ""
+ },
+ "flavor_hol.29.a": {
+  "en": "Let us sponsor this endeavor.",
+  "uk": "Давайте профінансуємо цю справу."
+ },
+ "flavor_hol.29.b": {
+  "en": "It is too costly.",
+  "uk": "Це занадто дорого."
+ },
+ "flavor_hol.29.c": {
+  "en": "They will help us in more than art.",
+  "uk": "Вони допоможуть нам не лише в розвитку мистецтва."
+ },
+ "flavor_hol.29.desc": {
+  "en": "With the [ShowInstitutionName('renaissance')] raging on in the rest of [ShowContinentName('europe')], [target_character.GetName] has been planning on promoting artists to strengthen [target_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle] and further spread the ideals of the Renaissance in the Low Countries.",
+  "uk": "По всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#! на повний хід іде #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!, і [target_character.GetName] планує підтримувати творчих людей, щоб посилити вплив свого двору і поширити ідеали Ренесансу в Нижніх землях."
+ },
+ "flavor_hol.29.entry": {
+  "en": "The Northern Renaissance",
+  "uk": ""
+ },
+ "flavor_hol.29.title": {
+  "en": "The Northern [ShowInstitutionNameWithNoTooltip('renaissance')]",
+  "uk": "Північне Відродження"
+ },
+ "flavor_hol.3.a": {
+  "en": "Fund the Statenbijbel.",
+  "uk": "Профінансувати переклад Біблії."
+ },
+ "flavor_hol.3.b": {
+  "en": "We cannot afford it.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_hol.3.desc": {
+  "en": "The [ROOT.GetCountry.GetReligion.GetName] is the unifying religion of the [ROOT.GetCountry.GetLongName]. Yet, the language of the holy text, while translated into [ROOT.GetCountry.GetCulture.GetLanguage.GetName], does not convey the true meaning of the word. It is a transcription from [ShowLanguageName('latin_language')] to [ShowLanguageName('german_language')] which then gets adapted to [ROOT.GetCountry.GetCulture.GetLanguage.GetNameWithNoTooltip]. The establishment of the Statenbijbel - #italic States Bible#! - will ensure a proper translation of the text as the Lord intends.",
+  "uk": "[ROOT.GetCountry.GetReligion.GetName] є головною релігією, що об'єднує #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_VP')|L]#!#!. Однак, хоча Святе Письмо і доступне #L [ROOT.GetCountry.GetCulture.GetLanguage.GetName]ою!#! мовою, його переклад не можна назвати точним: він являє собою адаптацію перекладу з #TOOLTIP:LANGUAGE,latin_language,X #L латини#!#! на #TOOLTIP:LANGUAGE,german_language,X #L німецьку#!#!. Проект #italic Державної Біблії#! (Statenbijbel) дозволить нашим книжникам створити новий переклад, що повністю передає задум Господа."
+ },
+ "flavor_hol.3.entry": {
+  "en": "$flavor_hol.3.title$",
+  "uk": ""
+ },
+ "flavor_hol.3.historical_info": {
+  "en": "The Synod of Dort of 1618-1619 deemed it necessary to translate the Bible into Dutch as the existing Dutch Bibles were merely translations of other translations. The new translation, the Statenbijbel, was to be based on the original languages in imitation of the King James Bible from 1611. Its first publication would have to wait until 1637, yet its impact on the cultural identity and unity of the Netherlands would form the basis for the standardized Dutch of today.",
+  "uk": "Дордрехтський синод 1618–1619 років визнав за необхідне перекласти Біблію нідерландською мовою, оскільки наявні тексти Святого Письма являли собою неточні переклади з інших європейських мов. Новий переклад, названий «Державною Біблією», був на наслідування Біблії короля Якова 1611 року виконаний з мов оригіналу. Він був опублікований лише в 1637 році, однак його вплив на культурну ідентичність і єдність держави призвів до формування основ сучасної норми нідерландської мови."
+ },
+ "flavor_hol.3.title": {
+  "en": "Statenvertaling",
+  "uk": "Переклад Святого Письма"
+ },
+ "flavor_hol.30.a": {
+  "en": "Let them live in peace.",
+  "uk": "Нехай живуть спокійно."
+ },
+ "flavor_hol.30.desc": {
+  "en": "With [ShowLocationName('amsterdam')] being the host to many [ShowReligionAdjective('judaism')] people, they have labeled it the #italic [ShowLocationName('jerusalem')] of the West#!. Whilst it is not a [ShowReligionAdjectiveWithNoTooltip('judaism')] [target_location.GetRank.GetName], it is surely a home for many of them.",
+  "uk": "Останнім часом [ShowLocationName('amsterdam')] став домом для безлічі людей [ShowReligionAdjective('judaism')]ого віросповідання: його навіть називають #italic Західним #TOOLTIP:LOCATION,jerusalem_tt,X #L Єрусалимом#!#!#!. Звісно, це не світова столиця іудаїзму, але послідовників цієї віри тут проживає чимало."
+ },
+ "flavor_hol.30.entry": {
+  "en": "Jerusalem of the West",
+  "uk": ""
+ },
+ "flavor_hol.30.title": {
+  "en": "[ShowLocationNameWithNoTooltip('jerusalem')] of the West",
+  "uk": "Західний [ShowLocationNameWithNoTooltip('jerusalem')]"
+ },
+ "flavor_hol.31.a": {
+  "en": "If it is money they need, then they can have it.",
+  "uk": "Якщо їм потрібні гроші, вони їх отримають."
+ },
+ "flavor_hol.31.b": {
+  "en": "We should focus on land instead.",
+  "uk": "Для нас важливіші сухопутні справи."
+ },
+ "flavor_hol.31.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has seen its [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] make plans for a new port. This will allow us to better focus on naval matters, but will require us to invest in their plans.",
+  "uk": "Багато жителів [target_location.Custom('LR_GEN')] [target_location.GetName] мріють про новий порт. Якщо вкладемо кошти в його будівництво, [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] будуть вдячні, а ми поліпшимо своє становище на морі."
+ },
+ "flavor_hol.31.entry": {
+  "en": "Port of Amsterdam",
+  "uk": ""
+ },
+ "flavor_hol.31.title": {
+  "en": "Port of [target_location.GetNameWithNoTooltip]",
+  "uk": "Порт [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_hol.32.a": {
+  "en": "Let us create this new coin.",
+  "uk": "Давайте карбувати нову монету."
+ },
+ "flavor_hol.32.b": {
+  "en": "No need for any monetary reforms.",
+  "uk": "Грошові реформи нам ні до чого."
+ },
+ "flavor_hol.32.desc": {
+  "en": "With the florin reaching our [ROOT.GetCountry.GetGovernment.GetCourtTitle], many merchants are requesting that we start minting this new coin, labeled in [ROOT.GetCountry.GetName] as #italic The Guilder#!, in the hopes that this new coin has more monetary value than the previous one.",
+  "uk": "Коли флорин став відомий у [ROOT.GetCountry.Custom('CL_PP')], багато купців запропонували випускати подібну монету нашого власного карбування, назвавши її #italic гульденом#!. Вони сподіваються, що грошова цінність нової монети буде вищою, ніж у попередньої."
+ },
+ "flavor_hol.32.entry": {
+  "en": "$flavor_hol.32.title$",
+  "uk": ""
+ },
+ "flavor_hol.32.historical_info": {
+  "en": "During the reign of Duke Philip 'the Good' of Burgundy, he took inspiration from the florin of Italy, the livre of France, and the pound in England to create his coin. Known as the Dutch Guilder, it quickly spread throughout the Low Countries, eventually becoming the dominant currency for the centuries to come.",
+  "uk": "За правління герцога Філіпа Бургундського, прозваного «Добрим», він надихався італійським флорином, французьким лівром та англійським фунтом. Його творіння, що отримало назву «гульден», швидко поширилося по всіх Нижніх землях і залишалося головною місцевою валютою протягом кількох століть."
+ },
+ "flavor_hol.32.title": {
+  "en": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Guilder",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]ий гульден"
+ },
+ "flavor_hol.33.a": {
+  "en": "Let us set sail for the [ShowAreaNameWithNoTooltip('baltic_area')].",
+  "uk": "Пливемо на Балтику!"
+ },
+ "flavor_hol.33.desc": {
+  "en": "As we lack the grain production to be self-sufficient, we must look for sources to import our grain from. One of the nearest sources is the provinces of the [ShowAreaName('baltic_area')]. Two key issues prevent us from securing these grain supplies. The first and most important one is the Sound Toll in [ShowLocationName('kobenhavn')], preventing any [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] from trading more intensely there, as they have to pay a high toll to pass through. The other important issue is the dominion that the [ShowCultureGroupName('german_group')] nations have there, making it harder for anyone else to compete. Perhaps by using clever diplomacy, or by combating these issues with force, we can finally secure our grain supplies.",
+  "uk": "Оскільки власне сільське господарство не може забезпечити нас достатньою кількістю зерна, нам слід шукати зовнішніх постачальників, найближчі з яких знаходяться в #TOOLTIP:AREA,baltic_area,X #L балтійському#!#! регіоні. Однак є дві проблеми. По-перше, тут висока плата за прохід, яку стягує #TOOLTIP:LOCATION,kobenhavn_tt,X #L Копенгаген#!#!: через неї #L [ROOT.GetCountry.GetAdjective|l]і#! [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] не можуть вести активну торгівлю. По-друге, це #TOOLTIP:CULTUREGROUP,german_group,X #L германські#!#! держави, які домінують у регіоні і не терплять конкурентів. Можливо, вправна дипломатія або силові методи допоможуть нам вирішити обидві проблеми і забезпечити собі надійні поставки зерна."
+ },
+ "flavor_hol.33.entry": {
+  "en": "Quest for the Baltic Area Grain",
+  "uk": ""
+ },
+ "flavor_hol.33.title": {
+  "en": "Quest for the [ShowAreaNameWithNoTooltip('baltic_area')] Grain",
+  "uk": "У пошуках балтійського зерна"
+ },
+ "flavor_hol.34.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_hol.34.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_hol.34.desc": {
+  "en": "With the trade in the [ShowAreaName('baltic_area')] now secured, we can more reliably start sending shipments of food back to the Low Countries.",
+  "uk": "Відкривши торгівлю на #TOOLTIP:AREA,baltic_area,X #L Балтиці#!#!, ми нарешті можемо забезпечити безперебійні поставки продовольства до Нідерландів."
+ },
+ "flavor_hol.34.entry": {
+  "en": "Baltic Area Trade Secured",
+  "uk": ""
+ },
+ "flavor_hol.34.title": {
+  "en": "[ShowAreaNameWithNoTooltip('baltic_area')] Trade Secured",
+  "uk": "Торгівля на Балтиці відкрита"
+ },
+ "flavor_hol.4.a": {
+  "en": "His knowledge will be of great scientific value.",
+  "uk": "Його знання зроблять величезний внесок у розвиток науки."
+ },
+ "flavor_hol.4.b": {
+  "en": "His mind will be of great service to the state.",
+  "uk": "Його розум послужить на благо держави."
+ },
+ "flavor_hol.4.b.tt": {
+  "en": "[target_character.GetName] becomes available for the [cabinet|e]",
+  "uk": "[target_character.GetName] може увійти до [Concept('cabinet', 'ради ')|e]"
+ },
+ "flavor_hol.4.desc": {
+  "en": "A mathmatician and scientist from [ShowLocationName('bruges')], [target_character.GetName] has traveled to a number of locations to expand [target_character.GetHisHer] knowledge before deciding to settle in [ShowLocationName('the_hague')]. [target_character.GetHeShe|U] has offered [target_character.GetHisHer] services to us as either an advisor or as a scientist.",
+  "uk": "[target_character.GetName], природознавець і математик з #TOOLTIP:LOCATION,bruges_tt,X #L Брюгге#!#!, у пошуках знань об'їздив чимало місць, а тепер вирішив оселитися в #TOOLTIP:LOCATION,the_hague_tt,X #L Гаазі#!#!. Він пропонує нам свої послуги як радника або вченого."
+ },
+ "flavor_hol.4.entry": {
+  "en": "Simon Stevin, Mathematician",
+  "uk": ""
+ },
+ "flavor_hol.4.historical_info": {
+  "en": "The Flemish mathematician and military engineer Simon Stevin was active in many areas of science and engineering, both theoretical and practical. The Dutch word for mathematics, wiskunde or 'the art of what is certain', was Stevin's own translation and makes Dutch one of the few European languages where 'mathematics' is not derived from Greek via Latin. He invented a carriage with sails which was propelled solely by the force of wind, and acquired a speed which exceeded that of horses.",
+  "uk": "Фламандський математик та інженер Сімон Стевін проявив себе в багатьох галузях науки — як теоретичних, так і практичних. Саме він придумав для позначення математики слово wiskunde («мистецтво визначеного»): завдяки йому нідерландська стала однією з небагатьох європейських мов, де це слово не запозичене з латини або грецької. Також він винайшов вітрильний сухопутний віз, який міг рухатися швидше кінного, використовуючи лише силу вітру."
+ },
+ "flavor_hol.4.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.5.a": {
+  "en": "Finance the national anthem.",
+  "uk": "Профінансувати написання гімну."
+ },
+ "flavor_hol.5.b": {
+  "en": "We cannot afford it.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_hol.5.desc": {
+  "en": "The national hymne is a representation of the spirit of a country and its people. While many other states have established the anthems in the past already, [ROOT.GetCountry.GetName] is still lacking one. Promoting the creation of such an anthem will not only increase our international prestige but also give the [ROOT.GetCountry.GetCulture.GetName] people a sense of pride and unity.",
+  "uk": "Державний гімн втілює дух держави та її народу. У [ROOT.GetCountry.Custom('CL_GEN')], на відміну від багатьох інших держав, свого гімну поки що немає. Його створення могло б не лише підвищити наш міжнародний престиж, а й наповнити серця #L [ROOT.GetCountry.GetCulture.GetName|l]ого#! народу почуттям гордості та єдності."
+ },
+ "flavor_hol.5.entry": {
+  "en": "$flavor_hol.5.title$",
+  "uk": ""
+ },
+ "flavor_hol.5.historical_info": {
+  "en": "The anthem #italic Wilhelmus#! or #italic Wilhelmus van Nassouwe#! was very popular among the Dutch population and would, in 1932, become recognized as the official national anthem of the Netherlands. Willem van Oranje or William of Orange is the main character of the anthem which tells of him, his life, and why he is fighting against the king of Spain, written in a first-person perspective. For a national anthem, the text and tune of the song are remarkably peaceful.",
+  "uk": "Пісня «#italic Хет Вілхельмюс#!» (вона ж «#italic Вільгельм Ван Нассау#!») була настільки популярна в Нідерландах, що в 1932 році її офіційно визнали державним гімном держави. Її текст, присвячений Вільгельму Оранському, розповідає історію його життя і боротьби з королем Іспанії від першої особи. Слова і мелодія цієї пісні звучать напрочуд мирно за мірками державних гімнів."
+ },
+ "flavor_hol.5.title": {
+  "en": "Wilhelmus",
+  "uk": "Хет Вілхельмюс"
+ },
+ "flavor_hol.6.a": {
+  "en": "You have nobody but yourselves to blame!",
+  "uk": "Вам нема кого звинувачувати, крім самих себе!"
+ },
+ "flavor_hol.6.b": {
+  "en": "The State could alleviate the losses.",
+  "uk": "Держава може взяти на себе частину збитків."
+ },
+ "flavor_hol.6.desc": {
+  "en": "As [target_country.GetName] expands and connects the [ShowSubContinentName('middle_east')] with [ShowContinentName('europe')], the tulip has found its way from [ShowLocationName('constantinople')] into the hands of [ROOT.GetCountry.GetAdjective] merchants. The [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] has grown very fond of the flower not only for its beauty but also for its value. Following this, many merchants started to sell and speculate about the value of the flower. However, the invisible hand of the market put a swift end to it as the price of the tulip collapses - and with it the financial stability of many members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')].",
+  "uk": "З розширенням [target_country.Custom('CL_GEN')] і зміцненням торговельних зв'язків між #TOOLTIP:CONTINENT,europe,X #L Європою#!#! та #TOOLTIP:SUB_CONTINENT,middle_east,X #L Близьким Сходом#!#! [ROOT.GetCountry.GetAdjective]і купці стали привозити з #TOOLTIP:LOCATION,$constantinople_tt$,X #L Константинополя#!#! тюльпани. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] полюбили ці квіти не лише за красу, а й за дорожнечу. Користуючись ажіотажем, численні торговці стали перепродувати цибулини рослини, піднімаючи ціни до захмарних висот. Однак врешті-решт ринок розставив усе по місцях: ціни на тюльпани впали, а багато [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] розорилися."
+ },
+ "flavor_hol.6.entry": {
+  "en": "$flavor_hol.6.title$",
+  "uk": ""
+ },
+ "flavor_hol.6.historical_info": {
+  "en": "The tulip was introduced in Europe in the 1550s from the Ottoman Empire. They quickly became popular among the rich merchants in the Netherlands as a luxury item. The market grew, and in 1634 when demand increased in France, speculators entered the market. In 1636, a futures market was created, and during the autumn and winter, the prices skyrocketed until the prices collapsed in February 1637. The result was the bankruptcy of many, and economic disaster.",
+  "uk": "Вперше тюльпани привезли до Європи з Османської імперії у 50-х роках XIV століття. Незабаром цибулини цієї рослини стали популярним предметом розкоші серед багатих нідерландських купців. Їхній ринок продовжував зростати, а коли в 1634 році підвищився попит на тюльпани у Франції, на нього прийшли спекулянти. У 1636 році було відкрито ф'ючерсну торгівлю цими квітами. Восени і взимку ціни на тюльпани стрімко зростали, але в лютому 1637 року вони впали, розоривши багатьох учасників ринку. Ось так торгівля тюльпанами призвела до справжньої економічної катастрофи."
+ },
+ "flavor_hol.6.ottoman_trade_tt": {
+  "en": "A [ShowReligionGroupAdjective('muslim')] power controls [ShowLocationName('constantinople')]",
+  "uk": ""
+ },
+ "flavor_hol.6.title": {
+  "en": "The Tulip Mania",
+  "uk": "Тюльпаноманія"
+ },
+ "flavor_hol.7.a": {
+  "en": "Allow [target_character.GetHimHer] to establish [target_character.GetHisHer] shop.",
+  "uk": "Дозволити [Select_CString(target_character.IsFemale,'їй', 'йому')] відкрити майстерню."
+ },
+ "flavor_hol.7.b": {
+  "en": "Writing should stay a right for the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')].",
+  "uk": "Видавати книги мають право лише [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]."
+ },
+ "flavor_hol.7.b.entry": {
+  "en": "Writing should stay a right for the $clergy_estate$.",
+  "uk": ""
+ },
+ "flavor_hol.7.desc": {
+  "en": "[target_character.GetName], a talented [target_character.GetWomanMan] in regards to book creation has found [target_character.GetHisHer] way to [ShowLocationName('amsterdam')] to establish a [ShowBuildingTypeName('printing_press_shop')].",
+  "uk": "[target_character.GetName], вельми [Select_CString(target_character.IsFemale,'відома й талановита книжниця', 'відомий і талановитий книжник')], [Select_CString(target_character.IsFemale,'прибула', 'прибув')] до #TOOLTIP:LOCATION,amsterdam_tt,X #L Амстердама#!#!, щоб відкрити власну #TOOLTIP:BUILDING_TYPE,printing_press_shop,X #L друкарню#!#!."
+ },
+ "flavor_hol.7.entry": {
+  "en": "Louis Elzevir, the Publisher",
+  "uk": ""
+ },
+ "flavor_hol.7.historical_info": {
+  "en": "A former bookbinder and merchant, Lodewijk Elzevir was a famous printer and a publisher. His first book was published in 1583 in Leiden which would then later form the foundation of a family business until 1791. Elzevir was known for its elegance and accuracy but also for the small and very portable formats used, such as the duodecimo format.",
+  "uk": "Колишній купець і палітурник Лодевійк Ельзевір прославився як видавець і книгодрукар. У 1583 році в Лейдені він видав свою першу книгу і заклав основи сімейного бізнесу, який проіснував до 1791 року. Книги Ельзевіра славилися не лише вишуканістю й акуратністю, а й зручними компактними форматами аж до 1/12."
+ },
+ "flavor_hol.7.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_hol.8.a": {
+  "en": "Sounds like a grand plan!",
+  "uk": "Чудовий план!"
+ },
+ "flavor_hol.8.b": {
+  "en": "No, the international community would hate us.",
+  "uk": "Ні, міжнародна спільнота цього не зрозуміє."
+ },
+ "flavor_hol.8.desc": {
+  "en": "As a relative latecomer in the competition for colonies, we have found that many of the colonial possessions we desire have already been taken by others. With a strong navy and a willing financial sector we do, however, still have considerable resources in our hands. These circumstances led the Dutch West India Company to devise the #italic Groot Desseyn Grand#! - the Design for how the [ROOT.GetCountry.GetCulture.GetName] power might rise above our competitors after all.\\n\\nAccording to the plan rather than just trying to establish colonies of our own it would be more efficient to conquer those of our competitors. As a natural competitor, the [GetCountry('POR').GetAdjective] colonial empire, in particular, has been deemed a good target for this plan, especially as [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] investors are already involved in some of these as it is.",
+  "uk": "Відносно пізно вступивши в колоніальну гонку, ми виявили, що більшість територій, які нас цікавлять, уже зайнято іншими державами. Однак завдяки сильному флоту і мотивованому фінансовому сектору в нас ще залишилися вельми значні ресурси. Зважаючи на всі ці обставини, Голландська Вест-Індська компанія підготувала «#italic Грут Дессейн#!» — план, який дозволив би [ROOT.GetCountry.GetCulture.GetName]им колонізаторам досягти переваги над конкурентами.\\n\\nСуть цього плану полягає в тому, що захоплювати чужі колонії значно простіше й вигідніше, ніж засновувати свої. Як підхожу мету пропонується [GetCountry('POR').GetAdjective]а колоніальна імперія: вона є нашим природним конкурентом, а [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]і інвестори вже вклали кошти в деякі з її колоній."
+ },
+ "flavor_hol.8.entry": {
+  "en": "$flavor_hol.8.title$",
+  "uk": ""
+ },
+ "flavor_hol.8.title": {
+  "en": "Ambitious Colonial Plans",
+  "uk": "Грандіозні плани колонізації"
+ },
+ "flavor_hol.9.a": {
+  "en": "This is definitely a good idea!",
+  "uk": "І справді чудове судно!"
+ },
+ "flavor_hol.9.b": {
+  "en": "Interesting idea, but now it is not the time. Maybe later?",
+  "uk": "Сумніваюся, що наші верфі до такого готові."
+ },
+ "flavor_hol.9.c": {
+  "en": "I do not think our shipbuilding industry is ready for this.",
+  "uk": ""
+ },
+ "flavor_hol.9.desc": {
+  "en": "The expansive [ROOT.GetCountry.GetCulture.GetName] economy has put large demands on our merchant marine. The very shallow [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] waters also mean that common merchant ships such as caravels are unable to approach many of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] ports. So far this has been handled by the use of smaller boeiers but with financial backing from [target_character.GetName], a merchant from [ShowLocationName('hoorn')], a new type of ship has been developed.\\nThe fluitship or fluyt is longer and has a very characteristic pear-shaped stern and is built to be effectively manned by a small crew. As it is able to carry larger cargoes while still handling the shallow Dutch waters and behaving very well in the open sea this ship is a godsend for our merchants.",
+  "uk": "Експансивна [ROOT.GetCountry.GetCulture.GetName]а економіка висуває серйозні вимоги до торговельного флоту. На додачу через невелику глибину прибережних вод каравели та інші великі торговельні судна не можуть заходити в багато [ROOT.GetCountry.GetAdjectiveWithNoTooltip]их портів. Досі ця проблема вирішувалася за допомогою невеликих буєрів, але нещодавно [target_character.GetName] з #TOOLTIP:LOCATION,hoorn_tt,X #L Хорна#!#! [Select_CString(target_character.IsFemale,'профінансувала', 'профінансував')] будівництво судна нового типу.\\nВоно називається «флейт» і вирізняється подовженим корпусом з характерною грушоподібною кормою, а для його обслуговування достатньо невеликої команди. Здатний як перевозити вантажі голландським мілководдям, так і виходити у відкритий океан, флейт стане безцінним подарунком для наших купців."
+ },
+ "flavor_hol.9.entry": {
+  "en": "$flavor_hol.9.title$",
+  "uk": ""
+ },
+ "flavor_hol.9.title": {
+  "en": "The Fluitschip",
+  "uk": "Флейт"
+ },
+ "fra_dutch_friction": {
+  "en": "Franco-Dutch Friction",
+  "uk": "Франко-голландський конфлікт"
+ },
+ "frisian_independence_fighter": {
+  "en": "$frisian$ Independence Fighters",
+  "uk": "$frisian$ькі борці за незалежність"
+ },
+ "ned_anti_french_policy": {
+  "en": "Common Enemy",
+  "uk": "Спільний ворог"
+ },
+ "ned_friendly_towards_france": {
+  "en": "Befriending France",
+  "uk": "Дружба з Францією"
+ },
+ "ned_grand_design": {
+  "en": "Groot Desseyn",
+  "uk": "Грут Дессейн"
+ },
+ "variable_ned_grain_trade_start_flag_tt": {
+  "en": "The Baltic Grain Trade is Secured",
+  "uk": ""
+ }
+}

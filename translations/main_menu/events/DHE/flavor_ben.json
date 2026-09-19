@@ -1,0 +1,146 @@
+{
+ "ben_all_nobles_join_revolt": {
+  "en": "All [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] will join [target_rebel.GetName]",
+  "uk": "Усі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] приєднаються до фракції «[target_rebel.GetName]»"
+ },
+ "ben_purge_non_innocent_nobles_tt": {
+  "en": "#Y 5%#! of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e] within [ROOT.GetCountry.GetCapital.GetName] will be #R killed#!",
+  "uk": "#Y 5%#! [Concept('pops', 'населення')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]» у [ROOT.GetCountry.GetCapital.Custom('LR_PP')|l] [ROOT.GetCountry.GetCapital.GetName] буде #R вбито#!"
+ },
+ "ben_slave_building_upgrade_tt": {
+  "en": "The maximum [building|e] level of [ShowBuildingTypeName('slave_market')] will be #G Doubled#!",
+  "uk": "Максимальний рівень [Concept('building', 'споруди')|e] #TOOLTIP:BUILDING_TYPE,slave_market,X #L «Невільничий ринок»#!#! буде #G подвоєно#!"
+ },
+ "flavor_ben.1.a": {
+  "en": "Let us construct these walls.",
+  "uk": "Отже, побудуємо стіни."
+ },
+ "flavor_ben.1.b": {
+  "en": "The ditches are enough to protect [target_location.GetNameWithNoTooltip].",
+  "uk": "[target_location.GetNameWithNoTooltip] обійдеться й ровами."
+ },
+ "flavor_ben.1.b.entry": {
+  "en": "The ditches are enough to protect the location.",
+  "uk": ""
+ },
+ "flavor_ben.1.desc": {
+  "en": "The prosperity of [target_location.GetName] depends on its walls. For that reason, [target_character.GetName] has decided that it is time that they are expanded. Such project though will be costly, but it will allow the [target_location.GetRank.GetName] to be brought to new heights.",
+  "uk": "[target_location.GetName] не зможе процвітати без надійного захисту у вигляді міцних стін. Саме тому [target_character.GetName] [Select_CString(target_character.IsFemale, 'вирішила', 'вирішив' )], що настав час розширювати укріплення. Такий крок потребуватиме чималих витрат, однак якщо все-таки його здійснити, [target_location.GetRank.GetName|l] неодмінно досягне нових вершин."
+ },
+ "flavor_ben.1.title": {
+  "en": "$walls_of_benin$",
+  "uk": ""
+ },
+ "flavor_ben.2.a": {
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] will be centralized!",
+  "uk": "У [ROOT.GetCountry.Custom('CL_PREP')] буде централізована влада!"
+ },
+ "flavor_ben.2.a.entry": {
+  "en": "We will be centralized!",
+  "uk": ""
+ },
+ "flavor_ben.2.b": {
+  "en": "The current system is fine.",
+  "uk": "Чинна система і так працює непогано."
+ },
+ "flavor_ben.2.desc": {
+  "en": "[ROOT.GetCountry.GetName|U] have been centralized in [ROOT.GetCountry.GetCapital.GetName] instead of the numerous locations within it. Rather than merely offering them protection, we can establish an administration that directly obeys [target_character.GetName]. They will be instead ruled through the [GetBuildingName('eghabho_nore_mansion')], where government officials that directly obey [target_character.GetNameWithNoTooltip] reside in.",
+  "uk": "Усе управління #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! зосереджено в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName] — чиновники не розподілені по державі рівномірно. Замість того щоб просто запропонувати захист іншим населеним пунктам, ми можемо збудувати [GetBuildingName('eghabho_nore_mansion')|l] — централізований апарат державних чиновників, над якими начальствуватиме [Select_CString(target_character.IsFemale, 'сама', 'сам' )] [target_character.GetName]."
+ },
+ "flavor_ben.2.entry": {
+  "en": "$flavor_ben.2.title$",
+  "uk": ""
+ },
+ "flavor_ben.2.title": {
+  "en": "Administration in Towns",
+  "uk": "Управління містами"
+ },
+ "flavor_ben.3.a": {
+  "en": "A few 'accidents' can be arranged.",
+  "uk": "Можна підстроїти пару нещасних випадків…"
+ },
+ "flavor_ben.3.b": {
+  "en": "This is no way to treat the subjects!",
+  "uk": "З підданими не можна так поводитися!"
+ },
+ "flavor_ben.3.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been deciding the succession in [ROOT.GetCountry.GetName] for far too long. Their influence disturb the stability of the [ROOT.GetCountry.GetFlavorRank] for their own interests. [target_character.GetName] and [target_character.GetHerHis] loyalists have had enough of this oligarchy, and wish to undo it. They plan to arrange a few assassinations for these influential people that prevent the rule of the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]. However, such actions may lead to them revolting.",
+  "uk": "Досить миритися з тим, що порядок престолонаслідування серед правителів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! визначають [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Через те, що найвище за все вони ставлять власні інтереси, страждає [ROOT.GetCountry.GetFlavorRank|l]. [target_character.GetName] зі своїми прихильниками [Select_CString(target_character.IsFemale, 'налаштована', 'налаштований' )] покінчити з олігархією впливових родин, влаштувавши кілька вбивств. Однак у разі невдачі [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] зіткнуться з повстанням знаті…"
+ },
+ "flavor_ben.3.entry": {
+  "en": "$flavor_ben.3.title$",
+  "uk": ""
+ },
+ "flavor_ben.3.title": {
+  "en": "Curtailing the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]",
+  "uk": "Світська влада духовенства"
+ },
+ "flavor_ben.4.a": {
+  "en": "To arms!",
+  "uk": "До зброї!"
+ },
+ "flavor_ben.4.b": {
+  "en": "Perhaps they have a point...",
+  "uk": "Можливо, вони праві…"
+ },
+ "flavor_ben.4.desc": {
+  "en": "Due to our actions against the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], they have banded together and risen up in opposition to [target_character.GetName]. They now wish to rid themselves of [target_character.GetHerHis] influence, shifting the [ROOT.GetCountry.GetFlavorRank] back to their hands. This has truly turned into a crisis, but should the supporters of [target_character.GetNameWithNoTooltip] stand up, or should they bend the knee to the demands of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]?",
+  "uk": "Через політику, яку проводить [target_character.GetName], [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] об'єдналися й узялися за зброю. Знать бажає позбутися [Select_CString(target_character.IsFemale, 'правительки', 'правителя' )], щоб повернути собі владу над [ROOT.GetCountry.Custom('rank_ru_INST')|l]. Чи зможе [target_character.GetNameWithNoTooltip] заручитися підтримкою прихильників, або [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вийдуть із цієї кризи переможцями?"
+ },
+ "flavor_ben.4.entry": {
+  "en": "$flavor_ben.4.title$",
+  "uk": ""
+ },
+ "flavor_ben.4.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Revolt!",
+  "uk": "Духовенство розпалило заколот!"
+ },
+ "flavor_ben.5.a": {
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] will be restored.",
+  "uk": "Ми відновимо [ROOT.GetCountry.Custom('CL_ACC')]."
+ },
+ "flavor_ben.5.a.entry": {
+  "en": "We will be restored.",
+  "uk": ""
+ },
+ "flavor_ben.5.desc": {
+  "en": "The increasing unrest within [ROOT.GetCountry.GetName] has led to the country slowly being torn apart from the inside. The people have seen the decline the [ROOT.GetCountry.GetFlavorRank] during the rule of [target_character.GetName], and are now siding with the promises that members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] as well as [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are making. This is a crucial moment in the history of [ROOT.GetCountry.GetNameWithNoTooltip], and the crisis must be averted.",
+  "uk": "Заворушення поширюються по всій території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, і держава повільно, але невблаганно розпадається зсередини. Повстанські [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вміло маніпулюють народом. Люди вірять, що [target_character.GetName] веде [ROOT.GetCountry.Custom('rank_ru_ACC')|l] до загибелі. Це може стати переломним моментом в історії держави, і ми маємо будь-якою ціною уникнути катастрофи."
+ },
+ "flavor_ben.5.entry": {
+  "en": "$flavor_ben.5.title$",
+  "uk": ""
+ },
+ "flavor_ben.5.title": {
+  "en": "Civil Unrest in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Заворушення в [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "flavor_ben.6.a": {
+  "en": "The profits of such practice must be expanded.",
+  "uk": "Слід витягувати якомога більше прибутку."
+ },
+ "flavor_ben.6.b": {
+  "en": "The practice of slavery must slowly be abolished.",
+  "uk": "Слід заборонити работоргівлю."
+ },
+ "flavor_ben.6.desc": {
+  "en": "The practice of slavery has brought much profit to [ROOT.GetCountry.GetName]. It is a practice that the entire [ROOT.GetCountry.GetFlavorRank] has benefited from, exxcept the few unfortunate. Now, with our contacts outside of [ShowRegionName('guinea_region')], there have been debates to expand this practice. Primarily, to focus on expanding our [ShowBuildingTypeName('slave_market')]. Although the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] may not be able to intervene directly, it can at the very least grant the rights to expand it..",
+  "uk": "Торгівля невільниками принесла солідний прибуток до скарбниці #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. За винятком небагатьох нещасних, вигоду з цієї індустрії витягувала вся країна. Тепер же, завдяки зв'язкам за межами #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!, перед нами відкриваються нові можливості, і багато хто наполягає на розширенні наших #TOOLTIP:BUILDING_TYPE,slave_market,X #L невільничих ринків#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] не мають можливості втручатися в це безпосередньо, але можуть дати дозвіл на збільшення обсягів работоргівлі…"
+ },
+ "flavor_ben.6.entry": {
+  "en": "$flavor_ben.6.title$",
+  "uk": ""
+ },
+ "flavor_ben.6.title": {
+  "en": "Sponsoring the Slave Trade",
+  "uk": "Фінансова підтримка работоргівлі"
+ },
+ "uzama_revolt": {
+  "en": "Uzama Revolt",
+  "uk": "Заколот узама"
+ },
+ "variable_ben_upset_nobility_flag_tt": {
+  "en": "The [ShowEstateTypeName('nobles_estate')] has been Angered",
+  "uk": ""
+ }
+}

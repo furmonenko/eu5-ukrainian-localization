@@ -1,0 +1,330 @@
+{
+ "byz_character_might_cause_trouble_again_tt": {
+  "en": "[target_character2.GetShortNameWithNoTooltip] may cause trouble in the near future again...",
+  "uk": "Незабаром [target_character2.GetShortNameWithNoTooltip] може стати джерелом нових проблем…"
+ },
+ "byz_every_noble_sides_with_pretender_tt": {
+  "en": "[ShowPopTypeName('nobles')] [pops|e] across our [provinces|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e] and support the cause of [target_character.GetName]",
+  "uk": "[Concept('pops','Групи населення')|e] #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! у наших [Concept('provinces', 'провінціях')|e] втрачають [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e], тепер об'єкт їхньої підтримки — [target_character.GetName]"
+ },
+ "byzantine_succ_crisis.1.a": {
+  "en": "Fine.",
+  "uk": "Хай буде так."
+ },
+ "byzantine_succ_crisis.1.b": {
+  "en": "They are out of line!",
+  "uk": "Вони зовсім знахабніли!"
+ },
+ "byzantine_succ_crisis.1.desc": {
+  "en": "During these harsh times, the vultures that call themselves [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] remind us that [target_character2.GetName] is a member of their class. With vague threats and empty words, they are trying to coerce monetary returns in exchange for their miserable and waning support.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ці віроломні стерв'ятники, нагадують, що [target_character2.GetName] — вихідець з їхніх лав. Використовуючи мову туманних погроз і порожніх обіцянок, вони випрошують гроші в обмін на свою жалюгідну та нікчемну підтримку в цей важкий час."
+ },
+ "byzantine_succ_crisis.1.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Demand Compensation",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] вимагають компенсації"
+ },
+ "byzantine_succ_crisis.10.a": {
+  "en": "We cannot upset their social order...",
+  "uk": "Ми не маємо права змінювати усталений порядок…"
+ },
+ "byzantine_succ_crisis.10.b": {
+  "en": "But we can profit from it!",
+  "uk": "Власне, ми можемо на цьому заробити!"
+ },
+ "byzantine_succ_crisis.10.c": {
+  "en": "Issue fines and warnings for the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Це обурливо! [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] будуть оштрафовані та покарані."
+ },
+ "byzantine_succ_crisis.10.d": {
+  "en": "Temporarily legalize usury in [target_location.GetNameWithNoTooltip]",
+  "uk": "Тимчасово дозволимо лихварство в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]."
+ },
+ "byzantine_succ_crisis.10.desc": {
+  "en": "The nature of man lays bare during the harsh conditions brought upon us by the ravages of the ongoing conflict. It has come to our attention that the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [target_location.GetName] have entrapped the locals into borrowing money at exorbitant rates. This has gone on for so long that it has devolved into the status quo of doing business across the entire province. Pleas on the behest of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] have reached our ears, demanding we put an end to this evil practice that has gripped their home.",
+  "uk": "Важкі часи оголюють усе погане, що є в людській природі, і поточний конфлікт не став винятком. Нам донесли, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] почали давати гроші в ріст під непомірні відсотки, і тепер лихварство, по суті, стало основою економічної діяльності в усій провінції. Ті, хто потрапив у боргову кабалу, [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] благають нас покласти край цій порочній практиці."
+ },
+ "byzantine_succ_crisis.10.title": {
+  "en": "The Legitimization of Usury",
+  "uk": "Узаконення лихварства"
+ },
+ "byzantine_succ_crisis.11.a": {
+  "en": "Sign an agreement with [GetCountry('VEN').GetNameWithNoTooltip].",
+  "uk": "Укладемо договір із владою [GetCountry('VEN').Custom('CL_GEN')]."
+ },
+ "byzantine_succ_crisis.11.b": {
+  "en": "We will request the assistance of [GetCountry('GEN').GetNameWithNoTooltip].",
+  "uk": "Звернемося по допомогу до [GetCountry('GEN').Custom('CL_DAT')]."
+ },
+ "byzantine_succ_crisis.11.c": {
+  "en": "We can sign with both of them.",
+  "uk": "Ми можемо домовитися з обома державами."
+ },
+ "byzantine_succ_crisis.11.d": {
+  "en": "These leeches are up to no good!",
+  "uk": "Ці паразити напевно замислили недобре!"
+ },
+ "byzantine_succ_crisis.11.desc": {
+  "en": "[target_location.GetName] is home to a thriving community of traders, with merchants arriving at our ports from the far corners of the world, eager to trade and exchange wealth with their foreign peers. Sadly, it appears that our mercantile and naval affairs do not share the splendor of our ancestors, a visible sign of a waning naval authority and loss of prestige. As [target_character.GetName] threatens to usurp the crown and while our funds are running lower and lower, we have been approached by representatives from [GetCountry('VEN').GetName] and [GetCountry('GEN').GetName] that have stepped forth with a proposal to fund our navies in exchange for privileges across our markets...",
+  "uk": "[target_location.GetName] — улюблений ринок для купців з багатьох країн. Вони прибувають до порту з усіх кінців світу, щоб обміняти своє золото або цінні вантажі на заморські товари. На жаль, наш флот уже не той, що раніше, та й у торговельних справах нам далеко до слави наших предків. Скарбниця майже порожня, і поки [target_character.GetName] залишається загрозою для корони, поповнити її навряд чи вдасться. На щастя, до нас звернулися посланці з #ONCLICK:COUNTRY,[GetCountry('VEN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('VEN').Custom('CL_tt')],X [GetCountry('VEN').Custom('CL_GEN')|L]#!#! та #ONCLICK:COUNTRY,[GetCountry('GEN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('GEN').Custom('CL_tt')],X [GetCountry('GEN').Custom('CL_GEN')|L]#!#!. Вони готові профінансувати наш флот в обмін на певні привілеї на нашому ринку…"
+ },
+ "byzantine_succ_crisis.11.entry": {
+  "en": "$byzantine_succ_crisis.11.title$",
+  "uk": ""
+ },
+ "byzantine_succ_crisis.11.historical_info": {
+  "en": "During the Byzantine civil war of 1341, the empire was divided between the regency for the young John V Palaiologos and the claimant John VI Kantakouzenos. The conflict drew in Venice and Genoa, who used the war to advance their competing commercial interests. Genoa supported the pretender, hoping to secure trade dominance in the Black Sea and was rewarded with privileges and naval influence, particularly in Galata. Venice, determined to counter Genoese expansion, backed the regency. This turned the would-be civil war into a proxy struggle between the two maritime republics, further weakening Byzantium and deepening its dependence on foreign powers for naval and commercial matters.",
+  "uk": "У 1341 році на території Візантії почалася громадянська війна між прихильниками малолітнього імператора Іоанна V Палеолога та прихильниками регента й претендента на престол — Іоанна VI Кантакузина. Міжусобицею скористалися дві суперницькі держави — Венеція та Генуя, яким війна обіцяла значну комерційну вигоду. Генуя, сподіваючись установити панування над чорноморськими торговельними шляхами, підтримала претендента, отримавши натомість певні привілеї та вплив, особливо в Галаті. Венеція ж, не готова миритися зі зростанням генуезького впливу, підтримала імператора. Таким чином громадянська війна перетворилася на війну опосередковану, яку вели між собою дві морські республіки, що призвело до подальшого послаблення Візантії та впадання її в ще більшу залежність від іноземних держав у всьому, що стосувалося морських і торговельних питань."
+ },
+ "byzantine_succ_crisis.11.title": {
+  "en": "Foreign Merchants Privileges",
+  "uk": "Привілеї для чужоземних купців"
+ },
+ "byzantine_succ_crisis.12.a": {
+  "en": "I do like money!",
+  "uk": "Грошики — це добре!"
+ },
+ "byzantine_succ_crisis.12.desc": {
+  "en": "In a desperate attempt to cover their maritime and naval shortages, the masters of [target_location.GetName] have come forth and offered our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] special privileges and access to their lucrative market in exchange for their naval support in their ongoing struggle.",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] потерпає від нестачі торговельних суден, #L [target_country.GetAdjective|l]ій#! військовий флот теж давно втратив колишню міць. Зневірившись, влада зробила щедру пропозицію: наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] отримають особливі привілеї та доступ до [target_country.GetAdjectiveWithNoTooltip|l]ого ринку в обмін на допомогу нашого флоту."
+ },
+ "byzantine_succ_crisis.12.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Offers Trade Privileges",
+  "uk": "Торговельні привілеї [target_country.Custom('CL_GEN')]"
+ },
+ "byzantine_succ_crisis.13.a": {
+  "en": "They will regret this.",
+  "uk": "Вони пошкодують про це."
+ },
+ "byzantine_succ_crisis.13.desc": {
+  "en": "We have learned that recently, members of our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have been corresponding with [target_country.GetName] in an effort to secure special access to their market in [target_location.GetName]. Unfortunately, negotiations broke down, resulting in little more than a waste of time...",
+  "uk": "Нам стало відомо, що [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] з нашої країни вступили в переговори з представниками [target_country.Custom('CL_GEN')|L]. Вони розраховували отримати особливі привілеї на ринку [target_location.Custom('LR_GEN')|l] [target_location.GetName]. На жаль, сторонам не вдалося дійти згоди, і переговори закінчилися нічим."
+ },
+ "byzantine_succ_crisis.13.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Refuses our Merchants",
+  "uk": "[target_country.GetNameWithNoTooltip] відмовляє нашим купцям"
+ },
+ "byzantine_succ_crisis.14.a": {
+  "en": "They will pay!",
+  "uk": "Їм доведеться заплатити!"
+ },
+ "byzantine_succ_crisis.14.b": {
+  "en": "Let us not disturb the peace.",
+  "uk": "Не будемо порушувати мир."
+ },
+ "byzantine_succ_crisis.14.desc": {
+  "en": "As the situation surrounding the open conflict between [target_character2.GetName] against [target_character.GetName] develops, it has become evident that the time to strike is nigh. Our advisors support the idea of delivering our demands for monetary compensation to [GetCountry('BYZ').GetName] which will likely yield great returns for us and finance our future campaigns of expansion.",
+  "uk": "Зараз, коли [target_character2.GetName] та [target_character.GetName] вступили у відкритий конфлікт, саме час зробити наш хід і зажадати від #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! грошової компенсації. Радники впевнені, що зневірені [GetCountry('BYZ').GetAdjectiveWithNoTooltip|l]і власті виконають усі наші вимоги, а отримані кошти можна буде спрямувати на майбутні завойовницькі кампанії."
+ },
+ "byzantine_succ_crisis.14.title": {
+  "en": "Opportunistic Demands",
+  "uk": "Час платити за рахунками"
+ },
+ "byzantine_succ_crisis.15.a": {
+  "en": "We have no choice...",
+  "uk": "У нас немає вибору…"
+ },
+ "byzantine_succ_crisis.15.b": {
+  "en": "No!",
+  "uk": "Ні!"
+ },
+ "byzantine_succ_crisis.15.desc": {
+  "en": "We have received word from these heinous infidels, [GetCountry('TUR').GetNameWithNoTooltip]. According to their emissaries, they demand we pay them a huge sum of money in exchange for their vague and futile promises of peace. They cite our ongoing struggle against [target_character.GetName] and state their case around a secure eastern front.",
+  "uk": "До нас прибуло посольство від безбожних [GetCountry('TUR').GetAdjectiveWithNoTooltip|l]их язичників. Їхні посланці вимагають величезних грошей, натомість обіцяючи мир і дружбу. Вони нагадують, що країні, як і раніше, загрожує [target_character.GetName], і готові забезпечити безпеку нашого східного флангу."
+ },
+ "byzantine_succ_crisis.15.title": {
+  "en": "The Demands of [GetCountry('TUR').GetNameWithNoTooltip]",
+  "uk": "Вимоги [GetCountry('TUR').Custom('CL_GEN')]"
+ },
+ "byzantine_succ_crisis.16.a": {
+  "en": "I see...",
+  "uk": "Зрозуміло…"
+ },
+ "byzantine_succ_crisis.16.desc.a": {
+  "en": "We have received word that an emissary from [GetCountry('BYZ').GetName] has arrived. In a prudent move, they have decided to secure a feeble truce between our people in exchange for an exorbitant sum of coin, straight from their treasury!",
+  "uk": "Нам повідомляють, що прибув посланець з #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#!. Виявивши завидну мудрість, ця держава прийняла нашу обіцянку крихкого миру в обмін на величезну суму золота зі своєї скарбниці!"
+ },
+ "byzantine_succ_crisis.16.desc.b": {
+  "en": "We have received word that an emissary from [GetCountry('BYZ').GetName] has arrived. Against the command of logic and sense, they have decided not to secure our good will through a meager payment. The road to [target_location.GetName] lays open!",
+  "uk": "Нам повідомляють, що прибув посланець з #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#!. Всупереч здоровому глузду, вони відмовилися платити за гарантії дружби та миру з нашим народом. Тепер [target_location.GetName] практично в наших ногах!"
+ },
+ "byzantine_succ_crisis.16.title": {
+  "en": "Messenger from [GetCountry('BYZ').GetNameWithNoTooltip]",
+  "uk": "Посланець з [GetCountry('BYZ').Custom('CL_GEN')]"
+ },
+ "byzantine_succ_crisis.2.a": {
+  "en": "Very well, we need them.",
+  "uk": "Добре. Ми потребуємо їхньої підтримки."
+ },
+ "byzantine_succ_crisis.2.b": {
+  "en": "We will not negotiate with the likes of them!",
+  "uk": "Ми не підемо на переговори з цими негідниками!"
+ },
+ "byzantine_succ_crisis.2.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are known to resist the authority of [target_character2.GetName]. Under the pretense of open rebellion and taking advantage of the general commotion across our domain, they have pushed forth official demands to reduce or outright undo several of the dues we have imposed on them.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] не визнають авторитету уряду, а [target_character2.GetName] для них порожнє місце. Користуючись заворушеннями в країні, вони погрожують відкритим повстанням і вимагають знизити або й зовсім скасувати деякі з податків, якими ми їх обклали."
+ },
+ "byzantine_succ_crisis.2.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Refuse to Pay Taxes",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] не бажають платити податки"
+ },
+ "byzantine_succ_crisis.3.a": {
+  "en": "We do not need them.",
+  "uk": "Ми не потребуємо їхньої допомоги."
+ },
+ "byzantine_succ_crisis.3.b": {
+  "en": "Would some privileges change their mind?",
+  "uk": "Може, нові привілеї допоможуть їм отямитися?"
+ },
+ "byzantine_succ_crisis.3.desc": {
+  "en": "Unruly children and wayward power-hungry [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] may not have much in common but they both thrive in the chaos generated across our household. Under the pretense of waning central authority, they have outright denounced [target_character2.GetShortName] in favor of [target_character.GetName]!",
+  "uk": "Владолюбні та амбітні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] чимось схожі на неслухняних дітей — анархія та безлади їм лише на радість. Тепер вони звинувачують центральну владу в слабкості й відкрито заявляють, що [target_character.GetName] стане [Select_CString(target_character.IsFemale,'кращою правителькою', 'кращим правителем')], ніж [target_character2.GetShortName]."
+ },
+ "byzantine_succ_crisis.3.title": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Supports the Pretender!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] підтримують претендента!"
+ },
+ "byzantine_succ_crisis.4.a": {
+  "en": "We can listen to their demands.",
+  "uk": "Потрібно вислухати їхні вимоги."
+ },
+ "byzantine_succ_crisis.4.b": {
+  "en": "They will be whipped into order!",
+  "uk": "Треба терміново навести лад!"
+ },
+ "byzantine_succ_crisis.4.desc": {
+  "en": "Few domains across our lands have become as big of an amalgamation of unrest and corruption as [target_location.GetName]. Reports of people turning against their masters, crowds rising up, looting, and destroying the estates of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have become a daily occurrence. Without a shadow of a doubt, [target_location.GetNameWithNoTooltip] edges closer to open rebellion against the established order.",
+  "uk": "Небагато територій нашої держави за рівнем корупції та беззаконня зрівняються з [target_location.Custom('LR_INST')|l] [target_location.GetName]. Кріпаки повстають проти своїх панів, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] скаржаться, що народ грабує та спалює маєтки — [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] ось-ось перетвориться на осередок відкритого повстання."
+ },
+ "byzantine_succ_crisis.4.title": {
+  "en": "The Mariners Guild of [ShowLocationNameWithNoTooltip('thessaloniki')]",
+  "uk": "Гільдія мореплавців міста Фессалоніки"
+ },
+ "byzantine_succ_crisis.5.a": {
+  "en": "Quench the thirst of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] for noble blood!",
+  "uk": "Хай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] втамують свою спрагу благородної крові!"
+ },
+ "byzantine_succ_crisis.5.b": {
+  "en": "We must protect the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]...",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] мають право розраховувати на наш захист."
+ },
+ "byzantine_succ_crisis.5.desc": {
+  "en": "The situation in [target_location.GetName] has reached its point of no return, as gangs of [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] stalk the land like hungry beasts, raising their fists and arms against the local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], whom they accuse of negligence and unquenching greed. Should we not step in, we risk a purge of the local [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] whose members may be eager to support our cause in exchange for their safety...",
+  "uk": "Ситуація в [target_location.Custom('LR_PREP')|l] [target_location.GetName] остаточно вийшла з-під контролю. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] беруться за зброю, збиваються в банди й повсюди переслідують знать, звинувачуючи її представників в жадібності та злочинній бездіяльності. Якщо ми не втрутимося, місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] ось-ось будуть перебиті збожеволілим натовпом. Своєю чергою, знать, отримавши гарантії безпеки, з готовністю підтримає нашу справу…"
+ },
+ "byzantine_succ_crisis.5.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] Demand the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]'s Purge",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] вимагають чисток у стані «[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]»"
+ },
+ "byzantine_succ_crisis.6.a": {
+  "en": "Officially reprimand [target_character2.GetHerHim] and [target_character2.GetHerHis] peers!",
+  "uk": "[Select_CString(target_character2.IsFemale,'Вона', 'Він')] та [Select_CString(target_character2.IsFemale,'її', 'його')] поплічники отримають сувору догану!"
+ },
+ "byzantine_succ_crisis.6.b": {
+  "en": "Force a fine upon [target_character2.GetHerHis] estate.",
+  "uk": "Накладемо штраф на весь [Select_CString(target_character2.IsFemale,'її', 'його')] стан."
+ },
+ "byzantine_succ_crisis.6.c": {
+  "en": "[target_character2.GetSheHe|U] may be excused this time.",
+  "uk": "Можна пробачити [Select_CString(target_character2.IsFemale,'їй', 'йому')] цього разу…"
+ },
+ "byzantine_succ_crisis.6.desc": {
+  "en": "It is a common secret that [target_character2.GetName] is known to frequently dodge military duties. Oftentimes, [target_character2.GetSheHe] can be found drinking in a nearby derelict tavern, [target_character2.GetHerHis] troops undrilled, undisciplined, and completely demoralized. This is a most shameful image to project, even more so during these turbulent times...",
+  "uk": "Ні для кого не таємниця, що [target_character2.GetName] [Select_CString(target_character2.IsFemale,'схильна', 'схильний')] уникати виконання своїх воїнських обов'язків. [Select_CString(target_character2.IsFemale,'Її', 'Його')] погано навчена та недисциплінована армія цілком розкладається, поки [Select_CString(target_character2.IsFemale,'вона', 'він')] напивається в найближчій таверні. Така поведінка гідна осуду навіть у мирні дні, не кажучи вже про теперішні похмурі та неспокійні часи…"
+ },
+ "byzantine_succ_crisis.6.title": {
+  "en": "Abandoning One's Duties",
+  "uk": "Нехтування обов'язками"
+ },
+ "byzantine_succ_crisis.7.a": {
+  "en": "Their words bear some wisdom.",
+  "uk": "У їхніх словах є сенс."
+ },
+ "byzantine_succ_crisis.7.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] will always have the final say!",
+  "uk": "Останнє слово має бути за короною!"
+ },
+ "byzantine_succ_crisis.7.desc": {
+  "en": "The recently developing situation that pits [target_character.GetName] as the contender for the throne has given rise to a series of military campaigns to purge support for the pretender. Many prominent members of various estates like the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have long since supported the idea of expanding the powers of the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], in an attempt to gain more favorable and impactful outcomes...",
+  "uk": "Коли [target_character.GetName] [Select_CString(target_character.IsFemale,'стала', 'став')] претендентом на трон, уряд відповів військовими діями проти [Select_CString(target_character.IsFemale,'її', 'його')] прихильників. Багато видатних [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] давно прагнуть обмежити владу монарха й посилити свій вплив на політику країни. Користуючись ситуацією, вони вимагають нових повноважень для [ROOT.GetCountry.Custom('parliament_ru_GEN')|l]…"
+ },
+ "byzantine_succ_crisis.7.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetParliament.GetName]'s Assembly",
+  "uk": "Скликання [ROOT.GetCountry.Custom('parliament_ru_GEN')|l]"
+ },
+ "byzantine_succ_crisis.8.a": {
+  "en": "Their efforts will assist the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')].",
+  "uk": "Корона вдячна їм за допомогу."
+ },
+ "byzantine_succ_crisis.8.b": {
+  "en": "Whoever is against [target_character2.GetShortNameWithNoTooltip]'s rule risks divine wrath.",
+  "uk": "[target_character2.GetShortNameWithNoTooltip] виконує божу волю. Виступаючи проти [Select_CString(target_character2.IsFemale,'неї', 'нього')], вони накличуть на себе гнів Господа."
+ },
+ "byzantine_succ_crisis.8.desc": {
+  "en": "The religious societies across our nation have long viewed the developing situation and the open rebellion propagated by [target_character.GetName] with ill favor. They believe that this social disturbance will endanger the people and goes against the dogmatic view they have of unitary companionship. As such, they seek to assist us in legitimizing our struggle against this internal threat.",
+  "uk": "Релігійним спільнотам нашої держави не до вподоби наростаючі бунтівні настрої. [GetEstateNameWithNoTooltip('clergy_estate')] вважають, що [target_character2.GetName] та [Select_CString(target_character2.IsFemale,'її', 'його')] бунтівники наражають народ на небезпеку й діють урозріз із церковними догмами про єдність усіх віруючих, і тому готові благословити нашу боротьбу з внутрішньою загрозою."
+ },
+ "byzantine_succ_crisis.8.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Rejects the Pretender",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] відкидають претендента"
+ },
+ "byzantine_succ_crisis.9.a": {
+  "en": "Fear not, we will finance the recovery!",
+  "uk": "Хай не хвилюються, ми компенсуємо всі збитки!"
+ },
+ "byzantine_succ_crisis.9.b": {
+  "en": "We cannot afford it, this time...",
+  "uk": "Зараз ми нічим не можемо їм допомогти…"
+ },
+ "byzantine_succ_crisis.9.desc": {
+  "en": "Sick pastures, ailing animals, and burned crops are but the most common landscape view during these turbulent times. The complaints on behalf of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are piling up as the turmoil envelops the countryside. Brigands, thieves, and marauding mercenaries have turned against each other, wrecking the once-beautiful countryside of [target_province.GetName] once again...",
+  "uk": "Витоптані пасовиська, хворі тварини, спалені посіви — на жаль, у наші неспокійні часи все це стає типовим видовищем. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] скаржаться, що за межами міських стін панує анархія. Злодії, розбійники та мародерські банди найманців знову розорюють багаті землі провінції [target_province.GetName]…"
+ },
+ "byzantine_succ_crisis.9.title": {
+  "en": "The Ravages of Instability",
+  "uk": "Тягар нестабільності"
+ },
+ "italian_merchants_favored_key": {
+  "en": "[ShowCultureGroupName('italian_group')] Merchants Favored",
+  "uk": "Переваги для #TOOLTIP:CULTUREGROUP,italian_group,X #L італійських#!#! купців"
+ },
+ "nobles_burghers_10_satisfaction_at_the_expense_of_peasants_tt": {
+  "en": "Our [ShowPopTypeName('nobles')] and [ShowPopTypeName('burghers')] [pops|e] in [target_location.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] and the [ShowPopTypeName('peasants')] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]",
+  "uk": "[Concept('pops', 'Групи населення')|e]-#TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! та #TOOLTIP:POPTYPE,burghers,X #L городян#!#! у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip] отримують [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e], тоді як [ShowPopTypeName('peasants')|l] втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "peasants_unhappy_tt": {
+  "en": "Our [ShowPopTypeName('peasants')] in every owned [location|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[ShowPopTypeName('peasants')] в усіх наших [Concept('location', 'районах')|e] втрачають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "pops_in_target_province_join_succession_crisis_pretender_tt": {
+  "en": "Our [pops|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] and may join the cause of [target_character.GetName]!",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] всіх [Concept('pops', 'груп населення')|e] у провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%], вони можуть перекинутися на бік персонажа [target_character.GetName]!"
+ },
+ "province_pops_gain_satisfaction_tt": {
+  "en": "Many of our [provinces|e] with dissatisfied [pops|e] that follow [ROOT.GetCountry.GetReligion.GetName] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Багато [Concept('provinces', 'провінцій')|e] з невдоволеними #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ими#! [Concept('pops', 'групами населення')|e] отримують [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "sc_this_may_bring_us_into_conflict_tt": {
+  "en": "#R This may bring us into conflict against [GetCountry('BYZ').GetNameWithNoTooltip]#!",
+  "uk": "#R Це може призвести до конфлікту проти [GetCountry('BYZ').Custom('CL_RP')]#!"
+ },
+ "scales_with_clergy_estate_power_tt": {
+  "en": "This gain scales with our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]'s [estate_power|e]",
+  "uk": "Перевага залежить від того, якою [Concept('estate_power', 'становою владою')|e] володіють [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]"
+ },
+ "scales_with_crown_power_tt": {
+  "en": "This [modifier|e] scales with our [crown_power|e]",
+  "uk": "Значення цього [Concept('modifier', 'модифікатора')|e] зростає залежно від рівня [Concept('crown_power', 'влади правителя')|e]"
+ },
+ "thessaloniki_effect_1_tt": {
+  "en": "[ShowPopTypeName('nobles')] [pops|e] in [target_location.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e] while [ShowPopTypeName('peasants')] and [ShowPopTypeName('burghers')] will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%]\\n[target_location.GetNameWithNoTooltip] will lose [ShowNamedValue('control_ultimate_penalty')|+=2%] [control|e]",
+  "uk": "[Concept('pops','Групи населення')|e] #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! у [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetNameWithNoTooltip] втрачають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e], тоді як [ShowPopTypeName('peasants')|l] та [ShowPopTypeName('burghers')|l] отримують [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%]\\n[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] втрачає [ShowNamedValue('control_ultimate_penalty')|+=2%] [Concept('control', 'контролю')|e]"
+ },
+ "thessaloniki_effect_2_tt": {
+  "en": "[ShowPopTypeName('nobles')] [pops|e] in [target_location.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e] while [ShowPopTypeName('peasants')] and [ShowPopTypeName('burghers')] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]\\n[target_location.GetNameWithNoTooltip] will lose [ShowNamedValue('control_ultimate_penalty')|+=2%] [control|e]",
+  "uk": "[Concept('pops','Групи населення')|e] #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! у [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetNameWithNoTooltip] отримують [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e], тоді як [ShowPopTypeName('peasants')|l] та [ShowPopTypeName('burghers')|l] втрачають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]\\n[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] втрачає [ShowNamedValue('control_ultimate_penalty')|+=2%] [Concept('control', 'контролю')|e]"
+ },
+ "unlock_new_issues_about_civil_war_tt": {
+  "en": "All new [parliament_issues|e] will be enhanced for the duration of the [ShowDisasterName('succession_crisis')] [disaster|e]",
+  "uk": "Ефект від усіх нових [Concept('parliament_issues', 'парламентських питань')|e] буде посилено, поки триває [Concept('disaster', 'лихо')|e] «#TOOLTIP:DISASTER_TYPE,succession_crisis,X #L Криза престолонаслідування#!#!»"
+ }
+}

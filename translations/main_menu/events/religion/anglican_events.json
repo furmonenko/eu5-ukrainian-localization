@@ -1,0 +1,254 @@
+{
+ "anglican_events.1.a": {
+  "en": "Display the Royal Arms proudly in every church.",
+  "uk": "Королівський герб має висіти в кожній церкві."
+ },
+ "anglican_events.1.desc": {
+  "en": "Following the destruction and removal of Papist symbols, Anglican churches were left somewhat bare of decoration. It has been decreed that in place of these blasphemous icons, the Royal Arms of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] is to be displayed. The presence of the Royal Arms cements in the public consciousness the reality of the new order; that [ROOT.GetCountry.GetGovernment.GetRuler.GetName] is appointed by God not only as [ROOT.GetCountry.GetGovernment.GetRulerTitle] of [ROOT.GetCountry.GetName], but also as Supreme Governor of the Church.",
+  "uk": "Після руйнування та зняття папських символів англіканські церкви залишились майже без жодних прикрас. Тому було постановлено демонструвати там замість цих богохульних ікон Королівський герб. Його присутність закріплює в народній свідомості дійсність нового порядку: [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'помазана', 'помазаний')] Богом не лише як [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а й як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'верховна', 'верховний')] глава церкви."
+ },
+ "anglican_events.1.title": {
+  "en": "The Display of Royal Arms",
+  "uk": "Демонстрація королівського герба"
+ },
+ "anglican_events.10.a": {
+  "en": "Let them build their own settlement.",
+  "uk": "Нехай будують свої поселення."
+ },
+ "anglican_events.10.b": {
+  "en": "Integrate them into an established colony.",
+  "uk": "Відправимо їх до вже діючої колонії."
+ },
+ "anglican_events.10.desc": {
+  "en": "The Puritans have for some time criticized the hierarchy and doctrines of the Church of [ROOT.GetCountry.GetName]. The Reformation has to their eyes merely replaced the Pope with the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and they openly denounce the state�s slothful attitude to reform. Theological disputes aside, Puritans have also been persecuted as nonconformists, depending on the leanings of the current [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Finally exhausted by the religious affairs of Europe, many Puritans have decided to migrate in the New World. They have organized themselves into a colonial company an requested a charter to establish new settlements in the Americas.",
+  "uk": "Пуритани вже тривалий час критикують ієрархію та доктрини #L [ROOT.GetCountry.GetAdjective|l]ської#! церкви. На їхню думку, Реформація досягла лише того, що папу римського на місці глави церкви [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'замінила', 'замінив')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], і тому вони відкрито засуджують повільний темп релігійних реформ у державі. Крім суто теологічних суперечок пуритани також часом переслідуються як небезпечні дисиденти, залежно від того, яку позицію щодо них займе [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Втомившись від релігійних чвар у Європі, багато пуритан вирішили переїхати до Нового Світу. Вони організували колоніальну компанію й запросили дозволу будувати нові поселення в Америці."
+ },
+ "anglican_events.10.title": {
+  "en": "Puritans Leaving for the Colonies",
+  "uk": "Пуритани відпливають до колоній"
+ },
+ "anglican_events.11.a": {
+  "en": "Allow traditional vestments.",
+  "uk": "Дозволимо традиційні облачення."
+ },
+ "anglican_events.11.b": {
+  "en": "Surplices only.",
+  "uk": "Лише підрясники."
+ },
+ "anglican_events.11.c": {
+  "en": "Denounce all vestments.",
+  "uk": "Відмовимося від усіх особливих вбрань."
+ },
+ "anglican_events.11.desc": {
+  "en": "The matter of clerical vestments remains a contentious issue in the Anglican Church. The extravagant and superstitious rags of the papists are surely to be done away with, but the degree of austerity required of the clergy continues to inflame debate and protest.\\n\\nConservative Anglicans wish to reinstate some of the elaborate trappings of the old Catholic priesthood, while moderates argue that a simple surplice is sufficient. Radical reformers insist that vestments are not merely lacking scriptural support, but deface and corrupt the ordinances which God has instituted.",
+  "uk": "Питання облачень священників залишається в англіканській церкві предметом гарячих обговорень. Розкішні йповні порожнього символізму папістські вбрання, поза сумнівом, слід скасувати, але суперечки про те, наскільки аскетично мають одягатися англіканські священники, не вщухають.\\n\\nКонсервативні англікани хочуть хоча б якоюсь мірою повернути прикрашені облачення католицьких священників, тоді як помірковані реформатори вважають, що вистачить і простого підрясника. Радикальні ж реформісти наполягають, що особливі облачення не лише не згадуються в Писаннях, а й узагалі противні встановленим Господом обрядам."
+ },
+ "anglican_events.11.title": {
+  "en": "Controversy over Vestments",
+  "uk": "Суперечки через облачення"
+ },
+ "anglican_events.12.a": {
+  "en": "Smash the altars and imprison papist protesters!",
+  "uk": "Знищимо вівтарі, а невдоволених папістів під замок!"
+ },
+ "anglican_events.12.a.tt": {
+  "en": "All [ShowReligionName('catholic')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькі#!#! [Concept('pops', 'групи населення')|e] втратять [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "anglican_events.12.b": {
+  "en": "Destroy only what is undeniably papist.",
+  "uk": "Знищимо лише відверто папістське."
+ },
+ "anglican_events.12.b.tt": {
+  "en": "All [ShowReligionName('catholic')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! [Concept('pops','групи населення')|e] втрачають [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
+ },
+ "anglican_events.12.c": {
+  "en": "Put an end to this iconoclasm.",
+  "uk": "Досить нам іконоборства."
+ },
+ "anglican_events.12.desc": {
+  "en": "The early years of the English Reformation are a time of fervent iconoclasm. Any adornment or relic that even suggests Papism, the existence of Purgatory, or the divinity of saints is being ruthlessly stripped from the churches. Anything that could lead the laity astray must be destroyed; altars are smashed, paintings painted over, shrines ruined.\\n\\nA perpetual issue for the new Anglican Church is the matter of how far this iconoclasm should be taken. Some more radical reformers push for an end to roods, candlesticks, and crucifixes, while others seek the restoration of some of the more harmless ornaments.",
+  "uk": "Ранні роки Реформації в Англії — це час шаленого іконоборства. У церквах нещадно знищується все, що хоч якось нагадує про папізм, існування чистилища або небесну природу святих. Усе, що може збити мирян з путі істинної, має бути знищене: реформатори руйнують вівтарі, забілюють фрески й розорюють каплиці.\\n\\nАнгліканська церква не може знайти відповіді на питання, як далеко має заходити це іконоборство. Найзапекліші реформатори закликають покінчити з хрестами, свічками й розп'яттями, тоді як інші пропонують повернути хоча б деякі нешкідливі прикраси."
+ },
+ "anglican_events.12.title": {
+  "en": "Smashing Altars",
+  "uk": "Руйнування вівтарів"
+ },
+ "anglican_events.13.a": {
+  "en": "Conduct a national priest-hunt. Search every house!",
+  "uk": "Влаштуємо полювання на священників по всій країні. Обшукати кожен дім!"
+ },
+ "anglican_events.13.b": {
+  "en": "Find out where they're coming from",
+  "uk": "З'ясуймо, звідки вони лізуть."
+ },
+ "anglican_events.13.desc": {
+  "en": "Though [ROOT.GetCountry.GetName] has formally split from the Rome, the Pope continues to meddle in our affairs by orchestrating plots against [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Jesuits and priests number among his agents, sheltered by traitorous recusants.\\n\\nThese crypto-Catholics employ cunning methods of hiding Papist agents from the law, deviously building secret areas behind walls, under the floorboards, and even in concealed underground passageways. Hiding in these 'priest holes' can injure or even suffocate their occupants, so they are at least unlikely to be able to make a quick escape once located.",
+  "uk": "Хоча #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DP')|L]#!#! вдалося офіційно порвати з Римом, папа продовжує втручатися в наші справи й будувати підступи, метою яких є [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Його агенти з числа єзуїтів і священників ховаються серед зрадників-рекузантів.\\n\\nЦі таємні католики винаходять дедалі нові способи ховати агентів папи від очей правосуддя: у просторах між стінами, під підлогою і навіть у викопаних під землею ходах. Ховатися в таких схованках небезпечно для здоров'я і навіть життя, тож при виявленні сховані священники зазвичай опиняються в пастці."
+ },
+ "anglican_events.13.title": {
+  "en": "Catholic Instigators",
+  "uk": "Католицькі підбурювачі"
+ },
+ "anglican_events.15.a": {
+  "en": "This will be a difficult adjustment.",
+  "uk": "Доведеться звикати."
+ },
+ "anglican_events.15.b": {
+  "en": "The monarch must be Anglican.",
+  "uk": "Монарх має бути англіканської віри."
+ },
+ "anglican_events.15.desc": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] has landed in the unenviable position of being both a religious nonconformist and the Supreme Governor of the Church of [ROOT.GetCountry.GetName]. The Anglicans of [ROOT.GetCountry.GetName] struggle to tolerate this state of affairs, and the legitimacy of the Church is dramatically weakened.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'опинилася', 'опинився')] в незавидному становищі релігійного дисидента і водночас [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'верховної', 'верховного')] глави англіканської церкви. #L [ROOT.GetCountry.GetGovernment.GetAdjective|U]ські#! англікани важко переживають такий стан справ, і від цього сильно страждає легітимність самої церкви."
+ },
+ "anglican_events.15.title": {
+  "en": "Nonconformist Monarch",
+  "uk": "Нонконформіст на троні"
+ },
+ "anglican_events.2.a": {
+  "en": "Target Catholics.",
+  "uk": "Зосередимося на католиках."
+ },
+ "anglican_events.2.a.tt": {
+  "en": "All [ShowReligionName('catholic')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! [Concept('pops','групи населення')|e] втрачають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
+ },
+ "anglican_events.2.b": {
+  "en": "Target Puritans.",
+  "uk": "Зосередимося на пуританах."
+ },
+ "anglican_events.2.desc": {
+  "en": "Attending Anglican services is mandatory in the [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] of [ROOT.GetCountry.GetName]. Recusancy is punishable by harsh fines. A person found guilty must forfeit all their goods and chattels, their lands, tenements, and hereditaments, and all of their rents and annuities. Enforcement, however, is difficult due to the sheer number of potential recusants, and so we should focus our efforts on the most concerning offenders.\\n\\nPopery is a particularly heinous crime. As the Pope denies the legitimacy of the [ROOT.GetCountry.GetGovernment.GetRulerTitle], so too must faithful Catholics, and thus all Catholics may be considered traitors to the state.\\n\\nRadical nonconformists such as the Puritans may also be targeted by these laws should they stray too far from the established doctrines of the Church.\\n\\nThe law enforces the uniformity of religious belief in [ROOT.GetCountry.GetName], but it might also be used to discourage factionalism within the court. The mere suggestion of recusancy can destroy one's reputation at court.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName|U] [ROOT.GetCountry.GetName] — це держава, в якій усі піддані зобов'язані брати участь в англіканських богослужіннях. Нонконформізм у цьому питанні карається великими штрафами. У відмовників-рекузантів відбирають товари й майно, землі, нерухомість і права спадкування, а також усі пенсії та ренти. Втім, виконувати такі покарання складно через величезну кількість потенційних рекузантів, тому нам слід зосередити увагу на найзлісніших порушеннях.\\n\\nПапізм — особливо злісний злочин. Оскільки папа не визнає легітимність англійського правителя, його прикладу мають наслідувати всі віруючі католики, а тому всіх католиків слід вважати державними зрадниками.\\n\\nПід дію цього закону можуть потрапити й такі радикальні нонконформісти як пуритани, якщо вони занадто відступлять від канонів церкви.\\n\\nЦей закон має забезпечити єдність віри на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!, але водночас він може відлякати гарячі голови при дворі, адже тепер навіть просте звинувачення в рекузантстві може зруйнувати репутацію придворного."
+ },
+ "anglican_events.2.title": {
+  "en": "Recusancy",
+  "uk": "Рекузантство"
+ },
+ "anglican_events.3.a": {
+  "en": "Ban these nonconformist sermons.",
+  "uk": "Заборонимо нонконформістські проповіді."
+ },
+ "anglican_events.3.b": {
+  "en": "Let them preach as they wish.",
+  "uk": "Нехай проповідують, як хочуть."
+ },
+ "anglican_events.3.desc": {
+  "en": "The Anglican Church does not require that its clergy devote much time to preaching. A monthly or even quarterly sermon is adequate according to the law, which is usually lifted directly from the Book of Homilies.\\n\\nMany parishioners desire a more personal and involved approach to religious services, and have taken matters into their own hands by pooling money to pay for educated lecturers to preach in their towns. These lecturers however do not always have the most orthodox of theological views. It is often the case that the most eager to preach are those with the most radical ideas, and so these private sermons have become associated with the Puritan movement.\\n\\nWhile there are advantages to a more religiously literate populace, cracking down on Puritanism would increase the authority of the Church.",
+  "uk": "Англіканська церква не вимагає від своїх священників витрачати багато часу на проповіді: за законом вистачить однієї на місяць, а то й на три — і ті зазвичай беруться з Книги настанов.\\n\\nБагато парафіян прагнуть більш небайдужого підходу до церковних служб і тому беруть ситуацію у свої руки: вони збирають гроші й запрошують освічених священників читати проповіді у своїх єпархіях. Однак такі священники часто дотримуються нетрадиційних релігійних поглядів. Найчастіше найбільше читати проповіді готові носії найрадикальніших ідей. Тому такі неофіційні зібрання стали асоціюватися з рухом пуритан.\\n\\nЗ одного боку, релігійно освічене населення може бути корисним, але з іншого боку, якщо ми почнемо боротися з пуританами, це зміцнить авторитет церкви."
+ },
+ "anglican_events.3.title": {
+  "en": "Prophesying and Sermons",
+  "uk": "Проповіді"
+ },
+ "anglican_events.4.a": {
+  "en": "Pass the reforms exactly as the [ROOT.GetCountry.GetGovernment.GetRulerTitle] proposed.",
+  "uk": "Ухвалимо реформи в тому вигляді, як пропонує [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "anglican_events.4.b": {
+  "en": "The Lords win the day.",
+  "uk": "Сьогодні перемога за лордами."
+ },
+ "anglican_events.4.c": {
+  "en": "The Commons have their way.",
+  "uk": "Прислухаємося до Палати громад."
+ },
+ "anglican_events.4.desc": {
+  "en": "The [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetParliament.GetName] is often called upon to debate matters of religion. Typically, the [ROOT.GetCountry.GetGovernment.GetRulerTitle] will propose a new wave of reforms for the Anglican Church and [ROOT.GetCountry.GetGovernment.GetParliament.GetName] will take a stance along established factional lines; the Members in the Commons more likely to support radical or even Puritan measures, the Lords temporal more likely to favor a more conservative approach. Rarely does the [ROOT.GetCountry.GetGovernment.GetRulerTitle] get [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] way precisely, and when [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] does, coercive measures are often involved.",
+  "uk": "Члени [ROOT.GetCountry.Custom('parliament_ru_GEN')|l] з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! часто збираються для обговорення питань релігії. Зазвичай [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] пропонує нові реформи англіканської церкви, а думки членів [ROOT.GetCountry.Custom('parliament_ru_GEN')|l] розділяються згідно з належністю кожного: палата громад, як правило, виступає за радикальні або навіть пуританські заходи, а лорди частіше виступають з більш консервативних позицій. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] нечасто домагається ухвалення своїх законів у незмінному вигляді, і навіть у тих випадках, коли це відбувається, доводиться вдаватися до примусу."
+ },
+ "anglican_events.4.title": {
+  "en": "Parliamentary Debate on Doctrine",
+  "uk": "Парламентські дебати про англіканську доктрину"
+ },
+ "anglican_events.5.a": {
+  "en": "Ignore this nonsense.",
+  "uk": "Не будемо звертати уваги на ці пасквілі."
+ },
+ "anglican_events.5.b": {
+  "en": "Respond in kind, this is a war of pamphlets!",
+  "uk": "Відповісти тим самим: це війна памфлетів!"
+ },
+ "anglican_events.5.c": {
+  "en": "Find and arrest the authors.",
+  "uk": "Знайдемо й арештуємо авторів."
+ },
+ "anglican_events.5.desc": {
+  "en": "Dissatisfied with the conservative establishment of the Anglican Church, a group of Puritans writing under the pseudonym 'Martin Marprelate' began publishing a series of scathing pamphlets directed at the Church leadership. The Bishops of [ROOT.GetCountry.GetName], according to these writers, are proud, popish, presumptuous, profane, paltry, pestilent, and pernicious prelates who usurp authority from God.\\n\\nThese tracts have garnered public attention and risk making a mockery of the Establishment lest something be done about them.",
+  "uk": "Група пуритан під спільним псевдонімом «Мартін Марпрелат», невдоволена консервативним істеблішментом в англіканській церкві, почала публікувати сатиричні памфлети з нападками на лідерів церкви. На думку авторів, #L [ROOT.GetCountry.GetAdjective|l]ські#! єпископи — це купка «самозакоханих, папістських, зарозумілих, богохульних дріб'язкових шкідливих святош», що привласнили собі владу Бога.\\n\\nЦі трактати привертають до себе увагу громадськості, і якщо ми будемо сидіти склавши руки, вони можуть похитнути репутацію церковних верхів."
+ },
+ "anglican_events.5.title": {
+  "en": "The Marprelate Tracts",
+  "uk": "Марпрелатські трактати"
+ },
+ "anglican_events.6.a": {
+  "en": "Repeal the new edition and make traditionalist concessions.",
+  "uk": "Скасуємо нову редакцію й поступимося традиціоналістам."
+ },
+ "anglican_events.6.b": {
+  "en": "We will not tolerate papist treason!",
+  "uk": "Ми не потерпимо цього папістського заколоту!"
+ },
+ "anglican_events.6.desc": {
+  "en": "The doctrines of the Anglican Church are contained within the Book of Common Prayer. It is a book that needs periodic revisions to accord with changes in Anglican thought, as it shifts between more radical and more traditional theology. The most recent edition contains material that has greatly angered the people of [prayer_book_province.GetName], many of whom still cling to Catholic dogmas and practices. They have risen up in revolt, demanding that the Book be reverted to its previous edition.",
+  "uk": "Доктрини англіканської церкви викладені в Книзі спільних молитов. У міру еволюції англіканської думки та її переходу від радикальних ідей до більш традиційної теології ця книга потребує регулярного перегляду. В останній її редакції містяться матеріали, які сильно обурили мешканців провінції [prayer_book_province.GetName], багато з яких досі дотримуються католицьких догм і практик. Вони підняли повстання з вимогою повернути книгу до її попередньої редакції."
+ },
+ "anglican_events.6.title": {
+  "en": "Prayer Book Rebellions",
+  "uk": "Повстання через релігійні книги"
+ },
+ "anglican_events.7.a": {
+  "en": "They are too useful, for now.",
+  "uk": "Поки що [Select_CString(minister.IsFemale,'вона', 'він')] занадто [Select_CString(minister.IsFemale,'цінна', 'цінний')] для нас."
+ },
+ "anglican_events.7.b": {
+  "en": "No [ShowReligionAdjectiveWithNoTooltip('catholic')] believers in the [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "При нашому дворі немає місця католикам!"
+ },
+ "anglican_events.7.c": {
+  "en": "Off with [minister.GetHerHis] head!",
+  "uk": "Відрубати [Select_CString(minister.IsFemale,'їй', 'йому')] голову!"
+ },
+ "anglican_events.7.desc": {
+  "en": "The [ROOT.GetCountry.GetAdjective] Reformation did not sway the hearts and minds of the entire population. Many continue to harbor [ShowReligionAdjective('catholic')] sympathies, even among the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. It has been discovered that [minister.GetName] has been secretly attending a [ShowReligionAdjectiveWithNoTooltip('catholic')] mass, a practice strictly forbidden by law. If exposed, [minister.GetSheHe] stands to lose all of [minister.GetHerHis] land and property, and will no longer be eligible for public office.",
+  "uk": "#L [ROOT.GetCountry.GetAdjective]ська#! реформація не переконала все населення країни. Навіть при дворі багато хто продовжує відчувати симпатію до #TOOLTIP:RELIGION,catholic_tt,X #L католицизму#!#!. Нещодавно ми дізналися, що [minister.GetName] таємно відвідує #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! меси, що суворо заборонено законом. Якщо ця інформація дійде до громадськості, [minister.GetName] позбудеться всіх своїх земель і майна, а також більше не зможе займати державні посади."
+ },
+ "anglican_events.7.title": {
+  "en": "Crypto-[ShowReligionAdjectiveWithNoTooltip('catholic')] Statesman",
+  "uk": "[Select_CString(minister.IsFemale,'Таємна католичка', 'Таємний католик')]"
+ },
+ "anglican_events.8.a": {
+  "en": "It is harmless, we can allow this.",
+  "uk": "Нехай моляться, яка в цьому шкода?"
+ },
+ "anglican_events.8.b": {
+  "en": "Uniformity must be enforced",
+  "uk": "Необхідна одноманітність."
+ },
+ "anglican_events.8.desc": {
+  "en": "When [ROOT.GetCountry.GetName] broke with Rome, we did away with the superstitious notion that prayers should be directed to the Saints rather than to God himself. As our new theology has no place for the papist concept of Purgatory, there is no need for Saints to intercede on behalf of our souls. Despite this, many people continue the practice of praying to Saints, and many churches give excessive reverence to their patron.",
+  "uk": "Коли #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! вдалося порвати з Римом, ми відкинули забобонні упередження про те, що молитися потрібно святим, а не самому Богу. Оскільки в нашій новій доктрині немає місця папістському поняттю чистилища, то немає потреби й у святих, які б заступалися за наші грішні душі. Але попри все це, багато хто продовжує молитися святим, і багато церков занадто ревно шанують своїх святих покровителів."
+ },
+ "anglican_events.8.title": {
+  "en": "Prayers to Saints",
+  "uk": "Молитви святим"
+ },
+ "anglican_events.9.a": {
+  "en": "Abolish more feast days.",
+  "uk": "Скасуймо більше свят."
+ },
+ "anglican_events.9.b": {
+  "en": "Let them have their fun.",
+  "uk": "Нехай веселяться."
+ },
+ "anglican_events.9.desc": {
+  "en": "The Catholic liturgical calendar is filled with feast days that function as public holidays and occasions for celebration. No longer under Papal authority, our own Church must decide how far this practice ought to continue. Those most fervent reformers argue that superfluous holidays encourage sinful temptation and distract from gainful labor. This has been met with broad agreement in terms of theology, but abolishing feast days is likely to upset the populace who do so enjoy the occasional day off.",
+  "uk": "Католицький літургійний календар сповнений церковних свят, які вважаються вихідними днями й приводами для святкувань. Звільнившись з-під папської влади, наша церква тепер має вирішити, що робити з цією традицією. Найзапекліші реформатори заявляють, що нескінченні свята схиляють віруючих до гріха й відволікають від корисних праць. Теологи цю ідею поділяють, але відмова від свят може засмутити простий народ, якому до вподоби іноді відпочити."
+ },
+ "anglican_events.9.title": {
+  "en": "Abolition of Feast Days",
+  "uk": "Відмова від церковних свят"
+ }
+}

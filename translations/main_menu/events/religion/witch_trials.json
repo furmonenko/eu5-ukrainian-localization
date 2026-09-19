@@ -1,0 +1,106 @@
+{
+ "opinion_witchtrials_bad": {
+  "en": "Disobeyed the Doctrine.",
+  "uk": ""
+ },
+ "opinion_witchtrials_good": {
+  "en": "Followed the Doctrine.",
+  "uk": ""
+ },
+ "witch_trials.1.a": {
+  "en": "Allow them to proceed with the local trials.",
+  "uk": "Дозволимо провести місцеві суди."
+ },
+ "witch_trials.1.b": {
+  "en": "Our inquisitor can see to these matters in a more organized fashion.",
+  "uk": "Наш інквізитор впорається краще."
+ },
+ "witch_trials.1.c": {
+  "en": "Such foolish superstitions have no place in [ROOT.GetCountry.GetNameWithNoTooltip]!",
+  "uk": "Дурним забобонам немає місця на території [ROOT.GetCountry.Custom('CL_GEN')]!"
+ },
+ "witch_trials.1.desc": {
+  "en": "The people of the war-torn city of [target_location.GetName] are looking for reasons for the misfortunes that have befallen them. Fortunately, they have not found them to be related to our rulership, but unfortunately, what they have found has caused quite a stir. The prolonged effects of the war and how they seem to affect some more than others, they claim, can only be the work of those practicing witchcraft and sorcery.\\n\\nAccusations have been leveled generously, and there are local authorities willing to organize proper trials for these crimes. As proper as trials for magic get in [ROOT.GetCountry.GetName], anyway.",
+  "uk": "Мешканці [target_location.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [target_location.GetName], що сильно постраждали від війни, намагаються знайти причину нещасть, які їх спіткали. На щастя, вони не звинуватили нас у тому, що сталося. Біда в тому, що правда, до якої вони докопалися, викликала загальний ажіотаж. Вони вважають, що всі довгострокові наслідки війни — справа рук чарівників і чаклунів, причому ті, кого вони не злюбили, страждають більше за інших.\\n\\nБагатьох людей було звинувачено у змові з нечистою силою, і місцева влада готова судити їх за законами #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! та винести справедливий вирок."
+ },
+ "witch_trials.1.title": {
+  "en": "Witchcraft",
+  "uk": "Чаклунство"
+ },
+ "witch_trials.1000.a": {
+  "en": "There are no such things as sorcery and witches!",
+  "uk": "Чаклунів і відьом не існує!"
+ },
+ "witch_trials.1000.b": {
+  "en": "We will not interfere, not now.",
+  "uk": "Краще поки не втручатися."
+ },
+ "witch_trials.1000.c": {
+  "en": "Send a messenger to the [GetCountry('PAP').GetGovernment.GetRulerTitle], to ask for advice.",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] може дати нам слушну пораду. Відправимо до [Select_CString(GetCountry('PAP').GetGovernment.IsFemale,'неї', 'нього')] гінця."
+ },
+ "witch_trials.1000.d": {
+  "en": "The Dominican Inquisition will take care of them.",
+  "uk": "Домініканська інквізиція з ними розбереться."
+ },
+ "witch_trials.1000.desc": {
+  "en": "People in provinces suffering from famine, disease, and unfortunate events claim that sorcery and witchcraft are behind their misery. Women, children, and men have been accused of being witches, of worshiping the Devil, and of being a threat to Christendom. It has gone so far that people in [target_location.GetName] have lynched alleged witches without a proper trial!",
+  "uk": "Мешканці провінцій, змучені голодом, епідеміями та важкими випробуваннями, звинувачують у всіх своїх горестях відьом і чаклунів. Жінок, дітей і чоловіків підозрюють у чаклунстві та поклонінні дияволу, а також вважають загрозою всьому християнському світу. Справа зайшла настільки далеко, що ймовірних слуг Сатани почали страчувати без суду!"
+ },
+ "witch_trials.1000.title": {
+  "en": "Witch Trials in [target_location.GetNameWithNoTooltip]",
+  "uk": "Суди над відьмами в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "witch_trials.1001.a": {
+  "en": "Condemn the witch hunts and trials!",
+  "uk": "Ми засуджуємо переслідування відьом!"
+ },
+ "witch_trials.1001.b": {
+  "en": "The people should be allowed to continue this practice.",
+  "uk": "Дозволити людям продовжувати переслідування."
+ },
+ "witch_trials.1001.desc": {
+  "en": "[target_ruler.GetName] is asking the [ROOT.GetCountry.GetGovernment.GetRulerTitle] for advice about the recent witch hunts and trials. The people of [target_ruler.GetHerHis] country are blaming their misfortune and suffering on sorcery and witchcraft. Their anger has led to women, children, and men being accused of worshiping the Devil, being a threat to Christendom, and to the wellbeing of the faithful. Should they be banned, these witch hunts and trials, or should the people be allowed to hunt, pursue, lay blame, and punish people that might be innocent or not of witchcraft?",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] краще за багатьох розуміється на полюванні на відьом і судових процесах, тому [target_ruler.GetName] просить у [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'неї', 'нього')] поради. [Select_CString(target_ruler.IsFemale,'Її', 'Його')] державу охопило хвилювання: змучені мешканці вважають, що голод, епідемії та інші нещастя — справа рук чаклунів. У зв'язку з цим вони почали звинувачувати всіх підряд у тому, що ті поклоняються дияволу та ганьблять увесь християнський світ. Як же краще вчинити: заборонити полювання на відьом чи дозволити вистежувати, переслідувати, звинувачувати та карати людей, які врешті-решт можуть виявитися невинними?"
+ },
+ "witch_trials.1001.title": {
+  "en": "A Cry for Help",
+  "uk": "Крик про допомогу"
+ },
+ "witch_trials.1002.a": {
+  "en": "We obey.",
+  "uk": "Ми підкоримося."
+ },
+ "witch_trials.1002.b": {
+  "en": "We decline.",
+  "uk": "Ми вчинимо по-своєму."
+ },
+ "witch_trials.1002.desc": {
+  "en": "After asking [GetCountry('PAP').GetGovernment.GetRuler.GetName] for advice on the whole witch situation, about whether or not we should continue with our witch hunts and trials, we waited long for the answer. It finally arrived, with the [GetCountry('PAP').GetGovernment.GetRulerTitle]'s signature at the end of the official document. 'Cease with the witch hunts and trials immediately!'",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRuler.GetName] нарешті відповідає на ваш лист, де ви просили поради щодо полювання на відьом і судових процесів. [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] надсилає офіційний документ за своїм підписом, у якому сказано таке: «Негайно припиніть переслідування відьом!»"
+ },
+ "witch_trials.1002.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] condemns the Witch Trials",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] не схвалює суди над відьмами"
+ },
+ "witch_trials.1003.a": {
+  "en": "We understand, and we accept.",
+  "uk": "Ми погоджуємося з цими словами."
+ },
+ "witch_trials.1003.b": {
+  "en": "No, we refuse to let superstition tear our land!",
+  "uk": "Ні, ми боротимемося із забобонами!"
+ },
+ "witch_trials.1003.desc": {
+  "en": "The message from [GetCountry('PAP').GetGovernment.GetRuler.GetName] was very clear, sorcery and witchcraft should be pursued, the accused ones tried and the guilty ones punished for their sinful deeds. All who worship the Devil, attend witches' Sabbaths, and threaten Christendom will burn in Hell!",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRuler.GetName] дає вичерпну відповідь на ваше запитання: чаклунів і відьом потрібно переслідувати, звинувачених — судити, а винних — карати за їхні гріховні діяння. Усі, хто поклоняється дияволу, відвідує шабаші та ганьбить християнську віру, горітимуть у пеклі!"
+ },
+ "witch_trials.1003.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] permits the Witch Trials",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] дозволяє суди над відьмами"
+ },
+ "witch_trials.remove_modifiers.tt": {
+  "en": "The Witch Trials are interrupted!",
+  "uk": "Процеси над відьмами зупинено!"
+ }
+}

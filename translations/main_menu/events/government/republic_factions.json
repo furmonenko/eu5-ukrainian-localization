@@ -1,0 +1,386 @@
+{
+ "allowed_imports": {
+  "en": "Allowed Imports",
+  "uk": "Дозволено імпорт"
+ },
+ "enemy_allowed_trade": {
+  "en": "Allowed Trade Between Rivals",
+  "uk": "Дозволено торгівлю між суперниками"
+ },
+ "republic_factions.1.a": {
+  "en": "We must work for statutes to weaken this cartel.",
+  "uk": "Треба розробити статути, які послаблять картель."
+ },
+ "republic_factions.1.a.tt": {
+  "en": "Every [pop|e] in [target_location.GetName] loses [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Кожна [Concept('pop','група населення')|e] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] втрачає [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]"
+ },
+ "republic_factions.1.b": {
+  "en": "A strong guild is necessary to ensure quality.",
+  "uk": "Сильні гільдії — запорука якості."
+ },
+ "republic_factions.1.desc": {
+  "en": "The trade of [target_goods.GetName] in [target_location.GetName] has sparked conflict in [ROOT.GetCountry.GetName]. Merchants who want free reins to buy and sell these goods believe the guilds controlling its manufacture have grown too powerful. In their eyes, it is now nothing but a cartel causing harm to the economy.\\n\\nThe guild leaders, on the other hand, argue that their organization is making the production of [target_goods.GetNameWithNoTooltip] more efficient. Whichever side we come down on, those who oppose our policies are likely to suffer, or even sabotage their own activities to make a point.",
+  "uk": "У [target_location.Custom('LR_PP')|l] [target_location.GetName] у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#! розгорнулося протистояння, у центрі якого — [target_goods.GetName|l]. Купці, які бажають вільно купувати і продавати цей товар, вважають, що гільдії, які розпоряджаються його виробництвом, мають надто сильний вплив: вони, по суті, об'єдналися в картель і тим самим підривають економіку.\\n\\nГлави гільдій, своєю чергою, стверджують, що завдяки цьому [target_goods.GetNameWithNoTooltip|l] сьогодні вдається виробляти швидше, ніж раніше. Яку б сторону ми не підтримали, протилежна сторона неодмінно постраждає або навіть спробує нашкодити самій собі, аби довести свою правоту."
+ },
+ "republic_factions.1.title": {
+  "en": "Guild Restrictions on [target_goods.GetNameWithNoTooltip]",
+  "uk": "[target_goods.GetNameWithNoTooltip|U]: гільдійські обмеження"
+ },
+ "republic_factions.10.a": {
+  "en": "We cannot afford to disrupt commerce.",
+  "uk": "Не можна допустити розриву торговельних зв'язків."
+ },
+ "republic_factions.10.b": {
+  "en": "We can afford to cut ties with these swine.",
+  "uk": "Ми цілком можемо собі дозволити розірвати всі зв'язки з цими негідниками."
+ },
+ "republic_factions.10.desc": {
+  "en": "We are open to business with everyone... as long as we can control it. What business we can and cannot control is open to debate, and as most questions open to debate in our [ROOT.GetCountry.GetFlavorRank], it has become subject to it. Merchants have started trading on friendly terms with our rival, [target_rival.GetName], claiming it is necessary despite political disagreements. The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] find this questionable and call for an immediate end to the exchanges.",
+  "uk": "Ми готові вести справи з усіма без винятку — якщо, звісно, керувати ними будемо ми. Що саме нам підвладне, а що ні, — питання, яке потребує обговорення. І, як і у випадку з усіма іншими відкритими питаннями в [ROOT.GetCountry.Custom('rank_ru_PREP')|l], зараз воно займає всю нашу увагу. Так, нещодавно наші купці почали торгувати з суперником: вони вважають, що [target_rival.GetName] — важливий торговельний партнер, навіть попри наші політичні розбіжності. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U] вважають такий підхід сумнівним, а тому закликають нас негайно покласти цьому край."
+ },
+ "republic_factions.10.title": {
+  "en": "Trade between Rivals",
+  "uk": "Торгівля між суперниками"
+ },
+ "republic_factions.11.a": {
+  "en": "They should trust us with this more often.",
+  "uk": "Нехай частіше нам довіряють у цьому відношенні."
+ },
+ "republic_factions.11.desc": {
+  "en": "Despite their open hatred of us and everything we stand for, the [target_country.GetLongName] have allowed their traders the opportunity to make deals with us. This has granted their merchants influence in our markets, but commerce goes both ways.",
+  "uk": "Попри свою ненависть до нас і до нашого способу життя, [target_country.GetLongName] дозволяє своїм купцям вести з нами справи й укладати угоди. Завдяки цьому їхні торговці можуть впливати на наш ринок — але, відповідно, і ми можемо впливати на них."
+ },
+ "republic_factions.11.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Open for Trade",
+  "uk": "[target_country.GetNameWithNoTooltip] бажає торгувати"
+ },
+ "republic_factions.12.a": {
+  "en": "Is [target_character.GetSheHe] suggesting a bribe?",
+  "uk": "[Select_CString(target_character.IsFemale, 'Вона', 'Він' )] що, пропонує хабар?"
+ },
+ "republic_factions.12.b": {
+  "en": "The loyalty and generosity of the [target_estate.GetNameWithNoTooltip] is appreciated.",
+  "uk": "[target_estate.GetNameWithNoTooltip|U] дуже вірні нам і щедрі. Ми вдячні."
+ },
+ "republic_factions.12.desc": {
+  "en": "The [target_estate.GetName] of [ROOT.GetCountry.GetName] have outmaneuvered their competitors in the political arena, wresting control over the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] government, but their power is far from uncontested.\\n\\n[target_character.GetName], valued by the [ROOT.GetCountry.GetFlavorRank] for [target_character.GetHerHis] loyalty and services to the country, has approached the [ROOT.GetCountry.GetGovernment.GetCourtTitle] with a solution to this problem. According to [target_character.GetHerHim], a shift in power now may undo everything the [target_estate.GetNameWithNoTooltip] have wisely worked towards. They trust in the wisdom of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and the [ROOT.GetCountry.GetGovernment.GetAdjective] government, but if an additional incentive is needed, they have funds for political donations...",
+  "uk": "[target_estate.GetName|U] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! здолали своїх конкурентів у політичній боротьбі, і тепер влада над [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]им урядом належить їм. Втім, справжня боротьба лише починається.\\n\\nСьогодні [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] приймає людину на ім'я [target_character.GetName], яка надійно [Select_CString(target_character.IsFemale,'зарекомендувала','зарекомендував')] себе на службі у [ROOT.GetCountry.Custom('CF_RP')|l]: [Select_CString(target_character.IsFemale,'вона','він')] стверджує, що знає, як розв'язати цей конфлікт. За [Select_CString(target_character.IsFemale, 'її', 'його' )] словами, якщо влада зараз різко зміниться, то обрушиться все, до чого так цілеспрямовано прагнули мудрі [target_estate.GetNameWithNoTooltip|l]. Вони не сумніваються, що [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] і #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий#! уряд виявлять розсудливість, але якщо однієї довіри виявиться замало, то вони готові зробити внесок у підтримання політичної діяльності…"
+ },
+ "republic_factions.12.title": {
+  "en": "Offer from [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] робить нам пропозицію"
+ },
+ "republic_factions.13.a": {
+  "en": "The allegiance of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is to the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] зберігає вірність лише одному — [ROOT.GetCountry.Custom('rank_ru_DAT')|l]."
+ },
+ "republic_factions.13.b": {
+  "en": "[target_ruler.GetNameWithNoTooltip] can keep a secret if they can.",
+  "uk": "Нехай [target_ruler.GetNameWithNoTooltip] зберігає це в таємниці, якщо зможе."
+ },
+ "republic_factions.13.desc": {
+  "en": "[target_ruler.GetName] has tried to maintain a relative neutrality to the guilds as [ROOT.GetCountry.GetGovernment.GetRulerTitle], especially since they have recently somewhat fallen out of favor in [ROOT.GetCountry.GetName]. [target_ruler.GetSheHe|U] is not the member of any guild, nor would it in the current political climate be appropriate for [target_ruler.GetHerHim] to be. Yet, that situation may change. The [ROOT.GetCountry.GetFlavorRank]'s most prominent guild has offered membership to [target_ruler.GetHimHerFormal], even promising to maintain secrecy regarding this as long as needed. Quite a bold suggestion, although refusing would still put us on bad terms with the guild.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] [target_ruler.GetName] намагається дотримуватися неупередженості щодо гільдій, особливо після того, як у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! до них почали ставитися з певною підозрою. [Select_CString(target_ruler.IsFemale, 'Вона сама', 'Він сам' )] не перебуває у якійсь гільдії — зокрема тому, що в поточній політичній ситуації це було б недоречно. Однак зміни іноді бувають вкрай несподіваними: найбільша гільдія [ROOT.GetCountry.Custom('rank_ru_GEN')|l] запропонувала [Select_CString(target_ruler.IsFemale, 'їй', 'йому' )] вступити до своїх лав, пообіцявши навіть зберігати цей факт у повній таємниці стільки, скільки буде потрібно. Сміливе запрошення, і відмовитися від нього буде непросто — у такому разі наші відносини з гільдією різко зіпсуються."
+ },
+ "republic_factions.13.title": {
+  "en": "The Inner Circle",
+  "uk": "Особливо наближені"
+ },
+ "republic_factions.14.a": {
+  "en": "Integrity is worth more in the long run.",
+  "uk": "Зрештою принципи важливіші."
+ },
+ "republic_factions.14.b": {
+  "en": "We cannot sacrifice personal interests.",
+  "uk": "Не можна жертвувати особистими інтересами."
+ },
+ "republic_factions.14.desc": {
+  "en": "In [ROOT.GetCountry.GetName], business and politics have been irreversibly intertwined since time immemorial. Sometimes, we may be faced with deals that benefit many parties but not the [ROOT.GetCountry.GetFlavorRank] itself. When [target_ruler.GetName] is one of those parties, the situation becomes all the more precarious.\\n\\nA good business agreement builds stronger relations with key merchants, which is something we could certainly use. We can avoid alienating these partners if we are willing to sacrifice some of our integrity as a representative of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "У #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#! підприємництво і політика вже давно сплелися у єдину й неподільну сутність. Іноді нам доводиться приймати рішення, які вигідні багатьом, окрім безпосередньо [ROOT.GetCountry.Custom('CF_RP')|l]. І оскільки [target_ruler.GetName] — [Select_CString(target_ruler.IsFemale, 'одна', 'один' )] з таких вигодонабувачів, ситуацію, що склалася, можна сміливо назвати небезпечною.\\n\\nВдала ділова угода завжди слугує зміцненню зв'язків між важливими купцями, і ця особливість здатна зіграти нам на руку. Якщо поступитися частиною своїх принципів як представника [ROOT.GetCountry.Custom('CF_RP')|l], ці торговельні партнери навряд чи від нас відвернуться."
+ },
+ "republic_factions.14.title": {
+  "en": "A Beneficial Transaction",
+  "uk": "Вигідна угода"
+ },
+ "republic_factions.15.a": {
+  "en": "Decline as politely as possible.",
+  "uk": "Відмовити якомога ввічливіше."
+ },
+ "republic_factions.15.b": {
+  "en": "We need to maintain close ties to them.",
+  "uk": "Потрібно зберігати з ними тісні зв'язки."
+ },
+ "republic_factions.15.desc": {
+  "en": "To many powerful people in [ROOT.GetCountry.GetName], contacts or wealth determine status, but the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] still value blood ties highly. Even though they are not the most powerful faction in our republic at this time, they still use the same methods to ensure loyalty.\\n\\nA recent request from some members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] to gain favor in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] is clearly such an attempt. This will force us to steer politics closer to their line and weaken the [ROOT.GetCountry.GetFlavorRank], but refusing will make it even more difficult to compel them to support our planned actions.",
+  "uk": "Становище в суспільстві для багатьох впливових мешканців #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! визначається зв'язками або багатством, однак [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] окрім цього також високо цінують кровні узи. Хай навіть у нашій республіці цей стан не найвпливовіший, але вірність собі вони все так само забезпечують старими методами.\\n\\nПро це свідчить їхня нещодавня спроба заручитися нашою прихильністю. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] буде змушений переглянути політику так, щоб вона відповідала їхнім інтересам, що послабить [ROOT.GetCountry.Custom('CF_VP')|l], однак якщо ми відмовимося, то [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] почнуть ще менш охоче підтримувати наші задуми."
+ },
+ "republic_factions.15.title": {
+  "en": "Thicker Than Water",
+  "uk": "Не водиця"
+ },
+ "republic_factions.16.a": {
+  "en": "If only they could be this reasonable when they are not as fortunate...",
+  "uk": "Якби вони так себе поводили й у несприятливих умовах…"
+ },
+ "republic_factions.16.desc": {
+  "en": "Since the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] came to become the dominant power not only in [ROOT.GetCountry.GetAdjective] business, but also in politics, the guilds have increasingly seen the strength in cooperation. Organizations that may otherwise have seen each other as rivals are now operating efficiently together to maintain power in governing the nation. As a fortunate side effect of that, their control over the quality and trade of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] goods has grown less narrow and more broad and efficient.",
+  "uk": "Відтоді як [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] стали провідною силою не лише в #L [ROOT.GetCountry.GetAdjective|l]ому#! підприємництві, а й у політиці, гільдії почали усвідомлювати, що співпраця сулить їм користь. Об'єднання, які раніше безперестанку суперничали одне з одним, тепер діють спільно, щоб не випускати з рук кермо влади над державою. Це виявилося навіть корисно: їхній вплив на якість [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их товарів і торгівлю ними розширився й став приносити більше вигоди."
+ },
+ "republic_factions.16.title": {
+  "en": "Guilds in Cooperation",
+  "uk": "Гільдії, що співпрацюють"
+ },
+ "republic_factions.17.a": {
+  "en": "Let them bring the wealth of the world to us.",
+  "uk": "Нехай через них до нас течуть багатства світу."
+ },
+ "republic_factions.17.desc": {
+  "en": "Having wrested control over the [ROOT.GetCountry.GetLongName], our merchants are now looking to wrest control over trade worldwide. Their domination of political matters in [ROOT.GetCountry.GetNameWithNoTooltip] has given them less to worry about domestically and emboldened them to take risks that would be unthinkable if they had to worry about being overruled at home. Ultimately, this may benefit not just them, but the [ROOT.GetCountry.GetFlavorRank] itself.",
+  "uk": "[ROOT.GetCountry.GetLongName] надійно належить купцям, і тепер вони прагнуть підкорити собі світову торгівлю. Оскільки політичне життя в [ROOT.GetCountry.Custom('CL_PREP')] перебуває у їхніх руках, торговцям не доводиться хвилюватися про внутрішні питання — вони тепер можуть іти на ризики, які були б неймовірними в умовах відсутності безроздільної влади. Зрештою це може піти на користь не лише їм самим, а навіть і [ROOT.GetCountry.Custom('rank_ru_DAT')|l]."
+ },
+ "republic_factions.17.title": {
+  "en": "Traders Look Abroad",
+  "uk": "Купці позирають на закордон"
+ },
+ "republic_factions.18.a": {
+  "en": "Our great [ROOT.GetCountry.GetFlavorRank] unites even the old families!",
+  "uk": "[ROOT.GetCountry.GetFlavorRank|U] об'єднує навіть старі родини!"
+ },
+ "republic_factions.18.desc": {
+  "en": "Since [ROOT.GetCountry.GetName] began to serve the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], they have begun to serve the [ROOT.GetCountry.GetFlavorRank] in return. Once afraid that they were seen as a relic of old government forms, they have realized that they can maintain power as long as they are willing to work together. While this may put them at odds with other [ROOT.GetCountry.GetAdjectiveWithNoTooltip] political forces, it has served to put ambitions of overthrowing the [ROOT.GetCountry.GetFlavorRank] at rest and helped them organizing their efforts much more efficiently.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U] сьогодні служать #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! точно так само, як [ROOT.GetCountry.GetFlavorRank|l] служить їм. Страх, що вони назавжди відійдуть у минуле, відступив, і прийшло розуміння, що зберігати вплив вони зможуть скільки завгодно довго, поки діятимуть спільно. І хоча інші політичні сили [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ої держави сприймуть такий стан речей як виклик, ми все-таки змогли досягти двох цілей: [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] більше не намагатимуться зруйнувати [ROOT.GetCountry.Custom('rank_ru_ACC')|l] шляхом перевороту, а заодно почнуть виконувати свої обов'язки ефективніше."
+ },
+ "republic_factions.18.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Put Differences Aside",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] залагоджують свої розбіжності"
+ },
+ "republic_factions.19.a": {
+  "en": "Do they think they will gain the country's favor this way?",
+  "uk": "Вони що, думають, так можна здобути нашу прихильність?"
+ },
+ "republic_factions.19.b": {
+  "en": "Give them some concessions.",
+  "uk": "Підемо для них на поступки."
+ },
+ "republic_factions.19.desc": {
+  "en": "Guild leaders can be ruthless power brokers and do not take kindly to being opposed politically. Since the guilds have not had the favor of the government of [ROOT.GetCountry.GetName] for some time, some of them have started to use more intimidating methods to show their influence. Knowing that the [ROOT.GetCountry.GetFlavorRank] depends on trade, the guilds have begun to prevent free trade, knowingly harming the national economy and the affairs of their political opponents.",
+  "uk": "Глави гільдій — люди впливові й безжальні. Вони не терплять політичних супротивників. Оскільки гільдії вже давно не користуються прихильністю уряду #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, деякі з них заради доведення свого впливу почали вдаватися до залякування й перешкоджати вільній торгівлі, знаючи, що від неї залежить добробут [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Вони цілеспрямовано шкодять економіці держави, а заодно — своїм політичним конкурентам."
+ },
+ "republic_factions.19.title": {
+  "en": "Guilds Obstruct Trade",
+  "uk": "Гільдії перешкоджають торгівлі"
+ },
+ "republic_factions.2.a": {
+  "en": "We cannot afford to explore dead ends.",
+  "uk": "Теорії, що ведуть у нікуди, нам не підходять."
+ },
+ "republic_factions.2.b": {
+  "en": "Mercantilism is the future, whether traders know it or not.",
+  "uk": "За меркантилізмом майбутнє, і неважливо, що думають купці."
+ },
+ "republic_factions.2.desc": {
+  "en": "Mercantilist economic theory has become fashionable among influential guild members lately. They are, of course, highly knowledgeable in these matters... and also, coincidentally, likely to benefit from the policies they are backing.\\n\\nOthers are not as likely to benefit. Powerful traders operating internationally claim that these theories constitute a dead end, and will fight tooth and nail to prevent the [ROOT.GetCountry.GetFlavorRank] from adopting them. With the support of the guilds, it may be possible to implement them, but not without political upheaval.",
+  "uk": "Останнім часом у колах впливових учасників гільдій набула поширення економічна теорія меркантилізму. Ці люди, звісно, дуже обізнані в подібних питаннях… а заодно, через неймовірний збіг, мають усі шанси опинитися у виграші від політик, які вони підтримують.\\n\\nІншим же пощастить не так сильно: досвідчені купці, які займаються міжнародною торгівлею, стверджують, що всі ці теорії ведуть у нікуди, а тому докладуть усіх зусиль до того, щоб у [ROOT.GetCountry.Custom('CF_PP')|l] відмовилися від їхнього прийняття. Якщо ж ми все-таки вирішимо їх прийняти, гільдії можуть у цьому допомогти, однак у такому разі в державі почнуться політичні потрясіння."
+ },
+ "republic_factions.2.title": {
+  "en": "Guilds Push for Mercantilist Reforms",
+  "uk": "Гільдії вимагають меркантилістських реформ"
+ },
+ "republic_factions.20.a": {
+  "en": "What do they plan to accomplish with this?",
+  "uk": "Чого вони взагалі хочуть цим досягти?"
+ },
+ "republic_factions.20.desc": {
+  "en": "Despite [ROOT.GetCountry.GetName]'s unquestionable devotion to trade, many of its most prominent traders are now claiming that the [ROOT.GetCountry.GetGovernment.GetCourtTitle] refuses to listen to them and are putting other interests ahead of those which have made our country rich. Some of the merchants we rely on for our international trade have threatened to cease working with the [ROOT.GetCountry.GetFlavorRank] altogether. Although we are sure to come to an agreement eventually, this will hamper our cooperation before it blows over.",
+  "uk": "Хоча ніхто не сумнівається у відданості #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! справі торгівлі, багато впливових купців останнім часом почали стверджувати, що [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] відмовляється їх слухати й ставить інтереси інших вище за інтереси тих, хто наповнює скарбницю держави. Деякі торговці, без яких неможливим буде обмін товарами з іншими державами, навіть погрозили взагалі припинити працювати на [ROOT.GetCountry.Custom('rank_ru_ACC')|l]. І хоча рано чи пізно ми неодмінно досягнемо згоди, співпрацювати надалі все-таки буде складніше."
+ },
+ "republic_factions.20.title": {
+  "en": "Traders Refuse to Serve",
+  "uk": "Купці відмовляються служити"
+ },
+ "republic_factions.21.a": {
+  "en": "If they want power, teach them to fight with the pen instead!",
+  "uk": "Якщо їм так потрібна влада, хай здобувають її пером!"
+ },
+ "republic_factions.21.b": {
+  "en": "Try to reach some understanding with them.",
+  "uk": "Спробувати досягти взаєморозуміння."
+ },
+ "republic_factions.21.desc": {
+  "en": "In many ways, our [ROOT.GetCountry.GetFlavorRank] has been remarkably efficient in removing power from the aristocratic rulers who normally take it for granted. They accept that they cannot claim it as their right, as they could in many other nations. There are times when these old ideas of aristocratic glory reawaken, however, as the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of [ROOT.GetCountry.GetName] feel like they cannot impact its politics in any relevant way but by the sword. Accordingly, the sword is what they are willing to take up, in open rebellion against the republic.",
+  "uk": "[ROOT.GetCountry.Custom('rank_ru_DAT')] вдалося досягти значних успіхів у справі усунення від влади тих правителів-аристократів, хто сприймав цю привілею як належне. Їм довелося змиритися з тим, що «по праву» влада дістається в інших державах; тут же так не заведено. Втім, остаточно знищити пам'ять про славні дні аристократії все-таки не вдалося: [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вважають, що вплинути на політику своєї держави сьогодні можуть виключно мечем, а тому готові взяти цей самий меч до рук і підняти відкритий заколот проти республіки."
+ },
+ "republic_factions.21.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Reject the [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] відкидають [ROOT.GetCountry.Custom('rank_ru_ACC')|l]"
+ },
+ "republic_factions.22.a": {
+  "en": "Interesting. What do they call an act like that?",
+  "uk": "Цікаво. І як називається така вистава?"
+ },
+ "republic_factions.22.b": {
+  "en": "Liberty does not exist to serve obscenities!",
+  "uk": "Свобода не передбачає непристойності!"
+ },
+ "republic_factions.22.c": {
+  "en": "Perhaps we should rethink what we allow them to do.",
+  "uk": "Треба подумати, чи не занадто багато ми їм дозволяємо."
+ },
+ "republic_factions.22.desc": {
+  "en": "The aristocrats of [ROOT.GetCountry.GetName] have been pushing for a legislation popularly referred to as the Family Act, an effort to prevent innocent minds being perverted by the twisted plays and novels spewed forth by 'libertine' authors of recent years. The main outrage behind the initiative for the Family Act is an obscene play, a family act traveling the country which satirizes the excesses of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Humiliated and revolted, the victims of its mockery are now demanding that the [ROOT.GetCountry.GetFlavorRank] prevents it from spreading further.",
+  "uk": "Аристократи #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! наполягають на прийнятті так званого закону про родину, який має вберегти невинні уми від жахливих і розбещуючих п'єс та романів, написаних за останні роки безнравними вільнодумцями. Найбільше їх обурює непристойна вистава у виконанні родини, яка мандрує державою і висміює надмірності, якими славляться [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Осміяні настільки принижені й ображені, що вимагають від [ROOT.GetCountry.Custom('rank_ru_GEN')|l] негайно припинити це неподобство."
+ },
+ "republic_factions.22.title": {
+  "en": "The Family Act",
+  "uk": "Закон про родину"
+ },
+ "republic_factions.23.a": {
+  "en": "We cannot allow the masses to engulf the [ROOT.GetCountry.GetFlavorRank] in anarchy.",
+  "uk": "Не можна допустити, щоб у [ROOT.GetCountry.Custom('rank_ru_PREP')|l] запанувало беззаконня."
+ },
+ "republic_factions.23.b": {
+  "en": "Give in to their demands.",
+  "uk": "Поступимося їхнім вимогам."
+ },
+ "republic_factions.23.desc_burghers": {
+  "en": "For some time now, the [ROOT.GetCountry.GetFlavorRank] has seen an increased control of the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] on the [ROOT.GetCountry.GetAdjective] political stage. Relying on a large number of apprentices, small shop owners and craftsmen, this faction has been able to confiscate much power within the government, and to monopolize offices in the administration.\\n\\nRather than risk lasting marginalization, the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have begun to take some actions to secure their power and wealth over the populace. This has quickly turned into oppression and less than happy common folk. Until now, the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] have disregarded the developing crisis, as poor people requesting loans to buy food seemed to be an opportunity for tidy profits. That is until they began to crowd the Main Plaza of [target_capital.GetName], at the foot of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s palace, going as far as slaughtering half a score guards that had ordered them to disperse.",
+  "uk": "Якийсь час тому одним із найвладніших станів у [ROOT.GetCountry.Custom('CF_PP')|l] стали [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], які вибилися у великі гравці на політичній арені. За допомогою тисяч підмайстрів, ремісників і власників дрібних крамничок вони зуміли прибрати до рук неабияку частку влади й одноосібно зайняти всі управлінські посади.\\n\\nНе бажаючи миритися з таким станом речей, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вдалися до відповідних заходів для зміцнення свого впливу й багатства, що швидко обернулося гнобленням і без того стражденного народу. До недавнього часу [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] не звертали уваги на перелом, що насувався, — їх цілком влаштовували прибутки з видачі позик голодуючим, які не здатні навіть купити їжі. Це тривало доти, поки народ не вийшов на головну площу міста [target_capital.GetName] перед палацом — резиденцією, де мешкає [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Тут уперше за цей час пролилася кров: загинуло півдюжини вартових, які наказали зібраним розійтися."
+ },
+ "republic_factions.23.desc_nobles": {
+  "en": "Using every means of pressure available, the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of [ROOT.GetCountry.GetName] has managed to seize control of power in our [ROOT.GetCountry.GetFlavorRank]. The sons of powerful aristocratic families parade in the streets, as well as in the palaces of [target_capital.GetName]. At this point, their rivals could never hope to find a legal way to re-establish the influence that they have lost.\\n\\nHowever, there are other ways. Using their common hatred against the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] and their abuses, the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] are gathering the support of the common folk, and have already begun distributing bread and weapons to them. Soon, upset crowds rally around the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s palace, and a first charge by the urban militia caused great loss of blood and lives, before the mob could violently avenge itself, laying siege to the [ROOT.GetCountry.GetGovernment.GetAdjective] residence in the process.",
+  "uk": "Не зупиняючись ні перед чим, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! захопили владу над [ROOT.GetCountry.Custom('CF_TP')|l]. Вихідці з впливових аристократичних родин тепер урочисто крокують вулицями й засідають у палацах міста [target_capital.GetName]. Їхні суперники майже переможені: повернути собі втрачену владу законним шляхом тепер неможливо.\\n\\nОднак завжди можна піти в обхід закону. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|U] вирішили заручитися підтримкою простого народу, оскільки гнобителі-[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] тепер однаково ненависні обом станам. Простолюдинам роздали хліб і зброю, і невдовзі повсталі юрби оточили палац, де перебуває [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. У першій же атаці нашвидку зібране ополчення, попри значні втрати, зуміло взяти #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]у#! резиденцію в оточення."
+ },
+ "republic_factions.23.title": {
+  "en": "Unrest in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Заворушення в [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "republic_factions.3.a": {
+  "en": "Our concern must be efficient trade first and foremost.",
+  "uk": "Найважливішою має бути безперебійність торгівлі."
+ },
+ "republic_factions.3.b": {
+  "en": "We will make no concessions that may harm the guilds.",
+  "uk": "Ми не підемо на поступки, які зашкодять гільдіям."
+ },
+ "republic_factions.3.c": {
+  "en": "Radical changes are necessary.",
+  "uk": "Треба вжити радикальних змін."
+ },
+ "republic_factions.3.desc": {
+  "en": "The influence of a powerful guild has driven up prices on [target_goods.GetName] in [ROOT.GetCountry.GetName]. It has come to the point where traders are finding it cheaper to import goods from abroad to compete with local prices, something they claim is becoming more difficult due to the current [ROOT.GetCountry.GetAdjectiveWithNoTooltip] legislation on imports.\\n\\nRelaxing customs would give our merchants a chance to make beneficial agreements where [target_goods.GetNameWithNoTooltip] is produced, but the guilds, who are vehemently opposed to this, do serve their purpose as well.",
+  "uk": "Через гільдійський вплив ціни в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#! на такий товар, як [target_goods.GetName|l], помітно злетіли — до такої міри, що купцям вигідніше імпортувати закордонні товари, ніж намагатися конкурувати на місцевому ринку. Однак [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]е законодавство значно ускладнює їм це заняття.\\n\\nЯкщо ми трохи послабимо митні обмеження, купці зможуть укладати вигідні угоди в державах, де [target_goods.GetNameWithNoTooltip|l] — стаття виробництва та експорту, однак цьому протистоять гільдії: чинне законодавство цілком відповідає їхнім інтересам."
+ },
+ "republic_factions.3.title": {
+  "en": "Merchants Call for Increased Imports",
+  "uk": "Купці закликають наростити імпорт"
+ },
+ "republic_factions.4.a": {
+  "en": "Money is money, new or old.",
+  "uk": "Гроші є гроші, і неважливо, спадкові вони чи ні."
+ },
+ "republic_factions.4.b": {
+  "en": "No matter how much they pay, rulership cannot be bought.",
+  "uk": "Престол не купити ні за які гроші."
+ },
+ "republic_factions.4.desc": {
+  "en": "In [ROOT.GetCountry.GetName], the presence of guilds has bred a new sort of influence, and a new sort of influential people. Leading figures in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] guilds are not only growing richer than many aristocrats, but they also wield power, all while lacking the familial ties that have defined the rulers of the [ROOT.GetCountry.GetFlavorRank] for a long time.\\n\\nPerhaps this sort of shift is inevitable, especially considering the nature of our [ROOT.GetCountry.GetFlavorRank]. Nevertheless, at this stage, the only thing that is certain is that the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [ROOT.GetCountry.GetNameWithNoTooltip] have an aversion to these ill-mannered new rich and would like to see them ousted from local political proceedings.",
+  "uk": "Гільдії, що діють у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#!, — досить впливові установи, з яких нерідко виходять впливові люди. Постаті, які керують [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ими гільдіями, останнім часом не лише стають багатшими за аристократів — вони здобувають могутність, не маючи при цьому родинних зв'язків, які традиційно так важливі для правителів [ROOT.GetCountry.Custom('CF_RP')|l].\\n\\nМабуть, такий зсув був неминучий, особливо з огляду на специфіку нашої держави. Тим не менш, один факт не викликає сумнівів: [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] у [ROOT.GetCountry.Custom('CL_PP')] відчувають неабияку відразу до цих погано вихованих нових багатіїв і бажають, щоб ті не брали жодної участі в місцевому політичному житті."
+ },
+ "republic_factions.4.title": {
+  "en": "Guild Leaders Rival [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]' Status",
+  "uk": "Глави гільдій — нові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]?"
+ },
+ "republic_factions.5.a": {
+  "en": "Maybe these conspiracies can make politicians agree for once.",
+  "uk": "Може, хоч через них політики почнуть один з одним погоджуватися."
+ },
+ "republic_factions.5.a.tt": {
+  "en": "Leave the possible secret guild influences unaddressed for now, which may have consequences later",
+  "uk": "Поки що таємний вплив гільдій залишиться без уваги. Надалі можливі певні наслідки."
+ },
+ "republic_factions.5.b": {
+  "en": "Fine. Let those known to be loyal investigate this.",
+  "uk": "Добре. Нехай ті, хто вірний нам, вивчать це питання."
+ },
+ "republic_factions.5.desc": {
+  "en": "The full extent of a guild's activity is really only known to members. Since guilds exist in part to manage knowledge, this is inevitable, but also leads to allegations of conspiracies. Until now, we have paid little attention to these ideas, considering them paranoid delusions.\\n\\nHowever, there are whispers at [ROOT.GetCountry.GetGovernment.GetCourtTitle] about who may or may not be part of secret guilds within the government of [ROOT.GetCountry.GetName], and some among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are visibly concerned... so many, in fact, that their own side seems more like a conspiracy than the ones they accuse. Even so, there is no doubt that the aristocrats of [ROOT.GetCountry.GetNameWithNoTooltip] feel threatened by these possible secret societies the guilds have brought into existence.",
+  "uk": "Справжній розмах діяльності тієї чи іншої гільдії достовірно відомий лише її учасникам. Звісно, всі гільдії зберігають свої цехові секрети — частково для цього вони й потрібні, але на цьому ґрунті проростають звинувачення в змовах. До сьогоднішнього дня ми не звертали уваги на ці заяви й вважали їх лише проявами надмірної підозрілості.\\n\\nОднак [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] перешіптується, що, можливо, в уряді #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! є члени таємних гільдій, і деякі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] цим дуже стурбовані… причому настільки, що самі починають здаватися змовниками — іноді більше, ніж звинувачені. Але навіть якщо вони помиляються, неможливо заперечити: аристократи [ROOT.GetCountry.Custom('CL_RP')] справді відчувають, що породжені гільдіями таємні товариства становлять для них загрозу."
+ },
+ "republic_factions.5.title": {
+  "en": "Secret Societies in Government",
+  "uk": "Таємні товариства в уряді"
+ },
+ "republic_factions.6.a": {
+  "en": "Their disloyalty to [ROOT.GetCountry.GetNameWithNoTooltip] must be punished.",
+  "uk": "Зрада інтересів [ROOT.GetCountry.Custom('CL_GEN')] має бути покарана."
+ },
+ "republic_factions.6.b": {
+  "en": "Try to defuse the situation.",
+  "uk": "Спробувати пом'якшити ситуацію."
+ },
+ "republic_factions.6.c": {
+  "en": "A secret society? How can one join?",
+  "uk": "Таємне товариство, кажете? Куди подавати заяву?"
+ },
+ "republic_factions.6.desc": {
+  "en": "When aristocrats warned us of the secret societies that had supposedly infiltrated [ROOT.GetCountry.GetAdjective] politics, we chose not to listen. They predicted that we might very well pay with our lives, when this conspiracy turned against us.\\n\\nNothing quite so dramatic has happened, but one of our close advisors, [target_advisor.GetName], has made some very dubious decisions lately, and eventually admitted these were services to a 'secret' society that [target_advisor.GetSheHe] is indeed part of. Other politicians are up in arms about this, and there is no avoiding a scandal at this stage.",
+  "uk": "Ми воліли пропустити повз вуха слова аристократів, які заявляли, що #L [ROOT.GetCountry.GetAdjective|l]а#! політика опинилася під впливом таємних товариств. Ці люди попереджали, що, коли змова дійде і до нас, розплачуватися доведеться життям.\\n\\nНічого настільки страшного поки не сталося, однак [Select_CString(target_advisor.IsFemale,'наша довірена радниця','наш довірений радник')] [target_advisor.GetName] нещодавно [Select_CString(target_advisor.IsFemale,'почала','почав')] поводитися дивно й приймати сумнівні рішення. Зрештою [Select_CString(target_advisor.IsFemale,'вона зізналася','він зізнався')], що [Select_CString(target_advisor.IsFemale,'чинила','чинив')] так заради певного таємного товариства, у якому перебуває [Select_CString(target_advisor.IsFemale,'сама','сам')]. Це викликало серйозний переполох серед інших політиків. Скандал тепер неминучий."
+ },
+ "republic_factions.6.title": {
+  "en": "Guild Before Country",
+  "uk": "Гільдія важливіша за державу"
+ },
+ "republic_factions.7.a": {
+  "en": "We will see whose guild members show the most loyalty to their country.",
+  "uk": "Подивимося, чия гільдія виявиться найбільш вірною своїй державі."
+ },
+ "republic_factions.7.b": {
+  "en": "Suspend their service until we have straightened things out.",
+  "uk": "Перестати користуватися їхніми послугами до наведення ладу."
+ },
+ "republic_factions.7.desc": {
+  "en": "Some of our diplomatic envoys with strong connections to a domestic guild have been accused by some older ambassadors of brokering deals with a guild across the border. While our guilds admit to using our diplomats affiliated with them to establish contacts with foreign guilds while abroad, they deny accusations of compromising our political missions. On the other hand, they say they are open to the idea of attempting to use those connections abroad to our advantage.\\n\\nThe old guard of aristocratic diplomats find this practice highly dubious, but leveraging connections between guilds could give us an edge in clandestine operations.",
+  "uk": "Деякі наші посли, які вже не перший рік служать державі, звинуватили інших дипломатів у зловживанні зв'язками з гільдіями на батьківщині: користуючись своїм становищем, вони укладали угоди з гільдіями з інших держав. І хоча глави цехів визнають, що пов'язані з ними дипломати справді допомагають встановлювати відносини з закордонними гільдіями, вони все-таки рішуче відкидають звинувачення в тому, що наша політика зазнає небезпеки. При цьому вони зовсім не проти спроб користуватися наявними зв'язками за кордоном, якщо нам це буде вигідно…\\n\\nДипломати старої аристократичної школи вважають такий підхід вкрай сумнівним, однак зв'язки між гільдіями справді можуть виявитися дуже корисним інструментом у таємній роботі."
+ },
+ "republic_factions.7.title": {
+  "en": "International Guild Contacts",
+  "uk": "Міжнародні зв'язки гільдій"
+ },
+ "republic_factions.8.a": {
+  "en": "War perhaps, but who said anything about misery?",
+  "uk": "Війну — мабуть, але зі стражданнями ви поквапилися."
+ },
+ "republic_factions.8.b": {
+  "en": "They are right. We should put these petty squabbles behind us.",
+  "uk": "Вони мають рацію. Час забути про ці дріб'язкові сварки."
+ },
+ "republic_factions.8.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetAdjective] nation has given up many of the old ideas about nobility and feudal rule, but sometimes, when they are of use to us, we are willing to reconsider them on a situational basis. Such a situation has arisen in [target_location.GetName], where the local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] claim that land just across our border in [target_province.GetName] is in fact part of their family's rightful demesne.\\n\\nLocal merchants have petitioned against this claim, having just negotiated a major trade deal with [target_country.GetName]. For any [ROOT.GetCountry.GetFlavorRank], they argue, trade should be the first concern - the claims of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] lead only to war and misery.",
+  "uk": "Наша #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]а#! держава зреклася старих уявлень про знатність і феодалізм, однак завжди готова до них повернутися, якщо вони раптом виявляться корисними, — звісно, залежно від випадку. Такий випадок якраз трапився в [target_location.Custom('LR_PP')|l] [target_location.GetName]: місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] стверджують, що земля за кордоном, у провінції [target_province.GetName], насправді законне володіння їхньої родини.\\n\\nПроти цієї заяви виступили місцеві купці, які щойно уклали велику торговельну угоду з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_TP')|L]#!#!. Вони стверджують, що будь-який правитель [ROOT.GetCountry.Custom('CF_RP')|l] має насамперед дбати про торгівлю, а [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] своїми претензіями принесуть нам лише війну та страждання."
+ },
+ "republic_factions.8.title": {
+  "en": "Noble Legacy of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Шляхетна спадщина [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "republic_factions.9.a": {
+  "en": "Someone experienced in military matters would be of use.",
+  "uk": "Нам знадобиться людина, яка розбирається у військовій справі."
+ },
+ "republic_factions.9.b": {
+  "en": "Commerce comes first in the [ROOT.GetCountry.GetLongNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip] найбільше цінує комерційну жилку."
+ },
+ "republic_factions.9.desc": {
+  "en": "As any [ROOT.GetCountry.GetFlavorRank], we strive to strike a balance between economic interests and tradition. Therefore, we choose our advisors accordingly, following such principles. Families who know this, patricians and aristocrats alike, try to plan ahead and get their representatives into positions of opportunity before they seek to gain a place at [ROOT.GetCountry.GetGovernment.GetCourtTitle] directly.\\n\\nA position offering such opportunities recently opened, and now different parties are pressuring us for it. There can be no pleasing everyone, and someone has to be appointed soon.",
+  "uk": "Як і личить [ROOT.GetCountry.Custom('CF_DP')|l], ми намагаємося тримати рівновагу між економічними інтересами й традиціями, а тому обираємо собі радників саме на основі цих принципів. Родини, яким це відомо, — і спадкові, і нові аристократи, — намагаються заздалегідь продумувати свої кроки і спершу висувати своїх представників на посади, що сулять великі можливості; [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] — уже наступний етап.\\n\\nНещодавно якраз звільнилася така посада, і тепер за неї розгорнулася боротьба між різними угрупованнями. Догодити всім неможливо — невдовзі неодмінно доведеться когось призначити."
+ },
+ "republic_factions.9.title": {
+  "en": "Candidates Vie for Opportunities",
+  "uk": "Кандидати змагаються за можливості"
+ },
+ "uncooperative_trader": {
+  "en": "Uncooperative Trader",
+  "uk": "Неслухняний торговець"
+ }
+}

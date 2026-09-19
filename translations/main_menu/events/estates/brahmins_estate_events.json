@@ -1,0 +1,142 @@
+{
+ "STATIC_MODIFIER_DESC_brahmin_orthodoxy_enforced": {
+  "en": "Non-Brāhmaṇa religious movements are being brought into line with Brāhmaṇa orthodoxy.",
+  "uk": "Релігійні течії, не пов'язані з брахманами, підкоряються брахманським догмам."
+ },
+ "STATIC_MODIFIER_DESC_nonbrahmin_movements": {
+  "en": "The common people are engaged in Hindu religious movements that de-emphasize the authority of the Brāhmaṇa.",
+  "uk": "Простий люд захопився індуїстськими релігійними вченнями, які підривають авторитет брахманів."
+ },
+ "STATIC_MODIFIER_DESC_religious_court_life": {
+  "en": "Our court is dominated by the priestly caste and the rules of their scriptures. These strict rules are necessary to keep the favor of our strong clergy but many of our subjects, both high and low, feel alienated by this archaic way of life.",
+  "uk": "При нашому дворі панує каста священнослужителів, і всі мають дотримуватися правил, встановлених їхніми текстами. Ці суворі порядки необхідні, щоб зберегти прихильність нашого могутнього духовенства. Однак багато наших підданих, незалежно від їхнього становища та багатства, противляться застарілому укладу."
+ },
+ "STATIC_MODIFIER_NAME_brahmin_orthodoxy_enforced": {
+  "en": "Brāhmaṇa Orthodoxy Enforced",
+  "uk": "Примусовий догматизм брахманів"
+ },
+ "STATIC_MODIFIER_NAME_nonbrahmin_movements": {
+  "en": "Non-Brāhmaṇa Religious Movements",
+  "uk": "Релігійні течії, не пов'язані з брахманами"
+ },
+ "STATIC_MODIFIER_NAME_religious_court_life": {
+  "en": "Clerical Dominance",
+  "uk": "Перевага духовенства"
+ },
+ "brahmins_estate_events.10.a": {
+  "en": "Hand over the fort to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')].",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] забирають фортецю."
+ },
+ "brahmins_estate_events.10.b": {
+  "en": "Let the nobles keep the fort, so long as they remain loyal.",
+  "uk": "Нехай аристократи керують фортецею, поки зберігають вірність."
+ },
+ "brahmins_estate_events.10.desc": {
+  "en": "The court of [ROOT.GetCountry.GetName] has become embroiled in a conflict between the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and the military castes. In the wake of these rising tensions, the matter of fort stewardship has risen to our attention. The fort of [brahmin_fort_province.GetName], currently held by a particularly contentious commandant, lies in a province where the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are gaining influence of their own.\\n\\nForeseeing the potential for tensions to break out into hostilities, it may be wise to transfer control of this important fort from the contentious general to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. Though less adept than military men at siegecraft, the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] are at least loyal to the [ROOT.GetCountry.GetGovernment.GetRulerTitle].\\n\\nAlternatively, the commandant could be persuaded to change his attitude in exchange for the retention of his privileges in [brahmin_fort_province.GetNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] і військові касти розпалили конфлікт, куди втягнуто весь двір #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!. Напруження зростає, і перед нами постає питання управління фортецею. Фортеця провінції [brahmin_fort_province.GetName], якою зараз керує вельми сварливий воєначальник, знаходиться там, де набирають сили [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l].\\n\\nНе виключено, що суперечності переростуть у відкриту ворожнечу. Можливо, буде розумно зробити так, щоб контроль над цією важливою фортецею отримали [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] і тим самим позбавити сварливого воєначальника потужного важеля впливу. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] не такі обізнані в мистецтві облоги, як військові, але [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] принаймні може розраховувати на їхню вірність.\\n\\nЄ й інший шлях — переконати воєначальника вгамувати запал, а натомість зберегти його високе становище в провінції [brahmin_fort_province.GetNameWithNoTooltip]."
+ },
+ "brahmins_estate_events.10.title": {
+  "en": "Trouble at the Fort in [brahmin_fort_province.GetNameWithNoTooltip]",
+  "uk": "Проблеми у фортеці провінції [brahmin_fort_province.GetNameWithNoTooltip]"
+ },
+ "brahmins_estate_events.2.a": {
+  "en": "Accept their authority.",
+  "uk": "Визнаємо їхню владу."
+ },
+ "brahmins_estate_events.2.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] should return to their prayers.",
+  "uk": "Нехай краще [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] повернуться до своїх молитов."
+ },
+ "brahmins_estate_events.2.desc": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] often aspire to worldly power as well as mere spiritual authority. They have become highly influential of late in [ROOT.GetCountry.GetName], and many important positions in the administration are now held by [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. Having become comfortable in their grand appointments, these [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] have approached the [ROOT.GetCountry.GetGovernment.GetRulerTitle] with a series of demands. They require that certain administrative posts be entrusted to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] by law, that [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] customs become mandatory at court, and even that several of the highest ministerial offices be held by [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] families in heredity. Outrageous as these demands are, the influence of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] is such that refusing could seriously hinder our ability to govern.",
+  "uk": "Нерідко [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] прагнуть не лише до духовної, але й до мирської влади. Останнім часом вони стали вельми впливовими на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! і займають там багато важливих адміністративних посад. Звикнувши до високого становища, ці [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] вирішили, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] підкориться їхнім примхам. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] вимагають законодавчого закріплення деяких адміністративних позицій за собою, неухильного дотримання своїх звичаїв при дворі і навіть успадкування вищих міністерських посад у своїх родинах. Ці вимоги обурливі, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] настільки впливові, що відмова може помітно підірвати управління державою."
+ },
+ "brahmins_estate_events.2.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Demand Formalized Court Positions",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] вимагають офіційно закріпити придворні посади"
+ },
+ "brahmins_estate_events.3.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "brahmins_estate_events.3.desc": {
+  "en": "Public sentiment among the [ROOT.GetCountry.GetReligion.GetAdjective] faithful of [ROOT.GetCountry.GetName] has shifted toward Brahminism, the view that the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] caste must be respected and revered as both spiritual and temporal authorities.\\n\\nThe [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] jealously guard their monopoly on Sanskrit education, keeping as their exclusive domain the ability to preach the Vedas. Their social and religious authority makes them powerful, and [ROOT.GetCountry.GetGovernment.GetRuler.GetShortName]'s excellent relations with the priestly caste help to keep a stable social order throughout [ROOT.GetCountry.GetName].",
+  "uk": "#L [ROOT.GetCountry.GetReligion.GetAdjective]е#! суспільство #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! схиляється до брахманізму. Згідно з цією ідеєю, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] мають шануватися як представники духовної та світської влади.\\n\\nВони ревно захищають свою монополію поширювати освіту санскритом і зберігають виключне право проповідувати ведичні писання. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] здобули могутність завдяки своєму суспільному та релігійному впливу. До того ж [ROOT.GetCountry.GetGovernment.GetRuler.GetShortName|l] підтримує тісні стосунки з кастою жерців, щоб зберегти стійкий суспільний порядок на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!."
+ },
+ "brahmins_estate_events.3.title": {
+  "en": "Brahminism",
+  "uk": "Брахманізм"
+ },
+ "brahmins_estate_events.4.a": {
+  "en": "Okay.",
+  "uk": "Хай так і буде."
+ },
+ "brahmins_estate_events.4.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] of [ROOT.GetCountry.GetName] are a rising power. They have rallied the popular support of the [ROOT.GetCountry.GetReligion.GetAdjective] population through their position as the divinely-ordained priestly caste, and occupy several key positions within the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] administration.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] стають впливовими на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Будучи кастою жерців, рукопокладених самими богами, вони користуються підтримкою #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! груп населення і займають низку ключових посад в [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ій адміністрації."
+ },
+ "brahmins_estate_events.4.title": {
+  "en": "Advancement of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Caste",
+  "uk": "Впливові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]"
+ },
+ "brahmins_estate_events.5.a": {
+  "en": "Okay.",
+  "uk": "Хай так і буде."
+ },
+ "brahmins_estate_events.5.desc": {
+  "en": "More than any other caste, the influence of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] is dependent on their standing with the [ROOT.GetCountry.GetReligion.GetAdjective] faithful. It has been hard to determine a precise cause but they have come to be seen less as the custodians of Vedic doctrine and more as rich and corrupted intrigue-makers.\\n\\nCombined with poor political maneuvering and lack of favor in the eyes of the [ROOT.GetCountry.GetGovernment.GetRulerTitle], the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] have been losing both power and influence.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] спираються на підтримку #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! груп населення більше, ніж будь-яка інша каста. Складно сказати точно, чому так сталося, але її членів стали вважати не стільки охоронцями ведичних доктрин, скільки багатими корумпованими інтриганами.\\n\\nДо того ж їм бракує політичної гнучкості, а [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] не виявляє до них прихильності. Все це призвело до того, що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] стали втрачати владу та вплив."
+ },
+ "brahmins_estate_events.5.title": {
+  "en": "Declining Power of the Brāhmaṇa",
+  "uk": "Влада брахманів слабшає"
+ },
+ "brahmins_estate_events.6.a": {
+  "en": "Okay.",
+  "uk": "Хай так і буде."
+ },
+ "brahmins_estate_events.6.desc": {
+  "en": "The state's relations with the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] caste have reached breaking point. Pujaris openly condemn [ROOT.GetCountry.GetGovernment.GetRuler.GetShortName] during ceremonies, and [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] families refuse to cooperate in the rule of our [ROOT.GetCountry.GetReligion.GetAdjective] subjects.\\n\\nA recent religious faux-pas on the part of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] has tipped mere outrage into outright rebellion. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] have incited the people to rise against our rule!",
+  "uk": "Уряд і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] досягли точки кипіння у своїх взаєминах. Під час церемоній пуджарі відкрито заявляють, що [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] — негідна людина, а [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] відмовляються допомагати нам керувати #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ими#! підданими.\\n\\nКоли [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'допустила', 'допустив')] релігійну помилку, обурення переросло в справжній бунт. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] підняли народ на заколот проти нас!"
+ },
+ "brahmins_estate_events.6.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Incite Popular Rebellion",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] розпалюють народне повстання"
+ },
+ "brahmins_estate_events.7.a": {
+  "en": "The troubles of low-caste merchants are not our concern.",
+  "uk": "Проблеми купців з нижчої касти — не наша турбота."
+ },
+ "brahmins_estate_events.7.b": {
+  "en": "Hand the city to leaders more concerned with trade relations.",
+  "uk": "Передамо управління містом до рук тих, хто більше дбає про торговельні відносини."
+ },
+ "brahmins_estate_events.7.desc": {
+  "en": "The city of [brahmin_trade_province.GetName] is an important regional trade hub for [ROOT.GetCountry.GetName]. It is visited often by Muslim traders from Gujarat, Arabia, and Persia, and [brahmin_trade_province.GetName] has profited from strong commercial connections with these merchants.\\n\\n[brahmin_trade_province.GetNameWithNoTooltip] has come to be administered by a group of [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] clerics whose influence has been felt at every level of society. They have enacted a series of policies and created a social atmosphere that is far from friendly from the perspective of visiting Muslim traders. As a result, many of these alienated traders have decided to take their business elsewhere.\\n\\n[brahmin_trade_province.GetNameWithNoTooltip] at risk of losing its status as a trade hub if something is not done to attract commerce back to the city.",
+  "uk": "Провінція [brahmin_trade_province.GetName] — важливий торговельний вузол #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!. Сюди часто навідувалися мусульманські купці з Гуджарату, Аравії та Персії. Провінція [brahmin_trade_province.GetName] підтримувала з ними міцні торговельні зв'язки, що приносило їй саму лише вигоду.\\n\\nЗараз провінцією [brahmin_trade_province.GetNameWithNoTooltip] керують [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], чий вплив відчувається на всіх рівнях суспільного життя. Політика, яку вони проводять, значно погіршила ставлення суспільства до приїжджих мусульманських торговців. Зіткнувшись із неприязню, багато з цих купців вирішили вести свої справи в більш сприятливому місці.\\n\\nТреба щось вдіяти і знову залучити купців, інакше провінція [brahmin_trade_province.GetNameWithNoTooltip] може втратити репутацію центру торгівлі."
+ },
+ "brahmins_estate_events.7.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Alienating Merchants in [brahmin_trade_province.GetName]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] утискують купців у провінції [brahmin_trade_province.GetName]"
+ },
+ "brahmins_estate_events.9.a": {
+  "en": "Allow [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] to enforce orthodoxy.",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] насаджують традиційні вірування."
+ },
+ "brahmins_estate_events.9.b": {
+  "en": "Encourage popular religious movements.",
+  "uk": "Підтримаємо популярні релігійні течії."
+ },
+ "brahmins_estate_events.9.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have traditionally had a monopoly on [ROOT.GetCountry.GetReligion.GetAdjective] religious authority, but occasionally religious movements emerge that challenge Brahminism. Such movements are becoming popular throughout [ROOT.GetCountry.GetName] in spite of [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] efforts to suppress them.\\n\\nExponents of popular religion argue that the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] have wiped off the sacred marks from their foreheads and eschewed their spiritual responsibilities in order to occupy seats of temporal power and mete out injustice to the poor. They declare that selfless devotion is the only path to salvation, a virtue that can be attained by any sufficiently fervent [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] person.\\n\\nA group of influential [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] have approached the [ROOT.GetCountry.GetGovernment.GetRulerTitle] pleading for [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] aid in restoring public confidence in [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] authority and suppressing non-[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] movements.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] традиційно користувалися виключним правом на релігійну #L [ROOT.GetCountry.GetReligion.GetAdjective|l]у#! владу, однак нові духовні вірування стають проблемою для брахманізму. Ці течії набирають популярності на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!, попри те, що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] відчайдушно намагаються їх придушити.\\n\\nПредставники нового вчення стверджують, що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] стерли зі своїх чол священні мітки та уникають своїх духовних обов'язків, щоб займати світські посади й пригноблювати бідняків. Вони заявляють, що єдиний шлях до спасіння полягає в самозреченій відданості, і будь-який палкий прихильник [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ої релігії може виховати в собі цю чесноту.\\n\\nВпливові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] просять, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'допомогла', 'допоміг')] їм повернути довіру суспільства та придушити сторонні [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]і течії."
+ },
+ "brahmins_estate_events.9.title": {
+  "en": "Non-[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Religious Movements",
+  "uk": "Релігійні течії, з якими не пов'язані [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]"
+ },
+ "est_val_brahmin_advance": {
+  "en": "Advancement of the Brāhmaṇa",
+  "uk": "Впливові брахмани"
+ }
+}

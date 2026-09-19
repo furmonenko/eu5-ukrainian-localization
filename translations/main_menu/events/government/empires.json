@@ -1,0 +1,82 @@
+{
+ "empires.1.a": {
+  "en": "Make a final stand",
+  "uk": "Стоятимемо на своєму до останнього."
+ },
+ "empires.1.b": {
+  "en": "Seek diplomatic compromise",
+  "uk": "Знайдемо дипломатичний компроміс."
+ },
+ "empires.1.desc": {
+  "en": "As with most dynasties, our nation is under constant attack by foreign rivals claiming their rights to our [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]. Blighted by the lack of financial resources, [target_ruler.GetName] has been advised to seek diplomatic negotiations or otherwise face the possible end of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Як і більшість династій, [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] нашої держави постійно стикаються з чужоземними суперниками, що заявляють права на нашу корону. [target_ruler.GetName] страждає від нестачі фінансів, тому отримує пораду або провести дипломатичні переговори, або прийняти можливий кінець своєї держави."
+ },
+ "empires.1.title": {
+  "en": "Threats to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] в небезпеці"
+ },
+ "empires.2.a": {
+  "en": "Increase centralization efforts",
+  "uk": "Приділимо більше уваги централізації."
+ },
+ "empires.2.b": {
+  "en": "Leave as it is",
+  "uk": "Залишимо все як є."
+ },
+ "empires.2.desc": {
+  "en": "Although comprising a vast area, [ROOT.GetCountry.GetName] is politically a rather shattered nation. [ROOT.GetCountry.GetGovernment.GetFullRulerName] 's power over the empire has been severely limited by various local rulers and [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] is faced with increasing difficulty administering the large empire. The disparate mix of culture groups, with different values and beliefs, has resulted in conflicts erupting over the most insignificant matters.",
+  "uk": "Попри велику територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, політично ця держава досить сильно роздроблена. Різні місцеві правителі сильно обмежують владу, якою володіє [ROOT.GetCountry.GetGovernment.GetFullRulerName|l], і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] дедалі складніше керувати великою імперією. Розрізнена суміш культур із різними цінностями та віруваннями породжує конфлікти з найменших приводів."
+ },
+ "empires.2.title": {
+  "en": "National Fragmentation",
+  "uk": "Національна роздробленість"
+ },
+ "empires.3.a": {
+  "en": "Implement national debt funding plan.",
+  "uk": "Здійснимо план фінансування державної позики."
+ },
+ "empires.3.b": {
+  "en": "Implement tax reform.",
+  "uk": "Здійснимо податкову реформу."
+ },
+ "empires.3.desc": {
+  "en": "Administering such a large empire as [ROOT.GetCountry.GetName] requires extensive economic planning and the lack of a good financial advisor has so far proven quite disastrous. The appointment of [target_minister.GetName] to our cabinet helped turn the tide, however. [target_minister.GetSheHe|U] introduced a number of financial reforms, including a more equitable tax system and a plan for the funding of the national debt.",
+  "uk": "Керування такою великою імперією, як [ROOT.GetCountry.GetName], потребує тривалого економічного планування. Досвід показав, що без доброго фінансового радника на нас чекають катастрофічні наслідки. Однак [target_minister.GetName], [Select_CString(target_minister.IsFemale,'призначена', 'призначений')] до нашої ради, [Select_CString(target_minister.IsFemale,'допомогла', 'допоміг')] врятувати становище. [Select_CString(target_minister.IsFemale,'Вона представила', 'Він представив')] кілька проєктів реформ, зокрема справедливішу податкову систему та план фінансування державної позики."
+ },
+ "empires.3.title": {
+  "en": "[target_minister.GetNameWithNoTooltip]'s Reforms",
+  "uk": "[target_minister.GetNameWithNoTooltip] пропонує реформи"
+ },
+ "empires.4.a": {
+  "en": "Invest in better urban infrastructure.",
+  "uk": "Інвестуємо в розвиток міської інфраструктури."
+ },
+ "empires.4.b": {
+  "en": "Invest in better rural infrastructure.",
+  "uk": "Інвестуємо в розвиток сільської інфраструктури."
+ },
+ "empires.4.c": {
+  "en": "Invest in better production methods.",
+  "uk": "Інвестуємо в поліпшення методів виробництва."
+ },
+ "empires.4.desc": {
+  "en": "[target_location.GetName] has become renowned for our country's artistic achievements and blossoming economy. Artists, philosophers, and poets are flocking to [target_location.GetNameWithNoTooltip] and the thriving economy has allowed extensive artistic funding. Several fine-architectural buildings are being erected and beautiful gardens are built to demonstrate our country's wealth and many members of our new intellectual elite have ideas on how to improve various parts of our country.",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] відомий процвітаючою економікою та творчими успіхами нашої держави. Митці, філософи та поети стікаються до [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip], а успішна економіка дозволяє виділяти багато грошей на розвиток творчості. Ми звели тут кілька чудових будівель і розбили гарні сади, щоб показати багатство нашої держави. Багато представників нової інтелектуальної еліти висувають пропозиції, як поліпшити різні регіони нашої держави."
+ },
+ "empires.4.title": {
+  "en": "Prospering Times",
+  "uk": "Часи процвітання"
+ },
+ "empires.5.a": {
+  "en": "Long live [target_character.GetShortNameWithNoTooltip] $nick_the_great$!",
+  "uk": "Хай славиться [target_character.GetShortNameWithNoTooltip] $nick_the_great$!"
+ },
+ "empires.5.desc": {
+  "en": "The [target_country.GetLongName] is seeing a golden age under the reign of [target_character.GetName]. [target_character.GetHerHis|U] skills have proven themselves as more than superb as stability, prestige, and security mark the [target_country.GetAdjectiveWithNoTooltip] state. The economy is seeing an upward trend; the [target_country.GetCulture.GetName] art and culture flourish in the [target_country.GetGovernment.GetCourtTitle].\\n\\nOur people have erected statures to honor the reign of [target_character.GetShortNameWithNoTooltip], and have dubbed [target_character.GetHerHim] as '$nick_the_great$'.",
+  "uk": "[target_country.GetLongName] — держава, якою править [target_character.GetName], тому в державі настала золота доба. [Select_CString(target_character.IsFemale,'Її', 'Його')] таланти виявилися більш ніж чудовими, і держава [target_country.GetNameWithNoTooltip] переживає епоху стабільності, престижу та безпеки. Економіка розвивається, а [target_country.GetGovernment.GetCourtTitle|l] палко цікавиться #L [target_country.GetCulture.GetName|l]ими#! культурою та мистецтвом.\\n\\n[target_character.GetShortNameWithNoTooltip] [Select_CString(scope.IsFemale,'отримала', 'отримав')] прізвисько «$nick_the_great$», і наш народ звів статуї на честь [Select_CString(scope.IsFemale,'її', 'його')] правління."
+ },
+ "empires.5.title": {
+  "en": "The Reign of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip]: мудре правління"
+ }
+}

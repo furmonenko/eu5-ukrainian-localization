@@ -1,0 +1,854 @@
+{
+ "STATIC_MODIFIER_DESC_ser_defenses_neglected": {
+  "en": "Our defenses in the north are not receiving the attention the inhabitants of the region are demanding and have started to fall apart. People in the area are feeling left on their own.",
+  "uk": "Уряд ігнорує прохання місцевих жителів відновити оборонні споруди на півночі держави. Укріплення поступово ветшають, а мешканці регіону почуваються кинутими напризволяще."
+ },
+ "STATIC_MODIFIER_NAME_ser_burgher_borderlands_modifier": {
+  "en": "Merchant Borderlands",
+  "uk": "Окраїни під контролем купців"
+ },
+ "STATIC_MODIFIER_NAME_ser_clergy_borderlands_modifier": {
+  "en": "Clergy Borderlands",
+  "uk": "Окраїни під контролем духовенства"
+ },
+ "STATIC_MODIFIER_NAME_ser_defenses_neglected": {
+  "en": "Defenses Neglected",
+  "uk": "Обвітшалі укріплення"
+ },
+ "STATIC_MODIFIER_NAME_ser_noble_borderlands_modifier": {
+  "en": "Noble Borderlands",
+  "uk": "Окраїни під контролем феодалів"
+ },
+ "STATIC_MODIFIER_NAME_ser_novo_brdo_code": {
+  "en": "The Novo Brdo Code",
+  "uk": "Ново-Брдоський законник"
+ },
+ "STATIC_MODIFIER_NAME_ser_reduced_taxation_obligation_modifier": {
+  "en": "Reduced Obligations",
+  "uk": "Скорочення зобов'язань"
+ },
+ "STATIC_MODIFIER_NAME_ser_the_white_phoenix": {
+  "en": "The White Phoenix",
+  "uk": "Білий фенікс"
+ },
+ "flavor_ser.10.a": {
+  "en": "Let [target_parent.GetNameWithNoTooltip] oversee the regency.",
+  "uk": "Нехай [target_parent.GetName] стане регентом."
+ },
+ "flavor_ser.10.b": {
+  "en": "We will trust [target_dynasty_member_scope.GetNameWithNoTooltip] with the throne.",
+  "uk": "[target_dynasty_member_scope.GetName] більше [Select_CString(target_dynasty_member_scope.IsFemale,'гідна', 'гідний')] правити державою."
+ },
+ "flavor_ser.10.c": {
+  "en": "[target_character.GetNameWithNoTooltip] must go!",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] поступитися троном!"
+ },
+ "flavor_ser.10.d": {
+  "en": "We are no cowards, we will fight!",
+  "uk": "Ми не боїмося, і ми готові битися!"
+ },
+ "flavor_ser.10.desc": {
+  "en": "The conquests and legacy spearheaded by [GetCharacter('ser_stefan_dusan').GetName] gave way to the rise of a powerful new force in the Balkans. However, the passing of our former ruler led to the rise of [target_character.GetName]. Grappling with the loss of our country's most revered head of state, many advisors have begun whispering throughout our halls about the inadequacy of our leadership. Rumors of indecisiveness and impotence have corroded the royal authority, applying pressure and risking the destruction of what we have built. Our fate hangs in the balance, and [target_character.GetNameWithNoTooltip]'s rule risks eradicating our imperial legacy and an uncontrollable descent into chaos.",
+  "uk": "[GetCharacter('ser_stefan_dusan').GetName] [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'залишила', 'залишив')] велику спадщину — могутнє царство, що заволоділо значною частиною Балкан. На жаль, [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'сильна й шанована всіма цариця померла', 'сильний і шанований всіма цар помер')], і тепер на троні нашої держави сидить [target_character.GetName] — [Select_CString(target_character.IsFemale,'правителька', 'правитель')], на загальну думку, [Select_CString(target_character.IsFemale,'слабка й нерішуча', 'слабкий і нерішучий')]. Придворні перешіптуються про некомпетентність нинішнього монарха, авторитет царської влади стрімко падає, всі завоювання [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'покійної цариці', 'покійного царя')] ось-ось будуть втрачені. [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'поставила', 'поставив')] державу на межу краху, царство стрімко занурюється в хаос."
+ },
+ "flavor_ser.10.e": {
+  "en": "They will be brought on their knees.",
+  "uk": "Ми поставимо їх на коліна."
+ },
+ "flavor_ser.10.entry": {
+  "en": "$flavor_ser.10.title$",
+  "uk": ""
+ },
+ "flavor_ser.10.title": {
+  "en": "The Weakness of the Crown",
+  "uk": "Слабкість корони"
+ },
+ "flavor_ser.100.a": {
+  "en": "The city is ours and it will be renamed.",
+  "uk": "Місто наше, і ми дамо йому нову назву."
+ },
+ "flavor_ser.100.b": {
+  "en": "We will keep its original name.",
+  "uk": "Ми збережемо стару назву."
+ },
+ "flavor_ser.100.desc": {
+  "en": "For centuries, our people have dreamt of owning the City of World's Desire. Now, our armies have managed to conquer the city and our banners fly, proud, over the most iconic places in it.\\n\\nOur ruler, [target_character.GetName], can now be considered a true Tsar or Emperor as [target_character.GetSheHe] has the most beautiful and powerful of all cities under [target_character.GetHerHis] grasp.\\n\\nOne might ask if the city should not change its name to a more fitting one: #Italic The city of the Tsars#!.",
+  "uk": "Упродовж століть наш народ мріяв заволодіти Царицею міст, і тепер ця мрія здійснилася. Місто впало під натиском наших армій, над його стінами й палацами гордо маюють наші знамена.\\n\\nВідтепер [Select_CString(target_character.IsFemale,'наша правителька', 'наш правитель')], [target_character.GetName], має право називати себе [Select_CString(target_character.IsFemale,'царицею й імператрицею', 'царем і імператором')], адже [Select_CString(target_character.IsFemale,'їй', 'йому')] покорилася найвеличніша зі столиць світу!\\n\\nЧи не час дати місту більш відповідну назву — #Italic  Царський град#!?"
+ },
+ "flavor_ser.100.title": {
+  "en": "The Conquest of Tsarigrad",
+  "uk": "Завоювання Царгорода"
+ },
+ "flavor_ser.11.a": {
+  "en": "We have to cooperate...",
+  "uk": "Доведеться піти їм назустріч…"
+ },
+ "flavor_ser.11.b": {
+  "en": "Buy their loyalty for some privileges.",
+  "uk": "Їхню вірність можна забезпечити невеликими поступками."
+ },
+ "flavor_ser.11.c": {
+  "en": "They will taste the boot.",
+  "uk": "Спустити нахабників зі сходів."
+ },
+ "flavor_ser.11.d": {
+  "en": "These threats are beneath us!",
+  "uk": "Нам немає діла до їхніх погроз!"
+ },
+ "flavor_ser.11.desc": {
+  "en": "The prominent [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] figures within our domain were silent during the reign of [GetCharacter('ser_stefan_dusan').GetName]. However, with the coming of [target_character.GetName], they feel emboldened in their hubris. Petitioning greater autonomy and a reduction to their obligations, a delegation of nobles has made its way to our court, petitioning to be heard lest the wrath of their masters spill onto the land...",
+  "uk": "Поки державою [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'правила', 'правив')] [GetCharacter('ser_stefan_dusan').GetName], впливові [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] бездіяли, не наважуючись виступати проти [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'могутньої цариці', 'могутнього царя')]. Але тепер, коли на троні сидить [target_character.GetName], вони відразу посміливішали. До двору прибула делегація дворян із вимогою більшої автономії та скорочення зобов'язань. Посли благородного стану наполягають, щоб їх прийняли, інакше вся держава пізнає гнів їхніх господарів…"
+ },
+ "flavor_ser.11.e": {
+  "en": "They answer to ME!",
+  "uk": "Вони підкоряються МЕНІ!"
+ },
+ "flavor_ser.11.entry": {
+  "en": "$flavor_ser.11.title$",
+  "uk": ""
+ },
+ "flavor_ser.11.title": {
+  "en": "The Bid for Power",
+  "uk": "Боротьба за владу"
+ },
+ "flavor_ser.110.a": {
+  "en": "Be it blessed!",
+  "uk": "Господь благословив це місце!"
+ },
+ "flavor_ser.110.desc": {
+  "en": "The settlement of [ShowLocationName('novo_brdo')] has grown thanks to the rich deposits of glam [ShowGoodsName('silver')] (a type of silver with up to a third of alloy with [ShowGoodsName('goods_gold')]) that surround it and that are being exploited by the diligent descendants of the [ShowCultureName('german_transylvanian')] people that our nation invited a couple of generations ago.\\n\\nAs the richness flows from the mountains to the streets, more and more people are attracted by the shining brightness of the precious metals to come to the agglomeration, and that is reflected in how rapidly it has grown in the past years.\\n\\nThe municipal council has sent a delegation to our capital so that we recognize its status as a settlement of importance.",
+  "uk": "Шахтарське поселення #TOOLTIP:LOCATION,$novo_brdo_tt$,X #L Ново-Брдо#!#! стрімко зростає. Секрет його процвітання — в розташованих поблизу багатих покладах так званого «гламського #TOOLTIP:GOODS,silver,X #L срібла#!#!» (срібна руда зі значною — до третини — домішкою #TOOLTIP:GOODS,goods_gold,X #L золота#!#!). Багато з працьовитих гірників — нащадки #TOOLTIP:CULTURE,$german_transylvanian_tt$,X #L трансільванських німців#!#!, які переселилися в ці краї кілька поколінь тому.\\n\\nЗавдяки видобуванню срібла [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] багатіє, люди з усієї округи стікаються сюди в пошуках кращої долі, і населення швидко збільшується.\\n\\nМуніципальна рада відправила до столиці делегацію. Вони хочуть, щоб ми визнали [target_location.GetNameWithNoTooltip] повноправним містом."
+ },
+ "flavor_ser.110.entry": {
+  "en": "Novo Brdo grows",
+  "uk": ""
+ },
+ "flavor_ser.110.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Grows",
+  "uk": "[target_location.GetNameWithNoTooltip] процвітає"
+ },
+ "flavor_ser.12.a": {
+  "en": "We must entertain their demands for now...",
+  "uk": "Доведеться піти їм назустріч… до певного часу."
+ },
+ "flavor_ser.12.b": {
+  "en": "Very well, entrust control of these domains to them...",
+  "uk": "Добре, вони отримають контроль над прикордонними володіннями."
+ },
+ "flavor_ser.12.c": {
+  "en": "If it is a struggle they wish...",
+  "uk": "Що ж, якщо вони хочуть війни…"
+ },
+ "flavor_ser.12.desc": {
+  "en": "For far too long the machinations of prominent figures in our realm have swayed politics. Shadowy figures in dark rooms control the bidding and execution of central authority under the pretense of allegiance and loyalty. Feeling emboldened due to the weak command of [target_character.GetName], many representatives of powerful groups have demanded dominion and jurisdiction over our borderlands, lest we risk them falling out of our hands...",
+  "uk": "Інтриги й махінації впливових вельмож уже давно визначають практично всю політику нашої держави. Для вигляду вони демонструють відданість центральній владі, але насправді служать лише власним інтересам, залишаючись у тіні трону й смикаючи за ниточки. Тепер, коли державою править [Select_CString(target_character.IsFemale,'слабка й некомпетентна', 'слабкий і некомпетентний')] [target_character.GetName], могутні лідери впливових груп вимагають передати їм владу над прикордонними областями нашої держави — інакше, стверджують вони, ми не зможемо утримати окраїни…"
+ },
+ "flavor_ser.12.entry": {
+  "en": "$flavor_ser.12.title$",
+  "uk": ""
+ },
+ "flavor_ser.12.title": {
+  "en": "The Fleeting Control of the Crown",
+  "uk": "Контроль корони слабшає"
+ },
+ "flavor_ser.120.a": {
+  "en": "Saxon miners will make us rich.",
+  "uk": "Завдяки саксонським шахтарям ми збагатимося."
+ },
+ "flavor_ser.120.b": {
+  "en": "Gold in our hands counts more than possible gold.",
+  "uk": "Золото в наших скринях коштує дорожче, ніж гіпотетичні підземні жили."
+ },
+ "flavor_ser.120.desc": {
+  "en": "A prospecting band of [ShowCultureName('german_transylvanian')] miners have been walking across the mountains near [ShowLocationName('glubocica')], near the settlement of Lece. They claim to have found hints of the presence of [ShowGoodsName('goods_gold')] under the surface.\\n\\nOf course, in order to get to the precious ore we have to build a proper mining structure that will cost money. The investment is high, but the returns can make it incredibly profitable as they expect it to be the biggest gold deposit in our realm.",
+  "uk": "Старателі з-поміж #TOOLTIP:CULTURE,$german_transylvanian_tt$,X #L трансільванських німців#!#! досліджують гори в районі #TOOLTIP:LOCATION,$glubocica_tt$,X #L Глубочиці#!#!, неподалік від селища Лече. Вони переконані, що там є поклади #TOOLTIP:GOODS,goods_gold,X #L золота#!#!.\\n\\nЩоб дістатися до дорогоцінної руди, необхідно викопати глибокі шахти. Роботи обійдуться скарбниці недешево, але результат може перевершити найсміливіші наші очікування — старателі вважають, що родовище в Лече, можливо, є найбільшим у нашій державі."
+ },
+ "flavor_ser.120.entry": {
+  "en": "Gold found in Lece",
+  "uk": ""
+ },
+ "flavor_ser.120.title": {
+  "en": "[ShowGoodsNameWithNoTooltip('goods_gold')] found in Lece",
+  "uk": "Золото Лече"
+ },
+ "flavor_ser.130.a": {
+  "en": "We need to control the area.",
+  "uk": "Нам треба забезпечити контроль над цією областю."
+ },
+ "flavor_ser.130.b": {
+  "en": "Let them handle themselves.",
+  "uk": "Нехай розбираються самі."
+ },
+ "flavor_ser.130.desc": {
+  "en": "The confluence formed by the Danube and Jezava rivers is of strategic importance for our nation. Possible invasions from the north can enter through this place and therefore having a proper stronghold in the area can help us defend our nation from these external threats.\\n\\nRecently, we have received a series of distressing reports from concerned residents residing in the vicinity of [ShowLocationName('smederevo')] demanding we improve the local defenses as they do not feel safe. Their calls for assistance and protection have grown louder, urging us to take immediate action to enhance those fortifications.\\n\\nShould we invest in bolstering those defenses, we will have another flank of our nation secured. The decision, however, is not one to be taken lightly, as fortification projects demand considerable resources and careful consideration.",
+  "uk": "Місце впадіння Йезави в Дунай має велике стратегічне значення для нашої держави, адже саме тут у державу можуть вторгнутися загарбники. Побудувавши в цьому районі укріплення, ми зможемо вберегти наші кордони від можливої загрози з півночі.\\n\\nНаші підлеглі, що мешкають в околицях містечка [ShowLocationName('smederevo')], більше не почуваються в безпеці. Стривожені мешканці наполегливо вимагають, щоб ми посилили фортечні споруди в регіоні.\\n\\nПобудувавши нові укріплення, ми забезпечимо надійний захист кордону з цього флангу. Але не варто забувати, що фортифікаційні роботи потребують величезної кількості ресурсів. Перш ніж приймати остаточне рішення, необхідно зважити всі за і проти."
+ },
+ "flavor_ser.130.entry": {
+  "en": "The Fortress of Smederevo",
+  "uk": ""
+ },
+ "flavor_ser.130.title": {
+  "en": "The Fortress of [ShowLocationNameWithNoTooltip('smederevo')]",
+  "uk": "Фортеця [ShowLocationNameWithNoTooltip('smederevo')]"
+ },
+ "flavor_ser.140.a": {
+  "en": "[target_character.GetSheHe|U] should work for the government.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її','Його')] місце в уряді."
+ },
+ "flavor_ser.140.b": {
+  "en": "[target_character.GetSheHe|U] is an inspiration for our people.",
+  "uk": "[Select_CString(target_character.IsFemale,'Ця жінка','Ця людина')] — справжнє джерело натхнення для нашого народу."
+ },
+ "flavor_ser.140.desc": {
+  "en": "Born in [target_character.GetBirthDate], [target_character.GetName] is a prominent [ShowCultureName('serbian')] scholar, writer, and educator. [target_character.GetHerHis|U] life's work has significantly impacted not only [ShowCultureNameWithNoTooltip('serbian')] culture but also the broader realm of European Enlightenment.\\n\\nInspired by Western learning, [target_character.GetLastNameWithNoTooltip] has made it [target_character.GetHerHis] mission to transform [ShowCultureNameWithNoTooltip('serbian')] literature and language to align more closely with the vernacular spoken by ordinary people, distinct from the predominantly ecclesiastical language of [ROOT.GetCountry.GetReligion.GetLanguage.GetName]\\n\\nSeveral voices in our government are proposing [target_character.GetHerHis] name as a possible minister, while others claim that [target_character.GetSheHe] is not special.",
+  "uk": "[target_character.GetName] [target_character.GetBirthDate] року народження — [Select_CString(target_character.IsFemale,'великий', 'великий')] #TOOLTIP:CULTURE,$serbian_tt$,X #L [Select_CString(target_character.IsFemale,'сербська', 'сербський')]#!#! [Select_CString(target_character.IsFemale,'вчена', 'вчений')], [Select_CString(target_character.IsFemale,'письменниця', 'письменник')] і [Select_CString(target_character.IsFemale,'просвітителька', 'просвітитель')]. [Select_CString(target_character.IsFemale,'Її', 'Його')] праці справили великий вплив не лише на сербську культуру, а й на загальноєвропейські ідеї Просвітництва.\\n\\nПід впливом західних мислителів [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale,'зайнялася', 'зайнявся')] оновленням мови й приведенням сербської літератури у відповідність із розмовною мовою. Твори, написані #L [ROOT.GetCountry.GetReligion.GetLanguage.GetName|l]ою#!, — переважно мовою богослужіння, — раніше були малозрозумілі для простого народу.\\n\\nДеякі члени уряду виступають за те, щоб запропонувати [Select_CString(target_character.IsFemale,'їй', 'йому')] посаду радника. Їхні опоненти стверджують, що [target_character.GetLastNameWithNoTooltip] не є нічим особливим."
+ },
+ "flavor_ser.140.entry": {
+  "en": "$flavor_ser.140.title$",
+  "uk": ""
+ },
+ "flavor_ser.140.title": {
+  "en": "The Father of Modern Serbian Literature",
+  "uk": "Батько сучасної сербської літератури"
+ },
+ "flavor_ser.150.a": {
+  "en": "Move the capital to [target_location.GetNameWithNoTooltip]!",
+  "uk": "[target_location.GetNameWithNoTooltip] буде новою столицею!"
+ },
+ "flavor_ser.150.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] shall stay in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] залишиться в місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
+ },
+ "flavor_ser.150.desc": {
+  "en": "After many decades of longing and struggle, the great [target_location.GetRank.GetName] of [target_location.GetName] has finally returned to [ROOT.GetCountry.GetAdjective] hands. [target_location.GetNameWithNoTooltip], perched strategically at the confluence of the Sava and Danube rivers, holds immense value both as a fortress and as a center of commerce and culture. Its strategic location, offering unrivaled control over the region, makes it a perfect candidate for our capital city.\\n\\nVoices within our [ROOT.GetCountry.GetGovernment.GetCourtTitle] are growing louder, suggesting that relocating our seat of power to [target_location.GetNameWithNoTooltip] would cement our control and invigorate our nation.",
+  "uk": "Після довгої й наполегливої боротьби [target_location.GetRank.GetName|l] [target_location.GetName] знову в #L [ROOT.GetCountry.GetAdjective|l]ських#! руках! Місто, розташоване в місці впадіння Сави в Дунай, не просто володіє величезною військовою цінністю — воно здавна було центром торгівлі й осередком [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої культури. Враховуючи його стратегічне розташування, що дозволяє контролювати весь регіон, [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] ідеально підходить на роль нашої столиці.\\n\\n[ROOT.GetCountry.GetGovernment.GetCourtTitle] активно обговорює пропозицію про перенесення столиці. Багато придворних вважають, що це рішення надихне народ і зміцнить контроль над державою."
+ },
+ "flavor_ser.150.entry": {
+  "en": "The Recapture of Belgrade",
+  "uk": ""
+ },
+ "flavor_ser.150.title": {
+  "en": "The Recapture of [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetNameWithNoTooltip] знову в наших руках"
+ },
+ "flavor_ser.160.a": {
+  "en": "Forward, to victory!",
+  "uk": "Вперед, до перемоги!"
+ },
+ "flavor_ser.160.desc": {
+  "en": "Against all odds, the brave [ROOT.GetCountry.GetAdjective] forces have achieved a monumental victory over the [GetCountry('TUR').GetAdjective] invaders in [ShowProvinceDefinitionName('kosovo_province')]. This triumph is a beacon of hope for all of Christendom, as the relentless [ShowCultureName('turkish_culture')] expansion into the [ShowRegionName('balkan_region')] region has posed a dire threat to the [ShowReligionGroupAdjective('christian')] world, casting a long shadow over our lands and people.\\n\\nThe courage and valor displayed by our warriors have shown that the [GetCountry('TUR').GetAdjectiveWithNoTooltip] tide can be turned. Now, with renewed vigor, we stand on the brink of a potential liberation of the entire peninsula. Let this victory be the first step towards reclaiming our homeland and securing a future free from [GetCountry('TUR').GetAdjectiveWithNoTooltip] domination.",
+  "uk": "Зробивши неможливе, відважні #L [ROOT.GetCountry.GetAdjective|l]ські#! воїни завдали нищівної поразки #L [GetCountry('TUR').GetAdjective|l]ським#! загарбникам у битві на #TOOLTIP:PROVINCE_DEFINITION,kosovo_province,X #L Косовому полі#!#!. Ця перемога стала символом нової надії для всіх християн. Агресивна #TOOLTIP:CULTURE,$turkish_culture_tt$,X #L тюркська#!#! експансія на #TOOLTIP:REGION,balkan_region,X #L Балкани#!#! становила страшну небезпеку для всього #L [ShowReligionGroupAdjective('christian')|l]ого#! світу, а наша держава довгі роки жила під загрозою завоювання.\\n\\nМужність і доблесть, виявлені нашими воїнами, зупинили [GetCountry('TUR').GetAdjectiveWithNoTooltip|l]ський натиск. Тепер у нас з'явився шанс відвоювати весь півострів. Ця перемога повинна стати першим кроком до визволення нашої батьківщини від [GetCountry('TUR').GetAdjectiveWithNoTooltip|l]ого панування!"
+ },
+ "flavor_ser.160.entry": {
+  "en": "Battle of Kosovo",
+  "uk": ""
+ },
+ "flavor_ser.160.historical_info": {
+  "en": "The Battle of Kosovo, fought on June 28th, 1389, was a significant and pivotal conflict between the Serbian-led Christian forces and the expanding Ottoman Empire. This battle took place on the Kosovo Field, near the town of Priština, and is remembered as one of the most crucial battles in the history of the Balkans. One of the most notable aspects of the Battle of Kosovo was the death of the Ottoman Sultan Murad I. According to historical accounts, Murad was assassinated in his tent by the Serbian knight Miloš Obilić, who infiltrated the Ottoman camp under the pretense of defecting. This assassination marked the only time in history that an Ottoman sultan died in battle.",
+  "uk": "28 червня 1389 року в Косові відбулася велика битва між християнськими (переважно сербськими) військами й армією Османської імперії. Битва, що відбулася на Косовому полі неподалік від Приштини, стала однією з найважливіших битв за всю історію Балкан. Її ключовим епізодом стала загибель османського султана Мурада I. Згідно з історичними хроніками, він був убитий у власному наметі сербським лицарем Мілошем Обіличем, який проник в османський табір, прикинувшись перебіжчиком. Це був єдиний випадок в історії, коли османський султан загинув на полі битви."
+ },
+ "flavor_ser.160.title": {
+  "en": "Battle of [ShowProvinceDefinitionNameWithNoTooltip('kosovo_province')]",
+  "uk": "Битва при Косові"
+ },
+ "flavor_ser.170.a": {
+  "en": "Magnificent!",
+  "uk": "Чудово!"
+ },
+ "flavor_ser.170.desc": {
+  "en": "[target_location.GetName], the heart of our nation, has risen to unparalleled heights, becoming the most populous and vibrant [target_location.GetRank.GetName] in the [ShowRegionName('balkan_region')]. This transformation has earned it a nickname, the White Phoenix. From its strategic position on the confluence of the Sava and Danube rivers, [target_location.GetNameWithNoTooltip] now stands as a beacon of power and splendor, outshining even the venerable [ShowLocationName('constantinople')].",
+  "uk": "Місто [target_location.GetName], серце нашої держави, стало найбагатшим і найгустонаселенішим серед усіх #TOOLTIP:REGION,balkan_region,X #L балканських#!#! міст. «Білий фенікс» — так прозвали його мешканці. Займаючи важливе стратегічне становище на місці впадіння Сави в Дунай, [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] служить зримим символом впливу й могутності нашої держави. Навіть #TOOLTIP:LOCATION,$constantinople_tt$,X #L Константинополь#!#! не може посперечатися з величністю цього прекрасного міста!"
+ },
+ "flavor_ser.170.entry": {
+  "en": "Belgrade - the White Phoenix",
+  "uk": ""
+ },
+ "flavor_ser.170.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - the White Phoenix",
+  "uk": "[target_location.GetNameWithNoTooltip], білий фенікс"
+ },
+ "flavor_ser.180.a": {
+  "en": "It is sound to revise it.",
+  "uk": "Закони справді час переглянути."
+ },
+ "flavor_ser.180.b": {
+  "en": "We must preserve its original form.",
+  "uk": "Ми повинні зберігати закони Савви в первозданному вигляді."
+ },
+ "flavor_ser.180.desc": {
+  "en": "The #italic Zakonopravilo#!, a monumental legal code compiled by Saint Sava in 1219, has long stood as the bedrock of our laws and ecclesiastical order, and its wisdom and guidance have shaped [ROOT.GetCountry.GetAdjective] society for centuries.\\n\\nHowever, the passage of time has brought significant changes, and many now argue that the law must be revised to reflect the evolution of our nation and address contemporary issues. This proposal has sparked intense debate. While many see the necessity of updating the law to maintain relevance and efficacy, a sizeable portion of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] vehemently oppose any alterations to this almost holy script.",
+  "uk": "#italic  «Законоправило»#!, монументальний звід законів, складений святим Саввою в 1219 році, довгий час лежав в основі світського й церковного права нашої держави. Його мудрі вказівки вели #L [ROOT.GetCountry.GetAdjective|l]ське#! суспільство упродовж століть.\\n\\nВтім, за цей час світ доволі змінився, і деякі вважають, що закони святого Савви застаріли. «Законоправило», кажуть вони, не відповідає викликам сьогодення й потребує серйозного перегляду. Ця ідея викликала гарячі суперечки — більшість наших підлеглих погоджуються з тим, що закони необхідно оновити, проте [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] категорично проти будь-яких змін у тексті, який став для них майже священним."
+ },
+ "flavor_ser.180.entry": {
+  "en": "$flavor_ser.180.title$",
+  "uk": ""
+ },
+ "flavor_ser.180.title": {
+  "en": "Revising the Zakonopravilo",
+  "uk": "Перегляд «Законоправила»"
+ },
+ "flavor_ser.190.a": {
+  "en": "Repair the local complex.",
+  "uk": "Ми відновимо монастирський комплекс."
+ },
+ "flavor_ser.190.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не до кишені."
+ },
+ "flavor_ser.190.desc": {
+  "en": "[ShowLocationName('mount_athos')] has once again come under [ROOT.GetCountry.GetAdjective] rule. Among its sacred monasteries stands Hilandar - a cornerstone of our national heritage, built by Stefan Nemanja and his son, Saint Sava. However, years of neglect and the passage of time have taken their toll on this venerable site. The walls that once echoed with the prayers of our forefathers now stand in need of restoration.",
+  "uk": "#TOOLTIP:LOCATION,$mount_athos_tt$,X #L Гора Афон#!#! знову перебуває під владою #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Серед безлічі афонських монастирів для нас особливо важливий Хіландар — обитель, зведена Стефаном Неманею і його сином, святим Саввою. На жаль, за роки недбалості наша національна святиня занепала. Стіни, в яких молилися наші предки, потребують серйозної реставрації."
+ },
+ "flavor_ser.190.entry": {
+  "en": "$flavor_ser.190.title$",
+  "uk": ""
+ },
+ "flavor_ser.190.title": {
+  "en": "Hilandar Monastery",
+  "uk": "Хіландарський монастир"
+ },
+ "flavor_ser.200.a": {
+  "en": "Institutionalize it!",
+  "uk": "Зробимо свято офіційним!"
+ },
+ "flavor_ser.200.b": {
+  "en": "We should avoid formal institutionalization.",
+  "uk": "Краще обійдемося без офіційного визнання."
+ },
+ "flavor_ser.200.desc": {
+  "en": "The sacrifices and valor of our ancestors in their battles against the [GetCountry('TUR').GetAdjective] oppressors have long been etched into the heart of our nation. Among these commemorations, the day of Vidovdan stands out as a poignant reminder of our struggle for independence and the bravery of those who laid down their lives for [ROOT.GetCountry.GetName]. This sacred day, traditionally observed on June 28th, marks the anniversary of the $flavor_ser.160.title$ and honors the martyrs and heroes who fought to preserve our nation's freedom.\\n\\nThere is a growing movement to formally institutionalize Vidovdan as an official religious and national holiday. This would ensure that the memory of our fallen heroes is eternally enshrined in our national consciousness, serving as an enduring symbol of unity.",
+  "uk": "Доблесть предків, що віддали своє життя в боротьбі з #L [GetCountry('TUR').GetAdjective|l]ськими#! гнобителями, золотими літерами вписана в історію нашої держави. Особливе місце серед пам'ятних дат займає Відовдан — річниця битви на Косовому полі, яка відзначається 28 червня. У цей день ми шануємо героїв і мучеників, які билися й загинули за #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_VP')|L]#!#!. Їхня жертва, принесена на вівтар нашої незалежності, ніколи не буде забута.\\n\\nДедалі більше мешканців нашої держави вимагають оголосити Відовдан офіційним святом, щоб пам'ять про полеглих героїв навіки збереглася в національній свідомості. Цей святий день стане символом єдності держави."
+ },
+ "flavor_ser.200.entry": {
+  "en": "$flavor_ser.200.title$",
+  "uk": ""
+ },
+ "flavor_ser.200.title": {
+  "en": "Institutionalizing the Vidovdan",
+  "uk": "Відовдан"
+ },
+ "flavor_ser.210.a": {
+  "en": "Implement the mining code nationwide.",
+  "uk": "Приймемо загальнонаціональний законник."
+ },
+ "flavor_ser.210.b": {
+  "en": "Maintain the current mining regulations.",
+  "uk": "Нас влаштовують і чинні правила."
+ },
+ "flavor_ser.210.desc": {
+  "en": "The bustling mining town of [ShowLocationName('novo_brdo')] has developed its own set of rules and practices to manage the complex operations and rights associated with its lucrative industry. As of late, there has been a growing call to adopt a comprehensive nationwide mining code based on its principles. The proposed [ShowPolicyName('novo_brdo_mining_law')] would standardize the organization of mining towns, delineate the rights and responsibilities of miners, and ensure fair practices and safety measures across [ROOT.GetCountry.GetName].",
+  "uk": "У шахтарському містечку #TOOLTIP:LOCATION,$novo_brdo_tt$,X #L Ново-Брдо#!#! склався унікальний звід правил і законів, що регламентують роботу гірничодобувної галузі й її правові аспекти. Гірники інших областей вимагають, щоб цей кодекс ліг в основу загальнонаціонального законодавства в царині рудної справи. Запропонований ними #TOOLTIP:POLICY,novo_brdo_mining_law,X #L Ново-Брдоський законник#!#! повинен регламентувати облаштування шахтарських містечок, визначити права й обов'язки гірників і забезпечити заходи безпеки й справедливе ведення справ на всій території [ROOT.GetCountry.Custom('CL_GEN')]."
+ },
+ "flavor_ser.210.entry": {
+  "en": "The Novo Brdo Code",
+  "uk": ""
+ },
+ "flavor_ser.210.historical_info": {
+  "en": "The Mining Code of Novo Brdo, established in 1412 by Stefan Lazarević, was a comprehensive set of regulations governing mining operations, workers' rights, and the organization of mining towns in medieval Serbia. It provided detailed guidelines on property rights, safety measures, and economic practices, significantly influencing the development and prosperity of mining communities.",
+  "uk": "Ново-Брдоський законник, прийнятий Стефаном Лазаревичем у 1412 році, становив усеосяжний звід правил, що регламентували всі аспекти гірничорудної справи — від організації гірничого видобутку до облаштування шахтарських міст. Законник регулював права власності, заходи безпеки й економічну діяльність, сприяючи розвитку й процвітанню шахтарських спільнот."
+ },
+ "flavor_ser.210.title": {
+  "en": "The [ShowLocationNameWithNoTooltip('novo_brdo')] Code",
+  "uk": "Ново-Брдоський законник"
+ },
+ "flavor_ser.210.tt": {
+  "en": "Unlocks the [ShowPolicyName('novo_brdo_mining_law')] Mining Law.",
+  "uk": "Відкриває правило #TOOLTIP:POLICY,novo_brdo_mining_law,X #L «Ново-Брдоський законник»#!#! у сфері гірничого права."
+ },
+ "flavor_ser.220.a": {
+  "en": "We are indebted to [target_character.GetHimHer]!",
+  "uk": "Ми перед [Select_CString(target_character.IsFemale,'нею', 'ним')] у боргу!"
+ },
+ "flavor_ser.220.desc": {
+  "en": "[target_character.GetName] and [target_character.GetHisHer] elite corps of Germanic warriors, called the Allemanic Guard, play a crucial role in safeguarding the [ROOT.GetCountry.GetFlavorRank] and enforcing [GetCharacter('ser_stefan_dusan').GetName]'s will. Under [target_character.GetHisHer] command, the Allemanic Guard has become known for their discipline, valor, and loyalty, and it stands as a symbol of strength and stability during turbulent times.",
+  "uk": "[target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] Алеманнська гвардія — відбірний загін німецьких солдатів, — відіграють найважливішу роль у захисті [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. [GetCharacter('ser_stefan_dusan').GetName] довіряє [Select_CString(target_character.IsFemale,'їй', 'йому')] як [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'самій', 'самому')] собі. Алеманнська гвардія прославилася своєю дисципліною, вірністю й відвагою, в ці неспокійні часи вона залишається прикладом надійності й сили."
+ },
+ "flavor_ser.220.entry": {
+  "en": "Palman Bracht",
+  "uk": ""
+ },
+ "flavor_ser.220.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_ser.230.a": {
+  "en": "Invest in the fortification.",
+  "uk": "Вкладемо кошти в будівництво укріплень."
+ },
+ "flavor_ser.230.b": {
+  "en": "Our resources are better spent elsewhere.",
+  "uk": "Краще витратити ресурси на щось інше."
+ },
+ "flavor_ser.230.desc": {
+  "en": "The strategic Golubac Fortress, perched on the banks of the mighty Danube in [ShowLocationName('kucevo')], has long been a key defensive bastion and a vital node in our trade network. Its location at the entrance to the Danubian Gorge makes it crucial for controlling the waterways, ensuring the safety of our commerce, and repelling potential invaders. Given its important position, it would be wise to transform it into a formidable castle that would solidify our dominance over the region.",
+  "uk": "Стратегічно важлива Голубацька фортеця на березі Дунаю в #TOOLTIP:LOCATION,$kucevo_tt$,X #L Кучево#!#! — не лише ключова оборонна споруда, а й важливий центр торгівлі. Ця твердиня розташована біля дунайської теснини Залізні Ворота, звідси можна контролювати річкові шляхи й забезпечувати безпеку торгівлі, не кажучи вже про захист держави від вторгнень. Враховуючи стратегічне становище фортеці, її варто перетворити на неприступну цитадель, яка закріпить наше панування над регіоном."
+ },
+ "flavor_ser.230.entry": {
+  "en": "$flavor_ser.230.title$",
+  "uk": ""
+ },
+ "flavor_ser.230.title": {
+  "en": "Fortifying the Golubac",
+  "uk": "Голубацька фортеця"
+ },
+ "flavor_ser.240.a": {
+  "en": "South-[ShowCultureGroupNameWithNoTooltip('slavic_group')] unity is our utmost priority!",
+  "uk": "Південнослов'янська єдність — наша головна мета!"
+ },
+ "flavor_ser.240.b": {
+  "en": "This could destabilize us.",
+  "uk": "Це призведе до безладів."
+ },
+ "flavor_ser.240.desc": {
+  "en": "Inspired by the [ShowInstitutionName('enlightenment')] and the spirit of South [ShowCultureGroupName('slavic_group')] unity, the Illyrian Movement advocates for the creation of a unified homeland for all Slavs, free from the yoke of foreign oppressors. The Illyrian thinkers and activists, with their compelling vision of a united and independent [ShowCultureGroupNameWithNoTooltip('slavic_group')] nation, have captured the imagination of our people, spreading their ideals throughout [ROOT.GetCountry.GetName].\\n\\nThe movement's call for unity and liberation resonates deeply with our national aspirations. However, it also poses significant challenges, as the pursuit of such a vision might provoke the non-[ShowCultureGroupNameWithNoTooltip('slavic_group')] population of our country.",
+  "uk": "Черпаючи натхнення з ідей #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#! і #TOOLTIP:CULTUREGROUP,slavic_group,X #L південнослов'янської#!#! єдності, прихильники ілліризму виступають за об'єднання слов'янських народів в одну державу й їхнє визволення від чужоземного ярма. Образ єдиної й незалежної південнослов'янської нації, який пропагують активісти й ідеологи руху, захопив уяву #L [ROOT.GetCountry.GetAdjective|l]ого#! народу. Ідеї ілліризму поширюються по всій державі.\\n\\nЦей заклик до об'єднання багато в чому близький до нашої власної національної ідеї, проте в ілліризму є свої недоліки. Реалізація його ідей навряд чи сподобається неслов'янському населенню нашої держави."
+ },
+ "flavor_ser.240.entry": {
+  "en": "$flavor_ser.240.title$",
+  "uk": ""
+ },
+ "flavor_ser.240.historical_info": {
+  "en": "The Illyrian Movement was a 19th-century political and cultural campaign aimed at fostering South Slavic unity and national consciousness among Croats, Slovenes, and Serbs. Inspired by the Enlightenment and Romantic nationalism, it sought to revive and promote Slavic languages and culture, laying the groundwork for future efforts towards political unification and independence from foreign rule.",
+  "uk": "Ілліризм — культурно-політичний суспільний рух XIX століття, спрямований на зміцнення південнослов'янської єдності й пробудження національної самосвідомості хорватів, словенців і сербів. Прихильники ілліризму черпали натхнення в романтичному націоналізмі й ідеях Просвітництва. Пропагуючи відродження слов'янських мов і культури, вони заклали основу майбутнього визволення південних слов'ян з-під влади іноземних держав і їхнього політичного об'єднання."
+ },
+ "flavor_ser.240.title": {
+  "en": "The Illyrian Movement",
+  "uk": "Ілліризм"
+ },
+ "flavor_ser.250.a": {
+  "en": "A true champion of Christ!",
+  "uk": "Ось [Select_CString(target_character.IsFemale,'істинна служителька','істинний служитель')] Христа!"
+ },
+ "flavor_ser.250.desc": {
+  "en": "[target_character.GetName], appointed as the esteemed head of the [ROOT.GetCountry.GetAdjective] Patriarchate, stands as a pillar of spiritual strength for our nation. Under [target_character.GetHisHer] leadership, [ROOT.GetCountry.GetName] shines brightly as a bastion of Christendom, fostering unity and moral guidance among our people. [target_character.GetHisHer|U] steadfast commitment to religious integrity and wisdom has elevated [ROOT.GetCountry.GetNameWithNoTooltip]'s influence in the [ShowReligionAdjective('orthodox')] world.",
+  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale,'шанована','шанований')] глава #L [ROOT.GetCountry.GetAdjective]ого#! Патріархату — справжня духовна опора для нашого народу. Під [Select_CString(target_character.IsFemale,'її','його')] керівництвом [ROOT.GetCountry.GetName] залишається бастіоном християнства, а церква зберігає єдність нації й підтримує її дух. [Select_CString(target_character.IsFemale,'Її','Його')] непохитна відданість заповідям Христа сприяє зміцненню авторитету [ROOT.GetCountry.Custom('CL_GEN')] у всьому #L [ShowReligionAdjective('orthodox')|l]ому#! світі."
+ },
+ "flavor_ser.250.entry": {
+  "en": "Makarije Sokolovic",
+  "uk": ""
+ },
+ "flavor_ser.250.historical_info": {
+  "en": "Sokolović was historically significant as the Serbian Patriarch during a critical period of Ottoman rule. He played a pivotal role in preserving Serbian Orthodox traditions and identity, providing spiritual guidance and leadership amidst political upheaval. Makarije's tenure laid the foundation for the resilience of Serbian Orthodoxy and contributed to the cultural and religious continuity of the Serbian people under Ottoman domination.",
+  "uk": "Макарій Соколович став патріархом Сербії в критичний для держави момент. Багато в чому саме завдяки йому серби зуміли зберегти національну самобутність і православні традиції в умовах османського панування. У цей непростий час патріарх Макарій став духовним провідником і справжнім лідером нації, він зміцнив вплив православ'я й сприяв збереженню сербського народу під владою турків."
+ },
+ "flavor_ser.250.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_ser.260.a": {
+  "en": "We cannot hold them.",
+  "uk": ""
+ },
+ "flavor_ser.260.b": {
+  "en": "They will be crushed!",
+  "uk": ""
+ },
+ "flavor_ser.260.c": {
+  "en": "The future lies with [GetCountry('ZTA').GetNameWithNoTooltip].",
+  "uk": ""
+ },
+ "flavor_ser.260.desc": {
+  "en": "The passing of [GetCharacter('ser_stefan_dusan').GetName] shattered the unity of the [ROOT.GetCountry.GetFlavorRank], with regional [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] fighting for power and influence throughout the entirety of [ROOT.GetCountry.GetName]. In the province of [ShowProvinceDefinitionName('zeta_province')], the situation is especially dire. [target_character.GetName] has grown too powerful to be restrained, and the region has effectively slipped from our grasp.",
+  "uk": ""
+ },
+ "flavor_ser.260.entry": {
+  "en": "The Secession of Zeta",
+  "uk": ""
+ },
+ "flavor_ser.260.historical_info": {
+  "en": "After the death of Serbian Emperor Stefan Dušan in 1355, regional lords gained strength across the Empire, including the House of Balšić. By 1360, the Balšići were the most powerful nobles in Zeta, and over the years, they became the undisputed regional lords. After Emperor Uroš's death in 1371, Zeta became effectively indepdendent and remained as such until 1421, when it was once again reunited with Serbia.",
+  "uk": ""
+ },
+ "flavor_ser.260.title": {
+  "en": "The Secession of [GetCountry('ZTA').GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_ser.30.a": {
+  "en": "To the gates of [ShowLocationNameWithNoTooltip('constantinople')], the glory of Rome awaits!",
+  "uk": "Стережися, Константинополе! Ми здобудемо славу нового Риму!"
+ },
+ "flavor_ser.30.desc": {
+  "en": "Many leaders have fashioned themselves the continuation of Rome. Imperial dreams clad in royal purple and the sight of legendary conquests serve as a major appeal to neighboring [ShowReligionGroupAdjectiveWithNoTooltip('christian')] domains. However, unlike other false claimants, [GetCharacter('ser_stefan_dusan').GetName] has the making of a legendary figure. Under [GetCharacter('ser_stefan_dusan').GetHerHis] steady hand we will set forth and take what is rightfully ours!",
+  "uk": "Чимало правителів величали себе спадкоємцями Риму. Майже кожна християнська держава мріяла про велику імперію, про царський пурпур, про завоювання, подібних яким не бачив світ. [GetCharacter('ser_stefan_dusan').GetName], на відміну від інших претендентів, володіє всіма необхідними задатками, щоб здійснити цю мрію. Під [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'її', 'його')] мудрим і рішучим керівництвом ми підемо в бій і візьмемо те, що належить нам за правом!"
+ },
+ "flavor_ser.30.entry": {
+  "en": "The Dreams of Stefan $dusan$",
+  "uk": ""
+ },
+ "flavor_ser.30.historical_info": {
+  "en": "Stefan Uroš IV Dušan was proclaimed Emperor in 1346, marking the zenith of medieval Serbian power. His reign was defined by military conquests and legal reforms that transformed Serbia into a dominant Balkan empire. Capitalizing on the weakening Byzantine Empire, Dušan expanded his realm to include large parts of Macedonia, Thessaly, and even Epirus. In a grand ecclesiastical assembly held in Skopje, he was crowned Emperor of the Serbs and Greeks, asserting both political supremacy and ecclesiastical independence by elevating the Serbian Archbishopric to a Patriarchate. This imperial proclamation symbolized Serbia's ambition to succeed Byzantium as the leading Orthodox Christian power in the region.",
+  "uk": "Коронація Стефана Уроша IV Душана в 1346 році поклала початок розквіту середньовічної сербської держави. Військові перемоги й юридичні реформи цього правителя перетворили Сербію на наймогутнішу державу Балкан. Користуючись занепадом Візантії, Душан приєднав до своїх володінь обширні області Македонії, Фессалії й навіть Епіру. На церковному соборі в Скоп'є його проголосили царем сербів і греків, що дало його державі не лише політичну вагу, а й церковну автономію: статус Сербської церкви піднісся до патріархату. Імператорський титул монарха символізував прагнення Сербії змінити Візантію як провідну православну державу регіону."
+ },
+ "flavor_ser.30.title": {
+  "en": "The Dreams of [GetCharacter('ser_stefan_dusan').GetNameWithNoTooltip]",
+  "uk": "[GetCharacter('ser_stefan_dusan').GetNameWithNoTooltip] і [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'її','його')] мрія"
+ },
+ "flavor_ser.31.a": {
+  "en": "This is our moment of glory!",
+  "uk": "Настав час нашої славі!"
+ },
+ "flavor_ser.31.b": {
+  "en": "Make haste, slowly...",
+  "uk": "У цій справі поспішати не можна…"
+ },
+ "flavor_ser.31.desc": {
+  "en": "Through the embers of a fallen phoenix and with unparalleled strength, [GetCharacter('ser_stefan_dusan').GetName] has lifted our people to unparalleled heights of splendor, glory, and prestige. With the decay of [GetCountry('BYZ').GetName], many of their territories now land steadily in our hands. Despite local unrest and resistance to our administration, this is a mere first step towards the grand plans aimed at elevating us to the status of legends. A new power is rising. Its victory is at hand. It was foretold that the land would be stained with the blood of our foes. March to [ShowLocationName('constantinople')]. Leave none alive. To war!",
+  "uk": "Подібно до фенікса, що піднявся з попелу, [GetCharacter('ser_stefan_dusan').GetName] [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'вивела', 'вивів')] наш народ із темряви й [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'принесла', 'приніс')] #L [ROOT.GetCountry.GetAdjective|l]ій#! державі небувале велич і славу. З занепадом #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! багато колишніх володінь ромеїв опинилися в наших руках. Попри опір місцевого населення, ці завоювання стануть лише першим кроком на нашому великому шляху. На Балканах народилася нова сила, і перемога її близька. Ми наситимо землю кров'ю своїхворогів — так було пророковано, і так буде. Вперед! #TOOLTIP:LOCATION,$constantinople_tt$,X #L Константинополь#!#! чекає на нас! Нікого не щадити! В бій!"
+ },
+ "flavor_ser.31.entry": {
+  "en": "$flavor_ser.31.title$",
+  "uk": ""
+ },
+ "flavor_ser.31.historical_info": {
+  "en": "Stefan Dušan, also known as Dušan the Mighty, ascended to the throne as the Emperor of the Greeks and Serbs in 1346, marking a pivotal moment in Balkan history. Born in 1308, he initiated a rebellion against his father, King Stefan Uroš III Dečanski, ultimately becoming the King of Serbia in 1331. His ambitions transcended Serbian borders, leading to a successful campaign against the Byzantine Empire, then ruled by John VI Kantakouzenos. His coronation as Emperor in Skopje cemented his authority over a vast realm that extended from modern Croatia to southern Greece. Dušan furthered his independence by establishing the Serbian Orthodox Church, anchored by the Serbian Patriarch in Peja, and introduced the influential Dušan's Code, a comprehensive legal system drawing from Byzantine and Roman traditions. His reign signified a zenith of Serbian power, cultural influence, and territorial expansion, but after his death in 1355, the empire gradually fragmented and lost its earlier conquests, leaving behind a significant legacy in Serbian history.",
+  "uk": "У 1346 році Стефан Урош IV Душан, також відомий як Душан Сильний, був коронований царем сербів і греків. Ця подія стала поворотним моментом в історії балканського регіону. Стефан IV народився в 1308 році в родині короля Сербії Стефана Уроша III Дечанського. У 1331 році він підняв повстання й силою захопив батьківський престол. Амбіції Стефана IV виходили далеко за межі сербських кордонів — він провів низку успішних кампаній проти Візантійської імперії, де в той час правив Іоанн VI Кантакузин. Коронація на царство в Скоп'є закріпила владу Стефана IV над величезними територіями, що простягалися від сучасної Хорватії до південної Греції. Щоб зміцнити незалежність нової держави, цар заснував автокефальну Сербську православну церкву на чолі з патріархом Печа. Потім він видав «Законник Стефана Душана» — всеосяжний звід законів, в основу якого лягло візантійське й римське право. Під владою Стефана IV Сербія досягла зеніту могутності, культурного впливу й територіальної експансії, проте після смерті царя в 1355 році царство почало розпадатися й швидко втратило колишні завоювання. Недовгий період розквіту Сербського царства залишив значний слід в історії держави."
+ },
+ "flavor_ser.31.title": {
+  "en": "The Dawn of a New Empire",
+  "uk": "Розквіт нового царства"
+ },
+ "flavor_ser.40.a": {
+  "en": "[target_character.GetSheHe|U] will make a fine addition to our ranks.",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона', 'Він')] стане непоганим доповненням до наших воїнів."
+ },
+ "flavor_ser.40.b": {
+  "en": "We have no need for turncoats!",
+  "uk": "Перебіжчикам у нас не раді!"
+ },
+ "flavor_ser.40.desc": {
+  "en": "It is no secret that the court of our foe is full of power-hungry vultures ready to devour the body of their own country at the first sight of weakness. As times of war are upon us, the faltering of the [GetCountry('BYZ').GetName] has become apparent to those with high aspirations. One such individual is [target_character.GetName]. Scorned by [target_character.GetHerHis] peers and having [target_character.GetHerHis] dreams of royalty crushed, [target_character.GetSheHe] has offered [target_character.GetHerHis] sword against our enemies.",
+  "uk": "Не секрет, що при дворі нашого ворога вистачає жадібних стерв'ятників, готових розірвати власну державу на частини при першій же ознаці слабкості. З початком війни хитке становище #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! стало очевидним для всіх придворних із честолюбними прагненнями. [Select_CString(target_character.IsFemale,'Однією', 'Одним')] із них [Select_CString(target_character.IsFemale,'стала', 'став')] [target_character.GetName]. Позбавившись прихильників і втративши надію захопити трон, [Select_CString(target_character.IsFemale,'вона вирішила', 'він вирішив')] перейти на наш бік."
+ },
+ "flavor_ser.40.entry": {
+  "en": "The Flight of John Kantakouzenos",
+  "uk": ""
+ },
+ "flavor_ser.40.title": {
+  "en": "The Flight of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] переходить на наш бік"
+ },
+ "flavor_ser.40_for_byz_tt": {
+  "en": "The [GetCountry('BYZ').GetLongNameWithNoTooltip] will be informed of [target_character.GetNameWithNoTooltip]' switch of allegiance",
+  "uk": "[GetCountry('BYZ').GetLongNameWithNoTooltip] дізнається про те, що [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'перейшла', 'перейшов')] на бік ворога"
+ },
+ "flavor_ser.41.a": {
+  "en": "The blasted traitor!",
+  "uk": "[Select_CString(target_character.IsFemale,'Огидна зрадниця','Огидний зрадник')]!"
+ },
+ "flavor_ser.41.desc": {
+  "en": "Word from the front has arrived and it appears that [target_character.GetName] has deserted [target_character.GetHerHis] post, effectively aligning with our foes during our struggle. This offense will not be forgotten and blood must be spilled to right this affront to our legitimacy.",
+  "uk": "До нас дійшли вісті, що [target_character.GetName] [Select_CString(target_character.IsFemale,'залишила','залишив')] свою посаду і, по суті, [Select_CString(target_character.IsFemale,'перейшла','перейшов')] на бік ворога в розпал військових дій. [Select_CString(target_character.IsFemale,'Її','Його')] зрада не буде прощена або забута. Подібну образу нашої влади можна змити лише кров'ю!"
+ },
+ "flavor_ser.41.entry": {
+  "en": "$flavor_ser.41.title$",
+  "uk": ""
+ },
+ "flavor_ser.41.title": {
+  "en": "A Dagger in the Back",
+  "uk": "Ніж у спину"
+ },
+ "flavor_ser.50.a": {
+  "en": "A legal framework befitting a grand nation such as ours!",
+  "uk": "Наша велика держава потребує цих законів!"
+ },
+ "flavor_ser.50.b": {
+  "en": "Let us not disturb the status quo.",
+  "uk": "Краще не чіпати існуючі порядки."
+ },
+ "flavor_ser.50.desc": {
+  "en": "Conquests and various victories abroad have ushered in an era of prosperity under the capable guidance of [target_character.GetName]. However, destruction must be followed by renewal and as such, we have drafted legislation for the better administration of a newly expanded realm. The new legal framework entails vast changes to our administration and local organization of our provinces throughout the Balkan region.",
+  "uk": "Нові завоювання й великі перемоги, які [Select_CString(target_character.IsFemale,'здобула', 'здобув')] [target_character.GetName], сприяли настанню епохи небаченого процвітання. Але за всяким руйнуванням повинне слідувати відродження, і тому ми склали новий звід законів для ефективнішого управління нашою розрослою державою. Прийняття цього законодавства призведе до радикальних змін в органах влади й до реорганізації наших провінцій по всьому Балканському регіону."
+ },
+ "flavor_ser.50.entry": {
+  "en": "Stefan Dušan's Code",
+  "uk": ""
+ },
+ "flavor_ser.50.historical_info": {
+  "en": "The legal code, commonly known as the #italic Law of the Pious Emperor Stefan#!, is a significant historical document for the entire region as well as Serbian history. It was introduced during the reign of Dušan, who ruled over the Greeks and Serbs in the mid-14th century. This legal system is formally known as Dušan's Code, named after its primary author, and it played a crucial role in shaping the legal and administrative structure of the newly born Serbian Empire. This code is particularly noteworthy for drawing upon Byzantine and Roman legal traditions, reflecting the empire's diverse cultural influences. Dušan's Code covered various aspects of law, governance, and social organization, offering regulations on issues such as property rights, marriage, criminal justice, and taxation. It significantly contributed to the development of a uniform legal framework within the Serbian Empire during this period, leaving a lasting impact on the legal history of the entire region.",
+  "uk": "Звід законів, відомий як #italic Закон вірного царя Стефана#!, — найважливіше джерело середньовічного права Сербії й усього балканського регіону. Він був прийнятий при Стефані IV Душані, царі греків і сербів середини XIV століття. «Законник Душана», названий так на ім'я автора, відіграв ключову роль у формуванні правової й адміністративної структури молодого Сербського царства. Держава Стефана IV перебувала під сильним культурним впливом Візантії, і в основу її законів лягли візантійські й римські правові традиції. «Законник» охоплював найрізноманітніші аспекти юриспруденції, управління й організації суспільства, його норми регулювали право власності, шлюб, оподаткування й кримінальний суд. Закони Стефана IV сприяли створенню єдиного законодавства Сербського царства й залишили незгладимий слід у юридичній історії Балкан."
+ },
+ "flavor_ser.50.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s Code",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]ський «Законник»"
+ },
+ "flavor_ser.60.a": {
+  "en": "Provide for both the #italic Vlasi#! and the #italic Meropsi#!.",
+  "uk": "Допомогти і #italic влахам#!, і #italic меропхам#!."
+ },
+ "flavor_ser.60.b": {
+  "en": "We will assist the #italic Vlasi#!.",
+  "uk": "Ми можемо допомогти лише #italic влахам#!."
+ },
+ "flavor_ser.60.c": {
+  "en": "Fund the #italic Meropsi#! instead.",
+  "uk": "Виділити кошти #italic меропхам#!."
+ },
+ "flavor_ser.60.d": {
+  "en": "We cannot afford this...",
+  "uk": "Ми нічим не можемо їм допомогти…"
+ },
+ "flavor_ser.60.desc": {
+  "en": "The lands administered under our illustrious realm are vastly populated by a wide range of peasants and commoners. The most prominent classes of these are the #italic Vlasi#! and the #italic Meropsi#!. The former deal with the herding of large cattle and sheep under a feudal lord, whereas the latter are mostly active in the production of wheat and they often found themselves under the jurisdiction of a lord, the head of the state, or the Church. These classes make up the foundation of our material production, raising a vast amount of [ShowGoodsName('livestock')] and [ShowGoodsName('wheat')]. However, recent winters have proven difficult and thus they come to us, asking for support.",
+  "uk": "На землях нашої славної держави мешкає велике розмаїття найрізноманітніших селян і простолюдинів. Найчисленнішими групами серед низького стану вважаються #italic влахи#! й #italic меропхи#!. Перші розводять для феодалів корів і овець, другі ж вирощують пшеницю на землях, що належать баронам, короні або церкві. Ці люди — основа нашої економіки, саме їм ми завдячуємо тучністю наших #TOOLTIP:GOODS,livestock,X #L стад#!#! і #TOOLTIP:GOODS,wheat,X #L пашень#!#!. На жаль, останні роки зими були важкими, і тепер пастухи й хлібороби потребують нашої підтримки."
+ },
+ "flavor_ser.60.entry": {
+  "en": "$flavor_ser.60.title$",
+  "uk": ""
+ },
+ "flavor_ser.60.title": {
+  "en": "Growth of Vlasi & Meropsi",
+  "uk": "Влахи й меропхи"
+ },
+ "flavor_ser.70.a": {
+  "en": "Let it be [ShowLocationNameWithNoTooltip('skopje')]!",
+  "uk": "Столицею стане Скоп'є!"
+ },
+ "flavor_ser.70.b": {
+  "en": "[ShowLocationNameWithNoTooltip('constantinople')], the shining jewel of Rome!",
+  "uk": "Це буде Константинополь — перлина Римської імперії!"
+ },
+ "flavor_ser.70.c": {
+  "en": "Our current seat of power will serve us well...",
+  "uk": "Нинішня столиця нас цілком влаштовує…"
+ },
+ "flavor_ser.70.desc": {
+  "en": "Our success throughout the region has only been matched by our ambition to write our name down in the books of history, with golden letters and immeasurable prestige. As our state grows, we must look within and determine a fitting capital for a rising power, the symbol of our authority and grandeur...",
+  "uk": "Держава досягла величезних успіхів, але наші амбіції вимагають більшого. Ми повинні вписати свої імена в книгу історії, причому золотими літерами! Час подумати про те, якому місту випаде честь стати столицею нової великої держави, зримим втіленням нашої сили й величі…"
+ },
+ "flavor_ser.70.entry": {
+  "en": "$flavor_ser.70.title$",
+  "uk": ""
+ },
+ "flavor_ser.70.title": {
+  "en": "A Capital Befitting an Empire",
+  "uk": "Столиця великого царства"
+ },
+ "flavor_ser.80.a": {
+  "en": "Petition for formal assistance.",
+  "uk": "Офіційно попросити допомоги."
+ },
+ "flavor_ser.80.b": {
+  "en": "Surely our brothers in faith will assist...",
+  "uk": "Брати за вірою не залишать нас у біді…"
+ },
+ "flavor_ser.80.c": {
+  "en": "It is not over!",
+  "uk": "Це ще не кінець!"
+ },
+ "flavor_ser.80.desc": {
+  "en": "Our wars against the [GetCountry('TUR').GetLongName] have not been favorable to us. Soldiers with broken morale flee from the battlefield, omens and superstitions taking hold back home, unrest and distraught in the streets. These are but a few signs that our society and the fabric of our nation is disintegrating, falling apart, and unraveling, one step at a time. To that end, we have amassed a grand council to determine the course of our actions during the war and attempt to save our people.",
+  "uk": "[GetCountry('TUR').GetLongName] — серйозний противник, а до нас фортуна останнім часом явно повернулася спиною. Солдати, втративши волю до битви, тікають із полів битв, на вулицях панують безлади, перелякане населення скрізь бачить знамення майбутніх бід. Держава опинилася на порозі катастрофи, сама тканина нашого суспільства тріщить по швах. У столиці зібралася велика рада, яка повинна визначити стратегію воєнної кампанії й вирішити, як врятувати #L [ROOT.GetCountry.GetAdjective|l]ський#! народ від загибелі."
+ },
+ "flavor_ser.80.entry": {
+  "en": "$flavor_ser.80.title$",
+  "uk": ""
+ },
+ "flavor_ser.80.title": {
+  "en": "Crumbling Shield of the Balkans",
+  "uk": "Зламаний щит Балкан"
+ },
+ "flavor_ser.81.a": {
+  "en": "Send an alliance and donations, the banners of war will march once more!",
+  "uk": "Ми підтримаємо їх золотом і укладемо союз. Нехай військо готується до походу!"
+ },
+ "flavor_ser.81.b": {
+  "en": "Let us share our military expertise.",
+  "uk": "Треба поділитися з ними військовим досвідом."
+ },
+ "flavor_ser.81.c": {
+  "en": "A symbolic donation to assist their struggle.",
+  "uk": "Вистачить і невеликого пожертвування на військові потреби."
+ },
+ "flavor_ser.81.d": {
+  "en": "They will receive nothing!",
+  "uk": "Нічого вони не отримають!"
+ },
+ "flavor_ser.81.desc": {
+  "en": "$flavor_ser_desc_key$",
+  "uk": ""
+ },
+ "flavor_ser.81.title": {
+  "en": "[GetCountry('SER').GetNameWithNoTooltip] Requests Aid",
+  "uk": "[GetCountry('SER').GetNameWithNoTooltip] просить допомоги"
+ },
+ "flavor_ser.82.a": {
+  "en": "We are brothers in faith and arms!",
+  "uk": "Ми одновірці, а значить — брати по зброї!"
+ },
+ "flavor_ser.82.b": {
+  "en": "Our military expertise will serve their fight.",
+  "uk": "Наш військовий досвід добре послужить їм у боротьбі."
+ },
+ "flavor_ser.82.c": {
+  "en": "An offer of coin to fund their struggle.",
+  "uk": "Допоможемо їм золотом на військові потреби."
+ },
+ "flavor_ser.82.d": {
+  "en": "We cannot afford any aid...",
+  "uk": "Ми не в тому стані, щоб допомагати іншим…"
+ },
+ "flavor_ser.82.desc": {
+  "en": "$flavor_ser_desc_key$",
+  "uk": ""
+ },
+ "flavor_ser.82.title": {
+  "en": "Brotherly Assistance?",
+  "uk": "Братська допомога?"
+ },
+ "flavor_ser.83.a": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.83.b": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.83.c": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.83.d": {
+  "en": "They have forsaken us? How dare they?",
+  "uk": "Вони не бажають допомогти? Та як вони сміють!"
+ },
+ "flavor_ser.83.desc": {
+  "en": "$flavor_ser_reply_desc$",
+  "uk": ""
+ },
+ "flavor_ser.83.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle]'s Delegate Arrives",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'прислала','прислав')] відповідь"
+ },
+ "flavor_ser.84.a": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.84.b": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.84.c": {
+  "en": "$flavor_ser_response$",
+  "uk": ""
+ },
+ "flavor_ser.84.d": {
+  "en": "They have forsaken us? How is this possible?",
+  "uk": "Вони не бажають допомогти? Цього не може бути!"
+ },
+ "flavor_ser.84.desc": {
+  "en": "$flavor_ser_reply_desc$",
+  "uk": ""
+ },
+ "flavor_ser.84.title": {
+  "en": "The Delegation from [target_country.GetNameWithNoTooltip] Returns",
+  "uk": "Посол повернувся з [target_country.Custom('CL_GEN')]"
+ },
+ "flavor_ser.90.a": {
+  "en": "This monastery is destined for greatness.",
+  "uk": "Це святе місце увійде в історію."
+ },
+ "flavor_ser.90.b": {
+  "en": "Why would we need another monastery?",
+  "uk": "Навіщо нам ще один монастир?"
+ },
+ "flavor_ser.90.desc": {
+  "en": "In the heart of our nation, there exists a heavenly ravine that has grabbed the attention of our [GetCountry('SER').GetGovernment.GetRulerTitle]. During the many walks in the area that would lead to the planning of a monastery, [target_character.GetName] dreamed of it serving as a mausoleum in [target_character.GetHerHis] death.\\n\\nHowever, as time went by, the planning got more and more ambitious, envisioning not only a simple monastery that would house a few monks and nuns but one surrounded by strong walls to defend itself in case of an attack.\\n\\nShould the plan go ahead, the church of the monastery will be devoted to the Holy Trinity that has protected our nation for so long.",
+  "uk": "У самому центрі нашої держави є урочище дивовижної краси. Відвідавши ці краї, [Select_CString(target_character.IsFemale,'наша','наш')] [GetCountry('SER').GetGovernment.GetRulerTitle|l] буквально [Select_CString(target_character.IsFemale,'закохалася','закохався')] в це дивне місце. Прогулюючи околицями, [Select_CString(target_character.IsFemale,'вона мріяла','він мріяв')] побудувати тут монастир із гробницею, в якій [Select_CString(target_character.IsFemale,'вона','він')] знайде свою останню домівку.\\n\\nЗ часом [Select_CString(target_character.IsFemale,'її','його')] плани ставали дедалі амбітнішими. [GetCountry('SER').GetGovernment.GetRulerTitle] [Select_CString(target_character.IsFemale,'уявляла','уявляв')] собі не просто монастир із жменькою ченців, а повноцінну фортецю, оточену неприступними стінами.\\n\\nЯкщо ми здійснимо ці плани, монастирська церква буде присвячена заступникам нашого народу — Святій Трійці."
+ },
+ "flavor_ser.90.entry": {
+  "en": "$flavor_ser.90.title$",
+  "uk": ""
+ },
+ "flavor_ser.90.title": {
+  "en": "The Monastery of Manasija",
+  "uk": "Монастир Манасія"
+ },
+ "flavor_ser.91.a": {
+  "en": "We will celebrate our culture.",
+  "uk": "Наша культура прославиться на весь світ."
+ },
+ "flavor_ser.91.desc": {
+  "en": "Only a short period after being founded, the Monastery of Manasija, also known as Resava, has become a cultural center in [ShowProvinceDefinitionName('toplica_province')] and has slowly spread its influence all across our borders and beyond. The best manuscripts and translations are said to be done in what is known as the #italic School of Resava#!.\\n\\nKnowledge from the past is being copied, absorbed by the copyists and being taught to others. While dangerous knowledge can be discovered in this way and stand against the teachings of the Holy Church, should we stay vigilant, only the good wisdom that emanates directly from God will be taught.",
+  "uk": "Монастир Манасія, також відомий як Ресава, досить швидко став видним культурним центром провінції #TOOLTIP:PROVINCE_DEFINITION,toplica_province,X #L Топлиці#!#!. Завдяки так званій #italic Ресавській школі#!, де трудилися найкращі писарі й перекладачі держави, монастир прославився навіть за межами нашої держави.\\n\\nПереписувачі старанно копіюють старовинні манускрипти, щоб зберегти знання минулого для прийдешніх поколінь. Звісно, деякі з цих сувоїв можуть бути доволі небезпечні, часто їхній зміст суперечить ученню Святої Церкви. Ми повинні уважно стежити за тим, щоб скрипторії передавали лише благі знання, що виходять від самого Господа Бога."
+ },
+ "flavor_ser.91.entry": {
+  "en": "$flavor_ser.91.title$",
+  "uk": ""
+ },
+ "flavor_ser.91.title": {
+  "en": "The Resava School",
+  "uk": "Ресавська школа"
+ },
+ "flavor_ser_desc_key": {
+  "en": "An emissary from [GetCountry('SER').GetName] has made his way to our court. He speaks of a catastrophe gripping their war against the [GetCountry('TUR').GetLongName]. Noting that their domain currently stands as the shield of Europe against a threat from the East, they humbly ask for our assistance in their ongoing struggle...",
+  "uk": "До нашого двору прибув #L [GetCountry('SER').GetAdjective|l]ський#! посланець. Його держава опинилася в найважчому становищі — [GetCountry('TUR').GetLongName] продовжує тиснути, захисники [GetCountry('SER').Custom('CL_GEN')] тримаються з останніх сил. Якщо Балкани впадуть, загарбникам зі Сходу відкриється шлях у серце Європи. Посол смиренно просить нас про допомогу…"
+ },
+ "flavor_ser_reply_desc": {
+  "en": "After a harsh few days of travel, through rain, storms, and the constant danger of bandits across the roads, our emissary has returned from his mission to request aid in our ongoing war against the [GetCountry('TUR').GetLongName]. Hastily making his way to our courtyard, he brings forth an elegant letter carrying the seal of our correspondents...",
+  "uk": "Посланець, відправлений за допомогою проти #L [GetCountry('TUR').GetAdjective|l]ої#! загрози, нарешті повернувся назад. Його не зупинили ні дощі, ні бурі, ні зграї розбійників, яких останніми роками розвелося без ліку. Дібравшись до палацу, він дістає з дорожньої торби вишуканого листа, що несе печатку чужоземної держави…"
+ },
+ "flavor_ser_response": {
+  "en": "Their assistance is most welcome! We thank them for this.",
+  "uk": "Ця допомога вельми до речі! Ми дуже вдячні."
+ },
+ "granted_claims_stefan_uros_tt": {
+  "en": "We will be granted [ShowCasusBelliName('cb_conquer_province')] [casus_belli|e] against [ShowProvinceDefinitionName('upper_macedonia_province')], [ShowProvinceDefinitionName('lower_macedonia_province')], [ShowProvinceDefinitionName('chalkidiki_province')], [ShowProvinceDefinitionName('central_macedonia_province')] and [ShowProvinceDefinitionName('thessaly_province')]",
+  "uk": "Ми отримаємо [Concept('casus_belli', 'привід')|e] #TOOLTIP:CASUS_BELLI,cb_conquer_province,X #L «Претензії на провінцію»#!#! для війни проти #TOOLTIP:PROVINCE_DEFINITION,upper_macedonia_province,X #L Верхньої Македонії#!#!, #TOOLTIP:PROVINCE_DEFINITION,lower_macedonia_province,X #L Нижньої Македонії#!#!, #TOOLTIP:PROVINCE_DEFINITION,chalkidiki_province,X #L Халкідіків#!#! і #TOOLTIP:PROVINCE_DEFINITION,thessaly_province,X #L Фессалії#!#!"
+ },
+ "has_unlocked_novo_brdo_tt": {
+  "en": "Has unlocked the law via the #Y The [ShowLocationNameWithNoTooltip('novo_brdo')] Code#! [event|e]",
+  "uk": "Правило відкрито в рамках [Concept('event', 'події')|e] #Y «Ново-Брдоський законник»#!"
+ },
+ "ser_abdicate_throne_tt": {
+  "en": "[target_character.GetNameWithNoTooltip] will abdicate the throne",
+  "uk": "[target_character.GetNameWithNoTooltip] зречеться престолу"
+ },
+ "ser_conquest_into_empire": {
+  "en": "Should we complete the conquest of these [provinces|e] during the life of [GetCharacter('ser_stefan_dusan').GetShortNameWithNoTooltip], we will become an [ShowCountryRankName('rank_empire')] and gain the ability to proclaim our own #italic Autocephalous#! [patriarch|e]",
+  "uk": "Якщо ми зуміємо завоювати ці [Concept('provinces', 'провінції')|e], поки [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'жива', 'живий')] [GetCharacter('ser_stefan_dusan').GetShortNameWithNoTooltip], то станемо #TOOLTIP:COUNTRY_RANK,rank_empire,X #L царством#!#! і зможемо призначити власного #italic автокефального#! [Concept('patriarch', 'патріарха')|e]"
+ },
+ "ser_every_conquered_location_gets_tt": {
+  "en": "Every [conquered|e] [location|e] will suffer the following:",
+  "uk": "Кожен [Concept('conquered','завойований')|e] [Concept('location','район')|e] постраждає від таких ефектів:"
+ },
+ "ser_every_livestock_location_tt": {
+  "en": "The following will apply to all owned [ShowGoodsName('livestock')] locations:",
+  "uk": "До всіх районів у нашому володінні, де виробляється #TOOLTIP:GOODS,livestock,X #L худоба#!#!, будуть застосовані такі ефекти:"
+ },
+ "ser_every_livestock_or_wheat_location_tt": {
+  "en": "The following will apply to all owned [ShowGoodsName('wheat')] and [ShowGoodsName('livestock')] locations:",
+  "uk": "До всіх районів у нашому володінні, де виробляються #TOOLTIP:GOODS,wheat,X #L пшениця#!#! або #TOOLTIP:GOODS,livestock,X #L худоба#!#!, будуть застосовані такі ефекти:"
+ },
+ "ser_every_location_20_control_tt": {
+  "en": "Every owned [location|e] will lose [ShowNamedValue('control_severe_penalty')|+=2%] [control|e]",
+  "uk": "Усі наші [Concept('location','райони')|e] втратять [ShowNamedValue('control_severe_penalty')|+=2%] [Concept('control','контролю')|e]"
+ },
+ "ser_every_wheat_location_tt": {
+  "en": "The following will apply to all owned [ShowGoodsName('wheat')] locations:",
+  "uk": "До всіх районів у нашому володінні, де виробляється #TOOLTIP:GOODS,wheat,X #L пшениця#!#!, будуть застосовані такі ефекти:"
+ },
+ "ser_target_country_gets_flavor_ser.82_tt": {
+  "en": "The event #Y Brotherly Assistance?#! happens for [target_country.GetNameWithNoTooltip]",
+  "uk": "На території [target_country.Custom('CL_RP')] станеться подія #Y «Братська допомога?»#!"
+ },
+ "stefan_uros_conqueror_tt": {
+  "en": "[target_character.GetName] will benefit from the [ShowModifier('insatiable_ambition')] [character|e] [modifier|e] for the duration of [target_character.GetHerHis] rule",
+  "uk": "[target_character.GetName] буде володіти [Concept('modifier', 'модифікатором')|e] [Concept('character', 'персонажа')|e] #TOOLTIP:STATIC_MODIFIER,insatiable_ambition,X #V #L «Непомірні амбіції»#!#!#! протягом свого правління"
+ },
+ "variable_battle_of_kosovo_var_tt": {
+  "en": "The Battle of [ShowProvinceDefinitionName('kosovo_province')] has been Fought",
+  "uk": ""
+ },
+ "variable_had_serbian_disaster_variable_tt": {
+  "en": "Serbia has Suffered a Time of Troubles",
+  "uk": ""
+ },
+ "variable_manasija_built_tt": {
+  "en": "The Manasija Monastery has been Built",
+  "uk": ""
+ },
+ "variable_vidovdan_variable_tt": {
+  "en": "The Vidovdan is Commemorated",
+  "uk": ""
+ }
+}

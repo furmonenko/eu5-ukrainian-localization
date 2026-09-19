@@ -1,0 +1,278 @@
+{
+ "horde_civil_war.1.a": {
+  "en": "Bring me [scope_pretender.GetHerHis] head on a pike!",
+  "uk": "Принесіть мені [Select_CString(scope_pretender.IsFemale,'її', 'його')] голову на піці!"
+ },
+ "horde_civil_war.1.desc": {
+  "en": "The death of our previous ruler has left the [target_country.GetLongName] in a precarious situation. The new [target_country.Custom('GetRulerOrRegentTitle')] might have assumed the [target_country.GetAdjectiveWithNoTooltip] throne, yet [target_character.GetSheHe] lacks the unity and support of [target_character.GetHerHis] warriors. As such, [scope_pretender.GetName], a warlord within our borders, has started assembling loyalists to challenge [target_character.GetName] for [target_character.GetHerHis] throne...",
+  "uk": "Відтоді, як помер попередній правитель, [target_country.GetLongName] у скрутному становищі. Хоча на [target_country.GetAdjectiveWithNoTooltip|l]ому троні засідає [Select_CString(target_character.IsFemale,'нова', 'новий')] [target_country.Custom('GetRulerOrRegentTitle')|l], [target_character.GetName], [Select_CString(target_character.IsFemale,'вона', 'він')] не має особливої підтримки серед воїнів. Тим часом воєначальник на ім'я [scope_pretender.GetName] збирає прихильників і відкрито говорить про свої претензії на верховну владу…"
+ },
+ "horde_civil_war.1.title": {
+  "en": "The [ShowGovernmentTypeNameWithNoTooltip('steppe_horde')] Succession Crisis",
+  "uk": "Криза престолонаслідування в кочовій орді"
+ },
+ "horde_civil_war.1.tt": {
+  "en": "A number of our [provinces|e] that are dissatisfied with our rule will join the cause of [scope_pretender.GetNameWithNoTooltip]",
+  "uk": "[scope_pretender.GetNameWithNoTooltip] має підтримку кількох незадоволених нашою владою [Concept('provinces', 'провінцій')|e]"
+ },
+ "horde_civil_war.10.a": {
+  "en": "Hold an inspiring speech!",
+  "uk": "Треба виступити з надихаючою промовою!"
+ },
+ "horde_civil_war.10.b": {
+  "en": "Show them strength through combat!",
+  "uk": "Треба показати їм силу в бою!"
+ },
+ "horde_civil_war.10.c": {
+  "en": "Initiate the warriors into our battle plans.",
+  "uk": "Варто розповісти воїнам про нашу стратегію."
+ },
+ "horde_civil_war.10.desc": {
+  "en": "With the brutal civil war ongoing, many treacherous soldiers have proven their disloyalty by joining [target_character.GetName]. However, for every traitor, one can find a true warrior of the [target_country.GetLongName]. Those who remain loyal have sworn their undying allegiance towards [target_ruler.GetName], and have gathered at [target_location.GetName] to seek inspiration from their great [target_country.GetGovernment.GetRulerTitle].",
+  "uk": "Коли [target_character.GetName] [Select_CString(target_character.IsFemale,'розпочала', 'розпочав')] громадянську війну, багато наших воїнів показали своє зрадницьке нутро й перекинулися на бік узурпатора. На щастя, на кожного зрадника знайшовся справжній і вірний син #L [target_country.GetAdjective|l]ої#! землі. Ці бійці присягнулися битися, поки [target_ruler.GetName] не знищить останнього бунтівника в країні. Безліч відданих воїнів зібралися в [target_location.Custom('LR_PREP')|l] [target_location.GetName], щоб послухати, що скаже їм [target_country.GetGovernment.GetRulerTitle|l]."
+ },
+ "horde_civil_war.10.title": {
+  "en": "Loyalty of the Warriors",
+  "uk": "Воїнська відданість"
+ },
+ "horde_civil_war.100.a": {
+  "en": "Long live the [target_country.GetGovernment.GetRulerTitle]!",
+  "uk": "Хай живе [target_country.GetGovernment.GetRulerTitle|l]!"
+ },
+ "horde_civil_war.100.a.tt": {
+  "en": "Based on our [crown_power|e] we will gain the following:",
+  "uk": "Залежно від рівня [Concept('crown_power', 'влади правителя')|e] ми отримаємо такі ефекти:"
+ },
+ "horde_civil_war.100.desc": {
+  "en": "At long last, the period of infighting and civil wars has found its end. Under the firm rulership of [target_ruler.GetName], the [target_country.GetLongName] has stabilized into a realm that can withstand the test of time.",
+  "uk": "Період міжусобних воєн нарешті добіг кінця. На землях #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! запанував мир, а [target_ruler.GetName] твердою рукою веде наш народ до стабільності та процвітання."
+ },
+ "horde_civil_war.100.desc.no_horde": {
+  "en": "The old laws of the hordes are no more! [target_ruler.GetName] established the [target_country.GetLongName], abolishing many old traditions of the [ShowGovernmentTypeName('steppe_horde')] and solidifying the position of the [target_country.GetGovernment.GetRulerTitle]. As a result of this, the old succession crisis from our nomadic days has been resolved.",
+  "uk": "#TOOLTIP:GOVTYPE,steppe_horde,X #L Кочова орда#!#! вже ніколи не буде колишньою. [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'скасувала', 'скасував')] старі закони степів, віковічні традиції #L [target_country.GetAdjective|l]ого#! народу назавжди відійшли в минуле. Тепер [target_country.GetLongName] — єдина держава, а [target_country.GetGovernment.GetRulerTitle|l] може не побоюватися амбіцій кочових князьків. Затяжна криза престолонаслідування швидко сходить нанівець."
+ },
+ "horde_civil_war.100.title": {
+  "en": "End of the [ShowGovernmentTypeNameWithNoTooltip('steppe_horde')] Succession Crisis",
+  "uk": "Кінець кризи престолонаслідування в кочовій орді"
+ },
+ "horde_civil_war.1000.a": {
+  "en": "Reinforce these patrols!",
+  "uk": "Треба посилити прикордонні дозори!"
+ },
+ "horde_civil_war.1000.b": {
+  "en": "We will have to live without it...",
+  "uk": "Доведеться якось потерпіти…"
+ },
+ "horde_civil_war.1000.b.tt": {
+  "en": "Every neighboring [country|e] will become aware of our current weak position...",
+  "uk": "Усі сусідні [Concept('country', 'держави')|e] дізнаються про слабкість наших кордонів…"
+ },
+ "horde_civil_war.1000.desc": {
+  "en": "Usually the borders of [from_country.GetName] are regularly patrolled by our mounted scouts. However, the chaos caused by the ambition of [target_character.GetName] undermines our border security. It is only a matter of time before any upstarting [ShowGovernmentTypeName('steppe_horde')] or any other state falls into our state without warning...",
+  "uk": "Навіть у найгірші часи кордони #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! завжди залишалися під пильним наглядом кінних дозорних. Але тепер, коли [target_character.GetName] [Select_CString(target_character.IsFemale,'розпочала', 'розпочав')] боротьбу за трон, країна занурилася в хаос, і безпека кордонів опинилася під загрозою. Рано чи пізно якась осмілена #TOOLTIP:GOVTYPE,steppe_horde,X #L кочова орда#!#! обов'язково вторгнеться в наші володіння…"
+ },
+ "horde_civil_war.1000.title": {
+  "en": "Unsecured Borders",
+  "uk": "Кордони без захисту"
+ },
+ "horde_civil_war.1001.a": {
+  "en": "Let us stick to normal raids for now.",
+  "uk": "Краще обмежимося дрібними набігами."
+ },
+ "horde_civil_war.1001.a.tt": {
+  "en": "[ShowScriptedEffectForScope('horde_raid_location',SCOPE.sLocation('target').GetLocation.MakeScope.Self)]\\n#Y These effects also apply to all other neighboring [locations|e] of [from_country.GetName]#!",
+  "uk": "[ShowScriptedEffectForScope('horde_raid_location',SCOPE.sLocation('target').GetLocation.MakeScope.Self)]\\n#Y Ці ефекти також застосуються до всіх сусідніх [Concept('locations', 'районів')|e] #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_RP')|L]#!#!#!"
+ },
+ "horde_civil_war.1001.b": {
+  "en": "We should strike while they are weak!",
+  "uk": "Нападемо, поки вони знесилені!"
+ },
+ "horde_civil_war.1001.desc": {
+  "en": "Our neighbor, the [from_country.GetLongName], is struggling through their [ShowDisasterName('horde_civil_war')]. While tragic for their [from_country.GetGovernment.GetRulerTitle], it is an excellent opportunity for us. Their borders are lacking any kind of defense nor scouting patrols; their lands are ripe for a raiding party... or maybe an invasion altogether?",
+  "uk": "Наші сусіди — [from_country.GetLongName] — переживають не найкращі часи. #TOOLTIP:DISASTER_TYPE,horde_civil_war,X #L Громадянська війна в орді#!#! стала для них суворим випробуванням. Поки їхній [from_country.GetGovernment.GetRulerTitle|l] безпорадно спостерігає за тим, як палахкотить [Select_CString(from_country.GetGovernment.GetRuler.IsFemale,'її', 'його')] країна, перед нами відкриваються спокусливі можливості. [from_country.GetAdjectiveWithNoTooltip]і кордони залишилися без захисту, і ніхто не зможе зупинити наші набіги, не кажучи вже про повномасштабне вторгнення…"
+ },
+ "horde_civil_war.1001.title": {
+  "en": "Weakness of [from_country.GetNameWithNoTooltip]",
+  "uk": "Слабкість [from_country.Custom('CL_GEN')]"
+ },
+ "horde_civil_war.1002.a": {
+  "en": "They are right. We should prepare for war!",
+  "uk": "І вони мають рацію. Готуватимемося до війни!"
+ },
+ "horde_civil_war.1002.b": {
+  "en": "We cannot afford this in our current situation.",
+  "uk": "Зараз ми не можемо собі цього дозволити."
+ },
+ "horde_civil_war.1002.b.tt": {
+  "en": "Every owned [location|e] which borders [from_country.GetName] gains [ShowModifier('recovering_from_raids')] for #Y 4 years#!, giving the following effects:\\n[ShowModifierEffect('recovering_from_raids')]",
+  "uk": "Усі належні нам [Concept('location', 'райони')|e] на кордоні з #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_TP')|L]#!#! на #Y 4 роки#! отримують модифікатор «[ShowModifier('recovering_from_raids')]», який дає такі ефекти:\\n[ShowModifierEffect('recovering_from_raids')]"
+ },
+ "horde_civil_war.1002.desc": {
+  "en": "The barbarians of the [from_country.GetLongName] are struggling in their [ShowDisasterName('horde_civil_war')]. Our borders, once terrorized by their constant raids, can at long last recover. Some of our advisors, however, want to go further: according to them, the only way to maintain peace is through the destruction of the [from_country.GetLongNameWithNoTooltip] once and for all.",
+  "uk": "#TOOLTIP:DISASTER_TYPE,horde_civil_war,X #L Громадянська війна в орді#!#! стала суворим випробуванням для #L [from_country.GetAdjective|l]их#! дикунів. Вони перестали турбувати наші кордони постійними набігами, і прикордонні землі нарешті отримали бажану перепочинок. Але деяким нашим радникам цього недостатньо. Вони вважають, що [from_country.GetLongName] — перешкода для міцного миру, тому ця держава має зникнути."
+ },
+ "horde_civil_war.1002.title": {
+  "en": "The Internal Struggles of [from_country.GetNameWithNoTooltip]",
+  "uk": "[from_country.Custom('CL_ACC')] роздирає внутрішній конфлікт"
+ },
+ "horde_civil_war.11.a": {
+  "en": "At least it is not the pretender...",
+  "uk": ""
+ },
+ "horde_civil_war.11.desc": {
+  "en": "The lack of a recognized ruler within our country has led to more intrigues and rebellion. Despite [target_ruler.GetName]'s best attempt to stabilize the situation, [target_ruler.GetHerHis] lack of authority was [target_ruler.GetHerHis] undoing as [target_character.GetName] and [target_character.GetHerHis] followers have shortly overthrown [target_ruler.GetShortNameWithNoTooltip] and has taken over as our new ruler.",
+  "uk": ""
+ },
+ "horde_civil_war.11.title": {
+  "en": "Horde Coup",
+  "uk": ""
+ },
+ "horde_civil_war.2.a": {
+  "en": "Only over our dead, rotting bodies!",
+  "uk": "Тільки через наші трупи!"
+ },
+ "horde_civil_war.2.b": {
+  "en": "So are the laws of the steppes.",
+  "uk": "Такий закон степів."
+ },
+ "horde_civil_war.2.c": {
+  "en": "And so the struggle continues...",
+  "uk": "Отже, боротьба триває…"
+ },
+ "horde_civil_war.2.desc": {
+  "en": "With the sudden death of [dead_ruler.GetName], the [target_country.GetLongName] witnesses a quick chain of bloody succession.",
+  "uk": "[dead_ruler.GetName] раптово [Select_CString(dead_ruler.IsFemale,'померла', 'помер')]. [target_country.GetLongName] у стрімкій безодні кривавої міжусобиці."
+ },
+ "horde_civil_war.2.desc.normal_succession": {
+  "en": "$horde_civil_war.2.desc$ Although [target_ruler.GetName] is the rightful successor by our law, [target_character.GetName] tries to exploit the chaos of the succession, and attempts to usurp the throne. A confrontation against [target_character.GetHerHim] might avoid the death of [target_ruler.GetShortNameWithNoTooltip], but will result in a civil war...",
+  "uk": "$horde_civil_war.2.desc$ За нашими законами [Select_CString(target_ruler.IsFemale,'новою правителькою має', 'новим правителем має')] стати [target_ruler.GetName], однак [target_character.GetName] [Select_CString(target_character.IsFemale,'має намір', 'має намір')] скористатися безладдям і узурпувати трон. [target_ruler.GetShortNameWithNoTooltip] [Select_CString(target_ruler.IsFemale,'опинилася', 'опинився')] перед нелегким вибором: смерть від руки узурпатора або громадянська війна…"
+ },
+ "horde_civil_war.2.desc.pretender_ruler": {
+  "en": "$horde_civil_war.2.desc$ Although a rival to the rule of [dead_ruler.GetShortName] during [dead_ruler.GetHerHis] lifetime, [target_character.GetNameWithNoTooltip] has been chosen as the rightful [target_country.GetGovernment.GetRulerTitle] of the [target_country.GetFlavorRank].\\n\\nBut [target_character.GetHerHis] ascension to the throne does not remain unchallenged, as [scope_pretender.GetName] has gathered warriors to press [scope_pretender.GetHerHis] own claims for the [target_country.GetAdjectiveWithNoTooltip] throne.",
+  "uk": "$horde_civil_war.2.desc$ Поки [dead_ruler.GetShortName] [Select_CString(dead_ruler.IsFemale,'була жива', 'був живий')], [Select_CString(dead_ruler.IsFemale,'вона', 'він')] і [target_character.GetNameWithNoTooltip] були суперниками, однак на смертному одрі [Select_CString(dead_ruler.IsFemale,'колишня', 'колишній')] [target_country.GetGovernment.GetRulerTitle|l] призначив [Select_CString(target_character.IsFemale,'її своєю наступницею', 'його своїм наступником')].\\n\\nНа жаль, не всі готові виконувати волю [Select_CString(dead_ruler.IsFemale,'покійної правительки', 'покійного правителя')]. [scope_pretender.GetName] збирає воїнів і заявляє про власні претензії на [target_country.GetAdjectiveWithNoTooltip|l]ий трон."
+ },
+ "horde_civil_war.2.title": {
+  "en": "A New [target_country.GetGovernment.GetRulerTitle] Emerges!",
+  "uk": "[Select_CString(target_character.IsFemale,'Нова', 'Новий')] [target_country.GetGovernment.GetRulerTitle|l]!"
+ },
+ "horde_civil_war.3.a": {
+  "en": "No succession crisis finds an easy end...",
+  "uk": "Криза престолонаслідування рідко закінчується швидко…"
+ },
+ "horde_civil_war.3.desc": {
+  "en": "The rival [target.GetName] has found [target.GetHerHis] end! However, the very real threat remains nonetheless, as the uneasy warriors rally behind a new aspiring warlord's banner. [scope_pretender.GetName] intends to continue the war for the [target_country.GetAdjective] throne!",
+  "uk": "[target.GetName] нарешті [Select_CString(target.IsFemale,'мертва', 'мертвий')]! Однак загроза нікуди не поділася — непокірні воїни вже збираються під прапорами чергового самозванця. [scope_pretender.GetName] [Select_CString(scope_pretender.IsFemale,'має намір', 'має намір')] продовжувати боротьбу за [target_country.GetAdjectiveWithNoTooltip|l]ий трон!"
+ },
+ "horde_civil_war.3.title": {
+  "en": "Rise of a New Warlord",
+  "uk": "Поява нового претендента"
+ },
+ "horde_civil_war.4.a": {
+  "en": "Another vulture who tries to claim the throne.",
+  "uk": "Ще один жадібний до влади стерв'ятник…"
+ },
+ "horde_civil_war.4.b": {
+  "en": "Our authority is nearly completely restored!",
+  "uk": "Наша влада майже відновлена!"
+ },
+ "horde_civil_war.4.desc": {
+  "en": "The long struggle against our bitter enemy, [target_character.GetName] has finally found its end. With the complete annexation of [target.GetName], the [target_country.GetLongName] prevails, and the authority of [target_ruler.GetName] is restored! [target_character.GetShortNameWithNoTooltip] has been brought to justice, and shortly afterward to the sword as [target_character.GetSheHe] deserves it.",
+  "uk": "[target_country.GetLongName] — переможець у затяжному протистоянні із заклятим ворогом. Завоювавши #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_ACC')|L]#!#!, [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'довела', 'довів')] своє право на трон, а [target_character.GetName] [Select_CString(target_character.IsFemale,'закінчила', 'закінчив')] життя на плахі."
+ },
+ "horde_civil_war.4.desc.end": {
+  "en": "$horde_civil_war.4.desc$\\n\\nAfter such devastating defeat by the pretender, any further attempts on the [target_country.GetAdjectiveWithNoTooltip] throne seem to have ceased. Stability has once again returned to [target_country.GetName].",
+  "uk": "$horde_civil_war.4.desc$\\n\\nПісля такої нищівної поразки ніхто більше не наважується претендувати на [target_country.GetAdjectiveWithNoTooltip|l]ий трон. На землях #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#! знову встановлюється порядок."
+ },
+ "horde_civil_war.4.desc.new": {
+  "en": "$horde_civil_war.4.desc$\\n\\nYet, once one warlord is defeated, a new one aspires to continue [target_character.GetHerHis] efforts. [scope_pretender.GetName] has rallied the scattered warriors behind [scope_pretender.GetHerHis] banner to challenge the [target_country.GetGovernment.GetRulerTitle] once more.",
+  "uk": "$horde_civil_war.4.desc$\\n\\nНа жаль, на місце кожного поваленого узурпатора приходить новий претендент. Зібравши під своїми прапорами вцілілих бунтівників, [scope_pretender.GetName] заявляє про власні претензії на трон. [target_country.GetGovernment.GetRulerTitle] знову вирушає в похід…"
+ },
+ "horde_civil_war.4.title": {
+  "en": "Victory of the [target_country.GetGovernment.GetRulerTitle]!",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] перемагає в боротьбі!"
+ },
+ "horde_civil_war.5.a": {
+  "en": "May this vile pretender suffocate on [target_character.GetHerHis] pride.",
+  "uk": "Хай [Select_CString(target_character.IsFemale,'ця підла узурпаторка', 'цей підлий узурпатор')] подавиться своїм тріумфом!"
+ },
+ "horde_civil_war.5.b": {
+  "en": "This is the end of [target_country.GetNameWithNoTooltip]...",
+  "uk": "Це кінець [target_country.Custom('CL_GEN')]…"
+ },
+ "horde_civil_war.5.desc": {
+  "en": "Despite [target_ruler.GetName]'s best efforts, the restless warriors of [target_character.GetName] were too much for [target_ruler.GetHerHim] to handle. In the end, the once great [target_country.GetLongName] fell to the relentless assault of its pretenders, ending the [target_country.GetAdjectiveWithNoTooltip] Civil War in a resounding defeat for the [target_country.GetGovernment.GetRulerTitle]...",
+  "uk": "[target_country.GetLongName] і [target_ruler.GetName] чинили опір як могли, але [target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] бунтівні воїни виявилися надто сильними. [target_country.GetGovernment.GetRulerTitle] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! не [Select_CString(target_ruler.IsFemale,'встояла', 'встояв')] під шаленим натиском суперників. [target_country.GetAdjectiveWithNoTooltip]а громадянська війна завершилася [Select_CString(target_ruler.IsFemale,'її', 'його')] поразкою..."
+ },
+ "horde_civil_war.5.title": {
+  "en": "Defeat of the [target_country.GetGovernment.GetRulerTitle]!",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] зазнає поразки!"
+ },
+ "horde_civil_war.6.a": {
+  "en": "Let them come!",
+  "uk": "Хай тільки спробують!"
+ },
+ "horde_civil_war.6.desc": {
+  "en": "The old order of the [target_country.GetLongName] is no more, and [target_character.GetName] has become the new ruler of the steppes. However, [target_character.GetHerHis] actions have caused much suffering and bloodshed, and other warlords may intend to try their own coups against the new [target.GetGovernment.GetRulerTitle]...",
+  "uk": "Зі старими порядками покінчено, тепер [target_country.GetLongName] — зовсім інша країна, а степом править [target_character.GetName]. На жаль, у боротьбі за трон [Select_CString(target_character.IsFemale,'нова', 'новий')] [target.GetGovernment.GetRulerTitle|l] [Select_CString(target_character.IsFemale,'пролила', 'пролив')] ріки крові й [Select_CString(target_character.IsFemale,'завдала', 'завдав')] нашому народові величезних страждань. Інші воєначальники жадають помсти й теж подумують про узурпацію влади…"
+ },
+ "horde_civil_war.6.title": {
+  "en": "The Rule of [target_character.GetShortNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] приходить до влади"
+ },
+ "horde_civil_war.7.a": {
+  "en": "We bow before no one!",
+  "uk": "Ніхто не поставить нас на коліна!"
+ },
+ "horde_civil_war.7.a.tt": {
+  "en": "Every [pop|e] in [target_province.GetName] joins [target_rebel.GetName]",
+  "uk": "Група бунтівників «[target_rebel.GetName]» отримає підтримку всіх [Concept('pop', 'груп населення')|e] у провінції [target_province.GetName]"
+ },
+ "horde_civil_war.7.b": {
+  "en": "We have no other choice...",
+  "uk": "Іншого виходу в нас немає…"
+ },
+ "horde_civil_war.7.desc": {
+  "en": "The conflict between [target_ruler.GetName] and the pretender [target_character.GetName] has put a dent in the efforts to centralize the [target_country.GetName]. The warriors of [target_province.GetName] demand their autonomy independently from the [target_country.GetGovernment.GetRulerTitle], and threaten with rebellion if [target_ruler.GetShortNameWithNoTooltip] does not oblige.",
+  "uk": "Розпочавши міжусобну боротьбу, [target_ruler.GetName] і узурпатор [target_character.GetName] підірвали багаторічні зусилля з централізації #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, і тепер воїни в провінції [target_province.GetName] вимагають незалежності. Якщо [target_ruler.GetShortNameWithNoTooltip] не піде їм назустріч, група бунтівників «[target_rebel.GetName]» отримає нових союзників…"
+ },
+ "horde_civil_war.7.title": {
+  "en": "The [target_province.GetNameWithNoTooltip] Rebellion",
+  "uk": "Повстання в провінції [target_province.GetNameWithNoTooltip]"
+ },
+ "horde_civil_war.7.title.generic": {
+  "en": "Provincial Rebellion",
+  "uk": "Повстання в провінції"
+ },
+ "horde_civil_war.8.a": {
+  "en": "Such are the rules of the steppes.",
+  "uk": "Такі закони степів."
+ },
+ "horde_civil_war.8.desc": {
+  "en": "A mere moment of carlessness; a split second of inattention, and the flame of life gets snuffed out in an instance. That is the fate of [target_ruler.GetName] whose life was taken with an arrow to the throat by [target_character.GetName]. While tragic in any lesser state, for the [target_country.GetLongName] it has become a normalcy.",
+  "uk": "Іноді достатньо відволіктися лише на секунду, щоб позбутися життя. [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'переконалася', 'переконався')] в цьому особисто — мить необачності, і в [Select_CString(target_ruler.IsFemale,'її', 'його')] шию встромилася стріла, яку [Select_CString(target_character.IsFemale,'випустила', 'випустив')] [target_character.GetName]. У будь-якій іншій країні таке вважали б трагедією, але це [target_country.GetLongName], і подібні випадки тут у порядку речей."
+ },
+ "horde_civil_war.8.title": {
+  "en": "The Murder of [target_ruler.GetNameWithNoTooltip]",
+  "uk": "[target_ruler.GetNameWithNoTooltip] [Select_CString(target_ruler.IsFemale,'вбита', 'вбитий')]!"
+ },
+ "horde_civil_war.8.title.generic": {
+  "en": "Political Assassination",
+  "uk": "Політичне вбивство"
+ },
+ "horde_civil_war.9.a": {
+  "en": "Repay their lost profit.",
+  "uk": "Ми виплатимо їм компенсацію."
+ },
+ "horde_civil_war.9.b": {
+  "en": "They can demand much when the day is long.",
+  "uk": "Хай собі вимагають."
+ },
+ "horde_civil_war.9.desc": {
+  "en": "Usually, the steppes within our [target_country.GetFlavorRank] are safe routes for the [target_country.GetAdjective] traders and their business partners. However, with the escalating hostilities between [target_ruler.GetName] and [target_character.GetName], the caravans have become targets to marauding rebels. Naturally, our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] is less than tolerant of the current situation, and demands compensation.",
+  "uk": "Перетинаючи наші степи, #L [target_country.GetAdjective|l]і#! купці та їхні ділові партнери завжди почувалися в повній безпеці. Однак відтоді, як [target_ruler.GetName] і [target_character.GetName] зчепилися в боротьбі за владу, торгові каравани перетворилися на ласу мішень для бунтівних банд. Не варто й казати, що наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вкрай незадоволені ситуацією, що склалася. Вони вимагають компенсації збитків."
+ },
+ "horde_civil_war.9.title": {
+  "en": "Trade Collapse",
+  "uk": "Занепад торгівлі"
+ }
+}

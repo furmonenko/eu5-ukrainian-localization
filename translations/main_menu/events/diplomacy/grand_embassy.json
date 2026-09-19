@@ -1,0 +1,166 @@
+{
+ "grand_embassy.1.a": {
+  "en": "Embark on a journey through Europe",
+  "uk": "Вирушаймо в подорож Європою."
+ },
+ "grand_embassy.1.b": {
+  "en": "Our country holds the knowledge we need",
+  "uk": "Наша держава і так має всі потрібні знання."
+ },
+ "grand_embassy.1.desc": {
+  "en": "An idea has been put forth at court to send [ROOT.GetCountry.GetGovernment.GetRuler.GetName] on a journey through Europe together with a large delegation - a Grand Embassy - in order to seek better relations with other European leaders - especially those who share common enemies with us. Another benefit could be the chance to study the technological advancements made in [ShowSubContinentName('western_europe')] in order to help us to modernize.",
+  "uk": "При дворі обговорюють чудову ідею — направити до Європи Велике посольство. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Сама', 'Сам')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] вирушить у подорож європейськими державами, щоб налагодити відносини з їхніми правителями — особливо з тими, хто має з нами спільних ворогів. Серед іншого, ми зможемо вивчити останні технологічні досягнення #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!."
+ },
+ "grand_embassy.1.title": {
+  "en": "Grand Embassy",
+  "uk": "Велике посольство"
+ },
+ "grand_embassy.2.a": {
+  "en": "Invite [from.GetGovernment.GetRuler.GetHerHim] to stay",
+  "uk": "Запросимо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'її', 'його')] затриматися в нас."
+ },
+ "grand_embassy.2.b": {
+  "en": "Politely turn [from.GetGovernment.GetRuler.GetHerHim] away",
+  "uk": "Ввічливо порекомендуємо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] продовжувати свій шлях."
+ },
+ "grand_embassy.2.c": {
+  "en": "Send [from.GetGovernment.GetRuler.GetHerHim] packing!",
+  "uk": "Проженемо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'її', 'його')] геть!"
+ },
+ "grand_embassy.2.desc": {
+  "en": "A grand embassy has arrived from [from.GetName] led by [from.GetGovernment.GetRuler.GetName] [from.GetGovernment.GetRuler.GetHerselfHimself]. [from.GetGovernment.GetRuler.GetSheHeCap] is traveling the continent in order to secure better relations with other European states - especially those who share a common enemies. How should we great [from.GetGovernment.GetRuler.GetHerHim]?",
+  "uk": "До нас прибуло Велике посольство з #ONCLICK:COUNTRY,[From.Custom('CL_tt')] #TOOLTIP:COUNTRY,[From.Custom('CL_tt')],X [From.Custom('CL_GEN')|L]#!#!, його очолює [Select_CString(from.GetGovernment.GetRuler.IsFemale,'сама', 'сам')] [from.GetGovernment.GetRuler.GetName]. [Select_CString(from.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] подорожує континентом, сподіваючись покращити відносини з іншими європейськими державами — особливо з тими, з якими у [From.Custom('CL_GEN')] є спільні вороги. Як ми [Select_CString(from.GetGovernment.GetRuler.IsFemale,'її', 'його')] зустрінемо?"
+ },
+ "grand_embassy.2.title": {
+  "en": "Grand Embassy Arrives in [ROOT.GetCountry.GetCapital.GetName]",
+  "uk": "Місто [ROOT.GetCountry.GetCapital.GetName] приймає Велике посольство"
+ },
+ "grand_embassy.3.a": {
+  "en": "Invite [from.GetGovernment.GetRuler.GetHerHim] to stay and study our governmental institutions",
+  "uk": "Дозволимо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] вивчити наші державні інституції."
+ },
+ "grand_embassy.3.a.tt": {
+  "en": "[from.GetGovernment.GetRuler.GetName] will learn about our government institutions",
+  "uk": "[from.GetGovernment.GetRuler.GetName] багато дізнається про наші державні інституції"
+ },
+ "grand_embassy.3.b": {
+  "en": "Invite [from.GetGovernment.GetRuler.GetHerHim] to stay and study our army",
+  "uk": "Дозволимо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] вивчити нашу військову справу."
+ },
+ "grand_embassy.3.b.tt": {
+  "en": "[from.GetGovernment.GetRuler.GetName] will learn about our army organization",
+  "uk": "[from.GetGovernment.GetRuler.GetName] багато дізнається про устрій нашої армії"
+ },
+ "grand_embassy.3.c": {
+  "en": "Invite [from.GetGovernment.GetRuler.GetHerHim] to stay and study our navy",
+  "uk": "Дозволимо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] вивчити наш флот."
+ },
+ "grand_embassy.3.c.tt": {
+  "en": "[from.GetGovernment.GetRuler.GetName] will learn about our naval organization",
+  "uk": "[from.GetGovernment.GetRuler.GetName] багато дізнається про устрій нашого флоту"
+ },
+ "grand_embassy.3.d": {
+  "en": "[from.GetGovernment.GetRuler.GetSheHe|U] has overstayed [from.GetGovernment.GetRuler.GetHerHis] welcome...",
+  "uk": "[Select_CString(from.GetGovernment.GetRuler.IsFemale,'Їй', 'Йому')] давно час вирушати кудись подалі…"
+ },
+ "grand_embassy.3.desc": {
+  "en": "Overwhelmed by our warm welcome, [from.GetGovernment.GetRuler.GetName] has informed us that he wishes to extend his visit in [ROOT.GetCountry.GetCapital.GetName]. In [from.GetGovernment.GetRuler.GetHerHis] quest to modernize [from.GetLongName], [from.GetGovernment.GetRuler.GetSheHe] is most eager to get a chance to study the technological advancements of [ShowSubContinentName('western_europe')].",
+  "uk": "[from.GetGovernment.GetRuler.GetName], [Select_CString(from.GetGovernment.GetRuler.IsFemale,'зрадівши', 'зрадівши')] нашому теплому прийому, бажає продовжити своє перебування в місті [ROOT.GetCountry.GetCapital.GetName]. [Select_CString(from.GetGovernment.GetRuler.IsFemale,'Її', 'Його')] особливо цікавить можливість вивчити технологічні новинки #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!. [from.GetLongName] — держава, яка зуміє досягти швидкого прогресу завдяки всім досягненням. У це щиро вірить її [from.GetGovernment.GetRulerTitle|l]."
+ },
+ "grand_embassy.3.title": {
+  "en": "Grand Embassy in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "Велике посольство в місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
+ },
+ "grand_embassy.4.a": {
+  "en": "Let us stay and study [target_institution.GetNameWithNoTooltip]",
+  "uk": "[target_institution.GetNameWithNoTooltip|U] — ось що потрібно вивчити насамперед."
+ },
+ "grand_embassy.4.b": {
+  "en": "Let us stay and study their army",
+  "uk": "Залишимося й вивчимо їхню армію."
+ },
+ "grand_embassy.4.c": {
+  "en": "Let us stay and study their navy",
+  "uk": "Залишимося й вивчимо їхній флот."
+ },
+ "grand_embassy.4.d": {
+  "en": "No, we have other countries to visit",
+  "uk": "Ні, нам потрібно відвідати ще чимало держав."
+ },
+ "grand_embassy.4.desc": {
+  "en": "Hearing of [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s reforms to modernize the [ROOT.GetCountry.GetLongName], [embassy_country.GetName] has graciously invited us to extend our stay in [embassy_country.GetCapital.GetName] to take the opportunity to study their technological advancements.",
+  "uk": "Дізнавшись, що [ROOT.GetCountry.GetGovernment.GetRuler.GetName] з великим інтересом ставиться до #L [embassy_country.GetAdjective|l]их#! технічних досягнень, уряд #ONCLICK:COUNTRY,[embassy_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[embassy_country.Custom('CL_tt')],X [embassy_country.Custom('CL_GEN')|L]#!#! великодушно дозволив нашому посольству затриматися в місті [embassy_country.GetCapital.GetName]. #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! завдяки такій можливості з високою ймовірністю вдасться провести швидку модернізацію."
+ },
+ "grand_embassy.4.e": {
+  "en": "The time has come to return home",
+  "uk": "Час повертатися додому."
+ },
+ "grand_embassy.4.title": {
+  "en": "Generous Offer to Stay",
+  "uk": "Дозвіл залишитися"
+ },
+ "grand_embassy.5.a": {
+  "en": "Very well, we have other countries to visit",
+  "uk": "Що ж, нам потрібно відвідати ще чимало держав."
+ },
+ "grand_embassy.5.b": {
+  "en": "The time has come to return home",
+  "uk": "Час повертатися додому."
+ },
+ "grand_embassy.5.desc": {
+  "en": "In our attempts to modernize [ROOT.GetCountry.GetName], the study of technological advancements in [ShowSubContinentName('western_europe')] could be valuable. Unfortunately, a request to prolong our stay in [embassy_country.GetCapital.GetName] in order to do so has been denied.",
+  "uk": "Запорукою швидкої модернізації #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! є вивчення технологічних новинок #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!. На жаль, #L [embassy_country.GetAdjective|l]а#! влада відмовилася піти нам назустріч і дозволити затриматися в місті [embassy_country.GetCapital.GetName] для вивчення їхніх досягнень."
+ },
+ "grand_embassy.5.title": {
+  "en": "Request to Stay Turned Down",
+  "uk": "У проханні залишитися відмовлено"
+ },
+ "grand_embassy.6.a": {
+  "en": "Our governmental institutions will benefit from this!",
+  "uk": "Це піде на користь нашим державним інституціям!"
+ },
+ "grand_embassy.6.b": {
+  "en": "Our armed forces will benefit from this!",
+  "uk": "Це піде на користь нашим збройним силам!"
+ },
+ "grand_embassy.6.c": {
+  "en": "Our navy will benefit from this!",
+  "uk": "Це піде на користь нашому флоту!"
+ },
+ "grand_embassy.6.desc": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s extended visit to [embassy_country.GetCapital.GetName] to personally study their technological advancements seems to have been worth the while.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'затрималася', 'затримався')] в місті [embassy_country.GetCapital.GetName], щоб особисто вивчити #L [embassy_country.GetAdjective|l]і#! технологічні новинки. Цей час було витрачено зовсім не марно."
+ },
+ "grand_embassy.6.title": {
+  "en": "Extended Visit Pays Off",
+  "uk": "Тривалий візит приніс свої плоди"
+ },
+ "grand_embassy.7.a": {
+  "en": "We still have other countries to visit",
+  "uk": "Нам потрібно відвідати ще чимало держав."
+ },
+ "grand_embassy.7.b": {
+  "en": "The time has come to return home",
+  "uk": "Час повертатися додому."
+ },
+ "grand_embassy.7.desc": {
+  "en": "Our visit to [embassy_country.GetCapital.GetCapitalName] has been a success but the time has come to move on. The question is where to?",
+  "uk": "Візит до міста [embassy_country.GetCapital.GetCapitalName] був надзвичайно успішним, але тепер нам знову час у дорогу. Куди ми вирушимо далі?"
+ },
+ "grand_embassy.7.title": {
+  "en": "Grand Embassy Successful",
+  "uk": "Успіх Великого посольства"
+ },
+ "invited_to_study_institutions": {
+  "en": "Invited to Study Institutions",
+  "uk": "Запрошення вивчити інституції"
+ },
+ "received_grand_embassy": {
+  "en": "Received Grand Embassy",
+  "uk": "Велике посольство прийнято"
+ },
+ "rejected_grand_embassy": {
+  "en": "Rejected Grand Embassy",
+  "uk": "Велике посольство відправлено геть"
+ }
+}

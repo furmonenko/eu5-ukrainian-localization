@@ -1,0 +1,478 @@
+{
+ "decline_of_mali.1.a": {
+  "en": "Dark times are ahead...",
+  "uk": "Попереду важкий час…"
+ },
+ "decline_of_mali.1.desc": {
+  "en": "It started unnoticed, but day by day, month by month, year by year, an unease feeling has spread throughout the lands of the [ROOT.GetCountry.GetLongName]. The grass on the fields is not as green as before, the products brought by the merchants to the markets are more scarce, and traveling outside of villages and settlements becomes increasingly perilous. How will the [ROOT.GetCountry.GetGovernment.GetRulerTitle], sitting at [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] court, face this ominous period?",
+  "uk": "Для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! все починалося непомітно. Линули дні, змінювали один одного місяці та роки, а серед жителів зростало відчуття тривоги. Трава на полях пожовкла і втратила колишню зелень, на ринках продавалося дедалі менше товарів, а виходити за межі поселень ставало дедалі небезпечніше. Що ж робитиме [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], сидячи у своєму розкішному палаці? Як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'вона', 'він')] зустріне ці темні часи?"
+ },
+ "decline_of_mali.1.title": {
+  "en": "The Decline of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Занепад [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "decline_of_mali.10.a": {
+  "en": "Traitor!",
+  "uk": "[Select_CString(mal_pretender_leader.IsFemale,'Зрадниця', 'Зрадник')]!"
+ },
+ "decline_of_mali.10.b": {
+  "en": "Defend the palace!",
+  "uk": "Захищайте палац!"
+ },
+ "decline_of_mali.10.desc": {
+  "en": "The Sandaki is the highest counselor on our court, handling the most important position on our cabinet. Only the most exceptional and loyal of our servers ever reach this position, as being key to the governance of the country. However, the general situation of decline has also reached our court, and now more of our counselors have their position not because of their merit and loyalty, but through manipulation, bribery, and nepotism. To our despair, the current Sandaki [mal_pretender_leader.GetName] has demonstrated to be of this kind, plotting against [ROOT.GetCountry.GetGovernment.GetRuler.GetName]!",
+  "uk": "На посаду сандаки, верховного радника двору, завжди призначали найвідданіших і найздібніших царедворців. Сандаки володіє великою владою і несе величезну відповідальність, на його плечах лежить уся вага управління країною. На жаль, занепад, що панує навколо, не оминув і нашого двору. Дедалі більше радників отримують свої посади не за відданість і заслуги, а через маніпуляції, підкуп і кумівство. На жах двору, [Select_CString(mal_pretender_leader.IsFemale,'нинішня', 'нинішній')] сандаки [mal_pretender_leader.GetName] [Select_CString(mal_pretender_leader.IsFemale,'виявилася', 'виявився')] людиною саме такого ґатунку. [Select_CString(mal_pretender_leader.IsFemale,'Вона', 'Він')] плете нитки змови, і [ROOT.GetCountry.GetGovernment.GetRuler.GetName] ось-ось стане його жертвою!"
+ },
+ "decline_of_mali.10.entry": {
+  "en": "Sandaki Usurpation of The Current Year",
+  "uk": ""
+ },
+ "decline_of_mali.10.title": {
+  "en": "Sandaki Usurpation of [GetCurrentYear]",
+  "uk": "Змова сандаки ([GetCurrentYear])"
+ },
+ "decline_of_mali.11.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
+  "uk": ""
+ },
+ "decline_of_mali.11.b": {
+  "en": "Retaliate immediately!",
+  "uk": "Негайно завдати удару у відповідь!"
+ },
+ "decline_of_mali.11.desc": {
+  "en": "The [ShowCultureName('mossi')] are people that settled some time ago to the East of our country, beyond the lands of the [ShowCultureName('bobo')], the [ShowCultureName('bambara')], and the [ShowCultureName('dogon')]. Their clans confederate around a few towns, although their traditional style of life is semi-nomadic. What differentiates them from other neighbors are their usual raids, which are intrinsical to their culture. And now is our turn to suffer them, as they try to take advantage of our weakness...",
+  "uk": "Не так давно #TOOLTIP:CULTURE,$mossi_tt$,X #L моссійський#!#! народ переселився на землі на схід від нашої країни, за володіннями #TOOLTIP:CULTURE,$bobo_tt$,X #L бобоських#!#!, #TOOLTIP:CULTURE,$bambara_tt$,X #L бамбарських#!#! і #TOOLTIP:CULTURE,$dogon_tt$,X #L догонських#!#! племен. Їхні клани традиційно ведуть напівкочовий спосіб життя, однак у них є й кілька міст. Від інших наших сусідів моссі відрізняє пристрасть до розбійницьких набігів — це невід'ємна частина їхньої культури. І зараз, коли наша країна в кризі, метою їхніх набігів стали ми…"
+ },
+ "decline_of_mali.11.entry": {
+  "en": "The Mossi Raids",
+  "uk": ""
+ },
+ "decline_of_mali.11.title": {
+  "en": "The [ShowCultureNameWithNoTooltip('mossi')] Raids",
+  "uk": "Моссійські набіги"
+ },
+ "decline_of_mali.12.a": {
+  "en": "We must re-assert our authority!",
+  "uk": "Потрібно відновити нашу владу!"
+ },
+ "decline_of_mali.12.a.tt": {
+  "en": "Every [ShowCultureName('soninke')] [pop|e] in each [location|e] of [ShowAreaName('ghana_area')] which are culturally dominated by [ShowCultureName('soninke')] joins [mal_separatists_rebels.GetName] and loses [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:CULTURE,$soninke_tt$,X #L сонінкські#!#! [Concept('pop', 'групи населення')|e], що мешкають у [Concept('location', 'районах')|e] #TOOLTIP:AREA,ghana_area,X #L Гани#!#!, де домінує #L [ShowCultureName('soninke')|l]а#! культура, втрачають [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e], [mal_separatists_rebels.GetName|l] заручаються їхньою підтримкою"
+ },
+ "decline_of_mali.12.b": {
+  "en": "Let them go uncontested.",
+  "uk": "Ми не будемо їх утримувати."
+ },
+ "decline_of_mali.12.b.tt": {
+  "en": "Every [location|e] in [ShowAreaName('ghana_area')] which is culturally dominated by [ShowCultureName('soninke')] joins the newly emerging state in [diawara_capital.GetName]",
+  "uk": "Усі [Concept('location', 'райони')|e] #TOOLTIP:AREA,ghana_area,X #L Гани#!#!, де домінує #TOOLTIP:CULTURE,$soninke_tt$,X #L сонінкська#!#! культура, стають частиною нової держави зі столицею в місті [diawara_capital.GetName]."
+ },
+ "decline_of_mali.12.desc": {
+  "en": "To the North-West of our country, the [ShowCultureName('soninke')] settle the lands, founders of the long-gone Empire of Ghana. Even if diminished in their power and influence, they are still proud people, and the weakening of our power has not been unnoticed by them. One of their leaders, [diawara_ruler.GetName], has achieved to unify [diawara_ruler.GetHerHis] people, defying our rule in the region.",
+  "uk": "На північний захід від нас мешкають #TOOLTIP:CULTURE,$soninke_tt$,X #L сонінкські#!#! племена, що колись стояли біля витоків давно зниклої імперії Гана. Нині сонінке вже не такі сильні й впливові, як раніше, але вони досі залишаються гордим і войовничим народом. Криза, що охопила нашу державу, не залишилася непоміченою — [Select_CString(diawara_ruler.IsFemale,'одна', 'один')] з їхніх вождів на ім'я [diawara_ruler.GetName] [Select_CString(diawara_ruler.IsFemale,'зуміла', 'зумів')] об'єднати свій народ і [Select_CString(diawara_ruler.IsFemale,'кинула', 'кинув')] виклик нашій владі в регіоні."
+ },
+ "decline_of_mali.12.entry": {
+  "en": "The Diawara Dynasty Revolt",
+  "uk": ""
+ },
+ "decline_of_mali.12.title": {
+  "en": "The [ShowDynastyNameWithNoTooltip('diawara_dynasty')] Revolt",
+  "uk": "Повстання династії Діавара"
+ },
+ "decline_of_mali.13.a": {
+  "en": "This is not good...",
+  "uk": "Погані справи…"
+ },
+ "decline_of_mali.13.desc": {
+  "en": "The [ShowCultureName('tuareg')], a nomadic Amazigh people inhabiting the Sahara, are revolting against [ROOT.GetCountry.GetName]'s rule. They take advantage of the weakened state of our country to assert their independence and establish their own dominions in the northern territories. The rebellion puts additional strain on our resources, further diminishing our influence...",
+  "uk": "Племена, що населяють Сахару, #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькі#!#! повстали проти #L [ROOT.GetCountry.GetAdjective|l]ого#! панування. Скориставшись тимчасовою слабкістю нашої держави, цей кочовий берберський народ проголосив незалежність північних окраїн. Їхній заколот став черговим ударом по #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькому#!#! престижу та впливу [ROOT.GetCountry.Custom('CL_GEN')]…"
+ },
+ "decline_of_mali.13.entry": {
+  "en": "Tuareg Invasion",
+  "uk": ""
+ },
+ "decline_of_mali.13.title": {
+  "en": "[ShowCultureNameWithNoTooltip('tuareg')] Invasion",
+  "uk": "Туарезьке вторгнення"
+ },
+ "decline_of_mali.14.a": {
+  "en": "Suppress the [ShowCultureNameWithNoTooltip('fulbe')]!",
+  "uk": "Розчавити фульбських бунтівників!"
+ },
+ "decline_of_mali.14.a.tt": {
+  "en": "Every [ShowCultureName('fulbe')] [pop|e] in each [location|e] of [ShowAreaName('futa_tooro_area')] which are culturally dominated by [ShowCultureName('fulbe')] joins [mal_separatists_rebels.GetName] and loses [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбські#!#! [Concept('pop', 'групи населення')|e], що мешкають у [Concept('location', 'районах')|e] #TOOLTIP:AREA,futa_tooro_area,X #L Фута Торо#!#!, де домінує #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбська#!#! культура, втрачають [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e], [mal_separatists_rebels.GetName] заручаються їхньою підтримкою"
+ },
+ "decline_of_mali.14.b": {
+  "en": "Let them have their little state.",
+  "uk": "Ну-ну. Хай пограють у самостійність."
+ },
+ "decline_of_mali.14.b.tt": {
+  "en": "Every [location|e] in [ShowAreaName('futa_tooro_area')] which is culturally dominated by [ShowCultureName('fulbe')] joins the newly emerging state of [GetCountry('FUL').GetName]",
+  "uk": "Усі [Concept('location', 'райони')|e] #TOOLTIP:AREA,futa_tooro_area,X #L Фута Торо#!#!, де домінує #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбська#!#! культура, стають частиною нової держави [GetCountry('FUL').GetName]"
+ },
+ "decline_of_mali.14.desc": {
+  "en": "The [ShowCultureName('fulbe')] are mostly pastoralist people that inhabit the middle course of Senegal River, with the [ShowCultureName('wolof')] to their West and the [ShowCultureName('soninke')] to their East. Their traditional way of living has made them easy prey for foreign rule. However, a strong leader, [fulo_ruler.GetName], has risen among their people, claiming for a new land for [fulo_ruler.GetHerHis] people, called [GetCountry('FUL').GetName].",
+  "uk": "#TOOLTIP:CULTURE,$fulbe_tt$,X #L Фульбський#!#! народ здавна займається скотарством у середній течії річки Сенегал. Їхні землі затиснуті між #TOOLTIP:CULTURE,$wolof_tt$,X #L волофськими#!#! племенами на заході та #TOOLTIP:CULTURE,$soninke_tt$,X #L сонінкськими#!#! володіннями на сході. Фульбе століттями вперто дотримувалися традиційного укладу, і це робило їх легкою здобиччю для більш розвинутих сусідів. Але тепер серед них з'явився могутній лідер на ім'я [fulo_ruler.GetName]. Завоювавши навколишні території, [Select_CString(fulo_ruler.IsFemale,'вона проголосила', 'він проголосив')] народження нової держави — #ONCLICK:COUNTRY,[GetCountry('FUL').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FUL').Custom('CL_tt')],X [GetCountry('FUL').Custom('CL_GEN')|L]#!#!."
+ },
+ "decline_of_mali.14.entry": {
+  "en": "Rise of $FUL$",
+  "uk": ""
+ },
+ "decline_of_mali.14.title": {
+  "en": "Rise of [GetCountry('FUL').GetNameWithNoTooltip]",
+  "uk": "Народження [GetCountry('FUL').Custom('CL_GEN')]"
+ },
+ "decline_of_mali.15.a": {
+  "en": "Re-assert our authority in this region!",
+  "uk": "Негайно відновити нашу владу в регіоні!"
+ },
+ "decline_of_mali.15.a.tt": {
+  "en": "Every [ShowCultureName('fulbe')], [ShowCultureName('balanta')], [ShowCultureName('manjak')] or [ShowCultureName('jola')] [pop|e] in each [location|e] of [ShowAreaName('gambia_area')] which are culturally dominated by [ShowCultureName('fulbe')], [ShowCultureName('balanta')], [ShowCultureName('manjak')] or [ShowCultureName('jola')] join several factions representing their cultures and loses [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбські#!#!, #TOOLTIP:CULTURE,$balanta_tt$,X #L балантські#!#!, #TOOLTIP:CULTURE,$manjak_tt$,X #L манджакські#!#! та #TOOLTIP:CULTURE,$jola_tt$,X #L джолійські#!#! [Concept('pop', 'групи населення')|e], що мешкають у [Concept('location', 'районах')|e] #TOOLTIP:AREA,gambia_area,X #L Гамбії#!#!, де домінує #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбська#!#!, #TOOLTIP:CULTURE,$balanta_tt$,X #L балантська#!#!, #TOOLTIP:CULTURE,$manjak_tt$,X #L манджакська#!#! або #TOOLTIP:CULTURE,$jola_tt$,X #L джолійська#!#! культура, приєднаються до фракцій, що представляють їхні культури, і втратять [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "decline_of_mali.15.b": {
+  "en": "It was a matter of time until this region breaks free.",
+  "uk": "Відділення цього регіону було лише питанням часу."
+ },
+ "decline_of_mali.15.b.tt": {
+  "en": "Every [location|e] in [ShowAreaName('gambia_area')] which is culturally dominated by [ShowCultureName('fulbe')], [ShowCultureName('balanta')], [ShowCultureName('manjak')] or [ShowCultureName('jola')] joins the newly emerging state of [GetCountry('KAB').GetName]",
+  "uk": "Усі [Concept('location', 'райони')|e] #TOOLTIP:AREA,gambia_area,X #L Гамбії#!#!, де домінує #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбська#!#!, #TOOLTIP:CULTURE,$balanta_tt$,X #L балантська#!#!, #TOOLTIP:CULTURE,$manjak_tt$,X #L манджакська#!#! або #TOOLTIP:CULTURE,$jola_tt$,X #L джолійська#!#! культура, стають частиною нової держави [GetCountry('KAB').GetName]"
+ },
+ "decline_of_mali.15.desc": {
+  "en": "The province of [ShowProvinceDefinitionName('kaabu_province')] hosts different people, such as the [ShowCultureName('fulbe')], [ShowCultureName('balanta')], [ShowCultureName('manjak')], and the [ShowCultureName('jola')]. Its peripherical situation has determined that the weakening of the central power is felt in an even more intense way there, with almost no authorities present. Led by [kaabu_ruler.GetName], these diverse people have risen, convinced that they will drive their own destiny.",
+  "uk": "Населення окраїнної провінції #TOOLTIP:PROVINCE_DEFINITION,kaabu_province,X #L Каабу#!#! дуже різноманітне, там мешкають #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбські#!#!, #TOOLTIP:CULTURE,$balanta_tt$,X #L балантські#!#!, #TOOLTIP:CULTURE,$manjak_tt$,X #L манджакські#!#! та #TOOLTIP:CULTURE,$jola_tt$,X #L джолійські#!#! племена. Через її віддалене розташування слабкість центральної влади відчувається там навіть сильніше, ніж в інших областях країни. У цих умовах хтось на ім'я [kaabu_ruler.GetName] [Select_CString(kaabu_ruler.IsFemale,'підняла', 'підняв')] племена на бунт, пообіцявши, що відтепер вони самі стануть господарями своєї долі."
+ },
+ "decline_of_mali.15.entry": {
+  "en": "Rise of $KAB$",
+  "uk": ""
+ },
+ "decline_of_mali.15.title": {
+  "en": "Rise of [GetCountry('KAB').GetNameWithNoTooltip]",
+  "uk": "Народження [GetCountry('KAB').Custom('CL_GEN')]"
+ },
+ "decline_of_mali.16.a": {
+  "en": "Seek out the support of [turkish_country.GetNameWithNoTooltip].",
+  "uk": "Попросимо допомоги у [turkish_country.Custom('CL_GEN')]."
+ },
+ "decline_of_mali.16.a.tt": {
+  "en": "We will try to negotiate an [alliance|e] with [turkish_country.GetName]",
+  "uk": "Ми спробуємо укласти [Concept('alliance', 'союз')|e] з владою #ONCLICK:COUNTRY,[turkish_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[turkish_country.Custom('CL_tt')],X [turkish_country.Custom('CL_GEN')|L]#!#!"
+ },
+ "decline_of_mali.16.b": {
+  "en": "Seek out the support of [iberian_country.GetNameWithNoTooltip].",
+  "uk": "Попросимо допомоги у [iberian_country.Custom('CL_GEN')]."
+ },
+ "decline_of_mali.16.b.tt": {
+  "en": "We will try to negotiate an [alliance|e] with [iberian_country.GetName]",
+  "uk": "Ми спробуємо укласти [Concept('alliance', 'союз')|e] з владою #ONCLICK:COUNTRY,[iberian_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[iberian_country.Custom('CL_tt')],X [iberian_country.Custom('CL_GEN')|L]#!#!"
+ },
+ "decline_of_mali.16.c": {
+  "en": "On second thought, we can handle our problems ourselves.",
+  "uk": "Ми зможемо впоратися власними силами."
+ },
+ "decline_of_mali.16.desc": {
+  "en": "Decades of war have brought our country to its knees. Desperate times call for desperate measures, so [ruler_scope.GetName], ruler of our once proud and mighty empire has taken an unprecedented decision. We are planning to send envoys to one of the greatest powers, pleading for support. Now our court debates which country should we ask for help...",
+  "uk": "Роки безперервних воєн поставили нашу країну на коліна. Відчайдушні часи вимагають відчайдушних заходів, і [ruler_scope.GetName], [Select_CString(ruler_scope.IsFemale,'правителька', 'правитель')] нашої колись гордої та могутньої імперії, [Select_CString(ruler_scope.IsFemale,'пішла', 'пішов')] на безпрецедентний крок. Ми відправимо послів до двору однієї з великих держав і благатимемо її про допомогу. Придворні відчайдушно сперечаються, до кого краще звернутися за підтримкою…"
+ },
+ "decline_of_mali.16.entry": {
+  "en": "Desperation of $MAL$",
+  "uk": ""
+ },
+ "decline_of_mali.16.title": {
+  "en": "Desperation of [GetCountry('MAL').GetNameWithNoTooltip]",
+  "uk": "[GetCountry('MAL').GetNameWithNoTooltip] на краю загибелі"
+ },
+ "decline_of_mali.17.a": {
+  "en": "Maybe we can profit from this situation.",
+  "uk": "Цей союз обіцяє добрі зиски."
+ },
+ "decline_of_mali.17.a.tt": {
+  "en": "We will accept an [alliance|e] with [from_country.GetName]",
+  "uk": "Ми укладемо [Concept('alliance', 'союз')|e] з владою #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!"
+ },
+ "decline_of_mali.17.b": {
+  "en": "We have little to gain from [from_country.GetNameWithNoTooltip]'s survival.",
+  "uk": "Порятунок [from_country.Custom('CL_GEN')] нічого нам не дасть."
+ },
+ "decline_of_mali.17.b.tt": {
+  "en": "We will reject an [alliance|e] with [from_country.GetName]",
+  "uk": "Ми відмовимося укладати [Concept('alliance', 'союз')|e] з владою #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!"
+ },
+ "decline_of_mali.17.desc": {
+  "en": "The once proud and mighty [from_country.GetLongName] is in a desperate situation, after decades of internal problems, infighting and decadence. They have resorted to a desperate measure, sending us some envoys asking for aid that would help them restore order in the country. We could benefit from sending some assistance to them, although it could also be in our interest to refuse to help them.",
+  "uk": "[from_country.GetLongName] у відчайдушному становищі, хоча колись це була велика й горда держава. Довгі роки занепаду, міжусобиць і внутрішніх проблем підірвали її сили. Владі довелося вдатися до крайніх заходів — вони прислали до нас посольство з проханням допомогти відновити порядок у країні. Якщо піти їм назустріч, це може принести неабиякі вигоди… З іншого боку, відмова теж може послужити нашим інтересам."
+ },
+ "decline_of_mali.17.title": {
+  "en": "[from_country.GetNameWithNoTooltip] requests an Alliance",
+  "uk": "[from_country.GetNameWithNoTooltip] хоче укласти союз"
+ },
+ "decline_of_mali.18.a": {
+  "en": "Finally some good news!",
+  "uk": "Нарешті добрі новини!"
+ },
+ "decline_of_mali.18.desc": {
+  "en": "Our friends from [ally_country.GetName] have accepted our pleas! With their assistance, we might be able to revert the decline of our country.",
+  "uk": "Наші #L [ally_country.GetAdjective|l]і#! друзі прислухалися до наших благань! Завдяки їхній підтримці ми зможемо зупинити розпад своєї держави."
+ },
+ "decline_of_mali.18.entry": {
+  "en": "Ally Country accepts the Alliance!",
+  "uk": ""
+ },
+ "decline_of_mali.18.title": {
+  "en": "[ally_country.GetNameWithNoTooltip] accepts the Alliance!",
+  "uk": "[ally_country.GetNameWithNoTooltip] вступає в союз!"
+ },
+ "decline_of_mali.19.a": {
+  "en": "When it rains, it pours...",
+  "uk": "Біда ніколи не приходить сама…"
+ },
+ "decline_of_mali.19.desc": {
+  "en": "Despite the efforts of our envoys, [ally_country.GetName] has refused to send any assistance to us. This might not be our end, but it has certainly pushed us one step closer to the abyss.",
+  "uk": "Попри всі зусилля наших послів, [ally_country.GetName] не бажає нам допомагати. Хай це ще не кінець, але ми опинилися на крок ближче до прірви…"
+ },
+ "decline_of_mali.19.entry": {
+  "en": "Ally Country rejects the Alliance",
+  "uk": ""
+ },
+ "decline_of_mali.19.title": {
+  "en": "[ally_country.GetNameWithNoTooltip] rejects the Alliance",
+  "uk": "[ally_country.GetNameWithNoTooltip] відхиляє пропозицію союзу"
+ },
+ "decline_of_mali.2.a": {
+  "en": "Glory to [ROOT.GetCountry.GetNameWithNoTooltip]!",
+  "uk": "Пишаємося [ROOT.GetCountry.Custom('CL_INST')]!"
+ },
+ "decline_of_mali.2.b": {
+  "en": "In the end, our once great empire has fallen...",
+  "uk": "І все ж наша велика імперія впала…"
+ },
+ "decline_of_mali.2.desc.a": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] has struggled for years, facing menaces of each type and condition. However, this has strengthened our country, and guided by the right and just rulership of our [ROOT.GetCountry.GetGovernment.GetRulerTitle], we have overcome the difficult times, ready to claim the position we deserve in the world, we, the mighty [ROOT.GetCountry.GetLongName]!",
+  "uk": "Наша країна зіткнулася з найважчими випробуваннями, багато років на [ROOT.GetCountry.Custom('rank_ru_ACC')|l] обрушувалися всі мислимі нещастя та негаразди. Але труднощі лише загартували нашу державу! [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Наша мудра і справедлива', 'Наш мудрий і справедливий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'провела', 'провів')] нас через суворі роки, і тепер ми готові зайняти своє місце під сонцем. [ROOT.GetCountry.GetLongName] — велика сила!"
+ },
+ "decline_of_mali.2.desc.b": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] has struggled for years, facing menaces of each type and condition. They have been too many and too burdensome to fight off, and we have slowly lost grip over our former lands and the peoples that inhabited them, being reduced to a shadow of what our once mighty country was.",
+  "uk": "Наша країна зіткнулася з найважчими випробуваннями, багато років на [ROOT.GetCountry.Custom('rank_ru_ACC')|l] обрушувалися всі мислимі нещастя та негаразди. Ця боротьба підірвала сили #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, ми поступово втрачали владу над колишніми територіями та підкореними племенами, зрештою перетворившись на бліду тінь колись великої держави…"
+ },
+ "decline_of_mali.2.desc.zzz": {
+  "en": "Through actions and fortunate events, [ROOT.GetCountry.GetName] has survived the worst to come. Although we are no longer an empire of significance, we at least have ensured a future for the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] people.",
+  "uk": "Завдяки розумним рішенням влади #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а також кільком щасливим подіям, країна зуміла пережити найгірші випробування. І хай ми більше не є імперією, з якою рахуються абсолютно всі — але [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ий народ житиме."
+ },
+ "decline_of_mali.2.title.a": {
+  "en": "The New Rise of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Новий розквіт [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "decline_of_mali.2.title.b": {
+  "en": "The Fall of $MAL$",
+  "uk": "Падіння $MAL$"
+ },
+ "decline_of_mali.2.title.zzz": {
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] Survives!",
+  "uk": "[ROOT.GetCountry.Custom('CL_ACC')] не зламати!"
+ },
+ "decline_of_mali.2.zzz": {
+  "en": "At least we have not been eradicated...",
+  "uk": "Принаймні нас не винищили вщент…"
+ },
+ "decline_of_mali.20.a": {
+  "en": "Restore control over the situation!",
+  "uk": "Відновити контроль над ситуацією!"
+ },
+ "decline_of_mali.20.a.tt": {
+  "en": "The [ShowCultureName('songhai')] population of every owned location in [ShowRegionName('sahel_region')] loses [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [pop_satisfaction|e] and joins the [mal_separatists_rebels.GetName]",
+  "uk": "#TOOLTIP:CULTURE,$songhai_tt$,X #L Сонгайські#!#! [Concept('pop', 'групи населення')|e] в усіх наших районах #TOOLTIP:REGION,sahel_region,X #L Сахелю#!#! втрачають [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e], [mal_separatists_rebels.GetName|l] заручаються їхньою підтримкою"
+ },
+ "decline_of_mali.20.desc": {
+  "en": "[ShowLocationName('gao')] is the main center of the [ShowCultureName('songhai')] people, being the main town after the Niger River Bend up to the lands of the [ShowCultureName('hausa')]. The [ShowCultureNameWithNoTooltip('songhai')] are proud and fierce, and the disorder and infighting in which our country has fallen apart have convinced their leaders that our rule over them has come to an end. This could become a dangerous menace for our future if they succeed in their rebellion...",
+  "uk": "#TOOLTIP:LOCATION,$gao_tt$,X #L Гао#!#! — це центр #TOOLTIP:CULTURE,$songhai_tt$,X #L сонгайської#!#! землі та головне місто в середній течії річки Нігер — від вигину і до володінь #TOOLTIP:CULTURE,$hausa_tt$,X #L хауських#!#! племен. Сонгайські вожді відомі своєю гордовитістю та нестримним норовом. До них дійшли чутки про міжусобиці, що роздирають #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!, і вони одразу вирішили, що наша країна більше не владна над ними. Якщо повстання закінчиться успіхом, вони можуть перетворитися на серйозну загрозу…"
+ },
+ "decline_of_mali.20.entry": {
+  "en": "Gao rebels against $ALI$",
+  "uk": ""
+ },
+ "decline_of_mali.20.title": {
+  "en": "[ShowLocationNameWithNoTooltip('gao')] rebels against [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Гао повстає проти [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "decline_of_mali.3.a": {
+  "en": "Fight that damned pretender!",
+  "uk": "Розчавити [Select_CString(mal_pretender_leader.IsFemale,'прокляту самозванку', 'проклятого самозванця')]!"
+ },
+ "decline_of_mali.3.a.tt": {
+  "en": "The [pops|e] of [target_location.GetProvinceDefinition.GetName] join the [mal_pretender_rebels.GetName] and lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pops', 'Групи населення')|e] у провінції [target_location.GetProvinceDefinition.GetName] втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e], [mal_pretender_rebels.GetName|l] заручаються їхньою підтримкою"
+ },
+ "decline_of_mali.3.b": {
+  "en": "[mal_pretender_leader.GetNameWithNoTooltip] might have a better claim, indeed...",
+  "uk": "Можливо, [mal_pretender_leader.GetNameWithNoTooltip] і справді має права на трон…"
+ },
+ "decline_of_mali.3.desc": {
+  "en": "Amidst the power vacuum, a charismatic individual from [target_location.GetName] steps forward, claiming to be a long-lost relative of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] and the rightful heir to the throne. This pretender is gaining support from discontented factions within the [ROOT.GetCountry.GetLongName], who view this individual as a viable alternative to rule the country, garnering the support of influential nobles, military commanders, and religious figures who see an opportunity to advance their own interests.",
+  "uk": "У вакуумі влади, що утворився, про себе [Select_CString(mal_pretender_leader.IsFemale,'заявила одна жінка', 'заявив один чоловік')] з [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Оголосивши себе давно [Select_CString(mal_pretender_leader.IsFemale,'зниклою родичкою', 'зниклим родичем')] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нашої правительки', 'нашого правителя')], [Select_CString(mal_pretender_leader.IsFemale,'вона', 'він')] стверджує, що [ROOT.GetCountry.GetLongName] — [Select_CString(mal_pretender_leader.IsFemale,'її по праву законної спадкоємиці', 'його по праву законного спадкоємця')]. [Select_CString(mal_pretender_leader.IsFemale,'Харизматична претендентка', 'Харизматичний претендент')] користується великою популярністю серед незадоволених, багато хто бачить у [Select_CString(mal_pretender_leader.IsFemale,'ній', 'ньому')] гідну кандидатуру на посаду [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'правительки', 'правителя')]. [Select_CString(mal_pretender_leader.IsFemale,'Її', 'Його')] підтримали впливові аристократи, могутні воєначальники та релігійні авторитети, які розраховують скористатися ситуацією у власних інтересах."
+ },
+ "decline_of_mali.3.title": {
+  "en": "Rise of a Pretender",
+  "uk": "Поява претендента"
+ },
+ "decline_of_mali.4.a": {
+  "en": "Those filthy traitors!",
+  "uk": "Підлі зрадники!"
+ },
+ "decline_of_mali.4.b": {
+  "en": "Assert our authority over the army!",
+  "uk": "Відновити владу над армією!"
+ },
+ "decline_of_mali.4.b.tt": {
+  "en": "The [pops|e] of [target_province.GetName] join the [mal_provoked_military_forces.GetName] and lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pops', 'Групи населення')|e] у провінції [target_province.GetName] втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e], [mal_provoked_military_forces.GetName.GetName|l] заручаються їхньою підтримкою"
+ },
+ "decline_of_mali.4.desc": {
+  "en": "The [target_country.GetLongName] was built upon the military victories won by its mighty troops and brave generals. Nowadays, however, incompetent military commanders rise to positions of power, appointed through nepotism or favoritism rather than merit, plaguing the army with deep-rooted factionalism and internal divisions. Loyalties become divided, weakening the effectiveness and unity of the armed forces, and causing further infighting. This has been a significant issue in the province of [target_province.GetName] where incompetent yet influential men of the military gather in [target_location.GetName] to plot against the [target_country.GetFlavorRank]...",
+  "uk": "[target_country.GetLongName] — держава, яка здавна пишається своєю могутньою армією, відважні полководці забезпечили [target_country.Custom('rank_ru_DAT')|l] чимало блискучих перемог. На жаль, останніми роками на командні посади дедалі частіше призначають бездарностей, які зробили кар'єру завдяки знайомствам і родинним зв'язкам. Як наслідок, армія перетворилася на інструмент боротьби між придворними фракціями. Внутрішні конфлікти підірвали лояльність і боєздатність військ, що призвело до нового витка міжусобиць. Характерним прикладом стала армія провінції [target_province.GetName]. Її командири, люди впливові, але цілком некомпетентні, з'їхалися до [target_location.Custom('LR_ACC')|l] [target_location.GetName], де плетуть змову проти [target_country.Custom('rank_ru_GEN')|l]…"
+ },
+ "decline_of_mali.4.title": {
+  "en": "Unreliable Military",
+  "uk": "Розвал армії"
+ },
+ "decline_of_mali.5.a": {
+  "en": "Grant them autonomy.",
+  "uk": "Дамо їм самоврядування."
+ },
+ "decline_of_mali.5.b": {
+  "en": "Suppress them.",
+  "uk": "Придушимо протести."
+ },
+ "decline_of_mali.5.desc": {
+  "en": "As [ROOT.GetCountry.GetName]'s central authority weakens, disgruntled local rulers and provincial elites begin to challenge the [ROOT.GetCountry.GetFlavorRank]'s control. They believe that their resources and labor are being exploited for the benefit of other regions, while their own economic development is neglected. This perception fosters grievances and bolsters their unrest, making them refuse to pay tribute while demanding to have their local powers rule over their land. This internal dissent is further fracturing the unity of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "З послабленням #L [ROOT.GetCountry.GetAdjective|l]ої#! центральної влади незадоволені провінційні магнати дедалі частіше діють всупереч інтересам [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Вони переконані, що уряд експлуатує їхні володіння, забираючи ресурси та робочу силу заради розвитку інших регіонів. Таке переконання призводить до відкритої непокори — регіональні еліти відмовляються платити данину і вимагають самоврядування на підвладних їм територіях. Ці чвари ще більше підривають внутрішню єдність [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "decline_of_mali.5.title": {
+  "en": "Unrest in [target_province.GetNameWithNoTooltip]",
+  "uk": "Заворушення в провінції [target_province.GetNameWithNoTooltip]"
+ },
+ "decline_of_mali.5.title.fallback": {
+  "en": "Provincial Unrest",
+  "uk": "Заворушення в провінції"
+ },
+ "decline_of_mali.6.a": {
+  "en": "Execute [mal_target_character.GetNameWithNoTooltip] as the main plotter!",
+  "uk": "[Select_CString(mal_target_character.IsFemale,'Головна змовниця', 'Головний змовник')] — це [mal_target_character.GetNameWithNoTooltip]! Стратити [Select_CString(mal_target_character.IsFemale,'її', 'його')]!"
+ },
+ "decline_of_mali.6.b": {
+  "en": "This is unsustainable, flee from the capital...",
+  "uk": "Так тривати не може, час тікати зі столиці…"
+ },
+ "decline_of_mali.6.c": {
+  "en": "How horrible!",
+  "uk": "Який жах!"
+ },
+ "decline_of_mali.6.desc": {
+  "en": "Within the opulent halls of the court, a web of political rivalries, secret alliances, and power struggles unfolds, threatening the stability and integrity of the [ROOT.GetCountry.GetLongName]. Factions form, each vying for influence, power, and control over the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s decisions. These factions consist of ambitious nobles, advisors, and influential figures who employ manipulation, bribery, and blackmail to gain power, secure their positions, and advance their personal agendas. The conspirators carefully strategize their moves, seeking opportunities to exploit or manipulate [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s trust and decisions.",
+  "uk": "За розкішними фасадами палаців плететься павутина політичних інтриг, таємних союзів і прихованої боротьби за владу. Це таємне протистояння серйозно загрожує єдності та стабільності [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Численні фракції суперничають за владу, вплив і можливість контролювати рішення [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'правительки', 'правителя')]. За допомогою маніпуляцій, підкупу та шантажу амбітні аристократи, радники та придворні зміцнюють своє становище і переслідують особисті інтереси. Змовники ретельно продумують кожен свій крок і не зупиняться, поки [ROOT.GetCountry.GetGovernment.GetRuler.GetName] не опиниться під їхнім повним контролем, а отже, і [ROOT.GetCountry.GetLongName]."
+ },
+ "decline_of_mali.6.title": {
+  "en": "Court Intrigues in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]і придворні інтриги"
+ },
+ "decline_of_mali.7.a": {
+  "en": "Ignore these claims.",
+  "uk": "Не будемо звертати уваги на плітки."
+ },
+ "decline_of_mali.7.b": {
+  "en": "Make a show of strength.",
+  "uk": "Влаштуємо демонстрацію сили."
+ },
+ "decline_of_mali.7.desc": {
+  "en": "Doubts and controversies surrounding the legitimacy of [ruler_character.GetName] arise, casting a shadow of uncertainty and instability over the [ROOT.GetCountry.GetLongName]. Conspiracy theories circulate among the populace, rumors suggesting secret alliances, hidden identities, or illicit means used to ascend to the throne. These conspiracy theories gain traction among the people, leading to widespread doubt and mistrust in our ruler.",
+  "uk": "[ROOT.GetCountry.GetLongName] під загрозою — [ruler_character.GetName] стрімко втрачає легітимність в очах підданих. Народ засумнівався в [Select_CString(ruler_character.IsFemale,'її', 'його')] правах на престол, а відсутність впевненості в завтрашньому дні провокує зростання нестабільності. Всі говорять про змови, шепочуться про таємні союзи, обговорюють загадкових особистостей і незаконні методи, за допомогою яких [Select_CString(ruler_character.IsFemale,'вона зійшла', 'він зійшов')] на трон — і що божевільніша теорія, то популярніша вона в народі. Довіра до [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нашої правительки', 'нашого правителя')] досягла мінімуму."
+ },
+ "decline_of_mali.7.title": {
+  "en": "Legitimacy Questioned",
+  "uk": "Легітимність під питанням"
+ },
+ "decline_of_mali.8.a": {
+  "en": "This is our moment to strike!",
+  "uk": "Це наш шанс завдати удару!"
+ },
+ "decline_of_mali.8.desc": {
+  "en": "Fortune favors us! The once mighty realm of [GetCountry('MAL').GetName] is seeing one of its most troublesome times - an opportunity that we cannot ignore!",
+  "uk": "Удача на нашому боці! [GetCountry('MAL').GetName], колись могутнє царство, переживає зараз важкі часи. Таку можливість не можна втратити!"
+ },
+ "decline_of_mali.8.title": {
+  "en": "Weakness of [GetCountry('MAL').GetNameWithNoTooltip]",
+  "uk": "Слабкість [GetCountry('MAL').Custom('CL_GEN')]"
+ },
+ "decline_of_mali.9.a": {
+  "en": "Stabilize the country.",
+  "uk": "Зміцнимо стабільність у країні."
+ },
+ "decline_of_mali.9.b": {
+  "en": "Recover our legitimacy.",
+  "uk": "Відновимо легітимність влади."
+ },
+ "decline_of_mali.9.c": {
+  "en": "Improve our relationship with the estates.",
+  "uk": "Поліпшимо відносини зі станами."
+ },
+ "decline_of_mali.9.desc": {
+  "en": "The civil strife and infighting that is devastating our country has come to a temporal halt, as we have been able to restore some order over it. We do not know if this situation is going to last, or if our enemies are just regrouping and gaining momentum to challenge again our rule. In any case, we should take advantage of this opportunity, trying to restore some of our damaged authority.",
+  "uk": "Заворушення та міжусобиці, що так довго спустошували нашу країну, на час затихли, і нам вдалося відновити подобу порядку. Важко сказати, чи надовго — можливо, вороги просто збирають сили, щоб знову зруйнувати фундамент нашої держави. Так чи інакше, ми не маємо права втрачати цю можливість відновити контроль над країною."
+ },
+ "decline_of_mali.9.entry": {
+  "en": "$decline_of_mali.9.title$",
+  "uk": ""
+ },
+ "decline_of_mali.9.title": {
+  "en": "A Time of Recovery",
+  "uk": "Тимчасова перепочинка"
+ },
+ "mal_accepted_alliance": {
+  "en": "Accepted the Alliance",
+  "uk": "Союз укладено"
+ },
+ "mal_pretender_rebels": {
+  "en": "Pretender Rebels",
+  "uk": "Бунтівні прихильники претендента"
+ },
+ "mal_provoked_military_forces": {
+  "en": "Provoked Military Forces",
+  "uk": "Незадоволені війська"
+ },
+ "mal_rejected_alliance": {
+  "en": "Rejected the Alliance",
+  "uk": "Союз відхилено"
+ },
+ "mal_separatists_rebels": {
+  "en": "Separatists",
+  "uk": "Сепаратисти"
+ },
+ "mal_separatists_rebels_balanta": {
+  "en": "$balanta$ Separatists",
+  "uk": "Сепаратисти-баланте"
+ },
+ "mal_separatists_rebels_fulbe": {
+  "en": "$fulbe$ Separatists",
+  "uk": "Сепаратисти-фульбе"
+ },
+ "mal_separatists_rebels_jola": {
+  "en": "$jola$ Separatists",
+  "uk": "Сепаратисти-діола"
+ },
+ "mal_separatists_rebels_manjak": {
+  "en": "$manjak$ Separatists",
+  "uk": "Сепаратисти-манджак"
+ },
+ "mal_separatists_rebels_songhai": {
+  "en": "$songhai$ Separatists",
+  "uk": "Сепаратисти-сонгай"
+ },
+ "mal_separatists_rebels_soninke": {
+  "en": "$soninke$ Separatists",
+  "uk": "Сепаратисти-сонінке"
+ },
+ "mal_separatists_rebels_tuareg": {
+  "en": "$tuareg$ Separatists",
+  "uk": "Сепаратисти-туареги"
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "location_pops_convert_to_muslim.tt": {
+  "en": "#Y 1%#! of the [pops|e] in [target_location.GetName] will [convert|e] to [target_country.GetReligion.GetName]",
+  "uk": "#Y 1%#! [Concept('pops','груп населення')|e] у [target_location.Custom('LR_PP')|l] [target_location.GetNameWithNoTooltip] [Concept('convert','навернеться')|e] до іншої релігії ([target_country.GetReligion.GetName|l])"
+ },
+ "propagate_religion.5.b.tt": {
+  "en": "Every [location|e] in [target_location.GetArea.GetName] will lose [ShowNamedValue('control_severe_penalty')|+=2%] [control|e] and gain [ShowModifier('mosque_of_x')] for #Y 10#! years",
+  "uk": "Кожен [Concept('location', 'район')|e] в області [target_location.GetArea.GetName] втратить [ShowNamedValue('control_severe_penalty')|+=2%] [Concept('control', 'контролю')|e] та отримає модифікатор «[ShowModifier('mosque_of_x')]» на #Y 10#! років"
+ },
+ "propagate_religion_events.1.a": {
+  "en": "Only good can come from this.",
+  "uk": "Це віщує нам лише добре."
+ },
+ "propagate_religion_events.1.b": {
+  "en": "No, they must remain where we can control them.",
+  "uk": "Ні. Нехай залишаються там, де ними можна керувати."
+ },
+ "propagate_religion_events.1.desc": {
+  "en": "[target_country.GetAdjective] [ShowReligionGroupAdjective('muslim')] traders have been an increasingly common sight in our ports, and we have grown used to them and their religion. In [target_location.GetName] in particular, these merchants have become so commonplace that they already feel like an integral part of the local population.\\n\\nRecently, some of these traders have approached the [ROOT.GetCountry.GetGovernment.GetCourtTitle], asking to be allowed to build a settlement of their own, just outside [target_location.GetNameWithNoTooltip] proper.",
+  "uk": "#L [target_country.GetAdjective|U]і#! #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламські#!#! торговці дедалі частіше починають відвідувати наші порти, і їхня релігія вже не здається нам чимось диковинним. Особливо багато їх у [target_location.Custom('LR_PP')|l] [target_location.GetName], де вони вже злилися з місцевим населенням.\\n\\nНещодавно вони звернулися до нас із проханням збудувати безпосередньо поряд із [target_location.Custom('LR_PP')|l] [target_location.GetNameWithNoTooltip] власне поселення. Тепер [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] вирішує, як до цього поставитися."
+ },
+ "propagate_religion_events.1.title": {
+  "en": "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Traders in [target_location.GetNameWithNoTooltip]",
+  "uk": "Ісламські торговці в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "propagate_religion_events.10.a": {
+  "en": "We must protect the faith of our ancestors!",
+  "uk": "Потрібно відстоювати віру, дану нам предками!"
+ },
+ "propagate_religion_events.10.b": {
+  "en": "What harm can these men do.",
+  "uk": "Ці люди нам нічим не зашкодять."
+ },
+ "propagate_religion_events.10.desc": {
+  "en": "An increasingly common sight in the [ROOT.GetCountry.GetAdjective] countryside is that of traveling Sufi scholars, mystic missionaries of the [ShowReligionGroupAdjective('muslim')] faith. They are often warmly received not only by their brothers in faith, but also by the rural population, who have found a way to integrate the [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] creed into their own traditions and myths. The result is not something that would fit in [ShowLocationName('mecca')] or [ShowLocationName('cairo')], but it has made many more predisposed towards [ShowReligionGroupNameWithNoTooltip('muslim')] in general.",
+  "uk": "У #L [ROOT.GetCountry.GetAdjective|l]ій#! сільській місцевості дедалі частіше можна побачити мандрівних учених-суфіїв — містичних послідовників #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламської#!#! віри. Їх із радістю приймають у себе не лише одновірці, а й місцеві жителі, для яких ісламські вірування вже поступово почали переплітатися з їхніми власними традиціями та міфами. Суміш, що вийшла, не можна назвати гідною #TOOLTIP:LOCATION,mecca_tt,X #L Мекки#!#! чи #TOOLTIP:LOCATION,cairo_tt,X #L Каїра#!#!, однак багато хто став із більшою симпатією ставитися до ісламу."
+ },
+ "propagate_religion_events.10.title": {
+  "en": "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Syncretism",
+  "uk": "Ісламський синкретизм"
+ },
+ "propagate_religion_events.11.a": {
+  "en": "We might have the perfect spot for them.",
+  "uk": "У нас є для них підходяще місце."
+ },
+ "propagate_religion_events.11.b": {
+  "en": "They ought to be able to find sanctuary somewhere else.",
+  "uk": "Нехай шукають притулку десь інде."
+ },
+ "propagate_religion_events.11.desc": {
+  "en": "A number of refugees from a distant war in [target_country.GetName] have arrived at our borders. They are led by [ShowReligionGroupAdjective('muslim')] $rank_county_arabic_ruler_male$ and claim that if we just allow them some unclaimed land they will create a prospering settlement for themselves and lead productive lives as our subjects.",
+  "uk": "На наших кордонах з'явилися біженці, що рятуються від війни в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#!. $rank_county_arabic_ruler_male$-#TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманин#!#!, що очолює їх, запевняє нас, що якщо ми виділимо їм незайняту ділянку землі, вони збудують там процвітаюче поселення і працюватимуть на благо нашої держави, ставши її підданими."
+ },
+ "propagate_religion_events.11.title": {
+  "en": "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Refugees",
+  "uk": "Ісламські біженці"
+ },
+ "propagate_religion_events.2.a": {
+  "en": "We cannot let authority slip to outside groups such as this one.",
+  "uk": "Не можна допускати, щоб такі діячі мали якийсь вплив."
+ },
+ "propagate_religion_events.2.b": {
+  "en": "They will be a welcome addition to our society.",
+  "uk": "Вони чудово доповнять наше суспільство."
+ },
+ "propagate_religion_events.2.desc": {
+  "en": "A group of [target_country.GetReligion.GetAdjective] missionaries from [target_country.GetName] have come to us wanting to settle down in [target_location.GetName] to found a new community there for themselves and their converts. They are cooperating with local authorities and do not oppose our rule, but their presence will likely lead to their religion spreading more quickly into the entire area.",
+  "uk": "На прийом до нас прийшли місіонери — послідовники #L [target_country.GetReligion.GetAdjective|l]ого#! вчення з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Вони хочуть оселитися в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip] і заснувати там громаду, зокрема для новонавернених. Вони не йдуть наперекір місцевій владі та нашим законам, однак їхня присутність напевно призведе до того, що релігія місіонерів поширюватиметься значно швидше."
+ },
+ "propagate_religion_events.2.title": {
+  "en": "[target_country.GetReligion.GetAdjectiveWithNoTooltip] Missionaries",
+  "uk": "Місіонери [target_country.GetReligion.GetAdjectiveWithNoTooltip|l]ого напряму"
+ },
+ "propagate_religion_events.3.a": {
+  "en": "Let us encourage these sailors to seek out our ports!",
+  "uk": "Нехай ці моряки заходять і в наші порти!"
+ },
+ "propagate_religion_events.3.b": {
+  "en": "We have no need of foreign faiths on our ships.",
+  "uk": "На своїх кораблях ми іновірців не потерпимо."
+ },
+ "propagate_religion_events.3.desc": {
+  "en": "From the most eastern seas to the warmer waters riding the monsoons, there is an abundance of ships constantly sailing between the many ports, from small dhows to great galleys. Taken together, this trade network provides goods and supplies for more than half of the world's population. What many of these galleys have in common is that they are manned by [ShowReligionGroupAdjective('muslim')] sailors from [ShowContinentName('africa')] or the [ShowSubContinentName('middle_east')] joined by converted locals.",
+  "uk": "Зі східних морів у теплі води на мусонах несуться кораблі — від скромних дау до величезних галер — що прагнуть пришвартуватися в численних портах. Цей потік вантажів і припасів забезпечує потреби понад половини населення світу. На галерах нерідко можна побачити #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманських#!#! моряків з #TOOLTIP:CONTINENT,africa,X #L Африки#!#! або #TOOLTIP:SUB_CONTINENT,middle_east,X #L Близького Сходу#!#! разом із місцевими, що навернулися до ісламу."
+ },
+ "propagate_religion_events.3.title": {
+  "en": "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Sailors",
+  "uk": "Моряки-мусульмани"
+ },
+ "propagate_religion_events.4.a": {
+  "en": "This is a good sign.",
+  "uk": "Це добрий знак."
+ },
+ "propagate_religion_events.4.b": {
+  "en": "Let us invite this [target_character.GetWomanMan] to [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] з радістю прийме в себе цю людину."
+ },
+ "propagate_religion_events.4.desc": {
+  "en": "A learned [target_character.GetWomanMan] from [target_country.GetName] is said to have cured some of the population in [target_location.GetName] from a harsh illness. The locals are all very impressed and have chosen to adopt the faith of this sage so that [target_character.GetHerHis] God can protect them in the times to come.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Вчена', 'Вчений' )] з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, як повідомляють, [Select_CString(target_character.IsFemale, 'винайшла', 'винайшов' )] ліки, завдяки яким деякі мешканці [target_location.Custom('LR_GEN')|l] [target_location.GetName] зцілилися від страшної хвороби. Вдячне населення вирішило навернутися до віри [Select_CString(target_character.IsFemale, 'своєї рятівниці', 'свого рятівника' )], щоб їх і надалі рятував [Select_CString(target_character.IsFemale, 'її', 'його' )] Бог."
+ },
+ "propagate_religion_events.4.title": {
+  "en": "Miracle",
+  "uk": "Чудо"
+ },
+ "propagate_religion_events.5.a": {
+  "en": "We cannot allow this.",
+  "uk": "Ми не можемо цього допустити!"
+ },
+ "propagate_religion_events.5.b": {
+  "en": "Let us provide them with the support they need to build a better community.",
+  "uk": "Надамо їм всю необхідну підтримку, щоб їхня громада розвивалася."
+ },
+ "propagate_religion_events.5.desc": {
+  "en": "The [target_location.GetDominantReligion.GetAdjective] believers of [target_location.GetName] have established a new place to serve as their house of worship. The Mosque is the new clear center of the community and will likely attract greater numbers to settle here. It will also facilitate local conversion of the entire area.\\n\\nThere is clear indication that the new Mosque is in part being funded by the many [target_country.GetAdjective] traders active in the region, and in our government some worry that this might lead to undue influence for them and their religion.",
+  "uk": "У #L [target_location.GetDominantReligion.GetAdjective|l]их#! віруючих з [target_location.Custom('LR_RP')|l] [target_location.GetName] з'явилося нове місце для поклоніння — мечеть, куди нерідко заходять місцеві жителі. Ми не сумніваємося, що з часом вона приверне й нових поселенців, а заодно сприятиме наверненню жителів області до іншої релігії.\\n\\nУсе вказує на те, що гроші на діяльність мечеті виділяють зокрема численні торговці #L [target_country.GetAdjective|l]ого#! світогляду, що ведуть справи в регіоні. Деякі державні діячі хвилюються, що таким чином вони нарощують свій вплив — і вплив своєї релігії."
+ },
+ "propagate_religion_events.5.title": {
+  "en": "Mosque Established in [target_location.GetNameWithNoTooltip]",
+  "uk": "У [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip] засновано мечеть"
+ },
+ "propagate_religion_events.6.a": {
+  "en": "It is a sound idea.",
+  "uk": "Не найгірша думка."
+ },
+ "propagate_religion_events.6.b": {
+  "en": "No, we must defend the traditional values of the [ROOT.GetCountry.GetLongNameWithNoTooltip]!",
+  "uk": "Ні! [ROOT.GetCountry.GetLongNameWithNoTooltip] — держава традиційних цінностей, і ми їх відстоюватимемо!"
+ },
+ "propagate_religion_events.6.desc": {
+  "en": "With [ShowReligionGroupName('muslim')] increasingly becoming the dominant religion of our [ROOT.GetCountry.GetFlavorRank], many of our government officials, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], and other notables have begun to adopt Islamic and [ShowLanguageName('arabic_language')] notions of kingship, names, and titles. Many have in fact started to refer to the [ROOT.GetCountry.GetFlavorRank] as a $rank_kingdom_muslim$, even though our official state religion is still [ROOT.GetCountry.GetReligion.GetName]. Some advisors of [target_ruler.GetName] now suggest that it might be prudent to go along with this. If we start referring to our own country as a $rank_kingdom_muslim$, it might ease relations with the many [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] countries around the world.",
+  "uk": "Панівною релігією в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] повільно, але впевнено стає #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!. Багато урядових чиновників, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та інші впливові люди поступово переймають ісламські та #TOOLTIP:LANGUAGE,arabic_language,X #L арабські#!#! уявлення про царів, імена й титули. Вони навіть відмовилися від найменування «[ROOT.GetCountry.GetFlavorRank|l]», оскільки вважають, що «султанат» звучить краще, забуваючи, що релігія нашої держави поки що [ROOT.GetCountry.GetReligion.GetName|l]. Частина наших радників стверджує, що [target_ruler.GetName] вчинить розумно, якщо не перешкоджатиме цьому. Якщо ми самі називатимемо нашу державу султанатом, вести справи з численними ісламськими державами, можливо, стане простіше."
+ },
+ "propagate_religion_events.6.title": {
+  "en": "$rank_kingdom_muslim$ of [ROOT.GetCountry.GetNameWithNoTooltip]?",
+  "uk": ""
+ },
+ "propagate_religion_events.7.a": {
+  "en": "The [ROOT.GetCountry.GetLongNameWithNoTooltip] will be triumphant!",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip] восторжествує!"
+ },
+ "propagate_religion_events.7.desc": {
+  "en": "As [ROOT.GetCountry.GetReligion.GetName] is now the official religion of [ROOT.GetCountry.GetName], we have joined the community of the Faithful. Though some remaining traditionalists lament this change, many more of our [ShowReligionGroupAdjective('muslim')] populace now rejoice over the just rule of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Оскільки офіційною релігією [ROOT.GetCountry.Custom('rank_ru_GEN')|l] тепер вважається [ROOT.GetCountry.GetReligion.GetName|l], ми вступили до громади віруючих. І хоча деякі традиційно налаштовані громадяни засмучені таким вибором, наше #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламське#!#! населення радіє: тепер [ROOT.GetCountry.GetFlavorRank|l] править чесно і справедливо."
+ },
+ "propagate_religion_events.7.title": {
+  "en": "Joining the Community of the Faithful",
+  "uk": "Вступ до громади віруючих"
+ },
+ "propagate_religion_events.8.a": {
+  "en": "Let us offer [target_character.GetHerHim] a place at our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] заслуговує такого діяча. Запропонувати [Select_CString(target_character.IsFemale, 'їй', 'йому' )] місце!"
+ },
+ "propagate_religion_events.8.b": {
+  "en": "Let us learn as much as we can about the state of things abroad.",
+  "uk": "Постараємося дізнатися якомога більше про закордонні справи."
+ },
+ "propagate_religion_events.8.desc": {
+  "en": "A learned [target_character.GetWomanMan] from the land of [target_country.GetName] has arrived in [ROOT.GetCountry.GetCapital.GetName]. [target_character.GetSheHe|U] claims to have studied under scholars in many famous cities, and [target_character.GetSheHe] is versed in the politics of the greater [ShowReligionGroupAdjective('muslim')] world as well as in intricate matters of theology.",
+  "uk": "До міста [ROOT.GetCountry.GetCapital.GetName] [Select_CString(target_character.IsFemale, 'прибула', 'прибув' )] учений з держави на ім'я [target_country.GetName]. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] стверджує, що [Select_CString(target_character.IsFemale, 'навчалася', 'навчався' )] в багатьох знаменитих містах, а тому чудово розбирається і в політиці #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! світу, і в премудростях богослов'я."
+ },
+ "propagate_religion_events.8.title": {
+  "en": "Traveling Scholar",
+  "uk": "Мандрівний учений"
+ },
+ "propagate_religion_events.9.a": {
+  "en": "Ridiculous.",
+  "uk": "Це смішно."
+ },
+ "propagate_religion_events.9.desc": {
+  "en": "In the [ROOT.GetCountry.GetAdjective] hinterlands, many chiefs rule their own little domains with little interference from central rule. However, even though they lack the ability to project much power, some do have greater ambitions. Some local chiefs in [target_location.GetName] have given name to greater pretensions by starting to style themselves sultans and trying to claim legitimacy by converting their population to [ShowReligionGroupName('muslim')].",
+  "uk": "У #L [ROOT.GetCountry.GetAdjective|l]ій#! глушині нерідко можна побачити невеликі володіння, де одноосібно правлять місцеві вожді; центральна влада майже не втручається в їхні справи. Однак не всі з них задоволені наявним: комусь завжди хочеться більшого, попри скромні можливості. Так, частина вождів у [target_location.Custom('LR_PREP')|l] [target_location.GetName] почала називати себе султанами, а щоб виправдати цей титул — навертати своє населення до #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#!."
+ },
+ "propagate_religion_events.9.title": {
+  "en": "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Chiefs",
+  "uk": "Ісламські вожді"
+ },
+ "sultan_conversion_tooltip": {
+  "en": "Our relations will improve by #G 50#! towards all known [ShowReligionGroupAdjective('muslim')] [countries|e].",
+  "uk": "Наші відносини з усіма відомими #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламськими#!#! [Concept('countries','державами')|e] покращаться на #G 50#!."
+ },
+ "sultan_titles_for_non_muslims_tooltip": {
+  "en": "We will adopt [ShowReligionGroupAdjective('muslim')] titles, improving our relations by #G 75#! towards all known [ShowReligionGroupAdjective('muslim')] [countries|e].",
+  "uk": "Ми встановимо в себе #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламські#!#! титули. Наші відносини з усіма відомими #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламськими#!#! [Concept('countries','державами')|e] покращаться на #G 75#!."
+ }
+}

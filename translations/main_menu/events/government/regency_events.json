@@ -1,0 +1,126 @@
+{
+ "regencies.1.a": {
+  "en": "This is a good idea!",
+  "uk": "Чудова ідея!"
+ },
+ "regencies.1.a.japanese.tt": {
+  "en": "This will make us stop having the [target_previous_ruler.GetDynasty.GetName] dynasty, which will also change the identity of our [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "Це дозволить нам покінчити з пануванням династії [target_previous_ruler.GetDynasty.GetName] і змінити ідентичність нашої держави."
+ },
+ "regencies.1.a.japanese_imperial_family.tt": {
+  "en": "We will stop being part of the [ShowGovernmentReformName('japanese_imperial_family')]",
+  "uk": "Ми більше не будемо членами #TOOLTIP:GOVERNMENT_REFORM,japanese_imperial_family,X #L японського імператорського дому#!#!"
+ },
+ "regencies.1.b": {
+  "en": "Let us avoid this!",
+  "uk": "Краще цього уникнути!"
+ },
+ "regencies.1.c": {
+  "en": "Actually, [target_previous_ruler.GetShortNameWithNoTooltip] adopted [target_character.GetShortNameWithNoTooltip] in [target_previous_ruler.GetHerHis] will.",
+  "uk": "[target_previous_ruler.GetShortNameWithNoTooltip] [Select_CString(target_previous_ruler.IsFemale,'залишила', 'залишив')] заповіт, згідно з яким [target_character.GetShortNameWithNoTooltip] — [Select_CString(target_previous_ruler.IsFemale,'її', 'його')] законна дитина."
+ },
+ "regencies.1.desc": {
+  "en": "The premature death of [target_previous_ruler.GetName] forced our [ROOT.GetCountry.GetFlavorRank] to enter a period of regency until a proper heir is found. Although by [ROOT.GetCountry.GetAdjective] law, [target_character.GetName] should not be the ruler, [target_character.GetSheHe] has gained the popularity and support of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')].\\n\\nNaturally, an ambitious person like [target_character.GetShortNameWithNoTooltip] is more than interested in acquiring the [ROOT.GetCountry.GetFlavorRank] leadership. But in the end, it is the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] who decide if [target_character.GetSheHe] is worthy to rule over the [ROOT.GetCountry.GetLongNameWithNoTooltip].",
+  "uk": "[target_previous_ruler.GetName] передчасно [Select_CString(target_previous_ruler.IsFemale,'померла', 'помер')], і тепер [ROOT.GetCountry.Custom('CF_TP')|l] керує регент, доки не буде знайдено гідного спадкоємця. За #L [ROOT.GetCountry.GetAdjective|l]ими#! законами [target_character.GetName] не [Select_CString(target_character.IsFemale,'повинна', 'повинен')] стати [Select_CString(target_character.IsFemale,'правителькою', 'правителем')], але [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] люблять і підтримують [Select_CString(target_character.IsFemale,'її', 'його')].\\n\\nПрироднo, така амбітна особистість, як [target_character.GetShortNameWithNoTooltip], дуже хоче взяти владу у свої руки. Але вирішувати, чи [Select_CString(target_character.IsFemale,'гідна', 'гідний')] [Select_CString(target_character.IsFemale,'вона', 'він')] правити, будуть [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]."
+ },
+ "regencies.1.desc.base": {
+  "en": "Although by [ROOT.GetCountry.GetAdjective] law, [target_character.GetName] should not be the ruler, [target_character.GetSheHe] has gained the popularity and support of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')].\\n\\nNaturally, an ambitious person like [target_character.GetShortNameWithNoTooltip] is more than interested in acquiring the [ROOT.GetCountry.GetFlavorRank] leadership. But in the end, it is the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] who decide if [target_character.GetSheHe] is worthy to rule over the [ROOT.GetCountry.GetLongNameWithNoTooltip].",
+  "uk": ""
+ },
+ "regencies.1.desc.fallback": {
+  "en": "The throne has been vacant for a significant time. The memories of the old ruler of the [ROOT.GetCountry.GetFlavorRank] have faded already, and there are still no signs of any potential heir to take over. $regencies.1.desc.base$",
+  "uk": ""
+ },
+ "regencies.1.founds_dynasty_tt": {
+  "en": "Founds a new [dynasty|e] in [THIS.GetCharacter.GetLocation.GetName]",
+  "uk": "Створює нову [Concept('dynasty', 'династію')|e] в [THIS.GetCharacter.GetLocation.Custom('LR_PREP')|l] [THIS.GetCharacter.GetLocation.GetName]"
+ },
+ "regencies.1.title": {
+  "en": "Crown the Regent",
+  "uk": "Коронація регента"
+ },
+ "regencies.2.a": {
+  "en": "We must ensure the [stability|e] of [ROOT.GetCountry.GetNameWithNoTooltip]. Whatever it takes.",
+  "uk": "Ми повинні забезпечити [Concept('stability', 'стабільність')|e] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, чого б це не коштувало."
+ },
+ "regencies.2.desc": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetHeir.GetName]'s good education and natural charm have made [ROOT.GetCountry.GetGovernment.GetHeir.GetHerHim] a more than appropriate option to the throne. [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]'s poor administration, however, has made [ROOT.GetCountry.GetName] resent its lack of [stability|e]. The government of a nation is as difficult and delicate as collecting roses without touching a single thorn; and, sometimes, one is just not born with it. Maybe we could use one of those thorns...",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetHeir.GetName] добре [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'освічена', 'освічений')] і має природну чарівність, що робить [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'її', 'його')] більш ніж відповідним претендентом на трон. Однак [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] не найкращим чином керує #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!, що знижує [Concept('stability', 'стабільність')|e]. Правити державою — справа складна й тонка, наче збирати троянди, не торкаючись колючок. Іноді людина просто не має належного таланту. Можливо, одна з таких колючок стане нам у пригоді…"
+ },
+ "regencies.2.title": {
+  "en": "No Hard Feelings",
+  "uk": "Без образ"
+ },
+ "regencies.3.a": {
+  "en": "We need to immediately put an end to this.",
+  "uk": "Треба якнайшвидше покласти цьому край."
+ },
+ "regencies.3.c": {
+  "en": "It is not that bad.",
+  "uk": "Загалом це не так погано."
+ },
+ "regencies.3.desc": {
+  "en": "After surviving the attempt to harm [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis] physical integrity, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] has started to feel consumed by what [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe] may call caution, whilst others may refer to it using less pleasant words. [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe|U] has started to avoid social events, leaving the rest of the council alone to govern the whole nation.\\n[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis|U] flagrant lack of responsibility has raised many suspicions among the court, however, what has greatly deteriorated the public opinion of [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] is the strange behavior that [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe] has been exhibiting lately, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis] eyes red and wide open in the middle of the night, muttering in darkness that [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe] shall never leave the throne, asking for someone to come at [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHim] even as a shadow, even as a dream.",
+  "uk": "Переживши замах на своє життя, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] надмірно [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'переймається', 'переймається')] заходами безпеки, хоча дехто відгукується про [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'її', 'його')] поведінку значно різкіше. [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'Вона почала', 'Він почав')] уникати зібрань, залишивши керування державою на інших членів ради.\\n[Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'Її', 'Його')] волаюча безвідповідальність породила багато підозр при дворі. Але основною причиною, через яку [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'втратила', 'втратив')] загальну повагу, стала [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'її', 'його')] дивна поведінка. Витріщившись почервонілими очима в темряву, [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'вона', 'він')] не спить цілими ночами, бурмоче, що ніколи не залишить трон, і благає когось явитися до [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'неї', 'нього')] хоч тінню, хоч видінням сонним."
+ },
+ "regencies.3.title": {
+  "en": "Even as a Shadow",
+  "uk": "Явись хоч тінню"
+ },
+ "regencies.4.a": {
+  "en": "This is only one solution.",
+  "uk": "У нас не залишилося вибору."
+ },
+ "regencies.4.desc": {
+  "en": "After the unsuccessful attempt to stop [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] from worsening our nation's fate, the paranoia that had surrounded [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHim] has only proved to be true, thus causing even a greater harm to [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis] mental health. Having already interrogated the closest members of the council, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] has started to enter their rooms unannounced, accompanied by some [ROOT.GetCountry.GetGovernment.GetAdjective] guards and a severe tone to [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis] voice: \"This must be done,\" is the only reply one can get from [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHim] while their belongings are being checked.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] приносить нашому народу лише горе. Після невдалої спроби двору покласти цьому край [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'її', 'його')] параноїдальні схильності лише посилилися, а розум затьмарився ще більше. Після суворого допиту найближчих членів ради [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'почала', 'почав')] без попередження навідуватися до їхніх покоїв у супроводі #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! вартових. Радники намагалися з'ясувати, чому їх обшукують, але [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] лише суворо відповідає: «Так треба»."
+ },
+ "regencies.4.title": {
+  "en": "Even as a Dream",
+  "uk": "Хоч видінням сонним"
+ },
+ "regencies.5.a": {
+  "en": "We cannot let [target_character.GetNameWithNoTooltip] ruin our country.",
+  "uk": "Не можна допустити, щоб [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'зруйнувала', 'зруйнував' )] державу."
+ },
+ "regencies.5.c": {
+  "en": "It is too late now!",
+  "uk": "Вже надто пізно!"
+ },
+ "regencies.5.desc": {
+  "en": "Gold is a dangerous thing, its tempting shine impossible to resist. It lurks in the shadows, attracting unaware fools to its doomed glow, its gilding roundness as two demon eyes. [target_character.GetName] is no stranger to this perilous feeling, [target_character.GetHerHis] annoyed face desperately looking for a new toy to play with, [target_character.GetHerHis] fingers inspecting every drawer, every pocket, trying to use [target_character.GetHerHis] hands as Midas.\\n\\nMeanwhile, our nation suffers, the population slowly falling into despair, their hungry mouths open in prayers.",
+  "uk": "Золото небезпечне, бо перед його принадним блиском неможливо встояти. Воно мерехтить у темряві, приваблюючи необачних дурнів. Монети підступно виблискують, наче очі демона. [target_character.GetName] теж [Select_CString(target_character.IsFemale, 'піддалася', 'піддався' )] цій згубній напасті — відчайдушно бажаючи примножити свої багатства, [Select_CString(target_character.IsFemale, 'вона', 'він' )] невтомно обшукує кишені й шухляди. Можливо, [Select_CString(target_character.IsFemale, 'вона', 'він' )] сподівається здобути дар Мідаса і перетворювати на золото все, до чого торкається?\\n\\nТим часом наш народ страждає і поринає у відчай. Люди голодують і благають про допомогу."
+ },
+ "regencies.5.title": {
+  "en": "Wicked Minds",
+  "uk": "Злокозненний розум"
+ },
+ "regencies.6.a": {
+  "en": "Rumors spread around our country.",
+  "uk": "Чутки розповзаються по всій державі."
+ },
+ "regencies.6.desc": {
+  "en": "It started with some innocent laughs, some casual comments, some sinless suggestions. Then it started transforming into some mischievous grins, some sharp comments, some sinister commands.\\nThe entire palace knew that [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] had become too used to power, but few would even consider that [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe] would go this far to preserve it. Our rightful heir, [ROOT.GetCountry.GetGovernment.GetHeir.GetName], has been imprisoned after being invited to \"go find the special treasure\" hidden in the dungeons.",
+  "uk": "Невинні жарти, легковажні фрази й нешкідливі натяки переросли у злісні посмішки, колючі висловлювання та жорстокі накази.\\nУвесь палац знав, що [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] надто [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'звикла', 'звик')] до влади, але мало хто міг припустити, що [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'вона', 'він')] зайде так далеко заради того, щоб її утримати. Відгукнувшись на пропозицію відшукати цінні скарби в підземеллях, [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'наша законна спадкоємиця', 'наш законний спадкоємець')] [ROOT.GetCountry.GetGovernment.GetHeir.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'була кинута', 'був кинутий')] до темниці."
+ },
+ "regencies.6.title": {
+  "en": "Treasure Hunt",
+  "uk": "Пошук скарбів"
+ },
+ "regencies.7.a": {
+  "en": "I am sure something can be done...",
+  "uk": "Гадаю, це можна якось вирішити…"
+ },
+ "regencies.7.b": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetHeir.GetSheHe|U] is not the first incompetent heir.",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale.IsFemale,'Вона', 'Він')] не [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'перша нікчемна спадкоємиця', 'перший нікчемний спадкоємець')]."
+ },
+ "regencies.7.desc": {
+  "en": "Sometimes hope is found in the most unexpected places. Since the start of [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHis] regency, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] has proven to be an excellent ruler, always aware of the necessities of our people. Some even go as far as to say that our nation would experience more prosperity if [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe] would remain in power a little bit longer...\\n\\nGiven the imminent age of majority of [ROOT.GetCountry.GetGovernment.GetHeir.GetName], that should be by no means possible. Yet [ROOT.GetCountry.GetGovernment.GetHeir.GetHerHis] ineptitude has already infuriated most of [ROOT.GetCountry.GetGovernment.GetHeir.GetHerHis] teachers, many of them leaving our court after unsuccessfully trying to rein [ROOT.GetCountry.GetGovernment.GetHeir.GetHimHer] in.",
+  "uk": "Іноді надію можна знайти там, де її зовсім не чекаєш. Прийнявши на себе обов'язки регента, [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName] одразу [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'показала', 'показав')] себе [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'чудовою правителькою', 'чудовим правителем')]. [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'Вона', 'Він')] завжди чуйно ставиться до потреб людей, і дехто навіть заявляє, що держава лише розквітне, якщо [Select_CString(ROOT.GetCountry.GetGovernment.GetActiveRegent.IsFemale,'вона', 'він')] залишиться при владі трохи довше…\\n\\n[ROOT.GetCountry.GetGovernment.GetHeir.GetName] скоро досягне відповідного віку, тож ці надії навряд чи справдяться. Щоправда, [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'її', 'його')] дурні витівки доводять учителів до сказу, і багато хто вже покинув двір, так і не спромігшись переконати [Select_CString(ROOT.GetCountry.GetGovernment.GetHeir.IsFemale,'її', 'його')] взятися за розум."
+ },
+ "regencies.7.title": {
+  "en": "Glory Days",
+  "uk": "Славні дні"
+ }
+}

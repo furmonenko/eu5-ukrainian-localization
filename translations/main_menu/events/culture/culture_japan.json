@@ -1,0 +1,758 @@
+{
+ "culture_japan.1.a": {
+  "en": "[target_character.GetSheHe|U] should have known better!",
+  "uk": "І заслужено!"
+ },
+ "culture_japan.1.b": {
+  "en": "Refuse to comply with their demands.",
+  "uk": "Ми цього не допустимо."
+ },
+ "culture_japan.1.desc": {
+  "en": "Recently, the disputes between different [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] families have been increasingly fierce, up to the point even of having resulted in deaths among them. If they continue, they may pose a serious threat to the stability of the political system, and should therefore be taken very seriously.\\n\\nSo ingrained have these feuds become in the culture, that people are already starting to refer to it as 'the house strife', or #italic O-Ie Sōdō#!. As long as it does not directly involve them, people see these conflicts as just a regular occurrence, and even as a somewhat form of entertainment in itself.\\n\\nNow, it appears [target_character.GetName] [target_character.GetHerselfHimself] has become involved in one of these disputes, and the people are demanding [target_character.GetHerHis] head on a plate.",
+  "uk": "Останнім часом конфлікти, які цілими родинами ведуть між собою [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], стали більш запеклими, а деякі навіть призвели до смертей. Якщо вони не припиняться, то з часом стануть серйозно загрожувати стабільності нашої політичної системи, тому нам краще звернути на них пильну увагу.\\n\\nЦі чвари настільки вкоренилися в культурі, що народ уже придумав їм назву — #italic о-іе содо#!, що означає «ворожнеча домів». Поки це не стосується людей безпосередньо, вони сприймають це байдуже, а часом і взагалі як своєрідну розвагу.\\n\\nОднак тепер у цю ворожнечу [Select_CString(target_character.IsFemale, 'опинилася втягнутою', 'опинився втягнутим')] безпосередньо [target_character.GetName], і люди вимагають розправи над [Select_CString(target_character.IsFemale, 'нею', 'ним')]."
+ },
+ "culture_japan.1.title": {
+  "en": "O-Ie Sōdō",
+  "uk": ""
+ },
+ "culture_japan.10.a": {
+  "en": "It would help them to understand the people better.",
+  "uk": "Це допоможе їм краще зрозуміти народ."
+ },
+ "culture_japan.10.b": {
+  "en": "What could they possibly want with this?",
+  "uk": "І що їм це дасть?"
+ },
+ "culture_japan.10.desc": {
+  "en": "With the increase of the urban population, the people of [ROOT.GetCountry.GetName] have shown an increased interest in cultural activities. As such, many of those are flourishing, like the Kabuki theater, the art of singing and dancing; and the Ukiyo-e, woodblock prints or woodcuts and paintings featuring motifs of landscapes, tales from history, the theater, and pleasure quarters. Perhaps the [ROOT.GetCountry.GetGovernment.GetCourtTitle] should show some interest in Kabuki theater or the Ukiyo-e too.",
+  "uk": "Народ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! дедалі більше цікавиться культурою. Популярності набуває театр кабукі — мистецтво співу й танцю, а також укійо-е — ксилографія або малюнки пейзажів, легендарних сюжетів, театрів чи кварталів насолод. Можливо, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] теж оцінить кабукі та укійо-е."
+ },
+ "culture_japan.10.title": {
+  "en": "Rise of Urban Culture",
+  "uk": "Розвиток міської культури"
+ },
+ "culture_japan.1000.a": {
+  "en": "It is absolutely needed.",
+  "uk": "Без цього не обійтися."
+ },
+ "culture_japan.1000.a.tt": {
+  "en": "All [members|e] of the [GetUniqueInternationalOrganization('japanese_shogunate').GetName] will react to this.",
+  "uk": "Усі [Concept('members', 'учасники')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,japanese_shogunate,X #L Японського Сьогунату#!#! не залишать це без відповіді."
+ },
+ "culture_japan.1000.b": {
+  "en": "Let us not disturb the hornet's nest.",
+  "uk": "Не будемо ворушити осине гніздо."
+ },
+ "culture_japan.1000.desc": {
+  "en": "After going through some turbulent times, our authority over the [GetUniqueInternationalOrganization('japanese_shogunate').GetName] is not as strong as we would like. To remediate this, we could organize national cadastral surveys, to account for all people and resources of our clans, as well as what are their internal ties and alliances. This would allow us to reassign lands and titles if needed, to make them more equal among each other, and all of them subservient to us. Of course, such an endeavor would be very costly, and not particularly popular among them.",
+  "uk": "Ми гідно витримали смутний час, однак зараз #TOOLTIP:INTERNATIONAL_ORGANIZATION,$japanese_shogunate_tt$,X #L сьогунат#!#! не підкоряється нам тією ж мірою, що й раніше. Щоб виправити становище, можна провести державні облікові роботи: підрахувати, скільки людей і коштів є в наших кланів, а також встановити, як саме вони пов'язані між собою і кому вірні. Після цього ми зможемо за потреби дарувати землі й титули так, щоб усі були відносно рівні — й однаково підкорені нам. Звичайно, витрати будуть великими, а саме рішення навряд чи сподобається народу."
+ },
+ "culture_japan.1000.title": {
+  "en": "Cadastral Survey",
+  "uk": "Кадастрові дослідження"
+ },
+ "culture_japan.1001.a": {
+  "en": "Nobody will touch my right to collect tax!",
+  "uk": "Не смійте посягати на моє право збирати податки!"
+ },
+ "culture_japan.1001.b": {
+  "en": "Welcome the [target_country.GetGovernment.GetAdjective] administrators.",
+  "uk": "Привітати #L [target_country.GetGovernment.GetAdjective|l]их#! управляючих."
+ },
+ "culture_japan.1001.desc": {
+  "en": "In an attempt to increase [target_ruler.GetHerHis] authority over the [GetUniqueInternationalOrganization('japanese_shogunate').GetName], [target_ruler.GetName] has been conducting nation-wide cadastral surveys. This involves measuring and counting all people, resources, and ownership relations, and refashioning them according to [target_ruler.GetHerHis] design. It is a task that comes with [target_ruler.GetHerHis] office, but it is being used to turn long-standing relationships of power on their heads.\\n\\nToday, the time for such a survey has come for the [ROOT.GetCountry.GetLongName]. We have been approached by the envoys of the [target_country.GetGovernment.GetAdjective] administration with a proclamation stating that fiefs granted to vassals ultimately belong to the state, and that vassals hold land in trust for the present time only.",
+  "uk": "У надії, що [GetUniqueInternationalOrganization('japanese_shogunate').GetName] знову підкорятиметься [Select_CString(target_ruler.IsFemale, 'її', 'його')] владі, [target_ruler.GetName] проводить облікові роботи державного масштабу. Вивчається й підраховується все: люди, кошти, права власності… Потім це перетворюється згідно з новим, далекосяжним задумом — повністю перевернути співвідношення сил, користуючись посадовими повноваженнями.\\n\\nСьогодні місцем проведення таких робіт стане [ROOT.GetCountry.GetLongName]. З нами зв'язалися посли, що представляють #L [target_country.GetGovernment.GetAdjective|l]е#! управління, і заявили, що вотчини у володінні васалів по суті належать державі, а васали користуються ними за довіреністю і лише тимчасово."
+ },
+ "culture_japan.1001.title": {
+  "en": "$culture_japan.1000.title$",
+  "uk": ""
+ },
+ "culture_japan.11.a": {
+  "en": "It sounds like a great deal.",
+  "uk": "Здається, це чудова угода."
+ },
+ "culture_japan.11.b": {
+  "en": "This does not interest us at the moment.",
+  "uk": "Зараз нам це не цікаво."
+ },
+ "culture_japan.11.desc": {
+  "en": "There have always been guilds, or #italic Za#!, in the [ROOT.GetCountry.GetLongName], where merchants cooperate with temples and shrines in order to protect themselves against bandits, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], and warlords. The merchants that pertain to those guilds can then organize themselves in groups for travel and transport their goods more safely. They have also arrangements that allow them to sell their goods inside temple grounds, giving them the protection of the temple itself.\\n\\nSome [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] in the [ROOT.GetCountry.GetLongNameWithNoTooltip] feel that these benefits are not enough and they have turned to [target_character.GetName], offering a share of profits in exchange of protection, some tax exemptions, and other formal governmental benefits.",
+  "uk": "[ROOT.GetCountry.GetLongName] — держава, де завжди існували гільдії, що називаються #italic дза#!. Купці там співпрацюють із храмами та святилищами, щоб захищатися від таких напастей, як бандити, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і воєначальники. Купці цих гільдій можуть об'єднуватися в групи для безпечних подорожей і перевезення товарів. Крім того, вони домовляються про продаж своїх товарів у храмі, отримуючи таким чином захист цього храму.\\n\\nДеякі [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вважають, що спільні подорожі й домовленості з храмами не забезпечують достатнього захисту. Вони сподіваються, що [target_character.GetName] їм допоможе. Ці купці пропонують ділитися виручкою в обмін на те, що влада [ROOT.GetCountry.Custom('CL_RP')] надаватиме їм захист, податкові пільги та інші урядові привілеї."
+ },
+ "culture_japan.11.title": {
+  "en": "The Za",
+  "uk": "Дза"
+ },
+ "culture_japan.1100.a": {
+  "en": "Let us offer it to the [target_clan_1.GetLongNameWithNoTooltip].",
+  "uk": "Пропозицію отримає [target_clan_1.GetLongNameWithNoTooltip]."
+ },
+ "culture_japan.1100.b": {
+  "en": "The [target_clan_2.GetLongNameWithNoTooltip] will do a good job.",
+  "uk": "[target_clan_2.GetLongNameWithNoTooltip] непогано нам послужить."
+ },
+ "culture_japan.1100.c": {
+  "en": "Better to keep the [target_clan_3.GetLongNameWithNoTooltip] close.",
+  "uk": "Чим ближче до нас буде [target_clan_3.GetLongNameWithNoTooltip], тим краще."
+ },
+ "culture_japan.1100.d": {
+  "en": "There is no need to involve the clans.",
+  "uk": "Не будемо втручатися в справи кланів."
+ },
+ "culture_japan.1100.desc": {
+  "en": "We have many clans serving our [ROOT.GetCountry.GetFlavorRank]. Their leaders are always people of ambition, constantly struggling among themselves for power and preference. Their duty is nonetheless to serve us, and some perform it more diligent than others. There is currently a vacancy in our administration, and we could grant this title to one of the clans, giving them a great honor but also tying them further to our interests. We may even be able to use this as a way to limit their influence.",
+  "uk": "[ROOT.GetCountry.Custom('rank_ru_DAT')] служить чимало кланів. Вожді їх незмінно цілеспрямовані й постійно суперничають один з одним за вплив і прихильність. Кожен, втім, пам'ятає, що його обов'язок — служити нам, і деякі служать старанніше за інших. У нашому керівництві якраз є незайнята посада; якщо дарувати якомусь клану відповідний титул, ми не лише окажемо отримувачу велику честь, а й ще надійніше заручимося його підтримкою. Можливо, так навіть вдасться обмежити його вплив."
+ },
+ "culture_japan.1100.title": {
+  "en": "Appointment to [target_shogunate.GetGovernment.GetAdjective] Office",
+  "uk": "Призначення на [target_shogunate.GetGovernment.GetAdjective|l]у посаду"
+ },
+ "culture_japan.1101.a": {
+  "en": "We must serve the [target_shogunate.GetGovernment.GetRulerTitle].",
+  "uk": "[target_shogunate.GetGovernment.GetRulerTitle] — наш володар, і ми служитимемо."
+ },
+ "culture_japan.1101.a.tt": {
+  "en": "[target_shogunate.GetName] may use this to limit our influence and reduce our possessions",
+  "uk": "[target_shogunate.GetName] може постаратися обмежити наш вплив і скоротити наші володіння."
+ },
+ "culture_japan.1101.b": {
+  "en": "We cannot partake in this charade, refuse the appointment.",
+  "uk": "Все це просто смішно. Ми відмовляємося від призначення."
+ },
+ "culture_japan.1101.b.tt": {
+  "en": "[target_shogunate.GetName] may not be happy with this",
+  "uk": "[target_shogunate.GetName] навряд чи зрадіє такому рішенню."
+ },
+ "culture_japan.1101.desc": {
+  "en": "The [target_shogunate.GetLongName] has sent word that [target_ruler.GetName] is expected to serve as [target_shogunate.GetGovernment.GetAdjective] official. Given the sincerity of the request, a refusal would be out of the question, and could even be seen as a sign of outright rebellion and dishonor. It is also clearly a way to achieve prestige and influence for the [ROOT.GetCountry.GetFlavorRank], but it is a dangerous honor. The [target_shogunate.GetFlavorRank] has lately been going through officials at an alarming rate. Not content to allow their supporters and loyal retainers to hold high office, they are now dismissing those that do not deliver the results that the [target_shogunate.GetGovernment.GetRulerTitle] expects. To some, this is a system of merit, but to the many officials in [target_shogunate.GetGovernment.GetAdjective] service, it means a constant fear of scrutiny.",
+  "uk": "[target_shogunate.GetLongName] повідомляє, що [target_ruler.GetName] обійме посаду #L [target_shogunate.GetGovernment.GetAdjective|l]ого#! чиновника. Тон цього послання не передбачає відмови — сприйматиметься вона виключно як образливе непокірство. Служба [ROOT.GetCountry.Custom('rank_ru_DAT')|l] дає вплив і престиж, однак подібна честь пов'язана з небезпекою. [target_shogunate.GetFlavorRank] змінює чиновників з лякаючою частотою, оскільки мало який прихильник чи вірний слуга на високій посаді може показати результати, яких вимагає [target_shogunate.GetGovernment.GetRulerTitle|l]. Хтось вважає, що такий порядок заохочує особисті заслуги, однак багато чиновників на #L [target_shogunate.GetGovernment.GetAdjective|l]ій#! службі живуть у постійному страху прискіпливих перевірок."
+ },
+ "culture_japan.1101.title": {
+  "en": "$culture_japan.1100.title$",
+  "uk": ""
+ },
+ "culture_japan.1102.a": {
+  "en": "Restrict the clan's movements.",
+  "uk": "Обмежити переміщення членів клану."
+ },
+ "culture_japan.1102.b": {
+  "en": "Demand some of their land in compensation.",
+  "uk": "Вимагати частину їхніх земель як компенсацію."
+ },
+ "culture_japan.1102.b.tt": {
+  "en": "This may antagonize them and give them a [casus_belli|e] against us",
+  "uk": "Вони можуть воспротивитися нам і отримати [Concept('casus_belli', 'привід для війни')|e]."
+ },
+ "culture_japan.1102.c": {
+  "en": "They will serve us faithfully.",
+  "uk": "Вони служитимуть нам вірою і правдою."
+ },
+ "culture_japan.1102.desc": {
+  "en": "[target_ruler.GetName] of the [target_clan.GetLongName] has dutifully accepted [target_ruler.GetHerHis] appointment as our new [ROOT.GetCountry.GetGovernment.GetAdjective] official. With this, [target_ruler.GetSheHe] has proved [target_ruler.GetHerHis] loyalty to us and also [target_ruler.GetHerHis] integrity and honor. We will now be able to keep [target_ruler.GetHerHim] close, and keep the influence of the [target_clan.GetLongNameWithNoTooltip] contained.",
+  "uk": "[target_ruler.GetName] ([target_clan.GetLongName]) з пошаною приймає призначення на нову посаду як #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий#! чиновник і тим самим показує свої чесноти: вірність, порядність і честь. Тепер [Select_CString(target_ruler.IsFemale, 'вона', 'він')] буде ближче до нас, а [target_clan.GetLongNameWithNoTooltip] вже не зможе поширювати свій вплив, як раніше."
+ },
+ "culture_japan.1102.title": {
+  "en": "The [target_clan.GetLongNameWithNoTooltip] Accepts to Serve",
+  "uk": "[target_clan.GetLongNameWithNoTooltip] погоджується служити"
+ },
+ "culture_japan.1103.a": {
+  "en": "We will defend our interests by force if necessary!",
+  "uk": "Ми готові відстоювати свої інтереси навіть силою!"
+ },
+ "culture_japan.1103.b": {
+  "en": "[target_shogun.GetNameWithNoTooltip] is the [target_shogunate.GetGovernment.GetRulerTitle] in the end.",
+  "uk": "[target_shogun.GetNameWithNoTooltip] все ж таки [target_shogunate.GetGovernment.GetRulerTitle|l]."
+ },
+ "culture_japan.1103.desc": {
+  "en": "The [target_shogunate.GetLongName] has overstepped its authority, using the pretext of the recent appointment of [target_ruler.GetName] as [target_shogunate.GetGovernment.GetAdjective] official to take away some of the territory that should be rightfully ours. This is an affront that should not be tolerated, and we should be ready to respond to it.",
+  "uk": "[target_shogunate.GetLongName] обурливим чином перевищує свої повноваження і під приводом того, що [target_ruler.GetName] нещодавно [Select_CString(target_ruler.IsFemale, 'була призначена', 'був призначений')] на посаду #L [target_shogunate.GetGovernment.GetAdjective|l]ого#! чиновника, забирає частину територій, які по праву мають належати нам. Ми не потерпимо такої образи!"
+ },
+ "culture_japan.1103.title": {
+  "en": "Overstepping of Authority",
+  "uk": "Перевищення повноважень"
+ },
+ "culture_japan.1104.a": {
+  "en": "We will have to find someone else then.",
+  "uk": "Отже, знайдемо когось іншого."
+ },
+ "culture_japan.1104.b": {
+  "en": "This will not stand, we must punish [target_clan.GetNameWithNoTooltip]!",
+  "uk": "Це неприпустимо. [target_clan.GetNameWithNoTooltip] понесе покарання!"
+ },
+ "culture_japan.1104.desc": {
+  "en": "Our retainer, [target_ruler.GetName] of the [target_clan.GetLongName] has refused the [ROOT.GetCountry.GetGovernment.GetAdjective] summons to serve as an official in our administration. A weak excuse was offered, but this is a clear challenge to our authority.",
+  "uk": "Наш слуга [target_ruler.GetName] ([target_clan.GetLongName]) відмовляється гідно відповісти на #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]е#! послання і стати на посаду урядового чиновника, відбувшись непереконливою відмовкою. Очевидно, це виклик нашій владі."
+ },
+ "culture_japan.1104.title": {
+  "en": "The [target_clan.GetLongNameWithNoTooltip] Refuses to Serve!",
+  "uk": "[target_clan.GetLongNameWithNoTooltip] відмовляється служити!"
+ },
+ "culture_japan.1105.a": {
+  "en": "Let [target_shogun.GetNameWithNoTooltip]'s weakness be apparent to all!",
+  "uk": "Хай усі бачать, наскільки [Select_CString(target_shogun.IsFemale, 'слабка', 'слабкий')] [target_shogun.GetNameWithNoTooltip]!"
+ },
+ "culture_japan.1105.desc": {
+  "en": "Proving [target_shogun.GetHerselfHimself] to be as weak as we suspected, [target_shogun.GetName] has agreed to back down from the demand of service. [target_shogun.GetSheHe|U] has sent the order to fill the position we refused to someone else, but [target_shogun.GetHerHis] authority is severely weakened, as anyone could see the effect of our refusal.",
+  "uk": "Як ми й підозрювали, [target_shogun.GetName] [Select_CString(target_shogun.IsFemale, 'проявила', 'проявив')] слабкість і [Select_CString(target_shogun.IsFemale, 'відмовилася', 'відмовився')] повторно вимагати від нас заступлення на службу. [Select_CString(target_shogun.IsFemale, 'Вона видала', 'Він видав')] наказ знайти іншу людину, яка могла б обійняти цю посаду, однак авторитет [Select_CString(target_shogun.IsFemale, 'її', 'його')] вже сильно підірваний: до чого призвела наша відмова, побачив кожен."
+ },
+ "culture_japan.1105.title": {
+  "en": "[target_shogun.GetNameWithNoTooltip] Backs Down",
+  "uk": "[target_shogun.GetNameWithNoTooltip] йде на попятну"
+ },
+ "culture_japan.1106.a": {
+  "en": "This is not ideal.",
+  "uk": "Це дуже погано."
+ },
+ "culture_japan.1106.desc": {
+  "en": "Our refusal to serve the [target_shogunate.GetLongName] was not well received by the [target_shogunate.GetGovernment.GetAdjective] [target_shogunate.GetGovernment.GetCourtTitle], and they have expressed not only their disappointment but also their anger for our decision. It would not be strange if we soon find the [target_shogunate.GetGovernment.GetAdjective] armies knocking on our door.",
+  "uk": "[target_shogunate.GetLongName] — держава, яка вимагає від своїх підданих повної самовіддачі, тому [target_shogunate.GetGovernment.GetCourtTitle|l] без особливого захвату сприймає нашу відмову стати на #L [target_shogunate.GetGovernment.GetAdjective|l]у#! службу. Нам висловили не лише розчарування, а й обурення таким вчинком. Варто очікувати, що одного прекрасного дня до нас прийдуть #L [target_shogunate.GetGovernment.GetAdjective|l]і#! війська…"
+ },
+ "culture_japan.1106.title": {
+  "en": "The [target_shogunate.GetFlavorRank] is not Happy",
+  "uk": "[target_shogunate.GetFlavorRank] виявляє невдоволення"
+ },
+ "culture_japan.12.a": {
+  "en": "Curtail the privileges of the Za.",
+  "uk": "Обмежити привілеї дза."
+ },
+ "culture_japan.12.b": {
+  "en": "Keep it as it is.",
+  "uk": "Залишити все як є."
+ },
+ "culture_japan.12.desc": {
+  "en": "The Za, the trade guilds in the [ROOT.GetCountry.GetLongName], are becoming increasingly bigger and more organized, to the point that they are able to protect their activities independently. As such, they are influential enough to affect general market prices and there is the risk for them to dominate some of the trades obtaining a monopoly on them. There have been some voices claiming for measures to be taken to curtail their influence, lest we risk having all our economy falling into their hands.",
+  "uk": "Дза — торгові гільдії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! — стають дедалі більшими й згуртованішими. Тепер вони можуть самі убезпечити себе. Дза здобули достатньо могутності, щоб впливати на ринкові ціни, і незабаром вони можуть встановити монополію на деякі товари. Люди просять обмежити вплив дза. Інакше велика ймовірність, що вони візьмуть під контроль усю економіку нашої держави."
+ },
+ "culture_japan.12.title": {
+  "en": "Growing Power of the Za",
+  "uk": "Зростаючий вплив дза"
+ },
+ "culture_japan.1200.a": {
+  "en": "Ask the [target_clan_1.GetLongNameWithNoTooltip] for help.",
+  "uk": "[target_clan_1.GetLongNameWithNoTooltip] нам допоможе — попросимо їх."
+ },
+ "culture_japan.1200.b": {
+  "en": "Rely on the [target_clan_2.GetLongNameWithNoTooltip].",
+  "uk": "[target_clan_2.GetLongNameWithNoTooltip] буде нам опорою."
+ },
+ "culture_japan.1200.c": {
+  "en": "Surely the [target_clan_3.GetLongNameWithNoTooltip] will help us.",
+  "uk": "[target_clan_3.GetLongNameWithNoTooltip] неодмінно нас виручить."
+ },
+ "culture_japan.1200.d": {
+  "en": "We will get through this ourselves.",
+  "uk": "Впораємося своїми силами."
+ },
+ "culture_japan.1200.desc": {
+  "en": "In these times of hardship, the authority of our [ROOT.GetCountry.GetFlavorRank] is threatened. Our name does not inspire the same respect as it should, and our orders tend to be opposed or outright ignored. It is in times like this when we must rely on our loyal supporting clans, for them to fulfill their duty and come to our assistance. However, they may want something in return.",
+  "uk": "Наша влада над [ROOT.GetCountry.Custom('rank_ru_INST')|l] у ці важкі роки значно ослабла. Ім'я наше більше не викликає колишньої поваги, а накази нерідко оскаржуються або не виконуються взагалі. Покластися можна виключно на вірні нам клани — їм час виконати свій обов'язок і прийти нам на допомогу. Однак вони можуть попросити щось натомість…"
+ },
+ "culture_japan.1200.title": {
+  "en": "Declining Power of the [target_shogunate.GetLongNameWithNoTooltip]",
+  "uk": "[target_shogunate.GetLongNameWithNoTooltip] — втрата влади"
+ },
+ "culture_japan.1201.a": {
+  "en": "We will fulfill our duty faithfully!",
+  "uk": "Ми чесно виконаємо свій обов'язок!"
+ },
+ "culture_japan.1201.b": {
+  "en": "Maybe we can be persuaded to it.",
+  "uk": "Спробуйте нас переконати."
+ },
+ "culture_japan.1201.c": {
+  "en": "Our own problems are more important.",
+  "uk": "Нам важливіші власні турботи."
+ },
+ "culture_japan.1201.c.tt": {
+  "en": "They will not like this, and may get a [casus_belli|e] on us",
+  "uk": "Їм це не сподобається; може з'явитися [Concept('casus_belli', 'привід для війни')|e] проти нас."
+ },
+ "culture_japan.1201.desc": {
+  "en": "The weakness of the [target_shogunate.GetLongName] is apparent to all, as they struggle to maintain their authority over the clans. In their time of need, they have come to us for assistance, to their most loyal servants. It is our duty to answer to their request, but we could even make use of the opportunity and ask something in return.",
+  "uk": "[target_shogunate.GetLongName] — слабка держава, і це очевидно. Зараз усі її сили кинуто на підтримання контролю над кланами. У важку для себе годину влада звернулася по допомогу до нас — найвірніших її слуг, і обов'язок зобов'язує нас відгукнутися. Крім того, це можливість попросити щось натомість…"
+ },
+ "culture_japan.1201.title": {
+  "en": "$culture_japan.1200.title$",
+  "uk": ""
+ },
+ "culture_japan.1202.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "culture_japan.1202.desc": {
+  "en": "The [target_clan.GetLongName] have dutifully answered our summons and have come to our aid in our time of need. Thanks to their help, our authority will be somewhat restored, and the rest of the clans are sure to be more respectful of our word.",
+  "uk": "[target_clan.GetLongName] з почуття обов'язку простягає нам руку допомоги. Завдяки цьому наша влада дещо зміцнилася, й інші клани тепер напевно ставитимуться до нас з більшою повагою."
+ },
+ "culture_japan.1202.title": {
+  "en": "The [target_clan.GetLongNameWithNoTooltip] Come to our Support",
+  "uk": "[target_clan.GetLongNameWithNoTooltip] підтримує нас"
+ },
+ "culture_japan.1203.a": {
+  "en": "Promise them rights to [target_location.GetNameWithNoTooltip].",
+  "uk": "Пообіцяти їм права на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]."
+ },
+ "culture_japan.1203.b": {
+  "en": "They will come, or else.",
+  "uk": "Їм доведеться погодитися, а не то…"
+ },
+ "culture_japan.1203.c": {
+  "en": "It is ok, we did not need them anyway.",
+  "uk": "Все нормально. Вони нам все одно не потрібні."
+ },
+ "culture_japan.1203.desc": {
+  "en": "The sleazy [target_clan.GetName] have dared to ask for compensation for fulfilling their duty of coming to our aid. Even if it is true that we need their help, their obligation is to answer our summons without need for anything in return. However, we have some land in [target_location.GetName] that may be used to persuade them.",
+  "uk": "[target_clan.GetName] — зібрання підлюк! Ці люди насмілилися просити винагороди за виконання свого обов'язку. Так, нам важко буде обійтися без їхньої допомоги, однак допомагати безоплатно — їхній прямий обов'язок. Можливо, вдасться розплатитися з ними землею в провінції [target_location.GetName]…"
+ },
+ "culture_japan.1203.title": {
+  "en": "The [target_clan.GetLongNameWithNoTooltip] Ask for Compensation",
+  "uk": "[target_clan.GetLongNameWithNoTooltip] просить винагороди"
+ },
+ "culture_japan.1203.tt": {
+  "en": "If they accept, we will build them a [ShowBuildingTypeName('yamashiro')] in [target_location.GetName]",
+  "uk": "Якщо вони погодяться, ми збудуємо їм #TOOLTIP:BUILDING_TYPE,yamashiro,X #L ямасіро#!#! у [target_location.Custom('LR_PREP')|l] [target_location.GetName]."
+ },
+ "culture_japan.1204.a": {
+  "en": "Accept the gift, and send our help.",
+  "uk": "Прийняти дар і надіслати допомогу."
+ },
+ "culture_japan.1204.b": {
+  "en": "It is not acceptable.",
+  "uk": "Це неприйнятно."
+ },
+ "culture_japan.1204.desc": {
+  "en": "The [target_shogunate.GetLongName] has sent another messenger, trying to persuade us to come to their help. This time, they are offering us the rights to land in [target_location.GetName], as an attempt to sway our favor towards them.",
+  "uk": "[target_shogunate.GetLongName] надсилає чергового гінця. Цього разу нам обіцяють права на землю в [target_location.Custom('LR_PREP')|l] [target_location.GetName] — очевидно в надії заручитися нашою підтримкою."
+ },
+ "culture_japan.1204.title": {
+  "en": "Rights to [target_location.GetNameWithNoTooltip]",
+  "uk": "Права на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "culture_japan.1205.a": {
+  "en": "Very well, send them help.",
+  "uk": "Ну гаразд. Ми надішлемо їм підмогу."
+ },
+ "culture_japan.1205.b": {
+  "en": "We will not be belittled this way!",
+  "uk": "Ми не потерпимо такого приниження!"
+ },
+ "culture_japan.1205.desc": {
+  "en": "The [target_shogunate.GetLongNameWithNoTooltip] have grown bolder in their hubris, as they have threatened us to fulfill our duty to answer their summons, at the risk of rousing their ire. If we do not comply, they may use this as an excuse to brand us as traitors.",
+  "uk": "[target_shogunate.GetLongNameWithNoTooltip] у своїй зарозумілості сміє погрожувати нам: або ми виконаємо свій обов'язок, або на нас розгніваються. Якщо ми й далі виявлятимемо непослух, нас можуть оголосити зрадниками."
+ },
+ "culture_japan.1205.title": {
+  "en": "The [target_shogunate.GetFlavorRank] Sends a Threat",
+  "uk": "[target_shogunate.GetFlavorRank] надсилає погрозу"
+ },
+ "culture_japan.1206.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "culture_japan.1206.desc": {
+  "en": "It would seem that the needs of the [target_shogunate.GetLongNameWithNoTooltip] were not as dire as they seemed, as the [target_shogunate.GetGovernment.GetAdjective] [target_shogunate.GetGovernment.GetCourtTitle] has retracted their petition of aid, claiming that they actually do not need our assistance.",
+  "uk": "Судячи з усього, [target_shogunate.GetLongNameWithNoTooltip] перебуває в куди менш скрутному становищі, ніж здавалося: #L [target_shogunate.GetGovernment.GetAdjective|l]і#! чиновники і [target_shogunate.GetGovernment.GetCourtTitle|l] відкликають прохання про допомогу, заявивши, що не потребують нас."
+ },
+ "culture_japan.1206.title": {
+  "en": "The [target_shogunate.GetFlavorRank] Backs Down",
+  "uk": "[target_shogunate.GetFlavorRank] відступає"
+ },
+ "culture_japan.1207.a": {
+  "en": "We may have to make them aware of their mistake.",
+  "uk": "Доведеться пояснити їм, що вони помиляються."
+ },
+ "culture_japan.1207.b": {
+  "en": "$culture_japan.1203.c$",
+  "uk": ""
+ },
+ "culture_japan.1207.desc": {
+  "en": "The [target_clan.GetLongName] blatantly refuse to answer our summons and have denied us their aid. They have barely mustered some excuses about being currently too busy in their own domains, but it is clear to us that they have simply spurned our authority and wrongly think that their are not duty-bound to us.",
+  "uk": "[target_clan.GetLongName] відповідає відмовою на наш заклик; чекати допомоги не слід. Спроба виправдати цю відмову труднощами у власних володіннях нас не переконала: очевидно, це виклик тим, кого вони зобов'язані підтримувати за велінням обов'язку."
+ },
+ "culture_japan.1207.title": {
+  "en": "The [target_clan.GetLongNameWithNoTooltip] Refuse to Come to our Aid",
+  "uk": "[target_clan.GetLongNameWithNoTooltip] відмовляється прийти на допомогу"
+ },
+ "culture_japan.13.a": {
+  "en": "They will have what they require.",
+  "uk": "Ми виділимо все, що потрібно."
+ },
+ "culture_japan.13.b": {
+  "en": "Impose restrictions on who can move into [target_location.GetNameWithNoTooltip].",
+  "uk": "Запровадити обмеження на переселення: [target_location.GetNameWithNoTooltip] — місце не для кожного."
+ },
+ "culture_japan.13.desc": {
+  "en": "In an increasingly hostile world, the safety of a castle is both a promise of protection and employment. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have for years been abandoning their countryside homes for the settlements beneath the walls of the castles of their masters, along with merchants and craftsmen. Our capital, [target_location.GetName], is no exception and its growth has been a source of concern to our administrators.\\n\\nNew funds will likely be required to improve the infrastructure if we want to minimize problems such as fire and disease.",
+  "uk": "У світі, де на кожному кроці підстерігає смерть, замкові стіни обіцяють безпеку й стабільність. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вже багато років перебираються ближче до замків своїх покровителів. Туди ж переселяються купці й ремісники. Винятком не стало і наше столичне місто — [target_location.GetName]; воно так стрімко розростається, що уряд серйозно занепокоївся.\\n\\nЩоб убезпечити себе від таких бід, як пожежі та хвороби, доведеться оновити інфраструктуру — а для цього потрібні чималі вкладення."
+ },
+ "culture_japan.13.title": {
+  "en": "$jap_jokamachi$",
+  "uk": ""
+ },
+ "culture_japan.1300.a": {
+  "en": "Ask for more land for our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Попросити більше землі: [ROOT.GetCountry.GetFlavorRank|l], де ми правимо, її потребує."
+ },
+ "culture_japan.1300.a.tt": {
+  "en": "We will send a petition for more land",
+  "uk": "Ми надішлемо прохання виділити нам більше землі."
+ },
+ "culture_japan.1300.b": {
+  "en": "Force them to assert our leadership.",
+  "uk": "Примусити їх зміцнити нашу владу."
+ },
+ "culture_japan.1300.c": {
+  "en": "We will not take advantage of their weakness.",
+  "uk": "Ми не станемо витягати вигоду з їхньої слабкості."
+ },
+ "culture_japan.1300.desc": {
+  "en": "The authority of the [target_shogunate.GetLongName] is not as big as it once was, and their weakness is apparent for all to see. We could take advantage of such decline in their leadership by forcing them to give them some more land or privileges.",
+  "uk": "[target_shogunate.GetLongName] сьогодні не користується тим самим впливом, що раніше, і слабкість ця очевидна кожному. Подібний занепад можна обернути на свою користь — наприклад, змусити владу надати нам нові землі чи привілеї."
+ },
+ "culture_japan.1300.title": {
+  "en": "$culture_japan.1200.title$",
+  "uk": ""
+ },
+ "culture_japan.1301.a": {
+  "en": "How dare they demand from us?",
+  "uk": "Як вони насмілилися вимагати щось від нас?"
+ },
+ "culture_japan.1301.b": {
+  "en": "Sooth the diplomacy with other promises.",
+  "uk": "Умиротворити їх, пообіцявши щось інше."
+ },
+ "culture_japan.1301.c": {
+  "en": "Very well, give them rights to [target_location.GetNameWithNoTooltip].",
+  "uk": "Добре. Їм відійде [target_location.GetNameWithNoTooltip]."
+ },
+ "culture_japan.1301.desc": {
+  "en": "The [target_clan.GetLongName] have come to us, assuming our leadership to be weak enough to not be able to retaliate, and have asked the rights to some extra land. Their gall is unprecedented, but it is true that our [ROOT.GetCountry.GetFlavorRank] is not as strong as we would like. Maybe some leniencies now may avoid us some extra trouble in the future.",
+  "uk": "[target_clan.GetLongName] просить у нас права на нові ділянки землі, очевидно, припускаючи, що наша влада слабка, а тому ми не зможемо дати гідну відповідь. Нечувана зухвалість! Однак [ROOT.GetCountry.GetFlavorRank|l] справді володіє меншою могутністю, ніж у колишні часи. Можливо, зробивши деякі послаблення сьогодні, ми зможемо уникнути біди в майбутньому."
+ },
+ "culture_japan.1301.title": {
+  "en": "[target_clan.GetNameWithNoTooltip] Ask for Land",
+  "uk": "[target_clan.GetNameWithNoTooltip] просить землю"
+ },
+ "culture_japan.1302.a": {
+  "en": "We do not need to follow their rules.",
+  "uk": "Ми відмовляємося дотримуватися цих правил."
+ },
+ "culture_japan.1302.b": {
+  "en": "It seems they may not be as weak as they seamed.",
+  "uk": "Схоже, вони не такі вже й слабкі."
+ },
+ "culture_japan.1302.desc": {
+  "en": "The [target_shogunate.GetLongName] have indeed not been pleased about our recent petition for more land. They remind us of our obligation to serve them dutifully with no expected extra reward than what is expected. As such, they do not intend on giving us any extra rights that we are not already entitled to.",
+  "uk": "[target_shogunate.GetLongName], як ми й припускали, відповідає невдоволенням на наше прохання виділити нові ділянки землі. Нам нагадали про обов'язок — необхідність служити вірою і правдою, не очікуючи в нагороду нічого понад те, що вже належить. Розраховувати на якісь нові права немає сенсу."
+ },
+ "culture_japan.1302.title": {
+  "en": "$culture_japan.1205.title$",
+  "uk": ""
+ },
+ "culture_japan.1303.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "culture_japan.1303.desc": {
+  "en": "The [target_shogunate.GetLongName] have cede to our pressure, and have granted us the rights to [target_location.GetName]. That will not only serve to increase our power and authority, but it is also a clear show of how much has the authority of the [target_shogunate.GetFlavorRank] fallen.",
+  "uk": "Під нашим тиском [target_shogunate.GetLongName] йде на поступки й погоджується надати нам права на володіння [target_location.Custom('LR_INST')|l] [target_location.GetName]. Ми не лише зміцнимо свої владу й вплив, а й покажемо народу, що [target_shogunate.GetFlavorRank|l] сьогодні — жалюгідна подоба того, що було раніше."
+ },
+ "culture_japan.1303.title": {
+  "en": "$culture_japan.1204.title$",
+  "uk": ""
+ },
+ "culture_japan.14.a": {
+  "en": "Decree that no man may move without permission.",
+  "uk": "Заборонити переселення без дозволу."
+ },
+ "culture_japan.14.b": {
+  "en": "We cannot stop the growth of the cities.",
+  "uk": "Зростання міст не зупинити."
+ },
+ "culture_japan.14.desc": {
+  "en": "As population increases in the countryside, the size of the plots of land under each farmer has been decreasing with each inheritance. While yields have been increasing, some farmers are still unable to live off their land. Many have come to live in the capital instead, furthering the growth pains of [target_location.GetName].\\n\\nLandholders are complaining and implore us to impose more social order. They strongly suggest we enforce laws to hinder the movement of people within our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Сільське населення зростає, і ділянки землі, що передаються у спадок, стають меншими з кожним поколінням. Попри збільшення врожаю, землероби дедалі рідше можуть прогодуватися за рахунок господарства. Багато хто перебирається до столиці, хоча [target_location.GetName] і без того має труднощі через переселенців.\\n\\nСтомлені терпіти це землевласники благають нас навести лад і прийняти закони, що обмежують переміщення мешканців [ROOT.GetCountry.Custom('CF_RP')|l]."
+ },
+ "culture_japan.14.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] Migrate to [target_location.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] мігрують до [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "culture_japan.15.a": {
+  "en": "We will abolish the old regulations that feed them!",
+  "uk": "Ми скасуємо постанови, на яких вони розбагатіли!"
+ },
+ "culture_japan.15.b": {
+  "en": "Monopolies work well but we should not grant them based on tradition.",
+  "uk": "Монополії — це добре, але не можна надавати їх з опорою на традиції."
+ },
+ "culture_japan.15.c": {
+  "en": "We must protect the arrangements of our ancestors.",
+  "uk": "Необхідно відстоювати те, що заклали предки."
+ },
+ "culture_japan.15.desc": {
+  "en": "The growth of cities has led to the ancient Za trade guilds of our country to rapidly increase their power. The generally chaotic situation in our [ROOT.GetCountry.GetFlavorRank] has also meant that they increasingly rely on their own arrangements for security. The guilds have now tied temples, landholders, and [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to their cause. But they have also gained enemies.\\n\\nSome implore our [ROOT.GetCountry.GetGovernment.GetRulerTitle] to take a stand against the guilds and open up the economy for anyone of ability. Others argue that we should at least give out monopolies and privileges to others than the guilds.",
+  "uk": "Міста стрімко розвиваються, а разом із ними зростає й вплив давніх торгових гільдій — дза. Оскільки на території [ROOT.GetCountry.Custom('CF_RP')|l] надто мало порядку, дбати про свою безпеку купці змушені самостійно. На боці гільдій тепер храми, землевласники й [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], але також у них і чимало ворогів.\\n\\nГромадська думка розділилася. Одні вважають, що якщо [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] не виступить проти гільдій, то участь в економічному житті держави так і залишиться долею обраних. Інші вважають, що монополій і привілеїв у нашій державі заслуговують не лише гільдії."
+ },
+ "culture_japan.15.title": {
+  "en": "Trade Monopolies",
+  "uk": "Торгові монополії"
+ },
+ "culture_japan.16.a": {
+  "en": "Fund the pirates.",
+  "uk": "Виділити піратам кошти."
+ },
+ "culture_japan.16.b": {
+  "en": "Crack down on piracy.",
+  "uk": "Посилити боротьбу проти піратства."
+ },
+ "culture_japan.16.desc": {
+  "en": "The Wakō, pirates originating from various of the many islands around the coasts of [ShowRegionName('japan_region')], have become rampant in the region, raiding the shores of both [ShowSubContinentName('east_asia')] and [ShowRegionName('korea_region')] as well as our own. Despite this, the difficulties of trade with $china$ mean that these pirates are our only source of [ShowCultureGroupName('chinese_group')] and [ShowCultureName('korean_culture')] goods. The increasing frequency of pirate attacks means that we can no longer remain passive. We must take a decision on how to deal with them.",
+  "uk": "Навколишні землі зазнають нападів піратів вако — це вихідці з численних островів біля берегів #TOOLTIP:REGION,japan_region,X #L Японії#!#!. Вако діють не лише в наших краях, а й на узбережжях #TOOLTIP:SUB_CONTINENT,east_asia,X #L Східної Азії#!#! та #TOOLTIP:REGION,korea_region,X #L Кореї#!#!. Торгівля з Китаєм зараз настільки ускладнилася, що роздобути #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайські#!#! чи #TOOLTIP:CULTURE,korean_culture_tt,X #L корейські#!#! товари без участі піратів просто неможливо. З іншого боку, на почастішали напади не можна заплющувати очі. Необхідно щось вжити."
+ },
+ "culture_japan.16.title": {
+  "en": "Wakō",
+  "uk": "Вако"
+ },
+ "culture_japan.17.a": {
+  "en": "We must make use of them!",
+  "uk": "Потрібно витягти з цього користь!"
+ },
+ "culture_japan.17.b": {
+  "en": "We must stop these raids!",
+  "uk": "Потрібно припинити набіги!"
+ },
+ "culture_japan.17.desc": {
+  "en": "In times of uncertainty, the fishermen and seafarers of these lands have often resorted to piracy and raiding the coasts of our neighbors. The profits they could get from performing honest trade are usually not as big as what they can get from simple pillaging and raiding, and 'Bahan Trade' has started being used to refer to these pirate raids.\\n\\nTimes and balance of power are prone to change, however, and the Bahan Trade has once again become an increasingly common occupation among our subjects. Some lords have themselves started to either fund or actively partake in the raids. Meanwhile, the victims of these Wakō pirates have begun to offer titles and honors to those that help stop the menace.",
+  "uk": "У неспокійні часи місцеві рибалки й мореплавці стають на шлях піратства. Вони влаштовують набіги на сусідні береги, оскільки заробляти на життя чесною працею стає майже неможливо. У народі такі набіги називають «баханською торгівлею».\\n\\nЧаси змінюються, а разом із ними змінюються й розклади сил. Зараз наші піддані дедалі частіше звертаються до «баханської торгівлі». Особливо впливові особистості почали вкладати свої кошти в набіги, а деякі навіть беруть участь у них особисто. Тих, хто покладе край цій загрозі, жертви вако обіцяють нагородити титулами й осипати почестями."
+ },
+ "culture_japan.17.title": {
+  "en": "The Wakō Pirates and the Bahan Trade",
+  "uk": "Пірати вако і «баханська торгівля»"
+ },
+ "culture_japan.18.a": {
+  "en": "It is not something that concerns us.",
+  "uk": "Нас це не хвилює."
+ },
+ "culture_japan.18.a.tt": {
+  "en": "All known [countries|e] within [trade_range|e] get [ShowBiasValue('opinion_pirate_supporters')|+=0] [opinion|e] of [ROOT.GetCountry.GetName].",
+  "uk": "Усі відомі [Concept('countries', 'держави')|e] в межах [Concept('trade_range', 'торгової дистанції')|e] отримують [ShowBiasValue('opinion_pirate_supporters')|+=0] до [Concept('opinion', 'думки')|e] про [ROOT.GetCountry.Custom('CL_PREP')]."
+ },
+ "culture_japan.18.b": {
+  "en": "Let us help protect the foreign countries.",
+  "uk": "Ми допоможемо захистити іноземні держави."
+ },
+ "culture_japan.18.b.tt": {
+  "en": "All known [countries|e] within [trade_range|e] get [ShowBiasValue('opinion_pirate_fighting')|+=0] [opinion|e] of [ROOT.GetCountry.GetName].",
+  "uk": "Усі відомі [Concept('countries', 'держави')|e] в межах [Concept('trade_range', 'торгової дистанції')|e] отримують [ShowBiasValue('opinion_pirate_fighting')|+=0] до [Concept('opinion', 'думки')|e] про [ROOT.GetCountry.Custom('CL_PREP')]."
+ },
+ "culture_japan.18.desc": {
+  "en": "Piracy and raiding has continued to increase. The participants range from simple fishermen and minor lords to those living on the foreign coastlines themselves. Over time, powerful interests, at home as well as abroad, have begun to patronize successful pirate chiefs, and it seems pirate strongholds now litter our islands and coasts.\\n\\nNow neighboring states have begun to take much harsher action. They are preparing for the arrival of the raiders and actively hunt down pirate leaders. [target_ruler.GetName] [target_ruler.GetHerselfHimself] has received clear threats from foreign envoys that unless we act forcefully, they will consider our vessels enemies and presume that they are among the pirates.",
+  "uk": "Піратству не видно кінця. У набігах беруть участь і злиденні рибалки, і дрібні поміщики, і навіть мешканці узбереж інших держав. З часом успішним ватажкам піратських банд почали покровительствувати впливові кола як на батьківщині, так і за кордоном. Тепер наші острови й береги всіяні піратськими фортецями.\\n\\nСусідні держави починають діяти серйозно: вони готуються до прибуття налітників і полюють на найіменитіших піратів. Погрози від іноземних послів отримує навіть [target_ruler.GetName]: нам дали зрозуміти, що якщо ми не застосуємо силу, то наші кораблі вважатимуться піратськими."
+ },
+ "culture_japan.18.title": {
+  "en": "Reactions to the Wakō",
+  "uk": "Відповідь на дії вако"
+ },
+ "culture_japan.19.a": {
+  "en": "What do we care if [target_character.GetSheHe] lives off the wealth of foreigners?",
+  "uk": "Хай собі живе. Яке нам діло до пограбованих чужинців?"
+ },
+ "culture_japan.19.b": {
+  "en": "Perhaps [target_character.GetSheHe] could be made a servant of our state...",
+  "uk": "Можливо, з [Select_CString(target_character.IsFemale, 'неї', 'нього')] вийде гідний слуга нашої держави…"
+ },
+ "culture_japan.19.c": {
+  "en": "We must pull out these weeds of decay from our garden!",
+  "uk": "Цей бур'ян псує наш квітучий сад! Його треба викорчувати!"
+ },
+ "culture_japan.19.desc": {
+  "en": "Lords in [target_location.GetName] have become known as fearless corsairs, and the loyalty and wealth they command has afforded them great influence and power. There, a particularly successful pirate leader by the name of [target_character.GetName] has built a stronghold sustained entirely by [target_character.GetHerHis] expeditions. Taking down such a fortress would likely come at a high cost, but [target_character.GetSheHe] is making a mockery out of our own naval ambitions.",
+  "uk": "Аристократи з провінції [target_location.GetName] здобули собі славу безстрашних морських розбійників і тепер користуються значними багатством і впливом. Серед піратських ватажків особливо вирізняється [target_character.GetName]: на награбовані кошти [Select_CString(target_character.IsFemale, 'вона навіть збудувала', 'він навіть збудував')] собі фортецю. Щоб знести її, знадобляться чималі витрати. [target_character.GetName] це чудово розуміє й глузує з нашого флоту."
+ },
+ "culture_japan.19.title": {
+  "en": "Pirate Stronghold in [target_location.GetNameWithNoTooltip]",
+  "uk": "Піратська фортеця: [target_location.GetNameWithNoTooltip]"
+ },
+ "culture_japan.2.a": {
+  "en": "It is just how they keep their fighting skills sharp.",
+  "uk": "Вони просто відточують бойову майстерність."
+ },
+ "culture_japan.2.b": {
+  "en": "They will be punished severely.",
+  "uk": "Вони понесуть суворе покарання."
+ },
+ "culture_japan.2.desc": {
+  "en": "The prevailing peace of past few years has left many in the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] caste without active work to perform. These idle hands have now turned instead to exploiting and oppressing the local [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] population. They will need to be dealt with.",
+  "uk": "Наша держава вже давно не воювала, через що багато [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] фактично залишилися без роботи. Деякі з них не знайшли собі іншого заняття, окрім як гнобити й експлуатувати місцевих мешканців. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] вже стогнуть під їхнім гнітом. Потрібно негайно щось вжити."
+ },
+ "culture_japan.2.title": {
+  "en": "Unruly [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]",
+  "uk": "Непокірні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]"
+ },
+ "culture_japan.20.a": {
+  "en": "By all means let us do so.",
+  "uk": "Звичайно, ми так і вчинимо."
+ },
+ "culture_japan.20.b": {
+  "en": "The [target_country.GetLongNameWithNoTooltip] is weak and weak willed.",
+  "uk": "[target_country.GetLongNameWithNoTooltip] — слабка й безвольна держава."
+ },
+ "culture_japan.20.desc": {
+  "en": "[target_character.GetName] has sent word that the [target_character.GetSheHe] requires our presence near the capital, in accordance to the policy of [ShowPolicyName('sankin_kotai_policy')]. Residing in our own [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ROOT.GetCountry.GetCapital.GetName] all year will not be acceptable, and our family must instead reside in [target_country.GetCapital.GetName] all year. While this has at times already been the case, this [target_country.GetGovernment.GetAdjective] order leaves little room for us to decide for ourselves. [target_own_ruler.GetName] must travel to the [target_country.GetGovernment.GetAdjective] [target_country.GetGovernment.GetCourtTitle] at once or face dire consequences.",
+  "uk": "[target_character.GetName] повідомляє, що ми повинні беззастережно дотримуватися політики [ShowPolicyName('sankin_kotai_policy')], що передбачає постійну нашу присутність поблизу столиці. [ROOT.GetCountry.GetGovernment.GetCourtTitle] в районі [ROOT.GetCountry.GetCapital.GetName] більше не може служити нам постійною резиденцією — тепер цю роль виконуватиме [target_country.GetCapital.GetName]. І хоча до подібного нашій родині не звикати, все ж таки #L [target_country.GetGovernment.GetAdjective|l]е#! розпорядження не залишає майже жодної свободи дій. Якщо, всупереч #L [target_country.GetGovernment.GetAdjective|l]ому#! велінню, [target_country.GetGovernment.GetCourtTitle|l] і далі пустуватиме, [target_own_ruler.GetName] зіткнеться з суворими наслідками."
+ },
+ "culture_japan.20.title": {
+  "en": "The Question of Residence",
+  "uk": "Питання місця проживання"
+ },
+ "culture_japan.21.a": {
+  "en": "The rise of a new [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] розквітає по-новому."
+ },
+ "culture_japan.21.b": {
+  "en": "Actually, [old_ruler.GetShortNameWithNoTooltip] adopted [new_ruler.GetShortNameWithNoTooltip] in [old_ruler.GetHerHis] will.",
+  "uk": "[old_ruler.GetShortNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'залишила', 'залишив')] заповіт, згідно з яким [new_ruler.GetShortNameWithNoTooltip] — [Select_CString(old_ruler.IsFemale, 'її', 'його')] законна дитина."
+ },
+ "culture_japan.21.desc": {
+  "en": "With the rise to power of [new_ruler.GetName], the power of the old [old_ruler.GetDynasty.GetName] has come to an end. This will mark a new era for our [ROOT.GetCountry.GetFlavorRank], in which even our identity may be questioned. In the end, can we really be called the [ROOT.GetCountry.GetLongName] without the [old_ruler.GetDynasty.GetNameWithNoTooltip] dynasty?",
+  "uk": "[old_ruler.GetDynasty.GetName] поступово втрачає свій вплив. Владу переймає династія [new_ruler.GetName]. У [ROOT.GetCountry.Custom('rank_ru_PREP')|l] починається нова епоха — епоха, в якій саме наше ім'я піддаватиметься сумнівам. І справді, хіба гідні ми називатися «[ROOT.GetCountry.GetLongName]», якщо династія [old_ruler.GetDynasty.GetNameWithNoTooltip] впаде?"
+ },
+ "culture_japan.21.title": {
+  "en": "A New Dynasty Rises",
+  "uk": "Сходження нової династії"
+ },
+ "culture_japan.22.a": {
+  "en": "Running from the battle, a shameful display!",
+  "uk": "Втекти з поля бою — який сором!"
+ },
+ "culture_japan.22.b": {
+  "en": "[target_character.GetNameWithNoTooltip] is a [target_character.GetWomanMan] of honor.",
+  "uk": "[target_character.GetNameWithNoTooltip] — людина честі."
+ },
+ "culture_japan.22.desc": {
+  "en": "To be rewarded for their deeds in battle, our warriors put for display the decapitated heads of the enemies they have fallen. The more impressive the head is, the better the reward. We have been waging war like this for generations, but there are always people who want to exploit it. Heads of lower soldiers or even local peasants presented as higher ranking officials, heads from people they have not actually killed, or any other kind of subterfuge serves to increase their apparent deeds.\\n\\nOne such dubious behavior appears to be circulating around [target_character.GetName], as in a recent encounter [target_character.GetSheHe] left the fighting before it was finished due to [target_character.GetHerHim] already being satisfied with the amount of heads taken. Of course, this is not uncommon, as many prefer a smaller reward over risking their life and thus leave the battle once satisfied with their prizes. However, the rumors around [target_character.GetNameWithNoTooltip] accuse [target_character.GetHerHim] of having done so due to fear of the enemy rather than being satisfied with the heads taken, and they even cast some doubts about the authenticity of those heads.",
+  "uk": "Щоб отримати нагороду за подвиги в бою, наші воїни виставляють напоказ відрубані голови ворогів. Чим солідніший ворог, тим щедріша нагорода. Цей звичай зародився ще багато поколінь тому, але досі знаходяться охочі отримати легку наживу, видаючи голови простих солдатів чи селян за голови високопосадовців. Деякі навіть пред'являють відрубані іншими голови як власні трофеї й вдаються до інших хитрощів, аби виставити себе справжнім воїном.\\n\\nУ спробі обману нещодавно [Select_CString(target_character.IsFemale, 'була викрита', 'був викритий')] [target_character.GetName]: [Select_CString(target_character.IsFemale, 'вона покинула', 'він покинув')] поле бою, задовольнившись кількістю зібраних голів. Така поведінка цілком зрозуміла: багато хто воліє отримати менше, але зате напевно вижити, а тому виходять із бою, зібравши достатньо трофеїв. Однак, якщо вірити чуткам, [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'вчинила', 'вчинив')] так із боягузтва, а не тому, що «врожай» видався гідним. Крім того, справжність деяких голів викликає певні сумніви…"
+ },
+ "culture_japan.22.title": {
+  "en": "Heads and Turned Tail",
+  "uk": "Очманіло"
+ },
+ "culture_japan.3.a": {
+  "en": "Strength in solace.",
+  "uk": "Нам нема чого поспішати."
+ },
+ "culture_japan.3.b": {
+  "en": "Adopt and legitimize [target_character.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetNameWithNoTooltip] стане нашою дитиною і спадкоємцем."
+ },
+ "culture_japan.3.desc": {
+  "en": "Since [target_ruler.GetName] has been unable to provide our [ROOT.GetCountry.GetFlavorRank] with a suitable [ROOT.GetCountry.GetGovernment.GetHeirTitle], speculation over the future course of the nation is running rampant. These debates threaten to undermine our position. [target_ruler.GetShortNameWithNoTooltip] could adopt [target_character.GetName] as [target_ruler.GetHerHis] own [target_character.GetDaughterSon] and [ROOT.GetCountry.GetGovernment.GetHeirTitle], but doing so might be perceived as a sign of weakness.",
+  "uk": "Оскільки [target_ruler.GetName] досі не може забезпечити [ROOT.GetCountry.Custom('rank_ru_DAT')|l] гідного спадкоємця, люди дедалі більше турбуються про долю держави. Подібні розмови підривають нашу репутацію. [target_ruler.GetShortNameWithNoTooltip], звичайно, може оголосити, що [target_character.GetName] — [Select_CString(target_ruler.IsFemale, 'її', 'його')] [Select_CString(target_character.IsFemale, 'дочка', 'син')] і [ROOT.GetCountry.GetGovernment.GetHeirTitle|l], однак в очах народу це буде проявом слабкості."
+ },
+ "culture_japan.3.title": {
+  "en": "Heirless",
+  "uk": "Відсутність спадкоємця"
+ },
+ "culture_japan.4.a": {
+  "en": "Admit that the situation is not stellar.",
+  "uk": "Визнаємо, що справи йдуть не дуже добре."
+ },
+ "culture_japan.4.b": {
+  "en": "Insist that everything is fine!",
+  "uk": "Будемо наполягати на тому, що все добре."
+ },
+ "culture_japan.4.desc": {
+  "en": "The relative instability of our [ROOT.GetCountry.GetFlavorRank] has led others to begin questioning our ability to maintain national cohesion. [target_character.GetName] has seen [target_character.GetHerHis] leadership and general management skills constantly being put into question. Admitting that the situation is somewhat out of our control will be a severe blow to our authority and influence.",
+  "uk": "Через нестабільність у [ROOT.GetCountry.Custom('rank_ru_PREP')|l] багато хто вважає, що ми не здатні підтримувати національну єдність. [target_character.GetName] бачить, що [Select_CString(target_character.IsFemale, 'її', 'його')] лідерські якості постійно піддаються сумніву. Визнавши, що ситуація вийшла з-під контролю, ми втратимо вплив і репутацію."
+ },
+ "culture_japan.4.title": {
+  "en": "Losing Face",
+  "uk": "Втрата репутації"
+ },
+ "culture_japan.5.a": {
+  "en": "Naturally the chest shall be a gift for [target_emperor_character.GetHimHerFormal]!",
+  "uk": "Хіба можна відмовити [Select_CString(target_emperor_character.IsFemale, 'Її', 'Його')] імператорській Величності?"
+ },
+ "culture_japan.5.b": {
+  "en": "Unfortunately, we cannot afford such gifts.",
+  "uk": "На жаль, ми не можемо дозволити собі такі подарунки."
+ },
+ "culture_japan.5.desc": {
+  "en": "A beautiful lacquerware chest in our study has caught the eyes of an imperial retainer, and word of this fantastic artifact has spread to the imperial court, and the [target_emperor.GetGovernment.GetRulerTitle] [target_emperor_character.GetHerselfHimself]. There seems to have developed a quiet understanding between ourselves and the [target_emperor.GetGovernment.GetRulerTitle] that this chest be presented as a gift to [target_emperor_character.GetHerHim] from [target_emperor_character.GetHerHis] most loyal subject.",
+  "uk": "Розкішна лакована скриня у вашому кабінеті привернула увагу імперського слуги, і невдовзі про цей вишуканий виріб дізнався не лише весь двір, а й [Select_CString(target_emperor.GetGovernment.GetRuler.IsFemale,'сама', 'сам')] [target_emperor.GetGovernment.GetRulerTitle|l]. Така зацікавленість може означати лише одне: [target_emperor.GetGovernment.GetRulerTitle|l] бажає отримати цю скриню як подарунок…"
+ },
+ "culture_japan.5.title": {
+  "en": "Lacquerware For the [target_emperor.GetGovernment.GetRulerTitle]",
+  "uk": "[target_emperor.GetGovernment.GetRulerTitle] вимагає лакові вироби"
+ },
+ "culture_japan.6.a": {
+  "en": "We are in dire need of favor with the [target_boss.GetGovernment.GetRulerTitle].",
+  "uk": "[target_boss.GetGovernment.GetRulerTitle] напевно оцінить наше запрошення."
+ },
+ "culture_japan.6.b": {
+  "en": "Let us get this batch on the market!",
+  "uk": "Потрібно якнайшвидше продати першу партію!"
+ },
+ "culture_japan.6.c": {
+  "en": "It will be a divine offering.",
+  "uk": "Це буде божественний дар."
+ },
+ "culture_japan.6.desc": {
+  "en": "The first Sake of the season is ready, and the traditional tasting is only a few weeks away. The question is whether we should invite the [target_boss.GetGovernment.GetRulerTitle] for a celebratory first tasting, or if we should try to leverage our position in the marketplace and sell early instead.",
+  "uk": "Перше в цьому сезоні саке нарешті готове, і його дегустація відбудеться вже за кілька тижнів. [target_boss.GetGovernment.GetRulerTitle] візьме участь у цьому урочистому заході, якщо ми [Select_CString(target_boss.GetGovernment.GetRuler.IsFemale,'її', 'його')] запросимо. Але з іншого боку, ми можемо раніше розпочати продажі, щоб зміцнити свої позиції на ринку…"
+ },
+ "culture_japan.6.title": {
+  "en": "The First Sake",
+  "uk": "Перше саке"
+ },
+ "culture_japan.7.a": {
+  "en": "Our army always has first claim on equipment.",
+  "uk": "Нашій армії ці мечі потрібніші."
+ },
+ "culture_japan.7.b": {
+  "en": "We require money above all else!",
+  "uk": "Не можна втрачати таку можливість заробити!"
+ },
+ "culture_japan.7.desc": {
+  "en": "A new smith has produced a shipment of swords of unparalleled quality for our troops. We can either equip our own forces with them, or use the opportunity to sell them and make a large profit. Swords like these are likely to be in great demand with our neighbors...",
+  "uk": "Новий коваль викував для наших військ партію мечів найвищої якості. Ми можемо озброїти ними своїх солдатів або ж продати: наші сусіди напевно заплатять добру ціну за таку чудову зброю…"
+ },
+ "culture_japan.7.title": {
+  "en": "Exceptional Swords",
+  "uk": "Чудові мечі"
+ },
+ "culture_japan.8.a": {
+  "en": "There shall be no mercy for this dishonorable act!",
+  "uk": "Це непростимий безчесний вчинок. Пощади не буде!"
+ },
+ "culture_japan.8.b": {
+  "en": "Ambition should actually be rewarded, not punished.",
+  "uk": "Цілеспрямованість слід заохочувати, а не карати."
+ },
+ "culture_japan.8.desc": {
+  "en": "It would seem the political climate in the [ROOT.GetCountry.GetLongName] is not as stable as it was thought. Traveling across the country, [target_ruler.GetName] was resting at a temple near [target_ruler.GetHerHis] forces when the army's general saw an opportunity and surrounded the temple complex with [target_character.GetHerHis] own forces, claiming that 'the enemy was inside'. Only the swift and decisive action of loyalist troops led to the timely rescue of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and the traitor's capture.\\n\\nThe general's motives are unclear, and [target_character.GetSheHe] could well have been motivated by anything, from a desire for revenge to a blatant lust for power. The incident has reaffirmed [target_ruler.GetShortNameWithNoTooltip]'s control over the troops, but the brief skirmish that erupted has cost the lives of many good men, and it is clear that a renewed focus will be required on internal politics to ensure that this does not occur again.",
+  "uk": "Схоже, [ROOT.GetCountry.GetLongName] — не така політично стійка держава, як нам здавалося. Подорожуючи нею, [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'відпочивала', 'відпочивав')] у храмі неподалік від своїх військ. Скориставшись цією можливістю, генерал і [Select_CString(target_character.IsFemale, 'її', 'його')] гвардія оточили територію храму, заявляючи, що всередині переховується ворог. На щастя, вірні солдати швидко й рішуче схопили [Select_CString(target_character.IsFemale, 'зрадницю', 'зрадника')], і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'була врятована', 'був врятований')].\\n\\nПричиною дій генерала могло бути що завгодно — від бажання помсти до безсоромної жаги влади. Цей випадок вкотре довів, що [target_ruler.GetShortNameWithNoTooltip] може розраховувати на вірність своїх військ, але ця сутичка коштувала життя багатьом гідним людям. Очевидно, нам потрібно приділяти більше уваги внутрішній політиці, щоб подібне не повторювалося."
+ },
+ "culture_japan.8.title": {
+  "en": "Attempted Coup!",
+  "uk": "Спроба перевороту!"
+ },
+ "culture_japan.9.a": {
+  "en": "We should encourage the development of these castle towns.",
+  "uk": "Потрібно заохочувати розвиток замкових міст."
+ },
+ "culture_japan.9.b": {
+  "en": "We have more important things to focus on.",
+  "uk": "Потрібно зосередитися на важливіших речах."
+ },
+ "culture_japan.9.desc": {
+  "en": "Our neighboring [target_neighbor.GetName] have begun building new forts, which they surround with #italic $jap_jokamachi$#!, 'Castle Towns' emerging around it. These are settled by [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] with no separation between the social groups and no regular allotment, ensuring that the [ROOT.GetCountry.GetGovernment.GetRulerTitle] can maintain tight control over the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] class.\\n\\nThe other classes, combined with the establishment of free markets and open guilds, stimulate merchandise and trade, and therefore prosperity. The $jap_jokamachi$ thereby could become a means for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to increase control both in the military and economic spheres, while at the same time increasing the wealth of the domain.",
+  "uk": "На території #ONCLICK:COUNTRY,[target_neighbor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_neighbor.Custom('CL_tt')],X [target_neighbor.Custom('CL_RP')|L]#!#! по сусідству з нами зводяться нові фортеці, оточені #italic дзьокамати#! — замковими містами. У цих містах селяться [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Завдяки тому, що в державі немає поділу між соціальними групами і постійних земельних наділів, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] править твердою рукою, і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] не виходять за межі дозволеного.\\n\\nІнші стани торгують і виробляють товари, а вільні ринки й відкриті гільдії сприяють процвітанню держави. Таким чином, за допомогою дзьокамати [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] посилює контроль над армією та економікою, водночас підвищуючи добробут своїх володінь."
+ },
+ "culture_japan.9.title": {
+  "en": "$jap_jokamachi$ Spread",
+  "uk": "Поширення дзьокамати"
+ },
+ "wako_raids": {
+  "en": "Wakō Raids",
+  "uk": "Набіги вако"
+ }
+}

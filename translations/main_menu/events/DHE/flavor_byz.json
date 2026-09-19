@@ -1,0 +1,2370 @@
+{
+ "BYZ_ACCEPT_LOCAL_POPULATION": {
+  "en": "Every non-[ShowCultureGroupName('greek_group')] [pop|e] in [ShowRegionName('anatolia_region')] that reside in either a [ShowLocationRankName('city')] or a [ShowLocationRankName('town')] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "[Concept('pop_satisfaction', 'Вдоволення')|e] усіх [Concept('pop', 'груп населення')|e], що не належать до #TOOLTIP:CULTUREGROUP,greek_group,X #L грецької#!#! культури, з #TOOLTIP:LOCATIONRANK,city,X #L міст#!#! і #TOOLTIP:LOCATIONRANK,town,X #L містечок#!#! #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! зросте на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]."
+ },
+ "BYZ_ALL_ITALIAN_MERCHANTS_BECOME_UNHAPPY": {
+  "en": "All [ShowCultureGroupName('italian_group')] [pops|e] lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e].",
+  "uk": "Усі #TOOLTIP:CULTUREGROUP,italian_group,X #L італійські#!#! [Concept('pops', 'групи населення')|e] втрачають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "BYZ_ALL_ORTHODOX_BECOME_UNHAPPY": {
+  "en": "All [ShowReligionAdjective('orthodox')] [pops|e] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e].",
+  "uk": "Усі #TOOLTIP:RELIGION,orthodox_tt,X #L православні#!#! [Concept('pops', 'групи населення')|e] втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "BYZ_ALL_PRIMARY_AND_ACCEPTED_POP_BECOME_HAPPIER": {
+  "en": "Every [pop|e] that is either [primary_culture|e] or [accepted_culture|e] will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Кожна [Concept('pop', 'група населення')|e], що належить до [Concept('primary_culture', 'основної')|e] або [Concept('accepted_culture', 'визнаної')|e] культури, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "BYZ_ALL_THEMATA_PROVINCES_GAIN_NOBLE_LOYALTY": {
+  "en": "All [ShowPopTypeName('nobles')] [pops|e] in [locations|e] with [ShowBuildingTypeName('thema_headquarters')] gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Всі [Concept('pops', 'групи населення')|e] зі стану #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! у [Concept('locations', 'районах')|e] зі #TOOLTIP:BUILDING_TYPE,thema_headquarters,X #L столицями фем#!#! отримують [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
+ },
+ "BYZ_COURT_EVENTS_WILL_CONTINUE": {
+  "en": "The #Y Byzantine Court Influence#! [events|e] will continue triggering.",
+  "uk": "[Concept('events', 'Події')|e], пов'язані з #Y впливом при візантійському дворі#!, продовжать відбуватися."
+ },
+ "BYZ_DEAL_REJECTED": {
+  "en": "#N The deal is rejected.#!",
+  "uk": "#N Угода зірвалася.#!"
+ },
+ "BYZ_DEAL_WITH_THESSALONIKI_COMMUNE": {
+  "en": "Should we not manage to gain [ROOT.GetVariable('thessaloniki_pop_sat').GetValue|V0%] [pop_satisfaction|e] in [target_location.GetName] within #Y 3 Years#!, [target_location.GetProvince.GetName] will #Y Rise Up#!.",
+  "uk": "Якщо ми не досягнемо [ROOT.GetVariable('thessaloniki_pop_sat').GetValue|V0%] [Concept('pop_satisfaction', 'вдоволення')|e] в [target_location.Custom('LR_PP')|l] [target_location.GetName] протягом #Y 3 років#!, провінція [target_location.GetProvince.GetName] #Y повстане#!."
+ },
+ "BYZ_FALL_OF_BYZANTIUM_CONVERSION": {
+  "en": "All of our [ShowCultureName('greek_culture')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецьких#!#! [Concept('pops', 'груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]"
+ },
+ "BYZ_IF_THEY_ACCEPT": {
+  "en": "We will request [mercenaries|e] from [target_country.GetName]. If they accept the following will happen:",
+  "uk": "Ми запросимо [Concept('mercenaries', 'найманців')|e] з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Якщо вони погодяться, станеться таке:"
+ },
+ "BYZ_MARBLED_EMPEROR_TOOLTIP": {
+  "en": "Sometimes, the history of a person can be altered, even that of [target_character.GetName]...",
+  "uk": "Іноді історію життя людини можна переписати заново. Навіть якщо це [target_character.GetName]…"
+ },
+ "BYZ_NO_MORE_COURT_EVENTS": {
+  "en": "The #Y Byzantine Court Influence#! [events|e] will no longer trigger.",
+  "uk": "[Concept('events', 'Події')|e], пов'язані з #Y впливом при візантійському дворі#!, перестануть відбуватися."
+ },
+ "BYZ_RESTORE_GREEK_POPS_IN_ANATOLIAN_CITIES": {
+  "en": "#G 10%#! of the non-[ShowCultureGroupName('greek_group')] [pop|e] in [ShowRegionName('anatolia_region')] that reside in either a [ShowLocationRankName('city')] or a [ShowLocationRankName('town')] will convert to [ROOT.GetCulture.GetName].",
+  "uk": "#G 10%#! [Concept('pop', 'груп населення')|e], що не належать до #TOOLTIP:CULTUREGROUP,greek_group,X #L грецької#!#! культури та проживають у #TOOLTIP:LOCATIONRANK,city,X #L містах#!#! і #TOOLTIP:LOCATIONRANK,town,X #L містечках#!#! #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, приймуть #L [ROOT.GetCulture.GetName|l]у#! культуру."
+ },
+ "BYZ_SMYRNA_GREEKS_GAIN_SATISFACTION": {
+  "en": "All [ShowCultureName('greek_culture')] [pops|e] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецьких#!#! [Concept('pops', 'груп населення')|e] зросте на [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%]"
+ },
+ "BYZ_SMYRNA_PEOPLE_CONVERT_TO_GREEK": {
+  "en": "#G 20%#! of the [pops|e] will convert to [ShowCultureName('greek_culture')]",
+  "uk": "#G 20%#! [Concept('pops', 'груп населення')|e] стануть #TOOLTIP:CULTURE,greek_culture_tt,X #L греками#!#!"
+ },
+ "BYZ_STABILITY_DEPENDS_ON_RULER_ADM": {
+  "en": "The amount of [stability|e] we gain will scale with [target_character.GetName]'s [adm|e].",
+  "uk": "Рівень [Concept('stability', 'стабільності')|e], якого ми досягнемо, залежить від [Concept('adm', 'адміністративної навички')|e] персонажа [target_character.GetName]."
+ },
+ "BYZ_THE_COST_WILL_SCALE_WITH_RULERS_ADM": {
+  "en": "The amount of [gold|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [adm|e].",
+  "uk": "Кількість [Concept('gold', 'золота')|e], яку ми заплатимо, залежить від [Concept('adm', 'адміністративної навички')|e] персонажа [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
+ },
+ "BYZ_THE_COST_WILL_SCALE_WITH_RULERS_MIL": {
+  "en": "The amount of [gold|e] we pay will scale with [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s [mil|e].",
+  "uk": "Кількість [Concept('gold', 'золота')|e], яку ми заплатимо, залежить від [Concept('mil', 'військової навички')|e] персонажа [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
+ },
+ "BYZ_UNLOCK_CONSTANTINOPLE_MANAGER_CABINET_ACTION": {
+  "en": "Unlocks the [ShowCabinetActionName('aid_constantinople')] Cabinet Action.",
+  "uk": "Відкриває дію ради «#TOOLTIP:CABINET_ACTION,aid_constantinople,X #L Допомога Константинополю#!#!»."
+ },
+ "BYZ_VARANGIAN_GUARD_RESTORED_TT": {
+  "en": "#G +1#! [ShowModifierTypeName('num_of_varangian_units')].",
+  "uk": ""
+ },
+ "BYZ_additional_events_become_available": {
+  "en": "Additional [events|e] become available when [target_character.GetName] is considered co-emperor",
+  "uk": ""
+ },
+ "BYZ_conquered_locations_in_morea_will_be_more_integrated": {
+  "en": "For the next #W 30#! years, newly conquered [locations|e] in [ShowAreaName('morea_area')] will receive #G +30.0%#! [integration|e]",
+  "uk": ""
+ },
+ "BYZ_do_not_get_informed_about_migrations": {
+  "en": "[pops|e] of [ShowCultureName('albanian')] [culture|e] will keep migrating to our lands, but we will no longer be notified about it",
+  "uk": ""
+ },
+ "BYZ_more_reasons_to_migrate_here": {
+  "en": "[ShowCultureName('albanian')] [pops|e] will be more likely to migrate into our lands via the [event|e] if we grant the [ShowEstatePrivilegeName('tribes_land_rights')] [estate_privilege|e]",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_DESC_chastening_of_venice": {
+  "en": "The pillaging and destruction suffered by the city of Venice as it came under Byzantine control has left a lasting mark upon it.",
+  "uk": "Грабежі та руйнування, вчинені візантійськими військами у Венеції, залишили на місті незгладимий слід."
+ },
+ "STATIC_MODIFIER_NAME_chastening_of_venice": {
+  "en": "Chastening of Venice",
+  "uk": "Покарання Венеції"
+ },
+ "able_to_add_reform_later_tt": {
+  "en": "We will be able to adopt this [government_reform|e] later",
+  "uk": ""
+ },
+ "allowed_italian_merchants_desc": {
+  "en": "From [events|e]",
+  "uk": ""
+ },
+ "angry_barlaamite_clergy_tt": {
+  "en": "Due to their support for [target_character_1.GetName], approximately [ROOT.GetVariable('num_barlaamite_pops_variable').GetValue|V0] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] [pops|e] across our [ROOT.GetCountry.GetFlavorRank] will suffer [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": ""
+ },
+ "angry_palamite_clergy_tt": {
+  "en": "Due to their support for [target_character_2.GetName], approximately [ROOT.GetVariable('num_clergy_palamite_pops_variable').GetValue|V0] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] [pops|e] across our [ROOT.GetCountry.GetFlavorRank] will suffer [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": ""
+ },
+ "byz_additional_noble_power": {
+  "en": "For the next #W 30#! years, newly conquered [locations|e] in [ShowAreaName('morea_area')] will receive [ShowModifier('BYZ_morea_nobles')] [modifier|e] for #W 30#! years from the moment they are conquered",
+  "uk": ""
+ },
+ "byz_court_wants_to_force_societal_changes": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] wishes us to force changes in our society",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] бажає, щоб ми примусово впроваджували зміни в суспільстві"
+ },
+ "byz_destroy_italian_quarters_tt": {
+  "en": "The [ShowBuildingTypeName('galata')] and [ShowBuildingTypeName('venetian_quarter')] [buildings|e] will be destroyed in [target_location.GetName]",
+  "uk": "У [target_location.Custom('LR_PREP')|l] [target_location.GetName] будуть знесені такі [Concept('buildings','споруди')|e]: [ShowBuildingTypeName('galata')] та [ShowBuildingTypeName('venetian_quarter')]"
+ },
+ "byz_magnates_wont_offer_again_tt": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] will not offer their assistance in naval matters again",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] більше не пропонуватимуть допомогу у відновленні флоту"
+ },
+ "byz_may_trigger_other_event_tt": {
+  "en": "These debates may reach beyond our borders soon",
+  "uk": "Ці диспути можуть незабаром вийти за межі нашої держави"
+ },
+ "byz_target_character_is_free_to_promote": {
+  "en": "[target_character.GetName] will not cost any [legitimacy_i|e][legitimacy|e] to promote to [head_of_the_cabinet|e]",
+  "uk": ""
+ },
+ "church_condemns_ongoing_debates_tt": {
+  "en": "Powerful figureheads of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] condemn our stance of defending Hesychasm",
+  "uk": ""
+ },
+ "constantinople_to_spawn_renaissance_tt": {
+  "en": "[ShowLocationName('constantinople')] is eligible as the birthplace of the [ShowInstitutionName('renaissance')]",
+  "uk": ""
+ },
+ "every_true_faith_pop_loses_20_satisfaction_tt": {
+  "en": "[pops|e] in [ROOT.GetCountry.GetCapital.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Вдоволення')|e] усіх #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! [Concept('pops', 'груп населення')|e] в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName] знизиться на [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]"
+ },
+ "everyone_converts_tt": {
+  "en": "Every member of the family of [target_character2.GetName] will embrace [ShowReligionNameWithNoTooltip('hellenism_religion')]",
+  "uk": "[target_character2.GetName] і вся [Select_CString(target_character2.IsFemale, 'її', 'його' )] сім'я приймуть #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністичну релігію#!#!"
+ },
+ "flavor_byz.1.a": {
+  "en": "Oderint dum metuant.",
+  "uk": ""
+ },
+ "flavor_byz.1.b": {
+  "en": "Stop the looting!",
+  "uk": "Припинити грабунок!"
+ },
+ "flavor_byz.1.desc": {
+  "en": "Eager to avenge the legendary betrayal of the Crusaders, [ROOT.GetCountry.GetAdjective] troops spared no one as they descended upon the once-great city of [ShowLocationName('venice')]. The mission of the imperial generals has always been clear, all patrician families must be stripped of their property and honors, and the treasures that were once stolen from the city of the world's desire must be returned.\\n\\nAs the time came for the descent of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] armies upon the City of Water, things turned more hideous than anyone could have imagined. A lifetime of warfare does not foster kindness in anyone and with commanders eager to see the city burn, [ROOT.GetCountry.GetAdjectiveWithNoTooltip] soldiers embarked on a several days long campaign of devastation and plunder of churches, palaces, and even the Venetian arsenal.",
+  "uk": "На колись велике місто [ShowLocationName('venice')] хвилею обрушився гнів #L [ROOT.GetCountry.GetAdjective|l]их#! солдатів, які прагнуть помститися за зраджених хрестоносців. Імперські полководці ніколи не приховували своїх справжніх намірів: відібрати майно і почесті в сімей патриціїв і повернути скарби, колись украдені у василевса.\\n\\nЖахлива картина, що розгорнулася на очах у тих, хто спостерігав за вступом [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого війська до міста на воді, вражає уяву: на війні справді немає місця співчуттю. За ті кілька днів, що [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]і солдати провели в місті, вони, підкоряючись наказам своїх кровожерливих полководців, розграбували і розгромили церкви, палаци і навіть венеціанський арсенал."
+ },
+ "flavor_byz.1.entry": {
+  "en": "$flavor_byz.1.title$",
+  "uk": ""
+ },
+ "flavor_byz.1.title": {
+  "en": "Sack and destruction of Venice",
+  "uk": "Спустошення і руйнування Венеції"
+ },
+ "flavor_byz.10.a": {
+  "en": "Our fortunes restored.",
+  "uk": "Доля повернулася до нас лицем."
+ },
+ "flavor_byz.10.desc": {
+  "en": "The generosity of our fellow [ShowReligionGroupAdjective('christian')] rulers has not gone unnoticed. The diplomatic efforts of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] has paid off with a sizeable donation being made to support our fight against the [GetCountry('TUR').GetName].",
+  "uk": "Ми не забудемо щедрість наших побратимів по #TOOLTIP:RELIGIONGROUP,christian,X #L християнській#!#! вірі. Наша дипломатична місія увінчалася успіхом — [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'змогла', 'зміг')] зібрати велику суму на боротьбу з #ONCLICK:COUNTRY,[GetCountry('TUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TUR').Custom('CL_tt')],X [GetCountry('TUR').Custom('CL_INST')|L]#!#!."
+ },
+ "flavor_byz.10.entry": {
+  "en": "Donated To Byzantium donates to our cause",
+  "uk": ""
+ },
+ "flavor_byz.10.title": {
+  "en": "[donated_to_byzantium.GetNameWithNoTooltip] donates to our cause",
+  "uk": "[donated_to_byzantium.GetNameWithNoTooltip] жертвує нам кошти"
+ },
+ "flavor_byz.1000.a": {
+  "en": "[cannon_maker.GetSheHe|U] shall have all that [cannon_maker.GetSheHe] needs.",
+  "uk": "[Select_CString(cannon_maker.IsFemale,'Вона', 'Він')] отримає все, чого потребує."
+ },
+ "flavor_byz.1000.a.entry": {
+  "en": "He shall have all that he needs.",
+  "uk": ""
+ },
+ "flavor_byz.1000.b": {
+  "en": "This is outrageous!",
+  "uk": "Це обурливо!"
+ },
+ "flavor_byz.1000.desc": {
+  "en": "[cannon_maker.GetName], a [cannon_maker.GetCulture.GetName] iron-founder and engineer, has appeared in court. [cannon_maker.GetSheHe|U] has declared boldly that [cannon_maker.GetSheHe] could construct for us a cannon of a scale hitherto unseen - if only we provide [cannon_maker.GetHerHim] with metal and funds. However, prominent [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] caution us against it, saying that the salary [cannon_maker.GetSheHe] demands would upset the guilds.",
+  "uk": "До двору [Select_CString(cannon_maker.IsFemale,'прибула', 'прибув')] [cannon_maker.GetName], #L [cannon_maker.GetCulture.GetName|l]ий#! інженер і ливарних справ майстер. [Select_CString(cannon_maker.IsFemale,'Вона', 'Він')] стверджує, що може відлити для нас гармату небаченого розміру — за умови, що ми забезпечимо [Select_CString(cannon_maker.IsFemale,'її', 'його')] коштами і потрібною кількістю металу. Однак видні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] не радять нам зв'язуватися з [Select_CString(cannon_maker.IsFemale,'цією жінкою', 'цією людиною')] — наші гільдії невдоволені тим, яку платню [Select_CString(cannon_maker.IsFemale,'вона вимагала', 'він вимагав')]."
+ },
+ "flavor_byz.1000.entry": {
+  "en": "The Guns of Orbán",
+  "uk": ""
+ },
+ "flavor_byz.1000.historical_info": {
+  "en": "Orbán is known to history for having made the great bombard that brought down the walls of Constantinople. He first offered his service to the Eastern Roman emperor Constantine XI, but was turned down - so instead, he went to the Turks...",
+  "uk": "Урбан увійшов в історію як творець величезної бомбарди, яка зруйнувала стіни Константинополя. Він пропонував свої послуги імператору Східної Римської імперії Костянтину XI, але отримав відмову — і тоді він вирушив до турків…"
+ },
+ "flavor_byz.1000.title": {
+  "en": "The Guns of [cannon_maker.GetNameWithNoTooltip]",
+  "uk": "Гармаш [cannon_maker.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.1001.a": {
+  "en": "We could certainly use this.",
+  "uk": "Нам безумовно знадобиться [Select_CString(cannon_maker.IsFemale,'її', 'його')] допомога."
+ },
+ "flavor_byz.1001.b": {
+  "en": "Let us promote our own gunsmiths instead.",
+  "uk": "Краще підтримаємо наших власних гармашів."
+ },
+ "flavor_byz.1001.desc": {
+  "en": "[cannon_maker.GetName], a [cannon_maker.GetCulture.GetName] iron-founder and engineer, is seeking employment. [cannon_maker.GetSheHe|U] asks for an exorbitant salary indeed, and has already been turned down by the battle [GetCountry('BYZ').GetGovernment.GetRuler.GetNameWithNoTooltip] of [GetCountry('BYZ').GetName] - yet [cannon_maker.GetNameWithNoTooltip] promises to construct for us a cannon that could blast the very walls of Babylon itself.",
+  "uk": "[cannon_maker.GetName], #L [cannon_maker.GetCulture.GetName|l]ий#! інженер і ливарних справ майстер, шукає собі наймача. [Select_CString(cannon_maker.IsFemale,'Її', 'Його')] послуги коштують дуже дорого — [GetCountry('BYZ').GetGovernment.GetRuler.GetNameWithNoTooltip], [GetCountry('BYZ').GetGovernment.GetRulerTitle|l] #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#!, [Select_CString(cannon_maker.IsFemale,'їй', 'йому')] вже [Select_CString(GetCountry('BYZ').GetGovernment.GetRuler.IsFemale,'відмовила', 'відмовив')]. Але [Select_CString(cannon_maker.IsFemale,'ця жінка', 'цей майстер')] стверджує, що може відлити для нас гармату, здатну обрушити стіни самого Вавилону…"
+ },
+ "flavor_byz.1001.entry": {
+  "en": "$flavor_byz.1001.title$",
+  "uk": ""
+ },
+ "flavor_byz.1001.historical_info": {
+  "en": "$flavor_byz.1000.historical_info$",
+  "uk": ""
+ },
+ "flavor_byz.1001.title": {
+  "en": "The Bane of Babylon",
+  "uk": "Загибель Вавилону"
+ },
+ "flavor_byz.11.a": {
+  "en": "Bring [target_artist.GetHerHim] to court.",
+  "uk": "Представте [Select_CString(target_artist.IsFemale, 'її', 'його' )] до двору."
+ },
+ "flavor_byz.11.b": {
+  "en": "[target_artist.GetSheHe|U] will weave our legend abroad!",
+  "uk": "Нехай [Select_CString(target_artist.IsFemale, 'вона', 'він' )] прославить нашу державу за кордоном!"
+ },
+ "flavor_byz.11.c": {
+  "en": "We cannot afford this...",
+  "uk": "Це нам не по кишені…"
+ },
+ "flavor_byz.11.desc": {
+  "en": "Few schools across our nation have had an impact on spreading the wealth and beauty of [GetCountry('BYZ').GetAdjectiveWithNoTooltip] art and iconography as the Cretan school of art. The school is destined to become a hub of culture and art, as it continues to amass great students under the leadership of men such as [target_artist.GetName].",
+  "uk": "Італо-критська школа як жодна інша школа іконопису сприяє поширенню слави та впливу [GetCountry('BYZ').GetAdjectiveWithNoTooltip|l]ого мистецтва. Найобдарованіші художники мріють навчатися під керівництвом таких майстрів, як [target_artist.GetName]. Воістину, цій школі судилося стати найважливішим центром культури та мистецтв."
+ },
+ "flavor_byz.11.entry": {
+  "en": "$flavor_byz.11.title$",
+  "uk": ""
+ },
+ "flavor_byz.11.title": {
+  "en": "The Cretan School of Art",
+  "uk": "Італо-критська школа"
+ },
+ "flavor_byz.1100.a": {
+  "en": "It is just harmless scholarly debate.",
+  "uk": "Це лише нешкідливий теологічний диспут."
+ },
+ "flavor_byz.1100.b": {
+  "en": "We will not tolerate [target_character.GetHerHis] insolence.",
+  "uk": "Ми не потерпимо [Select_CString(target_character.IsFemale,'її', 'його')] нападок."
+ },
+ "flavor_byz.1100.b.entry": {
+  "en": "The character speaks the truth, hesychasm is heresy!",
+  "uk": ""
+ },
+ "flavor_byz.1100.c": {
+  "en": "Do not get too attached to your head, [target_character.GetShortNameWithNoTooltip]!",
+  "uk": "Наскільки ти дорожиш своєю головою, [target_character.GetShortNameWithNoTooltip]?"
+ },
+ "flavor_byz.1100.desc": {
+  "en": "Theological matters have always gripped our people. As a nation that sees itself as the pride of the [ShowReligionAdjective('orthodox')] faith we have proven time and again the validity of our beliefs in search of the divine.\\n\\nHowever, it has recently come to our attention that [target_character.GetName] has discovered a series of irregularities in terms of religious practice, by the monks in [target_location.GetName]. According to [target_character.GetShortNameWithNoTooltip], the monks' practices are borderline heretic, ranging from debates on the essence and praxis of the divine, to the practice of inner prayer.\\n\\nIt seems that [target_character.GetShortNameWithNoTooltip]'s writings condemn the teachings of Hesychasm in an attempt to disturb social peace. Our advisors are wary of social friction, or even open revolt lest we find a way to deal with this problem.",
+  "uk": "Народ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! завжди сприймав богословські проблеми близько до серця. Зрештою, наша держава — оплот #TOOLTIP:RELIGION,orthodox_tt,X #L православної#!#! віри, тож не дивно, що ми скрізь і в усьому прагнемо довести істинність своїх переконань.\\n\\nНещодавно нам стало відомо, що [target_character.GetName] [Select_CString(target_character.IsFemale,'виявила', 'виявив')] низку суперечностей у духовній практиці ченців [target_location.Custom('LR_RP')|l] [target_location.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] стверджує, що їхні дебати про сутність божественного і практика подумної молитви межують з єрессю.\\n\\nУ своїх працях [target_character.GetShortNameWithNoTooltip] рішуче засуджує вчення ісихазму, при цьому [Select_CString(target_character.IsFemale,'її', 'його')] шалені нападки загрожують порушити спокій у державі. Якщо не вирішити цю проблему, в державі можуть початися заворушення — можливо, навіть відкритий заколот."
+ },
+ "flavor_byz.1100.entry": {
+  "en": "$flavor_byz.1100.title$",
+  "uk": ""
+ },
+ "flavor_byz.1100.title": {
+  "en": "Hesychasm",
+  "uk": "Ісихазм"
+ },
+ "flavor_byz.1101.a": {
+  "en": "What is going on in the [target_country.GetLongName]?",
+  "uk": "[target_country.GetLongName], та що у вас коїться?!"
+ },
+ "flavor_byz.1101.desc": {
+  "en": "Scholarly debates of theological nature are no strangers to heated outcomes and persecutions. Such, as it seems, is the case for [target_character.GetName] whose opposition to #italic Hesychasm#! brought about a rift between the scholar and [target_character3.GetName], resulting in the other being banished and seeking refuge within our halls.",
+  "uk": "Богословські дебати нерідко закінчуються переслідуванням незгодних. [target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] непримиренна боротьба з #italic ісихазмом#! — яскравий тому приклад. [target_character3.GetName] [Select_CString(target_character3.IsFemale,'підтримала', 'підтримав')] прихильників цієї течії, в результаті [Select_CString(target_character.IsFemale,'була вигнана', 'був вигнаний')] зі своєї держави і [Select_CString(target_character.IsFemale,'знайшла', 'знайшов')] притулок при нашому дворі."
+ },
+ "flavor_byz.1101.entry": {
+  "en": "A Barlaamite Scholar Arrives at Court",
+  "uk": ""
+ },
+ "flavor_byz.1101.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Arrives in [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] прибуває до [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.1102.a": {
+  "en": "Practice what you preach and stay quiet, ideally forever!",
+  "uk": "Ісихазм прославляє мовчання, так? Ось і замовкніть, бажано назавжди!"
+ },
+ "flavor_byz.1102.b": {
+  "en": "[target_character.GetNameWithNoTooltip] will like [target_character.GetHerHis] new home in [target_country.GetNameWithNoTooltip].",
+  "uk": "Нехай [target_character.GetNameWithNoTooltip] вирушає на територію #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Там [Select_CString(target_character.IsFemale,'їй', 'йому')] будуть раді."
+ },
+ "flavor_byz.1102.b.entry": {
+  "en": "The character will like his new home in them.",
+  "uk": ""
+ },
+ "flavor_byz.1102.desc": {
+  "en": "'This is a total disaster.' 'Is this the end for the [ShowReligionAdjective('orthodox')] faith?' are but some of the commonly heard phrases surrounding the clash between [target_character2.GetName] and [target_character.GetName]. While the former is an ardent supporter of Hesychast practices, the latter has fought tooth and nail to discredit and delegitimize these practices. Launching insults and calling upon the divine in the same breath, these two seem to have really driven a wedge across [ShowReligionAdjectiveWithNoTooltip('orthodox')] believers in [target_location.GetName]. Something must be done posthaste, lest we risk the outrage be spilled and devolve into a rebellion!",
+  "uk": "«Це катастрофа! Невже це кінець #TOOLTIP:RELIGION,orthodox_tt,X #L православної#!#! віри?» — ось найтиповіша реакція на богословські суперечки, що розгорілися навколо ісихазму. Головними дійовими особами цього протистояння стали [target_character2.GetName] і [target_character.GetName] — перший гаряче підтримує духовні практики ісихастів, другий же з усіх сил намагається дискредитувати їх і оголосити поза законом. Між православними [target_location.Custom('LR_GEN')|l] [target_location.GetName] не буде єдності, поки ці двоє продовжують поливати один одного брудом. Треба терміново щось вжити, інакше народні хвилювання переростуть у справжній бунт!"
+ },
+ "flavor_byz.1102.entry": {
+  "en": "$flavor_byz.1102.title$",
+  "uk": ""
+ },
+ "flavor_byz.1102.title": {
+  "en": "Debate for the Ages",
+  "uk": "Віковий спір"
+ },
+ "flavor_byz.12.a": {
+  "en": "[target_artist.GetHerHis|U] paintings will adorn our walls.",
+  "uk": "[Select_CString(target_artist.IsFemale, 'Її', 'Його' )] картини стануть гідною окрасою наших палаців."
+ },
+ "flavor_byz.12.c": {
+  "en": "We cannot afford this...",
+  "uk": "Це нам не по кишені…"
+ },
+ "flavor_byz.12.desc": {
+  "en": "Few artists have left their mark across the ever-changing landscape of art as [target_artist.GetName], also known as #italic el Greco#!. Despite his work becoming the antithesis to early baroque style, [target_artist.GetSheHe] has successfully carved a new distinct niche by supporting the primacy of imagination and intuition over the subjective character of creation, thus sending ripples across the artistic world across the halls of [ShowContinentName('europe')].",
+  "uk": "Небагато художників залишили настільки глибокий слід у мистецтві, як [target_artist.GetName], більш відомий як #italic Ель Греко#!. Основним принципом стилю Ель Греко був примат уяви та інтуїції над суб'єктивним характером творіння. Попри те, що [Select_CString(target_artist.IsFemale, 'її', 'його' )] роботи не мали нічого спільного з популярним у ті роки раннім бароко, художнику вдалося зайняти власну нішу, справивши значний вплив на світ мистецтва по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!."
+ },
+ "flavor_byz.12.entry": {
+  "en": "$flavor_byz.12.title$",
+  "uk": ""
+ },
+ "flavor_byz.12.title": {
+  "en": "El Greco",
+  "uk": "Ель Греко"
+ },
+ "flavor_byz.1200.a": {
+  "en": "Send the message.",
+  "uk": "Надішліть [Select_CString(orhan_scope.IsFemale,'їй', 'йому')] нашу пропозицію."
+ },
+ "flavor_byz.1200.b": {
+  "en": "We will not trade [theodora_scope.GetShortNameWithNoTooltip] for peace.",
+  "uk": "[theodora_scope.GetShortNameWithNoTooltip] — занадто висока ціна за мир."
+ },
+ "flavor_byz.1200.b.entry": {
+  "en": "We will not trade her for peace.",
+  "uk": ""
+ },
+ "flavor_byz.1200.desc": {
+  "en": "The antagonistic tendencies of [GetCountry('TUR').GetName] have proven difficult to deal with and a distraction to our true objectives of stabilizing our [ROOT.GetCountry.GetFlavorRank]. Luckily, the ruler of our rowdy and contentious neighbor, [orhan_scope.GetName], has shown interest in the lovely daughter of our ruler, the beloved [theodora_scope.GetName].\\n\\nWe can promise the hand of [theodora_scope.GetShortNameWithNoTooltip] to [orhan_scope.GetShortNameWithNoTooltip] and ensure a lasting alliance that will put an end to their aggressions.",
+  "uk": "Ворожі дії з боку #ONCLICK:COUNTRY,[GetCountry('TUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TUR').Custom('CL_tt')],X [GetCountry('TUR').Custom('CL_RP')|L]#!#! становлять серйозну небезпеку для нашої держави. Гірше того, вони заважають нам навести лад у [ROOT.GetCountry.Custom('CF_PP')|l]. На щастя, [orhan_scope.GetName], [Select_CString(orhan_scope.IsFemale,'провідниця', 'провідник')] наших неспокійних і войовничих сусідів, [Select_CString(orhan_scope.IsFemale,'захопилася', 'захопився')] донькою [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нашої правительки', 'нашого правителя')]. Воно й зрозуміло, адже [theodora_scope.GetName] — перша красуня #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!.\\n\\nЯкщо [theodora_scope.GetShortNameWithNoTooltip] і [orhan_scope.GetShortNameWithNoTooltip] візьмуть шлюб, ми досягнемо міцного союзу, який покладе край [GetCountry('TUR').GetAdjectiveWithNoTooltip|l]ій агресії."
+ },
+ "flavor_byz.1200.entry": {
+  "en": "$flavor_byz.1200.title$",
+  "uk": ""
+ },
+ "flavor_byz.1200.historical_info": {
+  "en": "During the Byzantine Civil War of 1341 - 1347, the daughter of Emperor John VI Kantakouzenos, Theodora Kantakouzenos, married the Turkish Bey Orhan Gazi to help cement the alliance between the two countries, and ensure that the Ottomans would not change sides and start supporting John's rival, the Regent Empress Anna of Savoy.",
+  "uk": "Під час громадянської війни у Візантії (1341–1347) імператор Іоанн VI Кантакузин видав свою доньку Феодору заміж за турецького бея Орхана Газі. Так він розраховував скріпити союз між двома державами і утримати османів від змови зі своєю суперницею, імператрицею-регенткою Анною Савойською."
+ },
+ "flavor_byz.1200.title": {
+  "en": "$flavor_byz_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1201.a": {
+  "en": "Accept the new bride.",
+  "uk": "Ми візьмемо нову наречену."
+ },
+ "flavor_byz.1201.b": {
+  "en": "Reject it.",
+  "uk": "Надішліть їм нашу відмову."
+ },
+ "flavor_byz.1201.desc": {
+  "en": "The weak ruler of [GetCountry('BYZ').GetName] is willing to give his pretty daughter [theodora_scope.GetName] to add to the harem of our brave ruler [orhan_scope.GetName] in exchange for a political alliance.\\n\\nWhat are we to do with this proposal?",
+  "uk": "[Select_CString(GetCountry('BYZ').GetGovernment.GetRuler.IsFemale,'Безвольна правителька', 'Безвольний правитель')] #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_RP')|L]#!#! [Select_CString(GetCountry('BYZ').GetGovernment.GetRuler.IsFemale,'готова', 'готовий')] віддати свою чарівну доньку на ім'я [theodora_scope.GetName] до гарему нашого відважного володаря — за умови, що [orhan_scope.GetName] укладе з [Select_CString(GetCountry('BYZ').GetGovernment.GetRuler.IsFemale,'нею', 'ним')] союз.\\n\\nЯк ми відповімо на цю пропозицію?"
+ },
+ "flavor_byz.1201.historical_info": {
+  "en": "$flavor_byz.1200.historical_info$",
+  "uk": ""
+ },
+ "flavor_byz.1201.title": {
+  "en": "$flavor_byz_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1202.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_byz.1202.desc": {
+  "en": "[orhan_scope.GetName] has accepted our proposal, [theodora_scope.GetName] will marry him and ensure the peace between our nations.",
+  "uk": "[orhan_scope.GetName] [Select_CString(orhan_scope.IsFemale,'прийняла', 'прийняв')] нашу пропозицію. [theodora_scope.GetName] вийде за нього заміж і забезпечить мир між нашими народами."
+ },
+ "flavor_byz.1202.title": {
+  "en": "$flavor_byz_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1203.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "flavor_byz.1203.desc": {
+  "en": "[orhan_scope.GetName] has rejected our proposal, he is certainly preparing his country to escalate the hostilities between our countries.",
+  "uk": "[orhan_scope.GetName] [Select_CString(orhan_scope.IsFemale,'відкинула', 'відкинув')] нашу пропозицію. Без сумнівів, [Select_CString(orhan_scope.IsFemale,'вона має намір', 'він має намір')] відновити ворожі дії проти нашої держави."
+ },
+ "flavor_byz.1203.entry": {
+  "en": "$flavor_byz.1203.title$",
+  "uk": ""
+ },
+ "flavor_byz.1203.title": {
+  "en": "$flavor_byz_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.13.a": {
+  "en": "Fund its expansion.",
+  "uk": "Розвиток міста потребує нових коштів."
+ },
+ "flavor_byz.13.b": {
+  "en": "Let the wealth be spread across [target_province.GetNameWithNoTooltip]!",
+  "uk": "Краще спрямувати гроші на розвиток усієї провінції [target_province.GetName]."
+ },
+ "flavor_byz.13.b.entry": {
+  "en": "Let the wealth be spread across the province!",
+  "uk": ""
+ },
+ "flavor_byz.13.c": {
+  "en": "This money is best spent elsewhere.",
+  "uk": "Ці гроші краще витратити на щось інше."
+ },
+ "flavor_byz.13.desc": {
+  "en": "Despite the hardships that surround our people, our arts and culture remain as vibrant and prestigious as ever. No place is a better example of our artistic influence and cultivation as [target_location.GetName]. Serving as the springboard towards the cultivation and propagation of [ShowInstitutionName('renaissance')], the people have welcomed and developed schools of art and thought, experiencing a wonderful golden era of philosophy and [ROOT.GetCountry.GetAdjective] expression.",
+  "uk": "Всупереч усім труднощам, з якими зіткнувся #L [ROOT.GetCountry.GetAdjective|l]ий#! народ, наші культура та мистецтво як і раніше вражають уяву чужинців. [target_location.GetName] — блискучий взірець культурної переваги нашої держави. Саме тут зародилося мистецтво #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!, що стрімко поширюється по всьому цивілізованому світу. Художні та філософські школи, що з'явилися в місті, знаменують настання золотої доби [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої культури."
+ },
+ "flavor_byz.13.entry": {
+  "en": "$flavor_byz.13.title$",
+  "uk": ""
+ },
+ "flavor_byz.13.title": {
+  "en": "A Brilliant Center of Learning",
+  "uk": "Блискучий центр учености"
+ },
+ "flavor_byz.1300.a": {
+  "en": "We must rebuild the city at any cost.",
+  "uk": "Ми відродимо місто, чого б це не коштувало."
+ },
+ "flavor_byz.1300.b": {
+  "en": "Those merchants are not to be trusted.",
+  "uk": "Цим купцям не можна довіряти."
+ },
+ "flavor_byz.1300.desc": {
+  "en": "The [ShowSituationName('black_death')] has devastated much of our lands, with [target_location.GetName] being hit the hardest. Compared to before, most of the houses are uninhabited, with barely anyone walking on the city's streets. Unlike before, our countryside has been left barren, with most [target_country.GetAdjective] provinces not having enough population to man the fields. Perhaps we can try to invite some merchants from [ShowRegionName('italy_region')] to help us with this issue...",
+  "uk": "#TOOLTIP:SITUATION,black_death,X #L Чорна смерть#!#! спустошила нашу державу, і найсильніше постраждав [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName]. На колись жвавих вулицях тепер ні душі, більшість будинків стоять порожніми. Поля залишаються незасіяними, адже в багатьох #L [target_country.GetAdjective|l]их#! провінціях не вистачає робочих рук для сільськогосподарських робіт. Якщо запросити #TOOLTIP:REGION,italy_region,X #L італійських#!#! купців, можливо, вони зможуть допомогти нам у цей важкий час…"
+ },
+ "flavor_byz.1300.entry": {
+  "en": "Rebuilding Constantinople",
+  "uk": ""
+ },
+ "flavor_byz.1300.historical_info": {
+  "en": "$flavor_byz_1300_historical_info_shared$",
+  "uk": ""
+ },
+ "flavor_byz.1300.title": {
+  "en": "$flavor_byz.1300_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1300_title_key": {
+  "en": "Rebuilding [target_location.GetNameWithNoTooltip]",
+  "uk": "Відновлення [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.1301.a": {
+  "en": "We accept this offer.",
+  "uk": "Ми приймаємо цю пропозицію."
+ },
+ "flavor_byz.1301.b": {
+  "en": "They will stay in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "Нам ні до чого чужа земля, у нас є [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
+ },
+ "flavor_byz.1301.desc": {
+  "en": "[target_character.GetName] has offered our merchants land in [target_location.GetName], hoping to populate the city's streets once again.",
+  "uk": "[target_character.GetName] пропонує нашим купцям землю в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] розраховує, що це допоможе повернути життя на спорожнілі вулиці."
+ },
+ "flavor_byz.1301.historical_info": {
+  "en": "$flavor_byz_1300_historical_info_shared$",
+  "uk": ""
+ },
+ "flavor_byz.1301.title": {
+  "en": "$flavor_byz.1300_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1302.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_byz.1302.desc": {
+  "en": "[target_country2.GetLongName] has answered our request. They have prepared [ShowPopTypeName('burghers')] from [target_location2.GetName] to settle in [target_location.GetName].",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! відгукнулася на нашу пропозицію. [ShowPopTypeName('burghers')|U] з [target_location2.Custom('LR_GEN')|l] [target_location2.GetName] готові поселитися в спорожнілих районах міста [target_location.GetName]."
+ },
+ "flavor_byz.1302.title": {
+  "en": "$flavor_byz.1300.title$",
+  "uk": ""
+ },
+ "flavor_byz.1303.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "flavor_byz.1303.desc": {
+  "en": "[target_country2.GetName] has rejected our request. They think that sending away their [ShowPopTypeName('burghers')] will do them no good.",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! відкинула нашу пропозицію. Вони вважають, що їхні [ShowPopTypeName('burghers')|l] потрібніші вдома."
+ },
+ "flavor_byz.1303.entry": {
+  "en": "Rebuilding Constantinople",
+  "uk": ""
+ },
+ "flavor_byz.1303.title": {
+  "en": "$flavor_byz.1300_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.14.a": {
+  "en": "We cannot depend on them!",
+  "uk": ""
+ },
+ "flavor_byz.14.b": {
+  "en": "We cannot depend on them!",
+  "uk": "Ми не можемо залежати від їхньої ласки!"
+ },
+ "flavor_byz.14.b.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_byz.14.desc": {
+  "en": "Our navy has fallen into disrepair for quite some time. What was once a proud branch of our mighty authority has now become the laughing stock of the world. Indeed, our brazen neighbors, who covet our land, have come to dispute our maritime domain and frequently perform incursions across our ports. At our time of need, delegates from the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have stepped forth with a curious proposal. According to their correspondence, they wish to take command of our naval forces, while funding them in the process...",
+  "uk": "Наш військовий флот уже давно перебуває в жалюгідному стані. Колись він був зримим втіленням нашої могутності, але тепер став посміховиськом в очах усього світу. Зухвалі сусіди, які поклали око на наші землі, панують на морі та регулярно атакують наші порти. У ці непрості часи видатні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] висунули небезцікаву пропозицію. Вони готові профінансувати відродження нашого флоту, але за умови, що командування перейде до них…"
+ },
+ "flavor_byz.14.entry": {
+  "en": "$flavor_byz.14.title$",
+  "uk": ""
+ },
+ "flavor_byz.14.title": {
+  "en": "The Proposal of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] виступили з пропозицією"
+ },
+ "flavor_byz.1400.a": {
+  "en": "Let us request a new Varangian Guard.",
+  "uk": "Запросимо їх до відродженої варязької сторожі!"
+ },
+ "flavor_byz.1400.b": {
+  "en": "We do not need [varangian_character.GetNameWithNoTooltip].",
+  "uk": "[varangian_character.GetNameWithNoTooltip] нам не [Select_CString(varangian_character.IsFemale,'потрібна', 'потрібний')]."
+ },
+ "flavor_byz.1400.b.entry": {
+  "en": "We do not need a new captain.",
+  "uk": ""
+ },
+ "flavor_byz.1400.desc": {
+  "en": "In the ages of past, men from [ShowRegionName('scandinavian_region')] would set sail south, sailing past the rivers of [ShowRegionName('russian_region')] to emerge in the [ShowAreaName('black_sea_area')]. These men, known as the [ShowUnitDefinitionName('a_varangians')] had served with utmost loyalty the older Emperors of [ROOT.GetCountry.GetName]. Maybe we can restore this guard by inviting [varangian_character.GetName] and a band of men from [target_country.GetName] to serve [target_character.GetName] as bodyguards.",
+  "uk": "У стародавні часи #TOOLTIP:REGION,scandinavian_region,X #L скандинавські#!#! ладді часто ходили на південь, спускаючись по #TOOLTIP:REGION,russian_region,X #L руських#!#! ріках до #TOOLTIP:AREA,black_sea_area,X #L Чорного моря#!#!. Ці прибульці, #TOOLTIP:UNITTYPE,a_varangians,X #L варяги#!#!, служили імператорам #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! з непохитною вірністю. [target_character.GetName] може відродити цю славну традицію, якщо [varangian_character.GetName] і [Select_CString(varangian_character.IsFemale,'її', 'його')] люди погодяться покинути #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! і служити нам як особиста імператорська гвардія."
+ },
+ "flavor_byz.1400.entry": {
+  "en": "$flavor_byz.1400.title$",
+  "uk": ""
+ },
+ "flavor_byz.1400.title": {
+  "en": "$flavor_byz.1400_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1400_title_key": {
+  "en": "Restoring the Varangians",
+  "uk": "Відродження варягів"
+ },
+ "flavor_byz.1401.a": {
+  "en": "That is quite the offer, we accept.",
+  "uk": "Гідна пропозиція. Ми згодні!"
+ },
+ "flavor_byz.1401.b": {
+  "en": "[varangian_character.GetNameWithNoTooltip] belongs to [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "[varangian_character.GetNameWithNoTooltip] залишиться тут. [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] — ось де [Select_CString(varangian_character.IsFemale,'її', 'його')] місце."
+ },
+ "flavor_byz.1401.desc": {
+  "en": "[target_country2.GetName] has requested we send them [varangian_character.GetName] as well as a band of men to their [target_country.GetGovernment.GetCourtTitle]. They are offering us money should we accept.",
+  "uk": "[Select_CString(target_country2.GetGovernment.GetRuler.IsFemale,'Правителька', 'Правитель')] #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! бажає, щоб [varangian_character.GetName] з загоном воїнів [Select_CString(varangian_character.IsFemale,'прибула', 'прибув')] до [Select_CString(target_country2.GetGovernment.GetRuler.IsFemale,'її', 'його')] двору. Якщо ми дамо свою згоду, [Select_CString(target_country2.GetGovernment.GetRuler.IsFemale,'вона', 'він')] обіцяє щедро заплатити."
+ },
+ "flavor_byz.1401.title": {
+  "en": "$flavor_byz.1400_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1402.a": {
+  "en": "And with that, the Varangian Guard is restored.",
+  "uk": "Варязька сторожа знову в строю!"
+ },
+ "flavor_byz.1402.desc": {
+  "en": "[target_country.GetName] has accepted our offer. [varangian_character.GetName] is already setting sail south with his band of men.",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! прийняла нашу пропозицію. [varangian_character.GetName] і [Select_CString(varangian_character.IsFemale,'її', 'його')] люди вже пливуть на південь."
+ },
+ "flavor_byz.1402.entry": {
+  "en": "$flavor_byz.1402.title$",
+  "uk": ""
+ },
+ "flavor_byz.1402.title": {
+  "en": "$flavor_byz.1400_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1403.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "flavor_byz.1403.desc": {
+  "en": "[target_country.GetName] has rejected our offer. [varangian_character.GetName] and his men will stay in [target_location2.GetName].",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! відкинула нашу пропозицію. [varangian_character.GetName] і [Select_CString(varangian_character.IsFemale,'її', 'його')] люди залишаться в [target_location2.Custom('LR_PREP')|l] [target_location2.GetName]."
+ },
+ "flavor_byz.1403.entry": {
+  "en": "$flavor_byz.1403.title$",
+  "uk": ""
+ },
+ "flavor_byz.1403.title": {
+  "en": "$flavor_byz.1400_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.15.a": {
+  "en": "It is a vital reform.",
+  "uk": "Ця реформа необхідна."
+ },
+ "flavor_byz.15.b": {
+  "en": "This coin is best spent elsewhere...",
+  "uk": "Ці гроші краще витратити на щось інше…"
+ },
+ "flavor_byz.15.c": {
+  "en": "This coin is best spent elsewhere...",
+  "uk": ""
+ },
+ "flavor_byz.15.desc": {
+  "en": "It is no secret that our navy has seen better days. The recent turmoil that our people face has dried up the imperial treasury, leading to cuts and shortages in all areas. Despite this, our advisors under the guise of our [target_character2.GetName] have devised a plan in an attempt to regain some of our old naval splendor!",
+  "uk": "Не секрет, що наш військовий флот знавав кращі дні. Нещодавні потрясіння спустошили імперську скарбницю, держава змушена скорочувати витрати й економити буквально на всьому. Попри це, [target_character2.GetName] та [Select_CString(target_character2.IsFemale,'її', 'його')] радники розробили план, який дозволить повернути нашому флоту колишню силу."
+ },
+ "flavor_byz.15.entry": {
+  "en": "$flavor_byz.15.title$",
+  "uk": ""
+ },
+ "flavor_byz.15.title": {
+  "en": "[target_character2.GetNameWithNoTooltip]'s Naval Reforms",
+  "uk": "[target_character2.GetNameWithNoTooltip] та [Select_CString(target_character2.IsFemale,'її', 'його')] флотська реформа"
+ },
+ "flavor_byz.1500.a": {
+  "en": "Time is ticking...",
+  "uk": "Час не чекає…"
+ },
+ "flavor_byz.1500.desc": {
+  "en": "As the [ShowDisasterName('succession_crisis')] rages on in [ROOT.GetCountry.GetName], the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [target_location.GetName] have been exploiting the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. This has led many of them to take a stance in the [ShowDisasterNameWithNoTooltip('succession_crisis')]. Should we not manage to pacify this unrest, we may have to fight yet another Civil War.",
+  "uk": "Користуючись тим, що серед влади #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! розгорілася #TOOLTIP:DISASTER_TYPE,succession_crisis,X #L криза престолонаслідування#!#!, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] [target_location.Custom('LR_GEN')|l] [target_location.GetName] дедалі сильніше утискають простий народ. Як наслідок, місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] масово переходять на бік претендента. Якщо не припинити безлади зараз, усе закінчиться ще однією громадянською війною…"
+ },
+ "flavor_byz.1500.entry": {
+  "en": "Zealots of Thessaloniki",
+  "uk": ""
+ },
+ "flavor_byz.1500.title": {
+  "en": "$flavor_byz.1500_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1500_title_key": {
+  "en": "Zealots of [target_location.GetNameWithNoTooltip]",
+  "uk": "Фанатики з [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.1501.a": {
+  "en": "Disaster has been avoided.",
+  "uk": "Нам вдалося уникнути катастрофи."
+ },
+ "flavor_byz.1501.b": {
+  "en": "Time to extinguish this peasant's vigor.",
+  "uk": "Час викладати цим селянам урок."
+ },
+ "flavor_byz.1501.desc.a": {
+  "en": "Although the [target_location.GetName] Commune did briefly rise against the local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], we have managed to restore order in the [target_location.GetRank.GetName]. Let us pray they never rise again.",
+  "uk": "По [target_location.Custom('LR_DAT')|l] [target_location.GetName] прокотився спалах насильства, але на щастя, нам вдалося швидко відновити порядок. Сподіваємося, що місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] більше не будуть провокувати простолюд."
+ },
+ "flavor_byz.1501.desc.b": {
+  "en": "Despite our best attempts to stop the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] of [target_location.GetName] from rising against us, [target_character.GetName] has failed to contain this small spark, leading to the lands around [target_location.GetRank.GetName] to join the rebellion.",
+  "uk": "Попри всі зусилля, [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] [target_location.Custom('LR_GEN')|l] [target_location.GetName] повстали проти нашої влади. [target_character.GetName] [Select_CString(target_character.IsFemale,'втратила', 'втратив')] контроль над збунтованим натовпом, і населення навколишніх земель невдовзі приєдналося до заколоту."
+ },
+ "flavor_byz.1501.entry": {
+  "en": "Zealots of Thessaloniki",
+  "uk": ""
+ },
+ "flavor_byz.1501.title": {
+  "en": "$flavor_byz.1500_title_key$",
+  "uk": ""
+ },
+ "flavor_byz.1502.a": {
+  "en": "Banish [target_character.GetHerHim]!",
+  "uk": "Вигнаймо [Select_CString(target_character.IsFemale, 'її', 'його' )]!"
+ },
+ "flavor_byz.1502.a.entry": {
+  "en": "Banish him!",
+  "uk": ""
+ },
+ "flavor_byz.1502.b": {
+  "en": "Will [target_character.GetHerHis] gods protect [target_character.GetHerHim] from the executioner?",
+  "uk": "Подивимося, чи врятують [Select_CString(target_character.IsFemale, 'її', 'його' )] боги від сокири ката…"
+ },
+ "flavor_byz.1502.b.entry": {
+  "en": "Will his gods protect him from the executioner?",
+  "uk": ""
+ },
+ "flavor_byz.1502.c": {
+  "en": "[target_character.GetSheHe|U] is far too important, allow [target_character.GetHerHim] to continue.",
+  "uk": "Нехай вірить у що хоче. [Select_CString(target_character.IsFemale, 'Ця жінка', 'Ця людина' )] потрібна нашій державі."
+ },
+ "flavor_byz.1502.c.entry": {
+  "en": "He is far too important, allow him to continue.",
+  "uk": ""
+ },
+ "flavor_byz.1502.d": {
+  "en": "Perhaps [target_character2.GetShortNameWithNoTooltip] will heed [target_character.GetHerHis] teachings.",
+  "uk": "[target_character2.GetShortNameWithNoTooltip] безумовно [Select_CString(target_character2.IsFemale, 'повинна', 'повинен' )] ознайомитися з [Select_CString(target_character.IsFemale, 'її', 'його' )] вченням."
+ },
+ "flavor_byz.1502.d.entry": {
+  "en": "Perhaps the character will heed his teachings.",
+  "uk": ""
+ },
+ "flavor_byz.1502.desc": {
+  "en": "For quite some time the presence of [target_character.GetName] has complimented our artistic and cultural endeavors. [target_character.GetHerHis] teachings in matters of jurisprudence and scholarly pursuits are second to none, attracting many disciplines who will surely impact the [ShowInstitutionName('renaissance')] in their own ways.\\n\\nHowever, recently [target_character.GetSheHe] has become more open about [target_character.GetHerHis] true faith, [ShowReligionName('hellenism_religion')], much to the dismay of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] in [ROOT.GetCountry.GetCapital.GetName]. According to them, such heresy threatens our traditions and the stability of the entire [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Ось уже кілька років [target_character.GetName] робить неоціненний внесок у розвиток нашої культури. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] видатні пізнання в галузі юриспруденції та філософії приваблюють безліч учнів, які й самі колись стануть впливовими постатями #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!.\\n\\nНа жаль, останнім часом [Select_CString(target_character.IsFemale, 'вона', 'він' )] відкрито демонструє свою симпатію до #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністичної релігії#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [ROOT.GetCountry.GetCapital.Custom('LR_RP')|l] [ROOT.GetCountry.GetCapital.GetName] обурені цим проявом язичництва — вони вважають, що [target_character.GetNameWithNoTooltip] загрожує нашим традиціям і стабільності [ROOT.GetCountry.Custom('CF_RP')|l]."
+ },
+ "flavor_byz.1502.e": {
+  "en": "Maybe [target_character.GetSheHe] is right after all.",
+  "uk": "Можливо, [Select_CString(target_character.IsFemale, 'її', 'його' )] погляди не такі вже й хибні…"
+ },
+ "flavor_byz.1502.e.entry": {
+  "en": "Maybe he is right after all.",
+  "uk": ""
+ },
+ "flavor_byz.1502.entry": {
+  "en": "The Beliefs of Gemistos Plethon",
+  "uk": ""
+ },
+ "flavor_byz.1502.title": {
+  "en": "The Beliefs of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його' )] віра"
+ },
+ "flavor_byz.1503.a": {
+  "en": "We have to seek friends wherever we can find them.",
+  "uk": "Нам знадобляться будь-які друзі."
+ },
+ "flavor_byz.1503.b": {
+  "en": "We care not for the affairs of pety lords.",
+  "uk": "Нам немає діла до міжусобиць серед дрібних вождів."
+ },
+ "flavor_byz.1503.desc": {
+  "en": "The meteoric rise of the [GetCountry('TUR').GetLongName] has upset the balance of power across [ShowRegionName('anatolia_region')]. Their aggressive expansion has garnered them a lot of enemies on all sides. [target_character2.GetName] has stood against the [GetCountry('TUR').GetAdjective] threat for decades. Perhaps it would be wise for us to strengthen our relations and present a united front, lest we risk falling pray to the expansionist ambitions of [GetCountry('TUR').GetGovernment.GetRulerOrRegent.GetName].",
+  "uk": "Стрімке посилення #ONCLICK:COUNTRY,[GetCountry('TUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TUR').Custom('CL_tt')],X [GetCountry('TUR').Custom('CL_GEN')|L]#!#! порушило баланс сил в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. Сусідні держави не бажали миритися з такою агресивною експансією, і у [GetCountry('TUR').Custom('CL_GEN')] з'явилося безліч ворогів. [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'протистояла', 'протистояв' )] #L [GetCountry('TUR').GetAdjective|l]ій#! загрозі протягом десятиліть. Було б розумно зміцнити наші відносини і виступити проти ворога єдиним фронтом, інакше [GetCountry('TUR').GetGovernment.GetRulerOrRegent.GetName] знищить нас поодинці."
+ },
+ "flavor_byz.1503.entry": {
+  "en": "$flavor_byz.1503.title$",
+  "uk": ""
+ },
+ "flavor_byz.1503.historical_info": {
+  "en": "Throughout the 14th century, the Aydinids, a Turkish Beylik based in western Anatolia, maintained a cordial yet complex relationship with the Byzantine Empire. Initially, they were involved in a series of alliances and confrontations with the Byzantines as they expanded their territory. At times, the Aydinid rulers cooperated with the Byzantines, serving as mercenaries or even allies against other Turkish Beyliks and the growing Ottoman Empire. However, this cooperation was often opportunistic and pragmatic, with both sides seeking to leverage the other's military strength for mutual benefit, such as crushing a neighboring foe.",
+  "uk": "Протягом XIV століття тюркський бейлик Айдиногуллари, розташований у західній Анатолії, мав непрості, але загалом дружні відносини з Візантійською імперією. У ході своєї початкової експансії Айдиніди то вступали в конфлікт з Візантією, то укладали з нею союз. Часом правителі бейлику постачали візантійцям найманців, навіть воювали разом з ними проти інших тюркських бейликів і зростаючої Османської імперії. Втім, співпраця їхня була суто прагматичною — обидві сторони на взаємну вигоду прагнули використати військовий потенціал одне одного для знищення спільних ворогів."
+ },
+ "flavor_byz.1503.title": {
+  "en": "A Common Enemy",
+  "uk": "Спільний ворог"
+ },
+ "flavor_byz.16.a": {
+  "en": "Send him an invitation.",
+  "uk": "Надішліть йому запрошення."
+ },
+ "flavor_byz.16.b": {
+  "en": "No, we do not want more lawyers around.",
+  "uk": "У нас і так забагато законників."
+ },
+ "flavor_byz.16.desc": {
+  "en": "As a silent whirlwind, a new legal treaty has taken hold of the jurists and bureaucrats of our [ROOT.GetCountry.GetFlavorRank]. The recently published treaty #italic Hexabiblos#! by the young [target_character.GetName] has compiled, cross-referenced, and revitalized most of the [ROOT.GetCountry.GetAdjective] jurisprudence into one tome of massive utility for the proper administration of the Law.\\n\\nShould we invite this young jurist to join our court as a reward for his diligent work?",
+  "uk": "Нещодавно опублікований юридичний трактат #italic «Шестикнижжя»#! викликав непідробний інтерес усіх юристів і чиновників [ROOT.GetCountry.Custom('CF_RP')|l]. Законник на ім'я [target_character.GetName] [Select_CString(target_character.IsFemale,'переробила', 'переробив')] значну частину #L [ROOT.GetCountry.GetAdjective|l]ого#! законодавства і [Select_CString(target_character.IsFemale,'зібрала', 'зібрав')] його в один том, полегшивши роботу суддів усієї держави.\\n\\nНам варто було б нагородити це юне обдарування за старанну працю, запросивши [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+ },
+ "flavor_byz.16.entry": {
+  "en": "Konstantinos Armenopoulos",
+  "uk": ""
+ },
+ "flavor_byz.16.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.17.a": {
+  "en": "Let us talk to the Patriarch!",
+  "uk": "Негайно звернемося до патріарха!"
+ },
+ "flavor_byz.17.b": {
+  "en": "We do not care about these matters.",
+  "uk": "Нам немає діла до питань релігії."
+ },
+ "flavor_byz.17.desc": {
+  "en": "The passing of the great [john_koukouzelis.GetName] has cast a veil of sadness over the basilicas of the [ROOT.GetCountry.GetLongName], many mourn the loss of his voice and the most learned ones mourn the loss of his composing hands.\\n\\nBut a light of hope shines in our court as the histories of his sightings of the Mother of God are passed from mouth to mouth. The piousness of his life and the many miracles attributed to him are pushing the local clergy to demand his canonization",
+  "uk": "[ROOT.GetCountry.GetLongName] в жалобі — великий співак і композитор [john_koukouzelis.GetName] віддав Богу душу. Звичайні парафіяни засмучені втратою найпрекраснішого голосу в [ROOT.GetCountry.Custom('CF_PP')|l], а вчені мужі сумують за видатним композиторським талантом.\\n\\nАле скорбота не затьмарила світло надії, що засяяло при нашому дворі. З уст в уста передаються історії про видіння Богоматері, яка не раз являлася до покійного. Його благочестиве життя та численні чудеса, що йому приписуються, спонукають духовенство вимагати канонізації померлого композитора."
+ },
+ "flavor_byz.17.entry": {
+  "en": "The Angelic Voice of John Koukouzelis",
+  "uk": ""
+ },
+ "flavor_byz.17.title": {
+  "en": "The Angelic Voice of [john_koukouzelis.GetNameWithNoTooltip]",
+  "uk": "[john_koukouzelis.GetNameWithNoTooltip] — голос ангелів"
+ },
+ "flavor_byz.18.a": {
+  "en": "The Purple Phoenix is no more.",
+  "uk": "Немає більше Пурпурового фенікса…"
+ },
+ "flavor_byz.18.desc": {
+  "en": "With the fall of [GetCountry('BYZ').GetName], the [ShowCultureName('greek_culture')] world has been shaken. After months and months of being at the mercy of [target_country.GetName], the walls of [target_location.GetName] have fallen. The [target_country.GetAdjectiveWithNoTooltip] forces stormed the city and sacked it, cutting deep into the [ShowCultureNameWithNoTooltip('greek_culture')] population all around the globe. Although the phoenix is now gone, much of our populace has been wounded by this news, primarily the communities in [target_location2.GetName].",
+  "uk": "Падіння #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! вразило весь #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецький#!#! світ. Після багатомісячної облоги #L [target_country.GetAdjective|l]і#! війська взяли штурмом стіни міста [target_location.GetName], розграбувавши його церкви та палаци й перебивши безліч жителів. Грецька діаспора всього світу перебуває в глибокій жалобі, загибель великої [GetCountry('BYZ').GetAdjectiveWithNoTooltip|l]ої цивілізації глибоко вразила їхні серця. Особливо постраждала громада в містечку [target_location2.GetName]."
+ },
+ "flavor_byz.18.entry": {
+  "en": "Fall of $BYZ$",
+  "uk": ""
+ },
+ "flavor_byz.18.title": {
+  "en": "Fall of [GetCountry('BYZ').GetNameWithNoTooltip]",
+  "uk": "Падіння [GetCountry('BYZ').Custom('CL_GEN')]"
+ },
+ "flavor_byz.19.a": {
+  "en": "We must protect the people of [ShowAreaNameWithNoTooltip('morea_area')] from any external threats.",
+  "uk": "Ми зобов'язані захистити жителів Мореї від будь-яких зовнішніх загроз."
+ },
+ "flavor_byz.19.desc": {
+  "en": "During the Fourth Crusade and the fall of [ShowLocationName('constantinople')], the lands of [ShowAreaName('morea_area')] were seized by the Franks as our Empire was split apart temporarily. Their influence in the region still stands, as there are still roaming mercenaries there, directly opposing our rule.",
+  "uk": "Після Четвертого хрестового походу та втрати #TOOLTIP:LOCATION,$constantinople_tt$,X #L Константинополя#!#! імперія на час розпалася, і наші землі в #TOOLTIP:AREA,morea_area,X #L Мореї#!#! опинилися зайняті франками. Загарбники досі зберігають вплив у регіоні, адже держава рясніє численними бандами найманців, які не бажають визнавати нашу владу."
+ },
+ "flavor_byz.19.entry": {
+  "en": "Protecting Morea Area",
+  "uk": ""
+ },
+ "flavor_byz.19.title": {
+  "en": "Protecting [ShowAreaNameWithNoTooltip('morea_area')]",
+  "uk": "Оборона Мореї"
+ },
+ "flavor_byz.2.a": {
+  "en": "And forever more!",
+  "uk": "Відтепер і назавжди!"
+ },
+ "flavor_byz.2.b": {
+  "en": "Athena's city is restored to us!",
+  "uk": ""
+ },
+ "flavor_byz.2.c": {
+  "en": "A great victory for the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": ""
+ },
+ "flavor_byz.2.c.entry": {
+  "en": "A great victory for the realm.",
+  "uk": ""
+ },
+ "flavor_byz.2.desc": {
+  "en": "For centuries [ShowLocationName('athens')] was a center of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] culture and art until it was lost to the Latins in the Fourth Crusade. More recently, the city has been the capital of an independent duchy ruled by various western families. That time is at an end, however, and for the first time since 1204 [ShowLocationNameWithNoTooltip('athens')] is part of the [ROOT.GetCountry.GetLongName] again.",
+  "uk": "Упродовж багатьох століть [ShowLocationName('athens')] виступали осередком [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої культури та мистецтва, поки їх нарешті в ході четвертого хрестового походу не захопили латиняни, перетворивши місто на столицю незалежного герцогства під владою західних родин. Але сьогодні цьому прийшов кінець: вперше з 1204 року [ROOT.GetCountry.GetLongName] — знову повноправний власник Афін."
+ },
+ "flavor_byz.2.desc_hellenic": {
+  "en": "The sacred city of [ShowLocationName('athens')], birthplace of philosophy and the ancient wisdom, has returned to those who honor the old gods. For a [ShowReligionAdjective('hellenism_religion')] [ROOT.GetCountry.GetFlavorRank], this is as much a spiritual triumph as a military one — the city of Athena herself is once again ours.",
+  "uk": ""
+ },
+ "flavor_byz.2.desc_other": {
+  "en": "The ancient city of [ShowLocationName('athens')], long a cultural heart of the old world, has returned to [ROOT.GetCountry.GetAdjective] control after centuries of foreign rule. For the first time since 1204, [ShowLocationNameWithNoTooltip('athens')] is once again part of the [ROOT.GetCountry.GetLongName].",
+  "uk": ""
+ },
+ "flavor_byz.2.entry": {
+  "en": "$flavor_byz.2.title$",
+  "uk": ""
+ },
+ "flavor_byz.2.title": {
+  "en": "Athens reclaimed!",
+  "uk": "Афіни в наших руках!"
+ },
+ "flavor_byz.20.a": {
+  "en": "The corruption in this system must be purged.",
+  "uk": "Судова система має бути звільнена від корупції."
+ },
+ "flavor_byz.20.b": {
+  "en": "The current system is fine.",
+  "uk": "Чинна система і так працює непогано."
+ },
+ "flavor_byz.20.desc": {
+  "en": "Although our supreme court has seen recent reforms under previous rulers, a recent scandal has come to light. Three of the four judges have been accused of being corrupt, ignoring the good of the nation to pursue their interests. [target_character.GetName] has heard of this news, and is planning on getting rid of any form of corruption in the Supreme Court.",
+  "uk": "Попри те, що попередні правителі вже реформували наш Вищий суд, нещодавно знову вибухнув черговий скандал. Троє з чотирьох «вселенських суддів ромеїв» були звинувачені в корупції та нехтуванні інтересами держави на користь власних інтересів. Дізнавшись про це, [target_character.GetName] [Select_CString(target_character.IsFemale,'вирішила', 'вирішив')] за будь-яку ціну викорінити корупцію у Вищому імперському суді."
+ },
+ "flavor_byz.20.entry": {
+  "en": "$flavor_byz.20.title$",
+  "uk": ""
+ },
+ "flavor_byz.20.historical_info": {
+  "en": "Although created at the end of the 13th century by Andronikos II Palaiologos, the Universal Judges of the Romans was filled with a few corrupt judges. During an investigation from Andronikos III Palaiologos in 1337, three of the four judges were found guilty and the body was partially reformed.",
+  "uk": "Вищий імперський суд, сформований Андроніком II Палеологом наприкінці XIII століття, не раз опинявся в центрі корупційних скандалів. У 1337 році Андронік III Палеолог провів розслідування, за результатами якого троє з чотирьох «вселенських суддів ромеїв» були звинувачені в корупції. У результаті імператору довелося провести чергову судову реформу."
+ },
+ "flavor_byz.20.title": {
+  "en": "Reforming the Universal Judges of the Romans",
+  "uk": "Реформа Вищого імперського суду"
+ },
+ "flavor_byz.21.a": {
+  "en": "Let these poems be known to the rest of the world.",
+  "uk": "Нехай цими віршами зачитується весь світ!"
+ },
+ "flavor_byz.21.desc": {
+  "en": "In the ages of the early [GetCountry('BYZ').GetName], many frontiersmen known as #italic Akritais#! fought to protect [ShowRegionName('anatolia_region')] from the [ShowCultureGroupName('arabian_group')] invaders. This has led to many great poems and many great heroes being produced in [ShowCultureName('greek_culture')] literature, such as #italic Digenes Akritas#!",
+  "uk": "У стародавні часи жителі #L [GetCountry('BYZ').GetAdjective|l]ого#! пограниччя, яких називали #italic акритами#!, відважно обороняли #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#! від #TOOLTIP:CULTUREGROUP,arabian_group,X #L арабських#!#! завойовників. #TOOLTIP:CULTURE,$greek_culture_tt$,X #L Грецькі#!#! письменники оспівали їхню героїчну боротьбу в безлічі творів, таких як поема #italic «Дігеніс Акріт»#!."
+ },
+ "flavor_byz.21.entry": {
+  "en": "$flavor_byz.21.title$",
+  "uk": ""
+ },
+ "flavor_byz.21.historical_info": {
+  "en": "Many of these poems are considered the start of Modern Greek Literature, some of which even became a symbol of Greek nationalism. One of these poems, and perhaps the most known, is the tale of Digenes Akritas, a border guard from both Greek and Arab descent, who protects the Byzantine Empire from the Arabs, and even slays mythical beings such as dragons.",
+  "uk": "Сьогодні ці поеми вважаються першими творами сучасної грецької літератури, а деякі перетворилися на символ грецького націоналізму. Мабуть, найвідомішою з них є поема про Дігеніса Акріта, охоронця кордону змішаного греко-арабського походження. Її герой відважно захищає Візантійську імперію від вторгнення арабів і навіть б'ється з міфічними створіннями — наприклад, з драконами."
+ },
+ "flavor_byz.21.title": {
+  "en": "Acritic Songs",
+  "uk": "Пісні акритів"
+ },
+ "flavor_byz.22.a": {
+  "en": "It is worth the endeavor.",
+  "uk": "Варто спробувати."
+ },
+ "flavor_byz.22.b": {
+  "en": "We will not tarnish our old works of art.",
+  "uk": "Не варто псувати творіння предків сучасними правками."
+ },
+ "flavor_byz.22.desc": {
+  "en": "One of the greatest Acritic poems is that of #italic Armouris Armouropoulos#!. His adventures contain several herculean feats, such as fighting an army of Saracens single-handed for \"a day and a night\". Although he gets unhorsed in the aftermath, he pursues the one who stole his horse into Syria, on which he cuts off both his arms in the end for theft. Although originally written in the 11th century, much of its contents have been lost. Perhaps now we can try and restore some of its parts, even if they are not exactly accurate.",
+  "uk": "Одна з видатних пісень акритів оповідає про #italic Армуріса, сина Армуріса#!. Її герой здійснює низку воістину геркулесових подвигів — наприклад, він «один день і одну ніч» на самоті б'ється проти цілої армії сарацинів. Втративши коня, він переслідує конокрада аж до самої Сирії й відрубує йому руки за крадіжку. Спочатку поема була складена в XI столітті, однак більша її частина вважається втраченою. Ми можемо спробувати відновити втрачені фрагменти, хай і не дуже точно."
+ },
+ "flavor_byz.22.entry": {
+  "en": "$flavor_byz.22.title$",
+  "uk": ""
+ },
+ "flavor_byz.22.historical_info": {
+  "en": "$flavor_byz.21.historical_info$",
+  "uk": ""
+ },
+ "flavor_byz.22.title": {
+  "en": "Song of Armouris",
+  "uk": "«Про сина Армуріса»"
+ },
+ "flavor_byz.23.a": {
+  "en": "[target_character.GetNameWithNoTooltip] shall be the Ruler in Marble.",
+  "uk": "[target_character.GetNameWithNoTooltip] стане [Select_CString(target_character.IsFemale,'Мармуровою владаркою', 'Мармуровим владарем')]."
+ },
+ "flavor_byz.23.desc": {
+  "en": "Although [ShowLocationName('constantinople')] is no longer under [ShowCultureGroupName('greek_group')] hands, many people believe that its last ruler was not killed in [target_character.GetHerHis] final moments. Instead, through the guidance of angels and through the light of the sun setting, [target_character.GetSheHe] was rescued beneath the [ShowBuildingTypeName('theodosian_walls')] where [target_character.GetSheHe] was turned to marble. To this day no one knows if these rumors are true, but sometimes fiction can change the perception of reality.",
+  "uk": "[ShowLocationName('constantinople')] вже давно в чужих руках, але багато #TOOLTIP:CULTUREGROUP,greek_group,X #L греків#!#! досі вірять, що [Select_CString(target_character.IsFemale,'остання правителька', 'останній правитель')] великого міста зовсім не [Select_CString(target_character.IsFemale,'загинула', 'загинув')] від рук ворогів під #TOOLTIP:BUILDING_TYPE,theodosian_walls,X #L Феодосієвими стінами#!#!. За велінням ангелів промені сонця, що заходило, врятували [Select_CString(target_character.IsFemale,'її', 'його')] від вірної загибелі, перетворивши на мармурову статую. Ніхто не знає, чи є в цих чутках зерно істини, але іноді навіть найбезглуздіший вимисел здатен серйозно вплинути на реальність…"
+ },
+ "flavor_byz.23.entry": {
+  "en": "$flavor_byz.23.title$",
+  "uk": ""
+ },
+ "flavor_byz.23.historical_info": {
+  "en": "The Marbled Emperor has existed in many other cultures. For the Greeks, Konstantinos XI Palaiologos was perhaps one of the most renowned Emperors of the Byzantine Empire. It was said that during the siege of Constantinople in 1453 he did not die in the fight and would instead return one day to restore his empire.",
+  "uk": "Легенди, подібні до сказання про Мармурового імператора, зустрічаються в багатьох народів. У пам'яті греків Костянтин XI Палеолог навіки залишився одним з найвидатніших правителів Візантійської імперії. За чутками, під час облоги Константинополя в 1453 році імператор дивом врятувався, і настане день, коли він повернеться, щоб відродити свою імперію."
+ },
+ "flavor_byz.23.title": {
+  "en": "The Tale of the Marbled Ruler",
+  "uk": "Сказання про [Select_CString(target_character.IsFemale,'Мармурову владарку', 'Мармурового владаря')]"
+ },
+ "flavor_byz.24.a": {
+  "en": "Let us mint this new coin.",
+  "uk": "Карбування почнеться негайно."
+ },
+ "flavor_byz.24.b": {
+  "en": "[GetCountry('VEN').GetNameWithNoTooltip] will not influence our economy.",
+  "uk": "Ми не дозволимо [GetCountry('VEN').Custom('CL_DAT')] впливати на нашу економіку."
+ },
+ "flavor_byz.24.b.entry": {
+  "en": "$VEN$ will not influence our economy.",
+  "uk": ""
+ },
+ "flavor_byz.24.desc": {
+  "en": "With our old coin, the #italic Hyperpyron#! slowly becoming outdated in commerce not only internally but externally, [target_character.GetName] has proposed to start minting a new coin, the #italic Stavraton#!.\\n\\nThese coinage reforms are modeled after the #italic Venetian Ducat#! and would allow our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] to trade more easily with other European countries, but the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] would also need to adapt to this new coin.",
+  "uk": "Наша стара монета, #italic іперпір#!, поступово здає позиції. Вона не може конкурувати з іноземними грошима навіть усередині держави, не кажучи вже про міжнародну торгівлю. Щоб врятувати ситуацію, [target_character.GetName] пропонує відкарбувати нову монету — #italic ставратон#!.\\n\\nЦя грошова одиниця карбуватиметься за зразком #italic венеціанського дуката#!, таким чином, наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] отримають переваги при торгівлі з іншими європейськими державами. Питання в тому, чи готові [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] прийняти нову монету…"
+ },
+ "flavor_byz.24.entry": {
+  "en": "$flavor_byz.24.title$",
+  "uk": ""
+ },
+ "flavor_byz.24.historical_info": {
+  "en": "In 1367, Emperor John V Palaiologos introduced a new coin, the Stavraton, which was named after the Greek word for \"Cross\", to defunct gold hyperpyron. This silver coin remained until the end of the Byzantine Empire.",
+  "uk": "У 1367 році імператор Іоанн V Палеолог ввів в обіг нову срібну монету — ставратон (від грецького «ставрос» — «хрест»). Вона мала замістити вилучений з обігу золотий іперпір. Ця грошова одиниця залишалася в обігу до самого падіння Візантійської імперії."
+ },
+ "flavor_byz.24.title": {
+  "en": "The Stavraton",
+  "uk": "Ставратон"
+ },
+ "flavor_byz.25.a": {
+  "en": "Let him stay in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Нехай залишається при дворі."
+ },
+ "flavor_byz.25.a.entry": {
+  "en": "Let him stay in our court.",
+  "uk": ""
+ },
+ "flavor_byz.25.b": {
+  "en": "His heretical teachings must end!",
+  "uk": "Тут не місце єретичним поглядам!"
+ },
+ "flavor_byz.25.desc": {
+  "en": "[target_artist.GetName] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. He preaches about [ROOT.GetCountry.GetName] returning to the age of Hellenism. Although he has shown prominence, the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are opposed to his ideas.",
+  "uk": "Нещодавно до столиці прибув видатний філософ [target_artist.GetName]. [ROOT.GetCountry.GetGovernment.GetCourtTitle], затамувавши подих, слухає його ідеї про повернення до ідеалів еллінізму, — але [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] рішуче налаштовані проти цих ідей."
+ },
+ "flavor_byz.25.entry": {
+  "en": "Scholar of Hellenism",
+  "uk": ""
+ },
+ "flavor_byz.25.historical_info": {
+  "en": "Gemistos Plethon was one of the most renowned Byzantine scholars. He advocated for the revival of Greek scholarship in Western Europe and wrote many manuscripts, many focusing on the revival of Hellenism and rejecting Byzantine law.",
+  "uk": "Гемістос Пліфон — один з найвидатніших візантійських філософів. Він залишив безліч праць, у яких критикував візантійські закони та виступав за відродження еллінізму й поширення античних наук по Західній Європі."
+ },
+ "flavor_byz.25.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.26.a": {
+  "en": "It shall be our main port in [ShowAreaNameWithNoTooltip('west_anatolia_area')].",
+  "uk": "Місто стане нашим головним портом у Західній Анатолії."
+ },
+ "flavor_byz.26.desc": {
+  "en": "With our forces landing in [ShowAreaName('west_anatolia_area')] and reclaiming the ports there, [target_location.GetName] stands as amongst the greatest of them all. Being a hot spot between [ShowCultureName('turkish_culture')] and [ROOT.GetCountry.GetAdjective] people in the past, it has yet again fallen into our hands. [target_character.GetName] is planning on keeping the city for the foreseeable future though, and is already strengthening its position in [ShowRegionName('anatolia_region')].",
+  "uk": "Наші армії висадилися в #TOOLTIP:AREA,west_anatolia_area,X #L Західній Анатолії#!#! та звільнили ключові порти, зокрема [target_location.Custom('LR_ACC')|l] [target_location.GetName] — найважливіший оплот усього регіону. Це місто, розташоване на кордоні #TOOLTIP:CULTURE,turkish_culture_tt,X #L турецьких#!#! та #L [ROOT.GetCountry.GetAdjective|l]их#! володінь, не раз переходило з рук в руки, але тепер воно знову наше — і [target_character.GetName] твердо [Select_CString(target_character.IsFemale,'налаштована', 'налаштований')] більше не віддавати його ворогу. [Select_CString(target_character.IsFemale,'Вона', 'Він')] докладає всіх зусиль, щоб міцно закріпитися в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!."
+ },
+ "flavor_byz.26.entry": {
+  "en": "The People of Asia Minor",
+  "uk": ""
+ },
+ "flavor_byz.26.title": {
+  "en": "The [ShowCultureNameWithNoTooltip('greek_culture')] People of [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetNameWithNoTooltip] — грецьке місто"
+ },
+ "flavor_byz.27.a": {
+  "en": "We do not have the funds to sponsor anyone right now.",
+  "uk": "Зараз у нас немає коштів на художників."
+ },
+ "flavor_byz.27.b": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetCourtTitle] needs to prosper!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] [ROOT.GetCountry.Custom('CL_GEN')] блищатиме, чого б це не коштувало!"
+ },
+ "flavor_byz.27.b.entry": {
+  "en": "Our treasury will cover the expenses!",
+  "uk": ""
+ },
+ "flavor_byz.27.c": {
+  "en": "Allow the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] to foot the bill.",
+  "uk": ""
+ },
+ "flavor_byz.27.c.entry": {
+  "en": "Allow the $nobles_estate$ to foot the bill.",
+  "uk": ""
+ },
+ "flavor_byz.27.d": {
+  "en": "[target_location.GetNameWithNoTooltip] shall become the cradle of the [ShowInstitutionNameWithNoTooltip('renaissance')].",
+  "uk": ""
+ },
+ "flavor_byz.27.d.entry": {
+  "en": "The location shall become the cradle of the [ShowInstitutionNameWithNoTooltip('renaissance')].",
+  "uk": ""
+ },
+ "flavor_byz.27.desc": {
+  "en": "Whilst in the past many great artists flocked into our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in a phenomenon that is called the [target_character.GetDynasty.GetName] Renaissance, in recent years there has been a decline, where great men choose to join other courts instead of ours. Perhaps [target_character.GetName] should invest in stopping this decline.",
+  "uk": "Ще нещодавно найвидатніші майстри сучасності вважали за честь попрацювати в нашій столиці, але тепер [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] династії [target_character.GetDynasty.GetName] швидко порожніє. Нині великі творці воліють працювати при чужоземних дворах. Якщо [target_character.GetName] не пошкодує коштів, можливо, [Select_CString(target_character.IsFemale,'їй', 'йому')] вдасться звернути цей занепад назад…"
+ },
+ "flavor_byz.27.entry": {
+  "en": "Palaeologan Renaissance",
+  "uk": ""
+ },
+ "flavor_byz.27.historical_info": {
+  "en": "When the Palaiologos dynasty reclaimed Constantinople, they instituted a campaign of renovation for the city. That sparked the final period of development of Byzantine art, where it would slowly shift away from numerous Byzantine customs, such as the artists signing their works, and move towards a different style, the Palaeologan one, that would later on influence the Cretan School of art.",
+  "uk": "Відвоювавши Константинополь, імператори з династії Палеологів взялися витрачати значні кошти на відновлення міста. З ними пов'язаний останній підйом в історії візантійського мистецтва, названий «Палеологівським відродженням». Для нього характерний відхід від попередніх візантійських традицій, зокрема, художники почали дедалі частіше підписувати свої твори. Згодом стиль Палеологівського відродження вплинув на італо-критську школу."
+ },
+ "flavor_byz.27.title": {
+  "en": "Decline of the [target_character.GetDynasty.GetNameWithNoTooltip] Renaissance",
+  "uk": "Культурний занепад династії [target_character.GetDynasty.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.28.a": {
+  "en": "Perhaps [target_character.GetNameWithNoTooltip]'s words have some merit...",
+  "uk": "Мабуть, [target_character.GetNameWithNoTooltip] каже діло…"
+ },
+ "flavor_byz.28.a.entry": {
+  "en": "Perhaps the character's words have some merit...",
+  "uk": ""
+ },
+ "flavor_byz.28.b": {
+  "en": "Abandoning [target_location2.GetNameWithNoTooltip] will serve us no good.",
+  "uk": "Ми не можемо залишити місто [target_location2.GetName]."
+ },
+ "flavor_byz.28.b.entry": {
+  "en": "Abandoning the location will serve us no good.",
+  "uk": ""
+ },
+ "flavor_byz.28.desc": {
+  "en": "With our decline in the [ShowRegionName('balkan_region')], [target_character.GetName] has come up with a way to ensure that our nation lives. By setting up a new capital in [target_location.GetName] and fortifying [ShowAreaName('morea_area')] we can ensure that no foreigner may invade us without suffering great losses.",
+  "uk": "#TOOLTIP:REGION,balkan_region,X #L Балкани#!#! для нас втрачені, але [target_character.GetName] [Select_CString(target_character.IsFemale,'знайшла', 'знайшов')] спосіб зберегти нашу державу. Ми перенесемо столицю до міста [target_location.GetName] і перетворимо весь регіон на неприступну фортецю. Якщо хтось наважиться вторгнутися до #TOOLTIP:AREA,morea_area,X #L Мореї#!#!, йому доведеться заплатити величезну ціну за кожну п'ядь нашої землі…"
+ },
+ "flavor_byz.28.entry": {
+  "en": "New Sparta",
+  "uk": ""
+ },
+ "flavor_byz.28.title": {
+  "en": "A [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ShowAreaNameWithNoTooltip('morea_area')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] в Мореї"
+ },
+ "flavor_byz.29.a": {
+  "en": "No price shall stop [target_character.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetNameWithNoTooltip] за ціною не постоїть."
+ },
+ "flavor_byz.29.a.entry": {
+  "en": "No price shall stop the character.",
+  "uk": ""
+ },
+ "flavor_byz.29.b": {
+  "en": "It is too expensive.",
+  "uk": "Це надто затратно."
+ },
+ "flavor_byz.29.desc": {
+  "en": "With [target_location.GetName] being the forefront city of the [target_character.GetDynasty.GetName], [target_character.GetName] has been planning an institution in the monastery of St. John Prodrome. Such construction would require a lot of resources, as well as works of which our nation may need to commission.",
+  "uk": "[target_location.GetName] — давня вотчина династії [target_character.GetDynasty.GetName], і [target_character.GetName] [Select_CString(target_character.IsFemale,'має намір', 'має намір')] відкрити там Кафолікон Мусейон при монастирі св. Іоанна Продрома. Спорудження такої будівлі потребуватиме чималих ресурсів, а для її оздоблення нашій державі доведеться замовити безцінні шедеври мистецтва."
+ },
+ "flavor_byz.29.entry": {
+  "en": "$flavor_byz.29.title$",
+  "uk": ""
+ },
+ "flavor_byz.29.historical_info": {
+  "en": "Although not much is known about the institution called Katholikon Mouseion, it was established during the turn of the 14th century in Constantinople. It was located in the Monastery of St. John Prodrome, and it used its library to invite many Italians who wished to learn about the Greek language and culture.",
+  "uk": "Про Кафолікон Мусейон відомо небагато. Цю установу було засновано на межі XIV століття в Константинополі, при монастирі св. Іоанна Продрома. У бібліотеці Кафолікон Мусейон працювали багато італійців, які бажали вивчати грецьку мову та античну культуру."
+ },
+ "flavor_byz.29.title": {
+  "en": "Katholikon Mouseion",
+  "uk": "Кафолікон Мусейон"
+ },
+ "flavor_byz.3.a": {
+  "en": "And so we shall!",
+  "uk": "Так ми і зробимо!"
+ },
+ "flavor_byz.3.b": {
+  "en": "Ancient Bithynia is ours once more!",
+  "uk": ""
+ },
+ "flavor_byz.3.c": {
+  "en": "Our foothold in Anatolia is secured.",
+  "uk": ""
+ },
+ "flavor_byz.3.desc": {
+  "en": "Nikomedia, or [ShowLocationName('izmit')] as the Turks called it, was a key [ROOT.GetCountry.GetAdjective] city on the Asia Minor coast for over a thousand years before finally being lost to the invading [ShowCultureName('turkish_culture')] forces in 1337. Its return puts us in an ideal position to expand back into Asia Minor once more.",
+  "uk": "Нікомедія, або [ShowLocationName('izmit')], як називали це місто турки, протягом тисячі років залишалася однією з найважливіших #L [ROOT.GetCountry.GetAdjective|l]их#! твердинь на узбережжі Малої Азії, поки в 1337 році не впала під натиском #TOOLTIP:CULTURE,$turkish_culture_tt$,X #L османів#!#!. Повернення Нікомедії відкриває перед нами чудову можливість знову закріпитися в Малій Азії."
+ },
+ "flavor_byz.3.desc_hellenic": {
+  "en": "$izmit$, known in ancient times as $izmit.greek_language$, was once the capital of the kingdom of Bithynia and a great city of the Hellenistic east. Long before it became a cornerstone of our [ROOT.GetCountry.GetFlavorRank], it stood as a center of [ShowCultureName('greek_culture')] civilization. Its return places us once again at the gateway to Anatolia.",
+  "uk": ""
+ },
+ "flavor_byz.3.desc_other": {
+  "en": "$izmit.greek_language$, or $izmit$ as the Turks called it, was a key [ROOT.GetCountry.GetAdjective] city on the Asia Minor coast for over a thousand years before finally being lost to the invading [ShowCultureName('turkish_culture')] forces in 1337. Its return puts us in an ideal position to expand back into Asia Minor once more.",
+  "uk": ""
+ },
+ "flavor_byz.3.entry": {
+  "en": "$flavor_byz.3.title$",
+  "uk": ""
+ },
+ "flavor_byz.3.title": {
+  "en": "Nikomedia reclaimed!",
+  "uk": "Нікомедія в наших руках!"
+ },
+ "flavor_byz.30.a": {
+  "en": "We will ally with [target_country.GetNameWithNoTooltip].",
+  "uk": "Ми укладемо союз з [target_country.Custom('CL_INST')]."
+ },
+ "flavor_byz.30.a.entry": {
+  "en": "We will ally with them.",
+  "uk": ""
+ },
+ "flavor_byz.30.b": {
+  "en": "The matters of [target_country2.GetReligion.GetNameWithNoTooltip] do not concern us.",
+  "uk": "[target_country2.GetReligion.GetNameWithNoTooltip|U] — не наша турбота."
+ },
+ "flavor_byz.30.b.entry": {
+  "en": "The matters of their faith do not concern us.",
+  "uk": ""
+ },
+ "flavor_byz.30.desc": {
+  "en": "With the rise of [target_country.GetReligion.GetName] in [ShowContinentName('europe')], the [ShowReligionAdjective('catholic')] world, our old enemies, are finally experiencing what we experienced centuries ago. Leading this reformation is [target_country.GetName]. Perhaps if we keep good relations with them, we can finally make the dent against [target_country2.GetName] we so wished to be able to in the past..",
+  "uk": "[target_country.GetReligion.GetName|U] впевнено крокує по #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. Тепер наші давні недруги-#TOOLTIP:RELIGION,catholic_tt,X #L католики#!#! розуміють, як нам довелося кілька століть тому… Центральна роль у цій «реформації» належить #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#!. Якщо вдасться зберегти добросусідські відносини з цією державою, у нас нарешті з'явиться шанс порахуватися з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_INST')|L]#!#!."
+ },
+ "flavor_byz.30.entry": {
+  "en": "Orthodox Church and Lutherans allying against Catholics",
+  "uk": ""
+ },
+ "flavor_byz.30.title": {
+  "en": "A Pact with [target_country.GetNameWithNoTooltip]",
+  "uk": "Договір з [target_country.Custom('CL_INST')]"
+ },
+ "flavor_byz.31.a": {
+  "en": "The army shall serve [target_character.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetNameWithNoTooltip] буде одноосібно командувати армією."
+ },
+ "flavor_byz.31.a.entry": {
+  "en": "The army shall serve the King.",
+  "uk": ""
+ },
+ "flavor_byz.31.b": {
+  "en": "Let us not override the role of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] служать спільній справі. Нам не варто ними нехтувати."
+ },
+ "flavor_byz.31.b.entry": {
+  "en": "Let us not override the role of the $nobles_estate$.",
+  "uk": ""
+ },
+ "flavor_byz.31.desc": {
+  "en": "Whilst our army dominated in the past using the Themata and the numerous levies they provided, the increase in wealth and the centralization of realms has led to armies becoming a full-time profession. [target_character.GetName] with [target_character.GetHerHis] council has been hard at work drafting a new army organization, one that depends less on the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] for troops.",
+  "uk": "Фемна система, на якій раніше була побудована наша армія, дозволяла за короткий час набрати значну кількість ополченців. Але часи змінилися, і солдатське ремесло зі зростанням добробуту централізованих держав перетворилося на повноцінну професію. Тепер [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] радники розробляють нові принципи організації армії. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] не бажає, щоб [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] диктували [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] свої умови — комплектування війська має бути у веденні центральної влади."
+ },
+ "flavor_byz.31.entry": {
+  "en": "Reforming the Byzantine Army",
+  "uk": ""
+ },
+ "flavor_byz.31.title": {
+  "en": "Reforming the [target_character.GetDynasty.GetNameWithNoTooltip] Army",
+  "uk": "Армійські реформи династії [target_character.GetDynasty.GetNameWithNoTooltip]"
+ },
+ "flavor_byz.32.a": {
+  "en": "This court intrigue is developing...",
+  "uk": "При дворі знову плетуться інтриги…"
+ },
+ "flavor_byz.32.desc": {
+  "en": "Although the current period of [ROOT.GetCountry.GetAdjective] history can be described as a small revival of the nation, it does not come without its share of problems. Although we have recently come out of a devastating Civil War, there are still new sides that are being formed. One of them rallies under the banner of [target_character2.GetName], our #italic Grand Domestic#!. Only time will tell what this will lead to.",
+  "uk": "Багато хто вірить, що зараз [ROOT.GetCountry.GetName] переживає період хай скромного, але відродження. Однак проблеми нікуди не поділися — попри те, що в державі лише нещодавно закінчилася спустошлива громадянська війна, невдоволені, як і раніше, збираються під стягами амбітних претендентів. Одну з таких фракцій [Select_CString(target_character2.IsFemale,'очолила', 'очолив')] #italic великий доместик#! [target_character2.GetName]. Час покаже, чим усе це закінчиться…"
+ },
+ "flavor_byz.32.entry": {
+  "en": "The Grand Domestic - Trouble on the Horizon",
+  "uk": ""
+ },
+ "flavor_byz.32.title": {
+  "en": "Rise of [target_character2.GetNameWithNoTooltip]",
+  "uk": "[target_character2.GetNameWithNoTooltip] рветься до влади"
+ },
+ "flavor_byz.33.a": {
+  "en": "We are Romans no more. Let us rule as a [ShowCultureNameWithNoTooltip('greek_culture')] Nation.",
+  "uk": "Ми більше не римляни. Тепер наша держава — це грецька держава."
+ },
+ "flavor_byz.33.b": {
+  "en": "We will never abandon our legacy.",
+  "uk": "Ми ніколи не відмовимося від своєї спадщини."
+ },
+ "flavor_byz.33.desc": {
+  "en": "Although we have always called ourselves the successors of [ShowLocationName('rome')], we have struggled time and again to maintain that title. Perhaps it is time to pursue a new identity, one less focused on old glory and instead one that guides us towards the future.",
+  "uk": "Ми здавна називаємо себе спадкоємцями #TOOLTIP:LOCATION,rome_tt,X #L Риму#!#!, але підтверджувати наше право на цю почесну роль з кожним роком стає дедалі складніше. Можливо, настав час перестати чіплятися за колишню славу й прийняти нову ідентичність, яка спрямована не в минуле, а в майбутнє?"
+ },
+ "flavor_byz.33.entry": {
+  "en": "$flavor_byz.33.title$",
+  "uk": ""
+ },
+ "flavor_byz.33.title": {
+  "en": "A Roman Empire?",
+  "uk": "Римська Імперія?"
+ },
+ "flavor_byz.34.a": {
+  "en": "[target_location.GetNameWithNoTooltip] shall rise again.",
+  "uk": "[target_location.GetNameWithNoTooltip] воспряне з попелу."
+ },
+ "flavor_byz.34.a.entry": {
+  "en": "The location shall rise again.",
+  "uk": ""
+ },
+ "flavor_byz.34.b": {
+  "en": "We shall not spend our funds on only one [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Ми не можемо витратити всі гроші на одне-єдине місто."
+ },
+ "flavor_byz.34.b.entry": {
+  "en": "We shall not spend our funds on only one city.",
+  "uk": ""
+ },
+ "flavor_byz.34.desc": {
+  "en": "[target_location.GetName] has seen centuries of decay from numerous conflicts. With us having finally re-established the [ROOT.GetCountry.GetAdjective] coffers, we finally can start restoring the [target_location.GetRank.GetName], bringing it to a new era.",
+  "uk": "Роздирана незліченними конфліктами, наша столиця століттями перебувала в занепаді. Тепер, коли #L [ROOT.GetCountry.GetAdjective|l]а#! скарбниця знову повна, ми нарешті можемо зайнятися відродженням #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName]. Велике місто знову знайде колишню славу!"
+ },
+ "flavor_byz.34.entry": {
+  "en": "Constantinople, the Decaying City",
+  "uk": ""
+ },
+ "flavor_byz.34.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Outgrows its Walls",
+  "uk": "[target_location.GetNameWithNoTooltip] росте на очах"
+ },
+ "flavor_byz.35.a": {
+  "en": "Let us hire him, for the good of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "В інтересах [ROOT.GetCountry.Custom('rank_ru_GEN')|l] найняти цю людину."
+ },
+ "flavor_byz.35.a.entry": {
+  "en": "Let us hire him, for the good of the realm.",
+  "uk": ""
+ },
+ "flavor_byz.35.b": {
+  "en": "Trusting the [GetCountry('GEN').GetAdjectiveWithNoTooltip]? Never!",
+  "uk": "Довіритися [GetCountry('GEN').GetAdjectiveWithNoTooltip|l]ому шахраєві? Та ніколи в житті!"
+ },
+ "flavor_byz.35.b.entry": {
+  "en": "Trusting the $GEN_ADJ$? Never!",
+  "uk": ""
+ },
+ "flavor_byz.35.desc": {
+  "en": "Whilst the colony of [ShowBuildingTypeName('galata')] has increased the [GetCountry('GEN').GetAdjective] influence in [target_location.GetName], it has also led to the arrival of a few men adamant about protecting [ROOT.GetCountry.GetName]. One of them is [target_character2.GetName], a [GetCountry('GEN').GetAdjectiveWithNoTooltip] mercenary ready to serve [target_character.GetName].",
+  "uk": "Існування колонії [ShowBuildingTypeName('galata')] призвело до зростання #L [GetCountry('GEN').GetAdjective|l]ого#! впливу, однак завдяки їй у [target_location.Custom('LR_PREP')|l] [target_location.GetName] з'явилося чимало відважних чужинців, готових віддати життя заради #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Серед них виділяється [GetCountry('GEN').GetAdjectiveWithNoTooltip|l]ий найманець на ім'я [target_character2.GetName]. Він хоче послужити нашій державі, але чи [Select_CString(target_character.IsFemale,'готова', 'готовий')] [target_character.GetName] взяти його на службу?"
+ },
+ "flavor_byz.35.entry": {
+  "en": "Giovanni Giustiniani",
+  "uk": ""
+ },
+ "flavor_byz.35.title": {
+  "en": "[target_character2.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.36.a": {
+  "en": "Glory by to [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Слався, [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ },
+ "flavor_byz.36.a.entry": {
+  "en": "Glory to us.",
+  "uk": ""
+ },
+ "flavor_byz.36.desc": {
+  "en": "Our armies have finally secured the old province of [ShowRegionName('anatolia_region')]. With its cities now under our control and our enemies driven away, we can finally celebrate this triumph.",
+  "uk": "Наші армії зайняли #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#! — старовинне володіння нашої держави. Ворогів вигнано, анатолійські міста знову в наших руках, і ми можемо відсвяткувати цей грандіозний тріумф!"
+ },
+ "flavor_byz.36.entry": {
+  "en": "Restoring Control in Anatolia",
+  "uk": ""
+ },
+ "flavor_byz.36.title": {
+  "en": "[ShowRegionNameWithNoTooltip('anatolia_region')] Reclaimed!",
+  "uk": "[ShowRegionNameWithNoTooltip('anatolia_region')] у наших руках!"
+ },
+ "flavor_byz.37.a": {
+  "en": "[target_location.GetNameWithNoTooltip] shall be fortified!",
+  "uk": "[target_location.GetNameWithNoTooltip] стане неприступною фортецею!"
+ },
+ "flavor_byz.37.a.entry": {
+  "en": "The location shall be fortified!",
+  "uk": ""
+ },
+ "flavor_byz.37.b": {
+  "en": "It is a waste of money.",
+  "uk": "Марна трата грошей."
+ },
+ "flavor_byz.37.desc": {
+  "en": "[ShowRegionName('italy_region')] was once [ROOT.GetCountry.GetAdjective], but with both the Lombards and the Normans taking control, we lost any foothold in the region. Now that we have re-established a base in [target_location.GetName], perhaps we can fortify it and use it for future operations.",
+  "uk": "Був час, коли #TOOLTIP:REGION,italy_region,X #L Італія#!#! вважалася #L [ROOT.GetCountry.GetAdjective|l]им#! володінням, але з приходом лангобардів і норманів ми втратили останні плацдарми в цьому регіоні. Тепер, коли [target_location.GetName] знову в наших руках, ми повинні закріпитися там і перетворити [target_location.Custom('LR_ACC')|l] на базу для подальшої експансії."
+ },
+ "flavor_byz.37.entry": {
+  "en": "Landing in Italy",
+  "uk": ""
+ },
+ "flavor_byz.37.title": {
+  "en": "Landing in [ShowRegionNameWithNoTooltip('italy_region')]",
+  "uk": "Висадка в Італії"
+ },
+ "flavor_byz.38.a": {
+  "en": "The safety of [ShowAreaNameWithNoTooltip('morea_area')] is our biggest priority.",
+  "uk": "Зараз найважливіше забезпечити захист Мореї."
+ },
+ "flavor_byz.38.b": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('hexamilion_wall')] is too expensive.",
+  "uk": "Стіна Гексамільйон — надто затратний проєкт."
+ },
+ "flavor_byz.38.desc": {
+  "en": "With our grip in [ShowRegionName('balkan_region')] loosening, the [target_country.GetLongName] has been put into a precarious situation. However, [target_character.GetName] has devised a plan to ensure the [target_country.GetFlavorRank]'s survival. By constructing the [ShowBuildingTypeName('hexamilion_wall')] in [ShowLocationName('corinth')] and bolstering the province of [ShowAreaName('morea_area')], there may be some hope for us left.",
+  "uk": "Наша влада над #TOOLTIP:REGION,balkan_region,X #L Балканами#!#! стрімко слабшає. [target_country.GetLongName] у небезпеці, але [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] хитромудрий план, який може врятувати державу. Збудувавши в #TOOLTIP:LOCATION,corinth_tt,X #L Коринфі#!#! #TOOLTIP:BUILDING_TYPE,hexamilion_wall,X #L стіну Гексамільйон#!#! та укріпивши провінцію #TOOLTIP:AREA,morea_area,X #L Морея#!#!, ми перетворимо [target_country.Custom('rank_ru_ACC')|l] на неприступну фортецю!"
+ },
+ "flavor_byz.38.entry": {
+  "en": "Hexamilion Wall",
+  "uk": ""
+ },
+ "flavor_byz.38.historical_info": {
+  "en": "During Constantine XI's reign over Morea, he shifted the empire's focus towards the mountains of the region, believing that if the empire was to survive, it was by fortifying the Hexamilion Wall and developing the cities there. His plans failed though when the Ottomans launched an invasion in his lands, leaving the countryside devastated.",
+  "uk": "Ставши деспотом Мореї, Костянтин XI зосередив свої зусилля на зміцненні стіни Гексамільйон та розвитку міст Пелопоннеса. Він вірив, що гористий півострів стане останньою надією імперії. На жаль, Костянтин недооцінив османів — вони змогли подолати стіну та піддали Морею спустошенню."
+ },
+ "flavor_byz.38.title": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('hexamilion_wall')]",
+  "uk": ""
+ },
+ "flavor_byz.39.a": {
+  "en": "Perhaps [ShowAreaNameWithNoTooltip('morea_area')] can be more easily defended...",
+  "uk": "Морею і справді простіше обороняти…"
+ },
+ "flavor_byz.39.b": {
+  "en": "Abandoning [target_location2.GetNameWithNoTooltip] is a grave mistake, let us reinforce it instead.",
+  "uk": "[target_location2.GetNameWithNoTooltip] вистоїть. Не слід було нам залишати місто, його треба терміново укріпити!"
+ },
+ "flavor_byz.39.b.entry": {
+  "en": "Abandoning the location is a grave mistake, let us reinforce it instead.",
+  "uk": ""
+ },
+ "flavor_byz.39.c": {
+  "en": "We will neither abandon [target_location2.GetNameWithNoTooltip] nor strengthen our hold there.",
+  "uk": "[target_location2.GetNameWithNoTooltip] залишиться нашим володінням, але ми не витрачатимемо кошти на укріплення міста."
+ },
+ "flavor_byz.39.c.entry": {
+  "en": "We will neither abandon the location nor strengthen our hold there.",
+  "uk": ""
+ },
+ "flavor_byz.39.desc": {
+  "en": "Since our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has migrated to [ShowAreaName('morea_area')], [target_location.GetName] has become the [target_country.GetAdjective] capital in all but name. Is it perhaps time for [target_character.GetName] to abandon [target_location2.GetName] in favor of this new home?",
+  "uk": "[target_location2.GetName] все ще вважається #L [target_country.GetAdjective|l]ою#! столицею, але це не більше ніж формальність, адже [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] перебралися до #TOOLTIP:AREA,morea_area,X #L Мореї#!#!. Можливо, час змиритися з втратою та оголосити, що нашою новою столицею стане [target_location.GetName]?"
+ },
+ "flavor_byz.39.entry": {
+  "en": "A New Capital",
+  "uk": ""
+ },
+ "flavor_byz.39.title": {
+  "en": "A New Capital in [target_location.GetNameWithNoTooltip]?",
+  "uk": "[target_location.GetNameWithNoTooltip] — нова столиця?"
+ },
+ "flavor_byz.4.a": {
+  "en": "Deus vult!",
+  "uk": "Так хоче Бог!"
+ },
+ "flavor_byz.4.b": {
+  "en": "[ShowLocationNameWithNoTooltip('antioch')], jewel of the Hellenistic east, is ours!",
+  "uk": ""
+ },
+ "flavor_byz.4.c": {
+  "en": "The [ROOT.GetCountry.GetFlavorRank] reaches further east.",
+  "uk": ""
+ },
+ "flavor_byz.4.c.entry": {
+  "en": "The realm reaches further east.",
+  "uk": ""
+ },
+ "flavor_byz.4.desc": {
+  "en": "Lost to the [ShowCultureName('turkish_culture')] Beyliks in 1084, [ShowLocationName('antioch')] has been called the cradle of [ShowReligionGroupName('christian')]. While it is no longer the metropolis it once was, it remains an important holy city.",
+  "uk": "#TOOLTIP:LOCATION,antioch_tt,X #L Антіохія#!#! здавна вважається колискою #TOOLTIP:RELIGIONGROUP,christian,X #L християнства#!#!. У 1084 році місто було захоплене #TOOLTIP:CULTURE,$turkish_culture_tt$,X #L тюрками#!#! і занепало, однак досі залишається найважливішою християнською святинею."
+ },
+ "flavor_byz.4.desc_hellenic": {
+  "en": "[ShowLocationName('antioch')] was founded by Seleucus I Nicator, one of the great successors of Alexander, as the capital of his Seleucid Empire. For centuries, it was one of the finest cities of the Hellenistic world, a great center of [ShowCultureName('greek_culture')] culture and learning. Its recapture is a worthy achievement for any heir to that ancient legacy.",
+  "uk": ""
+ },
+ "flavor_byz.4.desc_other": {
+  "en": "The great holy place of [ShowLocationName('antioch')], lost to the [ShowCultureName('turkish_culture')] Beyliks in 1084, has at long last returned to imperial control. While its ancient glory has faded with the centuries, [ShowLocationNameWithNoTooltip('antioch')] remains a significant landmark and a strategic gateway to the east.",
+  "uk": ""
+ },
+ "flavor_byz.4.entry": {
+  "en": "$flavor_byz.4.title$",
+  "uk": ""
+ },
+ "flavor_byz.4.title": {
+  "en": "Antioch reclaimed!",
+  "uk": "Антіохія в наших руках!"
+ },
+ "flavor_byz.40.a": {
+  "en": "A work of art shall remain a work of art, even if heretic.",
+  "uk": "Твір мистецтва — це твір мистецтва, навіть якщо він сповнений єресі."
+ },
+ "flavor_byz.40.b": {
+  "en": "Let us revisit some of these texts, make them grander.",
+  "uk": "Ми повинні вивчити й удосконалити ці тексти."
+ },
+ "flavor_byz.40.c": {
+  "en": "Cast it into the fire, destroy it!",
+  "uk": "Кинути її просто в пекло! Хай горить у вогні!"
+ },
+ "flavor_byz.40.desc": {
+  "en": "Since the death of [target_character.GetName], several people have started scavenging whatever his possessions were. One of them, [target_character2.GetName], has found out about one of his manuscripts, labeled #italic Nomoi#!. Inspired by [ShowReligionAdjective('zoroastrian')] teachings and those of Plato, it consists of various topics, all leading back to the return of the Hellenistic ways.",
+  "uk": "Коли помер [target_character.GetName], городяни розграбували його дім. [target_character2.GetName] повідомляє, що до [Select_CString(target_character2.IsFemale,'неї', 'нього')] потрапила одна з праць покійного філософа — манускрипт під назвою #italic «Закони»#!. Книга явно написана під впливом #TOOLTIP:RELIGION,zoroastrian_tt,X #L зороастризму#!#! та вчення Платона. У ній розглядаються найрізноманітніші питання, однак автор дає на них одну відповідь: необхідно відродити цінності еллінізму."
+ },
+ "flavor_byz.40.entry": {
+  "en": "$flavor_byz.40.title$",
+  "uk": ""
+ },
+ "flavor_byz.40.title": {
+  "en": "Nomon Syngraphe",
+  "uk": "Книга законів"
+ },
+ "flavor_byz.41.a": {
+  "en": "He is free to record history.",
+  "uk": "Хай собі записує."
+ },
+ "flavor_byz.41.b": {
+  "en": "We can sponsor his works.",
+  "uk": "Ми можемо заплатити йому за працю."
+ },
+ "flavor_byz.41.desc": {
+  "en": "With more and more historians being interested in the history of [target_country.GetName], a few of them have been thinking of writing a chronicle about the [target_character.GetDynasty.GetName] family, such as [target_artist.GetName], ensuring that later generations know the deeds of [target_character.GetName] and [target_character.GetHerHis] family.",
+  "uk": "Історія #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! викликає непідробний інтерес у багатьох учених. Дехто з них — наприклад, [target_artist.GetName], — навіть подумує записати хроніку династії [target_character.GetDynasty.GetName]. І справді, [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] рід заслужили право залишитися в пам'яті нащадків…"
+ },
+ "flavor_byz.41.entry": {
+  "en": "History of the Palaiologoi",
+  "uk": ""
+ },
+ "flavor_byz.41.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.42.a": {
+  "en": "Let us invite [target_artist.GetNameWithNoTooltip] to [target_location2.GetNameWithNoTooltip]",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона', 'Він')] буде бажаним гостем у місті [target_location2.GetNameWithNoTooltip]."
+ },
+ "flavor_byz.42.a.entry": {
+  "en": "Let us invite the artist to the location",
+  "uk": ""
+ },
+ "flavor_byz.42.b": {
+  "en": "He would be a great diplomat for [target_country.GetNameWithNoTooltip].",
+  "uk": "[target_country.GetName] якраз потребує послуг умілого дипломата…"
+ },
+ "flavor_byz.42.b.entry": {
+  "en": "He would be a great diplomat for them.",
+  "uk": ""
+ },
+ "flavor_byz.42.c": {
+  "en": "He is too expensive to maintain.",
+  "uk": "Ні, він запросить надто багато."
+ },
+ "flavor_byz.42.desc": {
+  "en": "Born in [target_location.GetName], [target_artist.GetName] has been studying the Western ways of medicine and philosophy from a very young age. Studying in numerous universities, he has siphoned tons of knowledge and is versed in many linguistic forms. Perhaps such an educated philosopher will do well in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[target_artist.GetName], уродженець [target_location.Custom('LR_GEN')|l] [target_location.GetName], змалку присвятив себе вивченню західної філософії та медицини. Він навчався в кількох університетах, де досконало опанував багато мов і здобув обширні знання. Такий освічений мислитель став би бажаним надбанням для нашого двору."
+ },
+ "flavor_byz.42.entry": {
+  "en": "$flavor_byz.42.title.a$",
+  "uk": ""
+ },
+ "flavor_byz.42.historical_info": {
+  "en": "Born in Mykonos, Alexandros Mavrokordatos was a Greek doctor under the Turkocracy. After studying in the West, most notably at the University of Bologna, he wrote several treatises, such as #italic Instrumentum Pneumaticum Circulandi Sanguinis sive modu usu pulmonum#!. Afterward, he served under Sultan Mehmed IV, helping in negotiations that led to the Treaty of Karlowitz in 1699, and managed to gain considerable power in the Ottoman court, allowing his family to rule Moldavia.",
+  "uk": "Грецький доктор філософії та медицини Александр Маврокордат був видатним політичним діячем часів османського панування. Отримавши блискучу освіту в Болоньї та інших університетах Західної Європи, цей уродженець острова Міконос склав кілька трактатів, таких як #italic «Пневматичний інструмент кровообігу»#!. Згодом Маврокордат вступив на службу при дворі султана Мехмеда IV, де домігся неабиякого впливу — так, він відіграв значну роль у підготовці проєкту Карловицького миру 1699 року. Нащадки Александра також обіймали посаду великого драгомана та були господарями Молдавії й Валахії."
+ },
+ "flavor_byz.42.title.a": {
+  "en": "Rise of the Mavrokordatos Family",
+  "uk": "Посилення родини Маврокордатів"
+ },
+ "flavor_byz.42.title.b": {
+  "en": "The Grand Dragoman",
+  "uk": "Великий драгоман"
+ },
+ "flavor_byz.43.a": {
+  "en": "Let us find this school of art.",
+  "uk": "Саме це ми й зробимо."
+ },
+ "flavor_byz.43.b": {
+  "en": "We do not need more artists.",
+  "uk": "У нас і без того достатньо художників."
+ },
+ "flavor_byz.43.c": {
+  "en": "[target_character.GetNameWithNoTooltip] shall focus all their efforts to it.",
+  "uk": "Нехай [target_character.GetNameWithNoTooltip] докладе до цього всіх зусиль."
+ },
+ "flavor_byz.43.c.entry": {
+  "en": "The character shall focus all their efforts to it.",
+  "uk": ""
+ },
+ "flavor_byz.43.d": {
+  "en": "The old Cretan school shall be favored.",
+  "uk": "Нам миліша стара критська школа."
+ },
+ "flavor_byz.43.desc": {
+  "en": "With the Cretan School already established and the domination of Western artwork in [ShowContinentName('europe')], the [ShowCultureName('greek_culture')] have been adopting this new art form. Primarily, [ShowLocationName('corfu')] has seen a new wave of these new artists. Perhaps it is time to found a new school in [ShowProvinceDefinitionName('ionian_islands_province')].",
+  "uk": "З появою італо-критської школи та повсюдним поширенням #TOOLTIP:CONTINENT,europe,X #L західноєвропейського#!#! мистецтва #TOOLTIP:CULTURE,greek_culture_tt,X #L грецькі#!#! майстри також взялися переймати нові форми. Найпопулярнішим притулком для нового покоління художників став острів [ShowLocationName('corfu')], то чи не час заснувати на #TOOLTIP:PROVINCE_DEFINITION,ionian_islands_province,X #L Іонічних островах#!#! нову школу мистецтв?"
+ },
+ "flavor_byz.43.entry": {
+  "en": "$flavor_byz.43.title$",
+  "uk": ""
+ },
+ "flavor_byz.43.title": {
+  "en": "Founding the Heptanese School",
+  "uk": "Виникнення Семиострівної школи живопису"
+ },
+ "flavor_byz.44.a": {
+  "en": "Let us sponsor him and invite him to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Треба запросити цього майстра до двору й надати йому покровительство."
+ },
+ "flavor_byz.44.a.entry": {
+  "en": "Let us sponsor him and invite him to our court.",
+  "uk": ""
+ },
+ "flavor_byz.44.b": {
+  "en": "We do not need more artists.",
+  "uk": "У нас і без того достатньо художників."
+ },
+ "flavor_byz.44.desc": {
+  "en": "[target_artist.GetName], born in the [target_location.GetName] as a [ShowCultureName('greek_culture')] citizen, has been making a name for himself in the [ShowProvinceDefinitionName('ionian_islands_province')]. His art follows the #italic Maniera Greca#! style, mixing the [GetCountry('BYZ').GetAdjective] and [GetCountry('VEN').GetAdjective] artistic styles.",
+  "uk": "Художник на ім'я [target_artist.GetName], #TOOLTIP:CULTURE,greek_culture_tt,X #L грек#!#! з [target_location.Custom('LR_RP')|l] [target_location.GetName], доволі відомий на #TOOLTIP:PROVINCE_DEFINITION,ionian_islands_province,X #L Іонічних островах#!#!. Він працює в стилі #italic Maniera Greca#!, у якому поєднуються елементи #L [GetCountry('BYZ').GetAdjective|l]ого#! та #L [GetCountry('VEN').GetAdjective|l]ого#! мистецтва."
+ },
+ "flavor_byz.44.entry": {
+  "en": "Maniera Greca",
+  "uk": ""
+ },
+ "flavor_byz.44.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.45.a": {
+  "en": "Let us abolish this old system.",
+  "uk": "Час позбутися старої системи."
+ },
+ "flavor_byz.45.b": {
+  "en": "There may be a few loopholes, but reforming it will do us no good.",
+  "uk": "Система не позбавлена недоліків, але її реформа ні до чого доброго не призведе."
+ },
+ "flavor_byz.45.desc": {
+  "en": "Whilst the [ShowPolicyName('pronoia_system')] has served us well in the past, the administrative titles have been reduced to nothing more than their feudal counterparts, ensuring that the governors of each province are not assigned by [target_character.GetName], but a hereditary position. [target_character.GetNameWithNoTooltip] has already plans on reforming this system, restoring control over the [ROOT.GetCountry.GetAdjective] provinces.",
+  "uk": "#TOOLTIP:POLICY,pronoia_system,X #L Система проній#!#! довгий час служила нам вірою і правдою, але на цей час адміністративні посади фактично перетворилися на феодальні володіння. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] більше не призначає губернаторів — їхні пости давно передаються у спадок. [target_character.GetName] рішуче [Select_CString(target_character.IsFemale,'налаштована', 'налаштований')] реформувати цю порочну систему й повернути собі повноправний контроль над #L [ROOT.GetCountry.GetAdjective|l]ими#! провінціями."
+ },
+ "flavor_byz.45.entry": {
+  "en": "$flavor_byz.45.title$",
+  "uk": ""
+ },
+ "flavor_byz.45.title": {
+  "en": "Reforming the Prónoia System",
+  "uk": "Реформа системи проній"
+ },
+ "flavor_byz.46.a": {
+  "en": "Their support will serve well on our land efforts.",
+  "uk": "Це піде на користь нашим сухопутним силам."
+ },
+ "flavor_byz.46.b": {
+  "en": "It is the navy that they should be aiding instead.",
+  "uk": "Краще б вони допомогли нашому флоту."
+ },
+ "flavor_byz.46.desc": {
+  "en": "The [target_country.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] has come out in support of [target_character.GetName] and [target_character.GetHisHer] policies. This allows us to make changes in our state easily.",
+  "uk": "[target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] політика користуються повною підтримкою #L [target_country.GetAdjective|l]ого#! двору. Завдяки цьому в нас є можливість без труднощів провести необхідні реформи."
+ },
+ "flavor_byz.46.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Offers Military Aid",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує допомогу у військових питаннях"
+ },
+ "flavor_byz.47.a": {
+  "en": "A quantity-based army will allow us to cover more ground.",
+  "uk": "Численна армія дозволить щільніше закрити кордони."
+ },
+ "flavor_byz.47.b": {
+  "en": "Instead of sending more men in the army, let us instead train our existing one.",
+  "uk": "Армії не потрібно більше людей — краще як слід навчити вже наявних."
+ },
+ "flavor_byz.47.c": {
+  "en": "Our officers on land should be strengthened even more.",
+  "uk": "Потрібно приділити більше уваги сухопутним арміям."
+ },
+ "flavor_byz.47.d": {
+  "en": "To protect [ROOT.GetCountry.GetNameWithNoTooltip], we must also protect its seas.",
+  "uk": "Щоб захистити [ROOT.GetCountry.Custom('CL_ACC')], потрібно володіти морями."
+ },
+ "flavor_byz.47.desc.a": {
+  "en": "$flavor_byz_47_desc_common$ [ShowSocietyDirectionName('quantity')].",
+  "uk": "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,quantity,X #L збільшення чисельності#!#! військ."
+ },
+ "flavor_byz.47.desc.b": {
+  "en": "$flavor_byz_47_desc_common$ [ShowSocietyDirectionName('quality')].",
+  "uk": "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,quality,X #L підвищення якості#!#! військ."
+ },
+ "flavor_byz.47.desc.c": {
+  "en": "$flavor_byz_47_desc_common$ [ShowSocietyDirectionName('land')].",
+  "uk": "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,land,X #L наземних сил#!#!."
+ },
+ "flavor_byz.47.desc.d": {
+  "en": "$flavor_byz_47_desc_common$ [ShowSocietyDirectionName('naval')].",
+  "uk": "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,naval,X #L флоту#!#!."
+ },
+ "flavor_byz.47.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Conspires Against the Military",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] будує підступи проти військових"
+ },
+ "flavor_byz.48.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetAdjective] Bureaucracy shall strengthen the [ROOT.GetCountry.GetGovernment.GetCourtTitle] itself.",
+  "uk": "Від ефективної #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої#! бюрократії [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] лише виграє."
+ },
+ "flavor_byz.48.b": {
+  "en": "Our society shall be ruled with gold.",
+  "uk": "Золото — це все, що потрібно державі."
+ },
+ "flavor_byz.48.desc": {
+  "en": "With our administration lacking in recent years, our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has come in support to help [target_character.GetName] draft some laws to strengthen this branch of [ROOT.GetCountry.GetName].",
+  "uk": "В останні роки чиновницький апарат #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! ледве справляється зі своїми обов'язками. Для усунення проблеми [target_character.GetName] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] прийняти нові закони, і [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] заздалегідь заявляє про свою готовність підтримати будь-які [Select_CString(target_character.IsFemale,'її', 'його')] ініціативи."
+ },
+ "flavor_byz.48.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Offers Bureaucratic Aid",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує допомогу в питаннях управління"
+ },
+ "flavor_byz.49.a": {
+  "en": "Let us promote the [ShowSocietyDirectionNameWithNoTooltip('aristocracy')].",
+  "uk": "Ми повинні підтримати аристократів."
+ },
+ "flavor_byz.49.b": {
+  "en": "We shall be a nation of Plutocratic values.",
+  "uk": "Наша держава стане плутократичною державою."
+ },
+ "flavor_byz.49.c": {
+  "en": "Our administration needs to look Outward.",
+  "uk": "Влада має бути відкрита до впливу ззовні."
+ },
+ "flavor_byz.49.d": {
+  "en": "Looking [ShowSocietyDirectionNameWithNoTooltip('inward')] is how we will secure our safety.",
+  "uk": "Лише повна закритість забезпечить нашу безпеку."
+ },
+ "flavor_byz.49.desc.a": {
+  "en": "$flavor_byz_49_desc_common$ [ShowSocietyDirectionName('aristocracy')].",
+  "uk": "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,aristocracy,X #L аристократії#!#!."
+ },
+ "flavor_byz.49.desc.b": {
+  "en": "$flavor_byz_49_desc_common$ [ShowSocietyDirectionName('plutocracy')].",
+  "uk": "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,plutocracy,X #L плутократії#!#!."
+ },
+ "flavor_byz.49.desc.c": {
+  "en": "$flavor_byz_49_desc_common$ [ShowSocietyDirectionName('outward')].",
+  "uk": "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,outward,X #L відкритості#!#!."
+ },
+ "flavor_byz.49.desc.d": {
+  "en": "$flavor_byz_49_desc_common$ [ShowSocietyDirectionName('inward')].",
+  "uk": "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,inward,X #L закритості#!#!."
+ },
+ "flavor_byz.49.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Conspires Against the [ROOT.GetCountry.GetGovernment.GetAdjective|U] Bureaucracy",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] будує підступи проти #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого#! чиновництва"
+ },
+ "flavor_byz.5.a": {
+  "en": "Deus vult!",
+  "uk": "Так хоче Бог!"
+ },
+ "flavor_byz.5.b": {
+  "en": "Its worth is strategic, not spiritual.",
+  "uk": ""
+ },
+ "flavor_byz.5.c": {
+  "en": "Another holy place returned to the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": ""
+ },
+ "flavor_byz.5.c.entry": {
+  "en": "Another holy place returned to the realm.",
+  "uk": ""
+ },
+ "flavor_byz.5.desc": {
+  "en": "Lost to the Arabs in 634, [ShowLocationName('jerusalem')] was once a center of [ShowReligionGroupAdjective('christian')] worship in the Empire. Its recapture is sure to boost the morale of all [ShowReligionGroupAdjectiveWithNoTooltip('christian')] peoples.",
+  "uk": "До арабського завоювання в 634 році [ShowLocationName('jerusalem')] був основним центром #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! віри в імперії. Немає сумнівів, що повернення міста надихне всі християнські народи світу."
+ },
+ "flavor_byz.5.desc_hellenic": {
+  "en": "[ShowLocationName('jerusalem')] has long been a place of great importance to many faiths, and its recapture extends our dominion deep into the old imperial heartland. While it holds no particular significance for [ShowReligionAdjective('hellenism_religion')] worship, controlling such a storied landmark carries its own strategic value.",
+  "uk": ""
+ },
+ "flavor_byz.5.desc_other": {
+  "en": "The city of [ShowLocationName('jerusalem')], held by foreign powers since 634, has been brought back under imperial control. Its recapture strengthens our position in the region and adds a prestigious holy place to our domain.",
+  "uk": ""
+ },
+ "flavor_byz.5.entry": {
+  "en": "$flavor_byz.5.title$",
+  "uk": ""
+ },
+ "flavor_byz.5.title": {
+  "en": "Jerusalem reclaimed!",
+  "uk": "Єрусалим у наших руках!"
+ },
+ "flavor_byz.50.a": {
+  "en": "To preserve this wealth, let us promote [ShowSocietyDirectionNameWithNoTooltip('mercantilism')].",
+  "uk": "Лише меркантилізм дозволить зберегти й примножити наші багатства."
+ },
+ "flavor_byz.50.b": {
+  "en": "Our markets are free for anyone to enter.",
+  "uk": "Наші ринки будуть відкриті для всіх охочих."
+ },
+ "flavor_byz.50.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has decided to support us in our economic matters. They have offered their hands to enact any policies that [target_character.GetName] might want to for our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')].",
+  "uk": "Члени двору готові надати нам допомогу в питаннях економічної політики. Які б рішення не [Select_CString(target_character.IsFemale,'прийняла', 'прийняв')] [target_character.GetName], як би на них не відреагували [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] — [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] обов'язково нас підтримає."
+ },
+ "flavor_byz.50.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Offers Trade Aid",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує допомогу в торговельних справах"
+ },
+ "flavor_byz.51.a": {
+  "en": "Steering [ROOT.GetCountry.GetNameWithNoTooltip] into [ShowSocietyDirectionNameWithNoTooltip('free_trade')] might not be a bad idea.",
+  "uk": "Мабуть, вільна торгівля піде [ROOT.GetCountry.Custom('CL_DAT')] на користь."
+ },
+ "flavor_byz.51.b": {
+  "en": "[ShowSocietyDirectionNameWithNoTooltip('mercantilism')] will be useful to protect [ROOT.GetCountry.GetAdjectiveWithNoTooltip] ports.",
+  "uk": "Меркантилізм дозволить захистити [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]і порти."
+ },
+ "flavor_byz.51.c": {
+  "en": "A shift towards [ShowSocietyDirectionNameWithNoTooltip('capital_economy')] can surely bolster our coffers.",
+  "uk": "Перехід до капіталістичної економіки допоможе наповнити нашу скарбницю."
+ },
+ "flavor_byz.51.d": {
+  "en": "Let us retain [ShowSocietyDirectionNameWithNoTooltip('traditional_economy')] values.",
+  "uk": "Краще триматися традиційних цінностей."
+ },
+ "flavor_byz.51.desc.a": {
+  "en": "$flavor_byz_51_desc_common$ [ShowSocietyDirectionName('free_trade')].",
+  "uk": "$flavor_byz_51_desc_common$ Придворні хочуть, щоб наші пріоритети змістилися в бік #TOOLTIP:SOCIETAL_VALUE,free_trade,X #L вільної торгівлі#!#!."
+ },
+ "flavor_byz.51.desc.b": {
+  "en": "$flavor_byz_51_desc_common$ [ShowSocietyDirectionName('mercantilism')].",
+  "uk": "$flavor_byz_51_desc_common$ Придворні хочуть, щоб наші пріоритети змістилися в бік #TOOLTIP:SOCIETAL_VALUE,mercantilism,X #L меркантилізму#!#!."
+ },
+ "flavor_byz.51.desc.c": {
+  "en": "$flavor_byz_51_desc_common$ [ShowSocietyDirectionName('capital_economy')].",
+  "uk": "$flavor_byz_51_desc_common$ Придворні хочуть, щоб наші пріоритети змістилися в бік #TOOLTIP:SOCIETAL_VALUE,capital_economy,X #L капіталістичної економіки#!#!."
+ },
+ "flavor_byz.51.desc.d": {
+  "en": "$flavor_byz_51_desc_common$ [ShowSocietyDirectionName('traditional_economy')].",
+  "uk": "$flavor_byz_51_desc_common$ Придворні хочуть, щоб наші пріоритети змістилися в бік #TOOLTIP:SOCIETAL_VALUE,traditional_economy,X #L традиційної економіки#!#!."
+ },
+ "flavor_byz.51.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] Strands [ROOT.GetCountry.GetGovernment.GetAdjective|U] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] та #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]і#! [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] вступають у протистояння"
+ },
+ "flavor_byz.52.a": {
+  "en": "Let us re-write it, even if we anger our estates.",
+  "uk": "Час переписати старі закони, незважаючи на невдоволення станів."
+ },
+ "flavor_byz.52.b": {
+  "en": "The code has served [ROOT.GetCountry.GetNameWithNoTooltip] for many centuries already.",
+  "uk": "Звід Юстиніана служив [ROOT.GetCountry.Custom('CL_DAT')] протягом століть."
+ },
+ "flavor_byz.52.b.entry": {
+  "en": "The code has served us for many centuries already.",
+  "uk": ""
+ },
+ "flavor_byz.52.desc": {
+  "en": "Despite our [ROOT.GetCountry.GetFlavorRank] being sovereign, that has not stopped our [ROOT.GetCountry.GetGovernment.GetCourtTitle] from intervening in the [ROOT.GetCountry.GetFlavorRank]'s politics. Always meddling in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], their desires often contradict those of [target_character.GetName]. Perhaps by making changes in our laws we can limit their power in [ROOT.GetCountry.GetName].",
+  "uk": "Останнім часом [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] занадто часто втручається в політику [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Придворні переслідують лише власні інтереси, вони контролюють [ROOT.GetCountry.Custom('parliament_ru_ACC')|l], і [target_character.GetName] вже не знає, як обмежити їхній вплив. Для цього доведеться змінити основні закони #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!…"
+ },
+ "flavor_byz.52.entry": {
+  "en": "$flavor_byz.52.title$",
+  "uk": ""
+ },
+ "flavor_byz.52.title": {
+  "en": "Reforming the Corpus Juris Civilis",
+  "uk": "Реформа зводу Юстиніана"
+ },
+ "flavor_byz.53.a": {
+  "en": "They are what has kept the empire for so long. We must fortify them again.",
+  "uk": "Ці стіни багато століть служили імперії щитом. Їх необхідно відновити."
+ },
+ "flavor_byz.53.b": {
+  "en": "Hiding in [target_province.GetNameWithNoTooltip] is not the way to success.",
+  "uk": "Ховаючись за старими стінами, ми нічого не досягнемо."
+ },
+ "flavor_byz.53.b.entry": {
+  "en": "Hiding in the province is not the way to success.",
+  "uk": ""
+ },
+ "flavor_byz.53.desc": {
+  "en": "Ever since the Latins sacked [target_province.GetName] in 1204, the [ShowBuildingTypeName('theodosian_walls')] have been reduced to a fraction of their old glory. Previously, we lacked the resources to properly maintain them, but right now in these dire times, we must make sure they are ready for an assault.",
+  "uk": "У 1204 році латиняни пройшлися вогнем і мечем по провінції [target_province.GetName], відтоді #TOOLTIP:BUILDING_TYPE,theodosian_walls,X #L Феодосієві стіни#!#! перебувають у жалюгідному стані. Раніше в нас не вистачало зайвих коштів для їх відновлення, але часи тепер відчайдушні, і ми зобов'язані впевнитися, що древні укріплення витримають штурм."
+ },
+ "flavor_byz.53.entry": {
+  "en": "Re-fortifying Theodosian Walls",
+  "uk": ""
+ },
+ "flavor_byz.53.title": {
+  "en": "Fortifying the [ShowBuildingTypeNameWithNoTooltip('theodosian_walls')]",
+  "uk": "Зміцнення Феодосієвих стін"
+ },
+ "flavor_byz.54.a": {
+  "en": "[target_location.GetNameWithNoTooltip] only belongs to [target_character.GetNameWithNoTooltip]!",
+  "uk": "[target_location.GetNameWithNoTooltip] належить нам, там владарює лише [target_character.GetNameWithNoTooltip]!"
+ },
+ "flavor_byz.54.b": {
+  "en": "Let us not cause another war with the [ShowCultureGroupNameWithNoTooltip('italian_group')] nations...",
+  "uk": "Нам краще не доводити справи до ще однієї війни з італійськими державами…"
+ },
+ "flavor_byz.54.desc": {
+  "en": "Although the [ShowCultureGroupName('italian_group')] [ShowPopTypeName('burghers')] have helped us in the past at re-populating [target_location.GetName], it has become clear that right now, they are exploiting the [target_market.GetName]. We must get rid of them from [target_location.GetNameWithNoTooltip] lest they continue their mischiefs.",
+  "uk": "Не можна не визнати, що #TOOLTIP:CULTUREGROUP,italian_group,X #L італійські#!#! [ShowPopTypeName('burghers')] виявилися вельми корисними у відновленні [target_location.Custom('LR_GEN')|l] [target_location.GetName], однак, як виявилося, їхня допомога має свою ціну — тепер [target_market.GetName] фактично в їхніх руках. Треба вигнати цих п'явок, поки вони нас зовсім не розорили."
+ },
+ "flavor_byz.54.entry": {
+  "en": "Dealing with Italian Influence",
+  "uk": ""
+ },
+ "flavor_byz.54.title": {
+  "en": "Dealing with the [ShowCultureGroupNameWithNoTooltip('italian_group')] Merchants",
+  "uk": "Боротьба з італійськими купцями"
+ },
+ "flavor_byz.55.a": {
+  "en": "Even if a deal with [target_country.GetNameWithNoTooltip] angers the Patriarchy...",
+  "uk": "Нам потрібен союз з [target_country.Custom('CL_INST')], і неважливо, що на це скаже патріарх."
+ },
+ "flavor_byz.55.a.entry": {
+  "en": "Even if a deal with them angers the Patriarchy...",
+  "uk": ""
+ },
+ "flavor_byz.55.b": {
+  "en": "This is an outrageous suggestion.",
+  "uk": "Обурлива ідея!"
+ },
+ "flavor_byz.55.desc": {
+  "en": "With our decline in power, and the rising threats all around us, [target_character.GetName] has been thinking the unthinkable in all of [ROOT.GetCountry.GetAdjective] history. If the [ROOT.GetCountry.GetFlavorRank] is to survive, then we need the support of [target_character2.GetName] and the entire [ShowReligionAdjective('catholic')] world. Perhaps [target_character.GetNameWithNoTooltip] should travel west and negotiate with [target_character2.GetNameWithNoTooltip].",
+  "uk": "Сили #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! на вичерпі, вороги оточують [ROOT.GetCountry.Custom('rank_ru_ACC')|l] з усіх боків. За цих умов [target_character.GetName] [Select_CString(target_character.IsFemale,'готова', 'готовий')] піти на нечуваний крок, вирушивши на поклін до глави #TOOLTIP:RELIGION,catholic_tt,X #L Католицької#!#! церкви. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] вірить, що зараз нас може врятувати лише [target_character2.GetName]. Чи варто [Select_CString(target_character.IsFemale,'їй', 'йому')] вирушити з посольством на Захід і почати переговори?"
+ },
+ "flavor_byz.55.entry": {
+  "en": "Become, *shudders*, Catholic",
+  "uk": ""
+ },
+ "flavor_byz.55.title": {
+  "en": "The Council of [ShowLocationNameWithNoTooltip('florence')]",
+  "uk": "Флорентійський собор"
+ },
+ "flavor_byz.57.a": {
+  "en": "Let us restore them.",
+  "uk": "Наші міста відродяться знову."
+ },
+ "flavor_byz.57.b": {
+  "en": "They are but a relic of the past. The native people there deserve respect.",
+  "uk": "Їхній час давно минув. Ми повинні поважити нинішніх мешканців цих селищ."
+ },
+ "flavor_byz.57.desc": {
+  "en": "Since the Seljuk invasion of [ShowRegionName('anatolia_region')] and the fall of our many provinces there, many of the old [ShowCultureName('greek_culture')] cities there have been reduced to nothing more but barbarian bases. With our reconquest of the region, however, perhaps we can restore [ROOT.GetCountry.GetAdjective] order there.",
+  "uk": "Після захоплення сельджуками наших #TOOLTIP:REGION,anatolia_region,X #L анатолійських#!#! провінцій багато древніх #TOOLTIP:CULTURE,greek_culture_tt,X #L грецьких#!#! міст занепали, перетворившись на стоянки дикунів. Але тепер, коли Анатолія знову в наших руках, ми можемо відновити там #L [ROOT.GetCountry.GetAdjective|l]і#! порядки."
+ },
+ "flavor_byz.57.entry": {
+  "en": "Restoring Anatolia Region Cities",
+  "uk": ""
+ },
+ "flavor_byz.57.title": {
+  "en": "Restoring [ShowRegionNameWithNoTooltip('anatolia_region')] Cities",
+  "uk": "Відродження міст Анатолії"
+ },
+ "flavor_byz.58.a": {
+  "en": "Bah! Their tribal feuds will only get worse.",
+  "uk": ""
+ },
+ "flavor_byz.58.desc": {
+  "en": "Members of an [ShowCultureName('albanian')] tribe from [source_location.GetName], faced with tribal conflicts and poor opportunities, have chosen to leave [source_location.GetProvince.GetName] in hopes of finding a better future. Not much is known about their current whereabouts, but rumors are that they are trying to settle in [destination_location.GetProvince.GetName], within [destination_location.GetName]. Let us see if they find the peace they so desperately crave.",
+  "uk": ""
+ },
+ "flavor_byz.58.title": {
+  "en": "[ShowCultureNameWithNoTooltip('albanian')] Migration",
+  "uk": ""
+ },
+ "flavor_byz.59.a": {
+  "en": "We should work to encourage further migrations.",
+  "uk": ""
+ },
+ "flavor_byz.59.b": {
+  "en": "Bah! We should not be bothered by such trifles.",
+  "uk": ""
+ },
+ "flavor_byz.59.desc": {
+  "en": "Members of an [ShowCultureName('albanian')] tribe from [source_location.GetName] have arrived in [destination_location.GetName], seeking an audience with the local governor with the goal of founding a new settlement of their own. Such permission has already been granted by [destination_location.GetProvince.GetName], though it might be worthwhile to grant the newcomers additional privileges so that more of them may come our way.",
+  "uk": ""
+ },
+ "flavor_byz.59.entry": {
+  "en": "$flavor_byz.59.title$",
+  "uk": ""
+ },
+ "flavor_byz.59.title": {
+  "en": "$flavor_byz.58.title$",
+  "uk": ""
+ },
+ "flavor_byz.6.a": {
+  "en": "Rome, the city where it all began, is once again in our hands",
+  "uk": "Рим — це місто, де все починалося. І тепер воно знову наше!"
+ },
+ "flavor_byz.6.b": {
+  "en": "The ancient capital is restored to its rightful heirs!",
+  "uk": ""
+ },
+ "flavor_byz.6.c": {
+  "en": "An imperial prize beyond compare.",
+  "uk": ""
+ },
+ "flavor_byz.6.desc": {
+  "en": "Although not always directly controlled by the Empire, [ShowLocationName('rome')] finally severed all [ROOT.GetCountry.GetAdjective] ties when Pope Leo III crowned [GetCharacter('fra_charlemagne').GetName] Holy Roman Emperor. Now, however, the city is back in our hands, and although it has suffered much it is still a highly prestigious city to control.",
+  "uk": "Вічне місто і раніше практично не підкорялося #L [ROOT.GetCountry.GetAdjective|l]им#! властям, а після того, як [GetCharacter('fra_charlemagne').GetName] прийняв вінець імператора Священної Римської Імперії з рук папи Льва III, [ROOT.GetCountry.GetLongName] і [ShowLocationName('rome')] посварилися остаточно. Але тепер місто знову в наших руках — і хоча час обійшовся з ним немилосердно, влада над ним як і раніше має величезне символічне значення."
+ },
+ "flavor_byz.6.desc_hellenic": {
+  "en": "Long before Popes and self-proclaimed emperors claimed [ShowLocationName('rome')], it was the western seat of our Empire — a city whose legacy reaches back to the very founders of civilization. Now, free of papal meddling, [ShowLocationNameWithNoTooltip('rome')] can stand once more as a monument to the ancient world's enduring glory.",
+  "uk": ""
+ },
+ "flavor_byz.6.desc_other": {
+  "en": "The ancient city of [ShowLocationName('rome')], though diminished from its former glory, remains one of the most prestigious cities in the known world. Its return to imperial hands is a significant achievement, and with it our claim to the ancient western empire is strengthened.",
+  "uk": ""
+ },
+ "flavor_byz.6.entry": {
+  "en": "$flavor_byz.6.title$",
+  "uk": ""
+ },
+ "flavor_byz.6.title": {
+  "en": "Rome reclaimed!",
+  "uk": "Рим у наших руках!"
+ },
+ "flavor_byz.60.a": {
+  "en": "It is no one else's but [target_character.GetHerHis] will.",
+  "uk": ""
+ },
+ "flavor_byz.60.a.entry": {
+  "en": "It is no one else's but his will.",
+  "uk": ""
+ },
+ "flavor_byz.60.b": {
+  "en": "Pressure [target_character.GetHerHim] into accepting.",
+  "uk": ""
+ },
+ "flavor_byz.60.b.entry": {
+  "en": "Pressure him into accepting.",
+  "uk": ""
+ },
+ "flavor_byz.60.desc": {
+  "en": "[target_character.GetName] has always been a long-time supporter and companion to the late [target_character2.GetName]. Having initially supported the [ROOT.GetCountry.GetGovernment.GetRulerTitle] during [target_character2.GetHerHis] struggle against [target_character2.GetHerHis] grandfather, [GetCharacter('byz_andronikos_ii_palaiologos').GetName], [target_character.GetShortNameWithNoTooltip] has distinguished [target_character.GetHerselfHimself] as a loyal companion and a competent statesman.\\n\\nIn [target_character2.GetHerHis] lifetime, [target_character.GetNameWithNoTooltip] had many times been offered the position of co-emperor, yet at all times refused. With [target_character2.GetShortNameWithNoTooltip] now gone, there are those at [ROOT.GetCountry.GetGovernment.GetCourtTitle] who believe [target_character.GetSheHe] would make for a great co-emperor.",
+  "uk": ""
+ },
+ "flavor_byz.60.entry": {
+  "en": "$flavor_byz.60.title$",
+  "uk": ""
+ },
+ "flavor_byz.60.title": {
+  "en": "A Co-Emperor?",
+  "uk": ""
+ },
+ "flavor_byz.61.a": {
+  "en": "[target_character2.GetNameWithNoTooltip] should be trusted.",
+  "uk": ""
+ },
+ "flavor_byz.61.a.entry": {
+  "en": "The character should be trusted.",
+  "uk": ""
+ },
+ "flavor_byz.61.b": {
+  "en": "[target_character.GetNameWithNoTooltip] would never betray the [ROOT.GetCountry.GetFlavorRank]!",
+  "uk": ""
+ },
+ "flavor_byz.61.b.entry": {
+  "en": "The character would never betray the realm!",
+  "uk": ""
+ },
+ "flavor_byz.61.desc": {
+  "en": "[target_character2.GetName], an influential voice in the [ROOT.GetCountry.GetGovernment.GetCourtTitle], has come to suspect [target_character.GetName] of treason. Having allied with [target_character.GetHerHis] enemies, [target_character2.GetShortNameWithNoTooltip] wishes to see [target_character.GetHerHim] ousted, stripped of all titles, and exiled to a [ShowBuildingTypeName('orthodox_monastery')], so that [target_character.GetSheHe] may never influence [ROOT.GetCountry.GetAdjective] politics ever again. Despite that, many courtiers still hold [target_character.GetNameWithNoTooltip] in high regard and would not wish any harm upon [target_character.GetHerHim].",
+  "uk": ""
+ },
+ "flavor_byz.61.entry": {
+  "en": "$flavor_byz.61.title$",
+  "uk": ""
+ },
+ "flavor_byz.61.title": {
+  "en": "Treason or Conspiracy",
+  "uk": ""
+ },
+ "flavor_byz.62.a": {
+  "en": "Promise our support.",
+  "uk": ""
+ },
+ "flavor_byz.62.b": {
+  "en": "We have no interest in humoring their interests.",
+  "uk": ""
+ },
+ "flavor_byz.62.desc": {
+  "en": "Our 1337 campaign in [GetCountry('EPI').GetName] was a grand success. [GetCharacter('epi_nikephoros_ii_orsini').GetName] was quickly ousted and the locals were left with an impression of a strong state - all thanks to the brilliant leadership of [target_character.GetName] and [GetCharacter('byz_andronikos_iii_palaiologos').GetName]. Enemy [target_country.GetAdjective] troops, impressed with this swift campaign and our benevolent treatment, returned home to spread news of the [ROOT.GetCountry.GetAdjective] treatment of the [GetCountry('EPI').GetAdjectiveWithNoTooltip] troops and diplomatic tone of [target_character.GetNameWithNoTooltip].",
+  "uk": ""
+ },
+ "flavor_byz.62.entry": {
+  "en": "$flavor_byz.62.title$",
+  "uk": ""
+ },
+ "flavor_byz.62.title": {
+  "en": "Delegation from Frankish Lords",
+  "uk": ""
+ },
+ "flavor_byz.63.a": {
+  "en": "The [ROOT.GetCountry.GetLongNameWithNoTooltip] will not be the same without [target_character.GetHerHim].",
+  "uk": ""
+ },
+ "flavor_byz.63.a.entry": {
+  "en": "We will not be the same without him.",
+  "uk": ""
+ },
+ "flavor_byz.63.desc_neutral": {
+  "en": "The freezing grip of death has taken away one of our distinguished historians, [target_character.GetName]. [target_character.GetShortNameWithNoTooltip] leaves behind a legacy of loyally serving the [ROOT.GetCountry.GetLongName] and a notable [target_woa.GetDefinition.GetName] — [target_woa.GetName].",
+  "uk": ""
+ },
+ "flavor_byz.63.desc_nikephoros_is_hated": {
+  "en": "$flavor_byz.63.desc_neutral$ It is most regrettable then, that [target_character.GetNameWithNoTooltip] spent the last years of [target_character.GetHerHis] life spreading the heresy of hesychasm.",
+  "uk": ""
+ },
+ "flavor_byz.63.entry": {
+  "en": "Death of Nikephoros Gregoras",
+  "uk": ""
+ },
+ "flavor_byz.63.title": {
+  "en": "Death of [target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.64.a": {
+  "en": "Prepare for war!",
+  "uk": ""
+ },
+ "flavor_byz.64.b": {
+  "en": "This but a fool's pursuit of glory.",
+  "uk": ""
+ },
+ "flavor_byz.64.desc": {
+  "en": "[target_character.GetName], our trusted general, statesman, and co-emperor, is planning a military campaign in [ShowAreaName('morea_area')] to subdue the local Frankish principalities. Long a thorn in our side, the [ShowFormableCountryName('LAT_f')] remnants are waiting for the opportune moment to strike at us. The campaign of [target_character.GetShortNameWithNoTooltip] would surely bring us reprieve, but would also strengthen the house of [target_character.GetDynasty.GetName], who have long been serving in the Peloponnesus as despots.",
+  "uk": ""
+ },
+ "flavor_byz.64.entry": {
+  "en": "$flavor_byz.64.title$",
+  "uk": ""
+ },
+ "flavor_byz.64.title": {
+  "en": "Campaigning in Peloponnesus",
+  "uk": ""
+ },
+ "flavor_byz.65.a": {
+  "en": "[target_character.GetSheHe|U] must become our #italic mesazon#!!",
+  "uk": ""
+ },
+ "flavor_byz.65.a.entry": {
+  "en": "He must become our #italic mesazon#!!",
+  "uk": ""
+ },
+ "flavor_byz.65.b": {
+  "en": "We should have [target_character.GetHerHim] translate [ShowLanguageNameWithNoTooltip('latin_language')] works into [ROOT.GetCountry.GetCourtLanguage.GetNameWithNoTooltip]!",
+  "uk": ""
+ },
+ "flavor_byz.65.b.entry": {
+  "en": "We should have him translate [ShowLanguageNameWithNoTooltip('latin_language')] works into our court language!",
+  "uk": ""
+ },
+ "flavor_byz.65.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetRulerTitle] has befriended a truly exceptional [target_character.GetWomanMan]. [target_character.GetName] is a student of philosophy who possesses a curious and open mind. Both [target_character2.GetName] and [target_character.GetShortNameWithNoTooltip] agree on many things and those in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] can see the potential of the young [target_character.GetShortNameWithNoTooltip]. [target_character.GetHeShe|U] could serve as a great aide in the government of the [ROOT.GetCountry.GetLongName].",
+  "uk": ""
+ },
+ "flavor_byz.65.entry": {
+  "en": "Demetrios Kydones, the Philosopher",
+  "uk": ""
+ },
+ "flavor_byz.65.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_byz.66.a": {
+  "en": "Make a solemn donation.",
+  "uk": ""
+ },
+ "flavor_byz.66.b": {
+  "en": "They have our spiritual support.",
+  "uk": ""
+ },
+ "flavor_byz.66.desc": {
+  "en": "The [ShowPopTypeName('burghers')] of [target_location.GetName] are beginning to organize this year's fair dedicated to St. Demetrios. This longstanding annual event already attracts many citizens and foreigners alike and serves as a grand display of [ROOT.GetCountry.GetAdjective] piety. We too, could lend our hand in supporting this lasting tradition so that this year's celebrations would be remembered for centuries.",
+  "uk": ""
+ },
+ "flavor_byz.66.entry": {
+  "en": "$flavor_byz.66.title$",
+  "uk": ""
+ },
+ "flavor_byz.66.historical_info": {
+  "en": "The festival of Saint Demetrios, patron saint of Thessaloniki, emerged as a major religious and cultural event by the 14th century, rooted in the memory of the saint's martyrdom in a Roman prison around 306 and his reputation as a miraculous defender of the city against besiegers. Centered on the basilica of Hagios Demetrios, the celebration lasted six days and combined solemn hymns and processions with the bustling Demetria market held outside the city walls, attracting merchants and pilgrims from across the region. In modern times this tradition endures through the feast on October 26 and the revived Demetria festival, which continues to express the city's enduring blend of faith, tradition, and communal life.",
+  "uk": ""
+ },
+ "flavor_byz.66.title": {
+  "en": "The Easter of Saint Demetrius",
+  "uk": ""
+ },
+ "flavor_byz.7.a": {
+  "en": "Take that, Schismatics!",
+  "uk": "Знай наших, розкольники!"
+ },
+ "flavor_byz.7.desc": {
+  "en": "The people of [ShowLocationName('rome')] once again follow the [ShowReligionAdjective('orthodox')] faith, the few die-hard Papists that remain are in hiding. While this certainly does not end the Great Schism, if anything it deepens it, it certainly gives the Eastern Orthodox Church an advantage in the eternal battle for religious authority.",
+  "uk": "Жителі #TOOLTIP:LOCATION,$rome_tt$,X #L Риму#!#! повернулися до лона #TOOLTIP:RELIGION,$orthodox_tt$,X #L православ'я#!#!! Нечисленні папісти, які залишаються у Вічному місті, змушені ховатися. Звісно, це ще не кінець Великої схизми — навпаки, конфлікт з католиками має розгорітися з новою силою, — але тепер релігійний авторитет православної церкви великий як ніколи."
+ },
+ "flavor_byz.7.entry": {
+  "en": "$flavor_byz.7.title$",
+  "uk": ""
+ },
+ "flavor_byz.7.title": {
+  "en": "Rome Orthodoxy restored!",
+  "uk": "Тріумф римського православ'я!"
+ },
+ "flavor_byz.8.a": {
+  "en": "The Phoenix rises!",
+  "uk": "Фенікс повстав з попелу!"
+ },
+ "flavor_byz.8.desc": {
+  "en": "The forces of the [GetCountry('TUR').GetName] have been driven out of [ShowRegionName('anatolia_region')], which was once the seat of their power. With [ShowRegionNameWithNoTooltip('anatolia_region')] secured our prosperity is assured!",
+  "uk": "#L [GetCountry('TUR').GetAdjective]і#! орди видворені з #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, з їхнім віковим пануванням нарешті покінчено! Контроль над Анатолією забезпечить імперії безпеку та процвітання!"
+ },
+ "flavor_byz.8.entry": {
+  "en": "$flavor_byz.8.title$",
+  "uk": ""
+ },
+ "flavor_byz.8.title": {
+  "en": "Turks driven from Anatolia!",
+  "uk": "Турків вигнано з Анатолії!"
+ },
+ "flavor_byz.9.a": {
+  "en": "Make the necessary preparations.",
+  "uk": "Починайте приготування."
+ },
+ "flavor_byz.9.b": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] must remain to rally our forces.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'повинна', 'повинен')] залишатися тут, серед своїх воїнів."
+ },
+ "flavor_byz.9.b.entry": {
+  "en": "The ruler must remain to rally our forces.",
+  "uk": ""
+ },
+ "flavor_byz.9.desc": {
+  "en": "The forces of the [GetCountry('TUR').GetName] have been encroaching on our great city for some time, and directly threaten our great city of [target_province.GetName]. Despite the rift between the Eastern and Western Churches, [ROOT.GetCountry.GetGovernment.GetRuler.GetName] proposes to lead a diplomatic mission to our fellow [ShowReligionGroupAdjective('christian')] people to the East, in an effort to secure enough funds to repel the [GetCountry('TUR').GetAdjectiveWithNoTooltip].\\n\\nAlthough likely a profitable venture, it will tarnish our reputation and make us appear weak.",
+  "uk": "[target_province.GetName] під загрозою, #L [GetCountry('TUR').GetAdjective|l]і#! армії підбираються дедалі ближче до нашого великого міста. Незважаючи на розкол між східним і західним християнством, [ROOT.GetCountry.GetGovernment.GetRuler.GetName] бажає вирушити з дипломатичним посольством до інших #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! держав. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] сподівається отримати фінансову допомогу, яка допоможе відбити [GetCountry('TUR').GetAdjectiveWithNoTooltip|l]у загрозу.\\n\\nБезсумнівно, це посольство дозволить залучити чимало коштів до скарбниці, але подібна демонстрація слабкості ляже плямою на репутацію нашої держави."
+ },
+ "flavor_byz.9.entry": {
+  "en": "$flavor_byz.9.title$",
+  "uk": ""
+ },
+ "flavor_byz.9.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s Western Tour",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] подорожує на Захід"
+ },
+ "flavor_byz.9.tt": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] will visit the courts of Western Europe in an attempt to raise funds. It is likely to be perceived as a sign of weakness and damage our international standing",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] вирушить з візитом до дворів Західної Європи, щоб отримати кошти на ведення війни. Це буде сприйнято як слабкість і негативно позначиться на репутації нашої держави у світі"
+ },
+ "flavor_byz_1300_historical_info_shared": {
+  "en": "The Byzantine policy for Constantinople has always been opening up the gates in order to populate the city's streets. After the Black Death had hit Constantinople, it had suffered tremendous losses, leaving many residences empty. The emperors made efforts to restore the city, however they would not be enough, as the city's population would dwindle until its fall in 1453.",
+  "uk": "У Константинополі візантійська влада завжди дотримувалася політики відкритих дверей — після чергового катаклізму це допомагало раз за разом знову заселяти місто. На жаль, після епідемії Чорної смерті навіть такий космополітичний підхід дав збій — тоді Константинополь практично спорожнів, без мешканців залишилися цілі вулиці. Імператори докладали титанічних зусиль, щоб відновити місто, але результату вони не принесли — населення продовжувало скорочуватися до самого падіння Константинополя у 1453 році."
+ },
+ "flavor_byz_47_desc_common": {
+  "en": "Whilst the Army has been protecting our borders, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has seen some of the officers and generals there as a threat against the [ROOT.GetCountry.GetFlavorRank], talking about how they want to overthrow [target_character.GetName] and destroy the [ROOT.GetCountry.GetGovernment.GetCourtTitle]'s power. For that, they have suggested we shift towards",
+  "uk": "Поки наші воїни захищають кордони держави, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] будує підступи проти видатних командирів і генералів. Придворні бачать у бойових офіцерах загрозу для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — якщо нічого не вжити, стверджують вони, [target_character.GetName] втратить владу, а державою заправлятимуть військові."
+ },
+ "flavor_byz_49_desc_common": {
+  "en": "Although our administration has been functioning just fine lately, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has noticed that some people in position have been less than beneficial for them. Now, they have forced our hands, demanding that we make a change towards",
+  "uk": "Останнім часом наші чиновники чудово справляються зі своїми обов'язками, але дехто вважає, що чиновництво явно нехтує інтересами придворних."
+ },
+ "flavor_byz_51_desc_common": {
+  "en": "Instead of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] helping us plan an efficient system to support our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], they have instead opted to partake in the reduction of our power, forcing us to steer our nation towards",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] потребують підтримки, але замість того, щоб допомогти в розробці нових і ефективних законів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] зв'язує нас по руках і ногах."
+ },
+ "flavor_byz_title_key": {
+  "en": "A Hand for Peace",
+  "uk": "Пропозиція миру"
+ },
+ "following_rewards_are_bolstered_because_of_disaster_action_tt": {
+  "en": "The following rewards are bolstered because we chose to reform our [navy|e] at least once via the [ShowGenericActionName('reform_imperial_armies')] [action|e] in the [ShowDisasterName('fate_of_the_phoenix')] [disaster|e] panel",
+  "uk": ""
+ },
+ "get_el_greco_as_painter_tt": {
+  "en": "[target_artist.GetNameWithNoTooltip] will appear as a #italic painter#!",
+  "uk": "[target_artist.GetNameWithNoTooltip] з'явиться як #italic художник#!"
+ },
+ "get_el_greco_as_sculptor_tt": {
+  "en": "[target_artist.GetNameWithNoTooltip] will appear as a #italic sculptor#!",
+  "uk": "[target_artist.GetNameWithNoTooltip] з'явиться як #italic скульптор#!"
+ },
+ "great_bombard": {
+  "en": "Building a Great Bombard",
+  "uk": "Будівництво великої бомбарди"
+ },
+ "if_we_pass_naval_reform_disaster_panel_tt": {
+  "en": "This will yield benefits should we choose to reform our [navy|e] via the [ShowGenericActionName('reform_imperial_armies')] [action|e] via the [ShowDisasterName('fate_of_the_phoenix')] [disaster|e] panel",
+  "uk": ""
+ },
+ "negatively_affect_succ_crisis_tt": {
+  "en": "Our indecisiveness on this matter will have negative side effects during the opening [event|e] of the [ShowDisasterName('byzantine_succession_crisis')] [disaster|e]",
+  "uk": ""
+ },
+ "orban_goes_elsewhere.tt": {
+  "en": "[cannon_maker.GetNameWithNoTooltip] might go to your enemies instead...",
+  "uk": "[cannon_maker.GetNameWithNoTooltip] може найнятися на службу до ваших ворогів…"
+ },
+ "pay_for_your_indecisiveness_tt": {
+  "en": "Due to our indicisive and indifferent stance in the $flavor_byz.1100.title$ [event|e] the loss of [stability|e] is greatly magnified",
+  "uk": ""
+ },
+ "policy_will_not_be_implemented_but_available": {
+  "en": "The [target_policy.GetName] will not be implemented at this time but will remain available to us",
+  "uk": ""
+ },
+ "strengthened_theodosian_walls_desc": {
+  "en": "From the $flavor_byz.53.title$ [event|e]",
+  "uk": ""
+ },
+ "thessaloniki_uprising": {
+  "en": "Zealots of Thessalonica",
+  "uk": "Зилоти Фессалонік"
+ },
+ "towns_and_cities_anatolia_get_pop_growth_tt": {
+  "en": "[towns_and_cities|e] we own across [ShowRegionNameWithNoTooltip('anatolia_region')] will benefit from the [ShowModifier('repopulation_of_anatolia_modifier')] [modifier|e] for #Y 10#! years",
+  "uk": "Вся належна нам в Анатолії [Concept('towns_and_cities', 'міська місцевість')|e] отримає [Concept('modifier','модифікатор')|e] «[ShowModifier('repopulation_of_anatolia_modifier')]» на #Y 10#! років"
+ },
+ "variable_hesychasm_activated_variable_tt": {
+  "en": "The Hesychast Doctrine has been Embraced",
+  "uk": ""
+ },
+ "variable_tt_byz_continued_byzantine_renaissance_event": {
+  "en": "The Byzantine Renaissance Flourishes",
+  "uk": ""
+ },
+ "variable_tt_court_wants_aristocracy": {
+  "en": "The Court Supports Aristocratic Governance",
+  "uk": ""
+ },
+ "variable_tt_court_wants_inward": {
+  "en": "The Court Favors Internal Consolidation",
+  "uk": ""
+ },
+ "variable_tt_court_wants_land": {
+  "en": "The Court Favors a Land-Based Military",
+  "uk": ""
+ },
+ "variable_tt_court_wants_navy": {
+  "en": "The Court Favors Naval Supremacy",
+  "uk": ""
+ },
+ "variable_tt_court_wants_outward": {
+  "en": "The Court Favors Outward Conquest and Expansion",
+  "uk": ""
+ },
+ "variable_tt_court_wants_plutocracy": {
+  "en": "The Court Supports Merchant and Plutocratic Governance",
+  "uk": ""
+ },
+ "variable_tt_court_wants_quality": {
+  "en": "The Court Favors Elite Tagmata over Conscript Numbers",
+  "uk": ""
+ },
+ "variable_tt_court_wants_quantity": {
+  "en": "The Court Favors Raising Armies of the Masses",
+  "uk": ""
+ },
+ "variable_tt_disinterested_in_migration_events": {
+  "en": "The Empire has no Interest in Encouraging Migration",
+  "uk": ""
+ },
+ "variable_tt_morea_focus_flag": {
+  "en": "Morea is the Heartland of the Empire",
+  "uk": ""
+ },
+ "variable_tt_reformed_imperial_code_flag": {
+  "en": "The Imperial Legal Code has been Reformed",
+  "uk": ""
+ },
+ "variable_tt_thessaloniki_pop_sat": {
+  "en": "Unrest Brewing in [ShowLocationName('thessaloniki')]",
+  "uk": ""
+ },
+ "variable_venice_acquired_peacefully_variable_tt": {
+  "en": "[ShowLocationName('venice')] was Acquired Peacefully",
+  "uk": ""
+ },
+ "while_remains_chance_to_revive_hellenism_tt": {
+  "en": "#italic While [target_artist.GetNameWithNoTooltip] remains in our [ROOT.GetCountry.GetGovernment.GetCourtTitle], he may attempt to revive [ShowReligionName('hellenism_religion')]#!",
+  "uk": "#italic Поки [target_artist.GetNameWithNoTooltip] залишається при нашому дворі, він може спробувати відродити #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністичну релігію#!#!#!"
+ },
+ "woa_was_created_here": {
+  "en": "[THIS.GetWorkOfArt.GetDefinition.GetName] [THIS.GetWorkOfArt.GetName] was created in [THIS.GetWorkOfArt.GetLocation.GetName] by [THIS.GetWorkOfArt.GetCreator.GetName]",
+  "uk": ""
+ },
+ "worsen_relations_with_all_orthodox_tt": {
+  "en": "Our relations with all [ShowReligionAdjectiveWithNoTooltip('orthodox')] countries will worsen greatly",
+  "uk": "Наші відносини з усіма православно-християнськими державами сильно погіршаться"
+ }
+}

@@ -1,0 +1,718 @@
+{
+ "end_situation_red_turban_rebellions_tt": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] [situation|e] ends",
+  "uk": "[Concept('situation', 'Ситуація')|e] «#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#!» завершилася"
+ },
+ "first_neg_rtr_change_allegiance_points": {
+  "en": "We decrease our #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Ми понижуємо нашу #Y відданість династії Юань#! на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "first_past_neg_rtr_change_allegiance_points": {
+  "en": "We decreased our #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Ми знизили нашу #Y відданість династії Юань#! на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "first_past_rtr_change_allegiance_points": {
+  "en": "We increased our #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Ми підвищили нашу #Y відданість династії Юань#! на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "first_past_rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of our most competent [characters|e] of the [CULTURE.GetName] culture have moved to [TARGET_COUNTRY.GetName]",
+  "uk": "Наші найкращі фахівці, гордість #L [CULTURE.GetName|l]ої#! культури, переїхали на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ },
+ "first_rtr_change_allegiance_points": {
+  "en": "We increase our #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Ми підвищуємо нашу #Y відданість династії Юань#! на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "first_rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of our most competent [characters|e] of the [CULTURE.GetName] culture move to [TARGET_COUNTRY.GetName]",
+  "uk": "Наші найкращі фахівці, гордість #L [CULTURE.GetName|l]ої#! культури, переїжджають на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ },
+ "neg_rtr_change_allegiance_points": {
+  "en": "Decrease its #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Понизити її #Y відданість династії Юань#! на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "noble_enemies_to_the_mandate": {
+  "en": "Noble Enemies to the Mandate",
+  "uk": "Еліта проти престолу"
+ },
+ "past_neg_rtr_change_allegiance_points": {
+  "en": "Decreased its #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Її #Y відданість династії Юань#! понизилася на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "past_rtr_change_allegiance_points": {
+  "en": "Increased its #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Її #Y відданість династії Юань#! підвищилася на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "past_rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of our most competent [characters|e] of the [CULTURE.GetName] culture have moved to [TARGET_COUNTRY.GetName]",
+  "uk": "Наші найкращі фахівці, гордість #L [CULTURE.GetName|l]ої#! культури, переїхали на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ },
+ "red_turban_rebellions.1.a": {
+  "en": "Just a minor uprising. They will know their place soon enough.",
+  "uk": "Нічого страшного. Ми швидко поставимо бунтівників на місце."
+ },
+ "red_turban_rebellions.1.a.at": {
+  "en": "Every [subject|e] country gains [ShowNamedValue('liberty_desire_severe_plus')|-=2] [liberty_desire|e]",
+  "uk": "Кожна держава з числа [Concept('subject', 'васалів')|e] отримує [ShowNamedValue('liberty_desire_severe_plus')|-=2] до [Concept('liberty_desire', 'прагнення до підкорення')|e]"
+ },
+ "red_turban_rebellions.1.a.tt": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] starts. For the next #Y 20 years#!, [target_country.GetName] will face #R Warlords#! breaking free from the state. To resolve the situation, every warlord needs to be either reconquered or bribed to be a #Y Loyalist#! to [target_country.GetNameWithNoTooltip]. Additionally, #Y 90#! [legitimacy|e], #Y 30#! [stability|e] and #Y 50#! Celestial Authority are required to end the [situation|e]",
+  "uk": "Починається #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!. Наступні #Y 20 років#! #L [target_country.GetAdjective|l]і#! #R генерали#! будуть то й діло виходити з покори, і державі доведеться або купувати їхню #Y вірність#!, або відвойовувати свої території назад. Щоб завершити цю [Concept('situation', 'ситуацію')|e], вам потрібно #Y 90 од.#! [Concept('legitimacy', 'легітимності')|e], #Y 30 од.#! [Concept('stability', 'стабільності')|e] і #Y 50 од.#! небесного авторитету"
+ },
+ "red_turban_rebellions.1.desc": {
+  "en": "In 1328, the state of [target_country.GetName] saw a grand, factional conflict between supporters of the [target_country.GetCulture.GetName] lords and a group of [ShowCultureGroupName('chinese_group')]-based [ShowPolicyName('confucianism_policy')] followers which ended in victory for [target_ruler.GetName]. However, this was just the seed that laid the foundation for a storm to come.\\n\\nLack of security and faith in the [target_country.Custom('GetRulerOrRegentTitle')], as well as harsh taxation, loss of stability in the state, and natural disasters, have left the [target_country.GetAdjectiveWithNoTooltip] subjects outraged by the [target_country.GetGovernment.GetRulerTitle]. An [ShowReligionAdjective('mahayana')] monk, [target_character.GetName], has gathered those who oppose the [target_country.GetFlavorRank]'s way of treating the [ShowCultureGroupNameWithNoTooltip('chinese_group')]. Thus, the [ShowSituationName('red_turban_rebellions')] start...",
+  "uk": "У 1328 році на території #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#! стався серйозний конфлікт між прихильниками монгольських феодалів та #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайською#!#! громадою, що сповідує #TOOLTIP:POLICY,confucianism_policy,X #L конфуціанство#!#!, у якому [Select_CString(target_ruler.IsFemale,'перемогла', 'переміг')] [target_ruler.GetName]. Але це було лише початком.\\n\\nЗагальне відчуття, що [target_country.Custom('GetRulerOrRegentTitle')|l] не справляється із забезпеченням безпеки, а також непомірні податки, втрата стабільності та природні катаклізми призвели до того, що [target_country.GetAdjectiveWithNoTooltip|l]і піддані повстали проти свого правителя. #TOOLTIP:RELIGION,$mahayana_tt$,X #L Махаянський#!#! монах, [target_character.GetName], зібрав людей, невдоволених політикою [target_country.Custom('CF_RP')|l] щодо китайського населення. Так почалося #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!…"
+ },
+ "red_turban_rebellions.1.title": {
+  "en": "The [ShowSituationNameWithNoTooltip('red_turban_rebellions')]",
+  "uk": "Повстання «Червоних пов'язок»"
+ },
+ "red_turban_rebellions.10.a": {
+  "en": "This will hopefully break the rebellions...",
+  "uk": "Сподіваємось, це зупинить бунти…"
+ },
+ "red_turban_rebellions.10.b": {
+  "en": "Accursed peasants!",
+  "uk": "Прокляті селяни!"
+ },
+ "red_turban_rebellions.10.desc": {
+  "en": "Following the treachery of [che_youliang_chen.GetName] against [GetCharacter('ctw_shouhui_xu').GetName], [GetCountry('CHE').GetName] has become a regional power and the major threat to [GetCountry('CHI').GetName]. Yet, not everyone bends their knee before [che_youliang_chen.GetNameWithNoTooltip].\\n\\n[target_character.GetName] refuses to acknowledge [GetCountry('CHE').GetLongNameWithNoTooltip] as a powerful leader for the [GetInternationalOrganizationType('red_turban_rebels').GetName]. In [target_location.GetName], [target_character.GetNameWithNoTooltip] has declared his own [ShowGovernmentReformName('warring_state')] of [target_country.GetName], getting into a conflict with [GetCountry('CHE').GetNameWithNoTooltip] and [GetCountry('CHI').GetNameWithNoTooltip].\\n\\nNonetheless, their main antagonist remains [GetCountry('CHI').GetName], and as such [target_country.GetNameWithNoTooltip] revolts against the [GetCountry('CHI').GetCulture.GetName] rule.",
+  "uk": "Після того, як [che_youliang_chen.GetName] зрадив лідера повстанців на ім'я [GetCharacter('ctw_shouhui_xu').GetName], влада #ONCLICK:COUNTRY,[GetCountry('CHE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHE').Custom('CL_tt')],X [GetCountry('CHE').Custom('CL_RP')|L]#!#! стала помітною регіональною силою і головною загрозою для #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!. Однак не всі схилили коліна перед новоспеченим імператором.\\n\\n[target_character.GetName] відмовляється вважати, що [GetCountry('CHE').GetLongNameWithNoTooltip] — могутній лідер для всіх, хто підтримує #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#!. [Select_CString(target_character.IsFemale,'Вона', 'Він')] оголошує про створення #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючої держави #!#! під назвою [target_country.GetName] в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName], вступивши в конфлікт проти [GetCountry('CHE').Custom('CL_RP')] та [GetCountry('CHI').Custom('CL_RP')].\\n\\nПроте головними ворогами бунтівників залишаються [GetCountry('CHI').GetName] та #L [GetCountry('CHI').GetCulture.GetName|l]а#! влада."
+ },
+ "red_turban_rebellions.10.desc.fallback": {
+  "en": "Following the treachery of [che_youliang_chen.GetName] against [GetCharacter('ctw_shouhui_xu').GetName], [GetCountry('CHE').GetNameWithNoTooltip] became a regional power and a major threat to [GetCountry('CHI').GetName]. Yet, their might could not protect them from the wrath of [GetCountry('CHI').GetName].\\n\\n[target_character.GetName], witnessing the brutality of the [GetCountry('CHI').GetCulture.GetName] warriors, has gathered [target_character.GetHerHis] own loyalists who shall declare their [ShowGovernmentReformName('warring_state')] of [target_country.GetName], rebelling against their former overlord..",
+  "uk": "Після того, як [che_youliang_chen.GetName] зрадив лідера повстанців на ім'я [GetCharacter('ctw_shouhui_xu').GetName], держава [GetCountry('CHE').GetNameWithNoTooltip] стала помітною регіональною силою і головною загрозою [GetCountry('CHI').Custom('CL_DP')]. Але це не врятувало її від гніву #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!.\\n\\nНадивившись на жорстокість #L [GetCountry('CHI').GetCulture.GetName|l]их#! воїнів, [target_character.GetName] збирає своїх прихильників. Незабаром їхня #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#! [target_country.GetName] стане справжньою загрозою для їхнього колишнього сюзерена…"
+ },
+ "red_turban_rebellions.100.a": {
+  "en": "Long live the new [target_character.Custom('GetEmpressEmperor')]!",
+  "uk": "Хай живе [Select_CString(target_character.IsFemale,'нова імператриця', 'новий імператор')]!"
+ },
+ "red_turban_rebellions.100.desc": {
+  "en": "$red_turban_rebellions.end_desc$ [target_character.GetName], [target_country.Custom('GetRulerOrRegentTitle')] of [target_country.GetName] claims victory over [china_character.GetName] and the [china_country.GetName] dynasty! The [target_country.GetLongNameWithNoTooltip] has taken control over the Celestial Throne and assumes now the power of the [GetInternationalOrganizationType('middle_kingdom').GetName]!",
+  "uk": "$red_turban_rebellions.end_desc$ [target_character.GetName], [target_country.Custom('GetRulerOrRegentTitle')|l] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, здобуває повну перемогу. [china_character.GetName] і династія [china_country.GetName] більше не претендують на владу. [target_country.GetLongNameWithNoTooltip] — [Select_CString(target_character.IsFemale,'правителька', 'правитель')] цієї держави отримує владний мандат, і #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom,X #L Серединна Держава#!#! переходить до [Select_CString(target_character.IsFemale,'її', 'його')] рук!"
+ },
+ "red_turban_rebellions.100.title": {
+  "en": "The Rise of the [target_country.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "red_turban_rebellions.1000.a": {
+  "en": "Independence for us at last!",
+  "uk": "Хай живе незалежність!"
+ },
+ "red_turban_rebellions.1000.a.at": {
+  "en": "We will declare independence from [target_country.GetName]",
+  "uk": "Ми оголосимо незалежність від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.1000.a.bt": {
+  "en": "#R [target_country.GetName] may see this as a [ShowCasusBelliName('cb_independence_war')] war against them!#!",
+  "uk": "#R Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! може порахувати, що ми оголосили їм війну за [ShowCasusBelliName('cb_independence_war')|l]!#!"
+ },
+ "red_turban_rebellions.1000.b": {
+  "en": "Now is not a good time for such risks.",
+  "uk": "Зараз не слід так ризикувати."
+ },
+ "red_turban_rebellions.1000.desc": {
+  "en": "Due to the [ShowSituationName('red_turban_rebellions')] within [target_country.GetName], their influence over us is barely present nowadays. We can utilize their moment of great weakness, and declare independence from this servitude to their imbecile rule.",
+  "uk": "Вплив #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! на нашу державу значно ослаб — його підкосило #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!. Ми можемо скористатися слабкістю нашого ненависного і божевільного володаря і оголосити незалежність від нього."
+ },
+ "red_turban_rebellions.1000.title": {
+  "en": "Feinting Influence in [ShowRegionNameWithNoTooltip('korea_region')]",
+  "uk": "Втрата впливу в Кореї"
+ },
+ "red_turban_rebellions.1001.a": {
+  "en": "We cannot afford another war right now.",
+  "uk": "Ми поки не можемо дозволити собі ще одну війну."
+ },
+ "red_turban_rebellions.1001.b": {
+  "en": "Their heads will decorate our spears once we are done with the rebels...",
+  "uk": "Коли ми покінчимо з бунтівниками, їхні голови прикрасять наші списи..."
+ },
+ "red_turban_rebellions.1001.desc": {
+  "en": "The treacherous subjects of the [target_region.GetName] have smelled our temporary weakness, and see themselves in a position of great opportunity. Our once gripping influence over their lands is now only a shadow of its former glory, and the [root_country.GetCulture.GetName] people have declared de facto independence from [target_country.GetName].",
+  "uk": "Віроломні жителі регіону [target_region.GetName] відчули нашу тимчасову слабкість і побачили в ній свій шанс. Від нашого впливу на півострові залишилася лише тінь колишньої слави, а #L [root_country.GetCulture.GetName|l]ий#! народ фактично заявляє про свою незалежність від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.101.a": {
+  "en": "At last, $china$ is no longer torn by war.",
+  "uk": "Нарешті у змученому Китаї настав мир."
+ },
+ "red_turban_rebellions.102.a": {
+  "en": "A disgraceful display...",
+  "uk": "Яка ганьба…"
+ },
+ "red_turban_rebellions.103.a": {
+  "en": "May our future be less bloody.",
+  "uk": "Сподіваємось, у нашому майбутньому буде менше воєн."
+ },
+ "red_turban_rebellions.103.desc": {
+  "en": "$red_turban_rebellions.end_desc$ Despite a brutal civil war, the forces of the [GetInternationalOrganizationType('red_turban_rebels').GetName] could not break [target_country.GetNameWithNoTooltip] in the end! The last remnants of the rebels are hunted down by the [target_country.GetCulture.GetName] raiders while [target_character.GetName] works on the restoration of the authority of the Mandate of Heaven.",
+  "uk": "$red_turban_rebellions.end_desc$ Схоже, [target_country.Custom('CL_DAT')] вдалося вийти з кривавої громадянської війни, яку влаштували #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#!. #L [target_country.GetCulture.GetName]і#! налітчики вистежують бунтівників, що залишилися, а [target_character.GetName] робить усе, щоб відновити свою владу над Піднебесною."
+ },
+ "red_turban_rebellions.103.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Persists!",
+  "uk": "Держава [target_country.GetNameWithNoTooltip] вистояла!"
+ },
+ "red_turban_rebellions.104.a": {
+  "en": "Long live the [target_character.Custom('GetEmpressEmperor')]!",
+  "uk": "Хай живе [target_character.Custom('GetEmpressEmperor')|l]!"
+ },
+ "red_turban_rebellions.104.desc": {
+  "en": "$red_turban_rebellions.103.desc$\\n\\nOne of [target_character.GetHisHer] first action is the re-integration of those who swore loyalty to [target_country.GetNameWithNoTooltip]. As such, [ROOT.GetCountry.GetName] has fulfilled its purpose.",
+  "uk": "$red_turban_rebellions.103.desc$\\n\\nПершим [Select_CString(target_character.IsFemale,'її', 'його')] кроком стає реінтеграція територій, що входили до складу [target_country.Custom('CL_RP')]. Таким чином, #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DP')|L]#!#! вдається досягти своєї мети."
+ },
+ "red_turban_rebellions.105.a": {
+  "en": "Nobody has seen this coming...",
+  "uk": "Несподіваний поворот…"
+ },
+ "red_turban_rebellions.105.desc": {
+  "en": "In a twist of turns, the [GetInternationalOrganizationType('middle_kingdom').GetName] - the very Mandate of Heaven - has fallen to influences which are beyond our explanation. The [ShowSituationName('red_turban_rebellions')] serve no longer any purpose as the fate of [GetCountry('CHI').GetName] has been altered by powers beyond the reach of the [GetInternationalOrganizationType('red_turban_rebels').GetName]...",
+  "uk": "За дивним збігом обставин уся #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom,X #L Серединна держава#!#! опинилася під впливом незрозумілих сил. #TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! більше не має жодного сенсу. Тепер доля #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#! знаходиться в руках тих, до кого об'єднання «[GetInternationalOrganization('red_turban_rebels').GetName]» ніколи не дотягнеться…"
+ },
+ "red_turban_rebellions.105.title": {
+  "en": "End of the Mandate",
+  "uk": "Кінець небесного мандату"
+ },
+ "red_turban_rebellions.106.a": {
+  "en": "A Kingdom forever fractured...",
+  "uk": "Навіки роздроблене царство…"
+ },
+ "red_turban_rebellions.106.desc": {
+  "en": "Decades have passed since the first rebels rose up against the [ShowCultureName('mongolian_culture')] rule over $china$, and countless lives have been lost in the conflicts. Yet, [GetCountry('CHI').GetName] persists while the rebellious warlords keep their grip over their territories. In the end, the rebellion ends in stagnation with neither side incapable of unifying the land.",
+  "uk": "З першого повстання проти #TOOLTIP:CULTURE,mongolian_culture,X #L монгольської#!#! влади над Китаєм минуло кілька десятиліть. Ніхто вже не веде рахунку загиблим, але #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_DAT')|L]#!#! вдається і далі чинити опір, а бунтівним воєначальникам — триматися за свої території. Повстання захлинулося, і зараз жодна зі сторін не здатна об'єднати розрізнені землі."
+ },
+ "red_turban_rebellions.106.title": {
+  "en": "Stagnation of the Rebellion",
+  "uk": "Застій заколоту"
+ },
+ "red_turban_rebellions.11.a": {
+  "en": "The situation is becoming dire...",
+  "uk": "Ситуація ускладнюється…"
+ },
+ "red_turban_rebellions.11.desc": {
+  "en": "As the civil war for the dominance over $china$ advances, a new warlord has decided to declare open rebellion against [GetCountry('CHI').GetName]. [target_character.GetName], one of the commanders of the other rebellion groups, has gathered over 700 men from [target_character.GetHisHer] village, and occupied [target_location.GetName]. This marks the birth of [target_country.GetName], and one more thorn in our side...",
+  "uk": "Як кажуть, біда не приходить одна. В самий розпал громадянської війни за Китай ще [Select_CString(target_character.IsFemale,'одна воєначальниця повстала', 'один воєначальник повстав')] проти #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#!. [target_character.GetName], [Select_CString(target_character.IsFemale,'командувачка', 'командувач')] групою бунтівників, [Select_CString(target_character.IsFemale,'зібрала', 'зібрав')] у своєму селі понад 700 осіб і вже [Select_CString(target_character.IsFemale,'зайняла', 'зайняв')] [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Так з'являється нова держава [target_country.GetName] — наш черговий головний біль…"
+ },
+ "red_turban_rebellions.12.a": {
+  "en": "They are not supposed to ally each other!",
+  "uk": "Ми не дозволимо їм вступити в союз!"
+ },
+ "red_turban_rebellions.12.desc": {
+  "en": "[target_character.GetName], a former mendicant monk who saw the horrors of the [ShowSituationName('red_turban_rebellions')] firsthand, joined [cgu_zixing_guo.GetName] and [cgu_zixing_guo.GetHisHer] troops when [target_character.GetHisHer] monastery has been burned down by [GetCountry('CHI').GetAdjective] raiders. Under [cgu_zixing_guo.GetNameWithNoTooltip]'s command, [target_character.GetNameWithNoTooltip] has proven [target_character.GetHerselfHimself] as a competent military leader and even earned the hand of [mng_xiuying_ma.GetName], [cgu_zixing_guo.GetNameWithNoTooltip]'s' adopted daughter.\\n\\nThe achievements of [target_character.GetNameWithNoTooltip] eventually gained [target_character.GetHimHer] command over an own battalion of troops. The successful capture of [target_location.GetName] and the surrounding countryside allowed him to declare the formation of the [target_country.GetName], a trusted ally of [GetCountry('CGU').GetName].",
+  "uk": "[target_character.GetName], у минулому [Select_CString(target_character.IsFemale,'жебрачка-монахиня', 'жебрак-монах')], [Select_CString(target_character.IsFemale,'що пережила', 'що пережив')] #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!, приєднується до військ героя на ім'я [cgu_zixing_guo.GetName] після того, як #L [GetCountry('CHI').GetAdjective|l]і#! налітчики спалили [Select_CString(target_character.IsFemale,'її', 'його')] монастир. Під час служби [target_character.GetNameWithNoTooltip] показує себе відмінним військовим лідером, а [cgu_zixing_guo.GetNameWithNoTooltip] навіть видає за [Select_CString(target_character.IsFemale,'неї', 'нього')] свою прийомну дочку [mng_xiuying_ma.GetName].\\n\\nЗрештою [target_character.GetNameWithNoTooltip] отримує у своє командування цілий батальйон солдатів. [Select_CString(target_character.IsFemale,'Вона', 'Він')] займає [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName] і прилеглі до нього сільські території і заявляє про створення #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#! — надійної союзниці #ONCLICK:COUNTRY,[GetCountry('CGU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CGU').Custom('CL_tt')],X [GetCountry('CGU').Custom('CL_RP')|L]#!#!."
+ },
+ "red_turban_rebellions.12.title": {
+  "en": "The Rise of [target_country.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "red_turban_rebellions.13.a": {
+  "en": "Finally a loyalist with initiative!",
+  "uk": "Нарешті в нас [Select_CString(target_character.IsFemale,'з'явилася активна прихильниця', 'з'явився активний прихильник')]!"
+ },
+ "red_turban_rebellions.13.desc": {
+  "en": "Not all [ShowCultureGroupName('chinese_group')] are enemies of [ROOT.GetCountry.GetName]. [target_character.GetName], a devoted loyalist to [ruler_character.GetName] and general of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] forces, lead [target_character.GetHisHer] troops to [target_location.GetName] to establish an autonomous [ShowGovernmentReformName('warring_state')] and spearhead a counter-offensive against the [GetInternationalOrganizationType('red_turban_rebels').GetName].",
+  "uk": "Не весь #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайський#!#! народ виступає проти #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. [target_character.GetName] — [Select_CString(target_character.IsFemale,'командувачка', 'командувач')] [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ими силами, [Select_CString(target_character.IsFemale,'якій', 'якому')] довіряє [ruler_character.GetName], вирушає до [target_location.Custom('LR_ACC')|l] [target_location.GetName], засновує там незалежну #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! і очолює контрнаступ, бажаючи знищити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#!."
+ },
+ "red_turban_rebellions.18.a": {
+  "en": "Bribe [target_country.GetNameWithNoTooltip].",
+  "uk": "Підкупимо лідера [target_country.Custom('CL_GEN')]."
+ },
+ "red_turban_rebellions.18.b": {
+  "en": "So be it...",
+  "uk": "Хай буде так…"
+ },
+ "red_turban_rebellions.18.desc": {
+  "en": "$red_turban_rebellions.18.desc.fallback$ One such location is the [target_location.GetRank.GetName] of [target_location.GetName] which represents the [target_culture.GetName]. They deem our rule as inadequate and founded the [ShowGovernmentReformName('warring_state')] of [target_country.GetName]. Their leader, [target_character.GetName], is even threatening to join the [GetInternationalOrganizationType('red_turban_rebels').GetName] if we do not... persuade them otherwise.",
+  "uk": "$red_turban_rebellions.18.desc.fallback$ Наприклад, до таких належить [target_location.GetRank.GetName|l] [target_location.GetName], де мешкають представники #L [target_culture.GetName|l]ої#! культури. Вони виступають проти нашого правителя, і їхня #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#! під назвою [target_country.GetName] може становити загрозу для нашої держави. Їхній лідер [target_character.GetName] погрожує приєднатися до #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!, якщо ми… не запропонуємо їм щось краще."
+ },
+ "red_turban_rebellions.18.desc.fallback": {
+  "en": "The [ROOT.GetCountry.GetCulture.GetName] grasp over $china$ is weakening even so more. Territories that were once under our strict authority have now been declared semi-independence due to their newfound autonomy.",
+  "uk": "Китай поступово виходить з-під #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! влади, і багато наших територій уже здобули часткову незалежність."
+ },
+ "red_turban_rebellions.19.a": {
+  "en": "We shall write new history!",
+  "uk": "Ми перегорнемо сторінку історії!"
+ },
+ "red_turban_rebellions.19.a.tt": {
+  "en": "[target_country.GetName] is a [ShowGovernmentReformName('warring_state')] and part of the [ShowSituationName('red_turban_rebellions')]. While we might start as rebels against [GetCountry('CHI').GetName], our diplomatic stance towards the [GetInternationalOrganizationType('red_turban_rebels').GetName] is depicted by our #Y $rtr_yuan_allegiance$#! (currently: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!). If the [situation|e] ends with a [GetCountry('CHI').GetAdjectiveWithNoTooltip] victory while we have more than 50 $rtr_yuan_allegiance$, we will get #R annexed#! by [GetCountry('CHI').GetNameWithNoTooltip]!",
+  "uk": "[target_country.GetName] — це #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#!, що приєдналася до #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!. Формально ми належимо до числа противників [GetCountry('CHI').Custom('CL_GEN')|L]. При цьому наша дипломатична позиція щодо повстанців залежить від показника #Y відданості династії Юань#! (зараз: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!). Якщо [Concept('situation', 'ситуація')|e] закінчиться [GetCountry('CHI').GetAdjectiveWithNoTooltip|l]ою перемогою, а наш показник вірності становитиме понад 50 од., то [GetCountry('CHI').GetNameWithNoTooltip] #R приєдна[GetCountry('CHI').Custom('end_ityat')]#! наші території!"
+ },
+ "red_turban_rebellions.19.b": {
+  "en": "Let us bide our time for now.",
+  "uk": ""
+ },
+ "red_turban_rebellions.19.b.tt": {
+  "en": "Our #Y $rtr_yuan_allegiance$#! is reset to #Y 0#!. We do not fully commit to the [GetInternationalOrganizationType('red_turban_rebels').GetName]'s cause, though any war with [from_country.GetName] continues. Should our $rtr_yuan_allegiance$ rise #G above 50#!, we will stand as a #G loyalist#! for [from_country.GetName] and leave the [GetInternationalOrganizationType('red_turban_rebels').GetName]. Should it fall #R below 0#! again, we will be drawn back into open rebellion.",
+  "uk": ""
+ },
+ "red_turban_rebellions.19.desc": {
+  "en": "The [ShowGovernmentReformName('warring_state')] of [target_country.GetName] is one of many countries that have declared their autonomy from [GetCountry('CHI').GetName]. Our fate is tied to our decisions to stay loyal to our [GetCountry('CHI').GetCulture.GetName] orverlord, or to join the [GetInternationalOrganizationType('red_turban_rebels').GetName] and try to seize the [GetInternationalOrganization('middle_kingdom').GetName] for ourselves...\\n\\nIn the end, the fate of [target_country.GetNameWithNoTooltip] is in the hands of [target_character.GetName] and [target_character.GetHisHer] trusted advisors.",
+  "uk": "#TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L Воююча держава#!#! під назвою [target_country.GetName] — одна з багатьох країн, що оголосили про свою незалежність від #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!. У нас два шляхи: залишитися вірними своєму #L [GetCountry('CHI').GetCulture.GetName|l]ому#! сюзерену або приєднатися до #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!. Якщо ми оберемо другий варіант, то, можливо, #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_tt,X #L Серединна Держава#!#! стане нам підкорятися…\\n\\nТепер доля [target_country.Custom('CL_RP')] знаходиться в руках людини на ім'я [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] довірених радників."
+ },
+ "red_turban_rebellions.19.title": {
+  "en": "The Rebellion against [GetCountry('CHI').GetNameWithNoTooltip]",
+  "uk": "Заколот проти [GetCountry('CHI').Custom('CL_GEN')]"
+ },
+ "red_turban_rebellions.2.a": {
+  "en": "What might happen to the Mandate?",
+  "uk": "Що буде з мандатом?"
+ },
+ "red_turban_rebellions.20.a": {
+  "en": "We cannot afford this.",
+  "uk": "Ми не можемо допомогти їм."
+ },
+ "red_turban_rebellions.20.b": {
+  "en": "Send them financial support.",
+  "uk": "Надамо їм фінансову підтримку."
+ },
+ "red_turban_rebellions.20.desc": {
+  "en": "The great warlords of $china$ all lead their war against [ROOT.GetCountry.GetName] for different reasons, yet they do not reflect the needs and desires of the simple peasantry. The bloodshed of the [ShowSituationName('red_turban_rebellions')] has led to disgruntled movements of peasants who are ready to declare their own war on us if we do not improve their situation immediately.",
+  "uk": "Б'ючись за Китай проти #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, великі воєначальники переслідують різні цілі, але всі вони однаково чужі простому народу. Криваве #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#! призвело до зростання невдоволення серед селян. Якщо ми зараз же не покращимо їхнє становище, на нас чекає масовий бунт."
+ },
+ "red_turban_rebellions.20.title": {
+  "en": "Peasant Revolt",
+  "uk": "Селянське повстання"
+ },
+ "red_turban_rebellions.21.a": {
+  "en": "We shall crush them!",
+  "uk": "Ми розчавимо їх!"
+ },
+ "red_turban_rebellions.21.b": {
+  "en": "Granting them some privileges might end their plot.",
+  "uk": "Можливо, вони заспокояться, якщо ми дамо їм привілеї."
+ },
+ "red_turban_rebellions.21.desc": {
+  "en": "Members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been watching the decline of our state and question the authority of the [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')]. Ambitious nobles already plot their move against the Celestial Throne...",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] спостерігають за занепадом нашої держави. [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')] стрімко втрачає їхню довіру, а найамбітніші мріють про небесний мандат…"
+ },
+ "red_turban_rebellions.21.title": {
+  "en": "Mandate Questioned",
+  "uk": "Оспорювання мандату"
+ },
+ "red_turban_rebellions.22.a": {
+  "en": "Only united can we withstand any struggle!",
+  "uk": "Тільки разом ми вистоїмо в боротьбі з ворогом."
+ },
+ "red_turban_rebellions.22.a.tt": {
+  "en": "All of our [locations|e] gain the maximum amount of [control|e] possible",
+  "uk": "Ми отримуємо максимальний [Concept('control', 'контроль')|e] над усіма своїми [Concept('locations', 'районами')|e]"
+ },
+ "red_turban_rebellions.22.char.tt": {
+  "en": "#Y 10#! new [characters|e] will appear in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] поповниться #Y 10#! новими [Concept('characters', 'персонажами')|e]"
+ },
+ "red_turban_rebellions.22.desc": {
+  "en": "With our newfound independence from [from_country.GetName], the [target_country.GetLongName] is now on its own path under the guiding hand of [target_character.GetName]. Many of our people seem optimistic about [target_character.GetHerHis] rule, and have sworn absolute loyalty in our engagement of the [ShowSituationName('red_turban_rebellions')].",
+  "uk": "Влада #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! більше нам не указ. [target_country.GetLongName] — це незалежна країна, якою править [target_character.GetName]. Багато хто щиро підтримує [Select_CString(target_character.IsFemale,'її', 'його')] правління і присягнувся битися на боці #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!."
+ },
+ "red_turban_rebellions.22.title": {
+  "en": "Supported Rule of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] користується підтримкою"
+ },
+ "red_turban_rebellions.23.a": {
+  "en": "A long road lies ahead of us...",
+  "uk": ""
+ },
+ "red_turban_rebellions.23.desc": {
+  "en": "As the rightful rulers of the [GetUniqueInternationalOrganization('middle_kingdom').GetName], our authority should be respected. However, we gained that right through conquest, and many of our [ShowCultureGroupName('chinese_group')] subjects continue to look at us as simple foreign invaders. Even if we have adopted the [ShowSocietyDirectionName('sinicized')] form of government, some do not see past our [ShowCultureName('mongolian_culture')] roots and may rise in rebellion if our rule becomes weak.",
+  "uk": ""
+ },
+ "red_turban_rebellions.23.title": {
+  "en": "A Storm Approaches",
+  "uk": ""
+ },
+ "red_turban_rebellions.23.tt": {
+  "en": "Low [legitimacy|e], [stability|e] or [estate_satisfaction|e] may trigger the [ShowSituationName('red_turban_rebellions')]\\n$BULLET$During the [situation|e], warlords will emerge across $china$ one at a time over roughly #Y 20 years#!:\\n$BULLET$#Y $CSO$#! around [ShowLocationName('qiaoxian')]\\n$BULLET$#Y $CTW$#! around [ShowLocationName('hanchuan')]\\n$BULLET$#Y $CHE$#! around [ShowLocationName('dehua_jiujiang')]\\n$BULLET$#Y $WUU$#! around [ShowLocationName('gaoyou')]\\n$BULLET$#Y $CFN$#! around [ShowLocationName('yongjia')]\\n$BULLET$#Y $CMO$#! around [ShowLocationName('zichuan')]\\n$BULLET$#Y $CXI$#! around [ShowLocationName('baxian')]\\n$BULLET$#Y $CGU$#! around [ShowLocationName('zhongli')]\\n$BULLET$#Y $MNG$#! around [ShowLocationName('shangyuan')]\\n$BULLET$#Y $CNP$#! around [ShowLocationName('nanping')]\\n$BULLET$#Y $CDN$#! around [ShowLocationName('dongguan')]\\n$BULLET$#Y $CSI$#! around [ShowLocationName('jingzhao')]\\n$BULLET$#Y $CKO$#! around [ShowLocationName('kaifeng')]\\n$BULLET$#Y $CNA$#! around [ShowLocationName('liaoyang')]",
+  "uk": ""
+ },
+ "red_turban_rebellions.3.a": {
+  "en": "Their claims will not protect them from the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] wrath!",
+  "uk": "Ці заяви не захистять їх від [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого гніву!"
+ },
+ "red_turban_rebellions.3.desc": {
+  "en": "Although persecuted by our governing authorities, [GetCharacter('chi_yingyu_peng').GetName] managed to flee his deserved execution and spread his teachings in further parts of our lands, eventually reaching the [target_location.GetRank.GetName] of [target_location.GetName]. [target_character.GetName] and his advisor, [target_character_2.GetName], were inspired by the monk and gathered disgruntled peasants around them.\\n\\nThose rebels now proclaim the end of the [ROOT.GetCountry.GetName] dynasty and call themselves the [target_country.GetName] dynasty - the predecessor to the current [ShowCultureName('mongolian_culture')] rule over $china$.",
+  "uk": "Незважаючи на переслідування влади, [GetCharacter('chi_yingyu_peng').GetName] дивом уникнув заслуженої страти і взявся поширювати своє вчення в інших куточках нашої держави. Зрештою він опинився в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. [target_character.GetName] та його радник, [target_character_2.GetName], надихнулися промовами монаха і зібрали навколо себе невдоволених селян.\\n\\nЦі бунтівники проголошують кінець #L [ROOT.GetCountry.GetAdjective|l]ої#! династії і називають себе #L [target_country.GetAdjective|l]ою#! династією — попередницею нинішньої #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольської#!#! влади, що підім'яла під себе весь Китай."
+ },
+ "red_turban_rebellions.30.a": {
+  "en": "[target_character.GetNameWithNoTooltip] shall stand until [target_character.GetHisHer] last breath!",
+  "uk": "[target_character.GetNameWithNoTooltip] буде битися до останнього подиху!"
+ },
+ "red_turban_rebellions.30.b": {
+  "en": "A dead [target_character.GetWomanMan] can lead no rebellion.",
+  "uk": "[Select_CString(target_character.IsFemale,'Мертва', 'Мертвий')] не зможе керувати повстанням."
+ },
+ "red_turban_rebellions.30.desc": {
+  "en": "While [target_character.GetName] enjoys the support of the [GetInternationalOrganizationType('red_turban_rebels').GetName], the agents of [GetCountry('CHI').GetName] try everything in their power to capture and execute [target_character.GetHimHer] as soon as possible to end the rebellion before it can escalate any further.\\n\\nRumors tell that a raid on [target_location.GetName] will be imminent in the next few days. Hiding might secure the survival of our [ROOT.GetCountry.GetGovernment.GetRulerTitle], but [target_character.GetHisHer] legitimacy and claim to be of descent of the [ROOT.GetCountry.GetName] dynasty might become tainted after such disgraceful display of cowardice...",
+  "uk": "[target_character.GetName] користується підтримкою учасників #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!, тому агенти держави роблять усе можливе, щоб якнайшвидше спіймати і вбити [Select_CString(target_character.IsFemale,'її', 'його')], тим самим поклавши край повстанню.\\n\\nХодять чутки, що найближчими днями ворог нападе на [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName]. Щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(target_character.IsFemale,'вижила', 'вижив')], [Select_CString(target_character.IsFemale,'її', 'його')] необхідно сховати, але після такої ганьби [Select_CString(target_character.IsFemale,'її', 'його')] легітимність і належність до правлячої династії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! можуть опинитися під питанням…"
+ },
+ "red_turban_rebellions.30.title": {
+  "en": "The Hunt for [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] у небезпеці"
+ },
+ "red_turban_rebellions.31.a": {
+  "en": "The Young [ROOT.GetCountry.GetGovernment.GetHeirTitle] of Radiance shall lead [ROOT.GetCountry.GetNameWithNoTooltip]!",
+  "uk": "[Select_CString(target_heir.IsFemale,'Її', 'Його')] сіятельство [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] тепер буде правити [ROOT.GetCountry.Custom('CL_INST')]!"
+ },
+ "red_turban_rebellions.31.desc": {
+  "en": "$red_turban_rebellions.raid_deas$\\n\\nDespite [target_character.GetHisHer] best efforts to fend off the raiders, the surprise attack proves itself to be too much for [target_character.GetName]. The [GetCountry('CHI').GetAdjective] riders captured our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. After a show trial, [target_character.GetNameWithNoTooltip]'s fate was sealed, and [target_character.GetHeShe] has been promptly executed on the same night.\\n\\nNow the future of [ROOT.GetCountry.GetName] lies in the hands of [target_heir.GetName] and [target_heir.GetHisHer] advisor [target_advisor.GetName]...",
+  "uk": "$red_turban_rebellions.raid_deas$\\n\\nЯк [target_character.GetName] не [Select_CString(target_character.IsFemale,'старалася', 'старався')], [Select_CString(target_character.IsFemale,'їй', 'йому')] не вдалося відбитися від налітчиків. #L [GetCountry('CHI').GetAdjective|l]і#! загарбники схопили [Select_CString(target_character.IsFemale,'її', 'його')] і тієї ж ночі влаштували показовий суд, за яким відбулася страта.\\n\\nТепер [target_heir.GetName] та [Select_CString(target_heir.IsFemale,'її', 'його')] [Select_CString(target_heir.IsFemale,'радниця', 'радник')] [target_advisor.GetName] відповідальні за долю #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!…"
+ },
+ "red_turban_rebellions.31.title": {
+  "en": "The Execution of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] гине"
+ },
+ "red_turban_rebellions.32.a": {
+  "en": "They will pay for this!",
+  "uk": "Вони заплатять за це!"
+ },
+ "red_turban_rebellions.32.desc": {
+  "en": "$red_turban_rebellions.raid_deas$\\n\\nFortunately, [target_character.GetName] managed to survive this attempt on [target_character.GetHisHer] life, and secures the prevalence of the rebellion's stability. However, the damage done to [target_location.GetName] will persist for the near future...",
+  "uk": "$red_turban_rebellions.raid_deas$\\n\\nНа щастя, [target_character.GetName] виживає в цій метушні. Заколот продовжується, але [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] ще довго не оговтається від такого удару…"
+ },
+ "red_turban_rebellions.32.title": {
+  "en": "The Raid of [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] переживає напад"
+ },
+ "red_turban_rebellions.33.a": {
+  "en": "We should plan our next moves ahead first.",
+  "uk": "Спершу сплануємо подальші дії."
+ },
+ "red_turban_rebellions.33.b": {
+  "en": "Let us invade [target_country.GetNameWithNoTooltip] while they are unaware!",
+  "uk": "Треба діяти швидко, поки про наші плани ще не прочули!"
+ },
+ "red_turban_rebellions.33.desc": {
+  "en": "Our position in [ShowRegionName('manchuria_region')] is vastly different from the other rebels who fight [GetCountry('CHI').GetName] in $china$ proper. While they have access to resources and troops for their forces, we have only the support of the [target_culture.GetName] rebels. While this could prove to be a risky move, a swift and decisive war against our new southern neighbor, [target_country.GetName], might give us access to materials that help us in our war effort against [GetCountry('CHI').GetNameWithNoTooltip].",
+  "uk": "Наше становище в #TOOLTIP:REGION,manchuria_region,X #L Маньчжурії#!#! сильно відрізняється від ситуації інших бунтівників, які б'ються проти #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#! у Китаї. У них є доступ до солдатів і ресурсів, а в нас — лише підтримка #L [target_culture.GetName|l]их#! бунтівників. Ми можемо піти на ризик і розв'язати війну проти #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! на півдні, щоб здобути ресурси, які допоможуть нам у боротьбі з нашим головним ворогом."
+ },
+ "red_turban_rebellions.33.title": {
+  "en": "The Red Turban Invasion of [target_country.GetNameWithNoTooltip]",
+  "uk": "[target_country.GetNameWithNoTooltip] під владою «Червоних пов'язок»"
+ },
+ "red_turban_rebellions.34.a": {
+  "en": "Long live [target_character.GetNameWithNoTooltip]!",
+  "uk": "Хай живе [target_character.GetNameWithNoTooltip]!"
+ },
+ "red_turban_rebellions.34.a.tt": {
+  "en": "[target_country_2.GetName] gets #R annexed#! by [target_country.GetName]",
+  "uk": "Держава [target_country_2.GetName] #R входить до складу#! #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#!"
+ },
+ "red_turban_rebellions.34.b": {
+  "en": "Only under [target_character.GetNameWithNoTooltip]'s rule can [target_country_2.GetNameWithNoTooltip] survive.",
+  "uk": "[target_character.GetNameWithNoTooltip] — наша надія. Без [Select_CString(target_character.IsFemale,'неї', 'нього')] [target_country_2.Custom('CL_DAT')] не вистояти."
+ },
+ "red_turban_rebellions.34.c": {
+  "en": "We cannot allow this treason to go unpunished!",
+  "uk": "Ця підла зрада не залишиться безкарною!"
+ },
+ "red_turban_rebellions.34.desc": {
+  "en": "In a swift twist of turns, [ctw_pusheng_zou.GetName] has been killed in battle. [ctw_pusheng_zou.GetHisHer|U] replacement, [ctw_wenjun_ni.GetName], took over the military and continued the [target_country_2.GetAdjective] military efforts against [GetCountry('CHI').GetName]. Yet, [ctw_wenjun_ni.GetHisHer] success was short-lived as [ctw_wenjun_ni.GetHisHer] ambitions got the better of [ctw_wenjun_ni.GetHimHer]. In an attempt to assassinate [ctw_shouhui_xu.GetName], [ctw_wenjun_ni.GetHeShe] got captured, and executed by [target_character.GetName].\\n\\n[target_character.GetNameWithNoTooltip] continued [target_country_2.GetNameWithNoTooltip]'s campaign with great success, seizing [target_location.GetName] and the territories around. In the meantime, [target_character.GetHeShe] planned [target_character.GetHisHer] eventual succession over [target_country_2.GetNameWithNoTooltip]. On a fateful night, the general murdered [ctw_shouhui_xu.GetNameWithNoTooltip], claimed the [target_country_2.GetAdjectiveWithNoTooltip] throne for [target_character.GetHerselfHimself], and renamed the [target_country_2.GetFlavorRank] into [target_country.GetName].",
+  "uk": "Несподівано для всіх [ctw_pusheng_zou.GetName] [Select_CString(ctw_pusheng_zou.IsFemale,'загинула', 'загинув')] під час битви. [Select_CString(ctw_pusheng_zou.IsFemale,'Її', 'Його')] [Select_CString(ctw_wenjun_ni.IsFemale,'наступниця', 'наступник')] [ctw_wenjun_ni.GetName], [Select_CString(ctw_wenjun_ni.IsFemale,'взяла', 'взяв')] на себе керівництво [target_country_2.GetAdjective|l]ою армією і продовжує боротися проти #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!. Але [Select_CString(ctw_wenjun_ni.IsFemale,'її', 'його')] успіх був недовгим: [ctw_wenjun_ni.GetName] [Select_CString(ctw_wenjun_ni.IsFemale,'стала', 'став')] жертвою своїх амбіцій. [Select_CString(ctw_wenjun_ni.IsFemale,'Вона', 'Він')] [Select_CString(ctw_wenjun_ni.IsFemale,'була схоплена', 'був схоплений')] під час замаху на Сюй Шоухуея, і [target_character.GetName] [Select_CString(target_character.IsFemale,'позбавила', 'позбавив')] [Select_CString(ctw_wenjun_ni.IsFemale,'її', 'його')] життя.\\n\\n[target_character.GetNameWithNoTooltip] успішно [Select_CString(target_character.IsFemale,'продовжила', 'продовжив')] [target_country_2.GetAdjectiveWithNoTooltip|l]у кампанію, завоювавши [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName] і найближчі до нього території, але [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'хотіла', 'хотів')] більшого. Однієї фатальної ночі сталося жахливе вбивство: [ctw_shouhui_xu.GetNameWithNoTooltip] [Select_CString(ctw_shouhui_xu.IsFemale,'загинула', 'загинув')] від руки [Select_CString(target_character.IsFemale,'колишньої союзниці', 'колишнього союзника')]. [target_location.GetRank.GetNameWithNoTooltip] [target_character.GetName] [Select_CString(target_character.IsFemale,'зайняла', 'зайняв')] трон і [Select_CString(target_character.IsFemale,'дала', 'дав')] [target_country_2.Custom('CF_DP')|l] нову назву — [target_country.GetName]."
+ },
+ "red_turban_rebellions.34.title": {
+  "en": "Rise of [target_country.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "red_turban_rebellions.35.a": {
+  "en": "Utter fools!",
+  "uk": "Жалюгідні дурні!"
+ },
+ "red_turban_rebellions.35.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s Revolt",
+  "uk": "[Select_CString(target_character.IsFemale,'Бунтівниця', 'Бунтівник')] [target_character.GetNameWithNoTooltip]"
+ },
+ "red_turban_rebellions.36.a": {
+  "en": "May [target_character.GetHisHer] reign be one of prosperity!",
+  "uk": "Хай [Select_CString(target_character.IsFemale,'вона', 'він')] приведе нас до процвітання!"
+ },
+ "red_turban_rebellions.36.desc": {
+  "en": "[target_character.GetName] is not a [target_character.GetWomanMan] of education or high status. [target_character.GetHisHer|U] upbringing was the lowest possible in [GetCountry('CHI').GetName], yet [target_character.GetHisHer] mind was a bright one. [target_character.GetNameWithNoTooltip] emphasizes that [target_character.GetHisHer] actions are done to restore order and peace in $china$. Whenever [target_country.GetName] acquires new lands, the [target_country.GetGovernment.GetRulerTitle] ensures to travel to conquered lands to survey local issues and recruit scholars and administrators alike.",
+  "uk": "[target_character.GetName] не може похвалитися ні добрим вихованням, ні високим статусом, оскільки [Select_CString(target_character.IsFemale,'її', 'його')] батьки просто не могли дати [Select_CString(target_character.IsFemale,'їй', 'йому')] хоч скільки-небудь пристойну освіту. Проте [target_character.GetName] з дитинства [Select_CString(target_character.IsFemale,'відзначалася', 'відзначався')] неабияким розумом. [target_character.GetNameWithNoTooltip] стверджує, що [Select_CString(target_character.IsFemale,'її', 'його')] мета — повернути в Китай мир і порядок. Щоразу, коли [target_country.GetName] прироста[target_country.Custom('end_etyut')] новими землями, [target_country.GetGovernment.GetRulerTitle|l] приїжджає на завойовану територію, цікавиться проблемами місцевих жителів і заручається підтримкою вчених та управлінців."
+ },
+ "red_turban_rebellions.36.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s Leadership",
+  "uk": "[target_character.GetNameWithNoTooltip] при владі"
+ },
+ "red_turban_rebellions.37.a": {
+  "en": "May [target_character.GetNameWithNoTooltip] rule with strength and wisdom.",
+  "uk": "Хай [Select_CString(target_character.IsFemale,'її', 'його')] рука буде твердою, а рішення — мудрими."
+ },
+ "red_turban_rebellions.37.b": {
+  "en": "No. We cannot allow [target_country.GetNameWithNoTooltip] to grow anymore.",
+  "uk": "Ні. Не можна допустити, щоб держава [target_country.GetNameWithNoTooltip] і далі приростала землями."
+ },
+ "red_turban_rebellions.37.desc": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] are a treacherous chain of events. No man, woman, or child is safe from the inevitable fate which is death itself. Unfortunately for [annex_target_country.GetLongName], such fate has fallen upon [cgu_zixing_guo.GetName] when [cgu_zixing_guo.GetHeShe] died during one of the skirmishes against the [GetCountry('CHI').GetAdjective] forces.",
+  "uk": "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! запустило ланцюг несподіваних і сумних подій. У ці смутні часи жодна держава не здатна вберегтися від трагедій, навіть [annex_target_country.GetLongName]. Тут оплакують передчасну кончину [Select_CString(cgu_zixing_guo.IsFemale,'своєї улюбленої правительки', 'свого улюбленого правителя')]. На жаль, [cgu_zixing_guo.GetName] [Select_CString(cgu_zixing_guo.IsFemale,'загинула', 'загинув')] у битві проти #L [GetCountry('CHI').GetAdjective|l]их#! військ."
+ },
+ "red_turban_rebellions.37.desc.heirless": {
+  "en": "$red_turban_rebellions.37.desc$\\n\\nAs [cgu_zixing_guo.GetNameWithNoTooltip] perished without any valid heir, the only valid [target_character.GetWomanMan] left who can lead [annex_target_country.GetNameWithNoTooltip] is the commander [target_character.GetName]. The [annex_target_country.GetAdjectiveWithNoTooltip] throne will from now on be ruled from [target_location.GetName], the great [target_location.GetRank.GetName] of [target_country.GetName].",
+  "uk": "$red_turban_rebellions.37.desc$\\n\\nОскільки [cgu_zixing_guo.GetNameWithNoTooltip] [Select_CString(cgu_zixing_guo.IsFemale,'не залишила', 'не залишив')] спадкоємця, #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_VP')|L]#!#! очолює [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] переносить столицю до [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName], звідки й буде керувати [annex_target_country.GetAdjectiveWithNoTooltip|l]ими територіями."
+ },
+ "red_turban_rebellions.37.title": {
+  "en": "[cgu_zixing_guo.GetNameWithNoTooltip]'s Untimely Demise",
+  "uk": "[cgu_zixing_guo.GetNameWithNoTooltip] передчасно помирає"
+ },
+ "red_turban_rebellions.38.a": {
+  "en": "[target_country.GetNameWithNoTooltip] shall make good use of these lands!",
+  "uk": "Правителі [target_country.Custom('CL_GEN')] розпорядяться цими землями з розумом!"
+ },
+ "red_turban_rebellions.4.a": {
+  "en": "[target_character.GetHisHer|U] head will roll for this...",
+  "uk": "За це [Select_CString(target_character.IsFemale,'вона', 'він')] позбудеться голови…"
+ },
+ "red_turban_rebellions.4.desc": {
+  "en": "While the [GetInternationalOrganizationType('red_turban_rebels').GetName] lead their fight against us in the [ShowCultureGroupNameWithNoTooltip('chinese_group')] core territories, the [target_culture.GetName] people of [target_location.GetName] see an opportunity to break out of our grasp. [target_character.GetName] gathered those who swear loyalty towards [target_character.GetHimHer], and declared the state of [target_country.GetName] in open rebellion against the [ROOT.GetCountry.GetCulture.GetName] rule.",
+  "uk": "Поки #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#! б'ються з нами на національних китайських територіях, представники #L [target_culture.GetName|l]ої#! культури з [target_location.Custom('LR_GEN')|l] [target_location.GetName] починають боротьбу за незалежність. [target_character.GetName] збирає тих, хто присягнувся [Select_CString(target_character.IsFemale,'їй', 'йому')] на вірність, і оголошує про відкрите протистояння #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! #L [ROOT.GetCountry.GetCulture.GetName|l]ому#! правлінню."
+ },
+ "red_turban_rebellions.40.a": {
+  "en": "Anything to prevent further rebellion.",
+  "uk": "Заради запобігання заколотам ми готові на будь-що."
+ },
+ "red_turban_rebellions.40.b": {
+  "en": "We cannot afford military defeats.",
+  "uk": "Військові поразки неприпустимі."
+ },
+ "red_turban_rebellions.40.desc": {
+  "en": "In these trying times, the risk of treason and rebellion follows us on every step. To alleviate this risk of general desertion and further civil war, one of our [ROOT.GetCountry.GetGovernment.GetCabinetTitle] ministers, [target_character.GetName], has proposed to institute the concept of [ShowModifier('yua_troop_rotation')]. As per this policy, the generals, as well as their troops, would constantly be exchanged between different regions so as to prevent one leader from gaining too much influence. This, however, would obviously impact the efficiency of our forces on the battlefield.\\n\\nIs it worth the risk? Will this actually prevent generals from putting on the Red Turban?",
+  "uk": "Ми живемо у важкий час. Зрадником чи бунтівником може виявитися кожен. [target_character.GetName], [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] при нашому дворі, вважає, що уникнути повального дезертирства і подальшої громадянської війни допоможе [ShowModifier('yua_troop_rotation')|l]: полководці (а разом з ними — і війська) будуть постійно переміщатися з одного регіону в інший, щоб ніхто не встиг набрати надто багато впливу. Але, звісно, тоді наші армії воюватимуть не так успішно.\\n\\nЧи варто піти на цей ризик? Чи не станеться так, що полководці продовжать надівати червоні пов'язки?"
+ },
+ "red_turban_rebellions.40.title": {
+  "en": "Troop Rotation",
+  "uk": "Ротація військ"
+ },
+ "red_turban_rebellions.41.a": {
+  "en": "Print the extra funds.",
+  "uk": "Надрукувати додаткові кошти."
+ },
+ "red_turban_rebellions.41.b": {
+  "en": "The economy is terrible as-is.",
+  "uk": "Економіка і так страждає."
+ },
+ "red_turban_rebellions.41.desc": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] have put a severe strain on our resources. With dozens of rebellions all across the [ROOT.GetCountry.GetFlavorRank], it is apparent that our forces are not plentiful enough to face them head on. In order to be able to afford a larger army, we could print more of our paper currency. However, the quantities needed would surely result in its further devaluation for the years to come.",
+  "uk": "[ShowSituationName('red_turban_rebellions')] лягло важким тягарем на наші ресурси. Десятки заколотів охопили [ROOT.GetCountry.Custom('rank_ru_ACC')|l], і стало очевидно, що наші сили занадто нечисленні, щоб придушити їх. Ми можемо надрукувати більше паперової валюти, щоб дозволити собі утримувати більше військо, однак це неминуче обернеться знеціненням грошей у наступні роки."
+ },
+ "red_turban_rebellions.41.title": {
+  "en": "Times of Desperation",
+  "uk": "Відчайдушні часи"
+ },
+ "red_turban_rebellions.42.a": {
+  "en": "Oh, that is just stellar...",
+  "uk": "Ну просто чудово…"
+ },
+ "red_turban_rebellions.42.a.tt": {
+  "en": "#R All of our owned [locations|e] in [ShowRegionName('manchuria_region')] get abandoned#!",
+  "uk": "#R Усі належні нам [Concept('locations','райони')|e] в #TOOLTIP:REGION,manchuria_region,X #L Маньчжурії#!#! виявляються покинутими#!"
+ },
+ "red_turban_rebellions.42.b.tt": {
+  "en": "#R Every [subject|e] with its [capital|e] in [ShowRegionName('manchuria_region')] becomes independent#!",
+  "uk": "#R Кожен [Concept('subject', 'васал')|e] зі [Concept('capital', 'столицею')|e] в #TOOLTIP:REGION,manchuria_region,X #L Маньчжурії#!#! стає незалежним#!"
+ },
+ "red_turban_rebellions.42.desc": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] affects not only the entirety of core regions of [ROOT.GetCountry.GetName], but also the long fringe areas of the [ROOT.GetCountry.GetFlavorRank]. Most notably are the distanced lands of the [ShowRegionName('manchuria_region')] which have been conquered by our predecessors. While nominally under our control, due to the boiling conflict in our heartland there is nobody who can enforce our rule over [ShowRegionNameWithNoTooltip('manchuria_region')], making it abandoned in effect.",
+  "uk": "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! зачепило не лише серце #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а й віддалені області [ROOT.GetCountry.Custom('rank_ru_GEN')|l], особливо край, завойований колись нашими предками, — #TOOLTIP:REGION,manchuria_region,X #L Маньчжурію#!#!. І хоча умовно вони залишаються під нашою владою, насправді конфлікт, що вирує в країні, призвів до того, що владарювати Маньчжурією просто нікому. По суті, цей регіон кинуто напризволяще."
+ },
+ "red_turban_rebellions.42.title": {
+  "en": "[ShowRegionNameWithNoTooltip('manchuria_region')] Breaks Away!",
+  "uk": "Маньчжурія відколюється!"
+ },
+ "red_turban_rebellions.43.a": {
+  "en": "We need these officers immediately!",
+  "uk": "Нам конче потрібні ці офіцери!"
+ },
+ "red_turban_rebellions.43.b": {
+  "en": "They must not leave their position in [target_country.GetNameWithNoTooltip].",
+  "uk": "Хай і далі обіймають свої посади в [target_country.Custom('CL_PREP')]."
+ },
+ "red_turban_rebellions.43.b.at": {
+  "en": "Half of the [ShowCultureName('mongolian_culture')] [characters|e] in [target_country.GetName] move to [ROOT.GetCountry.GetName], giving #G 1#! [army_tradition|e] and #G 1#! [stability|e] per character",
+  "uk": ""
+ },
+ "red_turban_rebellions.43.b.bt": {
+  "en": "#R [target_country.GetName] becomes more likely to break away from us#!",
+  "uk": ""
+ },
+ "red_turban_rebellions.43.desc": {
+  "en": "As the rebels threaten us further to fracture our state, the need for competent personal becomes increasingly more apparent. Fortunately for us, many loyal [ShowCultureName('mongolian_culture')] officers are still present in [target_country.GetName]. We could call them back to bolster our military at the cost of an increased risk that the [ShowCultureName('korean_culture')] people break away from us in the future.",
+  "uk": "Бунтівники загрожують розколоти нашу державу на численні уламки, тому потреба в умілих людях з кожним днем стає дедалі гострішою. На щастя, в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! ще залишилось чимало вірних нам #TOOLTIP:CULTURE,mongolian_culture,X #L монгольських#!#! офіцерів. Ми можемо покликати їх назад на службу, щоб наші війська стали справді боєздатними, однак слід враховувати і ризик можливого в майбутньому відділення від нас #TOOLTIP:CULTURE,korean_culture,X #L корейського#!#! народу."
+ },
+ "red_turban_rebellions.43.title": {
+  "en": "Recall of the [ShowCultureNameWithNoTooltip('mongolian_culture')] Generals",
+  "uk": "Заклик монгольським генералам повернутися на службу"
+ },
+ "red_turban_rebellions.44.a": {
+  "en": "They might claim independence, but they will return to [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Можливо, він і незалежний, але все одно він повернеться до [ROOT.GetCountry.Custom('CL_ACC')]."
+ },
+ "red_turban_rebellions.44.desc": {
+  "en": "The chaos caused by the [ShowSituationName('red_turban_rebellions')] led to the decline of our bureaucracy in unforseen ways. [ShowRegionName('tibet_region')], a region until now subservient to us, refuses to acknowledge our influence and control, and is now virtually independent from our grasp.",
+  "uk": "Хаос, спричинений #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстанням «Червоних пов'язок»#!#!, обернувся досить несподіваними наслідками. #TOOLTIP:REGION,tibet_region,X #L Тибет#!#!, що до недавнього часу підкорявся нам — відмовляється визнавати наш вплив і контроль, фактично проголосивши незалежність."
+ },
+ "red_turban_rebellions.44.title": {
+  "en": "Lost Control over [ShowRegionNameWithNoTooltip('tibet_region')]",
+  "uk": "Втрачено контроль над Тибетом"
+ },
+ "red_turban_rebellions.5.a": {
+  "en": "This monk is becoming a real nuisance...",
+  "uk": "[Select_CString(monk_character.IsFemale,'Ця монахиня', 'Цей монах')] стає справжньою проблемою…"
+ },
+ "red_turban_rebellions.5.desc": {
+  "en": "[GetCharacter('chi_yingyu_peng').GetName] is dead, yet [GetCharacter('chi_yingyu_peng').GetHisHer] influence in the ongoing [ShowSituationName('red_turban_rebellions')] did not stop. [GetCharacter('chi_yingyu_peng').GetHisHer|U] most trusted military advisor, [target_character_1.GetName], has found a new leader in the cloth peddler [target_character.GetName] for the rebellion to continue. Together, they proclaimed the rise of the new, rivaling state of the [target_country.GetName] dynasty.",
+  "uk": "[GetCharacter('chi_yingyu_peng').GetName] мертвий, але його ідеї продовжують впливати на #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!. [Select_CString(GetCharacter('chi_yingyu_peng').IsFemale,'Її', 'Його')] [Select_CString(target_character_1.IsFemale,'довірена військова радниця знайшла', 'довірений військовий радник знайшов')] [target_character_1.GetName] нового лідера в особі [Select_CString(target_character.IsFemale,'торговки', 'торговця')] тканинами на ім'я [target_character.GetName]. Разом вони оголосили про створення нової держави, що протистоїть #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.5.desc.peng": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] rage and [monk_character.GetName] continues to elude punishment. [monk_character.GetHeShe|U] and [monk_character.GetHisHer] principal military follower, [target_character_1.GetName], have managed to escape to [target_location.GetName], where they found the cloth peddler [target_character.GetName]. Due to the charismatic side of [target_character.GetNameWithNoTooltip], the monk, and [monk_character.GetHisHer] followers decided to turn the humble merchant into the figurehead of the [target_country.GetName] rebellion.",
+  "uk": "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! все ширшає, а [monk_character.GetName] так і не [Select_CString(monk_character.IsFemale,'понесла', 'поніс')] покарання. [Select_CString(monk_character.IsFemale,'Вона', 'Він')] та [Select_CString(monk_character.IsFemale,'її', 'його')] права рука, [Select_CString(target_character_1.IsFemale,'воїтелька', 'воїтель')] [target_character_1.GetName], втекли до [target_location.Custom('LR_ACC')|l] [target_location.GetName], де зустріли [Select_CString(target_character.IsFemale,'харизматичну торговку', 'харизматичного торговця')] тканинами на ім'я [target_character.GetName]. [Select_CString(monk_character.IsFemale,'Монахиня', 'Монах')] та [Select_CString(monk_character.IsFemale,'її', 'його')] прихильники вирішили зробити [Select_CString(target_character.IsFemale,'просту торговку', 'простого торговця')] обличчям повстання."
+ },
+ "red_turban_rebellions.6.a": {
+  "en": "At least the warlords have their own internal issues too...",
+  "uk": "У наших генералів додалося проблем…"
+ },
+ "red_turban_rebellions.6.desc": {
+  "en": "Turbulent times are not only in our lands but also in our sworn enemies. $red_turban_rebellions.34.desc$",
+  "uk": "Не тільки ми переживаємо важкі часи, але й наші заклятіворогй. $red_turban_rebellions.34.desc$"
+ },
+ "red_turban_rebellions.7.a": {
+  "en": "This is only a temporary setback.",
+  "uk": "Скоро все повернеться на круги своя."
+ },
+ "red_turban_rebellions.7.desc": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] rage throughout $china$. Bold warlords declare themselves as heirs of past dynasties, starting open revolts and challenging the [GetCountry('CHI').GetAdjective] authority. Amongst those rebels are bandits who see an opportunity in our waning grasp of $china$: [target_character.GetName] and 18 of [target_character.GetHisHer] followers fled to [target_location.GetName] and have turned to banditry. Within a few weeks, [target_character.GetNameWithNoTooltip] recruited thousands more bandits and soon enough [target_character.GetSheHe] declared the foundation of [target_country.GetName].",
+  "uk": "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! охопило весь Китай. Зухвалі воєначальники, що ополчилися проти #L [GetCountry('CHI').GetAdjective|l]ого#! правління, проголошують себе спадкоємцями династій минулого. Серед цих бунтівників є справжні бандити, які, користуючись нашою слабкістю, хочуть прибрати Китай до рук. [target_character.GetName] і 18 [Select_CString(target_character.IsFemale,'її', 'його')] послідовників втекли до [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Протягом тижня [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'завербувала', 'завербував')] тисячі нових солдатів і невдовзі [Select_CString(target_character.IsFemale,'заявила', 'заявив')] про створення #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.8.a": {
+  "en": "A pirate's death shall be [target_character.GetHisHer]!",
+  "uk": "Ми маємо предати [Select_CString(target_character.IsFemale,'її', 'його')] смерті!"
+ },
+ "red_turban_rebellions.8.desc": {
+  "en": "While bandits plunder the inland, the [target_location.GetRank.GetName] of [target_location.GetName] and its immediate coastal lands suffer from the hands of [target_character.GetName] and [target_character.GetHisHer] pirates. Despite the best of [GetCountry('CHI').GetAdjective] efforts, [target_location.GetNameWithNoTooltip] has completely fallen out of the [GetCountry('CHI').GetCulture.GetName] control, and has become the capital of the newly established [target_country.GetName].",
+  "uk": "Поки бандити лютують на суші, [target_location.GetRank.GetName|l] [target_location.GetName] і найближчі прибережні землі страждають від нападів пірата на ім'я [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] команди. Незважаючи на всі зусилля #L [GetCountry('CHI').GetAdjective|l]ої#! влади, [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] повністю вийшов з-під #L [GetCountry('CHI').GetCulture.GetName|l]ого#! контролю і став столицею нової держави — #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.9.a": {
+  "en": "A mild disturbance, nothing more.",
+  "uk": "Скоро все вляжеться. Не варто хвилюватися."
+ },
+ "red_turban_rebellions.9.desc": {
+  "en": "Another warlord has risen to power within our lands! [target_character.GetName] and [target_character.GetHisHer] companions occupied [target_location.GetName] and conquered the lands around it. [target_character.GetHeShe|U] proclaimed the rise of [target_country.GetName] shortly after, starting an open rebellion against [GetCountry('CHI').GetName].",
+  "uk": "Генерали знову зазіхають на наші території! [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] соратники зайняли [target_location.Custom('LR_ACC')|l] [target_location.GetName] і завоювали найближчі землі. Невдовзі після цього [Select_CString(target_character.IsFemale,'вона заявила', 'він заявив')] про створення держави [target_country.GetName] і [Select_CString(target_character.IsFemale,'виступила', 'виступив')] проти #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#!."
+ },
+ "red_turban_rebellions.end_desc": {
+  "en": "The [ShowSituationName('red_turban_rebellions')] has finally found its end!",
+  "uk": "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! нарешті завершено!"
+ },
+ "red_turban_rebellions.play_as_tag": {
+  "en": "I wonder what might the future hold for [target_country.GetNameWithNoTooltip]...",
+  "uk": "Цікаво, яке майбутнє чекає на [target_country.Custom('CL_ACC')]…"
+ },
+ "red_turban_rebellions.raid_deas": {
+  "en": "In the midst of the night of [GetDateString], [GetCountry('CHI').GetCulture.GetName] raiders stormed the [target_location.GetRank.GetName] of [target_location.GetName], killing anyone they assume to be part of the [ShowSituationName('red_turban_rebellions')].",
+  "uk": "[GetDateString], просто посеред ночі, #L [GetCountry('CHI').GetCulture.GetName|l]і#! налітчики проникли в #L #TOOLTIP:LOCATIONRANK,[target_location.GetRank.GetNameAltWithNoTooltip('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#! [target_location.GetName] і вбили всіх, хто, на їхню думку, підтримував #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!."
+ },
+ "red_turban_rebellions.release_culture.title": {
+  "en": "The [target_culture.GetNameWithNoTooltip] Rebellion",
+  "uk": "Повстання представників [target_culture.GetNameWithNoTooltip]ої культури"
+ },
+ "red_turban_rebellions.release_loyalist.a": {
+  "en": "Grant [target_character.GetHimHer] the autonomy [target_character.GetHeShe] needs.",
+  "uk": "Дамо [Select_CString(target_character.IsFemale,'їй', 'йому')] необхідну автономію."
+ },
+ "red_turban_rebellions.release_loyalist.b": {
+  "en": "We cannot allow to lose any more land, even if it goes to a loyalist.",
+  "uk": "Ми не станемо віддавати землі навіть своїм прихильникам."
+ },
+ "red_turban_rebellions.release_loyalist.desc": {
+  "en": "The situation of [ROOT.GetCountry.GetName] is grim, but it is still salvageable. A competent general, [target_character.GetName] has offered [target_character.GetHisHer] support to hold against the [GetInternationalOrganizationType('red_turban_rebels').GetName] by establishing the [ShowGovernmentReformName('warring_state')] of [target_country.GetName] in [target_location.GetName]. All they require is the word of the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "Владі #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! важко, але цю державу ще можна врятувати. [Select_CString(target_character.IsFemale,'Авторитетна воєначальниця', 'Авторитетний воєначальник')] [target_character.GetName] пропонує свою допомогу в боротьбі з #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоними пов'язками»#!#!. [Select_CString(target_character.IsFemale,'Її', 'Його')] план такий: створити #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! під назвою [target_country.GetName] в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. [Select_CString(target_character.IsFemale,'Вона готова', 'Він готовий')] діяти негайно. Все, що [Select_CString(target_character.IsFemale,'їй', 'йому')] потрібно, — це ваша згода."
+ },
+ "red_turban_rebellions.release_loyalist.title": {
+  "en": "The [target_country.GetNameWithNoTooltip] Loyalists",
+  "uk": "Прихильники [target_country.Custom('CL_GEN')]"
+ },
+ "red_turban_rebellions.release_tag.title": {
+  "en": "The [target_country.GetNameWithNoTooltip] Rebellion",
+  "uk": "Повстання на території [target_country.Custom('CL_GEN')]"
+ },
+ "rtr_annex_all_loyalists_at": {
+  "en": "All countries with the [ShowGovernmentReformName('warring_state')] [government_reform|e] who are #G loyal#! (equal or more than [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2] $rtr_yuan_allegiance$) towards [target_country.GetName] will be annexed by [target_country.GetNameWithNoTooltip]",
+  "uk": "Усі держави з [Concept('government_reform', 'державним принципом')|e] #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L «Воююча держава»#!#!, #G вірні#! #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DP')|L]#!#! (відданість Юаню має бути не менше [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2]), будуть приєднані до [target_country.Custom('CL_DP')]"
+ },
+ "rtr_annex_all_loyalists_bt": {
+  "en": "All countries with the [ShowGovernmentReformName('warring_state')] [government_reform|e] who are #G loyal#! (equal or more than [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2] $rtr_yuan_allegiance$) towards the dominant power of $china$ will be annexed by [target_country.GetNameWithNoTooltip]",
+  "uk": "Усі держави з [Concept('government_reform','державним принципом')|e] «[ShowGovernmentReformName('warring_state')]», чия #G відданість#! династії Юань становить не менше [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2], будуть приєднані до [target_country.Custom('CL_DAT')]"
+ },
+ "rtr_annex_tt": {
+  "en": "[ROOT.GetCountry.GetName] annexes [annex_target_country.GetName]",
+  "uk": "Влада #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! приєднує #ONCLICK:COUNTRY,[annex_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[annex_target_country.Custom('CL_tt')],X [annex_target_country.Custom('CL_ACC')|L]#!#!"
+ },
+ "rtr_become_china_effect_tt": {
+  "en": "[target_country.GetName] will become the new leader of the [GetInternationalOrganizationType('middle_kingdom').GetName]",
+  "uk": "Об'єднання «[GetInternationalOrganizationType('middle_kingdom').GetName]» переходить до рук правителів #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!"
+ },
+ "rtr_change_allegiance_points": {
+  "en": "Increase its #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Підвищити її #Y відданість династії Юань#! на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "rtr_core_all_of_china": {
+  "en": "Every [location|e] part of the [GetInternationalOrganizationType('middle_kingdom').GetName] becomes a [core|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Кожен [Concept('location', 'район')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединної Держави#!#! стає [Concept('core', 'національним районом')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
+ },
+ "rtr_gain_annex_cb_on_china": {
+  "en": "[TARGET_COUNTRY.GetName] gains the [ShowCasusBelliName('cb_chinese_unification')] [casus_belli|e] against every independent country in [ShowRegionName('east_china_region')], [ShowRegionName('north_china_region')], [ShowRegionName('south_china_region')], and [ShowRegionName('west_china_region')]",
+  "uk": "Влада #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! отримує [Concept('casus_belli', 'привід для війни')|e] #TOOLTIP:CASUS_BELLI,cb_chinese_unification,X #L «Об'єднаний Китай»#!#! проти всіх незалежних держав у #TOOLTIP:REGION,east_china_region,X #L Східному Китаї#!#!, #TOOLTIP:REGION,north_china_region,X #L Північному Китаї#!#!, #TOOLTIP:REGION,south_china_region,X #L Південному Китаї#!#!, #TOOLTIP:REGION,west_china_region,X #L Західному Китаї#!#! та #TOOLTIP:REGION,xinjiang_region,X #L Сіньцзяні#!#!"
+ },
+ "rtr_get_annexed_tt": {
+  "en": "[target_country.GetName] annexes [ROOT.GetCountry.GetName]",
+  "uk": "Держава [target_country.GetName] приєднує до себе #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!"
+ },
+ "rtr_join_china_in_wars_tt": {
+  "en": "Will join all wars in the [ShowSituationName('red_turban_rebellions')] on the side of [GetCountry('CHI').GetName]",
+  "uk": "Братиме участь у всіх війнах під час #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#! на боці #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#!"
+ },
+ "rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of the most competent [characters|e] of the [CULTURE.GetName] culture move to [TARGET_COUNTRY.GetName]",
+  "uk": "Найкращі фахівці, гордість #L [CULTURE.GetName|l]ої#! культури, переїжджають на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ },
+ "rtr_recreate_middle_kingdom.tt": {
+  "en": "The [GetInternationalOrganizationType('middle_kingdom').GetName] will be reborn",
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединна держава#!#! відродиться"
+ },
+ "rtr_release_cultural_warlord_tag_tt": {
+  "en": "Release the [target_culture.GetName] [ShowGovernmentReformName('warring_state')] of [target_country.GetName] in [target_location.GetName]",
+  "uk": "Виділити #L [target_culture.GetName|l]у#! #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName]"
+ },
+ "rtr_release_warlord_country_tt": {
+  "en": "Release the [ShowGovernmentReformName('warring_state')] of [target_country.GetName]",
+  "uk": "Виділити #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! [target_country.GetName]"
+ },
+ "rtr_release_warlord_tag_biggest_pop_culture_release_tt": {
+  "en": "Release a [ShowGovernmentReformName('warring_state')] of the [target_culture.GetName] culture in [target_location.GetName]",
+  "uk": "Виділити #L [target_culture.GetName|l]у#! #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName]"
+ },
+ "rtr_yuan_allegiance": {
+  "en": "Allegiance to Yuán",
+  "uk": "Відданість династії Юань"
+ },
+ "third_neg_rtr_change_allegiance_points": {
+  "en": "[COUNTRY.GetName] decreases its #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Держава [COUNTRY.GetName] понижує свою #Y відданість династії Юань#! на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "third_past_neg_rtr_change_allegiance_points": {
+  "en": "[COUNTRY.GetName] decreased its #Y $rtr_yuan_allegiance$#! by $VALUE|R$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Держава [COUNTRY.GetName] знизила свою #Y відданість династії Юань#! на $VALUE|R$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "third_past_rtr_change_allegiance_points": {
+  "en": "[COUNTRY.GetName] increased its #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Держава [COUNTRY.GetName] підвищила свою #Y відданість династії Юань#! на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "third_past_rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of the most competent [characters|e] of [COUNTRY.GetName] of the [CULTURE.GetName] culture have moved to [TARGET_COUNTRY.GetName]",
+  "uk": "Найкращі фахівці #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!, гордість #L [CULTURE.GetName|l]ої#! культури, переїхали на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ },
+ "third_rtr_change_allegiance_points": {
+  "en": "[COUNTRY.GetName] increases its #Y $rtr_yuan_allegiance$#! by $VALUE|G$ (currently: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
+  "uk": "Держава [COUNTRY.GetName] підвищує свою #Y відданість династії Юань#! на $VALUE|G$ од. (зараз: #Y [COUNTRY.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ },
+ "third_rtr_lose_competent_characters": {
+  "en": "Up to #R 8#! of the most competent [characters|e] of [COUNTRY.GetName] of the [CULTURE.GetName] culture move to [TARGET_COUNTRY.GetName]",
+  "uk": "Найкращі фахівці держави [COUNTRY.GetName], гордість #L [CULTURE.GetName|l]ої#! культури, переїжджають на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#! в кількості до #R 8#! осіб"
+ }
+}

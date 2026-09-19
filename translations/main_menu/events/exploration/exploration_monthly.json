@@ -1,0 +1,602 @@
+{
+ "STATIC_MODIFIER_NAME_drunken_explorer": {
+  "en": "Drunken Explorer",
+  "uk": "П'яний дослідник"
+ },
+ "STATIC_MODIFIER_NAME_friendly_dog": {
+  "en": "Friendly Dog",
+  "uk": "Дружелюбний собака"
+ },
+ "angry_natives": {
+  "en": "Exploited!",
+  "uk": "Це обман заради наживи!"
+ },
+ "exploration_monthly.1.a": {
+  "en": "Make them a fair deal.",
+  "uk": "Укладемо з ними чесну угоду."
+ },
+ "exploration_monthly.1.b": {
+  "en": "Make them a dishonest deal.",
+  "uk": "Обдуримо їх."
+ },
+ "exploration_monthly.1.desc": {
+  "en": "During our mission to find viable provinces to colonize, we stumbled upon [ROOT.GetExploration.GetLocation.GetName]. Its natives are mostly hostile, but the land is very prosperous. We would gain much from trading with this province. Although we might need to bribe a chief or two...",
+  "uk": "Намагаючись знайти підходящі провінції для наших майбутніх колоній, ми натрапили на #L #TOOLTIP:LOCATIONRANK,[ROOT.GetExploration.GetLocation.Custom('LR_tt')],X [ROOT.GetExploration.GetLocation.Custom('LR_ACC')]#!#! [ROOT.GetExploration.GetLocation.GetName]. Місцеві жителі не відзначаються дружелюбністю, але землі тут багаті на ресурси. На торгівлі з цією провінцією можна було б добре заробити. Щоправда, для цього знадобиться підкупити кількох вождів…"
+ },
+ "exploration_monthly.1.title": {
+  "en": "Ordeal in [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]",
+  "uk": "Випробування в області [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]"
+ },
+ "exploration_monthly.10.a": {
+  "en": "Grab what you can and get out!",
+  "uk": "Беремо все, що зможемо, і йдемо!"
+ },
+ "exploration_monthly.10.desc": {
+  "en": "Before [ROOT.GetExploration.GetCharacter.GetName] embarked on the expedition, [ROOT.GetExploration.GetCharacter.GetHeShe] had heard tales of a Carthaginian explorer by the name of Hanno who had found an island populated with a 'hirsute and savage people'.\\n\\nHanno had made attempts to capture the males which failed, but three females were taken. Their ferocious nature forced the explorer to kill them. To bring proof of the beasts, their skins were preserved for transport. These people were called 'Gorillae' by the interpreters traveling with Hanno.\\n\\nWe assume that the apelike species we found in [ROOT.GetExploration.GetLocation.GetName] must be these Gorillae that Hanno spoke of.",
+  "uk": "Перед тим, як вирушити в експедицію, [ROOT.GetExploration.GetCharacter.GetName] [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'чула', 'чув')] історії про карфагенського дослідника на ім'я Ганнон. Ця людина знайшла острів, населений «дикими волохатими людьми».\\n\\nГаннон спробував полонити самців, але зазнав невдачі. Трьох самиць, втім, схопити вдалося, але вони були настільки лютими, що йому довелося вбити їх. Як доказ своїх пригод Ганнон забрав з собою зняті з них шкури. Перекладачі, що супроводжували Ганнона, називали цих створінь горилами.\\n\\nМожливо, схожі на мавп істоти, яких ми бачили в [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [ROOT.GetExploration.GetLocation.GetName], були тими самими горилами, про яких розповідав Ганнон."
+ },
+ "exploration_monthly.10.title": {
+  "en": "The [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip] Beasts",
+  "uk": "Звірі в [ROOT.GetExploration.GetLocation.Custom('LR_PREP')|l] [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip]"
+ },
+ "exploration_monthly.11.a": {
+  "en": "The expedition's chaplain officiates the wedding.",
+  "uk": "Шлюб укладе капелан експедиції."
+ },
+ "exploration_monthly.11.b": {
+  "en": "Follow the local wedding customs.",
+  "uk": "Весілля пройде за місцевим звичаєм."
+ },
+ "exploration_monthly.11.c": {
+  "en": "This is no time for romance.",
+  "uk": "У нас немає часу на любовні пригоди."
+ },
+ "exploration_monthly.11.desc": {
+  "en": "In the long months spent surveying the landscape around [marriage_location.GetName], our explorer [ROOT.GetExploration.GetCharacter.GetName] has grown close to a [bride_pop.GetCulture.GetName] peasant family, and in particular their unmarried daughter, [bride.GetName].\\n\\nBecoming part of a local family will surely aid the expedition.",
+  "uk": "За довгі місяці, проведені за вивченням земель у [marriage_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [marriage_location.GetName], наш дослідник [ROOT.GetExploration.GetCharacter.GetName] зблизився з незаміжньою дівчиною на ім'я [bride.GetName] з #L [bride_pop.GetCulture.GetName|l]ої#! селянської родини.\\n\\nЯкщо ми поріднимося з місцевими, це безумовно піде експедиції на користь."
+ },
+ "exploration_monthly.11.title": {
+  "en": "[ROOT.GetExploration.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "exploration_monthly.12.a": {
+  "en": "Fruity liquor? Did you bring some back?",
+  "uk": "Фруктова настоянка? А ще залишилось?"
+ },
+ "exploration_monthly.12.desc": {
+  "en": "One of our expedition members—[target_character.GetName], of all people!—managed to get [target_character.GetHerselfHimself] into a dreadfully embarrassing situation when [target_character.GetHeShe] overestimated [target_character.GetHisHer] own capability of handling the fruity liquor the natives of [ROOT.GetExploration.GetLocation.GetName] brew.\\n\\nDisgusting details will not make it into this report, but [target_character.GetHeShe] was sick as a pig for a long time. The natives thought it fun, laughing at [target_character.GetHisHer] misery, but the rumors of this event has reached the ears of the high socialites in [ROOT.GetExploration.GetOwner.GetName] who frown upon such behavior.",
+  "uk": "Ніхто не очікував, що [Select_CString(target_character.IsFemale,'одна з учасниць', 'один з учасників')] нашої експедиції, [target_character.GetName], потрапить у жахливо незручну ситуацію. Переоцінивши свої здібності, [Select_CString(target_character.IsFemale,'вона перепила', 'він перепив')] фруктової настоянки, приготовленої жителями [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [ROOT.GetExploration.GetLocation.GetName].\\n\\nЯкщо опустити огидні подробиці, [target_character.GetName] довго [Select_CString(target_character.IsFemale,'була п'яна', 'був п'яний')] у стельку. Місцевих жителів розвеселив [Select_CString(target_character.IsFemale,'її', 'його')] жалюгідний вигляд, але представники місцевого вищого суспільства #ONCLICK:COUNTRY,[ROOT.GetExploration.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetExploration.GetOwner.Custom('CL_tt')],X [ROOT.GetExploration.GetOwner.Custom('CL_RP')|L]#!#!, дізнавшись про цю пригоду, були незадоволені [Select_CString(target_character.IsFemale,'її', 'його')] поведінкою."
+ },
+ "exploration_monthly.12.title": {
+  "en": "Drunken Explorer",
+  "uk": "П'яний дослідник"
+ },
+ "exploration_monthly.16.a": {
+  "en": "$common_string_it_belongs_in_a_museum$",
+  "uk": ""
+ },
+ "exploration_monthly.16.desc": {
+  "en": "After being invited to a local religious site in [ROOT.GetExploration.GetLocation.GetName], [target_character.GetName]'s greed got the better of [target_character.GetHimHer].\\n\\nThe moment the [pop.GetReligion.GetName] priests looked away, [target_character.GetHeShe] slid their cherished artifact into [target_character.GetHisHer] jacket, and hurried away before they even knew [target_character.GetHeShe] had gone.",
+  "uk": "Удостоївшись честі відвідати культове місце в районі [ROOT.GetExploration.GetLocation.GetName], [target_character.GetName] не [Select_CString(target_character.IsFemale,'змогла', 'зміг')] приборкати свою жадібність.\\n\\nЯк тільки місцеві жерці відвернулися, [Select_CString(target_character.IsFemale,'вона засунула', 'він засунув')] цінний артефакт собі в кишеню і [Select_CString(target_character.IsFemale,'втекла', 'втік')] перш, ніж жерці схаменулися."
+ },
+ "exploration_monthly.16.title": {
+  "en": "Temple Raider",
+  "uk": "Розкрадач храмів"
+ },
+ "exploration_monthly.17.a": {
+  "en": "Sightseeing is always best with locals!",
+  "uk": "Огляд визначних пам'яток з місцевими жителями — що може бути краще!"
+ },
+ "exploration_monthly.17.desc": {
+  "en": "A kindly group of [pop.GetCulture.GetName] hunters has helped [target_character.GetName]'s expedition of [ROOT.GetExploration.GetArea.GetName] by ferrying [target_character.GetHisHer] party around in curious rowboats up and down the rivers and coastlines.",
+  "uk": "Дружелюбні #L [POP.GetCulture.GetName|l]і#! мисливці допомогли нашим людям, які досліджують область [ROOT.GetExploration.GetArea.GetName]: [target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда прокатилися на незвичайних човнах по річках та узбережжю."
+ },
+ "exploration_monthly.17.title": {
+  "en": "Riverboat Ride",
+  "uk": "Річкова прогулянка"
+ },
+ "exploration_monthly.18.a": {
+  "en": "We have lost a lot of time...",
+  "uk": "Ми втратили стільки часу…"
+ },
+ "exploration_monthly.18.desc": {
+  "en": "After several days of low winds, the expedition has barely made any progress through [ROOT.GetExploration.GetArea.GetName]. [target_character.GetName] prays that the winds flare up again soon.",
+  "uk": "Вітер ледве дме вже кілька днів поспіль, і експедиція в області [ROOT.GetExploration.GetArea.GetName] майже не просунулася. [target_character.GetName] молиться, щоб вітер швидше посилився."
+ },
+ "exploration_monthly.18.title": {
+  "en": "Becalmed",
+  "uk": "Штиль"
+ },
+ "exploration_monthly.19.a": {
+  "en": "This will surely advance the natural sciences.",
+  "uk": "Безсумнівно, це допоможе розвитку природничих наук."
+ },
+ "exploration_monthly.19.b": {
+  "en": "We are subject to the requirements of the service.",
+  "uk": "Ми повинні дотримуватися умов служби."
+ },
+ "exploration_monthly.19.desc": {
+  "en": "While traveling through [ROOT.GetExploration.GetArea.GetName], our explorer—the natural scientist [target_character.GetName]—claims [target_character.GetHeShe] has made a significant discovery regarding the native flora.\\n\\nIt is unclear right now exactly what it is, but one thing that is certain is that [target_character.GetHeShe] needs much more time to write a full report.",
+  "uk": "Подорожуючи по області [ROOT.GetExploration.GetArea.GetName], [Select_CString(target_character.IsFemale,'наша дослідниця', 'наш дослідник')] — натураліст [target_character.GetName] — стверджує, що [Select_CString(target_character.IsFemale,'зробила', 'зробив')] важливе відкриття, пов'язане з місцевою флорою.\\n\\nПоки незрозуміло, в чому саме воно полягає. Ясно одне: [Select_CString(target_character.IsFemale,'їй', 'йому')] потрібно набагато більше часу, щоб скласти детальний звіт."
+ },
+ "exploration_monthly.19.title": {
+  "en": "Natural Discovery",
+  "uk": "Природне відкриття"
+ },
+ "exploration_monthly.2.a": {
+  "en": "See if some tawdry trinkets will placate the natives.",
+  "uk": "Спробуємо задобрити місцевих жителів яскравими дрібничками."
+ },
+ "exploration_monthly.2.b": {
+  "en": "Get back there, kill the natives, and take their gold!",
+  "uk": "Повернемося, вб'ємо місцевих і заберемо їхнє золото!"
+ },
+ "exploration_monthly.2.desc": {
+  "en": "Our expedition encountered hostile natives from [ROOT.GetExploration.GetLocation.GetName] which led them to flee from the location.\\n\\nA few sailors disembarked to find fresh water and were returning to the ship when five [pop.GetCulture.GetName] canoes with armed men appeared.\\n\\nThe [ROOT.GetExploration.GetOwner.GetAdjective] crew turned their boat around and raced back to the boat with the canoes just behind. One of the canoes nearly caught up with the boat, but as the men prepared for a fight, the canoe slowed down to wait for the others.\\n\\nThe ship escaped, but some of the crew were wounded. A poisoned arrow had hit one of the men in the leg, and although the wound was disinfected with urine and olive oil, we do not know if the man will survive.",
+  "uk": "Зустрівши ворожих місцевих жителів у [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [ROOT.GetExploration.GetLocation.GetName], наша експедиція була змушена покинути ці землі.\\n\\nКілька моряків зійшли на берег у пошуках прісної води і вже поверталися на борт, коли шлях їм перегородили п'ять #L [pop.GetCulture.GetName|l]их#! каное з озброєними людьми.\\n\\n#L [ROOT.GetExploration.GetOwner.GetAdjective|U]а#! команда розвернула човен і поспішила назад до корабля, але місцеві жителі кинулися в погоню. Одне каное майже наздогнало човен, але наші люди вже приготувалися до бою, і ворог не наважився битися без підмоги.\\n\\nКорабель втік від погоні, але кілька членів екіпажу були поранені. Одному з наших людей влучила в ногу отруєна стріла. Ми обробили рану сечею та оливковою олією, але не знаємо, чи виживе він."
+ },
+ "exploration_monthly.2.title": {
+  "en": "Hostile Natives",
+  "uk": "Ворожі місцеві жителі"
+ },
+ "exploration_monthly.20.a": {
+  "en": "[target_character.GetHisHer|U] instinct has never failed us yet.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її', 'Його')] інтуїція нас ніколи не підводила."
+ },
+ "exploration_monthly.20.b": {
+  "en": "Spirits's voices? Preposterous.",
+  "uk": "Голоси духів? Що за дурниці."
+ },
+ "exploration_monthly.20.desc": {
+  "en": "While traveling through [ROOT.GetExploration.GetArea.GetName], there were doubts among the expedition members about the ability of explorer [target_character.GetName] to properly find [target_character.GetHisHer] way around. Even the native [pop.GetCulture.GetName] in [ROOT.GetExploration.GetLocation.GetName] claimed that their ancestral spirits warned them against [target_character.GetNameWithNoTooltip]'s current direction.\\n\\n[target_character.GetHeShe|U] obviously dismissed such nonsensical claims at first, but [target_character.GetHeShe] woke up after last night claiming that the spirits themselves came to visit [target_character.GetHimHer] during the night, as [target_character.GetHeShe] heard voices instructing [target_character.GetHimHer] to change [target_character.GetHisHer] current route. [target_character.GetHeShe|U] says [target_character.GetHeShe] can not deny the signs any longer, but claims that extra funds will be needed to pursue that route, as it is more difficult and will need extra supplies and equipment.",
+  "uk": "Подорожуючи по області [ROOT.GetExploration.GetArea.GetName], учасники експедиції почали сумніватися, чи зможе [target_character.GetName] знайти потрібний шлях. Навіть #L [POP.GetCulture.GetName|l]і#! жителі з району [ROOT.GetExploration.GetLocation.GetName] заявляли, що духи їхніх предків застерігали експедицію йти нинішнім маршрутом.\\n\\nЗвичайно, спочатку [target_character.GetName] [Select_CString(target_character.IsFemale,'відкинула', 'відкинув')] цю нісенітницю, але сьогодні [Select_CString(target_character.IsFemale,'вона прокинулася', 'він прокинувся')] посеред ночі і [Select_CString(target_character.IsFemale,'розповіла', 'розповів')], що [Select_CString(target_character.IsFemale,'їй', 'йому')] явилися ті самі духи. [Select_CString(target_character.IsFemale,'Вона', 'Він')] заявляє, що голоси радили [Select_CString(target_character.IsFemale,'їй', 'йому')] змінити шлях і ігнорувати знаки більше не можна. Однак, за [Select_CString(target_character.IsFemale,'її', 'його')] словами, експедиції потрібно більше грошей на новий маршрут: він складніший і потребуватиме більше припасів та спорядження."
+ },
+ "exploration_monthly.20.title": {
+  "en": "Voices in the Night",
+  "uk": "Голоси в ночі"
+ },
+ "exploration_monthly.21.a": {
+  "en": "Fund the dictionary.",
+  "uk": "Дамо грошей на створення словника."
+ },
+ "exploration_monthly.21.b": {
+  "en": "There is no need.",
+  "uk": "У цьому немає потреби."
+ },
+ "exploration_monthly.21.b.tt": {
+  "en": "[translator.GetName] will join our court",
+  "uk": "[translator.GetName] приєднається до нашого двору"
+ },
+ "exploration_monthly.21.c": {
+  "en": "That translator could be useful at home.",
+  "uk": "Перекладач знадобиться нам вдома."
+ },
+ "exploration_monthly.21.desc": {
+  "en": "The exploration in [ROOT.GetExploration.GetArea.GetName] has been stalled for some time, but recently the camp of [ROOT.GetExploration.GetCharacter.GetName] was approached by a member of the [pop.GetCulture.GetName], speaking in a somewhat broken but understandable [ROOT.GetExploration.GetOwner.GetCulture.GetLanguage.GetName]. [translator.GetHeShe|U] says that a [ROOT.GetExploration.GetOwner.GetCulture.GetName] person visited [translator.GetHisHer] village many years ago when [translator.GetHeShe] was little, and managed to learn the language then. [translator.GetHeShe|U] offers to help establish further contact with [translator.GetHisHer] people, and adds that [translator.GetHeShe] can also help create a dictionary of [translator.GetHisHer] language, claiming that it would be a very useful tool to have.",
+  "uk": "[ROOT.GetExploration.GetCharacter.GetName] і [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'її', 'його')] люди затрималися в області [ROOT.GetExploration.GetArea.GetName], не просуваючись вперед. Однак нещодавно до табору [Select_CString(translator.IsFemale,'прийшла', 'прийшов')] #L [pop.GetCulture.GetName|l][Select_CString(translator.IsFemale,'а', 'ий')]#! [Select_CString(translator.IsFemale,'жителька, яка говорить', 'житель, який говорить')] ламаною, але зрозумілою #L [ROOT.GetExploration.GetOwner.GetCulture.GetLanguage.GetName|l]ою#! мовою. [Select_CString(translator.IsFemale,'Вона розповіла', 'Він розповів')], що в [Select_CString(translator.IsFemale,'її', 'його')] дитинстві село відвідав #L [ROOT.GetExploration.GetOwner.GetCulture.GetName|l]ий#! мандрівник, який навчив [Select_CString(translator.IsFemale,'її', 'його')] своєї мови. [Select_CString(translator.IsFemale,'Вона', 'Він')] пропонує допомогти нам налагодити контакт з місцевими жителями, а також скласти словник місцевої мови. За [Select_CString(translator.IsFemale,'її', 'його')] словами, такий словник нам дуже знадобиться."
+ },
+ "exploration_monthly.21.title": {
+  "en": "Gifted Translator",
+  "uk": "Талановитий перекладач"
+ },
+ "exploration_monthly.22.a": {
+  "en": "Make sail!",
+  "uk": "Підняти вітрила!"
+ },
+ "exploration_monthly.22.desc": {
+  "en": "While sailing through [ROOT.GetExploration.GetArea.GetName], the ships of [target_character.GetName] were caught up in a furious storm. What could have ended in tragedy turned instead to be a miraculous stroke of good luck, as when the skies cleared they discovered that not only they had lost no ships in that but also that the winds had pushed them way further ahead in the course than expected. The sails were completely ripped in the process and they were forced to use the replacement ones, but the advancement in the planned schedule was definitely worth it.",
+  "uk": "Пропливаючи повз область [ROOT.GetExploration.GetArea.GetName], [target_character.GetName] зі своєю експедицією [Select_CString(target_character.IsFemale,'потрапила', 'потрапив')] у жахливий шторм. Однак стихія обернулася для них не трагедією, а неймовірною удачею. Коли небо прояснилося, вони виявили, що не тільки не втратили жодного корабля, але й просунулися наміченим маршрутом набагато далі, ніж очікувалося. Щоправда, вітрила виявилися зовсім порвані, і їх довелося замінити. Але шлях, пройдений так швидко, безумовно того вартував."
+ },
+ "exploration_monthly.22.title": {
+  "en": "Favorable Storm",
+  "uk": "Прихильність стихії"
+ },
+ "exploration_monthly.23.a": {
+  "en": "Let's build the watchtower.",
+  "uk": "Побудуємо оглядову вежу."
+ },
+ "exploration_monthly.23.b": {
+  "en": "There is no need.",
+  "uk": "У цьому немає потреби."
+ },
+ "exploration_monthly.23.desc": {
+  "en": "While exploring [ROOT.GetExploration.GetArea.GetName], [target_leader.GetName] found a nice hill in [target_location.GetName] with a conical top, slightly flattened at the summit. From the top [target_leader.GetHeShe] says there's a very advantageous view over all the surrounding areas. It will be a good spot to establish a camp base and serve both as a vantage point of observation as well as an easily recognizable landmark. [target_leader.GetNameWithNoTooltip] has brought to our attention that if we provide [target_leader.GetHimHer] with the resources necessary [target_leader.GetHeShe] will construct a more permanent structure there to serve as a watchtower. [target_leader.GetHeShe|U] claims that the ability to clearly see far away places from there would greatly improve [target_leader.GetHisHer] logistics.",
+  "uk": "Досліджуючи область [ROOT.GetExploration.GetArea.GetName], [target_leader.GetName] [Select_CString(target_leader.IsFemale,'знайшла', 'знайшов')] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] зручний пагорб — що звужується догори, але з плоскою вершиною. Піднявшись нагору, [Select_CString(target_leader.IsFemale,'вона розповіла', 'він розповів')], що звідти відкривається вид на всі навколишні землі. Тут було б непогано розбити табір: пагорб слугуватиме зручним оглядовим майданчиком і легко помітний з рівнини. [target_leader.GetNameWithNoTooltip] [Select_CString(target_leader.IsFemale,'сказала', 'сказав')], що якщо ми дамо [Select_CString(target_leader.IsFemale,'їй', 'йому')] потрібні ресурси, [Select_CString(target_character.IsFemale,'вона', 'він')] зведе на пагорбі ґрунтовну споруду, яка слугуватиме оглядовою вежею. За [Select_CString(target_leader.IsFemale,'її', 'його')] словами, можливість спостерігати за віддаленими місцями суттєво покращить логістику."
+ },
+ "exploration_monthly.23.title": {
+  "en": "Hill of the Wind",
+  "uk": "Високий пагорб"
+ },
+ "exploration_monthly.24.a": {
+  "en": "The Mutt's Mutters Matter",
+  "uk": "Собака гавкає недарма."
+ },
+ "exploration_monthly.24.a.tt": {
+  "en": "[explorer.GetNameWithNoTooltip] will keep the dog as a pet, and follow its directions",
+  "uk": "[explorer.GetNameWithNoTooltip] залишить собаку собі і подивиться, куди він нас заведе"
+ },
+ "exploration_monthly.24.b": {
+  "en": "Who's a good boy?",
+  "uk": "Який гарний песик!"
+ },
+ "exploration_monthly.24.b.tt": {
+  "en": "[explorer.GetNameWithNoTooltip] will pet the dog. Perhaps a bit too much",
+  "uk": "[explorer.GetNameWithNoTooltip] погладить собаку — можливо, трохи довше, ніж потрібно"
+ },
+ "exploration_monthly.24.desc": {
+  "en": "[explorer.GetName] got a nice surprise while exploring [ROOT.GetExploration.GetArea.GetName]. A dog started appearing recently around [explorer.GetHisHer] camp, and seems quite friendly. The dog barks constantly but seems to be doing it more for grabbing [explorer.GetNameWithNoTooltip]'s attention rather than as a threat, as it can be approached by anyone without a problem. It seems to be trying to guide the expedition through a certain path, but at the end of the day it is just a dog, right?",
+  "uk": "Досліджуючи область [ROOT.GetExploration.GetArea.GetName], [explorer.GetName] [Select_CString(explorer.IsFemale,'зустріла', 'зустрів')] цікавого місцевого жителя. Нещодавно до табору став приходити собака — на вигляд досить дружелюбний. Він постійно гавкає, але, схоже, не становить загрози, а лише хоче привернути до себе увагу. Тварина без проблем дозволяє до себе наблизитися і ніби намагається показати учасникам експедиції якийсь шлях. Це ж просто собака — невже таке можливо?"
+ },
+ "exploration_monthly.24.title": {
+  "en": "A Friendly Dog",
+  "uk": "Добродушний собака"
+ },
+ "exploration_monthly.25.a": {
+  "en": "It is beyond human hands, we must trust a higher force.",
+  "uk": "Це не в нашій владі — залишається сподіватися на вищі сили."
+ },
+ "exploration_monthly.25.b": {
+  "en": "There must be something we can do, try everything.",
+  "uk": "Бездіяльність нас згубить — спробуємо зробити хоч щось."
+ },
+ "exploration_monthly.25.desc": {
+  "en": "[target_explorer.GetName] and [target_explorer.GetHerHis] ship have been stuck in the open sea of [ROOT.GetExploration.GetArea.GetName] for a while, no wind nor current to propel them. Supplies are starting to run low, and the crew is becoming more and more agitated. Some of the animals they got with them have already been either eaten or thrown overboard, to alleviate the strain on water and rations. If nothing is done, who knows how much longer they can survive.",
+  "uk": "[target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда потрапили в повний штиль посеред моря, де не було навіть течії. Припаси закінчуються, і роздратування екіпажу зростає з кожним днем. Деякі тварини, яких команда взяла з собою, вже з'їдені або викинуті за борт, щоб впоратися з нестачею води та їжі. Якщо нічого не зміниться, смерть екіпажу стане лише питанням часу."
+ },
+ "exploration_monthly.25.title": {
+  "en": "The Calmest Sea",
+  "uk": "Тихе море"
+ },
+ "exploration_monthly.26.a": {
+  "en": "It would be best if we follow it.",
+  "uk": "Краще послідуємо за птахом."
+ },
+ "exploration_monthly.26.b": {
+  "en": "Seagulls only go out to sea to die, right?",
+  "uk": "Чайки нерідко гинуть у морі, хіба ні?"
+ },
+ "exploration_monthly.26.desc": {
+  "en": "The monotonous sailing of [target_explorer.GetName] and [target_explorer.GetHerHis] ship in [ROOT.GetExploration.GetArea.GetName] has remained unchanged for a while. With no weather changes nor any alteration to the appearance of the surrounding sea, the crew is starting to question whether they are actually moving at all. In the last sunrise, those on deck were surprised to see a seagull flying over the vessel, seemingly trying to guide them to the nearest land. Some of the crew say that it is an obvious indication of the presence of land nearby, and want to alter the course of the ship to follow it there, to break boredom at least if not to resupply.",
+  "uk": "[target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда вже кілька днів монотонно пливуть десь в області [ROOT.GetExploration.GetArea.GetName]. Не змінюється ні погода, ні вигляд безкраїнього моря навколо, і екіпаж вже почав задаватися питанням, чи рухається корабель взагалі. Але вчора на заході сонця над палубою стала кружляти чайка, ніби намагаючись показати команді шлях до найближчої землі. Деякі члени екіпажу вважають птаха явною ознакою того, що десь поряд і справді земля. Вони хочуть змінити курс і послідувати за чайкою, щоб поповнити припаси або хоча б розвіяти нудьгу."
+ },
+ "exploration_monthly.26.title": {
+  "en": "A Guiding Bird",
+  "uk": "Птах, що вказує шлях"
+ },
+ "exploration_monthly.27.a": {
+  "en": "'Tis the plank for you!",
+  "uk": "Повісити заколотників на реях!"
+ },
+ "exploration_monthly.27.b": {
+  "en": "Improve the crew's conditions.",
+  "uk": "Покращимо умови для екіпажу."
+ },
+ "exploration_monthly.27.c": {
+  "en": "Resolve the situation diplomatically.",
+  "uk": "Вирішимо конфлікт шляхом переговорів."
+ },
+ "exploration_monthly.27.d": {
+  "en": "If you want a bloodbath, you will have it.",
+  "uk": "Хочете крові? Ви її отримаєте."
+ },
+ "exploration_monthly.27.desc": {
+  "en": "Tensions between [target_explorer.GetName] and [target_explorer.GetHerHis] crew have been recently on the rise. The general discontent towards [target_explorer.GetShortNameWithNoTooltip]'s leadership has been coagulating more and more, manifesting in sneaky conversations under the deck and piercing glances across it. [target_explorer.GetHerHis|U] apparent disregard of the situation has proven to be [target_explorer.GetHerHis] downfall, as the crew have finally organized themselves and organized a full-blown mutiny.",
+  "uk": "Останнім часом [target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда сперечаються все більше і більше. Серед екіпажу зростає впевненість у тому, що [target_explorer.GetShortNameWithNoTooltip] не годиться на роль лідера експедиції. Моряки шепочуться в каютах і кидають злобні погляди, коли [target_explorer.GetName] проходить повз по палубі. [Select_CString(target_character.IsFemale,'Сама', 'Сам')] [target_explorer.GetName] ніби не помічає, що ситуація загострилася, і це ще більше злить команду. Врешті-решт екіпаж наважився на справжній бунт."
+ },
+ "exploration_monthly.27.title": {
+  "en": "Mutiny!",
+  "uk": "Заколот!"
+ },
+ "exploration_monthly.28.a": {
+  "en": "Let them have some fun.",
+  "uk": "Хай розважаються."
+ },
+ "exploration_monthly.28.b": {
+  "en": "As long as they are still doing their work.",
+  "uk": "Головне, щоб вони встигали виконувати свою роботу."
+ },
+ "exploration_monthly.28.c": {
+  "en": "Completely forbid any fishing game.",
+  "uk": "Суворо заборонимо рибальські змагання."
+ },
+ "exploration_monthly.28.desc": {
+  "en": "The crew sailing in [ROOT.GetExploration.GetArea.GetName] have recently developed a very curious distraction. It is quite common for sailors to do some fishing while at sea to supply themselves with some extra food, but those accompanying [target_explorer.GetName] have cultivated that to the point of devising a whole game around that activity.\\n\\nThey keep scores not only depending on the number of fish each one has captured, but also on their sizes, and even the exact type of fish. Different species grant different amounts of points, though not always the bigger fish is the most valuable. They keep a board on deck in which they track the score of each player, and do a full tally at the end of the week. The fisherman with the highest score will get preference when picking rations during the following week.\\n\\nWhile keeping the crew's morale high is important, it is undeniable that they are dedicating more time than they should to such frivolous activities, and the overall functioning of the expedition may get affected.",
+  "uk": "Борознячи море в області [ROOT.GetExploration.GetArea.GetName], команда знайшла собі цікаву розвагу. Моряки нерідко риболовлять на борту, щоб здобути більше їжі, але [target_explorer.GetName] [Select_CString(target_character.IsFemale,'виявила', 'виявив')], що [Select_CString(target_character.IsFemale,'її', 'його')] екіпаж придумав справжню рибальську гру.\\n\\nВони ведуть особистий рахунок залежно від кількості, розміру і навіть виду спійманої риби. За різні види риб нараховується різна кількість очок, причому більша риба не завжди вважається ціннішою. Моряки обладнали на палубі дошку, де записують рахунок кожного гравця, а наприкінці тижня оголошуються підсумки змагання. Рибалка, який набрав найбільше очок, отримує право на кращий пайок протягом наступного тижня.\\n\\nГарний настрій екіпажу неймовірно важливий, але команда витрачає на порожні розваги більше часу, ніж хотілося б. Це може позначитися на успіху всієї експедиції."
+ },
+ "exploration_monthly.28.title": {
+  "en": "Fishing Game",
+  "uk": "Рибальська гра"
+ },
+ "exploration_monthly.29.a": {
+  "en": "Have those lessons.",
+  "uk": "Проведемо уроки."
+ },
+ "exploration_monthly.29.b": {
+  "en": "It is a waste of time.",
+  "uk": "Це марна трата часу."
+ },
+ "exploration_monthly.29.desc": {
+  "en": "While exploring the coastline in [ROOT.GetExploration.GetArea.GetName], an issue has been brought up to [target_explorer.GetName]. Despite being at sea a lot, it is not uncommon for sailors to not know how to swim, and on the contrary, they are usually quite familiar with the disgusting sight of drowned corpses. As such, the fear of drowning is almost ever-present in any sailor.\\n\\nTo be able to manage it, and considering that the beaches of [ROOT.GetExploration.GetArea.GetNameWithNoTooltip] offer a prime opportunity for safe swimming practice, one of the crew members who knows how to swim has offered [target_explorer.GetShortNameWithNoTooltip] the possibility of organizing swimming lessons for the crew. Despite the obvious and expected delays in the progress of the expedition, those lessons would ensure the safety, at least of mind, of the crew.",
+  "uk": "Досліджуючи узбережжя в області [ROOT.GetExploration.GetArea.GetName], [target_explorer.GetName] [Select_CString(target_character.IsFemale,'зіткнулася', 'зіткнувся')] з проблемою. Моряки проводять серед води багато часу, але часто не вміють плавати. Навпаки, огидний вигляд утопленників став для них настільки звичним видовищем, що майже кожен моряк боїться потонути.\\n\\nЗ цим треба щось робити. Пляжі в області [ROOT.GetExploration.GetArea.GetNameWithNoTooltip] якраз підходять для безпечного навчання плаванню, і один з учасників команди запропонував влаштувати уроки плавання для екіпажу. Звичайно, це сповільнить експедицію, але вміння плавати добре позначиться на безпеці та душевному спокої наших людей."
+ },
+ "exploration_monthly.29.title": {
+  "en": "Swimming Lessons",
+  "uk": "Уроки плавання"
+ },
+ "exploration_monthly.3.a": {
+  "en": "Accept their primitive traditions.",
+  "uk": "Поважимо їхні примітивні звичаї."
+ },
+ "exploration_monthly.3.b": {
+  "en": "Stay clear of them and do not make landfall!",
+  "uk": "Триматися від них подалі і не сходити на берег!"
+ },
+ "exploration_monthly.3.desc": {
+  "en": "As our ship approaches [ROOT.GetExploration.GetLocation.GetName], large numbers of gift-laden canoes start to follow it. The canoes' occupants have fearlessly boarded the vessel and two seemingly important fellows are trying to persuade [ROOT.GetExploration.GetCharacter.GetName] to follow them to [tribal_nation.GetCapital.GetName].\\n\\nTheir intentions seem innocent, and our translators can pick out that we have arrived just in time for some sort of local festival.\\n\\nOur ship's mast formation, sails, and rigging resemble certain significant artifacts for the natives, and our clockwise route around the island mirrored the path that their processions take during this festival. This has convinced the natives that we are friendly—but one false move and it might change...",
+  "uk": "Коли наш корабель прибув до [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [ROOT.GetExploration.GetLocation.GetName], за ним послідувало безліч каное, переповнених дарунками. Місцеві жителі без жодного страху піднялися на судно, і двоє людей важливого вигляду намагаються переконати нас, що [ROOT.GetExploration.GetCharacter.GetName] [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'повинна', 'повинен')] послідувати за ними до [tribal_nation.GetCapital.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [tribal_nation.GetCapital.GetName].\\n\\nСхоже, вони не замислюють нічого поганого. Наші перекладачі зрозуміли, що ми прибули якраз під час якогось місцевого свята.\\n\\nЩогли, вітрила та оснащення нашого корабля нагадують важливі місцеві артефакти, а наш маршрут навколо острова виявився точно таким же, як і маршрут місцевої святкової процесії. Все це переконало жителів у тому, що ми прибули з добрими намірами. Але один невірний крок може все зіпсувати…"
+ },
+ "exploration_monthly.3.title": {
+  "en": "Stranger in a Strange Land",
+  "uk": "Чужинці на чужій землі"
+ },
+ "exploration_monthly.30.a": {
+  "en": "They will sure bring us luck.",
+  "uk": "Вони неодмінно принесуть нам удачу."
+ },
+ "exploration_monthly.30.b": {
+  "en": "It will be easy to hunt them for meat.",
+  "uk": "Їх буде легко зловити — м'ясо зайвим не буває."
+ },
+ "exploration_monthly.30.desc": {
+  "en": "The crew exploring [ROOT.GetExploration.GetArea.GetName] has gotten a pleasant surprise. A school of dolphins has started following the wake of the ship, accompanying her as she sails. While it is not uncommon for dolphins to swim along ships, this particular school has been following the expedition for an unusual amount of time, being all around the ship for days long already. The sailors are starting even to be able to identify individual members of the school and to name them.",
+  "uk": "В області [ROOT.GetExploration.GetArea.GetName] ми стали свідками красивого видовища — корабель стала супроводжувати зграя дельфінів. Дельфіни нерідко слідують за суднами, але ця зграя не відстає від нас досить довгий час. Уже кілька днів дельфіни пливуть поряд з нами, моряки вже стали впізнавати окремих тварин і давати їм прізвиська."
+ },
+ "exploration_monthly.30.title": {
+  "en": "Dolphins in [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]",
+  "uk": "Дельфіни в області [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]"
+ },
+ "exploration_monthly.31.a": {
+  "en": "Sirens? That is just nonsense.",
+  "uk": "Сирени? Що за дурниці."
+ },
+ "exploration_monthly.31.b": {
+  "en": "We must be careful with those sea creatures.",
+  "uk": "Цих морських істот треба остерігатися."
+ },
+ "exploration_monthly.31.c": {
+  "en": "We must investigate the source.",
+  "uk": "Потрібно знайти джерело звуку."
+ },
+ "exploration_monthly.31.d": {
+  "en": "It is probably just some whales, let's hunt them.",
+  "uk": "Мабуть, це кити — давайте поохотимося на них."
+ },
+ "exploration_monthly.31.desc": {
+  "en": "Unusual rumors have been plaguing [target_explorer.GetName]'s crew for some days, the sailors swear that they have been recently hearing songs in the distance at night. Despite being at open sea far away from shore, these reports keep coming night after night, and even those sailors who had not drunk a drop of alcohol stated having heard the songs. According to them, it is a high-pitched continuous melody, without any discernable words in it but unmistakably feminine in origin. They assure it is caused by sirens that are following the ship in hopes of luring the crew to their certain death. As such, they suggest getting back to port before they can get hold of the ship.",
+  "uk": "[target_explorer.GetName] [Select_CString(target_character.IsFemale,'звернула', 'звернув')] увагу, що серед команди вже кілька днів ходять незвичайні чутки. Моряки клянуться, що вночі здалеку долинає спів. Незважаючи на те, що ми знаходимося дуже далеко від берега, екіпаж день у день повідомляє про нічний спів. Його стали чути навіть моряки, які не випили ні краплі спиртного. За їхніми словами, це ніжна протяжна мелодія, і хоча її слова розібрати неможливо, голос явно жіночий. Команда запевняє, що це сирени слідують за судном, ведучи нас до неминучої загибелі. Вони пропонують повернутися в порт, поки сирени не заволоділи кораблем."
+ },
+ "exploration_monthly.31.title": {
+  "en": "Siren Song",
+  "uk": "Пісня сирен"
+ },
+ "exploration_monthly.32.a": {
+  "en": "Let us pray that we are still on course.",
+  "uk": "Залишається молитися, що ми не збилися з курсу."
+ },
+ "exploration_monthly.32.b": {
+  "en": "[target_explorer.GetNameWithNoTooltip] knows exactly where we are.",
+  "uk": "[target_explorer.GetNameWithNoTooltip] точно знає, де ми."
+ },
+ "exploration_monthly.32.desc": {
+  "en": "[target_explorer.GetName]'s expedition in [ROOT.GetExploration.GetArea.GetName] has found some difficulties in the past few days. These last nights the sky has been completely covered in a thick layer of clouds, making it impossible to discern any star or even the moon. Although it is quite a common occurrence, the fact that there have been many nights like this in succession makes it difficult for the crew to say for sure if their position is where they think it is. The ship is equipped with the latest navigation technology, but even with that sailing through the night without the help and guidance of the stars is no simple task.",
+  "uk": "Останніми днями [target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] експедиція зіткнулися з труднощами в області [ROOT.GetExploration.GetArea.GetName]. Вночі небо повністю ховалося за товстим шаром хмар, через які не було видно ні зірок, ні місяця. Така погода — не рідкість, але настільки сильна хмарність багато ночей поспіль не дозволяє команді визначити своє місцезнаходження. Корабель оснащений найкращими засобами навігації, але все одно подорож вночі без допомоги зірок — вельми непросте завдання."
+ },
+ "exploration_monthly.32.title": {
+  "en": "Cloudy Night",
+  "uk": "Похмура ніч"
+ },
+ "exploration_monthly.33.a": {
+  "en": "Gladly, we will appreciate better maps.",
+  "uk": "Ми будемо тільки раді гарним картам."
+ },
+ "exploration_monthly.33.b": {
+  "en": "It is too expensive.",
+  "uk": "Це занадто затратно."
+ },
+ "exploration_monthly.33.desc": {
+  "en": "[target_explorer.GetName]'s expedition in [ROOT.GetExploration.GetArea.GetName] is proceeding as planned, but [target_explorer.GetSheHe] thinks that [target_explorer.GetHerHis] aptitudes in mapmaking are not being fully utilized. [target_explorer.GetSheHe|U] has sent us a petition to improve [target_explorer.GetHerHis] funding, so that [target_explorer.GetSheHe] can provide us in turn with better and more detailed maps.",
+  "uk": "[target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда досліджують область [ROOT.GetExploration.GetArea.GetName]. Експедиція йде за планом, але [Select_CString(target_character.IsFemale,'їй', 'йому')] здається, що [Select_CString(target_character.IsFemale,'її', 'його')] вміння складати карти не використовується належним чином. [target_explorer.GetName] просить нас збільшити [Select_CString(target_character.IsFemale,'їй', 'йому')] утримання, а натомість обіцяє скласти більш детальні карти."
+ },
+ "exploration_monthly.33.title": {
+  "en": "Cartographer on Board",
+  "uk": "Картограф на кораблі"
+ },
+ "exploration_monthly.34.a": {
+  "en": "Best to go around them.",
+  "uk": "Краще обійдемо скелі."
+ },
+ "exploration_monthly.34.b": {
+  "en": "We sail through it, we can fix any damage afterward.",
+  "uk": "Пропливемо прямо, а потім відремонтуємо судно."
+ },
+ "exploration_monthly.34.desc": {
+  "en": "While exploring [ROOT.GetExploration.GetArea.GetName], [target_explorer.GetName]'s ship has found a section of coastline that is filled with low-lying sharp rocks. Although they could be easily avoided, that would result in having to divert the course quite a bit to sail around them, consequently delaying the expedition. However, it is quite unlikely that the ship would manage to emerge unscathed if forced to sail through such dangerous waters.",
+  "uk": "Коли [target_explorer.GetName] [Select_CString(target_character.IsFemale,'досліджувала', 'досліджував')] область [ROOT.GetExploration.GetArea.GetName], на шляху зустрілося узбережжя, всіяне низькими гострими скелями. Їх можна легко обігнути — щоправда, для цього доведеться сильно відхилитися від курсу, через що експедиція затягнеться. Але якщо слідувати маршруту, корабель навряд чи залишиться неушкодженим, пройшовши через таку небезпечну ділянку."
+ },
+ "exploration_monthly.34.title": {
+  "en": "Dangerous Rocks",
+  "uk": "Небезпечні скелі"
+ },
+ "exploration_monthly.35.a": {
+  "en": "Who knows what we can find there, better investigate.",
+  "uk": "Хто знає, що ми там знайдемо? Краще оглянемо місце аварії."
+ },
+ "exploration_monthly.35.b": {
+  "en": "We do not have time for this.",
+  "uk": "У нас немає на це часу."
+ },
+ "exploration_monthly.35.desc": {
+  "en": "An unexpected sight has appeared before [target_explorer.GetName]'s ship in [ROOT.GetExploration.GetArea.GetName]. Remnants of an old ship lay scattered on the beach, proof of the mercilessness of the sea. Some parts of the hull appear to be still intact, and some of the crew argue it warrants a closer inspection to salvage any goods it may contain. However, it is unlikely that it has anything of actual value, and delaying the whole expedition for that could result in just a tremendous waste of time.",
+  "uk": "В області [ROOT.GetExploration.GetArea.GetName] [target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда натрапили на несподівану картину. По пляжу були розкидані уламки старого корабля — мовчазне свідчення безжальності моря. Схоже, деякі частини корпусу залишилися цілі. Деякі члени екіпажу пропонують ретельно оглянути їх і пошукати товари, які можна забрати. Однак на перший погляд там немає нічого цінного. Цілком ймовірно, що ми нічого не знайдемо і лише даремно затримаємо експедицію, витративши багато часу марно."
+ },
+ "exploration_monthly.35.title": {
+  "en": "Old Wreck",
+  "uk": "Уламки старого корабля"
+ },
+ "exploration_monthly.36.a": {
+  "en": "Go ashore and take the survivor on board.",
+  "uk": "Зійдемо на берег і візьмемо того, хто вижив, на борт."
+ },
+ "exploration_monthly.36.b": {
+  "en": "Not our fault, not our problem.",
+  "uk": "Ми тут ні до чого — це не наша проблема."
+ },
+ "exploration_monthly.36.desc": {
+  "en": "The shores along [ROOT.GetExploration.GetArea.GetName] appeared unremarkable as [target_explorer.GetName]'s was sailing along them, but something grabbed the crew's attention. On what was supposed to be an uninhabited shore, there rises the unmistakable sight of smoke. Where there is smoke, there is fire, so it is clear that this coast is not as uninhabited as expected. A quick inspection of the beach reveals that it is just someone who survived the shipwreck of some previous expedition and has been trying to survive alone on this beach, trying to catch the sight of any other vessel passing through, and obviously alerting them with smoke when it finally happened.",
+  "uk": "Узбережжя області [ROOT.GetExploration.GetArea.GetName] виглядало непримітно, але дещо привернуло увагу команди. Над берегом, який здавався незаселеним, піднімався дим. Помилки бути не могло — немає диму без вогню, а отже, цей берег не такий уже й незаселений. Побіжно оглянувши пляж, [target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда зрозуміли, що хтось пережив аварію попереднього експедиційного корабля. Тепер ця людина намагається вижити тут на самоті і сподівається, що повз пропливе якесь судно і помітить дим."
+ },
+ "exploration_monthly.36.title": {
+  "en": "Smoke on the Coast",
+  "uk": "Дим над узбережжям"
+ },
+ "exploration_monthly.37.a": {
+  "en": "Ghost stories are just nonsense.",
+  "uk": "Історії про привидів — всього лише небилиці."
+ },
+ "exploration_monthly.37.b": {
+  "en": "Let us be careful just in case.",
+  "uk": "На всякий випадок будемо обережні."
+ },
+ "exploration_monthly.37.desc": {
+  "en": "Tales of ghost ships have always been in the mouths and minds of sailors. Stories of spectral apparitions in the middle of the sea, ships sailing even without wind, keeping afloat despite having the hull torn asunder, crews made up of skeletons and bloated corpses. Imagination runs wild in those stories, but there are many sailors who swear to have come across such otherworldly vessels.\\n\\nSuch stories are present now even in the midst of [target_explorer.GetName]'s expedition in [ROOT.GetExploration.GetArea.GetName]. Some members of the crew mention having seen the ghostly figure of a ship following their own wake, coming into and out of sight and not being able to properly set their gaze on it. Nervousness is running rampant among the crew, who are starting to fear that Death is coming for them.",
+  "uk": "Історії про кораблі-привиди завжди хвилювали уми моряків. Люди то й справа розповідають, що посеред моря зустрічаються моторошні кораблі, які ходять навіть у штиль. Вони тримаються на плаву, незважаючи на розбитий корпус, а їхній екіпаж складається зі скелетів і роздутих утопленників. Ці легенди — справжній розгул фантазії, але багато моряків клянуться, що особисто бачили ці потойбічні судна.\\n\\nЕкспедиція в області [ROOT.GetExploration.GetArea.GetName], куди вирушили [target_explorer.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] команда, теж не залишилася без такої історії. Деякі члени екіпажу кажуть, що бачили примарний силует корабля, який слідував за експедицією. Судно то з'являлося, то зникало з виду, і роздивитися його не вдалося. Команда починає сильно нервувати і боїться, що це сама смерть йде за ними по п'ятах."
+ },
+ "exploration_monthly.37.title": {
+  "en": "Ghost Ship",
+  "uk": "Корабель-привид"
+ },
+ "exploration_monthly.38.a": {
+  "en": "[target_root_country.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "exploration_monthly.38.desc": {
+  "en": "After a long and difficult journey, one of our expeditions has returned to [target_root_country.GetName] with a miraculous message. They landed on a small island where they encountered people wearing gold ornaments and speaking in a foreign language. According to their reports, this might be an alternative route to the Indies, but some have started to discuss that it might be an entirely unknown continent. We could start establishing outposts on these islands to create a first step towards a colony and further explorations in the area.",
+  "uk": "Після довгої і важкої подорожі одна з наших експедицій повернулася на територію #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_GEN')|L]#!#! з чудовими вістями. Висадившись на невеликому острові, команда зустріла там людей, які говорили невідомою мовою і носили золоті прикраси. Судячи з повідомлень команди, це може бути новий маршрут до Індії, але дехто вважає, що експедиція виявила невідомий досі континент. Звівши форпости на островах, ми зробимо перший крок до створення колонії та подальшого дослідження цієї області."
+ },
+ "exploration_monthly.38.title": {
+  "en": "Discovery of a New World!",
+  "uk": "Ми відкрили Новий Світ!"
+ },
+ "exploration_monthly.39.a": {
+  "en": "[target_root_country.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "exploration_monthly.39.b": {
+  "en": "Get back there, now!",
+  "uk": "Назад, швидше!"
+ },
+ "exploration_monthly.39.desc": {
+  "en": "The relentless attack of a swarm of black flies has forced our brave expedition to turn back from [ROOT.GetExploration.GetLocation.GetName].\\n\\nOur explorers found a vast expanse of lowlands filled with many rivers and waterways discharging their water into a massive bay of salty water.\\n\\nTo their dismay when they came closer to the coast they were assaulted by a never-ending swarm of small black flies that would bite them and drink their blood. After many painful bites, they were forced to retreat and are now asking us to let them search for a different route forward.",
+  "uk": "Безжальний рій чорних мух змусив нашу відважну експедицію покинути [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [ROOT.GetExploration.GetLocation.GetName].\\n\\nНаші дослідники знайшли обширні рівнини з безліччю річок і струмків, що впадали у велику солону бухту.\\n\\nАле, підійшовши ближче до берега, команда жахнулася: на них напав нескінченний рій дрібних чорних мух-кровопивць. Отримавши безліч болючих укусів, наші люди були змушені відступити. Тепер вони просять дозволу прокласти інший курс, щоб просунутися далі."
+ },
+ "exploration_monthly.39.title": {
+  "en": "Hellish Insects",
+  "uk": "Прокляті комахи"
+ },
+ "exploration_monthly.4.a": {
+  "en": "This is a promising land!",
+  "uk": "Яка багатообіцяюча земля!"
+ },
+ "exploration_monthly.4.desc": {
+  "en": "The lookout had reported sporadic dwellings, but no natives, until at long last a coastal village in [ROOT.GetExploration.GetLocation.GetName] was sighted.\\n\\nA small force disembarked and was hospitably received by [native_pop.GetCulture.GetName] villagers, something that was attributed to their fascination with three [explorers_pop.GetCulture.GetName] sailors who were bearded and tall. The natives were beardless, and with some difficulty, they managed to communicate that their myths and legends foretold of a time when their bearded gods would come from the sea to visit them.\\n\\nThe natives gifted food and treasures, which indicated to [target_character.GetName] that the province is prosperous and would be of great value to us.",
+  "uk": "Дозорні повідомили, що бачили окремі споруди, але людей поряд не було. Нарешті, в районі під назвою [ROOT.GetExploration.GetLocation.GetName] ми помітили прибережне село.\\n\\nНевеликий загін зійшов на берег, і #L [native_pop.GetCulture.GetName|l]і#! жителі гостинно зустріли наших людей. Безбороді селяни явно були захоплені трьома бородатими і високими #L [explorers_pop.GetCulture.GetName|l]ими#! моряками. Їм вдалося, хоча й не без труднощів, пояснити нам причину свого захвату: виявляється, місцеві міфи та легенди кажуть, що одного дня з-за моря з'являться їхні бородаті боги.\\n\\nПо їжі та скарбах, якими нас обдарували місцеві жителі, [target_character.GetName] [Select_CString(target_character.IsFemale,'зрозуміла', 'зрозумів')], що це заможна провінція, яка могла б принести нам великий дохід."
+ },
+ "exploration_monthly.4.title": {
+  "en": "Glory Road",
+  "uk": "Славний шлях"
+ },
+ "exploration_monthly.40.a": {
+  "en": "What a time to be alive!",
+  "uk": "В який великий час ми живемо!"
+ },
+ "exploration_monthly.40.desc": {
+  "en": "Driven by the pursuit of uncharted territories and the mysteries of the unknown, explorers from [target_root_country.GetName] have arrived on distant shores. These lands are inhabited by indigenous peoples, speaking unfamiliar tongues and adorned with striking ornaments. This discovery raises more questions than answers and might alter the course of history in ways we cannot yet foresee. A new world awaits, its full potential and challenges still shrouded in mystery.",
+  "uk": "Дослідники з #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_GEN')|L]#!#!, ваблені невідомими країнами, де ще не ступала нога людини, висадилися на далеких берегах. Місцеві мешканці вражають: вони носять яскраві прикраси і розмовляють незнайомими мовами. Питань поки що більше, ніж відповідей; невідомо, як це відкриття вплине на хід історії. Новий світ кличе. Хто знає, які небезпеки та багатства він приховує?"
+ },
+ "exploration_monthly.40.historical_info": {
+  "en": "In 1492, Christopher Columbus set sail hoping to find a new route to Asia. Instead, he stumbled upon the Americas, a land already home to millions of indigenous people. This moment marked the beginning of Europe's exploration and colonization of the #italic New World#!, thus changing history forever. It brought new opportunities, but also devastation, as native populations faced conquest, disease, and cultural upheaval. This discovery is due to connect two worlds, reshaping societies and the global balance of power in unprecedented ways.",
+  "uk": "У 1492 році Христофор Колумб вирушив на пошуки нового шляху до Азії, але замість цього припливав до берегів Америки — континенту, де до європейців вже давно проживали численні корінні народи. З цього відкриття почалися дослідження та колонізація #italic Нового Світу#! — події, що назавжди змінили світ. Нові можливості, що відкрилися європейським державам, обернулися для місцевого населення стражданнями, завоюваннями, хворобами та культурними потрясіннями. Тим не менш, Старий і Новий світ тісно переплелися, а разом із суспільним укладом змінився й світовий розклад сил."
+ },
+ "exploration_monthly.5.a": {
+  "en": "Take advantage of them!",
+  "uk": "Скористаємося їхньою довірою!"
+ },
+ "exploration_monthly.5.b": {
+  "en": "Make good use of their gentle ways.",
+  "uk": "Використаємо їхню м'якість з розумом."
+ },
+ "exploration_monthly.5.desc": {
+  "en": "The words of Christopher Columbus describe the tribe we found in perfectly: 'They traded with us and gave us everything they had, with good will... they took great delight in pleasing us... They are very gentle and without knowledge of what is evil, nor do they murder or steal... Your Highness may believe that in all the world there can be no better people... They love their neighbors as themselves, and they have the sweetest talk in the world, and are gentle and always laughing.'",
+  "uk": "Плем'я, яке ми тут знайшли, прекрасно можна описати словами Христофора Колумба: «Вони торгували з нами і добровільно дали нам все, що в них було… вони з великою радістю намагалися нам догодити… Вони дуже лагідні і не знають зла, вбивств і крадіжок… Повірте, Ваша Величносте, у всьому світі не знайти таких прекрасних людей… Вони з любов'ю ставляться до себе і своїх сусідів, а їхня мова — просто насолода для вух. Вони добрі та веселі»."
+ },
+ "exploration_monthly.5.title": {
+  "en": "The Ship into Summer",
+  "uk": "Подорож у літо"
+ },
+ "exploration_monthly.6.a": {
+  "en": "A real shame.",
+  "uk": "Яка прикрість."
+ },
+ "exploration_monthly.6.desc": {
+  "en": "The village near [ROOT.GetExploration.GetLocation.GetName] had been abandoned for some time, the failing crops spoke of a drought that must have plagued the area for quite some time.\\n\\nAs the expedition returned to their ship, they got a dreadful shock—one of the largest bears they had ever seen trying to climb aboard the ship!\\n\\nThe seamen decided to capture the starved beast with the hope of bringing it back to the [ROOT.GetExploration.GetOwner.GetLongName].\\n\\nIt was leashed and brought aboard the ship, but the bear fought itself free of the ropes and the crew had to kill it. This attack and the devastated state that [ROOT.GetExploration.GetLocation.GetProvince.GetName] is in has made [target_character.GetName] realize that searching this part of [ROOT.GetExploration.GetArea.GetName] is a lost cause.",
+  "uk": "Село поблизу району [ROOT.GetExploration.GetLocation.GetName] виявилося покинутим — судячи з зів'ялих посівів, тут уже деякий час триває посуха.\\n\\nПовернувшись на корабель, учасники експедиції жахнулися — на борт намагався видертися неймовірних розмірів ведмідь!\\n\\nМоряки вирішили зловити виголоднілого звіра, сподіваючись привезти його на батьківщину — це [ROOT.GetExploration.GetOwner.GetLongName].\\n\\nВедмедя на прив'язі привели на корабель, але той зумів звільнитися від пут, і екіпажу довелося вбити тварину. Після цієї пригоди та сумної картини в провінції [ROOT.GetExploration.GetLocation.GetProvince.GetName] [target_character.GetName] [Select_CString(target_character.IsFemale,'зрозуміла', 'зрозумів')], що пошуки в цій частині області [ROOT.GetExploration.GetArea.GetName] — безнадійна справа."
+ },
+ "exploration_monthly.6.title": {
+  "en": "Unwelcome Passenger",
+  "uk": "Незваний попутник"
+ },
+ "exploration_monthly.7.a": {
+  "en": "How great!",
+  "uk": "Прекрасна новина!"
+ },
+ "exploration_monthly.7.desc": {
+  "en": "The natives in [ROOT.GetExploration.GetLocation.GetName] were enthralled by the glass beads, brass bells, and cloth that [target_character.GetName] traded for fresh fish and venison. There was very little wealth among the people, and they seemed peaceful.\\n\\nThey deserted their homes one night, leaving the village to be explored by the members of the expedition. Nothing much was found, but a small rattle made of gold buried amongst some fishing nets suggested that [ROOT.GetExploration.GetArea.GetName] might yield some fortune for us yet.",
+  "uk": "Жителі [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [ROOT.GetExploration.GetLocation.GetName] прийшли в захват від скляних намистин, бронзових дзвіночків та одягу, який [target_character.GetName] [Select_CString(target_character.IsFemale,'обміняла', 'обміняв')] на рибу та дичину. Ці люди були вельми небагаті і поводилися дружелюбно.\\n\\nОднієї ночі вони покинули свої домівки, і учасники експедиції обшукали село. Нічого особливого там знайти не вдалося, але під рибальськими сітками виявилася дрібна дрібничка із золота. Це наштовхнуло нас на думку, що в області [ROOT.GetExploration.GetArea.GetName] все ж можна знайти щось цінне."
+ },
+ "exploration_monthly.7.title": {
+  "en": "The Green Hills of [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip]",
+  "uk": "Зелені пагорби [ROOT.GetExploration.GetLocation.Custom('LR_GEN')|l] [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip]"
+ },
+ "exploration_monthly.8.a": {
+  "en": "They gave us great knowledge!",
+  "uk": "Ми дізналися від них багато корисного!"
+ },
+ "exploration_monthly.8.desc": {
+  "en": "As our exploration ship idled off the coast of [ROOT.GetExploration.GetLocation.GetName], a couple of curious [ROOT.GetExploration.GetLocation.GetDominantCulture.GetName] natives in canoes paddled out to the ship.\\n\\nThe crew invited them aboard after gestures were exchanged that expressed peaceful intentions. Food and drink were shared with the natives before they set back into their canoes and returned to shore.\\n\\nEncouraged by the report of the initial pacific encounter, six more canoes paddled out to the caravel.",
+  "uk": "Коли корабель нашої експедиції стояв біля берегів [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [ROOT.GetExploration.GetLocation.GetName], до нас підпливла пара цікавих #L [ROOT.GetExploration.GetLocation.GetDominantCulture.GetName|l]их#! жителів на каное.\\n\\nОбмінявшись жестами, що виражали мирні наміри, екіпаж запросив цих людей на борт. Ми пригостили місцевих жителів їжею та напоями, після чого вони повернулися на каное і відпливли на берег.\\n\\nНадихнувшись вістями про першу мирну зустріч, до нашої каравели вирушило ще кілька каное."
+ },
+ "exploration_monthly.8.title": {
+  "en": "Beyond This Horizon",
+  "uk": "За обрієм"
+ },
+ "exploration_monthly.9.a": {
+  "en": "Make them understand we meant them no harm.",
+  "uk": "Переконаємо їх у тому, що ми прийшли з миром."
+ },
+ "exploration_monthly.9.desc": {
+  "en": "After a rather turbulent beginning with the natives of [ROOT.GetExploration.GetLocation.GetName], we finally managed to convince them of our good intentions.\\n\\nAs we made landfall, two men, one old and one young, approached our ship. They were not interested in our gifts, and when we fired a warning shot over their heads, it wounded the older man slightly. [ROOT.GetExploration.GetCharacter.GetHeShe|U] ran to their huts and brought men who threw spears at our crew until they were chased off after two more rounds were fired.\\n\\nThe adults fled into the woods, leaving their children behind. As a gesture of friendship, some members of the expedition left behind some small trinkets with the children before retreating to the ship.",
+  "uk": "Після досить неспокійної першої зустрічі нам нарешті вдалося переконати жителів [ROOT.GetExploration.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [ROOT.GetExploration.GetLocation.GetName] у своїх добрих намірах.\\n\\nКоли ми ступили на берег, до нас підійшли двоє людей — [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'стара', 'старий')] та юнак. Наші дарунки їх не цікавили. Ми зробили попереджувальний постріл над їхніми головами, легко поранивши [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'стару', 'старого')]. [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'Вона кинулася', 'Він кинувся')] до хатин і [Select_CString(ROOT.GetExploration.GetCharacter.IsFemale,'повернулася', 'повернувся')] з озброєним загоном. Місцеві жителі кидали в нас списи, але після двох серій пострілів кинулися втікати.\\n\\nДорослі втекли в ліси, покинувши своїх дітей. На знак дружби деякі учасники експедиції залишили дітям дрібні дрібнички, а потім відступили на корабель."
+ },
+ "exploration_monthly.9.title": {
+  "en": "The Menace from [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip]",
+  "uk": "Загроза в [ROOT.GetExploration.GetLocation.Custom('LR_PREP')|l] [ROOT.GetExploration.GetLocation.GetNameWithNoTooltip]"
+ },
+ "friendly_natives": {
+  "en": "Friendly Encounter",
+  "uk": "Радушна зустріч"
+ },
+ "opinion_good_first_impression": {
+  "en": "Good First Impression",
+  "uk": "Гарне перше враження"
+ }
+}

@@ -1,0 +1,482 @@
+{
+ "art_key_holy_leader_portrait": {
+  "en": "Portrait of a holy ruler",
+  "uk": "Портрет благочестивого правителя"
+ },
+ "laws.0001.a": {
+  "en": "The [ROOT.GetCountry.GetFlavorRank] can handle a little criticism.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] витримає трохи критики."
+ },
+ "laws.0001.b": {
+  "en": "Execute [critical_artist.GetHerHim] now!",
+  "uk": "Негайно стратити [Select_CString(critical_artist.IsFemale,'її', 'його')]!"
+ },
+ "laws.0001.desc": {
+  "en": "A rude and thoroughly dislikable artist by the name of [critical_artist.GetName] has sullied our country's reputation by creating a scathing artistic criticism of the [ROOT.GetCountry.GetFlavorRank]!\\n\\nIn their so-called treatise titled #italic [critical_art.GetName]#!, [critical_artist.GetSheHe] claims to be unsatisfied with the country's management and state of affairs, spouting such nonsense phrases as \"impotent military\", \"weak-willed economic policy\" and \"societal decay\". Our society may be a free one, but allowing a notable artist to criticize the [ROOT.GetCountry.GetFlavorRank] in such a manner will surely lead to a slippery slope of riots and vagabondry!",
+  "uk": "Митець на ім'я [critical_artist.GetName], [Select_CString(critical_artist.IsFemale,'що здобула', 'що здобув')] репутацію грубої та неприємної особи, [Select_CString(critical_artist.IsFemale,'заплямувала', 'заплямував')] добре ім'я нашої держави. У [Select_CString(critical_artist.IsFemale,'її', 'його')] принизливій роботі [ROOT.GetCountry.GetFlavorRank|l] постає у жахливому світлі!\\n\\nУ так званому трактаті #italic  «[critical_art.GetName]»#! [critical_artist.GetName] заявляє, що управління державою нікуди не годиться, і засуджує нинішній стан справ, кидаючись абсурдними випадами — «нікчемна армія», «безхребетна економічна політика», «соціальний занепад». Можливо, у нас і вільне суспільство, але чи можна дозволяти знаменитому митцю так нахабно нас критикувати? Це веде державу на небезпечний шлях бунтів та волоцюжництва!"
+ },
+ "laws.0001.t": {
+  "en": "Critical Art",
+  "uk": "Викривальна творчість"
+ },
+ "laws.0002.a": {
+  "en": "Freedom should be celebrated!",
+  "uk": "Хай торжествує свобода!"
+ },
+ "laws.0002.b": {
+  "en": "Awful! Destroy the treatise!",
+  "uk": "Який жах! Негайно знищити трактат!"
+ },
+ "laws.0002.desc": {
+  "en": "Much to the chagrin of certain governmental and societal elements, our current [ROOT.GetCountry.GetFlavorRank] enjoys a great deal of freedom in the fields of faith and the arts. Lately, our commitment to free art has led to the production of a treatise praising the merits of any [ROOT.GetCountry.GetFlavorRank] free from censorship, as such a state nurtures and nourishes competent theological thought and artistic endeavors.\\n\\nThe treatise #italic [non_critical_art.GetName]#! by [non_critical_artist.GetName] is sure to be read by many across our lands, leading to an increased awareness and support of the ideals of artistic freedom, and by extension, freedom in other elements of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Велика свобода віросповідання та творчості в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] викликає неабияку досаду в деяких чиновників та інших верств суспільства. Наша відданість принципам вільного мистецтва нещодавно дала свої плоди: новий трактат проголосив нашу державу вільною від цензури. У ньому стверджується, що [ROOT.GetCountry.GetFlavorRank|l] плекає та заохочує мудрі теологічні пошуки й сміливі творчі ідеї.\\n\\nТрактат #italic «[non_critical_art.GetName]»#!, який [Select_CString(non_critical_artist.IsFemale,'написала', 'написав')] [non_critical_artist.GetName], неодмінно прочитають багато мешканців наших земель. Ще більше підданих дізнаються, що [ROOT.GetCountry.GetFlavorRank|l] підтримує свободу у творчості та інших сферах суспільного життя."
+ },
+ "laws.0002.t": {
+  "en": "Freedom & Art",
+  "uk": "Свобода і творчість"
+ },
+ "laws.0003.a": {
+  "en": "Another artist for the ranks.",
+  "uk": "У нас з'явився ще один видатний митець."
+ },
+ "laws.0003.desc": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank]'s position against censorship has allowed many lesser artists to experiment more and push the boundaries of art. As a result, one of many novice, nondescript artists has today become a recognizable name and a veritable local celebrity within young artists' circles. We can expect much from [new_artist.GetName].",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] виступає проти цензури, завдяки чому багато маловідомих митців змогли експериментувати та розширювати межі творчості. Один із таких початківців, що ще не здобули слави, сьогодні отримав велику відомість і став місцевою знаменитістю серед творчої молоді. Найімовірніше, [new_artist.GetName] багато чого досягне."
+ },
+ "laws.0003.t": {
+  "en": "Emergence from Freedom",
+  "uk": "Наслідок свободи"
+ },
+ "laws.0004.a": {
+  "en": "We will take their complaints into consideration.",
+  "uk": "Ми візьмемо до уваги їхні скарги."
+ },
+ "laws.0004.b": {
+  "en": "We shall find and discipline those who step out of line.",
+  "uk": "Ми знайдемо й приборкаємо тих, хто переступає межу."
+ },
+ "laws.0004.desc": {
+  "en": "Up until now, our religious institutions have been rather silent about their desire to increase religious censorship. However, a recent series of small altercations at various locations over simple, but vital theological divides has led to a surge of requests from both individuals as well as organizations to impose stricter control over the religious narrative.\\n\\nIt is healthy for the faith to ponder itself and seek answers to questions that may bring its worshippers closer to the divine, but it is not healthy for one priest  to hit another with a saucepan over religious doctrine.",
+  "uk": "До нинішнього часу релігійні інституції майже не висловлювали бажання посилити релігійну цензуру. Але нещодавня низка невеликих розбіжностей з простих, але дуже важливих теологічних питань викликала безліч окремих і спільних прохань посилити контроль за релігійними висловлюваннями.\\n\\nРоздуми про віру та пошук відповідей на запитання, які допоможуть віруючим зрозуміти природу божественного, — це цілком нормально. Однак ненормально, коли один священник б'є іншого соусником, сперечаючись про релігійні доктрини."
+ },
+ "laws.0004.t": {
+  "en": "Free Thinking Leads to Theological Divide",
+  "uk": "Свобода думки веде до богословського розколу"
+ },
+ "laws.0005.a": {
+  "en": "The unrestrained mind thinks best.",
+  "uk": "Розум, який не стримують, здатен на багато що."
+ },
+ "laws.0005.b": {
+  "en": "We ought to fund these free thinkers!",
+  "uk": "Треба нагородити цих вільнодумних людей!"
+ },
+ "laws.0005.desc": {
+  "en": "At long last, the constant philosophical debates and insufferable blabbering of intellectuals and philosophers allowed by our lack of censorship laws have actually led to a scientific breakthrough in the areas we are currently researching!",
+  "uk": "Постійні філософські дебати та набридлива балаканина вчених і філософів, можливі лише завдяки відсутності в нас законів про цензуру, врешті-решт призвели до наукового прориву в галузях, які ми зараз досліджуємо!"
+ },
+ "laws.0005.t": {
+  "en": "Free Discussions Lead to Breakthrough",
+  "uk": "Свобода обговорень призводить до прориву"
+ },
+ "laws.0006.a": {
+  "en": "Begone, and do not come back!",
+  "uk": "Іди геть і не повертайся!"
+ },
+ "laws.0006.desc": {
+  "en": "Our religious censorship policy has led the renowned artist [artist_to_exile.GetName] to exile [artist_to_exile.GetHerselfHimself] and leave our lands in favor of [exile_location.GetName]. [artist_to_exile.GetSheHe|U] seeks to think, speak, and create without fear of punishment, something which our current policies cannot offer.\\n\\nThis may very well be for the best, as an unruly artist, no matter how talented [artist_to_exile.GetSheHe] may be, will only be a thorn in the sides of our pure nation, which should be free from critical and dangerous art.",
+  "uk": "Наша політика релігійної цензури призвела до того, що [Select_CString(artist_to_exile.IsFemale,'знаменита', 'знаменитий')] [artist_to_exile.GetName] покидає наші землі та вирушає у добровільне заслання до [exile_location.Custom('LR_ACC')|l] [exile_location.GetName]. [Select_CString(artist_to_exile.IsFemale,'Вона', 'Він')] хоче розмірковувати, говорити й творити без страху покарання, а наша нинішня політика цього не дозволяє.\\n\\nМожливо, це й на краще: попри безсумнівний талант, [artist_to_exile.GetName] [Select_CString(artist_to_exile.IsFemale,'була', 'був')] б загрозою для нашої нації, яка має бути вільною від викривального та небезпечного мистецтва."
+ },
+ "laws.0006.t": {
+  "en": "Artist Self-Exiles",
+  "uk": "Митець у добровільному вигнанні"
+ },
+ "laws.0007.a": {
+  "en": "What is done, is done.",
+  "uk": "Що зроблено, те зроблено."
+ },
+ "laws.0007.desc": {
+  "en": "The [work_to_damage.GetName] was recently damaged during a dispute in which members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] attempted to burn it as per our censorship laws, claiming that the piece is heretical.\\n\\nThe work was ultimately spared thanks to outcry from others, but it was not able to escape damage altogether.",
+  "uk": "Роботу «[work_to_damage.GetName]» нещодавно було пошкоджено під час бурхливої суперечки: [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] спробували спалити її відповідно до наших законів про цензуру, заявивши, що в цій праці міститься єресь.\\n\\nЗавдяки обуренню решти роботу було врятовано, але вона все ж зазнала пошкоджень."
+ },
+ "laws.0007.t": {
+  "en": "Heretical Work Spared",
+  "uk": "Єретичну працю врятовано"
+ },
+ "laws.0008.a": {
+  "en": "Hurray for the (censored)!",
+  "uk": "На славу (вирізано цензурою)!"
+ },
+ "laws.0008.desc": {
+  "en": "Our censorship policy has prevented negative views and opinions from spreading too far during the hardships of war.\\n\\nAs a result, our people remain strong, believing that victory is inevitable, as every pamphlet and news scrap contains only the highest praise for our nation's noble struggle.",
+  "uk": "У важкі роки війни цензура захистила нас від критики та надмірного поширення поганих думок.\\n\\nВ результаті наш народ зберіг силу духу та віру в неминучість перемоги, а всі памфлети й новинні замітки лише вихваляють благородну боротьбу, яку веде наша нація."
+ },
+ "laws.0008.t": {
+  "en": "The Sung Heroes",
+  "uk": "Прославлені герої"
+ },
+ "laws.0009.a": {
+  "en": "They better be thankful!",
+  "uk": "Ми заслужили подяку!"
+ },
+ "laws.0009.b": {
+  "en": "They can thank us through... other means.",
+  "uk": "Нас можна віддячити… і по-іншому."
+ },
+ "laws.0009.desc": {
+  "en": "As of late, many outspoken members of our society, some with the means of producing and distributing scandalous pamphlets across the realm, have begun to be rather critical of our ally, [ally_to_protect.GetName]. However, our censorship policy allowed us to swiftly confiscate and destroy all these damaging works, protecting our ally from having to react to our people's opinions.",
+  "uk": "Останнім часом [Select_CString(ally_to_protect.IsFemale,'наша союзниця', 'наш союзник')] [ally_to_protect.GetName] зазнає критики з боку багатьох представників нашого суспільства. Люди навіть створюють і поширюють по державі викривальні брошури. Але завдяки законам про цензуру ми змогли швидко вилучити всі ці шкідливі твори, і [Select_CString(ally_to_protect.IsFemale,'нашій союзниці', 'нашому союзнику')] не доведеться мати справу з неприязню наших підданих."
+ },
+ "laws.0009.t": {
+  "en": "Censorship Shields Ally",
+  "uk": "Цензура захищає союзника"
+ },
+ "laws.0010.a": {
+  "en": "Keep those skeletons in the closet!",
+  "uk": "Тримайте своїх скелетів у шафі!"
+ },
+ "laws.0010.b": {
+  "en": "Perhaps this ought to be public knowledge...",
+  "uk": "Можливо, це варто було б оприлюднити…"
+ },
+ "laws.0010.desc": {
+  "en": "Recently, a most scandalous occurrence happened amongst the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Had word gotten out, it would have been a social disaster of catastrophic proportions. Thankfully, our censorship policy ensured that this whole event was swept under the rug before the rest of society could find out.",
+  "uk": "Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] опинилися в центрі великого скандалу. Якби ці новини стали надбанням широкого загалу, сталася б справжня катастрофа. На щастя, завдяки нашим законам про цензуру справу вдалося замовчати, перш ніж про неї дізнався хоч хтось сторонній."
+ },
+ "laws.0010.t": {
+  "en": "Scandal Averted!",
+  "uk": "Скандал відвернено!"
+ },
+ "laws.0011.a": {
+  "en": "Nonetheless, this is a terrible loss.",
+  "uk": "Хай там як, така втрата жахлива."
+ },
+ "laws.0011.desc": {
+  "en": "Today, an artist by the name of [dead_artist.GetName] was executed on orders from the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] for their heretical comments and works of art, as per our censorship laws. Our [ROOT.GetCountry.GetFlavorRank] has lost a talented and valuable artist and traded it for the stability and strength of moral harmony.",
+  "uk": "Сьогодні [dead_artist.GetName] [Select_CString(dead_artist.IsFemale,'була страчена', 'був страчений')]. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] звинуватили [Select_CString(dead_artist.IsFemale,'її', 'його')] в єретичних висловлюваннях і створенні творінь, що порушують закони про цензуру. Намагаючись зберегти стабільність і чистоту моралі, [ROOT.GetCountry.GetFlavorRank|l] втрачає талановитих підданих."
+ },
+ "laws.0011.t": {
+  "en": "Artist Executed",
+  "uk": "Страта митця"
+ },
+ "laws.0012.a": {
+  "en": "Harmony, at last.",
+  "uk": "Нарешті ми досягли гармонії."
+ },
+ "laws.0012.b": {
+  "en": "Restricting information only slows us down.",
+  "uk": "Обмеження інформації лише уповільнює розвиток."
+ },
+ "laws.0012.desc": {
+  "en": "Our strict censorship laws ensure that negative and detrimental ideas do not jump from one population center to another. As such, the [ROOT.GetCountry.GetFlavorRank] as a whole is a lot more harmonious. A small catastrophe or scandal need not affect those outside its immediate reach, nor should wayward thinking poison those who had previously been blessed with ignorance.",
+  "uk": "Наші суворі закони про цензуру не дозволяють поганим і шкідливим думкам поширюватися між поселеннями. Ось чому [ROOT.GetCountry.GetFlavorRank|l] є обителлю спокою. Невеликий скандал не виходить за межі його прямих учасників, а вільнодумство не отруює розум тих, хто раніше перебував у блаженному невіданні."
+ },
+ "laws.0012.t": {
+  "en": "Information Control",
+  "uk": "Контроль інформації"
+ },
+ "laws.0013.a": {
+  "en": "Anything to appease them.",
+  "uk": "Аби лиш вони були задоволені."
+ },
+ "laws.0013.b": {
+  "en": "Maybe questions are the path to divinity?",
+  "uk": "Можливо, запитання наблизять нас до божественного?"
+ },
+ "laws.0013.desc": {
+  "en": "Our enforcement of strict religious censorship has pleased our religious institutions. They are thankful for our maintaining harmony and ensuring that heresy is kept at bay.",
+  "uk": "Наша сувора релігійна цензура припала до смаку релігійним інституціям. Вони вдячні нам за те, що ми зберігаємо гармонію та запобігаємо єресі."
+ },
+ "laws.0013.t": {
+  "en": "Doctrinal Harmony",
+  "uk": "Гармонія доктрин"
+ },
+ "laws.0014.a": {
+  "en": "What a disaster!",
+  "uk": "Це просто катастрофа!"
+ },
+ "laws.0014.b": {
+  "en": "Force orders to bypass oversight.",
+  "uk": "Будемо стежити за виконанням наказів, щоб покінчити з цим непорозумінням."
+ },
+ "laws.0014.desc": {
+  "en": "Our strict censorship practices have led to a most unfortunate mishap, causing chaos amongst our armies. Field reports containing vital, but negative information about the status of the war are being censored by bureaucrats and religious figures to ensure that blasphemous ideas of retreat or military inadequacy are filtered out in favor of a more positive depiction of the conflict.\\n\\nAs a result, one of our armies has become disorganized, as the reports they send are not the ones that our capital receives and issues orders based on.",
+  "uk": "Наша сувора цензура призвела до вкрай неприємної ситуації та викликала хаос у військах. Найважливіші, але гнітючі донесення з місць про хід війни піддаються цензурі. Чиновники та духовні особи дозволяють зображувати бойові дії лише у позитивному світлі, а блюзнірські міркування про відступ і неефективність армії присікаються на корені.\\n\\nВ результаті одна з наших армій перебуває у безладі, оскільки столиця отримує зовсім не ті вісті, які надсилають солдати, і віддає невідповідні накази."
+ },
+ "laws.0014.t": {
+  "en": "Censored Reports",
+  "uk": "Зведення під цензурою"
+ },
+ "laws.0015.a": {
+  "en": "Burn away all that is impious!",
+  "uk": "Спалити все богопротивне!"
+ },
+ "laws.0015.desc": {
+  "en": "The #italic [work_to_destroy.GetName]#! has been destroyed, as per our strict censorship policies, after accusations of it being a heretical piece and seeking to subvert all that is good and holy.\\n\\nThe protests of artists and even other members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] were not enough to save this evil work from being burned in righteous flames. We may have lost an invaluable art piece, but we have secured spiritual sanctity.",
+  "uk": "Роботу #italic «[work_to_destroy.GetName]»#! було знищено. Відповідно до нашої суворої політики цензури її оголосили єрессю та спробою спотворити все благе і святе.\\n\\nМитці й навіть деякі [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] були проти, але їм не вдалося врятувати цю небезпечну працю від спалення у праведному вогні. Ми втратили безцінний твір, але зберегли духовні ідеали."
+ },
+ "laws.0015.t": {
+  "en": "Heretical Work Destroyed",
+  "uk": "Єретичну працю знищено"
+ },
+ "laws.0016.a": {
+  "en": "Let [glorious_leader.GetNameWithNoTooltip] be larger than life!",
+  "uk": "Хай [glorious_leader.GetNameWithNoTooltip] постане в усій величі!"
+ },
+ "laws.0016.b": {
+  "en": "This is awfully distasteful!",
+  "uk": "Огидна мерзота!"
+ },
+ "laws.0016.desc": {
+  "en": "A local artist by the name of [random_artist.GetName] has approached [glorious_leader.GetName], offering to make a portrait displaying them as a \"diety\" and \"savior of the nation\".\\n\\nOur lack of censorship laws make this issue morally grey: On the one hand, nothing is technically stopping this from happening, and such a work would probably bring prestige to the nation, but on the other hand, the subject is rather improper and impious, regardless of the law. Such a commission will certainly upset the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and their faithful.",
+  "uk": "[Select_CString(random_artist.IsFemale,'Місцева художниця', 'Місцевий художник')] [random_artist.GetName] [Select_CString(random_artist.IsFemale,'запропонувала', 'запропонував')] написати портрет, на якому [glorious_leader.GetName] постане «божеством» і «спасінням нації».\\n\\nБрак цензури не дозволяє нам трактувати це питання однозначно: з одного боку, такий портрет нічого не порушує, і ця робота навіть може зміцнити авторитет держави, а з іншого — це неприпустиме блюзнірство, яким би не був закон. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] та їхні благочестиві парафіяни напевно будуть невдоволені."
+ },
+ "laws.0016.t": {
+  "en": "Controversial Portrait",
+  "uk": "Неоднозначний портрет"
+ },
+ "laws.0017.a": {
+  "en": "Welcome!",
+  "uk": "Ласкаво просимо!"
+ },
+ "laws.0017.desc": {
+  "en": "[artist_to_exile.GetName] from the lands of [exile_location.GetName] has arrived on our doorstep, seeking our protection and the benefits of our lack of censorship laws.\\n\\nYet another talented artist comes to our country, forever enriching our culture! If we ever enact more strict religious censorship laws, however, [artist_to_exile.GetSheHe] might leave our lands just as [artist_to_exile.GetSheHe] left [exile_location.GetNameWithNoTooltip]...",
+  "uk": "У пошуках захисту та свободи від цензури до нас [Select_CString(artist_to_exile.IsFemale,'прибула', 'прибув')] [artist_to_exile.GetName] з [exile_location.Custom('LR_GEN')|l] [exile_location.GetName].\\n\\nТепер у нас живе ще одна талановита особистість, яка збагатить нашу культуру! Однак якщо ми колись запровадимо суворішу релігійну цензуру, [artist_to_exile.GetName] може покинути нас, як [Select_CString(artist_to_exile.IsFemale,'покинула', 'покинув')] [exile_location.Custom('LR_ACC')|l] [exile_location.GetNameWithNoTooltip]…"
+ },
+ "laws.0017.t": {
+  "en": "Artist Emigrates",
+  "uk": "Митець вирушає на чужину"
+ },
+ "laws.0018.a": {
+  "en": "We must destroy these unholy things!",
+  "uk": "Треба знищити це святотатство!"
+ },
+ "laws.0018.b": {
+  "en": "Perhaps the art was left behind for us to keep?",
+  "uk": "Можливо, ці твори залишили спеціально, щоб ми їх зберегли?"
+ },
+ "laws.0018.desc": {
+  "en": "State officials have recently discovered the meeting place of an underground art movement. Our officials were unable to catch the perpetrators, but managed to secure three art pieces that should be destroyed according to our religious censorship policies.\\n\\nOf course, destroying such a large amount of art that could otherwise be used for the good of the [ROOT.GetCountry.GetFlavorRank] seems counterproductive. It could be worthwhile to ignore the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]'s complaints and secure the art for ourselves.",
+  "uk": "Нещодавно державні чиновники виявили місце зустрічей підпільного творчого руху. Вони не змогли спіймати учасників, але забрали три твори, які підлягають знищенню відповідно до нашої політики релігійної цензури.\\n\\nЗвісно, знищення відразу кількох творчих робіт, які могли б стати благом для [ROOT.GetCountry.Custom('rank_ru_GEN')|l], здається недоцільним. Можливо, варто зберегти ці роботи, попри те, що [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] обуряться."
+ },
+ "laws.0018.t": {
+  "en": "Underground Art",
+  "uk": "Незалежна творчість"
+ },
+ "laws.0019.a": {
+  "en": "Burn them!",
+  "uk": "Спалити книги!"
+ },
+ "laws.0019.b": {
+  "en": "A little peek will not hurt...",
+  "uk": "Якщо ми побіжно прочитаємо ці книги, нічого страшного не станеться…"
+ },
+ "laws.0019.desc": {
+  "en": "State officials have recently discovered a stash of banned books. The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] is asking us to promptly dispose of them, but these texts seem to contain knowledge that could be beneficial to the [ROOT.GetCountry.GetFlavorRank]...",
+  "uk": "Нещодавно державні чиновники виявили схованку із забороненими книгами. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] просять нас якнайшвидше знищити крамолу, але знання, що містяться в книгах, могли б придатися [ROOT.GetCountry.Custom('rank_ru_DAT')|l]…"
+ },
+ "laws.0019.t": {
+  "en": "Banned Books",
+  "uk": "Заборонені книги"
+ },
+ "laws.0020.a": {
+  "en": "Most gracious!",
+  "uk": "Ми вельми вдячні!"
+ },
+ "laws.0020.desc": {
+  "en": "Emboldened by our religious censorship laws, the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have begun sponsoring the creation of art all across the country. As a sign of unity between the [ROOT.GetCountry.GetLongName] and its [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], they have donated a piece directly to the [ROOT.GetCountry.GetFlavorRank]'s collection.",
+  "uk": "Натхнені нашими законами про релігійну цензуру, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] почали спонсорувати нову творчість по всій державі. Вони навіть пожертвували твір мистецтва для колекції [ROOT.GetCountry.Custom('rank_ru_GEN')|l] на знак того, що [ROOT.GetCountry.GetLongName] і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] єдині."
+ },
+ "laws.0020.t": {
+  "en": "Religious Art Sponsorship",
+  "uk": "Фінансування релігійної творчості"
+ },
+ "laws.0021.a": {
+  "en": "Confiscate their collections.",
+  "uk": "Конфіскуємо колекції."
+ },
+ "laws.0021.b": {
+  "en": "Show mercy unconditionally.",
+  "uk": "Помилуємо їх без жодних умов."
+ },
+ "laws.0021.c": {
+  "en": "Show mercy in exchange for funds.",
+  "uk": "Помилуємо їх в обмін на фінансування."
+ },
+ "laws.0021.desc": {
+  "en": "Several families of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been caught sponsoring the creation of illicit art which clearly violates the ordinances set by our religious censorship laws.\\n\\nThe [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] is enraged and asking that the collections be confiscated and subsequently destroyed. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], on the other hand, are asking for mercy, as their collections are private and kept away from the public's eye. They have even offered to donate funds to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] for the creation of admissible art in order to appease them.",
+  "uk": "Декілька шляхетних родин було впіймано на фінансуванні непристойної творчості, що явно порушує положення наших законів про релігійну цензуру.\\n\\nРозгнівані [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вимагають вилучити та знищити колекції. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], своєю чергою, просять виявити поблажливість, оскільки колекції є приватними і не виставляються на загальний огляд. Вони навіть пропонують виділити кошти на створення прийнятних творів, щоб [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] змінили гнів на милість."
+ },
+ "laws.0021.t": {
+  "en": "Unlawful Private Collections",
+  "uk": "Незаконні приватні колекції"
+ },
+ "laws.0022.a": {
+  "en": "Burn, burn, burn!",
+  "uk": "Спалити, спалити, спалити!"
+ },
+ "laws.0022.b": {
+  "en": "Refuse to burn art.",
+  "uk": "Відмовимося спалювати твір."
+ },
+ "laws.0022.desc": {
+  "en": "Fuelled by religious fervor, members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are asking the [ROOT.GetCountry.GetFlavorRank] to burn the art piece known as #italic [icono_target.GetName]# in a demonstration of piety.\\n\\nThere is nothing impious about the art piece they are attempting to burn, however, and we thus have a right to refuse. However, proving our commitment to the faith might be more beneficial to our goals...",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], охоплені релігійним завзяттям, вимагають від [ROOT.GetCountry.Custom('rank_ru_GEN')|l] спалити твір мистецтва #italic «[icono_target.GetName]»#!, щоб продемонструвати відданість правовірним засадам.\\n\\nОднак у творі, який вони прагнуть спалити, немає нічого нечестивого, тож ми можемо відмовити. Але демонстрація нашої відданості ідеалам віри може принести більше користі…"
+ },
+ "laws.0022.t": {
+  "en": "Iconoclasm",
+  "uk": "Іконоборство"
+ },
+ "laws.0023.a": {
+  "en": "The burning is for the greater good.",
+  "uk": "Спалення бібліотеки піде нам на благо."
+ },
+ "laws.0023.b": {
+  "en": "No torch's flame shall touch our research!",
+  "uk": "Жодна іскра не впаде на ці праці!"
+ },
+ "laws.0023.desc": {
+  "en": "After suspicions were confirmed that heretical books were being stored inside of a library at [loc_heretic_book_town.GetName], the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have begun a procession that will culminate in the burning of the library.\\n\\nTheir actions are in line with our censorship policies, but the library contains books that are vital to our research efforts, which will be burned alongside the heretical material unless we put a stop to this.",
+  "uk": "Наші підозри підтвердилися: виявляється, в бібліотеці провінції [loc_heretic_book_town.GetName] зберігаються єретичні книги. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] розпочали процесію, яка має завершитися спаленням бібліотеки.\\n\\nДуховенство діє згідно з нашою політикою цензури, але в бібліотеці є дуже важливі книги, які придадуться нам для досліджень. Якщо ми не зупинимо процесію, ці безцінні праці буде спалено разом з єрессю."
+ },
+ "laws.0023.t": {
+  "en": "Book Burning",
+  "uk": "Спалення книг"
+ },
+ "laws.0024.a": {
+  "en": "Smash the figurines!",
+  "uk": "Розбити статуетки!"
+ },
+ "laws.0024.b": {
+  "en": "Turn a blind eye to the figurine market.",
+  "uk": "Заплющимо очі на продаж статуеток."
+ },
+ "laws.0024.desc": {
+  "en": "Merchants at the market in [loc_market.GetName] have been caught selling small ceramic and clay figurines of a religious nature. These figurines clearly violate our religious censorship policies, but their destruction would be quite costly, as they have become rather popular in [loc_market.GetNameWithNoTooltip].\\n\\nThe [ROOT.GetCountry.GetFlavorRank] would feel the loss of these goods, but perhaps this is the price we must pay to maintain our purity of faith?",
+  "uk": "На ринку провінції [loc_market.GetName] спіймали купців, які продавали керамічні та глиняні статуетки релігійного характеру. Вони явно суперечать нашим правилам релігійної цензури, але користуються популярністю, і їх знищення дорого нам обійдеться.\\n\\n[ROOT.GetCountry.GetFlavorRank] зазнає відчутних збитків, позбувшись цих товарів. Можливо, така ціна, яку ми маємо заплатити за підтримання чистоти нашої віри?"
+ },
+ "laws.0024.t": {
+  "en": "Illicit Religious Figurines",
+  "uk": "Блюзнірські релігійні статуетки"
+ },
+ "laws.0025.a": {
+  "en": "Why not? Let them publish!",
+  "uk": "Чому б і ні? Хай видають!"
+ },
+ "laws.0025.b": {
+  "en": "Ludicrious! Ban this theory!",
+  "uk": "Огидно! Заборонити цю теорію!"
+ },
+ "laws.0025.desc": {
+  "en": "A self-proclaimed \"Underground Society of Theologists\" demands that we allow their theory of creation to be published. They claim that the world is cheese and that deities are nothing more than worms that process the cheese. Not only that, but the worms themselves spawn from said cheese.\\n\\nOf course, even entertaining such thoughts would greatly upset the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], but our lack of religious censorship technically means that the decision is up to the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Самопроголошене «підпільне товариство богословів» вимагає, щоб ми дозволили опублікувати його теорію створення світу. Учасники товариства заявляють, що світ — це сир, а божества — не що інше, як личинки, що його переробляють. Більше того, самі личинки теж з'являються з цього сиру.\\n\\nПодібні міркування, хай навіть і для розваги, неодмінно викличуть велике обурення духовенства. Але в нас немає релігійної цензури, а отже, влада [ROOT.GetCountry.Custom('rank_ru_GEN')|l] може ухвалити будь-яке рішення."
+ },
+ "laws.0025.t": {
+  "en": "Heretics Demand Parlay",
+  "uk": "Єретики вимагають гласності"
+ },
+ "laws.0026.a": {
+  "en": "Turn back the missionaries.",
+  "uk": "Проженемо місіонерів."
+ },
+ "laws.0026.b": {
+  "en": "Tolerate the missionaries.",
+  "uk": "Не будемо звертати увагу на місіонерів."
+ },
+ "laws.0026.c": {
+  "en": "Arrest the missionaries.",
+  "uk": "Ув'язнимо місіонерів."
+ },
+ "laws.0026.desc": {
+  "en": "Self-proclaimed missionaries from the country of [mis_origin.GetName] have recently caught the eye of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] for making too much progress in converting our populace.\\n\\nWe have no religious censorship laws, and as such the missionaries are within their right to do as they please, but not taking any action will upset our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], who are calling for the outright imprisonment of these \"false prophets\".",
+  "uk": "Нещодавно наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] помітили, що самопроголошені місіонери з #ONCLICK:COUNTRY,[mis_origin.Custom('CL_tt')] #TOOLTIP:COUNTRY,[mis_origin.Custom('CL_tt')],X [mis_origin.Custom('CL_GEN')|L]#!#! надто успішно навертають наших підданих у свою віру.\\n\\nУ нас немає законів про релігійну цензуру, і місіонери мають повне право проповідувати. Але наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l], які вимагають якнайшвидше ув'язнити цих «лжепророків», будуть засмучені, якщо ми заплющимо на це очі."
+ },
+ "laws.0026.t": {
+  "en": "Unsanctioned Missionaries",
+  "uk": "Несанкціоноване місіонерство"
+ },
+ "laws.0027.a": {
+  "en": "No deviancy can be allowed!",
+  "uk": "Відхилень бути не повинно!"
+ },
+ "laws.0027.b": {
+  "en": "Allow the old books to phase out naturally.",
+  "uk": "Старі книги застаріють самі собою."
+ },
+ "laws.0027.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] seeks our help, claiming that, in accordance with our censorship laws, we should remove all outdated religious texts that are in circulation.\\n\\nRecently, it was found that decades of small tweaks and deviations in newer versions of our holy texts have led to a divide between those who preach the old word and the new word. This rift is minimal, but the very idea of holy texts deviating from one another is revolting to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. As such, they have asked us to purge all of the older copies, which could lead to instability on account of having to destroy the old and relished copies of local temples.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] просять нас про допомогу. Вони стверджують, що ми маємо вилучити з обігу всі застарілі релігійні тексти відповідно до наших законів про цензуру.\\n\\nНещодавно з'ясувалося, що за кілька десятиліть наші священні тексти зазнали безлічі дрібних змін, що призвело до розколу між прихильниками старого й нового вчень. Різниця майже мізерна, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] жахаються від самої думки про розходження в священних текстах. Вони просять нас позбутися всіх старих текстів, але це може підірвати порядок у державі, адже нам доведеться знищити стародавні цінні копії в місцевих храмах."
+ },
+ "laws.0027.t": {
+  "en": "Outdated Texts",
+  "uk": "Застарілі тексти"
+ },
+ "laws.0028.a": {
+  "en": "Prevent the marriage on \"moral grounds\".",
+  "uk": "Заборонимо шлюб, посилаючись на «моральні принципи»."
+ },
+ "laws.0028.b": {
+  "en": "Love is free! Also, we do not want angry [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]!",
+  "uk": "Кохання вільне від кайданів, та й розгнівані [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] нам ні до чого!"
+ },
+ "laws.0028.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have asked us to intercede in a marriage between two families of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. The issue lies in the bride being of a different faith than the one our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] support. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] marriages tend to be public affairs, so the subsequent festival would attract a lot of attention and send an improper message about how our [ROOT.GetCountry.GetFlavorRank] feels about other faiths.\\n\\nOur religious censorship laws are not meant to intervene in this, never mind how this would damage our relationship with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], but this is a great opportunity to indebt the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] to us.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] просять нас завадити укладенню шлюбу між вихованцями двох шляхетних родин. Річ у тім, що наречена сповідує іншу віру, яку наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не підтримують. Коли [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] укладають шлюб, ця подія нерідко стає надбанням громадськості. Святкування весілля приверне багато уваги, і люди можуть помилково вважати, що ми заохочуємо інші вірування.\\n\\nНаші закони про релігійну цензуру не зобов'язують нас заважати весіллю, не кажучи вже про те, що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] будуть цьому зовсім не раді. Однак було б нерозумно втрачати таку можливість, адже якщо ми все ж втрутимося, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] будуть нам винні."
+ },
+ "laws.0028.t": {
+  "en": "Wrong Signals",
+  "uk": "Хибне послання"
+ },
+ "laws.0029.a": {
+  "en": "Keep rooting them out!",
+  "uk": "Продовжимо викорінювати шпигунів!"
+ },
+ "laws.0029.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], while conducting their usual religious censorship duties, found and destroyed a small cult that has since been proven to belong to a foreign entity. This cult was sponsored by another nation in exchange for information, acting as a spy network. Its destruction has greatly damaged their information collection abilities.",
+  "uk": "У ході своєї рутинної боротьби з єрессю наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] знайшли та знищили невелику секту. Виявилося, що вона належала іноземній державі. Секта існувала за рахунок коштів з-за кордону і передавала своїм покровителям інформацію, розгорнувши шпигунську мережу. Знищивши її, ми сильно завадили іншій державі збирати важливі відомості."
+ },
+ "laws.0029.t": {
+  "en": "Foreign-sponsored Cults",
+  "uk": "Секти, що фінансуються чужинцями"
+ },
+ "laws.0030.a": {
+  "en": "Tear down the barricades.",
+  "uk": "Знесемо барикади."
+ },
+ "laws.0030.b": {
+  "en": "Allow them to remain.",
+  "uk": "Хай барикади залишаються."
+ },
+ "laws.0030.desc": {
+  "en": "In the settlement of [random_town.GetName], the local religious minorities have fortified their religious district out of fear that our censorship laws might lead to a riot.\\n\\nAllowing them to stay cooped up in their barricades will be bad for stability, but these makeshift fortifications could become quite useful were the location to come under siege.",
+  "uk": "Релігійні меншини #L #TOOLTIP:LOCATIONRANK,[random_town.Custom('LR_tt')],X [random_town.Custom('LR_RP')]#!#! [random_town.GetName] укріпили свою територію, боячись, що наші закони про цензуру можуть спровокувати погроми.\\n\\nДозволивши їм ховатися за барикадами, ми ризикуємо похитнути стабільність, але якщо поселення опиниться в облозі, такі саморобні укріплення можуть нам знадобитися."
+ },
+ "laws.0030.t": {
+  "en": "Fortified Religious District",
+  "uk": "Укріплений релігійний район"
+ },
+ "laws.0040.a": {
+  "en": "[target_location.GetNameWithNoTooltip] is the best choice.",
+  "uk": "[target_location.GetNameWithNoTooltip] — найкраще рішення."
+ },
+ "laws.0040.b": {
+  "en": "[target_location2.GetNameWithNoTooltip] is a good spot.",
+  "uk": "[target_location2.GetNameWithNoTooltip] — гарне місце."
+ },
+ "laws.0040.c": {
+  "en": "The underdog [target_location3.GetRank.GetNameWithNoTooltip] of [target_location3.GetNameWithNoTooltip] is the best pick.",
+  "uk": "Хоча [target_location3.GetRank.GetNameWithNoTooltip|l] [target_location3.GetNameWithNoTooltip] і поступається іншим містам, це буде найкращий варіант."
+ },
+ "laws.0040.d": {
+  "en": "Let us keep [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] as the capital.",
+  "uk": "Хай нашою столицею залишиться [ROOT.GetCountry.GetCapital.GetRank.GetNameWithNoTooltip|l] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
+ },
+ "laws.0040.desc": {
+  "en": "With [target_character.GetName] now in power, [target_character.GetSheHe] has been planning on moving the [ROOT.GetCountry.GetGovernment.GetCourtTitle] to a different location, as is the custom within [ROOT.GetCountry.GetName]. The choices are [target_location.GetName], [target_location2.GetName], and [target_location3.GetName]. Which one shall it be?",
+  "uk": "Зійшовши на престол #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [target_character.GetName] згідно зі звичаєм планує перенести уряд на нове місце. Для цього підходять такі райони: [target_location.GetName], [target_location2.GetName] і [target_location3.GetName]. Який із них ми виберемо?"
+ },
+ "laws.0040.title": {
+  "en": "A New [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] на новому місці"
+ }
+}

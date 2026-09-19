@@ -1,0 +1,1670 @@
+{
+ "CIVILWAR_FACTION_ADJECTIVE": {
+  "en": "$ADJ$",
+  "uk": ""
+ },
+ "CIVILWAR_FACTION_NAME": {
+  "en": "$ADJ$ Revolt",
+  "uk": "$ADJ$е повстання"
+ },
+ "CIVILWAR_FACTION_burghers_estate_ADJECTIVE": {
+  "en": "Burgher",
+  "uk": "Міськ"
+ },
+ "CIVILWAR_FACTION_burghers_estate_NAME": {
+  "en": "$ADJ$ Burghers",
+  "uk": "$ADJ$і міщани"
+ },
+ "CIVILWAR_FACTION_clergy_estate_ADJECTIVE": {
+  "en": "Clergy",
+  "uk": "Священичн"
+ },
+ "CIVILWAR_FACTION_clergy_estate_NAME": {
+  "en": "$ADJ$ Clergy",
+  "uk": "$ADJ$і священики"
+ },
+ "CIVILWAR_FACTION_cossacks_estate_ADJECTIVE": {
+  "en": "Cossack",
+  "uk": "Козацьк"
+ },
+ "CIVILWAR_FACTION_cossacks_estate_NAME": {
+  "en": "$ADJ$ Cossacks",
+  "uk": "$ADJ$і козаки"
+ },
+ "CIVILWAR_FACTION_nationalist_ADJECTIVE": {
+  "en": "Nationalist",
+  "uk": "Націоналістичн"
+ },
+ "CIVILWAR_FACTION_nationalist_NAME": {
+  "en": "$ADJ$ Nationalists",
+  "uk": "$ADJ$і націоналісти"
+ },
+ "CIVILWAR_FACTION_nobles_estate_ADJECTIVE": {
+  "en": "Noble",
+  "uk": "Аристократичн"
+ },
+ "CIVILWAR_FACTION_nobles_estate_NAME": {
+  "en": "$ADJ$ Nobles",
+  "uk": "$ADJ$і аристократи"
+ },
+ "CIVILWAR_FACTION_peasants_estate_ADJECTIVE": {
+  "en": "Peasant",
+  "uk": "Селянськ"
+ },
+ "CIVILWAR_FACTION_peasants_estate_NAME": {
+  "en": "$ADJ$ Peasants",
+  "uk": "$ADJ$і селяни"
+ },
+ "CIVILWAR_FACTION_pretender_ADJECTIVE": {
+  "en": "Pretender",
+  "uk": "Претендентськ"
+ },
+ "CIVILWAR_FACTION_pretender_NAME": {
+  "en": "$ADJ$ Pretenders",
+  "uk": "$ADJ$і претенденти"
+ },
+ "CIVILWAR_FACTION_religious_ADJECTIVE": {
+  "en": "Heretic",
+  "uk": "Єретичн"
+ },
+ "CIVILWAR_FACTION_religious_NAME": {
+  "en": "$ADJ$ Revolt",
+  "uk": "$ADJ$е повстання"
+ },
+ "CIVILWAR_FACTION_slave_ADJECTIVE": {
+  "en": "Slave",
+  "uk": "Рабськ"
+ },
+ "CIVILWAR_FACTION_slave_NAME": {
+  "en": "$ADJ$ Slave Uprising",
+  "uk": "Повстання $ADJ$их рабів"
+ },
+ "CIVILWAR_FACTION_tribes_estate_ADJECTIVE": {
+  "en": "Tribal",
+  "uk": "Племінн"
+ },
+ "CIVILWAR_FACTION_tribes_estate_NAME": {
+  "en": "$ADJ$ Tribes",
+  "uk": "$ADJ$і племена"
+ },
+ "FOREIGN_SUPPORT": {
+  "en": "Foreign Support",
+  "uk": "Іноземна підтримка"
+ },
+ "GROUP_OF_REBELS": {
+  "en": "All [rebels|e] of [Rebel.GetNameWithNoTooltip]",
+  "uk": "Усі учасники групи [Concept('rebels','повстанців')|e] «[Rebel.GetNameWithNoTooltip]»"
+ },
+ "NO_LOCATIONS_FOR_REBELS": {
+  "en": "@trigger_no! There are no [locations|e] where they have full support in.",
+  "uk": "@trigger_no! Вони не мають повної підтримки в жодному [Concept('locations', 'районі')|e]."
+ },
+ "REBELS_CABINET_MODIFIER": {
+  "en": "@rebels_default! Rebel monthly progress: #G -0.25%#!",
+  "uk": "@rebels_default! Щомісячний прогрес повстання: #G –0,25%#!"
+ },
+ "REBELS_CATEGORY_estate": {
+  "en": "Estate Rebels",
+  "uk": "Станові повстанці"
+ },
+ "REBELS_CATEGORY_estate_DESC": {
+  "en": "These rebels are working to further the neglected interests of the [ESTATE_TYPE.GetName], and will start a [civil_war|e] when they are ready.",
+  "uk": "Ці повстанці діють в інтересах стану «[ESTATE_TYPE.GetName]», який відчуває, що ним нехтують. Вони розпочнуть [Concept('civil_war', 'громадянську війну')|e], як тільки будуть готові."
+ },
+ "REBELS_CATEGORY_estate_concept": {
+  "en": "[estate_rebels|e]",
+  "uk": ""
+ },
+ "REBELS_CATEGORY_nationalist": {
+  "en": "Nationalist Rebels",
+  "uk": "Націоналістичні повстанці"
+ },
+ "REBELS_CATEGORY_nationalist_DESC": {
+  "en": "These rebels are working towards [CULTURE.GetName] independence. They will create a [revolt|e] when they are ready.",
+  "uk": "Ці повстанці прагнуть до незалежності #L [CULTURE.GetName|l]ої#! культури. Вони розпочнуть [Concept('revolt', 'повстання')|e] одразу, як будуть готові."
+ },
+ "REBELS_CATEGORY_nationalist_concept": {
+  "en": "[nationalist_rebels|e]",
+  "uk": ""
+ },
+ "REBELS_CATEGORY_pretender": {
+  "en": "Pretender Rebels",
+  "uk": "Повстанські претенденти"
+ },
+ "REBELS_CATEGORY_pretender_DESC": {
+  "en": "These rebels are working to replace the [ruler|e] of [REBEL.GetOwner.GetName], and will start a [civil_war|e] when they are ready.",
+  "uk": "Ці повстанці хочуть скинути [Concept('ruler', 'правителя')|e] #ONCLICK:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')],X [REBEL.GetOwner.Custom('CL_RP')|L]#!#!. Вони розпочнуть [Concept('civil_war', 'громадянську війну')|e], як тільки будуть готові."
+ },
+ "REBELS_CATEGORY_pretender_concept": {
+  "en": "[pretender_rebels|e]",
+  "uk": ""
+ },
+ "REBELS_CATEGORY_religious": {
+  "en": "Religious Rebels",
+  "uk": "Релігійні повстанці"
+ },
+ "REBELS_CATEGORY_religious_DESC": {
+  "en": "These rebels are working towards [RELIGION.GetName] independence. They will create a [revolt|e] when they are ready.",
+  "uk": "Ці повстанці прагнуть до незалежності #L [RELIGION.GetAdjective|l]ої#! віри. Вони розпочнуть [Concept('revolt', 'повстання')|e] одразу, як будуть готові."
+ },
+ "REBELS_CATEGORY_religious_DESC_CONVERT": {
+  "en": "These rebels will attempt to start a [civil_war|e] to change the [primary_religion|e] of [REBEL.GetOwner.GetName] to [RELIGION.GetName].",
+  "uk": "Ці повстанці спробують розпочати [Concept('civil_war', 'громадянську війну')|e], щоб [Concept('primary_religion', 'основна релігія')|e] #ONCLICK:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')],X [REBEL.GetOwner.Custom('CL_RP')|L]#!#! змінилася на #L [RELIGION.GetAdjective|l]у#!."
+ },
+ "REBELS_CATEGORY_religious_concept": {
+  "en": "[religious_rebels|e]",
+  "uk": ""
+ },
+ "REBELS_CATEGORY_slave": {
+  "en": "Slave Rebels",
+  "uk": "Повстанські раби"
+ },
+ "REBELS_CATEGORY_slave_DESC": {
+  "en": "The [ShowPopTypeName('slaves')] have had enough and wants to be free, no matter what the cost.",
+  "uk": "[ShowPopTypeName('slaves')] втомилися так жити і хочуть свободи будь-якою ціною."
+ },
+ "REBELS_CATEGORY_slave_concept": {
+  "en": "[slave_rebels|e]",
+  "uk": ""
+ },
+ "REBELS_CURRENT_PROGRESS": {
+  "en": "Current progress: $VAL|%$",
+  "uk": "Поточний прогрес: $VAL|%$"
+ },
+ "REBEL_COUNTRY_BACKING": {
+  "en": "It also has the backing of $NAMES$",
+  "uk": "Повстання також підтримують країни: $NAMES$"
+ },
+ "REBEL_COUNTRY_NEW_RULER": {
+  "en": "\\nThey aim to install [CHARACTER.GetName] as [COUNTRY.GetGovernment.GetRulerTitle] of [COUNTRY.GetLongName].\\n",
+  "uk": "Вимога повстанців: [COUNTRY.GetLongName] — держава, де править [COUNTRY.GetGovernment.GetRulerTitle|l] [CHARACTER.GetName]."
+ },
+ "REBEL_COUNTRY_SUPPORT_ENTRY": {
+  "en": "[COUNTRY.GetLongNameWithFlag]: [COUNTRY.GetTotalTaxBase]",
+  "uk": ""
+ },
+ "REBEL_COUNTRY_SUPPORT_NONE": {
+  "en": "No countries at the moment.",
+  "uk": "Поки держав немає."
+ },
+ "REBEL_DOES_HAVE_SUPPORTERS": {
+  "en": "[Rebel.GetName] are supported by the following [countries|e]:",
+  "uk": "Групу повстанців «[Rebel.GetName]» підтримують наступні [Concept('countries','держави')|e]:"
+ },
+ "REBEL_HOUSE_SUPPORT": {
+  "en": "Backed by [DYNASTY.GetName]: $VAL|2-=%$",
+  "uk": "Підтримка династії [DYNASTY.GetName]: $VAL|2-=%$"
+ },
+ "REBEL_LACK_OF_INTEGRATION": {
+  "en": "Lack of [integration|e]: $VAL|2=-%$",
+  "uk": ""
+ },
+ "REBEL_LEGEND_HAS_SUPPORT": {
+  "en": "Has some rebel support",
+  "uk": ""
+ },
+ "REBEL_LEGEND_WILL_REVOLT": {
+  "en": "Will join the revolt",
+  "uk": ""
+ },
+ "REBEL_LOCATION_TITLE": {
+  "en": "Rebels in [Location.GetNameWithNoTooltip]",
+  "uk": "Повстанці в [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip]"
+ },
+ "REBEL_LOCATION_UNAFFECTED": {
+  "en": "This [location|e] does not support this particular set of [rebels|e].",
+  "uk": "Цей [Concept('location', 'район')|e] не підтримує цих конкретних [Concept('rebels', 'повстанців')|e]."
+ },
+ "REBEL_LOCATION_UNAFFECTED2": {
+  "en": "This [location|e] does not have [pops|e] that are [rebels|e].",
+  "uk": "У цьому [Concept('location','районі')|e] немає [Concept('rebels','повстанських')|e] [Concept('pops','груп населення')|e]."
+ },
+ "REBEL_LOCATION_WILL_REVOLT": {
+  "en": "This [location|e] will join the rebellion if one breaks out!",
+  "uk": "Цей [Concept('location', 'район')|e] приєднається до розпочатого повстання!"
+ },
+ "REBEL_MONTHLY_CHANGE": {
+  "en": "The monthly change of [Rebel.GetMonthlyChange|2-=%] is due to",
+  "uk": "Прогрес змінюється на [Rebel.GetMonthlyChange|2-=%] на місяць через наступні фактори:"
+ },
+ "REBEL_MONTHLY_HEADER": {
+  "en": "Progress of [Rebel.GetNameWithNoTooltip]",
+  "uk": "[Rebel.GetNameWithNoTooltip]: прогрес"
+ },
+ "REBEL_NAME_estate": {
+  "en": "[ESTATE.GetNameWithNoTooltip] Insurgents",
+  "uk": "[ESTATE.GetNameWithNoTooltip]і інсургенти"
+ },
+ "REBEL_NAME_nationalist": {
+  "en": "[CULTURE.GetNameWithNoTooltip] Patriots",
+  "uk": "[CULTURE.GetNameWithNoTooltip]і патріоти"
+ },
+ "REBEL_NAME_pretender": {
+  "en": "[COUNTRY.GetAdjectiveWithNoTooltip] Pretenders",
+  "uk": "[COUNTRY.GetAdjectiveWithNoTooltip]і претенденти"
+ },
+ "REBEL_NAME_religious": {
+  "en": "[RELIGION.GetAdjectiveWithNoTooltip] Zealots",
+  "uk": "[RELIGION.GetAdjectiveWithNoTooltip]і фанатики"
+ },
+ "REBEL_NAME_slave": {
+  "en": "[COUNTRY.GetAdjectiveWithNoTooltip] Slave Uprising",
+  "uk": "Повстання [COUNTRY.GetAdjectiveWithNoTooltip|l]их рабів"
+ },
+ "REBEL_NATIONALISM_CULTURE_WAR": {
+  "en": "[CULTURE.GetName] [cultural_influence|e] vs [TARGET_CULTURE.GetName] [cultural_tradition|e]: $VAL|-=2%$",
+  "uk": "[CULTURE.GetName]ий [Concept('cultural_influence','культурний вплив')|e] проти [TARGET_CULTURE.GetName|l]их [Concept('cultural_tradition','культурних традицій')|e]: $VAL|+=2%$"
+ },
+ "REBEL_NATIONALISM_SOURCE": {
+  "en": "Nationalism\\nBase Nationalism: $VAL|2=-%$",
+  "uk": "Nationalism\\nБазовий nationalism: $VAL|2=-%$"
+ },
+ "REBEL_POP_AND_X_MORE": {
+  "en": "And $VAL|V$ from $NUM$ more different [pops|e].",
+  "uk": "І ще $VAL|V$ від інших [Concept('pops', 'груп населення')|e] ($NUM$)."
+ },
+ "REBEL_POP_ENTRY": {
+  "en": "$POP_TOOLTIP_STRING$",
+  "uk": ""
+ },
+ "REBEL_POWER_OF_SUPPORT": {
+  "en": "Base Rebel [political_power|e]: $VAL|-2V$\\nTotal [political_power|e] of [primary_culture|e]: #G -#!$SIZE|V2+$\\n[political_power|e] of [primary_culture|e] factor: $SIZE_FACTOR|V2+%$\\nScale: $SCALE|V2%$\\nIf the rebel power is over $PERC|%2V$ of the power of primary culture, they get progress.",
+  "uk": "Базова [Concept('political_power','політична вага')|e] повстанців: $VAL|-2V$\\nЗагальна [Concept('political_power', 'політична вага')|e] [Concept('primary_culture', 'основної культури')|e]: #G –#!$SIZE|V2+$\\nФактор [Concept('political_power','політичної ваги')|e] [Concept('primary_culture', 'основної культури')|e]: $SIZE_FACTOR|V2+%$\\nМасштаб: $SCALE|V2%$\\nПовстанці отримують прогрес, якщо їхня політична вага перевищує $PERC|%2V$ політичної ваги основної культури."
+ },
+ "REBEL_PROGRESS_ESTATE": {
+  "en": "[estate_power|e]: $VAL|2-=%$",
+  "uk": "[Concept('estate_power', 'Станова влада')|e]: $VAL|2-=%$"
+ },
+ "REBEL_PROGRESS_ESTATE_INVEST": {
+  "en": "From $GOLD|2$@gold! due to [ESTATE.GetName] investments: $VAL|2-=%$",
+  "uk": "Вкладення стану «[ESTATE.GetName]» ($GOLD|2$@gold!): $VAL|2-=%$"
+ },
+ "REBEL_PROGRESS_FOREIGN": {
+  "en": "Support from [COUNTRY.GetName]: $VAL|2-=%$",
+  "uk": "Підтримка від влади #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!: $VAL|2-=%$"
+ },
+ "REBEL_PROGRESS_LACK_OF_CONTROL": {
+  "en": "From $GOLD|2$@gold! due to lack of [control|e]: $VAL|2-=%$",
+  "uk": "Відсутність [Concept('control','контролю')|e] ($GOLD|2$@gold!): $VAL|2-=%$"
+ },
+ "REBEL_PROGRESS_MODIFIER": {
+  "en": "$REBEL$ Rebel Progress Modifier",
+  "uk": "Модифікатор прогресу повстанців «$REBEL$»"
+ },
+ "REBEL_PROGRESS_NATIONALISM": {
+  "en": "Nationalism: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!",
+  "uk": ""
+ },
+ "REBEL_PROGRESS_POPULATION": {
+  "en": "Support from $POP|V$@population!: $VAL|2-=%$",
+  "uk": ""
+ },
+ "REBEL_PROGRESS_SIZE": {
+  "en": "Power of Support: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!",
+  "uk": "Політична вага підтримки: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!"
+ },
+ "REBEL_STALLED_CIVIL_WAR": {
+  "en": "Frozen due to [civil_war|e].",
+  "uk": "Зупинено через [Concept('civil_war', 'громадянську війну')|e]."
+ },
+ "REBEL_STALLED_NOT_ENOUGH": {
+  "en": "Frozen due to not having enough supporters.",
+  "uk": "Зупинено через недостатню підтримку."
+ },
+ "REBEL_SUPPORT_COUNTRY_TT": {
+  "en": "#T Foreign Support#!\\nThey have support from the following [countries|e]",
+  "uk": "#T Іноземна підтримка#!\\nЇм надають підтримку наступні [Concept('countries', 'держави')|e]"
+ },
+ "REBEL_SUPPORT_HEADER": {
+  "en": "Countries supporting [Rebel.GetNameWithNoTooltip]",
+  "uk": "Держави, які підтримують групу повстанців «[Rebel.GetNameWithNoTooltip]»"
+ },
+ "REBEL_SUPPORT_LOCATION_TT": {
+  "en": "Faction of #T [REBEL.GetName]#!, totalling $POP|Y$ [people|e]:",
+  "uk": "Група повстанців #T «[REBEL.GetName]»#! загальною чисельністю $POP|Y$ [Concept('people', 'осіб')|e]:"
+ },
+ "REBEL_SUPPORT_TT": {
+  "en": "It has the support of $POP|Y$ [pops|e]",
+  "uk": "Є підтримка кількох [Concept('pops', 'груп населення')|e] ($POP|Y$)"
+ },
+ "REBEL_SUPPORT_TT_GROUP_SUM": {
+  "en": "There are $POP|Y$ [pops|e] supporting this:",
+  "uk": "Ці заворушення підтримані [Concept('pops', 'групами населення')|e] ($POP|Y$):"
+ },
+ "REBEL_SUPPORT_TT_TITLE": {
+  "en": "Population Support",
+  "uk": "Підтримка населення"
+ },
+ "REBEL_SUPPRESS_PRIORITY_DESC": {
+  "en": "Armies using the Suppress Rebels automation will be sent to this rebellion before others.",
+  "uk": ""
+ },
+ "REBEL_SUPPRESS_PRIORITY_MARK": {
+  "en": "Mark this rebellion as priority",
+  "uk": ""
+ },
+ "REBEL_SUPPRESS_PRIORITY_TITLE": {
+  "en": "Prioritize Suppression",
+  "uk": ""
+ },
+ "REBEL_SUPPRESS_PRIORITY_TOOLTIP_OFF": {
+  "en": "Prioritize Suppression: #R Inactive#!\\n\\nClick to mark this rebellion as priority. Armies using the Suppress Rebels automation will be sent here before others.",
+  "uk": ""
+ },
+ "REBEL_SUPPRESS_PRIORITY_TOOLTIP_ON": {
+  "en": "Prioritize Suppression: #G Active#!\\n\\nArmies using the Suppress Rebels automation will be sent to this rebellion before others.",
+  "uk": ""
+ },
+ "REBEL_SUPPRESS_PRIORITY_UNMARK": {
+  "en": "Unmark this rebellion as priority",
+  "uk": ""
+ },
+ "REBEL_TT_TEXT_CIVIL_WAR": {
+  "en": "[revolt_icon] These Rebels will start a [revolt|e] when their progress reaches #W 100%#!.",
+  "uk": ""
+ },
+ "REBEL_TT_TEXT_MINOR_REVOLT": {
+  "en": "[minor_revolt_icon] These Rebels will start a [minor_revolt|e] when their progress reaches #W 100%#!.",
+  "uk": ""
+ },
+ "REBEL_TT_TEXT_REVOLT": {
+  "en": "[civil_war_icon] These Rebels will start a [civil_war|e] when their progress reaches #W 100%#!.",
+  "uk": ""
+ },
+ "REBEL_VICTORY_DEMANDS_TOOLTIP_TITLE": {
+  "en": "If They Win",
+  "uk": ""
+ },
+ "REVOLT_NAME_ENTRY": {
+  "en": "$NAME$ Revolt",
+  "uk": "Повстання $NAME$"
+ },
+ "RSI_ENTRY": {
+  "en": "$NAME$: $VAL|2+=%$",
+  "uk": ""
+ },
+ "RSI_ESTATE": {
+  "en": "$BULLET$[estate|e] [ESTATE.GetNameWithNoTooltip] reasons",
+  "uk": ""
+ },
+ "RSI_HEADER": {
+  "en": "Reasons for [pops|e] to support these rebels.",
+  "uk": "Причини, через які [Concept('pops', 'групи населення')|e] підтримують цих повстанців."
+ },
+ "abu_inan_faris_rebels_country": {
+  "en": "$abu_inan_faris_rebels$",
+  "uk": ""
+ },
+ "abu_inan_faris_rebels_country_adjective": {
+  "en": "$abu_inan_faris_rebels$",
+  "uk": ""
+ },
+ "all_other_pops_tt": {
+  "en": "All other [pops|e] loses #R 20#! [pop_satisfaction|e].",
+  "uk": ""
+ },
+ "alpujarras_rebels_country": {
+  "en": "$alpujarras_rebels$",
+  "uk": ""
+ },
+ "alpujarras_rebels_country_adjective": {
+  "en": "$alpujarras_rebels$",
+  "uk": ""
+ },
+ "amboise_revolt_country": {
+  "en": "$amboise_revolt$",
+  "uk": ""
+ },
+ "amboise_revolt_country_adjective": {
+  "en": "$amboise_revolt$",
+  "uk": ""
+ },
+ "anjala_conspirators_country": {
+  "en": "$anjala_conspirators$",
+  "uk": ""
+ },
+ "anjala_conspirators_country_adjective": {
+  "en": "$anjala_conspirators$",
+  "uk": ""
+ },
+ "anti_feudal_revolters_country": {
+  "en": "$anti_feudal_revolters$",
+  "uk": ""
+ },
+ "anti_feudal_revolters_country_adjective": {
+  "en": "$anti_feudal_revolters$",
+  "uk": ""
+ },
+ "aragonese_loyalist_rebels_country": {
+  "en": "$aragonese_loyalist_rebels$",
+  "uk": ""
+ },
+ "aragonese_loyalist_rebels_country_adjective": {
+  "en": "$aragonese_loyalist_rebels$",
+  "uk": ""
+ },
+ "askia_rebels_country": {
+  "en": "$askia_rebels$",
+  "uk": ""
+ },
+ "askia_rebels_country_adjective": {
+  "en": "$askia_rebels$",
+  "uk": ""
+ },
+ "austrian_nobles_country": {
+  "en": "$austrian_nobles$",
+  "uk": ""
+ },
+ "austrian_nobles_country_adjective": {
+  "en": "$austrian_nobles$",
+  "uk": ""
+ },
+ "avis_supporters_country": {
+  "en": "$avis_supporters$",
+  "uk": ""
+ },
+ "avis_supporters_country_adjective": {
+  "en": "$avis_supporters$",
+  "uk": ""
+ },
+ "babington_support_country": {
+  "en": "$babington_support$",
+  "uk": ""
+ },
+ "babington_support_country_adjective": {
+  "en": "$babington_support$",
+  "uk": ""
+ },
+ "bands_of_navarra_country": {
+  "en": "$bands_of_navarra$",
+  "uk": ""
+ },
+ "bands_of_navarra_country_adjective": {
+  "en": "$bands_of_navarra$",
+  "uk": ""
+ },
+ "barquq_supporters_country": {
+  "en": "$barquq_supporters$",
+  "uk": ""
+ },
+ "barquq_supporters_country_adjective": {
+  "en": "$barquq_supporters$",
+  "uk": ""
+ },
+ "beta_israel_country": {
+  "en": "$beta_israel$",
+  "uk": ""
+ },
+ "beta_israel_country_adjective": {
+  "en": "$beta_israel$",
+  "uk": ""
+ },
+ "bethlen_uprising_country": {
+  "en": "$bethlen_uprising$",
+  "uk": ""
+ },
+ "bethlen_uprising_country_adjective": {
+  "en": "$bethlen_uprising$",
+  "uk": ""
+ },
+ "bocskai_uprising_country": {
+  "en": "$bocskai_uprising$",
+  "uk": ""
+ },
+ "bocskai_uprising_country_adjective": {
+  "en": "$bocskai_uprising$",
+  "uk": ""
+ },
+ "bolotnikov_uprising_country": {
+  "en": "$bolotnikov_uprising$",
+  "uk": ""
+ },
+ "bolotnikov_uprising_country_adjective": {
+  "en": "$bolotnikov_uprising$",
+  "uk": ""
+ },
+ "bonaparte_rebels_country": {
+  "en": "$ADJ$ $bonaparte_rebels$",
+  "uk": "$ADJ$і $bonaparte_rebels$"
+ },
+ "bonaparte_rebels_country_adjective": {
+  "en": "$ADJ$ $bonaparte_rebels$",
+  "uk": "$ADJ$і $bonaparte_rebels$"
+ },
+ "bra_peasants_revolt_country": {
+  "en": "$ADJ$ $bra_peasants_revolt$",
+  "uk": "$ADJ$е $bra_peasants_revolt$"
+ },
+ "bra_peasants_revolt_country_adjective": {
+  "en": "$ADJ$ $bra_peasants_revolt$",
+  "uk": "$ADJ$е $bra_peasants_revolt$"
+ },
+ "bra_quitzow_revolt_country": {
+  "en": "$bra_quitzow_revolt$",
+  "uk": ""
+ },
+ "bra_quitzow_revolt_country_adjective": {
+  "en": "$bra_quitzow_revolt$",
+  "uk": ""
+ },
+ "braganca_supporters_country": {
+  "en": "$braganca_supporters$",
+  "uk": ""
+ },
+ "braganca_supporters_country_adjective": {
+  "en": "$braganca_supporters$",
+  "uk": ""
+ },
+ "bulavin_rebellion_country": {
+  "en": "$bulavin_rebellion$",
+  "uk": ""
+ },
+ "bulavin_rebellion_country_adjective": {
+  "en": "$bulavin_rebellion$",
+  "uk": ""
+ },
+ "burhan_al_din_pretenders_country": {
+  "en": "$burhan_al_din_pretenders$",
+  "uk": ""
+ },
+ "burhan_al_din_pretenders_country_adjective": {
+  "en": "$burhan_al_din_pretenders$",
+  "uk": ""
+ },
+ "callergis_rebellion_country": {
+  "en": "$callergis_rebellion$",
+  "uk": ""
+ },
+ "callergis_rebellion_country_adjective": {
+  "en": "$callergis_rebellion$",
+  "uk": ""
+ },
+ "calvinist_huguenots_country": {
+  "en": "$calvinist_huguenots$",
+  "uk": ""
+ },
+ "calvinist_huguenots_country_adjective": {
+  "en": "$calvinist_huguenots$",
+  "uk": ""
+ },
+ "catholic_huguenots_country": {
+  "en": "$catholic_huguenots$",
+  "uk": ""
+ },
+ "catholic_huguenots_country_adjective": {
+  "en": "$catholic_huguenots$",
+  "uk": ""
+ },
+ "celali_uprising_country": {
+  "en": "$celali_uprising$",
+  "uk": ""
+ },
+ "celali_uprising_country_adjective": {
+  "en": "$celali_uprising$",
+  "uk": ""
+ },
+ "chiprovtsi_uprising_country": {
+  "en": "$ADJ$ $chiprovtsi_uprising$",
+  "uk": "$ADJ$е повстання в Чіпровцях"
+ },
+ "chiprovtsi_uprising_country_adjective": {
+  "en": "$ADJ$ $chiprovtsi_uprising$",
+  "uk": "$ADJ$е повстання в Чіпровцях"
+ },
+ "cola_rebels_country": {
+  "en": "$cola_rebels$",
+  "uk": ""
+ },
+ "cola_rebels_country_adjective": {
+  "en": "$cola_rebels$",
+  "uk": ""
+ },
+ "comuneros_rebels_country": {
+  "en": "$comuneros_rebels$",
+  "uk": ""
+ },
+ "comuneros_rebels_country_adjective": {
+  "en": "$comuneros_rebels$",
+  "uk": ""
+ },
+ "cornish_rebellion_country": {
+  "en": "$cornish_rebellion$",
+  "uk": ""
+ },
+ "cornish_rebellion_country_adjective": {
+  "en": "$cornish_rebellion$",
+  "uk": ""
+ },
+ "corsican_independence_fighter_country": {
+  "en": "$corsican_independence_fighter$",
+  "uk": ""
+ },
+ "corsican_independence_fighter_country_adjective": {
+  "en": "$corsican_independence_fighter$",
+  "uk": ""
+ },
+ "counter_revolutionaries_country": {
+  "en": "$ADJ$ $counter_revolutionaries$",
+  "uk": "$ADJ$і $counter_revolutionaries$"
+ },
+ "counter_revolutionaries_country_adjective": {
+  "en": "$ADJ$ $counter_revolutionaries$",
+  "uk": "$ADJ$і $counter_revolutionaries$"
+ },
+ "dai_ho_quy_ly_pretender_rebellion": {
+  "en": "Coup Rebellion",
+  "uk": "Антидержавне повстання"
+ },
+ "dai_ho_quy_ly_pretender_rebellion_country": {
+  "en": "$dai_ho_quy_ly_pretender_rebellion$",
+  "uk": ""
+ },
+ "dai_ho_quy_ly_pretender_rebellion_country_adjective": {
+  "en": "$dai_ho_quy_ly_pretender_rebellion$",
+  "uk": ""
+ },
+ "decembrist_revolt_country": {
+  "en": "$decembrist_revolt$",
+  "uk": ""
+ },
+ "decembrist_revolt_country_adjective": {
+  "en": "$decembrist_revolt$",
+  "uk": ""
+ },
+ "disgruntled_factory_workers_country": {
+  "en": "$ADJ$ Workers",
+  "uk": "$ADJ$і робітники"
+ },
+ "disgruntled_factory_workers_country_adjective": {
+  "en": "$ADJ$ Workers",
+  "uk": "$ADJ$і робітники"
+ },
+ "dobrujan_revolt_country": {
+  "en": "$dobrujan_revolt$",
+  "uk": ""
+ },
+ "dobrujan_revolt_country_adjective": {
+  "en": "$ADJ$ $dobrujan_revolt$",
+  "uk": ""
+ },
+ "enclosure_riots_country": {
+  "en": "$enclosure_riots$",
+  "uk": ""
+ },
+ "enclosure_riots_country_adjective": {
+  "en": "$enclosure_riots$",
+  "uk": ""
+ },
+ "epiphany_rebellion_support_country": {
+  "en": "$epiphany_rebellion_support$",
+  "uk": ""
+ },
+ "epiphany_rebellion_support_country_adjective": {
+  "en": "$epiphany_rebellion_support$",
+  "uk": ""
+ },
+ "estonian_uprising_country": {
+  "en": "$estonian_uprising$",
+  "uk": ""
+ },
+ "estonian_uprising_country_adjective": {
+  "en": "$estonian_uprising$",
+  "uk": ""
+ },
+ "fake_dmitry_pretender_rebels_country": {
+  "en": "$ADJ$ $fake_dmitry_pretender_rebels$",
+  "uk": "$ADJ$і $fake_dmitry_pretender_rebels$"
+ },
+ "fake_dmitry_pretender_rebels_country_adjective": {
+  "en": "$ADJ$ $fake_dmitry_pretender_rebels$",
+  "uk": "$ADJ$і $fake_dmitry_pretender_rebels$"
+ },
+ "false_waldemar_rebel_country": {
+  "en": "$false_waldemar_rebel$",
+  "uk": ""
+ },
+ "false_waldemar_rebel_country_adjective": {
+  "en": "$false_waldemar_rebel$",
+  "uk": ""
+ },
+ "first_irmandino_revolt_country": {
+  "en": "$first_irmandino_revolt$",
+  "uk": ""
+ },
+ "first_irmandino_revolt_country_adjective": {
+  "en": "$first_irmandino_revolt$",
+  "uk": ""
+ },
+ "flavor_nap_masaniello_country": {
+  "en": "$flavor_nap_masaniello$",
+  "uk": ""
+ },
+ "flavor_nap_masaniello_country_adjective": {
+  "en": "$flavor_nap_masaniello$",
+  "uk": ""
+ },
+ "fra_roaming_routiers_faction_country": {
+  "en": "$fra_roaming_routiers_faction$",
+  "uk": ""
+ },
+ "fra_roaming_routiers_faction_country_adjective": {
+  "en": "$fra_roaming_routiers_faction$",
+  "uk": ""
+ },
+ "frisian_independence_fighter_country": {
+  "en": "$frisian_independence_fighter$",
+  "uk": ""
+ },
+ "frisian_independence_fighter_country_adjective": {
+  "en": "$frisian_independence_fighter$",
+  "uk": ""
+ },
+ "fronde_uprising_country": {
+  "en": "$fronde_uprising$",
+  "uk": ""
+ },
+ "fronde_uprising_country_adjective": {
+  "en": "$fronde_uprising$",
+  "uk": ""
+ },
+ "germanies_revolt_country": {
+  "en": "$germanies_revolt$",
+  "uk": ""
+ },
+ "germanies_revolt_country_adjective": {
+  "en": "$germanies_revolt$",
+  "uk": ""
+ },
+ "great_irmandino_revolt_country": {
+  "en": "$great_irmandino_revolt$",
+  "uk": ""
+ },
+ "great_irmandino_revolt_country_adjective": {
+  "en": "$great_irmandino_revolt$",
+  "uk": ""
+ },
+ "greater_polish_uprising_country": {
+  "en": "$greater_polish_uprising$",
+  "uk": ""
+ },
+ "greater_polish_uprising_country_adjective": {
+  "en": "$greater_polish_uprising$",
+  "uk": ""
+ },
+ "hab_salzburger_peasant_revolt_country": {
+  "en": "$hab_salzburger_peasant_revolt$",
+  "uk": ""
+ },
+ "hab_salzburger_peasant_revolt_country_adjective": {
+  "en": "$hab_salzburger_peasant_revolt$",
+  "uk": ""
+ },
+ "hab_tirolean_peasant_revolt_country": {
+  "en": "$hab_tirolean_peasant_revolt$",
+  "uk": ""
+ },
+ "hab_tirolean_peasant_revolt_country_adjective": {
+  "en": "$hab_tirolean_peasant_revolt$",
+  "uk": ""
+ },
+ "hacw_burghers_rebellion_country": {
+  "en": "$ADJ$ $hacw_burghers_rebellion$",
+  "uk": "$ADJ$е повстання міщан"
+ },
+ "hacw_burghers_rebellion_country_adjective": {
+  "en": "$ADJ$ $hacw_burghers_rebellion$",
+  "uk": "$ADJ$е повстання міщан"
+ },
+ "hacw_cod_faction_country": {
+  "en": "$ADJ$ $hacw_cod_faction$",
+  "uk": "$ADJ$а $hacw_cod_faction$"
+ },
+ "hacw_cod_faction_country_adjective": {
+  "en": "$ADJ$ $hacw_cod_faction$",
+  "uk": "$ADJ$а $hacw_cod_faction$"
+ },
+ "hacw_hook_faction_country": {
+  "en": "$ADJ$ $hacw_hook_faction$",
+  "uk": "$ADJ$а $hacw_hook_faction$"
+ },
+ "hacw_hook_faction_country_adjective": {
+  "en": "$ADJ$ $hacw_hook_faction$",
+  "uk": "$ADJ$а $hacw_hook_faction$"
+ },
+ "hacw_nobility_rebellion_country": {
+  "en": "$ADJ$ $hacw_nobility_rebellion$",
+  "uk": "$ADJ$е повстання аристократів"
+ },
+ "hacw_nobility_rebellion_country_adjective": {
+  "en": "$ADJ$ $hacw_nobility_rebellion$",
+  "uk": "$ADJ$е повстання аристократів"
+ },
+ "hanan_qusqu_rebels_country": {
+  "en": "$hanan_qusqu_rebels$",
+  "uk": ""
+ },
+ "hanan_qusqu_rebels_country_adjective": {
+  "en": "$hanan_qusqu_rebels$",
+  "uk": ""
+ },
+ "henry_tudor_support_country": {
+  "en": "$henry_tudor_support$",
+  "uk": ""
+ },
+ "henry_tudor_support_country_adjective": {
+  "en": "$henry_tudor_support$",
+  "uk": ""
+ },
+ "horde_civil_war_pretender": {
+  "en": "Rivaling Warlord of [COUNTRY.GetNameWithNoTooltip]",
+  "uk": "Повстанський воєначальник [COUNTRY.Custom('CL_RP')]"
+ },
+ "horde_civil_war_pretender_country": {
+  "en": "$ADJ$ Rival Warlord",
+  "uk": "$ADJ$ий повстанський воєначальник"
+ },
+ "horde_civil_war_pretender_country_adjective": {
+  "en": "$ADJ$ Rival Warlord's",
+  "uk": "$ADJ$ий повстанський воєначальник"
+ },
+ "house_of_ewostatewos_name_country": {
+  "en": "$house_of_ewostatewos_name$",
+  "uk": ""
+ },
+ "house_of_ewostatewos_name_country_adjective": {
+  "en": "$house_of_ewostatewos_name$",
+  "uk": ""
+ },
+ "hurufism_followers": {
+  "en": "Hurufism Followers",
+  "uk": "Послідовники хуруфізму"
+ },
+ "hurufism_followers_country": {
+  "en": "$hurufism_followers$",
+  "uk": ""
+ },
+ "hurufism_followers_country_adjective": {
+  "en": "$hurufism_followers$",
+  "uk": ""
+ },
+ "hussite_rebellion_country": {
+  "en": "$ADJ$ $hussite_rebellion$",
+  "uk": "$ADJ$е $hussite_rebellion$"
+ },
+ "hussite_rebellion_country_adjective": {
+  "en": "$ADJ$ $hussite_rebellion$",
+  "uk": "$ADJ$е $hussite_rebellion$"
+ },
+ "jacobite_uprising_country": {
+  "en": "$jacobite_uprising$",
+  "uk": ""
+ },
+ "jacobite_uprising_country_adjective": {
+  "en": "$jacobite_uprising$",
+  "uk": ""
+ },
+ "jacquerie_revolt_country": {
+  "en": "$jacquerie_revolt$",
+  "uk": ""
+ },
+ "jacquerie_revolt_country_adjective": {
+  "en": "$jacquerie_revolt$",
+  "uk": ""
+ },
+ "jane_grey_support_country": {
+  "en": "$jane_grey_support$",
+  "uk": ""
+ },
+ "jane_grey_support_country_adjective": {
+  "en": "$jane_grey_support$",
+  "uk": ""
+ },
+ "janissary_revolt_country": {
+  "en": "$ADJ$ $janissary_revolt$",
+  "uk": "$ADJ$е $janissary_revolt$"
+ },
+ "janissary_revolt_country_adjective": {
+  "en": "Janissary",
+  "uk": "Яничари"
+ },
+ "joseon_pretender_country": {
+  "en": "$joseon_pretender$",
+  "uk": ""
+ },
+ "joseon_pretender_country_adjective": {
+  "en": "$joseon_pretender$",
+  "uk": ""
+ },
+ "kapilendra_rebels_country": {
+  "en": "$kapilendra_rebels$",
+  "uk": ""
+ },
+ "kapilendra_rebels_country_adjective": {
+  "en": "$kapilendra_rebels$",
+  "uk": ""
+ },
+ "karelian_independence_fighter_country": {
+  "en": "$karelian_independence_fighter$",
+  "uk": ""
+ },
+ "karelian_independence_fighter_country_adjective": {
+  "en": "$karelian_independence_fighter$",
+  "uk": ""
+ },
+ "kett_rebellion_country": {
+  "en": "$kett_rebellion$",
+  "uk": ""
+ },
+ "kett_rebellion_country_adjective": {
+  "en": "$kett_rebellion$",
+  "uk": ""
+ },
+ "khlopko_rebellion_country": {
+  "en": "$khlopko_rebellion$",
+  "uk": ""
+ },
+ "khlopko_rebellion_country_adjective": {
+  "en": "$khlopko_rebellion$",
+  "uk": ""
+ },
+ "korean_pretender_mutiny": {
+  "en": "General Mutiny",
+  "uk": "Бунт полководця"
+ },
+ "korean_pretender_mutiny_country": {
+  "en": "$korean_pretender_mutiny$",
+  "uk": ""
+ },
+ "korean_pretender_mutiny_country_adjective": {
+  "en": "$korean_pretender_mutiny$",
+  "uk": ""
+ },
+ "lancaster_rebel_name_country": {
+  "en": "$lancaster_rebel_name$",
+  "uk": ""
+ },
+ "lancaster_rebel_name_country_adjective": {
+  "en": "$lancaster_rebel_name$",
+  "uk": ""
+ },
+ "le_loi_rebellion": {
+  "en": "$le_dynasty$ Dynasty Revolt",
+  "uk": "Повстання династії $le_dynasty$"
+ },
+ "le_loi_rebellion_country": {
+  "en": "$le_dynasty$ Dynasty Revolt",
+  "uk": "Повстання династії $le_dynasty$"
+ },
+ "le_loi_rebellion_country_adjective": {
+  "en": "$le_dynasty$ Dynasty Revolt",
+  "uk": "Повстання династії $le_dynasty$"
+ },
+ "lollard_uprising_country": {
+  "en": "$lollard_uprising$",
+  "uk": ""
+ },
+ "lollard_uprising_country_adjective": {
+  "en": "$lollard_uprising$",
+  "uk": ""
+ },
+ "lords_appellant_country": {
+  "en": "$lords_appellant$",
+  "uk": ""
+ },
+ "lords_appellant_country_adjective": {
+  "en": "$lords_appellant$",
+  "uk": ""
+ },
+ "lutheran_huguenots_country": {
+  "en": "$lutheran_huguenots$",
+  "uk": ""
+ },
+ "lutheran_huguenots_country_adjective": {
+  "en": "$lutheran_huguenots$",
+  "uk": ""
+ },
+ "mailberger_noble_rebels_country": {
+  "en": "$mailberger_noble_rebels$",
+  "uk": ""
+ },
+ "mailberger_noble_rebels_country_adjective": {
+  "en": "$mailberger_noble_rebels$",
+  "uk": ""
+ },
+ "majapahit_pretender_rebels": {
+  "en": "Pretender Rebellion",
+  "uk": "Бунт претендента"
+ },
+ "majapahit_pretender_rebels_country": {
+  "en": "$majapahit_pretender_rebels$",
+  "uk": ""
+ },
+ "majapahit_pretender_rebels_country_adjective": {
+  "en": "$majapahit_pretender_rebels$",
+  "uk": ""
+ },
+ "mal_pretender_rebels_country": {
+  "en": "$mal_pretender_rebels$",
+  "uk": ""
+ },
+ "mal_pretender_rebels_country_adjective": {
+  "en": "$mal_pretender_rebels$",
+  "uk": ""
+ },
+ "mal_provoked_military_forces_country": {
+  "en": "$mal_provoked_military_forces$",
+  "uk": ""
+ },
+ "mal_provoked_military_forces_country_adjective": {
+  "en": "$mal_provoked_military_forces$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_balanta_country": {
+  "en": "$mal_separatists_rebels_balanta$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_balanta_country_adjective": {
+  "en": "$mal_separatists_rebels_balanta$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_country": {
+  "en": "$ADJ$ $mal_separatists_rebels$",
+  "uk": "$ADJ$і $mal_separatists_rebels$"
+ },
+ "mal_separatists_rebels_country_adjective": {
+  "en": "$ADJ$ $mal_separatists_rebels$",
+  "uk": "$ADJ$і $mal_separatists_rebels$"
+ },
+ "mal_separatists_rebels_fulbe_country": {
+  "en": "$mal_separatists_rebels_fulbe$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_fulbe_country_adjective": {
+  "en": "$mal_separatists_rebels_fulbe$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_jola_country": {
+  "en": "$mal_separatists_rebels_jola$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_jola_country_adjective": {
+  "en": "$mal_separatists_rebels_jola$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_manjak_country": {
+  "en": "$mal_separatists_rebels_manjak$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_manjak_country_adjective": {
+  "en": "$mal_separatists_rebels_manjak$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_songhai_country": {
+  "en": "$mal_separatists_rebels_songhai$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_songhai_country_adjective": {
+  "en": "$mal_separatists_rebels_songhai$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_soninke_country": {
+  "en": "$mal_separatists_rebels_soninke$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_soninke_country_adjective": {
+  "en": "$mal_separatists_rebels_soninke$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_tuareg_country": {
+  "en": "$mal_separatists_rebels_tuareg$",
+  "uk": ""
+ },
+ "mal_separatists_rebels_tuareg_country_adjective": {
+  "en": "$mal_separatists_rebels_tuareg$",
+  "uk": ""
+ },
+ "mamluk_pretender_country": {
+  "en": "$ADJ$ $mamluk_pretender$",
+  "uk": "$ADJ$ий мамлюцький претендент"
+ },
+ "mamluk_pretender_country_adjective": {
+  "en": "$ADJ$ $mamluk_pretender$",
+  "uk": "$ADJ$ий мамлюцький претендент"
+ },
+ "marinid_pretender_rebels_country": {
+  "en": "$marinid_pretender_rebels$",
+  "uk": ""
+ },
+ "marinid_pretender_rebels_country_adjective": {
+  "en": "$marinid_pretender_rebels$",
+  "uk": ""
+ },
+ "mortimer_uprising_country": {
+  "en": "$mortimer_uprising$",
+  "uk": ""
+ },
+ "mortimer_uprising_country_adjective": {
+  "en": "$mortimer_uprising$",
+  "uk": ""
+ },
+ "mutapa_rebels_country": {
+  "en": "$mutapa_rebels$",
+  "uk": ""
+ },
+ "mutapa_rebels_country_adjective": {
+  "en": "$mutapa_rebels$",
+  "uk": ""
+ },
+ "nikephoros_ii_orsini_revolt_country": {
+  "en": "$nikephoros_ii_orsini_revolt$",
+  "uk": ""
+ },
+ "nikephoros_ii_orsini_revolt_country_adjective": {
+  "en": "$ADJ$ $Orsini$",
+  "uk": ""
+ },
+ "noble_enemies_to_the_mandate_country": {
+  "en": "$ADJ$ $noble_enemies_to_the_mandate$",
+  "uk": "$ADJ$і $noble_enemies_to_the_mandate$"
+ },
+ "noble_enemies_to_the_mandate_country_adjective": {
+  "en": "$ADJ$ $noble_enemies_to_the_mandate$",
+  "uk": "$ADJ$і $noble_enemies_to_the_mandate$"
+ },
+ "nobles_revolt_country": {
+  "en": "$ADJ$ $nobles_revolt$",
+  "uk": "$ADJ$е $nobles_revolt$"
+ },
+ "nobles_revolt_country_adjective": {
+  "en": "$ADJ$ $nobles_revolt$",
+  "uk": "$ADJ$е $nobles_revolt$"
+ },
+ "northern_rebellion_country": {
+  "en": "$northern_rebellion$",
+  "uk": ""
+ },
+ "northern_rebellion_country_adjective": {
+  "en": "$northern_rebellion$",
+  "uk": ""
+ },
+ "owain_glyndar_rebels_country": {
+  "en": "$owain_glyndar_rebels$",
+  "uk": ""
+ },
+ "owain_glyndar_rebels_country_adjective": {
+  "en": "$owain_glyndar_rebels$",
+  "uk": ""
+ },
+ "parliamentarist_rebels_country": {
+  "en": "$ADJ$ $parliamentarist_rebels$",
+  "uk": "$ADJ$і $parliamentarist_rebels$"
+ },
+ "parliamentarist_rebels_country_adjective": {
+  "en": "$ADJ$ $parliamentarist_rebels$",
+  "uk": "$ADJ$і $parliamentarist_rebels$"
+ },
+ "parliamentary_rebellion_country": {
+  "en": "$ADJ$ $parliamentary_rebellion$",
+  "uk": "$ADJ$е $parliamentary_rebellion$"
+ },
+ "parliamentary_rebellion_country_adjective": {
+  "en": "$ADJ$ $parliamentary_rebellion$",
+  "uk": "$ADJ$е $parliamentary_rebellion$"
+ },
+ "peasant_revolt_country": {
+  "en": "$ADJ$ $peasant_revolt$",
+  "uk": "$ADJ$е $peasant_revolt$"
+ },
+ "peasant_revolt_country_adjective": {
+  "en": "$ADJ$ $peasant_revolt$",
+  "uk": "$ADJ$е $peasant_revolt$"
+ },
+ "percy_and_mortimer_uprising_country": {
+  "en": "$percy_and_mortimer_uprising$",
+  "uk": ""
+ },
+ "percy_and_mortimer_uprising_country_adjective": {
+  "en": "$percy_and_mortimer_uprising$",
+  "uk": ""
+ },
+ "percy_uprising_country": {
+  "en": "$percy_uprising$",
+  "uk": ""
+ },
+ "percy_uprising_country_adjective": {
+  "en": "$percy_uprising$",
+  "uk": ""
+ },
+ "pilgrimage_of_grace_rebellion_country": {
+  "en": "$pilgrimage_of_grace_rebellion$",
+  "uk": ""
+ },
+ "pilgrimage_of_grace_rebellion_country_adjective": {
+  "en": "$pilgrimage_of_grace_rebellion$",
+  "uk": ""
+ },
+ "plc_chmielnicki_uprising_country": {
+  "en": "$plc_chmielnicki_uprising$",
+  "uk": ""
+ },
+ "plc_chmielnicki_uprising_country_adjective": {
+  "en": "$plc_chmielnicki_uprising$",
+  "uk": ""
+ },
+ "plc_confederation_rebelname_country": {
+  "en": "$ADJ$ $plc_confederation_rebelname$",
+  "uk": "$ADJ$а $plc_confederation_rebelname$"
+ },
+ "plc_confederation_rebelname_country_adjective": {
+  "en": "$ADJ$ $plc_confederation_rebelname$",
+  "uk": "$ADJ$а $plc_confederation_rebelname$"
+ },
+ "portuguese_muslim_uprising_country": {
+  "en": "$portuguese_muslim_uprising$",
+  "uk": ""
+ },
+ "portuguese_muslim_uprising_country_adjective": {
+  "en": "$portuguese_muslim_uprising$",
+  "uk": ""
+ },
+ "praguerie_revolt_country": {
+  "en": "$praguerie_revolt$",
+  "uk": ""
+ },
+ "praguerie_revolt_country_adjective": {
+  "en": "$praguerie_revolt$",
+  "uk": ""
+ },
+ "pretender_rebels": {
+  "en": "[pretender_rebels_icon] Pretender",
+  "uk": "[pretender_rebels_icon] Претендент"
+ },
+ "protestant_association_country": {
+  "en": "$protestant_association$",
+  "uk": ""
+ },
+ "protestant_association_country_adjective": {
+  "en": "$protestant_association$",
+  "uk": ""
+ },
+ "prussian_confederation_country": {
+  "en": "$prussian_confederation$",
+  "uk": ""
+ },
+ "prussian_confederation_country_adjective": {
+  "en": "$prussian_confederation$",
+  "uk": ""
+ },
+ "pugatchev_uprising_country": {
+  "en": "$pugatchev_uprising$",
+  "uk": ""
+ },
+ "pugatchev_uprising_country_adjective": {
+  "en": "$pugatchev_uprising$",
+  "uk": ""
+ },
+ "qajar_pretenders_country": {
+  "en": "$ADJ$ $qajar_pretenders$",
+  "uk": "$ADJ$і каджарські претенденти"
+ },
+ "qajar_pretenders_country_adjective": {
+  "en": "$ADJ$ $qajar_pretenders$",
+  "uk": "$ADJ$і каджарські претенденти"
+ },
+ "qizilbash_uprising_country": {
+  "en": "$ADJ$ $qizilbash_uprising$",
+  "uk": "$ADJ$е $qizilbash_uprising$"
+ },
+ "qizilbash_uprising_country_adjective": {
+  "en": "$ADJ$ $qizilbash_uprising$",
+  "uk": "$ADJ$е $qizilbash_uprising$"
+ },
+ "rakoczi_uprising_country": {
+  "en": "$rakoczi_uprising$",
+  "uk": ""
+ },
+ "rakoczi_uprising_country_adjective": {
+  "en": "$rakoczi_uprising$",
+  "uk": ""
+ },
+ "rebellious_masses_name": {
+  "en": "Rebellious Masses of [COUNTRY.GetNameWithNoTooltip]",
+  "uk": "Повстанські маси [COUNTRY.Custom('CL_RP')]"
+ },
+ "rebellious_masses_name_country": {
+  "en": "$ADJ$ Rebellious Masses",
+  "uk": "$ADJ$і повстанські маси"
+ },
+ "rebellious_masses_name_country_adjective": {
+  "en": "$ADJ$ Rebellious Masses",
+  "uk": "$ADJ$і повстанські маси"
+ },
+ "rebellious_prince_name_country": {
+  "en": "$rebellious_prince_name$",
+  "uk": ""
+ },
+ "rebellious_prince_name_country_adjective": {
+  "en": "$rebellious_prince_name$",
+  "uk": ""
+ },
+ "rev_reactionary_rebels_country": {
+  "en": "$ADJ$ Reactionaries",
+  "uk": "$ADJ$і реакціонери"
+ },
+ "rev_reactionary_rebels_country_adjective": {
+  "en": "$ADJ$ Reactionary",
+  "uk": "$ADJ$ий реакціонер"
+ },
+ "revolutionary_rebel": {
+  "en": "[COUNTRY.GetAdjectiveWithNoTooltip] Revolutionaries",
+  "uk": "[COUNTRY.GetAdjectiveWithNoTooltip|U]і революціонери"
+ },
+ "revolutionary_rebel_country": {
+  "en": "$ADJ$ Revolutionaries",
+  "uk": "$ADJ$і революціонери"
+ },
+ "revolutionary_rebel_country_adjective": {
+  "en": "$ADJ$ Revolutionaries",
+  "uk": "$ADJ$і революціонери"
+ },
+ "revolutionary_rebels_country": {
+  "en": "$ADJ$ $revolutionary_rebels$",
+  "uk": "$ADJ$і $revolutionary_rebels$"
+ },
+ "revolutionary_rebels_country_adjective": {
+  "en": "$ADJ$ $revolutionary_rebels$",
+  "uk": "$ADJ$і $revolutionary_rebels$"
+ },
+ "rival_branch_sayfawa_country": {
+  "en": "$rival_branch_sayfawa$",
+  "uk": ""
+ },
+ "rival_branch_sayfawa_country_adjective": {
+  "en": "$rival_branch_sayfawa$",
+  "uk": ""
+ },
+ "rozwi_rebels_country": {
+  "en": "$rozwi_rebels$",
+  "uk": ""
+ },
+ "rozwi_rebels_country_adjective": {
+  "en": "$rozwi_rebels$",
+  "uk": ""
+ },
+ "rsi_accepted": {
+  "en": "[accepted_culture|e]",
+  "uk": "[Concept('accepted_culture','Визнана культура')|e]"
+ },
+ "rsi_culture": {
+  "en": "[cultural_opinion|e]",
+  "uk": "[Concept('cultural_opinion', 'Думка про культуру')|e]"
+ },
+ "rsi_estate": {
+  "en": "[estate|e]",
+  "uk": "[Concept('estate', 'Стан')|e]"
+ },
+ "rsi_events": {
+  "en": "[events|e]",
+  "uk": "[Concept('events', 'Події')|e]"
+ },
+ "rsi_goods": {
+  "en": "Cost of [pop_needs|e]",
+  "uk": "Вартість задоволення [Concept('pop_needs', 'потреб населення')|e]"
+ },
+ "rsi_interventions": {
+  "en": "local [building|e] built",
+  "uk": "побудовано місцеву [Concept('building', 'споруду')|e]"
+ },
+ "rsi_lack_of_goods": {
+  "en": "Lack of [pop_needs|e]",
+  "uk": "Нестача товарів для задоволення [Concept('pop_needs', 'потреб населення')|e]"
+ },
+ "rsi_primary": {
+  "en": "[primary_culture|e]",
+  "uk": "[Concept('primary_culture', 'Основна культура')|e]"
+ },
+ "rsi_religion": {
+  "en": "[religion|e]",
+  "uk": "[Concept('religion','Релігія')|e]"
+ },
+ "rsi_separatism": {
+  "en": "[separatism|e]",
+  "uk": "[Concept('separatism', 'Сепаратизм')|e]"
+ },
+ "rsi_slave": {
+  "en": "Slave",
+  "uk": ""
+ },
+ "rsi_tolerance": {
+  "en": "[tolerance|e]",
+  "uk": "[Concept('tolerance', 'Терпимість')|e]"
+ },
+ "rsi_tolerated": {
+  "en": "[tolerated_culture|e]",
+  "uk": "[Concept('tolerated_culture', 'Прийнятна культура')|e]"
+ },
+ "rsi_unrest": {
+  "en": "Local [unrest|e]",
+  "uk": "Місцеві [Concept('unrest', 'заворушення')|e]"
+ },
+ "salt_riot_country": {
+  "en": "$salt_riot$",
+  "uk": ""
+ },
+ "salt_riot_country_adjective": {
+  "en": "$salt_riot$",
+  "uk": ""
+ },
+ "serb_uprising_country": {
+  "en": "$ADJ$ $serb_uprising$",
+  "uk": "$ADJ$е Сербське повстання"
+ },
+ "serb_uprising_country_adjective": {
+  "en": "$ADJ$ $serb_uprising$",
+  "uk": "$ADJ$е Сербське повстання"
+ },
+ "sforza_rebellion_country": {
+  "en": "$sforza_rebellion$",
+  "uk": ""
+ },
+ "sforza_rebellion_country_adjective": {
+  "en": "$sforza_rebellion$",
+  "uk": ""
+ },
+ "shays_rebellion_country": {
+  "en": "$shays_rebellion$",
+  "uk": ""
+ },
+ "shays_rebellion_country_adjective": {
+  "en": "$shays_rebellion$",
+  "uk": ""
+ },
+ "skhariya_sect_rebels_country": {
+  "en": "$skhariya_sect_rebels$",
+  "uk": ""
+ },
+ "skhariya_sect_rebels_country_adjective": {
+  "en": "$skhariya_sect_rebels$",
+  "uk": ""
+ },
+ "slave_rebels": {
+  "en": "Slave",
+  "uk": "рабів"
+ },
+ "stenka_razin_country": {
+  "en": "$stenka_razin$",
+  "uk": ""
+ },
+ "stenka_razin_country_adjective": {
+  "en": "$stenka_razin$",
+  "uk": ""
+ },
+ "styria_noble_rebels_country": {
+  "en": "$styria_noble_rebels$",
+  "uk": ""
+ },
+ "styria_noble_rebels_country_adjective": {
+  "en": "$styria_noble_rebels$",
+  "uk": ""
+ },
+ "succession_crisis_pretender_country": {
+  "en": "$ADJ$ Pretender Rebellion",
+  "uk": "Повстання $ADJ$их претендентів"
+ },
+ "succession_crisis_pretender_country_adjective": {
+  "en": "$ADJ$ Pretender Rebellion",
+  "uk": "Повстання $ADJ$их претендентів"
+ },
+ "tamil_uprising_country": {
+  "en": "$tamil_uprising$",
+  "uk": ""
+ },
+ "tamil_uprising_country_adjective": {
+  "en": "$tamil_uprising$",
+  "uk": ""
+ },
+ "test_rebels_country": {
+  "en": "$ADJ$ $test_rebels$",
+  "uk": "$ADJ$і $test_rebels$"
+ },
+ "test_rebels_country_adjective": {
+  "en": "$ADJ$ $test_rebels$",
+  "uk": "$ADJ$і $test_rebels$"
+ },
+ "thessaloniki_uprising_country": {
+  "en": "$thessaloniki_uprising$",
+  "uk": ""
+ },
+ "thessaloniki_uprising_country_adjective": {
+  "en": "$thessaloniki_uprising$",
+  "uk": ""
+ },
+ "thessaly_revolt_country": {
+  "en": "$ADJ$ $thessaly_revolt$",
+  "uk": "$ADJ$е Фессалійське повстання"
+ },
+ "thessaly_revolt_country_adjective": {
+  "en": "$ADJ$ $thessaly_revolt$",
+  "uk": "$ADJ$е Фессалійське повстання"
+ },
+ "tran_rebellion": {
+  "en": "[ShowDynastyNameWithNoTooltip('tran_dynasty')] Dynasty Revolt",
+  "uk": "Повстання династії [ShowDynastyNameWithNoTooltip('tran_dynasty')]"
+ },
+ "tran_rebellion_country": {
+  "en": "$DAI$",
+  "uk": ""
+ },
+ "tran_rebellion_country_adjective": {
+  "en": "$DAI_ADJ$",
+  "uk": ""
+ },
+ "transylvanian_independence_fighter_country": {
+  "en": "$transylvanian_independence_fighter$",
+  "uk": ""
+ },
+ "transylvanian_independence_fighter_country_adjective": {
+  "en": "$transylvanian_independence_fighter$",
+  "uk": ""
+ },
+ "tupac_rebellion": {
+  "en": "Rebellion of Tupac Amaru",
+  "uk": "Повстання Тупака Амару"
+ },
+ "tupac_rebellion_country": {
+  "en": "Rebellion of Tupac Amaru",
+  "uk": "Повстання Тупака Амару"
+ },
+ "tupac_rebellion_country_adjective": {
+  "en": "Rebellion of Tupac Amaru",
+  "uk": "Повстання Тупака Амару"
+ },
+ "tyrone_rebellion_country": {
+  "en": "$tyrone_rebellion$",
+  "uk": ""
+ },
+ "tyrone_rebellion_country_adjective": {
+  "en": "$tyrone_rebellion$",
+  "uk": ""
+ },
+ "union_of_aragon_name_country": {
+  "en": "$ADJ$ Union Rebels",
+  "uk": "Повстанці $ADJ$ої унії"
+ },
+ "union_of_aragon_name_country_adjective": {
+  "en": "Union Rebels'",
+  "uk": "Повстанці унії"
+ },
+ "upset_nobles_pretender_country": {
+  "en": "$ADJ$ $upset_nobles_pretender$",
+  "uk": "$ADJ$і $upset_nobles_pretender$"
+ },
+ "upset_nobles_pretender_country_adjective": {
+  "en": "$ADJ$ $upset_nobles_pretender$",
+  "uk": "$ADJ$і $upset_nobles_pretender$"
+ },
+ "uzama_revolt_country": {
+  "en": "$uzama_revolt$",
+  "uk": ""
+ },
+ "uzama_revolt_country_adjective": {
+  "en": "$uzama_revolt$",
+  "uk": ""
+ },
+ "war_of_succession_pretender_country": {
+  "en": "$war_of_succession_pretender$",
+  "uk": ""
+ },
+ "war_of_succession_pretender_country_adjective": {
+  "en": "$war_of_succession_pretender$",
+  "uk": ""
+ },
+ "wat_tyler_rebellion_country": {
+  "en": "$wat_tyler_rebellion$",
+  "uk": ""
+ },
+ "wat_tyler_rebellion_country_adjective": {
+  "en": "$wat_tyler_rebellion$",
+  "uk": ""
+ },
+ "wattasid_rebels_country": {
+  "en": "$wattasid_rebels$",
+  "uk": ""
+ },
+ "wattasid_rebels_country_adjective": {
+  "en": "$wattasid_rebels$",
+  "uk": ""
+ },
+ "white_lotus_rebellion_country": {
+  "en": "$white_lotus_rebellion$",
+  "uk": ""
+ },
+ "white_lotus_rebellion_country_adjective": {
+  "en": "$white_lotus_rebellion$",
+  "uk": ""
+ },
+ "winter_events.100.rebel_name_country": {
+  "en": "$winter_events.100.rebel_name$",
+  "uk": ""
+ },
+ "winter_events.100.rebel_name_country_adjective": {
+  "en": "$winter_events.100.rebel_name$",
+  "uk": ""
+ },
+ "york_rebel_name_country": {
+  "en": "$york_rebel_name$",
+  "uk": ""
+ },
+ "york_rebel_name_country_adjective": {
+  "en": "$york_rebel_name$",
+  "uk": ""
+ },
+ "zwingli_support_rebels_country": {
+  "en": "$zwingli_support_rebels$",
+  "uk": ""
+ },
+ "zwingli_support_rebels_country_adjective": {
+  "en": "$zwingli_support_rebels$",
+  "uk": ""
+ }
+}

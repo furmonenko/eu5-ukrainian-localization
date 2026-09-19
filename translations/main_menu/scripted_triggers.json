@@ -1,0 +1,2270 @@
+{
+ "CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "A [cabinet_member|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "Can adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "Can change their [government|e]",
+  "uk": "Є можливість змінити [Concept('government','уряд')|e]"
+ },
+ "CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE": {
+  "en": "Must be the [overlord|e]'s [primary_culture|e]",
+  "uk": ""
+ },
+ "CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE": {
+  "en": "Must be the [overlord|e]'s [primary_culture|e] or a #Y Kindred#! culture",
+  "uk": ""
+ },
+ "CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "Diplomatic status allows the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Дипломатичний статус дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "CAN_HAVE_PARLIAMENT_CALLED_BY_TEXT": {
+  "en": "Can have its [parliament|e] be called by [TARGET_COUNTRY.GetName]",
+  "uk": "[Concept('parliament','Парламент')|e] може бути скликаний #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "CHARACTER_IN_COMBAT_TRIGGER": {
+  "en": "Is leading a [unit|e] in active [combat|e]",
+  "uk": "Очолює [Concept('unit','загін')|e] в активних [Concept('combat','бойових діях')|e]"
+ },
+ "CHARACTER_IS_THE_GREAT_RULER": {
+  "en": "[CHARACTER.GetName] is [COUNTRY.MakeScope.GetVariable('dynamic_the_great_character').GetCharacter.GetName]",
+  "uk": ""
+ },
+ "COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "[TARGET_LOCATION.GetName] can build [BUILDING_TYPE.GetName]",
+  "uk": "У районі [TARGET_LOCATION.GetName] може бути споруджено будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "Has joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Було вступлення до будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "Has left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Був вихід з будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "COUNTRY_HAS_SUFISM": {
+  "en": "[COUNTRY.GetName] has a Sufi [religious_school|e] as the main school or as an [invited_religious_figure|e]",
+  "uk": "У державі [COUNTRY.GetName] є суфійська [Concept('religious_school','релігійна школа')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "CURRENT_CELESTIAL_AUTHORITY_TRIGGER": {
+  "en": "Current #Y $celestial_authority$#! of the [GetUniqueInternationalOrganization('middle_kingdom').GetName] is at least $VALUE|Y$ (currently: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V0]#!)",
+  "uk": "Поточний #Y небесний авторитет#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Держави#!#! становить не менше ніж $VALUE|Y$ (зараз: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V0]#!)"
+ },
+ "CURRENT_IMPERIAL_AUTHORITY_TRIGGER": {
+  "en": "Current #Y $imperial_authority$#! of the [GetUniqueInternationalOrganization('hre').GetName] is at least $VALUE|Y$ (currently: #Y [GetUniqueInternationalOrganization('hre').MakeScope.GetVariable('imperial_authority').GetValue|V0]#!)",
+  "uk": "Поточна #Y імперська влада#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! становить не менше ніж $VALUE|Y$ (зараз: #Y [GetUniqueInternationalOrganization('hre').MakeScope.GetVariable('imperial_authority').GetValue|V0]#!)"
+ },
+ "FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "One of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "FIRST_CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "We can adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "FIRST_CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "We can change our [government|e]",
+  "uk": "Ми можемо змінити [Concept('government','уряд')|e]"
+ },
+ "FIRST_CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "Our diplomatic status allows the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Наш дипломатичний статус дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "FIRST_COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "We can build [BUILDING_TYPE.GetName] in [TARGET_LOCATION.GetName]",
+  "uk": "Ми можемо спорудити будівлю типу «[BUILDING_TYPE.GetName]» у районі [TARGET_LOCATION.GetName]"
+ },
+ "FIRST_COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "We have joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Ми вступили до будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "FIRST_COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "We have left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Ми вийшли з будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "FIRST_COUNTRY_HAS_SUFISM": {
+  "en": "We have a Sufi [religious_school|e] as the main school or as an [invited_religious_figure|e]",
+  "uk": "У нас є суфійська [Concept('religious_school','релігійна школа')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "FIRST_HAD_DISASTER_TRIGGER": {
+  "en": "We had the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "У нас сталося [Concept('disaster','лихо')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "FIRST_HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "We have abstained our vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "Ми утрималися від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "FIRST_HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "We have access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "У нас є доступ до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "FIRST_HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "We can NOT have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» НЕ може статися у нас"
+ },
+ "FIRST_HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "We have a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "FIRST_HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "We have enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "Ми дозволили статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "FIRST_HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "We have enabled the [MISSION.GetName] [mission|e]",
+  "uk": "Ми дозволили [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "FIRST_HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "We have enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "Ми допустили [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "FIRST_HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "We have an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "Наші [Concept('heir_selections','правила престолонаслідування')|e] дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "FIRST_HAS_HISTORICAL_RIVALS": {
+  "en": "We have #Y Historical Rivals#!",
+  "uk": "У нас є #Y історичні суперники#!"
+ },
+ "FIRST_HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "We have locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Ми закріпили [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "FIRST_HAS_OR_HAD_GREAT_RULER": {
+  "en": "We have or had a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "У нас був або є [Concept('ruler','правитель')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "FIRST_HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "We have proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "Ми пропонуємо розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "We have unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "Ми розблокували [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "We have unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "У нас розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "FIRST_HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "We have unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "Ми розблокували тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "We have unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "Ми розблокували [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "We have unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "Ми розблокували [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "We have unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "Ми розблокували [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "We have unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "Ми розблокували [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "We have unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "Ми розблокували [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "We have unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "Ми розблокували [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "We have unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "Ми розблокували [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "We have unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "Ми розблокували [Concept('law','правило')|e] «[LAW.GetName]» #Y в усьому світі#!"
+ },
+ "FIRST_HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "We have unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "Ми розблокували [Concept('policy','політику')|e] «[POLICY.GetName]» #Y в усьому світі#!"
+ },
+ "FIRST_HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "We have unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "Ми розблокували [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "We have unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "Ми розблокували [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "We have unlocked the [LAW.GetName] [law|e]",
+  "uk": "Ми розблокували [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "We have unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "Ми розблокували [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "We have unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "Ми розблокували [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "We have unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "Ми розблокували [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "We have unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Ми розблокували [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "We have unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Ми розблокували [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "We have unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Ми розблокували [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "We have unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "Ми розблокували [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "We have unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Ми розблокували [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "We have unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "Ми розблокували [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "We have unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "Ми розблокували [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "We have unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "Ми розблокували [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "We have unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "Ми розблокували [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "We have unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Ми розблокували [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "We have unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "Ми розблокували [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "We have unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "Ми розблокували [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "We have unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "Ми розблокували [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "We have unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Ми розблокували [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "FIRST_HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "We have unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "Ми розблокували [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "FIRST_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "The [international_organization|e] has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в [Concept('international_organization','міжнародному об'єднанні')|e] $VALUE|Y0$ або нижче"
+ },
+ "FIRST_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "The [international_organization|e] has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» у [Concept('international_organization','міжнародному об'єднанні')|e] $VALUE|Y0$ або вище"
+ },
+ "FIRST_HRE_HAS_UNLOCKED_LAW": {
+  "en": "We have unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми розблокували [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "FIRST_HRE_IMPERIAL_RELIGION": {
+  "en": "We have locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми закріпили [RELIGION.GetName|l] як [Concept('imperial_religion', 'імперську релігію')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre,X #L Священної Римської Імперії#!#!"
+ },
+ "FIRST_IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] є #Y авраамічною#! релігією"
+ },
+ "FIRST_IS_ALLIED_WITH": {
+  "en": "We are [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Ми є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "FIRST_IS_EMPEROR_TRIGGER": {
+  "en": "We are the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "FIRST_IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "Our [ruler|e] is [excommunicated|e]",
+  "uk": "Наш [Concept('ruler','правитель')|e] [Concept('excommunicated','відлучений від церкви')|e]"
+ },
+ "FIRST_IS_FAVORING_GOD": {
+  "en": "We are favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] у нас є обраним божеством"
+ },
+ "FIRST_IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "We are independent or a [ShowSubjectTypeName('tributary')]",
+  "uk": "Ми — незалежний суб'єкт або #TOOLTIP:SUBJECT_TYPE,tributary,X #L данник#!#!"
+ },
+ "FIRST_IS_HEATHEN_TRIGGER": {
+  "en": "Our [religion|e] is considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає нашу [Concept('religion','релігію')|e] #Y язичництвом#! "
+ },
+ "FIRST_IS_HERETIC_TRIGGER": {
+  "en": "Our [religion|e] is considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає нашу [Concept('religion','релігію')|e] #Y єрессю#! "
+ },
+ "FIRST_IS_IN_DEFENSIVE_WAR": {
+  "en": "We are in a defensive [war|e]",
+  "uk": "Ми ведемо оборонну [Concept('war','війну')|e]"
+ },
+ "FIRST_IS_IN_OFFENSIVE_WAR": {
+  "en": "We are in an offensive [war|e]",
+  "uk": "Ми ведемо наступальну [Concept('war','війну')|e]"
+ },
+ "FIRST_IS_IN_UNION_TRIGGER": {
+  "en": "We are in a [union|e]",
+  "uk": "Ми перебуваємо в [Concept('union','унії')|e]"
+ },
+ "FIRST_IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "We are leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "Ми є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "FIRST_IS_PROTESTANT_TRIGGER": {
+  "en": "Our [religion|e] is part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "Наша [Concept('religion','релігія')|e] належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "FIRST_IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "We are either no [subject|e] or a subject which allows [alliances|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Ми або не є [Concept('subject','васалом')|e], або є васалом з можливістю укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "FIRST_JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "We are a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Ми є [Concept('junior_partner','молодшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!.."
+ },
+ "FIRST_SAME_DYNASTY_AS": {
+  "en": "We have the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "У нас та ж [Concept('dynasty','династія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "FIRST_SENIOR_UNION_WITH_TRIGGER": {
+  "en": "We are the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Ми є [Concept('senior_partner','старшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "FIRST_SMARTISM_BALANCED_GODS": {
+  "en": "We worship all [gods|e] equally",
+  "uk": "Ми шануємо усіх [Concept('gods','богів')|e] однаковою мірою"
+ },
+ "FIRST_WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "We have been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "На нас було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикт#!#! протягом останніх #Y 30 років#!"
+ },
+ "HAD_DISASTER_TRIGGER": {
+  "en": "Had the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» сталося"
+ },
+ "HAD_SITUATION_TRIGGER": {
+  "en": "The [SITUATION.GetName] [situation|e] has happened",
+  "uk": "[Concept('situation','Ситуація')|e] «[SITUATION.GetName]» сталася"
+ },
+ "HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "Has abstained its vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "Відмова від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "Has access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "Є доступ до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "Can NOT have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» НЕ може статися"
+ },
+ "HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "Has a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "HAS_CONSISTENT_INTEGRATION_LEVEL_TRIGGER": {
+  "en": "Has a consistent [union_integration_level|e] with all its [members|e]",
+  "uk": "Має стабільний [Concept('union_integration_level','рівень інтеграції')|e] усіх [Concept('members','учасників')|e]"
+ },
+ "HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "Has enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "Дозволено статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "Has enabled the [MISSION.GetName] [mission|e]",
+  "uk": "Дозволено [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "Has enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "Допущено [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "Has an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "[Concept('heir_selections','Правила престолонаслідування')|e] дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "HAS_HISTORICAL_RIVALS": {
+  "en": "Has #Y Historical Rivals#!",
+  "uk": "Є #Y історичні суперники#!"
+ },
+ "HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "Has locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Закріплено [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "HAS_OR_HAD_GREAT_RULER": {
+  "en": "Has or had a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "Був або є [Concept('ruler','правитель')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "Has proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "Пропонує розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "Has unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "Розблоковано [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "Has unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "Розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "Has unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "Розблоковано тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "Has unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "Розблоковано [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "Has unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "Розблоковано [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "Has unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "Розблоковано [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "Has unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "Розблоковано [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "Has unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "Розблоковано [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "Has unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "Розблоковано [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "Has unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "Розблоковано [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "Has unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "[Concept('law','Правило')|e] «[LAW.GetName]» розблоковано #Y в усьому світі#!"
+ },
+ "HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "Has unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "[Concept('policy','Політика')|e] «[POLICY.GetName]» розблокована #Y в усьому світі#!"
+ },
+ "HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "Has unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "Розблоковано [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "Has unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "Розблоковано [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "Has unlocked the [LAW.GetName] [law|e]",
+  "uk": "Розблоковано [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "Has unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "Розблоковано [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "Has unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "Розблоковано [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "Has unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "Розблоковано [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "Has unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Розблоковано [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "Has unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Розблоковано [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "Has unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Розблоковано [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "Has unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "Розблоковано [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "Has unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Розблоковано [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "Has unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "Розблоковано [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "Has unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "Розблоковано [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "Has unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "Розблоковано [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "Has unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "Розблоковано [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "Has unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Розблоковано [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "Has unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "Розблоковано [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "Has unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "Розблоковано [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "Has unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "Розблоковано [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "Has unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Розблоковано [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "Has unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "Розблоковано [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "HAS_VALID_POLICY_VOTE_PROPOSER": {
+  "en": "The Proposer of the [ShowResolutionName('policy_vote')] [resolution|e] exists",
+  "uk": "Є той, хто пропонує [Concept('resolution','резолюцію')|e] «#TOOLTIP:RESOLUTION,policy_vote,X #L Обговорення правил#!#!»"
+ },
+ "HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "Has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» $VALUE|Y0$ або нижче"
+ },
+ "HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "Has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» $VALUE|Y0$ або вище"
+ },
+ "HRE_HAS_LOCKED_LAW": {
+  "en": "[GetUniqueInternationalOrganization('hre').GetName] has locked the [LAW.GetName] [law|e]",
+  "uk": "У #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! закріплено [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "HRE_HAS_UNLOCKED_LAW": {
+  "en": "Has unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Розблоковано [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "HRE_IMPERIAL_RELIGION": {
+  "en": "Has locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Розблоковано таку [Concept('imperial_religion','імперську релігію')|e] для організації «[GetUniqueInternationalOrganization('hre').GetName]»: [RELIGION.GetName]"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW": {
+  "en": "The [TARGET_LAW.GetName] [law|e] is locked and cannot be changed anymore",
+  "uk": "[Concept('law','Правило')|e] «[TARGET_LAW.GetName]» зафіксовано і більше не може бути змінено"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "Has unlocked the [LAW.GetName] [law|e]",
+  "uk": "Розблоковано [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "Has unlocked the [TARGET_PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Розблоковано [Concept('parliament_agenda','парламентську вимогу')|e] «[TARGET_PARLIAMENT_AGENDA.GetName]»"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "Has unlocked the [TARGET_PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Розблоковано [Concept('parliament_issue','парламентське питання')|e] «[TARGET_PARLIAMENT_ISSUE.GetName]»"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "Has unlocked the [TARGET_PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Розблоковано [Concept('parliament_type','тип парламенту')|e] «[TARGET_PARLIAMENT_TYPE.GetName]»"
+ },
+ "INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "Has unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Розблоковано [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] є #Y авраамічною#! релігією"
+ },
+ "IS_ALLIED_WITH": {
+  "en": "Is [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "IS_CAPITAL_OF": {
+  "en": "Is the [capital|E] of [TARGET_COUNTRY.GetName]",
+  "uk": "Є [Concept('capital','столицею')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "IS_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "Is [construction_material|e]",
+  "uk": "Є [Concept('construction_material','будівельним матеріалом')|e]"
+ },
+ "IS_EMPEROR_TRIGGER": {
+  "en": "Is the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "Is [excommunicated|e]",
+  "uk": "[Concept('excommunicated','Відлучення від церкви')|e]"
+ },
+ "IS_FAVORING_GOD": {
+  "en": "Is favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] є обраним божеством"
+ },
+ "IS_FINALISING": {
+  "en": "Is #Y finalizing#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "Is independent or a [ShowSubjectTypeName('tributary')]",
+  "uk": "Це незалежний суб'єкт або #TOOLTIP:SUBJECT_TYPE,tributary,X #L данник#!#!"
+ },
+ "IS_HEATHEN_TRIGGER": {
+  "en": "The [religion|e] is considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає [Concept('religion','релігію')|e] #Y язичництвом#! "
+ },
+ "IS_HERETIC_TRIGGER": {
+  "en": "The [religion|e] is considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає [Concept('religion','релігію')|e] #Y єрессю#! "
+ },
+ "IS_IN_DEFENSIVE_WAR": {
+  "en": "Is in a defensive [war|e]",
+  "uk": "Веде оборонну [Concept('war','війну')|e]"
+ },
+ "IS_IN_OFFENSIVE_WAR": {
+  "en": "Is in an offensive [war|e]",
+  "uk": "Веде наступальну [Concept('war','війну')|e]"
+ },
+ "IS_IN_UNION_TRIGGER": {
+  "en": "Is in a [union|e]",
+  "uk": "В [Concept('union','унії')|e]"
+ },
+ "IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "Is leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "Є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "IS_PROPOSAL": {
+  "en": "Is a #Y Proposal#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "IS_PROTESTANT_TRIGGER": {
+  "en": "The [religion|e] is part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "[Concept('religion','Релігія')|e] належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "IS_RELIGIOUS_WAR": {
+  "en": "Is a religiously motivated [war|e]",
+  "uk": "Веде релігійну [Concept('war','війну')|e]"
+ },
+ "IS_SAME_RULER_PERSONAL_UNION_TRIGGER": {
+  "en": "Is a true [union|e] under a single [ruler|e]",
+  "uk": "Це істинна [Concept('union','унія')|e] з єдиним [Concept('ruler','правителем')|e]"
+ },
+ "IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "Is either no [subject|e] or a subject which allows [alliances|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Або не [Concept('subject','васал')|e], або васал з можливістю укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "IS_VOTE": {
+  "en": "Is a #Y Vote#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "Is a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Це [Concept('junior_partner','молодший партнер')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!."
+ },
+ "LAW_CAN_BE_INITIATED_BY_MEMBERS": {
+  "en": "Can be initiated by [members|e] of an [international_organization|e]",
+  "uk": "Може бути ініційовано [Concept('members','учасниками')|e] [Concept('international_organization','міжнародного об'єднання')|e]"
+ },
+ "LOCATION_AND_OWNER_CAN_BUILD": {
+  "en": "[LOCATION.GetOwner.GetName] can build [BUILDING_TYPE.GetName]",
+  "uk": "[LOCATION.GetOwner.GetName] може спорудити будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "No [cabinet_member|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "NOT_CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "Can NOT adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "Can NOT change their [government|e]",
+  "uk": "НЕМАЄ можливості змінити [Concept('government','уряд')|e]"
+ },
+ "NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE": {
+  "en": "Must NOT be the [overlord|e]'s [primary_culture|e]",
+  "uk": ""
+ },
+ "NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE": {
+  "en": "Must NOT be the [overlord|e]'s [primary_culture|e] or a #Y Kindred#! culture",
+  "uk": ""
+ },
+ "NOT_CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "Diplomatic status does NOT allow the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Дипломатичний статус НЕ дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_CAN_HAVE_PARLIAMENT_CALLED_BY_TEXT": {
+  "en": "Can NOT have its [parliament|e] be called by [TARGET_COUNTRY.GetName]",
+  "uk": "[Concept('parliament','Парламент')|e] НЕ може бути скликаний #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_CHARACTER_IN_COMBAT_TRIGGER": {
+  "en": "Is NOT leading a [unit|e] in active [combat|e]",
+  "uk": "НЕ очолює [Concept('unit','загін')|e] в активних [Concept('combat','бойових діях')|e]"
+ },
+ "NOT_CHARACTER_IS_THE_GREAT_RULER": {
+  "en": "[CHARACTER.GetName] is NOT [COUNTRY.MakeScope.GetVariable('dynamic_the_great_character').GetCharacter.GetName]",
+  "uk": "[CHARACTER.GetName] — НЕ [COUNTRY.MakeScope.GetVariable('dynamic_the_great_character').GetCharacter.GetName]"
+ },
+ "NOT_COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "[TARGET_LOCATION.GetName] can NOT build [BUILDING_TYPE.GetName]",
+  "uk": "У районі [TARGET_LOCATION.GetName] НЕ може бути споруджено будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "Has NOT joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "НЕ було вступлень до [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "Has NOT left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "НЕ було виходів з [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_COUNTRY_HAS_SUFISM": {
+  "en": "[COUNTRY.GetName] has NOT a Sufi [religious_school|e] as the main school nor as an [invited_religious_figure|e]",
+  "uk": "У державі [COUNTRY.GetName] НЕМАЄ суфійської [Concept('religious_school','релігійної школи')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "NOT_CURRENT_CELESTIAL_AUTHORITY_TRIGGER": {
+  "en": "Current #Y $celestial_authority$#! of the [GetUniqueInternationalOrganization('middle_kingdom').GetName] is less than $VALUE|Y$ (currently: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V0]#!)",
+  "uk": "Поточний #Y небесний авторитет#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Держави#!#! становить менше ніж $VALUE|Y$ (зараз: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V0]#!)"
+ },
+ "NOT_CURRENT_IMPERIAL_AUTHORITY_TRIGGER": {
+  "en": "Current #Y $imperial_authority$#! of the [GetUniqueInternationalOrganization('hre').GetName] is less than $VALUE|Y$ (currently: #Y [GetUniqueInternationalOrganization('hre').MakeScope.GetVariable('imperial_authority').GetValue|V0]#!)",
+  "uk": "Поточна #Y імперська влада#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! становить менше ніж $VALUE|Y$ (зараз: #Y [GetUniqueInternationalOrganization('hre').MakeScope.GetVariable('imperial_authority').GetValue|V0]#!)"
+ },
+ "NOT_FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "None of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "NOT_FIRST_CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "We can NOT adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_FIRST_CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "We can NOT change our [government|e]",
+  "uk": "Ми НЕ можемо змінити [Concept('government','уряд')|e]"
+ },
+ "NOT_FIRST_CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "Our diplomatic status does NOT allow the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Наш дипломатичний статус НЕ дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_FIRST_COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "We can NOT build [BUILDING_TYPE.GetName] in [TARGET_LOCATION.GetName]",
+  "uk": "Ми НЕ можемо спорудити будівлю типу «[BUILDING_TYPE.GetName]» у районі [TARGET_LOCATION.GetName]"
+ },
+ "NOT_FIRST_COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "We have NOT joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Ми НЕ вступали до [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_FIRST_COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "We have NOT left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Ми НЕ виходили з [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_FIRST_COUNTRY_HAS_SUFISM": {
+  "en": "We have NOT a Sufi [religious_school|e] as the main school nor as an [invited_religious_figure|e]",
+  "uk": "У нас НЕМАЄ суфійської [Concept('religious_school','релігійної школи')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "NOT_FIRST_HAD_DISASTER_TRIGGER": {
+  "en": "We had NOT the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "У нас НЕ сталося [Concept('disaster','лихо')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "We have NOT abstained our vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "Ми НЕ утрималися від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "We do NOT have access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "У нас НЕМАЄ доступу до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "NOT_FIRST_HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "We can have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» може статися у нас"
+ },
+ "NOT_FIRST_HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "We do NOT have a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_FIRST_HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "We have NOT enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "Ми НЕ дозволили статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "We have NOT enabled the [MISSION.GetName] [mission|e]",
+  "uk": "Ми НЕ дозволили [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_FIRST_HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "We have NOT enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "Ми НЕ допустили [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "NOT_FIRST_HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "We do NOT have an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "Наші [Concept('heir_selections','правила престолонаслідування')|e] НЕ дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "NOT_FIRST_HAS_HISTORICAL_RIVALS": {
+  "en": "We have NOT #Y Historical Rivals#!",
+  "uk": "У нас немає #Y історичних суперників#!"
+ },
+ "NOT_FIRST_HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "We have NOT locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Ми НЕ закріпили [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "NOT_FIRST_HAS_OR_HAD_GREAT_RULER": {
+  "en": "We have and had NOT a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "У нас НЕМАЄ і не було [Concept('ruler','правителя')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "NOT_FIRST_HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "We have NOT proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "Ми НЕ пропонуємо розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "We have NOT unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "Ми НЕ розблокували [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "We have NOT unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "У нас НЕ розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "We have NOT unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "Ми НЕ розблокували тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "We have NOT unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "Ми НЕ розблокували [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "We have NOT unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "Ми НЕ розблокували [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "We have NOT unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "Ми НЕ розблокували [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "We have NOT unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "Ми НЕ розблокували [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "We have NOT unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "Ми НЕ розблокували [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "We have NOT unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "Ми НЕ розблокували [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "We have NOT unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "Ми НЕ розблокували [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "We have NOT unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "Ми НЕ розблокували [Concept('law','правило')|e] «[LAW.GetName]» #Y в усьому світі#!"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "We have NOT unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "Ми НЕ розблокували [Concept('policy','політику')|e] «[POLICY.GetName]» #Y в усьому світі#!"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "We have NOT unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "Ми НЕ розблокували [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "We have NOT unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "Ми НЕ розблокували [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "We have NOT unlocked the [LAW.GetName] [law|e]",
+  "uk": "Ми НЕ розблокували [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "We have NOT unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "Ми НЕ розблокували [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "We have NOT unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "Ми НЕ розблокували [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "We have NOT unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "Ми НЕ розблокували [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "We have NOT unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Ми НЕ розблокували [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "We have NOT unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Ми НЕ розблокували [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "We have NOT unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Ми НЕ розблокували [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "We have NOT unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "Ми НЕ розблокували [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "We have NOT unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Ми НЕ розблокували [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "We have NOT unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "Ми НЕ розблокували [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "We have NOT unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "Ми НЕ розблокували [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "We have NOT unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "Ми НЕ розблокували [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "We have NOT unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "Ми НЕ розблокували [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "We have NOT unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "Ми НЕ розблокували [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "We have NOT unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "Ми НЕ розблокували [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "We have NOT unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "Ми НЕ розблокували [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "We have NOT unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "Ми НЕ розблокували [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "We have NOT unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Ми НЕ розблокували [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "We have NOT unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "Ми НЕ розблокували [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "NOT_FIRST_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "The [international_organization|e] has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в [Concept('international_organization','міжнародному об'єднанні')|e] НЕ $VALUE|Y0$ або нижче"
+ },
+ "NOT_FIRST_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "The [international_organization|e] has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» у [Concept('international_organization','міжнародному об'єднанні')|e] НЕ $VALUE|Y0$ або вище"
+ },
+ "NOT_FIRST_HRE_HAS_UNLOCKED_LAW": {
+  "en": "We have NOT unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми НЕ розблокували [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "NOT_FIRST_HRE_IMPERIAL_RELIGION": {
+  "en": "We have NOT locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми НЕ закріпили [RELIGION.GetName|l] як [Concept('imperial_religion', 'імперську релігію')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre,X #L Священної Римської Імперії#!#!"
+ },
+ "NOT_FIRST_IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is NOT #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] НЕ є #Y авраамічною#! релігією"
+ },
+ "NOT_FIRST_IS_ALLIED_WITH": {
+  "en": "We are NOT [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Ми НЕ є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_FIRST_IS_EMPEROR_TRIGGER": {
+  "en": "We are NOT the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Ми НЕ є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "NOT_FIRST_IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "Our [ruler|e] is NOT [excommunicated|e]",
+  "uk": "Наш [Concept('ruler','правитель')|e] НЕ [Concept('excommunicated','відлучений від церкви')|e]"
+ },
+ "NOT_FIRST_IS_FAVORING_GOD": {
+  "en": "We are NOT favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] у нас НЕ є обраним божеством"
+ },
+ "NOT_FIRST_IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "We are a subject other than a [ShowSubjectTypeName('tributary')]",
+  "uk": "Ми — суб'єкт, що не є #TOOLTIP:SUBJECT_TYPE,tributary,X #L данником#!#!"
+ },
+ "NOT_FIRST_IS_HEATHEN_TRIGGER": {
+  "en": "Our [religion|e] is NOT considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає нашу [Concept('religion','релігію')|e] #Y язичництвом#! "
+ },
+ "NOT_FIRST_IS_HERETIC_TRIGGER": {
+  "en": "Our [religion|e] is NOT considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає нашу [Concept('religion','релігію')|e] #Y єрессю#! "
+ },
+ "NOT_FIRST_IS_IN_DEFENSIVE_WAR": {
+  "en": "We are NOT in a defensive [war|e]",
+  "uk": "Ми НЕ ведемо оборонну [Concept('war','війну')|e]"
+ },
+ "NOT_FIRST_IS_IN_OFFENSIVE_WAR": {
+  "en": "We are NOT in an offensive [war|e]",
+  "uk": "Ми НЕ ведемо наступальну [Concept('war','війну')|e]"
+ },
+ "NOT_FIRST_IS_IN_UNION_TRIGGER": {
+  "en": "We are NOT in a [union|e]",
+  "uk": "Ми НЕ перебуваємо в [Concept('union','унії')|e]"
+ },
+ "NOT_FIRST_IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "We are NOT leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "Ми НЕ є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "NOT_FIRST_IS_PROTESTANT_TRIGGER": {
+  "en": "Our [religion|e] is NOT part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "Наша [Concept('religion','релігія')|e] НЕ належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "NOT_FIRST_IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "We are a [subject|e] with limited diplomacy which cannot [ally|e] [TARGET_COUNTRY.GetName]",
+  "uk": "Ми є [Concept('subject','васалом')|e] з обмеженими дипломатичними правами, що не дозволяють укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_FIRST_JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "We are NOT a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Ми НЕ є [Concept('junior_partner','молодшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_FIRST_SAME_DYNASTY_AS": {
+  "en": "We have NOT the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "У нас НЕ та ж [Concept('dynasty','династія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "NOT_FIRST_SENIOR_UNION_WITH_TRIGGER": {
+  "en": "We are NOT the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Ми НЕ є [Concept('senior_partner','старшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_FIRST_SMARTISM_BALANCED_GODS": {
+  "en": "We do NOT worship all [gods|e] equally",
+  "uk": "Ми НЕ шануємо усіх [Concept('gods','богів')|e] однаковою мірою"
+ },
+ "NOT_FIRST_WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "We have NOT been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "На нас НЕ було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикту#!#! протягом останніх #Y 30 років#!"
+ },
+ "NOT_HAD_DISASTER_TRIGGER": {
+  "en": "Had NOT the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» НЕ сталося"
+ },
+ "NOT_HAD_SITUATION_TRIGGER": {
+  "en": "The [SITUATION.GetName] [situation|e] has NOT happened",
+  "uk": "[Concept('situation','Ситуація')|e] «[SITUATION.GetName]» НЕ сталася"
+ },
+ "NOT_HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "Has NOT abstained its vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "НЕМАЄ відмови від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "NOT_HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "Does NOT have access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "НЕМАЄ доступу до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "NOT_HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "Can have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» може статися"
+ },
+ "NOT_HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "Does NOT have a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_HAS_CONSISTENT_INTEGRATION_LEVEL_TRIGGER": {
+  "en": "Does NOT have a consistent [union_integration_level|e] with all its [members|e]",
+  "uk": "НЕ має стабільного [Concept('union_integration_level','рівня інтеграції')|e] усіх [Concept('members','учасників')|e]"
+ },
+ "NOT_HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "Has NOT enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "НЕ дозволено статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "NOT_HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "Has NOT enabled the [MISSION.GetName] [mission|e]",
+  "uk": "НЕ дозволено [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "Has NOT enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "НЕ допущено [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "NOT_HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "Does NOT have an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "[Concept('heir_selections','Правила престолонаслідування')|e] НЕ дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "NOT_HAS_HISTORICAL_RIVALS": {
+  "en": "Has NOT #Y Historical Rivals#!",
+  "uk": "Немає #Y історичних суперників#!"
+ },
+ "NOT_HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "Has NOT locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "НЕ закріплено [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "NOT_HAS_OR_HAD_GREAT_RULER": {
+  "en": "Has and had NOT a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "НЕМАЄ і не було [Concept('ruler','правителя')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "NOT_HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "Has NOT proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "НЕ пропонує розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "Has NOT unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "НЕ розблоковано [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "Has NOT unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "НЕ розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "NOT_HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "Has NOT unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "НЕ розблоковано тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "Has NOT unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "НЕ розблоковано [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "Has NOT unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "НЕ розблоковано [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "Has NOT unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "НЕ розблоковано [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "Has NOT unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "НЕ розблоковано [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "Has NOT unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "НЕ розблоковано [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "Has NOT unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "НЕ розблоковано [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "Has NOT unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "НЕ розблоковано [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "Has NOT unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "[Concept('law','Правило')|e] «[LAW.GetName]» НЕ розблоковано #Y в усьому світі#!"
+ },
+ "NOT_HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "Has NOT unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "[Concept('policy','Політика')|e] «[POLICY.GetName]» НЕ розблокована #Y в усьому світі#!"
+ },
+ "NOT_HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "Has NOT unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "НЕ розблоковано [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "Has NOT unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "НЕ розблоковано [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "Has NOT unlocked the [LAW.GetName] [law|e]",
+  "uk": "НЕ розблоковано [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "Has NOT unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "НЕ розблоковано [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "Has NOT unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "НЕ розблоковано [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "Has NOT unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "НЕ розблоковано [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "Has NOT unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "Has NOT unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "Has NOT unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "Has NOT unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "НЕ розблоковано [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "Has NOT unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "НЕ розблоковано [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "Has NOT unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "НЕ розблоковано [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "Has NOT unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "НЕ розблоковано [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "Has NOT unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "НЕ розблоковано [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "Has NOT unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "НЕ розблоковано [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "Has NOT unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "НЕ розблоковано [Concept('religious_aspect','релігійну особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "Has NOT unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "НЕ розблоковано [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "Has NOT unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "НЕ розблоковано [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "Has NOT unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "НЕ розблоковано [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "Has NOT unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Не розблоковано [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "NOT_HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "Has NOT unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "НЕ розблоковано [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "NOT_HAS_VALID_POLICY_VOTE_PROPOSER": {
+  "en": "The Proposer of the [ShowResolutionName('policy_vote')] [resolution|e] does NOT exist",
+  "uk": "НЕМАЄ того, хто пропонує [Concept('resolution','резолюцію')|e] «#TOOLTIP:RESOLUTION,policy_vote,X #L Обговорення правил#!#!»"
+ },
+ "NOT_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "Has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» НЕ $VALUE|Y0$ або нижче"
+ },
+ "NOT_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "Has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» НЕ $VALUE|Y0$ або вище"
+ },
+ "NOT_HRE_HAS_LOCKED_LAW": {
+  "en": "[GetUniqueInternationalOrganization('hre').GetName] has NOT locked the [LAW.GetName] [law|e]",
+  "uk": "У #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! НЕ закріплено [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_HRE_HAS_UNLOCKED_LAW": {
+  "en": "Has NOT unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "НЕ розблоковано [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "NOT_HRE_IMPERIAL_RELIGION": {
+  "en": "Has NOT locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "НЕ розблоковано таку [Concept('imperial_religion','імперську релігію')|e] для організації «[GetUniqueInternationalOrganization('hre').GetName]»: [RELIGION.GetName]"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW": {
+  "en": "The [TARGET_LAW.GetName] [law|e] is NOT locked and can be changed",
+  "uk": "[Concept('law','Правило')|e] «[TARGET_LAW.GetName]» НЕ зафіксовано і може бути змінено"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "Has NOT unlocked the [LAW.GetName] [law|e]",
+  "uk": "НЕ розблоковано [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "Has NOT unlocked the [TARGET_PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_agenda','парламентську вимогу')|e] «[TARGET_PARLIAMENT_AGENDA.GetName]»"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "Has NOT unlocked the [TARGET_PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_issue','парламентське питання')|e] «[TARGET_PARLIAMENT_ISSUE.GetName]»"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "Has NOT unlocked the [TARGET_PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "НЕ розблоковано [Concept('parliament_type','тип парламенту')|e] «[TARGET_PARLIAMENT_TYPE.GetName]»"
+ },
+ "NOT_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "Has NOT unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "НЕ розблоковано [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "NOT_IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is NOT #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] НЕ є #Y авраамічною#! релігією"
+ },
+ "NOT_IS_ALLIED_WITH": {
+  "en": "Is NOT [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "НЕ є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_IS_CAPITAL_OF": {
+  "en": "Is NOT the [capital|E] of [TARGET_COUNTRY.GetName]",
+  "uk": "НЕ є [Concept('capital','столицею')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_IS_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "Is NOT [construction_material|e]",
+  "uk": "НЕ є [Concept('construction_material','будівельним матеріалом')|e]"
+ },
+ "NOT_IS_EMPEROR_TRIGGER": {
+  "en": "Is NOT the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "НЕ є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "NOT_IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "Is NOT [excommunicated|e]",
+  "uk": "НЕМАЄ [Concept('excommunicated','відлучення від церкви')|e]"
+ },
+ "NOT_IS_FAVORING_GOD": {
+  "en": "Is NOT favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] НЕ є обраним божеством"
+ },
+ "NOT_IS_FINALISING": {
+  "en": "Is NOT #Y finalizing#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "Is a subject other than a [ShowSubjectTypeName('tributary')]",
+  "uk": "Це суб'єкт, що не є #TOOLTIP:SUBJECT_TYPE,tributary,X #L данником#!#!"
+ },
+ "NOT_IS_HEATHEN_TRIGGER": {
+  "en": "The [religion|e] is NOT considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає [Concept('religion','релігію')|e] #Y язичництвом#! "
+ },
+ "NOT_IS_HERETIC_TRIGGER": {
+  "en": "The [religion|e] is NOT considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає [Concept('religion','релігію')|e] #Y єрессю#! "
+ },
+ "NOT_IS_IN_DEFENSIVE_WAR": {
+  "en": "Is NOT in a defensive [war|e]",
+  "uk": "НЕ веде оборонну [Concept('war','війну')|e]"
+ },
+ "NOT_IS_IN_OFFENSIVE_WAR": {
+  "en": "Is NOT in an offensive [war|e]",
+  "uk": "НЕ веде наступальну [Concept('war','війну')|e]"
+ },
+ "NOT_IS_IN_UNION_TRIGGER": {
+  "en": "Is NOT in a [union|e]",
+  "uk": "НЕ в [Concept('union','унії')|e]"
+ },
+ "NOT_IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "Is NOT leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "НЕ є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "NOT_IS_PROPOSAL": {
+  "en": "Is NOT a #Y Proposal#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_IS_PROTESTANT_TRIGGER": {
+  "en": "The [religion|e] is NOT part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "[Concept('religion','Релігія')|e] НЕ належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "NOT_IS_RELIGIOUS_WAR": {
+  "en": "Is NOT a religiously motivated [war|e]",
+  "uk": "Не веде релігійну [Concept('war','війну')|e]"
+ },
+ "NOT_IS_SAME_RULER_PERSONAL_UNION_TRIGGER": {
+  "en": "Is NOT a true [union|e] under a single [ruler|e]",
+  "uk": "Це НЕ істинна [Concept('union','унія')|e] з єдиним [Concept('ruler','правителем')|e]"
+ },
+ "NOT_IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "Is a [subject|e] with limited diplomacy which cannot [ally|e] [TARGET_COUNTRY.GetName]",
+  "uk": "[Concept('subject','Васал')|e] з обмеженими дипломатичними правами, що не дозволяють укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_IS_VOTE": {
+  "en": "Is NOT a #Y Vote#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "Is NOT a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Це НЕ [Concept('junior_partner','молодший партнер')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!."
+ },
+ "NOT_LAW_CAN_BE_INITIATED_BY_MEMBERS": {
+  "en": "Can be initiated by the [international_organization_leader_short|e] of an [international_organization|e]",
+  "uk": "НЕ може бути ініційовано [Concept('international_organization_leader_short', 'лідером')|e] [Concept('international_organization','міжнародного об'єднання')|e]"
+ },
+ "NOT_LOCATION_AND_OWNER_CAN_BUILD": {
+  "en": "[LOCATION.GetOwner.GetName] can NOT build [BUILDING_TYPE.GetName]",
+  "uk": "[LOCATION.GetOwner.GetName] НЕ може спорудити будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_POLICY_IS_VOTING_TARGET": {
+  "en": "Does NOT have [TARGET_POLICY.GetName] as primary voting target for [ShowResolutionName('policy_vote')]",
+  "uk": "НЕ вважає політику «[TARGET_POLICY.GetName]» основною метою голосування під час #TOOLTIP:RESOLUTION,policy_vote,X #L обговорення правил#!#!"
+ },
+ "NOT_PRODUCES_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "Does NOT produce [construction_material|e]",
+  "uk": "НЕ виробляє [Concept('construction_material','будівельний матеріал')|e]"
+ },
+ "NOT_SAME_DYNASTY_AS": {
+  "en": "Has NOT the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "НЕ та ж [Concept('dynasty','династія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "NOT_SENIOR_UNION_WITH_TRIGGER": {
+  "en": "Is NOT the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Це НЕ [Concept('senior_partner','старший партнер')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_SMARTISM_BALANCED_GODS": {
+  "en": "Does NOT worship all [gods|e] equally",
+  "uk": "Усі [Concept('gods','боги')|e] НЕ шануються однаковою мірою"
+ },
+ "NOT_THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "None of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "NOT_THIRD_CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "[COUNTRY.GetName] can NOT adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_THIRD_CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "[COUNTRY.GetName] can NOT change their [government|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ може змінити [Concept('government','уряд')|e]"
+ },
+ "NOT_THIRD_CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "[COUNTRY.GetName]'s diplomatic status does NOT allow the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Дипломатичний статус #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! НЕ дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_THIRD_CAN_HAVE_PARLIAMENT_CALLED_BY_TEXT": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] can NOT have its [parliament|e] be called by [TARGET_COUNTRY.GetName]",
+  "uk": "[Concept('parliament','Парламент')|e] об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ може бути скликаний #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_THIRD_CHARACTER_IN_COMBAT_TRIGGER": {
+  "en": "[CHARACTER.GetName] is NOT leading a [unit|e] in active [combat|e]",
+  "uk": "[CHARACTER.GetName] НЕ очолює [Concept('unit','загін')|e] в активних [Concept('combat','бойових діях')|e]"
+ },
+ "NOT_THIRD_COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "[COUNTRY.GetName] can NOT build [BUILDING_TYPE.GetName] in [TARGET_LOCATION.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ може спорудити будівлю типу «[BUILDING_TYPE.GetName]» у районі [TARGET_LOCATION.GetName]"
+ },
+ "NOT_THIRD_COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "[COUNTRY.GetName] has NOT joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Держава [COUNTRY.GetName] НЕ вступала до [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_THIRD_COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "[COUNTRY.GetName] has NOT left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Держава [COUNTRY.GetName] НЕ виходила з [Concept('international_organization','міжнародних об'єднань')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "NOT_THIRD_COUNTRY_HAS_SUFISM": {
+  "en": "[COUNTRY.GetName] has NOT a Sufi [religious_school|e] as the main school nor as an [invited_religious_figure|e]",
+  "uk": "У державі [COUNTRY.GetName] НЕМАЄ суфійської [Concept('religious_school','релігійної школи')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "NOT_THIRD_HAD_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] had NOT the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "У державі [COUNTRY.GetName] НЕ сталося [Concept('disaster','лихо')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT abstained its vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ утрималася від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "[COUNTRY.GetName] does NOT have access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "У держави [COUNTRY.GetName] НЕМАЄ доступу до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "NOT_THIRD_HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] can have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» може статися в державі [COUNTRY.GetName]"
+ },
+ "NOT_THIRD_HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "[COUNTRY.GetName] does NOT have a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "NOT_THIRD_HAS_CONSISTENT_INTEGRATION_LEVEL_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a consistent [union_integration_level|e] with all its [members|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ має стабільного [Concept('union_integration_level','рівня інтеграції')|e] усіх [Concept('members','учасників')|e]"
+ },
+ "NOT_THIRD_HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ дозволила статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT enabled the [MISSION.GetName] [mission|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ дозволила [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_THIRD_HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ допустила [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "NOT_THIRD_HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "[COUNTRY.GetName] does NOT have an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "[Concept('heir_selections','Правила престолонаслідування')|e] держави [COUNTRY.GetName] НЕ дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "NOT_THIRD_HAS_HISTORICAL_RIVALS": {
+  "en": "[COUNTRY.GetName] has NOT #Y Historical Rivals#!",
+  "uk": "У держави [COUNTRY.GetName] НЕМАЄ #Y історичних суперників#!"
+ },
+ "NOT_THIRD_HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "[RELIGION.GetName] has NOT locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "[Concept('religious_aspect','Релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]» НЕ закріплена для такої релігії: [RELIGION.GetName]"
+ },
+ "NOT_THIRD_HAS_OR_HAD_GREAT_RULER": {
+  "en": "[COUNTRY.GetName] has and had NOT a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "У державі [COUNTRY.GetName] НЕМАЄ і не було [Concept('ruler','правителя')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "NOT_THIRD_HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "[COUNTRY.GetName] has NOT proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "[COUNTRY.GetName] НЕ пропонує розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "У державі [COUNTRY.GetName] НЕ розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('law','правило')|e] «[LAW.GetName]» #Y в усьому світі#!"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('policy','політику')|e] «[POLICY.GetName]» #Y в усьому світі#!"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [LAW.GetName] [law|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "[RELIGION.GetName] has NOT unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "[Concept('religious_aspect','Релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]» НЕ розблокована для такої релігії: [RELIGION.GetName]"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "NOT_THIRD_HAS_VALID_POLICY_VOTE_PROPOSER": {
+  "en": "The Proposer of the [ShowResolutionName('policy_vote')] [resolution|e] in [INTERNATIONAL_ORGANIZATION.GetName] does NOT exist",
+  "uk": "В об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕМАЄ того, хто пропонує [Concept('resolution','резолюцію')|e] «#TOOLTIP:RESOLUTION,policy_vote,X #L Обговорення правил#!#!»"
+ },
+ "NOT_THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $VALUE|Y0$ або нижче"
+ },
+ "NOT_THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $VALUE|Y0$ або вище"
+ },
+ "NOT_THIRD_HRE_HAS_UNLOCKED_LAW": {
+  "en": "[COUNTRY.GetName] has NOT unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "NOT_THIRD_HRE_IMPERIAL_RELIGION": {
+  "en": "[COUNTRY.GetName] has NOT locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ розблокувала таку [Concept('imperial_religion','імперську релігію')|e] для організації «[GetUniqueInternationalOrganization('hre').GetName]»: [RELIGION.GetName]"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW": {
+  "en": "The [TARGET_LAW.GetName] [law|e] of the [INTERNATIONAL_ORGANIZATION.GetName] is NOT locked and can be changed",
+  "uk": "[Concept('law','Правило')|e] «[TARGET_LAW.GetName]» об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ зафіксовано і може бути змінено"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [LAW.GetName] [law|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [TARGET_PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('parliament_agenda','парламентську вимогу')|e] «[TARGET_PARLIAMENT_AGENDA.GetName]»"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [TARGET_PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('parliament_issue','парламентське питання')|e] «[TARGET_PARLIAMENT_ISSUE.GetName]»"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [TARGET_PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('parliament_type','тип парламенту')|e] «[TARGET_PARLIAMENT_TYPE.GetName]»"
+ },
+ "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ розблокувало [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "NOT_THIRD_IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is NOT #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] НЕ є #Y авраамічною#! релігією"
+ },
+ "NOT_THIRD_IS_ALLIED_WITH": {
+  "en": "[COUNTRY.GetName] is NOT [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_THIRD_IS_CAPITAL_OF": {
+  "en": "[LOCATION.GetName] is NOT the [capital|E] of [TARGET_COUNTRY.GetName]",
+  "uk": "[LOCATION.GetName] — НЕ [Concept('capital','столиця')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_THIRD_IS_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "[GOODS.GetName] is NOT [construction_material|e]",
+  "uk": "Товар «[GOODS.GetName]» НЕ є [Concept('construction_material','будівельним матеріалом')|e]"
+ },
+ "NOT_THIRD_IS_EMPEROR_TRIGGER": {
+  "en": "[COUNTRY.GetName] is NOT the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "NOT_THIRD_IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "[COUNTRY.GetGovernment.GetRulerOrRegent.GetName] of [COUNTRY.GetName] is NOT [excommunicated|e]",
+  "uk": "[COUNTRY.GetGovernment.GetRulerOrRegent.GetName] з держави [COUNTRY.GetName] НЕ зазнає [Concept('excommunicated','відлучення від церкви')|e]"
+ },
+ "NOT_THIRD_IS_FAVORING_GOD": {
+  "en": "[COUNTRY.GetName] is NOT favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] НЕ є обраним божеством у державі [COUNTRY.GetName]"
+ },
+ "NOT_THIRD_IS_FINALISING": {
+  "en": "[RESOLUTION.GetName] is NOT #Y finalizing#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_THIRD_IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "[COUNTRY.GetName] a subject other than a [ShowSubjectTypeName('tributary')]",
+  "uk": "Держава [COUNTRY.GetName] — суб'єкт, що не є #TOOLTIP:SUBJECT_TYPE,tributary,X #L данником#!#!"
+ },
+ "NOT_THIRD_IS_HEATHEN_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is NOT considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає [Concept('religion','релігію')|e] держави [COUNTRY.GetName] #Y язичництвом#! "
+ },
+ "NOT_THIRD_IS_HERETIC_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is NOT considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] НЕ вважає [Concept('religion','релігію')|e] держави [COUNTRY.GetName] #Y єрессю#! "
+ },
+ "NOT_THIRD_IS_IN_DEFENSIVE_WAR": {
+  "en": "[COUNTRY.GetName] is NOT in a defensive [war|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ веде оборонну [Concept('war','війну')|e]"
+ },
+ "NOT_THIRD_IS_IN_OFFENSIVE_WAR": {
+  "en": "[COUNTRY.GetName] is NOT in an offensive [war|e]",
+  "uk": "Влада #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! НЕ веде наступальну [Concept('war','війну')|e]"
+ },
+ "NOT_THIRD_IS_IN_UNION_TRIGGER": {
+  "en": "[COUNTRY.GetName] is NOT in a [union|e]",
+  "uk": "Держава [COUNTRY.GetName] НЕ перебуває в [Concept('union','унії')|e]"
+ },
+ "NOT_THIRD_IS_PROPOSAL": {
+  "en": "[RESOLUTION.GetName] is NOT a #Y Proposal#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_THIRD_IS_PROTESTANT_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is NOT part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "[Concept('religion','Релігія')|e] держави [COUNTRY.GetName] НЕ належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "NOT_THIRD_IS_RELIGIOUS_WAR": {
+  "en": "[WAR.GetName] is NOT a religiously motivated [war|e]",
+  "uk": "[WAR.GetName] — НЕ релігійний [Concept('war','конфлікт')|e]"
+ },
+ "NOT_THIRD_IS_SAME_RULER_PERSONAL_UNION_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] is NOT a true [union|e] under a single [ruler|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ є істинною [Concept('union','унією')|e] з єдиним [Concept('ruler','правителем')|e]"
+ },
+ "NOT_THIRD_IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "[COUNTRY.GetName] is a [subject|e] with limited diplomacy which cannot [ally|e] [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] є [Concept('subject','васалом')|e] з обмеженими дипломатичними правами, що не дозволяють укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "NOT_THIRD_IS_VOTE": {
+  "en": "[RESOLUTION.GetName] is NOT a #Y Vote#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "NOT_THIRD_JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "[COUNTRY.GetName] is NOT a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ є [Concept('junior_partner','молодшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_THIRD_LAW_CAN_BE_INITIATED_BY_MEMBERS": {
+  "en": "[LAW.GetName] can be initiated by the [international_organization_leader_short|e] of an [international_organization|e]",
+  "uk": "Правило «[LAW.GetName]» може бути ініційовано [Concept('international_organization_leader_short','лідером')|e] [Concept('international_organization','міжнародного об'єднання')|e]"
+ },
+ "NOT_THIRD_LOCATION_AND_OWNER_CAN_BUILD": {
+  "en": "[LOCATION.GetName] and [LOCATION.GetOwner.GetName] can NOT build [BUILDING_TYPE.GetName]",
+  "uk": "[LOCATION.GetName] і [LOCATION.GetOwner.GetName] НЕ можуть спорудити будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "NOT_THIRD_POLICY_IS_VOTING_TARGET": {
+  "en": "The [INTERNATIONAL_ORGANIZATION.GetName] does NOT have [TARGET_POLICY.GetName] as primary voting target for [ShowResolutionName('policy_vote')]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ вважає політику «[TARGET_POLICY.GetName]» основною метою голосування під час #TOOLTIP:RESOLUTION,policy_vote,X #L обговорення правил#!#!"
+ },
+ "NOT_THIRD_PRODUCES_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "[LOCATION.GetName] does NOT produce [construction_material|e]",
+  "uk": "Район [LOCATION.GetName] НЕ виробляє [Concept('construction_material','будівельний матеріал')|e]"
+ },
+ "NOT_THIRD_SAME_DYNASTY_AS": {
+  "en": "[COUNTRY.GetName] has NOT the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "У державі [COUNTRY.GetName] НЕ та ж [Concept('dynasty','династія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "NOT_THIRD_SENIOR_UNION_WITH_TRIGGER": {
+  "en": "[COUNTRY.GetName] is NOT the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ є [Concept('senior_partner','старшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "NOT_THIRD_SMARTISM_BALANCED_GODS": {
+  "en": "[COUNTRY.GetName] does NOT worship all [gods|e] equally",
+  "uk": "Держава [COUNTRY.GetName] НЕ шанує усіх [Concept('gods','богів')|e] однаковою мірою"
+ },
+ "NOT_THIRD_WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "[COUNTRY.GetName] has NOT been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "На державу [COUNTRY.GetName] НЕ було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикту#!#! протягом останніх #Y 30 років#!"
+ },
+ "NOT_WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "Has NOT been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "НЕ було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикту#!#! протягом останніх #Y 30 років#!"
+ },
+ "POLICY_IS_VOTING_TARGET": {
+  "en": "Has [TARGET_POLICY.GetName] as primary voting target for [ShowResolutionName('policy_vote')]",
+  "uk": "Вважає політику «[TARGET_POLICY.GetName]» основною метою голосування під час #TOOLTIP:RESOLUTION,policy_vote,X #L обговорення правил#!#!"
+ },
+ "PRODUCES_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "Produces [construction_material|e]",
+  "uk": "Виробляє [Concept('construction_material','будівельний матеріал')|e]"
+ },
+ "SAME_DYNASTY_AS": {
+  "en": "Has the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "Та ж [Concept('dynasty','династія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "SENIOR_UNION_WITH_TRIGGER": {
+  "en": "Is the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Це [Concept('senior_partner','старший партнер')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "SMARTISM_BALANCED_GODS": {
+  "en": "Worships all [gods|e] equally",
+  "uk": "Усі [Concept('gods','боги')|e] шануються однаковою мірою"
+ },
+ "THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET": {
+  "en": "One of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target",
+  "uk": ""
+ },
+ "THIRD_CAN_ADOPT_COMPATIBLE_RELIGION_LAW": {
+  "en": "[COUNTRY.GetName] can adopt the policy for the [ShowLawName('heir_religion_law')] compatible with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "THIRD_CAN_CHANGE_GOVERNMENT_TYPE": {
+  "en": "[COUNTRY.GetName] can change their [government|e]",
+  "uk": "Держава [COUNTRY.GetName] може змінити [Concept('government','уряд')|e]"
+ },
+ "THIRD_CAN_CREATE_SUBJECT_ALLIANCE": {
+  "en": "[COUNTRY.GetName]'s diplomatic status allows the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Дипломатичний статус #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! дозволяє укласти [Concept('alliance','союз')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "THIRD_CAN_HAVE_PARLIAMENT_CALLED_BY_TEXT": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] can have its [parliament|e] be called by [TARGET_COUNTRY.GetName]",
+  "uk": "[Concept('parliament','Парламент')|e] об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» може бути скликаний #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "THIRD_CHARACTER_IN_COMBAT_TRIGGER": {
+  "en": "[CHARACTER.GetName] leading a [unit|e] in active [combat|e]",
+  "uk": "[CHARACTER.GetName] очолює [Concept('unit','загін')|e] в активних [Concept('combat','бойових діях')|e]"
+ },
+ "THIRD_COUNTRY_CAN_BUILD_IN_LOCATION": {
+  "en": "[COUNTRY.GetName] can build [BUILDING_TYPE.GetName] in [TARGET_LOCATION.GetName]",
+  "uk": "Держава [COUNTRY.GetName] може спорудити будівлю типу «[BUILDING_TYPE.GetName]» у районі [TARGET_LOCATION.GetName]"
+ },
+ "THIRD_COUNTRY_HAS_RECENTLY_JOINED_SITUATION_FACTION": {
+  "en": "[COUNTRY.GetName] has joined any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Держава [COUNTRY.GetName] вступила до будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "THIRD_COUNTRY_HAS_RECENTLY_LEFT_SITUATION_FACTION": {
+  "en": "[COUNTRY.GetName] has left any [international_organization|e] of the [TARGET_SITUATION.GetName] in the last $VALUE|Y0$ years",
+  "uk": "Держава [COUNTRY.GetName] вийшла з будь-якого [Concept('international_organization','міжнародного об'єднання')|e] типу «[TARGET_SITUATION.GetName]» протягом останніх $VALUE|Y0$ років"
+ },
+ "THIRD_COUNTRY_HAS_SUFISM": {
+  "en": "[COUNTRY.GetName] has a Sufi [religious_school|e] as the main school or as an [invited_religious_figure|e]",
+  "uk": "У державі [COUNTRY.GetName] є суфійська [Concept('religious_school','релігійна школа')|e], яка є основною або очолюється [Concept('invited_religious_figure','запрошеним релігійним діячем')|e]"
+ },
+ "THIRD_HAD_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] had the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "У державі [COUNTRY.GetName] сталося [Concept('disaster','лихо')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "THIRD_HAS_ABSTAINED_VOTE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has abstained its vote in [TARGET_RESOLUTION.GetName]",
+  "uk": "Держава [COUNTRY.GetName] утрималася від голосування за резолюцією «[TARGET_RESOLUTION.GetName]»"
+ },
+ "THIRD_HAS_ACCESS_TO_GOD_HOLY_SITE": {
+  "en": "[COUNTRY.GetName] has access to a [holy_site|e] of [TARGET_GOD.GetName]",
+  "uk": "У держави [COUNTRY.GetName] є доступ до [Concept('holy_site','святині')|e], якій покровительствує [TARGET_GOD.GetName]"
+ },
+ "THIRD_HAS_BLOCKED_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] can NOT have the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "[Concept('disaster','Лихо')|e] «[DISASTER_TYPE.GetName]» НЕ може статися в державі [COUNTRY.GetName]"
+ },
+ "THIRD_HAS_COMPATIBLE_HEIR_RELIGION_LAW_WITH": {
+  "en": "[COUNTRY.GetName] has a compatible [ShowLawName('heir_religion_law')] policy with [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "THIRD_HAS_CONSISTENT_INTEGRATION_LEVEL_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has a consistent [union_integration_level|e] with all its [members|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» має стабільний [Concept('union_integration_level','рівень інтеграції')|e] усіх [Concept('members','учасників')|e]"
+ },
+ "THIRD_HAS_ENABLED_DISASTER_TRIGGER": {
+  "en": "[COUNTRY.GetName] has enabled the [DISASTER_TYPE.GetName] [disaster|e]",
+  "uk": "Держава [COUNTRY.GetName] дозволила статися [Concept('disaster','лиху')|e] «[DISASTER_TYPE.GetName]»"
+ },
+ "THIRD_HAS_ENABLED_MISSION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has enabled the [MISSION.GetName] [mission|e]",
+  "uk": "Держава [COUNTRY.GetName] дозволила [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "THIRD_HAS_ENABLED_SITUATION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has enabled the [SITUATION.GetName] [situation|e]",
+  "uk": "Держава [COUNTRY.GetName] допустила [Concept('situation','ситуацію')|e] «[SITUATION.GetName]»"
+ },
+ "THIRD_HAS_FOR_ELECTIVE_HEIR_SELECTION": {
+  "en": "[COUNTRY.GetName] has an [heir_selection|e] which can select supported [heirs|e] from foreign powers",
+  "uk": "[Concept('heir_selections','Правила престолонаслідування')|e] держави [COUNTRY.GetName] дозволяють обирати [Concept('heirs','спадкоємців')|e] з інших держав"
+ },
+ "THIRD_HAS_HISTORICAL_RIVALS": {
+  "en": "[COUNTRY.GetName] has #Y Historical Rivals#!",
+  "uk": "У держави [COUNTRY.GetName] є #Y історичні суперники#!"
+ },
+ "THIRD_HAS_LOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "[RELIGION.GetName] has locked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "[Concept('religious_aspect','Релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]» закріплена для такої релігії: [RELIGION.GetName]"
+ },
+ "THIRD_HAS_OR_HAD_GREAT_RULER": {
+  "en": "[COUNTRY.GetName] has or had a [ruler|e] with the '#Y $nick_the_great$#!' nickname",
+  "uk": "У державі [COUNTRY.GetName] був або є [Concept('ruler','правитель')|e] із прізвиськом «#Y $nick_the_great$#!»"
+ },
+ "THIRD_HAS_PROPOSED_PARLIAMENT_ISSUE_IN_TEXT": {
+  "en": "[COUNTRY.GetName] has proposed a [parliament_issue|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": "[COUNTRY.GetName] пропонує розглянути [Concept('parliament_issue','парламентське питання')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_ADVANCE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [ADVANCE_DEFINITION.GetName] [advance|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_ARTIST_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [ARTIST.GetName] [artist|e]",
+  "uk": "У державі [COUNTRY.GetName] розблоковано [Concept('artist','творець')|e] [ARTIST.GetName]"
+ },
+ "THIRD_HAS_UNLOCKED_BUILDING_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [BUILDING_TYPE.GetName] [building|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала тип [Concept('building','споруди')|e] «[BUILDING_TYPE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_CABINET_ACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [CABINET_ACTION.GetName] [cabinet_action|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('cabinet_action','дію ради')|e] «[CABINET_ACTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_CASUS_BELLI_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [CASUS_BELLI.GetName] [casus_belli|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('casus_belli','привід для війни')|e] «[CASUS_BELLI.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_CHARACTER_INTERACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [CHARACTER_INTERACTION.GetName] [character_interaction|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('character_interaction','взаємодію з персонажем')|e] «[CHARACTER_INTERACTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_CHILD_EDUCATION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [CHILD_EDUCATION.GetName] [child_education|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('child_education','дитячу освіту')|e] «[CHILD_EDUCATION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_COUNTRY_INTERACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [COUNTRY_INTERACTION.GetName] [country_interaction|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('country_interaction','взаємодію з державою')|e] «[COUNTRY_INTERACTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_ESTATE_PRIVILEGE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [ESTATE_PRIVILEGE.GetName] [estate_privilege|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('estate_privilege','станову привілею')|e] «[ESTATE_PRIVILEGE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_GENERIC_ACTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [GENERIC_ACTION.GetName] [action|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('action','дію')|e] «[GENERIC_ACTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_GLOBAL_LAW_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [LAW.GetName] [law|e] #Y globally#!",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('law','правило')|e] «[LAW.GetName]» #Y в усьому світі#!"
+ },
+ "THIRD_HAS_UNLOCKED_GLOBAL_POLICY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [POLICY.GetName] [policy|e] #Y globally#!",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('policy','політику')|e] «[POLICY.GetName]» #Y в усьому світі#!"
+ },
+ "THIRD_HAS_UNLOCKED_GOVERNMENT_REFORM_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [GOVERNMENT_REFORM.GetName] [government_reform|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('government_reform','державну реформу')|e] «[GOVERNMENT_REFORM.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_HEIR_SELECTION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [HEIR_SELECTION.GetName] [heir_selection|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('heir_selection','правило престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [LAW.GetName] [law|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_LEVY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [LEVY_SETUP.GetName] [levy|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('levy','ополчення')|e] «[LEVY_SETUP.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_MISSION_TASK_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [MISSION_TASK.GetName] [mission_task|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('mission_task','етап завдання')|e] «[MISSION_TASK.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_MISSION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [MISSION.GetName] [mission|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('mission','завдання')|e] «[MISSION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('parliament_agenda','парламентську вимогу')|e] «[PARLIAMENT_AGENDA.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('parliament_issue','парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('parliament_type','тип парламенту')|e] «[PARLIAMENT_TYPE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_PEACE_TREATY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [PEACE_TREATY.GetName] [peace_treaty|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('peace_treaty','мирний договір')|e] «[PEACE_TREATY.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_PRODUCTION_METHOD_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [PRODUCTION_METHOD.GetName] [production_method|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('production_method','метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_RECRUITMENT_METHOD_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [RECRUITMENT_METHOD.GetName] [recruitment_method|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('recruitment_method','метод набору')|e] «[RECRUITMENT_METHOD.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_REGENCY_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [REGENCY_TYPE.GetName] [regency|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('regency','регентство')|e] «[REGENCY_TYPE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_RELATION_TYPE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [RELATION_TYPE.GetName] [relation_type|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('relation_type','тип відносин')|e] «[RELATION_TYPE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_RELIGIOUS_ASPECT_TRIGGER": {
+  "en": "[RELIGION.GetName] has unlocked the [RELIGIOUS_ASPECT.GetName] [religious_aspect|e]",
+  "uk": "[Concept('religious_aspect','Релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]» розблокована для такої релігії: [RELIGION.GetName]"
+ },
+ "THIRD_HAS_UNLOCKED_RESOLUTION_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [RESOLUTION.GetName] [resolution|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('resolution','резолюцію')|e] «[RESOLUTION.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_SOCIETAL_VALUE_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [SOCIETAL_VALUE.GetName] [societal_value|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('societal_value','суспільну цінність')|e] «[SOCIETAL_VALUE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_UNIT_ABILITY_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [UNIT_ABILITY.GetName] [unit_ability|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('unit_ability','здатність загону')|e] «[UNIT_ABILITY.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_UNIT_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [UNIT_TYPE.GetName] [unit_type|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('unit_type','тип військ')|e] «[UNIT_TYPE.GetName]»"
+ },
+ "THIRD_HAS_UNLOCKED_WORK_OF_ART_DEFINITION_TRIGGER": {
+  "en": "[COUNTRY.GetName] has unlocked the [WORK_OF_ART_TYPE.GetName] [work_of_art|e]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('work_of_art','творіння')|e] «[WORK_OF_ART_TYPE.GetName]»"
+ },
+ "THIRD_HAS_VALID_POLICY_VOTE_PROPOSER": {
+  "en": "The Proposer of the [ShowResolutionName('policy_vote')] [resolution|e] in [INTERNATIONAL_ORGANIZATION.GetName] exists",
+  "uk": "В об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» є той, хто пропонує [Concept('resolution','резолюцію')|e] «#TOOLTIP:RESOLUTION,policy_vote,X #L Обговорення правил#!#!»"
+ },
+ "THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $VALUE|Y0$ або нижче"
+ },
+ "THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_UP": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or higher",
+  "uk": "[Concept('hre_law_level','Рівень імперського правила')|e] «[TARGET_LAW.GetName]» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $VALUE|Y0$ або вище"
+ },
+ "THIRD_HRE_HAS_UNLOCKED_LAW": {
+  "en": "[COUNTRY.GetName] has unlocked the [LAW.GetName] [law|e] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала [Concept('law','правило')|e] «[LAW.GetName]» для організації «[GetUniqueInternationalOrganization('hre').GetName]»"
+ },
+ "THIRD_HRE_IMPERIAL_RELIGION": {
+  "en": "[COUNTRY.GetName] has locked the [imperial_religion|e] to [RELIGION.GetName] for the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] розблокувала таку [Concept('imperial_religion','імперську релігію')|e] для організації «[GetUniqueInternationalOrganization('hre').GetName]»: [RELIGION.GetName]"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW": {
+  "en": "The [TARGET_LAW.GetName] [law|e] of the [INTERNATIONAL_ORGANIZATION.GetName] is locked and cannot be changed anymore",
+  "uk": "[Concept('law','Правило')|e] «[TARGET_LAW.GetName]» об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» зафіксовано і більше не може бути змінено"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_LAW_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [LAW.GetName] [law|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('law','правило')|e] «[LAW.GetName]»"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_AGENDA_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [TARGET_PARLIAMENT_AGENDA.GetName] [parliament_agenda|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('parliament_agenda','парламентську вимогу')|e] «[TARGET_PARLIAMENT_AGENDA.GetName]»"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_ISSUE_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [TARGET_PARLIAMENT_ISSUE.GetName] [parliament_issue|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('parliament_issue','парламентське питання')|e] «[TARGET_PARLIAMENT_ISSUE.GetName]»"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_PARLIAMENT_TYPE_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [TARGET_PARLIAMENT_TYPE.GetName] [parliament_type|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('parliament_type','тип парламенту')|e] «[TARGET_PARLIAMENT_TYPE.GetName]»"
+ },
+ "THIRD_INTERNATIONAL_ORGANIZATION_HAS_UNLOCKED_POLICY_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] has unlocked the [POLICY.GetName] [policy|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» розблокувало [Concept('policy','політику')|e] «[POLICY.GetName]»"
+ },
+ "THIRD_IS_ABRAHAMIC_TRIGGER": {
+  "en": "[COUNTRY.GetReligion.GetName] is #Y Abrahamic#!",
+  "uk": "[COUNTRY.GetReligion.GetName|U] є #Y авраамічною#! релігією"
+ },
+ "THIRD_IS_ALLIED_WITH": {
+  "en": "[COUNTRY.GetName] is [allied|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] є [Concept('allied','союзником')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "THIRD_IS_CAPITAL_OF": {
+  "en": "[LOCATION.GetName] is the [capital|E] of [TARGET_COUNTRY.GetName]",
+  "uk": "[LOCATION.GetName] — [Concept('capital','столиця')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "THIRD_IS_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "[GOODS.GetName] is [construction_material|e]",
+  "uk": "Товар «[GOODS.GetName]» є [Concept('construction_material','будівельним матеріалом')|e]"
+ },
+ "THIRD_IS_EMPEROR_TRIGGER": {
+  "en": "[COUNTRY.GetName] is the [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "Держава [COUNTRY.GetName] є [Concept('hre_emperor', 'імператором')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "THIRD_IS_EXCOMMUNICATED_TRIGGER": {
+  "en": "[COUNTRY.GetGovernment.GetRulerOrRegent.GetName] of [COUNTRY.GetName] is [excommunicated|e]",
+  "uk": "[COUNTRY.GetGovernment.GetRulerOrRegent.GetName] з держави [COUNTRY.GetName] зазнає [Concept('excommunicated','відлучення від церкви')|e]"
+ },
+ "THIRD_IS_FAVORING_GOD": {
+  "en": "[COUNTRY.GetName] is favoring [TARGET_GOD.GetName]",
+  "uk": "[TARGET_GOD.GetName] є обраним божеством у державі [COUNTRY.GetName]"
+ },
+ "THIRD_IS_FINALISING": {
+  "en": "[RESOLUTION.GetName] is #Y finalizing#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "THIRD_IS_FREE_OR_TRIBUTARY_TRIGGER": {
+  "en": "[COUNTRY.GetName] independent or a [ShowSubjectTypeName('tributary')]",
+  "uk": "Держава [COUNTRY.GetName] — незалежний суб'єкт або #TOOLTIP:SUBJECT_TYPE,tributary,X #L данник#!#!"
+ },
+ "THIRD_IS_HEATHEN_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is considered #Y Heathen#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає [Concept('religion','релігію')|e] держави [COUNTRY.GetName] #Y язичництвом#! "
+ },
+ "THIRD_IS_HERETIC_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is considered #Y Heretical#! by [TARGET_RELIGION.GetName]",
+  "uk": "[TARGET_RELIGION.GetName|U] вважає [Concept('religion','релігію')|e] держави [COUNTRY.GetName] #Y єрессю#! "
+ },
+ "THIRD_IS_IN_DEFENSIVE_WAR": {
+  "en": "[COUNTRY.GetName] is in a defensive [war|e]",
+  "uk": "Держава [COUNTRY.GetName] веде оборонну [Concept('war','війну')|e]"
+ },
+ "THIRD_IS_IN_OFFENSIVE_WAR": {
+  "en": "[COUNTRY.GetName] is in an offensive [war|e]",
+  "uk": "Влада #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! веде наступальну [Concept('war','війну')|e]"
+ },
+ "THIRD_IS_IN_UNION_TRIGGER": {
+  "en": "[COUNTRY.GetName] is in a [union|e]",
+  "uk": "Держава [COUNTRY.GetName] перебуває в [Concept('union','унії')|e]"
+ },
+ "THIRD_IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "[COUNTRY.GetName] is leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "Держава [COUNTRY.GetName] є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "THIRD_IS_PROPOSAL": {
+  "en": "[RESOLUTION.GetName] is a #Y Proposal#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "THIRD_IS_PROTESTANT_TRIGGER": {
+  "en": "[COUNTRY.GetName]'s [religion|e] is part of the [ShowReligionGroupAdjective('christian')] [reformation|e]",
+  "uk": "[Concept('religion','Релігія')|e] держави [COUNTRY.GetName] належить до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! [Concept('reformation','реформації')|e]"
+ },
+ "THIRD_IS_RELIGIOUS_WAR": {
+  "en": "[WAR.GetName] is a religiously motivated [war|e]",
+  "uk": "[WAR.GetName] — релігійний [Concept('war','конфлікт')|e]"
+ },
+ "THIRD_IS_SAME_RULER_PERSONAL_UNION_TRIGGER": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetName] is a true [union|e] under a single [ruler|e]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» є істинною [Concept('union','унією')|e] з єдиним [Concept('ruler','правителем')|e]"
+ },
+ "THIRD_IS_SUBJECT_WHICH_CAN_ALLY_TARGET": {
+  "en": "[COUNTRY.GetName] is either no [subject|e] or a subject which allows [alliances|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] або не є [Concept('subject','васалом')|e], або є васалом з можливістю укладати [Concept('alliances','союзи')|e] з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_TP')|L]#!#!"
+ },
+ "THIRD_IS_VOTE": {
+  "en": "[RESOLUTION.GetName] is a #Y Vote#! in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
+  "uk": ""
+ },
+ "THIRD_JUNIOR_UNION_WITH_TRIGGER": {
+  "en": "[COUNTRY.GetName] is a [junior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] є [Concept('junior_partner','молодшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "THIRD_LAW_CAN_BE_INITIATED_BY_MEMBERS": {
+  "en": "[LAW.GetName] can be initiated by [members|e] of an [international_organization|e]",
+  "uk": "Правило «[LAW.GetName]» може бути ініційовано [Concept('members','учасниками')|e] [Concept('international_organization','міжнародного об'єднання')|e]"
+ },
+ "THIRD_LOCATION_AND_OWNER_CAN_BUILD": {
+  "en": "[LOCATION.GetName] and [LOCATION.GetOwner.GetName] can build [BUILDING_TYPE.GetName]",
+  "uk": "[LOCATION.GetName] і [LOCATION.GetOwner.GetName] можуть спорудити будівлю типу «[BUILDING_TYPE.GetName]»"
+ },
+ "THIRD_NOT_IS_LEADER_OF_INTERNATIONAL_ORGANIZATION_OF_TYPE": {
+  "en": "[COUNTRY.GetName] is NOT leader of a specific [INTERNATIONAL_ORGANIZATION_TYPE.GetName]",
+  "uk": "Держава [COUNTRY.GetName] НЕ є лідером певного об'єднання типу «[INTERNATIONAL_ORGANIZATION_TYPE.GetName]»"
+ },
+ "THIRD_POLICY_IS_VOTING_TARGET": {
+  "en": "The [INTERNATIONAL_ORGANIZATION.GetName] has [TARGET_POLICY.GetName] as primary voting target for [ShowResolutionName('policy_vote')]",
+  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» вважає політику «[TARGET_POLICY.GetName]» основною метою голосування під час #TOOLTIP:RESOLUTION,policy_vote,X #L обговорення правил#!#!"
+ },
+ "THIRD_PRODUCES_CONSTRUCTION_MATERIAL_TRIGGER": {
+  "en": "[LOCATION.GetName] produces [construction_material|e]",
+  "uk": "Район [LOCATION.GetName] виробляє [Concept('construction_material','будівельний матеріал')|e]"
+ },
+ "THIRD_SAME_DYNASTY_AS": {
+  "en": "[COUNTRY.GetName] has the same [dynasty|e] as [TARGET_COUNTRY.GetName]",
+  "uk": "У державі [COUNTRY.GetName] та ж [Concept('dynasty','dinastія')|e], що й у державі [TARGET_COUNTRY.GetName]"
+ },
+ "THIRD_SENIOR_UNION_WITH_TRIGGER": {
+  "en": "[COUNTRY.GetName] is the [senior_partner|e] of [TARGET_COUNTRY.GetName]",
+  "uk": "Держава [COUNTRY.GetName] є [Concept('senior_partner','старшим партнером')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "THIRD_SMARTISM_BALANCED_GODS": {
+  "en": "[COUNTRY.GetName] worships all [gods|e] equally",
+  "uk": "Держава [COUNTRY.GetName] шанує усіх [Concept('gods','богів')|e] однаковою мірою"
+ },
+ "THIRD_WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "[COUNTRY.GetName] has been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "На державу [COUNTRY.GetName] було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикт#!#! протягом останніх #Y 30 років#!"
+ },
+ "WAS_RECENTLY_UNDER_INTERDICT_TRIGGER": {
+  "en": "Has been placed under [ShowModifier('interdict')] in the last #Y 30 years#!",
+  "uk": "Було накладено #TOOLTIP:STATIC_MODIFIER,interdict,X #V #L інтердикт#!#! протягом останніх #Y 30 років#!"
+ },
+ "casus_belli_forbids_location_conquest_tt": {
+  "en": "This war forbids us to conquer any [location|e] directly",
+  "uk": "Ця війна не дозволяє нам завоювати будь-який [Concept('location','район')|e] напряму"
+ },
+ "casus_belli_forbids_non_french_location_conquest_tt": {
+  "en": "The 'Hundred Years War' [war_goal|e] only permits taking land within the [ShowRegionName('france_region')] [region|e] or land owned by either a [subject|e] of [GetCountry('FRA').GetNameWithNoTooltip] or [GetCountry('ENG').GetNameWithNoTooltip]",
+  "uk": "[Concept('war_goal','Мета')|e] Столітньої війни дозволяє захоплювати лише землі #TOOLTIP:REGION,france_region,X #L французького#!#! [Concept('region','регіону')|e]"
+ },
+ "casus_belli_forbids_normal_subjugation_tributary_tt": {
+  "en": "$casus_belli_forbids_normal_subjugation_tt$\\nTo establish a [ShowSubjectTypeName('tributary')] use the [ShowPeaceTreatyTypeName('force_tributary')] [peace_treaty|e]",
+  "uk": "$casus_belli_forbids_normal_subjugation_tt$\\nЩоб перетворити ворога на #TOOLTIP:SUBJECT_TYPE,tributary,X #L данника#!#!, укладіть [Concept('peace_treaty','мирний договір')|e] «[ShowPeaceTreatyTypeName('force_tributary')]»"
+ },
+ "casus_belli_forbids_normal_subjugation_tt": {
+  "en": "This war forbids us to [subjugate|e] our enemy normally",
+  "uk": "Ця війна не дозволяє нам [Concept('subjugate','підкорити')|e] ворога напряму"
+ },
+ "has_enabled_hre_treasury_tt": {
+  "en": "[GetUniqueInternationalOrganization('hre').GetName] has unlocked the Imperial Treasury by having either [ShowPolicyName('only_treasury_payment')] or [ShowPolicyName('complete_imperial_contribution')] enacted",
+  "uk": ""
+ },
+ "reformation_is_enabled_tt": {
+  "en": "The #Y Reformation#! has started",
+  "uk": "Починається #Y Реформація#!"
+ },
+ "superiority_lat_reconquest_reconquest_valid_locations": {
+  "en": "May only take lands within the [ShowScriptedGeographyName('frankokratia_geography')] with [ShowCasusBelliName('cb_lat_reconquest')]",
+  "uk": ""
+ }
+}

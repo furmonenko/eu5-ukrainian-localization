@@ -1,0 +1,1826 @@
+{
+ "following_happens_because_of_peasants_free_peasantry_tt": {
+  "en": "#Y The following will occur because we have granted our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] the [ShowEstatePrivilegeName('peasants_free_peasantry')] [estate_privilege|e]:#!",
+  "uk": "#Y Якщо наші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] отримають [Concept('estate_privilege','станову привілею')|e] «[ShowEstatePrivilegeName('peasants_free_peasantry')]», це призведе до таких наслідків:#!"
+ },
+ "merchants_not_supported": {
+  "en": "Unsupported Merchants",
+  "uk": "Купці без підтримки"
+ },
+ "opinion_supports_dissidents": {
+  "en": "Supports Dissidents",
+  "uk": "Підтримує дисидентів"
+ },
+ "opinion_united_in_faith": {
+  "en": "United in Faith",
+  "uk": "Єдині вірою"
+ },
+ "random_event.1.a": {
+  "en": "It is an omen.",
+  "uk": "Це знак."
+ },
+ "random_event.1.desc": {
+  "en": "The people of our [ROOT.GetCountry.GetFlavorRank] have always been superstitious, and the appearance of a comet in the sky has caused panic among them. They are convinced that this is a sign that the end of times is near or that something terrible is going to happen in the near future.",
+  "uk": "Селяни [ROOT.GetCountry.Custom('rank_ru_GEN')|l] бачать прикмети у всьому, і поява комети викликала паніку серед них. Вони впевнені, що це лиха віщба, що надходить кінець світу і що в недалекому майбутньому на нас чекає щось жахливе."
+ },
+ "random_event.1.title": {
+  "en": "Comet Sighted",
+  "uk": "Помічено комету"
+ },
+ "random_event.10.a": {
+  "en": "Give the money to those who need it most.",
+  "uk": "Допоможемо тим, хто цього найбільше потребує."
+ },
+ "random_event.10.b": {
+  "en": "Invest the money in our government.",
+  "uk": "Вкладемо гроші в наш уряд."
+ },
+ "random_event.10.c": {
+  "en": "Let us fill our treasury.",
+  "uk": "Направимо гроші до скарбниці."
+ },
+ "random_event.10.desc": {
+  "en": "There is widespread support among the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] for our current policies. Indeed, they are being magnified well beyond their actual efficiency as proof of the government's goodwill and interest in the welfare of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] широко підтримують нашу чинну політику. Вони навіть перебільшують її ефективність, демонструючи віру в уряд та його старання на благо [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "random_event.10.title": {
+  "en": "Good Government Policies",
+  "uk": "Грамотна політика уряду"
+ },
+ "random_event.100.a": {
+  "en": "Interesting, bring [india_explorer.GetNameWithNoTooltip] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Цікаво. Хай [india_explorer.GetNameWithNoTooltip] з'явиться до нашого двору."
+ },
+ "random_event.100.b": {
+  "en": "While they are gone, seize their assets!",
+  "uk": "Заберемо їхні багатства, поки вони мандрують!"
+ },
+ "random_event.100.desc": {
+  "en": "After recent suggestions of a trade route to $india$ in that direction, a group of merchants have gathered a fleet and hired an explorer, [india_explorer.GetName], to explore the uncharted waters of the west.",
+  "uk": "Надихнувшись обговореннями пошуку нових шляхів до Індії, кілька наших купців зібрали флотилію. Вони хочуть, щоб [Select_CString(india_explorer.IsFemale,'дослідниця','дослідник')] на ім'я [india_explorer.GetName] [Select_CString(india_explorer.IsFemale,'вирушила','вирушив')] з експедицією в невідомі західні моря."
+ },
+ "random_event.100.title": {
+  "en": "Merchants Arrange an Expedition",
+  "uk": "Купці збирають експедицію"
+ },
+ "random_event.101.a": {
+  "en": "We too shall support the blooming [ShowInstitutionNameWithNoTooltip('renaissance')] art.",
+  "uk": "Ми теж підтримаємо мистецтво [ShowInstitutionNameWithNoTooltip('renaissance')], що розквітає."
+ },
+ "random_event.101.b": {
+  "en": "We have better things to spend money on.",
+  "uk": "Нам і без того є на що витратити гроші."
+ },
+ "random_event.101.desc": {
+  "en": "The various and innovative ideas of the [ShowInstitutionName('renaissance')] are spreading through our country. Already a number of wealthy families have decided to provide financial support for the promising artists. One artist in particular, [ren_artist.GetName] has captured their fancy. Are we to let history pass by without leaving our mark on it?",
+  "uk": "У нашій державі поширюються різні нові ідеї [ShowInstitutionName('renaissance')]. Кілька багатих родин уже вирішили стати спонсорами для перспективних творців. Зокрема, [ren_artist.GetName] користується особливою прихильністю знаті. Невже ми сидітимемо, склавши руки, й не залишимо свого сліду в історії?"
+ },
+ "random_event.101.title": {
+  "en": "Patronage for [ShowInstitutionNameWithNoTooltip('renaissance')|U] Artists?",
+  "uk": "Покровительство творцям [ShowInstitutionNameWithNoTooltip('renaissance')|U]?"
+ },
+ "random_event.102.a": {
+  "en": "It is to be expected.",
+  "uk": "Нічого дивного."
+ },
+ "random_event.102.desc": {
+  "en": "With our attention shifting further from the navy to the army, some of our master shipwrights have decided to seek employment elsewhere. This has caused our entire naval capacity to suffer.",
+  "uk": "На тлі того, як ми дедалі більше уваги приділяємо армії на шкоду інтересам флоту, деякі з наших найкращих корабелів вирішили знайти собі нових замовників. Це підірвало боєготовність усього нашого флоту."
+ },
+ "random_event.102.title": {
+  "en": "Naval Thought Suffering",
+  "uk": "Застій флотської думки"
+ },
+ "random_event.103.a": {
+  "en": "A focus on quality.",
+  "uk": "Якості військ."
+ },
+ "random_event.103.b": {
+  "en": "A focus on quantity.",
+  "uk": "Чисельності військ."
+ },
+ "random_event.103.c": {
+  "en": "A focus on offensive.",
+  "uk": "Наступальній тактиці."
+ },
+ "random_event.103.d": {
+  "en": "A focus on defensive.",
+  "uk": "Оборонній тактиці."
+ },
+ "random_event.103.desc": {
+  "en": "Plans are currently being made for a minor reform of our army. New tactics, weapons, and commands are some of the areas being discussed to improve our combat efficiency.",
+  "uk": "Зараз ми розробляємо плани обмежених реформ у армії. Обговорення зачепили різні нововведення у тактиці, озброєнні та командній структурі. Чому нам слід віддати пріоритет?"
+ },
+ "random_event.103.title": {
+  "en": "Reformation of the Army",
+  "uk": "Реформа армії"
+ },
+ "random_event.104.a": {
+  "en": "Improve our existing navy.",
+  "uk": "Вдосконалимо чинний флот."
+ },
+ "random_event.104.b": {
+  "en": "Give us more of a naval focus.",
+  "uk": "Приділимо флоту більше уваги."
+ },
+ "random_event.104.desc": {
+  "en": "Plans are currently being made for a minor reform of our navy. New tactics, weapons, and commands are some of the areas being discussed to improve our combat efficiency.",
+  "uk": "Зараз ми розробляємо плани обмежених реформ у флоті. Обговорення зачепили різні нововведення в тактиці, озброєнні та командній структурі. Чому нам слід віддати пріоритет?"
+ },
+ "random_event.104.title": {
+  "en": "Reformation of the Navy",
+  "uk": "Реформа флоту"
+ },
+ "random_event.105.a": {
+  "en": "Accept their demands.",
+  "uk": "Приймемо їхні вимоги."
+ },
+ "random_event.105.b": {
+  "en": "Ignore them.",
+  "uk": "Не будемо звертати уваги."
+ },
+ "random_event.105.desc": {
+  "en": "Several of the leading members of our government are deeply worried about some changes that were recently proposed to how our [ROOT.GetCountry.GetFlavorRank] should be ruled. They demand a stop to such outrageous reforms and a return to our tried and trusted traditions. Naturally, they avoid mention of how the changes would impact their own power base...",
+  "uk": "Деякі важливі члени уряду глибоко стурбовані новими проєктами реформ державного устрою. Вони вимагають припинити ці безвідповідальні експерименти й повернутися до колишніх перевірених порядків. Звісно, при цьому вони замовчують, як саме ці зміни позначаться на їхньому власному політичному становищі."
+ },
+ "random_event.105.title": {
+  "en": "There Should be a Stable Government",
+  "uk": "Нам потрібен стабільний уряд"
+ },
+ "random_event.106.a": {
+  "en": "Money is always good!",
+  "uk": "Гроші ніколи не бувають зайвими…"
+ },
+ "random_event.106.b": {
+  "en": "But prestige is better!",
+  "uk": "…але престиж куди важливіший."
+ },
+ "random_event.106.desc": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] has been governed extremely efficiently the last year. There is now a possibility for us to benefit from this.",
+  "uk": "Минулого року нам вдалося налагодити ефективне управління державою. Тепер ми можемо витягти з цього вигоду."
+ },
+ "random_event.106.title": {
+  "en": "Brilliant Government",
+  "uk": "Талановитий уряд"
+ },
+ "random_event.107.a": {
+  "en": "This is just common sense!",
+  "uk": "Так роблять усі!"
+ },
+ "random_event.107.b": {
+  "en": "Bribes have no place in our [ROOT.GetCountry.GetFlavorRank]!",
+  "uk": "[ROOT.GetCountry.GetFlavorRank], де живемо ми, — не місце для хабарів!"
+ },
+ "random_event.107.desc": {
+  "en": "Bribes and other incentives have never been an uncommon practice before an election. It is also well known that influential people, even in our own [ROOT.GetCountry.GetGovernment.GetCourtTitle], have resorted to such practices in hope of changing the outcome of the election in their favor.",
+  "uk": "Підкупи та інші заохочення перед виборами нікого не дивують. Не секрет для нас і те, що на результат голосування не раз намагалися вплинути впливові люди, зокрема члени нашого власного двору."
+ },
+ "random_event.107.title": {
+  "en": "Influenced Elections",
+  "uk": "Нечесні вибори"
+ },
+ "random_event.108.a": {
+  "en": "Summon the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] for another debate.",
+  "uk": "Хай члени [ROOT.GetCountry.Custom('parliament_ru_GEN')|l] зберуться на чергове засідання."
+ },
+ "random_event.108.desc": {
+  "en": "As of late, more and more people are requesting representative national institutions. Our [ROOT.GetCountry.GetGovernment.GetParliament.GetName] has long guided our [ROOT.GetCountry.GetFlavorRank] through such turmoil, yet our people seem to trust it less and less, claiming they do not have enough control over who represents them.",
+  "uk": "Останнім часом народ дедалі частіше вимагає заснувати органи, які представлятимуть населення у владі. Завдяки [ROOT.GetCountry.Custom('parliament_ru_DAT')|l] [ROOT.GetCountry.GetFlavorRank|l] багато років протистоїть подібному невдоволенню. Але тепер простий люд вважає, що недостатньо контролює нинішніх представників, і дедалі менше довіряє їм."
+ },
+ "random_event.108.title": {
+  "en": "National Institutions",
+  "uk": "Національні інституції"
+ },
+ "random_event.109.a": {
+  "en": "Focus on the army reforms.",
+  "uk": "Зосередимося на реформі армії."
+ },
+ "random_event.109.b": {
+  "en": "Focus on the navy reforms.",
+  "uk": "Зосередимося на реформі флоту."
+ },
+ "random_event.109.c": {
+  "en": "Both? Both. Both is good.",
+  "uk": "Навіщо вибирати? Реформуймо і те, й інше."
+ },
+ "random_event.109.desc": {
+  "en": "The [ROOT.GetCountry.GetLongName] have begun a thorough revision of our country's military structure. While officers are still drawn from the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and townspeople are conscripted into the other ranks. Regular drilling has been introduced and a powerful fleet established together with hundreds of battleships, galleys, and other crafts.",
+  "uk": "[ROOT.GetCountry.GetLongName] — це держава, де воєначальники почали докорінний перегляд структури військ. Офіцерський корпус, як і раніше, складатимуть [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], однак унтер-офіцерами й вояками тепер зможуть стати навіть прості городяни та [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l]. У військах запроваджується постійна муштра, а новий потужний флот поповниться сотнями лінійних кораблів, галер та інших суден."
+ },
+ "random_event.109.title": {
+  "en": "Military Reform",
+  "uk": "Військова реформа"
+ },
+ "random_event.11.a": {
+  "en": "We have chosen the right path.",
+  "uk": "Ми вибрали правильний шлях."
+ },
+ "random_event.11.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] make good points.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] в чомусь праві."
+ },
+ "random_event.11.desc": {
+  "en": "Our policies are evoking widespread discontent among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. It seems they are misinterpreting them in a way contrary to our intentions, to the degree that our opponents hold them up as proof of the government's ill will and lack of interest in the welfare of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] відповідають на наші рішення невдоволенням. Схоже, вони неправильно тлумачать наміри: хтось навіть вбачає в нашій політиці злий умисел і небажання працювати на благо [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "random_event.11.title": {
+  "en": "Poor Government Policies",
+  "uk": "Невдала політика уряду"
+ },
+ "random_event.110.a": {
+  "en": "This is truly beneficial!",
+  "uk": "Це дуже корисно!"
+ },
+ "random_event.110.desc": {
+  "en": "The establishment of a national bank has given us a reputation of seriousness and reliability. It has also allowed our [ROOT.GetCountry.GetFlavorRank] a much greater flexibility in raising funds for warfare.",
+  "uk": "Заснувавши національний банк, ми здобули репутацію серйозної й надійної держави. Крім того, тепер у [ROOT.GetCountry.Custom('rank_ru_GEN')|l] значно більше можливостей залучати кошти на військові потреби."
+ },
+ "random_event.110.title": {
+  "en": "National Bank",
+  "uk": "Національний банк"
+ },
+ "random_event.111.a": {
+  "en": "The law shall continue to be fair for all, even animals!",
+  "uk": "Перед законом рівні всі, навіть тварини."
+ },
+ "random_event.111.b": {
+  "en": "We must curtail expenditures on animal trials!",
+  "uk": "Не можна витрачати гроші на суди над худобою."
+ },
+ "random_event.111.c": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] should be responsible for animals too.",
+  "uk": "Хай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] відповідають і за тварин також."
+ },
+ "random_event.111.desc": {
+  "en": "All living creatures in our [ROOT.GetCountry.GetFlavorRank] are subject to the laws of man, regardless of whether they can comprehend them or not. Recently, a sow has been caught murdering and consuming a child. It now stands trial for its grievous crime.\\n\\nIt is imperative that authorities uphold an impression of maintaining the laws and order of the land in an assiduous manner. Even if the defendant may not be human, granting it a trial which observes legal customs to the fullest extent provides the people with greater trust in the system.\\n\\nHowever, one can call into question the expense of giving a full trial to an animal which is incapable of making use of it. Perhaps animals should be given hastier trials that are less expensive to undertake?",
+  "uk": "Усі живі істоти в нашій державі мусять підкорятися людським законам, навіть якщо вони неспроможні їх розуміти. Так, нещодавно свиня вбила й пожерла дитину. Тварину було спіймано й віддано до суду за її жахливий злочин.\\n\\nКонче необхідно, щоб влада послідовно демонструвала своє прагнення підтримувати закон. Навіть якщо на лаві підсудних не людина, судовий процес над нею має проходити з урахуванням усіх юридичних звичаїв — у такий спосіб у людей утверджуватиметься довіра до правової системи.\\n\\nВодночас буде справедливо поставити питання, наскільки доцільно витрачати гроші на повноцінний суд над істотою, яка навіть не усвідомлює його сенсу. Можливо, для тварин варто організувати швидші й дешевші суди?"
+ },
+ "random_event.111.t": {
+  "en": "Caught Red-hooved",
+  "uk": "Спіймали за копито"
+ },
+ "random_event.112.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] should take it or leave it!",
+  "uk": "Хай ці [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] беруть товар або забираються!"
+ },
+ "random_event.112.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] are at fault.",
+  "uk": "Винні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l]."
+ },
+ "random_event.112.c": {
+  "en": "Petty squabbles...",
+  "uk": "Дріб'язкові чвари..."
+ },
+ "random_event.112.desc": {
+  "en": "A group of disgruntled [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] have come forward with a formal complaint against our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], who are well-known for conducting business in [target_location.GetName]. According to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')], the [ShowGoodsName('copper')] they purchased was of such poor quality that it was barely usable.\\n\\nThe [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')], however, insist that the metal was exactly as promised. As tempers flare and the dispute spreads through the marketplace, others begin to question whether trade in [target_location.GetNameWithNoTooltip] is as fair as it seems.",
+  "uk": "Невдоволені [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] звернулися до нас з офіційною скаргою. Вони стверджують, що певні відомі [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], що ведуть свої справи в [target_location.Custom('LR_PP')|l] [target_location.GetName], обманюють їх, продаючи настільки погану мідь, що її практично неможливо використовувати в господарстві.\\n\\n[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U], своєю чергою, наполягають, що якість металу цілком відповідає обіцяному. Скандал, що охопив ринок, змушує й інших покупців сумніватися в чесності мешканців [target_location.Custom('LR_PP')|l] [target_location.GetNameWithNoTooltip]."
+ },
+ "random_event.112.title": {
+  "en": "[ShowGoodsNameWithNoTooltip('copper')] Complaints",
+  "uk": "Скарги на мідь"
+ },
+ "random_event.12.a": {
+  "en": "Ignore their demands.",
+  "uk": "Відкинемо їхні вимоги."
+ },
+ "random_event.12.b": {
+  "en": "Agree to their demands.",
+  "uk": "Погодимося на їхні вимоги."
+ },
+ "random_event.12.desc": {
+  "en": "Differing opinions and interests over religious and secular matters between our government and the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have spilled over and become a significant source of conflict in our [ROOT.GetCountry.GetFlavorRank]. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] are now making demands for changes in policy, stating they will withdraw their support for [target_ruler.GetName] if refused.",
+  "uk": "Наш уряд і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] не сходяться в думках і цілях з різних релігійних і мирських питань, і ці розбіжності вилилися в серйозний конфлікт усередині [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Тепер [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] вимагають політичних змін, заявляючи, що інакше [target_ruler.GetName] більше не зможе користуватися їхньою підтримкою."
+ },
+ "random_event.12.title": {
+  "en": "Unhappiness Among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] невдоволені"
+ },
+ "random_event.13.a": {
+  "en": "Execute the troublemakers.",
+  "uk": "Стратимо бунтівників."
+ },
+ "random_event.13.b": {
+  "en": "Appease the troublemakers.",
+  "uk": "Умиротворимо бунтівників."
+ },
+ "random_event.13.desc": {
+  "en": "Conflicts and protests with the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] over taxes, state owned businesses, trade laws, and customs policies are becoming quite frequent. This could result in a sharp drop in our revenue if we do not handle the situation carefully.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] дедалі частіше обурюються і скаржаться на податки, державні підприємства, торгові та митні закони. Якщо ми не підійдемо до питання обережно, наші доходи можуть різко скоротитися."
+ },
+ "random_event.13.title": {
+  "en": "Unhappiness Among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U] невдоволені"
+ },
+ "random_event.14.a": {
+  "en": "We rule as we see fit!",
+  "uk": "Ми самі розберемося, як правити!"
+ },
+ "random_event.14.b": {
+  "en": "Try to improve their situation.",
+  "uk": "Спробуємо покращити їхнє становище."
+ },
+ "random_event.14.desc": {
+  "en": "Conflicts and protests with the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] over taxes, landlord cruelty, expropriation, serfdom, and customs policies have recently become even more frequent than usual. If we do not manage to solve the problems soon, the consequences for our nation's stability could be dire.",
+  "uk": "Останнім часом [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] скаржаться на податки, свавілля поміщиків, позбавлення землі, кріпосне право і митні закони навіть більше, ніж зазвичай. Якщо ми найближчим часом не вирішимо ці питання, селянські заворушення можуть порушити стабільність усієї держави."
+ },
+ "random_event.14.title": {
+  "en": "Unhappiness Among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] невдоволені"
+ },
+ "random_event.15.a": {
+  "en": "Reduce trade investment and oversight.",
+  "uk": "Скоротимо контроль над торгівлею та вкладення в неї."
+ },
+ "random_event.15.b": {
+  "en": "Get rid of the troublemakers.",
+  "uk": "Позбудемося бунтарів."
+ },
+ "random_event.15.desc": {
+  "en": "Conflict and protests with merchants over our taxes, port duties, navy requisitions, trade laws, and customs policies are becoming quite frequent and are having counterproductive effects for our economy.",
+  "uk": "Протести й скарги купців на податки, портові збори, конфіскацію суден на користь флоту, а також на торгові та митні закони стають дедалі голоснішими й погано позначаються на нашій економіці."
+ },
+ "random_event.15.title": {
+  "en": "Unhappiness Among the Merchants",
+  "uk": "Купці невдоволені"
+ },
+ "random_event.16.a": {
+  "en": "Given time, a solution will present itself.",
+  "uk": "З часом усе владнається само собою."
+ },
+ "random_event.16.b": {
+  "en": "Reputation is not everything.",
+  "uk": "Репутація — не головне."
+ },
+ "random_event.16.desc": {
+  "en": "Political crises occur from time to time in our [ROOT.GetCountry.GetFlavorRank]. They often involve a conflict between [target_ruler.GetName] and the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], unrest among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], or conflicts of interest between the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], and [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]. One such crisis has recently cast public doubt on our governing institutions.",
+  "uk": "Час від часу в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] трапляються політичні кризи. Зазвичай у результаті цього [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] висловлюють своє невдоволення, і виникають конфлікти інтересів, у яких стикаються [target_ruler.GetName] і [ROOT.GetCountry.GetGovernment.GetParliament.GetName|l], або [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l], [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]. Одна з таких криз нещодавно підірвала суспільну довіру до наших державних інституцій."
+ },
+ "random_event.16.title": {
+  "en": "Political Crisis",
+  "uk": "Політична криза"
+ },
+ "random_event.17.a": {
+  "en": "Try to eradicate the problems.",
+  "uk": "Спробуємо викорінити проблему."
+ },
+ "random_event.17.b": {
+  "en": "Ignore them.",
+  "uk": "Проігноруємо всіх."
+ },
+ "random_event.17.desc": {
+  "en": "Corruption is one of the most common and frequent factors of political and economic life in our [ROOT.GetCountry.GetFlavorRank]. Several scandals over the past year have brought the issue to the fore, so much so that many influential populists are now calling for us to take action against this growing problem. Failing to do so could have dire consequences for our ability to govern our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Корупція — це один із найпоширеніших і найчастіших недугів політичного та економічного життя [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Низка гучних скандалів минулого року привернула увагу суспільства до цієї проблеми, і тепер багато впливових популістів вимагають, щоб ми вжили заходів. Якщо ми нічого не зробимо, нашу здатність керувати [ROOT.GetCountry.Custom('rank_ru_INST')|l] поставлять під сумнів."
+ },
+ "random_event.17.title": {
+  "en": "Corruption",
+  "uk": "Корупція"
+ },
+ "random_event.18.a": {
+  "en": "They will not forget this!",
+  "uk": "Вони цього не забудуть!"
+ },
+ "random_event.18.b": {
+  "en": "Try to ease the tension.",
+  "uk": "Спробуємо згладити напругу."
+ },
+ "random_event.18.desc": {
+  "en": "A careless turn of phrase by [target_ruler.GetName] has greatly offended [angry_ruler.GetName]. Mollifying [angry_ruler.GetHerHim] will not be easy without losing face.",
+  "uk": "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'допустила', 'допустив')] необережну ремарку, яку [angry_ruler.GetName] [Select_CString(angry_ruler.IsFemale, 'розцінила', 'розцінив')] як образу на свою адресу. Згладити ситуацію, не втративши обличчя, буде непросто."
+ },
+ "random_event.18.title": {
+  "en": "Diplomatic Insult",
+  "uk": "Дипломатична образа"
+ },
+ "random_event.19.a": {
+  "en": "Accept their rightful claims.",
+  "uk": "Приймемо їхні справедливі вимоги."
+ },
+ "random_event.19.b": {
+  "en": "Ignore their demands.",
+  "uk": "Відкинемо їхні вимоги."
+ },
+ "random_event.19.desc": {
+  "en": "The privileges of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been under continuous assault as [target_ruler.GetName] has attempted to centralize more and more control. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] have finally lost their patience and are demanding that they are given back what they believe is rightfully theirs.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вважають, що [target_ruler.GetName] у прагненні здобути якомога більше влади вже не перший рік відбирає в них привілеї. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] нарешті втратили терпець і вимагають повернути те, що нібито належить їм по праву."
+ },
+ "random_event.19.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Demand Privileges",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] вимагають привілеїв"
+ },
+ "random_event.2.a": {
+  "en": "Put it into the treasury.",
+  "uk": "Відправимо подарунок до скарбниці."
+ },
+ "random_event.2.b": {
+  "en": "Spend it generously.",
+  "uk": "Щедро витратимо."
+ },
+ "random_event.2.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] of our [ROOT.GetCountry.GetFlavorRank] have decided to reward our good governance of recent years by making generous donations to the treasury, some out of pure patriotism, others in exchange for honorary titles and positions.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] і [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] [ROOT.GetCountry.Custom('rank_ru_GEN')|l] вирішили винагородити нас за успішне правління, піднісши щедрі дари: одні з щирого патріотизму, інші в обмін на почесні звання та посади."
+ },
+ "random_event.2.title": {
+  "en": "Gift to the State",
+  "uk": "Подарунок державі"
+ },
+ "random_event.20.a": {
+  "en": "We have truly been blessed.",
+  "uk": "Щастить нам!"
+ },
+ "random_event.20.b": {
+  "en": "Their actions have shown us the true path.",
+  "uk": "Ця людина показала нам вірний шлях."
+ },
+ "random_event.20.desc": {
+  "en": "Some particularly devout members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and laity within our lands have dedicated themselves to helping the poor and healing the sick across our [ROOT.GetCountry.GetFlavorRank]. We are now hearing that the communities these pious individuals visit are starting to call them saints for their actions, with some even believed to have performed miracles.",
+  "uk": "Деякі особливо праведні [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] і миряни на наших землях присвятили себе допомозі бідним і лікуванню хворих у всіх частинах [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Тепер до нас доходять вісті, що в селищах, де з'являються ці правовірні люди, їх називають святими, а дехто навіть вірить, ніби вони здатні творити чудеса."
+ },
+ "random_event.20.title": {
+  "en": "Saints Perform Miracles",
+  "uk": "Святі творять чудеса"
+ },
+ "random_event.21.a": {
+  "en": "They will pay for their treachery.",
+  "uk": "Вони заплатять за своє дволичництво."
+ },
+ "random_event.21.b": {
+  "en": "We will deal with them later.",
+  "uk": "Розберемося з ними пізніше."
+ },
+ "random_event.21.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] often prove unruly subjects of the [ROOT.GetCountry.GetGovernment.GetRulerTitle], seeking to resist any infringement on their autonomy and seizing any opportunity to strengthen their position. This often includes making common cause with foreign powers. Recently, several key figures appear to have struck an agreement with [noble_ally_target.GetName] to advocate a pro-[noble_ally_target.GetAdjectiveWithNoTooltip] course of action in return for certain favors and promises. While not exactly treason, this behavior is clearly detrimental to our interests; however, reining them in is likely to prove no easy matter.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] часто виявляють себе непокірними підданими, чинять опір будь-яким спробам обмежити їхню автономію і шукають будь-якої нагоди зміцнити своє становище. Нерідко для цього вони йдуть на змову з чужими державами. Нещодавно [noble_ally_target.GetName] і кілька місцевих аристократів домовилися просувати [noble_ally_target.GetAdjectiveWithNoTooltip|l]і інтереси в обмін на певну прихильність і обіцянки. Назвати це прямою зрадою не можна, але така поведінка явно шкодить нашим інтересам. Утім, приборкати їх буде непросто."
+ },
+ "random_event.21.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Ally with Foreign Power",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] стають на бік іноземної держави"
+ },
+ "random_event.22.a": {
+  "en": "What do the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] need earthly possessions for?",
+  "uk": "Вони ж [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l], навіщо їм земні блага?"
+ },
+ "random_event.22.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]'s land should be protected!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] мають повне право на цю землю!"
+ },
+ "random_event.22.desc": {
+  "en": "Several members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have come before [target_ruler.GetName] with a proposal. Desperate for more lands and titles, they look with envy towards the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], who own considerable land. They ask that we transfer Church land to them in return for a large cash contribution to the [ROOT.GetCountry.GetLongName]'s efforts. Of course, in the long term, we would lose out on tax revenues from Church lands in return for this short-term boost in revenue.",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] прислали до двору делегацію з пропозицією. Вони прагнуть більше земель і титулів, тоді як [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], на їхню думку, володіють надто обширними наділами. Аристократи просять передати їм церковні землі, а натомість [ROOT.GetCountry.GetLongName] отримає від них великий грошовий внесок до скарбниці. Звісно, в довгостроковій перспективі ми втратимо через зменшення податкових надходжень від церкви, але зате отримаємо велику суму просто зараз."
+ },
+ "random_event.22.title": {
+  "en": "Cessation of Church Functions",
+  "uk": "Передача повноважень церкви аристократам"
+ },
+ "random_event.23.a": {
+  "en": "Accept their generous offer.",
+  "uk": "Приймемо їхню щедру пропозицію."
+ },
+ "random_event.23.b": {
+  "en": "We can get funds elsewhere.",
+  "uk": "Знайдемо гроші десь інде."
+ },
+ "random_event.23.desc": {
+  "en": "The treasury of our [ROOT.GetCountry.GetFlavorRank] has seen better days and new sources of income are desperately needed. Fortunately, some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have offered generous gifts in return for only a few government offices. These sales would bring in a lot of revenue, but, in the long term, more officials could mean more tax revenue siphoned off before it reaches our treasury.",
+  "uk": "Скарбниця [ROOT.GetCountry.Custom('rank_ru_GEN')|l] у плачевному стані, і нам відчайдушно потрібні нові способи заробітку. На щастя, деякі заможні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] пропонують щедрі дари в обмін на пару посад в уряді. Така угода дозволила б нам залучити багато коштів, але в довгостроковій перспективі чим більше у нас буде чиновників, тим більше податків може потекти повз нашу скарбницю."
+ },
+ "random_event.23.title": {
+  "en": "Sale of Offices",
+  "uk": "Продаж посад"
+ },
+ "random_event.24.a": {
+  "en": "Accept their demands.",
+  "uk": "Приймемо їхні вимоги."
+ },
+ "random_event.24.b": {
+  "en": "Refuse their demands.",
+  "uk": "Відкинемо їхні вимоги."
+ },
+ "random_event.24.desc": {
+  "en": "[target_ruler.GetName] has to employ many methods to keep the unruly [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in line. One of the most common is cold hard cash. We already grant them a pension in exchange for relinquishing certain rights; however, their leaders now claim that we are not paying them enough and are demanding their pensions rise if they are to continue to support the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [target_ruler.GetName] знає багато способів домогтися того, щоб непокірні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] залишалися в покорі. Одним із найважливіших важелів є гроші. Ми вже платимо аристократам допомоги в обмін на відмову від певних прав. Однак тепер лідери знаті запевняють, що ми платимо надто мало, і вимагають збільшити виплати в обмін на свою підтримку влади."
+ },
+ "random_event.24.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Demand Increased Pensions",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] вимагають збільшення допомог"
+ },
+ "random_event.25.a": {
+  "en": "Grant the privileges.",
+  "uk": "Надамо привілеї."
+ },
+ "random_event.25.b": {
+  "en": "Privileges have to be earned.",
+  "uk": "Привілеї треба заслужити."
+ },
+ "random_event.25.desc": {
+  "en": "Instead of paying cash to the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], another option to ensure their loyalty is to grant them privileges to collect special revenues, such as from foreign trade, from which they can make a healthy profit. A proposal has recently reached [target_ruler.GetName]'s ears to grant several families of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] export licenses for our trade with [trade_target.GetName]. Doing so would please them greatly, but the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] may view the matter less favorably.",
+  "uk": "Замість прямих виплат [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] могли б отримувати від держави право стягувати збори — наприклад, з іноземної торгівлі — і отримувати від них пристойні доходи, а ми б тим самим підвищили їхню лояльність. Нещодавно [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'отримала', 'отримав')] пропозицію надати кільком родинам подібні ліцензії на торгівлю з представниками #ONCLICK:COUNTRY,[trade_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[trade_target.Custom('CL_tt')],X [trade_target.Custom('CL_GEN')|L]#!#!. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], звісно, будуть раді такому подарунку, а ось [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] їхньої радості не поділять."
+ },
+ "random_event.25.title": {
+  "en": "Grant Export Licenses",
+  "uk": "Видача експортних ліцензій"
+ },
+ "random_event.26.a": {
+  "en": "This is a good plan.",
+  "uk": "Гарний план."
+ },
+ "random_event.26.b": {
+  "en": "We do not need this.",
+  "uk": "Обійдемося без цього."
+ },
+ "random_event.26.desc": {
+  "en": "The establishment of permanent recruiting areas for armies makes it much easier for us to extract men from the population to serve in the army. Our [ROOT.GetCountry.GetGovernment.GetCabinetTitle] has proposed the establisment of new Cantonments in [target_province.GetName].",
+  "uk": "Будівництво постійних військових містечок помітно полегшує нам набір нових солдатів для армії з-поміж місцевих жителів. [ROOT.GetCountry.GetGovernment.GetCabinetTitle] пропонує заснувати кантонменти в провінції [target_province.GetName]."
+ },
+ "random_event.26.title": {
+  "en": "Establish Cantonments",
+  "uk": "Заснування кантонментів"
+ },
+ "random_event.27.a": {
+  "en": "Accept their demands",
+  "uk": "Приймемо їхні вимоги."
+ },
+ "random_event.27.b": {
+  "en": "Reject their demands",
+  "uk": "Їхні вимоги неприйнятні."
+ },
+ "random_event.27.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] still recall the days when the [ROOT.GetCountry.GetGovernment.GetRulerTitle] was just the first among many within the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]. They yearn for a return to those days and are actively pressuring [target_ruler.GetName] to restore to them certain lost rights and privileges.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] досі зітхають за старими часами, коли [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(target_ruler.IsFemale,'була', 'був')] лише [Select_CString(target_ruler.IsFemale,'першою', 'першим')] серед них. Вони бажають повернення до старих традицій і активно підштовхують [Select_CString(target_ruler.IsFemale,'її', 'його')] відновити низку їхніх давніх прав і привілеїв."
+ },
+ "random_event.27.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Demand Old Rights",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] вимагають давніх прав"
+ },
+ "random_event.28.a": {
+  "en": "Deny them their old rights!",
+  "uk": "Ніяких їм старих прав!"
+ },
+ "random_event.28.b": {
+  "en": "Accept their demands.",
+  "uk": "Приймемо їхні вимоги."
+ },
+ "random_event.28.desc": {
+  "en": "As we look to centralize our [ROOT.GetCountry.GetFlavorRank], we inevitably infringe on the autonomy of the urban dwellers, who have always existed under a different code of rules than their rural brethren. These urbanites actively resist pressure to be brought under more uniform rules and regulations, and demand that their old rights be respected.",
+  "uk": "У спробах централізувати [ROOT.GetCountry.Custom('rank_ru_ACC')|l] ми неминуче зневажаємо права городян, які завжди жили за іншими законами, ніж їхні побратими в селах. Городяни активно чинять опір спробам зрівняти їх у правах з іншими станами і вимагають поваги до їхніх давніх привілеїв."
+ },
+ "random_event.28.title": {
+  "en": "Urban Centers Demand Old Rights",
+  "uk": "Міські центри вимагають давніх прав"
+ },
+ "random_event.29.a": {
+  "en": "Let them handle it.",
+  "uk": "Нехай розбираються самі."
+ },
+ "random_event.29.b": {
+  "en": "Increase attempts!",
+  "uk": "Посилити старання!"
+ },
+ "random_event.29.desc": {
+  "en": "Although [target_ruler.GetName] issues many ordinances, [target_ruler.GetHeSheFormal] is, in practice, almost powerless to enforce them. Instead, enforcement depends upon the local powers - regional [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and city governments - that are not always as vigilant as we desire. Recently, it has come to our attention that our authorities in [target_province.GetName] are being particularly reticent in enforcing the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s will.",
+  "uk": "Хоча [target_ruler.GetName] видає багато указів, забезпечити їх виконання [Select_CString(target_ruler.IsFemale, 'вона', 'він' )] практично не в змозі. Цим займається місцева влада — [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і міські ради, — яка не завжди ставиться до справи з належною ретельністю. Нещодавно нам стало відомо, що влада провінції [target_province.GetName] особливо повільна у виконанні волі, яку виявляє [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "random_event.29.title": {
+  "en": "Non-Enforcement of Ordinances",
+  "uk": "Невиконання указів"
+ },
+ "random_event.3.a": {
+  "en": "Reduce [target_ruler.GetHerHis] administrative duties.",
+  "uk": "Відсторонити [Select_CString(target_ruler.IsFemale, 'її', 'його')] від адміністративних справ."
+ },
+ "random_event.3.b": {
+  "en": "Reduce [target_ruler.GetHerHis] diplomatic duties.",
+  "uk": "Відсторонити [Select_CString(target_ruler.IsFemale, 'її', 'його')] від дипломатичних справ."
+ },
+ "random_event.3.c": {
+  "en": "Reduce [target_ruler.GetHerHis] military duties.",
+  "uk": "Відсторонити [Select_CString(target_ruler.IsFemale, 'її', 'його')] від військових справ."
+ },
+ "random_event.3.desc": {
+  "en": "[target_ruler.GetName] has been acting very strangely the last couple of months. It appears that [target_ruler.GetHeSheFormal] is suffering from a temporary crisis of insanity. As a result, our [ROOT.GetCountry.GetFlavorRank] is left with very little efficient guidance.",
+  "uk": "[target_ruler.GetName] останні кілька місяців поводиться дуже дивно. Схоже, [target_ruler.GetHeSheFormal] страждає від тимчасового затьмарення розуму. Як наслідок, у [ROOT.GetCountry.Custom('rank_ru_PREP')|l] майже немає ефективного керівництва."
+ },
+ "random_event.3.title": {
+  "en": "Temporary Insanity of [target_ruler.GetNameWithNoTooltip]",
+  "uk": "[target_ruler.GetNameWithNoTooltip] і [Select_CString(target_ruler.IsFemale, 'її', 'його')] тимчасове божевілля"
+ },
+ "random_event.30.a": {
+  "en": "Grant them [target_privilege.GetNameWithNoTooltip].",
+  "uk": "[target_privilege.GetNameWithNoTooltip] їх влаштує?"
+ },
+ "random_event.30.b": {
+  "en": "Such privileges are for the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Подібними привілеями можуть володіти лише [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
+ },
+ "random_event.30.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have grown increasingly resentful of the power of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and, particularly, their lack of opportunities in the higher ranks of government. Their only route into power is to marry into poor but well-titled families, or to pry open positions in government circles by demanding greater privileges from the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] з дедалі більшою заздрістю спостерігають, якою владою володіють у нашій державі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], тоді як їм самим шлях на високі державні посади закритий. Єдиний спосіб здобути владу для них — вступати в шлюб із небагатими, але знатними родинами або вимагати, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'розширила', 'розширив')] їхні привілеї."
+ },
+ "random_event.30.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U] Request Privileges",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U] вимагають привілеїв"
+ },
+ "random_event.31.a": {
+  "en": "Hire [italian.GetHerHim].",
+  "uk": "Наймемо [Select_CString(italian.IsFemale, 'її', 'його')]."
+ },
+ "random_event.31.b": {
+  "en": "Decline the offer.",
+  "uk": "Відхилимо пропозицію."
+ },
+ "random_event.31.desc": {
+  "en": "A young architect from [ShowAreaName('tuscany_area')], [italian.GetName], has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle], offering [italian.GetHerHis] services to [target_ruler.GetName]. [italian.GetSheHe|U] claims to be well-versed in the art of building beautiful palaces in the new [ShowInstitutionName('renaissance')] style, which we have been desperate to emulate. However, [italian.GetHerHis] services will not come cheaply.",
+  "uk": "До нашого двору [Select_CString(italian.IsFemale, 'приїхала якась', 'приїхав якийсь')] [italian.GetName], молодий архітектор із #TOOLTIP:AREA,tuscany_area,X #L Тоскани#!#!, сподіваючись, що [target_ruler.GetName] прийме [Select_CString(italian.IsFemale, 'її', 'його')] на службу. [italian.GetSheHe|U] запевняє, що [Select_CString(italian.IsFemale, 'досвідчена', 'досвідчений')] у будівництві прекрасних палаців у новому стилі #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!, який ми вже давно намагаємося відтворити у себе. Але [Select_CString(italian.IsFemale, 'її', 'його')] послуги обійдуться нам недешево."
+ },
+ "random_event.31.title": {
+  "en": "Italian Architect",
+  "uk": "Італійський архітектор"
+ },
+ "random_event.32.a": {
+  "en": "Hire [italian.GetHerHim] to improve our fortifications.",
+  "uk": "Наймемо [Select_CString(italian.IsFemale, 'її', 'його')], нехай посилить наші укріплення."
+ },
+ "random_event.32.b": {
+  "en": "[italian.GetHerHis|U] mind should serve our [ROOT.GetCountry.GetGovernment.GetCourtTitle] directly.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] тільки виграє від такого міністра."
+ },
+ "random_event.32.c": {
+  "en": "How do you even pronounce this '#italic tracé à l'italienne#!'?",
+  "uk": "Нехай несе свою #italic італійську нісенітницю#! в іншому місці."
+ },
+ "random_event.32.desc": {
+  "en": "A siege engineer from Northen [ShowRegionName('italy_region')] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle], offering [italian.GetHerHis] services to [target_ruler.GetName]. [italian.GetSheHe|U] claims to be well-versed in the art of building the formidable [ShowCultureGroupName('italian_group')] bastion fort, the #italic trace italienne#!, which our military theorists have been desperate to emulate. However, [italian.GetHerHis] services will not come cheaply.",
+  "uk": "До нашого двору [Select_CString(italian.IsFemale, 'приїхала', 'приїхав')] військовий інженер з #TOOLTIP:REGION,italy_region,X #L Італії#!#!, сподіваючись, що [target_ruler.GetName] прийме його на службу. [italian.GetSheHe|U] запевняє, що [Select_CString(italian.IsFemale, 'досвідчена', 'досвідчений')] у будівництві грізних #TOOLTIP:CULTUREGROUP,italian_group,X #L італійських#!#! фортець, #italic trace italienne#!, які наші військові теоретики вже давно намагаються відтворити у себе. Але [Select_CString(italian.IsFemale, 'її', 'його')] послуги обійдуться нам недешево."
+ },
+ "random_event.32.title": {
+  "en": "Italian Engineer Available",
+  "uk": "Італійський інженер пропонує послуги"
+ },
+ "random_event.33.a": {
+  "en": "Hire [drill_instructor.GetHerHim] to train our troops.",
+  "uk": "Наймемо [Select_CString(italian.IsFemale, 'її', 'його')], нехай тренує наших солдатів."
+ },
+ "random_event.33.b": {
+  "en": "[drill_instructor.GetHerHis|U] talents are wasted outside our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] краще скористається [Select_CString(italian.IsFemale, 'її', 'його')] талантами."
+ },
+ "random_event.33.c": {
+  "en": "Decline the offer.",
+  "uk": "Відмовимося від допомоги."
+ },
+ "random_event.33.desc": {
+  "en": "The [drill_country.GetAdjective] drillmasters have become masters at the art of training troops to use firearms in a most effective manner. However, their methods are not a secret - far from it. In fact, entrepreneurial [drill_country.GetAdjectiveWithNoTooltip] veterans are now making a living for themselves by offering their knowledge to rulers all over [ShowContinentName('europe')]. One such drillmaster has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] to offer [drill_instructor.GetHerHis] services.",
+  "uk": "#L [drill_country.GetAdjective|U]і#! військові інструктори відомі своїм умінням навчати солдатів найефективніше поводитися зі стрілецькою зброєю. Однак вони не тримають свої методи в таємниці — аж ніяк! Заповзятливі [drill_country.GetAdjectiveWithNoTooltip|l]і ветерани заробляють на життя, наймаючись муштрувати війська до правителів по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. Один із таких інструкторів прибув до нашого двору і пропонує свої послуги."
+ },
+ "random_event.33.title": {
+  "en": "Foreign Drill Instructor Available",
+  "uk": "Іноземні військові інструктори"
+ },
+ "random_event.34.a": {
+  "en": "Build the [ShowBuildingTypeNameWithNoTooltip('grand_palace')]!",
+  "uk": "Збудуємо великий палац!"
+ },
+ "random_event.34.b": {
+  "en": "Do not build it.",
+  "uk": "Не будемо будувати палац."
+ },
+ "random_event.34.desc": {
+  "en": "Monarchs often struggle to subdue their [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and secure their standing in the eyes of their peers. The rise of firearms has reduced the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]'s role as warriors, but left them with, in the eyes of the monarchs, too much idle time. In order to dazzle their [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] and keep them occupied, many monarchs are increasingly creating impressive new palaces and introducing elaborate court rituals. [target_ruler.GetName] is no different, and has instructed our chief architect to draw up plans for a new [ShowBuildingTypeNameWithNoTooltip('grand_palace')] to be built to impress the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] нерідко чинять опір монархам та їхнім спробам утвердити свій статус в очах оточення. Вогнепальна зброя розвивається, і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] тепер відіграють не таку важливу роль як воїни, але водночас вона подарувала їм, на думку монархів, надто багато вільного часу. Щоб [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] не нудьгували (і щоб вразити їх), багато правителів будують нові розкішні палаци і впроваджують складні придворні ритуали. [target_ruler.GetName] не відстає від моди, тому [Select_CString(target_ruler.IsFemale, 'доручила', 'доручив' )] нашому головному зодчому підготувати план нового великого палацу, якому [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] неодмінно здивуються."
+ },
+ "random_event.34.title": {
+  "en": "Build a [ShowBuildingTypeNameWithNoTooltip('grand_palace')|U]",
+  "uk": "Будівництво великого палацу"
+ },
+ "random_event.35.a": {
+  "en": "Burn [philosopher.GetHerHim].",
+  "uk": "Спалити [Select_CString(philosopher.IsFemale, 'її', 'його')]!"
+ },
+ "random_event.35.b": {
+  "en": "Allow [philosopher.GetHerHim] to remain free.",
+  "uk": "Залишимо [Select_CString(philosopher.IsFemale, 'її', 'його')] в спокої."
+ },
+ "random_event.35.c": {
+  "en": "Burn them all!",
+  "uk": "Спалити все дощенту!"
+ },
+ "random_event.35.c.tt": {
+  "en": "Burning [philosopher.GetNameWithNoTooltip] and [philosopher.GetHerHis] supporters will remove heretical voices from our [ROOT.GetCountry.GetGovernment.GetCourtTitle], but will anger their families and friends.",
+  "uk": "Буде [Select_CString(philosopher.IsFemale, 'спалена', 'спалений')] і [philosopher.GetNameWithNoTooltip], і всі [Select_CString(philosopher.IsFemale, 'її', 'його')] прихильники. [ROOT.GetCountry.GetGovernment.GetCourtTitle] позбудеться єретичних голосів, однак це розлютить їхні родини та друзів."
+ },
+ "random_event.35.desc": {
+  "en": "The philosopher [philosopher.GetName] has not shied back from expressing opinions contrary to those of both [target_ruler.GetName] and the Holy Church. [philosopher.GetHerHis|U] latest publishings appear to have been particularly provocative, so much so that the Church is demanding we hand [philosopher.GetHerHim] over to their inquisitors to be tried for heresy and \"persuaded\" to recant. Denying them this would anger the Church greatly, but [philosopher.GetNameWithNoTooltip] has many supporters among the [ROOT.GetCountry.GetAdjective] educated elites.",
+  "uk": "[Select_CString(philosopher.IsFemale, 'Мислителька', 'Мислитель')] [philosopher.GetName] не боїться висловлювати думки, що суперечать поглядам, яких дотримується як [target_ruler.GetName], так і Свята Церква. [Select_CString(philosopher.IsFemale, 'Її', 'Його')] недавні праці виявилися настільки провокаційними, що тепер церква вимагає від нас віддати [Select_CString(philosopher.IsFemale, 'її', 'його')] до суду і змусити зректися єресі. Якщо ми відкинемо вимоги, це розгнівить церкву, але [philosopher.GetNameWithNoTooltip] має безліч прихильників серед #L [ROOT.GetCountry.GetAdjective|l]их#! освічених еліт."
+ },
+ "random_event.35.title": {
+  "en": "Uncooperative Philosopher",
+  "uk": "Непоступливий філософ"
+ },
+ "random_event.36.a": {
+  "en": "Issue a formal complaint to [market_owner.GetNameWithNoTooltip].",
+  "uk": "[market_owner.GetNameWithNoTooltip] отримає від нас офіційну скаргу."
+ },
+ "random_event.36.b": {
+  "en": "Seek a diplomatic solution.",
+  "uk": "Знайдемо дипломатичне рішення."
+ },
+ "random_event.36.desc": {
+  "en": "Our merchants have long complained about the unfair treatment they have suffered in the [target_market.GetName]. Recently, however, these complaints have escalated and the merchants now claim to be victims of [market_owner.GetAdjective] brigandage and privateering - attacks they insist were carried out with the tacit support of [market_owner.GetNameWithNoTooltip]. We must find a solution to the issue, one way or another.",
+  "uk": "Наші купці вже давно скаржаться на несправедливе ставлення, яке виявляє до них увесь [target_market.GetName]. Але останнім часом ситуація стала ще серйознішою: торговці скаржаться, що на них нападають #L [market_owner.GetAdjective|l]і#! бандити і капери, нібито з дозволу [market_owner.GetAdjectiveWithNoTooltip|l]ого уряду. Це питання треба якось вирішувати."
+ },
+ "random_event.36.title": {
+  "en": "Merchants Harassed",
+  "uk": "Утиски купців"
+ },
+ "random_event.37.a": {
+  "en": "Accept the petition.",
+  "uk": "Приймемо прохання."
+ },
+ "random_event.37.b": {
+  "en": "Deny the petition.",
+  "uk": "Відхилимо прохання."
+ },
+ "random_event.37.b.tt": {
+  "en": "This will make our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [uppity_peasants.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e].",
+  "uk": "Через це [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у [uppity_peasants.Custom('LR_PREP')|l] [uppity_peasants.GetName] втратять [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]."
+ },
+ "random_event.37.desc": {
+  "en": "Some of the local members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [uppity_peasants.GetName] have so upset and mistreated their subjects that a delegation of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] has come before [target_ruler.GetName] to ask for redress. Agreeing to this would be popular with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')], but would be seen by the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] as an infringement on their authority.",
+  "uk": "Деякі місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] у [uppity_peasants.Custom('LR_PREP')|l] [uppity_peasants.GetName] так сильно переслідували й ображали своїх підопічних, що ці [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] наважилися написати чолобитну владі, сподіваючись, що [target_ruler.GetName] їх захистить. Якщо ми задовольнимо їхнє прохання, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] нас полюблять, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] побачать у цьому загрозу своїй владі."
+ },
+ "random_event.37.title": {
+  "en": "Petition for Redress",
+  "uk": "Прохання про захист"
+ },
+ "random_event.38.a": {
+  "en": "Grant them aid.",
+  "uk": "Надамо допомогу."
+ },
+ "random_event.38.b": {
+  "en": "Deny them aid.",
+  "uk": "Відмовимо в допомозі."
+ },
+ "random_event.38.desc": {
+  "en": "One of [ROOT.GetCountry.GetName]'s most powerful families of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has, despite its vast landed wealth, managed to accumulate significant debts that it is finding hard to pay back. They have approached [target_ruler.GetName] to ask for help, hoping that their long history of loyalty to the [target_ruler.GetDynasty.GetName] family and their promises of undying support will sway [target_ruler.GetHerHim] to help them out in their time of need.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], а саме — одна з найвпливовіших родин #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, примудрилися набрати значні борги, які неспроможні виплатити навіть попри свої обширні земельні володіння. Тепер представники родини сподіваються, що [target_ruler.GetName] згадає про їхню довгу і вірну службу династії [target_ruler.GetDynasty.GetName], вислухає їхні прохання про допомогу й обіцянки безумовної підтримки в майбутньому і виручить їх."
+ },
+ "random_event.38.title": {
+  "en": "Prestigious Family Requests Aid",
+  "uk": "Престижна родина просить допомоги"
+ },
+ "random_event.39.a": {
+  "en": "Support them.",
+  "uk": "Підтримаємо їх."
+ },
+ "random_event.39.b": {
+  "en": "What a waste of coin!",
+  "uk": "Марна трата грошей!"
+ },
+ "random_event.39.desc": {
+  "en": "We have been contacted by a group of [dissidents.GetAdjective] dissidents who claim to have a vast network of support ready to force the [dissidents.GetAdjectiveWithNoTooltip] [dissidents.GetGovernment.GetRulerTitle] to adopt a pro-[ROOT.GetCountry.GetAdjective] course if we can just provide them with the necessary funds. Although they are most likely lying, their claims have excited many influential people at our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Supporting these dissidents probably will not accomplish anything other than antagonizing [dissidents.GetNameWithNoTooltip], but turning them down could give a bad impression to our more bellicose [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')].",
+  "uk": "З нами зв'язалася група #L [dissidents.GetAdjective|l]их#! дисидентів, які нібито мають розгалужену мережу прихильників і можуть змусити [dissidents.GetAdjectiveWithNoTooltip|l]е керівництво зайняти #L про[ROOT.GetCountry.GetAdjective|l]у#! позицію, якщо ми надамо їм необхідне фінансування. Хоча ці «дисиденти» майже напевно брешуть, їхні заяви закрутили голови багатьом впливовим людям при дворі. Підтримавши їх, ми навряд чи чогось доб'ємося і лише налаштуємо проти себе [dissidents.Custom('CL_ACC')], але, якщо ми відмовимо дисидентам, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] нас можуть не зрозуміти."
+ },
+ "random_event.39.title": {
+  "en": "Support for Dissidents Abroad",
+  "uk": "Підтримка дисидентів за кордоном"
+ },
+ "random_event.4.a": {
+  "en": "Knowledge is power.",
+  "uk": "Знання — сила."
+ },
+ "random_event.4.b": {
+  "en": "Ignorance is bliss.",
+  "uk": "Незнання — щастя."
+ },
+ "random_event.4.desc": {
+  "en": "Recently, researchers in our [ROOT.GetCountry.GetFlavorRank] have published several works with radical theses that could prove destabilizing if widely disseminated. We could opt for the easy path of obscurantism and suppress this knowledge, but is peace of mind really worth standing in the way of progress?",
+  "uk": "Нещодавно дослідники з [ROOT.GetCountry.Custom('rank_ru_GEN')|l] опублікували кілька праць з радикальними ідеями, які в разі широкого поширення здатні розхитати наше суспільство. Ми могли б вдатися до обскурантизму і почати боротися з цими знаннями, але чи справді варто ставати на шляху прогресу заради власного спокою?"
+ },
+ "random_event.4.title": {
+  "en": "Wave of Obscurantism",
+  "uk": "Хвиля обскурантизму"
+ },
+ "random_event.40.a": {
+  "en": "Impose a new tariff.",
+  "uk": "Введемо нове мито."
+ },
+ "random_event.40.b": {
+  "en": "There shall be no new tariffs.",
+  "uk": "Нового мита не буде."
+ },
+ "random_event.40.desc": {
+  "en": "Foreign merchants are increasingly out-competing our own in our [ROOT.GetCountry.GetFlavorRank]'s ports, flooding our markets with cheap goods produced elsewhere. This is making it difficult for our merchants to make a living. They have come before [target_ruler.GetName] to propose a new tariff on foreign goods, which would help protect them from competition from abroad.",
+  "uk": "Іноземні торговці дедалі частіше витісняють наших купців у наших же власних портах, заповнюючи ринки дешевими чужоземними товарами. Через це купцям дедалі складніше заробляти собі на життя. Вони звернулися до влади з проханням, щоб [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'ввела', 'ввів')] мито на іноземні товари і цим [Select_CString(target_ruler.IsFemale, 'захистила', 'захистив')] їх від конкуренції з-за кордону."
+ },
+ "random_event.40.title": {
+  "en": "Foreign Trade Competition Rises",
+  "uk": "Зростання іноземної торгової конкуренції"
+ },
+ "random_event.41.a": {
+  "en": "Fire [minister.GetHerHim]!",
+  "uk": "Звільнити [Select_CString(minister.IsFemale, 'її', 'його')]!"
+ },
+ "random_event.41.b": {
+  "en": "We have faith in [minister.GetHerHim].",
+  "uk": "Ми в [Select_CString(minister.IsFemale, 'неї', 'нього')] віримо."
+ },
+ "random_event.41.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are outraged that a heretic, [minister.GetName], is employed as an advisor to [target_ruler.GetName]. They demand [minister.GetHerHis] immediate removal!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] обурені тим, що [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'допустила', 'допустив' )] до кола своїх радників [Select_CString(minister.IsFemale, 'єретика', 'єретичку' )] на ім'я [minister.GetName]. Вони вимагають [Select_CString(minister.IsFemale, 'її', 'його' )] негайного звільнення!"
+ },
+ "random_event.41.title": {
+  "en": "Heretic Advisor",
+  "uk": "Радник-єретик"
+ },
+ "random_event.42.a": {
+  "en": "Fire [minister.GetHerHim]!",
+  "uk": "Звільнити [Select_CString(minister.IsFemale, 'її', 'його')]!"
+ },
+ "random_event.42.b": {
+  "en": "[minister.GetSheHe|U] is doing a great job.",
+  "uk": "[minister.GetSheHe|U] знає свою справу."
+ },
+ "random_event.42.desc": {
+  "en": "It seems that a member of our [ROOT.GetCountry.GetGovernment.GetCabinetTitle], [minister.GetName], will stop at nothing to elevate [minister.GetHerHis] position. Using more or less questionable methods, [minister.GetSheHe] has come to command the undivided attention of [target_ruler.GetName], who is said to obey [minister.GetHerHis] every whim.",
+  "uk": "Схоже, [Select_CString(minister.IsFemale, 'одна', 'один')] з наших міністрів, [minister.GetName], не зупиниться ні перед чим, прагнучи зміцнити своє становище. Хай і вельми сумнівними методами, але [minister.GetSheHe] все ж [Select_CString(minister.IsFemale, 'домоглася', 'домігся')] того, що [target_ruler.GetName] слухає лише [Select_CString(minister.IsFemale, 'її', 'його')] і виконує будь-яку [Select_CString(minister.IsFemale, 'її', 'його')] примху."
+ },
+ "random_event.42.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U] Gains Power",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U] здобуває владу"
+ },
+ "random_event.43.a": {
+  "en": "Enforce our authority.",
+  "uk": "Покажемо, хто тут влада!"
+ },
+ "random_event.43.b": {
+  "en": "These things happen.",
+  "uk": "Всяке трапляється."
+ },
+ "random_event.43.desc": {
+  "en": "Our efforts to keep the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in their place have been somewhat too successful in recent times. So harsh is our rule, in fact, that the destitute are becoming increasingly vocal in their complaints and are turning against their landlords, demanding better treatment and conditions.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у нас у залізних рукавицях, і останнім часом наші зусилля в цьому питанні, мабуть, були навіть надто успішними. Ми поводилися з ними настільки жорстоко, що найвідчайдушніші з них почали подавати голос, скаржитися і повставати проти поміщиків, вимагаючи людського ставлення та умов."
+ },
+ "random_event.43.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] Getting Uppity",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] виявляють зухвалість"
+ },
+ "random_event.44.a": {
+  "en": "Cleanse the temple.",
+  "uk": "Звільнимо від них храм."
+ },
+ "random_event.44.b": {
+  "en": "Ignore it for a share of the profits.",
+  "uk": "За частку прибутку ми заплющимо на це очі."
+ },
+ "random_event.44.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are meant to be incorruptible - after all, that is what they preach. However, it seems they do not always live up to their own teachings. A scandal has broken out surrounding several of their leading figures, who, instead of providing our people with honest spiritual guidance, appear to have made themselves obscenely rich through various dodgy dealings over a prolonged period of time.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] мають бути вільні від гріха: зрештою, до цього вони закликають свою паству. Але, схоже, самі вони часто не дотягують до своїх же ідеалів. Нещодавно в релігійних колах вибухнув скандал: деякі високопоставлені священники замість того, щоб займатися спасінням душ наших підданих, тривалий час наживалися на сумнівних оборудках."
+ },
+ "random_event.44.title": {
+  "en": "Corruption Among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] погрязли в корупції"
+ },
+ "random_event.45.a": {
+  "en": "Support the mercantilist faction.",
+  "uk": "Підтримаємо меркантилістів."
+ },
+ "random_event.45.b": {
+  "en": "Free trade is the future.",
+  "uk": "Майбутнє за вільною торгівлею."
+ },
+ "random_event.45.c": {
+  "en": "This is not a matter for us to decide.",
+  "uk": "Це не нам вирішувати."
+ },
+ "random_event.45.desc": {
+  "en": "A dispute has broken out between several extremely wealthy - and therefore influential - merchants over [ROOT.GetCountry.GetAdjective] trade policy. One group favors taking a mercantilist approach, calling for our [ROOT.GetCountry.GetFlavorRank] to ensure that the wealth generated by trade within [ROOT.GetCountry.GetNameWithNoTooltip] goes mainly to [ROOT.GetCountry.GetAdjectiveWithNoTooltip] traders and producers. The other faction dismisses this protectionist approach as old-fashioned and is in favor of free trade, which they claim would liberate them to seek profits around the world. Naturally, both sides consider the other to be highly unreasonable at best and dangerous in their misguided beliefs at worst.",
+  "uk": "Між найбагатшими і найвпливовішими купцями держави виникла суперечка про #L [ROOT.GetCountry.GetAdjective|l]у#! торгову політику. Одні виступають за меркантилістський підхід, щоб доходи від торгівлі всередині #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! діставалися переважно [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]им торговцям і промисловцям. Інші відкидають цей протекціоністський підхід як застарілий і ратують за свободу торгівлі, щоб наші купці могли шукати вигоди по всьому світу. Обидві сторони відмовляють одна одній у здоровому глузді й звинувачують одна одну в небезпечних оманах."
+ },
+ "random_event.45.title": {
+  "en": "Merchant Fractures",
+  "uk": "Розкол серед купців"
+ },
+ "random_event.46.a": {
+  "en": "This is good, land is where it is at.",
+  "uk": "Нічого не треба міняти — земля вкрай важлива."
+ },
+ "random_event.46.b": {
+  "en": "We must stop this deterioration.",
+  "uk": "Цю деградацію треба зупинити."
+ },
+ "random_event.46.desc": {
+  "en": "Lately, our focus has been primarily army-oriented. Perhaps we should not overlook the possibility of a strong navy and invest more time in naval research.",
+  "uk": "Останнім часом ми займалися переважно армією. Можливо, нам варто приділяти більше уваги флотським дослідженням, щоб підтримувати наш флот на гідному рівні."
+ },
+ "random_event.46.title": {
+  "en": "Naval Traditions Scorned",
+  "uk": "Морські традиції зневажені"
+ },
+ "random_event.47.a": {
+  "en": "The fleet is our wooden wall!",
+  "uk": "Флот — наша стіна!"
+ },
+ "random_event.47.b": {
+  "en": "We must stop this deterioration.",
+  "uk": "Цю деградацію треба зупинити."
+ },
+ "random_event.47.desc": {
+  "en": "Lately, our focus has been primarily navy-oriented. Perhaps we should not overlook the possibility of a strong army and invest more time in army research.",
+  "uk": "Останнім часом ми займалися переважно флотом. Можливо, нам варто приділяти більше уваги армійським дослідженням, щоб підтримувати нашу армію на гідному рівні."
+ },
+ "random_event.47.title": {
+  "en": "Army Traditions Scorned",
+  "uk": "Армійські традиції зневажені"
+ },
+ "random_event.48.a": {
+  "en": "Attack is always the best option!",
+  "uk": "Найкращий захист — це напад!"
+ },
+ "random_event.48.b": {
+  "en": "We must always defend our own first!",
+  "uk": "Передусім треба захищати своїх!"
+ },
+ "random_event.48.c": {
+  "en": "The best of both schools will naturally emerge through debate.",
+  "uk": "Суперництво допоможе кращим представникам обох шкіл проявити себе."
+ },
+ "random_event.48.desc": {
+  "en": "The occasional hostilities that erupt between our opposing military schools have become more frequent as of late. If we do not intervene soon, we risk further disunity within our armed forces.",
+  "uk": "Наші військові школи суперничають, і між ними дедалі частіше відбуваються сутички. Якщо не втрутитися, нашій армії загрожує подальше роз'єднання."
+ },
+ "random_event.48.title": {
+  "en": "Opposing Military Schools",
+  "uk": "Суперництво військових шкіл"
+ },
+ "random_event.49.a": {
+  "en": "Hire [the_artist.GetHerHim].",
+  "uk": "Найняти [Select_CString(the_artist.IsFemale,'її','його')]."
+ },
+ "random_event.49.b": {
+  "en": "Decline [the_artist.GetHerHis] services.",
+  "uk": "Відмовитися від [Select_CString(the_artist.IsFemale,'її','його')] послуг."
+ },
+ "random_event.49.desc": {
+  "en": "Lately, we have been looking for painters or artists to adequately capture the glory of our [ROOT.GetCountry.GetFlavorRank]'s founders. As it happens, a painter, [the_artist.GetName], offered [the_artist.GetHerHis] services to us just this morning.",
+  "uk": "Останнім часом ми шукали талановитого художника, який зумів би увіковічити велич і славу засновників нашої держави. І саме [Select_CString(SCOPE.sCharacter('the_artist').IsFemale,'така художниця', 'такий художник')] на ім'я [SCOPE.sCharacter('the_artist').GetName] пропонує нам свої послуги."
+ },
+ "random_event.49.title": {
+  "en": "Court Painter Available",
+  "uk": "Придворний художник"
+ },
+ "random_event.5.a": {
+  "en": "Encourage [minister.GetHerHis] effort.",
+  "uk": "Заохотимо [Select_CString(minister.IsFemale, 'її', 'його')] зусилля."
+ },
+ "random_event.5.b": {
+  "en": "Reap the benefits.",
+  "uk": "Пожнемо плоди."
+ },
+ "random_event.5.desc": {
+  "en": "It is clear to us that [minister.GetName] has proven to be an excellent appointment to our [ROOT.GetCountry.GetGovernment.GetCabinetTitle], doing valuable work for our [ROOT.GetCountry.GetFlavorRank]. We are lucky to have such a fine [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] in our employ!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetTitle|U] у захваті — [minister.GetName] чудово себе [Select_CString(minister.IsFemale, 'зарекомендувала', 'зарекомендував')] і [Select_CString(minister.IsFemale, 'принесла', 'приніс')] багато користі [ROOT.GetCountry.Custom('rank_ru_DAT')|l]. [Select_CString(minister.IsFemale, 'Така', 'Такий')] [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] — справжній подарунок для нас!"
+ },
+ "random_event.5.title": {
+  "en": "Excellent [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|U] досягає успіху"
+ },
+ "random_event.50.a": {
+  "en": "Arrange a ball.",
+  "uk": "Організуємо бал."
+ },
+ "random_event.50.b": {
+  "en": "Do not arrange a ball.",
+  "uk": "Не будемо влаштовувати бал."
+ },
+ "random_event.50.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have developed a taste for glamorous balls, state-dinners, and other extravagances to entertain themselves. Although rather expensive, these events are an excellent opportunity to show off the grandeur of [ROOT.GetCountry.GetName] and the generosity of [target_ruler.GetName].",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] уподобали розкішні бали, урядові обіди та інші екстравагантні розваги. Це недешеві заходи, але вони дають чудову нагоду продемонструвати, наскільки велична держава [ROOT.GetCountry.GetName] і наскільки [Select_CString(target_ruler.IsFemale, 'щедра', 'щедрий' )] [target_ruler.GetName]."
+ },
+ "random_event.50.title": {
+  "en": "Grand Ball in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "Великий бал у місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
+ },
+ "random_event.51.a": {
+  "en": "Arrange festivities.",
+  "uk": "Влаштуємо святкування."
+ },
+ "random_event.51.b": {
+  "en": "Such nonsense, wasting money like that!",
+  "uk": "Нічого так розкидатися грошима!"
+ },
+ "random_event.51.desc": {
+  "en": "This year looks to be such a prosperous year that several of [target_ruler.GetName]'s advisors have suggested that, as a gesture of goodwill, [target_ruler.GetHeSheFormal] should celebrate by arranging various festivities for the locals.",
+  "uk": "Цей рік виявився для нас неймовірно успішним. Група радників пропонує, щоб [target_ruler.GetName] як добрий жест [Select_CString(target_ruler.IsFemale,'влаштувала', 'влаштував')] для підданих гуляння та святкування."
+ },
+ "random_event.51.title": {
+  "en": "Festivities",
+  "uk": "Святкування"
+ },
+ "random_event.52.a": {
+  "en": "Replace the bailiffs.",
+  "uk": "Замінити бейліфів."
+ },
+ "random_event.52.b": {
+  "en": "Ignore the complaints.",
+  "uk": "Не звертати увагу на скарги."
+ },
+ "random_event.52.c": {
+  "en": "Remove the bailiffs.",
+  "uk": "Зняти бейліфів з посад."
+ },
+ "random_event.52.desc": {
+  "en": "Our bailiffs in [bailiff_location.GetName] have earned reputations as terribly greedy and cruel officals. The local populace has gathered to petition to have them removed.",
+  "uk": "Наші бейліфи в [bailiff_location.Custom('LR_PREP')|l] [bailiff_location.GetName] прославилися своєю жадібністю та жорстокістю. Місцеві жителі подали прохання, щоб їх замінили."
+ },
+ "random_event.52.title": {
+  "en": "Complaints about Bailiffs",
+  "uk": "Скарги на бейліфів"
+ },
+ "random_event.53.a": {
+  "en": "Ignore the heretical [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]'s preaching.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]-єретики не варті нашої уваги."
+ },
+ "random_event.53.b": {
+  "en": "Crack down on it!",
+  "uk": "Негайно припинити це!"
+ },
+ "random_event.53.desc": {
+  "en": "Rumors have reached us of several disgruntled members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] in [heresy_location.GetName] who, disillusioned with our rule, have begun preaching a heresy which is clearly against the true faith. If we do nothing, members of the local populace will begin to follow their treasonous and heretical words, something which may become troublesome in the future.",
+  "uk": "До нас дійшли чутки, що деякі невдоволені [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] у [heresy_location.Custom('LR_PREP')|l] [heresy_location.GetName] розчарувалися в нашому правлінні і почали проповідувати єресь, що очевидно суперечить істинній вірі. Якщо нічого не вживати, місцеві жителі почнуть прислухатися до цих віроломних і блюзнірських слів, і в нас можуть виникнути проблеми."
+ },
+ "random_event.53.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] are Preaching Heresy!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] проповідують єресь!"
+ },
+ "random_event.54.a": {
+  "en": "Heed their advice.",
+  "uk": "Прислухаємося до поради."
+ },
+ "random_event.54.b": {
+  "en": "Nothing minting more coins cannot fix!",
+  "uk": "Завжди є рішення — викарбувати більше монет!"
+ },
+ "random_event.54.desc": {
+  "en": "Concerned about spiraling inflation, our financial advisors have strongly advised us to abandon the old coinage and begin using a new, more stable currency. While beneficial in the long run, this would immediately cause severe unrest in our [ROOT.GetCountry.GetFlavorRank], along with revealing to our neighbors that we have disastrously mismanaged the economy.",
+  "uk": "Наші фінансові радники стурбовані стрімко зростаючою інфляцією. Вони радять нам відмовитися від старих монет, щоб перейти до нової, стабільнішої валюти. Це рішення вигідне в довгостроковій перспективі, однак може викликати заворушення в [ROOT.GetCountry.Custom('rank_ru_PREP')|l]. Крім того, вісті про наші катастрофічні прорахунки в економіці можуть дійти до наших сусідів."
+ },
+ "random_event.54.title": {
+  "en": "Dramatic Currency Revaluation",
+  "uk": "Радикальна ревальвація валюти"
+ },
+ "random_event.55.a": {
+  "en": "We needed a shakeup.",
+  "uk": "Нам потрібна струшка."
+ },
+ "random_event.55.b": {
+  "en": "The good times will never end!",
+  "uk": "Ситим часам не буде кінця!"
+ },
+ "random_event.55.desc": {
+  "en": "The peace and prosperity our country is currently experiencing has allowed the people to relax and feel happy and secure. This is something they could grow used to... so much so that the hardships of the past are increasingly unimaginable, and people are generally becoming lazier and less productive over time.",
+  "uk": "Мир і процвітання, що встановилися в нашій державі, дозволили людям розслабитися, віддатися радощам і забути про небезпеки. Але таке благоденство веде до безтурботності: труднощі минулих років тепер сприймаються як щось неймовірне, і наші піддані з часом стають дедалі лінивішими й менш працездатними."
+ },
+ "random_event.55.title": {
+  "en": "Decadence",
+  "uk": "Декаданс"
+ },
+ "random_event.56.a": {
+  "en": "Receive extra colonists.",
+  "uk": "Нам потрібно більше колоністів."
+ },
+ "random_event.56.b": {
+  "en": "Receive monetary benefits.",
+  "uk": "Нам потрібні грошові вигоди."
+ },
+ "random_event.56.desc": {
+  "en": "Demographic, economic, and political pressure at home have combined to bring forth a sudden increase in the number of people looking for a better life in the rich uncharted lands of our overseas colonies. Among these are entrepreneurs in search of adventure and wealth in foreign trade.",
+  "uk": "Тиск демографічних, економічних і політичних чинників на батьківщині призвів до різкого зростання кількості людей, які шукають нового життя на невідомих землях заморських колоній, а також підприємців, що прагнуть накопичити капітал за рахунок іноземної торгівлі."
+ },
+ "random_event.56.title": {
+  "en": "Rush of Colonists",
+  "uk": "Потік колоністів"
+ },
+ "random_event.57.a": {
+  "en": "Welcome extra merchant ventures.",
+  "uk": "Ми вітаємо нові торгові підприємства."
+ },
+ "random_event.57.b": {
+  "en": "Strengthen existing trade routes.",
+  "uk": "Зміцнити нинішні торгові маршрути."
+ },
+ "random_event.57.desc": {
+  "en": "Trade expansion has led to a growing desire among our merchants to start new trade ventures outside our borders.",
+  "uk": "Розширення торгівлі призвело до зростання бажання серед наших купців відкривати нові торгові підприємства за кордоном."
+ },
+ "random_event.57.title": {
+  "en": "Rush of Merchants",
+  "uk": "Потік купців"
+ },
+ "random_event.58.a": {
+  "en": "Forts are our strength!",
+  "uk": "Наша сила у фортецях!"
+ },
+ "random_event.58.b": {
+  "en": "We must always attack!",
+  "uk": "Ми повинні завжди наступати!"
+ },
+ "random_event.58.desc": {
+  "en": "Opposing factions in the military are advocating different tactics. With no compromise in sight, we need to back one of them to end the bickering.",
+  "uk": "Суперечки через тактику змусили наших військових розколотися на два табори. Досягти згоди ніяк не вдається. Нам треба підтримати одну зі сторін і нарешті припинити суперечки."
+ },
+ "random_event.58.title": {
+  "en": "Military Divided!",
+  "uk": "Чвари серед військових!"
+ },
+ "random_event.59.a": {
+  "en": "Blame the [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "В усьому [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'винна', 'винен')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "random_event.59.desc": {
+  "en": "[target_ruler.GetName|U] committed an absolute faux pas today in front of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and a few foreign dignitaries. The repercussions of this will take years to repair.",
+  "uk": "[target_ruler.GetName|U] [Select_CString(target_ruler.IsFemale, 'припустилася', 'припустився')] сьогодні ганебного faux pas у присутності придворних і високопоставлених осіб іноземних держав. Наслідки цієї помилки нам доведеться виправляти не один рік."
+ },
+ "random_event.59.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] Embarrasses the [ROOT.GetCountry.GetGovernment.GetCourtTitle|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] припускається помилки, і [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] не заплющить на це очі"
+ },
+ "random_event.6.a": {
+  "en": "Who will marry [princess.GetNameWithNoTooltip] now?",
+  "uk": "Кому тепер буде потрібна така дружина, як [princess.GetNameWithNoTooltip]?"
+ },
+ "random_event.6.b": {
+  "en": "Bribe people to keep quiet.",
+  "uk": "Підкупимо людей, щоб не базікали."
+ },
+ "random_event.6.desc": {
+  "en": "A scandal has erupted in the [ROOT.GetCountry.GetGovernment.GetAdjective|U] [ROOT.GetCountry.GetGovernment.GetCourtTitle]! It seems that salacious rumors have been spreading regarding the promiscuousness of [princess.GetName], with the result that the [target_ruler.GetDynasty.GetName] family has become the laughing stock of the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. This is making it difficult to get anything done.",
+  "uk": "При #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ому#! дворі вибухнув скандал! У його центрі опинилася [princess.GetName], чиї любовні пригоди давно були предметом чуток. Як наслідок, над династією [target_ruler.GetDynasty.GetName] сміються всі #L [ROOT.GetCountry.GetAdjective]і#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Це дуже заважає нам керувати державою."
+ },
+ "random_event.6.title": {
+  "en": "Scandal at the [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] у центрі скандалу"
+ },
+ "random_event.60.a": {
+  "en": "Ignore them!",
+  "uk": "Не звертати на них уваги!"
+ },
+ "random_event.60.b": {
+  "en": "Very well, pay them off.",
+  "uk": "Гаразд, заплатимо їм."
+ },
+ "random_event.60.desc": {
+  "en": "The state has lived off the contributions of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] for a long period of the time. Now our [ROOT.GetCountry.GetFlavorRank] is doing well, so the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] is eager to get their cut of the cake.",
+  "uk": "Держава довго існувала за рахунок коштів, які [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] жертвували до скарбниці. Тепер [ROOT.GetCountry.GetFlavorRank|l] процвітає, і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] бажають отримати свою частку від спільного пирога."
+ },
+ "random_event.60.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Demand Recompensation",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] вимагають компенсацію"
+ },
+ "random_event.61.a": {
+  "en": "Enact them!",
+  "uk": "Прийняти реформи!"
+ },
+ "random_event.61.b": {
+  "en": "There is no need for reforms.",
+  "uk": "У реформах немає потреби."
+ },
+ "random_event.61.desc": {
+  "en": "Our treasurers are arguing that we need to enact some reforms in our economic policies. A new master of mint will also be needed to take care of the economy, but their candidate for the position is not exactly known as a populist.",
+  "uk": "Скарбники запевняють, що нам потрібні реформи економічної політики. Також для управління економікою нам знадобиться новий голова монетного двору, однак їхній кандидат не вирізняється схильністю до популізму."
+ },
+ "random_event.61.title": {
+  "en": "Monetary Reforms",
+  "uk": "Грошові реформи"
+ },
+ "random_event.62.a": {
+  "en": "Spare no expense.",
+  "uk": "Витрачайте без сорому."
+ },
+ "random_event.62.b": {
+  "en": "Enact some token policies.",
+  "uk": "Вжити формальних заходів."
+ },
+ "random_event.62.desc": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] has been ravaged by war, and the people, from the highest of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] down to the poorest of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], are tired of it. We need to enact some temporary policies to let our [ROOT.GetCountry.GetFlavorRank] recover quicker.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] страждає від тягарів війни. І найвпливовіші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], і найбідніші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] втомилися від кровопролиття. Потрібно вжити тимчасових заходів, щоб швидше відновити [ROOT.GetCountry.Custom('rank_ru_ACC')|l]."
+ },
+ "random_event.62.title": {
+  "en": "The Aftermath of War",
+  "uk": "Наслідки війни"
+ },
+ "random_event.63.a": {
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] needs them all!",
+  "uk": "[ROOT.GetCountry.Custom('CL_DAT')] потрібен кожен!"
+ },
+ "random_event.63.b": {
+  "en": "Restrict the non-[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Служити нам будуть лише [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
+ },
+ "random_event.63.desc": {
+  "en": "Our recent wars have given the rise to competent leaders, even from the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. We could prosper from their skills, or we could reject them as they, after all, are not part of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] who traditionally have dominated our military's high command.",
+  "uk": "Наші недавні війни призвели до появи талановитих лідерів з усіх станів — тепер у нас є навіть впливові [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l]. Їхні вміння можуть стати нам у пригоді, але, з іншого боку, вони не [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], які традиційно обіймали в нашій армії керівні посади."
+ },
+ "random_event.63.title": {
+  "en": "Strong Military Leadership",
+  "uk": "Сильне військове керівництво"
+ },
+ "random_event.64.a": {
+  "en": "A cabin boy can become a captain!",
+  "uk": "Кожен юнга може стати капітаном!"
+ },
+ "random_event.64.b": {
+  "en": "Never!",
+  "uk": "Ні за що!"
+ },
+ "random_event.64.desc": {
+  "en": "The only thing that can truly create a good commander at sea is the experience of being at sea. When competent people are promoted, regardless of their background, our navy grows stronger. However, some of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in our [ROOT.GetCountry.GetFlavorRank] dislike such egalitarianism.",
+  "uk": "Виховати справжнього флотоводця можна лише одним способом: відправити його в море. Просування по службі компетентних людей зміцнює наш флот, а їхнє походження не таке важливе. Однак деякі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] [ROOT.GetCountry.Custom('rank_ru_GEN')|l] невдоволені такою рівноправністю."
+ },
+ "random_event.64.title": {
+  "en": "The Naval Tradition",
+  "uk": "Морські традиції"
+ },
+ "random_event.65.a": {
+  "en": "More power to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] отримають більше влади."
+ },
+ "random_event.65.b": {
+  "en": "More power to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] отримають більше влади."
+ },
+ "random_event.65.c": {
+  "en": "More power to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] отримають більше влади."
+ },
+ "random_event.65.d": {
+  "en": "More power to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] отримають більше влади."
+ },
+ "random_event.65.desc": {
+  "en": "[target_ruler.GetName] has fallen ill, and cannot handle all aspects of ruling [ROOT.GetCountry.GetName] for the time being. How shall we handle this?",
+  "uk": "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'захворіла', 'захворів')] і поки не може повноцінно керувати #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!. Як ми вчинимо в цій ситуації?"
+ },
+ "random_event.65.title": {
+  "en": "Sickness of the [ROOT.GetCountry.GetGovernment.GetRulerTitle|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] страждає від недуги"
+ },
+ "random_event.66.a": {
+  "en": "Crush them!",
+  "uk": "Розтрощити їх!"
+ },
+ "random_event.66.b": {
+  "en": "Give them more local authority.",
+  "uk": "Дамо їм більше місцевої автономії."
+ },
+ "random_event.66.desc": {
+  "en": "Local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [unruly_nobles_province.GetName] are not satisfied with their granted privileges. They demand more rights, and are willing to back this up with a rebellion against the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "Місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] в провінції [unruly_nobles_province.GetName] невдоволені пожалуваними привілеями. Вони вимагають більше прав і готові підкріпити свої вимоги повстанням проти центральної влади."
+ },
+ "random_event.66.title": {
+  "en": "Regional [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] Challenge [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Регіональні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] кидають виклик [ROOT.GetCountry.Custom('CL_DAT')]"
+ },
+ "random_event.67.a": {
+  "en": "Support the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')].",
+  "uk": "Вирішимо, що праві [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]."
+ },
+ "random_event.67.b": {
+  "en": "Support [natural_philosopher.GetNameWithNoTooltip].",
+  "uk": "Вирішимо, що [Select_CString(natural_philosopher.IsFemale,'права','правий')] [natural_philosopher.GetNameWithNoTooltip]."
+ },
+ "random_event.67.desc": {
+  "en": "A prominent natural philosopher, [natural_philosopher.GetName], is forwarding new claims that contradict religious truths. The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] demand that [natural_philosopher.GetSheHe] be stopped and turned over for punishment. Either way, this will cause great turmoil in our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[Select_CString(natural_philosopher.IsFemale,'Відома природознавиця', 'Відомий природознавець')] [natural_philosopher.GetName] висуває нові ідеї, що суперечать релігійним істинам. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] вимагають, щоб [Select_CString(natural_philosopher.IsFemale,'її', 'його')] зупинили і віддали до суду. Як би не обернулася справа, [ROOT.GetCountry.GetFlavorRank|l] опиниться серед великих хвилювань."
+ },
+ "random_event.67.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] Condemns a Philosopher as a Heretic!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] звинувачують філософа у єресі!"
+ },
+ "random_event.68.a": {
+  "en": "We have to accept this.",
+  "uk": "Треба з цим змиритися."
+ },
+ "random_event.68.a.tt": {
+  "en": "This will make our [pop|e] in [starting_location.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e].",
+  "uk": "Через це наше [Concept('pop', 'населення')|e] в [starting_location.Custom('LR_PREP')|l] [starting_location.GetName] втратить [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]."
+ },
+ "random_event.68.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] belong on their turf.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] повинні жити на своїй землі."
+ },
+ "random_event.68.desc": {
+  "en": "It seems as if [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are moving out of the hinterlands of [starting_location.GetName] and aim to earn a living in [target_location.GetName]. This is creating turmoil in the countryside of [starting_location.GetNameWithNoTooltip], but [target_location.GetNameWithNoTooltip] may benefit in the long run.",
+  "uk": "Схоже, [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] переїжджають із віддаленого регіону [starting_location.GetName] на заробітки до [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Це створює безлад у [starting_location.Custom('LR_PREP')|l] [starting_location.GetNameWithNoTooltip], але [target_location.GetNameWithNoTooltip] може виграти від цієї міграції."
+ },
+ "random_event.68.title": {
+  "en": "Growth of [target_location.GetNameWithNoTooltip] Attracts [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] шукають добробуту в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "random_event.69.a": {
+  "en": "Embrace the reputation!",
+  "uk": "Вжитися в цю роль!"
+ },
+ "random_event.69.b": {
+  "en": "Execute someone for this!",
+  "uk": "Стратити когось!"
+ },
+ "random_event.69.desc": {
+  "en": "Some sort of propaganda text is circulating in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] about how [target_ruler.GetName] is a ruthless warmonger. This might impact our relations with our subjects and other countries.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] обговорює пропагандистський пасквіль, у якому [target_ruler.GetName] виставляється як [Select_CString(target_ruler.IsFemale,'безжальна розпалювачка воєн','безжальний розпалювач воєн')]. Це може зіпсувати нам відносини з підданими та іншими державами."
+ },
+ "random_event.69.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U]'s Reputation Tarnished!",
+  "uk": "Репутацію правителя зганьблено!"
+ },
+ "random_event.7.a": {
+  "en": "Use it to benefit our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Використаємо це на благо [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "random_event.7.b": {
+  "en": "Take advantage of the benefits at once.",
+  "uk": "Негайно скористаємося цими благами."
+ },
+ "random_event.7.c": {
+  "en": "Invest for the future.",
+  "uk": "Вкладення в майбутнє"
+ },
+ "random_event.7.desc": {
+  "en": "Last year has seen a fine harvest and an excellent environment for traders and entrepreneurs. This has proven a blessing for our tax base, generating higher income for our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Минулий рік подарував нам багатий урожай, а справи у купців і ділових людей йшли на диво вдало. Наша податкова база зросла, а з нею і дохід до скарбниці [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "random_event.7.title": {
+  "en": "Exceptional Year",
+  "uk": "Винятковий рік"
+ },
+ "random_event.70.a": {
+  "en": "Hold the Line!",
+  "uk": "Не здаватися!"
+ },
+ "random_event.70.desc": {
+  "en": "Everyone in our [ROOT.GetCountry.GetFlavorRank] is united behind our just war against the [enemy_country.GetLongName]. They feel it is a fight we have to win and all are doing their part for the [ROOT.GetCountry.GetLongName].",
+  "uk": "Наша праведна війна об'єднала всіх жителів [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Вони вважають, що якщо [ROOT.GetCountry.GetLongName] не здолає такого ворога, як [enemy_country.GetLongName], на нас чекають тяжкі часи. Люди роблять усе можливе заради нашої спільної перемоги."
+ },
+ "random_event.70.title": {
+  "en": "Fight the Good Fight!",
+  "uk": "За праве діло!"
+ },
+ "random_event.71.a": {
+  "en": "Use the military as a workforce.",
+  "uk": "Залучимо до будівництва військових."
+ },
+ "random_event.71.b": {
+  "en": "Hire independent contractors.",
+  "uk": "Наймемо незалежних будівельників."
+ },
+ "random_event.71.desc": {
+  "en": "The glory of [target_capital.GetName] has long been neglected. We now have an opportunity to improve the [target_capital.GetRank.GetName] and make it a beacon of cultural pride. This may prove costly to our treasury, but we could always use our excess manpower reserves.",
+  "uk": "Наша славетна столиця [target_capital.GetName] вже давно не та, що раніше. Однак у нас є можливість перебудувати її і зробити маяком нашої культури. Коштів на це піде чимало, але можна піти й іншим шляхом — скористатися резервом рекрутів."
+ },
+ "random_event.71.title": {
+  "en": "The Improvement of [target_capital.GetNameWithNoTooltip]",
+  "uk": "[target_capital.GetNameWithNoTooltip] потребує покращення"
+ },
+ "random_event.72.a": {
+  "en": "Our armies are no place for cravens!",
+  "uk": "У нашій армії боягузам не місце!"
+ },
+ "random_event.72.b": {
+  "en": "We need them.",
+  "uk": "Нам потрібні всі солдати."
+ },
+ "random_event.72.desc": {
+  "en": "Many long years of peace have caused a disturbing lack of manly virtues in the common man. This could be disastrous, since far too many of our recent recruits have turned out to be cowards...",
+  "uk": "Багаторічний мир призвів до того, що чоловіки в нашій вітчизні зовсім втратили мужність. Це може обернутися бідою, оскільки багато хто з наших нинішніх новобранців виявилися боягузами…"
+ },
+ "random_event.72.title": {
+  "en": "A Generation of Cowards",
+  "uk": "Покоління боягузів"
+ },
+ "random_event.73.a": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] needs the money.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank|U] потребує грошей."
+ },
+ "random_event.73.b": {
+  "en": "Sponsor [the_artist.GetNameWithNoTooltip] to honor the family.",
+  "uk": "[the_artist.GetNameWithNoTooltip] отримає підтримку — так ми вшануємо багату родину."
+ },
+ "random_event.73.c": {
+  "en": "[the_artist.GetNameWithNoTooltip] would love to work for [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetNameWithNoTooltip]!",
+  "uk": "[Select_CString(the_artist.IsFemale,'Художниця', 'Художник')] працюватиме на нас. [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetNameWithNoTooltip] не відмовиться від нових талантів!"
+ },
+ "random_event.73.desc": {
+  "en": "One of the greatest and richest merchant families in the [ROOT.GetCountry.GetLongName] have decided to reward us for our just rule with a sizable donation. As well-respected traders who built their fortune from commerce, the family has developed a reputation as generous patrons of religion and the arts. Now, with this newfound wealth, we can strengthen our coffers or give patronage to new talents. One artist, [the_artist.GetName], has begun to achieve some renown in local circles and claiming [the_artist.GetHerHis] services could be quite the boon for our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Одна з найвпливовіших і найбагатших купецьких родин вирішила винагородити нас значною пожертвою за те, що [ROOT.GetCountry.GetLongName] процвітає під нашим справедливим правлінням. Ці вельми шановані торговці, що заробили статок на угодах, відомі як щедрі покровителі мистецтва та релігії. Новонабутий статок можна залишити собі або витратити на підтримку нових талантів. Наприклад, [Select_CString(the_artist.IsFemale,'художниця','художник')] [the_artist.GetName] здобуває популярність серед місцевих поціновувачів мистецтва. [Select_CString(the_artist.IsFemale,'Вона','Він')] заявляє, що [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] гідно оцінить [Select_CString(the_artist.IsFemale,'її','його')] талант."
+ },
+ "random_event.73.title": {
+  "en": "Generous Merchant Family",
+  "uk": "Щедра купецька родина"
+ },
+ "random_event.74.a": {
+  "en": "The entire [ROOT.GetCountry.GetFlavorRank] needs their ideas.",
+  "uk": "[ROOT.GetCountry.Custom('rank_ru_DAT')|U] не завадять нові ідеї."
+ },
+ "random_event.74.b": {
+  "en": "Let them improve local fortifications in [fortification.GetNameWithNoTooltip].",
+  "uk": "[fortification.GetNameWithNoTooltip] потребує нових укріплень — хай майстри працюють там."
+ },
+ "random_event.74.desc": {
+  "en": "Our local administrators in [fortification.GetName] have reported that the locals have some rather intriguing ideas on how to create better fortifications. However, they are reluctant to leave their hometown.",
+  "uk": "Урядовці з фортеці [fortification.GetName] повідомляють, що місцеві майстри мають цікаві ідеї щодо покращення укріплень. Щоправда, покидати рідне місто майстри не бажають."
+ },
+ "random_event.74.title": {
+  "en": "Local Fortification Expert Discovered",
+  "uk": "Знайдено місцевого знавця укріплень"
+ },
+ "random_event.75.a": {
+  "en": "Allow our agents to deal with [naive.GetHerHim].",
+  "uk": "Хай із [Select_CString(naive.IsFemale,'нею','ним')] розберуться наші агенти."
+ },
+ "random_event.75.b": {
+  "en": "[naive.GetSheHe|U] is a relative after all...",
+  "uk": "[Select_CString(naive.IsFemale,'Вона','Він')] все ж таки рідня…"
+ },
+ "random_event.75.desc": {
+  "en": "A close member of [target_ruler.GetName]'s family, [naive.GetName], has proven utterly naive, and keeps telling foreigners vital information publicly. This is technically treason, but executing a member of the [ROOT.GetCountry.GetGovernment.GetAdjective] family might cause unrest.",
+  "uk": "[Select_CString(naive.IsFemale,'Близька родичка','Близький родич')] родини [target_ruler.GetName], [naive.GetName], через наївність розповідає іноземцям важливу інформацію. Строго кажучи, це державна зрада, але якщо ми стратимо члена #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої#! родини, в суспільстві можуть початися заворушення."
+ },
+ "random_event.75.title": {
+  "en": "Naive Relative",
+  "uk": "Наївний родич"
+ },
+ "random_event.76.a": {
+  "en": "Stop them!",
+  "uk": "Зупинити їх!"
+ },
+ "random_event.76.b": {
+  "en": "It is too expensive.",
+  "uk": "Це надто затратно."
+ },
+ "random_event.76.desc": {
+  "en": "People are finding lots of ways of getting around paying taxes and fees on moving goods, smuggling them past our authorities through a variety of clandestine channels. This is cutting into our income, but stopping it would cost quite a lot in the short-term.",
+  "uk": "Наші піддані знаходять дедалі нові способи уникати податків і мит на перевезення товарів, провозять їх таємно повз наших урядовців. Це завдає шкоди державним доходам, але боротьба з контрабандистами в короткостроковій перспективі коштуватиме нам недешево."
+ },
+ "random_event.76.title": {
+  "en": "Smugglers Running Rampant",
+  "uk": "Контрабандисти розпоясалися"
+ },
+ "random_event.77.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "random_event.77.desc": {
+  "en": "Since the invention of the printing press, more and more books, about an ever-wider range of subjects, have been published. We can now see the benefit of this, since knowledge spreads faster and more ideas are appearing amongst our philosophers and natural scientists.",
+  "uk": "Відтоді як винайшли друкарський верстат, друкарі публікують дедалі більше книжок на дедалі ширші теми. Ми бачимо в цьому величезну користь, адже стрімке поширення знань допомагає в роботі нашим філософам і натуралістам."
+ },
+ "random_event.77.title": {
+  "en": "Printing Press Gives Benefits",
+  "uk": "Користь друкарського верстата"
+ },
+ "random_event.78.a": {
+  "en": "Recruit as many as possible!",
+  "uk": "Забривайте всіх!"
+ },
+ "random_event.78.b": {
+  "en": "Only take those who can be spared.",
+  "uk": "Беріть лише тих, кого можна."
+ },
+ "random_event.78.desc": {
+  "en": "We are at war and our manpower reserves are slowly disappearing. [target_ruler.GetName], our great and competent ruler, has come up with a plan to recruit more men for military duties. However, this may cause problems in the countryside.",
+  "uk": "Ми перебуваємо у стані війни, і наші резерви рекрутів повільно скорочуються. [Select_CString(target_ruler.IsFemale, 'Наша велика і премудра', 'Наш великий і премудрий')] [target_ruler.GetName] пропонує залучити на службу більше новобранців, однак це може призвести до проблем у селі."
+ },
+ "random_event.78.title": {
+  "en": "Extraordinary Recruiting Policies",
+  "uk": "Надзвичайні заходи з набору вояків"
+ },
+ "random_event.79.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "random_event.79.desc": {
+  "en": "With the great administrative leadership of [target_ruler.GetName], we have been able to reduce the accumulated inflation of our country quite dramatically this last year.",
+  "uk": "Своїм чудовим управлінням [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'досягла', 'досяг')] зниження інфляції минулого року."
+ },
+ "random_event.79.title": {
+  "en": "Great Economic Policy",
+  "uk": "Чудова економічна політика"
+ },
+ "random_event.8.a": {
+  "en": "Appoint new diplomats.",
+  "uk": "Призначимо нових дипломатів."
+ },
+ "random_event.8.b": {
+  "en": "Improve relations with neighboring states.",
+  "uk": "Покращимо відносини із сусідніми державами."
+ },
+ "random_event.8.desc": {
+  "en": "Diplomacy between nations is often affected by random factors, on both sides, involved in ways that are beyond the ability of the diplomatic corps of either state. With the ever-changing vicissitudes of our relations with our neighbors shifting even more swiftly than usual, our diplomats are finding it difficult to keep up.",
+  "uk": "Дипломатичні відносини між націями часто потрапляють у залежність від випадкових чинників, на які дипломатичні корпуси обох сторін неспроможні вплинути. Наші й без того непрості відносини з сусідами ускладнюються дедалі новими інцидентами, і наші дипломати ледве встигають реагувати на події."
+ },
+ "random_event.8.title": {
+  "en": "Diplomatic Move",
+  "uk": "Дипломатичний крок"
+ },
+ "random_event.8.tt": {
+  "en": "Every neighbor [country|e] gains [ShowBiasValue('opinion_diplomatic_move')|+=0] [opinion|e] of us",
+  "uk": "Кожна сусідня [Concept('country', 'держава')|e] отримає [ShowBiasValue('opinion_diplomatic_move')|+=0] од. до [Concept('opinion', 'думки')|e] про нас"
+ },
+ "random_event.80.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "random_event.80.desc": {
+  "en": "With peace in our country, the great musicians, artists, and poets are rejoicing in their newfound opportunities to entertain their betters. This era of cultural enlightenment is definitely improving the mood of [ROOT.GetCountry.GetName].",
+  "uk": "Наша держава насолоджується миром. Великі музиканти, художники та поети радіють новій можливості догодити своїм багатим патронам. Ця епоха культурного розквіту позитивно впливає і на загальні настрої в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
+ },
+ "random_event.80.title": {
+  "en": "A Golden Era for Culture!",
+  "uk": "Золота доба нашої культури!"
+ },
+ "random_event.81.a": {
+  "en": "The sword is stronger than the book.",
+  "uk": "Меч сильніший за книжку."
+ },
+ "random_event.81.desc": {
+  "en": "With the war taking the focus of every capable and productive person in the nation, there is a lot less time for the frivolous activities of musicians and poets. And even the best of poets is no better a soldier than a common farmer.",
+  "uk": "Війна займає думки всіх працездатних і працьовитих підданих держави, тому інтерес до музикантів і поетів сильно впав. А в бою навіть найгеніальніший з поетів не кращий за простого хлібороба."
+ },
+ "random_event.81.title": {
+  "en": "Warriors Do Not Read Books",
+  "uk": "Воїни не читають книжок"
+ },
+ "random_event.82.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] can always be trusted!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] не підведе…"
+ },
+ "random_event.82.desc": {
+  "en": "After putting in some effort in communicating with [target_ruler.GetHerHis] peers, the hard work of [target_ruler.GetName] has paid off. Our diplomatic standing has increased thanks to [target_ruler.GetHerHis] silky tongue.",
+  "uk": "Після активних перемовин із закордонними лідерами [target_ruler.GetName] своєю чарівністю та переконливою риторикою [Select_CString(target_ruler.IsFemale,'спромоглася','спромігся')] покращити наше становище на світовій арені."
+ },
+ "random_event.82.title": {
+  "en": "Competent Diplomacy!",
+  "uk": "Дипломатичні успіхи!"
+ },
+ "random_event.83.a": {
+  "en": "How can it be possible?",
+  "uk": "Як таке можливо?"
+ },
+ "random_event.83.desc": {
+  "en": "It is almost inconceivable how incompetent [target_ruler.GetName] is when handling diplomacy. We do not know how [target_ruler.GetSheHe] did it, but [target_ruler.GetSheHe] managed to hurt our diplomatic standing in the world with a single letter of apology to an ambassador.",
+  "uk": "Складно описати словами, наскільки [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'некомпетентна', 'некомпетентний')] у питаннях дипломатії. Ми не знаємо, як [target_ruler.GetHerHim] це вдалося, але [target_ruler.GetSheHe] [Select_CString(target_ruler.IsFemale, 'спромоглася', 'спромігся')] похитнути наше становище у світі простим листом із вибаченнями іноземному послу."
+ },
+ "random_event.83.title": {
+  "en": "Incompetent Diplomacy!",
+  "uk": "Дипломатичне фіаско!"
+ },
+ "random_event.84.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] are to be ignored.",
+  "uk": "Яка різниця, що думають [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l]?"
+ },
+ "random_event.84.b": {
+  "en": "Soldiers are just [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] in uniform.",
+  "uk": "Вояки — це просто [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] у військовій формі."
+ },
+ "random_event.84.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are tired of our war and our soldiers are exhausted. It is becoming increasingly difficult to force them to fight for us, as they find ever more creative methods to dodge conscription. Even those in the army think more of home than of the glory of defeating our enemy. We should conclude the war quickly or it may soon take a turn for the worse.",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] втомилися від війни, а вояки знесилені. Примушувати їх іти в бій за нашу справу стає дедалі важче: вони знаходять нові, дедалі витонченіші способи уникати військового обов'язку. Бійці частіше думають про рідний дім, ніж про перемогу над ворогом. Війну треба закінчувати якнайшвидше, інакше ситуація може ускладнитися."
+ },
+ "random_event.84.title": {
+  "en": "War-Weary Population",
+  "uk": "Втома від війни"
+ },
+ "random_event.85.a": {
+  "en": "Once more unto the breach.",
+  "uk": "Знову кинемося, друзі, в пролом!"
+ },
+ "random_event.85.b": {
+  "en": "We band of brothers...",
+  "uk": "Ми побратими по зброї…"
+ },
+ "random_event.85.desc": {
+  "en": "While [ROOT.GetCountry.GetName] is tired of war, there is still hope and a positive spirit in the chest of everyone from the lowliest of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] to [target_ruler.GetName] [target_ruler.GetHerselfHimself]. We will get through this war, and we will win it.",
+  "uk": "У жителів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! накопичилася втома від війни, однак надію на перемогу та дух боротьби зберігають і найбідніші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], і [Select_CString(target_ruler.IsFemale,'сама', 'сам')] [target_ruler.GetName]. Ми витримаємо цю війну і здобудемо перемогу."
+ },
+ "random_event.85.title": {
+  "en": "There is Still Hope",
+  "uk": "Надія ще є"
+ },
+ "random_event.86.a": {
+  "en": "It is an offer...",
+  "uk": "Непогана пропозиція…"
+ },
+ "random_event.86.b": {
+  "en": "...We can refuse actually.",
+  "uk": "…від якої нам краще відмовитися."
+ },
+ "random_event.86.desc": {
+  "en": "A few slightly shady looking characters have appeared at our [ROOT.GetCountry.GetGovernment.GetCourtTitle], offering their service to our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. They claim to be willing and able to do things that any proper ruler would never deign to do - publicly.",
+  "uk": "При нашому дворі з'явилася група нехороших людей, які запевняють, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] оцінить їхні послуги. Вони здатні й готові робити те, до чого жоден нормальний лідер не опуститься — принаймні публічно…"
+ },
+ "random_event.86.title": {
+  "en": "Visit From Some Shady People",
+  "uk": "Візит від нечистих людей"
+ },
+ "random_event.87.a": {
+  "en": "[ShowContinentNameWithNoTooltip('asia')|U] is not as important.",
+  "uk": "[ShowContinentNameWithNoTooltip('asia')|U] не така важлива."
+ },
+ "random_event.87.b": {
+  "en": "We can ignore [ShowContinentNameWithNoTooltip('europe')].",
+  "uk": "[ShowContinentNameWithNoTooltip('europe')] почекає."
+ },
+ "random_event.87.c": {
+  "en": "Support them anyway!",
+  "uk": "Підтримаймо їх скрізь!"
+ },
+ "random_event.87.desc": {
+  "en": "Our merchants bring in money from trade all over the world. However, it seems that they have somewhat overstretched, and the government is not able to give them the full support of the [ROOT.GetCountry.GetLongName]'s diplomatic clout. It seems we will have to make a choice as to where to focus our trade.",
+  "uk": "Купці приносять нам дохід від торгівлі по всьому світу. Однак у прагненні охопити якомога більше ринків вони надто розпорошують свої зусилля, і наш уряд неспроможний належним чином підтримати їх своїм дипломатичним впливом. Схоже, доведеться вибирати, який ринок для нас важливіший."
+ },
+ "random_event.87.title": {
+  "en": "Merchants Spread Thin",
+  "uk": "Купці розриваються на частини"
+ },
+ "random_event.88.a": {
+  "en": "For the [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] faith.",
+  "uk": "За [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]у віру!"
+ },
+ "random_event.88.desc": {
+  "en": "We have found common ground with our [neighbour_country.GetAdjective] neighbors in the fact that we share the [ROOT.GetCountry.GetReligion.GetAdjective] faith. Our relations have improved, and our two nations now look to the future as one.",
+  "uk": "Ми знайшли спільну мову з нашими #L [neighbour_country.GetAdjective|l]ими#! сусідами на ґрунті #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри. Завдяки зміцненню відносин наші народи готові співпрацювати заради світлого майбутнього для обох держав."
+ },
+ "random_event.88.title": {
+  "en": "Relations Improved",
+  "uk": "Покращення відносин"
+ },
+ "random_event.89.a": {
+  "en": "Gold is the sign of true worth!",
+  "uk": "Золото — справжнє мірило гідності!"
+ },
+ "random_event.89.b": {
+  "en": "Some things cannot be bought!",
+  "uk": "Не все можна купити!"
+ },
+ "random_event.89.desc": {
+  "en": "One of our advisors has suggested selling-off titles of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to anyone who can afford to pay. It could bring in lots of money and open a way for social advancement for the rich if we do, but it would devalue the idea of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] and perhaps upset the existing aristocratic families.",
+  "uk": "Один із наших радників запропонував продавати знатні титули, якими володіють [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], усім, хто зможе їх собі дозволити. Це принесе багато грошей до скарбниці й дозволить заможним людям підвищити свій статус, але водночас знецінить саме поняття «[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]». Представники старих родів явно цьому не зрадіють. Чи варто нам на це йти?"
+ },
+ "random_event.89.title": {
+  "en": "Sale of Titles",
+  "uk": "Продаж титулів"
+ },
+ "random_event.9.a": {
+  "en": "Appease the fickle estates.",
+  "uk": "Умиротворимо примхливі стани."
+ },
+ "random_event.9.b": {
+  "en": "Improve our reputation.",
+  "uk": "Зміцнимо свою репутацію."
+ },
+ "random_event.9.desc": {
+  "en": "The skilled work of our diplomats and the enviable situation of strength our [ROOT.GetCountry.GetFlavorRank] finds itself in are proving beneficial to our standing among our peers. Our diplomats are capitalizing on those factors to achieve better results than usual in their negotiations.",
+  "uk": "Відмінна робота дипломатів і завидна могутність [ROOT.GetCountry.Custom('rank_ru_GEN')|l] сприяють зміцненню нашого становища серед інших держав. Наші посланці вміло користуються цим фактом у перемовинах і досягають вагоміших результатів, ніж зазвичай."
+ },
+ "random_event.9.title": {
+  "en": "Excellent Diplomacy",
+  "uk": "Відмінна дипломатія"
+ },
+ "random_event.90.a": {
+  "en": "Allow them to go where their hearts wish.",
+  "uk": "Хай ідуть туди, куди велять серця."
+ },
+ "random_event.90.b": {
+  "en": "Bring them to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Слухати їх буде лише [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]."
+ },
+ "random_event.90.desc": {
+  "en": "A group of renowned minstrels recently crossed our nation's borders. Their intention is to roam the [ROOT.GetCountry.GetLongName]'s countryside, bringing joy to all who hear them, but some say only the ears of [target_ruler.GetName] are fit to hear such wonderful music.",
+  "uk": "[ROOT.GetCountry.GetLongName] — це держава, де з'явилися славетні менестрелі. Вони мають намір мандрувати глибинкою й дарувати радість усім, хто забажає слухати. Але дехто вважає, що чути їхню прекрасну музику [Select_CString(target_ruler.IsFemale,'гідна','гідний')] лише [target_ruler.GetName]."
+ },
+ "random_event.90.title": {
+  "en": "Traveling Minstrels",
+  "uk": "Мандрівні менестрелі"
+ },
+ "random_event.91.a": {
+  "en": "We are blessed!",
+  "uk": "Ми благословенні!"
+ },
+ "random_event.91.desc": {
+  "en": "This year's harvests have been exceptional! Rarely in our nation's history has the earth brought forth so much of its bounty. The populace are already interpreting this as a sign of divine favor for our rule.",
+  "uk": "Урожаї цього року були неймовірні! Рідко у історії нашої вітчизни земля приносила стільки врожаю. Народ уже говорить, що це добрий знак і доказ того, що небеса прихильні до нашого правління."
+ },
+ "random_event.91.title": {
+  "en": "A Bountiful Harvest",
+  "uk": "Рясний урожай"
+ },
+ "random_event.92.a": {
+  "en": "Jesus lived among beggars and fishermen, why not the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]?",
+  "uk": "Ісус жив серед жебраків і рибалок. Що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] про себе думають?"
+ },
+ "random_event.92.b": {
+  "en": "Surely we do not wish to anger his holiness.",
+  "uk": "Його Святість гнівити не можна."
+ },
+ "random_event.92.desc": {
+  "en": "In our nation, two groups hold great power: the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]. However, they do not always get along. Recently, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] in [bicker.GetName] and the local monasteries near their fiefs began bickering about who owns a rather large piece of land.\\n\\nThese days, the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] is swamped with people yammering about divine right - the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] claiming their divine right to rule the land and the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] asserting their position as the representatives of God on Earth. The whole situation is growing rather unstable, with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] in question inciting the other [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] against the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] and questioning their right to hold any sort of temporal property. The prior of the monasteries has brought in high ranking memebers of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] on their side, who in turn threaten to go straight to [GetCountry('PAP').GetName] should we decide to side with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]. As such, we are now stuck in quite the difficult position.",
+  "uk": "У нашій державі найбільше влади утримують два стани: [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]. Але вони не завжди сходяться в поглядах. [bicker.GetName] стає осередком конфлікту: [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] і місцеві монастирі у вотчинах знаті почали сперечатися, кому належить більше землі.\\n\\n#L [ROOT.GetCountry.GetGovernment.GetAdjective]ий#! двір нині сповнений людей, що судять та рядять про божественне право: [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] стверджують, що таке право управління належить їм, а [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l], своєю чергою, нагадують про свій статус намісників Божих на землі. Ситуація стає дедалі напруженішою: [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] підбурюють інших аристократів виступити проти духовенства й висловлюють сумніви, що [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] взагалі мають право володіти власністю. Своєю чергою, високопоставлені [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] підтримують настоятелів монастирів і погрожують звернутися напряму до #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_VP')|L]#!#!, якщо ми вирішимо стати на бік аристократів. Усе це ставить нас у скрутне становище."
+ },
+ "random_event.92.title": {
+  "en": "Tensions Between the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] and the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] вступають у конфлікт"
+ },
+ "random_event.93.a": {
+  "en": "But it was a good point...",
+  "uk": "Але ж у [SCOPE.sCharacter('minister').GetHerHis] словах був сенс…"
+ },
+ "random_event.93.b": {
+  "en": "Off with [minister.GetHerHis] head!",
+  "uk": "Відрубати [Select_CString(minister.IsFemale,'їй', 'йому')] голову!"
+ },
+ "random_event.93.desc": {
+  "en": "[minister.GetName], a member of our [ROOT.GetCountry.GetGovernment.GetCabinetTitle], has been a faithful servant so far, but now [minister.GetSheHe] seems to have let [minister.GetHerHis] prominence get to [minister.GetHerHis] head and has become insolent. [minister.GetHeSheFormal|U] dares to denounce our great [target_ruler.GetName]'s policies and recently did so in public in front of foreign ambassadors. Even if there might be some grounds for these criticisms, we should not let open disparagement of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] become a habit.",
+  "uk": "Член нашої ради [minister.GetName] раніше не [Select_CString(minister.IsFemale,'відзначалася', 'відзначався')] свавіллям, але високе становище явно вдарило [Select_CString(minister.IsFemale,'їй', 'йому')] в голову, і тепер [Select_CString(minister.IsFemale,'вона', 'він')] зовсім [Select_CString(minister.IsFemale,'забулася', 'забувся')] від гордості. [minister.GetNameWithNoTooltip] сміє засуджувати рішення, які приймає [Select_CString(target_ruler.IsFemale,'наша велика', 'наш великий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], і нещодавно навіть [Select_CString(minister.IsFemale,'дозволила', 'дозволив')] собі висловитися про [Select_CString(target_ruler.IsFemale,'її', 'його')] політику в присутності іноземних послів. Навіть якщо ця критика була обґрунтованою, не можна допускати, щоб [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'зазнавала', 'зазнавав')] подібних принижень."
+ },
+ "random_event.93.title": {
+  "en": "Disagreeing Advisor",
+  "uk": "Зухвалий радник"
+ },
+ "random_event.94.a": {
+  "en": "Ignore them.",
+  "uk": "Не будемо звертати уваги."
+ },
+ "random_event.94.b": {
+  "en": "Curtail their power.",
+  "uk": "Обмежимо їхню владу."
+ },
+ "random_event.94.desc": {
+  "en": "Through intrigue at [ROOT.GetCountry.GetGovernment.GetCourtTitle], skillful alliances, and plenty of opportunism, a group of local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have built up a strong power base in [local_noble.GetName]. If we do not deal with them now, they may support one of the various pretenders to the [ROOT.GetCountry.GetFlavorRank] in the hopes of even greater influence, though reducing their power will prove difficult given their influence and the large force of retainers that they maintain as part of their own private army.",
+  "uk": "Завдяки інтригам при дворі, вміло укладеним союзам та опортунізму деякі місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] спромоглися накопичити велику політичну вагу в [local_noble.Custom('LR_PREP')|l] [local_noble.GetName]. Якщо ми зараз нічого не вчинимо, ці вискочні можуть отримати ще більше влади. Однак обмежити їхній вплив буде непросто, зважаючи на їхнє становище та особисті армії дружинників."
+ },
+ "random_event.94.title": {
+  "en": "Local [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]'s Power Grows",
+  "uk": "Місцеві [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] посилюють вплив"
+ },
+ "random_event.95.a": {
+  "en": "All can benefit from it!",
+  "uk": "Хай частуються всі!"
+ },
+ "random_event.95.b": {
+  "en": "Its clearly for the [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "Лише [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] удостоїться цих ласощів!"
+ },
+ "random_event.95.desc": {
+  "en": "Our colonists have stumbled upon an amazing discovery, [ShowGoodsName('cocoa')], and it is a real delicacy back in [ShowContinentName('europe')]. The major trading houses are importing this curiosity by the barrel load. They have discovered enough to supply our country, until the end of time.",
+  "uk": "Наші колоністи відкрили [ShowGoodsName('cocoa')|l] — невідомий досі товар, який швидко став для #TOOLTIP:CONTINENT,europe,X #L Європи#!#! справжнім делікатесом. Великі торгові доми везуть ласий дивогляд до Старого Світу бочками. Наші купці виявили достатній його запас для нашої держави до скону віків."
+ },
+ "random_event.95.title": {
+  "en": "Colonial Discovery!",
+  "uk": "Колоніальна диковина!"
+ },
+ "random_event.96.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "random_event.96.desc": {
+  "en": "Our recent decisions and policies have come at the cost of of unsettling regional interests and that has left a bit of a gap in local politics. Since there are no local potentates to tell them everything is fine, the people have started to believe they are being badly governed.",
+  "uk": "Наші нещодавні рішення й політики суперечили інтересам регіонів, що створило певний вакуум влади в регіонах. На місцях не залишилося правителів, готових переконувати народ у його добробуті, тому люди почали замислюватися над тим, що ними погано керують."
+ },
+ "random_event.96.title": {
+  "en": "Country Destabilized",
+  "uk": "Нестабільність у державі"
+ },
+ "random_event.97.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "random_event.97.desc": {
+  "en": "Our decision to start favoring the army over the navy has led to a crop of promising young naval officers to retire from service. They claim that there are not as many opportunities for advancement as there used to be.",
+  "uk": "Наше рішення віддати пріоритет розвитку армії призвело до того, що багато талановитих морських офіцерів просто почали звільнятися. Причиною такого рішення вони називають неможливість побудувати кар'єру у флоті."
+ },
+ "random_event.97.title": {
+  "en": "Naval Officers are Retiring",
+  "uk": "Офіцери флоту виходять на пенсію"
+ },
+ "random_event.98.a": {
+  "en": "That should fill our coffers nicely.",
+  "uk": "Усе до скарбниці."
+ },
+ "random_event.98.desc": {
+  "en": "Our decision to support a privateer fleet is paying off. One of our captains has managed to capture a ship full of valuable goods bound for [gold_port.GetName]. After selling the goods, there is a significant cut for our country!",
+  "uk": "Наше рішення взяти на утримання флот каперів приносить плоди. Один із наших капітанів спромігся захопити судно з цінним вантажем, що йшло до порту [gold_port.GetName]. Після продажу цих товарів наша держава отримає солідний прибуток!"
+ },
+ "random_event.98.title": {
+  "en": "Privateers Bring Profits",
+  "uk": "Капери приносять дохід"
+ },
+ "random_event.99.a": {
+  "en": "These are clearly captains to learn from!",
+  "uk": "Очевидно, у цих капітанів є чому повчитися!"
+ },
+ "random_event.99.desc": {
+  "en": "Our captains have shown excessive skill in naval combat by capturing numerous rival privateers who have been trying to plunder our ships. Never before have we had so many captains so successful in outwitting enemy captains and they have already gained quite a lot of fame among our fleet and population as the skill of our naval commanders inspires confidence in new recruits.",
+  "uk": "Наші морські капітани продемонстрували чудові бойові навички й захопили кількох каперів з іншої держави, що намагалися грабувати наші судна. Уперше в нас так багато капітанів, здатних майстерно обхитрити ворожі кораблі. Наші морські вовки вже заробили велику повагу у флоті та серед народу. Їхній талант вселяє впевненість у серця новобранців."
+ },
+ "random_event.99.title": {
+  "en": "Privateers Captured",
+  "uk": "Спіймано каперів"
+ }
+}

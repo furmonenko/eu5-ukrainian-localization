@@ -1,0 +1,326 @@
+{
+ "ar_gain_alliance_tt": {
+  "en": "Should they accept, we will enter an alliance with them",
+  "uk": "Якщо вони погодяться, ми укладемо з ними союз"
+ },
+ "ar_gain_manpower_tt": {
+  "en": "Should they accept, we will receive a portion of their manpower",
+  "uk": "Якщо вони приймуть наші вимоги, ми отримаємо частину їхніх рекрутів"
+ },
+ "ar_gain_money_tt": {
+  "en": "Should they accept, we will receive a portion of their income",
+  "uk": "Якщо вони приймуть наші вимоги, ми отримаємо частину їхнього доходу"
+ },
+ "assassination_of_target_character_tt": {
+  "en": "We will attempt to assassinate [target_character.GetName]",
+  "uk": "Ми спробуємо вбити персонажа [target_character.GetName]"
+ },
+ "colonial_revolution.1.a": {
+  "en": "The ideas of the [ShowInstitutionNameWithNoTooltip('enlightenment')] will prevail!",
+  "uk": "Справа Просвітництва переможе!"
+ },
+ "colonial_revolution.1.a.tt": {
+  "en": "In this situation, it is possible for a colonial [subject|e] to form an [international_organization|e] of like-minded colonies, trying to pressure their overlord into rescinding control over them or achieving independence directly.",
+  "uk": "У цій ситуації колоніальний [Concept('subject','васал')|e] може заснувати [Concept('international_organization','міжнародне об'єднання')|e] колоній-однодумців і спробувати спільно примусити сюзерена відмовитися від влади над ними або напряму здобути незалежність."
+ },
+ "colonial_revolution.1.desc": {
+  "en": "Ever since our territory was established, we have only existed for the enrichment of [target_country.GetName] overseas. Unfortunately, we have not received an equal amount of representation either on [target_country.GetAdjectiveWithNoTooltip] affairs or in the matters of our own lands. Some of our most esteemed countrymen, inspired by the [ShowInstitutionName('enlightenment')], are talking about possible options to pressure our suzerain into rescinding power, which could escalate into a conflict.",
+  "uk": "Наші володіння існують заради однієї мети: збагачення #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, що знаходиться далеко за морями. При цьому населення не має права брати участь у [target_country.GetAdjectiveWithNoTooltip|l]их справах — або навіть у справах, що стосуються нашої власної землі. Частина глибоко шанованих співвітчизників, які ввібрали в себе ідеї #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#!, почала розробляти задум щодо примушення нашого сюзерена скасувати тут свою владу, що може вилитися в серйозний конфлікт."
+ },
+ "colonial_revolution.1.title": {
+  "en": "No Taxation Without Representation",
+  "uk": "Немає податків без представництва"
+ },
+ "colonial_revolution.10.a": {
+  "en": "Send a letter with our request.",
+  "uk": "Надішлемо листа з вимогою."
+ },
+ "colonial_revolution.10.b": {
+  "en": "We will settle this matter internally.",
+  "uk": "Владнаємо це питання без розголосу."
+ },
+ "colonial_revolution.10.desc": {
+  "en": "A growing faction within our [ROOT.GetCountry.GetFlavorRank] has called for the removal of [target_character.GetName], a member of the [ROOT.GetCountry.GetGovernment.GetCabinetTitle] seen as overly loyal to [target_overlord.GetName] and hostile to local autonomy. Accusations range from corruption to outright espionage. The demand is clear: [target_character.GetSheHe] must be dismissed and handed over to [target_overlord.GetName].",
+  "uk": "Фракція, що набирає популярності на території [ROOT.GetCountry.Custom('rank_ru_GEN')|l], вимагає, щоб [target_character.GetName] — людина, яку слухає [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] нашої держави — [Select_CString(target_character.IsFemale, 'була знята', 'був знятий' )] зі своєї посади. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] звинувачують не лише в надмірній вірності #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_DAT')|L]#!#! і спробах завадити місцевому самоврядуванню, а й у корупції та навіть шпигунстві. Від нас домагаються, щоб ми позбавили [Select_CString(target_character.IsFemale, 'її', 'його' )] займаної посади і видали #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_DAT')|L]#!#!."
+ },
+ "colonial_revolution.10.title": {
+  "en": "Demand for Removal",
+  "uk": "Вимога зняття з посади"
+ },
+ "colonial_revolution.1000.a": {
+  "en": "Money is the most important resource we need.",
+  "uk": "Немає ресурсу важливішого за гроші."
+ },
+ "colonial_revolution.1000.b": {
+  "en": "We need more troops to fight for our freedom.",
+  "uk": "Для перемоги нам знадобиться більше військ."
+ },
+ "colonial_revolution.1000.c": {
+  "en": "They should join our war effort.",
+  "uk": "Нехай вони приєднаються до нашої війни."
+ },
+ "colonial_revolution.1000.d": {
+  "en": "On second thought, we do not need their help.",
+  "uk": "Втім, обійдемося і без їхньої допомоги."
+ },
+ "colonial_revolution.1000.desc": {
+  "en": "Our fight for freedom can not be achieved on its own and needs significant funds. Fortunately, the vile [target_overlord.GetLongName] have made many enemies on their own. One of their enemies, [target_rival.GetName], is hopefully ready to invest in the demise of their rivals. With a bit of convincing, we could receive significant funds for our interests.",
+  "uk": "Щоб боротися за свободу, одних лише ідеалів недостатньо — нам потрібні кошти, і чимало. На щастя, [target_overlord.GetLongName] — винятково огидна держава, що нажила собі чимало ворогів, серед яких є й [target_rival.GetName]. Ми сподіваємося, що ця держава буде готова посприяти справі знищення свого суперника. Якщо наші переговорники впораються зі своїм завданням, ми зможемо розраховувати на значні вкладення."
+ },
+ "colonial_revolution.1000.title": {
+  "en": "Freedom Needs Support",
+  "uk": "Свободі потрібна підтримка"
+ },
+ "colonial_revolution.1001.a": {
+  "en": "Everything to weaken our rivals.",
+  "uk": "Будь-що, аби послабити суперника."
+ },
+ "colonial_revolution.1001.b": {
+  "en": "No, we would not want their ideas of freedom spreading to us.",
+  "uk": "Ні, ми не хочемо, щоб і нас заразили їхні уявлення про свободу."
+ },
+ "colonial_revolution.1001.desc": {
+  "en": "The poor people of [target_colony.GetName] are suffering under the tyrannical rule of [target_overlord.GetName]. A diplomatic delegation of [target_colony.GetNameWithNoTooltip] has now petitioned us to support their efforts for independence, but they are asking for a large contribution and we are not sure if we are able to support them yet.",
+  "uk": "Нещасний народ із колонії [target_colony.GetName] живе під страшним гнітом: [target_overlord.GetName] — справжній тиран. До нас прибула делегація колоністів, які просять підтримати їхню боротьбу за незалежність. Від нас, утім, вони очікують дуже багато, а тому варто подумати: можливо, ми не зможемо їм допомогти."
+ },
+ "colonial_revolution.1001.title": {
+  "en": "[target_colony.GetNameWithNoTooltip] Asks for Aid",
+  "uk": "[target_colony.GetNameWithNoTooltip] просить про допомогу"
+ },
+ "colonial_revolution.1002.a": {
+  "en": "They are a valuable ally to our cause.",
+  "uk": "Такий союзник вельми цінний."
+ },
+ "colonial_revolution.1002.accepted.desc": {
+  "en": "$colonial_revolution.1002.desc.common$ They have promised to stand besides us in our struggle against [target_overlord.GetName]. Together, we shall destroy the shackles of oppression that bind us to our overlord.",
+  "uk": "$colonial_revolution.1002.desc.common$ Нам пообіцяли, що в боротьбі проти #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_GEN')|L]#!#! ми стоятимемо пліч-о-пліч і разом розіб'ємо кайдани, що прикували нас до сюзерена."
+ },
+ "colonial_revolution.1002.b": {
+  "en": "We do not need them anyway.",
+  "uk": "Ми все одно в них не потребуємо."
+ },
+ "colonial_revolution.1002.desc": {
+  "en": "$colonial_revolution.1002.desc.common$ The cowards refuse to give us their support and have left us to our own means in our struggle against [target_overlord.GetAdjective] oppression.",
+  "uk": "$colonial_revolution.1002.desc.common$ Ці боягузливі негідники відмовилися підтримати нас. Тепер у боротьбі з #L [target_overlord.GetAdjective|l]ими#! тиранами ми можемо розраховувати тільки на себе."
+ },
+ "colonial_revolution.1002.desc.common": {
+  "en": "The diplomats of [target_rival.GetNameWithNoTooltip] have a response for us about our request for support.",
+  "uk": "Дипломати з [target_rival.Custom('CL_GEN')] відповіли на наше прохання про допомогу."
+ },
+ "colonial_revolution.1002.title": {
+  "en": "The Response of [target_rival.GetNameWithNoTooltip]",
+  "uk": "Відповідь [target_rival.Custom('CL_GEN')]"
+ },
+ "colonial_revolution.11.a": {
+  "en": "Have [target_character.GetHerHim] extradited.",
+  "uk": "Видамо [Select_CString(target_character.IsFemale, 'її', 'його' )]."
+ },
+ "colonial_revolution.11.b": {
+  "en": "We will not entertain the demands of a mere colony!",
+  "uk": "Ми не будемо йти на поводі в якоїсь колонії!"
+ },
+ "colonial_revolution.11.desc": {
+  "en": "A formal demand has arrived from [target_country.GetName]. They seek the immediate extradition of [target_character.GetName], citing sedition and incitement against the [target_country.GetFlavorRank]. Rumors suggest the real purpose is to rid [target_character.GetHerHim] swiftly in an effort to spread revolutionary sentiment. Our advisors are divided, some see [target_character.GetHerHim] as an important governor, others seek to appease our colonial subject.",
+  "uk": "З #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! нам надійшла офіційна вимога: [target_character.GetName] звинувачується в підбурюванні до заколоту проти [target_country.Custom('rank_ru_GEN')|l], а тому ця людина негайно має бути видана владі. Серед населення ходять чутки, що насправді від [Select_CString(target_character.IsFemale, 'неї', 'нього' )] хочуть якнайшвидше позбутися, щоб тим самим розпалити революційні настрої. Думки радників розділилися; хтось вважає [Select_CString(target_character.IsFemale, 'її', 'його' )] цінним губернатором, хтось не бажає зайвий раз засмучувати колоніальну владу."
+ },
+ "colonial_revolution.11.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Demands the Extradition of [target_character.GetLastNameWithNoTooltip]",
+  "uk": "Влада [target_country.Custom('CL_GEN')] вимагає, щоб [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'була їм видана', 'був їм виданий' )]"
+ },
+ "colonial_revolution.12.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "colonial_revolution.12.desc": {
+  "en": "While the world is grasped with the desire for colonies to separate from their overlords, the steady and firm rule of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has not gone unnoticed by our subjects. The admiration sparked by [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHim] in our subjects leads to many being content with our rule.",
+  "uk": "Прагнення колоній тих чи інших держав відділитися від метрополії сильне, однак [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] править своїми володіннями настільки ґрунтовно і суворо, що наші піддані цілком щиро люблять і поважають [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його')]. Завдяки цьому населення здебільшого задоволене нашою владою."
+ },
+ "colonial_revolution.12.title": {
+  "en": "Popular Rule",
+  "uk": "Популярність у народу"
+ },
+ "colonial_revolution.13.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "colonial_revolution.13.desc": {
+  "en": "Usually, our subjects can rally behind the unifying figure of our ruler. Unfortunately, ever since the death of [ROOT.GetCountry.GetGovernment.GetPreviousRuler.GetName] we have been left without clear leadership and our subjects might get dangerous ideas about liberty and sovereignty.",
+  "uk": "Наші піддані зазвичай завжди можуть згуртуватися навколо правителя… але зараз, на жаль, не той випадок: після того як [Select_CString(ROOT.GetCountry.GetGovernment.GetPreviousRuler.IsFemale, 'померла', 'помер' )] [ROOT.GetCountry.GetGovernment.GetPreviousRuler.GetName|l], ми залишилися без керівництва, і тепер у підданих починають проявлятися крамольні помисли про свободу й самостійність."
+ },
+ "colonial_revolution.13.title": {
+  "en": "Without a Leader",
+  "uk": "Немає правителя"
+ },
+ "colonial_revolution.14.a": {
+  "en": "We will face the future together.",
+  "uk": "Зробимо разом крок до світлого майбутнього."
+ },
+ "colonial_revolution.14.b": {
+  "en": "We would rather keep our relations as is.",
+  "uk": "Поки не будемо переходити до нових відносин."
+ },
+ "colonial_revolution.14.desc": {
+  "en": "In the age of the [ShowSituationName('colonial_revolution')], conflicts between overlord and subjects are common and threaten to spark new bloodshed at every opportunity. A group of people, consiting both of settlers in [target_colony.GetName] and in our own lands, has come forward with a proposal to spare both of our countries from this dreadful future. By releasing [target_colony.GetNameWithNoTooltip] from their obligations and signing an official declaration for an alliance, we can secure a prospering future for both us and [target_colony.GetNameWithNoTooltip].",
+  "uk": "#TOOLTIP:SITUATION,colonial_revolution,X #L Колоніальна революція#!#! — епоха постійної ворожнечі між метрополіями та їхніми підданими. Навіть найнезначніший конфлікт загрожує будь-якої миті обернутися страшним кровопролиттям. До нас звернулася група поселенців — жителів #ONCLICK:COUNTRY,[target_colony.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_colony.Custom('CL_tt')],X [target_colony.Custom('CL_GEN')|L]#!#! і мешканців наших власних земель, які придумали, як нашим державам можна уникнути цієї жахливої долі. Якщо ми погодимося звільнити [target_colony.Custom('CL_ACC')] від усіх зобов'язань перед метрополією і закріпити на папері офіційний союз, то надалі ніщо не зможе затьмарити наше спільне майбутнє."
+ },
+ "colonial_revolution.14.title": {
+  "en": "A Peaceful Path Forward",
+  "uk": "Мирний шлях уперед"
+ },
+ "colonial_revolution.15.a": {
+  "en": "[target_character.GetNameWithNoTooltip] has the better arguments.",
+  "uk": "[target_character.GetNameWithNoTooltip] наводить переконливіші аргументи."
+ },
+ "colonial_revolution.15.b": {
+  "en": "We are convinced by the position of [target_character_2.GetNameWithNoTooltip].",
+  "uk": "Ми погоджуємося з доводами, які висловлює [target_character_2.GetNameWithNoTooltip]."
+ },
+ "colonial_revolution.15.desc.generic": {
+  "en": "In a recent meeting of the [ROOT.GetCountry.GetGovernment.GetCabinetTitle] a vicious argument broke out between [target_character.GetName] and [target_character_2.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetTitle|U] нашої держави теж іноді зазнає потрясінь: на нещодавньому засіданні між собою запекло посперечалися [target_character.GetName] і [target_character_2.GetName]."
+ },
+ "colonial_revolution.15.desc.generic_2": {
+  "en": "It is clear that we can no longer support both in our [ROOT.GetCountry.GetGovernment.GetCabinetTitle] and will have to commit to punishing either of them.",
+  "uk": "Очевидно, що [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] більше не зможе терпіти цих двох. Когось із сперечальників доведеться покарати."
+ },
+ "colonial_revolution.15.desc.overlord": {
+  "en": "$colonial_revolution.15.desc.generic$ [target_character.GetNameWithNoTooltip] has voiced very conciliatory views on our colonies before and argued for changing our stance to be less exploitative. For this, [target_character.GetSheHe] received a strong resistance from [target_character_2.GetNameWithNoTooltip], who argued for the necessity of exploitation for our own prosperity. $colonial_revolution.15.desc.generic_2$",
+  "uk": "$colonial_revolution.15.desc.generic$ [target_character.GetNameWithNoTooltip] раніше [Select_CString(target_character.IsFemale, 'виступала', 'виступав' )] за добрі відносини з колоніями, а на засіданні [Select_CString(target_character.IsFemale, 'закликала', 'закликав' )] не так сильно експлуатувати переселенців. На цю риторику жорстко [Select_CString(target_character_2.IsFemale, 'відповіла', 'відповів' )] [target_character_2.GetNameWithNoTooltip]: [Select_CString(target_character_2.IsFemale, 'вона', 'він' )] вважає, що без експлуатації неможливе процвітання нашої держави. $colonial_revolution.15.desc.generic_2$"
+ },
+ "colonial_revolution.15.desc.subject": {
+  "en": "$colonial_revolution.15.desc.generic$ [target_character.GetNameWithNoTooltip], a staunch supporter of our overlord, has accused [target_character_2.GetNameWithNoTooltip] of disloyalty and sabotaging our common relations. [target_character_2.GetNameWithNoTooltip] in turn responded with accusations of exploiting our common people for foreign interests. $colonial_revolution.15.desc.generic_2$",
+  "uk": "$colonial_revolution.15.desc.generic$ [target_character.GetNameWithNoTooltip], [Select_CString(target_character.IsFemale, 'відома', 'відомий' )] своєю відданістю метрополії, [Select_CString(target_character.IsFemale, 'заявила', 'заявив' )], що [target_character_2.GetNameWithNoTooltip] віроломно руйнує наші взаємини. [target_character_2.GetNameWithNoTooltip], своєю чергою, [Select_CString(target_character_2.IsFemale, 'розразилася', 'розразився' )] звинуваченнями в експлуатації простого народу в чужих інтересах. $colonial_revolution.15.desc.generic_2$"
+ },
+ "colonial_revolution.15.title": {
+  "en": "Factionalism in the [ROOT.GetCountry.GetGovernment.GetCabinetTitle]",
+  "uk": "Розкол у раді"
+ },
+ "colonial_revolution.2.a": {
+  "en": "We can only pity those people rejecting our rule.",
+  "uk": "Тим, хто відкидає нашу владу, можна лише поспівчувати."
+ },
+ "colonial_revolution.2.desc": {
+  "en": "With the ideas of the [ShowInstitutionName('enlightenment')] spreading like a wildfire all over the world, we have received unsettling news from our colonial possessions. They seem to be discussing disturbing ideas such as representation and self-determination. While we are not sure where these ideas sprung from, as we always acted in their best interest, it seems likely that this will not be easy to ignore. We should anticipate significantly more trouble in dealing with our colonial possessions in the future.",
+  "uk": "По світу, подібно до лісової пожежі, стрімко поширюються ідеї #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#!. Вони не оминули й наші колонії: до нас дійшли тривожні вісті про те, що колоністи почали обговорювати такі крамольні питання, як представництво і право на самовизначення. Невідомо, що стало цьому початком (адже ми завжди діяли в найкращих інтересах колоній), однак навряд чи буде можливо закрити очі на те, що відбувається. Надалі відносини з колоніями значно ускладняться."
+ },
+ "colonial_revolution.2.title": {
+  "en": "The Unruly Colonies",
+  "uk": "Непокірні колонії"
+ },
+ "colonial_revolution.3.a": {
+  "en": "This is a serious matter.",
+  "uk": "Це серйозна справа."
+ },
+ "colonial_revolution.3.b": {
+  "en": "Loyalty to the [target_overlord.Custom('GetMotherlandFatherland')] will serve us well.",
+  "uk": "[target_overlord.Custom('GetMotherlandFatherland')|U] викликає сильні почуття. Вірність до рідних країв ще може нам послужити."
+ },
+ "colonial_revolution.3.desc": {
+  "en": "After a prolonged period of colonial mismanagement, we have reached a state of divergence. Cultural, social, and political dissimilarities and the ongoing exploitation have made the settlers lose faith in [target_overlord.GetName]. The differences between the groups supporting the [target_overlord.Custom('GetMotherlandFatherland')] and the settlers preferring governance free from oversea influence are becoming more stark and entrenched by the day and conflict seems nearly unavoidable.",
+  "uk": "Ми втомилися терпіти недбале й невміле управління колоніями і тепер стоїмо на роздоріжжі. Поселенці більше не вірять #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_DAT')|L]#!#!: надто великими стали наші культурні, суспільні й політичні відмінності, збудовані на фундаменті з пригнічення. Ті, для кого [target_overlord.Custom('GetMotherlandFatherland')|l] — священне слово, і ті, хто хоче незалежності від заморських правителів, з кожним днем дедалі більше віддаляються одне від одного. Конфлікт, схоже, неминучий."
+ },
+ "colonial_revolution.3.title": {
+  "en": "Looking for Freedom",
+  "uk": "У пошуках свободи"
+ },
+ "colonial_revolution.4.a": {
+  "en": "They should bring this up in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName].",
+  "uk": "Нехай звернуться з цим до [ROOT.GetCountry.Custom('parliament_ru_DAT')|l]."
+ },
+ "colonial_revolution.4.b": {
+  "en": "Give in to their demands.",
+  "uk": "Поступимося їхнім вимогам."
+ },
+ "colonial_revolution.4.desc": {
+  "en": "The relation with our colonies have been on shaky grounds for a while. The economic needs of [ROOT.GetCountry.GetName] can not be ignored and demand an ever-flowing stream of goods from overseas. However, our attempt to assert rigid economic control over our subjects has met fierce resistance. Some colonists have petitioned us to loosen our strict control over goods leaving and entering their markets and giving them more local control.",
+  "uk": "Відносини з нашими колоніями сьогодні не можна назвати інакше, як хиткими. Економічні потреби #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вимагають постійної уваги: державі потрібні безперервні поставки заморських товарів, однак усі спроби встановити жорсткий контроль над економікою наших підданих незмінно наштовхуються на жорсткий опір. Частина колоністів звернулася до нас із проханням послабити суворі заходи щодо товарів, які ввозяться та вивозяться — вони хочуть самоврядування в цьому питанні."
+ },
+ "colonial_revolution.4.title": {
+  "en": "Trade Restrictions",
+  "uk": "Торговельні обмеження"
+ },
+ "colonial_revolution.5.a": {
+  "en": "Attempt to find a diplomatic solution.",
+  "uk": "Спробувати знайти дипломатичне рішення."
+ },
+ "colonial_revolution.5.b": {
+  "en": "They can not decide that!",
+  "uk": "Не їм це вирішувати!"
+ },
+ "colonial_revolution.5.desc": {
+  "en": "Despite their lower status, our colonies are home to many bright and charismatic individuals. We have now received several reports about these people meeting in so called colonial assemblies, discussing the politics of their status as subject and, allegedly, the possibility of declaring independence without our consent. Although these are just rumors, not acting now could leave us in a weaker position later.",
+  "uk": "Наші колонії, попри свою другосортність, — батьківщина багатьох видатних і вольових людей. Нам повідомили, що ці люди почали організовувати так звані колоніальні збори, де обговорюють свою підпорядкованість нашій державі і, ймовірно, навіть можливість проголосити незалежність без нашої на те згоди. І хоча поки що це лише чутки, діяти варто вже зараз, інакше надалі нам буде важко."
+ },
+ "colonial_revolution.5.title": {
+  "en": "Rumors of Rebellion",
+  "uk": "Чутки про заколот"
+ },
+ "colonial_revolution.6.a": {
+  "en": "Demand [target_character.GetHerHis] extradition from the colonial authorities.",
+  "uk": "Вимагатимемо в колоніальної влади видати нам [Select_CString(target_character.IsFemale, 'її', 'його' )]."
+ },
+ "colonial_revolution.6.b": {
+  "en": "Let [target_character.GetHerHim] speak. Words alone cannot topple us.",
+  "uk": "Нехай собі базікає — одними лише словами нас не скинути."
+ },
+ "colonial_revolution.6.c": {
+  "en": "Arrange a discreet assassination.",
+  "uk": "Влаштуємо таємне вбивство."
+ },
+ "colonial_revolution.6.desc": {
+  "en": "[target_character.GetName], a fiery speaker and influential figure, has begun to stir unrest in [target_country.GetName]. Through speeches, letters, and instigations of the public to demand more representation, [target_character.GetSheHe] questions our authority and rallies others to seek independence from the [target_overlord.GetLongName]. Though [target_character.GetSheHe] has yet to openly call for revolt, [target_character.GetHerHis] influence grows with each passing day.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Красномовна й впливова', 'Красномовний і впливовий' )] [target_character.GetName] починає розпалювати заворушення на території #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. У своїх промовах, листах і вимогах до громадськості домагатися повноцінного представництва [Select_CString(target_character.IsFemale, 'вона', 'він' )] постійно ставить під сумнів нашу владу і закликає інших боротися за незалежність, щоб метрополія — [target_overlord.GetLongName] — втратила свій вплив над колоніями. [Select_CString(target_character.IsFemale, 'Її вплив', 'Його вплив' )] зростає з кожним днем, і хоча до відкритих закликів до заколоту ще не дійшло, ми підозрюємо, що це лише питання часу."
+ },
+ "colonial_revolution.6.title": {
+  "en": "The Voice of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його' )] голос"
+ },
+ "colonial_revolution.7.a": {
+  "en": "We have to agree, for now.",
+  "uk": "Поки що в нас немає вибору, доведеться погодитися."
+ },
+ "colonial_revolution.7.b": {
+  "en": "Never!",
+  "uk": "Ніколи!"
+ },
+ "colonial_revolution.7.desc": {
+  "en": "A formal demand has arrived from [target_overlord.GetName]. They seek the immediate extradition of [target_character.GetName], citing sedition and incitement against the [target_overlord.GetFlavorRank]. Rumors suggest the real purpose is to execute [target_character.GetHerHim] swiftly and publicly. Our advisors are divided, some see [target_character.GetHerHim] as a dangerous agitator, others as a voice of liberty.",
+  "uk": "З #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_GEN')|L]#!#! нам надійшла офіційна вимога: [target_character.GetName] звинувачується в підбурюванні до заколоту проти [target_overlord.Custom('rank_ru_GEN')|l], а тому ця людина негайно має бути видана владі. Серед населення вже ходять чутки, що насправді [Select_CString(target_character.IsFemale, 'її', 'його' )] збираються стратити — швидко і в усіх на очах. Думки радників розділилися; хтось вважає [Select_CString(target_character.IsFemale, 'її', 'його' )] небезпечним провокатором, хтось — голосом свободи."
+ },
+ "colonial_revolution.7.title": {
+  "en": "[target_overlord.GetNameWithNoTooltip] Demands the Extradition of [target_character.GetLastNameWithNoTooltip]",
+  "uk": "Влада [target_overlord.Custom('CL_GEN')] вимагає, щоб [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'була їм видана', 'був їм виданий' )]"
+ },
+ "colonial_revolution.8.a": {
+  "en": "Those blasted fools in [target_overlord.GetNameWithNoTooltip]!",
+  "uk": "Чому жителі [target_overlord.Custom('CL_GEN')] — такі дурні?!"
+ },
+ "colonial_revolution.8.desc": {
+  "en": "[target_character.GetName] is dead, struck down in what appeared at first to be a random act of violence. But evidence has surfaced linking the plot to agents at the behest of [target_overlord.GetName]. The revelation has sent shockwaves through our [target_country.GetFlavorRank], where [target_character.GetSheHe] had become a symbol of prominence in the [ROOT.GetCountry.GetGovernment.GetCabinetTitle|U]. Martyrdom now fuels the very movement they sought to silence.",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'мертва', 'мертвий' )]. Смерть настала ніби випадково, внаслідок несподіваного й жорстокого нападу. Однак нам стало достеменно відомо, що в цьому замішана влада #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_GEN')|L]#!#! і виконавці, які діяли від її імені. Тепер [target_country.Custom('rank_ru_ACC')|l] накрила хвиля обурення: [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] щиро вважає [Select_CString(target_character.IsFemale, 'загиблу', 'загиблого' )] видатною людиною, а тепер ще й мученицею. На цьому ґрунті насіння руху, який так старанно намагалися викорінити, зростатиме тільки рясніше."
+ },
+ "colonial_revolution.8.title": {
+  "en": "[target_overlord.GetNameWithNoTooltip] Acts Against Our Sovereignty",
+  "uk": "[target_overlord.GetNameWithNoTooltip] чинить всупереч нашому суверенітету"
+ },
+ "colonial_revolution.9.desc": {
+  "en": "An attempt has been made on the life of [target_character.GetName], but [target_character.GetSheHe] narrowly escaped. The would-be assassin was captured and, under interrogation, confessed ties to agents of [target_overlord.GetName], our overlord! The plot has only strengthened the influence of [target_character.GetShortNameWithNoTooltip], turning [target_character.GetHerHim] into a living legend while casting [target_overlord.GetNameWithNoTooltip] as a villain in the eyes of many within the [target_country.GetFlavorRank].",
+  "uk": "[target_character.GetName] мало не [Select_CString(target_character.IsFemale, 'стала', 'став' )] жертвою замаху! Врятував [Select_CString(target_character.IsFemale, 'її', 'його' )] лише щасливий випадок. Невдаху-вбивцю вдалося вчасно піймати, і на допиті він зізнався, що діяв за наказом #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_GEN')|L]#!#! — нашої метрополії! Організатори зірваної змови домоглися лише зворотного: тепер [target_character.GetShortNameWithNoTooltip] — жива легенда, а [target_overlord.GetNameWithNoTooltip] в очах тисяч жителів [target_country.Custom('rank_ru_GEN')|l] — безсумнівно, лиходій."
+ },
+ "colonial_revolution.9.title": {
+  "en": "The Failed Assasination of [target_character.GetLastNameWithNoTooltip]",
+  "uk": "[target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'пережила', 'пережив' )] замах"
+ },
+ "got_aid_tt": {
+  "en": "We got aid",
+  "uk": "Ми отримали допомогу"
+ },
+ "not_got_aid_tt": {
+  "en": "We did not get aid",
+  "uk": "Ми не отримали допомогу"
+ },
+ "scales_with_character_abilities_tt": {
+  "en": "The loss of [government_power|e] will scale according to the influence and [total_ability|e] of [target_character.GetName]",
+  "uk": "Показник втраченої [Concept('government_power', 'влади уряду')|e] залежатиме від впливу та [Concept('total_ability', 'суми навичок')|e], якими володіє [target_character.GetName]"
+ }
+}

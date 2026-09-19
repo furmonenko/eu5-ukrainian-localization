@@ -1,0 +1,358 @@
+{
+ "flavor_mug.1.a": {
+  "en": "A religion for all our people is most ideal.",
+  "uk": "Релігія, що об'єднає весь наш народ — чудова ідея."
+ },
+ "flavor_mug.1.b": {
+  "en": "Why abandon the ways of [ROOT.GetCountry.GetReligiousSchool.GetNameWithNoTooltip]?",
+  "uk": "[ROOT.GetCountry.GetReligiousSchool.GetNameWithNoTooltip] нічим не гірша. Навіщо відкидати попередні заповіти?"
+ },
+ "flavor_mug.1.b.entry": {
+  "en": "Why abandon the ways of our school?",
+  "uk": ""
+ },
+ "flavor_mug.1.desc": {
+  "en": "With the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetFlavorRank] being the melting pot of different faiths, [target_character.GetName] has been thinking of abandoning the ways of [target_religious_school.GetName]. Instead, [target_character.GetSheHe] wishes to create [target_character.GetHerHis] own one. This school would be closer to a new religion, where all sects are considered as one. Called [ShowReligiousSchoolName('din_i_ilahi_school')], its purpose is to unite the people residing in the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[ROOT.GetCountry.GetName] — місце, де співіснує безліч вірувань, і [target_character.GetName] замислюється про відступ від заповітів школи «[target_religious_school.GetName]». Натомість [Select_CString(target_character.IsFemale,'вона','він')] хоче створити власне вчення. Воно стане чимось на кшталт нової релігії, оголосивши всі культи єдиним цілим. Нова доктрина має назву «[ShowReligiousSchoolName('din_i_ilahi_school')]» і повинна об'єднати мешканців [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_mug.1.entry": {
+  "en": "Din I Ilahi School",
+  "uk": ""
+ },
+ "flavor_mug.1.historical_info": {
+  "en": "The multicultural and multireligious character of the Mughals is what marked the reign of Akbar 'the Great'. He led several reforms to help with that, and even created his own faith. It was known as the Dīn-i Ilāhī, the Religion of God, which functioned similar to the Yasa-e Changezi of the Timurids, treating all sects as one.",
+  "uk": "Правління Акбара Великого примітне розмаїттям культур і релігій в імперії Моголів. Акбар провів низку реформ для співіснування різних світоглядів і навіть створив власну віру під назвою «дін-і іллахі», що означає «божественна віра». Подібно до Великої Яси Тимуридів, вона розглядала всі культи як єдине ціле."
+ },
+ "flavor_mug.1.title": {
+  "en": "[ShowReligiousSchoolNameWithNoTooltip('din_i_ilahi_school')]",
+  "uk": ""
+ },
+ "flavor_mug.10.a": {
+  "en": "Let us build this house of knowledge.",
+  "uk": "Давайте збудуємо такий дім знань."
+ },
+ "flavor_mug.10.b": {
+  "en": "No need to undermine [ROOT.GetCountry.GetReligion.GetGroup.GetNameWithNoTooltip].",
+  "uk": "Не потрібно підривати [ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip|l]ий вплив."
+ },
+ "flavor_mug.10.b.entry": {
+  "en": "No need to undermine our religious group.",
+  "uk": ""
+ },
+ "flavor_mug.10.desc": {
+  "en": "With the dominance of the [ShowReligiousSchoolName('din_i_ilahi_school')] within [ROOT.GetCountry.GetName], many have suggested that a meeting house is created for discussions of different faiths. Known as the [ShowBuildingTypeName('ibadat_khana')], it is meant to unite the people of [ROOT.GetCountry.GetNameWithNoTooltip] through faith, truly embracing a [ShowSocietyDirectionName('humanist')] [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "В #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! панує доктрина [ShowReligiousSchoolName('din_i_ilahi_school')|l], і багато хто пропонує створити молитовний дім для роздумів про різні вірування. Це місце під назвою [ShowBuildingTypeName('ibadat_khana')] має об'єднати народ [ROOT.GetCountry.Custom('CL_GEN')] за допомогою віри та стати справжнім втіленням #TOOLTIP:SOCIETAL_VALUE,humanist,X #L гуманізму#!#! [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_mug.10.entry": {
+  "en": "The Ibadat Khana, House of Worship",
+  "uk": ""
+ },
+ "flavor_mug.10.title": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('ibadat_khana')] of [target_location.GetNameWithNoTooltip]",
+  "uk": "Ібадат-хана в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mug.11.a": {
+  "en": "Let us fortify the [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Укріпимо [target_location.Custom('LR_ACC')|l]."
+ },
+ "flavor_mug.11.b": {
+  "en": "There is no need for fortifications.",
+  "uk": "В укріпленнях немає потреби."
+ },
+ "flavor_mug.11.desc": {
+  "en": "In order to further strengthen our control over [target_location.GetName], [target_character.GetName] has suggested to build a grand fortress in the [target_location.GetRank.GetName]. Using the Yamunā River as a natural barrier, it would be a safer place for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to reside in.",
+  "uk": "Щоб посилити контроль над [target_location.Custom('LR_INST')|l] [target_location.GetName], [target_character.GetName] пропонує збудувати в #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_PREP')|l]#!#! велику фортецю. Річка Ямуна слугуватиме додатковою природною перешкодою, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе жити в безпеці за надійними укріпленнями."
+ },
+ "flavor_mug.11.entry": {
+  "en": "The Red Fort of Delhi",
+  "uk": ""
+ },
+ "flavor_mug.11.title": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('red_fort')] of [target_location.GetNameWithNoTooltip]",
+  "uk": "Червоний форт у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mug.12.a": {
+  "en": "Let this district prosper.",
+  "uk": "Нехай цей район процвітає."
+ },
+ "flavor_mug.12.b": {
+  "en": "We should attend to more important matters.",
+  "uk": "У нас є важливіші справи."
+ },
+ "flavor_mug.12.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has been growing lately, eventually leading to new districts being created. One of them is Fatehpur Sikrī, which has caught the attention of [target_character.GetName], wishing to transform it into the center of [ShowRegionName('hindustan_region')]. Whilst this will be helpful, it would also be costly.",
+  "uk": "[target_location.GetRank.GetName|U] [target_location.GetName] бурхливо розвивається, і в нас з'являються нові округи. [target_character.GetName] хоче, щоб один із таких районів, Фатехпур-Сікрі, став центром регіону #TOOLTIP:REGION,hindustan_region,X #L Індостан#!#!. Задум хороший, але обійдеться нам у чималу суму."
+ },
+ "flavor_mug.12.entry": {
+  "en": "$flavor_mug.12.title$",
+  "uk": ""
+ },
+ "flavor_mug.12.historical_info": {
+  "en": "Founded in 1571 as the new capital of the Mughal Empire, Fatehpur Sikri received great attention from Emperor Akbar, who sought refuge from the busyness of Agra. He oversaw the construction of new gardens, temples, and commercial centers, transforming the city into a vibrant hub. Even monumental structures like the Buland Darwaza, the Door of Victory, were built during this time. Unfortunately, the town was completely abandoned in 1610 after the emperor lost interest in it.",
+  "uk": "Місто Фатехпур-Сікрі було засноване в 1571 році і стало новою столицею імперії Моголів. Воно припало до вподоби імператору Акбару, якого втомила метушня Агри. Під керівництвом Акбара у Фатехпур-Сікрі з'явилися нові сади, храми та торговельні райони, і місто перетворилося на центр громадського життя. Серед іншого, тоді були збудовані такі грандіозні споруди, як Буланд Дарваза — Ворота Перемоги. На жаль, згодом імператор втратив інтерес до міста, і в 1610 році воно зовсім спорожніло."
+ },
+ "flavor_mug.12.title": {
+  "en": "Founding of Fatehpur Sikrī",
+  "uk": "Заснування Фатехпур-Сікрі"
+ },
+ "flavor_mug.13.a": {
+  "en": "Let us promote them.",
+  "uk": "Надамо їм підтримку."
+ },
+ "flavor_mug.13.b": {
+  "en": "No need to placate minorities.",
+  "uk": "Навіщо потакати меншинам?"
+ },
+ "flavor_mug.13.desc": {
+  "en": "The [ShowLanguageName('rajasthani_language')] language has been prominent within the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Despite that, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has been lacking those people who are so versed in the ways of warfare. We could elevate them within the [ROOT.GetCountry.GetFlavorRank], but it runs the risk of angering the entrenched elites of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')].",
+  "uk": "Мова #TOOLTIP:LANGUAGE,rajasthani_language,X #L раджастхані#!#! досить популярна при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі, однак [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] потребує тих, хто обізнаний у військовій справі. Ми могли б надавати таким людям вище становище в [ROOT.GetCountry.Custom('rank_ru_PREP')|l], але високопосадова [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що давно користується впливом, буде обурена."
+ },
+ "flavor_mug.13.entry": {
+  "en": "Promotion of Rajasthani Language",
+  "uk": ""
+ },
+ "flavor_mug.13.title": {
+  "en": "Promotion of [ShowLanguageNameWithNoTooltip('rajasthani_language')]",
+  "uk": "Поширення мови раджастхані"
+ },
+ "flavor_mug.14.a": {
+  "en": "It shall be a grand road indeed.",
+  "uk": "Це буде воістину велика дорога."
+ },
+ "flavor_mug.14.b": {
+  "en": "Let us not spend resources improving ancient roads.",
+  "uk": "Не будемо витрачатися на ремонт старовинних доріг."
+ },
+ "flavor_mug.14.desc": {
+  "en": "Due to recent technological advancements, as well as negligence over trade within [ShowRegionName('hindustan_region')], the Grand Trunk Road has been in decline. Being the connection between [ShowRegionName('persia_region')] and [ShowRegionName('bengal_region')], it has led to it prospering in the past. [target_character.GetName] wishes to modernize this road, allowing for a grand road between [target_location.GetName] amd [target_location2.GetName].",
+  "uk": "Нещодавні технологічні досягнення та брак уваги до торгівлі в #TOOLTIP:REGION,hindustan_region,X #L Індостані#!#! призвели до того, що Великий колісний шлях занепав. Ця дорога, що з'єднує #TOOLTIP:REGION,persia_region,X #L Персію#!#! і #TOOLTIP:REGION,bengal_region,X #L Бенгалію#!#!, колись сприяла процвітанню регіону. [target_character.GetName] хоче оновити її та створити сучасний шлях між районами [target_location.GetName] і [target_location2.GetName]."
+ },
+ "flavor_mug.14.entry": {
+  "en": "$flavor_mug.14.title$",
+  "uk": ""
+ },
+ "flavor_mug.14.title": {
+  "en": "Aiding the Grand Trunk Road",
+  "uk": "Підтримка Великого колісного шляху"
+ },
+ "flavor_mug.15.a": {
+  "en": "Let us found it.",
+  "uk": "Збудуємо місто."
+ },
+ "flavor_mug.15.b": {
+  "en": "Empowering the governors there is not our priority.",
+  "uk": "Немає сенсу посилювати вплив намісників."
+ },
+ "flavor_mug.15.desc": {
+  "en": "The [ShowRegionName('bengal_region')] Sūbah has been on the decline for some time. Having lost our control in the region, [target_character.GetName] now wishes to establish a [ShowLocationRankName('city')] there from which [target_character.GetHerHis] governors will rule. The people there are in support of it, and would be rejoiced by such project, but it would also be costly.",
+  "uk": "#TOOLTIP:REGION,bengal_region,X #L Бенгальська#!#! суба вже давно переживає не найкращі часи. Ми вже не контролюємо цей регіон, і [target_character.GetName] хоче заснувати #TOOLTIP:LOCATIONRANK,city,X #L місто#!#!, де правитимуть [Select_CString(target_character.IsFemale,'її','його')] намісники. Місцеві жителі теж із радістю підтримають цю ідею, але її втілення коштуватиме недешево."
+ },
+ "flavor_mug.15.entry": {
+  "en": "Founding of Chandrabad",
+  "uk": ""
+ },
+ "flavor_mug.15.title": {
+  "en": "Founding of [target_location.GetNameWithNoTooltip]",
+  "uk": "Заснування столиці в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mug.2.a": {
+  "en": "The system will allow is to properly tax the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')].",
+  "uk": "Завдяки цій системі [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] сплачуватимуть потрібну суму податків."
+ },
+ "flavor_mug.2.a.entry": {
+  "en": "The system will allow us to properly tax the $peasants_estate$.",
+  "uk": ""
+ },
+ "flavor_mug.2.b": {
+  "en": "There is no need of such reforms.",
+  "uk": "У цих реформах немає потреби."
+ },
+ "flavor_mug.2.desc": {
+  "en": "The current taxation system has become complicated with all of the different regional laws we have integrated from our conquests. It is safe to say that it is disorganized and that several reforms have to be made to remedy that fact. [target_character.GetName] wishes to organize it all into the [ShowLawName('dahsala_system')]. It is meant to properly organize the taxation of non-[ROOT.GetCountry.GetReligion.GetGroup.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] rather than abide to their local laws.",
+  "uk": "Нинішня податкова система стала надто заплутаною через різні регіональні податки, які ми запровадили після завоювань. Очевидно, нам потрібно реформувати її та зробити більш організованою. [target_character.GetName] хоче створити єдину систему під назвою [ShowLawName('dahsala_system')|l]. Вона впорядкує збір податків, які сплачують [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] з регіонів, що не є #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]ими#!, і замінить місцеві закони."
+ },
+ "flavor_mug.2.entry": {
+  "en": "Birth of the Dahsala System",
+  "uk": ""
+ },
+ "flavor_mug.2.historical_info": {
+  "en": "The chaotic and disorganized taxation system during the reign of Akbar resulted in lots of land revenue being lost for the Mughals. It was for that reason that the finance minister at the time, Raja Todar Mal, decided to reform them all into a more streamlined system, the Dahsala. There were three ways that a region was taxed. The Zabiti, Nasaq, and Galla-Bakshi.",
+  "uk": "Невпорядкованість податкової системи за часів правління Акбара призвела до того, що імперія Великих Моголів не отримувала значну частину зборів. Тому міністр фінансів Раджа Тодар Мал вирішив об'єднати всі податки в єдину організовану систему — дасала. Для регіонів використовувалися три способи оподаткування: забті, насак і галлебахш."
+ },
+ "flavor_mug.2.title": {
+  "en": "Birth of the [ShowLawNameWithNoTooltip('dahsala_system')]",
+  "uk": "Поява системи [ShowLawNameWithNoTooltip('dahsala_system')|l]"
+ },
+ "flavor_mug.3.a": {
+  "en": "Ensuring that all the Sūbah are under control is our priority.",
+  "uk": "Головне, щоб усі суби були під нашим контролем."
+ },
+ "flavor_mug.3.b": {
+  "en": "All of our regions are fine already.",
+  "uk": "Наші регіони і без того добре керуються."
+ },
+ "flavor_mug.3.desc": {
+  "en": "Due to the current size of the [ROOT.GetCountry.GetFlavorRank], it is not feasible to rule it all from [ROOT.GetCountry.GetCapital.GetName]. For that reason, a new way of organizing these places has been proposed, that being the [ShowGovernmentReformName('subah_organization_reform')] system, meant to grant governorship to any prominent member of the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Нинішні розміри [ROOT.GetCountry.Custom('rank_ru_GEN')|l] не дозволяють ефективно керувати всією державою з [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName], тому нам запропонували новий спосіб територіального поділу. [ShowGovernmentReformName('subah_organization_reform')] дозволяє будь-якому впливовому мешканцю [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] стати намісником у регіоні."
+ },
+ "flavor_mug.3.entry": {
+  "en": "$flavor_mug.3.title$",
+  "uk": ""
+ },
+ "flavor_mug.3.title": {
+  "en": "Organizing the Sūbah",
+  "uk": "Поділ на суби"
+ },
+ "flavor_mug.4.a": {
+  "en": "Let us mint these new coins.",
+  "uk": "Викарбуємо нові монети."
+ },
+ "flavor_mug.4.b": {
+  "en": "There is no need to upset the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] будуть невдоволені, тож залишимо все як є."
+ },
+ "flavor_mug.4.b.entry": {
+  "en": "There is no need to upset the $burghers_estate$.",
+  "uk": ""
+ },
+ "flavor_mug.4.desc": {
+  "en": "In order to ensure the financial stability of the [ROOT.GetCountry.GetFlavorRank], as well as reduce any inflation problems that our economy may be facing, [target_character.GetName] has proposed minting a new coin. Using the vast supplies of [ShowGoodsName('goods_gold')] and [ShowGoodsName('silver')], it will allow us to mint multiple variants of these coins. However, the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] might not be too fond of such economic changes.",
+  "uk": "[target_character.GetName] пропонує викарбувати нову монету, щоб забезпечити фінансову стабільність [ROOT.GetCountry.Custom('rank_ru_GEN')|l] і зменшити ймовірність інфляції в державі. У нас достатньо запасів #TOOLTIP:GOODS,goods_gold,X #L золота#!#! та #TOOLTIP:GOODS,silver,X #L срібла#!#!, щоб викарбувати кілька варіантів нових монет. Однак [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], можливо, будуть не в захваті від подібних змін економіки."
+ },
+ "flavor_mug.4.entry": {
+  "en": "The Mughal Coinage Reform",
+  "uk": ""
+ },
+ "flavor_mug.4.title": {
+  "en": "Coinage Reforms of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] проводить грошову реформу"
+ },
+ "flavor_mug.5.a": {
+  "en": "Let us establish these highway guards.",
+  "uk": "Створимо дорожню варту."
+ },
+ "flavor_mug.5.b": {
+  "en": "There is no need to supervise anything.",
+  "uk": "Купці самі впораються."
+ },
+ "flavor_mug.5.desc": {
+  "en": "Banditry has been rampant within trade routes in [ShowRegionName('hindustan_region')], with merchants frequently reporting losing their goods when their caravans pass through these lands. These disruptions of traversal are not acceptable in the [ROOT.GetCountry.GetFlavorRank]. [target_character.GetName] wishes to prevent that by establishing new highway guards, known as the [ShowBuildingTypeName('rahdar')], in order to protect these routes.",
+  "uk": "На торговельних шляхах #TOOLTIP:REGION,hindustan_region,X #L Індостану#!#! лютують розбійники. Купці часто скаржаться, що втрачають свій товар, поки їхні каравани перетинають ці землі. Подібні проблеми в дорозі неприйнятні для [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Для захисту торговельних маршрутів [target_character.GetName] хоче створити нову дорожню варту під назвою [ShowBuildingTypeName('rahdar')|l]."
+ },
+ "flavor_mug.5.entry": {
+  "en": "$flavor_mug.5.title$",
+  "uk": ""
+ },
+ "flavor_mug.5.historical_info": {
+  "en": "Due to the banditry of Hindustan during the 16th century, many of the roads were unprotected. This would lead to many foreign merchants losing their goods, leading to the the local administrators compensating for these losses. To minimize these accidents, Akbar set up the rahdars, highway police that would ensure the safety of any traveler.",
+  "uk": "У 16 столітті в Індостані промишляли розбійники, і подорожувати було небезпечно. Багато купців позбавлялися товару, через що місцевій владі доводилося відшкодовувати їм збитки. Щоб зменшити кількість пограбувань на дорогах, Акбар заснував загони рахдарів — дорожньої поліції, що стежила за безпекою подорожніх."
+ },
+ "flavor_mug.5.title": {
+  "en": "Protecting Land Trade",
+  "uk": "Безпека сухопутної торгівлі"
+ },
+ "flavor_mug.6.a": {
+  "en": "A memory for [target_character.GetNameWithNoTooltip]!",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'відійшла','відійшов')] в інший світ, але пам'ять про [Select_CString(target_character.IsFemale,'неї','нього')] житиме вічно!"
+ },
+ "flavor_mug.6.a.entry": {
+  "en": "A memory for him!",
+  "uk": ""
+ },
+ "flavor_mug.6.b": {
+  "en": "[target_character.GetNameWithNoTooltip] is already remembered.",
+  "uk": "[target_character.GetNameWithNoTooltip] і без того залишиться у нашій пам'яті."
+ },
+ "flavor_mug.6.b.entry": {
+  "en": "The character is already remembered.",
+  "uk": ""
+ },
+ "flavor_mug.6.desc": {
+  "en": "The death of [target_character.GetName] has left [target_character2.GetName] mourning. Wishing to remember [target_character.GetHerHim], [target_character2.GetSheHe] has now hired [target_artist.GetName] to design what [target_character2.GetNameWithNoTooltip] wishes is the magum opus of the [ROOT.GetCountry.GetAdjective] architecture. Calling it the $taj_mahal$, it is planned to be built from ivory-white marble, and where [target_character.GetNameWithNoTooltip] will rest eternally.",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale,'померла','помер')], і [target_character2.GetName] сумує за [Select_CString(target_character.IsFemale,'нею','ним')]. На згадку про [Select_CString(target_character.IsFemale,'кохану','коханого')] [Select_CString(target_character2.IsFemale,'вона','він')] хоче звести споруду, яка має стати апофеозом #L [ROOT.GetCountry.GetAdjective|l]ої архітектури. Шедевр під назвою $taj_mahal$ створюватиме [target_artist.GetName]. У цьому палаці з білосніжного мармуру [target_character.GetNameWithNoTooltip] знайде останній вічний притулок."
+ },
+ "flavor_mug.6.entry": {
+  "en": "$flavor_mug.6.title$",
+  "uk": ""
+ },
+ "flavor_mug.6.historical_info": {
+  "en": "Being one of the most popular examples of Mughal architecture, the Taj Mahal was built as a memorial of the wife of Shāh Jahān. It was inspired by the Gūr-i Amīr in Samarkand, which was the mausoleum of Timur. After the death of Shāh Jahān, he was buried right next to his wife.",
+  "uk": "Тадж-Махал, де спочиває дружина Шах-Джахана, — один із найвідоміших зразків архітектури Моголів. Його архітектура натхненна Гур-Еміром — мавзолеєм Тимура в Самарканді. Коли Шах-Джахан помер, його поховали поруч із дружиною."
+ },
+ "flavor_mug.6.title": {
+  "en": "The $taj_mahal$",
+  "uk": ""
+ },
+ "flavor_mug.7.a": {
+  "en": "Let us implement this system.",
+  "uk": "Запровадимо нову систему."
+ },
+ "flavor_mug.7.b": {
+  "en": "The current people in charge of the army shall not be replaced.",
+  "uk": "Не будемо змінювати нинішнє військове керівництво."
+ },
+ "flavor_mug.7.desc": {
+  "en": "The military organization within [ROOT.GetCountry.GetName] for a long time has not been one where merit is favored, but rather the amount of lands they possess. Instead, there should be a more fair system, where the merits and positions is what determines the amount of land and wealth one receives. This would surely upset the balance of power within the [ROOT.GetCountry.GetFlavorRank], but it is bound to massively improve our land forces.",
+  "uk": "В армії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! тривалий час цінувалися не заслуги, а кількість земель у власності. Щоб зробити цю систему більш справедливою, потрібно надавати землі та багатства залежно від посади та досягнень. Безумовно, це змінить баланс влади в [ROOT.GetCountry.Custom('rank_ru_PREP')|l], але значно покращить наші сухопутні війська."
+ },
+ "flavor_mug.7.entry": {
+  "en": "Implementation of the Mansabdar System",
+  "uk": ""
+ },
+ "flavor_mug.7.title": {
+  "en": "Implementation of the [ShowPolicyNameWithNoTooltip('mansabdar_system')]",
+  "uk": "Поява мансабдарів"
+ },
+ "flavor_mug.8.a": {
+  "en": "It shall be a majestic throne!",
+  "uk": "Це буде чудовий трон!"
+ },
+ "flavor_mug.8.b": {
+  "en": "Spend resources on mere decoration?",
+  "uk": "Стільки витрат на якісь прикраси?"
+ },
+ "flavor_mug.8.desc": {
+  "en": "With the [ROOT.GetCountry.GetAdjective] golden age in full motion, [target_character.GetName] has plans to create a mighty throne for any future [ROOT.GetCountry.GetGovernment.GetRulerTitle] to sit upon. Planned to be decorated with dancing peacock in its rear as well as jewelries to project our might to any visitor within the [ROOT.GetCountry.GetGovernment.GetCourtTitle], it will end up being costly yet prestigious at the same time.",
+  "uk": "[ROOT.GetCountry.GetName] переживає свій золотий вік, і [target_character.GetName] замислюється про створення величного трону, де засідатиме [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Ми щедро прикрасимо трон коштовностями, а на його спинці буде різьблення у вигляді павича, що танцює. Будь-хто, хто з'явиться до двору, зможе споглядати нашу могутність. Виготовлення такого трону коштує дорого, але він сприятиме престижу нашої держави."
+ },
+ "flavor_mug.8.entry": {
+  "en": "$flavor_mug.8.title$",
+  "uk": ""
+ },
+ "flavor_mug.8.title": {
+  "en": "The $peacock_throne$",
+  "uk": ""
+ },
+ "flavor_mug.9.a": {
+  "en": "It is time to implement this system.",
+  "uk": "Настав час запровадити подібну систему."
+ },
+ "flavor_mug.9.b": {
+  "en": "No need to reform a working government.",
+  "uk": "Реформувати робочий уряд немає потреби."
+ },
+ "flavor_mug.9.desc": {
+  "en": "Despite our current government being serving enough to the masses, the [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective] elites have been finding ways to rule over any other minority within [ROOT.GetCountry.GetName]. [target_character.GetName] has been wishing of reforming the Dīwān, one that would favor a multicultural state, allowing us to gather many great men regardless of their personal beliefs.",
+  "uk": "Наш нинішній уряд ретельно служить народу, але #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]і#! еліти намагаються керувати усіма меншинами в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. [target_character.GetName] хоче, щоб наш диван відображав розмаїття культур у державі та складався з визначних людей із найрізноманітнішими віруваннями."
+ },
+ "flavor_mug.9.entry": {
+  "en": "$flavor_mug.9.title$",
+  "uk": ""
+ },
+ "flavor_mug.9.title": {
+  "en": "A Dīwān of the People",
+  "uk": "Народний диван"
+ },
+ "mug_all_rajput_pops_lose_satisfaction_tt": {
+  "en": "All [pops|e] that speak the [ShowLanguageName('rajasthani_language')] [language|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops','групи населення')|e], що розмовляють [Concept('language','мовою')|e] #TOOLTIP:LANGUAGE,rajasthani_language,X #L раджастхані#!#!, втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]"
+ },
+ "mug_enable_din_i_ilahi_school_tt": {
+  "en": "[ShowReligiousSchoolName('din_i_ilahi_school')] will be unlocked for all [ShowReligionAdjective('sunni')] and [ShowReligionAdjective('ibadi')] [countries|e]",
+  "uk": "Доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')]» буде відкрита для всіх #TOOLTIP:RELIGION,sunni_tt,X #L сунітських#!#! та #TOOLTIP:RELIGION,ibadi_tt,X #L ібадитських#!#! [Concept('countries','держав')|e]"
+ },
+ "mug_location_pops_gain_unrest_tt": {
+  "en": "All [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Вдоволення ')|e] всіх [Concept('pops','груп населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] знизиться на [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%]"
+ }
+}

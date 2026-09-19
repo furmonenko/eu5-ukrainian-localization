@@ -1,0 +1,214 @@
+{
+ "ABANDON_ACTION": {
+  "en": "Abandon this [colonial_charter|e]",
+  "uk": "Покинути це [Concept('colonial_charter','колоніальне поселення')|e]"
+ },
+ "ABANDON_BUTTON": {
+  "en": "Abandon Colonial Charter",
+  "uk": "Покинути колоніальне поселення"
+ },
+ "ABANDON_COLONY_BUTTON": {
+  "en": "Abandon",
+  "uk": "Покинути"
+ },
+ "ABANDON_COLONY_TT": {
+  "en": "Abandoning the Colonial Charter for [COLONIAL_CHARTER.GetName|Y] will cost us $COST$ upfront. The [pops|e] that have migrated into [locations|E] we do not own will be abandoned by us.",
+  "uk": "Для відмови від колоніального поселення в провінції [COLONIAL_CHARTER.GetName|Y] доведеться витратити $COST$. [Concept('pops','Групи населення')|e], які переїхали в [Concept('locations','райони')|e] на чужій території, залишаться без нашої допомоги."
+ },
+ "ABANDON_COLONY_TT_NO_COST": {
+  "en": "Abandoning the Colonial Charter will stop the migration of pops. The [pops|e] that have migrated into [locations|E] we do not own will be abandoned by us.",
+  "uk": "В покинуте колоніальне поселення більше не мігруватимуть люди. [Concept('pops','Групи населення')|e], які переїхали в [Concept('locations','райони')|e] на чужій території, залишаться без нашої допомоги."
+ },
+ "COLONIAL_CHARTER": {
+  "en": "$ADJ$ Colony of [PROVINCE_DEFINITION.GetNameWithNoTooltip]",
+  "uk": "$ADJ$ колонія [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
+ },
+ "COLONIAL_CHARTER_COUNT": {
+  "en": "Currently, there are $OWN|Y$ [locations|E] that have been colonized by [COUNTRY.GetName], with another $POSSIBLE|Y$ still possible.",
+  "uk": "Зараз $OWN|Y$ [Concept('locations','районів')|e] було колонізовано #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_TP')|L]#!#!, і ще $POSSIBLE|Y$ може бути колонізовано."
+ },
+ "COLONIAL_CHARTER_CTA": {
+  "en": "Left-click to pan camera",
+  "uk": "Щоб перемістити камеру, клацніть лівою кнопкою миші"
+ },
+ "COLONIAL_CHARTER_CURRENT": {
+  "en": "$VAL|Y$ [pops|e] will move from [LOCATION.GetName] to colonize [TARGET_LOCATION.GetName] each month.",
+  "uk": "Щомісяця $VAL|Y$ [Concept('pops','гр. населення')|e] переїжджатиме з [LOCATION.Custom('LR_RP')|l] [LOCATION.GetName], щоб колонізувати [TARGET_LOCATION.Custom('LR_VP')|l] [TARGET_LOCATION.GetName]."
+ },
+ "COLONIAL_CHARTER_CURRENT_WITH_CABINET": {
+  "en": "As a result of our [cabinet|e]'s action, additional pops can move:",
+  "uk": "Внаслідок дії нашої [Concept('cabinet','ради')|e] можуть переїхати додаткові групи населення:"
+ },
+ "COLONIAL_CHARTER_CURRENT_WITH_CABINET_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$VAL|Y$ [pops|e] will move from [LOCATION.GetName] to colonize [TARGET_LOCATION.GetName].",
+  "uk": "$BULLET_WITH_TAB$$VAL|Y$ [Concept('pops','гр. населення')|e] переїжджатиме з [LOCATION.Custom('LR_RP')|l] [LOCATION.GetName], щоб колонізувати [TARGET_LOCATION.Custom('LR_VP')|l] [TARGET_LOCATION.GetName]."
+ },
+ "COLONIAL_CHARTER_ENTRY": {
+  "en": "[LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $PERC|2%LV$#!",
+  "uk": ""
+ },
+ "COLONIAL_CHARTER_FROM_CABINET": {
+  "en": "From our [cabinet_actions|e]:",
+  "uk": "Від наших [Concept('cabinet_actions','дій ради')|e]:"
+ },
+ "COLONIAL_CHARTER_FROM_CABINET_SPECIFIC_ENTRY": {
+  "en": "From [PROVINCE.GetName]:",
+  "uk": "Від провінції [PROVINCE.GetName]:"
+ },
+ "COLONIAL_CHARTER_FROM_CHARTER": {
+  "en": "From the [colonial_charter|e]:",
+  "uk": "Від [Concept('colonial_charter','колоніального поселення')|e]:"
+ },
+ "COLONIAL_CHARTER_FULLY_OURS": {
+  "en": "[LOCATION.GetName]: $PERC|G0%$",
+  "uk": ""
+ },
+ "COLONIAL_CHARTER_LABEL": {
+  "en": "The [colonial_charter|e] of [PROVINCE_DEFINITION.GetName] is at $PERC|2V%$ towards being all [fully_settled|e].",
+  "uk": "[Concept('colonial_charter','Колоніальне поселення')|e] в провінції [PROVINCE_DEFINITION.GetName] на $PERC|2V%$ [Concept('fully_settled','повністю заселено')|e]"
+ },
+ "COLONIAL_CHARTER_NO_SOURCE": {
+  "en": "No migrations can happen because there are no locations to migrate from with our [culture|e] and [religion|e] greater than 1000 [pops|e].",
+  "uk": "Міграція неможлива, оскільки у вашій державі немає районів для імміграції, де проживає більше 1000 [Concept('pops','груп населення')|e] вашої [Concept('culture','культури')|e] та [Concept('religion','релігії')|e]."
+ },
+ "COLONIAL_CHARTER_TOTAL_MIGRATION": {
+  "en": "Total [migration|e] $VAL|y$ [pops|e] per month.",
+  "uk": "Загальна [Concept('migration','міграція')|e] — $VAL|y$ [Concept('pops','груп населення')|e] на місяць."
+ },
+ "COLONIAL_DISTANCE": {
+  "en": "Distance from [COUNTRY.GetCapital.GetName]: x$VAL|Y2$",
+  "uk": "Відстань від столиці ([COUNTRY.GetCapital.GetName]): x$VAL|Y2$"
+ },
+ "COLONIAL_FLIP_HEADER": {
+  "en": "Colonial Progress for [LOCATION.GetNameWithNoTooltip]",
+  "uk": "Колоніальний прогрес [LOCATION.Custom('LR_GEN')] [LOCATION.GetNameWithNoTooltip]"
+ },
+ "COLONIAL_MARITIME_IN": {
+  "en": "The [maritime_presence|E] in [REGION.GetName]: x$VAL|Y2$",
+  "uk": "[Concept('maritime_presence','Морська присутність')|e] в регіоні [REGION.GetName]: x$VAL|Y2$"
+ },
+ "COLONIAL_MARITIME_NOT_IN": {
+  "en": "[REGION.GetName] is not [coastal|e]: x$VAL|Y2$",
+  "uk": "[REGION.GetName] не має [Concept('coastal','узбережжя')|e]: x$VAL|Y2$"
+ },
+ "COLONIAL_MIGRATION_HEADER_TT": {
+  "en": "Monthly Migration to [ColonialCharter.GetNameWithNoTooltip]",
+  "uk": "Міграція на місяць в колоніальне поселення [ColonialCharter.GetNameWithNoTooltip]"
+ },
+ "COLONIAL_PROGRESS_HEADER": {
+  "en": "Colonial Progress",
+  "uk": "Колоніальний прогрес"
+ },
+ "COLONIAL_PROGRESS_POT_HEADER": {
+  "en": "Colonial Progress",
+  "uk": "Колоніальний прогрес"
+ },
+ "COLONIAL_TARGET_ENTRY": {
+  "en": "$BULLET_WITH_TAB$[LOCATION.GetName]: Moved - $MOVED|V$; Need - #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#!",
+  "uk": ""
+ },
+ "COLONIAL_TARGET_IS_ABOUT_TO_BE_OTHERS": {
+  "en": "[LOCATION.GetName] is about to be owned by [TARGET_COUNTRY.GetName]!",
+  "uk": "[LOCATION.GetName] скоро перейде у володіння [TARGET_COUNTRY.Custom('CL_GEN')|L]!"
+ },
+ "COLONIAL_TARGET_IS_ABOUT_TO_BE_OURS": {
+  "en": "[LOCATION.GetName] is about to be ours!",
+  "uk": "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] скоро стане нашим!"
+ },
+ "COLONIAL_TARGET_LOCATION_ALREADY_OWNED": {
+  "en": "This [location|e] is already owned by [COUNTRY.GetName].",
+  "uk": "Цей [Concept('location', 'район')|e] вже належить #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!."
+ },
+ "COLONIAL_TARGET_LOCATION_CANNOT_FLIP": {
+  "en": "[LOCATION.GetName] cannot flip ownership to [COUNTRY.GetName] yet:\\n$REASONS$",
+  "uk": "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] поки не може перейти у володіння #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!. Причини:\\n$REASONS$"
+ },
+ "COLONIAL_TARGET_LOCATION_CAN_FLIP": {
+  "en": "[LOCATION.GetName] can flip ownership to [COUNTRY.GetName].",
+  "uk": "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] може перейти у володіння #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
+ },
+ "COLONIAL_TARGET_LOCATION_NOBODY_LIVES_THERE": {
+  "en": "$BULLET_WITH_TAB$There are not enough people living in [LOCATION.GetName]\\nCurrently: [LOCATION.GetTotalPopulation]\\nMinimum needed population: $NEED|V$\\nPercentage correct religion & culture needed: #TOOLTIP:$BREAKDOWN_TAG$ $TARGET_PERCENTAGE|%L2$#!",
+  "uk": "$BULLET_WITH_TAB$В [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName] живе занадто мало людей\\nЗараз: [LOCATION.GetTotalPopulation]\\nМінімально необхідне населення: $NEED|V$\\nНеобхідна частка представників правильної релігії і культури: #TOOLTIP:$BREAKDOWN_TAG$ $TARGET_PERCENTAGE|%L2$#!"
+ },
+ "COLONIAL_TARGET_LOCATION_NOT_ENOUGH_MIGRANTS": {
+  "en": "$BULLET_WITH_TAB$Only $MOVED|V$ of our [pops|e] have moved to [LOCATION.GetName], once we have at least #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#! the location will be ours.",
+  "uk": ""
+ },
+ "COLONIAL_TARGET_LOCATION_NOT_ENOUGH_POWER_PROJECTION": {
+  "en": "$BULLET_WITH_TAB$[TARGET_COUNTRY.GetName] need to have $VAL|0Y$ more [power_projection|e] than the current owner ([COUNTRY.GetName]: [COUNTRY.GetPowerProjection|0]) to have a chance of flipping this location to their [country|e].",
+  "uk": "$BULLET_WITH_TAB$[Concept('country','Державі')|e] [TARGET_COUNTRY.GetName] потрібно на $VAL|0Y$ од. більше [Concept('power_projection','дипломатичної ваги')|e], ніж у поточного власника ([COUNTRY.GetName]: [COUNTRY.GetPowerProjection|0] од.), щоб отримати шанс перехопити контроль над цим районом."
+ },
+ "COLONIAL_TARGET_LOCATION_TRUCE_WITH_OWNER": {
+  "en": "$BULLET_WITH_TAB$[COUNTRY.GetName] has a [truce|e] with [TARGET_COUNTRY.GetName].",
+  "uk": "$BULLET_WITH_TAB$Між державами [COUNTRY.GetName] і [TARGET_COUNTRY.GetName] діє [truce|e]."
+ },
+ "COLONIAL_TARGET_NO_COLONIAL_BUILDINGS_KNOWN": {
+  "en": "No possible [buildings|e] to colonize with!",
+  "uk": "Немає можливих [Concept('buildings','споруд')|e] для колонізації!"
+ },
+ "COLONIAL_TARGET_NO_KNOWN_LOCATIONS": {
+  "en": "Does not know any [locations|e].",
+  "uk": "Не знає жодного [Concept('locations','району')|e]."
+ },
+ "COLONIAL_TARGET_NO_POSSIBLE_BUILDINGS": {
+  "en": "@trigger_no! There are no possible [explored|e] [locations|e] to [colonize|e].",
+  "uk": "@trigger_no! Немає [Concept('explored', 'досліджених')|e] [Concept('locations', 'районів')|e], які можна [Concept('colonize', 'колонізувати')|e]."
+ },
+ "COLONIZE_ACTION": {
+  "en": "Create a [colonial_charter|e]",
+  "uk": "Створити [Concept('colonial_charter','колоніальне поселення')|e]"
+ },
+ "COLONIZE_ACTION_BUTTON": {
+  "en": "Start Colonizing",
+  "uk": "Почати колонізацію"
+ },
+ "COLONIZE_BUTTON": {
+  "en": "Colonize",
+  "uk": "Колонізувати"
+ },
+ "COLONIZE_DESC": {
+  "en": "We will attempt to [colonize|e] [PROVINCE_DEFINITION.GetName] by granting a [colonial_charter|e] in it",
+  "uk": "Ми спробуємо [Concept('colonize','колонізувати')|e] провінцію [PROVINCE_DEFINITION.GetName], створивши там [Concept('colonial_charter','колоніальне поселення')|e]"
+ },
+ "COLONY_POP_TARGET_LOCATION_POPULATION": {
+  "en": "Scaling between those with the [location|e] [population|e] of $POPULATION$ results in a population target of $NEED$",
+  "uk": ""
+ },
+ "COLONY_POP_TARGET_MAX_POPS": {
+  "en": "Max [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$",
+  "uk": ""
+ },
+ "COLONY_POP_TARGET_MIN_POPS": {
+  "en": "Min [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$",
+  "uk": ""
+ },
+ "COLONY_POP_TARGET_PP_COUNTRY": {
+  "en": "[power_projection|e] of [COUNTRY.GetName]: $VAL$",
+  "uk": ""
+ },
+ "COLONY_POP_TARGET_PP_EXISTS": {
+  "en": "[power_projection|e] in [LOCATION.GetName]: $VAL$",
+  "uk": ""
+ },
+ "NO_COLONIAL_CHARTER_EXCLUSIVE": {
+  "en": "This is claimed by [COUNTRY.GetName] due to $NAME$.",
+  "uk": "Зайнято #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_TP')|L]#!#!, причина: $NAME$."
+ },
+ "NO_COLONIAL_CHARTER_RELIGION": {
+  "en": "Due to $NAME|Y$ only [COUNTRY.GetName] is allowed to colonize it, and all other [COUNTRY.GetReligion.GetAdjective] countries are blocked from it.",
+  "uk": "$NAME|Y$ — причина, через яку лише держава [COUNTRY.GetName] може колонізувати цю територію, тоді як іншим #L [COUNTRY.GetReligion.GetAdjective|l]им#! державам це заборонено."
+ },
+ "START_COLONY_TT": {
+  "en": "Creating a Colonial Charter for [PROVINCE_DEFINITION.GetName|Y] will cost us $COST$ upfront. This will attract [pops|e] to the [locations|E] in [PROVINCE_DEFINITION.GetName] over time, and eventually give us ownership of all the territory.",
+  "uk": "Для створення колоніального поселення в провінції [PROVINCE_DEFINITION.GetName|Y] доведеться витратити $COST$. Це поступово залучатиме [Concept('pops','групи населення')|e] в [Concept('locations','райони')|e] провінції [PROVINCE_DEFINITION.GetName], і з часом територія стане нашою."
+ },
+ "START_COLONY_TT_NO_COST": {
+  "en": "Creating a Colonial Charter will attract [pops|e] to the [locations|E] in [PROVINCE_DEFINITION.GetName] over time, and eventually give us ownership of all the territory.",
+  "uk": "Створення колоніального поселення в [Concept('locations','районі')|e] провінції [PROVINCE_DEFINITION.GetName] залучатиме туди [Concept('pops','групи населення')|e], і з часом вся територія стане вашою."
+ },
+ "treaty_of_noteborg": {
+  "en": "The Treaty of '#Y $oreshek$#!' where Novgorod and Sweden settled their claims over Finland and Karelia",
+  "uk": "За #Y Горіховим#! миром Новгород і Швеція врегулювали територіальні суперечки в Фінляндії та Карелії"
+ }
+}

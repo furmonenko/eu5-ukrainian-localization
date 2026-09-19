@@ -1,0 +1,798 @@
+{
+ "BRIBE_IMPERIAL_CIRCLE_CTRL_HINT": {
+  "en": "Bribe the entire [imperial_circle|E]",
+  "uk": ""
+ },
+ "CIRCLE_CONTESTED": {
+  "en": "Contested",
+  "uk": ""
+ },
+ "CIRCLE_DORMANT": {
+  "en": "Dormant",
+  "uk": ""
+ },
+ "CIRCLE_LEADER": {
+  "en": "Circle Leader",
+  "uk": ""
+ },
+ "CIRCLE_LOW_SATISFACTION_GRIEVANCE": {
+  "en": "Circle satisfaction is low — a grievance exists",
+  "uk": ""
+ },
+ "CIRCLE_MEMBER": {
+  "en": "Circle Member",
+  "uk": ""
+ },
+ "CIRCLE_SATISFACTION": {
+  "en": "Circle Satisfaction",
+  "uk": ""
+ },
+ "CIRCLE_UNCIRCLED_MEMBER": {
+  "en": "Not part of any Imperial Circle",
+  "uk": ""
+ },
+ "CIRCLE_WAR_CALL_DEFENSIVE_WAR": {
+  "en": "Circle is defending against a non-HRE aggressor",
+  "uk": ""
+ },
+ "HRE_CIRCLE_CANDIDATE": {
+  "en": "Circle Candidate",
+  "uk": ""
+ },
+ "HRE_CIRCLE_FORMATION_DESC": {
+  "en": "The Imperial Diet is forming Imperial Circles. Each member must join a Circle before the deadline.",
+  "uk": ""
+ },
+ "HRE_CIRCLE_FORMATION_END_DATE": {
+  "en": "End Date of the Formation Period",
+  "uk": ""
+ },
+ "HRE_CIRCLE_FORMATION_HEADER": {
+  "en": "Imperial Circles Formation",
+  "uk": ""
+ },
+ "HRE_CIRCLE_FORMATION_STARTED_IN": {
+  "en": "Started in",
+  "uk": ""
+ },
+ "HRE_CIRCLE_JOIN_INTERACTION": {
+  "en": "Join this Imperial Circle",
+  "uk": ""
+ },
+ "HRE_CIRCLE_LEADER_MODIFIER_HEADER": {
+  "en": "Leader bonus at $VALUE|0$ [circle_satisfaction|e]",
+  "uk": ""
+ },
+ "HRE_CIRCLE_LEVY_CIRCLES_ACTIVE": {
+  "en": "Imperial Circles are active",
+  "uk": ""
+ },
+ "HRE_CIRCLE_MAX_CAP_REACHED": {
+  "en": "This circle has reached its maximum voting power.",
+  "uk": ""
+ },
+ "HRE_CIRCLE_MEMBERS_OVERFLOW": {
+  "en": "+[Subtract_int32(GetDataModelSize(ImperialCircle.GetActiveMembers), '(int32)12')]",
+  "uk": ""
+ },
+ "HRE_CIRCLE_MEMBERS_TOOLTIP_COUNT": {
+  "en": "Members of [ImperialCircle.GetName] — [GetDataModelSize(ImperialCircle.GetActiveMembers)]",
+  "uk": ""
+ },
+ "HRE_CIRCLE_MEMBERS_TOOLTIP_TITLE": {
+  "en": "Circle Members",
+  "uk": ""
+ },
+ "HRE_CIRCLE_NAME_GENERATED": {
+  "en": "The [AREA.GetNameWithNoTooltip] Circle",
+  "uk": ""
+ },
+ "HRE_CIRCLE_SATISFACTION_TT_IMPACT": {
+  "en": "Higher satisfaction improves [prestige|e] and [diplomatic_reputation|e] for the Circle Leader.\\n#Y < 30#! — Circle members are discontent. The Circle Leader may face challenges.\\n#R < 15#! — Circle members may openly challenge the leader's authority.",
+  "uk": ""
+ },
+ "HRE_CIRCLE_SATISFACTION_TT_VALUE": {
+  "en": "Current satisfaction — [ImperialCircle.GetSatisfaction|0]",
+  "uk": ""
+ },
+ "HRE_CIRCLE_TOGGLE_MEMBERS": {
+  "en": "Toggle Circle Members",
+  "uk": ""
+ },
+ "HRE_CIRCLE_TOTAL_VOTE_POWER": {
+  "en": "The combined Imperial Diet vote power of this circle is #G +[InternationalOrganizationsView.GetCircleTotalParliamentVotes(Country.Self)|0]#!",
+  "uk": ""
+ },
+ "IMPERIAL_CIRCLES_EVENTS_FLAVOR": {
+  "en": "Imperial Circles",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_appeal_to_circle_diet": {
+  "en": "$appeal_to_circle_diet$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_appeal_to_emperor": {
+  "en": "$appeal_to_emperor$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_call_imperial_circle_to_war": {
+  "en": "Call to War",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_petition_imperial_diet": {
+  "en": "Petition the Imperial Diet",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_request_circle_infrastructure_expansion": {
+  "en": "$request_circle_infrastructure_expansion$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_request_circle_privilege": {
+  "en": "Circle Privilege Request",
+  "uk": ""
+ },
+ "INCOMING_OFFER_TITLE_request_new_circle_titles": {
+  "en": "$request_new_circle_titles$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_appeal_to_circle_diet": {
+  "en": "[SCOPE.sCountry('actor').GetName] requests financial aid being granted to them. Accepting will grant them a fifth of our yearly income and will make them appear more legitimate. Rejecting this proposal will lower the satisfaction of our circle.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_appeal_to_emperor": {
+  "en": "[SCOPE.sCountry('actor').GetName] appeals to us to intervene in their Imperial Circle's leadership dispute. Accepting will reduce their circle's satisfaction by 8, penalize the circle leader's prestige, and grant us prestige and Imperial Authority.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_call_imperial_circle_to_war": {
+  "en": "[SCOPE.sCountry('actor').GetName] calls upon us to bring our circle's armies to their war.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_petition_imperial_diet": {
+  "en": "[SCOPE.sCountry('actor').GetName] brings a petition before us at the Imperial Diet.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_request_circle_infrastructure_expansion": {
+  "en": "[SCOPE.sCountry('actor').GetName] requests expansion of their military. Accepting allows them to focus on bolstering their road connections and building construction, while in turn lowering their military capabilities for a the next 10 years.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_request_circle_privilege": {
+  "en": "[SCOPE.sCountry('actor').GetName] requests a special privilege for their Imperial Circle.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "INCOMING_OFFER_request_new_circle_titles": {
+  "en": "[SCOPE.sCountry('actor').GetName] demands the elevation of their country within our Circle. Accepting would satisfy their nobles and give them a more prestigious position.\\n\\n$INFO$",
+  "uk": ""
+ },
+ "appeal_to_circle_diet": {
+  "en": "Request Financial Grant from Circle Diet",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_act": {
+  "en": "$appeal_to_circle_diet_desc$",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_desc": {
+  "en": "Request a new financial grant from our Circle Leader.",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] request to the Circle Diet.",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] requested to the Circle Diet.",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] reject the request of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] rejected the requests of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "appeal_to_circle_diet_timeout_tt": {
+  "en": "No country has used the  $appeal_to_circle_diet$ [diplomatic_action|e] in the last 2 years",
+  "uk": ""
+ },
+ "appeal_to_emperor": {
+  "en": "Appeal to the Emperor",
+  "uk": ""
+ },
+ "appeal_to_emperor_act": {
+  "en": "Appeal to the Emperor to intervene in your circle's leadership dispute.",
+  "uk": ""
+ },
+ "appeal_to_emperor_desc": {
+  "en": "Appeal to the Emperor to intervene in your circle's leadership dispute.",
+  "uk": ""
+ },
+ "appeal_to_emperor_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] appeal to the Emperor.",
+  "uk": ""
+ },
+ "appeal_to_emperor_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] appealed to the Emperor.",
+  "uk": ""
+ },
+ "appeal_to_emperor_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] dismiss [SCOPE.sCountry('actor').GetName]'s appeal.",
+  "uk": ""
+ },
+ "appeal_to_emperor_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] dismissed [SCOPE.sCountry('actor').GetName]'s appeal.",
+  "uk": ""
+ },
+ "appoint_imperial_circle_leader": {
+  "en": "Appoint Circle Leader",
+  "uk": ""
+ },
+ "appoint_imperial_circle_leader_act": {
+  "en": "Appoint [SCOPE.sCountry('recipient').GetName] as Circle Leader.",
+  "uk": ""
+ },
+ "appoint_imperial_circle_leader_desc": {
+  "en": "Use Imperial authority to appoint a leader for a circle that currently lacks one.",
+  "uk": ""
+ },
+ "appoint_imperial_circle_leader_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] appoint [SCOPE.sCountry('recipient').GetName] as Circle Leader.",
+  "uk": ""
+ },
+ "appoint_imperial_circle_leader_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] appointed [SCOPE.sCountry('recipient').GetName] as Circle Leader.",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal": {
+  "en": "Approve Proposal",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal_act": {
+  "en": "Whip [SCOPE.sImperialCircle('target').GetName] to vote for the proposal.",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal_desc": {
+  "en": "As Circle Leader, lock every member of this circle (including ourselves) into voting for the proposal currently before the Imperial Diet. No payment is required, but the lock holds until the resolution closes.",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] whip [SCOPE.sImperialCircle('target').GetName] to vote for the imperial proposal.",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] whipped [SCOPE.sImperialCircle('target').GetName] to vote for the imperial proposal.",
+  "uk": ""
+ },
+ "approve_imperial_circle_proposal_members_tt": {
+  "en": "Every member of [SCOPE.sImperialCircle('target').GetName] has their [vote|e] in the active Imperial Diet proposal locked to the proposed policy.",
+  "uk": ""
+ },
+ "bribe_imperial_circle": {
+  "en": "Bribe Imperial Circle",
+  "uk": ""
+ },
+ "bribe_imperial_circle_act": {
+  "en": "Bribe [SCOPE.sCountry('target').GetName] to back our Diet proposal.",
+  "uk": ""
+ },
+ "bribe_imperial_circle_desc": {
+  "en": "Pay an Imperial Circle Leader and every member of their circle to vote for our proposal at the Imperial Diet. The Circle Leader receives the full base bribe, and every other member receives 25% of that amount. Every member's vote is locked behind the Emperor's pick until the resolution closes.",
+  "uk": ""
+ },
+ "bribe_imperial_circle_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] bribe [SCOPE.sCountry('target').GetName]'s circle to back the imperial proposal.",
+  "uk": ""
+ },
+ "bribe_imperial_circle_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] bribed [SCOPE.sCountry('target').GetName]'s circle to back the imperial proposal.",
+  "uk": ""
+ },
+ "bribe_imperial_circle_members_tt": {
+  "en": "Each other member of [SCOPE.sCountry('target').GetName]'s circle receives [SCOPE.GetValue('bribe_member_share')|0V]@gold! and has their [vote|e] in the active Imperial Diet proposal locked to the Emperor's pick.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war": {
+  "en": "Call Circle to War",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_act": {
+  "en": "Call [SCOPE.sCountry('recipient').GetName]'s circle to join the war.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_desc": {
+  "en": "Call upon a Circle Leader to bring their circle's military support to your current war.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] call [SCOPE.sCountry('recipient').GetName]'s circle to war.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] called [SCOPE.sCountry('recipient').GetName]'s circle to war.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_reject_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] refuses [SCOPE.sCountry('recipient').GetName]'s call to war.",
+  "uk": ""
+ },
+ "call_imperial_circle_to_war_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] refused [SCOPE.sCountry('recipient').GetName]'s call to war.",
+  "uk": ""
+ },
+ "called_imperial_circle_to_war": {
+  "en": "$call_imperial_circle_to_war$",
+  "uk": ""
+ },
+ "challenge_circle_leadership": {
+  "en": "Challenge Circle Leadership",
+  "uk": ""
+ },
+ "challenge_circle_leadership_act": {
+  "en": "Challenge the current Circle Leader's authority.",
+  "uk": ""
+ },
+ "challenge_circle_leadership_desc": {
+  "en": "Our current Circle leaders have proven themselves to be unworthy of the position and the responsibility. We have the opportunity to put their power into question and undermine their authority, which can lead to their hold weaken even more, or to open opposition directly.",
+  "uk": ""
+ },
+ "challenge_circle_leadership_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] challenge for Circle Leadership.",
+  "uk": ""
+ },
+ "challenge_circle_leadership_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] challenged for Circle Leadership.",
+  "uk": ""
+ },
+ "challenge_circle_leadership_tt": {
+  "en": "We win the challenge in any of the following cases:\\n  • Our circle's satisfaction is below 15 — open revolt\\n  • Our circle's satisfaction is below 30 and our prestige is at least as high as theirs\\n  • Our prestige exceeds theirs by 25 or more\\n\\nLosing or withdrawing costs prestige. A newly installed leader is immune to challenges for 2 years.",
+  "uk": ""
+ },
+ "circle_satisfaction": {
+  "en": "Circle Satisfaction",
+  "uk": ""
+ },
+ "demand_circle_loyalty": {
+  "en": "Demand Circle Loyalty",
+  "uk": ""
+ },
+ "demand_circle_loyalty_act": {
+  "en": "Assert your authority over your circle members.",
+  "uk": ""
+ },
+ "demand_circle_loyalty_desc": {
+  "en": "Assert our authority over our circle members. We gain prestige and diplomatic standing for 3 years, but members resent the imposition and the circle's satisfaction drops.",
+  "uk": ""
+ },
+ "demand_circle_loyalty_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] demand loyalty from their circle.",
+  "uk": ""
+ },
+ "demand_circle_loyalty_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] demanded loyalty from their circle.",
+  "uk": ""
+ },
+ "demand_circle_loyalty_tt": {
+  "en": "We gain [ShowModifier('imposed_circle_authority')] for 3 years. Each non-leader member of our [imperial_circle|e] gains [ShowModifier('pressured_circle_loyalty')] for 3 years and [ShowBiasValue('opinion_demanded_loyalty')|+=2] [opinion|e] of us. The Circle's satisfaction drops by 5.",
+  "uk": ""
+ },
+ "distribute_imperial_grant": {
+  "en": "Distribute Imperial Grant",
+  "uk": ""
+ },
+ "distribute_imperial_grant_act": {
+  "en": "Distribute gold to your circle members.",
+  "uk": ""
+ },
+ "distribute_imperial_grant_desc": {
+  "en": "Distribute gold from your treasury to your circle members, improving relations and circle satisfaction.",
+  "uk": ""
+ },
+ "distribute_imperial_grant_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] distribute an Imperial Grant to their circle.",
+  "uk": ""
+ },
+ "distribute_imperial_grant_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] distributed an Imperial Grant to their circle.",
+  "uk": ""
+ },
+ "distribute_imperial_grant_tt": {
+  "en": "We spend [SCOPE.GetValue('total_grant')|2V]@gold! (20% of our [economical_base|e]), distributed equally among non-leader members of our [imperial_circle|e]. Each recipient gains [ShowModifier('received_imperial_circle_grant')] for 2 years and [ShowBiasValue('opinion_received_imperial_grant')|+=2] [opinion|e] of us.",
+  "uk": ""
+ },
+ "hre_circle_levy_request": {
+  "en": "Request Circle Levies",
+  "uk": ""
+ },
+ "hre_circle_levy_request_desc": {
+  "en": "Request that the Imperial Circles raise levies for the Empire. Circle leaders are rewarded for their cooperation.",
+  "uk": ""
+ },
+ "hre_enforce_circle_landfriede": {
+  "en": "Enforce Circle Landfriede",
+  "uk": ""
+ },
+ "hre_enforce_circle_landfriede_desc": {
+  "en": "Empower Circle Leaders to enforce the Imperial peace within their territories.",
+  "uk": ""
+ },
+ "imperial_circles.1.a": {
+  "en": "For the glory of the Empire!",
+  "uk": ""
+ },
+ "imperial_circles.1.desc": {
+  "en": "The formation period has concluded. The Imperial Circles have been locked in place and their leaders will govern the Empire's affairs. A new chapter begins for the Holy Roman Empire.",
+  "uk": ""
+ },
+ "imperial_circles.1.title": {
+  "en": "The Imperial Circles Are Established",
+  "uk": ""
+ },
+ "imperial_circles.11.a": {
+  "en": "Distribute emergency funds to ease tensions.",
+  "uk": ""
+ },
+ "imperial_circles.11.b": {
+  "en": "Let them complain — we have larger concerns.",
+  "uk": ""
+ },
+ "imperial_circles.11.desc": {
+  "en": "Our circle members are growing restless. If we do not act soon, our authority as Circle Leader may be openly challenged.",
+  "uk": ""
+ },
+ "imperial_circles.11.title": {
+  "en": "Discontent in the Circle",
+  "uk": ""
+ },
+ "imperial_circles.12.a": {
+  "en": "We must act before it is too late.",
+  "uk": ""
+ },
+ "imperial_circles.12.desc": {
+  "en": "The frustration within the circle has reached a breaking point. Our members are openly questioning our leadership. An election may be imminent.",
+  "uk": ""
+ },
+ "imperial_circles.12.title": {
+  "en": "The Princes Demand Change",
+  "uk": ""
+ },
+ "imperial_circles.2.a": {
+  "en": "They are right, we should distribute it now.",
+  "uk": ""
+ },
+ "imperial_circles.2.b": {
+  "en": "They are mistaken, no such bribery existed.",
+  "uk": ""
+ },
+ "imperial_circles.2.c": {
+  "en": "Appeal to our friends in [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetNameWithNoTooltip].",
+  "uk": ""
+ },
+ "imperial_circles.2.desc": {
+  "en": "In the recent Imperial Diet, our Circle has supported the proposed reform of the Imperial Constitution. This support has come with the common understanding among members of our circle that we, as the leader of the Circle, would distribute funds between them. Justified or not, our failure to act upon these expectations has lead to several complaints about our abuse of power, withholding funds intended for the circles members. If we do not act upon these complaints, this could seriously harm our leadership in the future.",
+  "uk": ""
+ },
+ "imperial_circles.2.title": {
+  "en": "Missing Funds",
+  "uk": ""
+ },
+ "imperial_circles.20.a": {
+  "en": "The gold will not be refused.",
+  "uk": ""
+ },
+ "imperial_circles.20.desc": {
+  "en": "[SCOPE.sCountry('actor').GetName] has paid the leader of our Imperial Circle, [SCOPE.sCountry('target').GetName], to back the proposal currently before the Imperial Diet. We have received [SCOPE.GetValue('received_bribe')|0V]@gold! as our share, and our [vote|e] in the active resolution is now locked behind the Emperor's pick until it closes.",
+  "uk": ""
+ },
+ "imperial_circles.20.title": {
+  "en": "Our Vote Has Been Bought",
+  "uk": ""
+ },
+ "imperial_circles.50.a": {
+  "en": "Press the challenge.",
+  "uk": ""
+ },
+ "imperial_circles.50.b": {
+  "en": "Withdraw the challenge.",
+  "uk": ""
+ },
+ "imperial_circles.50.desc": {
+  "en": "We have come forward to challenge [recipient.GetName] for the leadership of our Imperial Circle.\\n\\nTheir weakness and negligence can no longer be tolerated, and there are many that would surely stand behind us in our complains. If we manage to present ourselves as a clear better and stronger leader, they will fold to our demands, but failing to do so will undoubtedly hurt how we are perceived not only by foreign countries but by our people too.",
+  "uk": ""
+ },
+ "imperial_circles.50.title": {
+  "en": "Challenge for Circle Leadership",
+  "uk": ""
+ },
+ "imperial_circles.51.a": {
+  "en": "This humiliation will not be forgotten.",
+  "uk": ""
+ },
+ "imperial_circles.51.desc": {
+  "en": "A rival has successfully challenged our leadership. We have been stripped of the Circle Leader title and must rebuild our standing within the circle.",
+  "uk": ""
+ },
+ "imperial_circles.51.title": {
+  "en": "Deposed as Circle Leader",
+  "uk": ""
+ },
+ "imperial_circles.52.a": {
+  "en": "Our authority is not so easily broken.",
+  "uk": ""
+ },
+ "imperial_circles.52.desc": {
+  "en": "A challenger tried to unseat us but their prestige proved insufficient. Our position as Circle Leader remains secure.",
+  "uk": ""
+ },
+ "imperial_circles.52.title": {
+  "en": "Circle Leadership Upheld",
+  "uk": ""
+ },
+ "imperial_circles.53.a": {
+  "en": "We will bide our time.",
+  "uk": ""
+ },
+ "imperial_circles.53.desc": {
+  "en": "Our challenge against [recipient.GetName] for leadership of our Imperial Circle has failed. Our prestige did not measure up against theirs, and our standing has suffered for the attempt. We must wait before pressing the matter again.",
+  "uk": ""
+ },
+ "imperial_circles.53.title": {
+  "en": "Challenge Defeated",
+  "uk": ""
+ },
+ "imperial_circles.70.a": {
+  "en": "We shall lead the circle with distinction.",
+  "uk": ""
+ },
+ "imperial_circles.70.desc": {
+  "en": "With the previous leader no longer among our ranks, the circle has looked to us to assume leadership. We are now the Circle Leader.",
+  "uk": ""
+ },
+ "imperial_circles.70.title": {
+  "en": "Elected as Circle Leader",
+  "uk": ""
+ },
+ "imperial_circles.71.a": {
+  "en": "We must appoint someone ourselves.",
+  "uk": ""
+ },
+ "imperial_circles.71.desc": {
+  "en": "One of the Imperial Circles has been left without a qualified candidate to assume leadership. The Emperor's authority is undermined when circles go ungoverned.",
+  "uk": ""
+ },
+ "imperial_circles.71.title": {
+  "en": "The Circle Lacks a Leader",
+  "uk": ""
+ },
+ "imperial_circles.80.a": {
+  "en": "The Empire must come first.",
+  "uk": ""
+ },
+ "imperial_circles.80.desc": {
+  "en": "We now wear the Imperial Crown. As Emperor, we cannot simultaneously hold the role of Circle Leader — the two offices demand undivided loyalty. We relinquish our circle leadership so another may step forward.",
+  "uk": ""
+ },
+ "imperial_circles.80.title": {
+  "en": "The Imperial Crown Changes Everything",
+  "uk": ""
+ },
+ "join_an_imperial_circle": {
+  "en": "Join Imperial Circle",
+  "uk": ""
+ },
+ "join_an_imperial_circle_act": {
+  "en": "Join [SCOPE.sImperialCircle('target').GetName].",
+  "uk": ""
+ },
+ "join_an_imperial_circle_desc": {
+  "en": "Join an Imperial Circle during the formation period.",
+  "uk": ""
+ },
+ "join_an_imperial_circle_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] join [SCOPE.sImperialCircle('target').GetName].",
+  "uk": ""
+ },
+ "join_an_imperial_circle_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] joined [SCOPE.sImperialCircle('target').GetName].",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal": {
+  "en": "Oppose Proposal",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal_act": {
+  "en": "Whip [SCOPE.sImperialCircle('target').GetName] to vote against the proposal.",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal_desc": {
+  "en": "As Circle Leader, lock every member of this circle (including ourselves) into voting against the proposal currently before the Imperial Diet. Votes are locked to the current policy if one is on file, otherwise the circle abstains.",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] whip [SCOPE.sImperialCircle('target').GetName] to vote against the imperial proposal.",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] whipped [SCOPE.sImperialCircle('target').GetName] to vote against the imperial proposal.",
+  "uk": ""
+ },
+ "oppose_imperial_circle_proposal_members_tt": {
+  "en": "Every member of [SCOPE.sImperialCircle('target').GetName] has their [vote|e] in the active Imperial Diet proposal locked to the current policy, or to abstention if no current policy is on file.",
+  "uk": ""
+ },
+ "petition_imperial_diet": {
+  "en": "Petition the Imperial Diet",
+  "uk": ""
+ },
+ "petition_imperial_diet_act": {
+  "en": "Petition the Imperial Diet.",
+  "uk": ""
+ },
+ "petition_imperial_diet_desc": {
+  "en": "As a Circle Leader, petition the Imperial Diet to address a grievance or request.",
+  "uk": ""
+ },
+ "petition_imperial_diet_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] petition the Imperial Diet.",
+  "uk": ""
+ },
+ "petition_imperial_diet_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] petitioned the Imperial Diet.",
+  "uk": ""
+ },
+ "petition_imperial_diet_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] reject [SCOPE.sCountry('actor').GetName]'s petition to the Imperial Diet.",
+  "uk": ""
+ },
+ "petition_imperial_diet_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] rejected [SCOPE.sCountry('actor').GetName]'s petition to the Imperial Diet.",
+  "uk": ""
+ },
+ "petition_imperial_diet_tt": {
+  "en": "We will request a vote on a policy in the [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": ""
+ },
+ "reduction_of_circle_titles": {
+  "en": "Reduction of Circle Titles",
+  "uk": ""
+ },
+ "reduction_of_circle_titles_act": {
+  "en": "Perform a Reduction of Circle Titles",
+  "uk": ""
+ },
+ "reduction_of_circle_titles_desc": {
+  "en": "Our circle has grown inefficient and entangled in titles and administrative positions which are able to block each other. Performing a reduction of the titles would not only ensure the efficiency of our circle, but also solidify our position as leader. Such centralization of titles would not be well received by our circle members, and would lower their satisfaction.",
+  "uk": ""
+ },
+ "reduction_of_circle_titles_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] perform a reduction of circle titles",
+  "uk": ""
+ },
+ "reduction_of_circle_titles_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] performed a reduction of circle titles",
+  "uk": ""
+ },
+ "reduction_of_circle_titles_tt": {
+  "en": "We will gain [ShowModifier('reduction_of_circle_titles')], while every circle member will gain [ShowBiasValue('opinion_reduction_of_circle_titles')|+=2] [opinion|e] of us. The Circle Satisfaction will be reduced by 5.",
+  "uk": ""
+ },
+ "reform_coinage_in_circle": {
+  "en": "Reform Circle Coinage",
+  "uk": ""
+ },
+ "reform_coinage_in_circle_act": {
+  "en": "Reform the Coinage within our Circle.",
+  "uk": ""
+ },
+ "reform_coinage_in_circle_desc": {
+  "en": "The Empire has placed authority over the regional coinage into our hands. Implementing a reform of our coin and its usage would help the economic flow of every member in our circle, while also increasing our own standing within the Circle. Unfortunately this would come at the cost of our own mints capabilities.",
+  "uk": ""
+ },
+ "reform_coinage_in_circle_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] reform the coinage of their Circle.",
+  "uk": ""
+ },
+ "reform_coinage_in_circle_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] reformed the coinage of their Circle.",
+  "uk": ""
+ },
+ "reform_coinage_in_circle_tt": {
+  "en": "We will gain [ShowModifier('reformed_circle_coinage_leader')], while every member of our circle will gain [ShowModifier('reformed_circle_coinage_member')] for 5 years. Every circle member will gain [ShowBiasValue('opinion_reformed_circle_coinage')|+=2] [opinion|e] of us, and we will increase the Circle Satisfaction by 5.",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion": {
+  "en": "Request Military Infrastructure Expansion",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_act": {
+  "en": "$request_circle_infrastructure_expansion_desc$",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_desc": {
+  "en": "Request a grant from the Circle Captain to use our existing reserves as additional workforce in the expansion of our infrastructure.",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] request expansion of their military infrastructure.",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] requested expansion of their military infrastructure.",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] reject expansion of the military infrastructure of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] rejected expansion of the military infrastructure of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "request_circle_infrastructure_expansion_timeout_tt": {
+  "en": "No country has used the  $request_circle_infrastructure_expansion$ [diplomatic_action|e] in the last 2 years",
+  "uk": ""
+ },
+ "request_circle_privilege": {
+  "en": "Request Circle Privilege",
+  "uk": ""
+ },
+ "request_circle_privilege_act": {
+  "en": "Request a special privilege from the Emperor.",
+  "uk": ""
+ },
+ "request_circle_privilege_desc": {
+  "en": "Request a special privilege from the Emperor for your circle.",
+  "uk": ""
+ },
+ "request_circle_privilege_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] request a Circle Privilege from the Emperor.",
+  "uk": ""
+ },
+ "request_circle_privilege_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] requested a Circle Privilege from the Emperor.",
+  "uk": ""
+ },
+ "request_circle_privilege_members_tt": {
+  "en": "Each member of our [imperial_circle|e] gains [ShowModifier('granted_circle_privilege')] for 5 years.",
+  "uk": ""
+ },
+ "request_circle_privilege_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] deny [SCOPE.sCountry('actor').GetName]'s request for a Circle Privilege.",
+  "uk": ""
+ },
+ "request_circle_privilege_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] denied [SCOPE.sCountry('actor').GetName]'s request for a Circle Privilege.",
+  "uk": ""
+ },
+ "request_new_circle_titles": {
+  "en": "Elevate Country in Circle",
+  "uk": ""
+ },
+ "request_new_circle_titles_act": {
+  "en": "$request_new_circle_titles_desc$",
+  "uk": ""
+ },
+ "request_new_circle_titles_desc": {
+  "en": "Demand the elevation of our country within our Imperial Circle.",
+  "uk": ""
+ },
+ "request_new_circle_titles_effect_text": {
+  "en": "[SCOPE.sCountry('actor').GetName] demand the elevation of their country.",
+  "uk": ""
+ },
+ "request_new_circle_titles_effect_text_past": {
+  "en": "[SCOPE.sCountry('actor').GetName] demanded the elevation of their country.",
+  "uk": ""
+ },
+ "request_new_circle_titles_reject_effect_text": {
+  "en": "[SCOPE.sCountry('recipient').GetName] reject the elevation of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "request_new_circle_titles_reject_effect_text_past": {
+  "en": "[SCOPE.sCountry('recipient').GetName] rejected the elevation of [SCOPE.sCountry('actor').GetName].",
+  "uk": ""
+ },
+ "request_new_circle_titles_timeout_tt": {
+  "en": "No country has used the  $request_new_circle_titles$ [diplomatic_action|e] in the last 2 years",
+  "uk": ""
+ }
+}

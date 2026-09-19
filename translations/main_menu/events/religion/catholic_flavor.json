@@ -1,0 +1,406 @@
+{
+ "catholic_flavor.1.a": {
+  "en": "Send him to [pope_capital_scope.GetNameWithNoTooltip].",
+  "uk": "На цю молоду людину чекає місто [pope_capital_scope.GetNameWithNoTooltip]."
+ },
+ "catholic_flavor.1.b": {
+  "en": "He will make a fine bishop.",
+  "uk": "З нього вийде чудовий єпископ."
+ },
+ "catholic_flavor.1.desc": {
+  "en": "A devout young preacher by the name of [target_character.GetName] has spoken out recently about how great our adherence to the teachings of the Holy Father in [pope_capital_scope.GetName] is. This can only be good for our future.",
+  "uk": "Побожний молодий проповідник на ім'я [target_character.GetName] нещодавно відзначив, як вірно ми дотримуємося вчень Його Святості у місті [pope_capital_scope.GetName]. На таких вірних послідовників чекає світле майбутнє."
+ },
+ "catholic_flavor.1.title": {
+  "en": "Influential Preacher",
+  "uk": "Впливовий проповідник"
+ },
+ "catholic_flavor.10.a": {
+  "en": "Our honor is our word.",
+  "uk": "Наше слово свято."
+ },
+ "catholic_flavor.10.b": {
+  "en": "We are not bound by promises to these heretics.",
+  "uk": "Ми не зобов'язані тримати слово перед єретиком."
+ },
+ "catholic_flavor.10.desc": {
+  "en": "A group of the so-called reforming monks has recently appeared at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] under our most solemn promise of safe passage so that they might argue the justness of their cause. Like [jan_hus_scope.GetName] before them, their heresy is manifest, but our word has been given.",
+  "uk": "Нещодавно до нашого двору під обіцянку безпечного проїзду завітала група так званих ченців-реформаторів для диспуту про справедливість своєї справи. Як і [jan_hus_scope.GetName] до них, ці люди несуть цілковиту єресь, але ми все ж дали їм слово…"
+ },
+ "catholic_flavor.10.title": {
+  "en": "A Promise of Safe Passage?",
+  "uk": "Обіцянка безпечного проїзду?"
+ },
+ "catholic_flavor.100.a": {
+  "en": "No, this is a tradition that we should end.",
+  "uk": "Від цієї традиції вже давно пора відмовитися."
+ },
+ "catholic_flavor.100.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s nephew will make a fine Cardinal.",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Її', 'Його')] племінник чудово впорається з роллю кардинала."
+ },
+ "catholic_flavor.100.desc": {
+  "en": "There is a long [ROOT.GetCountry.GetAdjective] tradition of appointing relatives of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to the College of Cardinals. While some call this nepotism, Cardinal-Nephews have an established place within the Curia.",
+  "uk": "За давньою #L [ROOT.GetCountry.GetAdjective|l]ою#! традицією [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] висуває на службу в колегії кардиналів своїх родичів. Хоча дехто зневажливо називає це кумівством, кардинали-племінники все ж виконують у курії вельми важливі завдання."
+ },
+ "catholic_flavor.100.desc.a": {
+  "en": "$catholic_flavor.100.desc$ Now that it is time to appoint a new cardinal in [cardinal_nephew_country.GetName], [ROOT.GetCountry.GetGovernment.GetRuler.GetName] must decide whether a relative would be suitable to take up residence in [cardinal_nephew_province.GetName].",
+  "uk": "$catholic_flavor.100.desc$ Сьогодні настав час призначити нового кардинала #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#!, і [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'повинна', 'повинен')] вирішити, чи підійде [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його' )] родич для служби в провінції [cardinal_nephew_province.GetName]."
+ },
+ "catholic_flavor.100.desc.b": {
+  "en": "$catholic_flavor.100.desc$ Now that it is time to appoint a new cardinal in [cardinal_nephew_country.GetName], [ROOT.GetCountry.GetGovernment.GetRuler.GetName] must decide whether a relative would be suitable for the tasks at hand.",
+  "uk": "$catholic_flavor.100.desc$ Сьогодні настав час призначити нового кардинала #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#!, і [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'повинна', 'повинен' )] вирішити, чи впорається [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його' )] родич із майбутніми завданнями."
+ },
+ "catholic_flavor.100.title": {
+  "en": "Cardinal-Nephew",
+  "uk": "Кардинал-племінник"
+ },
+ "catholic_flavor.1000.a": {
+  "en": "Grant them the request.",
+  "uk": "Виконаємо їхнє прохання."
+ },
+ "catholic_flavor.1000.b": {
+  "en": "We must reject them.",
+  "uk": "Ми змушені їм відмовити."
+ },
+ "catholic_flavor.1000.desc": {
+  "en": "We have been asked by [SCOPE.sCountry('actor').GetName] to grant them a new [ShowBuildingTypeName('seat_of_cardinal')]. The cardinal would take residence in [target_location.GetName], should we accept.",
+  "uk": "Влада #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#! попросила нас надати їм нову #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!. Якщо ми погодимося, кардинал засідатиме в [target_location.Custom('LR_PREP')|l] [target_location.GetName]."
+ },
+ "catholic_flavor.1000.title": {
+  "en": "A [ShowBuildingTypeNameWithNoTooltip('seat_of_cardinal')] for [SCOPE.sCountry('actor').GetNameWithNoTooltip]",
+  "uk": "Кафедра кардинала для [SCOPE.sCountry('actor').Custom('CL_GEN')]"
+ },
+ "catholic_flavor.1001.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "catholic_flavor.1001.desc": {
+  "en": "The [GetInternationalOrganization('catholic_church').GetLeaderTitle] has graciously granted our request to receive a new cardinal in [target_location.GetName]. The construction of adequate accommodations for such a position has already begun.",
+  "uk": "[GetInternationalOrganization('catholic_church').GetLeaderTitle|U] милостиво відповідає нам згодою, а отже, в [target_location.Custom('LR_PREP')|l] [target_location.GetName] з'явиться новий кардинал. Ми вже приступили до спорудження житла, гідного людини такого високого становища."
+ },
+ "catholic_flavor.1002.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_disappointing')]",
+  "uk": ""
+ },
+ "catholic_flavor.1002.desc": {
+  "en": "The [GetInternationalOrganization('catholic_church').GetLeaderTitle] has unfortunately rejected our request to grant us a [ShowBuildingTypeName('seat_of_cardinal')]. There is nothing we can do but to hope that they will be more agreeable in the future.",
+  "uk": "На жаль, [GetInternationalOrganization('catholic_church').GetLeaderTitle|l] відповідає нам відмовою, а отже, нам більше не варто розраховувати на нову #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!. Все, що залишається, — це сподіватися, що в майбутньому нам все ж підуть назустріч."
+ },
+ "catholic_flavor.101.a": {
+  "en": "Accept the [GetCountry('PAP').GetGovernment.GetRulerTitle]'s Cardinal-Nephew.",
+  "uk": "Ми виконаємо [Select_CString(target_character.IsFemale,'її','його')] прохання."
+ },
+ "catholic_flavor.101.a.tt": {
+  "en": "Every country with a [cardinal|e] gains [ShowBiasValue('opinion_popes_pet')|+=0] [opinion|e] of [cardinal_nephew_country.GetName]",
+  "uk": "Кожна держава з [Concept('cardinal', 'кардиналом')|e] змінює своє [Concept('opinion', 'ставлення')|e] щодо #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#! на [ShowBiasValue('opinion_popes_pet')|+=0]"
+ },
+ "catholic_flavor.101.b": {
+  "en": "We will not facilitate nepotism in the Church.",
+  "uk": "Ми не станемо заохочувати кумівство в церкві."
+ },
+ "catholic_flavor.101.desc": {
+  "en": "[target_character.GetName] is asking us to appoint [target_character.GetHerHis] relative to [cardinal_nephew_province.GetName] as Cardinal. Though doing such is a common practice, many see it as blatant nepotism.",
+  "uk": "[target_character.GetName] просить нас призначити [Select_CString(target_character.IsFemale,'її', 'його')] родича кардиналом у провінції [cardinal_nephew_province.GetName]. Хоч це й усталена практика, багато хто вважає її волаючим проявом кумівства."
+ },
+ "catholic_flavor.101.title": {
+  "en": "A Cardinal-Nephew from the [GetCountry('PAP').GetGovernment.GetRulerTitle]",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] і [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'її', 'його')] племінник"
+ },
+ "catholic_flavor.102.a": {
+  "en": "Perfect!",
+  "uk": "Чудова новина!"
+ },
+ "catholic_flavor.102.desc": {
+  "en": "[cardinal_nephew_country.GetName] has accepted the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s nephew as the new cardinal in [cardinal_nephew_province.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'висунула', 'висунув')] свого племінника на посаду кардинала в провінції [cardinal_nephew_province.GetName], і уряд #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#! задовольнив [Select_CString((ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] прохання."
+ },
+ "catholic_flavor.102.title": {
+  "en": "Accepted Cardinal-Nephew",
+  "uk": "Призначення кардинала-племінника"
+ },
+ "catholic_flavor.103.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_disappointing')]",
+  "uk": ""
+ },
+ "catholic_flavor.103.desc": {
+  "en": "[cardinal_nephew_country.GetName] has refused to appoint the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s nephew to Cardinal in [cardinal_nephew_province.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'висунула','висунув')] свого племінника на посаду кардинала в провінції [cardinal_nephew_province.GetName], однак уряд держави [cardinal_nephew_country.GetName] відхилив [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її','його')] прохання."
+ },
+ "catholic_flavor.103.title": {
+  "en": "Refused Cardinal-Nephew",
+  "uk": "Відмова призначати кардинала-племінника"
+ },
+ "catholic_flavor.11.a": {
+  "en": "Te Deum!",
+  "uk": ""
+ },
+ "catholic_flavor.11.desc": {
+  "en": "[pope_scope.GetName] has just announced that one of our ruler's most esteemed and revered ancestors, [ancestor_saint.GetName], was a holy saint of our esteemed Church, and that the time has finally arrived to revere them appropriately. This is a cause for great celebration!",
+  "uk": "[pope_scope.GetName] щойно [Select_CString(pope_scope.IsFemale, 'оголосила', 'оголосив')], що [Select_CString(ancestor_saint.IsFemale, 'одна', 'один')] з шанованих предків нашого правителя, [ancestor_saint.GetName], [Select_CString(ancestor_saint.IsFemale, 'була святою', 'був святим')] нашої благословенної церкви і що тепер настав час віддати [Select_CString(ancestor_saint.IsFemale, 'їй', 'йому') належну шану. Це привід для святкування!"
+ },
+ "catholic_flavor.11.title": {
+  "en": "Saint Proclaimed",
+  "uk": "Канонізація святого"
+ },
+ "catholic_flavor.12.a": {
+  "en": "Enforce the [GetCountry('PAP').GetGovernment.GetRulerTitle]'s will.",
+  "uk": "Зробимо так, як велить [GetCountry('PAP').GetGovernment.GetRulerTitle|l]."
+ },
+ "catholic_flavor.12.b": {
+  "en": "What the [GetCountry('PAP').GetGovernment.GetRulerTitle] does not know cannot hurt him.",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle|U] нічого не дізнається…"
+ },
+ "catholic_flavor.12.desc": {
+  "en": "[pope_scope.GetName] decrees that the native peoples of the Colonies shall not be made into slaves. The belief that they are lesser brutes incapable of receiving [ROOT.GetCountry.GetReligion.GetGodName]'s grace, [pope_scope.GetSheHe] writes, is a vile lie spread by the enemy of the human race himself. Instead, His Holiness insists that, like all ensouled human beings, these people yearn for [ROOT.GetCountry.GetReligion.GetGodName]'s light, and that therefore all pious princes should make haste to spread the [ShowReligionAdjective('catholic')] faith among them.",
+  "uk": "[pope_scope.GetName] видав указ, що забороняє обертати на рабів тубільних жителів колоній. На його думку, ідея про те, що вони лише дикуни, нездатні приймати Божу милість, — це огидна брехня, поширювана самим ворогом роду людського. Його Святість наполягає на тому, що, як і всі інші одушевлені істоти, ці люди прагнуть Божого світла, і тому всі побожні государі повинні всіма силами навертати їх до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!."
+ },
+ "catholic_flavor.12.title": {
+  "en": "Sublimis Deus",
+  "uk": ""
+ },
+ "catholic_flavor.13.a": {
+  "en": "Stop the spread at any cost.",
+  "uk": "Зупинимо їх поширення за будь-яку ціну."
+ },
+ "catholic_flavor.13.b": {
+  "en": "It will sort itself out in time.",
+  "uk": "Все вирішиться само собою."
+ },
+ "catholic_flavor.13.desc": {
+  "en": "The [ShowBuildingTypeNameWithNoTooltip('scriptorium')] in [target_location.GetName] has made a crucial mistake in the copying of some religious texts, implying an interpretation most heretical. If we do not act quickly, these texts could destabilize the trust of our people in the true faith.",
+  "uk": "Працівники скрипторію в [target_location.Custom('LR_PREP')|l] [target_location.GetName] допустили при копіюванні релігійних текстів серйозну помилку, яку не можна трактувати інакше, як єресь. Ми повинні негайно вжити необхідних заходів, інакше ці тексти підірвуть віру нашого народу."
+ },
+ "catholic_flavor.13.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('scriptorium')] Spreads Heresy",
+  "uk": "Скрипторій поширює єресь"
+ },
+ "catholic_flavor.14.a": {
+  "en": "We shall embrace [ShowReligionNameWithNoTooltip('catholic')].",
+  "uk": "Ми перейдемо до католицтва."
+ },
+ "catholic_flavor.14.a.tt": {
+  "en": "A large part of our population will convert to [ShowReligionName('catholic')].",
+  "uk": "Більша частина наших підданих навернеться до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!."
+ },
+ "catholic_flavor.14.b": {
+  "en": "For as long as they say 'Filioque', we shall follow [ShowReligionNameWithNoTooltip('orthodox')]!",
+  "uk": "Нехай співають своє «філіокве», ми — православні!"
+ },
+ "catholic_flavor.14.b.tt": {
+  "en": "A small part of our population will convert to [ShowReligionName('catholic')].",
+  "uk": "Невелика частина наших підданих навернеться до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!."
+ },
+ "catholic_flavor.14.desc": {
+  "en": "The Bishop of [ShowLocationName('rome')], [target_character.GetName], has declared the Great Schism over, a declaration backed by [target_character.GetHerHis] pliant new ecclesiastic puppets in [ShowLocationName('constantinople')] and [ShowLocationName('moscow')]. While we could continue in our old ways, the victories of [target_country.GetName] suggest that [ROOT.GetCountry.GetReligion.GetGodName] may truly be on the [ShowReligionAdjective('catholic')] side.",
+  "uk": "Єпископ #TOOLTIP:LOCATION,rome_tt,X #L Римський#!#! [target_character.GetName] оголосив про подолання Великої Схизми — водночас ці слова підтвердили [Select_CString(target_character.IsFemale,'її', 'його')] нові ставленики в #TOOLTIP:LOCATION,constantinople_tt,X #L Константинополі#!#! та #TOOLTIP:LOCATION,moscow_tt,X #L Москві#!#!. Звісно, ми могли б і далі дотримуватися старої віри, але останні перемоги #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! змушують повірити, що [ROOT.GetCountry.GetReligion.GetGodName] і справді на боці #TOOLTIP:RELIGION,catholic_tt,X #L католиків#!#!."
+ },
+ "catholic_flavor.14.title": {
+  "en": "The [target_country.GetLongNameWithNoTooltip] Heals The Schism",
+  "uk": "[target_country.GetLongNameWithNoTooltip] долає Схизму"
+ },
+ "catholic_flavor.15.a": {
+  "en": "Allow the festivities to continue.",
+  "uk": "Нехай люди веселяться."
+ },
+ "catholic_flavor.15.b": {
+  "en": "Mockery of our holy institutions must not be tolerated!",
+  "uk": "Ми не станемо терпіти знущань над нашими священними інституціями!"
+ },
+ "catholic_flavor.15.c": {
+  "en": "Appoint a horse to the papacy in jest.",
+  "uk": "Жартома оголошую коня папою."
+ },
+ "catholic_flavor.15.d": {
+  "en": "Appoint the bell-ringer of [ShowLocationNameWithNoTooltip('paris')].",
+  "uk": "Призначимо паризького дзвонаря."
+ },
+ "catholic_flavor.15.desc": {
+  "en": "The Feast of Fools is upon us!\\n\\nDressed in devilish clothes, a new 'bishop' has been elected. People drink, laugh, and dance as the false bishop makes a mockery of ecclesiastical rituals, a burlesque of [ShowReligionGroupName('christian')] worship that is fondly enjoyed by all except the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], who are rather insistent that the festivities ought to be suspended at once for the sake of [ROOT.GetCountry.GetGovernment.GetRulerTitle] and country.",
+  "uk": "Настало Свято дурнів!\\n\\nЛюди п'ють, реготять і танцюють, а новообраний фальшивий єпископ у диявольському вбранні глузує з наших церковних ритуалів. Від такої карикатури на #TOOLTIP:RELIGIONGROUP,christian,X #L християнське#!#! богослужіння в захваті майже всі, однак [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вимагають, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] негайно [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'заборонила', 'заборонив')] це богохульне неподобство."
+ },
+ "catholic_flavor.15.title": {
+  "en": "The Feast of Fools",
+  "uk": "Свято дурнів"
+ },
+ "catholic_flavor.16.a": {
+  "en": "This is an excellent example of our devotion.",
+  "uk": "Чудовий приклад нашої відданості."
+ },
+ "catholic_flavor.16.b": {
+  "en": "The scribes have done well to deserve such praise.",
+  "uk": "Наші писарі заслужили цю похвалу."
+ },
+ "catholic_flavor.16.desc": {
+  "en": "The craft of transcribing texts is a difficult and usually thankless task. However, the [ShowBuildingTypeNameWithNoTooltip('scriptorium')] in [target_location.GetName] has received praise from an abbot, who lauds the scribes with the following praise: #italic The dedicated scribe, the object of our treatise, will never fail to praise God, give pleasure to angels, strengthen the just, convert sinners, commend the humble, confirm the good, confound the proud, and rebuke the stubborn.#!",
+  "uk": "Переписування текстів — важка і часто невдячна робота. Однак нещодавно скрипторій [target_location.Custom('LR_GEN')|l] [target_location.GetName] все ж отримав похвалу від абата, який звернувся до писарів із такими словами: #italic «Відданий писар, якому присвячена ця праця, ніколи не перестане прославляти Бога, радувати ангелів, зміцнювати праведних, навертати грішників, хвалити смиренних, утверджувати добрих, соромити гордих і приборкувати впертих».#!"
+ },
+ "catholic_flavor.16.title": {
+  "en": "In Praise of Scribes",
+  "uk": "На славу переписувачів"
+ },
+ "catholic_flavor.2.a": {
+  "en": "[target_ruler.GetNameWithNoTooltip] should visit [target_location.GetNameWithNoTooltip] [target_ruler.GetHerselfHimself].",
+  "uk": "Ця поїздка піде [Select_CString(target_ruler.IsFemale,'їй', 'йому')] на користь."
+ },
+ "catholic_flavor.2.b": {
+  "en": "We will leave them to their own business.",
+  "uk": "Залишимо їх у спокої. Нехай займаються своїми справами."
+ },
+ "catholic_flavor.2.desc": {
+  "en": "The [ShowBuildingTypeName('monastery')] in [target_location.GetName] has enjoyed an era of prosperity, during which they have also attracted recognized [ShowReligionAdjective('catholic')] scholars. This success affects the rest of [target_location.GetNameWithNoTooltip] and is helping to bring new wealth to the area. A visit from [target_ruler.GetName] could be advisable and would be a great honor for the [ShowBuildingTypeNameWithNoTooltip('monastery')].",
+  "uk": "#TOOLTIP:BUILDING_TYPE,monastery,X #L Монастир#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName] розвивається і приваблює безліч відомих #TOOLTIP:RELIGION,catholic,X #L католицьких#!#! богословів, що позитивно позначається на місцевій економіці. [target_ruler.GetName] також може вшанувати монастир візитом і тим самим зміцнити свою репутацію."
+ },
+ "catholic_flavor.2.title": {
+  "en": "A Prospering [ShowBuildingTypeNameWithNoTooltip('monastery')]",
+  "uk": "Процвітаючий монастир"
+ },
+ "catholic_flavor.3.a": {
+  "en": "We will donate some money.",
+  "uk": "Ми виділимо для них деякі кошти."
+ },
+ "catholic_flavor.3.b": {
+  "en": "This is not our problem.",
+  "uk": "Це не наша проблема."
+ },
+ "catholic_flavor.3.desc": {
+  "en": "A [ShowBuildingTypeName('monastery')] inhabited by our monks has fallen on hard times. Due to a lack of both funding and new followers, the monastery has declined into a sad state of its former self. The monks are now begging us for help in the form of a generous donation, without which they will be unable to support the local population as they have in the past.",
+  "uk": "Наші ченці в одному з #TOOLTIP:BUILDING_TYPE,monastery,X #L монастирів#!#! переживають важкі часи. Через нестачу коштів і нових послідовників цей колись процвітаючий монастир занепав. У зв'язку з цим ченці благають нас про допомогу: їм потрібна велика пожертва, інакше вони просто не зможуть допомагати місцевим жителям, як раніше."
+ },
+ "catholic_flavor.3.title": {
+  "en": "A [ShowBuildingTypeNameWithNoTooltip('monastery')] in Trouble",
+  "uk": "[ShowBuildingTypeNameWithNoTooltip('monastery')] у біді"
+ },
+ "catholic_flavor.4.a": {
+  "en": "We need the money!",
+  "uk": "Нам потрібні гроші!"
+ },
+ "catholic_flavor.4.b": {
+  "en": "Simony is a sin!",
+  "uk": "Святокупство — гріх!"
+ },
+ "catholic_flavor.4.desc": {
+  "en": "We have a vacancy in a high position in the Church administration of [ROOT.GetCountry.GetName]. There is a churchman from a rich family by the name of [target_character.GetName] who has made an enticing offer: If we approve and back [target_character.GetHerHis] election to the position, we will gain a large contribution to our coffers. Some more devout people claim that this practice is a sin called Simony, but what do they know?",
+  "uk": "У #L [ROOT.GetCountry.GetAdjective|l]ій#! єпархії звільнилася висока посада. Один священник із багатої родини на ім'я [target_character.GetName] зробив нам цікаву пропозицію: якщо ми підтримаємо [Select_CString(target_character.IsFemale,'її', 'його')] кандидатуру і допоможемо зайняти це місце, [Select_CString(target_character.IsFemale,'вона', 'він')] зробить щедру пожертву до нашої скарбниці. Інші побожні люди бачать у такій угоді гріх святокупства, але що вони в цьому розуміють?"
+ },
+ "catholic_flavor.4.title": {
+  "en": "Simony?",
+  "uk": "Симонія?"
+ },
+ "catholic_flavor.5.a": {
+  "en": "A donation to the [GetCountry('PAP').GetGovernment.GetRulerTitle] shall be arranged.",
+  "uk": "Нехай [GetCountry('PAP').GetGovernment.GetRulerTitle|l] отримає невелику пожертву."
+ },
+ "catholic_flavor.5.b": {
+  "en": "Indulgences are the easy option; repentance is better.",
+  "uk": "Індульгенції — це занадто просто, покаяння краще."
+ },
+ "catholic_flavor.5.desc": {
+  "en": "$flavor_pap.1701.a$\\n\\nThe practice of promising absolution from earthly sins in return for money has been highly favored among [ShowReligionAdjective('catholic')] followers, or at least among those with money to spare. They are forgiven for all of their sins and are not even required to give up their vices! However, this practice has raised eyebrows among the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], who are uncomfortable with the idea of the [GetCountry('PAP').GetGovernment.GetRulerTitle] enriching the [GetInternationalOrganization('catholic_church').GetName] in such a manner. Instead, they claim that [ShowReligionGroupAdjective('christian')] must show true repentance if their sins are to be forgiven.\\n\\nAs [target_ruler.GetName] grows older, the disputes on the matter grow more personal. [target_ruler.GetSheHe|U] has sinned, just as every [ROOT.GetCountry.GetGovernment.GetRulerTitle] must to keep their rule secure. How best, then, should [target_ruler.GetSheHe] acquire forgiveness?",
+  "uk": "$flavor_pap.1701.a$\\n\\nВідпущення гріхів за гроші, також відоме як індульгенція, широко поширене серед заможних #TOOLTIP:RELIGION,catholic,X #L католиків#!#!. При цьому таке прощення навіть не вимагає їхньої відмови від порочного способу життя! Це викликає обурення серед #L [ROOT.GetCountry.GetAdjective|l]их!# священників, яким огидна думка про те, що [GetCountry('PAP').GetGovernment.GetRulerTitle|l] дозволяє #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church,X #L католицькій церкві#!#! збагачуватися таким блюзнірським чином. Вони закликають усіх #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#! уникати купівлі індульгенцій, а натомість щиро каятися у своїх гріхах у надії на прощення.\\n\\nОднак у міру того як [target_ruler.GetName] стає старшим, суперечки на цю тему стають для [Select_CString(target_ruler.IsFemale,'неї', 'нього')] дедалі актуальнішими: у [Select_CString(target_ruler.IsFemale,'неї', 'нього')] на душі теж чимало гріхів, як і в кожного правителя, який намагається зберегти владу. Як [Select_CString(target_ruler.IsFemale,'їй', 'йому')] найкраще здобути прощення?"
+ },
+ "catholic_flavor.5.title": {
+  "en": "Selling of Indulgences",
+  "uk": "Продаж індульгенцій"
+ },
+ "catholic_flavor.6.a": {
+  "en": "But we just bought a vial of the milk of the Virgin Mary!",
+  "uk": "Але ж ми якраз купили флакон із молоком Діви Марії…"
+ },
+ "catholic_flavor.6.b": {
+  "en": "Forgiveness can only come from [ROOT.GetCountry.GetReligion.GetGodName].",
+  "uk": "Лише [ROOT.GetCountry.GetReligion.GetGodName] може дарувати прощення."
+ },
+ "catholic_flavor.6.b.tt": {
+  "en": "This will make our population in [unrest_province.GetName] following [ShowReligionName('catholic')] unhappy.",
+  "uk": "Ця дія засмутить наше #L [ShowReligionAdjective('catholic')|l]е#! населення в провінції [unrest_province.GetName]"
+ },
+ "catholic_flavor.6.desc": {
+  "en": "From the highest noble to the lowest peasant, people believe that the veneration of relics allows the supplicant to reduce their time in purgatory. However, a treatise opposing this practice has been found in [unrest_province.GetName] nailed to the door of one of our churches, which has a very substantial relic collection. Is there any truth to this treatise's complaints, or are they merely the words of naysayers and heretics seeking to harm the unity of the [GetInternationalOrganization('catholic_church').GetName], our one true path to salvation?",
+  "uk": "Від найвпливовіших аристократів до найпростіших селян, люди вірять, що поклоніння мощам святих дозволить їм скоротити час перебування в чистилищі. У провінції [unrest_province.GetName] на ворота церкви, де зберігається багата колекція таких мощей, хтось прибив трактат, що засуджує подібну практику. Чи є в ньому хоч крапля правди, чи це написали підлі бунтівники та єретики, які бажають порушити єдність #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!, що є нашим єдиним шляхом до спасіння?"
+ },
+ "catholic_flavor.6.title": {
+  "en": "Veneration of Relics",
+  "uk": "Поклоніння мощам"
+ },
+ "catholic_flavor.7.a": {
+  "en": "May the Madonna forgive them.",
+  "uk": "Нехай Мадонна їх простить."
+ },
+ "catholic_flavor.7.b": {
+  "en": "She is a special woman, but still just a woman.",
+  "uk": "Вона — особлива жінка, але все ж просто жінка."
+ },
+ "catholic_flavor.7.desc": {
+  "en": "The Blessed Virgin Mary, mother of our Lord Jesus Christ, is the Queen of Heaven and mediator of many graces. As the most perfect woman, her holy motherhood grants her a seat at the right hand of [ROOT.GetCountry.GetReligion.GetGodName]. Or does it? Recently, radical theologians have been arguing that there is no need for such intercessions. Are they right, or is the Holy Mother Church in danger from their borderline heretical utterings?",
+  "uk": "Благословенна Богородиця, Цариця Небесна і найсвятіша зі святих. Найпобожніша з жінок, мати Ісуса Христа, яку [ROOT.GetCountry.GetReligion.GetGodName] посадив праворуч від себе… Але чи так це? Останнім часом деякі радикальні богослови стверджують, що в такому возвеличенні немає жодної потреби. Чи мають вони рацію, чи це просто єретичні нападки на нашу Богородицю?"
+ },
+ "catholic_flavor.7.title": {
+  "en": "Veneration of the Virgin Mary",
+  "uk": "Поклоніння Діві Марії"
+ },
+ "catholic_flavor.8.a": {
+  "en": "He is probably a heretic.",
+  "uk": "Він напевно єретик."
+ },
+ "catholic_flavor.8.b": {
+  "en": "The dead cannot be helped.",
+  "uk": "Мертвим уже не допоможеш."
+ },
+ "catholic_flavor.8.desc": {
+  "en": "As we know, when we die, [ROOT.GetCountry.GetReligion.GetGodName] judges us immediately and decides what each soul's fate is to be as it awaits the final judgment.\\n\\nHowever, a monk in [unrest_location_scope.GetName] has started a doctrinal dispute that verges on heresy, claiming that there is no purgatory and saying that prayers for the dead do not assist their passage into heaven.\\n\\nThese disputes are threatening the very unity of the [GetInternationalOrganization('catholic_church').GetName].",
+  "uk": "Як ми знаємо, після смерті людини [ROOT.GetCountry.GetReligion.GetGodName] негайно судить її душу і визначає її долю до Страшного суду.\\n\\nОднак чернець у провінції [unrest_province.GetName] розпалив суперечку, що майже межує з єрессю, заявляючи, що жодного чистилища не існує і що заупокійні молитви не допомагають душам потрапити до раю.\\n\\nПодібні дискусії найбезпосереднішим чином загрожують єдності #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!."
+ },
+ "catholic_flavor.8.title": {
+  "en": "The Doctrine of Particular Judgment",
+  "uk": "Поняття приватного суду"
+ },
+ "catholic_flavor.9.a": {
+  "en": "Promote it, even if some of our subjects stray too far.",
+  "uk": "Ми схвалюємо нову течію попри її розкольницький характер."
+ },
+ "catholic_flavor.9.b": {
+  "en": "Nay, it will damn everyone.",
+  "uk": "Ні, ми накличемо на себе прокляття."
+ },
+ "catholic_flavor.9.desc": {
+  "en": "Reformers have put forward a new confession of faith that has some minor, but still serious, differences with [ShowReligionAdjective('catholic')] teachings. The [GetInternationalOrganization('catholic_church').GetName] claims it borders on the heretical, while there are those who suggest that this new confession would bring the [GetInternationalOrganization('catholic_church').GetNameWithNoTooltip] and its administrative apparatus under tighter control.",
+  "uk": "Реформатори представили нову конфесію з невеликими, але все ж серйозними відмінностями від #TOOLTIP:RELIGION,catholic_tt,X #L католицького#!#! вчення. #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L Католицька церква#!#! заявляє, що ці відступи межують з єрессю, тоді як інші стверджують, що вони допоможуть взяти церкву та її адміністративний апарат під суворіший контроль."
+ },
+ "catholic_flavor.9.title": {
+  "en": "A New Confession of Faith",
+  "uk": "Нова конфесія"
+ },
+ "catholic_flavor.9000.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "catholic_flavor.9000.desc": {
+  "en": "Due to circumstances beyond our control, we have lost the [ShowGovernmentReformName('papacy_reform')]. This situation is unacceptable and we must immediately reinstate the [GetInternationalOrganization('catholic_church').GetLeaderTitle] as our ruler.",
+  "uk": "Через непідвладні нам обставини ми втратили #TOOLTIP:GOVERNMENT_REFORM,papacy_reform,X #L Святий Престол#!#!. Ніхто не готовий миритися з таким станом речей. Що швидше над нами знову пануватиме [GetInternationalOrganization('catholic_church').GetLeaderTitle|l], то краще!"
+ },
+ "catholic_flavor.9000.title": {
+  "en": "The [ShowGovernmentReformNameWithNoTooltip('papacy_reform')]",
+  "uk": "Святий Престол"
+ },
+ "catholic_obstructing_church": {
+  "en": "Refused to pay Indulgences",
+  "uk": "Відмова платити індульгенцію"
+ },
+ "opinion_cardinal_nephew": {
+  "en": "Cardinal Nephew",
+  "uk": "Кардинал-племінник"
+ },
+ "opinion_denying_the_holy_mother": {
+  "en": "Denying the Holy Mother",
+  "uk": "Заперечення Богородиці"
+ },
+ "opinion_popes_pet": {
+  "en": "Pope's Pet",
+  "uk": "Улюбленець папи"
+ },
+ "opinion_sublimis_deus": {
+  "en": "Sublimis Deus",
+  "uk": ""
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "cahokia_conditions_to_avoid_migrations": {
+  "en": "Should [ROOT.GetCountry.GetName] suffer further instability through reaching below #R -20.00#! [stability|e],  #R 50.00#! [tribal_cohesion|e] or $flavor_chk.35.title$ [dynamic_historical_event|e], large swathes of [pops|e] may [migrate|e] from our [locations|e].",
+  "uk": ""
+ },
+ "cahokia_conditions_to_gain_golden_age": {
+  "en": "Maintaining [stability|e] above #G +60.00#!, along with restoring [ShowLocationName('cahokia')] to 35,000 [pops|e] and 15.00 [development|e] will allow the ushering of a new Golden Age.",
+  "uk": ""
+ },
+ "chk_center_of_trade": {
+  "en": "Regional Center of Trade",
+  "uk": "Регіональний центр торгівлі"
+ },
+ "chk_maize_cravings": {
+  "en": "Maize Cravings",
+  "uk": "Пристрасть до кукурудзи"
+ },
+ "chk_nixtamalized_maize_demand": {
+  "en": "Nixtamalized Maize",
+  "uk": "Нікстамалізація кукурудзи"
+ },
+ "chk_reliance_on_maize": {
+  "en": "Populace Reliant on Maize",
+  "uk": "Залежність населення від кукурудзи"
+ },
+ "chk_stealing_of_foods": {
+  "en": "Stolen Food Supply",
+  "uk": "Вкрадені запаси їжі"
+ },
+ "events_to_strengthen_cahokia": {
+  "en": "Enables additional [events|e] to stabilize [ShowLocationName('cahokia')] and make it a sprawling [ShowLocationRankName('city')] once more!",
+  "uk": "Активує додаткові [Concept('events','події')|e], які дозволяють зупинити занепад #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! і знову перетворити її на квітуче #TOOLTIP:LOCATIONRANK,city,X #L місто#!#!!"
+ },
+ "events_to_weaken_cahokia_downfall": {
+  "en": "Enables additional [events|e] to lessen the downfall of [ShowLocationName('cahokia')].",
+  "uk": "Активує додаткові [Concept('events','події')|e], які знижують шкоду від падіння #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!."
+ },
+ "flavor_chk.1.a": {
+  "en": "It is time we moved on from the remains of this once great city.",
+  "uk": "Настав час покинути руїни цього колись великого міста."
+ },
+ "flavor_chk.1.b": {
+  "en": "Our Golden Age has not yet ended, we can resurrect ailing [ShowLocationNameWithNoTooltip('cahokia')]!",
+  "uk": "Наш Золотий вік ще не завершився. Кахокія відродиться знову!"
+ },
+ "flavor_chk.1.desc": {
+  "en": "Though [ShowLocationName('cahokia')] has long served as the central capital for our people, the recent centuries have brought great decline to it. Sprawling dwellings across the woodlands and large scale construction projects have slowly faded into obscurity in recent centuries, and the main central population of [ShowLocationNameWithNoTooltip('cahokia')] is all that remains.\\n\\nIn recent years, as more of the population of [ShowLocationNameWithNoTooltip('cahokia')] have taken to leaving, some have encouraged [our_ruler.GetName] to officially call for a mass migration to resettle elsewhere, although others feel that, with considerable effort, [ShowLocationNameWithNoTooltip('cahokia')]'s old glory can be restored.",
+  "uk": "Протягом багатьох віків [ShowLocationName('cahokia')] була основною столицею нашого народу, але в останні століття місто занепало. Обширні передмістя та масштабні будівельні проекти були поглинені лісами, і зараз від Кахокії залишилися лише центральні райони.\\n\\nУ міру відтоку населення все частіше лунають заклики остаточно покинути місто й переселити решту його мешканців на нове місце. Деякі, втім, вважають, що [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'повинна', 'повинен' )] докласти всіх зусиль, щоб повернути столиці колишню славу."
+ },
+ "flavor_chk.1.entry": {
+  "en": "The Sunset of Cahokia",
+  "uk": ""
+ },
+ "flavor_chk.1.title": {
+  "en": "The Sunset of [ShowLocationNameWithNoTooltip('cahokia')]",
+  "uk": "Закат Кахокії"
+ },
+ "flavor_chk.10.a": {
+  "en": "This should hopefully lead to a reinvigorated population.",
+  "uk": "Будемо сподіватися, що це сприятиме оздоровленню населення."
+ },
+ "flavor_chk.10.desc": {
+  "en": "Despite some initial resistance from the population of [ShowLocationName('cahokia')], the reintroduction of nixtamalized [ShowGoodsName('maize')] has proven to be quite successful, with growing signs of improved health across the populace. However, some within the populace have also expressed resentment, as the process has led to a noticeable decrease in the amount of available [ShowGoodsNameWithNoTooltip('maize')].",
+  "uk": "Попри опір з боку жителів #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!, повернення до практики нікстамалізації #TOOLTIP:GOODS,maize,X #L кукурудзи#!#! пройшло успішно — здоров'я населення покращується на очах. На жаль, значна частина населення незадоволена цими змінами, оскільки застосування цієї технології призвело до помітного скорочення доступного обсягу кукурудзи."
+ },
+ "flavor_chk.10.entry": {
+  "en": "Resurrection of Nixtamalized Maize",
+  "uk": ""
+ },
+ "flavor_chk.10.title": {
+  "en": "Reintroduction of Nixtamalized [ShowGoodsNameWithNoTooltip('maize')]",
+  "uk": "Повернення до нікстамалізації кукурудзи"
+ },
+ "flavor_chk.11.a": {
+  "en": "Refuse to give up the practice.",
+  "uk": "Не відмовлятися від технології, попри все."
+ },
+ "flavor_chk.11.b": {
+  "en": "Concede to the populace demands, and forbid further nixtamalized [ShowGoodsNameWithNoTooltip('maize')].",
+  "uk": "Поступитися населенню й заборонити подальшу нікстамалізацію кукурудзи."
+ },
+ "flavor_chk.11.desc": {
+  "en": "While the reintroduction of nixtamalized [ShowGoodsName('maize')] proved an improvement for the overall wellbeing of the populace of [ShowLocationName('cahokia')], resentment towards the forceful adoption of the process has now led to a surge of unrest throughout the [target_location.GetRank.GetName]. Though the process has improved the health of those who adopted the process, the reduction in the availability of [ShowGoodsNameWithNoTooltip('maize')] has reached a boiling point.",
+  "uk": "Незважаючи на те, що повернення до процесу нікстамалізації #TOOLTIP:GOODS,maize,X #L кукурудзи#!#! благотворно позначилося на здоров'ї населення #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!, незадоволення насильницьким впровадженням цієї практики призвело до заворушень у #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_PREP')|l]#!#!. Вимушене скорочення споживання кукурудзи ось-ось призведе до соціального вибуху."
+ },
+ "flavor_chk.11.entry": {
+  "en": "Renewed Rejection of Nixtamalized Maize",
+  "uk": ""
+ },
+ "flavor_chk.11.title": {
+  "en": "Renewed Rejection of Nixtamalized [ShowGoodsNameWithNoTooltip('maize')]",
+  "uk": "Повторна відмова від нікстамалізації кукурудзи"
+ },
+ "flavor_chk.12.a": {
+  "en": "Accept the acts of worship.",
+  "uk": "Прийняти поклоніння."
+ },
+ "flavor_chk.12.b": {
+  "en": "[our_ruler.GetNameWithNoTooltip] did not save [ShowLocationNameWithNoTooltip('cahokia')], but instead her people.",
+  "uk": "[our_ruler.GetNameWithNoTooltip] [Select_CString(our_ruler.IsFemale, 'рятувала', 'рятував' )] не Кахокію, а її жителів."
+ },
+ "flavor_chk.12.desc": {
+  "en": "Throughout [our_ruler.GetHisHer] rule, [our_ruler.GetName] has grown to have a religious-like following amongst the people of [ShowLocationName('cahokia')]. Through [our_ruler.GetHisHer] efforts to restore portions of the [target_location.GetRank.GetName], while also laying the foundation to facilitate the return of lost trading ties, [our_ruler.GetNameWithNoTooltip] has only seen [our_ruler.GetHisHer] following grow. Praising the sudden resurgence of the [target_location.GetRank.GetNameWithNoTooltip] that had been on a steep decline has caused many to see [our_ruler.GetNameWithNoTooltip] as its savior.",
+  "uk": "За час свого правління [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'домоглася', 'домігся' )] майже релігійного шанування серед жителів #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!. [Select_CString(our_ruler.IsFemale, 'Її', 'Його' )] кроки до відновлення давно втрачених торговельних зв'язків і відновлення багатьох районів #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! лише сприяли посиленню [Select_CString(our_ruler.IsFemale, 'її', 'його' )] популярності. Бачачи несподіване відродження [target_location.Custom('LR_GEN')|l] із глибокого занепаду, багато хто говорить, що [our_ruler.GetNameWithNoTooltip] — [Select_CString(our_ruler.IsFemale, 'рятівниця', 'рятівник' )] держави."
+ },
+ "flavor_chk.12.entry": {
+  "en": "Veneration of Our Ruler",
+  "uk": ""
+ },
+ "flavor_chk.12.title": {
+  "en": "Veneration of [our_ruler.GetName]",
+  "uk": "[our_ruler.GetName] заслуговує на поклоніння"
+ },
+ "flavor_chk.2.a": {
+  "en": "Supply the necessities to restore the Woodhenges.",
+  "uk": "Підготувати все необхідне для реставрації дерев'яних кіл."
+ },
+ "flavor_chk.2.b": {
+  "en": "It would be a wasted effort.",
+  "uk": "Марна трата часу."
+ },
+ "flavor_chk.2.desc": {
+  "en": "Though largely abandoned in recent decades, within [ShowLocationName('cahokia')] remains one of the centers used by great minds of the past, a collection of woodhenges. Though the practice has ceased in recent times, our ancestors used a completed circle to map the direction in which the sun would rise and fall.\\n\\nShould we take efforts to rebuild the woodhenges, great minded individuals may take to the practice once more.",
+  "uk": "В останні десятиліття [ShowLocationName('cahokia')] стоїть майже занедбаною, однак там ще зберігся один із пам'ятників, створених великими умами минулого, — комплекс дерев'яних кіл. Колись наші предки використовували цю споруду, щоб визначати напрямок сходу та заходу сонця, але сьогодні ця традиція майже забута.\\n\\nЯкщо відновити дерев'яні кола, наші вчені мужі зможуть відродити цей давній звичай."
+ },
+ "flavor_chk.2.entry": {
+  "en": "$flavor_chk.2.title$",
+  "uk": ""
+ },
+ "flavor_chk.2.title": {
+  "en": "Partial Rebuilding of the Woodhenges",
+  "uk": "Часткове відновлення дерев'яного кола"
+ },
+ "flavor_chk.20.a": {
+  "en": "Encourage the resettling into outer [ShowLocationNameWithNoTooltip('cahokia')].",
+  "uk": "Підтримати заселення зовнішньої Кахокії."
+ },
+ "flavor_chk.20.b": {
+  "en": "Concentrate the population into the main [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Зосередити населення в центрі [target_location.Custom('LR_GEN')|l]."
+ },
+ "flavor_chk.20.desc": {
+  "en": "The resurgence of growth within [ShowLocationName('cahokia')] has led to the emergence of a new discussion within [our_ruler.GetName]'s inner circle, about repopulating the outer regions of [ShowLocationNameWithNoTooltip('cahokia')]. Though these regions were home to a sprawling [target_location.GetRank.GetName] in the past, in recent generations they have grown to be little more than an extension of the [target_location.GetRank.GetNameWithNoTooltip] limit. While encouraging the resettlement of outer [ShowLocationNameWithNoTooltip('cahokia')] may lead the [target_location.GetRank.GetNameWithNoTooltip] reclaiming fragments of its old glory, it may also prove an expensive task.",
+  "uk": "Внаслідок нового підйому #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! в оточенні [Select_CString(our_ruler.IsFemale, 'правительки', 'правителя' )] знову обговорюється питання про заселення окраїнних районів #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!. Колись ці області були густо заселені, але за останні десятиліття вони перетворилися на бліду тінь самих себе. Якщо [our_ruler.GetName] підтримає політику нового заселення околиць, [target_location.GetRank.GetNameWithNoTooltip] поверне собі частину колишньої славі, однак повернення людей до зовнішньої Кахокії потребуватиме чималих витрат."
+ },
+ "flavor_chk.20.entry": {
+  "en": "Repopulation of Outer Cahokia",
+  "uk": ""
+ },
+ "flavor_chk.20.title": {
+  "en": "Repopulation of Outer [ShowLocationNameWithNoTooltip('cahokia')]",
+  "uk": "Заселення Зовнішньої Кахокії"
+ },
+ "flavor_chk.21.a": {
+  "en": "Begin the reconstruction of the outer region.",
+  "uk": "Почати відновлення зовнішніх районів."
+ },
+ "flavor_chk.21.b": {
+  "en": "Spare the resources for other projects.",
+  "uk": "Приберегти ресурси для інших проектів."
+ },
+ "flavor_chk.21.desc": {
+  "en": "With the regrowth of [ShowLocationName('cahokia')] reaching new levels, the existing settlements on the outer reaches of [ShowLocationNameWithNoTooltip('cahokia')] have now largely been repopulated. While the region has been prone to environmental hazards, such as flooding in the past, many have requested to [our_ruler.GetName] that the growing resurgence of [ShowLocationNameWithNoTooltip('cahokia')]'s population has laid the groundwork for rebuilding the outer [target_location.GetRank.GetName].",
+  "uk": "Підйом #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! досяг небувалих висот, і наявні поселення на околицях Кахокії знову наповнилися людьми. Незважаючи на те, що цим районам часто загрожують повені та інші стихійні лиха, багато хто вимагає, щоб [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'скористалася', 'скористався' )] можливостями, які надає наш нинішній демографічний ріст, і [Select_CString(our_ruler.IsFemale, 'відродила', 'відродив' )] окраїнні області #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
+ },
+ "flavor_chk.21.entry": {
+  "en": "Rebuilding the Outer City",
+  "uk": ""
+ },
+ "flavor_chk.21.title": {
+  "en": "Rebuilding the Outer Region of [ShowLocationNameWithNoTooltip('cahokia')]",
+  "uk": "Відновлення зовнішніх районів Кахокії"
+ },
+ "flavor_chk.22.a": {
+  "en": "A prosperous society once more!",
+  "uk": "Наше суспільство знову процвітає!"
+ },
+ "flavor_chk.22.desc": {
+  "en": "While the decline of [ShowLocationName('cahokia')] saw large swathes of its diverse population overtime leave, the growing resurgence of the [target_location.GetRank.GetName] has now seen peoples from neighboring tribes return to settle once again. The return of traders from [target_migration_source.GetName] to [ShowLocationNameWithNoTooltip('cahokia')] suggests the [target_location.GetRank.GetNameWithNoTooltip] may once again be resurging as a major center within the Eastern Woodlands.",
+  "uk": "У роки занепаду строкате й багатомовне населення #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! масово покидало ці місця, але з відродженням #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! почався зворотний процес — багато жителів сусідніх племен знову переселяються назад. Повернення торговців із #ONCLICK:COUNTRY,[target_migration_source.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_migration_source.Custom('CL_tt')],X [target_migration_source.Custom('CL_GEN')|L]#!#! свідчить про те, що #TOOLTIP:LOCATION,cahokia,X #L Кахокія#!#! цілком здатна знову стати одним із основних центрів Східних лісів."
+ },
+ "flavor_chk.22.entry": {
+  "en": "$flavor_chk.22.title$",
+  "uk": ""
+ },
+ "flavor_chk.22.title": {
+  "en": "A Center of Tribal Cultures",
+  "uk": "Осередок племінних культур"
+ },
+ "flavor_chk.23.a": {
+  "en": "[ShowLocationNameWithNoTooltip('cahokia')] once again sits as a major center of trade!",
+  "uk": "Кахокія знову буде великим центром торгівлі!"
+ },
+ "flavor_chk.23.desc": {
+  "en": "Though recent generations saw the growing decline of [ShowLocationName('cahokia')] as the main hub of trade throughout the Eastern Woodlands, in recent times that decline has shifted to a gradual resurgence. Through the efforts of [our_ruler.GetName], [ShowLocationNameWithNoTooltip('cahokia')] with its resurging population and infrastructure projects, has attracted peoples from varying distant tribes to once again return to [ShowLocationNameWithNoTooltip('cahokia')] to engage in regional trade.",
+  "uk": "Протягом кількох поколінь #TOOLTIP:LOCATION,cahokia,X #L Кахокія#!#! все більше втрачала статус основного центру торгівлі на #TOOLTIP:REGION,east_coast_region,X #L Східному узбережжі#!#!, однак в останні роки цей занепад змінився повільним підйомом. [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'відновила', 'відновив' )] міську інфраструктуру й [Select_CString(our_ruler.IsFemale, 'домоглася', 'домігся' )] стійкого зростання населення, і тепер у Кахокію знову стікаються торговці з безлічі племен з усього регіону."
+ },
+ "flavor_chk.23.entry": {
+  "en": "$flavor_chk.23.title$",
+  "uk": ""
+ },
+ "flavor_chk.23.title": {
+  "en": "Reemergence of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Trade",
+  "uk": "Відродження [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої торгівлі"
+ },
+ "flavor_chk.24.a": {
+  "en": "[ShowLocationNameWithNoTooltip('cahokia')] will never again falter!",
+  "uk": "[ShowLocationNameWithNoTooltip('cahokia')] ніколи більше не занепаде!"
+ },
+ "flavor_chk.24.desc": {
+  "en": "Once thought to be believed as a [target_location.GetRank.GetName] in its final days, through the efforts of [our_ruler.GetName] and [our_ruler.GetHisHer] followers, [ShowLocationName('cahokia')] now stands as a beacon of the North American world. Though the last few generations have been a dark age for [ShowLocationNameWithNoTooltip('cahokia')], it has now entered a new golden era of innovation and stability!",
+  "uk": "Ще недавно всі вважали, що [target_location.GetRank.GetName|l] доживає останні дні, однак [our_ruler.GetName] і [Select_CString(our_ruler.IsFemale, 'її', 'його' )] послідовники знову перетворили #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокію#!#! на діамант Північної Америки. У державі панують стабільність і процвітання, її темні часи завершилися. У Кахокії настав золотий вік!"
+ },
+ "flavor_chk.24.entry": {
+  "en": "$flavor_chk.24.title$",
+  "uk": ""
+ },
+ "flavor_chk.24.title": {
+  "en": "A New [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Golden Age",
+  "uk": "Новий золотий вік [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_chk.3.a": {
+  "en": "Grant their request and expand the Woodhenges.",
+  "uk": "Задовольнити їхнє прохання й розширити дерев'яні кола."
+ },
+ "flavor_chk.3.b": {
+  "en": "The size of the restoration is more than sufficient!",
+  "uk": "Існуючого комплексу більш ніж достатньо!"
+ },
+ "flavor_chk.3.desc": {
+  "en": "Following the restoration of the woodhenges, some within [ShowLocationName('cahokia')] have taken to studying the sky once more. Although the return of the practice has amazed others within the [ROOT.GetCountry.GetFlavorRank], along with the alignment of the woodhenge now affecting planned dates for ceremonies, researchers have brought forth a request for [our_ruler.GetName]. Though the rebuilding has enabled renewed study of the sky, some feel that the current capacity is insufficient, and have requested [ROOT.GetCountry.GetGovernment.GetAdjective] support to greatly expand the existing woodhenges.",
+  "uk": "Після реставрації дерев'яних кіл деякі мешканці #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! знову повернулися до спостереження за небесами. Відродження цього давнього звичаю вразило жителів [ROOT.GetCountry.Custom('rank_ru_GEN')|l], тепер вони все частіше керуються розташуванням дерев'яних кіл для визначення дат проведення обрядів. У свою чергу, вчені хочуть, щоб [our_ruler.GetName] значно [Select_CString(our_ruler.IsFemale, 'розширила', 'розширив' )] систему дерев'яних кіл. Реставрація комплексу дозволила відновити вивчення неба, однак його нинішніх розмірів явно недостатньо для повноцінної роботи, а для розширення необхідні #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]і#! ресурси."
+ },
+ "flavor_chk.3.entry": {
+  "en": "$flavor_chk.3.title$",
+  "uk": ""
+ },
+ "flavor_chk.3.title": {
+  "en": "Expansion of the Restored Woodhenges",
+  "uk": "Розширення реставрованого дерев'яного кола"
+ },
+ "flavor_chk.30.a": {
+  "en": "Fortify the center of [ShowLocationNameWithNoTooltip('cahokia')] to protect against tribal raids.",
+  "uk": "Зміцнити центр Кахокії для захисту від племінних набігів."
+ },
+ "flavor_chk.30.b": {
+  "en": "We should instead take the fight to [cahokia_raider.GetNameWithNoTooltip]!",
+  "uk": "[cahokia_raider.GetNameWithNoTooltip] не пройдуть! Ми дамо бій!"
+ },
+ "flavor_chk.30.desc": {
+  "en": "Following recent raids by [cahokia_raider.GetName], much of the outer regions of [ShowLocationName('cahokia')] have been greatly damaged, with more of the remaining population retreating inwards. In order to combat the growing rise of raiders by other neighboring tribes, some have suggested to [our_ruler.GetName] that the center of the [target_location.GetRank.GetName] be fortified, though such a project would lead to an ever-increasing abandonment of the outer region of [ShowLocationNameWithNoTooltip('cahokia')].",
+  "uk": "Руйнівні набіги #ONCLICK:COUNTRY,[cahokia_raider.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cahokia_raider.Custom('CL_tt')],X [cahokia_raider.Custom('CL_GEN')|L]#!#! завдали серйозної шкоди окраїнним районам #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!. Все більше жителів змушені переселятися до внутрішніх областей держави. Багато хто вважає, що [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'повинна', 'повинен' )] зосередитися на зміцненні центральних районів #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! у відповідь на вилазки сусідніх племен, однак подібна стратегія може призвести до остаточної втрати околиць Кахокії."
+ },
+ "flavor_chk.30.entry": {
+  "en": "$flavor_chk.30.title$",
+  "uk": ""
+ },
+ "flavor_chk.30.title": {
+  "en": "Fortifying the Center",
+  "uk": "Зміцнення центру"
+ },
+ "flavor_chk.31.a": {
+  "en": "Limit construction projects to preserve income.",
+  "uk": "Обмежити будівництво, щоб зберегти доходи."
+ },
+ "flavor_chk.31.b": {
+  "en": "Recommit to expansion of [ShowLocationNameWithNoTooltip('cahokia')]!",
+  "uk": "Ми не відмовимося від розширення Кахокії!"
+ },
+ "flavor_chk.31.desc": {
+  "en": "While the generations of past [ROOT.GetCountry.GetAdjective] people were prominent mound builders, with extensive construction projects, [ShowLocationName('cahokia')]'s declining populace has made such projects unfeasible. Though projects still continue, [our_ruler.GetName] has been encouraged by [our_ruler.GetHisHer] inner circle to pursue more selective projects as needed to maintain the wellbeing of the [target_location.GetRank.GetName].",
+  "uk": "Протягом багатьох поколінь #L [ROOT.GetCountry.GetAdjective|l]і#! жителі славилися як умілі будівельники курганів, однак через нестачу населення масштабні будівельні проекти в #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! стають недоцільними. [our_ruler.GetName] ще продовжує будівництво нових споруд, але [Select_CString(our_ruler.IsFemale, 'її', 'його' )] найближче оточення пропонує виявити стриманість, зосередившись лише на найнеобхіднішому для виживання #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
+ },
+ "flavor_chk.31.entry": {
+  "en": "$flavor_chk.31.title$",
+  "uk": ""
+ },
+ "flavor_chk.31.title": {
+  "en": "Selective Construction",
+  "uk": "Вибіркове будівництво"
+ },
+ "flavor_chk.32.a": {
+  "en": "A troubling sign of things to come.",
+  "uk": "Це тривожний знак."
+ },
+ "flavor_chk.32.desc": {
+  "en": "Following the increased worsening conditions within [ShowLocationName('cahokia')], a growing size of the populace have taken to leaving the [target_location.GetRank.GetName] for good, choosing [cahokia_migration.GetName] to settle and establish a new village. With the increasing size of this exodus from [ShowLocationNameWithNoTooltip('cahokia')] including some of its most skilled populace, those within [our_ruler.GetName]'s inner circle fear this may be the final days of [ShowLocationNameWithNoTooltip('cahokia')]'s glory.",
+  "uk": "Услід за погіршенням обстановки в #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! все більше жителів назавжди покидають #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#!. Багато хто з них вірить, що [cahokia_migration.GetName] — більш придатне місце для життя. До сіл, заснованих цими переселенцями, поступово перебираються найумілі ремісники й майстри #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#!. [our_ruler.GetName] і [Select_CString(our_ruler.IsFemale, 'її', 'його' )] найближче оточення побоюються, що дні Кахокії зліченні."
+ },
+ "flavor_chk.32.title": {
+  "en": "Plight of [ShowLocationNameWithNoTooltip('cahokia')]",
+  "uk": "Трагедія Кахокії"
+ },
+ "flavor_chk.33.a": {
+  "en": "Permit the scavenging of the abandoned trade houses.",
+  "uk": "Нехай грабують, все одно ці торговельні доми занедбані."
+ },
+ "flavor_chk.33.b": {
+  "en": "It would be best to leave these houses undisturbed in hopes they return.",
+  "uk": "Краще залишити ці доми в недоторканості — а раптом торговці повернуться?"
+ },
+ "flavor_chk.33.desc": {
+  "en": "Following generations of increased decline in trade activity, the various tribal groups that would arrive to [ShowLocationName('cahokia')] to share the goods of their tribe have largely ceased entirely. With the belief that these traders will never return to [ShowLocationNameWithNoTooltip('cahokia')], several members of the populace have taken to scavenging the remains of trading houses once used by these traders. Some have urged [our_ruler.GetName] to take a stance on the matter, as should the traders one day return, the looting of their goods would likely spark outrage.",
+  "uk": "Багаторічний занепад торговельної діяльності призвів до того, що представники інших племен, які раніше відвідували #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокію#!#! для обміну товарами, зовсім зникли з вулиць [target_location.Custom('LR_GEN')|l]. Вирішивши, що вони вже не повернуться, окремі жителі Кахокії взялися грабувати торговельні доми, що їм належали. Радники хочуть, щоб [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'виробила', 'виробив' )] чітку позицію з цього питання, адже якщо торговці все ж повернуться, їхньому обуренню через зникнення товарів не буде кінця."
+ },
+ "flavor_chk.33.entry": {
+  "en": "$flavor_chk.33.title$",
+  "uk": ""
+ },
+ "flavor_chk.33.title": {
+  "en": "Decline of Old Trading Glory",
+  "uk": "Втрата торговельного значення"
+ },
+ "flavor_chk.34.a": {
+  "en": "We should instead focus on our preservation.",
+  "uk": "Краще зосередитися на збереженні власної культури."
+ },
+ "flavor_chk.34.b": {
+  "en": "In time, these communities ties will return to [ShowLocationNameWithNoTooltip('cahokia')].",
+  "uk": "З часом Кахокія відновить культурні зв'язки!"
+ },
+ "flavor_chk.34.desc": {
+  "en": "With the increasing decline of [ShowLocationName('cahokia')]'s glory of being a settlement to which many distant tribes would arrive to trade and share practices, the [target_location.GetRank.GetName] has begun to lose one of its core identities as a center of cultural ties. With many within [ShowLocationNameWithNoTooltip('cahokia')] maintaining a bleak view to the future, some are questioning if it would be best to focus on our own identity before it too is lost with the [target_location.GetRank.GetNameWithNoTooltip]",
+  "uk": "Був час, коли до #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! стікалися представники безлічі далеких племен, а торгівля між ними супроводжувалася активним культурним обміном. На жаль, часи ті давно минули, і [target_location.GetRank.GetName|l] вже не є центром культурних зв'язків. Позбувшись віри в майбутнє, жителі Кахокії все частіше запитують себе: чи не час потурбуватися про збереження власної культурної самобутності, поки вона не згасла разом із [target_location.Custom('LR_INST')|l]?"
+ },
+ "flavor_chk.34.entry": {
+  "en": "$flavor_chk.34.title$",
+  "uk": ""
+ },
+ "flavor_chk.34.title": {
+  "en": "Lost of Shared Cultural Ties",
+  "uk": "Втрата спільних культурних зв'язків"
+ },
+ "flavor_chk.35.a": {
+  "en": "Our glory days are but a shadow of the past.",
+  "uk": "Дні нашої славі назавжди залишилися в минулому."
+ },
+ "flavor_chk.35.desc": {
+  "en": "Though attempts have been made by [our_ruler.GetName] and many others within [ShowLocationName('cahokia')], the increasing instability of the region along with the growing inhospitable nature with failed crops yields and worsening river conditions, many have taken to leaving [ShowLocationNameWithNoTooltip('cahokia')] for good. While [our_ruler.GetNameWithNoTooltip] and a portion of the [ROOT.GetCountry.GetAdjective] elite have chose to remain for now, the glory days of the [target_location.GetRank.GetName] are long gone.",
+  "uk": "Хоча [our_ruler.GetName] і інші лідери #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! не раз намагалися переламати ситуацію, зростання нестабільності, часті неврожаї та сильне забруднення річок примусили більшість жителів покинути [target_location.Custom('LR_ACC')|l] назавжди. [our_ruler.GetNameWithNoTooltip] із частиною #L [ROOT.GetCountry.GetAdjective|l]ої#! знаті все ще залишаються в Кахокії, але всім уже ясно, що кращі дні [target_location.Custom('LR_GEN')|l] давно минули."
+ },
+ "flavor_chk.35.entry": {
+  "en": "Shadow Over Cahokia",
+  "uk": ""
+ },
+ "flavor_chk.35.title": {
+  "en": "The Shadow Over [ShowLocationNameWithNoTooltip('cahokia')]",
+  "uk": "Тінь над Кахокією"
+ },
+ "flavor_chk.4.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "flavor_chk.4.desc": {
+  "en": "Recent shifts in the seasons have brought with them terrible rains not seen within generations, and a great flood has affected the woodlands of [ShowLocationName('cahokia')]. Though much of inner [ShowLocationNameWithNoTooltip('cahokia')] has been spared, the outer portions have been greatly damaged, with many of the remaining populace pointing to this event as another sign that [ShowLocationNameWithNoTooltip('cahokia')] is growing to be a less than hospitable place to live.",
+  "uk": "Недавні зміни погоди принесли з собою зливи, яких не бачили вже багато поколінь. Внаслідок масштабної повені ліси #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#! опинилися затопленими. На щастя, центральна частина #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! майже не постраждала, але околицям міста було завдано величезної шкоди. Уцілілі жителі вважають, що ця повінь — черговий знак того, що Кахокія стає все більш непридатною для життя."
+ },
+ "flavor_chk.4.entry": {
+  "en": "$flavor_chk.4.title$",
+  "uk": ""
+ },
+ "flavor_chk.4.title": {
+  "en": "Flooding in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Woodlands",
+  "uk": "Затоплення [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их лісів"
+ },
+ "flavor_chk.5.a": {
+  "en": "We should take steps to fortify the center against future floods!",
+  "uk": "Головне — захистити центр від нових повеней!"
+ },
+ "flavor_chk.5.b": {
+  "en": "Commit to erecting the outer barricades in hopes of resettling outer [ShowLocationNameWithNoTooltip('cahokia')].",
+  "uk": "Зайнятися спорудженням зовнішніх загороджень, щоб околиці Кахокії знову стали придатними для поселення."
+ },
+ "flavor_chk.5.desc": {
+  "en": "The recent catastrophic flooding to take place in [ShowLocationName('cahokia')] has once again reignited debate to protect the [target_location.GetRank.GetName] from future floods. Though much of the inner portions were spared, the outer reaches of [ShowLocationNameWithNoTooltip('cahokia')] were greatly damaged, leaving many who lived in the outer regions forced to move inwards. Two warring factions within [our_ruler.GetName]'s inner circle have proposed doubling efforts to fortify the inner portions for the remaining population, though others have suggested great efforts be taken to erect stronger barricades in the affected regions, allowing for the gradual settlement of the outer portions of [ShowLocationNameWithNoTooltip('cahokia')].",
+  "uk": "Після недавньої руйнівної повені в #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! знову спалахнули суперечки про те, як краще захистити #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#! від подальших подібних лих. Внутрішні райони Кахокії в основному уціліли, однак околицям міста було завдано значної шкоди, внаслідок чого багатьом жителям довелося переселитися ближче до центру. Одна з придворних угруповань вимагає, щоб [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'кинула', 'кинув' )] всі сили на зміцнення центральних районів для захисту їхнього населення. Водночас їхні суперники в найближчому оточенні [Select_CString(our_ruler.IsFemale, 'правительки', 'правителя' )] закликають звести в постраждалих районах потужні загородження, що з часом дозволить знову заселити околиці Кахокії."
+ },
+ "flavor_chk.5.entry": {
+  "en": "$flavor_chk.5.title$",
+  "uk": ""
+ },
+ "flavor_chk.5.title": {
+  "en": "In Preparation of Future Floods",
+  "uk": "Готовність до майбутніх повеней"
+ },
+ "flavor_chk.6.a": {
+  "en": "A strengthened elite is a sign of a stronger future.",
+  "uk": "Сильні еліти — багатообіцяльна ознака."
+ },
+ "flavor_chk.6.desc": {
+  "en": "While [our_ruler.GetName] has maintained a close grip on the power structure of [ShowLocationName('cahokia')], many of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] factions that have assisted the [ROOT.GetCountry.GetGovernment.GetRulerTitle] in the past have largely faded away in recent times.\\n\\nHowever, the recent growth of [ShowLocationNameWithNoTooltip('cahokia')] has seen a revitalization of these faded [ROOT.GetCountry.GetGovernment.GetAdjective] elites, who now seek to work with [our_ruler.GetNameWithNoTooltip] to usher in a new [ROOT.GetCountry.GetAdjectiveWithNoTooltip] age.",
+  "uk": "Завдяки тому, що [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'зосередила', 'зосередив' )] у своїх руках усю владу над #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокією#!#!, місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] втратили значну частину свого впливу. Протягом тривалого часу [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] не [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'потребувала', 'потребував' )] їхньої допомоги й порад.\\n\\nОднак недавній розквіт #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#! викликав пожвавлення серед представників старих #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! еліт. Вони розраховують, що [our_ruler.GetNameWithNoTooltip] прийме їхню допомогу у своєму прагненні покласти початок новій [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ій епосі."
+ },
+ "flavor_chk.6.entry": {
+  "en": "$flavor_chk.6.title$",
+  "uk": ""
+ },
+ "flavor_chk.6.title": {
+  "en": "Revitalization of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Elite",
+  "uk": "Посилення [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их еліт"
+ },
+ "flavor_chk.7.a": {
+  "en": "Dispatch the warbands to raid nearby tribes for food.",
+  "uk": "Відправити солдатів у набіги за їжею на сусідні племена."
+ },
+ "flavor_chk.7.b": {
+  "en": "This food scarcity will blow over by next season.",
+  "uk": "Через кілька місяців нестача провізії закінчиться сама по собі."
+ },
+ "flavor_chk.7.desc": {
+  "en": "Though [ShowLocationName('cahokia')] has maintained a relatively sizable population, recent shifts in agricultural yields have steadily led to a decrease in the overall food production, along with some crops such as [ShowGoodsName('maize')] becoming too prevalent, leading to a decline of the nutritional health of the populace. Such shifts have led to a noticeable decline in the health of the populace, along with the starvation of others.\\n\\nMany of the populace have urged [our_ruler.GetName] to dispatch warbands to venture into the wilds to raid other tribes for food, although such actions would undoubtedly bring repercussions.",
+  "uk": "Сільськогосподарський сектор #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! все ще в змозі підтримувати значне населення, однак зміни в урожайності в останні роки призвели до стійкого зниження обсягів виробництва продовольства. При цьому надмірне домінування окремих культур, зокрема #TOOLTIP:GOODS,maize,X #L кукурудзи#!#!, негативно позначається на поживній цінності раціону. Як наслідок, здоров'я населення помітно погіршилося, а деінде люди й узагалі опинилися на межі голоду.\\n\\nБагато хто вимагає, щоб [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'послала', 'послав' )] війська розоряти землі сусідніх племен, щоб забезпечити нашу державу продовольством. Безсумнівно, що ціна подібних дій буде високою."
+ },
+ "flavor_chk.7.entry": {
+  "en": "$flavor_chk.7.title$",
+  "uk": ""
+ },
+ "flavor_chk.7.title": {
+  "en": "Worsening Food Conditions",
+  "uk": "Погіршення раціонів"
+ },
+ "flavor_chk.8.a": {
+  "en": "We will have to look for a new source of water.",
+  "uk": "Нам потрібне нове джерело питної води."
+ },
+ "flavor_chk.8.desc": {
+  "en": "The rivers that flow in the woodlands around [ShowLocationName('cahokia')] have long benefited our people. However, as the [target_location.GetRank.GetName] has grown, so has neglect towards those very sources of water. With the main source of water for [ShowLocationNameWithNoTooltip('cahokia')] now sickening our populace, [our_ruler.GetName] has delegated multiple scouting parties to search for a more healthier source of water, although transportation of the new source will be difficult.",
+  "uk": "Річки, що протікають крізь лісові масиви навколо #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#!, здавна слугували нам основним джерелом питної води. Однак із зростанням #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! якість води поступово погіршувалася, і тепер вона становить серйозну загрозу здоров'ю нашого населення. У зв'язку з цим [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'відправила', 'відправив' )] численні групи розвідувачів на пошуки чистішого джерела, хоча доставка води з нового місця може стати непростим завданням."
+ },
+ "flavor_chk.8.entry": {
+  "en": "$flavor_chk.8.title$",
+  "uk": ""
+ },
+ "flavor_chk.8.title": {
+  "en": "Neglect of the Woodlands Rivers",
+  "uk": "Забруднення лісових річок"
+ },
+ "flavor_chk.9.a": {
+  "en": "[ShowGoodsNameWithNoTooltip('maize')] serves as our primary food, we cannot risk a longer process!",
+  "uk": "Кукурудза — основа нашого раціону, ми не можемо дозволити собі тривалу переробку!"
+ },
+ "flavor_chk.9.b": {
+  "en": "Strive for a return to this practice.",
+  "uk": "Ми повинні повернутися до цієї технології."
+ },
+ "flavor_chk.9.desc": {
+  "en": "Throughout the generations of our people, [ShowGoodsName('maize')] has grown to become one of our staple foods. However, in recent times, the people of [ShowLocationName('cahokia')] have grown to abandon the process of nixtamalization of [ShowGoodsNameWithNoTooltip('maize')] in favor of simpler consumption, which while easier to maintain, has severely affected the health of the population.\\n\\nSeeking to readopt the practice of nixtamalization of [ShowGoodsNameWithNoTooltip('maize')], [our_ruler.GetName] has requested support from [our_ruler.GetHisHer] inner circle to determine the viability of a return to such a practice.",
+  "uk": "Протягом багатьох поколінь одним із наших джерел прожитку для нашого народу була #TOOLTIP:GOODS,maize,X #L кукурудза#!#!. В останні роки населення #TOOLTIP:LOCATION,cahokia_tt,X #L Кахокії#!#! все частіше відмовляється від трудомісткої технології нікстамалізації кукурудзи, віддаючи перевагу споживанню її в необробленому вигляді. Це вже негативно позначається на здоров'ї наших підданих.\\n\\nПрагнучи відродити технологію нікстамалізації кукурудзи, [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'звернулася', 'звернувся' )] за порадою до свого найближчого оточення."
+ },
+ "flavor_chk.9.entry": {
+  "en": "Cahokian reliance on Maize",
+  "uk": ""
+ },
+ "flavor_chk.9.title": {
+  "en": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Reliance on [ShowGoodsNameWithNoTooltip('maize')]",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а залежність від кукурудзи"
+ },
+ "variable_tt_chk_enable_downfall_events": {
+  "en": "Fall of Cahokia",
+  "uk": ""
+ },
+ "variable_tt_chk_enable_strengthening_events": {
+  "en": "Strengthening of Cahokia",
+  "uk": ""
+ },
+ "variable_tt_chk_had_flood_happened": {
+  "en": "The Great Flood has Struck the Woodlands",
+  "uk": ""
+ },
+ "variable_tt_chk_no_more_plight_events": {
+  "en": "No More Plight Events",
+  "uk": ""
+ }
+}

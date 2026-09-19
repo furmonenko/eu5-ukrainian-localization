@@ -1,0 +1,1838 @@
+{
+ "barquq_supporters": {
+  "en": "Barqūq's Loyalists",
+  "uk": "Прихильники Баркука"
+ },
+ "based_on_average_adm_cabinet_character_total_abilities_tt": {
+  "en": "Based on the average [adm|e] of our [cabinet|e]:",
+  "uk": "Залежно від середнього показника [Concept('adm', 'адміністративної навички')|e] членів [Concept('cabinet', 'ради')|e]:"
+ },
+ "based_on_average_dip_cabinet_character_total_abilities_tt": {
+  "en": "Based on the average [dip|e] of our [cabinet|e]:",
+  "uk": "Залежно від середнього показника [Concept('dip', 'дипломатичної навички')|e] членів [Concept('cabinet', 'ради')|e]:"
+ },
+ "based_on_average_mil_cabinet_character_total_abilities_tt": {
+  "en": "Based on the average [mil|e] of our [cabinet|e]:",
+  "uk": "Залежно від середнього показника [Concept('mil', 'військової навички')|e] членів [Concept('cabinet', 'ради')|e]:"
+ },
+ "based_on_target_character2_importance_tt": {
+  "en": "Based on the importance and influence of [target_character2.GetShortName]:",
+  "uk": "Залежно від впливовості та могутності мамлюка [target_character2.GetShortName]:"
+ },
+ "bolstered_capital_trade": {
+  "en": "Bolstered Capital Trade",
+  "uk": "Розквіт торгівлі в столиці"
+ },
+ "chronicle_of_egypt": {
+  "en": "Chronicle of Egypt",
+  "uk": "Хроніка Єгипту"
+ },
+ "cost_scale_with_num_locations_tt": {
+  "en": "The cost of this undertaking will scale based on the number of our [locations|e]",
+  "uk": "Вартість цієї ініціативи залежатиме від кількості [Concept('locations', 'районів')|e]"
+ },
+ "enables_awlad_al_nas": {
+  "en": "We will gain access to the [ShowPolicyName('awlad_al_nas_policy')] [policy|e] for the [ShowLawName('mamluk_army_law')]",
+  "uk": "Ми отримаємо доступ до [Concept('policy', 'політики')|e] «#TOOLTIP:POLICY,awlad_al_nas_policy,X #L Аулад аль-Нас#!#!» для #TOOLTIP:LAW,mamluk_army_law,X #L закону про мамлюцьку армію#!#!"
+ },
+ "extreme_fiscal_reforms_tt": {
+  "en": "Our [locations|e] will lose #R -25%#! of their [province|e] [food|e], [ShowNamedValue('prosperity_severe_penalty')|+=2%] [prosperity|e] and their [pops|e] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Наші [Concept('locations','райони')|e] втратять #R 25%#! від усіх запасів [Concept('food','їжі')|e] в [Concept('province','провінції')|e] та [ShowNamedValue('prosperity_severe_penalty')|+=2%] [Concept('prosperity','процвітання')|e], а [Concept('pop_satisfaction','задоволення')|e] [Concept('pops','груп населення')|e] в цих районах знизиться на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
+ },
+ "flavor_mam.1.a": {
+  "en": "Write a poem to the Sultan!",
+  "uk": "Написати поему на честь султана!"
+ },
+ "flavor_mam.1.b": {
+  "en": "Support the festivities.",
+  "uk": "Заохотити урочистості."
+ },
+ "flavor_mam.1.desc": {
+  "en": "The Ottoman capture of Constantinople is well-received in Cairo. The defeat of the infidel is glorious indeed, and rumors talk about a large amount of festivities in the city. We have planned a large visit of an ambassador to the Ottoman Sultan, and we will send him glorious gifts.",
+  "uk": "Захоплення османами Константинополя стало великою радістю для Каїра. Перемога над невірними — це знаменна подія, яку, за чутками, відзначає все місто. Ми відправимо османському султану багаті подарунки, а наш посол нанесе йому візит."
+ },
+ "flavor_mam.1.entry": {
+  "en": "$flavor_mam.1.title$",
+  "uk": ""
+ },
+ "flavor_mam.1.title": {
+  "en": "The Turks have taken Constantinople",
+  "uk": "Захоплення Константинополя турками"
+ },
+ "flavor_mam.10.a": {
+  "en": "We will restore it!",
+  "uk": "Ми відновимо її!"
+ },
+ "flavor_mam.10.b": {
+  "en": "It is not our concern...",
+  "uk": "Це не наша турбота…"
+ },
+ "flavor_mam.10.desc": {
+  "en": "In 1481, a serious fire stuck the Mosque of the Prophet in [target_location.GetName]. The Sultan spent a lot of effort to extensively renew it to full splendor.\\nWhat shall we do?",
+  "uk": "У 1481 році мечеть Пророка, розташована в місті [target_location.GetName], сильно постраждала під час пожежі. Султан доклав чимало зусиль, щоб повністю відновити її.\\nЩо будемо робити?"
+ },
+ "flavor_mam.10.entry": {
+  "en": "Fire in Medina",
+  "uk": ""
+ },
+ "flavor_mam.10.title": {
+  "en": "Fire in [target_location.GetNameWithNoTooltip]",
+  "uk": "Пожежа в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mam.100.a": {
+  "en": "Hopefully, the next Mansa is wiser with generosity.",
+  "uk": "Сподіваємося, наступний манса не буде марнувати грошей."
+ },
+ "flavor_mam.100.desc": {
+  "en": "The pilgrimage of [mansa_musa.GetName] in 1325 was a great sight to behold for our people. What nobody was expecting was the generosity of the Mansa who traveled through our land to reach [ShowLocationName('mecca')]. On his journey, the great [GetCountry('MAL').GetGovernment.GetRulerTitle] gave away [ShowGoodsName('goods_gold')], [ShowGoodsName('gems')], and other invaluable goods away to all kinds of people.\\n\\nWhile [ROOT.GetCountry.GetReligion.GetGodName] may bless his soul, his actions have had unforeseen consequences for our economy. Our markets are flooded with [mansa_musa.GetShortNameWithNoTooltip]'s gold, which caused its value to plummet. Nowadays, the effects are by far not as bad as many years ago, yet his impact is still noticeable.",
+  "uk": "У 1325 році [mansa_musa.GetName] відправився в паломництво, яке стало важливою подією для нашого народу. На шляху до #TOOLTIP:LOCATION,mecca_tt,X #L Мекки#!#! манса несподівано виявив велику щедрість. Дорогою великий [GetCountry('MAL').GetGovernment.GetRulerTitle] роздавав усім підряд [ShowGoodsName('goods_gold')], [ShowGoodsName('gems')] та інші цінні подарунки.\\n\\nХоча [ROOT.GetCountry.GetReligion.GetGodName] може пишатися своїм сином, цей благородний вчинок мав непередбачені наслідки. На наші ринки хлинуло золото, що призвело до його знецінення. Зараз ситуація відносно стабілізувалася, але все одно далека від нормальної."
+ },
+ "flavor_mam.100.entry": {
+  "en": "The Repercussions of Mansa Musa",
+  "uk": ""
+ },
+ "flavor_mam.100.title": {
+  "en": "The Repercussions of [mansa_musa.GetNameWithNoTooltip]",
+  "uk": "Наслідки щедрості манси Муси"
+ },
+ "flavor_mam.11.a": {
+  "en": "Even Christians can be allies",
+  "uk": "Союзників можна знайти і серед християн"
+ },
+ "flavor_mam.11.desc": {
+  "en": "The Ottomans have been our main rival for a while now, and their expansionism has been a threat to our state for even longer. Their expansionist ambitions in the Mediterranean have brought them into conflict with the Christian powers as well. In history, the $mamluks$ and King Ferdinand II of Aragon made a temporary alliance between 1488 until 1491, targeted against the Ottomans, where the Spanish promised 50 caravels against the Ottoman Empire.",
+  "uk": "Багато років османи були нашими головними суперниками, а їхня любов до завоювань тривожить нас іще довше. Їхні непомірні апетити в Середземномор'ї призвели до конфлікту з християнськими державами. Між 1488 та 1491 роками король Фердинанд II Арагонський уклав тимчасовий союз з мамлюками, спрямований проти османів. Для боротьби з Османською імперією іспанці пообіцяли відправити 50 каравел."
+ },
+ "flavor_mam.11.entry": {
+  "en": "$flavor_mam.11.title$",
+  "uk": ""
+ },
+ "flavor_mam.11.title": {
+  "en": "Common enemies in the Ottoman Empire",
+  "uk": "Османська імперія — спільний ворог"
+ },
+ "flavor_mam.12.a": {
+  "en": "Even a Muslim country can be an ally...",
+  "uk": "Союзників можна знайти і серед мусульман…"
+ },
+ "flavor_mam.12.desc": {
+  "en": "The large expansion of the Ottoman Empire in the Mediterranean has not just concerned our most Christian realm, but has also made the $mamluks$ really worried. In history, the $mamluks$ and King Ferdinand II of Aragon made a temporary alliance between 1488 until 1491, targeted against the Ottomans, where the Spanish promised 50 caravels against the Ottoman Empire.",
+  "uk": "Захоплення османами середземноморських земель зачепило не лише наш християнський народ, але й справді стривожило мамлюків. Між 1488 та 1491 роками король Фердинанд II Арагонський уклав тимчасовий союз з мамлюками, спрямований проти османів. Для боротьби з Османською імперією іспанці пообіцяли відправити 50 каравел."
+ },
+ "flavor_mam.12.entry": {
+  "en": "$flavor_mam.12.title$",
+  "uk": ""
+ },
+ "flavor_mam.12.title": {
+  "en": "Common enemies in the Ottoman Empire",
+  "uk": "Османська імперія — спільний ворог"
+ },
+ "flavor_mam.15.a": {
+  "en": "The Christians must be stopped",
+  "uk": "Християн потрібно зупинити!"
+ },
+ "flavor_mam.15.b": {
+  "en": "We have other sources of income",
+  "uk": "У нас є інші джерела доходу"
+ },
+ "flavor_mam.15.desc": {
+  "en": "When the Portuguese traders discovered the way around [ShowContinentName('africa')], and into India, they started to divert the lucrative eastern trade around [ShowContinentNameWithNoTooltip('africa')] instead of up the Red Sea. When this happened, they got into a conflict with the $mamluk$ Sultanate in Egypt. In 1505, the $mamluk$ Sultan ordered the first expedition against the Portuguese. Fleets were constructed on the Red Sea and sent to fight the Portuguese in the Indian Ocean. In 1509, the Portuguese finally succeeded in eliminating the $mamluk$ Fleet at the Battle of Diu, winning the war.\\nWhat shall we do?",
+  "uk": "Коли португальці відкрили обхідний шлях до Індії, вони почали активно торгувати зі Сходом, не заходячи в Червоне моря та минаючи #TOOLTIP:CONTINENT,africa,X #L Африку#!#!, що спровокувало конфлікт з Мамлюцьким султанатом у Єгипті. У 1505 році мамлюцький султан організував першу експедицію проти португальців. Для боротьби з ними він побудував флоти в Червоному морі та відправив їх в Індійський океан. У 1509 році португальцям нарешті вдалося повністю розбити мамлюцький флот у битві при Діу та виграти війну.\\nЩо нам зробити?"
+ },
+ "flavor_mam.15.entry": {
+  "en": "$flavor_mam.15.title$",
+  "uk": ""
+ },
+ "flavor_mam.15.title": {
+  "en": "The Portuguese-$mamluk$ Trade Wars",
+  "uk": "Португало-єгипетські торговельні війни"
+ },
+ "flavor_mam.16.a": {
+  "en": "And we will win this war...",
+  "uk": "І ми виграємо цю війну…"
+ },
+ "flavor_mam.16.desc": {
+  "en": "When the Portuguese traders discovered the way around [ShowContinentName('africa')], and into India, they started to divert the lucrative eastern trade around [ShowContinentNameWithNoTooltip('africa')] instead of up the Red Sea. When this happened, they got into a conflict with the $mamluk$ Sultanate in Egypt. In 1505, the $mamluk$ Sultan ordered the first expedition against the Portuguese. Fleets were constructed on the Red Sea and sent to fight the Portuguese in the Indian Ocean. In 1509, the Portuguese finally succeeded in eliminating the $mamluk$ Fleet at the Battle of Diu, winning the war.",
+  "uk": "Коли португальці відкрили обхідний шлях до Індії, вони почали активно торгувати зі Сходом, не заходячи в Червоне моря та минаючи #TOOLTIP:CONTINENT,africa,X #L Африку#!#!, що спровокувало конфлікт з Мамлюцьким султанатом у Єгипті. У 1505 році мамлюцький султан організував першу експедицію проти португальців. Для боротьби з ними він побудував флоти в Червоному морі та відправив їх в Індійський океан. У 1509 році португальцям нарешті вдалося повністю розбити мамлюцький флот у битві при Діу та виграти війну."
+ },
+ "flavor_mam.16.title": {
+  "en": "The Portuguese-$mamluk$ Trade Wars",
+  "uk": "Португало-єгипетські торговельні війни"
+ },
+ "flavor_mam.17.a": {
+  "en": "Promote [target_character.GetShortNameWithNoTooltip].",
+  "uk": "[target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'гідна', 'гідний')] підвищення."
+ },
+ "flavor_mam.17.a.entry": {
+  "en": "Promote him.",
+  "uk": ""
+ },
+ "flavor_mam.17.b": {
+  "en": "[target_character2.GetShortNameWithNoTooltip] will serve.",
+  "uk": "[target_character2.GetShortNameWithNoTooltip] буде служити вам."
+ },
+ "flavor_mam.17.b.entry": {
+  "en": "The character will serve.",
+  "uk": ""
+ },
+ "flavor_mam.17.desc": {
+  "en": "The backbone of our army and some of the most influential members within our [ROOT.GetCountry.GetGovernment.GetCourtTitle], are made up of $mamluks$. Former slaves that were purchased or obtained from faraway lands, these are some of the finest men our country has raised. As soon as they are brought to [target_capital.GetName], they are provided lodgings and are given good treatment, in stark contrast to their previous life.\\n\\nFrom then on, and once they convert, they are trained in many arts: the study of religious texts, honing their bodies, and mastering the ways of warfare. Through this process, men of merit and excellence are born, some of which may eventually push their bid to the throne...",
+  "uk": "Мамлюки — основа нашої армії та одні з найвпливовіших придворних. Ці раби, куплені на невільничих ринках або привезені з інших держав, — еліта і гордість нашого суспільства. Як тільки вони опиняються в місті [target_capital.GetName], їм дають прихисток. Окрім того, до них ставляться по-людяному, що різко контрастує з їхнім попереднім досвідом.\\n\\nНавчання мамлюків починається після їхнього навернення у віру. Вони читають релігійні тексти, вдосконалюють своє тіло та опановують бойове мистецтво. Поступово вони перетворюються на гідних і навіть видатних людей, деякі з яких можуть претендувати на трон…"
+ },
+ "flavor_mam.17.title": {
+  "en": "$mamluk$ Promotion",
+  "uk": "Просування мамлюків"
+ },
+ "flavor_mam.18.a": {
+  "en": "Purge them all!",
+  "uk": "Знищіть їх усіх!"
+ },
+ "flavor_mam.18.b": {
+  "en": "We cannot challenge their power.",
+  "uk": "Ми не можемо протистояти їм."
+ },
+ "flavor_mam.18.desc": {
+  "en": "As the ceremony to coronate [target_character.GetName] comes to an end, machinations in the shadows shift... Whispers of betrayal reach the ears of our trustees and before long, it becomes apparent that many $mamluks$ of the old guard are dissatisfied with the current state of affairs. Be it a rumor or a fact, none can surely tell.\\n\\nThe balance of power is a delicate art and perhaps we must consider replacing these old men with our own, who, in theory, maintain an unquestionable loyalty.",
+  "uk": "Коронація майже завершена, і [target_character.GetName] скоро зійде на трон, але при дворі зараз неспокійно. Вух наших вірних соглядатаїв досягли чутки про зраду: кажуть, ніби мамлюки старої гвардії незадоволені поточним становищем речей. Правда це чи брехня — поди розбери.\\n\\nПідтримувати баланс сил — завдання не з легких. Можливо, ми замінимо старих мамлюків своїми людьми, які в теорії будуть вірні нам до кінця."
+ },
+ "flavor_mam.18.title": {
+  "en": "The Purges of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та чистки"
+ },
+ "flavor_mam.19.a": {
+  "en": "We will not entertain the musings of a bygone era.",
+  "uk": "Не будемо поринати у роздуми про минулі часи."
+ },
+ "flavor_mam.19.b": {
+  "en": "Grant a noble office to one of [target_character.GetHerHis] family members...",
+  "uk": "Запропонуємо комусь із [Select_CString(target_character.IsFemale, 'її', 'його' )] сім'ї почесну посаду…"
+ },
+ "flavor_mam.19.b.entry": {
+  "en": "Grant a noble office to one of his family members...",
+  "uk": ""
+ },
+ "flavor_mam.19.c": {
+  "en": "Introduce [target_character.GetHerHim] to the knife.",
+  "uk": "Позбудемося [Select_CString(target_character.IsFemale, 'неї', 'нього' )]."
+ },
+ "flavor_mam.19.c.entry": {
+  "en": "Introduce him to the knife.",
+  "uk": ""
+ },
+ "flavor_mam.19.desc": {
+  "en": "For a man, to reach the pinnacle of authority is a sweet feeling. To be relegated or have one's influence stripped is tenfold the bitterness. Such is the case with [target_character.GetName], who loyally served under [target_character3.GetName]. Once a powerful and influential $mamluk$, this old dog now spends [target_character.GetHerHis] days angrily scheming and bickering bitterly around the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_character.GetHerHis|U] threats upset the order of our establishment. We must deal with this disturbance before it spreads.",
+  "uk": "Кожна людина мріє опинитися при владі, а, піднявшись на вершину, боїться впасти вниз. Колись [target_character.GetName] [Select_CString(target_character.IsFemale, 'мала', 'мав' )] великий вплив, а [Select_CString(target_character.IsFemale, 'її', 'його' )] [Select_CString(target_character.IsFemale, 'начальницею була сама', 'начальником був сам' )] [target_character3.GetName]. Тепер [target_character.GetName] проводить свої дні, будуючи інтриги проти придворних і сперечаючись з усіма підряд. Така поведінка занурює [ROOT.GetCountry.GetCourt.Custom('parliament_ru_ACC')|l] у хаос. Треба розібратися з цим безладом, поки не стало надто пізно."
+ },
+ "flavor_mam.19.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Clashes with the [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "[target_character.GetNameWithNoTooltip] занурює [ROOT.GetCountry.GetCourt.Custom('parliament_ru_ACC')|l] у хаос"
+ },
+ "flavor_mam.2.a": {
+  "en": "[ROOT.GetCountry.GetReligion.GetGodName] is Great!",
+  "uk": "[ROOT.GetCountry.GetReligion.GetGodName] великий!"
+ },
+ "flavor_mam.2.a.entry": {
+  "en": "Our god is Great!",
+  "uk": ""
+ },
+ "flavor_mam.2.desc": {
+  "en": "A lot of effort has gone into improving and developing the infrastructure of [ShowLocationName('cairo')]. This will have great benefit for the future.",
+  "uk": "Ми доклали багато зусиль, щоб поліпшити та розвинути інфраструктуру #TOOLTIP:LOCATION,cairo_tt,X #L Каїра#!#!. Вони обов'язково окупляться в майбутньому."
+ },
+ "flavor_mam.2.entry": {
+  "en": "Urban Planning of Cairo",
+  "uk": ""
+ },
+ "flavor_mam.2.historical_info": {
+  "en": "Sultan Abu Al-Nasr Sayf ad-Din Al-Ashraf Qaitbay was known to be very concerned about urban planning, particularly in [ShowLocationNameWithNoTooltip('cairo')]. In 1457, the Sultan gave the order to construct two new public baths and a large communal residence in the Bayn al-Qasrayn District. During that time, he decided to widen the road that originated out of it, the main thoroughfare of Cairo, known as the Qasaba. This demolished several older structures, but in the end traffic was much quicker and according to important historians, this greatly benefited the general public.",
+  "uk": "Як відомо, султан Абу ан-Наср Сайф ад-Дін аль-Ашраф Кайт-бей дуже переймався питаннями міського планування та вклав багато сил у розвиток інфраструктури Каїра. У 1457 році наказав побудувати дві громадські лазні та великий житловий будинок у районі Байн аль-Касрайн. Окрім того, він вирішив розширити дорогу, що відходить від району, — головний проїзд Каїра, відомий як Касаба. І хоча під час робіт було зруйновано кілька старих будівель, рух став набагато швидшим. Історики вважають, що цей проєкт приніс людям велику користь."
+ },
+ "flavor_mam.2.title": {
+  "en": "Urban Planning of [ShowLocationNameWithNoTooltip('cairo')]",
+  "uk": "Розвиток Каїра"
+ },
+ "flavor_mam.20.a": {
+  "en": "Off with [target_character.GetHerHis] head.",
+  "uk": "[target_character.GetName] заслуговує на страту."
+ },
+ "flavor_mam.20.a.entry": {
+  "en": "Off with his head.",
+  "uk": ""
+ },
+ "flavor_mam.20.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] are in the wrong!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] не праві!"
+ },
+ "flavor_mam.20.b.entry": {
+  "en": "The $nobles_estate$ are in the wrong!",
+  "uk": ""
+ },
+ "flavor_mam.20.desc": {
+  "en": "During the past few weeks, influential members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have come to blows with one of the $mamluks$ of the old guard, [target_character.GetName]. The fruits of the dispute are none other than local administration in [target_province.GetName]. According to witness accounts, skirmishes between the two factions have broken out and constantly disturb the peace. Should we not act, such behavior will only spread like wildfire...",
+  "uk": "Кілька тижнів тому впливові [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вступили в конфлікт з одним із мамлюків старої гвардії на ім'я [target_character.GetName]. Яблуком розбрату стала провінція [target_province.GetName]. Очевидці кажуть, що між двома таборами то й діло відбуваються сутички, які не дають людям жити спокійно. Якщо ми нічого не вдіємо, таких випадків стане більше…"
+ },
+ "flavor_mam.20.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Clashes with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]",
+  "uk": "[target_character.GetNameWithNoTooltip] та [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] у розбіжностях"
+ },
+ "flavor_mam.21.a": {
+  "en": "Let [target_character.GetHerHim] do as [target_character.GetSheHe] wants.",
+  "uk": "Нехай робить що хоче."
+ },
+ "flavor_mam.21.a.entry": {
+  "en": "Let him do as he wants.",
+  "uk": ""
+ },
+ "flavor_mam.21.b": {
+  "en": "[target_character.GetSheHe|U] has crossed a line!",
+  "uk": "Це вже занадто!"
+ },
+ "flavor_mam.21.b.entry": {
+  "en": "He has crossed a line!",
+  "uk": ""
+ },
+ "flavor_mam.21.desc": {
+  "en": "It has come to our attention that ever since [target_character2.GetName] was coronated, [target_character.GetShortName] has resorted to refusing to collect taxes from [target_character.GetHerHis] local stronghold in [target_location.GetName] and instead has taken up to usurping food, resources, and the freedoms of the locals, resulting in province-wide abuse that threatens prosperity!",
+  "uk": "З тих пір, як [Select_CString(target_character2.IsFemale, 'була коронована', 'був коронований' )] [target_character2.GetName], [target_character.GetShortName] відмовляється стягувати податки зі своєї фортеці в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. Замість цього [Select_CString(target_character.IsFemale, 'вона', 'він' )] гнобить місцевих жителів і забирає у них продовольство та ресурси. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] дії починають загрожувати благополуччю всієї провінції!"
+ },
+ "flavor_mam.21.title": {
+  "en": "Power Abuse in [target_location.GetNameWithNoTooltip]",
+  "uk": "Зловживання владою в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mam.22.a": {
+  "en": "Side with [target_character2.GetShortNameWithNoTooltip], the old ways are to be respected.",
+  "uk": "[target_character2.GetShortNameWithNoTooltip] [Select_CString(target_character2.IsFemale, 'права', 'правий' )]. Вік та досвід треба поважати."
+ },
+ "flavor_mam.22.a.entry": {
+  "en": "Side with him, the old ways are to be respected.",
+  "uk": ""
+ },
+ "flavor_mam.22.b": {
+  "en": "Get rid of the troublemaker!",
+  "uk": "Позбудемося [Select_CString(target_character2.IsFemale, 'бунтарки', 'бунтаря' )]!"
+ },
+ "flavor_mam.22.desc": {
+  "en": "As the new generation of $mamluks$ seizes every facet of our great country, many of the old guard are resistant to this change. In an attempt to cling to power, [target_character2.GetName] has brought forth complaints over [target_character2.GetHerHis] treatment at the hands of [target_character.GetName], who was recently granted the former's position.",
+  "uk": "Могутність молодих мамлюків неухильно зростає, що не може не хвилювати стару гвардію. Намагаючись утримати владу, [target_character2.GetName] звинувачує мамлюка на ім'я [target_character.GetName], [Select_CString(target_character.IsFemale, 'яка', 'який' )] нещодавно [Select_CString(target_character.IsFemale, 'зайняла', 'зайняв' )] [Select_CString(target_character2.IsFemale, 'її', 'його' )] посаду, в неналежному поводженні."
+ },
+ "flavor_mam.22.title": {
+  "en": "Old Clashes with New",
+  "uk": "Боротьба старої та нової гвардії"
+ },
+ "flavor_mam.23.a": {
+  "en": "A sign of our prosperity and piety!",
+  "uk": "Це символ нашого процвітання та благочестя!"
+ },
+ "flavor_mam.23.desc": {
+  "en": "Recently commissioned by [target_character.GetName], a beautiful mosque-madrasa sits proudly in the center of [target_location.GetName], akin to a crown jewel. Its size is quite remarkable, a testament to the craftsmanship of our engineers. An inscription upon the wall of the building congratulates the chief architect for his brilliant use of innovative design techniques and care towards the workers, as none fell ill during its construction.",
+  "uk": "Нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale, 'доручила', 'доручив' )] побудувати чудову мечеть в [target_location.Custom('LR_PREP')|l] [target_location.GetName] — і ось вона вже гордо височить у самому центрі, наче прекрасний дорогоцінний камінь. Її розміри вражають уяву та свідчать про неймовірну майстерність наших інженерів. На стіні будівлі можна прочитати напис про те, що наш головний архітектор використав при зведенні цієї мечеті новаторські методи проєктування та дбайливо ставився до своїх робітників, тому ніхто не постраждав."
+ },
+ "flavor_mam.23.entry": {
+  "en": "The Sultan's Mosque-Madrasa in Cairo",
+  "uk": ""
+ },
+ "flavor_mam.23.historical_info": {
+  "en": "Constructed at some point between 1356 to 1363 during the Bahri $mamluk$ era under the direction of Sultan An-nāṣir Ḥasan, the mosque stands out for its grand scale and pioneering architectural features. Even today, it remains one of Cairo's most awe-inspiring historical landmarks. The construction is said to have taken about 3 years, while labor costs and project management is estimated to have cost around 30,000 dirhams every day. The project was supervised by Muḥammad ibn Bilik al-Muḥsini, a local noble.",
+  "uk": "Ця мечеть, побудована в епоху бахрітів під керівництвом мамлюцького султана ан-Насіра Хасана між 1356 та 1363 роками, вражає своїми гігантськими розмірами та сміливими архітектурними рішеннями. Донині вона залишається однією з найдивовижніших пам'яток Каїра. Кажуть, що її зведення зайняло близько трьох років, а на оплату праці будівельників та організацію робіт йшло приблизно 30 000 дирхамів на день. Цей проєкт курирував місцевий дворянин Мухаммад ібн Білік аль-Мухсіні."
+ },
+ "flavor_mam.23.title": {
+  "en": "Mosque-Madrasa of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його' )] мечеть"
+ },
+ "flavor_mam.24.a": {
+  "en": "It is but a sad state of affairs...",
+  "uk": "До чого сумна ситуація…"
+ },
+ "flavor_mam.24.desc": {
+  "en": "The passing of [target_character2.GetName] saw our treasury and influence run dry. With each passing day, the powers that once repsected our authority and performed our bidding now turn to forsake and oppose us. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] lies in shambles and each succesive ruler fails to stabilize our crumbling legitimacy. To that end, [target_character.GetName] is but the latest to try and salvage this dire situation. Despite [target_character.GetHerHis] efforts, nobles and $mamluks$ alike have openly disparaged our name.",
+  "uk": "Після того, як [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'покинула', 'покинув' )] нас, наша скарбниця спорожніла, а вплив — значно ослаб. Ті, хто раніше поважав нас і виконував будь-які наші накази, тепер налаштований проти нас. [ROOT.GetCountry.GetGovernment.GetCourtTitle] лежить у руїнах, і жоден правитель не може повернути нам колишню славу. [target_character.GetName] — єдина людина, яка намагається врятувати нас від неминучої загибелі. Незважаючи на всі [Select_CString(target_character.IsFemale, 'її', 'його' )] зусилля, дворяни та мамлюки продовжують відкрито глузувати з нас."
+ },
+ "flavor_mam.24.entry": {
+  "en": "$flavor_mam.24.title$",
+  "uk": ""
+ },
+ "flavor_mam.24.historical_info": {
+  "en": "In reality, 1341 marked the death of Al-Nāṣir Muḥammad. Upon his passing, the Empire would see a succession of over 10 Sultans in the short span of 15 years, some even reigned for fewer than a handful of months. This period is characterized by political instability, to the degree that most figures were Sultans in name only, with no real power.",
+  "uk": "Після смерті ан-Насіра Мухаммада в 1341 році, в Імперії всього за 15 років змінилося понад 10 султанів, причому деякі з них правили всього пару місяців. Цей період характеризується серйозною політичною нестабільністю: багато людей, які зайняли трон, не мали реальної влади, а лише називалися султанами."
+ },
+ "flavor_mam.24.title": {
+  "en": "Political Instability",
+  "uk": "Політична нестабільність"
+ },
+ "flavor_mam.25.a": {
+  "en": "There was never any doubt.",
+  "uk": "Хто б сумнівався."
+ },
+ "flavor_mam.25.desc": {
+  "en": "The past few years have seen our political authority questioned. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and $mamluks$ alike sought to benefit from the chaos that our [ROOT.GetCountry.GetGovernment.GetCourtTitle] had succumbed in. However, under the guiding hand of [target_character.GetName], we have restored order across our domain, reining in all rogue elements within our administration and bringing an end to a very turbulent era!",
+  "uk": "За останні кілька років ми майже втратили політичний авторитет. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] та мамлюки спробували витягти вигоду з хаосу, в який занурився наш двір. Проте все змінилося, коли до влади [Select_CString(target_character.IsFemale,'прийшла', 'прийшов')] [target_character.GetName]. Під [Select_CString(target_character.IsFemale,'її', 'його')] началом ми навели порядок у своїх володіннях, приборкали всіх незгодних і тим самим поклали кінець неспокійним часам!"
+ },
+ "flavor_mam.25.entry": {
+  "en": "$flavor_mam.25.title$",
+  "uk": ""
+ },
+ "flavor_mam.25.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] in Name?",
+  "uk": "Нехай славиться [ROOT.GetCountry.GetGovernment.GetRulerTitle]?"
+ },
+ "flavor_mam.26.a": {
+  "en": "Very well.",
+  "uk": "Славно."
+ },
+ "flavor_mam.26.b": {
+  "en": "We will be frugal, instead.",
+  "uk": "Нам варто берегти свої кошти."
+ },
+ "flavor_mam.26.desc": {
+  "en": "A hub of knowledge, enlightenment, and ample trade between the depths of [ShowContinentName('africa')] and the Mediterranean, [target_location.GetName] is the beating heart of our growing [ROOT.GetCountry.GetFlavorRank]. The citadel has served generations of the most illustrious and prestigious rulers. Our current [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')] has recently been presented with ambitious plans to expand the various facets of it that would involve a new mosque-madrasa, an expanded audience hall as well as a center to manufacture Kiswah.",
+  "uk": "[target_location.GetName] — центр знань, просвітництва та торгівлі між #TOOLTIP:CONTINENT,africa,X #L Африкою#!#! та Середземномор'ям,— недаремно називають серцем [ROOT.GetCountry.Custom('rank_ru_GEN')]. Ця цитадель довгий час була надійним оплотом наших найвеличніших правителів. Тепер [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')] збирається реалізувати амбітний план з поліпшення цитаделі, що включає будівництво нової мечеті-медресе, просторого залу для урочистих прийомів, а також центру з виробництва кісви."
+ },
+ "flavor_mam.26.entry": {
+  "en": "The Citadel of Cairo",
+  "uk": ""
+ },
+ "flavor_mam.26.title": {
+  "en": "The Citadel of [target_location.GetNameWithNoTooltip]",
+  "uk": "Цитадель [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mam.26.title_fallback": {
+  "en": "The Citadel of [ShowLocationNameWithNoTooltip('cairo')]",
+  "uk": "Місто-цитадель [ShowLocationNameWithNoTooltip('cairo')]"
+ },
+ "flavor_mam.27.a": {
+  "en": "It is necessary.",
+  "uk": "Саме це нам і потрібно."
+ },
+ "flavor_mam.27.b": {
+  "en": "We cannot disturb the status quo.",
+  "uk": "Краще залишимо все як є."
+ },
+ "flavor_mam.27.desc": {
+  "en": "In the wake of political instability and military stagnation, many reformers within our [ROOT.GetCountry.GetGovernment.GetCourtTitle] have suggested a new breed of soldiers to replace our aging and blunt $mamluks$. Known as the 'Children of the People' these elite soldiers shall not be the byproduct of slavery or manumission.",
+  "uk": "Намагаючись подолати політичну нестабільність та застій в армії, реформатори нашого двору запропонували замінити закостенілих старіючих мамлюків новою породою солдатів. Набирати цих елітних воїнів, прозваних «дітьми народу», слід із вільних людей, а не рабів."
+ },
+ "flavor_mam.27.entry": {
+  "en": "$flavor_mam.27.title$",
+  "uk": ""
+ },
+ "flavor_mam.27.title": {
+  "en": "The Awlād al-Nās",
+  "uk": "Аулад аль-Нас"
+ },
+ "flavor_mam.28.a": {
+  "en": "We must refocus our military agendas immediately!",
+  "uk": "Терміново переглянути вимоги до солдатів!"
+ },
+ "flavor_mam.28.b": {
+  "en": "A matter of no concern.",
+  "uk": "Турбуватися ні про що."
+ },
+ "flavor_mam.28.desc": {
+  "en": "For years, our attention in military matters has shifted away from our auxiliary troops. The sweeping devastation caused by recent plagues in combination with the attempted reformation of the lower ranks and the redistribution of iqṭā' lands has led to this. Soldiers that were once bestowed great glory and prestige to accompany our $mamluks$ in battle have now become ruffians, their ranks compromised.\\n\\nRecent changes in their registration requirements have resulted in military training not being a prerequisite for membership in these units. The situation is so bad that many $a_halqah_unit$ squads are made up of elderly or disabled folk, or even children...",
+  "uk": "Довгі роки ми не звертали уваги на свої допоміжні війська. Цей фактор, недавні епідемії, спроба реформування нижчих чинів та перерозподіл державних земель, виданих як іқта, призвели до серйозної деградації воїнів халка. Солдати, які колись були удостоєні великої честі битися пліч-о-пліч з мамлюками, перетворилися на звичайних головорізів, а також втратили повагу та довіру з боку суспільства.\\n\\nНещодавно почала діяти норма, згідно з якою для вступу до їхніх лав не потрібна військова підготовка. Зараз багато загонів халка складаються зі старих, інвалідів і навіть дітей. Ситуація близька до катастрофічної…"
+ },
+ "flavor_mam.28.entry": {
+  "en": "$flavor_mam.28.title$",
+  "uk": ""
+ },
+ "flavor_mam.28.title": {
+  "en": "The Deterioration of the $a_halqah_unit$",
+  "uk": "Деградація воїнів халка"
+ },
+ "flavor_mam.29.a": {
+  "en": "We must maintain knowledgable advisors.",
+  "uk": "Нам потрібні досвідчені радники."
+ },
+ "flavor_mam.29.b": {
+  "en": "Focus our efforts in the preservation of text and tradition.",
+  "uk": "Зосередимося на збереженні текстів і традицій."
+ },
+ "flavor_mam.29.c": {
+  "en": "The chancery takes precedence.",
+  "uk": "Канцелярія — найважливіший відділ."
+ },
+ "flavor_mam.29.desc": {
+  "en": "A close-knit and tightly professional caste of bureaucrats, our scribes and cabinet members are the cogs that maintain the balance of our great [ROOT.GetCountry.GetFlavorRank] and its administrative apparatus. The men selected to serve in it are some of our best and brightest! Truly, each of them is well-versed in a range of topics such as political theory, the $common_string_quran$, science, arts, and even prose and poetry.\\n\\nThe offices occupied by these wise individuals are vital for our prosperity. From the dawādār, master of the inkwell, who at times serves as chief secretary, to the kātib al-sirr, [target_character99.GetShortName]'s private advisor and the sāḥib diwān al-inshā', head of the chancery.",
+  "uk": "Наші згуртовані та високопрофесійні писарі і члени ради забезпечують рівновагу серед жителів та чиновників [ROOT.GetCountry.Custom('CF_RP')|l]. Щоб потрапити до ради, люди проходять серйозний відбір, тому тут працюють тільки найкращі з найкращих! Кожен співробітник розбирається в політичній теорії, релігії, науці, мистецтві, навіть у прозі та поезії.\\n\\nУсі посади, на яких працюють ці інтелектуали, допомагають нашому народу досягти процвітання: і давадар, володар чорнила, який періодично виконує функції головного секретаря, і катіб аль-сірр, чиї поради дуже цінує [target_character99.GetShortName], і сахіб диван аль-інша, глава канцелярії."
+ },
+ "flavor_mam.29.entry": {
+  "en": "$flavor_mam.29.title$",
+  "uk": ""
+ },
+ "flavor_mam.29.title": {
+  "en": "The $mamluk$ Administration's Dynastic Scribes",
+  "uk": "Династичні писарі в мамлюцькому апараті"
+ },
+ "flavor_mam.3.a": {
+  "en": "Send an embassy to Cyprus",
+  "uk": "Відправити посольство на Кіпр"
+ },
+ "flavor_mam.3.b": {
+  "en": "What the infidels do is not relevant to us",
+  "uk": "Справи невірних нас не стосуються"
+ },
+ "flavor_mam.3.desc": {
+  "en": "In 1458, the Sultan received an illegitimate son of the King of Cyprus, who attempted to wrest his father's crown away from his half-sister who became queen. The Sultan decorated him with a 'robe of honor', and promised to install him as King of Cyprus. When the Queen offered a large tribute to Cairo, the Sultan relented and recognized the Queen's authority over Cyprus. As Jaques had befriended several $mamluk$ guards, they protested and attacked the Cypriot embassy in protest.\\nWhat shall we do?",
+  "uk": "У 1458 році раптом з'явився позашлюбний син короля Кіпру, який спробував відібрати корону у правлячої королеви — його зведеної сестри. Султан дарував йому «мантію честі» і пообіцяв проголосити королем Кіпру. Коли королева запропонувала сплачувати Каїру велику данину, султан пом'якшав і визнав її владу над Кіпром. Обдурений Яків та його друзі з гвардійців-мамлюків виступили з протестом і напали на посольство Кіпру.\\nЩо ж нам робити?"
+ },
+ "flavor_mam.3.entry": {
+  "en": "$flavor_mam.3.title$",
+  "uk": ""
+ },
+ "flavor_mam.3.title": {
+  "en": "The King of Cyprus",
+  "uk": "Король Кіпру"
+ },
+ "flavor_mam.30.a": {
+  "en": "A worthwhile endeavor.",
+  "uk": "Варта ініціатива."
+ },
+ "flavor_mam.30.b": {
+  "en": "We care not for such frivolities.",
+  "uk": "Такі дрібниці нас не цікавлять."
+ },
+ "flavor_mam.30.desc": {
+  "en": "Our lands stretch beyond the reaches of [ShowRegionName('egypt_region')] and [ShowAreaName('levant_area')]. Many people of diverse backgrounds, traditions and points of view, have found themselves under our banner. To properly govern such a realm, we must ensure that the division of our country is carefully drafted. To pay close attention to local governance, ensure prosperity and obedience, we have to invest our precious coin...",
+  "uk": "У нашій великій державі, землі якої простягаються за межі #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#! та #TOOLTIP:AREA,levant_area,X #L Леванту#!#!, живе безліч народів зі своїми традиціями та поглядами. Такою державою неможливо керувати ефективно, якщо її не поділити на частини, але за місцевими властями треба стежити, щоб вони працювали на спільне благо та залишалися вірні своїм покровителям. На це знадобляться чималі кошти…"
+ },
+ "flavor_mam.30.entry": {
+  "en": "The Division of Egypt Region",
+  "uk": ""
+ },
+ "flavor_mam.30.title": {
+  "en": "The Division of [ShowRegionNameWithNoTooltip('egypt_region')]",
+  "uk": "Поділ Єгипту"
+ },
+ "flavor_mam.31.a": {
+  "en": "Desperate times.",
+  "uk": "Який жахливий час."
+ },
+ "flavor_mam.31.b": {
+  "en": "Take what you can but care for the people.",
+  "uk": "Робіть те, що треба, але подбайте про людей."
+ },
+ "flavor_mam.31.c": {
+  "en": "Let us not disturb the peace...",
+  "uk": "Не будемо порушувати мир…"
+ },
+ "flavor_mam.31.desc": {
+  "en": "Economic mismanagement, the ravages of war and the uprising of our people have led to a substantial amount of debt within our treasury. As time goes by, our advisors get ever more worried about the repayment of each loan. As some of them approach [target_character.GetName], they push forth a proposal to completely rob the entirety of our peasantry from their wealth, in a desperate attempt to meet our financial responsibilities...",
+  "uk": "Помилки в економіці, руйнівні наслідки війни та народні повстання призвели до виснаження скарбниці та накопичення боргів. Зараз наші радники ламають голову, де взяти кошти на погашення кожної позики. [target_character.GetName] то й діло вислуховує різні пропозиції, остання з яких — відібрати в наших селян усі багатства, щоб виконати наші фінансові зобов'язання…"
+ },
+ "flavor_mam.31.entry": {
+  "en": "$flavor_mam.31.title$",
+  "uk": ""
+ },
+ "flavor_mam.31.historical_info": {
+  "en": "During the early 15th century, little is known about the attempts to regain financial stability across the $mamluk$ realm. However, in one instance, the ustādār that oversaw the private office (dīwān al-mufrad), in an effort to replenish the royal treasury, was tasked with conducting extensive fiscal expeditions into the provinces. During these expeditions, taxes were forcibly collected, a process that closely resembled plundering, albeit under the pretext of recovering unpaid dues.",
+  "uk": "Ми мало що знаємо про те, як у Мамлюцькому султанаті намагалися повернути фінансову стабільність на початку XV століття. В одному випадку устадару, який контролював фінансове відомство Диван аль-Муфрад, було доручено відправитися в провінції для примусового збору податків. Хоча формальною метою поїздок було стягнення боргів, весь цей захід більше нагадував грабунок."
+ },
+ "flavor_mam.31.title": {
+  "en": "Ustādār Reforms",
+  "uk": "Реформи устадара"
+ },
+ "flavor_mam.32.a": {
+  "en": "Make effort to institutionalize the Furūsiyya.",
+  "uk": "Ми займемося інституціоналізацією фурусії."
+ },
+ "flavor_mam.32.b": {
+  "en": "Our armies function well enough.",
+  "uk": "Наша армія і так непогано справляється."
+ },
+ "flavor_mam.32.desc": {
+  "en": "The [ROOT.GetCountry.GetAdjective] state has long relied on its unique military doctrine, the Furūsiyya, a set of chivalric practices rooted in both [ShowReligionGroupAdjective('muslim')] principles and ancient warrior traditions. Passed down through the centuries, this martial code emphasizes discipline, horsemanship, and close combat, serving as the backbone of our forces. However, as warfare evolves with new tactics and technologies from both East and West, some among our military elite argue for refining and institutionalizing these principles.",
+  "uk": "#L [ROOT.GetCountry.GetAdjective|U]а#! держава давно покладається на свій унікальний кодекс, відомий як «фурусія» — збірник лицарських правил, заснований на #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламських#!#! принципах та давніх воїнських традиціях. У фурусії основна увага приділяється дисципліні, мистецтву верхової їзди та ближнього бою, тобто всьому тому, що повинен знати і вміти воїн. Проте час не стоїть на місці: на Заході та Сході розробляють нові бойові тактики та технології. З цієї причини деякі наші високопоставлені військові виступають за перегляд фурусії та інституціоналізацію нових принципів."
+ },
+ "flavor_mam.32.entry": {
+  "en": "$flavor_mam.32.title$",
+  "uk": ""
+ },
+ "flavor_mam.32.title": {
+  "en": "Refining the Furūsiyya",
+  "uk": "Перегляд фурусії"
+ },
+ "flavor_mam.33.a": {
+  "en": "Invite [target_character.GetHimHer] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] виграє від [Select_CString(target_character.IsFemale, 'її', 'його' )] присутності!"
+ },
+ "flavor_mam.33.a.entry": {
+  "en": "Invite him to our court!",
+  "uk": ""
+ },
+ "flavor_mam.33.b": {
+  "en": "We cannot afford to invest in scholars now.",
+  "uk": "Зараз ми не можемо вкладатися в учених."
+ },
+ "flavor_mam.33.desc": {
+  "en": "The distinguished scholar and historian [target_character.GetName], whose writings and theories on history, sociology, and economics have garnered acclaim throughout the [ShowRegionName('maghreb_region')], has arrived in [ShowLocationName('cairo')]. As one of the most innovative minds of our time, [target_character.GetHisHer|U] insights could serve our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in invaluable ways, guiding us not only in governance but in understanding the underlying principles that strengthen a state.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale, 'видатна вчена', 'видатний вчений' )] та історик, чиї історичні, соціологічні та економічні праці і теорії отримали широке визнання в #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!, [Select_CString(target_character.IsFemale, 'прибула', 'прибув' )] до [ShowLocationName('cairo')]. Цей геній сучасності може бути вкрай корисний при [ROOT.GetCountry.GetCourt.Custom('parliament_ru_PREP')|l]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] новаторські ідеї в галузі управління та принципів зміцнення держави стануть для нас безцінною підмогою."
+ },
+ "flavor_mam.33.entry": {
+  "en": "The Arrival of Ibn Khaldun",
+  "uk": ""
+ },
+ "flavor_mam.33.historical_info": {
+  "en": "Khaldūn was a prominent Arab historian, philosopher, and sociologist, widely regarded as one of the founding figures of historiography, sociology, and economics. His works laid out groundbreaking theories that were much later formed into social sciences.",
+  "uk": "Хальдун був видатним арабським істориком, філософом і соціологом. Його заслужено вважають засновником історіографії, соціології та економіки. У своїх працях він викладав новаторські теорії, які багато років потому отримали розвиток у соціальних науках."
+ },
+ "flavor_mam.33.title": {
+  "en": "The Arrival of [target_character.GetNameWithNoTooltip]",
+  "uk": "Прибуття Хальдуна"
+ },
+ "flavor_mam.34.a": {
+  "en": "Grant [khaldun.GetHimHer] leave to mourn [khaldun.GetHisHer] loss.",
+  "uk": "Дати [Select_CString(khaldun.IsFemale,'їй', 'йому')] оплакати свою втрату."
+ },
+ "flavor_mam.34.a.entry": {
+  "en": "Grant him leave to mourn his loss.",
+  "uk": ""
+ },
+ "flavor_mam.34.b": {
+  "en": "The tragedy is a private matter, and life must go on.",
+  "uk": "Особисті трагедії не повинні заважати роботі."
+ },
+ "flavor_mam.34.desc": {
+  "en": "The renowned scholar [khaldun.GetName] has suffered an unimaginable loss. [khaldun.GetHisHer|U] family, who had set out from [GetCountry('TUN').GetName] to join [khaldun.GetHimHer] in [ShowLocationName('cairo')], faced a tragic fate when their ship was caught in a violent storm near [ShowLocationName('alexandria')]. The vessel sank before it could reach safety, and no survivors have been found. This devastating news has plunged [khaldun.GetNameWithNoTooltip] into deep sorrow, and [khaldun.GetHisHer] once-vibrant spirit now seems clouded by grief. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] feels the weight of [khaldun.GetHisHer] loss, and many wonder how best to support our esteemed advisor in these difficult times.",
+  "uk": "[Select_CString(khaldun.IsFemale,'Відома вчена', 'Відомий вчений')] [khaldun.GetName] переживає важку втрату. Корабель, на якому [Select_CString(khaldun.IsFemale,'її', 'його')] сім'я пливла до [ShowLocationName('cairo')], потрапив у жахливий шторм поблизу #TOOLTIP:LOCATION,alexandria_tt,X #L Александрії#!#!. Судно затонуло далеко від суші, і жоден пасажир не вижив. [khaldun.GetNameWithNoTooltip] поза себе від горя. Від [Select_CString(khaldun.IsFemale,'її', 'його')] колишньої енергійності не залишилося й сліду. [ROOT.GetCountry.GetGovernment.GetCourtTitle] потопає в печалі. Люди задаються питанням, як краще підтримати [Select_CString(khaldun.IsFemale,'нашу шановну радницю', 'нашого шановного радника')] в ці важкі часи."
+ },
+ "flavor_mam.34.entry": {
+  "en": "$flavor_mam.34.title$",
+  "uk": ""
+ },
+ "flavor_mam.34.historical_info": {
+  "en": "Sultan Barqūq shared a close and respectful relationship with Khaldūn. This bond led Barqūq to negotiate with the ruler of Tunis to allow Khaldūn's family to leave North Africa and join him in Cairo. Tragically, during their journey, the ship carrying Khaldūn's family foundered near Alexandria's harbor, resulting in the loss of all lives on board.",
+  "uk": "Султан Баркук був другом Хальдуна і дуже його поважав. Він попросив правителя Тунісу дозволити сім'ї вченого покинути Північну Африку та перебратися до Каїра. На жаль, корабель, на якому пливла сім'я Хальдуна, затонув недалеко від Александрійської гавані. Ніхто з пасажирів не вижив."
+ },
+ "flavor_mam.34.title": {
+  "en": "A Family Tragedy",
+  "uk": "Сімейна трагедія"
+ },
+ "flavor_mam.35.a": {
+  "en": "Provide the required funds.",
+  "uk": "Виділити необхідні кошти."
+ },
+ "flavor_mam.35.b": {
+  "en": "We cannot spare the funds.",
+  "uk": "У нас немає зайвих коштів."
+ },
+ "flavor_mam.35.desc": {
+  "en": "Before arriving in [ShowRegionName('egypt_region')], [khaldun.GetName] dedicated [khaldun.GetHerselfHimself] to writing $kitab_al_ibar$, a monumental history initially intended to chronicle the Berbers and their societies. Now, inspired by [khaldun.GetHisHer] time in [ShowRegionNameWithNoTooltip('egypt_region')], [khaldun.GetNameWithNoTooltip] aspires to expand [khaldun.GetHisHer] work into a universal history. However, such an ambitious project requires considerable resources to support research, materials, and assistants. [khaldun.GetNameWithNoTooltip] has turned to [target_ruler.GetName], seeking funding to complete this masterpiece.",
+  "uk": "До свого прибуття до #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#! [khaldun.GetName] [Select_CString(khaldun.IsFemale,'присвятила', 'присвятив')] себе написанню «Кітаб аль-ібар» — монументальної роботи про історію та суспільний устрій берберів. Тепер [khaldun.GetNameWithNoTooltip], [Select_CString(khaldun.IsFemale,'натхненна', 'натхненний')] життям у #TOOLTIP:REGION,egypt_region,X #L Єгипті#!#!, [Select_CString(khaldun.IsFemale,'вирішила', 'вирішив')] не зупинятися на досягнутому та задокументувати історію всього світу. Проте для реалізації такого амбітного проєкту треба проводити нові дослідження, шукати джерела та матеріали, а також наймати помічників. Все це вимагає серйозних вкладень."
+ },
+ "flavor_mam.35.entry": {
+  "en": "Ibn $khaldun$ Requests Funding",
+  "uk": ""
+ },
+ "flavor_mam.35.title": {
+  "en": "[khaldun.GetNameWithNoTooltip] Requests Funding",
+  "uk": "[khaldun.GetNameWithNoTooltip] запитує кошти"
+ },
+ "flavor_mam.36.a": {
+  "en": "A glorious achievement!",
+  "uk": "Видатне досягнення!"
+ },
+ "flavor_mam.36.desc": {
+  "en": "Our investment in [khaldun.GetName]'s scholarly work has borne extraordinary fruit. After years of dedication, [khaldun.GetSheHe] has completed the $kitab_al_ibar$, a masterpiece that surpasses all expectations. What began as a history of the [ShowCultureName('mozabite')] peoples has evolved into a universal history that examines the rise and fall of civilizations, as well as the deeper philosophical aspects of human society. [khaldun.GetHisHer|U] insightful theories will resonate accross generations and scholars from far and wide will surely seek to study his writings.",
+  "uk": "Наші вкладення в науку окупилися сторицею. Після років ретельної праці [khaldun.GetName] завершує «Кітаб аль-ібар» — наукову роботу, яка перевершила всі, навіть найсміливіші очікування. Дослідження #TOOLTIP:CULTURE,mozabite_tt,X #L мзабітів#!#! перетворилося на монументальний твір, де вивчаються причини злету та падіння світових цивілізацій, а також глибинні, філософські аспекти людського суспільства. Сміливі ідеї автора безсумнівно перевернуть свідомість наших нащадків, а вчені з усього світу вивчатимуть [Select_CString(khaldun.IsFemale,'її', 'його')] книги."
+ },
+ "flavor_mam.36.entry": {
+  "en": "Ibn $khaldun$ Finishes the $kitab_al_ibar$",
+  "uk": ""
+ },
+ "flavor_mam.36.historical_info": {
+  "en": "$kitab_al_ibar$ is a comprehensive historical encyclopedia that not only explores history of the world, but also delves into various concepts such as social cohesion and the dynamics of political and religious impact on the society. $kitab_al_ibar$ represents one of the earliest attempts to systematically study history and society using a scientific and analytical approach, with lasting impacts on the fields of history, sociology, and political science.",
+  "uk": "«Кітаб аль-ібар» — всеохопна історична енциклопедія, де досліджується не лише всесвітня історія, але й різні концепції, такі як єдність суспільства та динаміка політичного й релігійного впливу на соціум. Це одна з перших системних праць з історії та соціології, що включає глибокий аналіз історичних, соціальних і політичних процесів, який справив великий вплив на розвиток науки."
+ },
+ "flavor_mam.36.title": {
+  "en": "[khaldun.GetNameWithNoTooltip] Finishes $kitab_al_ibar$",
+  "uk": "[khaldun.GetNameWithNoTooltip] завершує «Кітаб аль-ібар»"
+ },
+ "flavor_mam.37.a": {
+  "en": "A great addition to our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона', 'Він')] прикрасить [ROOT.GetCountry.GetGovernment.GetCourtTitle] своєю присутністю!"
+ },
+ "flavor_mam.37.a.entry": {
+  "en": "A great addition to our court!",
+  "uk": ""
+ },
+ "flavor_mam.37.desc": {
+  "en": "Our decision to welcome the esteemed scholar [khaldun.GetName] to [ShowLocationName('cairo')] has proven fruitful. [khaldun.GetHisHer|U] monumental work has inspired a generation of scholars and historians, and [khaldun.GetHisHer] teachings continue to shape the minds of those who study under [khaldun.GetHimHer]. Among [khaldun.GetHisHer] most promising students is [target_character.GetName], a brilliant historian with an avid interest in [ShowRegionNameWithNoTooltip('egypt_region')]'s rich past and the broader world. [target_character.GetSheHe|U] is now ready to serve [ROOT.GetCountry.GetName], offering [target_character.GetHisHer] expertise in recording and preserving our heritage.",
+  "uk": "Наше рішення запросити до #TOOLTIP:LOCATION,cairo_tt,X #L Каїру#!#! [Select_CString(khaldun.IsFemale,'знамениту вчену', 'знаменитого вченого')] принесло свої плоди. [khaldun.GetName] та [Select_CString(khaldun.IsFemale,'її', 'його')] монументальні праці надихнули ціле покоління вчених та істориків, а [Select_CString(khaldun.IsFemale,'її', 'його')] ідеї продовжують справляти великий вплив на [Select_CString(khaldun.IsFemale,'її', 'його')] учнів. Серед них особливо виділяється [target_character.GetName] — [Select_CString(target_character.IsFemale,'блискуча вчена', 'блискучий вчений')], [Select_CString(target_character.IsFemale,'яка', 'який')] виявляє живий інтерес до багатої історії #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#! та всього світу. [Select_CString(target_character.IsFemale,'Вона', 'Він')] бажає зберегти спадщину #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! та пропонує нам свої послуги."
+ },
+ "flavor_mam.37.entry": {
+  "en": "Al-Maqrizi",
+  "uk": ""
+ },
+ "flavor_mam.37.title": {
+  "en": "[khaldun.GetNameWithNoTooltip]'s Best Student",
+  "uk": "[khaldun.GetNameWithNoTooltip] та [Select_CString(khaldun.IsFemale,'її', 'його')] [Select_CString(target_character.IsFemale,'найкраща учениця', 'найкращий учень')]"
+ },
+ "flavor_mam.38.a": {
+  "en": "Fund the local authorities to suppress them.",
+  "uk": "Виділити кошти місцевим властям на боротьбу з бедуїнами."
+ },
+ "flavor_mam.38.a.tt": {
+  "en": "[ShowCultureNameWithNoTooltip('bedouin_culture')] [pops|e] in every owned [location|e] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволення')|e] бедуїнських [Concept('pops','груп населення')|e] у всіх наших [Concept('location','районах')|e] знизиться на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
+ },
+ "flavor_mam.38.b": {
+  "en": "We should not meddle in their tribal affairs.",
+  "uk": "Не варто втручатися в племінні розбірки."
+ },
+ "flavor_mam.38.desc": {
+  "en": "The constant skirmishes and rivalries among [ShowCultureName('bedouin_culture')] tribes have escalated, creating severe disruptions along our trade routes. Merchants and caravans are frequently ambushed, goods are plundered, and once-reliable trade roads have become perilous to travel. The damage to our income is mounting, and the instability threatens our influence over critical trade networks.",
+  "uk": "Суперництво між племенами #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнів#!#! загострилося. Їхні постійні сутички значно ускладнюють торгівлю. Вони грабують купців і каравани, і люди бояться подорожувати колись безпечними торговельними шляхами. Ми терпимо серйозні збитки, а наш вплив на важливі торговельні мережі опинився під загрозою."
+ },
+ "flavor_mam.38.entry": {
+  "en": "Bedouin Warfare Disrupts Trade",
+  "uk": ""
+ },
+ "flavor_mam.38.title": {
+  "en": "[ShowCultureNameWithNoTooltip('bedouin_culture')] Warfare Disrupts Trade",
+  "uk": "Набіги бедуїнів на торговців"
+ },
+ "flavor_mam.39.a": {
+  "en": "Move them to [ShowAreaNameWithNoTooltip('upper_egypt_area')].",
+  "uk": "Переселити їх до [ShowAreaNameWithNoTooltip('upper_egypt_area')]."
+ },
+ "flavor_mam.39.b": {
+  "en": "Maintain the status quo.",
+  "uk": "Краще залишити все як є."
+ },
+ "flavor_mam.39.desc": {
+  "en": "To address the persistent conflicts among the [ShowCultureName('bedouin_culture')] tribes disrupting trade and peace in our [ROOT.GetCountry.GetFlavorRank], some advisors have proposed relocating select tribes to [ShowAreaName('upper_egypt_area')]. Separating them from rival groups will hopefully reduce the chances of infighting and should maintain stability within the [ROOT.GetCountry.GetFlavorRank]. If successful, this policy could prevent further tribal skirmishes and protect our trade routes, though at some risk to the loyalty of the [ShowCultureNameWithNoTooltip('bedouin_culture')].",
+  "uk": "Для припинення конфліктів між #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнами#!#!, які заважають торгівлі та порушують мир у [ROOT.GetCountry.Custom('rank_ru_PREP')], деякі радники пропонують переселити частину племен до #TOOLTIP:AREA,upper_egypt_area,X #L Верхнього Єгипту#!#!. Ми сподіваємося, що проживання ворогуючих племен віддалік одне від одного знизить ймовірність міжусобиць і дозволить зберегти стабільність у [ROOT.GetCountry.Custom('rank_ru_PREP')]. У разі успіху ця політика призведе до припинення конфліктів і захистить наші торговельні шляхи від мародерів, але потенційно може зіпсувати наші стосунки з бедуїнами."
+ },
+ "flavor_mam.39.entry": {
+  "en": "Relocating the Bedouins",
+  "uk": ""
+ },
+ "flavor_mam.39.historical_info": {
+  "en": "The Mamluk Sultanate often relocated Bedouin tribes to maintain control and stability. By moving the tribes, the Mamluks aimed to prevent them from becoming a source of rebellion, and to prevent tribal clashes which often negatively impacted trade and internal stability.",
+  "uk": "У Мамлюцькому султанаті була поширена практика переселення бедуїнів для підтримки порядку та стабільності. Мамлюки намагалися придушити заколот у самому його зародку та уникнути племінних міжусобиць, які негативно впливали на торгівлю та підривали стабільність."
+ },
+ "flavor_mam.39.title": {
+  "en": "Relocating the [ShowCultureNameWithNoTooltip('bedouin_culture')] Tribes",
+  "uk": "Переселення бедуїнських племен"
+ },
+ "flavor_mam.4.a": {
+  "en": "Install Him as rightful King!",
+  "uk": "Проголосити його законним королем!"
+ },
+ "flavor_mam.4.b": {
+  "en": "Bribe them...",
+  "uk": "Підкупити їх…"
+ },
+ "flavor_mam.4.c": {
+  "en": "Ignore the Infidels!",
+  "uk": "Проігнорувати невірних!"
+ },
+ "flavor_mam.4.desc": {
+  "en": "The embassy from Cairo has some severe demands upon us. They claim that [target_character.GetName], the illegitimate son of a former King of Cyprus is the legitimate ruler of our Island. What shall we do about it?",
+  "uk": "Посольство Каїра пред'явило нам серйозні вимоги. Вони вважають, що [target_character.GetName], позашлюбний син попереднього короля Кіпру, є законним правителем острова. Що нам зробити?"
+ },
+ "flavor_mam.4.title": {
+  "en": "$mamluk$ Embassy put demands on us!",
+  "uk": "Посольство мамлюків пред'явило нам вимоги!"
+ },
+ "flavor_mam.40.a": {
+  "en": "We will restore its former glory!",
+  "uk": "Ми повернемо маяку колишню велич!"
+ },
+ "flavor_mam.40.b": {
+  "en": "The lighthouse belongs to history.",
+  "uk": "Маяк вже відслужив своє."
+ },
+ "flavor_mam.40.desc": {
+  "en": "The grand [ShowBuildingTypeName('lighthouse_of_alexandria')] once stood as one of the wonders of the ancient world. It was a beacon that guided ships safely into harbor and a symbol of [ShowLocationName('alexandria')]'s influence and wealth, and its towering form dominated the Mediterranean coast for centuries. Unfortunately, this pride of [ShowLocationNameWithNoTooltip('alexandria')] was destroyed by an earthquake in 1323, and nobody was willing to invest in its reconstruction. Lately, many within our [ROOT.GetCountry.GetGovernment.GetCourtTitle] have been suggesting to restore the lighthouse, enhancing the safety of [ShowLocationNameWithNoTooltip('alexandria')]'s harbor but also signaling our commitment to the city's revival as a vital center of trade and culture in the Mediterranean Sea.",
+  "uk": "У давні часи великий #TOOLTIP:BUILDING_TYPE,lighthouse_of_alexandria,X #L Александрійський маяк#!#! вважався одним із чудес світу. Він не тільки вказував шлях до гавані, але й служив символом багатства та могутності #TOOLTIP:LOCATION,alexandria_tt,X #L Александрії#!#!. Протягом століть він залишався справжньою перлиною середземноморського узбережжя. На жаль, гордість #TOOLTIP:LOCATION,alexandria_tt,X #L Александрії#!#! була зруйнована під час землетрусу 1323 року, проте ніхто не захотів вкладати кошти в її відновлення. Останнім часом багато придворних пропонують відреставрувати маяк, щоб захистити кораблі на шляху до Александрійської гавані, а також продемонструвати нашу готовність відродити важливий центр культури та торгівлі в Середземному морі."
+ },
+ "flavor_mam.40.entry": {
+  "en": "The Pride of Alexandria",
+  "uk": ""
+ },
+ "flavor_mam.40.title": {
+  "en": "The Pride of [ShowLocationNameWithNoTooltip('alexandria')]",
+  "uk": "Гордість Александрії"
+ },
+ "flavor_mam.41.a": {
+  "en": "Fund its restoration.",
+  "uk": "Виділити кошти на його відродження."
+ },
+ "flavor_mam.41.b": {
+  "en": "Its past glory will have to remain a memory.",
+  "uk": "Його слава залишилася в минулому."
+ },
+ "flavor_mam.41.desc": {
+  "en": "[ShowBuildingTypeName('al_azhar_madrasa')] has long been a center of knowledge and prestige in [ShowRegionName('egypt_region')]. Once home to countless books and scholars, it faced devastating losses during the transition of [ShowRegionNameWithNoTooltip('egypt_region')] to [ShowReligionName('sunni')] [ShowReligionGroupName('muslim')] under Saladin, who, in an effort to reshape the religious landscape, ordered the destruction of thousands of [ShowReligionAdjective('shia')] texts. Since then, the madrasa has struggled to recover its former status.\\n\\nRestoring [ShowBuildingTypeNameWithNoTooltip('al_azhar_madrasa')] to its former glory would require a significant endowment, but doing so could revitalize learning and scholarship in our [ROOT.GetCountry.GetFlavorRank], perhaps even igniting a new [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Golden Age.",
+  "uk": "З давніх часів #TOOLTIP:BUILDING_TYPE,al_azhar_madrasa,X #L медресе Аль-Азхар#!#! вважається центром знань і найпрестижнішим навчальним закладом #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!. Колись тут працювали видатні вчені, а полиці бібліотеки ламалися від книжок, але все змінилося після того, як до Єгипту прийшов Саладін і приніс із собою #TOOLTIP:RELIGION,sunni_tt,X #L сунізм#!#!. За його наказом було знищено тисячі #TOOLTIP:RELIGION,shia_tt,X #L шиїтських#!#! текстів. Відтоді керівники медресе з усіх сил намагаються відновити його колишній статус.\\n\\nЩоб повернути #TOOLTIP:BUILDING_TYPE,al_azhar_madrasa,X #L Аль-Азхару#!#! колишню велич, знадобиться чимало коштів, але це призведе до відродження науки в [ROOT.GetCountry.Custom('CF_PP')] і, можливо, ініціює настання нового ісламського золотого віку."
+ },
+ "flavor_mam.41.entry": {
+  "en": "The Al Azhar Madrasa",
+  "uk": ""
+ },
+ "flavor_mam.41.historical_info": {
+  "en": "The Mamluks made significant efforts in restoring Al Azhar's prestige and glory. It underwent a major renovation with new college being built outside of the mosque, dormitories for the students being expanded, and having received significant financial funds to support the salaries and stipends.",
+  "uk": "Мамлюки доклали багато зусиль, щоб повернути університету Аль-Азхар колишню велич. Вони провели капітальний ремонт, побудували новий коледж за межами мечеті та студентські гуртожитки, а також вклали великі кошти у виплату зарплат і стипендій."
+ },
+ "flavor_mam.41.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('al_azhar_madrasa')]",
+  "uk": ""
+ },
+ "flavor_mam.42.a": {
+  "en": "Restore its autonomous rule.",
+  "uk": "Відновити автономне правління."
+ },
+ "flavor_mam.42.a.tt": {
+  "en": "[GetCountry('CYP').GetName] will be established as our [ShowSubjectTypeName('vassal')] in [ShowProvinceDefinitionName('cyprus_province')]. We will transfer the ownership of [ShowProvinceDefinitionNameWithNoTooltip('cyprus_province')] and our [cores|e] there to them",
+  "uk": "Влада королівства [GetCountry('CYP').GetName] стане нашими #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалами#!#! на #TOOLTIP:PROVINCE_DEFINITION,cyprus_province,X #L Кіпрі#!#!. Ми передамо їм сам острів і всі наші [Concept('cores', 'національні райони')|e]"
+ },
+ "flavor_mam.42.b": {
+  "en": "The island belongs to us!",
+  "uk": "Острів належить нам!"
+ },
+ "flavor_mam.42.desc": {
+  "en": "Since its capture by the Crusaders during the Third Crusade, [ShowProvinceDefinitionName('cyprus_province')] has served as a staging ground for raids and hostilities aimed at the [ShowAreaName('levant_area')] and [ShowRegionName('egypt_region')]. This island, strategically located in the Mediterranean Sea, has long been a thorn in our side, fueling Crusader ambitions and disrupting our regional influence. After centuries of struggle, [ShowProvinceDefinitionNameWithNoTooltip('cyprus_province')] is finally under [ROOT.GetCountry.GetAdjective] control.",
+  "uk": "З часів захоплення #TOOLTIP:PROVINCE_DEFINITION,cyprus_province,X #L Кіпру#!#! хрестоносцями під час Третього хрестового походу острів служив плацдармом для набігів і воєнних дій у #TOOLTIP:AREA,levant_area,X #L Леванті#!#! та #TOOLTIP:REGION,egypt_region,X #L Єгипті#!#!. Кіпр, розташований у Середземному морі, завжди був біллю в оці, оскільки хрестоносці прагнули підірвати наш вплив у регіоні. Після років Кіпр нарешті перейшов під #L [ROOT.GetCountry.GetAdjective|l]ий#! контроль."
+ },
+ "flavor_mam.42.entry": {
+  "en": "Conquest of Cyprus",
+  "uk": ""
+ },
+ "flavor_mam.42.historical_info": {
+  "en": "In 1426, the Mamluks launched a decisive campaign against Cyprus, culminating in the Battle of Khirokitia. This victory marked a turning point in the long-standing conflict between the Mamluks and the Kingdom of Cyprus. The Mamluks captured the Cypriot king, Janus, which forced Cyprus to accept vassalage under the Mamluk Sultanate.",
+  "uk": "У 1426 році мамлюки почали вирішальну військову кампанію проти Кіпру, яка завершилася битвою при Хірокітії. Перемога мамлюків стала поворотною точкою в тривалому конфлікті між мамлюками та Кіпрським королівством. Мамлюки захопили в полон кіпрського короля Януса. В результаті Кіпр опинився в васальній залежності від Мамлюцького султанату."
+ },
+ "flavor_mam.42.title": {
+  "en": "Conquest of [ShowProvinceDefinitionNameWithNoTooltip('cyprus_province')]",
+  "uk": "Покорення Кіпру"
+ },
+ "flavor_mam.43.a": {
+  "en": "Adopt a harsh stance.",
+  "uk": "Прийняти жорсткі заходи."
+ },
+ "flavor_mam.43.a.tt": {
+  "en": "#Y 25%#! of non-[ShowReligionAdjective('sunni')] [pops|e] in [ShowAreaName('levant_area')] will be converted to [ShowReligionNameWithNoTooltip('sunni')]",
+  "uk": "#Y 25%#! [Concept('pops', 'груп населення')|e], які не сповідують [ShowReligionAdjective('sunni')], будуть навернені в цю віру"
+ },
+ "flavor_mam.43.b": {
+  "en": "Encourage their conversion.",
+  "uk": "Заохотити навернення."
+ },
+ "flavor_mam.43.b.tt": {
+  "en": "#Y 10%#! of non-[ShowReligionAdjective('sunni')] [pops|e] in [ShowAreaName('levant_area')] will be converted to [ShowReligionNameWithNoTooltip('sunni')]",
+  "uk": "#Y 10%#! [Concept('pops', 'груп населення')|e], які не сповідують [ShowReligionAdjective('sunni')], будуть навернені в цю віру"
+ },
+ "flavor_mam.43.c": {
+  "en": "Leave the situation as it is.",
+  "uk": "Не втручатися в ситуацію."
+ },
+ "flavor_mam.43.desc": {
+  "en": "The [ShowAreaName('levant_area')] has long been a land of great religious diversity. Although the [ROOT.GetCountry.GetGovernment.GetEstateName('dhimmi_estate')] grants protections to these communities, there is rising concern that some [ShowReligionGroupAdjective('christian')] believers may be maintaining secret ties with [ShowReligionGroupAdjectiveWithNoTooltip('christian')] powers abroad. Historically, these communities have often sided with our enemies during times of war. Some advisors suggest taking a firmer approach to reinforce loyalty in the region, perhaps by encouraging the conversion of these minorities. While this may foster unity, it could also provoke resistance and unrest.",
+  "uk": "#TOOLTIP:AREA,levant_area,X #L Левант#!#! завжди славився релігійною різноманітністю. Хоча [ROOT.GetCountry.GetGovernment.GetEstateName('dhimmi_estate')|l] завжди забезпечували підтримку спільнотам віруючих, ходять чутки, що деякі #TOOLTIP:RELIGIONGROUP,christian,X #L християни#!#! налагоджують таємні зв'язки зі своїм закордонними братами. Історія знає чимало прикладів, коли ці спільноти приймали бік нашихворогів під час військових конфліктів. Деякі радники пропонують прийняти жорсткі заходи щодо зміцнення вірності нашій державі в регіоні, і один із них — заохочення переходу до іншої віри. Це допоможе забезпечити єдність, проте незгода з нашими діями майже напевно вилляється в безлади."
+ },
+ "flavor_mam.43.entry": {
+  "en": "$flavor_mam.43.title$",
+  "uk": ""
+ },
+ "flavor_mam.43.historical_info": {
+  "en": "In Syria, the Mamluks engaged in repressive acts aimed towards religious minorities, mostly Orthodox and Maronite Christians, since they were suspected of having ties with European countries and crusaders. Many Christians were moved away from coastal areas so that they would lose easy access to Christians outside of the Sultanate.",
+  "uk": "Мамлюки піддавали репресіям сирійські релігійні меншини: в основному православних і маронітів, яких підозрювали в таємних зв'язках з європейськими державами та хрестоносцями. Багатьох християн виселили з прибережних районів, щоб їм було складніше спілкуватися зі своїми закордонними братами."
+ },
+ "flavor_mam.43.title": {
+  "en": "Uprooting Levantine Heathens",
+  "uk": "Викорінення левантійських язичників"
+ },
+ "flavor_mam.44.a": {
+  "en": "Make effort to convert them.",
+  "uk": "Спробувати навернути їх у нашу віру."
+ },
+ "flavor_mam.44.a.tt": {
+  "en": "#Y 20%#! of [ShowReligionAdjective('miaphysite')] [pops|e] in [ShowAreaName('lower_egypt_area')] will be converted to [ShowReligionName('sunni')]",
+  "uk": "#Y 20%#! [Concept('pops', 'груп населення')|e], які сповідують #TOOLTIP:RELIGION,miaphysite_tt,X #L міафізитство#!#! в #TOOLTIP:AREA,lower_egypt_area,X #L Нижньому Єгипті#!#!, будуть навернені в [ShowReligionName('sunni')]"
+ },
+ "flavor_mam.44.b": {
+  "en": "Leave the current situation unchanged.",
+  "uk": "Залишимо все як є."
+ },
+ "flavor_mam.44.desc": {
+  "en": "[ShowRegionName('egypt_region')] has a significant [ShowCultureName('coptic_culture')] [ShowReligionAdjective('miaphysite')] population, a community with deep roots and traditions going back centuries. While many of them have remained loyal and contribute to the economy, some argue that encouraging conversion would help strengthen unity in the heart of our [ROOT.GetCountry.GetFlavorRank]. We must carefully consider whether to press for religious conformity or to maintain the current system of protected tolerance.",
+  "uk": "У #TOOLTIP:REGION,egypt_region,X #L Єгипті#!#! проживає багато #TOOLTIP:CULTURE,coptic_culture_tt,X #L коптів#!#!, які сповідують #TOOLTIP:RELIGION,miaphysite_tt,X #L міафізитство#!#!. Традиції цієї спільноти сягають углиб століть. Багато з них вірні нашій державі та вносять свій внесок у її економіку, але є думка, що їх треба навернути в нашу віру, щоб зміцнити єдність у [ROOT.GetCountry.Custom('rank_ru_PREP')]. У нас два варіанти: або змусити їх прийняти нашу віру, або продовжити проводити політику релігійної терпимості. Треба вирішити, який із них кращий."
+ },
+ "flavor_mam.44.entry": {
+  "en": "Converting the Copts",
+  "uk": ""
+ },
+ "flavor_mam.44.historical_info": {
+  "en": "During the Mamluk rule of Egypt, the conversion of Copts to Islam significantly accelerated, driven by both social pressures and economic incentives. The 14th century saw a particularly intense wave of repression against the Coptic community, with restrictions on church construction, employment limitations, and intermittent violence. This period of heightened pressure led to a marked increase in conversions, and by the end of the Mamluk rule, the Muslim-to-Copt ratio in Egypt had shifted to approximately 10:1.",
+  "uk": "За часів правління мамлюків у Єгипті навернення коптів до ісламу помітно прискорилося, чому сприяли як соціальний тиск, так і економічні стимули. У XIV столітті репресії проти коптської громади посилилися. Вони включали заборону на будівництво церков, обмеження на працевлаштування і навіть спалахи насильства. В результаті безліч коптів прийняли іслам, і до кінця панування мамлюків співвідношення мусульман і коптів у Єгипті становило майже 10 до 1."
+ },
+ "flavor_mam.44.title": {
+  "en": "Handling the [ShowCultureNameWithNoTooltip('coptic_culture')] Community",
+  "uk": "Ставлення до коптської спільноти"
+ },
+ "flavor_mam.45.a": {
+  "en": "Mobilize resources to aid those affected by the floods.",
+  "uk": "Терміново надати допомогу постраждалим від повені."
+ },
+ "flavor_mam.45.b": {
+  "en": "The people must fend for themselves.",
+  "uk": "Нехай самі розбираються."
+ },
+ "flavor_mam.45.desc": {
+  "en": "Recent floods have struck the Nile, causing severe devastation in several provinces. The surging waters have swept through farmland, villages, and infrastructure, leaving countless homes and livelihoods in ruins. Unless we intervene with relief and resources, the damage will only worsen, potentially leading to famine and loss of life.",
+  "uk": "Недавні повені призвели до серйозних руйнувань у цілому ряді провінцій. Вода затопила сільськогосподарські угіддя, села та інфраструктуру, залишивши населення без даху та харчування. Якщо ми терміново не виділимо необхідні ресурси, проблеми тільки посиляться і зрештою призведуть до голоду та загибелі людей."
+ },
+ "flavor_mam.45.title": {
+  "en": "Flooding of the Nile",
+  "uk": "Розлив Нілу"
+ },
+ "flavor_mam.46.a": {
+  "en": "Invest in the establishment of such office.",
+  "uk": "Вкласти кошти в установу нової посади."
+ },
+ "flavor_mam.46.b": {
+  "en": "Dismiss their complaints.",
+  "uk": "Залишити їхні скарги без уваги."
+ },
+ "flavor_mam.46.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have raised concerns about the integrity of commerce in our marketplaces, complaining that dishonest merchants frequently manipulate weights and measures to cheat customers. Such corruption threatens the prosperity and reputation of our trade, and the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] are urging us to establish a system of officials responsible for ensuring honest transactions in the marketplace.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] вкрай стурбовані ситуацією на ринках. Вони кажуть, що спритні купці часто обважують покупців. Такі дії загрожують благополуччю нашого народу та шкодять репутації наших торговців. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] наполегливо просять нас приставити до ринків людей, які курируватимуть міри та ваги."
+ },
+ "flavor_mam.46.entry": {
+  "en": "$flavor_mam.46.title$",
+  "uk": ""
+ },
+ "flavor_mam.46.historical_info": {
+  "en": "In Mamluk Egypt, Muḥtasib were officials appointed to oversee marketplace honesty and ensure fair trade practices. They monitored merchants and punished those who cheated in weighing goods, often whipping offenders publicly as a deterrent. The Muḥtasibs also used manuals detailing common merchant tricks, enhancing their ability to detect and prevent fraud.",
+  "uk": "Мухтасіби в мамлюцькому Єгипті — посадові особи, які курирують торгівлю на ринку. Вони спостерігають за купцями та карають тих, хто обважує покупців, публічно б'ючи порушників у повчальних цілях. Мухтасіби також користувалися довідниками, в яких докладно описувалися поширені уловки шахраїв, що допомагало їм ефективніше виявляти та запобігати обману."
+ },
+ "flavor_mam.46.title": {
+  "en": "Appointing the Muḥtasib",
+  "uk": "Призначення мухтасіба"
+ },
+ "flavor_mam.47.a": {
+  "en": "The pride of our army!",
+  "uk": "Гордість нашої армії!"
+ },
+ "flavor_mam.47.desc": {
+  "en": "In a bid to safeguard the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and ensure the security of the [ROOT.GetCountry.GetFlavorRank], we have established an elite corps known as [ShowAdvanceName('royal_mamluks')]. Handpicked from among our finest warriors, these soldiers receive rigorous training and are equipped with the best arms, becoming a symbol of loyalty, discipline, and unmatched skill.",
+  "uk": "Щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle] та [ROOT.GetCountry.GetFlavorRank] були в безпеці, ми створили елітний корпус, відомий як «[ShowAdvanceName('royal_mamluks')]». Туди входять найгідніші воїни, які проходять ретельну підготовку та оснащені найкращою зброєю. Королівські мамлюки — це живе втілення вірності, дисципліни та неперевершеної майстерності."
+ },
+ "flavor_mam.47.entry": {
+  "en": "Royal Mamluks",
+  "uk": ""
+ },
+ "flavor_mam.47.title": {
+  "en": "[ShowAdvanceNameWithNoTooltip('royal_mamluks')]",
+  "uk": ""
+ },
+ "flavor_mam.48.a": {
+  "en": "Welcome [target_character.GetHimHer] and investigate the technology.",
+  "uk": "Привітати [Select_CString(target_character.IsFemale,'її', 'його')] та вивчити технологію."
+ },
+ "flavor_mam.48.b": {
+  "en": "Buy it from [target_character.GetHimHer] and study it thoroughly.",
+  "uk": "Купити у [Select_CString(target_character.IsFemale,'неї', 'нього')] верстат і уважно його вивчити."
+ },
+ "flavor_mam.48.c": {
+  "en": "We are not interested.",
+  "uk": "Нам це не потрібно."
+ },
+ "flavor_mam.48.desc": {
+  "en": "A [ShowReligionAdjective('judaism')] printer, [target_character.GetName], has recently arrived in [ShowLocationName('cairo')] from [ShowRegionName('italy_region')], bringing with [target_character.GetHimHer] likely the first [ShowInstitutionName('printing_press')] ever seen in our lands. This revolutionary technology, rapidly spreading through [ShowContinentName('europe')], allows for the mass production of books, making knowledge more accessible than ever before. With this device, we could foster literacy, promote the spread of ideas, and perhaps gain an advantage in scholarly and administrative matters. Though it is a foreign technology, investing in it could benefit the [ROOT.GetCountry.GetFlavorRank] in the long run.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale,'друкарка', 'друкар')] #TOOLTIP:RELIGION,judaism_tt,X #L юдейських#!#! книг, [Select_CString(target_character.IsFemale,'прибула', 'прибув')] до [ShowLocationName('cairo')] з #TOOLTIP:REGION,italy_region,X #L Італії#!#! та [Select_CString(target_character.IsFemale,'привезла', 'привіз')] з собою дивину — #TOOLTIP:INSTITUTION,printing_press,X #L друкарський верстат#!#!. Ця революційна технологія, що швидко поширюється по #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, дозволяє масово випускати книги та робить знання доступними для всіх. Цей пристрій допоможе нам підвищити грамотність населення, сприятиме швидкому поширенню ідей і, ймовірно, дасть [ROOT.GetCountry.Custom('rank_ru_DAT')] перевагу в науці та питаннях управління. Кошти, вкладені в цю іноземну технологію, окупляться повною мірою."
+ },
+ "flavor_mam.48.entry": {
+  "en": "Printing Press",
+  "uk": ""
+ },
+ "flavor_mam.48.title": {
+  "en": "[ShowInstitutionNameWithNoTooltip('printing_press')] in [ShowLocationNameWithNoTooltip('cairo')]",
+  "uk": "[ShowInstitutionNameWithNoTooltip('printing_press')] у Каїрі"
+ },
+ "flavor_mam.49.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
+  "uk": ""
+ },
+ "flavor_mam.49.a.entry": {
+  "en": "$common_string_nothing_we_can_do_about_it$",
+  "uk": ""
+ },
+ "flavor_mam.49.b": {
+  "en": "Announce our own exploration missions.",
+  "uk": "Заявити про намір організувати свої експедиції."
+ },
+ "flavor_mam.49.b.tt": {
+  "en": "Unlocks more events that deal with [exploration|e]",
+  "uk": "Відкриває більше подій, пов'язаних з [Concept('exploration', 'експедиціями')|e]"
+ },
+ "flavor_mam.49.desc": {
+  "en": "Terrible news has reached our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Explorers from [ShowContinentName('europe')] have discovered a sea route around [ShowContinentName('africa')], allowing them direct access to the riches of $india$ and bypassing our vital trade routes. Our burghers are deeply alarmed, fearing the collapse of our markets as western merchants flood the spice trade with lower prices.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] у жаху від недавніх новин. #TOOLTIP:CONTINENT,europe,X #L Європейські#!#! мандрівники відкрили морський шлях, який дозволяє дістатися до #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#!, минаючи #TOOLTIP:CONTINENT,africa,X #L Африку#!#! та наші найважливіші торговельні шляхи. Міщани панікують, бояться обвалу наших ринків через європейських купців, які продають спеції за нижчою ціною."
+ },
+ "flavor_mam.49.entry": {
+  "en": "Europeans Circumnavigate Africa",
+  "uk": ""
+ },
+ "flavor_mam.49.historical_info": {
+  "en": "By bypassing the traditional overland and Red Sea routes controlled by the Mamluks, European traders, especially the Portuguese, were able to directly access the lucrative spice markets of Asia. This reduced the Mamluks' role as middlemen in the spice trade, weakening their economy and diminishing their influence over East-West commerce.",
+  "uk": "Минувши старі сухопутні шляхи та Червоне море, контрольовані мамлюками, європейські торговці, зокрема португальці, отримали прямий доступ до прибуткових азійських ринків спецій. Мамлюки фактично позбулися ролі посередника в торгівлі спеціями, що послабило економіку султанату та його вплив на торгівлю між Сходом і Заходом."
+ },
+ "flavor_mam.49.title": {
+  "en": "Europeans Circumnavigate [ShowContinentNameWithNoTooltip('africa')]",
+  "uk": "Європейці огинають Африку"
+ },
+ "flavor_mam.5.a": {
+  "en": "This is good news indeed...",
+  "uk": "І справді хороші вістки…"
+ },
+ "flavor_mam.5.desc": {
+  "en": "The embassy returns with news that our good friend [target_character.GetName] is now King of Cyprus. He will be a trustworthy ally for a long time, and an obedient vassal to [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "Члени посольства повернулися з хорошими вістками: наш добрий друг [target_character.GetName] став королем Кіпру. В його особі [ROOT.GetCountry.GetGovernment.GetRulerTitle] отримує надійного союзника та вірного васала."
+ },
+ "flavor_mam.5.title": {
+  "en": "News from Cyprus!",
+  "uk": "Новини з Кіпру!"
+ },
+ "flavor_mam.50.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_mam.50.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_mam.50.b": {
+  "en": "Grant subsidies to shipbuilders and merchants.",
+  "uk": "Надати субсидії суднобудівникам і купцям."
+ },
+ "flavor_mam.50.b.tt": {
+  "en": "Every owned location with a [ShowBuildingTypeName('naval_supplies_workshop')] gains [ShowNamedValue('prosperity_severe_bonus')|+=2%] [prosperity|e]",
+  "uk": "[Concept('prosperity','Процвітання')|e] кожного району, що нам належить, з #TOOLTIP:BUILDING_TYPE,naval_supplies_workshop,X #L майстернею суднобудівних матеріалів#!#! збільшиться на [ShowNamedValue('prosperity_severe_bonus')|+=2%]"
+ },
+ "flavor_mam.50.desc": {
+  "en": "Following our announcement of new exploration missions, markets across the [ROOT.GetCountry.GetFlavorRank] have seen a surge in demand for shipbuilding materials. Merchants and craftsmen are eager to supply materials to support the construction of a fleet capable of reaching distant lands and protecting our trade interests.",
+  "uk": "Після того, як ми оголосили про підготовку нових експедицій, на ринках [ROOT.GetCountry.Custom('rank_ru_GEN')] різко підскочив попит на суднобудівні матеріали. Купці та ремісники бажають постачати ресурси для будівництва флоту, здатного долати великі відстані та захищати наші торговельні інтереси."
+ },
+ "flavor_mam.50.entry": {
+  "en": "$flavor_mam.50.title$",
+  "uk": ""
+ },
+ "flavor_mam.50.title": {
+  "en": "Rising Demand for Ship Supplies",
+  "uk": "Зростання попиту на суднобудівні матеріали"
+ },
+ "flavor_mam.51.a": {
+  "en": "Celebrate our naval supremacy!",
+  "uk": "Відсвяткуємо нашу перевагу в морі!"
+ },
+ "flavor_mam.51.desc": {
+  "en": "After years of rivalry and tension, we have finally eclipsed the [GetCountry('POR').GetAdjective] in naval strength. Our fleet now stands as a powerful force that can rival European dominance in the region, which reassures our merchants that we are capable of safeguarding the [ShowAreaName('red_sea_area')] trade routes. This military achievement greatly enhances our naval security and allows us to look towards expanding our reach and reclaiming control over the lucrative spice routes.",
+  "uk": "Після довгих років суперництва та ворожнечі ми нарешті перевершили державу [GetCountry('POR').GetName] у військово-морській міці. Зараз наш флот являє собою грізну силу, здатну кинути виклик пануванню європейців у регіоні та, на думку купців, захистити торговельні шляхи #TOOLTIP:AREA,red_sea_area,X #L Червоного моря#!#!. Тепер ми почуваємося набагато впевненіше та можемо поборотися за розширення свого впливу та контроль над прибутковими ринками спецій."
+ },
+ "flavor_mam.51.entry": {
+  "en": "Eclipsing Portugal",
+  "uk": ""
+ },
+ "flavor_mam.51.historical_info": {
+  "en": "The Mamluk-Portuguese naval rivalry began in the early 16th century when the Portuguese bypassed Mamluk-controlled trade routes by navigating around Africa. Tensions escalated as the Portuguese established bases in the Indian Ocean, and the Mamluks, in alliance with the Ottoman Empire, sought to counter Portuguese influence by strengthening their own fleets.",
+  "uk": "Суперництво між мамлюками та Португалією почалося в XVI столітті, коли останні відкрили шлях, що дозволяє минути Африку та торговельні шляхи, які контролювали мамлюки. Пізніше португальці почали створювати свої бази в Індійському океані. Мамлюки та османи намагалися протистояти зростаючому впливу португальців, зміцнюючи свої власні флоти."
+ },
+ "flavor_mam.51.title": {
+  "en": "Eclipsing [GetCountry('POR').GetNameWithNoTooltip]",
+  "uk": "Перевага над Португалією"
+ },
+ "flavor_mam.52.a": {
+  "en": "We need [target_character.GetLastNameWithNoTooltip] as an admiral.",
+  "uk": "[target_character.GetLastNameWithNoTooltip] стане нашим адміралом."
+ },
+ "flavor_mam.52.a.entry": {
+  "en": "We need him as an admiral.",
+  "uk": ""
+ },
+ "flavor_mam.52.b": {
+  "en": "[target_character.GetSheHe|U] would serve our [ROOT.GetCountry.GetGovernment.GetCourtTitle] well.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] багато здобуде від співпраці з [Select_CString(target_character.IsFemale, 'нею', 'ним' )]."
+ },
+ "flavor_mam.52.b.entry": {
+  "en": "He would serve our court well.",
+  "uk": ""
+ },
+ "flavor_mam.52.c": {
+  "en": "Use [target_character.GetHisHer] expertise to guide our navies.",
+  "uk": "Дозволити [Select_CString(target_character.IsFemale, 'їй', 'йому' )] керувати нашими флотами."
+ },
+ "flavor_mam.52.desc": {
+  "en": "[target_character.GetName] is a skilled admiral with extensive experience in naval battles against European forces in [ShowAreaName('gujarat_area')]. Known for his expertise in ship maneuvering and naval strategy, [target_character.GetLastNameWithNoTooltip] has honed his skills in the heat of combat, defending local powers from foreign incursions. As we seek to expand our naval capacity and counter European influence in the [ShowContinentName('indian_ocean_continent')], his experience and leadership would undoubtedly strengthen our fleet.",
+  "uk": ""
+ },
+ "flavor_mam.52.entry": {
+  "en": "Amir Husain Al-Kurdi",
+  "uk": ""
+ },
+ "flavor_mam.52.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mam.53.a": {
+  "en": "We need a capable fighting force.",
+  "uk": "Нам потрібні бойові кораблі."
+ },
+ "flavor_mam.53.b": {
+  "en": "Prioritize transporting our armies.",
+  "uk": "Нам потрібні кораблі, які перевозитимуть нашу армію."
+ },
+ "flavor_mam.53.desc": {
+  "en": "Naval warfare has long been secondary to our strengths on land, but the looming threat of Europeans advancing into $india$ and the [ShowAreaName('red_sea_area')] demands our attention. Lately, many reports suggest that European powers may seek to intrude upon our waters. In response, we have commissioned a new fleet, now under construction in the port of [target_location.GetName]. All that remains is for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to give his final decision on the type of ships that will be constructed.",
+  "uk": "Довгий час ми приділяли більше уваги нашим сухопутним військам, а не флоту, проте були змушені переглянути свої пріоритети через бажання європейців розширити свій вплив в #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#! та #TOOLTIP:AREA,red_sea_area,X #L Червоному морі#!#!. Ходять чутки, що європейці готуються вторгнутися в наші води. Щоб дати їм відсіч, ми почали будувати новий флот у порту [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Які кораблі увійдуть до складу нашого флоту, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]?"
+ },
+ "flavor_mam.53.entry": {
+  "en": "The Red Sea Fleet",
+  "uk": ""
+ },
+ "flavor_mam.53.title": {
+  "en": "The [ShowAreaNameWithNoTooltip('red_sea_area')] Fleet",
+  "uk": "Флот у Червоному морі"
+ },
+ "flavor_mam.54.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] must be dethroned!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(karoly_ruler.IsFemale,'має', 'має')] позбутися влади!"
+ },
+ "flavor_mam.54.a.entry": {
+  "en": "The ruler must be dethroned!",
+  "uk": ""
+ },
+ "flavor_mam.54.b": {
+  "en": "[target_ruler.GetNameWithNoTooltip] is the rightful [ROOT.GetCountry.GetGovernment.GetRulerTitle]!",
+  "uk": "[target_ruler.GetNameWithNoTooltip] — наш законний [ROOT.GetCountry.GetGovernment.GetRulerTitle]!"
+ },
+ "flavor_mam.54.b.entry": {
+  "en": "The ruler is the rightful ruler!",
+  "uk": ""
+ },
+ "flavor_mam.54.b.tt": {
+  "en": "All $slaves$ [pops|e] in [ShowRegionName('egypt_region')] will lose lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [barquq_support.GetName]",
+  "uk": "[Concept('pop_satisfaction','Задоволення')|e] усіх [Concept('pops','груп населення')|e] #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!, які перебувають у рабстві, впаде на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%], і вони приєднаються до групи «[barquq_support.GetName]»"
+ },
+ "flavor_mam.54.desc": {
+  "en": "Years of instability and the ineffective rule of [target_ruler.GetName] have left the [ROOT.GetCountry.GetFlavorRank] in disarray. Many who are disillusioned with the current regime seek a leader capable of restoring stability have recently rallied behind a man called [scope_barquq.GetName]. Rumors now circulate that [scope_barquq.GetNameWithNoTooltip] is planning to depose the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and take the throne.",
+  "uk": "Бездарний [target_ruler.GetName] вверг [ROOT.GetCountry.Custom('rank_ru_GEN')] у хаос. Незадоволені його правлінням почали шукати лідера, здатного повернути стабільність, і їхній вибір припав на людину на ім'я [scope_barquq.GetName]. Ходять чутки, що [ROOT.GetCountry.GetGovernment.GetRulerTitle] незабаром втратить трон, а його місце займе Баркук."
+ },
+ "flavor_mam.54.entry": {
+  "en": "The Rise of Barquq",
+  "uk": ""
+ },
+ "flavor_mam.54.historical_info": {
+  "en": "Barqūq was a Circassian slave who rose to prominence amid political instability in the late 14th century. In 1382, he capitalized on the weakened rule of the child Sultan Aṣ-Ṣāliḥ and rallied many prominent factions which operated behind the throne to support his bid for power. Barqūq ultimately deposed the young Sultan, marking the end of the Bahri Mamluk dynasty and beginning the Burji period.",
+  "uk": "Баркук був рабом з Черкесії, який здобув відомість наприкінці XIV століття, під час політичної нестабільності. У 1382 році він скористався слабкістю малолітнього султана Ас-Саліха і згуртував навколо себе безліч могутніх фракцій, які діяли в його інтересах. Зрештою Баркук скинув юного султана і поклав кінець правлінню роду Бахрітів, ставши засновником династії Бурджітів."
+ },
+ "flavor_mam.54.title": {
+  "en": "The Rise of [scope_barquq.GetLastNameWithNoTooltip]",
+  "uk": "Піднесення Баркука"
+ },
+ "flavor_mam.55.a": {
+  "en": "Implement [target_character.GetHisHer] reform in full.",
+  "uk": "Провести [Select_CString(target_character.IsFemale, 'її', 'його' )] реформу в повному обсязі."
+ },
+ "flavor_mam.55.b": {
+  "en": "Adapt only a few of [target_character.GetHisHer] ideas.",
+  "uk": "Використати лише деякі [Select_CString(target_character.IsFemale, 'її', 'його' )] ідеї."
+ },
+ "flavor_mam.55.c": {
+  "en": "We have no need for costly reforms at this time.",
+  "uk": "Зараз не час для такої дорогої реформи."
+ },
+ "flavor_mam.55.desc": {
+  "en": "As Europeans continue to dominate the seas and threaten our trade and sovereignity, the need of a major naval investment is apparent. [target_character.GetName], an influential naval strategist, has proposed a bold reform to reclaim our strength on the water. [target_character.GetSheHe|U] argues that reliance on European ship imports only keeps us vulnerable to foreign designs and limitations. Instead, [target_character.GetSheHe] suggests a significant investment in our own shipyards, advocating for the construction of vessels based on the latest European models, but crafted by local builders and adapted for our needs.",
+  "uk": "Через панування європейців на морі наша торгівля і суверенітет опинилися під загрозою. Щоб поліпшити своє становище, нам потрібно вкласти великі кошти у військово-морський флот. [target_character.GetName], відомий морський стратег, пропонує сміливу реформу, покликану відновити нашу військово-морську міць. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] стверджує, що купівля кораблів у Європі обмежує наш потенціал. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] пропонує вкласти кошти у власні верфі і найняти суднобудівників, які на основі європейських моделей спроектують кораблі, що відповідають нашим потребам."
+ },
+ "flavor_mam.55.entry": {
+  "en": "The Great Naval Reform",
+  "uk": ""
+ },
+ "flavor_mam.55.historical_info": {
+  "en": "The Great Naval Reform under 'Alā' ad-Dīn elevated the Mamluk fleet to rival European armadas. This reform proved crucial in battles such as the Battle of Chaul in 1508, where the Mamluks defeated the Portuguese, who were widely regarded as a dominant naval superpower of the time.",
+  "uk": "Завдяки великій військово-морській реформі Ала ад-Діна мамлюцький флот зміг протистояти європейським армадам. Вона довела свою ефективність під час битви при Чаулі в 1508 році, яка закінчилася поразкою Португалії — головної морської держави тих років."
+ },
+ "flavor_mam.55.title": {
+  "en": "[target_character.GetLastNameWithNoTooltip]'s Naval Reform",
+  "uk": "[target_character.GetLastNameWithNoTooltip] проводить флотську реформу"
+ },
+ "flavor_mam.56.a": {
+  "en": "Implement the reform.",
+  "uk": "Провести реформу."
+ },
+ "flavor_mam.56.a.tt": {
+  "en": "All [ShowCultureName('bedouin_culture')] [pops|e] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволення')|e] усіх #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнських#!#! [Concept('pops','груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]"
+ },
+ "flavor_mam.56.b": {
+  "en": "For now, we must focus on other priorities.",
+  "uk": "Зараз у нас інші пріоритети."
+ },
+ "flavor_mam.56.desc": {
+  "en": "Due to the constant tribal wars between the [ShowCultureName('bedouin_culture')] tribes, a series of administrative reforms have been suggested, diving the country into several #italic Niyābat#!, provinces with more centralized form of governance. This structure would allow us to more efficiently manage the affairs of our territories, ensuring that each region is governed with greater oversight. It would also allow for closer monitoring of the [ShowCultureNameWithNoTooltip('bedouin_culture')] tribes, whose internal conflicts often spill over into our more prosperous areas.",
+  "uk": "Щоб зупинити війни між племенами #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнів#!#!, наші фахівці розробили ряд адміністративних реформ. Вони пропонують поділити державу на кілька #italic ніябатів#! — провінцій з більш централізованим управлінням. Ця структура дозволила б нам ефективніше керувати територіями і суворо контролювати кожний регіон. Крім того, ми могли б пильніше стежити за племенами #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнів#!#!, чиї внутрішні конфлікти часто заважають розвиватися нашим більш благополучним областям."
+ },
+ "flavor_mam.56.entry": {
+  "en": "$flavor_mam.56.title$",
+  "uk": ""
+ },
+ "flavor_mam.56.historical_info": {
+  "en": "In light of the ongoing instability caused by the Bedouin tribal infighting, Sultan Barqūq innovated the Egyptian administrative system by dividing the region into three #italic Niyābat#!, provinces, which allowed Mamluk authorities to better keep the Bedouins in check.",
+  "uk": "Через зростання нестабільності, викликаної племенними міжусобицями, султан Баркук змінив адміністративну систему Єгипту, поділивши кожний регіон на три провінції або #italic ніябати#!, що дозволило владі тримати бедуїнів під контролем."
+ },
+ "flavor_mam.56.title": {
+  "en": "The Niyābat Provincial System",
+  "uk": "Система ніябатів"
+ },
+ "flavor_mam.57.a": {
+  "en": "Ignore the incident.",
+  "uk": "Не звертати уваги на ситуацію."
+ },
+ "flavor_mam.57.b": {
+  "en": "Crush them before they cause any damage.",
+  "uk": "Знищити їх на підступах до [target_location.Custom('LR_DAT')|l]."
+ },
+ "flavor_mam.57.desc": {
+  "en": "The ongoing tribal infighting among the [ShowCultureName('bedouin_culture')] tribes has once again spilled out of the desert and into our more prosperous territories. This time, their conflicts have come near [target_location.GetName], and the locals are affraid that this might cause significant damage to property and take the lives of innocent citizens caught in the crossfire if we do not step in.",
+  "uk": "У безперервні чвари між племенами #TOOLTIP:CULTURE,bedouin_culture_tt,X #L бедуїнів#!#! знову опинилися втягнуті наші найбільш процвітаючі території, що межують з пустелею. Цього разу війна прийшла в [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Місцеві жителі побоюються за свої життя і майно. Якщо ми не втрутимося, може статися непоправне."
+ },
+ "flavor_mam.57.entry": {
+  "en": "Bedouin Tribal Wars in Location",
+  "uk": ""
+ },
+ "flavor_mam.57.title": {
+  "en": "[ShowCultureNameWithNoTooltip('bedouin_culture')] Tribal Warfare",
+  "uk": "Війна між племенами бедуїнів"
+ },
+ "flavor_mam.58.a": {
+  "en": "Bring [target_character.GetHimHer] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "Наблизити [Select_CString(target_character.IsFemale, 'її', 'його' )] до [ROOT.GetCountry.GetCourt.Custom('parliament_ru_DAT')|l]!"
+ },
+ "flavor_mam.58.a.entry": {
+  "en": "Bring him to our court!",
+  "uk": ""
+ },
+ "flavor_mam.58.b": {
+  "en": "We cannot afford [target_character.GetHisHer] works.",
+  "uk": "Нам не по кишені [Select_CString(target_character.IsFemale, 'її', 'його' )] дослідження."
+ },
+ "flavor_mam.58.desc": {
+  "en": "[target_character.GetName] is widely known in [ShowLocationName('cairo')] for [target_character.GetHisHer] encyclopedic work on the natural world. [target_character.GetHisHer|U] insights into zoology and [target_character.GetHisHer] keen understanding of Islamic law have garnered [target_character.GetHimHer] immense respect as a theologian and naturalist. [target_character.GetSheHe|U] has caught the attention of our advisors, who now advise the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to offer [target_character.GetHimHer] a position at the [ROOT.GetCountry.GetGovernment.GetCourtTitle], as [target_character.GetHisHer] rare expertise in the natural world could benefit our scientific understanding and education.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale,'відома вчена', 'відомий вчений')], чия енциклопедична праця про природу отримала широке визнання в #TOOLTIP:LOCATION,cairo_tt,X #L Каїрі#!#!. Глибоке знання зоології та ісламського права дозволили [Select_CString(target_character.IsFemale,'їй', 'йому')] здобути славу видатного теолога і натураліста. Наші радники нещодавно помітили [Select_CString(target_character.IsFemale,'її', 'його')] і кажуть, що [ROOT.GetCountry.GetGovernment.GetCourtTitle] лише виграє від [Select_CString(target_character.IsFemale,'її', 'його')] присутності. [Select_CString(target_character.IsFemale,'Її', 'Його')] безцінні знання можуть принести користь науці та освіті. Що нам робити, [ROOT.GetCountry.GetGovernment.GetRulerTitle]?"
+ },
+ "flavor_mam.58.entry": {
+  "en": "Al-Damiri, Islamic Naturalist",
+  "uk": ""
+ },
+ "flavor_mam.58.historical_info": {
+  "en": "Kamāl al-Damīrī was a prominent Mamluk scholar, jurist, and theologian, best known for comprehensive zoological work #italic Ḥayāt al-ḥayawān#!, which systematically compiled knowledge about animals and the natural world. His work was significant for its detailed descriptions, classifications, and the integration of zoological knowledge with Islamic jurisprudence and proverbs.",
+  "uk": "Камаль аль-Даміри був видатним мамлюцьким ученим, юристом і теологом, який отримав широке визнання завдяки #italic «Хаят аль-хаяван»#! — величезній праці з зоології, де він узагальнив знання про природу і світ тварин. Ця робота цікава детальними описами, класифікаціями, посиланнями на ісламську юриспруденцію і вмілим обіграванням прислів'їв."
+ },
+ "flavor_mam.58.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mam.59.a": {
+  "en": "Appoint [target_character.GetHimHer] as our [ROOT.GetCountry.GetGovernment.GetCourtTitle] historian.",
+  "uk": "Призначити [Select_CString(target_character.IsFemale, 'її', 'його' )] нашим придворним істориком."
+ },
+ "flavor_mam.59.a.entry": {
+  "en": "Appoint him as our court historian.",
+  "uk": ""
+ },
+ "flavor_mam.59.b": {
+  "en": "[target_character.GetHisHer|U] writings are of no use to us.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його' )] праці не принесуть нам користі."
+ },
+ "flavor_mam.59.desc": {
+  "en": "A talented historian and poet, [target_character.GetName] has gained fame for [target_character.GetHisHer] detailed accounts of [ShowRegionName('egypt_region')]'s history, customs, and recent events. [target_character.GetHisHer|U] most significant work, #italic Badā'i al-Zuhūr fī Waqā'i al-Duhūr#!, is a comprehensive history of [ShowRegionNameWithNoTooltip('egypt_region')] spanning over 3000 pages, capturing both the grandeur and the struggles of our land. Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] would be graced with the presence of such a significant personality.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale,'талановита поетеса', 'талановитий поет')], [Select_CString(target_character.IsFemale,'яка прославилася', 'який прославився')] своїми детальними творами про історію #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!, звичаї та події сучасності. [Select_CString(target_character.IsFemale,'Її', 'Його')] найбільш значна робота, #italic «Бадаі аль-Зухур фі Вакаі аль-Духур»#!, налічує понад три тисячі сторінок і являє собою детальну історію #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#! з усіма його злетами і падіннями. Наш двір багато виграв би від [Select_CString(target_character.IsFemale,'її', 'його')] присутності."
+ },
+ "flavor_mam.59.entry": {
+  "en": "Ibn Iyās, Historian of Egypt",
+  "uk": ""
+ },
+ "flavor_mam.59.historical_info": {
+  "en": "Ibn Iyās is considered of the most important historians of late medieval Egypt. He was an eyewitness to the Ottoman invasion of Egypt in 1517 and documented the transition from Mamluk to Ottoman rule in great detail. His chronicles are invaluable for understanding the social, political, and economic conditions of Egypt during this transformative period.",
+  "uk": "Ібн Іяс вважається одним з найвидатніших єгипетських істориків пізнього Середньовіччя. Він був свідком османського вторгнення в Єгипет, яке відбулося в 1517 році, і детально описав процес переходу від мамлюцького правління до османського. Його роботи допомагають зрозуміти соціальний, політичний та економічний ландшафт Єгипту в той складний період."
+ },
+ "flavor_mam.59.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mam.6.a": {
+  "en": "What was his name again??",
+  "uk": "Як там його звали?"
+ },
+ "flavor_mam.6.desc": {
+  "en": "It seems that the rulers of Cyprus decided to empty their coffers to make us forget all about the claims of some infidel noble we had previously had as a guest.",
+  "uk": "Схоже, правителі Кіпру вирішили відправити нам усе своє золото, щоб відмовити нас визнавати королем знатного невірного, який нещодавно гостював у нас."
+ },
+ "flavor_mam.6.entry": {
+  "en": "$flavor_mam.6.title$",
+  "uk": ""
+ },
+ "flavor_mam.6.title": {
+  "en": "Ships filled with gold in the harbor!",
+  "uk": "До гавані прибули кораблі, завантажені золотом!"
+ },
+ "flavor_mam.60.a": {
+  "en": "[ROOT.GetCountry.GetReligion.GetGodName] favors his faithful!",
+  "uk": "[ROOT.GetCountry.GetReligion.GetGodName] прихильний до істинно віруючих!"
+ },
+ "flavor_mam.60.a.entry": {
+  "en": "Our god favors his faithful!",
+  "uk": ""
+ },
+ "flavor_mam.60.desc": {
+  "en": "With [ShowLocationName('mecca')], [ShowLocationName('medina')], and [ShowLocationName('jerusalem')] under our direct rule, we now stand as the true shield of [ShowReligionGroupName('muslim')] and guardians of its most sacred sites. This holy responsibility brings us prestige but also demands vigilance and dedication. As [target_ruler.GetName] proudly styles [target_ruler.GetHerselfHimself] as the Custodian of the Holy Cities, pilgrims from all corners of the [ShowReligionGroupAdjectiveWithNoTooltip('muslim')|U] world will look to us for protection on their sacred journeys, and we are now seen as defenders of the faith itself. May we prove worthy of this solemn duty.",
+  "uk": "Тепер, коли [ShowLocationName('mecca')], [ShowLocationName('medina')] і [ShowLocationName('jerusalem')] перейшли під наш контроль, ми стали головними захисниками #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#! і вартовими священних місць, але ця престижна роль пов'язана з великою відповідальністю. Тепер [target_ruler.GetName] гордо величає себе «[Select_CString(target_ruler.IsFemale,'Хранителькою', 'Хранителем')] священних міст, і паломники з усього #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! світу шукатимуть у [Select_CString(target_ruler.IsFemale,'неї', 'нього')] захисту під час своїх подорожей. В їхніх очах наша держава стане справжнім оплотом віри. Ми не маємо їх підвести."
+ },
+ "flavor_mam.60.entry": {
+  "en": "$flavor_mam.60.title$",
+  "uk": ""
+ },
+ "flavor_mam.60.title": {
+  "en": "Custodian of the Holy Cities",
+  "uk": "[Select_CString(target_ruler.IsFemale,'Хранителька', 'Хранитель')] священних міст"
+ },
+ "flavor_mam.61.a": {
+  "en": "Pay our best minds to study the inscriptions.",
+  "uk": "Заплатити найкращим ученим за вивчення написів."
+ },
+ "flavor_mam.61.b": {
+  "en": "This is of no importance to us.",
+  "uk": "У нас є справи поважніші."
+ },
+ "flavor_mam.61.desc": {
+  "en": "Workers in the town of [ShowLocationName('rashid')] have stumbled upon an unusual stone embedded in the wall of a building, seemingly repurposed as a construction material. The stone appears ancient, its surface covered with inscriptions in three distinct scripts. Local scholars are intrigued by the discovery, believing it might hold secrets of our land's distant past. This remarkable find has captured the curiosity of both the people and our [ROOT.GetCountry.GetGovernment.GetCourtTitle]; perhaps it is worth further study.",
+  "uk": "Робітники з містечка #TOOLTIP:LOCATION,rashid_tt,X #L Рашид#!#! натрапили на дивний камінь у стіні будівлі, який, очевидно, використовувався як будівельний матеріал. Він виглядає дуже старим, а його поверхня вкрита написами трьома мовами. Місцеві вчені заінтриговані: вони вважають, що ці написи можуть пролити світло на історію нашої країни. Ця дивовижна знахідка вразила не лише простих людей, але й [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Можливо, нам слід ретельно її вивчити."
+ },
+ "flavor_mam.61.entry": {
+  "en": "$flavor_mam.61.title$",
+  "uk": ""
+ },
+ "flavor_mam.61.title": {
+  "en": "Discovery of the Rosetta Stone",
+  "uk": "Відкриття Розеттського каменю"
+ },
+ "flavor_mam.61.tt": {
+  "en": "An attempt will be made to decipher the writings on the stone.",
+  "uk": "Вчені спробують розшифрувати написи на камені."
+ },
+ "flavor_mam.62.a": {
+  "en": "A truly glorious achievement!",
+  "uk": "Воістину видатне досягнення!"
+ },
+ "flavor_mam.62.desc": {
+  "en": "After years of dedicated work, our scholars have made an incredible breakthrough. Using their knowledge of Ancient Greek, which is one of the languages displayed on the stone discovered in [ShowLocationName('rashid')], they have successfully deciphered the other inscriptions. Through their efforts, we can now read and understand the ancient Egyptian script, unlocking knowledge from [ShowRegionName('egypt_region')]'s distant past. This discovery is a monumental achievement for our scholars and a point of pride for the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Після років ретельної праці наші вчені здійснили великий прорив. Знання давньогрецької мови, якою виконана частина написів на камені, знайденому в #TOOLTIP:LOCATION,rashid_tt,X #L Рашіді#!#!, дозволило їм розшифрувати інші записи. Тепер ми можемо читати тексти давньоєгипетською мовою і дізнаватися більше про історію #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!. Це відкриття — велике досягнення наших учених і предмет гордості [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_mam.62.historical_info": {
+  "en": "Deciphering the Rosetta Stone was a monumental achievement which provided the key to understanding ancient Egyptian hieroglyphs, a script that had been indecipherable for nearly 1500 years. The stone features the same decree inscribed in three scripts: Hieroglyphic, Demotic, and ancient Greek. Since scholars could still read ancient Greek, they used it as a starting point to unlock the other two scripts.",
+  "uk": "Розшифровка Розеттського каменю стала великим досягненням наших учених. Тепер ми можемо читати давньоєгипетські тексти, які чекали своєї години майже 1500 років. На камені вибито три ідентичні укази, причому один текст давньогрецькою мовою, а два інші накреслені єгипетськими ієрогліфами і єгипетським демотичним письмом. Оскільки наші вчені знали давньогрецьку, вони використали її для розшифровки решти написів."
+ },
+ "flavor_mam.62.title": {
+  "en": "Deciphering the Rosetta Stone",
+  "uk": "Розшифровка Розеттського каменю"
+ },
+ "flavor_mam.63.a": {
+  "en": "[target_character.GetSheHe|U] pursues an adventurous life!",
+  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його' )] життя повне пригод!"
+ },
+ "flavor_mam.63.a.entry": {
+  "en": "He pursues an adventurous life!",
+  "uk": ""
+ },
+ "flavor_mam.63.desc": {
+  "en": "From the sands of [target_country.GetName] to the [target_country_2.GetAdjective] gleam,\\n[target_character.GetName] chased [target_character.GetHerHis] scholar's dream.\\nThrough our courts and [ShowLocationName('granada')]'s grace,\\n[target_character.GetSheHe|U] sought new wisdom, a truer place.\\nThe Nile's call, a scholar's lure,\\nIn [target_country_2.GetAdjectiveWithNoTooltip] halls, [target_character.GetHerHis] path secure.\\nYet still [target_character.GetSheHe] pondered time's vast flow,\\nHistories etched where rivers go.",
+  "uk": "У погоні за мрією [target_character.GetName] міняє піски [target_country.Custom('CL_RP')]\\n на розкішні #L [target_country_2.GetAdjective|l]і#! зали.\\n[ShowLocationName('granada')] вражає [Select_CString(target_character.IsFemale, 'її', 'його' )] своєю величчю.\\n[Select_CString(target_character.IsFemale, 'Вона впевнена', 'Він впевнений' )], що тут [Select_CString(target_character.IsFemale, 'її', 'його' )] місце.\\nАле в снах [Select_CString(target_character.IsFemale, 'їй', 'йому' )] сниться Ніл —\\nколиска давньої цивілізації.\\n[Select_CString(target_character.IsFemale, 'Вона', 'Він' )] розмірковує про безперервний плин часу\\nі про береги великих річок, де зароджувалася історія людства."
+ },
+ "flavor_mam.63.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Moves to [target_country_2.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] переїжджає в [target_country_2.Custom('CL_ACC')]"
+ },
+ "flavor_mam.64.a": {
+  "en": "We need the support of the [target_culture.GetNameWithNoTooltip] Mamlūks.",
+  "uk": "Нам потрібна підтримка [target_culture.GetNameWithNoTooltip|l]их мамлюків."
+ },
+ "flavor_mam.64.a.entry": {
+  "en": "We need the support of the Mamlūks.",
+  "uk": ""
+ },
+ "flavor_mam.64.b": {
+  "en": "The support of [target_culture2.GetNameWithNoTooltip] Mamlūks is as vital as ever.",
+  "uk": "Підтримка [target_culture2.GetNameWithNoTooltip|l]их мамлюків важлива як ніколи."
+ },
+ "flavor_mam.64.b.entry": {
+  "en": "The support of the Mamlūks is as vital as ever.",
+  "uk": ""
+ },
+ "flavor_mam.64.c": {
+  "en": "Although not as important [third_ruler.GetNameWithNoTooltip] has shown skill.",
+  "uk": "Хоч і не такої знатної крові, але [third_ruler.GetNameWithNoTooltip] [Select_CString(third_ruler.IsFemale, 'показала себе вмілою правителькою', 'показав себе вмілим правителем')]."
+ },
+ "flavor_mam.64.c.entry": {
+  "en": "Although not as important he has shown skill.",
+  "uk": ""
+ },
+ "flavor_mam.64.d": {
+  "en": "A traditional Mamlūk from our [target_culture4.GetNameWithNoTooltip] ranks.",
+  "uk": "Вірний традиціям мамлюк з наших #L [target_culture4.GetName|l]их#! лав."
+ },
+ "flavor_mam.64.d.entry": {
+  "en": "A traditional Mamlūk from our ranks.",
+  "uk": ""
+ },
+ "flavor_mam.64.desc": {
+  "en": "The death of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has left [ROOT.GetCountry.GetNameWithNoTooltip] without a [ROOT.GetCountry.GetGovernment.GetRulerTitle]. All the important [ROOT.GetCountry.GetAdjective] households of the [ROOT.GetCountry.GetFlavorRank] are calling upon their influence to have a say in who the successor is going to be. Depending on who wins, our new ruler will have the support of different households and different parts of the [ROOT.GetCountry.GetFlavorRank]. Only one thing is certain, those that would rather have seen their own group's interests prevailing will not greet our new [ROOT.GetCountry.GetGovernment.GetRulerTitle] with joy. Some might even spend the rest of their lives trying to limit their influence.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'померла', 'помер')], і тепер [ROOT.GetCountry.Custom('CL_DAT')] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'потрібна нова', 'потрібен новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Могутні #L [ROOT.GetCountry.GetAdjective|l]і#! доми задіюють весь свій вплив, аби вирішити, хто зійде на трон. Залежно від того, хто візьме гору, наш новий правитель отримає підтримку різних кланів і різних куточків [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Ясно лише одне: тим, хто прагнув втілити власні інтереси, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'нова', 'новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] буде не до вподоби, хто б це не був. Деякі, можливо, і зовсім присвятять залишок своїх днів тому, щоб перешкоджати новій владі."
+ },
+ "flavor_mam.64.title": {
+  "en": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Succession",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]е престолонаслідування"
+ },
+ "flavor_mam.65.a": {
+  "en": "We must crush this in its cradle!",
+  "uk": "Ми маємо придушити це в зародку!"
+ },
+ "flavor_mam.65.b": {
+  "en": "Let us see what we can do to improve their situation.",
+  "uk": "Подивимося, як можна поліпшити їхнє становище."
+ },
+ "flavor_mam.65.desc": {
+  "en": "While $mamluks$ make up the core of our forces not all of our military might consists of warrior slaves. Local [target_location.GetName] soldiers form much of our infantry and they are also used for guard and garrison duties.\\n\\nSmall chances of advancement and low pay are not the best motivators however, and it is not clear how far we can trust these men. Certainly their training and equipment are often neglected by the [ROOT.GetCountry.GetGovernment.GetRulerTitle], and the local governors in the [target_location.GetRank.GetName]. In [target_location.GetArea.GetName] mistrust between [target_location.GetNameWithNoTooltip] locals and $mamluks$ governors has led to unrest.",
+  "uk": "Хоча мамлюки і становлять кістяк наших сил, не вся наша військова міць ґрунтується на воїнах-рабах. Місцеві солдати з [target_location.Custom('LR_RP')|l] [target_location.GetName] формують основу нашої піхоти, а також несуть караульну і гарнізонну службу.\\n\\nОднак малі шанси на підвищення і мізерне жалування — не найкращі мотиватори, і невідомо, чи можна цілком покладатися на цих людей. Безперечно і те, що їхньому тренуванню і спорядженню часто не приділяє уваги ні [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], ні намісники [target_location.Custom('LR_RP')|l]. В області [target_location.GetArea.GetName] недовіра між корінними жителями [target_location.Custom('LR_RP')|l] [target_location.GetName] і мамлюцькими правителями вже стала причиною заворушень."
+ },
+ "flavor_mam.65.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Soldiers",
+  "uk": "Воїни [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mam.66.a": {
+  "en": "What an excellent idea!",
+  "uk": "Чудова ідея!"
+ },
+ "flavor_mam.66.b": {
+  "en": "We will just have to endure the cost.",
+  "uk": "Доведеться просто змиритися з видатками."
+ },
+ "flavor_mam.66.desc": {
+  "en": "Our predecessors have wisely used a system of [ROOT.GetCountry.GetGovernment.GetAdjective] monopolies to control the revenue from cash crops and fine goods. With demand falling however we are losing money on these investments. Our overseer in [target_location.GetName] is reporting that they have failed to sell their stock for two years now and worry that this is going to cost the state money.\\n\\nThey suggest that we force our subjects to buy these goods at a set price to recoup our investment. A process traditionally known as Tarh.",
+  "uk": "Наші попередники мудро використовували систему #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! монополій для контролю над доходами від товарних сільськогосподарських культур і вишуканих товарів. Однак через падіння попиту ми зазнаємо збитків від цих вкладень. Наш наглядач в [target_location.Custom('LR_PP')|l] [target_location.GetName] доповідає, що йому вже два роки не вдається продати запаси, і побоюється, що це влетить скарбниці в копієчку.\\n\\nВін пропонує примусити наших підданих викупити ці товари за встановленою ціною, аби відбити вкладення. Ця процедура традиційно відома як тарх."
+ },
+ "flavor_mam.66.title": {
+  "en": "The Tarh and the [ROOT.GetCountry.GetGovernment.GetAdjective] Monopolies",
+  "uk": "Тарх і #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]і#! монополії"
+ },
+ "flavor_mam.67.a": {
+  "en": "The penalty for treason is death!",
+  "uk": "Покарання за зраду — смерть!"
+ },
+ "flavor_mam.67.desc": {
+  "en": "A powerful $mamluk$ governor has built up a power base in [target_area.GetName] and is now marching on [ROOT.GetCountry.GetCapital.GetName]. There are rumors of widespread support this $mamluk_pretender$ rebellion among the $mamluk$ households of the capital and even within the citadel itself.",
+  "uk": "Могутній мамлюцький намісник зібрав оплот влади в області [target_area.GetName] і тепер рухається на столичне місто [ROOT.GetCountry.GetCapital.GetName]. Ходять чутки про широку підтримку цього претендента серед мамлюцьких домів столиці і навіть у самій цитаделі."
+ },
+ "flavor_mam.67.title": {
+  "en": "Revolt of [target_location.GetName] $mamluk$ Governor",
+  "uk": "Заколот намісника в [target_location.Custom('LR_PREP')|l] [target_location.GetName]"
+ },
+ "flavor_mam.68.a": {
+  "en": "We must attempt to play them off against each other.",
+  "uk": "Треба стравити їх один з одним."
+ },
+ "flavor_mam.68.b": {
+  "en": "Let us pick sides and support the stronger factions.",
+  "uk": "Виберемо сторону і будемо підтримувати найсильніші фракції."
+ },
+ "flavor_mam.68.c": {
+  "en": "Let us do nothing in this factional conflict.",
+  "uk": "Краще залишитися осторонь від цього конфлікту угруповань."
+ },
+ "flavor_mam.68.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] is far from the only owner of $mamluk$ in our [ROOT.GetCountry.GetFlavorRank]. The households of influential manumitted $mamluk$ often contain as many, if not more of newly imported slaves from their home regions. These influential governors are often those with the greatest influence during a succession but even when the throne is occupied the influence of the $mamluk$ households is considerable in [ROOT.GetCountry.GetAdjective] politics. It is up to [target_character.GetName] to ensure that this factionalism does not stifle the politics of [ROOT.GetCountry.GetCapital.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'далека', 'далекий')] від того, щоб бути єдиним власником мамлюків на території [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. У резиденціях впливових звільнених мамлюків часто не менше, а то й більше нових привезених рабів з їхніх рідних земель. Ці могутні намісники зазвичай володіють найбільшим впливом під час престолонаслідування, але навіть коли трон зайнятий, їхня влада над #L [ROOT.GetCountry.GetAdjective|l]ою#! політикою дуже значна. [target_character.GetName] [Select_CString(target_character.IsFemale, 'має', 'має')] простежити, щоб ця роздробленість не паралізувала політику в місті [ROOT.GetCountry.GetCapital.GetName]."
+ },
+ "flavor_mam.68.title": {
+  "en": "Factionalism in the [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "Роздробленість у [ROOT.GetCountry.Custom('rank_ru_GEN')|l]"
+ },
+ "flavor_mam.69.a": {
+  "en": "We will not abandon [target_character2.GetNameWithNoTooltip].",
+  "uk": "[target_character2.GetNameWithNoTooltip] продовжить правити."
+ },
+ "flavor_mam.69.a.entry": {
+  "en": "We will not abandon him.",
+  "uk": ""
+ },
+ "flavor_mam.69.b": {
+  "en": "Long live the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "Хай живе [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ },
+ "flavor_mam.69.b.entry": {
+  "en": "Long live he.",
+  "uk": ""
+ },
+ "flavor_mam.69.desc": {
+  "en": "Gravely discontent with the misrule of [target_character2.GetName], prominent $mamluk$ governors, led by [target_character.GetName] have acted to depose our [ROOT.GetCountry.GetGovernment.GetRulerTitle] and put a more able warrior on the throne.",
+  "uk": "[target_character.GetName] і видатні мамлюцькі намісники надзвичайно незадоволені невмілим правлінням, яке веде [target_character2.GetName]. Вони виступили з вимогою, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(target_character2.IsFemale, 'склала', 'склав')] повноваження, а на трон зійшов здібніший воїн."
+ },
+ "flavor_mam.69.title": {
+  "en": "Coup in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "Повстання в місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
+ },
+ "flavor_mam.7.a": {
+  "en": "This is a legitimate cause for War!",
+  "uk": "Це правомірний привід для війни!"
+ },
+ "flavor_mam.7.desc": {
+  "en": "[GetCountry('CYP').GetLongName] refuses our demands and claims that Jaques is the son of a whore, and that our [ROOT.GetCountry.GetGovernment.GetRulerTitle] is nothing but a dirty infidel.",
+  "uk": "[GetCountry('CYP').GetLongName] відхиляє наші вимоги. Його влади заявляють, що Яків — син повії, а наш [ROOT.GetCountry.GetGovernment.GetRulerTitle] — всього лише брудний невірний."
+ },
+ "flavor_mam.7.entry": {
+  "en": "$flavor_mam.7.title$",
+  "uk": ""
+ },
+ "flavor_mam.7.title": {
+  "en": "Cyprus defiant!",
+  "uk": "Образу завдано!"
+ },
+ "flavor_mam.70.a": {
+  "en": "Let us renovate the souks and the Khan el-Khalili.",
+  "uk": "Оновимо ринки і Хан аль-Халілі."
+ },
+ "flavor_mam.70.b": {
+  "en": "We must renovate the growing slums and the suburbs.",
+  "uk": "Треба реконструювати нетрі і передмістя, що ростуть."
+ },
+ "flavor_mam.70.c": {
+  "en": "The Mosques and the al-Azhar require our attention.",
+  "uk": "Мечеті і аль-Азхар потребують нашої уваги."
+ },
+ "flavor_mam.70.d": {
+  "en": "Coming generations shall envy the monuments we erect.",
+  "uk": "Прийдешні покоління позаздрять зведеним нами монументам."
+ },
+ "flavor_mam.70.desc": {
+  "en": "Much older than our own [ROOT.GetCountry.GetFlavorRank], [target_location.GetName] has been embellished by rulers and conquerors for hundreds if not thousands of years. Bringing order to this maze of buildings, from the tombs of the [target_location.GetRank.GetName] of the dead and the slums of Fustat, to the bustling markets of Khan el-Khalili, or the great Citadel of [target_location.GetNameWithNoTooltip] itself, has long been a monumental task for many of our predecessors. Nonetheless, as the master of the [target_location.GetRank.GetNameWithNoTooltip], [target_character.GetName], is expected to leave [target_character.GetHerHis] mark upon the place, both to embellish and develop it, and to combat disease and keep the order.",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] набагато давніший, ніж наша власна держава; правителі і завойовники прикрашали це місце протягом сотень, якщо не тисяч років. Навести лад у цьому лабіринті споруд — від гробниць [target_location.Custom('LR_GEN')|l] мертвих і нетрів Фустата до галасливих ринків Хан аль-Халілі і самої великої цитаделі [target_location.GetNameWithNoTooltip] — віддавна було титанічним завданням для багатьох наших попередників. Тим не менш, як [Select_CString(target_character.IsFemale, 'нинішня господиня', 'нинішній господар')] [target_location.Custom('LR_GEN')|l], [target_character.GetName] [Select_CString(target_character.IsFemale, 'має', 'має')] залишити свій слід, аби і прикрасити, і розвинути його, а також боротися з хворобами і підтримувати порядок."
+ },
+ "flavor_mam.70.e": {
+  "en": "There is not much we can do for the citizens right now.",
+  "uk": "Зараз ми мало що можемо зробити для міщан."
+ },
+ "flavor_mam.70.title": {
+  "en": "The [target_location.GetRank.GetNameWithNoTooltip] of [ShowLocationNameWithNoTooltip('cairo')]",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] Каїр"
+ },
+ "flavor_mam.71.a": {
+  "en": "[bedouin_candidate.GetNameWithNoTooltip] is a native of these lands.",
+  "uk": "[bedouin_candidate.GetNameWithNoTooltip] — [Select_CString(bedouin_candidate.IsFemale, 'уродженка', 'уродженець')] цих земель."
+ },
+ "flavor_mam.71.a.entry": {
+  "en": "The candidate is a native of these lands.",
+  "uk": ""
+ },
+ "flavor_mam.71.b": {
+  "en": "[mil_candidate.GetNameWithNoTooltip] shall use [mil_candidate.GetHerHis] cunning to protect.",
+  "uk": "[mil_candidate.GetNameWithNoTooltip] використає свою хитрість для захисту."
+ },
+ "flavor_mam.71.b.entry": {
+  "en": "The candidate shall use his cunning to protect.",
+  "uk": ""
+ },
+ "flavor_mam.71.c": {
+  "en": "An able diplomat like [dip_candidate.GetNameWithNoTooltip] will handle this best.",
+  "uk": "З цим найкраще впорається вмілий дипломат, наприклад [dip_candidate.GetNameWithNoTooltip]."
+ },
+ "flavor_mam.71.c.entry": {
+  "en": "An able diplomat like the candidate will handle this best.",
+  "uk": ""
+ },
+ "flavor_mam.71.d": {
+  "en": "Pious people like [adm_candidate.GetNameWithNoTooltip] will be in charge of this role.",
+  "uk": "Це справа для побожної людини, такої як [adm_candidate.GetNameWithNoTooltip]."
+ },
+ "flavor_mam.71.d.entry": {
+  "en": "Pious people like the candidate will be in charge of this role.",
+  "uk": ""
+ },
+ "flavor_mam.71.desc": {
+  "en": "The pilgrimage to the holy sites of [ShowLocationName('mecca')] and [ShowLocationName('medina')] is a duty every [ShowReligionGroupAdjective('muslim')] must undertake at least once in their lifetime. As the [ROOT.GetCountry.GetGovernment.GetRulerTitle], the responsibility lies with [target_character.GetName] to ensure safe passage. This is a position that in many ways requires both cunning and martial ability, as the way to proceed can range from defeating raiders to negotiating passage from local rulers, to outright threats or bribery. The Amir al-Hajj will have the overall responsibility for the Hajj caravans and will have great freedom in how to achieve a steady and peaceful passage for all [ROOT.GetCountry.GetAdjective] pilgrims.",
+  "uk": "Паломництво до святинь #TOOLTIP:LOCATION,$mecca_tt$,X #L Мекки#!#! і #TOOLTIP:LOCATION,medina_tt,X #L Медини#!#! — обов'язок, який кожен #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманин#!#! має виконати хоча б раз у житті. Як [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], [target_character.GetName] [Select_CString(target_character.IsFemale, 'зобов'язана', 'зобов'язаний')] забезпечити безпечний шлях. Ця посада багато в чому вимагає як винахідливості, так і воїнських здібностей, бо методи досягнення мети можуть варіюватися від розгрому розбійників до переговорів про прохід з місцевими правителями, відвертих погроз або підкупу. Амір аль-хадж нестиме повну відповідальність за каравани під час хаджу і отримає широкі повноваження в тому, як гарантувати стабільний і мирний прохід для всіх #L [ROOT.GetCountry.GetAdjective|l]их#! паломників."
+ },
+ "flavor_mam.71.e": {
+  "en": "Only a loyal $mamluk$ like [mamluk_candidate.GetNameWithNoTooltip] can perform this task.",
+  "uk": "З цим завданням впорається лише вірний мамлюк — [mamluk_candidate.GetNameWithNoTooltip]."
+ },
+ "flavor_mam.71.e.entry": {
+  "en": "Only a loyal $mamluk$ like the candidate can perform this task.",
+  "uk": ""
+ },
+ "flavor_mam.71.title": {
+  "en": "A New Amir al-Hajj",
+  "uk": "Новий амір аль-хадж"
+ },
+ "flavor_mam.72.a": {
+  "en": "Let us appoint one of the sons.",
+  "uk": "Давайте призначимо одного з таких синів."
+ },
+ "flavor_mam.72.b": {
+  "en": "We can only trust our own, the commander must be a $mamluk$.",
+  "uk": "Ми можемо довіряти лише своїм, командиром буде мамлюк."
+ },
+ "flavor_mam.72.desc": {
+  "en": "Having been educated to be loyal warriors since an early age $mamluk$ soldiers often have the complete trust of their owner or employer. Their sons however, the Awlād al-Nās, having grown up under far more convenient and forgiving circumstances, are generally considered far less able and loyal. Unable to serve as [ROOT.GetCountry.GetGovernment.GetAdjective|U] $mamluk$ the Awlād al-Nās constitute instead a social elite within regular military units and in the lower administration.\\nThese noble sons themselves are however continually trying to prove that they are ready for bigger responsibilities. With the open position of command for the defenses of [target_location.GetName], a number of them are hoping that we will entrust them with this task.",
+  "uk": "Мамлюки, з малих років виховані як віддані воїни, зазвичай користуються безумовною довірою свого власника або наймача. Однак їхні сини, ауляд ан-нас, які виросли в набагато зручніших і м'якших умовах, на загальну думку, набагато менш вміілі і лояльні. Не маючи можливості служити як #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]і#! мамлюки, ауляд ан-нас натомість утворюють соціальну еліту в рядових військових частинах і в нижчій адміністрації.\\nОднак самі ці благородні сини безперервно намагаються довести, що готові до більшої відповідальності. З відкритою вакансією командувача оборони [target_location.Custom('LR_RP')|l] [target_location.GetName] багато з них сподіваються, що ми довіримо їм це завдання."
+ },
+ "flavor_mam.72.title": {
+  "en": "Awlād al-Nās",
+  "uk": "Аулад аль-Нас"
+ },
+ "flavor_mam.73.a": {
+  "en": "Let us root out the Qaranis from important positions!",
+  "uk": "Приберемо каранісів з усіх важливих постів!"
+ },
+ "flavor_mam.73.b": {
+  "en": "We have no choice but to trust them, we are all $mamluk$ after all...",
+  "uk": "У нас немає вибору, крім як довіряти їм, адже всі ми мамлюки…"
+ },
+ "flavor_mam.73.desc": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] was founded by $mamluk$ slaves and the ownership and import of skilled warrior slaves remain the base for any power for [target_character.GetName]. It is only natural that a slave will be more loyal to their master than any other in their new homeland, and even more so if rewarded by manumission for services rendered.\\nHowever, currently many of the [ROOT.GetCountry.GetGovernment.GetAdjective] $mamluk$ in our administration, [ROOT.GetCountry.GetGovernment.GetCourtTitle] and armies are those whom previous rulers bought and introduced to our [ROOT.GetCountry.GetFlavorRank]. These are people with great influence but no personal loyalties to [target_character.GetNameWithNoTooltip], people that our new $mamluk$ accuse of plotting and seeking to limit their influence.",
+  "uk": "Нашу державу було засновано рабами-мамлюками, і імпорт вмілих воїнів-рабів залишається основою влади, якою володіє [target_character.GetName]. Природно, що раб буде більш відданий своєму господареві, ніж кому-небудь іншому на новому місці, особливо якщо отримає свободу в нагороду за вірну службу.\\nОднак зараз багато з #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! мамлюків у нашій адміністрації, при дворі і в арміях — це ті, кого купили і привезли сюди попередні правителі [ROOT.GetCountry.Custom('CF_RP')|l]. Це люди з великим впливом, але [target_character.GetNameWithNoTooltip] не користується особливою відданістю з їхнього боку. Це люди, яких наші нові мамлюки звинувачують в інтригах і бажанні обмежити їхній вплив."
+ },
+ "flavor_mam.73.title": {
+  "en": "Qaranis",
+  "uk": "Караніси"
+ },
+ "flavor_mam.74.a": {
+  "en": "This is good for the people, but not something that [target_character.GetNameWithNoTooltip] should spend money on.",
+  "uk": "Народу б це сподобалося, але [target_character.GetNameWithNoTooltip] не [Select_CString(target_character.IsFemale, 'має', 'має')] розтрачати скарбницю на таке."
+ },
+ "flavor_mam.74.a.entry": {
+  "en": "This is good for the people, but not something that the character should spend money on.",
+  "uk": ""
+ },
+ "flavor_mam.74.b": {
+  "en": "Let us expand and build new hippodromes to patronize the flowers of chivalry.",
+  "uk": "Розширимо і побудуємо нові іподроми — на нас чекає новий розквіт лицарства!"
+ },
+ "flavor_mam.74.desc": {
+  "en": "The Furūsiyya are a set of equestrian exercises that teach young warriors the craft of cavalry warfare. With codified rules, manuals, and popular competitions, the Furūsiyya has in many ways been perfected by Mamluk warrior aristocracy. While some chroniclers would claim that the champions of today could never compete with the warriors of the past, it is still both customary, and very popular, for any [ROOT.GetCountry.GetGovernment.GetRulerTitle] to arrange big public Furūsiyya competitions, and the champions remain the heroes of many popular tales. All of this has inspired [target_character.GetName], an expert when it comes to warfare, and now wishes to organize even more tournaments among [ROOT.GetCountry.GetAdjective] warriors.",
+  "uk": "Фурусія — це звід вправ з верхової їзди для навчання молодих воїнів мистецтву кавалерійської війни. Завдяки чітким правилам, настановам і популярним змаганням фурусія багато в чому була доведена до досконалості мамлюцькою військовою аристократією. Хоча деякі літописці стверджують, що нинішні чемпіони і в підмітки не годяться воїнам минулого, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'будь-яка', 'будь-який')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] як і раніше вважає своїм обов'язком влаштовувати великі змагання з фурусії — вони користуються неабиякою популярністю, а їхні переможці стають героями багатьох народних переказів. [target_character.GetName], будучи експертом у військовій справі, дуже [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'надихнулася', 'надихнувся')] усім цим і тепер бажає організувати ще більше турнірів серед #L [ROOT.GetCountry.GetAdjective|l]их#! воїнів."
+ },
+ "flavor_mam.74.title": {
+  "en": "Furūsiyya",
+  "uk": "Фурусія"
+ },
+ "flavor_mam.75.a": {
+  "en": "This is a display of our willingness to protect our faith.",
+  "uk": "Це показує нашу готовність захищати свою віру."
+ },
+ "flavor_mam.75.desc": {
+  "en": "Our efforts to protect those of our subjects who seek to perform their pilgrimage to the holy places of [ShowLocationName('medina')] and [ShowLocationName('mecca')] have paid off. It is now long since there was last a raid and the realm is at peace.",
+  "uk": "Наші зусилля щодо захисту підданих, які прагнуть здійснити паломництво до святинь #TOOLTIP:LOCATION,medina_tt,X #L Медини#!#! і #TOOLTIP:LOCATION,$mecca_tt$,X #L Мекки#!#!, окупилися. Вже давно не було новин про напади, і в державі панує мир."
+ },
+ "flavor_mam.75.title": {
+  "en": "The Pilgrims are Safe",
+  "uk": "Паломники в безпеці"
+ },
+ "flavor_mam.76.a": {
+  "en": "This will not happen again.",
+  "uk": "Це більше не повториться."
+ },
+ "flavor_mam.76.desc": {
+  "en": "A recent caravan of pilgrims for the holy sites of [ShowLocationName('medina')] and [ShowLocationName('mecca')] was ambushed and plundered. It is our duty to protect those among our subjects who would set out for the holy places and now our ability to do so is put in question.",
+  "uk": "Недавній караван паломників, що прямував до святинь #TOOLTIP:LOCATION,medina_tt,X #L Медини#!#! і #TOOLTIP:LOCATION,$mecca_tt$,X #L Мекки#!#!, був атакований і пограбований. Наш обов'язок — захищати підданих під час хаджу, і тепер наші можливості це робити поставлені під питання."
+ },
+ "flavor_mam.76.entry": {
+  "en": "$flavor_mam.76.title$",
+  "uk": ""
+ },
+ "flavor_mam.76.title": {
+  "en": "Ḥajj Caravans Raided",
+  "uk": "Каравани паломників атаковані"
+ },
+ "flavor_mam.77.a": {
+  "en": "Invest to boost the production.",
+  "uk": "Інвестуємо в нарощування виробництва."
+ },
+ "flavor_mam.77.b": {
+  "en": "The current production is sufficient.",
+  "uk": "Нинішнього виробництва цілком достатньо."
+ },
+ "flavor_mam.77.desc": {
+  "en": "The rich floodplains of [ShowRegionName('egypt_region')], especially in the Nile Delta, remain the breadbasket of the eastern Mediterranean. Our [ShowGoodsName('wheat')] feeds cities from [ShowLocationName('constantinople')] to [ShowLocationName('damascus')] and secures our place as a vital economic and logistical power. Some in [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggest investing further into agricultural reforms and expanding grain production to ensure food stability and profit.",
+  "uk": "Багаті заплавні землі #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!, особливо в дельті Нілу, залишаються житницею східного Середземномор'я. Наша #TOOLTIP:GOODS,wheat,X #L пшениця#!#! годує міста від #TOOLTIP:LOCATION,constantinople_tt,X #L Константинополя#!#! до #TOOLTIP:LOCATION,damascus_tt,X #L Дамаска#!#! і робить нас важливою економічною і транспортною державою. Деякі при дворі пропонують додатково інвестувати в аграрні реформи і розширити виробництво зерна, щоб гарантувати продовольчу стабільність і прибуток."
+ },
+ "flavor_mam.77.entry": {
+  "en": "$flavor_mam.77.title$",
+  "uk": ""
+ },
+ "flavor_mam.77.historical_info": {
+  "en": "Under the Mamluks, Egypt was renowned for its agricultural wealth and grain exports. Fertile Nile valleys and a complex system of irrigation made Egypt a critical supplier of food to the broader Islamic world. This earned the region the nickname 'Granary of the Mediterranean'.",
+  "uk": "За мамлюків Єгипет славився своїм сільськогосподарським багатством і експортом зерна. Родючі долини Нілу і складна система іригації зробили Єгипет найважливішим постачальником продовольства для всього ісламського світу. За це регіон прозвали «Житницею Середземномор'я»."
+ },
+ "flavor_mam.77.title": {
+  "en": "Granary of the Mediterranean",
+  "uk": "Житниця Середземномор'я"
+ },
+ "flavor_mam.78.a": {
+  "en": "Support [target_character.GetHerHim] research and publishing.",
+  "uk": "Підтримаємо [Select_CString(target_character.IsFemale, 'її', 'його')] дослідження і публікації."
+ },
+ "flavor_mam.78.b": {
+  "en": "We cannot afford to fund every research.",
+  "uk": "Ми не можемо дозволити собі спонсорувати все підряд."
+ },
+ "flavor_mam.78.desc": {
+  "en": "[target_character.GetName] has begun publishing a series of works on hadith, social customs, and history. Through the combination rigorous hadith scholarship and records of daily life, [target_character.GetHerHis] anthropological work, which focuses primarily on marriage and divorce, has resulted in interesting findings. The research revealed that at least one third of women in [ShowLocationName('cairo')] married at least twice, with many marrying thrice, and that about one third of all marriages ended in a divorce. Though many believe that supporting [target_character.GetHerHim] work could yield even more interesting results, others believe that funding a research which focuses on trivial things such as marriages would be a waste of our finances.",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'почала', 'почав')] публікувати серію праць про хадіси, соціальні звичаї та історію. Завдяки поєднанню наполегливого вивчення хадісів і записів про повсякденне життя, [Select_CString(target_character.IsFemale, 'її', 'його')] антропологічна робота, в основному описуюча шлюби і розлучення, призвела до цікавих відкриттів. Дослідження показало, що принаймні третина жінок #TOOLTIP:LOCATION,cairo_tt,X #L Каїра#!#! виходила заміж двічі, багато — тричі, і що близько третини всіх шлюбів закінчувалися розлученням. Хоча багато хто вважає, що підтримка [Select_CString(target_character.IsFemale, 'її', 'його')] роботи може принести ще цікавіші результати, інші вважають, що спонсорувати дослідження таких звичайних речей, як шлюби, буде марною тратою наших коштів."
+ },
+ "flavor_mam.78.entry": {
+  "en": "Al-Sakhawi, Hadith Scholar",
+  "uk": ""
+ },
+ "flavor_mam.78.historical_info": {
+  "en": "Shams al-Dīn al-Sakhāwī was one of the leading hadith scholars and historians of the late Mamluk period, who authored dozens of treatises on hadith, history, literature, and social customs. His anthropological data, such as the recorded marital patterns of 500 women in Cairo, represented a very rare statistical window into medieval Islamic society, and was the largest sample study done on women in the Middle Ages.",
+  "uk": "Шамс ад-Дін ас-Сахаві був одним з провідних знавців хадісів і істориків пізнього мамлюцького періоду, автором десятків трактатів про хадіси, історію, літературу і соціальні звичаї. Його антропологічні дані, такі як зафіксовані шлюбні відносини 500 жінок у Каїрі, являють собою дуже рідкісне статистичне вікно в середньовічне ісламське суспільство і є найбільшим дослідженням про жінок, проведеним у Середньовіччі."
+ },
+ "flavor_mam.78.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mam.79.a": {
+  "en": "Support [target_character.GetHerHis] scholarship.",
+  "uk": "Підтримаємо [Select_CString(target_character.IsFemale, 'її', 'його')] вчення."
+ },
+ "flavor_mam.79.b": {
+  "en": "We have more pressing needs.",
+  "uk": "У нас є справи поважніші."
+ },
+ "flavor_mam.79.desc": {
+  "en": "In recent years, Imam [target_character.GetName] has become a towering figure of the intellectual life in [ShowLocationName('cairo')]. A master of hadith, [ShowReligionGroupAdjective('muslim')] jurisprudence, and history, [target_character.GetHerHis] erudition has brought prestige to our [ROOT.GetCountry.GetGovernment.GetCourtTitle] and institutions. [target_character.GetSheHe|U] is widely respected for restoring the study of hadith to prominence, and [target_character.GetHerHis] teachings draw students from all accross the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "В останні роки імам [target_character.GetName] [Select_CString(target_character.IsFemale, 'стала', 'став')] головною фігурою інтелектуального життя #TOOLTIP:LOCATION,cairo_tt,X #L Каїра#!#!. Всі шанують [Select_CString(target_character.IsFemale, 'її', 'його')] як майстра хадісів, #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! права та історії, і [Select_CString(target_character.IsFemale, 'її', 'його')] освіченість принесла престиж нашому двору і інститутам. [Select_CString([target_character.IsFemale, 'Вона', 'Він')] користується великою повагою за популяризацію вивчення хадісів, і [Select_CString([target_character.IsFemale, 'її', 'його')] вчення приваблюють послідовників з усіх куточків [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_mam.79.entry": {
+  "en": "Ibn Hajar al-Asqalani",
+  "uk": ""
+ },
+ "flavor_mam.79.historical_info": {
+  "en": "Ibn Ḥajar al-'Asqalānī was a celebrated Egyptian scholar most famous for his authoritative commentary on #italic Ṣaḥīḥ al-Bukhārī#!, titled #italic Fath al-Bārī#!. His expertise in hadith, along with jurisprudence, poetry, and history, earned him a lasting reputation throughout the Islamic world. He managed to revitalize hadith scholarship in a time when it had begun to wane, and his influence endured for centuries.",
+  "uk": "Ібн Хаджар аль-Аскаляні — знаменитий єгипетський учений, найбільш відомий своїм тлумаченням #italic «Сахіха» аль-Бухарі#! під назвою #italic «Фатх аль-Барі»#!. Його знання хадісів, а також права, поезії та історії принесло йому міцну репутацію у всьому ісламському світі. Йому вдалося відродити вивчення хадісів у той час, коли воно почало схилятися до занепаду, і його вплив зберігався століттями."
+ },
+ "flavor_mam.79.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mam.8.a": {
+  "en": "Support him fully!",
+  "uk": "Повністю підтримаємо його!"
+ },
+ "flavor_mam.8.b": {
+  "en": "Refuse him access to our records",
+  "uk": "Він не отримає доступ до наших записів"
+ },
+ "flavor_mam.8.desc": {
+  "en": "[target_artist.GetName] was a famous Egyptian historian, who belonged to the $mamluk$ elite of Cairo. He studied under leading historians and scholars like al-Ayni and al-Maqrizi. He is most famous for his multi-volume chronicle of Egypt and the $mamluk$ Sultanate, which was written in an annalistic style with precise dates for most events. He had privileged access to the Sultans and their records to create it.\\nHow shall we do?",
+  "uk": "[target_artist.GetName] був відомим єгипетським істориком і належав до еліти каїрських мамлюків. Його вчителями були такі провідні історики та вчені, як аль-Айні та аль-Макрізі. Найвідоміша його робота — це багатотомна хроніка Єгипту та Мамлюцького султанату, написана в стилі літопису з точними датами подій. На час її створення він отримав привілейований доступ до султанів та їхніх документів.\\nЯк ми вчинимо?"
+ },
+ "flavor_mam.8.entry": {
+  "en": "Ibn Taghribirdi, Egyptian Chronicler",
+  "uk": ""
+ },
+ "flavor_mam.8.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "found_dynasty_target_location_tt": {
+  "en": "Founds a new [dynasty|e] in [target_location.GetName]",
+  "uk": "Створює нову [Concept('dynasty', 'династію')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName]"
+ },
+ "ibn_khaldun_hit_the_road_tt": {
+  "en": "[target_character.GetNameWithNoTooltip] has moved to the [target_country.GetLongNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] переїжджає. [target_country.GetLongNameWithNoTooltip] стає [Select_CString(target_character.IsFemale, 'її', 'його' )] новим домом"
+ },
+ "lack_of_demand_for_fine_goods": {
+  "en": "Lack of Demand for Fine Goods",
+  "uk": "Низький попит на вишукані товари"
+ },
+ "mam_all_pop_not_of_primary_culture_lose_satisfaction_tt": {
+  "en": "All [ShowPopTypeName('soldiers')] [pops|e] that are not part of the [ROOT.GetCountry.GetCulture.GetName] [culture|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops', 'групи населення')|e] #TOOLTIP:POPTYPE,soldiers,X #L солдатів#!#!, які не належать до #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! [Concept('culture', 'культури')|e], отримають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "mam_anti_ottoman_friends": {
+  "en": "The Ottomans are a common enemy",
+  "uk": "Османи — наші спільні вороги"
+ },
+ "mam_backstabs_later_tt": {
+  "en": "The surviving $mamluks$ may cause us trouble later...",
+  "uk": "Мамлюки, що вижили, можуть завдати нам неприємностей у майбутньому…"
+ },
+ "mam_every_location_in_area_minus_capital_joins_rebellion_tt": {
+  "en": "All [pops|e] in [target_area.GetName] that are not in the [capital|e] will join the [mamluk_pretender.GetName] [rebel|e] and lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в області [target_area.GetName] поза [Concept('capital', 'столицею')|e] приєднаються до [Concept('rebel', 'повстанця')|e] на ім'я [mamluk_pretender.GetName] і отримають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+ },
+ "mam_installed_ruler": {
+  "en": "Installed Jaques",
+  "uk": "Проголошення Якова королем"
+ },
+ "mam_mansa_musas_visit": {
+  "en": "Mansa Mūsā's Repercussions",
+  "uk": "Наслідки вчинку манси Муси"
+ },
+ "mam_poem_recieved": {
+  "en": "Personal Praising Poem",
+  "uk": "Поема, що прославляє султана"
+ },
+ "mam_refused_james": {
+  "en": "Refused King Jaques",
+  "uk": "Відмова проголошувати Якова королем"
+ },
+ "mamluk_pretender": {
+  "en": "$mamluk$ Pretender",
+  "uk": "Мамлюцький претендент"
+ },
+ "mild_fiscal_reforms_tt": {
+  "en": "Our [locations|e] will lose #R -20%#! of their [province|e] [food|e], [ShowNamedValue('prosperity_mild_penalty')|+=2%] [prosperity|e] and their [pops|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Наші [Concept('locations','райони')|e] втратять #R 20%#! від усіх запасів [Concept('food','їжі')|e] в [Concept('province','провінції')|e] та [ShowNamedValue('prosperity_mild_penalty')|+=2%] [Concept('prosperity','процвітання')|e], а [Concept('pop_satisfaction','задоволення')|e] [Concept('pops','груп населення')|e] в цих районах знизиться на [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]"
+ },
+ "modifier_goes_away_if_90_legitimacy_tt": {
+  "en": "This [modifier] will be removed if we reach #Y 90#! [government_power|e]",
+  "uk": "Цей [Concept('modifier', 'модифікатор')|e] зникне, коли показник [Concept('government_power', 'влади уряду')|e] досягне #Y 90#!."
+ },
+ "people_in_bl_will_dislike_that_tt": {
+  "en": "[pops|e] in [target_province.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pops','Групи населення')|e] в провінції [target_province.GetName] втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
+ },
+ "surrender_the_trade": {
+  "en": "Surrender the Trade",
+  "uk": "Відмовитися від торгівлі зі Сходом"
+ },
+ "target_province_local_abuses_modifier_tt": {
+  "en": "[locations|e] in [target_province.GetName] gain [ShowModifier('local_abuses_modifier')] for #Y 5#! years and the local [pops|e] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('locations','Райони')|e] в провінції [target_province.GetName] на #Y 5#! років отримують модифікатор «[ShowModifier('local_abuses_modifier')]», а [Concept('pop_satisfaction','задоволення')|e] всіх місцевих [Concept('pops','груп населення')|e] знижується на [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]"
+ },
+ "tarh": {
+  "en": "Tarh",
+  "uk": "Тарх"
+ },
+ "unlocked_ablaq_palace_tt": {
+  "en": "We have unlocked this [building|e] through the '$flavor_mam.26.title_fallback$' [event|e]",
+  "uk": "Ми відкрили цю [Concept('building','споруду')|e] під час [Concept('event','події')|e] «$flavor_mam.26.title_fallback$»"
+ },
+ "variable_ibn_khaldun_work_of_art_tt": {
+  "en": "Ibn $khaldun$ has Completed $kitab_al_ibar$",
+  "uk": ""
+ },
+ "variable_mam_enable_exploration_events_tt": {
+  "en": "Demand for Ship Supplies is Rising",
+  "uk": ""
+ },
+ "variable_mam_relocate_bedouins_tt": {
+  "en": "The [ShowCultureName('bedouin_culture')] Tribes are Being Relocated",
+  "uk": ""
+ }
+}

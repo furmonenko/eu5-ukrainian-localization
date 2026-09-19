@@ -1,0 +1,478 @@
+{
+ "COLO_CLIMATE_IMP": {
+  "en": "$NUM|V$ [CLIMATE.GetName] [locations|e]: $VAL|+=%$",
+  "uk": ""
+ },
+ "COLO_TOPOGRAPHY_IMP": {
+  "en": "$NUM|V$ [TOPOGRAPHY.GetName] [locations|e]: $VAL|+=%$",
+  "uk": ""
+ },
+ "COLO_VEGETATION_IMP": {
+  "en": "$NUM|V$ [VEGETATION.GetName] [locations|e]: $VAL|+=%$",
+  "uk": ""
+ },
+ "TERRAIN_ATTACKER_PENALTY": {
+  "en": "Attacker Penalty in [combat|e]: $VALUE|-=$",
+  "uk": "Штраф нападника в [combat|e]: $VALUE|-=$"
+ },
+ "TERRAIN_ATTACKER_PENALTY_TT": {
+  "en": "This [location|e] gives penalty of [Location.GetAttackerPenalty|-=] to the [attacker|e] in [combat|e].",
+  "uk": "Ця [Concept('location','район')|e] дає штраф [Location.GetAttackerPenalty|-=] [attacker|e] у [combat|e]."
+ },
+ "TERRAIN_BLOCKS_IN_WINTER": {
+  "en": "[armies|e] can not enter during $STATIC_MODIFIER_NAME_winter_normal$ or $STATIC_MODIFIER_NAME_winter_severe$.",
+  "uk": "[Concept('armies','армії')|e] не можуть входити під час $STATIC_MODIFIER_NAME_winter_normal$ або $STATIC_MODIFIER_NAME_winter_severe$."
+ },
+ "TERRAIN_CAN_FREEZE_OVER": {
+  "en": "Can freeze during winter, blocking [ships|e] from moving and allowing [armies|e] to cross.",
+  "uk": "Може замерзати взимку, блокуючи рух [Concept('ships','кораблі')|e] і дозволяючи [Concept('armies','армії')|e] переходити."
+ },
+ "TERRAIN_COLONIAL_MIGRATION": {
+  "en": "[colonial_migration|e]: $VALUE|+=%$",
+  "uk": ""
+ },
+ "TERRAIN_MOVEMENT_COST": {
+  "en": "Movement Cost for [units|e]: $VALUE|-=%V$",
+  "uk": "Вартість пересування для [Concept('units','підрозділи')|e]: $VALUE|-=%V$"
+ },
+ "TERRAIN_PROXIMITY_COST": {
+  "en": "Proximity impact: $VALUE|-=%$",
+  "uk": "Вплив близькості: $VALUE|-=%$"
+ },
+ "WEATHER_CYCLONE": {
+  "en": "Cyclone",
+  "uk": "Циклон"
+ },
+ "WEATHER_CYCLONE_DESC": {
+  "en": "$WEATHER_CYCLONE$ currently centred in [LOCATION.GetName], heading towards [TARGET_LOCATION.GetName].",
+  "uk": "$WEATHER_CYCLONE$ наразі центрований у [LOCATION.GetName], рухається до [TARGET_LOCATION.GetName]."
+ },
+ "WEATHER_CYCLONE_EFFECT": {
+  "en": "It can have the following effects depending on the terrain and precipitation levels:",
+  "uk": "Може мати такі ефекти залежно від місцевості та рівня опадів:"
+ },
+ "WEATHER_CYCLONE_EFFECT_ADDITIONAL": {
+  "en": "In addition, coastal areas are vulnerable to:",
+  "uk": "Крім того, прибережні райони вразливі до:"
+ },
+ "WEATHER_CYCLONE_MEDIUM": {
+  "en": "a major hurricane",
+  "uk": "великий ураган"
+ },
+ "WEATHER_CYCLONE_NEARLY_DONE_DESC": {
+  "en": "$WEATHER_CYCLONE$ currently centred in [LOCATION.GetName] but petering out.",
+  "uk": "$WEATHER_CYCLONE$ наразі центрований у [LOCATION.GetName], але слабшає."
+ },
+ "WEATHER_CYCLONE_STRONG": {
+  "en": "a devastating hurricane",
+  "uk": "руйнівний ураган"
+ },
+ "WEATHER_CYCLONE_VERY_STRONG": {
+  "en": "a catastrophic hurricane",
+  "uk": "катастрофічний ураган"
+ },
+ "WEATHER_CYCLONE_VERY_WEAK": {
+  "en": "a minor hurricane",
+  "uk": "незначний ураган"
+ },
+ "WEATHER_CYCLONE_WEAK": {
+  "en": "an intense hurricane",
+  "uk": "інтенсивний ураган"
+ },
+ "WEATHER_FRONT": {
+  "en": "Weather Front",
+  "uk": "Атмосферний фронт"
+ },
+ "WEATHER_FRONT_DESC": {
+  "en": "$WEATHER_FRONT$ currently centred in [LOCATION.GetName], heading towards [TARGET_LOCATION.GetName].",
+  "uk": "$WEATHER_FRONT$ наразі центрований у [LOCATION.GetName], рухається до [TARGET_LOCATION.GetName]."
+ },
+ "WEATHER_FRONT_EFFECT": {
+  "en": "It has the following effect on locations when it hits them, scaled by how strong the front is:",
+  "uk": "Має такий ефект на локації, коли вдаряє по них, масштабований силою фронту:"
+ },
+ "WEATHER_FRONT_MEDIUM": {
+  "en": "heavy rain",
+  "uk": "сильний дощ"
+ },
+ "WEATHER_FRONT_NEARLY_DONE_DESC": {
+  "en": "$WEATHER_FRONT$ currently centred in [LOCATION.GetName] but petering out.",
+  "uk": "$WEATHER_FRONT$ наразі центрований у [LOCATION.GetName], але слабшає."
+ },
+ "WEATHER_FRONT_SNOW_EFFECT": {
+  "en": "In [locations|e] with severe winters, it will have the $EFFECT$ instead.",
+  "uk": "У [Concept('locations','райони')|e] з суворими зимами матиме $EFFECT$ замість цього."
+ },
+ "WEATHER_FRONT_STRONG": {
+  "en": "heavy downpour",
+  "uk": "зливa"
+ },
+ "WEATHER_FRONT_VERY_STRONG": {
+  "en": "torrential rain",
+  "uk": "проливний дощ"
+ },
+ "WEATHER_FRONT_VERY_WEAK": {
+  "en": "drizzle",
+  "uk": "мряка"
+ },
+ "WEATHER_FRONT_WEAK": {
+  "en": "rain",
+  "uk": "дощ"
+ },
+ "WEATHER_LOCATIONS_AFFECTED_BRK_TT": {
+  "en": "Affected locations\\n",
+  "uk": "Уражені локації\\n"
+ },
+ "WEATHER_RAIN": {
+  "en": "Rain",
+  "uk": "Дощ"
+ },
+ "WEATHER_SANDSTORM": {
+  "en": "Sandstorm",
+  "uk": "Піщана буря"
+ },
+ "WEATHER_SYSTEM_LOCATION_TOOLTIP_ENTRY": {
+  "en": "Affected by [WEATHER_SYSTEM.GetName] with strength $STRENGTH|%Y$.",
+  "uk": "Зазнає впливу [WEATHER_SYSTEM.GetName] з силою $STRENGTH|%Y$."
+ },
+ "WEATHER_SYSTEM_NAME": {
+  "en": "$TYPE$ in [LOCATION.GetNameWithNoTooltip]",
+  "uk": "$TYPE$ у [LOCATION.GetNameWithNoTooltip]"
+ },
+ "WEATHER_SYSTEM_STRENGTH_DECREASING_DESC": {
+  "en": "The overall strength has decreased from its maximum and it is now $STRENGTH$.",
+  "uk": "Загальна сила зменшилася від максимуму і зараз становить $STRENGTH$."
+ },
+ "WEATHER_SYSTEM_STRENGTH_INCREASING_DESC": {
+  "en": "The overall strength has been steadily increasing and it is now $STRENGTH$.",
+  "uk": "Загальна сила постійно зростає і зараз становить $STRENGTH$."
+ },
+ "WEATHER_SYSTEM_WORST_AFFECTED_AREAS_DESC": {
+  "en": "It is currently affecting #TOOLTIP:$BREAKDOWN_TAG$ $LOCATIONS|L$#! [locations|e].",
+  "uk": "Наразі впливає на #TOOLTIP:$BREAKDOWN_TAG$ $LOCATIONS|L$#! [Concept('locations','райони')|e]."
+ },
+ "WEATHER_TORNADO": {
+  "en": "Tornado",
+  "uk": "Торнадо"
+ },
+ "WEATHER_TORNADO_DESC": {
+  "en": "$WEATHER_TORNADO$ currently centred in [LOCATION.GetName], heading towards [TARGET_LOCATION.GetName].",
+  "uk": "$WEATHER_TORNADO$ наразі центроване у [LOCATION.GetName], рухається до [TARGET_LOCATION.GetName]."
+ },
+ "WEATHER_TORNADO_EFFECT": {
+  "en": "It will have the following effects on locations it hits:",
+  "uk": "Матиме такі ефекти на локації, які вдаряє:"
+ },
+ "WEATHER_TORNADO_MEDIUM": {
+  "en": "a medium tornado",
+  "uk": "середнє торнадо"
+ },
+ "WEATHER_TORNADO_NEARLY_DONE_DESC": {
+  "en": "$WEATHER_TORNADO$ currently centred in [LOCATION.GetName] but petering out.",
+  "uk": "$WEATHER_TORNADO$ наразі центроване у [LOCATION.GetName], але слабшає."
+ },
+ "WEATHER_TORNADO_STRONG": {
+  "en": "a violent tornado",
+  "uk": "сильне торнадо"
+ },
+ "WEATHER_TORNADO_WEAK": {
+  "en": "a weak tornado",
+  "uk": "слабке торнадо"
+ },
+ "arctic": {
+  "en": "Arctic",
+  "uk": "Арктичний"
+ },
+ "arctic_desc": {
+  "en": "$arctic$ represents areas with very cold winters.",
+  "uk": "$arctic$ представляє райони з дуже холодними зимами."
+ },
+ "arid": {
+  "en": "Hot Arid",
+  "uk": "Жаркий посушливий"
+ },
+ "arid_desc": {
+  "en": "$arid$ represents an area that has a severe lack of available water.",
+  "uk": "$arid$ представляє район з серйозною нестачею доступної води."
+ },
+ "atoll": {
+  "en": "Atoll",
+  "uk": "Атол"
+ },
+ "atoll_desc": {
+  "en": "Atolls are circular low-altitude islands that usually encircle a lagoon.",
+  "uk": "Атоли - це круглі низинні острови, що зазвичай оточують лагуну."
+ },
+ "coastal_ocean": {
+  "en": "Coastal Ocean",
+  "uk": "Прибережний океан"
+ },
+ "coastal_ocean_desc": {
+  "en": "This is the open seas between the continents, where only the best of ships can travel, but in the areas closer to the coast.",
+  "uk": "Це відкрите море між континентами, де можуть плавати лише найкращі кораблі, але в районах ближче до узбережжя."
+ },
+ "cold_arid": {
+  "en": "Cold Arid",
+  "uk": "Холодний посушливий"
+ },
+ "cold_arid_desc": {
+  "en": "$cold_arid$ represents an area that has a severe lack of available water but experiences winters.",
+  "uk": "$cold_arid$ представляє район з серйозною нестачею доступної води, але з зимами."
+ },
+ "continental": {
+  "en": "Continental",
+  "uk": "Континентальний"
+ },
+ "continental_desc": {
+  "en": "$continental$ represents areas with cold winters.",
+  "uk": "$continental$ представляє райони з холодними зимами."
+ },
+ "deep_ocean": {
+  "en": "Deep Ocean",
+  "uk": "Габокий океан"
+ },
+ "deep_ocean_desc": {
+  "en": "This is the open seas between the continents, where only the best of ships can travel, in the furthest areas from any coast.",
+  "uk": "Це відкрите море між континентами, де можуть плавати лише найкращі кораблі, у найвіддаленіших районах від будь-якого узбережжя."
+ },
+ "desert": {
+  "en": "Desert",
+  "uk": "Пустеля"
+ },
+ "desert_desc": {
+  "en": "Deserts are barren landscapes with little precipitation and almost no potential for plant or animal life.",
+  "uk": "Пустелі - це безплідні ландшафти з незначними опадами та майже жодним потенціалом для рослинного чи тваринного життя."
+ },
+ "dune_wasteland": {
+  "en": "Dune wasteland",
+  "uk": "Дюнна пустеля"
+ },
+ "dune_wasteland_desc": {
+  "en": "$desert_desc$",
+  "uk": ""
+ },
+ "farmland": {
+  "en": "Farmlands",
+  "uk": "Орні землі"
+ },
+ "farmland_desc": {
+  "en": "Farmland represents anthropogenic terrain, devoted to crops and/or extensive pastures.",
+  "uk": "Орні землі представляють антропогенну місцевість, присвячену сільськогосподарським культурам та/або екстенсивним пасовищам."
+ },
+ "flatland": {
+  "en": "Flatland",
+  "uk": "Рівнина"
+ },
+ "flatland_desc": {
+  "en": "Flatland represents terrain that does not have any major topographic variation, so there are no impediments for [army|e] movement or [building|e] development.",
+  "uk": "Рівнина представляє місцевість без значних топографічних варіацій, тому немає перешкод для руху [Concept('army','армія')|e] або розвитку [Concept('building','будівля')|e]."
+ },
+ "flatland_wasteland": {
+  "en": "Flatland Wasteland",
+  "uk": "Рівнинна пустеля"
+ },
+ "flatland_wasteland_desc": {
+  "en": "$flatland_desc$",
+  "uk": ""
+ },
+ "forest": {
+  "en": "Forest",
+  "uk": "Ліс"
+ },
+ "forest_desc": {
+  "en": "Forest represents terrain with dense vegetation.",
+  "uk": "Ліс представляє місцевість з густою рослинністю."
+ },
+ "grasslands": {
+  "en": "Grasslands",
+  "uk": "Луки"
+ },
+ "grasslands_desc": {
+  "en": "Grasslands represent terrain dominated by grass with little or no trees or shrubs.",
+  "uk": "Луки представляють місцевість, де домінує трава з небагатьма або без дерев чи чагарників."
+ },
+ "high_lakes": {
+  "en": "High Lakes",
+  "uk": "Високогірні озера"
+ },
+ "high_lakes_desc": {
+  "en": "$lakes_desc$",
+  "uk": ""
+ },
+ "hills": {
+  "en": "Hills",
+  "uk": "Пагорби"
+ },
+ "hills_desc": {
+  "en": "A terrain with hills has variations in the topography, but the slopes are not as steep nor as high as those of mountains, so the penalties are also not as bad.",
+  "uk": "Місцевість з пагорбами має варіації топографії, але схили не такі круті та високі, як у горах, тому штрафи також не такі суворі."
+ },
+ "hills_wasteland": {
+  "en": "Hills Wasteland",
+  "uk": "Пагорбиста пустеля"
+ },
+ "hills_wasteland_desc": {
+  "en": "$hills_desc$",
+  "uk": ""
+ },
+ "inland_sea": {
+  "en": "Inland Sea",
+  "uk": "Внутрішнє море"
+ },
+ "inland_sea_desc": {
+  "en": "Inland seas represent the land-enclosed seas like the Mediterranean or the Baltic.",
+  "uk": "Внутрішні моря представляють закриті сушею моря, як Середземне чи Балтійське."
+ },
+ "jungle": {
+  "en": "Jungle",
+  "uk": "Джунглі"
+ },
+ "jungle_desc": {
+  "en": "A jungle represents terrain with dense forest and tangled vegetation that makes doing anything on the land difficult.",
+  "uk": "Джунглі представляють місцевість з густим лісом та заплутаною рослинністю, що ускладнює будь-яку діяльність на землі."
+ },
+ "lakes": {
+  "en": "Lakes",
+  "uk": "Озера"
+ },
+ "lakes_desc": {
+  "en": "Lakes represent inland bodies of water without any contact with the open sea except through possible rivers, so no [ships|e] of relevance are able to sail in them.",
+  "uk": "Озера представляють внутрішні водойми без контакту з відкритим морем, окрім можливих річок, тому жодні [Concept('ships','кораблі')|e] не можуть по них плавати."
+ },
+ "mediterranean": {
+  "en": "Mediterranean",
+  "uk": "Середземноморський"
+ },
+ "mediterranean_desc": {
+  "en": "$mediterranean$ represents areas with a perfect climate, where everyone wants to live.",
+  "uk": "$mediterranean$ представляє райони з ідеальним кліматом, де всі хочуть жити."
+ },
+ "mesa_wasteland": {
+  "en": "Mesa Wasteland",
+  "uk": "Меса"
+ },
+ "mesa_wasteland_desc": {
+  "en": "$desert_desc$",
+  "uk": ""
+ },
+ "mountain_wasteland": {
+  "en": "Mountain Wasteland",
+  "uk": "Гірська пустеля"
+ },
+ "mountain_wasteland_desc": {
+  "en": "$mountains_desc$",
+  "uk": ""
+ },
+ "mountains": {
+  "en": "Mountains",
+  "uk": "Гори"
+ },
+ "mountains_desc": {
+  "en": "Mountain terrain has high altitude and also steep slopes with relatively few and narrow flat areas, so it is more difficult for [armies|e] to cross and fight in it, and also more difficult to develop.",
+  "uk": "Гірська місцевість має велику висоту та круті схили з відносно небагатьма та вузькими рівними ділянками, тому [Concept('armies','армії')|e] важче їх перетинати та воювати в них, а також важче розвивати."
+ },
+ "narrows": {
+  "en": "Narrows",
+  "uk": "Протоки"
+ },
+ "narrows_desc": {
+  "en": "Narrows are areas of sea with proximity of coast on many sides, like straits or the sea inside archipelagos, where there is not much space for movement.",
+  "uk": "Протоки - це морські райони з близькістю узбережжя з багатьох сторін, як протоки чи море всередині архіпелагів, де немає багато місця для руху."
+ },
+ "ocean": {
+  "en": "Ocean",
+  "uk": "Океан"
+ },
+ "ocean_desc": {
+  "en": "This is the open seas between the continents, where only the best of ships can travel.",
+  "uk": "Це відкрите море між континентами, де можуть плавати лише найкращі кораблі."
+ },
+ "ocean_wasteland": {
+  "en": "Ocean Wasteland",
+  "uk": "Океанічна пустеля"
+ },
+ "ocean_wasteland_desc": {
+  "en": "This is ocean sea outside of the main currents, so it is not a convenient path for ships to take, as they could end up stranded in the middle of it.",
+  "uk": "Це океанське море поза основними течіями, тому це не зручний шлях для кораблів, оскільки вони можуть застрягти посеред нього."
+ },
+ "oceanic": {
+  "en": "Oceanic",
+  "uk": "Океанічний"
+ },
+ "oceanic_desc": {
+  "en": "$oceanic$ represents areas with mild winters but high humidity.",
+  "uk": "$oceanic$ представляє райони з м'якими зимами, але високою вологістю."
+ },
+ "plateau": {
+  "en": "Plateau",
+  "uk": "Плато"
+ },
+ "plateau_desc": {
+  "en": "They represent relatively flat areas situated at high altitude, so they have some penalties compared to flatlands due to their elevation.",
+  "uk": "Вони представляють відносно рівні ділянки, розташовані на великій висоті, тому мають деякі штрафи порівняно з рівнинами через свою висоту."
+ },
+ "plateau_wasteland": {
+  "en": "Plateau Wasteland",
+  "uk": "Пустельне плато"
+ },
+ "plateau_wasteland_desc": {
+  "en": "$plateau_desc$",
+  "uk": ""
+ },
+ "salt_pans": {
+  "en": "Salt Pan",
+  "uk": "Солончак"
+ },
+ "salt_pans_desc": {
+  "en": "Salt Pans are barren expanses of extremely flat land formed by the evaporation of a lake or a pond.",
+  "uk": "Солончаки - це безплідні простори надзвичайно рівної землі, утворені випаровуванням озера чи ставка."
+ },
+ "sparse": {
+  "en": "Sparse",
+  "uk": "Розріджена"
+ },
+ "sparse_desc": {
+  "en": "Sparse represent large flat areas of land with few or no trees.",
+  "uk": "Розріджена представляє великі рівнинні ділянки землі з небагатьма або без дерев."
+ },
+ "subtropical": {
+  "en": "Subtropical",
+  "uk": "Субтропічний"
+ },
+ "subtropical_desc": {
+  "en": "$subtropical$ represents areas with high average temperatures and mild winters.",
+  "uk": "$subtropical$ представляє райони з високими середніми температурами та м'якими зимами."
+ },
+ "tropical": {
+  "en": "Tropical",
+  "uk": "Тропічний"
+ },
+ "tropical_desc": {
+  "en": "$tropical$ represents areas with high average temperatures and no winter.",
+  "uk": "$tropical$ представляє райони з високими середніми температурами без зими."
+ },
+ "wetlands": {
+  "en": "Wetlands",
+  "uk": "Болота"
+ },
+ "wetlands_desc": {
+  "en": "$wetlands$ are terrain that is partially flooded, generally due to being near a river, lake, or coast.",
+  "uk": "$wetlands$ - це місцевість, частково затоплена, зазвичай через близькість до річки, озера чи узбережжя."
+ },
+ "wetlands_wasteland": {
+  "en": "Wetlands Wasteland",
+  "uk": "Болотиста пустеля"
+ },
+ "wetlands_wasteland_desc": {
+  "en": "$wetlands_desc$",
+  "uk": ""
+ },
+ "woods": {
+  "en": "Woods",
+  "uk": "Гаї"
+ },
+ "woods_desc": {
+  "en": "Woods represent terrain with less dense vegetation than forests.",
+  "uk": "Гаї представляють місцевість з менш густою рослинністю, ніж ліси."
+ }
+}

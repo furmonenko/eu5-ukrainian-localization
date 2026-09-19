@@ -1,0 +1,222 @@
+{
+ "change_settling_character_loyalty": {
+  "en": "Increase [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0G$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "Збільшує [Select_CString(CHARACTER.IsFemale,'її','його')] параметр «#Y $settler_character_truthfulness$#!» на $VALUE|V0G$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "neg_change_settling_character_loyalty": {
+  "en": "Decrease [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0R$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "Зменшує [Select_CString(CHARACTER.IsFemale,'її','його')] параметр «#Y $settler_character_truthfulness$#!» на $VALUE|V0R$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "past_change_settling_character_loyalty": {
+  "en": "Increased [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0G$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[Select_CString(CHARACTER.IsFemale,'Її','Його')] параметр «#Y $settler_character_truthfulness$#!» збільшено на $VALUE|V0G$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "past_neg_change_settling_character_loyalty": {
+  "en": "Decreased [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0R$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[Select_CString(CHARACTER.IsFemale,'Її','Його')] параметр «#Y $settler_character_truthfulness$#!» зменшено на $VALUE|V0R$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "settle_the_frontier.1.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "settle_the_frontier.1.a.tt": {
+  "en": "[recipient.GetName] shall try to settle [target.GetName]. This process will take up to #Y 10 years#!",
+  "uk": "[recipient.GetName] спробує оселитися в [target.Custom('LR_PP')|l] [target.GetName]. На це може піти до #Y 10 років#!"
+ },
+ "settle_the_frontier.1.desc": {
+  "en": "[recipient.GetName] - a brave member of the [ROOT.GetCountry.GetLongName] - has ventured out with a band of volunteers into the unclaimed lands of [target.GetName]. [recipient.GetSheHe|U] and [recipient.GetHerHis] followers shall expand the territories of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[recipient.GetName], [Select_CString(recipient.IsFemale,'хоробра жінка','хоробра людина')], чия батьківщина [ROOT.GetCountry.GetLongName], [Select_CString(recipient.IsFemale,'зібрала','зібрав')] команду добровольців і [Select_CString(recipient.IsFemale,'вирушила','вирушив')] на нічийні землі [target.Custom('LR_GEN')|l] [target.GetName]. Разом зі своїми прихильниками [Select_CString(recipient.IsFemale,'вона','він')] збирається розширити територію [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "settle_the_frontier.1.title": {
+  "en": "The Expansion into [target.GetNameWithNoTooltip]",
+  "uk": "Експансія в [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"
+ },
+ "settle_the_frontier.100.a": {
+  "en": "[actor.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "settle_the_frontier.100.b": {
+  "en": "[recipient.GetSheHe|U] will regret [recipient.GetHerHis] insolence!",
+  "uk": "[Select_CString(recipient.IsFemale,'Вона','Він')] пошкодує про свою зухвалість!"
+ },
+ "settle_the_frontier.100.b.tt": {
+  "en": "[target_country.GetName] has been established in [target.GetName]",
+  "uk": "До [target.Custom('LR_ACC')|l] [target.GetName] приходить [target_country.GetName]"
+ },
+ "settle_the_frontier.100.c": {
+  "en": "What happened to [target.GetNameWithNoTooltip]?",
+  "uk": "Що сталося з [target.Custom('LR_INST')|l] [target.GetNameWithNoTooltip]?"
+ },
+ "settle_the_frontier.100.desc": {
+  "en": "A few years ago, [recipient.GetName] was sent on [actor.GetAdjective] command to the unsettled lands of [target.GetName] to claim it for the [actor.GetLongNameWithNoTooltip]. This enterprise has found its end today at last!",
+  "uk": "Кілька років тому [recipient.GetName], підкоряючись #L [actor.GetAdjective|l]ому#! наказу, [Select_CString(recipient.IsFemale,'вирушила', 'вирушив')] на незаселені землі [target.Custom('LR_GEN')|l] [target.GetName], щоб зробити їх частиною [actor.Custom('CL_GEN')]. Сьогодні ця смілива справа нарешті завершилася!"
+ },
+ "settle_the_frontier.100.desc.a": {
+  "en": "$settle_the_frontier.100.desc$\\n\\n[recipient.GetNameWithNoTooltip] has transferred the province to [recipient.GetHerHis] homeland. Although [recipient.GetSheHe] remains governor of the settled lands, it is now under our own full administration.",
+  "uk": "$settle_the_frontier.100.desc$\\n\\n[recipient.GetNameWithNoTooltip] [Select_CString(recipient.IsFemale,'зробила', 'зробив')] провінцію частиною своєї батьківщини. [Select_CString(recipient.IsFemale,'Вона', 'Він')] продовжить керувати новою колонією, але тепер ці землі повністю підпорядковуються нам."
+ },
+ "settle_the_frontier.100.desc.b": {
+  "en": "$settle_the_frontier.100.desc$\\n\\nUnfortunately, [recipient.GetNameWithNoTooltip] has never returned to [actor.GetNameWithNoTooltip]. It seems like the autonomy we granted [recipient.GetHerHim] has led [recipient.GetHerHim] to declare [recipient.GetHerHis] own [target_country.GetLongName].",
+  "uk": "$settle_the_frontier.100.desc$\\n\\nНа жаль, [recipient.GetNameWithNoTooltip] так і не [Select_CString(recipient.IsFemale,'повернулася','повернувся')] до [actor.Custom('CL_VP')]. Схоже, ми даремно дали [Select_CString(recipient.IsFemale,'їй','йому')] автономію: [Select_CString(recipient.IsFemale,'вона заявила','він заявив')], що тепер на цих землях буде [target_country.GetLongName] під [Select_CString(recipient.IsFemale,'її','його')] власним началом."
+ },
+ "settle_the_frontier.100.title": {
+  "en": "The Settlement of [target.GetNameWithNoTooltip]",
+  "uk": "Поселення в [target.Custom('LR_PREP')|l] [target.GetNameWithNoTooltip]"
+ },
+ "settle_the_frontier.101.a": {
+  "en": "[actor.Custom('common_string_disappointing')]",
+  "uk": ""
+ },
+ "settle_the_frontier.101.a.tt": {
+  "en": "Our efforts to settle [target.GetName] get discontinued",
+  "uk": "Наші спроби заселити [target.Custom('LR_ACC')|l] [target.GetName] припинилися"
+ },
+ "settle_the_frontier.101.desc": {
+  "en": "With the sudden death of [recipient.GetName], the settlers who followed [recipient.GetHerHim] to the end have lost all hope and morale to continue their enterprise. Where was once unity is now only chaos, and the few settlements established have been disbanded.",
+  "uk": "Після того, як [recipient.GetName] раптово [Select_CString(recipient.IsFemale,'померла', 'помер')], віддані [Select_CString(recipient.IsFemale,'їй', 'йому')] поселенці втратили будь-яку надію на успіх справи. Колишня єдність змінилася хаосом, і нечисленні нові поселення спорожніли."
+ },
+ "settle_the_frontier.101.title": {
+  "en": "The End of the Expansion into [target.GetNameWithNoTooltip]",
+  "uk": "Завершення експансії в [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"
+ },
+ "settle_the_frontier.102.a": {
+  "en": "[actor.Custom('common_string_disappointing')]",
+  "uk": ""
+ },
+ "settle_the_frontier.102.a.tt": {
+  "en": "[recipient.GetName] returns to [actor.GetName]",
+  "uk": "[recipient.GetName] повертається до #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_ACC')|L]#!#!"
+ },
+ "settle_the_frontier.102.desc": {
+  "en": "Although the enterprise of [recipient.GetName] to settle the lands of [target.GetName] was very promising, news have reached us that we started it too late. The entirety of the province has been already colonized and fortified by our neighbors...",
+  "uk": "Ідея оселитися в [target.Custom('LR_PREP')|l] [target.GetName] здавалася досить перспективною, але [recipient.GetName] [Select_CString(recipient.IsFemale,'повідомила', 'повідомив')] нам, що ми схаменулися надто пізно. Наші сусіди вже колонізували всю провінцію і звели в ній укріплення…"
+ },
+ "settle_the_frontier.102.title": {
+  "en": "Failed Settlement of [target.GetNameWithNoTooltip]",
+  "uk": "Невдале заселення [target.Custom('LR_GEN')|l] [target.GetNameWithNoTooltip]"
+ },
+ "settle_the_frontier.2.a": {
+  "en": "Let them start a new life in the province.",
+  "uk": "Дозволимо їм розпочати нове життя в цій провінції."
+ },
+ "settle_the_frontier.2.b": {
+  "en": "Improve their situation in the capital instead.",
+  "uk": "Покращимо їхнє становище в столиці."
+ },
+ "settle_the_frontier.2.b.tt": {
+  "en": "No [pops|e] will migrate to [target.GetName] for the next year",
+  "uk": "Наступного року [Concept('pops', 'групи населення')|e] не будуть мігрувати до [target.Custom('LR_ACC')|l] [target.GetName]"
+ },
+ "settle_the_frontier.2.desc": {
+  "en": "While [from_province.GetName] is the capital province of [actor.GetName], some of its residents wish to find opportunities in [target.GetName] - the lands which are currently explored by [recipient.GetName].",
+  "uk": "[from_province.GetName] — столична провінція #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_GEN')|L]#!#!, але деякі її мешканці хочуть спробувати щастя в [target_province.Custom('LR_PREP')|l] [target_province.GetName] — на новій землі, яку зараз досліджує [recipient.GetName]."
+ },
+ "settle_the_frontier.2.title": {
+  "en": "Ventures to [target.GetNameWithNoTooltip]",
+  "uk": "Подорож до [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"
+ },
+ "settle_the_frontier.3.a": {
+  "en": "Bring some of our finest to stories and art to [target.GetNameWithNoTooltip].",
+  "uk": "Познайомимо [target.Custom('LR_ACC')|l] [target.GetName] з найкращими зразками нашої культури."
+ },
+ "settle_the_frontier.3.b": {
+  "en": "Some simple [target_culture.GetNameWithNoTooltip] stories should suffice.",
+  "uk": "Достатньо й простих #L [target_culture.GetAdjective|l]их#! історій."
+ },
+ "settle_the_frontier.3.c": {
+  "en": "There is little reason to enlighten the natives.",
+  "uk": "Нам немає потреби просвічувати місцевих жителів."
+ },
+ "settle_the_frontier.3.desc": {
+  "en": "As [recipient.GetName] continues the settlement of [target.GetName], [recipient.GetSheHe] and [recipient.GetHerHis] followers came into contact with the local native population of these lands. [recipient.GetSheHe|U] requests from [actor.GetAdjective] support to spread the [target_culture.GetName] ideals amongst the natives.",
+  "uk": "Прагнучи оселитися в поселенні [target.GetName], [recipient.GetName] та [Select_CString(recipient.IsFemale,'її','його')] прихильники встановили контакт з місцевим населенням. Тепер [Select_CString(recipient.IsFemale,'вона','він')] просить підтримки #L [actor.GetAdjective|l]их#! властей, щоб поширювати #L [target_culture.GetAdjective|l]у#! культуру серед корінних жителів."
+ },
+ "settle_the_frontier.3.title": {
+  "en": "Cultural Spread",
+  "uk": "Поширення культури"
+ },
+ "settle_the_frontier.4.a": {
+  "en": "We must support the settlers at any cost.",
+  "uk": "Ми підтримаємо поселенців за будь-яку ціну."
+ },
+ "settle_the_frontier.4.b": {
+  "en": "They can finance themselves.",
+  "uk": "Нехай самі себе забезпечують."
+ },
+ "settle_the_frontier.4.desc": {
+  "en": "The lands of [target.GetName] have proven more difficult to settle as expected. Our colonist, [recipient.GetName], has sent a formal request to the [actor.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] for more financial funding as more resources seem to be required.",
+  "uk": "На землях [target.Custom('LR_GEN')|l] [target.GetName] виявилося не так легко оселитися. [recipient.GetName], [Select_CString(recipient.IsFemale,'яка', 'який')] намагається заснувати там колонію, звертається до #L [actor.GetAdjective|l]ого#! двору з офіційним проханням виділити додаткові кошти, оскільки [Select_CString(recipient.IsFemale,'їй', 'йому')] потрібно більше ресурсів."
+ },
+ "settle_the_frontier.4.title": {
+  "en": "Investment Requests",
+  "uk": "Прохання про вкладення"
+ },
+ "settle_the_frontier.5.a": {
+  "en": "The settlers must be respected.",
+  "uk": "Поселенців потрібно поважати."
+ },
+ "settle_the_frontier.5.b": {
+  "en": "The hostilities will stop eventually.",
+  "uk": "Рано чи пізно неприязнь вщухне."
+ },
+ "settle_the_frontier.5.desc": {
+  "en": "The fledgling settlements of [target.GetName] have come into conflict with their established neighboring lands and people. [recipient.GetName] has requested that we enforce their privilege to [target.GetNameWithNoTooltip] more dilligently and punish these troublemakers.",
+  "uk": "Нові поселення [target.Custom('LR_GEN')|l] [target.GetName] вступили в конфлікт з населенням сусідніх земель. [recipient.GetName] просить нас ретельніше забезпечувати особливе становище [target.Custom('LR_GEN')|l] [target.GetNameWithNoTooltip] і покарати порушників спокою."
+ },
+ "settle_the_frontier.5.title": {
+  "en": "Neighbor Conflicts",
+  "uk": "Сусідські чвари"
+ },
+ "settle_the_frontier.6.a": {
+  "en": "We require [target_goods_0.GetNameWithNoTooltip].",
+  "uk": "Нам знадобиться такий товар, як [target_goods_0.GetNameWithNoTooltip|l]."
+ },
+ "settle_the_frontier.6.b": {
+  "en": "[target_goods_1.GetNameWithNoTooltip] is needed in our capital.",
+  "uk": "Нашій столиці потрібен такий товар, як [target_goods_1.GetNameWithNoTooltip|l]."
+ },
+ "settle_the_frontier.6.c": {
+  "en": "The access to [target_goods_2.GetNameWithNoTooltip] will support the state.",
+  "uk": "Державі знадобиться такий товар, як [target_goods_2.GetNameWithNoTooltip|l]."
+ },
+ "settle_the_frontier.6.d": {
+  "en": "Surely, they do not need [target_goods_3.GetNameWithNoTooltip] that much.",
+  "uk": "Такий товар, як [target_goods_3.GetNameWithNoTooltip], потрібен нам більше, ніж колоністам."
+ },
+ "settle_the_frontier.6.desc": {
+  "en": "The settlement efforts of [recipient.GetName] show early success already. The young [actor.GetAdjective] villages in [target.GetName] have established the first accesses to exploit the resources of the land. We could use our authority to demand some of these resources for our own gain...",
+  "uk": "[recipient.GetName] вже досягає успіхів в освоєнні нових земель. Нові #L [actor.GetAdjective|l]і#! села в [target.Custom('LR_PREP')|l] [target.GetName] почали видобувати й використовувати ресурси цього краю. Ми можемо скористатися владою і вимагати віддати нам деякі з цих природних багатств…"
+ },
+ "settle_the_frontier.6.e": {
+  "en": "[target_goods_4.GetNameWithNoTooltip] shall serve us greatly.",
+  "uk": "Такий товар, як [target_goods_4.GetNameWithNoTooltip], принесе нам велику користь."
+ },
+ "settle_the_frontier.6.title": {
+  "en": "Early Resource Exploitation",
+  "uk": "Початок використання ресурсів"
+ },
+ "settle_the_frontier.6.zzz": {
+  "en": "We should not take their precious materials away from them.",
+  "uk": "Не варто забирати в поселенців цінні матеріали."
+ },
+ "settler_character_truthfulness": {
+  "en": "Settler Loyalty",
+  "uk": "Вірність поселенців"
+ },
+ "third_change_settling_character_loyalty": {
+  "en": "[CHARACTER.GetName] increases [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0G$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[CHARACTER.GetName] збільшує свій параметр «#Y $settler_character_truthfulness$#!» на $VALUE|V0G$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "third_neg_change_settling_character_loyalty": {
+  "en": "[CHARACTER.GetName] decreases [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0R$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[CHARACTER.GetName] зменшує свій параметр «#Y $settler_character_truthfulness$#! на $VALUE|V0R$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "third_past_change_settling_character_loyalty": {
+  "en": "[CHARACTER.GetName] increased [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0G$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale,'збільшила','збільшив')] свій параметр «#Y $settler_character_truthfulness$#!» на $VALUE|V0G$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ },
+ "third_past_neg_change_settling_character_loyalty": {
+  "en": "[CHARACTER.GetName] decreased [CHARACTER.GetHerHis] #Y $settler_character_truthfulness$#! by $VALUE|V0R$ (currently: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#!)",
+  "uk": "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale,'зменшила','зменшив')] свій параметр «#Y $settler_character_truthfulness$#! на $VALUE|V0R$ од. (зараз: #Y [CHARACTER.MakeScope.GetVariable('settler_character_truthfulness').GetValue]#! од.)"
+ }
+}

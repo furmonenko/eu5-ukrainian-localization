@@ -1,0 +1,290 @@
+{
+ "enable_the_edict_of_nantes_debate_tt": {
+  "en": "This will commence a debate in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] to enact the [ShowPolicyName('edict_of_nantes')] [policy|e] and conclude the [disaster|e]",
+  "uk": "У [ROOT.GetCountry.Custom('parliament_ru_PREP')|l] почнуться дебати про прийняття [Concept('policy','політики')|e] «[ShowPolicyName('edict_of_nantes')]» та завершення [Concept('disaster','лиха')|e]"
+ },
+ "every_pop_cap_province_true_faith_loses_25_sat_tt": {
+  "en": "Our [pops|e] in [target_province.GetNameWithNoTooltip] that follow [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] [religion|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] провінції [target_province.GetNameWithNoTooltip], які сповідують [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]у [Concept('religion', 'віру')|e], знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]"
+ },
+ "fra_calvinist_rebels_explanation_tt": {
+  "en": "[ShowReligionAdjective('calvinist')] [rebels|e] will rise up against us",
+  "uk": "Проти нас повстануть #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвіністські#!#! [Concept('rebels','бунтівники')|e]"
+ },
+ "fra_catholic_rebels_explanation_tt": {
+  "en": "[ShowReligionAdjective('catholic')] [rebels|e] will rise up against us",
+  "uk": "Проти нас повстануть #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькі#!#! [Concept('rebels','бунтівники')|e]"
+ },
+ "fra_lutheran_rebels_explanation_tt": {
+  "en": "[ShowReligionAdjective('lutheran')] [rebels|e] will rise up against us",
+  "uk": "Проти нас повстануть #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранські#!#! [Concept('rebels','бунтівники')|e]"
+ },
+ "french_wars_religion.1.a": {
+  "en": "Turmoil awaits us.",
+  "uk": "Надходять лихі часи."
+ },
+ "french_wars_religion.1.desc": {
+  "en": "With new faiths spreading rapidly among the population and its leaders growing increasingly bold, many traditional believers are becoming uneasy about the situation in the [ROOT.GetCountry.GetFlavorRank]. Rising tensions between various groups have come to a head with the formation of religious rebellions and paramilitary organizations that seek to dominate our country.\\n\\nFailing that, they demand significant rights and freedoms to secure their future. Meanwhile, leaders of the [ROOT.GetCountry.GetReligion.GetAdjective] faith grow ever more irate and warn against concessions, hinting that violence could erupt if [target_character.GetName] is seen as turning away from the old teachings.",
+  "uk": "Серед населення стрімко поширюються нові релігійні течії, їхні лідери нахабніють, і багатьох послідовників традиційної віри на території [ROOT.GetCountry.Custom('CF_RP')|l] така ситуація дедалі більше засмучує. На тлі релігійної напруженості почали спалахувати повстання, тут і там з'явилися воєнізовані організації, які прагнуть захопити владу в державі.\\n\\nНе досягнувши свого, вони стали вимагати значних свобод і прав, щоб убезпечити своє майбутнє. Тим часом лідери #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! церкви дедалі наполегливіше вимагають не йти на жодні поступки і зауважують, що якщо [target_character.GetName] відступиться від істинної віри, це може призвести до спалаху насильства."
+ },
+ "french_wars_religion.1.historical_info": {
+  "en": "The French Wars of Religion were a series of violent conflicts between the Catholic majority and the Protestant Huguenots, driven by religious divisions and political ambition. Influential noble families, such as the Guise and Bourbon, exploited the chaos to gain power. The wars led to brutal massacres, shifting alliances, and widespread devastation. Royal authority weakened, but stability began to return when Henry IV, a former Protestant, converted to Catholicism and issued the Edict of Nantes, granting religious tolerance to the Huguenots. This compromise helped unify France and brought an end to decades of turmoil.",
+  "uk": "Релігійні війни у Франції були серією запеклих конфліктів між католицькою більшістю та протестантами-гугенотами на ґрунті релігійних розбіжностей і політичних амбіцій. Такі могутні дворянські родини, як Гізи та Бурбони, скористалися хаосом, щоб здобути вплив. То був час масових убивств, хитких альянсів і великого спустошення. Королівська влада ослабла, але стабільність почала відновлюватися після того, як колишній протестант король Генріх IV перейшов у католицтво та видав Нантський едикт, що гарантував релігійну толерантність щодо гугенотів. Цей компроміс допоміг об'єднати Францію та поклав край десятиліттям смути."
+ },
+ "french_wars_religion.1.title": {
+  "en": "Wars of Religion in [ROOT.GetCountry.GetName]",
+  "uk": "Релігійні війни в #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#!"
+ },
+ "french_wars_religion.10.a": {
+  "en": "The religious divide will soon be finally over!",
+  "uk": "Релігійний розкол невдовзі буде подолано!"
+ },
+ "french_wars_religion.10.desc": {
+  "en": "Following years of religious turmoil between the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] and heretics, a final religious edict will soon be signed by [target_character.GetShortName] and put up for approval by the [ROOT.GetCountry.GetGovernment.GetParliament.GetName]. Under the [ShowPolicyName('edict_of_nantes')], heretics will be granted religious rights that no longer deem them persecutable while also lifting religious restrictions imposed on public offices and and institutions.\\n\\nThe previous years have exerted great pressures on the predominantly [ROOT.GetCountry.GetReligion.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], and the enactment of such a policy may prove a challenge to the authority of the old elite.",
+  "uk": "Після довгих років релігійних конфліктів [ROOT.GetCountry.GetGovernment.GetAdjective]ий#! [ROOT.GetCountry.GetGovernment.GetCourtTitle] та єретики нарешті готові до примирення. Зовсім скоро [target_character.GetShortName] підпише остаточний релігійний едикт і відправить його на затвердження до [ROOT.GetCountry.GetParliament.GetNameAlt('CFP_VP')|l]. Згідно з #TOOLTIP:POLICY,edict_of_nantes,X #L Нантським едиктом#!#!, єретикам будуть даровані віросповідні права, їхнє переслідування буде заборонено, а обмеження на службу в державних інституціях — знято.\\n\\nУ минулі роки переважно #L [ROOT.GetCountry.GetReligion.GetAdjective]і#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] та [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] зазнали чимало лих, і впровадження такого закону може кинути виклик авторитету старих еліт."
+ },
+ "french_wars_religion.10.title": {
+  "en": "The [ShowPolicyNameWithNoTooltip('edict_of_nantes')]",
+  "uk": "Нантський едикт"
+ },
+ "french_wars_religion.11.a": {
+  "en": "Respect their autonomy.",
+  "uk": "Виявити повагу до їхньої автономії."
+ },
+ "french_wars_religion.11.a.tt": {
+  "en": "[pop|s] in [target_province.GetName] will convert to [target_religion.GetName]",
+  "uk": "[Concept('pops', 'Населення')|e] провінції [target_province.GetName] навернеться в іншу релігію — [target_religion.GetName|l]"
+ },
+ "french_wars_religion.11.b": {
+  "en": "Move to crush them.",
+  "uk": "Розгромити їх."
+ },
+ "french_wars_religion.11.c": {
+  "en": "Remain neutral.",
+  "uk": "Зберегти нейтралітет."
+ },
+ "french_wars_religion.11.desc": {
+  "en": "A group of zealots belonging to the [target_religion.GetAdjective] faith has seized control of [target_location.GetName], fortifying the location to resist any attempts at reclaiming it. They are spreading their heretical beliefs far and wide, gaining the loyalty of the local populace. The fortifications make a direct assault costly, while leaving them unchecked risks the heresy spreading further.",
+  "uk": "Група #L [target_religion.GetAdjective]их#! фанатиків захопила владу в [target_location.Custom('LR_PREP')|l] [target_location.GetName], побудувала там укріплення та чинить опір усім нашим спробам повернути ці землі під свій контроль. Вони поширюють єретичні ідеї навколишніми землями та заручаються підтримкою місцевого населення. Прямий штурм укріплень обійдеться нам дорого, але якщо залишити єретиків без уваги, то їхні обурливі ідеї поширяться ще далі."
+ },
+ "french_wars_religion.11.title": {
+  "en": "[target_religion.GetNameWithNoTooltip] Fortify [target_location.GetNameWithNoTooltip]",
+  "uk": "#L [target_religion.GetAdjective]і#! фанатики зміцнюють [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "french_wars_religion.12.a": {
+  "en": "Let there be peace, however fragile.",
+  "uk": "Нехай буде поганий мир."
+ },
+ "french_wars_religion.12.desc": {
+  "en": "After years of bloody conflict between followers of various denominations of [ShowReligionGroupName('christian')], [target_character.GetName] has successfully debated the [ShowPolicyName('edict_of_nantes')] through the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], bringing an end to the [ShowDisasterName('french_wars_religion')]. This pivotal decree grants limited toleration to the Huguenots, allowing them freedom of worship in designated areas while reaffirming [ROOT.GetCountry.GetReligion.GetName] as the official religion. Though peace is fragile, the edict promises a new era of stability for our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Після багатьох років кривавих конфліктів між послідовниками різних #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! течій [target_character.GetName] [Select_CString(target_character.IsFemale,'зуміла','зумів')] домогтися затвердження в [ROOT.GetCountry.GetParliament.GetNameAlt('CFP_TP')|l] #TOOLTIP:POLICY,edict_of_nantes,X #L Нантського едикту#!#!, який покладе край #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L релігійним війнам у Франції#!#!. Цей історичний документ дає гугенотам обмежений захист, надає їм свободу віросповідання в певних областях, водночас підкреслюючи, що [ROOT.GetCountry.GetReligion.GetName] залишається в нашій державі офіційною релігією. Хай встановлений мир буде крихким, з цим едиктом у [ROOT.GetCountry.Custom('CF_PP')] настане новий час стабільності та спокою."
+ },
+ "french_wars_religion.12.historical_info": {
+  "en": "The French Wars of Religion ended in 1598 with the signing of the Edict of Nantes by King Henry IV, a former Huguenot turned Catholic. This decree brought peace after a prolonged conflict between Catholics and Protestants. It granted Huguenots limited rights and control of fortified towns for protection, while solidifying Catholicism as the state religion. Though met with resistance from extremists on both sides, the edict provided a fragile framework for coexistence. It marked the start of France's recovery from years of devastation, reflecting Henry IV's pragmatic vision of unity and stability for his kingdom.",
+  "uk": ""
+ },
+ "french_wars_religion.12.title": {
+  "en": "End of the [ShowDisasterNameWithNoTooltip('french_wars_religion')]",
+  "uk": "Кінець #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L релігійних воєн у Франції#!#!"
+ },
+ "french_wars_religion.13.a": {
+  "en": "One people, one faith!",
+  "uk": "Один народ — одна віра!"
+ },
+ "french_wars_religion.13.desc": {
+  "en": "Through sheer strength and piety, we have overcome all obstacles in our struggle to rid the [ROOT.GetCountry.GetFlavorRank] of heretics that plague the land. Conversions, be it by the book or through harsher means, have finally paid off as our people now embrace the one true faith, [ROOT.GetCountry.GetReligion.GetName]. A shining beacon of [ShowReligionGroupName('christian')], [target_character.GetName] will be heralded as the protector of the faith, stoking the fears of heretics across the world.",
+  "uk": "Завдяки своїй силі та вірі в Бога ми подолали всі перешкоди в нашій боротьбі за звільнення [ROOT.GetCountry.Custom('rank_ru_GEN')|l] від єретиків. Хрещення — добровільне чи примусове — нарешті принесло плоди: більша частина населення прийняла істинну віру, [ROOT.GetCountry.GetReligion.GetName|l]. Яскравий зразок праведного #TOOLTIP:RELIGIONGROUP,christian,X #L християнства#!#!, [target_character.GetName], буде [Select_CString(target_character.IsFemale,'наречена захисницею', 'наречений захисником')] віри та вселить страх у серця єретиків по всьому світу."
+ },
+ "french_wars_religion.14.a": {
+  "en": "A worrying development.",
+  "uk": "Це тривожно."
+ },
+ "french_wars_religion.14.desc": {
+  "en": "Our attempts to sway our great [ROOT.GetCountry.GetFlavorRank] to either tolerate or convert the heretics have been unsuccessful. Years of turbulence, revolts and the general dissatisfaction of the populace have come to be the grim norm, as people settle in this new reality. We cannot know what such a future holds for us, if such a tragedy were to occur again.",
+  "uk": "Наші спроби змусити суспільство нашої великої держави або виявити терпіння до єретиків, або навернути їх у нашу віру успіхом не увінчалися. За довгі роки заворушення, повстання та загальне народне невдоволення стали похмурою реальністю, до якої наші піддані вже починають звикати. Ми не знаємо, що чекає на нас у майбутньому, якщо щось подібне станеться знову."
+ },
+ "french_wars_religion.14.title": {
+  "en": "Temporary Status Quo in the [ShowDisasterNameWithNoTooltip('french_wars_religion')]",
+  "uk": "Тимчасовий статус-кво в #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L релігійних війнах у Франції#!#!."
+ },
+ "french_wars_religion.2.a": {
+  "en": "Let them migrate to the [target_country.GetLongNameWithNoTooltip].",
+  "uk": "Нехай їдуть до держави [target_country.GetLongNameWithNoTooltip|l]."
+ },
+ "french_wars_religion.2.b": {
+  "en": "Grant the [target_migrants.GetNameWithNoTooltip] temporary liberties.",
+  "uk": "Нехай [target_migrants.GetNameWithNoTooltip|l] отримають від нас тимчасові вольності."
+ },
+ "french_wars_religion.2.c": {
+  "en": "Prevent their expulsion but mandate a conversion.",
+  "uk": "Виганяти не будемо, але зобов'яжемо їх перейти в нашу віру."
+ },
+ "french_wars_religion.2.desc": {
+  "en": "As religious turmoil grips our [ROOT.GetCountry.GetFlavorRank], it has become a common sight for religious disagreements to erupt into open conflict between adherents of [ROOT.GetCountry.GetReligion.GetName] and [target_religion.GetName]. The latest of these bouts involve clashes in the province of [target_province_start.GetName] where local authorities have taken measures against the heretics.\\n\\nOur advisors offer a multitude of solutions to this problem. Some suggest that expulsion is the only way, even though many of the heretics are still our countrymen, having lived their entires lives in peace.",
+  "uk": "[ROOT.GetCountry.GetFlavorRank] з кожним днем дедалі глибше занурюється в хаос, і дедалі частіше на вулицях міст можна бачити відкриті сутички прихильників таких конфесій, як [ROOT.GetCountry.GetReligion.GetName|l] та [target_religion.GetName|l]. Нещодавно така сутичка сталася в провінції [target_province_start.GetName], де місцева влада вжила заходів проти єретиків.\\n\\nНаші радники пропонують найрізноманітніші рішення цієї проблеми. Одні кажуть, що нам не обійтися без вигнань, хоча багато з єретиків — це наші співвітчизники, які все своє життя мирно прожили в нашій державі."
+ },
+ "french_wars_religion.2.title": {
+  "en": "Religious Friction in [target_province_start.GetNameWithNoTooltip]",
+  "uk": "Релігійні розбіжності в провінції [target_province_start.GetNameWithNoTooltip]"
+ },
+ "french_wars_religion.3.a": {
+  "en": "Openly support [target_character.GetShortNameWithNoTooltip] and the league.",
+  "uk": "[target_character.GetShortNameWithNoTooltip] та [target_character.GetHerHis] ліга отримають нашу відкриту підтримку."
+ },
+ "french_wars_religion.3.b": {
+  "en": "Grant the league some superficial concessions.",
+  "uk": "Зробимо цій лізі кілька формальних поступок."
+ },
+ "french_wars_religion.3.c": {
+  "en": "We cannot be ruled by religious lunatics.",
+  "uk": "Ми не підкоримося релігійним фанатикам."
+ },
+ "french_wars_religion.3.desc": {
+  "en": "A League representing the leaders of the [ROOT.GetCountry.GetReligion.GetAdjective] faith has been founded in [target_location.GetName]. Its primary function is to defend all true believers against the subversive influence of heretics and to keep the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] exclusive to adherents of our true faith.\\n\\nLed by [target_character.GetName], the league has become a powerful player in the [ShowDisasterName('french_wars_religion')], and acts independently of the agenda of the [ROOT.GetCountry.GetFlavorRank]. Whether we choose to openly support this newfound league or outright reject it, this will surely shape the future of our people.",
+  "uk": "У [target_location.Custom('LR_PP')|l] [target_location.GetName] з'явилася ліга, до якої входять лідери [ROOT.GetCountry.GetReligion.GetAdjective|l]ої віри. Її головна мета — захищати всіх прихильників істинної віри від підступних поползновінь єретиків і стежити за тим, щоб серед придворних були лише прихильники нашої істинної віри.\\n\\nОчолює лігу [target_character.GetName], і під [target_character.GetHerHis] керівництвом ця організація стала значною силою в #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L релігійних війнах у Франції#!#!, що діє незалежно від політики [ROOT.GetCountry.Custom('CF_RP')|l]. Очевидно, що наше рішення підтримати цю новостворену лігу або відкинути її визначить долю нашого народу."
+ },
+ "french_wars_religion.3.title": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Religious League",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip|U]а релігійна ліга"
+ },
+ "french_wars_religion.4.a": {
+  "en": "[target_location.GetNameWithNoTooltip] is worth a mass.",
+  "uk": "[target_location.GetNameWithNoTooltip] вартий меси."
+ },
+ "french_wars_religion.4.b": {
+  "en": "Let us hope it is.",
+  "uk": "Будемо сподіватися, що вартий."
+ },
+ "french_wars_religion.4.c": {
+  "en": "Never! The heretics will fall by the sword!",
+  "uk": "Ні за що! Ці єретики отримають лише меча!"
+ },
+ "french_wars_religion.4.desc": {
+  "en": "The armed religious conflicts that have ravaged [ROOT.GetCountry.GetLongName] over the past decade continue to destabilize the nation, showing no signs of resolution. These ongoing struggles have inflicted immense suffering on the populace and eroded the foundation of our society. At the heart of this turmoil lies the capital itself, a melting pot of religious fanatics and heretics who, through their divisions, persistently challenge the authority of [target_character.GetName].\\n\\nDespite the challenges, there is a glimmer of hope. It has been proposed that a unifying gesture by [target_character.GetNameWithNoTooltip] could serve as a catalyst for peace. By holding a grand and inclusive mass in [target_location.GetName], [target_character.GetSheHe] could bridge the divide between the warring factions.\\n\\nThis symbolic act of reconciliation has the potential to inspire dialogue, foster understanding, and lead us toward a mutually beneficial resolution. Such a move would not only reaffirm [target_character.GetNameWithNoTooltip]'s authority but also mark a significant step toward ending the needless bloodshed that has plagued our land.",
+  "uk": "[ROOT.GetCountry.GetLongName]. Релігійні війни, що струшували державу останнє десятиліття, тривають, і кінця їм не видно. Ці безперервні конфлікти стали причиною незліченних страждань для населення та підточили самі основи нашого суспільства. Головне вогнище заворушень знаходиться в самій столиці — плавильному котлі для незліченних релігійних фанатиків та єретиків, які своїми розбіжностями постійно кидають виклик владі, що її уособлює [target_character.GetName].\\n\\nАле попри всі труднощі, у нас залишається примарна надія. Хтось запропонував, щоб [target_character.GetNameWithNoTooltip] як жест доброї волі [Select_CString(target_character.IsFemale,'зробила','зробив')] перший крок до миру. Провівши в [target_location.Custom('LR_PP')|l] [target_location.GetName] урочисту месу для всіх конфесій, [target_character.GetSheHe] може допомогти ворогуючим фракціям примиритися одна з одною.\\n\\nМожливо, цей символічний жест започаткує діалог, зміцнить взаєморозуміння та приведе нас до взаємовигідного миру. Він не лише зміцнить владу, якою [Select_CString(target_character.IsFemale,'наділена','наділений')] [target_character.GetNameWithNoTooltip], але й стане серйозним кроком до завершення цього довгого та безглуздого кровопролиття."
+ },
+ "french_wars_religion.4.historical_info": {
+  "en": "The phrase #italic Paris is worth a mass#! refers to an event in French history involving Henry IV, a Protestant who converted to Catholicism in 1593 to secure his claim to the French throne. France, deeply divided by religious wars between Catholics and Protestants (Huguenots), required a Catholic monarch to maintain stability and legitimacy. Henry, recognizing this, converted and famously justified his decision with the pragmatic statement, suggesting that ruling France and bringing peace was more important than personal religious adherence. This act paved the way for his reign and the eventual Edict of Nantes in 1598, which granted religious tolerance to Protestants.",
+  "uk": "Фраза «#italic Париж вартий меси#!» пов'язана з подією в історії Франції, коли король Генріх IV у 1593 році перейшов із протестантства в католицизм, щоб утвердити своє право на французький престол. Франції, роздираній релігійними війнами між католиками та протестантами-гугенотами, для збереження стабільності й легітимності був потрібен католицький король. Розуміючи це, Генріх прийняв католицтво і пояснив свій вчинок прагматичними мотивами: влада над Францією та встановлення миру були для нього важливішими, ніж особиста релігійна належність. Цей вчинок відкрив йому дорогу до трону і згодом дозволив йому прийняти в 1598 році Нантський едикт, що дарував протестантам віросповідні права."
+ },
+ "french_wars_religion.4.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Worth...?",
+  "uk": "[target_location.GetNameWithNoTooltip] вартий?.."
+ },
+ "french_wars_religion.5.a": {
+  "en": "There is no beast more savage than man.",
+  "uk": "Немає звіра лютішого, ніж людина."
+ },
+ "french_wars_religion.5.b": {
+  "en": "We must be better than that.",
+  "uk": "Нам треба бути вищими за це."
+ },
+ "french_wars_religion.5.desc": {
+  "en": "The religious strife that has gripped our nation for years shows no sign of abating. In [target_province.GetName], local fanatics, driven by their zealous convictions, have taken matters into their own hands. With the blessing of the local [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], they have begun to purge those they consider heretics. Many have been ruthlessly hunted down and executed in public displays of piety. The air is thick with fear and hatred, and the bloodshed continues unabated.",
+  "uk": "Релігійна ворожнеча вже багато років вирує в нашій державі, і кінця їй не видно. У провінції [target_province.GetName] місцеві фанатики, керовані своїм релігійним запалом, вирішили взяти справу в свої руки. Місцеве [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] дало їм благословення почати винищення тих, кого вони вважають єретиками. Багатьох зловили та безжально стратили публічно в ім'я істинної віри. Повітря сповнене страху та ненависті, і кровопролиття триває безперешкодно."
+ },
+ "french_wars_religion.5.title": {
+  "en": "Massacre in [target_province.GetNameWithNoTooltip]",
+  "uk": "Різанина в провінції [target_province.GetNameWithNoTooltip]"
+ },
+ "french_wars_religion.6.a": {
+  "en": "Stay and fight!",
+  "uk": "Стояти й битися!"
+ },
+ "french_wars_religion.6.b": {
+  "en": "Flee!",
+  "uk": "Тікаймо!"
+ },
+ "french_wars_religion.6.desc": {
+  "en": "A mass uprising has erupted in [target_location.GetName], throwing the capital into chaos. Enraged by the perceived leniency of [target_character.GetName] in handling the heretics, the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetReligion.GetAdjective] League has incited riots, rallying the population to their cause under [target_character2.GetName]. Rumors of a [ROOT.GetCountry.GetGovernment.GetAdjective] plot to arrest [target_character2.GetShortNameWithNoTooltip] have only fanned the flames. In a stunning act of defiance, armed militias and angry citizens have constructed barricades, paralyzing entire districts to halt the advance of the Gardes-Françaises.\\n\\nWith growing pressure for [target_character.GetShortNameWithNoTooltip] to flee the capital, the League now wields unparalleled influence in [target_province.GetName]. The fragile balance of power tilts ever closer to collapse.",
+  "uk": "У [target_location.Custom('LR_PP')|l] [target_location.GetName] спалахнуло масове повстання, що занурило столицю в хаос. Обурена тим, наскільки [target_character.GetName] нібито сприяє єретикам, #L [ROOT.GetCountry.GetAdjective|l]а*#! #L [ROOT.GetCountry.GetReligion.GetAdjective|U]а*#! ліга підняла місцеве населення на бунт, на чолі якого [Select_CString(target_character2.IsFemale,'стала','став')] [target_character2.GetName]. Масла у вогонь підлили чутки про те, що [Select_CString(target_character2.IsFemale,'провідницю','провідника')] хочуть заарештувати #L [ROOT.GetCountry.GetGovernment.GetAdjective]і#! агенти. Озброєне ополчення напрочуд швидко спорудило барикади та паралізувало цілі райони, перешкоджаючи просуванню гвардійців.\\n\\n[target_character.GetShortNameWithNoTooltip] може будь-якої миті бути [Select_CString(target_character.IsFemale,'змушена','змушений')] тікати зі столиці, а вплив Ліги в [target_province.Custom('LR_PP')|l] [target_province.GetName] неймовірно високий. Крихка рівновага сил загрожує будь-якої миті зруйнуватися."
+ },
+ "french_wars_religion.6.historical_info": {
+  "en": "On May 12, 1588, Paris erupted as citizens, loyal to the Duke of Guise and the Catholic League, rebelled against King Henry III. Erecting barricades in the streets, they blocked royal troops, forcing the king to flee the city. This dramatic uprising handed control of Paris to Guise and pressured the king into signing the Edict of Union, bolstering the League's power. Yet the triumph sowed future chaos, as Henry III later ordered Guise's assassination, sparking further conflict. The Day of the Barricades marked a turning point, showcasing the power of urban revolt in France's religious and political turmoil.",
+  "uk": "У день 12 травня 1588 року в Парижі спалахнули заворушення. Громадяни, лояльні до герцога Гіза та Католицької ліги, повстали проти короля Генріха III. Звівши на вулицях міста барикади, вони заблокували королівські війська та примусили короля тікати з міста. Унаслідок повстання контроль над Парижем перейшов до рук Гіза, а король був змушений підписати Едикт єдності, який зміцнив позиції Ліги. Проте цей тріумф лише поглибив смуту, оскільки пізніше Генріх III наказав убити Гіза і конфлікт розгорівся з новою силою. День барикад став поворотною точкою у війні та продемонстрував силу міського повстання в цьому релігійному та політичному конфлікті."
+ },
+ "french_wars_religion.6.title": {
+  "en": "Day of the Barricades",
+  "uk": "День барикад"
+ },
+ "french_wars_religion.7.a": {
+  "en": "Is there an end to this instability?",
+  "uk": "Коли ж ця смута закінчиться?"
+ },
+ "french_wars_religion.7.desc": {
+  "en": "In the aftermath of the Day of the Barricades, tensions between the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] and the [ROOT.GetCountry.GetReligion.GetAdjective] League erupted into treachery. Claiming to act in defense of the faith, [target_character2.GetName], head of the League, orchestrated the assassination of [target_character.GetName], striking [target_character.GetHerHim] down in [target_location.GetName].\\n\\nThe bold act shattered the fragile peace, plunging the [ROOT.GetCountry.GetLongName] into chaos as rival factions vied for power. While the League declared its divine mission, others saw only betrayal, stoking unrest across the [ROOT.GetCountry.GetFlavorRank]. The assassination marked a turning point, igniting further bloodshed in the already volatile [ShowDisasterName('french_wars_religion')].",
+  "uk": "Після Дня барикад #L [ROOT.GetCountry.GetGovernment.GetAdjective]ий#! [ROOT.GetCountry.GetGovernment.GetCourtTitle] та #L [ROOT.GetCountry.GetReligion.GetAdjective|U]а#! ліга посварилися настільки, що справа дійшла до підлого злочину. Прикриваючись захистом віри, глава Ліги [target_character2.GetName] [Select_CString(target_character2.IsFemale,'влаштувала','влаштував')] замах, жертвою якого [Select_CString(target_character.IsFemale,'стала','став')] [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона була вбита','Він був убитий')] у [target_location.Custom('LR_PP')|l] [target_location.GetName].\\n\\nПісля цього зухвалого вчинку крихкому миру настав кінець: ворогуючі фракції знову зчепилися одна з одною в боротьбі за владу, а [ROOT.GetCountry.GetLongName] знову в огні. Ліга пояснює свої дії вищим благом, але решта бачать лише зраду, і [ROOT.GetCountry.GetFlavorRank] знову втрачає спокій, там спалахують заворушення. Убивство стало поворотною точкою в і без того непростій ситуації, і #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L Релігійні війни#!#! спалахнули з новою силою."
+ },
+ "french_wars_religion.7.title": {
+  "en": "Assassination of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'убита','убитий')]"
+ },
+ "french_wars_religion.8.a": {
+  "en": "Sound the wedding bells!",
+  "uk": "Нехай дзвонять весільні дзвони!"
+ },
+ "french_wars_religion.8.b": {
+  "en": "We care not for empty symbolism.",
+  "uk": "Нам нецікавий порожній символізм."
+ },
+ "french_wars_religion.8.desc": {
+  "en": "In a bold attempt to heal the [ROOT.GetCountry.GetFlavorRank]'s religious divisions, [target_character.GetName] has proposed marrying [target_character2.GetName], a [target_character2.GetWomanMan] that follows [target_religion.GetName]. While envisioned as a gesture of reconciliation to end the [ShowDisasterName('french_wars_religion')], the union has sparked outrage among devout members of [ROOT.GetCountry.GetReligion.GetName], who see it as a betrayal of the faith.\\n\\nZealots across the land grow restless, and tensions threaten to boil over. If not managed carefully, this risky move could backfire, plunging the country into greater chaos or even triggering a devastating massacre, further deepening the fractures within.",
+  "uk": "У сміливій спробі згладити релігійні чвари в [ROOT.GetCountry.Custom('CF_PP')|l] [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала','запропонував')] укласти шлюб, який стане жестом примирення ворогуючих сторін. [target_character.GetHerHis|U] [Select_CString(target_character2.IsFemale,'дружиною має','чоловіком має')] стати [target_character2.GetName], чия релігія — [target_religion.GetName]. Але хоча цей союз мав покласти край #TOOLTIP:DISASTER_TYPE,french_wars_of_religion,X #L релігійним війнам у Франції#!#!, він викликав обурення серед вірних послідовників релігії [ROOT.GetCountry.GetReligion.GetName], які побачили в ньому образу своєї віри.\\n\\nРелігійні фанатики по всій державі ремствують, і невдовзі їхній гнів може вирватися назовні. Якщо ми діятимемо необережно, ми можемо спровокувати нові спалахи насильства в країні або навіть грандіозну різанину, яка ще більше поглибить протистояння."
+ },
+ "french_wars_religion.8.title": {
+  "en": "A Wedding Amidst Chaos",
+  "uk": "Весілля посеред хаосу"
+ },
+ "french_wars_religion.9.a": {
+  "en": "A horrible twist of fate.",
+  "uk": "Який жахливий поворот долі."
+ },
+ "french_wars_religion.9.desc": {
+  "en": "What was meant to be a symbol of unity has descended into unimaginable horror. The marriage between [target_character.GetShortName] and [target_character2.GetShortName], intended to bridge the divide between the faithful and the heretics, has instead ignited a firestorm. On the night of the wedding, rumors of conspiracies spread like wildfire. Fueled by fear and hatred, mobs of zealots rampaged throughout the country, slaughtering heretics in the open.\\n\\nThe massacre quickly spiraled out of control, engulfing the [ROOT.GetCountry.GetFlavorRank] in bloodshed. Thousands lay dead, trust between communities is shattered, and the dream of unity lies buried beneath the bodies that litter the streets.",
+  "uk": "Ми хотіли зробити жест примирення, але все обернулося неймовірним жахом. [target_character.GetShortName] та [target_character2.GetShortName] одружилися, щоб залагодити розкол між правовірними та єретиками, але замість цього їхнє весілля спровокувало катастрофу. У ніч весілля пішов шепіт про змови, поширюючись зі швидкістю лісової пожежі. Керовані страхом і ненавистю, натовпи фанатиків влаштували в [ROOT.GetCountry.Custom('CF_PP')|l] грандіозний погром, вбиваючи єретиків просто на вулицях.\\n\\nПочалася різанина, і вся наша держава захлинулася в крові. Загинули тисячі людей, довіра між релігійними групами підірвана, і мрія про примирення лежить під горами трупів, що всипали вулиці."
+ },
+ "french_wars_religion.9.historical_info": {
+  "en": "In August 1572, the St. Bartholomew's Day Massacre unfolded when violence erupted in Paris following the wedding of Protestant Henry of Navarre to Catholic Marguerite de Valois. Initially seen as a peace effort, the marriage triggered fear among Catholic leaders that Huguenot influence was growing. In a swift and brutal response, prominent Huguenots were assassinated, and mobs turned on Protestants across the city. What began as targeted killings quickly spread throughout France, leaving thousands dead. The massacre inflamed religious tensions, prolonging the French Wars of Religion.",
+  "uk": "У серпні 1572 року напередодні дня святого Варфоломія в Парижі сталася різанина, спровокована весіллям протестанта Генріха Наваррського та католички Маргарити де Валуа. Задумане як крок до примирення, це одруження викликало у католицьких лідерів страхи щодо зростаючого впливу гугенотів. Вони відреагували швидко й жорстоко: найвпливовіших гугенотів було вбито, натовпи розлючених городян почали нападати на протестантів по всьому місту. Те, що задумувалося як убивство кількох осіб, швидко переросло в хвилю погромів по всій Франції та призвело до тисяч смертей. Релігійні конфлікти, що спалахнули після цього, призвели до відновлення релігійних воєн у Франції з новою силою."
+ },
+ "french_wars_religion.9.title": {
+  "en": "Saint Bartholomew's Day Massacre",
+  "uk": "Варфоломіївська ніч"
+ },
+ "heretic_pops_gain_33_satisfaction_tt": {
+  "en": "[heretics|e] that belong to the [ShowReligionGroupAdjectiveWithNoTooltip('christian')] [religion_group|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('heretics', 'єретиків')|e], що належать до християнської [Concept('religion_group', 'релігійної групи')|e], зросте на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "may_lead_to_target_character_assassination_tt": {
+  "en": "#italic This may lead to the assassination of [target_character.GetNameWithNoTooltip]#!",
+  "uk": "#italic [target_character.GetNameWithNoTooltip] може стати жертвою замаху#!"
+ },
+ "pops_of_target_religion_in_target_province_25_sat_tt": {
+  "en": "Our [pops|e] in [target_province_start.GetNameWithNoTooltip] that follow the [target_religion.GetAdjectiveWithNoTooltip] [religion|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] провінції [target_province.GetNameWithNoTooltip], які сповідують [target_religion.GetAdjectiveWithNoTooltip|l]у [Concept('religion', 'віру')|e], підвищиться на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "pops_of_target_religion_in_target_province_lose_15_sat_tt": {
+  "en": "Our remaining [target_religion.GetAdjectiveWithNoTooltip] [pops|e] in [target_province_start.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] решти [target_religion.GetAdjectiveWithNoTooltip]их [Concept('pops', 'груп населення')|e] у провінції [target_province.GetName] знизиться на [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]"
+ },
+ "pops_target_province_gain_sat_based_on_religion_a_tt": {
+  "en": "Our [pops|e] in [target_province.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e] while [pops|e] that do follow other [ShowReligionGroupAdjective('christian')] faiths will gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] провінції [target_province.GetNameWithNoTooltip], чия [Concept('religion', 'релігія')|e] — [ROOT.GetCountry.GetReligion.GetName], знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%], а [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], що належать до інших #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! конфесій, зросте на [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%]"
+ },
+ "pops_target_province_gain_sat_based_on_religion_b_tt": {
+  "en": "Our [pops|e] in [target_province.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e] while [pops|e] that do follow other [ShowReligionGroupAdjective('christian')] faiths will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] провінції [target_province.GetNameWithNoTooltip], чия [Concept('religion', 'релігія')|e] — [ROOT.GetCountry.GetReligion.GetName], знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%], а [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], що належать до інших #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! конфесій, зросте на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "pops_target_province_gain_sat_based_on_religion_c_tt": {
+  "en": "Our [pops|e] in [target_province.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e] while [pops|e] that do follow other [ShowReligionGroupAdjective('christian')] faiths will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] провінції [target_province.GetNameWithNoTooltip], чия [Concept('religion', 'релігія')|e] — [ROOT.GetCountry.GetReligion.GetName], підвищиться на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%], а [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], що належать до інших #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! конфесій, знизиться на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
+ },
+ "status_heretics_unresolved_10_years_cd_tt": {
+  "en": "The disaster has concluded #R unresolved#! and it may occur again in #Y 10#! years",
+  "uk": "Причини лиха залишилися #R неусунутими#!, все може повторитися через #Y 10#! років"
+ },
+ "this_may_lead_to_massacre_tt": {
+  "en": "#Y This may trigger a great massacre against #![heretics|e]",
+  "uk": "#Y Це може спровокувати великі погроми#! [Concept('heretics','єретиків')|e]"
+ }
+}

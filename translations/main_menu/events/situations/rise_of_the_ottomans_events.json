@@ -1,0 +1,642 @@
+{
+ "ability_to_form_rum_tt": {
+  "en": "Gain the ability to restore Rûm",
+  "uk": "Отримати можливість відродити Римську імперію"
+ },
+ "based_on_target_location_splendor_and_importance_tt": {
+  "en": "Based on its [location_importance|e], [target_location.GetNameWithNoTooltip]:",
+  "uk": "Залежно від [Concept('location_importance', 'важливості району')|e] [target_location.GetNameWithNoTooltip]:"
+ },
+ "byz_accepted_proposal_tt": {
+  "en": "They accepted our proposal",
+  "uk": "Вони прийняли нашу пропозицію"
+ },
+ "byz_declined_proposal_tt": {
+  "en": "They declined our proposal",
+  "uk": "Вони відхилили нашу пропозицію"
+ },
+ "control_of_the_erzurum_trunk_road_tt": {
+  "en": "Directly owning [ShowLocationName('konya')], [ShowLocationName('erzurum')], [ShowLocationName('sivas')], or [ShowLocationName('tabriz')] will grant us access to the [ShowEstatePrivilegeName('trunk_road_to_erzurum_privilege')] [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] [estate_privilege|e].\\n\\nEach additional [location|e] among these that we directly own will further strengthen this [privilege|e].",
+  "uk": "Якщо ми доб'ємося прямого контролю над #TOOLTIP:LOCATION,konya_tt,X #L Коньєю#!#!, #TOOLTIP:LOCATION,erzurum_tt,X #L Ерзурумом#!#!, #TOOLTIP:LOCATION,sivas_tt,X #L Сівасом#!#! або #TOOLTIP:LOCATION,tabriz_tt,X #L Табрізом#!#!, наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] отримають [Concept('estate_privilege','станову привілею')|e] «[ShowEstatePrivilegeName('trunk_road_to_erzurum_privilege')]».\\n\\nКожен наступний [Concept('location','район')|e], що перейде під наш прямий контроль, додатково посилить цю [Concept('privilege','привілею')|e]."
+ },
+ "create_uc_bey_tt": {
+  "en": "The designated [ShowSubjectTypeName('vassal')] will become an [ShowSubjectTypeName('uc_bey')]",
+  "uk": "Вказана [Concept('province','провінція')|e] перейде у власність нового #TOOLTIP:SUBJECT_TYPE,uc_bey,X #L удж-бея#!#!"
+ },
+ "enable_turkic_migration_tt": {
+  "en": "As our influence across [ShowRegionNameWithNoTooltip('anatolia_region')] has grown considerably, we now have access to the [ShowGenericActionName('invite_turkic_migration')] [action|e] in the [ShowSituationName('rise_of_the_ottomans')] [situation|e]",
+  "uk": "Оскільки наш вплив в Анатолії значно зріс, тепер нам доступна [Concept('action','дія')|e] #TOOLTIP:GENERIC_ACTION,invite_turkic_migration,X #L «Підтримати [ShowCultureGroupNameWithNoTooltip('turkic_group')|l]у міграцію»#!#! у рамках [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Піднесення турків»#!#!"
+ },
+ "gain_court_official_tt": {
+  "en": "Should they accept, one of their most capable administrators will join our court",
+  "uk": "Якщо вони визнають наш вплив, один з їхніх найталановитіших управлінців приєднається до нашого двору"
+ },
+ "gain_money_tt": {
+  "en": "Should they accept, we will receive a portion of their income",
+  "uk": "Якщо вони приймуть наші вимоги, ми отримаємо частину їхнього доходу"
+ },
+ "gain_recognition_tt": {
+  "en": "Should they accept and recognize our sovereignty over our region, we will gain [ShowModifier('sovereign_of_anatolia')] for #Y 10#! years",
+  "uk": "Якщо вони визнають наш вплив у регіоні, ми отримаємо модифікатор «#TOOLTIP:STATIC_MODIFIER,sovereign_of_anatolia,X #V #L Суверен Анатолії#!#!» на #Y 10#! років"
+ },
+ "growing_influence_text": {
+  "en": "A proof of our growing influence and prosperity!",
+  "uk": "Доказ нашого зростаючого впливу та процвітання!"
+ },
+ "history_rewritten_tt": {
+  "en": "#italic And thus, history is rewritten. As we stand at the sunrise of our growing country, we will inherit the legacy and glory of those who paved the way to our ascension.#!",
+  "uk": "#italic Історія робить коло. Ми — герої, що стоять біля витоків нової імперії, — успадкуємо землі та славу наших великих попередників.#!"
+ },
+ "rise_of_the_ottomans.1.a": {
+  "en": "They have to be stopped!",
+  "uk": "Це треба зупинити!"
+ },
+ "rise_of_the_ottomans.1.desc": {
+  "en": "Born from the ashes of the dying Seljuk Sultanate, the small territory of [target_character.GetName] was initially overshadowed by more powerful neighbors. However, the vision and ambition of [target_country.GetName] would prove far-reaching, as they have recently embarked on a path of expansion and consolidation, carving out their place in the tumultuous tapestry of a fragmented [ShowRegionNameWithNoTooltip('anatolia_region')].\\n\\n[target_character.GetShortNameWithNoTooltip] and [target_character.GetHerHis] successors skillfully capitalized on the prevailing chaos and divisions within the region. With each victory, the [target_country.GetAdjectiveWithNoTooltip] principality grows stronger, attracting warriors, scholars, and ambitious minds eager to participate in this rising power. Their strategic marriages, shrewd alliances, and military prowess gradually turned a modest state into an empire in the making.",
+  "uk": "Маленька держава [target_country.GetName], що виникла на руїнах Сельджуцького султанату, який помирав, спершу перебувала в тіні своїх могутніх сусідів. Однак [target_character.GetName] не [Select_CString(target_character.IsFemale,'збиралася', 'збирався')] миритися з таким станом речей. [Select_CString(target_character.IsFemale,'Вона вступила', 'Він вступив')] на шлях консолідації та експансії, бажаючи зміцнити своє становище на строкатому гобелені роздрібненої Анатолії.\\n\\n[target_character.GetShortNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] послідовники вміло скористалися хаосом і розбіжностями, що панували в регіоні. З кожною перемогою #L [target_country.GetAdjectiveWithNoTooltip|l]е#! князівство стає сильнішим, і багато воїнів, учених та інших амбітних діячів бажають взяти участь у його долі. Вдалі шлюби, хитрі союзи та військові досягнення поступово перетворили скромну державу на імперію, що розвивається."
+ },
+ "rise_of_the_ottomans.1.title": {
+  "en": "The [ShowCultureNameWithNoTooltip('turkish_culture')] Threat",
+  "uk": "Турецька загроза"
+ },
+ "rise_of_the_ottomans.100.a": {
+  "en": "[target.GetNameWithNoTooltip] will soon be ours!",
+  "uk": "Незабаром [target.GetNameWithNoTooltip] перейде у володіння нового господаря!"
+ },
+ "rise_of_the_ottomans.100.desc": {
+  "en": "As the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is contemplating the next move in [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] grand design, [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] watches the triumphant [ROOT.GetCountry.GetAdjective] banners flutter in the wind.Even now, neighboring territories look ripe for incorporation into the growing [ROOT.GetCountry.GetFlavorRank].\\n\\nShould we claim [target.GetProvince.GetName], it would solidify our control over [target.GetArea.GetName] and further extend our influence in the region. The time has come to start a new military campaign!",
+  "uk": "Переможні #L [ROOT.GetCountry.GetAdjective|l]і#! прапори майорять на вітрі, а [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] вже обмірковує наступний крок свого великого плану. Схоже, на цьому етапі [ROOT.GetCountry.GetFlavorRank|l] може без зусиль завоювати більшість сусідніх територій.\\n\\nЯкщо ми включимо провінцію [target.GetProvince.GetName] до складу нашої держави, то зможемо посилити свій контроль над областю [target.GetArea.GetName], і тоді наш вплив у регіоні помітно розшириться. Час розпочати нову військову кампанію!"
+ },
+ "rise_of_the_ottomans.100.title": {
+  "en": "Campaign Against [target_country.GetNameWithNoTooltip]",
+  "uk": "Похід проти [target_country.Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.101.a": {
+  "en": "Give them a proposal they cannot refuse...",
+  "uk": "Зробіть їм пропозицію, від якої неможливо відмовитися…"
+ },
+ "rise_of_the_ottomans.101.b": {
+  "en": "We care not for their affairs!",
+  "uk": "Їхні інтереси нас не хвилюють!"
+ },
+ "rise_of_the_ottomans.101.desc": {
+  "en": "Not every expansion of our [ROOT.GetCountry.GetFlavorRank] requires a military conquest. Sometimes an emissary can negotiate a treaty that is beneficial to both, that without bloodshed would expand our borders.",
+  "uk": "Щоб заволодіти новими територіями, нам необов'язково розв'язувати війну. [ROOT.GetCountry.GetFlavorRank] може відправити посланця, який укладе договір, вигідний обом сторонам, і розширити наші володіння, уникнувши кровопролиття."
+ },
+ "rise_of_the_ottomans.101.title": {
+  "en": "The [target_country.GetLongNameWithNoTooltip] & [target_country2.GetNameWithNoTooltip]",
+  "uk": "[target_country.GetLongNameWithNoTooltip] і [GetCountry('TUR').GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.101.tt": {
+  "en": "[target_country.GetName] may be convinced to become our [ShowSubjectTypeName('vassal')]",
+  "uk": "Держава [target_country.GetName] може погодитися стати нашим #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалом#!#!"
+ },
+ "rise_of_the_ottomans.102.a": {
+  "en": "Accept the demands.",
+  "uk": "Приймемо вимоги."
+ },
+ "rise_of_the_ottomans.102.b": {
+  "en": "We will not entertain these advances.",
+  "uk": "Відхилимо вимоги."
+ },
+ "rise_of_the_ottomans.102.desc": {
+  "en": "The [target_country2.GetAdjective] [target_country2.GetGovernment.GetFullRulerName] has sent an emissary that demands our submission to them, effectively joining their [target_country2.GetFlavorRank] as a [ShowSubjectTypeName('vassal')].",
+  "uk": "[GetCountry('TUR').GetLongName] — це держава, якою править [ROOT.GetCountry.GetGovernment.GetFullRulerName]. Звідти прибув посланець, що пропонує нам скоритися і ввійти до їхнього складу як #TOOLTIP:SUBJECT_TYPE,vassal,X #L васал#!#!."
+ },
+ "rise_of_the_ottomans.102.title": {
+  "en": "Demand from The [target_country2.GetName]",
+  "uk": "Вимога [GetCountry('TUR').Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.103.a": {
+  "en": "Everyone will bend their knee eventually!",
+  "uk": "Рано чи пізно всі схиляться перед нами!"
+ },
+ "rise_of_the_ottomans.103.desc": {
+  "en": "An emissary has returned from [target_country.GetCapital.GetName], bearing news that the [target_country.GetLongName] has agreed to submit to our authority and become our [ShowSubjectTypeName('vassal')]. Facing growing threats and recognizing the might of our [ROOT.GetCountry.GetFlavorRank], the [target_country.GetAdjectiveWithNoTooltip] rulers have chosen to swear fealty in exchange for our protection.\\n\\nThis marks a decisive step toward unifying the fractured Beyliks of [ShowRegionName('anatolia_region')] under our banner, as our influence spreads and our destiny as the dominant power in the region becomes ever clearer.",
+  "uk": "Наш посланець привіз із міста [target_country.GetCapital.GetName] славні вісті. [target_country.GetLongName] — ця держава погоджується визнати нашу владу і стати #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалом#!#!. До цього [target_country.GetAdjectiveWithNoTooltip|l]их правителів підштовхнув не лише страх перед загрозами, що нависли над їхніми головами, а й усвідомлення переваги [ROOT.GetCountry.Custom('CF_RP')|l] над їхньою державою. Саме тому вони прийняли єдине розумне рішення присягнути нам на вірність в обмін на захист.\\n\\nЗдобувши нового васала, ми зробили ще один крок до об'єднання роздрібнених бейликів #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! під своїм прапором. Наш вплив зростає, а разом з ним зростає розуміння, що нам долею призначено стати наймогутнішою державою регіону."
+ },
+ "rise_of_the_ottomans.103.title": {
+  "en": "The [target_country.GetAdjectiveWithNoTooltip] Response",
+  "uk": "[target_country.GetAdjectiveWithNoTooltip]а відповідь"
+ },
+ "rise_of_the_ottomans.104.a": {
+  "en": "We will meet them on the battlefield!",
+  "uk": "Ми зустрінемося з ними на полі бою!"
+ },
+ "rise_of_the_ottomans.104.desc": {
+  "en": "It was always clear that the scoundrels in [target_country.GetCapital.GetName] lacked foresight. It was only our merciful hearts that forced us to give them the option to submit willingly, an option that they now have refused!",
+  "uk": "Ми завжди знали, що підлі люди з міста [target_country.GetCapital.GetName] геть позбавлені далекоглядності. Ми не пішли на них війною лише з милосердя, але вони відмовилися від такої великодушної пропозиції!"
+ },
+ "rise_of_the_ottomans.104.title": {
+  "en": "[target_country.GetLongNameWithNoTooltip] Refuses!",
+  "uk": "[target_country.GetLongNameWithNoTooltip] — держава відмовляється підкорятися!"
+ },
+ "rise_of_the_ottomans.105.a": {
+  "en": "Foster a sense of unity and loyalty.",
+  "uk": "Простимулюємо почуття єдності та належності."
+ },
+ "rise_of_the_ottomans.105.b": {
+  "en": "Take a more cautious approach.",
+  "uk": "Оберемо обережніший підхід."
+ },
+ "rise_of_the_ottomans.105.desc": {
+  "en": "With [target_province.GetName] now under our control, the Court finds itself at a critical juncture. The delicate process of assimilating the conquered land into the empire's vast tapestry must be navigated with precision and foresight. The fate of the province hangs in the balance, with the potential to become an integral part of the [ROOT.GetCountry.GetLongName] or a source of unrest and discontent.\\n\\nThe Court debates the best approach to ensure a successful integration. Various voices emerge, offering counsel on the path forward. Some advise swift imposition of Ottoman laws and institutions to establish centralized control, fostering a sense of unity and loyalty among the populace. Others argue for a more cautious approach, urging respect for local customs and traditions to gain the trust of the conquered people.",
+  "uk": "Відколи провінція [target_province.GetName] увійшла до складу імперії, наш двір роздирають суперечності. Асиміляція підкорених земель — делікатний процес, що вимагає акуратності й далекоглядності. На шальках терезів доля провінції: вона може стати як нашою складовою частиною, так і постійним головним болем.\\n\\nПридворні обговорюють, який підхід приведе до успішної інтеграції. Дехто хоче одразу ж запровадити наші закони та впровадити османські інституції, щоб встановити централізований контроль і згуртувати населення. Інші ж закликають діяти обережно, виявити повагу до місцевих традицій і звичаїв і тим самим завоювати повагу наших новоспечених підданих."
+ },
+ "rise_of_the_ottomans.105.title": {
+  "en": "The Integration of [target_province.GetNameWithNoTooltip]",
+  "uk": "Інтеграція провінції [target_province.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.106.a": {
+  "en": "We will accept their proposal.",
+  "uk": "Ми приймемо їхню пропозицію."
+ },
+ "rise_of_the_ottomans.106.b": {
+  "en": "Expel their diplomat and decline their demands!",
+  "uk": "Прогнати їхнього дипломата і відкинути вимоги!"
+ },
+ "rise_of_the_ottomans.106.desc": {
+  "en": "The road to power is often different for those who seek to embrace it and see it through. For us, it is littered with obstacles and diplomatic maneuvers as we struggle to maintain our sovereignty. The latest issue brought to our attention has come in the form of a formal diplomatic request by the [actor.GetName].\\n\\nAccording to their eloquently written letter, they offer the hand of their most illustrious [target_country1.GetGovernment.GetRuler.GetDynasty.GetName] line to us, in exchange for some territory in our shared border. Having such a powerful neighbor guarantee our independence and view us favorably is a great boon, but what of our territorial integrity...?",
+  "uk": "Нерідко шлях до влади буває тернистим і небезпечним. У нашому випадку він являє собою лабіринт з перешкодами: ми маємо йти на будь-які хитрощі, щоб зберегти суверенітет. Нещодавно з #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_RP')|L]#!#! надійшов офіційний дипломатичний запит.\\n\\nУ своєму красномовному листі її представники пропонують нам поріднитися зі знаменитою династією [target_country1.GetGovernment.GetRuler.GetDynasty.GetName] в обмін на територію на спільному кордоні. Наявність такого могутнього дружнього сусіда, що гарантує нашу незалежність, — це велике благо, але як же наша територіальна цілісність?"
+ },
+ "rise_of_the_ottomans.106.title": {
+  "en": "The [actor.GetNameWithNoTooltip] Demand Diplomatic Ties",
+  "uk": "[actor.GetNameWithNoTooltip] і дипломатичний шлюб"
+ },
+ "rise_of_the_ottomans.107.a": {
+  "en": "I love diplomacy!",
+  "uk": "Обожнюю дипломатію!"
+ },
+ "rise_of_the_ottomans.107.b": {
+  "en": "Countries have burned for less.",
+  "uk": "Держави спалювали і за менші провини."
+ },
+ "rise_of_the_ottomans.107.desc_a": {
+  "en": "Despite our magnanimous proposal towards the court of the [target_country2.GetName], they have inexplicably denied our great offer! This goes to show that their diplomatic capabilities are lacking severely, given that they cannot recognize our innate superiority over them. This is an insult that we cannot let pass without punishment!",
+  "uk": "Ми зробили #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_DAT')|L]#!#! великодушну пропозицію, але влада цієї держави відмовила нам з невідомої причини! Очевидно, вони геть позбавлені політичної далекоглядності та дипломатичного такту і не можуть визнати нашу незаперечну перевагу. Ми не станемо терпіти цю образу!"
+ },
+ "rise_of_the_ottomans.107.desc_b": {
+  "en": "The married couple has returned to [target_location2.GetName] accompanied by a great litany of musicians, courtiers, and the joyous sounds one would expect from such a prestigious union. But, more importantly, they also bring with them the deeds to [target_location.GetName] that henceforth will be considered a part of our integrated territory.",
+  "uk": "[target_location2.GetRank.GetNameWithNoTooltip] [target_location2.GetName] приймає молодят в свої обійми. Вони повертаються додому в супроводі музикантів і придворних. Уся свита радіє укладенню престижного союзу. Але що найважливіше — подружжя привозить із собою важливі документи, де сказано, що тепер [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] є нашою територією."
+ },
+ "rise_of_the_ottomans.107.title": {
+  "en": "The [target_country2.GetAdjectiveWithNoTooltip] Response",
+  "uk": "[target_country2.GetAdjectiveWithNoTooltip]а відповідь"
+ },
+ "rise_of_the_ottomans.108.a": {
+  "en": "They must recognize our influence in [ShowRegionNameWithNoTooltip('anatolia_region')].",
+  "uk": "Вони повинні визнати наш вплив в Анатолії."
+ },
+ "rise_of_the_ottomans.108.b": {
+  "en": "Their coin will assure a prosperous relation.",
+  "uk": "Гроші — запорука процвітаючих відносин."
+ },
+ "rise_of_the_ottomans.108.c": {
+  "en": "Surely they can spare royal gifts!",
+  "uk": "Їм точно є чим поділитися!"
+ },
+ "rise_of_the_ottomans.108.d": {
+  "en": "Nevermind.",
+  "uk": "Це ні до чого."
+ },
+ "rise_of_the_ottomans.108.desc": {
+  "en": "For much of our history, we have interacted to some capacity with the [GetCountry('BYZ').GetLongName]. Though their splendor and might may not be as it once was, they nevertheless possess a powerful presence across the [ShowLocationName('bosphorus')]. Due to the imbalance of strength between our courts, however, we are in a unique position to make demands of them, and potentially gain a greater standing within our own region...",
+  "uk": "[GetCountry('BYZ').GetLongName] — держава, з якою ми так чи інакше взаємодіяли протягом майже всієї своєї історії. Найкращі роки цієї країни, схоже, позаду, однак її вплив на #TOOLTIP:LOCATION,$bosphorus_tt$,X #L Босфорі#!#! все ще великий. Зараз склалася воістину унікальна ситуація: дисбаланс сил призвів до того, що тепер ми можемо висувати їй вимоги, щоб зміцнити своє становище в регіоні…"
+ },
+ "rise_of_the_ottomans.108.title": {
+  "en": "Diplomacy with [GetCountry('BYZ').GetNameWithNoTooltip]",
+  "uk": "Дипломатичні відносини з владою [GetCountry('BYZ').Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.109.a": {
+  "en": "We must acquiesce.",
+  "uk": "Доведеться піти на поступки."
+ },
+ "rise_of_the_ottomans.109.b": {
+  "en": "Who do they think they are!?",
+  "uk": "Ким вони себе уявляють?!"
+ },
+ "rise_of_the_ottomans.109.desc": {
+  "en": "In the midst of a power struggle that has thrown all of [ShowRegionNameWithNoTooltip('anatolia_region')] in turmoil, messengers from [actor.GetLongName] have arrived, wasting no time to deliver a request from their liege...",
+  "uk": "У самий розпал боротьби за владу в Анатолії до нашого двору прибули посланці, чия батьківщина — [actor.GetLongName], щоб передати запит свого сюзерена…"
+ },
+ "rise_of_the_ottomans.109.title": {
+  "en": "A Request from the [actor.GetNameWithNoTooltip]",
+  "uk": "Запит від: [actor.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.110.a": {
+  "en": "Very well.",
+  "uk": "Чудово."
+ },
+ "rise_of_the_ottomans.110.b": {
+  "en": "How dare they!?",
+  "uk": "Та як вони насмілилися?!"
+ },
+ "rise_of_the_ottomans.110.desc": {
+  "en": "Not long since we dispatched a messenger to the court of the [GetCountry('BYZ').GetAdjective], our emissary returns, holding a letter that bears the seal of a once-powerful Empire, forgotten in the sands of time...",
+  "uk": "Нещодавно ми відправили посланця до #L [GetCountry('BYZ').GetAdjective|l]ого#! двору. І ось гонець повертається, тримаючи в руках листа, на якому стоїть печатка колись великої імперії, занесеної пісками часу…"
+ },
+ "rise_of_the_ottomans.110.title": {
+  "en": "The [GetCountry('BYZ').GetAdjectiveWithNoTooltip] Response",
+  "uk": "[GetCountry('BYZ').GetAdjectiveWithNoTooltip]а відповідь"
+ },
+ "rise_of_the_ottomans.111.desc": {
+  "en": "In the midst of tensions that have thrown all of [ShowRegionNameWithNoTooltip('anatolia_region')] into turmoil, envoys from [actor.GetLongName] arrive with a formal demand. Their [actor.GetGovernment.GetRulerTitle] seeks recognition, expecting us to affirm their authority over lands they now claim as rightfully theirs. The message may be measured, yet the intent is clear. A new power rises, casting its shade across the region and this is but their latest exhibition of newfound influence.",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.111.title": {
+  "en": "$rise_of_the_ottomans.109.title$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.112.desc": {
+  "en": "As disorder spreads across [ShowRegionNameWithNoTooltip('anatolia_region')], representatives of [actor.GetLongName] bring forth an offer. In exchange for peace, they demand a considerable payment, one that would secure a truce and, perhaps, buy time. Whether this is diplomacy or coercion is left to interpretation. To bend over in order to accomodate such a brazen request would only further solidify the [actor.GetAdjectiveWithNoTooltip] position...",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.112.title": {
+  "en": "$rise_of_the_ottomans.109.title$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.113.desc": {
+  "en": "With [ShowRegionNameWithNoTooltip('anatolia_region')] unsettled and authority contested, envoys of [actor.GetLongName] present an unusual demand. Their [actor.GetGovernment.GetRulerTitle] expects gifts befitting their rising stature, not in gold alone, but in persons of standing. It is a gesture framed as goodwill, all while carrying the weight of obligation. It is clear that they wish to employ capable administrators so as to facilitate their lofty expansionist plans!",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.113.title": {
+  "en": "$rise_of_the_ottomans.109.title$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.2.a": {
+  "en": "It is our destiny!",
+  "uk": "Це наша доля!"
+ },
+ "rise_of_the_ottomans.2.title": {
+  "en": "The Rise of [target_country.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.200.a": {
+  "en": "May it pave the way to greater heights!",
+  "uk": "Хай це стане сходинкою до нових висот!"
+ },
+ "rise_of_the_ottomans.200.historical_info": {
+  "en": "A vital city since Roman times, Izmit lies at the shores of a wealthy gulf, eventually growing into a prosperous center for trade and a crossroads of cultures. Such was its gravity, that Diokletianus proudly declared it the capital city of Rome's eastern region. Later on, its barracks would host crusaders and Ġuzāt alike, when its ownership passed from the former to the latter during the early 13th century. It was finally captured by besieging Ottoman troops in 1337.",
+  "uk": "Ізміт — найважливіше місто з часів Римської імперії, розташоване на березі затоки. З часом воно перетворилося на процвітаючий центр торгівлі, де перетинається безліч культур. Його значення було настільки велике, що Діоклетіан з гордістю проголосив його столицею римського східного регіону. Пізніше його завоювали хрестоносці, а на початку XIII століття їм на зміну прийшли воїни Газі. У 1337 році Ізміт остаточно перейшов під контроль османських військ."
+ },
+ "rise_of_the_ottomans.200.title": {
+  "en": "Capital of the Old Empire",
+  "uk": "Столиця давньої імперії"
+ },
+ "rise_of_the_ottomans.201.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.201.historical_info": {
+  "en": "Known for its rich history and serving as the first capital of the Ottoman Empire, Bursa boasts a beautifully-weaved historical tapestry. Within its domain, it holds architectural marvels such as the Yeşil Türbe and the Grand Mosque, testaments to an illustrious history.",
+  "uk": "Бурса — місто з багатою історією і перша столиця Османської імперії — нагадує прекрасний строкатий гобелен. На його території розташовані такі чудеса архітектурної думки, як Зелена та Велика мечеті, які є символами величі Бурси."
+ },
+ "rise_of_the_ottomans.201.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - Fate and History",
+  "uk": "[target_location.GetNameWithNoTooltip]. Доля та історія"
+ },
+ "rise_of_the_ottomans.202.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.202.historical_info": {
+  "en": "Flourishing as a cultural and political hub under the Seljuk regime, Konya has served as the birthplace of many civilizations. Its masters used the city as a unique melting pot of different cultures, serving as the grounds for distinctive art and magnanimous constructs such as its outer fortress, Alaaddin Mosque, Sirçali Madrasa, and several smaller mosques and tombs that embody the architectural elegance of the Seljuk era.",
+  "uk": "Конья — колиска багатьох цивілізацій, що прославилася в сельджуцький період як політичний і культурний центр. Її архітектура нагадує фантастичний візерунок, де химерно переплетені різні культури. Тут можна зустріти безліч самобутніх і величних споруд, зведених в епоху правління Сельджукидів, таких як міська фортеця, мечеть Ала ад-Діна та медресе Сирчали, а також кілька невеликих мечетей і гробниць."
+ },
+ "rise_of_the_ottomans.202.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - Shadow of the Seljuks",
+  "uk": "[target_location.GetNameWithNoTooltip]. Тінь Сельджукидів"
+ },
+ "rise_of_the_ottomans.203.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.203.historical_info": {
+  "en": "Throughout its history, Ankara has been the scene of numerous battles as armies vied for control. During the Roman era, the city flourished as a hub of culture, trade, and the arts. Later, under Ottoman rule, it became a crucial point on the eastern caravan trade routes. Ankara served as the seat of power of a republic-like merchant brotherhood during the 14th century, an interesting oddity within a region of warring Beyliks.",
+  "uk": "З моменту заснування Анкара часто ставала ареною битв. За контроль над нею боролися багато армій. У римську епоху місто було центром культури, торгівлі та мистецтв. За часів розквіту Османської імперії Анкара зберегла своє значення і стала точкою перетину східних караванних шляхів. У XIV столітті місто слугувало резиденцією влади купецького братства з республіканською формою правління — це дивовижний випадок у регіоні ворогуючих бейликів."
+ },
+ "rise_of_the_ottomans.203.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - City of Struggle",
+  "uk": "[target_location.GetNameWithNoTooltip]. Місто розбрату"
+ },
+ "rise_of_the_ottomans.204.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.204.historical_info": {
+  "en": "Hailing from the days of Hittite times, Kayseri has served as a vital point of the famous Silk Road. During ancient times, the city served as the seat of Cappadocian kings, and under Persian rule it witnessed the sweeping might of Alexander 'the Great'. The city experienced three golden ages: as a trade post between the Assyrians and Hittites around 2000 BCE, during Roman rule from the 1st to 11th centuries, and under the Seljuks from 1178 to 1243. Despite its turbulent history of sieges and battles, the city proudly displays an air of architectural sophistication, serving as the host of landmarks such as the Hunad Hatun Külliyesi and the Kilij Arslan mosque.",
+  "uk": "Кайсері — місто, засноване хетами, — завжди було важливим торговельним центром, розташованим уздовж Великого шовкового шляху. У давні часи місто слугувало резиденцією каппадокійських царів, а пізніше перейшло до персів і врешті-решт було завойоване Олександром Македонським. Місто пережило три золоті віки: у 2000-х роках до н. е., коли воно було центром торгівлі між ассирійцями та хетами, у період римського панування з I по XI століття та за сельджуків з 1178 по 1243 рік. Попри те, що Кайсері витримав безліч облог і битв, він може похвалитися розкішними пам'ятками архітектури, такими як комплекс Хунат Хатун і мечеть Килич-Арслана."
+ },
+ "rise_of_the_ottomans.204.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - Cultural Crossroad",
+  "uk": "[target_location.GetNameWithNoTooltip]. На перехресті культур"
+ },
+ "rise_of_the_ottomans.205.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.205.historical_info": {
+  "en": "According to many historians of the time, Sivas served as one of the most important settlements of the region, being the heart of a beautiful mosque and a famed hospital attached to it. The city would eventually pass under Ottoman rule in 1516, in which it served as a sanjak.",
+  "uk": "Давні історики описують Сівас як найважливіше поселення регіону з прекрасною мечеттю, при якій розташовувалася знаменита лікарня. У 1516 році місто увійшло до складу Османської імперії і стало одним із санджаків."
+ },
+ "rise_of_the_ottomans.205.title": {
+  "en": "[target_location.GetNameWithNoTooltip] - Influence in the East",
+  "uk": "[target_location.GetNameWithNoTooltip]. Вплив на Сході"
+ },
+ "rise_of_the_ottomans.206.a": {
+  "en": "$growing_influence_text$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.206.historical_info": {
+  "en": "Smyrna's history goes back thousands of years with the city serving as one of the principal ancient Greek settlements in western Anatolia. In recent centuries, it was ravaged by besieging Turk armies until it was rebuilt by one of Nicea's emperors, John III Doukas Vatatzes, in 1222. Smyrna became the target of a crusade spearheaded by the Knights of Rhodes and the Kingdom of Cyprus in 1344, resulting in a victory that saw the city passing into the hands of Rhodesian crusaders. It was here that in 1403 the Knights Hospitallers would suffer a crushing defeat at the hands of Timur, resulting in the great conqueror inflicting great damage upon the city. Despite this, the city's Greek influence was still strong enough for the Ottomans to dub the city 'Smyrna of the infidels'.",
+  "uk": "Історія Смірни налічує тисячі років. Це одне з найстаріших давньогрецьких міст і найважливіший центр Західної Анатолії. В останні століття воно було завойоване й розорене турецькими військами, а в 1222 році відновлене нікейським імператором на ім'я Іоанн III Дука Ватац. Смірна стала ціллю переможного хрестового походу 1344 року, який очолили лицарі Родосу та Кіпрське королівство, внаслідок чого місто перейшло до рук родоських хрестоносців. Саме тут у 1403 році лицарі-госпітальєри зазнали нищівної поразки від великого завойовника Тімура, який завдав місту величезної шкоди. Попри це, місто продовжувало перебувати під сильним грецьким впливом, через що османи прозвали його «Невірною Смірною»."
+ },
+ "rise_of_the_ottomans.206.title": {
+  "en": "[target_location.GetNameWithNoTooltip] of the Infidels",
+  "uk": "Невірна [target_location.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.207.desc": {
+  "en": "Our conquests have brought forth unimaginable wealth to our people. As such, the protection of such affluence has come to be a vital priority. [target_location.GetName] is a jewel upon our crown, a shining example of our success, and a symbol of our growing authority across our region. The completion of the local [ShowBuildingTypeName('bey_fortress')] has elevated the city even further, with its importance now highlighted across the ages.",
+  "uk": "Успішні завоювання принесли нашому народу незліченні багатства. Відтепер один з наших пріоритетів — захистити те, чим ми володіємо. [target_location.GetName] — справжня перлина в нашій короні, яскравий приклад успіху та символ нашого зростаючого впливу в регіоні. Нова #TOOLTIP:BUILDING_TYPE,bey_fortress,X #L фортеця бея#!#! підвищить статус міста і підкреслить його значущість в історії."
+ },
+ "rise_of_the_ottomans.207.title": {
+  "en": "Power on the Rise",
+  "uk": "Зростаюча держава"
+ },
+ "rise_of_the_ottomans.208.a": {
+  "en": "This is a nightmare!",
+  "uk": "Кошмар наяву!"
+ },
+ "rise_of_the_ottomans.208.desc": {
+  "en": "What was once our proud jewel and one of our most important cities, [target.GetName] has fallen to enemy hands. Hostile armies have succeeded in breaking the defenders and entering the inner center, wreaking havoc and slaughtering the local populace...",
+  "uk": "Місто [target.GetName], перлина нашої імперії, опинилося в руках ворога. Неприятелю вдалося прорвати оборону і дістатися до центру, сіючи хаос і знищуючи місцеве населення…"
+ },
+ "rise_of_the_ottomans.208.title": {
+  "en": "The Fall of [target.GetNameWithNoTooltip]",
+  "uk": "Падіння міста [target.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.209.a": {
+  "en": "Is this the end?",
+  "uk": "Невже це кінець?"
+ },
+ "rise_of_the_ottomans.209.desc": {
+  "en": "Despite our best attempts to safeguard our domain, we have sadly failed to maintain control over [location.GetName], one of our strongholds and a most vital city. This is a black day for our people and further endangers our already weakened position in the region...",
+  "uk": "Усі спроби захистити свої володіння були марними: на наш жаль, ми втратили контроль над важливим [Location.Custom('LR_INST')|l]-оплотом під назвою [Location.GetName]. Сьогодні чорний день для нашого народу. Наше становище в регіоні стає дедалі хиткішим…"
+ },
+ "rise_of_the_ottomans.209.title": {
+  "en": "The Conquest of [location.GetNameWithNoTooltip]",
+  "uk": "Завоювання [Location.Custom('LR_GEN')|l] [Location.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.210.a": {
+  "en": "Dire news, indeed.",
+  "uk": "Жахливі вісті."
+ },
+ "rise_of_the_ottomans.210.desc": {
+  "en": "After months of battles and a prolonged defense on behalf of the guard in [target_location.GetName], we have received the regrettable news that the fort has fallen to [target_country.GetAdjective] hands. This is a terrible development as our power across [ShowRegionName('anatolia_region')] wanes, the voices that sing our demise grow louder...",
+  "uk": "Після кількох місяців битв і оборони варта [target_location.Custom('LR_GEN')|l] [target_location.GetName] з прискорбністю повідомила нам, що фортеця перейшла до #L [target_country.GetAdjective|l]их#! рук. Хмари згущуються. Наш вплив в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! слабшає, і голоси, що віщують нашу швидку загибель, лунають дедалі голосніше…"
+ },
+ "rise_of_the_ottomans.210.title": {
+  "en": "Fall of [target_location.GetNameWithNoTooltip]",
+  "uk": "Падіння [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.211.a": {
+  "en": "We will rise!",
+  "uk": "На нас чекає велике майбутнє!"
+ },
+ "rise_of_the_ottomans.211.desc": {
+  "en": "After a prolonged fight across the bridges, gates, and the surrounding area of the fort in [target_location.GetName], our soldiers have finally managed to break into the keep and secure one of the last [target_country.GetAdjective] footholds in the region. This is the latest indication that our influence and strength have come to overshadow [target_country.GetNameWithNoTooltip]!",
+  "uk": "Після тривалого бою за мости, ворота й околиці фортеці в [target_location.Custom('LR_PREP')|l] [target_location.GetName] нашим солдатам нарешті вдалося вдертися до неї і захопити один з останніх #L [target_country.GetAdjective|l]их#! плацдармів у регіоні. Тепер усі знають, що за силою та впливом ми значно перевершуємо [target_country.Custom('CL_ACC')]."
+ },
+ "rise_of_the_ottomans.212.a": {
+  "en": "We are the arbiters of stability and peace.",
+  "uk": "Ми несемо мир і стабільність."
+ },
+ "rise_of_the_ottomans.212.b": {
+  "en": "Let us not be hasty.",
+  "uk": "Не будемо поспішати."
+ },
+ "rise_of_the_ottomans.212.desc": {
+  "en": "Years of mismanagement at the expense of the people, [target_character2.GetName] has led [target_country.GetName] into a period of instability and uncertainty. Peasants across the countryside fall victims to marauding bandits, the courts are in disorder, and central authority is nowhere to be found. Fortunately, [target_character.GetName], a member of our court, holds a valid claim to the [target_country.GetAdjectiveWithNoTooltip] throne, through which we can restore peace and prosperity to their people...",
+  "uk": "[target_character2.GetName] — [Select_CString(target_character2.IsFemale,'бездарна правителька', 'бездарний правитель')], [Select_CString(target_character2.IsFemale,'що не дбає', 'що не дбає')] про благо свого народу, — [Select_CString(target_character2.IsFemale,'ввергла', 'вверг')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! у стан невизначеності. Селяни то й діло стають жертвами розбійників, у судах панує безлад, а центральна влада ніяк не проявляє себе. На щастя, [Select_CString(target_character.IsFemale,'придворна', 'придворний')] [target_character.GetName] має право претендувати на [target_country.GetAdjectiveWithNoTooltip|l]ий трон. [Select_CString(target_character.IsFemale,'Її', 'Його')] правління принесе мир і процвітання…"
+ },
+ "rise_of_the_ottomans.212.entry": {
+  "en": "Intervention in Target Country",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.212.title": {
+  "en": "Intervention in [target_country.GetNameWithNoTooltip]",
+  "uk": "Втручання у справи [Country.Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.213.a": {
+  "en": "The wealth of [ShowRegionNameWithNoTooltip('anatolia_region')], in the palm of our hand?",
+  "uk": "Багатства Анатолії в нас на долоні?"
+ },
+ "rise_of_the_ottomans.213.desc": {
+  "en": "The ancient road connecting [ShowLocationName('konya')], [ShowLocationName('erzurum')], [ShowLocationName('sivas')], and [ShowLocationName('tabriz')] has long been a lifeline for trade and dominance across [ShowRegionName('anatolia_region')]. Stretching through rugged terrain and fertile plains alike, this trunk road has facilitated the flow of goods, ideas, and armies for centuries. Its strategic importance cannot be overstated, as our advisors urge us to control all vital points across it.\\n\\nAs caravans laden with many goods and other treasures traverse this route, the road continues to bind the region together, shaping the destiny of empires. While the previous century saw the construction of key infrastructure across the road's eastern part, the expansion of the road network will only serve to cultivate the wealth of our people, once it lays firmly within our grasp.",
+  "uk": "Давня дорога, що з'єднує #TOOLTIP:LOCATION,konya_tt,X #L Конью#!#!, #TOOLTIP:LOCATION,sivas_tt,X #L Сівас#!#!, #TOOLTIP:LOCATION,erzurum_tt,X #L Ерзурум#!#! і #TOOLTIP:LOCATION,tabriz_tt,X #L Табріз#!#!, споконвіку була основою торгівлі та влади в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. По цьому тракту, що перетинає суворі пустелі та родючі рівнини, ходили торговці, книжники та воїни. Його стратегічну важливість неможливо переоцінити, тому радники наполегливо рекомендують нам захопити всі його ключові точки.\\n\\nПоки по цьому шляху ходять каравани, навантажені товарами та скарбами, він продовжує зв'язувати регіон і визначати долі імперій. Минулого століття було створено інфраструктуру в його східній частині, а тепер, узявши його під контроль, ми будемо розвивати дорожню мережу й в інших регіонах, сприяючи процвітанню нашого народу."
+ },
+ "rise_of_the_ottomans.213.historical_info": {
+  "en": "The Anatolian trunk road, linking Konya, Erzurum, Sivas, and Tabrīz in the 13th-14th centuries, was a vital trade and military route across Anatolia. It facilitated the exchange of goods like tea and carpets and played a key role in Sultan Kaykhusraw II's 1243 campaign, culminating in the Battle of Köse Dağ. The construction of the Çobandede Bridge near Erzurum in 1289 further enhanced its importance, solidifying Erzurum as a hub of commerce and logistics. This road connected empires, cultures, and economies, leaving a lasting legacy in Anatolia's history.",
+  "uk": "Анатолійський колісний шлях, що з'єднував Конью, Ерзурум, Сівас і Табріз у XIII–XIV століттях, був найважливішим торговим і військовим маршрутом регіону. По ньому возили такі товари, як чай і килими, а в 1243 році він відіграв ключову роль у поході султана Кейхюсрева II, що завершився битвою при Кьосе-дазі. Після того, як у 1289 році поблизу Ерзурума був збудований міст Чобан-деде, це місто перетворилося на великий центр торгівлі та постачання. Ця дорога, що з'єднувала імперії, культури та економіки, назавжди залишила слід в історії Анатолії."
+ },
+ "rise_of_the_ottomans.213.title": {
+  "en": "The Trunk Road to [ShowLocationNameWithNoTooltip('erzurum')]",
+  "uk": "Колісний шлях до Ерзурума"
+ },
+ "rise_of_the_ottomans.214.a": {
+  "en": "They shall be ours.",
+  "uk": "Вони будуть нашими."
+ },
+ "rise_of_the_ottomans.214.desc": {
+  "en": "[ShowLocationName('konya')] and [ShowLocationName('sivas')] are each home to a vital [ShowBuildingTypeName('seljuk_mint')]. A great symbol of wealth and power, their workshops humming with the rhythmic strikes of hammers shaping valuable ore into coins that flow across the region. The iconic lion and sun motif adorning these coins speaks of strength, sovereignty, and the celestial forces believed to guide rulers and their realms. Strategically placed at the heart of [ShowRegionName('anatolia_region')], these mints are more than mere places of commerce — they are tools of control, their currency binding distant provinces to the will of those who command them. To hold these mints is to wield economic dominance, fund armies, and project authority, making them a cornerstone of any ambition to rule the region.",
+  "uk": "#TOOLTIP:LOCATION,konya_tt,X #L Конья#!#! і #TOOLTIP:LOCATION,sivas_tt,X #L Сівас#!#! вирізняються тим, що в кожному з цих міст є [ShowBuildingTypeName('seljuk_mint')] — важливий символ багатства та влади. Під ритмічний стукіт молотків руда цінних металів перетворюється тут на монети, що ходять по всьому регіону. Ці монети прикрашені зображеннями лева та сонця, що символізують міць, незалежність і небесні сили, які спрямовують владарів та їхніх підданих. Стратегічно розташовані в самому центрі #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, ці монетні двори важливі не лише для торгівлі. Це справжні інструменти влади, що підкоряють віддалені провінції волі свого господаря. Контроль над ними, що дає змогу впливати на економіку, фінансувати армії та втілювати в життя масштабні проєкти, життєво важливий для кожного, хто має намір правити цим регіоном."
+ },
+ "rise_of_the_ottomans.214.historical_info": {
+  "en": "The mints of Sivas and Konya were centers of economic and artistic innovation, producing striking silver dirhams adorned with a lion and sun motif. While Islamic traditions often discouraged depictions of living beings, these coins reflected a blend of cultural influences and political symbolism. The lion and sun may have represented celestial connections, such as the constellation Leo, or symbolized the union of a powerful ruler and his consort. Beyond their artistic value, these coins were tools of economic control, circulating widely to reinforce the authority of the Seljuk Sultanate. The mints not only fueled trade but also projected power, making them vital to the region's prosperity and stability.",
+  "uk": "Монетні двори в Сівасі та Коньї були центрами економічної та творчої думки. Тут карбували вражаючі срібні дірхами із зображенням лева та сонця. Хоча мусульманські традиції не схвалювали зображення живих істот, у цих монетах відображалися культурний вплив і політичні символи. Лев і сонце зображали зв'язок з небом, сузір'я Лева або символізували союз могутнього правителя та його наложниці. Крім своєї художньої цінності ці монети були інструментом економічного контролю: вони циркулювали по всій державі та нагадували підданим про владу Сельджуцького султанату. Ці монетні двори не лише живили торгівлю, а й допомагали поширювати владу, що робило їх важливим джерелом процвітання та стабільності в регіоні."
+ },
+ "rise_of_the_ottomans.214.title": {
+  "en": "Mints of the Old Sultanate",
+  "uk": "Монетні двори старого султанату"
+ },
+ "rise_of_the_ottomans.215.a": {
+  "en": "We will welcome them with open arms!",
+  "uk": "Ми приймемо їх з розпростертими обіймами!"
+ },
+ "rise_of_the_ottomans.215.desc": {
+  "en": "With much of [ShowRegionName('anatolia_region')] now under our rule, the land still bears the imprint of its [GetCountry('BYZ').GetAdjective] past, with many key coastal locations remaining predominantly [ShowCultureName('greek_culture')] in culture. Yet, the tides of change are relentless. The decline of the Seljuk Sultanate and the aftermath of [ShowCultureGroupName('mongolian_group')] invasions have driven waves of [ShowCultureGroupName('turkic_group')] migrants westward, seeking new lands and opportunities. These settlers will look to our great [ROOT.GetCountry.GetFlavorRank] for protection and leadership.\\n\\nSeeing an opportunity to reshape the region, we should encourage these migrations, repopulating the coasts of [ShowRegionNameWithNoTooltip('anatolia_region')] and securing our rule over these lands. With each new settlement, the fabric of the region shifts, transforming it into the heartland of our growing [ROOT.GetCountry.GetFlavorRank]. This [ShowCultureGroupNameWithNoTooltip('turkic_group')] presence strengthens our military and administration, ensuring that the foundations of our state rest firmly upon a loyal people that share our roots.",
+  "uk": "Хоча більша частина #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! тепер перебуває під нашим контролем, ця земля все ще пам'ятає своє [GetCountry('BYZ').GetAdjective|l]е минуле, і в багатьох важливих прибережних областях досі переважає [ShowCultureName('greek_culture')|l]а культура. Але зміни вже не зупинити. Занепад Сельджуцького султанату та нескінченні #TOOLTIP:CULTUREGROUP,mongolian_group,X #L монгольські#!#! навали змусили величезні маси #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркських#!#! поселенців покинути домівки та вирушити на захід у пошуках нових земель і кращої долі. Вони чекають від нашої славної держави захисту та керівництва.\\n\\nЦе чудова можливість для нас змінити обличчя регіону, тому нам потрібно залучати переселенців, селити їх біля берегів #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! та їхніми силами зміцнювати там свою владу. З кожним новим поселенням регіон змінюватиметься, і з часом він стане серцем нашої зростаючої держави. Така тюркська присутність допоможе зміцнити нашу армію та адміністрацію і збудує для нашої держави міцний фундамент з вірних підданих зі спільними з нами коренями."
+ },
+ "rise_of_the_ottomans.215.historical_info": {
+  "en": "During the turn of the 14th century, significant Turkic migration into Ottoman lands occurred, largely driven by the Seljuk Empire's decline and the expansion of Ottoman power. As the Seljuk Sultanate of Rûm weakened following the Mongol invasions in the late 13th century, many Turkic tribes, particularly the Oghuz Turks, began migrating westward into Anatolia. These tribes sought new lands and opportunities, often settling in regions that would later become part of the Ottoman Empire.",
+  "uk": "На початку XIV століття на землі османів почали приходити великі маси переселенців, рухомі занепадом держави сельджуків і розширенням влади османів. Наприкінці XIII століття сельджуцький Рум почав слабшати внаслідок нападів монголів, і багато тюркських племен, зокрема тюрки-огузи, почали переміщуватися на захід, в Анатолію. Ці племена шукали нових земель і кращого життя і часто селилися на землях, які згодом увійшли до складу Османської імперії."
+ },
+ "rise_of_the_ottomans.215.title": {
+  "en": "The Great [ShowCultureGroupNameWithNoTooltip('turkic_group')] Migration",
+  "uk": "Велике тюркське переселення"
+ },
+ "rise_of_the_ottomans.216.a": {
+  "en": "We will welcome them with open arms!",
+  "uk": "Ми приймемо їх з розпростертими обіймами!"
+ },
+ "rise_of_the_ottomans.216.desc": {
+  "en": "Word has spread among the [target_culture.GetName] population of [target_province_origin.GetName] that a new opportunity awaits in [target_province_destination.GetName]. Religious leaders and local officials have begun encouraging families to make the journey, promising fertile lands, economic prosperity, and the chance to strengthen our cultural presence in the province. This migration, if it proceeds, could reshape the demographics of both provinces, further advancing our agenda and consolidating control over our lands.",
+  "uk": "Серед #L [target_culture.GetName|l]ого#! населення провінції [target_province_origin.GetName] поширюються чутки про те, що в провінції [target_province_destination.GetName] на них чекає нове життя. Релігійні лідери та місцеві чиновники почали умовляти сім'ї вирушити в дорогу, обіцяючи їм родючі землі, процвітання та можливість зміцнити присутність нашої культури в провінції. Таке переселення, якщо воно буде успішним, змінить склад обох провінцій і допоможе нам ще сильніше зміцнити контроль над нашими землями."
+ },
+ "rise_of_the_ottomans.216.title": {
+  "en": "[target_culture.GetNameWithNoTooltip] Migrants Flock to [target_province_destination.GetNameWithNoTooltip]",
+  "uk": "[target_culture.GetNameWithNoTooltip|U]і мігранти стікаються до провінції [target_province_destination.GetNameWithNoTooltip]"
+ },
+ "rise_of_the_ottomans.217.a": {
+  "en": "The [target_subject.GetLongNameWithNoTooltip] is in good hands.",
+  "uk": "[target_province.GetNameWithNoTooltip] у надійних руках."
+ },
+ "rise_of_the_ottomans.217.desc": {
+  "en": "To secure our frontier and protect the [ROOT.GetCountry.GetFlavorRank] from external threats, [target_character.GetName] has been appointed to oversee the [ShowSubjectTypeName('uc_bey')] of [target_subject.GetName]. Tasked with defending our border, [target_character.GetShortNameWithNoTooltip] will maintain a standing army, oversee the construction and upkeep of fortifications, and ensure the safety of our lands. This appointment marks a critical step in strengthening our defenses and asserting our authority in the region. May [target_character.GetSheHe] serve with vigilance and honor!",
+  "uk": "Для зміцнення наших кордонів і захисту [ROOT.GetCountry.Custom('CF_RP')|l] від зовнішніх загроз, [target_character.GetName] [Select_CString(reza_abbasi.IsFemale, 'була призначена намісницею', 'був призначений намісником' )] #TOOLTIP:SUBJECT_TYPE,uc_bey,X #L удж-бея#!#! [target_country.GetName]. Для цієї мети [Select_CString(target_character.IsFemale, 'вона', 'він' )] підтримуватиме тут регулярне військо, керуватиме будівництвом і утриманням укріплень та забезпечуватиме спокій наших земель. Це призначення стане важливим кроком у зміцненні нашої оборони та влади в регіоні. Хай [target_character.GetShortNameWithNoTooltip] служить нам з честю!"
+ },
+ "rise_of_the_ottomans.217.title": {
+  "en": "A New [ShowSubjectTypeNameWithNoTooltip('uc_bey')]",
+  "uk": "Новий удж-бей"
+ },
+ "rise_of_the_ottomans.218.b": {
+  "en": "We cannot risk their influence spreading!",
+  "uk": "Ми не можемо допустити зростання їхнього впливу!"
+ },
+ "rise_of_the_ottomans.218.desc": {
+  "en": "Our recent conquests across [ShowRegionName('anatolia_region')] have had a tremendous influence in shifting the balance of power across the entire region. Our latest campaigns has seen parts of the famed trunk road to [ShowLocationName('erzurum')], including an important hub of it, come under our direct jurisdiction. This development will surely consolidate our [ROOT.GetCountry.GetFlavorRank] as a great contender during the ongoing [ShowSituationName('rise_of_the_ottomans')] and hopefully safeguard our people from foreign conquest.\\n\\nAdditionally, our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] seem to push towards granting them control of these important trade hubs across the trunk road, which would improve our bottom-line at the expense of their growing influence. This is a delicate matter, and [target_character.GetName] may not want to risk angering the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] lest we risk instability and [target_character.GetHerHis] grip on power.",
+  "uk": "Наші нещодавні завоювання в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! рішуче змінили розстановку сил у всьому регіоні. Внаслідок наших останніх походів ми заволоділи контролем над частиною знаменитої дороги на [ShowLocationName('erzurum')] разом з розташованим на ній важливим торговим вузлом. Такий розвиток подій поза сумнівом ствердить наші позиції в ході #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L піднесення турків#!#! і, можливо, захистить наш народ від іноземних вторгнень.\\n\\nДодатково до цього наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] домагаються передачі їм влади над цими важливими торговими вузлами вздовж дороги, що забезпечить нам серйозний дохід ціною їхнього зрослого впливу. Це складне питання, і, можливо, [target_character.GetName] не ризикне накликати на себе гнів цього стану — інакше [Select_CString(target_character.IsFemale, 'її', 'його' )] влада може похитнутися."
+ },
+ "rise_of_the_ottomans.218.title": {
+  "en": "Our Mercantile Influence Grows in [ShowRegionNameWithNoTooltip('anatolia_region')]",
+  "uk": "В Анатолії зростає наш торговий вплив"
+ },
+ "rise_of_the_ottomans.3.a": {
+  "en": "This was for the best!",
+  "uk": "Воно й на краще!"
+ },
+ "rise_of_the_ottomans.3.desc": {
+  "en": "The dream of the remnant principalities in [ShowRegionName('anatolia_region')] was never achieved, as the first among them has now been delayed indefinitely after their expansion failed to match their ambition. Surely there will be no Empire that could ever fill their void...",
+  "uk": "Мрії про об'єднання всіх #TOOLTIP:REGION,anatolia_region,X #L анатолійських#!#! князівств не судилося збутися, оскільки наймогутніше з них не розрахувало свої сили і в осяжному майбутньому не зможе претендувати на панування. Навряд чи скоро з'явиться імперія, яка заповнить порожнечу, що утворилася…"
+ },
+ "rise_of_the_ottomans.3.title": {
+  "en": "The End of the Turks",
+  "uk": "Кінець турецького панування"
+ },
+ "rise_of_the_ottomans.300.a": {
+  "en": "They should be whipped into order!",
+  "uk": "Ми маємо відновити порядок!"
+ },
+ "rise_of_the_ottomans.300.desc": {
+  "en": "Despite the garrison's best efforts, it appears that our fortifications in [target_location.GetName] have decayed due to neglect and a lack of care. The locals have come to toy with their responsibilities of issuing patrols and wall inspections, leading to massive gaps in our defense. This is certainly a very concerning sight for the people of [target_location.GetNameWithNoTooltip] and the surrounding settlements...",
+  "uk": "Попри всі зусилля гарнізону, схоже, укріплення в [target_location.Custom('LR_PREP')|l] [target_location.GetName] прийшли в непридатність через безладність і недостатній догляд. Люди стали рідше патрулювати й оглядати стіни, тому в нашій обороні утворилися величезні прогалини. Безсумнівно, це викликає тривогу в мешканців [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] і найближчих поселень…"
+ },
+ "rise_of_the_ottomans.300.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Falls into Disrepair",
+  "uk": "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] занепадає"
+ },
+ "rise_of_the_ottomans.4.a": {
+  "en": "$common_string_what_can_we_do$",
+  "uk": ""
+ },
+ "rise_of_the_ottomans.4.desc": {
+  "en": "The dream of [target_character.GetName] has now been achieved, and the world trembles at the might of the [target_country.GetLongName]. Who will ever be able to stand against them?",
+  "uk": "[target_character.GetName] нарешті здійснює свою мрію. [target_country.GetLongName] у розквіті сил, увесь світ схиляється перед могутністю цієї держави. Навряд чи знайдеться сміливець, який наважиться виступити проти неї."
+ },
+ "rise_of_the_ottomans.4.title": {
+  "en": "The Rise of the [target_country.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.400.a": {
+  "en": "Our cannons will blot out the sun!",
+  "uk": "Снаряди наших гармат затьмарять сонце!"
+ },
+ "rise_of_the_ottomans.400.desc": {
+  "en": "Our dominance across [ShowRegionName('anatolia_region')] has come to be undisputed. Those who once attempted to overshadow our authority, tremble behind their walls.\\n\\nOur meteoric rise to power is often attributed to a divine will, however, our martial and tactical prowess cannot be neglected. Our advisors support the idea to expand our campaigns into the [ShowRegionName('balkan_region')], taking advantage of our current momentum.",
+  "uk": "Наше панування в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! незаперечне. Ті, хто колись намагався кинути нам виклик, нині боязко ховаються за своїми стінами.\\n\\nДехто пояснює нашу стрімко зростаючу міць божественним втручанням, однак не можна применшувати заслуги нашої доблесної армії. Радники вважають, що поки в нас є сили та можливості, потрібно провести військові походи на #TOOLTIP:REGION,balkan_region,X #L Балкани#!#!."
+ },
+ "rise_of_the_ottomans.400.title": {
+  "en": "The Balkan Wars",
+  "uk": "Балканські війни"
+ },
+ "rise_of_the_ottomans.5.a": {
+  "en": "This will last forever!",
+  "uk": "Наша імперія стоятиме вічно!"
+ },
+ "rise_of_the_ottomans.5.desc": {
+  "en": "We have reached even beyond the wildest ambitions and dreams of the founding father of our dynasty. Where can we go from here?",
+  "uk": "Ми досягли такої величі, про яку засновник нашої династії й помислити не міг. Куди ж нам рухатися далі?"
+ },
+ "rise_of_the_ottomans.5.title": {
+  "en": "The Rise of the Turks",
+  "uk": "Піднесення турків"
+ },
+ "rise_of_the_ottomans.500.a": {
+  "en": "A regretful turn of events.",
+  "uk": "Сумний поворот."
+ },
+ "rise_of_the_ottomans.500.desc": {
+  "en": "Political intrigue and diplomatic plays have failed to bridge the gap between out outward ambitions and our dreams of conquest. After decades of territorial stagnation, the once fearsome march of the armies of [ShowRegionName('anatolia_region')] has grinded to a halt. Through the combination of foreign interference, the might of our foes has extinguished what was once a bright flame, our rightful seat among the great powers.\\n\\nThe reality of our situation places us in a precarious position. Our failed attempt to ascend now opens the door for instability under the ever-watchful eye of our rivals. Only time will tell if we are meant to survive or become a footnote in the books of history.",
+  "uk": "Політичних інтриг і дипломатичних ігор виявилося недостатньо, щоб мрії про завоювання та розширення кордонів стали явою. Ми вперлися в межу своїх сил, і після десятиліть застою хода колись грізних військ #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! завмерла. Кордони наші залишилися незмінними. Чужоземці виявилися сильнішими — вони змогли погасити той вогонь, що колись палав усередині нас, і тепер мало хто вже скаже, що ми заслуговуємо вважати себе великою державою.\\n\\nСтановище наше хитке. Зрив усіх задумів не залишився непоміченим — пильні вороги обов'язково спробують розхитати нашу державу. Лише час покаже, чи зможемо ми пережити ці часи, чи ж нам відведена роль виноски на полях підручника історії."
+ },
+ "rise_of_the_ottomans.500.title": {
+  "en": "Stagnation of the Turks",
+  "uk": "Турецький застій"
+ },
+ "rise_of_the_ottomans.6.a": {
+  "en": "We will seize this opportunity!",
+  "uk": "Не можна втрачати такі можливості!"
+ },
+ "rise_of_the_ottomans.6.b": {
+  "en": "Let us bide our time...",
+  "uk": "Треба вичекати слушний момент…"
+ },
+ "rise_of_the_ottomans.6.desc": {
+  "en": "Our struggle to overcome the dangers of our neighbors has led to us attaining a strong position in internal and external affairs all across [ShowRegionName('anatolia_region')]. With our newfound influence, we will surely be able to force even our greatest foes to kneel!",
+  "uk": "Ми подолали безліч небезпек і загроз, що надходили від наших сусідів, і врешті-решт змогли значно зміцнити свій політичний і військовий вплив в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. Міць нашої держави не знає меж, ми здатні поставити на коліна навіть найгрізніших ворогів!"
+ },
+ "rise_of_the_ottomans.6.title": {
+  "en": "Rise of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Розквіт [target_country.Custom('CL_GEN')]"
+ },
+ "rise_of_the_ottomans.600.a": {
+  "en": "#italic We are the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of the lands and the seas, the shadow of [ROOT.GetCountry.GetReligion.GetGodName] on earth.#!",
+  "uk": "#italic Тепер ми — [ROOT.GetCountry.GetGovernment.GetRulerTitle] земель і морів, тінь Аллага на землі.#!"
+ },
+ "rise_of_the_ottomans.600.desc": {
+  "en": "The drums of conquest sound triumphant, and the banners of the [GetCountry('TUR').GetLongName] now stretch across the continents. From the ashes of [GetCountry('BYZ').GetName], through the humbled Beyliks of [ShowRegionName('anatolia_region')], and into the shattered strongholds of [ShowReligionGroupName('christian')], the might of our armies has reshaped the world. [target_character.GetName] now stands as the undisputed ruler of these vast lands, the defender of [ShowReligionGroupName('muslim')], and the guardian of the most sacred cities of our faith.\\n\\nWith the sword, we have conquered. With law, we shall rule. As the [ROOT.GetCountry.GetFlavorRank] transitions from the fires of expansion to the golden age of governance; scholars, architects, and statesmen gather in the great halls of [target_location.GetName], eager to craft a legacy that will stand for centuries. The time has come to refine our dominion — not merely as conquerors, but as the architects of an enduring legacy.",
+  "uk": "Урочисто гуркочуть військові барабани, і #L [GetCountry('TUR').GetAdjective|l]і#! прапори майорять по всьому континенту. Наші могутні армії розтрощили #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_VP')|L]#!#!, приборкали бейликів #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! та взяли штурмом фортеці #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!, змінивши своєю силою історію. [target_character.GetName] тепер — [Select_CString(target_character.IsFemale, 'незаперечна владарка', 'незаперечний владар' )] цих обширних земель, [Select_CString(target_character.IsFemale, 'захисниця', 'захисник' )] #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#! та [Select_CString(target_character.IsFemale, 'покровителька', 'покровитель' )] найсвятіших міст нашої віри.\\n\\nМечем ми підкорили ці землі. Правити ж ними будемо законом. [ROOT.GetCountry.GetFlavorRank] переходить від завоювань до золотої епохи управління: у великих залах [target_location.Custom('LR_RP')|l] [target_location.GetName] зберуться вчені, зодчі та сановники, які збудують нову державу на багато століть. Час поліпшити наше володіння — тепер ми не просто завойовники, а й будівничі багатовікового майбутнього."
+ },
+ "rise_of_the_ottomans.600.historical_info": {
+  "en": "The Ottoman Classical Era span approximately between 1453 and 1600. It marked the empire's peak in military, political, and cultural dominance. Under sultans like Mehmed II, Selim I, and Süleyman 'the Magnificent', the Ottomans expanded into Europe, the Middle East, and North Africa, defeating Byzantines, Mamluks, and Hungarians. Centralized governance, the #italic Kanunname#! legal system, and military innovations like the Janissaries solidified their rule. Istanbul flourished as an imperial capital, with grand mosques and cultural advancements. The empire controlled vital trade routes, dominated the Mediterranean, and claimed the Caliphate, asserting religious and political authority over the Islamic world.",
+  "uk": "Епоха розквіту Османської імперії тривала приблизно з 1453 по 1600 роки. У цей час держава досягла вершини свого військового, політичного та культурного могутності. За влади султанів Мехмеда II, Селіма I та Сулеймана Величного османи завоювали землі в Європі, на Близькому Сході та в Північній Африці, перемігши візантійців, мамлюків і угорців. Їхня могутність трималася на централізованій владі, зводі законів #italic Канун-наме#! та військових нововведеннях на кшталт яничарів. Стамбул став столицею імперії, містом грандіозних мечетей і культурного прогресу. Імперія контролювала важливі торгові шляхи, панувала на Середземному морі та стала халіфатом, релігійним і політичним лідером ісламського світу."
+ },
+ "rise_of_the_ottomans.600.title": {
+  "en": "Classical Era of the [ROOT.GetCountry.GetLongNameWithNoTooltip]",
+  "uk": "Класична епоха держави [ROOT.GetCountry.GetLongNameWithNoTooltip]"
+ },
+ "silver_dirhams_explanation_tt": {
+  "en": "Both [locations|e] are each home to a [ShowBuildingTypeName('seljuk_mint')] which greatly increases the value of these lands",
+  "uk": "У кожному з цих [Concept('locations','районів')|e] є [ShowBuildingTypeName('seljuk_mint')], що суттєво підвищує його цінність"
+ },
+ "target_province_destination_already_has_tt": {
+  "en": "Because [target_province_destination.GetName] already has the [ShowModifier('cultural_intermixing_modifier')] [modifier|e], its effects will double for the next #Y 2 Years",
+  "uk": "Оскільки в провінції [target_province_destination.GetName] вже діє [Concept('modifier', 'модифікатор')|e] «[ShowModifier('cultural_intermixing_modifier')]», його ефекти протягом наступних #Y 2 років#! діятимуть удвічі сильніше"
+ },
+ "tur_choose_reform_later_tt": {
+  "en": "The [government_reform|e] will be available for us to choose as long as we retain our primacy in the [ShowSituationName('rise_of_the_ottomans')] [situation|e]",
+  "uk": "[Concept('government_reform', 'Державний принцип')|e] буде доступний, поки ми зберігаємо лідерство під час [Concept('situation', 'ситуації')|e] «[ShowSituationName('rise_of_the_ottomans')]»"
+ },
+ "tur_press_claims_expanded_tt": {
+  "en": "As long as we directly own #Y 120#! [locations|e] in total and have presence in the [ShowRegionNameWithNoTooltip('balkan_region')], the [ShowGenericActionName('press_claims')] [action|e] in the [ShowSituationName('rise_of_the_ottomans')] [situation|e] will #italic also#! allow us to gain [casus_bellis|e] against [provinces|e] in the [ShowRegionNameWithNoTooltip('balkan_region')]",
+  "uk": "Поки ми напряму контролюємо #Y 120#! [Concept('locations', 'районів')|e] на Балканах і маємо там присутність, [Concept('action', 'дія')|e] #TOOLTIP:GENERIC_ACTION,press_claims,X #L «Нав'язування претензій»#!#! під час [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Піднесення турків»#!#! #italic також#! дозволяє нам формулювати [Concept('casus_bellis', 'приводи для війни')|e] проти будь-якої [Concept('provinces', 'провінції')|e] в цьому регіоні"
+ },
+ "uc_bey_spawns_tt": {
+  "en": "The [target_country.GetLongName] will protect our border in [target_province.GetName]",
+  "uk": "[target_country.GetLongName] захищатиме наші кордони в провінції [target_province.GetName]"
+ },
+ "we_are_now_empire_tt": {
+  "en": "We will adopt the [country_rank|e] of [ShowCountryRankName('rank_empire')]",
+  "uk": "Ми приймаємо [Concept('country_rank','ранг держави')|e] #TOOLTIP:COUNTRY_RANK,rank_empire,X #L імперії#!#!"
+ }
+}

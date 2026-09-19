@@ -1,0 +1,826 @@
+{
+ "STATIC_MODIFIER_DESC_meissen_groschen": {
+  "en": "The new coin improves the economy of [GetCountry('MEI').GetName] facilitating transactions and smoothening the transfer of capital.",
+  "uk": "Нова монета зміцнює економіку #ONCLICK:COUNTRY,[GetCountry('MEI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('MEI').Custom('CL_tt')],X [GetCountry('MEI').Custom('CL_GEN')|L]#!#!, спрощуючи угоди та переказ капіталу."
+ },
+ "STATIC_MODIFIER_NAME_freiberger_berggeschrey": {
+  "en": "Freiberger Berggeschrey",
+  "uk": "Фрайберзька срібна лихоманка"
+ },
+ "STATIC_MODIFIER_NAME_meissen_groschen": {
+  "en": "Meißner Groschen",
+  "uk": "Майсенський грош"
+ },
+ "flavor_mei.1.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_mei.1.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_mei.1.a.tt": {
+  "en": "Every [location|e] with a mining [raw_material|e] gains [ShowModifier('freiberger_berggeschrey')].",
+  "uk": "Кожен [Concept('location', 'район')|e], де видобуваються копалини [Concept('raw_material', 'ресурси')|e], отримує модифікатор «[ShowModifier('freiberger_berggeschrey')]»."
+ },
+ "flavor_mei.1.desc": {
+  "en": "New-found deposists of [ShowGoodsName('silver')] have trigger a sheer storm of people moving into the area around [ShowLocationName('freiberg')], trying to profit from the booming mining industry in the [ShowProvinceDefinitionName('erzgebirge_province')]. This increase in interest for our mining towns can only be to our benefit.",
+  "uk": "Нещодавно виявлені #TOOLTIP:GOODS,silver,X #L срібні#!#! родовища викликали справжній ажіотаж — натовпи людей вирушили до #TOOLTIP:LOCATION,freiberg_tt,X #L Фрайберга#!#!, сподіваючись розбагатіти завдяки гірничодобувній промисловості, що стрімко розвивається в #TOOLTIP:PROVINCE_DEFINITION,erzgebirge_province,X #L Рудних горах#!#!. Цей сплеск інтересу до шахтарських міст обіцяє нам неабияку вигоду."
+ },
+ "flavor_mei.1.entry": {
+  "en": "Second Freiberger Berggeschrey",
+  "uk": ""
+ },
+ "flavor_mei.1.title": {
+  "en": "Silver Rush in [ShowLocationNameWithNoTooltip('freiberg')]",
+  "uk": "Срібна лихоманка у Фрайберзі"
+ },
+ "flavor_mei.10.a": {
+  "en": "Bring [target_character.GetHerHim] to the court.",
+  "uk": "Наблизити [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+ },
+ "flavor_mei.10.b": {
+  "en": "We do not need [target_character.GetHerHim].",
+  "uk": "Ми не потребуємо [Select_CString(target_character.IsFemale,'її', 'його')] послуг."
+ },
+ "flavor_mei.10.desc": {
+  "en": "[target_character.GetName], a virtuous composer from [ShowLocationName('eisenach')] and now living in [ShowLocationName('leipzig')] has been heard complaining about the high costs of living in [ShowLocationNameWithNoTooltip('leipzig')] and the low salary [target_character.GetSheHe] is receiving as #italic Thomaskantor#!. [target_character.GetSheHe|U] has also shown [target_character.GetHerHis] desire to be a court musician in our capital.",
+  "uk": "[target_character.GetName] — віртуозний композитор з #TOOLTIP:LOCATION,eisenach_tt,X #L Айзенаха#!#!, який нині [Select_CString(target_character.IsFemale,'мешкає', 'мешкає')] в #TOOLTIP:LOCATION,leipzig_tt,X #L Лейпцизі#!#!, скаржиться на низьку оплату праці #italic томаскантора#! — [Select_CString(target_character.IsFemale,'керівниці', 'керівника')] відомого хору хлопчиків. [Select_CString(target_character.IsFemale,'Вона', 'Він')] також висловлює бажання вирушити до столиці й стати придворним музикантом."
+ },
+ "flavor_mei.10.entry": {
+  "en": "Johann Sebastian Bach",
+  "uk": ""
+ },
+ "flavor_mei.10.historical_info": {
+  "en": "Johann Sebastian Bach was a composer of the Baroque era and the most celebrated member of a large family of northern German musicians. Although he was admired by his contemporaries primarily as an outstanding harpsichordist, organist, and expert on organ building, Bach is now generally regarded as one of the greatest composers of all time.",
+  "uk": "Йоганн Себастьян Бах був композитором епохи бароко та найвідомішим представником родини музикантів із Північної Німеччини. Хоча сучасники запам'ятали його переважно як видатного клавесиніста, органіста й експерта з органів, нині його вважають одним із найвеличніших композиторів усіх часів."
+ },
+ "flavor_mei.10.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.100.a": {
+  "en": "We will help with the project.",
+  "uk": "Ми допоможемо городянам."
+ },
+ "flavor_mei.100.b": {
+  "en": "Their building, their expense.",
+  "uk": "Це їхня справа."
+ },
+ "flavor_mei.100.desc": {
+  "en": "The city council of [ShowLocationName('leipzig')] is coming to us asking for help in renovating their Old Town Hall. In the XIVth Century, our ancestors funded the creation of a building where the representatives of the city could gather and administer it.\\n\\n200 years have passed since that project was erected in the southern part of the central market of [ShowLocationNameWithNoTooltip('leipzig')] and the building feels too small to fulfill the needs of the council.\\n\\nA new design, built in Saxon Renaissance style, has been presented to us along an invitation to take part in the financing of the building. Should we bring money to the table, we would be participating in the construction of one of the most impressive town halls in our nation.",
+  "uk": "Члени міської ради #TOOLTIP:LOCATION,leipzig_tt,X #L Лейпцига#!#! звернулися до нас по допомогу в модернізації Старої ратуші. У XIV столітті наші предки профінансували будівництво будівлі для міської адміністрації.\\n\\nВідтоді, як її було зведено в південній частині центрального ринку Лейпцига, минуло 200 років. На жаль, Стара ратуша надто мала й не відповідає потребам сучасної ради.\\n\\nНам запропонували вкласти кошти в новий проєкт, виконаний у стилі саксонського Відродження. Якщо ми погодимося, то візьмемо участь у будівництві, мабуть, найвражаючої ратуші в усій державі."
+ },
+ "flavor_mei.100.entry": {
+  "en": "$flavor_mei.100.title$",
+  "uk": ""
+ },
+ "flavor_mei.100.historical_info": {
+  "en": "The Old Town Hall of Leipzig, located in the heart of the city, is a historic and picturesque building that dates back to the 16th century. Its stunning Renaissance architecture features an impressive facade adorned with intricate sculptures and decorations. The Town Hall served as a center of political and administrative activities, and its beautiful tower offers panoramic views of the city. Today, it stands as a symbol of Leipzig's rich history and cultural heritage.",
+  "uk": "Стара ратуша, розташована в самому серці Лейпцига, — це прекрасний зразок ренесансної архітектури, збудований у XVI столітті. Її вражаючий фасад прикрашений вигадливими скульптурами та декоративними елементами. Ратуша була домом для міської ради, а з її дивовижної вежі відкривається панорамний вид на Лейпциг. Нині вона є символом багатої історії та культурної спадщини міста."
+ },
+ "flavor_mei.100.title": {
+  "en": "A New Town Hall in Leipzig",
+  "uk": "Нова ратуша в Лейпцизі"
+ },
+ "flavor_mei.1000.a": {
+  "en": "We must press our claims.",
+  "uk": "Ми негайно заявимо свої претензії!"
+ },
+ "flavor_mei.1000.a.tt": {
+  "en": "Our open hostility might push [target_country.GetName] to seek foreign support.",
+  "uk": "Побачивши нашу відкриту ворожість, влада #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! може почати пошук союзників."
+ },
+ "flavor_mei.1000.b": {
+  "en": "This is no time for war.",
+  "uk": "Зараз не час для війни."
+ },
+ "flavor_mei.1000.desc": {
+  "en": "Ever since our house claimed the throne of [GetCountry('THU').GetName] from the Ludovingians, tensions have simmered between us and the lesser lords of the region. We have long sought to bring the entirety of [GetCountry('THU').GetNameWithNoTooltip] under the suzerainty of the [ShowDynastyName('wettin_dynasty')] dynasty, and local counts have fiercely opposed us in this ambition. Perhaps, the time has come to finally start working on achieving this ambition, and claiming [target_country.GetName] seems as the perfect stepping stone.",
+  "uk": "Відтоді як наш дім заволодів #L [GetCountry('THU').GetAdjective|l]ий#! трон Людовінгів, у регіоні тліє напруженість між нами та дрібними лордами. Ми давно прагнули об'єднати [GetCountry('THU').Custom('CL_ACC')] під владою династії #TOOLTIP:DYNASTY,wettin_dynasty_tt,X #L Веттінів#!#!, і місцеві графи люто протистояли цьому нашому прагненню. Можливо, настав час нарешті почати працювати над досягненням цієї мети, і завоювання #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! видається ідеальним першим кроком."
+ },
+ "flavor_mei.1000.entry": {
+  "en": "$flavor_mei.1000.title$",
+  "uk": ""
+ },
+ "flavor_mei.1000.historical_info": {
+  "en": "In 1247, the Ludovingian dynasty of Thuringia became extinct and the throne was claimed by Henry of Meissen, a member of the Wettin dynasty. Ever since the Wettin takeover, they have been attempting to unite the region under the suzerainty of their dynasty, but this alienated other princes of the region. In 1342, local houses assembled in the town of Arnstadt and forged an alliance that was meant to counter the Wettins. The conflict between the two opposing groups resulted in the Thuringian Counts' War, which alhough initially successful in resisting the Wettins, ended with their victory and strengthened grip over the region.",
+  "uk": "У 1247 році династія Людовінгів у Тюрингії обірвалася, і трон заволодів Генріх Майсенський із династії Веттінів. З моменту цього захоплення влади Веттіни намагалися об'єднати регіон під своїм правлінням, але це відштовхнуло інших князів регіону. У 1342 році місцеві династії зібралися в місті Арнштадт і уклали союз, покликаний протистояти Веттінам. Конфлікт між двома протиборчими групами вилився в Тюрингську графську війну. Спочатку графи успішно чинили опір, але врешті-решт війна закінчилася перемогою Веттінів і зміцненням їхньої влади над регіоном."
+ },
+ "flavor_mei.1000.title": {
+  "en": "A Brewing Storm",
+  "uk": "Насувається буря"
+ },
+ "flavor_mei.1001.a": {
+  "en": "We must act swiftly.",
+  "uk": "Треба діяти швидко."
+ },
+ "flavor_mei.1001.a.tt": {
+  "en": "Our effort to form alliances against [root_country.GetName] might result in a pre-emptive war.",
+  "uk": "Наші спроби укласти союз, спрямований проти #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#!, можуть вилитися в превентивну війну."
+ },
+ "flavor_mei.1001.b": {
+  "en": "There is nothing we can do.",
+  "uk": "Нічого не вдієш."
+ },
+ "flavor_mei.1001.b.entry": {
+  "en": "$common_string_nothing_we_can_do_about_it$",
+  "uk": ""
+ },
+ "flavor_mei.1001.desc": {
+  "en": "Ever since the [ShowDynastyName('wettin_dynasty')] dynasty secured [GetCountry('THU').GetName], tensions have simmered between them and the lesser lords of the region. [root_country.GetName] has recently openly declared their ambition to unite the region under their rule, and rumours are spreading that we might be one of their first targets. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] has assembled and is pressuring the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] to take an action before it is too late. They suggest sending envoys to neighboring countries and offer them alliance to counter the threat posed by [GetCountry('THU').GetNameWithNoTooltip].",
+  "uk": "Відтоді як династія #TOOLTIP:DYNASTY,wettin_dynasty_tt,X #L Веттінів#!#! закріпилася на території #ONCLICK:COUNTRY,[GetCountry('THU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('THU').Custom('CL_tt')],X [GetCountry('THU').Custom('CL_GEN')|L]#!#!, у регіоні тліє напруженість між ними та дрібними лордами. Правителі #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#! нещодавно відкрито заявили про прагнення об'єднати регіон під своєю владою, і ходять чутки, що ми можемо стати однією з їхніх перших цілей. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] наполягає, щоб [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] вжили заходів, поки не стало надто пізно. Вони радять відправити послів до сусідніх держав і запропонувати їм союз для протидії загрозі з боку [GetCountry('THU').Custom('CL_GEN')]."
+ },
+ "flavor_mei.1001.title": {
+  "en": "The [ShowDynastyNameWithNoTooltip('wettin_dynasty')] Threat",
+  "uk": "Загроза Веттінів"
+ },
+ "flavor_mei.1002.a": {
+  "en": "A wise offer.",
+  "uk": "Мудра пропозиція."
+ },
+ "flavor_mei.1002.b": {
+  "en": "We cannot forge alliances based on rumors.",
+  "uk": "Ми не можемо укладати союзи, спираючись на чутки."
+ },
+ "flavor_mei.1002.desc": {
+  "en": "An envoy from [target_country.GetName] has arrived at the [ROOT.GetCountry.GetGovernment.GetCourtTitle], speaking of an immense threat posed by the ambitions of the [ShowDynastyName('wettin_dynasty')] dynasty, who seek to unite the entire region under their rule, threatening both the independence of [target_country.GetNameWithNoTooltip] as well as [ROOT.GetCountry.GetName]. They offer an alliance that should deter them from attacking either of us.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] повідомляє про прибуття посла з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, який приніс вісті про величезну загрозу, що походить від династії Веттінів та їхніх амбіцій: вони, нібито, прагнуть об'єднати весь регіон під своєю владою, загрожуючи незалежності як [target_country.Custom('CL_GEN')], так і #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Нам пропонують укласти союз, який утримає їх від нападу на одну з наших держав."
+ },
+ "flavor_mei.1002.title": {
+  "en": "The [ShowDynastyNameWithNoTooltip('wettin_dynasty')] Threat",
+  "uk": "Загроза Веттінів"
+ },
+ "flavor_mei.1003.a": {
+  "en": "We must act quickly.",
+  "uk": "Треба діяти швидко."
+ },
+ "flavor_mei.1003.b": {
+  "en": "The opposition is too strong.",
+  "uk": "Противник надто сильний."
+ },
+ "flavor_mei.1003.desc": {
+  "en": "Dire news have reached the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. The lesser lords of the region are being rallied behind [target_country.GetName] in an effort to form a coalition to stop our plans of regional unification. Though some suggest that we best abandon our plans, others push the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] to strike before [target_country.GetNameWithNoTooltip] manages to rally all the lords behind their cause.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] отримує тривожні вісті. Влада #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! підбурює дрібних лордів регіону створити коаліцію, щоб завадити нашим планам з об'єднання регіону. Хоча дехто вважає, що нам краще відмовитися від цих планів, інші впевнені, що [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] навпаки мають завдати удару якнайшвидше, поки всі лорди не об'єдналися під прапорами [target_country.Custom('CL_GEN')]."
+ },
+ "flavor_mei.1003.historical_info": {
+  "en": "Following the 1342 signing of the pact in Arnstadt, the lesser lords of the region fought a war against the Wettins, in which they sought to challenge their ambitions of regional domination. Although initially successful, the Wettins employed a strategy of brokering separate peace treaties, taking the minor lords out of the war one by one. In the end, the Wettins managed to turn their lands into their fiefs, effectively turning them into vassals and achieving their goals of regional unification under the Wettin dynasty.",
+  "uk": "Після підписання пакту в 1342 році в Арнштадті дрібні лорди регіону повели війну проти Веттінів, у якій вони прагнули завадити втіленню їхніх амбіцій про регіональне панування. Хоча спочатку їм щастило, Веттіни використали стратегію сепаратних мирних договорів, виводячи дрібних лордів із війни одного за одним. Зрештою Веттінам вдалося перетворити їхні землі на свої феоди, фактично зробивши їх васалами й досягнувши своєї мети: об'єднання регіону під владою династії Веттінів."
+ },
+ "flavor_mei.1003.title": {
+  "en": "Thuringian Counts' War",
+  "uk": "Тюрингська графська війна"
+ },
+ "flavor_mei.1004.a": {
+  "en": "The best defense is offense.",
+  "uk": "Найкращий захист — це напад."
+ },
+ "flavor_mei.1004.b": {
+  "en": "We have already secured our safety.",
+  "uk": "Ми вже забезпечили свою безпеку."
+ },
+ "flavor_mei.1004.desc": {
+  "en": "Though it would seem that our diplomatic efforts have been successful in preventing [target_country.GetName] from fulfilling their ambitions of regional unification, many within the [ROOT.GetCountry.GetGovernment.GetCourtTitle] believe that this is not enough. They suggest that we should utilize our allies to pacify the [ShowDynastyName('wettin_dynasty')] dynasty and make them abandon their ambition once for all.",
+  "uk": "Хоча наші дипломатичні зусилля, судячи з усього, увінчалися успіхом і не дозволили #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! здійснити їхні амбіції з об'єднання регіону, багато хто при дворі вважає, що цього недостатньо. Вони пропонують використати наших союзників, щоб приборкати династію #TOOLTIP:DYNASTY,wettin_dynasty_tt,X #L Веттінів#!#! і змусити їх раз і назавжди відмовитися від своїх претензій."
+ },
+ "flavor_mei.1004.title": {
+  "en": "Thuringian Counts' War",
+  "uk": "Тюрингська графська війна"
+ },
+ "flavor_mei.110.a": {
+  "en": "For the glory!",
+  "uk": "Приголомшлива ідея!"
+ },
+ "flavor_mei.110.b": {
+  "en": "Another palace?",
+  "uk": "Ще один палац?"
+ },
+ "flavor_mei.110.desc": {
+  "en": "After observing the magnificence of the palaces that some rulers across the continent have built, our ruler [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has toyed with the idea of starting [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] own project.\\n\\nWith some indications from our [ROOT.GetCountry.GetGovernment.GetRulerTitle], the court architect has presented an ambitious plan to create a grand palace and garden complex with interiors that would serve as exhibition galleries and library halls. Our ruler is excited but some wonder if we should spend the money in this huge project.",
+  "uk": "Надивившись на чудові палаци, зведені іншими правителями, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'наша володарка', 'наш володар' )] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'вирішила', 'вирішив' )] створити щось подібне.\\n\\n[ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'поділилася', 'поділився' )] своїми планами з придворним архітектором, і той невдовзі представив амбітний план палацового комплексу з розкішними садами, виставковими галереями та бібліотечними залами. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'Наша правителька', 'Наш правитель' )] в повному захваті, але такий грандіозний проєкт потребує серйозних вкладень. Як ми вчинимо?"
+ },
+ "flavor_mei.110.entry": {
+  "en": "$flavor_mei.110.title$",
+  "uk": ""
+ },
+ "flavor_mei.110.historical_info": {
+  "en": "The Zwinger, a palatial complex with gardens in Dresden, Germany, stands as a crowning achievement of the Baroque period. Designed by architect Matthäus Daniel Pöppelmann, it shares renown with the iconic Frauenkirche as one of Dresden's most celebrated architectural monuments. Originally serving as an orangery, garden, and festive gathering spot during Augustus the Strong's rule, the Zwinger's grand pavilions, galleries adorned with sculptures, and ornate vases show the opulence from that era.\\n\\nWhile initially conceived as the forecourt for a new castle that was never realized, the Zwinger evolved over time, eventually gaining significance as a museum complex in the 19th century, especially with the addition of the Semper Gallery facing the Elbe River.\\n\\nDevastated during the 1945 Bombing of Dresden, the Zwinger underwent meticulous reconstruction in the subsequent decades. Today, it houses the renowned Gemäldegalerie Alte Meister, the Dresden Porcelain Collection, and the Mathematisch-Physikalischer Salon, opening its doors to visitors and immersing them in the splendor of history and culture.",
+  "uk": "Цвінгер — це палацовий комплекс у стилі бароко з розкішними садами. Його було спроєктовано Маттеусом Даніелем Пьоппельманом, і він вважається головною архітектурною пам'яткою Дрездена поряд із культовою Фрауенкірхе. За часів правління Августа Сильного палацовий комплекс із його прекрасними оранжереями та садами був місцем для святкувань. Його просторі павільйони та галереї, прикрашені скульптурами й коштовними вазами, демонструють розкіш тієї епохи.\\n\\nЗа задумом Цвінгер мав стати переднім двором нового замку, але той так і не був збудований. У XIX столітті палацовий комплекс перетворився на величезний музей. Цей статус остаточно закріпився за ним після зведення галереї Земпера з видом на Ельбу, яка замикає двір Цвінгера з північного боку.\\n\\nУ 1945 році Цвінгер був зруйнований під час бомбардування Дрездена. Його повна реставрація тривала два десятиліття. Нині в Цвінгері розміщуються такі знамениті музеї, як Галерея старих майстрів, Збірка Фарфору та Фізико-математичний салон, які чекають на відвідувачів, що бажають дізнатися більше про історію та культуру Німеччини."
+ },
+ "flavor_mei.110.title": {
+  "en": "The Zwinger",
+  "uk": "Цвінгер"
+ },
+ "flavor_mei.120.a": {
+  "en": "The land belongs with us.",
+  "uk": "Ці землі належать нам."
+ },
+ "flavor_mei.120.b": {
+  "en": "It was sold for a reason.",
+  "uk": "Ми продали їх не просто так."
+ },
+ "flavor_mei.120.desc": {
+  "en": "[target_character.GetName] inherited the [GetCountry('LDB').GetLongName] after [target_character.GetHerHis] marriage with [target_spouse.GetName] and wants to sell it to us.\\n\\nThe Lands of [GetCountry('LDB').GetNameWithNoTooltip] belonged to us not long ago and this could be an opportunity to get them back. What should we do?",
+  "uk": "Після того, як [target_spouse.GetName] та [target_character.GetName] взяли шлюб, [Select_CString(target_character.IsFemale,'остання успадкувала', 'останній успадкував')] [GetCountry('LDB').GetLongName] і хоче продати його нам.\\n\\nНе так давно землі Ландсберга входили до нашої держави, і зараз у нас з'явився шанс повернути їх собі. Як нам вчинити?"
+ },
+ "flavor_mei.120.entry": {
+  "en": "The Acquisition of Landsberg",
+  "uk": ""
+ },
+ "flavor_mei.120.historical_info": {
+  "en": "Originally a Wettin land, the Margraviate of Landsberg was sold to the House of Ascania in 1291. In 1347, the Duke Magnus I of Brunswick-Lüneburg sold the Margraviate that he inherited after his marriage with Sophia of Brandenburg-Stendal, Margrave of Landsberg, back to Margrave Frederick II of Meissen, reuniting the Wettin lands again.",
+  "uk": "Спочатку маркграфство Ландсберг належало Веттінам, а в 1291 році було продане Асканіям. У 1347 році герцог Магнус I Брауншвейг-Люнебурзький продав маркграфство, яке він успадкував після шлюбу з Софією Бранденбург-Стендаль, маркграфинею Ландсберзькою, маркграфу Фрідріху II Майсенському і тим самим знову об'єднав землі Веттінів."
+ },
+ "flavor_mei.120.title": {
+  "en": "The Acquisition of [GetCountry('LDB').GetNameWithNoTooltip]",
+  "uk": "Придбання Ландсберга"
+ },
+ "flavor_mei.121.a": {
+  "en": "Selling this land is the right thing to do.",
+  "uk": ""
+ },
+ "flavor_mei.121.a.tt": {
+  "en": "We will continue playing as [GetCountry('MEI').GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.121.b": {
+  "en": "We can not part way with this land!",
+  "uk": ""
+ },
+ "flavor_mei.121.desc": {
+  "en": "[GetCountry('MEI').GetName] has entered advanced negotiations with [target_character.GetName] with the goal of purchasing the [GetCountry('LDB').GetName]! While this is a dangerous threat to our autonomy, it is not too late yet to prevent this agreement and sway [target_character.GetNameWithNoTooltip] with the help of [target_spouse.GetName].",
+  "uk": ""
+ },
+ "flavor_mei.122.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "flavor_mei.122.a.entry": {
+  "en": "$common_string_curses$",
+  "uk": ""
+ },
+ "flavor_mei.122.desc": {
+  "en": "[GetCountry('LDB').GetName] has suddenly withdrawn from our negotiations about the acquisition of their lands. This leaves us no choice but to pursue their lands through the means of war.",
+  "uk": ""
+ },
+ "flavor_mei.130.a": {
+  "en": "Good idea!",
+  "uk": "Чудова ідея!"
+ },
+ "flavor_mei.130.b": {
+  "en": "They are not worthy.",
+  "uk": "[Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'Вона не гідна', 'Він не гідний')] такої честі"
+ },
+ "flavor_mei.130.desc": {
+  "en": "[GetCountry('SWB').GetName]'s [target_character.GetName] has died without heirs and the [GetCountry('SWB').GetFlavorRank] has been left vacant.\\n\\nBecause that seat is something that cannot be left unoccupied, we need a new holder of this dignity.\\n\\nAmong the several candidates, our advisors have proposed the [GetCountry('MEI').GetGovernment.GetRulerTitle] of [GetCountry('MEI').GetName] as a good choice. Should we decide to elevate [GetCountry('MEI').GetGovernment.GetRuler.GetHerHim] to [GetCountry('SWB').GetGovernment.GetRulerTitle] we could get a new friend in the area.",
+  "uk": "[target_character.GetName] з #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_RP')|L]#!#! [Select_CString(target_character.IsFemale,'померла', 'помер')], не залишивши спадкоємця, і тепер [Select_CString(target_character.IsFemale,'її', 'його')] місце вільне.\\n\\nМи маємо якнайшвидше знайти гідного кандидата.\\n\\nНаші радники вважають, що [GetCountry('MEI').GetGovernment.GetRulerTitle] з #ONCLICK:COUNTRY,[GetCountry('MEI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('MEI').Custom('CL_tt')],X [GetCountry('MEI').Custom('CL_RP')|L]#!#! — [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'відмінна претендентка', 'відмінний претендент')]. Якщо ми зробимо [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'її правителькою', 'його правителем')] #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_RP')|L]#!#!, то [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'вона', 'він')] ніколи цього не забуде."
+ },
+ "flavor_mei.130.historical_info": {
+  "en": "In 1423, Friedrich the Quarrelsome, Margrave of Meissen, acquired the Duchy of Saxony-Wittenberg, along with the electoral dignity, resulting in the merger of the Margraviate of Meissen into the Electorate of Saxony, losing its status as an independent principality.",
+  "uk": "У 1423 році Фрідріх Войовничий, маркграф Майсена, придбав герцогство Саксен-Віттенберг, а також право виборщика, внаслідок чого маркграфство Майсен увійшло до складу курфюрства Саксонія та втратило свій незалежний статус."
+ },
+ "flavor_mei.130.title": {
+  "en": "An Imperial Offer",
+  "uk": "Пропозиція імператора"
+ },
+ "flavor_mei.131.a": {
+  "en": "We accept it with honor.",
+  "uk": "Ми з честю приймемо [Select_CString(target_emperor.IsFemale,'її', 'його')] пропозицію."
+ },
+ "flavor_mei.131.desc": {
+  "en": "The ruler of the [GetCountry('SWB').GetLongName] has died heirless, leaving the [GetCountry('SWB').GetFlavorRank] empty. The Emperor [target_emperor.GetName] has offered us being the new elector.",
+  "uk": "Правитель #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_GEN')|L]#!#! помер, не залишивши спадкоємця, і тепер трон [GetCountry('SWB').Custom('rank_ru_GEN')|l] порожній. [Select_CString(target_emperor.IsFemale,'Імператриця', 'Імператор')] [target_emperor.GetName] пропонує нам стати новим виборщиком."
+ },
+ "flavor_mei.131.title": {
+  "en": "An Imperial Offer",
+  "uk": "Пропозиція імператора"
+ },
+ "flavor_mei.131.tt": {
+  "en": "We will become the Electorate of Saxony",
+  "uk": "Ми станемо курфюрством Саксонія"
+ },
+ "flavor_mei.140.a": {
+  "en": "Let [target_character.GetHisHer] guide our affairs.",
+  "uk": "Дозволимо [Select_CString(target_character.IsFemale, 'їй', 'йому')] вершити наші справи."
+ },
+ "flavor_mei.140.b": {
+  "en": "We cannot allow [target_character.GetHimHer] to become the power behind the throne.",
+  "uk": "Ми не можемо дозволити [Select_CString(target_character.IsFemale, 'їй', 'йому')] стати сірим кардиналом."
+ },
+ "flavor_mei.140.desc": {
+  "en": "[target_ruler.GetName] has been advocating for employing [target_character.GetName], one of [target_ruler.GetHisHer] closest personal advisors, to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. However, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] are worried, since it is rumoured that [target_character.GetLastNameWithNoTooltip] wields more power than [target_ruler.GetNameWithNoTooltip] [target_ruler.GetHerselfHimself], which could give [target_character.GetLastNameWithNoTooltip] unmatched diplomatic leverage and lead to the abuse of power to fulfill [target_character.GetHisHer] ambitions.",
+  "uk": "[target_ruler.GetName] наполягає на тому, щоб [target_character.GetName], [Select_CString(target_character.IsFemale, 'одна', 'один')] з [Select_CString(target_ruler.IsFemale, 'її', 'його')] найближчих особистих радників, [Select_CString(target_character.IsFemale, 'вступила', 'вступив')] на службу при дворі. Однак багато хто при дворі стурбований, оскільки ходять чутки, що [target_character.GetLastNameWithNoTooltip] має більшу владу, ніж [Select_CString(target_ruler.IsFemale, 'сама', 'сам')] [target_ruler.GetNameWithNoTooltip|l]. Це може надати [Select_CString(target_character.IsFemale, 'їй', 'йому')] небувалий дипломатичний вплив і призвести до зловживання владою задля досягнення власних амбіцій."
+ },
+ "flavor_mei.140.entry": {
+  "en": "Heinrich von Brühl",
+  "uk": ""
+ },
+ "flavor_mei.140.historical_info": {
+  "en": "Heinrich von Brühl was the influential chief minister of Saxony and Poland during the reign of Frederick August II, also known as Augustus III of Poland. As a diplomat and courtier, Brühl effectively controlled Saxon and Polish politics for decades, managing alliances and state appointments. He managed to centralize the court under his rule so much that the King could only be accessed through him.",
+  "uk": "Генріх фон Брюль був впливовим першим міністром Саксонії та Польщі за часів правління Фрідріха Августа II, також відомого як Август III Польський. Як дипломат і придворний, Брюль фактично десятиліттями контролював саксонську та польську політику, керував союзами й державними призначеннями. Він настільки централізував двір під своїм управлінням, що поспілкуватися з королем можна було лише через нього."
+ },
+ "flavor_mei.140.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.150.a": {
+  "en": "[target_character.GetHisHer|U] art will exalt our piety.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його')] мистецтво зробить нас благочестивішими."
+ },
+ "flavor_mei.150.b": {
+  "en": "We cannot afford such luxuries.",
+  "uk": "Ми не можемо дозволити собі таку розкіш."
+ },
+ "flavor_mei.150.desc": {
+  "en": "[target_character.GetName] has been gaining renown for [target_character.GetHisHer] masterfully crafted organs which are said to possess unmatched clarity and are gaining fame across the nation. Many members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have expressed desire to employ [target_character.GetLastNameWithNoTooltip] to elevate our churches and glorify our faith, but they lack the funds required to commission [target_character.GetHimHer].",
+  "uk": "[target_character.GetName] здобуває дедалі більшу відомість завдяки своїм майстерно створеним органам, які, як кажуть, мають неперевершену чистоту звучання, і слава про них розноситься по всій країні. Багато хто з [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] висловив бажання найняти [Select_CString(target_character.IsFemale, 'її', 'його')], щоб звеличити наші церкви й прославити нашу віру, але їм бракує коштів, щоб зробити замовлення."
+ },
+ "flavor_mei.150.entry": {
+  "en": "Gottfried Silbermann",
+  "uk": ""
+ },
+ "flavor_mei.150.historical_info": {
+  "en": "Gottfried Silbermann was one of the most renowned organ builders of the Baroque era. Working primarily in Saxony, Silbermann built over 50 organs known for their tonal brilliance and mechanical innovation. Silbermann refined earlier French and German designs by combining craftsmanship with acoustical engineering. His organs earned the admiration of many important personalities, including Johann Sebastian Bach and Frederick the Great.",
+  "uk": "Готфрід Зільберман був одним із найвідоміших органних майстрів епохи бароко. Працюючи переважно в Саксонії, Зільберман збудував понад 50 органів, відомих своєю тональною пишнотою та механічними інноваціями. Він удосконалив раніші французькі та німецькі конструкції, поєднавши майстерність з акустичною інженерією. Його органи здобули захоплення багатьох важливих персон, зокрема Йоганна Себастьяна Баха та Фрідріха Великого."
+ },
+ "flavor_mei.150.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.160.a": {
+  "en": "Let it shine with knowledge!",
+  "uk": "Нехай сяє світлом знань!"
+ },
+ "flavor_mei.160.b": {
+  "en": "We have no spare funds to support it.",
+  "uk": "У нас зараз немає зайвих коштів."
+ },
+ "flavor_mei.160.desc": {
+  "en": "Our region has long needed a grand institution of learning. Some representatives of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have come forth with a suggestion to establish a [ShowBuildingTypeName('university')] in [target_location.GetName], which would be dedicated to lawyers, physicians, and clerics. They are willing to fund it, but they cannot afford to commission its construction alone, so a cooperation with the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] would be required.",
+  "uk": "Наш регіон давно потребує хорошого освітнього закладу. Деякі [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] виступили з пропозицією заснувати #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName], який би готував юристів, медиків і священнослужителів. Вони готові фінансувати його, але не зможуть самотужки оплатити будівництво, тому розраховують, що [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] теж допоможуть."
+ },
+ "flavor_mei.160.entry": {
+  "en": "$flavor_mei.160.title$",
+  "uk": ""
+ },
+ "flavor_mei.160.historical_info": {
+  "en": "The University of Wittenberg, also known as Leucorea, was founded in 1502 by Elector Frederick the Wise of Saxony, with the royal charter granted by Emperor Maximilian I. Intended to train administrators, theologians, and legal experts for the Ernestine Electorate, it would soon become the cradle of the Lutheran Reformation, especially after Martin Luther was appointed professor in 1508, and Philipp Melanchthon soon followed.",
+  "uk": "Віттенберзький університет, також відомий як Лейкорея, був заснований у 1502 році курфюрстом Саксонії Фрідріхом Мудрим, а імператорську хартію йому дарував імператор Максиміліан I. Призначений для підготовки адміністраторів, теологів і юристів для Саксонського курфюрства, невдовзі він став колискою Лютеранської реформації, особливо після того, як у 1508 році професором був призначений Мартін Лютер, а незабаром до нього приєднався Філіп Меланхтон."
+ },
+ "flavor_mei.160.title": {
+  "en": "Founding the Leucorea",
+  "uk": "Заснування Лейкореї"
+ },
+ "flavor_mei.170.a": {
+  "en": "[ShowLocationNameWithNoTooltip('freiberg')] will become the forge of scientific mining!",
+  "uk": "Фрайберг стане кузнею наукової гірничої справи!"
+ },
+ "flavor_mei.170.b": {
+  "en": "Let us expand the traditional methods instead.",
+  "uk": "Краще розширимо традиційні методи."
+ },
+ "flavor_mei.170.c": {
+  "en": "We cannot afford either.",
+  "uk": "Ми не можемо дозволити собі ні того, ні іншого."
+ },
+ "flavor_mei.170.desc": {
+  "en": "The wealth of our mountains lies not just in ore, but in the knowledge needed to extract it. As traditional mining techniques begin to falter before the challenges of deeper shafts and complex geology, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggest to refocus the [ShowModifier('freiberg_base')] and instead, establish a [ShowBuildingTypeName('university')] that will focus on modern industrial methods of mining and train the next generation of engineers.",
+  "uk": "Багатство наших гір полягає не лише в руді, а й у знаннях, необхідних для її видобутку. Оскільки традиційні методи гірничої справи перестають справлятися з труднощами глибших шахт і складної геології, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує перепрофілювати #TOOLTIP:STATIC_MODIFIER,freiberg_base,X #V #L срібні рудники Фрайберга#!#!#! і натомість заснувати #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#!, який зосередиться на сучасних промислових методах видобутку та готуватиме наступне покоління інженерів."
+ },
+ "flavor_mei.170.entry": {
+  "en": "University of Freiberg",
+  "uk": ""
+ },
+ "flavor_mei.170.historical_info": {
+  "en": "The Freiberg University of Mining and Technology, founded in 1765, is the world's oldest still operational university of mining and metallurgy. It was established in response to the increasing complexity of mining in the Ore Mountains and the Enlightenment drive to replace tradition with empirical knowledge. The university soon became a model institution for mining education across Europe, and its students even discovered two new elements - Indium and Germanium.",
+  "uk": "Фрайберзька гірнича академія, заснована в 1765 році, є найстарішим у світі університетом гірничої справи та металургії, що діє й донині. Її було створено у відповідь на дедалі більшу складність видобутку корисних копалин у Рудних горах і на прагнення замінити традицію емпіричним знанням, яке супроводжувало епоху Просвітництва. Університет невдовзі став взірцевим закладом для освіти у сфері гірничої справи по всій Європі, а його студенти навіть відкрили два нових елементи — індій і германій."
+ },
+ "flavor_mei.170.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('university')] of [ShowLocationNameWithNoTooltip('freiberg')]",
+  "uk": "Фрайберзький університет"
+ },
+ "flavor_mei.180.a": {
+  "en": "Centralize the minting.",
+  "uk": "Централізуємо карбування."
+ },
+ "flavor_mei.180.b": {
+  "en": "Let each region mint its own coins.",
+  "uk": "Нехай кожен регіон карбує власні монети."
+ },
+ "flavor_mei.180.desc": {
+  "en": "For centuries, the mint of [ShowLocationName('freiberg')] was one of the most prestigious and productive in our [ROOT.GetCountry.GetFlavorRank], converting [ShowGoodsName('silver')] from [ShowProvinceDefinitionName('erzgebirge_province')] into currency that flowed through the entire [ROOT.GetCountry.GetFlavorRank]. However, the demands of modern administration and monetary consistency have prompted our advisors to suggest the centralization of our minting. They propose confiscating all mints in [ROOT.GetCountry.GetName] and establishing a single one in [ShowLocationName('dresden')], with oversight over the entire nation.",
+  "uk": "Століттями монетний двір #TOOLTIP:LOCATION,freiberg_tt,X #L Фрайберга#!#! був одним із найпрестижніших і найпродуктивніших на території [ROOT.GetCountry.Custom('rank_ru_GEN')|l], перетворюючи #TOOLTIP:GOODS,silver,X срібло#! з #TOOLTIP:PROVINCE_DEFINITION,erzgebirge_province,X #L Рудних гір#!#! на валюту, яка використовується в усіх куточках [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Однак вимоги сучасної адміністрації та грошової стабільності підштовхнули наших радників до думки про централізацію карбування. Вони пропонують конфіскувати всі монетні двори на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! і заснувати єдиний у #TOOLTIP:LOCATION,dresden_tt,X #L Дрездені#!#!, з наглядом над усією державою."
+ },
+ "flavor_mei.180.entry": {
+  "en": "$flavor_mei.180.title$",
+  "uk": ""
+ },
+ "flavor_mei.180.historical_info": {
+  "en": "In 1556, Elector Augustus of Saxony closed the long-dominant mint of Freiberg and moved all minting operations to Dresden after discovering widespread debasement of currency across regional mints. The establishment of the mint near his residence asserted direct control over silver quality and financial policy.",
+  "uk": "У 1556 році курфюрст Саксонії Август закрив монетний двір у Фрайберзі, що довго домінував, і переніс усі операції з карбування до Дрездена, коли виявилося повсюдне псування монети на регіональних дворах. Створивши монетний двір поруч зі своєю резиденцією, він отримав прямий контроль над якістю срібла та фінансовою політикою."
+ },
+ "flavor_mei.180.title": {
+  "en": "Centralization of Minting",
+  "uk": "Централізація карбування монет"
+ },
+ "flavor_mei.190.a": {
+  "en": "We should stay out of this.",
+  "uk": "Не варто в це втручатися."
+ },
+ "flavor_mei.190.b": {
+  "en": "Support the traditional views of [target_character2.GetNameWithNoTooltip].",
+  "uk": "Підтримаємо традиційні погляди, яких дотримується [target_character2.GetNameWithNoTooltip]."
+ },
+ "flavor_mei.190.b.entry": {
+  "en": "Support the traditional views of the character.",
+  "uk": ""
+ },
+ "flavor_mei.190.c": {
+  "en": "[target_character.GetNameWithNoTooltip] raises valid concerns.",
+  "uk": "[target_character.GetNameWithNoTooltip] порушує цілком обґрунтовані питання."
+ },
+ "flavor_mei.190.c.entry": {
+  "en": "The character raises valid concerns.",
+  "uk": ""
+ },
+ "flavor_mei.190.desc": {
+  "en": "An intense academic disputation has unfolded in [ShowLocationName('leipzig')] between [target_character.GetName], a radical theologian and professor from [ShowLocationName('wittenberg')], and the renowned scholastic [target_character2.GetName]. They discuss the new claims presented by the advocates of the Reformation, such as that authority should stem from Scripture rather than tradition, that the [GetUniqueInternationalOrganization('catholic_church').GetName] has erred in doctrine, and that the [GetCountry('PAP').GetGovernment.GetRulerTitle] does not wield supreme power by divine right.",
+  "uk": "У #TOOLTIP:LOCATION,leipzig_tt,X #L Лейпцизі#!#! розгорнулася напружена академічна дискусія, яку ведуть [target_character.GetName], радикальний теолог і професор з #TOOLTIP:LOCATION,wittenberg_tt,X #L Віттенберга#!#!, та відомий схоласт [target_character2.GetName]. Вони обговорюють нові заяви, представлені прихильниками Реформації, такі як те, що влада має виходити з Писання, а не з традиції, що #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,catholic_church,X #L католицька церква#!#! помиляється в тлумаченні доктрин, і що [GetCountry('PAP').GetGovernment.GetRulerTitle|l] не має верховної влади з волі Божої."
+ },
+ "flavor_mei.190.entry": {
+  "en": "The Leipzig Debate",
+  "uk": ""
+ },
+ "flavor_mei.190.historical_info": {
+  "en": "The Leipzig Debate of 1519 was an academic dispute held at the University of Leipzig between Johann Eck and Andreas Karlstadt. The debate was initiated by Eck's negative commentary on Luther's 95 theses, and initially focused on questions of free will and ecclesial authority. It soon expanded into a full discussion of the Church's legitimacy, the supremacy of Scripture over tradition, and the nature of Papal power. Though no consensus was reached, the debate significantly raised the profile of reformist ideas and accelerated the growing theological and political divisions within the Holy Roman Empire.",
+  "uk": "Лейпцизький диспут 1519 року був академічною суперечкою в Лейпцизькому університеті між Йоганном Екком та Андреасом Карлштадтом. Диспут почався через негативний коментар Екка до 95 тез Лютера й спочатку стосувався питань свободи волі та церковної влади. Невдовзі він розширився до повномасштабного обговорення легітимності Церкви, переваги Писання над традицією та основи Папської влади. Хоча консенсусу так і не було досягнуто, диспут значно популяризував реформістські ідеї та сприяв теологічному й політичному розколу всередині Священної Римської імперії."
+ },
+ "flavor_mei.190.title": {
+  "en": "The [ShowLocationNameWithNoTooltip('leipzig')] Debate",
+  "uk": "Лейпцизька дискусія"
+ },
+ "flavor_mei.2.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_mei.2.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_mei.2.b": {
+  "en": "He should better leave to [target_banish_country.GetNameWithNoTooltip].",
+  "uk": "Нехай краще вирушає до [target_banish_country.Custom('CL_ACC')]."
+ },
+ "flavor_mei.2.b.entry": {
+  "en": "He should better leave to them.",
+  "uk": ""
+ },
+ "flavor_mei.2.desc": {
+  "en": "The talented playwright and poet, [target_character.GetName] has decided to select our country as [target_character.GetHerHis] residence and continue his writing efforts from our lands. [target_character.GetSheHe|U] is already an accomplished writer but shows no sign of stopping.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Талановита драматургиня і поетеса', 'Талановитий драматург і поет')] [target_character.GetName] [Select_CString(target_character.IsFemale, 'обрала', 'обрав')] нашу державу своїм новим пристановищем, щоб продовжити творчу діяльність на наших землях. [Select_CString(target_character.IsFemale, 'Вона вже здобула', 'Він уже здобув')] собі славу визнаного літератора, але явно не збирається зупинятися на досягнутому."
+ },
+ "flavor_mei.2.entry": {
+  "en": "Schiller",
+  "uk": ""
+ },
+ "flavor_mei.2.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.20.a": {
+  "en": "We are all brothers in Christ.",
+  "uk": "Усі ми брати у Христі."
+ },
+ "flavor_mei.20.b": {
+  "en": "[target_character.GetSheHe|U] should focus on one faith.",
+  "uk": "Нехай [Select_CString(target_character.IsFemale,'вона', 'він')] визначиться з вірою."
+ },
+ "flavor_mei.20.desc": {
+  "en": "As a close friend of Luther, [target_character.GetName] has feverishly embraced [ShowReligionName('lutheran')] but has always been open to work with [ShowReligionName('catholic')] Maecenas.\\n\\nAs a court artist, we wonder if these interactions with both sides could not become a problem for us. All across the continent, [ShowReligionNameWithNoTooltip('lutheran')] and [ShowReligionNameWithNoTooltip('catholic')] are fighting each other in a bloody conflict that could affect us.",
+  "uk": "[target_character.GetName], як [Select_CString(target_character.IsFemale,'близька подруга', 'близький друг')] Лютера, палко підтримує #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранство#!#!, але також [Select_CString(target_character.IsFemale,'відкрита', 'відкритий')] до співпраці з #TOOLTIP:RELIGION,catholic_tt,X #L католицькими#!#! меценатами.\\n\\n[target_character.GetName] — [Select_CString(target_character.IsFemale,'наша придворна художниця', 'наш придворний художник')], тому ми хвилюємося, що [Select_CString(target_character.IsFemale,'її', 'його')] зв'язки можуть стати для нас проблемою. По всьому континенту #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютерани#!#! та #TOOLTIP:RELIGION,catholic_tt,X #L католики#!#! ворогують між собою, і ми боїмося, що теж опинимося втягнуті в конфлікт."
+ },
+ "flavor_mei.20.entry": {
+  "en": "Lucas Cranach the Elder",
+  "uk": ""
+ },
+ "flavor_mei.20.historical_info": {
+  "en": "Lucas Cranach #italic the Elder#!, renowned for his exceptional artistic talents, was a German Renaissance painter and printmaker specializing in woodcutting and engraving. He was the court painter to the Electors of Saxony, and is famous for capturing the essence of German princes and prominent leaders of the Protestant Reformation.\\n\\nHe was also a close confidant of Martin Luther whose cause he passionately embraced. While his subjects ranged from religious themes in the Catholic tradition to innovative portrayals of Lutheran religious matters, he consistently incorporated mythological and religious nudes in his captivating artwork.\\n\\nHis vast workshop produced numerous versions of his masterpieces, and even after his death, his son Lucas Cranach the Younger and others continued to replicate his brilliant works, solidifying his legacy as one of the most influential and accomplished German artists of his time.",
+  "uk": "Лукас Кранах #italic Старший#! — надзвичайно талановитий німецький художник і гравер епохи Відродження, майстер різьби по дереву та гравюри. Він був придворним живописцем саксонських курфюрстів і малював німецьких князів та видатних лідерів протестантської реформації.\\n\\nТакож він був близьким другом Мартіна Лютера й палко підтримував його ідеї. Його роботи вражають розмаїттям. Він писав і релігійні сюжети в католицькій традиції, і релігійно-філософські новаторські роботи, створені під впливом лютеранства. Попри це, на багатьох його дивовижних полотнах релігійного чи міфологічного змісту зустрічаються оголені фігури.\\n\\nХудожники з його майстерні неодноразово копіювали його шедеври. Коли Лукас Кранах Старший помер, його син Лукас Кранах Молодший та інші живописці продовжували відтворювати його полотна, щоб вшанувати пам'ять видатного німецького художника й зберегти його спадщину."
+ },
+ "flavor_mei.20.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.200.a": {
+  "en": "Shower [son_in_law.GetHerHim] with riches.",
+  "uk": "Обсипати [Select_CString(son_in_law.IsFemale,'її', 'його')] багатствами."
+ },
+ "flavor_mei.200.a.entry": {
+  "en": "Shower him with riches.",
+  "uk": ""
+ },
+ "flavor_mei.200.b": {
+  "en": "Serving the Emperor is enough reward.",
+  "uk": "Служіння імператору — найкраща нагорода."
+ },
+ "flavor_mei.200.desc": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] majesty's son-in-law, [son_in_law.GetName] the ruler of [target_country.GetName], has been of great service in the recent troubles in [GetCountry('BRA').GetName]. It would be appropriate for the Emperor to generously reward those who serve the [GetUniqueInternationalOrganization('hre').GetName] well.",
+  "uk": "Зять [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] величності, правитель [target_country.Custom('CL_GEN')] [son_in_law.GetName], надав нам велику допомогу під час лиха в #ONCLICK:COUNTRY,[GetCountry('BRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BRA').Custom('CL_tt')],X [GetCountry('BRA').Custom('CL_PREP')|L]#!#!. Імператору варто щедро нагородити вірного слугу #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!."
+ },
+ "flavor_mei.200.entry": {
+  "en": "$flavor_mei.200.title$",
+  "uk": ""
+ },
+ "flavor_mei.200.historical_info": {
+  "en": "Friedrich II of the Wettin dynasty was a loyal ally of Emperor Ludwig IV during his reign. Married to Ludwig's daughter Mathilde, he was a key ally in the stabilization of the Margraviate of Brandenburg, after it was acquired by the Wittelsbach dynasty. For his work and steady support of the Wittelsbacher Emperorship, he was rewarded with support in his efforts in both Thuringia and Meissen.",
+  "uk": "Фрідріх II із династії Веттінів був вірним союзником імператора Людвіга IV Баварського. Одружившись з його донькою Матильдою, він став ключовою фігурою в стабілізації Бранденбурзької марки після її переходу під контроль Віттельсбахів. За відданість імператорській владі Фрідріх отримав військову й політичну допомогу в зміцненні своїх позицій у Тюрингії та Майсені."
+ },
+ "flavor_mei.200.title": {
+  "en": "A Just Reward",
+  "uk": "Заслужена нагорода"
+ },
+ "flavor_mei.201.a": {
+  "en": "Add it to our treasury.",
+  "uk": "Передати нагороду до скарбниці."
+ },
+ "flavor_mei.201.b": {
+  "en": "Let's use it to mint a new coin, the Meißner Groschen.",
+  "uk": "Почнемо карбувати нову монету — Майсенський грош."
+ },
+ "flavor_mei.201.desc": {
+  "en": "[target_emperor.GetName], the Emperor of the [GetUniqueInternationalOrganization('hre').GetName] and the father-in-law of our ruler [ROOT.GetCountry.GetGovernment.GetRuler.GetName], has sent a generous reward for our loyalty. [target_emperor.GetSheHe] specifically thanks us for our efforts in the stabilization of [GetCountry('BRA').GetName] and our support in [target_emperor.GetHerHis] Emperorship.",
+  "uk": "[target_emperor.GetName], [Select_CString(target_emperor.IsFemale, 'імператриця', 'імператор')] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! і [Select_CString(target_emperor.IsFemale, 'близька родичка', 'близький родич')] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'нашої правительки', 'нашого правителя')] [Select_CString(target_emperor.IsFemale, 'надіслала', 'надіслав')] щедру нагороду за нашу вірність. [Select_CString(target_emperor.IsFemale, 'Вона', 'Він')] особливо відзначає зусилля, які [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'доклала', 'доклав')] для стабілізації #ONCLICK:COUNTRY,[GetCountry('BRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BRA').Custom('CL_tt')],X [GetCountry('BRA').Custom('CL_GEN')|L]#!#! і на підтримку [Select_CString(target_emperor.IsFemale, 'її', 'його')] імператорського правління."
+ },
+ "flavor_mei.201.entry": {
+  "en": "$flavor_mei.201.title$",
+  "uk": ""
+ },
+ "flavor_mei.201.title": {
+  "en": "A Gift from the Emperor",
+  "uk": "Подарунок від імператора"
+ },
+ "flavor_mei.210.a": {
+  "en": "Establish it!",
+  "uk": "Чудова ідея!"
+ },
+ "flavor_mei.210.b": {
+  "en": "We should focus on traditional production.",
+  "uk": "Краще зосередимося на традиційному виробництві."
+ },
+ "flavor_mei.210.desc": {
+  "en": "[ShowGoodsName('porcelain')] has long been a major point of interest, with many failed attempts to recreate the secret art of producing it in its true form. However, through many experiments of our best scientists and inventors, we have been able to reproduce the first [ShowGoodsNameWithNoTooltip('porcelain')] of [ShowContinentName('europe')]. To protect this precious innovation and to capitalize on it, many are suggesting to establish a state-funded manufactory in [ShowLocationName('meissen')].",
+  "uk": "#TOOLTIP:GOODS,porcelain,X #L Фарфор#!#! довгий час був предметом великого інтересу, і багато хто безуспішно намагався розкрити секрет його виробництва у справжньому вигляді. Однак завдяки численним дослідам, проведеним нашими найкращими вченими та винахідниками, нам вперше вдалося відтворити фарфор у #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. Щоб захистити цю цінну новинку й отримати з неї вигоду, багато хто пропонує заснувати державну мануфактуру в #TOOLTIP:LOCATION,meissen_tt,X #L Майсені#!#!."
+ },
+ "flavor_mei.210.entry": {
+  "en": "The Meissen Porcelain Factory",
+  "uk": ""
+ },
+ "flavor_mei.210.historical_info": {
+  "en": "The Meissen Porcelain Manufactory was founded in 1710 and financed by Augustus the Strong in the castle of Albrechtsburg. It was the first in Europe to produce hard-paste porcelain, previously imported only from China. This innovation had vast economic and cultural impact, turning Saxony into a leading porcelain producer and bolstering its prestige across Europe.",
+  "uk": "Майсенську фарфорову мануфактуру було засновано в 1710 році в замку Альбрехтсбург за фінансування Августа Сильного. Це була перша мануфактура в Європі, яка виробляла твердий фарфор, що раніше імпортувався лише з Китаю. Це нововведення справило величезний економічний і культурний вплив, перетворивши Саксонію на провідного виробника фарфору та зміцнивши її престиж по всій Європі."
+ },
+ "flavor_mei.210.title": {
+  "en": "The [ShowGoodsNameWithNoTooltip('porcelain')] Manufactory of [ShowLocationNameWithNoTooltip('meissen')]",
+  "uk": "Майсенська фарфорова мануфактура"
+ },
+ "flavor_mei.220.a": {
+  "en": "Offer [target_character.GetHimHer] patronage.",
+  "uk": "Запропонуємо [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво."
+ },
+ "flavor_mei.220.b": {
+  "en": "[target_character.GetHisHer|U] service would be too expensive.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його')] послуги обійдуться надто дорого."
+ },
+ "flavor_mei.220.desc": {
+  "en": "[target_character.GetName] has astonished the [ROOT.GetCountry.GetFlavorRank] with [target_character.GetHisHer] elaborate and masterful creations, such as intricate goldsmithing that blends artistry with technical precision. Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggests we offer [target_character.GetHimHer] patronage, as they believe that with adequate funding, [target_character.GetLastNameWithNoTooltip] would greatly elevate our cultural prestige.",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'вразила', 'вразив')] [ROOT.GetCountry.Custom('rank_ru_ACC')|l] своїми вишуканими та майстерними творіннями, серед яких складні ювелірні вироби, що поєднують художність і технічну точність. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує надати [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво, оскільки вважає, що за належного фінансування [target_character.GetLastNameWithNoTooltip] зможе значно підвищити наш культурний престиж."
+ },
+ "flavor_mei.220.entry": {
+  "en": "Johann Melchior Dinglinger",
+  "uk": ""
+ },
+ "flavor_mei.220.historical_info": {
+  "en": "Johann Melchior Dinglinger was one of the most extraordinary goldsmiths of his time. His opulent works, often inlaid with thousands of gemstones, were symbols of Saxon court splendor. He was often commissioned by Augustus the Strong, and he greatly contributed to the aesthetic of Baroque Saxony.",
+  "uk": "Йоганн Мельхіор Дінглінгер був одним із найвидатніших ювелірів свого часу. Його багато оздоблені роботи, часто інкрустовані тисячами дорогоцінних каменів, були символами пишноти саксонського двору. Він часто отримував замовлення від Августа Сильного та зробив великий внесок в естетику Саксонії епохи бароко."
+ },
+ "flavor_mei.220.title": {
+  "en": "The Genius of [target_character.GetNameWithNoTooltip]",
+  "uk": "Геній [target_character.GetNameWithNoTooltip]"
+ },
+ "flavor_mei.230.a": {
+  "en": "Support the rise of Neptunism!",
+  "uk": "Ми підтримаємо розвиток нептунізму!"
+ },
+ "flavor_mei.230.b": {
+  "en": "These are speculative ramblings.",
+  "uk": "Це не більше ніж спекулятивні домисли."
+ },
+ "flavor_mei.230.desc": {
+  "en": "At the Mining Academy of [ShowLocationName('freiberg')], Professor [target_character.GetName] has presented a revolutionary theory of geological formation which [target_character.GetSheHe] calls Neptunism. According to [target_character.GetHimHer], all rocks were once precipitated from a primordial ocean through the process of crystallization. Though [target_character.GetHisHer] lectures attract many people, many critics reject [target_character.GetHisHer] ideas which are increasingly gaining academic traction.",
+  "uk": "У Гірничій академії #TOOLTIP:LOCATION,freiberg_tt,X #L Фрайберга#!#! професор [target_character.GetName] [Select_CString(target_character.IsFemale, 'представила', 'представив')] революційну теорію геологічного формування, яку [Select_CString(target_character.IsFemale, 'вона', 'він')] називає нептунізмом. Згідно з [Select_CString(target_character.IsFemale, 'її', 'його')] ідеями, всі гірські породи колись осіли з первісного океану шляхом кристалізації. Хоча [Select_CString(target_character.IsFemale, 'її', 'його')] лекції приваблюють чимало людей, багато критиків відкидають [Select_CString(target_character.IsFemale, 'її', 'його')] ідеї, які, тим не менш, набувають дедалі більшої популярності в академічних колах."
+ },
+ "flavor_mei.230.entry": {
+  "en": "$flavor_mei.230.title$",
+  "uk": ""
+ },
+ "flavor_mei.230.historical_info": {
+  "en": "Abraham Gottlob Werner was a pioneering geologist and one of the founding figures of modern mineralogy. His Neptunist theory, though eventually superseded by Plutonism that attributed the formation of rocks to volcanic activities, deeply influenced scientific thought across Europe and drew students to Freiberg.",
+  "uk": "Абраам Готтлоб Вернер був видатним геологом і однією з основоположних фігур сучасної мінералогії. Його теорія нептунізму, хоч і була врешті-решт витіснена плутонізмом, пояснювала формування порід вулканічною активністю, глибоко вплинула на наукову думку по всій Європі та приваблювала студентів до Фрайберга."
+ },
+ "flavor_mei.230.title": {
+  "en": "The Theory of Neptunism",
+  "uk": "Теорія нептунізму"
+ },
+ "flavor_mei.240.a": {
+  "en": "We will do what we can to make [target_character.GetHimHer] stay!",
+  "uk": "Ми зробимо все, щоб [Select_CString(target_character.IsFemale, 'вона залишилася', 'він залишився')]!"
+ },
+ "flavor_mei.240.b": {
+  "en": "[target_character.GetSheHe|U] is but another musician.",
+  "uk": "Це лише черговий музикант."
+ },
+ "flavor_mei.240.desc": {
+  "en": "A remarkable occasion graced [ShowLocationName('dresden')] as [target_character.GetName], one of the most celebrated composers of opera seria in [ShowContinentName('europe')], arrived to present [target_character.GetHisHer] latest work. As people flock to watch [target_character.GetHisHer] performances, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] whisper that [target_character.GetLastNameWithNoTooltip] might be persuaded to stay, should we extend our patronage and honor [target_character.GetHisHer] genius.",
+  "uk": "Знаменна подія сталася в #TOOLTIP:LOCATION,dresden_tt,X #L Дрездені#!#!: до міста [Select_CString(target_character.IsFemale, 'прибула', 'прибув')] [target_character.GetName], [Select_CString(target_character.IsFemale, 'одна', 'один')] з найславетніших [Select_CString(target_character.IsFemale, 'творців', 'творців')] опери-серіа в #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, щоб представити свою найновішу роботу. Поки городяни стікаються на [Select_CString(target_character.IsFemale, 'її', 'його')] вистави, багато хто при дворі шепочеться, що [target_character.GetLastNameWithNoTooltip], можливо, [Select_CString(target_character.IsFemale, 'могла', 'міг')] би залишитися, якщо ми запропонуємо [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво та вшануємо [Select_CString(target_character.IsFemale, 'її', 'його')] геній."
+ },
+ "flavor_mei.240.entry": {
+  "en": "The Arrival of Hasse",
+  "uk": ""
+ },
+ "flavor_mei.240.historical_info": {
+  "en": "Johann Adolph Hasse was a significant composer of the German Baroque. His arrival in Dresden marked a golden age of music at the Saxon court, particularly under the patronage of the Electress Maria Josepha and the Elector Augustus III. He later served as Kapellmeister and was instrumental in making Dresden a center of Italian opera north in Germany.",
+  "uk": "Йоганн Адольф Хассе був визначним композитором німецького бароко. Його прибуття до Дрездена ознаменувало золоту добу музики при саксонському дворі, особливо за заступництва курфюрстини Марії Йозефи та курфюрста Августа III. Пізніше він служив капельмейстером і відіграв ключову роль у перетворенні Дрездена на центр італійської опери на північ від Альп."
+ },
+ "flavor_mei.240.title": {
+  "en": "The Arrival of [target_character.GetLastNameWithNoTooltip]",
+  "uk": "[target_character.GetLastNameWithNoTooltip] прибуває"
+ },
+ "flavor_mei.30.a": {
+  "en": "Finance [target_character.GetHerHis] work.",
+  "uk": "Вкласти гроші в [Select_CString(target_character.IsFemale,'її', 'його')] дослідження."
+ },
+ "flavor_mei.30.b": {
+  "en": "Our treasury should be used for other things.",
+  "uk": "Прибережемо гроші для інших цілей."
+ },
+ "flavor_mei.30.desc": {
+  "en": "[target_character.GetName] has had a busy life, being a mathematician, philosopher, scientist, and diplomat. [target_character.GetSheHe|U] has shined in every of those fields and has become the pride of the nation.\\n\\nUnfortunately, [target_character.GetHerHis] character, curious and always looking for new challenges, makes [target_character.GetHerHim] pretty much a nomad, moving continuously all across Germany. Should we want to retain [target_character.GetHerHis] genius, we will need to finance [target_character.GetHerHis] work and keep [target_character.GetHerHim] in our nation.",
+  "uk": "[target_character.GetName] — математик, філософ, [Select_CString(target_character.IsFemale,'учена', 'учений')] і дипломат — веде насичене життя. Народ може пишатися [Select_CString(target_character.IsFemale,'її', 'його')] вражаючими досягненнями одразу в кількох галузях.\\n\\nНа жаль, [Select_CString(target_character.IsFemale,'її', 'його')] допитлива натура прагне нових вражень, тому [Select_CString(target_character.IsFemale,'вона', 'він')] довго не затримується на одному місці, мандруючи по всій Німеччині. Якщо ми хочемо, щоб [Select_CString(target_character.IsFemale,'вона', 'він')] й надалі [Select_CString(target_character.IsFemale,'приносила', 'приносив')] нам користь, ми маємо вкласти кошти в [Select_CString(target_character.IsFemale,'її', 'його')] дослідження й якось утримати [Select_CString(target_character.IsFemale,'її', 'його')] у своїй державі."
+ },
+ "flavor_mei.30.entry": {
+  "en": "Gottfried Wilhelm Leibniz",
+  "uk": ""
+ },
+ "flavor_mei.30.historical_info": {
+  "en": "Gottfried Wilhelm Leibniz, a brilliant polymath of the 17th and 18th centuries, made significant contributions to various fields of knowledge, including mathematics, philosophy, and science. Known for his pioneering work in calculus, he independently developed the principles of differential and integral calculus, laying the groundwork for modern mathematics. Leibniz also delved into metaphysics, proposing the concept of monads and advocating for the idea of a pre-established harmony in the universe.",
+  "uk": "Готфрід Вільгельм Лейбніц — блискучий ерудит XVII-XVIII століть, який зробив значний внесок у розвиток таких наук, як математика, філософія та природознавство. Він відомий своїми передовими роботами в галузі математичного аналізу та незалежно від Ньютона розробив принципи диференціального й інтегрального числення, які лягли в основу сучасної математики. Він також створив філософську систему, що отримала назву монадологія, і відстоював ідею про первісну гармонію всесвіту."
+ },
+ "flavor_mei.30.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.40.a": {
+  "en": "Make [target_character.GetHerHim] our court oculist.",
+  "uk": "Зробити [Select_CString(target_character.IsFemale,'її', 'його')] нашим придворним окулістом."
+ },
+ "flavor_mei.40.b": {
+  "en": "[target_character.GetSheHe|U] believes in weird things and [target_character.GetSheHe] should not come close to our ruler.",
+  "uk": "Людину, яка вірить у таке, не можна підпускати до нашого правителя."
+ },
+ "flavor_mei.40.desc": {
+  "en": "[target_character.GetName] is a renowned itinerant surgeon that has been offering [target_character.GetHerHis] services through [ShowAreaName('upper_saxony_area')], [ShowAreaName('bohemia_area')], and [ShowAreaName('silesia_area')].\\n\\n[target_character.GetHerHis|U] skills are undoubtedly impressive, but [target_character.GetSheHe] is also known for believing in magic, which [target_character.GetSheHe] considers linked to medicine, and that could be the cause of a scandal.",
+  "uk": "[target_character.GetName] — відомий мандрівний хірург, який подорожує по #TOOLTIP:AREA,upper_saxony_area,X #L Верхній Саксонії#!#!, #TOOLTIP:AREA,bohemia_area,X #L Богемії#!#! та #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#!, пропонуючи свої послуги.\\n\\n[Select_CString(target_character.IsFemale,'Її', 'Його')] майстерність не викликає сумнівів. Однак [Select_CString(target_character.IsFemale,'вона', 'він')] вірить у магію та її зв'язок із медициною, і цей факт може призвести до великого скандалу."
+ },
+ "flavor_mei.40.entry": {
+  "en": "Georg Bartisch",
+  "uk": ""
+ },
+ "flavor_mei.40.historical_info": {
+  "en": "Georg Bartisch, a prominent German physician and surgeon, is renowned for his significant contributions to ophthalmology. In the 16th century, he authored one of the earliest comprehensive books on eye diseases and their treatment, titled \"Ophthalmodouleia,\" which became a seminal work in the field. Bartisch's pioneering observations and innovative surgical techniques advanced the understanding and care of various eye conditions, leaving a lasting impact on the development of ophthalmology as a medical discipline.",
+  "uk": "Георг Бартіш, видатний німецький лікар і хірург, зробив значний внесок у розвиток медицини. У XVI столітті він написав одну з перших книг про захворювання очей та їхнє лікування, яку назвав «Ophthalmodouleia». Ця праця лягла в основу офтальмології. Передові ідеї Бартіша та розроблені ним хірургічні методи пролили світло на багато очних хвороб і справили величезний вплив на розвиток офтальмології як галузі медицини."
+ },
+ "flavor_mei.40.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mei.50.a": {
+  "en": "[ShowLocationNameWithNoTooltip('dresden')] will be our new capital.",
+  "uk": "[ShowLocationNameWithNoTooltip('dresden')] стане нашою новою столицею."
+ },
+ "flavor_mei.50.b": {
+  "en": "[ShowLocationNameWithNoTooltip('dresden')] has become important enough!",
+  "uk": "[ShowLocationNameWithNoTooltip('dresden')] уже став важливим містом!"
+ },
+ "flavor_mei.50.desc": {
+  "en": "From an insignificant settlement, [ShowLocationName('dresden')] has been slowly but steadily growing since it received the staple right in 1455.\\n\\nIts position in the Elbe river makes it an interesting place for commerce and it is close to the rich mines in the Ore Mountains. Some wonder if this could not be a good opportunity to build a new capital.",
+  "uk": "Відтоді, як у 1455 невелике поселення #TOOLTIP:LOCATION,dresden_tt,X #L Дрезден#!#! отримало складське право, воно повільно, але невпинно росло.\\n\\nМісто розташоване на річці Ельба, що полегшує торгівлю, а також неподалік від Рудних гір із багатими покладами. Дехто вважає, що перенести столицю до Дрездена — чудова ідея."
+ },
+ "flavor_mei.50.entry": {
+  "en": "The Rise of Dresden",
+  "uk": ""
+ },
+ "flavor_mei.50.historical_info": {
+  "en": "While Dresden was not an important city until it was made the ducal residence of the Saxon rulers in 1485, it became a center of culture and one of the most important cities in the HRE.",
+  "uk": "Хоча Дрезден був малозначним містом до того, як саксонські правителі зробили його своєю резиденцією в 1485 році, він здобув славу культурного центру та одного з найзначніших міст Священної Римської імперії."
+ },
+ "flavor_mei.50.title": {
+  "en": "The Rise of [ShowLocationNameWithNoTooltip('dresden')]",
+  "uk": "Розквіт Дрездена"
+ },
+ "flavor_mei.60.a": {
+  "en": "More money is always welcome.",
+  "uk": "Гроші зайвими не бувають."
+ },
+ "flavor_mei.60.b": {
+  "en": "We should reinvest this money in [ShowLocationNameWithNoTooltip('dresden')].",
+  "uk": "Вкладемо ці кошти в розвиток Дрездена."
+ },
+ "flavor_mei.60.desc": {
+  "en": "Every year, the city of [ShowLocationName('dresden')] celebrates a Christmas Market called the #italic Dresden Striezelmarkt#! where residents and people from the neighboring towns gather to buy or sell different types of products. This market has been celebrated since 1434, when a privilege was issued to the city council.\\n\\nWhile the market is profitable, this year's profits have been higher than anticipated, and the city council has decided to gift us part of the benefits earned from the fees. Our advisors have been debating what we should do with the money.",
+  "uk": "Щороку в #TOOLTIP:LOCATION,dresden_tt,X #L Дрездені#!#! проходить різдвяний ярмарок, що отримав назву #italic «Дрезден Штріцельмаркт»#!, під час якого мешканці Дрездена та найближчих міст продають і купують різноманітні товари. Цей ярмарок проводиться з 1434 року, коли міська рада отримала таку привілегію.\\n\\nРинок завжди приносить великий прибуток, але цього року він перевершив усі очікування, тому міська рада вирішила подарувати нам частину доходу від зборів. Наші радники вирішують, як вчинити з цими грошима."
+ },
+ "flavor_mei.60.entry": {
+  "en": "$flavor_mei.60.title$",
+  "uk": ""
+ },
+ "flavor_mei.60.historical_info": {
+  "en": "The Dresden Striezelmarkt is the oldest documented Christmas market in Germany and one of the central atractions of the city of Dresden",
+  "uk": "Дрезден Штріцельмаркт — найстаріший різдвяний ярмарок Німеччини, згаданий у документах, і одна з головних визначних пам'яток Дрездена."
+ },
+ "flavor_mei.60.title": {
+  "en": "A Christmas Gift",
+  "uk": "Різдвяний подарунок"
+ },
+ "flavor_mei.70.a": {
+  "en": "Let them tear down the church and rebuilt it in their faith.",
+  "uk": "Дозволити їм зруйнувати церкву й перебудувати її на свій смак."
+ },
+ "flavor_mei.70.b": {
+  "en": "They should convert instead.",
+  "uk": "Вони мають прийняти нашу віру."
+ },
+ "flavor_mei.70.desc": {
+  "en": "The citizens of [ShowLocationName('dresden')], while generally loyal subjects, have been agitated lately. They mostly follow a different faith than ours and they are demanding to have their own temple to practice their religion as they feel they should.\\n\\nTo do so, they are willing to demolish the #italic Frauenkirche#! church and rebuilt it again in their style. While they are willing to pay for it, we suspect that it will incur in new expenses, not to talk about the setting of a precedence that could become problematic for us.",
+  "uk": "Серед мешканців #TOOLTIP:LOCATION,dresden_tt,X #L Дрездена#!#! — міста, загалом лояльного до корони, — зростає обурення. Більшість городян сповідує іншу віру, і їм потрібен власний храм, де вони могли б відправляти богослужіння.\\n\\nВони просять знести стару церкву Богоматері або #italic Фрауенкірхе#! і на її місці збудувати новий храм в іншому стилі. Хоча вони кажуть, що готові оплатити будівництво, ми боїмося, що їхніх коштів не вистачить. Крім того, якщо ми підемо в них на поводу, то створимо небезпечний прецедент."
+ },
+ "flavor_mei.70.entry": {
+  "en": "$flavor_mei.70.title$",
+  "uk": ""
+ },
+ "flavor_mei.70.historical_info": {
+  "en": "During the pre-Reformation era, the Frauenkirche served as an archpriest's seat in the Meissen Diocese. However, with the advent of the Reformation, it transformed into a Protestant church. The original Frauenkirche was demolished in 1727, making way for a grander replacement with increased capacity. The citizens took charge of rebuilding it as a Lutheran parish church, receiving unexpected support from Saxony's Prince-elector, Frederick August I, who had converted to Catholicism to become the King of Poland. His backing not only enhanced Dresden's skyline with an impressive cupola but also reassured the people of Saxony that they would not be coerced into the principle of #italic cuius regio, eius religio#!.",
+  "uk": "До реформації в церкві Фрауенкірхе розташовувалася кафедра преосвященного єпископа Дрездена-Майсена. Однак в епоху реформації Фрауенкірхе перетворилася на протестантський храм. У 1727 році церкву знесли, а на її місці звели великий просторий собор. Городяни вирішили самостійно перебудувати його на лютеранську парафіяльну церкву й несподівано отримали підтримку від саксонського курфюрста Фрідріха Августа I, який прийняв католицизм, щоб стати королем Польщі. На його кошти було збудовано вражаючий купол, а мешканці Саксонії остаточно переконалися, що до них не застосовуватиметься відомий принцип #italic «Чия країна, того й віра»#!."
+ },
+ "flavor_mei.70.title": {
+  "en": "Demands for a New #italic Frauenkirche#!",
+  "uk": "Вимоги збудувати нову #italic Фрауенкірхе#!"
+ },
+ "flavor_mei.80.a": {
+  "en": "Bring [target_character.GetHerHim] to our court, regardless.",
+  "uk": "Все одно наблизити [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+ },
+ "flavor_mei.80.b": {
+  "en": "[target_character.GetSheHe|U] has bad fame, we do not need [target_character.GetHerHim].",
+  "uk": "Нам не потрібен автор із поганою славою."
+ },
+ "flavor_mei.80.desc": {
+  "en": "A young writer, named [target_character.GetName], has become a celebrity in literary circles after the publishing of [target_character.GetHerHis] work #italic The Sorrows of Young Werther#!. This novel has been criticized by some for the reaction some lectors have had after reading it. Trying to emulate the protagonist of the novel and his tragic unrequited love, several people have killed themselves in the same fashion as him. From a literary point of view, the novel is undisputedly an excellent work but the influence it has on impressionable people can be dangerous.",
+  "uk": "[Select_CString(target_character.IsFemale,'Молода письменниця', 'Молодий письменник')] [target_character.GetName] [Select_CString(target_character.IsFemale,'здобула', 'здобув')] широку відомість у літературних колах після виходу [Select_CString(target_character.IsFemale,'її', 'його')] роману #italic «Страждання молодого Вертера»#!. Цей твір зазнав серйозної критики через його згубний вплив на читачів. Кілька людей покінчили життя самогубством, наслідуючи головного героя, який страждає від нещасливого кохання. Художня цінність роману безсумнівна, але він може становити небезпеку для особливо вразливих натур."
+ },
+ "flavor_mei.80.entry": {
+  "en": "$flavor_mei.80.title$",
+  "uk": ""
+ },
+ "flavor_mei.80.historical_info": {
+  "en": "Goethe's #italic The Sorrows of Young Werther#! is a novel that portrays the intense emotions and tragic fate of its protagonist, Werther. Published in 1774, it became a literary sensation, inspiring a cultural phenomenon known as the #italic Werther Effect#!. This term refers to a surge in suicides and imitative behaviors triggered by the novel's romantic portrayal of self-destructive love. The book's profound impact on readers' emotions and actions sparked discussions on the responsibility of art and literature in society.",
+  "uk": "У своєму романі #italic «Страждання молодого Вертера»#! Ґете описує важкі переживання й трагічну долю головного героя — Вертера. Книга вийшла в 1774 році, одразу стала літературною сенсацією та породила культурний феномен, що отримав назву #italic «ефект Вертера»#!. Цим терміном позначали сплеск наслідувальних самогубств, спричинений романтизацією саморуйнівного кохання. Сильний вплив, який книга справила на почуття та вчинки читачів, став предметом широкої дискусії про відповідальність мистецтва перед суспільством."
+ },
+ "flavor_mei.80.title": {
+  "en": "The Sorrows of Young Werther",
+  "uk": "«Страждання молодого Вертера»"
+ },
+ "flavor_mei.90.a": {
+  "en": "What an awesome play!",
+  "uk": "Приголомшлива п'єса!"
+ },
+ "flavor_mei.90.desc": {
+  "en": "During the last months, our court artist [target_character.GetName] has been working on a play inspired on the legend of Johann George Faust.\\n\\n$faust_desc$",
+  "uk": "Останніми місяцями наш придворний драматург [target_character.GetName] працює над постановкою за мотивами легенди про Йоганна Георга Фауста.\\n\\n$faust_desc$"
+ },
+ "flavor_mei.90.entry": {
+  "en": "$flavor_mei.90.title$",
+  "uk": ""
+ },
+ "flavor_mei.90.historical_info": {
+  "en": "Johann Wolfgang von Goethe's #italic Faust#! is a renowned tragic play in two parts, #italic Faust, Part One#! and #italic Faust, Part Two#!. The earliest versions, known as #italic Urfaust#!, were crafted between 1772 and 1775, but the exact development remains unclear. #italic Urfaust#! consists of twenty-two scenes, blending prose and rhymed verse. Although the original manuscript is lost, a copy surfaced in 1886.\\n\\nIn 1790, the first printed appearance was #italic Faust, a Fragment#!. Goethe then completed #italic Part One#! in 1806, followed by its publication in 1808, and a revised edition in 1828 to 29. #italic Faust, Part Two#!, completed in 1831, focuses on diverse themes like psychology, history, politics, and mystical and philosophical topics, making it the culmination of Goethe's later years. #italic Part One#! and most of #italic Part Two#! are written in rhymed verse and hold a prominent position on German-language stages. Regarded as Goethe's magnum opus and a masterpiece of German literature, #italic Faust#! weaves a captivating tale.",
+  "uk": "#italic «Фауст» #! Йоганна Вольфганга фон Ґете — це відома трагічна п'єса в двох частинах, які називаються #italic «Фауст. Частина 1»#! та #italic Фауст. Частина 2#!. Ранішу версію тексту, #italic «Прафауст»#!, було написано між 1772 і 1775 роками, але точні дати залишаються невідомими. #italic «Прафауст»#! складається з двадцяти двох сцен і являє собою поєднання прози та римованих віршів. Хоча оригінальний рукопис було втрачено, в 1886 році знайшли його копію.\\n\\nПерший уривок п'єси було видано в 1790 році під назвою #italic «Фауст. Фрагмент»#!. У 1806 році Ґете завершує #italic «Першу частину»#!, яка виходить у 1808 році, а в 1828–1829 роках він публікує перевидання. У #italic другій частині «Фауста»#!, завершеній у 1831 році, Ґете звертається до таких тем, як психологія, історія, політика, містика та філософія, завдяки чому ця частина стає кульмінацією пізньої творчості автора. Уся #italic перша#! і майже вся #italic друга#! частина написані у віршах і входять до репертуару багатьох німецьких театрів. Нині #italic «Фауст»#! вважається головною працею Ґете та шедевром німецької літератури."
+ },
+ "flavor_mei.90.title": {
+  "en": "The Tragedy of Faust",
+  "uk": "Трагедія Фауста"
+ },
+ "variable_mei_werner_event_tt": {
+  "en": "The Neptunist Theory is Being Studied",
+  "uk": ""
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "ARMY_STACK_IN_PROVINCE": {
+  "en": "#T $VAL$ Armies#!",
+  "uk": "#T Армії: $VAL$#!"
+ },
+ "ARMY_STACK_MORE": {
+  "en": ".. and $MEN|V$ [manpower_i] from $VAL$ more [armies|e]",
+  "uk": "…і $MEN|V$ [manpower_i] з низки інших [Concept('armies','армій')|e] ($VAL$)"
+ },
+ "ARMY_TOOLTIP_IN_PROVINCE": {
+  "en": "$BULLET_WITH_TAB$[UNIT.GetName] with [UNIT.GetVisualStrength] [manpower_i] from [UNIT.GetCountry.GetName] in [UNIT.GetLocation.GetName]",
+  "uk": "$BULLET_WITH_TAB$[UNIT.GetName] з [UNIT.GetVisualStrength] [manpower_i] з держави [UNIT.GetCountry.GetName] у районі [UNIT.GetLocation.GetName]"
+ },
+ "ARMY_TOOLTIP_IN_PROVINCE_HEADER": {
+  "en": "#T [UNIT.GetName]#!\\n[UNIT.GetVisualStrength] [manpower_i] from [UNIT.GetCountry.GetName]",
+  "uk": "#T [UNIT.GetName]#!\\n[UNIT.GetVisualStrength] [manpower_i] з держави [UNIT.GetCountry.GetName]"
+ },
+ "BLOCKED_VISION_TOOLTIP": {
+  "en": "Enemy [units|e] may be [hidden|e] in [LOCATION.GetName] due to having the following features:\\n$WHY$",
+  "uk": "Ворожі [Concept('units','загони')|e] можуть [Concept('hidden','ховатися')|e] в районі [LOCATION.GetName]. Причини:\\n$WHY$"
+ },
+ "BLOCKED_VISION_TOOLTIP_TEXT": {
+  "en": "Blocked Vision",
+  "uk": "Перекритий огляд"
+ },
+ "CHARACTER_ACTIVITY_TOOLTIP": {
+  "en": "[CHARACTER.GetTitledFullName] attends this activity",
+  "uk": "[CHARACTER.GetTitledFullName] присутній при цій події"
+ },
+ "CHARACTER_COMMANDER_TOOLTIP": {
+  "en": "[CHARACTER.GetTitledFullName] is a commander in this [army|e]",
+  "uk": "[CHARACTER.GetTitledFullName] є командиром цієї [Concept('army','армії')|e]"
+ },
+ "CHARACTER_MOVEMENT_DAYS": {
+  "en": "$DAYS|H$ day(s)",
+  "uk": "$DAYS|H$ д."
+ },
+ "CHARACTER_TOOLTIP": {
+  "en": "[CHARACTER.GetName|Y]",
+  "uk": ""
+ },
+ "CITY_MARKER_TOOLTIP": {
+  "en": "[LOCATION.GetRank.GetName] of [LOCATION.GetName]",
+  "uk": ""
+ },
+ "CITY_MARKER_TOOLTIP_CAPITAL": {
+  "en": "[capital|e] of [COUNTRY.GetName]",
+  "uk": "[Concept('capital','Столиця')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!"
+ },
+ "CLICK_TO_RECRUIT": {
+  "en": "Click to Recruit",
+  "uk": "Клацніть, щоб набрати"
+ },
+ "CLICK_TO_SELECT": {
+  "en": "Click to Select",
+  "uk": "Клацніть, щоб обрати"
+ },
+ "COUNTRY_FLAG_TT": {
+  "en": "[COUNTRY.GetName]",
+  "uk": ""
+ },
+ "DESERT_CONNECTOR_TOOLTIP": {
+  "en": "Desert Connection",
+  "uk": "Прилягання до пустелі"
+ },
+ "DESERT_CONNECTOR_TOOLTIP_TEXT": {
+  "en": "[LOCATION.GetName] connects the following [locations|e]:",
+  "uk": "[LOCATION.GetName] пов'язує наступні [Concept('locations','райони')|e]:"
+ },
+ "FORD_TOOLTIP": {
+  "en": "Ford between $FROM|H$ and $TO|H$",
+  "uk": "Брід між районами $FROM|H$ і $TO|H$"
+ },
+ "FORT_LOCATION_LEVEL": {
+  "en": "Level [Location.GetRomanFortLevel]",
+  "uk": "[Location.GetRomanFortLevel] рів."
+ },
+ "FORT_UNOCCUPIED_TOOLTIP": {
+  "en": "Level [LOCATION.GetFortLevel|Y] [fort|e]",
+  "uk": "[Concept('fort','Фортеця')|e] рівня [LOCATION.GetFortLevel|Y]"
+ },
+ "GENERAL_COMBAT_MARKER_TT": {
+  "en": "[CombatSide.GetCommander.GetName] with [CombatSide.GetCommander.GetTotalAbility|Y]",
+  "uk": ""
+ },
+ "GENERAL_TT": {
+  "en": "[UnitMarkerItem.GetUnit.GetCommander.GetName] with [UnitMarkerItem.GetUnit.GetCommander.GetTotalAbility|Y]",
+  "uk": ""
+ },
+ "MAPICON_BUILD_BUILD_TT": {
+  "en": "Building $NAME|Y$ which will be finished at $WHEN|Y$.",
+  "uk": "$NAME|Y$: йде будівництво, яке завершиться $WHEN|Y$."
+ },
+ "MAPICON_BUILD_CAPITAL_TT": {
+  "en": "$NAME|Y$ will be finished at $WHEN|Y$.",
+  "uk": "$NAME|Y$: будівництво завершиться $WHEN|Y$."
+ },
+ "MAPICON_BUILD_RECRUIT_TT": {
+  "en": "Recruiting $NAME|Y$ which will be finished at $WHEN|Y$.",
+  "uk": "$NAME|Y$: йде набір, який завершиться $WHEN|Y$."
+ },
+ "MAPICON_BUILD_SHIP_TT": {
+  "en": "Building $VAL|Y$ of a possible [LOCATION.GetModifierValue('max_ships_built_at_same_time')] [ships|e] in parallel.\\n$DETAILS$",
+  "uk": "Йде будівництво $VAL|Y$ з [LOCATION.GetModifierValue('max_ships_built_at_same_time')] можливих [Concept('ships','кораблів')|e] одночасно.\\n$DETAILS$"
+ },
+ "MAPICON_CREATE_MARKET_TT": {
+  "en": "$NAME|Y$ will be finished at $WHEN|Y$.",
+  "uk": "$NAME|Y$: будівництво завершиться $WHEN|Y$."
+ },
+ "MAPICON_SHIP_ENTRY_TT": {
+  "en": "$NAME$ at $WHEN$",
+  "uk": ""
+ },
+ "NAVY_STACK_IN_PROVINCE": {
+  "en": "#T $VAL$ Navies#!",
+  "uk": "#T Флоти: $VAL$#!"
+ },
+ "NAVY_STACK_MORE": {
+  "en": ".. and $SHIP|V$ @navy_generic! from $VAL$ more [navies|e]",
+  "uk": "…і $SHIP|V$ @navy_generic! з низки інших [Concept('navies','флотів')|e] ($VAL$)"
+ },
+ "NAVY_TOOLTIP_IN_PROVINCE": {
+  "en": "$BULLET_WITH_TAB$[UNIT.GetName] with [UNIT.GetVisualStrength] @navy_generic! from [UNIT.GetCountry.GetName] in [UNIT.GetLocation.GetName]",
+  "uk": "$BULLET_WITH_TAB$[UNIT.GetName] з [UNIT.GetVisualStrength] @navy_generic! з держави [UNIT.GetCountry.GetName] у районі [UNIT.GetLocation.GetName]"
+ },
+ "NAVY_TOOLTIP_IN_PROVINCE_HEADER": {
+  "en": "#T [UNIT.GetName]#!\\n[UNIT.GetVisualStrength] @navy_generic! from [UNIT.GetCountry.GetName]",
+  "uk": "#T [UNIT.GetName]#!\\n[UNIT.GetVisualStrength] @navy_generic! з держави [UNIT.GetCountry.GetName]"
+ },
+ "NO_FORT_LOCATION_LEVEL": {
+  "en": "No Forts",
+  "uk": "Немає фортець"
+ },
+ "NO_LEADER_TT": {
+  "en": "#T No Commander#!\\nThis Unit has no Commander\\n\\n$CLICK_TO_SELECT$",
+  "uk": "#T Немає командира#!\\nУ цього загону немає командира\\n\\n$CLICK_TO_SELECT$"
+ },
+ "NO_SHIPS_IN_PORT": {
+  "en": "Currently, there are no [ships|e] in port.",
+  "uk": "Наразі в порту немає [Concept('ships','кораблів')|e]."
+ },
+ "OCCUPATION_FINISHED_IN_X_DAYS": {
+  "en": "The occupation will be finished in $VAL|Y$ day(s).\\nThe length of this occupation is due to:\\n$WHY$",
+  "uk": "Окупація завершиться через $VAL|Y$ д.\\nПричини:\\n$WHY$"
+ },
+ "OCCUPATION_X_DAYS_LEFT": {
+  "en": "$VAL|Y$ day(s) left",
+  "uk": "Залишилося $VAL|Y$ д."
+ },
+ "OCCUPATION_X_DAYS_LEFT_SHORT": {
+  "en": "$VAL|Y$d",
+  "uk": ""
+ },
+ "ONMAP_UNIT_TOOLTIP": {
+  "en": "$NAME$ ($CONTROLLER$)\\n($MORALE|Y$%)(morale)\\nReinforcements/month: $REINFORCEMENTS|Y$\\nRegiments: $REGIMENTS|Y$\\nMaintenance: $MAINTENANCE$",
+  "uk": "$NAME$ ($CONTROLLER$)\\n($MORALE|Y$%)(бойовий дух)\\nУтримання на місяць: $REINFORCEMENTS|Y$\\nПолки: $REGIMENTS|Y$\\nУтримання: $MAINTENANCE$"
+ },
+ "PORT_NO_VISIBILITY": {
+  "en": "We do not know if there are ships stationed at this [port|e].",
+  "uk": "Ми не знаємо, чи стоять кораблі в цьому [Concept('port','порту')|e]."
+ },
+ "PORT_STACK_HEADER": {
+  "en": "#T $VAL$ Navies in Port#!",
+  "uk": "#T Флоти в порту: $VAL$#!"
+ },
+ "PORT_TOOLTIP": {
+  "en": "",
+  "uk": ""
+ },
+ "PORT_TOOLTIP_NEW": {
+  "en": "The Port of [PortMarker.GetLocation.GetNameWithNoTooltip]",
+  "uk": "Порт у районі [PortMarker.GetLocation.GetNameWithNoTooltip]"
+ },
+ "PORT_TOOLTIP_TEXT": {
+  "en": "This [port|e] is located in the [PortMarker.GetPortSeaZone.GetName] [seazone|e].\\n\\n[PortMarker.GetShipsInfo]",
+  "uk": ""
+ },
+ "SIEGE_IS_OVER": {
+  "en": "The Siege is over",
+  "uk": "Облога закінчена"
+ },
+ "STRAIT_TOOLTIP": {
+  "en": "Strait between $FROM|H$ and $TO|H$",
+  "uk": "Протока між районами $FROM|H$ і $TO|H$"
+ },
+ "UNIT_BLOCKADE_PERCENT": {
+  "en": "$PERCENT|0%$",
+  "uk": ""
+ },
+ "UNIT_HAS_ARMIES_DISEMBARKING": {
+  "en": "#R This [navy|e] has embarked [armies|e] [disembarking|e], it cannot move at the moment.#!",
+  "uk": "#R Цей [Concept('navy','флот')|e] не може рухатися, поки з нього [Concept('disembarking','висаджуються')|e] [Concept('armies','армії')|e].#!"
+ },
+ "UNIT_IS_IN_ASSAULT": {
+  "en": "#R We need to wait out the assault first!#!",
+  "uk": "#R Спершу нам потрібно перечекати штурм!#!"
+ },
+ "UNIT_IS_IN_COMBAT": {
+  "en": "#R Unit cannot leave combat for now.#!",
+  "uk": "#R Зараз загін не може вийти з бою.#!"
+ },
+ "UNIT_IS_MOTHBALLED": {
+  "en": "[UNIT.GetName] is [mothballed|E] and thus can not move.",
+  "uk": "Загін «[UNIT.GetName]» [Concept('mothballed','законсервовано')|e] і не може переміщатися."
+ },
+ "UNIT_IS_ON_MOVING_SHIP": {
+  "en": "#R Unit is embarked on a moving [ship|e] and cannot [disembark|e] now.#!",
+  "uk": "#R Загін перебуває на рухомому [Concept('ship','кораблі')|e] і не може [Concept('disembark','висадитися')|e].#!"
+ },
+ "UNIT_IS_RETREATING": {
+  "en": "#R Unit is retreating and will arrive in $NAME|Y$ on $DATE|Y$. It will not be able to take new orders nor be attacked while retreating.#!",
+  "uk": "#R Загін відступає і прибуде в район $NAME|Y$ $DATE|Y$. Під час відступу він не зможе виконувати нові накази і зазнавати атак.#!"
+ },
+ "UNIT_WILL_ARRIVE": {
+  "en": "Will arrive in $NAME|Y$ on $DATE|Y$",
+  "uk": "Прибуде до цілі ($NAME|Y$) $DATE|Y$"
+ },
+ "UNIT_WILL_ARRIVE_AND_COMBAT": {
+  "en": "A combat will take place in $NAME|Y$ when arriving on $DATE|Y$",
+  "uk": "Битва відбудеться $DATE|Y$ у районі $NAME|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_MAJOR_RIVER": {
+  "en": "Will cross a major river and arrive in $NAME|Y$ on $DATE|Y$",
+  "uk": "Переправиться через велику річку і прибуде до цілі в районі $NAME|Y$ $DATE|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_MAJOR_RIVER_AND_COMBAT": {
+  "en": "A combat will take place in $NAME|Y$ when [crossing|e] a major river on $DATE|Y$",
+  "uk": "Битва відбудеться $DATE|Y$ при [Concept('crossing','форсуванні')|e] великої річки в районі $NAME|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_RIVER": {
+  "en": "Will cross a river and arrive in $NAME|Y$ on $DATE|Y$",
+  "uk": "Переправиться через річку і прибуде до цілі в районі $NAME|Y$ $DATE|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_RIVER_AND_COMBAT": {
+  "en": "A combat will take place in $NAME|Y$ when [crossing|e] a [river|e] on $DATE|Y$",
+  "uk": "Битва відбудеться $DATE|Y$ при [Concept('crossing','форсуванні')|e] [Concept('river','річки')|e] у районі $NAME|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_STRAIT": {
+  "en": "Will cross a strait and arrive in $NAME|Y$ on $DATE|Y$",
+  "uk": "Переправиться через протоку і прибуде до цілі в районі $NAME|Y$ $DATE|Y$"
+ },
+ "UNIT_WILL_ARRIVE_CROSS_STRAIT_AND_COMBAT": {
+  "en": "A combat will take place in $NAME|Y$ when [crossing|e] a strait on $DATE|Y$",
+  "uk": "Битва відбудеться $DATE|Y$ при [Concept('crossing','форсуванні')|e] протоки в районі $NAME|Y$"
+ },
+ "UNIT_WILL_ARRIVE_FINAL_DESTINATION": {
+  "en": "Will arrive in the final destination in $NAME|Y$ on $DATE|Y$",
+  "uk": "Прибуде до кінцевої цілі в районі $NAME|Y$ $DATE|Y$"
+ },
+ "WINTER_BLOCKED_TOOLTIP": {
+  "en": "[LOCATION.GetName] is currently blocked by [winter|e]. Armies cannot enter or pass through this location until winter ends.",
+  "uk": ""
+ },
+ "WINTER_BLOCKED_TOOLTIP_TEXT": {
+  "en": "Winter Blocked",
+  "uk": ""
+ }
+}

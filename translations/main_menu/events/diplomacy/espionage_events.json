@@ -1,0 +1,146 @@
+{
+ "counterintelligence_operation": {
+  "en": "Counterintelligence Operation",
+  "uk": "Контррозвідувальна операція"
+ },
+ "espionage_events.1.a": {
+  "en": "Accept the offer for a lesser sum and spare his life.",
+  "uk": "Приймемо пропозицію за меншу плату — в обмін на збереження його життя."
+ },
+ "espionage_events.1.b": {
+  "en": "Shadow him for a few days before he has an accident.",
+  "uk": "Простежимо за шпигуном, а за кілька днів влаштуємо йому «нещасний випадок»."
+ },
+ "espionage_events.1.desc": {
+  "en": "Espionage may be the hardest test there is for loyalty to one's country. Both fear and temptations surround spies constantly, and the better they are at what they do, the more certain they are to face them. These temptations, of course, are something we are more than willing to provide foreign agents.\\n\\nAn agent from [espionage_event_country.GetName], a country where corruption is rampant, has recently decided to give in to one of these temptations. Eager to make a bigger profit than most can hope to earn through bribes, he has offered to act as a double agent for us. However, the 'anonymous' method of contact he chose has turned out to be less anonymous than expected, so we now know his name. How shall we proceed?",
+  "uk": "Шпигунство часто стає найсерйознішим випробуванням на вірність державі. Шпигун живе у постійному страху, його звідусіль оточують спокуси — і що краще він володіє своїм ремеслом, то частіше стикається з небезпекою та спокусою. А ми маємо чимало спокус для чужоземних агентів…\\n\\nНещодавно на одну таку спокусу спокусився #L [espionage_event_country.GetAdjective|l]ий#! шпигун. Його батьківщина повністю загрузла в корупції, але звичайних хабарів йому було замало — цей пройдисвіт вирішив запропонувати нам свої послуги як подвійний агент. Він повідомив це анонімно, звісно, — але обраний ним спосіб зв'язку виявився не таким захищеним, як розраховував шпигун, і ми змогли встановити його ім'я. Як з ним вчинити?"
+ },
+ "espionage_events.1.title": {
+  "en": "Half the Loyalty, Double the Agent",
+  "uk": "Подвійний агент сумнівної вірності"
+ },
+ "espionage_events.10.a": {
+  "en": "No. An enemy spy who buckles under pressure is a valuable source.",
+  "uk": "Ні. Ворожий шпигун, що зламався під тиском, — це цінне джерело."
+ },
+ "espionage_events.10.b": {
+  "en": "We all spy on each other. We can forgive and forget.",
+  "uk": "Всі ми шпигуємо одне за одним. Слід зрозуміти й пробачити."
+ },
+ "espionage_events.10.desc": {
+  "en": "Once arrested and removed from the comfort of his station, the ambassador we suspected of being complicit in espionage quickly admitted his guilt under interrogation. What's more, his confession indicates the spy network he was part of was more far-reaching than previously suspected. While this is certainly an embarrassment for [spying_ambassador.GetName], they are requesting we resolve the situation amicably by sending the ambassador home immediately.\\n\\nWhile it is good praxis not to kill or imprison diplomats when it can be avoided, this man has proven himself to be an enemy of our nation. More importantly, he could still have information that is of value to us. Should we let him go to smooth over the situation?",
+  "uk": "На допиті заарештований посол негайно визнав свою провину в розвідувальній діяльності. Більше того, з його свідчень випливає, що #L [spying_ambassador.GetAdjective|l]а#! шпигунська мережа розкинулася значно ширше, ніж ми могли припускати. Проковтнувши приниження, #L [spying_ambassador.GetAdjective|l]а#! влада пропонує вислати посла на батьківщину, щоб вирішити ситуацію мирно.\\n\\nВбивати дипломатів або кидати їх до в'язниці без крайньої необхідності вважається поганим тоном, проте ця людина вже довела, що є нашим ворогом. Гірше того, вона може володіти інформацією, критично важливою для нашої держави. Чи варто відпускати її, щоб згладити конфлікт?"
+ },
+ "espionage_events.10.title": {
+  "en": "Ambassador Confesses",
+  "uk": "Посол дає свідчення"
+ },
+ "espionage_events.2.a": {
+  "en": "He'll be even more valuable to us now.",
+  "uk": "Його цінність як агента лише зросла."
+ },
+ "espionage_events.2.b": {
+  "en": "He has done enough damage already. Invite him home for the last time.",
+  "uk": "Він завдав достатньо шкоди. Час викликати його додому… востаннє."
+ },
+ "espionage_events.2.desc": {
+  "en": "We are more than aware of the corruption plaguing [ROOT.GetCountry.GetAdjective] society, but we had at least hoped that it did not go beyond money changing hands between our own citizens. We were wrong. Associates of an agent maintaining our spy network in [origin_country.GetName] have proven recently that he has accepted a sum of money that could only have come from the [origin_country.GetAdjective] government. We have to accept that one of our best was not as loyal as we hoped.\\n\\nSome say that this operation may be salvaged yet. If confronted with evidence of his betrayal, he might be ready to switch back to his original allegiance - with the added benefit of having the trust of the [origin_country.GetAdjectiveWithNoTooltip]. Is it worth the risk?",
+  "uk": "Всім відомо, що #L [ROOT.GetCountry.GetAdjective|l]е#! суспільство наскрізь уражене корупцією, але донедавна ми вірили, що це не виходить за межі неформальних відносин між нашими підданими. На жаль, ми помилилися. Спільники агента, що очолює нашу шпигунську мережу на території #ONCLICK:COUNTRY,[origin_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[origin_country.Custom('CL_tt')],X [origin_country.Custom('CL_GEN')|L]#!#!, повідомляють, що нещодавно він отримав велику суму грошей, і надійти вона могла лише з #L [origin_country.GetAdjective|l]ої#! скарбниці. Ми змушені визнати, що один з наших найкращих людей виявився не таким відданим, як ми думали.\\n\\nДехто вважає, що нашу мережу ще можна врятувати. Якщо пред'явити зраднику докази його зради, можливо, він погодиться перекинутися назад — при цьому зберігши повну довіру [origin_country.GetAdjectiveWithNoTooltip|l]ої влади. Але чи варта така гра свічок?"
+ },
+ "espionage_events.2.title": {
+  "en": "Second Chance for a Traitor",
+  "uk": "Другий шанс для зрадника"
+ },
+ "espionage_events.3.a": {
+  "en": "This is getting ridiculous, and so is the notion of trusting him.",
+  "uk": "Це вже якийсь абсурд. Не варто було довіряти йому від самого початку."
+ },
+ "espionage_events.3.b": {
+  "en": "He fooled them again? He's pretty good.",
+  "uk": "Він знову їх одурив? Ось це так!"
+ },
+ "espionage_events.3.desc": {
+  "en": "The difficult thing about relying on people of low character is that they have rarely been swayed for the last time. The [espionage_event_country.GetAdjective] spy we offered a large sum of money and our mercy for turning double agent against his country seems to have been discovered by those he betrayed. Our other spies report that he was offered to continue working for both nations, but with his true allegiance shifted back to his home country.\\n\\nThat the offer has been made, there can be no doubt about. His coming out of it alive means he must have, at the very least, pretended to accept. Despite this, he may still be working for us and could only be handing token information to the enemy. Can we afford to take our chances?",
+  "uk": "Коли маєш справу з негідними людьми, то останнє, чого від них слід очікувати — беззавітної відданості. Схоже, #L [espionage_event_country.GetAdjective|l]ий#! шпигун, якому ми зберегли життя і взяли на службу як подвійного агента, був викритий. Інші наші агенти повідомляють, що йому запропонували й надалі працювати на обидві розвідки, але зобов'язали при цьому діяти виключно в інтересах рідної держави.\\n\\nНемає жодних сумнівів у тому, що йому справді зробили таку пропозицію. І якщо він досі живий, значить, він погодився — або вдав, що погодився. Тим не менш, він усе ще міг би працювати на нас, а ворогу передавати лише малозначну інформацію. Чи ризикнемо ми працювати з ним і надалі?"
+ },
+ "espionage_events.3.title": {
+  "en": "Twice the Traitor?",
+  "uk": "Подвійний зрадник"
+ },
+ "espionage_events.3.tt_1": {
+  "en": "If the agent is now loyal to them:",
+  "uk": "Якщо агент тепер вірний противнику:"
+ },
+ "espionage_events.3.tt_2": {
+  "en": "If the agent is still loyal to us:",
+  "uk": "Якщо агент досі вірний нам:"
+ },
+ "espionage_events.4.a": {
+  "en": "Their sins may be of interest, even if we cannot absolve them...",
+  "uk": "Ми не можемо відпускати чужі гріхи, а ось дізнатися про них буде вельми корисно…"
+ },
+ "espionage_events.4.b": {
+  "en": "Unthinkable! She should inform the priests that they can be heard.",
+  "uk": "Це обурливо! Вона має негайно повідомити священникам, що їх можуть підслухати!"
+ },
+ "espionage_events.4.desc": {
+  "en": "Religious institutions are considered sacrosanct and above the petty plots and schemes of countries and spies. This is why it is crucial to infiltrate them. Many secrets that would never be spoken aloud are told in confidence to religious authorities, which the practice of confession has even turned into an institution.\\n\\nA church in [victim_country.GetName], a country on which we have focused our espionage efforts, has presented an unprecedented opportunity to exploit this. One of our loyal agents, posing as a nun in a local convent, has found that she can overhear the conversations from confessionals while doing chores in the church. While she is likely to escape detection, the plan would outrage religious authorities if discovered. Is it worth taking our chances?",
+  "uk": "Релігійні інституції недарма вважаються священними — вони мають стояти понад державними інтересами та шпигунськими іграми. Ось чому так важливо мати там своїх людей. Багато таємниць, про які не говорять вголос, по секрету повідомляються священнослужителям, а сповідь стала освяченою часом традицією.\\n\\nОстаннім часом ми наводнили #ONCLICK:COUNTRY,[victim_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[victim_country.Custom('CL_tt')],X [victim_country.Custom('CL_VP')|L]#!#! своїми агентами, і перед нами відкрилася унікальна можливість. Одна з наших шпигунок під виглядом черниці влаштувалася до місцевого монастиря і невдовзі виявила, що може підслуховувати розмови у сповідальні, поки виконує роботи в церкві. Її навряд чи викриють, але якщо наш план дійде до вух церковної влади, буде великий скандал. Чи варто ризикнути?"
+ },
+ "espionage_events.4.title": {
+  "en": "Seal of Confession",
+  "uk": "Таємниця сповіді"
+ },
+ "espionage_events.5.a": {
+  "en": "Is it too late to ask for forgiveness?",
+  "uk": "Прости нас, Господи, бо ми згрішили…"
+ },
+ "espionage_events.5.desc": {
+  "en": "Our plan to use information from confessionals to improve our intelligence gathering in [victim_country.GetName] has resulted in a diplomatic disaster with the Papacy, as our agent was discovered a few months into the operation. Facing the wrath of the Church, she has since disappeared from the convent along with her belongings; whether this is her own doing or the actions of the enemy, we may never know.\\n\\nWe can be certain, however, that the Church found out enough to realize we were behind what happened. The Pope is shocked that we would exploit the Church and its practices in this way. The [ROOT.GetCountry.GetGovernment.GetRulerTitle] enjoys some plausible deniability, but the country's standing is still irreversibly harmed.",
+  "uk": "Спроба збору інформації під час сповіді в #L [victim_country.GetAdjective|l]ій#! церкві призвела до грандіозного дипломатичного скандалу з папським престолом. Нашу шпигунку викрили, і невдовзі вона зникла з монастиря разом зі своїми речами. Можливо, вона втекла сама або її захопили вороги — цього ми вже ніколи не дізнаємося.\\n\\nЗате точно відомо інше: церква дізналася достатньо, щоб звинуватити в усьому нас. Папа вражений тим, що ми цинічно використали у своїх інтересах церковні таїнства. [ROOT.GetCountry.GetGovernment.GetRulerTitle], звісно, заперечує свою причетність, але репутація нашої держави безнадійно зіпсована."
+ },
+ "espionage_events.5.title": {
+  "en": "Pope Discovers Plot",
+  "uk": "Папа дізнався про наші задуми"
+ },
+ "espionage_events.8.a": {
+  "en": "Of the many possible suspects, this one...",
+  "uk": "З усіх підозрюваних найменше довіри викликає…"
+ },
+ "espionage_events.8.b": {
+  "en": "...or this one seem the most likely.",
+  "uk": "…але й до цієї людини є низка питань."
+ },
+ "espionage_events.8.desc": {
+  "en": "Having a spymaster in our employ has mainly contributed to our intelligence gathering abroad, but our Spymaster sometimes coordinates counterespionage as well. Recently, investigations have uncovered a conspiracy that could only be the work of one of our neighboring countries. Which neighbor is behind it remains unclear, but the constant exchanges of information would require those behind it to be close by.\\n\\nOur spymaster has prepared to round up and harshly question a number of foreign officials who might be involved, but conflicting theories about the culprits leaves it up to the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to decide who to target. Our neighbors will probably not appreciate the accusations, but something needs to be done, and fast.",
+  "uk": "Основний обов'язок глави наших шпигунів — отримання розвідданих з-за кордону, але іноді він займається й контррозвідкою. Під час нещодавнього розслідування йому вдалося розкрити змову, якою могли керувати лише наші найближчі сусіди. Нам поки не вдалося встановити, хто саме тут замішаний, але потік інформації в обидва боки передбачає, що організатори мають бути зовсім поряд.\\n\\nГлава шпигунів пропонує схопити й допитати низку іноземних чиновників, які можуть бути учасниками змови, але прямих доказів цьому немає, тож остаточне рішення може прийняти лише [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Наші сусіди навряд чи зрадіють, але ми терміново повинні щось вдіяти."
+ },
+ "espionage_events.8.title": {
+  "en": "Spymaster Suspects Neighbors",
+  "uk": "Глава шпигунів підозрює сусідів"
+ },
+ "espionage_events.9.a": {
+  "en": "We must get to the bottom of this. Arrest the ambassador.",
+  "uk": "Ми повинні отримати відповіді. Арештувати посла!"
+ },
+ "espionage_events.9.b": {
+  "en": "Send a request for him to be replaced.",
+  "uk": "Попросимо відкликати посла і пришлемо на його місце іншого дипломата."
+ },
+ "espionage_events.9.c": {
+  "en": "Just try to cut him off from important affairs.",
+  "uk": "Достатньо тримати його в невіданні щодо всіх важливих питань."
+ },
+ "espionage_events.9.desc": {
+  "en": "Ambassadors and diplomatic envoys often double as spies, or at least informants who go beyond their duties to gather information in the country where they are supposed to do honest negotiations. This makes it less than surprising that the [spying_ambassador.GetAdjective] ambassador here in [ROOT.GetCountry.GetCapital.GetName] has been suspected of involvement in espionage. The challenge now lies in tactfully handling this discovery, since only a thorough cross-examination could ascertain guilt.",
+  "uk": "Посли та дипломати часто промишляють шпигунством — або, як мінімум, активно збирають відомості, що виходять далеко за межі їхньої дипломатичної місії. У тому, що #L [spying_ambassador.GetAdjective|l]ий#! посланник у місті [ROOT.GetCountry.GetCapital.GetName] виявився запідозреним у розвідувальній діяльності, немає нічого незвичного. Проблема в іншому — як делікатно вирішити цю ситуацію, уникнувши дипломатичних ускладнень?"
+ },
+ "espionage_events.9.title": {
+  "en": "Secrets in our Alliance",
+  "uk": "Секрети всередині союзу"
+ },
+ "imprisoned_ambassador": {
+  "en": "Imprisoned Ambassador",
+  "uk": "Посол у в'язниці"
+ }
+}

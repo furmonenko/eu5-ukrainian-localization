@@ -1,0 +1,126 @@
+{
+ "flavor_sale_of_lusatia.1000.a": {
+  "en": "Send a diplomat to [GetCountry('MEI').GetCapital.GetNameWithNoTooltip]!",
+  "uk": "Відправимо до [GetCountry('MEI').Custom('CL_ACC')] посла з пропозицією!"
+ },
+ "flavor_sale_of_lusatia.1000.a.entry": {
+  "en": "Send a diplomat to the capital!",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1000.a.tt": {
+  "en": "[GetCountry('MEI').GetName] will be able to purchase [GetCountry('SOR').GetName] for a significant amount of money, transferring the [subject|e] relation to them for 10 years. However, [target_ruler.GetName] will remain the [ruler|e] of [GetCountry('SOR').GetNameWithNoTooltip].",
+  "uk": "[GetCountry('MEI').GetName] отримає можливість придбати [GetCountry('SOR').Custom('CL_ACC')] і зробити її своїм [Concept('subject','васалом')|e] на 10 років. При цьому фактичним [Concept('ruler','правителем')|e] Лужиці залишиться [target_ruler.GetName]."
+ },
+ "flavor_sale_of_lusatia.1000.b": {
+  "en": "We can not part ways with it, not even temporarily.",
+  "uk": "Ми не можемо розлучитися з цією землею — навіть на час."
+ },
+ "flavor_sale_of_lusatia.1000.desc": {
+  "en": "The [GetCountry('SOR').GetLongName], which we acquired with our inheritance after the death of [GetCharacter('bra_heinrich_ii_askanier').GetName], has no great value for [target_ruler.GetName] and [target_ruler.GetHerHis] ambitions in [ROOT.GetCountry.GetCapital.GetName]. Previously, we reached an agreement with the [GetCountry('MEI').GetLongName], pledging the rights to [GetCountry('SOR').GetNameWithNoTooltip] to them. As foreign powers eye [GetCountry('SOR').GetNameWithNoTooltip] up as a avenue for their own expansion, it could be more beneficial to renew this agreement, and gaining money from it now instead of being shackled to the burden of defending it from foreign aggression.",
+  "uk": "[GetCountry('SOR').GetName], яку [GetCharacter('bra_heinrich_ii_askanier').GetName] залишив нам у спадок, не має для нас особливої цінності: зараз [target_ruler.GetName] куди більше [Select_CString(target_ruler.IsFemale,'захоплена','захоплений')] справами в місті [ROOT.GetCountry.GetCapital.GetName]. На щастя, раніше ми вже укладали договір, за яким права на володіння Лужицею тимчасово переходили до [GetCountry('MEI').Custom('rank_ru_DAT')|l] [GetCountry('MEI').GetName]. Оскільки сусідні держави постійно намагаються прибрати Лужицю до рук, було б розумно продовжити дію цього договору й отримати кошти за Лужицю вже зараз, щоб потім не захищати її від загарбників."
+ },
+ "flavor_sale_of_lusatia.1000.entry": {
+  "en": "Renew the Lusatian Pledge",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1000.historical_info": {
+  "en": "The Margraviate of Lusatia was pledged to the Margraviate of Meißen in 1353, renewing an old pledge of 1323. The Pledge was agreed upon to run for 10 years, giving Meißen access to the revenue of Lusatia, while the Wittelsbacher remained the nominal rulers.",
+  "uk": "Маркграфство Лужиця було передано в заставу маркграфству Мейсен у 1353 році в рамках продовження старого договору 1323 року. Протягом наступних 10 років весь дохід від Лужиці отримував Мейсен, хоча її номінальними правителями залишалися Віттельсбахи."
+ },
+ "flavor_sale_of_lusatia.1000.title": {
+  "en": "The Pledge of [GetCountry('SOR').GetNameWithNoTooltip]",
+  "uk": "Застава Лужиці"
+ },
+ "flavor_sale_of_lusatia.1001.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1001.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1001.b": {
+  "en": "We are in no need of that land.",
+  "uk": "Нам ні до чого ця земля."
+ },
+ "flavor_sale_of_lusatia.1001.desc": {
+  "en": "The [GetCountry('BRA').GetLongName] has offered us to renew the old pledge of [GetCountry('SOR').GetName] for ten years. While they demand a significant payment, this could be a splendid opportunity to acquire more influence in old [target_ruler_meissen.GetDynasty.GetName] lands.",
+  "uk": "[GetCountry('BRA').GetLongName] пропонує нам продовжити угоду про заставу #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_GEN')|L]#!#! на десять років. Хоча ціна питання доволі велика, для нас це чудова можливість знову зміцнити свій вплив на землях, які колись належали династії [target_ruler_meissen.GetDynasty.GetName]."
+ },
+ "flavor_sale_of_lusatia.1100.a": {
+  "en": "Approach [target_buyer.GetNameWithNoTooltip] with the offer.",
+  "uk": "Запропонуємо #ONCLICK:COUNTRY,[target_buyer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_buyer.Custom('CL_tt')],X [target_buyer.Custom('CL_DAT')|L]#!#! купити ці землі."
+ },
+ "flavor_sale_of_lusatia.1100.a.entry": {
+  "en": "Approach the buyer with the offer.",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1100.b": {
+  "en": "We are done with selling lands.",
+  "uk": "Ми більше не торгуємо землею."
+ },
+ "flavor_sale_of_lusatia.1100.c": {
+  "en": "We will get our rightful land back!",
+  "uk": "Ми повернемо свою законну землю!"
+ },
+ "flavor_sale_of_lusatia.1100.d": {
+  "en": "A lapse of judgment, perhaps.",
+  "uk": "Можливо, це не надто розумно."
+ },
+ "flavor_sale_of_lusatia.1100.desc_fallback": {
+  "en": "The pledge of [GetCountry('SOR').GetName] has run its course but unfortunately it has ceased to exist in the possession of foreign fools. We have few legal options to regain those lands now.",
+  "uk": "Застава #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_GEN')|L]#!#! добігла кінця. На жаль, за час дії договору іноземці втратили контроль над цими землями, і тепер у нас практично немає можливості повернути їх законним способом."
+ },
+ "flavor_sale_of_lusatia.1100.desc_normal": {
+  "en": "The [GetCountry('SOR').GetLongName] is now supposed to return into our fold, as the pledge has completed.\\n\\nHowever, it remains a possession that offers us little value and selling the lands could give us necessary financial backing for more important issues. We could explore the option to sell the title altogether, ridding us of the troublesome land. Surely many would be interested in acquiring [GetCountry('SOR').GetName] and our good relations with [target_buyer.GetName] make them a trustworthy option.",
+  "uk": "Дія договору про заставу #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_RP')|L]#!#! закінчилася, і тепер вона знову повернулася до наших володінь.\\n\\nОднак ці землі, як і раніше, лежать на нас тягарем і практично не приносять жодної користі. Оскільки нам зараз не завадять зайві кошти, ми можемо повністю продати цей титул і назавжди позбутися зайвих клопотів. Бачить бог, серед наших сусідів достатньо держав, які зацікавлені в придбанні Лужиці, і найбільш відповідний покупець — [target_buyer.GetName]."
+ },
+ "flavor_sale_of_lusatia.1100.entry": {
+  "en": "Renew the Lusatian Pledge",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1100.historical_info": {
+  "en": "After the Pledge of 1353 had run its course, Otto von Wittelsbach sold the title and lands of the Margraviate of Lusatia to the Crown of Bohemia, which accepted the offer. Lusatia entered the domain of Bohemia, unifying Upper and Lower Lusatia once again under one rule.",
+  "uk": "Після закінчення договору 1353 року Отто фон Віттельсбах продав титул і землі маркграфства Лужиця богемській короні. В результаті цієї угоди Верхня і Нижня Лужиця знову опинилися під єдиною владою."
+ },
+ "flavor_sale_of_lusatia.1100.title": {
+  "en": "The Matter of [GetCountry('SOR').GetNameWithNoTooltip]",
+  "uk": "Лужицьке питання"
+ },
+ "flavor_sale_of_lusatia.1101.a": {
+  "en": "We accept it!",
+  "uk": "Ми згодні!"
+ },
+ "flavor_sale_of_lusatia.1101.b": {
+  "en": "This sounds like a bad investment.",
+  "uk": "Не надто вигідне вкладення."
+ },
+ "flavor_sale_of_lusatia.1101.desc": {
+  "en": "With the pledge of [GetCountry('SOR').GetName] to [GetCountry('MEI').GetName] ending, [GetCountry('BRA').GetName] has decided to offer us a full purchase of the [GetCountry('SOR').GetLongNameWithNoTooltip]. While the price is certainly steep, it could be a lucrative investment for us.",
+  "uk": "Застава #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_GEN')|L]#!#! [GetCountry('MEI').Custom('rank_ru_DAT')|l] [GetCountry('MEI').GetName] завершилася, і тепер [GetCountry('BRA').GetName] пропонує нам придбати повні права на ці землі. Звісно, подібна угода обійдеться нам у кругленьку суму, але в довгостроковій перспективі ці вкладення напевно принесуть свої плоди."
+ },
+ "flavor_sale_of_lusatia.1102.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1102.a.entry": {
+  "en": "$common_string_alright$",
+  "uk": ""
+ },
+ "flavor_sale_of_lusatia.1102.desc": {
+  "en": "[target_buyer.GetName] has rejected our offer! [GetCountry('SOR').GetName] will return to our rule as stated in the original pledge and they will pay their vassal fees to us again.",
+  "uk": "Правителі #ONCLICK:COUNTRY,[target_buyer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_buyer.Custom('CL_tt')],X [target_buyer.Custom('CL_GEN')|L]#!#! відкинули нашу пропозицію! За умовами початкового договору, [GetCountry('SOR').GetName] повернеться під наш контроль і знову виплачуватиме нам данину."
+ },
+ "flavor_sale_of_lusatia.1102.title": {
+  "en": "Offer Rejected",
+  "uk": "Пропозицію відхилено"
+ },
+ "pledge_of_lusatia_accepted_tt": {
+  "en": "The Lusatian Pledge has been accepted",
+  "uk": ""
+ },
+ "pledge_of_lusatia_timeout_tt": {
+  "en": "The Lusatian Pledge has run its course",
+  "uk": ""
+ }
+}

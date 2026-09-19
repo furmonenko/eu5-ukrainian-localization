@@ -1,0 +1,126 @@
+{
+ "flavor_dan_skane_war.1.a": {
+  "en": "Exile him to [GetCountry('DAN').GetNameWithNoTooltip].",
+  "uk": "Виженемо його до Данії."
+ },
+ "flavor_dan_skane_war.1.a.entry": {
+  "en": "Exile him to $DAN$.",
+  "uk": ""
+ },
+ "flavor_dan_skane_war.1.b": {
+  "en": "Support his rebellion.",
+  "uk": "Підтримаємо його повстання."
+ },
+ "flavor_dan_skane_war.1.b.tt": {
+  "en": "This might lead to our country being annexed by [GetCountry('DAN').GetName]",
+  "uk": "Це може призвести до приєднання нашої держави до #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_DAT')|L]#!#!."
+ },
+ "flavor_dan_skane_war.1.desc": {
+  "en": "[target_character.GetName], one of the most esteemed members of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], has been discovered plotting against the [GetCountry('SWE').GetAdjective] Overlordship of [ROOT.GetCountry.GetName]. His reasons for discontent with our Overlords are not without truth, since [target_ruler.GetName] is frequently neglecting the matters of our state in favor of the [GetCountry('SWE').GetCulture.GetNameWithNoTooltip] [GetCountry('SWE').GetGovernment.GetEstateName('nobles_estate')]. With the recent developments in [GetCountry('DAN').GetName], it might be beneficial for us to once again proclaim our loyalty to the [GetCountry('DAN').GetAdjectiveWithNoTooltip] state.",
+  "uk": "[target_character.GetName] — шанований муж, якого поважають усі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] — виявився втягнутим у змову проти нашого #L [GetCountry('SWE').GetAdjective]|l]ого#! сюзерена. Причини його невдоволення зрозумілі: [target_ruler.GetName] часто нехтує інтересами [ROOT.GetCountry.Custom('CL_GEN')]. [GetCountry('SWE').GetCulture.GetNameWithNoTooltip]і [GetCountry('SWE').GetGovernment.GetEstateName('nobles_estate')] для [Select_CString(target_ruler.IsFemale,'неї', 'нього')] важливіші за все. Останні події у #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_PREP')|L]#!#! грають нам на руку. Можливо, настав час заявити про нашу вірність датській державі?"
+ },
+ "flavor_dan_skane_war.1.entry": {
+  "en": "The Rebellion of Johan Offesson",
+  "uk": ""
+ },
+ "flavor_dan_skane_war.1.title": {
+  "en": "The Rebellion of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] піднімає повстання"
+ },
+ "flavor_dan_skane_war.2.a": {
+  "en": "He is more than welcome!",
+  "uk": "Ми з радістю запросимо його!"
+ },
+ "flavor_dan_skane_war.2.a.tt": {
+  "en": "When the time is right, we will be able to count on [GetCountry('SKE').GetAdjectiveWithNoTooltip] support",
+  "uk": "Коли настане час, ми зможемо розраховувати на [GetCountry('SKE').GetAdjectiveWithNoTooltip]у підтримку."
+ },
+ "flavor_dan_skane_war.2.b": {
+  "en": "We do not need any help.",
+  "uk": "Нам не потрібна допомога."
+ },
+ "flavor_dan_skane_war.2.desc": {
+  "en": "[target_character.GetName] has arrived from [GetCountry('SKE').GetName], where he championed the cause to once again proclaim the rightful [ROOT.GetCountry.GetAdjective] rule over [ShowAreaName('skaneland_area')]. With him in our court, we would be able to foster contact with cordial [ShowCultureName('danish')] members of the [GetCountry('SKE').GetAdjective] [GetCountry('SKE').GetGovernment.GetEstateName('nobles_estate')].",
+  "uk": "[target_character.GetName] повернувся з #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_GEN')|L]#!#!, де він боровся за #L [ROOT.GetCountry.GetAdjective|l]у#! владу над #TOOLTIP:AREA,skaneland_area,X #L Сканією#!#!. Якщо ми запросимо його до двору, то він зможе налагодити відносини з #TOOLTIP:CULTURE,danish_tt,X #L датськими#!#! дворянами, що проживають у #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_PREP')|L]#!#!."
+ },
+ "flavor_dan_skane_war.2.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Offers his Services",
+  "uk": "[target_character.GetNameWithNoTooltip] пропонує свої послуги"
+ },
+ "flavor_dan_skane_war.3.a": {
+  "en": "A glorious day!",
+  "uk": "Знаменний день!"
+ },
+ "flavor_dan_skane_war.3.b": {
+  "en": "That crown is worthless.",
+  "uk": "Нам не потрібна ця корона."
+ },
+ "flavor_dan_skane_war.3.desc": {
+  "en": "The [GetCountry('SKE').GetGovernment.GetEstateName('nobles_estate')] of [GetCountry('SKE').GetName] has once again seen reason and decided to elect our [ROOT.GetCountry.GetGovernment.GetRulerTitle] as their rightful ruler. While this will surely anger the [GetCountry('SWE').GetLongName], there is little reason to decline the coronation.",
+  "uk": "[GetCountry('SKE').GetGovernment.GetEstateName('nobles_estate')] #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_GEN')|L]#!#! знову послухали голосу розуму і вирішили, що їхнім [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'законною правителькою має', 'законним правителем має')] стати [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'наша', 'наш')] [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Влада #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#!, звісно, буде у люті, але ми не бачимо особливих причин відкладати коронацію."
+ },
+ "flavor_dan_skane_war.3.title": {
+  "en": "[GetCountry('SKE').GetNameWithNoTooltip] Returns to the Fold",
+  "uk": "[GetCountry('SKE').GetNameWithNoTooltip] повертається у лоно сім'ї"
+ },
+ "flavor_dan_skane_war.4.a": {
+  "en": "Outrageous!",
+  "uk": "Це обурливо!"
+ },
+ "flavor_dan_skane_war.4.desc": {
+  "en": "The treacherous [GetCountry('SKE').GetGovernment.GetEstateName('nobles_estate')] of [GetCountry('SKE').GetName] have conspired with [GetCountry('DAN').GetName] to end our rulership in [ShowAreaName('skaneland_area')]. If we do not act fast, the area will slip out of our domain, maybe forever.",
+  "uk": "Підступні [GetCountry('SKE').GetGovernment.GetEstateName('nobles_estate')] з #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_GEN')|L]#!#! разом із владою #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_GEN')|L]#!#! вирішили покласти край нашому правлінню у #TOOLTIP:AREA,skaneland_area,X #L Сканії#!#!. Якщо ми терміново щось не зробимо, то втратимо цю територію. Можливо, назавжди."
+ },
+ "flavor_dan_skane_war.4.title": {
+  "en": "[GetCountry('SKE').GetNameWithNoTooltip] Joins [GetCountry('DAN').GetNameWithNoTooltip]",
+  "uk": "Сканія входить до складу Данії"
+ },
+ "flavor_dan_skane_war.5.a": {
+  "en": "Make the offer.",
+  "uk": "Висунемо цю пропозицію."
+ },
+ "flavor_dan_skane_war.5.a.tt": {
+  "en": "We will offer 6 months of our income as payment for [GetCountry('SKE').GetNameWithNoTooltip], which will vassalize them in case [GetCountry('SWE').GetNameWithNoTooltip] accepts",
+  "uk": "Як плату за Сканію ми запропонуємо наш шестимісячний дохід. Якщо влада #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#! погодиться, Сканія стане нашим васалом."
+ },
+ "flavor_dan_skane_war.5.b": {
+  "en": "This no longer benefits us.",
+  "uk": "Нас це більше не цікавить."
+ },
+ "flavor_dan_skane_war.5.desc": {
+  "en": "Although open rebellion has been rare in [GetCountry('SKE').GetName], the strife between the country and [GetCountry('SWE').GetName] has not disappeared since the revolt of [target_character.GetName].\\n\\nWe should make an offer to buy the land back from [GetCountry('SWE').GetNameWithNoTooltip], which would avoid bloodshed in [ShowRegionName('scandinavian_region')] and ensure the peace.",
+  "uk": "Повстання, яке [Select_CString(target_character.IsFemale,'підняла', 'підняв')] [target_character.GetName], не принесло бажаних результатів: відкритих бунтів більше не було, але напруження між #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_TP')|L]#!#! і #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_TP')|L]#!#! нікуди не поділося.\\n\\nЩоб уникнути кровопролиття та забезпечити мир у #TOOLTIP:REGION,scandinavian_region,X #L Скандинавії#!#!, ми повинні викупити Сканію у #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_RP')|L]#!#!."
+ },
+ "flavor_dan_skane_war.5.title": {
+  "en": "Offer to Purchase [GetCountry('SKE').GetNameWithNoTooltip]",
+  "uk": "Пропозиція про купівлю Сканії"
+ },
+ "flavor_dan_skane_war.6.a": {
+  "en": "We accept!",
+  "uk": "Ми приймаємо пропозицію!"
+ },
+ "flavor_dan_skane_war.6.b": {
+  "en": "Reject the proposal!",
+  "uk": "Відхилимо пропозицію!"
+ },
+ "flavor_dan_skane_war.6.desc": {
+  "en": "[GetCountry('DAN').GetName] has sent us a proposal to purchase the rights to overlordship over [GetCountry('SKE').GetName]. Accepting the offer would bring us an influx of gold that could be put to great use, but it would also cost us immediate access to the [ShowLocationName('oresund')].",
+  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_GEN')|L]#!#! хоче купити у нас права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Якщо ми приймемо цю пропозицію, то отримаємо багато золота, яке зможемо витратити на свої потреби, але втратимо безпосередній вихід до #TOOLTIP:LOCATION,$oresund_tt$,X #L Ересунну#!#!."
+ },
+ "flavor_dan_skane_war.6.title": {
+  "en": "[GetCountry('DAN').GetNameWithNoTooltip] Offers to Purchase [GetCountry('SKE').GetNameWithNoTooltip]",
+  "uk": "Влада Данії пропонує купити Сканію"
+ },
+ "flavor_dan_skane_war.7.a": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_dan_skane_war.7.desc": {
+  "en": "[GetCountry('SWE').GetName] has accepted our offer to purchase the overlordship over [GetCountry('SKE').GetName]. While some formalities are still in progress of being carried out, the treaty is ratified and already in effect.",
+  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#! погодилася продати нам права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Хоча низка формальностей поки не виконана, договір уже ратифіковано та набув чинності."
+ },
+ "flavor_dan_skane_war.7.title": {
+  "en": "[GetCountry('SWE').GetNameWithNoTooltip] Accepts our Offer",
+  "uk": "[GetCountry('SWE').GetNameWithNoTooltip] приймає нашу пропозицію"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "revolution_disaster.1.a": {
+  "en": "Dire times are ahead of us.",
+  "uk": "На нас чекають суворі часи…"
+ },
+ "revolution_disaster.1.a.tt": {
+  "en": "Approximately [ROOT.GetVariable('rev_rebelling_num_pops_var').GetValue|V0]#Y K#! of our [pops|e] across #Y [ROOT.GetVariable('rev_rebelling_num_provinces_var').GetValue]#! [provinces|e] will join the cause of [target_rebel.GetName]",
+  "uk": "Приблизно [ROOT.GetVariable('rev_rebelling_num_pops_var').GetValue|V0] #Y тис.#! [Concept('pops', 'мешканців')|e] з #Y [ROOT.GetVariable('rev_rebelling_num_provinces_var').GetValue]#! [Concept('provinces', 'провінцій')|e] підтримають групу повстанців «[target_rebel.GetName]»"
+ },
+ "revolution_disaster.1.desc": {
+  "en": "Decades of feudal oppression, religious intolerance, and unjust taxation have all contributed to the revolutionary movements beginning to surface across our lands. [target_ruler.GetName] has desperately been seeking resolutions to the ever-increasing problems as our country finds itself at the mercy of the increasingly ambitious [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] supported by the outraged [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')].\\n\\nThe [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] of [ROOT.GetCountry.GetCapital.GetArea.GetName] have joined the [target_rebel.GetName] of [ROOT.GetCountry.GetCapital.GetProvince.GetName]. In a swift strike, the insurgents stormed the local prison of [ROOT.GetCountry.GetCapital.GetName], arming themselves in the process and declared an active state of [ShowDisasterName('revolution_disaster')] against the Ancien Régime!",
+  "uk": "Десятиліття утисків з боку феодалів, нетерпимості до віросповідань та несправедливих поборів призвели до зростання революційних настроїв по всій країні. [target_ruler.GetName] гарячково шукає способи владнати труднощі, що виникають, а в державі тим часом з'явилася нова сила — [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], які бажають дедалі більшого, і яких підтримують розгнівані [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l].\\n\\n[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] та [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] з області [ROOT.GetCountry.GetCapital.GetArea.GetName] з одного боку та [target_rebel.GetName] з провінції [ROOT.GetCountry.GetCapital.GetProvince.GetName] з іншого, об'єднавшись, рішучим штурмом взяли в'язницю міста [ROOT.GetCountry.GetCapital.GetName], захопили зброю та оголосили про #TOOLTIP:DISASTER_TYPE,revolution_disaster,X #L революцію#!#! з метою повалення старого порядку!"
+ },
+ "revolution_disaster.1.title": {
+  "en": "Insurrection in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] переживає повстання"
+ },
+ "revolution_disaster.2.a": {
+  "en": "We must show these upstarts their place!",
+  "uk": "Покажемо цим вискочкам їхнє місце!"
+ },
+ "revolution_disaster.2.b": {
+  "en": "Perhaps they are right...",
+  "uk": "Можливо, вони мають рацію."
+ },
+ "revolution_disaster.2.desc": {
+  "en": "After the storm and fall of [ROOT.GetCountry.GetCapital.GetName], the [rebel.GetName] have declared a civil war against [target_ruler.GetName] and the [ROOT.GetCountry.GetFlavorRank] as a whole. The [target.GetLongName] might be nothing but a provisional assembly, but its very presence is a very real threat to the [ROOT.GetCountry.GetLongName]. If not dealt with swiftly, our entire state might collapse...",
+  "uk": "Після штурму [ROOT.GetCountry.GetCapital.GetName] перебуває в руках повстанців. Однак цього їм замало: бунтівники, що називають себе «[rebel.GetName]», оголосили громадянську війну! Серед їхніх супротивників не лише [target_ruler.GetName], але й [ROOT.GetCountry.GetFlavorRank|l] загалом. І хай [target.GetLongName] — лише тимчасовий орган, однак [ROOT.GetCountry.GetLongName] не зможе існувати спокійно, поки той не буде розпущений. Якщо ми загаємося, вся держава може впасти…"
+ },
+ "revolution_disaster.2.title": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Revolution",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а революція"
+ },
+ "revolution_disaster.3.a": {
+  "en": "Order is restored.",
+  "uk": "Порядок відновлено."
+ },
+ "revolution_disaster.3.desc": {
+  "en": "We have crushed the revolutionary upstarts! No longer shall the rule of [target_character.GetName] be disputed, and the revolutionary rebels have been put to the sword for treason against the [ROOT.GetCountry.GetLongName].",
+  "uk": "Ми придушили цих поганих революціонерів! Ніхто більше не посміє сумніватися, що [target_character.GetName] — законний правитель. Усіх повстанців було страчено мечем: [ROOT.GetCountry.GetLongName] не любить зрадників."
+ },
+ "revolution_disaster.3.title": {
+  "en": "The End of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Revolution",
+  "uk": "Кінець [ROOT.GetCountry.GetAdjectiveWithNoTooltip|U]ої революції"
+ },
+ "revolution_disaster.4.a": {
+  "en": "Long live the Revolution!",
+  "uk": "Хай живе революція!"
+ },
+ "revolution_disaster.4.desc": {
+  "en": "With the victory of our revolutionary forces, the old government is no more. Whatever semblance of unity and protection it once provided is a long-gone memory while its horrors and mismanagement over the [ROOT.GetCountry.GetAdjective] people still linger to this day.\\n\\nUnder the elected leadership of [target_character.GetName], the newly forged [ROOT.GetCountry.GetLongNameWithNoTooltip] shall bring prosperity, dissolve the ancient shakles which bound the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] to their masters, and shall make the old world order tremble!",
+  "uk": "Після того як революційні сили здобули перемогу, старий уряд упав. Разом із ним остаточно впала й уся подоба єдності, а тим паче захищеності — у пам'яті #L [ROOT.GetCountry.GetAdjective|l]ого#! народу залишилися лише жахи відверто невмілого режиму.\\n\\nАле [ROOT.GetCountry.GetLongNameWithNoTooltip] ще неодмінно пізнає, що таке процвітання: [target_character.GetName] розіб'є давні кайдани, якими [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] прикуті до своїх господарів, і тоді старий світовий порядок захитається!"
+ },
+ "revolution_disaster.4.title": {
+  "en": "Rise of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Revolutionary State",
+  "uk": "Доба [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ої революційної держави"
+ }
+}

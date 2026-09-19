@@ -1,0 +1,1086 @@
+{
+ "MLO_can_be_seized_and_must_be_protected": {
+  "en": "The Library can be seized by any nation occupying the location of [target_location.GetName], removing the modifiers.",
+  "uk": "Бібліотеку може захопити будь-яка держава, яка окупує [target_location.Custom('LR_ACC')|l] [target_location.GetName], що призведе до видалення всіх модифікаторів."
+ },
+ "STATIC_MODIFIER_NAME_MLO_library_arts": {
+  "en": "Library of Arts",
+  "uk": "Бібліотека мистецтв"
+ },
+ "STATIC_MODIFIER_NAME_MLO_library_research": {
+  "en": "Library of Sciences",
+  "uk": "Наукова бібліотека"
+ },
+ "STATIC_MODIFIER_NAME_MLO_recent_diplomatic_play": {
+  "en": "Recent Diplomatic Play",
+  "uk": "Дипломатичні ігри"
+ },
+ "STATIC_MODIFIER_NAME_mlo_naviglaccio": {
+  "en": "Canal Connection",
+  "uk": "Сполучний канал"
+ },
+ "STATIC_MODIFIER_NAME_mlo_royal_park": {
+  "en": "Royal Park",
+  "uk": "Королівський парк"
+ },
+ "establish_union_with_target_country_tt": {
+  "en": "This option will end the [ShowDisasterName('ambrosian_republic_disaster')] [disaster|e] and create a [union|e] between us and the [target_country.GetLongName]",
+  "uk": "Ця відповідь покладе кінець [Concept('disaster', 'лиху')|e] #TOOLTIP:DISASTER_TYPE,ambrosian_republic_disaster,X #L «Золота Амброзіанська республіка»#!#!, а ми і [target_country.GetLongName] створимо [Concept('union','унію')|e]"
+ },
+ "flavor_mlo.1.a": {
+  "en": "For Saint Ambrose!",
+  "uk": "Слава святому Амвросію!"
+ },
+ "flavor_mlo.1.b": {
+  "en": "We will not go back to a republic.",
+  "uk": "Наша держава не стане республікою."
+ },
+ "flavor_mlo.1.desc": {
+  "en": "$flavor_mlo.1.desc.no_ally$\\n\\nOn the other hand, we could invite some other [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] allied to us to take us under their wing and rule us together with their own country.",
+  "uk": "$flavor_mlo.1.desc.no_ally$\\n\\nЗ іншого боку, ми могли б попроситися під крило дружньої держави і увійти до її складу."
+ },
+ "flavor_mlo.1.desc.no_ally": {
+  "en": "The city of [ROOT.GetCountry.GetCapital.GetName] was thrown into confusion by the sudden death of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] without a respected adult [ROOT.GetCountry.GetGovernment.GetHeirTitle]. Influential citizens believed that the old republic that our country once had could be restored. Learned bodies, such as the College of Jurisprudence in [ShowLocationName('pavia')], painted the days of the old republic as a golden age. The merchants, viewing the prosperity of other Italian republics, were behind the idea.\\n\\nA proposal for declaring a republic was thus set, the claimants to the throne to be driven out of the city. The new republic would be named the Golden Ambrosian Republic, named after the 4th century Bishop of [ShowLocationNameWithNoTooltip('milano')].",
+  "uk": "Місто [ROOT.GetCountry.GetCapital.GetName] сколихнула жахлива новина: [ROOT.GetCountry.GetGovernment.GetRulerTitle] раптово помер, не залишивши дорослого спадкоємця, який міг би зайняти його місце. Впливові міщани вважають, що настав час відновити стару республіку. Вчені мужі, наприклад, з юридичного коледжу в #TOOLTIP:LOCATION,pavia_tt,X #L Павії#!#!, описують епоху старої республіки як золоту добу. Саму ідею придумали купці, які знали, як добре живуть люди в інших італійських республіках.\\n\\nВрешті-решт народ висунув пропозицію проголосити республіку, а всіх претендентів на трон вислати з міста. Нова держава отримала назву Золота Амброзіанська республіка на честь четвертого єпископа Мілана."
+ },
+ "flavor_mlo.1.title": {
+  "en": "The Ambrosian Republic",
+  "uk": "Амброзіанська республіка"
+ },
+ "flavor_mlo.10.a": {
+  "en": "This looks good...",
+  "uk": "Вражаюче…"
+ },
+ "flavor_mlo.10.desc": {
+  "en": "The city of [target_location.GetName] became a center of fashion during the late middle ages, with the making of luxury goods so important that other languages used the word for the city itself to describe fine wares. In the early 16th century, over twenty thousand workers were employed in the silk industry, working hard at making the court the most splendid in Italy.",
+  "uk": "В епоху пізнього Середньовіччя місто [target_location.GetName] перетворилося на справжній центр моди. Виробництво предметів розкоші було настільки важливою статтею доходу, що іншими мовами назва міста стала синонімом вишуканості. На початку XVI століття в шовковій промисловості було зайнято понад двадцять тисяч робітників, які старанно працювали над тим, щоб зробити свій двір найпишнішим в Італії."
+ },
+ "flavor_mlo.10.entry": {
+  "en": "$flavor_mlo.10.title$",
+  "uk": ""
+ },
+ "flavor_mlo.10.title": {
+  "en": "The Center of Fashion",
+  "uk": "Центр моди"
+ },
+ "flavor_mlo.11.a": {
+  "en": "We must concentrate around our central power.",
+  "uk": "Наш головний пріоритет — посилення центральної влади."
+ },
+ "flavor_mlo.11.b": {
+  "en": "Let us reach out to the noble heads of our cities.",
+  "uk": "Нам варто звернутися до голів наших міст."
+ },
+ "flavor_mlo.11.desc": {
+  "en": "During our century, [ROOT.GetCountry.GetName] is experiencing significant growth and development, establishing ourselves as a thriving city-state in Northern Italy. The city's strategic location along major trade routes contributes greatly to its prosperity. [ROOT.GetCountry.GetNameWithNoTooltip] has become a center of commerce, attracting merchants and artisans from across Europe.\\n\\nIts population grows with leaps and bounds, and the urban landscape is adorned with the construction of impressive Gothic and Renaissance architecture, including iconic constructs of splendor and magnificence. The ruling [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] play a crucial role in fostering cultural and artistic patronage, transforming [ROOT.GetCountry.GetNameWithNoTooltip] into a vibrant hub of creativity.\\n\\nOur city's growing wealth and influence also fuels advancements in science, technology, and education, making [ROOT.GetCountry.GetNameWithNoTooltip] a beacon of progress during this dynamic period in history.",
+  "uk": "Протягом останнього століття [ROOT.GetCountry.GetName] переживає небувалий розквіт і зараз по праву може називатися найрозвиненішим містом-державою Північної Італії. До цього міста, вдало розташованого на основних торговельних шляхах, стікаються купці та ремісники з усієї Європи.\\n\\nЙого населення зростає рекордними темпами, а міський пейзаж тепер прикрашають чудові будівлі, побудовані в стилі готики і ренесансу, які вже стали архітектурними пам'ятками. Сім'я [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], яка стоїть на чолі міста, опікується культурою і мистецтвом. З її допомогою [ROOT.GetCountry.GetNameWithNoTooltip] поступово перетворюється на жвавий центр творчості.\\n\\nЗростаюче багатство і вплив нашого міста також сприяє розвитку науки, технологій та освіти, що робить [target_country.Custom('CL_VP')] справжнім символом прогресу в цю динамічну епоху."
+ },
+ "flavor_mlo.11.entry": {
+  "en": "$flavor_mlo.11.title$",
+  "uk": ""
+ },
+ "flavor_mlo.11.title": {
+  "en": "A Growing Power in Northern Italy",
+  "uk": "Зростання могутності Північної Італії"
+ },
+ "flavor_mlo.12.a": {
+  "en": "Patience, our time will come...",
+  "uk": "Наберемося терпіння. Наш час ще не настав…"
+ },
+ "flavor_mlo.12.b": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] will prevail over [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] scheming family at once!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] миттю розбереться зі своєю підступною сім'єю!"
+ },
+ "flavor_mlo.12.b.entry": {
+  "en": "The ruler will prevail over his scheming family at once!",
+  "uk": ""
+ },
+ "flavor_mlo.12.desc": {
+  "en": "During the reign of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] as the head of the [ROOT.GetCountry.GetLongName], the political situation is in the process of undergoing a significant transformation. [ROOT.GetCountry.GetGovernment.GetRuler.GetName], known for [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] ambition and political acumen, has dreams of attempting the true unification of our splintered cities, many of which are spearheaded by disloyal families.\\n\\nIn a masterful diplomatic move to seize power, our advisors recommend we bide our time and use it to make plans that involve the expansion of the territories of [ROOT.GetCountry.GetNameWithNoTooltip] through military conquests and strategic alliances, as a way to consolidate the control over the region and unite the fractured city-states of the [ROOT.GetCountry.GetFlavorRank].\\n\\nThis would clear a path to implement effective administrative reforms and foster a flourishing cultural and artistic environment, eventually making [ROOT.GetCountry.GetNameWithNoTooltip] a prominent center of Renaissance culture but not before those among our family with royal ambitions are forced back in line.",
+  "uk": "[ROOT.GetCountry.GetLongName] — на чолі цієї держави стає [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l], після чого політична ситуація зазнає серйозних змін. Будучи амбітною та проникливою людиною, [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] ставить перед собою нелегке завдання — об'єднати наші міста, якими керують часто нелояльні сім'ї.\\n\\nЩоб полегшити його виконання, наші радники пропонують вичекати час і розробити план, який включатиме розширення територій за рахунок завоювань і створення стратегічних союзів. Таким чином ми посилимо контроль над регіоном і консолідуємо розрізнені міста [ROOT.GetCountry.Custom('CF_RP')|l].\\n\\nЦе дозволить нам провести ефективні реформи управління і підштовхне розвиток культури та мистецтва, що в результаті зробить [ROOT.GetCountry.Custom('CL_VP')] одним з головних центрів епохи Відродження, але спочатку нам потрібно поставити на місце членів королівської сім'ї, які претендують на трон."
+ },
+ "flavor_mlo.12.entry": {
+  "en": "$flavor_mlo.12.title$",
+  "uk": ""
+ },
+ "flavor_mlo.12.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] Family of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] з [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_mlo.13.a": {
+  "en": "It is time for us to become a [ShowGovernmentTypeNameWithNoTooltip('monarchy')]!",
+  "uk": "Саме час проголосити монархію!"
+ },
+ "flavor_mlo.13.b": {
+  "en": "They may hold onto their decaying privileges for a while longer...",
+  "uk": "Якийсь час вони ще чіплятимуться за свої зникаючі привілеї…"
+ },
+ "flavor_mlo.13.c": {
+  "en": "The time has come for a more centralized authority.",
+  "uk": "Настав час посилити централізовану владу."
+ },
+ "flavor_mlo.13.desc": {
+  "en": "One pivotal event that exemplifies the evolution of [ROOT.GetCountry.GetName] from a loose association of city-states controlled by the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] family to a more centralized entity is the ascension to power of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] as the recognized ruler of [ROOT.GetCountry.GetNameWithNoTooltip] in [GetCurrentYear].\\n\\n[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]'s ascension to the title of [ROOT.GetCountry.GetGovernment.GetRulerTitle], marks a shift towards a unified and centralized governance structure. The ascension solidifies the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] family's control over [ROOT.GetCountry.GetNameWithNoTooltip] and will soon pave the way for subsequent [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] rulers.",
+  "uk": "Однією з ключових подій, що демонструють перехід [ROOT.GetCountry.Custom('CL_RP')] від хиткого союзу міст-держав, яким править сім'я [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], до централізованої держави, став прихід до влади [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'визнаної правительки', 'визнаного правителя' )] [ROOT.GetCountry.Custom('CL_RP')] в [GetCurrentYear] році.\\n\\n[ROOT.GetCountry.GetGovernment.GetRuler.GetName] отримує титул «[ROOT.GetCountry.GetGovernment.GetRulerTitle]», що знаменує собою перехід до централізованої системи управління. [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] посилюють контроль над [ROOT.GetCountry.Custom('CL_TP')] і стають правлячою династією нашої держави."
+ },
+ "flavor_mlo.13.entry": {
+  "en": "$flavor_mlo.13.title$",
+  "uk": ""
+ },
+ "flavor_mlo.13.title": {
+  "en": "A United Realm",
+  "uk": "Єдина держава"
+ },
+ "flavor_mlo.14.a": {
+  "en": "[target_location.GetNameWithNoTooltip] is the center of scholarly innovation!",
+  "uk": "[target_location.GetName] — центр сучасної науки!"
+ },
+ "flavor_mlo.14.a.entry": {
+  "en": "[ShowLocationNameWithNoTooltip('milano')] is the center of scholarly innovation!",
+  "uk": ""
+ },
+ "flavor_mlo.14.b": {
+  "en": "These publications will bring nothing but damnation upon us...",
+  "uk": "Ця книга викличе лише осуд…"
+ },
+ "flavor_mlo.14.desc": {
+  "en": "[target_character.GetName], an Italian historian and chronicler, has authored the #italic Cronica Universalis#!, a significant historical work. Completed in [GetCurrentYear], the chronicle provides a comprehensive account of events spanning various regions and epochs, making it a valuable source for understanding medieval history.\\n\\n[target_character.GetNameWithNoTooltip]'s meticulous research and attention to detail are evident in the extensive documentation and chronology found within his latest work.$cronica_universalis_desc$\\n\\n[target_character.GetNameWithNoTooltip]'s contribution to historical scholarship through his publications will certainly leave a lasting impact on the study of medieval history and further our political and cultural influence.",
+  "uk": "[target_character.GetName] — італійський історик, хроніст і автор важливої історичної праці, що отримала назву #italic «Всесвітня хроніка»#!. У цій роботі, завершеній в [GetCurrentYear] році, [target_character.GetNameWithNoTooltip] докладно розповідає про події минулих днів, що відбувалися в різних регіонах, що дозволяє нам отримати найповніше уявлення про історію середньовічної Європи.\\n\\nДовгі роки вивчення документів і ретельної праці не пройшли даремно.$cronica_universalis_desc$\\n\\nАвтор зробив значний внесок у вивчення середньовічної історії. Його книга не тільки залишить помітний слід у науці, але й посилить наш політичний та культурний вплив."
+ },
+ "flavor_mlo.14.entry": {
+  "en": "Galvano Fiamma's Cronica Universalis",
+  "uk": ""
+ },
+ "flavor_mlo.14.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Completes the #italic Cronica Universalis#!",
+  "uk": "[target_character.GetNameWithNoTooltip] завершує #italic «Всесвітню хроніку»#!"
+ },
+ "flavor_mlo.15.a": {
+  "en": "All is just in the pursuit of power, [target_character.GetShortNameWithNoTooltip]!",
+  "uk": "[target_character.GetShortNameWithNoTooltip] просто прагне влади!"
+ },
+ "flavor_mlo.15.a.entry": {
+  "en": "All is just in the pursuit of power!",
+  "uk": ""
+ },
+ "flavor_mlo.15.b": {
+  "en": "Investigate and blame the other family members for the murder.",
+  "uk": "Провести розслідування і звинуватити у вбивстві інших членів сім'ї."
+ },
+ "flavor_mlo.15.c": {
+  "en": "We have ways to make you disappear...",
+  "uk": "Ми змусимо тебе замовкнути…"
+ },
+ "flavor_mlo.15.desc": {
+  "en": "[target_character.GetName], fueled by a burning desire for justice, has charged into the halls of [ROOT.GetCountry.GetCapital.GetName], intending to confront [ROOT.GetCountry.GetGovernment.GetRuler.GetName], the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of [ROOT.GetCountry.GetName], demanding the truth about his father's killers.\\n\\nOur city is no stranger to plots of assassinations between brethren, and as fate would have it, it is [target_character.GetNameWithNoTooltip] who is caught up in a web of conspiracies, imagining shadows where there are none. For whatever purpose, he seems convinced that our dear [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] had a hand in the assassination, surely a mere preposterous rumor...",
+  "uk": "[Select_CString(target_character.IsFemale,'Спрагла справедливості', 'Спраглий справедливості')] [target_character.GetName] [Select_CString(target_character.IsFemale,'увірвалась', 'увірвався')] до зал міста [ROOT.GetCountry.GetCapital.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] вимагає, щоб [ROOT.GetCountry.GetGovernment.GetRuler.GetName], [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ROOT.GetCountry.Custom('CL_RP')], [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'видала', 'видав' )] [Select_CString(target_character.IsFemale,'їй', 'йому')] вбивць [Select_CString(target_character.IsFemale,'її', 'його')] батька.\\n\\nЗмови з метою братовбивства — не рідкість для нашого міста, і невдивовижно, що [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'уявила', 'уявив')] те, чого немає. Погано те, що [Select_CString(target_character.IsFemale,'вона', 'він')], здається, [Select_CString(target_character.IsFemale,'переконана', 'переконаний')], що до вбивства [Select_CString(target_character.IsFemale,'її', 'його')] батька [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'доклала', 'доклав' )] руку [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'наша найдорожча правителька', 'наш найдорожчий правитель')], що, звісно, повна дурниця…"
+ },
+ "flavor_mlo.15.entry": {
+  "en": "Lodrisio Visconti",
+  "uk": ""
+ },
+ "flavor_mlo.15.title": {
+  "en": "The Plight of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] в біді"
+ },
+ "flavor_mlo.16.a": {
+  "en": "Shower him with coins, his struggle is now ours!",
+  "uk": "Обсипати його грішми. Тепер його турботи — наші турботи!"
+ },
+ "flavor_mlo.16.b": {
+  "en": "This is a valuable opportunity, with caution...",
+  "uk": "Пропозиція приваблива, хоч і ризикована…"
+ },
+ "flavor_mlo.16.c": {
+  "en": "We do not negotiate with men who flee their court!",
+  "uk": "Ніяких переговорів з перебіжчиками!"
+ },
+ "flavor_mlo.16.desc": {
+  "en": "[target_character.GetName], seeking revenge for his father's death, approaches the court of [ROOT.GetCountry.GetCapital.GetName]. With a calculated proposition, he offers his military prowess and resources to aid in conquering [target_rival.GetName].\\n\\n[target_character.GetNameWithNoTooltip]'s burning desire for justice fuels his determination as he presents himself as a formidable ally against the ruler who took his father's life. Tension fills the air as his proposition hangs in the balance, awaiting our decision. Will his vendetta and offer of assistance prove irresistible, leading to an alliance that could change the course of [ROOT.GetCountry.GetName]'s history?",
+  "uk": "[target_character.GetName] звертається до нашого двору в місті [ROOT.GetCountry.GetCapital.GetName]. Цей доблесний воїн пропонує свою допомогу в завоюванні земель, якими править його ворог — [target_rival.GetName].\\n\\nВін відчайдушно бажає стати нашим союзником, щоб порахуватися з убивцею свого батька. Тепер справа за нами. Ми повинні вирішити, прийняти чи відхилити його пропозицію. Хто знає, до чого призведе цей несподіваний союз? Можливо, він змінить майбутнє [ROOT.GetCountry.Custom('CL_RP')]?"
+ },
+ "flavor_mlo.16.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Approaches our Court",
+  "uk": "[target_character.GetNameWithNoTooltip] звертається до двору"
+ },
+ "flavor_mlo.17.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_mlo.17.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_mlo.17.b": {
+  "en": "We are done appeasing his musings, away with you vile beggar!",
+  "uk": "Досить потурати його примхам. Геть звідси, жебрак!"
+ },
+ "flavor_mlo.17.desc": {
+  "en": "In the bustling capital of [ROOT.GetCountry.GetName], [target_character.GetName], driven by ambition and a thirst for adventure, assembles the renowned mercenary company, Compagnia di Santo Giorgio. Armed with their swords and clad in sturdy armor, the mercenaries gather, ready to embark on daring exploits under [target_character.GetNameWithNoTooltip]'s command.\\n\\nWith a reputation for their skill and discipline, the company of men becomes a formidable force, attracting brave warriors from near and far. [target_character.GetNameWithNoTooltip], as a condottiero commander, intends to lead his company into the unknown, seeking fame, fortune, and glory on the battlefields of Europe. The streets of [target_location.GetName] buzz with anticipation as this audacious band of mercenaries wishes to set off on their perilous and exhilarating adventures.",
+  "uk": "[target_character.GetName] у жвавій столиці #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, керований амбіціями і жагою пригод, збирає свій загін найманих солдатів, що отримав назву «компанія святого Георгія». Наймити, озброєні мечами й одягнені в міцні обладунки, чекають наказу свого господаря.\\n\\nНаймити швидко заслужили репутацію досвідчених воїнів, що підкоряються суворій дисципліні, і тепер до їхнього загону прагнуть приєднатися чоловіки з усієї країни. [target_character.GetNameWithNoTooltip], їхній кондотьєр, шукає славі і багатства і скоро поведе своїх солдатів назустріч пригодам. Серця жителів [target_location.Custom('LR_GEN')|l] [target_location.GetName] б'ються в передчутті: зухвалі наймити от-от вирушать у дорогу."
+ },
+ "flavor_mlo.17.entry": {
+  "en": "Lodrisio Visconti Assembles an Army",
+  "uk": ""
+ },
+ "flavor_mlo.17.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Assembles an Army",
+  "uk": "[target_character.GetNameWithNoTooltip] збирає армію"
+ },
+ "flavor_mlo.18.a": {
+  "en": "This will make a fine addition to our collection...",
+  "uk": "Новий діамант у нашій короні…"
+ },
+ "flavor_mlo.18.b": {
+  "en": "Why display it when we can sell it? To the highest bidder!",
+  "uk": "Продамо тому, хто запропонує кращу ціну!"
+ },
+ "flavor_mlo.18.desc": {
+  "en": "In the year [GetCurrentYear], [target_character.GetName], a skilled chronicler, has diligently finished and presents the #italic Liber Gestorum in Lombardy#!, a comprehensive chronicle documenting the rich history of Northern Italy. Under the patronage of [ROOT.GetCountry.GetGovernment.GetRuler.GetName], the ruler of the [ROOT.GetCountry.GetLongName], [target_character.GetNameWithNoTooltip] meticulously recorded the events, struggles, and triumphs that have shaped the region.\\n\\nWith a steady hand and a keen eye for detail, his vivid descriptions bring the past to life, captivating readers and preserving the collective memory of Lombardy. His work serves as a testament to the power of historical narratives and the enduring legacy of the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty. In the halls of [target_location.GetName], [target_character.GetNameWithNoTooltip]'s presentation captivates the audience, leaving them with a profound appreciation for the history and heritage of their beloved domain.",
+  "uk": "В [GetCurrentYear] досвідчений хроніст [target_character.GetName] завершує і представляє на наш суд #italic «Книгу діянь у Ломбардії»#! — монументальну працю про Північну Італію. Кажуть, йому [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'покровительствувала сама', 'покровительствував сам')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] — [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'правителька', 'правитель')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!. Завдяки [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] допомозі авторові вдалося провести ретельне дослідження і отримати чітке уявлення про найважливіші історичні факти.\\n\\nЯскраві, насичені деталями описи оживляють минуле, захоплюючи читача в круговерть подій минулих днів. Його робота наочно демонструє, яким має бути історичне повідомлення, і возвеличує діяння сім'ї [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName]. Зал в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName] завмер у захваті. Очі людей світяться гордістю за рідний край."
+ },
+ "flavor_mlo.18.entry": {
+  "en": "Pietro Azario writes the Liber Gestorum in Lombardy",
+  "uk": ""
+ },
+ "flavor_mlo.18.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Presents the Liber Gestorum in Lombardy",
+  "uk": "[target_character.GetNameWithNoTooltip] представляє «Книгу діянь у Ломбардії»"
+ },
+ "flavor_mlo.19.a": {
+  "en": "Very well, we will finance the construction.",
+  "uk": "Добре, ми вкладемо кошти в його будівництво."
+ },
+ "flavor_mlo.19.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_mlo.19.desc": {
+  "en": "In the ever-prosperous [ROOT.GetCountry.GetLongName], the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] ardently request the swift completion of the [ShowBuildingTypeName('bridge_infrastructure')] in [target_location.GetName]. They firmly believe that its construction will foster prosperity, as it promises to facilitate the exchange of goods and people, enhancing trade routes across the region.\\n\\nThe bridge represents a tangible link between the merchants and [ROOT.GetCountry.GetGovernment.GetRuler.GetName], forging stronger relations and fostering mutual benefits. With each passing day, their anticipation grows, and the demands for the bridge's completion are growing louder.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] з квітучої держави [ROOT.GetCountry.GetLongName] просять якнайшвидше добудувати #TOOLTIP:BUILDING_TYPE,bridge_infrastructure,X #L міст#!#! в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName]. Вони переконані, що він притягне потоки людей і товарів, а також пожваві торгівлю в усьому регіоні.\\n\\n[ROOT.GetCountry.GetGovernment.GetRuler.GetName] теж виграє від будівництва моста: [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] зв'язок з купцями стане міцним як ніколи. Міщани з нетерпінням чекають нашого рішення."
+ },
+ "flavor_mlo.19.entry": {
+  "en": "$flavor_mlo.19.title$",
+  "uk": ""
+ },
+ "flavor_mlo.19.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] Bridge",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] міст"
+ },
+ "flavor_mlo.2.a": {
+  "en": "Side with the Guelph",
+  "uk": "Стати на бік гвельфів."
+ },
+ "flavor_mlo.2.b": {
+  "en": "Favor the Ghibelline",
+  "uk": "Зайняти бік гібелінів."
+ },
+ "flavor_mlo.2.desc": {
+  "en": "Internal dissent is prominent in Milan. The populace is severely divided between various factions. Guelph aristocrats being elected over Ghibellines weakens the Republic and makes it less democratic. However, some stability is needed!",
+  "uk": "Внутрішні розбіжності розривають міланців. Суспільство поділене на безліч фракцій. Обрання аристократів-гвельфів замість гібелінів послаблює республіку і загрожує демократії, але вони можуть забезпечити стабільність."
+ },
+ "flavor_mlo.2.title": {
+  "en": "Guelph-Ghibelline Feud in Milano",
+  "uk": "Ворожнеча гвельфів і гібелінів у Мілані"
+ },
+ "flavor_mlo.20.a": {
+  "en": "Money isn't an issue...",
+  "uk": "Гроші-то в нас є…"
+ },
+ "flavor_mlo.20.b": {
+  "en": "...but it isn't infinite either.",
+  "uk": "Але вони не безкінечні."
+ },
+ "flavor_mlo.20.desc": {
+  "en": "At an age where our people are conquering new heights in Renaissance arts, the talented sculptor [target_character.GetName] approaches [ROOT.GetCountry.GetGovernment.GetRuler.GetName] with a humble request. He seeks funding to bring his visionary creation, the Ark of Saint Peter the Martyr, to life.\\n\\nWith unwavering passion and conviction, [target_character.GetNameWithNoTooltip] passionately describes his masterpiece, envisioning it as a symbol of religious devotion and a testament to [ROOT.GetCountry.GetName]'s cultural greatness. Our advisors, captivated by [target_character.GetNameWithNoTooltip]'s passion and talent, have recognized the potential significance of the project and urge us to approve the funding.",
+  "uk": "В часи, коли наш народ досягає нових висот у мистецтві Відродження, талановитий скульптор [target_character.GetName] звертається зі скромним проханням до [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'нашої правительки', 'нашого правителя' )]. Він хоче, щоб [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'дозволила', 'дозволив' )] йому втілити в життя свій проект — арку Святого Петра Мученика.\\n\\n[target_character.GetNameWithNoTooltip] описує свій майбутній шедевр з палаючими очима, стверджуючи, що той стане символом релігійного завзяття і культурної величі #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!. Його пристрасть і талант зачарували наших радників, і тепер вони наполегливо рекомендують нам вкласти кошти в проект, який, за їхніми словами, має великий потенціал."
+ },
+ "flavor_mlo.20.entry": {
+  "en": "The Ark of Saint Peter Martyr",
+  "uk": ""
+ },
+ "flavor_mlo.20.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s Arca di san Pietro Martire",
+  "uk": "[target_character.GetNameWithNoTooltip] і його арка Святого Петра Мученика"
+ },
+ "flavor_mlo.21.a": {
+  "en": "We will gladly foot such a bill.",
+  "uk": "На благу справу ніяких грошей не шкода."
+ },
+ "flavor_mlo.21.b": {
+  "en": "Let the estates maintain the waterways.",
+  "uk": "Нехай стани дбають про чистоту каналів."
+ },
+ "flavor_mlo.21.c": {
+  "en": "We cannot afford this...",
+  "uk": "Це занадто дорого…"
+ },
+ "flavor_mlo.21.desc": {
+  "en": "[target_location.GetName] is a city built on the marvels of water. For centuries, this crucial good has been acting as the primary force behind not only our citizens' primary needs and their sanitation but also as a key factor behind the growth of our industry, from paper mills to cloth shops and lumber mills.\\n\\nThus, it would be wise for us to appropriately ensure the continued health of our water supply, the maintenance of our canals, and the continued flow of this liquid gold.",
+  "uk": "[target_location.GetName] — це місто, побудоване на воді. Протягом століть вода не тільки поїла міщан і задовольняла їхню потребу в чистоті, але й сприяла зростанню і розвитку нашої промисловості: паперових фабрик, сукняних майстерень та лісопильних заводів.\\n\\nЯкщо ми не вживемо заходів з очищення води та обслуговування наших каналів, то рано чи пізно позбудемося цього рідкого золота."
+ },
+ "flavor_mlo.21.entry": {
+  "en": "Public Water Statutes of The Current Year",
+  "uk": ""
+ },
+ "flavor_mlo.21.title": {
+  "en": "Public Water Statutes of [GetCurrentYear]",
+  "uk": "Статути про воду [GetCurrentYear] року"
+ },
+ "flavor_mlo.22.a": {
+  "en": "What a brilliant institution!",
+  "uk": "Ось це так!"
+ },
+ "flavor_mlo.22.b": {
+  "en": "We will make sure their funding is more than enough!",
+  "uk": "Ми не пошкодуємо коштів на його розвиток!"
+ },
+ "flavor_mlo.22.c": {
+  "en": "This is now our top priority!",
+  "uk": "Тепер це наше головне завдання!"
+ },
+ "flavor_mlo.22.desc": {
+  "en": "By [GetCurrentYear], the university of [target_location.GetName] has made quite the name for itself within our borders. Praised for its highly capable instructors and its captivating lectures on the sciences, it enjoys an air of prominence and prestige.\\n\\nWith a clear vision of advancing knowledge and nurturing intellectual pursuits, our advisors and men of wealth have established the intellectual facilities as beacons of learning. Scholars and students alike flock to [target_location.GetNameWithNoTooltip], drawn by the promise of academic excellence and a vibrant intellectual community.\\n\\nThe university's foundations are laid, buildings rise, and lectures echo through its halls, fostering a thriving academic environment. Our dedication to education ensures that the university becomes a renowned center of learning, leaving an enduring legacy in the annals of intellectual history.",
+  "uk": "До [GetCurrentYear] року університет в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetNameWithNoTooltip] прославився на всю країну завдяки професійним викладачам і захоплюючим лекціям з природничих наук.\\n\\nНаші радники та впливові багатії, стурбовані просуванням наукового знання, вклали багато коштів у будівництво і оснащення університету. Вчені і студенти стікаються в [target_location.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [target_location.GetNameWithNoTooltip], привернені блискучими перспективами і можливістю поспілкуватися з найсвітлішими умами сучасності.\\n\\nУніверситет потроху зростає, в його залах читають лекції іменні вчені, які формують сучасне академічне середовище. Скоро він стане найважливішим центром освіти, і в його стінах навчатимуться багато поколінь інтелектуальної еліти."
+ },
+ "flavor_mlo.22.entry": {
+  "en": "The University of Pavia",
+  "uk": ""
+ },
+ "flavor_mlo.22.title": {
+  "en": "The University of [target_location.GetNameWithNoTooltip]",
+  "uk": "Новий університет в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.23.a": {
+  "en": "Let us further invest in this profitable venture!",
+  "uk": "Ми продовжимо вкладати кошти в цю прибуткову галузь!"
+ },
+ "flavor_mlo.23.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_mlo.23.desc": {
+  "en": "In [GetCurrentYear], the cloth industry in [ROOT.GetCountry.GetName] thrives! Skilled artisans weave fine fabrics, including silk and fine cloth, renowned for their quality and craftsmanship. Northern Italian cities, such as [target_location.GetName], serve as centers of textile production, attracting merchants and buyers from far and wide.\\n\\nThe industry has come to play a vital role in the region's economy, generating wealth and employment opportunities. The exquisite textiles produced in Northern Italy are highly sought after, and have come to establish the region's reputation as a leading hub for the cloth industry.",
+  "uk": "В [GetCurrentYear] році тканинна промисловість [ROOT.GetCountry.Custom('CL_RP')] переживає справжній розквіт! Вправні майстри виробляють вишукані тканини, такі як шовк і тонке сукно, відомі своєю неперевершеною якістю. Міста Північної Італії, зокрема, [target_location.GetName], перетворилися на центри текстильної промисловості, куди стікаються купці та покупці з усіх куточків країни.\\n\\nЦя галузь почала приносити хороший дохід регіону, і зараз у ній зайнято велику кількість людей. Вишукані тканини з Північної Італії користуються величезним попитом, а сам регіон завоював репутацію флагмана тканинної промисловості."
+ },
+ "flavor_mlo.23.entry": {
+  "en": "$flavor_mlo.23.title$",
+  "uk": ""
+ },
+ "flavor_mlo.23.title": {
+  "en": "The Cloth Industry of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Тканинна промисловість [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_mlo.24.a": {
+  "en": "This is a declaration of the superiority of our culture!",
+  "uk": "Це символ наших видатних культурних досягнень!"
+ },
+ "flavor_mlo.24.b": {
+  "en": "We cannot afford such frivolous expenses.",
+  "uk": "Такі розкоші нам не по кишені."
+ },
+ "flavor_mlo.24.desc": {
+  "en": "The construction of the [ShowBuildingTypeName('cathedral')] has reached its completion! Skilled craftsmen and architects have worked diligently to create the magnificent cathedral.\\n\\n$milan_cathedral_desc$",
+  "uk": "Будівництво #TOOLTIP:BUILDING_TYPE,cathedral,X #L кафедрального собору#!#! завершилося! Досвідчені архітектори та робітники старанно трудилися, щоб явити світу величну споруду.\\n\\n$milan_cathedral_desc$"
+ },
+ "flavor_mlo.24.entry": {
+  "en": "Duomo di Milano",
+  "uk": ""
+ },
+ "flavor_mlo.24.title": {
+  "en": "The Cathedral of [target_location.GetNameWithNoTooltip]",
+  "uk": "Собор в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.25.a": {
+  "en": "He would want us to profit from his works one last time...",
+  "uk": "Він був би радий допомогти нам востаннє…"
+ },
+ "flavor_mlo.25.b": {
+  "en": "His works must be preserved!",
+  "uk": "Його спадщину потрібно зберегти!"
+ },
+ "flavor_mlo.25.desc": {
+  "en": "In [GetCurrentYear], the recent passing of the renowned artist Giotto reverberates through the art world. His legacy as a master painter and architect lives on, inspiring future generations through many of his works such as the #italic Scrovegni Chapel#! and the #italic Lives of Christ and the Virgin#!.\\n\\nThe question arises between our advisory councils regarding what to do with his prized artworks: whether to sell them or preserve them for posterity. Collectors and patrons appreciate the immense value of Giotto's art, making it a coveted asset. Ultimately, the decision lies in the hands of [target_character.GetName]. We would do well to carefully consider the preservation of his artistic legacy.",
+  "uk": "В [GetCurrentYear] році світ мистецтва сколихнула кончина прославленого художника та архітектора Джотто, але його блискучі роботи, такі як фрески #italic капели Скровеньї#! і #italic «Життя Христа і Діви Марії»#!, продовжують надихати нові покоління.\\n\\nНаші радники вирішують, як вчинити зі спадщиною Джотто: продати чи зберегти для нащадків. Колекціонери і меценати розуміють цінність творів Джотто і готові заплатити за них кругленьку суму. [target_character.GetName] стоїть перед складним вибором. Роботи Джотто — це надбання нашого народу, і ми повинні поставитися до їхнього збереження з усією серйозністю."
+ },
+ "flavor_mlo.25.entry": {
+  "en": "$flavor_mlo.25.title$",
+  "uk": ""
+ },
+ "flavor_mlo.25.title": {
+  "en": "The Most Sovereign Master of Painting",
+  "uk": "Неперевершений живописець"
+ },
+ "flavor_mlo.26.a": {
+  "en": "Lombardy is ours!",
+  "uk": "Ломбардія наша!"
+ },
+ "flavor_mlo.26.b": {
+  "en": "Let us take care of our people, instead.",
+  "uk": "Краще подбаємо про народ."
+ },
+ "flavor_mlo.26.desc": {
+  "en": "Our recent advances in consolidating our power at home and abroad have led us to a very crucial crossroads in our historical position within Italy. For the very first time in centuries, we have the ability to pursue the ambitions of the Kingdom of Lombardy and solidify northern Italy under our grasp.\\n\\nHowever, many advisors within our court advocate against such aggressive maneuvers and suggest instead focusing our resources and time internally, for the benefit of our people. We must weigh the options carefully and consistently consider the needs and aspirations of our subjects.\\n\\nAs we strive to maintain a balance between external pursuits and internal welfare, we must engage in consultations with advisors and the prominent members of our society to make informed decisions that benefit both our people and our legacy as a whole.",
+  "uk": "Нещодавно ми успішно зміцнили свою владу в країні і за її межами і тепер стоїмо на історичному роздоріжжі. Вперше за сотні років у нас з'явилася можливість об'єднати під своєю владою всю північну Італію і заснувати королівство Ломбардія.\\n\\nОднак багато придворних радників виступають проти такої агресивної політики і пропонують зосередитися на процвітанні нашого народу. Ми повинні ретельно зважити всі варіанти і діяти виходячи з потреб і прагнень наших васалів.\\n\\nДотримання балансу між внутрішніми і зовнішніми цілями — нелегке завдання, тому не варто приймати рішення на самоті: краще проконсультуватися з радниками та іншими видними діячами. Тільки тоді ми принесемо користь нашому народу і збережемо нашу велику спадщину."
+ },
+ "flavor_mlo.26.entry": {
+  "en": "$flavor_mlo.26.title$",
+  "uk": ""
+ },
+ "flavor_mlo.26.title": {
+  "en": "Aspirations of Greatness",
+  "uk": "Мрії про величність"
+ },
+ "flavor_mlo.27.a": {
+  "en": "Very well, [target_character.GetNameWithNoTooltip] will have [target_character.GetHerHis] crown.",
+  "uk": "Добре, [target_character.GetNameWithNoTooltip] отримає свою корону."
+ },
+ "flavor_mlo.27.a.entry": {
+  "en": "Very well, he will have his crown.",
+  "uk": ""
+ },
+ "flavor_mlo.27.b": {
+  "en": "Their grasp for power will not have our seal on it!",
+  "uk": "Їхні амбіції — не наша справа!"
+ },
+ "flavor_mlo.27.desc": {
+  "en": "The prominent nobles of [target_country.GetName] spearheaded by the great [target_character.GetName] have come to us with a delicate proposal. They demand the recognition of their dynasty as the legitimate crown holders of [target_country.GetNameWithNoTooltip].\\n\\nShould we engage with them in this diplomatic ceremony, we are sure to gain prestige and in turn legitimize our own domestic presence as the holders of the imperial crown. However, we should also be wary of a rising power in the peninsula...",
+  "uk": "[target_country.GetName] та інші відомі дворяни звернулися до нас з делікатною пропозицією — визнати їхню династію законними спадкоємцями корони [target_country.Custom('CL_RP')].\\n\\nЯкщо ми погодимося, то натомість здобудемо престиж і затвердимо свої права на імператорську корону. Однак їхній зростаючий вплив на півострові може становити для нас загрозу…"
+ },
+ "flavor_mlo.27.title": {
+  "en": "The Legitimization of Power",
+  "uk": "Легітимізація влади"
+ },
+ "flavor_mlo.28.a": {
+  "en": "Emperor be damned, we will seize our title ourselves!",
+  "uk": "До біса [Select_CString(target_character.IsFemale,'імператрицю', 'імператора')]! Ми все одно досягнемо свого!"
+ },
+ "flavor_mlo.28.b": {
+  "en": "We cannot risk [target_character.GetHerHis] ire...",
+  "uk": "Якщо [Select_CString(target_character.IsFemale,'імператриця', 'імператор')] розгнівається, нам не пощастить…"
+ },
+ "flavor_mlo.28.b.entry": {
+  "en": "We cannot risk his ire...",
+  "uk": ""
+ },
+ "flavor_mlo.28.desc": {
+  "en": "Dire news is upon us. The snake [target_character.GetName] has denied to recognize our bid as the monarchical ruling dynasty of [target_country.GetName]! [target_character.GetSheHe|U] even went so far as to forcibly escort our diplomats out, denying them their stay after their long journey. This is a grave insult to us and our name, and we shall not forget it!",
+  "uk": "Жахливі новини. [target_character.GetName] не [Select_CString(target_character.IsFemale,'визнала', 'визнав')] право нашої династії на престол [target_country.Custom('CL_GEN')]. Крім того, [Select_CString(target_character.IsFemale,'вона', 'він')] поспіхом [Select_CString(target_character.IsFemale,'випровадила', 'випровадив')] наших дипломатів, які втомилися після довгої дороги і потребували відпочинку. Цієї образи ми [Select_CString(target_character.IsFemale,'їй', 'йому')] ніколи не пробачимо!"
+ },
+ "flavor_mlo.28.title": {
+  "en": "The Emperor Refuses our Title",
+  "uk": "Імператор відмовляється дарувати нам титул"
+ },
+ "flavor_mlo.29.a": {
+  "en": "He is most welcome to stay!",
+  "uk": "Нехай залишається в нас!"
+ },
+ "flavor_mlo.29.b": {
+  "en": "We have other plans for our coin...",
+  "uk": "Приберемо наші кошти для інших цілей…"
+ },
+ "flavor_mlo.29.desc": {
+  "en": "[target_character.GetName], also known as #Y Petrarch#!, the renowned poet and scholar, is widely celebrated for his exceptional contributions to Italian literature. His profound influence on the development of the sonnet form and his lyrical expressions of love and nature have changed literature forever.\\nIn his contemplative musings, he has often expressed his fervent desire to relocate to the illustrious court of [target_location.GetName], where he believes his talents will be nurtured and his works will find greater appreciation.\\n\\nWith unwavering determination, Petrarch seeks to immerse himself in the vibrant cultural atmosphere of [target_location.GetNameWithNoTooltip], yearning for the opportunity to collaborate with fellow intellectuals and broaden his artistic horizons. Through his timeless writings and aspirations, [target_character.GetNameWithNoTooltip] embodies the enduring spirit of artistic pursuit and creative excellence.",
+  "uk": "[target_character.GetName], також відомий як #Y Петрарка#! — знаменитий поет і вчений, який зробив неоціненний внесок у розвиток італійської літератури. Його новаторські сонети, що оспівують кохання і красу природи, назавжди змінили поезію.\\nВін не раз висловлював бажання влаштуватися при дворі в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName], де, як він вважає, його таланти проявляться повною мірою, а його твори будуть оцінені по заслугах.\\n\\n[target_character.GetNameWithNoTooltip] пристрасно бажає зануритися в творче середовище [target_location.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [target_location.GetName], щоб спілкуватися з такими ж інтелектуалами і розширити свій кругозір. Цей геній сучасності — живе втілення художнього пошуку і прагнення до досконалості."
+ },
+ "flavor_mlo.29.entry": {
+  "en": "Petrarch visits Milano",
+  "uk": ""
+ },
+ "flavor_mlo.29.title": {
+  "en": "[target_character.GetNameWithNoTooltip] visits [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] відвідує [target_location.Custom('LR_ACC')] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.3.a": {
+  "en": "Let it be built!",
+  "uk": "Схвалити будівництво!"
+ },
+ "flavor_mlo.3.desc": {
+  "en": "On [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s request, the renowned architect Antonio Filarete has drawn up plans for the new Ca'Granda Hospital, which once complete will be one of the first community hospitals in Italy. Dedicated to the people of Annunciata (who have been hesitant to recognize the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s authority), it shall be built in the new, fashionable Renaissance style.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] просить знаменитого архітектора Антоніо Філарете скласти план нової лікарні Ка-Гранде, яка має стати однією з перших публічних лікарень Італії. Оспедале Маджоре, названа на честь людей Аннунціати, які довго не наважувалися визнати владу нашої держави, буде побудована в новомодному стилі флорентійського Відродження."
+ },
+ "flavor_mlo.3.entry": {
+  "en": "$flavor_mlo.3.title$",
+  "uk": ""
+ },
+ "flavor_mlo.3.title": {
+  "en": "The Ospedale Maggiore",
+  "uk": "Оспедале Маджоре"
+ },
+ "flavor_mlo.30.a": {
+  "en": "Iron for our armies and workers!",
+  "uk": "Залізо для наших робітників і воїнів!"
+ },
+ "flavor_mlo.30.b": {
+  "en": "We should not abandon our precious grain...",
+  "uk": "Зерно — це наше все…"
+ },
+ "flavor_mlo.30.desc": {
+  "en": "In [GetCurrentYear], the metallurgical industry in Milan is experiencing significant development. Skilled artisans and craftsmen employ advanced techniques to extract and refine metals, resulting in a flourishing production of quality iron. The city has become an unforeseen hub for metallurgical innovation, attracting workers and entrepreneurs who seek growth opportunities.\\n\\nAs demand for metal products increases, we must decide whether to establish [target_location.GetName] as a prominent center for metalworking, by shifting our major centers of production from grain to iron. According to prominent merchants who reside in the city, the industry's expansion in [target_location.GetNameWithNoTooltip] during this period will foster economic prosperity and contribute to the city's reputation as a leading center of craftsmanship, armor, and weapons.",
+  "uk": "В [GetCurrentYear] році металургійна промисловість Мілана переживає неймовірний підйом. Досвідчені майстри використовують передові технології для видобування та очищення металу і виплавляють залізо високої якості. Місто несподівано перетворилося на центр сучасної металургії. Сюди стікаються робітники та підприємці, привернені величезними можливостями для зростання. \\n\\nПопит на металопродукцію невпинно зростає, і ми повинні вирішити, чи варто нам проголосити [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName] головним центром металообробки, змістивши фокус з вирощування зерна на виробництво заліза. Найбагатші місцеві купці стверджують, що розвиток промисловості в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetNameWithNoTooltip] сприятиме його процвітанню і зміцнить його репутацію провідного центру зброярства."
+ },
+ "flavor_mlo.30.entry": {
+  "en": "The Metallurgical Center of Milano",
+  "uk": ""
+ },
+ "flavor_mlo.30.title": {
+  "en": "The Metallurgical Centers of [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetNameWithNoTooltip] — центр металургії"
+ },
+ "flavor_mlo.31.a": {
+  "en": "We must suppress their dissent.",
+  "uk": "Потрібно розправитися з бунтівниками."
+ },
+ "flavor_mlo.31.b": {
+  "en": "It is better to appease them...",
+  "uk": "Краще задобримо їх…"
+ },
+ "flavor_mlo.31.c": {
+  "en": "Freedom? How about the whip?",
+  "uk": "Свобода? Нехай краще покуштують батога!"
+ },
+ "flavor_mlo.31.desc": {
+  "en": "In [GetCurrentYear], and during a most turbulent time, one of our provinces, [target_province.GetName], has demanded we hand them more autonomy on the basis of our weakened state and internal strife. They seek freedom from taxation and obligations to our crown, asserting their own governance and legal framework. The province may be experiencing various challenges and conflicts in its pursuit of independence, but its people remain determined to defend their sovereignty against our rule.\\n\\nThis is irrefutable evidence that prominent individuals in our domain have been biding their time, waiting to strike when we are most vulnerable! Alas, this offense will not be forgotten. We must rein in these unruly elements and rally the men in defense of the crown!",
+  "uk": "У цей складний [GetCurrentYear] рік одна з наших провінцій, [target_province.GetName], зажадала більшої автономії, скориставшись послабленням держави і внутрішніми конфліктами. Її жителі не хочуть платити податки і виконувати зобов'язання перед короною. Вони прагнуть взяти управління у свої руки і створити свою правову базу. Здається, труднощі їх не лякають: вони відстоюватимуть свою незалежність будь-якою ціною.\\n\\nЩо ж… їхні лідери обрали підходящий час для повстання. Вони чекали моменту, коли ми станемо вразливими! Ми ніколи не забудемо їхньої підступності. Тепер наше завдання — приборкати незгодних і згуртувати людей довкола корони!"
+ },
+ "flavor_mlo.31.title": {
+  "en": "[target_province.GetNameWithNoTooltip] Demands Autonomy",
+  "uk": "[target_province.GetNameWithNoTooltip] вимагає автономії"
+ },
+ "flavor_mlo.31.title.fallback": {
+  "en": "Province Demands Autonomy",
+  "uk": "Провінція вимагає автономії"
+ },
+ "flavor_mlo.32.a": {
+  "en": "He will make a fine addition to our court.",
+  "uk": "При дворі знадобився би такий талановитий військовик."
+ },
+ "flavor_mlo.32.b": {
+  "en": "We are not short of ambitious men of war...",
+  "uk": "Навіщо нам черговий амбітний військовий?.."
+ },
+ "flavor_mlo.32.desc": {
+  "en": "[target_character.GetName] has recently risen to prominence as a skilled mercenary commander, known for his tactical brilliance and unwavering loyalty. His name carries weight on the battlefield, as he has led several of his troops with precision and fearlessness. With each victorious campaign, [target_character.GetLastNameWithNoTooltip]'s reputation grows, attracting the attention of the court of [ROOT.GetCountry.GetName]. He now stands before the influential figures of our court, impressing them with his charisma and military expertise, making a lasting impression as he navigates the intricate world of politics and power.",
+  "uk": "Досвідчений командир найманців [target_character.GetName] прославився на всю державу. Його ім'я стало синонімом тактичної майстерності і безмежної відданості. На полі бою він показав себе безстрашним і вмілим військовиком. З кожною переможною кампанією його популярність зростає, і слава про нього вже дійшла до двору [ROOT.GetCountry.Custom('CL_GEN')]. Впливові придворні вражені його харизмою і військовим досвідом, а також глибоким розумінням політичних процесів."
+ },
+ "flavor_mlo.32.entry": {
+  "en": "$flavor_mlo.32.title$",
+  "uk": ""
+ },
+ "flavor_mlo.32.title": {
+  "en": "A Man of Force and Determination",
+  "uk": "Сила і рішучість"
+ },
+ "flavor_mlo.33.a": {
+  "en": "Begin posthaste!",
+  "uk": "За роботу!"
+ },
+ "flavor_mlo.33.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_mlo.33.desc": {
+  "en": "During [GetCurrentYear], the Palazzo Ducale in [target_location.GetName] is planned to undergo a grand renovation, showcasing the city's wealth and artistic prowess. Originally a fortification rather than a palace and serving as the fortified residence of the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty, it is time to turn it into a palace worthy of the name. Skilled craftsmen meticulously make plans to restore its intricate frescoes and ornate sculptures, wishing to bring new life to the palace's interior. Various architects have been gathered to carefully design and implement structural improvements and subsequently ensure the stability and grandeur of the building. Artisans are set to adorn the halls with sumptuous tapestries and elegant furnishings, creating a regal atmosphere fit for royalty. The requested renovation project is slated to attract admiration and awe from visitors, solidifying the Palazzo Ducale's status as a cultural and architectural gem in [target_location.GetNameWithNoTooltip].",
+  "uk": "На [GetCurrentYear] рік заплановано масштабну реконструкцію палацу дожів — символу багатства і культурного впливу [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Спочатку будівля виконувала роль фортеці і служила резиденцією сім'ї [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName]. Настав час перетворити її на справжній палац. Досвідчені майстри розробляють план реставрації замислованих фресок і скульптур, бажаючи вдихнути нове життя в інтер'єр будівлі. Архітекторам же було доручено вдосконалити її конструкцію, щоб вона ще довго радувала міщан своєю пишнотою. Ремісники прикрасять просторі зали розкішними гобеленами і вишуканими меблями під стать королівській сім'ї. За задумом палац дожів має викликати у відвідувачів захоплення і тремтіння і стати справжньою культурною й архітектурною перлиною [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]."
+ },
+ "flavor_mlo.33.entry": {
+  "en": "$flavor_mlo.33.title$",
+  "uk": ""
+ },
+ "flavor_mlo.33.title": {
+  "en": "Renovating the Palazzo Ducale",
+  "uk": "Оновлення палацу дожів"
+ },
+ "flavor_mlo.34.a": {
+  "en": "We will fund this endeavor.",
+  "uk": "Виділимо кошти на цей проект."
+ },
+ "flavor_mlo.34.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_mlo.34.desc": {
+  "en": "[target_character.GetName] has approached our advisors with an interesting proposal. He assesses that the measure of a dynasty's splendor and prestige is measured only by the artistic and social print it leaves behind. Thus, to assist in solidifying our presence, he proposes to construct an #italic Equestrian Statue#! in [target_location.GetName] to honor our residing dynastic head. His vision for the grand sculpture captivates the court, as [target_character.GetNameWithNoTooltip] passionately describes his design and the significance it would hold for our city's prestige.\\n\\nOur most trusted men of the court strongly urge us to take him up on his proposal, recognizing his genius and the opportunity to leave a lasting legacy. The project may soon commence, with da Vinci meticulously working on every detail, infusing the statue with artistic brilliance and reverence for our country's reign. The people of [target_location.GetNameWithNoTooltip] eagerly await the completion of this magnificent tribute, knowing it will forever stand as a symbol of power and admiration.",
+  "uk": "[target_character.GetName] робить нашим радникам цікаву пропозицію. Він вважає, що престиж і вплив династії цілком залежить від культурного і соціального сліду, який вона залишить після себе. Він збирається створити #italic кінну статую#! в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName], щоб увічнити ім'я глави нашої сім'ї. [target_character.GetNameWithNoTooltip] так пристрасно описує свій проект і його майбутній вплив на престиж нашого міста, що повністю зачаровує придворних.\\n\\nНаші довірені помічники вмовляють нас дозволити цьому генію реалізувати свій амбітний проект. Якщо ми дамо добро, то да Вінчі буде ретельно працювати над кожною деталлю і створить скульптуру незвичайної художньої виразності, яка стане надбанням нашого міста і символом могутності нашого славного роду. Жителі [target_location.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [target_location.GetNameWithNoTooltip] вже не терплячись побачити новий твір майстра."
+ },
+ "flavor_mlo.34.entry": {
+  "en": "The Equestrian Statue of Leonardo da Vinci",
+  "uk": ""
+ },
+ "flavor_mlo.34.title": {
+  "en": "The Equestrian Statue of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і його кінна статуя"
+ },
+ "flavor_mlo.35.a": {
+  "en": "We shall weave our own story!",
+  "uk": "Ми впишемо себе в історію!"
+ },
+ "flavor_mlo.35.desc": {
+  "en": "A messenger from the royal court of [target_character.GetName] has arrived! According to the news bearer, the Holy Roman Emperor has decided to recognize our bid for the Milanese crown. This recognition solidifies our state's authority and strengthens our position within the Empire.\\n\\nThe Emperor's declaration brings a sense of validation and prestige to our ruler's reign, fostering a renewed sense of pride and loyalty among the people of [ROOT.GetCountry.GetName]. With this official recognition, we can now govern with confidence and establish [target_location.GetName] as a prominent city within the realm of the Holy Roman Empire.",
+  "uk": "До нас прибув гонець монаршого двору! За його словами, імператор Священної Римської Імперії [target_character.GetName] вирішив визнати наше право на міланський престол. Наш новий статус зміцнить авторитет нашої держави і нашу позицію в імперії.\\n\\nКрім того, він підвищить престиж нашого правителя і надасть його владі легітимність, а також змусить народ [ROOT.GetCountry.Custom('CL_RP')] пишатися своєю державою і забезпечить його лояльність. Під нашим мудрим керівництвом [target_location.GetName] скоро перетвориться на одне з найпроцвітаючих міст Священної Римської Імперії."
+ },
+ "flavor_mlo.35.entry": {
+  "en": "$flavor_mlo.35.title$",
+  "uk": ""
+ },
+ "flavor_mlo.35.title": {
+  "en": "The Emperor's Response",
+  "uk": "Відповідь імператора"
+ },
+ "flavor_mlo.36.a": {
+  "en": "A wonderful display of our house!",
+  "uk": "Символ величі нашої сім'ї!"
+ },
+ "flavor_mlo.36.b": {
+  "en": "We cannot afford this",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_mlo.36.desc": {
+  "en": "The Palazzo of [target_location.GetName] is a magnificent structure that encapsulates the grandeur of medieval architecture and has been the seat of our capital's government for generations. With proper funding, it shall stand as a testament to the power and opulence of the ruling elite. Its towering stone walls, adorned with intricate carvings and fortified towers, will evoke a sense of awe and reverence among all who approach it. Within its hallowed halls, resplendent tapestries will hang from vaulted ceilings, while nobles clad in regal garments engage in courtly affairs. The palace gardens, a verdant paradise, will offer respite from the bustling city, serving as a sanctuary for contemplation and leisure. A structure truly worthy of the name Palazzo Reale.",
+  "uk": "Палац в [target_location.Custom('LR_PREP')|l] [target_location.GetName] — це чудова пам'ятка середньовічної архітектури, яка протягом століть служила столичною резиденцією нашого уряду. Ми можемо перетворити його на символ могутності і багатства правлячої еліти, якщо не пошкодуємо коштів на його реставрацію. Високі кам'яні стіни, прикрашені замисловатими барельєфами, і величні башти внушатимуть жителям міста тремтіння і благоговіння. Легко уявити, як по його просторих залах зі склепінчастими стелями і чудовими гобеленами снують придворні, одягнені в розкішні одяги, а в пишних садах — справжньому раї на землі — віддаються спогляданню і відпочивають від міської суєти впливові вельможі. Таким і має бути королівський палац."
+ },
+ "flavor_mlo.36.entry": {
+  "en": "Palazzo Reale di Milano",
+  "uk": ""
+ },
+ "flavor_mlo.36.title": {
+  "en": "Palazzo Reale di [target_location.GetNameWithNoTooltip]",
+  "uk": "Королівський палац в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.37.a": {
+  "en": "[target_character.GetNameWithNoTooltip] and [target_spouse.GetNameWithNoTooltip] shall marry.",
+  "uk": "[target_character.GetNameWithNoTooltip] і [target_spouse.GetNameWithNoTooltip] повинні вступити в шлюб."
+ },
+ "flavor_mlo.37.a.entry": {
+  "en": "The character and the spouse shall marry.",
+  "uk": ""
+ },
+ "flavor_mlo.37.b": {
+  "en": "We do not want [target_character.GetHerHim] close to us.",
+  "uk": "Ми не хочемо наближати [Select_CString(target_character.IsFemale,'її', 'його')] до себе."
+ },
+ "flavor_mlo.37.b.entry": {
+  "en": "We do not want him close to us.",
+  "uk": ""
+ },
+ "flavor_mlo.37.desc": {
+  "en": "[target_character.GetName] is an ambitious individual, and [target_character.GetHerHis] military achievements are remarkable. Having someone like [target_character.GetHerHim] in our country is a double-edged sword, for as soon [target_character.GetSheHe] can help us reach greater highs as [target_character.GetSheHe] can decide [target_character.GetSheHe] wants the whole country for [target_character.GetHerselfHimself].\\n\\nPerhaps it would be best if we keep [target_character.GetHerHim] appeased for now. We could offer [target_character.GetHerHim] an offer to marry the [target_spouse.GetDaughterSon] of [ROOT.GetCountry.GetGovernment.GetRuler.GetName], [target_spouse.GetName], to keep [target_character.GetHerHim] satisfied and controlled at the same time.",
+  "uk": "[target_character.GetName] — людина цілеспрямована, і ми визнаємо [Select_CString(target_character.IsFemale,'її', 'його')] воїнські заслуги. Однак з такими людьми завжди потрібно бути напоготові: влада легко може закрутити їм голову. Хто знає, як [Select_CString(target_character.IsFemale,'вона', 'він')] поведе себе в майбутньому?\\n\\nМожливо, краща тактика — задобрити [Select_CString(target_character.IsFemale,'її', 'його')]. Ми можемо запропонувати [Select_CString(target_character.IsFemale,'їй', 'йому')] вступити в шлюб з [Select_CString(target_spouse.IsFemale,'донькою', 'сином')] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'нашої правительки', 'нашого правителя' )] на ім'я [target_spouse.GetName]. Тоді [ROOT.GetCountry.GetGovernment.GetRuler.GetName] тримає [Select_CString(target_character.IsFemale,'її', 'його')] під контролем."
+ },
+ "flavor_mlo.37.entry": {
+  "en": "A Marriage Proposal for Francesco Sforza",
+  "uk": ""
+ },
+ "flavor_mlo.37.title": {
+  "en": "A Marriage Proposal for [target_character.GetLastNameWithNoTooltip]",
+  "uk": "[target_character.GetLastNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її', 'його')] шлюб"
+ },
+ "flavor_mlo.37.tt": {
+  "en": "[target_character.GetNameWithNoTooltip] will expect to receive the [ROOT.GetCountry.GetName] in the future",
+  "uk": "У майбутньому [target_character.GetNameWithNoTooltip] захоче прибрати до рук [ROOT.GetCountry.Custom('CL_ACC')]"
+ },
+ "flavor_mlo.4.a": {
+  "en": "Peace in our time!",
+  "uk": "Хай буде мир!"
+ },
+ "flavor_mlo.4.b": {
+  "en": "This will get in the way of our ambitions...",
+  "uk": "Це завадить нам досягти своїх цілей…"
+ },
+ "flavor_mlo.4.desc": {
+  "en": "Our diplomats have negotiated a peace between ourselves, Naples, Florence, and Venice! Putting an end to the long struggles between Milan and Venice, it sets up a balance of power in northern Italy including the four great states of Italy. With luck, it will provide us with the security to consolidate our position.",
+  "uk": "Наші дипломати уклали мирну угоду з Неаполем, Флоренцією та Венецією! Це покладе кінець тривалій ворожнечі між чотирма могутніми містами-державами, розмежує міланські й венеційські території та встановить принцип балансу сил у Північній Італії. Якщо нам пощастить, ми зможемо значно зміцнити наш вплив."
+ },
+ "flavor_mlo.4.entry": {
+  "en": "$flavor_mlo.4.title$",
+  "uk": ""
+ },
+ "flavor_mlo.4.title": {
+  "en": "Treaty of Lodi",
+  "uk": "Лодійський мир"
+ },
+ "flavor_mlo.40.a": {
+  "en": "Make a move.",
+  "uk": "Вперед."
+ },
+ "flavor_mlo.40.b": {
+  "en": "Leave them be.",
+  "uk": "Залишимо їх у спокої."
+ },
+ "flavor_mlo.40.desc": {
+  "en": "The strengthening grip of the [target_character.GetDynasty.GetName] can be felt like a tremor across all of northern [ShowRegionName('italy_region')] and especially [ShowAreaName('lombardy_area')]. The hegemony of the dynasty is certainly undisputed, and many dissidents are finally beginning to bend the knee to us. We could exploit this trend to incorporate the two lowly communes in [target_location.GetName] and [target_location2.GetName].",
+  "uk": "Вплив династії [target_character.GetDynasty.GetName] зростає по всій Північній #TOOLTIP:REGION,italy_region,X #L Італії#!#! і особливо відчувається в #TOOLTIP:AREA,lombardy_area,X #L Ломбардії#!#!. Така сила викликає тремтіння, і поступово її визнають навіть найнестерпніші вперті. Ми можемо скористатися ситуацією і захопити дві скромні громади в [target_location.Custom('LR_PREP')|l] [target_location.GetName] і [target_location2.Custom('LR_PREP')|l] [target_location2.GetName]."
+ },
+ "flavor_mlo.40.entry": {
+  "en": "Integration of Alessandria and Tortona",
+  "uk": ""
+ },
+ "flavor_mlo.40.historical_info": {
+  "en": "In years 1347-1348, the expansionist Signoria of Milan invaded and integrated the two neighboring cities of Alessandria and Tortona alongside their holdings. The campaigns were led by the condottiero Luchino Visconti, one of the lords of Milan at the time.",
+  "uk": "В 1347-1348 роках Міланське герцогство захопило і приєднало до себе два сусідні міста: Алессандрію і Тортону. Цими кампаніями керував кондотьєр Лукіно Вісконті — один з правителів Мілана."
+ },
+ "flavor_mlo.40.title": {
+  "en": "Integration of [target_location.GetNameWithNoTooltip] and [target_location2.GetNameWithNoTooltip]",
+  "uk": "Інтеграція Алессандрії і Тортони"
+ },
+ "flavor_mlo.41.a": {
+  "en": "Proceed with the plan.",
+  "uk": "Ми виділимо кошти на цей проект."
+ },
+ "flavor_mlo.41.b": {
+  "en": "The funds are not there for such a process.",
+  "uk": "У нас немає на нього грошей."
+ },
+ "flavor_mlo.41.desc": {
+  "en": "There is a brand new proposal to link the two most significant cities of [ShowAreaName('lombardy_area')], the great settlements of [target_location.GetName] and [target_location2.GetName]. As per the suggestion, an artificial canal would be built between the two cities with a road running alongside them. Such an enhancement could be greatly beneficial for the cohesion of the entire province.",
+  "uk": "Нам надійшла пропозиція побудувати канал між двома найважливішими містами #TOOLTIP:AREA,lombardy_area,X #L Ломбардії#!#!, а вздовж нього прокласти дорогу. [target_location.GetName] і [target_location2.GetName] нарешті будуть з'єднані один з одним, що посилить згуртованість усієї провінції."
+ },
+ "flavor_mlo.41.entry": {
+  "en": "$flavor_mlo.41.title$",
+  "uk": ""
+ },
+ "flavor_mlo.41.historical_info": {
+  "en": "The #italic Navigliaccio#! was a canal constructed between Milan and Pavia intending to link the two cities closer together as well as to serve as irrigation for the #italic Visconti Park#! north of Pavia.",
+  "uk": "#italic Навільяччо#! — канал, побудований між Міланом і Павією для зміцнення співпраці між містами, а також зрошення #italic парку Вісконті#! на північ від Павії."
+ },
+ "flavor_mlo.41.title": {
+  "en": "#italic Navigliaccio#!",
+  "uk": "#italic Навільяччо#!"
+ },
+ "flavor_mlo.42.a": {
+  "en": "Force them to give up the land.",
+  "uk": "Відібрати землю силою."
+ },
+ "flavor_mlo.42.b": {
+  "en": "Purchase it, no matter the cost.",
+  "uk": "Купимо землю за будь-яку ціну."
+ },
+ "flavor_mlo.42.c": {
+  "en": "We need no vanities!",
+  "uk": "Обійдемося без парку!"
+ },
+ "flavor_mlo.42.desc": {
+  "en": "Our estate in [target_location.GetName] is growing steadily. The architects are doing a splendid job and it seems like the palace will be cherished for years to come. However, [target_ruler.GetName] found it insufficient and has decided that no good [ROOT.GetCountry.GetGovernment.GetAdjective] residence is complete without hunting grounds. For that, [target_ruler.GetSheHe] intends to have land acquired for the purpose of creating a park. The intended land, however, is owned by the city dwellers.",
+  "uk": "Наше помістя в [target_location.Custom('LR_PREP')|l] [target_location.GetName] невпинно розростається. Архітектори постаралися на славу: здається, в цьому палаці проживе не одне покоління. Однак [target_ruler.GetName] не уявляє #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої#! резиденції без мисливських угідь. [Select_CString(target_ruler.IsFemale, 'Вона', 'Він' )] збирається придбати землю і розбити на ній парк, але є одна проблема: ця земля належить міщанам."
+ },
+ "flavor_mlo.42.entry": {
+  "en": "$flavor_mlo.42.title$",
+  "uk": ""
+ },
+ "flavor_mlo.42.historical_info": {
+  "en": "The Visconti Park was a tract of land acquired by the Visconti Lord of Milan to enhance the splendor of their estate in Pavia. To acquire the land for the hunting grounds, Galeazzo II Visconti had to seize territories from the local city dwellers, causing wide unrest. One of the citizens that got their lands confiscated was Bertolino de' Sisti, whose lost income led him to have an attempt on Galeazzo's life.",
+  "uk": "Парк Вісконті — це ділянка землі, відведена правителем Мілана з роду Вісконті під мисливські угіддя. Бажаючи розширити своє розкішне помістя в Павії, Галеаццо II Вісконті по суті відібрав цю територію у місцевих жителів, чим викликав серйозне невдоволення. Багато міщан втратили джерело доходу. Серед них був і Бертоліно де Систі, який від розпачу вирішив убити Галеаццо."
+ },
+ "flavor_mlo.42.title": {
+  "en": "Acquiring Land for Visconti Park",
+  "uk": "Покупка землі для парку Вісконті"
+ },
+ "flavor_mlo.43.a": {
+  "en": "Tell the guards to engage.",
+  "uk": "Наказати охороні втрутитися."
+ },
+ "flavor_mlo.43.b": {
+  "en": "Exercise caution.",
+  "uk": "Проявити обережність."
+ },
+ "flavor_mlo.43.desc": {
+  "en": "The decision to seize land from the city dwellers has upset the population of [target_location.GetName]. During one of the parades in the city, a disgruntled citizen made an attempt on [target_ruler.GetName]'s life. We need to react promptly.",
+  "uk": "Наше рішення відібрати землю силою засмутило населення [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Під час параду невдоволений громадянин спробував убити нашого правителя. [target_ruler.GetName] дивом [Select_CString(target_ruler.IsFemale, 'уникла', 'уникнув' )] смерті. Треба діяти швидко."
+ },
+ "flavor_mlo.43.entry": {
+  "en": "$flavor_mlo.43.title$",
+  "uk": ""
+ },
+ "flavor_mlo.43.historical_info": {
+  "en": "$flavor_mlo.42.historical_info$",
+  "uk": ""
+ },
+ "flavor_mlo.43.title": {
+  "en": "Attempted Assassination",
+  "uk": "Спроба вбивства"
+ },
+ "flavor_mlo.44.a": {
+  "en": "We need [mlo_dal_verme_scope.GetHimHer] in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "Ми повинні запросити [Select_CString(mlo_dal_verme_scope.IsFemale,'її', 'його')] до двору!"
+ },
+ "flavor_mlo.44.a.entry": {
+  "en": "We need him in our court!",
+  "uk": ""
+ },
+ "flavor_mlo.44.b": {
+  "en": "Nobody exceptional, honestly.",
+  "uk": "Незамінних людей не існує."
+ },
+ "flavor_mlo.44.desc": {
+  "en": "Word has reached us of an exceptional condottiero in the service of our rivals. [mlo_dal_verme_scope.GetHerHis|U] name is [mlo_dal_verme_scope.GetName] and [mlo_dal_verme_scope.GetSheHe] could be a great asset for our military. Moreover, our foes would be much weaker if we were to 'poach' [mlo_dal_verme_scope.GetHerHim] from their hands.",
+  "uk": "До нас дійшли чутки про талановитого кондотьєра [mlo_dal_verme_scope.GetName], який служить нашимворогам. Така людина потрібна нашій армії. Крім того, якщо ми переманимо [Select_CString(mlo_dal_verme_scope.IsFemale,'її', 'його')] до себе, то значно ослабимо війська суперника."
+ },
+ "flavor_mlo.44.entry": {
+  "en": "Dal Verme",
+  "uk": ""
+ },
+ "flavor_mlo.44.historical_info": {
+  "en": "Jacopo dal Verme was an Italian condottiero from the Veronese noble family of dal Verme. As most condottieri, he was hired by many different parties, but became distinguished for his work for the Milanese lords Galeazzo II and Gian Galeazzo, the latter appointing him as a captain general.",
+  "uk": "Якопо даль Верме був італійським кондотьєром з веронської знатної сім'ї Даль Верме. Як і багато кондотьєрів, він керував різними військами, але прославився як командувач міланської армії в кампаніях Галеаццо II Вісконті і Джана Вісконті. Останній навіть зробив його генерал-капітаном."
+ },
+ "flavor_mlo.44.title": {
+  "en": "[mlo_dal_verme_scope.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mlo.45.a": {
+  "en": "Have [mlo_bernardino_corio_scope .GetHimHer] join us.",
+  "uk": "Будемо раді [Select_CString(mlo_bernardino_corio_scope.IsFemale,'її', 'його')] бачити."
+ },
+ "flavor_mlo.45.a.entry": {
+  "en": "Have him join us.",
+  "uk": ""
+ },
+ "flavor_mlo.45.b": {
+  "en": "We do not have the funds.",
+  "uk": "Нам нічим [Select_CString(mlo_bernardino_corio_scope.IsFemale,'їй', 'йому')] платити."
+ },
+ "flavor_mlo.45.desc": {
+  "en": "An exceptional writer, [mlo_bernardino_corio_scope.GetName], wishes to join our [ROOT.GetCountry.GetGovernment.GetCourtTitle] as a chief chronicler. If we are to believe [mlo_bernardino_corio_scope.GetHerHis] ambitions, [mlo_bernardino_corio_scope.GetSheHe] aims to create a complete work that would contain the history of our great city from its founding to the present day.",
+  "uk": "[Select_CString(mlo_bernardino_corio_scope.IsFemale,'Вражаюча письменниця', 'Вражаючий письменник')] [mlo_bernardino_corio_scope.GetName] хоче стати головним хроністом нашого [ROOT.GetCountry.GetCourt.Custom('parliament_ru_GEN')|l]. [Select_CString(mlo_bernardino_corio_scope.IsFemale,'Вона', 'Він')] збирається описати історію нашого міста з моменту його заснування до наших днів."
+ },
+ "flavor_mlo.45.entry": {
+  "en": "Bernardino Corio",
+  "uk": ""
+ },
+ "flavor_mlo.45.title": {
+  "en": "[mlo_bernardino_corio_scope.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mlo.46.a": {
+  "en": "Continue funding this chronicle!",
+  "uk": "Продовжимо фінансувати хроніку!"
+ },
+ "flavor_mlo.46.b": {
+  "en": "We would rather have a new palace built.",
+  "uk": "Краще побудуємо новий палац."
+ },
+ "flavor_mlo.46.desc": {
+  "en": "Investing vast amounts of gold into [target_character.GetName] finally paid off. Though [target_character.GetHerHis] promises may have seemed ambitious at first, it seems the trust we professed in [target_character.GetHerHim] has actually brought us great benefits. Today, [target_character.GetHerHis] work is finally done and is consistently updated with the new annals that [target_character.GetSheHe] lives through.",
+  "uk": "Нарешті наші вкладення окупилися: [target_character.GetName] [Select_CString(mlo_bernardino_corio_scope.IsFemale,'закінчила', 'закінчив')] свою роботу, хоча спочатку мало хто вірив, що [Select_CString(mlo_bernardino_corio_scope.IsFemale,'їй', 'йому')] вдасться втілити в життя настільки амбітний план, але ми ризикнули і не прогадали. [Select_CString(mlo_bernardino_corio_scope.IsFemale,'Її', 'Його')] і без того вагомий труд постійно поповнюється новими даними."
+ },
+ "flavor_mlo.46.entry": {
+  "en": "$flavor_mlo.46.title$",
+  "uk": ""
+ },
+ "flavor_mlo.46.title": {
+  "en": "#italic $mlo_historia_patria$#!",
+  "uk": ""
+ },
+ "flavor_mlo.47.a": {
+  "en": "Exploit this opportunity.",
+  "uk": "Скористаємося цією можливістю."
+ },
+ "flavor_mlo.47.b": {
+  "en": "Focus on internal affairs.",
+  "uk": "Зосередимося на внутрішніх проблемах."
+ },
+ "flavor_mlo.47.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] is in danger. Surrounded by powerful enemies, they have been abandoned by their overlords, who intend to sell them off to us or another bidder. Powerless and exposed, their [target_location.GetRank.GetName] is ripe for the taking. Let us take it over.",
+  "uk": "[target_location.GetRank.GetName] [target_location.GetName] у великій небезпеці. Ці землі оточені могутніми ворогами, а сюзерени покинули їх і тепер шукають вигідного покупця. [target_location.GetRank.GetName] чекає нового повелителя. Чому б нам не спробувати удачу?"
+ },
+ "flavor_mlo.47.entry": {
+  "en": "Trouble in Parma",
+  "uk": ""
+ },
+ "flavor_mlo.47.title": {
+  "en": "[target_location.GetNameWithNoTooltip] in Trouble",
+  "uk": "[target_location.GetNameWithNoTooltip] в біді"
+ },
+ "flavor_mlo.5.a": {
+  "en": "Peace in our time!",
+  "uk": "Хай буде мир!"
+ },
+ "flavor_mlo.5.desc": {
+  "en": "The Milanese have agreed to sign a peace treaty between themselves, Naples, Florence, and Venice! Putting an end to the long struggles between Milan and Venice, it sets up a balance of power in northern Italy including the four great states of Italy. With luck, it will provide us with the security to consolidate our position.",
+  "uk": "Міланці погодилися підписати мирний договір з Неаполем, Флоренцією та Венецією! Це покладе кінець тривалій ворожнечі між чотирма могутніми містами-державами, розмежує міланські й венеційські території та встановить принцип балансу сил у Північній Італії. Якщо нам пощастить, ми зможемо значно зміцнити наш вплив."
+ },
+ "flavor_mlo.5.entry": {
+  "en": "$flavor_mlo.5.title$",
+  "uk": ""
+ },
+ "flavor_mlo.5.title": {
+  "en": "Treaty of Lodi",
+  "uk": "Лодійський мир"
+ },
+ "flavor_mlo.51.a": {
+  "en": "Fund this development.",
+  "uk": "Вкладемося в цей проект."
+ },
+ "flavor_mlo.51.b": {
+  "en": "It is but a vanity.",
+  "uk": "Не будемо впадати в марнославство."
+ },
+ "flavor_mlo.51.desc": {
+  "en": "Our pivot towards a more central capital and the formation of a unified state in [ShowAreaName('lombardy_area')] has severed our close connections with [milan_location.GetName]. With our focus on the [target_location.GetRank.GetName] of [target_location.GetName], it is certain that we need a grand residence to go on with it. As such, members of our [ROOT.GetCountry.GetGovernment.GetCourtTitle] have proposed the foundation of a new palace to signify the start of a new era.",
+  "uk": "Наше бажання створити єдину державу зі столицею в центрі #TOOLTIP:AREA,lombardy_area,X #L Ломбардії#!#! змусило нас залишити наш рідний [milan_location.GetName]. Очевидно, що нам потрібна велика резиденція в [target_location.Custom('LR_PREP') [target_location.GetName]. Члени [ROOT.GetCountry.GetCourt.Custom('parliament_ru_GEN')|l] запропонували звести пишний палац, який стане символом нової епохи."
+ },
+ "flavor_mlo.51.entry": {
+  "en": "$flavor_mlo.51.title$",
+  "uk": ""
+ },
+ "flavor_mlo.51.historical_info": {
+  "en": "After the conquest of Pavia in 1359, the Visconti decided to found a palace there. The site was chosen due to its centrality and role as a capital of the Lombard Kingdom - the residence was to be a symbol of the Milanese hegemony and spiritual successorship to the Kingdom.",
+  "uk": "Після завоювання Павії в 1359 році Вісконті вирішили побудувати палац у новій столиці. Місто було обране невипадково: воно знаходилося в самому центрі Лангобардського королівства. Резиденція повинна була стати символом міланської гегемонії і духовної спадкоємності."
+ },
+ "flavor_mlo.51.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] Palace",
+  "uk": "Палац династії [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.52.a": {
+  "en": "Focus on storing knowledge.",
+  "uk": "Наука і знання."
+ },
+ "flavor_mlo.52.b": {
+  "en": "Preserve our glory days.",
+  "uk": "Наша велика культура."
+ },
+ "flavor_mlo.52.desc": {
+  "en": "To bolster the prestige of the [target_location.GetName] and the glorious [target_character.GetDynasty.GetName] dynasty ruling it, a proposal has been made to compile the finest works of [ROOT.GetCountry.GetName] in a library created within the constructed #italic palazzo#!. The plan has already been approved; we are, however, yet to decide what we should focus on.",
+  "uk": "До нас надійшла цікава пропозиція: зібрати найкращі книги [ROOT.GetCountry.Custom('CL_RP')] у бібліотеці #italic палацу#!, щоб зміцнити престиж [target_location.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [target_location.GetName] і нашої правлячої династії [target_character.GetDynasty.GetName]. План вже затверджено, але треба визначитися, яка сфера нас цікавить."
+ },
+ "flavor_mlo.52.entry": {
+  "en": "The Visconti Library of Pavia",
+  "uk": ""
+ },
+ "flavor_mlo.52.title": {
+  "en": "[target_character.GetDynasty.GetNameWithNoTooltip] Library",
+  "uk": "Бібліотека династії [target_character.GetDynasty.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.53.a": {
+  "en": "Loot it!",
+  "uk": "Пограбуємо бібліотеку!"
+ },
+ "flavor_mlo.53.b": {
+  "en": "Focus on looting the city instead.",
+  "uk": "Краще розграбуємо місто."
+ },
+ "flavor_mlo.53.desc": {
+  "en": "Having entered the city of [target_location.GetName] and taken control of the province, the famous local palace, and its treasure trove which is its library, have also fallen into our laps. Though we could choose to spare the library, we find little reason not to do so, other than trying to prevent further straining our relations with its owners.",
+  "uk": "Після того, як ми захопили місто [target_location.GetName] і встановили контроль над усією провінцією, в наших руках опинився палац з легендарною бібліотекою. Ми можемо розорити її або залишити недоторканою, щоб не псувати відносини з її власниками."
+ },
+ "flavor_mlo.53.title": {
+  "en": "Library of [target_location.GetNameWithNoTooltip]",
+  "uk": "Бібліотека в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_mlo.54.a": {
+  "en": "They will pay for it!",
+  "uk": "Вони заплатять за це!"
+ },
+ "flavor_mlo.54.desc": {
+  "en": "Those bastards in [library_ruiner.GetName] have violated the sanctity of our treasure trove. Though such actions are to be expected from a hostile army, we will not look for any excuses to justify their affront to scholarly traditions.",
+  "uk": "[library_ruiner.GetName] поплатиться за скоєне. [Select_CString(library_ruiner.IsFemale,'Її', 'Його')] солдати розграбували нашу скарбницю. Звісно, від ворога іншого і не чекаєш, але це варварство не залишиться безкарним."
+ },
+ "flavor_mlo.54.entry": {
+  "en": "$flavor_mlo.54.title$",
+  "uk": ""
+ },
+ "flavor_mlo.54.title": {
+  "en": "Our Library Ruined!",
+  "uk": "Наша бібліотека зруйнована!"
+ },
+ "flavor_mlo.6.a": {
+  "en": "We shall sponsor [target_artist.GetHerHim]!",
+  "uk": "Ми надамо [Select_CString(target_artist.IsFemale,'їй','йому')] підтримку!"
+ },
+ "flavor_mlo.6.a.entry": {
+  "en": "We shall sponsor him!",
+  "uk": ""
+ },
+ "flavor_mlo.6.b": {
+  "en": "We cannot afford this commission...",
+  "uk": "Це нам не по кишені…"
+ },
+ "flavor_mlo.6.desc": {
+  "en": "There is truth in the statement that our most vibrant and glorious works of art are but mere symbols of our strength and resilience. However, humankind has value precisely in their ability for art and expression. The most direct way of channeling our cultural advancement and displaying our prestige is the creation of tremendous works of art, and one such chance has arisen recently, as the legendary artist [target_artist.GetName] has recently started seeking sponsorship funds for his next great work, #italic $last_supper$#!.",
+  "uk": "Є думка, що найвеличніші твори мистецтва символізують силу й наполегливість людини. З цим важко не погодитися. Саме здатність до творчості й самовираження відрізняє нас від тварин, і найкращий спосіб довести нашу культурну перевагу — створити неповторний шедевр. На щастя, нещодавно легендарний художник [target_artist.GetName] звернувся до нас з проханням підтримати його в роботі над масштабним полотном #italic «Таємна вечеря»#!."
+ },
+ "flavor_mlo.6.entry": {
+  "en": "Leonardo da Vinci Paints the Last Supper",
+  "uk": ""
+ },
+ "flavor_mlo.6.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]'s #italic $last_supper$#!",
+  "uk": "[target_artist.GetNameWithNoTooltip] і #italic «Таємна вечеря»#!"
+ },
+ "flavor_mlo.9.a": {
+  "en": "Leonardo, you are most welcome to stay!",
+  "uk": "Залишайся в нас, Леонардо!"
+ },
+ "flavor_mlo.9.b": {
+  "en": "We cannot afford his salary.",
+  "uk": "Ми не зможемо оплатити його послуги."
+ },
+ "flavor_mlo.9.desc": {
+  "en": "One of the most legendary painters, a true Renaissance man has blessed our court with his presence. [target_artist.GetName] is known for his abilities far and wide and is sought after as he is famed for being an incredible painter, engineer, architect and so much more!",
+  "uk": "Легендарний художник і справжня людина відродження осчастливила наш двір своєю присутністю. [target_artist.GetName] користується великою пошаною в усьому світі. Він здобув широку відомість як неймовірний художник, інженер, архітектор і не тільки!"
+ },
+ "flavor_mlo.9.entry": {
+  "en": "Leonardo da Vinci Visits Milan",
+  "uk": ""
+ },
+ "flavor_mlo.9.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] visits [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_artist.GetNameWithNoTooltip] відвідує [target_location.Custom('LR_ACC')] [target_location.GetNameWithNoTooltip]"
+ },
+ "flo_target_artist_joins_our_court_tt": {
+  "en": "[target_artist.GetName] joins our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[target_artist.GetName] приєднується до двору."
+ },
+ "italian_cloth": {
+  "en": "Demand for Italian Cloth",
+  "uk": "Попит на італійські тканини"
+ },
+ "mlo_access_restore_kingdom_lombardy_cabinet_action_tt": {
+  "en": "We will gain access to the [ShowCabinetActionName('mlo_restore_kingdom_lombardy')] unique [cabinet|e] action for #Y 30#! years.\\n\\nThis action can integrate territories in [ShowAreaName('lombardy_area')], [ShowAreaName('emilia_area')], [ShowAreaName('piemonte_area')], [ShowAreaName('liguria_area')], [ShowAreaName('veneto_area')], and [ShowAreaName('tuscany_area')] [areas|e] much faster.",
+  "uk": "Ми на #Y 30#! років отримаємо доступ до унікальної дії [Concept('cabinet', 'ради')|e] «[ShowCabinetActionName('mlo_restore_kingdom_lombardy')]».\\n\\nВона дозволить значно швидше інтегрувати території в [Concept('areas', 'областях')|e] [ShowAreaName('lombardy_area')], [ShowAreaName('emilia_area')], [ShowAreaName('piemonte_area')], [ShowAreaName('liguria_area')], [ShowAreaName('veneto_area')] і [ShowAreaName('tuscany_area')]."
+ },
+ "mlo_against_ambrosian": {
+  "en": "Against Saint Ambrose Republic",
+  "uk": "Проти республіки святого Амвросія"
+ },
+ "mlo_every_location_italy_5_control_tt": {
+  "en": "Our locations in the Italian [region|e] will gain [ShowNamedValue('control_weak_bonus')|+=2%] [control|e]",
+  "uk": "[Concept('control','Контроль')|e] над нашими районами в італійському [Concept('region','регіоні')|e] зросте на [ShowNamedValue('control_weak_bonus')|+=2%]"
+ },
+ "mlo_every_province_scope_province_tt": {
+  "en": "Every owned [location|e] in the affected [province|e] will suffer the following:",
+  "uk": "Усі наші [Concept('location', 'райони')|e] в постраждалій [Concept('province','провінції')|e] отримають такі ефекти:"
+ },
+ "mlo_lodrisio_visconti_appeased_tt": {
+  "en": "[target_character.GetName] will be appeased at the expense of other members of our ruling family",
+  "uk": "[target_character.GetName] задовольнить свої інтереси на шкоду іншим членам правлячої династії"
+ },
+ "mlo_lodrisio_visconti_scorned_tt": {
+  "en": "[target_character.GetName] will flee our court",
+  "uk": "[target_character.GetNameWithNoTooltip] покине наш двір"
+ },
+ "mlo_peace_of_lodi": {
+  "en": "Treaty of Lodi",
+  "uk": "Лодійський мир"
+ },
+ "mlo_sforza_given_influence_tt": {
+  "en": "[target_character.GetName] is given control of our armed forces",
+  "uk": "[target_character.GetName] отримує контроль над нашими військами"
+ },
+ "mlo_sforza_joins_tt": {
+  "en": "[target_character.GetName] will join our court",
+  "uk": "[target_character.GetName] приєднається до нашого двору"
+ },
+ "mlo_visconti_struggle": {
+  "en": "For as long as we remain fractured under the Visconti City-States Noble Privilege, our legitimacy and control over our territories will suffer",
+  "uk": "Поки наша роздроблена держава знаходиться під гнітом династії Вісконті, ми не зможемо стати легітимними правителями і отримати повний контроль над своїми територіями."
+ },
+ "mlo_waterways_estates_pay_tt": {
+  "en": "Representatives of the [GetCountry('MLO').GetGovernment.GetEstateName('burghers_estate')], the [GetCountry('MLO').GetGovernment.GetEstateName('clergy_estate')] and the [GetCountry('MLO').GetGovernment.GetEstateName('nobles_estate')] will pay for the maintenance while suffering #R -20%#! [estate_satisfaction|e]",
+  "uk": "Представники станів «[GetCountry('MLO').GetGovernment.GetEstateName('burghers_estate')]», «[GetCountry('MLO').GetGovernment.GetEstateName('clergy_estate')]» і «[GetCountry('MLO').GetGovernment.GetEstateName('nobles_estate')]» заплатять за утримання, але при цьому їхнє [Concept('estate_satisfaction', 'задоволення')|e] знизиться на #R 20%#!"
+ },
+ "produce_any_fine_cloth_or_silk_tt": {
+  "en": "We produce any [ShowGoodsName('fine_cloth')] or [ShowGoodsName('silk')]",
+  "uk": "Ми виробляємо будь-яке #TOOLTIP:GOODS,fine_cloth,X #L тонке сукно#!#! або #TOOLTIP:GOODS,silk,X #L шовк#!#!"
+ }
+}

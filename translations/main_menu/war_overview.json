@@ -1,0 +1,602 @@
+{
+ "ALLIED_TO_ENEMY": {
+  "en": "They are allied to the enemy.",
+  "uk": "Вони союзники ворога."
+ },
+ "BATTLE_WAR_LAT_ENTRY": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: $VAL|+=2$",
+  "uk": ""
+ },
+ "BLOCKADED_LOC_TT_ENTRY": {
+  "en": "[LOCATION.GetRank.GetIcon][LOCATION.GetName]: [LOCATION.GetTotalPopulationWithBreakDown]",
+  "uk": ""
+ },
+ "CANNOT_INTERVENE_WAR_ALLY": {
+  "en": "$COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ has sided against $DEFENDER|Y$ in this war, and $COUNTRY|Y$ is allied with $SUBJECT|Y$ in another war.",
+  "uk": "$COUNTRY|Y$ не може втрутитися в цю війну, оскільки $SUBJECT|Y$ виступив проти $DEFENDER|Y$ у цій війні, а $COUNTRY|Y$ союзник з $SUBJECT|Y$ в іншій війні."
+ },
+ "CANNOT_INTERVENE_WAR_ENEMY": {
+  "en": "$COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ has sided with $DEFENDER|Y$ in this war, and $COUNTRY|Y$ is already at war with $SUBJECT|Y$.",
+  "uk": "$COUNTRY|Y$ не може втрутитися в цю війну, оскільки $SUBJECT|Y$ виступив на боці $DEFENDER|Y$ у цій війні, а $COUNTRY|Y$ вже воює з $SUBJECT|Y$."
+ },
+ "CANNOT_INTERVENE_WAR_ENEMY_IN_OTHER_WAR": {
+  "en": "[COUNTRY.GetName] cannot intervene in this war because of being enemies with [TARGET_COUNTRY.GetName] in a different war",
+  "uk": "Країна [COUNTRY.GetName] не може втрутитися в цю війну через ворожнечу з країною [TARGET_COUNTRY.GetName] в іншій війні"
+ },
+ "CANNOT_INTERVENE_WAR_UNION_PARTNER": {
+  "en": "@trigger_no! $COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ is in a [union|e] with $COUNTRY|Y$.",
+  "uk": "$COUNTRY|Y$ не може втрутитися в цю війну, оскільки $SUBJECT|Y$ перебуває в [Concept('union','унії')|e] з $COUNTRY|Y$."
+ },
+ "DIPLOMACY_CHANCE_JOIN_WAR": {
+  "en": "Likelihood of joining the war: $VAL$.\\n",
+  "uk": "Ймовірність приєднання до війни: $VAL$.\\n"
+ },
+ "DIPLOMACY_JOIN_WAR": {
+  "en": "Might join the war.\\n",
+  "uk": "Можуть приєднатися до війни.\\n"
+ },
+ "GO_TO": {
+  "en": "Go To",
+  "uk": "Перейти до"
+ },
+ "JOIN_WAR_CAVEAT_SUBJECT_LOYALTY": {
+  "en": "Although they are obliged to join the war, their lack of [subject_loyalty|e] ($LOYALTY|2+=$) means they may not exactly put their backs into it.",
+  "uk": "Хоча вони зобов'язані приєднатися до війни, їхня відсутність [Concept('subject_loyalty','лояльності підданого')|e] ($LOYALTY|2+=$) означає, що вони можуть не докладати всіх зусиль."
+ },
+ "JOIN_WAR_REASON_CoBelligerent": {
+  "en": "Co-Belligerent",
+  "uk": "Співвоюючий"
+ },
+ "JOIN_WAR_REASON_DESC_CoBelligerent": {
+  "en": "[COUNTRY.GetName] were declared on as a [cobelligerent|e].",
+  "uk": "Країна [COUNTRY.GetName] була оголошена як [Concept('cobelligerent','співвоюючий')|e]."
+ },
+ "JOIN_WAR_REASON_DESC_Instigator": {
+  "en": "[COUNTRY.GetName] started the [war|e].",
+  "uk": "Країна [COUNTRY.GetName] розпочала [Concept('war','війну')|e]."
+ },
+ "JOIN_WAR_REASON_DESC_InternationalOrganization": {
+  "en": "[COUNTRY.GetName] is in the [INTERNATIONAL_ORGANIZATION.GetName] with [TARGET_COUNTRY.GetName].",
+  "uk": "Країна [COUNTRY.GetName] перебуває в [INTERNATIONAL_ORGANIZATION.GetName] з країною [TARGET_COUNTRY.GetName]."
+ },
+ "JOIN_WAR_REASON_DESC_Intervene": {
+  "en": "[COUNTRY.GetName] are intervening on behalf of [TARGET_COUNTRY.GetName].",
+  "uk": "Країна [COUNTRY.GetName] втручається від імені країни [TARGET_COUNTRY.GetName]."
+ },
+ "JOIN_WAR_REASON_DESC_Overlord": {
+  "en": "[COUNTRY.GetName] is the overlord of [TARGET_COUNTRY.GetName].",
+  "uk": "Країна [COUNTRY.GetName] є сюзереном країни [TARGET_COUNTRY.GetName]."
+ },
+ "JOIN_WAR_REASON_DESC_RivalClaimint": {
+  "en": "[COUNTRY.GetName] claim the throne of [TARGET_COUNTRY.GetName] and are willing to fight for it.",
+  "uk": "Країна [COUNTRY.GetName] претендує на трон країни [TARGET_COUNTRY.GetName] і готова воювати за нього."
+ },
+ "JOIN_WAR_REASON_DESC_Scripted": {
+  "en": "Scripted",
+  "uk": "Скриптована"
+ },
+ "JOIN_WAR_REASON_DESC_Subject": {
+  "en": "[COUNTRY.GetName] is a subject of [TARGET_COUNTRY.GetName].",
+  "uk": "Країна [COUNTRY.GetName] є васалом країни [TARGET_COUNTRY.GetName]."
+ },
+ "JOIN_WAR_REASON_DESC_SupportRevolt": {
+  "en": "[COUNTRY.GetName] supports the revolt of [TARGET_COUNTRY.GetName].",
+  "uk": "Країна [COUNTRY.GetName] підтримує повстання країни [TARGET_COUNTRY.GetName]."
+ },
+ "JOIN_WAR_REASON_DESC_SupportRevoltToReunite": {
+  "en": "[COUNTRY.GetName] wants [TARGET_COUNTRY.GetName] to secede to them.",
+  "uk": ""
+ },
+ "JOIN_WAR_REASON_DESC_Target": {
+  "en": "[COUNTRY.GetName] is the country that [war|e] was declared upon.",
+  "uk": "Країні [COUNTRY.GetName] було оголошено [Concept('war','війну')|e]."
+ },
+ "JOIN_WAR_REASON_Instigator": {
+  "en": "Aggressor",
+  "uk": "Агресор"
+ },
+ "JOIN_WAR_REASON_InternationalOrganization": {
+  "en": "[INTERNATIONAL_ORGANIZATION.GetType.GetName] with [TARGET_COUNTRY.GetName]",
+  "uk": "[INTERNATIONAL_ORGANIZATION.GetType.GetName] з країною [TARGET_COUNTRY.GetName]"
+ },
+ "JOIN_WAR_REASON_Intervene": {
+  "en": "Intervening",
+  "uk": "Втручання"
+ },
+ "JOIN_WAR_REASON_Overlord": {
+  "en": "Overlord of [TARGET_COUNTRY.GetName]",
+  "uk": "Сюзерен країни [TARGET_COUNTRY.GetName]"
+ },
+ "JOIN_WAR_REASON_RivalClaimant": {
+  "en": "Rival Claimant to the [TARGET_COUNTRY.GetAdjective] throne",
+  "uk": "Суперник-претендент на трон країни [TARGET_COUNTRY.GetName]"
+ },
+ "JOIN_WAR_REASON_Scripted": {
+  "en": "Scripted",
+  "uk": "Скриптована"
+ },
+ "JOIN_WAR_REASON_Subject": {
+  "en": "Subject of [TARGET_COUNTRY.GetName]",
+  "uk": "Васал країни [TARGET_COUNTRY.GetName]"
+ },
+ "JOIN_WAR_REASON_SupportRevolt": {
+  "en": "Supporting the Revolters",
+  "uk": "Підтримка повстанців"
+ },
+ "JOIN_WAR_REASON_SupportRevoltToReunite": {
+  "en": "Supporting our Secessionist Revolters",
+  "uk": ""
+ },
+ "JOIN_WAR_REASON_Target": {
+  "en": "Original Target",
+  "uk": "Початкова ціль"
+ },
+ "LEAVE_WAR_REASON_Abandoned": {
+  "en": "Abandoned their friends [TARGET_COUNTRY.GetName] in their hour of need",
+  "uk": "Покинули своїх друзів з країни [TARGET_COUNTRY.GetName] у годину потреби"
+ },
+ "LEAVE_WAR_REASON_Annexed": {
+  "en": "Annexed by [TARGET_COUNTRY.GetName]",
+  "uk": "Анексовано країною [TARGET_COUNTRY.GetName]"
+ },
+ "LEAVE_WAR_REASON_BecameSubject": {
+  "en": "Became a subject of [TARGET_COUNTRY.GetName]",
+  "uk": "Стали васалом країни [TARGET_COUNTRY.GetName]"
+ },
+ "LEAVE_WAR_REASON_BrokeFreeOfOverlord": {
+  "en": "Broke free from their [overlord|e] [TARGET_COUNTRY.GetName]",
+  "uk": ""
+ },
+ "LEAVE_WAR_REASON_CivilWar": {
+  "en": "Fell into Civil War",
+  "uk": "Впали в громадянську війну"
+ },
+ "LEAVE_WAR_REASON_CountryDoesNotExist": {
+  "en": "Country no longer exists",
+  "uk": "Країна більше не існує"
+ },
+ "LEAVE_WAR_REASON_Forced": {
+  "en": "Forced to leave the war by [TARGET_COUNTRY.GetName]",
+  "uk": "Змушені покинути війну країною [TARGET_COUNTRY.GetName]"
+ },
+ "LEAVE_WAR_REASON_ForcedAbandoned": {
+  "en": "Forced to abandon their friends [TARGET_COUNTRY.GetName] in their hour of need by their overlord",
+  "uk": "Змушені покинути своїх друзів з країни [TARGET_COUNTRY.GetName] у годину потреби своїм сюзереном"
+ },
+ "LEAVE_WAR_REASON_PeacedOut": {
+  "en": "Agreed peace with [TARGET_COUNTRY.GetName]",
+  "uk": "Уклали мир з країною [TARGET_COUNTRY.GetName]"
+ },
+ "LEAVE_WAR_REASON_Scripted": {
+  "en": "Events forced them out",
+  "uk": ""
+ },
+ "LEAVE_WAR_REASON_Union": {
+  "en": "Formed a [union|e] with [TARGET_COUNTRY.GetName]",
+  "uk": "Утворили [Concept('union','унію')|e] з країною [TARGET_COUNTRY.GetName]"
+ },
+ "LEAVE_WAR_REASON_WarEnded": {
+  "en": "War ended",
+  "uk": "Війна закінчилася"
+ },
+ "LEAVE_WAR_REASON_WasPeacedOut": {
+  "en": "[TARGET_COUNTRY.GetName] agreed a peace deal on their behalf",
+  "uk": "Країна [TARGET_COUNTRY.GetName] уклала мирну угоду від їхнього імені"
+ },
+ "NO_BATTLES_WON": {
+  "en": "This side has not won any [battles|e] in this [war|e].",
+  "uk": "Ця сторона не виграла жодних [Concept('battles','битв')|e] у цій [Concept('war','війні')|e]."
+ },
+ "REFUSE_TO_JOIN_WAR_REASON_ConflictOfInterests": {
+  "en": "They would support both countries if they could, but they cannot, so have stayed neutral.",
+  "uk": "Вони підтримали б обидві країни, якби могли, але не можуть, тому залишилися нейтральними."
+ },
+ "REFUSE_TO_JOIN_WAR_REASON_HumanDeclined": {
+  "en": "A Human declined to join.",
+  "uk": "Гравець-людина відмовився приєднатися."
+ },
+ "REFUSE_TO_JOIN_WAR_REASON_NotEnoughReasons": {
+  "en": "They do not have enough reasons to join.",
+  "uk": "У них недостатньо причин приєднатися."
+ },
+ "WARGOAL_IS_CONQUEST": {
+  "en": "#T War Goal Enforced#!\\n",
+  "uk": "#T Військову ціль досягнуто#!\\n"
+ },
+ "WARGOAL_IS_CONTESTED": {
+  "en": "@trigger_no! The war goal is still being contested.",
+  "uk": "@trigger_no! Військова ціль все ще оспорюється."
+ },
+ "WARGOAL_IS_SAFE": {
+  "en": "#T War Goal Protected#!\\n",
+  "uk": "#T Військову ціль захищено#!\\n"
+ },
+ "WARGOAL_NOT_FULLY_OCCUPIED": {
+  "en": "@trigger_no! The War Goal of $NAME|Y$ has not yet been fully controlled by the attackers!",
+  "uk": "@trigger_no! Військова ціль $NAME|Y$ ще не повністю контролюється нападниками!"
+ },
+ "WARGOAL_NOT_FULLY_SAFE": {
+  "en": "@trigger_no! The War Goal of $NAME|Y$ is fully controlled by the attackers!",
+  "uk": "@trigger_no! Військова ціль $NAME|Y$ повністю контролюється нападниками!"
+ },
+ "WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS": {
+  "en": "When $NEED|Y$ days have passed, with no contest over the war goal, and it is fully controlled, $WHO|Y$ may get $NAME|Y$ in an enforced peace.\\nCurrently, there have been $DAYS|G$ days.",
+  "uk": "Коли мине $NEED|Y$ днів без оспорювання військової цілі, і вона повністю контролюється, $WHO|Y$ може отримати $NAME|Y$ у нав'язаному мирі.\\nНаразі минуло $DAYS|G$ днів."
+ },
+ "WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS_INDEPENDENCE": {
+  "en": "When $NEED|Y$ days have passed, with no contest over the war goal, and it is fully controlled, $WHO|Y$ may get their independence in an enforced peace.\\nCurrently, there have been $DAYS|G$ days.",
+  "uk": "Коли мине $NEED|Y$ днів без оспорювання військової цілі, і вона повністю контролюється, $WHO|Y$ може отримати незалежність у нав'язаному мирі.\\nНаразі минуло $DAYS|G$ днів."
+ },
+ "WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS_PEACE": {
+  "en": "When $NEED|Y$ days have passed, with no contest over the war goal, there may be a white peace signed and $WHO|Y$ will keep $NAME|Y$!\\nCurrently, there have been $DAYS|G$ days.",
+  "uk": "Коли мине $NEED|Y$ днів без оспорювання військової цілі, може бути підписаний білий мир, і $WHO|Y$ збереже $NAME|Y$!\\nНаразі минуло $DAYS|G$ днів."
+ },
+ "WARGOAL_NOT_TICKED_FUL": {
+  "en": "@trigger_no! The War Goal have not been controlled long enough yet, and is only providing a bonus of $VAL|+=2$ to the attackers, when they need $NEED|+=0$.",
+  "uk": "@trigger_no! Військова ціль контролюється недостатньо довго і дає лише бонус $VAL|+=2$ нападникам, коли їм потрібно $NEED|+=0$."
+ },
+ "WARGOAL_NOT_TICKED_FUL_SAFE": {
+  "en": "@trigger_no! The War Goal have not been kept safe long enough yet, and is only providing a bonus of $VAL|+=2$ to the defenders, when they need $NEED|+=0$.",
+  "uk": "@trigger_no! Військову ціль зберігали в безпеці недостатньо довго, і вона дає лише бонус $VAL|+=2$ захисникам, коли їм потрібно $NEED|+=0$."
+ },
+ "WARGOAL_TICKED_ENOUGH_DAYS": {
+  "en": "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to take it!",
+  "uk": "Минуло більше $NEED|Y$ днів з моменту повного контролю $NAME|Y$ з боку $WHO|Y$, який тепер може нав'язати мир і забрати це!"
+ },
+ "WARGOAL_TICKED_ENOUGH_DAYS_INDEPENDENCE": {
+  "en": "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to get their independence!",
+  "uk": "Минуло більше $NEED|Y$ днів з моменту повного контролю $NAME|Y$ з боку $WHO|Y$, який тепер може нав'язати мир і отримати незалежність!"
+ },
+ "WARGOAL_TICKED_ENOUGH_DAYS_PEACE": {
+  "en": "More than $NEED|Y$ days have passed with $NAME|Y$ fully defended, $WHO|Y$ can now enforce a white peace!",
+  "uk": "Минуло більше $NEED|Y$ днів з $NAME|Y$ повністю захищеним, $WHO|Y$ тепер може нав'язати білий мир!"
+ },
+ "WAR_ARMY_LOSSES_TT": {
+  "en": "Army losses",
+  "uk": "Втрати армії"
+ },
+ "WAR_BATTLE_ONGOING_TOOLTIP": {
+  "en": "$NAME$.\\n\\nAttackers: $ATA$.\\nAttacker's morale: $ATAMORALE$ out of $MAXATAMORALE$.\\n\\nDefenders: $DEF$\\nDefender's morale: $DEFMORALE$ out of $MAXDEFMORALE$.",
+  "uk": "$NAME$.\\n\\nНападники: $ATA$.\\nМораль нападників: $ATAMORALE$ з $MAXATAMORALE$.\\n\\nЗахисники: $DEF$\\nМораль захисників: $DEFMORALE$ з $MAXDEFMORALE$."
+ },
+ "WAR_BATTLE_TOOLTIP_H": {
+  "en": "$NAME$, $DATE$",
+  "uk": ""
+ },
+ "WAR_BATTLE_TOOLTIP_L": {
+  "en": "Losers: $LOSS$\\nLost: $LOSSUNITS$",
+  "uk": "Переможені: $LOSS$\\nВтрачено: $LOSSUNITS$"
+ },
+ "WAR_BATTLE_TOOLTIP_SC": {
+  "en": "Battle score: $SCORE|+=2$",
+  "uk": "Очки битви: $SCORE|+=2$"
+ },
+ "WAR_BATTLE_TOOLTIP_SIZE": {
+  "en": "$WIN$@army_strength! vs $LOSS$@army_strength!",
+  "uk": "$WIN$@army_strength! проти $LOSS$@army_strength!"
+ },
+ "WAR_BATTLE_TOOLTIP_W": {
+  "en": "Winners: $WIN$\\nLost: $WINUNITS$",
+  "uk": "Переможці: $WIN$\\nВтрачено: $WINUNITS$"
+ },
+ "WAR_BLOCKADE_TT": {
+  "en": "[WarLateralViewParticipant.GetCountry.GetBlockadedPercent|2%] of [WarLateralViewParticipant.GetCountry.GetAdjectiveWithNoTooltip] ports are blockaded",
+  "uk": "[WarLateralViewParticipant.GetCountry.GetBlockadedPercent|2%] портів країни [WarLateralViewParticipant.GetCountry.GetNameWithNoTooltip] заблоковано"
+ },
+ "WAR_ENTHUSIASM_ALLIANCE_WINNING_WAR": {
+  "en": "Alliance [war_score|e]: $VAL|+=2%$",
+  "uk": "[Concept('war_score','Рахунок війни')|e] альянсу: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_ALLY_IN_WAR": {
+  "en": "[ally|e] in war: $VAL|+=2%$",
+  "uk": "[Concept('ally','Союзник')|e] у війні: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_BASE": {
+  "en": "Base: $VAL|+=2%$",
+  "uk": "База: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_CALL_FOR_PEACE": {
+  "en": "Call for Peace: $VAL|+=2%$",
+  "uk": "Заклик до миру: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_CAPITAL": {
+  "en": "[LOCATION.GetName] is not [occupied|e]: $VAL|+=2%$",
+  "uk": "[LOCATION.GetName] не [Concept('occupied','окуповано')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_CB_FACTOR": {
+  "en": "[casus_belli|e]: $VAL|+=2%$",
+  "uk": "[Concept('casus_belli','Привід для війни')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_COALITION_WAR": {
+  "en": "Coalition War: $VAL|+=2%$",
+  "uk": "Війна коаліції: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_DESPERATION": {
+  "en": "[occupied|e] and [besieged|e] [locations|e]: $VAL|+=2%$",
+  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','локації')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_INDEPENDENCE": {
+  "en": "Striving for Independence: $VAL|+=2%$",
+  "uk": "Прагнення до незалежності: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_MEN_LOSSES": {
+  "en": "Men Losses: $VAL|+=2%$",
+  "uk": "Втрати людей: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_MILITARY_STRENGTH": {
+  "en": "[COUNTRY.GetAdjective] Military Strength: $VAL|+=2%$",
+  "uk": "Військова сила країни [COUNTRY.GetName]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_OCCUPIED_LOCATIONS": {
+  "en": "[occupied|e] and [besieged|e] [locations|e]: $VAL|+=2%$",
+  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','локації')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_ONGOING_BATTLES": {
+  "en": "Ongoing Battles: $VAL|+=2%$",
+  "uk": "Поточні битви: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_ONGOING_SIEGES": {
+  "en": "Ongoing [sieges|e]: $VAL|+=2%$",
+  "uk": "Поточні [Concept('sieges','облоги')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_REBEL_THREAT": {
+  "en": "Rebel Threat: $VAL|+=2%$",
+  "uk": "Загроза повстанців: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_SHIP_LOSSES": {
+  "en": "Ship Losses: $VAL|+=2%$",
+  "uk": "Втрати кораблів: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_TIME": {
+  "en": "Length of War: $VAL|+=2%$",
+  "uk": "Тривалість війни: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_TT_TITLE": {
+  "en": "Enthusiasm for War at $VAL|2%$ due to:",
+  "uk": "Ентузіазм до війни на $VAL|2%$ через:"
+ },
+ "WAR_ENTHUSIASM_TT_TITLE_DET": {
+  "en": "The Enthusiasm of [WarLateralViewParticipant.GetCountry.GetLongNameWithNoTooltip]",
+  "uk": "Ентузіазм країни [WarLateralViewParticipant.GetCountry.GetLongNameWithNoTooltip]"
+ },
+ "WAR_ENTHUSIASM_UNDER_SIEGE": {
+  "en": "Under [siege|e]: $VAL|+=2%$",
+  "uk": "Під [Concept('siege','облогою')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_UNIT_BALANCE": {
+  "en": "Military Balance: $VAL|+=2%$",
+  "uk": "Військовий баланс: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_WAR_DIRECTION": {
+  "en": "[COUNTRY.GetName] is making gains: $VAL|+=2%$",
+  "uk": "Країна [COUNTRY.GetName] робить успіхи: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_WAR_EXHAUSTION": {
+  "en": "[war_exhaustion|e]: $VAL|+=2%$",
+  "uk": "[Concept('war_exhaustion','Виснаження війною')|e]: $VAL|+=2%$"
+ },
+ "WAR_ENTHUSIASM_WAR_GOAL": {
+  "en": "[war_goal|e] Achieved: $VAL|+=2%$",
+  "uk": "[Concept('war_goal','Воєнна ціль')|e] досягнуто: $VAL|+=2%$"
+ },
+ "WAR_EXHAUSTION_TT": {
+  "en": "[WarLateralViewParticipant.GetCountry.GetName] [war_exhaustion|e]: [WarLateralViewParticipant.GetCountry.GetFixedPointCurrencyValue('war_exhaustion')|+]\\nMaximum: [WarLateralViewParticipant.GetCountry.GetModifierValue('max_war_exhaustion')]",
+  "uk": "[Concept('war_exhaustion','Виснаження війною')|e] країни [WarLateralViewParticipant.GetCountry.GetName]: [WarLateralViewParticipant.GetCountry.GetFixedPointCurrencyValue('war_exhaustion')|+]\\nМаксимум: [WarLateralViewParticipant.GetCountry.GetModifierValue('max_war_exhaustion')]"
+ },
+ "WAR_FORBIDS_WHITE_PEACE_TOOLTIP": {
+  "en": "#R [CASUS_BELLI.GetName] forbids a [white_peace|e]!#!",
+  "uk": ""
+ },
+ "WAR_FR_L_A_D": {
+  "en": "[COUNTRY.GetLongNameWithFlag]: [COUNTRY.GetTotalStrength]@army_strength!",
+  "uk": ""
+ },
+ "WAR_FR_N_A_D": {
+  "en": "[COUNTRY.GetLongNameWithFlag]: [COUNTRY.GetTotalShips]@navy_strength!",
+  "uk": ""
+ },
+ "WAR_GO_TO": {
+  "en": "Go to Battle",
+  "uk": "Перейти до битви"
+ },
+ "WAR_LATERALVIEW_ANNEX_ALL_REVOLTERS": {
+  "en": "Annex All Revolters",
+  "uk": ""
+ },
+ "WAR_LATERALVIEW_ANNEX_REVOLTER": {
+  "en": "Annex Revolter",
+  "uk": "Анексувати повстанця"
+ },
+ "WAR_LATERALVIEW_CIVIL_WAR": {
+  "en": "@trigger_no!We cannot sue for [peace|e] in a [civil_war|e]",
+  "uk": "@trigger_no! Ми не можемо просити [Concept('peace','миру')|e] у [Concept('civil_war','громадянській війні')|e]"
+ },
+ "WAR_LATERALVIEW_DATE_TOOLTIP": {
+  "en": "War started on [WarLateralView.GetWar.GetStartDate]",
+  "uk": "Війна почалася [WarLateralView.GetWar.GetStartDate]"
+ },
+ "WAR_LATERALVIEW_GRANT_INDEPENDENCE": {
+  "en": "Grant Independence",
+  "uk": "Надати незалежність"
+ },
+ "WAR_LATERALVIEW_GRANT_INDEPENDENCE_THIRD_OUTCOME_HINT": {
+  "en": "#S Tip: This is not your only option. If you negotiate peace without granting independence — or simply win this war — [COUNTRY.GetName] will return to being your [subject|e].#!",
+  "uk": ""
+ },
+ "WAR_LATERALVIEW_REIN_IN_SUBJECT": {
+  "en": "Rein In Subject",
+  "uk": ""
+ },
+ "WAR_LATERALVIEW_REIN_IN_SUBJECT_TOOLTIP": {
+  "en": "Open peace negotiations to end this independence war while keeping [COUNTRY.GetName] as your subject.\\n\\nIf you make peace without granting independence, [COUNTRY.GetName] will return to their [subject|e] status. You can also simply negotiate [white_peace|e] to end the war with no territorial changes.\\n\\n#S You have sufficient [war_score|e] to force [COUNTRY.GetName] to accept peace.#!",
+  "uk": ""
+ },
+ "WAR_LATERALVIEW_SUBJECT": {
+  "en": "@trigger_no!We cannot sue for [peace|e] while being a [subject|e] of our war leader",
+  "uk": "@trigger_no! Ми не можемо просити [Concept('peace','миру')|e], будучи [Concept('subject','підданим')|e] нашого лідера війни"
+ },
+ "WAR_LATERALVIEW_SUE_FOR_PEACE": {
+  "en": "Sue for peace",
+  "uk": "Просити миру"
+ },
+ "WAR_LATERALVIEW_SUE_FOR_PEACE_TOOLTIP": {
+  "en": "Sue for Peace",
+  "uk": "Просити миру"
+ },
+ "WAR_LATERALVIEW_WAR_GOAL_TOOLTIP": {
+  "en": "This war was started by [WarLateralView.GetWar.GetOriginalAttacker.GetName] against [WarLateralView.GetWar.GetOriginalDefendersList].\\n[WarLateralView.GetWar.GetWarGoal.GetDescription]",
+  "uk": "Цю війну розпочала країна [WarLateralView.GetWar.GetOriginalAttacker.GetName] проти [WarLateralView.GetWar.GetOriginalDefendersList].\\n[WarLateralView.GetWar.GetWarGoal.GetDescription]"
+ },
+ "WAR_NAVAL_LOSSES_TT": {
+  "en": "Naval losses",
+  "uk": "Втрати флоту"
+ },
+ "WAR_ONGOING_BATTLES": {
+  "en": "Ongoing [battles|e]",
+  "uk": "Поточні [Concept('battles','битви')|e]"
+ },
+ "WAR_OVERVIEW_ATTACKERS_LEADER": {
+  "en": "Attacker Leader",
+  "uk": "Лідер нападників"
+ },
+ "WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_ARMY": {
+  "en": "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@army_strength!",
+  "uk": ""
+ },
+ "WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_NAVAL": {
+  "en": "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@navy_strength!",
+  "uk": ""
+ },
+ "WAR_OVERVIEW_BATTLES_LOST": {
+  "en": "Battles lost",
+  "uk": "Битв програно"
+ },
+ "WAR_OVERVIEW_BATTLES_WON": {
+  "en": "Battles won",
+  "uk": "Битв виграно"
+ },
+ "WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP": {
+  "en": "$NUM$ of $MAX$ ports are [blockaded|e] in @[COUNTRY.GetFlag]! [COUNTRY.GetName]",
+  "uk": "$NUM$ з $MAX$ портів [Concept('blockaded','заблоковано')|e] у країні @[COUNTRY.GetFlag]! [COUNTRY.GetName]"
+ },
+ "WAR_OVERVIEW_DEFENDERS_LEADER": {
+  "en": "Defender Leader",
+  "uk": "Лідер захисників"
+ },
+ "WAR_OVERVIEW_LAND_BATTLES_LOST": {
+  "en": "Land Battles lost",
+  "uk": "Сухопутних битв програно"
+ },
+ "WAR_OVERVIEW_LAND_BATTLES_WON": {
+  "en": "Land Battles won",
+  "uk": "Сухопутних битв виграно"
+ },
+ "WAR_OVERVIEW_LOSSES_TOOLTIP_LINE": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetLosses|Y]@army_strength!",
+  "uk": ""
+ },
+ "WAR_OVERVIEW_LOSSES_TOOLTIP_LINE_NAVAL": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetNavalLosses|Y]@navy_strength!",
+  "uk": ""
+ },
+ "WAR_OVERVIEW_NAVAL_BATTLES_LOST": {
+  "en": "Naval Battles lost",
+  "uk": "Морських битв програно"
+ },
+ "WAR_OVERVIEW_NAVAL_BATTLES_WON": {
+  "en": "Naval Battles won",
+  "uk": "Морських битв виграно"
+ },
+ "WAR_OVERVIEW_RESULT_LOSS": {
+  "en": "#R Loss#!",
+  "uk": "#R Поразка#!"
+ },
+ "WAR_OVERVIEW_RESULT_WIN": {
+  "en": "#G Win#!",
+  "uk": "#G Перемога#!"
+ },
+ "WAR_OVERVIEW_WINLOSE_VS": {
+  "en": "@[COUNTRY.GetFlag]! $NUM$ vs @[TARGET_COUNTRY.GetFlag]! $TARGET_NUM$",
+  "uk": "@[COUNTRY.GetFlag]! $NUM$ проти @[TARGET_COUNTRY.GetFlag]! $TARGET_NUM$"
+ },
+ "WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER": {
+  "en": "[attrition|e] Loses Breakdown",
+  "uk": ""
+ },
+ "WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER_ENTRY": {
+  "en": "[COUNTRY.GetNameWithFlag]: $VAL|V$",
+  "uk": ""
+ },
+ "WAR_PARTICIPATION_LABEL": {
+  "en": "[war_participation|e]",
+  "uk": "[Concept('war_participation','Участь у війні')|e]"
+ },
+ "WAR_PARTICIPATION_TT": {
+  "en": "[WarLateralViewParticipant.GetCountry.GetName] [war_participation|e]: [WarLateralViewParticipant.GetWarParticipation|0%]",
+  "uk": "[Concept('war_participation','Участь у війні')|e] країни [WarLateralViewParticipant.GetCountry.GetName]: [WarLateralViewParticipant.GetWarParticipant|0%]"
+ },
+ "WAR_PLAYER_WARSCORE_TT": {
+  "en": "[Player.GetName] [war_score|e] against [WarLateralViewParticipant.GetCountry.GetName]: [WarLateralViewParticipant.GetPlayerWarScore|+=2%/]",
+  "uk": "[Concept('war_score','Рахунок війни')|e] країни [Player.GetName] проти країни [WarLateralViewParticipant.GetCountry.GetName]: [WarLateralViewParticipant.GetPlayerWarScore|+=2%/]"
+ },
+ "WAR_REQUIRES_ATTACKER_PEACE_TREATIES_TOOLTIP": {
+  "en": "The following [peace_treaties|e] must be enforced by the attacker to end this war: $PEACE_TREATIES$",
+  "uk": ""
+ },
+ "WAR_REQUIRES_DEFENDER_PEACE_TREATIES_TOOLTIP": {
+  "en": "The following [peace_treaties|e] must be enforced by the defender to end this war: $PEACE_TREATIES$",
+  "uk": ""
+ },
+ "WAR_REQUIRES_PEACE_TREATIES_TOOLTIP": {
+  "en": "The following [peace_treaties|e] must be enforced to end this war: $PEACE_TREATIES$",
+  "uk": ""
+ },
+ "WAR_SCROLL_LIST_EMPTY": {
+  "en": "No countries available with this search criteria",
+  "uk": "Немає доступних країн з цим критерієм пошуку"
+ },
+ "WAR_SELECT_COUNTRY": {
+  "en": "Select this country to make a peace offer.\\nSelecting the war leader will include all its allies.",
+  "uk": "Виберіть цю країну, щоб зробити мирну пропозицію.\\nВибір лідера війни включить усіх його союзників."
+ },
+ "WAR_SORT_BLOCKADE_TT": {
+  "en": "Sort by [blockaded|e] [ports|e]",
+  "uk": "Сортувати за [Concept('blockaded','заблокованими')|e] [Concept('ports','портами')|e]"
+ },
+ "WAR_SORT_EXHAUSTION_TT": {
+  "en": "Sort by [war_exhaustion|e]",
+  "uk": "Сортувати за [Concept('war_exhaustion','виснаженням війною')|e]"
+ },
+ "WAR_SORT_LEAD_TT": {
+  "en": "Sort by leadership in the [war|e]",
+  "uk": "Сортувати за лідерством у [Concept('war','війні')|e]"
+ },
+ "WAR_SORT_PARTICIPATION_TT": {
+  "en": "Sort by [war_participation|e]",
+  "uk": "Сортувати за [Concept('war_participation','участю у війні')|e]"
+ },
+ "WAR_SORT_SHIPS_TT": {
+  "en": "Sort by naval [strength|e]",
+  "uk": "Сортувати за морською [Concept('strength','силою')|e]"
+ },
+ "WAR_SORT_STABILITY_TT": {
+  "en": "Sort by [stability|e]",
+  "uk": "Сортувати за [Concept('stability','стабільністю')|e]"
+ },
+ "WAR_SORT_STRENGTH_TT": {
+  "en": "Sort by land [strength|e]",
+  "uk": "Сортувати за сухопутною [Concept('strength','силою')|e]"
+ },
+ "WAR_SORT_WARSCORE_TT": {
+  "en": "Sort by [war_score|e]",
+  "uk": "Сортувати за [Concept('war_score','рахунком війни')|e]"
+ },
+ "WAR_SORT_WAR_ENTHUSIASM_TT": {
+  "en": "Sort by [war_enthusiasm|e]",
+  "uk": "Сортувати за [Concept('war_enthusiasm','ентузіазмом до війни')|e]"
+ },
+ "WAR_WARSCORE_TT": {
+  "en": "[war_score|e]: [WarLateralView.GetWarScore|2+=/%]\\n\\n",
+  "uk": "[Concept('war_score','Рахунок війни')|e]: [WarLateralView.GetWarScore|2+=/%]\\n\\n"
+ }
+}

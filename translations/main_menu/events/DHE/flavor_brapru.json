@@ -1,0 +1,1846 @@
+{
+ "BRA_dynastic_connections": {
+  "en": "Dynastic Ties",
+  "uk": "Династичні узи"
+ },
+ "BRA_move_away_from_prosperity_silesia_tt": {
+  "en": "Every [owned|e] [location|e] in [ShowAreaName('silesia_area')] moves away #r -25.0%#! from [prosperity|e].",
+  "uk": "Кожний [Concept('owned', 'належний')|e] нам [Concept('location', 'район')|e] в #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#! на #r 25%#! віддаляється від [Concept('prosperity', 'процвітання')|e]."
+ },
+ "PRU_every_pop_of_other_protestant_denomination": {
+  "en": "Every [pop|e] of [opposing_religion.GetAdjective] denomination gains [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Кожна [Concept('pop', 'група населення')|e], що сповідує #L [opposing_religion.GetAdjective|l]у#! віру, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
+ },
+ "PRU_if_poland_accepts": {
+  "en": "If [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName] accepts:",
+  "uk": "Якщо [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName] погодиться:"
+ },
+ "PRU_if_poland_refuses": {
+  "en": "If [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName] refuses:",
+  "uk": "Якщо [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName] відмовиться:"
+ },
+ "PRU_information_about_event_chain": {
+  "en": "In the future, we may be able to form a [union|e] with [pru_from.GetName].",
+  "uk": "У майбутньому ми зможемо утворити [Concept('union', 'унію')|e] з #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_INST')|L]#!#!."
+ },
+ "PRU_may_push_toleranzedikt_in_the_future_with_following_effects": {
+  "en": "With this [event|e], we will be able to push the Tolerance Edict in the future:",
+  "uk": "Завдяки цій [Concept('event', 'події')|e] ми в майбутньому зможемо прийняти указ про толерантність:"
+ },
+ "PRU_our_chance_to_get_union": {
+  "en": "This will lead to a [union|e] between the two nations.",
+  "uk": "Між двома державами буде укладено [Concept('union', 'унію')|e]."
+ },
+ "PRU_poland_enforced_regent": {
+  "en": "[intervening_tag.GetName] forced their regent on [pru_from.GetName]. A [union|e] with [pru_from.GetName] will not form.",
+  "uk": "За волею #ONCLICK:COUNTRY,[intervening_tag.Custom('CL_tt')] #TOOLTIP:COUNTRY,[intervening_tag.Custom('CL_tt')],X [intervening_tag.Custom('CL_GEN')|L]#!#! #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_INST')|L]#!#! править їхній регент. [Concept('union', 'Унія')|e] з #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_INST')|L]#!#! неможлива."
+ },
+ "PRU_we_have_formed_personal_union_with_PRU_subject": {
+  "en": "We have formed a [union|e] with [pru_from.GetName].",
+  "uk": "Ми уклали [Concept('union', 'унію')|e] з #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_INST')|L]#!#!."
+ },
+ "STATIC_MODIFIER_NAME_PRU_crime_ridden": {
+  "en": "Crime-ridden Location",
+  "uk": "Заполонений злочинцями район"
+ },
+ "STATIC_MODIFIER_NAME_PRU_crisis_of_the_theocracy": {
+  "en": "Crisis of the Theocracy",
+  "uk": "Богословська криза"
+ },
+ "STATIC_MODIFIER_NAME_PRU_fabrication": {
+  "en": "Fabricated Dispute",
+  "uk": "Сфабрикована суперечка"
+ },
+ "STATIC_MODIFIER_NAME_PRU_increase_power_projection_rating": {
+  "en": "Prussian Ascendance",
+  "uk": "Вплив Пруссії"
+ },
+ "STATIC_MODIFIER_NAME_PRU_justifying_conquest_of_royal_prussia": {
+  "en": "Justifying Conquest of Royal Prussia",
+  "uk": "Виправдання завоювання Королівської Пруссії"
+ },
+ "STATIC_MODIFIER_NAME_PRU_secondary_capital_tangermunde": {
+  "en": "Secondary Estate in Tangermünde",
+  "uk": "Вторинна резиденція в Тангермюнде"
+ },
+ "STATIC_MODIFIER_NAME_PRU_settlers_in_silesia": {
+  "en": "New Protestant Settlers",
+  "uk": "Нові поселенці-протестанти"
+ },
+ "STATIC_MODIFIER_NAME_PRU_toleranzedikt": {
+  "en": "Edict of Tolerance",
+  "uk": "Указ про толерантність"
+ },
+ "TEU_pawn_neumark_to_teutons": {
+  "en": "We will offer [GetCountry('TEU').GetName] the following locations, if they accept:",
+  "uk": "Ми запропонуємо #ONCLICK:COUNTRY,[GetCountry('TEU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TEU').Custom('CL_tt')],X [GetCountry('TEU').Custom('CL_DAT')|L]#!#! такі райони. Якщо вони погодяться:"
+ },
+ "TEU_rejected_sale": {
+  "en": "Rejected Purchase",
+  "uk": "Відхилили пропозицію про купівлю"
+ },
+ "TEU_sell_neumark_back_to_brandenburg": {
+  "en": "We will offer [GetCountry('BRA').GetName] the following locations, if they accept:",
+  "uk": "Ми запропонуємо #ONCLICK:COUNTRY,[GetCountry('BRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BRA').Custom('CL_tt')],X [GetCountry('BRA').Custom('CL_DAT')|L]#!#! такі райони. Якщо вони погодяться:"
+ },
+ "TEU_sell_neumark_back_to_poland": {
+  "en": "We will offer [GetCountry('POL').GetName] the following locations, if they accept:",
+  "uk": "Ми запропонуємо #ONCLICK:COUNTRY,[GetCountry('POL').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POL').Custom('CL_tt')],X [GetCountry('POL').Custom('CL_DAT')|L]#!#! такі райони. Якщо вони погодяться:"
+ },
+ "agricolas_reputation": {
+  "en": "Agricola's Reputation",
+  "uk": "Репутація Агриколи"
+ },
+ "canton_reform_done_tt": {
+  "en": "The Canton System Reform has been Enacted",
+  "uk": ""
+ },
+ "flavor_brapru.1.a": {
+  "en": "They will be a unique town from now on.",
+  "uk": "Відтепер тут буде неповторне місто."
+ },
+ "flavor_brapru.1.b": {
+  "en": "We will let them be separated.",
+  "uk": "Нехай і надалі існують окремо."
+ },
+ "flavor_brapru.1.desc": {
+  "en": "The river Spree has acted as the border between Kölln and Berlin since their foundation, but the #italic Mühlendamm#!, a dam that cuts the Spree in two, has acted as the bond that has united the #italic Twin Cities#! forever. Acting as conjoined twins, the two cities have always covered each other backs and acted as a front, opposing the power of the rulers of the [ROOT.GetCountry.GetFlavorRank]. Despite many rulers trying to enforce their power over them, they have stubbornly resisted any attempt to submit them. Now, [target_character.GetName] has the means to enforce this union and stop the liberties of the two cities, converting the merged city into a proper capital for our nation.",
+  "uk": "Між Берліном і Кельном — #italic містами-близнюками#!, що розташовані на протилежних берегах річки Шпрее — пролягає єднальна нитка у вигляді дамби #italic Мюлендамм#!, що розрізає річку навпіл і об'єднує два міста, перетворюючи їх на щось подібне до зрослих близнюків. І Берлін, і Кельн, як справжні брати, завжди піклуються один про одного і спільно виступають проти свавілля правителів [ROOT.GetCountry.Custom('CF_RP')|l]. Багато хто намагався нав'язати їм свою волю, однак кожна така спроба неодмінно наштовхувалася на запеклий опір. Сьогодні, втім, [target_character.GetName] має можливість все-таки нав'язати їм унію і покінчити з вільним життям двох міст, перетворивши їх на одне і зробивши столицею нашої держави."
+ },
+ "flavor_brapru.1.entry": {
+  "en": "$flavor_brapru.1.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1.historical_info": {
+  "en": "In 1307, Berlin and Kölln formed an alliance with other towns in the Margraviate such as Brandenburg an der Havel, Frankfurt an der Oder, and Salzwedel. This alliance was forged to collectively defend their rights against the sovereign of the time, Heinrich I. However, the autonomy of Kölln and Berlin was brought to an end by Elector Frederick II Irontooth of Brandenburg in 1451, as he declared the twin town to be his official residence.\\n\\nIn 1710, under the decree of King Frederick I, the twin cities Kölln and old Berlin were merged. The result of this merger was the establishment of the capital of Prussia. Notably, Altberlin's substantial size, being twice that of Kölln, made the new city be named Berlin.",
+  "uk": "У 1307 році Берлін і Кельн утворили союз з іншими містами маркграфства, такими як Бранденбург-на-Гавелі, Франкфурт-на-Одері і Зальцведель. Причиною такого вчинку стало прагнення відстояти свої права перед посяганнями на них з боку Генріха I. Кінець самоврядуванню Кельна і Берліна поклав у 1451 році курфюрст Фрідріх II Бранденбурзький на прізвисько «Залізний зуб», що оголосив міста-близнюки своєю офіційною резиденцією.\\n\\nУ 1710 році два міста — Кельн і старий Берлін — були об'єднані за указом короля Фрідріха I і оголошені столицею Пруссії. Нове утворення отримало назву «Берлін», оскільки Кельн значно поступався своєму близнюку в розмірах."
+ },
+ "flavor_brapru.1.title": {
+  "en": "The End of the Twin Towns of Berlin and Kölln",
+  "uk": "Злиття міст-близнюків Берліна і Кельна"
+ },
+ "flavor_brapru.10.a": {
+  "en": "Let them be known as the Prussian virtues!",
+  "uk": "Назвемо їх прусськими чеснотами!"
+ },
+ "flavor_brapru.10.b": {
+  "en": "Cut ties with these preachers!",
+  "uk": "Обірвати всі зв'язки з проповідниками!"
+ },
+ "flavor_brapru.10.desc": {
+  "en": "The [ShowReligiousAspectName('pietism')] and its representatives have a strong influence over the officials of [ROOT.GetCountry.GetName]. If we were to embrace their positions now and support their efforts, we could ingrain their morality into every corner of our society and lead a proper [ShowReligionGroupAdjective('christian')] life.",
+  "uk": "[ShowReligiousAspectName('pietism')] та його послідовники поступово набирають все більше впливу над чиновниками #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Якщо стати на бік цих людей і підтримати їхню боротьбу, можливо, моральність, що вони поширюють, вдасться впровадити в суспільство, і тоді наша держава заживе за #TOOLTIP:RELIGIONGROUP,christian,X #L християнськими#!#! заповітами."
+ },
+ "flavor_brapru.10.entry": {
+  "en": "Hallescher Pietism and Prussian virtues",
+  "uk": ""
+ },
+ "flavor_brapru.10.title": {
+  "en": "[ShowReligiousAspectNameWithNoTooltip('pietism')] in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "[ShowReligiousAspectNameWithNoTooltip('pietism')] в [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "flavor_brapru.1000.a": {
+  "en": "Align them!",
+  "uk": "Схилити їх ближче до себе!"
+ },
+ "flavor_brapru.1000.b": {
+  "en": "Let us focus elsewhere.",
+  "uk": "Зосередимося на інших справах"
+ },
+ "flavor_brapru.1000.desc": {
+  "en": "The [GetCountry('TEU').GetLongName] was of special interest to us ever since the [ShowCultureGroupName('german_group')] people came to dominate the area of [ShowAreaName('prussia_area')]. With our solidified control over the [ROOT.GetCountry.GetLongName] we were able to spread members of the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] onto other thrones of [ShowContinentName('europe')] and it just happens to also include the [GetCountry('TEU').GetLongNameWithNoTooltip] being ruled by [target_character.GetName]. We could exert our power and integrate them closer into the administration of our dynasty's main domain in [ROOT.GetCountry.GetLongNameWithNoTooltip]. However, this could draw the attention of other powers interested in the Region of $poland$ and make us a target.",
+  "uk": "[GetCountry('TEU').GetLongName] — ця держава здавна має для нас особливу важливість, ще з тих пір, коли більшість населення #TOOLTIP:AREA,prussia_area,X #L Пруссії#!#! стало #TOOLTIP:CULTUREGROUP,german_group,X #L германським#!#!. Завдяки тому, що [ROOT.GetCountry.GetLongName] перебуває під нашою владою, династія [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] змогла зайняти престоли й інших #TOOLTIP:CONTINENT,europe,X #L європейських#!#! держав. Серед них і [GetCountry('TEU').GetLongNameWithNoTooltip], де владу тримає [target_character.GetName]. У нас є можливість завдяки певному тиску вбудувати їх глибше у структуру управління головним володінням нашої династії — це [ROOT.GetCountry.GetLongNameWithNoTooltip]. Однак такий крок може викликати нездоровий інтерес інших держав, що зазіхають на #TOOLTIP:REGION,poland_region,X #L польські#!#! землі, і тоді ми станемо для них здобиччю."
+ },
+ "flavor_brapru.1000.entry": {
+  "en": "Inheritance of Duchy of Prussia",
+  "uk": ""
+ },
+ "flavor_brapru.1000.historical_info": {
+  "en": "After the Teutonic Order was partially secularized under a cadet branch of the von Hohenzollern Dynasty in 1525, and the Brandenburgian line was granted inheritance rights in 1563, the Duchy of Prussia was eventually inherited by Johann Sigismund, Elector of Brandenburg in 1618. This laid the foundation for the eventual formation of the Kingdom of Prussia in 1701",
+  "uk": "У 1618 році герцогство Пруссія успадкував курфюрст бранденбурзький Йоганн Сигізмунд. Цьому передували часткова секуляризація земель Тевтонського ордену з боку молодшої гілки Гогенцоллернів у 1525 році та надання бранденбурзькій гілці прав на успадкування у 1563 році. Усі ці події призвели до створення у 1701 році королівства Пруссія."
+ },
+ "flavor_brapru.1000.title": {
+  "en": "The [GetCountry('TEU').GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] of [GetCountry('TEU').GetLongNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.1001.a": {
+  "en": "Regretable.",
+  "uk": "Сумно."
+ },
+ "flavor_brapru.1001.desc": {
+  "en": "Since we are ruled by the same Dynasty as [GetCountry('BRA').GetName] they have decided to exert their power over us and align us closer with the dynastic center of [GetCountry('BRA').GetCapital.GetName]. With this shift in power, our subjects have decided to declare their independence. Without approval from [GetCountry('BRA').GetCapital.GetNameWithNoTooltip] there is nothing we can do about this situation.",
+  "uk": "Оскільки нами править та сама династія, що й #ONCLICK:COUNTRY,[GetCountry('BRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BRA').Custom('CL_tt')],X [GetCountry('BRA').Custom('CL_INST')|L]#!#!, представники її вирішили скористатися своєю владою над нами і схилити нас ближче до оплоту своєї династії — міста [GetCountry('BRA').GetCapital.GetName]. Через це змістилося співвідношення сил, і наші піддані оголосили про свою незалежність. Поки [GetCountry('BRA').GetCapital.GetNameWithNoTooltip] не дасть схвалення, ми безсилі щось зробити."
+ },
+ "flavor_brapru.1001.entry": {
+  "en": "$BRA$ reigns us in",
+  "uk": ""
+ },
+ "flavor_brapru.1001.title": {
+  "en": "[GetCountry('BRA').GetNameWithNoTooltip] reigns us in.",
+  "uk": "[GetCountry('BRA').GetNameWithNoTooltip] приборкує нас"
+ },
+ "flavor_brapru.11.a": {
+  "en": "Sponsor the [ShowBuildingTypeNameWithNoTooltip('university')]!",
+  "uk": "Підтримаємо університет коштами!"
+ },
+ "flavor_brapru.11.b": {
+  "en": "This is not worth it.",
+  "uk": "Це того не варте."
+ },
+ "flavor_brapru.11.desc": {
+  "en": "With the Reformation sweeping our lands, we will need to tackle the important issue of education, now that the old [ShowReligionName('catholic')] Institutions are refusing to work with us. To this effect we should lay the foundation for a brand new [ShowBuildingTypeName('university')] in our city of [ShowLocationName('konigsberg')], attracting important members of the Reformation and educating our people according to the principles of our new faith.",
+  "uk": "Реформація міцно вкоренилася в наших землях. Щоб відповідати духу часу, необхідно буде зайнятися найважливішим для країни питанням — освітою, оскільки старі #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! інституції більше не бажають мати з нами жодних справ. Для цього знадобиться закласти в #TOOLTIP:LOCATION,konigsberg_tt,X #L Кенігсберзі#!#! новий [ShowBuildingTypeName('university')|l], куди прагнутимуть важливі діячі Реформації, і викладати там відповідно до положень нової віри."
+ },
+ "flavor_brapru.11.entry": {
+  "en": "University of Königsberg",
+  "uk": ""
+ },
+ "flavor_brapru.11.title": {
+  "en": "[ShowBuildingTypeNameWithNoTooltip('university')] of [ShowLocationNameWithNoTooltip('konigsberg')]",
+  "uk": "Кенігсберзький [ShowBuildingTypeNameWithNoTooltip('university')|l]"
+ },
+ "flavor_brapru.1100.a": {
+  "en": "Build the Palace.",
+  "uk": "Побудувати палац."
+ },
+ "flavor_brapru.1100.b": {
+  "en": "Do not provoke the people.",
+  "uk": "Не гнівити народ."
+ },
+ "flavor_brapru.1100.desc": {
+  "en": "Our capital of [ShowLocationName('berlin')] deserves a fitting residence for a [ROOT.GetCountry.GetGovernment.GetRulerTitle]! With a new palace in the midst of the city, we could exert our control over the [ROOT.GetCountry.GetFlavorRank] a lot more quickly and work towards the disempowerment of the local estates. But there will be a certain risk to consider in the stance of the people of [ShowLocationNameWithNoTooltip('berlin')] towards this project.",
+  "uk": "[ShowLocationName('berlin')] — наша столиця — заслуговує на те, щоб тут розмістили резиденцію, користуватися якою не побрезгуватиме особисто [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]! Крім того, з палацу в центрі міста буде значно зручніше управляти [ROOT.GetCountry.Custom('rank_ru_INST')|l] і поступово позбавляти впливу представників місцевих станів. Однак таке будівництво не сподобається багатьом берлінцям, тому ми ризикуємо накликати на себе народний гнів."
+ },
+ "flavor_brapru.1100.entry": {
+  "en": "$flavor_brapru.1100.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1100.title": {
+  "en": "A new residence for our [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] і нова резиденція"
+ },
+ "flavor_brapru.1101.a": {
+  "en": "Ignore the rabble.",
+  "uk": "Не звертати уваги на натовп."
+ },
+ "flavor_brapru.1101.b": {
+  "en": "Reach a compromise with the Population.",
+  "uk": "Спробувати домовитися з народом."
+ },
+ "flavor_brapru.1101.desc": {
+  "en": "Just as we feared, the local population of [ShowLocationName('berlin')] is rising up in opposition and makes demands to enshrine their privileges despite our god-given rights to rule over the city. We will need to decide if we want to push beyond their demands, or give into their demands for their privileges to be entrenched.",
+  "uk": "Як ми й побоювалися, мешканці #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#! виступили проти нас і вимагають збереження своїх привілеїв, незважаючи на даровану нам Богом право володарювати над містом. Нам доведеться або піти їм наперекір, або поступитися і зберегти чинні привілеї."
+ },
+ "flavor_brapru.1101.entry": {
+  "en": "$flavor_brapru.1101.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1101.title": {
+  "en": "Berliner Unwille",
+  "uk": "Берлінське невдоволення"
+ },
+ "flavor_brapru.12.a": {
+  "en": "Finance the printing.",
+  "uk": "Виділити кошти на їх друк."
+ },
+ "flavor_brapru.12.b": {
+  "en": "Dismiss him!",
+  "uk": "Вигнати його геть!"
+ },
+ "flavor_brapru.12.desc": {
+  "en": "A mathematician and astronomer, [target_artist.GetName] has come to our court to enquire about a potential sponsorship of our [ROOT.GetCountry.GetGovernment.GetRulerTitle] for his work. During his time at the [ShowBuildingTypeName('university')] of [ShowLocationName('wittenberg')] he calculated a new set of astronomical tables, which he claims to be more precise than previous calculations.",
+  "uk": "До нашого двору прибув математик і астроном [target_artist.GetName]. Він цікавиться, чи не може [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] виділити йому кошти на праці. У роки роботи в #TOOLTIP:BUILDING_TYPE,university,X #L університеті#!#! #TOOLTIP:LOCATION,wittenberg_tt,X #L Віттенберга#!#! [target_artist.GetName] склав нові астрономічні таблиці, які, за його твердженням, значно точніші за попередні."
+ },
+ "flavor_brapru.12.entry": {
+  "en": "$flavor_brapru.12.title$",
+  "uk": ""
+ },
+ "flavor_brapru.12.historical_info": {
+  "en": "The astronomer Erasmus Reinhold was supported and financed by Albrecht von Hohenzollern, Duke of Prussia, who also financed the printing of the Prutenic Tables.$prutenic_tables_desc$ The Prutenic Tables were used by the calendar reform instituted by Pope Gregory XIII and eventually replaced the Alfonsine Tables used by astronomers.",
+  "uk": "Астроном Еразм Рейнгольд користувався заступництвом і фінансовою підтримкою самого прусського герцога Альбрехта фон Гогенцоллерна, який заразом посприяв виданню «Прусських таблиць». $prutenic_tables_desc$ «Прусські таблиці» лягли в основу календарної реформи папи римського Григорія XIII, а згодом були замінені «Альфонсовими таблицями»."
+ },
+ "flavor_brapru.12.title": {
+  "en": "Prutenic Tables",
+  "uk": "«Прусські таблиці»"
+ },
+ "flavor_brapru.1200.a": {
+  "en": "Support his reforms!",
+  "uk": "Підтримати реформи!"
+ },
+ "flavor_brapru.1200.b": {
+  "en": "Rein his ambitions in.",
+  "uk": "Приструнити його."
+ },
+ "flavor_brapru.1200.desc": {
+  "en": "A state like ours needs to be adaptable to changes at all times. Now a promising candidate is rising through the ranks of our legal system, that could spearhead direly needed reforms of our legal system. This [target_character.GetName] has been working as the president of the #italic Kammergericht#! and has drafted plans to reform the legal system all over [ROOT.GetCountry.GetName]. If we support his efforts this could lead to a swift and radical reformation of our country.",
+  "uk": "Запорука виживання нашої держави — у вмінні пристосовуватися до змін. Зараз на її благо працює не покладаючи рук [target_character.GetName] — голова #italic камерального суду#!, людина, що здатна очолити проведення таких необхідних реформ у правовій системі. Плани його стосуються #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! цілком, і якщо підтримати його в цьому починанні, реформи будуть швидкими та істотними."
+ },
+ "flavor_brapru.1200.entry": {
+  "en": "$flavor_brapru.1200.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1200.title": {
+  "en": "A Reform of Law",
+  "uk": "Правова реформа"
+ },
+ "flavor_brapru.1201.a": {
+  "en": "Implement it right away!",
+  "uk": "Негайно встановити звід законів!"
+ },
+ "flavor_brapru.1201.b": {
+  "en": "We will need to consider this carefully.",
+  "uk": "Треба буде як слід над цим подумати."
+ },
+ "flavor_brapru.1201.desc": {
+  "en": "Since our employment of [target_character.GetName] our legal system has undergone huge changes. Now is the time to codify these changes into a standardized legal code, that will guide all future generations on how the lands of [ROOT.GetCountry.GetName] will have to be administered. This will ensure the fair treatment of all our subjects according to one standard, instead of the local irregularities that were common occurrences previously.",
+  "uk": "Відтоді, як [target_character.GetName] всерйоз узявся за правову систему, вона зазнала значних змін. Тепер їх необхідно закріпити на законодавчому рівні, склавши звід законів — ним керуватимуться всі наші нащадки, що правлять #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!. Усіх наших підданих судитимуть однаково чесно — більше не буде зловживань і порушень на місцях, таких звичних сьогодні."
+ },
+ "flavor_brapru.1201.entry": {
+  "en": "$flavor_brapru.1201.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1201.title": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Legal System",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а правова система"
+ },
+ "flavor_brapru.13.a": {
+  "en": "Let it be known that they can settle in [ROOT.GetCountry.GetNameWithNoTooltip]!",
+  "uk": "Нехай кожний знає, що він може оселитися в [ROOT.GetCountry.Custom('CL_PREP')]!"
+ },
+ "flavor_brapru.13.a.entry": {
+  "en": "Let it be known that they can settle in us!",
+  "uk": ""
+ },
+ "flavor_brapru.13.a.tt": {
+  "en": "Relations with all [ShowReligionAdjectiveWithNoTooltip('catholic')] rulers in [ShowContinentNameWithNoTooltip('europe')] decreased by [ShowBiasValue('pru_edict_of_potsdam_opinion')|0R]",
+  "uk": "Відносини з європейськими правителями-католиками погіршуються на [ShowBiasValue('pru_edict_of_potsdam_opinion')|0R]"
+ },
+ "flavor_brapru.13.b": {
+  "en": "We should not risk this.",
+  "uk": "Не будемо ризикувати."
+ },
+ "flavor_brapru.13.desc": {
+  "en": "For a long time [ShowContinentName('europe')] has suffered under the strife between [ShowReligionName('catholic')] and those who embraced the ideas of the Reformation. If we were to invite the suppressed [ShowReligionName('lutheran')] and [ShowReligionName('calvinist')] people of [ShowContinentNameWithNoTooltip('europe')] to settle in our lands, we could certainly profit from the influx of new subjects. But such a proclamation would earn the ire of the powers of [ShowContinentNameWithNoTooltip('europe')] which subjects we are encouraging to migrate to us.",
+  "uk": "[ShowContinentName('europe')] страждає від давньої розбрату між #TOOLTIP:RELIGION,catholic_tt,X #L католиками#!#! і тими, хто вважав за краще обрати шлях Реформації. Якщо ми запросимо переслідуваних #TOOLTIP:RELIGION,lutheran_tt,X #L лютеран#!#! і #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністів#!#! з усієї Європи оселитися в наших землях, то, безсумнівно, прибуття до нас сотень і тисяч нових підданих піде державі тільки на користь. Однак цим ми ризикуємо навлікти на себе гнів тих держав, чиї піддані прагнутимуть до нас."
+ },
+ "flavor_brapru.13.entry": {
+  "en": "$flavor_brapru.13.title$",
+  "uk": ""
+ },
+ "flavor_brapru.13.title": {
+  "en": "Edict of Potsdam",
+  "uk": "Потсдамський едикт"
+ },
+ "flavor_brapru.1300.a": {
+  "en": "Employ him.",
+  "uk": "Найняти його."
+ },
+ "flavor_brapru.1300.desc": {
+  "en": "We have received reports of a talented man in the service of our army, who impressed his commanders with his insight into the theory of war. This [target_character.GetName] could serve our cabinet and army excellently if we choose to employ him.",
+  "uk": "Нам стало відомо, що в наших військах служить вельми вмілий воїн на ім'я [target_character.GetName], що зумів вразити командирів глибокими знаннями в теорії військової справи. Якщо взяти його на службу, він принесе чимало користі і раді, і армії загалом."
+ },
+ "flavor_brapru.1300.entry": {
+  "en": "Carl von Clausewitz",
+  "uk": ""
+ },
+ "flavor_brapru.1300.historical_info": {
+  "en": "Carl von Clausewitz was born to a family with claims to the title of a baron in the Prussian province of Magdeburg. As the fourth son of the family, he entered military service in the Prussian Army at the age of 12 as a lance corporal. Before entering the Prussian Staff College in 1801, he served during the Rhine campaigns of Prussia and was part of the Prussian Army that invaded France during the French Revolution. During his time in Berlin, he studied the work of philosophers Immanuel Kant and Johann Gottlieb Fichte and made contacts with, at the time, General Gerhard von Scharnhorst, who would implement reforms to the Prussian Army with Clausewitz's assistance. Serving during the Napoleonic Wars, Clausewitz had to leave the Prussian Army and enter the German Legion of the Russian Imperial Army in the fight against the forces of Napoleon. After his re-entrance in the Prussian Army and the defeat of Napoleon at Waterloo, he served as the director of the Prussian Staff College until he was appointed Chief of Staff in 1830 during the November Uprising in Poland.",
+  "uk": "Карл фон Клаузевіц народився в родині, що зараховувала себе до представників баронства прусської провінції Магдебург. Будучи четвертим сином, у 12 років вступив на службу в прусській армії в чині юнкера. У 1801 році, після участі в Рейнському поході та вторгнення до Франції в ході Французьких революційних воєн, Клаузевіц вступив до Прусської військової академії у Берліні, де вивчав праці таких філософів, як Іммануїл Кант та Йоганн Ґотліб Фіхте, а також познайомився з генералом Герхардом фон Шарнхорстом — майбутнім реформатором прусського війська (не без допомоги Клаузевіца). Після початку Наполеонівських воєн Клаузевіц покинув прусську службу і вступив до Російсько-німецького легіону, що воював з Бонапартом, але через якийсь час повернувся на батьківщину. Після поразки французьких військ під Ватерлоо Клаузевіц очолив військову академію, а під час Польського повстання 1830 року отримав призначення на посаду начальника штабу."
+ },
+ "flavor_brapru.1300.title": {
+  "en": "The Rise of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її', 'його')] кар'єрний ріст"
+ },
+ "flavor_brapru.1301.a": {
+  "en": "We need to study it!",
+  "uk": "Вивчити його!"
+ },
+ "flavor_brapru.1301.desc": {
+  "en": "During his Employment in the [ROOT.GetCountry.GetName] [target_character.GetName] has gathered material that we now have access to. He wrote about the Theory of war, gathering his own experiences and observations on the battlefield, and outlined what he thought to be the principal ideas of warfare.",
+  "uk": "На службі у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! [target_character.GetName] написав цінний трактат, з яким ми тепер можемо ознайомитися, — «Про війну». У ньому він виклав свої знання, отримані на війні, й спостереження за бойовими діями, а також описав основні принципи будь-якої війни."
+ },
+ "flavor_brapru.1301.entry": {
+  "en": "Carl von Clausewitz' On War",
+  "uk": ""
+ },
+ "flavor_brapru.1301.title": {
+  "en": "The Work of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і його праці"
+ },
+ "flavor_brapru.14.a": {
+  "en": "Send the army to reaffirm our authority.",
+  "uk": "Відправити війська і нагадати, хто тут влада."
+ },
+ "flavor_brapru.14.b": {
+  "en": "Reach a compromise with the city.",
+  "uk": "Спробувати домовитися з містом."
+ },
+ "flavor_brapru.14.desc": {
+  "en": "Our ambitions to rule without the assistance of the estates has not come without opposition. We now got crucial proof of the [ShowPopTypeName('burghers')] plotting against our state, by corresponding with [some_neighbor_country.GetGovernment.GetRulerTitle] [some_neighbor_country.GetGovernment.GetRuler.GetName] of [some_neighbor_country.GetName], to overthrow our rule in [ShowLocationName('konigsberg')]. If we want to affirm our control over [ShowLocationNameWithNoTooltip('konigsberg')] we must respond swiftly to this challenge of our authority and resolve the situation.",
+  "uk": "Не всім сподобалося наше бажання правити без втручання станів. Ми отримали незаперечні докази, що [ShowPopTypeName('burghers')|l] готуються влаштувати переворот і скинути нашу владу в #TOOLTIP:LOCATION,konigsberg_tt,X #L Кенігсберзі#!#!. Підтримку їм надає [some_neighbor_country.GetGovernment.GetRulerTitle|l] #ONCLICK:COUNTRY,[some_neighbor_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[some_neighbor_country.Custom('CL_tt')],X [some_neighbor_country.Custom('CL_GEN')|L]#!#! [some_neighbor_country.GetGovernment.GetRuler.GetName]. Щоб задум їхній зірвався, відповісти на такий виклик нашій владі доведеться швидко і рішуче."
+ },
+ "flavor_brapru.14.entry": {
+  "en": "Königsberg Burghers rebell against us",
+  "uk": ""
+ },
+ "flavor_brapru.14.historical_info": {
+  "en": "Hieronymus Roth, a member of the Königsberger City Council and lawyer, led an organized Opposition to the #italic Great Elector#! Friedrich Wilhelm von Hohenzollern. After the Elector declared himself and ducal Prussia as completely independent from the Kingdom of Poland in 1660, Roth and his allies in the Council of Königsberg, petitioned the King of Poland, John II Casimir Vasa, to once again accept the lands of East Prussia into his authority. The silence of the Polish King and the entrance of Friedrich Wilhelm in Königsberg in October 1662 put an end to the brewing rebellion, with Roth being arrested and imprisoned for life.",
+  "uk": "Юрист і член кенігсберзької міської ради Єронім Рот очолював опозицію #italic великому курфюрсту#! Фрідріху Вільгельму з роду Гогенцоллернів. Після того як в 1660 році курфюрст оголосив про незалежність Пруссії від Королівства Польського, Рот і його прихильники з числа кенігсберзьких радників подали польському королю Яну II Казимиру Вазі прохання знову прийняти землі Східної Пруссії під свою владу. Кінець зароджуваному повстанню поклали як мовчання Яна Казимира, так і вступ Фрідріха Вільгельма до Кенігсберга в жовтні 1662 року. Рот був заарештований і засуджений до довічного ув'язнення."
+ },
+ "flavor_brapru.14.title": {
+  "en": "The [ShowPopTypeNameWithNoTooltip('burghers')] of [ShowLocationNameWithNoTooltip('konigsberg')]",
+  "uk": "[ShowPopTypeNameWithNoTooltip('burghers')] Кенігсберга"
+ },
+ "flavor_brapru.1400.a": {
+  "en": "Let [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] have [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] Sanssouci.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] бажає Сан-Сусі — буде [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'їй', 'йому' )] Сан-Сусі."
+ },
+ "flavor_brapru.1400.a.entry": {
+  "en": "Let him have his Sanssouci.",
+  "uk": ""
+ },
+ "flavor_brapru.1400.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] already has a home in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] не потребує іншої резиденції; у [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'неї', 'нього' )] є [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
+ },
+ "flavor_brapru.1400.b.entry": {
+  "en": "The ruler already has a home in the capital.",
+  "uk": ""
+ },
+ "flavor_brapru.1400.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] has begun to experience an increase in the enlightened pursuit of the finer things in life, such as philosophy, art, and music. Our very own [ROOT.GetCountry.GetGovernment.GetRulerTitle] is often seen entertaining [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] guests with music composed by [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [ROOT.GetCountry.GetGovernment.GetRuler.GetHerselfHimself].\\nHowever, these arrangements are not well suited for the busy court of [ROOT.GetCountry.GetCapital.GetName], constantly surrounded and interrupted by the daily tasks of the country. To this effect, we need a summer residence, sans souci, without a care, away from the busy court life in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] desires and [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] has already personally delegated the architect [target_artist.GetName] to draw up sketches for a modest one-story building, enveloped by a magnificent garden.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] поступово починає віддаватися піднесеним насолодам: філософії, мистецтву та музиці. Навіть [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] власною персоною нерідко розважає гостей музикою свого сочинення.\\nОднак [ROOT.GetCountry.GetCapital.GetName], де розташований вічно зайнятий двір, погано підходить для подібного роду розваг — цьому заважає необхідність щодня приймати державні рішення. Нам потрібна окрема літня резиденція sans souci — «без клопотів», де можна буде на час забути про божевільне придворне життя, яким так сумно славиться [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'Наша правителька', 'Наш правитель' )] уже особисто [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'доручила', 'доручив' )] архітекторові на ім'я [target_artist.GetName] скласти начерки нової резиденції — скромної одноповерхової споруди, оточеної розкішним садом."
+ },
+ "flavor_brapru.1400.entry": {
+  "en": "$flavor_brapru.1400.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1400.title": {
+  "en": "Without a Care",
+  "uk": "Без жодних клопотів"
+ },
+ "flavor_brapru.1401.a": {
+  "en": "A new center of culture for [ROOT.GetCountry.GetNameWithNoTooltip] is born.",
+  "uk": "[ROOT.GetCountry.GetNameWithNoTooltip], тут відтепер розвиватиметься твоя культура."
+ },
+ "flavor_brapru.1401.a.entry": {
+  "en": "A new center of culture for us is born.",
+  "uk": ""
+ },
+ "flavor_brapru.1401.desc": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] has been jubilant ever since the construction of [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] summer palace was completed and the vision of [target_character.GetName] realized. Provided that [target_character.GetNameWithNoTooltip] is not involved in the most pressing matters of state [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] will spend [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] Summer days in the new residence, entertaining the brightest minds of our era, be it over political debate or philosophical discussion. The social elite of [ROOT.GetCountry.GetName] are very impressed by this new palace and will be interested in spending their time from now on in the immediate area around [potsdam_province.GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] не може натішитися: літній палац збудовано в точності так, як і [Select_CString(target_character.IsFemale, 'задумувала', 'задумував' )] [target_character.GetName]. Усі літні дні [target_character.GetNameWithNoTooltip] тепер збирається проводити у своїй новій резиденції, приймаючи в себе найвеличніших мислителів нашої епохи й ведучи з ними політичні та філософські дискусії — якщо, звісно, важливі державні справи не вимагатимуть [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його' )] особистої присутності. Вищі верстви #L [ROOT.GetCountry.GetAdjective|l]ого#! суспільства вельми вражені новим палацом і з радістю провели б час в околицях провінції [potsdam_province.GetName]."
+ },
+ "flavor_brapru.1401.entry": {
+  "en": "$flavor_brapru.1401.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1401.historical_info": {
+  "en": "The Palace of Sanssouci was built in the Prussian Rococo style between 1745 and 1747 at the order of the Prussian king Frederick 'the Great'. Located on top of a hill covered with vineyards, the palace offers the residents an extensive view of Potsdam and the surrounding area. Compared to its peers in Versailles or Saint Petersburg, Sanssouci with its single-story design only has 10 rooms including staff rooms. The purpose of the Summer Palace, where Frederick spent his time from April to October, was to evoke a sense of intimacy and act as a place of retreat for the king. The #italic little vineyard house#! as Frederick lovingly called it, was a passion project of the king personally and after his death at age 74 in an armchair at Sanssouci, the palace fell out of the spotlight in favor of new palaces, constructed in the neoclassical style.",
+  "uk": "Сан-Сусі — палац прусського короля Фрідріха Великого в стилі фрідеріціанського рококо, збудований у 1745–1747 роках. З палацу на вершині пагорба, вкритого виноградниками, відкривається чудовий вид на Потсдам та його околиці. Порівняно з Версалем або Петергофом Сан-Сусі відносно скромний: у цьому одноповерховому домі розмістилося всього 10 кімнат, включаючи приміщення для прислуги. Втім, Фрідріхові була потрібна не пишність, а затишний дім, де можна було б проводити час з квітня по жовтень, віддаючись самотності. #italic «Маленький виноградний будиночок»#!, як називав його король, був дуже дорогий Фрідріхові. Після його смерті в віці 74 років, що настала в кабінеті в Сан-Сусі, настала епоха неокласицизму, і старий палац опинився майже забутим."
+ },
+ "flavor_brapru.1401.title": {
+  "en": "Sanssouci Palace",
+  "uk": "Палац Сан-Сусі"
+ },
+ "flavor_brapru.15.a": {
+  "en": "Nun danket alle Gott.",
+  "uk": ""
+ },
+ "flavor_brapru.15.desc": {
+  "en": "The Cantor and teacher at the Zum Grauen Kloster Gymnasium in [ShowLocationName('berlin')], [target_artist.GetName], has come to reach quite some renown as a composer of concerts and an extensive writer on Musical Education. During his time as a cantor, [target_artist.GetNameWithNoTooltip] has also put together a book of over 240 hymns known as the Praxis Pietatis Melica or the Practice of Piety. His intention, for new hymns to be added for the benefit of the many faithful across the German lands, is admirable and we should support the publication of his work.",
+  "uk": "Кантор і викладач у #TOOLTIP:LOCATION,berlin_tt,X #L берлінській#!#! гімназії «Цум грауе клостер» [target_artist.GetName] здобув певну славу як композитор і письменник на тему музичної освіти. У роки своєї служби кантором [target_artist.GetNameWithNoTooltip] також випустив збірку з 240 гімнів, виданих під назвою Praxis Pietatis Melica, тобто «Практика благочестя у піснях». Його прагнення не лише виконувати старі гімни, а й писати нові на благо правовірних по всій Німеччині заслуговує на повагу, а тому видання збірки слід підтримати."
+ },
+ "flavor_brapru.15.entry": {
+  "en": "$flavor_brapru.15.title$",
+  "uk": ""
+ },
+ "flavor_brapru.15.title": {
+  "en": "Praxis Pietatis Melica",
+  "uk": "«Практика благочестя у піснях»"
+ },
+ "flavor_brapru.1500.a": {
+  "en": "Build the Canal!",
+  "uk": "Побудувати канал!"
+ },
+ "flavor_brapru.1500.b": {
+  "en": "Only develop the local infrastructure of the area.",
+  "uk": "Достатньо тільки розвивати місцеву інфраструктуру."
+ },
+ "flavor_brapru.1500.c": {
+  "en": "This needs no investment.",
+  "uk": "Обійдемося без витрат."
+ },
+ "flavor_brapru.1500.desc": {
+  "en": "While the Spree River is well connected towards the west, with shipping routes to the Havel and Elbe Rivers, our country's transport routes also rely heavily on the Oder River to the east. With our lack of control over the Oder Estuary in [ShowLocationName('stettin')], our Trade Network is at the mercy of the owners of [ShowLocationNameWithNoTooltip('stettin')] and the tolls they can impose on our [ShowPopTypeName('burghers')]. If we were able to connect the Oder and Spree Rivers with a Canal, we could act more independently from the current political situation and offer more options to our [ShowPopTypeNameWithNoTooltip('burghers')] ",
+  "uk": "Річка Шпрее пов'язує нас із заходом за допомогою торговельних маршрутів, що йдуть до Гафелю та Ельби. На сході ж знаходиться не менш важливий транспортний шлях — річка Одер. Однак, оскільки гирло Одера в Штеттіні належить не нам, а власникам цієї місцевості, вся торгівля зі сходом залежить виключно від їхньої волі — і мита, яке змушені платити наші [ShowPopTypeName('burghers')|l]. Якщо сполучити Одер і Шпрее, прокопавши між ними канал, ми зможемо діяти вільніше в будь-яких обставинах, — як, втім, і наші [ShowPopTypeNameWithNoTooltip('burghers')|l]."
+ },
+ "flavor_brapru.1500.entry": {
+  "en": "Oder-Spree Friedrich Wilhelm Canal",
+  "uk": ""
+ },
+ "flavor_brapru.1500.title": {
+  "en": "Canals to [berlin_province.GetNameWithNoTooltip]",
+  "uk": "Канали до провінції [berlin_province.GetNameWithNoTooltip]"
+ },
+ "flavor_brapru.1501.a": {
+  "en": "Long live [target_character.GetNameWithNoTooltip] and [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] Canal!",
+  "uk": "Хай живе [target_character.GetNameWithNoTooltip] і відкритий [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'нею', 'ним' )] канал!"
+ },
+ "flavor_brapru.1501.a.entry": {
+  "en": "Long live him and his Canal!",
+  "uk": ""
+ },
+ "flavor_brapru.1501.desc": {
+  "en": "We have completed the Canal connecting the Oder and Spree Rivers! Shortly after the inauguration was completed by the [ROOT.GetCountry.GetGovernment.GetRulerTitle] the positive effects on the Economy of both [ShowLocationName('berlin')] and [ShowLocationName('lebus')] are noticeable. The Canal seems to be an astonishing success in revitalizing the local economy of [ROOT.GetCountry.GetName].",
+  "uk": "Ми побудували канал, що сполучає річки Одер і Шпрее! [ROOT.GetCountry.GetGovernment.GetRulerTitle] не кидає слів на вітер: після урочистого відкриття каналу економіка #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#! і #TOOLTIP:LOCATION,lebus_tt,X #L Лебуса#!#! справді пішла на підйом. Успіх, який це починання принесло #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#!, не можна назвати інакше, як вражаючим."
+ },
+ "flavor_brapru.1501.entry": {
+  "en": "$flavor_brapru.1501.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1501.title": {
+  "en": "Oder-Spree Canal brings Prosperity",
+  "uk": "Канал Одер — Шпрее приносить процвітання"
+ },
+ "flavor_brapru.16.a": {
+  "en": "Such an asset!",
+  "uk": "Яка гідна особистість!"
+ },
+ "flavor_brapru.16.desc": {
+  "en": "[target_artist.GetName], a multi-lingual Jewish scholar and philosopher, is of humble origin. Originally intended to become a rabbi, his religious education, however, led him to [berlin_province.GetName], where he has instead risen to become a published author, highly regarded among [ShowReligionGroupAdjective('christian')] and [ShowReligionGroupAdjective('israelite_group')] people alike. His writings and publications, which are made in both [ShowLanguageName('german_language')] and [ShowLanguageName('hebrew_language')], along with the open discussions taking place even in his own home, are paving the way for tolerance between people on a scale unseen in [ROOT.GetCountry.GetName] before.",
+  "uk": "Єврейський учений-поліглот і мислитель [target_artist.GetName] — людина скромного походження. Спочатку він мав намір стати рабином, однак дорога релігійної освіти привела його до провінції [berlin_province.GetName], де [target_artist.GetName] став відомим автором, однаково шанованим як серед #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!, так і серед #TOOLTIP:RELIGIONGROUP,israelite_group,X #L іудеїв#!#!. Він видає праці #TOOLTIP:LANGUAGE,german_language,X #L німецькою#!#! та #TOOLTIP:LANGUAGE,hebrew_language,X #L івритом#!#!, а також проводить у себе вдома відкриті обговорення на різні теми. Ніхто з тих, хто раніше жив #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!, ніколи так не сприяв зміцненню толерантності між народами, як він."
+ },
+ "flavor_brapru.16.entry": {
+  "en": "Moses Mendelssohn Phaedon",
+  "uk": ""
+ },
+ "flavor_brapru.16.title": {
+  "en": "[target_artist.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.1600.a": {
+  "en": "Empower the Kreditwerk.",
+  "uk": "Наділити Кредітверк новими привілеями."
+ },
+ "flavor_brapru.1600.desc": {
+  "en": "Our poor financial reserves leave our [ROOT.GetCountry.GetLongName] in a precarious financial position, with few options being available to us in case of emergency. The [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have now approached us with a proposal to alleviate this problem. By granting them further rights over the royal Finances, they would lend their support in times of need. However, this privilege would further entrench the reliance of [target_character.GetName] on the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] of [ROOT.GetCountry.GetNameWithNoTooltip]. At the moment we have no choice but to give in to them, but we should be wary of opportunities in the future to revert the Kreditwerks status.",
+  "uk": "[ROOT.GetCountry.GetLongName] перебуває в жахливому фінансовому становищі. Наша скарбниця майже вичерпалася; незрозуміло, як діяти далі. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] висунули нам пропозицію: якщо ми наділимо їх ширшими правами щодо королівських фінансів, вони нададуть нам допомогу в годину потреби. Однак якщо ми підемо їм назустріч, [target_character.GetName] лише сильніше стане залежати від примх, які висловлюють [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] [ROOT.GetCountry.Custom('CL_GEN')]. Зараз вибору в нас немає — залишається лише поступитися, однак у майбутньому варто подумати про те, як обмежити повноваження Кредітверка."
+ },
+ "flavor_brapru.1600.entry": {
+  "en": "$flavor_brapru.1600.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1600.title": {
+  "en": "Financial Prerogatives of the Kreditwerk",
+  "uk": "Фінансові привілеї Кредітверка"
+ },
+ "flavor_brapru.1601.a": {
+  "en": "Reform the Institution under the crown",
+  "uk": "Реформувати Кредітверк і віддати його короні."
+ },
+ "flavor_brapru.1601.b": {
+  "en": "Let's get rid of this evil.",
+  "uk": "Кредітверк — зло. Позбудемося його."
+ },
+ "flavor_brapru.1601.c": {
+  "en": "Bail it out and let it continue.",
+  "uk": "Викупімо його і дозволімо продовжувати діяльність."
+ },
+ "flavor_brapru.1601.desc": {
+  "en": "Despite the Powers granted to the Kreditwerk, the Institution managed to go into heavy debt, mismanaging our finances to a large degree. Since we are now faced with the immediate bankruptcy of the Kreditwerk, we will have to make a decision regarding its future. There are multiple factions forming within the ranks of our advisors, some advising it to reform the Kreditwerk and put it under the direct administration of the crown, while others recommend the total abolishment of the Institution.",
+  "uk": "Незважаючи на новонабуті повноваження, Кредітверк не зумів гідно розпорядитися нашими фінансами, і заборгованість його сьогодні вражає уяву. Оскільки банкрутство Кредітверка неминуче, нам необхідно вирішити, яке майбутнє на нього чекає. Думки радників розділилися: деякі радять перетворити Кредітверк і віддати його під безпосереднє управління корони, інші ж радять узагалі скасувати цю установу."
+ },
+ "flavor_brapru.1601.entry": {
+  "en": "$flavor_brapru.1601.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1601.title": {
+  "en": "The Bankruptcy of the Kreditwerk",
+  "uk": "Банкрутство Кредітверка"
+ },
+ "flavor_brapru.17.a": {
+  "en": "Sponsor him!",
+  "uk": "Видати йому гроші!"
+ },
+ "flavor_brapru.17.b": {
+  "en": "We cannot abide his reconciliatory views.",
+  "uk": "Його примиренські погляди неприпустимі."
+ },
+ "flavor_brapru.17.desc": {
+  "en": "[target_artist.GetName] is one of the most notable representatives of the early Reformation. However, he came into conflict with other Reformers over the question of the Mosaic Law and in what capacities it applies to the [ShowReligionGroupAdjective('christian')] people. His stance on the Gospel as the only source of a devout [ShowReligionGroupAdjectiveWithNoTooltip('christian')] conduct clashes with multiple of his peers, drawing him some ire in the Reformist Movement, who teach the relevance of the Old Testament, the Mosaic Law. [target_artist.GetNameWithNoTooltip], being accused of #italic Antinomianism#! has reached out to our court for sponsorship and a safe place for him to refine his own doctrine.",
+  "uk": "[target_artist.GetName] — один із найвидатніших діячів перших років Реформації, однак діяльність його затьмарила суперечка з іншими прихильниками руху стосовно Мойсеєвого закону і того, наскільки він застосовний до всіх #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!. [target_artist.GetName] вважає, що Євангеліє — єдина книга, яка потрібна праведному християнину. Цих поглядів не поділяють багато хто з його спільників, що продовжують викладати народу П'ятикнижжя — звід Мойсеєвого закону. Не бажаючи зносити звинувачення в #italic антиноміанізмі#! — зневаженні Старого Завіту, [target_artist.GetNameWithNoTooltip] звернувся до нашого двору з проханням про виділення йому коштів і притулку, щоб він міг спокійно зайнятися роботою над власним ученням."
+ },
+ "flavor_brapru.17.entry": {
+  "en": "Johannes Agricola",
+  "uk": ""
+ },
+ "flavor_brapru.17.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] in the Reformation",
+  "uk": "[target_artist.GetNameWithNoTooltip] у русі за Реформацію"
+ },
+ "flavor_brapru.18.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_brapru.18.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_brapru.18.desc": {
+  "en": "We have graciously been sponsored to build a [ShowBuildingTypeName('university')] in the vicinity of [ShowLocationName('lebus')]. This new institution of learning will be built in the neighboring town of Frankfurt an der Oder and will result in a shift of power towards the Town that has been constructed on the banks of the Oder river.",
+  "uk": "Нам милостиво виділили кошти на будівництво #TOOLTIP:BUILDING_TYPE,university,X #L університету#!#! поблизу #TOOLTIP:LOCATION,lebus_tt,X #L Лебуса#!#!. Цей заклад, де громадяни навчатимуться наукам, передбачається збудувати в сусідньому Франкфурті-на-Одері з розрахунком, що вплив міста з часом стане достатньо значним."
+ },
+ "flavor_brapru.18.entry": {
+  "en": "$flavor_brapru.18.title$",
+  "uk": ""
+ },
+ "flavor_brapru.18.title": {
+  "en": "University of Frankfurt",
+  "uk": "Франкфуртський університет"
+ },
+ "flavor_brapru.1800.a": {
+  "en": "Truly, [target_character.GetNameWithNoTooltip] must rule us.",
+  "uk": "Справді, нехай нами править [target_character.GetNameWithNoTooltip]."
+ },
+ "flavor_brapru.1800.a.entry": {
+  "en": "Truly, he must rule us.",
+  "uk": ""
+ },
+ "flavor_brapru.1800.b": {
+  "en": "The discontent will eventually disappear.",
+  "uk": "Невдоволення з часом уляжеться."
+ },
+ "flavor_brapru.1800.desc": {
+  "en": "The throne room of [pru_from.GetName] has been chaotic lately. Several incompetent decisions on part of the [pru_from.GetGovernment.GetRulerTitle] and [our_ruler.GetHerHis] courtiers have led to a crisis which threatens the very integrity of the state. In this case, the estates of [pru_from.GetNameWithNoTooltip] have begun looking towards foreign candidates, including [target_character.GetNameWithNoTooltip].",
+  "uk": "У тронному залі #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_GEN')|L]#!#! останнім часом панує повний безлад. І [pru_from.GetGovernment.GetRulerTitle|l], і [Select_CString(our_ruler.IsFemale, 'її', 'його' )] придворні своїми непродуманими рішеннями викликали в державі катастрофу і поставили країну на межу розпаду. Стани [pru_from.Custom('CL_GEN')] уже почали придивлятися до іноземних кандидатів, серед яких і [target_character.GetNameWithNoTooltip]."
+ },
+ "flavor_brapru.1800.entry": {
+  "en": "$flavor_brapru.1800.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1800.title": {
+  "en": "Trouble on the Throne",
+  "uk": "Біда на престолі"
+ },
+ "flavor_brapru.1801.a": {
+  "en": "Truly interesting.",
+  "uk": "Вельми цікаво."
+ },
+ "flavor_brapru.1801.desc": {
+  "en": "One of the members of the [target_character.GetDynasty.GetName] dynasty has found [target_character.GetHerselfHimself] on the throne of [pru_from.GetName]. We could stand to benefit from this in the future, considering the positive relations amongst our kin.",
+  "uk": "На троні #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_GEN')|L]#!#! сьогодні сидить вихідець із династії [target_character.GetDynasty.GetName]. Можливо, у майбутньому це принесе нам певну вигоду — все-таки наші доми добре ставляться один до одного."
+ },
+ "flavor_brapru.1801.entry": {
+  "en": "A Dynasty Member on the Prussian Throne",
+  "uk": ""
+ },
+ "flavor_brapru.1801.title": {
+  "en": "A [target_character.GetDynasty.GetNameWithNoTooltip] on [pru_from.GetAdjectiveWithNoTooltip] Throne",
+  "uk": "[target_character.GetDynasty.GetNameWithNoTooltip] на [pru_from.GetAdjectiveWithNoTooltip]ому престолі"
+ },
+ "flavor_brapru.1802.a": {
+  "en": "Only [proposed_regent.GetNameWithNoTooltip] can help us.",
+  "uk": "Нам допоможе тільки [proposed_regent.GetNameWithNoTooltip]."
+ },
+ "flavor_brapru.1802.a.entry": {
+  "en": "Only he can help us.",
+  "uk": ""
+ },
+ "flavor_brapru.1802.desc": {
+  "en": "The challenges of ruling a country are all but few. While most are ready to face such hard tasks, some fail to live up to the pressure. Clearly, one of such people was [insane_individual.GetName], as [insane_individual.GetSheHe] has begun to show signs of mental decline. Most members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and of the estates have declared [insane_individual.GetHerHim] as unfit to rule.",
+  "uk": "Правління державою неминуче пов'язане з величезними труднощами, і далеко не кожен правитель здатний гідно з ними впоратися, яким би відважним він не був. [insane_individual.GetName] не [Select_CString(insane_individual.IsFemale, 'впоралася', 'впорався' )]: розум [Select_CString(insane_individual.IsFemale, 'її', 'його' )] починає відмовляти. І [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] майже цілком, і стани оголосили [Select_CString(insane_individual.IsFemale, 'її нездатною', 'його нездатним' )] правити."
+ },
+ "flavor_brapru.1802.entry": {
+  "en": "Mental Decline of Insane Individual",
+  "uk": ""
+ },
+ "flavor_brapru.1802.title": {
+  "en": "Mental Decline of [insane_individual.GetNameWithNoTooltip]",
+  "uk": "[insane_individual.GetNameWithNoTooltip] остаточно втрачає розум"
+ },
+ "flavor_brapru.1803.a": {
+  "en": "Let us pay no heed.",
+  "uk": "Не будемо звертати уваги."
+ },
+ "flavor_brapru.1803.b": {
+  "en": "[proposed_regent_of_poland.GetNameWithNoTooltip] would fare much better.",
+  "uk": "[proposed_regent_of_poland.GetNameWithNoTooltip] впорається значно краще."
+ },
+ "flavor_brapru.1803.b.entry": {
+  "en": "The regent would fare much better.",
+  "uk": ""
+ },
+ "flavor_brapru.1803.desc": {
+  "en": "We have received word from our subject in [pru_from.GetName] of their political woes. Their government has been left without a ruler due to the mental decline of [insane_individual.GetName]. In those dark times, they have reached out to their kinsman, [proposed_regent.GetName]. Should [proposed_regent.GetNameWithNoTooltip] become the regent, a personal union would form, leading to troubles on the horizon for us. We could impose our own regent, but that would be met with outrage in [pru_from.GetNameWithNoTooltip].",
+  "uk": "Наш васал у #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_PREP')|L]#!#! повідомив, що в його державі розгортається справжня біда: [insane_individual.GetName] [Select_CString(insane_individual.IsFemale, 'втратила', 'втратив' )] розум, і тепер у державі немає правителя. На допомогу їм прийти може тільки їхній [Select_CString(proposed_regent.IsFemale, 'родичка', 'родич' )] [proposed_regent.GetName]. Якщо [proposed_regent.GetNameWithNoTooltip] стане регентом, то утвориться особиста унія, і тоді труднощі почнуться вже в нас. Ми можемо нав'язати їм власноруч обраного регента, однак [pru_from.GetNameWithNoTooltip] напевно обуриться такому підходу."
+ },
+ "flavor_brapru.1803.title": {
+  "en": "$flavor_brapru.1802.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1804.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_brapru.1804.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_brapru.1804.desc": {
+  "en": "[proposed_regent.GetName] has safely arrived in [pru_from.GetCapital.GetName], the capital of [pru_from.GetName], and a ceremony has been held, turning [proposed_regent.GetHimHer] into the regent of the state and, in practice, forming a Personal Union between [ROOT.GetCountry.GetName] and [pru_from.GetNameWithNoTooltip]. However, this means that [proposed_regent.GetNameWithNoTooltip] must now swear allegiance to the [pru_from.GetDiplomacy.GetOverlord.GetLongName] for [proposed_regent.GetHisHer] newly acquired territories.",
+  "uk": "[proposed_regent.GetName] [Select_CString(proposed_regent.IsFemale, 'прибула', 'прибув' )] до столиці #ONCLICK:COUNTRY,[pru_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pru_from.Custom('CL_tt')],X [pru_from.Custom('CL_GEN')|L]#!#! — міста [pru_from.GetCapital.GetName]. Після урочистої церемонії [Select_CString(proposed_regent.IsFemale, 'новоприбулу', 'новоприбулого' )] оголосили регентом. Це, по суті, означає, що [ROOT.GetCountry.GetName] і [pru_from.GetNameWithNoTooltip] уклали між собою особисту унію. Однак [proposed_regent.GetNameWithNoTooltip] [Select_CString(proposed_regent.IsFemale, 'повинна', 'повинен' )] присягнути на вірність державі [pru_from.GetDiplomacy.GetOverlord.GetLongName], щоб вступити у владу над новими землями."
+ },
+ "flavor_brapru.1804.title": {
+  "en": "Rule in [pru_from.GetNameWithNoTooltip]",
+  "uk": "Влада в [pru_from.Custom('CL_PREP')]"
+ },
+ "flavor_brapru.1805.a": {
+  "en": "What a disaster!",
+  "uk": "Це просто катастрофа!"
+ },
+ "flavor_brapru.1805.desc": {
+  "en": "Our overlords in [intervening_tag.GetName] have caught a glimpse of our troubles and our invitation of [proposed_regent.GetName]. Having determined it is their right to appoint the regent, they have sent [proposed_regent_of_poland.GetShortName], who we were forced to accept as the new [ROOT.GetCountry.GetGovernment.GetRulerTitle] of the [ROOT.GetCountry.GetLongName].",
+  "uk": "Наші сюзерени в #ONCLICK:COUNTRY,[intervening_tag.Custom('CL_tt')] #TOOLTIP:COUNTRY,[intervening_tag.Custom('CL_tt')],X [intervening_tag.Custom('CL_PREP')|L]#!#! звернули увагу, що у світлі бід, які терзають нас, до держави [Select_CString(proposed_regent.IsFemale, 'було запрошено', 'був запрошений' )] [proposed_regent.GetName]. Підкресливши, що призначення регентів — це їхнє невід'ємне право, вони надіслали нам зовсім іншу людину. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [proposed_regent_of_poland.GetShortName] — зовсім не той правитель, якого [ROOT.GetCountry.GetLongName] бажає бачити на своєму престолі…"
+ },
+ "flavor_brapru.1805.title": {
+  "en": "[intervening_tag.GetAdjectiveWithNoTooltip] Intervention",
+  "uk": "[intervening_tag.GetAdjectiveWithNoTooltip]е втручання"
+ },
+ "flavor_brapru.1806.a": {
+  "en": "They will be punished for meddling!",
+  "uk": "Ми покараємо їх за таке втручання!"
+ },
+ "flavor_brapru.1806.desc": {
+  "en": "[pru_from.GetAdjective] overlords in [intervening_tag.GetName] have caught a glimpse of their troubles and their invitation of [proposed_regent.GetName]. Having determined it is their right to appoint the regent, they have sent [proposed_regent_of_poland.GetShortName], who has become the new [pru_from.GetGovernment.GetRulerTitle]. We have essentially been barred from acquiring a new [pru_from.GetFlavorRank] in the east. They shall know our wrath!",
+  "uk": "#L [pru_from.GetAdjective]і#! сюзерени в #ONCLICK:COUNTRY,[intervening_tag.Custom('CL_tt')] #TOOLTIP:COUNTRY,[intervening_tag.Custom('CL_tt')],X [intervening_tag.Custom('CL_PREP')|L]#!#! звернули увагу на лихо, що розгортається в них — зокрема, на те, що до держави [Select_CString(proposed_regent.IsFemale, 'було запрошено', 'був запрошений' )] [proposed_regent.GetName]. Підкресливши, що призначення регентів — це їхнє невід'ємне право, вони надіслали зовсім іншу людину, тому [proposed_regent_of_poland.GetShortName] тепер [pru_from.GetGovernment.GetRulerTitle|l]. Нам доведеться розпрощатися з надією опанувати [pru_from.Custom('rank_ru_INST')|l] на сході. Незабаром вони пізнають наш гнів!"
+ },
+ "flavor_brapru.1806.entry": {
+  "en": "$flavor_brapru.1806.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1806.title": {
+  "en": "$flavor_brapru.1805.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1807.a": {
+  "en": "Let us propose the notion.",
+  "uk": "Запропонуймо унію."
+ },
+ "flavor_brapru.1807.b": {
+  "en": "We will get rid of that suzerain another time.",
+  "uk": "Ще встигнемо позбутися сюзерена."
+ },
+ "flavor_brapru.1807.desc": {
+  "en": "Since our succession in [GetCountry('PRU').GetName], we have been slowly gaining in power relative to our partial suzerain in [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName]. Today, as our relative power to the [GetCountry('PRU').GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip] is more favorable than ever, we should propose a treaty between two nations, offering the [GetCountry('PRU').GetDiplomacy.GetOverlord.GetAdjectiveWithNoTooltip] the promise of peace in return for them renouncing [GetCountry('PRU').GetNameWithNoTooltip] as their subject.",
+  "uk": "Відтоді, як ми зайняли престол #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_GEN')|L]#!#!, наш вплив, хай навіть спочатку обмежений владою часткового сюзерена — #ONCLICK:COUNTRY,[GetCountry('PRU').GetDiplomacy.GetOverlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').GetDiplomacy.GetOverlord.Custom('CL_tt')],X [GetCountry('PRU').GetDiplomacy.GetOverlord.Custom('CL_GEN')|L]#!#!, повільно, але невблаганно зростає. Сьогодні співвідношення наших сил таке, що [GetCountry('PRU').GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip] не може з ним не рахуватися, тому варто запропонувати [GetCountry('PRU').GetDiplomacy.GetOverlord.GetAdjectiveWithNoTooltip|l]ій стороні укласти між нашими державами унію: ми пообіцяємо їм мир, вони нам — звільнення [GetCountry('PRU').Custom('CL_GEN')] від васальної залежності."
+ },
+ "flavor_brapru.1807.entry": {
+  "en": "Treaty of Wehlau",
+  "uk": ""
+ },
+ "flavor_brapru.1807.historical_info": {
+  "en": "The Treaty of Wehlau was a humiliating pact between the Kingdom of Poland and the Hohenzollern Duchy of Prussia, whereas the former have rescinded their overlordship over the latter, receiving Hohenzollern military support against the Swedes in return. The catalyst of this treaty was the catastrophic invasion of Poland, known as the #italic Swedish Deluge#!.",
+  "uk": "Велауський договір — принизлива угода між Королівством Польським і герцогством Пруссія. Польща змушена була звільнити Пруссію від васальної залежності в обмін на надання правлячою династією Гогенцоллернів військової допомоги в боротьбі проти Швеції. Приводом до цього стало вторгнення до Речі Посполитої шведських військ, відоме як #italic Шведський потоп#!."
+ },
+ "flavor_brapru.1807.title": {
+  "en": "Treaty of [wehlau_loc.GetNameWithNoTooltip]",
+  "uk": "Велауський договір"
+ },
+ "flavor_brapru.1808.a": {
+  "en": "We may not have a choice.",
+  "uk": "Нам не залишили вибору."
+ },
+ "flavor_brapru.1808.b": {
+  "en": "Preposterous proposal! We will not be humiliated.",
+  "uk": "Обурлива вимога! Ми відмовляємося так принижуватися!"
+ },
+ "flavor_brapru.1808.desc": {
+  "en": "Our rising neighbor in [bra_from.GetName] has been getting surprisingly powerful compared to us, and their personal union in [GetCountry('PRU').GetName] makes them a danger to our state in the western flank. In fact, if they were to attack us today, we reckon that defeat would be guaranteed. To secure peace between the two nations, they are demanding us to renounce Ducal [GetCountry('PRU').GetNameWithNoTooltip] as our subject. Should we not, they will show us the might of their steel.",
+  "uk": "Ми неприємно здивовані: наш сусід [bra_from.GetName] останнім часом набирає силу і незабаром доженe нас самих. Крім того, [bra_from.GetName] і [GetCountry('PRU').GetName] уклали особисту унію, а отже, на заході від нас з'явилася нова загроза. Ніхто не сумнівається, що якщо сьогодні почнеться війна, ми неодмінно її програємо. Зараз ці держави вимагають від нас звільнити герцогство [GetCountry('PRU').GetNameWithNoTooltip] від васальної залежності, інакше ми пізнаємо на собі всю міць їхньої зброї."
+ },
+ "flavor_brapru.1808.historical_info": {
+  "en": "$flavor_brapru.1807.historical_info$",
+  "uk": ""
+ },
+ "flavor_brapru.1808.title": {
+  "en": "$flavor_brapru.1807.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1809.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "flavor_brapru.1809.a.entry": {
+  "en": "$common_string_brilliant$",
+  "uk": ""
+ },
+ "flavor_brapru.1809.b": {
+  "en": "Rather unfortunate for [GetCountry('PRU').GetDiplomacy.GetOverlord.GetNameWithNoTooltip].",
+  "uk": "Не пощастило, [GetCountry('PRU').GetDiplomacy.GetOverlord.GetNameWithNoTooltip]."
+ },
+ "flavor_brapru.1809.b.entry": {
+  "en": "Rather unfortunate for their overlord.",
+  "uk": ""
+ },
+ "flavor_brapru.1809.desc_failure": {
+  "en": "Much to their own dismay, [overlord_of_prussia.GetName] have refused to sign the proposed treaty and as such, we will have to make them face the consequences of their actions. Having proven to the world of our intentions to resolve the matter amicably, we are free to go to war.",
+  "uk": "[overlord_of_prussia.GetName] з обуренням [Select_CString(overlord_of_prussia.IsFemale, 'відмовилася', 'відмовився' )] підписувати угоду і незабаром пізнає всю нерозсудливість подібного вчинку. Ми показали, що готові були піти на мирне вирішення — тепер у нас є вагомий привід влаштувати війну."
+ },
+ "flavor_brapru.1809.desc_success": {
+  "en": "Having realized their dire situation, [overlord_of_prussia.GetName] accepted the agreement. Subsequently, our sides met together in [wehlau_loc.GetName] and ratified the treaty. With the signing, the [GetCountry('PRU').GetLongName] is no longer a subject of [overlord_of_prussia.GetNameWithNoTooltip].",
+  "uk": "Зрозумівши всю тяжкість свого становища, [overlord_of_prussia.GetName] [Select_CString(overlord_of_prussia.IsFemale, 'була змушена', 'був змушений' )] прийняти угоду. Наші представники зустрілися в місті [wehlau_loc.GetName], де і підписали договір. Тепер [GetCountry('PRU').GetLongName] більше не належить [overlord_of_prussia.Custom('CL_DAT')]."
+ },
+ "flavor_brapru.1809.historical_info": {
+  "en": "$flavor_brapru.1807.historical_info$",
+  "uk": ""
+ },
+ "flavor_brapru.1809.title": {
+  "en": "$flavor_brapru.1807.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1810.a": {
+  "en": "Indeed, we could do that.",
+  "uk": "Так, можна і так."
+ },
+ "flavor_brapru.1810.b": {
+  "en": "This might get us into unnecessary conflict.",
+  "uk": "Може початися непотрібний конфлікт."
+ },
+ "flavor_brapru.1810.desc": {
+  "en": "The mental decline of the [pru_from.GetAdjective] [insane_individual.GetName] has led to the [pru_from.GetAdjectiveWithNoTooltip] [pru_from.GetGovernment.GetCourtTitle] struggling to find a regent to rule the country in [insane_individual.GetHerHis] stead. Should they fail to do so, they run the risk of chaos and lawlessness. That is why they have chosen the only sensible candidate for the regency, [insane_individual.GetHerHis] kin, [proposed_regent.GetName], to do that. We see little reasons to deny this offer, though it could put us at risk of war with their overlords in [pru_from.GetDiplomacy.GetOverlord.GetName].",
+  "uk": "Після того як [insane_individual.GetName] [Select_CString(insane_individual.IsFemale, 'збожеволіла', 'збожеволів' )], [pru_from.GetGovernment.GetCourtTitle|l] #L [pru_from.GetAdjective|l]ої#! держави поспішно намагається підшукати собі регента, який зміг би взяти владу до своїх рук. Якщо ж такого не знайдеться, у [pru_from.GetAdjectiveWithNoTooltip|l]ій державі почнуться безлади і беззаконня. Саме тому вибір впав на єдиного розумного кандидата на ім'я [proposed_regent.GetName]; крім того, ця людина є в споріднені з [Select_CString(insane_individual.IsFemale, 'божевільною', 'божевільним' )]. Ми схильні погодитися з таким вибором, хоча при цьому висока небезпека, що на нас нападе їхній сюзерен — [pru_from.GetDiplomacy.GetOverlord.GetName]."
+ },
+ "flavor_brapru.1810.entry": {
+  "en": "$flavor_brapru.1810.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1810.title": {
+  "en": "An Offer of Regency",
+  "uk": "Пропозиція регентства"
+ },
+ "flavor_brapru.1811.a": {
+  "en": "Times have changed.",
+  "uk": "Що ж, часи змінилися."
+ },
+ "flavor_brapru.1811.b": {
+  "en": "We will pull through those troubles.",
+  "uk": "Ми впораємося з цією напастю."
+ },
+ "flavor_brapru.1811.desc": {
+  "en": "With the Reformation in full swing, we have made the hard choice to convert away from [ShowReligionName('catholic')] to [ROOT.GetCountry.GetReligion.GetName]. Since then, we have been left with more questions than answers. Nobody, not a single soul, seems to know who is our true suzerain, what mission we are on, and what even the aspects of our faith are. Does the existence of the [ROOT.GetCountry.GetLongName] still make sense?",
+  "uk": "Потрапивши під хвилю Реформації, що накрила нашу державу, ми хоч і не без труднощів, але все ж таки відмовилися від #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!. Тепер у нашого народу нова віра: [ROOT.GetCountry.GetReligion.GetName|l]. Втім, навіть це не допомогло нам відповісти на давно терзаючі нас питання. Жодна душа не знає, хто наш справжній володар, яке наше призначення і до чого взагалі зводиться наша віра. [ROOT.GetCountry.GetLongName] — навіщо взагалі існує ця держава?"
+ },
+ "flavor_brapru.1811.entry": {
+  "en": "$flavor_brapru.1811.title$",
+  "uk": ""
+ },
+ "flavor_brapru.1811.historical_info": {
+  "en": "In 1525, the Catholic Teutonic Order has been secularized into a Lutheran Duchy by grandmaster Albert of Hohenzollern. The former grandmaster held homage to the King of Poland and was permitted to continue ruling as a Duke of Prussia. It was the first instance of an open adoption of Lutheranism as a state religion.",
+  "uk": "У 1525 році великий магістр Тевтонського ордену Альбрехт із роду Гогенцоллернів оголосив про секуляризацію земель, що належать орденові, та встановлення лютеранства замість католицтва. Зроблено це було з дозволу польського короля, який дозволив Альбрехтові правити новоутвореним герцогством Пруссія — воно стало першою державою, що відкрито прийняла лютеранство як державну релігію."
+ },
+ "flavor_brapru.1811.title": {
+  "en": "Secularization of the [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "Секуляризація [ROOT.GetCountry.Custom('rank_ru_GEN')|l]"
+ },
+ "flavor_brapru.19.a": {
+  "en": "This needs to be punished!",
+  "uk": "Їх слід покарати!"
+ },
+ "flavor_brapru.19.b": {
+  "en": "Let them have their fun",
+  "uk": "Нехай веселяться."
+ },
+ "flavor_brapru.19.desc": {
+  "en": "What was supposed to be a pleasure for everyone in the population of our fair [ShowLocationName('berlin')] escalated against the wishes of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. In a well-studied show battle, which was supposed to show the Population of Berlin-Kölln beating their neighbors of Spandau, the participants of Spandau revolted against the outcome and beat our favorites! This rebellion shows their direct disdain for our [ROOT.GetCountry.GetGovernment.GetRulerTitle] and should not be tolerated.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] рве і мече: веселощі, влаштовані нами задля забави жителів прекрасного міста #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#!, закінчилися зовсім інакше, ніж ми очікували. Показова битва, сплановані до найдрібніших подробиць, мала закінчитися перемогою жителів Кельна-Берліна над сусіднім Шпандау, однак військо Шпандау збунтувалося і побило берлінців! Очевидно, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] для цих людей — ніхто, а ми не готові миритися з такою зневагою."
+ },
+ "flavor_brapru.19.entry": {
+  "en": "$flavor_brapru.19.title$",
+  "uk": ""
+ },
+ "flavor_brapru.19.historical_info": {
+  "en": "A maneuver staged by Elector Joachim II Hektor von Hohenzollern in August 1567 between the inhabitants of Berlin-Kölln and Spandau, a settlement then independent of Berlin itself, came later to be known as #italic Knüppelkrieg#! when the residents of Spandau rebelled against the Elector's desired outcome, a victory of the Berlin citizens. Pushed by the fervor and intensity of the maneuver the participants on the Spandauer Side went against the desires of the Elector and beat the Berlin-Kölln side decisively. Angered by this outcome, Joachim II Hektor threatened them with cannons, although they were not loaded, and imprisoned the mayor of Spandau for multiple months.",
+  "uk": "У серпні 1567 року курфюрст Іоахім II Гектор влаштував військові навчання. Противниками в них були війська, складені з жителів Берліна-Кельна з одного боку і незалежного міста Шпандау — з іншого. За задумом курфюрста виграти «битву» мали берлінці, однак жителі Шпандау збунтувалися проти такого рішення і, увійшовши в бойовий запал, розгромили умовного ворога. Розгніваний курфюрст спочатку спробував зупинити тих, хто бився, гарматами (які, втім, були не заряджені), а після закінчення навчань ув'язнив градоначальника Шпандау на кілька місяців. В історію ці маневри увійшли під назвою #italic Knüpfelkrieg#!, тобто «війна дрючків»."
+ },
+ "flavor_brapru.19.title": {
+  "en": "The Bravery of Spandau",
+  "uk": "Відвага жителів Шпандау"
+ },
+ "flavor_brapru.2.a": {
+  "en": "Commemorate the victory with the Gate.",
+  "uk": "Побудувати ворота на честь перемоги."
+ },
+ "flavor_brapru.2.b": {
+  "en": "Money is fine in the treasury.",
+  "uk": "Грошам краще лежати в скарбниці."
+ },
+ "flavor_brapru.2.desc": {
+  "en": "To celebrate our recent military victories and to preserve our standing among the powers of [ShowContinentName('europe')], we could contract a skilled artist of the neoclassical style to design and build us a monument worthy of a great European capital. [target_artist.GetName] has already made plans towards a grand gate that could be placed at the western entrance of [ShowLocationName('berlin')], connecting our current seat of power, with the ancient capital of [ShowLocationName('brandenburg')].",
+  "uk": "Щоб прославити наші доблесні перемоги і закріпити своє становище серед #TOOLTIP:CONTINENT,europe,X #L європейських#!#! держав, ми можемо замовити в досвідченого майстра неокласичного стилю будівництво пам'ятника, достойного прикрашати велику європейську столицю. [target_artist.GetName] уже складає проект величних воріт — їх можна буде розташувати біля західного в'їзду до [ShowLocationName('berlin')], з'єднавши тим самим сьогоднішній оплот влади зі стародавньою столицею — #TOOLTIP:LOCATION,brandenburg_tt,X #L Бранденбургом#!#!."
+ },
+ "flavor_brapru.2.entry": {
+  "en": "$flavor_brapru.2.title$",
+  "uk": ""
+ },
+ "flavor_brapru.2.historical_info": {
+  "en": "The Brandenburg Gate was built between 1789 and 1793. While the Gate was designed by the Artist Carl Gotthard Langhans, multiple other artists were involved in the decorations of the Gate. The Quadriga, depicting the Roman goddess Victoria, was created by the sculpturer Johan Gottfried Schadow, with others contributing to reliefs and friezes, with the decorations facing towards the City itself. The Gate, designed in the style of neoclassicism, was built at the then borders of the City of Berlin, in the zone of Dorotheenstadt to commemorate the Prussian victory against a Dutch popular revolt and the formation of an alliance with the countries of the Netherlands and Great Britain.",
+  "uk": "Над Бранденбурзькими воротами, побудованими в 1789—1793 рр., трудилося відразу кілька творців: проект розробив архітектор Карл Готтгард Лангганс, а прикрасами (зокрема звернутими до міста рельєфами і фризами) займалися інші люди — так, квадригу з римською богинею Вікторією створив скульптор Іоганн Готфрід Шадов. Самі ворота, спроектовані в неокласичному стилі, розташовані в кварталі Доротеєнштадт, де тоді пролягав кордон Берліна. Приводом для їх будівництва стала перемога прусських військ над бунтівними голландцями і утворення союзу з Нідерландами та Великобританією."
+ },
+ "flavor_brapru.2.title": {
+  "en": "The Construction of the Brandenburger Tor",
+  "uk": "Будівництво Бранденбурзьких воріт"
+ },
+ "flavor_brapru.20.a": {
+  "en": "Enlightening!",
+  "uk": "Як освічено!"
+ },
+ "flavor_brapru.20.b": {
+  "en": "Send him away!",
+  "uk": "Краще відішлемо його подалі."
+ },
+ "flavor_brapru.20.desc": {
+  "en": "[target_artist.GetName], a teacher at the [ShowBuildingTypeName('university')] of [ShowLocationName('apolda')], has drawn the ire of the world of [ShowReligionName('lutheran')] by holding lectures that tread dangerously close to atheism! We now received new information, suggesting that he is looking for a new home on the guarantee of being allowed to continue his work. It would be a great opportunity to strengthen our own universities with his input.",
+  "uk": "Викладач у #TOOLTIP:BUILDING_TYPE,university,X #L університеті#!#! #TOOLTIP:LOCATION,apolda_tt,X #L Апольди#!#! [target_artist.GetName] прогнівив лютеран тим, що веде лекції майже що безбожницького штибу. Сьогодні нам стало відомо, що він збирається переселитися — за умови, що йому дозволять викладати й надалі. Ми впевнені, що присутність цієї людини в нашій державі піде лише на користь нашим власним університетам."
+ },
+ "flavor_brapru.20.entry": {
+  "en": "Johann Gottlieb Fichte",
+  "uk": ""
+ },
+ "flavor_brapru.20.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] asks for Refuge",
+  "uk": "[target_artist.GetNameWithNoTooltip] просить притулку"
+ },
+ "flavor_brapru.2000.a": {
+  "en": "Let us reconcile with the estates first.",
+  "uk": "Спочатку примиримося зі станами."
+ },
+ "flavor_brapru.2000.b": {
+  "en": "Focus on reasserting our rule.",
+  "uk": "Постараємося повторно затвердити свою владу."
+ },
+ "flavor_brapru.2000.c": {
+  "en": "Prioritize the [ROOT.GetCountry.GetFlavorRank]'s stabilization.",
+  "uk": "Найважливіше повернути порядок на територію [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_brapru.2000.c.entry": {
+  "en": "Prioritize the realm's stabilization.",
+  "uk": ""
+ },
+ "flavor_brapru.2000.d": {
+  "en": "We must work on modernization.",
+  "uk": "Займемося оновленням і вдосконаленням."
+ },
+ "flavor_brapru.2000.desc": {
+  "en": "The recent turmoil over the succession in [ROOT.GetCountry.GetName] has come to an end. We have seen what the neglection of responsibilities can lead to, and if we are to retain the [root_dynasty.GetName] on the throne, we must do everything in our power to prevent such crisis from ever happening again. The [ROOT.GetCountry.GetFlavorRank] lies ravaged by feuds and weakened by uncertain loyalties. It is time to rebuild.",
+  "uk": "Смутні роки, викликані питанням успадкування престолу #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, добігли кінця. Ми наочно переконалися, до чого призводить нехтування обов'язками, і тепер готові зробити все можливе, щоб династія [root_dynasty.GetName] зберегла за собою престол, а катастрофа, що сталася, ніколи більше не повторилася. [ROOT.GetCountry.Custom('rank_ru_ACC')] роздирають міжусобиці, а зрадники таяться на кожному кроці. Настав час відновлювати постраждалу державу."
+ },
+ "flavor_brapru.2000.entry": {
+  "en": "$flavor_brapru.2000.title$",
+  "uk": ""
+ },
+ "flavor_brapru.2000.title": {
+  "en": "The Reconstruction Period",
+  "uk": "Період відновлення"
+ },
+ "flavor_brapru.2001.a": {
+  "en": "Let us seek an alliance with [emperor_country.GetNameWithNoTooltip].",
+  "uk": "Постараємося укласти союз з [emperor_country.Custom('CL_INST')]."
+ },
+ "flavor_brapru.2001.a.entry": {
+  "en": "Let us seek an alliance with them.",
+  "uk": ""
+ },
+ "flavor_brapru.2001.b": {
+  "en": "We cannot turn our back on our old allies.",
+  "uk": "Не станемо відвертатися від старих союзників."
+ },
+ "flavor_brapru.2001.desc": {
+  "en": "With our rule asserted over [ROOT.GetCountry.GetName], our diplomatic stance has ben called into question. Although we had previously relied on our old allies, such as [target_country.GetName], many believe that the recent events might have made them cautious, and that our old enemies may become useful partners.",
+  "uk": "Після встановлення влади над #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! природним чином виникло питання про дипломатичні відносини. Ми припускаємо, що після сталого деякі старі союзники, наприклад [target_country.GetName], тепер ставитимуться до нас з острахом, а старі вороги, навпаки, можуть перетворитися на корисних товаришів."
+ },
+ "flavor_brapru.2001.entry": {
+  "en": "$flavor_brapru.2001.title$",
+  "uk": ""
+ },
+ "flavor_brapru.2001.historical_info": {
+  "en": "After the Hohenzollern ascension, Brandenburg's allegiances shifted. Frederick I aligned more closely with Emperor Sigismund and other imperial interests, contrasting with former regional alliances.",
+  "uk": "Сходження на престол династії Гогенцоллернів стало початком нової епохи дипломатичних відносин для Бранденбурга. Фрідріх I зблизився з імператором Сигізмундом і став підтримувати інтереси імперії, тоді як традиційно Бранденбург спирався на місцеві союзи."
+ },
+ "flavor_brapru.2001.title": {
+  "en": "Reversal of Allegiances",
+  "uk": "З ворогів у союзники"
+ },
+ "flavor_brapru.2002.a": {
+  "en": "They will be a valuable ally.",
+  "uk": "Вони будуть нам цінним союзником."
+ },
+ "flavor_brapru.2002.b": {
+  "en": "Will they eventually turn their backs on us too?",
+  "uk": "А потім вони зрадять уже нас?"
+ },
+ "flavor_brapru.2002.desc": {
+  "en": "An envoy has arrived from [root_country.GetName] to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. The [root_dynasty.GetName] dynasty wishes to solidify their control over [root_country.GetNameWithNoTooltip] and secure their diplomatic position by abandoning regional alliances in favor of aligning closely to the interest of the [GetUniqueInternationalOrganization('hre').GetName].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] приймає посла, що прибув до нас з #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#! з таким посланням: династія [root_dynasty.GetName] бажає зміцнити свою владу над [root_country.Custom('CL_INST')], а разом з цим — і дипломатичне становище, для чого збирається відмовитися від укладення місцевих союзів і натомість почати підтримувати інтереси #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!."
+ },
+ "flavor_brapru.2002.title": {
+  "en": "An Offer of Alliance",
+  "uk": "Пропозиція союзу"
+ },
+ "flavor_brapru.21.a": {
+  "en": "Oh the joy of romance!",
+  "uk": "Ах, романи — це так радісно!"
+ },
+ "flavor_brapru.21.b": {
+  "en": "The tragedy is so romantic!",
+  "uk": "Ця трагедія така романтична!"
+ },
+ "flavor_brapru.21.desc": {
+  "en": "[target_artist.GetName] has published a most scandalous piece of writing, satirizing the works of authors that consider themselves part of the #italic Sturm und Drang#! movement in the [ShowCultureGroupName('german_group')] literature. [target_artist.GetNameWithNoTooltip] is criticizing specifically the extreme reactions to #italic The Sorrows of Young Werther#! and its impact on society, imagining a happy ending for poor Werther.",
+  "uk": "[target_artist.GetName] [Select_CString(target_artist.IsFemale, 'опублікувала', 'опублікував' )] цілком обурливий твір, у якому [Select_CString(target_artist.IsFemale, 'висміяла', 'висміяв' )] роботи авторів — представників #TOOLTIP:CULTUREGROUP,german_group,X #L німецького#!#! літературного руху #italic «Буря і натиск»#!. Особливо жорстко [target_artist.GetNameWithNoTooltip] критикує впадання публіки в крайнощі після прочитання роману #italic «Страждання юного Вертера»#!, так само як і вплив цього роману на читачів, і припускає, що для бідного Вертера все мало закінчитися добре."
+ },
+ "flavor_brapru.21.entry": {
+  "en": "Friedrich Nicolai and the Joys of Young Werther",
+  "uk": ""
+ },
+ "flavor_brapru.21.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] mocks Werther-Effect!",
+  "uk": "[target_artist.GetNameWithNoTooltip] висміює синдром Вертера!"
+ },
+ "flavor_brapru.22.a": {
+  "en": "Sponsor him!",
+  "uk": "Видати йому гроші!"
+ },
+ "flavor_brapru.22.b": {
+  "en": "He offers nothing of value.",
+  "uk": "Нічого цінного він не може запропонувати."
+ },
+ "flavor_brapru.22.desc": {
+  "en": "Looking at the state of education in our capital [target_artist.GetName], a well-recognized linguist and philosopher, has offered his help in reforming the educational system of our capital and country into a beacon of individual possibilities. [target_artist.GetName], having studied the [ShowLanguageName('basque_language')] and served as a diplomat for the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] embassies in foreign countries, brings a vast amount of knowledge in different subjects with him and experience in managing institutions.",
+  "uk": "Визнаний мовознавець і мислитель [target_artist.GetName] настільки пригнічений якістю освіти в нашій столиці, що запропонував нам свою допомогу в проведенні реформ: він хоче перетворити не лише столицю, а й всю державу на країну, де можливе все. [target_artist.GetName] вивчав #TOOLTIP:LANGUAGE,basque_language,X #L баскську#!#! мову і служив дипломатом при [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их посольствах в інших країнах, тому знання його про різні предмети широкі, а вміння керувати викликає захоплення."
+ },
+ "flavor_brapru.22.entry": {
+  "en": "Wilhelm von Humbolt - University of Berlin",
+  "uk": ""
+ },
+ "flavor_brapru.22.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] wants to reform Education",
+  "uk": "[target_artist.GetNameWithNoTooltip] хоче провести реформу освіти"
+ },
+ "flavor_brapru.23.a": {
+  "en": "All should strive towards tolerance!",
+  "uk": "Виявляти толерантність має кожний!"
+ },
+ "flavor_brapru.23.b": {
+  "en": "A useless plea for tolerance.",
+  "uk": "Який безглуздий заклик до толерантності."
+ },
+ "flavor_brapru.23.desc": {
+  "en": "The play #italic Nathan the Wise#! displays a masterful use of a Ring Parable to display a message of tolerance between the Abrahamic faiths of the world. [target_artist.GetName] modeled his main character after a lifelong friend and confidant, who he shared his view of tolerance with. As long as we permit, the play will premier in [ShowLocationName('berlin')].",
+  "uk": "Автор #italic «Натана Мудрого»#! майстерно вплів у повість притчу про каблучки, щоб краще підкреслити свій задум: авраамічним релігіям слід бути толерантними одна до одної. Головного героя твору [target_artist.GetName] списав зі свого старого друга і повіреного, який повністю поділяє його погляди. П'єсу збираються поставити в #TOOLTIP:LOCATION,berlin_tt,X #L Берліні#!#! — звісно, з нашого дозволу."
+ },
+ "flavor_brapru.23.entry": {
+  "en": "Gotthold Ephraim Lessing",
+  "uk": ""
+ },
+ "flavor_brapru.23.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] publishes #italic Nathan the Wise#!",
+  "uk": "[target_artist.GetNameWithNoTooltip] видає п'єсу #italic «Натан Мудрий»#!"
+ },
+ "flavor_brapru.24.a": {
+  "en": "Encourage this establishment.",
+  "uk": "Підтримати це починання."
+ },
+ "flavor_brapru.24.b": {
+  "en": "Why should we bother?",
+  "uk": "Навіщо нам ці клопоти?"
+ },
+ "flavor_brapru.24.desc": {
+  "en": "Much of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] consider the [country_ruler.GetName]'s efforts of spreading piety to be rather inadequate. Apparently, they believe that the creation of a new chivalry order to spread the Virgin Mary cult would rectify that [ROOT.GetCountry.GetGovernment.GetAdjective] indifference. A domestic chivalric order would lead to the spiritual growth of the members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and their serfs.\\n\\nThough the creation of such an order would be quite costly, it would greatly contribute to growing the prestige of the [ROOT.GetCountry.GetFlavorRank]. Lured by those reasons, [country_ruler.GetNameWithNoTooltip] was convinced to at least entertain such a possibility. As such, [country_ruler.GetSheHe] let several proposals be made, but only the one about [ShowPolicyName('order_of_the_swan_policy')] seems to be to the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s liking.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] здебільшого вважають, що [country_ruler.GetName|l] з недостатнім старанням виховує в своїх підданих набожність, а тому заявляють про необхідність заснувати новий лицарський орден — він поширюватиме віру в Діву Марію, з чим не справляється #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]а#! влада. Зусиллями такого ордену [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] нашої держави та їхні кріпаки розвиватимуть у собі духовний початок.\\n\\nІ хоча подібне починання помітно спустошить скарбницю, [ROOT.GetCountry.GetFlavorRank|l] почне користуватися доброю славою. Прислухавшись до цих доводів, [country_ruler.GetNameWithNoTooltip|l] [Select_CString(country_ruler.IsFemale, 'погодилася', 'погодився' )] принаймні замислитися про заснування ордену. З усіх пропозицій, втім, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] вважає гідною лише одну: #TOOLTIP:POLICY,order_of_the_swan_policy,X #L орден Лебедя#!#!."
+ },
+ "flavor_brapru.24.entry": {
+  "en": "Order of The Swan",
+  "uk": ""
+ },
+ "flavor_brapru.24.historical_info": {
+  "en": "The Brandenburgian #italic Schwanenorden#! was founded in 1440 by Prince-elector Frederick II. Its #italic modus operandi#! was to promote piety and to spread the cult of the Virgin Mary. The founding members amounted to 37 people but the Order would quickly grow to encompass hundreds.",
+  "uk": "Бранденбурзький #italic Орден Лебедя#! заснував у 1440 році курфюрст Фрідріх II. #italic Modus operandi#! цього ордену передбачав виховання в підданих набожності і поширення культу Богородиці. Орден, що налічував під час заснування всього 37 осіб, швидко розрісся до кількох сотень послідовників."
+ },
+ "flavor_brapru.24.title": {
+  "en": "[ShowChivalricOrderNameWithNoTooltip('order_of_the_swan')]",
+  "uk": ""
+ },
+ "flavor_brapru.25.a": {
+  "en": "We should have [ROOT.GetCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] join this order.",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] вступить до ордену."
+ },
+ "flavor_brapru.25.a.entry": {
+  "en": "We should have him join this order.",
+  "uk": ""
+ },
+ "flavor_brapru.25.b": {
+  "en": "Good to have them.",
+  "uk": "Добре, що він у нас є."
+ },
+ "flavor_brapru.25.desc": {
+  "en": "[country_ruler.GetName] has recently founded the [ShowPolicyName('order_of_the_swan_policy')] in order to promote piety and the cult of the Virgin Mary in [country_ruler.GetHerHis] country. Due to our dynastic connections, many of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been offered membership in the chivalric establishment. This could be an excellent opportunity to promote our own interests.",
+  "uk": "Нещодавно [country_ruler.GetName|l] [Select_CString(country_ruler.IsFemale, 'заснувала', 'заснував' )] лицарський #TOOLTIP:POLICY,order_of_the_swan_policy,X #L орден Лебедя#!#! — вихователів у підданих набожності і віри в Діву Марію. Завдяки династичним зв'язкам багато наших [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] отримали запрошення вступити до ордену, що відкриває нам чудову можливість представити там власні інтереси."
+ },
+ "flavor_brapru.25.entry": {
+  "en": "$flavor_brapru.25.title$",
+  "uk": ""
+ },
+ "flavor_brapru.25.historical_info": {
+  "en": "$flavor_brapru.24.historical_info$",
+  "uk": ""
+ },
+ "flavor_brapru.25.title": {
+  "en": "$flavor_brapru.24.title$",
+  "uk": ""
+ },
+ "flavor_brapru.26.a": {
+  "en": "We will fund the establishment.",
+  "uk": "Виділимо кошти на заснування."
+ },
+ "flavor_brapru.26.b": {
+  "en": "Such vanities do not concern us or our generals!",
+  "uk": "Ні нам, ні нашим генералам ні до чого ці надмірності!"
+ },
+ "flavor_brapru.26.desc": {
+  "en": "As the militarization of our country grows and we pivot towards [ShowSocietyDirectionName('quality')] more and more, we find ourselves lacking in rewards befitting our outstanding generals. Though land grants and direct payments are good rewards in and of themselves, the establishment of a new, secular military order would go a long way toward promoting the good name of our war heroes. Though costly, the [ShowPolicyName('order_of_the_black_eagle_policy')] would promote more discipline and merit.",
+  "uk": "У міру нарощування нашої військової міці і схилення до #TOOLTIP:SOCIETAL_VALUE,quality,X #L якості#!#! замість кількості все очевиднішою стає відсутність у державі нагород, яких були б гідні видатні генерали. Видача земельних наділів і просто прямі виплати — чудове заохочення, однак, заснувавши новий (і строго світський) військовий орден, ми зробимо так, щоб кожний житель нашої країни знав своїх героїв. Починання це обійдеться нам дорого, але [ShowPolicyName('order_of_the_black_eagle_policy')] допоможе розвивати дисципліну і чесноти."
+ },
+ "flavor_brapru.26.entry": {
+  "en": "Order of the Black Eagle",
+  "uk": ""
+ },
+ "flavor_brapru.26.historical_info": {
+  "en": "Prince-elector Frederick III founded the Order of the Black Eagle, a military order that included most reigning members and kinsmen of the ruling Hohenzollern dynasty and many visiting foreign royals, on January 17th, 1701, on the eve of being crowned as King in Prussia. Aside from being awarded to royals, it was also conferred to skilled military personnel, promoting meritocracy in the process.",
+  "uk": "10 січня 1701 року, напередодні сходження на престол короля Пруссії, курфюрст Фрідріх III заснував військовий Орден Чорного орла, до якого увійшли багато правлячих представників династії Гогенцоллернів і їхні родичі, а також ті, хто перебували в Пруссії з візитом, члени іноземних королівських родин. Сама нагорода вручалася також і вправним військовослужбовцям, підкреслюючи їхні заслуги перед вітчизною."
+ },
+ "flavor_brapru.26.title": {
+  "en": "[ShowChivalricOrderNameWithNoTooltip('order_of_the_black_eagle')]",
+  "uk": ""
+ },
+ "flavor_brapru.27.a": {
+  "en": "Encourage [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] settlers to settle in [ShowAreaNameWithNoTooltip('silesia_area')]",
+  "uk": "Заохотити [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l] поселенців осідати в Сілезії"
+ },
+ "flavor_brapru.27.a.entry": {
+  "en": "Encourage faithful settlers to settle in [ShowAreaNameWithNoTooltip('silesia_area')].",
+  "uk": ""
+ },
+ "flavor_brapru.27.b": {
+  "en": "They will recover themselves.",
+  "uk": "Вони відновляться і без нашої допомоги."
+ },
+ "flavor_brapru.27.desc": {
+  "en": "Since its conquest, the area of [ShowAreaName('silesia_area')] has been left relatively desolate and devastated by the effects of the wars. Without wanting to spend much on investments and with an ever-rising fervor to assimilate heretic provinces in the country, some have proposed to invite [ROOT.GetCountry.GetReligion.GetAdjective] settlers into the area to both stimulate the local economy as well as to assimilate the area into our country.",
+  "uk": "Війна важко позначилася на захопленій і спустошеній #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#!. Дехто, не бажаючи витрачати скарбницю на відновлення області і при цьому палаючи бажанням приєднувати до себе провінції, де поширюється єресь, пропонують запросити сюди #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! поселенців: вони допоможуть розвинути місцеву економіку і заразом асимілювати нову землю."
+ },
+ "flavor_brapru.27.entry": {
+  "en": "Prussian Colonization of Silesia",
+  "uk": ""
+ },
+ "flavor_brapru.27.historical_info": {
+  "en": "Following the acquisition of Silesia in 1742, the Prussian State enacted policies in order to encourage Protestant settlement in Eastern Silesia, which was predominantly Catholic and Polish-speaking. In 1773, an edict was issued to encourage further settlers to live in Silesia.",
+  "uk": "Після придбання Сілезії в 1742 році прусська влада почала проводити політику заселення на той час переважно католицької і польськомовної Східної Сілезії німецькими протестантами. У 1773 році був виданий указ, який стимулював подальше переселення німців у регіон."
+ },
+ "flavor_brapru.27.title": {
+  "en": "Colonization of [ShowAreaNameWithNoTooltip('silesia_area')|U]",
+  "uk": "Колонізація Сілезії"
+ },
+ "flavor_brapru.28.a": {
+  "en": "Connecting our territories is a serious matter.",
+  "uk": "З'єднання територій — серйозна задача."
+ },
+ "flavor_brapru.28.b": {
+  "en": "We cannot risk upsetting the status quo.",
+  "uk": "Порушувати сформований порядок надто небезпечно."
+ },
+ "flavor_brapru.28.desc": {
+  "en": "The corridor between [ROOT.GetCountry.GetAdjective] [ShowAreaName('pomerania_area')] and [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ShowAreaName('prussia_area')] would form a necessary component of our state, was it in our hands. In order for our territories to communicate with each other, they need to communicate over foreign borders or through ships. Such factors make our grip over [ShowAreaNameWithNoTooltip('prussia_area')] weak at best.",
+  "uk": "Коридор між #L [ROOT.GetCountry.GetAdjective]ою#! #TOOLTIP:AREA,pomerania_area,X #L Померанією#!#! і [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ою #TOOLTIP:AREA,prussia_area,X #L Пруссією#!#! став би важливою частиною нашої держави — якби він був у наших руках. Сполучення між нашими територіями зараз відбувається або через кордони з іншими державами, або за допомогою кораблів, а це значно послаблює нашу владу над Пруссією."
+ },
+ "flavor_brapru.28.entry": {
+  "en": "Claiming Royal Prussia Area",
+  "uk": ""
+ },
+ "flavor_brapru.28.title": {
+  "en": "Claiming Royal [ShowAreaNameWithNoTooltip('prussia_area')|U]",
+  "uk": "Домагання на Королівську Пруссію"
+ },
+ "flavor_brapru.29.a": {
+  "en": "It is worth the investment.",
+  "uk": "Це варте затрат."
+ },
+ "flavor_brapru.29.b": {
+  "en": "Not now and certainly not later.",
+  "uk": "Не зараз — і тим більше не потім."
+ },
+ "flavor_brapru.29.desc": {
+  "en": "The [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetRulerTitle] has had a [ROOT.GetCountry.GetGovernment.GetCourtTitle] residence in Tangermünde for many years. However, as our focus has been shifting eastwards, the establishment has fallen into disrepair and has become a shell of its former self. Perhaps a renovation and expansion would be in order.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] #L [ROOT.GetCountry.GetAdjective|l]их#! земель любить Тангермюнде — там уже не перший рік знаходиться [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Сьогодні, однак, будівля занепала і перетворилася на бліде подобу самої себе — так на ній позначилося зміщення наших інтересів на схід. Можливо, замок пора відреставрувати."
+ },
+ "flavor_brapru.29.entry": {
+  "en": "$flavor_brapru.29.title$",
+  "uk": ""
+ },
+ "flavor_brapru.29.historical_info": {
+  "en": "Tangermünde Castle is a castle built in the 10th century at the Tanger river estuary, in Tangermünde. Under the rule of the Ascanians, the Tangermünde Castle was one of the favored residences of the Brandenburgian Margraves. In 1373, the new margrave, also the Holy Roman Emperor, Charles IV, would move into the castle and greatly expand it into a #italic Kaiserpfalz#!.",
+  "uk": "Замок Тангермюнде був побудований у X столітті в гирлі річки Ельби. Незабаром навколо нього утворилося місто Тангермюнде. У роки правління династії Асканіїв тут знаходилася одна з улюблених резиденцій бранденбурзьких маркграфів. У 1373 році до замку в'їхав новий маркграф і імператор Священної Римської Імперії Карл IV. При ньому резиденція була значно розширена, перетворившись на #italic королівський пфальц#!."
+ },
+ "flavor_brapru.29.title": {
+  "en": "Expanding the Tangermünde Castle",
+  "uk": "Розширення замку Тангермюнде"
+ },
+ "flavor_brapru.3.a": {
+  "en": "We will exploit this!",
+  "uk": "Це піде нам на користь!"
+ },
+ "flavor_brapru.3.b": {
+  "en": "A worthless endeavor.",
+  "uk": "Марна затія."
+ },
+ "flavor_brapru.3.desc": {
+  "en": "With the influx of new ideas and traders from [ShowSubContinentName('western_europe')] there are more and more advisors that advocate towards the founding of a Trading Company to exploit the trans-Atlantic Trade for ourselves, instead of relying on foreign traders. While [target_character.GetName] has an open ear to these ideas, this would be a risky investment and we might want to focus our efforts of expansion closer to our own territory.",
+  "uk": "Піддавшись віянню нових ідей, які приносять із собою численні купці з #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!, наші радники все частіше замислюються над тим, щоб заснувати торговельну компанію і взяти участь у торгівлі, що йде через Атлантичний океан: вони стверджують, що таким чином ми станемо менше залежати від іноземних купців. І хоча [target_character.GetName] не поспішає заперечувати, все-таки подібне починання досить ризиковане, тому краще буде спочатку постаратися охопити близькі до нас території."
+ },
+ "flavor_brapru.3.entry": {
+  "en": "$flavor_brapru.3.title$",
+  "uk": ""
+ },
+ "flavor_brapru.3.historical_info": {
+  "en": "In the later years of his life the #italic Great Elector#! Friedrich Wilhelm tried to expand the overseas possessions of Brandenburg, emulating the colonial efforts of Dutch colonialism. These efforts quickly reached their ceiling due to the limited naval capabilities of Brandenburg-Prussia at the time. Despite that the #italic Brandenburgisch-Afrikanische Compagnie#! delivered strong short-term profits from the trans-Atlantic slave trade and brought new wealth to the upper class of Berlin.",
+  "uk": "Ближче до старості #italic великий курфюрст#! Фрідріх Вільгельм, натхненний прикладом голландських колонізаторів, прагнув розширити заморські володіння Бранденбурга. Однак прагнення ці не увінчалися особливим успіхом, оскільки морський потенціал Бранденбурга-Пруссії виявився надто скромним. Тим не менш, #italic Бранденбурго-Африканська компанія#! змогла отримати чималий, хоч і короткочасний, прибуток з трансатлантичної работоргівлі і збагатити берлінське вище суспільство."
+ },
+ "flavor_brapru.3.title": {
+  "en": "A Colonial Charter for the [ROOT.GetCountry.GetLongNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip]: колоніальне поселення"
+ },
+ "flavor_brapru.30.a": {
+  "en": "Put pressure on them.",
+  "uk": "Натиснути на них."
+ },
+ "flavor_brapru.30.b": {
+  "en": "War does not suit us.",
+  "uk": "Війна нам не личить."
+ },
+ "flavor_brapru.30.desc": {
+  "en": "For decades now, we have been trying to enforce our suzerainty over the [ShowAreaName('pomerania_area')] States in the north. Constantly feuding over the locations and cities in [ShowProvinceDefinitionName('uckermark_province')] and along other border points, neither side can fully gain the upper hand. However, next time, it is us that will prevail. And such opportunity is on the horizon, as a border feud with [pomeranian_target.GetName] has happened.",
+  "uk": "Протягом уже кількох десятиліть ми незмінно намагаємося встановити беззаперечну владу над #TOOLTIP:AREA,pomerania_area,X #L Померанією#!#!, що на півночі. Постійна боротьба за області і міста #TOOLTIP:PROVINCE_DEFINITION,uckermark_province,X #L Уккермарка#!#! і сутички в інших прикордонних районах йдуть безрезультатно — жодна сторона не може взяти гору. Однак наступного разу перемога неодмінно буде за нами. Можливість уже надалася: ми вступили в прикордонний конфлікт з #ONCLICK:COUNTRY,[pomeranian_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pomeranian_target.Custom('CL_tt')],X [pomeranian_target.Custom('CL_INST')|L]#!#!."
+ },
+ "flavor_brapru.30.historical_info": {
+  "en": "The border disputes between the various Gryf Dukes of Pomerania and the Margraviate of Brandenburg happened frequently over the course of centuries. At the core of the contention were the attempts of the Brandenburgians to assert themselves as the nominal suzerains over the Pomeranians as well as the attempts of either side to claim the borderland towns of Prenzlau, Neubrandenburg in the Uckermark for themselves.",
+  "uk": "Прикордонні суперечки між померанськими Грейфами і бранденбурзькими маркграфами траплялися часто і регулярно. Причиною багатовікового розбрату виступали як постійні спроби бранденбуржців зробити Померанію своїм васалом, так і спроби обох сторін встановити владу над прикордонними містами Пренцлау і Нойбранденбург у регіоні Уккермарк."
+ },
+ "flavor_brapru.30.title": {
+  "en": "A Border Dispute With [pomeranian_target.GetNameWithNoTooltip]",
+  "uk": "Прикордонна суперечка з [pomeranian_target.Custom('CL_INST')]"
+ },
+ "flavor_brapru.31.a": {
+  "en": "Let them convene.",
+  "uk": "Нехай радяться."
+ },
+ "flavor_brapru.31.b": {
+  "en": "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip] is the only true faith.",
+  "uk": "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip] — єдина істинна віра."
+ },
+ "flavor_brapru.31.b.entry": {
+  "en": "Our faith is the only true faith.",
+  "uk": ""
+ },
+ "flavor_brapru.31.desc": {
+  "en": "As a protest to the unjust actions of the [ShowReligionAdjective('catholic')] Church, many different independent churches have formed, most of them following either [ShowReligionAdjective('lutheran')] or [ShowReligionAdjective('calvinist')] traditions. With both of those faiths present in the country, [opposing_religion.GetAdjectiveWithNoTooltip] [ShowEstateTypeName('clergy_estate')] have begun calling for more tolerant treatment and for ecumenical talks with the state religion, hoping to bring the two churches closer together.",
+  "uk": "Незгода з несправедливими діями #TOOLTIP:RELIGION,catholic_tt,X #L католицької#!#! церкви призвела до виникнення безлічі незалежних церков. Багато хто з них дотримується або #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранських#!#!, або #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністських#!#! звичаїв. Оскільки в нашій державі широко представлені і та, і інша конфесія, [opposing_religion.GetAdjectiveWithNoTooltip|l]і [ShowEstateTypeName('clergy_estate')|l] почали закликати до примирення і навіть проведення Вселенських бесід з державною церквою, щоб не допустити ворожнечі між лютеранами і кальвіністами."
+ },
+ "flavor_brapru.31.entry": {
+  "en": "$flavor_brapru.31.title$",
+  "uk": ""
+ },
+ "flavor_brapru.31.historical_info": {
+  "en": "The Berliner Religious Talks were held from September of 1662 to May of 1663. The goal of those meetings was to bring the Lutheran and the Calvinist faiths closer together and to promote Ecumenism. The catalyst to those events were the actions of the Elector of Brandenburg, Frederick Wilhelm, who was a Calvinist ruler of a mostly Lutheran country.",
+  "uk": "У вересні 1662 р. — травні 1663 р. у Берліні пройшли релігійні зустрічі, присвячені зближенню лютеранської і кальвіністської церков і просуванню ідей екуменізму. Поштовхом до проведення цих зустрічей послужили дії курфюрста бранденбурзького Фрідріха Вільгельма — кальвініста, що править переважно лютеранською країною."
+ },
+ "flavor_brapru.31.title": {
+  "en": "Ecumenical Discussion in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]: Вселенські дискусії"
+ },
+ "flavor_brapru.32.a": {
+  "en": "Issue the edict.",
+  "uk": "Видати указ."
+ },
+ "flavor_brapru.32.b": {
+  "en": "Ignore the pleas.",
+  "uk": "Не звертати уваги на моління."
+ },
+ "flavor_brapru.32.desc": {
+  "en": "The ecumenical talks between the [ShowReligionAdjective('lutheran')] and [ShowReligionAdjective('calvinist')] faiths have been somewhat successful. While they certainly have led to greater sense of unity in the Protestant world, much of our [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] remains intolerant and contrarian to the idea. In such case, the [opposing_religion.GetAdjectiveWithNoTooltip] believers have begun calling for a tolerance edict, enforcing the tolerance of their faith in the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Вселенські бесіди між #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранами#!#! і #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністами#!#! можна навіть назвати успішними. Але, хоча протестантський світ став трохи ближче до єднання, багато наших [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ого штибу все ще не готові терпіти тих, хто сповідує іншу віру. Прихильники [opposing_religion.GetAdjectiveWithNoTooltip|l]ої конфесії закликають нас прийняти указ про толерантність в надії, що гноблення їхньої віри буде заборонено законами [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "flavor_brapru.32.entry": {
+  "en": "$flavor_brapru.32.title$",
+  "uk": ""
+ },
+ "flavor_brapru.32.historical_info": {
+  "en": "On 16th of September of 1664, the Elector of Brandenburg, Frederick Wilhelm, issued the Edict of Tolerance. As per the issued edict, the mutual criticism of the Lutheran and the Calvinist churches have been banned much to the discontent of the established Lutheran clergy, who were furious about the Calvinist Elector's encroachment against the state Church.",
+  "uk": "Шістнадцятого вересня 1664 року курфюрст бранденбурзький Фрідріх Вільгельм видав указ про толерантність, що забороняє взаємні нападки лютеранської і кальвіністської церков — на велике незадоволення традиційного лютеранського духовенства, обуреного втручанням курфюрста-кальвініста у справи державної церкви."
+ },
+ "flavor_brapru.32.title": {
+  "en": "Das Toleranzedikt",
+  "uk": "Указ про толерантність"
+ },
+ "flavor_brapru.33.a": {
+  "en": "Let the people yearn for the [ShowGoodsNameWithNoTooltip('potato')].",
+  "uk": "Нехай прагнуть картоплі."
+ },
+ "flavor_brapru.33.b": {
+  "en": "This is madness.",
+  "uk": "Просто безумство!"
+ },
+ "flavor_brapru.33.desc": {
+  "en": "[ShowGoodsName('potato')] have spread from the New World to [ShowContinentName('europe')], but few, especially among the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], find them particularly useful, despite their qualities and ability to feed masses. [target_ruler.GetName] has suggested a new approach which if successful, could make our stubborn populace embrace [ShowGoodsNameWithNoTooltip('potato')] and perhaps even solve recurring famines. The [ROOT.GetCountry.GetGovernment.GetRulerTitle] suggest planting fields of [ShowGoodsNameWithNoTooltip('potato')] near [ROOT.GetCountry.GetGovernment.GetAdjective] lands which would be guarded at all times. The intent, however, is not protection, but persuasion. What the people cannot have, they suddenly desire.",
+  "uk": "#TOOLTIP:GOODS,potato,X #L Картопля#!#!, завезена до #TOOLTIP:CONTINENT,europe,X #L Європи#!#! з Нового Світу, поки що мало кому здається корисною. Особливо здивовані [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], які погано усвідомлюють, що за допомогою картоплі можна ситно нагодувати голодуючий натовп. [target_ruler.GetName] пропонує сміливе рішення, здатне назавжди переконати впертий народ у користі нової рослини і, можливо, навіть покінчити з постійним голодом: засіяти картоплею поля, розташовані поряд з #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ими#! володіннями, і виставити охорону. Тим самим [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] сподівається пробудити в народі інтерес, адже заборонений плід завжди солодкий."
+ },
+ "flavor_brapru.33.entry": {
+  "en": "The Potato King",
+  "uk": ""
+ },
+ "flavor_brapru.33.historical_info": {
+  "en": "Frederick II of Prussia was given the name Frederick the Great, but that was not the only title he was known for. In Germany, he is fondly remembered as #italic Der Kartoffelkönig#! - the Potato King. Frederick played a key role in popularizing the potato in 18th-century Germany. He allegedly ordered the cultivation of royal potato fields and had them guarded by soldiers not to protect them, but to give the impression that they were valuable. By feigning scarcity and exclusivity, peasants started to assume the crop must be precious. Some even began to steal potatoes at night, helping to spread its cultivation across Prussia.",
+  "uk": "Прусський король XVIII століття Фрідріх II Великий на батьківщині запам'ятався ще й як #italic der Kartoffelkönig#! — «картопляний король». Саме завдяки Фрідріху картопля отримала в Німеччині широке поширення: за легендами, король наказав засіяти королівські поля насінням картоплі і виставити поряд солдатів, які мали не стільки охороняти посіви, скільки створювати враження, що на полі вирощується щось цінне. Селяни, що припустили, що плоди, що вирощуються під королівською охороною, неймовірно рідкісні і цінні, почали по ночах красти з полів бульби і садити їх у себе, тим самим сприяючи поширенню коренеплоду по всій Пруссії."
+ },
+ "flavor_brapru.33.title": {
+  "en": "The [ShowGoodsNameWithNoTooltip('potato')] [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] з картоплею"
+ },
+ "flavor_brapru.34.a": {
+  "en": "Let them come!",
+  "uk": "Нехай приходять!"
+ },
+ "flavor_brapru.34.b": {
+  "en": "This policy will weaken our control.",
+  "uk": "Тоді ослабне наша влада."
+ },
+ "flavor_brapru.34.desc": {
+  "en": "An ambitious proposal to solve the issue of sparsely populated areas in [ROOT.GetCountry.GetName] has reached the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. The proposed [ShowGovernmentReformName('peuplierung_system')] would be a [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]-controlled initiative to settle these lands. The proposal includes generous offers of religious tolerance, tax exemptions, and state-sponsored support for willing migrants, especially skilled foreign workers and persecuted religious communities.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] сьогодні розглядає сміливий задум із заселення малонаселених земель #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Керувати цим планом, що отримав назву #TOOLTIP:GOVERNMENT_REFORM,peuplierung_system,X #L «Пойплірунг»#!#!, керуватимуть [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l]. За їхніми уявленнями, майбутніх переселенців мають приваблювати щедрі умови: релігійна свобода, звільнення від сплати податків і навіть державна підтримка тих, хто вирішить переселитися самостійно, насамперед — досвідчених робітників-іноземців і переслідуваних релігійних громад."
+ },
+ "flavor_brapru.34.entry": {
+  "en": "$flavor_brapru.34.title$",
+  "uk": ""
+ },
+ "flavor_brapru.34.historical_info": {
+  "en": "#italic Peuplierung#! was was a crown-driven settlement policy practiced across Prussia in in the 17th and 18th centuries. It aimed to repopulate areas ravaged by war and disease by offering incentives to immigrants. Frederick the Great famously proclaimed that he would welcome people of all faiths in Prussia, as long as the people who profess them are honest.",
+  "uk": "#italic Peuplierung#! («заселення переселенцями» або «колонізація») — політика заселення Пруссії XVII–XVIII століть, що проводилася за ініціативою корони і спрямована на повторне заселення постраждалих від війни та епідемій земель іммігрантами, яким пропонувалися певні пільги. Відомий вислів Фрідріха Великого: «всі релігії рівні і хороші, якщо їхні прихильники є чесними людьми»."
+ },
+ "flavor_brapru.34.title": {
+  "en": "Planned Settlements",
+  "uk": "Планові поселення"
+ },
+ "flavor_brapru.35.a": {
+  "en": "Honor [target_ruler.GetHisHer] will.",
+  "uk": "Поставимося з повагою до [Select_CString(target_ruler.IsFemale, 'її', 'його' )] рішення."
+ },
+ "flavor_brapru.35.a.entry": {
+  "en": "Honor his will.",
+  "uk": ""
+ },
+ "flavor_brapru.35.b": {
+  "en": "The violates the laws of succession!",
+  "uk": "Це порушує закони престолонаслідування!"
+ },
+ "flavor_brapru.35.desc": {
+  "en": "Our aging [ROOT.GetCountry.GetGovernment.GetRulerTitle] has decided to write down the last will which has shocked the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_ruler.GetName] has declared that [target_ruler.GetHisHer] younger son [favorite_child.GetName] should succeed [target_ruler.GetHimHer], ignoring the well-established tradition of primogeniture. [target_ruler.GetSheHe|U] argues in the document that [target_heir.GetName] lacks the virtues of leadership, while [favorite_child.GetNameWithNoTooltip] has the temperance and wisdom to rule. Many fear that if this is accepted, [ShowEstateTypeName('nobles_estate')] might be greatly upset.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] не може дібрати слів: [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], будучи вже в похилих роках, [Select_CString(target_ruler.IsFemale, 'склала', 'склав' )] заповіт, своїм змістом що вразив усіх до одного. [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'заявила', 'заявив' )], що престол має успадкувати [Select_CString(target_ruler.IsFemale, 'її', 'його' )] молодший син [favorite_child.GetName]. Таке рішення йде врозріз з усталеною традицією першородства, однак у заповіті [target_ruler.GetName] стверджує, що [target_heir.GetName] не має гідностей правителя, тоді як [favorite_child.GetNameWithNoTooltip] відрізняється мудрістю і поміркованою вдачею. Багато хто побоюється, що якщо все піде згідно із заповітом, #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократи#!#! нашої держави сильно обурюються."
+ },
+ "flavor_brapru.35.entry": {
+  "en": "$flavor_brapru.35.title$",
+  "uk": ""
+ },
+ "flavor_brapru.35.historical_info": {
+  "en": "Friedrich I, the first Hohenzollern Elector of Brandenburg, made waves with his controversial will by naming his second son, Friedrich II, as his successor instead of his firstborn. This decision broke with the law of primogeniture, which dictated that the eldest male heir should inherit all titles and lands.",
+  "uk": "Фрідріх I — перший представник династії Гогенцоллернів серед бранденбурзьких курфюрстів — справив фурор своїм скандальним заповітом, у якому замість первістка призначив спадкоємцем престолу другого сина — Фрідріха II. Це рішення порушувало давно встановлений принцип першородства, згідно з яким усі титули і землі відходили старшому спадкоємцю чоловічої статі."
+ },
+ "flavor_brapru.35.title": {
+  "en": "The Last Will of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] диктує останню волю"
+ },
+ "flavor_brapru.36.a": {
+  "en": "Approve the proposal.",
+  "uk": "Схвалимо пропозицію."
+ },
+ "flavor_brapru.36.b": {
+  "en": "We cannot afford it.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_brapru.36.desc": {
+  "en": "The recurring plagues that ravage [ROOT.GetCountry.GetName] have long troubled us, but recently a proposal to establish a quarantine site outside of [ShowLocationName('berlin')]'s walls has been brought up. The invisioned [ShowBuildingTypeName('charite_of_berlin')] would combine the charitable mission of combating plague and disease with the scientific ambition.",
+  "uk": "Схоже, ми нарешті знайшли засіб від старої напасті — спалахів чуми, що постійно розоряють #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!: нам надійшла пропозиція заснувати карантинний пункт за стінами #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#!. Благородну справу протистояння чумі та іншим хворобам за допомогою науки візьме на себе #TOOLTIP:BUILDING_TYPE,charite_of_berlin,X #L Шаріте#!#!."
+ },
+ "flavor_brapru.36.entry": {
+  "en": "$flavor_brapru.36.title$",
+  "uk": ""
+ },
+ "flavor_brapru.36.historical_info": {
+  "en": "The Charité hospital was originally commissioned in 1709 by King Frederick I of Prussia during a time of recurring plague threats. Originally planned as a quarantine site outside the Berlin city walls, it soon evolved into a full hospital and eventually, one of Europe's leading medical research institutions. In later centuries, it would train many of Germany's most celebrated physicians, pathologists, and scientists.",
+  "uk": "Клініка «Шаріте», заснована в 1709 році за указом прусського короля Фрідріха I, спочатку задумувалася як лазарет для жертв регулярних на той час спалахів чуми і розташовувалася за стінами Берліна. Незабаром «Шаріте» була перетворена на звичайну лікарню і з часом стала однією з провідних університетських клінік Європи. Тут навчалися найвідоміші лікарі, патологи і вчені Німеччини."
+ },
+ "flavor_brapru.36.title": {
+  "en": "Combating the Plagues",
+  "uk": "Боротьба з чумою"
+ },
+ "flavor_brapru.37.a": {
+  "en": "Fund [target_character.GetHisHer] expeditions!",
+  "uk": "Виділимо [Select_CString(target_character.IsFemale, 'їй', 'йому' )] гроші на експедицію!"
+ },
+ "flavor_brapru.37.b": {
+  "en": "Let private patrons finance [target_character.GetHisHer] wanderlust.",
+  "uk": "Нехай [Select_CString(target_character.IsFemale, 'її', 'його' )] тягу до мандрівок оплачують приватні особи."
+ },
+ "flavor_brapru.37.desc": {
+  "en": "A scientist with remarkable intellect and unquenchable curiosity, [target_character.GetName], is gaining fame across [ROOT.GetCountry.GetName]. Trained as a mining engineer, [target_character.GetLastNameWithNoTooltip] has developed a passion for scientific exploration, geography, and the study of nature. [target_character.GetSheHe|U] has recently suggested expeditions to faraway lands aim to catalogue the world's ecosystems and climates as a single interrelated system, but he lacks funding for launching them.",
+  "uk": "У мові жителів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! все частіше лунає нове гучне ім'я: [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Ця вчена', 'Цей вчений' )] — людина, що відрізняється незвичайним інтелектом і невичерпною допитливістю — колись [Select_CString(target_character.IsFemale, 'навчилася', 'навчився' )] на гірничого інженера, але [Select_CString(target_character.IsFemale, 'їй', 'йому' )] набагато цікавіше досліджувати світ і вивчати географію та природу. Нещодавно [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'запропонувала', 'запропонував' )] спорядити експедицію до далеких країн, щоб найретельнішим чином описати різновиди світових екосистем і кліматів — їх [Select_CString(target_character.IsFemale, 'вона', 'він' )] вважає єдиною взаємопов'язаною системою. Єдине, що [Select_CString(target_character.IsFemale, 'її', 'його' )] зупиняє, — це брак коштів."
+ },
+ "flavor_brapru.37.entry": {
+  "en": "Alexander von Humboldt",
+  "uk": ""
+ },
+ "flavor_brapru.37.historical_info": {
+  "en": "Alexander von Humboldt was a polymath, geographer, botanist, geologist, and pioneer of ecology. His five-year Latin American expedition transformed global understanding of climate zones, the interrelation of ecosystems, and geology. His extensive researched helped lay the groundwork for environmental science.",
+  "uk": "Александр фон Гумбольдт — ерудит, географ, ботанік, геолог і один із першопрохідців у галузі екології. Експедиція фон Гумбольдта до Латинської Америки, що зайняла п'ять років, перевернула загальносвітові уявлення про кліматичні зони, взаємовідносини екосистем і геологію. Обширні праці вченого заклали сучасні основи екологічної науки."
+ },
+ "flavor_brapru.37.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.38.a": {
+  "en": "We have already supported [target_character.GetHerHim] enough.",
+  "uk": "Ми вже й так достатньо [Select_CString(target_character.IsFemale, 'її', 'його' )] підтримуємо."
+ },
+ "flavor_brapru.38.a.entry": {
+  "en": "We have already supported him enough.",
+  "uk": ""
+ },
+ "flavor_brapru.38.b": {
+  "en": "We must do what we can to help [target_character.GetHerHim].",
+  "uk": "Зробимо все, що зможемо, щоб допомогти [Select_CString(target_character.IsFemale, 'їй', 'йому' )]."
+ },
+ "flavor_brapru.38.b.entry": {
+  "en": "We must do what we can to help him.",
+  "uk": ""
+ },
+ "flavor_brapru.38.desc": {
+  "en": "After decades of study, exploration, and correspondence with the greatest minds of [target_character.GetHisHer] time, [target_character.GetName] started compiling [target_character.GetHisHer] research into a multi-volume work that attempts nothing less than a synthesis of all known natural sciences. However, [target_character.GetSheHe] fears that completing this work would take decades, and [target_character.GetSheHe] might not even live to see it published.",
+  "uk": "Після довгих десятиліть, проведених за науковими роботами, дослідженнями і листуванням з найвеличнішими розумами свого часу, [target_character.GetName] [Select_CString(target_character.IsFemale, 'взялася', 'взявся' )] за написання багатотомної збірки своїх досліджень. Перед [Select_CString(target_character.IsFemale, 'нею', 'ним' )] стоїть найскладніше завдання: звести воєдино всі відомі види природничих наук. [target_character.GetName] побоюється, що подібна праця займе ще кілька десятиліть, і прочитати її зможуть уже тільки [Select_CString(target_character.IsFemale, 'її', 'його' )] нащадки."
+ },
+ "flavor_brapru.38.entry": {
+  "en": "Humboldt's Cosmos",
+  "uk": ""
+ },
+ "flavor_brapru.38.historical_info": {
+  "en": "In 1828, Humboldt started to formulate his experiences and vision into what would later become the #italic Cosmos#!. However, due to his old age, he himself felt that writing this work was a race against death. Although the book took twenty five years to write, and he did not live to see it finished, it revolutionized how people understood the natural world. It was his crowning scientific achievement, inspiring generations of scientists, including Darwin, and helping to establish geography and environmental science as modern academic fields.",
+  "uk": "У 1828 році Гумбольдт вирішив викласти свої спостереження і погляди в трактаті, що згодом отримав назву #italic «Космос»#!. Вчений був уже немолодий, а тому боявся, що помре раніше, ніж доведе працю до кінця. Так і сталося: на написання «Космосу» пішло 25 років, і Гумбольдт уже не дожив до його видання. Тим не менш, трактат справив справжню революцію в науковому світі і надихнув цілі покоління вчених (серед яких був і Дарвін), а також посприяв становленню географії і природознавства як сучасних наукових дисциплін."
+ },
+ "flavor_brapru.38.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s $humboldts_cosmos$",
+  "uk": "[target_character.GetNameWithNoTooltip] і $humboldts_cosmos$"
+ },
+ "flavor_brapru.39.a": {
+  "en": "[target_character.GetHisHer|U] thought shall guide us!",
+  "uk": "Будемо дотримуватися [Select_CString(target_character.IsFemale, 'її', 'його' )] думки!"
+ },
+ "flavor_brapru.39.b": {
+  "en": "These abstractions are not fit for statecraft.",
+  "uk": "Подібні абстракції марні в справі управління державою."
+ },
+ "flavor_brapru.39.desc": {
+  "en": "[target_character.GetName] is a formidable thinker who has been gaining fame for [target_character.GetHisHer] opposition of the entrenched dualism of modern thought. Instead, [target_character.GetLastNameWithNoTooltip] attempts to build a philosophy of immanence grounded in experience and reason, confronting contradiction not as failure, but as the motor of development. [target_character.GetSheHe|U] maintains that human freedom and reason are not given but won through history.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale, 'видатна мислителька, яка прославилася', 'видатний мислитель, який прославився' )] своїм неприйняттям глибоко вкоріненого дуалізму сучасної філософської думки. Натомість [target_character.GetLastNameWithNoTooltip] пропонує власну філософію іманентності, засновану на досвіді і розумі, де протистояння — не ознака невдач, а головна рушійна сила, що забезпечує розвиток. Філософ стверджує, що свобода і розум не дані людині, а відвойовуються нею в ході історичного процесу."
+ },
+ "flavor_brapru.39.entry": {
+  "en": "Georg Wilhelm Friedrich Hegel",
+  "uk": ""
+ },
+ "flavor_brapru.39.historical_info": {
+  "en": "Georg Wilhelm Friedrich Hegel was an important German idealist who sought to overcome the false oppositions of modern philosophy, such as the conflicts of reason and emotion, freedom and necessity, or mind and body. He insisted that truth must emerge from the immanent critique of ideas themselves, not from externally imposed premises. His philosophy had enormous impact on subsequent philosophical ideas which were developed by numerous philosophers whom he had influenced.",
+  "uk": "Георг Вільгельм Фрідріх Гегель — видатний представник германського ідеалізму, що боровся з хибними дихотоміями сучасної йому філософії, до яких він відносив протиріччя між розумом і емоціями, свободою і зобов'язаннями або розумом і тілом. Гегель вважав, що істина народжується внаслідок іманентної критики самих ідей, а не з передумов, нав'язаних ззовні. Філософія Гегеля справила сильний вплив на наступне покоління мислителів, що натхненні теоріями свого попередника."
+ },
+ "flavor_brapru.39.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.4.a": {
+  "en": "What is Enlightenment?",
+  "uk": "Що таке Просвітництво?"
+ },
+ "flavor_brapru.4.desc": {
+  "en": "[target_artist.GetName] is one of the foremost thinkers of the Enlightenment and already received praise as one greatest philosophers of our time. He recently published his work #italic Inquiry Concerning the Distinctness of the Principles of Natural Theology and Morality#!, already commonly referred to as #italic The Prize Essay#!. Despite his publications, [target_artist.GetNameWithNoTooltip] remains dedicated to refining and publishing future work, pushing the boundaries of what we consider philosophy.",
+  "uk": "[target_artist.GetName] — один із найвидатніших мислителів епохи Просвітництва; нащадкам він назавжди запам'ятається як великий філософ нашого часу. Нещодавно він опублікував працю #italic «Дослідження виразності принципів природної теології і моралі»#!, нерідко звану просто #italic «Найкращим нарисом»#!. Втім, [target_artist.GetNameWithNoTooltip] не збирається спочивати на лаврах і вже працює над новими працями, самотужки розсуваючи межі звичних нам уявлень про філософію."
+ },
+ "flavor_brapru.4.entry": {
+  "en": "Immanuel Kant",
+  "uk": ""
+ },
+ "flavor_brapru.4.title": {
+  "en": "[target_artist.GetNameWithNoTooltip] publishes #italic The Prize Essay#!",
+  "uk": "[target_artist.GetNameWithNoTooltip] видає #italic «Найкращий нарис»#!"
+ },
+ "flavor_brapru.40.a": {
+  "en": "Hire [target_character.GetHerHim].",
+  "uk": "Найміймо [Select_CString(target_character.IsFemale,'її', 'його')]."
+ },
+ "flavor_brapru.40.b": {
+  "en": "Women should stay away from art.",
+  "uk": "Жінкам не місце в мистецтві."
+ },
+ "flavor_brapru.40.desc": {
+  "en": "[target_character.GetName] has been rising to prominence in the world of art. [target_character.GetHisHer|U] work, a blend of baroque grandeur and [ShowInstitutionName('enlightenment')] sensibility, has earned admiration across [ShowContinentName('europe')]. Despite institutional barriers, [target_character.GetSheHe] has gained membership in various prestigious organizations, and now, [target_character.GetSheHe] wishes to return to [ShowLocationName('berlin')] and offers to become our [ROOT.GetCountry.GetGovernment.GetCourtTitle] painter.",
+  "uk": "У світі мистецтва з'явилося нове яскраве ім'я — [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] роботи, що поєднують у собі пишність бароко та дух #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#!, підкорили серця сотень тисяч мешканців #TOOLTIP:CONTINENT,europe,X #L Європи#!#!. Незважаючи на труднощі та упередження, [target_character.GetName] [Select_CString(target_character.IsFemale, 'зумела', 'зумів' )] домогтися того, щоб [Select_CString(target_character.IsFemale, 'її', 'його' )] прийняли до найпрестижніших закладів. Сьогодні [Select_CString(target_character.IsFemale, 'вона', 'він' )] бажає повернутися до #TOOLTIP:LOCATION,berlin,X #L Берліна#!#! і творити при нашому дворі."
+ },
+ "flavor_brapru.40.entry": {
+  "en": "Anna Dorothea Therbusch",
+  "uk": ""
+ },
+ "flavor_brapru.40.historical_info": {
+  "en": "Anna Dorothea Therbusch broke through rigid artistic and gender barriers to become one of the most accomplished portrait painters of her generation, at a time when few women could receive formal training. Invited to Paris, she joined the Royal Academy and created portraits of Enlightenment figures and nobility alike. When she returned to Prussia, she became the portrait artist of Frederick the Great and also decorated his palace of Sanssouci.",
+  "uk": "Анна Доротея Тербуш — художниця, що зумела подолати жорсткі професійні та гендерні бар'єри свого часу і стати однією з найвідоміших портретисток покоління. Тербуш, що виросла в епоху недоступності для жінок професійного навчання, була членкинею паризької Королівської академії живопису та скульптури, а згодом писала портрети діячів Просвітництва та знатних осіб. Після повернення до Пруссії стала особистою портретисткою короля Фрідріха Великого, а також брала участь у прикрашанні його палацу Сан-Сусі."
+ },
+ "flavor_brapru.40.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.41.a": {
+  "en": "Rehabilitate [target_character.GetHerHim].",
+  "uk": "Реабілітуймо [Select_CString(target_character.IsFemale, 'її', 'його' )]."
+ },
+ "flavor_brapru.41.b": {
+  "en": "[target_character.GetSheHe|U] is too controversial to be employed.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його' )] погляди надто скандальні."
+ },
+ "flavor_brapru.41.desc": {
+  "en": "[target_character.GetName] is a philosopher famous for [target_character.GetHerHis] systematization of knowledge, proposing a logical, almost mathematical structure to theology, ethics, politics, and even metaphysics. Though quite controversial for [target_character.GetHerHis] earlier clashes with the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], for which he was even exiled, [target_character.GetHerHis] rehabilitation may well guide our bureaucrats, jurists, and even the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "[target_character.GetName] — мислитель, що [Select_CString(target_character.IsFemale, 'прославилася', 'прославився' )] своїм логічним, майже що математичним підходом до систематизації знань найрізноманітнішого штибу — богословського, етичного, політичного і навіть метафізичного. І хоча нині цю людину вигнано з держави, оскільки [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] не погоджувалися з [Select_CString(target_character.IsFemale, 'її', 'його' )] ідеями, можливо, варто подумати про те, щоб відновити [Select_CString(target_character.IsFemale, 'її', 'його' )] репутацію: від наявності в державі подібного світлого розуму виграють і бюрократи, і законознавці, і навіть особисто [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "flavor_brapru.41.entry": {
+  "en": "Christian Wolff",
+  "uk": ""
+ },
+ "flavor_brapru.41.historical_info": {
+  "en": "Christian Wolff was one of the central figures of German Enlightenment philosophy. Known for his encyclopedic writings and advocacy of rationalist method, he sought to apply reason to all branches of knowledge. Despite early clashes with religious authorities, his legacy was rehabilitated under Frederick the Great, and he became a cornerstone of Prussian intellectual life, greatly influencing Prussian rulers who sought rational statecraft.",
+  "uk": "Крістіан Вольф — один із найважливіших діячів німецької філософії епохи Просвітництва, відомий своєю енциклопедичною освіченістю та прихильністю раціоналістичному методу. Вольф прагнув підходити до пізнання з точки зору розуму, що неодноразово викликало сильне невдоволення у релігійних властей. Тим не менш, за Фрідріха Великого добре ім'я філософа було відновлено, і Вольф став однією з опор прусського інтелектуального життя. Його ідеї справили значний вплив на прусських королів — людей, що цінували раціональний підхід до управління державою."
+ },
+ "flavor_brapru.41.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.42.a": {
+  "en": "Promote [target_character.GetHerHim] to give [target_character.GetHerHim] greater command.",
+  "uk": "Підвищімо [Select_CString(target_character.IsFemale, 'її', 'його' )] до генерала."
+ },
+ "flavor_brapru.42.b": {
+  "en": "We are not interested.",
+  "uk": "Нам це не потрібно."
+ },
+ "flavor_brapru.42.desc": {
+  "en": "Our military officers have been praising [target_character.GetName] as a great commander who has greatly contributed to several of our victories through [target_character.GetHerHis] unmatched command in the field. [target_character.GetHerHis|U] presence inspires our men and reminds friend and foe alike that [ROOT.GetCountry.GetAdjective] arms are forged by more than monarchs. It has been suggested that we give [target_character.GetHerHim] a promotion to general so that our army can better benefit from [target_character.GetHerHis] skills.",
+  "uk": "Серед наших офіцерів [target_character.GetName] [Select_CString(target_character.IsFemale, 'прославилася', 'прославився' )] як талановитий і видатний полководець, без якого неможливі були б недавні славні перемоги. Сама лише [Select_CString(target_character.IsFemale, 'її', 'його' )] присутність на полі бою наповнює серця наших солдатів хоробрістю, а заодно слугує нагадуванням, що сила #L [ROOT.GetCountry.GetAdjective|l]ої#! зброї — досягнення не тільки самих лише правителів. Нам навіть надійшла пропозиція підвищити цю людину до генерала, щоб армія могла воювати ще краще."
+ },
+ "flavor_brapru.42.entry": {
+  "en": "Kurt von Schwerin",
+  "uk": ""
+ },
+ "flavor_brapru.42.historical_info": {
+  "en": "Kurt von Schwerin rose through multiple European armies to become Field Marshal of Prussia. At the Battle of Mollwitz, his leadership arguably saved the young Frederick the Great's campaign. Fiercely loyal and unwavering in the face of danger, Schwerin was mortally wounded at Prague while personally rallying troops. He is widely regarded one of the most capable and dedicated generals of Frederick the Great.",
+  "uk": "Курт фон Шверін — прусський полководець, що служив до призначення фельдмаршалом в арміях кількох європейських держав. У битві під Мольвіцем своїми вмілими діями врятував військо юного короля Фрідріха Великого від розгрому. Служба його закінчилася під Прагою, де вірний і непохитний перед обличчям небезпеки Шверін отримав смертельне поранення, намагаючись особисто надихнути солдатів. Загальновизнано вважається одним із найздатніших військових керівників Фрідріха Великого."
+ },
+ "flavor_brapru.42.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.43.a": {
+  "en": "Hire [target_character.GetHerHim]!",
+  "uk": "Найміймо [Select_CString(target_character.IsFemale,'її', 'його')]."
+ },
+ "flavor_brapru.43.b": {
+  "en": "We cannot afford artistic extravagance.",
+  "uk": "Художні примхи нам не по кишені."
+ },
+ "flavor_brapru.43.desc": {
+  "en": "As of late, the visual face of [ShowLocationName('berlin')] is being reshaped by [target_character.GetName], who is regarded as a great architect and a visionary. With mastery of both sculpture and architecture, [target_character.GetSheHe] fuses Baroque grandeur with military symbolism to reflect the might of our state. [target_character.GetSheHe|U] is praised for the ability to turn any building into a monument of sovereignty and power. Many suggest that we employ [target_character.GetHerHim] as a [ROOT.GetCountry.GetGovernment.GetCourtTitle] architect to let [target_character.GetHerHim] craft the image of a future [ROOT.GetCountry.GetName].",
+  "uk": "За останні кілька років обличчя #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#! помітно перетворив архітектор на ім'я [target_character.GetName] — людина зі сміливим поглядом на майбутнє та великим талантом у царині не тільки архітектури, а й скульптури. У [Select_CString(target_character.IsFemale, 'її', 'його' )] роботах величність бароко переплітається з військовим символізмом, стаючи дзеркалом величі держави. Немає такої споруди, яку [target_character.GetName] не [Select_CString(target_character.IsFemale, 'змогла', 'зміг' )] би перетворити на монумент нашій могутності. Багато хто навіть пропонує призначити [Select_CString(target_character.IsFemale, 'її', 'його' )] придворним архітектором, який визначатиме обличчя вже не тільки окремо взятого міста, а #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! цілком."
+ },
+ "flavor_brapru.43.entry": {
+  "en": "Andreas Schlüter",
+  "uk": ""
+ },
+ "flavor_brapru.43.historical_info": {
+  "en": "Andreas Schlüter served as both court sculptor and royal architect, reshaping Berlin into a symbol of emergent Prussian power. He sculpted military heroes into dynamic form at the Zeughaus and designed the Berlin Palace into a royal residence worthy of Europe's greatest monarchies.",
+  "uk": "Андреас Шлютер — придворний скульптор і королівський архітектор, що перетворив Берлін на символ прусської могутності. Берлінський Цейхгауз він прикрасив скульптурами героїв війни, а Королівський палац під керівництвом Шлютера став розкішною резиденцією, гідною найвеличніших монархів Європи."
+ },
+ "flavor_brapru.43.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.5.a": {
+  "en": "God raised you to the Throne to work!",
+  "uk": "Сам Бог посадив тебе на престол!"
+ },
+ "flavor_brapru.5.desc": {
+  "en": "With [target_character.GetName] on the throne, our country entered into a new era. Major reforms and consolidation of the national budget have been implemented and secured funding for a worthy army. Our [ROOT.GetCountry.GetGovernment.GetRulerTitle] has gathered international attention with his frugal approach to courtly pleasures and excess, rather investing the majority of the available money into further expansions of the army.",
+  "uk": "Для жителів нашої держави настала нова ера. Той, хто зайняв престол, [target_character.GetName] провів масштабні реформи і ужорсточив державний бюджет, забезпечивши тим самим кошти для створення належної нам армії. Міжнародне визнання [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] заслужив зокрема завдяки своїй ощадливості і небажанню витрачатися на надмірності та розваги — звільнені кошти він вважає за краще спрямовувати на розширення військ."
+ },
+ "flavor_brapru.5.entry": {
+  "en": "$flavor_brapru.5.title$",
+  "uk": ""
+ },
+ "flavor_brapru.5.historical_info": {
+  "en": "With the Ascension of Friedrich Wilhelm to the Prussian throne, the country entered a new era. He radically reformed the State Budget, cutting the expanses for the court to almost nothing, while heavily investing in the expansion of the army and administration of the state. While the army of Prussia grew to 80000 men, he reduced the courtly positions to a third of previous positions in order to save costs and reduce the debt Prussia had accumulated under his father's rule. His reforms transformed Prussia into an absolute and militaristic state that would ascend to the status of major power during the 18th century. ",
+  "uk": "Після сходження Фрідріха Вільгельма на престол Пруссії в країні почалася нова епоха. Вона ознаменувалася радикальними реформами в галузі державного бюджету — король скоротив витрати на утримання двору майже повністю, а звільнені кошти спрямував на розширення армії та управління державою, внаслідок чого прусське військо розрослося до 80 000 солдатів. Кількість придворних посад король скоротив утричі, щоб заощадити на утриманні двору і заразом скоротити борг, накопичений Пруссією за часів царювання батька Фрідріха. Під його владою Пруссія стала абсолютистською і мілітаристською державою та однією з провідних європейських держав XVIII століття."
+ },
+ "flavor_brapru.5.title": {
+  "en": "The Era of the Soldier-King",
+  "uk": "Епоха короля-солдата"
+ },
+ "flavor_brapru.6.a": {
+  "en": "Implement the Reform!",
+  "uk": "Провести реформу!"
+ },
+ "flavor_brapru.6.b": {
+  "en": "Rely on the old methods!",
+  "uk": "Старі методи надійніші."
+ },
+ "flavor_brapru.6.desc": {
+  "en": "Our current methods of recruitment are no longer able to sustain our desired growth of the army! With each passing month, more and more complaints about the inhumane conditions of the recruitment system reach our court. While it is the natural duty of the [ROOT.GetCountry.GetAdjective] subjects to serve the [ROOT.GetCountry.GetGovernment.GetRulerTitle], there is some truth to the complaints and if not anything else, that these circumstances hinder the reliable recruitment of soldiers. To this effect, the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] advisors drafted a new reform, the [ShowPolicyName('canton_system_policy')]. With this system, we could regulate Recruitment and ensure a legal ground for the drafting of soldiers.",
+  "uk": "Наші методи набору до армії цілком застаріли, а військо тим часом відчайдушно потребує нових солдатів. Щомісяця двору надходить все більше скарг про нелюдські умови набору, і хоча [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] вимагає, щоб кожний #L [ROOT.GetCountry.GetAdjective|l]ий#! підданий обов'язково ніс службу, скарги ці небезпідставні. У всякому разі вони ускладнюють набір нових солдатів, а тому [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] разом із радниками розробили нову реформу — вони збираються заснувати #TOOLTIP:POLICY,canton_system_policy,X #L систему кантонів#!#!. Завдяки їй ми зможемо впорядкувати набір солдатів і забезпечити законні підстави для призову."
+ },
+ "flavor_brapru.6.entry": {
+  "en": "The Canton System First Chance",
+  "uk": ""
+ },
+ "flavor_brapru.6.title": {
+  "en": "The [ShowPolicyNameWithNoTooltip('canton_system_policy')] of the [ROOT.GetCountry.GetLongNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_brapru.7.a": {
+  "en": "Give in to the demands.",
+  "uk": "Поступитися вимогам."
+ },
+ "flavor_brapru.7.b": {
+  "en": "Ignore these complaints.",
+  "uk": "Не звертати уваги на скарги."
+ },
+ "flavor_brapru.7.desc": {
+  "en": "We let the problems with our Recruitment system fester for too long and a Reform now seems like the only option. The Plans for the [ShowPolicyName('canton_system_policy')] are still present and our advisors in favor of reform are still advising us to implement this policy to regulate recruitment.",
+  "uk": "Ми надто пізно звернули увагу на труднощі з набором до армії, і тепер нам, схоже, залишається тільки одне: провести реформи. Плани заснувати в країні #TOOLTIP:POLICY,canton_system_policy,X #L систему кантонів#!#! ще в силі, а радники, що виступають на їх підтримку, все так само вважають, що впорядкувати набір без цієї системи неможливо."
+ },
+ "flavor_brapru.7.entry": {
+  "en": "The Canton System Second Chance",
+  "uk": ""
+ },
+ "flavor_brapru.7.title": {
+  "en": "Demands for The [ShowPolicyNameWithNoTooltip('canton_system_policy')] rise!",
+  "uk": "Народ вимагає системи кантонів!"
+ },
+ "flavor_brapru.8.a": {
+  "en": "Expand the army.",
+  "uk": "Розширити армію."
+ },
+ "flavor_brapru.8.b": {
+  "en": "Focus on [ShowLocationNameWithNoTooltip('berlin')].",
+  "uk": "Приділити увагу Берліну."
+ },
+ "flavor_brapru.8.c": {
+  "en": "Expand the navy.",
+  "uk": "Розширити флот."
+ },
+ "flavor_brapru.8.d": {
+  "en": "We do not need any reform.",
+  "uk": "Обійдемося без реформ."
+ },
+ "flavor_brapru.8.desc": {
+  "en": "Our most capable ruler, [target_character.GetName], has drafted multiple plans to reform the [ROOT.GetCountry.GetLongName] into a modern state. Among [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] plans are a radical reform and expansion of the army, an improvement for [ShowLocationName('berlin')], and dreams of a capable navy for [ROOT.GetCountry.GetNameWithNoTooltip]. Although all of these would elevate us among the countries of [ShowRegionName('north_german_region')], we will have to decide where our resources should be allocated for now.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Наша велика правителька', 'Наш великий правитель' )] [target_character.GetName] [Select_CString(target_character.IsFemale, 'склала', 'склав' )] кілька грандіозних проектів: [Select_CString(target_character.IsFemale, 'вона', 'він' )] вважає, що завдяки цим задумам [ROOT.GetCountry.GetLongName] перетвориться на сучасну державу. До планів входять корінні реформи і розширення армії, реконструкція #TOOLTIP:LOCATION,berlin_tt,X #L Берліна#!#! і — уже швидше у мріях — створення потужного флоту для [ROOT.GetCountry.Custom('CL_GEN')]. І хоча в разі успіху ми піднесемося над іншими державами #TOOLTIP:REGION,north_german_region,X #L Північної Німеччини#!#!, спочатку доведеться вирішити, як краще розподілити ресурси."
+ },
+ "flavor_brapru.8.historical_info": {
+  "en": "Friedrich Wilhelm von Hohenzollern rose to the throne of the Electorate of Brandenburg in 1640 in the turbulent time of the Thirty Years War, which brought devastation to the Electorate's Lands. During the Treaty of Westphalia he was able to consolidate some territorial expansion for Brandenburg in both the Rhineland and Pomerania. During his reign, he laid the groundwork for both military and administrative capabilities for the Brandenburgian-Prussian state, which later propelled Prussia to a major power in European affairs. These efforts and his military success in the Swedish-Brandenburgian wars would grant him the nickname #italic The Great Elector#!.",
+  "uk": "У 1640 році престол маркграфства Бранденбург зайняв Фрідріх Вільгельм з династії Гогенцоллернів. Перші роки його правління припали на неспокійні часи, що настали після закінчення руйнівної Тридцятилітньої війни, але курфюрст проявив себе гідно: так, за умовами Вестфальського миру йому вдалося приєднати до Бранденбурга частину Рейнської області і Померанії. Закладені Фрідріхом основи для розвитку військового і управлінського потенціалу Бранденбурга-Пруссії згодом привели до перетворення Пруссії на одну з провідних європейських держав. За успіхи на престолі і перемоги у війнах зі Швецією народ прозвав Фрідріха #italic «великим курфюрстом»#!."
+ },
+ "flavor_brapru.8.title": {
+  "en": "Reforms of the Great Elector",
+  "uk": "Реформи великого курфюрста"
+ },
+ "flavor_brapru.9.a": {
+  "en": "Move the court to [ShowLocationNameWithNoTooltip('berlin')]",
+  "uk": "Перенести двір до Берліна."
+ },
+ "flavor_brapru.9.b": {
+  "en": "Let's solidify our power in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] стане осередком нашої влади."
+ },
+ "flavor_brapru.9.b.entry": {
+  "en": "Let us solidify our power in the capital.",
+  "uk": ""
+ },
+ "flavor_brapru.9.desc": {
+  "en": "Ever since the founding of the [ROOT.GetCountry.GetLongName] by [GetCharacter('bra_albrecht_i_askanier').GetName] we have ruled over the area of [ShowLocationName('berlin')]. Some of our advisors, recommended us to move the capital to [ShowLocationNameWithNoTooltip('berlin')], which seemss to be well suited to serve as a capital worthy of our ambitions. This would serve us as an opportune moment to also seize control of the [ShowBuildingTypeName('hanseatic_kontor')], weakening foreign influences in our lands.",
+  "uk": "[ROOT.GetCountry.GetLongName] — держава, яку [Select_CString(GetCharacter('bra_albrecht_i_askanier').IsFemale, 'залишила', 'залишив' )] нам [GetCharacter('bra_albrecht_i_askanier').GetName] — традиційно панує над #TOOLTIP:LOCATION,berlin_tt,X #L Берліном#!#! та його околицями. Деякі наші радники порадили перенести столицю безпосередньо до Берліна, оскільки ця місцевість чудово відповідає нашим прагненням. Крім того, ми заразом зможемо заволодіти #TOOLTIP:BUILDING_TYPE,hanseatic_kontor,X #L Ганзейською конторою#!#!, послабивши тим самим іноземний вплив."
+ },
+ "flavor_brapru.9.entry": {
+  "en": "$flavor_brapru.9.title$",
+  "uk": ""
+ },
+ "flavor_brapru.9.title": {
+  "en": "A new Capital for [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Нова столиця [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_brapru.historical_info": {
+  "en": "After Albrecht von Hohenzollern secularized the Teutonic Order into the Duchy of Prussia, he followed the advice of Protestant preachers like Martin Luther further, and laid the foundations of an institution for higher learning. To this effect, the University of Königsberg was founded in 1544. Being located outside of the borders of the Holy Roman Empire, this was the first University built without the prior papal or imperial approval.",
+  "uk": "Альбрехт фон Гогенцоллерн, який скасував Тевтонський орден і перетворив Пруссію на світське герцогство, не збирався зупинятися на досягнутому. Вірно слідуючи ідеям таких реформаторів-протестантів, як Мартін Лютер, він заклав основи для створення в країні закладу вищої освіти, заснувавши в 1544 році Кенігсберзький університет. Університет розташовувався за межами кордонів Священної Римської Імперії, тому для його заснування Альбрехт не шукав ні папського, ні імператорського благословення."
+ },
+ "flavor_brapru_teu.1.a": {
+  "en": "Pawn it off to the [GetCountry('TEU').GetNameWithNoTooltip]",
+  "uk": "Нехай її отримає [GetCountry('TEU').GetNameWithNoTooltip]."
+ },
+ "flavor_brapru_teu.1.a.entry": {
+  "en": "Pawn it off to the $TEU$.",
+  "uk": ""
+ },
+ "flavor_brapru_teu.1.b": {
+  "en": "We will deal with them ourselves.",
+  "uk": "Розберемося з ними своїми силами."
+ },
+ "flavor_brapru_teu.1.desc": {
+  "en": "Our eastern territories in [ShowProvinceDefinitionName('neumark_province')] are too far for us to properly control from the confines of our capital. Infested with rampant robber barons, perhaps it would be beneficial for us to pawn them off to another entity that would not have a natural interest in our territories and could, therefore, be trusted.",
+  "uk": "Наші східні володіння в #TOOLTIP:PROVINCE_DEFINITION,neumark_province,X #L Ноймарку#!#! занадто далеко, щоб ними можна було повноцінно управляти зі столиці. Зараз там бешкетують грабіжники-барони, тому, можливо, провінцію слід закласти, віддавши її комусь іншому — таким людям, яких не цікавлять наші території, а отже, що заслуговують на довіру."
+ },
+ "flavor_brapru_teu.1.entry": {
+  "en": "Pawning of Neumark Province",
+  "uk": ""
+ },
+ "flavor_brapru_teu.1.historical_info": {
+  "en": "The province of Neumark, constantly troubled with robber barons, was pawned off to the Teutonic Order in 1402. It was hoped that the order would be able to curb local crime, but was unable to do so and the province remained impoverished until it was eventually sold back to the Brandenburgian Electors in the 1450s.",
+  "uk": "У 1402 році провінцію Ноймарк, що постійно страждала від свавілля баронів-грабіжників, заклали Тевтонському орденові в надії, що лицарі зможуть покласти кінець розгулу злочинності. Однак тевтонці не впоралися з цим завданням, і провінція продовжувала бідувати до продажу її назад курфюрстам бранденбурзьким у середині XV століття."
+ },
+ "flavor_brapru_teu.1.title": {
+  "en": "Pawning of [ShowProvinceDefinitionNameWithNoTooltip('neumark_province')]",
+  "uk": "Продаж провінції Ноймарк"
+ },
+ "flavor_brapru_teu.2.a": {
+  "en": "We will accept.",
+  "uk": "Ми згодні."
+ },
+ "flavor_brapru_teu.2.b": {
+  "en": "We will not deal with their problems.",
+  "uk": "Ми не братимемо на себе їхні турботи."
+ },
+ "flavor_brapru_teu.2.desc": {
+  "en": "The [teu_from.GetLongName] are clearly too incompetent to deal with the robber barons in their eastern territories within [ShowProvinceDefinitionName('neumark_province')]. In their attempt to flee from this problem, they have offered us the province for an ample sum of gold.",
+  "uk": "[teu_from.GetLongName] безперечно не в змозі розібратися зі свавіллям баронів-грабіжників у східній провінції [ShowProvinceDefinitionName('neumark_province')], а тому у спробі уникнути відповідальності пропонує нам перекупити цю провінцію за солідну суму в золоті."
+ },
+ "flavor_brapru_teu.2.entry": {
+  "en": "$flavor_brapru_teu.2.title$",
+  "uk": ""
+ },
+ "flavor_brapru_teu.2.historical_info": {
+  "en": "$flavor_brapru_teu.1.historical_info$",
+  "uk": ""
+ },
+ "flavor_brapru_teu.2.title": {
+  "en": "$flavor_brapru_teu.1.title$",
+  "uk": ""
+ },
+ "flavor_brapru_teu.3.a": {
+  "en": "We should consider selling it back to [GetCountry('BRA').GetNameWithNoTooltip].",
+  "uk": "Можливо, варто продати ці землі назад [GetCountry('BRA').Custom('CL_DAT')]."
+ },
+ "flavor_brapru_teu.3.a.entry": {
+  "en": "We should consider selling it back to $BRA$.",
+  "uk": ""
+ },
+ "flavor_brapru_teu.3.b": {
+  "en": "Or perhaps [GetCountry('POL').GetNameWithNoTooltip] would be better.",
+  "uk": "Або, може бути, [GetCountry('POL').Custom('CL_DAT')]."
+ },
+ "flavor_brapru_teu.3.b.entry": {
+  "en": "Or perhaps $POL$ would be better.",
+  "uk": ""
+ },
+ "flavor_brapru_teu.3.c": {
+  "en": "What is ours is ours.",
+  "uk": "Що наше, те наше."
+ },
+ "flavor_brapru_teu.3.desc": {
+  "en": "Having bought [ShowProvinceDefinitionName('neumark_province')] all these years ago, we were not able to successfully stomp the issues permeating the province. Instead, the only benefit we have stood to gain from the area is it standing as our rallying point for mercenaries arriving from the West.",
+  "uk": "Після того, як ми купили провінцію [ShowProvinceDefinitionName('neumark_province')], минуло вже чимало років, однак викоренити біди, що охопили її, так і не вдалося. Втім, деяку користь Ноймарк все-таки приносить: тут збираються найманці, що прибувають із заходу."
+ },
+ "flavor_brapru_teu.3.entry": {
+  "en": "The Fate of Neumark Province",
+  "uk": ""
+ },
+ "flavor_brapru_teu.3.historical_info": {
+  "en": "The province of Neumark, constantly troubled with robber barons, was pawned off to the Teutonic Order in 1402 by the Brandenburgian electors. Under the rule of the Order, the province remained impoverished and the Master of the Order, after trying to sell it to Poland, managed to sell it back to Brandenburg in 1455 as part of the Treaties of Cölln and Mewe.",
+  "uk": "У 1402 році провінцію Ноймарк, що постійно страждала від свавілля баронів-грабіжників, бранденбурзькі курфюрсти заклали Тевтонському орденові. Однак усунути убогість, що панувала в Ноймарку, не вдалося навіть лицарям, тому великий магістр ордену спочатку спробував продати провінцію Польщі, а потім, уже в 1455 році, все-таки зумів продати її назад Бранденбургу в рамках договорів у Кельльні та Меве."
+ },
+ "flavor_brapru_teu.3.title": {
+  "en": "The Fate of [ShowProvinceDefinitionNameWithNoTooltip('neumark_province')]",
+  "uk": "Доля Ноймарка"
+ },
+ "flavor_brapru_teu.4.a": {
+  "en": "Gross incompetence... We will accept.",
+  "uk": "Вражаюча безпорадність… Ми згодні."
+ },
+ "flavor_brapru_teu.4.b": {
+  "en": "A conquest would be less expensive.",
+  "uk": "Дешевше буде її завоювати."
+ },
+ "flavor_brapru_teu.4.c": {
+  "en": "It is still full of robber barons!",
+  "uk": "Там все ще бешкетують барони-грабіжники!"
+ },
+ "flavor_brapru_teu.4.desc": {
+  "en": "Decades ago, we sold [ShowProvinceDefinitionName('neumark_province')] to [teu_from.GetName], hoping to get rid of the robber baron problem that has been hurting our prestige and that gave us more problems than good. After all these years, the [teu_from.GetAdjectiveWithNoTooltip] state not only did not solve the problem, but it also increased poverty in the province. Having given up on their exposed flank, they are offering the lands back to us.",
+  "uk": "Кілька десятиліть тому ми продали [ShowProvinceDefinitionName('neumark_province')] #ONCLICK:COUNTRY,[teu_from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[teu_from.Custom('CL_tt')],X [teu_from.Custom('CL_DAT')|L]#!#! в надії покінчити зі свавіллям місцевих баронів-грабіжників, що підривали наше добре ім'я і приносили суцільні труднощі. Однак [teu_from.GetAdjectiveWithNoTooltip]а держава не тільки не впоралася з цією бідою — вона зробила провінцію ще біднішою і тепер, остаточно розставшись з надіями якось зміцнити свій оголений фланг, вони пропонують нам викупити цей край."
+ },
+ "flavor_brapru_teu.4.desc_other": {
+  "en": "We have received an offer of province sale from an unlikely source - the [teu_from.GetLongName]. The area in question is [ShowProvinceDefinitionName('neumark_province')] - we should seriously consider that offer.",
+  "uk": "[teu_from.GetLongName] робить нам несподівану пропозицію викупити в них провінцію [ShowProvinceDefinitionName('neumark_province')]. Над цим варто подумати."
+ },
+ "flavor_brapru_teu.4.historical_info": {
+  "en": "$flavor_brapru_teu.3.historical_info$",
+  "uk": ""
+ },
+ "flavor_brapru_teu.4.title": {
+  "en": "Treaty of Cölln",
+  "uk": "Договір у Кельльні"
+ },
+ "flavor_brapru_teu.5.a": {
+  "en": "That is simply too bad.",
+  "uk": "Дуже погано."
+ },
+ "flavor_brapru_teu.5.desc": {
+  "en": "Our solemn offer to sell the province of [ShowProvinceDefinitionName('neumark_province')] has been refused. Unfortunately, we will have to deal with the costly issues permeating the province on our own.",
+  "uk": "Нашу найщедрішу пропозицію купити в нас провінцію [ShowProvinceDefinitionName('neumark_province')] відхилили. Тепер, на жаль, доведеться й далі миритися з чималими витратами на її утримання."
+ },
+ "flavor_brapru_teu.5.title": {
+  "en": "Our Offer Refused",
+  "uk": "Нашу пропозицію відхилено"
+ },
+ "had_turmoil_in_brandenburg_disaster_variable_tt": {
+  "en": "Brandenburg has had the Turmoil in Brandenburg Disaster",
+  "uk": ""
+ },
+ "pru_edict_of_potsdam_opinion": {
+  "en": "Edict of Potsdam",
+  "uk": "Потсдамський едикт"
+ },
+ "variable_bought_neumark_tt": {
+  "en": "The Neumark has been Purchased",
+  "uk": ""
+ },
+ "variable_insanity_cooldown_tt": {
+  "en": "Mental Illness has Recently Afflicted the Dynasty",
+  "uk": ""
+ }
+}

@@ -1,0 +1,2302 @@
+{
+ "ACTIVE_EMPLOYMENT_SYSTEM": {
+  "en": "We currently have [EMPLOYMENT_SYSTEM.GetName] active.",
+  "uk": "Наразі у нас активна [EMPLOYMENT_SYSTEM.GetName]."
+ },
+ "ADJACENT_TRADE_RANGE_TT": {
+  "en": "[MARKET.GetName] is adjacent to one of our [markets|e].",
+  "uk": "[MARKET.GetName] межує з одним з наших [Concept('markets','ринки')|e]."
+ },
+ "ADM_REGION_CONTAINS": {
+  "en": "It contains the following provinces",
+  "uk": "Містить наступні провінції"
+ },
+ "ADM_REGION_NAME": {
+  "en": "[COUNTRY.GetAdjective] [REGION.GetName]",
+  "uk": ""
+ },
+ "ADVANCE_IS_RESEARCHED": {
+  "en": "@trigger_yes!This [advance|e] has been researched.",
+  "uk": "@trigger_yes! Це [Concept('advance','покращення')|e] досліджено."
+ },
+ "ADVANCE_MODIFIER": {
+  "en": "[advance_icon] $ADVANCE$ ($AGE$)",
+  "uk": ""
+ },
+ "AI_CONQUER_DESIRE_TOOLTIP": {
+  "en": "The [COUNTRY.GetLongName] calculated desire to conquer [LOCATION.GetName] is $SCORE|Y$, cached value is $CACHE|Y$.\\n",
+  "uk": "Бажання [COUNTRY.GetLongName] завоювати [LOCATION.GetName] становить $SCORE|Y$.\\n"
+ },
+ "AI_CONTROLLER_AREA_TOOLTIP": {
+  "en": "[LOCATION.GetName] is in a controller area with $NUMBER$ other locations.\\nController is [COUNTRY.GetName].\\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$.",
+  "uk": "[LOCATION.GetName] знаходиться в області контролера з $NUMBER$ іншими локаціями.\\nКонтролер: [COUNTRY.GetName].\\nКількість сусідніх областей контролера: $AI_MAP_OWNER_AREA_TOOLTIP$."
+ },
+ "AI_MAP_OWNER_AREA_TOOLTIP": {
+  "en": "[LOCATION.GetName] is in a map owner area with $NUMBER$ other locations.\\nMap Owner is [COUNTRY.GetName].\\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$.",
+  "uk": "[LOCATION.GetName] знаходиться в області власника карти з $NUMBER$ іншими локаціями.\\nВласник карти: [COUNTRY.GetName].\\nКількість сусідніх областей контролера: $AI_MAP_OWNER_AREA_TOOLTIP$."
+ },
+ "AI_OWNER_AREA_TOOLTIP": {
+  "en": "[LOCATION.GetName] is in an owner area with $NUMBER$ other locations.\\nOwner is [COUNTRY.GetName].\\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$.",
+  "uk": "[LOCATION.GetName] знаходиться в області власника з $NUMBER$ іншими локаціями.\\nВласник: [COUNTRY.GetName].\\nКількість сусідніх областей контролера: $AI_MAP_OWNER_AREA_TOOLTIP$."
+ },
+ "ALONGSIDE": {
+  "en": "Alongside",
+  "uk": "Вздовж"
+ },
+ "ALREADY_COURT_LANGUAGE": {
+  "en": "@trigger_no![LANGUAGE.GetName] is already the [court_language|e]",
+  "uk": "@trigger_no! [LANGUAGE.GetName] вже є [Concept('court_language','мова двору')|e]"
+ },
+ "ALREADY_LITURGICAL_LANGUAGE": {
+  "en": "@trigger_no![LANGUAGE.GetName] is already the [liturgical_language|e]",
+  "uk": "@trigger_no! [LANGUAGE.GetName] вже є [Concept('liturgical_language','літургійна мова')|e]"
+ },
+ "AREA_GREAT_POWER_INFO_CONTESTED": {
+  "en": "[great_power_points|e]: $VAL$ · Contested",
+  "uk": ""
+ },
+ "AREA_GREAT_POWER_INFO_DOMINATED": {
+  "en": "[great_power_points|e]: $VAL$ · Dominated by [COUNTRY.GetNameWithFlag]",
+  "uk": ""
+ },
+ "AREA_MEMBERS_ENTRY": {
+  "en": "@province! [PROVINCE_DEFINITION.GetName]: [PROVINCE_DEFINITION.GetNumLocations]",
+  "uk": ""
+ },
+ "AREA_MEMBERS_HEADER": {
+  "en": "The [provinces|e] of [AREA.GetNameWithNoTooltip]",
+  "uk": "[Concept('provinces','провінції')|e] [AREA.GetNameWithNoTooltip]"
+ },
+ "AREA_MERCENARIES_AVAILABLE": {
+  "en": "Available to recruit: $MEN$",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_CAPTAINS": {
+  "en": "Free captains: $NUM$",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_ELIGIBLE": {
+  "en": "Can become mercenaries: $MEN$",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_HIRED": {
+  "en": "Hired out: $MEN$ in $COMPANIES$ companies",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_LAND_HEADER": {
+  "en": "[mercenary|e] (Land)",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_NAVAL_HEADER": {
+  "en": "[mercenary|e] (Naval)",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_RESERVE": {
+  "en": "Manpower forming: $MEN$",
+  "uk": ""
+ },
+ "AREA_MERCENARIES_RESERVE_NAVAL": {
+  "en": "Sailors forming: $MEN$",
+  "uk": ""
+ },
+ "AREA_POPULATION_INFO": {
+  "en": "[population|e]: [AREA.GetTotalPopulation]",
+  "uk": ""
+ },
+ "AREA_TOOLTIP": {
+  "en": "[region|e]: [AREA.GetRegion.GetName]\\nNumber of [locations|e]: [AREA.GetNumLocations]",
+  "uk": "[Concept('region','регіон')|e]: [AREA.GetRegion.GetName]\\nКількість [Concept('locations','локації')|e]: [AREA.GetNumLocations]"
+ },
+ "ARMY_AT_SEA_ATTRITION": {
+  "en": "At Sea: $VALUE|2-=$",
+  "uk": "У морі: $VALUE|2%-=$"
+ },
+ "ARMY_LEVY_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to raise a [LEVY_SETUP.GetName] [army_levy|E]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість зібрати [LEVY_SETUP.GetName] [army_levy|E]"
+ },
+ "ARMY_NAME_WITH_ICON": {
+  "en": "@manpower! $NAME$",
+  "uk": ""
+ },
+ "ARMY_SUPPLY_WEIGHT": {
+  "en": "[unit_weight|e] $NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $WEIGHT|2LV$#!",
+  "uk": "[Concept('unit_weight','вага підрозділу')|e] з $NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $WEIGHT|2LV$#!"
+ },
+ "ARMY_TOO_LARGE": {
+  "en": "Above the [supply_limit|e]: $VAL|-=2$",
+  "uk": "Понад [Concept('supply_limit','ліміт постачання')|e]: $VAL|-=2$"
+ },
+ "ATTRITION_DUE_TO": {
+  "en": "#T [food_consumption] Penalty#!\\nThe $VAL|R2%$ [food_consumption|e] Penalty is due to",
+  "uk": "#T Втрати#!\\n$VAL|R2%$ [Concept('attrition','виснаження')|e] обумовлені"
+ },
+ "ATTRITION_NONE_SOURCE": {
+  "en": "$BULLET_WITH_TAB$Currently not taking any penalties to [food_consumption].",
+  "uk": "$BULLET_WITH_TAB$Наразі не зазнає жодних втрат"
+ },
+ "ATTRITION_TOOLTIP_HEADER": {
+  "en": "#R Attrition#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!",
+  "uk": ""
+ },
+ "AVATAR_MODIFIER": {
+  "en": "$AVATAR$ [avatar|e]",
+  "uk": "$AVATAR$ [Concept('avatar','аватар')|e]"
+ },
+ "BASE_COLON": {
+  "en": "Base: $VALUE|2Y$",
+  "uk": "Базове: $VALUE|2Y$"
+ },
+ "BASE_FACTOR_COLON": {
+  "en": "Base Factor: $VALUE|2Y$",
+  "uk": "Базовий фактор: $VALUE|2Y$"
+ },
+ "BASE_PERC": {
+  "en": "Base: $VAL|2%Y$",
+  "uk": "Базове: $VAL|2%Y$"
+ },
+ "BASE_PERC_ALREADY": {
+  "en": "Base: $VAL|2/%Y$",
+  "uk": "Базове: $VAL|2/%Y$"
+ },
+ "BASE_VALUE": {
+  "en": "Base: $VAL|2Y$",
+  "uk": "Базове: $VAL|2Y$"
+ },
+ "BASE_VALUE0": {
+  "en": "Base: $VAL|0Y$",
+  "uk": "Базове: $VAL|0Y$"
+ },
+ "BOTH_DIRECTIONS": {
+  "en": "Both directions",
+  "uk": "Обидва напрямки"
+ },
+ "BOTTOM_N_LOCATIONS_HEADER": {
+  "en": "#T Bottom $NUM$ Locations#!",
+  "uk": "#T Низ $NUM$ локацій#!"
+ },
+ "BUILDING_TYPE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [BUILDING_TYPE.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість побудувати [BUILDING_TYPE.GetName]"
+ },
+ "BUILD_UNIT_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [SUBUNITDEFINITION.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість побудувати [SUBUNITDEFINITION.GetName]"
+ },
+ "BUREAUCRACY_MODIFIER": {
+  "en": "$BUREAUCRACY_TYPE$ [bureaucracy|e]",
+  "uk": ""
+ },
+ "CABINET_ACTION_MODIFIER": {
+  "en": "[cabinet_action_icon] $CABINET_ACTION$",
+  "uk": ""
+ },
+ "CABINET_ACTION_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [CABINET_ACTION.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [CABINET_ACTION.GetName]"
+ },
+ "CASUS_BELLI_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ to use [CASUS_BELLI.GetName] [casus_belli|E]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для використання [CASUS_BELLI.GetName] [casus_belli|E]"
+ },
+ "CHANGE_COURT_LANGUAGE_HOLD": {
+  "en": "Change our [court_language|e]",
+  "uk": "Змінити нашу [Concept('court_language','мова двору')|e]"
+ },
+ "CHANGE_LITURGICAL_LANGUAGE_HOLD": {
+  "en": "Change our [liturgical_language|e]",
+  "uk": "Змінити нашу [Concept('liturgical_language','літургійна мова')|e]"
+ },
+ "CHANGE_court_language_COST_TT": {
+  "en": "Changing our [court_language|e] to [LANGUAGE.GetName] will cost $COST$.",
+  "uk": "Зміна нашої [Concept('court_language','мова двору')|e] на [LANGUAGE.GetName] коштуватиме $COST$."
+ },
+ "CHANGE_liturgical_language_COST_TT": {
+  "en": "Changing our [liturgical_language|e] to [LANGUAGE.GetName] will cost $COST$.",
+  "uk": "Зміна нашої [Concept('liturgical_language','літургійна мова')|e] на [LANGUAGE.GetName] коштуватиме $COST$."
+ },
+ "CHAR_INTERACTION_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [CHARACTER_INTERACTION.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [CHARACTER_INTERACTION.GetName]"
+ },
+ "CLICK_CONFIRM_DIALOG_TOOLTIP": {
+  "en": "Clicking will result in an additional confirmation dialog before performing the action.",
+  "uk": "Клацання призведе до додаткового діалогу підтвердження перед виконанням дії."
+ },
+ "CLICK_HOLD_TOOLTIP": {
+  "en": "Clicking and holding will result in performing the action.",
+  "uk": "Клацання та утримання призведе до виконання дії."
+ },
+ "CLICK_TOOLTIP": {
+  "en": "Clicking will result in performing the action immediately.",
+  "uk": "Клацання призведе до негайного виконання дії."
+ },
+ "CLIMATE_MODIFIER": {
+  "en": "$CLIMATE$ [climate|e]",
+  "uk": "$CLIMATE$ [Concept('climate','клімат')|e]"
+ },
+ "CLIMATE_TT_WINTER": {
+  "en": "[winter_level_max|e]: [ShowModifier('winter_$MAX$')]",
+  "uk": "[Concept('winter_level_max','максимальний рівень зими')|e]: [ShowModifier('winter_$MAX$')]"
+ },
+ "CLOSEST_PORT_LOCATION_TOOLTIP": {
+  "en": "The Closest [port|e] for [COUNTRY.GetLongName] is [LOCATION.GetName]",
+  "uk": "Найближчий [Concept('port','порт')|e] для [COUNTRY.GetLongName] є [LOCATION.GetName]"
+ },
+ "COMMON_LANGUAGE_IS_DEAD": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently used by any [pop|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] наразі не використовується жодною [Concept('pop','населення')|e]."
+ },
+ "CONTINENT_MEMBERS_ENTRY": {
+  "en": "[SUB_CONTINENT.GetName]: [SUB_CONTINENT.GetNumRegions]",
+  "uk": ""
+ },
+ "CONTINENT_MEMBERS_HEADER": {
+  "en": "The [sub_continents|e] of [CONTINENT.GetNameWithNoTooltip]",
+  "uk": "[Concept('sub_continents','субконтиненти')|e] [CONTINENT.GetNameWithNoTooltip]"
+ },
+ "CONTINENT_TOOLTIP": {
+  "en": "This [continent|e] is formed by [CONTINENT.GetNumSubContinents] [sub_continents|e] which are:\\n",
+  "uk": "Цей [Concept('continent','континент')|e] сформований [CONTINENT.GetNumSubContinents] [Concept('sub_continents','субконтиненти')|e], якими є:\\n"
+ },
+ "COUNTRIES_WITH_CULTURE": {
+  "en": "[primary_culture|e] of the following [countries|e]:",
+  "uk": "[Concept('primary_culture','основна культура')|e] наступних [Concept('countries','країни')|e]:"
+ },
+ "COUNTRIES_WITH_CULTURE_LABEL": {
+  "en": "Countries with [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] [culture|e]",
+  "uk": "Країни з [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] [Concept('culture','культура')|e]"
+ },
+ "COUNTRIES_WITH_RELIGION_LABEL": {
+  "en": "Countries with [Player.GetReligion.GetNameWithNoTooltip] Religion",
+  "uk": "Країни з релігією [Player.GetReligion.GetNameWithNoTooltip]"
+ },
+ "COUNTRY_CULTURE_TOOLTIP_HEADER": {
+  "en": "$CULTURE_TOOLTIP_HEADER_BASE$ [Country.GetName]",
+  "uk": ""
+ },
+ "COUNTRY_INTERACTION_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [COUNTRY_INTERACTION.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [COUNTRY_INTERACTION.GetName]"
+ },
+ "COUNTRY_NAME_WITH_FLAG": {
+  "en": "$FLAG$ $NAME$",
+  "uk": ""
+ },
+ "COUNTRY_RANK_MODIFIER": {
+  "en": "$COUNTRY_RANK$ [country_rank|e]",
+  "uk": "$COUNTRY_RANK$ [Concept('country_rank','ранг країни')|e]"
+ },
+ "COUNTRY_RELIGION_TOOLTIP_HEADER": {
+  "en": "$RELIGION_TOOLTIP_HEADER_BASE$ of [Country.GetName]",
+  "uk": ""
+ },
+ "COUNTRY_TOOLTIP": {
+  "en": "#T [COUNTRY.GetName]#!",
+  "uk": ""
+ },
+ "COUNTRY_TOOLTIP_CAPITAL": {
+  "en": "[capital|e]: [LOCATION.GetName|Y]\\n[towns_or_cities|e]: [LOCATION.GetOwner.GetTownsAndCities|V]",
+  "uk": "[Concept('capital','столиця')|e]: [LOCATION.GetName|Y]\\n[Concept('towns_or_cities','міста')|e]: [LOCATION.GetOwner.GetTownsAndCities|V]"
+ },
+ "COUNTRY_TOOLTIP_CAPITAL_SM": {
+  "en": "[capital|e]: [LOCATION.GetName|Y]",
+  "uk": "[Concept('capital','столиця')|e]: [LOCATION.GetName|Y]"
+ },
+ "COUNTRY_TOOLTIP_CORE": {
+  "en": "[COUNTRY.GetLongNameWithNoTooltip] is a [country|e] ruled by a [ruler|e], with their [LOCATIONs|e] providing [manpower|e] for their [armies|e].\\n",
+  "uk": "[COUNTRY.GetLongNameWithNoTooltip] є [Concept('country','країна')|e], якою править [Concept('ruler','правитель')|e], а їхні [LOCATIONs|e] забезпечують [Concept('manpower','людські ресурси')|e] для їхніх [Concept('armies','армії')|e].\\n"
+ },
+ "COUNTRY_TOOLTIP_CULTURE": {
+  "en": "[culture|e]: [CULTURE.GetName]\\n",
+  "uk": "[Concept('culture','культура')|e]: [CULTURE.GetName]\\n"
+ },
+ "COUNTRY_TOOLTIP_CULTURE_ACCEPTED": {
+  "en": "[CULTURE.GetNameWithNoTooltip] is an [accepted_culture|e] in [COUNTRY.GetNameWithFlag]",
+  "uk": "[CULTURE.GetNameWithNoTooltip] є [Concept('accepted_culture','прийнята культура')|e] у [COUNTRY.GetNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_CULTURE_NON_ACCEPTED": {
+  "en": "[CULTURE.GetNameWithNoTooltip] is a [non_accepted_culture|e] in [COUNTRY.GetNameWithFlag]",
+  "uk": "[CULTURE.GetNameWithNoTooltip] є [Concept('non_accepted_culture','неприйнята культура')|e] у [COUNTRY.GetNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_CULTURE_PRIMARY": {
+  "en": "[CULTURE.GetNameWithNoTooltip] is the [primary_culture|e] in [COUNTRY.GetNameWithFlag]",
+  "uk": "[CULTURE.GetNameWithNoTooltip] є [Concept('primary_culture','основна культура')|e] у [COUNTRY.GetNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_CULTURE_TOLERATED": {
+  "en": "[CULTURE.GetNameWithNoTooltip] is a [tolerated_culture|e] in [COUNTRY.GetNameWithFlag]",
+  "uk": "[CULTURE.GetNameWithNoTooltip] є [Concept('tolerated_culture','толерантна культура')|e] у [COUNTRY.GetNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_DOES_NOT_EXIST": {
+  "en": "This country currently does not exist",
+  "uk": "Ця країна наразі не існує"
+ },
+ "COUNTRY_TOOLTIP_HEIR": {
+  "en": "[heir|e]: [COUNTRY.GetGovernment.GetHeir.GetShortName] ([COUNTRY.GetGovernment.GetHeirSelection.GetName])",
+  "uk": "[Concept('heir','спадкоємець')|e]: [COUNTRY.GetGovernment.GetHeir.GetShortName] ([COUNTRY.GetGovernment.GetHeirSelection.GetName])"
+ },
+ "COUNTRY_TOOLTIP_HUMAN": {
+  "en": "@players! $STRING$ is playing as this country",
+  "uk": "@players! $STRING$ грає за цю країну"
+ },
+ "COUNTRY_TOOLTIP_INTERNATIONAL_ORGANIZATION": {
+  "en": "$TITLES$ of $ORG$",
+  "uk": ""
+ },
+ "COUNTRY_TOOLTIP_INTERNATIONAL_ORGANIZATION_MEMBER": {
+  "en": "Member",
+  "uk": "Член"
+ },
+ "COUNTRY_TOOLTIP_IS_AT_WAR": {
+  "en": "[war_icon] This country is currently at #R [war] #!",
+  "uk": "[war_icon] Ця країна наразі у #R [war] #!"
+ },
+ "COUNTRY_TOOLTIP_LOCATIONS_NUMBER": {
+  "en": "[Country.GetName] [owns|e] a total of [Country.GetOwnedLocationCount|W] @location! [locations].",
+  "uk": "[Country.GetName] [Concept('owns','володіє')|e] загалом [Country.GetOwnedLocationCount|W] @location! [locations]."
+ },
+ "COUNTRY_TOOLTIP_NO_HEIR": {
+  "en": "[heir_selection|e]: [COUNTRY.GetGovernment.GetHeirSelection.GetName]",
+  "uk": "[Concept('heir_selection','вибір спадкоємця')|e]: [COUNTRY.GetGovernment.GetHeirSelection.GetName]"
+ },
+ "COUNTRY_TOOLTIP_OPINION": {
+  "en": "They have a $VAL|+=0$ [opinion|e] of [COUNTRY.GetLongNameWithFlag]",
+  "uk": "Вони мають $VAL|+=0$ [Concept('opinion','думка')|e] до [COUNTRY.GetLongNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_OVERLORD": {
+  "en": "[overlord|e]: [COUNTRY.GetDiplomacy.GetOverlord.GetLongName]",
+  "uk": "[Concept('overlord','сюзерен')|e]: [COUNTRY.GetDiplomacy.GetOverlord.GetLongName]"
+ },
+ "COUNTRY_TOOLTIP_PLAYER": {
+  "en": "You are playing as this country",
+  "uk": "Ви граєте за цю країну"
+ },
+ "COUNTRY_TOOLTIP_POP": {
+  "en": "[population|e]: [COUNTRY.GetTotalPopulation]@population!",
+  "uk": "[Concept('population','населення')|e]: [COUNTRY.GetTotalPopulation]@population!"
+ },
+ "COUNTRY_TOOLTIP_RANK_AND_GOV": {
+  "en": "Rank: [COUNTRY_RANK.GetName]\\nGovernment: [GOVERNMENT_TYPE.GetName]\\n",
+  "uk": "Ранг: [COUNTRY_RANK.GetName]\\nУряд: [GOVERNMENT_TYPE.GetName]\\n"
+ },
+ "COUNTRY_TOOLTIP_REGENT": {
+  "en": "[COUNTRY.GetGovernment.GetRegencyType.GetName] until [COUNTRY.GetGovernment.GetRegencyEndDate|Y]",
+  "uk": "[COUNTRY.GetGovernment.GetRegencyType.GetName] до [COUNTRY.GetGovernment.GetRegencyEndDate|Y]"
+ },
+ "COUNTRY_TOOLTIP_RELIGION": {
+  "en": "[religion|e]: #subtle_name [RELIGION.GetNameNoUnderline]#![RELIGION.GetIcon]\\n",
+  "uk": "[Concept('religion','релігія')|e]: #subtle_name [RELIGION.GetNameNoUnderline]#![RELIGION.GetIcon]\\n"
+ },
+ "COUNTRY_TOOLTIP_RULER": {
+  "en": "[ruler|e]: [COUNTRY.GetGovernment.GetFullRulerName]",
+  "uk": "[Concept('ruler','правитель')|e]: [COUNTRY.GetGovernment.GetFullRulerName]"
+ },
+ "COUNTRY_TOOLTIP_RULER_AND_HEIR": {
+  "en": "@ruler! [ruler|e]: [Country.GetGovernment.GetRuler.GetNameToFit('(int32)30', '(bool)yes')]]\\n@heir! [heir|e]: [Country.GetGovernment.GetHeir.GetNameToFit('(int32)30', '(bool)yes')]]",
+  "uk": "@ruler! [Concept('ruler','правитель')|e]: [Country.GetGovernment.GetRuler.GetNameToFit('(int32)30', '(bool)yes')]]\\n@heir! [Concept('heir','спадкоємець')|e]: [Country.GetGovernment.GetHeir.GetNameToFit('(int32)30', '(bool)yes')]]"
+ },
+ "COUNTRY_TOOLTIP_SUBJECT": {
+  "en": "Is a [SUBJECT_TYPE.GetName] [subject|e] of [COUNTRY.GetLongNameWithFlag]",
+  "uk": "Є [SUBJECT_TYPE.GetName] [Concept('subject','васал')|e] [COUNTRY.GetLongNameWithFlag]"
+ },
+ "COUNTRY_TOOLTIP_SUBJECT_TEXT": {
+  "en": "@subject! [Country.GetName] is a [Country.GetSubjectTypeLabel] of the [Country.GetDiplomacy.GetOverlord.GetLongName].",
+  "uk": "@subject! [Country.GetName] є [Country.GetSubjectTypeLabel] [Country.GetDiplomacy.GetOverlord.GetLongName]."
+ },
+ "COUNTRY_TOOLTIP_SUBJECT_TYPE": {
+  "en": "[subject_type|e]: [COUNTRY.GetSubjectTypeLabel]",
+  "uk": "[Concept('subject_type','тип васала')|e]: [COUNTRY.GetSubjectTypeLabel]"
+ },
+ "COUNTRY_TOOLTIP_TAX": {
+  "en": "[tax_base|e]: [COUNTRY.GetTotalTaxBase]@tax_base!",
+  "uk": "[Concept('tax_base','податкова база')|e]: [COUNTRY.GetTotalTaxBase]@tax_base!"
+ },
+ "COUNTRY_TOOLTIP_TYPE": {
+  "en": "Type: $TYPE|Y$\\n",
+  "uk": "Тип: $TYPE|Y$\\n"
+ },
+ "COUNTRY_WITH_DOMINANT": {
+  "en": "[Country.GetLongNameWithFlag] ([dominant_country_dominant|e])",
+  "uk": "[Country.GetLongNameWithFlag] ([Concept('dominant_country_dominant','домінуюча країна')|e])"
+ },
+ "CULTURAL_INFLUENCE_LABEL_COV": {
+  "en": "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] Influence",
+  "uk": "Вплив [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip]"
+ },
+ "CULTURAL_LANGUAGE_LINE": {
+  "en": "[language|e]: [CountryCultureLateralView.GetCulture.GetLanguage.GetName]",
+  "uk": "[Concept('language','мова')|e]: [CountryCultureLateralView.GetCulture.GetLanguage.GetName]"
+ },
+ "CULTURAL_TRADITION_LABEL_COV": {
+  "en": "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] Tradition",
+  "uk": "Традиція [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip]"
+ },
+ "CULTURE_GROUP_MODIFIER_CHARACTER": {
+  "en": "$CULTURE_GROUP$ [character|e] [culture_group|e]",
+  "uk": "$CULTURE_GROUP$ [Concept('character','персонаж')|e] [Concept('culture_group','культурна група')|e]"
+ },
+ "CULTURE_GROUP_MODIFIER_COUNTRY": {
+  "en": "$CULTURE_GROUP$ [primary_culture|e] [culture_group_short|e]",
+  "uk": "$CULTURE_GROUP$ [Concept('primary_culture','основна культура')|e] [Concept('culture_group_short','культурна група')|e]"
+ },
+ "CULTURE_GROUP_MODIFIER_LOCATION": {
+  "en": "$CULTURE_GROUP$ [dominant_culture|e] [culture_group_short|e]",
+  "uk": "$CULTURE_GROUP$ [Concept('dominant_culture','домінуюча культура')|e] [Concept('culture_group_short','культурна група')|e]"
+ },
+ "CULTURE_GROUP_TT_CULTURES_NONE": {
+  "en": "[cultures|e]: None",
+  "uk": "[Concept('cultures','культури')|e]: Немає"
+ },
+ "CULTURE_GROUP_TT_CULTURES_PLURAL": {
+  "en": "[cultures|e]: $CULTURES$",
+  "uk": "[Concept('cultures','культури')|e]: $CULTURES$"
+ },
+ "CULTURE_GROUP_TT_CULTURES_SINGULAR": {
+  "en": "[culture|e]: $CULTURES$",
+  "uk": "[Concept('culture','культура')|e]: $CULTURES$"
+ },
+ "CULTURE_GROUP_TT_MERGE_CULTURE": {
+  "en": "[merged_culture_group_merged_culture|e]: $CULTURE$",
+  "uk": "[Concept('merged_culture_group_merged_culture','об'єднана група культур')|e]: $CULTURE$"
+ },
+ "CULTURE_GROUP_TT_NO_MERGE_CULTURE": {
+  "en": "[merged_culture_group_merged_culture|e]: None",
+  "uk": "[Concept('merged_culture_group_merged_culture','об'єднана група культур')|e]: Немає"
+ },
+ "CULTURE_MODIFIER_CHARACTER": {
+  "en": "$CULTURE$ [character|e] [culture|e]",
+  "uk": "$CULTURE$ [Concept('character','персонаж')|e] [Concept('culture','культура')|e]"
+ },
+ "CULTURE_MODIFIER_COUNTRY": {
+  "en": "$CULTURE$ [primary_culture|e]",
+  "uk": "$CULTURE$ [Concept('primary_culture','основна культура')|e]"
+ },
+ "CULTURE_MODIFIER_LOCATION": {
+  "en": "$CULTURE$ [dominant_culture|e]",
+  "uk": "$CULTURE$ [Concept('dominant_culture','домінуюча культура')|e]"
+ },
+ "CULTURE_OPINION_TOOLTIP": {
+  "en": "#T Cultural Opinion#!\\nThe opinion of one [culture|e] towards another impact how [countries|e] behave to one another, and how the people of a certain culture accept the rule of another [culture|e].",
+  "uk": "#T Культурна думка#!\\nДумка однієї [Concept('culture','культура')|e] щодо іншої впливає на те, як [Concept('countries','країни')|e] поводяться одна з одною, і як люди певної культури приймають правління іншої [Concept('culture','культура')|e]."
+ },
+ "CULTURE_TOOLTIP_HEADER_BASE": {
+  "en": "Cultural Breakdown",
+  "uk": "Культурний розподіл"
+ },
+ "CULTURE_TOTAL_WORSHIPPERS": {
+  "en": "There are currently [Culture.GetTotalPopulation|G] [Culture.GetNameWithNoTooltip] [pops|e] in the world.",
+  "uk": "Наразі у світі існує [Culture.GetTotalPopulation|G] [Culture.GetNameWithNoTooltip] [Concept('pops','населення')|e]."
+ },
+ "CULTURE_TT_CHARACTER_MODIFIER": {
+  "en": "When [culture|e] of a [character|e]:",
+  "uk": "Коли [Concept('culture','культура')|e] [Concept('character','персонаж')|e]:"
+ },
+ "CULTURE_TT_COUNTRY_MODIFIER": {
+  "en": "When [primary_culture|e] of a [country|e]:",
+  "uk": "Коли [Concept('primary_culture','основна культура')|e] [Concept('country','країна')|e]:"
+ },
+ "CULTURE_TT_INFO": {
+  "en": "[language|e]: [CULTURE.GetDialect.GetNameWithLanguage]\\n$CULTURE_GROUPS$",
+  "uk": "[Concept('language','мова')|e]: [CULTURE.GetDialect.GetNameWithLanguage]\\n$CULTURE_GROUPS$"
+ },
+ "CULTURE_TT_INFO_GROUPS_NONE": {
+  "en": "[culture_groups|e]: None",
+  "uk": "[Concept('culture_groups','культурні групи')|e]: Немає"
+ },
+ "CULTURE_TT_INFO_GROUPS_PLURAL": {
+  "en": "[culture_groups|e]: $CULTURE_GROUPS$",
+  "uk": "[Concept('culture_groups','культурні групи')|e]: $CULTURE_GROUPS$"
+ },
+ "CULTURE_TT_INFO_GROUPS_SINGULAR": {
+  "en": "[culture_group|e]: $CULTURE_GROUPS$",
+  "uk": "[Concept('culture_group','культурна група')|e]: $CULTURE_GROUPS$"
+ },
+ "CULTURE_TT_LOCATION_MODIFIER": {
+  "en": "When [dominant_culture|e] of a [location|e]:",
+  "uk": "Коли [Concept('dominant_culture','домінуюча культура')|e] [Concept('location','локація')|e]:"
+ },
+ "DIALECTANGUAGE_IS_DEAD": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently used by any [pop|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] наразі не використовується жодною [Concept('pop','населення')|e]."
+ },
+ "DIALECT_AND_LANGUAGE": {
+  "en": "$DIALECT$ ($LANGUAGE$)",
+  "uk": ""
+ },
+ "DIALECT_DIALECT_FAMILY": {
+  "en": "[language_family|e]: [DIALECT_FAMILY.GetName]",
+  "uk": "[Concept('language_family','мовна сім'я')|e]: [DIALECT_FAMILY.GetName]"
+ },
+ "DIALECT_DIALECT_FAMILY_ISOLATED": {
+  "en": "[language_family|e]: [isolated_language_short|e]",
+  "uk": "[Concept('language_family','мовна сім'я')|e]: [Concept('isolated_language_short','ізольована мова')|e]"
+ },
+ "DIALECT_FAMILY_HAS_DIALECTS": {
+  "en": "[languages|e]: $LIST$.",
+  "uk": "[Concept('languages','мови')|e]: $LIST$."
+ },
+ "DIALECT_FAMILY_HAS_NO_DIALECTS": {
+  "en": "[languages|e]: None",
+  "uk": "[Concept('languages','мови')|e]: Немає"
+ },
+ "DIALECT_HAS_COMMON_DIALECTS_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]: $POP_DIALECT_SIZE$@population!",
+  "uk": ""
+ },
+ "DIALECT_HAS_COMMON_DIALECTS_PLURAL_LARGE": {
+  "en": "And $NUM$ more for a total: $VAL|Y$@population!",
+  "uk": "І ще $NUM$ для загалом: $VAL|Y$@population!"
+ },
+ "DIALECT_HAS_COMMON_DIALECTS_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "DIALECT_HAS_COURT_DIALECTS_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]",
+  "uk": ""
+ },
+ "DIALECT_HAS_COURT_DIALECTS_PLURAL_LARGE": {
+  "en": "And $NUM$ more.",
+  "uk": "І ще $NUM$."
+ },
+ "DIALECT_HAS_COURT_DIALECTS_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "DIALECT_HAS_COURT_DIALECTS_TOOLTIP": {
+  "en": "[court_language|e] [Language.GetNameWithNoTooltip] for the following [countries|e]:",
+  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','країни')|e]:"
+ },
+ "DIALECT_HAS_CULTURES_PLURAL": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is used by the $LIST$ [cultures|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] використовується $LIST$ [Concept('cultures','культури')|e]."
+ },
+ "DIALECT_HAS_CULTURES_SINGULAR": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is used by the $LIST$ [culture|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] використовується $LIST$ [Concept('culture','культура')|e]."
+ },
+ "DIALECT_HAS_DIALECTS": {
+  "en": "[dialects|e]: $LIST$",
+  "uk": "[Concept('dialects','діалекти')|e]: $LIST$"
+ },
+ "DIALECT_HAS_LITURGICAL_DIALECTS_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]",
+  "uk": ""
+ },
+ "DIALECT_HAS_LITURGICAL_DIALECTS_PLURAL_LARGE": {
+  "en": "And $NUM$ more.",
+  "uk": "І ще $NUM$."
+ },
+ "DIALECT_HAS_LITURGICAL_DIALECTS_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "DIALECT_HAS_MARKETS_PLURAL": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is the [market_language|e] for the $LIST$ [markets|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] є [Concept('market_language','мова ринку')|e] для $LIST$ [Concept('markets','ринки')|e]."
+ },
+ "DIALECT_HAS_MARKETS_SINGULAR": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is the [market_language|e] for the $LIST$ [market|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] є [Concept('market_language','мова ринку')|e] для $LIST$ [Concept('market','ринок')|e]."
+ },
+ "DIALECT_HAS_NO_COMMON_DIALECTS": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [common_language|e] by any [country|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('common_language','спільна мова')|e] жодною [Concept('country','країна')|e]."
+ },
+ "DIALECT_HAS_NO_COURT_DIALECTS": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [court_language|e] by any [country|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','країна')|e]."
+ },
+ "DIALECT_HAS_NO_CULTURES": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently used by any [cultures|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] наразі не використовується жодною [Concept('cultures','культури')|e]."
+ },
+ "DIALECT_HAS_NO_DIALECTS": {
+  "en": "No [dialects|e].",
+  "uk": "Немає [Concept('dialects','діалекти')|e]."
+ },
+ "DIALECT_HAS_NO_LITURGICAL_DIALECTS": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [liturgical_language|e] by any [country|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','країна')|e]."
+ },
+ "DIALECT_HAS_NO_MARKETS": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently the [market_language|e] of any [market|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] наразі не є [Concept('market_language','мова ринку')|e] жодного [Concept('market','ринок')|e]."
+ },
+ "DIALECT_HAS_NO_RELIGIONS": {
+  "en": "Is not the [liturgical_language|e] of any [country|e].",
+  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','країна')|e]."
+ },
+ "DIALECT_HAS_NO_RELIGION_DEFINITIONS": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently the [liturgical_language|e] of any [religion|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] наразі не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('religion','релігія')|e]."
+ },
+ "DIALECT_HAS_RELIGIONS_PLURAL": {
+  "en": "Is the [liturgical_language|e] for $LIST$.",
+  "uk": "Є [Concept('liturgical_language','літургійна мова')|e] для $LIST$."
+ },
+ "DIALECT_HAS_RELIGIONS_SINGULAR": {
+  "en": "Is the [liturgical_language|e] for $LIST$.",
+  "uk": "Є [Concept('liturgical_language','літургійна мова')|e] для $LIST$."
+ },
+ "DIALECT_HAS_RELIGION_COUNTRIES": {
+  "en": "all [countries|e] with $RELIGION_ADJECTIVES$ [primary_religion|e]",
+  "uk": "всіх [Concept('countries','країни')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
+ },
+ "DIALECT_HAS_RELIGION_DEFINITIONS_PLURAL": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is the [liturgical_language|e] for the $LIST$ [religions|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] є [Concept('liturgical_language','літургійна мова')|e] для $LIST$ [Concept('religions','релігії')|e]."
+ },
+ "DIALECT_HAS_RELIGION_DEFINITIONS_SINGULAR": {
+  "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is the [liturgical_language|e] for the $LIST$ [religion|e].",
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] є [Concept('liturgical_language','літургійна мова')|e] для $LIST$ [Concept('religion','релігія')|e]."
+ },
+ "DIALECT_TT_LANGUAGE": {
+  "en": "[dialect|e] of the [Dialect.GetLanguage.GetName] [language|e]",
+  "uk": "[Concept('dialect','діалект')|e] [Dialect.GetLanguage.GetName] [Concept('language','мова')|e]"
+ },
+ "DIPLOMACY_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to $ACTION$",
+  "uk": "@trigger_no! Нам потрібно дослідити [ADVANCE_DEFINITION.GetName] [Concept('advance','покращення')|e], щоб мати можливість $ACTION$"
+ },
+ "DISASTER_EACH_MONTH": {
+  "en": "Each Month:",
+  "uk": "Кожного місяця:"
+ },
+ "DISEASE_ENDEMIC_LOCATION_TOOLTIP": {
+  "en": "#T [DISEASE.GetNameWithNoTooltip]#!\\nEndemic Area\\nBase infection rate per interval: $RATE|2R%2$\\nThis location's geography makes it naturally susceptible to this disease.",
+  "uk": ""
+ },
+ "DISEASE_PRESENCE_LOCATION_TOOLTIP": {
+  "en": "#T [DISEASE.GetNameWithNoTooltip]#!\\nPresence: $PRESENCE|2R%2$\\nResistance: $RESISTANCE|%2$",
+  "uk": "#T [DISEASE.GetNameWithNoTooltip]#!\\nПрисутність: $PRESENCE|2R%2$\\nОпір: $RESISTANCE|%2$"
+ },
+ "DISEASE_PRESENCE_LOCATION_TOOLTIP_SOME_POPS": {
+  "en": "[pops|e] from migration at different levels: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!",
+  "uk": "[Concept('pops','населення')|e] від міграції на різних рівнях: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+ },
+ "DISEASE_PRESENCE_POP_TOOLTIP": {
+  "en": "[POP.GetName]: [DISEASE.GetName]: $PRESENCE|%$ Presence, $RESISTANCE|%$ Resistance",
+  "uk": "[POP.GetName]: [DISEASE.GetName]: присутність $PRESENCE|%$, опір $RESISTANCE|%$"
+ },
+ "DISEASE_PRESENCE_SUB_UNIT_TOOLTIP": {
+  "en": "[SUBUNIT.GetName]: [DISEASE.GetName]: $PRESENCE|%$ Presence, $RESISTANCE|%$ Resistance",
+  "uk": "[SUBUNIT.GetName]: [DISEASE.GetName]: присутність $PRESENCE|%$, опір $RESISTANCE|%$"
+ },
+ "DISEASE_PRESENCE_UNIT_TOOLTIP": {
+  "en": "[UNIT.GetName]: [DISEASE.GetName]: $NUM|Y$ sub units affected with an average of $PRESENCE|%$ Presence and $RESISTANCE|%$ Resistance",
+  "uk": "[UNIT.GetName]: [DISEASE.GetName]: $NUM|Y$ підрозділів уражено з середньою присутністю $PRESENCE|%$ та опором $RESISTANCE|%$"
+ },
+ "DOWNSTREAM": {
+  "en": "Downstream",
+  "uk": "За течією"
+ },
+ "EARTHQUAKE_LOCATION_TOOLTIP": {
+  "en": "#T Earthquake Zone#!\\nThe tectonics are unstable here, and it may experience earthquakes.",
+  "uk": "#T Сейсмічна зона#!\\nТут нестабільна тектоніка, і можуть траплятися землетруси."
+ },
+ "EDIT_NEWBORN_FIRST_NAME": {
+  "en": "Write the first name we wish the [child|e] to have, and it will be renamed to that when you press ok.",
+  "uk": "Напишіть ім'я, яке ми бажаємо, щоб [Concept('child','дитина')|e] мала, і вона буде перейменована на це, коли ви натиснете OK."
+ },
+ "EDIT_NEWBORN_FIRST_NAME_EDITBOX": {
+  "en": "Write the First Name...",
+  "uk": "Напишіть ім'я..."
+ },
+ "EDIT_NEWBORN_RANDOM_FIRST_NAME": {
+  "en": "Give the [child|e] a different random first name.",
+  "uk": "Дати [Concept('child','дитина')|e] інше випадкове ім'я."
+ },
+ "EMPLOYMENT_SYSTEM_MODIFIER": {
+  "en": "$EMPLOYMENT_SYSTEM$ [employment_system|e]",
+  "uk": "$EMPLOYMENT_SYSTEM$ [Concept('employment_system','система зайнятості')|e]"
+ },
+ "EMPLOYMENT_SYSTEM_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [EMPLOYMENT_SYSTEM.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість побудувати [EMPLOYMENT_SYSTEM.GetName]"
+ },
+ "ESTATE_NAME_WITH_FLAG_AND_ICON": {
+  "en": "$FLAG$$ICON$ $NAME$",
+  "uk": ""
+ },
+ "ESTATE_NAME_WITH_ICON": {
+  "en": "$ICON$ $NAME$",
+  "uk": ""
+ },
+ "ESTATE_PRIVILEGE_MODIFIER": {
+  "en": "[estate_privilege_icon] $ESTATE_PRIVILEGE$",
+  "uk": ""
+ },
+ "ESTATE_PRIVILEGE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [ESTATE_PRIVILEGE.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [ESTATE_PRIVILEGE.GetName]"
+ },
+ "FOOD_CONSUMPTION_PENALTY_DUE_TO": {
+  "en": "#R Food Consumption Penalty#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!",
+  "uk": ""
+ },
+ "FOOD_CONSUMPTION_PENALTY_TO_WEIGHT": {
+  "en": "#T Food Consumption Penalty#!\\n$VAL|2%$ due to Lack of Supply in [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nNeeded: $NEED|2V$",
+  "uk": ""
+ },
+ "FROZEN_ATTRITION": {
+  "en": "[frozen|e] Sea: $VALUE|2-=$",
+  "uk": "[Concept('frozen','заморожено')|e] море: $VALUE|2%-=$"
+ },
+ "FROZEN_TOOLTIP": {
+  "en": "[frozen|e]",
+  "uk": "[Concept('frozen','заморожено')|e]"
+ },
+ "GEOGRAPHY_AREA": {
+  "en": "$BULLET$$NUM$ [areas|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_CONTINENT": {
+  "en": "$BULLET$$NUM$ [continents|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_AREA": {
+  "en": "#L [AREA.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_CONTINENT": {
+  "en": "#L [CONTINENT.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_LOCATION": {
+  "en": "#L [LOCATION.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_PROVINCE_DEFINITION": {
+  "en": "#L [PROVINCE_DEFINITION.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_REGION": {
+  "en": "#L [REGION.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_ENTRY_SUB_CONTINENT": {
+  "en": "#L [SUB_CONTINENT.GetName]#!",
+  "uk": ""
+ },
+ "GEOGRAPHY_IN_SCRIPTED_GEOGRAPHY": {
+  "en": "[ScriptedGeography.GetName] consists of:",
+  "uk": ""
+ },
+ "GEOGRAPHY_LOCATION": {
+  "en": "$BULLET$$NUM$ [locations|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_PROVINCE_DEFINITION": {
+  "en": "$BULLET$$NUM$ [province_definitions|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_REGION": {
+  "en": "$BULLET$$NUM$ [regions|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_SUB_CONTINENT": {
+  "en": "$BULLET$$NUM$ [sub_continents|e], including $ENTRIES$.",
+  "uk": ""
+ },
+ "GEOGRAPHY_SUFFIX": {
+  "en": ", and $NUM$ others",
+  "uk": ""
+ },
+ "GET_HEIR_TITLE_STATIC": {
+  "en": "[heir|e]",
+  "uk": "[Concept('heir','спадкоємець')|e]"
+ },
+ "GOD_MODIFIER": {
+  "en": "$GOD$ [god|e]",
+  "uk": "$GOD$ [Concept('god','бог')|e]"
+ },
+ "GOVERNMENT_REFORM_MODIFIER": {
+  "en": "[government_reform_icon] $GOVERNMENT_REFORM$",
+  "uk": ""
+ },
+ "GOVERNMENT_REFORM_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to apply [GOVERNMENT_REFORM.GetName] [government_reform|e].",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість застосувати [GOVERNMENT_REFORM.GetName] [Concept('government_reform','урядова реформа')|e]."
+ },
+ "HEIR_SELECTION_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be use [HEIR_SELECTION.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб використовувати [HEIR_SELECTION.GetName]"
+ },
+ "HOLY_SITE_TT_INFO": {
+  "en": "[holy_site_type_short|e]: [HOLY_SITE.GetType.GetName]\\n[location|e]: [LOCATION.GetName]",
+  "uk": "[Concept('holy_site_type_short','священне місце')|e]: [HOLY_SITE.GetType.GetName]\\n[Concept('location','локація')|e]: [LOCATION.GetName]"
+ },
+ "HOSTILE_NAVAL_ATTRITION": {
+  "en": "Hostile Naval Batteries & Forts: $VALUE|2-=$",
+  "uk": "Ворожі морські батареї та форти: $VALUE|2%-=$"
+ },
+ "IMPASSIBLE_COLORED_LOCATION_TOOLTIP": {
+  "en": "$IMPASSIBLE_LOCATION_TOOLTIP$",
+  "uk": ""
+ },
+ "IMPASSIBLE_LOCATION_TOOLTIP": {
+  "en": "#T [LOCATION.GetName|Y]#!\\n(Impassable Terrain)\\n",
+  "uk": "#T [LOCATION.GetName|Y]#!\\n(Непрохідна місцевість)\\n"
+ },
+ "IMPASSIBLE_UNCOLORED_LOCATION_TOOLTIP": {
+  "en": "$IMPASSIBLE_LOCATION_TOOLTIP$",
+  "uk": ""
+ },
+ "INFECTION_BREAKDOWN": {
+  "en": "Infection Breakdown",
+  "uk": "Розподіл зараження"
+ },
+ "INFLUENCE_DECAY_BY": {
+  "en": "It decays by $VAL|+=$($PERC|%Y2$) each month",
+  "uk": "Занепадає на $VAL|+=$($PERC|%Y2$) кожного місяця"
+ },
+ "INFLUENCE_INC_ENTRY": {
+  "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!",
+  "uk": ""
+ },
+ "INSIDE_COLONIAL_RANGE_TT": {
+  "en": "Naval distance $VALUE|2Y$ is within our [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|G] [colonial_range|E]",
+  "uk": "Морська відстань $VALUE|2Y$ в межах нашого [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|G] [colonial_range|E]"
+ },
+ "INSIDE_NAVAL_RANGE_TT": {
+  "en": "Naval distance $VALUE|2Y$ is within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]",
+  "uk": "Морська відстань $VALUE|2Y$ в межах нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]"
+ },
+ "INSIDE_TRADE_RANGE_TT": {
+  "en": "Trade distance $VALUE|2Y$ from [Market.GetName] is within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|G] [trade_range|E].",
+  "uk": "Торговельна відстань $VALUE|2Y$ від [Market.GetName] в межах нашого [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|G] [trade_range|E]."
+ },
+ "INSTITUTION_INFO": {
+  "en": "[INSTITUTION.GetName]: $VAL|Y2/%$",
+  "uk": ""
+ },
+ "INTEGRATION_INFO": {
+  "en": "[integration_status|e]: $NAME|Y$",
+  "uk": "[Concept('integration_status','статус інтеграції')|e]: $NAME|Y$"
+ },
+ "INTEGRATION_PROGRESS": {
+  "en": "\\nCurrently $CURR|/%2Y$ Integrated. ($VAL|+=/2%$ monthly) which is expected to be done at $WHEN|Y$.",
+  "uk": "\\nНаразі інтегровано на $CURR|/%2Y$. ($VAL|+=/2%$ щомісяця), очікується завершення $WHEN|Y$."
+ },
+ "INVALID_NAVAL_RANGE_TT": {
+  "en": "Not a navigable body of water",
+  "uk": "Не судноплавний водоймище"
+ },
+ "LAKE_LOCATION_TOOLTIP": {
+  "en": "[LOCATION.GetNameWithNoTooltip|Y]\\n(#Y Lake#!)\\n",
+  "uk": "[LOCATION.GetNameWithNoTooltip|Y]\\n(#Y Озеро#!)\\n"
+ },
+ "LANGUAGE_AND_DIALECT": {
+  "en": "$LANGUAGE$ ($DIALECT$ [dialect|e])",
+  "uk": "$LANGUAGE$ ($DIALECT$ [Concept('dialect','діалект')|e])"
+ },
+ "LANGUAGE_FAMILY_HAS_LANGUAGES": {
+  "en": "[languages|e]: $LIST$.",
+  "uk": "[Concept('languages','мови')|e]: $LIST$."
+ },
+ "LANGUAGE_FAMILY_HAS_NO_LANGUAGES": {
+  "en": "[languages|e]: None",
+  "uk": "[Concept('languages','мови')|e]: Немає"
+ },
+ "LANGUAGE_FAMILY_TT_LANGUAGES_NONE": {
+  "en": "[languages|e]: None",
+  "uk": "[Concept('languages','мови')|e]: Немає"
+ },
+ "LANGUAGE_FAMILY_TT_LANGUAGES_PLURAL": {
+  "en": "[languages|e]: $LANGUAGES$",
+  "uk": "[Concept('languages','мови')|e]: $LANGUAGES$"
+ },
+ "LANGUAGE_FAMILY_TT_LANGUAGES_SINGULAR": {
+  "en": "[language|e]: $LANGUAGES$",
+  "uk": "[Concept('language','мова')|e]: $LANGUAGES$"
+ },
+ "LANGUAGE_FAMILY_TT_LANGUAGES_TITLE": {
+  "en": "[languages|e]:",
+  "uk": "[Concept('languages','мови')|e]:"
+ },
+ "LANGUAGE_HAS_COMMON_LANGUAGES_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]: $POP_LANGUAGE_SIZE$@population!",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_COMMON_LANGUAGES_PLURAL_LARGE": {
+  "en": "And $NUM$ more for a total: $VAL|Y$@population!",
+  "uk": "І ще $NUM$ для загалом: $VAL|Y$@population!"
+ },
+ "LANGUAGE_HAS_COMMON_LANGUAGES_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_COURT_LANGUAGES_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_COURT_LANGUAGES_PLURAL_LARGE": {
+  "en": "And $NUM$ more.",
+  "uk": "І ще $NUM$."
+ },
+ "LANGUAGE_HAS_COURT_LANGUAGES_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_COURT_LANGUAGES_TOOLTIP": {
+  "en": "[court_language|e] [Language.GetNameWithNoTooltip] for the following [countries|e]:",
+  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','країни')|e]:"
+ },
+ "LANGUAGE_HAS_CULTURES_PLURAL": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is used by the $LIST$ [cultures|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] використовується $LIST$ [Concept('cultures','культури')|e]."
+ },
+ "LANGUAGE_HAS_CULTURES_SINGULAR": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is used by the $LIST$ [culture|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] використовується $LIST$ [Concept('culture','культура')|e]."
+ },
+ "LANGUAGE_HAS_DIALECTS": {
+  "en": "[dialects|e]: $LIST$",
+  "uk": "[Concept('dialects','діалекти')|e]: $LIST$"
+ },
+ "LANGUAGE_HAS_LITURGICAL_LANGUAGES_PLURAL": {
+  "en": "[COUNTRY.GetNameWithFlag]",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_LITURGICAL_LANGUAGES_PLURAL_LARGE": {
+  "en": "And $NUM$ more.",
+  "uk": "І ще $NUM$."
+ },
+ "LANGUAGE_HAS_LITURGICAL_LANGUAGES_SINGULAR": {
+  "en": "$LIST$",
+  "uk": ""
+ },
+ "LANGUAGE_HAS_MARKETS_PLURAL": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is the [market_language|e] for the $LIST$ [markets|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] є [Concept('market_language','мова ринку')|e] для $LIST$ [Concept('markets','ринки')|e]."
+ },
+ "LANGUAGE_HAS_MARKETS_SINGULAR": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is the [market_language|e] for the $LIST$ [market|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] є [Concept('market_language','мова ринку')|e] для $LIST$ [Concept('market','ринок')|e]."
+ },
+ "LANGUAGE_HAS_NO_COMMON_LANGUAGES": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [common_language|e] by any [country|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('common_language','спільна мова')|e] жодною [Concept('country','країна')|e]."
+ },
+ "LANGUAGE_HAS_NO_COURT_LANGUAGES": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [court_language|e] by any [country|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','країна')|e]."
+ },
+ "LANGUAGE_HAS_NO_CULTURES": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently used by any [cultures|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] наразі не використовується жодною [Concept('cultures','культури')|e]."
+ },
+ "LANGUAGE_HAS_NO_DIALECTS": {
+  "en": "No [dialects|e].",
+  "uk": "Немає [Concept('dialects','діалекти')|e]."
+ },
+ "LANGUAGE_HAS_NO_LITURGICAL_LANGUAGES": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [liturgical_language|e] by any [country|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','країна')|e]."
+ },
+ "LANGUAGE_HAS_NO_MARKETS": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently the [market_language|e] of any [market|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] наразі не є [Concept('market_language','мова ринку')|e] жодного [Concept('market','ринок')|e]."
+ },
+ "LANGUAGE_HAS_NO_RELIGIONS": {
+  "en": "Is not the [liturgical_language|e] of any [country|e].",
+  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','країна')|e]."
+ },
+ "LANGUAGE_HAS_NO_RELIGION_DEFINITIONS": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently the [liturgical_language|e] of any [religion|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] наразі не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('religion','релігія')|e]."
+ },
+ "LANGUAGE_HAS_RELIGIONS_PLURAL": {
+  "en": "Is the [liturgical_language|e] for $LIST$.",
+  "uk": "Є [Concept('liturgical_language','літургійна мова')|e] для $LIST$."
+ },
+ "LANGUAGE_HAS_RELIGIONS_SINGULAR": {
+  "en": "Is the [liturgical_language|e] for $LIST$.",
+  "uk": "Є [Concept('liturgical_language','літургійна мова')|e] для $LIST$."
+ },
+ "LANGUAGE_HAS_RELIGION_COUNTRIES": {
+  "en": "all [countries|e] with $RELIGION_ADJECTIVES$ [primary_religion|e]",
+  "uk": "всіх [Concept('countries','країни')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
+ },
+ "LANGUAGE_HAS_RELIGION_DEFINITIONS_PLURAL": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is the [liturgical_language|e] for the $LIST$ [religions|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] є [Concept('liturgical_language','літургійна мова')|e] для $LIST$ [Concept('religions','релігії')|e]."
+ },
+ "LANGUAGE_HAS_RELIGION_DEFINITIONS_SINGULAR": {
+  "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is the [liturgical_language|e] for the $LIST$ [religion|e].",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] є [Concept('liturgical_language','літургійна мова')|e] для $LIST$ [Concept('religion','релігія')|e]."
+ },
+ "LANGUAGE_LANGUAGE_FAMILY": {
+  "en": "[language_family|e]: [LANGUAGE_FAMILY.GetName]",
+  "uk": "[Concept('language_family','мовна сім'я')|e]: [LANGUAGE_FAMILY.GetName]"
+ },
+ "LANGUAGE_LANGUAGE_FAMILY_ISOLATED": {
+  "en": "[language_family|e]: [isolated_language_short|e]",
+  "uk": "[Concept('language_family','мовна сім'я')|e]: [Concept('isolated_language_short','ізольована мова')|e]"
+ },
+ "LANGUAGE_POWER_BREAKDOWN": {
+  "en": "[LANGUAGE.GetNameWithNoTooltip] has a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$\\n\\n",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] має силу $VAL|2G$, тоді як [TARGET_LANGUAGE.GetName] має $HIGH|Y2$\\n\\n"
+ },
+ "LANGUAGE_POWER_BREAKDOWN_SECOND": {
+  "en": "$PERC|V%2$ power due to [LANGUAGE.GetNameWithNoTooltip] having a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$.",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_CLERGY_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$CLERGY|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$CLERGY|Y$ у [COUNTRY.GetName]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_CLERGY_HEAD": {
+  "en": "#T For every #V 1,000#! [ShowPopTypeName('clergy')] [pops|e] of the [primary_religion|e] where its the [liturgical_language|e] gives $VAL|2Y$#!",
+  "uk": "#T За кожні #V 1 000#! [ShowPopTypeName('clergy')] [Concept('pops','населення')|e] [Concept('primary_religion','основна релігія')|e], де це [Concept('liturgical_language','літургійна мова')|e], дає $VAL|2Y$#!"
+ },
+ "LANGUAGE_POWER_CLERGY_OTHER": {
+  "en": "$BULLET_WITH_TAB$$CLERGY|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$CLERGY|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_COMMON_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$COMMON|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$COMMON|Y$ у [COUNTRY.GetName]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_COMMON_HEAD": {
+  "en": "#T Each [merchant_capacity|e] from [countries|e] where its the [common_language|e] gives $VAL|2Y$#!",
+  "uk": "#T Кожна [Concept('merchant_capacity','торгова спроможність')|e] від [Concept('countries','країни')|e], де це [Concept('common_language','спільна мова')|e], дає $VAL|2Y$#!"
+ },
+ "LANGUAGE_POWER_COMMON_OTHER": {
+  "en": "$BULLET_WITH_TAB$$COMMON|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$COMMON|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_COMMON_USAGE_TITLE": {
+  "en": "[merchant_capacity|E] in countries where this is the [common_language|e]",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_COURT_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$COURT|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$COURT|Y$ у [COUNTRY.GetName]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_COURT_HEAD": {
+  "en": "#T [political_power|e] of [primary_culture|e] [pops|e] scaled by the [country_rank|e] where its the [court_language|e] gives $VAL|2Y$#!",
+  "uk": "#T [Concept('political_power','політична влада')|e] [Concept('primary_culture','основна культура')|e] [Concept('pops','населення')|e], масштабована за [Concept('country_rank','ранг країни')|e], де це [Concept('court_language','мова двору')|e], дає $VAL|2Y$#!"
+ },
+ "LANGUAGE_POWER_COURT_OTHER": {
+  "en": "$BULLET_WITH_TAB$$COURT|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$COURT|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_COURT_PRESTIGE_TITLE": {
+  "en": "[primary_culture|E] [political_power|e] scaled by [country_rank|e] in countries where this is the [court_language|e]",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_CULTURAL_INFLUENCE_TITLE": {
+  "en": "[cultural_influence|E] from [cultures|e] using this [language|e]",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_CULTURE_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ from [CULTURE.GetName]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$AMOUNT|Y$ від [CULTURE.GetName]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_CULTURE_HEAD": {
+  "en": "#T Each [cultural_influence|e] from [cultures|e] using the language gives $VAL|2Y$#!",
+  "uk": "#T Кожен [Concept('cultural_influence','культурний вплив')|e] від [Concept('cultures','культури')|e], що використовують цю мову, дає $VAL|2Y$#!"
+ },
+ "LANGUAGE_POWER_CULTURE_OTHER": {
+  "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ from $NUM$ other [cultures|e]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$AMOUNT|Y$ від $NUM$ інших [Concept('cultures','культури')|e]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_LITURGICAL_REACH_TITLE": {
+  "en": "[ShowPopTypeName('clergy')] [pops|E] in countries where this is the [liturgical_language|e]",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_ENTRY": {
+  "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ [merchant_power|e] from [MARKET.GetShortName]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$AMOUNT|Y$ [Concept('merchant_power','торгова сила')|e] від [MARKET.GetShortName]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_HEAD": {
+  "en": "#T Each [merchant_power|e] from [markets|e] using the language gives $VAL|2Y$#!",
+  "uk": "#T Кожна [Concept('merchant_power','торгова сила')|e] від [Concept('markets','ринки')|e], що використовують цю мову, дає $VAL|2Y$#!"
+ },
+ "LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_OTHER": {
+  "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ [merchant_power|e] from $NUM$ other [markets|e]: $VAL|2+=$",
+  "uk": "$BULLET_WITH_TAB$$AMOUNT|Y$ [Concept('merchant_power','торгова сила')|e] від $NUM$ інших [Concept('markets','ринки')|e]: $VAL|2+=$"
+ },
+ "LANGUAGE_POWER_NO_CLERGY": {
+  "en": "$BULLET_WITH_TAB$There are no [countries|e] with it as [liturgical_language|e].",
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','країни')|e] з нею як [Concept('liturgical_language','літургійна мова')|e]."
+ },
+ "LANGUAGE_POWER_NO_COMMON": {
+  "en": "$BULLET_WITH_TAB$There are no [merchants|e] from [countries|e] with it as [common_language|e].",
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('merchants','купці')|e] від [Concept('countries','країни')|e] з нею як [Concept('common_language','спільна мова')|e]."
+ },
+ "LANGUAGE_POWER_NO_COURT": {
+  "en": "$BULLET_WITH_TAB$There are no [countries|e] with it as [court_language|e].",
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','країни')|e] з нею як [Concept('court_language','мова двору')|e]."
+ },
+ "LANGUAGE_POWER_NO_CULTURE": {
+  "en": "$BULLET_WITH_TAB$There are no [cultures|e] using this as its language.",
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('cultures','культури')|e], що використовують це як свою мову."
+ },
+ "LANGUAGE_POWER_NO_MARKET": {
+  "en": "$BULLET_WITH_TAB$There are no [markets|e] using this as its language.",
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('markets','ринки')|e], що використовують це як свою мову."
+ },
+ "LANGUAGE_POWER_TT": {
+  "en": "[language_power|E]: $VAL$",
+  "uk": ""
+ },
+ "LANGUAGE_POWER_TT_TITLE": {
+  "en": "Language Power",
+  "uk": "Сила мови"
+ },
+ "LAW_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to codify a [LAW.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість кодифікувати [LAW.GetName]"
+ },
+ "LEADING_TO_ATTRITION": {
+  "en": "#R [food_consumption] Penalty#!: #TOOLTIP:$BREAKDOWN_TAG$ $ATTRITION|RL%$#!",
+  "uk": "[Concept('attrition','виснаження')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $ATTRITION|RL%$#!"
+ },
+ "LITURGICAL_HAS_LANGUAGE": {
+  "en": "The [liturgical_language|e] in [Player.GetName] is [Player.GetLiturgicalLanguage.GetName].",
+  "uk": "[Concept('liturgical_language','літургійна мова')|e] у [Player.GetName] є [Player.GetLiturgicalLanguage.GetName]."
+ },
+ "LITURGICAL_LANGUAGE_INFO": {
+  "en": "About $VAL|%2$ of our population speak [LANGUAGE.GetName], which has the following effect on the country:\\n$EFFECT$",
+  "uk": "Близько $VAL|%2$ нашого населення розмовляє [LANGUAGE.GetName], що має наступний вплив на країну:\\n$EFFECT$"
+ },
+ "LITURGICAL_LANGUAGE_IS_FIXED": {
+  "en": "@trigger_no! The [RELIGION.GetName] religion requires [RELIGION.GetLanguage.GetName] as the [liturgical_language|e].",
+  "uk": "@trigger_no! Релігія [RELIGION.GetName] вимагає [RELIGION.GetLanguage.GetName] як [Concept('liturgical_language','літургійна мова')|e]."
+ },
+ "LITURGICAL_LANGUAGE_POWER": {
+  "en": "Power of [LANGUAGE.GetName] is $POWER|2%Y$, which gives us the following effects:\\n$POWER_EFFECT$",
+  "uk": "Сила [LANGUAGE.GetName] становить $POWER|2%Y$, що дає нам наступні ефекти:\\n$POWER_EFFECT$"
+ },
+ "LOCAL_ATTRITION_SHELTERED_BY_FORT": {
+  "en": "Sheltered in friendly [fort|e]: $VALUE|2-=$",
+  "uk": ""
+ },
+ "LOCAL_ATTRITION_SHELTERED_BY_FORT_ZOC": {
+  "en": "Within friendly [fort|e] [zone_of_control|e]: $VALUE|2-=$",
+  "uk": ""
+ },
+ "LOCAL_PROXIMITY_PROPAGATION_INFO": {
+  "en": "local [proximity|e] propagation importance to Capital: $VAL|Y$",
+  "uk": "локальна важливість поширення [Concept('proximity','близькість')|e] до столиці: $VAL|Y$"
+ },
+ "LOCATION_CLICK_BUILD_BUILDING_LATERALVIEW": {
+  "en": "Left-click to select this [location|e] to build a [BUILDING_TYPE.GetName]",
+  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для будівництва [BUILDING_TYPE.GetName]"
+ },
+ "LOCATION_CLICK_DEGRADE_RGO_LATERALVIEW": {
+  "en": "Right-click to reduce the [rgo|e] in this [location|e]",
+  "uk": "ПКМ: зменшити [Concept('rgo','ресурси')|e] у цій [Concept('location','локація')|e]"
+ },
+ "LOCATION_CLICK_DESTROY_BUILDING_LATERALVIEW": {
+  "en": "Right-click to destroy a [BUILDING_TYPE.GetName] in this [location|e]",
+  "uk": "ПКМ: знищити [BUILDING_TYPE.GetName] у цій [Concept('location','локація')|e]"
+ },
+ "LOCATION_CLICK_FOREIGN_LOCATION_LATERALVIEW": {
+  "en": "[LOCATION.GetName] is not part of [COUNTRY.GetName].",
+  "uk": "[LOCATION.GetName] не є частиною [COUNTRY.GetName]."
+ },
+ "LOCATION_CLICK_GOOD_FILTERED_LATERALVIEW": {
+  "en": "[LOCATION.GetName] does not have any [goods|e] from the current list.",
+  "uk": "[LOCATION.GetName] не має жодних [Concept('goods','товари')|e] з поточного списку."
+ },
+ "LOCATION_CLICK_HIRE_LATERALVIEW": {
+  "en": "Left-click to select this [location|e] to start hiring [mercenaries|e] here\\nRight click to select this [location|e] to remove an ongoing hiring",
+  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку найму [Concept('mercenaries','найманці')|e] тут\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого найму"
+ },
+ "LOCATION_CLICK_IMPORT_EXPORT_LATERALVIEW": {
+  "en": "Left-click to select this [market|e] to start an $IMPORT$",
+  "uk": "ЛКМ: обрати цей [Concept('market','ринок')|e] для початку $IMPORT$"
+ },
+ "LOCATION_CLICK_INSTRUCTION": {
+  "en": "Left-click to select [location|e]\\nRight click to open [diplomacy|e] with the [owner|e]",
+  "uk": "ЛКМ: обрати [Concept('location','локація')|e]\\nПКМ: відкрити [Concept('diplomacy','дипломатія')|e] з [Concept('owner','власник')|e]"
+ },
+ "LOCATION_CLICK_INSTRUCTION_LOBBY": {
+  "en": "Left-click to select to play as The [COUNTRY.GetLongNameWithNoTooltip]",
+  "uk": "ЛКМ: обрати гру за [COUNTRY.GetLongNameWithNoTooltip]"
+ },
+ "LOCATION_CLICK_INSTRUCTION_ONLY_SELECT": {
+  "en": "Left-click to select [location|e]",
+  "uk": "ЛКМ: обрати [Concept('location','локація')|e]"
+ },
+ "LOCATION_CLICK_INSTRUCTION_WATER": {
+  "en": "Left-click to select [seazone|e]",
+  "uk": "ЛКМ: обрати [Concept('seazone','морська зона')|e]"
+ },
+ "LOCATION_CLICK_INSTRUCTION_ZOOM": {
+  "en": "Left-click to select [country|e]",
+  "uk": "ЛКМ: обрати [Concept('country','країна')|e]"
+ },
+ "LOCATION_CLICK_NO_GOOD_SELECTED_LATERALVIEW": {
+  "en": "[LOCATION.GetName] does not have [GOODS.GetName].",
+  "uk": "[LOCATION.GetName] не має [GOODS.GetName]."
+ },
+ "LOCATION_CLICK_OPEN_RGO_LATERALVIEW": {
+  "en": "Left-click to check [GOODS.GetRGOName] locations",
+  "uk": "ЛКМ: перевірити локації [GOODS.GetRGOName]"
+ },
+ "LOCATION_CLICK_RECRUIT_LATERALVIEW": {
+  "en": "Left-click to select this [location|e] to start a recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
+  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку рекрутування\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого рекрутування"
+ },
+ "LOCATION_CLICK_RECRUIT_TEMPLATE_LATERALVIEW": {
+  "en": "Left-click to select this [location|e] to start a [unit_template|e] recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
+  "uk": ""
+ },
+ "LOCATION_CLICK_RISE_LATERALVIEW": {
+  "en": "Left-click to select this [location|e] to start raising [levies|e] here\\nRight click to select this [location|e] to remove an ongoing raising",
+  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку збору [Concept('levies','ополчення')|e] тут\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого збору"
+ },
+ "LOCATION_CLICK_STOP_BUILDING_LATERALVIEW": {
+  "en": "Right-click to stop building a [BUILDING_TYPE.GetName] in this [location|e]",
+  "uk": "ПКМ: зупинити будівництво [BUILDING_TYPE.GetName] у цій [Concept('location','локація')|e]"
+ },
+ "LOCATION_CLICK_UPGRADE_RGO_LATERALVIEW": {
+  "en": "Left-click to upgrade the [rgo|e] in this [location|e]",
+  "uk": "ЛКМ: покращити [Concept('rgo','ресурси')|e] у цій [Concept('location','локація')|e]"
+ },
+ "LOCATION_COLONIAL_BUILDINS": {
+  "en": "[buildings|e]: $INFO$",
+  "uk": "[Concept('buildings','будівлі')|e]: $INFO$"
+ },
+ "LOCATION_COLONIAL_CHARTER": {
+  "en": "[colonial_charter|e]: [COLONIAL_CHARTER.GetName]",
+  "uk": "[Concept('colonial_charter','колоніальна хартія')|e]: [COLONIAL_CHARTER.GetName]"
+ },
+ "LOCATION_COLONIAL_OWNED": {
+  "en": "Homeland of [COUNTRY.GetName]",
+  "uk": "Батьківщина [COUNTRY.GetName]"
+ },
+ "LOCATION_CORE_CAPITAL_TOOLTIP": {
+  "en": "The [LOCATION.GetRank.GetName] of [LOCATION.GetNameWithNoTooltip] is in the [province|e] of [LOCATION.GetProvince.GetName] and is the [capital|e] of [LOCATION.GetOwner.GetName].",
+  "uk": "[LOCATION.GetRank.GetName] [LOCATION.GetNameWithNoTooltip] знаходиться в [Concept('province','провінція')|e] [LOCATION.GetProvince.GetName] і є [Concept('capital','столиця')|e] [LOCATION.GetOwner.GetName]."
+ },
+ "LOCATION_CULTURE_TOOLTIP_HEADER": {
+  "en": "$game_concept_culture$ of [Location.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "LOCATION_DEBUG_TOOLTIP": {
+  "en": "\\n#D ID: [LOCATION.GetId] [LOCATION.GetTag]#!",
+  "uk": ""
+ },
+ "LOCATION_DISEASE_HEADER": {
+  "en": "Diseases in [Location.GetNameWithNoTooltip]",
+  "uk": "Хвороби в [Location.GetNameWithNoTooltip]"
+ },
+ "LOCATION_ENTRY_IN_PROV_UI": {
+  "en": " •  The [LOCATION.GetRank.GetName] of [LOCATION.GetName|Y] owned by [LOCATION.GetOwner.GetName].",
+  "uk": " •  [LOCATION.GetRank.GetName] [LOCATION.GetName|Y], якою володіє [LOCATION.GetOwner.GetName]."
+ },
+ "LOCATION_ENTRY_IN_PROV_UI_UNOWNED": {
+  "en": " •  [LOCATION.GetName|Y] currently not owned by a country.",
+  "uk": " •  [LOCATION.GetName|Y] наразі не належить жодній країні."
+ },
+ "LOCATION_MOVEMENTS_HEADER": {
+  "en": "Movements in [Location.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "LOCATION_MOVEMENTS_INFO_HEADER": {
+  "en": "#col_t Location#! #col_t Movement#! #col_t Followers#!",
+  "uk": ""
+ },
+ "LOCATION_NAME_WITH_ICON": {
+  "en": "@location! $NAME$",
+  "uk": ""
+ },
+ "LOCATION_NATURAL_GROWTH_ENTRY": {
+  "en": "[LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $NATURAL_GROWTH$#!",
+  "uk": ""
+ },
+ "LOCATION_NEWGAME_NOT_OWNER_TOOLTIP": {
+  "en": "",
+  "uk": ""
+ },
+ "LOCATION_NEWGAME_OWNER_TOOLTIP": {
+  "en": "#T [COUNTRY.GetLongNameWithFlag]#!",
+  "uk": ""
+ },
+ "LOCATION_NEWGAME_OWNER_TOOLTIP_MANY": {
+  "en": "#T Multiple Countries#!\\n$EXTRA$",
+  "uk": "#T Кілька країн#!\\n$EXTRA$"
+ },
+ "LOCATION_NEWGAME_TOOLTIP": {
+  "en": "#T [LOCATION.GetNameWithNoTooltip]#!$OWNERSHIP$\\n",
+  "uk": ""
+ },
+ "LOCATION_NOOWNER_TOOLTIP": {
+  "en": "[LOCATION.GetNameWithNoTooltip] is in [LOCATION.GetProvinceDefinition.GetName], and is not owned by anyone.",
+  "uk": "[LOCATION.GetNameWithNoTooltip] знаходиться в [LOCATION.GetProvinceDefinition.GetName] і не належить нікому."
+ },
+ "LOCATION_NO_MOVEMENTS_INFO": {
+  "en": "[LOCATION.GetNameWithNoTooltip] doesn't have any movements at this moment.",
+  "uk": ""
+ },
+ "LOCATION_OCCUPIED": {
+  "en": "\\nPart of [LOCATION.GetOwner.GetLongNameWithFlag|U] but [occupied|e] by [LOCATION.GetController.GetLongNameWithFlag|U]",
+  "uk": "\\nЧастина [LOCATION.GetOwner.GetLongNameWithFlag|U], але [Concept('occupied','окуповано')|e] [LOCATION.GetController.GetLongNameWithFlag|U]"
+ },
+ "LOCATION_OWNER": {
+  "en": "\\n[owner|e]: [LOCATION.GetOwner.GetLongNameWithFlag|U]",
+  "uk": "\\n[Concept('owner','власник')|e]: [LOCATION.GetOwner.GetLongNameWithFlag|U]"
+ },
+ "LOCATION_OWNER_TOOLTIP": {
+  "en": "The [LOCATION.GetRank.GetName] of [LOCATION.GetNameWithNoTooltip] is in the [province|e] of [LOCATION.GetProvince.GetName] and is [owned|e] by [LOCATION.GetOwner.GetName].",
+  "uk": "[LOCATION.GetRank.GetName] [LOCATION.GetNameWithNoTooltip] знаходиться в [Concept('province','провінція')|e] [LOCATION.GetProvince.GetName] і [Concept('owned','у володінні')|e] [LOCATION.GetOwner.GetName]."
+ },
+ "LOCATION_OWNER_TT": {
+  "en": "Owner",
+  "uk": "Власник"
+ },
+ "LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY": {
+  "en": "$MOVETYPE$: $POP_CHANGE$",
+  "uk": ""
+ },
+ "LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_MIGRATION": {
+  "en": "$MOVETYPE$: #TOOLTIP:$BREAKDOWN_TAG$ $POP_CHANGE$#!",
+  "uk": ""
+ },
+ "LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_MIGRATION_TITLE_IN": {
+  "en": "Migration into $LOCATION$",
+  "uk": "Міграція до $LOCATION$"
+ },
+ "LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_MIGRATION_TITLE_OUT": {
+  "en": "Migration out of $LOCATION$",
+  "uk": "Міграція з $LOCATION$"
+ },
+ "LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_REPRODUCTION": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $MOVETYPE|L$: $POP_CHANGE$#!",
+  "uk": ""
+ },
+ "LOCATION_POPULATION_GROWTH_ENTRY": {
+  "en": "[LOCATION.GetName]: [LOCATION.GetPopulationChangeLabel]",
+  "uk": ""
+ },
+ "LOCATION_POPULATION_GROWTH_LABEL": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $POP_CHANGE|L$#!",
+  "uk": ""
+ },
+ "LOCATION_RANK_CAPITAL_MODIFIER": {
+  "en": "[capital|e] has $LOCATION_RANK$ [location_rank|e]",
+  "uk": ""
+ },
+ "LOCATION_RANK_MODIFIER": {
+  "en": "$LOCATION_RANK$ [location_rank|e]",
+  "uk": "$LOCATION_RANK$ [Concept('location_rank','ранг локації')|e]"
+ },
+ "LOCATION_RELIGION_TOOLTIP_HEADER": {
+  "en": "$game_concept_religion$ of [Location.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "LOCATION_SEAZONE_TOOLTIP": {
+  "en": "\\nType: [LOCATION.GetTopography.GetName]\\n[region|e]: [LOCATION.GetRegion.GetName]\\n[climate|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#![LOCATION.GetCurrentDirection]",
+  "uk": "\\nТип: [LOCATION.GetTopography.GetName]\\n[Concept('region','регіон')|e]: [LOCATION.GetRegion.GetName]\\n[Concept('climate','клімат')|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#![LOCATION.GetCurrentDirection]"
+ },
+ "LOCATION_SUPPLY_LIMIT": {
+  "en": "[supply_limit|e]: [LOCATION.GetSupplyLimitLabel]",
+  "uk": "[Concept('supply_limit','ліміт постачання')|e]: [LOCATION.GetSupplyLimitLabel]"
+ },
+ "LOCATION_SUPPLY_MISSING_STRENGTH": {
+  "en": "Some [units] are missing [strength]\\n$BULLET$Weight at full strength: $VAL|R$",
+  "uk": ""
+ },
+ "LOCATION_TOOLTIP": {
+  "en": "#T [LOCATION.GetName]#!",
+  "uk": ""
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN": {
+  "en": "[Location.GetTooltipBreakdownProperties]",
+  "uk": ""
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_CLIMATE": {
+  "en": "[climate|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#!",
+  "uk": "[Concept('climate','клімат')|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_CULTURE": {
+  "en": "[dominant_culture|e]: [Location.GetDominantCulture.GetName]",
+  "uk": "[Concept('dominant_culture','домінуюча культура')|e]: [Location.GetDominantCulture.GetName]"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_RELIGION": {
+  "en": "[dominant_religion|e]: #subtle_name [Location.GetDominantReligion.GetNameNoUnderline] [Location.GetDominantReligion.GetIcon]#!",
+  "uk": "[Concept('dominant_religion','домінуюча релігія')|e]: #subtle_name [Location.GetDominantReligion.GetNameNoUnderline] [Location.GetDominantReligion.GetIcon]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_FOOD": {
+  "en": "[food|e]: #subtle_name [Location.GetFoodsOutputWithLabel]#!@food!",
+  "uk": "[Concept('food','їжа')|e]: #subtle_name [Location.GetFoodsOutputWithLabel]#!@food!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_MARKET": {
+  "en": "[market|e]: [Location.GetMarket.GetShortName]",
+  "uk": "[Concept('market','ринок')|e]: [Location.GetMarket.GetShortName]"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_POPULATION": {
+  "en": "[population|e]: #subtle_name [Location.GetTotalPopulationWithBreakDown]#!",
+  "uk": "[Concept('population','населення')|e]: #subtle_name [Location.GetTotalPopulationWithBreakDown]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_QUAKE": {
+  "en": " : #subtle_name Earthquake Zone@earthquake!#!",
+  "uk": " : #subtle_name Сейсмічна зона@earthquake!#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_RAW_MATERIAL": {
+  "en": "[raw_material|e]: #subtle_name [Location.GetRawMaterial.GetNameNoUnderline]#! [Location.GetRawMaterial.GetIcon]",
+  "uk": "[Concept('raw_material','сировина')|e]: #subtle_name [Location.GetRawMaterial.GetNameNoUnderline]#! [Location.GetRawMaterial.GetIcon]"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_SUPPLY_LIMIT": {
+  "en": "[supply_limit|e]: #subtle_name [Location.GetSupplyLimitLabel]#!",
+  "uk": "[Concept('supply_limit','ліміт постачання')|e]: #subtle_name [Location.GetSupplyLimitLabel]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_TAX": {
+  "en": "[tax_base|e]: [Location.GetTaxBaseLabel]",
+  "uk": "[Concept('tax_base','податкова база')|e]: [Location.GetTaxBaseLabel]"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_TOPOGRAPHY": {
+  "en": "[topography|e]: #subtle_name [Location.GetTopography.GetNameNoUnderline] [Location.GetTopography.GetIcon]#!",
+  "uk": "[Concept('topography','топографія')|e]: #subtle_name [Location.GetTopography.GetNameNoUnderline] [Location.GetTopography.GetIcon]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_VEGETATION": {
+  "en": "[vegetation|e]: #subtle_name [Location.GetVegetation.GetNameNoUnderline] [Location.GetVegetation.GetIcon]#!",
+  "uk": "[Concept('vegetation','рослинність')|e]: #subtle_name [Location.GetVegetation.GetNameNoUnderline] [Location.GetVegetation.GetIcon]#!"
+ },
+ "LOCATION_TOOLTIP_BREAKDOWN_VOLCANO": {
+  "en": " : #subtle_name Volcano Present@volcano!#!",
+  "uk": " : #subtle_name Вулкан присутній@volcano!#!"
+ },
+ "LOCATION_TOOLTIP_MARITIME": {
+  "en": "[maritime_presence|E] of [COUNTRY.GetName]: $VAL|Y/%2$",
+  "uk": ""
+ },
+ "LOCATION_TOOLTIP_MARITIME_NONE": {
+  "en": "[COUNTRY.GetName] has no [maritime_presence|E]",
+  "uk": "[COUNTRY.GetName] не має [maritime_presence|E]"
+ },
+ "LOCATION_TOOLTIP_NOT_OWNED": {
+  "en": "This [location] is not [owned|e] by any [country|e].",
+  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','країна')|e]."
+ },
+ "LOCATION_TOOLTIP_NOT_OWNED_FOOD": {
+  "en": "This [location] is not [owned|e] by any [country|e], and consequently is not currently producing or storing [food|e] @food!.",
+  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','країна')|e], і тому наразі не виробляє та не зберігає [Concept('food','їжа')|e] @food!."
+ },
+ "LOCATION_TOOLTIP_OCCUPIED": {
+  "en": "[occupied|e] by [Location.GetController.GetLongNameWithFlag].",
+  "uk": "[Concept('occupied','окуповано')|e] [Location.GetController.GetLongNameWithFlag]."
+ },
+ "MAPMODE_MILITARY_ACCESS_LOCATION_TT": {
+  "en": "$COUNTRY$ is giving [military_access|e] to $OTHER$",
+  "uk": "$COUNTRY$ надає [Concept('military_access','військовий доступ')|e] $OTHER$"
+ },
+ "MAPMODE_TRUCE_LOCATION_TT": {
+  "en": "$COUNTRY$ has a truce with $OTHER$ until $DATE|V$.",
+  "uk": "$COUNTRY$ має перемир'я з $OTHER$ до $DATE|V$."
+ },
+ "MARITIME_LOC_TT_TITLE": {
+  "en": "Maritime Presence in [Location.GetNameWithNoTooltip] $MAP_TT_OWNER_SUFFIX$",
+  "uk": "Морська присутність у [Location.GetNameWithNoTooltip] $MAP_TT_OWNER_SUFFIX$"
+ },
+ "MARITIME_PRESENCE_INLAND_TXT": {
+  "en": "No Maritime Presence\\n$BULLET_WITH_TAB$This is a land location",
+  "uk": "Немає морської присутності\\n$BULLET_WITH_TAB$Це сухопутна локація"
+ },
+ "MARITIME_PRESENCE_LABEL_ENTRY": {
+  "en": "[COUNTRY.GetLongNameWithFlag]: $VAL$($CHANGE|+=$)",
+  "uk": ""
+ },
+ "MARITIME_PRESENCE_SEA_HEADR_LABEL": {
+  "en": "The following have a [maritime_presence] in [LOCATION.GetNameWithNoTooltip]",
+  "uk": "Наступні мають [maritime_presence] у [LOCATION.GetNameWithNoTooltip]"
+ },
+ "MARITIME_PRESENCE_SEA_NONE_HERE": {
+  "en": "No Maritime Presence\\n$BULLET_WITH_TAB$There is none here at open sea.",
+  "uk": "Немає морської присутності\\n$BULLET_WITH_TAB$Тут немає нікого у відкритому морі."
+ },
+ "MARITIME_PRESENCE_SEA_NONE_PORT_HERE": {
+  "en": "No Maritime Presence\\n$BULLET_WITH_TAB$There is none at [LOCATION.GetName].",
+  "uk": "Немає морської присутності\\n$BULLET_WITH_TAB$У [LOCATION.GetName] немає нікого."
+ },
+ "MARKET_ADJACENT_DISTANCE": {
+  "en": "Market Access lost from transportation over this segment is $DISTANCE|-2%$ due to",
+  "uk": "Втрата доступу до ринку від транспортування через цей сегмент становить $DISTANCE|-2%$ через"
+ },
+ "MARKET_ADJACENT_NAME": {
+  "en": "Market access between locations",
+  "uk": "Доступ до ринку між локаціями"
+ },
+ "MERCENARY_QUANTITY_MEN": {
+  "en": "$MEN$@army_strength!",
+  "uk": ""
+ },
+ "MERCENARY_QUANTITY_SAILORS": {
+  "en": "$MEN$@sailors!",
+  "uk": ""
+ },
+ "MERCENARY_QUANTITY_SHIPS": {
+  "en": "$NUM$@navy_strength!",
+  "uk": ""
+ },
+ "MOVEMENT_PRESENCE_LOCATION_TOOLTIP": {
+  "en": "#col [LOCATION.GetName]#! #col_m [MOVEMENT.GetName]#! #col $AFFECTED$ [pops|e] out of $TOTAL$ ($VAL|%2$)#!",
+  "uk": ""
+ },
+ "MOVEMENT_PRESENCE_POP_TOOLTIP": {
+  "en": "[POP.GetName]: [MOVEMENT.GetName]: $AFFECTED$ [pops|e] are followers out of $TOTAL$",
+  "uk": ""
+ },
+ "MOVEMENT_PRESENCE_SUB_UNIT_TOOLTIP": {
+  "en": "[SUBUNIT.GetName]: [MOVEMENT.GetName]: $AFFECTED$ troops are followers out of $TOTAL$",
+  "uk": ""
+ },
+ "MOVEMENT_PRESENCE_UNIT_TOOLTIP": {
+  "en": "[UNIT.GetName]: [MOVEMENT.GetName]: $NUM|Y$ sub units affected, $AFFECTED$ troops out of $TOTAL$",
+  "uk": ""
+ },
+ "MOVEMENT_RESISTANCES_LABEL": {
+  "en": "$game_concept_movement$ resistances in the [location|e]",
+  "uk": ""
+ },
+ "MOVEMENT_RESISTANCE_VALUE": {
+  "en": "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|L1%$#!",
+  "uk": ""
+ },
+ "NAVAL_DAYS_AT_SEA": {
+  "en": "Days at Sea: $VAL|2/-=$",
+  "uk": "Днів у морі: $VAL|2-=$"
+ },
+ "NAVAL_RANGE_MAPMODE_LAND_NOT_ON_NAVAL_GRAPH_TT": {
+  "en": "This [location|e] is not a [port|e] or [seazone|e] on the naval routing map, so it has no naval path distance from our [country|e].",
+  "uk": ""
+ },
+ "NAVY_FROZEN_ATTRITION": {
+  "en": "Stuck in [frozen|e] Sea: $VALUE|2/-=$",
+  "uk": "Застряг у [Concept('frozen','заморожено')|e] морі: $VALUE|2/-=$"
+ },
+ "NAVY_LEVY_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to raise a [LEVY_SETUP.GetName] [navy_levy|E]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість зібрати [LEVY_SETUP.GetName] [navy_levy|E]"
+ },
+ "NAVY_NAME_WITH_ICON": {
+  "en": "@sailors! $NAME$",
+  "uk": ""
+ },
+ "NOT_INSIDE_COLONIAL_RANGE_TT": {
+  "en": "@trigger_no! Naval distance $VALUE|2R$ is NOT within our [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|Y] [colonial_range|E]",
+  "uk": "@trigger_no! Морська відстань $VALUE|2R$ НЕ в межах нашого [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|Y] [colonial_range|E]"
+ },
+ "NOT_INSIDE_NAVAL_RANGE_TT": {
+  "en": "@trigger_no! Naval distance $VALUE|2R$ is NOT within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]",
+  "uk": "@trigger_no! Морська відстань $VALUE|2R$ НЕ в межах нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]"
+ },
+ "NOT_INSIDE_TRADE_RANGE_TT": {
+  "en": "@trigger_no! Trade distance $VALUE|2R$ from [Market.GetName] is NOT within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E].",
+  "uk": "@trigger_no! Торговельна відстань $VALUE|2R$ від [Market.GetName] НЕ в межах нашого [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]."
+ },
+ "NOT_POSSIBLE_WHILE_EVENT_WINDOW_SHOWN": {
+  "en": "@trigger_no! It is not possible to do this while an event demands our attention.\\n",
+  "uk": "@trigger_no! Неможливо зробити це, поки подія вимагає нашої уваги.\\n"
+ },
+ "NO_ACTIVE_EMPLOYMENT_SYSTEM": {
+  "en": "We currently don't have any [employment_system|e] active.",
+  "uk": "Наразі у нас немає жодної активної [Concept('employment_system','система зайнятості')|e]."
+ },
+ "NO_AVAILABLE_TARGETS": {
+  "en": "@trigger_no! No available targets",
+  "uk": "@trigger_no! Немає доступних цілей"
+ },
+ "NO_AVAILABLE_TARGETS_WITH_REASON": {
+  "en": "@trigger_no! $REASON$",
+  "uk": ""
+ },
+ "NO_COUNTRIES_WITH_CULTURE": {
+  "en": "No [countries|e] currently have this as their [primary_culture|e].",
+  "uk": "Жодна [Concept('countries','країни')|e] наразі не має цього як свою [Concept('primary_culture','основна культура')|e]."
+ },
+ "NO_CULTURAL_MAINTENANCE_ENABLED": {
+  "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to invest in [culture|e]!",
+  "uk": "@trigger_no! Нам потрібно дослідити [ADVANCE_DEFINITION.GetName] [Concept('advance','покращення')|e], щоб мати можливість інвестувати в [Concept('culture','культура')|e]!"
+ },
+ "NO_EFFECT": {
+  "en": "(no current effect)",
+  "uk": "(немає поточного ефекту)"
+ },
+ "NO_EFFECT_NONE": {
+  "en": "#V None.#!",
+  "uk": "#V Немає.#!"
+ },
+ "NO_PATH_AVAILABLE": {
+  "en": "@trigger_no! There is no valid path to the target location.",
+  "uk": ""
+ },
+ "NO_PORT_TO_TRACE_FLEET_FROM": {
+  "en": "We have no [port|e] to trace a naval range from.",
+  "uk": "У нас немає [Concept('port','порт')|e] для відстеження морського діапазону."
+ },
+ "OMEN_MODIFIER": {
+  "en": "$OMEN$ [omen|e]",
+  "uk": ""
+ },
+ "ONLY_OVERLORD_COURT_LANGAUGE": {
+  "en": "@trigger_no! As a $SUBJECT_TYPE$ of $OVERLORD$, we can only use their [court_language|e], which is [LANGUAGE.GetName].",
+  "uk": "@trigger_no! Як $SUBJECT_TYPE$ $OVERLORD$, ми можемо використовувати лише їхню [Concept('court_language','мова двору')|e], якою є [LANGUAGE.GetName]."
+ },
+ "OPEN_ADVANCES_AGES_TAB": {
+  "en": "Show Ages",
+  "uk": "Показати епохи"
+ },
+ "OPEN_KNOWN_COUNTRIES_TAB": {
+  "en": "Open Known Countries",
+  "uk": ""
+ },
+ "OPEN_SEA_AREA_TOOLTIP": {
+  "en": "[AREA.GetNameWithNoTooltip]: Open [seazones|e] area",
+  "uk": "[AREA.GetNameWithNoTooltip]: Область відкритого [Concept('seazones','морські зони')|e]"
+ },
+ "OPEN_WORKS_OF_ART_TAB": {
+  "en": "Show Works of Art",
+  "uk": "Показати твори мистецтва"
+ },
+ "OTHER_ON_SELECTED_CULTURE_OPINION": {
+  "en": "Other [cultures|e] view of [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] [culture|e]",
+  "uk": "Погляд інших [Concept('cultures','культури')|e] на [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] [Concept('culture','культура')|e]"
+ },
+ "OTHER_ON_SELECTED_RELIGION_OPINION": {
+  "en": "Other [cultures|e] view of [CountryReligionLateralView.GetReligion.GetNameWithNoTooltip] religions",
+  "uk": "Погляд інших [Concept('cultures','культури')|e] на релігії [CountryReligionLateralView.GetReligion.GetNameWithNoTooltip]"
+ },
+ "OUTSIDE_OF_NAVAL_RANGE_ATTRITION": {
+  "en": "Outside of naval range: $VALUE|2/-=$",
+  "uk": "Поза межами морського діапазону: $VALUE|2%-=$"
+ },
+ "PARLIAMENT_TYPE_MODIFIER": {
+  "en": "[parliament_type_icon] $NAME$",
+  "uk": ""
+ },
+ "POLICY_MODIFIER": {
+  "en": "[policy_icon] $POLICY$",
+  "uk": ""
+ },
+ "POLICY_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to choose [POLICY.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість обрати [POLICY.GetName]"
+ },
+ "PRODUCTION_METHOD_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to use [PRODUCTION_METHOD.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість використовувати [PRODUCTION_METHOD.GetName]"
+ },
+ "PROVICNE_AND_THE_FOLLOWING": {
+  "en": "And includes the following [locations|e]",
+  "uk": "І включає наступні [Concept('locations','локації')|e]"
+ },
+ "PROVINCE_CAPITAL": {
+  "en": "The capital is the [LOCATION.GetRank.GetName] of [LOCATION.GetName|Y]",
+  "uk": "Столицею є [LOCATION.GetRank.GetName] [LOCATION.GetName|Y]"
+ },
+ "PROVINCE_CAPITAL_TOOLTIP": {
+  "en": "[province_capital_icon]",
+  "uk": ""
+ },
+ "PROVINCE_DEFINITION_TOOLTIP": {
+  "en": "Number of [locations|e]: [PROVINCE_DEFINITION.GetNumLocations]\\n[area|e]: [PROVINCE_DEFINITION.GetArea.GetName]",
+  "uk": "Кількість [Concept('locations','локації')|e]: [PROVINCE_DEFINITION.GetNumLocations]\\n[Concept('area','область')|e]: [PROVINCE_DEFINITION.GetArea.GetName]"
+ },
+ "PROVINCE_ECONOMY_INFO": {
+  "en": "[population|e]: [Province.GetTotalPopulation]@population!\\n[tax_base|e]: [Province.GetTotalTaxBase|2]@tax_base!\\nAverage [control|e]: [Province.GetAverageControl|V%2]",
+  "uk": "[Concept('population','населення')|e]: [Province.GetTotalPopulation]@population!\\n[Concept('tax_base','податкова база')|e]: [Province.GetTotalTaxBase|2]@tax_base!\\nСередня [Concept('control','контроль')|e]: [Province.GetAverageControl|V%2]"
+ },
+ "PROVINCE_ENTRY_IN_ADM_REGION": {
+  "en": "[PROVINCE.GetName]",
+  "uk": ""
+ },
+ "PROVINCE_FOOD_INFO": {
+  "en": "The [provincial_food|e] is [PROVINCE.GetFood|0]/[PROVINCE.GetFoodCapacity|0] and it changes by [PROVINCE.GetMonthlyFoodIncludingMarket|+=1] each month.",
+  "uk": "[Concept('provincial_food','провінційна їжа')|e] становить [PROVINCE.GetFood|0]/[PROVINCE.GetFoodCapacity|0] і змінюється на [PROVINCE.GetMonthlyFoodIncludingMarket|+=1] кожного місяця."
+ },
+ "PROVINCE_FOOTER_INFO": {
+  "en": "Left-click to pan camera",
+  "uk": "ЛКМ: панорамування камери"
+ },
+ "PROVINCE_GEOGRAPHY_INFO": {
+  "en": "@province! [province_definition|e]: [Province.GetDefinition.GetName]\\n@area! [area|e]: [Province.GetArea.GetName]\\n@continent! [continent|e]: [Province.GetContinent.GetName]",
+  "uk": "@province! [Concept('province_definition','визначення провінції')|e]: [Province.GetDefinition.GetName]\\n@area! [Concept('area','область')|e]: [Province.GetArea.GetName]\\n@continent! [Concept('continent','континент')|e]: [Province.GetContinent.GetName]"
+ },
+ "PROVINCE_HEADER_INFO": {
+  "en": "It is in the [PROVINCE.GetArea.GetName] [area|e] on the [PROVINCE.GetContinent.GetName] [continent|e].",
+  "uk": "Знаходиться в [PROVINCE.GetArea.GetName] [Concept('area','область')|e] на [PROVINCE.GetContinent.GetName] [Concept('continent','континент')|e]."
+ },
+ "PROVINCE_LEVY_INFO": {
+  "en": "[army_levies|e]: [GetTotalProvinceArmyLevySize(Province.Self)]@levy!\\n[navy_levies|e]: [GetTotalProvinceNavyLevySize(Province.Self)]@naval_levy!",
+  "uk": "[Concept('army_levies','армійське ополчення')|e]: [GetTotalProvinceArmyLevySize(Province.Self)]@levy!\\n[Concept('navy_levies','морське ополчення')|e]: [GetTotalProvinceNavyLevySize(Province.Self)]@naval_levy!"
+ },
+ "PROV_DEF_MEMBERS_CORRIDENTRY": {
+  "en": "[LOCATION.GetName]: [corridor|e]",
+  "uk": "[LOCATION.GetName]: [Concept('corridor','коридор')|e]"
+ },
+ "PROV_DEF_MEMBERS_ENTRY": {
+  "en": "[LOCATION.GetRank.GetIcon] [LOCATION.GetName] [LOCATION.GetOwner.GetFlagIcon] [SelectLocalization( LOCATION.IsProvinceCapital , 'PROVINCE_CAPITAL_TOOLTIP', '' )]: [LOCATION.GetTotalPopulationWithBreakDown] [population_icon]",
+  "uk": ""
+ },
+ "PROV_DEF_MEMBERS_HEADER": {
+  "en": "The [locations|e] of [PROVINCE_DEFINITION.GetNameWithNoTooltip]",
+  "uk": "[Concept('locations','локації')|e] [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
+ },
+ "PROV_DEF_MEMBERS_IMPENTRY": {
+  "en": "[LOCATION.GetName]: [impassable|e]",
+  "uk": "[LOCATION.GetName]: [Concept('impassable','непрохідно')|e]"
+ },
+ "PROV_DEF_MEMBERS_LAKEENTRY": {
+  "en": "[LOCATION.GetName]: [lake|e]",
+  "uk": "[LOCATION.GetName]: [Concept('lake','озеро')|e]"
+ },
+ "PROV_DEF_MEMBERS_RIVERENTRY": {
+  "en": "[LOCATION.GetName]: [river|e]",
+  "uk": "[LOCATION.GetName]: [Concept('river','ріка')|e]"
+ },
+ "PROV_DEF_MEMBERS_SEAENTRY": {
+  "en": "[LOCATION.GetName]: [seazone|e]",
+  "uk": "[LOCATION.GetName]: [Concept('seazone','морська зона')|e]"
+ },
+ "PROXIMITY_ADJACENT_DISTANCE": {
+  "en": "#V Proximity cost of this segment is $DISTANCE|+=$ due to:#!\\n$BREAKDOWN$",
+  "uk": "#V Вартість близькості цього сегмента становить $DISTANCE|+=$ через:#!\\n$BREAKDOWN$"
+ },
+ "PROXIMITY_ADJACENT_DISTANCE_NUM": {
+  "en": "Proximity cost of this segment:: $DISTANCE$",
+  "uk": "Вартість близькості цього сегмента: $DISTANCE$"
+ },
+ "PROXIMITY_ADJACENT_DISTANCE_TEXT": {
+  "en": "Building [roads|e] or increasing [maritime_presence|e] will reduce the Proximity cost between [locations|e].",
+  "uk": "Будівництво [Concept('roads','дороги')|e] або збільшення [Concept('maritime_presence','морська присутність')|e] зменшить вартість близькості між [Concept('locations','локації')|e]."
+ },
+ "PROXIMITY_ADJACENT_NAME": {
+  "en": "Proximity Cost between $game_concept_locations$",
+  "uk": "Вартість близькості між $game_concept_locations$"
+ },
+ "PROXIMITY_INFO": {
+  "en": "[proximity|e] to Capital: $VAL|Y$",
+  "uk": "[Concept('proximity','близькість')|e] до столиці: $VAL|Y$"
+ },
+ "PROXIMITY_PARENT_INFO": {
+  "en": "[proximity|e] parent: $PARENT$",
+  "uk": "батько [Concept('proximity','близькість')|e]: $PARENT$"
+ },
+ "PROXIMITY_PROPAGATION_INFO": {
+  "en": "total [proximity|e] propagation importance to Capital: $VAL|Y$",
+  "uk": "загальна важливість поширення [Concept('proximity','близькість')|e] до столиці: $VAL|Y$"
+ },
+ "REGION_LIST_TITLE_TOOLTIP": {
+  "en": "List of [areas|e] in this region",
+  "uk": "Список [Concept('areas','області')|e] у цьому регіоні"
+ },
+ "REGION_TOOLTIP": {
+  "en": "[sub_continent|e]: [REGION.GetSubContinent.GetName]",
+  "uk": "[Concept('sub_continent','субконтинент')|e]: [REGION.GetSubContinent.GetName]"
+ },
+ "RELIGIONGROUP_MODIFIER": {
+  "en": "$NAME$ [religion_group|e]",
+  "uk": "$NAME$ [Concept('religion_group','релігійна група')|e]"
+ },
+ "RELIGION_FOUNDED_IN": {
+  "en": "Was founded $DATE|Y$",
+  "uk": "Була заснована $DATE|Y$"
+ },
+ "RELIGION_GROUP_ACTIVE_REL_HEADER": {
+  "en": "The [RELIGION_GROUP.GetAdjectiveWithNoTooltip] [religion_group|e] includes the following active [religions|e]",
+  "uk": "[RELIGION_GROUP.GetAdjectiveWithNoTooltip] [Concept('religion_group','релігійна група')|e] включає наступні активні [Concept('religions','релігії')|e]"
+ },
+ "RELIGION_GROUP_ACTIVE_REL_HEADER_DETAIL": {
+  "en": "[RELIGION.GetIcon] [RELIGION.GetName]",
+  "uk": ""
+ },
+ "RELIGION_GROUP_HAS_RELIGIONS": {
+  "en": "The [RELIGION_GROUP.GetAdjectiveWithNoTooltip] [religion_group|e] includes the following [religions|e]: $LIST$.",
+  "uk": "[RELIGION_GROUP.GetAdjectiveWithNoTooltip] [Concept('religion_group','релігійна група')|e] включає наступні [Concept('religions','релігії')|e]: $LIST$."
+ },
+ "RELIGION_GROUP_INACTIVE_REL_HEADER": {
+  "en": "And the following inactive [religions]",
+  "uk": "І наступні неактивні [religions]"
+ },
+ "RELIGION_GROUP_INACTIVE_REL_HEADER_DETAIL": {
+  "en": "[RELIGION.GetIcon] [RELIGION.GetName]",
+  "uk": ""
+ },
+ "RELIGION_GROUP_REL_HEADER": {
+  "en": "The [RELIGION_GROUP.GetAdjectiveWithNoTooltip] [religion_group|e] includes the following [religions|e]",
+  "uk": "[RELIGION_GROUP.GetAdjectiveWithNoTooltip] [Concept('religion_group','релігійна група')|e] включає наступні [Concept('religions','релігії')|e]"
+ },
+ "RELIGION_HAS_CARDINALS": {
+  "en": "Has a College of [cardinals|e]",
+  "uk": "Має колегію [Concept('cardinals','кардинали')|e]"
+ },
+ "RELIGION_HAS_DOOM": {
+  "en": "Allows [doom|e] to impact the country",
+  "uk": "Дозволяє [Concept('doom','рок')|e] впливати на країну"
+ },
+ "RELIGION_HAS_HONOR": {
+  "en": "Allows [honor|e] to impact the country",
+  "uk": "Дозволяє [Concept('honor','честь')|e] впливати на країну"
+ },
+ "RELIGION_HAS_IMPORTANT_COUNTRY": {
+  "en": "[COUNTRY.GetName] have special status",
+  "uk": "[COUNTRY.GetName] має особливий статус"
+ },
+ "RELIGION_HAS_INFLUENCE": {
+  "en": "Enables $NAME$",
+  "uk": "Дає змогу $NAME$"
+ },
+ "RELIGION_HAS_KARMA": {
+  "en": "Allows [karma|e] to impact the country",
+  "uk": "Дозволяє [Concept('karma','карма')|e] впливати на країну"
+ },
+ "RELIGION_HAS_LANGUAGE": {
+  "en": "The only valid [liturgical_language|e] of [Player.GetReligion.GetNameWithNoTooltip] is [Player.GetReligion.GetLanguage.GetName].",
+  "uk": "Єдиною дійсною [Concept('liturgical_language','літургійна мова')|e] [Player.GetReligion.GetNameWithNoTooltip] є [Player.GetReligion.GetLanguage.GetName]."
+ },
+ "RELIGION_HAS_PATRIARCHS": {
+  "en": "Allows [patriarchs|e] to be appointed",
+  "uk": "Дозволяє призначати [Concept('patriarchs','патріархи')|e]"
+ },
+ "RELIGION_HAS_PURITY": {
+  "en": "Allows [purity|e] to impact the country",
+  "uk": "Дозволяє [Concept('purity','чистота')|e] впливати на країну"
+ },
+ "RELIGION_HAS_RELIGIOUS_FACTIONS": {
+  "en": "Allows [religious_factions|E]",
+  "uk": "Дозволяє [religious_factions|E]"
+ },
+ "RELIGION_HAS_RELIGIOUS_FOCUSES": {
+  "en": "Allows [religious_focuses|E]",
+  "uk": "Дозволяє [religious_focuses|E]"
+ },
+ "RELIGION_HAS_RELIGIOUS_HEAD": {
+  "en": "Has an official [religious_head|E]",
+  "uk": "Має офіційного [religious_head|E]"
+ },
+ "RELIGION_HAS_RELIGIOUS_SCHOOLS": {
+  "en": "Allows [religious_schools|E]",
+  "uk": "Дозволяє [religious_schools|E]"
+ },
+ "RELIGION_HAS_YANANTIN": {
+  "en": "Allows [yanantin|e] to impact the country",
+  "uk": "Дозволяє [Concept('yanantin','янантін')|e] впливати на країну"
+ },
+ "RELIGION_IS_CULTURE_LOCKED": {
+  "en": "[pops|e] can not be [assimilated|e] before [converted|e]",
+  "uk": "[Concept('pops','населення')|e] не можуть бути [Concept('assimilated','асимільовано')|e] до [Concept('converted','конвертовано')|e]"
+ },
+ "RELIGION_MODIFIER": {
+  "en": "$RELIGION$ [primary_religion|e]",
+  "uk": ""
+ },
+ "RELIGION_NEEDS_REFORM": {
+  "en": "Needs a major [religious_reform|E]",
+  "uk": "Потребує великої [religious_reform|E]"
+ },
+ "RELIGION_NOT_ENABLED": {
+  "en": "Currently has not yet been conceived of",
+  "uk": "Наразі ще не була створена"
+ },
+ "RELIGION_OPINION_TOOLTIP": {
+  "en": "#T Religion Opinion#!\\nThe opinion of one [religion|e] towards another impact how [countries|e] behave to one another, and how the people of a certain religion accept the rule of another religion.",
+  "uk": "#T Релігійна думка#!\\nДумка однієї [Concept('religion','релігія')|e] щодо іншої впливає на те, як [Concept('countries','країни')|e] поводяться одна з одною, і як люди певної релігії приймають правління іншої релігії."
+ },
+ "RELIGION_REFORM_DESIRE": {
+  "en": "The current [reform_desire|e] of [Player.GetReligion.GetName] is [Player.GetReligion.GetReformDesire|%Y].\\nThe [reform_desire|e] is currently changing by [RELIGION.GetModifierValue('monthly_reform_desire')] each month.",
+  "uk": "Поточне [Concept('reform_desire','бажання реформ')|e] [Player.GetReligion.GetName] становить [Player.GetReligion.GetReformDesire|%Y].\\n[Concept('reform_desire','бажання реформ')|e] наразі змінюється на [RELIGION.GetModifierValue('monthly_reform_desire')] кожного місяця."
+ },
+ "RELIGION_REFORM_DESIRE_WITH_VAL": {
+  "en": "The [reform_desire|e] is $VAL|2%Y$",
+  "uk": "[Concept('reform_desire','бажання реформ')|e] становить $VAL|2%Y$"
+ },
+ "RELIGION_TOOLTIP_HEADER_BASE": {
+  "en": "Religious Breakdown",
+  "uk": "Релігійний розподіл"
+ },
+ "RELIGION_TT_INFO": {
+  "en": "The [RELIGION.GetAdjectiveWithNoTooltip] [religion|e] is part of the [RELIGION.GetGroup.GetName] [religion_group|e]",
+  "uk": "[RELIGION.GetAdjectiveWithNoTooltip] [Concept('religion','релігія')|e] є частиною [RELIGION.GetGroup.GetName] [Concept('religion_group','релігійна група')|e]"
+ },
+ "RELIGIOUS_ASPECT_MODIFIER": {
+  "en": "$RELIGIOUS_ASPECT$ [religious_aspect|e]",
+  "uk": "$RELIGIOUS_ASPECT$ [Concept('religious_aspect','релігійний аспект')|e]"
+ },
+ "RESEARCHING_ADVANCE_MODIFIER": {
+  "en": "Researching [advance_icon] $ADVANCE$ ($AGE$)",
+  "uk": "Досліджується [advance_icon] $ADVANCE$ ($AGE$)"
+ },
+ "RESISTANCES_LABEL": {
+  "en": "$game_concept_disease$ resistances in the [location|e]",
+  "uk": "Опір $game_concept_disease$ у [Concept('location','локація')|e]"
+ },
+ "RIVER_DIRECTION": {
+  "en": "[LOCATION.GetName] to [TARGET_LOCATION.GetName]: $DIRECTION|Y$",
+  "uk": "[LOCATION.GetName] до [TARGET_LOCATION.GetName]: $DIRECTION|Y$"
+ },
+ "RIVER_DIRECTION_NAME": {
+  "en": "River direction",
+  "uk": "Напрямок річки"
+ },
+ "RIVER_LOCATION_TOOLTIP": {
+  "en": "#T River#! [LOCATION.GetNameWithNoTooltip|Y]\\n[LOCATION.GetName|Y]\\n[Player.GetNavalDistanceToTooltip(LOCATION.Self)]",
+  "uk": "#T Річка#! [LOCATION.GetNameWithNoTooltip|Y]\\n[LOCATION.GetName|Y]\\n[Player.GetNavalDistanceToTooltip(LOCATION.Self)]"
+ },
+ "ROAD_TYPE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [ROAD_TYPE.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ [Concept('advance','покращення')|e], щоб мати можливість побудувати [ROAD_TYPE.GetName]"
+ },
+ "RRH_INFO_HEIR": {
+  "en": "@heir! [heir|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]",
+  "uk": "@heir! [Concept('heir','спадкоємець')|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]"
+ },
+ "RRH_INFO_REGENT": {
+  "en": "@regent! [regent|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]",
+  "uk": "@regent! [Concept('regent','регент')|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]"
+ },
+ "RRH_INFO_RULER": {
+  "en": "@ruler! [ruler|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]",
+  "uk": "@ruler! [Concept('ruler','правитель')|e]: [CHARACTER.GetNameToFit('(int32)30', '(bool)yes')]"
+ },
+ "SCRIPTED_GEOGRAPHY_NUM_OF_LOCATIONS": {
+  "en": "[ScriptedGeography.GetName] has [ScriptedGeography.GetNumberOfLocationsForScriptedGeography] [locations|e] in total.",
+  "uk": ""
+ },
+ "SCRIPTED_GEOGRAPHY_TITLE_TT": {
+  "en": "[ScriptedGeography.GetName]",
+  "uk": ""
+ },
+ "SCRIPTED_RELATION_TYPE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [SCRIPTED_RELATION_TYPE.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [SCRIPTED_RELATION_TYPE.GetName]"
+ },
+ "SEA_AREA_TOOLTIP": {
+  "en": "[AREA.GetNameWithNoTooltip]: Coastal [seazones|e] area",
+  "uk": "[AREA.GetNameWithNoTooltip]: Прибережна область [Concept('seazones','морські зони')|e]"
+ },
+ "SEA_LOCATION_TOOLTIP": {
+  "en": "#T [LOCATION.GetName]#!\\n(#Y Sea#!)\\n",
+  "uk": "#T [LOCATION.GetName]#!\\n(#Y Море#!)\\n"
+ },
+ "SEA_LOCATION_TOOLTIP_country_market": {
+  "en": "[market|e]: [LOCATION.GetMarket.GetName|Y]\\n[market_access|e]: [LOCATION.GetMarketAccessWithTooltip|%Y]\\n\\n[LOCATION.GetMarketAttractionInfo]",
+  "uk": "[Concept('market','ринок')|e]: [LOCATION.GetMarket.GetName|Y]\\n[Concept('market_access','доступ до ринку')|e]: [LOCATION.GetMarketAccessWithTooltip|%Y]\\n\\n[LOCATION.GetMarketAttractionInfo]"
+ },
+ "SEA_LOCATION_TOOLTIP_market": {
+  "en": "[market|e]: [LOCATION.GetMarket.GetName|Y]\\n[market_access|e]: [LOCATION.GetMarketAccessWithTooltip|%Y]\\n\\n[LOCATION.GetMarketAttractionInfo]",
+  "uk": "[Concept('market','ринок')|e]: [LOCATION.GetMarket.GetName|Y]\\n[Concept('market_access','доступ до ринку')|e]: [LOCATION.GetMarketAccessWithTooltip|%Y]\\n\\n[LOCATION.GetMarketAttractionInfo]"
+ },
+ "SELECTED_CULTURE_OUR_OPINION": {
+  "en": "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] views of other [cultures|e]",
+  "uk": "Погляди [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] на інші [Concept('cultures','культури')|e]"
+ },
+ "SELECTED_RELIGION_OUR_OPINION": {
+  "en": "[CountryReligionLateralView.GetReligion.GetNameWithNoTooltip] views of other religions",
+  "uk": "Погляди [CountryReligionLateralView.GetReligion.GetNameWithNoTooltip] на інші релігії"
+ },
+ "SIMPLE_PROVINCE_ICON_COUNTRY_CAPITAL_TOOLTIP": {
+  "en": "[Location.GetName] is the [capital_with_icon|e] of @[Location.GetOwner.GetFlag]! [Location.GetOwner.GetName].",
+  "uk": "[Location.GetName] є [Concept('capital_with_icon','столиця')|e] @[Location.GetOwner.GetFlag]! [Location.GetOwner.GetName]."
+ },
+ "SIMPLE_PROVINCE_ICON_STATE_CAPITAL_TOOLTIP": {
+  "en": "[Location.GetName] is the [province_capital_with_icon|e] of @province! [Location.GetProvince.GetName].",
+  "uk": "[Location.GetName] є [Concept('province_capital_with_icon','столиця провінції')|e] @province! [Location.GetProvince.GetName]."
+ },
+ "SITUATIION_EACH_MONTH": {
+  "en": "Each Month:",
+  "uk": "Кожного місяця:"
+ },
+ "SOCIETAL_VALUE_MODIFIER": {
+  "en": "[societal_value_icon] $SOCIETAL_VALUE$",
+  "uk": ""
+ },
+ "STUCK_IN_ICE_TT": {
+  "en": "Stuck in [frozen|e] water in [LOCATION.GetName].",
+  "uk": "Застряг у [Concept('frozen','заморожено')|e] воді в [LOCATION.GetName]."
+ },
+ "SUBCONTINENT_MEMBERS_ENTRY": {
+  "en": "[REGION.GetName]: [REGION.GetNumAreas]",
+  "uk": ""
+ },
+ "SUBCONTINENT_MEMBERS_HEADER": {
+  "en": "The [regions|e] of [SUB_CONTINENT.GetNameWithNoTooltip]",
+  "uk": "[Concept('regions','регіони')|e] [SUB_CONTINENT.GetNameWithNoTooltip]"
+ },
+ "SUBJECT_TYPE_IS_SUBJECT_MODIFIER_LOC": {
+  "en": "Is a $SUBJECT_TYPE$ [subject_type|e]",
+  "uk": "Є $SUBJECT_TYPE$ [Concept('subject_type','тип васала')|e]"
+ },
+ "SUBJECT_TYPE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ to create a [SUBJECT_TYPE.GetName] [subject_type|E]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для створення [SUBJECT_TYPE.GetName] [subject_type|E]"
+ },
+ "SUBJECT_TYPE_OVERLORD_MODIFIER_LOC": {
+  "en": "$SUBJECT_TYPE$ [subjects|e]",
+  "uk": "$SUBJECT_TYPE$ [Concept('subjects','васали')|e]"
+ },
+ "SUB_CONTINENT_TOOLTIP": {
+  "en": "[continent|e]: [SUB_CONTINENT.GetContinent.GetName]",
+  "uk": "[Concept('continent','континент')|e]: [SUB_CONTINENT.GetContinent.GetName]"
+ },
+ "TERRA_INCOGNITA_CTXMENU_DESC": {
+  "en": "Nothing to do. Not [explored|e] yet.",
+  "uk": "Нічого не вдієш. Ще не [Concept('explored','досліджено')|e]."
+ },
+ "TERRA_INCOGNITA_TOOLTIP": {
+  "en": "#T Terra Incognita#!\\nThis is a part of the world that you have not yet explored.",
+  "uk": "#T Terra Incognita#!\\nЦе частина світу, яку ви ще не дослідили."
+ },
+ "THE_CULTURE_OVERVIEW_TITLE": {
+  "en": "[culture|e] in [CountryCultureLateralView.GetCountry.GetNameWithNoTooltip]",
+  "uk": "[Concept('culture','культура')|e] у [CountryCultureLateralView.GetCountry.GetNameWithNoTooltip]"
+ },
+ "THE_RELIGION_OVERVIEW_TITLE": {
+  "en": "Religion in [Player.GetNameWithNoTooltip]",
+  "uk": "Релігія в [Player.GetNameWithNoTooltip]"
+ },
+ "TIME_MODIFIER_DURATION": {
+  "en": "Until $UNTIL|Y$",
+  "uk": "До $UNTIL|Y$"
+ },
+ "TIME_MODIFIER_DURATION_DECAY": {
+  "en": "Decaying until $UNTIL|Y$",
+  "uk": "Занепадає до $UNTIL|Y$"
+ },
+ "TIME_MODIFIER_TOOLTIP": {
+  "en": "#T $NAME$#!\\n$EFFECT$\\nUntil $UNTIL|Y$#F $DESC$#!",
+  "uk": "#T $NAME$#!\\n$EFFECT$\\nДо $UNTIL|Y$#F $DESC$#!"
+ },
+ "TIME_MODIFIER_TOOLTIP_DECAY": {
+  "en": "#T $NAME$#!\\n$EFFECT$\\nDecaying until $UNTIL|Y$#F $DESC$#!",
+  "uk": "#T $NAME$#!\\n$EFFECT$\\nЗанепадає до $UNTIL|Y$#F $DESC$#!"
+ },
+ "TOPOGRAPHY_MODIFIER": {
+  "en": "$TOPOGRAPHY$ [topography|e]",
+  "uk": "$TOPOGRAPHY$ [Concept('topography','топографія')|e]"
+ },
+ "TOP_N_LOCATIONS_HEADER": {
+  "en": "#T Top $NUM$ Locations#!",
+  "uk": "#T Топ $NUM$ локацій#!"
+ },
+ "TOWN_RIGHTS_TYPE_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [TOWN_RIGHTS_TYPE.GetName]",
+  "uk": ""
+ },
+ "TRADITION_DECAY_BY": {
+  "en": "It decays by $VAL|+=$($PERC|%Y2$) each month",
+  "uk": "Занепадає на $VAL|+=$($PERC|%Y2$) кожного місяця"
+ },
+ "TRADITION_INC_ENTRY": {
+  "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!",
+  "uk": ""
+ },
+ "TRADITION_LOCATIONS": {
+  "en": "From [locations|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!",
+  "uk": "Від [Concept('locations','локації')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!"
+ },
+ "UNINHABITABLE_LOCATION_TOOLTIP": {
+  "en": "#T [LOCATION.GetName|Y]#!\\n(Uninhabitable)",
+  "uk": "#T [LOCATION.GetName|Y]#!\\n(Непридатна для життя)"
+ },
+ "UNIT_ABILITY_NOT_ADVANCE": {
+  "en": "@trigger_no! We need to have researched $ADVANCE_LIST$ for [UNIT_ABILITY.GetName]",
+  "uk": "@trigger_no! Нам потрібно дослідити $ADVANCE_LIST$ для [UNIT_ABILITY.GetName]"
+ },
+ "UNIT_HIDDEN_TT_FROM_LAND": {
+  "en": "[hidden|e] from adjacent land [locations|e].",
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','локації')|e]."
+ },
+ "UNIT_HIDDEN_TT_FROM_LAND_AND_SEA": {
+  "en": "[hidden|e] from adjacent land [locations|e] and [seazones|e].",
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','локації')|e] та [Concept('seazones','морські зони')|e]."
+ },
+ "UNIT_HIDDEN_TT_FROM_SEA": {
+  "en": "[hidden|e] from adjacent [seazones|e].",
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх [Concept('seazones','морські зони')|e]."
+ },
+ "UNIT_WEIGHT_ENTRY": {
+  "en": "[SUBUNIT.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2LV$#!",
+  "uk": ""
+ },
+ "UNIT_WEIGHT_HEADER": {
+  "en": "#T Unit Weights#!",
+  "uk": "#T Ваги підрозділів#!"
+ },
+ "UPSTREAM": {
+  "en": "Upstream",
+  "uk": "Проти течії"
+ },
+ "VEGETATION_MODIFIER": {
+  "en": "$VEGETATION$ [vegetation|e]",
+  "uk": "$VEGETATION$ [Concept('vegetation','рослинність')|e]"
+ },
+ "VOLCANO_LOCATION_TOOLTIP": {
+  "en": "#T Volcano Present#!\\nThere is a Volcano here that may or may not erupt.",
+  "uk": "#T Присутній вулкан#!\\nТут є вулкан, який може вивергнутися або ні."
+ },
+ "WINTER_BLOCKS_MOVEMENT": {
+  "en": "@trigger_no! It is impossible to move any army into [TOPOGRAPHY.GetName] during $STATIC_MODIFIER_NAME_winter_normal$ or $STATIC_MODIFIER_NAME_winter_severe$.",
+  "uk": "@trigger_no! Неможливо переміщувати жодну армію в [TOPOGRAPHY.GetName] під час $STATIC_MODIFIER_NAME_winter_normal$ або $STATIC_MODIFIER_NAME_winter_severe$."
+ },
+ "WINTER_INFO": {
+  "en": "[winter_level|e]: $LEVEL|Y$\\n",
+  "uk": "[Concept('winter_level','рівень зими')|e]: $LEVEL|Y$\\n"
+ },
+ "ZOC_BLOCKS_MOVEMENT": {
+  "en": "@trigger_no! The army is blocked from moving past the [zone_of_control|e] of a nearby [fort|e].",
+  "uk": ""
+ },
+ "culture_opinion_enemy": {
+  "en": "#R Enemy#!",
+  "uk": "#R Ворог#!"
+ },
+ "culture_opinion_kindred": {
+  "en": "#G Kindred#!",
+  "uk": "#G Споріднена#!"
+ },
+ "culture_opinion_negative": {
+  "en": "#R Negative#!",
+  "uk": "#R Негативна#!"
+ },
+ "culture_opinion_neutral": {
+  "en": "#Y Neutral#!",
+  "uk": "#Y Нейтральна#!"
+ },
+ "culture_opinion_positive": {
+  "en": "#G Positive#!",
+  "uk": "#G Позитивна#!"
+ },
+ "culture_opinion_same": {
+  "en": "#G Primary#!",
+  "uk": "#G Основна#!"
+ },
+ "double_line_break": {
+  "en": "\\n\\n",
+  "uk": ""
+ },
+ "integration_colonized": {
+  "en": "Colony",
+  "uk": "Колонія"
+ },
+ "integration_colonized_header": {
+  "en": "Colony",
+  "uk": "Колонія"
+ },
+ "integration_colonized_info": {
+  "en": "#T Colony#!\\n[LOCATION.GetName] is a colony.\\nThis current status has the following effects:\\n$EFFECT$",
+  "uk": "#T Колонія#!\\n[LOCATION.GetName] є колонією.\\nЦей поточний статус має наступні ефекти:\\n$EFFECT$"
+ },
+ "integration_conquered": {
+  "en": "[conquered|e]",
+  "uk": "[Concept('conquered','завойовано')|e]"
+ },
+ "integration_conquered_header": {
+  "en": "Conquered [LOCATION_RANK.GetNameWithNoTooltip]",
+  "uk": "Завойований [LOCATION_RANK.GetNameWithNoTooltip]"
+ },
+ "integration_conquered_info": {
+  "en": "#T Conquered [LOCATION_RANK.GetNameWithNoTooltip]#!\\n[LOCATION.GetName] is considered to be recently conquered, which requires [integration|e] to become integrated. This current status has the following effects:\\n$EFFECT$",
+  "uk": "#T Завойований [LOCATION_RANK.GetNameWithNoTooltip]#!\\n[LOCATION.GetName] вважається нещодавно завойованим, що вимагає [Concept('integration','інтеграція')|e] для інтеграції. Цей поточний статус має наступні ефекти:\\n$EFFECT$"
+ },
+ "integration_core": {
+  "en": "[core|e]",
+  "uk": "[Concept('core','ядро')|e]"
+ },
+ "integration_core_header": {
+  "en": "Core [LOCATION_RANK.GetNameWithNoTooltip]",
+  "uk": "Ядро [LOCATION_RANK.GetNameWithNoTooltip]"
+ },
+ "integration_core_info": {
+  "en": "#T Core of [COUNTRY.GetName]#!\\n[LOCATION.GetName] is a full [core|e] of [COUNTRY.GetName]. This current status has the following effects:\\n$EFFECT$",
+  "uk": "#T Ядро [COUNTRY.GetName]#!\\n[LOCATION.GetName] є повним [Concept('core','ядро')|e] [COUNTRY.GetName]. Цей поточний статус має наступні ефекти:\\n$EFFECT$"
+ },
+ "integration_integrated": {
+  "en": "[integrated|e]",
+  "uk": "[Concept('integrated','інтегровано')|e]"
+ },
+ "integration_integrated_header": {
+  "en": "Integrated [LOCATION_RANK.GetNameWithNoTooltip]",
+  "uk": "Інтегрований [LOCATION_RANK.GetNameWithNoTooltip]"
+ },
+ "integration_integrated_info": {
+  "en": "#T Integrated [LOCATION_RANK.GetNameWithNoTooltip]#!\\n[LOCATION.GetName] is fully integrated, and when it is fully assimilated to [CULTURE.GetName] [culture|e], it will become a core of [COUNTRY.GetName]. This current status has the following effects:\\n$EFFECT$",
+  "uk": "#T Інтегрований [LOCATION_RANK.GetNameWithNoTooltip]#!\\n[LOCATION.GetName] повністю інтегровано, і коли вона буде повністю асимільована до [CULTURE.GetName] [Concept('culture','культура')|e], вона стане ядром [COUNTRY.GetName]. Цей поточний статус має наступні ефекти:\\n$EFFECT$"
+ },
+ "integration_none": {
+  "en": "None",
+  "uk": "Немає"
+ },
+ "integration_none_header": {
+  "en": "None",
+  "uk": "Немає"
+ },
+ "integration_none_info": {
+  "en": "None",
+  "uk": "Немає"
+ },
+ "integration_others_info": {
+  "en": "Other nations have ongoing integration of [LOCATION.GetName] and it will change by $MONTH_DEC|R$ with each month they do not hold the location. If they manage to occupy it, their integration will change by $OCCUPY_MONTH_DEC|R$ instead.\\nOther nations' integration progress:",
+  "uk": "Інші нації мають триваючу інтеграцію [LOCATION.GetName], і вона змінюватиметься на $MONTH_DEC|R$ кожного місяця, коли вони не володіють локацією. Якщо їм вдасться окупувати її, їхня інтеграція змінюватиметься на $OCCUPY_MONTH_DEC|R$ замість цього.\\nПрогрес інтеграції інших націй:"
+ },
+ "integration_others_item_info": {
+  "en": "[COUNTRY.GetName]: $CURR|/%2Y$",
+  "uk": ""
+ },
+ "line_break": {
+  "en": "\\n",
+  "uk": ""
+ },
+ "max_winter_level_Count": {
+  "en": "Count",
+  "uk": "Підрахунок"
+ },
+ "max_winter_level_Mild": {
+  "en": "Mild",
+  "uk": "М'яка"
+ },
+ "max_winter_level_None": {
+  "en": "None",
+  "uk": "Немає"
+ },
+ "max_winter_level_Normal": {
+  "en": "Normal",
+  "uk": "Нормальна"
+ },
+ "max_winter_level_Severe": {
+  "en": "Severe",
+  "uk": "Сувора"
+ },
+ "mild": {
+  "en": "Mild",
+  "uk": "М'яка"
+ },
+ "none": {
+  "en": "None",
+  "uk": "Немає"
+ },
+ "normal": {
+  "en": "Normal",
+  "uk": "Нормальна"
+ },
+ "religion_opinion_enemy": {
+  "en": "#R Enemy#!",
+  "uk": "#R Ворог#!"
+ },
+ "religion_opinion_kindred": {
+  "en": "#G Kindred#!",
+  "uk": "#G Споріднена#!"
+ },
+ "religion_opinion_negative": {
+  "en": "#R Negative#!",
+  "uk": "#R Негативна#!"
+ },
+ "religion_opinion_neutral": {
+  "en": "#Y Neutral#!",
+  "uk": "#Y Нейтральна#!"
+ },
+ "religion_opinion_positive": {
+  "en": "#G Positive#!",
+  "uk": "#G Позитивна#!"
+ },
+ "severe": {
+  "en": "Severe",
+  "uk": "Сувора"
+ }
+}

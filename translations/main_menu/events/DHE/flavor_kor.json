@@ -1,0 +1,1170 @@
+{
+ "KOR_increase_favor_of_confucianism": {
+  "en": "The $sect_favor$ [international_organization_variable|e] of [target_international_organization.GetName] will be increased by #g +5.0%#!.",
+  "uk": "[Concept('international_organization_variable', 'Змінна')|e] «$sect_favor$» в об'єднання «[target_international_organization.GetName]» збільшиться на #g 5,0%#!."
+ },
+ "flavor_kor.1.a": {
+  "en": "We shall break free from their barbaric rule!",
+  "uk": "Ми звільнимося з-під гніту цих варварів!"
+ },
+ "flavor_kor.1.a.TIP": {
+  "en": "The [character_interactions|e] [ShowCharacterInteractionName('banish_character')] can be used to remove the supporters of [GetCountry('CHI').GetNameWithNoTooltip].",
+  "uk": "Ви можете скористатися [Concept('character_interactions', 'взаємодією')|e] #TOOLTIP:CHARACTER_INTERACTION,banish_character,X #L «Вигнання»#!#!, щоб позбутися тих, хто підтримує [GetCountry('CHI').Custom('CL_ACC')]."
+ },
+ "flavor_kor.1.a.at": {
+  "en": "#R As long any [ShowCultureName('mongolian_culture')] [character|e] of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] is at our court, [events|e] will trigger periodically which limit our government and cause losses of resources.#!",
+  "uk": "#R Поки #TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L монгольські#!#! [Concept('character', 'персонажі')|e]-[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] залишаються при нашому дворі, періодично відбуватимуться [Concept('events', 'події')|e], що ведуть до обмеження влади нашого уряду й втрати ресурсів.#!"
+ },
+ "flavor_kor.1.a.tt": {
+  "en": "We take a hostile stance against [GetCountry('CHI').GetName], decreasing the opinions of each other by [ShowBiasValue('kor_hostile_attitude')|0]. If we remove all [ShowCultureName('mongolian_culture')] [THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [characters|e] from the country we will be able to remove [ShowGovernmentReformName('son_in_law_rule')]",
+  "uk": "Ми обрали ворожнечу з [GetCountry('CHI').Custom('CL_INST')], і думка сторін одна про одну погіршилася на [ShowBiasValue('kor_hostile_attitude')|0]. Коли нашу державу залишать усі #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольські#!#! [Concept('characters', 'піддані')|e]-[THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ми зможемо скасувати #TOOLTIP:GOVERNMENT_REFORM,son_in_law_rule,X #L правило «зятя»#!#!."
+ },
+ "flavor_kor.1.b": {
+  "en": "What will happen without the Mongol guidance?",
+  "uk": "Що з нами станеться без патронажу монголів?"
+ },
+ "flavor_kor.1.b.tt": {
+  "en": "We take a more pro-[GetCountry('CHI').GetName] stance, increasing the opinions of each other by [ShowBiasValue('kor_friendly_attitude')|0]. If we satisfy the demands of the [ShowCultureName('mongolian_culture')] [THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')] we will be able to strengthen the ties between our states",
+  "uk": "Ми обрали дружбу з [GetCountry('CHI').Custom('CL_INST')], і думка обох сторін одна про одну покращилася на [ShowBiasValue('kor_friendly_attitude')|0]. Якщо #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольські#!#! [THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')] дочекаються від нас виконання їхніх вимог, зв'язок між нашими державами стане міцнішим."
+ },
+ "flavor_kor.1.desc": {
+  "en": "In the gruesome year of 1231, the Mongols started their 39 years-long struggle with the [ROOT.GetCountry.GetAdjective] people. Over the years, the resources and manpower of [ROOT.GetCountry.GetNameWithNoTooltip] could no longer withstand the invaders and our beloved [ROOT.GetCountry.GetFlavorRank] fell, becoming a vassal to the [GetCountry('CHI').GetLongName] dynasty.\\n\\nEver since, [GetCountry('MGE').GetAdjective] aristocrats have become a common sight in key positions of rule in our government, dictating the politics and policies in the state and forcing a [ShowGovernmentReformName('son_in_law_rule')] over our state.\\n\\nBut no empire prevails forever, and so time itself knacks on the [GetCountry('CHI').GetNameWithNoTooltip]. Its inevitable downfall is at hand, yet we will never be truly free from the [GetCountry('MGE').GetAdjectiveWithNoTooltip] shackles until we rid ourselves of the puppeteers from within.",
+  "uk": "У фатальному 1231 році монголи розпочинають війну з #L [ROOT.GetCountry.GetAdjective|l]им#! народом, яка триває довгих 39 років. Зрештою, втративши можливість чинити опір через гостру нестачу людей і ресурсів, [ROOT.GetCountry.Custom('CF_DP')|l] [ROOT.GetCountry.Custom('CL_DP')] довелося схилитися перед загарбниками. [GetCountry('CHI').GetLongName] — тепер сюзерен цієї держави.\\n\\nБільшість ключових посад у нашому уряді займають #L [GetCountry('MGE').GetAdjective|l]і#! аристократи: вони визначають політику нашої держави й нав'язують нам #TOOLTIP:GOVERNMENT_REFORM,son_in_law_rule,X #L правило «зятя»#!#!.\\n\\nОднак розквіт не може тривати вічно, і сам час грає проти монголів. Неминуче падіння їхньої імперії вже не за горами, але, щоб по-справжньому звільнитися від [GetCountry('MGE').GetAdjectiveWithNoTooltip|l]их кайданів, ми маємо розібратися з тими, хто смикає за ниточки всередині нашої держави."
+ },
+ "flavor_kor.1.entry": {
+  "en": "$flavor_kor.1.title$",
+  "uk": ""
+ },
+ "flavor_kor.1.title": {
+  "en": "The Mongol Rule",
+  "uk": "Влада монголів"
+ },
+ "flavor_kor.10.a": {
+  "en": "Call the armies!",
+  "uk": "До зброї!"
+ },
+ "flavor_kor.10.b": {
+  "en": "No, we will not attack unprovoked.",
+  "uk": "Ні, ми не станемо нападати без приводу."
+ },
+ "flavor_kor.10.desc": {
+  "en": "Luck is on our side once again! One of our generals informs us that through back channels and subterfuge has managed to secure an ally inside the [GetCountry('SSG').GetAdjective] court.\\n\\nThe time has arrived for a swift and decisive strike into the northern territories to regain the land that was once stolen from us before the bureaucrats from [GetCountry('CHI').GetName] have a chance to intervene.",
+  "uk": "Нам знову посміхнулася удача! Один з наших генералів повідомляє, що наші військові таємними каналами хитрістю здобули союзника при #L [GetCountry('SSG').GetAdjective]ому#! дворі.\\n\\nЗараз саме час завдати швидкого й рішучого удару по півночі та повернути вкрадені в нас території, поки в справу не встигли втрутитися чиновники з [GetCountry('CHI').Custom('CL_RP')]."
+ },
+ "flavor_kor.10.entry": {
+  "en": "$flavor_kor.10.title$",
+  "uk": ""
+ },
+ "flavor_kor.10.title": {
+  "en": "Long Awaited Opportunity",
+  "uk": "Довгоочікувана можливість"
+ },
+ "flavor_kor.100.a": {
+  "en": "Prepare for war.",
+  "uk": "Ми будемо готуватися до війни."
+ },
+ "flavor_kor.100.desc": {
+  "en": "[korRuler.GetName] plans to launch a northern expedition to chastise the [ShowCultureName('jurchen_culture')] people. This will require substantial preparations, funds, and is impossible to keep secret. [korRuler.GetSheHe|U] plans to strengthen Korea's defenses by increasing and improving training and upgrading our fortresses.",
+  "uk": "[korRuler.GetName] збирається організувати експедицію на північ, щоб покарати #TOOLTIP:CULTURE,jurchen_culture_tt,X #L чжурчженьський#!#! народ. Це вимагатиме ретельних приготувань і серйозних грошових витрат. До того ж, такі масштабні плани неможливо зберегти в таємниці. [Select_CString(korRuler.IsFemale, 'Вона', 'Він')] вважає, що ми підвищимо обороноздатність Кореї, зміцнивши наші фортеці й модернізувавши процес бойової підготовки."
+ },
+ "flavor_kor.100.entry": {
+  "en": "The Ruler's Northern Expedition",
+  "uk": ""
+ },
+ "flavor_kor.100.title": {
+  "en": "[korRuler.GetNameWithNoTooltip]'s Northern Expedition",
+  "uk": "[korRuler.GetNameWithNoTooltip] та експедиція на північ"
+ },
+ "flavor_kor.101.a": {
+  "en": "Execute him!",
+  "uk": "Стратимо третього цензора!"
+ },
+ "flavor_kor.101.b": {
+  "en": "Purge the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] instead!",
+  "uk": "Натомість хай чистці піддадуться [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
+ },
+ "flavor_kor.101.b.entry": {
+  "en": "Purge the $nobles_estate$ instead!",
+  "uk": ""
+ },
+ "flavor_kor.101.c": {
+  "en": "We must maintain the political balance.",
+  "uk": "Потрібно підтримувати баланс політичних сил."
+ },
+ "flavor_kor.101.desc": {
+  "en": "While serving as Third Censor in [GetCurrentYear], the Neo-Confucian [target_character.GetName], a former state historian, has proven [target_character.GetHerselfHimself] to be a man willing to go to great lengths in criticizing government officials and the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] elite. [target_character.GetHisHer|U] many opponents have uncovered certain allusions made in [target_character.GetHisHer] draft of the #italic Annals of King Seongjong#! which they insist to be treasonous. They demand [target_character.GetHisHer] immediate execution, and that his supporters among the Neo-Confucians be either banished or executed.",
+  "uk": "Колишній державний історик і [Select_CString(target_character.IsFemale, 'неоконфуціанка', 'неоконфуціанець')] [target_character.GetName], що в [GetCurrentYear] році [Select_CString(target_character.IsFemale, 'займала', 'займав')] посаду третього цензора, надто далеко [Select_CString(target_character.IsFemale, 'зайшла', 'зайшов')] у своїй критиці чиновників та еліти. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], проти яких [Select_CString(target_character.IsFemale, 'виступала', 'виступав')] [target_character.GetName], знайшли в [Select_CString(target_character.IsFemale, 'неї', 'нього')] примітки в #italic «Анналах короля Сонджона»#!, що мають, за їхнім твердженням, зрадницький характер. Тепер ці люди вимагають негайної страти третього цензора, а також страти або принаймні вигнання [Select_CString(target_character.IsFemale, 'її', 'його')] прихильників-неоконфуціанців."
+ },
+ "flavor_kor.101.entry": {
+  "en": "$flavor_kor.101.title$",
+  "uk": ""
+ },
+ "flavor_kor.101.title": {
+  "en": "First Literati Purge",
+  "uk": "Перша хвиля репресій проти вчених"
+ },
+ "flavor_kor.102.a": {
+  "en": "Purge all those who oppose us.",
+  "uk": "Покараємо всіх наших ворогів."
+ },
+ "flavor_kor.102.b": {
+  "en": "We must maintain the political balance.",
+  "uk": "Потрібно підтримувати баланс політичних сил."
+ },
+ "flavor_kor.102.desc": {
+  "en": "During a state banquet, Minister of Rites [target_character.GetName] spilled wine on the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s robes. Coming as it does after a period of intense factional rivalry and criticism of royal authority, [target_character.GetNameWithNoTooltip]'s opponents have been quick to interpret the occurrence as a crime against the sovereign and therefore treasonous. They demand the purge of [target_character.GetNameWithNoTooltip] and his many allies, who cut across factions. Indeed, this appears to present a golden opportunity to rid the government of those who would question royal authority.",
+  "uk": "Під час урочистого бенкету міністр церемоній [target_character.GetName] [Select_CString(target_character.IsFemale, 'пролила', 'пролив')] вино на вбрання [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'правительки', 'правителя')]. Цій ситуації передував період запеклої міжфракційної боротьби та різкої критики влади, тож вороги міністра швидко розцінили її як зраду й злочин проти суверена. Вони вимагають, щоб [target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] численні союзники були негайно покарані, і [ROOT.GetCountry.GetGovernment.GetRulerTitle] отримує чудову можливість позбутися незручних чиновників."
+ },
+ "flavor_kor.102.entry": {
+  "en": "$flavor_kor.102.title$",
+  "uk": ""
+ },
+ "flavor_kor.102.title": {
+  "en": "Second Literati Purge",
+  "uk": "Друга хвиля репресій проти вчених"
+ },
+ "flavor_kor.103.a": {
+  "en": "Purge the Neo-Confucians!",
+  "uk": "Покараємо неоконфуціанців!"
+ },
+ "flavor_kor.103.b": {
+  "en": "The reforms must continue - whatever it takes!",
+  "uk": "Ми проведемо реформи будь-якою ціною!"
+ },
+ "flavor_kor.103.desc": {
+  "en": "[jo_gwang_jo.GetName], a Neo-Confucian reformer, has been attempting to shape the government according to Confucian ideals. His initial successes in reformation appear however to have backfired after he went too far in attacking the old order of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], weakening their hold on power by securing the preponderance of Neo-Confucians in the government and enraging them through proposed land confiscations.\\n\\nThe [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] now claim [jo_gwang_jo.GetNameWithNoTooltip] to be a traitor who is planning to attempt to enthrone himself, as well as argue that his reforms are misguided and will harm society and the very foundations of the state. For his part, [jo_gwang_jo.GetNameWithNoTooltip] insists that the only correct course of action is to continue the reforms with all haste, despite the opposition. Who should we side with?",
+  "uk": "Реформатор-неоконфуціанець [jo_gwang_jo.GetName] намагається привести уряд у відповідність з ідеалами Конфуція. Спочатку все йшло непогано, поки він не захопився критикою старих порядків. Його головною мішенню стали [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]: [jo_gwang_jo.GetName] послабив їхні позиції, забезпечивши переважання неоконфуціанців в уряді, й розлютив стару знать погрозами конфіскації земель.\\n\\nТепер [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] заявляють, що [jo_gwang_jo.GetNameWithNoTooltip] — підлий зрадник, який жадає зайняти престол, а його реформи йдуть на шкоду суспільству й підривають основи держави. Сам же [jo_gwang_jo.GetNameWithNoTooltip] наполягає, що єдино вірне рішення — слідувати вже наміченому курсу, не звертаючи уваги на невдоволення. Чию сторону нам зайняти?"
+ },
+ "flavor_kor.103.entry": {
+  "en": "$flavor_kor.103.title$",
+  "uk": ""
+ },
+ "flavor_kor.103.title": {
+  "en": "Third Literati Purge",
+  "uk": "Третя хвиля репресій проти вчених"
+ },
+ "flavor_kor.104.a": {
+  "en": "[yi_sun_sin.GetSheHe|U] must be reinstated as a leader at once.",
+  "uk": "Потрібно негайно поновити [Select_CString(yi_sun_sin.IsFemale, 'її', 'його')] в званні."
+ },
+ "flavor_kor.104.b": {
+  "en": "It is better not to meddle with the justice system.",
+  "uk": "Краще не перечити правосуддю."
+ },
+ "flavor_kor.104.desc": {
+  "en": "Recently, the trial of [yi_sun_sin.GetName] has garnered a lot of attention in the upper echelons of our military. Charged with desertion and negligence, [yi_sun_sin.GetLastNameWithNoTooltip] has been imprisoned for some time now; yet despite frequent torture, he still refuses to admit [yi_sun_sin.GetHerHis] guilt.\\n\\nWhat is more, the [yi_sun_sin.GetWomanMan] seems to possess a natural understanding of military matters, and [yi_sun_sin.GetHerHis] service record shows a string of remarkable successes in repelling raids from across our borders. [yi_sun_sin.GetLastNameWithNoTooltip]'s reputation of discipline and bravery is inconsistent with the charges brought before [yi_sun_sin.GetHerHim], and so the whole trial reeks of a plot to frame the [yi_sun_sin.GetWomanMan].\\n\\nThere is talk of demoting [yi_sun_sin.GetHerHim] to the rank of common foot soldier, but surely the [yi_sun_sin.GetWomanMan]'s talents should not be wasted in such a lowly position.",
+  "uk": "Нещодавно [yi_sun_sin.GetName] [Select_CString(yi_sun_sin.IsFemale, 'постала', 'постав')] перед судом, що привернуло увагу всієї армійської верхівки. [yi_sun_sin.GetLastNameWithNoTooltip] вже досить довго перебуває у в'язниці за звинуваченням у дезертирстві та недбалості, однак, попри регулярні тортури, відмовляється визнати свою провину.\\n\\nБільш того, ця людина, здається, володіє природним чуттям у військових питаннях, і в [Select_CString(yi_sun_sin.IsFemale, 'її', 'його')] послужному списку — безліч успішних нападів на ворогів, які наважилися посягнути на наші кордони. [Select_CString(yi_sun_sin.IsFemale, 'Її', 'Його')] репутація [Select_CString(yi_sun_sin.IsFemale, 'суворої та сміливої воїтельки', 'суворого та сміливого воїна')] зовсім не відповідає висунутим звинуваченням, і весь судовий процес виглядає як змова.\\n\\nЙдуть розмови про те, щоб понизити [Select_CString(yi_sun_sin.IsFemale, 'її', 'його')] на посаді до простого піхотинця, однак такий талант, безсумнівно, не повинен витрачатися даремно."
+ },
+ "flavor_kor.104.entry": {
+  "en": "Yi Sun Sin",
+  "uk": ""
+ },
+ "flavor_kor.104.title": {
+  "en": "[yi_sun_sin.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_kor.11.a": {
+  "en": "Magnificent!",
+  "uk": "Чудово!"
+ },
+ "flavor_kor.11.desc": {
+  "en": "Finally! After too many decades of humiliation, the northern province of [ShowProvinceDefinitionName('hwaju_province')] is back under the banner of [GetCountry('KOR').GetName] and the despicable invaders of [GetCountry('SSG').GetName] have been dealt with.\\n\\nIt is a time for celebration and merriment. A spectacular parade of our powerful army has been organized in our capital city to commemorate the occasion and allow the people of our country to see and meet their heroes.",
+  "uk": "Після довгих десятиліть приниження ми нарешті повернули #TOOLTIP:PROVINCE_DEFINITION,hwaju_province,X #L Хваджу#!#! під #L [GetCountry('KOR').GetName]і#! прапори й розібралися з підлими #L [GetCountry('SSG').GetName]ими#! загарбниками.\\n\\nТаку подію варто було відсвяткувати! Ми організували в столиці грандіозний парад нашої переможної армії, подарувавши мешканцям нашої держави можливість побачити й привітати героїв."
+ },
+ "flavor_kor.11.entry": {
+  "en": "$flavor_kor.11.title$",
+  "uk": ""
+ },
+ "flavor_kor.11.title": {
+  "en": "The North Reconquered",
+  "uk": "Ми відвоювали північ"
+ },
+ "flavor_kor.12.a": {
+  "en": "Wonderful, fund his research and build him a workshop.",
+  "uk": "Чудово! Ми надамо вченому кошти й майстерню."
+ },
+ "flavor_kor.12.b": {
+  "en": "We will not betray [GetCountry('CHI').GetNameWithNoTooltip]'s trust, expel him",
+  "uk": "Ми не зрадимо [GetCountry('CHI').Custom('CL_ACC')]. Женіть його геть!"
+ },
+ "flavor_kor.12.b.entry": {
+  "en": "We will not betray $CHI$'s trust, expel him.",
+  "uk": ""
+ },
+ "flavor_kor.12.desc": {
+  "en": "#italic Kaboom#!! The whole court has been impressed by the explosive demonstration of [choe_scope.GetName]. A bright man moved to action by the constant raids of [target_country.GetAdjective] pirates and inspired by the firework displays of the [GetCountry('CHI').GetAdjective] diplomats. He set upon himself the task of upgrading the capabilities of our army and discovering the recipe for Black Powder.\\n\\nWith much cunning and experimentation his efforts have paid and he has demonstrated to be capable of creating it from raw materials, giving one of the most well-kept secrets of [GetCountry('CHI').GetNameWithNoTooltip] to our [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": "#italic Ба-бах#!! [choe_scope.GetName] не прогадав: вибух такої сили не залишив байдужим жодного придворного! Прагнучи покінчити з нескінченними нападами #L [target_country.GetAdjective]их#! піратів і надихнувшись феєрверками на зустрічах з #L [GetCountry('CHI').GetAdjective]ими#! дипломатами, ця видатна людина загорілася ідеєю покращити боєздатність нашої армії та роздобути рецепт чорного пороху.\\n\\nЇї природна хитрість і любов до експериментів незабаром дали свої плоди, і вона змогла відтворити чорний порох з відповідної сировини. Тепер [ROOT.GetCountry.GetGovernment.GetRulerTitle] володіє великим винаходом, який так ретельно оберігає [GetCountry('CHI').Custom('CL_TP')]."
+ },
+ "flavor_kor.12.entry": {
+  "en": "$flavor_kor.12.title$",
+  "uk": ""
+ },
+ "flavor_kor.12.title": {
+  "en": "The Recipe for Black Powder",
+  "uk": "Рецепт чорного пороху"
+ },
+ "flavor_kor.13.a": {
+  "en": "Let us observe how the situation develops...",
+  "uk": "Подивимося, куди це нас заведе…"
+ },
+ "flavor_kor.13.a.tt": {
+  "en": "We become eligible to receive more #Y Confucianism#!-related [events|e]",
+  "uk": "У нас відбуватиметься більше [Concept('events', 'подій')|e], що мають відношення до #Y конфуціанства#!"
+ },
+ "flavor_kor.13.desc": {
+  "en": "[ShowReligionName('mahayana')] has been the state religion and the moral compass of [ROOT.GetCountry.GetName] for centuries. The influence and status of [ShowReligionGroupName('buddhist')] exceed far beyond a mere religion; it has become an organization in itself where members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have gained great influence, power and land within our [ROOT.GetCountry.GetFlavorRank].\\n\\nEver since [ROOT.GetCountry.GetNameWithNoTooltip] fell to the Mongol invasion, the prominent position of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] has been replaced by the old nobility we once had, forming the estate of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. However, with the rise of this new estate came also the interest in ancient Chinese literature - and the interest in the teachings of Confucius. A dramatic development in our belief system and our rites might become a future as Confucian ideas spread through our country...",
+  "uk": "Довгі століття #TOOLTIP:RELIGION,mahayana_tt,X #L східний буддизм#!#! був у [ROOT.GetCountry.Custom('CL_PP')] державною релігією й слугував нам моральним орієнтиром. Вплив #TOOLTIP:RELIGIONGROUP,buddhist,X #L буддизму#!#! сягав далеко за межі віри: він перетворився на своєрідну організацію, члени якої, суцільно [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], володіли в [ROOT.GetCountry.Custom('CF_PP')] величезною владою, авторитетом і, звісно, обширними володіннями.\\n\\nПісля завоювання [ROOT.GetCountry.Custom('CL_RP')] монголами на місце, яке раніше займало духовенство, прийшла стара знать. Так з'явився новий стан, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], а в моду увійшов інтерес до давньої китайської літератури й до вчення Конфуція. Дивлячись на те, з якою швидкістю ідеї Конфуція поширюються країною, можна припустити, що нас чекає радикальна зміна віри й обрядів…"
+ },
+ "flavor_kor.13.entry": {
+  "en": "$flavor_kor.13.title$",
+  "uk": ""
+ },
+ "flavor_kor.13.title": {
+  "en": "Spread of Confucianism",
+  "uk": "Поширення конфуціанства"
+ },
+ "flavor_kor.14.a": {
+  "en": "A troublesome time is ahead of us...",
+  "uk": "Настають неспокійні часи…"
+ },
+ "flavor_kor.14.a.tt": {
+  "en": "Unlock the following:\\n- [ShowAdvanceName('confucian_academy_advance')] [advances|e] for the #Y $age_2_renaissance$#!\\n- [ShowEstatePrivilegeName('petty_bureaucracy')] and [ShowEstatePrivilegeName('scholar_officials')] [estate_privileges|e]\\n- [ShowLawName('imperial_examination_law')] [policy|e] of the [ShowLawName('bureaucracy_law')] [law|e]",
+  "uk": "Вам доступне наступне:\\n • [Concept('advances', 'покращення')|e] #TOOLTIP:ADVANCE_DEFINITION,confucian_academy_advance,X #L «Конфуціанська академія»#!#! для епохи #Y Відродження#!\\n • [Concept('estate_privileges', 'станові привілеї')|e] #TOOLTIP:ESTATE_PRIVILEGE,petty_bureaucracy,X #L «Мала бюрократія»#!#! та #TOOLTIP:ESTATE_PRIVILEGE,scholar_officials,X #L «Вчені-чиновники»#!#!\\n • [Concept('policy', 'політика')|e] #TOOLTIP:LAW,imperial_examination_law,X #L «Система іспитів»#!#! для [Concept('law', 'правила')|e] #TOOLTIP:LAW,bureaucracy_law,X #L «Бюрократія»#!#!"
+ },
+ "flavor_kor.14.desc": {
+  "en": "The political stability of the [ROOT.GetCountry.GetLongName] has been disrupted by the emergence of a new group known as the Neo-Confucians. These are scholars from the countryside who had not traditionally been part of the conservative [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] elite that governed the country. Their obvious merits encourage the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to employ them in government; however, their reformist notions along with competition with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] establishment for land and positions led to ever more frequent clashes between the different factions in [ROOT.GetCountry.GetAdjectiveWithNoTooltip] politics.",
+  "uk": "Політичній стабільності в державі [ROOT.GetCountry.GetLongName] настав кінець, коли на арену вийшли так звані неоконфуціанці. Це просвічені люди з сіл і селищ, і консервативні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], які досі керували державою, мають до них мало відношення. Віддаючи належне безсумнівним заслугам цих людей, [ROOT.GetCountry.GetGovernment.GetRulerTitle] постійно запрошує їх до уряду. Однак неоконфуціанці висловлюють надто радикальні ідеї й постійно борються зі старою аристократією за посади та землі, що лише посилює напругу між [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ими політичними силами."
+ },
+ "flavor_kor.14.entry": {
+  "en": "$flavor_kor.14.title$",
+  "uk": ""
+ },
+ "flavor_kor.14.title": {
+  "en": "The Rise of the Neo-Confucians",
+  "uk": "Зародження неоконфуціанства"
+ },
+ "flavor_kor.15.a": {
+  "en": "This is the end of an old dynasty...",
+  "uk": "Це стане кінцем для старої династії…"
+ },
+ "flavor_kor.15.b": {
+  "en": "We cannot allow this traitor to win!",
+  "uk": "Не можна допустити перемоги зрадників!"
+ },
+ "flavor_kor.15.b.tt": {
+  "en": "The following effects happen to all [ShowPopTypeName('nobles')] in every [location|e] with more than #Y 75.0%#! Local Cultural Unity:",
+  "uk": "На всіх #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! у всіх [Concept('location', 'районах')|e], де показник культурної єдності перевищує #Y 75,0%#!, подіють такі ефекти:"
+ },
+ "flavor_kor.15.desc": {
+  "en": "The regime of [old_ruler.GetName] has proven as dissatisfying as the populace of [ROOT.GetCountry.GetName] itself rejects the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and seeks out [target_character.GetName], a promising general who has gained the popularity of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] alike.\\n\\nToday, [target_character.GetShortNameWithNoTooltip] has struck as [target_character.GetHisHer] army has initiated a coup against [old_ruler.GetShortNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] [old_ruler.GetName] править настільки невміло, що навіть прості мешканці [ROOT.GetCountry.Custom('CL_RP')] втомилися це терпіти. В особі талановитого генерала на ім'я [target_character.GetName] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], і [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] бачать надію на якнайшвидше вирішення ситуації.\\n\\nСьогодні [target_character.GetShortNameWithNoTooltip] нарешті [Select_CString(target_character.IsFemale, 'перейшла', 'перейшов')] до дії: [Select_CString(target_character.IsFemale, 'її', 'його')] армія підняла заколот проти нинішньої влади."
+ },
+ "flavor_kor.15.entry": {
+  "en": "$flavor_kor.15.title$",
+  "uk": ""
+ },
+ "flavor_kor.15.title": {
+  "en": "The Coup of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Переворот у [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "flavor_kor.16.a": {
+  "en": "Invest in the compilation.",
+  "uk": "Ми вкладемо кошти в перегляд збірника."
+ },
+ "flavor_kor.16.b": {
+  "en": "We cannot afford it.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_kor.16.desc": {
+  "en": "The laws of [ROOT.GetCountry.GetName] are collected and comprised in the grand #italic Gyeongje Yukjeon#! - #italic Six Codes of Governance#!. While its laws and codes are still applicable to today's national affairs, it is starting to show its age. A new compilation of the book would be of great benefit to the state in order to renew, revise and remove some of the old laws for the better of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] people. Scholars and bureaucrats are ready to create the #italic Gyeongguk Daejon#! - #italic National Code#!. However, this process will be costly and will require investment from our side.",
+  "uk": "Усі закони [ROOT.GetCountry.Custom('CL_RP')] містяться в грандіозному збірнику #italic Кьонджє Юкджон#!, або #italic «Шість кодексів управління»#!. Хоча ці правила значною мірою не втратили актуальності, вони потроху починають застарівати. Якщо ми переглянемо книгу, оновивши, змінивши й видаливши частину застарілих положень, це послужить на благо [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ому народу й усій нашій державі. Вчені та чиновники вже готові до створення нової версії збірника під назвою #italic Кьонгук Теджон#! — #italic «Державний кодекс»#!. Однак ця ініціатива дорого нам обійдеться."
+ },
+ "flavor_kor.16.entry": {
+  "en": "$flavor_kor.16.title$",
+  "uk": ""
+ },
+ "flavor_kor.16.title": {
+  "en": "The Gyeongguk Daejon",
+  "uk": "Кьонгук Теджон"
+ },
+ "flavor_kor.17.a": {
+  "en": "Provide our bureaucrats with the resources needed.",
+  "uk": "Ми забезпечимо чиновників усім необхідним."
+ },
+ "flavor_kor.17.b": {
+  "en": "We cannot afford it.",
+  "uk": "Ми не можемо собі цього дозволити."
+ },
+ "flavor_kor.17.desc": {
+  "en": "$samsa_system_desc$ It serves as a replacement to the old Three Departments which dominated the [ROOT.GetCountry.GetAdjective] bureaucracy over several decades. However, the implementation of such reform will require extensive governmental substitution of both financial and administrative nature.",
+  "uk": "$samsa_system_desc$ Самса послужить заміною системі трьох департаментів, на якій ось уже кілька десятиліть будується #L [ROOT.GetCountry.GetAdjective]а#! бюрократія. Однак проведення такої реформи вимагатиме від нас серйозних витрат як фінансових, так і людських ресурсів."
+ },
+ "flavor_kor.17.entry": {
+  "en": "$flavor_kor.17.title$",
+  "uk": ""
+ },
+ "flavor_kor.17.title": {
+  "en": "The $samsa_system$",
+  "uk": ""
+ },
+ "flavor_kor.18.a": {
+  "en": "Heroes, that is who they are.",
+  "uk": "Справжні герої."
+ },
+ "flavor_kor.18.b": {
+  "en": "No need for all of that.",
+  "uk": "Нам не потрібна їхня допомога."
+ },
+ "flavor_kor.18.desc": {
+  "en": "In response to the devastation caused by the [target_war.GetName], the citizenry of [target_location.GetProvince.GetName] chose to gather together to form the so-called #italic $flavor_kor.18.title$#!. This militia-like force is comprised of members of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] who are ready to pay the ultimate price in defense of their homeland. We cannot help but admire that, times and times again, the commons are ready to stand up in solidarity with the entire nation. [ROOT.GetCountry.GetName] will not forget their sacrifice.",
+  "uk": "Втомившись від руйнувань, які принесла [target_war.GetName], мешканці провінції [target_location.GetProvince.GetName] вирішили протистояти загарбникам і сформували так звану «#italic $flavor_kor.18.title$#!». До цього народного ополчення входять [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], готові віддати свої життя за батьківщину. Вкотре прості люди стають на захист [ROOT.GetCountry.Custom('CL_RP')]. Їхня сміливість гідна захоплення. Ми зробимо все, щоб їхня жертва не була забута."
+ },
+ "flavor_kor.18.title": {
+  "en": "Righteous Army",
+  "uk": "Армія справедливості"
+ },
+ "flavor_kor.19.a": {
+  "en": "Cultivate it.",
+  "uk": "Посадимо нову бавовну."
+ },
+ "flavor_kor.19.b": {
+  "en": "Have the diplomat apprehended instead!",
+  "uk": "Затримати дипломата!"
+ },
+ "flavor_kor.19.desc": {
+  "en": "One of our envoys, [target_character.GetName], has recently returned from [target_character.GetHerHis] envoy to [target_country.GetName] where [target_character.GetSheHe] was part of a diplomatic mission. That alone is commendable, yet what is more admirable is [target_character.GetHerHis] import of a new species variety of [ShowGoodsName('cotton')], one that is more adapted to the climate of [ROOT.GetCountry.GetName]. [target_character.GetNameWithNoTooltip|U] has already sown it in [target_character.GetHerHis] home city of [target_location.GetName], and we should consider spreading it around the country as well.",
+  "uk": "Наш посол [target_character.GetName] нещодавно [Select_CString(target_character.IsFemale, 'повернулася', 'повернувся' )] з [ROOT.GetCountry.Custom('CL_GEN')], де [Select_CString(target_character.IsFemale, 'вона виконувала', 'він виконував' )] дипломатичні доручення. Це само по собі похвально, але те, що [Select_CString(target_character.IsFemale, 'їй', 'йому' )] вдалося роздобути новий сорт #TOOLTIP:GOODS,cotton,X #L бавовни#!#!, який краще пристосований до клімату [ROOT.GetCountry.Custom('CL_GEN')], воістину гідне захоплення. [target_character.GetNameWithNoTooltip|U] вже [Select_CString(target_character.IsFemale, 'посадила', 'посадив' )] його у своєму рідному місті [target_location.GetName]. Можливо, нам варто вирощувати його по всій державі."
+ },
+ "flavor_kor.19.entry": {
+  "en": "Cotton Seed Theft",
+  "uk": ""
+ },
+ "flavor_kor.19.title": {
+  "en": "[ShowGoodsNameWithNoTooltip('cotton')] Seed Theft",
+  "uk": "Крадіжка насіння бавовни"
+ },
+ "flavor_kor.2.a": {
+  "en": "As the [target_country.GetGovernment.GetRulerTitle] wishes.",
+  "uk": "Хай буде так, як хоче [target_country.GetGovernment.GetRulerTitle]."
+ },
+ "flavor_kor.2.a.entry": {
+  "en": "As he wishes.",
+  "uk": ""
+ },
+ "flavor_kor.2.b": {
+  "en": "We do not bow before the Mongols!",
+  "uk": "Ми не вклонимося перед монголами!"
+ },
+ "flavor_kor.2.desc": {
+  "en": "With the important key positions occupied by [ShowCultureName('mongolian_culture')] aristocrats, the resources of the state are at their mercy...",
+  "uk": "#TOOLTIP:CULTURE,mongolian_culture_tt,X #L Монгольські#!#! аристократи займають ключові посади в уряді, і ресурси нашої держави перебувають у їхніх руках…"
+ },
+ "flavor_kor.2.desc.demand": {
+  "en": "[target_character.GetName], current speaker for the [target_country.GetName] within our state, declared a new demand on behalf of [target_character.GetHerHis] masters.",
+  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale, 'яка', 'який')] наразі представляє інтереси держави [target_country.GetName] у нашій державі, [Select_CString(target_character.IsFemale, 'озвучила', 'озвучив')] нову вимогу своїх володарів."
+ },
+ "flavor_kor.2.desc.diplomatic_actions": {
+  "en": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ Our diplomats are needed at the [target_country.GetAdjectiveWithNoTooltip] court.",
+  "uk": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ Наші дипломати потрібні при [target_country.GetAdjectiveWithNoTooltip]ому дворі."
+ },
+ "flavor_kor.2.desc.estate_satisfaction": {
+  "en": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ The estates shall serve the [target_country.GetGovernment.GetRulerTitle] of [target_country.GetNameWithNoTooltip]. Of course such action will upset our loyal castes all too much.",
+  "uk": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] [target_country.Custom('CL_RP') вимагає беззаперечної покори від усіх наших станів. Наші піддані, звісно, будуть від цього не в захваті."
+ },
+ "flavor_kor.2.desc.gold": {
+  "en": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ A claim for our gold reserves has been made to support the [target_country.GetGovernment.GetRulerTitle]'s goals.",
+  "uk": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] збирається витратити наші золоті резерви на власні потреби."
+ },
+ "flavor_kor.2.desc.government_power": {
+  "en": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ The request is nothing but humiliating as our own [ROOT.GetCountry.GetGovernment.GetRulerTitle] shall travel to [target_country.GetCapital.GetName] to bow in front of [target_country.GetGovernment.GetRuler.GetName] in public.",
+  "uk": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] вирушить до міста [target_country.GetCapital.GetName], де [target_country.GetGovernment.GetRuler.GetName] очікує на публічне вклоніння. Яка принизлива вимога!"
+ },
+ "flavor_kor.2.desc.prestige": {
+  "en": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ The [target_country.GetAdjectiveWithNoTooltip] have laid their eyes upon our most precious artifacts. They wish to gain them for themselves to increase their own prestige.",
+  "uk": "$flavor_kor.2.desc$\\n\\n$flavor_kor.2.desc.demand$ [target_country.GetAdjectiveWithNoTooltip|U]у владу цікавлять наші найцінніші артефакти. Вони хочуть привласнити їх собі заради підвищення престижу."
+ },
+ "flavor_kor.2.title": {
+  "en": "Demands of the Mongol Aristocrats",
+  "uk": "Вимоги монгольських аристократів"
+ },
+ "flavor_kor.20.a": {
+  "en": "We have our favorites.",
+  "uk": "У нас є свої фаворити."
+ },
+ "flavor_kor.20.b": {
+  "en": "The choice has already been made!",
+  "uk": "Вибір уже зроблено!"
+ },
+ "flavor_kor.20.common_introduction": {
+  "en": "As it stands, there are two factions vying for power in the [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "Зараз наш двір розколотий на дві протиборчі фракції."
+ },
+ "flavor_kor.20.desc": {
+  "en": "It is time to choose a new direction for the [ROOT.GetCountry.GetLongName]. Which faction will [new_ruler.GetName] favor during [new_ruler.GetHerHis] rule?",
+  "uk": "[ROOT.GetCountry.GetLongName] на порозі нової епохи. Яку фракцію підтримає [new_ruler.GetName] під час свого правління?"
+ },
+ "flavor_kor.20.desc_gwan_hak_jeol_eui": {
+  "en": "$flavor_kor.20.desc$\\n\\n$kor_description_of_early_factions$",
+  "uk": ""
+ },
+ "flavor_kor.20.desc_sarim_hungu": {
+  "en": "$flavor_kor.20.desc$\\n\\n$flavor_kor.20.common_introduction$, the [ShowModifier('kor_support_sarim_modifier')], and the [ShowModifier('kor_support_hungu_modifier')]. The former are orthodox scholars who keenly support Neo-Confucianism, while the latter are united in strongly supporting the strengthening of the [ROOT.GetCountry.GetGovernment.GetAdjective] power.",
+  "uk": "$flavor_kor.20.desc$\\n\\n$flavor_kor.20.common_introduction$: [ShowModifier('kor_support_sarim_modifier')] та [ShowModifier('kor_support_hungu_modifier')]. До першої входять правовірні вчені, які палко підтримують оновлене конфуціанство, а до другої — прихильники посилення #L [ROOT.GetCountry.GetGovernment.GetAdjective]ої#! влади."
+ },
+ "flavor_kor.20.title": {
+  "en": "Factional Strife",
+  "uk": "Боротьба між фракціями"
+ },
+ "flavor_kor.200.a": {
+  "en": "Invite him to join the court.",
+  "uk": "Ми запросимо юнака до двору."
+ },
+ "flavor_kor.200.b": {
+  "en": "We do not need more young upstarts ",
+  "uk": "У нас повний двір юних обдарувань."
+ },
+ "flavor_kor.200.desc": {
+  "en": "A rumor is spreading in the court about a brilliant young man from [ShowLocationName('gongju')]. The courtesans say that he is a talented military leader and an astonishing poet whose talent is being wasted in an unimportant bureaucratic position in the provinces.\\n\\nShall we invite him to serve the [ROOT.GetCountry.GetGovernment.GetRulerTitle] directly? ",
+  "uk": "При дворі ходять чутки про видатного молодого чоловіка з [ShowLocationName('gongju')]. Куртизанки розповідають, ніби цей юнак — талановитий воєначальник і вкрай обдарований поет — животіє на незначній бюрократичній посаді в провінції.\\n\\n[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] може запросити його до себе на службу. Чи варто це робити?"
+ },
+ "flavor_kor.200.entry": {
+  "en": "$flavor_kor.200.title$",
+  "uk": ""
+ },
+ "flavor_kor.200.title": {
+  "en": "The Commander-Poet",
+  "uk": "Воєначальник-поет"
+ },
+ "flavor_kor.201.a": {
+  "en": "Fund his research",
+  "uk": "Ми виділимо кошти на цю працю."
+ },
+ "flavor_kor.201.b": {
+  "en": "We will not waste our gold on useless books",
+  "uk": "Нема чого витрачатися на непотрібні книги."
+ },
+ "flavor_kor.201.desc": {
+  "en": "[jong_seo.GetName] has approached the throne with a proposal. He wishes to hire a group of scholars to help him compile the history of our great [ROOT.GetCountry.GetLongName]. His words are full of scholarly passion and defend that such a treaty is not only a boon for future generations but an opportunity to grow our prestige.",
+  "uk": "[jong_seo.GetName] звернувся до нашої влади з пропозицією. Велика держава [ROOT.GetCountry.GetLongName] має бути вписана в аннали історії, і [jong_seo.GetName] хоче найняти групу вчених, які допоможуть йому скласти літопис нашої держави. Він говорить з неймовірним науковим запалом і наполягає, що таке вкладення не лише принесе благо нащадкам, а й підвищить наш престиж."
+ },
+ "flavor_kor.201.entry": {
+  "en": "$flavor_kor.201.title$",
+  "uk": ""
+ },
+ "flavor_kor.201.title": {
+  "en": "The History of [ROOT.GetCountry.GetName]",
+  "uk": "Історія [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_kor.21.a": {
+  "en": "We will keep that in mind.",
+  "uk": "Візьмемо до відома."
+ },
+ "flavor_kor.21.desc": {
+  "en": "Recent changes in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] have led to a split among the bureaucrats along ideological lines, leading to the formation of two much different factions. $kor_description_of_early_factions$",
+  "uk": "Зміни при дворі спровокували розкол серед чиновників, який призвів до появи двох ідеологічно протилежних фракцій. $kor_description_of_early_factions$"
+ },
+ "flavor_kor.21.entry": {
+  "en": "$flavor_kor.21.title$",
+  "uk": ""
+ },
+ "flavor_kor.21.title": {
+  "en": "Formation of the $kor_faction_name_jeol_eui$ and $kor_faction_name_gwan_hak$",
+  "uk": "Поява $kor_faction_name_jeol_eui$ та $kor_faction_name_gwan_hak$"
+ },
+ "flavor_kor.22.a": {
+  "en": "$flavor_kor.21.a$",
+  "uk": ""
+ },
+ "flavor_kor.22.desc": {
+  "en": "Recent events have led to the collapse of the [ShowModifier('kor_support_gwan_hak_modifier')] faction. Many of the former members left to form the [ShowModifier('kor_support_hungu_modifier')], a new faction that combines the tenets of the $kor_faction_name_gwan_hak$ but with a strong focus on the authority of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. The rest of the $kor_faction_name_hungu$ left to join the former [ShowModifier('kor_support_jeol_eui_modifier')] faction which has undergone changes that led to it becoming the new [ShowModifier('kor_support_sarim_modifier')] faction.",
+  "uk": "Нещодавні події призвели до розпаду фракції [ShowModifier('kor_support_gwan_hak_modifier')]. Багато її колишніх учасників створили нову фракцію [ShowModifier('kor_support_hungu_modifier')], яка відрізняється від $kor_faction_name_gwan_hak$ більшим наголосом на владі короля. Решта ж приєдналися до оновленої фракції [ShowModifier('kor_support_jeol_eui_modifier')], яка тепер стала називатися [ShowModifier('kor_support_sarim_modifier')]."
+ },
+ "flavor_kor.22.entry": {
+  "en": "$flavor_kor.22.title$",
+  "uk": ""
+ },
+ "flavor_kor.22.title": {
+  "en": "Formation of the $kor_faction_name_sarim$ and $kor_faction_name_hungu$ Factions",
+  "uk": "Поява фракцій $kor_faction_name_sarim$ та $kor_faction_name_hungu$"
+ },
+ "flavor_kor.23.a": {
+  "en": "Move to the Southern Capital permanently.",
+  "uk": "Назавжди переїдемо до південної столиці."
+ },
+ "flavor_kor.23.b": {
+  "en": "Remain in [current_capital.GetNameWithNoTooltip]",
+  "uk": "[current_capital.GetNameWithNoTooltip] — наш дім."
+ },
+ "flavor_kor.23.b.entry": {
+  "en": "Remain in the capital.",
+  "uk": ""
+ },
+ "flavor_kor.23.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has been experiencing an era of unprecedented growth. With such circumstance, some in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] are proposing to have the capital moved there and to have the [target_location.GetRank.GetNameWithNoTooltip] renamed to $hanseong$. Though, it must be said that there is also merit in remaining within [current_capital.GetName].",
+  "uk": "[target_location.GetRank.GetName] [target_location.GetName] переживає небувалий розквіт. Деякі придворні пропонують перенести столицю туди й перейменувати [target_location.Custom('LR_ACC')|l] на $hanseong$. Інші ж вважають, що [current_capital.GetName] більше підходить для столиці. Як нам вчинити?"
+ },
+ "flavor_kor.23.entry": {
+  "en": "$flavor_kor.23.title$",
+  "uk": ""
+ },
+ "flavor_kor.23.title": {
+  "en": "The Southern Capital",
+  "uk": "Південна столиця"
+ },
+ "flavor_kor.24.a": {
+  "en": "Then we will have to expel them!",
+  "uk": "Проженемо їх геть!"
+ },
+ "flavor_kor.24.b": {
+  "en": "Such a war will only lead to the misery of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')].",
+  "uk": "Ця війна лише зруйнує життя селян."
+ },
+ "flavor_kor.24.b.entry": {
+  "en": "Such a war will only lead to the misery of the $peasants_estate$.",
+  "uk": ""
+ },
+ "flavor_kor.24.desc": {
+  "en": "Since the fall of the state of Balhae, much of the old [ShowCultureName('korean_culture')] north has been overrun by [ShowCultureGroupName('mongolian_group')] and [ShowCultureName('jurchen_culture')] tribes. With our shackles broken and with a new will to expand our dominion, we have come into conflict with [target_country.GetName], whose lands in [target_province.GetName] lie on our path to advance to the northern mountain range.",
+  "uk": "Після падіння Пархе багато споконвічно #TOOLTIP:CULTURE,korean_culture_tt,X #L корейських#!#! територій на півночі були захоплені #TOOLTIP:CULTUREGROUP,mongolian_group,X #L монгольськими#!#! та #TOOLTIP:CULTURE,$jurchen_culture_tt$,X #L чжурчженьськими#!#! племенами. Тепер ми вільні від кайданів і хочемо розширити свої володіння. Заради цього ми вступили в конфлікт з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#!, чия провінція [target_province.GetName] лежить на шляху до північного хребта."
+ },
+ "flavor_kor.24.title": {
+  "en": "A Campaign Against [target_country.GetNameWithNoTooltip]",
+  "uk": "Похід проти [target_country.Custom('CL_GEN')]"
+ },
+ "flavor_kor.25.a": {
+  "en": "Offer [target_character.GetHerHis] our patronage.",
+  "uk": "Візьмемо [Select_CString(target_character.IsFemale, 'її', 'його' )] під своє крило."
+ },
+ "flavor_kor.25.b": {
+  "en": "Interesting, but not exactly worthwhile usage of our coin.",
+  "uk": "Не найрозумніше вкладення коштів, хоча ідея цікава."
+ },
+ "flavor_kor.25.desc": {
+  "en": "One of the renowned artists in our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has recently produced yet another poem. [target_character.GetHerHis|U] name is [target_character.GetName] and [target_character.GetSheHe] has produced many great works over the course of [target_character.GetHerHis] presence in the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Since [target_character.GetHerHis] childhood, [target_character.GetSheHe] has been considered to be a prodigy, but [target_character.GetHerHis] status as a [target_character.GetWomanMan] was a barrier to advancement in our society. We should not let such talent go to waste.",
+  "uk": "[Select_CString(target_character.IsFemale, 'Відома придворна поетеса', 'Відомий придворний поет' )] [target_character.GetName] нещодавно [Select_CString(target_character.IsFemale, 'написала', 'написав' )] чергову поему. За час свого перебування при дворі [Select_CString(target_character.IsFemale, 'вона встигла', 'він встиг' )] створити безліч чудових творів. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] обдарованість була очевидною з ранніх років, але [target_character.GetWomanMan] навряд чи досягне великих висот у нашому суспільстві. Буде шкода, якщо такий талант пропаде."
+ },
+ "flavor_kor.25.entry": {
+  "en": "Heo Nanseolheon, Korean Poetess",
+  "uk": ""
+ },
+ "flavor_kor.25.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_kor.26.a": {
+  "en": "Institute the reform.",
+  "uk": "Впровадимо цю реформу."
+ },
+ "flavor_kor.26.b": {
+  "en": "We will review it at a later date.",
+  "uk": "Повернемося до неї пізніше."
+ },
+ "flavor_kor.26.desc": {
+  "en": "Our outdated tax system has been taking its toil on the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], who have been disproportionally affected. To remedy this, a reform has been proposed under the name [ShowGovernmentReformName('kor_daedongbeob')], or Uniform Land Tax Law, which would improve the tax regime and let the state get more out of the taxes that it does collect. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] would no longer need to sell their land to the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in hope of getting out of the tax register.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] — головні жертви нашої застарілої податкової системи. Нова реформа, названа [ShowGovernmentReformName('kor_daedongbeob')] або закон про єдиний податок, покликана виправити цю несправедливість. Вона запровадить твердий єдиний тариф і підвищить державні доходи від збору податків. Нарешті [Country.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] зможуть зітхнути спокійно: їм більше не доведеться продавати свої землі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]», щоб вийти з податкового реєстру."
+ },
+ "flavor_kor.26.entry": {
+  "en": "$flavor_kor.26.title$",
+  "uk": ""
+ },
+ "flavor_kor.26.historical_info": {
+  "en": "The Korean economy was in a very bad shape by the 17th century and to rectify this state Chief State Councilor Yi Won-ik gradually introduced previously ignored reforms in the tax system. The tribute tax levied against households was replaced with a unified tax on arable land. The tax on goods was limited to a quota which let enterprising peasants and wholesalers make and sell surplus goods. The net effect was lower taxes for peasants, increased revenues for the state and a rise in commerce.",
+  "uk": "У XVII столітті корейська економіка перебувала в жалюгідному стані. Щоб виправити це становище, старший державний радник І Вон-ік поступово реформував податкову систему, яка вже давно показала свою неефективність. Подать, що стягувалася з домогосподарств, була замінена єдиним податком на орну землю. Податок на товари був обмежений певною часткою — це дозволило селянам, які ведуть власні справи, і великим купцям виробляти товари й продавати надлишки. Завдяки цим змінам селяни стали платити менше податків, прибуток держави зріс, а торгівля помітно пожвавилася."
+ },
+ "flavor_kor.26.title": {
+  "en": "Uniform Land Tax",
+  "uk": "Одноманітний земельний податок"
+ },
+ "flavor_kor.27.a": {
+  "en": "Let us pivot towards [ShowPolicyNameWithNoTooltip('kor_metal_coinage')].",
+  "uk": "Будемо карбувати металеві монети."
+ },
+ "flavor_kor.27.b": {
+  "en": "Importing [ShowPolicyNameWithNoTooltip('kor_chinese_currency')] might be necessary.",
+  "uk": "Ввеземо більше китайської валюти."
+ },
+ "flavor_kor.27.c": {
+  "en": "Print the [ShowPolicyNameWithNoTooltip('kor_jeohwa')].",
+  "uk": "Надрукуємо паперові гроші."
+ },
+ "flavor_kor.27.d": {
+  "en": "[ShowPolicyNameWithNoTooltip('kor_barter_economy')|U] is not a terrible fate.",
+  "uk": "Не бачимо нічого поганого в бартерній економіці."
+ },
+ "flavor_kor.27.desc": {
+  "en": "As per the members of our cabinet, it seems that the society of [ROOT.GetCountry.GetName] is transitioning towards a more agricultural one. The silver vases called #italic eunbyeong#! are becoming a thing of the past and there is a need for a fiscal reform to prevent our economy from falling apart. Currently, our economical situation is helped by the [ShowPolicyName('kor_chinese_currency')], which we could utilize more often. Otherwise, it might be beneficial to establish our own currency in the form of [ShowPolicyName('kor_metal_coinage')]. We could also take a much different approach, namely with the creation of a paper currency, [ShowPolicyName('kor_jeohwa')], in hopes of fostering a more commercial environment. Lastly, should those measures be bound to fail, a [ShowPolicyName('kor_barter_economy')] is not as bad as it would seem.",
+  "uk": "На думку учасників ради, суспільство #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! поступово стає аграрним. Срібні вази #italic инбьон#! відходять у минуле. Щоб економіка не розвалилася, потрібно провести фінансову реформу. Зараз наша фінансова стабільність тримається на #TOOLTIP:POLICY,kor_chinese_currency,X #L китайській валюті#!#!. У нас є кілька варіантів: використовувати її частіше, почати карбувати свої #TOOLTIP:POLICY,kor_metal_coinage,X #L металеві монети#!#! або ж запровадити в обіг паперові гроші #TOOLTIP:POLICY,kor_jeohwa,X #L чохва#!#!, щоб стимулювати торгівлю. Якщо всі ці заходи не спрацюють, ми завжди можемо перейти до #TOOLTIP:POLICY,kor_barter_economy,X #L бартерної економіки#!#!, що теж не так уже й погано."
+ },
+ "flavor_kor.27.entry": {
+  "en": "$flavor_kor.27.title$",
+  "uk": ""
+ },
+ "flavor_kor.27.title": {
+  "en": "Fiscal Future of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Фінансове майбутнє [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_kor.28.a": {
+  "en": "Establish the $flavor_kor.28.title$.",
+  "uk": "Створимо Зал гідних."
+ },
+ "flavor_kor.28.b": {
+  "en": "We may not spend any extra coin.",
+  "uk": "У нас зараз скрутно з фінансами."
+ },
+ "flavor_kor.28.desc": {
+  "en": "To serve as a guiding principle for [target_character.GetName] and [target_character.GetHerHis] successors, the [ROOT.GetCountry.GetGovernment.GetRulerTitle] wishes to create the institution of [ShowModifier('kor_hall_of_worthies_modifier')], a research institute comprised of the most illustrious and excellent scholars of the [ROOT.GetCountry.GetFlavorRank]. With proper funding, we will be able to make great strides in science and statecraft.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [target_character.GetName] збирається заснувати придворну академію, яка стане опорою для [Select_CString(target_character.IsFemale, 'неї', 'нього' )] та [Select_CString(target_character.IsFemale, 'її', 'його' )] нащадків. У цьому інституті, що отримав назву «[ShowModifier('kor_hall_of_worthies_modifier')]», працюватимуть найкращі уми [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Вони досягнуть значних успіхів у науці й управлінні державою, якщо ми вкладемо достатньо коштів у їхні дослідження."
+ },
+ "flavor_kor.28.entry": {
+  "en": "$flavor_kor.28.title$",
+  "uk": ""
+ },
+ "flavor_kor.28.title": {
+  "en": "$STATIC_MODIFIER_NAME_kor_hall_of_worthies_modifier$",
+  "uk": ""
+ },
+ "flavor_kor.29.a": {
+  "en": "Fund the [ShowWorkOfArtTypeNameWithNoTooltip('chronicle')].",
+  "uk": "Виділимо кошти на ведення хроніки."
+ },
+ "flavor_kor.29.b": {
+  "en": "We cannot afford to take on any further spending.",
+  "uk": "Ми не можемо собі дозволити додаткові витрати."
+ },
+ "flavor_kor.29.desc": {
+  "en": "The powerful states of $china$ produce and keep detailed accounts of the previous dynasties' history, entitled the Veritable Records. The creation of such works allows subsequent rulers of the [GetInternationalOrganization('middle_kingdom').GetName] to critically analyze the failures and successes of their predecessors. We too, could use a [ShowWorkOfArtTypeName('chronicle')] to keep information about the rule of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Contrary to our neighbors though, we would have it maintained on an regular basis.",
+  "uk": "Впливові сановники #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#! складають і зберігають докладні історичні описи попередніх правлячих династій, що звуться «Достовірними хроніками». Завдяки їм правителі #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_tt,X #L Серединної Держави#!#! можуть ретельно ознайомитися з успіхами та невдачами своїх попередників. Подібні #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хроніки#!#! про те, як [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] керує державою, не завадило б вести й нам. Але, на відміну від сусідів, займатися цим ми будемо постійно."
+ },
+ "flavor_kor.29.entry": {
+  "en": "$flavor_kor.29.title$",
+  "uk": ""
+ },
+ "flavor_kor.29.title": {
+  "en": "$veritable_records_of_joseon$",
+  "uk": ""
+ },
+ "flavor_kor.3.a": {
+  "en": "Welcome [mongol_aristocrat.GetHimHer] to our court.",
+  "uk": "Ми приймемо [Select_CString(mongol_aristocrat.IsFemale, 'її', 'його')] в столиці."
+ },
+ "flavor_kor.3.b": {
+  "en": "We do not need any more spies from the [target_country.GetGovernment.GetRulerTitle].",
+  "uk": "[target_country.GetGovernment.GetRulerTitle] знову засилає своїх шпигунів. З нас досить!"
+ },
+ "flavor_kor.3.b.entry": {
+  "en": "We do not need any more spies from him.",
+  "uk": ""
+ },
+ "flavor_kor.3.desc": {
+  "en": "The court of [target_country.GetName] has once again sent one of their nobility, [mongol_aristocrat.GetName], to [ROOT.GetCountry.GetCapital.GetName] to monitor our government.",
+  "uk": "[mongol_aristocrat.GetName] стане [Select_CString(mongol_aristocrat.IsFemale, 'новою представницею', 'новим представником')] #L [target_country.GetAdjective]ого#! двору в місті [ROOT.GetCountry.GetCapital.GetName] і стежитиме за діяльністю нашого уряду."
+ },
+ "flavor_kor.3.title": {
+  "en": "New [ShowCultureNameWithNoTooltip('mongolian_culture')] Aristocrat Arrives",
+  "uk": "Прибуття чергового монгольського аристократа"
+ },
+ "flavor_kor.30.a": {
+  "en": "\"And [target_character.GetNameWithNoTooltip] requested for this to not be recorded.\"",
+  "uk": "«А потім [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'наказала', 'наказав' )] не вносити це до хроніки»."
+ },
+ "flavor_kor.30.a.entry": {
+  "en": "\"And he requested for this to not be recorded.\".",
+  "uk": ""
+ },
+ "flavor_kor.30.b": {
+  "en": "Prevent the chronicler from writing this down!",
+  "uk": "Не дати хроністу написати про те, що сталося!"
+ },
+ "flavor_kor.30.desc": {
+  "en": "It was a day like any other. [target_character.GetName] was out hunting, saddled on [target_character.GetHerHis] horse. Everything was proceeding smoothly, as it always does, until the [ROOT.GetCountry.GetGovernment.GetAdjective] mount suddenly stumbled, throwing [target_character.GetShortNameWithNoTooltip] to the ground in a truly spectacular fashion. [target_character.GetSheHe|U] was, of course, accompanied by [target_character.GetHerHis] court, including the chief chronicler. It is only customary for this to be recorded in the [target_work_of_art.GetName], however embarrassing as it may be. The [ROOT.GetCountry.GetGovernment.GetRulerTitle] would prefer this event not to be included, however.",
+  "uk": "Цей день не віщував нічого лихого. [target_character.GetName] за своєю звичкою [Select_CString(target_character.IsFemale, 'виїхала', 'виїхав' )] на полювання, осідлавши вірного скакуна, але невдовзі ясний день несподівано затьмарився: #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]а#! тварина раптом спіткнулася, і [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'упала', 'упав' )] на землю, вразивши всіх навколишніх придворних неймовірним сальто. Серед присутніх, звісно, опинився й старший хроніст, чий почесний обов'язок — заносити все, що відбувається, до свого твору під назвою «[target_work_of_art.GetName]», хоч би яким ганебним воно було. [ROOT.GetCountry.GetGovernment.GetRulerTitle], втім, зовсім не бажає, щоб нащадки дізналися про цей випадок."
+ },
+ "flavor_kor.30.entry": {
+  "en": "A Ruler Falls off a Horse",
+  "uk": ""
+ },
+ "flavor_kor.30.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Falls off a Horse",
+  "uk": "[target_character.GetNameWithNoTooltip] падає з коня"
+ },
+ "flavor_kor.31.a": {
+  "en": "Establish the institution.",
+  "uk": "Заснувати заклад."
+ },
+ "flavor_kor.31.b": {
+  "en": "We cannot spare the funds.",
+  "uk": "У нас немає зайвих коштів."
+ },
+ "flavor_kor.31.desc": {
+  "en": "The [ShowLawName('imperial_examination_law')] is in need of fresh students. In order to fulfill the recruitment quota for our government positions, let us create an institution in [target_location.GetName], our capital, for it to serve as a place where meritocracy can shine bright and the best of the best are selected.",
+  "uk": "[ShowLawName('imperial_examination_law')] перебуває в застої — державі потрібні нові учні. Щоб заповнити всі вакантні чиновницькі посади, ми збираємося створити в районі [target_location.GetName] — столиці держави — навчальний заклад, де відбиратимуться найвправніші та найздібніші."
+ },
+ "flavor_kor.31.entry": {
+  "en": "$flavor_kor.31.title$",
+  "uk": ""
+ },
+ "flavor_kor.31.title": {
+  "en": "The Seonggyungwan",
+  "uk": "Сонгюнгван"
+ },
+ "flavor_kor.32.a": {
+  "en": "Blasted traitors!",
+  "uk": "Прокляті зрадники!"
+ },
+ "flavor_kor.32.desc": {
+  "en": "One of our generals, [target_character.GetName], greatly disappointed by the actions of [ROOT.GetCountry.GetGovernment.GetRuler.GetName], has decided to take reins into [target_character.GetHerHis] own hands and raised arms in a vicious mutiny against the [ROOT.GetCountry.GetFlavorRank]! The [target_country.GetLongName] are now up in arms against us in [target_location.GetName].",
+  "uk": "Один з наших полководців на ім'я [target_character.GetName], якому вкрай [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'неприємна', 'неприємний' )] [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l], [Select_CString(target_character.IsFemale, 'вирішила', 'вирішив' )] взяти кермо влади у власні руки й [Select_CString(target_character.IsFemale, 'підняла', 'підняв' )] жорстокий заколот проти [ROOT.GetCountry.Custom('rank_ru_GEN')|l]! Тепер [target_country.GetLongName] у вогні, а [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] охоплений повстанням."
+ },
+ "flavor_kor.32.entry": {
+  "en": "$flavor_kor.32.title$",
+  "uk": ""
+ },
+ "flavor_kor.32.title": {
+  "en": "A Dangerous Mutiny",
+  "uk": "Небезпечний заколот"
+ },
+ "flavor_kor.33.a": {
+  "en": "Support [target_character.GetShortNameWithNoTooltip].",
+  "uk": "Ми підтримаємо [Select_CString(target_character.IsFemale, 'її', 'його')] ініціативу."
+ },
+ "flavor_kor.33.a.entry": {
+  "en": "Support him.",
+  "uk": ""
+ },
+ "flavor_kor.33.b": {
+  "en": "Focus on other matters.",
+  "uk": "Зосередитися на інших справах."
+ },
+ "flavor_kor.33.desc": {
+  "en": "The early history of [ROOT.GetCountry.GetName] remains shrouded in many mysteries, and facts will continue to slip from general knowledge unless something is done. To combat this, [target_character.GetName] has begun the process of compiling the early history of [ShowRegionName('korea_region')], but requires further funds to finish. The resulting [ShowWorkOfArtTypeName('chronicle')] would be entitled $tongguk_tonggam$.",
+  "uk": "Історія перших років існування #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! оповита численними таємницями. Якщо пустити все на самоплив, факти остаточно зникнуть з народної пам'яті. Щоб якось із цим боротися, [target_character.GetName] [Select_CString(target_character.IsFemale, 'почала', 'почав' )] складати хроніку ранньої історії #TOOLTIP:REGION,korea_region,X #L Кореї#!#!, однак щоб довести її до кінця, знадобляться кошти. #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L Хроніці#!#! вже придумано назву: $tongguk_tonggam$."
+ },
+ "flavor_kor.33.entry": {
+  "en": "$flavor_kor.33.title$",
+  "uk": ""
+ },
+ "flavor_kor.33.title": {
+  "en": "$tongguk_tonggam$",
+  "uk": ""
+ },
+ "flavor_kor.34.a": {
+  "en": "Reduce trading privileges of the [ShowCultureGroupNameWithNoTooltip('japanese_group')].",
+  "uk": "Урізати торгові привілеї, якими користуються японці."
+ },
+ "flavor_kor.34.b": {
+  "en": "Try to defuse the tensions.",
+  "uk": "Постаратися розрядити обстановку."
+ },
+ "flavor_kor.34.desc": {
+  "en": "We permit the [ShowCultureGroupName('japanese_group')] merchants to do limited amounts of trade in a few of the southern ports of [ShowRegionName('korea_region')], most notably the [target_location.GetRank.GetName] of [target_location.GetName]. Despite our benevolence, local visiting merchants remain ungrateful, and have taken up arms after their exclusion from our tax breaks. Thankfully, this bloody riot was put down by our military and we have restored control over the [target_location.GetRank.GetNameWithNoTooltip]. This is not enough for our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] however, who are calling for harsher measures to be taken against the rioters.",
+  "uk": "Ми дозволяємо #TOOLTIP:CULTUREGROUP,japanese_group,X #L японським#!#! купцям вести торгівлю (хай навіть з деякими обмеженнями) в деяких південних портах #TOOLTIP:REGION,korea_region,X #L Кореї#!#! — навіть у такому місці, як [target_location.GetRank.GetName|l] [target_location.GetName]. Однак ці люди невдячні й не цінують виявлену нами великодушність, а після того, як їх позбавили податкових пільг, навіть узялися за зброю. На щастя, наші війська швидко придушили кривавий бунт, і в [target_location.Custom('LR_PREP')|l] знову запанував спокій. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], втім, вважають, що цього недостатньо, й закликають вжити суворіших заходів."
+ },
+ "flavor_kor.34.entry": {
+  "en": "$flavor_kor.34.title$",
+  "uk": ""
+ },
+ "flavor_kor.34.title": {
+  "en": "Disturbance of Three Ports",
+  "uk": "Заворушення в трьох портах"
+ },
+ "flavor_kor.35.a": {
+  "en": "It is truly wonderful!",
+  "uk": "Яке диво!"
+ },
+ "flavor_kor.35.b": {
+  "en": "Truly shameful! We cannot let such boundaries be broken.",
+  "uk": "Який сором! Деякі межі в жодному разі не можна порушувати."
+ },
+ "flavor_kor.35.desc": {
+  "en": "A [ShowWorkOfArtTypeName('novel')] entitled $kor_cloud_dream_of_nine$ has begun spreading around our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Written in [ShowAdvanceName('kor_hangeul_alphabet')], it has become quite renowned amongst our scholarly. Its author is unknown, but is widely believed to be [target_character.GetName], who has since denied all attributions of authorship. Though it is believed to be a well written work of art, the act of writing a fantasy novel in the alphabet would not be considered too positively.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] останнім часом дедалі частіше обговорює й читає [ShowWorkOfArtTypeName('novel')|l] $kor_cloud_dream_of_nine$ — твір, написаний алфавітом «[ShowAdvanceName('kor_hangeul_alphabet')|l]», а тому поширений і серед людей науки. Автор повісті невідомий, але прийнято вважати, що це [target_character.GetName]; втім, [Select_CString(target_character.IsFemale, 'сама вона', 'сам він' )] заперечує свою причетність. Хоча сам твір написано чудово, мало хто схвально поставиться до самого задуму написати казкову книгу, особливо хангилем."
+ },
+ "flavor_kor.35.entry": {
+  "en": "$flavor_kor.35.title$",
+  "uk": ""
+ },
+ "flavor_kor.35.title": {
+  "en": "$kor_cloud_dream_of_nine$",
+  "uk": ""
+ },
+ "flavor_kor.36.a": {
+  "en": "Establish the [ShowModifierWithNoTooltip('kor_sayeogwon')].",
+  "uk": "Заснувати [ShowModifierWithNoTooltip('kor_sayeogwon')]."
+ },
+ "flavor_kor.36.b": {
+  "en": "We will do without them.",
+  "uk": "Впораємося й без них."
+ },
+ "flavor_kor.36.desc": {
+  "en": "Despite all the cultural assimilation, the [ROOT.GetCountry.GetCulture.GetLanguage.GetName] language remains alien to all of our neighbors. With the lack of intelligibility, diplomacy with other states is rather difficult and all of missions to and fro must be accompanied by interpreters who can overcome those burdens. Such an important aspect this is, that the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] has concluded that we need a professional institution for the training of interpreters to aid our diplomatic and tributary missions.",
+  "uk": "Попри постійний культурний обмін, #L [ROOT.GetCountry.GetCulture.GetLanguage.GetName|l]а#! мова залишається для наших сусідів цілком незбагненною. Неможливість порозумітися серйозно утруднює нам переговори з іншими державами, тому в кожній дипломатичній поїздці обов'язково має бути присутній перекладач, здатний налагодити спілкування. Роль ця настільки важлива, що й #L [ROOT.GetCountry.GetAdjective|l]а#! влада, і [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] зокрема постановили: нам потрібне особливе відомство для підготовки перекладачів — помічників дипломатів і збирачів данини."
+ },
+ "flavor_kor.36.entry": {
+  "en": "$flavor_kor.36.title$",
+  "uk": ""
+ },
+ "flavor_kor.36.title": {
+  "en": "Bureau of Interpreters",
+  "uk": "Палата перекладачів"
+ },
+ "flavor_kor.37.a": {
+  "en": "Promote the treatises far and wide.",
+  "uk": "Поширити трактат повсюдно."
+ },
+ "flavor_kor.37.b": {
+  "en": "Condemn the work.",
+  "uk": "Засудити цю роботу."
+ },
+ "flavor_kor.37.desc": {
+  "en": "One of our scholars associated with [target_international_organization.GetName] has recently produced a grand treatise outlining many different polemical arguments against the tenets of [ShowReligionGroupName('buddhist')]. The release of 'An Array of Critiques of Buddhism' marks a turning point, for we can now be certain that the [ROOT.GetCountry.GetAdjective] society is slowly turning towards the beliefs of [target_international_organization.GetNameWithNoTooltip].",
+  "uk": "[target_international_organization.GetName] так надихає одного з наших вчених, що він написав цілий трактат, де виклав полемічні аргументи проти принципів буддизму. Публікація «Зводу критики буддизму» знаменує переломний момент — тепер ясно, що #L [ROOT.GetCountry.GetAdjective|l]е#! суспільство поступово схиляється до вірувань, які практикує [target_international_organization.GetNameWithNoTooltip]."
+ },
+ "flavor_kor.37.entry": {
+  "en": "A Critique of Buddhist",
+  "uk": ""
+ },
+ "flavor_kor.37.title": {
+  "en": "A Critique of [ShowReligionGroupNameWithNoTooltip('buddhist')]",
+  "uk": "Критика буддизму"
+ },
+ "flavor_kor.38.a": {
+  "en": "Support [target_character.GetShortNameWithNoTooltip].",
+  "uk": "[target_character.GetShortNameWithNoTooltip] більше заслуговує нашої підтримки."
+ },
+ "flavor_kor.38.a.entry": {
+  "en": "Support him.",
+  "uk": ""
+ },
+ "flavor_kor.38.b": {
+  "en": "Favor the [ROOT.GetCountry.GetGovernment.GetHeirTitle], [target_character2.GetNameWithNoTooltip] instead.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetHeirTitle|U], [target_character2.GetNameWithNoTooltip], отримає підтримку."
+ },
+ "flavor_kor.38.b.entry": {
+  "en": "Favor our heir instead.",
+  "uk": ""
+ },
+ "flavor_kor.38.desc": {
+  "en": "The succession of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] is far from secure. Though [target_character2.GetName] remains nominally the [ROOT.GetCountry.GetGovernment.GetHeirTitle], the tensions in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] do remain high. This is because many ministers believe [target_character.GetName] to have a higher ambition than the one of [target_character.GetHerHis] relative. Though no violence has yet erupted, the two are guaranteed to clash, providing nothing is done about it beforehand.",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'Нинішня правителька', 'Нинішній правитель')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] не має беззаперечного спадкоємця. Хоча формально [ROOT.GetCountry.GetGovernment.GetHeirTitle] — це [target_character2.GetName], [ROOT.GetCountry.GetGovernment.GetCourtTitle] все ще в напрузі. Все тому, що багато міністрів переконані: [target_character.GetName] плекає куди більші амбіції, ніж [Select_CString(target_character.IsFemale, 'її', 'його')] [Select_CString(target_character2.IsFemale, 'родичка', 'родич')]. Поки що до насильства не дійшло, але конфлікт неминучий — якщо тільки не втрутитися заздалегідь."
+ },
+ "flavor_kor.38.entry": {
+  "en": "$flavor_kor.38.title$",
+  "uk": ""
+ },
+ "flavor_kor.38.title": {
+  "en": "Strife of Princes",
+  "uk": "Протистояння принців"
+ },
+ "flavor_kor.39.a": {
+  "en": "Embrace the policy in its earnest.",
+  "uk": "Прийняти цю політику з усією серйозністю."
+ },
+ "flavor_kor.39.b": {
+  "en": "We shall no longer lie in the shadow of $china$.",
+  "uk": "Ми більше не будемо жити в тіні Китаю!"
+ },
+ "flavor_kor.39.desc": {
+  "en": "For much of the past centuries, the predecessors of [ROOT.GetCountry.GetName] have lived and operated in submission to the states in $china$. This makes sense, as the resources held by [GetInternationalOrganization('middle_kingdom').GetName] are vast and outright hostility would only serve to hurt the interests of both parties. Such submission was mutually beneficial to both sides, but has also placed us in the humiliating position of a lesser party, drawing [ShowCultureName('korean_culture')] culture closer to the [ShowCultureGroupName('chinese_group')] rather than the contrary.",
+  "uk": "Століттями нашим предкам з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! доводилося жити в підпорядкуванні #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!. У цьому є логіка: #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_tt,X #L Серединна Держава#!#! володіє невичерпними ресурсами, а відкрита ворожнеча лише шкодила б інтересам обох сторін. Таке підпорядкування було взаємовигідним, але поставило нас у принизливе становище молодшого партнера, наблизивши #TOOLTIP:CULTURE,korean_culture_tt,X #L корейську#!#! культуру до #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайської#!#!, а не навпаки."
+ },
+ "flavor_kor.39.entry": {
+  "en": "Serving the Middle Kingdom",
+  "uk": ""
+ },
+ "flavor_kor.39.title": {
+  "en": "Serving the [GetInternationalOrganization('middle_kingdom').GetNameWithNoTooltip]",
+  "uk": "Служіння Серединній державі"
+ },
+ "flavor_kor.4.a": {
+  "en": "Long live [ROOT.GetCountry.GetNameWithNoTooltip]!",
+  "uk": "Хай живе [ROOT.GetCountry.GetNameWithNoTooltip]!"
+ },
+ "flavor_kor.4.a.entry": {
+  "en": "Long live our country!",
+  "uk": ""
+ },
+ "flavor_kor.4.desc": {
+  "en": "After a century under the bondage to the [ShowCultureName('mongolian_culture')] rule over [ROOT.GetCountry.GetName], our nation has finally broken away! The conquerors of the steppes have no longer a say in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] politics, and our culture and government are once again flourishing!\\n\\nOf course the situation of China remains an open question, and it is yet to be seen in what direction [target_character.GetName] will lead us to, but for now, we shall enjoy the sovereignty and liberty!",
+  "uk": "Ціле століття #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монголи#!#! правили [ROOT.GetCountry.Custom('CL_TP')], але тепер наш народ нарешті вільний! Степові завойовники втратили контроль над [ROOT.GetCountry.GetAdjectiveWithNoTooltip]им урядом, що призвело до розквіту нашої політики й культури!\\n\\nЗвісно, ситуація в Китаї залишається складною, і нам ще належить дізнатися, куди заведе нас [target_character.GetName], але поки що ми можемо вдосталь насолодитися щойно здобутою незалежністю!"
+ },
+ "flavor_kor.4.entry": {
+  "en": "$flavor_kor.4.title$",
+  "uk": ""
+ },
+ "flavor_kor.4.title": {
+  "en": "Mongol Shackles Broken",
+  "uk": "Свобода від монгольських кайданів"
+ },
+ "flavor_kor.40.a": {
+  "en": "Proceed with the restrictions.",
+  "uk": "Ми обмежимо їхні права на утримання військ."
+ },
+ "flavor_kor.40.b": {
+  "en": "This must be halted.",
+  "uk": "Час це припинити."
+ },
+ "flavor_kor.40.desc": {
+  "en": "As it stands, the military men of [ROOT.GetCountry.GetName], predominantly members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], are well within their right to own and manage private armies. This poses significant risk to the [ROOT.GetCountry.GetFlavorRank] and could lead to coups, civil wars, and other forms of disorder further down the line. Such state of affairs has been the focus of [ShowSocietyDirectionName('centralization')] policies which are spearheaded by the government of [target_character.GetName]. The [ShowEstatePrivilegeName('noble_armies')] must be curbed.",
+  "uk": "У нинішньому становищі військові чини #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, переважно [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], мають повне право утримувати приватні армії та командувати ними. Це створює серйозну загрозу для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] і може призвести до переворотів, громадянських воєн та інших заворушень у майбутньому. Таке становище стало об'єктом політики #TOOLTIP:SOCIETAL_VALUE,centralization,X #L централізації#!#!, яку проводить уряд і особисто [target_character.GetName]. Такі приватні армії необхідно приборкати."
+ },
+ "flavor_kor.40.entry": {
+  "en": "$flavor_kor.40.title$",
+  "uk": ""
+ },
+ "flavor_kor.40.title": {
+  "en": "Forbidding Private Armies",
+  "uk": "Заборона приватних армій"
+ },
+ "flavor_kor.41.a": {
+  "en": "Ignore the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Кого хвилює, що думають ці [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ },
+ "flavor_kor.41.a.entry": {
+  "en": "Ignore the $nobles_estate$.",
+  "uk": ""
+ },
+ "flavor_kor.41.b": {
+  "en": "Appease the elites.",
+  "uk": "Поступитися елітам."
+ },
+ "flavor_kor.41.desc": {
+  "en": "The invention of [ShowAdvanceName('kor_hangeul_alphabet')] has been of great benefit to the commons of the [ROOT.GetCountry.GetAdjective] society. Unlike the foreign [ShowCultureGroupName('chinese_group')] script, known in [ROOT.GetCountry.GetNameWithNoTooltip] as #italic Hanja#!, the alphabet is easy to learn, improving literacy rates across the [ROOT.GetCountry.GetFlavorRank]. This dissemination of such basic skills has not been without pushback though, for the elites, mostly members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], have been pushing back against the new invention.",
+  "uk": "Створення хангиля принесло величезну користь простому #L [ROOT.GetCountry.GetAdjective|l]ому#! народу. На відміну від іноземного #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайського#!#! письма, відомого серед мешканців [ROOT.GetCountry.Custom('CL_RP')] як #italic ханча#!, новий алфавіт простий у вивченні, що підвищило загальну грамотність [ROOT.GetCountry.Custom('CF_RP')|l]. Однак поширення цих знань зустріло опір — [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] люто виступають проти нововведення."
+ },
+ "flavor_kor.41.entry": {
+  "en": "Pushback against $kor_hangeul_alphabet$",
+  "uk": ""
+ },
+ "flavor_kor.41.title": {
+  "en": "Pushback against [ShowAdvanceNameWithNoTooltip('kor_hangeul_alphabet')]",
+  "uk": "Протест проти хангиля"
+ },
+ "flavor_kor.5.a": {
+  "en": "May our loyalty be rewarded accordingly.",
+  "uk": "Сподіваємося, нас гідно нагородять за нашу вірність."
+ },
+ "flavor_kor.5.desc": {
+  "en": "Our compliance and support of the [target_country.GetAdjective] throne has gained us the trust and benevolence of the [ShowCultureName('mongolian_culture')] rulers and people alike. The fate of [ROOT.GetCountry.GetName] and [target_country.GetNameWithNoTooltip] are bound to each other for the better or worse.",
+  "uk": "Завдяки своїй беззаперечній підтримці #L [target_country.GetAdjective]ого#! трону ми заслужили довіру як #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольських#!#! правителів, так і їхнього народу. Тепер долі [ROOT.GetCountry.Custom('CL_GEN')] і [target_country.Custom('CL_GEN')] тісно переплелися — на добре чи на зле."
+ },
+ "flavor_kor.5.entry": {
+  "en": "$flavor_kor.5.title$",
+  "uk": ""
+ },
+ "flavor_kor.5.title": {
+  "en": "Strengthened Ties to the Mongols",
+  "uk": "Зміцнення зв'язків з монголами"
+ },
+ "flavor_kor.6.a": {
+  "en": "We shall make the request!",
+  "uk": "Ми звернемося до імператриці!"
+ },
+ "flavor_kor.6.b": {
+  "en": "We do not need the support of the [target_country.GetGovernment.GetRulerTitle].",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] нас не цікавить."
+ },
+ "flavor_kor.6.b.entry": {
+  "en": "We do not need the support of the ruler.",
+  "uk": ""
+ },
+ "flavor_kor.6.desc": {
+  "en": "[target_character.GetName], [target_character.GetDaughterSon] of [from_country.GetName], has assumed power over [target_country.GetName]. Through [target_character.GetHisHer] ties to the [from_country.GetAdjectiveWithNoTooltip] homeland, [target_character.GetHeShe] has strong feelings and interests in the well-being of our [from_country.GetFlavorRank]. We have the unique opportunity to remind [target_character.GetHimHer] of [target_character.GetHisHer] origins and request for a grand gift from the Celestial Empire.",
+  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale, 'уродженка', 'уродженець')] [from_country.Custom('CL_GEN')], [Select_CString(target_character.IsFemale, 'захопила', 'захопив')] владу над [target_country.Custom('CL_INST')]. Через свої [from_country.GetAdjectiveWithNoTooltip]і корені [Select_CString(target_character.IsFemale, 'вона', 'він')] виявляє непідробний інтерес до долі [from_country.Custom('rank_ru_GEN')], тож у нас з'явилася безпрецедентна можливість нагадати [Select_CString(target_character.IsFemale, 'правительці', 'правителю')] [Select_CString(target_character.IsFemale, 'про її', 'про його')] коріння й випросити щедрий подарунок від Піднебесної."
+ },
+ "flavor_kor.6.entry": {
+  "en": "Empress Consort Gi of the Yuan",
+  "uk": ""
+ },
+ "flavor_kor.6.historical_info": {
+  "en": "Born in Haengju (modern Goyang), Goryeo, Lady Gi of the Gi family became a concubine of the Yuán emperor Toghon Temür, captivating him with her beauty and talents despite opposition. Maneuvering through court politics, she secured her son's heir status as her influence grew when Toghon Temür withdrew from governance. Her actions caused tension between Goryeo and Yuán, especially with her bid for her son's succession, leading to conflict and jeopardizing Goryeo's stability.\\n\\nAs power struggles intensified, King Gongmin of Goryeo severed ties with Yuán, triggering Empress Gi's retaliation. Despite her subsequent rise to primary empress status due to internal strife in Yuán, the dynasty's collapse in 1368 compelled her flight, entwining her fate with Yuán's demise. Despite fleeting moments as Grand Empress, Empress Gi's final whereabouts became a mystery after Toghon Temür's death, fading from historical records.",
+  "uk": "Імператриця Кі з родини Кі — уродженка Хенджу (нині Коян), одного з міст держави Корьо. Попри зусилля недоброзичливців, вона стала наложницею Тогон-Темура, імператора з династії Юань, полонивши його своєю красою й талантами. Коли Тогон-Темур відсторонився від державних справ, Кі, вправно маневруючи в придворній політиці, зміцнила свій вплив і домоглася того, що її син отримав статус спадкоємця. Її дії — особливо претензія на право спадкування — викликали напругу між Корьо та Юанями, що призвело до конфлікту й підірвало стабільність Корьо.\\n\\nВ умовах запеклої боротьби за владу Конмін, король Корьо, розірвав відносини з Юанями, і реакція імператриці Кі не забарилася. Пізніше внаслідок внутрішньосімейної боротьби Кі отримала статус головної імператриці, однак після падіння династії в 1368 році вона кинулася втікати, пов'язавши свою долю з крахом дому Юань. Попри те, що Кі встигла ненадовго побути головною імператрицею, після смерті Тогон-Темура відомості про те, де минули її останні роки, перетворилися на таємницю, зникнувши з історичних архівів."
+ },
+ "flavor_kor.6.title": {
+  "en": "[target_character.GetNameWithNoTooltip] of [target_country.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] з [target_country.Custom('CL_GEN')"
+ },
+ "flavor_kor.7.a": {
+  "en": "Gold shall serve [from_country.GetNameWithNoTooltip] just fine.",
+  "uk": "Для [from_country.Custom('CL_GEN')] немає подарунка кращого за золото."
+ },
+ "flavor_kor.7.a.entry": {
+  "en": "Gold shall serve them just fine.",
+  "uk": ""
+ },
+ "flavor_kor.7.a.tt": {
+  "en": "[from_country.GetName] will receive the [gold|e]",
+  "uk": "[from_country.GetName] отримає [Concept('gold', 'золото')|e]"
+ },
+ "flavor_kor.7.b": {
+  "en": "Let us gift them our precious artifacts.",
+  "uk": "Ми подаруємо їм наші цінні артефакти."
+ },
+ "flavor_kor.7.b.tt": {
+  "en": "[from_country.GetName] will receive the [prestige|e]",
+  "uk": "[from_country.GetName] отримає [Concept('prestige', 'престиж')|e]"
+ },
+ "flavor_kor.7.desc": {
+  "en": "[target_character.GetName] has become the ruling authority over [target_country.GetName], but yet is still a [target_character.GetDaughterSon] of [from_country.GetName], a Province-[from_country.GetFlavorRank] to our great [target_country.GetFlavorRank]. As such, [target_character.GetHisHer] ties to the [from_country.GetAdjectiveWithNoTooltip] lands are still strong despite [target_character.GetHisHer] new position of power within [target_country.GetNameWithNoTooltip].\\n\\n[from_country.GetGovernment.GetRuler.GetName] made a request for a gift which shall support [from_country.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetName] керує [target_country.Custom('CL_TP')], однак походить з [from_country.Custom('CL_RP')] — [from_country.Custom('CF_RP')] у підпорядкуванні [target_country.Custom('CF_RP')]. [Select_CString(target_character.IsFemale, 'Її', 'Його')] зв'язок з [from_country.Custom('CL_TP')] досі сильний, попри найвищу посаду в [target_country.Custom('CL_PP')].\\n\\nНещодавно [from_country.GetGovernment.GetRuler.GetName] [Select_CString(from_country.GetGovernment.GetRuler.IsFemale, 'звернулася', 'звернувся')] до нас з проханням про подарунок, який піде на благо [from_country.Custom('CL_DP')]."
+ },
+ "flavor_kor.7.title": {
+  "en": "The Request of [from_country.GetNameWithNoTooltip]",
+  "uk": "Звернення [from_country.Custom('CL_GEN')]"
+ },
+ "flavor_kor.7.zzz": {
+  "en": "They do not need any kind of gift.",
+  "uk": "Подарунки їм ні до чого."
+ },
+ "flavor_kor.8.a": {
+  "en": "Praise to [target_country.GetGovernment.GetRuler.GetShortNameWithNoTooltip], true [target_country.GetGovernment.GetRuler.GetDaughterSon] of [from_country.GetNameWithNoTooltip]!",
+  "uk": "Хай живе [target_country.GetGovernment.GetRuler.GetShortNameWithNoTooltip], [Select_CString(target_country.GetGovernment.GetRuler.IsFemale, 'істинна донька', 'істинний син')] [from_country.Custom('CL_GEN')]!"
+ },
+ "flavor_kor.8.a.entry": {
+  "en": "Praise to him, true son of them!",
+  "uk": ""
+ },
+ "flavor_kor.8.desc": {
+  "en": "The graceful [target_country.GetGovernment.GetRulerTitle], [target_country.GetGovernment.GetRulerOrRegent.GetShortName], has sent [target_country.GetGovernment.GetRulerOrRegent.GetHisHer] regards!",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] [target_country.GetGovernment.GetRulerOrRegent.GetShortName] шле нам свій уклін!"
+ },
+ "flavor_kor.8.desc.gold": {
+  "en": "$flavor_kor.8.desc$ A chest of gold in immeasurable quantity has arrived at our court. With it, the coffers of [from_country.GetName] are filled for the decade to come.",
+  "uk": "$flavor_kor.8.desc$ Нам пожалували скриню, вщерть набиту золотом. Цих грошей [from_country.Custom('CL_DAT')] вистачить на ціле десятиліття!"
+ },
+ "flavor_kor.8.desc.prestige": {
+  "en": "$flavor_kor.8.desc$ Precious and impressive artifacts from the heartland of China have arrived at our court. Such a symbol of prestige in our possession will surely improve our public presentation greatly.",
+  "uk": "$flavor_kor.8.desc$ До нашого двору прибули розкішні артефакти із самого серця Китаю. Такі символи престижу суттєво підвищать наш авторитет в очах інших держав."
+ },
+ "flavor_kor.8.title": {
+  "en": "Gift from the [target_country.GetGovernment.GetRulerTitle]",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] обдаровує нас"
+ },
+ "flavor_kor.9.a": {
+  "en": "What a shameful display of betrayal...",
+  "uk": "Яка підлість, яке зрадництво…"
+ },
+ "flavor_kor.9.desc": {
+  "en": "News from [target_country.GetCapital.GetName] have reached our court at last. [target_country.GetGovernment.GetRuler.GetName] has expressed to have no interest in sending any kind of gift or support to [target_country.GetGovernment.GetRuler.GetHisHer] home country, abandoning [target_country.GetGovernment.GetRuler.GetHisHer] [from_country.GetAdjective] roots entirely.",
+  "uk": "Ми нарешті отримали вісті з міста [target_country.GetCapital.GetName]. [target_country.GetGovernment.GetRuler.GetName|U] не [Select_CString(target_country.GetGovernment.GetRuler.IsFemale, 'забажала', 'забажав')] надіслати подарунок або допомогу своїй батьківщині, тим самим повністю зрікшись #L [from_country.GetAdjective]их#! коренів."
+ },
+ "flavor_kor.9.entry": {
+  "en": "The Yuan Dynasty Rejects Our Gift",
+  "uk": ""
+ },
+ "flavor_kor.9.title": {
+  "en": "The [target_country.GetGovernment.GetRulerTitle] Rejects!",
+  "uk": "[target_country.GetGovernment.GetRulerTitle|U] відмовляє нам!"
+ },
+ "has_korean_factionalism_tt": {
+  "en": "Court Factionalism has Emerged",
+  "uk": ""
+ },
+ "has_neo_confucianism_tt": {
+  "en": "Had the #Y The Rise of the Neo-Confucians#! [event|e]",
+  "uk": "Відбулася [Concept('event', 'подія')|e] #Y «Зародження неоконфуціанства»#!"
+ },
+ "has_upgraded_son_in_law": {
+  "en": "Has upgraded the [ShowGovernmentReformName('son_in_law_rule')] via the $flavor_kor.5.title$ [event|e].",
+  "uk": "[ShowGovernmentReformName('son_in_law_rule')] покращено в [Concept('event','події')|e] «$flavor_kor.5.title$»."
+ },
+ "is_joseon_dynasty_tt": {
+  "en": "The Joseon Dynasty has been Established",
+  "uk": ""
+ },
+ "joseon_pretender": {
+  "en": "Yi's Pretender Army",
+  "uk": "Армія претендента Лі"
+ },
+ "joseon_pretender_scope": {
+  "en": "Yi's Pretender Army",
+  "uk": "Армія претендента Лі"
+ },
+ "kor_acted_against_yuan": {
+  "en": "Acted against $YUA$'s Interests",
+  "uk": "Діє проти інтересів Юані"
+ },
+ "kor_description_of_early_factions": {
+  "en": "$flavor_kor.20.common_introduction$, the [ShowModifier('kor_support_gwan_hak_modifier')], and the [ShowModifier('kor_support_jeol_eui_modifier')]. The former represent established scholars with efficient bureaucracy with innovativeness on their mind. They are also staunch supporters of harmony between the [ROOT.GetCountry.GetGovernment.GetCabinetTitle] and the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. The latter faction, on the other hand, favor the existing establishment and are certainly [ShowSocietyDirectionName('traditionalist')].",
+  "uk": "$flavor_kor.20.common_introduction$: [ShowModifier('kor_support_gwan_hak_modifier')] та [ShowModifier('kor_support_jeol_eui_modifier')]. До першої входять визнані вчені, які прагнуть реформувати чиновницький апарат. Крім того, вони вважають, що [ROOT.GetCountry.GetGovernment.GetCabinetTitle] і [ROOT.GetCountry.GetGovernment.GetRulerTitle] мають урівноважувати одне одного. Учасники другої фракції виступають за збереження наявного статус-кво та #TOOLTIP:SOCIETAL_VALUE,traditionalist,X #L традицій#!#!."
+ },
+ "kor_faction_name_gwan_hak": {
+  "en": "Gwan-Hak",
+  "uk": "Кван-Хак"
+ },
+ "kor_faction_name_hungu": {
+  "en": "Hungu",
+  "uk": "Хунгу"
+ },
+ "kor_faction_name_jeol_eui": {
+  "en": "Jeol-Eui",
+  "uk": "Чоль-Иї"
+ },
+ "kor_faction_name_sarim": {
+  "en": "Sarim",
+  "uk": "Сарім"
+ },
+ "kor_freed_from_mongol_influence_tt": {
+  "en": "Free from [ShowCultureName('mongolian_culture')] Influence",
+  "uk": ""
+ },
+ "kor_friendly_attitude": {
+  "en": "Mutual Positive Stance",
+  "uk": "Взаємна приязнь"
+ },
+ "kor_hostile_attitude": {
+  "en": "Mutual Hostile Stance",
+  "uk": "Взаємна ворожнеча"
+ },
+ "kor_japanese_riot": {
+  "en": "[ShowCultureGroupNameWithNoTooltip('japanese_group')] Riot",
+  "uk": "Бунт японців"
+ },
+ "kor_mongol_mutual_historical_friends": {
+  "en": "Historical Close Ties",
+  "uk": "Міцні історичні узи"
+ },
+ "kor_mongol_soured_relations": {
+  "en": "Soured Relations",
+  "uk": "Зіпсовані відносини"
+ },
+ "kor_mutiny": {
+  "en": "[target_character.GetName] has started a mutiny in [target_country.GetName].",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'підняла', 'підняв' )] заколот у #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#!."
+ },
+ "kor_no_literati_purges_yet_tt": {
+  "en": "No Literati Purge has Occurred",
+  "uk": ""
+ },
+ "kor_one_literati_purge_passed_tt": {
+  "en": "The First Literati Purge has Occurred",
+  "uk": ""
+ },
+ "kor_tied_to_mongol_influence_tt": {
+  "en": "Fate Tied to the [ShowCultureName('mongolian_culture')] Cause",
+  "uk": ""
+ },
+ "kor_two_literati_purges_passed_tt": {
+  "en": "Two Literati Purges have Occurred",
+  "uk": ""
+ },
+ "kor_until_ruler_death": {
+  "en": "the time until another Korean Faction is chosen",
+  "uk": "Поки не буде обрано іншу корейську фракцію"
+ },
+ "kor_upgrade_son_in_law": {
+  "en": "[ShowGovernmentReformName('son_in_law_rule')] will be empowered, removing several penalties and adding new benefits.",
+  "uk": "[ShowGovernmentReformName('son_in_law_rule')] буде зміцнено: зникнуть деякі штрафи й з'являться нові переваги."
+ },
+ "not_has_upgraded_son_in_law": {
+  "en": "Has NOT upgraded the [ShowGovernmentReformName('son_in_law_rule')] via the $flavor_kor.5.title$ [event|e].",
+  "uk": "#TOOLTIP:GOVERNMENT_REFORM,son_in_law_rule,X #L Правило «зятя»#!#! НЕ покращено в [Concept('event', 'події')|e] «$flavor_kor.5.title$»."
+ },
+ "variable_tt_had_successful_coup": {
+  "en": "A Court Coup has Succeeded",
+  "uk": ""
+ },
+ "variable_tt_kor_has_confucianism_active": {
+  "en": "Neo-Confucian Factions Have Risen at Court",
+  "uk": ""
+ }
+}

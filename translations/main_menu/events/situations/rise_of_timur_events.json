@@ -1,0 +1,578 @@
+{
+ "remove_all_timmy_cbs_tt": {
+  "en": "[GetCountry('TIM').GetName] loses the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E]",
+  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('TIM').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TIM').Custom('CL_tt')],X [GetCountry('TIM').Custom('CL_GEN')|L]#!#! втрачає [Concept('casus_belli', 'привід для війни')|e] «#TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L Завоювання Тимура#!#!»"
+ },
+ "rise_of_timur.1.a": {
+  "en": "To conquer is to live!",
+  "uk": "Завоювання — це життя!"
+ },
+ "rise_of_timur.1.desc": {
+  "en": "Fueled by the ambition to surpass the fallen Caliphates and to restore the great [GetCountry('MGE').GetLongName], [target_character.GetName] with a handful of loyal soldiers, has laid the foundation of the [GetCountry('TIM').GetLongName]. Although seemingly insignificant for the moment, the [GetCountry('TIM').GetGovernment.GetRulerTitle] intends to use [target_character.GetHerHis] unparalleled understanding of warfare and [target_character.GetHerHis] elite troops to grow the [GetCountry('TIM').GetFlavorRank] with ruthless efficiency...",
+  "uk": "[GetCountry('MGE').GetLongName] — відроджений халіфат, що перевершує всі попередні… З мрією про це [target_character.GetName] з жменькою вірних солдатів створює нову державу — [GetCountry('TIM').GetLongName]. На перший погляд це незначна подія, але схоже, що вона матиме серйозні наслідки: [GetCountry('TIM').GetGovernment.GetRulerTitle|l] вважається природженим полководцем, і [Select_CString(target_character.IsFemale,'її', 'його')] найелітніші війська не збираються зупинятися на досягнутому. Вони зроблять усе, щоб розширити свої території…"
+ },
+ "rise_of_timur.1.title": {
+  "en": "[ShowSituationNameWithNoTooltip('rise_of_timur')]",
+  "uk": "Піднесення Тимура"
+ },
+ "rise_of_timur.10.a": {
+  "en": "Will the world be able to survive it a second time?",
+  "uk": "Чи переживе світ друге таке потрясіння?"
+ },
+ "rise_of_timur.10.desc": {
+  "en": "Centuries ago, $genghis_khan_name$ managed to conquer half the world while expanding his empire. Now, [target_character.GetName] followed in [target_character.GetHerHis] predecessor's footsteps and managed to create an empire that expanded to the same reaches as that of the Great $rank_empire_horde_ruler_suffix_male$. The world will have to bear witness once again to the conquests of a newly-reborn [GetCountry('MGE').GetLongName].",
+  "uk": "Століття тому $genghis_khan_name$ завоював півсвіту, прагнучи розширити свою імперію. Тепер [target_character.GetName], надихнувшись завоюваннями свого легендарного попередника, [Select_CString(target_character.IsFemale,'створила', 'створив')] державу, не меншу за розмірами від тієї, що носила гордо ім'я Великий $rank_empire_horde_ruler_suffix_male$. [GetCountry('MGE').GetLongName] — це сила, що відроджується у своїй колишній могутності."
+ },
+ "rise_of_timur.10.title": {
+  "en": "The Restoration of the [GetCountry('MGE').GetLongNameWithNoTooltip]",
+  "uk": "[GetCountry('MGE').GetLongNameWithNoTooltip] — повернення держави"
+ },
+ "rise_of_timur.100.a": {
+  "en": "[target_country.GetNameWithNoTooltip] shall fall!",
+  "uk": "Влада [target_country.Custom('CL_GEN')] впаде!"
+ },
+ "rise_of_timur.100.b": {
+  "en": "We cannot afford an invasion of [target_country.GetNameWithNoTooltip] yet.",
+  "uk": "Ми поки не можемо напасти на [target_country.Custom('CL_ACC')]."
+ },
+ "rise_of_timur.100.desc": {
+  "en": "The men are getting anxious. The last campaign of [target_character.GetName] has been over a year ago, and the [root_country.GetAdjective] warriors yearn for the sounds of battle to fill the air. Eager to engage in battle once again, these soldiers have organized themselves into raiding parties that regularly plunder the countryside of [target_country.GetName]. While their actions were unauthorized, the lands of [target_country.GetNameWithNoTooltip] have demonstrated the weakness of the [target_country.GetCulture.GetName] people. Their riches and territories are ripe for the taking!",
+  "uk": "Люди рвуться в бій. [target_character.GetName] завершив свою останню кампанію більше року тому, і #L [root_country.GetAdjective|l]ські#! воїни прагнуть нової битви. Не знаючи, як іще себе розважити, ці солдати здійснюють набіги на села #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Попри те, що вони виявили самовільність, їхні дії пішли нам на користь: тепер ми знаємо, що [target_country.GetAdjectiveWithNoTooltip|l]ські землі погано захищені, а #L [target_country.GetCulture.GetName|l]ський#! народ слабкий. Ми без зусиль переможемо його і заволодіємо його багатствами!"
+ },
+ "rise_of_timur.100.title": {
+  "en": "The Raids in [target_country.GetNameWithNoTooltip]",
+  "uk": "Набіги на [target_country.Custom('CL_ACC')]"
+ },
+ "rise_of_timur.100.title.generic": {
+  "en": "The Raids in Foreign Lands",
+  "uk": "Набіги на чужі землі"
+ },
+ "rise_of_timur.1000.a": {
+  "en": "Reach out to [target_character.GetNameWithNoTooltip].",
+  "uk": "Звернемося до персонажа [target_character.GetNameWithNoTooltip]."
+ },
+ "rise_of_timur.1000.a.tt": {
+  "en": "We will request an [alliance|e] from [target_country.GetName]",
+  "uk": "Ми попросимо #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! вступити з нами в [Concept('alliance', 'союз')|e]"
+ },
+ "rise_of_timur.1000.b": {
+  "en": "Such alliance is of no use to us.",
+  "uk": "Цей союз не принесе нам користі."
+ },
+ "rise_of_timur.1000.b.tt": {
+  "en": "We will not bother ourselves with the likes of the [target_country.GetLongNameWithNoTooltip]",
+  "uk": "[target_country.GetLongNameWithNoTooltip] — ми не станемо вступати в союз із цією державою"
+ },
+ "rise_of_timur.1000.desc": {
+  "en": "The [target_country.GetLongName] and its master, [target_character.GetName] are the descendants of $genghis_khan_name$'s legacy. As [from_character.GetName] claims blood relations to the great warlord, it is not surprising that our both realms share a bond which could serve as a base for a beneficial alliance.",
+  "uk": "[target_country.GetLongName] і правитель цієї держави [target_character.GetName] — спадкоємці великої імперії, яку колись створив $genghis_khan_name$, а [from_character.GetName] і зовсім стверджує, що є [Select_CString(from_character.IsFemale,'родичкою', 'родичем')] легендарного полководця. Ця обставина пов'язує обидві держави і може послужити фундаментом для плідного союзу."
+ },
+ "rise_of_timur.1000.title": {
+  "en": "The [target_country.GetAdjectiveWithNoTooltip]-[from_country.GetAdjectiveWithNoTooltip] Alliance",
+  "uk": "[target_country.GetAdjectiveWithNoTooltip|U]о-[from_country.GetAdjectiveWithNoTooltip|l]ий союз"
+ },
+ "rise_of_timur.1000.title.generic": {
+  "en": "An Alliance of Hordes",
+  "uk": "Союз орд"
+ },
+ "rise_of_timur.1001.a": {
+  "en": "[target_character.GetShortNameWithNoTooltip] seems quite promising...",
+  "uk": "[target_character.GetShortNameWithNoTooltip] робить спокусливу пропозицію…"
+ },
+ "rise_of_timur.1001.b": {
+  "en": "[target_character.GetSheHe|U] is not even a child of $genghis_khan_name_no_tooltip$!",
+  "uk": "[Select_CString(target_character.IsFemale, 'Вона', 'Він' )] навіть не дитя Чингісхана!"
+ },
+ "rise_of_timur.1001.b.tt": {
+  "en": "We will reject the [alliance|e] offer from [from_country.GetName]",
+  "uk": "Ми відхилимо союз, запропонований #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_INST')|L]#!#!"
+ },
+ "rise_of_timur.1001.desc": {
+  "en": "News from [from_country.GetName] have reached [target_character.GetName]. It seems [from_character.GetName], referring to our common ancestorship in the [GetDynasty('borjigin_dynasty').GetName] family, wishes for an alliance between our two realms.",
+  "uk": "[target_character.GetName] дізнається новини з #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!. Схоже, [from_character.GetName] бажає укласти союз із нашою державою, посилаючись на спільних предків із родини [GetDynasty('borjigin_dynasty').GetName]."
+ },
+ "rise_of_timur.1001.title": {
+  "en": "[from_character.GetNameWithNoTooltip] Requests Alliance",
+  "uk": "[from_character.GetNameWithNoTooltip] бажає укласти союз"
+ },
+ "rise_of_timur.1002.a": {
+  "en": "Truly a wise choice.",
+  "uk": "Воістину мудре рішення."
+ },
+ "rise_of_timur.1002.desc": {
+  "en": "News from [target_country.GetName] has reached our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. It seems [target_character.GetName] possesses the insight to acknowledge the military prowess of [from_character.GetName], and has accepted our offer of an alliance.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вразила новина. Схоже, [target_character.GetName] виявляє велику далекоглядність. [Select_CString(target_character.IsFemale,'Вона', 'Він')] визнає, що [from_character.GetName] володіє видатною військовою майстерністю і погоджується вступити з нами в союз."
+ },
+ "rise_of_timur.1002.title": {
+  "en": "Alliance Accepted",
+  "uk": "Запрошення до союзу прийнято"
+ },
+ "rise_of_timur.1003.a": {
+  "en": "Then they shall meet their end on the battlefield.",
+  "uk": "Тоді [target_character.GetName] зустріне свій кінець на полі бою."
+ },
+ "rise_of_timur.1003.desc": {
+  "en": "News from [target_country.GetName] has reached our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. It seems [target_character.GetName] is incapable of recognizing brilliance even at its most obvious. Claiming that [from_character.GetName] is no true heir to $genghis_khan_name$, [target_character.GetSheHe] has rejected our alliance offer.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вразила новина. Схоже, [target_character.GetName] не може розпізнати навіть настільки очевидний талант. [Select_CString(target_character.IsFemale,'Вона', 'Він')] заявляє, що [from_character.GetName] — зовсім не [Select_CString(from_character.IsFemale,'спадкоємиця', 'спадкоємець')] імперії, яку створив $genghis_khan_name$, і відмовляється вступити з нами в союз."
+ },
+ "rise_of_timur.1003.title": {
+  "en": "Alliance Rejected",
+  "uk": "Запрошення до союзу відхилено"
+ },
+ "rise_of_timur.101.a": {
+  "en": "They might help us improve our reputation.",
+  "uk": "Вони допоможуть нам зміцнити репутацію."
+ },
+ "rise_of_timur.101.b": {
+  "en": "They are a sign of our war achievements.",
+  "uk": "Вони символізують наші військові досягнення."
+ },
+ "rise_of_timur.101.c": {
+  "en": "May our culture prosper.",
+  "uk": "Хай процвітає наша культура."
+ },
+ "rise_of_timur.101.desc": {
+  "en": "While our [target_country.GetFlavorRank] is built on conquest and military campaigns, [target_character.GetName] is very fond of the cultural aspects of the realm. Many cultural goods have made their way to [target_country.GetName] as spoils of war, which both shows our military strength and serves as an inspiration to our people.",
+  "uk": "Оскільки [target_country.GetFlavorRank] — загарбницька держава, [target_character.GetName] приділяє велику увагу культурі підкорених народів. Багато наших предметів культури — це військові трофеї. Вони водночас демонструють нашу міць і надихають людей."
+ },
+ "rise_of_timur.101.title": {
+  "en": "The Cultural Development of [target_country.GetNameWithNoTooltip]",
+  "uk": "Культурний розвиток [target_country.Custom('CL_GEN')]"
+ },
+ "rise_of_timur.101.title.generic": {
+  "en": "Cultural Development",
+  "uk": "Культурний розвиток"
+ },
+ "rise_of_timur.1010.a": {
+  "en": "It is time to annul our treaties.",
+  "uk": "Час скасувати наші домовленості."
+ },
+ "rise_of_timur.1010.b": {
+  "en": "They are still more useful as our ally.",
+  "uk": "Кепський союзник кращий за ворога."
+ },
+ "rise_of_timur.1010.desc": {
+  "en": "While our realm is on a path of growth and expansion, our ally, the [target_country.GetLongName], has shown nothing but decline. Our alliance with [target_character.GetName] gets increasingly questioned by the loyal followers of [from_character.GetName] as we gain little benefit from keeping our ties to them...",
+  "uk": "Наша держава безупинно зростає і розвивається, а ось [target_country.GetLongName] — приклад зворотного процесу. [from_character.GetName] починає прислухатися до думки своїх вірних прибічників, які вважають, що [target_character.GetName] тягне свою державу на дно, і ми не отримуємо жодної вигоди від союзу з [Select_CString(target_character.IsFemale,'нею', 'ним')]."
+ },
+ "rise_of_timur.1010.title": {
+  "en": "[from_country.GetAdjectiveWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] Conflicts",
+  "uk": "[from_country.GetAdjectiveWithNoTooltip|U]о-[target_country.GetAdjectiveWithNoTooltip|l]ий конфлікт"
+ },
+ "rise_of_timur.1010.title.generic": {
+  "en": "A Brittle Alliance",
+  "uk": "Хиткий союз"
+ },
+ "rise_of_timur.1011.a": {
+  "en": "These vile traitors...",
+  "uk": "Яке підступництво…"
+ },
+ "rise_of_timur.1011.desc": {
+  "en": "News from [from_country.GetName] has reached us: the vile traitor, [from_character.GetName], broke our alliance and has prepared [from_character.GetHerHis] troops to invade our land!",
+  "uk": "До наших вух долинули новини з #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!: [Select_CString(from_character.IsFemale,'підла зрадниця', 'підлий зрадник')] [from_character.GetName] [Select_CString(from_character.IsFemale,'розірвала', 'розірвав')] союз із нами і готується напасти на наші землі!"
+ },
+ "rise_of_timur.1011.title": {
+  "en": "[from_character.GetShortNameWithNoTooltip]'s Treachery",
+  "uk": "[Select_CString(from_character.IsFemale,'Зрадниця', 'Зрадник')] [from_character.GetShortNameWithNoTooltip]"
+ },
+ "rise_of_timur.102.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "rise_of_timur.102.desc": {
+  "en": "The military campaigns of [target_character.GetName] attract a great number of capable men who seek riches from the spoils of war. This year in particular has shown a significant number of new recruits from many different backgrounds joining the [target_country.GetAdjective] armies.",
+  "uk": "Число охочих взяти участь у військових кампаніях #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! і здобути трофеї невпинно зростає. Цього року [target_character.GetName] набирає до армії безліч представників найрізноманітніших верств суспільства."
+ },
+ "rise_of_timur.102.title": {
+  "en": "Men Flock to [target_character.GetShortNameWithNoTooltip]'s Armies",
+  "uk": "Приплив солдатів до [target_character.GetShortNameWithNoTooltip|l]ої армії"
+ },
+ "rise_of_timur.102.title.generic": {
+  "en": "Men flock to our Armies",
+  "uk": "Приплив солдатів до армії"
+ },
+ "rise_of_timur.1020.a": {
+  "en": "The legacy of those empires lies on us!",
+  "uk": "Відродити ці імперії — наш обов'язок!"
+ },
+ "rise_of_timur.1020.a.tt": {
+  "en": "Every [country|e] with its capital in [ShowRegionName('anatolia_region')] which neighbors either us or any of our [subjects|e] gains the opportunity to become a [ShowSubjectTypeName('vassal')] of [from_country.GetName]",
+  "uk": "Кожна [Concept('country', 'держава')|e] зі столицею в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, яка межує або з нами, або з одним із наших [Concept('subjects', 'васалів')|e], може підкоритися #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_DAT')|L]#!#! як #TOOLTIP:SUBJECT_TYPE,vassal,X #L васал#!#!"
+ },
+ "rise_of_timur.1020.b": {
+  "en": "The [ROOT.GetCountry.GetLongNameWithNoTooltip] is not like those failed empires.",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip] — ця держава не поділить долю занепалих імперій."
+ },
+ "rise_of_timur.1020.b.tt": {
+  "en": "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [country|e] with its capital in [ShowRegionName('anatolia_region')]",
+  "uk": "Отримаєте [Concept('casus_belli', 'привід для війни')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#! з усіма [Concept('country', 'державами')|e], чиї столиці розташовані в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!"
+ },
+ "rise_of_timur.1020.desc": {
+  "en": "The [ShowCultureGroupName('turkic_group')] Seljuk Empire of old managed to unify not only the [ShowCultureGroupNameWithNoTooltip('turkic_group')] and [ShowCultureGroupName('iranian_group')] peoples of [ShowRegionName('persia_region')], but it also encroached into the lands of [ShowRegionName('anatolia_region')], where many [ShowCultureGroupNameWithNoTooltip('turkic_group')] people still live. In the same way, so did the troops of $genghis_khan_name$ and his descendants of the $ilkhanate$ extend their influence into the peninsula. With our influence expanded over them, we can restore the glory of those empires.",
+  "uk": "Давня Сельджуцька імперія змогла об'єднати не лише #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркські#!#! й #TOOLTIP:CULTUREGROUP,iranian_group,X #L іранські#!#! народи #TOOLTIP:REGION,persia_region,X #L Персії#!#!, а й вторгнутися в #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#!, де досі проживає безліч тюрків. Пізніше $genghis_khan_name$ та його нащадки розширили свій вплив на півострові. Якщо ми підемо їхніми слідами, то зможемо відродити обидві імперії в усій їхній величі."
+ },
+ "rise_of_timur.1020.title": {
+  "en": "The Turkoman of [ShowRegionNameWithNoTooltip('anatolia_region')]",
+  "uk": "Анатолійські тюрки"
+ },
+ "rise_of_timur.1021.a": {
+  "en": "We shall bend the knee.",
+  "uk": "Ми схилимо коліна."
+ },
+ "rise_of_timur.1021.b": {
+  "en": "They can come to present their demands on the field of battle.",
+  "uk": "Хай пред'являть свої вимоги на полі бою."
+ },
+ "rise_of_timur.1021.desc": {
+  "en": "The expansion and military might of the [from_country.GetLongName] is undeniable. Now that they have started spreading their tendrils on [ShowRegionName('anatolia_region')] they have come to us with a proposal. They offer us the possibility to willfully bend the knee to them and become one of their subjects. If we refuse, it is clear that they will resort to other means to ensure their dominion over our territory.",
+  "uk": "[from_country.GetLongName] — це держава, яка володіє серйозною військовою міццю і швидко приростає територіями. Тепер її влада звернула увагу на #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#! і запропонувала нам добровільно підкоритися і стати одним із їхніх васалів. Якщо ми відмовимося, вони не залишать своїх претензій на наші землі і спробують їх захопити."
+ },
+ "rise_of_timur.1021.title": {
+  "en": "[from_country.GetNameWithNoTooltip]'s Offer",
+  "uk": "Пропозиція від [from_country.Custom('CL_GEN')]"
+ },
+ "rise_of_timur.1022.a": {
+  "en": "They have chosen wisely.",
+  "uk": "Вони зробили мудрий вибір."
+ },
+ "rise_of_timur.1022.desc": {
+  "en": "Showing to be of a great sensible mind, the [target_country.GetLongName] have decided to accept our offer and swear fealty to us. With this, our influence in [ShowRegionName('anatolia_region')] has grown and our legitimate claim over the area has gained in strength.",
+  "uk": "[target_country.GetLongName] — це держава, якою правлять розсудливі люди. Вони погодилися присягнути нам на вірність. Наш вплив в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! зріс, а в наших претензій на ці землі стало більше підстав."
+ },
+ "rise_of_timur.1022.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Accept Our Vassalization Offer",
+  "uk": "Влада [target_country.Custom('CL_GEN')] згодна зробити державу нашим васалом"
+ },
+ "rise_of_timur.1023.a": {
+  "en": "They have chosen poorly.",
+  "uk": "Вони помилилися з вибором."
+ },
+ "rise_of_timur.1023.desc": {
+  "en": "The foolish people of the [target_country.GetName] have failed to see reason and have instead refused our generous offer of vassalization. With this, they have openly positioned themselves against us, and have forced our hand to meet them in the field of battle.",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! була настільки нерозумною, що відмовилася стати нашими васалами, тим самим показавши, що з ними можна спілкуватися лише мовою зброї."
+ },
+ "rise_of_timur.1023.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Refuse Our Vassalization Offer",
+  "uk": "Влада [target_country.Custom('CL_GEN')] відмовляється робити державу нашим васалом"
+ },
+ "rise_of_timur.1030.a": {
+  "en": "Tell them who is in charge!",
+  "uk": "Показати їм, хто в домі господар!"
+ },
+ "rise_of_timur.1030.a.at": {
+  "en": "We make severe demands against [target_country.GetName] which will result in a [war|e] if they do not accept\\nWe make the following demands from [target_country.GetName]:",
+  "uk": "Ми ставимо #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DP')|L]#!#! ультиматум. Якщо її влада відхилить його, то розпочнеться [Concept('war', 'війна')|e].\\nМи висунули #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DP')|L]#!#! такі вимоги:"
+ },
+ "rise_of_timur.1030.b": {
+  "en": "[ShowRegionNameWithNoTooltip('anatolia_region')] is big enough for the both of us.",
+  "uk": "В Анатолії вистачить місця обом державам."
+ },
+ "rise_of_timur.1030.desc": {
+  "en": "The glory of our great [ROOT.GetCountry.GetLongName] is undeniable and our right to rule over all the lands of [ShowRegionName('anatolia_region')] should be unquestioned. However, the foolish people of [target_country.GetName] resist in their struggles and their unsubstantiated claim of being the strongest [ShowCultureGroupName('turkic_group')] of the region. It is clear that we will have to put them in their place and let them know who the true [ShowCultureGroupNameWithNoTooltip('turkic_group')] is.",
+  "uk": "[ROOT.GetCountry.GetLongName] — це незаперечна сила. #TOOLTIP:REGION,anatolia_region,X #L Анатолія#!#! має стати нашою і крапка. На жаль, не всі це розуміють. Дурні з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! виступили проти нас, заявивши, що вони — найсильніший #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркський#!#! народ у регіоні. Мабуть, доведеться поставити їх на місце і наочно продемонструвати, хто тут головний."
+ },
+ "rise_of_timur.1030.title": {
+  "en": "[target_country.GetAdjectiveWithNoTooltip] Opposition",
+  "uk": "[target_country.GetAdjectiveWithNoTooltip|U]ий опір"
+ },
+ "rise_of_timur.1030.title.generic": {
+  "en": "Opposition in Anatolia",
+  "uk": "Опір в Анатолії"
+ },
+ "rise_of_timur.1031.a": {
+  "en": "It is in our best interests to comply.",
+  "uk": "У наших інтересах виконати їхні вимоги."
+ },
+ "rise_of_timur.1031.a.tt": {
+  "en": "If we bend our knee, [from_country.GetName] will enforce the following on us:",
+  "uk": "Якщо ми схилимо коліна, то влада #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! вимагатиме від нас такого:"
+ },
+ "rise_of_timur.1031.b": {
+  "en": "Their hubris knows no limits.",
+  "uk": "Їхня гордість воістину велика."
+ },
+ "rise_of_timur.1031.desc": {
+  "en": "The expansion of [from_country.GetName] seems unstoppable, and now they have come knocking at our door. Their ambitions extend to the whole region of [ShowRegionName('anatolia_region')], and they seem unconcerned with the struggles that we ourselves had to face to emerge as the most prominent [ShowCultureGroupName('turkic_group')] power in the region, as they want to claim that title for themselves. If we do not align ourselves with them and resign our spot to them, they are for sure to try to enforce it with their military might.",
+  "uk": "Територіальні апетити #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! воістину непомірні. Її воїни вже стукають у наші брами. Вони планують захопити всю #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#!, і їх зовсім не хвилює, яку ціну ми заплатили за те, щоб стати наймогутнішою #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркською#!#! силою на півострові. Вони хочуть привласнити цей титул собі. Якщо ми не приєднаємося до них і не поступимося своїм місцем, вони підуть на нас війною."
+ },
+ "rise_of_timur.1031.title": {
+  "en": "[from_country.GetAdjectiveWithNoTooltip] Threat",
+  "uk": "[from_country.GetAdjectiveWithNoTooltip|U]а загроза"
+ },
+ "rise_of_timur.1032.a": {
+  "en": "A wise decision.",
+  "uk": "Мудре рішення."
+ },
+ "rise_of_timur.1032.desc": {
+  "en": "The wise people of [target_country.GetName] have seen the error in their ways and have acknowledged us as the most powerful [ShowCultureGroupName('turkic_group')] [ROOT.GetCountry.GetFlavorRank] in [ShowRegionName('anatolia_region')]. As such, they have decided to submit to our magnanimous rule and promised to follow our same interests.",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! виявила мудрість і визнала нас наймогутнішою #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркською#!#! силою в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. Вони підкорилися нам і поклялися відстоювати наші інтереси."
+ },
+ "rise_of_timur.1032.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Submit",
+  "uk": "Влада [target_country.Custom('CL_GEN')] підкоряється"
+ },
+ "rise_of_timur.1033.a": {
+  "en": "War it is then.",
+  "uk": "Отже, бути війні."
+ },
+ "rise_of_timur.1033.desc": {
+  "en": "The fools of [target_country.GetName] have failed to see their obvious inferiority in front of the might of our glorious [ROOT.GetCountry.GetFlavorRank]. They believe they have a chance to oppose us and have decided to refuse our graceful offer and are preparing their armies to meet us in the field of battle. We will have to show them the error of their ways by force.",
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! вчинила нерозумно й відмовилася визнавати нашу очевидну перевагу. Вони відхилили щедру пропозицію і зараз готуються вступити з нами в бій. Нам доведеться силою довести їм, що [ROOT.GetCountry.GetFlavorRank|l] їм не рівня."
+ },
+ "rise_of_timur.1033.title": {
+  "en": "[target_country.GetNameWithNoTooltip] Chose War",
+  "uk": "Влада [target_country.Custom('CL_GEN')] обирає війну"
+ },
+ "rise_of_timur.1040.a": {
+  "en": "The [target_country.GetGovernment.GetRulerTitle] will make fine furniture.",
+  "uk": "[target_country.GetGovernment.GetRulerTitle] стане чудовими меблями."
+ },
+ "rise_of_timur.1040.desc": {
+  "en": "[target_character.GetName], [target_country.GetGovernment.GetRulerTitle] of the great [target_country.GetLongName] has been captured in [target_location.GetName]. [target_character.GetHerHis|U] realm might have been the master of [ShowRegionName('anatolia_region')], yet it was no match against the tactical brilliance of [from_character.GetName] and the [from_country.GetAdjective] forces. The once influential [target_country.GetGovernment.GetRulerTitle] shall now serve as a souvenir for [from_character.GetShortNameWithNoTitle] within [from_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[target_country.GetLongName] — велика держава, [target_country.GetGovernment.GetRulerTitle|l] якої на ім'я [target_character.GetName] [Select_CString(target_character.IsFemale,'була схоплена', 'був схоплений')] в [target_location.Custom('LR_PREP')] [target.GetName]. Часи [Select_CString(target_character.IsFemale,'її', 'його')] панування в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! добігли кінця: великий тактик [from_character.GetName] і #L [from_country.GetAdjective|l]ські#! воїни показали, хто тут головний. Колись [Select_CString(target_character.IsFemale,'впливова', 'впливовий')] [target_country.GetGovernment.GetRulerTitle|l] тепер прикрашатиме [ROOT.GetCountry.GetGovernment.GetCourtTitle|l], наче мисливський трофей."
+ },
+ "rise_of_timur.1040.desc.historical_info": {
+  "en": "In the year 1398, Bayezid 'the Thunderbolt' I came into his first conflict with the Timurid Empire when he conquered the Djanik Emirate, and violated the accord with the Turco-Mongol emir Timur. After several months of exchange of verbal blows in the form of insulting letters, the forces of Bayezid and Timur clashed with each other in the fateful Battle of Ankara of 1402. Despite the Sultan's resounding military achievements in the past, the battle against Timur ended in a fatal defeat which resulted in his capture and the Ottoman Interregnum.",
+  "uk": "У 1398 році Баязид I Блискавичний уперше вступив у конфлікт з імперією Тимуридів, завоювавши бейлик Джанік і тим самим порушивши угоду з тюрксько-монгольським еміром Тимуром. Кілька місяців вони обмінювалися образливими листами, а пізніше в 1402 році їхні сили зіткнулися у вирішальній битві під Анкарою. Попри видатні військові таланти і досягнення султана, він програв бій із Тимуром і був узятий у полон. Із цього моменту почався період, відомий як Османське міжцарів'я."
+ },
+ "rise_of_timur.1040.title": {
+  "en": "The Capture of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'узята', 'узятий')] в полон"
+ },
+ "rise_of_timur.1040.title.generic": {
+  "en": "The Great Capture",
+  "uk": "Ганебний полон"
+ },
+ "rise_of_timur.1041.a": {
+  "en": "That is a disaster!",
+  "uk": "Катастрофа!"
+ },
+ "rise_of_timur.1041.desc": {
+  "en": "The fall of [target_location.GetName] at the hands of the [from_country.GetLongName] is not only a travesty for the people living there but also for the entirety of the [target_country.GetLongName]. [target_character.GetName] has been captured by [from_character.GetName] and has been imprisoned within the [from_country.GetAdjectiveWithNoTooltip] [from_country.GetGovernment.GetCourtTitle]!",
+  "uk": "[target_country.GetLongName] — це держава, над усім населенням якої наруговано, захопивши [target_location.Custom('LR_ACC')] [target.GetName]. [target_character.GetName] [Select_CString(target_character.IsFemale,'була взята', 'був узятий')] у полон і тепер розважає [from_country.GetAdjectiveWithNoTooltip|l]ий двір!"
+ },
+ "rise_of_timur.1041.title": {
+  "en": "The Capture of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'узята', 'узятий')] в полон"
+ },
+ "rise_of_timur.11.a": {
+  "en": "All $india$ shall bow to us!",
+  "uk": "Вся Індія схилиться перед нами!"
+ },
+ "rise_of_timur.11.desc": {
+  "en": "$india$ has always been a source of riches and culture for the whole world. Many conquerors of the past have tried to gain its riches by subjugating it but all have failed. [target_character.GetName] also had [target_character.GetHerHis] sights in $india$ for [target_character.GetHerHis] expanding [ROOT.GetCountry.GetLongName], and we have managed to fulfill those dreams now that [GetCountry('DLH').GetName] fell from their previous position of prominence in the subcontinent. Our conquest of [ShowLocationName('delhi')] will be another step on our path towards immortal glory.",
+  "uk": "Індія завжди славилася багатством і розвиненою культурою. Багато завойовників минулого намагалися підкорити її, але зазнали невдачі. [target_character.GetName] також тривалий час [Select_CString(target_character.IsFemale,'бажала', 'бажав')] розширити територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! за рахунок індійських земель, і тепер, коли #ONCLICK:COUNTRY,[GetCountry('DLH').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DLH').Custom('CL_tt')],X [GetCountry('DLH').Custom('CL_GEN')|L]#!#! втратив[GetCountry('DLH').Custom('end_fem')] свій колишній вплив, [Select_CString(target_character.IsFemale,'вона нарешті змогла', 'він нарешті зміг')] здійснити свою мрію. Наш наступний крок на шляху до вічної слави — підкорення #TOOLTIP:LOCATION,delhi,X #L Делі#!#!."
+ },
+ "rise_of_timur.11.title": {
+  "en": "[ShowSituationNameWithNoTooltip('fall_of_delhi')]",
+  "uk": "Падіння Делі"
+ },
+ "rise_of_timur.12.a": {
+  "en": "$china$ shall fall to us.",
+  "uk": "Китай підкориться нам."
+ },
+ "rise_of_timur.12.desc": {
+  "en": "$china$ has been the center of the world in [ShowContinentName('asia')] since antiquity. It fell to the power of the great $genghis_khan_name$ and his descendent [GetCharacter('kublai_khan').GetName] but it seems to again be in a period of struggle. The descendants of $genghis_khan_name_no_tooltip$ no longer extend their territory over all of $china$, and as such it is open to the taking by a new great conqueror under our banner.",
+  "uk": "Китай із давніх часів був осередком багатства і могутності в #TOOLTIP:CONTINENT,asia,X #L Азії#!#!. Колись $genghis_khan_name$ та його нащадок [GetCharacter('kublai_khan').GetName] завоювали і надійно контролювали територію Китаю, але відтоді ці землі знову стали вразливими. $genghis_khan_name_no_tooltip$ мертвий, а його спадкоємці більше не контролюють увесь Китай, тому нам варто задуматися про похід на китайські землі."
+ },
+ "rise_of_timur.12.title": {
+  "en": "The Riches of $china$",
+  "uk": "Багатства Китаю"
+ },
+ "rise_of_timur.13.a": {
+  "en": "[target_character.GetHerHis|U] conquests have been ordained by [ROOT.GetCountry.GetReligion.GetGodName] as the Ṣāḥib Qirān.",
+  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale,'виконавиця', 'виконавець')] волі божої. [ROOT.GetCountry.GetReligion.GetGodName] — ось хто благословив [Select_CString(target_character.IsFemale,'її', 'його')] на великі справи, тому [Select_CString(target_character.IsFemale,'їй', 'йому')] слід присудити титул [Select_CString(target_character.IsFemale,'«Переможна»', '«Переможний»')]."
+ },
+ "rise_of_timur.13.b": {
+  "en": "[target_character.GetNameWithNoTooltip] is the heir of $genghis_khan_name_no_tooltip$.",
+  "uk": "[target_character.GetNameWithNoTooltip] — спадкоємець Чингісхана."
+ },
+ "rise_of_timur.13.c": {
+  "en": "[target_character.GetNameWithNoTooltip] is the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
+  "uk": ""
+ },
+ "rise_of_timur.13.desc": {
+  "en": "The rise of [target_character.GetName] from a simple general to the ruler of the [ROOT.GetCountry.GetLongName] and [target_character.GetHerHis] subsequent expansion of the [ROOT.GetCountry.GetFlavorRank] is undeniable. However, some may question the validity of [target_character.GetHerHis] claims as a legitimate ruler beyond the sheer military might. [target_character.GetSheHe|U] could not claim the title of $rank_empire_muslim_ruler_male$ but there are other ways [target_character.GetSheHe] can claim as the origin of [target_character.GetHerHis] authority.",
+  "uk": "Ми не можемо заперечувати, що [target_character.GetName], чия батьківщина [ROOT.GetCountry.GetLongName], — людина видатних здібностей. [Select_CString(target_character.IsFemale,'Вона пройшла', 'Він пройшов')] шлях від простого генерала до [Select_CString(target_character.IsFemale,'володарки', 'володаря')], і значно [Select_CString(target_character.IsFemale,'розширила', 'розширив')] території нашої держави. Однак дехто вважає, що оскільки [target_character.GetName] не $rank_empire_muslim_ruler_male$, то [Select_CString(target_character.IsFemale,'вона', 'він')] не має права на трон. Тим не менш, цей титул — далеко не єдине джерело легітимності. Є й інші способи закріпитися при владі."
+ },
+ "rise_of_timur.13.title": {
+  "en": "Our Legacy",
+  "uk": "Наша спадщина"
+ },
+ "rise_of_timur.14.a": {
+  "en": "[ShowRegionNameWithNoTooltip('persia_region')] shall bow before us.",
+  "uk": "Персія впаде до наших ніг."
+ },
+ "rise_of_timur.14.a.tt": {
+  "en": "Gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on every [country|e] with its capital in [ShowRegionName('persia_region')]",
+  "uk": "Отримаєте [Concept('casus_belli', 'привід для війни')|e] «#TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L Завоювання Тимура#!#!» з усіма [Concept('country', 'державами')|e], чиї столиці розташовані в #TOOLTIP:REGION,persia_region,X #L Персії#!#!"
+ },
+ "rise_of_timur.14.desc": {
+  "en": "[ShowRegionName('persia_region')] has been a center of the [ShowReligionGroupAdjective('muslim')] world for centuries, serving as a bridge between [ShowContinentName('europe')] and [ShowContinentName('asia')]. Many empires have risen and fallen in these lands, and now our great [ROOT.GetCountry.GetLongName] is again at its doorstep. They will not be able to stand in front of our unstoppable armies, as it is our destiny to rule over these lands.",
+  "uk": "Протягом століть #TOOLTIP:REGION,persia_region,X #L Персія#!#! була центром #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! світу, а також містком між #TOOLTIP:CONTINENT,europe,X #L Європою#!#! і #TOOLTIP:CONTINENT,asia,X #L Азією#!#!. Ці землі бачили зародження і смерть безлічі імперій. Настав час і нам ступити на них. [ROOT.GetCountry.GetLongName] — це сила, перед могутністю якої #TOOLTIP:REGION,persia_region,X #L Персія#!#! не встоїть."
+ },
+ "rise_of_timur.14.title": {
+  "en": "Conquest of [ShowRegionNameWithNoTooltip('persia_region')]",
+  "uk": "Підкорення Персії"
+ },
+ "rise_of_timur.15.a": {
+  "en": "[ShowRegionNameWithNoTooltip('anatolia_region')] shall bow before us.",
+  "uk": "Анатолія схилиться перед нами."
+ },
+ "rise_of_timur.15.desc": {
+  "en": "The [ShowCultureGroupName('turkic_group')] people have come a long way since the emergence from the Asian steppes. Centuries ago, some of the [ShowCultureGroupNameWithNoTooltip('turkic_group')] groups in the form of the Seljuk Empire dominated the lands of [ShowRegionName('persia_region')] penetrated deep into the [GetCountry('BYZ').GetAdjective] territory of [ShowRegionName('anatolia_region')]. Now it is turn for the people of [ShowRegionNameWithNoTooltip('anatolia_region')] to be unified once again under a new great [ShowCultureGroupNameWithNoTooltip('turkic_group')] [ROOT.GetCountry.GetFlavorRank]",
+  "uk": "#TOOLTIP:CULTUREGROUP,turkic_group,X #L Тюрки#!#! — це колишні кочівники з азійських степів. Кілька століть тому сельджуки — теж представники тюркського племені — завоювали #TOOLTIP:REGION,persia_region,X #L Персію#!#! та обширні #L [GetCountry('BYZ').GetAdjective|l]ські#! землі в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. Тепер Анатолія має перейти до рук нових господарів — ще однієї великої тюркської держави."
+ },
+ "rise_of_timur.15.title": {
+  "en": "Conquest of [ShowRegionNameWithNoTooltip('anatolia_region')]",
+  "uk": "Підкорення Анатолії"
+ },
+ "rise_of_timur.2.a": {
+  "en": "They must be stopped!",
+  "uk": "Їх треба зупинити!"
+ },
+ "rise_of_timur.2.title": {
+  "en": "[ShowSituationNameWithNoTooltip('rise_of_timur')]",
+  "uk": "Піднесення Тимура"
+ },
+ "rise_of_timur.3.a": {
+  "en": "Finally an end to [target_character.GetHerHis] bloodlust.",
+  "uk": "Нарешті [Select_CString(target_character.IsFemale,'її', 'його')] кривавій експансії настав кінець."
+ },
+ "rise_of_timur.3.desc": {
+  "en": "Once the dreaded scourge of [ShowSubContinentName('central_asia')], the infamous [tim_country.GetLongName] is no more!",
+  "uk": "[tim_country.GetLongName] — цієї держави, що наводила жах на всю #TOOLTIP:SUB_CONTINENT,central_asia,X #L Центральну Азію#!#!, більше немає!"
+ },
+ "rise_of_timur.3.desc.alive_timur": {
+  "en": "$rise_of_timur.3.desc$ Not even the mighty [target_character.GetName] could prevent its fall. With the takeover of [target_location.GetName], [target_character.GetNameWithNoTooltip] has been captured and swiftly put to the sword to end the [tim_country.GetAdjectiveWithNoTooltip] threat once and for all. $rise_of_timur.3.desc.end$",
+  "uk": "$rise_of_timur.3.desc$ Навіть [Select_CString(target_character.IsFemale,'могутня', 'могутній')] [target_character.GetName] не [Select_CString(target_character.IsFemale,'змогла', 'зміг')] запобігти падінню держави. [target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] опиняється в руках ворога, а [target_character.GetNameWithNoTooltip] — [Select_CString(target_character.IsFemale,'схоплена і страчена', 'схоплений і страчений')], що поклало край [tim_country.GetAdjectiveWithNoTooltip|l]ій експансії. $rise_of_timur.3.desc.end$"
+ },
+ "rise_of_timur.3.desc.dead_timur": {
+  "en": "$rise_of_timur.3.desc$ Ever since the death of [target_character.GetName], the [tim_country.GetAdjectiveWithNoTooltip] army has lost its edge over its enemies. $rise_of_timur.3.desc.end$",
+  "uk": "$rise_of_timur.3.desc$ Відтоді, як [target_character.GetName] [Select_CString(target_character.IsFemale,'померла', 'помер')], [tim_country.GetAdjectiveWithNoTooltip|l]а армія втратила свою перевагу над ворогами. $rise_of_timur.3.desc.end$"
+ },
+ "rise_of_timur.3.desc.end": {
+  "en": "Over time, forces from outside as well as military campaigns from [target_country.GetName] against [tim_country.GetNameWithNoTooltip] have reduced the [tim_country.GetFlavorRank] to rump state until it eventually fell at the hands of the [target_country.GetLongNameWithNoTooltip].",
+  "uk": "[target_country.GetLongName] — зовнішні сили, а також військова агресія цієї держави поступово послаблювали імперію Тимуридів. Зрештою імперія занепала і впала під натиском [target_country.Custom('CL_GEN')]."
+ },
+ "rise_of_timur.3.title": {
+  "en": "Fall of [tim_country.GetNameWithNoTooltip]",
+  "uk": "Падіння [tim_country.Custom('CL_GEN')]"
+ },
+ "rise_of_timur.4.a": {
+  "en": "Let us hope [target_country.GetNameWithNoTooltip] will not evolve into a new threat...",
+  "uk": "Сподіваємось, що з [target_country.Custom('CL_GEN')] не зроблять нове джерело проблем…"
+ },
+ "rise_of_timur.4.desc": {
+  "en": "$rise_of_timur.3.desc$",
+  "uk": ""
+ },
+ "rise_of_timur.4.desc.alive_timur": {
+  "en": "$rise_of_timur.3.desc.alive_timur$",
+  "uk": ""
+ },
+ "rise_of_timur.4.desc.dead_timur": {
+  "en": "$rise_of_timur.3.desc.dead_timur$",
+  "uk": ""
+ },
+ "rise_of_timur.4.title": {
+  "en": "Fall of [tim_country.GetNameWithNoTooltip]",
+  "uk": "Падіння [tim_country.Custom('CL_GEN')]"
+ },
+ "rise_of_timur.5.a": {
+  "en": "Finally an end to [target_character.GetHerHis] bloodlust.",
+  "uk": "Нарешті [Select_CString(target_character.IsFemale,'її', 'його')] кривавій експансії настав кінець."
+ },
+ "rise_of_timur.5.desc": {
+  "en": "Although once a dreaded [GetCountry('TIM').GetFlavorRank] which gave all of its neighbors pause, the petty [GetCountry('TIM').GetLongName] has become nothing more than a mere subject of [ROOT.GetCountry.GetName].",
+  "uk": "[GetCountry('TIM').GetFlavorRank] — ця держава колись тримала в страху всіх своїх сусідів, а тепер стала одним із васалів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
+ },
+ "rise_of_timur.5.desc.alive_timur": {
+  "en": "$rise_of_timur.5.desc$ Despite [target_character.GetHerHis] best efforts and brilliant tactics, the many enemies [target_character.GetName] made during [target_character.GetHerHis] campaigns were too much to handle. At last, [ROOT.GetCountry.GetNameWithNoTooltip] subjugated the [GetCountry('TIM').GetFlavorRank], killing [target_character.GetNameWithNoTooltip] in the process.$rise_of_timur.5.desc.end$",
+  "uk": "$rise_of_timur.5.desc$ Вороги, нажиті під час [Select_CString(target_character.IsFemale,'її', 'його')] кривавих кампаній, виявилися надто сильними, і жодна тактика не допомогла з ними впоратися. Зрештою [ROOT.GetCountry.Custom('CL_DAT')] вдалося підкорити [ROOT.GetCountry.Custom('rank_ru_ACC')|l], а [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'загинула', 'загинув')] під час одного з боїв.$rise_of_timur.5.desc.end$"
+ },
+ "rise_of_timur.5.desc.dead_timur": {
+  "en": "$rise_of_timur.5.desc$ Ever since [target_character.GetName] found [target_character.GetHerHis] untimely demise, [target_character.GetHerHis] successors were unable to withstand the many enemies [target_character.GetNameWithNoTooltip] made.$rise_of_timur.5.desc.end$",
+  "uk": "$rise_of_timur.5.desc$ Після того, як [target_character.GetName] передчасно [Select_CString(target_character.IsFemale,'покинула', 'покинув')] цей світ, [Select_CString(target_character.IsFemale,'її', 'його')] спадкоємці не змогли протистояти численним ворогам, нажитим під час нестримної експансії. $rise_of_timur.5.desc.end$"
+ },
+ "rise_of_timur.5.desc.end": {
+  "en": "\\n\\nNow, the [GetCountry('TIM').GetAdjective] bend their knees before the [ROOT.GetCountry.GetLongNameWithNoTooltip], ending the threat the [GetCountry('TIM').GetAdjectiveWithNoTooltip] posed once and for all.",
+  "uk": "\\n\\n[ROOT.GetCountry.GetLongNameWithNoTooltip] — влада #ONCLICK:COUNTRY,[GetCountry('TIM').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TIM').Custom('CL_tt')],X [GetCountry('TIM').Custom('CL_RP')|L]#!#! підкоряється цій державі. Більше вони не становлять жодної загрози."
+ },
+ "rise_of_timur.5.title": {
+  "en": "Subjugation of [GetCountry('TIM').GetNameWithNoTooltip]",
+  "uk": "Підкорення [GetCountry('TIM').Custom('CL_GEN')]"
+ },
+ "rise_of_timur.6.a": {
+  "en": "Let us hope [GetCountry('TIM').GetNameWithNoTooltip] will not evolve into a new threat...",
+  "uk": "Сподіваймося, що від [GetCountry('TIM').Custom('CL_GEN')] надалі не доведеться чекати жодних бід…"
+ },
+ "rise_of_timur.6.desc": {
+  "en": "$rise_of_timur.5.desc$",
+  "uk": ""
+ },
+ "rise_of_timur.6.desc.alive_timur": {
+  "en": "$rise_of_timur.5.desc.alive_timur$",
+  "uk": ""
+ },
+ "rise_of_timur.6.desc.dead_timur": {
+  "en": "$rise_of_timur.5.desc.dead_timur$",
+  "uk": ""
+ },
+ "rise_of_timur.6.title": {
+  "en": "Subjugation of [GetCountry('TIM').GetNameWithNoTooltip]",
+  "uk": "Підкорення [GetCountry('TIM').Custom('CL_GEN')]"
+ },
+ "rise_of_timur.7.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "rise_of_timur.7.desc": {
+  "en": "$rise_of_timur_7_desc_common$ nobody is able to fill [target_character.GetHerHis] shoes and rise to the leadership of the [ROOT.GetCountry.GetFlavorRank]. As such, the situation has resulted in $rise_of_timur.7.desc_end$",
+  "uk": "$rise_of_timur_7_desc_common$ Немає жодної людини, здатної зайняти [Select_CString(target_character.IsFemale,'її', 'його')] місце і стати на чолі [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Такий стан речей призвів до таких наслідків: $rise_of_timur.7.desc_end$"
+ },
+ "rise_of_timur.7.desc_end": {
+  "en": "the whole country collapsing on itself and entering a period of stagnation where not much is actually achieved by the [tim_country.GetGovernment.GetCourtTitle].",
+  "uk": "імперія руйнується сама по собі і вступає в період застою. На жаль, зараз [tim_country.GetGovernment.GetCourtTitle|l] не може похвалитися великими звершеннями."
+ },
+ "rise_of_timur.7.desc_ruler": {
+  "en": "$rise_of_timur_7_desc_common$ [target_ruler.GetName] has clearly not been able to fill [target_ruler.GetHerHis] predecessor's shoes. [target_ruler.GetHerHis|U] inability to fulfill [target_ruler.GetHerHis|U] people's expectations has resulted in $rise_of_timur.7.desc_end$",
+  "uk": "$rise_of_timur_7_desc_common$ Очевидно, що [target_ruler.GetName] і в підмітки не годиться [Select_CString(target_character.IsFemale,'своїй попередниці', 'своєму попереднику')]. [Select_CString(target_ruler.IsFemale, 'Вона не змогла', 'Він не зміг' )] виправдати очікування свого народу, що призвело до таких наслідків: $rise_of_timur.7.desc_end$"
+ },
+ "rise_of_timur.7.title": {
+  "en": "Stagnation of the [tim_country.GetLongNameWithNoTooltip]",
+  "uk": "Застій у керівництві [tim_country.Custom('CL_GEN')]"
+ },
+ "rise_of_timur.8.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "rise_of_timur.8.desc": {
+  "en": "Our people will no longer need to fear the expansion and bloodshed of the [tim_country.GetLongName]. The days of the meteoric rise of [target_character.GetName] are already a thing of the past, as nobody seems to have been able to fill [target_character.GetHerHis] shoes and rise to the effective leadership of the [tim_country.GetFlavorRank]. They are now just aimlessly wandering around without the military strategic vision of their predecessor, and as such this has resulted in $rise_of_timur.7.desc_end$",
+  "uk": "[tim_country.GetLongName] — кривавий агресор, але ця експансія добігла кінця. [Select_CString(target_character.IsFemale,'Велика завойовниця', 'Великий завойовник')] [target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] нащадки більше ніколи не ступлять на наші землі: схоже, ніхто так і не зміг замінити [Select_CString(target_character.IsFemale,'першу правительку', 'першого правителя')] і стати настільки ж [Select_CString(target_character.IsFemale,'ефективною воєначальницею', 'ефективним воєначальником')]. Такий стан справ призвів до таких наслідків: $rise_of_timur.7.desc_end$"
+ },
+ "rise_of_timur.8.title": {
+  "en": "$rise_of_timur.7.title$",
+  "uk": ""
+ },
+ "rise_of_timur.9.a": {
+  "en": "Glory to us!",
+  "uk": "Слава нашому народу!"
+ },
+ "rise_of_timur.9.desc": {
+  "en": "Many thought that the glorious days of the great $genghis_khan_name$ and his world-expanding [GetCountry('MGE').GetLongName] were a thing of the past. However, the dreams of [target_character.GetName] of reviving it have become a reality, as we have managed to reunify the territories of the Great $rank_empire_horde_ruler_suffix_male$ and we can proclaim the rebirth of a new great [GetCountry('MGE').GetLongNameWithNoTooltip].",
+  "uk": "Багато хто думав, що $genghis_khan_name$ і [GetCountry('MGE').GetLongName] назавжди канули в лету, але історія вміє дивувати. [target_character.GetName] [Select_CString(target_character.IsFemale,'мріяла', 'мріяв')] відродити легендарну державу, і в [Select_CString(target_character.IsFemale,'неї', 'нього')] це вийшло: Великий $rank_empire_horde_ruler_suffix_male$ постав із попелу в усій своїй славі. [GetCountry('MGE').GetLongNameWithNoTooltip] — це сила!"
+ },
+ "rise_of_timur.9.title": {
+  "en": "The Restoration of the [GetCountry('MGE').GetLongNameWithNoTooltip]",
+  "uk": "[GetCountry('MGE').GetLongNameWithNoTooltip] — повернення держави"
+ },
+ "rise_of_timur_7_desc_common": {
+  "en": "The meteoric rise and quick expansion of the [tim_country.GetLongName] seemed to be unstoppable, but recently it seems to have crawled to a halt. The leadership of [target_character.GetName] does not seem to have an equal, as",
+  "uk": "До останнього часу здавалося, що [tim_country.GetLongName] — шалений агресор, який розпочав нестримну експансію, і його неможливо зупинити: [target_character.GetName] [Select_CString(target_character.IsFemale,'захопив', 'захопила')] безліч земель. Тепер, схоже, немає кому продовжити [Select_CString(target_character.IsFemale,'її', 'його')] справу. Такий стан речей призвів до таких наслідків:"
+ },
+ "timurs_demands_at": {
+  "en": "All [target_country.GetAdjective] [subjects|e] in [ShowRegionName('anatolia_region')] become a [ShowSubjectTypeName('tributary')] of [from_country.GetName]",
+  "uk": "Усі #L [target_country.GetAdjective|l]ські#! [Concept('subjects', 'васали')|e] в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! стають #TOOLTIP:SUBJECT_TYPE,tributary,X #L данниками#!#! #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!"
+ }
+}

@@ -1,0 +1,1530 @@
+{
+ "STATIC_MODIFIER_DESC_kingdom_of_god_slot_modifier": {
+  "en": "The religious power of the $kingdom_of_god_reform$ can force even the rusty cogs of bureaucracy to kneel before it.",
+  "uk": "Релігійний вплив Царства Божого змусить крутитись навіть іржаві шестерні бюрократичної машини."
+ },
+ "STATIC_MODIFIER_NAME_kingdom_of_god_slot_modifier": {
+  "en": "$kingdom_of_god_reform$",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_sinner_pope": {
+  "en": "Reputation Tarnished",
+  "uk": "Репутація опоганена"
+ },
+ "STATIC_MODIFIER_NAME_sinner_pope_severe": {
+  "en": "Sinful Pope",
+  "uk": "Гріховність папи"
+ },
+ "accepted_to_return_rome_tt": {
+  "en": "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('returned_rome')|+=0]",
+  "uk": ""
+ },
+ "all_catholic_will_love_tt": {
+  "en": "All [ShowReligionAdjective('catholic')] [countries|e] which have discovered us receive [ShowBiasValue('opinion_accepted_jesuits')|+=0] [opinion|e] of [ROOT.GetCountry.GetName]",
+  "uk": "Всі #L [ShowReligionAdjective('catholic')|l]і#! [Concept('countries','держави')|e], що відкрили для себе наші території, змінять свою [Concept('opinion','думку')|e] про #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! на [ShowBiasValue('opinion_accepted_jesuits')|+=0]"
+ },
+ "borgia_pope_tt": {
+  "en": "[borgia_pope_scope.GetName] will become the new Pope!",
+  "uk": "[borgia_pope_scope.GetName] стане новим папою римським!"
+ },
+ "catholics_outraged_over_infidel_rome_tt": {
+  "en": "Every [ShowReligionAdjective('catholic')] [country|e] gains [antagonism|e] toward [ROOT.GetCountry.GetLongName] for seizing [ShowLocationNameWithNoTooltip('rome')]",
+  "uk": ""
+ },
+ "declined_to_return_rome_tt": {
+  "en": "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('declined_return_rome')|+=0]",
+  "uk": ""
+ },
+ "disables_indulgences": {
+  "en": "This disables the event 'Selling of Indulgences' for [ShowReligionAdjective('catholic')] countries.",
+  "uk": "Ця дія позбавить #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! держави доступу до події «Продаж індульгенцій»."
+ },
+ "disables_simony": {
+  "en": "This disables the event 'Simony' for [ShowReligionAdjective('catholic')] countries.",
+  "uk": "Ця дія позбавить #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! держави доступу до події «Симонія»."
+ },
+ "disables_veneration_of_relics": {
+  "en": "This disables the event 'Veneration of Relics' and 'Veneration of the Virgin Mary' for [ShowReligionAdjective('catholic')] countries.",
+  "uk": "Ця дія позбавить #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! держави доступу до події «Поклоніння Діві Марії»."
+ },
+ "every_catholic_hates_us_tt": {
+  "en": "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('opinion_declined_independent_state_support')|+=0]",
+  "uk": "Всі #L [ShowReligionAdjective('catholic')|l]і#! [Concept('countries','держави')|e] змінять свою [Concept('opinion','думку')|e] про #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! на [ShowBiasValue('opinion_declined_independent_state_support')|+=0]"
+ },
+ "every_catholic_upset_tt": {
+  "en": "Our refusal to fulfill our monetary commitments will result in widespread condemnation with all [ShowReligionAdjectiveWithNoTooltip('catholic')] countries",
+  "uk": "Відмовившись від виконання своїх фінансових зобов'язань, ми викличемо осуд з боку всіх католицьких держав"
+ },
+ "flavor_pap.1.a": {
+  "en": "Spanish model inquisition",
+  "uk": "Інквізиція за іспанським зразком"
+ },
+ "flavor_pap.1.b": {
+  "en": "Moderate Inquisition",
+  "uk": "Помірна інквізиція"
+ },
+ "flavor_pap.1.desc": {
+  "en": "At the initiative of [future_paul_iv_scope.GetName] from [ShowLocationName('naples')], the [ROOT.GetCountry.GetGovernment.GetRulerTitle] reorganized the Roman Inquisition according to the Spanish model. Together with the Jesuits, a reign of terror is inflicted on the people. However, the cruel methods are effective and lead to completely eradicating the [ShowReligionAdjective('lutheran')] movement in the Italian Peninsula.",
+  "uk": "Керуючись пропозицією, яку висунув #TOOLTIP:LOCATION,naples_tt,X #L неаполітанський#!#! інквізитор [future_paul_iv_scope.GetName], [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] приймає рішення реорганізувати римську інквізицію за іспанською моделлю. Тепер її представники спільно з орденом єзуїтів наводять жах на мешканців держави. Безумовно, їхні методи вкрай жорстокі, але це необхідний захід, без якого неможливо викоренити #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранську#!#! єресь на Апеннінському півострові."
+ },
+ "flavor_pap.1.entry": {
+  "en": "$flavor_pap.1.title$",
+  "uk": ""
+ },
+ "flavor_pap.1.title": {
+  "en": "Reorganization of the Holy Inquisition",
+  "uk": "Реорганізація Святої інквізиції"
+ },
+ "flavor_pap.10.a": {
+  "en": "They will defend the Church well.",
+  "uk": "Вони будуть справно захищати Церкву."
+ },
+ "flavor_pap.10.desc": {
+  "en": "The ink has dried on the contract establishing the Pontifical Swiss Guard. This elite regiment is made up of disciplined and experienced men with an absolute loyalty to the Holy Father. They have sworn to serve the [ROOT.GetCountry.GetLongName] until Judgment Day.",
+  "uk": "Його Святість підписав указ про заснування папської швейцарської гвардії. Цей елітний полк складається з досвідчених і дисциплінованих солдатів, які поклялись віддано служити #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! до настання Судного дня."
+ },
+ "flavor_pap.10.entry": {
+  "en": "$flavor_pap.10.title$",
+  "uk": ""
+ },
+ "flavor_pap.10.title": {
+  "en": "The Swiss Guard",
+  "uk": "Швейцарська гвардія"
+ },
+ "flavor_pap.1000.a": {
+  "en": "Congratulate [target_country.GetNameWithNoTooltip].",
+  "uk": "Це правильне рішення."
+ },
+ "flavor_pap.1000.a.entry": {
+  "en": "Congratulate them.",
+  "uk": ""
+ },
+ "flavor_pap.1000.desc": {
+  "en": "[target_country.GetName] is heading the support for the newly created Jesuit Order and their effort to face the [ShowReligionAdjective('lutheran')] movement.",
+  "uk": "[target_country.GetName] підтримує новий орден єзуїтів у його боротьбі з #L [ShowReligionAdjective('lutheran')|l]им#! рухом."
+ },
+ "flavor_pap.1000.entry": {
+  "en": "$flavor_pap.1000.title$",
+  "uk": ""
+ },
+ "flavor_pap.1000.historical_info": {
+  "en": "In 1540 Pope Paulus III recognized the Jesuit Order, created in 1534 by the Spaniard Don Íñigo López de Oñaz y Loyola, better known as Saint Ignatius of Loyola. He became one of the most devoted counter-reformists and enemy number one of the [ShowReligionAdjectiveWithNoTooltip('lutheran')] movement. Loyola, having a soldier background, made its mark on the order, which was organized almost as an army. High priority was given both to educating missionaries but also counselors for European royal courts. This made the Jesuit order very powerful in the political scene. In 1773 the Jesuit order was dissolved by Pope Pius VI due to pressure from [ShowReligionGroupAdjective('christian')] countries in the Age of Enlightenment. In 1814 the Jesuit order was reinstituted, however, it emerged as a faint shadow of the powerful order it once had been.",
+  "uk": "У 1540 році папа Павло III затвердив орден єзуїтів, створений ще 1534 року іспанцем Іньїго Лопесом де Оньяс-і-Лойолою, більш відомим як Святий Ігнатій Лойола. Він був одним з найважливіших діячів Контрреформації і головним противником лютеранського руху. Військове минуле Лойоли відбилось на структурі і організації ордену, багато в чому схожих на армійські. При цьому основна діяльність єзуїтів була пов'язана зовсім не з військовою справою, а з підготовкою місіонерів і радників для європейських королівських дворів, за рахунок чого вони користувались значним політичним впливом. У 1773 році папа Климент XIV розпустив орден під тиском інших #L [ShowReligionGroupAdjective('christian')|l]их#! держав, які на той час вже були охоплені ідеями епохи Просвітництва. Хоча 1814 року орден єзуїтів було відновлено, він так і не зміг повернути собі колишню могутність."
+ },
+ "flavor_pap.1000.title": {
+  "en": "The Foundation of Societas Jesu",
+  "uk": "Заснування ордену єзуїтів"
+ },
+ "flavor_pap.1001.a": {
+  "en": "We receive the praise with humility.",
+  "uk": "Ми смиренно приймемо похвалу."
+ },
+ "flavor_pap.1001.desc": {
+  "en": "Our support of the Jesuit order has been noted and is wholly appreciated by the [GetCountry('PAP').GetGovernment.GetRulerTitle].",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'помітила','помітив')] нашу підтримку ордену єзуїтів і [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'висловила','висловив')] нам свою вдячність."
+ },
+ "flavor_pap.1001.entry": {
+  "en": "$flavor_pap.1001.title$",
+  "uk": ""
+ },
+ "flavor_pap.1001.historical_info": {
+  "en": "The Jesuit order was created in 1534 by the Spaniard Don Íñigo López de Oñaz y Loyola, better known as Saint Ignatius of Loyola. He was one of the most devoted counter-reformists and enemy number one of the [ShowReligionAdjective('lutheran')] movement.",
+  "uk": "Орден єзуїтів було створено 1534 року іспанцем Іньїго Лопесом де Оньяс-і-Лойолою, більш відомим як Святий Ігнатій Лойола. Він був одним з найважливіших діячів Контрреформації і головним противником #L [ShowReligionAdjective('lutheran')|l]ого#! руху."
+ },
+ "flavor_pap.1001.title": {
+  "en": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] approval of the Jesuit order",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а підтримка ордену єзуїтів"
+ },
+ "flavor_pap.101.a": {
+  "en": "Move the archives.",
+  "uk": "Перенесемо архіви."
+ },
+ "flavor_pap.101.b": {
+  "en": "It is not worth the cost.",
+  "uk": "Це надто витратно."
+ },
+ "flavor_pap.101.desc": {
+  "en": "The history of the [ROOT.GetCountry.GetAdjective] government is an old and very well-documented one. Many events and decisions in regard to the affairs of the [ROOT.GetCountry.GetFlavorRank] and of [ROOT.GetCountry.GetReligion.GetName] are filed and collected in the [ShowBuildingTypeName('papal_archives')] of [from_location.GetName].\\n\\nThe access to these archives has become very restricted, however, due to our business within [ShowRegionName('france_region')], our capital; the very seat of [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip] had been moved to [target_location.GetName]. Our influence over our holdings in [ShowRegionName('italy_region')] as such is becoming increasingly more limited.\\n\\nThe advisors of [ruler_scope.GetName] suggest to move the archives to [target_location.GetNameWithNoTooltip] to lift the restrictions.",
+  "uk": "Історія #L [ROOT.GetCountry.GetAdjective|l]ого#! уряду сягає корінням в давнину, але при цьому вона дуже добре задокументована. Відомості про багато подій і рішень, що стосуються справ [ROOT.GetCountry.Custom('CF_RP')|l] і #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри, зберігаються в #TOOLTIP:BUILDING_TYPE,papal_archives,X #L архівах#!#! [from_location.Custom('LR_RP')|l] [from_location.GetName].\\n\\nНа жаль, під тиском #TOOLTIP:REGION,france_region,X #L французьких#!#! правителів нам довелось перенести столицю, і тепер резиденцією уряду є [target_location.GetName]. Через це наш вплив в #TOOLTIP:REGION,italy_region,X #L Італії#!#! ослаб, і ми фактично втратили доступ до своїх архівів.\\n\\nУ зв'язку з цим радники пропонують перевезти архіви до нової столиці, щоб ми могли вільно користуватись документами і не переживати про їхню збереженість."
+ },
+ "flavor_pap.101.entry": {
+  "en": "The $PAP_ADJ$ Archives of $assisi$",
+  "uk": ""
+ },
+ "flavor_pap.101.title": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Archives of [from_location.GetNameWithNoTooltip]",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]і архіви [from_location.Custom('LR_GEN')|l] [from_location.GetNameWithNoTooltip]"
+ },
+ "flavor_pap.11.a": {
+  "en": "Flee across the passage!",
+  "uk": "Виходимо через прохід!"
+ },
+ "flavor_pap.11.b": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] will not abandon the Vatican.",
+  "uk": "Місце папи — у Ватикані."
+ },
+ "flavor_pap.11.b.entry": {
+  "en": "The ruler will not abandon the Vatican.",
+  "uk": ""
+ },
+ "flavor_pap.11.desc": {
+  "en": "[ShowLocationName('rome')] is lost! As the enemy advances to arrest [target_character.GetName] he is reminded of the Passetto di Borgo, a passage that links the Vatican City with the Castel Sant'Angelo. Many past leaders have used it as an escape route in times of danger, and now [target_character.GetShortNameWithNoTooltip] must consider whether to flee the Vatican.",
+  "uk": "[ShowLocationName('rome')] захоплений ворожими військами! Щоб уникнути полону, [target_character.GetName] може скористатись таємним ходом, який з'єднує Ватикан із замком Святого Ангела. У минулому багатьом правителям вже доводилось покидати місто через цей коридор, і тепер [target_character.GetShortNameWithNoTooltip] має вирішити, чи слідувати їхньому прикладу або залишитись у Ватикані."
+ },
+ "flavor_pap.11.title": {
+  "en": "Passetto di Borgo",
+  "uk": "Пассетто ді Борго"
+ },
+ "flavor_pap.12.a": {
+  "en": "Reinforce the garrison, this must never happen again.",
+  "uk": "Зміцнимо гарнізон, щоб це більше не повторилось."
+ },
+ "flavor_pap.12.b": {
+  "en": "Repair the damage to the city.",
+  "uk": "Відновимо руйнування у місті."
+ },
+ "flavor_pap.12.desc": {
+  "en": "The war has left the city of [ShowLocationName('rome')] in shambles. The enemy stormed the walls and ransacked the city, overwhelming the garrison. On the steps of St Peter's Basilica, our last few guards met a ghastly end, slaughtered before the pillage began. Destruction, looting and executions followed until, at last, the bandits, deserters, soldiers and looters began their long trek home with what valuables they managed to pilfer.",
+  "uk": "[ShowLocationName('rome')] серйозно постраждав під час війни. Піднявшись на стіни і розгромивши гарнізон, ворожі війська приступили до розграбування міста. Незадовго до початку грабунку, останні кілька вартівників були жорстоко вбиті прямо на сходах собору Святого Петра. Лише втамувавши свою спрагу насильства і руйнувань, мародери нарешті вирушили геть з величезною кількістю награбованих цінностей…"
+ },
+ "flavor_pap.12.entry": {
+  "en": "Sack of Rome",
+  "uk": ""
+ },
+ "flavor_pap.12.title": {
+  "en": "Sack of [ShowLocationNameWithNoTooltip('rome')]",
+  "uk": "Розорення Риму"
+ },
+ "flavor_pap.1200.a": {
+  "en": "Send the Jesuits!",
+  "uk": "Відправимо єзуїтів!"
+ },
+ "flavor_pap.1200.desc": {
+  "en": "It is our solemn duty to evangelize everywhere, to bring the Word of [ROOT.GetCountry.GetReligion.GetGodName] to all corners of the earth. As our knowledge of the world grows, so too does our duty. Explorers in the Far East have begun making contact with local merchants in [target_province.GetName]; it is a sign that we must go forth and proselytize among them.",
+  "uk": "Наш священний обов'язок — нести Слово Боже в усі куточки земної кулі, і в міру того, як ми здобуваємо нові знання про світ, у нас з'являється все більше обов'язків. Нещодавно дослідники, що подорожують по Східній Азії, встановили контакт з торговцями в провінції [target_province.GetName], а це означає, що ми маємо якнайшвидше відправити туди місію, щоб проповідувати благу вість серед місцевого населення."
+ },
+ "flavor_pap.1200.entry": {
+  "en": "$flavor_pap.1200.title$",
+  "uk": ""
+ },
+ "flavor_pap.1200.title": {
+  "en": "Mission To $china$",
+  "uk": "Місія в Китаї"
+ },
+ "flavor_pap.1201.a": {
+  "en": "Yes, we may benefit from their learning",
+  "uk": "Нехай навчаються — це може нам стати в пригоді"
+ },
+ "flavor_pap.1201.b": {
+  "en": "No, their foreign ideas are not acceptable in our society",
+  "uk": "Ні, в нашому суспільстві немає місця чужим ідеям"
+ },
+ "flavor_pap.1201.desc": {
+  "en": "Missionaries from far across the sea have sailed to our lands, bringing gifts to the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and exhibiting various mechanical inventions from Europe. They also exhibited great knowledge by creating a huge map of the world and proposing sound ideas for calendar reform. But they also brought with them strange religious and philosophical ideas, which may disrupt the traditional order of China. Should these missionaries be allowed to stay?",
+  "uk": "До нас прибули іноземні місіонери родом з далеких заморських земель. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'отримала','отримав')] від них багаті дари, а також [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'ознайомилася','ознайомився')] з незвичайними механічними пристроями, винайденими в Європі. Гості показали себе вельми освіченими людьми — вони привезли нам величезну карту світу і навіть запропонували кілька розумних ідей щодо реформи нашого календаря. Однак разом з цим вони принесли з собою чужі нам релігійні та філософські ідеї, що загрожують традиційному китайському укладу. Тепер перед нами стоїть вибір: або прогнати їх, або дозволити залишитися."
+ },
+ "flavor_pap.1201.title": {
+  "en": "The arrival of the Jesuits",
+  "uk": "Прибуття єзуїтів"
+ },
+ "flavor_pap.13.a": {
+  "en": "Establish it, and focus on administrative works.",
+  "uk": "Заснуємо її і зосередимось на працях про управління."
+ },
+ "flavor_pap.13.b": {
+  "en": "The focus should be on diplomatic works.",
+  "uk": "Потрібно зосередитись на працях про дипломатію."
+ },
+ "flavor_pap.13.c": {
+  "en": "Fund a library about the military arts.",
+  "uk": "Створимо бібліотеку, присвячену бойовим мистецтвам."
+ },
+ "flavor_pap.13.desc": {
+  "en": "The [ShowReligionAdjective('catholic')] Church possesses a vast multitude of written works from across the ages. Funding has been secured to consolidate and expand the knowledge of Christendom by establishing a magnificent library within the walls of the Vatican. The foundation of the Vatican Library will establish [ShowLocationName('rome')] as the center of the scholarly world.",
+  "uk": "#TOOLTIP:RELIGION,catholic_tt,X #L Католицька#!#! церква розташовує великою кількістю рукописів з найрізноманітніших історичних періодів. Щоб зберегти ці цінні тексти для майбутніх поколінь, було прийнято рішення створити у Ватикані велику бібліотеку. Завдяки цьому [ShowLocationName('rome')] стане одним з головних центрів знань не лише серед християнських держав, а й у всьому світі."
+ },
+ "flavor_pap.13.entry": {
+  "en": "$flavor_pap.13.title$",
+  "uk": ""
+ },
+ "flavor_pap.13.title": {
+  "en": "The Vatican Library",
+  "uk": "Ватиканська бібліотека"
+ },
+ "flavor_pap.1300.a": {
+  "en": "Send the Jesuits!",
+  "uk": "Відправимо єзуїтів!"
+ },
+ "flavor_pap.1300.desc": {
+  "en": "The legendary lands of [ShowRegionName('japan_region')] are beckoning us, crying out for salvation. We should seek out these islands of the Far East, and spread the Good News among their people.",
+  "uk": "Загадкові землі #TOOLTIP:REGION,japan_region,X #L Японії#!#! взивають до нас, благаючи про спасіння. Ми повинні відшукати ці східноазіатські острови, щоб поширити серед їхніх мешканців благу звістку."
+ },
+ "flavor_pap.1300.entry": {
+  "en": "Mission To Japan Region",
+  "uk": ""
+ },
+ "flavor_pap.1300.title": {
+  "en": "Mission To [ShowRegionNameWithNoTooltip('japan_region')]",
+  "uk": "Місія до Японії"
+ },
+ "flavor_pap.1301.a": {
+  "en": "Stop the missionaries!",
+  "uk": "Зупинимо місіонерів!"
+ },
+ "flavor_pap.1301.b": {
+  "en": "Let them spread their faith",
+  "uk": "Хай поширюють свою віру."
+ },
+ "flavor_pap.1301.desc": {
+  "en": "[ShowReligionAdjective('catholic')] missionaries, backed by their [ROOT.GetCountry.GetGovernment.GetRulerTitle] far away, have begun to arrive at our shores. They are attempting to spread [ShowReligionGroupName('christian')] and convert the local populace en masse. If they are not stopped, these Jesuits, Franciscans, and Dominicans could pose a significant threat to [ShowReligionName('shinto')].",
+  "uk": "В нашу державу прибуває безліч #TOOLTIP:RELIGION,catholic_tt,X #L католицьких#!#! місіонерів, чию діяльність спонсорує [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Вони масово навертають місцеве населення в #TOOLTIP:RELIGIONGROUP,christian,X #L християнство#!#!, і якщо ми не втрутимося, всі ці єзуїти, францисканці та домініканці почнуть становити серйозну загрозу #TOOLTIP:RELIGION,shinto_tt,X #L сінтоїзму#!#!."
+ },
+ "flavor_pap.1301.title": {
+  "en": "The Kirishitan",
+  "uk": "Кіріситан"
+ },
+ "flavor_pap.14.a": {
+  "en": "Demolish the old and build the new in the same place.",
+  "uk": "Знесемо стару споруду і побудуємо нову на тому ж місці."
+ },
+ "flavor_pap.14.a.entry": {
+  "en": "Assign the work to him.",
+  "uk": ""
+ },
+ "flavor_pap.14.b": {
+  "en": "[target_artist_2.GetNameWithNoTooltip] will oversee the project.",
+  "uk": ""
+ },
+ "flavor_pap.14.b.entry": {
+  "en": "The artist will oversee the project.",
+  "uk": ""
+ },
+ "flavor_pap.14.c": {
+  "en": "How about [target_artist_3.GetNameWithNoTooltip]?",
+  "uk": ""
+ },
+ "flavor_pap.14.c.entry": {
+  "en": "How about him?",
+  "uk": ""
+ },
+ "flavor_pap.14.d": {
+  "en": "We need not frivolous expressions of wealth!",
+  "uk": ""
+ },
+ "flavor_pap.14.desc": {
+  "en": "The Cappella Maggiore - the Greater Chapel - is used for masses that can be held in smaller, less public spaces than the Basilicas. The years have not been gentle to the once magnificent chapel that was decorated by Fra Angelico, its walls are leaning and it is in a ruinous state. The chapel should be demolished, the structure is not safe enough for the many masses that are held there every year. A new, more magnificent building should take its place, and many famous artists would be honored if they were asked to decorate the new Sistine Chapel.",
+  "uk": "Cappella Maggiore, або «Велика капела», використовується для менш людних богослужінь, ніж базиліки. Колишня величність капели, прикрашеної роботами Фра Анджеліко, зблякла під тягарем років, і зараз вона перебуває у жалюгідному стані. Цю споруду потрібно знести, оскільки серед похилених стін вже небезпечно проводити численні щорічні богослужіння. На її місці з'явиться нова, більш велична Сикстинська капела. Багато відомих творців вшанують за честь прикрасити її."
+ },
+ "flavor_pap.14.entry": {
+  "en": "$flavor_pap.14.title$",
+  "uk": ""
+ },
+ "flavor_pap.14.title": {
+  "en": "The Sistine Chapel",
+  "uk": "Сикстинська капела"
+ },
+ "flavor_pap.1400.a": {
+  "en": "Ite, inflammate omnia!",
+  "uk": ""
+ },
+ "flavor_pap.1400.desc": {
+  "en": "The Jesuits are the shock troops of the [ShowReligionAdjective('catholic')] revival. Specially trained in techniques to convert people to [ShowReligionNameWithNoTooltip('catholic')] they make a potent force in convincing the heathen and heretic to see the light.",
+  "uk": "Єзуїти є рушійною силою #L [ShowReligionAdjective('catholic')|l]ого#! відродження. Навчені різним методам навернення людей у католицтво, вони здатні наставити на істинний шлях навіть найвпертіших язичників та єретиків."
+ },
+ "flavor_pap.1400.entry": {
+  "en": "$flavor_pap.1400.title$",
+  "uk": ""
+ },
+ "flavor_pap.1400.title": {
+  "en": "The Societas Jesu",
+  "uk": "Єзуїти"
+ },
+ "flavor_pap.1400.tooltip": {
+  "en": "The Society of Jesus will be founded!",
+  "uk": "Буде засновано Товариство Ісуса!"
+ },
+ "flavor_pap.1401.a": {
+  "en": "Ad maiorem Dei gloriam!",
+  "uk": ""
+ },
+ "flavor_pap.1401.b": {
+  "en": "Absolutely not...",
+  "uk": "Ні в якому разі..."
+ },
+ "flavor_pap.1401.desc": {
+  "en": "His Holiness has approved a new missionary order called the Society of Jesus. However, without royal support, the newly created order will not thrive in our territories.\\n\\nShall we support the Jesuits?",
+  "uk": "Його Святість схвалив створення нового ордену місіонерів «Товариство Ісуса». Однак без монаршої підтримки новостворений орден не зможе зміцнити вплив на наших землях.\\n\\nЧи варто підтримувати єзуїтів?"
+ },
+ "flavor_pap.1401.entry": {
+  "en": "$flavor_pap.1401.title$",
+  "uk": ""
+ },
+ "flavor_pap.1401.title": {
+  "en": "Institute the Societas Jesu",
+  "uk": "Заснування ордену єзуїтів"
+ },
+ "flavor_pap.15.a": {
+  "en": "Hire [sandro_boticelli_scope.GetNameWithNoTooltip].",
+  "uk": "Найняти Сандро Боттічеллі."
+ },
+ "flavor_pap.15.a.entry": {
+  "en": "Hire $Botticelli$.",
+  "uk": ""
+ },
+ "flavor_pap.15.b": {
+  "en": "Hire [ghirlandaio_scope.GetNameWithNoTooltip].",
+  "uk": "Найняти Гірландайо."
+ },
+ "flavor_pap.15.b.entry": {
+  "en": "Hire Ghirlandaio.",
+  "uk": ""
+ },
+ "flavor_pap.15.c": {
+  "en": "Hire [pietro_perugino_scope.GetNameWithNoTooltip].",
+  "uk": "Найняти П'єтро Перуджино."
+ },
+ "flavor_pap.15.c.entry": {
+  "en": "Hire Perugino.",
+  "uk": ""
+ },
+ "flavor_pap.15.d": {
+  "en": "Hire [michaelangelo_scope.GetNameWithNoTooltip].",
+  "uk": "Найняти Мікеланджело."
+ },
+ "flavor_pap.15.d.entry": {
+  "en": "Hire Michelangelo.",
+  "uk": ""
+ },
+ "flavor_pap.15.desc": {
+  "en": "The old, decrepit Cappella Maggiore is no more - in its place the grand Sistine Chapels now stands. The Temple of Solomon and the Sistine Chapel are the same dimensions, as given in the Old Testament. The exterior is unadorned by decorative details, and the building is divided into three stories with a vaulted ceiling and six tall arched windows on the sides, two on either end. Although beautiful in its simplicity, the chapel's beauty could be enhanced by frescoes painted by the foremost artists of our time.",
+  "uk": "На місці старої занедбаної Великої капели тепер височіє прекрасна Сикстинська капела. Її розміри точно такі ж, як у храму Соломона, згідно з Старим Завітом. Зовнішній вигляд споруди не рясніє оздобленнями; внутрішнє триповерхове приміщення вінчає склепінна стеля, а на стінах розташовано шість високих арочних вікон — по два на кожній. Капела прекрасна у своїй простоті, але фрески, створені найкращими творцями нашого часу, лише підкреслять її витонченість."
+ },
+ "flavor_pap.15.e": {
+  "en": "Just find someone to decorate the chapel!",
+  "uk": "Доручимо комусь прикрасити капелу!"
+ },
+ "flavor_pap.15.entry": {
+  "en": "$flavor_pap.15.title$",
+  "uk": ""
+ },
+ "flavor_pap.15.title": {
+  "en": "Decorate the Sistine Chapel",
+  "uk": "Оздоблення Сикстинської капели"
+ },
+ "flavor_pap.1500.a": {
+  "en": "Build the Basilica",
+  "uk": "Збудуємо базиліку."
+ },
+ "flavor_pap.1500.b": {
+  "en": "Use the income from Indulgences to finance it.",
+  "uk": "Візьмемо кошти з доходів від індульгенцій."
+ },
+ "flavor_pap.1500.c": {
+  "en": "Build the Basilica and have [michaelangelo_scope.GetShortNameWithNoTooltip] embellish it.",
+  "uk": "Збудуємо базиліку, а над її оздобленням працюватиме [michaelangelo_scope.GetShortNameWithNoTooltip]."
+ },
+ "flavor_pap.1500.c.entry": {
+  "en": "Build the Basilica and have Michelangelo embellish it.",
+  "uk": ""
+ },
+ "flavor_pap.1500.d": {
+  "en": "Fund it with Indulgences, hire [michaelangelo_scope.GetShortNameWithNoTooltip] to adorn it.",
+  "uk": "Візьмемо кошти з доходів від індульгенцій, а над оздобленням базиліки працюватиме [michaelangelo_scope.GetShortNameWithNoTooltip]."
+ },
+ "flavor_pap.1500.d.entry": {
+  "en": "Fund it with Indulgences, hire Michelangelo to adorn it.",
+  "uk": ""
+ },
+ "flavor_pap.1500.desc": {
+  "en": "The Old St. Peter's Basilica built by Emperor Constantine 'the Great', is nowadays in a sad state of disrepair due to its age and the lack of maintenance it had to endure during the stay of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] in the city of [ShowLocationName('avignon')].\\n\\nThe time has arrived for all of [ShowReligionGroupName('christian')] to come together and rebuild the temple and transform it into a monument worth of Saint Peter himself.",
+  "uk": "Поки [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] перебуває в #TOOLTIP:LOCATION,avignon_tt,X #L Авіньйоні#!#!, старий собор Святого Петра, збудований ще за імператора Костянтина Великого, залишається без належного обслуговування. Через це стародавня споруда перебуває в дуже плачевному стані.\\n\\n#TOOLTIP:RELIGIONGROUP,christian,X #L Християнським#!#! державам пора об'єднатися, щоб відновити собор і перетворити його на величний пам'ятник, гідний Святого Петра."
+ },
+ "flavor_pap.1500.e": {
+  "en": "Concentrate on worldly matters",
+  "uk": "Зосередимося на мирських справах"
+ },
+ "flavor_pap.1500.entry": {
+  "en": "$flavor_pap.1500.title$",
+  "uk": ""
+ },
+ "flavor_pap.1500.historical_info": {
+  "en": "Pope Julius II started building the Basilica not very long after being elected [ROOT.GetCountry.GetGovernment.GetRulerTitle]. The completion would take more than 100 years and one of the most famous artists in history, Michelangelo, had a large role at times in its completion, both as an architect and as a painter.",
+  "uk": "Будівництво собору Святого Петра було організоване Юлієм II незабаром після його обрання папою римським. На завершення цієї грандіозної споруди пішло понад 100 років. За цей час над проектом встигли попрацювати багато видатних творців, включаючи Мікеланджело, який також доклав свій внесок як архітектор."
+ },
+ "flavor_pap.1500.title": {
+  "en": "The Commissioning of Saint Peter's Basilica",
+  "uk": "Замовлення базиліки Святого Петра"
+ },
+ "flavor_pap.1501.a": {
+  "en": "Celebrate this grand occasion!",
+  "uk": "Відсвяткуємо цю велику подію!"
+ },
+ "flavor_pap.1501.b": {
+  "en": "The Church should be discreet.",
+  "uk": "Церкві личить тиша."
+ },
+ "flavor_pap.1501.desc": {
+  "en": "After 120 years of work the marvelous Saint Peter's Basilica has finally been completed, it is a time of joy and celebration for every servant of God.",
+  "uk": "Через 120 років будівництво прекрасної базиліки Святого Петра нарешті завершено на радість усім слугам Божим."
+ },
+ "flavor_pap.1501.title": {
+  "en": "Saint Peter's Inauguration",
+  "uk": "Відкриття базиліки Святого Петра"
+ },
+ "flavor_pap.1502.a": {
+  "en": "Damnation!",
+  "uk": "Прокляття!"
+ },
+ "flavor_pap.1502.desc": {
+  "en": "[ShowLocationName('rome')] has fallen to our enemies, the [rome_ocupier.GetLongName] and during the looting of the Holy City Saint Peter's Basilica building site has been set ablaze by those devils, destroying all traces of its ancient glory.",
+  "uk": "[ShowLocationName('rome')] впав під натиском #L [rome_ocupier.GetAdjective|l]их#! військ. Під час пограбування міста ці варвари підпалили собор Святого Петра, залишивши від колись великої споруди лише руїни."
+ },
+ "flavor_pap.1502.title": {
+  "en": "Saint Peter's Basilica Demise",
+  "uk": "Загибель базиліки Святого Петра"
+ },
+ "flavor_pap.17.a": {
+  "en": "We will treat this as the crime it is!",
+  "uk": "Ми вважаємо це злочином!"
+ },
+ "flavor_pap.17.b": {
+  "en": "This is a practice we will allow.",
+  "uk": "Ми дозволяємо подібний підхід."
+ },
+ "flavor_pap.17.desc": {
+  "en": "In the Acts of the Apostles 8:9-24, Simon Magus offered the two disciples Peter and John money if they empowered him to impart the power of the Holy Spirit to anyone he placed his hands on. This act of selling spiritual things such as Church offices and roles, is called Simony after this man and many a ruler has been swayed by the glimmer of gold to sell bishop seats.",
+  "uk": "У «Діяннях святих апостолів» 8:9-24 Симон Чарівник пропонував гроші апостолам Іоану і Петру, бажаючи дарувати силу Святого Духа через покладання рук. Відтоді подібний продаж духовної благодаті, у тому числі церковних посад і повноважень, називається симонією. Чимало правителів продавали посаду єпископа, не в силах встояти перед блиском золота."
+ },
+ "flavor_pap.17.entry": {
+  "en": "$flavor_pap.17.title$",
+  "uk": ""
+ },
+ "flavor_pap.17.title": {
+  "en": "Simony Judged",
+  "uk": "Думка про симонію"
+ },
+ "flavor_pap.1700.a": {
+  "en": "Investigate these allegations.",
+  "uk": "Треба вивчити ці звинувачення."
+ },
+ "flavor_pap.1700.a.tt": {
+  "en": "We will start investigations of these claims.",
+  "uk": "Ми розглянемо ці заяви."
+ },
+ "flavor_pap.1700.b": {
+  "en": "Money makes the world go around...",
+  "uk": "Гроші правлять світом..."
+ },
+ "flavor_pap.1700.c": {
+  "en": "We will try to root this practice out completely!",
+  "uk": "Ми постараємося викоренити цей звичай!"
+ },
+ "flavor_pap.1700.desc": {
+  "en": "Many countries have started to sell indulgences for money, so that the rich may save their souls and continue living in sin. We have received reports that some of our bishops offer these services with the claim to be authorized by [target_ruler.GetName] [target_ruler.GetHerselfHimself].\\n\\nThis practice guides a lot of money to the coffers of the Church, and while some condemn it, others think it should be allowed.",
+  "uk": "У багатьох державах священики почали продавати індульгенції за гроші, тим самим дозволяючи багатим відкупатися від покарання і продовжувати жити у гріху. Якщо вірити доповідям, деякі з наших єпископів також пропонують подібні послуги, стверджуючи, що це право їм [Select_CString(target_ruler.IsFemale,'дарувала сама','дарував сам')] [target_ruler.GetName].\\n\\nХоча формально ця практика суперечить вченню церкви, вона приносить нам величезний прибуток, тому деякі вважають, що її слід офіційно дозволити."
+ },
+ "flavor_pap.1700.entry": {
+  "en": "$flavor_pap.1700.title$",
+  "uk": ""
+ },
+ "flavor_pap.1700.title": {
+  "en": "Selling Indulgences",
+  "uk": "Продаж індульгенцій"
+ },
+ "flavor_pap.1701.a": {
+  "en": "As soon as the gold in the casket rings, the rescued soul to heaven springs.",
+  "uk": "Як тільки золото в скриньці задзвенить, спасенна душа відправиться на небеса."
+ },
+ "flavor_pap.1701.b": {
+  "en": "Summon him to stand trial.",
+  "uk": "Він повинен постати перед судом."
+ },
+ "flavor_pap.1701.desc": {
+  "en": "A member of the Dominican Order, [target_character.GetName], has come to fame through [target_character.GetHerHis] radical and innovative ways to sell indulgences. In addition to selling forgiveness after a poor sinner has given in to weakness, [target_character.GetSheHe] is also open to forgive sins not yet committed. With this, [target_character.GetSheHe] has earned a sizeable sum for the [GetInternationalOrganization('catholic_church').GetName] and the [GetInternationalOrganization('catholic_church').GetLeaderTitle].",
+  "uk": "Домініканець на ім'я [target_character.GetName] здобув погану славу за свої зухвалі та часом нав'язливі методи продажу індульгенцій. Справа доходить до того, що він продає прощення не лише за скоєні, а й за майбутні гріхи. Хоча його діяльність викликає безліч питань з моральної точки зору, вона приносить #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицькій церкві#!#! значний прибуток."
+ },
+ "flavor_pap.1701.entry": {
+  "en": "Johann Tetzel starts selling in Saxony",
+  "uk": ""
+ },
+ "flavor_pap.1701.title": {
+  "en": "The Friar [target_character.GetNameWithNoTooltip]",
+  "uk": "Домініканський монах [target_character.GetNameWithNoTooltip]"
+ },
+ "flavor_pap.1702.a": {
+  "en": "That sounds a bit controversial.",
+  "uk": "Це досить спірний підхід."
+ },
+ "flavor_pap.1702.desc": {
+  "en": "$flavor_pap.1701.desc$ His presence in our country could stir some controversy.",
+  "uk": "$flavor_pap.1701.desc$ Як би там не було, перебування такої одіозної постаті в нашій державі може розгнівати багатьох людей."
+ },
+ "flavor_pap.1703.a": {
+  "en": "They bring in money, let them proceed.",
+  "uk": "Вони приносять гроші — залишимо все як є."
+ },
+ "flavor_pap.1703.b": {
+  "en": "We will punish everyone caught selling indulgences.",
+  "uk": "Усіх, хто попадеться на продажу індульгенцій, чекає покарання."
+ },
+ "flavor_pap.1703.desc": {
+  "en": "Recent reports have suggested that members of the [GetInternationalOrganization('catholic_church').GetName] are selling indulgences with our approval. As endorsement of a sinful act like this could not be further from the truth, we will now have to decide if and how we want to persecute these acts.",
+  "uk": "До нас дійшли чутки про те, що деякі представники #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#! продають індульгенції нібито з нашого схвалення. Насправді ми не давали на це своєї згоди, однак ця ситуація дає нам можливість вирішити, карати священиків за подібну діяльність чи дозволити їм заробляти гроші для церковної скарбниці."
+ },
+ "flavor_pap.1703.title": {
+  "en": "The Investigation of the [GetInternationalOrganization('catholic_church').GetNameWithNoTooltip]",
+  "uk": "Розслідування щодо католицької церкви"
+ },
+ "flavor_pap.1704.a": {
+  "en": "[target_character.GetNameWithNoTooltip] is guilty.",
+  "uk": "[target_character.GetNameWithNoTooltip] винен!"
+ },
+ "flavor_pap.1704.a.entry": {
+  "en": "The character is guilty.",
+  "uk": ""
+ },
+ "flavor_pap.1704.b": {
+  "en": "Send him to a local [ShowBuildingTypeNameWithNoTooltip('monastery')].",
+  "uk": "Відправимо його до місцевого монастиря."
+ },
+ "flavor_pap.1704.c": {
+  "en": "He is innocent!",
+  "uk": "Він невинен!"
+ },
+ "flavor_pap.1704.desc": {
+  "en": "We have summoned [target_character.GetName] to [ROOT.GetCountry.GetCapital.GetName] to defend [target_character.GetHerselfHimself] against the accusation of rampant selling of indulgences. Afer [target_character.GetHerHis] arrival, [target_character.GetSheHe] gave a long defense of [target_character.GetHerHis] actions and it is now in our hands to decide how we should proceed with this issue.",
+  "uk": "[target_character.GetName] прибув до столиці, щоб постати перед судом за масовий продаж індульгенцій. Незгідний зі звинуваченнями, він виступив з довгою виправдувальною промовою, і тепер нам належить вирішити, якого вироку він заслуговує."
+ },
+ "flavor_pap.1704.entry": {
+  "en": "The Trial of Johann Tetzel",
+  "uk": ""
+ },
+ "flavor_pap.1704.title": {
+  "en": "The Trial of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] постає перед судом"
+ },
+ "flavor_pap.18.a": {
+  "en": "Prevent the sale of relics!",
+  "uk": "Ми не допустимо продажу мощів!"
+ },
+ "flavor_pap.18.b": {
+  "en": "We will grow richer if we allow and practice this.",
+  "uk": "Цей звичай зробить нас багатшими."
+ },
+ "flavor_pap.18.c": {
+  "en": "We should assert our control over it.",
+  "uk": "Потрібно встановити контроль над поклонінням мощам."
+ },
+ "flavor_pap.18.desc": {
+  "en": "Churches have always kept relics from saints, to venerate and in some cases use to heal the sick and infirm. This long practice has now been challenged, and some believe it to be idolatry, a heresy that should be banned. The selling of relics has made many a church rich, and if the [ROOT.GetCountry.GetGovernment.GetRulerTitle] were to publicly announce his support of this practice, some of that money would find its way to our coffers.",
+  "uk": "Багато церков відвіку зберігали і шанували мощі святих, а також використовували їх для зцілення хворих і немічних. Проте деякі вимагають заборонити цей давній звичай, стверджуючи, що він за своєю суттю є ідолопоклонством і єрессю. При цьому продаж мощів — вкрай прибуткова справа, і якщо [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] відкрито підтримає цю практику, то ми зможемо на цьому непогано заробити."
+ },
+ "flavor_pap.18.entry": {
+  "en": "$flavor_pap.18.title$",
+  "uk": ""
+ },
+ "flavor_pap.18.title": {
+  "en": "Veneration of Relics - allow or disallow?",
+  "uk": "Чи варто дозволяти поклоніння мощам?"
+ },
+ "flavor_pap.1800.a": {
+  "en": "This is madness!",
+  "uk": "Просто божевілля!"
+ },
+ "flavor_pap.1800.b": {
+  "en": "This is madness! But let us give it a try...",
+  "uk": "Це божевілля! Але спробувати варто..."
+ },
+ "flavor_pap.1800.desc": {
+  "en": "The fall of [ShowLocationName('constantinople')] sent shock waves throughout the [ShowReligionGroupAdjective('christian')] world, altering the balance of regional power and giving one of Christianity's most important sites to the hands of the infidel. Despite numerous military attempts to halt the [GetCountry('TUR').GetAdjective] expansion, our efforts have been met with little success.\\n\\nIn light of this, a bold suggestion has emerged: rather than continue a fruitless conflict, we should consider a diplomatic approach. It has been proposed that we send a letter to [ottoman_ruler.GetName], urging him to convert to [ShowReligionName('catholic')]. In return, we would recognize him as the legitimate Emperor of Rome, potentially uniting the faith under one banner and stabilizing the region.",
+  "uk": "Падіння #TOOLTIP:LOCATION,constantinople_tt,X #L Константинополя#!#! глибоко сколихнуло весь #L [ShowReligionGroupAdjective('christian')|l]ий#! світ і кардинально змінило баланс сил у регіоні. Незважаючи на всі спроби зупинити просування #L [GetCountry('TUR').GetAdjective|l]их#! військ, одне з найважливіших християнських міст все ж потрапило в руки іновірців.\\n\\nУ світлі цих подій деякі пропонують припинити безглузду боротьбу на полі бою і спробувати вирішити конфлікт дипломатичним шляхом: якщо [ottoman_ruler.GetName] прийме #TOOLTIP:RELIGION,catholic_tt,X #L католицтво#!#!, ми визнаємо його повноправним спадкоємцем візантійських імператорів. Це дозволить не лише забезпечити стабільність у регіоні, а й покласти край нашій багатовіковій ворожнечі."
+ },
+ "flavor_pap.1800.entry": {
+  "en": "The Ottomans and the Crown of Rome",
+  "uk": ""
+ },
+ "flavor_pap.1800.historical_info": {
+  "en": "In 1461, Pope Pius II wrote a letter to Sultan Mehmed II of the Ottoman Empire, offering him the chance to convert to Christianity. In return, the Pope promised Mehmed Papal blessings, recognition as the legitimate ruler of Christian lands he controlled, and support in his future endeavors. The letter was, however, never delivered to the Sultan, and was likely only circulated among Christians in Europe.",
+  "uk": "У 1461 році папа Пій II написав султану Османської імперії Мехмеду II листа з пропозицією прийняти християнство. Натомість папа обіцяв Мехмеду своє благословення, визнання законним правителем усіх земель під османським контролем і подальшу підтримку. Правда, цей лист так і не дійшов до султана — судячи з усього, він передавався лише між християнами в Європі."
+ },
+ "flavor_pap.1800.title": {
+  "en": "The Crown of Rome and [GetCountry('TUR').GetNameWithNoTooltip]",
+  "uk": "Корона Візантії і Порти"
+ },
+ "flavor_pap.1801.a": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] is a damned fool.",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] — просто жалюгідний дурень."
+ },
+ "flavor_pap.1801.a.entry": {
+  "en": "The ruler is a damned fool.",
+  "uk": ""
+ },
+ "flavor_pap.1801.b": {
+  "en": "Long live Kayser-i Rum!",
+  "uk": "Хай живе Цезар Рима!"
+ },
+ "flavor_pap.1801.desc": {
+  "en": "A surprising message has arrived from [GetCountry('PAP').GetName], addressed directly to our [GetCountry('TUR').GetGovernment.GetRulerTitle]. In the letter, the [GetCountry('PAP').GetGovernment.GetRulerTitle] proposes a radical offer: if we agree to convert to [ShowReligionName('catholic')], the [GetUniqueInternationalOrganization('catholic_church').GetName] will officially recognize us as the rightful Emperors of Rome. This would bring an end to the bitter conflict with Christendom and, in theory, unite our realms under a single faith. Most see this as a cunning move to subvert our empire from within, while there are some who view it as a unique opportunity to consolidate power across [ShowContinentName('europe')]. Our advisors regard this proposal as insanity, and agreeing to it would likely lead to internal unrest of unimaginable scale.",
+  "uk": "[Select_CString(GetCountry('TUR').GetGovernment.GetRuler.IsFemale,'Наша','Наш')] [GetCountry('TUR').GetGovernment.GetRulerTitle|l] [Select_CString(GetCountry('TUR').GetGovernment.GetRuler.IsFemale,'отримала','отримав')] несподіване послання з #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_GEN')|L]#!#!. У ньому говориться, що [GetCountry('PAP').GetGovernment.GetRulerTitle|l] готовий визнати [Select_CString(GetCountry('TUR').GetGovernment.GetRuler.IsFemale,'нашу правительку законною імператрицею','нашого правителя законним імператором')] Візантії, якщо [Select_CString(GetCountry('TUR').GetGovernment.GetRuler.IsFemale,'вона','він')] погодиться прийняти #TOOLTIP:RELIGION,catholic_tt,X #L католицтво#!#!. Передбачається, що це покладе край нашій ворожнечі і дозволить об'єднати наші держави під егідою спільної віри. Хоча деякі бачать у цьому можливість посилити наш вплив у #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, більшість вважає, що це просто хитра пастка, спрямована на дестабілізацію нашої імперії. На думку радників, якщо ми приймемо цю божевільну пропозицію, це може призвести до заворушень неймовірних масштабів."
+ },
+ "flavor_pap.1801.title": {
+  "en": "The Offer of the Roman Crown",
+  "uk": "Пропозиція Римської корони"
+ },
+ "flavor_pap.1802.a": {
+  "en": "A futile attempt...",
+  "uk": "Спроба виявилася марною..."
+ },
+ "flavor_pap.1802.desc": {
+  "en": "Unexpectedly, [GetCountry('TUR').GetName] have dismissed our proposal for unity under the [GetUniqueInternationalOrganization('catholic_church').GetName], choosing to remain steadfast in their faith and separate from our cause. This rejection is a sobering reminder of the growing divide between our realms, one that must be addressed through other means if we are to protect our world from further conflict.",
+  "uk": "Як не дивно, [GetCountry('TUR').GetName|l] вирішили зберегти свою віру і відкинули нашу пропозицію про об'єднання під егідою #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!. Ця відмова говорить про зростання ворожнечі між нашими державами. Якщо ми не знайдемо іншого способу налагодити відносини, то конфлікт буде неминучим."
+ },
+ "flavor_pap.1802.title": {
+  "en": "[GetCountry('TUR').GetNameWithNoTooltip] Reject the Offer",
+  "uk": "[GetCountry('TUR').GetNameWithNoTooltip] відкидають нашу пропозицію"
+ },
+ "flavor_pap.1803.a": {
+  "en": "A great diplomatic victory!",
+  "uk": "Це велика дипломатична перемога!"
+ },
+ "flavor_pap.1803.desc": {
+  "en": "In a historic decision, [GetCountry('TUR').GetName] have agreed to consider conversion and accept the title of Emperor of Rome under the guidance of the [GetUniqueInternationalOrganization('catholic_church').GetName]. This monumental shift may bring peace between our realms and strengthen Christendom in unexpected ways. However, many within the Church view this development with mixed feelings, questioning the prudence of bestowing such a title upon the former adversary of [ShowReligionGroupAdjective('christian')] [ShowContinentName('europe')].",
+  "uk": "[GetCountry('TUR').GetName] прийняли воістину історичне рішення і погодилися перейти в нашу віру в обмін на титул імператора Візантії. Ця подія може принести довгоочікуваний мир між нашими державами, а також зміцнити #L [ShowReligionGroupAdjective('christian')|l]ий#! світ. Втім, багато представників #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#! скептично ставляться до цієї ситуації і вважають, що дарувати колишньому ворогу християнської #TOOLTIP:CONTINENT,europe,X #L Європи#!#! такий важливий титул — вкрай нерозсудливе рішення."
+ },
+ "flavor_pap.1803.title": {
+  "en": "[GetCountry('TUR').GetNameWithNoTooltip] Accept the Offer",
+  "uk": "[GetCountry('TUR').GetNameWithNoTooltip] приймають нашу пропозицію"
+ },
+ "flavor_pap.19.a": {
+  "en": "Invite him to discuss science.",
+  "uk": "Запросимо його обговорити наукові питання."
+ },
+ "flavor_pap.19.b": {
+  "en": "He must be put to trial.",
+  "uk": "Його треба віддати під суд."
+ },
+ "flavor_pap.19.desc": {
+  "en": "The notion that the Earth and the planets revolve around the Sun is an idea Nicolaus Copernicus first wrote about in his book #italic 'De revolutionibus orbium coelestium'#! in 1543 and now [galileo_galilei_scope.GetName] has promoted it again, in his book #italic 'Sidereus Nuncius'#! - #italic 'Starry Messenger'#!. His controversial championing of this thesis has given him many enemies in the [ShowReligionAdjective('catholic')] Church, and although we admit that he would be a most interesting debate opponent, maybe we should be cautious and just imprison him before he makes a mockery of our postulates?",
+  "uk": "Ідею про те, що Земля та інші планети обертаються навколо Сонця, вперше висунув Миколай Коперник у своїй праці #italic «De revolutionibus orbium coelestium»#!, опублікованій 1543 року. Тепер цю думку також підтримав [galileo_galilei_scope.GetName], видавши свій твір під назвою #italic «Sidereus Nuncius»#! — #italic «Зоряний вісник»#!. Захищаючи точку зору Коперника, Галілей нажив собі безліч ворогів у #TOOLTIP:RELIGION,catholic_tt,X #L католицькій#!#! церкві. Звісно, було б цікаво провести з ним повноцінні дебати, але, можливо, буде розумніше проявити обережність і кинути його за грати, перш ніж він почне відкрито висміювати наші догмати…"
+ },
+ "flavor_pap.19.entry": {
+  "en": "Galileo Galilei",
+  "uk": ""
+ },
+ "flavor_pap.19.title": {
+  "en": "[galileo_galilei_scope.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.2.a": {
+  "en": "Burn the heretic",
+  "uk": "Спалити єретика"
+ },
+ "flavor_pap.2.b": {
+  "en": "Spare his life",
+  "uk": "Зберегти йому життя"
+ },
+ "flavor_pap.2.desc": {
+  "en": "[target_character.GetName] is a theologian who identifies God with Nature. Even though he claims to be a devout [ShowReligionGroupAdjective('christian')], he both defends Copernicus' view of the cosmos as well as satirizes blind belief in religion. He was arrested in [ShowLocationName('venice')] and has been extradited to [ShowLocationName('rome')], where he is now on trial.",
+  "uk": "Хоча [target_character.GetName] називає себе ревним #TOOLTIP:RELIGIONGROUP,christian,X #L християнином#!#!, він дозволяє собі ототожнювати Бога з природою. Крім того, він підтримує погляди Коперника і нерідко висміює тих, чию віру він вважає сліпою та безпідставною. Нещодавно його затримали у #TOOLTIP:LOCATION,venice_tt,X #L Венеції#!#! і перевезли до #TOOLTIP:LOCATION,rome_tt,X #L Риму#!#!, де його будуть судити за його богохульні висловлювання."
+ },
+ "flavor_pap.2.entry": {
+  "en": "Giordano Bruno, Heretic Philosopher",
+  "uk": ""
+ },
+ "flavor_pap.2.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.20.a": {
+  "en": "All Men under one God!",
+  "uk": "Всі під одним Богом!"
+ },
+ "flavor_pap.20.b": {
+  "en": "Amen",
+  "uk": "Амінь."
+ },
+ "flavor_pap.20.desc": {
+  "en": "Having united the whole of [ShowRegionName('italy_region')] under the banner of [ShowReligionName('catholic')], the [GetCountry('PAP').GetGovernment.GetRulerTitle] has seen fit to declare it '[ShowGovernmentReformName('kingdom_of_god_reform')]'. [ShowReligionNameWithNoTooltip('catholic')] believers from all over [ShowContinentName('europe')] flock to [target_character.GetHerHis] banner, eager to live in this model nation of [ShowReligionGroupAdjective('christian')] virtue. Foreign powers can no longer control the College of Cardinals, but neither will they pay much heed to any [GetCountry('PAP').GetAdjective] bulls or decrees.",
+  "uk": "Тепер, коли вся #TOOLTIP:REGION,italy_region,X #L Італія#!#! об'єднана під #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькою#!#! владою, [GetCountry('PAP').GetGovernment.GetRulerTitle|l] проголошує на її місці #TOOLTIP:GOVERNMENT_REFORM,kingdom_of_god_reform,X #L Царство Боже#!#!. Католики з усієї #TOOLTIP:CONTINENT,europe,X #L Європи#!#! стікаються під його знамена, готові з радістю жити в цій зразковій державі #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! цінностей. Іноземні держави більше не мають влади над колегією кардиналів, але #L [GetCountry('PAP').GetAdjective]і#! булли та укази тепер не будуть для них законом."
+ },
+ "flavor_pap.20.entry": {
+  "en": "$flavor_pap.20.title$",
+  "uk": ""
+ },
+ "flavor_pap.20.title": {
+  "en": "The Kingdom of God on Earth",
+  "uk": "Царство Боже на землі"
+ },
+ "flavor_pap.21.a": {
+  "en": "Make an effort to dismiss them.",
+  "uk": "Постараємось це замнути."
+ },
+ "flavor_pap.21.b": {
+  "en": "It is too late to stop them from spreading.",
+  "uk": "Надто пізно — чутки вже розходяться."
+ },
+ "flavor_pap.21.desc": {
+  "en": "Rumors are swirling across the land that the [GetCountry('PAP').GetGovernment.GetRulerTitle], despite taking holy orders, has secretly fathered children. Some say these accusations are a malicious attempt to undermine the [GetUniqueInternationalOrganization('catholic_church').GetName]'s authority, while others claim there is truth to the rumors, with whispers of specific names and evidence. Cardinals and the rest of [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are torn over whether these allegations should be investigated or quietly dismissed to protect our reputation.",
+  "uk": "Ходять чутки, що у папи римського, який колись дав обітницю безшлюбності, насправді є діти. Деякі вважають, що це просто наклеп, спрямований на послаблення впливу #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!, тоді як інші підтверджують ці домисли і навіть наводять імена папських нащадків. Розгублені кардинали та інше [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] стоять перед непростим вибором: провести розслідування або по-тихому замнути цю незручну ситуацію?"
+ },
+ "flavor_pap.21.entry": {
+  "en": "The Pope Accused of Fathering Children",
+  "uk": ""
+ },
+ "flavor_pap.21.historical_info": {
+  "en": "Over the centuries, several popes have been rumored to have fathered children, even after taking holy orders. Pope Julius II, Paul III, Alexander VI, and Gregory XIII all faced such accusations, with some, like Alexander VI, openly acknowledging their children. These cases sparked scandals, challenging the moral authority of the Papal office.",
+  "uk": "За минулі століття не раз ходили чутки про те, що папи ставали батьками навіть після прийняття духовного сану. Із подібними звинуваченнями зіткнулись Юлій II, Павло III, Олександр VI і Григорій XIII, причому Олександр VI і деякі інші папи відкрито визнали своїх дітей. Ці випадки призводили до скандалів і підривали моральний авторитет папства."
+ },
+ "flavor_pap.21.title": {
+  "en": "[GetCountry('PAP').GetGovernment.GetRulerTitle] Accused of Fathering Children",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] підозрюється у заплідненні дітей"
+ },
+ "flavor_pap.22.a": {
+  "en": "Mobilize resources to save what we can!",
+  "uk": "Постараємось врятувати все, що зможемо!"
+ },
+ "flavor_pap.22.b": {
+  "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
+  "uk": ""
+ },
+ "flavor_pap.22.b.entry": {
+  "en": "$common_string_nothing_we_can_do_about_it$",
+  "uk": ""
+ },
+ "flavor_pap.22.desc": {
+  "en": "Disaster has struck the ancient Lateran Palace in [ShowLocationName('rome')]. This ancient seat of the Popes has stood as the heart of [ROOT.GetCountry.GetAdjective] authority for nearly a thousand years, housing priceless artifacts, sacred relics, and irreplaceable records chronicling the history of the [GetUniqueInternationalOrganization('catholic_church').GetName]. As the flames spread, pillars crack, and centuries-old tapestries are reduced to ash. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], guards, and servants scramble to extinguish the blaze, but without swift action, the entire palace could be lost.",
+  "uk": "У Латеранському палаці в #TOOLTIP:LOCATION,rome_tt,X #L Римі#!#! сталася пожежа. Ця старовинна резиденція була центром #L [ROOT.GetCountry.GetAdjective|l]ої#! влади протягом майже тисячі років. У ній зберігались безцінні артефакти, священні реліквії та унікальні рукописи, в яких запечатана вся історія #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!. У міру поширення полум'я колони палацу руйнуються, а гобелени, що прикрашають його, перетворюються на попіл. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], вартівники і слуги намагаються погасити полум'я своїми силами, але якщо терміново не вжити необхідних заходів, то від палацу залишаться лише руїни."
+ },
+ "flavor_pap.22.entry": {
+  "en": "$flavor_pap.22.title$",
+  "uk": ""
+ },
+ "flavor_pap.22.historical_info": {
+  "en": "In 1361, a devastating fire engulfed the Lateran Palace. This ancient palace, once the grand center of papal authority, was almost completely destroyed, with only the #italic Sancta Sanctorum chapel#! – home to some of the Church's most sacred relics – surviving the flames.",
+  "uk": "У 1361 році Латеранський палац охопило руйнівне полум'я. Стародавня споруда, яка колись була центром папської влади, була майже повністю знищена вогнем. Пожежу пережила лише #italic капела Санкта-Санкторум#!, де зберігались найціннніші святині."
+ },
+ "flavor_pap.22.title": {
+  "en": "Fire of the Lateran Palace",
+  "uk": "Пожежа в Латеранському палаці"
+ },
+ "flavor_pap.23.a": {
+  "en": "Hire [pap_fontana.GetHimHer]!",
+  "uk": "Ми наймемо його."
+ },
+ "flavor_pap.23.b": {
+  "en": "Leave [pap_fontana.GetHimHer] to work with our Cardinals.",
+  "uk": "Нехай він далі служить кардиналам."
+ },
+ "flavor_pap.23.desc": {
+  "en": "[pap_fontana.GetName], a renowned and gifted architect, has gained fame for [pap_fontana.GetHisHer] work on numerous projects for our cardinals. [pap_fontana.GetHisHer|U] skill with grand designs and urban restructuring has transformed parts of [ShowLocationName('rome')]. [pap_fontana.GetLastNameWithNoTooltip]'s talents could be invaluable to us as we pursue our vision of a restructured, glorious [ShowLocationNameWithNoTooltip('rome')]. Perhaps it would be wise to officially appoint [pap_fontana.GetHimHer] as our pontifical architect, entrusting [pap_fontana.GetHimHer] to bring our architectural ambitions to life.",
+  "uk": "Видатний архітектор [pap_fontana.GetName] здобув відомість за проектування низки споруд на службі у наших кардиналів. Завдяки своїм великим знанням у галузі міського планування він також вніс значний внесок у перебудову деяких районів #TOOLTIP:LOCATION,rome_tt,X #L Рима#!#!. Деякі радники вважають, що навички Фонтани можуть стати нам у нагоді для подальшого розвитку міста. Можливо, нам варто призначити його на посаду головного папського архітектора, щоб він міг втілити всі наші містобудівні задуми в життя."
+ },
+ "flavor_pap.23.entry": {
+  "en": "Domenico Fontana",
+  "uk": ""
+ },
+ "flavor_pap.23.historical_info": {
+  "en": "Domenico Fontana was an influential Italian architect whose works shaped the face of Rome. He became the preferred architect of Pope Sixtus V, leading major urban projects in Rome. Fontana's achievements include relocating the Vatican Obelisk to St. Peter's Square and designing the Lateran Palace's renovation.",
+  "uk": "Доменіко Фонтана — видатний італійський архітектор, чиї твори надали Риму особливого вигляду. Папа Сікст V довіряв талановитому творцю масштабні будівельні проекти в Римі. Окрім іншого, Фонтана переніс Ватиканський обеліск на площу Святого Петра і розробив план перебудови Латеранського палацу."
+ },
+ "flavor_pap.23.title": {
+  "en": "[pap_fontana.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.24.a": {
+  "en": "Rebuild the palace.",
+  "uk": "Перебудуємо палац."
+ },
+ "flavor_pap.24.b": {
+  "en": "Improve the wider infrastructure of [ShowLocationNameWithNoTooltip('rome')] instead.",
+  "uk": "Краще спрямувати його зусилля на розвиток інфраструктури Рима."
+ },
+ "flavor_pap.24.desc": {
+  "en": "The Lateran Palace, once the grand residence of the popes and a symbol of the Church's authority, now lies mostly in ruins after massive fires in the 14th century. Many believe that the time has come to restore this ancient palace to its former glory, since its historical and spiritual significance is undeniable. With our renowned architect [fontana.GetName] at the [ROOT.GetCountry.GetGovernment.GetCourtTitle], we have the expertise to take on this monumental project.",
+  "uk": "Латеранський палац, який колись служив папською резиденцією символом церковної влади, пережив череду пожеж у XIV столітті, і тепер від нього залишились лише руїни. Тим не менш його історичне і релігійне значення незаперечне, тому деякі пропонують відновити палац і повернути йому колишню славу. На щастя, при нашому дворі служить талановитий архітектор [fontana.GetName], у якого є всі необхідні знання і навички, щоб здійснити цей проект."
+ },
+ "flavor_pap.24.entry": {
+  "en": "$flavor_pap.24.title$",
+  "uk": ""
+ },
+ "flavor_pap.24.historical_info": {
+  "en": "In the late 16th century, Pope Sixtus V commissioned the renowned architect Domenico Fontana to rebuild the Lateran Palace, which had fallen into disrepair after centuries of fires and neglect. Fontana transformed the ancient structure, modernizing it and adding new wings, courtyards, and grand halls to restore its prominence as a symbol of papal authority.",
+  "uk": "Наприкінці XVI століття папа Сікст V доручив відомому архітектору Доменіко Фонтані перебудову Латеранського палацу, який перебував у жалюгідному стані після пожеж і вікового забуття. Фонтана надав стародавній споруді більш сучасного вигляду. Палац, доповнений новими флігелями, залами і внутрішніми дворами, знову став важливим символом папської влади."
+ },
+ "flavor_pap.24.title": {
+  "en": "Rebuilding of the Lateran Palace",
+  "uk": "Перебудова Латеранського палацу"
+ },
+ "flavor_pap.25.a": {
+  "en": "Transform it into a full-fledged fortress.",
+  "uk": "Перетворимо його на повноцінну фортецю."
+ },
+ "flavor_pap.25.b": {
+  "en": "Its current defenses are enough.",
+  "uk": "Він і без того добре захищений."
+ },
+ "flavor_pap.25.desc": {
+  "en": "The Mausoleum of Hadrian, nowadays better known as [ShowBuildingTypeName('castel_sant_angelo')], has gradually been transformed by our predecessors into a fortified bastion, providing a vital line of defense for [ShowLocationName('rome')]. With the turbulent nature of our times, many advisors now urge us to finalize its transformation into a formidable castle, one capable of safeguarding [ShowLocationNameWithNoTooltip('rome')] against any threat.",
+  "uk": "Мавзолей Адріана, нині більш відомий як [ShowBuildingTypeName('castel_sant_angelo')|l], неодноразово перебудовувався і зрештою перетворився на могутню фортецю, яка захищає [ShowLocationName('rome')] від ворожих нападів. Оскільки ми живемо у вельми неспокійні часи, багато радників пропонують продовжити роботи зі зміцнення замку, щоб він міг напевно витримати натиск будь-якої, навіть найбільшої і найпрогресивнішої армії."
+ },
+ "flavor_pap.25.entry": {
+  "en": "Fortifying Castel Sant'Angelo",
+  "uk": ""
+ },
+ "flavor_pap.25.historical_info": {
+  "en": "By the 16th century, Castel Sant'Angelo had become a fully developed fortress, with underground passages connecting it to the Vatican. Castel Sant'Angelo famously protected Pope Clement VII during the 1527 Sack of Rome, as he and his retinue took refuge there from the invading troops of Charles V.",
+  "uk": "До XVI століття замок Святого Ангела став справжньою фортецею з підземними ходами, що ведуть до Ватикану. У 1527 році під час розграбування Рима ця твердиня врятувала життя папі Клименту VII, який укрився тут зі своєю свитою від військ Карла V."
+ },
+ "flavor_pap.25.title": {
+  "en": "Reinforcing [ShowBuildingTypeNameWithNoTooltip('castel_sant_angelo')]",
+  "uk": "Зміцнення замку Святого Ангела"
+ },
+ "flavor_pap.26.a": {
+  "en": "Build the summer residence on Quirinal Hill.",
+  "uk": "Побудуємо літню резиденцію на Квірінальському пагорбі."
+ },
+ "flavor_pap.26.b": {
+  "en": "This is not the time for lavish projects.",
+  "uk": "Зараз не час для спорудження розкішних будівель."
+ },
+ "flavor_pap.26.desc": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] has expressed interest in establishing a summer residence away from the bustling, crowded streets of central [ShowLocationName('rome')]. Quirinal Hill, one of the famed Seven Hills of [ShowLocationNameWithNoTooltip('rome')], is seen as an ideal location, offering a tranquil escape with cool breezes and panoramic views. If we proceed, the renowned architect [fontana.GetName] could oversee the design and construction of the palace.",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] бажає заснувати нову літню резиденцію подалі від брудних і галасливих вулиць #TOOLTIP:LOCATION,rome_tt,X #L Рима#!#!. Ідеальним місцем для будівництва міг би стати Квірінал — найвищий із семи пагорбів Рима, з якого відкривається прекрасний вид на околиці. Якщо ми схвалимо цей проект, то за проектування і будівництво резиденції відповідатиме наш досвідчений архітектор [fontana.GetName]."
+ },
+ "flavor_pap.26.entry": {
+  "en": "$flavor_pap.26.title$",
+  "uk": ""
+ },
+ "flavor_pap.26.historical_info": {
+  "en": "The Quirinal Palace was commissioned in 1583 by Pope Gregory XIII as a summer residence for the papacy. Designed with input from prominent architects, including Domenico Fontana, the palace offered a retreat from the heat and crowds of central Rome. When the newly formed Kingdom of Italy annexed much of what was left of the Papal State, the Quirinal Palace palace became the seat of Italian kings.",
+  "uk": "Квірінальський палац було зведено 1583 року за замовленням папи Григорія XIII і він став літньою папською резиденцією, що дозволяла відпочити від спеки і метушні центрального району Рима. Над проектом палацу працювали Доменіко Фонтана і інші видатні архітектори. Коли нове королівство Італія приєднало землі, що залишались від Папської Області, Квірінальський палац став резиденцією італійських королів."
+ },
+ "flavor_pap.26.title": {
+  "en": "Summer Residence of the Popes",
+  "uk": "Літня папська резиденція"
+ },
+ "flavor_pap.27.a": {
+  "en": "Appoint [pap_danti.GetHimHer] as our [ROOT.GetCountry.GetGovernment.GetCourtTitle] Cartographer!",
+  "uk": "Запропонуємо йому посаду придворного картографа."
+ },
+ "flavor_pap.27.a.entry": {
+  "en": "Appoint him as our court Cartographer!",
+  "uk": ""
+ },
+ "flavor_pap.27.b": {
+  "en": "Appoint [pap_danti.GetHimHer] and further fund [pap_danti.GetHisHer] research.",
+  "uk": "Найняти його і підтримати його наукову діяльність."
+ },
+ "flavor_pap.27.c": {
+  "en": "[pap_danti.GetHisHer|U] talents are admirable, but we cannot afford them now.",
+  "uk": "Він безперечно талановитий, але його послуги нам не по кишені."
+ },
+ "flavor_pap.27.desc": {
+  "en": "The learned scholar and mathematician [pap_danti.GetName] has caught the attention of our [ROOT.GetCountry.GetGovernment.GetCourtTitle] with [pap_danti.GetHisHer] impressive work in astronomy, cartography, and instrument making. [pap_danti.GetLastNameWithNoTooltip] is renowned for creating accurate maps, celestial charts, and sundials, and [pap_danti.GetHisHer] expertise has already proven valuable for the Church's architectural projects. As a scholar dedicated to advancing knowledge, [pap_danti.GetLastNameWithNoTooltip] could assist us greatly by lending [pap_danti.GetHisHer] skills to our ambitions.",
+  "uk": "Талановитий учений [pap_danti.GetName] обізнаний не лише в математиці. Він також проявив себе в астрономії, картографії і навіть виготовленні наукових приладів. Використовуючи свої великі пізнання, [pap_danti.GetLastNameWithNoTooltip] створив безліч точних географічних і зоряних карт, а також спорудив для однієї з церков сонячний годинник. Його досягнення привернули увагу наших радників, і тепер вони пропонують взяти його на службу. Безумовно, нам буде корисно мати при дворі такої обдарованої людини."
+ },
+ "flavor_pap.27.entry": {
+  "en": "Ignazio Danti",
+  "uk": ""
+ },
+ "flavor_pap.27.historical_info": {
+  "en": "Ignazio Danti was a skilled astronomer, mathematician, and cartographer who created accurate maps and astronomical instruments for the Papal court. Danti played a crucial role in proposing a set of reforms that would eventually lead to the creation of the Gregorian Calendar.",
+  "uk": "Талановитий астроном, математик і картограф Ігнатій Данті створював точні карти і астрономічні прилади для Папського двору. Данті відіграв важливу роль у розробці реформ, які зрештою призвели до створення григоріанського календаря."
+ },
+ "flavor_pap.27.title": {
+  "en": "[pap_danti.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.28.a": {
+  "en": "Summon the finest minds to reform the calendar.",
+  "uk": "Доручимо найкращим розумам вдосконалити календар."
+ },
+ "flavor_pap.28.a.tt": {
+  "en": "Our greatest minds shall start working on creating the new calendar.",
+  "uk": "Наші найвидатніші розуми мають приступити до розробки нового календаря."
+ },
+ "flavor_pap.28.b": {
+  "en": "This massive undertaking would be too expensive.",
+  "uk": "Така масштабна затія надто дорого нам обійдеться."
+ },
+ "flavor_pap.28.desc": {
+  "en": "For centuries, the Julian Calendar has been the standard across the [ShowReligionGroupAdjective('christian')] world. However, it is becoming increasingly apparent that its inaccuracies in calculating the year and predicting key dates, like Easter, have caused growing concern. The calendar's misalignment with the solar year has led to significant drift, challenging both our traditions and practical matters. Many advisors now call for a gathering of our greatest scholars, mathematicians, and astronomers to devise a solution that could correct these longstanding errors.",
+  "uk": "#L [ShowReligionGroupAdjective('christian')]і#! держави протягом багатьох століть користувались юліанським календарем, однак тепер його недосконалості стали надто очевидними. Зокрема, неспівпадіння календаря з довжиною сонячного року ускладнює точний розрахунок дня Пасхи та інших важливих дат, що створює проблеми як у релігійному, так і в побутовому плані. У зв'язку з цим радники пропонують доручити нашим найкращим математикам і астрономам вирішити цю проблему і виправити помилки, що накопичились."
+ },
+ "flavor_pap.28.entry": {
+  "en": "$flavor_pap.28.title$",
+  "uk": ""
+ },
+ "flavor_pap.28.historical_info": {
+  "en": "The Julian Calendar, introduced by Julius Caesar, was designed to align the Roman calendar with the solar year. However, it had a significant flaw: it overestimated the length of the year. Over centuries, this small error accumulated, causing the calendar to drift from the actual solar year, and this misalignment affected the timing of important events, particularly the celebration of Easter, which was traditionally tied to the spring equinox.",
+  "uk": "Юліанський календар, введений в обіг за Юлія Цезаря, приводив римський календар у відповідність з тропічним роком. Проте у нього був серйозний недолік — завищена тривалість року. Невелика різниця накопичувалась протягом багатьох століть, і календар все більше відхилявся від справжнього сонячного року. Ця невідповідність зсувала дати важливих подій — зокрема, Пасхи, святкування якої традиційно прив'язане до весняного рівнодення."
+ },
+ "flavor_pap.28.title": {
+  "en": "Errors of the Julian Calendar",
+  "uk": "Помилки юліанського календаря"
+ },
+ "flavor_pap.29.a": {
+  "en": "A monumental success!",
+  "uk": "Грандіозний успіх!"
+ },
+ "flavor_pap.29.desc": {
+  "en": "After much effort and collaboration among the [GetUniqueInternationalOrganization('catholic_church').GetName]'s greatest minds, we have achieved a breakthrough in calendar reform. [target_ruler.GetName] has issued the papal bull #italic Inter Gravissimas#!, announcing the creation of a new calendar to replace the flawed Julian system. This new calendar corrects the seasonal drift and accurately predicts dates such as Easter. It will be immediately adopted, realigning our sacred celebrations and daily life with the natural solar year.",
+  "uk": "Завдяки ретельній роботі найкращих розумів #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#! нам нарешті вдалось підготувати реформу календаря. Внаслідок цього [target_ruler.GetName] видав папську буллу #italic Inter Gravissimas#!, в якій оголосив про заміну застарілої юліанської системи на новий календар, який виправляє зміщення дат і дозволяє безпомилково розраховувати день Пасхи та інших свят. Ця система точніше відповідає природному сонячному року, тому нам слід негайно почати її впровадження."
+ },
+ "flavor_pap.29.entry": {
+  "en": "$flavor_pap.29.title$",
+  "uk": ""
+ },
+ "flavor_pap.29.historical_info": {
+  "en": "Pope Gregory XIII introduced the Gregorian Calendar in 1582, which managed to resolve issues caused by the misaligned Julian Calendar. It eliminated all extra days that had accumulated over the centuries and implemented a more accurate leap year system that would prevent this error from happening again.",
+  "uk": "У 1582 році папа Григорій XIII ввів в обіг григоріанський календар, щоб виправити недоліки юліанського. Новий календар позбувся зайвих днів, накопичених за кілька століть, а точніша система високосних років виключала появу помилки, властивої юліанському календарю."
+ },
+ "flavor_pap.29.title": {
+  "en": "Inter Gravissimas – The New Calendar",
+  "uk": "Inter Gravissimas — новий календар"
+ },
+ "flavor_pap.30.a": {
+  "en": "Support its drafting.",
+  "uk": "Підтримаємо проект указу."
+ },
+ "flavor_pap.30.b": {
+  "en": "The Church is well as it is; no changes are necessary.",
+  "uk": "Залишимо все як є — церква не потребує змін."
+ },
+ "flavor_pap.30.desc": {
+  "en": "In recent years, many within the [GetUniqueInternationalOrganization('catholic_church').GetName] have raised concerns about issues of discipline, education, and clerical integrity. There is a growing call to draft a comprehensive document that would address these longstanding issues. Such a decree would enforce stricter standards for clerical conduct, improve the education of priests, and ensure discipline across all levels of the Church.",
+  "uk": "Останніми роками багато представників #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#! почали висловлювати свою стурбованість щодо занепаду дисципліни, освіти і моральної чистоти священників. Люди все частіше закликають розробити новий звід законів, який допоміг би вирішити ці проблеми. Подібний документ дозволить нам встановити більш суворі правила поведінки духовенства, а також підвищити рівень освіти і дисципліни серед священнослужителів усіх рівнів."
+ },
+ "flavor_pap.30.entry": {
+  "en": "$flavor_pap.30.title$",
+  "uk": ""
+ },
+ "flavor_pap.30.historical_info": {
+  "en": "#italic The Constitutiones Sanctæ Matris Ecclesiæ#!, also known as the Egidian Constitutions, were a set of laws promulgated by Cardinal Albornoz in 1357. These laws formed the first historic constitution of the Papal States, and were designed to centralize and reform the administration of the Papal States, which had been fragmented and plagued by corruption.",
+  "uk": "#italic The Constitutiones Sanctæ Matris Ecclesiæ#!, або Егідієві конституції, — звід законів, виданий кардиналом Альборносом 1357 року. Метою цих законів, що утворили першу конституцію Папської області, була централізація і реформа управління папськими провінціями, які на той час були роз'єднані і погрузли в корупції."
+ },
+ "flavor_pap.30.title": {
+  "en": "Constitutiones Sanctæ Matris Ecclesiæ",
+  "uk": ""
+ },
+ "flavor_pap.31.a": {
+  "en": "Invite [pap_raphael.GetLastNameWithNoTooltip] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Запросити його до двору."
+ },
+ "flavor_pap.31.a.entry": {
+  "en": "Invite Sanzio da Urbino to our court.",
+  "uk": ""
+ },
+ "flavor_pap.31.b": {
+  "en": "We cannot afford the luxury of an artist at this time.",
+  "uk": "Послуги такого видатного творця нам зараз не по кишені."
+ },
+ "flavor_pap.31.desc": {
+  "en": "[pap_raphael.GetName], a celebrated [ShowInstitutionName('renaissance')] painter and architect, has recently caught the attention of our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Known for [pap_raphael.GetHisHer] exquisite compositions and mastery of perspective, [pap_raphael.GetLastNameWithNoTooltip]'s works have earned [pap_raphael.GetHimHer] acclaim across Italy and beyond. Hiring [pap_raphael.GetHimHer] would surely enhance the cultural prestige of the Church and also attract admiration from scholars and artists alike. Many advisors recommend that we formally invite [pap_raphael.GetLastNameWithNoTooltip] to serve as an artistic consultant to elevate the grandeur of our projects and reinforce the [ROOT.GetCountry.GetAdjective] legacy in art and architecture.",
+  "uk": "[pap_raphael.GetName], іменитий художник і архітектор епохи #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!, нещодавно привернув увагу нашого двору. Відомий своїми складними композиціями і майстерним використанням перспективи, [pap_raphael.GetLastNameWithNoTooltip] здобув славу по всій Італії і навіть за її межами. Взявши його до себе на службу, ми, безсумнівно, підвищимо престиж церкви і завоюємо повагу художників та інших діячів культури. Радники пропонують призначити його на посаду помічника з художніх питань, щоб він керував створенням творів мистецтва і допомагав увічнювати нашу культурну спадщину."
+ },
+ "flavor_pap.31.entry": {
+  "en": "Raffaello Sanzio da Urbino",
+  "uk": ""
+ },
+ "flavor_pap.31.historical_info": {
+  "en": "Raffaello Sanzio da Urbino was a master painter and architect of the Italian High Renaissance, celebrated for his clarity of form, ease of composition, and visual achievement of the Neoplatonic ideal of human grandeur. In 1508, Raffaello was invited by Pope Julius II to work in the Vatican, where he created some of his most famous works, including the School of Athens and the Sistine Madonna.",
+  "uk": "Раффаелло Санціо да Урбіно — видатний художник і архітектор епохи італійського Відродження. Його праці відрізняє чистота форм, легкість композиції і візуальне втілення неоплатонічного ідеалу величі людини. У 1508 році за запрошенням папи Юлія II Рафаель почав працювати у Ватикані. Там він створив низку знаменитих шедеврів, у тому числі «Афінську школу» і «Сікстинську мадонну»."
+ },
+ "flavor_pap.31.title": {
+  "en": "[pap_raphael.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.32.a": {
+  "en": "Reinforce orthodox teachings and distance ourselves from humanism.",
+  "uk": "Будемо суворо дотримуватись традиційного вчення і віддалимось від гуманізму."
+ },
+ "flavor_pap.32.b": {
+  "en": "Humanism must remain a part of our teachings!",
+  "uk": "Гуманізм залишиться частиною нашого вчення!"
+ },
+ "flavor_pap.32.desc": {
+  "en": "The recent developments surrounding the Protestant Reformation are rapidly transforming the landscape of the [GetUniqueInternationalOrganization('catholic_church').GetName]. The once-celebrated humanist tendencies, which flourished under [ShowInstitutionName('renaissance')] popes and emphasized reason, classical learning, and the value of individual experience, are increasingly viewed with suspicion.\\n\\nAs the Church slowly shifts toward a more orthodox stance, many see humanism as incompatible with traditional teachings and doctrines. This growing tension raises questions about the future direction of the Church and its relationship with the broader intellectual movements of [ShowContinentName('europe')].",
+  "uk": "Протестантська реформація значно вплинула на настрої всередині #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицької церкви#!#!. В епоху #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#! були популярні гуманістичні цінності, які підкреслювали важливість класичної освіти і особистого досвіду, однак сьогодні на ті ж самі Реформи дивляться швидше з презирством, ніж із захопленням.\\n\\nЗ часом представники церкви змінили свої погляди на більш консервативні, і тепер багато з них вважають, що гуманізм несумісний з традиційними релігійними вченнями. Все це викликає питання про те, яким буде майбутнє церкви і її ставлення до інших інтелектуальних рухів #TOOLTIP:CONTINENT,europe,X #L Європи#!#!."
+ },
+ "flavor_pap.32.entry": {
+  "en": "$flavor_pap.32.title$",
+  "uk": ""
+ },
+ "flavor_pap.32.title": {
+  "en": "Humanism and the Church Teachings",
+  "uk": "Гуманізм і вчення Церкви"
+ },
+ "flavor_pap.33.a": {
+  "en": "Emphasize the spiritual significance of the Jubilee.",
+  "uk": "Підкреслимо духовне значення ювілею."
+ },
+ "flavor_pap.33.b": {
+  "en": "Take advantage of the economic benefits of the pilgrims.",
+  "uk": "Витягнемо економічну вигоду з паломництва."
+ },
+ "flavor_pap.33.desc": {
+  "en": "As the year 1350 dawns, pilgrims from across Christendom flock to [ShowLocationName('rome')] to participate in the grand Jubilee, a sacred celebration offering remission of sins and divine blessings to the faithful. This holy event, proclaimed by [target_ruler.GetName], has drawn thousands seeking spiritual renewal, bringing not only religious devotion, but also prosperity to the Eternal City.",
+  "uk": "З настанням 1350 року [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'проголосила','проголосив')] початок великого ювілею — священного свята, під час якого віруючі можуть отримати відпущення гріхів і прийняти боже благословення. Сподіваючись здобути духовне очищення, тисячі християн з усього світу стікаються до #TOOLTIP:LOCATION,rome_tt,X #L Риму#!#!, чим забезпечують процвітання вічного міста і підвищують його релігійну значимість."
+ },
+ "flavor_pap.33.entry": {
+  "en": "$flavor_pap.33.title$",
+  "uk": ""
+ },
+ "flavor_pap.33.historical_info": {
+  "en": "The Jubilee of 1350 was the second Holy Year in the history of the Catholic Church, following the precedent set by Pope Boniface VIII in 1300. Proclaimed by Pope Clement VI, it attracted vast numbers of pilgrims to Rome, despite the devastating impact of the Black Death sweeping through Europe. Plenary indulgences were granted to those who visited the basilicas of Saint Peter and Saint Paul, which reinforced the spiritual authority of the Papacy. However, the Jubilee also had significant economic consequences, as merchants and local authorities profited from the increased activity in the city.",
+  "uk": "1350 рік став другим Святим роком в історії католицької церкви після Ювілейного року, оголошеного папою Боніфацієм VIII 1300 року. Це свято, проголошене папою Климентом VI, привернуло до Рима безліч паломників, незважаючи на руйнівні наслідки Чорної смерті в Європі. Відвідувачам базилік Святого Петра і Святого Павла відпускали усі гріхи, що зміцнило духовний вплив папської влади. Крім того, Ювілейний рік сприятливо позначився на економіці Рима: зростання міської активності принесло прибуток як купцям, так і місцевій владі."
+ },
+ "flavor_pap.33.title": {
+  "en": "The Jubilee of 1350",
+  "uk": "Ювілейний 1350 рік"
+ },
+ "flavor_pap.34.a": {
+  "en": "Patronize [target_character.GetLastNameWithNoTooltip] and [target_character.GetHisHer] works!",
+  "uk": "Ми окажемо йому своє покровительство."
+ },
+ "flavor_pap.34.a.entry": {
+  "en": "Patronize him and his works!",
+  "uk": ""
+ },
+ "flavor_pap.34.b": {
+  "en": "This poetry is a distraction from faith!",
+  "uk": "Ці вірші відвертають від віри!"
+ },
+ "flavor_pap.34.desc": {
+  "en": "The esteemed poet and scholar [target_character.GetName] has completed a masterful collection of sonnets and poems dedicated to [target_character.GetHisHer] muse, Laura. This work, known as the #italic Canzoniere#!, is a testament to both [target_character.GetHisHer] literary genius and the growing spirit of humanism that seeks to revive classical ideals. [target_character.GetLastNameWithNoTooltip] now turns to the [ROOT.GetCountry.GetGovernment.GetCourtTitle], requesting patronage to ensure the widespread publication of [target_character.GetHisHer] magnum opus.",
+  "uk": "Нещодавно великий поет і гуманіст [target_character.GetName] завершив роботу над своїм збірником сонетів, присвячених його коханій Лаурі. Цей збірник, відомий як #italic «Книга пісень»#!, є не лише відображенням літературного генія поета, а й свідченням зростаючої популярності гуманістичних ідей. Тепер [target_character.GetLastNameWithNoTooltip] звертається до нашого двору з проханням надати йому підтримку у публікації і поширенні цього літературного шедевра."
+ },
+ "flavor_pap.34.entry": {
+  "en": "$flavor_pap.34.title$",
+  "uk": ""
+ },
+ "flavor_pap.34.historical_info": {
+  "en": "Francesco Petrarca, widely known as the Petrarch, was an Italian poet, scholar, and one of the earliest humanists, often being credited with initiating the Italian Renaissance humanism. He is best known for his poetry, particularly the #italic Canzoniere#!, as well as for his efforts in rediscovering and preserving classical Latin texts. Petrarch's fascination with antiquity and his belief in the moral and intellectual superiority of the classical era played a crucial role in shaping Renaissance thought in Italy and beyond.",
+  "uk": "Франческо Петрарка — італійський поет, один з перших гуманістів. Вважається, що саме він поклав початок гуманізму італійського Відродження. Петрарка найбільш відомий своїми поетичними працями, зокрема, #italic «Книгою пісень»#!, а також вивченням і збереженням класичних латинських текстів. Захоплюючись античністю, він був переконаний у моральній та інтелектуальній перевазі класичної епохи. Погляди Петрарки відіграли найважливішу роль у становленні ідеалів Відродження в Італії і за її межами."
+ },
+ "flavor_pap.34.title": {
+  "en": "Publishing the Canzoniere",
+  "uk": "Публікація Книги пісень"
+ },
+ "flavor_pap.35.a": {
+  "en": "Commit to draining them.",
+  "uk": "Болота слід осушити."
+ },
+ "flavor_pap.35.a.tt": {
+  "en": "The applied modifier will negate some of the negative effects of local Wetlands [topography|e]",
+  "uk": "Буде додано модифікатор, який зніме деякі негативні ефекти від болотистого [Concept('topography', 'рельєфу')|e]"
+ },
+ "flavor_pap.35.b": {
+  "en": "The cost and difficulties outweigh the benefits.",
+  "uk": "Складність і витрати не варті того."
+ },
+ "flavor_pap.35.desc": {
+  "en": "For centuries, the vast and disease-ridden Pontine Marshes of [ShowLocationName('velletri')] and [ShowLocationName('terracina')] have posed a significant obstacle to agriculture, trade, and habitation. Several Popes have sought to reclaim the land, yet every attempt has been thwarted by disputes over property rights, political opposition, or the sheer difficulty of the task. Now, with renewed determination, our engineers have proposed a bold plan to finally drain the marshes.",
+  "uk": "Величезні й заразні Понтійські болота в районі #TOOLTIP:LOCATION,velletri_tt,X #L Веллетрі#!#! і #TOOLTIP:LOCATION,terracina_tt,X #L Террачіни#!#! протягом багатьох століть створювали серйозні проблеми для будівництва тут поселень, а також ведення сільського господарства і торгівлі. Деякі папи намагались осушити болота, але це виявлялось для них непосильним завданням, складність якого посилювалась територіальними суперечками і протидією політичних опонентів. Тим не менш ми сповнені рішучості довести їхню справу до кінця, і наші інженери вже придумали, як очистити цю місцевість від боліт."
+ },
+ "flavor_pap.35.entry": {
+  "en": "$flavor_pap.35.title$",
+  "uk": ""
+ },
+ "flavor_pap.35.historical_info": {
+  "en": "The Pontine Marshes were a long-standing challenge for the Popes, as they were notorious for their impassability and the prevalence of malaria. The first recorded efforts to drain them date back to Pope Boniface VIII in 1298, whose canal project inadvertently led to further flooding. Throughout the following centuries, Popes including Eugene IV, Leo X, Martin V, Sixtus V, and Pius VI all attempted reclamation efforts, often encountering resistance from local nobility over property and fishing rights.",
+  "uk": "Непрохідні Понтинські болота, де шаленіла малярія, здавна турбували пап. Згідно з записами, що збереглись, першу спробу осушити їх здійснив папа Боніфацій VIII 1298 року, але невдала система каналів викликала ще більше затоплення. У наступні століття осушити болота намагались багато пап, у тому числі Євгеній IV, Лев X, Мартин V, Сікст V і Пій VI. Ці зусилля нерідко зустрічали опір місцевої аристократії, яка боролась за збереження права власності і рибальства."
+ },
+ "flavor_pap.35.title": {
+  "en": "Draining the Pontine Marshes",
+  "uk": "Осушення Понтинських боліт"
+ },
+ "flavor_pap.36.a": {
+  "en": "Attempt to quietly cover up [target_character.GetHisHer] actions.",
+  "uk": "Спробувати розвіяти чутки про розпусність кардинала."
+ },
+ "flavor_pap.36.b": {
+  "en": "Rebuke [target_character.GetHisHer] corruption publicly and dismiss [target_character.GetHimHer].",
+  "uk": "Публічно засудити його поведінку і відсторонити його від посади."
+ },
+ "flavor_pap.36.desc": {
+  "en": "As of late, Cardinal [target_character.GetName] has been heavily criticized for allegedly using [target_character.GetHisHer] influence to amass immense wealth and gain power. [target_character.GetHisHer|U] control over lucrative offices, aggressive acquisition of land, and patronage of extravagant architectural projects have enriched [target_character.GetHisHer] family at the expense of the treasury. [target_character.GetHisHer|U] indulgent lifestyle and favoritism have drawn criticism from both the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], who see [target_character.GetHisHer] actions as emblematic of corruption within the [GetUniqueInternationalOrganization('catholic_church').GetName].",
+  "uk": "Останнім часом кардинал [target_character.GetName] став піддаватись різкій критиці за те, що він нібито користується своїм становищем з метою особистого збагачення і здобуття влади. Він призначає близьких людей на високі посади, а також масово скуповує землі і фінансує розкішні архітектурні проекти, тим самим примножуючи багатство своєї родини за рахунок скарбниці. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] і [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] обурені таким нахабним кумівством і марнотратним способом життя кардинала. На їхню думку, подібна поведінка говорить про небачений розгул корупції в #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицькій церкві#!#!."
+ },
+ "flavor_pap.36.entry": {
+  "en": "The Greed of Cardinal Borghese",
+  "uk": ""
+ },
+ "flavor_pap.36.historical_info": {
+  "en": "Cardinal Caffarelli-Borghese was one of the most powerful and influential cardinals of his time, serving as the secretary and right-hand man to his uncle, Pope Paul V. Through nepotism, he acquired numerous titles, lands, and lucrative positions, making the Borghese family one of the wealthiest in Rome. He heavily invested in the arts and commissioned the construction of the Villa Borghese, an opulent estate filled with valuable artworks. However, his ruthless pursuit of wealth and power made him a controversial figure.",
+  "uk": "Шіпіоне Каффареллі-Боргезе, один з найвпливовіших кардиналів свого часу, був секретарем і правою рукою свого дядька, папи Павла V. Користуючись родинними зв'язками, Боргезе отримав безліч титулів, земель і прибуткових посад, завдяки чому його сімейство стало одним з найбагатших у Римі. Кардинал не жалів коштів на твори мистецтва. За його замовленням була зведена вілла Боргезе — розкішне помістя, де зберігалась колекція художніх шедеврів. Незважаючи на це, Боргезе заслужив спірну репутацію через безудержне прагнення до багатства і влади."
+ },
+ "flavor_pap.36.title": {
+  "en": "The Greed of Cardinal [target_character.GetLastNameWithNoTooltip]",
+  "uk": "Кардинал [target_character.GetLastNameWithNoTooltip] і його жадібність"
+ },
+ "flavor_pap.37.a": {
+  "en": "Encourage the movement.",
+  "uk": "Підтримаємо рух."
+ },
+ "flavor_pap.37.b": {
+  "en": "Regulate these gatherings to prevent disorder.",
+  "uk": "Будемо стежити за цими зборами, щоб уникнути безладів."
+ },
+ "flavor_pap.37.desc": {
+  "en": "A great wave of religious fervor has spread across [ROOT.GetCountry.GetName] as thousands of penitents traverse the countryside in solemn processions. Known as the #italic Bianchi#! for the white robes they wear, they march barefoot from city to city with their faces covered, chanting prayers and calling for repentance and divine mercy. These self-organized masses, inspired by apocalyptic fears and the turmoil of the time, have gathered immense popular support, but their uncontrolled and spontaneous nature raises concerns, especially among the Church authorities.",
+  "uk": "По #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#! прокотилася хвиля релігійних ходів, в яких взяли участь тисячі християн. Дістали прізвисько #italic б'янкі#! через свої білі одежі, ці люди ходять босоніж з міста до міста, співаючи молитви і каючись у своїх гріхах. Приводом для таких заходів стала загальна паніка, викликана нестабільністю і чутками про майбутній кінець світу. Б'янкі користуються величезною народною підтримкою, однак стихійний характер їхніх ходів викликає стурбованість серед керівництва церкви."
+ },
+ "flavor_pap.37.entry": {
+  "en": "$flavor_pap.37.title$",
+  "uk": ""
+ },
+ "flavor_pap.37.historical_info": {
+  "en": "The Bianchi movement of 1399 was a mass religious phenomenon that swept across central and northern Italy. It was fueled by widespread anxiety over war, plague, and economic hardship. The movement quickly spread to cities such as Rome, Florence, and Bologna, where thousands of penitents walked in long processions, reciting prayers and hymns. While the Bianchi were generally peaceful and motivated by spiritual concerns, their sudden and unregulated processions caused alarm among authorities.",
+  "uk": "Рух б'янкі — масовий релігійний феномен, що охопив центральну і північну Італію 1399 року. Його породило загальне занепокоєння щодо війни, чуми і бідності. Рух швидко поширився по Риму, Флоренції, Болоньї та інших містах. Тисячі людей, що каялись, влаштовували масштабні процесії, співаючи молитви і псалми. Загалом б'янкі були мирною сектою, стурбованою лише духовними питаннями. Однак їхні раптові і стихійні ходи викликали тривогу у влади."
+ },
+ "flavor_pap.37.title": {
+  "en": "The Great Devotion of 1399",
+  "uk": "Велике поклоніння 1399 року"
+ },
+ "flavor_pap.38.a": {
+  "en": "Establish them as the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s guard.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] вже давно потребує особистої охорони."
+ },
+ "flavor_pap.38.a.entry": {
+  "en": "Establish them as his guard.",
+  "uk": ""
+ },
+ "flavor_pap.38.b": {
+  "en": "We will rely on our regular soldiers.",
+  "uk": "Будемо покладатись на регулярні війська."
+ },
+ "flavor_pap.38.desc": {
+  "en": "Recognizing the need for a dedicated and loyal force to protect the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and maintain order within [ROOT.GetCountry.GetName], [target_ruler.GetHeSheFormal] has authorized the recruitment of the [ShowCultureName('corsican')|U] Guard. Composed of hardened warriors from [ShowAreaName('liguria_area')], who are famed for their martial skill and unwavering devotion, their appointment in [ROOT.GetCountry.GetCapital.GetName] will ensure the protection of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and key Church officials.",
+  "uk": "Для підтримання порядку в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! і захисту уряду потрібні вмілі і дисципліновані воїни. Для цих цілей [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(target_ruler.IsFemale,'вирішила','вирішив')] заснувати #L [ShowCultureName('corsican')|l]у#! варту, що складається головним чином з уродженців #TOOLTIP:AREA,liguria_area,X #L Лігурії і Корсики#!#!. Ці загартовані і віддані бійці будуть вірно охороняти нашу столицю і високопоставлених церковних чиновників."
+ },
+ "flavor_pap.38.entry": {
+  "en": "Establishment of the Corsican Guard",
+  "uk": ""
+ },
+ "flavor_pap.38.historical_info": {
+  "en": "The presence of Corsicans in the Papal States is attested since the 9th century. Their numbers grew larger after the end of the Avignon Papacy, since Rome became the new center of the country with many new job opportunities which attracted immigration. Out of these immigrants, the Corsican Guard was established in 1603 by Pope Clement VIII to primarily to serve as the papal bodyguard and as a policing force in Rome.",
+  "uk": "Перші записи, що вказують на присутність корсиканців у Папській області, датуються IX століттям. Число вихідців з Корсики зросло, коли завершилось Авіньйонське полонення пап: Рим став новим центром держави, і нові робочі місця викликали приплив людей. У 1603 році папа Климент VIII заснував корсиканську варту, що складалася з цих переселенців. Переважно вони виконували обов'язки папських тілоохоронців, а також забезпечували охорону порядку в Римі."
+ },
+ "flavor_pap.38.title": {
+  "en": "Establishment of the [ShowCultureNameWithNoTooltip('corsican')|U] Guard",
+  "uk": "Заснування корсиканської варти"
+ },
+ "flavor_pap.39.a": {
+  "en": "Disband the unit.",
+  "uk": "Розпустимо загін."
+ },
+ "flavor_pap.39.a.tt": {
+  "en": "All [pops|e] in [ROOT.GetCountry.GetCapital.GetName] gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Всі [Concept('pops','групи населення')|e] в місті [ROOT.GetCountry.GetCapital.GetName] отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] до [Concept('pop_satisfaction','вдоволення')|e]"
+ },
+ "flavor_pap.39.b": {
+  "en": "Ignore the problem and hope it resolves itself.",
+  "uk": "Будемо сподіватись, що проблема вирішиться сама собою."
+ },
+ "flavor_pap.39.b.tt": {
+  "en": "All [pops|e] in [ROOT.GetCountry.GetCapital.GetName] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Всі [Concept('pops','групи населення')|e] в місті [ROOT.GetCountry.GetCapital.GetName] втратять [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]"
+ },
+ "flavor_pap.39.desc": {
+  "en": "Our elite protective force has become a source of constant unrest within [ROOT.GetCountry.GetCapital.GetName]. The members of the [ShowCultureName('corsican')|U] Guard have increasingly engaged in violent brawls — not only among themselves but also with other military units and even civilians. Reports of street duels, deadly feuds, and unchecked aggression have become commonplace, turning parts of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] into battlegrounds. Citizens live in fear, and even Church officials hesitate to walk the streets at night. Many now argue that these men have outlived their usefulness.",
+  "uk": "Останнім часом наша елітна охорона надто часто влаштовує безлади. Члени #L [ShowCultureName('corsican')|l]ої#! варти регулярно провокують конфлікти не лише між собою, а й з іншими солдатами і навіть мирними мешканцями. Смертельні дуелі і бійки вже стали звичайним явищем на столичних вулицях, тому городяни живуть у постійному страху, і навіть церковні чиновники намагаються не виходити з дому вночі. Люди скаржаться, що корсиканці приносять набагато більше проблем, ніж користі."
+ },
+ "flavor_pap.39.entry": {
+  "en": "The Corsican Guard's Uncontrollable Behavior",
+  "uk": ""
+ },
+ "flavor_pap.39.historical_info": {
+  "en": "By the mid-17th century, the Corsican Guard had become infamous for their uncontrollable behavior. Their strong sense of pride and loyalty led to frequent disputes, often escalating into violent brawls with other factions in Rome. One of the most infamous incidents occurred in 1662, when a Corsican Guard skirmish with the French ambassador's escort led to an international scandal. The resulting diplomatic outrage, combined with their continued reckless behavior, forced Pope Alexander VII to dissolve the Corsican Guard in 1662.",
+  "uk": "До середини XVII століття корсиканська варта здобула погану славу через нестримну поведінку. Загострене сприйняття честі і вірності нерідко призводило до сутичок з іншими групами в Римі. Один з найвідоміших зіткнень стався 1662 року: корсиканська варта вступила в бійку зі свитою французького посла, що викликало міжнародний скандал і дипломатичну кризу. Нерозсудливість корсиканської варти перейшла всі межі, і 1662 року папа Олександр VII розформував її."
+ },
+ "flavor_pap.39.title": {
+  "en": "The [ShowCultureNameWithNoTooltip('corsican')|U] Guard's Uncontrollable Behavior",
+  "uk": "Беззаконня корсиканської варти"
+ },
+ "flavor_pap.4.a": {
+  "en": "The [ROOT.GetCountry.GetNameWithNoTooltip] will survive.",
+  "uk": "[ROOT.GetCountry.GetNameWithNoTooltip] це переживе."
+ },
+ "flavor_pap.4.a.entry": {
+  "en": "We will survive.",
+  "uk": ""
+ },
+ "flavor_pap.4.desc": {
+  "en": "White smoke emerges from the roof of the Sistine Chapel. Amid accusations of simony, the Conclave has elected [borgia_pope_scope.GetName], Archbishop of [ShowLocationName('valencia')], to the Throne of Saint Peter. The [borgia_pope_scope.GetLastNameWithNoTooltip]s are a relatively recent arrival to the theater of Roman politics and have gained the ire of the more established Roman families who coveted the position for themselves. Though many of the rumors surrounding this [borgia_pope_scope.GetLastNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetRulerTitle] are likely to be exaggerations propagated by his enemies, he is known to openly keep a mistress and has already elevated his teenage son [borgia_pope_son_scope.GetName] to the rank of cardinal. Speculation abounds that the reign of this [ROOT.GetCountry.GetGovernment.GetRulerTitle] will be fraught with scandal and corruption.",
+  "uk": "Над Сикстинською капелою піднімається білий дим. Незважаючи на звинувачення у симонії, конклав вирішив, що новим главою Святого Престолу стане архієпископ #TOOLTIP:LOCATION,valencia_tt,X #L Валенсії#!#! [borgia_pope_scope.GetName]. Оскільки [borgia_pope_scope.GetLastNameWithNoTooltip] з'явились на сцені римської політики відносно недавно, багато впливових родин, які претендували на владу, виявились обуреними таким результатом голосування. Вороги нового папи вже активно розпускають про нього погані чутки. Хоча більша їх частина є дурними вигадками, [borgia_pope_scope.GetShortNameWithNoTooltip] справді встиг відзначитись неналежною поведінкою. Зокрема, він завів коханку і призначив кардиналом свого сина на ім'я [borgia_pope_son_scope.GetName], який ледве досяг повноліття. На підставі цього багато хто припускає, що правління нового папи буде сповнене корупції та безлічі скандалів "
+ },
+ "flavor_pap.4.entry": {
+  "en": "The Borgia Pope",
+  "uk": ""
+ },
+ "flavor_pap.4.title": {
+  "en": "The [borgia_pope_scope.GetLastNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] з родини [borgia_pope_scope.GetLastNameWithNoTooltip]"
+ },
+ "flavor_pap.40.a": {
+  "en": "Support the initiative.",
+  "uk": "Підтримаємо цю ідею."
+ },
+ "flavor_pap.40.a.tt": {
+  "en": "#G [ROOT.GetVariable('total_gained_ships_variable').GetValue]#! galley [ships|e] will be mustered in [target_location.GetName]",
+  "uk": "У порту міста [target_location.GetName] з'являться [Concept('ships','галери')|e] в кількості #G [ROOT.GetVariable('total_gained_ships_variable').GetValue]#!"
+ },
+ "flavor_pap.40.b": {
+  "en": "The sea is not our battlefield.",
+  "uk": "Ми не збираємось битись на морі."
+ },
+ "flavor_pap.40.desc": {
+  "en": "The growing naval dominance of our adversaries threatens the security of our coasts and the safety of [ROOT.GetCountry.GetAdjective] lands. With enemy fleets expanding their reach, it has become clear that we must reinforce our naval forces to defend the faith and secure our influence over the Mediterranean. Many important figures are now pushing for a new naval initiative to increase our fleet's size and contribute to the [ShowReligionGroupAdjective('christian')|U] efforts to keep the Mediterranean safe.",
+  "uk": "Наші суперники нарощують свою морську присутність, тим самим загрожуючи безпеці #L [ROOT.GetCountry.GetAdjective|l]их#! земель. У зв'язку з цим багато чиновників пропонують збільшити розмір нашого флоту, щоб ми були готові захистити #L [ShowReligionGroupAdjective('christian')|l]у#! віру і відстояти свій контроль над Середземномор'ям."
+ },
+ "flavor_pap.40.entry": {
+  "en": "$flavor_pap.40.title$",
+  "uk": ""
+ },
+ "flavor_pap.40.historical_info": {
+  "en": "During the 16th and 17th centuries, the Papal Navy underwent a significant expansion due to the rising threat of Ottoman naval supremacy in the Mediterranean. Recognizing the necessity of a strong fleet, Pope Sixtus V decreed the establishment of ten permanent warships to form the core of the Papal Navy. While relatively small in comparison to the fleets of Venice or Spain, Papal navy contributed to the Christendom's efforts and was victorious in numerous naval engagements.",
+  "uk": "У XVI і XVII століттях папський флот значно збільшився через зростаючу загрозу османського морського панування в Середземномор'ї. Усвідомлюючи необхідність у сильному флоті, папа Сікст V розпорядився створити десять постійних військових кораблів, які стали ядром папських військово-морських сил. Порівняно з армадами Венеції або Іспанії папський флот був порівняно невеликий, але все ж підтримував вплив християнства і здобув низку перемог у морських битвах."
+ },
+ "flavor_pap.40.title": {
+  "en": "Strengthening the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Navy",
+  "uk": "Посилення [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого флоту"
+ },
+ "flavor_pap.41.a": {
+  "en": "Give [target_character.GetLastNameWithNoTooltip] the support [target_character.GetSheHe] needs!",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона','Він')] може розраховувати на наше покровительство."
+ },
+ "flavor_pap.41.a.entry": {
+  "en": "Give him the support he needs!",
+  "uk": ""
+ },
+ "flavor_pap.41.b": {
+  "en": "Our funds are needed elsewhere.",
+  "uk": "Ми знайдемо своїм грошам інше застосування."
+ },
+ "flavor_pap.41.desc": {
+  "en": "[target_character.GetName] is a [ShowArtistTypeNameWithNoTooltip('sculptor')] and [ShowArtistTypeNameWithNoTooltip('architect')] of extraordinary talent. [target_character.GetHisHer|U] mastery of Baroque art has already left a lasting mark on [ShowLocationName('rome')], and [target_character.GetHisHer] designs for grand churches, fountains, and palaces have transformed the Eternal City into a true masterpiece. With [target_character.GetHisHer] skills at our disposal, we could further solidify our cultural and artistic dominance by hiring [target_character.GetHimHer] as the official [ROOT.GetCountry.GetAdjective] architect.",
+  "uk": "[target_character.GetName] — надзвичайно талановитий [ShowArtistTypeNameWithNoTooltip('sculptor')|l] і [ShowArtistTypeNameWithNoTooltip('architect')|l]. [Select_CString(target_character.IsFemale,'Її','Його')] грандіозні церкви, палаци і фонтани в стилі бароко перетворили вулиці #TOOLTIP:LOCATION,rome_tt,X #L Рима#!#!, перетворивши вічне місто на один величезний архітектурний шедевр. Майстри [Select_CString(target_character.IsFemale,'її','його')] рівня, безперечно, заслуговують поваги і підтримки з боку держави. Крім того, якщо ми призначимо [Select_CString(target_character.IsFemale,'її','його')] на посаду головного #L [ROOT.GetCountry.GetAdjective|l]ого#! архітектора, це напевно допоможе нам ще більше зміцнити свій культурний вплив."
+ },
+ "flavor_pap.41.entry": {
+  "en": "Patronage of Bernini",
+  "uk": ""
+ },
+ "flavor_pap.41.historical_info": {
+  "en": "Gian Lorenzo Bernini was one of the most influential Baroque artists in Italy. He served multiple Popes, including Urban VIII and Alexander VII, and Papal patronage allowed him to design many of Rome's most famous landmarks, including the colonnades of St. Peter's Square, the Fountain of the Four Rivers, and numerous sculptures within St. Peter's Basilica.",
+  "uk": "Джованні Лоренцо Берніні був одним з найвпливовіших італійських творців епохи бароко. Він служив кільком папам, у тому числі Урбану VIII і Олександру VII. Під покровительством Святого престолу Берніні створив знамениті шедеври, що стали римськими пам'ятками: колонади на площі Святого Петра, фонтан Чотирьох річок і кілька скульптур в базиліці Святого Петра."
+ },
+ "flavor_pap.41.title": {
+  "en": "Patronage of [target_character.GetLastNameWithNoTooltip]",
+  "uk": "[target_character.GetLastNameWithNoTooltip] і питання про [Select_CString(target_character.IsFemale,'її','його')] покровительство"
+ },
+ "flavor_pap.42.a": {
+  "en": "Let [bernini.GetLastNameWithNoTooltip] create his masterpiece!",
+  "uk": "Нехай [bernini.GetLastNameWithNoTooltip] починає роботу над театром!"
+ },
+ "flavor_pap.42.a.entry": {
+  "en": "Let $Bernini$ create his masterpiece!",
+  "uk": ""
+ },
+ "flavor_pap.42.b": {
+  "en": "The stage is no place for our funds.",
+  "uk": "Ми не будемо витрачатись на сценічні вистави."
+ },
+ "flavor_pap.42.desc": {
+  "en": "The enjoyment of attending a [ShowBuildingTypeName('theater')] is expanding rapidly throughout the people of [ShowRegionName('italy_region')], with grand performances captivating audiences in places such as [ShowLocationName('florence')], [ShowLocationName('venice')], and [ShowLocationName('naples')]. To ensure that [ShowLocationName('rome')] remains at the forefront of cultural and artistic development, it has been proposed that we construct a new [ShowBuildingTypeNameWithNoTooltip('theater')] in the [target_location.GetRank.GetName]. Fortunately, we already have [bernini.GetName] at our disposal, and [bernini.GetHisHer] architectural brilliance could make this project a masterpiece of Baroque design. However, some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are concerned that such a [ShowBuildingTypeNameWithNoTooltip('theater')] might encourage unfaithful and decadent art, diverting the faithful from more pious pursuits.",
+  "uk": "Останніми роками #TOOLTIP:REGION,italy_region,X #L Італія#!#! переживає підйом театральної культури, і мешканці таких міст, як [ShowLocationName('florence')], [ShowLocationName('venice')] і [ShowLocationName('naples')] все частіше відвідують #TOOLTIP:BUILDING_TYPE,theater,X #L театри#!#!, щоб поспостерігати за грандіозними виставами. [ShowLocationName('rome')] завжди був одним з головних культурних центрів Європи, і якщо ми хочемо зберегти за ним цей статус, то нам варто побудувати в місті новий театр. На щастя, у нас на службі перебуває видатний архітектор [bernini.GetName], і ми можемо доручити йому будівництво величного театру в стилі бароко. Проте деякі [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] стурбовані тим, що подібний заклад заохочуватиме декадентське мистецтво і відволікатиме віруючих від більш благочестивих занять."
+ },
+ "flavor_pap.42.entry": {
+  "en": "Commissioning the First Theater",
+  "uk": ""
+ },
+ "flavor_pap.42.historical_info": {
+  "en": "The #italic Teatro delle Quattro Fontane#! was a Baroque theater in Rome, designed by Gian Lorenzo Bernini and commissioned by Cardinal Francesco Barberini in the mid-17th century. The theater was part of the larger architectural complex surrounding the Church of #italic San Carlo alle Quattro Fontane#!. It became a center for Baroque theatrical innovation, but was demolished in the early 18th century as a part of Rome's architectural renovation.",
+  "uk": "#italic Театр чотирьох фонтанів#! — барочний театр в Римі, спроектований Джованні Лоренцо Берніні за замовленням кардинала Франческо Барберіні в середині XVII століття. Він був частиною великого архітектурного комплексу навколо церкви #italic Сан-Карло алле Куатро Фонтане#!. Цей театр став центром розвитку барочного сценічного мистецтва, але у XVIII столітті його споруду було знесено під час архітектурної модернізації Рима."
+ },
+ "flavor_pap.42.title": {
+  "en": "Commissioning the First [ShowBuildingTypeNameWithNoTooltip('theater')]",
+  "uk": "Будівництво першого театру"
+ },
+ "flavor_pap.5.a": {
+  "en": "Aut Caesar, aut nihil.",
+  "uk": ""
+ },
+ "flavor_pap.5.desc": {
+  "en": "[caesar_borgia_scope.GetName], son of the [ROOT.GetCountry.GetGovernment.GetRulerTitle], has become the first man ever to resign from the position of cardinal. Seeking instead a career as a military adventurer, he has already proven himself as a capable and ruthless condottiere. The Holy Father has chosen to recognize his ability by granting [caesar_borgia_scope.GetShortNameWithNoTooltip] the role of Captain-General of the Church, giving him control over the [ROOT.GetCountry.GetAdjective] armies.",
+  "uk": "Син папи римського [caesar_borgia_scope.GetName] став першою людиною, яка добровільно відмовилась від своєї посади кардинала. Замість цього він вирішив присвятити себе військовій справі і вже проявив себе як умілий кондотьєр. Щоб винагородити Чезаре за його заслуги, Його Святість пожалував йому посаду капітан-генерала Святої церкви, фактично зробивши його головнокомандувачем #L [ROOT.GetCountry.GetAdjective|l]ої#! армії."
+ },
+ "flavor_pap.5.entry": {
+  "en": "Caesar Borgia",
+  "uk": ""
+ },
+ "flavor_pap.5.title": {
+  "en": "[caesar_borgia_scope.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_pap.6.a": {
+  "en": "Lies and slander!",
+  "uk": "Брехня і наклеп!"
+ },
+ "flavor_pap.6.b": {
+  "en": "We can turn this situation to our advantage.",
+  "uk": "Ми можемо обернути це на свою користь."
+ },
+ "flavor_pap.6.desc": {
+  "en": "A slew of vicious rumors surrounds the deeds of the Borgia family. Accusations abound of murders by Cantarella, supposedly a deadly and difficult-to-detect poison, used to eliminate political rivals. The Holy Father himself is said to routinely engage in simony and corruption, and even more salacious deeds are whispered about the relationship between his children, [caesar_borgia_scope.GetShortName] and [lucrecia_borgia_scope.GetName]. While there appears to be little evidence for these accusations, they are widely believed by [ShowReligionAdjective('catholic')] people far and wide.",
+  "uk": "Навколо членів родини Борджа ходять огидні чутки. Серед іншого їм приписують вбивства політичних опонентів, скоєних за допомогою кантарелли — смертельної отрути, яку вкрай складно виявити. Крім того, Його Святість звинувачують у корупції та продажу церковних посад, а його діти [caesar_borgia_scope.GetShortName] і [lucrecia_borgia_scope.GetName] і взагалі підозрюються у кровозмішувальному зв'язку. Хоча самі звинувачення бездоказові, багато #TOOLTIP:RELIGION,catholic_tt,X #L католиків#!#! по всьому світу охоче вірять у ці гидкі плітки."
+ },
+ "flavor_pap.6.entry": {
+  "en": "$flavor_pap.6.title$",
+  "uk": ""
+ },
+ "flavor_pap.6.title": {
+  "en": "A Scandalized [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Скандальне папство"
+ },
+ "flavor_pap.7.a": {
+  "en": "The Church must repair its reputation.",
+  "uk": "Церква має відновити свою репутацію."
+ },
+ "flavor_pap.7.desc": {
+  "en": "The death of the [GetCharacter('rodrigo_borgia').GetLastNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetRulerTitle] was met with quiet celebration among the patrician families of [ShowLocationName('rome')]. The cardinals have elected one of [GetCharacter('rodrigo_borgia').GetLastNameWithNoTooltip]'s most persistent rivals to replace him. [target_character.GetName] promises to undo the corruption of his predecessor and restore confidence in the sanctity of the Church. [caesar_borgia_scope.GetName] meanwhile has seen his power collapse overnight without [ROOT.GetCountry.GetAdjective] support. Fearful for his life, he has fled to [GetCountry('NAV').GetName] where he hopes to find reprieve from his enemies.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [GetCharacter('rodrigo_borgia').GetLastNameWithNoTooltip] помер, чому вельми раді впливові родини #TOOLTIP:LOCATION,rome_tt,X #L Рима#!#!. Кардинали вирішили, що йому на зміну має прийти один з його найзапекліших противників — [target_character.GetName]. Він обіцяє викоренити корупцію і повернути віру людей у святість католицької церкви. Тим часом [caesar_borgia_scope.GetName], який залишився без #L [ROOT.GetCountry.GetAdjective|l]ої#! підтримки, в одну мить втратив усю свою владу і втік до #ONCLICK:COUNTRY,[GetCountry('NAV').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('NAV').Custom('CL_tt')],X [GetCountry('NAV').Custom('CL_ACC')|L]#!#! в надії уникнути розправи з боку своїх ворогів."
+ },
+ "flavor_pap.7.entry": {
+  "en": "The End of the Rodrigo Borgia $PAP$",
+  "uk": ""
+ },
+ "flavor_pap.7.title": {
+  "en": "The End of the [GetCharacter('rodrigo_borgia').GetLastNameWithNoTooltip] [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Кінець папства Борджа"
+ },
+ "flavor_pap.8.a": {
+  "en": "Witchcraft is clearly a sign of heresy.",
+  "uk": "Чаклунство — явна ознака єресі."
+ },
+ "flavor_pap.8.b": {
+  "en": "Nonsense, witches do not exist!",
+  "uk": "Що за дурниці, ніяких відьом не існує!"
+ },
+ "flavor_pap.8.desc": {
+  "en": "[target_character.GetName] is a well known figure inside the [GetInternationalOrganization('catholic_church').GetName]. [target_character.GetSheHe|U] is a zealous advocate for the existence of witches and their evil influences on the poor [ShowReligionAdjective('catholic')] souls. [target_character.GetHerHis|U] zealousness is only met by the controversial reaction [target_character.GetSheHe] sparks in other members of our [GetInternationalOrganization('catholic_church').GetNameWithNoTooltip]. Multiple bishops denied [target_character.GetNameWithNoTooltip] the rights to judge over alleged witches on the ground of being in breach with [ShowReligionAdjectiveWithNoTooltip('catholic')] doctrine.\\n\\nIn order to not let the conflict escalate into a widespread rift of the [GetInternationalOrganization('catholic_church').GetNameWithNoTooltip], we should make our stance clear on witchcraft and heresy.",
+  "uk": "[target_character.GetName] — вельми одіозна і скандальна фігура в #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_tt,X #L католицькій церкві#!#!. [Select_CString(target_character.IsFemale,'Вона переконана','Він переконаний')] в існуванні відьом, які проводять свої зловісні ритуали і гублять душі невинних #TOOLTIP:RELIGION,catholic_tt,X #L католиків#!#!, однак багато представників духовенства категорично відкидають [Select_CString(target_character.IsFemale,'її','його')] ідеї. Відразу кілька єпископів виступили із заявою, що [target_character.GetNameWithNoTooltip] не має права засуджувати людей у чаклунстві, оскільки церква заперечує його існування.\\n\\nНам слід чітко позначити свою позицію щодо єресі та чорної магії, щоб уникнути розколу серед католицьких священників."
+ },
+ "flavor_pap.8.entry": {
+  "en": "$flavor_pap.8.title$",
+  "uk": ""
+ },
+ "flavor_pap.8.historical_info": {
+  "en": "Heinrich Kramer was a Dominican monk, which activities had a large impact on the treatment of witchcraft and the beginning of witch trials in central europe. After taking part in a witch trial in Ravensburg in 1482, he drafted the text of what would later become the papal bull #italic Summis desiderantes affectibus#!. Kramer, remaining a controversial figure, was expelled from Innsbruck after the persecution of a local woman ended in an acquittal. During his travel to Cologne he began drafting of the #italic Malleus Maleficarum#!, the Hammer of the Witches, giving him further authority in the persecution of alleged witches in the lands of the Holy Roman Empire.",
+  "uk": "Діяльність ченця-домініканця Генріха Крамера сильно вплинула на ставлення до чаклунства і поклала початок переслідування відьом у Центральній Європі. Взявши участь у відьомському процесі 1482 року, він написав текст, який пізніше став папською буллою #italic Summis desiderantes affectibus#!. Будучи неоднозначною особистістю, Крамер був вигнаний з Інсбрука, коли обвинувачену ним місцеву мешканку було вирішено виправдати. Під час поїздки до Кельна Крамер почав писати трактат #italic Malleus Maleficarum#! — «Молот відьом». Ця праця зміцнила його вплив при переслідуванні відьом в землях Священної Римської Імперії."
+ },
+ "flavor_pap.8.title": {
+  "en": "Rumors of Witchcraft",
+  "uk": "Чутки про чаклунство"
+ },
+ "flavor_pap.9.a": {
+  "en": "It is our duty...",
+  "uk": "Це наш обов'язок..."
+ },
+ "flavor_pap.9.b": {
+  "en": "We cannot afford this.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_pap.9.desc": {
+  "en": "Our faith and fervor are a measure of our nation's foundations. In an effort to legitimize ourselves as proud adherents to the [ShowReligionAdjective('catholic')] faith, we have elected to take up funding the [ShowEstatePrivilegeName('apostolic_tax_privilege')]. Now, the time has come for us to fulfill our financial responsibilities and pay our due. ",
+  "uk": "В основі нашої держави лежить віра і неухильне виконання наших обов'язків перед церквою. Щоб довести свою прихильність до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!, ми погодились періодично виплачувати папству #TOOLTIP:ESTATE_PRIVILEGE,apostolic_tax_privilege,X #L апостольський податок#!#!, і тепер прийшов час виконати нашу обіцянку."
+ },
+ "flavor_pap.9.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] Calls for an Apostolic Tax",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] збирає апостольський податок"
+ },
+ "flavor_pap.9000.a": {
+  "en": "We will never support such a state",
+  "uk": "Ми ні за що не підтримаємо подібне"
+ },
+ "flavor_pap.9000.b": {
+  "en": "Rome is rightfully theirs",
+  "uk": "Рим по праву належить їм"
+ },
+ "flavor_pap.9000.desc": {
+  "en": "The deep devotion of the Roman Catholics in Rome has awakened a desire for an independent state ruled by Popes of the Church. A large part of the population has expressed support for the idea of such an establishment and has now turned to [ROOT.GetCountry.GetGovernment.GetRuler.GetName] for approval.",
+  "uk": "Керовані релігійним завзяттям, римські католики виступили з пропозицією створити незалежну державу під управлінням папи. Значна частина населення підтримала цю ідею, але остаточне рішення має прийняти [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
+ },
+ "flavor_pap.9000.title": {
+  "en": "Papal State",
+  "uk": "Папська область"
+ },
+ "flavor_pap.9001.a": {
+  "en": "For the Glory of God!",
+  "uk": "На славу Господню!"
+ },
+ "flavor_pap.9001.b": {
+  "en": "Perhaps not.",
+  "uk": "Ну вже ні."
+ },
+ "flavor_pap.9001.desc": {
+  "en": "It truly saddens us to see that the dominions of the Pope have all but disappeared. Our strong devotion makes us the ideal candidate responsible for establishing a new Papal State. Perhaps we should cede a province of ours?",
+  "uk": "Від володінь Папи майже нічого не залишилося — воістину сумне видовище. Наша глибока відданість — ідеальний ґрунт для нової Папської області. Можливо, варто поступитися своєю провінцією?"
+ },
+ "flavor_pap.9001.title": {
+  "en": "The Papal State",
+  "uk": "Папська область"
+ },
+ "flavor_pap.9002.a": {
+  "en": "This is a sound proposal.",
+  "uk": ""
+ },
+ "flavor_pap.9002.b": {
+  "en": "Fancy hat or not, the [GetCountry('PAP').GetGovernment.GetRulerTitle] will not have the [target_location.GetRank.GetNameWithNoTooltip]!",
+  "uk": ""
+ },
+ "flavor_pap.9002.b.entry": {
+  "en": "Fancy hat or not, he will not have the city!",
+  "uk": ""
+ },
+ "flavor_pap.9002.desc": {
+  "en": "Despite our best efforts to mask our expansiosm in [ShowRegionName('italy_region')] with the help of our diplomacy, it appears the [ShowReligionAdjective('catholic')] has unanimously condemned our annexation of [target_location.GetName]. Representatives from every corner of the continent have brought forth their demands to relinquish the [target_location.GetRank.GetNameWithNoTooltip] back to the [GetCountry('PAP').GetGovernment.GetRulerTitle]!",
+  "uk": ""
+ },
+ "flavor_pap.9002.title": {
+  "en": "The Annexation of [ShowLocationNameWithNoTooltip('rome')]",
+  "uk": ""
+ },
+ "flavor_pap.9003.a": {
+  "en": "The infidels will know the wrath of Christendom.",
+  "uk": ""
+ },
+ "flavor_pap.9003.desc": {
+  "en": "The Eternal City has fallen into the hands of those outside the Christian faith. News of [ShowLocationNameWithNoTooltip('rome')]'s conquest has sent shockwaves across Christendom. The [GetInternationalOrganization('catholic_church').GetName] mourns the loss of its most sacred city, and the faithful demand action. The [ShowReligionAdjective('catholic')] world will not forget this transgression.",
+  "uk": ""
+ },
+ "flavor_pap.9003.title": {
+  "en": "Rome Falls to the Infidel",
+  "uk": ""
+ },
+ "gain_50_opinion_with_every_christian_in_range_tt": {
+  "en": "Every known [ShowReligionGroupAdjective('christian')] [country|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_embraced_the_true_faith')|+=0] [opinion|e] of us.",
+  "uk": "[Concept('opinion','Думка')|e] про нас кожної #L [ShowReligionGroupAdjective('christian')|l]ої#! [Concept('country','держави')|e] в межах нашої [Concept('diplomatic_range','дипломатичної відстані')|e] зміниться на [ShowBiasValue('opinion_tur_embraced_the_true_faith')|+=0] од."
+ },
+ "opinion_refused_to_pay_apostolic_tax": {
+  "en": "Refused to Pay the Apostolic Tax",
+  "uk": "Відмовляється платити апостольський податок"
+ },
+ "sistine_chapel_is_not_realized_tt": {
+  "en": "#italic The Sistine Chapel will not be realized and come to be, saving us some [gold|e]#!",
+  "uk": ""
+ },
+ "suffer_100_opinion_with_every_muslim_in_range_tt": {
+  "en": "Every known [ShowReligionGroupAdjective('muslim')] [country|e] in our [diplomatic_range|e] will get [ShowBiasValue('opinion_tur_betrayed_the_true_faith')|-=0] [opinion|e] of us.",
+  "uk": "[Concept('opinion','Думка')|e] про нас кожної #L [ShowReligionGroupAdjective('muslim')|l]ої#! [Concept('country','держави')|e] в межах нашої [Concept('diplomatic_range','дипломатичної відстані')|e] зміниться на [ShowBiasValue('opinion_tur_betrayed_the_true_faith')|-=0] од."
+ },
+ "variable_pap_can_rebuild_lateran_tt": {
+  "en": "The Lateran Palace may be Rebuilt",
+  "uk": ""
+ },
+ "variable_pap_reformed_calendar_tt": {
+  "en": "The Calendar has been Reformed",
+  "uk": ""
+ }
+}

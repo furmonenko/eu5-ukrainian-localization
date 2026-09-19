@@ -1,0 +1,134 @@
+{
+ "SET_CORULER_TT": {
+  "en": "[THIS.GetCharacter.GetName] becomes #Y Co-Ruler#!.\\nThe Co-Ruler has additional #G +200#! score points in order to be elected as the next ruler.",
+  "uk": "[THIS.GetCharacter.GetName] стає #Y співправителем#!.\\nСпівправитель отримує #G +200#! додаткових очок при обранні наступним правителем."
+ },
+ "election.1.a": {
+  "en": "Elect [candidate_a.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_a.GetNameWithNoTooltip] — [Select_CString(candidate_a.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.1.b": {
+  "en": "Elect [candidate_b.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_b.GetNameWithNoTooltip] — [Select_CString(candidate_b.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.1.c": {
+  "en": "Elect [candidate_c.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_c.GetNameWithNoTooltip] — [Select_CString(candidate_c.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.1.d": {
+  "en": "Elect [candidate_d.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_d.GetNameWithNoTooltip] — [Select_CString(candidate_d.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.1.desc": {
+  "en": "The term of our previous head of state has come to an end. As such, it is time for a renewed electoral process across our realm. The vote is but the crowning jewel on the head of our illustrious [ROOT.GetCountry.GetFlavorRank] as we take great pride in the procedures entailed within our bureaucratic domain, one of which is the appointment of a leader based on meritocracy and procedural transparency.",
+  "uk": "Термін правління попереднього глави держави добіг кінця, а отже, в державі настав час нових виборів. Влада [ROOT.GetCountry.Custom('rank_ru_GEN')|l] вважає голосування вінцем своєї блискучої величі. Ми пишаємося правилами, прийнятими в нашій системі управління. Одне з цих правил — прозора процедура призначення керівника на основі особистих заслуг."
+ },
+ "election.1.desc.junior": {
+  "en": "The term of our previous head of state has come to an end. As a minor [ShowSpecialStatusName('junior_partner')] of the [ROOT.GetCountry.GetDiplomacy.GetUnion.GetName], the choice of our new ruler is out of our hands though...",
+  "uk": ""
+ },
+ "election.1.e": {
+  "en": "Elect [candidate_e.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_e.GetNameWithNoTooltip] — [Select_CString(candidate_e.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.1.f": {
+  "en": "Let us hope they make the good choice...",
+  "uk": ""
+ },
+ "election.1.title": {
+  "en": "Election in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Вибори на території [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "election.2.a": {
+  "en": "The lottery picked [candidate_a.GetNameWithNoTooltip] as [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[candidate_a.GetNameWithNoTooltip] — [Select_CString(candidate_a.IsFemale,'нова', 'новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], [Select_CString(candidate_a.IsFemale,'обрана', 'обраний')] випадковим чином"
+ },
+ "election.2.desc": {
+  "en": "The unfortunate passing of our [ROOT.GetCountry.GetGovernment.GetRulerTitle] forces us to hold an election. However, elections by majority votes are prone to corruption or worse, populism. After several rounds of secret allotment, we have now determined who should lead the [ROOT.GetCountry.GetLongName] by selecting almost at random.",
+  "uk": "[ROOT.GetCountry.GetLongName] без правителя. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.IsFemale,'померла', 'помер')], і нам потрібно проводити вибори. Обрання більшістю голосів залишає простір для корупції або, що ще гірше, для популізму. Після багатоетапного таємного відбору кандидатів ми вирішили, хто буде нами правити. Вибори відбувалися практично випадковим чином."
+ },
+ "election.2.title": {
+  "en": "Lottery Election in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Випадковий вибір на території [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "election.3.desc": {
+  "en": "The previous [ROOT.GetCountry.GetGovernment.GetRulerTitle] is no longer eligible to rule over [ROOT.GetCountry.GetName]. As such, potential candidates have been suggested to fill the power vacuum. One of those shall represent the [ROOT.GetCountry.GetFlavorRank]. The question is: who will it be?",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Попередня', 'Попередній')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] більше не має права керувати #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!. Нам потрібно обрати кандидата, інакше на [ROOT.GetCountry.Custom('rank_ru_ACC')|l] чекає хаос безвладдя. Залишилося вирішити, хто це буде?"
+ },
+ "election.3.title": {
+  "en": "Election of the Capitano del Popolo",
+  "uk": "Вибори капітана народу"
+ },
+ "election.4.a": {
+  "en": "Elect [candidate_a.GetNameWithNoTooltip] as the co-ruler",
+  "uk": "[candidate_a.GetNameWithNoTooltip] буде [Select_CString(candidate_a.IsFemale,'обрана', 'обраний')] співправителем"
+ },
+ "election.4.b": {
+  "en": "Elect [candidate_b.GetNameWithNoTooltip] as the co-ruler",
+  "uk": "[candidate_b.GetNameWithNoTooltip] буде [Select_CString(candidate_b.IsFemale,'обрана', 'обраний')] співправителем"
+ },
+ "election.4.c": {
+  "en": "Elect [candidate_c.GetNameWithNoTooltip] as the co-ruler",
+  "uk": "[candidate_c.GetNameWithNoTooltip] буде [Select_CString(candidate_c.IsFemale,'обрана', 'обраний')] співправителем"
+ },
+ "election.4.d": {
+  "en": "Elect [candidate_d.GetNameWithNoTooltip] as the co-ruler",
+  "uk": "[candidate_d.GetNameWithNoTooltip] буде [Select_CString(candidate_d.IsFemale,'обрана', 'обраний')] співправителем"
+ },
+ "election.4.desc": {
+  "en": "The primary Capitano del Popolo has been elected. However, our state is in need of somebody who supervises our [ROOT.GetCountry.GetGovernment.GetRulerTitle]. The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have gathered to discuss that matter...",
+  "uk": "Ми обрали основного капітана народу. Але нашій державі [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'потрібна', 'потрібен')] не лише [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], а й людина, яка буде [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] контролювати. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] зібралися, щоб обговорити це питання…"
+ },
+ "election.4.e": {
+  "en": "Elect [candidate_e.GetNameWithNoTooltip] as the co-ruler",
+  "uk": "[candidate_e.GetNameWithNoTooltip] буде [Select_CString(candidate_e.IsFemale,'обрана', 'обраний')] співправителем"
+ },
+ "election.4.title": {
+  "en": "The Co-Ruler of the Capitano del Popolo",
+  "uk": "Співправитель капітана народу"
+ },
+ "election.5.a": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] is dead! Long live the [ROOT.GetCountry.GetGovernment.GetRulerTitle]!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'померла', 'помер')] — хай живе [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
+ },
+ "election.5.desc": {
+  "en": "With the death of our previous [ROOT.GetCountry.GetGovernment.GetRulerTitle], it was time for the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to gather and vote for a new [ROOT.GetCountry.GetGovernment.GetRulerTitle] to rule over [ROOT.GetCountry.GetName].\\n\\nAfter a few days of discussions, the electors have made their decision: [candidate_a.GetName] shall become the new [ROOT.GetCountry.GetGovernment.GetRulerTitle] of the [ROOT.GetCountry.GetLongNameWithNoTooltip].",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Наша попередня', 'Наш попередній')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'померла', 'помер')], і тепер нам потрібен новий [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] голосують за того, хто буде керувати #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_TP')|L]#!#!.\\n\\nЧерез кілька днів виборці, а відтак і [ROOT.GetCountry.GetLongNameWithNoTooltip], нарешті ухвалили рішення: [candidate_a.GetName] — [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'наступна', 'наступний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+ },
+ "election.5.title": {
+  "en": "Election of a New [ROOT.GetCountry.GetGovernment.GetRulerTitle]",
+  "uk": "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Нова', 'Новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]: вибори"
+ },
+ "election.6.a": {
+  "en": "Elect [candidate_a.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_a.GetNameWithNoTooltip] — [Select_CString(candidate_a.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.6.b": {
+  "en": "Elect [candidate_b.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_b.GetNameWithNoTooltip] — [Select_CString(candidate_b.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.6.c": {
+  "en": "Elect [candidate_c.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_c.GetNameWithNoTooltip] — [Select_CString(candidate_c.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.6.d": {
+  "en": "Elect [candidate_d.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_d.GetNameWithNoTooltip] — [Select_CString(candidate_d.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.6.desc.a": {
+  "en": "With the death of [old_ruler.GetName], the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has gathered in [capital_scope.GetName] to choose a new [ROOT.GetCountry.GetGovernment.GetRulerTitle] to rule over [ROOT.GetCountry.GetName].\\n\\nAfter a few days of discussions, the electors have made their decision.",
+  "uk": "Після того як [Select_CString(old_ruler.IsFemale, 'померла', 'помер' )] [old_ruler.GetName], до міста [capital_scope.GetName] почали прибувати [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]: їм належить вирішити, хто носитиме титул «[ROOT.GetCountry.GetGovernment.GetRulerTitle|l]» і правитиме #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_TP')|L]#!#!.\\n\\nЗа кілька днів рішення нарешті ухвалено."
+ },
+ "election.6.desc.b": {
+  "en": "With the death of [old_ruler.GetName], the [old_ruler.GetDynasty.GetName] dynasty has reached its end.\\n\\nIt is now time for the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to find a new family that can guide [ROOT.GetCountry.GetName] to the future.\\n\\nAfter a few days of discussions, the electors have made their decision.",
+  "uk": "Після того як [Select_CString(old_ruler.IsFemale, 'померла', 'помер' )] [old_ruler.GetName], династія [old_ruler.GetDynasty.GetName] перервалася.\\n\\nТепер [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] визначатимуть, яка саме родина правитиме #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_TP')|L]#!#! надалі.\\n\\nЗа кілька днів рішення нарешті ухвалено."
+ },
+ "election.6.e": {
+  "en": "Elect [candidate_e.GetNameWithNoTooltip] as Ruler.",
+  "uk": "[candidate_e.GetNameWithNoTooltip] — [Select_CString(candidate_e.IsFemale,'нова обрана', 'новий обраний')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]"
+ },
+ "election.6.title": {
+  "en": "Dynastic Election in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Династичні вибори в [ROOT.GetCountry.Custom('CL_PREP')]"
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "because_we_opted_inwards_tt": {
+  "en": "Because we opted for '#italic Look inwards, we must develop our stronghold.#!' in the '#Y Aftermath of the Crusade Era#!' event, this option has been amplified",
+  "uk": "Обравши підтримку#italic закритості#!, ми маємо розвивати свій оплот у події #Y «Наслідки епохи хрестових походів»#! та посилити цей варіант"
+ },
+ "forming_koj_easier_tt": {
+  "en": "Forming the Kingdom of Jerusalem will increase our [stability|e], [government_power|e] and grant us the [ShowModifier('jerusalem_resurgent_modifier')] for #Y 20#! years",
+  "uk": "Створивши Єрусалимське королівство, ми зміцнимо [Concept('stability', 'стабільність')|e] і [Concept('government_power', 'владу уряду')|e], а також отримаємо модифікатор «#TOOLTIP:STATIC_MODIFIER,jerusalem_resurgent_modifier,X #V #L Єрусалимське відродження#!#!» на #Y 20#! років"
+ },
+ "gain_a_tt": {
+  "en": "Should the Holy Father accept, we will gain the [ShowModifier('infrastructure_funds_modifier')] [modifier|e]",
+  "uk": "Якщо на те буде воля Його Святості, ми отримаємо [Concept('modifier', 'модифікатор')|e] «#TOOLTIP:STATIC_MODIFIER,infrastructure_funds_modifier,X #V #L Фінансування інфраструктури#!#!»"
+ },
+ "gain_b_tt": {
+  "en": "Should the Holy Father accept, we will gain the [ShowModifier('warrior_banners_modifier')] [modifier|e]",
+  "uk": "Якщо на те буде воля Його Святості, ми отримаємо [Concept('modifier', 'модифікатор')|e] «#TOOLTIP:STATIC_MODIFIER,warrior_banners_modifier,X #V #L Воїнські прапори#!#!»"
+ },
+ "gain_c_tt": {
+  "en": "Should the Holy Father accept, we will gain the [ShowModifier('foreign_donations_modifier')] [modifier|e]",
+  "uk": "Якщо на те буде воля Його Святості, ми отримаємо [Concept('modifier', 'модифікатор')|e] «#TOOLTIP:STATIC_MODIFIER,foreign_donations_modifier,X #V #L Іноземні пожертви#!#!»"
+ },
+ "military_order_events.1.a": {
+  "en": "We need assistance with our infrastructure.",
+  "uk": "Нам потрібна допомога з інфраструктурою."
+ },
+ "military_order_events.1.b": {
+  "en": "Call the banners, we need men for our holy struggle!",
+  "uk": "Скликайте людей на священну війну!"
+ },
+ "military_order_events.1.c": {
+  "en": "We need help filling our coffers.",
+  "uk": "Допоможіть наповнити наші скарбниці."
+ },
+ "military_order_events.1.desc": {
+  "en": "In our fight to protect our faith against infidels, heretics, and heathens, we are not alone. Men of true faith flock to our banner answering a higher call to arms against the tyranny and destruction wrought by our religious foes. At times of war and need we shall turn to our [ShowReligionAdjective('catholic')] brethren and the [GetCountry('PAP').GetGovernment.GetRulerTitle] for aid in our cause.",
+  "uk": "Ми не самотні у боротьбі проти безбожників, єретиків та язичників. Істинно віруючі збираються під нашими прапорами, підкоряючись вищому поклику. Ми протистоїмо ворогам нашої віри, які сіють свавілля та руйнування. У важкі та неспокійні часи ми сподіваємося, що [GetCountry('PAP').GetGovernment.GetRulerTitle|l] та брати-#TOOLTIP:RELIGION,$catholic_tt$,X #L католики#!#! допоможуть нашій благій справі."
+ },
+ "military_order_events.1.title": {
+  "en": "A Request for the [GetCountry('PAP').GetGovernment.GetRulerTitle]",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] отримує прохання"
+ },
+ "military_order_events.2.a": {
+  "en": "Approve the request.",
+  "uk": "Погодимося."
+ },
+ "military_order_events.2.b": {
+  "en": "They are on their own...",
+  "uk": "Вони самі по собі…"
+ },
+ "military_order_events.2.desc": {
+  "en": "It has come to our attention that [target_order.GetName] has become a bastion of our faith and a shining symbol of the enduring strength within the [ShowReligionName('catholic')]. In their efforts to protect the faithful, they have requested aid from our coffers.",
+  "uk": "Ми отримуємо вісті з #ONCLICK:COUNTRY,[target_order.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_order.Custom('CL_tt')],X [target_order.Custom('CL_GEN')|L]#!#! про те, що ця держава стає оплотом нашої віри та блискучим втіленням сили #L [ShowReligionAdjective('catholic')|l]ої#! віри. Вони попросили нас допомогти грошима, щоб захистити віруючих."
+ },
+ "military_order_events.2.title": {
+  "en": "A Letter from [target_order.GetNameWithNoTooltip]",
+  "uk": "Лист із [target_order.Custom('CL_GEN')]"
+ },
+ "military_order_events.2.title_fallback": {
+  "en": "A Letter from the Holy Order",
+  "uk": "Лист із священного ордену"
+ },
+ "military_order_events.3.a": {
+  "en": "Rejoice!",
+  "uk": "Звеселімося!"
+ },
+ "military_order_events.3.desc": {
+  "en": "The messenger hands our advisors a letter from the [GetCountry('PAP').GetGovernment.GetRulerTitle]. According to the Holy Father, our struggle is recognized and true, a shining symbol of the resilience displayed by our people. He agreed to donate to our cause!",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] надсилає листа нашим радникам. Його Святість вважає, що наша праведна боротьба демонструє гідну захоплення стійкість народу. Він погодився виділити кошти на наші благі починання!"
+ },
+ "military_order_events.3.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] Approves our Request",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] погоджується на наше прохання"
+ },
+ "military_order_events.4.a": {
+  "en": "God help us...",
+  "uk": "Допоможи нам Боже…"
+ },
+ "military_order_events.4.desc": {
+  "en": "The mood across our halls sours and greys out as the messenger blurts out the Holy Fathers denial of aid to our cause. It seems that we are left alone against an onslaught of ravenous enemies at our gates. The Holy See has denied our request for aid and has decided not to protect the faith they claim to represent, a pitiful state of affairs...",
+  "uk": "Наші покої затьмарилися й наповнилися сумом, коли посланець поспіхом зачитав відповідь: Його Святість відмовляється нам допомагати. Схоже, нам доведеться на самоті протистояти жадібним ворогам біля наших воріт. Святий Престол відхилив наше прохання про допомогу й вирішив не захищати віру, інтереси якої мав би представляти. Вельми прикро…"
+ },
+ "military_order_events.4.title": {
+  "en": "The [GetCountry('PAP').GetGovernment.GetRulerTitle] Denies our Request",
+  "uk": "[GetCountry('PAP').GetGovernment.GetRulerTitle] відхиляє наше прохання"
+ },
+ "military_order_events.5.a": {
+  "en": "Our banners fly high over the city once again.",
+  "uk": "Наші прапори знову майорять над містом."
+ },
+ "military_order_events.5.desc": {
+  "en": "It has been so long since Crusader boots set foot in the Holy Land. Our knights, resolute and unwavering, have concluded a most prestigious campaign, the reclamation of the ancient city of [ShowLocationName('antioch')]. This storied city, perched on the shores of the Mediterranean, stands as a testament to centuries of diverse cultures and turbulent history. Its narrow, winding streets whisper tales of empires risen and fallen, from the Seleucids to the Byzantines. [ShowLocationNameWithNoTooltip('antioch')]'s strategic importance is unwavering, as it guards the eastern gateway to the Mediterranean and is a vital hub for trade and military control.\\n\\nAs a Military Order, we are driven by our relentless dedication to the defense of Christianity, determined to restore the city to its rightful hands. In the present moment, under the clear Syrian skies, our men march forth, their crimson cross banners fluttering in the wind, resolute in their quest to reclaim the rest of the Holy Land from the clutches of time, heathens and turmoil.",
+  "uk": "Минуло багато років відтоді, як хрестоносці ступили на Святу землю. Наші рішучі та непохитні лицарі завершили найважливіший похід і відвоювали стародавню #TOOLTIP:LOCATION,$antioch_tt$,X #L Антіохію#!#!. Це легендарне місто, що здіймається над середземноморським узбережжям, зберігає пам'ять про свою бурхливу історію та багатовікове розмаїття культур. Його вузькі звивисті вулички оповідають про піднесення та крах імперій — від Селевкідів до Візантії. Стратегічне значення Антіохії незаперечне: вона захищає східний прохід до Середземного моря, а також є важливим центром торгівлі та військового контролю.\\n\\nНаш орден беззавітно присвятив себе захисту християнства, і ми твердо маємо намір повернути місто до рук тих, кому воно належить по праву. Зараз наші люди крокують під безхмарним сирійським небом, і червоний хрест на їхніх прапорах майорить на вітрі. Хрестоносці ні перед чим не зупиняться, щоб звільнити решту Святої землі з лещат часу, язичництва та смути."
+ },
+ "military_order_events.5.title": {
+  "en": "The Conquest of [ShowLocationNameWithNoTooltip('antioch')]",
+  "uk": "Завоювання Антіохії"
+ },
+ "military_order_events.6.a": {
+  "en": "Let it not fall to heathen hands again!",
+  "uk": "Не дозволимо місту знову потрапити до рук язичників!"
+ },
+ "military_order_events.6.desc": {
+  "en": "Our elders do not recall the last time they laid their eyes on such a beautiful city. [ShowLocationName('urfa')], under the command of Crusaders, embodies the fervor and resilience of our order. Nestled amidst the arid plains of Mesopotamia, it boasts a rich history that resonates with the echoes of the First Crusade, as the first Crusader state established in the East. Our predecessors had fortified its walls and woven a tapestry of Christian devotion into the very fabric of this ancient land. Its streets bear the scars of countless battles, yet they remain a testament to the enduring spirit of our forefathers.\\n\\nToday, we stand united, driven by our unwavering commitment to protect the city from the encroaching forces that threaten our Christian brethren. Under the blazing sun, our crimson cross banners rise high as we advance, determined to restore the entire region to its rightful place in the annals of Crusader history.",
+  "uk": "Навіть найстарші члени ордену не пам'ятають, коли востаннє бачили таке прекрасне місто. Під началом хрестоносців #TOOLTIP:LOCATION,$urfa_tt$,X #L Урфа#!#! втілює непохитне завзяття нашого ордену. Багата історія цього міста, розташованого серед посушливих рівнин Месопотамії, перегукується з відгомонами Першого хрестового походу — адже саме на сході було засновано першу державу хрестоносців. Наші попередники зміцнили міські стіни та міцно вкорінили ідеали християнської побожності на цій стародавній землі. Вулиці міста, поцятковані шрамами незліченних битв, залишаються свідченням стійкості духу наших предків.\\n\\nСьогодні ми єдині в незламному прагненні захистити місто від ворогів, які загрожують нашим християнським братам. Наші прапори з червоним хрестом здіймаються високо під палючим сонцем. Ми рухаємося вперед, щоб відновити гідне місце цього регіону в історії хрестових походів."
+ },
+ "military_order_events.6.title": {
+  "en": "The Conquest of [ShowLocationNameWithNoTooltip('urfa')]",
+  "uk": "Завоювання Урфи"
+ },
+ "military_order_events.7.a": {
+  "en": "An important milestone in our military campaigns.",
+  "uk": "Це важлива віха наших військових походів."
+ },
+ "military_order_events.7.desc": {
+  "en": "One of the most prized cities in the Levant, [ShowLocationName('damascus')] now lays under Crusader command as she stands, a jewel in the heart of the Holy Land. Its ancient walls and bustling bazaars reflect the legacy of both Islamic and Christian rule. Under our watchful eye, [ShowLocationNameWithNoTooltip('damascus')] shall thrive as a beacon of of our great victory and mercy, where Christian and Muslim communities coexist in relative harmony.\\n\\nAgainst those who wish to see the city in heathen hands, we will raise our sword and protect it and its inhabitants, lest they besmirch the legacy of this magnificent settlement. Our resolve is unwavering, our faith steadfast, as we march forth with crimson crosses emblazoned on our armor, determined to safeguard this bastion of Christian influence and ensure that the vibrant history of [ShowLocationNameWithNoTooltip('damascus')] continues to flourish under Crusader rule.",
+  "uk": "#TOOLTIP:LOCATION,$damascus_tt$,X #L Дамаск#!#!, одне з найвеличніших міст Леванту та перлина Святої землі, переходить під владу хрестоносців. Його стародавні стіни та галасливі ринки зберігають спадщину ісламського та християнського панування. Під нашим пильним оком Дамаск розквітне. Він стане світочем нашої великої перемоги та милосердя, де християнські та мусульманські громади зможуть мирно жити поруч.\\n\\nТі, хто захоче віддати місто язичникам, пізнають нищівну силу наших мечів. Ми захистимо місто та його мешканців і не дамо зганьбити спадщину цього чудового поселення. Наша рішучість непохитна, наша віра міцна. Гордо несучи червоні хрести на своїх обладунках, ми йдемо вперед, щоб захистити цей оплот християнства. Під пануванням хрестоносців Дамаск збереже свою блискучу історію та процвітатиме."
+ },
+ "military_order_events.7.title": {
+  "en": "The Conquest of [ShowLocationNameWithNoTooltip('damascus')]",
+  "uk": "Завоювання Дамаска"
+ },
+ "military_order_events.8.a": {
+  "en": "Let it be our new capital!",
+  "uk": "Хай стане нашою столицею!"
+ },
+ "military_order_events.8.b": {
+  "en": "Rejoice!",
+  "uk": "Звеселімося!"
+ },
+ "military_order_events.8.desc": {
+  "en": "Many across the halls of [ShowReligionName('catholic')] nations have voiced their concerns in our ability to retake the Holy Land's most prized city, [ShowLocationName('jerusalem')]. Let our victory silence all these voices as the momentous task of reclaiming this revered city is proclaimed an absolute success. Under our command, the city shall blossom into a testament of Christian devotion, a place where history and faith intertwine. Its majestic ramparts encircle a city imbued with sacred significance, where the echoes of Christ's footsteps reverberate through the cobblestone streets.\\n\\nWithin these ancient walls, the grandeur of the Church of the Holy Sepulchre stands as a beacon of unwavering faith, drawing pilgrims from all corners of the world. Yet, the great peril never ceases, as hostile forces seek to extinguish the Christian presence within these cherished confines. With unwavering resolve and the emblematic crimson cross etched upon our armor, we advance, bound by a solemn duty to protect the heart of Christendom and ensure that [ShowLocationNameWithNoTooltip('jerusalem')] remains a timeless symbol of Christian reverence for generations to come.",
+  "uk": "Багато вельмож у палатах #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! держав сумнівалися, що ми зможемо відвоювати найзначніше місто Святої землі — #TOOLTIP:LOCATION,$jerusalem_tt$,X #L Єрусалим#!#!. Хай голоси скептиків замовкнуть: ми досягли найважливішої мети й повернули це священне місто. Тепер ніхто не посміє оскаржити наш успіх. Під нашим пануванням це місце, де переплітаються історія та віра, стане символом християнської самовідданості. Величні стіни оточують місто, пройняте святістю, і на його бруківці ще чутні відгомони кроків Христа.\\n\\nХрам Гробу Господнього, що стоїть за стародавніми стінами, є світочем незламної віри та приваблює прочан з усіх куточків світу. Однак загрозам немає кінця — ворожі армії прагнуть викорінити християн у цьому заповітному місці. Гордо несучи червоний хрест на обладунках, ми йдемо вперед, сповнені рішучості. Нами рухає урочиста клятва захищати серце християнської цивілізації. З нами Єрусалим залишиться вічним символом християнської честі для прийдешніх поколінь."
+ },
+ "military_order_events.8.title": {
+  "en": "The Conquest of [ShowLocationNameWithNoTooltip('jerusalem')]",
+  "uk": "Завоювання Єрусалима"
+ },
+ "military_order_events.9.a": {
+  "en": "We are victorious!",
+  "uk": "Перемога за нами!"
+ },
+ "military_order_events.9.b": {
+  "en": "The land belongs to our Order!",
+  "uk": "Ця земля належить нашому ордену!"
+ },
+ "military_order_events.9.c": {
+  "en": "Restore the territories of [ShowLocationNameWithNoTooltip('jerusalem')] to the rightful owner.",
+  "uk": "#TOOLTIP:LOCATION,$jerusalem_tt$,X #L Єрусалим#!#! повернеться до рук гідних."
+ },
+ "military_order_events.9.desc": {
+  "en": "The realm of Outremer, under the vigilant command of the Crusaders, represents a bastion of Christian influence in the East. Its vibrant cities, like [ShowLocationName('jerusalem')] and [ShowLocationName('antioch')], thrive as bustling centers of commerce and culture, where diverse communities coexist, forging a unique tapestry of religious tolerance. Within these walls, cathedrals and fortresses bear witness to our enduring faith, with every stone a testament to our unshaken dedication.\\n\\nHowever, the specter of adversity looms large, as hostile forces threaten to unravel the very fabric of what we have accomplished. Our successive victories across the Levant have left many heathens frozen in terror, as our banners approach their borders, eager to restore what is rightfully ours.",
+  "uk": "Держава Утремер під невсипущим контролем хрестоносців є оплотом християнського впливу на сході. #TOOLTIP:LOCATION,$jerusalem_tt$,X #L Єрусалим#!#!, #TOOLTIP:LOCATION,$antioch_tt$,X #L Антіохія#!#! та інші її мальовничі міста є процвітаючими центрами культури та торгівлі. Тут вирує життя й мирно співіснують різні громади, що формують унікальне полотно релігійної терпимості. Собори та фортеці за цими стінами стали німими свідками нашої незламної віри; кожен камінь тут зберігає пам'ять про нашу самовідданість.\\n\\nОднак тінь негараздів все ще нависає над нами — війська супротивника погрожують зруйнувати все, чого ми досягли. Наші неодноразові перемоги в Леванті наповнили язичників жахом. Наші прапори майорять біля ворожих кордонів, і ми сповнені рішучості повернути те, що належить нам по праву."
+ },
+ "military_order_events.9.title": {
+  "en": "The Banners of Outremer",
+  "uk": "Прапори Утремера"
+ }
+}

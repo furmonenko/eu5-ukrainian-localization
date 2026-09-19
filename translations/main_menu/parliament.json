@@ -1,0 +1,3502 @@
+{
+ "ACCEPT_AGENDA": {
+  "en": "Accept Agenda",
+  "uk": "Прийняття вимоги"
+ },
+ "ACCEPT_AGENDA_EFFECT": {
+  "en": "Gains $VAL|2+=%$ support in [parliament|e].",
+  "uk": "Дає підтримку в [Concept('parliament','парламенті')|e] в розмірі $VAL|2+=%$"
+ },
+ "ACCEPT_AGENDA_TT": {
+  "en": "Accept $NAME$",
+  "uk": "Прийняти вимогу «$NAME$»"
+ },
+ "ACTIVE_PARLIAMENT_REPEAT": {
+  "en": "Repeated agendas: $VAL|2+=%$",
+  "uk": "Повторювані вимоги: $VAL|2+=%$"
+ },
+ "ACTIVE_PARLIAMENT_SUPPORT_IMPORTANCE": {
+  "en": "Importance of Agenda: $VAL|2+=%$",
+  "uk": "Важливість вимоги: $VAL|2+=%$"
+ },
+ "ACTIVE_PARLIAMENT_SUPPORT_POWER": {
+  "en": "Base is $VAL|2G$ [estate_power|e] modified by the following:",
+  "uk": "Базове значення ($VAL|2G$) [Concept('estate_power','станової влади')|e] змінено:"
+ },
+ "ACTIVE_PARLIAMENT_SUPPORT_SATISFACTION": {
+  "en": "[estate_satisfaction|e]: $VAL|2+=%$",
+  "uk": "[Concept('estate_satisfaction','Задоволення стану')|e]: $VAL|2+=%$"
+ },
+ "BASE_SPECIAL_STATUS_SUPPORT": {
+  "en": "Status Backing",
+  "uk": "Підтримка статусу"
+ },
+ "EXTRA_SUPPORT_INFO_FOR_IO_ISSUE": {
+  "en": "#T [PARLIAMENT_ISSUE.GetSpecialStatus.GetNameWithNoTooltip] Issue#!\\nSelecting this issue will add $VAL|2+=%$ to the parliament support, as the members of the [PARLIAMENT_ISSUE.GetSpecialStatus.GetName] are backing this issue.",
+  "uk": "#T [PARLIAMENT_ISSUE.GetSpecialStatus.GetNameWithNoTooltip] висуває питання#!\\nВибір цього питання принесе $VAL|2+=%$ парламентської підтримки, оскільки за нього виступає [PARLIAMENT_ISSUE.GetSpecialStatus.GetName|l]."
+ },
+ "EXTRA_SUPPORT_INFO_FOR_ISSUE": {
+  "en": "#T [PARLIAMENT_ISSUE.GetEstateType.GetNameWithNoTooltip] Issue#!\\nSelecting this issue will add $VAL|2+=%$ to the parliament support, as the [PARLIAMENT_ISSUE.GetEstateType.GetName] is backing this issue.",
+  "uk": "#T [PARLIAMENT_ISSUE.GetEstateType.GetNameWithNoTooltip] і їхнє питання#!\\nВибір цього питання принесе $VAL|2+=%$ од. парламентської підтримки, оскільки [PARLIAMENT_ISSUE.GetEstateType.GetName|l] його підтримують."
+ },
+ "EXTRA_SUPPORT_INFO_FOR_ISSUE_NONE": {
+  "en": "#T $crown_estate$ Issue#!\\nThis is an issue that benefits the goals of the $crown_estate$ so there is no further support in [parliament|e] from forwarding this issue.",
+  "uk": "#T Питання влади#!\\nВлада вважає, що це питання відповідає її інтересам, тому воно не потребує подальшої [Concept('parliament', 'парламентської')|e] підтримки."
+ },
+ "HOSTILE_PARLIAMENT_MARKER": {
+  "en": "#T Hostile [ParliamentMarker.GetCountry.GetGovernment.GetParliament.GetName] in Session#!\\nCan be interrupted by [occupying|e] the [location|e].",
+  "uk": "#T [ParliamentMarker.GetGovernment.GetParliament.GetName] на засіданні та в опозиції до законної влади#!\\nПерервати засідання можна, [Concept('occupying', 'окупувавши')|e] [Concept('location', 'місце')|e] його проведення."
+ },
+ "IO_IF_DEBATE_FAILS": {
+  "en": "#r If it fails#!",
+  "uk": ""
+ },
+ "IO_IF_DEBATE_PASSES": {
+  "en": "#g If it Passes#!",
+  "uk": ""
+ },
+ "IO_LAW_DEBATE_POLICY_KEPT": {
+  "en": "[policy|e] is kept",
+  "uk": ""
+ },
+ "IO_LAW_DEBATE_POLICY_SET": {
+  "en": "[policy|e] is set",
+  "uk": ""
+ },
+ "IO_PARLIAMENT_DURATION_TXT": {
+  "en": "#T [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetName] in Session#!\\nDebating [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebateName] for another [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetRemainingParliamentDuration|W] days in @location![InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentLocation.GetName].",
+  "uk": "#T [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetName] на засіданні#!\\nПитання «[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebate.GetName]» буде обговорюватися ще [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetRemainingParliamentDuration|W] дн. Місце проведення: @location![InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentLocation.GetName]."
+ },
+ "IO_PARLIAMENT_NON_VOTERS": {
+  "en": "Have yet to vote",
+  "uk": "Ще не голосували"
+ },
+ "IO_PARLIAMENT_NO_LAWS_CALL_DIET": {
+  "en": "@trigger_no! No [laws|e] available for debate. Check the Imperial Constitution to see all the Laws.",
+  "uk": ""
+ },
+ "IO_PARLIAMENT_OPPOSERS": {
+  "en": "Opposers",
+  "uk": "Противники"
+ },
+ "IO_PARLIAMENT_TITLE": {
+  "en": "The Parliament of the [InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]",
+  "uk": "Парламент об'єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]»"
+ },
+ "IO_PARLIAMENT_TOOLTIP": {
+  "en": "Some political decisions of the [InternationalOrganizationsView.GetInternationalOrganization.GetName] must be decided in the [parliament|e]. Such [parliament_issues|e] might be selected by the leader state, but are only in effect if the majority of the [international_organization|e] votes for it.",
+  "uk": "Деякі політичні рішення в об'єднанні «[InternationalOrganizationsView.GetInternationalOrganization.GetName]» мають обговорюватися в [Concept('parliament', 'парламенті')|e]. Провідна держава об'єднання має право ставити такі [Concept('parliament_issues', 'парламентські питання')|e] на обговорення, однак прийняті вони будуть лише після схвалення більшістю учасників [Concept('international_organization', 'міжнародного об'єднання')|e]."
+ },
+ "IO_PARLIAMENT_VOTED": {
+  "en": "Voted",
+  "uk": ""
+ },
+ "IO_PARLIAMENT_VOTERS": {
+  "en": "Supporters",
+  "uk": "Прихильники"
+ },
+ "IO_PARLIAMENT_VOTES_LEFT": {
+  "en": "Votes Left:",
+  "uk": ""
+ },
+ "LAWS_THAT_CAN_BE_DEBATED": {
+  "en": "Policies that can be Debated",
+  "uk": ""
+ },
+ "NO_POSSIBLE_AGENDAS": {
+  "en": "@trigger_no! There are no possible [parliament_agendas|e] left.",
+  "uk": "@trigger_no! Більше немає можливих [Concept('parliament_agendas','парламентських вимог')|e]."
+ },
+ "PARLIAMENT_AGENDA_SUPPORT_TT": {
+  "en": "#T Support Impact#!",
+  "uk": "#T Вплив підтримки#!"
+ },
+ "PARLIAMENT_CALLED_DATE": {
+  "en": "The $NAME$ was called $WHEN|Y$ ago ",
+  "uk": "$NAME$ на засіданні вже $WHEN|Y$."
+ },
+ "PARLIAMENT_CURRENT_SUPPORT": {
+  "en": "The current parliament support is: $SUPPORT$%",
+  "uk": "Поточна парламентська підтримка: $SUPPORT$%"
+ },
+ "PARLIAMENT_DURATION_TXT": {
+  "en": "[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] days left in @location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]",
+  "uk": "Залишилося [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] дн. у @location![Player.GetGovernment.GetParliamentLocation.Custom('LR_PP')|l] [Player.GetGovernment.GetParliamentLocation.GetName]"
+ },
+ "PARLIAMENT_DURATION_TXT_NO_LOCATION": {
+  "en": "[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] days left",
+  "uk": "Залишилося [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] дн."
+ },
+ "PARLIAMENT_ESTATE_EXTRA_POWER_WHEN_DEBATED": {
+  "en": "Selecting this issue will add $VAL|2+=%$ to the base parliament support",
+  "uk": "Вибір цього питання принесе $VAL|2+=%$ од. базової парламентської підтримки"
+ },
+ "PARLIAMENT_IF_FAIL": {
+  "en": "If the debate #R fails#!:",
+  "uk": "Якщо дебати #R провалляться#!:"
+ },
+ "PARLIAMENT_IF_FAIL_TT": {
+  "en": "If the debate #R fails#!",
+  "uk": "Якщо дебати #R провалляться#!:"
+ },
+ "PARLIAMENT_IF_SUCCESS": {
+  "en": "If the debate #G passes#!:",
+  "uk": "Якщо дебати #G пройдуть успішно#!:"
+ },
+ "PARLIAMENT_IF_SUCCESS_TT": {
+  "en": "If the debate #G passes#!",
+  "uk": "Якщо дебати #G пройдуть успішно#!:"
+ },
+ "PARLIAMENT_IN_SESSION": {
+  "en": "[Player.GetGovernment.GetParliament.GetName] in Session",
+  "uk": "[Player.GetGovernment.GetParliamentName] на засіданні"
+ },
+ "PARLIAMENT_ISSUE_WILL_FAIL": {
+  "en": "#T Issue Will Fail#!\\n@trigger_no! The [Player.GetGovernment.GetParliament.GetName] will #R NOT#! pass the [Player.GetGovernment.GetParliament.GetCurrentDebateName].",
+  "uk": "#T Питання не пройде обговорення#!\\n@trigger_no! Питання «[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]» #R НЕ#! пройде обговорення у представників [Player.GetGovernment.GetParliament.Custom('CFP_RP')|l]."
+ },
+ "PARLIAMENT_ISSUE_WILL_NOT_FAIL": {
+  "en": "#T Issue Will Pass#!\\nThe [Player.GetGovernment.GetParliament.GetName] will pass the [Player.GetGovernment.GetParliament.GetCurrentDebateName].",
+  "uk": "#T Питання пройде обговорення#!\\nПитання «[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]» пройде обговорення у представників [Player.GetGovernment.GetParliament.Custom('CFP_RP')|l]."
+ },
+ "PARLIAMENT_MARKER_DURATION_TXT": {
+  "en": "#T [Player.GetGovernment.GetParliament.GetName] in Session#!\\nDebating [Player.GetGovernment.GetParliament.GetCurrentDebateName] for another [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] days in @location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName].",
+  "uk": "#T [Player.GetGovernment.GetParliament.GetName] на засіданні#!\\nПитання «[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]» буде обговорюватися ще [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] дн. у @location![Player.GetGovernment.GetParliament.GetParliamentLocation.Custom('LR_PP')|l] [Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]."
+ },
+ "PARLIAMENT_MODIFIER_WHEN_DEBATED": {
+  "en": "While the Issue is being debated:",
+  "uk": "Поки обговорюється питання:"
+ },
+ "PARLIAMENT_MODIFIER_WHEN_DEBATED_TT": {
+  "en": "While the Issue is being debated",
+  "uk": "Поки обговорюється питання"
+ },
+ "PARLIAMENT_NEVER_CALLED": {
+  "en": "The $NAME$ has not been called.",
+  "uk": "$NAME$ не на засіданні."
+ },
+ "PARLIAMENT_SPECIAL_STATUS_EXTRA_POWER_WHEN_DEBATED": {
+  "en": "Selecting this issue will flip more countries of the $SPECIAL_STATUS$ in favor to support the parliament by $VAL|2+=%$",
+  "uk": "Вибір цього питання підштовхне більше держав з особливим статусом надати нам $VAL|2+=%$ од. парламентської підтримки"
+ },
+ "PARLIAMENT_START": {
+  "en": "When the debate #Y starts#!:",
+  "uk": "З #Y початком#! дебатів:"
+ },
+ "PARLIAMENT_TYPE_ALREADY_SELECTED": {
+  "en": "@trigger_no! This is already our current [parliament_type|e].",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_artisan_guild_charters_mod": {
+  "en": "Artisan Guild Charters",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_artisan_guilds_mod": {
+  "en": "Artisan Guilds Charter",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_canonical_law_mod": {
+  "en": "Canonical Law",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_cavalry_reserve_mod": {
+  "en": "Cavalry Reserve",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_charter_governors_mod": {
+  "en": "Chartered Subject Governors",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_chivalric_orders_mod": {
+  "en": "Chivalric Orders Recognition",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_clergy_charity_mod": {
+  "en": "Clergy Charity Organization",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_coastal_posts_mod": {
+  "en": "Coastal Trading Posts",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_colonial_admin_mod": {
+  "en": "Colonial Administration",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_commodity_exchange_mod": {
+  "en": "Commodity Exchange",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_common_food_stores_mod": {
+  "en": "Common Food Stores",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_customs_houses_mod": {
+  "en": "Customs Houses",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_emergency_levies_mod": {
+  "en": "Emergency Levies",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_export_trade_mod": {
+  "en": "Export Trade Promotion",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_farming_innovation_mod": {
+  "en": "Farming Innovation",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_feudal_levies_mod": {
+  "en": "Feudal Levy Obligations",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_field_hospitals_mod": {
+  "en": "Field Hospitals",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_frontier_passes_mod": {
+  "en": "Fortified Frontier",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_garrison_law_failure_mod": {
+  "en": "Garrison Neglect",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_garrison_law_mod": {
+  "en": "Noble Garrison Law",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_grain_imports_mod": {
+  "en": "Grain Import Subsidies",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_harvest_pooling_mod": {
+  "en": "Harvest Pooling",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_heralds_college_mod": {
+  "en": "Heralds' College",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_hunting_rights_mod": {
+  "en": "Exclusive Hunting Rights",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_import_controls_mod": {
+  "en": "Import Controls",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_industrial_workshops_mod": {
+  "en": "Industrial Workshops",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_inquisition_courts_mod": {
+  "en": "Inquisition Courts",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_inquisition_failure_mod": {
+  "en": "Inquisition Backlash",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_irrigation_projects_mod": {
+  "en": "Irrigation Projects",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_land_trade_mod": {
+  "en": "Noble Land Trade Monopoly",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_maritime_trade_mod": {
+  "en": "Maritime Trade Promotion",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_military_chaplaincy_mod": {
+  "en": "Military Chaplaincy",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_military_exercises_mod": {
+  "en": "Military Exercises",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_monastery_network_mod": {
+  "en": "Monastery Network",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_mountain_passes_mod": {
+  "en": "Mountain Pass Charters",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_naval_supply_mod": {
+  "en": "Naval Supply Contracts",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_noble_colonization_mod": {
+  "en": "Noble Colonization Charter",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_noble_enclosure_mod": {
+  "en": "Enclosure Protection",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_noble_privateers_mod": {
+  "en": "Noble Privateering License",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_parish_waypoints_mod": {
+  "en": "Parish Waypoints",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_pilgrimage_routes_mod": {
+  "en": "Pilgrimage Routes",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_postal_relay_mod": {
+  "en": "Postal Relay Network",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_reduce_serfdom_mod": {
+  "en": "Reduced Serfdom",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_religious_missions_mod": {
+  "en": "Religious Missions",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_religious_tolerance_mod": {
+  "en": "Religious Tolerance Edict",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_road_corvee_mod": {
+  "en": "Road Upkeep Corvée",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_royal_art_patronage_mod": {
+  "en": "Royal Art Patronage",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_royal_censure_mod": {
+  "en": "Royal Censure",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_royal_monopoly_mod": {
+  "en": "Royal Trade Monopoly",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_royal_roads_mod": {
+  "en": "Royal Road Commission",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_royal_treasury_mod": {
+  "en": "Treasury Reform",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_rural_crafts_mod": {
+  "en": "Rural Crafts Charter",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_serfdom_peasant_fail_mod": {
+  "en": "Peasant Unrest",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_serfdom_slave_fail_mod": {
+  "en": "Slave Unrest",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_siege_engineers_mod": {
+  "en": "Siege Engineers",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_standing_regiments_mod": {
+  "en": "Standing Regiments",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_supply_labor_fail_mod": {
+  "en": "Supply Draft Unrest",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_supply_labor_mod": {
+  "en": "Supply Line Labor Draft",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_theological_seminaries_mod": {
+  "en": "Theological Seminaries",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_tithe_collection_mod": {
+  "en": "Regulated Tithe Collection",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_trade_expeditions_mod": {
+  "en": "Trade Expeditions",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_trade_insurance_mod": {
+  "en": "Trade Insurance Scheme",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_trading_companies_mod": {
+  "en": "Trading Company License",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_village_councils_mod": {
+  "en": "Village Councils",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_war_taxes_mod": {
+  "en": "War Taxes",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_wartime_conscription_mod": {
+  "en": "Wartime Conscription",
+  "uk": ""
+ },
+ "STATIC_MODIFIER_NAME_parl_wartime_officer_corps_mod": {
+  "en": "Reinforced Officer Corps",
+  "uk": ""
+ },
+ "VIJ_ALL_NON_HINDU_POPS_GAIN_SATISFACTION": {
+  "en": "All our [heretics|e] and [heathen|e] [pops|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Усі наші [Concept('heretics', 'єретичні')|e] та [Concept('heathen', 'язичницькі')|e] [Concept('pops', 'групи населення')|e] отримують [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]."
+ },
+ "VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL": {
+  "en": "All our [locations|e] with at least #Y 5%#! [heretics|e] or [heathen|e] [pops|e] will gain [ShowNamedValue('control_mild_bonus')|+=2%] [control|e].",
+  "uk": "Усі наші [Concept('locations', 'райони')|e], де проживає не менше #Y 5%#! [Concept('heretics', 'єретичних')|e] та [Concept('heathen', 'язичницьких')|e] [Concept('pops', 'груп населення')|e], отримають [ShowNamedValue('control_mild_bonus')|+=2%] [Concept('control', 'контролю')|e]."
+ },
+ "appease_english_population": {
+  "en": "Appease English Populace",
+  "uk": "Заспокоїти англійське населення"
+ },
+ "appease_english_population_desc": {
+  "en": "Our subjects in Britain have shown to be discontent despite our claim. Showing them that we are not oppressors might help placate them.",
+  "uk": "Незважаючи на наші заяви, підлеглі в Британії незадоволені. Щоб їх заспокоїти, треба показати, що ми не гнобителі."
+ },
+ "ask_for_larger_levies": {
+  "en": "Ask for Larger Levies",
+  "uk": "Запит додаткових ополчень"
+ },
+ "ask_for_larger_levies_desc": {
+  "en": "Asking the [estates|e] of our [Player.GetGovernment.GetParliament.GetName] to provide larger [army_levies|e] and [navy_levies|e] when called upon.",
+  "uk": "У разі успіху представники [Player.GetParliament.Custom('CFP_RP')|l] зобов'яжуть один із [Concept('estates', 'станів')|e] під час призову надати більші [Concept('army_levies', 'армійське')|e] та [Concept('navy_levies', 'флотське ополчення')|e]."
+ },
+ "ask_for_law_changes": {
+  "en": "Ask for Law Changes",
+  "uk": "Запит зміни правил"
+ },
+ "ask_for_law_changes_desc": {
+  "en": "Asking the [estates|e] to approve us changing a specific [policy|e] in our [laws|e].",
+  "uk": "У разі успіху [Concept('estates','стан')|e] схвалить зміну конкретної [Concept('policy','політики')|e] у нашому [Concept('laws','зводі правил')|e]."
+ },
+ "ask_for_law_changes_select_law_title": {
+  "en": "Select a [law|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change.",
+  "uk": "Оберіть [Concept('law', 'правило')|e], зміну якого буде схвалено [Player.GetParliament.GetParliament.Custom('parliament_ru_INST')|l]."
+ },
+ "ask_for_law_changes_select_policies_title": {
+  "en": "Select a [policy|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change.",
+  "uk": "Оберіть [Concept('policy', 'політику')|e], зміну якої буде схвалено [Player.GetParliament.GetParliament.Custom('parliament_ru_INST')|l]."
+ },
+ "back_the_war_effort": {
+  "en": "Back the War Effort",
+  "uk": "Підтримка воєнних дій"
+ },
+ "back_the_war_effort_desc": {
+  "en": "Our war efforts stand to greatly benefit by the backing of our legislative framework.",
+  "uk": "У поточній війні нам не завадить законодавча підтримка."
+ },
+ "balance_the_budget": {
+  "en": "Balance the Budget",
+  "uk": "Балансування бюджету"
+ },
+ "balance_the_budget_desc": {
+  "en": "The financial crisis that looms over our people's heads is a dire matter, urgently in need to be addressed.",
+  "uk": "Фінансова криза, яка нависла над нашим народом, є невідкладним питанням, яке необхідно терміново вирішити."
+ },
+ "baronial_burghs_rights": {
+  "en": "Expand Baronial Burghs",
+  "uk": "Розширення баронських бургів"
+ },
+ "baronial_burghs_rights_desc": {
+  "en": "Expanding the rights for baronial burghs will further the development of our nation.",
+  "uk": "Розширивши права баронських бургів, ми посприяємо розвитку нації."
+ },
+ "bolster_the_divine_mandate": {
+  "en": "$bolster_the_monarchy$",
+  "uk": ""
+ },
+ "bolster_the_divine_mandate_desc": {
+  "en": "$bolster_the_monarchy_desc$",
+  "uk": ""
+ },
+ "bolster_the_khan": {
+  "en": "$bolster_the_monarchy$",
+  "uk": ""
+ },
+ "bolster_the_khan_desc": {
+  "en": "$bolster_the_monarchy_desc$",
+  "uk": ""
+ },
+ "bolster_the_monarchy": {
+  "en": "Bolster the Government",
+  "uk": "Посилення уряду"
+ },
+ "bolster_the_monarchy_desc": {
+  "en": "The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.",
+  "uk": "Центральний авторитет нашої держави має стояти вище інтересів будь-яких груп і видних представників вищого стану."
+ },
+ "bolster_the_republic": {
+  "en": "$bolster_the_monarchy$",
+  "uk": ""
+ },
+ "bolster_the_republic_desc": {
+  "en": "$bolster_the_monarchy_desc$",
+  "uk": ""
+ },
+ "bolster_the_tribal_leader": {
+  "en": "$bolster_the_monarchy$",
+  "uk": ""
+ },
+ "bolster_the_tribal_leader_desc": {
+  "en": "$bolster_the_monarchy_desc$",
+  "uk": ""
+ },
+ "call_parliament": {
+  "en": "Call Parliament",
+  "uk": "Скликання парламенту"
+ },
+ "call_parliament_desc": {
+  "en": "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\\nDuring this session we will get the following effects:\\n[ShowModifierEffect('parliament_in_session')]",
+  "uk": "Буде скликано парламент у спробі отримати підтримку таких аспектів, як вирішення [Concept('parliament_issue','парламентського питання')|e], зміна [Concept('policies','політик')|e] у нашому [Concept('laws','зводі правил')|e], створення [Concept('casus_belli','приводу для війни')|e], збір додаткових [Concept('taxes','податків')|e], набір додаткового [Concept('army_levies','армійського')|e] або [Concept('navy_levies','флотського ополчення')|e].\\nНа час цього засідання діятимуть наступні ефекти:\\n[ShowModifierEffect('parliament_in_session')]\\n\\n$select_parliament_location_inform_choice_tt$"
+ },
+ "charter_artisan_guilds": {
+  "en": "Charter Artisan Guilds",
+  "uk": ""
+ },
+ "charter_artisan_guilds_desc": {
+  "en": "The masters and journeymen of our workshops toil without formal recognition from the crown. By granting guild charters to the craft brotherhoods of the realm, we bring their trades under lawful order and earn the goodwill of those whose hands sustain our prosperity.",
+  "uk": ""
+ },
+ "charter_subject_governors": {
+  "en": "Charter Subject Governors",
+  "uk": ""
+ },
+ "charter_subject_governors_desc": {
+  "en": "Our distant subjects demand attention that the crown can ill afford. By chartering formal governors with royal authority, we tighten our grip on these lands and ensure their revenues flow properly to our coffers.",
+  "uk": ""
+ },
+ "coastal_trading_post_network": {
+  "en": "Coastal Trading Post Network",
+  "uk": ""
+ },
+ "coastal_trading_post_network_desc": {
+  "en": "Our coasts offer natural harbors and stopping points that go unused for lack of proper facilities. A merchant-funded network of coastal trading posts would reduce the costs and risks of maritime commerce and bring distant provinces closer to the capital.",
+  "uk": ""
+ },
+ "compulsory_education_nobles": {
+  "en": "Noble Education Act",
+  "uk": "Акт про благородну освіту"
+ },
+ "compulsory_education_nobles_desc": {
+  "en": "We should invest heavily into the Education of the nobility to advance our administration.",
+  "uk": "Ми маємо вкластися в освіту аристократів, щоб зміцнити нашу адміністрацію."
+ },
+ "conduct_a_census": {
+  "en": "Conduct a Census",
+  "uk": "Проведення перепису населення"
+ },
+ "conduct_a_census_desc": {
+  "en": "The proper documentation of our people while tending to their development and prosperity is a great way to promote stability across the realm.",
+  "uk": "Перепис населення і подальший аналіз його розвитку та процвітання — це чудовий спосіб зміцнити стабільність нашої держави."
+ },
+ "curb_central_authority": {
+  "en": "Curb Central Authority",
+  "uk": "Обмеження центральної влади"
+ },
+ "curb_central_authority_desc": {
+  "en": "The authority of the [Player.GetGovernment.GetParliament.GetName] can not and will not be trumped by any authority outside its halls. In order to pursue our ideals, we must exercise this right in spite of royal decrees!",
+  "uk": "Представники [Player.GetParliament.Custom('CFP_RP')|l] повинні володіти найвищою владою, і жодні королівські укази не завадять нам слідувати своїм ідеалам!"
+ },
+ "declare_holidays_request": {
+  "en": "Declare Holidays",
+  "uk": ""
+ },
+ "declare_holidays_request_desc": {
+  "en": "Declaring an upcoming day to be a holiday for all our people will garner us popular support and also help us stabilize our affairs.",
+  "uk": ""
+ },
+ "declare_war_taxes": {
+  "en": "Declare War Taxes",
+  "uk": ""
+ },
+ "declare_war_taxes_desc": {
+  "en": "Our war effort demands resources beyond what ordinary revenue can provide. Parliament must authorise emergency levies on all estates — a burden shared by all for the survival and glory of the realm.",
+  "uk": ""
+ },
+ "dlh_famine_reductions": {
+  "en": "Combat Famines",
+  "uk": "Боротьба з голодом"
+ },
+ "dlh_famine_reductions_desc": {
+  "en": "Instead of sitting idly whilst the population starves, we should provide aid for any location which may be lacking food.",
+  "uk": "Ми не будемо сидіти склавши руки, поки наші підлеглі вмирають від голоду, і окажемо допомогу всім районам, що страждають від нестачі припасів."
+ },
+ "ecclesiastical_burghs_rights": {
+  "en": "Expand Ecclesiastical Burghs",
+  "uk": "Розширення церковних бургів"
+ },
+ "ecclesiastical_burghs_rights_desc": {
+  "en": "Expanding the rights for ecclesiastical burghs will further the development of our nation.",
+  "uk": "Розширивши права церковних бургів, ми посприяємо розвитку нації."
+ },
+ "edict_of_nantes_issue": {
+  "en": "Edict of Nantes",
+  "uk": "Нантський едикт"
+ },
+ "edict_of_nantes_issue_desc": {
+  "en": "After years of religious struggle, it is time for us to promote unity through co-existence and end the unnecessary bloodshed.",
+  "uk": "Після багатьох років релігійної боротьби настав час зміцнити єдність через співіснування і покласти край непотрібному кровопролиттю."
+ },
+ "end_the_french_wars_religion_tt": {
+  "en": "The [ShowDisasterName('french_wars_religion')] [disaster|e] will end",
+  "uk": ""
+ },
+ "entrench_desc": {
+  "en": "Our society requires constant reminding what our ideals represent. We must reinforce our values and",
+  "uk": "Нашому суспільству потрібно постійно нагадувати про ідеали. Ми маємо зміцнити свої цінності і"
+ },
+ "establish_a_constitution": {
+  "en": "Establish a Constitution",
+  "uk": "Створення конституції"
+ },
+ "establish_a_constitution_desc": {
+  "en": "The will of the people must be encapsuled into a written document, accepted by all, to solidify our rights and at the same time curb central authority.",
+  "uk": "Воля народу має бути викладена в офіційно прийнятому письмовому документі, що дозволить закріпити наші права і водночас обмежить центральну владу."
+ },
+ "establish_clergy_charity": {
+  "en": "Establish Clergy Charity",
+  "uk": ""
+ },
+ "establish_clergy_charity_desc": {
+  "en": "Our people go hungry while the granaries of great lords stand full. It is the duty of the Church to organize the relief of the poor and the hungry — a duty we must now formalize and fund.",
+  "uk": ""
+ },
+ "establish_colonial_administration": {
+  "en": "Establish Colonial Administration",
+  "uk": ""
+ },
+ "establish_colonial_administration_desc": {
+  "en": "The colonies we have planted abroad must be governed as proper extensions of our realm, not left to the whims of fortune-seekers. We must establish proper administrative structures to make this so.",
+  "uk": ""
+ },
+ "establish_commodity_exchange": {
+  "en": "Establish a Commodity Exchange",
+  "uk": ""
+ },
+ "establish_commodity_exchange_desc": {
+  "en": "Our market centers bustle with activity, but lack a formal exchange where bulk goods can be traded in an orderly fashion. A properly established commodity exchange would make our markets the envy of our neighbors.",
+  "uk": ""
+ },
+ "establish_common_food_stores": {
+  "en": "Establish Common Food Stores",
+  "uk": ""
+ },
+ "establish_common_food_stores_desc": {
+  "en": "Our people are vulnerable to the cruel turns of bad harvests, and hunger breeds desperation. By establishing community grain stores, we ensure that no famine, however harsh, can leave our people without recourse.",
+  "uk": ""
+ },
+ "establish_customs_houses": {
+  "en": "Establish Customs Houses",
+  "uk": ""
+ },
+ "establish_customs_houses_desc": {
+  "en": "Our borders are porous, and foreign merchants profit from goods that enter our realm without proper accounting. By building customs houses, we impose order on our imports and ensure the crown and our merchants take their proper share.",
+  "uk": ""
+ },
+ "establish_field_hospitals": {
+  "en": "Establish Field Hospitals",
+  "uk": ""
+ },
+ "establish_field_hospitals_desc": {
+  "en": "Too many of our soldiers die not from enemy blades but from wounds that could be treated, and sickness that could be prevented. Let the Church organize mobile hospitals to follow our armies and save the lives of those who fight for us.",
+  "uk": ""
+ },
+ "establish_heralds_college": {
+  "en": "Establish a Heralds' College",
+  "uk": ""
+ },
+ "establish_heralds_college_desc": {
+  "en": "The precedence of titles, the rights of coats of arms, and the order of noble rank are matters of great consequence. A heralds' college would bring order to these affairs and lend greater prestige to our realm abroad.",
+  "uk": ""
+ },
+ "establish_import_controls": {
+  "en": "Establish Import Controls",
+  "uk": ""
+ },
+ "establish_import_controls_desc": {
+  "en": "We must not allow the flood of foreign goods to undermine our own producers. By establishing formal controls on what enters our markets, we protect our industries and ensure our merchants remain competitive.",
+  "uk": ""
+ },
+ "establish_inquisition_courts": {
+  "en": "Establish Inquisition Courts",
+  "uk": ""
+ },
+ "establish_inquisition_courts_desc": {
+  "en": "The seeds of heresy have taken root, and only a systematic effort of Church courts can root them out. We must act swiftly before the contagion spreads further.",
+  "uk": ""
+ },
+ "establish_military_exercises": {
+  "en": "Establish Military Exercises",
+  "uk": ""
+ },
+ "establish_military_exercises_desc": {
+  "en": "Our noble retinues grow soft in times of peace. By mandating regular field exercises and tournaments, we ensure that our warriors remain sharp and our armies ready when the call to battle comes.",
+  "uk": ""
+ },
+ "establish_noble_garrison_law": {
+  "en": "Establish Noble Garrison Law",
+  "uk": ""
+ },
+ "establish_noble_garrison_law_desc": {
+  "en": "Unrest threatens our realm, and we cannot suppress it without strong local garrisons. Let the noble houses be required by law to maintain fortified positions in their domains, ready to defend crown and country.",
+  "uk": ""
+ },
+ "establish_parish_waypoints": {
+  "en": "Establish Parish Waypoints",
+  "uk": ""
+ },
+ "establish_parish_waypoints_desc": {
+  "en": "The roads of our realm are long and the distances wearying for courier and traveler alike. By establishing parish stations along key routes, the Church can provide rest, guidance, and support to all who move through our lands.",
+  "uk": ""
+ },
+ "establish_pilgrimage_routes": {
+  "en": "Establish Pilgrimage Routes",
+  "uk": ""
+ },
+ "establish_pilgrimage_routes_desc": {
+  "en": "The sacred sites of our faith draw the faithful from near and far. By formally protecting and maintaining the routes to these holy places, we show our piety and draw distinction and prestige to our realm.",
+  "uk": ""
+ },
+ "establish_standing_regiments": {
+  "en": "Establish Standing Regiments",
+  "uk": ""
+ },
+ "establish_standing_regiments_desc": {
+  "en": "The age of mustering retainers at need has passed. Our noble houses should instead furnish trained officers to lead regiments kept permanent in royal service, a fighting force that owes its discipline to the crown rather than to its lord.",
+  "uk": ""
+ },
+ "establish_the_signoria_of_venice": {
+  "en": "Establish the Signoria of Venice",
+  "uk": "Заснування венеційської синьйорії"
+ },
+ "establish_the_signoria_of_venice_desc": {
+  "en": "The old Commune of Venice serves its purpose and has its long tradition within our state. However, its administrative efficiency is showing its age. We might want to rework the supreme body of government and replace it with a new system which leads solves the domestic problems of the nation.",
+  "uk": "Стара венеційська комуна виконує свою роль і є давньою традицією нашої держави. Однак нас перестає влаштовувати її адміністративна ефективність. Можливо, нам варто змінити головний орган нашого уряду, замінивши його новою системою, покликаною вирішувати внутрішні проблеми держави."
+ },
+ "establish_trade_insurance": {
+  "en": "Establish Trade Insurance",
+  "uk": ""
+ },
+ "establish_trade_insurance_desc": {
+  "en": "The risks of trade — shipwreck, banditry, war — deter many a merchant from the ventures that would enrich the realm. By creating formal insurance schemes, we allow our merchants to trade with greater confidence.",
+  "uk": ""
+ },
+ "establish_village_councils": {
+  "en": "Establish Village Councils",
+  "uk": ""
+ },
+ "establish_village_councils_desc": {
+  "en": "Our rural communities are governed by distant lords who neither know nor care for local needs. By establishing village councils with the authority to manage local affairs, we give our people a voice and bring order closer to home.",
+  "uk": ""
+ },
+ "expand_barracks": {
+  "en": "Expand the $barracks$ Infrastructure",
+  "uk": "Розширення казарм"
+ },
+ "expand_barracks_desc": {
+  "en": "$finance_the_armory_desc$",
+  "uk": ""
+ },
+ "expand_diplomatic_corps_generic_desc": {
+  "en": "The sword alone will only carry us so far. It would be far more beneficial for us to let the pen support the sword to achieve greater things.",
+  "uk": "Не всі питання можна вирішити силою меча. Набагато вигідніше дозволити перу підтримати меч і тим самим досягти видатних звершень."
+ },
+ "expand_diplomatic_corps_majors": {
+  "en": "Great Power Relations",
+  "uk": "Відносини з великими державами"
+ },
+ "expand_diplomatic_corps_majors_desc": {
+  "en": "$expand_diplomatic_corps_generic_desc$ We need to secure our relations to the great powers of the world.",
+  "uk": "$expand_diplomatic_corps_generic_desc$ Нам необхідно зміцнити відносини з великими державами світу."
+ },
+ "expand_diplomatic_corps_minors": {
+  "en": "Increase Ties to Neighbors",
+  "uk": "Зміцнення зв'язків із сусідами"
+ },
+ "expand_diplomatic_corps_minors_desc": {
+  "en": "$expand_diplomatic_corps_generic_desc$ Our main concern should be the minor countries around ourselves.",
+  "uk": "$expand_diplomatic_corps_generic_desc$ Головною нашою турботою мають бути невеликі країни навколо нас."
+ },
+ "expand_diplomatic_corps_religion": {
+  "en": "Reach Out to our Faith",
+  "uk": "Звернення до віри"
+ },
+ "expand_diplomatic_corps_religion_desc": {
+  "en": "$expand_diplomatic_corps_generic_desc$ It is vital for us to improve our contacts to our religious brethren.",
+  "uk": "$expand_diplomatic_corps_generic_desc$ Для нас життєво необхідно покращити відносини з нашими братами по вірі."
+ },
+ "expand_docks": {
+  "en": "Expand our Shipbuilding Facilities",
+  "uk": "Нарощування корабельних потужностей"
+ },
+ "expand_docks_desc": {
+  "en": "We need to expand our shipbuilding capacities to provide a formidable fleet for our country.",
+  "uk": "Нам потрібно наростити корабельні потужності, щоб побудувати могутній флот для своєї держави."
+ },
+ "expand_dry_docks": {
+  "en": "Expand our Shipbuilding Facilities",
+  "uk": "Нарощування корабельних потужностей"
+ },
+ "expand_dry_docks_desc": {
+  "en": "We need to expand our shipbuilding capacities to provide a formidable fleet for our country.",
+  "uk": "Нам потрібно наростити корабельні потужності, щоб побудувати могутній флот для своєї держави."
+ },
+ "expand_farming_operations": {
+  "en": "Fund Farming Estates",
+  "uk": "Фінансування сільськогосподарських маєтків"
+ },
+ "expand_farming_operations_desc": {
+  "en": "Our farming estates secure the production of many basic necessities. However, the owners of the lands promise greater yields if we invest more time and resources into them.",
+  "uk": "Наші сільськогосподарські землі забезпечують виробництво багатьох життєво важливих ресурсів. Однак землевласники обіцяють, що врожай можна збільшити при додаткових вкладеннях часу та коштів."
+ },
+ "expand_food_stockpiles": {
+  "en": "Expand Food Stockpiles",
+  "uk": "Збільшення запасів їжі"
+ },
+ "expand_food_stockpiles_desc": {
+  "en": "Our people are raising the pressing concern of food shortages to us. We should try to expand our [ShowBuildingTypeName('granary')] Network to prevent the same situation in the future.",
+  "uk": "Наш народ висловлює стурбованість дефіцитом продовольства. Нам слід розширити нашу мережу #TOOLTIP:BUILDING_TYPE,granary,X #L амбарів#!#!, щоб уникнути подібних ситуацій у майбутньому."
+ },
+ "expand_forestry_operations": {
+  "en": "Expand Forest Exploitation",
+  "uk": "Розширення заготівель лісу"
+ },
+ "expand_forestry_operations_desc": {
+  "en": "The forests of our country promise greater yields. We should expand our extraction operations to reach their potential.",
+  "uk": "Ліси нашої країни можуть принести великі прибутки. Слід розширити заготівлі для розкриття потенціалу цієї галузі."
+ },
+ "expand_gathering_operations": {
+  "en": "Expand Gathering Industries",
+  "uk": "Розширення промислового збору"
+ },
+ "expand_gathering_operations_desc": {
+  "en": "We should expand our gathering operations to meet the demands of those goods in the construction and maintenance of our wider economy.",
+  "uk": "Слід розширити промисловий збір, щоб задовольнити попит і потреби в цих товарах у сфері побудови та забезпечення стійкості нашої економіки."
+ },
+ "expand_grand_shipyards": {
+  "en": "Expand our Shipbuilding Facilities",
+  "uk": "Нарощування корабельних потужностей"
+ },
+ "expand_grand_shipyards_desc": {
+  "en": "We need to expand our shipbuilding capacities to provide a formidable fleet for our country.",
+  "uk": "Нам потрібно наростити корабельні потужності, щоб побудувати могутній флот для своєї держави."
+ },
+ "expand_hunting_operations": {
+  "en": "Establish New Hunting Grounds",
+  "uk": "Створення нових мисливських угідь"
+ },
+ "expand_hunting_operations_desc": {
+  "en": "We have not yet developed our hunting grounds to their full capacity and are therefore missing many possible profits.",
+  "uk": "Наші мисливські угіддя не освоєні в повній мірі, що призводить до втрати можливих доходів."
+ },
+ "expand_mining_operations": {
+  "en": "Expand Mining Operations",
+  "uk": "Розширення гірничих робіт"
+ },
+ "expand_mining_operations_desc": {
+  "en": "Mining could play a vital part in our economy, but the current operations are not up to a satisfactory standard.",
+  "uk": "Гірництво могло б відіграти ключову роль в нашій економіці, однак поточний стан справ у цій галузі залишає бажати кращого."
+ },
+ "expand_naval_bases": {
+  "en": "Expand our Shipbuilding Facilities",
+  "uk": "Нарощування корабельних потужностей"
+ },
+ "expand_naval_bases_desc": {
+  "en": "We need to expand our shipbuilding capacities to provide a formidable fleet for our country.",
+  "uk": "Нам потрібно наростити корабельні потужності, щоб побудувати могутній флот для своєї держави."
+ },
+ "expand_officer_lists": {
+  "en": "Expand Officer Lists",
+  "uk": "Розширення офіцерських списків"
+ },
+ "expand_officer_lists_desc": {
+  "en": "The promotion of capable men in high ranks across our military is a surefire way to ensure capable leadership.",
+  "uk": "Завдяки підвищенню здібних людей до високих військових чинів ми отримаємо більш уміле військове керівництво."
+ },
+ "expand_our_market": {
+  "en": "Market Expansion Acts",
+  "uk": "Акти про розширення ринку"
+ },
+ "expand_our_market_desc": {
+  "en": "Our market stands to greatly benefit by the loosening of our mercantile regulations.",
+  "uk": "Наш ринок лише виграє, якщо ми послабимо торговельні обмеження."
+ },
+ "expand_postal_relay_network": {
+  "en": "Expand the Postal Relay Network",
+  "uk": ""
+ },
+ "expand_postal_relay_network_desc": {
+  "en": "Reliable communication is the lifeblood of commerce. Our merchant houses are willing to finance a network of relay stations that would carry messages and goods faster than ever before — an investment that would repay itself many times over.",
+  "uk": ""
+ },
+ "expand_shipyards": {
+  "en": "Expand our Shipbuilding Facilities",
+  "uk": "Нарощування корабельних потужностей"
+ },
+ "expand_shipyards_desc": {
+  "en": "We need to expand our shipbuilding capacities to provide a formidable fleet for our country.",
+  "uk": "Нам потрібно наростити корабельні потужності, щоб побудувати могутній флот для своєї держави."
+ },
+ "finance_the_armory": {
+  "en": "Expand Our $armory$",
+  "uk": "Розширення арсеналу"
+ },
+ "finance_the_armory_desc": {
+  "en": "Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.",
+  "uk": "Щоб повернути резерву нашої армії колишню славу, неодмінно потрібно оновити інфраструктуру для рекрутського набору."
+ },
+ "fortify_frontier_passes": {
+  "en": "Fortify Frontier Passes",
+  "uk": ""
+ },
+ "fortify_frontier_passes_desc": {
+  "en": "Our borders are only as strong as the passes our enemies must cross to reach us. We should fund the hardening of every vulnerable crossing — turning the natural defenses of the land into killing grounds for any who dare invade.",
+  "uk": ""
+ },
+ "found_college_of_justice": {
+  "en": "Establish the College of Justice",
+  "uk": "Заснування судової колегії"
+ },
+ "found_college_of_justice_desc": {
+  "en": "The legal code is currently underdeveloped and does not meet our standards. We should establish a new Institution, the College of Justice, to tackle these issues and found a strong legal system.",
+  "uk": "Наш звід законів застарів і вже не відповідає нашим стандартам. Ми маємо заснувати новий інститут, судову колегію, яка займеться цим питанням і створить надійну правову систему."
+ },
+ "fund_artisan_guilds": {
+  "en": "Fund Artisan Guilds",
+  "uk": ""
+ },
+ "fund_artisan_guilds_desc": {
+  "en": "The skilled craftsmen of our realm produce goods of extraordinary quality, but they lack the organisation and support to reach their full potential. We should fund and protect the guilds that represent them.",
+  "uk": ""
+ },
+ "fund_monastery_network": {
+  "en": "Fund a Monastery Network",
+  "uk": ""
+ },
+ "fund_monastery_network_desc": {
+  "en": "The monasteries of our realm are centers of learning, charity, and order. We should expand their network and endow them properly, that their good works may reach every corner of the realm.",
+  "uk": ""
+ },
+ "fund_noble_colonization": {
+  "en": "Fund Noble Colonization",
+  "uk": ""
+ },
+ "fund_noble_colonization_desc": {
+  "en": "The great noble houses of our realm have the resources and the ambition to finance colonial expeditions. We should charter and encourage these ventures to extend our reach beyond the horizon.",
+  "uk": ""
+ },
+ "fund_royal_art_patronage": {
+  "en": "Fund Royal Art Patronage",
+  "uk": ""
+ },
+ "fund_royal_art_patronage_desc": {
+  "en": "The greatness of a realm is measured not only in armies and gold, but in the works of art and culture it produces. We should invest in the patronage of artists and craftsmen who will immortalize our dynasty's glory.",
+  "uk": ""
+ },
+ "fund_siege_engineers": {
+  "en": "Fund Siege Engineers",
+  "uk": ""
+ },
+ "fund_siege_engineers_desc": {
+  "en": "The walls of our enemies will not fall without the expertise to bring them down. Our burgher guilds can finance specialist engineers and the siege equipment needed to reduce even the strongest fortifications.",
+  "uk": ""
+ },
+ "fund_trade_expeditions": {
+  "en": "Fund Trade Expeditions",
+  "uk": ""
+ },
+ "fund_trade_expeditions_desc": {
+  "en": "The merchant guilds stand ready to pool their capital for long-range commercial voyages, but such ventures require the backing of law and the confidence that comes from parliamentary support.",
+  "uk": ""
+ },
+ "grant_city_rights": {
+  "en": "Grant City Rights",
+  "uk": "Надання міських прав"
+ },
+ "grant_city_rights_desc": {
+  "en": "To keep our territory flourishing, we will need to expand the rights of our urban areas and grant more city rights.",
+  "uk": "Щоб забезпечити процвітання нашої території, нам необхідно розширити права міських поселень і надати додаткові міські права."
+ },
+ "grant_exclusive_hunting_rights": {
+  "en": "Grant Exclusive Hunting Rights",
+  "uk": ""
+ },
+ "grant_exclusive_hunting_rights_desc": {
+  "en": "The forests and game of the realm are the natural domain of the nobility. By granting them exclusive rights to hunt and manage these lands, we strengthen their bond to their estates and their loyalty to the crown.",
+  "uk": ""
+ },
+ "gravel_road_development": {
+  "en": "Expand $gravel_road$ Network",
+  "uk": "Розширення мережі гравійних доріг"
+ },
+ "gravel_road_development_burghers": {
+  "en": "$gravel_road_development$",
+  "uk": ""
+ },
+ "gravel_road_development_burghers_desc": {
+  "en": "$gravel_road_development_desc$",
+  "uk": ""
+ },
+ "gravel_road_development_desc": {
+  "en": "The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.",
+  "uk": "Зв'язок провінцій із населеними центрами лежить в основі нашої держави. Тому ми маємо прокладати нові дороги, а також фінансувати їх спорудження та розширення."
+ },
+ "host_army_excercises": {
+  "en": "Host Army Exercises",
+  "uk": "Проведення військових навчань"
+ },
+ "host_army_excercises_desc": {
+  "en": "If we are to keep a versatile army, we must promote military drills as a means to keep our soldiers at peak condition and ready.",
+  "uk": "Щоб зберегти гнучкість армії, ми повинні проводити військові навчання, покликані підтримувати солдатів в ідеальній формі."
+ },
+ "hre_demand_internal_peace": {
+  "en": "Demand Internal Peace",
+  "uk": "Вимога припинити внутрішні чвари"
+ },
+ "hre_demand_internal_peace_desc": {
+  "en": "The authority of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is undermined due to internal conflicts within the [GetUniqueInternationalOrganization('hre').GetName]. It is in the Empire's interest to enforce internal peace and stability.",
+  "uk": "Держава погрузла у внутрішніх конфліктах, через що [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] поступово втрачає владу та повагу підлеглих. Щоб зберегти імперію, потрібно якнайшвидше забезпечити в ній мир і стабільність."
+ },
+ "hre_demand_internal_peace_tt": {
+  "en": "Every [member|e] signs a [white_peace|e] in every [war|e] which has another [member] of the [THIS.GetInternationalOrganization.GetName]",
+  "uk": "Усі [Concept('war', 'війни')|e] між [Concept('member','учасниками')|e] міжнародної організації «[THIS.GetInternationalOrganization.GetName]» будуть закінчені [Concept('white_peace','миром на умовах «статус-кво»')|e]"
+ },
+ "hre_establish_perpetual_diet": {
+  "en": "Establish the Perpetual Diet",
+  "uk": "Закріплення постійного раціону"
+ },
+ "hre_establish_perpetual_diet_desc": {
+  "en": "$perpetual_diet_law_desc$",
+  "uk": ""
+ },
+ "hre_establish_perpetual_diet_tt": {
+  "en": "The [parliament_seat|e] of [GetUniqueInternationalOrganization('hre').GetName] becomes the only valid [location|e] to hold the [parliament|e] in.",
+  "uk": "[Concept('parliament_seat','Розташування парламенту')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! стане єдиним можливим [Concept('location','районом')|e] для скликання [Concept('parliament','парламенту')|e]."
+ },
+ "hre_force_emperor_to_abdicate": {
+  "en": "Force Emperor to Abdicate",
+  "uk": "Примушення імператора до відмови від влади"
+ },
+ "hre_force_emperor_to_abdicate_desc": {
+  "en": "The rule of the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] has been judged by the [ShowSpecialStatusNamePlural('elector')] as insufficient. The Imperial Diet has been called to discuss the future of the leadership of the [GetUniqueInternationalOrganization('hre').GetName].",
+  "uk": "#TOOLTIP:SPECIAL_STATUS,elector,X #L Князі-виборці#!#! визнали, що [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] більше не справля[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('endlong_etyut')]ться з управлінням #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священною Римською Імперією#!#!. Вони скликають рейхстаг, щоб обговорити зміну влади та визначити майбутнє імперії."
+ },
+ "hre_law_debate": {
+  "en": "Imperial Law Debate",
+  "uk": "Обговорення імперського правила"
+ },
+ "hre_law_debate_desc": {
+  "en": "The [ShowSpecialStatusName('emperor')] of the [GetUniqueInternationalOrganization('hre').GetName] intends to implement a new law. Now is the opportunity for the Imperial Estates to negotiate in favor or against the proposal.",
+  "uk": "[ShowSpecialStatusName('emperor')] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! має намір ввести новий закон. У імперських станів є можливість підтримати або відкинути цю пропозицію."
+ },
+ "hre_request_additional_military_support": {
+  "en": "Imperial Military Support",
+  "uk": "Допомога імперській армії"
+ },
+ "hre_request_additional_military_support_desc": {
+  "en": "The [GetUniqueInternationalOrganization('hre').GetName] is under the threat of foreign invasion. The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] sees itself forced to request the military might of the whole Empire and all its members.",
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській імперії#!#! загрожує напад. [GetUniqueInternationalOrganization('hre').GetLeaderTitle] вирішує закликати на допомогу всі війська, якими розташовують імперські стани."
+ },
+ "hre_roman_month": {
+  "en": "Roman Month",
+  "uk": "Римський місяць"
+ },
+ "hre_roman_month_desc": {
+  "en": "The treasury of the [GetUniqueInternationalOrganization('hre').GetName] has been running dry as of late. The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] requests the finanical support of the members of the Empire to ensure its security.",
+  "uk": "Останнім часом скарбниця #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! значно спорожніла. У зв'язку з цим [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] просить імперські стани про фінансову підтримку."
+ },
+ "hre_roman_month_modifier_effect": {
+  "en": "[ShowModifierEffect('pi_hre_increased_imperial_tax_modifier')]",
+  "uk": ""
+ },
+ "hussite_army_reform": {
+  "en": "$hussite_ADJ$ Military Reforms",
+  "uk": "Гуситські військові реформи"
+ },
+ "hussite_army_reform_desc": {
+  "en": "Our people have traversed the valleys of history against all odds. Surviving wars, crusades and persecution. Our armies deserve to employ the finest of tactics and shift into the offense, against all those who seek our demise!",
+  "uk": "Наш народ вистояв, незважаючи на всі труднощі та негаразди. Ми пережили війни, хрестові походи і переслідування. Ми навчимо нашу армію найсучаснішим тактикам і піднімемо зброю проти всіх, хто намагається нас зламати!"
+ },
+ "improve_relations_with_the_faith": {
+  "en": "Foster Religious Relations",
+  "uk": ""
+ },
+ "improve_relations_with_the_faith_desc": {
+  "en": "The relations between our faith and our state can be strained by many decision, especially if the faith itself is split on a specific issue. Acting as a mediator between different factions and forcing them to negotiate could prevent any further, severe split.",
+  "uk": ""
+ },
+ "improve_subject_relations": {
+  "en": "Increase Ties to Subject",
+  "uk": "Зміцнення зв'язків з васалом"
+ },
+ "improve_subject_relations_desc": {
+  "en": "By increasing our diplomatic and administrative ties to our subject we will be able to bind them more closely to our state.",
+  "uk": "Зміцнивши дипломатичні та адміністративні зв'язки з васалом, ми зможемо тісніше прив'язати його до нашої держави."
+ },
+ "increase_control_in_britain": {
+  "en": "Increase Control in Britain",
+  "uk": "Посилення контролю в Британії"
+ },
+ "increase_control_in_britain_desc": {
+  "en": "The British Isles are disconnected from the rest of the European continent, making it harder for us to rule over them. We should put the effort to make sure we overcome this challenge and increase our control over there.",
+  "uk": "Британські острови ізольовані від решти європейського континенту, тому керувати ними непросто. Незважаючи на всі складнощі, ми маємо посилити над ними контроль."
+ },
+ "increase_naval_spending": {
+  "en": "Increased Naval Infrastructure",
+  "uk": "Підтримка військово-морської інфраструктури"
+ },
+ "increase_naval_spending_desc": {
+  "en": "We need to improve the infrastructure of our coastal towns and cities to support our power projection across our waters.",
+  "uk": "Розвиваючи інфраструктуру прибережних міст, ми зможемо посилити дипломатичну вагу у своїх водах."
+ },
+ "increase_non_hindu_control": {
+  "en": "Control over the Heathens",
+  "uk": "Контроль над язичниками"
+ },
+ "increase_non_hindu_control_desc": {
+  "en": "Rather than allowing our nation to be filled with many different faiths, we should try to control them further lest they rebel.",
+  "uk": "Не можна дозволити, щоб у нашій країні було багато різних вірувань. Щоб уникнути хвилювань, треба контролювати язичників."
+ },
+ "increase_our_control": {
+  "en": "Increase Our Control",
+  "uk": "Посилення контролю"
+ },
+ "increase_our_control_desc": {
+  "en": "Exerting control over our county is vital to the functionality of our state. We should improve our institutions that enforce control over our towns.",
+  "uk": "Затвердження контролю над державою необхідне для її функціонування. Ми маємо зміцнити інституції, відповідальні за контроль над містами."
+ },
+ "institute_canonical_law": {
+  "en": "Institute Canonical Law",
+  "uk": ""
+ },
+ "institute_canonical_law_desc": {
+  "en": "A realm divided in faith is a realm divided in spirit. By codifying church law and enforcing its uniform application across our provinces, we strengthen the bonds of faith that hold our people together.",
+  "uk": ""
+ },
+ "institute_feudal_levies": {
+  "en": "Institute Feudal Levies",
+  "uk": ""
+ },
+ "institute_feudal_levies_desc": {
+  "en": "The backbone of any great army is the mounted nobility. By formalizing the military obligations of our noble houses — particularly their obligation to furnish heavy cavalry — we strengthen our forces in the field.",
+  "uk": ""
+ },
+ "issue_royal_censure": {
+  "en": "Issue Royal Censure",
+  "uk": ""
+ },
+ "issue_royal_censure_desc": {
+  "en": "Our rivals have taken actions that cannot go without formal rebuke. A royal censure, backed by the authority of this parliament, would make plain to all that we will not suffer such conduct without response.",
+  "uk": ""
+ },
+ "iw_militarize_country": {
+  "en": "Militarize the Nation",
+  "uk": ""
+ },
+ "iw_militarize_country_desc": {
+  "en": "Call upon [parliament|e] to support an emergency military buildup, granting [army_tradition|e] and hardening our most experienced [army|e].",
+  "uk": ""
+ },
+ "launch_religious_missions": {
+  "en": "Launch Religious Missions",
+  "uk": ""
+ },
+ "launch_religious_missions_desc": {
+  "en": "Much of our realm yet lies outside the light of the true faith. The Church must organize and dispatch missionaries to bring those lost souls into the fold, and we shall give them the backing they need to succeed.",
+  "uk": ""
+ },
+ "lessen_levy_obligations": {
+  "en": "Lessen Levy Obligations",
+  "uk": "Скорочення набору до ополчення"
+ },
+ "lessen_levy_obligations_desc": {
+  "en": "We promise to reduce the [levy|e] obligations they have for their support.",
+  "uk": "Ми обіцяємо скоротити повинність зі збору [Concept('levy','ополчення')|e] в обмін на їхню підтримку."
+ },
+ "lessen_levy_obligations_simple": {
+  "en": "$lessen_levy_obligations$",
+  "uk": ""
+ },
+ "lessen_tax_burden": {
+  "en": "Tax Exemption",
+  "uk": "Податкові пільги"
+ },
+ "lessen_tax_burden_desc": {
+  "en": "We promise to reduce the [tax|e] collected for their support.",
+  "uk": "Ми обіцяємо знизити [Concept('tax','податки')|e] в обмін на їхню підтримку."
+ },
+ "lessen_tax_burden_simple": {
+  "en": "$lessen_tax_burden$",
+  "uk": ""
+ },
+ "license_noble_privateers": {
+  "en": "License Noble Privateers",
+  "uk": ""
+ },
+ "license_noble_privateers_desc": {
+  "en": "The seas offer riches to the bold, and noble houses are well placed to outfit vessels of war for profit. By issuing letters of marque, we give form and legitimacy to their ventures while the crown benefits from the resulting trade disruption.",
+  "uk": ""
+ },
+ "license_trading_companies": {
+  "en": "License Trading Companies",
+  "uk": ""
+ },
+ "license_trading_companies_desc": {
+  "en": "The risks and rewards of long-distance trade are too great for any single merchant to bear alone. We should license formal trading companies to pool resources and share those risks, to the benefit of the realm as a whole.",
+  "uk": ""
+ },
+ "lit_5_percent_of_pops_convert_to_our_religion_tt": {
+  "en": "#Y 5%#! of [ShowReligionAdjective('romuva')] [pops|e] will convert to [ROOT.GetCountry.GetReligion.GetName]",
+  "uk": "#Y 5%#! #TOOLTIP:RELIGION,romuva_tt,X #L ромуванського#!#! [Concept('pops', 'населення')|e] навернеться в іншу релігію ([ROOT.GetCountry.GetReligion.GetName|l])"
+ },
+ "lit_measures_against_romuva": {
+  "en": "Measures Against $romuva_ADJ$ Resurgence",
+  "uk": "Заходи проти ромувського відродження"
+ },
+ "lit_measures_against_romuva_desc": {
+  "en": "With the resurgency of the [ShowReligionAdjective('romuva')] faith, many are worried that they may try and cause unrest. We need to summon the estates to deal with this matter.",
+  "uk": "У світлі відродження #L [ShowReligionAdjective('romuva')|l]ої#! віри виникли побоювання, що її прихильники можуть влаштувати безлади. Потрібно скликати стани і розібратися з цим."
+ },
+ "mandate_emergency_levies": {
+  "en": "Mandate Emergency Levies",
+  "uk": ""
+ },
+ "mandate_emergency_levies_desc": {
+  "en": "Our war effort stands in need of greater support from every corner of the realm. The crown must call upon all estates and subjects to contribute what they can to see us through this trial.",
+  "uk": ""
+ },
+ "mandate_wartime_conscription": {
+  "en": "Mandate Wartime Conscription",
+  "uk": ""
+ },
+ "mandate_wartime_conscription_desc": {
+  "en": "Our enemies field armies of conscripted men, and we must do the same. Drawing reserves and recruits through the parish rolls will swell our forces in this hour of need.",
+  "uk": ""
+ },
+ "military_chaplaincy": {
+  "en": "Military Chaplaincy",
+  "uk": ""
+ },
+ "military_chaplaincy_desc": {
+  "en": "Our armies fight not only for crown and country, but for faith and duty. By embedding clergy as chaplains within our forces, we sustain the spirit of our soldiers under the hardships of campaign.",
+  "uk": ""
+ },
+ "modern_road_development": {
+  "en": "Expand $modern_road$ Network",
+  "uk": "Розширити мережу сучасних доріг"
+ },
+ "modern_road_development_desc": {
+  "en": "$gravel_road_development_desc$",
+  "uk": ""
+ },
+ "monopolize_land_trade_routes": {
+  "en": "Monopolize Land Trade Routes",
+  "uk": ""
+ },
+ "monopolize_land_trade_routes_desc": {
+  "en": "Our nobility controls the roads, the passes, and the bridges through which all land trade must flow. By granting them formal tolling rights over overland merchants, we channel those profits into the hands of our most loyal subjects.",
+  "uk": ""
+ },
+ "mountain_pass_charters": {
+  "en": "Mountain Pass Charters",
+  "uk": ""
+ },
+ "mountain_pass_charters_desc": {
+  "en": "Our noble houses stand astride the mountain passes that divide our realm. By chartering them to maintain and garrison these crossings, we ensure that distance and terrain no longer isolate our provinces from the crown.",
+  "uk": ""
+ },
+ "mug_promote_rajput_officials": {
+  "en": "Promote $rajasthani_language$ Officials",
+  "uk": "Покровительство раджастханців"
+ },
+ "mug_promote_rajput_officials_desc": {
+  "en": "By promoting the $rajasthani_language$ people in the nation, we can ensure that we have a number of militaristic officials we can depend upon.",
+  "uk": "Якщо частіше призначати раджастханців на важливі посади, в уряді буде більше чиновників-мілітаристів, на яких завжди можна покластися."
+ },
+ "naval_supply_contracts": {
+  "en": "Naval Supply Contracts",
+  "uk": ""
+ },
+ "naval_supply_contracts_desc": {
+  "en": "Our fleet cannot remain at sea without reliable supply, and the merchant guilds have the networks to provide it. By contracting them formally to keep the fleet provisioned, we ensure our ships can fight without fear of running short.",
+  "uk": ""
+ },
+ "new_mamluk_appears_tt": {
+  "en": "#Y A new $mamluk$ will be promoted#!",
+  "uk": "#Y Новий мамлюк отримає підвищення#!"
+ },
+ "new_model_army_pi": {
+  "en": "New Model Army",
+  "uk": "Армія нового зразка"
+ },
+ "new_model_army_pi_desc": {
+  "en": "The ravages of the ongoing civil war against the Royalists have proven that our army is in dire need of total reform.",
+  "uk": "Спустошлива громадянська війна з роялістами довела, що наша армія потребує тотального реформування."
+ },
+ "opinion_anti_scaligeri_league": {
+  "en": "$antagonism_anti_scaligeri_league$",
+  "uk": ""
+ },
+ "opinion_hre_pa_supports_free_cities": {
+  "en": "Supports the [ShowSpecialStatusNamePluralWithNoTooltip('free_city')]",
+  "uk": "Підтримка вільних міст"
+ },
+ "opinion_pa_raise_opinion": {
+  "en": "Courted on estate request",
+  "uk": "Прихильні вимоги стану"
+ },
+ "opinion_pa_reduce_opinion": {
+  "en": "Insulted on estate request",
+  "uk": "Образливі вимоги стану"
+ },
+ "pa_accept_estate_culture": {
+  "en": "Accept Estate Culture",
+  "uk": ""
+ },
+ "pa_accept_estate_culture_desc": {
+  "en": "The [estate|e] demands that the dominant [culture|e] of its people be granted official acceptance.",
+  "uk": ""
+ },
+ "pa_accept_estate_culture_simple": {
+  "en": "Bribe Estate",
+  "uk": ""
+ },
+ "pa_add_privilege": {
+  "en": "Grant Privilege",
+  "uk": "Надання привілею"
+ },
+ "pa_add_privilege_desc": {
+  "en": "Sometimes you have to give permanent benefits to an [estate|e] to gain their support for something in the shorter term.",
+  "uk": "Іноді потрібно надати [Concept('estate','стану')|e] постійні привілеї, щоб у короткостроковій перспективі заручитися його підтримкою."
+ },
+ "pa_add_privilege_simple": {
+  "en": "Bribe Estate",
+  "uk": "Підкуп стану"
+ },
+ "pa_break_alliance": {
+  "en": "Break Alliance",
+  "uk": "Розірвання союзу"
+ },
+ "pa_break_alliance_desc": {
+  "en": "This alliance is against the interest of this [estate|e] and they think it would be beneficial if the [alliance|e] was broken.",
+  "uk": "Цей [Concept('alliance','союз')|e] суперечить інтересам [Concept('estate','стану')|e], і його представники вважають, що отримають вигоду внаслідок його розірвання."
+ },
+ "pa_break_alliance_simple": {
+  "en": "$pa_break_alliance$",
+  "uk": ""
+ },
+ "pa_change_court_language_to_estate_language": {
+  "en": "Change Court Language",
+  "uk": ""
+ },
+ "pa_change_court_language_to_estate_language_desc": {
+  "en": "The [estate|e] demands that the [court_language|e] be changed to one that better reflects its identity.",
+  "uk": ""
+ },
+ "pa_change_court_language_to_estate_language_simple": {
+  "en": "Bribe Estate",
+  "uk": ""
+ },
+ "pa_change_policy": {
+  "en": "Change Policy",
+  "uk": "Зміна політики"
+ },
+ "pa_change_policy_desc": {
+  "en": "This [estate|e] takes issue with our current [policy|e] and would be more supportive if we alter our position to something more preferable.",
+  "uk": "Цей [Concept('estate', 'стан')|e] незадоволений нашою поточною [Concept('policy', 'політикою')|e] і буде більш прихильним, якщо ми все ж змінимо нашу позицію на більш бажану."
+ },
+ "pa_change_policy_simple": {
+  "en": "Bribe Estate",
+  "uk": "Підкуп стану"
+ },
+ "pa_construct_city_walls": {
+  "en": "Demand for $city_walls$",
+  "uk": ""
+ },
+ "pa_construct_city_walls_desc": {
+  "en": "The citizens are petitioning us to construct new [ShowBuildingTypeNameWithNoTooltip('city_walls')] for their protection.",
+  "uk": ""
+ },
+ "pa_construct_city_walls_simple": {
+  "en": "Demand for $city_walls$",
+  "uk": ""
+ },
+ "pa_construct_market_village": {
+  "en": "Demand for a New Marketplace",
+  "uk": "Потреба в новому ринку"
+ },
+ "pa_construct_market_village_desc": {
+  "en": "The [estate|e] is petitioning us to construct a new $market_village$ for their mercantile activities.",
+  "uk": "[Concept('estate', 'Стан')|e] звернувся до нас з проханням побудувати нове торгове село для своїх купецьких справ."
+ },
+ "pa_construct_market_village_simple": {
+  "en": "Demand for New Marketplaces",
+  "uk": "Потреба в нових ринках"
+ },
+ "pa_construct_monastery": {
+  "en": "Demand for a New Monastery",
+  "uk": "Потреба в новому монастирі"
+ },
+ "pa_construct_monastery_desc": {
+  "en": "Prominent clergymen are petitioning us to construct a remote monastic refuge for them to practice their faith in peace.",
+  "uk": "Видатні представники духовенства просять нас побудувати відокремлений монастир, щоб вони могли сповідувати свою віру вдалині від мирської метушні."
+ },
+ "pa_construct_monastery_simple": {
+  "en": "Demand for a New Monastery",
+  "uk": "Вимога нового монастиря"
+ },
+ "pa_convert_to_estate_religion": {
+  "en": "Convert to Estate Religion",
+  "uk": ""
+ },
+ "pa_convert_to_estate_religion_desc": {
+  "en": "The [estate|e] demands that the country convert to the [religion|e] of its people.",
+  "uk": ""
+ },
+ "pa_convert_to_estate_religion_simple": {
+  "en": "Bribe Estate",
+  "uk": ""
+ },
+ "pa_decrease_entrenchment": {
+  "en": "Reduce Bureaucratic Entrenchment",
+  "uk": ""
+ },
+ "pa_decrease_entrenchment_desc": {
+  "en": "Members of this [estate|e] seem to be pushing for the reduction of current bureaucracy entrenchment, likely in an effort to limit institutional influence.",
+  "uk": ""
+ },
+ "pa_decrease_entrenchment_simple": {
+  "en": "$pa_decrease_entrenchment$",
+  "uk": ""
+ },
+ "pa_hre_affirmation_of_free_city_rights": {
+  "en": "Affirmation of $free_city$ Rights",
+  "uk": "Визнання прав вільних міст"
+ },
+ "pa_hre_affirmation_of_free_city_rights_desc": {
+  "en": "We renew the rights and securities of the $free_city_plural$, ensuring their stability and prosperity within the Empire.",
+  "uk": "Варто продовжити дію привілеїв вільних міст, щоб забезпечити їхній стабільний розвиток та процвітання в складі імперії."
+ },
+ "pa_hre_affirmation_of_free_city_rights_tt": {
+  "en": "Every independent [ShowSpecialStatusName('free_city')] gains [ShowNamedValue('stability_mild_bonus')|+=2] [stability|e] while every country currently leading a war against them loses [ShowBiasValue('opinion_hre_pa_supports_free_cities')|+] opinion with the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] of the [GetUniqueInternationalOrganization('hre').GetName].",
+  "uk": "Кожне [ShowSpecialStatusName('free_city')|l] отримає [ShowNamedValue('stability_mild_bonus')|+=2] од. [Concept('stability', 'стабільності')|e]. При цьому всі держави, що воюють з ним, знизять свою думку про голову #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! на [ShowBiasValue('opinion_hre_pa_supports_free_cities\")|+] од."
+ },
+ "pa_hre_elevate_prussia_to_kingdom": {
+  "en": "Elevate [GetCountry('PRU').GetNameWithNoTooltip] to a [ShowCountryRankNameWithNoTooltip('rank_kingdom')]",
+  "uk": "Піднесення Пруссії до рангу королівства"
+ },
+ "pa_hre_elevate_prussia_to_kingdom_desc": {
+  "en": "The monarchs of [GetCountry('PRU').GetName] have always been ambitious in their strife towards power and glory. They formally requested the title of Kings even, though in the end they have to live as 'Kings in [GetCountry('PRU').GetNameWithNoTooltip]'. Elevating this country to a proper [ShowCountryRankName('rank_kingdom')] might gain us the last bit of favor though...",
+  "uk": "Правителі #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_RP')|L]#!#! завжди були вкрай амбітні. Багато з них навіть просили надати їм формальні титули королів, хоча в них і не було власного королівства. Можливо, піднісши цю державу до рангу #TOOLTIP:COUNTRY_RANK,rank_kingdom,X #L королівства#!#!, ми зможемо заручитися її повною підтримкою…"
+ },
+ "pa_hre_elevate_prussia_to_kingdom_simple": {
+  "en": "Elevate [GetCountry('PRU').GetNameWithNoTooltip]",
+  "uk": "Піднесення Пруссії до рангу королівства"
+ },
+ "pa_hre_elevate_prussia_to_kingdom_tt": {
+  "en": "[GetCountry('PRU').GetName] receives an [event|e] about our decision.",
+  "uk": "У зв'язку з нашим рішенням у #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_PP')|L]#!#! відбудеться відповідна [Concept('event','подія')|e]."
+ },
+ "pa_hre_grant_imperial_titles": {
+  "en": "Grant Imperial Titles",
+  "uk": "Надання імперських титулів"
+ },
+ "pa_hre_grant_imperial_titles_desc": {
+  "en": "The $elector_plural$ would greatly appreciate additional titles and prestige from the crown.",
+  "uk": "Виборці напевно будуть вдячні за надання додаткових титулів."
+ },
+ "pa_hre_grant_imperial_titles_simple": {
+  "en": "$pa_hre_grant_imperial_titles$",
+  "uk": ""
+ },
+ "pa_hre_lessen_tax_burden": {
+  "en": "Lessen Tax Burden",
+  "uk": "Зниження податкового тягаря"
+ },
+ "pa_hre_lessen_tax_burden_desc": {
+  "en": "We promise to reduce the [ShowPaymentName('imperial_contribution')] obligations they have for their support.",
+  "uk": "Ми обіцяємо скоротити повинність з #TOOLTIP:PAYMENT,imperial_contribution_tt,X #L внеску імперії#!#! в обмін на їхню підтримку."
+ },
+ "pa_hre_lessen_tax_burden_simple": {
+  "en": "$pa_hre_lessen_tax_burden$",
+  "uk": ""
+ },
+ "pa_increase_entrenchment": {
+  "en": "Increase Bureaucratic Entrenchment",
+  "uk": ""
+ },
+ "pa_increase_entrenchment_desc": {
+  "en": "Members of this [estate|e] seem to be pushing for the entrechment of current bureaucracy, likely in an effort to solidify whatever institutional influence they have.",
+  "uk": ""
+ },
+ "pa_increase_entrenchment_simple": {
+  "en": "$pa_increase_entrenchment$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_burghers": {
+  "en": "$lessen_levy_obligations$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_burghers_desc": {
+  "en": "$lessen_levy_obligations_desc$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_burghers_simple": {
+  "en": "$lessen_levy_obligations_simple$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_clergy": {
+  "en": "$lessen_levy_obligations$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_clergy_desc": {
+  "en": "$lessen_levy_obligations_desc$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_clergy_simple": {
+  "en": "$lessen_levy_obligations_simple$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_nobles": {
+  "en": "$lessen_levy_obligations$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_nobles_desc": {
+  "en": "$lessen_levy_obligations_desc$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_nobles_simple": {
+  "en": "$lessen_levy_obligations_simple$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_peasants": {
+  "en": "$lessen_levy_obligations$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_peasants_desc": {
+  "en": "$lessen_levy_obligations_desc$",
+  "uk": ""
+ },
+ "pa_lessen_levy_obligations_for_peasants_simple": {
+  "en": "$lessen_levy_obligations_simple$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_burghers": {
+  "en": "$lessen_tax_burden$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_burghers_desc": {
+  "en": "$lessen_tax_burden_desc$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_burghers_simple": {
+  "en": "$lessen_tax_burden_simple$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_clergy": {
+  "en": "$lessen_tax_burden$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_clergy_desc": {
+  "en": "$lessen_tax_burden_desc$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_clergy_simple": {
+  "en": "$lessen_tax_burden_simple$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_nobles": {
+  "en": "$lessen_tax_burden$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_nobles_desc": {
+  "en": "$lessen_tax_burden_desc$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_nobles_simple": {
+  "en": "$lessen_tax_burden_simple$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_peasants": {
+  "en": "$lessen_tax_burden$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_peasants_desc": {
+  "en": "$lessen_tax_burden_desc$",
+  "uk": ""
+ },
+ "pa_lessen_tax_burden_for_peasants_simple": {
+  "en": "$lessen_tax_burden_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_aristocracy": {
+  "en": "Aristocratic Support",
+  "uk": "Заохочення аристократії"
+ },
+ "pa_move_towards_aristocracy_desc": {
+  "en": "$entrench_desc$ elevate the nobility as the highest societal strata.",
+  "uk": "$entrench_desc$ підтримати статус аристократії як вищого стану."
+ },
+ "pa_move_towards_aristocracy_simple": {
+  "en": "Support Aristocracy",
+  "uk": "Підтримка аристократії"
+ },
+ "pa_move_towards_belligerent": {
+  "en": "Bellicose Support",
+  "uk": "Заохочення войовничого підходу"
+ },
+ "pa_move_towards_belligerent_desc": {
+  "en": "$entrench_desc$ present our belligerent stance.",
+  "uk": "$entrench_desc$ виявити свою войовничість."
+ },
+ "pa_move_towards_belligerent_simple": {
+  "en": "Support Belligerent Faction",
+  "uk": "Підтримка войовничої фракції"
+ },
+ "pa_move_towards_capital_economy": {
+  "en": "Support for Capital Economy",
+  "uk": "Підтримка капіталістичної економіки"
+ },
+ "pa_move_towards_capital_economy_desc": {
+  "en": "$entrench_desc$ enshrine our capital economy.",
+  "uk": "$entrench_desc$ підкреслити прихильність капіталістичній економіці."
+ },
+ "pa_move_towards_capital_economy_simple": {
+  "en": "Support for Capital Economy",
+  "uk": "Підтримка капіталістичної економіки"
+ },
+ "pa_move_towards_communalism": {
+  "en": "Support of Communal Values",
+  "uk": "Підтримка общинних цінностей"
+ },
+ "pa_move_towards_communalism_clergy": {
+  "en": "$pa_move_towards_communalism$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_clergy_desc": {
+  "en": "$pa_move_towards_communalism_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_clergy_simple": {
+  "en": "$pa_move_towards_communalism_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_desc": {
+  "en": "$entrench_desc$ nurture our communal roots.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність общинності."
+ },
+ "pa_move_towards_communalism_peasants": {
+  "en": "$pa_move_towards_communalism$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_peasants_desc": {
+  "en": "$pa_move_towards_communalism_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_peasants_simple": {
+  "en": "$pa_move_towards_communalism_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_communalism_simple": {
+  "en": "Support Communalism",
+  "uk": "Підтримка общинності"
+ },
+ "pa_move_towards_conciliatory": {
+  "en": "Conciliatory Support",
+  "uk": "Заохочення миролюбства"
+ },
+ "pa_move_towards_conciliatory_burghers": {
+  "en": "$pa_move_towards_conciliatory$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_burghers_desc": {
+  "en": "$pa_move_towards_conciliatory_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_burghers_simple": {
+  "en": "$pa_move_towards_conciliatory_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_desc": {
+  "en": "$entrench_desc$ strife towards conciliatory values.",
+  "uk": "$entrench_desc$ прагнути до ідеалів миролюбства."
+ },
+ "pa_move_towards_conciliatory_peasants": {
+  "en": "$pa_move_towards_conciliatory$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_peasants_desc": {
+  "en": "$pa_move_towards_conciliatory_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_peasants_simple": {
+  "en": "$pa_move_towards_conciliatory_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_conciliatory_simple": {
+  "en": "Support Conciliation",
+  "uk": "Підтримка миролюбства"
+ },
+ "pa_move_towards_decentralized": {
+  "en": "Autonomy Support",
+  "uk": "Заохочення автономії"
+ },
+ "pa_move_towards_decentralized_desc": {
+  "en": "$entrench_desc$ elevate the nobility as the autonomous rulers of our land",
+  "uk": "$entrench_desc$ підтримати аристократів як автономних правителів наших земель."
+ },
+ "pa_move_towards_decentralized_nobles": {
+  "en": "$pa_move_towards_decentralized$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_nobles_desc": {
+  "en": "$pa_move_towards_decentralized_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_nobles_simple": {
+  "en": "$pa_move_towards_decentralized_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_peasants": {
+  "en": "$pa_move_towards_decentralized$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_peasants_desc": {
+  "en": "$pa_move_towards_decentralized_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_peasants_simple": {
+  "en": "$pa_move_towards_decentralized_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_decentralized_simple": {
+  "en": "Support Autonomy",
+  "uk": "Підтримка автономії"
+ },
+ "pa_move_towards_free_subjects": {
+  "en": "Support Free Subjects",
+  "uk": "Заохочення особистої свободи"
+ },
+ "pa_move_towards_free_subjects_burghers": {
+  "en": "$pa_move_towards_free_subjects$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_burghers_desc": {
+  "en": "$pa_move_towards_free_subjects_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_burghers_simple": {
+  "en": "$pa_move_towards_free_subjects_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_desc": {
+  "en": "$entrench_desc$ enshrine the freedom of our subjects.",
+  "uk": "$push_towards_desc$ закріпити особисту свободу наших підлеглих."
+ },
+ "pa_move_towards_free_subjects_peasants": {
+  "en": "$pa_move_towards_free_subjects$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_peasants_desc": {
+  "en": "$pa_move_towards_free_subjects_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_peasants_simple": {
+  "en": "$pa_move_towards_free_subjects_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_free_subjects_simple": {
+  "en": "Support Free Subjects",
+  "uk": "Підтримка особистої свободи"
+ },
+ "pa_move_towards_humanist": {
+  "en": "Support of Humanist Ideas",
+  "uk": "Заохочення гуманістичних ідей"
+ },
+ "pa_move_towards_humanist_desc": {
+  "en": "$entrench_desc$ nurture our humanist stance.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність гуманізму."
+ },
+ "pa_move_towards_humanist_simple": {
+  "en": "Support Humanist Ideas",
+  "uk": "Підтримка гуманістичних ідей"
+ },
+ "pa_move_towards_individualism": {
+  "en": "Support of Individualist Values",
+  "uk": "Підтримка цінностей індивідуалізму"
+ },
+ "pa_move_towards_individualism_desc": {
+  "en": "$entrench_desc$ nurture our individualist roots.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність індивідуалізму."
+ },
+ "pa_move_towards_individualism_simple": {
+  "en": "Support Individualism",
+  "uk": "Підтримка індивідуалізму"
+ },
+ "pa_move_towards_innovative": {
+  "en": "Support of Innovative Ideas",
+  "uk": "Заохочення інноваційних ідей"
+ },
+ "pa_move_towards_innovative_desc": {
+  "en": "$entrench_desc$ nurture our innovative roots.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність інноваціям."
+ },
+ "pa_move_towards_innovative_simple": {
+  "en": "Support Innovative Ideas",
+  "uk": "Підтримка інноваційних ідей"
+ },
+ "pa_move_towards_inward": {
+  "en": "Support of Inward",
+  "uk": "Заохочення закритості"
+ },
+ "pa_move_towards_inward_clergy": {
+  "en": "$pa_move_towards_inward$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_clergy_desc": {
+  "en": "$pa_move_towards_inward_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_clergy_simple": {
+  "en": "$pa_move_towards_inward_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_desc": {
+  "en": "$entrench_desc$ enshrine our inward stance.",
+  "uk": "$entrench_desc$ підкреслити прихильність закритості."
+ },
+ "pa_move_towards_inward_peasants": {
+  "en": "$pa_move_towards_inward$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_peasants_desc": {
+  "en": "$pa_move_towards_inward_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_peasants_simple": {
+  "en": "$pa_move_towards_inward_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_inward_simple": {
+  "en": "Support Inward Stance",
+  "uk": "Підтримка закритості"
+ },
+ "pa_move_towards_land": {
+  "en": "Support for Land Focus",
+  "uk": "Заохочення уваги до армії"
+ },
+ "pa_move_towards_land_desc": {
+  "en": "$entrench_desc$ focus on our presence in our lands.",
+  "uk": "$entrench_desc$ зосередитися на наших арміях."
+ },
+ "pa_move_towards_land_simple": {
+  "en": "Support Land Faction",
+  "uk": "Підтримка армії"
+ },
+ "pa_move_towards_mercantilism": {
+  "en": "Mercantilism Support",
+  "uk": "Заохочення меркантилізму"
+ },
+ "pa_move_towards_mercantilism_desc": {
+  "en": "$entrench_desc$ enshrine mercantilism deeper in our society.",
+  "uk": "$entrench_desc$ вкоренити меркантилізм у нашому суспільстві."
+ },
+ "pa_move_towards_mercantilism_simple": {
+  "en": "Support Mercantilism",
+  "uk": "Підтримка меркантилізму"
+ },
+ "pa_move_towards_naval": {
+  "en": "Naval Support",
+  "uk": "Заохочення уваги до флоту"
+ },
+ "pa_move_towards_naval_desc": {
+  "en": "$entrench_desc$ focus on our presence on the sea.",
+  "uk": "$entrench_desc$ зосередитися на нашій морській присутності."
+ },
+ "pa_move_towards_naval_simple": {
+  "en": "Support Naval Values",
+  "uk": "Підтримка флоту"
+ },
+ "pa_move_towards_outward": {
+  "en": "Support for Outward",
+  "uk": "Заохочення відкритості"
+ },
+ "pa_move_towards_outward_burghers": {
+  "en": "$pa_move_towards_outward$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_burghers_desc": {
+  "en": "$pa_move_towards_outward_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_burghers_simple": {
+  "en": "$pa_move_towards_outward_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_desc": {
+  "en": "$entrench_desc$ enshrine our outward stance.",
+  "uk": "$entrench_desc$ підкреслити прихильність відкритості."
+ },
+ "pa_move_towards_outward_nobles": {
+  "en": "$pa_move_towards_outward$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_nobles_desc": {
+  "en": "$pa_move_towards_outward_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_nobles_simple": {
+  "en": "$pa_move_towards_outward_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_outward_simple": {
+  "en": "Support for Outward Stance",
+  "uk": "Підтримка відкритості"
+ },
+ "pa_move_towards_plutocracy": {
+  "en": "Plutocratic Support",
+  "uk": "Заохочення плутократії"
+ },
+ "pa_move_towards_plutocracy_desc": {
+  "en": "$entrench_desc$ strife towards plutocratic values.",
+  "uk": "$entrench_desc$ прагнути до ідеалів плутократії."
+ },
+ "pa_move_towards_plutocracy_simple": {
+  "en": "Support Plutocracy",
+  "uk": "Підтримка плутократії"
+ },
+ "pa_move_towards_serfdom": {
+  "en": "Serfdom Support",
+  "uk": "Заохочення кріпацтва"
+ },
+ "pa_move_towards_serfdom_desc": {
+  "en": "$entrench_desc$ enshrine serfdom deeper in our society.",
+  "uk": "$entrench_desc$ вкоренити кріпацтво в нашому суспільстві."
+ },
+ "pa_move_towards_serfdom_simple": {
+  "en": "Support Serfdom",
+  "uk": "Підтримка кріпацтва"
+ },
+ "pa_move_towards_spiritualist": {
+  "en": "Support of Spiritualist Ideas",
+  "uk": "Заохочення духовних ідей"
+ },
+ "pa_move_towards_spiritualist_clergy": {
+  "en": "$pa_move_towards_spiritualist$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_clergy_desc": {
+  "en": "$pa_move_towards_spiritualist_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_clergy_simple": {
+  "en": "$pa_move_towards_spiritualist_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_desc": {
+  "en": "$entrench_desc$ nurture our spiritualist roots.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність духовності."
+ },
+ "pa_move_towards_spiritualist_peasants": {
+  "en": "$pa_move_towards_spiritualist$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_peasants_desc": {
+  "en": "$pa_move_towards_spiritualist_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_peasants_simple": {
+  "en": "$pa_move_towards_spiritualist_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_spiritualist_simple": {
+  "en": "Support Spiritualist Ideas",
+  "uk": "Підтримка духовних ідей"
+ },
+ "pa_move_towards_traditional_economy": {
+  "en": "Support for Traditional Economy",
+  "uk": "Підтримка традиційної економіки"
+ },
+ "pa_move_towards_traditional_economy_desc": {
+  "en": "$entrench_desc$ enshrine our traditional economy.",
+  "uk": "$entrench_desc$ підкреслити прихильність традиційній економіці."
+ },
+ "pa_move_towards_traditional_economy_nobles": {
+  "en": "$pa_move_towards_traditional_economy$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_nobles_desc": {
+  "en": "$pa_move_towards_traditional_economy_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_nobles_simple": {
+  "en": "$pa_move_towards_traditional_economy_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_peasants": {
+  "en": "$pa_move_towards_traditional_economy$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_peasants_desc": {
+  "en": "$pa_move_towards_traditional_economy_desc$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_peasants_simple": {
+  "en": "$pa_move_towards_traditional_economy_simple$",
+  "uk": ""
+ },
+ "pa_move_towards_traditional_economy_simple": {
+  "en": "Support for Traditional Economy",
+  "uk": "Підтримка традиційної економіки"
+ },
+ "pa_move_towards_traditionalist": {
+  "en": "Support of Traditional Ideas",
+  "uk": "Заохочення традиційних ідей"
+ },
+ "pa_move_towards_traditionalist_desc": {
+  "en": "$entrench_desc$ nurture our traditionalist roots.",
+  "uk": "$entrench_desc$ підтримати нашу прихильність традиціям."
+ },
+ "pa_move_towards_traditionalist_simple": {
+  "en": "Support Traditional Ideas",
+  "uk": "Підтримка традиційних ідей"
+ },
+ "pa_push_towards_aristocracy": {
+  "en": "Aristocratic Movement",
+  "uk": "Схвалення аристократії"
+ },
+ "pa_push_towards_aristocracy_desc": {
+  "en": "$push_towards_desc$ embrace the nobility as the highest societal strata.",
+  "uk": "$push_towards_desc$ визнати аристократію вищим станом."
+ },
+ "pa_push_towards_aristocracy_simple": {
+  "en": "Help Aristocracy",
+  "uk": "Допомога аристократії"
+ },
+ "pa_push_towards_belligerent": {
+  "en": "Bellicose Movement",
+  "uk": "Просування войовничого підходу"
+ },
+ "pa_push_towards_belligerent_desc": {
+  "en": "$push_towards_desc$ take a more belligerent behavior.",
+  "uk": "$push_towards_desc$ поводитися більш войовничо."
+ },
+ "pa_push_towards_belligerent_simple": {
+  "en": "Help Belligerent Faction",
+  "uk": "Допомога войовничій фракції"
+ },
+ "pa_push_towards_capital_economy": {
+  "en": "Capital Economy",
+  "uk": "Капіталістична економіка"
+ },
+ "pa_push_towards_capital_economy_desc": {
+  "en": "$push_towards_desc$ adapt to a capital economy.",
+  "uk": "$push_towards_desc$ пристосуватися до капіталістичної економіки."
+ },
+ "pa_push_towards_capital_economy_simple": {
+  "en": "Help the Capital Economy",
+  "uk": "Допомога капіталістичній економіці"
+ },
+ "pa_push_towards_communalism": {
+  "en": "Preservation of Communal Values",
+  "uk": "Збереження громадських цінностей"
+ },
+ "pa_push_towards_communalism_clergy": {
+  "en": "$pa_push_towards_communalism$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_clergy_desc": {
+  "en": "$pa_push_towards_communalism_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_clergy_simple": {
+  "en": "$pa_push_towards_communalism_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_desc": {
+  "en": "$push_towards_desc$ embrace our communal roots.",
+  "uk": "$push_towards_desc$ визнати нашу укорінену общинність."
+ },
+ "pa_push_towards_communalism_peasants": {
+  "en": "$pa_push_towards_communalism$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_peasants_desc": {
+  "en": "$pa_push_towards_communalism_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_peasants_simple": {
+  "en": "$pa_push_towards_communalism_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_communalism_simple": {
+  "en": "Preserve Communalism",
+  "uk": "Збереження общинності"
+ },
+ "pa_push_towards_conciliatory": {
+  "en": "Conciliatory Movement",
+  "uk": "Схвалення миролюбства"
+ },
+ "pa_push_towards_conciliatory_burghers": {
+  "en": "$pa_push_towards_conciliatory$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_burghers_desc": {
+  "en": "$pa_push_towards_conciliatory_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_burghers_simple": {
+  "en": "$pa_push_towards_conciliatory_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_desc": {
+  "en": "$push_towards_desc$ embrace our conciliatory nature.",
+  "uk": "$push_towards_desc$ визнати нашу миролюбну природу."
+ },
+ "pa_push_towards_conciliatory_peasants": {
+  "en": "$pa_push_towards_conciliatory$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_peasants_desc": {
+  "en": "$pa_push_towards_conciliatory_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_peasants_simple": {
+  "en": "$pa_push_towards_conciliatory_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_conciliatory_simple": {
+  "en": "Preserve Conciliation",
+  "uk": "Збереження миролюбства"
+ },
+ "pa_push_towards_decentralized": {
+  "en": "Autonomy Movement",
+  "uk": "Просування ідей автономії"
+ },
+ "pa_push_towards_decentralized_desc": {
+  "en": "$push_towards_desc$ embrace the nobility as the autonomous rulers of our land.",
+  "uk": "$push_towards_desc$ визнати аристократів автономними правителями наших земель."
+ },
+ "pa_push_towards_decentralized_nobles": {
+  "en": "$pa_push_towards_decentralized$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_nobles_desc": {
+  "en": "$pa_push_towards_decentralized_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_nobles_simple": {
+  "en": "$pa_push_towards_decentralized_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_peasants": {
+  "en": "$pa_push_towards_decentralized$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_peasants_desc": {
+  "en": "$pa_push_towards_decentralized_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_peasants_simple": {
+  "en": "$pa_push_towards_decentralized_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_decentralized_simple": {
+  "en": "Help Autonomy",
+  "uk": "Допомога автономії"
+ },
+ "pa_push_towards_free_subjects": {
+  "en": "Call to Freedom",
+  "uk": "Дарування свободи"
+ },
+ "pa_push_towards_free_subjects_burghers": {
+  "en": "$pa_push_towards_free_subjects$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_burghers_desc": {
+  "en": "$pa_push_towards_free_subjects_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_burghers_simple": {
+  "en": "$pa_push_towards_free_subjects_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_desc": {
+  "en": "$push_towards_desc$ strife towards the freedom of our subjects.",
+  "uk": "$push_towards_desc$ прагнути до особистої свободи наших підлеглих."
+ },
+ "pa_push_towards_free_subjects_peasants": {
+  "en": "$pa_push_towards_free_subjects$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_peasants_desc": {
+  "en": "$pa_push_towards_free_subjects_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_peasants_simple": {
+  "en": "$pa_push_towards_free_subjects_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_free_subjects_simple": {
+  "en": "Grant Freedom to Subjects",
+  "uk": "Надання особистої свободи"
+ },
+ "pa_push_towards_humanist": {
+  "en": "Adaptation to Humanist Ideas",
+  "uk": "Адаптація до гуманістичних ідей"
+ },
+ "pa_push_towards_humanist_desc": {
+  "en": "$push_towards_desc$ embrace our humanist stance.",
+  "uk": "$push_towards_desc$ визнати нашу прихильність гуманізму."
+ },
+ "pa_push_towards_humanist_simple": {
+  "en": "Preserve Humanist Ideas",
+  "uk": "Збереження гуманістичних ідей"
+ },
+ "pa_push_towards_individualism": {
+  "en": "Preservation of Individualist Values",
+  "uk": "Збереження цінностей індивідуалізму"
+ },
+ "pa_push_towards_individualism_desc": {
+  "en": "$push_towards_desc$ embrace our individualist roots.",
+  "uk": "$push_towards_desc$ визнати наш вкорінений індивідуалізм."
+ },
+ "pa_push_towards_individualism_simple": {
+  "en": "Preserve Individualism",
+  "uk": "Збереження індивідуалізму"
+ },
+ "pa_push_towards_innovative": {
+  "en": "Adaptation to Innovative Ideas",
+  "uk": "Адаптація до інноваційних ідей"
+ },
+ "pa_push_towards_innovative_desc": {
+  "en": "$push_towards_desc$ embrace our innovative roots.",
+  "uk": "$push_towards_desc$ визнати нашу прихильність інноваціям."
+ },
+ "pa_push_towards_innovative_simple": {
+  "en": "Preserve Innovative Ideas",
+  "uk": "Збереження інноваційних ідей"
+ },
+ "pa_push_towards_inward": {
+  "en": "Inward Look",
+  "uk": "Погляд усередину"
+ },
+ "pa_push_towards_inward_clergy": {
+  "en": "$pa_push_towards_inward$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_clergy_desc": {
+  "en": "$pa_push_towards_inward_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_clergy_simple": {
+  "en": "$pa_push_towards_inward_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_desc": {
+  "en": "$push_towards_desc$ adapt to an inward stance.",
+  "uk": "$push_towards_desc$ звикнути до закритості."
+ },
+ "pa_push_towards_inward_peasants": {
+  "en": "$pa_push_towards_inward$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_peasants_desc": {
+  "en": "$pa_push_towards_inward_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_peasants_simple": {
+  "en": "$pa_push_towards_inward_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_inward_simple": {
+  "en": "Help Inward Stance",
+  "uk": "Допомога закритості"
+ },
+ "pa_push_towards_land": {
+  "en": "Focus on the Land",
+  "uk": "Увага до армії"
+ },
+ "pa_push_towards_land_desc": {
+  "en": "$push_towards_desc$ take more care of our land.",
+  "uk": "$push_towards_desc$ більше дбати про нашу армію."
+ },
+ "pa_push_towards_land_simple": {
+  "en": "Help Land Faction",
+  "uk": "Допомога армії"
+ },
+ "pa_push_towards_mercantilism": {
+  "en": "Mercantilism Movement",
+  "uk": "Схвалення меркантилізму"
+ },
+ "pa_push_towards_mercantilism_desc": {
+  "en": "$push_towards_desc$ embrace mercantilism to the best of our abilities.",
+  "uk": "$push_towards_desc$ керуватися меркантилізмом."
+ },
+ "pa_push_towards_mercantilism_simple": {
+  "en": "Help Mercantilism",
+  "uk": "Допомога меркантилістам"
+ },
+ "pa_push_towards_naval": {
+  "en": "Naval Movement",
+  "uk": "Увага до флоту"
+ },
+ "pa_push_towards_naval_desc": {
+  "en": "$push_towards_desc$ take more care of our presence at sea.",
+  "uk": "$push_towards_desc$ більше дбати про нашу морську присутність."
+ },
+ "pa_push_towards_naval_simple": {
+  "en": "Preserve Naval Values",
+  "uk": "Збереження флоту"
+ },
+ "pa_push_towards_outward": {
+  "en": "Outward Look",
+  "uk": "Погляд назовні"
+ },
+ "pa_push_towards_outward_burghers": {
+  "en": "$pa_push_towards_outward$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_burghers_desc": {
+  "en": "$pa_push_towards_outward_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_burghers_simple": {
+  "en": "$pa_push_towards_outward_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_desc": {
+  "en": "$push_towards_desc$ adapt to an outward stance.",
+  "uk": "$push_towards_desc$ звикнути до відкритості."
+ },
+ "pa_push_towards_outward_nobles": {
+  "en": "$pa_push_towards_outward$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_nobles_desc": {
+  "en": "$pa_push_towards_outward_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_nobles_simple": {
+  "en": "$pa_push_towards_outward_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_outward_simple": {
+  "en": "Help Outward Stance",
+  "uk": "Допомога прихильникам відкритості"
+ },
+ "pa_push_towards_plutocracy": {
+  "en": "Plutocratic Movement",
+  "uk": "Схвалення плутократії"
+ },
+ "pa_push_towards_plutocracy_desc": {
+  "en": "$push_towards_desc$ embrace our plutocratic nature.",
+  "uk": "$push_towards_desc$ визнати нашу плутократичну природу."
+ },
+ "pa_push_towards_plutocracy_simple": {
+  "en": "Preserve Plutocracy",
+  "uk": "Збереження плутократії"
+ },
+ "pa_push_towards_serfdom": {
+  "en": "Serfdom Movement",
+  "uk": "Схвалення кріпацтва"
+ },
+ "pa_push_towards_serfdom_desc": {
+  "en": "$push_towards_desc$ embrace serfdom to the best of our abilities.",
+  "uk": "$push_towards_desc$ ввести кріпацтво."
+ },
+ "pa_push_towards_serfdom_simple": {
+  "en": "Help Serfdom",
+  "uk": "Допомога захисникам кріпацтва"
+ },
+ "pa_push_towards_spiritualist": {
+  "en": "Preservation of Spiritualist Ideas",
+  "uk": "Захист духовних ідей"
+ },
+ "pa_push_towards_spiritualist_clergy": {
+  "en": "$pa_push_towards_spiritualist$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_clergy_desc": {
+  "en": "$pa_push_towards_spiritualist_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_clergy_simple": {
+  "en": "$pa_push_towards_spiritualist_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_desc": {
+  "en": "$push_towards_desc$ embrace our spiritualist roots.",
+  "uk": "$push_towards_desc$ визнати нашу прихильність духовності."
+ },
+ "pa_push_towards_spiritualist_peasants": {
+  "en": "$pa_push_towards_spiritualist$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_peasants_desc": {
+  "en": "$pa_push_towards_spiritualist_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_peasants_simple": {
+  "en": "$pa_push_towards_spiritualist_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_spiritualist_simple": {
+  "en": "Preserve Spiritualist Ideas",
+  "uk": "Збереження духовних ідей"
+ },
+ "pa_push_towards_traditional_economy": {
+  "en": "Traditional Economy",
+  "uk": "Традиційна економіка"
+ },
+ "pa_push_towards_traditional_economy_desc": {
+  "en": "$push_towards_desc$ adapt to a traditional economy.",
+  "uk": "$push_towards_desc$ пристосуватися до традиційної економіки."
+ },
+ "pa_push_towards_traditional_economy_nobles": {
+  "en": "$pa_push_towards_traditional_economy$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_nobles_desc": {
+  "en": "$pa_push_towards_traditional_economy_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_nobles_simple": {
+  "en": "$pa_push_towards_traditional_economy_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_peasants": {
+  "en": "$pa_push_towards_traditional_economy$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_peasants_desc": {
+  "en": "$pa_push_towards_traditional_economy_desc$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_peasants_simple": {
+  "en": "$pa_push_towards_traditional_economy_simple$",
+  "uk": ""
+ },
+ "pa_push_towards_traditional_economy_simple": {
+  "en": "Help the Traditional Economy",
+  "uk": "Допомога традиційній економіці"
+ },
+ "pa_push_towards_traditionalist": {
+  "en": "Preservation of Traditional Ideas",
+  "uk": "Захист традиційних ідей"
+ },
+ "pa_push_towards_traditionalist_desc": {
+  "en": "$push_towards_desc$ embrace our traditionalist roots.",
+  "uk": "$push_towards_desc$ визнати нашу прихильність традиціям."
+ },
+ "pa_push_towards_traditionalist_simple": {
+  "en": "Preserve Traditional Ideas",
+  "uk": "Збереження традиційних ідей"
+ },
+ "pa_raise_opinion": {
+  "en": "Increase Opinion",
+  "uk": "Підвищення думки"
+ },
+ "pa_raise_opinion_desc": {
+  "en": "This [estate|e] would prefer if we establish relations with this country to whatever purpose they have in mind.",
+  "uk": "Цей [Concept('estate', 'стан')|e] воліє, щоб ми встановили стосунки з цією державою, навіть попри їхні цілі."
+ },
+ "pa_raise_opinion_simple": {
+  "en": "$pa_raise_opinion$",
+  "uk": ""
+ },
+ "pa_reduce_land_recruitment": {
+  "en": "Reduce Army Recruitment",
+  "uk": "Скорочення набору до армії"
+ },
+ "pa_reduce_land_recruitment_desc": {
+  "en": "The members of this [estate|e] are concerned with our intensive recruitment for the military and want to reduce the amount of people pressed into service.",
+  "uk": "Представники цього [Concept('estate', 'стану')|e] стурбовані нашим широкомасштабним вербуванням до армії та наполягають на скороченні набору рекрутів."
+ },
+ "pa_reduce_land_recruitment_simple": {
+  "en": "$pa_reduce_land_recruitment$",
+  "uk": ""
+ },
+ "pa_reduce_naval_recruitment": {
+  "en": "Reduce Navy Recruitment",
+  "uk": "Скорочення набору до флоту"
+ },
+ "pa_reduce_naval_recruitment_desc": {
+  "en": "The members of this [estate|e] are concerned with our intensive recruitment for the navy and want to reduce the amount of people pressed into service.",
+  "uk": "Представники цього [Concept('estate', 'стану')|e] стурбовані нашим широкомасштабним вербуванням до флоту та наполягають на скороченні набору рекрутів."
+ },
+ "pa_reduce_naval_recruitment_simple": {
+  "en": "$pa_reduce_naval_recruitment$",
+  "uk": ""
+ },
+ "pa_reduce_opinion": {
+  "en": "Reduce Opinion",
+  "uk": "Зниження думки"
+ },
+ "pa_reduce_opinion_desc": {
+  "en": "The mere thought of establishing relations with this country enrages this [estate|e] and they demand a strongly worded letter addressed at their ruler this instant.",
+  "uk": "Сама лише думка про встановлення зв'язків із цією державою приводить [Concept('estate', 'стан')|e] в лють. Його представники вимагають негайно відправити її правителю послання, складене в досить різких виразах."
+ },
+ "pa_reduce_opinion_simple": {
+  "en": "$pa_reduce_opinion$",
+  "uk": ""
+ },
+ "pa_remove_artisan_guilds": {
+  "en": "Address $artisan_guilds$ Complaints",
+  "uk": "Розгляд скарг на ремісничі гільдії"
+ },
+ "pa_remove_artisan_guilds_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('artisan_guilds')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-які ремісничі гільдії, на які $pa_remove_building_middle_desc$ #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L священники#!#!, буде закрито."
+ },
+ "pa_remove_bailiffs": {
+  "en": "Address $bailiff$ Complaints",
+  "uk": "Розгляд скарг на бейліфа"
+ },
+ "pa_remove_bailiffs_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('bailiff')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('peasants_estate')].",
+  "uk": "Будь-якого [ShowBuildingTypeNameWithNoTooltip('bailiff')|l], на якого $pa_remove_building_middle_desc$ [ShowEstateTypeName('peasants_estate')|l], буде звільнено."
+ },
+ "pa_remove_building_middle_desc": {
+  "en": "that has received complaints from",
+  "uk": "поскаржаться"
+ },
+ "pa_remove_burgher_mansion": {
+  "en": "Address $burgher_mansion$ Complaints",
+  "uk": "Розгляд скарг на міські маєтки"
+ },
+ "pa_remove_burgher_mansion_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('burgher_mansion')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-який [ShowBuildingTypeNameWithNoTooltip('burgher_mansion')|l], на який $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_clerical_archives": {
+  "en": "Address $clerical_archives$ Complaints",
+  "uk": "Розгляд скарг на церковні архіви"
+ },
+ "pa_remove_clerical_archives_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('clerical_archives')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('clerical_archives')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде закрито."
+ },
+ "pa_remove_festival_grounds": {
+  "en": "Address $festival_grounds$ Complaints",
+  "uk": "Розгляд скарг на фестивальні майдани"
+ },
+ "pa_remove_festival_grounds_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('festival_grounds')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-який [ShowBuildingTypeNameWithNoTooltip('festival_grounds')|l], на який $pa_remove_building_middle_desc$ [ShowEstateTypeName('clergy_estate')|l], буде закрито."
+ },
+ "pa_remove_free_village": {
+  "en": "Address $free_village$ Complaints",
+  "uk": ""
+ },
+ "pa_remove_free_village_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('free_village')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": ""
+ },
+ "pa_remove_guild_hall": {
+  "en": "Address $guild_hall$ Complaints",
+  "uk": "Розгляд скарг на будівлі гільдій"
+ },
+ "pa_remove_guild_hall_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('guild_hall')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('peasants_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('guild_hall')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('peasants_estate')|l], буде закрито."
+ },
+ "pa_remove_local_assembly": {
+  "en": "Address $local_assembly$ Complaints",
+  "uk": "Розгляд скарг на місцеві збори"
+ },
+ "pa_remove_local_assembly_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_assembly')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('local_assembly')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('clergy_estate')|l], буде закрито."
+ },
+ "pa_remove_local_markets": {
+  "en": "Address $local_markets$ Complaints",
+  "uk": "Розгляд скарг на місцеві ринки"
+ },
+ "pa_remove_local_markets_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_markets')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('local_markets')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_local_newspaper": {
+  "en": "Address $local_newspaper$ Complaints",
+  "uk": "Розгляд скарг на місцеві газети"
+ },
+ "pa_remove_local_newspaper_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_newspaper')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('local_newspaper')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде закрито."
+ },
+ "pa_remove_local_noble_delegation": {
+  "en": "Address $local_noble_delegation$ Complaints",
+  "uk": "Розгляд скарг на делегації місцевої знаті"
+ },
+ "pa_remove_local_noble_delegation_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_noble_delegation')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('local_noble_delegation')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде розпущено."
+ },
+ "pa_remove_local_schools": {
+  "en": "Address $local_schools$ Complaints",
+  "uk": "Розгляд скарг на місцеві школи"
+ },
+ "pa_remove_local_schools_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_schools')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('local_schools')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('clergy_estate')|l], буде закрито."
+ },
+ "pa_remove_local_shrine": {
+  "en": "Address $local_shrine$ Complaints",
+  "uk": "Розгляд скарг на місцеві святині"
+ },
+ "pa_remove_local_shrine_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('local_shrine')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('peasants_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('local_shrine')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('peasants_estate')|l], буде закрито."
+ },
+ "pa_remove_merchants_guild": {
+  "en": "Address $merchants_guild$ Complaints",
+  "uk": "Розгляд скарг на купецькі гільдії"
+ },
+ "pa_remove_merchants_guild_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('merchants_guild')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('merchants_guild')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('clergy_estate')|l], буде розпущено."
+ },
+ "pa_remove_nobility_fortifications": {
+  "en": "Address $nobility_fortifications$ Complaints",
+  "uk": "Розгляд скарг на укріплення знаті"
+ },
+ "pa_remove_nobility_fortifications_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('nobility_fortifications')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('clergy_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('nobility_fortifications')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('clergy_estate')|l], буде демонтовано."
+ },
+ "pa_remove_noble_villa": {
+  "en": "Address $noble_villa$ Complaints",
+  "uk": "Розгляд скарг на вілли аристократів"
+ },
+ "pa_remove_noble_villa_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('noble_villa')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('peasants_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('noble_villa')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('peasants_estate')|l], буде знесено."
+ },
+ "pa_remove_nobles_recruitment_center": {
+  "en": "Address $nobles_recruitment_center$ Complaints",
+  "uk": "Розгляд скарг на місця набору знаті"
+ },
+ "pa_remove_nobles_recruitment_center_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('nobles_recruitment_center')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('peasants_estate')].",
+  "uk": "Будь-яке [ShowBuildingTypeNameWithNoTooltip('nobles_recruitment_center')|l], на яке $pa_remove_building_middle_desc$ [ShowEstateTypeName('peasants_estate')|l], буде закрито."
+ },
+ "pa_remove_parish_church": {
+  "en": "Address $parish_church$ Complaints",
+  "uk": "Розгляд скарг на парафіяльні церкви"
+ },
+ "pa_remove_parish_church_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('parish_church')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-яку [ShowBuildingTypeNameWithNoTooltip('parish_church')|l], на яку $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_peasants_hunting_grounds": {
+  "en": "Address $peasants_hunting_grounds$ Complaints",
+  "uk": "Розгляд скарг на селянські мисливські угіддя"
+ },
+ "pa_remove_peasants_hunting_grounds_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('peasants_hunting_grounds')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('peasants_hunting_grounds')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_peasants_training_grounds": {
+  "en": "Address $peasants_training_grounds$ Complaints",
+  "uk": "Розгляд скарг на тренувальні поля селян"
+ },
+ "pa_remove_peasants_training_grounds_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('peasants_training_grounds')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('peasants_training_grounds')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_pirate_haven": {
+  "en": "Address $pirate_haven$ Complaints",
+  "uk": "Розгляд скарг на піратські схрони"
+ },
+ "pa_remove_pirate_haven_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('pirate_haven')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-який [ShowBuildingTypeNameWithNoTooltip('pirate_haven')|l], на який $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде ліквідовано."
+ },
+ "pa_remove_rotten_borough": {
+  "en": "Address $rotten_borough$ Complaints",
+  "uk": "Розгляд скарг на гнилі містечка"
+ },
+ "pa_remove_rotten_borough_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('rotten_borough')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-яке [ShowBuildingTypeNameWithNoTooltip('rotten_borough')|l], на яке $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде закрито."
+ },
+ "pa_remove_spiritual_retreat": {
+  "en": "Address $spiritual_retreat$ Complaints",
+  "uk": "Розгляд скарг на духовні притулки"
+ },
+ "pa_remove_spiritual_retreat_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('spiritual_retreat')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-який [ShowBuildingTypeNameWithNoTooltip('spiritual_retreat')|l], на який $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_remove_toll_castle": {
+  "en": "Address $toll_castle$ Complaints",
+  "uk": "Розгляд скарг на митні замки"
+ },
+ "pa_remove_toll_castle_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('toll_castle')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('burghers_estate')].",
+  "uk": "Будь-який [ShowBuildingTypeNameWithNoTooltip('toll_castle')|l], на який $pa_remove_building_middle_desc$ [ShowEstateTypeName('burghers_estate')|l], буде закрито."
+ },
+ "pa_remove_warrior_monks_training_grounds": {
+  "en": "Address $warrior_monks_training_grounds$ Complaints",
+  "uk": "Розгляд скарг на тренувальні поля ченців-воїнів"
+ },
+ "pa_remove_warrior_monks_training_grounds_desc": {
+  "en": "We will remove any [ShowBuildingTypeNameWithNoTooltip('warrior_monks_training_grounds')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')].",
+  "uk": "Будь-які [ShowBuildingTypeNameWithNoTooltip('warrior_monks_training_grounds')|l], на які $pa_remove_building_middle_desc$ [ShowEstateTypeName('nobles_estate')|l], буде закрито."
+ },
+ "pa_resist_artillery_institution": {
+  "en": "Contain $artillery_institution$",
+  "uk": "Опір артилерії"
+ },
+ "pa_resist_artillery_institution_desc": {
+  "en": "$pa_resist_institution_desc$ $artillery_institution$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ артилерії $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_banking": {
+  "en": "Contain $banking$",
+  "uk": "Опір банківській справі"
+ },
+ "pa_resist_banking_desc": {
+  "en": "$pa_resist_institution_desc$ $banking$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ банківської справи $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_confessionalism": {
+  "en": "Contain $confessionalism$",
+  "uk": "Опір конфесіоналізму"
+ },
+ "pa_resist_confessionalism_desc": {
+  "en": "$pa_resist_institution_desc$ $confessionalism$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ конфесіоналізму $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_enlightenment": {
+  "en": "Contain $enlightenment$",
+  "uk": "Опір Просвітництву"
+ },
+ "pa_resist_enlightenment_desc": {
+  "en": "$pa_resist_institution_desc$ $enlightenment$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ Просвітництва $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_feudalism": {
+  "en": "Contain $feudalism$",
+  "uk": "Опір феодалізму"
+ },
+ "pa_resist_feudalism_desc": {
+  "en": "$pa_resist_institution_desc$ $feudalism$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ феодалізму $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_global_trade": {
+  "en": "Contain $global_trade$",
+  "uk": "Опір світовій торгівлі"
+ },
+ "pa_resist_global_trade_desc": {
+  "en": "$pa_resist_institution_desc$ $global_trade$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ світової торгівлі $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_industrialization": {
+  "en": "Contain $industrialization$",
+  "uk": "Опір індустріалізації"
+ },
+ "pa_resist_industrialization_desc": {
+  "en": "$pa_resist_institution_desc$ $industrialization$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ індустріалізації $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_institution_desc": {
+  "en": "This [estate|e] wants us to act against the spread of",
+  "uk": "Це [Concept('estate', 'стан')|e] хоче, щоб ми виступили проти поширення"
+ },
+ "pa_resist_legalism": {
+  "en": "Contain $legalism$",
+  "uk": "Опір легалізму"
+ },
+ "pa_resist_legalism_desc": {
+  "en": "$pa_resist_institution_desc$ $legalism$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ легалізму $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_levee_en_masse": {
+  "en": "Contain $levee_en_masse$",
+  "uk": "Опір загальному військовому обов'язку"
+ },
+ "pa_resist_levee_en_masse_desc": {
+  "en": "$pa_resist_institution_desc$ $levee_en_masse$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ загального військового обов'язку $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_manufactories": {
+  "en": "Contain $manufactories$",
+  "uk": "Опір мануфактурам"
+ },
+ "pa_resist_manufactories_desc": {
+  "en": "$pa_resist_institution_desc$ $manufactories$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ мануфактур $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_meritocracy": {
+  "en": "Contain $meritocracy$",
+  "uk": "Опір меритократії"
+ },
+ "pa_resist_meritocracy_desc": {
+  "en": "$pa_resist_institution_desc$ $meritocracy$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ меритократії $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_military_revolution": {
+  "en": "Contain $military_revolution$",
+  "uk": "Опір військовій революції"
+ },
+ "pa_resist_military_revolution_desc": {
+  "en": "$pa_resist_institution_desc$ $military_revolution$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ військової революції $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_new_world": {
+  "en": "Contain $new_world$",
+  "uk": "Опір відкриттю Нового Світу"
+ },
+ "pa_resist_new_world_desc": {
+  "en": "$pa_resist_institution_desc$ $new_world$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ ідей відкриття Нового Світу $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_pike_and_shot": {
+  "en": "Contain $pike_and_shot$",
+  "uk": "Опір піці та мушкету"
+ },
+ "pa_resist_pike_and_shot_desc": {
+  "en": "$pa_resist_institution_desc$ $pike_and_shot$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ піки та мушкета $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_printing_press": {
+  "en": "Contain $printing_press$",
+  "uk": "Опір друкарському верстату"
+ },
+ "pa_resist_printing_press_desc": {
+  "en": "$pa_resist_institution_desc$ $printing_press$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ друкарського верстату $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_professional_armies": {
+  "en": "Contain $professional_armies$",
+  "uk": "Опір професійним арміям"
+ },
+ "pa_resist_professional_armies_desc": {
+  "en": "$pa_resist_institution_desc$ $professional_armies$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ професійних армій $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_renaissance": {
+  "en": "Contain $renaissance$",
+  "uk": "Опір Відродженню"
+ },
+ "pa_resist_renaissance_desc": {
+  "en": "$pa_resist_institution_desc$ $renaissance$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ ідей Відродження $pa_rest_institution_end_desc$"
+ },
+ "pa_resist_scientific_revolution": {
+  "en": "Contain $scientific_revolution$",
+  "uk": "Опір науковій революції"
+ },
+ "pa_resist_scientific_revolution_desc": {
+  "en": "$pa_resist_institution_desc$ $scientific_revolution$ $pa_rest_institution_end_desc$",
+  "uk": "$pa_resist_institution_desc$ наукової революції $pa_rest_institution_end_desc$"
+ },
+ "pa_rest_institution_end_desc": {
+  "en": "in our country.",
+  "uk": "у нашій державі."
+ },
+ "pa_rethink_army_academy": {
+  "en": "Shake up Army Academy",
+  "uk": "Повна реорганізація військової академії"
+ },
+ "pa_rethink_army_academy_desc": {
+  "en": "This [estate|e] is unhappy with the current principles of our military academy and wants us to re-evaluate their teachings.",
+  "uk": "Цей [Concept('estate', 'стан')|e] незадоволений існуючими принципами нашого військового училища та хоче переглянути її доктрини."
+ },
+ "pa_rethink_army_academy_simple": {
+  "en": "$pa_rethink_army_academy$",
+  "uk": ""
+ },
+ "pa_rethink_navy_academy": {
+  "en": "Shake up Naval Academy",
+  "uk": "Повна реорганізація військово-морської академії"
+ },
+ "pa_rethink_navy_academy_desc": {
+  "en": "$pa_rethink_army_academy_desc$",
+  "uk": ""
+ },
+ "pa_rethink_navy_academy_simple": {
+  "en": "$pa_rethink_navy_academy$",
+  "uk": ""
+ },
+ "paved_road_development": {
+  "en": "Expand $paved_road$ Network",
+  "uk": "Розширення мережі мощених доріг"
+ },
+ "paved_road_development_burghers": {
+  "en": "$paved_road_development$",
+  "uk": ""
+ },
+ "paved_road_development_burghers_desc": {
+  "en": "$gravel_road_development_desc$",
+  "uk": ""
+ },
+ "paved_road_development_desc": {
+  "en": "$gravel_road_development_desc$",
+  "uk": ""
+ },
+ "pops_in_province_gain_20_satisfaction": {
+  "en": "[pops|e] in the [province|e] of this [location|e] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "[Concept('pops','Групи населення')|e] у [Concept('province','провінції')|e] з цим [Concept('location','районом')|e] отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] до [Concept('pop_satisfaction','задоволення')|e]."
+ },
+ "prepare_for_war": {
+  "en": "Fabricate Casus Belli",
+  "uk": "Створення приводу для війни"
+ },
+ "prepare_for_war_desc": {
+  "en": "Asking [Player.GetGovernment.GetParliament.GetName] to approve a [war|e] by giving us a legitimate [casus_belli|e].\\n• We will choose a country that is not a [rebel|e] nation or our [subject|e], that lies within our [diplomatic_range|e], and with which we do not currently have a [truce|e], to get a: \\n[ShowCasusBelliName('cb_parliament_conquer_province')] [casus_belli|e].\\n• The [casus_belli|e] will last [GetDefine('NDiplomacy','CASUS_BELLI_MONTHS')] months ([Divide_int32(GetDefine('NDiplomacy','CASUS_BELLI_MONTHS'), '(int32)12')] years).",
+  "uk": "У разі успіху представники [Player.GetParliament.Custom('CFP_RP')|l] схвалять проведення [Concept('war', 'війни')|e] і нададуть нам законний [Concept('casus_belli', 'привід')|e].\\n• Ми оберемо державу, стосовно якої отримаємо [Concept('casus_belli', 'привід для війни')|e] #TOOLTIP:CASUS_BELLI,cb_fabricated_conquer_province,X #L «Завойована провінція»#!#!"
+ },
+ "prepare_for_war_select_province_title": {
+  "en": "Select [province|e] to set as the [war_goal|e]",
+  "uk": "Оберіть [Concept('province','провінцію')|e], щоб визначити її як [Concept('war_goal','мету війни')|e]"
+ },
+ "prepare_for_war_select_title": {
+  "en": "Select [country|e] to gain a [casus_belli|e] on",
+  "uk": "Оберіть [Concept('country','державу')|e] з метою отримання [Concept('casus_belli','приводу для війни')|e]"
+ },
+ "presbyterian_education": {
+  "en": "Presbyterian Education Act",
+  "uk": "Акт про пресвітеріанську освіту"
+ },
+ "presbyterian_education_desc": {
+  "en": "We should establish a school in every parish of our country to further the education of our people. They shall be run by members of the Church and be paid by a tax laid upon the Landowners of our country.",
+  "uk": "Ми маємо відкрити школи в кожній парафії нашої держави, щоб посприяти народній освіті. Завідувати школами будуть священники, а оплачуватися їхня робота буде з податків, що стягуються з землевласників."
+ },
+ "prevent_noble_enclosure": {
+  "en": "Prevent Noble Enclosure",
+  "uk": ""
+ },
+ "prevent_noble_enclosure_desc": {
+  "en": "The great lords of the realm have for too long seized the common lands that our peasants depend upon for their survival. We must act to protect what little they have left, before that unrest becomes something far more dangerous.",
+  "uk": ""
+ },
+ "promote_artillery_doctrine": {
+  "en": "Promote Artillery Doctrine",
+  "uk": ""
+ },
+ "promote_artillery_doctrine_desc": {
+  "en": "The decisive power of artillery on the battlefield is unquestionable, and we must built our military doctrine around that fact. We must ensure that our armies include powerful cannons capable of shattering both enemy lines and fortifications.",
+  "uk": ""
+ },
+ "promote_bastion_building": {
+  "en": "Promote $bastion$ Works",
+  "uk": "Підтримка будівництва бастіонів"
+ },
+ "promote_bastion_building_desc": {
+  "en": "$promote_castle_building_desc$",
+  "uk": ""
+ },
+ "promote_burghers_member": {
+  "en": "Promote Member of the Burghers",
+  "uk": "Підтримка представників міського стану"
+ },
+ "promote_burghers_member_desc": {
+  "en": "The burghers are vital to our state, both as merchants and members of the guilds. We should promote the capable members of their estate to our government.",
+  "uk": "Міщани необхідні нам і як купці, і як члени гільдій. Ми маємо просувати в уряд обдарованих представників цього стану."
+ },
+ "promote_burghers_member_passed.tt": {
+  "en": "A skilled member of the [ShowEstateTypeName('burghers_estate')] will appear.",
+  "uk": "З'явиться талановитий представник #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L міщан#!#!."
+ },
+ "promote_castle_building": {
+  "en": "Promote $castle$ Works",
+  "uk": "Підтримка будівництва замків"
+ },
+ "promote_castle_building_desc": {
+  "en": "Across our country lie excellent sites for potential fortifications, ready to halt any advance of our enemies.",
+  "uk": "У різних куточках нашої країни є чудові місця для зведення укріплень, здатних зупинити будь-який наступ наших ворогів."
+ },
+ "promote_chivalric_orders": {
+  "en": "Promote Chivalric Orders",
+  "uk": ""
+ },
+ "promote_chivalric_orders_desc": {
+  "en": "Our chivalric orders are the embodiment of noble martial virtue. By granting them royal recognition and funding, we strengthen the bonds between the crown and its finest warriors.",
+  "uk": ""
+ },
+ "promote_clergy_member": {
+  "en": "Promote Member of the Clergy",
+  "uk": "Підтримка представників духовенства"
+ },
+ "promote_clergy_member_desc": {
+  "en": "Our administration could use the support of the Clergy to run more efficiently. By offering them higher positions in our government we could improve the situation of our state.",
+  "uk": "Священники могли б підтримати нашу владу і підвищити її ефективність. Запропонувавши їм високі посади в уряді, ми зможемо покращити становище держави."
+ },
+ "promote_clergy_member_passed.tt": {
+  "en": "A skilled member of the [ShowEstateTypeName('clergy_estate')] will appear.",
+  "uk": "З'явиться талановитий представник #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L священників#!#!."
+ },
+ "promote_export_trade": {
+  "en": "Promote Export Trade",
+  "uk": ""
+ },
+ "promote_export_trade_desc": {
+  "en": "Our merchants stand ready to carry our goods to the furthest corners of the world, but they need the backing of this parliament to expand their networks. A commitment to export trade will enrich the realm and strengthen our hand abroad.",
+  "uk": ""
+ },
+ "promote_farming_innovation": {
+  "en": "Promote Farming Innovation",
+  "uk": ""
+ },
+ "promote_farming_innovation_desc": {
+  "en": "New methods of crop rotation and cultivation have shown remarkable results in other lands. We should support their adoption across our realm, that our fields may yield more abundantly and our people suffer less from want.",
+  "uk": ""
+ },
+ "promote_fortress_building": {
+  "en": "Promote $fortress$ Works",
+  "uk": "Підтримати будівництво фортець"
+ },
+ "promote_fortress_building_desc": {
+  "en": "$promote_castle_building_desc$",
+  "uk": ""
+ },
+ "promote_industrial_workshops": {
+  "en": "Promote Industrial Workshops",
+  "uk": ""
+ },
+ "promote_industrial_workshops_desc": {
+  "en": "The craft brotherhoods that once sustained our towns can no longer match the output our age demands. We should invest in the new manufactories and mechanized workshops that produce far more, far faster, and let our trades meet the times.",
+  "uk": ""
+ },
+ "promote_integration": {
+  "en": "Promote Integration Process",
+  "uk": "Підтримка процесу інтеграції"
+ },
+ "promote_integration_desc": {
+  "en": "We should support the efforts to integrate the remote provinces of our domain and consolidate them more closer into our core territory.",
+  "uk": "Ми маємо підтримати інтеграцію віддалених провінцій і зміцнити їхній зв'язок з нашими національними територіями."
+ },
+ "promote_mamluks": {
+  "en": "Promote a $mamluk$",
+  "uk": "Підвищення мамлюка"
+ },
+ "promote_mamluks_desc": {
+  "en": "Elite soldiers that are capable of prime positions in our administration, $mamluk$ soldiers and holders of the office are the backbone of our stratocratic administration and wield tremendous influence.",
+  "uk": "Мамлюки — це елітні солдати, здатні посісти видатні посади в нашій адміністрації. На солдатах і чиновниках з мамлюків тримається наша стратократична адміністрація, і вони мають величезний вплив."
+ },
+ "promote_mamluks_tt": {
+  "en": "New $mamluk$ candidates will appear through an [event|e]",
+  "uk": "Внаслідок [Concept('event','події')|e] з'являться нові кандидати-мамлюки"
+ },
+ "promote_maritime_trade": {
+  "en": "Promote Maritime Trade",
+  "uk": ""
+ },
+ "promote_maritime_trade_desc": {
+  "en": "The sea lanes are highways of wealth for those bold enough to use them. We should invest in the infrastructure and institutions that support maritime commerce, and ensure our merchants command the waters.",
+  "uk": ""
+ },
+ "promote_noble_officers": {
+  "en": "Promote Noble Officers",
+  "uk": "Підвищення шляхетних офіцерів"
+ },
+ "promote_noble_officers_desc": {
+  "en": "We should look toward our minor Nobility to promote new officers into the ranks of our government.",
+  "uk": "Дрібна аристократія має стати для нас джерелом нових офіцерів."
+ },
+ "promote_noble_officers_passed.tt": {
+  "en": "A skilled member of the [ShowEstateTypeName('nobles_estate')] will appear.",
+  "uk": "З'явиться талановитий представник #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократів#!#!."
+ },
+ "promote_pike_and_shot_tactics": {
+  "en": "Promote Pike and Shot Tactics",
+  "uk": ""
+ },
+ "promote_pike_and_shot_tactics_desc": {
+  "en": "The combination of pikemen and arquebusiers in the same disciplined formations is a force to reckon with in any army. By promoting strict training in these formations, we will ensure that our army can outperform the enemy in both offense and defense even among their midst.",
+  "uk": ""
+ },
+ "promote_rajput_officials_passed_tt": {
+  "en": "A skilled member of the [ShowLanguageName('rajasthani_language')] [language|e] will appear.",
+  "uk": "З'явиться талановитий персонаж, що говорить #L [ShowLanguageName('rajasthani_language')|l]ою#! [Concept('language', 'мовою')|e]."
+ },
+ "promote_religious_tolerance": {
+  "en": "Promote Religious Tolerance",
+  "uk": ""
+ },
+ "promote_religious_tolerance_desc": {
+  "en": "Our realm is home to many who do not share our faith, and their discontent breeds unrest. It is the wisdom of the Church to acknowledge that peace is better served by tolerance than by perpetual conflict.",
+  "uk": ""
+ },
+ "promote_star_fort_building": {
+  "en": "Promote $star_fort$ Works",
+  "uk": "Підтримати будівництво штерншанців"
+ },
+ "promote_star_fort_building_desc": {
+  "en": "$promote_castle_building_desc$",
+  "uk": ""
+ },
+ "promote_state_religion": {
+  "en": "Promote State Religion",
+  "uk": "Поширення державної релігії"
+ },
+ "promote_state_religion_desc": {
+  "en": "Having our subjects following the religion of our state is a crucial step towards the stability of our realm. We should increase our efforts to convert our people.",
+  "uk": "Прихильність державній релігії стане важливим кроком для зміцнення стабільності держави. Ми маємо спрямувати більше зусиль на навернення нашого народу."
+ },
+ "promote_urbanization": {
+  "en": "Promote Urbanization",
+  "uk": "Розвиток міст"
+ },
+ "promote_urbanization_desc": {
+  "en": "It is evident that the way forward lies in promoting the urbanization of our major towns, as a means to grow our power base.",
+  "uk": "Очевидно, що заради подальшого процвітання нам потрібно сприяти розвитку великих міст, які стануть основою нашої сили."
+ },
+ "protect_our_market": {
+  "en": "Market Regulations",
+  "uk": "Регулювання ринку"
+ },
+ "protect_our_market_desc": {
+  "en": "Due to the competitiveness of our markets, it would be wise to tighten our mercantile regulations to ensure a competitive advantage for our own merchants.",
+  "uk": "Через надзвичайно конкурентне середовище наших ринків буде розумно посилити регулювання, щоб дати перевагу нашим купцям."
+ },
+ "push_towards_desc": {
+  "en": "Our society has strayed too much from our roots. We must push towards returning to our ideals and",
+  "uk": "Наше суспільство забуває про коріння. Ми маємо повернутися до своїх ідеалів і"
+ },
+ "railroad_development": {
+  "en": "Expand $railroad$ Network",
+  "uk": "Розширення мережі залізниць"
+ },
+ "railroad_development_desc": {
+  "en": "$gravel_road_development_desc$",
+  "uk": ""
+ },
+ "random_noble_privilege_revoked_tt": {
+  "en": "A random [estate_privilege|e] of the [ShowEstateTypeName('nobles_estate')] will be revoked",
+  "uk": "[ShowEstateTypeName('nobles_estate')] втратять один випадковий [Concept('estate_privilege','становий привілей')|e]"
+ },
+ "reduce_peasant_taxation": {
+  "en": "Reduce Peasant Taxation",
+  "uk": "Зниження податків для селян"
+ },
+ "reduce_peasant_taxation_desc": {
+  "en": "The common man has lived his whole life being taxed by a lord. In order to push our agendas for liberating the people, this taxation must seize!",
+  "uk": "Простий люд усе життя платив податки знаті. Щоб народ став вільним, ці податки необхідно скасувати!"
+ },
+ "reduce_serfdom": {
+  "en": "Reduce Serfdom",
+  "uk": ""
+ },
+ "reduce_serfdom_desc": {
+  "en": "The bonds of serfdom weigh heavily on the common folk, binding them to the land and stifling the very labor that sustains us all. By easing these burdens and granting greater freedom of movement, we strengthen the loyalty and productivity of our people.",
+  "uk": ""
+ },
+ "reform_the_royal_treasury": {
+  "en": "Reform the Royal Treasury",
+  "uk": ""
+ },
+ "reform_the_royal_treasury_desc": {
+  "en": "The unchecked expansion of minting has driven prices upward and weakened the value of our coin. A thorough audit of crown finances and reform of our treasury practices would restore sound money to the realm.",
+  "uk": ""
+ },
+ "regulate_tithe_collection": {
+  "en": "Regulate Tithe Collection",
+  "uk": ""
+ },
+ "regulate_tithe_collection_desc": {
+  "en": "The collection of tithes has grown irregular and contentious. By standardizing the church's share of income across the realm, we ensure fair and reliable revenue for the clergy while relieving the burden of uncertainty from our people.",
+  "uk": ""
+ },
+ "request_more_taxes": {
+  "en": "Request Additional Taxes",
+  "uk": "Запит додаткових податків"
+ },
+ "request_more_taxes_desc": {
+  "en": "Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] from the [estates|e].",
+  "uk": "У разі успіху представники [Player.GetParliament.Custom('CFP_RP')|l] дозволять нам зібрати більше [Concept('tax', 'податків')|e] з [Concept('estates', 'станів')|e]."
+ },
+ "revoke_privilege_of_the_nobles": {
+  "en": "Revoke Privilege of the Nobility",
+  "uk": "Скасування привілеїв дворянству"
+ },
+ "revoke_privilege_of_the_nobles_desc": {
+  "en": "Those who took advantage of the labor and sweat of the common folk, now cower at the thought of their meager privileges being taken away.",
+  "uk": "Ті, хто користувався тяжкою працею простих людей, тепер тремтять при думці про те, що їхні жалюгідні привілеї будуть відібрані."
+ },
+ "royal_monopoly_on_trade": {
+  "en": "Royal Monopoly on Trade",
+  "uk": ""
+ },
+ "royal_monopoly_on_trade_desc": {
+  "en": "The merchants of our realm have grown fat on the profits of commerce for long enough. By asserting a royal monopoly on key goods, we bring those revenues into the crown's hands, where they can serve the whole of the realm.",
+  "uk": ""
+ },
+ "royal_road_commission": {
+  "en": "Royal Road Commission",
+  "uk": ""
+ },
+ "royal_road_commission_desc": {
+  "en": "The roads that connect our realm are the arteries through which authority and commerce flow. By commissioning a proper network of maintained royal roads, we ensure that our control reaches swiftly to every corner of our lands.",
+  "uk": ""
+ },
+ "rural_crafts_charter": {
+  "en": "Rural Crafts Charter",
+  "uk": ""
+ },
+ "rural_crafts_charter_desc": {
+  "en": "The guild monopolies of our towns crush the cottage industries that sustain rural families through lean seasons. We should charter and protect rural craftsmen from such interference, giving the common folk the economic freedom they deserve.",
+  "uk": ""
+ },
+ "rural_road_upkeep_corvee": {
+  "en": "Rural Road Upkeep Corvée",
+  "uk": ""
+ },
+ "rural_road_upkeep_corvee_desc": {
+  "en": "Our rural roads fall into disrepair for want of organized maintenance. By requiring a modest corvée of labor from peasant households to keep local roads passable, we ensure that no part of the realm is cut off from the center.",
+  "uk": ""
+ },
+ "select_a_country_to_get_casus_belli_on": {
+  "en": "Select a [country|e] that our [Player.GetGovernment.GetParliament.GetName] will grant us a [casus_belli|e] on.",
+  "uk": "Буде обрано [Concept('country', 'державу')|e], стосовно якої представники [Player.GetParliament.Custom('CFP_RP')|l] сформують [Concept('casus_belli', 'привід для війни')|e]."
+ },
+ "sponsor_a_cathedral": {
+  "en": "Sponsor a $cathedral$",
+  "uk": "Фінансування собору"
+ },
+ "sponsor_a_cathedral_desc": {
+  "en": "Our governance will be forever revered if we construct a cathedral to celebrate our faith in one of our most prominent towns.",
+  "uk": "Наше правління завжди згадуватимуть із пошаною, якщо ми зведемо собор нашої віри в одному з ключових міст."
+ },
+ "sponsor_a_confucian_academy": {
+  "en": "Sponsor a $confucian_academy$",
+  "uk": "Фінансування конфуціанської академії"
+ },
+ "sponsor_a_confucian_academy_desc": {
+  "en": "To pursue higher knowledge and offer our scholars an extensive infrastructure for their work, we should invest into our academies.",
+  "uk": "Ми маємо інвестувати в наші академії, щоб посилити пошуки вищого знання і надати нашим богословам розвинене робоче середовище."
+ },
+ "sponsor_a_merchant_expedition": {
+  "en": "Sponsor Trade Expedition",
+  "uk": "Підтримка торговельної експедиції"
+ },
+ "sponsor_a_merchant_expedition_desc": {
+  "en": "We should invest into a dedicated merchant expedition to establish trade connections with other markets.",
+  "uk": "Ми маємо вкласти кошти в торговельну експедицію та встановити контакти з іншими ринками."
+ },
+ "sponsor_a_opera_house": {
+  "en": "Sponsor a $opera_house$",
+  "uk": "Фінансування оперного театру"
+ },
+ "sponsor_a_opera_house_desc": {
+  "en": "Our people demand an expansion of our cultural institutions. Providing them with a new [ShowBuildingTypeNameWithNoTooltip('opera_house')] will satiate this cultural fever while providing our urban areas with the necessary attention.",
+  "uk": "У нашого народу є запит на більшу кількість осередків культури. [ShowBuildingTypeNameWithNoTooltip('opera_house')] втамує цю культурну спрагу і дозволить приділити увагу нашим містам."
+ },
+ "sponsor_a_university": {
+  "en": "Sponsor a $university$",
+  "uk": "Фінансування університету"
+ },
+ "sponsor_a_university_desc": {
+  "en": "The dissemination of knowledge in the pursuit of mental enlightenment and comprehension of the divine is a pure goal and one we must back with all our financial and political might by establishing liturgical institutions of great recognition.",
+  "uk": "Поширення знань заради просвітництва і розуміння принципів божественного — це гідна мета, на яку ми повинні спрямувати всі наші фінансові та політичні ресурси, заклавши визнані духовні інституції."
+ },
+ "sponsor_conscription_center": {
+  "en": "Expand the $conscription_center$ Infrastructure",
+  "uk": "Розширення військових присутностей"
+ },
+ "sponsor_conscription_center_desc": {
+  "en": "$finance_the_armory_desc$",
+  "uk": ""
+ },
+ "sponsor_irrigation_projects": {
+  "en": "Sponsor Irrigation Projects",
+  "uk": ""
+ },
+ "sponsor_irrigation_projects_desc": {
+  "en": "Much of our realm's land could yield far greater harvests if only water could be brought to it. We should fund the construction of waterways and irrigation works that will transform dry land into productive farmland.",
+  "uk": ""
+ },
+ "sponsor_regimental_camp": {
+  "en": "Expand the $regimental_camp$ Infrastructure",
+  "uk": "Розширення полкових гарнізонів"
+ },
+ "sponsor_regimental_camp_desc": {
+  "en": "$finance_the_armory_desc$",
+  "uk": ""
+ },
+ "sponsor_theological_seminaries": {
+  "en": "Sponsor Theological Seminaries",
+  "uk": ""
+ },
+ "sponsor_theological_seminaries_desc": {
+  "en": "A learned clergy is the foundation of a spiritually healthy realm. We must fund the establishment and expansion of seminaries to train a new generation of learned churchmen.",
+  "uk": ""
+ },
+ "sponsor_training_fields": {
+  "en": "Expand the $training_fields$ Infrastructure",
+  "uk": "Розширення навчальних полігонів"
+ },
+ "sponsor_training_fields_desc": {
+  "en": "$finance_the_armory_desc$",
+  "uk": ""
+ },
+ "sponsor_urban_development": {
+  "en": "Develop the Interior",
+  "uk": "Розвиток внутрішніх земель"
+ },
+ "sponsor_urban_development_desc": {
+  "en": "We should not neglect our interior lands and develop them accordingly.",
+  "uk": "Не варто забувати про внутрішні землі. Їх необхідно розвивати."
+ },
+ "subsidize_grain_imports": {
+  "en": "Subsidize Grain Imports",
+  "uk": ""
+ },
+ "subsidize_grain_imports_desc": {
+  "en": "Our markets hold the means to feed our people, but only if the price of grain remains within reach of ordinary folk. By subsidizing grain imports, we ensure that shortage and want do not drive our people to desperation.",
+  "uk": ""
+ },
+ "supply_line_labor_draft": {
+  "en": "Supply Line Labor Draft",
+  "uk": ""
+ },
+ "supply_line_labor_draft_desc": {
+  "en": "The roads that carry our supplies to the front must be maintained and our materiel moved without cease. Our people can serve the war effort through labor on the supply lines — a contribution as vital as any sword arm.",
+  "uk": ""
+ },
+ "support_burgher_cabinet": {
+  "en": "Support a Mercantile Cabinet",
+  "uk": "Підтримка ради, складеної з купців"
+ },
+ "support_burgher_cabinet_desc": {
+  "en": "$support_cabinet_generic_desc$, funded by the most wealthy members of society.",
+  "uk": "$support_cabinet_generic_desc$, якщо її профінансують найбагатші члени суспільства."
+ },
+ "support_cabinet_generic_desc": {
+  "en": "The bureaucracy throughout our domain stands to benefit greatly from a legislative reform around its efficiency",
+  "uk": "Бюрократія наших володінь багато виграє від законодавчої реформи, яка покликана підвищити її ефективність"
+ },
+ "support_clergy_cabinet": {
+  "en": "Support a Clerical Cabinet",
+  "uk": "Підтримка ради, складеної зі священників"
+ },
+ "support_clergy_cabinet_desc": {
+  "en": "$support_cabinet_generic_desc$. The best option for this is to turn to our devoted holy men.",
+  "uk": "$support_cabinet_generic_desc$. Найрозумнішим рішенням буде звернутися до наших найвідданіших прихильників — нам допоможуть священники."
+ },
+ "support_noble_cabinet": {
+  "en": "Support a Noble Cabinet",
+  "uk": "Підтримка ради, складеної з аристократів"
+ },
+ "support_noble_cabinet_desc": {
+  "en": "$support_cabinet_generic_desc$, and who is a better candidate to champion this reform than our most esteemed members of the upper society.",
+  "uk": "$support_cabinet_generic_desc$. Наші шановні представники вищого стану здатні краще за інших провести цю реформу."
+ },
+ "support_noble_sponsored_armies": {
+  "en": "Raise Noble Sponsored Mercenaries",
+  "uk": "Вербування найманців за рахунок дворянства"
+ },
+ "support_noble_sponsored_armies_desc": {
+  "en": "We should grant one of our most valiant Lords a permit to raise a mercenary company in order to defend our faith and countrymen in our name.",
+  "uk": "Ми маємо надати одному з наших найдоблесніших лордів дозвіл на вербування загону найманців для захисту нашої віри та народу від нашого імені."
+ },
+ "support_nobles_art": {
+  "en": "Sponsor the Noble Arts",
+  "uk": "Підтримка аристократичного мистецтва"
+ },
+ "support_nobles_art_desc": {
+  "en": "Our sophisticated elites crave more art to admire above all else. If we employ more artists we would surely make them happy.",
+  "uk": "Витончені смаки представників вищих станів вимагають нових творів мистецтва. Якщо ми збільшимо число творців, що перебувають на нашій службі, це напевно їх порадує."
+ },
+ "support_peasant_cabinet": {
+  "en": "Support a Common Cabinet",
+  "uk": "Підтримка ради, складеної з простолюдинів"
+ },
+ "support_peasant_cabinet_desc": {
+  "en": "$support_cabinet_generic_desc$, backed by the popular support.",
+  "uk": "$support_cabinet_generic_desc$, якщо її підтримає народ."
+ },
+ "support_religious_art": {
+  "en": "Sponsor Religious Art",
+  "uk": "Підтримка релігійного мистецтва"
+ },
+ "support_religious_art_desc": {
+  "en": "Our faith serves as a great inspiration for artists all over our country. Since our Court is able to support artists, we should hire one of those who are inspired by the divine.",
+  "uk": "Наша віра служить великим джерелом натхнення для творців по всій нашій країні. Оскільки наш двір у змозі утримувати творців, нам слід найняти одного з тих, хто черпає своє натхнення в божественному."
+ },
+ "support_religious_education": {
+  "en": "Support Religious Education",
+  "uk": "Підтримка релігійної освіти"
+ },
+ "support_religious_education_desc": {
+  "en": "Our state's reliance on the servants of the faith can be a great asset in the education of our population. This would accelerate our scientific advancements while increasing the loyalty of our devoted followers.",
+  "uk": "Служителі віри є опорою нашої держави і можуть відіграти велику роль у навчанні народу — це прискорить науковий прогрес і зміцнить відданість віруючих."
+ },
+ "support_religious_education_passed.tt": {
+  "en": "All [ShowPopTypeName('clergy')] and [ShowPopTypeName('peasants')] following our faith gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e].",
+  "uk": "Усі [ShowPopTypeName('clergy')|l] і [ShowPopTypeName('peasants')|l], що сповідують нашу віру, отримають [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
+ },
+ "support_ruler": {
+  "en": "Support the State",
+  "uk": "Підтримка уряду"
+ },
+ "support_ruler_desc": {
+  "en": "Our government can not function without the proper acknowledgment of its power. With a proper declaration of the parliament, we can solidify our reputation and strengthen our ruler.",
+  "uk": "Наш уряд не може функціонувати без належного визнання його влади. Ми зможемо зміцнити свою репутацію та становище нашого правителя, якщо парламент виступить з офіційною заявою."
+ },
+ "tolerance_of_non_hindus": {
+  "en": "Tolerance of Heathens",
+  "uk": "Толерантність до язичників"
+ },
+ "tolerance_of_non_hindus_desc": {
+  "en": "With our realm being a multireligious one, and our ruler being a believer in tolerance, we should allow these different beliefs in our nation.",
+  "uk": "Оскільки у нас багатоконфесійна держава, а наш правитель заохочує толерантність, треба дозволити існування в країні різних вірувань."
+ },
+ "union_enforce_law_implementation": {
+  "en": "Enforce Law Implementation",
+  "uk": "Забезпечення виконання правил"
+ },
+ "union_enforce_law_implementation_at": {
+  "en": "Every [member|e] sets their [union_integration_level_member|e] in [THIS.GetInternationalOrganization.GetName] to [THIS.GetInternationalOrganization.GetModifierValueString('union_integration_level')]",
+  "uk": "[Concept('union_integration_level_member','Рівень інтеграції')|e] усіх [Concept('member','учасників')|e] міжнародної організації «[THIS.GetInternationalOrganization.GetName]» зміниться на «[THIS.GetInternationalOrganization.GetModifierValueString('union_integration_level')]»"
+ },
+ "union_enforce_law_implementation_desc": {
+  "en": "Some members of the [GetInternationalOrganizationType('union').GetName] are either newcomers or have managed to repell any attempt of centralizing the $union$. It is necessary to enforce these laws in each of the members if we want a clean annexation of the other members.",
+  "uk": "Деякі учасники #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#! або вступили до неї нещодавно, або активно чинять опір нашим спробам централізувати владу. Щоб домогтися приєднання держав-учасниць унії, потрібно забезпечити виконання на їхніх територіях прийнятих нами законів."
+ },
+ "wartime_cavalry_reserve": {
+  "en": "Wartime Cavalry Reserve",
+  "uk": ""
+ },
+ "wartime_cavalry_reserve_desc": {
+  "en": "The decisive engagement may come at any moment, and we must ensure our heavy cavalry are in a state of full readiness. Let the noble houses commit their finest mounted warriors to a state of constant alert until the war is won.",
+  "uk": ""
+ },
+ "wartime_harvest_pooling": {
+  "en": "Wartime Harvest Pooling",
+  "uk": ""
+ },
+ "wartime_harvest_pooling_desc": {
+  "en": "Our armies march on their stomachs, and a hungry army does not fight well. By organizing the pooling of harvest surpluses into regional magazines, our people can directly sustain the forces that defend them.",
+  "uk": ""
+ },
+ "wartime_officer_corps": {
+  "en": "Reinforce the Officer Corps",
+  "uk": ""
+ },
+ "wartime_officer_corps_desc": {
+  "en": "The shock of cavalry no longer wins the day. What carries a battle now is the skill of those who command, and parliament should give the army its pick of our finest, trained and posted before the campaign opens.",
+  "uk": ""
+ }
+}

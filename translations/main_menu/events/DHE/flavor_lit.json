@@ -1,0 +1,1242 @@
+{
+ "calvinist_pops_gain_25_satisfaction": {
+  "en": "[ShowReligionAdjective('calvinist')] [pops|e] across our [locations|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністських#!#! [Concept('pops','груп населення')|e] в наших [Concept('locations','районах')|e] зросте на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "calvinist_pops_lose_33_satisfaction": {
+  "en": "[ShowReligionAdjective('calvinist')] [pops|e] across our [locations|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністських#!#! [Concept('pops','груп населення')|e] в наших [Concept('locations','районах')|e] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] "
+ },
+ "diplomatic_isolation_tt": {
+  "en": "Our chances to seek allies across [ShowRegionNameWithNoTooltip('russian_region')] will diminish",
+  "uk": "Наші шанси знайти союзників у Росії стануть нижчими"
+ },
+ "enable_conversion_to_catholicism_tt": {
+  "en": "Gain access to the [ShowCabinetActionName('lit_promote_catholicism')] [cabinet_action|e]",
+  "uk": "Ми отримуємо доступ до [Concept('cabinet_action','дії ради')|e] #TOOLTIP:CABINET_ACTION,lit_promote_catholicism,X #L «Підтримка католицтва»#!#!"
+ },
+ "every_neighbor_catholic_gets_heresy_cb_tt": {
+  "en": "#R This will severely upset neighbor [ShowReligionAdjectiveWithNoTooltip('catholic')] countries and the [GetCountry('PAP').GetGovernment.GetRulerTitle] and may even trigger wars against us#!",
+  "uk": "#R Сусідні католицькі держави і [GetCountry('PAP').GetGovernment.GetRulerTitle] висловлять найсильніше невдоволення таким рішенням і навіть, можливо, оголосять нам війну#!"
+ },
+ "flavor_lit.1.a": {
+  "en": "Accept their movement.",
+  "uk": "Ми узаконимо нову течію."
+ },
+ "flavor_lit.1.b": {
+  "en": "They must be crushed.",
+  "uk": "Ми розгромимо лютеран."
+ },
+ "flavor_lit.1.desc": {
+  "en": "The introduction of [ShowReligionName('lutheran')] in [ShowContinentName('europe')] has sent ripples across every [ShowReligionAdjective('catholic')] community. As the adherents of this new faith are persecuted and forced to migrate, many of them have made their way into our lands, through their wealth. These cultural elites brought fresh ideas to the [GetCountry('LIT').GetLongName], as we stand at a religious crossroads between East and West.\\n\\nAs they settle across our urban centers, there is a growing pressure to accept their movement and sympathize with their struggle, at the cost of our standing with powerful [ShowReligionAdjectiveWithNoTooltip('catholic')] neighbors. Only time will tell if the surfacing of such a powerful religious movement will be to our benefit.",
+  "uk": "Поява #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранства#!#! в #TOOLTIP:CONTINENT,europe,X #L Європі#!#! викликала сильний резонанс у всьому #TOOLTIP:RELIGION,catholic_tt,X #L католицькому#!#! світі. Оскільки прихильників нової віри активно переслідують і змушують до еміграції, багато з них оселяються в наших землях завдяки багатству і зв'язкам — адже наша держава, [GetCountry('LIT').GetLongName], розташована на перетині двох напрямків релігійної думки: західного і східного, — і активно несуть свіжі ідеї в маси.\\n\\nДедалі більше представників іноземної культурної еліти селиться в наших міських центрах, і дедалі голосніше лунають заклики приєднатися до боротьби лютеран ціною відносин з нашими #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькими#!#! сусідами. Лише час покаже, чи зіграє нам на руку заступництво цьому новому релігійному рухові, що стрімко набирає обертів."
+ },
+ "flavor_lit.1.entry": {
+  "en": "The Arrival of Lutheran",
+  "uk": ""
+ },
+ "flavor_lit.1.title": {
+  "en": "The Arrival of [ShowReligionNameWithNoTooltip('lutheran')]",
+  "uk": "Поширення лютеранства"
+ },
+ "flavor_lit.10.a": {
+  "en": "A jest of bad taste, nothing more.",
+  "uk": "Це лише безглуздий жарт."
+ },
+ "flavor_lit.10.b": {
+  "en": "Surely a sound move.",
+  "uk": "Це, безсумнівно, розумний крок."
+ },
+ "flavor_lit.10.desc": {
+  "en": "Despite the various attempts at the behest of many [ShowReligionAdjective('catholic')] missions to convert our people, we have remained steadfast in our faith.\\n\\nHowever, whispers across our halls have given way to rumors surrounding a potential conversion to the [ShowReligionAdjective('orthodox')] faith through the grace of a royal marriage with a member of [target_character2.GetName]'s dynasty. However, a radical proposal may be, there is much merit in it from those under our banner that already subscribe to the [ShowReligionAdjectiveWithNoTooltip('orthodox')] faith.\\n\\nWhilst such a conversion would certainly safeguard our eastern border, it would greatly jeopardize our relations with the West and further add to the chaos and instability there. Furthermore, many advisors speak of the domineering attitude and demands at our expense that such a marriage would create...",
+  "uk": "Хоча #TOOLTIP:RELIGION,catholic_tt,X #L католики#!#! не полишали спроб навернути наш народ до своєї віри, ми залишилися вірними язичницьким традиціям.\\n\\nОднак обережні розмови, що ведуться в наших залах, породили чутки про те, що ми готуємося прийняти #TOOLTIP:RELIGION,orthodox_tt,X #L православ'я#!#!: нібито [target_character2.GetName] пропонує нам шлюб з одним із членів своєї благородної династії. Хоча така можливість виглядає доволі радикальною, нашим підданим, що вже перейшли до #TOOLTIP:RELIGION,orthodox_tt,X #L православ'я#!#!, вона напевно припаде до смаку.\\n\\nЗ одного боку, це рішення допоможе нам захистити східні кордони, а з іншого — ще більше погіршить наші відносини із Заходом, лише поглибивши хаос і нестабільність. Більше того, деякі радники вважають, що цей шлюб поставить нас у підпорядковане становище і спровокує одну поступку за іншою…"
+ },
+ "flavor_lit.10.entry": {
+  "en": "$flavor_lit.10.title$",
+  "uk": ""
+ },
+ "flavor_lit.10.historical_info": {
+  "en": "During the Christianization of Lithuania in the late 14th and early 15th centuries, the country almost adopted Orthodoxy due to complex political motivations. Grand Duke Gediminas initially considered converting to Orthodoxy, influenced by neighboring Orthodox states. However, the final attempt at conversion was made by Jogaila, who faced pressure from his Russian mother to marry Sofia, daughter of Prince Dmitri of Moscow. This marriage would have required Jogaila to convert to Orthodoxy and potentially even make Lithuania a fief of Moscow, an option that was eventually outright rejected.",
+  "uk": "Під час християнізації, що тривала з кінця XIV до початку XV ст., через низку політичних причин Литва опинилася за крок від прийняття православ'я. Великий князь Гедимін уперше задумався про можливість переходу до православ'я під впливом сусідніх православних держав. Остання ж така спроба була здійснена князем Ягайлом, мати якого, будучи руською, переконувала сина одружитися з Софією, дочкою Дмитра, князя Московського. Однак такий шлюб не лише вимагав від Ягайла навернення до православної віри, але міг потенційно призвести до того, що Литовське князівство перетворилося б на васала Москви, тож врешті-решт цей варіант був категорично відкинутий."
+ },
+ "flavor_lit.10.title": {
+  "en": "Eastern Connections",
+  "uk": "Зв'язки зі Сходом"
+ },
+ "flavor_lit.1000.a": {
+  "en": "Let us invite these merchants to aid the [target_location.GetRank.GetNameWithNoTooltip].",
+  "uk": "Запросимо цих купців для допомоги [target_location.Custom('rank_ru_DAT')|l]."
+ },
+ "flavor_lit.1000.a.entry": {
+  "en": "Let us invite these merchants to aid the city.",
+  "uk": ""
+ },
+ "flavor_lit.1000.b": {
+  "en": "We do not need [target_country2.GetCulture.GetNameWithNoTooltip] help for this.",
+  "uk": "Ми не потребуємо [target_country2.GetCulture.GetAdjectiveWithNoTooltip|l]ої допомоги."
+ },
+ "flavor_lit.1000.b.entry": {
+  "en": "We do not need their help for this.",
+  "uk": ""
+ },
+ "flavor_lit.1000.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has suffered a decline, its trade dwindling within the borders of [ROOT.GetCountry.GetName]. In response, the governor of the [target_location.GetRank.GetNameWithNoTooltip] seeks to attract merchants from [target_country2.GetLongName], hoping their investments will revitalize the area — even if it means accepting the influence of foreign powers.",
+  "uk": "[target_location.GetRank.GetName] [target_location.GetName] переживає занепад — торгівля скорочується. У відповідь на це губернатор [target_location.Custom('rank_ru_GEN')|l] пропонує залучити купців з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#!, чиї інвестиції зможуть пожвавити регіон — навіть якщо це означає посилення іноземного впливу."
+ },
+ "flavor_lit.1000.entry": {
+  "en": "Hanseatic Influence in Kaunas",
+  "uk": ""
+ },
+ "flavor_lit.1000.title": {
+  "en": "[target_country2.GetAdjectiveWithNoTooltip] Influence in [ShowLocationNameWithNoTooltip('kaunas')]",
+  "uk": "[target_country2.GetAdjectiveWithNoTooltip]ий вплив у Ковно"
+ },
+ "flavor_lit.1001.a": {
+  "en": "We will accept this deal.",
+  "uk": "Ми з радістю погодимося на цю угоду."
+ },
+ "flavor_lit.1001.b": {
+  "en": "Why should we invest somewhere so unreliable?",
+  "uk": "Навіщо вкладатися в таке ненадійне підприємство?"
+ },
+ "flavor_lit.1001.desc": {
+  "en": "The governor of [target_location.GetName], along with [target_character.GetName], has approached us with an offer: the right for our merchants to settle in the [target_location.GetRank.GetName]. They hope our involvement will transform the area into a flourishing center of trade within [target_country.GetName]. It is a tempting offer, though we must consider the risk of losing our investments should they later seize our assets.",
+  "uk": "Губернатор [target_location.Custom('rank_ru_GEN')|l] [target_location.GetName] і [target_character.GetName] запропонували нам угоду: право нашим купцям облаштуватися там. Вони сподіваються, що наша участь перетворить регіон на процвітаючий торговельний центр #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Пропозиція приваблива, але варто врахувати ризик втрати інвестицій, якщо згодом наші активи буде конфісковано."
+ },
+ "flavor_lit.1001.entry": {
+  "en": "$flavor_lit.1001.title$",
+  "uk": ""
+ },
+ "flavor_lit.1001.title": {
+  "en": "$flavor_lit.1000.title$",
+  "uk": ""
+ },
+ "flavor_lit.11.a": {
+  "en": "Many blessings upon them.",
+  "uk": "Нехай Господь їх благословить!"
+ },
+ "flavor_lit.11.b": {
+  "en": "We need no ties to secure their loyalty!",
+  "uk": "Цей шлюб потрібен їм, а не нам!"
+ },
+ "flavor_lit.11.desc.a": {
+  "en": "After weeks of deliberation with [target_character.GetHerHis] [GetCountry('LIT').GetGovernment.GetCourtTitle], [target_character.GetName] has reached out to our diplomats with an interesting proposal. Frustrated by the constant border clashes and diplomatic isolation, the [GetCountry('LIT').GetLongName] has decided to embrace [ShowReligionName('catholic')] and even request the hand of [target_character3.GetShortName] to unite our two houses further. Such a development will possibly lead to furthering our influence within their core...",
+  "uk": "Понарадившись кілька тижнів, [target_character.GetName] і [Select_CString(target_character.IsFemale, 'її', 'його')] [GetCountry('LIT').GetGovernment.GetCourtTitle] нарешті звернулися до нас із цікавою пропозицією. Щоб покінчити з дипломатичною ізоляцією і постійними сутичками на кордонах, [GetCountry('LIT').GetLongName] прийме #TOOLTIP:RELIGION,catholic_tt,X #L католицтво#!#!, а для зміцнення зв'язку між нашими домами [target_character3.GetShortName] укладе шлюб із [Select_CString(target_character.IsFemale, 'литовською княгинею', 'литовським князем')]. Якщо ми відповімо згодою, у нас з'явиться можливість зміцнити вплив у литовських землях…"
+ },
+ "flavor_lit.11.desc.b": {
+  "en": "Despite their recent conversion to [ShowReligionName('catholic')], the would-be heralds of a new age for the [GetCountry('LIT').GetLongName] have failed to grasp the vital nature of securing their legitimacy through a marriage with us. Not only have they shunned our diplomatic attempts as their neighbors, but also have gone as far as to imply insult through our correspondence!",
+  "uk": "[GetCountry('LIT').GetLongName] — хоча ця держава нещодавно навернулася до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!, місцева влада, яка мала б сповістити про початок нової епохи, так і не усвідомила, що укладення шлюбу з нами стане ключовою опорою її легітимності. Ці тупаки не лише відкинули наші дипломатичні пропозиції, але й допустили образливі натяки в листуванні!"
+ },
+ "flavor_lit.11.title": {
+  "en": "The Hand of [GetCountry('LIT').GetNameWithNoTooltip]",
+  "uk": "Пропозиція від Литви"
+ },
+ "flavor_lit.12.a": {
+  "en": "May they live happily ever after!",
+  "uk": "Щастя молодятам!"
+ },
+ "flavor_lit.12.desc": {
+  "en": "Planning a royal marriage is no easy affair. The correct curtains of proper color and style, the perfect location, and a swarm of [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and relatives to attend, are some of the tasks of such a grandiose event. And most of all, [target_character.GetShortName] and [target_character3.GetShortName] dressed in magnificent attire, as if the sun himself graced them with his spotlight. The ceremony goes off without a hitch and the town criers across the [GetCountry('LIT').GetLongName] proclaim the union between the two newlyweds!",
+  "uk": "Підготовка до укладення династичного шлюбу — справа непроста. Завіси відповідного кольору і фасону, а також ідеальне місце, куди натовпами стікаються родичі та [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], — ось лише пара атрибутів цієї грандіозної події. У самому центрі уваги — [target_character.GetShortName] і [target_character3.GetShortName], вбрані в такі розкішні наряди, що здається, ніби саме сонце поділилося з ними своїм блиском. Церемонія проходить як по маслу. [GetCountry('LIT').GetLongName] — мешканці цієї держави дізнаються від міських глашатаїв, що союз двох найвищих осіб укладено!"
+ },
+ "flavor_lit.12.title": {
+  "en": "Wedding Bells in [target_location2.GetNameWithNoTooltip]",
+  "uk": "[target_location2.GetNameWithNoTooltip] і весільний передзвін"
+ },
+ "flavor_lit.13.a": {
+  "en": "Approve the marriage.",
+  "uk": "Ми схвалимо цей шлюб."
+ },
+ "flavor_lit.13.b": {
+  "en": "We will not allow this!",
+  "uk": "Ми такого не допустимо!"
+ },
+ "flavor_lit.13.desc": {
+  "en": "The [GetCountry('LIT').GetLongName] has always been an irregularity across our borders. Truly, we have not always maintained good or even neutral relations and we have clashed many a time in the past.\\n\\nTheir recent correspondence with the [GetCountry('PAP').GetGovernment.GetRulerTitle] has resulted in nothing but pressure and vague promises with no real success. In a moment of clarity, [target_character.GetName] has decided to officially request the hand of one of our house members through marriage.\\n\\nSuch a move is surely going to impact the balance of power in the region, thus winning them many new enemies, allowing us to make influential demands and moves on their eastern border...",
+  "uk": "[GetCountry('LIT').GetLongName] вічно провокує нестабільність на наших кордонах. Відверто кажучи, у минулому ми часто ворогували, і нам рідко вдавалося підтримувати дружні або хоча б нейтральні відносини.\\n\\n[GetCountry('PAP').GetGovernment.GetRulerTitle|U] і литовська влада нещодавно вели листування, але реального результату досягти так і не вдалося: все закінчилося лише взаємним тиском і туманними обіцянками. В момент просвітлення [target_character.GetName] все ж наважується офіційно просити руки одного з членів нашої династії.\\n\\nТакий крок, безсумнівно, змінить розклад сил у регіоні, і в литовців з'явиться одразу кілька нових ворогів, а ми, своєю чергою, зможемо висувати серйозні вимоги і вживати рішучих дій на їхніх східних кордонах…"
+ },
+ "flavor_lit.14.a": {
+  "en": "Go forward with the marriage.",
+  "uk": "Будемо готуватися до весілля."
+ },
+ "flavor_lit.14.b": {
+  "en": "We cannot risk our sovereignty.",
+  "uk": "Не можна ризикувати нашою незалежністю."
+ },
+ "flavor_lit.14.desc": {
+  "en": "A message from the hands of [target_character2.GetName] has arrived! Within it are detailed the requirements for a wedding ceremony between [target_character.GetName] and [target_character3.GetName]. It appears that they have finally approved our request to officially unite our two houses. The weight of such a decision is surely great and its gravity is strong enough to alter the course of our entire history...",
+  "uk": "[target_character2.GetName] надсилає нам листа! У ньому детально описуються вимоги до церемонії, під час якої [target_character.GetName] і [target_character3.GetName] обміняються шлюбними обітницями. Схоже, вони таки прийняли нашу пропозицію офіційно об'єднати наші династії. Це серйозне рішення матиме довгострокові наслідки і здатне змінити хід усієї нашої історії…"
+ },
+ "flavor_lit.14.entry": {
+  "en": "The Lithuanian-Muscovite Royal Wedding",
+  "uk": ""
+ },
+ "flavor_lit.14.title": {
+  "en": "The Wedding of [target_character.GetShortNameWithNoTooltip] and [target_character3.GetShortNameWithNoTooltip]",
+  "uk": "[target_character.GetShortNameWithNoTooltip] і [target_character3.GetShortNameWithNoTooltip] вступають у шлюб"
+ },
+ "flavor_lit.15.a": {
+  "en": "Diplomacy, to avoid war!",
+  "uk": "Дипломатія дозволить уникнути війни!"
+ },
+ "flavor_lit.15.b": {
+  "en": "Reach out to [target_country1.GetNameWithNoTooltip].",
+  "uk": "[target_country1.GetNameWithNoTooltip] нам допоможе."
+ },
+ "flavor_lit.15.b.entry": {
+  "en": "Reach out to them.",
+  "uk": ""
+ },
+ "flavor_lit.15.c": {
+  "en": "Surely, a waste of coin.",
+  "uk": "Все це марна трата грошей."
+ },
+ "flavor_lit.15.desc": {
+  "en": "The balance of power across our borders between East and West is in delicate balance. The rising power of the [GetCountry('MOS').GetLongName] threatens to overshadow the terror brought upon us by the hordes from the Far East. In order to prevent their warlike tendencies from enveloping the entire region, we should make the necessary diplomatic preparations by reaching out to their most powerful neighbors...",
+  "uk": "Підтримувати баланс сил між Сходом і Заходом на наших кордонах завжди було непросто. [GetCountry('MOS').GetLongName] продовжує набирати міць і ось-ось затьмарить собою загрозу, яку несуть нам орди з Далекого Сходу. Щоб ця войовнича держава не занурила в хаос увесь регіон, ми маємо провести переговори з її найвпливовішими сусідами…"
+ },
+ "flavor_lit.15.entry": {
+  "en": "Diplomacy with Russian Region",
+  "uk": ""
+ },
+ "flavor_lit.15.historical_info": {
+  "en": "The relationship between the Grand Duchy of Lithuania and the Russian states in the 14th and 15th centuries involved both cooperation and competition. Under leaders such as Gediminas, Algirdas, and Vytautas 'the Great', Lithuania expanded its territory eastward, incorporating regions of present-day Belarus and Ukraine. This brought them into frequent interaction with the Russian principalities, particularly the rising Grand Duchy of Moscow. As both powers vied for control over these lands, tensions grew. However, Lithuania also formed strategic alliances with northern Russian republics like Novgorod and Pskov, which sought to counter Moscow's expanding influence. While these partnerships helped defend against common enemies like the Tatars, the dynamic between Lithuania and Moscow remained unstable, shifting between periods of collaboration and rivalry.",
+  "uk": "У XIV і XV століттях відносини між руськими князівствами і Великим князівством Литовським були почасти союзницькими, почасти змагальними. За правління Гедиміна, Ольгерда і Вітовта Великого Литва розширилася на схід, приєднавши території сучасних Білорусі та України, що неминуче призвело до тіснішої взаємодії з руськими князівствами, особливо з Великим князівством Московським, яке тоді переживало період становлення. Напруженість між Литвою і Москвою наростала, адже обидві держави претендували на вищезгадані землі. Водночас Литва уклала стратегічні союзи з північними руськими республіками, насамперед з Новгородом і Псковом, які намагалися протистояти зростаючому впливу московських князів. Хоча Московське і Литовське князівства не раз об'єднували зусилля, щоб відвадити спільних ворогів — наприклад, татар, — відносини між ними залишалися нестабільними, і періоди співпраці незмінно змінювалися ворожнечею."
+ },
+ "flavor_lit.15.title": {
+  "en": "Diplomacy with [ShowRegionNameWithNoTooltip('russian_region')]",
+  "uk": "Дипломатичні відносини з Росією"
+ },
+ "flavor_lit.16.a": {
+  "en": "The gifts are most welcome!",
+  "uk": "Ми завжди раді подарункам!"
+ },
+ "flavor_lit.16.desc": {
+  "en": "A procession of diplomats from the [GetCountry('LIT').GetLongName] have arrived today in [target_location.GetName]. Luxurious gifts and royal protocol take heed as the diplomats make their way through our capital. A letter from [target_character2.GetName] paints a picture of friendship between our people against a common enemy, the [GetCountry('MOS').GetLongName]. Cooperation and friendship will surely prove a vital and important tool in containing the growing [GetCountry('MOS').GetFlavorRank] across our Eastern border.",
+  "uk": "Сьогодні [target_location.GetName] приймає дипломатів, яких прислала до нас [GetCountry('LIT').GetLongName]. Вони чинно прокрокували через столицю, несучи розкішні подарунки. У своєму листі [target_character2.GetName] малює картину об'єднання наших народів перед лицем спільного ворога, в ролі якого виступає [GetCountry('MOS').GetLongName]. І справді, [GetCountry('MOS').GetFlavorRank] стрімко розвивається, загрожуючи нашим східним кордонам, тож союзники нам точно не завадять."
+ },
+ "flavor_lit.16.entry": {
+  "en": "$flavor_lit.16.title$",
+  "uk": ""
+ },
+ "flavor_lit.16.title": {
+  "en": "In the Interest of Diplomacy",
+  "uk": "У дипломатичних інтересах"
+ },
+ "flavor_lit.17.a": {
+  "en": "Start the construction.",
+  "uk": "Приступимо до будівництва."
+ },
+ "flavor_lit.17.b": {
+  "en": "We can not afford it.",
+  "uk": "Нам це не по кишені."
+ },
+ "flavor_lit.17.desc": {
+  "en": "Now that the [ROOT.GetCountry.GetLongName] has finally joined the [ShowReligionGroupAdjective('christian')] world we must show to our new brothers our piety and devotion by building a new [ShowBuildingTypeName('cathedral')] in [ShowLocationName('vilnius')].\\n\\nWe will build it over the remains of a very old church that once was used by a long gone [ShowReligionGroupAdjectiveWithNoTooltip('christian')] ruler of [ROOT.GetCountry.GetNameWithNoTooltip] and we will show to the world, our great desire to rejoin the flock of the Lord.",
+  "uk": "[ROOT.GetCountry.GetLongName] — нарешті частина #TOOLTIP:RELIGIONGROUP,christian,X #L християнського#!#! світу, і тепер ми збираємося збудувати #TOOLTIP:BUILDING_TYPE,cathedral,X #L кафедральний собор#!#! у #TOOLTIP:LOCATION,vilnius_tt,X #L Вільно#!#!, щоб продемонструвати новим братам наші правовірність і благочестя.\\n\\nМи зведемо цей собор на руїнах старовинної церкви, де колись молився давно померлий #TOOLTIP:RELIGIONGROUP,christian,X #L християнський#!#! правитель [ROOT.GetCountry.Custom('CL_RP')], і тим самим покажемо світу, як ми прагнемо возз'єднання з паствою Господа."
+ },
+ "flavor_lit.17.entry": {
+  "en": "Vilnius Cathedral",
+  "uk": ""
+ },
+ "flavor_lit.17.historical_info": {
+  "en": "In 1251, during the reign of Mindaugas and after his conversion to Christianity, the original cathedral was built in Vilnius to house the bishop of Lithuania. After the death of Mindaugas, the building was turned back into a pagan place of worship which endured until 1387 when Lithuania converted officially to Christianity.",
+  "uk": "У 1251 році, коли великий князь Міндовг прийняв християнство, у Вільно було збудовано собор для литовського єпископа. Після смерті Міндовга будівлю використовували як язичницький храм. У такій ролі вона й проіснувала до 1387 року, коли Литва офіційно навернулася до християнської віри."
+ },
+ "flavor_lit.17.title": {
+  "en": "[ShowLocationNameWithNoTooltip('vilnius')|U] Cathedral",
+  "uk": "Собор у Вільно"
+ },
+ "flavor_lit.18.a": {
+  "en": "We must centralize the state.",
+  "uk": "Нам потрібна централізація."
+ },
+ "flavor_lit.18.b": {
+  "en": "We will not go against tradition.",
+  "uk": "Ми не порушуватимемо традицій."
+ },
+ "flavor_lit.18.desc": {
+  "en": "Under the care of the [target_character.GetDynasty.GetName] dynasty, [ROOT.GetCountry.GetName] has grown into a great [ROOT.GetCountry.GetFlavorRank]. It has finally abandoned the clutches of Pagan and joined the modern world. However, many regions under our rule resist following the laws created in [capital_scope.GetName] and reject our authority.\\n\\nThe time has come to retake control of our own country and create a more unified state.",
+  "uk": "Династія [target_character.GetDynasty.GetName] перетворила #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_VP')|L]#!#! на по-справжньому велику [ROOT.GetCountry.Custom('CF_VP')|l]. Наша держава нарешті вирвалася з лещат язичництва і стала частиною сучасного світу. На жаль, багато належних нам регіонів відмовляються дотримуватися #L [capital_scope.GetAdjective|l]их#! законів і не визнають нашу владу.\\n\\nНам час повернути контроль над власними землями й об'єднати нашу державу."
+ },
+ "flavor_lit.18.entry": {
+  "en": "Centralization reforms",
+  "uk": ""
+ },
+ "flavor_lit.18.historical_info": {
+  "en": "Grand Duke Vytautas made many efforts to centralize his country during his reign, one of such efforts being the abolishment of the ancient system of partial duchies. Vytautas seized Lutsk into his direct control in 1393, abolished the Duchy of Kyiv in 1394, and appointed a vicegerent in Podolia in 1395, with only the smaller duchies remaining intact.",
+  "uk": "Під час свого правління великий князь Вітовт приділяв багато уваги централізації своєї держави. Однією з його ініціатив став відхід від давньої системи часткового підданства. У 1393 році Вітовт встановив повну владу над Луцьком, у 1394 скасував князівство з центром у Києві, а в 1395 призначив намісника в Подолії, залишивши недоторканими лише дрібні князівства."
+ },
+ "flavor_lit.18.title": {
+  "en": "Centralization reforms of [target_character.GetShortNameWithNoTooltip]",
+  "uk": "[target_character.GetShortNameWithNoTooltip] і реформи з централізації"
+ },
+ "flavor_lit.19.a": {
+  "en": "We will embrace these new customs.",
+  "uk": "Ми приймемо нові звичаї."
+ },
+ "flavor_lit.19.b": {
+  "en": "We do not need this foreign influence.",
+  "uk": "Ми не піддамося іноземному впливу."
+ },
+ "flavor_lit.19.desc": {
+  "en": "The new [ROOT.GetCountry.GetGovernment.GetConsortTitle] of our ruler, [consort_scope.GetName], has brought with [consort_scope.GetHerHis] many culinary innovations from [consort_scope.GetHerHis] native [birth_location_scope.GetName].\\n\\nThe courtiers and [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of [capital_scope.GetName] are fascinated by the weird utensil called fork used by the [ROOT.GetCountry.GetGovernment.GetConsortTitle] to dine and the strange new dishes and ingredients [consort_scope.GetSheHe] has brought from the south. Everybody who wants to keep their reputation has quickly started to copy [consort_scope.GetHerHis] and the new trend has created a great demand for things like olives, wheat, and wine.",
+  "uk": "[consort_scope.GetName], [ROOT.GetCountry.GetGovernment.GetConsortTitle|l] нашого правителя, багато знає про кулінарію, адже [Select_CString(consort_scope.IsFemale, 'її', 'його')] батьківщина — [birth_location_scope.GetName].\\n\\nПридворні та [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] столичного міста [capital_scope.GetName] зачаровано спостерігають, як вправно [ROOT.GetCountry.GetGovernment.GetConsortTitle] орудує дивним приладом під назвою виделка, і дивуються дивовижним стравам та інгредієнтам, які [Select_CString(consort_scope.IsFemale, 'вона привезла', 'він привіз')] з півдня. Усі, кому дорога репутація, кинулися наслідувати нового консорта, започаткувавши нову моду і створивши величезний попит на оливки, пшеницю і вино."
+ },
+ "flavor_lit.19.entry": {
+  "en": "Fancy New Dishes",
+  "uk": ""
+ },
+ "flavor_lit.19.historical_info": {
+  "en": "With the arrival of the Italian Bona Sforza as the new Grand Duchess consort of Lithuania, numerous culinary innovations came with her to the Lithuanian court, like the fork and many traditional Italian recipes.",
+  "uk": "Італійка Бона Сфорца, нова литовська княгиня-консорт, привезла до двору безліч кулінарних дивацтв: рецепти італійських страв і незвичайний столовий прилад під назвою виделка."
+ },
+ "flavor_lit.19.title": {
+  "en": "[consort_scope.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_lit.2.a": {
+  "en": "Their faith will integrate within our social fabric.",
+  "uk": "Наше суспільство увібере нові віяння."
+ },
+ "flavor_lit.2.b": {
+  "en": "We cannot betray our doctrine...",
+  "uk": "Ми не зрадимо свою віру…"
+ },
+ "flavor_lit.2.desc": {
+  "en": "Not long after the surfacing of the [ShowReligionAdjective('lutheran')] faith, yet another movement is grasping the attention of all of [ShowContinentName('europe')], [ShowReligionName('calvinist')]. The arrival of [ShowReligionAdjectiveWithNoTooltip('lutheran')] refugees is paving the way for a second wave of [ShowReligionAdjectiveWithNoTooltip('calvinist')] refugees, as they originated from many diverse corners of the continent, fleeing from the narrow-minded [ShowReligionAdjective('catholic')] governments of their former countries.",
+  "uk": "Услід за #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранством#!#! #TOOLTIP:CONTINENT,europe,X #L Європу#!#! захоплює ще один рух: [ShowReligionName('calvinist')|l]. Щойно хвиля біженців-#TOOLTIP:RELIGION,lutheran_tt,X #L лютеран#!#! спала, до нас спрямувалися #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвіністи#!#!: вихідці з найрізноманітніших #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! держав, влада яких виявила нетерпимість до нового вчення."
+ },
+ "flavor_lit.2.entry": {
+  "en": "Wave of Calvinist",
+  "uk": ""
+ },
+ "flavor_lit.2.title": {
+  "en": "Wave of [ShowReligionNameWithNoTooltip('calvinist')]",
+  "uk": "Мода на кальвінізм"
+ },
+ "flavor_lit.20.a": {
+  "en": "Let us style ourselves accordingly.",
+  "uk": "Приймемо належний титул."
+ },
+ "flavor_lit.20.b": {
+  "en": "A degree of humility will ensure internal stability.",
+  "uk": "Частка смиренності послужить внутрішній стабільності."
+ },
+ "flavor_lit.20.desc": {
+  "en": "Although our [ROOT.GetCountry.GetFlavorRank] has expanded beyond its original borders and now incorporates many peoples, we have never properly styled ourselves as more than a [ROOT.GetCountry.GetGovernment.GetRulerTitle], despite being mightier than many in [ShowContinentName('europe')]. [target_character.GetName] is not one to accept that [target_character.GetHerHis] titles are inferior to those of [target_character.GetHerHis] enemies. For that reason, [target_character.GetSheHe] wishes to style [target_character.GetHerselfHimself] as something greater — above mere Dukes, and certainly equal to Kings.\\n\\nSuch an effort would surely hurt our legitimacy in the short term. However, maintaining a degree of humility would prevent our subjects from seeing us as overlords who view them as inferior. Yet, in the struggle for power within [ShowContinentNameWithNoTooltip('europe')], humility often leads to decline.",
+  "uk": "Хоча наша держава розширила свої кордони і тепер включає безліч народів, її правителі ніколи не прагнули до титулу вищого, ніж [ROOT.GetCountry.GetGovernment.GetRulerTitle], попри те, що мало хто в #TOOLTIP:CONTINENT,europe,X #L Європі#!#! може зрівнятися з їхньою [ROOT.GetCountry.Custom('CF_TP')|l]. [target_character.GetName] же не з тих, хто погодиться, щоб [Select_CString(target_character.IsFemale, 'її', 'його')] титули поступалися титулам ворогів. З цієї причини [Select_CString(target_character.IsFemale, 'вона', 'він')] бажає більшого — стати вищим за простих князів, щонайменше нарівні з королями.\\n\\nТакий крок, безсумнівно, підірве нашу легітимність у короткостроковій перспективі. З іншого боку, зберігши частку смиренності, ми не дозволимо нашим васалам побачити в нас зарозумілого сюзерена, який вважає їх нижчими за себе. І все ж, у боротьбі за владу в Європі смиренність часто веде до занепаду."
+ },
+ "flavor_lit.20.entry": {
+  "en": "$flavor_lit.20.title$",
+  "uk": ""
+ },
+ "flavor_lit.20.historical_info": {
+  "en": "The aftermath of the Lithuanian civil war of 1381 and the Ostrów Agreement left Vytautas the Great as the sole monarch of the Grand Duchy. Seeking to further legitimize his rule and claim succession from the Kievan Rus', he styled himself as #italic Supremus Dux Lithuaniae#!, the Supreme Duke of Lithuania — a title not consistently used before his time. This designation persisted even under the Polish Commonwealth until the state's partition by the Austrians, Prussians, and Russians.",
+  "uk": "Наслідки громадянської війни 1381 року та Островської угоди зробили Вітовта Великого єдиним правителем Великого князівства Литовського. Прагнучи зміцнити легітимність своєї влади і заявити про наступництво від Київської Русі, він прийняв титул #italic Supremus Dux Lithuaniae#! — Великий князь Литовський, який раніше послідовно не використовувався. Цей титул зберігався навіть у період Речі Посполитої аж до поділу держави австрійцями, пруссами та росіянами."
+ },
+ "flavor_lit.20.title": {
+  "en": "Supremus Dux Lithuaniae",
+  "uk": ""
+ },
+ "flavor_lit.21.a": {
+  "en": "[target_character.GetNameWithNoTooltip] shall become the Grand Marshal of [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetNameWithNoTooltip] стане головним маршалом [ROOT.GetCountry.Custom('CL_GEN')]."
+ },
+ "flavor_lit.21.a.entry": {
+  "en": "The character shall become the Grand Marshal of $LIT$.",
+  "uk": ""
+ },
+ "flavor_lit.21.b": {
+  "en": "A position in the [ROOT.GetCountry.GetGovernment.GetCabinetTitle] will suffice.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetTitle|U] виграє від такої людини."
+ },
+ "flavor_lit.21.b.entry": {
+  "en": "A position in our cabinet will suffice.",
+  "uk": ""
+ },
+ "flavor_lit.21.c": {
+  "en": "Who are they to demand anything from the [ROOT.GetCountry.GetGovernment.GetRulerTitle]?",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] не виконуватиме їхніх вимог!"
+ },
+ "flavor_lit.21.c.entry": {
+  "en": "Who are they to demand anything from him?",
+  "uk": ""
+ },
+ "flavor_lit.21.desc": {
+  "en": "Although many families exist within [ROOT.GetCountry.GetName], only a few have dominated the political scene of the [ROOT.GetCountry.GetFlavorRank]. One such family is the [ShowDynastyName('radziwill_dynasty')] dynasty, led by the influential [target_character.GetName]. Seeking to expand their influence within the [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetNameWithNoTooltip] has approached [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName], aiming for a position within the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Хоча в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! існує безліч знатних родин, лише деякі відігравали ключову роль у політичному житті [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Одна з таких родин — [ShowDynastyName('radziwill_dynasty')], на чолі яких стоїть [target_character.GetName]. Прагнучи розширити свій вплив при дворі, [target_character.GetName] [Select_CString(target_character.IsFemale, 'звернулася', 'звернувся')] до [Select_CString(ROOT.GetCountry.GetGovernment.GetRulerOrRegent.IsFemale, 'правительки', 'правителя')] в надії, що [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] довірить [Select_CString(target_character.IsFemale, 'їй', 'йому')] високу посаду в [ROOT.GetCountry.Custom('rank_ru_PREP')|l]."
+ },
+ "flavor_lit.21.entry": {
+  "en": "The Radziwill Dynasty",
+  "uk": ""
+ },
+ "flavor_lit.21.historical_info": {
+  "en": "The Radziwiłł family was among the few in the Polish-Lithuanian Commonwealth that helped preserve the Grand Duchy of Lithuania as a distinct state. Founded by Radvila Astikas, they accumulated numerous titles across Europe, even becoming princes of the Holy Roman Empire.",
+  "uk": "Радзивілли були однією з небагатьох родин Речі Посполитої, хто сприяв збереженню Великого князівства Литовського як окремої держави. Заснований Радвілою Астікасом, цей рід накопичив безліч титулів по всій Європі, включно навіть з титулом князя Священної Римської імперії."
+ },
+ "flavor_lit.21.title": {
+  "en": "The [ShowDynastyNameWithNoTooltip('radziwill_dynasty')] Dynasty",
+  "uk": "Династія Радзивіллів"
+ },
+ "flavor_lit.22.a": {
+  "en": "A gift would be a fine gesture of friendship.",
+  "uk": "Дар стане знаком нашої дружби."
+ },
+ "flavor_lit.22.b": {
+  "en": "We must not allow their power to grow further.",
+  "uk": "Не можна допустити подальшого посилення їхньої влади."
+ },
+ "flavor_lit.22.desc": {
+  "en": "Within the ranks of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], the [ShowDynastyName('gostautai_dynasty')] family has always held uncontested influence. Currently led by [target_character.GetName], they control many regions within the [ROOT.GetCountry.GetFlavorRank]. While this poses a problem for the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')], perhaps we could ally with them, as aligning our interests may lead to greater internal stability.",
+  "uk": "Рід #TOOLTIP:DYNASTY,gostautai_dynasty_tt,X #L Гаштольдів#!#! — потомствена [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], і вони завжди мали незаперечний вплив у своєму стані. Нині на їхньому чолі стоїть [target_character.GetName], і вони контролюють обширні землі [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Хоча [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] бачить у цьому певну проблему, варто укласти з ними союз — спільні інтереси можуть посприяти внутрішній стабільності."
+ },
+ "flavor_lit.22.entry": {
+  "en": "Rise of the Gostautai Dynasty",
+  "uk": ""
+ },
+ "flavor_lit.22.historical_info": {
+  "en": "The Goštautai were primary rivals of the Radziwiłł family throughout the 15th and 16th centuries. Serving both Vytautas 'the Great' and Casimir IV Jagiellon, they amassed vast lands and were considered among the wealthiest nobles in Europe. Unfortunately, the family line ended in 1542, and their estates passed to the Grand Duke of Lithuania.",
+  "uk": "Гаштольди були головними суперниками Радзивіллів у XV–XVI століттях. Служачи при дворі Вітовта Великого і Казимира IV Ягеллончика, вони накопичили величезні володіння і вважалися одними з найбагатших магнатів Європи. На жаль, рід обірвався 1542 року, а їхні землі перейшли до великого князя Литовського."
+ },
+ "flavor_lit.22.title": {
+  "en": "Rise of the [ShowDynastyNameWithNoTooltip('gostautai_dynasty')]",
+  "uk": "Піднесення династії [ShowDynastyNameWithNoTooltip('gostautai_dynasty')]"
+ },
+ "flavor_lit.23.a": {
+  "en": "They will have our support — and their privileges.",
+  "uk": "Вони отримають нашу підтримку — і привілеї."
+ },
+ "flavor_lit.23.b": {
+  "en": "If they want equality, they must abide by [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] law.",
+  "uk": "Якщо вони хочуть рівності, то хай підкоряються [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]им законам."
+ },
+ "flavor_lit.23.b.entry": {
+  "en": "If they want equality, they must abide by faithful law.",
+  "uk": ""
+ },
+ "flavor_lit.23.desc": {
+  "en": "[ROOT.GetCountry.GetName|U] has long had a number of [ShowReligionAdjective('orthodox')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] within its borders. However, many of them do not enjoy equal status with their [ROOT.GetCountry.GetReligion.GetAdjective] counterparts. They now stand in opposition to [target_character.GetName], whom they blame for this injustice. If we are to win them over, we must guarantee them the same legal rights as the rest of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "У #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! здавна проживають #TOOLTIP:RELIGION,orthodox_tt,X #L православно-християнські#!#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Однак багато з них не мають рівного статусу зі своїми #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ими#! побратимами. Тепер вони виступили зі звинуваченнями, що в цій несправедливості [Select_CString(target_character.IsFemale, 'винна', 'винен')] [target_character.GetName]. Щоб заручитися їхньою підтримкою, ми маємо гарантувати їм ті самі юридичні права, якими володіють решта [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ },
+ "flavor_lit.23.entry": {
+  "en": "Religious Privilege of the Orthodox",
+  "uk": ""
+ },
+ "flavor_lit.23.historical_info": {
+  "en": "To properly establish a feudal realm in Lithuania, Sigismund Kęstutaitis needed the trust of his Orthodox subjects. In 1434, he granted them privileges ensuring that no noble—regardless of religion — could be imprisoned or punished without a court's approval.",
+  "uk": "Для зміцнення феодального порядку в Литві Сигізмунд Кейстутович потребував довіри православних підданих. У 1434 році він дарував їм привілеї, що гарантували, що жоден дворянин — незалежно від віри — не може бути ув'язнений під варту або покараний без судового рішення."
+ },
+ "flavor_lit.23.title": {
+  "en": "Religious Privilege of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] релігійні привілеї"
+ },
+ "flavor_lit.24.a": {
+  "en": "In the name of [ROOT.GetCountry.GetReligion.GetGodName], we shall fund this new church.",
+  "uk": "[ROOT.GetCountry.GetReligion.GetGodName] велить нам збудувати цей храм."
+ },
+ "flavor_lit.24.a.entry": {
+  "en": "In the name of our god, we shall fund this new church.",
+  "uk": ""
+ },
+ "flavor_lit.24.b": {
+  "en": "Let the common folk take care of their own needs.",
+  "uk": "Нехай простолюдини самі про себе подбають."
+ },
+ "flavor_lit.24.desc": {
+  "en": "Our conversion to [ROOT.GetCountry.GetReligion.GetName] has left the people of the [target_location.GetRank.GetName] of [target_location.GetName] without a sacred place to pray. Seeking to resolve this, [target_character.GetName] and the [ROOT.GetCountry.GetGovernment.GetCourtTitle] want to invite [ShowCultureGroupName('german_group')] architects to help lay the foundations for a site dedicated to Saint Nicholas. While this would surely gain the favor of the people, perhaps it would be wiser to let such a site be built without state intervention, preserving our [ROOT.GetCountry.GetGovernment.GetAdjective] coffers.",
+  "uk": "Тепер [ROOT.GetCountry.GetReligion.GetName|l] — наша релігія, і мешканці [target_location.Custom('LR_GEN')|l] [target_location.GetName] залишилися без священного місця для молитов. Щоб виправити це, [target_character.GetName] і [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] хочуть запросити #TOOLTIP:CULTUREGROUP,german_group,X #L німецьких#!#! архітекторів для будівництва церкви на честь Святого Миколая. Хоча це, безсумнівно, прихилить до нас народ, можливо, розумніше дозволити збудувати храм без державного втручання — це збереже #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]у#! скарбницю."
+ },
+ "flavor_lit.24.entry": {
+  "en": "$flavor_lit.24.title$",
+  "uk": ""
+ },
+ "flavor_lit.24.historical_info": {
+  "en": "The Church of Saint Nicholas was the first church ever built in Lithuania. Inspired by the Gothic architecture of the Holy Roman Empire, it attracted German craftsmen and merchants, who settled in Vokiečių gatvė in Vilnius.",
+  "uk": "Церква Святого Миколая стала першим християнським храмом Литви. Збудована під впливом готичної архітектури Священної Римської імперії, вона приваблювала німецьких ремісників і купців, які оселилися на Німецькій вулиці (Vokiečių gatvė) у Вільнюсі."
+ },
+ "flavor_lit.24.title": {
+  "en": "$church_of_saint_nicholas$",
+  "uk": ""
+ },
+ "flavor_lit.25.a": {
+  "en": "Let [target_location.GetNameWithNoTooltip] become a [ShowLocationRankNameWithNoTooltip('city')].",
+  "uk": "Нехай [target_location.GetNameWithNoTooltip] стане містом."
+ },
+ "flavor_lit.25.a.entry": {
+  "en": "Let [ShowLocationNameWithNoTooltip('vilnius')] become a [ShowLocationRankNameWithNoTooltip('city')].",
+  "uk": ""
+ },
+ "flavor_lit.25.b": {
+  "en": "We shall encourage decentralization instead.",
+  "uk": "Ми підтримаємо децентралізацію."
+ },
+ "flavor_lit.25.desc": {
+  "en": "Given the status of [target_location.GetName] in [ROOT.GetCountry.GetName], the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] fear that the [target_location.GetRank.GetName] may lose its significance within the [ROOT.GetCountry.GetFlavorRank]. They have therefore appealed to [target_character.GetName] and the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle], requesting that the settlement be granted official rights as a [ShowLocationRankName('city')], potentially attracting new merchants and craftsmen.\\n\\nHowever, some argue against centralizing our population in a single [ShowLocationRankNameWithNoTooltip('city')], advocating instead for a more even distribution within the [ROOT.GetCountry.GetFlavorRank]. While this may empower various estates, it would also maintain their satisfaction.",
+  "uk": "Зважаючи на статус, яким володіє [target_location.GetName] у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#!, [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] побоюються, що [target_location.GetRank.GetName|l] може втратити своє значення в [ROOT.GetCountry.Custom('CF_PP')|l]. У зв'язку з цим [target_character.GetName] і [ROOT.GetCountry.GetGovernment.GetCourtTitle] отримали від них прохання: офіційно дарувати поселенню статус «[ShowLocationRankName('city')]» — це може привабити нових купців і ремісників.\\n\\nОднак дехто радить не концентрувати населення в одному місті, пропонуючи натомість рівномірний розвиток по всій [ROOT.GetCountry.Custom('CF_DP')|l]. Це зміцнить різні стани, але й збереже їхню задоволеність."
+ },
+ "flavor_lit.25.entry": {
+  "en": "City Rights of Vilnius",
+  "uk": ""
+ },
+ "flavor_lit.25.title": {
+  "en": "[ShowLocationRankNameWithNoTooltip('city')] Rights of [ShowLocationNameWithNoTooltip('vilnius')]",
+  "uk": "Міські права Вільно"
+ },
+ "flavor_lit.26.a": {
+  "en": "We shall adopt the Valakų unit of measurement.",
+  "uk": "Ми приймемо волок як одиницю виміру."
+ },
+ "flavor_lit.26.b": {
+  "en": "The mobility of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] is beneficial in the long run.",
+  "uk": "У довгостроковій перспективі мобільні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] корисніші."
+ },
+ "flavor_lit.26.b.entry": {
+  "en": "The mobility of the $peasants_estate$ is beneficial in the long run.",
+  "uk": ""
+ },
+ "flavor_lit.26.desc": {
+  "en": "Although much of the land in [ROOT.GetCountry.GetName] is arable, the workforce has dwindled due to ongoing urbanization. The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are especially concerned, believing this trend only empowers the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]. To prevent further disruption, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] proposes a land ownership reform. Rather than relying on allodial titles—which create mistrust between the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] — all subjects would, by law, be under the ownership of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Taxation and military duties would no longer be based on the number of households but measured using the Valakų unit, providing a clearer understanding of our lands' wealth and manpower.\\n\\nNow, with these reforms presented to [target_character.GetName], there is growing pressure for [target_character.GetHerHim] to implement them, despite some controversy among the lower classes.",
+  "uk": "Хоча більша частина земель #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! придатна для обробки, робоча сила скорочується через зростаючу урбанізацію. Особливо стурбовані [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], які вважають, що через це [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] нарощують свій вплив. Щоб запобігти подальшим потрясінням, [ROOT.GetCountry.GetGovernment.GetCourtTitle] пропонує реформу землеволодіння. Замість алодіальних прав — через які [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] і [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] лише менше довіряють один одному — всіма підданими за законом володітиме [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Податки і військові повинності більше не розраховуватимуться за кількістю дворів, а вимірюватимуться у волоках, що дасть чітке уявлення про багатство земель і людські ресурси.\\n\\nТепер, коли [target_character.GetName] [Select_CString(target_character.IsFemale, 'отримала', 'отримав')] проєкт цих реформ, на [Select_CString(target_character.IsFemale, 'неї', 'нього')] чинять тиск, щоб [Select_CString(target_character.IsFemale, 'вона їх затвердила', 'він їх затвердив')] — попри невдоволення нижчих станів."
+ },
+ "flavor_lit.26.entry": {
+  "en": "$flavor_lit.26.title$",
+  "uk": ""
+ },
+ "flavor_lit.26.title": {
+  "en": "Valakų Reform",
+  "uk": "Волочна поміра"
+ },
+ "flavor_lit.27.a": {
+  "en": "Let us implement these new laws.",
+  "uk": "Введемо ці нові закони."
+ },
+ "flavor_lit.27.b": {
+  "en": "Rather than empower the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], we should distance ourselves from such a system.",
+  "uk": "Така система нам не потрібна, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] і так уже надто впливові."
+ },
+ "flavor_lit.27.b.entry": {
+  "en": "Rather than empower the $nobles_estate$, we should distance ourselves from such a system.",
+  "uk": ""
+ },
+ "flavor_lit.27.desc": {
+  "en": "The lack of a legal code in [ROOT.GetCountry.GetName] has become a bigger issue than expected. Some among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] steal veldamai from other lands or exploit forests without permission. To address this, [target_character.GetName] seeks to introduce a legal code to address such crimes. These laws would bring consistency to how landowners treat their subjects, while allowing prominent families to avoid being subjected to the arbitrary practices of lesser [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Відсутність зводу законів у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! стала серйозною проблемою. Деякі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплюють володіння або вирубують ліси без дозволу. Щоб виправити це, [target_character.GetName] пропонує ввести юридичний кодекс для покарання подібних злочинів. Нові закони встановлять єдині правила поводження землевласників з підданими, а також захистять знатні родини від свавілля, до якого схильні дрібномаєткові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ },
+ "flavor_lit.27.entry": {
+  "en": "$flavor_lit.27.title$",
+  "uk": ""
+ },
+ "flavor_lit.27.title": {
+  "en": "Sudebnik of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Судебник [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_lit.28.a": {
+  "en": "Let us employ [target_character.GetHerHim] in the army.",
+  "uk": "Візьмемо [Select_CString(target_character.IsFemale, 'її', 'його')] до армії."
+ },
+ "flavor_lit.28.b": {
+  "en": "Allowing [target_character.GetHerHim] to pursue [target_character.GetHerHis] own path may benefit us as well.",
+  "uk": "Нехай іде своїм шляхом — нам це теж може виявитися корисним."
+ },
+ "flavor_lit.28.c": {
+  "en": "Removing such a figure will earn us favor with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Якщо ми усунемо подібну фігуру, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] скажуть нам спасибі."
+ },
+ "flavor_lit.28.c.entry": {
+  "en": "Removing such a figure will earn us favor with the $nobles_estate$.",
+  "uk": ""
+ },
+ "flavor_lit.28.desc": {
+  "en": "With the [ROOT.GetCountry.GetAdjective] military in need of new ideas, a peculiar [target_character.GetWomanMan] has emerged, claiming to have participated in numerous sieges across [ShowContinentName('europe')]. [target_character.GetHerHis|U] name is [target_character.GetName], a member of the [ShowDynastyName('siemienowicz_dynasty')]. Though many within the [ROOT.GetCountry.GetGovernment.GetCourtTitle] doubt [target_character.GetHerHis] [ShowCultureName('aukstaitian')] heritage, the stories of [target_character.GetHerHis] origin appear credible. As such, many in [ROOT.GetCountry.GetNameWithNoTooltip] wish for [target_character2.GetName] to recruit [target_character.GetHerHim] into the army, as [target_character.GetSheHe] could prove to be a strategist on par with Alexander 'the Great'.",
+  "uk": "#L [ROOT.GetCountry.GetAdjective]а#! армія потребує нових ідей — і ось з'являється [Select_CString(target_character.IsFemale, 'незвичайна жінка, яка стверджує, що брала участь', 'незвичайний чоловік, який стверджує, що брав участь')] в облогах по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. [Select_CString(target_character.IsFemale, 'Її', 'Його')] звати [target_character.GetName] з роду #TOOLTIP:DYNASTY,siemienowicz_dynasty_tt,X #L Семеновичів#!#!. Хоча [ROOT.GetCountry.GetGovernment.GetCourtTitle)|l] здебільшого в [Select_CString(target_character.IsFemale, 'її', 'його')] #TOOLTIP:CULTURE,aukstaitian_tt,X #L аукштайтському#!#! походженні, [Select_CString(target_character.IsFemale, 'її', 'його')] розповіді здаються правдоподібними. У зв'язку з цим багато мешканців [ROOT.GetCountry.Custom('CL_GEN')] просять, щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'прийняла', 'прийняв')] [Select_CString(target_character.IsFemale, 'її', 'його')] на службу — адже [Select_CString(target_character.IsFemale, 'вона', 'він')] може виявитися стратегом рівня Олександра Македонського."
+ },
+ "flavor_lit.28.entry": {
+  "en": "Kazimierz Siemienowicz, Artillery Pioneer",
+  "uk": ""
+ },
+ "flavor_lit.28.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_lit.29.a": {
+  "en": "These new belts will make for fine attire.",
+  "uk": "Ці пояси стануть чудовим доповненням до гардероба."
+ },
+ "flavor_lit.29.b": {
+  "en": "This sounds like a waste of resources.",
+  "uk": "Звучить як марна трата ресурсів."
+ },
+ "flavor_lit.29.desc": {
+  "en": "Recently, a significant portion of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have become fascinated by a new fashion our merchants have brought from [ShowContinentName('asia')]. Specifically, it is a type of belt made from the finest cloth and adorned with the shiniest gold, originating in [ShowRegionName('anatolia_region')] and [ShowRegionName('persia_region')]. Now making its way into the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle], some members are already wearing it to signify their status within the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]. Perhaps this presents a great opportunity to bring a new style to everyone in the [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Останнім часом багато наших [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] захопилися новою модою, привезеною нашими купцями з #TOOLTIP:CONTINENT,asia,X #L Азії#!#!. Йдеться про розкішні пояси з найтоншої тканини, оздоблені золотом, — традиційні для #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! та #TOOLTIP:REGION,persia_region,X #L Персії#!#!. Тепер вони з'явилися і при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі: деякі [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] вже носять їх, підкреслюючи свій статус. Можливо, це чудовий шанс запровадити новий стиль для всього двору."
+ },
+ "flavor_lit.29.entry": {
+  "en": "$flavor_lit.29.title$",
+  "uk": ""
+ },
+ "flavor_lit.29.title": {
+  "en": "Introduction of the Kontušo Juosta",
+  "uk": "Запровадження кунтушового пояса"
+ },
+ "flavor_lit.3.a": {
+  "en": "Sign the treaty.",
+  "uk": "Ми підпишемо цей договір."
+ },
+ "flavor_lit.3.b": {
+  "en": "A treaty crafted by madmen.",
+  "uk": "Цей договір вигадали божевільні."
+ },
+ "flavor_lit.3.desc": {
+  "en": "A diplomatic opportunity has been presented that would temporarily pacify one of our sworn enemies, allowing us to deal with more pressing concerns. Eager to secure its current position and ensure that we will not aim to attack their territories, [target_root_country.GetName] has proposed to cede us the area of [ShowAreaName('smolensk_area')], in return for a proclaimed alliance and considerably strengthened diplomatic ties.",
+  "uk": "У нас з'явилася дипломатична можливість, яка дозволить нам на час приборкати нашого заклятого ворога і зосередитися на більш нагальних проблемах. Прагнучи зміцнити свою владу і водночас відвадити нас від нападу на свої землі, правитель #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_GEN')|L]#!#! пропонує віддати нам #TOOLTIP:AREA,smolensk_area,X #L Смоленщину#!#!. В обмін ця сторона отримає союзника і суттєво зміцнить дипломатичні зв'язки."
+ },
+ "flavor_lit.3.title": {
+  "en": "Treaty of Ugra",
+  "uk": "Угорський договір"
+ },
+ "flavor_lit.30.a": {
+  "en": "We shall promote these chronicles.",
+  "uk": "Ми поширюватимемо ці хроніки."
+ },
+ "flavor_lit.30.b": {
+  "en": "We will reclaim [ShowLocationNameWithNoTooltip('rome')]!",
+  "uk": "Ми повернемо собі Рим!"
+ },
+ "flavor_lit.30.c": {
+  "en": "There is no reason to spread such propaganda.",
+  "uk": "Немає сенсу поширювати таку пропаганду."
+ },
+ "flavor_lit.30.desc": {
+  "en": "Although we have converted [ROOT.GetCountry.GetName] to [ROOT.GetCountry.GetReligion.GetName], many of our neighbors still see us as mere barbarians, believing that our old [ShowReligionAdjective('romuva')] traditions influence every part of our society. While this may be true for many in [ROOT.GetCountry.GetNameWithNoTooltip], if we are to truly legitimize [target_character2.GetName]'s rule, we must get creative.\\n\\n[target_character.GetName] has written tales claiming that the [ShowDynastyName('gediminid_dynasty')] are of Roman origin. They tell of Palemon, who, along with several noble families, fled [ShowLocationName('rome')] after the devastation brought by Attila the Hun. Escaping certain death, they eventually arrived in [ShowAreaName('lithuania_area')] and established a new realm.\\n\\nWhile many consider these tales to be mere fiction, perhaps we can use them as proof that we are descendants of Augustus himself.",
+  "uk": "Хоча в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PP')|L]#!#! тепер офіційно сповідується [ROOT.GetCountry.GetReligion.GetName|l], багато сусідів досі вважають нас варварами, вважаючи, що старі #L [ShowReligionAdjective('romuva')|l]і#! традиції пронизують усе наше суспільство. Можливо, для багатьох у [ROOT.GetCountry.Custom('CL_PP')] це й правда, але щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'стала законною правителькою', 'став законним правителем')], доведеться виявити винахідливість.\\n\\n[target_character.GetName] [Select_CString(target_character.IsFemale, 'склала', 'склав')] перекази, що стверджують, нібито #TOOLTIP:DYNASTY,gediminid_dynasty_tt,X #L Гедиміновичі#!#! ведуть рід від римлян. У них розповідається про Палемона, який разом з іншими знатними родами втік із #TOOLTIP:LOCATION,rome_tt,X #L Риму#!#! після руйнівного походу Аттіли. Рятуючись від загибелі, вони досягли #TOOLTIP:AREA,lithuania_area,X #L Литви#!#! і заснували нову державу.\\n\\nХоча багато хто вважає ці історії вигадкою, ми можемо використати їх як доказ нашого походження від самого Августа."
+ },
+ "flavor_lit.30.entry": {
+  "en": "$flavor_lit.30.title$",
+  "uk": ""
+ },
+ "flavor_lit.30.title": {
+  "en": "The Palemonids",
+  "uk": "Палемони"
+ },
+ "flavor_lit.31.a": {
+  "en": "We will not try to stop this.",
+  "uk": "Ми не заважатимемо цьому."
+ },
+ "flavor_lit.31.b": {
+  "en": "Let us remind them why we are [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip].",
+  "uk": "Нагадаємо їм, чому наша офіційна релігія — [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip|l]."
+ },
+ "flavor_lit.31.b.entry": {
+  "en": "Let us remind them why we are faithful.",
+  "uk": ""
+ },
+ "flavor_lit.31.desc": {
+  "en": "With the wave of the [ShowSituationName('reformation')] sweeping across [ROOT.GetCountry.GetName], a major conflict has emerged within the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] over theological matters. This unrest has been noticed by the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], leading many to believe that the [ROOT.GetCountry.GetReligion.GetAdjective] faith places too great a burden on the [ROOT.GetCountry.GetFlavorRank].\\n\\nAll across the country, people are attempting to restore the old [ShowReligionAdjective('romuva')] beliefs — an opportunity for the common folk to free themselves from the troubles imposed by the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. Perhaps this is a sign that the [ROOT.GetCountry.GetGovernment.GetCourtTitle] itself should return to the old ways.",
+  "uk": "Хвиля #TOOLTIP:SITUATION,reformation,X #L Католицької Реформації#!#! прокотилася по #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DP')|L]#!#!, і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] ополчилися один на одного через теологічні розбіжності. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U], помітивши цей розлад, дедалі частіше вважають, що #L [ROOT.GetCountry.GetReligion.GetAdjective]а#! віра стала непосильним тягарем для [XXXXX.Custom('CF_RP')|l].\\n\\nПо всій державі люди намагаються відродити давні #L [ShowReligionAdjective('romuva')|l]і#! вірування — тепер у простолюду з'явився шанс позбутися всіх незручностей, які завдавали [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. Можливо, це знак, що й [ROOT.GetCountry.GetGovernment.GetCourtTitle] незабаром повернеться до старих звичаїв."
+ },
+ "flavor_lit.31.entry": {
+  "en": "Rebirth of Romuva Traditions",
+  "uk": ""
+ },
+ "flavor_lit.31.title": {
+  "en": "Rebirth of [ShowReligionAdjectiveWithNoTooltip('romuva')] Traditions",
+  "uk": "Відродження ромувських традицій"
+ },
+ "flavor_lit.32.a": {
+  "en": "We shall resist this cultural shift.",
+  "uk": "Ми чинитимемо опір цим змінам."
+ },
+ "flavor_lit.32.b": {
+  "en": "Change is inevitable, let us embrace it.",
+  "uk": "Зміни неминучі — приймемо їх."
+ },
+ "flavor_lit.32.desc": {
+  "en": "With the growing influence of [target_country.GetName] over [ROOT.GetCountry.GetName], a new trend has emerged not only among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], but within the [ROOT.GetCountry.GetGovernment.GetCourtTitle] as well. Inspired by [target_country.GetCulture.GetName] customs, they are introducing new ideas, books, and cultural elements into the [ROOT.GetCountry.GetFlavorRank]. This has helped [ROOT.GetCountry.GetNameWithNoTooltip] slowly shed its isolationist ways, giving its people a better understanding of more exotic practices. However, it has also started to erode [ROOT.GetCountry.GetCulture.GetName] culture, gradually transforming it into a hybrid with that of [target_country.GetCulture.GetNameWithNoTooltip].",
+  "uk": "Зі зміцненням впливу #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! на #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] і навіть [ROOT.GetCountry.GetGovernment.GetCourtTitle] почали переймати нову моду. Надихнувшись #L [target_country.GetCulture.GetAdjective|l]ими#! звичаями, вони привносять у [ROOT.GetCountry.Custom('rank_ru_ACC')|l] нові ідеї, книги й елементи культури. Це допомогло [ROOT.GetCountry.Custom('CL_DAT')] поступово відмовитися від ізоляціонізму, познайомивши народ з більш екзотичними традиціями. Однак це також почало розмивати #L [ROOT.GetCountry.GetCulture.GetAdjective|l]у#! культуру, перетворюючи її на певний гібрид з [target_country.GetCulture.GetAdjective|l]ою."
+ },
+ "flavor_lit.32.entry": {
+  "en": "Polish Influence in Lithuania",
+  "uk": ""
+ },
+ "flavor_lit.32.title": {
+  "en": "[target_country.GetAdjectiveWithNoTooltip] Influence in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "[target_country.GetAdjectiveWithNoTooltip]ий вплив у [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "flavor_lit.33.a": {
+  "en": "It is time to move forward.",
+  "uk": "Час залишити ці традиції в минулому."
+ },
+ "flavor_lit.33.b": {
+  "en": "Let us at least pay respects to these old traditions.",
+  "uk": "Давайте хоча б віддамо належне цим старим традиціям."
+ },
+ "flavor_lit.33.desc": {
+  "en": "Although considerable time has passed since our conversion to [ROOT.GetCountry.GetReligion.GetName], the influence of [ShowReligionAdjective('romuva')] traditions has long lingered in the [ROOT.GetCountry.GetFlavorRank]. After many brutal years spent rooting out these customs from [ROOT.GetCountry.GetName], the struggle is finally over. A recent census conducted by the [ROOT.GetCountry.GetGovernment.GetCabinetTitle] reveals that there is no longer any trace of the Old Gods' influence within the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Хоча [ROOT.GetCountry.GetReligion.GetName] вже давно є офіційною релігією [ROOT.GetCountry.Custom('rank_ru_GEN')|l], вплив #L [ShowReligionAdjective('romuva')|l]их#! традицій довго зберігався в наших землях. Після багатьох років жорстокого викорінення цих звичаїв у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! боротьба нарешті завершена. Нещодавній перепис, який періодично проводить [ROOT.GetCountry.GetGovernment.GetCabinetTitle], показав, що в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] не залишилося й сліду впливу давніх богів."
+ },
+ "flavor_lit.33.entry": {
+  "en": "The Last Romuva Believers",
+  "uk": ""
+ },
+ "flavor_lit.33.title": {
+  "en": "The Last [ShowReligionAdjectiveWithNoTooltip('romuva')] Believers",
+  "uk": "Останні прихильники ромуви"
+ },
+ "flavor_lit.34.a": {
+  "en": "The Kievan Rus' laws will make a fine addition to our legal system.",
+  "uk": "Закони Київської Русі стануть гідним доповненням нашої правової системи."
+ },
+ "flavor_lit.34.b": {
+  "en": "We will not slander the [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] laws.",
+  "uk": "Ми не засуджуватимемо [ROOT.GetCountry.GetCulture.GetAdjectiveWithNoTooltip|l]і закони."
+ },
+ "flavor_lit.34.b.entry": {
+  "en": "We will not slander our culture laws.",
+  "uk": ""
+ },
+ "flavor_lit.34.desc": {
+  "en": "Our holdings in [ShowRegionName('ruthenia_region')] have been governed under laws different from those in the [ROOT.GetCountry.GetAdjective] heartlands. Known as the $russkaya_pravda_policy$, they dictate how the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] govern, how the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] are to be treated, and what the official faith is. While many of these laws do not apply in the heart of the [ROOT.GetCountry.GetFlavorRank], we could take inspiration from them — perhaps even elevate aspects of them within the broader [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Наші володіння в #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#! управляються за іншим зводом правил, ніж #L [ROOT.GetCountry.GetAdjective|l]і#! землі. Відомий як «$russkaya_pravda_policy$», він визначає права, якими володіють [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], яке становище посідають [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], а також державну віру. Хоча багато з цих норм незастосовні в серці [ROOT.GetCountry.Custom('rank_ru_GEN')|l], ми могли б запозичити з них деякі ідеї — а можливо, навіть включити їх до нашого законодавства."
+ },
+ "flavor_lit.34.entry": {
+  "en": "Ruthenian Laws in $LIT$",
+  "uk": ""
+ },
+ "flavor_lit.34.title": {
+  "en": "[ShowCultureNameWithNoTooltip('ruthenian')] Laws in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Руський звід правил на території [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_lit.35.a": {
+  "en": "The wonders of the [ShowInstitutionNameWithNoTooltip('printing_press')] shall be spread!",
+  "uk": "Дива друкарського верстата треба поширити!"
+ },
+ "flavor_lit.35.b": {
+  "en": "We will halt this mass printing of books.",
+  "uk": "Ми зупинимо масовий випуск книг."
+ },
+ "flavor_lit.35.desc": {
+  "en": "The mass production of books thanks to the wonders of the [ShowInstitutionName('printing_press')] has brought a flood of literature to [ROOT.GetCountry.GetName]. However, many of these books are not written in [ROOT.GetCountry.GetCourtDialect.GetName], making them inaccessible to the common folk. As a result, several individuals have dedicated themselves to translating these works into the local language. Some have even been inspired to translate the entire Bible and write about their own religious beliefs. One such example is the recently published [ShowWorkOfArtTypeName('treatise')], titled $simple_words_of_catechism$ and written by [target_character.GetName]. It has given many a better understanding of the world beyond the [ROOT.GetCountry.GetFlavorRank] — something that could empower the people, but might also make them harder to control.",
+  "uk": "Завдяки дивам #TOOLTIP:INSTITUTION,printing_press,X #L друкарського верстата#!#! до #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! хлинув потік літератури. Однак у більшості цих книг використовується не [ROOT.GetCountry.GetCourtDialect.GetName|l], що робить їх недоступними для простого народу. У зв'язку з цим деякі ентузіасти взялися за переклад цих праць на місцеву мову. Знайшлися навіть ті, хто вирішив перекласти всю Біблію та викласти власні релігійні погляди. Одну з таких праць нещодавно [Select_CString(target_character.IsFemale, 'опублікувала', 'опублікував')] [target_character.GetName] — трактат під назвою «$simple_words_of_catechism$». Він дозволив багатьом краще зрозуміти світ за межами [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — це може зміцнити народ, але й ускладнити керування ним."
+ },
+ "flavor_lit.35.entry": {
+  "en": "$flavor_lit.35.title$",
+  "uk": ""
+ },
+ "flavor_lit.35.title": {
+  "en": "The First Manuscript",
+  "uk": "Перший рукопис"
+ },
+ "flavor_lit.36.a": {
+  "en": "Let us welcome them.",
+  "uk": "Люб'язно приймемо їх!"
+ },
+ "flavor_lit.36.b": {
+  "en": "We must not upset [target_country.GetNameWithNoTooltip].",
+  "uk": "Не варто дратувати [target_country.Custom('CL_ACC')]."
+ },
+ "flavor_lit.36.b.entry": {
+  "en": "We must not upset them.",
+  "uk": ""
+ },
+ "flavor_lit.36.desc": {
+  "en": "As a member of the [target_country.GetLongName], we have seen an influx of people seeking refuge from the political turmoil of the [target_country.GetFlavorRank], hoping to build new lives within [ROOT.GetCountry.GetName]. Many of these [target_country.GetCulture.GetName] individuals wish to settle in various parts of our country, helping to repopulate areas in dire need of a workforce. We could encourage this immigration, even if it risks straining our relationship with [target_country.GetNameWithNoTooltip].",
+  "uk": "Будучи частиною #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, ми спостерігаємо приплив людей з [target_country.Custom('rank_ru_GEN')|l], що шукають порятунку від політичних потрясінь і сподіваються знайти нове життя в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. Багато з цих переселенців готові осісти в різних куточках нашої держави, сприяючи відновленню населення в найбільш обезлюднілих районах. Ми могли б заохочувати цю міграцію, хоча в такому разі ризикуємо ускладнити наші відносини з [target_country.Custom('CL_INST')]."
+ },
+ "flavor_lit.36.entry": {
+  "en": "Immigrants from Poland",
+  "uk": ""
+ },
+ "flavor_lit.36.title": {
+  "en": "Immigrants from [target_country.GetNameWithNoTooltip]",
+  "uk": "Іммігранти з [target_country.Custom('CL_GEN')]"
+ },
+ "flavor_lit.37.a": {
+  "en": "We shall invest gold to promote this new art.",
+  "uk": "Ми виділимо кошти на підтримку нового мистецтва."
+ },
+ "flavor_lit.37.b": {
+  "en": "A waste of our coffers.",
+  "uk": "Марна трата скарбниці."
+ },
+ "flavor_lit.37.desc": {
+  "en": "The spread of [ShowInstitutionName('renaissance')] ideals in [ROOT.GetCountry.GetName] has had a positive effect on [ROOT.GetCountry.GetCulture.GetName] culture. Through interaction with broader [ShowContinentName('europe')] thought, some influences have begun to reshape certain aspects of the [ROOT.GetCountry.GetFlavorRank]. Notably, there is a rise in literature written in [ROOT.GetCountry.GetCourtDialect.GetName], with new authors seeking to craft works of art that could eventually spread our culture further. Should we promote this movement, or allow it to develop naturally?",
+  "uk": "Поширення ідей #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#! по #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! благотворно вплинуло на нашу культуру. Завдяки зв'язкам із #TOOLTIP:CONTINENT,europe,X #L загальноєвропейською#!#! думкою, нові віяння почали перетворювати окремі сторони життя [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Особливо помітний розквіт літератури — з'являється дедалі більше авторів, які для своїх текстів використовують [ROOT.GetCountry.GetCourtDialect.GetName|l] і прагнуть створювати творіння, здатні в майбутньому поширити нашу культуру за межі держави. Чи варто підтримувати цей рух, чи краще дозволити йому розвиватися природним шляхом?"
+ },
+ "flavor_lit.37.entry": {
+  "en": "The $LIT_ADJ$ Renaissance",
+  "uk": ""
+ },
+ "flavor_lit.37.title": {
+  "en": "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ShowInstitutionNameWithNoTooltip('renaissance')]",
+  "uk": "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]е Відродження"
+ },
+ "flavor_lit.38.a": {
+  "en": "It shall be our breadbasket.",
+  "uk": "Нехай стане нашою житницею."
+ },
+ "flavor_lit.38.b": {
+  "en": "Let us prioritize short-term trade instead.",
+  "uk": "Краще зосередимося на короткостроковій торгівлі."
+ },
+ "flavor_lit.38.desc": {
+  "en": "The [ShowGoodsName('wheat')] production in [ShowRegionName('ruthenia_region')] has provided us with the food necessary to support population growth. Yet, these fertile lands are far from fully utilized. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] now proposes investing resources to develop the region further — building new cities that would no longer rely on imports to feed the population, and potentially enabling full settlement of the area.",
+  "uk": "Родючі землі #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#! забезпечують нас #TOOLTIP:GOODS,wheat,X #L пшеницею#!#!, без якої неможливе зростання населення. Однак потенціал цих земель використовується далеко не повністю. [ROOT.GetCountry.GetGovernment.GetCourtTitle] пропонує вкласти кошти в подальший розвиток регіону — збудувати нові міста, які зможуть повністю забезпечувати себе продовольством, і, можливо, повністю заселити ці території."
+ },
+ "flavor_lit.38.entry": {
+  "en": "Breadbasket of Europe",
+  "uk": ""
+ },
+ "flavor_lit.38.title": {
+  "en": "Breadbasket of [ShowContinentNameWithNoTooltip('europe')]",
+  "uk": "Житниця Європи"
+ },
+ "flavor_lit.39.a": {
+  "en": "Our gold shall go where it spreads our culture.",
+  "uk": "Наше золото послужить поширенню нашої культури."
+ },
+ "flavor_lit.39.b": {
+  "en": "Then [target_character.GetSheHe] should find work elsewhere.",
+  "uk": "Нехай шукає заступників десь інде."
+ },
+ "flavor_lit.39.desc": {
+  "en": "The rise of Neo-Classical art has drawn new artists from across [ShowContinentName('europe')], each hoping to leave their mark on our nation's history. One such artist is [target_character.GetName], a [ShowCultureName('greater_polish')] citizen from [ShowLocationName('warsaw')]. [target_character.GetSheHe|U] wishes to serve the [ROOT.GetCountry.GetGovernment.GetCourtTitle] — if we are willing to fund [target_character.GetHerHim].",
+  "uk": "Розквіт неокласичного мистецтва привабив до нашої держави нових творців з усієї #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, кожен з яких мріє вписати своє ім'я в історію. Серед них — [target_character.GetName], #L #TOOLTIP:CULTURE,greater_polish_tt,X #L великопольськ[Select_CString(target_character.IsFemale, 'а', 'ий')]#!#! [Select_CString(target_character.IsFemale, 'уродженка', 'уродженець')] #TOOLTIP:LOCATION,warsaw_tt,X #L Варшави#!#!. [Select_CString(target_character.IsFemale, 'Вона', 'Він')] пропонує свої послуги — якщо, звісно, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] погодиться [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступничати."
+ },
+ "flavor_lit.39.entry": {
+  "en": "Franciszek Smuglewicz, Polish Painter",
+  "uk": ""
+ },
+ "flavor_lit.39.title": {
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_lit.4.a": {
+  "en": "How very dare they.",
+  "uk": "Та як вони посміли?"
+ },
+ "flavor_lit.4.b": {
+  "en": "Best keep a cool head for now.",
+  "uk": "Давайте не будемо гарячкувати."
+ },
+ "flavor_lit.4.c": {
+  "en": "The best possible outcome.",
+  "uk": "Найкращий результат з можливих."
+ },
+ "flavor_lit.4.desc_common": {
+  "en": "Distressing news has reached the court of [target_root_country.GetName], falsely claiming that there are ongoing attempts to convert [target_character.GetName], a member of the [target_root_country.GetGovernment.GetRuler.GetDynasty.GetName] and currently currently married to [target_husband.GetName], to the [ShowReligionAdjective('catholic')] faith.",
+  "uk": "До #L [target_root_country.GetAdjective]ого#! двору дійшли тривожні новини. Якісь брехуни пустили чутку, ніби [target_character.GetName] зазнає безперервного тиску з нашого боку: нібито [Select_CString(target_character.IsFemale, 'її', 'його')], [Select_CString(target_character.IsFemale, 'чиєю', 'чиїм')] [Select_CString(target_husband.IsFemale, 'законною дружиною', 'законним чоловіком')] є [target_husband.GetName], тут намагаються навернути до #TOOLTIP:RELIGION,catholic_tt,X #L католицької#!#! віри."
+ },
+ "flavor_lit.4.desc_opted_for_divorce": {
+  "en": "$flavor_lit.4.desc_common$ Luckily, a diplomatic solution has been reached with [target_character.GetNameWithNoTooltip] promptly divorcing [target_character.GetHisHer] husband and departing immediately.",
+  "uk": "$flavor_lit.4.desc_common$ На щастя, ми досягли дипломатичного компромісу. [target_character.GetNameWithNoTooltip] розлучається з [Select_CString(target_husband.IsFemale, 'дружиною', 'чоловіком')] і негайно покидає нашу державу."
+ },
+ "flavor_lit.4.desc_severed_ties": {
+  "en": "$flavor_lit.4.desc_common$ They have responded by severing all diplomatic ties and are potentially using this as a pretext for violating the sovereignty of our borders.",
+  "uk": "$flavor_lit.4.desc_common$ У відповідь вони розірвали з нами всі дипломатичні зв'язки і в майбутньому використовуватимуть цю ситуацію як привід для нападу."
+ },
+ "flavor_lit.4.title": {
+  "en": "The Ill-Treated Progeny",
+  "uk": "Тиск на нащадка"
+ },
+ "flavor_lit.4.tt1": {
+  "en": "The poor diplomatic skills of [target_root_country.GetGovernment.GetRuler.GetName] sees all diplomatic ties severed",
+  "uk": "Через свої слабкі здібності до дипломатії [target_root_country.GetGovernment.GetRuler.GetName] домагається лише повного розриву відносин"
+ },
+ "flavor_lit.4.tt2": {
+  "en": "The diplomatic skills of [target_root_country.GetGovernment.GetRuler.GetName] secures a divorce and averts war",
+  "uk": "Завдяки своїм дипломатичним талантам [target_root_country.GetGovernment.GetRuler.GetName] домовляється про розлучення, зумівши уникнути війни"
+ },
+ "flavor_lit.40.a": {
+  "en": "Let us convert these heathens!",
+  "uk": "Навернемо цих єретиків до істинної віри!"
+ },
+ "flavor_lit.40.b": {
+  "en": "Upsetting our population may not be the wisest course.",
+  "uk": "Не варто бездумно розпалювати народне невдоволення."
+ },
+ "flavor_lit.40.desc": {
+  "en": "Recent surveys conducted in the [ROOT.GetCountry.GetFlavorRank] reveal that [ShowReligionAdjective('romuva')] beliefs still persist in [ROOT.GetCountry.GetName]. The [target_location.GetRank.GetName] of [target_location.GetName] continues to practice these pagan customs, posing a threat to the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], who seek to unify the nation through faith. Perhaps the time has come to forcefully convert them to [ROOT.GetCountry.GetReligion.GetName], so we may truly rule as [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] leaders.",
+  "uk": "Нещодавні дослідження, проведені в [ROOT.GetCountry.Custom('rank_ru_PREP')|l], показали, що язичницькі #L [ShowReligionAdjective('romuva')|l]і#! вірування досі зберігаються в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. [target_location.GetRank.GetName] [target_location.GetName] продовжує таємно дотримуватися цих давніх звичаїв, і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] цим дуже невдоволені, адже вони прагнуть об'єднати державу в спільній вірі. Можливо, настав час силою навернути цих язичників — нагадати їм, що офіційною вірою держави є [ROOT.GetCountry.GetReligion.GetName|l], тим самим зміцнивши нашу владу як істинно [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]их правителів."
+ },
+ "flavor_lit.40.title": {
+  "en": "The [ShowReligionAdjectiveWithNoTooltip('romuva')] Followers of [target_location.GetNameWithNoTooltip]",
+  "uk": "Послідовники ромуви в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_lit.41.a": {
+  "en": "Burn it down.",
+  "uk": "Спалити це місце дощенту!"
+ },
+ "flavor_lit.41.b": {
+  "en": "Let us not cause any incidents over this.",
+  "uk": "Не будемо роздмухувати конфлікт через це."
+ },
+ "flavor_lit.41.desc": {
+  "en": "Although our conversion to [ROOT.GetCountry.GetReligion.GetName] has been largely successful, the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] continue to hold onto their faith in the old gods. They still venerate their sacred site in [target_location.GetName], refusing to acknowledge [ROOT.GetCountry.GetAdjective] rule and stubbornly clinging to ancient customs. Perhaps it is time to show them the consequences of defying [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Хоча [ROOT.GetCountry.GetReligion.GetName|l] охоплює вже майже всі куточки нашої держави, деякі [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] досі чіпляються за віру в давніх богів. Вони продовжують шанувати святилище в [target_location.Custom('LR_PREP')|l] [target_location.GetName], відкидаючи #L [ROOT.GetCountry.GetAdjective|l]у#! владу й уперто зберігаючи язичницькі звичаї. Можливо, настав час показати їм ціну непокори."
+ },
+ "flavor_lit.41.title": {
+  "en": "[ShowReligionAdjectiveWithNoTooltip('romuva')] Sacred Area in [target_location.GetNameWithNoTooltip]",
+  "uk": "Ромувське священне місце в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_lit.42.a": {
+  "en": "Force convert them.",
+  "uk": "Насильно навернемо їх до істинної віри."
+ },
+ "flavor_lit.42.b": {
+  "en": "Actions like these would upset our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Через подібні дії [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] будуть у люті."
+ },
+ "flavor_lit.42.b.entry": {
+  "en": "Actions like these would upset our $nobles_estate$.",
+  "uk": ""
+ },
+ "flavor_lit.42.desc": {
+  "en": "While many among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have converted to [ROOT.GetCountry.GetReligion.GetName], not all have embraced the true faith. Some still secretly revere the old gods, directly defying the authority of the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]. Perhaps the privileges granted to them serve only to shelter these heretical practices. It may be time to remind them who truly rules over them, should they continue to uphold [ShowReligionAdjective('romuva')] beliefs.",
+  "uk": "Хоча багато [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вже змирилися з тим фактом, що тепер у нашій державі сповідується [ROOT.GetCountry.GetReligion.GetName|l], не всі щиро прийняли істинну віру. Деякі досі таємно поклоняються давнім богам, кидаючи виклик владі, і [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] не можуть це терпіти. Можливо, надані їм привілеї лише потурають цим єретичним практикам. Якщо вони продовжать сповідувати #L [ShowReligionAdjective('romuva')|l]у#! віру, варто нагадати їм, хто тут істинний правитель."
+ },
+ "flavor_lit.42.entry": {
+  "en": "Romuva Remnants Within the $nobles_estate$",
+  "uk": ""
+ },
+ "flavor_lit.42.title": {
+  "en": "[ShowReligionAdjectiveWithNoTooltip('romuva')] Remnants Within the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] — таємні послідовники Ромуви"
+ },
+ "flavor_lit.43.a": {
+  "en": "Let us welcome these Lipka [ShowCultureGroupNameWithNoTooltip('tatar_group')] families.",
+  "uk": "Приймемо польсько-литовських татар до наших земель."
+ },
+ "flavor_lit.43.b": {
+  "en": "We will not allow them to migrate into our lands.",
+  "uk": "Ми не дозволимо їм переселятися до наших володінь."
+ },
+ "flavor_lit.43.desc": {
+  "en": "Our conquest of the [ShowRegionName('steppes_region')] has brought us not only glory and safety but also many [ShowCultureGroupName('tatar_group')] families, who once ruled over the land. Now, these families seek a new beginning, desiring to settle in our heartland, where they can better integrate into our society. Many have expressed a wish to serve in our army, forming a community that could greatly benefit [ROOT.GetCountry.GetName]. Yet, such integration will come at a cost to the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Наші завоювання в #TOOLTIP:REGION,steppes_region,X #L Степу#!#! принесли не лише славу та безпеку, а й безліч #TOOLTIP:CULTUREGROUP,tatar_group,X #L татарських#!#! сімей, що колись володіли цими землями. Тепер вони шукають нового життя, бажаючи оселитися в наших корінних землях, де зможуть краще інтегруватися в суспільство. Багато хто виявив готовність служити в нашій армії, утворивши спільноту, яка могла б принести #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! чималу користь. Однак така інтеграція вимагатиме від [ROOT.GetCountry.Custom('rank_ru_GEN')|l] певних витрат."
+ },
+ "flavor_lit.43.entry": {
+  "en": "Invitation of Tatar Group Families",
+  "uk": ""
+ },
+ "flavor_lit.43.title": {
+  "en": "Invitation of [ShowCultureGroupNameWithNoTooltip('tatar_group')] Families",
+  "uk": "Переселення татарських сімей"
+ },
+ "flavor_lit.44.a": {
+  "en": "It is time to deal with this religious issue.",
+  "uk": "Час вирішити це релігійне питання."
+ },
+ "flavor_lit.44.b": {
+  "en": "We will not harm the communities of [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Ми не станемо шкодити громадам [ROOT.GetCountry.Custom('CL_GEN')]."
+ },
+ "flavor_lit.44.b.entry": {
+  "en": "We will not harm the communities of $LIT$.",
+  "uk": ""
+ },
+ "flavor_lit.44.desc": {
+  "en": "The rise of the [ShowSituationName('reformation')] has inspired many among the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [ROOT.GetCountry.GetName] to return to the ancient traditions of [ShowReligionName('romuva')], leading to unrest in rural areas. This growing concern has brought the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] into session to debate how to address the issue. A majority believe the [ROOT.GetCountry.GetFlavorRank] should take direct action to hasten their conversion, rather than wait for these old traditions to fade on their own. [target_character.GetName] may have to approve such measures — if [target_character.GetSheHe] is truly a devout [ROOT.GetCountry.GetReligion.GetAdjective].",
+  "uk": "Хвилі #TOOLTIP:SITUATION,reformation,X #L Католицької Реформації#!#! захлеснули державу, і багато #L [ROOT.GetCountry.GetAdjective|l]их#! [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] захотіли повернутися до давніх традицій #TOOLTIP:RELIGION,romuva_tt,X #L ромуви#!#!, що викликало хвилювання в сільських районах. Ця зростаюча проблема змусила [ROOT.GetCountry.Custom('parliament_ru_ACC')|l] зібратися для обговорення подальших дій. Більшість вважає, що необхідно вжити рішучих заходів для прискорення їхнього навернення, а не чекати, поки старі традиції [ROOT.GetCountry.Custom('rank_ru_GEN')|l] зникнуть самі собою. [target_character.GetName], ймовірно, буде [Select_CString(target_character.IsFemale, 'змушена', 'змушений')] схвалити такі заходи — якщо [Select_CString(target_character.IsFemale, 'вона', 'він')] справді є [Select_CString(target_character.IsFemale, 'істинною послідовницею', 'істинним послідовником')] #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри."
+ },
+ "flavor_lit.44.entry": {
+  "en": "Combating Romuva Resurgence",
+  "uk": ""
+ },
+ "flavor_lit.44.title": {
+  "en": "Combating [ShowReligionAdjectiveWithNoTooltip('romuva')] Resurgence",
+  "uk": "Боротьба з відродженням ромуви"
+ },
+ "flavor_lit.45.a": {
+  "en": "Let us create these new laws.",
+  "uk": "Приймемо новий звід правил."
+ },
+ "flavor_lit.45.b": {
+  "en": "Retaining the regional laws would be better.",
+  "uk": "Краще зберегти регіональні правила."
+ },
+ "flavor_lit.45.desc": {
+  "en": "The absence of a unified legal code in [ROOT.GetCountry.GetName] has proven troublesome for [target_character.GetName], who must govern through a patchwork of regional laws across the [ROOT.GetCountry.GetFlavorRank]. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] now proposes the creation of a new legal code — one that would consolidate these disparate laws and be translated into the various languages of our people. Such a code would bring much-needed clarity and authority across the realm.",
+  "uk": "Відсутність єдиного зводу правил створює серйозні труднощі — [target_character.GetName] [Select_CString(target_character.IsFemale, 'змушена', 'змушений')] правити, спираючись на розрізнені регіональні правові норми. [ROOT.GetCountry.GetGovernment.GetCourtTitle] пропонує створити новий законодавчий кодекс, який об'єднає ці різнорідні правила й буде перекладений мовами всіх народів [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Такий звід принесе довгоочікувану ясність і зміцнить владу по всій державі."
+ },
+ "flavor_lit.45.entry": {
+  "en": "$flavor_lit.45.title$",
+  "uk": ""
+ },
+ "flavor_lit.45.title": {
+  "en": "Statutes of [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Статути [ROOT.GetCountry.Custom('CL_GEN')]"
+ },
+ "flavor_lit.46.a": {
+  "en": "Let the eldest son inherit the throne henceforth.",
+  "uk": ""
+ },
+ "flavor_lit.46.b": {
+  "en": "Our traditions have served us well — we will keep them.",
+  "uk": ""
+ },
+ "flavor_lit.46.desc": {
+  "en": "The grand duchy of [ROOT.GetCountry.GetName] has long observed the tradition of choosing the most capable and deserving son as heir — a custom born of necessity in an age of war and expansion. Yet as [ROOT.GetCountry.GetName] grows in stature and our neighbors to the west begin pressing dynastic claims, uncertainty in our succession invites dangerous ambitions among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')].\\n\\nSome among the court now argue that a fixed order of inheritance, granting succession to the firstborn son, would secure stability and silence those who scheme for influence over the choice of heir.",
+  "uk": ""
+ },
+ "flavor_lit.46.entry": {
+  "en": "$flavor_lit.46.title$",
+  "uk": ""
+ },
+ "flavor_lit.46.historical_info": {
+  "en": "As Lithuania grew into a major European power in the mid-14th century, its rulers began moving toward more regularized succession practices in line with neighboring Christian kingdoms. This shift helped stabilize the dynasty and was a precondition for the eventual dynastic union with Poland.",
+  "uk": ""
+ },
+ "flavor_lit.46.title": {
+  "en": "Order of Succession",
+  "uk": ""
+ },
+ "flavor_lit.5.a": {
+  "en": "[target_character3.GetShortNameWithNoTooltip] will make a fine [target_character3.GetWifeHusband]!",
+  "uk": "[target_character3.GetShortNameWithNoTooltip] — ідеальна пасія!"
+ },
+ "flavor_lit.5.a.entry": {
+  "en": "The character will make a fine husband!",
+  "uk": ""
+ },
+ "flavor_lit.5.b": {
+  "en": "The [ROOT.GetCountry.GetLongNameWithNoTooltip] needs no foreign royalty.",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip] не потребує іноземних правителів."
+ },
+ "flavor_lit.5.b.entry": {
+  "en": "We needs no foreign royalty.",
+  "uk": ""
+ },
+ "flavor_lit.5.desc": {
+  "en": "Having completed our conversion to [ShowReligionName('catholic')], it becomes abundantly clear that we need to seek legitimacy within our new religious society. After days of correspondence, we have received word that there exists an unmarried relative of [target_character2.GetName], by the name of [target_character3.GetName]. It would be wise to consider this marriage as such a union would surely help us integrate as a part of Western [ShowReligionNameWithNoTooltip('catholic')] and further contribute to the development of our people.",
+  "uk": "Коли ми завершили перехід до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!, стало цілком зрозуміло, що нам ще слід здобути легітимність в очах нового релігійного суспільства. Витративши кілька днів на листування, ми отримали звістку, що [target_character2.GetName] має [Select_CString(target_character3.IsFemale, 'незаміжню родичку', 'неодруженого родича')] на ім'я [target_character3.GetName]. Укладення шлюбу не лише допоможе нам влитися в західний #TOOLTIP:RELIGION,$catholic_tt$,X #L католицький#!#! світ, але й сприятиме подальшому процвітанню нашого народу."
+ },
+ "flavor_lit.5.entry": {
+  "en": "$flavor_lit.5.title$",
+  "uk": ""
+ },
+ "flavor_lit.5.historical_info": {
+  "en": "Formally known as the #italic Union of Krewo#!, the marriage between the Lithuanian Grand Duke Jogaila and Queen Jadwiga of Poland was the culmination of decades-long Catholicization and diplomatic efforts, on the behalf of the Grand Duke. This marked a definitive end to the Pagan identity of the Lithuanian state.",
+  "uk": "Шлюб між великим литовським князем Ягайлом і польською королевою Ядвігою, відомий як #italic Кревська унія#!, став результатом багаторічних дипломатичних переговорів і зусиль з переходу в католицтво, що проводилися від імені князя, і ознаменував собою остаточну відмову Литви від язичницьких вірувань."
+ },
+ "flavor_lit.5.title": {
+  "en": "Western Marital Ties",
+  "uk": "Шлюбний союз із Заходом"
+ },
+ "flavor_lit.6.a": {
+  "en": "Pretend to play along, for now...",
+  "uk": "Ми підіграємо нашим сусідам…"
+ },
+ "flavor_lit.6.b": {
+  "en": "A genuine conversion to safeguard our future!",
+  "uk": "Перехід до нової віри забезпечить нам безпеку!"
+ },
+ "flavor_lit.6.c": {
+  "en": "The [ROOT.GetCountry.GetLongNameWithNoTooltip] will remain [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip]!",
+  "uk": "[ROOT.GetCountry.GetLongNameWithNoTooltip] залишається [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip]ою державою!"
+ },
+ "flavor_lit.6.c.entry": {
+  "en": "We will remain faithful!",
+  "uk": ""
+ },
+ "flavor_lit.6.desc": {
+  "en": "The growing pressure of our political and geographical position has reached a boiling point. As our borders are constantly harassed through skirmishes with [ShowReligionAdjective('catholic')] knights and foes alike, it is time for us to make a choice that will likely determine the fate of our people.\\n\\nMany of our advisors support the idea of a genuine conversion. They argue that establishing trusted ties with the [GetCountry('PAP').GetGovernment.GetRulerTitle] will secure our borders indefinitely.\\n\\nHowever, some within our ranks argue that our indecision to convert works in our favor. They are in favor of a fake conversion, in order to gain valuable time and gather our strength, so as to not abandon the beliefs of our forefathers...",
+  "uk": "Тиск, що чиниться на нас через наше географічне положення, досяг максимуму. На наших кордонах постійно відбуваються сутички з #TOOLTIP:RELIGION,catholic_tt,X #L католицькими#!#! лицарями і ворогами, тож настав час зробити вибір, який, імовірно, стане для нашого народу доленосним.\\n\\nБагато наших радників підтримують ідею повноцінного навернення до католицтва. Вони вважають, що якщо [GetCountry('PAP').GetGovernment.GetRulerTitle] буде нам довіряти, наш суверенітет надовго залишать у спокої.\\n\\nОднак дехто, навпаки, стверджує, що наша нерішучість працює нам на користь, і пропонує створити видимість переходу до нової релігії. Мовляв, це дасть нам час на те, щоб зібратися з силами і відстояти віру наших предків."
+ },
+ "flavor_lit.6.entry": {
+  "en": "$flavor_lit.6.title$",
+  "uk": ""
+ },
+ "flavor_lit.6.historical_info": {
+  "en": "The Christianization of Lithuania, the last great bastion of Paganism, was an extremely turbulent affair. Throughout the 14th century, there were many attempts to embrace Catholicism and be baptized, at the behest of Lithuanian Grand Dukes. They were alas to no avail, as many were vetoed by the Teutonic Knights or concluded unsuccessfully due to hostilities. It would not be until the reign of Jogaila and his cousin Vytautas 'the Great', that Lithuania would formally embrace the Catholic faith.",
+  "uk": "Християнське навернення Литви, останнього значного оплоту язичництва, проходило дуже неспокійно. За XIV століття великі литовські князі здійснили безліч спроб хрещення і прийняття католицтва. На жаль, усі вони виявилися невдалими: частину з них відхилив Тевтонський орден, частина провалилася через військові дії. В результаті Литва офіційно перейшла в католицьку віру лише за часів правління Ягайла і його двоюрідного брата Вітовта Великого."
+ },
+ "flavor_lit.6.title": {
+  "en": "Vacillation Between East and West",
+  "uk": "Вибір між Сходом і Заходом"
+ },
+ "flavor_lit.7.a": {
+  "en": "An interesting development.",
+  "uk": "Цікавий розвиток подій."
+ },
+ "flavor_lit.7.desc.a": {
+  "en": "Despite our best efforts to convince [target_character1.GetName] that the best future for [target_character1.GetHerHis] people is to embrace our true faith, it appears that the [GetCountry('LIT').GetLongName] is not advanced or blessed enough yet to bathe in the light of our Lord. As a result, they have shot down our attempts to convert them, replying categorically that they will maintain their beliefs and traditions to the bitter end...",
+  "uk": "[target_character1.GetName] відзначається надзвичайною впертістю. Ми довго переконували [Select_CString(target_character1.IsFemale, 'її', 'його')], що прийняття нашої істинної віри забезпечить [Select_CString(target_character1.IsFemale, 'її', 'його')] народу краще майбутнє, однак, очевидно, держава [GetCountry('LIT').GetLongName] ще недостатньо розвинена і благочестива для того, щоб прийняти світло нашого Господа. В результаті [target_character1.GetName] [Select_CString(target_character1.IsFemale, 'відкинула', 'відкинув')] усі наші аргументи, категорично заявивши, що вони не зрадять свої вірування і традиції до самого кінця…"
+ },
+ "flavor_lit.7.desc.b": {
+  "en": "Our efforts to convert the backwater lands of the [GetCountry('LIT').GetLongName] have seemingly produced fruit! After some time of deliberation, [target_character1.GetName] has reached out and committed to converting [target_character1.GetHerselfHimself] and [target_character1.GetHerHis] people to [ShowReligionName('catholic')] in due time!",
+  "uk": "Наші спроби навернути ці захолустні землі під назвою [GetCountry('LIT').GetLongName] нарешті дали свої плоди! Після деяких роздумів [target_character1.GetName] [Select_CString(target_character1.IsFemale, 'відповіла', 'відповів')], що [Select_CString(target_character1.IsFemale, 'її', 'його')] народ і [Select_CString(target_character1.IsFemale, 'вона сама', 'він сам')] приймуть #TOOLTIP:RELIGION,catholic_tt,X #L католицтво#!#!, коли настане час."
+ },
+ "flavor_lit.7.entry": {
+  "en": "Pope Informed about Conversion",
+  "uk": ""
+ },
+ "flavor_lit.7.title": {
+  "en": "Letters from [target_character1.GetShortNameWithNoTooltip]",
+  "uk": "[target_character1.GetShortNameWithNoTooltip] у листуванні"
+ },
+ "flavor_lit.8.a": {
+  "en": "The time has come.",
+  "uk": "Час настав."
+ },
+ "flavor_lit.8.b": {
+  "en": "It was all a facade!",
+  "uk": "Це була хитрість!"
+ },
+ "flavor_lit.8.desc": {
+  "en": "Not long ago, we committed to converting our [GetCountry('LIT').GetGovernment.GetRulerTitle] and our people to [ShowReligionName('catholic')]. Now, the time has come for us to determine our stance on such a vital religious matter. Should we follow through with our commitment and convert fully or remain faithful to our Pagan roots, a decision at such a pivotal moment is surely one that will determine our future\\n\\nThe baptism of [target_character.GetShortNameWithNoTooltip] will surely serve as a prelude to a new era for our nation. Though it may come off as a surprise to the many of the commons of [ROOT.GetCountry.GetName], in truth the conversion of [target_character.GetShortNameWithNoTooltip] and [target_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle] has been a negotiated process that involved many courtiers and much of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].",
+  "uk": "Нещодавно ми пообіцяли, що [GetCountry('LIT').GetGovernment.GetRulerTitle|l] і наш народ навернуться до #TOOLTIP:RELIGION,catholic_tt,X #L католицтва#!#!. Настав час визначитися з позицією щодо цього важливого питання. Ми збираємося стримати слово й офіційно приймемо нову релігію чи залишимося вірними язичництву? Яке б рішення ми не прийняли, воно, без сумніву, визначить нашу подальшу долю.\\n\\nЯкщо [target_character.GetShortNameWithNoTooltip] пройде обряд хрещення, це стане для нас першим кроком у нову епоху. Хоча багатьом мешканцям #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! такий вчинок може здатися несподіваним, насправді [target_character.GetShortNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] переходять до нової віри в результаті тривалого переговорного процесу, в якому брали участь багато придворних і [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
+ },
+ "flavor_lit.8.entry": {
+  "en": "The Ruler's Christianization",
+  "uk": ""
+ },
+ "flavor_lit.8.historical_info": {
+  "en": "Lithuania, the last Pagan nation in Europe, officially embraced Christianity in the late 14th century. The conversion began in 1387 when Grand Duke Jogaila was baptized to marry Queen Jadwiga of Poland, solidifying a Polish-Lithuanian alliance. This event initiated the spread of Catholicism, though pagan practices lingered for some time. Later, Vytautas 'the Great', Jogaila's cousin, pushed the Christianization further, particularly in Samogitia, the last stronghold of paganism. This marked the end of Europe's conversion from Paganism, although traditional beliefs left a lasting imprint on Lithuanian culture.",
+  "uk": "Литва, остання язичницька держава в Європі, офіційно прийняла християнство наприкінці XIV століття. Перехід розпочався 1387 року, коли великий князь Ягайло пройшов обряд хрещення, щоб одружитися з польською королевою Ядвігою, що мало зміцнити союз Литви з Польщею. Ця подія поклала початок поширенню католицтва, хоча до повної відмови від язичницьких практик було ще далеко. Двоюрідний брат Ягайла, князь Вітовт Великий продовжив справу попередника, приділивши особливу увагу області Жемайтія — останньому оплоту язичництва. Таким чином, з язичництвом у Європі було покінчено, хоча традиційні вірування залишили глибокий слід у литовській культурі."
+ },
+ "flavor_lit.8.title": {
+  "en": "[target_character.GetShortNameWithNoTooltip]'s Christianization",
+  "uk": "Християнізація Литви"
+ },
+ "flavor_lit.9.a": {
+  "en": "To arms!",
+  "uk": "До зброї!"
+ },
+ "flavor_lit.9.desc": {
+  "en": "It appears that the weasels in charge of the [GetCountry('LIT').GetLongName] have chosen to refute their word and not convert to [ShowReligionName('catholic')]. This last straw is reason enough for us to have a legitimate argument in favor of finally ridding our border of their heathen beliefs!",
+  "uk": "Схоже, ці шахраї, що очолюють [GetCountry('LIT').GetLongName], забрали свої слова назад і вирішили не приймати #TOOLTIP:RELIGION,catholic_tt,X #L католицтво#!#!. Ми не терпітимемо такого приниження і використаємо цю обставину як законний привід очистити наші кордони від язичницького мотлоху!"
+ },
+ "flavor_lit.9.entry": {
+  "en": "Catholic Betrayed",
+  "uk": ""
+ },
+ "flavor_lit.9.title": {
+  "en": "[ShowReligionNameWithNoTooltip('catholic')] Betrayed",
+  "uk": "Литва зраджує католицтво"
+ },
+ "lit_10_percent_of_primary_culture_pops_convert_to_romuva_tt": {
+  "en": "#Y 10%#! of all our [ROOT.GetCountry.GetCulture.GetName] [pops|e] will convert to [ShowReligionName('romuva')]",
+  "uk": "#Y 10%#! наших #L [ROOT.GetCountry.GetCulture.GetName]их#! [Concept('pops', 'груп населення')|e] навернуться до #TOOLTIP:RELIGION,romuva_tt,X #L ромуви#!#!"
+ },
+ "lit_5_percent_of_primary_culture_pops_convert_to_romuva_tt": {
+  "en": "#Y 5%#! of all our [ROOT.GetCountry.GetCulture.GetName] [pops|e] will convert to [ShowReligionName('romuva')]",
+  "uk": "#Y 5%#! наших #L [ROOT.GetCountry.GetCulture.GetName]их#! [Concept('pops', 'груп населення')|e] навернуться до #TOOLTIP:RELIGION,romuva_tt,X #L ромуви#!#!"
+ },
+ "lit_all_lithuanian_nobles_gain_pop_satisfaction_tt": {
+  "en": "Every [ROOT.GetCountry.GetCulture.GetName] [pop|e] will gain[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] всіх #L [ROOT.GetCountry.GetCulture.GetAdjective|l]их#! [Concept('pops', 'груп населення')|e] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
+ },
+ "lit_all_peasant_pops_lose_satisfaction_tt": {
+  "en": "All of our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] всіх [Concept('pops', 'груп населення')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]» знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
+ },
+ "lit_all_primary_culture_pops_gain_satisfaction_tt": {
+  "en": "Every [pop|e] within [ROOT.GetCountry.GetName] that is [ROOT.GetCountry.GetCulture.GetName] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] всіх #L [ROOT.GetCountry.GetCulture.GetAdjective|l]их#! [Concept('pops', 'груп населення')|e] у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! підвищиться на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "lit_all_romuva_pop_become_unhappy_tt": {
+  "en": "All our [ShowReligionAdjective('romuva')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] усіх наших #L [ShowReligionAdjective('romuva')|l]их#! [Concept('pops', 'груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
+ },
+ "lit_all_vilnius_pops_become_loyal_tt": {
+  "en": "All [pops|e] within [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] всіх [Concept('pops', 'груп населення')|e] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] підвищиться на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "lit_cheaper_granaries_in_ruthenia_tt": {
+  "en": "Every [location|e] in [ShowRegionName('ruthenia_region')] we own that produces [ShowGoodsName('wheat')] will gain the [ShowModifier('lit_grain_supply_of_europe')] [modifier|e] for #Y 20#! years",
+  "uk": "Усі наші [Concept('location', 'райони')|e] в #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#!, які виробляють #TOOLTIP:GOODS,wheat,X #L пшеницю#!#!, отримають [Concept('modifier', 'модифікатор')|e] «[ShowModifier('lit_grain_supply_of_europe')]» на #Y 20#! років"
+ },
+ "lit_conversion.7_tt": {
+  "en": "Whether or not they are genuine about their intentions, only time will tell",
+  "uk": "Лише час покаже, наскільки щирі їхні наміри"
+ },
+ "lit_convert_percent_of_nobles_to_religion_tt": {
+  "en": "#Y 5%#! of all our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [ShowReligionAdjective('romuva')] [pops|e] will convert to [ROOT.GetCountry.GetReligion.GetName]",
+  "uk": "#Y 5%#! #L [ShowReligionAdjective('romuva')|l]их#! [Concept('pops','мешканців')|e]-#TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! навернуться до іншої релігії ([ROOT.GetCountry.GetReligion.GetName|l])"
+ },
+ "lit_convert_percentage_of_pops_in_location_tt": {
+  "en": "#Y 5%#! of all [ShowReligionAdjective('romuva')] [pops|e] in [target_location.GetName] will convert to [ROOT.GetCountry.GetReligion.GetName]",
+  "uk": "#Y 5%#! #TOOLTIP:RELIGION,romuva,X #L ромувського#!#! [Concept('pops', 'населення')|e] навернеться до іншої релігії — [ROOT.GetCountry.GetReligion.GetName|l]"
+ },
+ "lit_fancy_new_dishes": {
+  "en": "Fancy New Dishes",
+  "uk": "Дивовижні страви"
+ },
+ "lit_new_clothing_style": {
+  "en": "New Clothing Style",
+  "uk": "Новий стиль одягу"
+ },
+ "lit_no_offer_on_hansa_tt": {
+  "en": "No offer will be sent to [target_country2.GetName]",
+  "uk": "#ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_DAT')|L]#!#! не надійде жодної пропозиції"
+ },
+ "lit_romuva_pops_in_location_gain_satisfaction_tt": {
+  "en": "All [ShowReligionAdjective('romuva')] [pops|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволеність')|e] усіх #L [ShowReligionAdjective('romuva')|l]их#! [Concept('pops','груп населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
+ },
+ "lit_should_poland_accept_tt": {
+  "en": "Should [GetCountry('POL').GetName] accept our offer, we may benefit in the spread of [institutions|e] and prosperity.",
+  "uk": "Якщо [GetCountry('POL').GetName] прийме нашу пропозицію, ми зможемо наростити багатства і розвинути наші [Concept('institutions', 'інституції')|e]."
+ },
+ "lit_unlock_parliament_debate_to_convert_romuva_people_for_the_rest_of_the_situation_tt": {
+  "en": "We will unlock the [ShowParliamentIssueTypeName('lit_measures_against_romuva')] for the remainder of the [ShowSituationName('reformation')] [situation|e]",
+  "uk": "До закінчення [Concept('situation', 'ситуації')|e] «[ShowSituationName('reformation')]» нам буде доступне парламентське питання «[ShowParliamentIssueTypeName('lit_measures_against_romuva')]»"
+ },
+ "lutheran_pops_gain_25_satisfaction": {
+  "en": "[ShowReligionAdjective('lutheran')] [pops|e] across our [locations|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранських#!#! [Concept('pops','груп населення')|e] в наших [Concept('locations','районах')|e] зросте на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
+ },
+ "lutheran_pops_lose_33_satisfaction": {
+  "en": "[ShowReligionAdjective('lutheran')] [pops|e] across our [locations|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранських#!#! [Concept('pops','груп населення')|e] в наших [Concept('locations','районах')|e] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] "
+ },
+ "many_pops_will_become_calvinist_in_christian_locations_tt": {
+  "en": "Many of our [ShowReligionGroupAdjective('christian')] [pops|e] across our [locations|e] will convert to [ShowReligionName('calvinist')]",
+  "uk": "Багато #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#!, [Concept('pops', 'груп населення')|e] в наших [Concept('locations', 'районах')|e] навернуться до #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвінізму#!#!"
+ },
+ "many_pops_will_become_lutheran_in_christian_locations_tt": {
+  "en": "Many of our [ShowReligionGroupAdjective('christian')] [pops|e] across our [locations|e] will convert to [ShowReligionName('lutheran')]",
+  "uk": "Багато #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#!, [Concept('pops', 'груп населення')|e] в наших [Concept('locations', 'районах')|e] навернуться до #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранства#!#!"
+ },
+ "may_lead_to_peaceful_union": {
+  "en": "This may lead to a peaceful union between our countries",
+  "uk": "Це може призвести до встановлення міцного союзу між нашими державами"
+ },
+ "neighbor_catholics_lose_opinion_tt": {
+  "en": "All neighbor [ShowReligionAdjectiveWithNoTooltip('catholic')] countries will lose [ShowBiasValue('religious_friction_modifier')|-=0] [opinion|e] towards us and may declare #R war#! upon us",
+  "uk": "[Concept('opinion','Думка')|e] всіх сусідніх католицьких держав про нас впаде на [ShowBiasValue('religious_friction_modifier')|-=0] од. Вони можуть оголосити нам #R війну#!"
+ },
+ "neighbor_catholics_receive_opinion_tt": {
+  "en": "All neighbor [ShowReligionAdjectiveWithNoTooltip('catholic')] countries gain [ShowBiasValue('recently_embraced_catholicism')|+=0] [opinion|e] towards us",
+  "uk": "[Concept('opinion','Думка')|e] всіх сусідніх католицьких держав про нас покращиться на [ShowBiasValue('recently_embraced_catholicism')|+=0] од."
+ },
+ "ruler_and_children_convert_to_catholicism_tt": {
+  "en": "#italic [target_character.GetShortNameWithNoTooltip] and [target_character.GetHerHis] immediate offsprings will convert to [ShowReligionNameWithNoTooltip('catholic')] to solidify the country's first step towards Christianization#!",
+  "uk": "#italic [target_character.GetShortNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] діти приймуть католицтво, що стане першим кроком до християнізації нашої держави#!"
+ },
+ "smolensk_owned_by_muscovy_tt": {
+  "en": "Every location in [ShowAreaName('smolensk_area')] that is owned by [target_root_country.GetNameWithNoTooltip] or a [subject|e] will be owned by us and become our [core|e]",
+  "uk": "Усі райони #TOOLTIP:AREA,smolensk_area,X #L Смоленщини#!#!, що належать [target_root_country.Custom('CL_DAT')] або [Concept('subject','васалу')|e], перейдуть під нашу владу і стануть [Concept('core','національними')|e]"
+ },
+ "target_character3_is_scorned_tt": {
+  "en": "This will greatly upset [target_character3.GetName]",
+  "uk": "[target_character3.GetName] висловить сильне невдоволення таким рішенням"
+ },
+ "variable_lit_enable_conversion_to_catholicism_variable_tt": {
+  "en": "The Path to Catholic Conversion is Open",
+  "uk": ""
+ },
+ "variable_lit_genuine_conversion_tt": {
+  "en": "Our Conversion to Christianity is Genuine",
+  "uk": ""
+ },
+ "variable_lit_pretending_to_convert_variable_tt": {
+  "en": "Our Conversion to Christianity is a Pretense",
+  "uk": ""
+ },
+ "variable_lit_ressurection_of_romuva_paganism_flag_tt": {
+  "en": "The [ShowReligionName('romuva')] Faith is Resurgent",
+  "uk": ""
+ }
+}

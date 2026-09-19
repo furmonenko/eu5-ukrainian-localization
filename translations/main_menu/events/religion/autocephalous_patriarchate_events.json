@@ -1,0 +1,78 @@
+{
+ "ap_diplomatic_desc_key": {
+  "en": "With the incorporation of [target_location.GetName] into the [scope:winner.GetFlavorRank] of [scope:winner.GetName],",
+  "uk": ""
+ },
+ "ap_falls_desc_key": {
+  "en": "After a turbulent siege and a valiant defense of the resident garrison, [target_location.GetName] has fallen to the might of our great armies. Within its walls resides a powerful religious authority, as the [target_location.GetRank.GetNameWithNoTooltip] once hosted dignitaries of the [ShowReligionAdjective('orthodox')] faith. The question remains yet, should we abolish this kindred institution or adopt it under our protection?",
+  "uk": "Після тривалої облоги оборону відважного гарнізону було зламано, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] впав перед нашими могутніми арміями. Усередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут чи прийняти його під своє покровительство?"
+ },
+ "ap_falls_desc_key_2": {
+  "en": "Within its walls resides a powerful religious authority, as the [target_location.GetRank.GetNameWithNoTooltip] once hosted dignitaries of the [ShowReligionAdjective('orthodox')] faith. The question remains yet, should we abolish this kindred institution or adopt it under our protection?",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.1.a": {
+  "en": "Dissolve the Patriarchate.",
+  "uk": "Розпустимо патріархат."
+ },
+ "autocephalous_patriarchates.1.b": {
+  "en": "Keep the Patriarchate.",
+  "uk": "Збережемо патріархат."
+ },
+ "autocephalous_patriarchates.1.c": {
+  "en": "Now we will be the ones to deal with the Patriarch.",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.1.desc": {
+  "en": "$ap_falls_desc_key$ It was the seat of the [target_ap.GetName], and now it comes to us to decide what to do with this Patriarchal authority.",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.1.desc_diplomatic": {
+  "en": "$ap_diplomatic_desc_key$ the seat of the [target_ap.GetName] now falls under our authority. It comes to us to decide what to do with this Patriarchal institution.",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.1.title": {
+  "en": "Autocephalous Patriarchate Seat Falls!",
+  "uk": "Автокефальний патріархат упав!"
+ },
+ "autocephalous_patriarchates.2.a": {
+  "en": "Dissolve the Patriarchate.",
+  "uk": "Розпустимо патріархат."
+ },
+ "autocephalous_patriarchates.2.b": {
+  "en": "Keep it.",
+  "uk": "Збережемо патріархат."
+ },
+ "autocephalous_patriarchates.2.desc": {
+  "en": "$ap_falls_desc_key$ $ap_falls_desc_key_2$",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.2.desc_diplomatic": {
+  "en": "$ap_diplomatic_desc_key$ it comes to us to decide upon matters of its faith. $ap_falls_desc_key_2$",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.2.title": {
+  "en": "Autocephalous Patriarchate Seat Falls!",
+  "uk": "Автокефальний патріархат упав!"
+ },
+ "autocephalous_patriarchates.3.a": {
+  "en": "For the greater glory of [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]!",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.3.desc": {
+  "en": "With the relocation of the [recipient.GetName] to [target_location.GetName], the glory of the [target.GetType.GetName] has been restored. From now on, the Patriarchate will lead the matters of the faith with the majesty and reverence that befits such lofty seat.",
+  "uk": ""
+ },
+ "autocephalous_patriarchates.3.title": {
+  "en": "Restoration of the Patriarchate of [target_location.GetNameWithNoTooltip]",
+  "uk": ""
+ },
+ "every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt": {
+  "en": "Every member of the [target_ap.GetName] will lose [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] opinion of us",
+  "uk": "Усі члени патріархату «[target_ap.GetName]» змінять свою думку про нас на [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]"
+ },
+ "every_member_of_winner_ap_gains_opinion_of_scopewinner_tt": {
+  "en": "Every member of the [target_winner_ap.GetName] will gain [ShowBiasValue('destroyed_another_autocephalous_patriarchate')|+=0] opinion of us",
+  "uk": ""
+ }
+}

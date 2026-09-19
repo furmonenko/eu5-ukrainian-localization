@@ -1,0 +1,506 @@
+{
+ "STATIC_MODIFIER_NAME_arrested_character": {
+  "en": "Imprisoned",
+  "uk": "У неволі"
+ },
+ "advisor_antiliaisons": {
+  "en": "Harsh Stance",
+  "uk": "Жорстка позиція"
+ },
+ "advisor_spurious_accusations": {
+  "en": "Spurious Accusations",
+  "uk": "Неправдиві звинувачення"
+ },
+ "court_flavor_events.1.A.tooltip": {
+  "en": "[advisor.GetName] will approach [advisor_liaisons_target_country.GetLongName] to seek better relations.",
+  "uk": "[advisor_liaisons_target_country.GetLongName] та [advisor.GetName] зв'яжуться для поліпшення дипломатичних відносин."
+ },
+ "court_flavor_events.1.a": {
+  "en": "Let us do it.",
+  "uk": "Чудовий план."
+ },
+ "court_flavor_events.1.b": {
+  "en": "We have no need for better relations with them.",
+  "uk": "Нам нема чого перед ними запобігати."
+ },
+ "court_flavor_events.1.desc": {
+  "en": "[advisor.GetName] has impressed many in the country with [advisor.GetHerHis] proactivity and capable leadership skills, as well as [advisor.GetHerHis] efforts to fit in in the [ROOT.GetCountry.GetAdjective] court. However, it would seem that [advisor.GetSheHe] has not cut all ties to [advisor.GetHerHis] countrymen in [advisor_liaisons_target_country.GetLongName]. [advisor.GetSheHe|U] has been pushing for better relations with [advisor.GetHerHis] homeland, [advisor_liaisons_target_country.GetLongNameWithNoTooltip], and has offered to leverage [advisor.GetHerHis] contacts in the [advisor_liaisons_target_country.GetAdjectiveWithNoTooltip] court to push the [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] to adopt a more friendly position towards us.",
+  "uk": "[advisor.GetName] виявляє небувалу ініціативу та лідерські якості, прагнучи заслужити місце при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. [Select_CString(advisor.IsFemale,'Вона', 'Він')] родом з #ONCLICK:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')],X [advisor_liaisons_target_country.Custom('CL_GEN')|L]#!#! і, схоже, досі підтримує зв'язок з [advisor_liaisons_target_country.Custom('rank_ru_INST')|l]. [advisor.GetName] хоче поліпшити відносини між нами та [Select_CString(advisor.IsFemale,'її', 'його')] батьківщиною, тому пропонує задіяти свої зв'язки, щоб вплинути на #L [advisor_liaisons_target_country.GetAdjectiveWithNoTooltip|l]ий#! двір і домогтися його прихильності до нашої держави."
+ },
+ "court_flavor_events.1.title": {
+  "en": "Liaising Advisor",
+  "uk": "Амбітний радник"
+ },
+ "court_flavor_events.10.A.tt1": {
+  "en": "[advisor.GetName] stays loyal.",
+  "uk": "[advisor.GetName] зберігає вірність."
+ },
+ "court_flavor_events.10.A.tt2": {
+  "en": "[advisor.GetName] betrays our trust.",
+  "uk": "[advisor.GetName] зраджує нас."
+ },
+ "court_flavor_events.10.B.tt": {
+  "en": "[advisor_liaisons_target_country.GetLongName] may protest at this course of action.",
+  "uk": "[advisor_liaisons_target_country.GetLongName] може висловити протест у зв'язку з цим рішенням."
+ },
+ "court_flavor_events.10.a": {
+  "en": "[advisor.GetSheHe|U] has our full trust.",
+  "uk": "[Select_CString(advisor.IsFemale,'Їй', 'Йому')] можна довіряти."
+ },
+ "court_flavor_events.10.b": {
+  "en": "Best not to risk it. Arrest them!",
+  "uk": "Краще не ризикувати. Арештуйте [Select_CString(advisor.IsFemale,'її', 'його')]!"
+ },
+ "court_flavor_events.10.desc": {
+  "en": "Not everyone is pleased with the plan to entrust [advisor.GetName] with seeking better relations with [advisor_liaisons_target_country.GetLongName]. With dissent mounting in the [ROOT.GetCountry.GetAdjective] court, another [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle], who has previously maintained a friendly rivalry with [advisor.GetHerHim] for [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s attention, has come forward with allegations of disloyalty. He claims to have investigated [advisor.GetNameWithNoTooltip]'s activities and found out that they amount to little more than [advisor.GetHerHim] sifting off state secrets to [advisor_liaisons_target_country.GetLongNameWithNoTooltip] under the guise of seeking rapprochement.\\n\\nFor [advisor.GetHerHis] part, [advisor.GetNameWithNoTooltip] protests that the evidence brought against [advisor.GetHerHim] is a fabrication inspired by his rival's jealousy at [advisor.GetHerHis] success. [advisor.GetSheHe|U] swears [advisor.GetSheHe] is loyal and will deliver positive results if [advisor.GetSheHe] is given our full trust.",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'отримала', 'отримав')] вказівку налагодити відносини з владою #ONCLICK:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')],X [advisor_liaisons_target_country.Custom('CL_RP')|L]#!#!, але далеко не всі згодні з таким рішенням, у зв'язку з чим при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі зростає невдоволення. Більше того, інший [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l], який вже давно намагається вислужитися у надії, що [ROOT.GetCountry.GetGovernment.GetRuler.GetName] це оцінить, звинуватив [Select_CString(advisor.IsFemale,'свою', 'свого')] колегу в нелояльності. Він заявляє, що провів розслідування і дійшов однозначного висновку: під прикриттям тієї дипломатичної роботи, яку веде [advisor.GetNameWithNoTooltip], наші державні таємниці витікають саме до [advisor_liaisons_target_country.Custom('CL_DP')].\\n\\n[advisor.GetNameWithNoTooltip] протестує і запевняє, що всі докази сфабриковані та мотивовані заздрістю до [Select_CString(advisor.IsFemale,'її', 'його')] успіхів. [Select_CString(advisor.IsFemale,'Вона', 'Він')] клянеться у вірності та обіцяє досягти добрих результатів в обмін на довіру з нашого боку."
+ },
+ "court_flavor_events.10.title": {
+  "en": "Allegations of Disloyalty",
+  "uk": "Звинувачення в нелояльності"
+ },
+ "court_flavor_events.11.a": {
+  "en": "$common_string_this_is_not_good$",
+  "uk": ""
+ },
+ "court_flavor_events.11.desc": {
+  "en": "[advisor.GetName] has betrayed us! One of this rivals has uncovered irrefutable proof that [advisor.GetSheHe] has revealed a variety of state secrets to [advisor_liaisons_target_country.GetLongName] while pretending to be representing our interests. Unfortunately, [advisor.GetSheHe] fled across the border before we could arrest [advisor.GetHerHim].",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'зрадила', 'зрадив')] нас! Увесь цей час [Select_CString(advisor.IsFemale,'вона', 'він')] лише [Select_CString(advisor.IsFemale,'вдавала', 'вдавав')], що представляє наші інтереси. Ми виявили незаперечні докази того, що [Select_CString(advisor.IsFemale,'вона видала', 'він видав')] безліч наших таємниць, які потрапляють до #ONCLICK:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')],X [advisor_liaisons_target_country.Custom('CL_DAT')|L]#!#!. На жаль, [Select_CString(advisor.IsFemale,'вона втекла', 'він втік')] через кордон перш ніж ми змогли [Select_CString(advisor.IsFemale,'її', 'його')] затримати."
+ },
+ "court_flavor_events.11.title": {
+  "en": "Betrayal",
+  "uk": "Зрада"
+ },
+ "court_flavor_events.12.a": {
+  "en": "His services will be remembered - and rewarded.",
+  "uk": "Його допомога гідна винагороди."
+ },
+ "court_flavor_events.12.b": {
+  "en": "We have no need of traitors.",
+  "uk": "Нам не потрібні зрадники."
+ },
+ "court_flavor_events.12.desc": {
+  "en": "An individual has come before the [ROOT.GetCountry.GetGovernment.GetRulerTitle], insisting that he must be heard. According to him, he was employed in service to the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] and has learnt information of vital interest to both us and [from.GetLongName]. Claiming to be [ROOT.GetCountry.GetAdjective] patriot, he now offers us his services along with information, which according to him was expertly gleaned from the innermost circles of the [from.GetAdjectiveWithNoTooltip] court and brought to us at considerable risk to his life.",
+  "uk": "До ваших володінь прибув незнайомець, який запевняє, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] неодмінно захоче його вислухати. Він стверджує, що служив при #L [from.GetAdjectiveWithNoTooltip|l]ому#! дворі, завдяки чому зміг роздобути вкрай важливу інформацію, яка може нам знадобитися. Він вважає себе #L [ROOT.GetCountry.GetAdjective|l]им#! патріотом, тому готовий поділитися з нами цими цінними відомостями, які нібито вивідав безпосередньо у членів #L [from.GetAdjectiveWithNoTooltip|l]ого#! двору, ризикуючи життям."
+ },
+ "court_flavor_events.12.title": {
+  "en": "[from.GetAdjectiveWithNoTooltip] Defector!",
+  "uk": "#L [from.GetAdjectiveWithNoTooltip]ий#! перебіжчик!"
+ },
+ "court_flavor_events.13.a": {
+  "en": "Our gratitude shall be eternal.",
+  "uk": "Ми вам безмежно вдячні."
+ },
+ "court_flavor_events.13.desc": {
+  "en": "The [advisor_liaisons_target_country.GetAdjective] ambassador reports that the [advisor_liaisons_target_country.GetAdjective] authorities have arrested the miscreant, [advisor.GetName], as [advisor.GetSheHe] sought to betray our trust and defect to [advisor_liaisons_target_country.GetLongName]. He assures us that our secrets are safe, and that our [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] was acting without [advisor_liaisons_target_country.GetAdjective] knowledge or approval.",
+  "uk": "#L [advisor_liaisons_target_country.GetAdjective]ий#! посол повідомляє, що варта затримала [Select_CString(advisor.IsFemale,'негідницю', 'негідника')] на ім'я [advisor.GetName], оскільки [Select_CString(advisor.IsFemale,'вона хотіла', 'він хотів')] зрадити нас і перейти на бік #ONCLICK:COUNTRY,[[advisor_liaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[[advisor_liaisons_target_country.Custom('CL_tt')],X [[advisor_liaisons_target_country.Custom('CL_GEN')|L]#!#!. Посол запевняє, що наші таємниці в безпеці і що [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] [Select_CString(advisor.IsFemale,'діяла', 'діяв')] без відома чи схвалення #L [[advisor_liaisons_target_country.GetAdjective|l]их#! влади."
+ },
+ "court_flavor_events.13.title": {
+  "en": "Caught in the Act",
+  "uk": "[Select_CString(advisor.IsFemale,'Спіймана', 'Спійманий')] на гарячому"
+ },
+ "court_flavor_events.15.a": {
+  "en": "We cannot abandon them.",
+  "uk": "Ми не можемо [Select_CString(advisor.IsFemale,'її', 'його')] покинути!"
+ },
+ "court_flavor_events.15.b": {
+  "en": "We will not interfere.",
+  "uk": "Ми не будемо втручатися."
+ },
+ "court_flavor_events.15.desc": {
+  "en": "It has come to our attention that [advisor.GetName], one of our countrymen who had been employed in the [from.GetAdjective] court, is being held in custody for allegedly planning to leak state secrets to us. Although these allegations appear to be true, an [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] has taken up their case and is petitioning the [ROOT.GetCountry.GetGovernment.GetRulerTitle]: 'Why should a loyal subject be prisoner in foreign halls?' [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] asks. 'We must protest this action vigorously and demand their restitution to us.'",
+  "uk": "Нам стало відомо, що [advisor.GetName] — [Select_CString(advisor.IsFemale,'наша співвітчизниця, що була', 'наш співвітчизник, що був')] на службі при #L [from.GetAdjective|l]ому#! дворі, — нині перебуває під вартою за шпигунство на користь нашої держави. Схоже, ці звинувачення цілком обґрунтовані, але [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] вирішує заступитися за колегу і вважає, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] не може допускати подібного ставлення: «З якого дива [Select_CString(advisor.IsFemale,'наша підданка', 'наш підданий')] мучиться в чужих застінках? Ми маємо висловити протест і вимагати [Select_CString(advisor.IsFemale,'її', 'його')] негайної видачі»."
+ },
+ "court_flavor_events.15.title": {
+  "en": "Imprisoned Countryman in [from.GetLongNameWithNoTooltip]",
+  "uk": "[from.GetLongNameWithNoTooltip] — підданий у полоні цієї держави"
+ },
+ "court_flavor_events.16.a": {
+  "en": "Fine. So be it.",
+  "uk": "Гаразд, ми [Select_CString(advisor.IsFemale,'її', 'його')] відпустимо."
+ },
+ "court_flavor_events.16.b": {
+  "en": "We shall not act in defiance of justice.",
+  "uk": "Ми не дозволимо [Select_CString(advisor.IsFemale,'їй', 'йому')] уникнути правосуддя."
+ },
+ "court_flavor_events.16.desc": {
+  "en": "The [advisor_liaisons_target_country.GetAdjective] [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] has sent us an angry missive demanding an explanation for having arrested the traitor: 'We have heard that you are holding one of our countrymen prisoner for allegedly betraying your interests at our behest. We can assure you that this is not the case. We demand that you release [advisor.GetHerHim] immediately!'",
+  "uk": "[advisor_liaisons_target_country.GetLongName], а точніше [advisor_liaisons_target_country.GetGovernment.GetRulerTitle|l] цієї держави, звертається до вас у гнівному листі, вимагаючи пояснити арешт зрадника: «До нас дійшли відомості, що ви тримаєте [Select_CString(advisor.IsFemale,'одну', 'одного')] з наших підданих у полоні за те, що [Select_CString(advisor.IsFemale,'вона', 'він')] нібито [Select_CString(advisor.IsFemale,'зрадила', 'зрадив')] вас на наше прохання. Можемо вас запевнити: це неправда. Ми вимагаємо, щоб ви негайно [Select_CString(advisor.IsFemale,'її', 'його')] звільнили!»"
+ },
+ "court_flavor_events.16.title": {
+  "en": "[advisor_liaisons_target_country.GetAdjectiveWithNoTooltip] Demands",
+  "uk": "#L [advisor_liaisons_target_country.GetAdjectiveWithNoTooltip|l]і#! вимоги"
+ },
+ "court_flavor_events.17.a": {
+  "en": "It was only just.",
+  "uk": "Це правильне рішення."
+ },
+ "court_flavor_events.17.desc": {
+  "en": "The [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] has responded to our demands: 'As a show of goodwill, in spite of considerable incriminating evidence against their person, we have released [advisor.GetName]. We hope that you will look favorably on us for this act.'",
+  "uk": "[from.GetLongName], а точніше [from.GetGovernment.GetRulerTitle|l] цієї держави, відповідає на наші вимоги: «Як жест доброї волі ми звільнили [Select_CString(advisor.IsFemale,'вашу підданку', 'вашого підданого')], попри вагомі докази [Select_CString(advisor.IsFemale,'її', 'його')] провини. [advisor.GetName] може повернутися на батьківщину. Ми сподіваємося, що ви високо оціните цей вчинок»."
+ },
+ "court_flavor_events.17.title": {
+  "en": "The [from.GetAdjective] Response",
+  "uk": "#L [from.GetAdjective]а#! відповідь"
+ },
+ "court_flavor_events.18.a": {
+  "en": "You will regret this.",
+  "uk": "Ви про це пошкодуєте."
+ },
+ "court_flavor_events.18.desc": {
+  "en": "The [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] has responded to our demands: 'We do not release those guilty of treason. [advisor.GetName] shall remain in custody.'",
+  "uk": "[from.GetLongName], а точніше [from.GetGovernment.GetRulerTitle|l] цієї держави відповідає на наші вимоги: «Ми не відпускаємо тих, хто винен у зраді. [advisor.GetName] залишиться під вартою»."
+ },
+ "court_flavor_events.18.title": {
+  "en": "The [from.GetAdjective] Response",
+  "uk": "#L [from.GetAdjective]а#! відповідь"
+ },
+ "court_flavor_events.2.a": {
+  "en": "Better relations could indeed be of benefit to us.",
+  "uk": "Добрі відносини підуть нам на користь."
+ },
+ "court_flavor_events.2.b": {
+  "en": "Better relations are not in our interest.",
+  "uk": "Нам ні до чого розвивати з ними відносини."
+ },
+ "court_flavor_events.2.c": {
+  "en": "Friendship? Get out of my sight!",
+  "uk": "Цьому не бувати. Геть з очей моїх!"
+ },
+ "court_flavor_events.2.desc": {
+  "en": "[advisor.GetName], a skilled [advisor.GetCulture.GetName] [from.GetGovernment.GetCabinetMemberTitle] who is employed in the [from.GetAdjective] [from.GetGovernment.GetCourtTitle], has approached [advisor.GetHerHis] old associates in our country, with a plan to push for better relations between the [from.GetLongNameWithNoTooltip] and [ROOT.GetCountry.GetLongName]. A [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] has approached [ROOT.GetCountry.GetGovernment.GetRuler.GetName] with the [from.GetAdjectiveWithNoTooltip] message, which speaks of their desire for friendship between our peoples.",
+  "uk": "[Select_CString(advisor.IsFemale,'Талановита', 'Талановитий')] [from.GetGovernment.GetCabinetMemberTitle|l] [advisor.GetName], що [Select_CString(advisor.IsFemale,'працює', 'працює')] при #L [from.GetAdjective|l]ому#! дворі, [Select_CString(advisor.IsFemale,'звернулася', 'звернувся')] до своїх колишніх колег у нашій країні, запевняючи, що знає, як [from.GetLongNameWithNoTooltip] та [ROOT.GetCountry.GetLongName] можуть налагодити свої дипломатичні відносини. Врешті-решт [ROOT.GetCountry.GetGovernment.GetRuler.GetName] отримує [from.GetAdjectiveWithNoTooltip]е послання, де йдеться про бажання зміцнити дружбу між нашими народами."
+ },
+ "court_flavor_events.2.title": {
+  "en": "Rapprochement with [from.GetLongNameWithNoTooltip]?",
+  "uk": "[from.GetLongNameWithNoTooltip] прагне до зближення"
+ },
+ "court_flavor_events.20.a": {
+  "en": "Turn a blind eye.",
+  "uk": "На це можна заплющити очі."
+ },
+ "court_flavor_events.20.b": {
+  "en": "Arrest [advisor.GetHerHim]!",
+  "uk": "Арештувати [Select_CString(advisor.IsFemale,'її', 'його')]!"
+ },
+ "court_flavor_events.20.desc": {
+  "en": "[advisor.GetName]'s spending habits have raised some eyebrows. [advisor.GetSheHe|U] has been spending large amounts of money - far larger than one in [advisor.GetHerHis] position should have access to - distributing gifts to the local [advisor.GetEstateType.GetName] in [advisor.GetHerHis] home region and improving the local infrastructure. An investigation has revealed the facts: Rather than serving the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to the best of [advisor.GetHerHis] abilities, [advisor.GetNameWithNoTooltip] has been funneling state funds to [corrupt_advisor_location.GetName] in order to boost [advisor.GetHerHis] popularity there. While this has been a boon to the local economy, such practices could prove damaging to the state as a whole if tolerated.",
+  "uk": "[advisor.GetName] витрачає величезні суми, чим викликає у декого подив. У службовця на [Select_CString(advisor.IsFemale,'її', 'його')] посаді просто не може бути таких коштів. Більшу частину грошей [advisor.GetNameWithNoTooltip] витрачає на розвиток інфраструктури в рідному регіоні, а також на подарунки місцевим жителям. Під час розслідування з'ясувалося, що [Select_CString(advisor.IsFemale,'цій радниці', 'цьому раднику')] важливіша не [ROOT.GetCountry.GetLongName], а надсилання державних коштів до [corrupt_advisor_location.Custom('LR_ACC')|l] [corrupt_advisor_location.GetName] для підвищення своєї популярності. Безсумнівно, це пішло на благо місцевій економіці, однак якщо й надалі допускати подібні витівки, це може завдати державі та її скарбниці значної шкоди."
+ },
+ "court_flavor_events.20.title": {
+  "en": "Dubious Spending Practices",
+  "uk": "Сумнівні витрати"
+ },
+ "court_flavor_events.21.a": {
+  "en": "$common_string_this_is_not_good$",
+  "uk": ""
+ },
+ "court_flavor_events.21.desc": {
+  "en": "A note from [advisor.GetName], has been found among the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s papers.\\n\\n#F My [ROOT.GetCountry.GetGovernment.GetRulerTitle],\\nI have always served you and [ROOT.GetCountry.GetLongName] to the best of my ability. However, it is with a heavy heart that I must announce my resignation as your [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]. The declaration of war on [religious_enemy_country.GetLongName] has crossed a line - I cannot remain silent in the face of your crimes against my religious brethren any longer.\\n\\nYours sincerely,\\n[advisor.GetNameWithNoTooltip]#!\\n\\n\\nAttempts to locate [advisor.GetHerHim] have so far proven unsuccessful. It appears that [advisor.GetSheHe] has fled the country.",
+  "uk": "Серед багатьох документів ви виявили записку, яку [Select_CString(advisor.IsFemale,'залишила', 'залишив')] [advisor.GetName]:\\n\\n«#F Ваша Високосте,\\nЯ завжди вірно [Select_CString(advisor.IsFemale,'служила', 'служив')] вам як [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l], і [ROOT.GetCountry.GetLongName] — це навіки мій дім. Однак я з прикрістю повідомляю, що [Select_CString(advisor.IsFemale,'змушена', 'змушений')] відмовитися від своєї посади. Оголошення війни #ONCLICK:COUNTRY,[religious_enemy_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[religious_enemy_country.Custom('CL_tt')],X [religious_enemy_country.Custom('CL_DP')|L]#!#! стало для мене останньою краплею. Я не можу мовчки спостерігати, як ви винищуєте моїх братів і сестер по вірі.\\n\\nЗ повагою,\\n[advisor.GetNameWithNoTooltip]»#!\\n\\n\\nСпроби з'ясувати [Select_CString(advisor.IsFemale,'її', 'його')] місцезнаходження поки не увінчалися успіхом. Схоже, [Select_CString(advisor.IsFemale,'вона втекла', 'він втік')] з держави."
+ },
+ "court_flavor_events.21.title": {
+  "en": "A Departure of Conscience",
+  "uk": "Муки сумління"
+ },
+ "court_flavor_events.22.a": {
+  "en": "$common_string_good$",
+  "uk": ""
+ },
+ "court_flavor_events.22.desc": {
+  "en": "While the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] is somewhat perturbed at the idea of a foreigner working for their [ROOT.GetCountry.GetGovernment.GetRulerTitle], our [advisor.GetCulture.GetName] [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle], [advisor.GetName], has been widely praised for bringing fresh ideas and practices to the court. It seems that we can still learn a thing or two from foreign learning!",
+  "uk": "Хоча деякі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] обурені тим, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] пускає до свого двору іноземців, наш #L [advisor.GetCulture.GetName|l]ий#! [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] [advisor.GetName] вже [Select_CString(advisor.IsFemale,'здобула', 'здобув')] повагу за впровадження нових ідей і методів роботи. Схоже, нам ще є чому повчитися у іноземців!"
+ },
+ "court_flavor_events.22.title": {
+  "en": "Foreign Wisdom",
+  "uk": "Закордонна мудрість"
+ },
+ "court_flavor_events.25.a": {
+  "en": "They are right - banish [advisor.GetHerHim]!",
+  "uk": "Вони праві. Вигнати [Select_CString(advisor.IsFemale,'її', 'його')]!"
+ },
+ "court_flavor_events.25.b": {
+  "en": "Keep [advisor.GetHerHim] - [advisor.GetHerHis] information will be useful.",
+  "uk": "Хай залишається. [Select_CString(advisor.IsFemale,'Її', 'Його')] зв'язки нам знадобляться."
+ },
+ "court_flavor_events.25.desc": {
+  "en": "The current war with [advisor_enemy_country.GetLongName] has triggered a round of intrigues in the [ROOT.GetCountry.GetAdjective] court. On the one hand, [advisor.GetName], our [advisor.GetCulture.GetName] [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle], has offered to draw information from [advisor.GetHerHis] network of contacts in [advisor_enemy_country.GetLongNameWithNoTooltip] - a considerable network, [advisor.GetSheHe] claims, including several contacts close to the [advisor_enemy_country.GetGovernment.GetRulerTitle] - to aid the war effort.\\n\\nOn the other hand, [advisor.GetHerHis] political opponents have raised doubts about [advisor.GetHerHis] loyalty. They argue that, in spite of [advisor.GetHerHis] previously exemplary service, we simply cannot trust a [advisor.GetCulture.GetNameWithNoTooltip] to participate in deliberations of national importance at this time. They therefore demand that [advisor.GetSheHe] be banished from the court.",
+  "uk": "[advisor_enemy_country.GetLongName] і поточна війна з цією державою породжують низку скандалів при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. Наш #L [advisor.GetCulture.GetName|l]ий#! [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle|l] [advisor.GetName] [Select_CString(advisor.IsFemale,'запропонувала', 'запропонував')] зв'язатися зі своїми інформаторами, чий дім — [advisor_enemy_country.GetLongNameWithNoTooltip]. [Select_CString(advisor.IsFemale,'Вона', 'Він')] стверджує, що серед них є навіть ті, кому [advisor_enemy_country.GetGovernment.GetRulerTitle|l] повністю довіряє. З їхньою допомогою ми можемо здобути важливі військові відомості.\\n\\nПри цьому [advisor.GetName] [Select_CString(advisor.IsFemale,'встигла', 'встиг')] обзавестися політичними опонентами, які сумніваються у [Select_CString(advisor.IsFemale,'її', 'його')] лояльності. Вони наполягають, що, попри [Select_CString(advisor.IsFemale,'її', 'його')] зразкову службу, [Select_CString(advisor.IsFemale,'іноземці', 'іноземцю')] не можна довіряти такі важливі питання. У зв'язку з цим вони вимагають вигнати [Select_CString(advisor.IsFemale,'її', 'його')] з двору."
+ },
+ "court_flavor_events.25.title": {
+  "en": "Blood is Thicker than Water?",
+  "uk": "Кров не водиця"
+ },
+ "court_flavor_events.26.a": {
+  "en": "$common_string_good$",
+  "uk": ""
+ },
+ "court_flavor_events.26.desc": {
+  "en": "Despite questions surrounding [advisor.GetHerHis] loyalty, [advisor.GetName] appears to have been true to [advisor.GetHerHis] word. The first reports from [advisor.GetHerHis] network of contacts have come in, providing us with considerable information regarding the [advisor_enemy_country.GetAdjective] war plans.",
+  "uk": "Всупереч сумнівам у [Select_CString(advisor.IsFemale,'її', 'його')] лояльності, [advisor.GetName] нас не [Select_CString(advisor.IsFemale,'підвела', 'підвів')]. Ми отримали від [Select_CString(advisor.IsFemale,'її', 'його')] інформаторів перші звіти. [advisor_enemy_country.GetLongName], а саме військові плани цієї держави більше не таємниця для нас."
+ },
+ "court_flavor_events.26.title": {
+  "en": "Reports on the [advisor_enemy_country.GetAdjectiveWithNoTooltip] War Plans",
+  "uk": "#L [advisor_enemy_country.GetAdjectiveWithNoTooltip]і#! військові плани"
+ },
+ "court_flavor_events.27.a": {
+  "en": "His services will be remembered - and rewarded.",
+  "uk": "Його допомога гідна винагороди."
+ },
+ "court_flavor_events.27.desc": {
+  "en": "An individual has come before the [ROOT.GetCountry.GetGovernment.GetRulerTitle], insisting that he must be heard. He claims to have been employed in service to the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] and has learnt details of the [from.GetAdjective] war plans against [ROOT.GetCountry.GetLongName], his homeland. As a self-professed [ROOT.GetCountry.GetAdjectiveWithNoTooltip] patriot, he now offers us his services along this information, which according to him was expertly gleaned from the innermost circles of the [from.GetAdjectiveWithNoTooltip] court and brought to us at considerable risk to his life.",
+  "uk": "До ваших володінь прибув незнайомець, який запевняє, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] неодмінно захоче його вислухати. Він стверджує, що служив при #L [from.GetAdjectiveWithNoTooltip|l]ому#! дворі, завдяки чому зміг роздобути їхні військові плани проти своєї батьківщини — #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Він вважає себе #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]им#! патріотом, тому готовий поділитися з нами цими цінними відомостями, які нібито вивідав безпосередньо у членів #L [from.GetAdjectiveWithNoTooltip|l]ого#! двору, ризикуючи життям."
+ },
+ "court_flavor_events.27.title": {
+  "en": "[from.GetAdjectiveWithNoTooltip] Defector!",
+  "uk": "#L [from.GetAdjectiveWithNoTooltip]ий#! перебіжчик!"
+ },
+ "court_flavor_events.28.a": {
+  "en": "$common_string_this_is_not_good$",
+  "uk": ""
+ },
+ "court_flavor_events.28.desc": {
+  "en": "[advisor.GetName] has betrayed us! Despite the watchful eyes of [advisor.GetHerHis] enemies, [advisor.GetSheHe] was able to slip across the border with copies of important documents pertaining to our war plans!",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'зрадила', 'зрадив')] нас! [Select_CString(advisor.IsFemale,'Їй', 'Йому')] вдалося уникнути підозр і перебратися через кордон з копіями важливих документів, де описані наші військові плани!"
+ },
+ "court_flavor_events.28.title": {
+  "en": "Betrayal",
+  "uk": "Зрада"
+ },
+ "court_flavor_events.3.a": {
+  "en": "$common_string_good$",
+  "uk": ""
+ },
+ "court_flavor_events.3.desc": {
+  "en": "[advisor.GetName]'s contacts in [advisor_liaisons_target_country.GetLongName] have presented our case to [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] and have received a favorable response. The [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] says [advisor_liaisons_target_country.GetGovernment.GetRuler.GetSheHe] looks forward to a new era of friendship between our countries.",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'виклала', 'виклав')] нашу позицію своїм #L [advisor_liaisons_target_country.GetAdjective|l]им#! колегам. [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] дає свою згоду і висловлює надію на те, що дружба між нашими державами буде якомога довшою і міцнішою."
+ },
+ "court_flavor_events.3.title": {
+  "en": "Rapprochement Successful",
+  "uk": "Зближення вдалося"
+ },
+ "court_flavor_events.30.a": {
+  "en": "[advisor.GetSheHe|U] is right - a change in policy is called for.",
+  "uk": "[Select_CString(advisor.IsFemale,'Вона', 'Він')] [Select_CString(advisor.IsFemale,'права', 'правий')]: нам час змінити своє ставлення до них."
+ },
+ "court_flavor_events.30.b": {
+  "en": "Worse relations would not be in our interest.",
+  "uk": "Немає сенсу псувати з ними відносини."
+ },
+ "court_flavor_events.30.desc": {
+  "en": "[advisor.GetName] has earned many friends in the [ROOT.GetCountry.GetAdjective] court thanks to [advisor.GetHerHis] dedicated service as the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]. However, it seems that the reverse is equally the case among [advisor.GetHerHis] countrymen in the service of the [advisor_antiliaisons_target_country.GetAdjective] [advisor_antiliaisons_target_country.GetGovernment.GetGovernmentType.GetName]: Envious of [advisor.GetHerHis] position, they reproach [advisor.GetHerHim] for taking up employment among [advisor.GetHerHis] people's enemies and have begun spreading rumors casting doubt on [advisor.GetHerHis] trustworthiness\\nWorried about [advisor.GetHerHis] standing in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] court, [advisor.GetNameWithNoTooltip] has become a strident opponent of the [advisor_antiliaisons_target_country.GetAdjectiveWithNoTooltip] [advisor_antiliaisons_target_country.GetGovernment.GetRulerTitle]. [advisor.GetSheHe|U] made common cause with several like-minded individuals to call for a harsher stance against [advisor_antiliaisons_target_country.GetLongNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle], [advisor.GetName] завдяки своїй вірній службі [Select_CString(advisor.IsFemale,'завела', 'завів')] безліч друзів при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. Однак [advisor_antiliaisons_target_country.GetLongName], точніше [Select_CString(advisor.IsFemale,'її', 'його')] співвітчизники з цієї держави, навпаки, докоряють [Select_CString(advisor.IsFemale,'їй', 'йому')] за роботу на ворога. Ведені заздрістю до [Select_CString(advisor.IsFemale,'її', 'його')] високої посади, вони навмисне почали поширювати чутки про [Select_CString(advisor.IsFemale,'її', 'його')] нелояльність.\\nПереживаючи за свою репутацію при дворі, [advisor.GetNameWithNoTooltip] [Select_CString(advisor.IsFemale,'стала', 'став')] відкрито заявляти, що [advisor_antiliaisons_target_country.GetLongName] і сам [advisor_antiliaisons_target_country.GetGovernment.GetRulerTitle|l] цієї держави — [Select_CString(advisor.IsFemale,'її', 'його')] непримиренний ворог. [Select_CString(advisor.IsFemale,'Вона', 'Він')] навіть [Select_CString(advisor.IsFemale,'знайшла', 'знайшов')] кількох однодумців, щоб разом просувати в уряді жорсткішу позицію щодо цієї держави."
+ },
+ "court_flavor_events.30.title": {
+  "en": "A Change in Policy?",
+  "uk": "Зміна політики"
+ },
+ "court_flavor_events.31.a": {
+  "en": "Why the little...!",
+  "uk": "Ось [Select_CString(advisor.IsFemale,'негідниця', 'негідник')]!"
+ },
+ "court_flavor_events.31.desc": {
+  "en": "Our eyes and ears in [from.GetLongName] report that the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] has recently taken a harsher stand towards [ROOT.GetCountry.GetLongName]. It appears that this change in policy was brought about largely by [advisor.GetName], a [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetCabinetMemberTitle] who, worried about [advisor.GetHerHis] standing in the [from.GetAdjectiveWithNoTooltip] court, has been making a variety of accusations against us and agitating for a strong response to our supposed aggressions.",
+  "uk": "Наші шпигуни при [from.GetAdjectiveWithNoTooltip|l]ому дворі доповідають, що останнім часом [from.GetGovernment.GetRulerTitle|l] вельми негативно ставиться до держави [ROOT.GetCountry.GetLongName]. Найімовірніше, так сталося тому, що [from.GetGovernment.GetCabinetMemberTitle|l] #ONCLICK:COUNTRY,[from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from.Custom('CL_tt')],X [from.Custom('CL_GEN')|L]#!#! [advisor.GetName] висуває на нашу адресу різні звинувачення і закликає до жорстких заходів проти нашої держави у надії зміцнити свою репутацію при [from.GetAdjectiveWithNoTooltip|l]ому дворі."
+ },
+ "court_flavor_events.31.title": {
+  "en": "Meddlesome Advisor",
+  "uk": "Шкідливий радник"
+ },
+ "court_flavor_events.32.a": {
+  "en": "Maybe [advisor.GetSheHe] is right after all.",
+  "uk": "Можливо, [Select_CString(advisor.IsFemale,'вона', 'він')] все ж таки [Select_CString(advisor.IsFemale,'права', 'правий')]."
+ },
+ "court_flavor_events.32.b": {
+  "en": "No means no.",
+  "uk": "Це виключено!"
+ },
+ "court_flavor_events.32.desc": {
+  "en": "In spite of our lack of support for [advisor.GetHerHis] project to sow discord between us and [advisor_antiliaisons_target_country.GetLongName], [advisor.GetName] has not desisted in [advisor.GetHerHis] efforts. It seems that [advisor.GetSheHe] has attracted a large following of influential individuals that support [advisor.GetHerHis] position and are urgently calling for a change in policy. They are spreading their message, which appears to resonate strongly among the common folk, by every means in their power. Going against their will could prove risky.",
+  "uk": "Хоч ми й не підтримали [Select_CString(advisor.IsFemale,'її', 'його')] ідею, [advisor.GetName] не полишає спроб зіпсувати відносини між нами та #ONCLICK:COUNTRY,[advisor_antiliaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[advisor_antiliaisons_target_country.Custom('CL_tt')],X [advisor_antiliaisons_target_country.Custom('CL_INST')|L]#!#!. Схоже, [Select_CString(advisor.IsFemale,'їй', 'йому')] вдалося залучити на свій бік багато впливових людей, і тепер вони всі наполягають на зміні нашої зовнішньої політики. Вони заявляють про свою позицію всіма можливими способами, і простий люд охоче з ними погоджується. Якщо ми не поступимося, це може погано закінчитися."
+ },
+ "court_flavor_events.32.title": {
+  "en": "Meddlesome Advisor",
+  "uk": "Шкідливий радник"
+ },
+ "court_flavor_events.35.a": {
+  "en": "His services will be useful.",
+  "uk": "[Select_CString(advisor.IsFemale,'Її', 'Його')] навички нам знадобляться."
+ },
+ "court_flavor_events.35.b": {
+  "en": "We have no room for him.",
+  "uk": "При дворі вже немає вільних місць."
+ },
+ "court_flavor_events.35.desc": {
+  "en": "[advisor.GetName], a political exile from [exile_country.GetLongName], has appeared at our court. He is offering his services to the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetNameWithNoTooltip] in return for protection from the [exile_country.GetAdjectiveWithNoTooltip] [exile_country.GetGovernment.GetRulerTitle]. Should we take him in?",
+  "uk": "З #ONCLICK:COUNTRY,[exile_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[exile_country.Custom('CL_tt')],X [exile_country.Custom('CL_GEN')|L]#!#! [Select_CString(advisor.IsFemale,'було вигнано', 'було вигнано')] [advisor.GetName], після чого [Select_CString(advisor.IsFemale,'вона прибула', 'він прибув')] до нас. [Select_CString(advisor.IsFemale,'Вона', 'Він')] бажає вступити на службу при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі в обмін на захист, оскільки побоюється, що [exile_country.GetGovernment.GetRulerTitle|l] шукатиме помсти. Чи варто нам [Select_CString(advisor.IsFemale,'її', 'його')] прийняти?"
+ },
+ "court_flavor_events.35.title": {
+  "en": "[exile_country.GetAdjectiveWithNoTooltip] Exile",
+  "uk": "#L [exile_country.GetAdjectiveWithNoTooltip]ий#! вигнанець"
+ },
+ "court_flavor_events.36.a": {
+  "en": "We will take them in.",
+  "uk": "Гаразд, хай приїжджають."
+ },
+ "court_flavor_events.36.b": {
+  "en": "We have no room for more exiles.",
+  "uk": "При дворі вже немає вільних місць."
+ },
+ "court_flavor_events.36.desc": {
+  "en": "[advisor.GetName] is thankful for being granted asylum in the [ROOT.GetCountry.GetAdjective] court. However, [advisor.GetSheHe] has recently drawn attention to the fact that there are many other [exile_country.GetAdjective] notables in [advisor.GetHerHis] position - men of great wisdom and influence, [advisor.GetSheHe] insists. It could be useful to allow them to join our court, should we wish to step up our opposition to [exile_country.GetAdjectiveWithNoTooltip] ambitions.",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'вдячна', 'вдячний')] за те, що ми надали [Select_CString(advisor.IsFemale,'їй', 'йому')] притулок при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. Однак нещодавно [Select_CString(advisor.IsFemale,'вона підняла', 'він підняв')] питання про те, що є ще інші талановиті та впливові #L [exile_country.GetAdjective|l]і#! діячі, яким потрібна підтримка. Якщо ми допустимо їх до свого двору, то станемо сильнішими в протистоянні, а [exile_country.GetLongName] — навпаки."
+ },
+ "court_flavor_events.36.title": {
+  "en": "[exile_country.GetAdjectiveWithNoTooltip] Exiles",
+  "uk": "[exile_country.GetAdjectiveWithNoTooltip]і вигнанці"
+ },
+ "court_flavor_events.37.a": {
+  "en": "How dare they!",
+  "uk": "Та як вони посміли?"
+ },
+ "court_flavor_events.37.desc": {
+  "en": "Our eyes and ears in [from.GetLongName] report that they have taken in many of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s political enemies who had previously been exiled from the [ROOT.GetCountry.GetAdjective] court or chose to seek opportunities elsewhere. They are now pushing for strong action against the current [ROOT.GetCountry.GetAdjectiveWithNoTooltip] \"regime\" and are providing active assistance to the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] towards the achievement of that aim.",
+  "uk": "Наші шпигуни з #ONCLICK:COUNTRY,[from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from.Custom('CL_tt')],X [from.Custom('CL_GEN')|L]#!#! доповідають, що до цієї держави прибуло безліч вигнанців з #L [ROOT.GetCountry.GetAdjective|l]ого#! двору, яких [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] нашої держави вважає своїми опонентами. Тепер вони виступають за жорсткі заходи стосовно нашого «режиму» і надають всебічну підтримку #L [from.GetAdjectiveWithNoTooltip|l]ому#! урядові, щоб досягти своїх підступних цілей."
+ },
+ "court_flavor_events.37.title": {
+  "en": "Exiles in [from.GetLongNameWithNoTooltip]",
+  "uk": "[from.GetLongNameWithNoTooltip] — вигнанці в цій державі"
+ },
+ "court_flavor_events.39.a": {
+  "en": "Intolerable! We must lodge a protest.",
+  "uk": "Це немислимо! Ми маємо висловити свій протест."
+ },
+ "court_flavor_events.39.b": {
+  "en": "We shall turn a blind eye.",
+  "uk": "Це нас не стосується."
+ },
+ "court_flavor_events.39.desc": {
+  "en": "It has come to our attention that the [heathen_advisor_country.GetAdjective] [heathen_advisor_country.GetGovernment.GetRulerTitle] is harboring a heretic in [heathen_advisor_country.GetGovernment.GetRuler.GetHerHis] court. [heathen_advisor_country.GetGovernment.GetRuler.GetHerHis|U] [heathen_advisor_country.GetGovernment.GetCabinetMemberTitle], [advisor.GetName], has turned from the teachings of the Pope and is openly professing adherence to the [advisor.GetReligion.GetName] faith - in the process spreading vicious lies against His Holiness.",
+  "uk": "[heathen_advisor_country.GetLongName] — ми дізналися, що [heathen_advisor_country.GetGovernment.GetRulerTitle|l] цієї держави приховує при своєму дворі єретика: [heathen_advisor_country.GetGovernment.GetCabinetMemberTitle|l] на ім'я [advisor.GetName] [Select_CString(advisor.IsFemale,'відвернулася', 'відвернувся')] від вчення папи і відкрито заявляє про свою прихильність до #L [advisor.GetReligion.GetAdjective|l]ої#! віри, попутно поширюючи про Його Святість неправдиві чутки."
+ },
+ "court_flavor_events.39.title": {
+  "en": "Heresy in [heathen_advisor_country.GetLongNameWithNoTooltip]",
+  "uk": "[heathen_advisor_country.GetLongNameWithNoTooltip] — єресь у цій державі"
+ },
+ "court_flavor_events.4.a": {
+  "en": "$common_string_this_is_not_good$",
+  "uk": ""
+ },
+ "court_flavor_events.4.desc": {
+  "en": "[advisor.GetName]'s contacts do not seem to have been able to gain much traction in the [advisor_liaisons_target_country.GetAdjectiveWithNoTooltip] court. [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] informed them that [advisor_liaisons_target_country.GetLongName] is not interested in better relations with [ROOT.GetCountry.GetLongName].",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'виклала', 'виклав')] нашу позицію своїм #L [advisor_liaisons_target_country.GetAdjective|l]им#! колегам, але це не принесло результату. [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] заявляє, що #ONCLICK:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[advisor_liaisons_target_country.Custom('CL_tt')],X [advisor_liaisons_target_country.Custom('CL_GEN')|L]#!#! не бажає мати такого партнера, як [ROOT.GetCountry.GetLongName]."
+ },
+ "court_flavor_events.4.title": {
+  "en": "Rapprochement Unsuccessful",
+  "uk": "Зближення не вдалося"
+ },
+ "court_flavor_events.40.a": {
+  "en": "Hand [advisor.GetHerHim] over.",
+  "uk": "Видамо єретика."
+ },
+ "court_flavor_events.40.b": {
+  "en": "We will not bow to Papal pressure.",
+  "uk": "Ми не станемо підкорятися папським вимогам."
+ },
+ "court_flavor_events.40.desc": {
+  "en": "A [GetCountry('PAP').GetAdjective] delegation has arrived. With a grave expression on their faces, they inform us that it has come to the attention of [target_pope.GetHisHerFormal] [target_pope.GetName] that we are harboring a heretic in our [ROOT.GetCountry.GetGovernment.GetFlavorRank]. They demand that we hand [advisor.GetHerHim] over to the inquisition. Failing this, [target_pope.GetShortNameWithNoTooltip] shall consider us to have abandoned the True Way and will be forced to take all necessary measures against us.",
+  "uk": "Делегація з #L [GetCountry('PAP').GetAdjective|l]ої#! держави, що прибула до нас, передає слова свого керівництва, зберігаючи при цьому вкрай серйозний вигляд: «[Select_CString(target_pope.IsFemale,'Її','Його')] Святість [target_pope.GetName] знає, що ви приховуєте у себе у [ROOT.GetCountry.GetGovernment.Custom('rank_ru_PREP')|l] єретика». Посланці вимагають, щоб ми негайно передали [Select_CString(advisor.IsFemale,'її','його')] інквізиції, інакше [target_pope.GetShortNameWithNoTooltip] вважатиме нас відступниками від істинного шляху і буде [Select_CString(target_pope.IsFemale,'змушена','змушений')] вжити проти нас усіх необхідних заходів."
+ },
+ "court_flavor_events.40.title": {
+  "en": "The Papal Demands",
+  "uk": "Вимоги папи"
+ },
+ "court_flavor_events.41.a": {
+  "en": "$common_string_good$",
+  "uk": ""
+ },
+ "court_flavor_events.41.desc": {
+  "en": "The [heathen_advisor_country.GetAdjective] [heathen_advisor_country.GetGovernment.GetRulerTitle] apologises for having hired the heretic, who shall be brought to us in chains, their lies silenced forever more!",
+  "uk": "[heathen_advisor_country.GetLongName] та [heathen_advisor_country.GetGovernment.GetRulerTitle|l] цієї держави приносять вибачення. Єретика закують у кайдани і доставлять до нас, щоб припинити поширення шкідливих вчень."
+ },
+ "court_flavor_events.41.title": {
+  "en": "[heathen_advisor_country.GetLongNameWithNoTooltip] Complies",
+  "uk": "[heathen_advisor_country.GetLongNameWithNoTooltip] — держава підкорилася"
+ },
+ "court_flavor_events.42.a": {
+  "en": "They have been led astray.",
+  "uk": "Вони зійшли з істинного шляху."
+ },
+ "court_flavor_events.42.desc": {
+  "en": "The [heathen_advisor_country.GetAdjective] [heathen_advisor_country.GetGovernment.GetRulerTitle] expresses anger at our request, which [heathen_advisor_country.GetGovernment.GetRuler.GetSheHe] has the temerity to claim oversteps our authority - as if the Pope weren't the arbiter of all things spiritual in the Christian world. Evil truly has taken hold in [heathen_advisor_country.GetLongName].",
+  "uk": "[heathen_advisor_country.GetLongName] та [heathen_advisor_country.GetGovernment.GetRulerTitle|l] цієї держави обурюються і заявляють, що ми не маємо повноважень чогось вимагати. Схоже, #L [heathen_advisor_country.GetAdjective|l]а#! влада заперечує авторитет папи в питаннях християнської віри. Воістину, ними оволоділо зло…"
+ },
+ "court_flavor_events.42.title": {
+  "en": "[heathen_advisor_country.GetLongNameWithNoTooltip] Defies our Authority",
+  "uk": "[heathen_advisor_country.GetLongNameWithNoTooltip] — держава чинить опір"
+ },
+ "court_flavor_events.5.a": {
+  "en": "So be it.",
+  "uk": "Що ж, хай так."
+ },
+ "court_flavor_events.5.desc": {
+  "en": "[advisor.GetName]'s contacts were unable to gain traction in the [advisor_liaisons_target_country.GetAdjective] court. Indeed, the response they received was openly hostile. Not only were they unambiguously told that [advisor_liaisons_target_country.GetLongName] is not interested in better relations with [advisor_liaisons_target_country.GetLongName], but [advisor.GetName] has been given to understand that [advisor.GetSheHe] is henceforth not welcome in [advisor_liaisons_target_country.GetLongName]. Amid the anti-[ROOT.GetCountry.GetAdjective] sentiment, [advisor_liaisons_target_country.GetGovernment.GetRulerTitle] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] even went so far as to banish several of our advisor's associates from [advisor_liaisons_target_country.GetGovernment.GetRuler.GetHerHis] court.",
+  "uk": "[advisor.GetName] [Select_CString(advisor.IsFemale,'виклала', 'виклав')] нашу позицію своїм #L [advisor_liaisons_target_country.GetAdjective|l]им#! колегам, на що [Select_CString(advisor.IsFemale,'отримала', 'отримав')] вельми ворожу відповідь. [advisor_liaisons_target_country.GetLongName] та [ROOT.GetCountry.GetLongName] не будуть партнерами, а [Select_CString(advisor.IsFemale,'самій радниці', 'самому раднику')] більше не раді. На тлі #L анти[ROOT.GetCountry.GetAdjective|l]их#! настроїв [advisor_liaisons_target_country.GetGovernment.GetRulerTitle|l] [advisor_liaisons_target_country.GetGovernment.GetRuler.GetName] навіть виганяє кількох колег [Select_CString(advisor.IsFemale,'нашої радниці', 'нашого радника')] зі свого двору."
+ },
+ "court_flavor_events.5.title": {
+  "en": "Rapprochement Forcefully Rebuffed",
+  "uk": "Рішуча відмова від зближення"
+ },
+ "opinion_bowed_to_papal_demand_advisor": {
+  "en": "Bowed to Papal Demands",
+  "uk": "Виконали вимоги папи"
+ },
+ "opinion_court_events_accept": {
+  "en": "Rapprochement",
+  "uk": "Зближення"
+ },
+ "opinion_court_events_annoyed": {
+  "en": "Took in Traitor",
+  "uk": "Прийняли перебіжчика"
+ },
+ "opinion_court_events_grateful": {
+  "en": "Turned Away Traitor",
+  "uk": "Вислали перебіжчика"
+ },
+ "opinion_court_events_held_compatriot": {
+  "en": "Held Compatriot Prisoner",
+  "uk": "Полонили підданого"
+ },
+ "opinion_court_events_interfered": {
+  "en": "Interfered in Our Affairs",
+  "uk": "Втрутилися в наші справи"
+ },
+ "opinion_court_events_rebuke": {
+  "en": "Rapprochement Rebuffed",
+  "uk": "Відмова від зближення"
+ },
+ "opinion_court_events_rebuke_1": {
+  "en": "Rapprochement Rebuffed",
+  "uk": "Відмова від зближення"
+ },
+ "opinion_court_events_released_compatriot": {
+  "en": "Released Compatriot",
+  "uk": "Звільнили підданого"
+ },
+ "opinion_hosting_exiles": {
+  "en": "Hosting Exiles",
+  "uk": "Приховали вигнанців"
+ },
+ "opinion_interfering_pope": {
+  "en": "Interfering Pope",
+  "uk": "Втручання папи"
+ },
+ "opinion_rejected_papal_demand_advisor": {
+  "en": "Hosting a Heretic",
+  "uk": "Приховали єретика"
+ },
+ "opinion_took_in_exiles": {
+  "en": "Took in Exiles",
+  "uk": "Прийняли вигнанців"
+ },
+ "opinion_turned_away_exiles": {
+  "en": "Turned away Exiles",
+  "uk": "Вислали вигнанців"
+ }
+}

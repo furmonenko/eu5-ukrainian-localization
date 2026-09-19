@@ -1,0 +1,318 @@
+{
+ "flavor_tim_governor.1.a": {
+  "en": "Our time as governors is up.",
+  "uk": "Час розлучатися з владою."
+ },
+ "flavor_tim_governor.1.b": {
+  "en": "Perhaps we can negotiate an extension?",
+  "uk": "Може, домовимося про продовження?"
+ },
+ "flavor_tim_governor.1.desc": {
+  "en": "With the passing of our ruler, [target_area.GetName] is now under de-jure management of [target_country.GetName]. As such, [target_character2.GetName] has demanded from the current ruler to return them back to [target_country.GetAdjectiveWithNoTooltip] hands.",
+  "uk": "Зі смертю [Select_CString(target_character.IsFemale, 'нашої правительки', 'нашого правителя' )], [target_area.GetName] відтепер перебуває під де-юре управлінням #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Відповідно до цього, [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'зажадала', 'зажадав' )] від нашого поточного правителя повернути їх назад до [target_country.GetAdjectiveWithNoTooltip]их рук."
+ },
+ "flavor_tim_governor.1.title": {
+  "en": "Death of Our Ruler",
+  "uk": "Смерть нашого правителя"
+ },
+ "flavor_tim_governor.10.a": {
+  "en": "If they banish us, then we shall take all the exiles in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Ми візьмемо всіх вигнанців під своє крило їм на зло."
+ },
+ "flavor_tim_governor.10.a.entry": {
+  "en": "If they banish us, then we shall take all the exiles in our court.",
+  "uk": ""
+ },
+ "flavor_tim_governor.10.b": {
+  "en": "Execute [target_character2.GetNameWithNoTooltip] to gain some favors.",
+  "uk": "Стратимо [Select_CString(target_character2.IsFemale,'її','його')] — у майбутньому нам це зарахується."
+ },
+ "flavor_tim_governor.10.b.entry": {
+  "en": "Execute him to gain some favors.",
+  "uk": ""
+ },
+ "flavor_tim_governor.10.desc": {
+  "en": "Due to recent exiles within the capital of [target_country.GetName], [target_country.GetCapital.GetName], there has been an influx of them within our [ROOT.GetCountry.GetGovernment.GetCourtTitle], one being [target_character2.GetName]. [target_character.GetName] wishes to employ [target_character2.GetHerHim], although it is sure to anger [target_country.GetNameWithNoTooltip].",
+  "uk": "Унаслідок нещодавньої чистки в столиці #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, місті [target_country.GetCapital.GetName], до нашого двору почали масово прибувати вигнанці, одним із яких [Select_CString(target_character2.IsFemale,'стала','став')] [target_character2.GetName]. [target_character.GetName] планує взяти [Select_CString(target_character2.IsFemale,'її','його')] до нас на службу, однак таке рішення може розлютити [target_country.GetAdjectiveWithNoTooltip|l]их правителів."
+ },
+ "flavor_tim_governor.10.title": {
+  "en": "Exile in the [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "[Select_CString(target_character2.IsFemale,'Вигнанка','Вигнанець')] при дворі"
+ },
+ "flavor_tim_governor.11.a": {
+  "en": "Let us spend more for prosperity.",
+  "uk": "Процвітання заслуговує більших витрат."
+ },
+ "flavor_tim_governor.11.b": {
+  "en": "Instead of spending gold, let us enjoy the current state of things.",
+  "uk": "Замість того щоб витрачати золото, будемо радіти тому, що є."
+ },
+ "flavor_tim_governor.11.desc": {
+  "en": "With [target_character.GetName] and [target_character.GetHerHis] effective policies imposed within [target_area.GetName], the province is now experiencing prosperity. The streets of [ROOT.GetCountry.GetCapital.GetName] are now filled with hard-working [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and content [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. We could spend more on this, or we could reap the current benefits.",
+  "uk": "[target_character.GetName] успішно справляється зі своїми обов'язками, і завдяки [Select_CString(target_character.IsFemale,'її','його')] грамотному керівництву [target_area.GetName] процвітає. На вулицях міста [ROOT.GetCountry.GetCapital.GetName] не покладаючи рук працюють [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], а мешканці його околиць [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] як ніколи задоволені своїми умовами життя. Здається, розвиток регіону проходить вельми успішно, однак ми можемо підтримати цю тенденцію й виділити на це додаткові кошти."
+ },
+ "flavor_tim_governor.11.title": {
+  "en": "Effective Governance in [target_area.GetNameWithNoTooltip]",
+  "uk": "Ефективне управління областю [target_area.GetNameWithNoTooltip]"
+ },
+ "flavor_tim_governor.12.a": {
+  "en": "We reap what we sow.",
+  "uk": "Ми пожинаємо посіяне."
+ },
+ "flavor_tim_governor.12.b": {
+  "en": "Let us quickly revert them.",
+  "uk": "Якнайшвидше скасуймо ці політики."
+ },
+ "flavor_tim_governor.12.desc": {
+  "en": "Recent policies introduced by [target_character.GetName] have backfired. Instead of bringing the prosperity [target_character.GetSheHe] hoped for, it led to a decline of productivity for the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. It is not too late though, we could try to revert some of them, even if it causes some instability within [ROOT.GetCountry.GetName].",
+  "uk": "Нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale,'ухвалила','ухвалив')] низку невдалих рішень, через які [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] і [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] стали жити помітно гірше. Ми могли б спробувати виправити ситуацію й скасувати [Select_CString(target_character.IsFemale,'її','його')] останні політики, однак це загрожує порушенням роботи #L [ROOT.GetCountry.GetAdjective|l]ого#! уряду."
+ },
+ "flavor_tim_governor.12.title": {
+  "en": "Governor Policies in [target_area.GetNameWithNoTooltip] Backfire",
+  "uk": "[Select_CString(target_character.IsFemale,'Намісниця','Намісник')] в області [target_area.GetNameWithNoTooltip] припускається помилки"
+ },
+ "flavor_tim_governor.13.a": {
+  "en": "Let it prosper.",
+  "uk": "Нехай процвітає."
+ },
+ "flavor_tim_governor.13.b": {
+  "en": "Let us exploit this prosperity for ourselves.",
+  "uk": "Обернемо це процвітання собі на користь."
+ },
+ "flavor_tim_governor.13.desc": {
+  "en": "The governorship of [target_character.GetName] has brought prosperity to the port of [target_location.GetName]. An influx of traders from all over [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetName] has led to the [target_location.GetRank.GetName] becoming perhaps one of the greatest ports in the entire [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetFlavorRank].",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale,'показала себе вмілою намісницею','показав себе вмілим намісником')], і під [Select_CString(target_character.IsFemale,'її','його')] керівництвом [target_location.GetName] активно розвивається й процвітає. Приплив сюди купців з усіх земель #ONCLICK:COUNTRY,[ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_tt')],X [ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_GEN')|L]#!#! призвів до того, що це місто стало одним із головних портів у [ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('rank_ru_PREP')|l]."
+ },
+ "flavor_tim_governor.13.title": {
+  "en": "Development of the Port in [target_location.GetNameWithNoTooltip]",
+  "uk": "Розвиток порту в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_tim_governor.14.a": {
+  "en": "Let us build this [ShowBuildingTypeNameWithNoTooltip('castle')].",
+  "uk": "Замок тут не буде зайвим."
+ },
+ "flavor_tim_governor.14.b": {
+  "en": "Bolstering the army sounds more favorable.",
+  "uk": "Краще буде посилити армію."
+ },
+ "flavor_tim_governor.14.desc": {
+  "en": "Being trusted the governorship of [ROOT.GetCountry.GetCapital.GetArea.GetName], [target_character.GetName] has been hard at work. Already gathering the funds and the blueprints to create a [ShowBuildingTypeName('castle')] at [target_location.GetName], [target_character.GetSheHe] is now ready to construct it. We could go ahead with this idea, or we could instead focus on bolstering our armies instead of building fortifications in the frontier.",
+  "uk": "На посаді [Select_CString(target_character.IsFemale,'намісниці','намісника')] області [ROOT.GetCountry.GetCapital.GetArea.GetName] [target_character.GetName] не гає часу даремно. Зокрема, зараз [Select_CString(target_character.IsFemale,'вона зайнята','він зайнятий')] збором коштів і підготовкою креслень для будівництва #TOOLTIP:BUILDING_TYPE,castle,X #L замку#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. Ми можемо підтримати його ініціативу, щоб захистити наші кордони, або ж спрямувати зайві кошти на зміцнення наших військ."
+ },
+ "flavor_tim_governor.14.title": {
+  "en": "Fortifying [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetNameWithNoTooltip]: зміцнення оборони"
+ },
+ "flavor_tim_governor.2.a": {
+  "en": "We do not care.",
+  "uk": "Нам байдуже."
+ },
+ "flavor_tim_governor.2.b": {
+  "en": "That is something we can do.",
+  "uk": "Це ми можемо."
+ },
+ "flavor_tim_governor.2.desc": {
+  "en": "With the passing of [target_character3.GetName], the lands of [prev_country.GetName] now belong to us. However, [target_character2.GetName] has requested that [target_character2.GetSheHe] retains these lands.",
+  "uk": "[target_character3.GetName] [Select_CString(target_character3.IsFemale,'померла','помер')], і тепер землі #ONCLICK:COUNTRY,[prev_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[prev_country.Custom('CL_tt')],X [prev_country.Custom('CL_GEN')|L]#!#! належать нам. Однак [target_character2.GetName] [Select_CString(target_character2.IsFemale,'звернулася','звернувся')] до нас із проханням дозволити [Select_CString(target_character2.IsFemale,'їй','йому')] зберегти за собою ці території."
+ },
+ "flavor_tim_governor.2.title": {
+  "en": "Requests of [prev_country.GetNameWithNoTooltip]",
+  "uk": "Прохання [prev_country.Custom('CL_GEN')]"
+ },
+ "flavor_tim_governor.3.a": {
+  "en": "We need more men to fight.",
+  "uk": "У нас надто мало воїнів."
+ },
+ "flavor_tim_governor.3.b": {
+  "en": "Our coffers have been lacking.",
+  "uk": "Наша скарбниця порожня."
+ },
+ "flavor_tim_governor.3.c": {
+  "en": "[target_character3.GetNameWithNoTooltip] would be a good member of our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[target_character3.GetNameWithNoTooltip] точно знадобиться нам при дворі."
+ },
+ "flavor_tim_governor.3.c.entry": {
+  "en": "The character would be a good member of our court.",
+  "uk": ""
+ },
+ "flavor_tim_governor.3.d": {
+  "en": "No need to demand anything.",
+  "uk": "Не треба нічого вимагати."
+ },
+ "flavor_tim_governor.3.desc.a": {
+  "en": "$flavor_tim_governor_3_desc_shared$ We could even ask for [target_character3.GetName] to join our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "$flavor_tim_governor_3_desc_shared$ Крім того, ми можемо попросити, щоб [target_character3.GetName] [Select_CString(target_character3.IsFemale,'приєдналася','приєднався')] до нашого двору."
+ },
+ "flavor_tim_governor.3.desc.b": {
+  "en": "$flavor_tim_governor_3_desc_shared$",
+  "uk": ""
+ },
+ "flavor_tim_governor.3.title": {
+  "en": "Support from [target_country.GetNameWithNoTooltip]",
+  "uk": "Допомога з [target_country.Custom('CL_GEN')]"
+ },
+ "flavor_tim_governor.4.a": {
+  "en": "We shall send them the men.",
+  "uk": "Відправимо людей."
+ },
+ "flavor_tim_governor.4.b": {
+  "en": "They will receive the gold they want.",
+  "uk": "Відправимо золото."
+ },
+ "flavor_tim_governor.4.c": {
+  "en": "[target_character3.GetNameWithNoTooltip] shall join them.",
+  "uk": "Нехай [target_character3.GetNameWithNoTooltip] допоможе їм навести лад."
+ },
+ "flavor_tim_governor.4.c.entry": {
+  "en": "The character shall join them.",
+  "uk": ""
+ },
+ "flavor_tim_governor.4.d": {
+  "en": "They will not get support from us.",
+  "uk": "Жодної підтримки з нашого боку."
+ },
+ "flavor_tim_governor.4.desc": {
+  "en": "[prev_country.GetName] has been suffering as of late. They have asked us for some support. We could give it to them, and in return, we can keep them in place for a while.",
+  "uk": "Правителі #ONCLICK:COUNTRY,[prev_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[prev_country.Custom('CL_tt')],X [prev_country.Custom('CL_GEN')|L]#!#! зіткнулися з нестачею людських і матеріальних ресурсів, тому вони просять нас про допомогу. Якщо ми погодимося й надамо їм підтримку, це дозволить на якийсь час забезпечити їхню вірність нашій державі."
+ },
+ "flavor_tim_governor.4.title": {
+  "en": "Request from [prev_country.GetNameWithNoTooltip]",
+  "uk": "Запит [prev_country.Custom('CL_GEN')]"
+ },
+ "flavor_tim_governor.5.a": {
+  "en": "Let us hire them.",
+  "uk": "Наймемо цю людину."
+ },
+ "flavor_tim_governor.5.b": {
+  "en": "[target_character.GetSheHe|U] will make a fine tutor for us.",
+  "uk": "Ми можемо в [Select_CString(target_character.IsFemale,'неї','нього')] багато чому навчитися."
+ },
+ "flavor_tim_governor.5.c": {
+  "en": "There is still a grudge to settle...",
+  "uk": "Ми ще пам'ятаємо завдану образу…"
+ },
+ "flavor_tim_governor.5.d": {
+  "en": "A fine companion for us.",
+  "uk": "Чудовий соратник."
+ },
+ "flavor_tim_governor.5.desc": {
+  "en": "With our governorship well entrenched, new people have decided to join in our endeavor. One of them is named [target_character.GetName], a [target_character.GetWomanMan] with a variety of skills. [target_character.GetSheHe|U] comes from a [target_religion.GetAdjective] [target_culture.GetName] background, and boasts a variety of skills that we can employ.",
+  "uk": "Ми надійно закріпили свою владу, і тепер до наших земель охоче прибувають обдаровані люди найрізноманітніших професій. Одним із таких гостей [Select_CString(target_character3.IsFemale,'стала талановита й освічена жінка','талановитий і освічений чоловік')] на ім'я [target_character.GetName]. Як [Select_CString(target_character3.IsFemale,'представниця','представник')] #L [target_religion.GetAdjective|l]ої#! віри #L [target_culture.GetAdjective|l]ого#! походження, [Select_CString(target_character3.IsFemale,'вона','він')] володіє цілою низкою цінних навичок, які могли б нам знадобитися."
+ },
+ "flavor_tim_governor.5.e": {
+  "en": "We shall not keep them here.",
+  "uk": "Нехай не затримується тут."
+ },
+ "flavor_tim_governor.5.title": {
+  "en": "New Men Flock in [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "Приплив талановитих людей"
+ },
+ "flavor_tim_governor.6.a": {
+  "en": "Further this development.",
+  "uk": "Підтримати ці починання."
+ },
+ "flavor_tim_governor.6.b": {
+  "en": "Let [target_character.GetHerHim] learn from this success.",
+  "uk": "Цей досвід піде [Select_CString(target_character.IsFemale,'їй','йому')] на користь."
+ },
+ "flavor_tim_governor.6.b.entry": {
+  "en": "Let him learn from this success.",
+  "uk": ""
+ },
+ "flavor_tim_governor.6.desc": {
+  "en": "Ever since being given governorship of [target_area.GetName], [target_character.GetName] has been hard at work to develop it into the jewel of [target_country.GetName]. Using the limited resources at [target_character.GetHerHis] disposal, it has turned out to be a great learning experience. The citizens, who doubted [target_character.GetHerHis] abilities at first, are now happy to be living under [target_character.GetHerHis] governance.",
+  "uk": "Відтоді, як [target_character.GetName] [Select_CString(target_character.IsFemale,'стала намісницею', 'став намісником')] області [target_area.GetName], [Select_CString(target_character.IsFemale,'вона працювала', 'він працював')] не покладаючи рук, намагаючись перетворити ці землі на перлину #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Маючи у своєму розпорядженні вкрай обмежені ресурси, [Select_CString(target_character.IsFemale,'вона', 'він')] тим не менш [Select_CString(target_character.IsFemale,'змогла', 'зміг')] багато чого досягти. Хоча спочатку місцеві сумнівалися в [Select_CString(target_character.IsFemale,'її', 'його')] здібностях, тепер вони раді жити під владою [Select_CString(target_character.IsFemale,'такої обдарованої намісниці', 'такого обдарованого намісника')]."
+ },
+ "flavor_tim_governor.6.title": {
+  "en": "Development of [target_area.GetNameWithNoTooltip]",
+  "uk": "Розвиток області [target_area.GetNameWithNoTooltip]"
+ },
+ "flavor_tim_governor.7.a": {
+  "en": "By [ROOT.GetCountry.GetReligion.GetGodName], this is bad.",
+  "uk": "Справа кепська…"
+ },
+ "flavor_tim_governor.7.a.entry": {
+  "en": "By our god, this is bad.",
+  "uk": ""
+ },
+ "flavor_tim_governor.7.b": {
+  "en": "We should revert these policies.",
+  "uk": "Скасуємо цю політику."
+ },
+ "flavor_tim_governor.7.desc": {
+  "en": "Despite the best attempts of [target_character.GetName] to turn [target_area.GetName] into a jewel, [target_character.GetSheHe] has suffered setbacks. Certain economic policies imposed within [target_area.GetNameWithNoTooltip] led to houses and guilds being shut down, effectively leading to a decline.",
+  "uk": "Попри всі спроби перетворити область [target_area.GetName] на перлину нашої держави, [target_character.GetName] [Select_CString(target_character.IsFemale,'зазнала','зазнав')] невдачі. [Select_CString(target_character.IsFemale,'Її','Його')] недалекоглядна економічна політика призвела до того, що багато підприємств просто почали закриватися, тим самим підриваючи добробут регіону."
+ },
+ "flavor_tim_governor.7.title": {
+  "en": "Economic Policies Backfire in [target_area.GetNameWithNoTooltip]",
+  "uk": "Невдала економічна політика в області [target_area.GetNameWithNoTooltip]"
+ },
+ "flavor_tim_governor.8.a": {
+  "en": "Let us train them harder.",
+  "uk": "Будемо навчати їх ще старанніше."
+ },
+ "flavor_tim_governor.8.b": {
+  "en": "Is this quest of revenge really worth it?",
+  "uk": "Чи варта помста цих зусиль?"
+ },
+ "flavor_tim_governor.8.desc": {
+  "en": "Ever since our exile in [target_area.GetName], the people there have been hardened. Always on the ready for any enemy raid, they are now renowned within the [target_country.GetAdjective] [ROOT.GetCountry.GetFlavorRank]. [target_character.GetName] has noticed this as well, and wishes to turn [target_area.GetNameWithNoTooltip] into a militaristic governorship to hopefully one day take revenge against [target_country.GetNameWithNoTooltip].",
+  "uk": "Відтоді як нас вигнали до області [target_area.GetName], ми посилено займалися військовою підготовкою місцевих жителів. Чутки про їхню бойову майстерність уже дійшли до [ROOT.GetCountry.Custom('rank_ru_GEN')|l], і тепер кожен знає, що вони готові будь-якої миті відбити ворожий напад. Однак [target_character.GetName] не [Select_CString(target_character.IsFemale,'має наміру','має наміру')] зупинятися на досягнутому: [Select_CString(target_character.IsFemale,'вона','він')] планує встановити на цих землях військовий режим, щоб одного дня порахуватися з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L]#!#!."
+ },
+ "flavor_tim_governor.8.title": {
+  "en": "Frontier Life",
+  "uk": "Життя на прикордонні"
+ },
+ "flavor_tim_governor.9.a": {
+  "en": "Onwards to [target_country.GetCapital.GetNameWithNoTooltip]!",
+  "uk": "[target_country.GetCapital.GetNameWithNoTooltip] впаде до наших ніг!"
+ },
+ "flavor_tim_governor.9.a.entry": {
+  "en": "Onwards to the capital!",
+  "uk": ""
+ },
+ "flavor_tim_governor.9.b": {
+  "en": "It is not the time yet.",
+  "uk": "Зараз ще не час."
+ },
+ "flavor_tim_governor.9.desc": {
+  "en": "With the death of our ruler, [target_country.GetName] is now ruled by a new figure. Although not much instability has been caused by that, new opportunities to claim [target_country.GetNameWithNoTooltip] have risen. Using only the resources from [target_area.GetName], it would be a risky campaign, but the exile the people have suffered has not been forgotten, and this revenge can only be quelled until [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] is in control of the entirety of the [target_country.GetAdjectiveWithNoTooltip] [target_country.GetFlavorRank].",
+  "uk": "Оскільки нашого правителя більше немає, [target_country.GetName] тепер під контролем іншої людини. Хоча це й не викликало особливої нестабільності, це відкриває нові можливості висунути претензії на [target_country.Custom('CL_ACC')]. Це буде ризикованою справою, якщо використовувати лише ресурси, якими володіє [target_area.GetName], але вигнання, яке пережили наші люди, не може бути забуте, і їхня спрага помсти може бути вгамована лише тоді, коли [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] стане повновладним володарем [target_country.Custom('rank_ru_GEN')] [target_country.Custom('CL_ACC')]."
+ },
+ "flavor_tim_governor.9.title": {
+  "en": "A New [target_country.GetGovernment.GetRulerTitle]",
+  "uk": "[Select_CString(target_country.GetGovernment.GetRuler.IsFemale,'Нова','Новий')] [target_country.GetGovernment.GetRulerTitle|l]"
+ },
+ "flavor_tim_governor_3_desc_shared": {
+  "en": "Recently, we have been lacking in terms of support from our overlord, [target_country.GetName]. [target_character2.GetName] has realized that, and now wishes to request support from [target_character.GetName]. We could choose from a number of options, like gold or men.",
+  "uk": "Останнім часом наш сюзерен в особі #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! практично не надає нам жодної підтримки. [target_character2.GetName] бажає виправити цю ситуацію та запросити допомогу у вигляді поставок золота або рекрутів."
+ },
+ "tim_governor_maintain_governance_tt": {
+  "en": "[prev_country.GetName] will maintain control over [target_area.GetName]",
+  "uk": "Землі в області [target_area.GetName] залишаться під контролем [prev_country.Custom('CL_GEN')]"
+ },
+ "tim_governor_overlord_must_accept_tt": {
+  "en": "[target_country.GetName] must accept for the effects to take place",
+  "uk": "Щоб ефекти подіяли, #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! потрібно погодитися"
+ },
+ "timurid_governor_decrease_development_in_area_tt": {
+  "en": "Every owned [location|e] in [target_area.GetName] will lose [ShowNamedValue('development_weak_penalty')|+=] [development|e]",
+  "uk": "[Concept('development','Розвиток')|e] усіх наших [Concept('location','районів')|e] в області [target_area.GetName] зменшиться на [ShowNamedValue('development_weak_penalty')|+=]"
+ },
+ "timurid_governor_decrease_prosperity_and_satisfaction_in_area_tt": {
+  "en": "Every owned [location|e] in [target_area.GetName] will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e] and their [pops|e] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('prosperity','Процвітання')|e] усіх наших [Concept('location','районів')|e] в області [target_area.GetName] зменшиться на [ShowNamedValue('prosperity_weak_penalty')|+=2%], а [Concept('pop_satisfaction','задоволеність')|e] місцевих [Concept('pops','груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
+ },
+ "timurid_governor_increase_development_in_area_tt": {
+  "en": "Every owned [location|e] in [target_area.GetName] will gain [ShowNamedValue('development_weak_bonus')|+=] [development|e]",
+  "uk": "Усі наші [Concept('location','райони')|e] в області [target_area.GetName] отримають [ShowNamedValue('development_weak_bonus')|+=] до [Concept('development','розвитку')|e]"
+ },
+ "timurid_governor_increase_prosperity_and_satisfaction_tt": {
+  "en": "Every owned [location|e] in [target_area.GetName] will gain [ShowNamedValue('prosperity_weak_bonus')|+=2%] [prosperity|e] and their [pops|e] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі наші [Concept('location','райони')|e] в області [target_area.GetName] отримають [ShowNamedValue('prosperity_weak_bonus')|+=2%] до [Concept('prosperity','процвітання')|e], а місцеві [Concept('pops','групи населення')|e] отримають [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] до [Concept('pop_satisfaction','задоволеності')|e]"
+ },
+ "timurid_governor_no_demand_tt": {
+  "en": "No demand will be sent to [target_country.GetName]",
+  "uk": "Ми не будемо просити підтримки у #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!"
+ }
+}

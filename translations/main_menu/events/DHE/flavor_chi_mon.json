@@ -1,0 +1,146 @@
+{
+ "chi_recapture_emperor_tt": {
+  "en": "[captured_emperor.GetName] must be retaken via the [ShowPeaceTreatyTypeName('chi_recapture_emperor')] [peace_treaty|e]. If [captured_emperor.GetName] dies in captivity, we will receive the following penalties:",
+  "uk": "Щоб [captured_emperor.GetName] [Select_CString(captured_emperor.IsFemale,'повернулася','повернувся')] з полону, необхідно укласти [Concept('peace_treaty','мирний договір')|e] «[ShowPeaceTreatyTypeName('chi_recapture_emperor')]». Якщо [captured_emperor.GetName] загине в полоні, то ми отримаємо такі штрафи:"
+ },
+ "flavor_chi_mon.1.a": {
+  "en": "Push our advantage.",
+  "uk": "Скористаємося перевагою."
+ },
+ "flavor_chi_mon.1.b": {
+  "en": "Offer [target_country.GetNameWithNoTooltip] ransom for [captured_emperor.GetNameWithNoTooltip].",
+  "uk": "Запропонувати [target_country.Custom('CL_DAT')] заплатити викуп за [Select_CString(captured_emperor.IsFemale,'неї','нього')]."
+ },
+ "flavor_chi_mon.1.b.entry": {
+  "en": "Offer them ransom for him.",
+  "uk": ""
+ },
+ "flavor_chi_mon.1.desc": {
+  "en": "Glorious news has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ROOT.GetCountry.GetCapital.GetName]. Not only have we won the battle at [target_location.GetName], as we expected, but our victory was so absolute that we managed to take hold of [captured_emperor.GetName], the leader at the helm of the [GetInternationalOrganizationType('middle_kingdom').GetName]. If we push our advantage, we might be able to rake in great concessions from the [target_war.GetName].",
+  "uk": "До нашого двору дійшли вісті про славну перемогу під [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Більше того, внаслідок боїв до нас у полон [Select_CString(captured_emperor.IsFemale,'потрапила сама','потрапив сам')] [captured_emperor.GetName], лідер #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединної держави#!#!. Ми можемо використати [Select_CString(captured_emperor.IsFemale,'її','його')] як важіль тиску, щоб зажадати від противника ще більших поступок, коли закінчиться [target_war.GetName|l]."
+ },
+ "flavor_chi_mon.1.title": {
+  "en": "Victory at [target_location.GetNameWithNoTooltip]",
+  "uk": "Перемога під [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_chi_mon.2.a": {
+  "en": "Maintain the status quo.",
+  "uk": "Залишимо все як є."
+ },
+ "flavor_chi_mon.2.b": {
+  "en": "The [sibling_candidate.GetSisterBrother] of [captured_emperor.GetNameWithNoTooltip] can rule the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Нехай [Select_CString(captured_emperor.IsFemale,'її','його')] [Select_CString(sibling_candidate.IsFemale,'сестра','брат')] стане на чолі [ROOT.GetCountry.Custom('rank_ru_GEN')]."
+ },
+ "flavor_chi_mon.2.b.entry": {
+  "en": "The brother of the emperor can rule the realm.",
+  "uk": ""
+ },
+ "flavor_chi_mon.2.c": {
+  "en": "A child of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is ideal.",
+  "uk": "[Select_CString(captured_emperor.IsFemale,'Її','Його')] дитина може стати законним правителем."
+ },
+ "flavor_chi_mon.2.c.entry": {
+  "en": "A child of the ruler is ideal.",
+  "uk": ""
+ },
+ "flavor_chi_mon.2.d": {
+  "en": "[dynasty_candidate.GetNameWithNoTooltip] is an ideal option.",
+  "uk": "Державою [Select_CString(dynasty_candidate.IsFemale,'має','має')] правити [dynasty_candidate.GetNameWithNoTooltip]."
+ },
+ "flavor_chi_mon.2.d.entry": {
+  "en": "The candidate is an ideal option.",
+  "uk": ""
+ },
+ "flavor_chi_mon.2.desc": {
+  "en": "The battle in [target_location.GetName] turned out to be a disastrous defeat for our forces. Worse yet, [captured_emperor.GetName], our beloved [ROOT.GetCountry.GetGovernment.GetRulerTitle], was captured in the midst of the [capturing_country.GetAdjective] rout, plunging our [ROOT.GetCountry.GetGovernment.GetCourtTitle] into panic. It is not certain who will lead the [GetInternationalOrganizationType('middle_kingdom').GetName] from now on.",
+  "uk": "Битва під [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] обернулася для нашої армії нищівною поразкою. Що ще жахливіше, під час відступу наших військ [Select_CString(captured_emperor.IsFemale,'наша дорога','наш дорогий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [captured_emperor.GetName] [Select_CString(captured_emperor.IsFemale,'потрапила','потрапив')] у ворожий полон. Уряд перебуває в паніці, оскільки тепер #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединна держава#!#! залишилася без правителя."
+ },
+ "flavor_chi_mon.2.title": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] is Captured!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRulerTitle] у полоні!"
+ },
+ "flavor_chi_mon.3.a": {
+  "en": "Damnation!",
+  "uk": "Прокляття!"
+ },
+ "flavor_chi_mon.3.desc": {
+  "en": "Our greatest asset, [target.GetName], former ruler of [target_country.GetName], has perished while in our captivity. We have truly lost a great [target.GetManWoman], who will forever be remembered as our ticket to greatness.",
+  "uk": "[target.GetName], [Select_CString(target.IsFemale,'колишня правителька','колишній правитель')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, [Select_CString(target.IsFemale,'загинула','загинув')] в нашому полоні. Ми втратили надзвичайно [Select_CString(target.IsFemale,'цінну полонянку','цінного полоненого')], і ми назавжди запам'ятаємо [Select_CString(target.IsFemale,'її','його')] як людину, що забезпечила нам шлях до величі."
+ },
+ "flavor_chi_mon.3.title": {
+  "en": "[target.GetNameWithNoTooltip] Dies in Prison",
+  "uk": "[target.GetNameWithNoTooltip] гине в полоні"
+ },
+ "flavor_chi_mon.4.a": {
+  "en": "[target.GetShortNameWithNoTooltip] was not worthy of such a death.",
+  "uk": "[target.GetShortNameWithNoTooltip] не [Select_CString(target.IsFemale,'заслужила','заслужив')] такої смерті."
+ },
+ "flavor_chi_mon.4.a.entry": {
+  "en": "The character was not worthy of such a death.",
+  "uk": ""
+ },
+ "flavor_chi_mon.4.desc": {
+  "en": "[ROOT.GetCountry.GetName|U] have just been struck with a calamity. Our beloved ruler, the [target.GetSonDaughter] of heaven, [target.GetName], is reported to have died in captivity of the [target.GetOwner.GetAdjective] fiends. It is tragic that [target.GetShortNameWithNoTooltip] never lived to be recaptured and returned to [target.GetHerHis] precious country.",
+  "uk": "Народ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вразило велике горе: [target.GetName], [Select_CString(target.IsFemale,'наша дорога правителька','наш дорогий правитель')] і дитя Небес, [Select_CString(target.IsFemale,'померла','помер')] у полоні #L [target.GetOwner.GetAdjective|l]їх#! дикунів. Нескінченно шкода, що перед смертю [Select_CString(target.IsFemale,'їй','йому')] так і не довелося повернутися на батьківщину…"
+ },
+ "flavor_chi_mon.4.title": {
+  "en": "The Death of [target.GetNameWithNoTooltip]",
+  "uk": "[target.GetNameWithNoTooltip] [Select_CString(target.IsFemale,'загинула', 'загинув')]"
+ },
+ "flavor_chi_mon.5.a": {
+  "en": "Accept the proposal.",
+  "uk": "Приймемо пропозицію."
+ },
+ "flavor_chi_mon.5.b": {
+  "en": "It is a trick! Send no reply.",
+  "uk": "Нас хочуть перехитрити! Не будемо відповідати."
+ },
+ "flavor_chi_mon.5.desc": {
+  "en": "Surprisingly, the fiends in [capturing_country.GetName] have given us a proposition of ransom. A large sum of gold for the safe return of our beloved captured [captured_emperor.GetName]. We must also admit that, even though we consider the [captured_emperor.GetHerHis] life to be priceless, we are pleased to know that our foes undervalue it so much.",
+  "uk": "На наш подив, #L [capturing_country.GetAdjective|l]і#! варвари звернулися до нас з пропозицією: [Select_CString(captured_emperor.IsFemale,'наша славна правителька','наш славний правитель')] [captured_emperor.GetName] зможе повернутися додому, якщо ми заплатимо за [Select_CString(captured_emperor.IsFemale,'неї','нього')] гідний викуп. Безумовно, ми вважаємо [Select_CString(captured_emperor.IsFemale,'її','його')] життя безцінним, проте нам навіть вигідно, що наш противник так низько оцінює [Select_CString(captured_emperor.IsFemale,'свою полонянку','свого полоненого')]."
+ },
+ "flavor_chi_mon.5.title": {
+  "en": "Offer of Ransom",
+  "uk": "Пропозиція про викуп"
+ },
+ "flavor_chi_mon.6.a": {
+  "en": "This will be in the history books.",
+  "uk": "Це увійде в історію."
+ },
+ "flavor_chi_mon.6.desc": {
+  "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has finally fallen into our grasp. The demoralized garrison could not stand the onslaught of the [ROOT.GetCountry.GetAdjective] forces and yielded the control over our target. Moreover, their [target_character.GetName] still remains in our custody, putting the [target_location.GetOwner.GetAdjective] [target_location.GetOwner.GetGovernment.GetCourtTitle] in panic.",
+  "uk": "Нам нарешті вдалося взяти [target_location.Custom('LR_ACC')] [target_location.GetName] під свій контроль. Ворожий гарнізон, що втратив бойовий дух, не зміг встояти перед натиском #L [ROOT.GetCountry.GetAdjective|l]ої#! армії і просто здався. При цьому [target_character.GetName] як і раніше перебуває в нас у полоні, через що #L [target_location.GetOwner.GetAdjective|l]ий#! уряд перебуває в повній розгубленості."
+ },
+ "flavor_chi_mon.6.title": {
+  "en": "Capture of [target_location.GetNameWithNoTooltip]",
+  "uk": "Захоплення [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+ },
+ "flavor_chi_mon.7.a": {
+  "en": "The rightful ruler has returned.",
+  "uk": "Законний правитель знову з нами."
+ },
+ "flavor_chi_mon.7.b": {
+  "en": "[ROOT.GetCountry.GetGovernment.GetRulerOrHeirIfRegent.GetNameWithNoTooltip] should rule instead.",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetRulerOrHeirIfRegent.GetNameWithNoTooltip] править замість [Select_CString(target_emperor.IsFemale,'неї','нього')]."
+ },
+ "flavor_chi_mon.7.b.entry": {
+  "en": "The ruler should rule instead.",
+  "uk": ""
+ },
+ "flavor_chi_mon.7.desc": {
+  "en": "[target_emperor.GetName], the former ruler of [ROOT.GetCountry.GetName], has finally been brought back to the [ROOT.GetCountry.GetFlavorRank]. Having been received warmly by the citizens of [ROOT.GetCountry.GetCapital.GetName], not everyone is pleased with [target_emperor.GetHerHis] return. Factions have formed in the [ROOT.GetCountry.GetGovernment.GetCourtTitle], some of whom prefer [target_emperor.GetNameWithNoTooltip] to abdicate.",
+  "uk": "[target_emperor.GetName] нарешті [Select_CString(target_emperor.IsFemale,'повернулася','повернувся')] на батьківщину. Жителі міста [ROOT.GetCountry.GetCapital.GetName] щасливі знову бачити [Select_CString(target_emperor.IsFemale,'свою правительку','свого правителя')], а ось деякі члени #L [ROOT.GetCountry.GetAdjective|l]ого#! двору не поділяють цю радість: за час [Select_CString(target_emperor.IsFemale,'її','його')] відсутності в державі з'явилися нові політичні фракції, які виступають за те, щоб [target_emperor.GetNameWithNoTooltip] [Select_CString(target_emperor.IsFemale,'зреклася','зрікся')] престолу."
+ },
+ "flavor_chi_mon.7.title": {
+  "en": "Return of [target_emperor.GetNameWithNoTooltip]",
+  "uk": "[target_emperor.GetNameWithNoTooltip] повертається з полону"
+ },
+ "mon_offer_ransom": {
+  "en": "Offer [target_country.GetName] ransom for [captured_emperor.GetName] for the cost of [SCOPE.GetLocalVariable('ransom_value')|=+]",
+  "uk": "Запропонувати [target_country.Custom('CL_DAT')] заплатити за персонажа [captured_emperor.GetName] викуп у розмірі [SCOPE.GetLocalVariable('ransom_value')|=+]"
+ },
+ "mon_pushing_advantage": {
+  "en": "[ShowModifier('chi_tumu_crisis_benefit')] will last as long as [captured_emperor.GetName] remains imprisoned in [ROOT.GetCountry.GetName] and alive.\\nIf we capture [location_for_capture.GetName], we will receive the following benefits:",
+  "uk": "Модифікатор «[ShowModifier('chi_tumu_crisis_benefit')]» діятиме доти, доки [captured_emperor.GetName] [Select_CString(captured_emperor.IsFemale,'жива','живий')] і перебуває в полоні у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!.\\nЯкщо ми захопимо [location_for_capture.Custom('LR_VP')|l] [location_for_capture.GetName], то отримаємо такі переваги:"
+ }
+}

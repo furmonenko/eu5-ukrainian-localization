@@ -1,0 +1,258 @@
+{
+ "easier_revolution_disaster_tt": {
+  "en": "#R The [ShowDisasterName('revolution_disaster')] [disaster|e] becomes easier to fire#!",
+  "uk": "#R Розпочати [Concept('disaster','лихо')|e] «[ShowDisasterName('revolution_disaster')]» буде простіше#!"
+ },
+ "end_revolution_tt": {
+  "en": "The [ShowSituationName('the_revolution')] [situation|e] has ended",
+  "uk": "[Concept('situation','Ситуацію')|e] «[ShowSituationName('the_revolution')]» завершено"
+ },
+ "explain_revolution_benefits_tt": {
+  "en": "For as long as we remain [revolutionary|e] we will receive the following benefits:\\n\\n[ShowAutoModifierEffect('revolutionary')]",
+  "uk": "Поки наша держава не перестане бути [Concept('revolutionary','революційною')|e], в ній діятимуть такі переваги:\\n\\n«[ShowAutoModifierEffect('revolutionary')]»"
+ },
+ "explain_revolutionary_and_counter_characters_tt": {
+  "en": "We will gain access to various new actions such as [ShowGenericActionName('institute_governmental_purges')], [ShowGenericActionName('demote_local_aristocracy')], and more, through the [situation|e] panel",
+  "uk": "На панелі [Concept('situation','ситуації')|e] нам стануть доступні нові дії, такі як «[ShowGenericActionName('institute_governmental_purges')]», «[ShowGenericActionName('demote_local_aristocracy')]» та інші."
+ },
+ "explain_revolutionary_target_benefits_tt": {
+  "en": "For as long as we remain the [revolutionary_target|e] we will maintain the benefits of being [revolutionary|e] as well as:\\n\\n[ShowAutoModifierEffect('revolution_target')]",
+  "uk": "Поки наша держава не перестане бути [Concept('revolutionary_target','ціллю-революціонером')|e], в ній діятимуть [Concept('revolutionary','революційні')|e] переваги, а також:\\n\\n«[ShowAutoModifierEffect('revolution_target')]»"
+ },
+ "nobles_lose_10_pop_satisfaction_tt": {
+  "en": "[pops|e] of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволення ')|e] [Concept('pops','груп населення')|e] провінції [target_province.GetNameWithNoTooltip], до яких входять [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
+ },
+ "peasants_lose_10_pop_satisfaction_tt": {
+  "en": "[pops|e] of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволення ')|e] [Concept('pops','груп населення')|e] провінції [target_province.GetNameWithNoTooltip], до яких входять [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
+ },
+ "reactionary_revolt_tt": {
+  "en": "All [ShowPopTypeName('nobles')] in [ROOT.GetCountry.GetCapital.GetRegion.GetName] join [target_rebel.GetName] and lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [ShowPopTypeName('nobles')|l] в області [ROOT.GetCountry.GetCapital.GetRegion.GetName] приєднуються до повстанців ([target_rebel.GetName]), а їхнє [Concept('pop_satisfaction', 'задоволення')|e] знижується на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
+ },
+ "rev_reactionary_rebels": {
+  "en": "[COUNTRY.GetAdjectiveWithNoTooltip] Reactionaries",
+  "uk": "[COUNTRY.GetAdjectiveWithNoTooltip|U]і реакціонери"
+ },
+ "revolution_info_tt": {
+  "en": "During the [ShowSituationNameWithNoTooltip('the_revolution')] [situation|e] nearly every [ShowGovernmentTypeName('monarchy')] will have their rule challenged by the people and those oppressed by the feudal status quo.\\n\\n[countries|e] that #G follow#! the Revolution will be able to assist their comrades at home and abroad through unique actions.\\n\\n[countries|e] that seek to #R crush#! it will be able to do so either through the [ShowCasusBelliName('crush_the_revolution_cb')] [casus_belli|e] and new actions.\\n",
+  "uk": "Під час [Concept('situation','ситуації')|e] «[ShowSituationNameWithNoTooltip('the_revolution')]» жителі майже всіх #TOOLTIP:GOVTYPE,monarchy,X #L монархічних#!#! держав та пригноблені феодальним порядком виступатимуть проти своїх властей.\\n\\n[Concept('countries','Держави')|e], що #G підтримують#! революцію, зможуть допомогти своїм товаришам і на батьківщині, і за кордоном за допомогою особливих дій.\\n\\n[Concept('countries','Держави')|e], що прагнуть #R придушити#! революцію, зможуть зробити це або за допомогою [Concept('casus_belli','приводу для війни')|e] «[ShowCasusBelliName('crush_the_revolution_cb')]», або за допомогою нових дій.\\n"
+ },
+ "target_character_was_against_the_revolution_and_thus_tt": {
+  "en": "[target_character.GetNameWithNoTooltip] harbored Counter-Revolutionary sentiment, and therefore:",
+  "uk": "[target_character.GetNameWithNoTooltip] не [Select_CString(target_character.IsFemale, 'симпатизувала', 'симпатизував' )] контрреволюціонерам, а тому:"
+ },
+ "target_character_was_neutral_and_thus_tt": {
+  "en": "[target_character.GetNameWithNoTooltip] harbored neither Revolutionary nor Counter-Revolutionary sentiment, and therefore:",
+  "uk": "[target_character.GetNameWithNoTooltip] не [Select_CString(target_character.IsFemale, 'симпатизувала', 'симпатизував' )] ні революціонерам, ні контрреволюціонерам, а тому:"
+ },
+ "target_character_was_revolutionary_and_thus_tt": {
+  "en": "[target_character.GetNameWithNoTooltip] harbored Revolutionary sentiment, and therefore:",
+  "uk": "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'симпатизувала', 'симпатизував' )] революціонерам, а тому:"
+ },
+ "target_province_every_pop_5_satisfaction_loss_tt": {
+  "en": "All [pops|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "[Concept('pop_satisfaction','Задоволення ')|e] всіх [Concept('pops','груп населення')|e] в провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
+ },
+ "the_revolution.1.a": {
+  "en": "Onwards to spread the ideals of the Revolution!",
+  "uk": "Вперед! Поширимо ідеї революції!"
+ },
+ "the_revolution.1.b": {
+  "en": "Interesting times are ahead of us.",
+  "uk": "На нас чекають цікаві часи."
+ },
+ "the_revolution.1.desc.a": {
+  "en": "Driven by widespread discontent against the monarchy, economic hardship and social inequality, our people have finally undone their shackles and taken power in their own hands. The spread of new ideas and literacy have culminated in a radical change within our society.\\n\\nThe once powerful nobles that held power now cower behind their palaces of greed and dispair, as we take arms against tyranny and monarchy at home and abroad.",
+  "uk": "Наш народ, стомлений від свавілля монархів, злиднів та нерівності, нарешті скинув рабські кайдани й узяв владу у свої руки. Поширення нових ідей та підвищення рівня грамотності призвело до того, що жити по-старому стало вже неможливо.\\n\\nКолись могутні дворяни, яким належала влада, тепер боягузливо ховаються: все, що в них залишилося, — це жадібність і розпач. Народ же зі зброєю в руках повстає проти тиранії та монархії не лише на батьківщині, а й за кордоном."
+ },
+ "the_revolution.1.desc.b": {
+  "en": "In an unprecedented turn of events, the people of [target_of_rev_scope.GetName] have seeemingly usurped the power from their masters, effectively weakening centuries-old institutions. Such a move will certainly send ripples across the halls of the entire continent, and may yet shake the foundation of the world's most powerful monarchs. We are witnessing history in the making!",
+  "uk": "Зовсім несподівано народ #ONCLICK:COUNTRY,[target_of_rev_scope.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_of_rev_scope.Custom('CL_tt')],X [target_of_rev_scope.Custom('CL_GEN')|L]#!#! відібрав владу у своїх панів, миттєво підкосивши усталений століттями порядок. Наслідки цього перевороту неодмінно відчує весь континент — можливо, здригнеться навіть основа наймогутніших монархій світу. На наших очах твориться історія!"
+ },
+ "the_revolution.1.historical_info": {
+  "en": "In 1789, the Revolution began in France. Fueled by widespread discontent against the monarchy, a low standard of living, and a rigid class system, the situation was only worsened by costly wars and royal extravagance, leading to rising bread prices and famine.\\n\\nEnlightenment ideas promoting liberty and equality further ignited unrest, and, in 1789, the Estates-General convened, where the Third Estate formed the National Assembly, challenging the monarchy. This eventually led to the storming of the Bastille, a symbol of popular defiance.\\n\\nSoon after, the #italic Declaration of the Rights of Man and of the Citizen#! followed, proclaiming liberty, equality, and fraternity as central principles of the Revolution.",
+  "uk": "У 1789 році почалася Велика французька революція. Невдоволення народу королем, низьким рівнем життя та суворою становою системою посилювалося великими витратами на війни та утримання королівського двору, що викликало підвищення цін на хліб, а згодом голод.\\n\\nРеволюційні настрої підігрівали й ідеї епохи Просвітництва про свободу та рівність. У 1789 році в країні зібралися Генеральні штати, на яких третій стан проголосив Установчі збори — противагу монархії. Наступним актом непокори стало взяття Бастилії.\\n\\nНевдовзі після цього було прийнято #italic Декларацію прав людини і громадянина#! — документ, що проголошував основними принципами революції свободу, рівність і братерство."
+ },
+ "the_revolution.1.title": {
+  "en": "The [target_of_rev_scope.GetAdjectiveWithNoTooltip] Revolution",
+  "uk": "[target_of_rev_scope.GetAdjectiveWithNoTooltip|U]а революція"
+ },
+ "the_revolution.10.a": {
+  "en": "We will defend our ideals!",
+  "uk": "Станемо на захист своїх ідеалів!"
+ },
+ "the_revolution.10.desc": {
+  "en": "The time has come, and the world is changing. Across [ShowContinentName('europe')], the old orders of monarchies and aristocracies are crumbling under the weight of revolutionary ideals. People demand change, and the winds of revolt blow stronger by the day. As the new leader of this movement, we stand at the forefront of a revolution that promises liberty, equality, and fraternity.\\n\\nThe people rally to our banner, inspired by the idea of a world unbound by tradition and privilege. Yet, with great power comes great responsibility and perilous risk. Those who conspire our fall will soon step forth from the shadows. The future of our nation, and perhaps the world, is in our hands.",
+  "uk": "Час настав. Світ стрімко змінюється. Монархії та аристократії по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#! падають одна за одною, не в силах витримати натиск революційних ідей. Народ вимагає змін, а вітер революції міцнішає з кожним днем. Ми, як провідники цього руху, очолюємо революцію, що сулить усім свободу, рівність і братерство.\\n\\nНарод стікається під наші прапори, окрилений думками про світ, де більше не правитимуть традиції та привілеї. Однак з великою силою приходить велика відповідальність — і величезний ризик. Незабаром на світ вийдуть змовники, що бажають лише одного — зірвати наш задум. Майбутнє нашої держави — і, можливо, всього світу — в наших руках."
+ },
+ "the_revolution.10.title": {
+  "en": "Herald of the Revolution",
+  "uk": "Провісник революції"
+ },
+ "the_revolution.11.a": {
+  "en": "Those meddling revolutionaries!",
+  "uk": "Прокляті революціонери, не сидиться їм спокійно!"
+ },
+ "the_revolution.11.desc": {
+  "en": "Whispers of unrest grow louder in our [ROOT.GetCountry.GetFlavorRank], and now the truth begins to surface! It appears that [actor.GetName] is believed to be aiding the spread of [target_rebel.GetName] in our lands. Whether through covert funding, inflammatory rhetoric, or the sheltering of dissidents, their actions have emboldened revolutionaries and fueled instability across our provinces. What once seemed like isolated agitation now bears the marks of a deliberate campaign, and indeed one that could push our people toward the brink of destruction.",
+  "uk": "Невдоволення жителів [ROOT.GetCountry.Custom('rank_ru_GEN')|l] стає все відчутнішим. Довго шукати справжню причину хвилювання не довелося: в наших краях стрімко міцнішає група заколотників «[target_rebel.GetName]», і все вказує на те, що винуватець того, що відбувається, — [actor.GetName]. Таємна фінансова підтримка, підбурливі промови, укриття інакодумців — все це лише спонукає революціонерів займатися своєю чорною справою і порушувати спокій наших провінцій. Окремі випадки провокацій уже не можна називати випадковістю: це цілеспрямована спроба зруйнувати нашу державу."
+ },
+ "the_revolution.11.title": {
+  "en": "[actor.GetNameWithNoTooltip] Fans the Flames of Revolution",
+  "uk": "[actor.GetNameWithNoTooltip] розпалює пожежу революції"
+ },
+ "the_revolution.12.a": {
+  "en": "To arms!",
+  "uk": "До зброї!"
+ },
+ "the_revolution.12.b": {
+  "en": "It is best to respect their strength, at least for now.",
+  "uk": "Вони досить сильні, тому поки що поставимося до них з повагою."
+ },
+ "the_revolution.12.desc": {
+  "en": "Instability has gripped our [ROOT.GetCountry.GetFlavorRank]. Perilous ideas such as the abandonment of central power, feudarchy, and [ShowInstitutionName('enlightenment')] seem to spew forth from the likes of [target_country.GetName]. A conduit of evil, according to our advisors, their spies have spread their poisonous tendrils far outside their borders in an effort to contaminate neighbors with dangerous notions of overthrowing the upper class. No doubt, we must intervene and put an end to this petulent display of resistance!",
+  "uk": "[ROOT.GetCountry.GetFlavorRank|U] сьогодні перебуває в хисткому становищі. [target_country.GetName] і ті, хто приєднався до цієї держави однодумці відкрито підтримують такі небезпечні ідеї, як скасування центральної влади разом із феодальними порядками та перехід до ідеалів #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#!. Наші радники обурені: за допомогою своїх шпигунів ця погана країна простягнула свої задушливі щупальця до сусідів у надії заразити їх революційним настроєм і змусити скинути вище суспільство. Нам, без жодних сумнівів, слід негайно втрутитися і покласти край такій зухвалості!"
+ },
+ "the_revolution.12.title": {
+  "en": "War Against the [target_country.GetLongNameWithNoTooltip]",
+  "uk": "[target_country.GetLongNameWithNoTooltip] — війна проти цієї держави"
+ },
+ "the_revolution.2.a": {
+  "en": "Good riddance regardless of allegience!",
+  "uk": "Скатертю дорога — і неважливо, кому ти зберігаєш вірність!"
+ },
+ "the_revolution.2.desc.a": {
+  "en": "Dragged in chains, kicking, and screaming of [target_character.GetHerHis] innocence, [target_character.GetShortName] is presented in front of [target_ruler.GetName]. Clothes in tatters, beaten and bloody, [target_character.GetSheHe] protests that not once were the ideals of the Revolution betrayed under [target_character.GetHerHim]. But of course, a pig squeals the loudest closer to slaughter. We will see what cause this traitor will bleed for!",
+  "uk": "[target_character.GetShortName] виглядає жалюгідно: одяг порваний на шматки, на тілі синці та крововиливи, а на руках і ногах — кайдани. Бриканням і криком [Select_CString(target_character.IsFemale, 'вона', 'він' )] благає визнати себе [Select_CString(target_character.IsFemale, 'невинною', 'невинним' )], наголошуючи на тому, що за [Select_CString(target_character.IsFemale, 'неї', 'нього' )] ідеали революції зраджувалися вже неодноразово. Однак [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'незворушна', 'незворушний' )]: кожен знає, що свиня верещить тим голосніше, чим ближче до неї ніж м'ясника. Подивимося, за які ідеї проллє кров [Select_CString(target_character.IsFemale, 'ця зрадниця', 'цей зрадник' )]!"
+ },
+ "the_revolution.2.desc.b": {
+  "en": "Suspected of revolutionary sentiment for quite some time, [target_character.GetName] is apprehended at the orders of [target_ruler.GetName] in suspicion of steering hate and propaganda against central authority. As [target_character.GetHerHis] execution is carried out, [target_character.GetSheHe] proclaims allegience to [target_ruler.GetShortNameWithNoTooltip] in a final attempt to sway [target_ruler.GetHerHim] as well as the crowds.",
+  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale, 'яку', 'якого' )] вже давно підозрюють у симпатії до революціонерів, [Select_CString(target_character.IsFemale, 'затримана', 'затриманий' )] за підозрою в розпалюванні ненависті та веденні пропаганди проти центральної влади. Наказ про затримання [Select_CString(target_ruler.IsFemale, 'віддала сама', 'віддав сам' )] [target_ruler.GetName]. Вже на ешафоті [target_character.GetName] в останній відчайдушній спробі переконати і володаря, і народ [Select_CString(target_character.IsFemale, 'оголосила', 'оголосив' )], що завжди буде [Select_CString(target_character.IsFemale, 'вірна', 'вірний' )] імені «[target_ruler.GetShortNameWithNoTooltip]»."
+ },
+ "the_revolution.2.title": {
+  "en": "The Execution of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] гине"
+ },
+ "the_revolution.3.a": {
+  "en": "Send them a token force.",
+  "uk": "Ми надішлемо їм невеликий загін."
+ },
+ "the_revolution.3.b": {
+  "en": "We will share in their struggle and defend them actively.",
+  "uk": "Ми поділимо з ними їхню боротьбу і будемо їх захищати."
+ },
+ "the_revolution.3.desc": {
+  "en": "During the time of need, the spirit of comradeship shines the brightest. As the [target.GetLongName] is defending the ideals of the Revolution, it falls up to us to do our part and support them as we best can.",
+  "uk": "У годину потреби дух товариськості найміцніший. [target.GetLongName] веде боротьбу за ідеали революції, а тому ми зобов'язані зробити свій внесок і підтримати цю державу всім, чим тільки можливо."
+ },
+ "the_revolution.3.title": {
+  "en": "Foreign Aid to [target.GetNameWithNoTooltip]",
+  "uk": "Допомога [target.Custom('CL_DAT')]"
+ },
+ "the_revolution.4.a": {
+  "en": "There is nothing we can do.",
+  "uk": "Нічого не вдієш."
+ },
+ "the_revolution.4.b": {
+  "en": "Prison awaits [target_character.GetHerHim].",
+  "uk": "[Select_CString(target_character.IsFemale, 'На неї', 'На нього' )] чекає в'язниця."
+ },
+ "the_revolution.4.desc": {
+  "en": "It appears that one of our [ROOT.GetCountry.GetGovernment.GetCourtTitle] members has taken it upon [target_character.GetHerselfHimself] to spread unrest in one of our provinces. It is unknown what [target_character.GetHerHis] agenda entails. Some support the idea that [target_character.GetSheHe] harbors rage against the current state of affairs, be it due to the spread of revolutionary ideas or the current struggle our people, it is clear that [target_character.GetHerHis] zeal has gone a step too far!",
+  "uk": "Схоже, хтось із придворних вирішив посіяти невдоволення в одній з наших провінцій. Ми поки не знаємо, чого хоче досягти ця людина. Хтось припускає, що [Select_CString(target_character.IsFemale, 'вона невдоволена', 'він невдоволений' )] існуючим порядком. Однак якими б ідеалами [Select_CString(target_character.IsFemale, 'вона не керувалася', 'він не керувався' )] — революційними чи патріотичними — одне можна сказати з упевненістю: це вже переходить усі межі!"
+ },
+ "the_revolution.4.title": {
+  "en": "Stirring Unrest in [target_province.GetNameWithNoTooltip]",
+  "uk": "Розпалювання заворушень у провінції [target_province.GetNameWithNoTooltip]"
+ },
+ "the_revolution.5.a": {
+  "en": "Enough! Arrest [target_character_1.GetNameWithNoTooltip]!",
+  "uk": "Досить! Нехай [target_character_1.GetNameWithNoTooltip] вирушає під арешт!"
+ },
+ "the_revolution.5.b": {
+  "en": "The guards can escort [target_character_2.GetNameWithNoTooltip] to a cell!",
+  "uk": "Нехай [target_character_2.GetNameWithNoTooltip] посидить у камері!"
+ },
+ "the_revolution.5.c": {
+  "en": "There are plenty of cells in prison for both of them!",
+  "uk": "У в'язниці вистачить місця всім!"
+ },
+ "the_revolution.5.d": {
+  "en": "The situation will calm on its own.",
+  "uk": "Все налагодиться само собою."
+ },
+ "the_revolution.5.desc.a": {
+  "en": "Screams and disagreements are no strangers to the conduct of our new revolutionary state and public affairs. After all, the spirit of the people and their zeal for representation cannot be contained by any central authority.\\n\\nHowever, recent accusations presented have made ripples through the political domain. It appears that [target_character_1.GetName] suspects [target_character_2.GetName] of counter-revolutionary sentiment, accusing [target_character_2.GetHerHim] of secretly collaborating with the enemy! Both members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] demand the imprisonment of the other, there seems to be no end to their disagreement.",
+  "uk": "У державних і суспільних справах нашої революційної держави крики та гучні суперечки стали звичною справою: жодна центральна влада не може зломити дух народу і бажання людей заявляти про свої інтереси.\\n\\nОднак висунуті нещодавно звинувачення стали несподіванкою навіть для нас: [target_character_1.GetName] підозрює, що [target_character_2.GetName] — контрреволюціонер і перебуває в таємному зв'язку з ворогом! Тепер кожен з них вимагає, щоб іншого ув'язнили, і [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] не бачить кінця їхнім розбіжностям."
+ },
+ "the_revolution.5.desc.desc.b": {
+  "en": "In the midst of chaos, disagreements and tensions thrive. Such is the case between some of the members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. The latest drama revolves around [target_character_1.GetName] and [target_character_2.GetName]. It appears a disagreement in policy and office conduct has led to both individuals accusing each other of harboring secret revolutionary sentiment! We cannot know if either rumor is true, but this situation threatens to destabilize our internal affairs.",
+  "uk": "Безлад — сприятливий ґрунт, на якому виростають розбіжності та чвари. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] нашої держави — не виняток: [target_character_1.GetName] і [target_character_2.GetName] не згодні з питань політики та поведінки на службі, а тому почали звинувачувати один одного в таємному співчутті революціонерам! Важко сказати, наскільки правдиві ці звинувачення, однак ситуація, що склалася, б'є по нашій внутрішній політиці."
+ },
+ "the_revolution.5.title": {
+  "en": "Political Accusations",
+  "uk": "Політичні нападки"
+ },
+ "the_revolution.6.a": {
+  "en": "Force the governmental reforms through.",
+  "uk": "Примусово провести урядові реформи."
+ },
+ "the_revolution.6.b": {
+  "en": "Oblige to the conversative factions.",
+  "uk": "Піти назустріч консерваторам."
+ },
+ "the_revolution.6.desc": {
+  "en": "With revolutionary ideas spreading across [ROOT.GetCountry.GetCapital.GetContinent.GetName], and following decades of high taxation and poor harvests, the widespread dissatisfaction at the absolutist rule of [target_character.GetName] can no longer be ignored. Due to the great demands of [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], [target_character.GetShortNameWithNoTooltip] has been forced to reconvene the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], to have the deputees devise a reform program that will lead to a way forward for [ROOT.GetCountry.GetName]. However, compromise between the various factions will no doubt prove difficult, and already the divisions between the old order and radical groups are threatening to explode into conflict!",
+  "uk": "[ROOT.GetCountry.GetCapital.GetContinent.GetName] сьогодні — розсадник революційних ідей, а народ стомився від довгих десятиліть непідйомних податків і поганого врожаю. Невдоволення необмеженою владою, якою володіє [target_character.GetName], досягло межі. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|U] висунули вимоги — і [target_character.GetShortNameWithNoTooltip], вимушено йдучи їм назустріч, знову [Select_CString(target_character.IsFemale, 'скликала', 'скликав' )] [ROOT.GetCountry.Custom('parliament_ru_ACC')|l]. Тепер його членам належить розробити програму реформ, яка забезпечить #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! шлях у світле майбутнє. Втім, уже зараз зрозуміло, що досягти компромісу між кількома сторонами буде непросто. Розкол між прихильниками старого порядку та радикалами вже загрожує перерости в повноцінний конфлікт."
+ },
+ "the_revolution.6.title": {
+  "en": "The [ROOT.GetCountry.GetGovernment.GetParliament.GetName]",
+  "uk": ""
+ },
+ "the_revolution.7.a": {
+  "en": "Truly some cutting edge technology!",
+  "uk": "Та ми просто на вістрі науки!"
+ },
+ "the_revolution.7.desc": {
+  "en": "'The criminal shall be decapitated; this will be done solely by means of a simple mechanism', such were the words of [target_character.GetName], who has proposed the idea of a swift and as pain-free as possible execution method. Though [target_character.GetSheHe] was never directly involved in the design or construction of the device, its name 'guillotine' is derived from the physician [target_character.GetHerselfHimself]. Now it has become a symbol of the Revolution itself as its enemies are executed via the guillotine en masse.",
+  "uk": "«Злочинцеві відрубують голову за допомогою простого механізму» — такий задум ліг в основу швидкого і по можливості безболісного способу страти, який [Select_CString(target_character.IsFemale, 'винайшла', 'винайшов' )] [target_character.GetName]. І хоча [Select_CString(target_character.IsFemale, 'вона сама', 'він сам' )] не має прямого відношення ні до розробки, ні до спорудження самого механізму, прізвище цього лікаря все ж таки увічнено в назві — «гільйотина». Новий винахід став символом революції: її ворогів страчують одного за одним саме за допомогою гільйотини."
+ },
+ "the_revolution.7.historical_info": {
+  "en": "In fact, the guillotine was invented and constructed by Antoine Louis - the court surgeon and physiologist of King Louis XVI himself - and the German engineer Tobias Schmidt. At first, its name was the #italic louisette#!, but was renamed into the guillotine derived from Joseph-Ignace Guillotin who proposed the idea of a new, swift execution method.",
+  "uk": "Винайдення та конструювання гільйотини приписується двом людям — придворному хірургу короля Людовіка XVI та фізіологу Антуану Луї і німецькому інженеру Тобіасу Шмідту. Спочатку машина називалася #italic «луїзетта»#!, однак з часом це слово було витіснене назвою «гільйотина», даною на ім'я Жозефа Ігнаса Гільйотена — людини, що запропонувала новий, швидший метод страти."
+ },
+ "the_revolution.7.title": {
+  "en": "The Invention of the Guillotine",
+  "uk": "Винайдення гільйотини"
+ },
+ "the_revolution.8.a": {
+  "en": "The status quo prevails.",
+  "uk": "Статус-кво відновлено."
+ },
+ "the_revolution.8.desc": {
+  "en": "The winds of change that once swept across the continents, promising liberty and equality, have been extinguished. Much of the revolutionary fervor that threatened to upend the old order has been met with decisive force. Whether through the clashing of arms, the intervention of foreign powers, or the collapse of revolutionary leadership, the dream of a new society has been crushed beneath the boots of tradition and authority. The streets once filled with cries for freedom now lie silent, and the old institutions reassert their dominance. The scars of this conflict will linger, and the people will not soon forget.",
+  "uk": "Вітер змін, що ніс цьому світові обіцянки свободи та рівності, ущух. Разом з ним згас і вогонь революції, що загрожував колись перекинути старий порядок, але натрапив на рішучий опір. Мрія про побудову нового суспільства померла, розчавлена чоботом владних традиціоналістів. Уже неважливо, як це сталося — на полі бою, через втручання іноземних держав чи через те, що не витримали самі революціонери. Не чути більше голосів, що вимагали свободи; на вулицях панує безмовність. Старі структури знову набирають втрачений вплив. Шрами від битви залишаться надовго, і народ не скоро ще забуде цю сторінку історії."
+ },
+ "the_revolution.8.title": {
+  "en": "The [ShowSituationNameWithNoTooltip('the_revolution')] is Crushed",
+  "uk": "Революцію придушено"
+ },
+ "the_revolution.9.a": {
+  "en": "We fight for the people!",
+  "uk": "Ми боремося за народ!"
+ },
+ "the_revolution.9.desc": {
+  "en": "As the world around us erupts into revolutionary fervor, the winds of change reach even the farthest corners of our [ROOT.GetCountry.GetFlavorRank]. Inspired by the cries for liberty, equality, and fraternity, our choice to embrace the changing times will ripple through the ages. The call for reform is loud, but the consequences of embracing such an upheaval are unknown.\\n\\nThe people are divided, the elites fear the loss of their privileges, and foreign powers look on with concern. However, the promise of a more just and egalitarian society beckons. We could lead the charge for a new order despite perilous challenges from all sides.",
+  "uk": "Навколо нас розгоряється пожежа революції, і вітер змін досягає навіть найвіддаленіших куточків [ROOT.GetCountry.Custom('CF_RP')|l]. Ми обрали свободу, рівність і братерство — і цей вибір на користь нового порядку ще довго відгукуватиметься надалі. Заклики до змін гучні, але наслідки їх поки ще складно передбачити.\\n\\nНарод розділився. Вищі верстви суспільства бояться втратити свої привілеї, а іноземні держави дивляться на нас з занепокоєнням. Але заклику справедливості складно протистояти. Ми можемо стати в авангарді боротьби за новий уклад всупереч усім труднощам і небезпекам."
+ },
+ "the_revolution.9.title": {
+  "en": "The Revolution in [ROOT.GetCountry.GetNameWithNoTooltip]",
+  "uk": "Революція в [ROOT.GetCountry.Custom('CL_PREP')]"
+ },
+ "these_characters_may_cause_an_uproar_again_soon_tt": {
+  "en": "#italic These [characters|e] may cause another problem in the future#!",
+  "uk": "#italic Згодом ці [Concept('characters','персонажі')|e] можуть викликати нові неприємності#!"
+ }
+}

@@ -1,0 +1,618 @@
+{
+ "opinion_benevolent_overlord": {
+  "en": "Benevolent Overlord",
+  "uk": "Великодушний сюзерен"
+ },
+ "opinion_cruel_officers": {
+  "en": "Cruel Officers",
+  "uk": "Грубі офіцери"
+ },
+ "opinion_embarrasing_loyalists": {
+  "en": "Loyalist Faux Pas",
+  "uk": "Помилка лоялістів"
+ },
+ "opinion_excellent_officers": {
+  "en": "Excellent Officers",
+  "uk": "Зразкові офіцери"
+ },
+ "opinion_export_bad": {
+  "en": "Economy Suffering due to Diverted Trade",
+  "uk": "Економіка страждає від зміни торговельних потоків"
+ },
+ "opinion_export_good": {
+  "en": "Increased Production Through Export",
+  "uk": "Зростання виробництва завдяки експорту"
+ },
+ "opinion_low_legitimacy": {
+  "en": "Low Legitimacy",
+  "uk": "Нестача легітимності"
+ },
+ "opinion_money_sent": {
+  "en": "Sent us money in our time of need",
+  "uk": "Фінансова допомога в час потреби"
+ },
+ "opinion_no_money": {
+  "en": "Sent no money in our time of need",
+  "uk": "Відмова у фінансовій допомозі в час потреби"
+ },
+ "opinion_purged_manpower": {
+  "en": "Purged useful but badly disciplined soldiers",
+  "uk": "Армію звільнено від недисциплінованих вояків"
+ },
+ "opinion_refused_send_help": {
+  "en": "Refused to send help in our time of need",
+  "uk": "Відмова в допомозі в час потреби"
+ },
+ "opinion_reprimanded": {
+  "en": "Reprimanded for using support wrongly",
+  "uk": "Критика через неправильне використання допомоги"
+ },
+ "opinion_resourceful": {
+  "en": "Used support in a resourceful way",
+  "uk": "Вигідне використання військової допомоги"
+ },
+ "opinion_scutage_benefits": {
+  "en": "Scutage Benefits",
+  "uk": "Користь від скутагію"
+ },
+ "opinion_sent_help": {
+  "en": "Sent Help",
+  "uk": "Допомогу надіслано"
+ },
+ "opinion_small_smuggling_ok": {
+  "en": "Small-scale Smuggling OK",
+  "uk": "Дрібну контрабанду не переслідують"
+ },
+ "opinion_smuggling_hindered": {
+  "en": "Hindered from Smuggling",
+  "uk": "Контрабанду заборонено"
+ },
+ "opinion_tyrant_overlord": {
+  "en": "Tyrant Overlord",
+  "uk": "Деспотичний сюзерен"
+ },
+ "subject_interaction_events.1.a": {
+  "en": "Ask for help from The [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip].",
+  "uk": "[ROOT.GetCountry.GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip] нам допоможе."
+ },
+ "subject_interaction_events.1.b": {
+  "en": "Deal with it ourselves.",
+  "uk": "Ми впораємося власними силами."
+ },
+ "subject_interaction_events.1.desc": {
+  "en": "The former monarch of [ROOT.GetCountry.GetName] had [target_previous_ruler.GetHerHis] supporters, and many them believe they have a better claim to the throne of [ROOT.GetCountry.GetName] than [target_ruler.GetName]. They have managed to gather up a rather large following, and are marching towards [ROOT.GetCountry.GetCapital.GetName], intent to place the 'true' ruler on the throne.",
+  "uk": "У колишнього правителя #L [ROOT.GetCountry.GetAdjective|l]ого#! престолу залишилося чимало прихильників, і багато хто з них вважає, що має більше прав на трон #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, ніж [target_ruler.GetName]. Вони зібрали велике військо і тепер ідуть на місто [ROOT.GetCountry.GetCapital.GetName], щоб посадити там на престол свого кандидата."
+ },
+ "subject_interaction_events.1.title": {
+  "en": "Pretender Rises",
+  "uk": "Поява претендента"
+ },
+ "subject_interaction_events.10.a": {
+  "en": "Our men can take orders, They did not try hard enough!",
+  "uk": "Наші воїни знають, як виконувати команди. Їхні недовчені командири недостатньо старалися!"
+ },
+ "subject_interaction_events.10.desc": {
+  "en": "There are always trouble when people from different cultures, with different languages, traditions and sometimes even religion come together and must work as an unit even when so many things differ from them. The manpower we send to [subject_target.GetName] has caused more trouble than [subject_target.GetGovernment.GetFullRulerName] was willing to deal with, and so some of the men have been sent back to us.",
+  "uk": "Коли люди різних культур і релігій, кожен зі своїми традиціями та мовою, змушені діяти спільно, їм не завжди вдається подолати свої відмінності. Вояки, яких відправили до #ONCLICK:COUNTRY,[subject_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[subject_target.Custom('CL_tt')],X [subject_target.Custom('CL_ACC')|L]#!#!, завдавали місцевій владі надто багато проблем, тож урешті-решт [subject_target.GetGovernment.GetFullRulerName|l] [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'була змушена', 'був змушений')] відіслати деяких із них назад."
+ },
+ "subject_interaction_events.10.title": {
+  "en": "Soldiers Causing Mischief in [subject_target.GetName]",
+  "uk": "Неспокійні вояки #ONCLICK:COUNTRY,[subject_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[subject_target.Custom('CL_tt')],X [subject_target.Custom('CL_GEN')|L]#!#!"
+ },
+ "subject_interaction_events.14.a": {
+  "en": "An opportunity like this seldom appears, we must accept!",
+  "uk": "Таку можливість не можна втрачати!"
+ },
+ "subject_interaction_events.14.b": {
+  "en": "It is not worth risking our overlord's wrath for this.",
+  "uk": "Не варто ризикувати і провокувати нашого сюзерена."
+ },
+ "subject_interaction_events.14.ct": {
+  "en": "There's a slight chance our overlord might notice this",
+  "uk": "Є невелика ймовірність, що сюзерен дізнається про наші справи з контрабандистами"
+ },
+ "subject_interaction_events.14.desc": {
+  "en": "Recent embargoes against our overlord's rivals might be the end of us, financially. Thankfully, there are esteemed individuals in [ROOT.GetCountry.GetName] who would graciously help us with our trading problem. Though it might be silly to call such a small operation 'smuggling', that is exactly what it is and as we might be breaking some of the embargoes our overlord demanded of us, they will probably not be happy with our misconduct.",
+  "uk": "Ембарго, яке наш сюзерен увів проти своїх суперників, може остаточно поховати нашу економіку. На щастя, деякі поважні громадяни #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! готові вирішити всі наші торговельні труднощі. І хоча це сущий дріб'язок, сюзерен може вважати подібне порушення ембарго контрабандою. Якщо все викриється, у нас виникнуть великі неприємності…"
+ },
+ "subject_interaction_events.14.title": {
+  "en": "Embargoes and Smugglers",
+  "uk": "Ембарго і контрабандисти"
+ },
+ "subject_interaction_events.15.a": {
+  "en": "Force them to stop the smuggling, now!",
+  "uk": "Змусимо їх негайно припинити контрабандну торгівлю!"
+ },
+ "subject_interaction_events.15.b": {
+  "en": "They may continue this small endeavor.",
+  "uk": "Хай продовжують свою вигідну справу."
+ },
+ "subject_interaction_events.15.desc": {
+  "en": "Our embargoes against our rivals are not working as well as we had hoped them to, and one reason might be that one of our vassals is still trading with them! They are smuggling goods back and forth and thus interfering with our goals and making us appear weak. The smuggling is very minor, but could become very damaging to us.\\nOn the other hand powerful business interests would be willing to pay for ignoring the smuggling.",
+  "uk": "Ембарго, яке ми ввели проти своїх суперників, виявилося недостатньо ефективним — а причина в тому, що один із наших васалів як і раніше з ними торгує! Ці нелегальні товарні потоки не лише підривають нашу стратегію, а й виставляють нас посміховиськом в очах усього світу! І хай обсяги контрабанди доволі незначні, але потенційна шкода від неї величезна.\\nУтім, варто зауважити, що могутні представники ділових кіл готові щедро заплатити за те, що ми заплющимо очі на контрабанду."
+ },
+ "subject_interaction_events.15.title": {
+  "en": "Our Vassal's Smugglers",
+  "uk": "Контрабандисти на службі у васала"
+ },
+ "subject_interaction_events.16.a": {
+  "en": "They are forcing us to stop this smuggling!",
+  "uk": "Нас змушують припинити контрабанду!"
+ },
+ "subject_interaction_events.16.b": {
+  "en": "As long as we keep it small, we may continue.",
+  "uk": "Ми можемо продовжувати операцію, але в малих обсягах."
+ },
+ "subject_interaction_events.16.desc": {
+  "en": "Our smuggling operation has been exposed by [From.Country.GetName], the smugglers literally caught in the act while off-loading goods to be taken to one of [From.Country.GetName]'s rivals. The cowards confessed everything, even for how long this operation had been going on.",
+  "uk": "#L [From.GetCountry.GetAdjective]а#! влада дізналася про контрабанду! Наших контрабандистів спіймали на місці злочину — під час розвантаження товарів, призначених для одного із суперників #ONCLICK:COUNTRY,[From.Country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[From.Country.Custom('CL_tt')],X [From.Country.Custom('CL_GEN')|L]#!#!. Боягузливі негідники в усьому зізналися і виклали всі подробиці нашої операції…"
+ },
+ "subject_interaction_events.16.title": {
+  "en": "Busted!",
+  "uk": "Викриття"
+ },
+ "subject_interaction_events.17.a": {
+  "en": "Ungrateful morons!",
+  "uk": "Невдячні дурні!"
+ },
+ "subject_interaction_events.17.desc": {
+  "en": "In exchange for some peace and quiet, our vassals are obliged to pay more income to us, their overlord. They are not called into any of our wars, which we believe is a great trade-off - for some gold they are excluded from almost all wars. One of our vassals wonder if it weren't better if they were called into wars instead of paying these - in their meaning - 'ridiculous sums'.",
+  "uk": "Наші васали сплачують частину доходів нам, своєму сюзерену, а за це їм гарантовано мир і спокій. Їм не доводиться брати участь у наших військових конфліктах, і нам це видається чудовою угодою — за скромну плату вони позбавлені всіх жахів війни. Але дехто з наших васалів невдоволений такою угодою — їм здається, що вже краще брати участь у війні, ніж виплачувати такі, як вони кажуть, «колосальні гроші»."
+ },
+ "subject_interaction_events.17.title": {
+  "en": "War Never Changes",
+  "uk": "Війна ніколи не змінюється"
+ },
+ "subject_interaction_events.18.a": {
+  "en": "We told them this would work!",
+  "uk": "Ми ж казали, що так буде краще!"
+ },
+ "subject_interaction_events.18.desc": {
+  "en": "As our war-ravaged land are slowly being rebuilt, we have noticed a look in our vassal's ambassador's eyes, a look of comprehension and fear mixed with some relief that the land they are looking at is not their own. 'Now,' they say, 'the gold we pay in scutage to avoid being called into war seems like small sum, something we could easily part with in exchange for peace.'",
+  "uk": "Дивлячись на наші міста, зруйновані війною, що повільно піднімаються з попелу, посол васальної держави впадає у ступор. Страх в його очах змішується з деяким полегшенням від усвідомлення того, що його держава уникнула розорення. «Тепер я розумію справжню ціну грошей, які ми платимо в обмін на те, щоб не брати участі в бойових діях, — замислено каже дипломат. — Якщо подумати, це зовсім невелика плата за мир…»"
+ },
+ "subject_interaction_events.18.title": {
+  "en": "Benefits of Scutage",
+  "uk": "Переваги скутагію"
+ },
+ "subject_interaction_events.2.a": {
+  "en": "Send them gold and soldiers.",
+  "uk": "Відправимо їм золото і вояків."
+ },
+ "subject_interaction_events.2.b": {
+  "en": "They will have to deal with it themselves.",
+  "uk": "Їм доведеться справлятися самим."
+ },
+ "subject_interaction_events.2.desc": {
+  "en": "A rebel army led by a pretender is marching towards [subject_in_need.GetName]'s capital [subject_in_need.GetCapital.GetName]! Family members of the deposed monarch of [subject_in_need.GetName] have managed to gather up a rather large following and are now trying to dethrone [subject_in_need.GetGovernment.GetFullRulerName].",
+  "uk": "Армія заколотників на чолі з претендентом на трон іде на столицю #ONCLICK:COUNTRY,[subject_in_need.Custom('CL_tt')] #TOOLTIP:COUNTRY,[subject_in_need.Custom('CL_tt')],X [subject_in_need.Custom('CL_GEN')|L]#!#!! Родичі поваленого #L [subject_in_need.GetAdjective|l]ого#! монарха зібрали значні сили і хочуть захопити місто [subject_in_need.GetCapital.GetName]. Якщо це станеться, [subject_in_need.GetGovernment.GetFullRulerName|l] може втратити владу!"
+ },
+ "subject_interaction_events.2.title": {
+  "en": "[subject_in_need.GetName] asks for help",
+  "uk": "[subject_in_need.GetName] потребує допомоги"
+ },
+ "subject_interaction_events.20.a": {
+  "en": "Convince them to budget the monthly payments better.",
+  "uk": "Переконаємо їх ретельніше контролювати щомісячні витрати."
+ },
+ "subject_interaction_events.20.b": {
+  "en": "Send them a small sum to secure their loyalty.",
+  "uk": "Надішлемо невелику суму, щоб заручитися їхньою відданістю."
+ },
+ "subject_interaction_events.20.desc": {
+  "en": "We pay loyalists to keep the Liberty Desire in our junior partner's country low and manageable, but the latest reports have become more and more desperate in their pleas for money. Money that they must be squandering, not using it to ensure that the relationship between our country and theirs remain in place!",
+  "uk": "Ми регулярно виплачуємо великі суми лоялістам, щоб вони стримували прагнення до незалежності в державі, яка є нашим молодшим партнером, проте останнім часом вони вимагають дедалі більше грошей. Здається, вони витрачають наші кошти на все що завгодно, тільки не на підтримання дружніх відносин між нашими державами!"
+ },
+ "subject_interaction_events.20.title": {
+  "en": "Squandering Loyalists",
+  "uk": "Марнотратні лоялісти"
+ },
+ "subject_interaction_events.21.a": {
+  "en": "Off with their heads and put them on the walls of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]!",
+  "uk": "Хай їхні голови прикрасять стіни міста [ROOT.GetCountry.GetCapital.GetName]!"
+ },
+ "subject_interaction_events.21.b": {
+  "en": "Surely there is something we can do to forget and forgive this unfortunate event?",
+  "uk": "Напевно можна якось загладити наслідки цієї прикрої події."
+ },
+ "subject_interaction_events.21.desc": {
+  "en": "Though we all appreciate the patriots, the loyalists, the ones who love their country and will protect it to all costs, when they manage to embarrass us in front of the whole court their lovability decreases fiercely. This is not what we pay for, that handsome sum that every month disappears into their greedy pockets! The relationship we try to protect is worth more than their lice-filled heads.",
+  "uk": "Без жодних сумнівів, ми високо цінуємо патріотів, лоялістів і всіх, хто любить свою державу і готовий захищати її до останньої краплі крові. Але коли вони примудряються зганьбити нас на очах усього двору, наші симпатії до них різко холонуть. Ми дозволяємо їм набивати кишені не для того, щоб вони змушували нас червоніти! Наші дипломатичні відносини коштують набагато дорожче, ніж їхні порожні голови!"
+ },
+ "subject_interaction_events.21.title": {
+  "en": "The Loyalist Embarrassment",
+  "uk": "Провал лоялістів"
+ },
+ "subject_interaction_events.22.a": {
+  "en": "That is a nice surprise!",
+  "uk": "Який приємний сюрприз!"
+ },
+ "subject_interaction_events.22.desc": {
+  "en": "The money sent to loyalists in one of the countries that is a subject to us with has been well spent, more than we could ever have imagined and anticipated. The Liberty Desire of their people has lowered well beyond what we thought possible.",
+  "uk": "Гроші, витрачені на лоялістів в одній із держав-васалів, принесли навіть більше дивідендів, ніж ми наважувалися мріяти. Місцеве населення масово відвертається від прихильників незалежності."
+ },
+ "subject_interaction_events.22.title": {
+  "en": "Successful Loyalists",
+  "uk": "Успіх лоялістів"
+ },
+ "subject_interaction_events.24.a": {
+  "en": "We need to teach our officers how to become gentlemen!",
+  "uk": "Ми повинні навчити своїх офіцерів поводитися по-джентльменськи!"
+ },
+ "subject_interaction_events.24.desc": {
+  "en": "'Many small streams creates a large flood' - a proverb that unfortunately proved true in our protectorate. Small events, barely noticeable to us but great slights to those who witnessed or were exposed to them, together with older complains and bitter memories from when the country became our protectorate became the final straw. The deplorable, no, cruel behavior of the officers we sent, has led to a rift and a bad relationship between us and the protectorate.",
+  "uk": "Як говорить приказка, будь-яка ріка починається з струмка. На жаль, саме це й сталося в нашому протектораті. Там регулярно відбуваються події, які звідси здаються цілком незначними, але для місцевих жителів вони є постійним джерелом невдоволення та роздратування. Потрапивши на старі дріжджі образ і гірких спогадів про втрачену незалежність, ці ексцеси призвели до вибуху. Обурлива і хамська поведінка наших офіцерів призвела до різкого погіршення наших відносин із протекторатом."
+ },
+ "subject_interaction_events.24.title": {
+  "en": "The Cruel Behavior of Uncouth Officers",
+  "uk": "Огидна поведінка невихованих офіцерів"
+ },
+ "subject_interaction_events.25.a": {
+  "en": "We couldn't be prouder.",
+  "uk": "Це справді привід для гордості."
+ },
+ "subject_interaction_events.25.desc": {
+  "en": "The code of conduct we tried to imprint in every officers' mind before they left our country to work as army instructors in one of our protectorates might not have been time wasted. We have received a message applauding and expressing how impressive the behavior and strict discipline these officers show, and we as a whole country should be proud that we have managed to make gentlemen out of our officers.",
+  "uk": "Зусилля, витрачені на впровадження в офіцерському середовищі особливого кодексу поведінки, принесли свої плоди. Влада нашого протекторату висловлює захоплення бездоганними манерами і суворою дисципліною присланих нами військових інструкторів. Держава має право пишатися тим, що наш офіцерський корпус складається зі зразкових джентльменів."
+ },
+ "subject_interaction_events.25.title": {
+  "en": "A Gentleman and an Officer",
+  "uk": "Офіцер і джентльмен"
+ },
+ "subject_interaction_events.26.a": {
+  "en": "Quantity and quality, that's the way.",
+  "uk": "Кількість і якість зовсім не виключають одне одного."
+ },
+ "subject_interaction_events.26.desc": {
+  "en": "We control the trade of our protectorate, and the more we manage to export of all the things they grow and produce, the larger the crop! Somehow we have managed to increase both the quality and quantity of their production, and increased our trade power as well.",
+  "uk": "Зовнішня торгівля протекторату перебуває під нашим управлінням, і ось що дивно — чим більше продукції ми вивозимо, тим більші їхні врожаї! Якимось чином нам вдалося не лише підвищити обсяги, а й поліпшити якість їхніх товарів, а заодно й розширити наш вплив на світових ринках."
+ },
+ "subject_interaction_events.26.title": {
+  "en": "The more we sell, the more we sow, the more we grow",
+  "uk": "Чим вищі продажі, тим продуктивніша праця"
+ },
+ "subject_interaction_events.27.a": {
+  "en": "As long as all they do is complain, we do not care.",
+  "uk": "Хай скаржаться, якщо це все, на що вони здатні."
+ },
+ "subject_interaction_events.27.desc": {
+  "en": "The traders and merchants of our protectorates suffered a major blow to their trade when we decided to take control of their country's trade power. Their complaints about the 'hardships' this mercantile policy has brought upon them reached the ruler of the protectorate, who agrees with them and has made it clear that our relationships with them is suffering because of this.",
+  "uk": "Коли ми взяли зовнішню торгівлю протекторату під свій контроль, це завдало величезної шкоди інтересам місцевих купців. Їхні постійні скарги досягли вух правителя цієї держави, і той дав зрозуміти, що наша торговельна політика спричиняє тріщини в дипломатичних відносинах із протекторатом."
+ },
+ "subject_interaction_events.27.title": {
+  "en": "Exacerbation of Export Effects",
+  "uk": "Негативний вплив експорту"
+ },
+ "subject_interaction_events.29.a": {
+  "en": "Berate them for speaking out against us in public.",
+  "uk": "Докоримо їм за виклик, кинутий публічно."
+ },
+ "subject_interaction_events.29.b": {
+  "en": "They may be right, and it should not affect their opinion of us.",
+  "uk": "У чомусь вони мають рацію. Це не повинно позначитися на відносинах між нашими державами."
+ },
+ "subject_interaction_events.29.desc": {
+  "en": "Though our grip on the throne of [ROOT.GetCountry.GetName] may be slipping and our legitimacy questioned, our pride and prestige took a hit when one of our subjects spoke up against us in public. They claim that we have no right in trying to govern them too as we can barely manage our own country.",
+  "uk": "Навіть якщо #L [ROOT.GetCountry.GetAdjective|l]ий#! трон справді захитався, а легітимність нашої влади поставлено під сумнів — це не дає васалам права публічно виступати проти нас, підриваючи нашу національну гордість і престиж держави. Вони наважуються заявляти, що ми не можемо керувати їхньою державою, бо ледве втримуємо владу над своєю власною!"
+ },
+ "subject_interaction_events.29.title": {
+  "en": "Legitimacy Questioned",
+  "uk": "Легітимність під питанням"
+ },
+ "subject_interaction_events.3.a": {
+  "en": "[ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetFullRulerName] sent us gold and soldiers!",
+  "uk": "[ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetFullRulerName] [Select_CString(ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetRuler.IsFemale,'прислала', 'прислав')] нам золото і вояків!"
+ },
+ "subject_interaction_events.3.b": {
+  "en": "[ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetFullRulerName] refused to send us help!",
+  "uk": "[ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetFullRulerName] [Select_CString(ROOT.GetCountry.GetDiplomacy.GetOverlord.GetGovernment.GetRuler.IsFemale,'відмовила', 'відмовив')] нам у допомозі!"
+ },
+ "subject_interaction_events.3.desc": {
+  "en": "The pretender rebels are closing in on us, and the messenger sent to [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetName] should return soon. If we are lucky, perhaps the messenger will have soldiers and gold from [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetName] that will help us repel those bastard rebels!",
+  "uk": "Армія претендента все ближче, але й посланець, відправлений до столиці #ONCLICK:COUNTRY,[ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_tt')],X [ROOT.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_GEN')|L]#!#!, ось-ось повернеться з відповіддю. Якщо доля від нас не відвернулася, він привезе золото і #L [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetAdjective|l]их#! вояків, які допоможуть розбити прокляту голоту!"
+ },
+ "subject_interaction_events.3.title": {
+  "en": "Help Arrives?",
+  "uk": "Допомога вже близько?"
+ },
+ "subject_interaction_events.30.a": {
+  "en": "Intervene, send them money and a ladder!",
+  "uk": "Ми зобов'язані втрутитися. Відправимо їм грошей!"
+ },
+ "subject_interaction_events.30.b": {
+  "en": "They have no one to blame but themselves!",
+  "uk": "Їм нікого звинувачувати, крім самих себе!"
+ },
+ "subject_interaction_events.30.desc": {
+  "en": "A ruler keen of the very best the country can provide, a treasury governed by greedy and incompetent persons, investments that went wrong and too many loans... That is how you dig the hole called bankruptcy, and it might have been all those or just one that made one of our subjects stumble into the hole and fall all the way to the bottom. We can help them get partially out of that hole with a donation of money, or ignore it and make them help themselves.",
+  "uk": "Правитель, який бажає володіти лише найкращим, жадібність і некомпетентність місцевих скарбників, невдалі вкладення, надмірні позики… До безодні банкрутства веде багато шляхів, і один із наших васалів, на жаль, випив цю чашу до дна. Ми можемо підтримати цю державу коштами і допомогти їй вибратися з боргової ями, або ж просто махнути рукою — хай рятуються як можуть."
+ },
+ "subject_interaction_events.30.title": {
+  "en": "The Hole Called Bankruptcy",
+  "uk": "Безодня банкрутства"
+ },
+ "subject_interaction_events.32.a": {
+  "en": "Make an example out of them.",
+  "uk": "Дамо їм урок."
+ },
+ "subject_interaction_events.32.b": {
+  "en": "We are sure we can smooth things over.",
+  "uk": "Ми напевно зможемо згладити конфлікт."
+ },
+ "subject_interaction_events.32.desc": {
+  "en": "Our warmongering, so they say, has caused ire among our subjects. As the rumors go then they think we care little for ruling justly and more about conquering like barbarians. As false and rude as they are it would be unwise to leave this be.",
+  "uk": "Невдоволені васали заявляють, що наша держава веде надмірно войовничу політику. За їхніми словами, ми подібні до варварів, що мріють лише про нові завоювання, а справедливе управління нас зовсім не цікавить. Ми не можемо спустити їм з рук цю образливу наклепу!"
+ },
+ "subject_interaction_events.32.title": {
+  "en": "Subject Turns Against Us",
+  "uk": "Віроломні васали"
+ },
+ "subject_interaction_events.33.a": {
+  "en": "An eye for an eye...",
+  "uk": "Око за око…"
+ },
+ "subject_interaction_events.33.desc": {
+  "en": "Due to malcontent our liege has seen fit to make an example out of our nation. It is a disgrace.",
+  "uk": "Дізнавшись про невдоволення, що зріє серед нас, сюзерен вирішив демонстративно покарати нашу державу. Це обурливо!"
+ },
+ "subject_interaction_events.33.title": {
+  "en": "Liege Makes Example of Us",
+  "uk": "Сюзерен дав нам урок"
+ },
+ "subject_interaction_events.34.a": {
+  "en": "This time will be remembered",
+  "uk": "Ми це запам'ятаємо."
+ },
+ "subject_interaction_events.34.b": {
+  "en": "This should be exploited",
+  "uk": "Цим можна скористатися!"
+ },
+ "subject_interaction_events.34.desc": {
+  "en": "It is well known that our subjects are some of the most content and loyal in the world. To drive a wedge between us and them is thankfully virtually impossible, and as such it does reflect well on our nation.",
+  "uk": "Усім відомо, що наші васали — найвідданіші у світі. Наша влада їх цілком влаштовує, і ніхто не зможе вбити клин між нашими державами. Така вірність відображається на престижі нашої держави."
+ },
+ "subject_interaction_events.34.title": {
+  "en": "Loyal Subjects",
+  "uk": "Вірні васали"
+ },
+ "subject_interaction_events.35.a": {
+  "en": "Let it be",
+  "uk": "Нічого страшного."
+ },
+ "subject_interaction_events.35.b": {
+  "en": "Deal with it",
+  "uk": "Розберемося з ними."
+ },
+ "subject_interaction_events.35.desc": {
+  "en": "It is no secret that the animosity between us and our subjects are a dire one indeed. In our court the halls runs red with blood and black with secrets as hatreds flourish. Naturally this has to be dealt with.",
+  "uk": "Усі знають, що відносини між нами і нашими васалами безнадійно зіпсовані. При дворі не припиняються жорстокі вбивства, лиходії плетуть нитки змов проти нашої держави. Треба щось робити."
+ },
+ "subject_interaction_events.35.title": {
+  "en": "Disloyal Subjects",
+  "uk": "Непокірні васали"
+ },
+ "subject_interaction_events.36.a": {
+  "en": "Guns need men to fire them",
+  "uk": "Без людей наші гармати марні."
+ },
+ "subject_interaction_events.36.b": {
+  "en": "We cannot risk antagonizing our subjects",
+  "uk": "Ми не можемо дозволити собі сваритися з васалами."
+ },
+ "subject_interaction_events.36.desc": {
+  "en": "It appears our country is getting rather empty and lacking in a very important resource: Cannon fodder. Fear not! While we may lack this resource then one of our subjects have plenty of fresh meat for the battlefields. Should we force their servitude they would be less than pleased, but such is the way of things.",
+  "uk": "Здається, у нас у державі ось-ось закінчиться один винятково цінний ресурс: жива сила. Але не біда — в одного з наших васалів предостатньо гарматного м'яса. Навряд чи вони зрадіють, якщо примусити їх до несення військової служби — але що вдієш, таке життя."
+ },
+ "subject_interaction_events.36.title": {
+  "en": "Cannon Fodder",
+  "uk": "Гарматне м'ясо"
+ },
+ "subject_interaction_events.37.a": {
+  "en": "This is an outrage!",
+  "uk": "Обурливо!"
+ },
+ "subject_interaction_events.37.desc": {
+  "en": "It seems our liege has seen fit to force the servitude our subjects to make up for foolish leadership. Our fields grow emptier and will probably remain that way.",
+  "uk": "Схоже, наш сюзерен має намір примусити васалів до військової служби і вирішити свої проблеми за наш рахунок. Тепер на полях нікому працювати, і це не зміниться найближчим часом."
+ },
+ "subject_interaction_events.37.title": {
+  "en": "Cannon Fodder",
+  "uk": "Гарматне м'ясо"
+ },
+ "subject_interaction_events.38.a": {
+  "en": "An extra tax might help",
+  "uk": "Додаткові податки підуть нам на користь."
+ },
+ "subject_interaction_events.38.b": {
+  "en": "We do not need them",
+  "uk": "Ми не потребуємо їх"
+ },
+ "subject_interaction_events.38.desc": {
+  "en": "It would be an understatement to say our economy is performing 'poorly', in fact some would say this is a disaster. While we struggle to make ends meet our subjects, of all people, are doing more than well. Perhaps we are not taxing them enough.",
+  "uk": "Сказати, що в нас в економіці «проблеми» — це нічого не сказати. У нас справжня катастрофа! А поки ми ледве зводимо кінці з кінцями, наші васали процвітають. Здається, ми стягуємо з них недостатньо податків…"
+ },
+ "subject_interaction_events.38.title": {
+  "en": "An Extra Tax",
+  "uk": "Додатковий податок"
+ },
+ "subject_interaction_events.39.a": {
+  "en": "Damn them!",
+  "uk": "Ось мерзотники!"
+ },
+ "subject_interaction_events.39.desc": {
+  "en": "Our liege has required us to pay a large sum of gold to help repair their failing economy.",
+  "uk": "Сюзерен вимагає, щоб ми виплатили велику суму золотом і цим допомогли вивести його економіку з кризи."
+ },
+ "subject_interaction_events.39.title": {
+  "en": "An Extra Tax",
+  "uk": "Додатковий податок"
+ },
+ "subject_interaction_events.4.a": {
+  "en": "Replace them with [better_ruler.GetNameWithNoTooltip]",
+  "uk": "[better_ruler.GetName] буде більш [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'відповідною правителькою', 'відповідним правителем')]."
+ },
+ "subject_interaction_events.4.b": {
+  "en": "This can only bring disorder to the country. Leave it be.",
+  "uk": "Зміни у владі призведуть лише до безладів. Хай править, як уміє."
+ },
+ "subject_interaction_events.4.desc": {
+  "en": "Our dearly beloved [subject_target.GetGovernment.GetFullRulerName] that rules over our subject [subject_target.GetName] has proven to be an incompetent buffoon, one that cannot and should not rule over any country.",
+  "uk": "[Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'Наша дорога', 'Наш дорогий')] [subject_target.GetGovernment.GetFullRulerName|l], [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'яка', 'який')] править нашим васалом #ONCLICK:COUNTRY,[subject_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[subject_target.Custom('CL_tt')],X [subject_target.Custom('CL_INST')|L]#!#!, [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'показала', 'показав')] себе абсолютно [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'безпорадною правителькою', 'безпорадним правителем')]. Таких, як [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'вона', 'він')], не можна підпускати до трону на гарматний постріл."
+ },
+ "subject_interaction_events.4.title": {
+  "en": "Incompetent Relative",
+  "uk": "[Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'Некомпетентна родичка', 'Некомпетентний родич')]"
+ },
+ "subject_interaction_events.43.a": {
+  "en": "Send aid",
+  "uk": "Відправимо допомогу."
+ },
+ "subject_interaction_events.43.b": {
+  "en": "$common_string_let_them_fend_for_themselves$",
+  "uk": ""
+ },
+ "subject_interaction_events.43.desc": {
+  "en": "It would seem that with our wars that one of ours subjects have been destabilized quite a bit. Of course we could just let them handle it, but it would be a show of good faith if we aided them.",
+  "uk": "Схоже, наші постійні війни сильно ускладнили обстановку в одній із васальних держав. Звісно, можна залишити їх наодинці з цими проблемами, але якщо ми їм допоможемо, це стане добрим знаком для інших держав."
+ },
+ "subject_interaction_events.43.title": {
+  "en": "Subject is Tired of War",
+  "uk": "Васал втомився від війни"
+ },
+ "subject_interaction_events.44.a": {
+  "en": "Send thanks",
+  "uk": "Подякуємо йому."
+ },
+ "subject_interaction_events.44.desc": {
+  "en": "Our liege has seen fit to send aid so we can rebuild our country after the wars.",
+  "uk": "Наш сюзерен вирішив допомогти з післявоєнним відновленням нашої держави."
+ },
+ "subject_interaction_events.44.title": {
+  "en": "Liege Sends Aid",
+  "uk": "Сюзерен надіслав допомогу"
+ },
+ "subject_interaction_events.45.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
+  "uk": ""
+ },
+ "subject_interaction_events.45.desc": {
+  "en": "Now that we are no longer subject to another country's whims we can conduct our own trade policies and will not have to live from circumventing trade regulations and smuggling.",
+  "uk": "Наша торгівля більше не залежить від примх іншої держави. Тепер ми маємо право самі визначати свою торговельну політику, а не покладатися на контрабанду, щоб обходити чужі заборони."
+ },
+ "subject_interaction_events.45.title": {
+  "en": "Economic Freedom",
+  "uk": "Економічна свобода"
+ },
+ "subject_interaction_events.46.a": {
+  "en": "So be it.",
+  "uk": "Хай буде так."
+ },
+ "subject_interaction_events.46.b": {
+  "en": "They will join us eventually, but not as equals!",
+  "uk": "Вони все одно до нас приєднаються — але вже не на рівних!"
+ },
+ "subject_interaction_events.46.desc": {
+  "en": "The representative from [target.GetName] has delivered to us a draft proposal on the union of our two nations.\\n\\nThey are prepared to immediately unite with the [ROOT.GetCountry.GetLongName] on the condition that we give [target.GetCulture.GetName] people and their traditions the same protection that we afford to our own.",
+  "uk": "#L [target.GetAdjective]ий#! посланець вручив нам проект договору про унію між двома державами.\\n\\nУряд #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_RP')|L]#!#! проявить готовність об'єднатися з нашою державою, а [ROOT.GetCountry.GetLongName] — свою готовність надати своїм #L [target.GetCulture.GetName|l]им#! підданим ті самі права, що й корінному населенню."
+ },
+ "subject_interaction_events.46.title": {
+  "en": "Equal Status",
+  "uk": "Рівний статус"
+ },
+ "subject_interaction_events.47.a": {
+  "en": "It is just business.",
+  "uk": "Бізнес є бізнес."
+ },
+ "subject_interaction_events.47.b": {
+  "en": "We must do this honestly, or not at all!",
+  "uk": "Унія відбудеться чесно — або її не буде взагалі!"
+ },
+ "subject_interaction_events.47.desc": {
+  "en": "Our envoys in [target.GetCapital.GetName] have discovered that a number of key [target.GetAdjective] diplomats would be prepared to push through the union of our countries immediately—for a price.",
+  "uk": "Нашим посланцям у місті [target.GetCapital.GetName] вдалося з'ясувати, що деякі видатні #L [target.GetAdjective|l]і#! дипломати готові підтримати негайне підписання договору про унію між нашими державами. Не безкоштовно, звісно."
+ },
+ "subject_interaction_events.47.title": {
+  "en": "Corrupt Diplomats",
+  "uk": "Корумповані дипломати"
+ },
+ "subject_interaction_events.48.a": {
+  "en": "The problem is solved!",
+  "uk": "Ось і вирішення проблеми!"
+ },
+ "subject_interaction_events.48.b": {
+  "en": "This evidence is very shaky...",
+  "uk": "Доволі сумнівні докази…"
+ },
+ "subject_interaction_events.48.desc": {
+  "en": "After much studying of ancient manuscripts, [target.GetAdjective] heralds in [target.GetCapital.GetName] have started to claim that their [target.GetGovernment.GetRulerTitle], [new_king.GetName] has a distant but clear claim to the [ROOT.GetCountry.GetAdjective] throne.\\n\\nThey say that if we agree to install [new_king.GetHimHer], then our countries will finally be as good as united.",
+  "uk": "Ретельно вивчивши старовинні сувої, #L [target.GetAdjective|l]і#! герольди в місті [target.GetCapital.GetName] оголосили, що їхній [target.GetGovernment.GetRulerTitle|l] [new_king.GetName] має законні права на #L [ROOT.GetCountry.GetAdjective|l]ий#! престол.\\n\\nЯкщо ми погодимося звести [Select_CString(new_king.IsFemale,'її', 'його')] на трон, це означатиме фактичне об'єднання наших держав."
+ },
+ "subject_interaction_events.48.title": {
+  "en": "[target.GetAdjectiveWithNoTooltip] Claimant",
+  "uk": "[target.GetAdjectiveWithNoTooltip]ий претендент"
+ },
+ "subject_interaction_events.5.a": {
+  "en": "If we ever had doubts, they are long forgotten now.",
+  "uk": "Якщо в нас і були сумніви, то тепер їх не залишилося."
+ },
+ "subject_interaction_events.5.desc": {
+  "en": "Reforms have been taken, useless ministers and advisors fired, the army and navy have never been better... It seems that our [subject_target.GetGovernment.GetFullRulerName] is serving our subject [subject_target.GetName] well, ruling with a firm hand and making competent decisions.",
+  "uk": "Уряд #ONCLICK:COUNTRY,[subject_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[subject_target.Custom('CL_tt')],X [subject_target.Custom('CL_GEN')|L]#!#! провів реформи, некомпетентних міністрів та радників звільнено, армія і флот сильні як ніколи… Схоже, [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'наша', 'наш')] [subject_target.GetGovernment.GetFullRulerName|l] [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'показала', 'показав')] себе [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'чудовою правителькою', 'чудовим правителем')]. [Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] приймає вірні рішення і править нашим васалом твердою рукою."
+ },
+ "subject_interaction_events.5.title": {
+  "en": "Competent Relative",
+  "uk": "[Select_CString(subject_target.GetGovernment.GetRuler.IsFemale,'Здібна родичка', 'Здібний родич')]"
+ },
+ "subject_interaction_events.7.a": {
+  "en": "Tell them how to use them, correctly!",
+  "uk": "Пояснимо їм, для чого відправляють військову допомогу!"
+ },
+ "subject_interaction_events.7.b": {
+  "en": "They are being resourceful, good for them!",
+  "uk": "Які заповзятливі люди! Молодці!"
+ },
+ "subject_interaction_events.7.desc": {
+  "en": "The support we sent our subject state has been used in ways we could never have foreseen! The men have been forced to build roads and buildings, clean town squares from litter and garbage and not once have they seen battle. Though the roads are broader and better than before, the buildings sturdier and the town squares immaculate, surely this was not how these men were supposed to be used?",
+  "uk": "Допомогу, яку ми направили нашому васалу, було використано зовсім не так, як ми очікували. Наших вояків відправили на будівництво будинків і доріг, а замість того, щоб битися, вони зайняті розчищенням міських площ від сміття! Так, дороги там тепер широкі й рівні, площі чисті, а будівлі міцні — але хіба для цього ми прислали їм людей?"
+ },
+ "subject_interaction_events.7.title": {
+  "en": "Military Support Misused",
+  "uk": "Військову допомогу витрачено марно"
+ },
+ "subject_interaction_events.8.a": {
+  "en": "[our_overlord.GetGovernment.GetFullRulerName] thinks we have wasted manpower.",
+  "uk": "[our_overlord.GetGovernment.GetFullRulerName] вважає, що ми неправильно використовуємо [Select_CString(our_overlord.GetGovernment.GetRuler.IsFemale,'її', 'його')] вояків."
+ },
+ "subject_interaction_events.8.b": {
+  "en": "[our_overlord.GetGovernment.GetFullRulerName] has complimented us for being resourceful.",
+  "uk": "[our_overlord.GetGovernment.GetFullRulerName] [Select_CString(our_overlord.GetGovernment.GetRuler.IsFemale,'вражена', 'вражений')] нашою заповзятливістю."
+ },
+ "subject_interaction_events.8.desc": {
+  "en": "[our_overlord.GetGovernment.GetFullRulerName] of [our_overlord.GetName] sent us resources to improve our army, but in these peaceful times there have been no need for soldiers. Instead of idling around doing nothing than train, eat and sleep, we have put them to use. They have been building roads and buildings, clean town squares from litter and garbage and other meaningful tasks that would otherwise take more time and money that [ROOT.GetCountry.GetName] has not.",
+  "uk": "[Select_CString(our_overlord.GetGovernment.GetRuler.IsFemale,'Правителька', 'Правитель')] #ONCLICK:COUNTRY,[our_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[our_overlord.Custom('CL_tt')],X [our_overlord.Custom('CL_GEN')|L]#!#! [our_overlord.GetGovernment.GetFullRulerName|l] [Select_CString(our_overlord.GetGovernment.GetRuler.IsFemale,'прислала', 'прислав')] нам допомогу для посилення армії, але зараз мирний час, і потреби у вояках немає. Замість того, щоб даремно годувати цих ледарів, ми приставили їх до діла. Тепер вояки будують будинки й дороги, очищають міські площі від сміття та виконують інші важливі завдання, на які в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! раніше не було ресурсів."
+ },
+ "subject_interaction_events.8.title": {
+  "en": "Resourceful or Reprimanded",
+  "uk": "Заповзятливий підхід"
+ },
+ "subject_interaction_events.9.a": {
+  "en": "Send them back to where they came from.",
+  "uk": "Відправимо їх назад."
+ },
+ "subject_interaction_events.9.b": {
+  "en": "Try to get them to behave.",
+  "uk": "Примусимо їх до порядку."
+ },
+ "subject_interaction_events.9.desc": {
+  "en": "We have had no shortage of manpower since our overlord started subsidizing our army, but there's been much trouble among the soldiers since the new ones arrived. Their culture, language, traditions and sometimes even religion differ from our own soldiers, and this causes a lot of trouble for us. They are less disciplined, or just plain refuses to take orders from our own generals.",
+  "uk": "Відколи сюзерен взявся допомагати нашій армії, у нас немає нестачі людей, але з появою нових вояків у казармах наростає напруга. Ці чужинці говорять іншою мовою, у них свої традиції, вони відрізняються від нас культурою і навіть релігією — і це стає серйозною проблемою. Їм бракує дисципліни, часто вони взагалі відмовляються виконувати накази наших командирів."
+ },
+ "subject_interaction_events.9.title": {
+  "en": "The Military Menace",
+  "uk": "Проблема з військовими"
+ },
+ "subject_interaction_events.ask_overlord_for_help": {
+  "en": "We will send an envoy to our liege to beg for help!",
+  "uk": "Терміново відправити посланця до нашого сюзерена, він не залишить нас у біді!"
+ }
+}

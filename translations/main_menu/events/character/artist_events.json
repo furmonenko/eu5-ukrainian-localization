@@ -1,0 +1,914 @@
+{
+ "artist.events.6.b": {
+  "en": "We have better things to spend our coin on.",
+  "uk": "Нам і так є на що витратити гроші."
+ },
+ "artist_busy_tt": {
+  "en": "While [target_character.GetNameWithNoTooltip] works to improve the production of [raw_material|e] in [target_location.GetNameWithNoTooltip] we will #R not#! be able to [ShowCharacterInteractionName('commission_art')] from [target_character.GetHerHim]",
+  "uk": "Поки [target_character.GetNameWithNoTooltip] покращує виробництво [Concept('raw_material','ресурсів')|e] в [target_location.Custom('LR_PP')|l] [target_location.GetNameWithNoTooltip], ми не зможемо використовувати з [Select_CString(target_character.IsFemale,'нею','ним')] взаємодію «[ShowCharacterInteractionName('commission_art')]»."
+ },
+ "artist_event.6.a": {
+  "en": "What words cannot say, art shall express!",
+  "uk": "Мистецтво виражає те, чого словами не висловити!"
+ },
+ "artist_events.1.a": {
+  "en": "All is fair in art and creation.",
+  "uk": "У мистецтві немає заборонених тем."
+ },
+ "artist_events.1.b": {
+  "en": "Grant the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] censorship rights over [target_character.GetHerHis] writings.",
+  "uk": "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] цензурують [Select_CString(target_character.IsFemale,'її', 'його')] праці."
+ },
+ "artist_events.1.c": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] are correct, off with [target_character.GetHerHis] head!",
+  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] праві. [target_character.GetName] позбудеться голови!"
+ },
+ "artist_events.1.d": {
+  "en": "We shall not be intimidated by promiscuous individuals, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] or otherwise!",
+  "uk": "Нас не залякають ці нечестивці, хай то [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] чи хтось інший!"
+ },
+ "artist_events.1.desc": {
+  "en": "Known for [target_character.GetHerHis] story-telling skills, [target_character.GetName] has recently forayed into liturgical and theological works, intertwining the divine with comedy and satire. These works, while caustic to the station of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] in our society, have brought forth a wave of [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] with an interest in culture and the written arts. Pressure has been mounting, motivated by our affected [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], to rid our [ROOT.GetCountry.GetGovernment.GetCourtTitle] of [target_character.GetNameWithNoTooltip] lest we risk the ire of [ROOT.GetCountry.GetReligion.GetGodName].",
+  "uk": "[target_character.GetName] славиться своїм талантом [Select_CString(target_character.IsFemale,'оповідачки', 'оповідача')]. Нещодавно [Select_CString(target_character.IsFemale,'вона ввірвалася', 'він ввірвався')] до літургійної та теологічної сфери, майстерно поєднуючи божественне з комедією і навіть сатирою. Ці твори, в яких висміюються наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], з захватом прийняли [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l]: таке мистецтво пробудило їхній інтерес до культури та художніх текстів. Ображені [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] заявляють, що [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] кануть у небуття, інакше [ROOT.GetCountry.GetReligion.GetGodName] розгнівається на нас."
+ },
+ "artist_events.1.title": {
+  "en": "[target_character.GetNameWithNoTooltip]'s Theological Works",
+  "uk": "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] теологічні праці"
+ },
+ "artist_events.10.desc": {
+  "en": "The name of [target_character.GetName] is at the lips of everyone who is someone in the art world. With powerful drive and connections to create elaborate and illustrious art, the appeal of [target_character.GetNameWithNoTooltip] is profound. As such, [target_character.GetNameWithNoTooltip] recently approached us with the proposition of sponsoring a fellow painter, [connection_character.GetName].",
+  "uk": "[target_character.GetName] — це ім'я знайоме кожному, хто належить до світу мистецтва. Невгамовна енергія та широкі зв'язки дозволяють [Select_CString(target_character.IsFemale,'їй', 'йому')] створювати воістину епохальні полотна і провокують палкий інтерес до [Select_CString(target_character.IsFemale,'її', 'його')] персони. Нещодавно [target_character.GetNameWithNoTooltip] особисто [Select_CString(target_character.IsFemale,'звернулася', 'звернувся')] до вас з проханням профінансувати творчість колеги-художника на ім'я [connection_character.GetName]."
+ },
+ "artist_events.10.title": {
+  "en": "The Connections of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] зв'язки"
+ },
+ "artist_events.11.a": {
+  "en": "We apologize for the inconvenience.",
+  "uk": "Приносимо вибачення за незручності."
+ },
+ "artist_events.11.b": {
+  "en": "Art is sacrifice.",
+  "uk": "Мистецтво вимагає жертв."
+ },
+ "artist_events.11.desc": {
+  "en": "It is a fact that [ROOT.GetCountry.GetCapital.GetName] is a bustling center full of life and commotion. Regular folk constantly toiling the fields, riding around the many markets, or idly chatting about. However, our recent foray into funding our local sculptors has given way to a growing number of accidents. Indeed, many of our people report incidents of falling debris and pieces of marble, as sculptors maniacally work around the clock with complete disregard to safety.",
+  "uk": "Ні для кого не секрет, що [ROOT.GetCountry.GetCapital.GetName] — це жвавий центр, де багато людей і метушні. Прості городяни працюють на полях, їздять на ринки або збираються разом, щоб перекинутися парою слів. Однак наше нещодавнє рішення про фінансування місцевих скульпторів призвело до зростання числа нещасних випадків. Скульптори працюють цілодобово, зовсім не дбаючи про безпеку, і нам постійно повідомляють про падіння уламків і шматків мармуру."
+ },
+ "artist_events.11.title": {
+  "en": "Mind Your Head!",
+  "uk": "Бережи голову!"
+ },
+ "artist_events.12.a": {
+  "en": "Fund this endeavor!",
+  "uk": "Виділимо кошти на цю справу!"
+ },
+ "artist_events.12.b": {
+  "en": "This coin is best spent elsewhere.",
+  "uk": "Ці гроші краще витратити на щось інше."
+ },
+ "artist_events.12.c": {
+  "en": "We would expect nothing less than a masterpiece.",
+  "uk": "Ми чекаємо від вас лише шедевра."
+ },
+ "artist_events.12.desc": {
+  "en": "Stone often takes marvelous shapes, its white visage adorning our halls. As an ode to power and magnificence, few other [ROOT.GetCountry.GetGovernment.GetAdjective] lines are as enamored with the pale excellence of a well-sculpted statue or bust. Our experience and employment of capable individuals has given rise to many taking up works towards elevating our status and displaying our love for the finest arts.",
+  "uk": "Каменю можна надати будь-якої форми, і наші зали прикрашені найхимернішими білими скульптурами. У світі не так багато #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! держав, настільки ж зачарованих блідою досконалістю майстерно витесаних статуй і бюстів, як ми. Ми сприймаємо скульптуру як вираження величі та могутності. Завдяки нашому багатому досвіду в цьому і здатності підбирати талановитих людей у нас з'явилося багато охочих попрацювати над творінням, спрямованим на підвищення нашого статусу та демонстрацію нашої любові до високого мистецтва."
+ },
+ "artist_events.12.title": {
+  "en": "A Display of Culture",
+  "uk": "Культура напоказ"
+ },
+ "artist_events.13.a": {
+  "en": "We are eternally thankful for your service!",
+  "uk": "Ми безмежно вдячні вам за службу!"
+ },
+ "artist_events.13.desc": {
+  "en": "For years, the name of [target_character.GetName] has brought our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ROOT.GetCountry.GetCapital.GetName] great prestige and a taste for the finest arts. At the sunset of [target_character.GetHerHis] career, we decided to afford [target_character.GetHerHim] a good retirement with ample coin and freedom to pursue a new adventure.",
+  "uk": "[target_character.GetName] — саме це ім'я довгі роки залишалося серед придворних міста [ROOT.GetCountry.GetCapital.GetName] синонімом прекрасної репутації та бездоганного смаку в мистецтві. Однак вік бере своє, і ми вирішили відправити [Select_CString(target_character.IsFemale,'її', 'його')] у відставку зі щедрим грошовим утриманням. [Select_CString(target_character.IsFemale,'Вона', 'Він')] ні в чому не потребуватиме і зможе вибрати собі заняття до душі."
+ },
+ "artist_events.13.title": {
+  "en": "The Retirement of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] іде у відставку"
+ },
+ "artist_events.13.tt": {
+  "en": "[target_character.GetName] will retire from our service, living a calm life of solitude around the suburbs of our countryside",
+  "uk": "[target_character.GetName] піде у відставку. [Select_CString(target_character.IsFemale,'Вона', 'Він')] вестиме спокійне та усамітнене життя далеко від міської метушні."
+ },
+ "artist_events.14.a": {
+  "en": "[target_character.GetNameWithNoTooltip] you fool!",
+  "uk": "[target_character.GetNameWithNoTooltip], ну як так?!"
+ },
+ "artist_events.14.desc": {
+  "en": "Our recent attempts to legitimize our aggressiveness toward our neighbors have met with an obstacle. Arguably, the poor attempt to justify our conquests via the erection of art by [target_character.GetName] has been incredibly ineffective and, as a result, our relations with bordering countries have deteriorated.",
+  "uk": "Нещодавно ми вчинили спробу виправдати нашу агресію проти сусідів. [target_character.GetName] з цією метою [Select_CString(target_character.IsFemale,'створила', 'створив')] величний твір, однак це призвело до прямо протилежного ефекту, і в результаті наші відносини з сусідніми державами погіршилися."
+ },
+ "artist_events.14.title": {
+  "en": "Catastrophic Legitimacy Campaign",
+  "uk": "Виправдання кампанії обернулося провалом"
+ },
+ "artist_events.15.a": {
+  "en": "What a marvelous display!",
+  "uk": "Яка вражаюча виставка!"
+ },
+ "artist_events.15.desc": {
+  "en": "Our art academy in the beautiful [ROOT.GetCountry.GetCapital.GetRank.GetName] of [ROOT.GetCountry.GetCapital.GetName] has recently opened up a new section displaying various works of art on marble, wood, and clay. One of our most prominent sculptors, [target_character.GetName], has donated a large body of assets to be displayed in the halls of this new section.",
+  "uk": "В академії художеств, що розташована в нашому прекрасному місті [ROOT.GetCountry.GetCapital.GetName], відкрилося нове відділення, де виставлені різноманітні композиції з мармуру, дерева та глини. [target_character.GetName] [Select_CString(target_character.IsFemale,'пожертвувала', 'пожертвував')] для цієї експозиції безліч своїх видатних робіт."
+ },
+ "artist_events.15.title": {
+  "en": "The Department of Sculpture Arts",
+  "uk": "Відділення скульптури"
+ },
+ "artist_events.16.a": {
+  "en": "We will watch your career with great interest!",
+  "uk": "Ми з великим інтересом стежитимемо за вашою творчістю!"
+ },
+ "artist_events.16.desc": {
+  "en": "Our halls have always paid tribute to the arts, employing many capable individuals in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_character.GetName] stands out due to [target_character.GetHerHis] young age and skill at putting together magnificent tunes. Surely [target_character.GetSheHe] will profoundly impact our splendor and prestige for years to come.",
+  "uk": "Ми завжди заступалися за мистецтво і запрошували до двору найрізноманітніших талановитих людей. [target_character.GetName] вирізняється серед інших не лише юним віком, але й здатністю створювати воістину захопливі мелодії. Безсумнівно, [Select_CString(target_character.IsFemale,'вона', 'він')] на довгі роки стане втіленням величі та престижу нашого двору."
+ },
+ "artist_events.16.title": {
+  "en": "The Future of Music",
+  "uk": "Майбутнє музики"
+ },
+ "artist_events.17.a": {
+  "en": "Silence this fool!",
+  "uk": "Заткніть [Select_CString(target_character.IsFemale,'цю дурепу','цього дурня')]!"
+ },
+ "artist_events.17.b": {
+  "en": "Beauty in the ear of the beholder.",
+  "uk": "Краса — у вухах слухача…"
+ },
+ "artist_events.17.c": {
+  "en": "We have had enough of [target_character.GetNameWithNoTooltip]!",
+  "uk": "Скільки ще [target_character.GetNameWithNoTooltip] мучитиме наші вуха!"
+ },
+ "artist_events.17.desc": {
+  "en": "Day in and day out, our halls are filled with a terrifying mixture of screams, badly played chords, and off-key singing. One might assume we apply the most excruciating torture to our prisoners, but the truth is far more horrid. [target_character.GetName] is composing [target_character.GetHerHis] latest work, unfortunately...",
+  "uk": "Вдень і вночі нашими залами розносяться крижані стогони, погано зіграні акорди і спів повз ноти. Можна подумати, що ми застосовуємо до наших бранців найжорстокіші тортури, однак правда значно страшніша. [target_character.GetName] саме так створює свій черговий музичний шедевр…"
+ },
+ "artist_events.17.title": {
+  "en": "Halls of Noise",
+  "uk": "Моторошні звуки"
+ },
+ "artist_events.18.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "artist_events.18.desc": {
+  "en": "The recent compositions published by [target_character.GetName] have sent ripples through the entire artistic world within our society. The mixing of new tunes, instruments, and the adept use of new sounds have given way to a new generation of cultural traditions and melodies.",
+  "uk": "[target_character.GetName] нещодавно [Select_CString(target_character.IsFemale,'справила', 'справив')] своїми композиціями справжній фурор у світі мистецтва. Поєднання свіжих мотивів і незвичайних інструментів, а також вміле використання нових звуків назавжди змінять наші мелодії та культурні традиції."
+ },
+ "artist_events.18.title": {
+  "en": "The Musical Innovations of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] — музикант-новатор"
+ },
+ "artist_events.19.a": {
+  "en": "[target_good_composer.GetNameWithNoTooltip] is clealy better.",
+  "uk": "Безсумнівно, [target_good_composer.GetNameWithNoTooltip] кращий."
+ },
+ "artist_events.19.b": {
+  "en": "Let us praise [target_bad_composer.GetNameWithNoTooltip]'s hard work instead.",
+  "uk": "Похвалимо автора [target_bad_composer.GetNameWithNoTooltip] за особливу наполегливість."
+ },
+ "artist_events.19.c": {
+  "en": "This is all beneath us.",
+  "uk": "Нам не личить вирішувати такі дрібні питання."
+ },
+ "artist_events.19.desc": {
+  "en": "For the last few weeks, our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has been the battleground between two composers. Each one, armed with wits and musical sheets, attempts to outperform the other. While [target_good_composer.GetName] is a better and well-established artist, [target_bad_composer.GetName] is relentless and has not stopped pestering the [ROOT.GetCountry.GetGovernment.GetCourtTitle] with constant requests to compare [target_bad_composer.GetHerHis] work with [target_bad_composer.GetHerHis] colleague's.",
+  "uk": "Останні кілька тижнів наш двір слугує полем бою для двох композиторів. Озброївшись талантом і нотними аркушами, вони раз за разом намагаються перевершити один одного. [target_good_composer.GetName] — усталений музикант і об'єктивно складає краще. [target_bad_composer.GetName], своєю чергою, має воістину невтомний характер і постійно докучає придворним проханнями порівняти [Select_CString(target_bad_composer.IsFemale,'її', 'його')] роботи з творчістю [Select_CString(target_good_composer.IsFemale,'своєї', 'свого')] колеги."
+ },
+ "artist_events.19.title": {
+  "en": "Musical Duel",
+  "uk": "Музична дуель"
+ },
+ "artist_events.2.a": {
+  "en": "What an absolute fool!",
+  "uk": "Ну й тупак!"
+ },
+ "artist_events.2.b": {
+  "en": "Let us fund [target_character.GetShortNameWithNoTooltip]'s improvement efforts!",
+  "uk": "[target_character.GetShortNameWithNoTooltip] може стати кращим. Треба лише допомогти грішми!"
+ },
+ "artist_events.2.c": {
+  "en": "The executioner will assist with [target_character.GetShortNameWithNoTooltip]'s last performance!",
+  "uk": "[target_character.GetShortNameWithNoTooltip] виступить востаннє в дуеті з катом!"
+ },
+ "artist_events.2.desc": {
+  "en": "A laughing crowd at the face of drama? Tears and screams at the face of a jolly play? None could have succeeded at failure better than [target_character.GetName]! Indeed, [target_character.GetHerHis] skills to insult through entertainment are unparalleled to none. [target_character.GetHerHis|U] latest works were meant to be an ode to our great people, only to end up being a scathing retort, listing our shortcomings and greatest failures!",
+  "uk": "Вибухи сміху в самий розпал трагедії? Крики і сльози посеред веселої сценки? Помилятися настільки жахливо [Select_CString(target_character.IsFemale,'здатна', 'здатен')] лише [target_character.GetName]! Справді, у вмінні ображати людей своїм мистецтвом [Select_CString(target_character.IsFemale,'їй', 'йому')] просто немає рівних. [Select_CString(target_character.IsFemale,'Її', 'Його')] останній витвір задумувався як ода нашому великому народу. В результаті ж вийшов принизливий памфлет, в якому перелічені всі наші недоліки та найбільші помилки!"
+ },
+ "artist_events.2.title": {
+  "en": "The Poor Skills of [target_character.GetNameWithNoTooltip]",
+  "uk": "[Select_CString(target_character.IsFemale,'Бездарна', 'Бездарний')] [target_character.GetNameWithNoTooltip]"
+ },
+ "artist_events.20.a": {
+  "en": "[target_character.GetNameWithNoTooltip]'s career looks promising!",
+  "uk": "[target_character.GetNameWithNoTooltip] побудує блискучу кар'єру!"
+ },
+ "artist_events.20.desc": {
+  "en": "Our great halls are the source of great works of art, much to the envy of the world. A recent set of musical plays written by [target_character.GetName] have captivated a grand audience, as tunes blend seamlessly with each other, creating a melody that befits people of our prestige and standing.",
+  "uk": "Наші блискучі зали стали колискою для безлічі великих творів мистецтва, яким заздрить увесь світ. [target_character.GetName] завдяки своїм останнім музичним п'єсам [Select_CString(target_character.IsFemale,'викликала', 'викликав')] у слухачів справжній захват: композиції плавно перетікають одна в одну, створюючи єдину мелодію, що дивовижно точно передає дух людей однакового з нами становища."
+ },
+ "artist_events.20.title": {
+  "en": "Growth of the Fine Arts",
+  "uk": "Розквіт високого мистецтва"
+ },
+ "artist_events.21.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "artist_events.21.desc": {
+  "en": "The development of urban centers across our [ROOT.GetCountry.GetFlavorRank] has led to many boons experienced by our society. However, along with this new wave of centralization come the downsides of living in a highly urbanized environment. Originally designed by the guild spearheaded by [target_character.GetName], [target_location.GetName] has turned into a nightmarishly cramped and outright horrid place to live in.",
+  "uk": "Бурхливий розвиток міст приніс чимало благ громадянам нашої держави. Однак у централізації є й свої недоліки, пов'язані з життям у багатолюдному середовищі. [target_character.GetName] на чолі гільдії початково [Select_CString(target_character.IsFemale,'спроектувала', 'спроектував')] [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Нині це дуже брудне й перенаселене місце, у якому майже неможливо перебувати."
+ },
+ "artist_events.21.title": {
+  "en": "Life in the City",
+  "uk": "Міське життя"
+ },
+ "artist_events.21.tt": {
+  "en": "All our [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "artist_events.22.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
+  "uk": ""
+ },
+ "artist_events.22.desc": {
+  "en": "Many settlements within our domain are adorned with beautiful and newly-erected constructs. Among them, [target_location.GetName] has recently begun to attract many people from far away, due to the architectural works of [target_character.GetName], whose planning and designs have given [target_location.GetNameWithNoTooltip] a much-needed improvement.",
+  "uk": "Нові величні споруди красуються в багатьох центрах нашої держави, і [target_location.GetName] — не виняток. [target_character.GetName] працює тут з недавніх пір, тож це місце стало особливо привабливим для мандрівників. Завдяки проектам цього талановитого архітектора [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] тепер виглядає значно краще за колишнє."
+ },
+ "artist_events.22.title": {
+  "en": "A Modernized Urban Center",
+  "uk": "Покращення міста"
+ },
+ "artist_events.23.a": {
+  "en": "A great idea.",
+  "uk": "Це прекрасна ідея."
+ },
+ "artist_events.23.b": {
+  "en": "We think not.",
+  "uk": "Наша відповідь — ні."
+ },
+ "artist_events.23.desc": {
+  "en": "New art styles, architectural movements, and cultural phenomena are introduced in our society through the marvelous exchange of ideas and innovations. As such, one of our architects, [target_blooming_artist.GetName], has requested we consider sponsoring a new style of architectural design applied to newly erected buildings in [ROOT.GetCountry.GetCapital.GetName].",
+  "uk": "Завдяки обміну ідеями та інноваціями в нашому суспільстві з'являються нові стилі мистецтва, напрямки архітектури та культурні феномени. Один з наших архітекторів на ім'я [target_blooming_artist.GetName] просить розглянути можливість фінансування нового архітектурного стилю, зразками якого стали споруди, нещодавно збудовані в місті [ROOT.GetCountry.GetCapital.GetName]."
+ },
+ "artist_events.23.title": {
+  "en": "The Blooming of [ShowInstitutionNameWithNoTooltip('renaissance')|U] Arts",
+  "uk": "Розквіт мистецтва [ShowInstitutionNameWithNoTooltip('renaissance')|U]"
+ },
+ "artist_events.24.a": {
+  "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
+  "uk": ""
+ },
+ "artist_events.24.b": {
+  "en": "This is not our error to correct.",
+  "uk": "Це не наша помилка, і не нам її виправляти."
+ },
+ "artist_events.24.desc": {
+  "en": "Our suppliers for construction materials could swear they were given orders to send off several more caravans full of iron, marble, stone, and clay as per the instructions of [target_character.GetName]. It appears that this order was unnecessary, yet the merchants insist that the [ROOT.GetCountry.GetGovernment.GetCourtTitle] must reimburse the materials and their traveling expenses, as ordained by their guild contract.",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale,'попросила', 'попросив')] відправити ще кілька караванів, навантажених залізом, мармуром, каменем і глиною — в цьому нас запевняють постачальники будівельних матеріалів. Схоже, ці матеріали виявилися зайвими, але купці наполягають на тому, щоб двір повернув їм товар і компенсував витрати на дорогу, посилаючись на положення договору з їхньою гільдією."
+ },
+ "artist_events.24.title": {
+  "en": "An Error in the Numbers",
+  "uk": "Помилка в розрахунках"
+ },
+ "artist_events.25.a": {
+  "en": "[target_character.GetHerHis|U] thirst for improvement should serve as an inspiration for us all!",
+  "uk": "[Select_CString(target_character.IsFemale,'Її', 'Його')] старанність має слугувати нам прикладом!"
+ },
+ "artist_events.25.desc": {
+  "en": "Day in and day out, the lights at the workshop of [target_character.GetName] remain lit. Tireless attempts at improving [target_character.GetHerHis] technique, endless iterations of improving [target_character.GetHerHis] designs. While [target_character.GetSheHe] may not be the most capable architect, [target_character.GetNameWithNoTooltip] is surely trying and will only improve as time goes on.",
+  "uk": "[target_character.GetName] не гасить світло у своїй майстерні цілодобово. [Select_CString(target_character.IsFemale,'Вона', 'Він')] невпинно вдосконалюється і вносить незліченні корективи до своїх робіт. [target_character.GetName] не з числа найздібніших архітекторів, однак можна не сумніватися: з часом [Select_CString(target_character.IsFemale,'вона', 'він')] розвине свої навички."
+ },
+ "artist_events.25.title": {
+  "en": "The Mother of Learning",
+  "uk": "Мати навчання"
+ },
+ "artist_events.26.a": {
+  "en": "We are better than this.",
+  "uk": "Ми вище за це…"
+ },
+ "artist_events.26.b": {
+  "en": "It is but a sign of our vibrant culture and love for intellectual arts!",
+  "uk": "Це лише підтверджує вченість і культурний рівень нашого народу!"
+ },
+ "artist_events.26.desc": {
+  "en": "Raised tones and loud arguments are no uncommon occurrences in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. As we attempt to host various individuals of standing in the artistic and theoretical scope, we must expect a fair amount of friction between these intellectual folk. However, recent debates around nature, nurture, and the human mind have turned [target_character.GetName] near feral, angrily pacing around the gardens of the palace, pointing at the maids or various supplicants and asking them aggressive questions, challenging them to debates.",
+  "uk": "Наші придворні нерідко переходять на підвищені тони й влаштовують гучні перепалки. Це не дивно: тут зустрічаються найрізноманітніші діячі культури та науки, а між інтелектуалами неминучі тертя. [target_character.GetName] після нещодавніх дебатів про природу, виховання та людський розум немов [Select_CString(target_character.IsFemale,'зірвалася', 'зірвався')] з ланцюга. Тепер [Select_CString(target_character.IsFemale,'вона', 'він')] тинається палацовими садами, тикає пальцем у служниць і прохачів і ставить їм провокаційні питання, намагаючись втягнути в полеміку."
+ },
+ "artist_events.26.title": {
+  "en": "Heated Debates",
+  "uk": "Гарячі суперечки"
+ },
+ "artist_events.26.tt": {
+  "en": "The contentious behavior of [target_character.GetName] is but a sign of our intellectual superiority over our uncultured neighbors and rivals",
+  "uk": "[target_character.GetName] перегинає палицю, але така поведінка — ознака нашої інтелектуальної переваги над невігласними ворогами та суперниками."
+ },
+ "artist_events.27.a": {
+  "en": "An interesting read.",
+  "uk": "Цікаве читво."
+ },
+ "artist_events.27.desc": {
+  "en": "A series of works around the afterlife and our time upon this plane have been published, penned under the name of [target_character.GetName]. Impressive as always, [target_character.GetHerHis] works aim at explaining life's deepest questions through a theological lens. The writings are sure to be followed by even better iterations as time goes on.",
+  "uk": "[target_character.GetName] випускає низку робіт, присвячених потойбічному життю та нашому існуванню в поточній реальності. У цих — як завжди блискучих — працях автор розглядає найскладніші екзистенційні питання крізь призму теології. За цими дослідженнями, безсумнівно, підуть й інші, ще більш вражаючі."
+ },
+ "artist_events.27.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Publishes Works",
+  "uk": "[target_character.GetNameWithNoTooltip] публікує свої праці"
+ },
+ "artist_events.28.a": {
+  "en": "Oh no.",
+  "uk": "О ні."
+ },
+ "artist_events.28.b": {
+  "en": "They cannot recognize the intellect behind [target_character.GetNameWithNoTooltip]'s work!",
+  "uk": "Їм не осягнути всієї глибини роздумів цього автора!"
+ },
+ "artist_events.28.desc": {
+  "en": "The work of philosophers like [target_character.GetName] often walks a fine line between hubris and heresy. To ponder life's deepest questions and closely examine the divine nature is a task feared by most. Thus, [target_character.GetNameWithNoTooltip]'s recent questions and research seem to have stirred quite the reaction from our authorities within the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')].",
+  "uk": "[target_character.GetName] належить до тієї групи філософів, чиї праці часто віддають гординею і навіть єрессю. За роздуми про найскладніші питання життя та дослідження божественної природи візьметься далеко не кожен: надто вже небезпечне це заняття. [target_character.GetNameWithNoTooltip] своїми дослідженнями вже [Select_CString(target_character.IsFemale,'викликала', 'викликав')] бурхливу реакцію вищого духовенства: [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] обурені [Select_CString(target_character.IsFemale,'її', 'його')] зухвалістю."
+ },
+ "artist_events.28.title": {
+  "en": "Provoking Divine Wrath",
+  "uk": "Божественний гнів"
+ },
+ "artist_events.29.a": {
+  "en": "They simply do not understand.",
+  "uk": "Вони нічого не розуміють…"
+ },
+ "artist_events.29.desc": {
+  "en": "According to [target_character.GetName], to challenge faith and ask prodding questions is the essence and epitome of a good and intellectual life. However, [target_character.GetHerHis] recent publications have drawn the ire of the people residing in [target_location.GetName] as they perceive [target_character.GetHerHis] works as nothing less than hubris.",
+  "uk": "[target_character.GetName] вважає, що сміливість перевіряти віру людей на міцність, ставлячи гострі питання, — ознака гідної людини, яка живе насиченим інтелектуальним життям. Однак останні роботи цього автора викликали гнів у [target_location.Custom('LR_PREP')|l] [target_location.GetName]. Його мешканці сприйняли подібні заяви як вираз гордині."
+ },
+ "artist_events.29.title": {
+  "en": "[target_location.GetNameWithNoTooltip] Resists Philosophical Teachings",
+  "uk": "[target_location.GetNameWithNoTooltip] проти філософії"
+ },
+ "artist_events.3.a": {
+  "en": "Employ [target_character.GetHerHis] skills to praise our scientific progress!",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale,'повинна прославити', 'повинен прославити')] наш науковий прогрес!"
+ },
+ "artist_events.3.b": {
+  "en": "Our people's resilience and tenacity must be praised.",
+  "uk": "Стійкість і наполегливість нашого народу — ось що гідне прославлення."
+ },
+ "artist_events.3.c": {
+  "en": "A flattering letter to prominent factional figures within our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Нехай напише оду видним представникам фракцій [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+ },
+ "artist_events.3.d": {
+  "en": "Praise the excellence and refinement of our cultural ties.",
+  "uk": "Нехай розповість про чистоту й витонченість наших культурних зв'язків."
+ },
+ "artist_events.3.desc": {
+  "en": "An eager artist within our [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetName], has approached our advisors seeking patronage, willing to morph their literary works around whichever subject we deem fit. In exchange, we would have to part ways with a modest sum for [target_character.GetHerHis] services. It is said that [target_character.GetNameWithNoTooltip]'s skills are versatile and the result will likely please even our most cultured and artistic individuals.",
+  "uk": "Один палкий придворний митець звернувся до наших радників у пошуках заступництва. [Select_CString(target_character.IsFemale,'Вона', 'Він')] пропонує включити до своїх робіт будь-які теми, які нас зацікавлять, і просить за свої послуги досить скромну суму. За чутками, [target_character.GetName] — дуже різнобічна людина з безліччю інтересів, тому результат [Select_CString(target_character.IsFemale,'її', 'його')] роботи може сподобатися навіть найосвіченішим і найвибагливішим читачам."
+ },
+ "artist_events.3.e": {
+  "en": "Away with you, vile beggar!",
+  "uk": "Геть звідси, жебраче!"
+ },
+ "artist_events.3.title": {
+  "en": "The Patronage of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] у пошуках заступництва"
+ },
+ "artist_events.30.a": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] is the birthplace of innovation!",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] [ROOT.GetCountry.Custom('CL_GEN')] — місце, де народжуються блискучі ідеї!"
+ },
+ "artist_events.30.desc": {
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetAdjective] residencies are famed for their illustrious presence, full of lively artists and bustling with affluence and wealth. Artists, philosophers, and more come to our door for a chance to showcase their skills and earn fame and fortune as they pursue to immortalize their name in the books of history.",
+  "uk": "У наших #L [ROOT.GetCountry.GetGovernment.GetName|l]их#! резиденціях витає дух розкоші, влади та натхнення. Сюди стікаються митці всіх мастей. Філософи, діячі мистецтва та інші талановиті особистості приходять до нас, прагнучи продемонструвати свої навички, прославитися, розбагатіти та вписати свої імена в історію."
+ },
+ "artist_events.30.title": {
+  "en": "A Most Intellectual [ROOT.GetCountry.GetGovernment.GetCourtTitle]",
+  "uk": "Просвічений [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
+ },
+ "artist_events.31.a": {
+  "en": "[target_character.GetNameWithNoTooltip]'s works are a blessing.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її', 'Його')] роботи — це благословення згори."
+ },
+ "artist_events.31.desc": {
+  "en": "The light hits the portrait at such an angle, the saint is depicted almost alive in the foreground, his tunic and halo shining with bright colors. [target_character.GetName]'s art and skill shines through the canvas, exalting the many divine figures of our faith.",
+  "uk": "Світло падає на ікону під таким кутом, що зображений на ній святий виглядає майже живим, а його німб і туніка переливаються яскравими барвами. [target_character.GetName] володіє майстерністю, що прямо-таки випромінюється крізь полотно і наповнює лики наших святих божественною величчю."
+ },
+ "artist_events.31.title": {
+  "en": "The Iconography of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та ікони його авторства"
+ },
+ "artist_events.32.a": {
+  "en": "It is but a sign of our artistic intellect and profound strength of faith.",
+  "uk": "Це демонструє наш тонкий смак і силу нашої віри."
+ },
+ "artist_events.32.desc": {
+  "en": "Works of faith and art hold considerable sway and power within our borders. As a result, when [target_character.GetName] unveiled [target_character.GetHerHis] new line of icons, folk of the [ROOT.GetCountry.GetReligion.GetAdjective] faith in [target_location.GetName] rejoiced at the sight of such remarkable beauty.",
+  "uk": "Релігійна творчість має в нашій державі колосальний вплив. [target_character.GetName] щойно [Select_CString(target_character.IsFemale,'представила', 'представив')] кілька нових робіт, і серця мешканців [target_location.Custom('LR_GEN')|l] [target_location.GetName], які сповідують [ROOT.GetCountry.GetReligion.GetName|l], одразу заликували від такої неописуваної краси."
+ },
+ "artist_events.32.title": {
+  "en": "The Display of New Iconography in [target_location.GetNameWithNoTooltip]",
+  "uk": "[target_location.GetNameWithNoTooltip] та виставка сучасного іконопису"
+ },
+ "artist_events.32.tt": {
+  "en": "All [ROOT.GetCountry.GetReligion.GetAdjective] [pops|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName], які сповідують [ROOT.GetCountry.GetReligion.GetName|l], отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "artist_events.33.a": {
+  "en": "We can cover the iconographer's expenses on their behalf.",
+  "uk": "Ми можемо оплатити витрати іконописця замість них."
+ },
+ "artist_events.33.b": {
+  "en": "It is but a part of [ROOT.GetCountry.GetReligion.GetGodName]'s plan, who are we to interfere?",
+  "uk": "[ROOT.GetCountry.GetReligion.GetGodName] — ось хто відає всім. Хто ми такі, щоб втручатися в божественні плани?"
+ },
+ "artist_events.33.desc": {
+  "en": "Affluent members of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have recently commissioned a series of icons by [target_character.GetName]. Despite the works finishing somewhat early, they have been incredibly vocal regarding the lack of care, professionalism, and expertise that is evident upon looking at the iconographer's work. Their anger may bring unforeseen consequences as they hold much sway in religious matters within our society.",
+  "uk": "Заможні [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] нещодавно замовили кілька ікон, автором яких [Select_CString(target_character.IsFemale, 'стала', 'став')] [target_character.GetName]. Робота була завершена раніше строку, однак замовники активно критикують іконописця за неуважність, непрофесіоналізм і некомпетентність, що стають очевидними при одному лише погляді на [Select_CString(target_character.IsFemale, 'її', 'його')] творіння. Ці духовні лідери мають великий вплив у нашому суспільстві, тож ситуація може набути скверного обороту…"
+ },
+ "artist_events.33.title": {
+  "en": "Commissioning the Wrong People",
+  "uk": "Незадоволені замовники"
+ },
+ "artist_events.34.a": {
+  "en": "We will gladly sponsor [target_character.GetNameWithNoTooltip]!",
+  "uk": "Ми з радістю підтримаємо [Select_CString(target_character.IsFemale,'художницю', 'художника')]!"
+ },
+ "artist_events.34.b": {
+  "en": "We care not for such frivolities.",
+  "uk": "Такі дрібниці нас не цікавлять."
+ },
+ "artist_events.34.desc": {
+  "en": "The recent series of works by [target_character.GetName] has captivated the masses with an elaborate and expert use of color, stances, and new painting techniques. Surely this marvelous display of art is but a byproduct of our superior cultural and religious convictions. All that is asked of us is to further sponsor the creation of art in exchange for prestige to our name and captivating displays of icons.",
+  "uk": "[target_character.GetName] своїми останніми роботами [Select_CString(target_character.IsFemale,'вразила', 'вразив')] публіку поєднанням кольорів, виразними позами та новими образотворчими техніками. Звісно, ці твори мистецтва — лише породження нашої великої культури та глибокої релігійності. Все, що від нас вимагається, — продовжувати фінансувати автора. Натомість ми отримаємо прекрасні ікони та підвищимо свій престиж."
+ },
+ "artist_events.34.title": {
+  "en": "Of Culture and Religion",
+  "uk": "Культура і релігія"
+ },
+ "artist_events.35.a": {
+  "en": "How embarrassing!",
+  "uk": "Яка ганьба!"
+ },
+ "artist_events.35.desc": {
+  "en": "In [target_character.GetHerHis] amateurish attempts to capture the divine essence of our ensemble of saints, [target_character.GetName] has produced a series of very poorly made icons of unnatural proportions and visages dressed in some of the most bright and unsettling golden colors. So much is the unsightfulness of them, that many [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] resorted to launching various fruit towards both the artist and the art pieces in question, a truly embarrassing sight.",
+  "uk": "[target_character.GetName], прагнучи передати божественну сутність наших святих, [Select_CString(target_character.IsFemale,'зобразила', 'зобразив')] їх в осліплювально-золотих шатах. Ці ікони не мають жодної художньої цінності: обличчя на них виглядають неприродно, а пропорції тіл сильно спотворені. Ці роботи настільки жахливі, що чимало [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] закидали іконописця і цю мазанину гнилими фруктами. Воістину ганебне видовище."
+ },
+ "artist_events.35.title": {
+  "en": "All that Shines",
+  "uk": "Не все те, що блищить"
+ },
+ "artist_events.36.a": {
+  "en": "Very well, fund [target_character.GetHerHis] studies!",
+  "uk": "Що ж, ми підтримаємо [Select_CString(target_character.IsFemale,'її','його')] навчання!"
+ },
+ "artist_events.36.b": {
+  "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
+  "uk": ""
+ },
+ "artist_events.36.desc": {
+  "en": "For quite some time, [target_character.GetName] has been inquiring in a potential sponsorship that would help [target_character.GetHerHis] metallurgical skills. According to [target_character.GetHerHim], a set of metalsmithing lessons in [target_location.GetName] would go a long way to developing the smithing craft. Many of our advisors are fairly open to sponsoring this knowledge-seeking venture that [target_character.GetShortNameWithNoTooltip] has embarked on.",
+  "uk": "[target_character.GetName] вже деякий час цікавиться можливістю фінансування, яке допомогло б відточити [Select_CString(target_character.IsFemale,'її','його')] майстерність у металургії. За [Select_CString(target_character.IsFemale,'її','його')] словами, уроки ковальства в [target_location.Custom('LR_PREP')|l] [target_location.GetName] сприятимуть розвитку ковальського ремесла. Чимало наших радників вважають, що [target_character.GetShortNameWithNoTooltip] заслуговує на підтримку, і не проти підтримати [Select_CString(target_character.IsFemale,'її','його')] тягу до нових знань."
+ },
+ "artist_events.36.title": {
+  "en": "Honing Skills",
+  "uk": "Розвиток навичок"
+ },
+ "artist_events.37.a": {
+  "en": "This is a good idea.",
+  "uk": "Прекрасна ідея!"
+ },
+ "artist_events.37.b": {
+  "en": "[target_character.GetHerHis|U] skills will be utilized elsewhere.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її','Його')] вміння стануть у пригоді в іншому місці."
+ },
+ "artist_events.37.desc": {
+  "en": "[target_character.GetName] has recently suggested an elaborate plan to further boost the production of [target_material.GetName] in [target_location.GetName]. Under [target_character.GetHerHis] supervision, the volume of raw material extracted is forecasted to improve greatly for the duration of [target_character.GetHerHis] stay in the location. However, [target_character.GetSheHe] will not be available to commission our art on demand, in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала','запропонував')] ретельно продуманий план, завдяки якому [target_material.GetName|l] може вироблятися в [target_location.Custom('LR_PREP')|l] [target_location.GetName] у більших кількостях. Поки [Select_CString(target_character.IsFemale,'вона','він')] перебуває в місці виробництва, обсяг отримуваного ресурсу має сильно зрости. Однак у цей час [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] не зможе користуватися [Select_CString(target_character.IsFemale,'її','його')] талантами."
+ },
+ "artist_events.37.title": {
+  "en": "[target_character.GetShortNameWithNoTooltip] Suggests Improvements",
+  "uk": "[target_character.GetShortNameWithNoTooltip] пропонує покращення"
+ },
+ "artist_events.38.a": {
+  "en": "[target_character.GetHerHis|U] work will compliment our offensive efforts.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її','Його')] навички допоможуть нам перемагати на полі бою."
+ },
+ "artist_events.38.b": {
+  "en": "Seek to improve our infrastructure.",
+  "uk": "Покращимо інфраструктуру."
+ },
+ "artist_events.38.c": {
+  "en": "Let our scholars and artists study and learn from such techniques.",
+  "uk": "Нехай наші вчені та митці вивчать нові методи."
+ },
+ "artist_events.38.desc": {
+  "en": "Our [ROOT.GetCountry.GetFlavorRank] is blessed with the ownership of several mines of great value, playing host to high quality metals. One of our artists, a metalsmith by the name of [target_character.GetName], has proposed to use [target_character.GetHerHis] skills in improving either our infrastructure or mining techniques through the use of finely-crafted metals under [target_character.GetHerHis] supervision.",
+  "uk": "На щастя, у нас в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] є кілька шахт, повних цінних металів. Майстер ковальської справи [target_character.GetName] пропонує свою допомогу. Під [Select_CString(target_character.IsFemale,'її','його')] керівництвом ми можемо покращити нашу інфраструктуру або методи видобутку, використовуючи майстерно оброблені метали."
+ },
+ "artist_events.38.title": {
+  "en": "Harnessing the Mines",
+  "uk": "Підкорення шахт"
+ },
+ "artist_events.39.a": {
+  "en": "[target_character_2.GetShortNameWithNoTooltip] must learn to appreciate art!",
+  "uk": "Нехай [target_character_2.GetShortNameWithNoTooltip] змириться і прийме ціну мистецтва!"
+ },
+ "artist_events.39.b": {
+  "en": "Nobody in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] can hear themselves think.",
+  "uk": "Від цього гуркоту в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] навіть власних думок не чути."
+ },
+ "artist_events.39.desc": {
+  "en": "[target_character.GetName] has become infamous for [target_character.GetHerHis] relentless hammering, forging from dawn until dusk. While [target_character.GetHerHis] work is of undeniable quality, the ceaseless noise has driven courtiers, advisors, and even the local animals to distraction.\\n\\nComplaints range from sleepless nights to disrupted poetry readings. [target_character_2.GetName] demands the metalsmith be relocated or silenced, arguing [target_character_2.GetHerHis] activities are too valuable to interfere with.",
+  "uk": "[target_character.GetName] махає молотом без упину, куючи від світанку до заходу. Безперечно, [Select_CString(target_character.IsFemale,'її','його')] вироби вельми добрі, але нескінченний гуркіт доводить до шаленства придворних, радників і навіть звірів в окрузі.\\n\\nМи отримуємо скарги на безсонні ночі та зірвані поетичні читання. [target_character_2.GetName] заявляє, що [Select_CString(target_character_2.IsFemale,'її','його')] праця надзвичайно важлива і потребує спокою. [Select_CString(target_character_2.IsFemale,'Вона','Він')] вимагає, щоб [Select_CString(target_character.IsFemale,'майстриня замовкла або забралася','майстер замовк або забрався')] кудись подалі."
+ },
+ "artist_events.39.title": {
+  "en": "The Deafening Sound of Progress",
+  "uk": "Оглушлива хода прогресу"
+ },
+ "artist_events.4.a": {
+  "en": "Fine, we will fund whatever [target_character.GetShortNameWithNoTooltip] wants to create.",
+  "uk": "Гаразд. [target_character.GetShortNameWithNoTooltip] отримає кошти на будь-який свій витвір…"
+ },
+ "artist_events.4.b": {
+  "en": "Complaints? How about a taste of the whip?",
+  "uk": "Що? Критика? А чи не покуштувати автору батога?"
+ },
+ "artist_events.4.c": {
+  "en": "[target_character.GetNameWithNoTooltip] talents are requested even by our [ROOT.GetCountry.GetGovernment.GetRulerTitle]!",
+  "uk": "Навіть [ROOT.GetCountry.GetGovernment.GetRulerTitle] вважає, що [target_character.GetNameWithNoTooltip] вельми [Select_CString(target_character.IsFemale,'талановита','талановитий')]."
+ },
+ "artist_events.4.desc": {
+  "en": "For days, fans and prominent figures of the artistic world have been demanding that we fund the endeavors of [target_character.GetName]. While injecting our hard-earned coin into the arts is a noble gesture, we must be mindful of the voices that may influence the direction our country is heading, as they may not always be right.",
+  "uk": "День за днем і шанувальники мистецтва, і знамениті митці просять нас профінансувати починання автора на ім'я [target_character.GetName]. Пожертвувати наші важко зароблені гроші на розвиток культури — жест гарний і благородний, однак ми повинні пам'ятати, що критика, яку висловлюють діячі мистецтва, здатна вплинути на те, куди рухається держава, і не завжди цей напрямок буде вірним…"
+ },
+ "artist_events.4.title": {
+  "en": "The Voices of Dissent",
+  "uk": "Голоси незгодних"
+ },
+ "artist_events.40.a": {
+  "en": "This is a good investment.",
+  "uk": "Це гарне вкладення."
+ },
+ "artist_events.40.b": {
+  "en": "[target_character.GetShortNameWithNoTooltip] should stop complaining.",
+  "uk": "Нехай [target_character.GetShortNameWithNoTooltip] припинить скаржитися."
+ },
+ "artist_events.40.desc": {
+  "en": "Hours over an open fire, giving shape to all kinds of metals still hot under the press pertains to many of the duties of a capable metalsmith, yet the physical labor is only half the process, even if it is the most strenuous. For every hour in the forge, time must be spent perfecting the process. Such is the life of [target_character.GetName], who has grown wise and experienced in [target_character.GetHerHis] craft. The hellish environment of the forge is not for those with frail wills.\\n\\nThus, [target_character.GetShortNameWithNoTooltip] has recently requested funds to hire [target_character_2.GetName] as an assistant, to help distribute the load of [target_character.GetHerHis] many projects, a disciple to carry on [target_character.GetHerHis] craft and learn from [target_character.GetHerHis] wisdom. Such an investment would greatly benefit our prestige and help carry on the knowledge from one generation to the next.",
+  "uk": "Вмілий коваль проводить багато годин над полум'ям і біля преса, надаючи форми всілякім розплавленим металам. Але виснажлива фізична праця — лише половина справи: робота в кузні вимагає досвіду, який приходить лише з часом. Пекельний жар горна витримують лише сильні духом — такі, як [target_character.GetName]. [Select_CString(target_character.IsFemale,'Ця мудра й досвідчена майстриня присвятила', 'Цей мудрий і досвідчений майстер присвятив')] усе життя ковальському ремеслу.\\n\\nНещодавно [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'попросила', 'попросив')] виділити кошти, щоб найняти [Select_CString(target_character_2.IsFemale,'помічницю', 'помічника')]. За словами [Select_CString(target_character.IsFemale,'майстрині', 'майстра')], [target_character_2.GetName] візьме на себе частину численних замовлень, до того ж [target_character.GetName] хоче поділитися з [Select_CString(target_character_2.IsFemale,'ученицею', 'учнем')] своїми знаннями та досвідом. Це вкладення значно підвищить наш престиж і допоможе передати секрети ремесла новому поколінню."
+ },
+ "artist_events.40.title": {
+  "en": "Heavy Metal",
+  "uk": "Вага металу"
+ },
+ "artist_events.41.a": {
+  "en": "Let [target_character.GetHerHim] continue writing.",
+  "uk": "Нехай собі пише."
+ },
+ "artist_events.41.b": {
+  "en": "Silence [target_character.GetHerHim].",
+  "uk": "Треба змусити [Select_CString(target_character.IsFemale,'її', 'його')] замовкнути!"
+ },
+ "artist_events.41.desc": {
+  "en": "Literature concerning the exploitation of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] has circulated [ROOT.GetCountry.GetCapital.GetName] for the last few months, spreading disconent and instability between the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the less fortunate. Some of our advisors allege that these provocative writings are the works of none other than [target_character.GetName], whose life experiences have led to vitriolic hatred towards the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]. This is widely perceived to be a threat to our [ROOT.GetCountry.GetFlavorRank] and by extension to [target_character_2.GetName] [target_character_2.GetHerselfHimself].",
+  "uk": "Останніми місяцями по #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! поширюється література, в якій [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] постають несправедливо гнобленим станом. Тепер [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] викликають обурення тих, кому в житті пощастило менше, і напруга в суспільстві зростає. Деякі радники припускають, що автор цих провокаційних праць — [target_character.GetName]. Переживши чимало труднощів, [Select_CString(target_character.IsFemale,'вона', 'він')] вважає, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] не заслуговують нічого, крім ненависті. Чимало хто вважає, що через ці настрої [ROOT.GetCountry.GetFlavorRank|l] і [Select_CString(target_character_2.IsFemale,'сама', 'сам')] [target_character_2.GetName] перебувають під загрозою."
+ },
+ "artist_events.41.title": {
+  "en": "In Defense of the Less Fortunate",
+  "uk": "На захист знедолених"
+ },
+ "artist_events.42.a": {
+  "en": "The lawful gaze of [target_character_2.GetShortNameWithNoTooltip] smites corruption.",
+  "uk": "[target_character_2.GetShortNameWithNoTooltip] поважає закон і бореться з корупцією."
+ },
+ "artist_events.42.b": {
+  "en": "We cannot risk aggravating [target_character.GetShortNameWithNoTooltip] and [target_character.GetHerHis] backers.",
+  "uk": "[target_character.GetShortNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її','його')] прихильники вельми впливові. Краще їх не дратувати."
+ },
+ "artist_events.42.c": {
+  "en": "[target_character.GetSheHe|U] forgets [target_character.GetHerHis] place.",
+  "uk": "[target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'забула','забув')] своє місце."
+ },
+ "artist_events.42.desc": {
+  "en": "The inner workings of our government are quite complex and often leave room for corruption and lobbies to grow. The latest challenge to our power comes from none other than [target_character.GetName]. According to [target_character.GetHerHis] rhetoric, [target_character_2.GetName] is actively hurting the stability and efficiency of our legal system. In an apparent effort to reverse the damage, [target_character.GetShortNameWithNoTooltip] suggests the implementation of '[target_policy.GetName]'. However, it is clear that the [target_estate.GetName] speak through [target_character.GetHerHim], much like a puppet.",
+  "uk": "Робота нашого уряду, невидима стороннім, вельми складна, що нерідко сприяє корупції та зміцненню груп інтересів. Нещодавно нашій могутності [Select_CString(target_character.IsFemale,'кинула','кинув')] виклик [target_character.GetName]. За [Select_CString(target_character.IsFemale,'її','його')] словами, [target_character_2.GetName] навмисно підриває стабільність і ефективність нашої правової системи. [target_character.GetShortNameWithNoTooltip], явно прагнучи не втратити свої позиції, пропонує впровадити політику «[target_policy.GetName]». Однак [Select_CString(target_character.IsFemale,'вона','він')], безсумнівно, лише маріонетка, вустами якої говорять [target_estate.GetName|l]."
+ },
+ "artist_events.42.title": {
+  "en": "[target_character.GetNameWithNoTooltip] Backs Policy Change",
+  "uk": "[target_character.GetNameWithNoTooltip] виступає за зміну політики"
+ },
+ "artist_events.43.a": {
+  "en": "[target_character.GetSheHe|U] is a shining example of our healthy apparatus.",
+  "uk": "[Select_CString(target_character.IsFemale,'Її','Його')] приклад показує, як добре працює наша система влади."
+ },
+ "artist_events.43.b": {
+  "en": "Employ [target_character.GetHerHis] services exclusively in the government.",
+  "uk": "[Select_CString(target_character.IsFemale,'Вона','Він')] служитиме виключно нашому уряду."
+ },
+ "artist_events.43.desc": {
+  "en": "Our society has long been shaped by our support for the arts and strength in legal foundations. Famed for [target_character.GetHerHis] eloquent speeches and literary achievements in the domain of jurisprudence, [target_character.GetName] has carved a great age of progress across the artistic fields as a great jurist. We must therefore contemplate how to best utilize such talent and employ [target_character.GetHerHim] to maximize our perceived prestige and legitimacy.",
+  "uk": "Нашим суспільством споконвіку править тяга до прекрасного і сила закону. [target_character.GetName], [Select_CString(target_character.IsFemale,'відома', 'відомий')] переконливими промовами та літературними досягненнями у сфері правознавства, [Select_CString(target_character.IsFemale,'здобула', 'здобув')] славу блискучого юриста і [Select_CString(target_character.IsFemale,'ознаменувала', 'ознаменував')] епоху розвитку багатьох напрямків мистецтва. Нам не завадить використати такий талант собі на користь і найняти [Select_CString(target_character.IsFemale,'її', 'його')], щоб зміцнити свій престиж і легітимність."
+ },
+ "artist_events.43.title": {
+  "en": "Lawful Good",
+  "uk": "Закон понад усе"
+ },
+ "artist_events.44.a": {
+  "en": "A good shepherd welcomes back the lost sheep.",
+  "uk": "Добрий пастир приймає заблукалих овець."
+ },
+ "artist_events.44.b": {
+  "en": "Seize the opportunity and force our culture on them!",
+  "uk": "Скористаємося нагодою і примусово прищепимо їм свою культуру!"
+ },
+ "artist_events.44.desc": {
+  "en": "Our laws govern justly across our [ROOT.GetCountry.GetFlavorRank]. Even against those who seek to undo our progress and tear us down, jurisdprudence offers a kind hand without prejudice.\\n\\nSuch is the case of the [target_rebel.GetName] and their supporters. The thoughtful approach to legal protections of [target_character.GetName] has helped sway many away from rebellious tendencies, giving us a chance to influence them as we see fit.",
+  "uk": "Наші закони забезпечують справедливе управління [ROOT.GetCountry.Custom('CF_TP')|l]. Юриспруденція пропонує неупереджену допомогу навіть тим, хто намагається завадити нам і звернути наш розвиток назад.\\n\\n[target_rebel.GetName] та [Select_CString(target_rebel.IsFemale,'її','його')] прихильники — чудовий тому приклад. [target_character.GetName] перебуває під ретельно продуманим правовим захистом, через що чимало хто відмовився від бунтівних ідей. Ми отримали можливість впливати на уми так, як ми вважатимемо за потрібне."
+ },
+ "artist_events.44.title": {
+  "en": "The Burden of Mercy",
+  "uk": "Тягар милосердя"
+ },
+ "artist_events.45.a": {
+  "en": "We thank them for their gift!",
+  "uk": "Ми вдячні їм за цей подарунок."
+ },
+ "artist_events.45.b": {
+  "en": "Invest the coin to bolster the abilities of [target_character.GetShortNameWithNoTooltip].",
+  "uk": "Вкладемо гроші, щоб [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'розвинула','розвинув')] свої таланти."
+ },
+ "artist_events.45.desc": {
+  "en": "It appears that [target_character.GetName] has recently represented prominent members of the [target_estate.GetName] in court, earning them favorable results. As a reward, they have made a generous donation to our coffers. While this monetary benefit will surely further our wealth, our advisors are eager to suggest countless ways to properly invest our newfound coin.",
+  "uk": "Схоже, нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale,'підтримала','підтримав')] інтереси видних особистостей у суді, домігшись вигідного для них результату. На знак вдячності ці [target_estate.GetName|l] поповнили наші скрині щедрим пожертвуванням. Безперечно, ці гроші зміцнять наш добробут, і наші радники пропонують незліченні стратегії вкладення новоздобутих монет."
+ },
+ "artist_events.45.title": {
+  "en": "A Pleasant Legal Coincidence",
+  "uk": "Вдале правове співпадіння"
+ },
+ "artist_events.46.a": {
+  "en": "We will supply [target_artist.GetNameWithNoTooltip] with extra materials.",
+  "uk": "Виділимо [Select_CString(target_artist.IsFemale,'їй','йому')] нові матеріали."
+ },
+ "artist_events.46.b": {
+  "en": "This must not happen again, remove all [ShowGoodsNameWithNoTooltip('pepper')] around [target_artist.GetHerHim].",
+  "uk": "Накажемо прибрати весь [ShowGoodsNameWithNoTooltip('pepper')|l] поряд з [Select_CString(target_artist.IsFemale,'нею','ним')], щоб це більше не повторилося."
+ },
+ "artist_events.46.c": {
+  "en": "Actually, [target_artist.GetNameWithNoTooltip] claims [target_artist.GetSheHe] can work with it.",
+  "uk": "Власне, [target_artist.GetNameWithNoTooltip] заявляє, що може все виправити."
+ },
+ "artist_events.46.desc": {
+  "en": "While [target_artist.GetName] was hard at work in [target_artist.GetHerHis] commission, one of [target_artist.GetHerHis] assistants came to [target_artist.GetHerHim] to present the latest shipment of [ShowGoodsName('pepper')]. Unfortunately, black pepper makes one sneeze, and the sudden outburst made [target_artist.GetNameWithNoTooltip] spill ink all over. [target_artist.GetHerHis|U] work has been irremediably ruined by random splotches and smudges, and all previously meticulously traced lines have lost their proper shapes, and there may not be other choice than to start again from scratch.",
+  "uk": "[target_artist.GetName] старанно [Select_CString(target_artist.IsFemale,'працювала','працював')] над замовленням, коли один з учнів приніс [Select_CString(target_artist.IsFemale,'їй','йому')] щойно доставлений [ShowGoodsName('pepper')|l]. Ненароком вдихнувши спецію, [target_artist.GetNameWithNoTooltip] [Select_CString(target_artist.IsFemale,'чхнула','чхнув')] і [Select_CString(target_artist.IsFemale,'залила','залив')] все навколо чорнилом. [Select_CString(target_artist.IsFemale,'Її','Його')] праця виявилася непоправно зіпсованою плямами й патьоками. Ретельно виведені лінії втратили форму, і тепер доведеться починати все спочатку."
+ },
+ "artist_events.46.title": {
+  "en": "An Unexpected Sneeze",
+  "uk": "Раптовий порив"
+ },
+ "artist_events.47.a": {
+  "en": "As the [cat_haters.GetNameWithNoTooltip] say, the cat ruined it.",
+  "uk": "[cat_haters.GetNameWithNoTooltip] праві, кішка занапастила роботу."
+ },
+ "artist_events.47.b": {
+  "en": "This does not diminish the piece, it even gives it more history.",
+  "uk": "Це не применшує цінність роботи — навпаки, так вона набуває історії."
+ },
+ "artist_events.47.c": {
+  "en": "It is clear that [target_art.GetNameWithNoTooltip] will have to be replaced.",
+  "uk": "Очевидно, що [target_art.GetNameWithNoTooltip] тепер потребує заміни."
+ },
+ "artist_events.47.desc": {
+  "en": "[target_artist.GetName] has always been regarded as an established [target_artist.GetArtistType.GetName] and [target_artist.GetHerHis] works lauded by the general populace. However, one of [target_artist.GetHerHis] works, [target_art.GetName], has become the main topic of discussion at [ROOT.GetCountry.GetGovernment.GetCourtTitle], when some attentive students of the work discovered some particular ink smudges on it. Apparently, a cat walked on it after having stepped on ink, leaving its paws permanently imprinted on the piece.\\n\\nThis has caused a most curious debate at [ROOT.GetCountry.GetGovernment.GetCourtTitle], with the [cat_lovers.GetName] admiring the intrepidness of the feline, while the [cat_haters.GetName] lamenting that now the piece is completely ruined.",
+  "uk": "[target_artist.GetName] — [target_artist.GetArtistType.GetName|l] видатних талантів, чиї роботи викликають загальний захват. Однак останнім часом [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] бурхливо обговорює одну з [Select_CString(target_artist.IsFemale,'її', 'його')] праць — «[target_art.GetName]». Справа в тому, що при уважному вивченні на цій роботі виявилися характерні чорнильні плями. Судячи з усього, їх залишила кішка, яка забруднила лапи в чорнилі.\\n\\nЦе породило цікаві дебати: [cat_lovers.GetName|l] захоплюються сміливою невимушеністю тварини, а [cat_haters.GetName|l] нарікають, що твір мистецтва тепер зіпсовано."
+ },
+ "artist_events.47.title": {
+  "en": "A Mischievous Feline",
+  "uk": "Пустотлива кішка"
+ },
+ "artist_events.48.a": {
+  "en": "Forbid [target_artist.GetNameWithNoTooltip] from creating such images again.",
+  "uk": "[target_artist.GetNameWithNoTooltip] більше не [Select_CString(target_artist.IsFemale,'повинна','повинен')] малювати подібне."
+ },
+ "artist_events.48.b": {
+  "en": "There is no actual damage done by them.",
+  "uk": "Ці роботи нікому не завдають шкоди."
+ },
+ "artist_events.48.c": {
+  "en": "[target_artist.GetNameWithNoTooltip] is no longer welcome in [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "[target_artist.GetNameWithNoTooltip] буде [Select_CString(target_artist.IsFemale,'вигнана','вигнаний')] з [ROOT.GetCountry.Custom('CL_GEN')]."
+ },
+ "artist_events.48.d": {
+  "en": "We shall not allow the slippery slope of heresy!",
+  "uk": "Ми не ступимо на слизький шлях єресі!"
+ },
+ "artist_events.48.desc": {
+  "en": "Although [ROOT.GetCountry.GetReligion.GetName] clearly discourages artistic depictions of people and animals to avoid idolatry, they are not explicitly forbidden. Often, artists have found a way to avoid the depictions of images by using calligraphic composition itself to suggest the idea of images rather than explicitly drawing them. This has more than once raised some eyebrows among the most zealous of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]. However, some lines must never be crossed.\\n\\n[target_artist.GetName] has gained [target_artist.GetHerHim] more than raised eyebrows with [target_artist.GetHerHis] work, which evokes the most vivid images of not only people and animals, but even divine prophets and messengers and Muḥammad himself, peace be upon him. This has caused the ire of most of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], who ask for a severe condemnation.",
+  "uk": "[ROOT.GetCountry.GetReligion.GetName] не схвалює художні зображення людей і тварин, аби уникнути ідолопоклонства, однак прямо це не заборонено. Митці нерідко знаходять способи обійти це правило: наприклад, вони не малюють зображення явним чином, а використовують каліграфічні композиції, що натякають на нього. Найревніші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] часто висловлювали несхвалення з цього приводу. Однак існують межі, які краще не переступати.\\n\\n[target_artist.GetName] не раз [Select_CString(target_artist.IsFemale,'спантеличувала', 'спантеличував')] правовірних: на [Select_CString(target_artist.IsFemale,'її', 'його')] роботах вельми барвисто зображені не лише люди й звірі, а навіть пророки, посланці та сам Мухаммед, мир йому. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] розгнівані подібним безсоромством і вимагають покарати [Select_CString(target_artist.IsFemale,'художницю', 'художника')]."
+ },
+ "artist_events.48.title": {
+  "en": "An Irreverent [target_artist.GetArtistType.GetNameWithNoTooltip]",
+  "uk": "[Select_CString(target_artist.IsFemale,'Зухвала','Зухвалий')] [target_artist.GetArtistType.GetNameWithNoTooltip|l]"
+ },
+ "artist_events.49.a": {
+  "en": "It is time for a reality check.",
+  "uk": "Настав час сказати гірку правду."
+ },
+ "artist_events.49.b": {
+  "en": "The plebs cannot understand true art.",
+  "uk": "Масам не зрозуміти справжнє мистецтво."
+ },
+ "artist_events.49.desc": {
+  "en": "[target_artist.GetName] calls [target_artist.GetHerselfHimself] a proud [target_artist.GetArtistType.GetName]. However, the reality is that [target_artist.GetHerHis] handwriting is absolutely awful, with many at [ROOT.GetCountry.GetGovernment.GetCourtTitle] not being able to understand even a single word of what [target_artist.GetSheHe] writes. [target_artist.GetHerHis|U] works often gather more troubled expressions and contorted faces than looks of admiration, a fact [target_artist.GetSheHe] seems to remain completely oblivious to, picturing [target_artist.GetHerselfHimself] instead as a misunderstood artist due [target_artist.GetHerHis] works being too advanced.",
+  "uk": "[target_artist.GetName] гордо заявляє, що [Select_CString(target_artist.IsFemale,'вона','він')] [target_artist.GetArtistType.GetName|l], однак насправді [Select_CString(target_artist.IsFemale,'її','його')] почерк просто жахливий. [ROOT.GetCountry.GetGovernment.GetCourtTitle] марно намагається розібрати хоч слово в [Select_CString(target_artist.IsFemale,'її','його')] каракулях. [Select_CString(target_artist.IsFemale,'Її','Його')] праці частіше викликають не захоплення, а здивовані гримаси, але [target_artist.GetName], здається, зовсім цього не помічає. [Select_CString(target_artist.IsFemale,'Вона переконана','Він переконаний')], що [Select_CString(target_artist.IsFemale,'її','його')] творчість надто оригінальна, щоб бути зрозумілою широкій публіці."
+ },
+ "artist_events.49.title": {
+  "en": "Horrible Handwriting",
+  "uk": "Жахливий почерк"
+ },
+ "artist_events.5.a": {
+  "en": "What a time to be alive!",
+  "uk": "В який великий час ми живемо!"
+ },
+ "artist_events.5.b": {
+  "en": "[target_character.GetHerHis|U]'s art will fetch a nice price.",
+  "uk": "Творчість цього автора коштуватиме чималих грошей."
+ },
+ "artist_events.5.desc": {
+  "en": "Our people are known for their aptitude towards fine arts, particularly those that pertain to writing, etching our name and social footprint in the pages of history books. Few have reached such prominence to the level of [target_character.GetName], whose skills with the pen are fabled and move our people by the thousands. [target_character.GetHerHis|U] latest work exalts our recent history as well as our noble nature, an ode to our forefathers and a sharing of knowledge for our descendants.",
+  "uk": "Наш народ славиться любов'ю до мистецтва, особливо до історичних творів, де закарбовані наше гордовите ім'я та велика культура. [target_character.GetName] — один з найвідоміших митців нашого часу. Його твори зворушують серця тисяч людей, настільки [Select_CString(target_character.IsFemale,'вона талановита', 'він талановитий')]. В останній книзі [Select_CString(target_character.IsFemale,'вона', 'він')] захоплено розповідає про новітню історію держави та оспівує нашу благородну вдачу. Це справжня ода нашим предкам і найважливіше джерело знань для наших нащадків."
+ },
+ "artist_events.5.title": {
+  "en": "A Champion of the Novel Arts",
+  "uk": "Літературний геній"
+ },
+ "artist_events.5.tt": {
+  "en": "All our [pops|e] that reside in the [province|e] of our [capital|e] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в нашій [Concept('capital', 'столичній')|e] [Concept('province', 'провінції')|e] отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
+ },
+ "artist_events.50.a": {
+  "en": "Nonsense, it is a fine work as it is now.",
+  "uk": "Що за нісенітниця, твір і без того гідний."
+ },
+ "artist_events.50.b": {
+  "en": "Let us get [target_artist.GetHerHim] some [ShowGoodsNameWithNoTooltip('goods_gold')].",
+  "uk": "Дамо [Select_CString(target_artist.IsFemale,'їй','йому')] трохи золота."
+ },
+ "artist_events.50.desc": {
+  "en": "[target_artist.GetName] appeared to be sufficiently pleased with [target_artist.GetHerHis] work in [target_art.GetName], but in reality [target_artist.GetSheHe] was internally disappointed by it. Now, [target_artist.GetSheHe] has come to [ROOT.GetCountry.GetGovernment.GetCourtTitle] with an idea on how to improve it. [target_artist.GetSheHe|U] claims that if we provide [target_artist.GetHerHim] some [ShowGoodsName('goods_gold')], [target_artist.GetSheHe] may be able to retrace the lines with a special mixture of ink and gold powder, greatly increasing the beauty of the work.",
+  "uk": "Здавалося, [target_artist.GetName] вважає, що творіння «[target_art.GetName]» вийшло непоганим. Однак насправді з'ясувалося, що [Select_CString(target_artist.IsFemale,'вона зовсім не задоволена','він зовсім не задоволений')] власною творчістю. Нещодавно в [Select_CString(target_artist.IsFemale,'неї','нього')] виникла ідея, як покращити свою працю. [target_artist.GetName] каже, що якщо ми виділимо трохи #TOOLTIP:GOODS,goods_gold,X #L золота#!#!, [Select_CString(target_artist.IsFemale,'вона','він')] підкреслить лінії особливим складом з чорнила і золотої пудри, від чого робота стане значно кращою."
+ },
+ "artist_events.50.title": {
+  "en": "Golden Ink",
+  "uk": "Золоте чорнило"
+ },
+ "artist_events.51.a": {
+  "en": "Encourage the promotion of this new style.",
+  "uk": "Допоможемо поширити новий стиль."
+ },
+ "artist_events.51.b": {
+  "en": "We already have a standard, no need for a new one.",
+  "uk": "У нас вже є стандарт письма — навіщо його змінювати?"
+ },
+ "artist_events.51.desc": {
+  "en": "There is no doubt that [target_artist.GetName] is a renowned [target_artist.GetArtistType.GetName]. [target_artist.GetHerHis|U] written words have always inspired admiration, but it seems that [target_artist.GetSheHe] wanted to go further. In [target_artist.GetHerHis] study, [target_artist.GetSheHe] has started using a new style of writing, which [target_artist.GetSheHe] claims may become the new standard if properly promoted and diffused.",
+  "uk": "[target_artist.GetName], безперечно, [Select_CString(target_artist.IsFemale,'талановита','талановитий')] [target_artist.GetArtistType.GetName|l]. [Select_CString(target_artist.IsFemale,'Її','Його')] шедеври часто захоплювали публіку, але тепер, схоже, [Select_CString(target_artist.IsFemale,'вона вирішила','він вирішив')] піти ще далі. У своїй останній роботі [target_artist.GetName] [Select_CString(target_artist.IsFemale,'використала','використав')] новий стиль письма. За [Select_CString(target_artist.IsFemale,'її','його')] словами, цей стиль може стати загальноприйнятим, якщо здобуде достатню відомість."
+ },
+ "artist_events.51.title": {
+  "en": "A New Calligraphic Style",
+  "uk": "Новий стиль каліграфії"
+ },
+ "artist_events.52.a": {
+  "en": "It is indeed a very spiritual activity.",
+  "uk": "Це й справді вельми піднесене заняття."
+ },
+ "artist_events.52.b": {
+  "en": "It is a way to create beautiful art, nothing more.",
+  "uk": "Це лише спосіб створити гарні твори, але не більше."
+ },
+ "artist_events.52.desc": {
+  "en": "[target_artist.GetName] is always hard at work, but [target_artist.GetHerHis] technique has garnered [target_artist.GetHerHim] the interest of a particular group. Some among the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] see [target_artist.GetHerHis] way of working silently and focused as a way of moving meditation, and want to promote it among the rest of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] as another way to help follow the path of the Buddha.",
+  "uk": "[target_artist.GetName] завжди працює без упину, і [Select_CString(target_artist.IsFemale,'її', 'його')] методи привернули увагу. Деякі [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вважають [Select_CString(target_artist.IsFemale,'її', 'його')] мовчазну зосереджену роботу медитацією в русі. Тепер вони хочуть, щоб решта [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] дізналися про цей спосіб пізнати шлях Будди."
+ },
+ "artist_events.52.title": {
+  "en": "Writing Meditation",
+  "uk": "Медитативне письмо"
+ },
+ "artist_events.53.a": {
+  "en": "Allow [target_apprentice.GetHerHim] to take apprenticeship.",
+  "uk": "Хай навчається."
+ },
+ "artist_events.53.b": {
+  "en": "[target_artist.GetNameWithNoTooltip]'s skills are too valuable for such apprenticeship.",
+  "uk": "[target_artist.GetNameWithNoTooltip] — надто цінний талант, щоб витрачати час на навчання."
+ },
+ "artist_events.53.desc": {
+  "en": "In any artistic endeavor, there are always two, a master and an apprentice, and is the objective of the apprentice to eventually surpass the master. To that effect, [target_apprentice.GetName] has appeared before the [ROOT.GetCountry.GetGovernment.GetCourtTitle], dissatisfied with [target_apprentice.GetHerHis] own abilities. [target_apprentice.GetSheHe|U] asks that we allow [target_apprentice.GetHerHim] come under the apprenticeship of [target_artist.GetName], who is a much more renowned and skilled [target_artist.GetArtistType.GetName]. That would clearly help [target_apprentice.GetHerHim] improve [target_artist.GetHerHis] abilities, but would certainly keep [target_artist.GetNameWithNoTooltip] unable to perform [target_artist.GetHerHis] other responsibilities.",
+  "uk": "У будь-якій творчій справі беруть участь двоє — вчитель і учень, причому останній прагне колись перевершити вчителя. [target_apprentice.GetName], явно маючи цю мету, [Select_CString(target_apprentice.IsFemale,'постала', 'постав')] перед нами і [Select_CString(target_apprentice.IsFemale,'заявила', 'заявив')], що [Select_CString(target_apprentice.IsFemale,'незадоволена', 'незадоволений')] своїми навичками. [Select_CString(target_apprentice.IsFemale,'Вона', 'Він')] просить дозволу, щоб [target_artist.GetArtistType.GetName|l] [target_artist.GetName], [Select_CString(target_artist.IsFemale,'відома', 'відомий')] своїм досвідом і талантом, [Select_CString(target_artist.IsFemale,'взяла', 'взяв')] [Select_CString(target_apprentice.IsFemale,'її в учениці', 'його в учні')]. Безсумнівно, так [target_apprentice.GetName] зможе розвинути свою майстерність, але тоді [target_artist.GetNameWithNoTooltip] не зможе виконувати інші свої обов'язки."
+ },
+ "artist_events.53.title": {
+  "en": "The Master and the Apprentice",
+  "uk": "Вчитель і учень"
+ },
+ "artist_events.6.desc": {
+  "en": "The many colors involved in the creation of art are but second nature to many painters such as [target_character.GetName]. [target_character.GetHerHis|U] strokes bring joy to the people, bringing together poor and rich, healthy and infirm, as they marvel at the sight of artwork imprinted around the center of [target_location.GetName]. Recently, we have been receiving a mounting number of requests to further fund this new art style by erecting more walls for [target_character.GetNameWithNoTooltip] to beautify.",
+  "uk": "Чимало художників дивують своєю здатністю працювати з фарбами. [target_character.GetName] — не виняток. [Select_CString(target_character.IsFemale,'Її', 'Його')] яскраві мазки приносять радість бідним і багатим, здоровим і хворим: дивлячись на творіння, що прикрашають центр [target_location.Custom('LR_GEN')|l] [target_location.GetName], кожен завмирає в захваті. Останнім часом до нас звідусіль надходять прохання й надалі фінансувати цей новий напрямок у мистецтві. [target_character.GetNameWithNoTooltip] використовуватиме як полотно ті стіни, що ми зведемо!"
+ },
+ "artist_events.6.title": {
+  "en": "The Wall Art of [target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] настінне мистецтво"
+ },
+ "artist_events.7.a": {
+  "en": "Perhaps it is an elaborate joke we cannot comprehend?",
+  "uk": "А раптом це мудрований жарт, який ми поки не розуміємо?"
+ },
+ "artist_events.7.b": {
+  "en": "This joke will cost [target_character.GetNameWithNoTooltip] an arm and a leg!",
+  "uk": "[target_character.GetNameWithNoTooltip] за таку витівку позбудеться руки й ноги!"
+ },
+ "artist_events.7.desc": {
+  "en": "It is said that humor is a frequent guest within our [ROOT.GetCountry.GetGovernment.GetCourtTitle], with jesters and comedians filling our dignitaries full of laughter on joyous occasions. However, even jests can at times go a step too far and that certainly is the case with [target_character.GetName], who recently indulged [target_character.GetHerselfHimself] into drawing obscenities on the palace walls, aimed at our [ROOT.GetCountry.GetGovernment.GetRulerTitle] and prominent bureaucrats. This indecent display will surely chip away at our prestige unless the perpetrator is punished.",
+  "uk": "Кажуть, що сміх — частий гість у наших залах. Блазні та комедіанти всіх мастей веселять наших сановників під час різних святкувань. Але на жаль, інколи їхні жарти заходять надто далеко. Так, нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale,'дозволила', 'дозволив')] собі зобразити главу держави і видних бюрократів у вельми непристойному вигляді. Це непристойне художество неминуче підірве наш престиж, якщо [Select_CString(target_character.IsFemale,'винуватиця', 'винуватець')] не понесе покарання."
+ },
+ "artist_events.7.title": {
+  "en": "A Joke Too Much",
+  "uk": "Невдалий жарт"
+ },
+ "artist_events.8.a": {
+  "en": "Immortalized in the books of history does have a nice ring to it.",
+  "uk": "Безсмертя на сторінках історії? Звучить спокусливо!"
+ },
+ "artist_events.8.b": {
+  "en": "Better yet, give it to the people!",
+  "uk": "Краще подбаємо про наш народ!"
+ },
+ "artist_events.8.c": {
+  "en": "The coin is ours and ours alone!",
+  "uk": "Гроші належать лише нам!"
+ },
+ "artist_events.8.desc": {
+  "en": "The popularity of any figurehead across the ages is tied to their depiction in various art pieces. Paintings, murals, and stories will carry on the legacy of our best and brightest. To further this agenda, we could commission a work of art by one of our best and most capable painters, [target_character.GetName].",
+  "uk": "Людина здобуває безсмертя, коли її закарбовують у творах мистецтва. Картини, фрески та книги збережуть для нащадків пам'ять про наших найвизначніших сучасників. Зважаючи на це, ми могли б замовити портрет в одного з наших найталановитіших художників на ім'я [target_character.GetName]."
+ },
+ "artist_events.8.title": {
+  "en": "Immortalizing the Visage",
+  "uk": "Увічнення образу"
+ },
+ "artist_events.9.a": {
+  "en": "Should we be impressed by such a display of incompetence?",
+  "uk": "Може, нам варто захопитися такою разючою некомпетентністю?"
+ },
+ "artist_events.9.desc": {
+  "en": "In a feeble attempt to impress prominent figures of our society, [target_character.GetName] spearheaded an effort to paint an elaborate scene featuring leaders of the various estates. However, due to [target_character.GetHerHis] incompetence, the painting was perceived as a hit piece aimed at poking fun at the physical appearance of many powerful men, resulting in a comical loss of prestige on our end.",
+  "uk": "[target_character.GetName], намагаючись вразити можновладців, пише складний твір, що зображує видних представників різних станів. На жаль, таке завдання виявляється [Select_CString(target_character.IsFemale,'їй', 'йому')] не по зубах. Картина й справді стає знаменитою, от тільки люди бачать у ній злу карикатуру, що висміює зовнішність впливових людей. Ця комічна ситуація обертається для нас втратою престижу."
+ },
+ "artist_events.9.title": {
+  "en": "The Accidental Insult",
+  "uk": "Ненавмисна образа"
+ },
+ "based_on_country_average_literacy_tt": {
+  "en": "The [artistic_skill|e] gained depends on the average [literacy|e] of our [country|e]",
+  "uk": "Отриманий [Concept('artistic_skill','талант')|e] залежить від рівня [Concept('literacy','грамотності')|e] в нашій [Concept('country','державі')|e]"
+ },
+ "based_on_same_culture_highest_lit_pop_tt": {
+  "en": "The [artistic_skill|e] gained depends on the average [literacy|e] of [pops|e] that share the [culture|e] of the [artist|e], currently these are [target_pop.GetName]",
+  "uk": "Отриманий [Concept('artistic_skill','талант')|e] залежить від середнього рівня [Concept('literacy','грамотності')|e] [Concept('pops','групи населення')|e], до чиєї [Concept('culture','культури')|e] належить [Concept('artist','митець')|e]. Наразі це [target_pop.GetName|l]."
+ },
+ "country_event.10.a": {
+  "en": "Of course, without a shadow of a doubt!",
+  "uk": "Звісно, без питань!"
+ },
+ "country_event.10.b": {
+  "en": "We have better use for this coin.",
+  "uk": "Ми знайдемо цим грошам краще застосування."
+ },
+ "country_events.25.tt": {
+  "en": "[target_character.GetName] may gain a new #G positive#! [trait|e]",
+  "uk": "[target_character.GetName] може отримати нову #G позитивну#! [Concept('trait', 'рису')|e]."
+ },
+ "depends_on_change_policy_cost_tt": {
+  "en": "The [stability|e] paid greatly depends on the current [costs|e] to change a [policy|e] in a [law|e]",
+  "uk": "На витрати [Concept('stability','стабільності')|e] значно впливає [Concept('costs','вартість')|e] зміни [Concept('policy','політичних')|e] [Concept('law','правил')|e]"
+ },
+ "depends_on_prosp_artist_skill_and_control_tt": {
+  "en": "The [development|e] gained depends upon the [control|e] and [prosperity|e] of the [locations|e] as well as the skill of the [artist|e]",
+  "uk": "Отримуваний [Concept('development','розвиток')|e] залежить від [Concept('control','контролю')|e] та [Concept('prosperity','процвітання')|e] у відповідних [Concept('locations','районах')|e], а також від навичок [Concept('artist','митця')|e]"
+ },
+ "every_supporter_pop_gains_20_satisfaction_tt": {
+  "en": "Every [pop|e] in support of the [target_rebel.GetName] [rebellion|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
+  "uk": "Усі [Concept('pop','групи населення')|e], що підтримують [Concept('rebellion','бунт')|e], на чию підтримку спирається [target_rebel.GetName], отримають [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction','вдоволення')|e]"
+ },
+ "jurist_busy_tt": {
+  "en": "[target_character.GetShortName] will serve a #Y 5#! year term in our government, passively increasing our [cabinet_efficiency|e] and [tax_efficiency|e] by #G +10%#!\\nWhile [target_character.GetSheHe] serves, we will #R not#! be able to [ShowCharacterInteractionName('commission_art')] from [target_character.GetHerHim].",
+  "uk": "[target_character.GetShortName] протягом #Y 5#! років служитиме в нашому уряді, пасивно підвищуючи [Concept('cabinet_efficiency', 'ефективність ради')|e] та [Concept('tax_efficiency', 'податкову ефективність')|e] на #G +10%#!\\nПоки [Select_CString(target_character.IsFemale,'вона', 'він')] перебуває на службі, ми не зможемо виконувати з [Select_CString(target_character.IsFemale,'нею', 'ним')] взаємодію «[ShowCharacterInteractionName('commission_art')]»."
+ },
+ "strain_harder_at_the_forge_tt": {
+  "en": "The strain of the work will take a toll on the life expectancy of [target_character.GetShortNameWithNoTooltip]",
+  "uk": "[target_character.GetShortNameWithNoTooltip] проживе менше через важку роботу"
+ },
+ "target_character_will_never_dare_again_tt": {
+  "en": "The knowledge and oratory prowess of [target_character_2.GetShortName] leaves no room for naysayers and thus [target_character.GetShortName] will never again attempt such an underhanded move",
+  "uk": "[target_character_2.GetShortName], [Select_CString(target_character_2.IsFemale,'відома', 'відомий')] розумом і красномовством, не залишає суперникам жодного шансу. [target_character.GetShortName] більше ніколи не піде на таку підлу інтригу"
+ }
+}

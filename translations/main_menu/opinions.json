@@ -1,0 +1,3494 @@
+{
+ "ANTAGONISM": {
+  "en": "Antagonism",
+  "uk": "Неприязнь"
+ },
+ "ANTAGONISM_ENTRY": {
+  "en": "$NAME$: $VAL|1=-$",
+  "uk": ""
+ },
+ "ANTAGONISM_ENTRY_CHANGE": {
+  "en": "$NAME$: $VAL|1=-$ ($CHANGE|2=-$ yearly)",
+  "uk": "$NAME$: $VAL|1=-$ ($CHANGE|2=-$ на рік)"
+ },
+ "ANTAGONISM_ENTRY_CHANGE_THEM": {
+  "en": "[COUNTRY.GetName] $MODIFIER$: $VAL|-=$ yearly",
+  "uk": ""
+ },
+ "ANTAGONISM_ENTRY_FOR_COUNTRY_WITH_BREAKDOWN": {
+  "en": "[COUNTRY.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-V2$#!",
+  "uk": ""
+ },
+ "ANTAGONISM_ENTRY_WITH_BREAKDOWN": {
+  "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=1$#!",
+  "uk": ""
+ },
+ "ANTAGONISM_YEARLY_CHANGE_BASE": {
+  "en": "Natural decay: $VAL|2=-$ yearly",
+  "uk": ""
+ },
+ "ANTAGONISM_YEARLY_CHANGE_MODIFIER": {
+  "en": "[COUNTRY.GetName] $MODIFIER$: $VAL|2=-$ yearly",
+  "uk": ""
+ },
+ "ANTAGONISM_YEARLY_CHANGE_OPINION_IMPROVEMENT": {
+  "en": "Opinion improvement: $VAL|2=-$ yearly",
+  "uk": ""
+ },
+ "BIAS_TEMPORAL_EXPIRES": {
+  "en": " #flavor (expires $DATE$)#!",
+  "uk": ""
+ },
+ "BIAS_TEMPORAL_FADING": {
+  "en": " #flavor (fades ~$YEAR$)#!",
+  "uk": ""
+ },
+ "BYZ_latin_emperor_opinion": {
+  "en": "Titular Latin Emperor",
+  "uk": ""
+ },
+ "CAS_claimed_portuguese_throne": {
+  "en": "Claimed the Portuguese Throne",
+  "uk": "Висунули домагання на португальський престол"
+ },
+ "CAS_rejected_royal_marriage": {
+  "en": "Rejected the Royal Marriage",
+  "uk": "Відхилили династичний шлюб"
+ },
+ "CAS_respected_portuguese_claims": {
+  "en": "Respected the Portuguese Claims",
+  "uk": "Пошанували португальські претензії"
+ },
+ "COUNTRY_ANTAGONISM_TOWARDS": {
+  "en": "The [COUNTRY.GetAdjective] [antagonism|e] towards [TARGET_COUNTRY.GetName] ($ANTAGONISM|-=$) is due to the following factors:",
+  "uk": "#L [COUNTRY.GetAdjective]а#! [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DP')|L]#!#! — $ANTAGONISM|-=$. Причини:"
+ },
+ "COUNTRY_ANTAGONISM_TOWARDS_SELF": {
+  "en": "#T [COUNTRY.GetAdjective] Antagonism#!\\nClearly [TARGET_COUNTRY.GetName] feel no antagonism towards themselves.",
+  "uk": "#T #L [COUNTRY.GetAdjective]а#! неприязнь#!\\nОчевидно, що [TARGET_COUNTRY.GetName] ставиться до себе без неприязні."
+ },
+ "COUNTRY_ANTAGONISM_TOWARDS_SELF_PLAYER": {
+  "en": "#T Antagonism towards [TARGET_COUNTRY.GetName]#!\\n[TARGET_COUNTRY.GetName] is our own country!",
+  "uk": "#T Неприязнь до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DP')|L]#!#!#!\\n[TARGET_COUNTRY.GetName] — це наша держава!"
+ },
+ "COUNTRY_FAVORS_OF_TT": {
+  "en": "The $WHO|Y$ [favors|e] towards $TARGET|Y$ ($FAVORS|+=$) is due to the following factors:",
+  "uk": "[Concept('favors','Прихильність')|e] сторони $WHO|Y$ до держави $TARGET|Y$ — $FAVORS|+=$. Причини:"
+ },
+ "COUNTRY_LOYALTY_OF": {
+  "en": "#T $WHO$ Loyalty#!\\nThe $WHO|Y$ [subject_loyalty|e] of $TARGET|Y$ ($LOYALTY|2+=$) is due to the following factors:",
+  "uk": "#T Вірність до держави $WHO$#!\\n[Concept('subject_loyalty','Лояльність васала')|e] $WHO|Y$ до держави $TARGET|Y$ — $LOYALTY|2+=$. Причини:"
+ },
+ "COUNTRY_LOYALTY_OF_SELF": {
+  "en": "#T $WHO$ Loyalty#!\\nClearly $TARGET|Y$ is loyal to themselves.",
+  "uk": "#T Лояльність до держави $WHO$#!\\nОчевидно, що $TARGET|Y$ не зрадить себе."
+ },
+ "COUNTRY_LOYALTY_OF_SELF_PLAYER": {
+  "en": "#T $WHO$ Loyalty#!\\n$TARGET|Y$ is our own country!",
+  "uk": "#T Лояльність до держави $WHO$#!\\n$TARGET|Y$ — це наша держава!"
+ },
+ "COUNTRY_NO_ANTAGONISM_TOWARDS": {
+  "en": "The [COUNTRY.GetAdjective] feel no [antagonism|e] towards [TARGET_COUNTRY.GetName]",
+  "uk": "#L [COUNTRY.GetAdjective]а#! сторона не відчуває [Concept('antagonism', 'неприязні')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DP')|L]#!#!"
+ },
+ "COUNTRY_OPINION_OF": {
+  "en": "#T [COUNTRY.GetAdjectiveWithNoTooltip] Opinion of [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Their', 'Our')] opinion of ($OPINION|2+=$) is due to:",
+  "uk": "#T [COUNTRY.GetAdjectiveWithNoTooltip]е ставлення до держави [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Їхнє', 'Наше')] ставлення — $OPINION|2+=$. Причини:"
+ },
+ "COUNTRY_OPINION_OF_MYSELF": {
+  "en": "Amandi te ipsum non est vanitas. Est sanitatem reducamus.",
+  "uk": ""
+ },
+ "COUNTRY_OPINION_OF_SELF": {
+  "en": "#T $WHO$ Opinion#!\\nClearly $TARGET|Y$ view themselves in a favorable light.",
+  "uk": "#T Ставлення до держави $WHO$#!\\nОчевидно, що $TARGET|Y$ прихильно ставиться до себе."
+ },
+ "COUNTRY_OPINION_OF_SELF_PLAYER": {
+  "en": "#T $WHO$ Opinion#!\\n$TARGET|Y$ is our own country!",
+  "uk": "#T Ставлення до держави $WHO$#!\\n$TARGET|Y$ — це наша держава!"
+ },
+ "COUNTRY_OPINION_OF_TT": {
+  "en": "The current opinion of ($OPINION|2+=$) is due to:",
+  "uk": "Поточне ставлення — $OPINION|2+=$. Причини:"
+ },
+ "COUNTRY_TRUST_OF": {
+  "en": "#T [COUNTRY.GetAdjectiveWithNoTooltip] Trust of [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Their', 'Our')] trust of ($TRUST|2+=$) is due to:",
+  "uk": "#T Довіра [COUNTRY.GetAdjectiveWithNoTooltip|l]ої сторони до держави [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Їхня', 'Наша')] довіра — $TRUST|2+=$. Причини:"
+ },
+ "COUNTRY_TRUST_OF_SELF": {
+  "en": "#T $WHO$ Trust#!\\nClearly $TARGET|Y$ trust themselves with their lives.",
+  "uk": "#T Довіра до держави $WHO$#!\\nОчевидно, що $TARGET|Y$ довіряє собі безумовно."
+ },
+ "COUNTRY_TRUST_OF_SELF_PLAYER": {
+  "en": "#T Trust in $TARGET$#!\\n$TARGET|Y$ is our own country!",
+  "uk": "#T Довіра до держави $TARGET$#!\\n$TARGET$ — це наша держава!"
+ },
+ "COUNTRY_TRUST_OF_TT": {
+  "en": "The trust of ($TRUST|+=$) is due to:",
+  "uk": "Довіра — $TRUST|+=$. Причини:"
+ },
+ "COUNTRY_VOTING_BIAS_OF": {
+  "en": "#T Voting bias towards $TARGET$#!\\nThe $WHO|Y$ voting bias towards $TARGET|Y$ ($VOTINGBIAS|+=$) is due to the following factors:",
+  "uk": "#T Упередженість до держави $TARGET$ при голосуванні#!\\nУпередженість сторони $WHO|Y$ до держави $TARGET|Y$ при голосуванні — $VOTINGBIAS|+=$. Причини:"
+ },
+ "COUNTRY_VOTING_BIAS_OF_SELF": {
+  "en": "#T $WHO$ Voting Bias#!\\nClearly $TARGET|Y$ will vote for themselves if it is an option.",
+  "uk": "#T Упередженість до держави $WHO$ при голосуванні#!\\nОчевидно, що при першій можливості $TARGET|Y$ проголосує за себе."
+ },
+ "COUNTRY_VOTING_BIAS_OF_SELF_PLAYER": {
+  "en": "#T Voting bias towards $TARGET$#!\\n$TARGET|Y$ is our own country!",
+  "uk": "#T Упередженість до держави $TARGET$ при голосуванні#!\\n$TARGET|Y$ — це наша держава!"
+ },
+ "CULTURE_BREAKDOWN_TOOLTIP": {
+  "en": "#T Distribution of [CULTURE.GetNameWithNoTooltip]#!\\n[CULTURE.GetName] [pops|e] are spread among the following [provinces|e]:",
+  "uk": "#T Розподіл [CULTURE.GetNameWithNoTooltip|l]ої культури#!\\n[Concept('pops','Групи населення')|e] #L [CULTURE.GetName|l]ої#! культури проживають у таких [Concept('provinces','провінціях')|e]:"
+ },
+ "CULTURE_BREAKDOWN_TOOLTIP_ENTRY": {
+  "en": "@province! [PROVINCE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $POP_SIZE|L$#!",
+  "uk": ""
+ },
+ "ICI_HEADER": {
+  "en": "[CULTURE.GetNameWithNoTooltip] in [PROVINCE.GetNameWithNoTooltip]",
+  "uk": "[CULTURE.GetNameWithNoTooltip]а культура в провінції [PROVINCE.GetNameWithNoTooltip]"
+ },
+ "ICI_POP_ENTRY": {
+  "en": "[POP.GetName]: [POP.GetSize] [POP.GetType.GetIcon]",
+  "uk": ""
+ },
+ "NATIVE_POLICIES": {
+  "en": "$WHO$ Policies",
+  "uk": "$WHO$ — політика"
+ },
+ "OPINION_ANTAGONISM_ENTRY": {
+  "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+2$#!\\n",
+  "uk": ""
+ },
+ "OPINION_BASE_FROM_ANTAGONISM": {
+  "en": "#T Antagonism Impact#!\\nEach antagonism gives $EACH|+=$ [opinion|e]\\nFrom $BASE|R0$ [antagonism|e]: $VAL|+$",
+  "uk": "#T Вплив неприязні#!\\nКожна окрема неприязнь дає $EACH|+=$ до [Concept('opinion','ставлення')|e]\\nВід базового значення [Concept('antagonism', 'неприязні')|e] $BASE|R0$: $VAL|+$"
+ },
+ "OPINION_CULTURE_ASSIMILATION_TOOLTIP": {
+  "en": "[assimilation|e] of [TARGET_CULTURE.GetName] [pops|e]: $VAL|=+2%$",
+  "uk": ""
+ },
+ "OPINION_CULTURE_ENTRY": {
+  "en": "[CULTURE.GetName] view of [TARGET_CULTURE.GetName]: $VAL|0=+$\\n",
+  "uk": "#L [CULTURE.GetName]е#! ставлення до #L [TARGET_CULTURE.GetName|l]ої#! культури: $VAL|0=+$\\n"
+ },
+ "OPINION_CULTURE_POP_TOOLTIP": {
+  "en": "[pop_satisfaction|e] of [CULTURE.GetNameWithNoTooltip] [pops|e]: $VAL|=+2%$",
+  "uk": "[Concept('pop_satisfaction','Задоволення')|e] [Concept('pops','груп населення')|e] з [CULTURE.GetNameWithNoTooltip|l]ою культурою: $VAL|=+2%$"
+ },
+ "OPINION_CULTURE_TOOLTIP": {
+  "en": "#T [CULTURE.GetNameWithNoTooltip] view of [TARGET_CULTURE.GetNameWithNoTooltip]#!\\n$TITLE$ opinion gives the following:\\n[CULTURE.GetName] countries' view of [TARGET_CULTURE.GetName] countries: $VAL|0=+$",
+  "uk": "#T Ставлення [CULTURE.GetNameWithNoTooltip|l]ої культури до [TARGET_CULTURE.GetNameWithNoTooltip|l]ої#!\\nСтавлення «$TITLE$» надає такий ефект:\\nСтавлення держав з #L [CULTURE.GetName|l]ою#! культурою до держав з #L [TARGET_CULTURE.GetName|l]ою#! культурою: $VAL|0=+$"
+ },
+ "OPINION_ENTRY": {
+  "en": "$NAME$: $VAL|2=+$\\n",
+  "uk": ""
+ },
+ "OPINION_ENTRY_CHANGE": {
+  "en": "$NAME$: $VAL|0=+$ ($CHANGE|2=+$ yearly)\\n",
+  "uk": "$NAME$: $VAL|0=+$ ($CHANGE|2=+$ на рік)"
+ },
+ "OPINION_EXCOMMUNICATED": {
+  "en": "[CHARACTER.GetName] is Excommunicated",
+  "uk": ""
+ },
+ "OPINION_MODIFIED_BY_DEFENSIVE_SUPPORT": {
+  "en": "Receiving defensive support: $VAL|-%$",
+  "uk": "Отримання допомоги в обороні: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_DEPENDENCY": {
+  "en": "[subject|e]: $VAL|-%$",
+  "uk": "[Concept('subject','Васал')|e]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_IO": {
+  "en": "Share an [international_organization|e]: $VAL|-%$",
+  "uk": "Перебування в тому ж [Concept('international_organization','міжнародному об'єднанні')|e]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_NEIGHBOUR": {
+  "en": "Neighbor: $VAL|-%$",
+  "uk": "Сусід: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_OUT_OF_RANGE": {
+  "en": "Out of [diplomatic_range|e]: $VAL|-%$",
+  "uk": "Поза [Concept('diplomatic_range','дипломатичною дистанцією')|e]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_ROYAL_MARRIAGE": {
+  "en": "[royal_marriage|e]: $VAL|-%$",
+  "uk": "[Concept('royal_marriage','Династичний шлюб')|e]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_SAME_SIDE_IN_WAR": {
+  "en": "Fighting in [war|e] together: $VAL|-%$",
+  "uk": "Спільна участь у [Concept('war','війні')|e]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_SPY_NETWORK": {
+  "en": "[spy_network|e] in [COUNTRY.GetNameWithNoTooltip]: $VAL|-%$",
+  "uk": "[Concept('spy_network','Шпигунська мережа')|e] в [COUNTRY.Custom('CL_PP')]: $VAL|-%$"
+ },
+ "OPINION_MODIFIED_BY_TITLE": {
+  "en": "This is then modified further (down to a minimum of 5%):",
+  "uk": "Потім показник змінюється знову (до мінімального значення в 5%):"
+ },
+ "OPINION_MODIFIED_BY_UNION": {
+  "en": "[union|e]: $VAL|-%$",
+  "uk": "[Concept('union','Унія')|e]: $VAL|-%$"
+ },
+ "OPINION_RELIGION_ENTRY": {
+  "en": "[COUNTRY.GetAdjective] view of [TARGET_RELIGION.GetAdjective] countries: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L0=+$#!\\n",
+  "uk": "#L [RELIGION.GetAdjective]е#! ставлення до держав #L [TARGET_RELIGION.GetAdjective|l]ого#! толку: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L0=+$#!\\n"
+ },
+ "OPINION_RELIGION_GENERAL_VIEW_ENTRY": {
+  "en": "[RELIGION.GetAdjective] view of [TARGET_RELIGION.GetName]: $VAL|0=+$\\n",
+  "uk": "#L [RELIGION.GetAdjective]е#! ставлення до релігії «[TARGET_RELIGION.GetName]»: $VAL|0=+$\\n"
+ },
+ "OPINION_RELIGION_TOOLTIP": {
+  "en": "#T [RELIGION.GetNameWithNoTooltip] view of [TARGET_RELIGION.GetNameWithNoTooltip] #!\\n$TITLE$ opinion gives the following:\\n[RELIGION.GetAdjective] countries' view of [TARGET_RELIGION.GetAdjective] countries: $VAL|0=+$",
+  "uk": "#T Ставлення [RELIGION.GetAdjectiveWithNoTooltip|l]ої релігії до [TARGET_RELIGION.GetNameWithNoTooltip|l]ої#!\\nСтавлення «$TITLE$» надає такий ефект:\\nСтавлення держав #L [RELIGION.GetAdjective|l]ого#! толку до держав #L [TARGET_RELIGION.GetAdjective|l]ого#!: $VAL|0=+$"
+ },
+ "OPINION_RELIGIOUS_TOLERANCE_ENTRY": {
+  "en": "#T Tolerance Reasons#!\\n[COUNTRY.GetAdjective] religious [tolerance|e] of [TARGET_RELIGION.GetName]: $VAL|0=+$\\n",
+  "uk": "#T Причини толерантності#!\\n#L [COUNTRY.GetAdjective]а#! [Concept('tolerance','толерантність')|e] до релігії «[TARGET_RELIGION.GetName]»: $VAL|0=+$\\n"
+ },
+ "OPINION_SAME_CULTURE_ENTRY": {
+  "en": "Both have [CULTURE.GetName] [primary_culture|e]: $VAL|0=+$\\n",
+  "uk": "[Concept('primary_culture', 'Основна культура')|e] обох сторін — #L [CULTURE.GetName|l]а#!: $VAL|0=+$\\n"
+ },
+ "OPINION_SHARED_CULTURE_GROUPS": {
+  "en": "$NUM$ of $TOTAL$ Shared [culture_groups|e]: $VAL|=+$\\n",
+  "uk": "$NUM$ з $TOTAL$ спільних [Concept('culture_groups', 'культурних груп')|e]: $VAL|=+$\\n"
+ },
+ "OPINION_TIMED_ENTRY": {
+  "en": "$NAME$ $SUFFIX$: $VAL|2=+$\\n",
+  "uk": ""
+ },
+ "OPINION_TIMED_ENTRY_CHANGE": {
+  "en": "$NAME$ $SUFFIX$: $VAL|0=+$ ($CHANGE|2=+$ yearly)\\n",
+  "uk": ""
+ },
+ "OVERLORD_POLICIES": {
+  "en": "$WHO$ #TOOLTIP:$BREAKDOWN_TAG$ #L Subject Opinion Modifiers#!#!",
+  "uk": "$WHO$ #TOOLTIP:$BREAKDOWN_TAG$ #L Модифікатори ставлення васала#!#!"
+ },
+ "RELATION_VALUES": {
+  "en": "$VAL|=+$",
+  "uk": ""
+ },
+ "RELIGION_BREAKDOWN_TOOLTIP": {
+  "en": "#T Distribution of [RELIGION.GetNameWithNoTooltip]#!\\n[RELIGION.GetName] [pops|e] are spread among the following [provinces|e]:",
+  "uk": "#T Розподіл [RELIGION.GetAdjectiveWithNoTooltip|l]ої релігії#!\\n[Concept('pops','Групи населення')|e], чия релігія — [RELIGION.GetName|l], проживають у таких [Concept('provinces','провінціях')|e]:"
+ },
+ "RELIGION_BREAKDOWN_TOOLTIP_ENTRY": {
+  "en": "@province! [PROVINCE.GetName]: $POP_SIZE$ [population_icon]",
+  "uk": "[PROVINCE.GetName]: $POP_SIZE$ осіб"
+ },
+ "TRUST_ENTRY": {
+  "en": "$NAME$: $VAL|=+2$",
+  "uk": ""
+ },
+ "TRUST_ENTRY_CHANGE": {
+  "en": "$NAME$: $VAL|0=+$ ($CHANGE|2=+$ yearly)",
+  "uk": "$NAME$: $VAL|0=+$ ($CHANGE|2=+$ на рік)"
+ },
+ "accepted_demands_modifier": {
+  "en": "Accepted our Demands",
+  "uk": "Погодилися на наші вимоги"
+ },
+ "accepted_diplomatic_offer": {
+  "en": "Accepted Diplomatic Offer",
+  "uk": "Прийняли дипломатичну пропозицію"
+ },
+ "ach_ath_frankokratia_ties": {
+  "en": "Latin Ties",
+  "uk": ""
+ },
+ "ach_claimed_the_peloponnese": {
+  "en": "Claimed the Peloponnese",
+  "uk": ""
+ },
+ "ach_epirus_support_rebel_victory": {
+  "en": "Supported Orsini Uprising",
+  "uk": ""
+ },
+ "ach_epirus_support_rebel_victory_betrayed": {
+  "en": "Betrayed Us!",
+  "uk": ""
+ },
+ "ach_nap_court_ties": {
+  "en": "Ties to the Court of Naples",
+  "uk": ""
+ },
+ "ach_nap_court_ties_monetary": {
+  "en": "Monetary Ties to Naples",
+  "uk": ""
+ },
+ "ach_pap_sacked_constantinople_again": {
+  "en": "Sacked Constantinople",
+  "uk": ""
+ },
+ "ach_papal_latin_restoration_guarantee": {
+  "en": "Backing of the Papal State",
+  "uk": ""
+ },
+ "ach_rejected_papacy_offer": {
+  "en": "Rejected Proposal to Restore the Latin Empire",
+  "uk": ""
+ },
+ "alliance_with_lutherans": {
+  "en": "Enemy of My Enemy",
+  "uk": ""
+ },
+ "allows_state_piracy_modifier": {
+  "en": "Allows State Piracy",
+  "uk": "Дозволено державне піратство"
+ },
+ "anatolian_struggle_modifier": {
+  "en": "Anatolian Struggle",
+  "uk": ""
+ },
+ "antagonism_abandon_colonial_claim": {
+  "en": "Made a [country|e] abandon a colonial claim in a [peace_treaty|e]",
+  "uk": "Змусили [Concept('country','державу')|e] відмовитися від домагання на колонію згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_abandon_colonies": {
+  "en": "Made a [country|e] abandon colonies in a [peace_treaty|e]",
+  "uk": "Змусили [Concept('country','державу')|e] відмовитися від колоній згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_ach_byzantine_civil_war_intervention": {
+  "en": "Sowed Chaos in Byzantium",
+  "uk": ""
+ },
+ "antagonism_anti_scaligeri_league": {
+  "en": "Anti-Scaligeri League",
+  "uk": "Ліга проти делла Скала"
+ },
+ "antagonism_assume_union_senority": {
+  "en": "Assumed seniority in a [union|e] in a [peace_treaty|e]",
+  "uk": "Прийняли старшинство в [Concept('union','унії')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_attempt_to_justify_backfired": {
+  "en": "Attempt to justify [antagonism|e] backfired",
+  "uk": "Спроба виправдати [Concept('antagonism', 'неприязнь')|e] обернулася навпаки"
+ },
+ "antagonism_bav_ignore_feudal_traditions_harsh": {
+  "en": "Forcefully annexed $LBV$",
+  "uk": "Примусово приєднали державу $LBV$"
+ },
+ "antagonism_bav_ignore_feudal_traditions_mild": {
+  "en": "Vassalized $LBV$",
+  "uk": "Зробили державу $LBV$ васалом"
+ },
+ "antagonism_bought_relief": {
+  "en": "Bought relief from [antagonism|e]",
+  "uk": "За гроші позбуваються [Concept('antagonism', 'неприязні')|e]"
+ },
+ "antagonism_breaking_truce": {
+  "en": "Broke Truce",
+  "uk": "Порушили перемир'я"
+ },
+ "antagonism_breaking_truce_with_guarantor": {
+  "en": "Broke Truce with Guarantor",
+  "uk": "Порушили перемир'я з гарантом"
+ },
+ "antagonism_broke_subject_union": {
+  "en": "Broke Subject Union",
+  "uk": "Порушили унію з васалом"
+ },
+ "antagonism_casus_belli_annulled": {
+  "en": "Casus Belli Annulled",
+  "uk": ""
+ },
+ "antagonism_chk_raiding_neighbors_for_food": {
+  "en": "Raiding Neighbors for Food",
+  "uk": "Набіги на сусідів заради їжі"
+ },
+ "antagonism_claimed_empire": {
+  "en": "Claimed Empire",
+  "uk": "Висунули претензію на імперію"
+ },
+ "antagonism_created_splinter_autocephalous_patriarchate": {
+  "en": "Created splinter [autocephalous_patriarchate|e]",
+  "uk": "Заснували розкольницький [Concept('autocephalous_patriarchate','автокефальний патріархат')|e]"
+ },
+ "antagonism_cultural_development": {
+  "en": "Cultural Development",
+  "uk": "Культурний розвиток"
+ },
+ "antagonism_declared_war_no_cb": {
+  "en": "Declared [war|e] without [casus_belli|e]",
+  "uk": "Оголосили [Concept('war','війну')|e] без [Concept('casus_belli','приводу')|e]"
+ },
+ "antagonism_declared_war_on_subject": {
+  "en": "Declared [war|e] on own [subject|e]",
+  "uk": "Оголосили [Concept('war','війну')|e] власному [Concept('subject','васалу')|e]"
+ },
+ "antagonism_declaring_independence": {
+  "en": "Declaring independence",
+  "uk": "Оголошення незалежності"
+ },
+ "antagonism_defused_border_disputes": {
+  "en": "Defused border disputes",
+  "uk": "Послабили напругу в прикордонних суперечках"
+ },
+ "antagonism_destroyed_autocephalous_patriarchate": {
+  "en": "Destroyed our $autocephalous_patriarchate$",
+  "uk": ""
+ },
+ "antagonism_disband_kontor": {
+  "en": "Demanded that the Kontors are disbanded in a [peace_treaty|e]",
+  "uk": "Зажадали розпуску контор згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_dismantle_fortifications": {
+  "en": "Demanded dismantling of [forts|e] in a [peace_treaty|e]",
+  "uk": "Зажадали розібрати [Concept('forts','фортеці')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_embraced_antagonism": {
+  "en": "Embraced [antagonism|e]",
+  "uk": "Перейшли до [Concept('antagonism', 'неприязні')|e]"
+ },
+ "antagonism_embraced_piracy": {
+  "en": "Embraced Piracy",
+  "uk": "Перейшли до піратства"
+ },
+ "antagonism_established_dominance_in_middle_kingdom": {
+  "en": "Established dominance in the [GetInternationalOrganization('middle_kingdom').GetName]",
+  "uk": "Встановили панування в #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_tt,X #L Серединній державі#!#!"
+ },
+ "antagonism_execute_ruler": {
+  "en": "Demanded execution of a [country|e]'s [ruler|e] in a [peace_treaty|e]",
+  "uk": "Зажадали страти [Concept('ruler','правителя')|e] [Concept('country','держави')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_executed_prisoners": {
+  "en": "Executed [prisoners|e]",
+  "uk": "Стратили [Concept('prisoners','полонених')|e]"
+ },
+ "antagonism_expanded_diplomatic_corps_minors": {
+  "en": "Increased ties to neighbors",
+  "uk": "Зміцнилися зв'язки з сусідами"
+ },
+ "antagonism_force_convert": {
+  "en": "Forced a [country|e] to [convert|e] [religion|e] in a [peace_treaty|e]",
+  "uk": "Примусили [Concept('country','державу')|e] [Concept('convert','навернутися')|e] до іншої [Concept('religion','релігії')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_force_tributary": {
+  "en": "Forced a [country|e] to become a [ShowSubjectTypeNameWithNoTooltip('tributary')] in a [peace_treaty|e]",
+  "uk": "Примусили [Concept('country','державу')|e] стати данником згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_forced_integration_progress": {
+  "en": "Forced Integration Progress",
+  "uk": "Хід примусової інтеграції"
+ },
+ "antagonism_forced_migrate": {
+  "en": "Forced a [country|e] to [migrate|e]",
+  "uk": "Примусили [Concept('country','державу')|e] [Concept('migrate','мігрувати')|e]"
+ },
+ "antagonism_forced_migrate_scope": {
+  "en": "Forcing [ROOT.GetLocation.GetOwner.GetName] to [migrate|e]",
+  "uk": "Примушують #ONCLICK:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')],X [ROOT.GetLocation.GetOwner.Custom('CL_VP')|L]#!#! [Concept('migrate','мігрувати')|e]"
+ },
+ "antagonism_forced_ruler_change": {
+  "en": "Forced a change of [ruler|e] in a [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_forced_ruler_change_scope": {
+  "en": "Forced [ROOT.GetLocation.GetOwner.GetName] into a change of [ruler|e] in a [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_forcing_ourselves_on_brittany": {
+  "en": "Forced our [dynasty|e] on [GetCountry('BRI').GetNameWithNoTooltip]",
+  "uk": "Силою передали нашій [Concept('dynasty','династії')|e] [GetCountry('BRI').Custom('CL_VP')]"
+ },
+ "antagonism_fortifying": {
+  "en": "Fortifying our lands",
+  "uk": "Укріплюють наші землі"
+ },
+ "antagonism_gave_up_locations_in_peace": {
+  "en": "Gave up [locations|e] in [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_gave_up_locations_in_peace_scope": {
+  "en": "Gave up [locations|e] in [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_heretic_segregation": {
+  "en": "Heretic Segregation",
+  "uk": "Відособлення єретиків"
+ },
+ "antagonism_high_kingship_overthrow": {
+  "en": "Overthrew the High King in a [peace_treaty|e]",
+  "uk": "Скинули верховного короля згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_horde_losing_land": {
+  "en": "Horde losing [locations|e]",
+  "uk": "Орда втратила [Concept('locations','райони')|e]"
+ },
+ "antagonism_horde_taking_land": {
+  "en": "Horde taking [locations|e]",
+  "uk": "Орда захопила [Concept('locations','райони')|e]"
+ },
+ "antagonism_improve_relation": {
+  "en": "Improved Relations",
+  "uk": "Відносини покращилися"
+ },
+ "antagonism_improve_relation_reversed": {
+  "en": "Relation Improving",
+  "uk": "Відносини покращуються"
+ },
+ "antagonism_improved_subject_relations": {
+  "en": "Improved [subject|e] relations",
+  "uk": "Покращилися відносини з [Concept('subject','васалом')|e]"
+ },
+ "antagonism_indulged_in_bloodbath": {
+  "en": "Indulged in a bloodbath",
+  "uk": "Влаштували криваве побоїще"
+ },
+ "antagonism_infidel_holds_rome": {
+  "en": "Infidel Holds [ShowLocationNameWithNoTooltip('rome')]",
+  "uk": ""
+ },
+ "antagonism_jurchen_confederation_aggression": {
+  "en": "$jurchen_confederation$ Aggression",
+  "uk": "Агресія Конфедерації чжурчженів"
+ },
+ "antagonism_looting": {
+  "en": "Looting",
+  "uk": "Грабунок"
+ },
+ "antagonism_maintained_subjugation": {
+  "en": "Maintained subjugation of [GetCountry('LUX').GetNameWithNoTooltip]",
+  "uk": "Зберігають панування над [GetCountry('LUX').Custom('CL_TP')]"
+ },
+ "antagonism_maps_stolen": {
+  "en": "Stole Maps",
+  "uk": "Вкрадено карти"
+ },
+ "antagonism_maritime_aggression": {
+  "en": "Maritime Aggression",
+  "uk": ""
+ },
+ "antagonism_more_absolutism": {
+  "en": "Creeping absolutism",
+  "uk": "Наростаючий абсолютизм"
+ },
+ "antagonism_not_raising_taxes": {
+  "en": "Not raising taxes",
+  "uk": "Непідвищення податків"
+ },
+ "antagonism_opened_war_path": {
+  "en": "Opened a war path",
+  "uk": "Відкрили стежку війни"
+ },
+ "antagonism_ordered_me_to_annul_treaties": {
+  "en": "Ordered us to annul treaties with another [country|e]",
+  "uk": ""
+ },
+ "antagonism_ordered_someone_to_annul_treaties_with_us": {
+  "en": "Ordered another [country|e] to annul treaties with us",
+  "uk": ""
+ },
+ "antagonism_peace_claim_delhi": {
+  "en": "Claimed Delhi in a [peace_treaty|e]",
+  "uk": "Підкорили Делі згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_peace_expand_clan_influence": {
+  "en": "Expanded the influence of our clan in a [peace_treaty|e]",
+  "uk": "Наростили вплив нашого клану згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_peace_nanbokuchou_force_imperial_abdication": {
+  "en": "Forced Imperial Abdication",
+  "uk": "Примусове зречення"
+ },
+ "antagonism_peace_rtr_demand_all_chinese_territories": {
+  "en": "Demand All Chinese Territories",
+  "uk": ""
+ },
+ "antagonism_peace_rtr_demand_all_occupied_territories": {
+  "en": "Demand All Occupied Territories",
+  "uk": "Вимога всіх окупованих територій"
+ },
+ "antagonism_peace_treaty_demands": {
+  "en": "Peace Treaty Demands",
+  "uk": ""
+ },
+ "antagonism_planned_invasion": {
+  "en": "Planned an invasion",
+  "uk": "Запланували вторгнення"
+ },
+ "antagonism_pressed_claim": {
+  "en": "Pressed claim",
+  "uk": "Наполягли на претензіях"
+ },
+ "antagonism_pushed_away_from_belligerent": {
+  "en": "Pushed away from belligerence",
+  "uk": "Підштовхування від ворожості"
+ },
+ "antagonism_pushed_towards_belligerent": {
+  "en": "Pushed towards belligerence",
+  "uk": "Підштовхування до ворожості"
+ },
+ "antagonism_ransomed_prisoners": {
+  "en": "Ransomed [prisoners|e]",
+  "uk": "Звільнили [Concept('prisoners','полонених')|e] за викуп"
+ },
+ "antagonism_refused_to_end_war": {
+  "en": "Refused to End the War",
+  "uk": "Відмова закінчити війну"
+ },
+ "antagonism_rejected_piracy": {
+  "en": "Rejected Piracy",
+  "uk": "Відмовилися від піратства"
+ },
+ "antagonism_released_nation_in_peace": {
+  "en": "Released [country|e] in [peace_treaty|e]",
+  "uk": "Звільнили [Concept('country','державу')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_released_nation_in_peace_scope": {
+  "en": "Releasing [ROOT.GetLocation.GetOwner.GetName] in [peace_treaty|e]",
+  "uk": "Виділили #ONCLICK:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')],X [ROOT.GetLocation.GetOwner.Custom('CL_VP')|L]#!#! згідно з [Concept('peace_treaty', 'мирним договором')|e]"
+ },
+ "antagonism_renounced_claim": {
+  "en": "Renounced claim",
+  "uk": "Відмовилися від претензій"
+ },
+ "antagonism_revealed_sham_documents": {
+  "en": "Revealed sham documents",
+  "uk": "Розкрили підроблені документи"
+ },
+ "antagonism_seized_papal_capital": {
+  "en": "Seized the Papal Capital",
+  "uk": ""
+ },
+ "antagonism_skilled_diplomat": {
+  "en": "Skilled diplomat",
+  "uk": "Вмілий дипломат"
+ },
+ "antagonism_started_invasion": {
+  "en": "Started an invasion",
+  "uk": ""
+ },
+ "antagonism_steal_pops": {
+  "en": "Stole [pops|e] in a [peace_treaty|e]",
+  "uk": "Викрали [Concept('pops','населення')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_subjugate_natives": {
+  "en": "Subjugated natives in a [peace_treaty|e]",
+  "uk": "Підкорили аборигенів згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_subjugate_neighbor_native": {
+  "en": "Subjugated neighboring natives in a [peace_treaty|e]",
+  "uk": "Підкорили сусідніх аборигенів згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_subjugated_nation": {
+  "en": "Subjugated a [country|e] in a [peace_treaty|e]",
+  "uk": "Підкорили [Concept('country','державу')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_subjugated_nation_scope": {
+  "en": "Subjugating [ROOT.GetLocation.GetOwner.GetName] in a [peace_treaty|e]",
+  "uk": "Підкорення #ONCLICK:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetLocation.GetOwner.Custom('CL_tt')],X [ROOT.GetLocation.GetOwner.Custom('CL_RP')|L]#!#! згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_taking_land": {
+  "en": "Took [locations|e] in [peace_treaty|e]",
+  "uk": "Забрали [Concept('locations','райони')|e] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_taking_land_scope": {
+  "en": "Taking [ROOT.GetLocation.GetName] in [peace_treaty|e]",
+  "uk": "Забирають район [ROOT.GetLocation.GetName] згідно з [Concept('peace_treaty','мирним договором')|e]"
+ },
+ "antagonism_threatened_war": {
+  "en": "Threatened War",
+  "uk": "Погрозили війною"
+ },
+ "antagonism_took_subjugated_nation": {
+  "en": "Took an already-subjugated [country|e] in a [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_took_subjugated_nation_scope": {
+  "en": "Took subject [ROOT.GetLocation.GetOwner.GetName] in a [peace_treaty|e]",
+  "uk": ""
+ },
+ "antagonism_trade_wars": {
+  "en": "Trade wars",
+  "uk": "Торговельні війни"
+ },
+ "antagonism_tzompantli_further_aggression": {
+  "en": "Further aggression forecast after Tzompantli",
+  "uk": "Після цомпантлі можливе наростання агресії"
+ },
+ "antagonism_violate_treaty_of_tordesillas": {
+  "en": "Decided to ignore the $treaty_of_tordesillas$",
+  "uk": "Вирішили проігнорувати Тордесільяський договір"
+ },
+ "ath_acknowledged_the_latin_claim": {
+  "en": "Recognized our claims to the Latin Empire",
+  "uk": ""
+ },
+ "ath_befriend_epirus": {
+  "en": "Befriended",
+  "uk": ""
+ },
+ "ath_byz_raided_our_greek_holdings": {
+  "en": "Raided our Northern Greek Holdings",
+  "uk": ""
+ },
+ "ath_claimed_thessalonica": {
+  "en": "Claimed Thessalonica",
+  "uk": ""
+ },
+ "ath_declined_papal_latin_restoration": {
+  "en": "Declined Papal Offer to Restore the Latin Empire",
+  "uk": ""
+ },
+ "ath_papal_latin_restoration": {
+  "en": "Supported Papal Proposal to Restore the Latin Empire",
+  "uk": ""
+ },
+ "ath_proclaimed_rival_thessalonica_kingdom": {
+  "en": "Proclaimed Rival Kingdom to Thessalonica",
+  "uk": ""
+ },
+ "ayd_byz_cooperation": {
+  "en": "Cooperation Against [GetCountry('TUR').GetNameWithNoTooltip]",
+  "uk": "Співпраця проти [GetCountry('TUR').Custom('CL_RP')]"
+ },
+ "bah_rejected_giving_up_throne": {
+  "en": "Rejected Truce Proposal",
+  "uk": "Відхилили пропозицію перемир'я"
+ },
+ "bav_awarded_with_electorship": {
+  "en": "Awarded with $elector$ by the Emperor",
+  "uk": "Нагороджені імператором статусом виборця"
+ },
+ "bav_refused_electorship": {
+  "en": "Emperor refused rewarding us with $elector$",
+  "uk": "Імператор відмовився нагородити нас статусом виборця"
+ },
+ "belligerent_diplomacy": {
+  "en": "Belligerent Diplomacy",
+  "uk": "Войовнича дипломатія"
+ },
+ "bng_chinese_ties": {
+  "en": "Diplomacy in China",
+  "uk": "Дипломатія в Китаї"
+ },
+ "boh_refused_purchase": {
+  "en": "Refused Purchase Offer",
+  "uk": "Відмовили в покупці"
+ },
+ "border_aggression": {
+  "en": "Border Aggression",
+  "uk": "Агресія на кордоні"
+ },
+ "brahmins_alienating_merchants": {
+  "en": "Brāhmaṇa Alienating Merchants",
+  "uk": "Брахмани пригнічують купців"
+ },
+ "broke_alliance_with_nobles": {
+  "en": "Opposed Alliance with Nobles",
+  "uk": "Виступили проти союзу зі знаттю"
+ },
+ "burned_venice": {
+  "en": "Burned $venice$",
+  "uk": ""
+ },
+ "byz_refused_venetian_pact": {
+  "en": "Refused our anti-Genoese pact.",
+  "uk": ""
+ },
+ "byz_ven_anti_genoese_pact": {
+  "en": "Joint pact against Genoa.",
+  "uk": ""
+ },
+ "careful_diplomatic_manouvering": {
+  "en": "Careful Diplomatic Maneuvering",
+  "uk": "Обережна дипломатія"
+ },
+ "chi_acceptance_of_dynasty": {
+  "en": "Acceptance of New Dynasty",
+  "uk": "Визнання нової династії"
+ },
+ "chi_accepted_mission": {
+  "en": "Accepted Mission",
+  "uk": "Прийняли завдання"
+ },
+ "chi_filthy_pirate": {
+  "en": "Filthy Pirate",
+  "uk": "Поганi пірати"
+ },
+ "chi_gifts_from_subject": {
+  "en": "Gifts from Tributary",
+  "uk": "Дари від данника"
+ },
+ "chi_grateful_for_pirate_defeat": {
+  "en": "Grateful for Pirate Defeat",
+  "uk": "Вдячність за перемогу над піратами"
+ },
+ "chi_insulted_us": {
+  "en": "Insulted Our Proposal",
+  "uk": "Образили нашу пропозицію"
+ },
+ "chi_intervention_in_vietnam": {
+  "en": "Intervention in $DAI$",
+  "uk": "Вторгнення в $DAI$"
+ },
+ "chi_joined_against_us": {
+  "en": "Aided War Enemy",
+  "uk": "Допомога ворогу на війні"
+ },
+ "chi_mutual_trade_agreement_for_macau": {
+  "en": "Mutual Agreement for Macau",
+  "uk": "Обопільна угода про Макао"
+ },
+ "chi_praised_islam": {
+  "en": "Praised Islam",
+  "uk": "Вихваляли іслам"
+ },
+ "chi_reduced_tributary_size": {
+  "en": "Reduced Tributary Size",
+  "uk": "Зменшено розмір данника"
+ },
+ "chi_refused_tributary_status": {
+  "en": "Refused Tributary Status",
+  "uk": "Відмовилися від статусу данника"
+ },
+ "chi_supported_civil_war_enemy": {
+  "en": "Supported Civil War Enemy",
+  "uk": "Підтримка ворога в громадянській війні"
+ },
+ "chk_raided_our_city": {
+  "en": "Raided Cahokia",
+  "uk": "Наліт на Кахокію"
+ },
+ "colonial_nation_overlord_opinion": {
+  "en": "Our Colonial Nation",
+  "uk": "Наша колоніальна нація"
+ },
+ "colonial_nation_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord','сюзерен')|e]"
+ },
+ "complaints_about_merchants": {
+  "en": "Complained about Merchants",
+  "uk": "Поскаржилися на купців"
+ },
+ "conquistador_overlord_opinion": {
+  "en": "Our Conquistador",
+  "uk": "Наш конкістадор"
+ },
+ "conquistador_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord','сюзерен')|e]"
+ },
+ "cro_approved_the_merge": {
+  "en": "Approved the Merge of Croatia and Slavonia",
+  "uk": ""
+ },
+ "cro_dismissal_of_nelipic": {
+  "en": "Dismissal of Nelipić's Claim",
+  "uk": ""
+ },
+ "cro_legitimation_of_nelipic": {
+  "en": "Legitimation of Nelipić's Claim",
+  "uk": ""
+ },
+ "cro_rejected_the_merge": {
+  "en": "Rejected the Merge of Croatia and Slavonia",
+  "uk": ""
+ },
+ "dan_banned_lutheran_bible": {
+  "en": "Banned Lutheran Bible",
+  "uk": "Заборона лютеранської Біблії"
+ },
+ "declared_oboedientia": {
+  "en": "Declared Oboedientia",
+  "uk": "Висловили відданість"
+ },
+ "declined_demands_modifier": {
+  "en": "Declined our Demands",
+  "uk": "Не погодилися на наші вимоги"
+ },
+ "declined_return_rome": {
+  "en": "Declined to Return $rome$",
+  "uk": ""
+ },
+ "delhi_claimant_opinion": {
+  "en": "Delhi Opposer",
+  "uk": "Противник Делі"
+ },
+ "denied_petition_for_crusade_modifier": {
+  "en": "Denied Petition for Crusade",
+  "uk": "Відхилили прохання про хрестовий похід"
+ },
+ "destroyed_another_autocephalous_patriarchate": {
+  "en": "Destroyed another Autocephalous Patriarchate",
+  "uk": "Знищили ще один автокефальний патріархат"
+ },
+ "destroyed_my_autocephalous_patriarchate": {
+  "en": "Destroyed Autocephalous Patriarchate",
+  "uk": "Знищили автокефальний патріархат"
+ },
+ "disputed_title_of_jerusalem": {
+  "en": "Disputed the title of Jerusalem",
+  "uk": "Оспорили титул Єрусалима"
+ },
+ "dlh_looted_capital": {
+  "en": "Looted Capital",
+  "uk": "Пограбували столицю"
+ },
+ "dominion_overlord_opinion": {
+  "en": "Our Dominion",
+  "uk": "Наш домініон"
+ },
+ "dominion_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord','сюзерен')|e]"
+ },
+ "eth_rejected_artisans": {
+  "en": "Rejected Artisans",
+  "uk": "Відкинули ремісників"
+ },
+ "eth_rejected_selling_secrets": {
+  "en": "Rejected Selling the Naft Secret",
+  "uk": "Відмовилися продавати секрет нафти"
+ },
+ "fall_of_delhi_approached_by_delhi_opinion": {
+  "en": "Approached by [GetCountry('DLH').GetNameWithNoTooltip]",
+  "uk": "Держава [GetCountry('DLH').GetNameWithNoTooltip] спробувала зблизитися"
+ },
+ "fall_of_delhi_scorned_by_delhi_opinion": {
+  "en": "Scorned by [GetCountry('DLH').GetNameWithNoTooltip]",
+  "uk": "Зневажливе ставлення з боку [GetCountry('DLH').Custom('CL_RP')]"
+ },
+ "fiefdom_overlord_opinion": {
+  "en": "Our Fiefdom",
+  "uk": "Наш феод"
+ },
+ "fiefdom_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord', 'сюзерен')|e]"
+ },
+ "flo_refused_buy_mine_rights": {
+  "en": "Refused to Buy Mining Rights",
+  "uk": "Відмовилися купити права на гірничі роботи"
+ },
+ "flo_refused_summons": {
+  "en": "Refused Summons",
+  "uk": "Відмовилися відповісти на заклик"
+ },
+ "folded_to_hussites_modifier": {
+  "en": "Folded to the Hussites",
+  "uk": "Поступилися гуситам"
+ },
+ "fought_with_us_modifier": {
+  "en": "Fought on our side in the Italian Wars",
+  "uk": "Боролися на нашій стороні в Італійських війнах"
+ },
+ "fra_avoided_pragmatic_sanctions": {
+  "en": "Nullified Pragmatic Sanctions",
+  "uk": "Скасували Прагматичні санкції"
+ },
+ "fra_blocked_unigenitus_implementation": {
+  "en": "Blocked Unigenitus Papal Bull Law",
+  "uk": "Завадили прийняттю булли Unigenitus"
+ },
+ "fra_impressed_russian_tsar": {
+  "en": "Impressed our Ruler",
+  "uk": "Вразили нашого правителя"
+ },
+ "fra_impressed_russian_tsar_quicker_decay": {
+  "en": "Impressed our Ruler",
+  "uk": "Вразили нашого правителя"
+ },
+ "fra_pragmatic_sanctions": {
+  "en": "Pragmatic Sanctions of Bourges",
+  "uk": "Буржські Прагматичні санкції"
+ },
+ "fra_weakened_unigenitus_decree": {
+  "en": "Weakened Implementation of the Unigenitus Papal Bull",
+  "uk": "Булла Unigenitus прийнята не в повному обсязі"
+ },
+ "france_england_post_hyw_marriage_union": {
+  "en": "Eased Post-War tensions",
+  "uk": "Послабили післявоєнну напругу"
+ },
+ "france_england_post_hyw_rivalry": {
+  "en": "Renewed Hostilities",
+  "uk": "Поновили ворожнечу"
+ },
+ "french_indochina_embassy": {
+  "en": "French Embassy",
+  "uk": "Французьке посольство"
+ },
+ "french_indochina_hostilities": {
+  "en": "Foreign Hostilities",
+  "uk": "Іноземні вороги"
+ },
+ "french_jesuits_in_our_lands": {
+  "en": "Jesuits in our lands!",
+  "uk": "Єзуїти в наших краях!"
+ },
+ "goods_crossing_borders": {
+  "en": "Goods Crossing Borders",
+  "uk": "Переміщення товарів через кордон"
+ },
+ "granted_artois_to_fugitive": {
+  "en": "Granted Artois to Fugitive",
+  "uk": "Артуа передано втікачу"
+ },
+ "granted_joint_assembly_decrees_modifier": {
+  "en": "Granted the [ShowEstatePrivilegeName('joint_assembly_decrees')]",
+  "uk": "Дарували [ShowEstatePrivilegeName('joint_assembly_decrees')]"
+ },
+ "hab_austro_bohemian_friendship": {
+  "en": "Austro-Bohemian Friendship",
+  "uk": "Австро-богемська дружба"
+ },
+ "hab_austro_bohemian_friendship_refused": {
+  "en": "Refused a Royal Marriage",
+  "uk": "Відмовилися влаштувати династичний шлюб"
+ },
+ "hab_austro_burgundian_friendship": {
+  "en": "Austro-Burgundian Friendship",
+  "uk": "Австро-бургундська дружба"
+ },
+ "hab_austro_burgundian_friendship_refused": {
+  "en": "Refused a Royal Marriage",
+  "uk": "Відмовилися влаштувати династичний шлюб"
+ },
+ "hab_austro_spanish_friendship": {
+  "en": "Austro-Spanish Friendship",
+  "uk": "Австро-іспанська дружба"
+ },
+ "hab_austro_spanish_friendship_refused": {
+  "en": "Refused a Royal Marriage",
+  "uk": "Відмовилися влаштувати династичний шлюб"
+ },
+ "hab_claimed_hungary": {
+  "en": "Claimed the Hungarian Throne",
+  "uk": "Висунули домагання на угорський престол"
+ },
+ "hab_gifted_an_elephant": {
+  "en": "Gifted an Elephant",
+  "uk": "Подарували слона"
+ },
+ "hab_proclaimed_austrian_empire": {
+  "en": "Proclaimed the Austrian Empire",
+  "uk": "Проголосили Австрійську імперію"
+ },
+ "hab_published_map_of_hungary": {
+  "en": "Published a Map of Hungary",
+  "uk": "Випустили карту Угорщини"
+ },
+ "honored_congress_of_visegrad_modifier": {
+  "en": "Honored the Congress of [ShowLocationName('visegrad')]",
+  "uk": "Порушили умови #TOOLTIP:LOCATION,visegrad_tt,X #L Вишеградського#!#! з'їзду"
+ },
+ "hre_emperor_defends_empire": {
+  "en": "Imperial Defense",
+  "uk": "Імперський захист"
+ },
+ "io_opinion_autocephalous_patriarchate": {
+  "en": "In same Autocephalous Patriarchate",
+  "uk": "В одному автокефальному патріархаті"
+ },
+ "io_opinion_catholic_church": {
+  "en": "Fellow [members|e] of the Catholic Church",
+  "uk": "Так само [Concept('members','належать')|e] до католицької церкви"
+ },
+ "io_opinion_catholic_league": {
+  "en": "[member|e] of the [GetUniqueInternationalOrganization('catholic_league').GetName]",
+  "uk": "[Concept('member','Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_tt,X #L Католицької ліги#!#!"
+ },
+ "io_opinion_coalition": {
+  "en": "In Coalition Together",
+  "uk": "В одній коаліції"
+ },
+ "io_opinion_colonial_federation": {
+  "en": "In the same $colonial_federation$",
+  "uk": "В одній колоніальній федерації"
+ },
+ "io_opinion_crusade": {
+  "en": "Crusade Brethren",
+  "uk": "Брати-хрестоносці"
+ },
+ "io_opinion_defensive_league": {
+  "en": "In Defensive League Together",
+  "uk": "В одній оборонній лізі"
+ },
+ "io_opinion_foreign_league_balkan": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_foreign_league_france": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_foreign_league_hre": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_foreign_league_iberia": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_ghibellines_io": {
+  "en": "$ghibellines_io$",
+  "uk": ""
+ },
+ "io_opinion_guelphs_io": {
+  "en": "$guelphs_io$",
+  "uk": ""
+ },
+ "io_opinion_high_king": {
+  "en": "Our High King",
+  "uk": "Наш верховний король"
+ },
+ "io_opinion_high_kingship": {
+  "en": "[member|e] of same High Kingship",
+  "uk": "[Concept('member','Перебувають')|e] у тому ж верховному королівстві"
+ },
+ "io_opinion_hindu_branch": {
+  "en": "Follow same branch of Hinduism",
+  "uk": "Сповідують ту ж гілку індуїзму"
+ },
+ "io_opinion_hre": {
+  "en": "Fellow [member|e] of the Empire",
+  "uk": "[Concept('member','Перебувають')|e] у тій же імперії"
+ },
+ "io_opinion_ilkhanate": {
+  "en": "[member|e] of the [GetUniqueInternationalOrganization('ilkhanate').GetName]",
+  "uk": "[Concept('member','Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ilkhanate_tt$,X #L Держави Хулагуїдів#!#!"
+ },
+ "io_opinion_independence_movement": {
+  "en": "Supporting Independence Together",
+  "uk": "Спільна підтримка незалежності"
+ },
+ "io_opinion_italian_league_1": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_italian_league_2": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_italian_league_3": {
+  "en": "$member_same_league$",
+  "uk": ""
+ },
+ "io_opinion_japanese_shogunate": {
+  "en": "Part of Japan",
+  "uk": "Частина Японії"
+ },
+ "io_opinion_jihad": {
+  "en": "Crushing the Infidels Together",
+  "uk": "Разом долають невірних"
+ },
+ "io_opinion_jurchen_confederation": {
+  "en": "In the same $jurchen_confederation$",
+  "uk": "В одній конфедерації чжурчженів"
+ },
+ "io_opinion_lord_of_ireland": {
+  "en": "Lord of Ireland",
+  "uk": "Лорд Ірландії"
+ },
+ "io_opinion_lordship_of_ireland": {
+  "en": "[member|e] of the Lordship of Ireland",
+  "uk": "[Concept('member','Входять')|e] до манору Ірландія"
+ },
+ "io_opinion_middle_kingdom": {
+  "en": "Fellow member of the $middle_kingdom$",
+  "uk": "Перебувають у тому ж Серединній державі"
+ },
+ "io_opinion_protestant_union": {
+  "en": "[member|e] of the [GetUniqueInternationalOrganization('protestant_union').GetName]",
+  "uk": "[Concept('member','Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_tt,X #L Євангелічної унії#!#!"
+ },
+ "io_opinion_red_turban_rebels": {
+  "en": "$red_turban_rebels$",
+  "uk": ""
+ },
+ "io_opinion_sect": {
+  "en": "In same Sect",
+  "uk": "Сповідують той же напрям"
+ },
+ "io_opinion_shinto": {
+  "en": "Fellow Shintō",
+  "uk": "Так само сповідують синтоїзм"
+ },
+ "io_opinion_sikhism": {
+  "en": "Fellow Sikh",
+  "uk": "Так само сповідують сикхізм"
+ },
+ "io_opinion_swiss_confederation": {
+  "en": "[member|e] of the [GetUniqueInternationalOrganization('swiss_confederation').GetName]",
+  "uk": "[Concept('member','Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$swiss_confederation_tt$,X #L Швейцарської конфедерації#!#!"
+ },
+ "io_opinion_tatar_yoke": {
+  "en": "In same Tatar Yoke",
+  "uk": "Так само перебувають під татарським ярмом"
+ },
+ "io_opinion_tribal_confederation": {
+  "en": "In the same $tribal_confederation$",
+  "uk": "В одній племінній конфедерації"
+ },
+ "io_trust_union": {
+  "en": "Union",
+  "uk": "В унії"
+ },
+ "ira_increased_ties": {
+  "en": "Increased Ties",
+  "uk": "Розширено зв'язки"
+ },
+ "ira_rejected_persian_diplomats": {
+  "en": "Rejected Diplomats",
+  "uk": "Відмова прийняти дипломатів"
+ },
+ "ira_visited_capital": {
+  "en": "Visited Capital",
+  "uk": "Візит до столиці"
+ },
+ "iro_walking_sale": {
+  "en": "Walking Purchase Treaty",
+  "uk": "Прогулянкова купівля"
+ },
+ "italian_culture_hired_our_artist": {
+  "en": "Covertly Hired Artist!",
+  "uk": ""
+ },
+ "iw_shared_defeat_trust": {
+  "en": "End of the Italian Wars",
+  "uk": ""
+ },
+ "jap_granted_office_of_samurai_dokoro": {
+  "en": "Granted Office of Samurai-Dokoro",
+  "uk": "Надано посаду в Самурай-докоро"
+ },
+ "jap_kyushu_tandai": {
+  "en": "Local Tandai",
+  "uk": "Місцевий тандай"
+ },
+ "jap_new_relations_with_china": {
+  "en": "Renewed Relations with China",
+  "uk": "Поновлення відносин з Китаєм"
+ },
+ "jap_on_kanrei_council": {
+  "en": "Member of the Kanrei Council",
+  "uk": "Учасник ради канрея"
+ },
+ "jap_on_kanrei_council_weak_authority": {
+  "en": "Weak Influence within the Kanrei Council",
+  "uk": "Слабкий вплив у раді канрея"
+ },
+ "jap_refused_submission_offer": {
+  "en": "Refused Offer of Submission",
+  "uk": "Відхилено пропозицію підкоритися"
+ },
+ "jap_rejected_relations_with_china": {
+  "en": "Rejected Renewed Relations with China",
+  "uk": "Відмова поновити відносини з Китаєм"
+ },
+ "jap_shiba_ashikaga_discontent": {
+  "en": "Discontent With Shogunate",
+  "uk": "Незадоволення сьогунатом"
+ },
+ "jap_shukuro_kaigi_council_member": {
+  "en": "Member of the Shukurō Kaigi",
+  "uk": "Учасник Сюкуро Кайгі"
+ },
+ "jap_submission_to_the_shogunate": {
+  "en": "Submission to the Shogunate",
+  "uk": "Підкорення сьогунату"
+ },
+ "jap_tandai_of_kyushu": {
+  "en": "Kyūshū Tandai",
+  "uk": "Тандай Кюсю"
+ },
+ "kor_persecuted_cotton_theft": {
+  "en": "Persecuted Cotton Theft",
+  "uk": "Покарання за крадіжку бавовни"
+ },
+ "lat_patriarchate_of_constantinople_restored": {
+  "en": "Latin Patriarchate of Constantinople Restored",
+  "uk": ""
+ },
+ "left_empire": {
+  "en": "Left the Empire",
+  "uk": "Залишили імперію"
+ },
+ "lit_accepted_hansa_rights": {
+  "en": "[GetCountry('HSA').GetAdjectiveWithNoTooltip] Rights Granted",
+  "uk": "Пожаловано [GetCountry('HSA').GetAdjectiveWithNoTooltip|l]і права"
+ },
+ "lit_accepted_polish_influence": {
+  "en": "Accepted Overlord's Influence",
+  "uk": "Прийнято вплив сюзерена"
+ },
+ "lit_encouraged_migrants": {
+  "en": "Encouraged Immigrants",
+  "uk": "Підтримка імміграції"
+ },
+ "lit_rejected_hansa_rights": {
+  "en": "[GetCountry('HSA').GetAdjectiveWithNoTooltip] Rights Denied",
+  "uk": "Відмовлено в [GetCountry('HSA').GetAdjectiveWithNoTooltip|l]их правах"
+ },
+ "lit_rejected_polish_influence": {
+  "en": "Rejected Overlord's Influence",
+  "uk": "Відкинули вплив сюзерена"
+ },
+ "lit_respected_migrants": {
+  "en": "Denied Immigrants From our Country",
+  "uk": "Відмовили емігрантам з нашої країни"
+ },
+ "lowlands_devolution_french_ambitions": {
+  "en": "Lowlands French Ambitions",
+  "uk": "Французькі домагання на низини"
+ },
+ "luc_did_not_intervene_in_trade": {
+  "en": "Did Not Intervene in Our Trade",
+  "uk": ""
+ },
+ "luc_refused_alliance": {
+  "en": "Refused Our Alliance",
+  "uk": ""
+ },
+ "luc_refused_to_buy_our_subject": {
+  "en": "Refused to Buy Our Subject",
+  "uk": ""
+ },
+ "luc_refused_to_sell_us": {
+  "en": "Refused to Sell Us",
+  "uk": ""
+ },
+ "maha_samanta_overlord_opinion": {
+  "en": "Our $maha_samanta$",
+  "uk": "Наш махасаманта"
+ },
+ "maha_samanta_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord', 'сюзерен')|e]"
+ },
+ "maj_diplomatic_oath": {
+  "en": "Diplomatic Focus",
+  "uk": "Дипломатична ціль"
+ },
+ "maj_mutual_trust_malacca": {
+  "en": "Mutual Cooperation",
+  "uk": "Взаємовигідна співпраця"
+ },
+ "mch_seven_grievances": {
+  "en": "The Seven Grievances",
+  "uk": "Сім великих образ"
+ },
+ "member_same_league": {
+  "en": "Member of the same League",
+  "uk": "Учасник тієї ж ліги"
+ },
+ "merchant_appeasement": {
+  "en": "Appeased Merchants",
+  "uk": "Заспокоїли купців"
+ },
+ "mocked_nation": {
+  "en": "Mocked our Nation",
+  "uk": ""
+ },
+ "mor_rejected_iberia_invasion": {
+  "en": "Rejected Invasion Alliance",
+  "uk": "Відмовилися від загарбницького союзу"
+ },
+ "mor_rejected_slave_force": {
+  "en": "Denied Selling of Slaves",
+  "uk": "Заперечують работоргівлю"
+ },
+ "mor_rejected_turkish_mercenaries": {
+  "en": "Rejected Turkish Mercenaries",
+  "uk": "Відмовилися від турецьких найманців"
+ },
+ "nov_friendly_hanseatic_relations": {
+  "en": "Friendly Hanseatic Relations",
+  "uk": "Дружні відносини з Ганзою"
+ },
+ "nov_seized_control_of_peterhof": {
+  "en": "Seized Control of Peterhof Kontor",
+  "uk": "Захоплення контролю над Німецьким двором"
+ },
+ "opinion_abandon_civil_war": {
+  "en": "Abandoned our Civil War",
+  "uk": "Вийшли з нашої громадянської війни"
+ },
+ "opinion_abandoned_us_mlo": {
+  "en": "Abandoned us",
+  "uk": "Кинули нас"
+ },
+ "opinion_accepted_apostolic_tax": {
+  "en": "Accepted Apostolic Tax",
+  "uk": "Погодилися платити апостольський податок"
+ },
+ "opinion_accepted_chinese_influences": {
+  "en": "Chinese Cooperation",
+  "uk": "Співпраця з Китаєм"
+ },
+ "opinion_accepted_french_support": {
+  "en": "Accepted French Support",
+  "uk": "Прийнято підтримку французів"
+ },
+ "opinion_accepted_jesuits": {
+  "en": "Jesuits Accepted",
+  "uk": "Допущені єзуїти"
+ },
+ "opinion_accepted_prosecute_pirates": {
+  "en": "Agreed to Prosecute Pirates",
+  "uk": "Погодилися судити піратів"
+ },
+ "opinion_accepted_vienna_concordat": {
+  "en": "Accepted Concordat of Vienna",
+  "uk": "Визнали умови Віденського конкордату"
+ },
+ "opinion_added_land_to_hre": {
+  "en": "Added land to [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! пожаловано землю"
+ },
+ "opinion_adopted_islamic_titles": {
+  "en": "Adopted Islamic Titles",
+  "uk": "Прийняли ісламські титули"
+ },
+ "opinion_adopted_our_religious_views": {
+  "en": "Adopted our Religious Views",
+  "uk": "Прийняли наші релігійні погляди"
+ },
+ "opinion_agitated_colony": {
+  "en": "Agitated Colony",
+  "uk": "Схвильована колонія"
+ },
+ "opinion_alliance": {
+  "en": "Allied",
+  "uk": "У союзі"
+ },
+ "opinion_alliance_against_pope": {
+  "en": "Alliance Against the Pope",
+  "uk": "Союз проти папи"
+ },
+ "opinion_allowed_bertrand_to_remain": {
+  "en": "Honored us with the Eagle of Brittany",
+  "uk": "Пошанували нас своїм ставленням до Орла Бретані"
+ },
+ "opinion_allowed_cadastral_survey": {
+  "en": "Allowed Cadastral Survey",
+  "uk": "Дозволені кадастрові дослідження"
+ },
+ "opinion_allowed_italian_influence_in_constantinople": {
+  "en": "Allowed Italian Influence in Country",
+  "uk": "Впустили в країну італійський вплив"
+ },
+ "opinion_annoyed_about_denying_market_access": {
+  "en": "Annoyed about Market Access restrictions",
+  "uk": "Роздратовані обмеженнями на доступ до ринку"
+ },
+ "opinion_anti_chinese_legislation": {
+  "en": "Curbed Chinese Influence",
+  "uk": "Придушили китайський вплив"
+ },
+ "opinion_anti_prussian_coalition": {
+  "en": "Anti-Prussian Coalition",
+  "uk": "Антипруська коаліція"
+ },
+ "opinion_appeased_english_in_parliament": {
+  "en": "Appeased English in Parliament",
+  "uk": "Заспокоїли англійців у парламенті"
+ },
+ "opinion_approves_of_compliment": {
+  "en": "Approves of Compliment",
+  "uk": "Раді компліменту"
+ },
+ "opinion_asked_for_favor": {
+  "en": "Asked for a Favor",
+  "uk": "Прохання про прихильність"
+ },
+ "opinion_assisted_during_succession_crisis_modifier": {
+  "en": "Assisted During Succession Crisis",
+  "uk": "Допомога під час кризи престолонаслідування"
+ },
+ "opinion_attempted_surrender_of_king": {
+  "en": "Used Ruler as a tool in Negotiations",
+  "uk": "Скористалися правителем як інструментом на переговорах"
+ },
+ "opinion_attempts_of_reconciliation": {
+  "en": "Attempted Reconciliation",
+  "uk": "Спроба примирення"
+ },
+ "opinion_big_support_for_david_ii": {
+  "en": "Aided our Cause",
+  "uk": "Допомогли нашій справі"
+ },
+ "opinion_border_percentage": {
+  "en": "Shared Border",
+  "uk": ""
+ },
+ "opinion_bos_aspirations_of_liberty": {
+  "en": "Aspirations of Liberty",
+  "uk": ""
+ },
+ "opinion_bos_became_catholic": {
+  "en": "Converted to Catholicism",
+  "uk": ""
+ },
+ "opinion_bos_became_orthodox": {
+  "en": "Converted to Orthodoxy",
+  "uk": ""
+ },
+ "opinion_bos_diplomatic_restraint": {
+  "en": "Diplomatic Restraint",
+  "uk": ""
+ },
+ "opinion_bos_proclaimed_kingdom_of_bosnia": {
+  "en": "Proclaimed the Kingdom of Bosnia",
+  "uk": ""
+ },
+ "opinion_bosnian_church_diplomacy": {
+  "en": "Bosnian Church Diplomacy",
+  "uk": "Дипломатія боснійської церкви"
+ },
+ "opinion_bra_changing_allegiances_negative": {
+  "en": "Changing Allegiances",
+  "uk": "Зміна союзників"
+ },
+ "opinion_bra_changing_allegiances_positive": {
+  "en": "Changing Allegiances",
+  "uk": "Зміна союзників"
+ },
+ "opinion_bribed_mercenaries": {
+  "en": "Bribed Mercenaries",
+  "uk": "Підкупили найманців"
+ },
+ "opinion_broke_alliance": {
+  "en": "Broke Alliance",
+  "uk": "Розірвали союз"
+ },
+ "opinion_broke_trade_access": {
+  "en": "Broke Market Preference",
+  "uk": "Не дотримано ринкових переваг"
+ },
+ "opinion_broke_tribute": {
+  "en": "Broke Tribute",
+  "uk": "Порушили зобов'язання данника"
+ },
+ "opinion_bul_placated_subject": {
+  "en": "Placated Subject",
+  "uk": ""
+ },
+ "opinion_bul_proclaimed_an_empire": {
+  "en": "Proclaimed an Empire",
+  "uk": ""
+ },
+ "opinion_called_into_war_by_overlord": {
+  "en": "Called into Overlord's war",
+  "uk": "Покликані сюзереном на війну"
+ },
+ "opinion_came_to_our_aid_mlo": {
+  "en": "Came to our Aid",
+  "uk": "Прийшли до нас на допомогу"
+ },
+ "opinion_cancelled_invasion_plans": {
+  "en": "Cancelled Invasion Plans",
+  "uk": "Скасували плани вторгнення"
+ },
+ "opinion_cant_afford_tribute": {
+  "en": "Not Able to Pay Tribute",
+  "uk": "Неможлива сплата данини"
+ },
+ "opinion_cardinal_selected": {
+  "en": "Cardinal became Pope",
+  "uk": "Кардинал став папою римським"
+ },
+ "opinion_catholic_delegation": {
+  "en": "Catholic Delegation",
+  "uk": ""
+ },
+ "opinion_catholic_presence_in_georgia": {
+  "en": "$catholic$ Presence in $GEO$",
+  "uk": "Присутність католиків у Грузії"
+ },
+ "opinion_caught_spying": {
+  "en": "Caught Spying on Us",
+  "uk": "Шпигунство проти нас"
+ },
+ "opinion_ccw_banished_maria": {
+  "en": "Banished Maria",
+  "uk": "Вигнали Марію"
+ },
+ "opinion_ccw_dropped_claims": {
+  "en": "Dropped their Demands",
+  "uk": "Відмовилися від своїх вимог"
+ },
+ "opinion_ccw_executed_maria": {
+  "en": "Executed Maria",
+  "uk": "Стратили Марію"
+ },
+ "opinion_changed_sides_during_hyw_modifier": {
+  "en": "Switched Sides during the $hundred_years_war$",
+  "uk": "Зміна сторони під час Столітньої війни"
+ },
+ "opinion_changed_subject_type": {
+  "en": "Changed our Autonomy as Subject",
+  "uk": "Зміна нашої автономії як васала"
+ },
+ "opinion_claimed_our_region": {
+  "en": "Claimed our Territory",
+  "uk": "Претендують на нашу територію"
+ },
+ "opinion_client_state_created": {
+  "en": "Created Client",
+  "uk": "Створили залежну державу"
+ },
+ "opinion_common_enemy": {
+  "en": "Common Enemy",
+  "uk": "Спільний ворог"
+ },
+ "opinion_confiscated_food_stockpiles": {
+  "en": "Confiscated Food Stockpiles",
+  "uk": "Конфіскували запаси їжі"
+ },
+ "opinion_confront_spies": {
+  "en": "Spies Confronted",
+  "uk": "Дано відсіч шпигунам"
+ },
+ "opinion_converted_to_islam": {
+  "en": "Joined the community of the Faithful",
+  "uk": "Вступили до громади віруючих"
+ },
+ "opinion_cossack_raids": {
+  "en": "Cossack Raids",
+  "uk": "Козацькі набіги"
+ },
+ "opinion_created_subject": {
+  "en": "Let us free",
+  "uk": "Звільнили нас"
+ },
+ "opinion_crushed_shiite_revolt": {
+  "en": "Crushed the Shia $qizilbash$",
+  "uk": "Знищили шиїтських кизилбашів"
+ },
+ "opinion_curbed_chinese_influence": {
+  "en": "Curbed Chinese Influence",
+  "uk": "Придушили китайський вплив"
+ },
+ "opinion_death_of_hayan_wuruk": {
+  "en": "Death of [GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]",
+  "uk": "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip] [Select_CString(GetCharacter('maj_hayam_wuruk').IsFemale,'мертва','мертвий')]"
+ },
+ "opinion_death_of_yakub_i": {
+  "en": "Death of Yakub I",
+  "uk": "Смерть Якуба I"
+ },
+ "opinion_declared_war": {
+  "en": "Recently Declared War",
+  "uk": "Нещодавно оголосили війну"
+ },
+ "opinion_decline_alliance": {
+  "en": "Declined Alliance",
+  "uk": "Відхилили пропозицію союзу"
+ },
+ "opinion_decline_ask_for_money": {
+  "en": "Declined Ask for Money",
+  "uk": "Відмова поділитися золотом"
+ },
+ "opinion_decline_ask_to_vote_for_me_as_emperor": {
+  "en": "Declined to grant Emperorship Vote",
+  "uk": "Відмовилися віддати голос на виборах імператора"
+ },
+ "opinion_decline_crown_of_vassal": {
+  "en": "Refused the Crown of our Vassal",
+  "uk": "Не прийняли корону нашого васала"
+ },
+ "opinion_decline_fleet_basing_rights": {
+  "en": "Declined Fleet Basing Rights",
+  "uk": "Відмовили в праві на розміщення флоту"
+ },
+ "opinion_decline_guarantee": {
+  "en": "Declined Guarantee",
+  "uk": "Відхилили гарантію"
+ },
+ "opinion_decline_influence_nation": {
+  "en": "Declined Influence Nation",
+  "uk": "Відхилено вплив на державу"
+ },
+ "opinion_decline_military_access": {
+  "en": "Declined Military Access",
+  "uk": "Не дали право на прохід військ"
+ },
+ "opinion_declined_independent_state_support": {
+  "en": "Declined to make Rome an Independent State",
+  "uk": "Відмовилися зробити Рим незалежною державою"
+ },
+ "opinion_declined_invasion_of_naples": {
+  "en": "Declined to invade Naples",
+  "uk": "Відмовилися вторгнутися в Неаполь"
+ },
+ "opinion_declined_tribute_offer": {
+  "en": "Declined Tribute",
+  "uk": "Відхилили данину"
+ },
+ "opinion_default_loans": {
+  "en": "Defaulted on Loans",
+  "uk": "Не виконали зобов'язань за позиками"
+ },
+ "opinion_defected_fleet": {
+  "en": "Defected Fleet",
+  "uk": "Дезертирувавший флот"
+ },
+ "opinion_defended_our_land": {
+  "en": "Defended our land",
+  "uk": ""
+ },
+ "opinion_defending_our_rival": {
+  "en": "Defending our Rival",
+  "uk": "Захищають нашого суперника"
+ },
+ "opinion_demanded_additional_tribute": {
+  "en": "Demanded Additional Tribute",
+  "uk": "Зажадали додаткову данину"
+ },
+ "opinion_demanded_extra_payment": {
+  "en": "Demanded Extra Payment",
+  "uk": "Зажадано додаткові виплати"
+ },
+ "opinion_demanded_loyalty": {
+  "en": "Demanded Our Loyalty",
+  "uk": ""
+ },
+ "opinion_demanded_unlawful_territory": {
+  "en": "Demanded Unlawful Territory",
+  "uk": ""
+ },
+ "opinion_demolished_catholic_embassies": {
+  "en": "Demolished $catholic$ Embassies",
+  "uk": "Зруйнували католицькі посольства"
+ },
+ "opinion_demoted_to_member": {
+  "en": "Demoted from $celestial_governor$",
+  "uk": "Позбавлення статусу небесного губернатора"
+ },
+ "opinion_denied_chinese_influences": {
+  "en": "Resistance to Sinicization",
+  "uk": "Опір китаїзації"
+ },
+ "opinion_denied_sinicization_modifier": {
+  "en": "Denied Sinicization",
+  "uk": "Відмова від китаїзації"
+ },
+ "opinion_denied_special_access": {
+  "en": "Denied Special Access",
+  "uk": "Відмова в особливому доступі"
+ },
+ "opinion_destroyed_building": {
+  "en": "Destroyed Our Buildings",
+  "uk": "Знищили наші споруди"
+ },
+ "opinion_did_not_claim_throne": {
+  "en": "Respected Claims",
+  "uk": "Повага до претензій"
+ },
+ "opinion_did_not_influence_succession": {
+  "en": "Avoided Influencing Succession",
+  "uk": "Уникнули впливу на спадкування"
+ },
+ "opinion_did_not_influence_succession_antagonism": {
+  "en": "$opinion_did_not_influence_succession$",
+  "uk": ""
+ },
+ "opinion_did_not_support_rebels": {
+  "en": "Did not Support Rebels",
+  "uk": "Не підтримали повстанців"
+ },
+ "opinion_different_culture": {
+  "en": "Different [primary_culture|e]",
+  "uk": "Інша [Concept('primary_culture','основна культура')|e]"
+ },
+ "opinion_diplomatic_accord": {
+  "en": "Diplomatic Accord",
+  "uk": ""
+ },
+ "opinion_diplomatic_gifts": {
+  "en": "Diplomatic Gifts",
+  "uk": "Дипломатичні дари"
+ },
+ "opinion_diplomatic_hajj": {
+  "en": "Diplomatic Ḥajj",
+  "uk": "Дипломатичний хадж"
+ },
+ "opinion_diplomatic_misunderstanding": {
+  "en": "Diplomatic Misunderstanding",
+  "uk": ""
+ },
+ "opinion_diplomatic_move": {
+  "en": "Diplomatic Move",
+  "uk": "Дипломатичний крок"
+ },
+ "opinion_diplomatic_outreach": {
+  "en": "Diplomatic Outreach",
+  "uk": "Дипломатична робота"
+ },
+ "opinion_discriminated_our_countrymen": {
+  "en": "Discriminated our Countrymen",
+  "uk": "Ущемили наших співвітчизників"
+ },
+ "opinion_dishonored_alliance": {
+  "en": "Dishonored Alliance",
+  "uk": "Порушили союз"
+ },
+ "opinion_disliked_religious_school": {
+  "en": "Disliked [religious_school|e]",
+  "uk": "Погане ставлення до [Concept('religious_school','релігійної школи')|e]"
+ },
+ "opinion_disobeyed_hegemon_demand": {
+  "en": "Disobeyed Hegemon Demand",
+  "uk": ""
+ },
+ "opinion_displeased": {
+  "en": "Displeased",
+  "uk": "Незадоволені"
+ },
+ "opinion_donated_gold_to_io": {
+  "en": "Donated Gold to our Organization",
+  "uk": ""
+ },
+ "opinion_dubious_marriage": {
+  "en": "Dubious Marriage",
+  "uk": "Сумнівний шлюб"
+ },
+ "opinion_dummy": {
+  "en": "(console cheat)",
+  "uk": "(чит-код для консолі)"
+ },
+ "opinion_dynastic_allies": {
+  "en": "Dynastic Allies",
+  "uk": "Династичні союзники"
+ },
+ "opinion_dynastic_ties": {
+  "en": "Dynastic Ties",
+  "uk": "Династичні узи"
+ },
+ "opinion_dynasties_marrying": {
+  "en": "Nobles Marrying",
+  "uk": ""
+ },
+ "opinion_eclipsed_in_union": {
+  "en": "Eclipsed in Union",
+  "uk": "У невигідному становищі в унії"
+ },
+ "opinion_elevated_country": {
+  "en": "Elevated Country",
+  "uk": "Піднесена держава"
+ },
+ "opinion_elevated_to_celestial_governor": {
+  "en": "Elevated to $celestial_governor$",
+  "uk": "Піднесення до небесних губернаторів"
+ },
+ "opinion_elevated_to_chinese_vassal": {
+  "en": "Elevated Rank",
+  "uk": "Вища посада"
+ },
+ "opinion_embraced_true_faith": {
+  "en": "Embraced True Faith",
+  "uk": "Прийняли істинну віру"
+ },
+ "opinion_enemy": {
+  "en": "Enemy",
+  "uk": "Ворог"
+ },
+ "opinion_enemy_of_my_enemy": {
+  "en": "Enemy of my Enemy",
+  "uk": "Ворог мого ворога"
+ },
+ "opinion_enforced_culture": {
+  "en": "Enforced their Culture on us",
+  "uk": ""
+ },
+ "opinion_enforced_peace": {
+  "en": "Enforced Peace",
+  "uk": "Нав'язаний мир"
+ },
+ "opinion_enforced_peace_when_losing": {
+  "en": "Enforced Peace when Losing a War",
+  "uk": ""
+ },
+ "opinion_enforced_religion": {
+  "en": "Enforced their Religion on us",
+  "uk": ""
+ },
+ "opinion_enforced_succession_law_changes": {
+  "en": "Enforced Succession Law Changes",
+  "uk": "Примушення до зміни правил престолонаслідування"
+ },
+ "opinion_excommunicated": {
+  "en": "Excommunicated",
+  "uk": "Відлучені від церкви"
+ },
+ "opinion_executed_fra_delegation": {
+  "en": "Executed Delegation",
+  "uk": "Стратили делегацію"
+ },
+ "opinion_executed_monarch": {
+  "en": "Executed Monarch",
+  "uk": "Стратили монарха"
+ },
+ "opinion_executed_our_ruler": {
+  "en": "Executed our Ruler",
+  "uk": "Стратили нашого правителя"
+ },
+ "opinion_expelled_from_league": {
+  "en": "Expelled from League",
+  "uk": ""
+ },
+ "opinion_fall_of_delhi_delegates": {
+  "en": "[GetCountry('DLH').GetAdjectiveWithNoTooltip] Delegates",
+  "uk": "[GetCountry('DLH').GetAdjectiveWithNoTooltip]і делегати"
+ },
+ "opinion_favorable_judgement": {
+  "en": "Favorable Judgment",
+  "uk": "Сприятливе рішення"
+ },
+ "opinion_fighting_same_war": {
+  "en": "Fighting Together",
+  "uk": "Боремося разом"
+ },
+ "opinion_forced_embargo_on_me": {
+  "en": "Forced an embargo on us",
+  "uk": "Змусили накласти на нас ембарго"
+ },
+ "opinion_forced_landfriede_upon": {
+  "en": "Forced the Landfriede upon us",
+  "uk": "Нав'язали нам Земський мир"
+ },
+ "opinion_forced_me_to_embargo_someone": {
+  "en": "Forced me to embargo another country",
+  "uk": "Змусили мене накласти ембарго на іншу державу"
+ },
+ "opinion_forced_political_marriage": {
+  "en": "Forced into Political Marriage",
+  "uk": "Примусовий політичний шлюб"
+ },
+ "opinion_forced_succession_law_on_partner": {
+  "en": "Forced Succession Law on Partner",
+  "uk": "Примусили партнера прийняти правило престолонаслідування"
+ },
+ "opinion_forced_to_contribute_modifier": {
+  "en": "Forced to Contribute",
+  "uk": "Примушення до співпраці"
+ },
+ "opinion_formalized_relations_italian": {
+  "en": "Formalized Relations",
+  "uk": "Офіційні відносини"
+ },
+ "opinion_formed_closer_bonds_iro": {
+  "en": "Formed Closer Bonds",
+  "uk": "Встановлено тісні зв'язки"
+ },
+ "opinion_fra_accepted_italian_pope": {
+  "en": "Accepted Authority of Rome",
+  "uk": "Визнали верховенство Риму"
+ },
+ "opinion_fra_aggression_but_withdrew": {
+  "en": "Aggressive Expedition into Naples",
+  "uk": "Войовничий похід на Неаполь"
+ },
+ "opinion_fra_aggressive_entrance_into_italy": {
+  "en": "Aggressive Entrance into Italy",
+  "uk": "Різкий вступ до Італії"
+ },
+ "opinion_fra_allied_aggression_concerns": {
+  "en": "Concerning Entrance into Italy",
+  "uk": "Тривожний вступ до Італії"
+ },
+ "opinion_fra_annexed_appanage": {
+  "en": "Recently annexed an Appanage",
+  "uk": "Нещодавно приєднали апанаж"
+ },
+ "opinion_fra_appanage_lavish_gifts": {
+  "en": "Lavish Gifts to Appanages",
+  "uk": "Щедрі дари апанажам"
+ },
+ "opinion_fra_appanage_status_quo": {
+  "en": "Maintaining the Status Quo",
+  "uk": "Збереження статус-кво"
+ },
+ "opinion_fra_backed_anti_pope": {
+  "en": "Backed Anti-Pope",
+  "uk": "Підтримали антипапу"
+ },
+ "opinion_fra_calvinist_granted_tolerance": {
+  "en": "Granted Protection to Calvinists",
+  "uk": "Надали захист кальвіністам"
+ },
+ "opinion_fra_calvinist_ruler": {
+  "en": "Mended Religious Relations",
+  "uk": "Врегульовано релігійні відносини"
+ },
+ "opinion_fra_executed_jeanne_d_arc": {
+  "en": "Executed the Maid of Orleans",
+  "uk": "Стратили Орлеанську діву"
+ },
+ "opinion_fra_persecute_calvinists": {
+  "en": "Persecution of our Calvinist brethren",
+  "uk": "Переслідування наших братів-кальвіністів"
+ },
+ "opinion_fra_rein_in_appanages": {
+  "en": "Reining in Appanages",
+  "uk": "Приборкання апанажів"
+ },
+ "opinion_fra_tur_alliance": {
+  "en": "Mutual Alliance",
+  "uk": "Двосторонній союз"
+ },
+ "opinion_fra_tur_relations": {
+  "en": "Closer French-Ottoman ties",
+  "uk": "Міцніші франко-османські зв'язки"
+ },
+ "opinion_franco_ottoman_alliance": {
+  "en": "Unholy Alliance",
+  "uk": "Нечестивий союз"
+ },
+ "opinion_friendliness": {
+  "en": "Offered Friendliness",
+  "uk": "Запропонували дружні відносини"
+ },
+ "opinion_gave_away_our_lands": {
+  "en": "Gave away our lands",
+  "uk": ""
+ },
+ "opinion_ghibellines_agreed_to_support_us": {
+  "en": "Intervention in Italy",
+  "uk": ""
+ },
+ "opinion_ghibellines_refuses_to_support_us": {
+  "en": "Refuses to support us",
+  "uk": "Відмовляються підтримати нас"
+ },
+ "opinion_ghibellines_sanction_pope": {
+  "en": "Antagonized the Papacy",
+  "uk": "Вороже поставилися до папства"
+ },
+ "opinion_gift": {
+  "en": "Gift Sent",
+  "uk": "Відправлено подарунок"
+ },
+ "opinion_given_support": {
+  "en": "Given Support",
+  "uk": "Надано підтримку"
+ },
+ "opinion_giving_guarantee": {
+  "en": "We Guarantee them",
+  "uk": "Ми надаємо їм гарантію"
+ },
+ "opinion_good_relations": {
+  "en": "Good relations",
+  "uk": "Добрі відносини"
+ },
+ "opinion_got_our_claim_revoked": {
+  "en": "Got Our Claim Revoked",
+  "uk": "Відхилення нашої претензії"
+ },
+ "opinion_granted_appanage_admin_autonomy": {
+  "en": "Granted Administrative Autonomy",
+  "uk": "Надали самостійне управління"
+ },
+ "opinion_granted_country_privileges": {
+  "en": "Granted Country Privileges",
+  "uk": ""
+ },
+ "opinion_granted_electorship": {
+  "en": "Granted Electorship",
+  "uk": "Пожаловано виборче право"
+ },
+ "opinion_granted_free_city": {
+  "en": "Granted Free City",
+  "uk": ""
+ },
+ "opinion_granted_kingdom_title": {
+  "en": "Granted Kingdom Title",
+  "uk": ""
+ },
+ "opinion_granted_legatus_natus": {
+  "en": "Granted Legatus Natus",
+  "uk": ""
+ },
+ "opinion_granted_primas_germaniae": {
+  "en": "Granted Primas Germaniae",
+  "uk": ""
+ },
+ "opinion_guelphs_sanction_emperor": {
+  "en": "Antagonized the Empire",
+  "uk": "Вороже поставилися до імперії"
+ },
+ "opinion_guelphs_support_imperial_rivals": {
+  "en": "Guelphs Support",
+  "uk": "Прихильники гвельфів"
+ },
+ "opinion_has_our_king_captive": {
+  "en": "Took our King captive",
+  "uk": "Полонили нашого короля"
+ },
+ "opinion_have_food_access": {
+  "en": "Have Food Access",
+  "uk": "Є доступ до продовольства"
+ },
+ "opinion_hegemons": {
+  "en": "Is a [hegemon|e]",
+  "uk": "[Concept('hegemon','Гегемон')|e]"
+ },
+ "opinion_helped_in_civil_war": {
+  "en": "Helped in Civil War",
+  "uk": "Допомогли в громадянській війні"
+ },
+ "opinion_historical_enemy": {
+  "en": "Historical Enemy",
+  "uk": "Історичний ворог"
+ },
+ "opinion_historical_friend_CAS_ccw": {
+  "en": "Agreement to Alliance",
+  "uk": "Згода укласти союз"
+ },
+ "opinion_historical_friend_POL_LIT": {
+  "en": "Historical Polish-Lithuanian Friendship",
+  "uk": "Історична польсько-литовська дружба"
+ },
+ "opinion_historical_friend_TEU_LIV": {
+  "en": "Teutonic State",
+  "uk": "Тевтонська держава"
+ },
+ "opinion_historical_rival": {
+  "en": "Historical Rival",
+  "uk": "Історичний суперник"
+ },
+ "opinion_historical_rival_CAS_ccw": {
+  "en": "Broken Promises",
+  "uk": "Обмануті очікування"
+ },
+ "opinion_historical_rival_target_ccw": {
+  "en": "Unreasonable Demands",
+  "uk": "Надмірні вимоги"
+ },
+ "opinion_hre_passed_controversial_law": {
+  "en": "Passed slightly Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для імператора"
+ },
+ "opinion_hre_passed_mild_prince_friendly_law": {
+  "en": "Passed mild member friendly [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для її членів"
+ },
+ "opinion_hre_passed_opposed_law": {
+  "en": "Passed Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для імператора"
+ },
+ "opinion_hre_passed_prince_friendly_law": {
+  "en": "Passed member friendly [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для її членів"
+ },
+ "opinion_hre_passed_prince_very_friendly_law": {
+  "en": "Passed very member favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для її членів"
+ },
+ "opinion_hre_passed_rebellious_law": {
+  "en": "Passed very Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для імператора"
+ },
+ "opinion_hre_passed_standard_law": {
+  "en": "Passed Standard [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття звичайного [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "opinion_hre_passed_uncontroversial_law": {
+  "en": "Passed Uncontroversial [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
+  "uk": "Прийняття непротирічливого [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ },
+ "opinion_hyw_enemies": {
+  "en": "$hundred_years_war$",
+  "uk": ""
+ },
+ "opinion_hyw_surrendered_robert": {
+  "en": "Surrendered Fugitive Lord",
+  "uk": "Біглий лорд здався"
+ },
+ "opinion_ignored_our_ambitions": {
+  "en": "Ignored our Ambitions",
+  "uk": "Проігнорували наші устремління"
+ },
+ "opinion_imprisoned_our_ruler": {
+  "en": "Imprisoned our Ruler",
+  "uk": "Полонили нашого правителя"
+ },
+ "opinion_improve_relation": {
+  "en": "Improved Relations",
+  "uk": "Відносини покращилися"
+ },
+ "opinion_improve_relation_reversed": {
+  "en": "Relation Improving",
+  "uk": "Відносини покращуються"
+ },
+ "opinion_improve_relations_member": {
+  "en": "Improved Member Relations",
+  "uk": "Покращено відносини між учасниками"
+ },
+ "opinion_increased_loan_interest": {
+  "en": "Increased our Loan Interest",
+  "uk": "Підвищили нам відсоток за позиками"
+ },
+ "opinion_influence_nation": {
+  "en": "Accepted Influence Nation",
+  "uk": "Визнано вплив на державу"
+ },
+ "opinion_insult": {
+  "en": "Insult",
+  "uk": "Образа"
+ },
+ "opinion_internal_crisis": {
+  "en": "Internal Crisis",
+  "uk": "Внутрішня криза"
+ },
+ "opinion_international_law": {
+  "en": "International Reputation",
+  "uk": "Міжнародна повага"
+ },
+ "opinion_invited_patriarch_delegation": {
+  "en": "Invited Patriarch Delegation",
+  "uk": ""
+ },
+ "opinion_irritated": {
+  "en": "Irritated",
+  "uk": "Роздратовані"
+ },
+ "opinion_joined_catholicism": {
+  "en": "Converted to Catholicism",
+  "uk": "Навернулися до католицтва"
+ },
+ "opinion_joined_delhi": {
+  "en": "Supports Delhi",
+  "uk": "Підтримка Делі"
+ },
+ "opinion_joined_opposers": {
+  "en": "Opposes Delhi",
+  "uk": "Протистояння Делі"
+ },
+ "opinion_joined_our_order_of_chivalry": {
+  "en": "Joined our Order of Chivalry",
+  "uk": "Вступили до нашого лицарського ордену"
+ },
+ "opinion_joined_war_against_revolution_modifier": {
+  "en": "War Against the Revolution",
+  "uk": "Війна проти революції"
+ },
+ "opinion_jubilee_bad": {
+  "en": "Pope disapproves of Jubilee",
+  "uk": "Папа не схвалює ювілей"
+ },
+ "opinion_jubilee_good": {
+  "en": "Pope approves of Jubilee",
+  "uk": "Папа схвалює ювілей"
+ },
+ "opinion_jurchen_friction": {
+  "en": "Confederation Friction",
+  "uk": "Конфедеративні суперечки"
+ },
+ "opinion_kicked_out_italians": {
+  "en": "Ridden our Merchants",
+  "uk": "Вигнали наших купців"
+ },
+ "opinion_levies_requested_by_overlord": {
+  "en": "Levies Requested by Overlord",
+  "uk": "Сюзерен запитує ополчення"
+ },
+ "opinion_liberated_us": {
+  "en": "Liberated us",
+  "uk": "Звільнили нас"
+ },
+ "opinion_liked_religious_school": {
+  "en": "Liked [religious_school|e]",
+  "uk": "Добре ставлення до [Concept('religious_school','релігійної школи')|e]"
+ },
+ "opinion_marriage_between_beyliks": {
+  "en": "Dynastic Marriage",
+  "uk": "Династичний шлюб"
+ },
+ "opinion_medium_support_for_david_ii": {
+  "en": "Aided our Cause",
+  "uk": "Допомогли нашій справі"
+ },
+ "opinion_mending_relations": {
+  "en": "Mending Relations",
+  "uk": "Налагодження відносин"
+ },
+ "opinion_mfa_betrayal": {
+  "en": "Did not Join the Campaign against $BYZ$",
+  "uk": ""
+ },
+ "opinion_milan_scorned": {
+  "en": "Scorned",
+  "uk": "Зневага"
+ },
+ "opinion_milanese_close_ties": {
+  "en": "Welcomed Closer Ties",
+  "uk": "Зраділи тіснішим зв'язкам"
+ },
+ "opinion_milanese_cordial_ties": {
+  "en": "Cordial Relations",
+  "uk": "Теплі відносини"
+ },
+ "opinion_mildly_displeased": {
+  "en": "Mildly displeased",
+  "uk": "Трохи незадоволені"
+ },
+ "opinion_mlo_betrayal": {
+  "en": "Milanese Betrayal",
+  "uk": "Зрада міланців"
+ },
+ "opinion_mor_betrayal": {
+  "en": "Moroccan Betrayal",
+  "uk": "Зрада марокканців"
+ },
+ "opinion_mutual_great_powers": {
+  "en": "Competing [great_power|e]",
+  "uk": "Суперницька [Concept('great_power','велика держава')|e]"
+ },
+ "opinion_negative_religious_tolerance": {
+  "en": "$opinion_religious_tolerance$",
+  "uk": ""
+ },
+ "opinion_negative_societal_values": {
+  "en": "Different [societal_values|e]",
+  "uk": "Різні [Concept('societal_values','суспільні цінності')|e]"
+ },
+ "opinion_new_fra_tur_relations": {
+  "en": "Renewal of French-Ottoman relations",
+  "uk": "Поновлення франко-османських відносин"
+ },
+ "opinion_no_extra_support_for_david_ii": {
+  "en": "Lessened support",
+  "uk": "Зменшили підтримку"
+ },
+ "opinion_northern_nemesis": {
+  "en": "Muslim Nemesis",
+  "uk": "Заклятi суперники — мусульмани"
+ },
+ "opinion_nusta_marriage": {
+  "en": "Ñusta Marriage",
+  "uk": "Пропозиція ньюсти в дружини"
+ },
+ "opinion_offered_hostage": {
+  "en": "Offered Hostage",
+  "uk": "Пропозиція заручника"
+ },
+ "opinion_opinion_influenced": {
+  "en": "Influenced Opinion",
+  "uk": "Здійснено вплив на ставлення"
+ },
+ "opinion_order_commandery_built": {
+  "en": "$order_commandery$ built",
+  "uk": "Побудовано комтурство ордену"
+ },
+ "opinion_order_of_the_holy_spirit": {
+  "en": "Founded the Order of the Holy Spirit",
+  "uk": "Заснували Орден Святого Духа"
+ },
+ "opinion_orthodox_and_lutherans_against_us": {
+  "en": "Anti-Catholic Coalition",
+  "uk": "Антикатолицька коаліція"
+ },
+ "opinion_orthodoxy_stands_alone": {
+  "en": "Orthodoxy Stands Alone",
+  "uk": "Самотнє православ'я"
+ },
+ "opinion_overruled_imperial_diet": {
+  "en": "Overruled the Imperial Diet",
+  "uk": "Скасоване рішення Рейхстагу"
+ },
+ "opinion_pap_compromising_legitimacy": {
+  "en": "Compromised Legitimacy",
+  "uk": "Підірвали легітимність"
+ },
+ "opinion_pap_reassign_cleric_negative": {
+  "en": "Reassigned Our Cleric",
+  "uk": "Переназначили нашого священника"
+ },
+ "opinion_pap_reassign_cleric_positive": {
+  "en": "Reassigned Cleric to Us",
+  "uk": "Переназначили до нас священника"
+ },
+ "opinion_papal_relations": {
+  "en": "Papal Relations",
+  "uk": "Відносини з папою"
+ },
+ "opinion_peaceful_trade_relations": {
+  "en": "Peaceful Trade Relations",
+  "uk": "Мирні торговельні відносини"
+ },
+ "opinion_pirate_fighting": {
+  "en": "Fought Against Piracy",
+  "uk": "Боролися проти піратства"
+ },
+ "opinion_pirate_supporters": {
+  "en": "Pirate Supporters",
+  "uk": "Підтримують піратство"
+ },
+ "opinion_placed_privateers": {
+  "en": "Sponsored Privateers",
+  "uk": "Фінансово підтримали каперів"
+ },
+ "opinion_pol_constitution_threatens_neighbors": {
+  "en": "Polish Constitution Crisis",
+  "uk": ""
+ },
+ "opinion_pol_reform_threatens_neighbors": {
+  "en": "Polish Reform Alarm",
+  "uk": ""
+ },
+ "opinion_portuguese_elephant_gift": {
+  "en": "Elephant gifts",
+  "uk": "Слони в дар"
+ },
+ "opinion_positive_religious_tolerance": {
+  "en": "$opinion_religious_tolerance$",
+  "uk": ""
+ },
+ "opinion_positive_societal_values": {
+  "en": "Shared [societal_values|e]",
+  "uk": "Спільні [Concept('societal_values','суспільні цінності')|e]"
+ },
+ "opinion_pressured_by_delhi": {
+  "en": "Pressured by Delhi",
+  "uk": "Під тиском з боку Делі"
+ },
+ "opinion_prey_to_conquest": {
+  "en": "Prey",
+  "uk": "Жертва"
+ },
+ "opinion_professed_mutual_loyalty": {
+  "en": "Professed Mutual Loyalty",
+  "uk": "Висловили взаємну вірність"
+ },
+ "opinion_promised_land_unfulfilled": {
+  "en": "Did not fulfill a land promise",
+  "uk": "Не виконано обіцянку про землю"
+ },
+ "opinion_protected_christian_minorities": {
+  "en": "Protected $christian_ADJ$ Minorities",
+  "uk": "Захистили християнські меншини"
+ },
+ "opinion_protestant_persecution": {
+  "en": "Persecution of our Lutheran brethren",
+  "uk": "Переслідування наших братів-лютеран"
+ },
+ "opinion_rag_ottoman_partnership": {
+  "en": "Ottoman Partnership",
+  "uk": ""
+ },
+ "opinion_raid_capital": {
+  "en": "Raided our Capital",
+  "uk": "Здійснили наліт на нашу столицю"
+ },
+ "opinion_raided_our_borders": {
+  "en": "Raided our Borders",
+  "uk": "Здійснили наліт на наші кордони"
+ },
+ "opinion_received_imperial_grant": {
+  "en": "Received Imperial Grant",
+  "uk": ""
+ },
+ "opinion_receiving_deny_market_access": {
+  "en": "Market Access Denied",
+  "uk": "Відмовлено в доступі до ринку"
+ },
+ "opinion_receiving_embargo_nation": {
+  "en": "Embargoed",
+  "uk": "Ембарго"
+ },
+ "opinion_receiving_fleet_basing_rights": {
+  "en": "Fleet Basing Rights",
+  "uk": "Право на розміщення флоту"
+ },
+ "opinion_receiving_food_access": {
+  "en": "Receiving Food Access",
+  "uk": "Відкрито доступ до продовольства"
+ },
+ "opinion_receiving_forced_divert_trade": {
+  "en": "Forced Diversion of Trade",
+  "uk": "Вимушене перенаправлення торгівлі"
+ },
+ "opinion_receiving_guarantee": {
+  "en": "They Guarantee us",
+  "uk": "Вони надають нам гарантію"
+ },
+ "opinion_receiving_military_access": {
+  "en": "Military Access",
+  "uk": "Право на прохід військ"
+ },
+ "opinion_receiving_rein_in_junior_diplomacy": {
+  "en": "They rein in our diplomacy",
+  "uk": ""
+ },
+ "opinion_receiving_trade_access": {
+  "en": "Market Access",
+  "uk": "Доступ до ринку"
+ },
+ "opinion_recieved_french_backing": {
+  "en": "Received French Backing",
+  "uk": "Отримано допомогу від французів"
+ },
+ "opinion_reconciling_differences": {
+  "en": "Reconciling differences",
+  "uk": "Усунення розбіжностей"
+ },
+ "opinion_reduction_of_circle_titles": {
+  "en": "Perfomed a Reduction of Circle Titles",
+  "uk": ""
+ },
+ "opinion_reformation_diplomacy": {
+  "en": "Reformation Diplomacy",
+  "uk": "Братерство реформаторів"
+ },
+ "opinion_reformed_circle_coinage": {
+  "en": "Reformed Circle Coinage",
+  "uk": ""
+ },
+ "opinion_refused_cadastral_survey": {
+  "en": "Refused Cadastral Survey",
+  "uk": "Відмова проводити кадастрові дослідження"
+ },
+ "opinion_refused_call_for_help_modifier": {
+  "en": "Refused Call for Aid",
+  "uk": "Відмовили в проханні про допомогу"
+ },
+ "opinion_refused_claim": {
+  "en": "Refused Claim",
+  "uk": "Відмова в претензіях"
+ },
+ "opinion_refused_demands": {
+  "en": "Refused Demands",
+  "uk": "Відповіли відмовою на вимоги"
+ },
+ "opinion_refused_extradition": {
+  "en": "Refused Extradition",
+  "uk": "Відмова в екстрадиції"
+ },
+ "opinion_refused_imperial_petition": {
+  "en": "Refused Imperial Petition",
+  "uk": "Відповіли відмовою на імперське прохання"
+ },
+ "opinion_refused_invitation_to_league": {
+  "en": "Refused Invitation",
+  "uk": "Відхилили запрошення"
+ },
+ "opinion_refused_my_bribe": {
+  "en": "Refused Our Bribe",
+  "uk": ""
+ },
+ "opinion_refused_prosecute_pirates": {
+  "en": "Refused to Prosecute Pirates",
+  "uk": "Відмовилися судити піратів"
+ },
+ "opinion_refused_shogunate_authority": {
+  "en": "Refused Shogunate Authority",
+  "uk": "Вихід з-під влади сьогунату"
+ },
+ "opinion_refused_to_help_christian_minorities": {
+  "en": "Refused to Help $christian_ADJ$ Minorities",
+  "uk": "Відмовилися допомогти християнським меншинам"
+ },
+ "opinion_refused_traders_in_x": {
+  "en": "Refused Traders",
+  "uk": "Торговці отримали відмову"
+ },
+ "opinion_refused_tribute": {
+  "en": "Refused Tribute",
+  "uk": "Відмовилися сплачувати данину"
+ },
+ "opinion_refuses_to_join_our_side": {
+  "en": "Refuses to join our side",
+  "uk": "Відмовляються приєднатися до нас"
+ },
+ "opinion_rejected_bribe_voter_for_policy": {
+  "en": "Rejected our Bribe Attempt",
+  "uk": "Відмова прийняти наш дар"
+ },
+ "opinion_rejects_army_support": {
+  "en": "Rejects Supporting our Army",
+  "uk": "Відмовляється підтримувати нашу армію"
+ },
+ "opinion_released_from_unlawful_territory": {
+  "en": "Released us from Unlawful Territory",
+  "uk": ""
+ },
+ "opinion_religious_aspect": {
+  "en": "[religious_aspect|e]",
+  "uk": "[Concept('religious_aspect','Релігійна особливість')|e]"
+ },
+ "opinion_religious_hostilities": {
+  "en": "Religious Hostilities",
+  "uk": "Релігійна ворожнеча"
+ },
+ "opinion_religious_outreach_during_the_hussite_wars_modifier": {
+  "en": "Religious Outreach during the $hussite_wars$",
+  "uk": "Релігійна пропаганда під час Гуситських війн"
+ },
+ "opinion_religious_radicalism_during_the_hussite_wars": {
+  "en": "Religious Radicalism during the $hussite_wars$",
+  "uk": "Релігійний радикалізм під час Гуситських війн"
+ },
+ "opinion_religious_tolerance": {
+  "en": "Religious Tolerance",
+  "uk": "Релігійна толерантність"
+ },
+ "opinion_removed_land_from_hre": {
+  "en": "Removed land from [GetUniqueInternationalOrganization('hre').GetName]",
+  "uk": "У #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! відібрано землю"
+ },
+ "opinion_removed_member_from_union": {
+  "en": "Removed Member from [GetInternationalOrganizationType('union').GetName]",
+  "uk": "З #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#! виключено учасника"
+ },
+ "opinion_renewed_french_scottish_bond": {
+  "en": "Renewed French-Scottish Relations",
+  "uk": "Відновлено франко-шотландські відносини"
+ },
+ "opinion_rescinded_electorship": {
+  "en": "Rescinded Electorship",
+  "uk": "Відібрано виборче право"
+ },
+ "opinion_rescinded_free_city": {
+  "en": "Rescinded Free City",
+  "uk": ""
+ },
+ "opinion_rescinded_legatus_natus": {
+  "en": "Rescinded Legatus Natus",
+  "uk": ""
+ },
+ "opinion_rescinded_primas_germaniae": {
+  "en": "Rescinded Primas Germaniae",
+  "uk": ""
+ },
+ "opinion_resisted_sinicization": {
+  "en": "Resisted Sinicization",
+  "uk": "Чинили опір китаїзації"
+ },
+ "opinion_revoked_shugo_office": {
+  "en": "Revoked Shugo Office",
+  "uk": "Відкликано посаду сюго"
+ },
+ "opinion_rival": {
+  "en": "Rival",
+  "uk": "Суперник"
+ },
+ "opinion_rival_of_my_rival": {
+  "en": "Rival of my Rival",
+  "uk": ""
+ },
+ "opinion_rot_timurid_golden_horde_alliance": {
+  "en": "Horde-Alliance",
+  "uk": "Ординський союз"
+ },
+ "opinion_royal_line_embraced_catholicism": {
+  "en": "Royal Line Embraced $catholic$",
+  "uk": "Королівський рід навернувся до католицтва"
+ },
+ "opinion_royal_marriage": {
+  "en": "Royal Marriage",
+  "uk": "Династичний шлюб"
+ },
+ "opinion_rtr_granted_titles": {
+  "en": "Granted Us Titles",
+  "uk": "Пожалували нам титули"
+ },
+ "opinion_rtr_loyal_subject": {
+  "en": "Loyal Subject",
+  "uk": "Вірний васал"
+ },
+ "opinion_rtr_red_turban_rebellions": {
+  "en": "$red_turban_rebellions$",
+  "uk": ""
+ },
+ "opinion_rtr_supported_side": {
+  "en": "Supported Side",
+  "uk": "Підтримали сторону"
+ },
+ "opinion_ruler_culture": {
+  "en": "Ruler Abandoned Culture",
+  "uk": "Правитель відмовився від культури"
+ },
+ "opinion_ruler_of_our_culture": {
+  "en": "Ruler of our Culture",
+  "uk": "Правитель з нашої культури"
+ },
+ "opinion_sabotage_reputation": {
+  "en": "Reputation Sabotaged",
+  "uk": "Підірвано репутацію"
+ },
+ "opinion_same_common_language": {
+  "en": "Same [common_language|e]",
+  "uk": "Та ж [Concept('common_language','загальновживана мова')|e]"
+ },
+ "opinion_same_common_language_family": {
+  "en": "[common_language|e] in same [language_family_short|e]",
+  "uk": "[Concept('common_language', 'Загальновживана мова')|e] з тієї ж [Concept('language_family_short', 'сім'ї')|e]"
+ },
+ "opinion_same_court_language": {
+  "en": "Same [court_language|e]",
+  "uk": "Та ж [Concept('court_language','придворна мова')|e]"
+ },
+ "opinion_same_court_language_family": {
+  "en": "[court_language|e] in same [language_family_short|e]",
+  "uk": "[Concept('court_language', 'Придворна мова')|e] належить до тієї ж [Concept('language_family_short', 'сім'ї')|e]"
+ },
+ "opinion_same_dynasty": {
+  "en": "Same [dynasty|e]",
+  "uk": "Та ж [Concept('dynasty','династія')|e]"
+ },
+ "opinion_sbl_executed_scottish_king": {
+  "en": "Executed our King",
+  "uk": "Стратили нашого короля"
+ },
+ "opinion_school_of_capital": {
+  "en": "Cultural Paragon",
+  "uk": "Зразок своєї культури"
+ },
+ "opinion_sco_abandon_auld_alliance": {
+  "en": "Abandoned the Auld Alliance",
+  "uk": "Кинули Старий союз"
+ },
+ "opinion_sco_attacking_enclaves": {
+  "en": "Attacking our Enclaves",
+  "uk": "Атакують наші анклави"
+ },
+ "opinion_sco_dishonored_hyw_auld_alliance": {
+  "en": "Dishonored the Auld Alliance",
+  "uk": "Порушили Старий союз"
+ },
+ "opinion_sco_hyw_auld_alliance": {
+  "en": "Honored the Auld Alliance",
+  "uk": "Пошанували Старий союз"
+ },
+ "opinion_sco_hyw_monetary_auld_alliance": {
+  "en": "Supplying Monetary Aid",
+  "uk": "Надають фінансову допомогу"
+ },
+ "opinion_sco_renewed_auld_alliance": {
+  "en": "Renewed the Auld Alliance",
+  "uk": "Поновили Старий союз"
+ },
+ "opinion_seized_our_courts_resources": {
+  "en": "Seized our Court's Resources!",
+  "uk": "Відібрали ресурси нашого двору!"
+ },
+ "opinion_shared_culture_group": {
+  "en": "Shared [culture_group|e]",
+  "uk": "Спільна [Concept('culture_group','культурна група')|e]"
+ },
+ "opinion_shirazi_islam": {
+  "en": "Shirazi $muslim$",
+  "uk": "Мусульмани-ширазі"
+ },
+ "opinion_sided_with_immortal_seven": {
+  "en": "Sided With the Immortal Seven",
+  "uk": "Зайняли сторону Безсмертної сімки"
+ },
+ "opinion_sponsoring_military_order": {
+  "en": "Sponsors Military Order",
+  "uk": "Фінансово підтримують духовно-рицарський орден"
+ },
+ "opinion_steadfast_loyalty": {
+  "en": "Steadfast Loyalty",
+  "uk": "Непохитна вірність"
+ },
+ "opinion_strengthened_our_league": {
+  "en": "Strengthened our League",
+  "uk": "Посилили нашу лігу"
+ },
+ "opinion_subsidies": {
+  "en": "Sending Subsidies",
+  "uk": "Відправлення субсидій"
+ },
+ "opinion_supported_rebels": {
+  "en": "Supported Rebels",
+  "uk": "Підтримка повстанців"
+ },
+ "opinion_surrendered_our_king": {
+  "en": "Surrendered our King to the enemy",
+  "uk": "Передали нашого короля ворогу"
+ },
+ "opinion_swapped_allegiances_to_france": {
+  "en": "Swapped Allegiances to France",
+  "uk": "Тепер вірні Франції"
+ },
+ "opinion_tax_collector_granted": {
+  "en": "Granted Elevated Position",
+  "uk": "Отримали вищу посаду"
+ },
+ "opinion_tax_collector_rejected": {
+  "en": "Rejected Elevated Position",
+  "uk": "Відмовилися від вищої посади"
+ },
+ "opinion_tax_collector_revoked": {
+  "en": "Revoked Elevated Position",
+  "uk": "Позбавилися вищої посади"
+ },
+ "opinion_they_accept_our_culture": {
+  "en": "They [accept|e] our [culture|e]",
+  "uk": "Вони [Concept('accept','визнають')|e] нашу [Concept('culture','культуру')|e]"
+ },
+ "opinion_they_aid_us": {
+  "en": "Aiding us",
+  "uk": "Допомагають нам"
+ },
+ "opinion_they_defend_us": {
+  "en": "Defending us",
+  "uk": "Захищають нас"
+ },
+ "opinion_they_have_casus_belli": {
+  "en": "Casus Belli on us",
+  "uk": "Є привід для війни проти нас"
+ },
+ "opinion_they_helped_us": {
+  "en": "Aided us Prior",
+  "uk": "Раніше допомагали нам"
+ },
+ "opinion_they_saved_us": {
+  "en": "Defended us Prior",
+  "uk": "Раніше захищали нас"
+ },
+ "opinion_they_tolerate_our_culture": {
+  "en": "They [tolerate|e] our [culture|e]",
+  "uk": "Вони [Concept('tolerate', 'приймають')|e] нашу [Concept('culture', 'культуру')|e]"
+ },
+ "opinion_threatened_us": {
+  "en": "Threatened us",
+  "uk": "Погрожували нам"
+ },
+ "opinion_threatening_rival": {
+  "en": "Threatening Rival",
+  "uk": ""
+ },
+ "opinion_threatens_conquest": {
+  "en": "Threatens to Conquer Us",
+  "uk": "Загрожують завоювати нас"
+ },
+ "opinion_tim_refused_joining_horde": {
+  "en": "Refused Joining Horde",
+  "uk": "Відмовилися приєднатися до орди"
+ },
+ "opinion_tolerance_to_protestants": {
+  "en": "Granted Protection to Lutherans",
+  "uk": "Надали захист лютеранам"
+ },
+ "opinion_too_tolerate": {
+  "en": "Tolerates other Faiths",
+  "uk": "Толерантність до інших віровчень"
+ },
+ "opinion_took_on_debt": {
+  "en": "Took on Debt",
+  "uk": "Взяли на себе борг"
+ },
+ "opinion_traders_in_x": {
+  "en": "Allowed Traders",
+  "uk": "Торговці отримали дозвіл"
+ },
+ "opinion_tried_enforced_culture": {
+  "en": "Tried to enfoce their Culture on us",
+  "uk": ""
+ },
+ "opinion_tried_enforced_religion": {
+  "en": "Tried to enfoce their Religion on us",
+  "uk": ""
+ },
+ "opinion_tried_to_excommunicate_us": {
+  "en": "Tried to excommunicate us",
+  "uk": "Спробували відлучити нас від церкви"
+ },
+ "opinion_tur_betrayed_the_true_faith": {
+  "en": "Betrayed the True Faith",
+  "uk": "Зрадили істинну віру"
+ },
+ "opinion_tur_embraced_the_true_faith": {
+  "en": "Embraced the True Faith",
+  "uk": "Прийняли істинну віру"
+ },
+ "opinion_unfavorable_judgement": {
+  "en": "Unfavorable Judgment",
+  "uk": "Несприятливе рішення"
+ },
+ "opinion_union": {
+  "en": "Union",
+  "uk": "В унії"
+ },
+ "opinion_union_of_crowns_pact": {
+  "en": "Union of Crowns Pact",
+  "uk": "Союз корон"
+ },
+ "opinion_usurped_shugo_office": {
+  "en": "Usurped Shugo Office",
+  "uk": "Узурповано посаду сюго"
+ },
+ "opinion_violated_sovereignty": {
+  "en": "Violated Sovereignty",
+  "uk": "Порушили суверенітет"
+ },
+ "opinion_voted_for_high_king": {
+  "en": "We backed them for High King",
+  "uk": ""
+ },
+ "opinion_war": {
+  "en": "At [war|e]",
+  "uk": "У стані [Concept('war', 'війни')|e]"
+ },
+ "opinion_we_accept_their_culture": {
+  "en": "We [accept|e] their [culture|e]",
+  "uk": "Ми [Concept('accept','визнаємо')|e] їхню [Concept('culture','культуру')|e]"
+ },
+ "opinion_we_tolerate_their_culture": {
+  "en": "We [tolerate|e] their [culture|e]",
+  "uk": "Ми [Concept('tolerate', 'приймаємо')|e] їхню [Concept('culture', 'культуру')|e]"
+ },
+ "opinion_weakened_our_league": {
+  "en": "Weakened our League",
+  "uk": "Послабили нашу лігу"
+ },
+ "opinion_went_on_grand_tour": {
+  "en": "Went on Grand Tour",
+  "uk": "[Select_CString(target_character.IsFemale,'Відправилася', 'Відправився')] у велику подорож"
+ },
+ "ori_friendly_portuguese_ties": {
+  "en": "Friendly Ties",
+  "uk": "Дружні узи"
+ },
+ "ori_hostility_against_por": {
+  "en": "Escalating Hostility",
+  "uk": "Наростаюча ворожнеча"
+ },
+ "ori_rejected_investment_plan": {
+  "en": "Rejected Investments",
+  "uk": "Відмовилися від вкладень"
+ },
+ "orthodox_synod_diplomatic_embassy_modifier": {
+  "en": "Diplomatic Embassy",
+  "uk": "Дипломатичне посольство"
+ },
+ "pap_joined_the_holy_league": {
+  "en": "Joined the Holy League",
+  "uk": "Вступили до Священної ліги"
+ },
+ "pap_refused_the_holy_league": {
+  "en": "Refused to Join the Holy League",
+  "uk": "Відмовилися вступити до Священної ліги"
+ },
+ "pis_rejected_rulership_of_country": {
+  "en": "Rejected Rulership",
+  "uk": ""
+ },
+ "pis_rejected_university_papal_bull": {
+  "en": "Rejected our Papal Bull",
+  "uk": ""
+ },
+ "pis_salted_genoa": {
+  "en": "Salted Genoa",
+  "uk": ""
+ },
+ "pol_answered_plight_of_hussites": {
+  "en": "Aid in the Hussite Wars",
+  "uk": "Допомога в Гуситських війнах"
+ },
+ "pol_gave_up_on_wschowa": {
+  "en": "Gave up on Wschowa",
+  "uk": "Відмовилися від Всхови"
+ },
+ "pol_political_intervention_modifier": {
+  "en": "Political Intervention",
+  "uk": "Політичне втручання"
+ },
+ "por_castro_meddling": {
+  "en": "Meddling of the [GetDynasty('castro_dynasty').GetNameWithNoTooltip] Family",
+  "uk": "Втручання сімейства [GetDynasty('castro_dynasty').GetNameWithNoTooltip]"
+ },
+ "por_converted_to_true_faith": {
+  "en": "Converted to the True Faith",
+  "uk": "Навернулися до істинної віри"
+ },
+ "por_given_hymnal": {
+  "en": "Given Songbook",
+  "uk": "Видано співаник"
+ },
+ "por_rejected_jesus": {
+  "en": "Mocked Us",
+  "uk": "Насміхалися над нами"
+ },
+ "por_rejected_nanban_trade_port": {
+  "en": "Rejected Trade Port Rights",
+  "uk": "Відмовилися від прав на торговельний порт"
+ },
+ "por_shared_letters_with_persian_shah": {
+  "en": "Exchanged Letters",
+  "uk": "Обмінялися листами"
+ },
+ "pradhana_maha_samanta_overlord_opinion": {
+  "en": "Our $pradhana_maha_samanta$",
+  "uk": "Наш прадхана-махасаманта"
+ },
+ "pradhana_maha_samanta_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord', 'сюзерен')|e]"
+ },
+ "prevented_ship_building_technology_from_spreading": {
+  "en": "Prevented the Sharing of Shipbuilding Technology",
+  "uk": ""
+ },
+ "promise_of_peace": {
+  "en": "Promises of Peace",
+  "uk": "Обіцянки миру"
+ },
+ "protected_from_critics": {
+  "en": "Shielded From Criticism",
+  "uk": "Захищені від критики"
+ },
+ "recent_appanage_opinion": {
+  "en": "Recently Became an [ShowSubjectTypeName('appanage')]",
+  "uk": "Нещодавно стали #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанажем#!#!"
+ },
+ "recent_conflict_lost": {
+  "en": "Recent Conflict Lost",
+  "uk": "Програли в недавньому конфлікті"
+ },
+ "recently_embraced_catholicism": {
+  "en": "Recently Embraced $catholic$",
+  "uk": "Нещодавно навернулися до католицтва"
+ },
+ "refused_diplomatic_offer": {
+  "en": "Refused Diplomatic Offer",
+  "uk": "Відхилили дипломатичну пропозицію"
+ },
+ "refused_iro_walking_sale": {
+  "en": "Refused Walking Purchase Treaty",
+  "uk": "Відмова від Прогулянкової купівлі"
+ },
+ "religious_disagreements_modifier": {
+  "en": "Religious Disagreements in the Hussite Wars",
+  "uk": "Релігійні розбіжності в Гуситських війнах"
+ },
+ "religious_friction_modifier": {
+  "en": "Religious Friction",
+  "uk": "Релігійні розбіжності"
+ },
+ "restored_title_of_jerusalem_modifier": {
+  "en": "Restored the Title of Jerusalem",
+  "uk": "Відновили титул Єрусалима"
+ },
+ "returned_rome": {
+  "en": "Returned $rome$",
+  "uk": ""
+ },
+ "samanta_overlord_opinion": {
+  "en": "Our $samanta$",
+  "uk": "Наш саманта"
+ },
+ "samanta_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord', 'сюзерен')|e]"
+ },
+ "schism_called_council": {
+  "en": "Called Council",
+  "uk": "Скликано собор"
+ },
+ "schism_rewarded_loyalty": {
+  "en": "Rewarded Loyalty",
+  "uk": "Винагородили вірність"
+ },
+ "schism_scorned_loyalty": {
+  "en": "Scorned Loyalty",
+  "uk": "Знехтували вірністю"
+ },
+ "sco_appease_great_wooing": {
+  "en": "Appeased our Demands",
+  "uk": "Задовольнили наші вимоги"
+ },
+ "sco_broke_auld_alliance_great_wooing": {
+  "en": "Broke Auld Alliance at England's Demand",
+  "uk": "Порушили Старий союз на вимогу Англії"
+ },
+ "sco_opinion_accepted_mons_meg": {
+  "en": "Accepted Mons Meg",
+  "uk": "Прийнято «Монс Мег»"
+ },
+ "sco_opinion_destroyed_mons_meg": {
+  "en": "Destroyed Mons Meg",
+  "uk": "Знищено «Монс Мег»"
+ },
+ "sco_opinion_sent_mons_meg": {
+  "en": "Sent Mons Meg",
+  "uk": "Відправлено «Монс Мег»"
+ },
+ "secessionists_overlord_opinion": {
+  "en": "Secessionists who want to join us",
+  "uk": "Сецесіоністи, які бажають приєднатися до нас"
+ },
+ "secessionists_subject_opinion": {
+  "en": "We want to join their [country|e]",
+  "uk": "Ми хочемо приєднатися до їхньої [Concept('country','держави')|e]"
+ },
+ "secularized_order": {
+  "en": "Attempted Secularization",
+  "uk": "Спроба секуляризації"
+ },
+ "sided_with_barlaam_opinion_modifier": {
+  "en": "Sided with Barlaam",
+  "uk": ""
+ },
+ "sided_with_palamas_opinion_modifier": {
+  "en": "Sided with Palamas",
+  "uk": ""
+ },
+ "stolen_jewels": {
+  "en": "Stolen Jewels",
+  "uk": ""
+ },
+ "successful_diplomacy": {
+  "en": "Successful Diplomacy",
+  "uk": "Успішна дипломатія"
+ },
+ "theological_difference_nature_of_christ": {
+  "en": "Theological Differences on the Nature of Christ",
+  "uk": "Богословські суперечки про природу Христа"
+ },
+ "tim_governor_executed_traitor": {
+  "en": "Executed Traitor",
+  "uk": "Стратили зрадника"
+ },
+ "tim_governor_welcomed_exiled_character": {
+  "en": "Accepted Exiles",
+  "uk": "Прийняли вигнанців"
+ },
+ "trade_conflict": {
+  "en": "Trade Conflict",
+  "uk": "Торговий конфлікт"
+ },
+ "trading_in_furs_iro": {
+  "en": "Trading in Fur",
+  "uk": "Торгівля хутром"
+ },
+ "travels_of_ibn_battuta_modifier": {
+  "en": "Travels of $ibn_battuta$",
+  "uk": "Подорожі Ібн Баттути"
+ },
+ "tributary_overlord_opinion": {
+  "en": "Our Tributary",
+  "uk": "Наш данник"
+ },
+ "tributary_subject_opinion": {
+  "en": "Our Tributary [overlord|e]",
+  "uk": "Наш [Concept('overlord','сюзерен')|e]-данник"
+ },
+ "trust_absorb_institutions": {
+  "en": "Accepting Foreign Institutions",
+  "uk": "Приймають іноземні інститути"
+ },
+ "trust_ach_naples_court_ties": {
+  "en": "Deep Ties to the Court of Naples",
+  "uk": ""
+ },
+ "trust_alliance": {
+  "en": "Long Term $alliance$",
+  "uk": "Довготривалий союз"
+ },
+ "trust_asserting_independence": {
+  "en": "Asserting its Independence",
+  "uk": "Відстоює свою незалежність"
+ },
+ "trust_betrayed_peers": {
+  "en": "Betrayed Peers",
+  "uk": "Зрадили побратимів"
+ },
+ "trust_beylik_marriage": {
+  "en": "Marital Trust",
+  "uk": "Шлюбна довіра"
+ },
+ "trust_broke_alliance": {
+  "en": "Broke Alliance",
+  "uk": "Розірвали союз"
+ },
+ "trust_broke_tribute": {
+  "en": "Broke Tribute",
+  "uk": "Порушили зобов'язання данника"
+ },
+ "trust_cant_afford_tribute": {
+  "en": "Not Able to Pay Tribute",
+  "uk": "Неможлива сплата данини"
+ },
+ "trust_common_enemy": {
+  "en": "Common Enemy",
+  "uk": "Спільний ворог"
+ },
+ "trust_declared_war": {
+  "en": "Declared War",
+  "uk": "Оголосили війну"
+ },
+ "trust_declined_tribute_offer": {
+  "en": "Refuses to be Tributary",
+  "uk": "Відмовляються бути данником"
+ },
+ "trust_different_culture": {
+  "en": "Different [primary_culture|e]",
+  "uk": "Інша [Concept('primary_culture','основна культура')|e]"
+ },
+ "trust_different_language": {
+  "en": "Different [court_language|e]",
+  "uk": "Інша [Concept('court_language','придворна мова')|e]"
+ },
+ "trust_different_religion": {
+  "en": "Different [religion|e]",
+  "uk": "Інша [Concept('religion','релігія')|e]"
+ },
+ "trust_different_religion_group": {
+  "en": "Different [religion_group|e]",
+  "uk": "Інша [Concept('religion_group', 'релігійна група')|e]"
+ },
+ "trust_diplomatic_reputation": {
+  "en": "Diplomatic Reputation",
+  "uk": "Дипломатична репутація"
+ },
+ "trust_discovered_treachery": {
+  "en": "Discovered Treachery",
+  "uk": "Виявили зраду"
+ },
+ "trust_dishonored_alliance": {
+  "en": "Dishonored Alliance",
+  "uk": "Порушили союз"
+ },
+ "trust_dummy": {
+  "en": "(console cheat)",
+  "uk": "(чит-код для консолі)"
+ },
+ "trust_efficient_tax_collector": {
+  "en": "Efficient Tax Collector",
+  "uk": "Ефективний збирач податків"
+ },
+ "trust_form_closer_bond_iro": {
+  "en": "Formed Closer Bonds",
+  "uk": "Встановлено тісні зв'язки"
+ },
+ "trust_fra_italian_formalize_relations": {
+  "en": "Formalized Relations with us",
+  "uk": "Встановили з нами офіційні відносини"
+ },
+ "trust_french_king_duke_of_milan": {
+  "en": "Milan forcefully claimed by France",
+  "uk": "Франція силою взяла Мілан"
+ },
+ "trust_french_mlo_governance": {
+  "en": "Governance Autonomy granted by France",
+  "uk": "Франція дарувала самостійність в управлінні"
+ },
+ "trust_incompatible_foreign_policies": {
+  "en": "Incompatible Foreign Policies",
+  "uk": "Несумісна зовнішня політика"
+ },
+ "trust_learn_from_foreigners": {
+  "en": "Learning their Ways",
+  "uk": "Пізнають їхній устрій"
+ },
+ "trust_mission_trusted_ties": {
+  "en": "Trusted Ties",
+  "uk": "Довірені узи"
+ },
+ "trust_mongol_allegiance": {
+  "en": "Mongol Allegiance",
+  "uk": "Вірність монголам"
+ },
+ "trust_mutual_rival": {
+  "en": "Mutual [rival|e]",
+  "uk": "Обопільне [Concept('rival','суперництво')|e]"
+ },
+ "trust_no_land_in_peace_deal": {
+  "en": "Neglected to give land in peace deal",
+  "uk": "Не віддали землю за умовами миру"
+ },
+ "trust_offered_hostage": {
+  "en": "Offered Hostage",
+  "uk": "Пропозиція заручника"
+ },
+ "trust_opinion_influenced": {
+  "en": "Influenced Opinion",
+  "uk": "Здійснено вплив на ставлення"
+ },
+ "trust_opposing_the_mongols": {
+  "en": "Opposing the Mongols",
+  "uk": "Протистоять монголам"
+ },
+ "trust_peaceful_coexistence": {
+  "en": "Peaceful Coexistence",
+  "uk": "Мирне співіснування"
+ },
+ "trust_professed_trust": {
+  "en": "Professed Trust",
+  "uk": "Висловили довіру"
+ },
+ "trust_protects_pirates": {
+  "en": "Protects Pirates",
+  "uk": "Захищає піратів"
+ },
+ "trust_receiving_guarantee": {
+  "en": "Long Term $guarantee$",
+  "uk": "Довготривала гарантія"
+ },
+ "trust_refused_favors": {
+  "en": "Refused Favors",
+  "uk": "Відмовили в прихильності"
+ },
+ "trust_royal_marriage": {
+  "en": "Royal Marriage",
+  "uk": "Династичний шлюб"
+ },
+ "trust_same_dynasty": {
+  "en": "Same Dynasty",
+  "uk": "Та ж династія"
+ },
+ "trust_same_religion": {
+  "en": "Same [religion|e]",
+  "uk": "Та ж [Concept('religion','релігія')|e]"
+ },
+ "trust_same_religious_school": {
+  "en": "Same [religious_school|e]",
+  "uk": "Та ж [Concept('religious_school','релігійна школа')|e]"
+ },
+ "trust_sco_fra_auld_alliance": {
+  "en": "Renewal of the Auld Alliance",
+  "uk": "Відродження Старого союзу"
+ },
+ "trust_sco_fra_renaissance_auld_alliance": {
+  "en": "The Auld Alliance",
+  "uk": "Старий союз"
+ },
+ "trust_slavic_allegiance": {
+  "en": "Slavic Allegiance",
+  "uk": "Вірність слов'янам"
+ },
+ "trust_supporting_rival": {
+  "en": "Supporting Rival",
+  "uk": "Підтримка суперника"
+ },
+ "trust_they_have_casus_belli": {
+  "en": "Has [casus_belli|e]",
+  "uk": "Є [Concept('casus_belli','привід для війни')|e]"
+ },
+ "trust_they_rival_us": {
+  "en": "[rival|e]",
+  "uk": "[Concept('rival','Суперник')|e]"
+ },
+ "trust_treaty_of_medina_del_campo": {
+  "en": "Treaty of Medina del Campo",
+  "uk": "Договір Медіна-дель-Кампо"
+ },
+ "trust_treaty_of_nonsuch": {
+  "en": "Treaty of Nonsuch",
+  "uk": "Нонсачський договір"
+ },
+ "trust_treaty_of_perpetual_peace": {
+  "en": "Treaty of Perpetual Peace",
+  "uk": "Договір про вічний мир"
+ },
+ "trust_treaty_of_stjames": {
+  "en": "Treaty of St. James's",
+  "uk": "Сент-Джеймський договір"
+ },
+ "trust_treaty_of_tagilde": {
+  "en": "Treaty of Tagilde",
+  "uk": "Тагільдський договір"
+ },
+ "trust_treaty_of_ugra": {
+  "en": "Treaty of Ugra",
+  "uk": "Угорський договір"
+ },
+ "trust_treaty_of_windsor": {
+  "en": "Treaty of Windsor",
+  "uk": "Віндзорський договір"
+ },
+ "trust_union_of_crowns_pact": {
+  "en": "Union of Crowns",
+  "uk": "Унія корон"
+ },
+ "trust_war": {
+  "en": "At [war|e]",
+  "uk": "У стані [Concept('war', 'війни')|e]"
+ },
+ "tur_better_relations_with_england": {
+  "en": "Close Relations",
+  "uk": "Близькі відносини"
+ },
+ "tur_disregarded_diplomatic_ties": {
+  "en": "Disregarded Diplomatic Ties",
+  "uk": "Нехтування дипломатичними зв'язками"
+ },
+ "tur_gave_hostages": {
+  "en": "Gave Hostages",
+  "uk": "Відправлення заручника"
+ },
+ "tur_rejected_giving_hostage": {
+  "en": "Rejected Giving Hostages",
+  "uk": "Відмова надати заручника"
+ },
+ "tur_rejected_protection": {
+  "en": "Rejected Protection",
+  "uk": "Відмова від покровительства"
+ },
+ "tur_rejected_vassalization": {
+  "en": "Rejected Vassalization",
+  "uk": "Відмова від васалітету"
+ },
+ "tur_respected_people": {
+  "en": "Respected People",
+  "uk": "Шановані люди"
+ },
+ "uc_bey_overlord_opinion": {
+  "en": "Our $uc_bey$",
+  "uk": "Наш $uc_bey$"
+ },
+ "uc_bey_subject_opinion": {
+  "en": "Our [overlord|e]",
+  "uk": "Наш [Concept('overlord', 'сюзерен')|e]"
+ },
+ "united_empire": {
+  "en": "United the Empire",
+  "uk": "Об'єднали імперію"
+ },
+ "vassal_overlord_opinion": {
+  "en": "Our Vassal",
+  "uk": "Наш васал"
+ },
+ "vassal_subject_opinion": {
+  "en": "Our Liege",
+  "uk": "Наш сеньйор"
+ },
+ "ven_anti_genoese_pact_against_them": {
+  "en": "Joint pact with Byzantium against them.",
+  "uk": ""
+ },
+ "violated_congress_of_visegrad_antagonism": {
+  "en": "Violated the Congress of [ShowLocationName('visegrad')]",
+  "uk": "Порушили умови #TOOLTIP:LOCATION,visegrad_tt,X #L Вишеградського#!#! з'їзду"
+ },
+ "violated_congress_of_visegrad_modifier": {
+  "en": "Violated the Congress of [ShowLocationName('visegrad')]",
+  "uk": "Порушили умови #TOOLTIP:LOCATION,visegrad_tt,X #L Вишеградського#!#! з'їзду"
+ },
+ "western_schism_opposing_side": {
+  "en": "Opponent in the Western Schism",
+  "uk": "Противник у Великому західному розколі"
+ },
+ "western_schism_rethinking_our_approach": {
+  "en": "Rethinking our Approach",
+  "uk": "Переглядають наш підхід"
+ },
+ "zaz_closer_relations_with_church": {
+  "en": "Closer Ties with the Patriarch",
+  "uk": "Тісні зв'язки з патріархом"
+ },
+ "zaz_rejected_independence_support": {
+  "en": "Rejected Rebellion Offer",
+  "uk": "Відхилили пропозицію про заколот"
+ },
+ "zealot_reputation_opinion": {
+  "en": "Religious Warrior",
+  "uk": "Релігійний воїн"
+ }
+}

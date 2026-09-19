@@ -1,0 +1,134 @@
+{
+ "become_moldavia_tt": {
+  "en": "Form #Y $MOL$#! and become a [ShowSubjectTypeName('march')] [subject|e] of [root_country.GetName]",
+  "uk": "Заснування #Y Молдавії#! і створення #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#! на становищі [Concept('subject','васала')|e] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_RP')|L]#!#!"
+ },
+ "flavor_mol.1000.a": {
+  "en": "Let [target_character.GetHerHim] found the [ShowSubjectTypeNameWithNoTooltip('march')].",
+  "uk": "Хай керує маркою."
+ },
+ "flavor_mol.1000.a.at": {
+  "en": "[target_character.GetName] will venture into [target_area.GetName] to establish the $MOL_ADJ$ [ShowSubjectTypeName('march')]",
+  "uk": "[target_character.GetName] вирушить до області [target_area.GetName], щоб заснувати там #L [GetCountry('MOL').GetAdjective|l]у#! #TOOLTIP:SUBJECT_TYPE,march,X #L марку#!#!."
+ },
+ "flavor_mol.1000.a.bt": {
+  "en": "#R This might cause a conflict with [target_country.GetName]#!",
+  "uk": "#R Це може призвести до конфлікту з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_TP')|L]#!#!#!"
+ },
+ "flavor_mol.1000.b": {
+  "en": "We cannot risk the wrath of [target_country.GetNameWithNoTooltip]",
+  "uk": "Ми не хочемо накликати на себе гнів [target_country.Custom('CL_GEN')]."
+ },
+ "flavor_mol.1000.b.entry": {
+  "en": "We cannot risk their wrath.",
+  "uk": ""
+ },
+ "flavor_mol.1000.desc": {
+  "en": "Since the establishment of the [target_country.GetLongName], [root_country.GetName] has been in constant conflict with the marauding, [target_country.GetCulture.GetName] raiders. [target_character.GetShortName] of [target_location.GetName] intends to unite [target_area.GetName] under [target_character.GetHerHis] and our banners. [target_character.GetShortNameWithNoTooltip] has sworn loyalty towards [root_character.GetName], and promises us to settle the borderlands and serve the [root_country.GetFlavorRank] as a loyal [ShowSubjectTypeName('march')].",
+  "uk": "Відколи існує [target_country.GetLongName], [root_country.GetName] постійно бореться з лютими #L [target_country.GetCulture.GetName|l]ими#! набіжниками. [target_character.GetShortName] з #L [target_location.Custom('LR_GEN')|l]#! [target_location.GetName] має намір об'єднати область [target_area.GetName] під своїми та нашими прапорами. [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'присягнулася','присягнувся')], що [root_character.GetName] завжди може розраховувати на [Select_CString(target_character.IsFemale,'її','його')] відданість. [Select_CString(target_character.IsFemale,'Вона','Він')] обіцяє нам, що наведе лад на кордонах і вірно служитиме [root_country.Custom('rank_ru_DAT')|l] на посаді голови #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#!."
+ },
+ "flavor_mol.1000.entry": {
+  "en": "Dragoș Vodă, Founder of Moldavia",
+  "uk": ""
+ },
+ "flavor_mol.1000.historical_info": {
+  "en": "Dragoș Vodă, also known as Dragoș the Founder, was the first Voivode of Moldavia and vassal to the Hungarian Crown. After the resounding victory against the Golden Horde in 1345, Dragoș and other men from Maramureş made their way to the Moldova River to settle the land. Though the 'Dismounting' on the banks of the said river is shrouded in myth and as such the founding of Moldavia itself is a debated topic.",
+  "uk": "Драгош Воде, також відомий як Драгош Засновник, був першим воєводою Молдавії та васалом угорської корони. Після славної перемоги над Золотою Ордою в 1345 році Драгош та інші мешканці Марамурешу прийшли до річки Молдава і заснували там поселення. Втім, правдивість легенди про пристановище на берегах річки ставиться під сумнів, і історія заснування Молдавії оповита таємницею."
+ },
+ "flavor_mol.1000.title": {
+  "en": "[target_character.GetShortNameWithNoTooltip] [target_character.GetNicknameWithNoTooltip]",
+  "uk": ""
+ },
+ "flavor_mol.1001.a": {
+  "en": "We cannot afford a conflict with [root_country.GetNameWithNoTooltip] over it.",
+  "uk": "Ми не можемо дозволити собі ворогувати з [root_country.Custom('CL_INST')] з такого приводу."
+ },
+ "flavor_mol.1001.a.entry": {
+  "en": "We cannot afford a conflict with them over it.",
+  "uk": ""
+ },
+ "flavor_mol.1001.b": {
+  "en": "This is a declaration of war!",
+  "uk": "Оголошуємо війну!"
+ },
+ "flavor_mol.1001.desc": {
+  "en": "[target_character.GetName] of [root_country.GetName] and a token force of [root_country.GetAdjectiveWithNoTooltip] soldiers have marched into [target_area.GetName]. With no respect for our authority, these men have settled in [target_location.GetName] and established the state [release_country.GetName] directly under our very nose!",
+  "uk": "[target_character.GetName] з #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_character.IsFemale,'увійшла','увійшов')] до області [target_area.GetName] з парадним військом [root_country.GetAdjectiveWithNoTooltip|l]их вояків. Зовсім не зважаючи на нашу владу, ці люди оселилися в [target_location.Custom('LR_PREP')|l] [target_location.GetName] і створили державу [release_country.GetName] просто в нас під носом!"
+ },
+ "flavor_mol.1001.historical_info": {
+  "en": "After the crucial defeat against Hungary in 1345, Dragoș Vodă, also known as Dragoș the Founder, and his followers moved to Moldavia to establish a march for the Hungarian king. Though the 'Dismounting' on the banks of the said river is shrouded in myth and as such the founding of Moldavia itself is a debated topic, it is often noted as the origin story of the Voivodship of Moldavia.",
+  "uk": "Зазнавши нищівної поразки від угорських військ у 1345 році, Драгош Воде, також відомий як Драгош Засновник, відступив до Молдавії і заснував марку для угорського короля. Історія заснування Молдавії оповита таємницею, і правдивість легенди про пристановище на берегах річки ставиться під сумнів, однак цю подію часто вважають початком молдавського воєводства."
+ },
+ "flavor_mol.1001.title": {
+  "en": "The [ShowSubjectTypeNameWithNoTooltip('march')] of [GetCountry('MOL').GetNameWithNoTooltip]",
+  "uk": "[GetCountry('MOL').GetAdjectiveWithNoTooltip]а #TOOLTIP:SUBJECT_TYPE,march,X #L марка#!#!"
+ },
+ "flavor_mol.1002.a": {
+  "en": "To arms!",
+  "uk": "До зброї!"
+ },
+ "flavor_mol.1002.desc": {
+  "en": "With the establishment of [release_country.GetName], our influence is bordering the [ShowRegionName('steppes_region')]. However, the [target_country.GetGovernment.GetRulerTitle] of the [target_country.GetLongName], [target_character.GetName], sees this expansion as a threat to their barbaric government. [target_country.GetCulture.GetName] raiders have already breached into our territory, starting a war between [target_country.GetNameWithNoTooltip] and [root_country.GetNameWithNoTooltip].",
+  "uk": "Після заснування #ONCLICK:COUNTRY,[release_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[release_country.Custom('CL_tt')],X [release_country.Custom('CL_GEN')|L]#!#! наша влада простягається аж до #TOOLTIP:REGION,steppes_region,X #L степів#!#!. Однак [target_country.GetLongName] і, зокрема, [target_country.GetGovernment.GetRulerTitle|l] [target_character.GetName], бачить у розширенні нашої території загрозу своєму варварському урядові. #L [target_country.GetCulture.GetName]і#! набіжники вже проникли на наші землі. Так [target_country.GetNameWithNoTooltip] і [root_country.GetNameWithNoTooltip] вступили у війну."
+ },
+ "flavor_mol.1002.title": {
+  "en": "The [target_country.GetAdjective] Raid",
+  "uk": "#L [target_country.GetAdjective|l]ий#! напад"
+ },
+ "flavor_mol.1003.a": {
+  "en": "Seek the protection of [root_country.GetNameWithNoTooltip]",
+  "uk": "Попросимо захисту в [root_country.Custom('CL_GEN')]"
+ },
+ "flavor_mol.1003.a.entry": {
+  "en": "Seek the protection of $MOL$.",
+  "uk": ""
+ },
+ "flavor_mol.1003.a.tt": {
+  "en": "All other countries in [target_area.GetName] get the option to join us",
+  "uk": "Усі інші країни в області [target_area.GetName] можуть приєднатися до нас"
+ },
+ "flavor_mol.1003.b": {
+  "en": "We will not switch one master for another.",
+  "uk": "Яка користь міняти одного пана на іншого."
+ },
+ "flavor_mol.1003.desc": {
+  "en": "[target_character.GetName] has marched into our lands in the hope to settle [target_area.GetName] and establish a secure border against [target_country.GetName]. Many [ShowCultureName('moldovan')] people are tired of the yoke under the [target_country.GetCulture.GetName] reign, and align themselves with [target_character.GetShortNameWithNoTooltip].",
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale,'вторглася','вторгся')] до наших земель, сподіваючись оселитися в області [target_area.GetName] і зміцнити кордон з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L]#!#!. Багато хто з #TOOLTIP:CULTURE,moldovan_tt,X #L молдаван#!#! втомився від гніту #L [target_country.GetCulture.GetName|l]ого#! правління і вважає, що [target_character.GetShortNameWithNoTooltip] заслуговує на підтримку."
+ },
+ "flavor_mol.1003.title": {
+  "en": "$flavor_mol.1000.title$",
+  "uk": ""
+ },
+ "flavor_mol.1004.a": {
+  "en": "The lands of [target_area.GetNameWithNoTooltip] shall stand united!",
+  "uk": "Наші землі мають бути єдині!"
+ },
+ "flavor_mol.1004.a.entry": {
+  "en": "The lands of the area shall stand united!",
+  "uk": ""
+ },
+ "flavor_mol.1004.b": {
+  "en": "We cannot turn our back to the [target_country.GetLongNameWithNoTooltip].",
+  "uk": "Ми не можемо відвернутися від [target_country.Custom('CL_GEN')]."
+ },
+ "flavor_mol.1004.b.entry": {
+  "en": "We cannot turn our back to them.",
+  "uk": ""
+ },
+ "flavor_mol.1004.desc": {
+  "en": "$flavor_mol.1003.desc$\\n\\n[target_character.GetHerHis|U] men have now come to us in hopes to persuade us to join [release_country.GetName] as well.",
+  "uk": "$flavor_mol.1003.desc$\\n\\nТепер [Select_CString(target_character.IsFemale,'її','його')] люди з'явилися сюди, сподіваючись переконати нас теж приєднатися до #ONCLICK:COUNTRY,[release_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[release_country.Custom('CL_tt')],X [release_country.Custom('CL_DP')|L]#!#!."
+ },
+ "flavor_mol.1004.title": {
+  "en": "The Foundation of [release_country.GetNameWithNoTooltip]",
+  "uk": "Заснування [release_country.Custom('CL_GEN')]"
+ },
+ "flavor_mol.1004.title_default": {
+  "en": "The Foundation of $MOL$",
+  "uk": "Заснування Молдавії"
+ },
+ "opinion_hun_moldavian_push": {
+  "en": "Moldavian Push",
+  "uk": "Молдавський натиск"
+ }
+}

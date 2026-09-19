@@ -1,0 +1,62 @@
+{
+ "diplomatic_annex.1.a": {
+  "en": "Oderint dum metuant!",
+  "uk": ""
+ },
+ "diplomatic_annex.1.desc": {
+  "en": "Our integration of [target.GetLongName] has taken a fair bit of time, but now that [target.GetCapital.GetName] is a [ROOT.GetCountry.GetAdjective] [target.GetCapital.GetRank.GetNameWithNoTooltip] it will reach its full potential and make our nation prosper even more.\\n\\nThere are other countries that has not appreciated this expansion of our territory though.",
+  "uk": "[target.GetLongName] — це держава, яка все ще намагається чинити опір інтеграції, але [target.GetCapital.GetName] — вже цілком #L [ROOT.GetCountry.GetAdjective|l]ий#! [target.GetCapital.GetRank.GetNameWithNoTooltip|l]. Невдовзі поглинання [target.Custom('CL_RP')] завершиться, і тоді наша держава зможе сповна насолодитися плодами перемоги.\\n\\nНа жаль, інші держави поставилися до цього акту експансії доволі насторожено."
+ },
+ "diplomatic_annex.1.title": {
+  "en": "Annexing [target.GetNameWithNoTooltip]",
+  "uk": "Приєднання [target.Custom('CL_GEN')]"
+ },
+ "every_annex_target_neighbor_hates_us_tt": {
+  "en": "Every neigbhor [country|e] of [target.GetName] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('opinion_annexed_neighbor')|+=0]",
+  "uk": "[ROOT.GetCountry.GetLongName] — [Concept('opinion', 'думка')|e] всіх [Concept('country', 'сусідів')|e] #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_GEN')|L]#!#! про цю державу змінюється на [ShowBiasValue('opinion_annexed_neighbor')|+=0]"
+ },
+ "every_subject_hates_us_tt": {
+  "en": "Our [subjects|e] change their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('opinion_annexed_other_subject')|+=0]",
+  "uk": "[ROOT.GetCountry.GetLongName] — [Concept('opinion', 'думка')|e] наших [Concept('subjects', 'васалів')|e] про цю державу змінюється на [ShowBiasValue('opinion_annexed_other_subject')|+=0]"
+ },
+ "historical_rival_events.1.a": {
+  "en": "Eye for an eye, tooth for a tooth!",
+  "uk": "Око за око, зуб за зуб!"
+ },
+ "historical_rival_events.1.b": {
+  "en": "An unfortunate development...",
+  "uk": "Сумні новини…"
+ },
+ "historical_rival_events.1.desc": {
+  "en": "Years of conflict, rivalry, and hostile competition have led to the inevitable development of permanent grudge of the [rivalling_country.GetLongName] against [target_country.GetName]. Only time will tell if the [rivalling_country.GetAdjectiveWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] relations will ever heal, or worsen on the battlefield...",
+  "uk": "Багаторічна ворожнеча та постійні конфлікти призвели до закономірного результату: [rivalling_country.GetLongName] і [target_country.GetName] стали непримиренними суперниками. Час покаже, чи дочекаємося ми покращення [rivalling_country.GetAdjectiveWithNoTooltip|l]о-[target_country.GetAdjectiveWithNoTooltip|l]их відносин, чи все закінчиться кровопролитною війною…"
+ },
+ "historical_rival_events.1.title": {
+  "en": "[rivalling_country.GetAdjectiveWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] Rivalry",
+  "uk": "[rivalling_country.GetAdjectiveWithNoTooltip]о-[target_country.GetAdjectiveWithNoTooltip|l]е суперництво"
+ },
+ "historical_rival_events.2.a": {
+  "en": "It is time to move on.",
+  "uk": "Час рухатися далі."
+ },
+ "historical_rival_events.2.b": {
+  "en": "Never forget. Never forgive.",
+  "uk": "Ми нічого не забудемо і нічого не пробачимо."
+ },
+ "historical_rival_events.2.desc": {
+  "en": "Many years ago, the [rivalling_country.GetAdjective] and the [target_country.GetAdjective] rulers could only communicate in insults and threats to each other while their respective nations clashed on battlefields, markets, embassies, and whatnot. Nowadays though, these conflicts have lost their significance, and [rivalling_country.GetNameWithNoTooltip] has dropped the grudges of old against us.",
+  "uk": "Протягом багатьох років правителі #ONCLICK:COUNTRY,[rivalling_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[rivalling_country.Custom('CL_tt')],X [rivalling_country.Custom('CL_GEN')|L]#!#! та #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! спілкувалися одне з одним лише мовою погроз та образ. Безперервна боротьба між двома державами велася на міжнародних ринках, у кабінетах послів, а часом і на полях битв. Нині це протистояння давно втратило сенс, [rivalling_country.GetAdjectiveWithNoTooltip|l]а влада нарешті забула колишні образи та простягнула нам руку дружби."
+ },
+ "historical_rival_events.2.title": {
+  "en": "End of the [rivalling_country.GetAdjectiveWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] Rivalry",
+  "uk": "Завершення [rivalling_country.GetAdjectiveWithNoTooltip|l]о-[target_country.GetAdjectiveWithNoTooltip|l]ого суперництва"
+ },
+ "opinion_annexed_neighbor": {
+  "en": "Annexed neighbor",
+  "uk": "Приєднання сусідньої держави"
+ },
+ "opinion_annexed_other_subject": {
+  "en": "Annexed another [subject|e]",
+  "uk": "Приєднання [Concept('subject', 'васала')|e]"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "haudenosaunee.1.a": {
+  "en": "Our hearts will forever weep over their losses.",
+  "uk": "Ми вічно сумуватимемо за вбитими."
+ },
+ "haudenosaunee.1.desc": {
+  "en": "They came at night. Their faces were scarcely lit by the moon, their weapons shining brightly near the torches. They came in silence. Their footsteps were soft and swift like a summer breeze, almost impossible to hear. Then, the silence was over, and so was the night.\\n\\nThey raided our village, burning tents, stealing food, and taking captives. Many of our warriors woke up immediately and tried to stop them, but they were not prepared for the attack, so many were killed in the fight. They killed us. Fathers, brothers, sons. They killed us all.\\nMay they not rest as long as we live.",
+  "uk": "Вони прийшли вночі. Місяць ледве освітлював їхні обличчя, а списи цих людей сяяли у світлі смолоскипів. Вони налетіли швидко й безшумно, як літній вітерець. А потім тиша раптово скінчилася.\\n\\nВони напали на наше село, спалили намети, забрали їжу й узяли полонених. Багато наших воїнів одразу прокинулися й спробували дати відсіч, але виявилися не готовими до нападу й загинули. Ці люди вбивали нас — наших батьків, братів, синів. Убили всіх, кого змогли.\\nАле ті, хто залишилися, ніколи їм цього не пробачать."
+ },
+ "haudenosaunee.1.title": {
+  "en": "An Unforgivable Affront",
+  "uk": "Непрощенна образа"
+ },
+ "haudenosaunee.2.a": {
+  "en": "We should take some captives.",
+  "uk": "Полонені нам знадобляться."
+ },
+ "haudenosaunee.2.b": {
+  "en": "Just let them know we could have taken them.",
+  "uk": "Ми не братимемо полонених. Сподіваюся, вони запам'ятають цей жест."
+ },
+ "haudenosaunee.2.desc": {
+  "en": "It has been a tradition among our people to raid neighboring villages in search of captives to replace those who have left us. The clan mothers have demanded a \"mourning war\" to provide consolation for the recent death of their children, and it is our duty to accept such a sensible petition.\\n\\nThis night. A blue night. The night after this part of the night. Our warriors have successfully attacked [target_location.GetName] and, amid the chaos, have managed to ambush a fair amount of locals.",
+  "uk": "У нашого народу є традиція влаштовувати набіги на сусідні села в пошуках полонених, щоб замінити тих, хто нас покинув. Матері вимагали розпочати «жалобну війну», щоб вшанувати пам'ять їхніх дітей, і виконати цю вимогу — наш обов'язок.\\n\\nЦієї темної ночі наші воїни успішно напали на [target_location.GetRank.GetNameAltWithNoTooltip('LR_VP')|l] [target_location.GetName] і змогли застати його мешканців зненацька."
+ },
+ "haudenosaunee.2.title": {
+  "en": "The Mourning Wars",
+  "uk": "Жалобні війни"
+ },
+ "haudenosaunee.3.a": {
+  "en": "Reject him.",
+  "uk": "Відмовимося від дитини."
+ },
+ "haudenosaunee.3.b": {
+  "en": "Adopt him.",
+  "uk": "Усиновимо дитину."
+ },
+ "haudenosaunee.3.desc": {
+  "en": "Our warriors have returned with some captives from their previous raid in [target_location.GetName]. Victoriously, they have come upon [target_character.GetName]'s presence and laid a child's body before [target_character.GetHerHim]. \"In return for your loss,\" could be heard, and tears appeared again.",
+  "uk": "Наші воїни повернулися після успішного набігу на [target_location.Custom('LR_ACC')|l] [target_location.GetName]. [target_character.GetName] зустрічає їх, і вони кладуть перед [Select_CString(target_character.IsFemale,'нею', 'ним')] немовля. «Це відплата за вашу втрату», — сказав один із воїнів, не приховуючи сліз."
+ },
+ "haudenosaunee.3.title": {
+  "en": "A New Captive",
+  "uk": "Новий полонений"
+ },
+ "haudenosaunee.4.a": {
+  "en": "[target_child_character.GetSheHe|U] is one of us and can no longer call [target_child_character.GetHerselfHimself] [target_child_character.GetCulture.GetNameWithNoTooltip].",
+  "uk": "Минуле не має значення. Тепер [Select_CString(target_child_character.IsFemale,'вона одна', 'він один')] з нас."
+ },
+ "haudenosaunee.4.b": {
+  "en": "[target_child_character.GetSheHe|U] will be one of us or [target_child_character.GetSheHe] will die.",
+  "uk": "Або [Select_CString(target_child_character.IsFemale,'вона', 'він')] звикне до своєї нової сім'ї, або помре."
+ },
+ "haudenosaunee.4.desc": {
+  "en": "It seems like yesterday that [target_child_character.GetName] was brought to [target_child_character.GetHerHis] father from a foreign land. [target_child_character.GetSheHe|U] was just but a baby then, but since then [target_child_character.GetSheHe] has been growing up as one more of our [ROOT.GetCountry.GetFlavorRank]. [target_child_character.GetSheHe|U] barely remembers [target_child_character.GetHerHis] [target_child_character.GetCulture.GetName] origins, but vague memories remain and make [target_child_character.GetHerHim] want to ask questions.",
+  "uk": "Здається, лише вчора [target_child_character.GetName] [Select_CString(target_child_character.IsFemale,'потрапила', 'потрапив')] до нас у плем'я з чужого села. Тоді [Select_CString(target_child_character.IsFemale,'вона була', 'він був')] ще немовлям, але тепер [Select_CString(target_child_character.IsFemale,'виросла', 'виріс')] і [Select_CString(target_child_character.IsFemale,'стала однією', 'став одним')] з нас. [target_child_character.GetName] майже нічого не знає про своє походження, але в [Select_CString(target_child_character.IsFemale,'її', 'його')] голові залишилися неясні спогади, тому [Select_CString(target_child_character.IsFemale,'вона', 'він')] починає ставити запитання…"
+ },
+ "haudenosaunee.4.title": {
+  "en": "[target_child_character.GetNameWithNoTooltip]'s Upbringing",
+  "uk": "[target_child_character.GetNameWithNoTooltip] і [Select_CString(target_child_character.IsFemale,'її', 'його')] виховання"
+ },
+ "opinion_haudenosaunee_affront": {
+  "en": "An Unforgivable Affront",
+  "uk": "Непрощенна образа"
+ }
+}

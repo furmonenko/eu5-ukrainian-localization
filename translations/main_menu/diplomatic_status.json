@@ -1,0 +1,914 @@
+{
+ "ANNEX_PROGRESSING": {
+  "en": "At the current pace the annexation will be done by $DATE|Y$.",
+  "uk": "При поточному темпі анексія завершиться $DATE|Y$."
+ },
+ "ANNEX_STALLED": {
+  "en": "Currently the annexation is stalled.",
+  "uk": "Наразі анексія зупинена."
+ },
+ "BEING_ANNEXED_DISLOYAL": {
+  "en": "\\nHowever, while $SUBJECT$ remain a [disloyal_subject|e] they will not progress.",
+  "uk": "\\nОднак, поки $SUBJECT$ залишається [Concept('disloyal_subject','нелояльним підданим')|e], прогресу не буде."
+ },
+ "BEING_ANNEXED_LOYAL": {
+  "en": "\\nAs $SUBJECT$ are not a [disloyal_subject|e], they will progress every month.",
+  "uk": "\\nОскільки $SUBJECT$ не є [Concept('disloyal_subject','нелояльним підданим')|e], прогрес відбуватиметься щомісяця."
+ },
+ "alliance_list_who_tt": {
+  "en": "$WHO$ is in an [alliance|e] with $LIST$. They will be called into each other's [wars|e] to fight enemies together.",
+  "uk": "$WHO$ перебуває в [Concept('alliance','альянсі')|e] з $LIST$. Їх покличуть одне до одного на [Concept('wars','війни')|e], щоб разом боротися проти ворогів."
+ },
+ "annex_list_who_tt": {
+  "en": "$WHO$ is annexing $LIST$ into their own country. When this is done, $LIST$ will cease to exist as a [country|e], but a fully annexed part of $WHO$.",
+  "uk": "$WHO$ анексує $LIST$ у свою власну країну. Коли це станеться, $LIST$ перестане існувати як [Concept('country','країна')|e], а стане повністю анексованою частиною $WHO$."
+ },
+ "annex_target_list_who_tt": {
+  "en": "$WHO$ is annexing $LIST$ into their own country. When this is done, $LIST$ will cease to exist as a [country|e], but a fully annexed part of $WHO$.",
+  "uk": "$WHO$ анексує $LIST$ у свою власну країну. Коли це станеться, $LIST$ перестане існувати як [Concept('country','країна')|e], а стане повністю анексованою частиною $WHO$."
+ },
+ "annul_treaties_list_who_tt": {
+  "en": "$WHO$ has been forced to annul treaties with $LIST$ until $EXTRA|Y$.",
+  "uk": "$WHO$ була змушена анулювати договори з $LIST$ до $EXTRA|Y$."
+ },
+ "autocephalous_patriarchate_list_who_tt": {
+  "en": "$WHO$ is in an [autocephalous_patriarchate|e] with $LIST$",
+  "uk": "$WHO$ перебуває в [Concept('autocephalous_patriarchate','автокефальному патріархаті')|e] з $LIST$"
+ },
+ "building_spy_network_list_who_tt": {
+  "en": "Building [spy_network|E] in $WHO$. Currently, at $CURR|2Y$, and increases by $VAL|+=2$ each month, due to:\\n$WHY$",
+  "uk": "Будівництво [spy_network|E] у $WHO$. Зараз на рівні $CURR|2Y$, і збільшується на $VAL|+=2$ щомісяця через:\\n$WHY$"
+ },
+ "casus_belli_creation_list_who_tt": {
+  "en": "Creating a [CASUS_BELLI.GetName] [casus_belli|E] on $WHO$, which is expected to be ready at $WHEN|Y$. Progress at $CURR|2Y$ of $COST|0Y$, with a monthly change of $CHANGE|+=2$ due to:\\n$WHY$",
+  "uk": "Створення [CASUS_BELLI.GetName] [casus_belli|E] на $WHO$, що має бути готовий $WHEN|Y$. Прогрес $CURR|2Y$ з $COST|0Y$, щомісячна зміна $CHANGE|+=2$ через:\\n$WHY$"
+ },
+ "casus_belli_list_who_tt": {
+  "en": "$WHO$ has a [casus_belli|e] on $LIST$. This will allow $WHO$ to Declare a [war|e] without suffering a [stability|e] hit.\\n\\nThey have the following Casus Belli:\\n$EXTRA$",
+  "uk": "$WHO$ має [Concept('casus_belli','привід для війни')|e] на $LIST$. Це дозволить $WHO$ оголосити [Concept('war','війну')|e] без штрафу до [Concept('stability','стабільності')|e].\\n\\nВони мають наступні приводи для війни:\\n$EXTRA$"
+ },
+ "casus_belli_target_list_who_tt": {
+  "en": "$LIST$ has a [casus_belli|e] on $WHO$. This will allow $LIST$ to Declare a [war|e] without suffering a [stability|e] hit.\\n\\nThey have the following Casus Belli:\\n$EXTRA$",
+  "uk": "$LIST$ має [Concept('casus_belli','привід для війни')|e] на $WHO$. Це дозволить $LIST$ оголосити [Concept('war','війну')|e] без штрафу до [Concept('stability','стабільності')|e].\\n\\nВони мають наступні приводи для війни:\\n$EXTRA$"
+ },
+ "catholic_church_list_who_tt": {
+  "en": "$WHO$ is a member of the Catholic Church with $LIST$",
+  "uk": "$WHO$ є членом Католицької церкви з $LIST$"
+ },
+ "catholic_league_list_who_tt": {
+  "en": "$WHO$ is a member of the Catholic League with $LIST$",
+  "uk": "$WHO$ є членом Католицької ліги з $LIST$"
+ },
+ "civil_war_list_who_tt": {
+  "en": "Is in a [civil_war|e] against $WHO$. They will fight until one has fully conquered the other!",
+  "uk": "Перебуває у стані [Concept('civil_war','громадянської війни')|e] проти $WHO$. Вони воюватимуть, доки один повністю не завоює іншого!"
+ },
+ "coalition_list_who_tt": {
+  "en": "$WHO$ is in a Coalition with $LIST$. They will protect each other against the coalition target",
+  "uk": "$WHO$ перебуває в коаліції з $LIST$. Вони захищатимуть одне одного від цілі коаліції"
+ },
+ "colonial_federation_list_who_tt": {
+  "en": "$WHO$ is in a $colonial_federation$ with $LIST$",
+  "uk": "$WHO$ перебуває в $colonial_federation$ з $LIST$"
+ },
+ "crusade_list_who_tt": {
+  "en": "$WHO$ is in a $crusade$ with $LIST$",
+  "uk": "$WHO$ бере участь у $crusade$ з $LIST$"
+ },
+ "curry_favors_list_who_tt": {
+  "en": "Currying [favors|E] with $WHO$. Currently, at $CURR|2Y$, and increases by $VAL|+=2$ each month, due to:\\n$WHY$",
+  "uk": "Вимолювання [favors|E] у $WHO$. Зараз на рівні $CURR|2Y$, і збільшується на $VAL|+=2$ щомісяця через:\\n$WHY$"
+ },
+ "defensive_league_list_who_tt": {
+  "en": "$WHO$ is in a Defensive League with $LIST$. They will protect each other against anyone outside the league",
+  "uk": "$WHO$ перебуває в оборонній лізі з $LIST$. Вони захищатимуть одне одного від усіх поза лігою"
+ },
+ "diplomatic_status_alliance_name": {
+  "en": "Alliance",
+  "uk": "Альянс"
+ },
+ "diplomatic_status_alliance_tooltip": {
+  "en": "#T Alliance\\n#!Countries in an [alliance|e] will often come to each other's aid when attacked.",
+  "uk": "#T Альянс\\n#!Країни в [Concept('alliance','альянсі')|e] часто приходять на допомогу одна одній під час нападу."
+ },
+ "diplomatic_status_annex_name": {
+  "en": "Annexing Subjects",
+  "uk": "Анексія підданих"
+ },
+ "diplomatic_status_annex_target_name": {
+  "en": "Being Annexed",
+  "uk": "Анексується"
+ },
+ "diplomatic_status_annex_target_tooltip": {
+  "en": "#T Being Annexed#!\\nThis country is currently being annexed by the following [country|e].",
+  "uk": "#T Анексується#!\\nЦю країну зараз анексує наступна [Concept('country','країна')|e]."
+ },
+ "diplomatic_status_annex_tooltip": {
+  "en": "#T Annexing Subjects#!\\nThis country is currently annexing the following [subjects|e].",
+  "uk": "#T Анексія підданих#!\\nЦя країна зараз анексує наступних [Concept('subjects','васалів')|e]."
+ },
+ "diplomatic_status_annul_treaties_name": {
+  "en": "Annul Treaties",
+  "uk": "Анулювання договорів"
+ },
+ "diplomatic_status_annul_treaties_tooltip": {
+  "en": "#T Annul Treaties#!\\nThis country has been forced to annul all treaties with these [countries|e] and can neither diplomatically subjugate nor form any relationships with them.",
+  "uk": "#T Анулювання договорів#!\\nЦя країна була змушена анулювати всі договори з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_autocephalous_patriarchate_name": {
+  "en": "Autocephalous Patriarchate",
+  "uk": "Автокефальний патріархат"
+ },
+ "diplomatic_status_autocephalous_patriarchate_tooltip": {
+  "en": "#T Autocephalous Patriarchate#!\\nThis country is a member of an Autocephalous Patriarchate.",
+  "uk": "#T Автокефальний патріархат#!\\nЦя країна є членом автокефального патріархату."
+ },
+ "diplomatic_status_building_spy_network_name": {
+  "en": "Active Spy Networks",
+  "uk": "Активні шпигунські мережі"
+ },
+ "diplomatic_status_building_spy_network_tooltip": {
+  "en": "#T Active Spy Networks#!\\nThis country has currently active [spy_networks|e] in these [countries|e].",
+  "uk": "#T Активні шпигунські мережі#!\\nЦя країна має зараз активні [Concept('spy_networks','шпигунські мережі')|e] у цих [Concept('countries','країнах')|e]."
+ },
+ "diplomatic_status_casus_belli_creation_name": {
+  "en": "Creating Casus Belli",
+  "uk": "Створення приводу для війни"
+ },
+ "diplomatic_status_casus_belli_creation_tooltip": {
+  "en": "#T Creating Casus Belli#!\\nThis country is busy creating a [casus_belli|e] on these [countries|e].",
+  "uk": "#T Створення приводу для війни#!\\nЦя країна займається створенням [Concept('casus_belli','приводу для війни')|e] на ці [Concept('countries','країни')|e]."
+ },
+ "diplomatic_status_casus_belli_name": {
+  "en": "Casus Belli",
+  "uk": "Привід для війни"
+ },
+ "diplomatic_status_casus_belli_target_name": {
+  "en": "Casus Belli Target",
+  "uk": "Ціль приводу для війни"
+ },
+ "diplomatic_status_casus_belli_target_tooltip": {
+  "en": "#T Casus Belli Target#!\\nThe following [countries|e] have [casus_belli|e] on this country, and can declare [war|e] on them without penalty.",
+  "uk": "#T Ціль приводу для війни#!\\nНаступні [Concept('countries','країни')|e] мають [Concept('casus_belli','привід для війни')|e] на цю країну і можуть оголосити [Concept('war','війну')|e] їй без штрафу."
+ },
+ "diplomatic_status_casus_belli_tooltip": {
+  "en": "#T Casus Belli#!\\nThis country has a [casus_belli|e] on these [countries|e]. They can declare [war|e] on them without incurring a [stability|e] penalty.",
+  "uk": "#T Привід для війни#!\\nЦя країна має [Concept('casus_belli','привід для війни')|e] на ці [Concept('countries','країни')|e]. Вона може оголосити [Concept('war','війну')|e] їм без штрафу до [Concept('stability','стабільності')|e]."
+ },
+ "diplomatic_status_catholic_church_name": {
+  "en": "Catholic Church",
+  "uk": "Католицька церква"
+ },
+ "diplomatic_status_catholic_church_tooltip": {
+  "en": "#T Catholic Church#!\\nThis country is a member of the Catholic Church.",
+  "uk": "#T Католицька церква#!\\nЦя країна є членом Католицької церкви."
+ },
+ "diplomatic_status_catholic_league_name": {
+  "en": "Catholic League",
+  "uk": "Католицька ліга"
+ },
+ "diplomatic_status_catholic_league_tooltip": {
+  "en": "#T Catholic League#!\\nThis country is a member of the Catholic League",
+  "uk": "#T Католицька ліга#!\\nЦя країна є членом Католицької ліги"
+ },
+ "diplomatic_status_civil_war_name": {
+  "en": "Civil War",
+  "uk": "Громадянська війна"
+ },
+ "diplomatic_status_civil_war_tooltip": {
+  "en": "#T Civil War#!\\nThis country is in a state of [civil_war|e]!",
+  "uk": "#T Громадянська війна#!\\nЦя країна перебуває у стані [Concept('civil_war','громадянської війни')|e]!"
+ },
+ "diplomatic_status_coalition_name": {
+  "en": "Coalition",
+  "uk": "Коаліція"
+ },
+ "diplomatic_status_coalition_tooltip": {
+  "en": "#T Coalition#!\\nThis country is in a coalition. If they are attacked by the coalition target, all other [members|e] of the coalition will be called to arms. The coalition may decide to declare war on the target, at which time all other coalition members will be called too.",
+  "uk": "#T Коаліція#!\\nЦя країна перебуває в коаліції. Якщо на них нападе ціль коаліції, усіх інших [Concept('members','членів')|e] коаліції покличуть до зброї. Коаліція може вирішити оголосити війну цілі, і тоді покличуть усіх інших членів коаліції."
+ },
+ "diplomatic_status_colonial_federation_name": {
+  "en": "$colonial_federation$",
+  "uk": ""
+ },
+ "diplomatic_status_colonial_federation_tooltip": {
+  "en": "#T $colonial_federation$#!\\nThis country is a member of a $colonial_federation$.",
+  "uk": "#T $colonial_federation$#!\\nЦя країна є членом $colonial_federation$."
+ },
+ "diplomatic_status_crusade_name": {
+  "en": "$crusade$",
+  "uk": ""
+ },
+ "diplomatic_status_crusade_tooltip": {
+  "en": "#T $crusade$#!\\nThis country is fighting a Crusade.",
+  "uk": "#T $crusade$#!\\nЦя країна бере участь у хрестовому поході."
+ },
+ "diplomatic_status_curry_favors_name": {
+  "en": "Currying Favors",
+  "uk": "Вимолювання послуг"
+ },
+ "diplomatic_status_curry_favors_tooltip": {
+  "en": "#T Currying Favors#!\\nThis country currently curry [favors|e] with these [countries|e].",
+  "uk": "#T Вимолювання послуг#!\\nЦя країна зараз вимолює [Concept('favors','послуги')|e] у цих [Concept('countries','країн')|e]."
+ },
+ "diplomatic_status_defensive_league_name": {
+  "en": "Defensive League",
+  "uk": "Оборонна ліга"
+ },
+ "diplomatic_status_defensive_league_tooltip": {
+  "en": "#T Defensive League#!\\nThis country is in a defensive league. If they are attacked, all other [members|e] of the defensive league will be called to arms.",
+  "uk": "#T Оборонна ліга#!\\nЦя країна перебуває в оборонній лізі. Якщо на них нападуть, усіх інших [Concept('members','членів')|e] оборонної ліги покличуть до зброї."
+ },
+ "diplomatic_status_enemies_name": {
+  "en": "Enemies",
+  "uk": "Вороги"
+ },
+ "diplomatic_status_enemies_tooltip": {
+  "en": "#T Enemies#!\\nThis country is being viewed as a [rival|e] by these [countries|e].",
+  "uk": "#T Вороги#!\\nЦю країну розглядають як [Concept('rival','суперника')|e] ці [Concept('countries','країни')|e]."
+ },
+ "diplomatic_status_foreign_league_balkan_name": {
+  "en": "$foreign_league_balkan$",
+  "uk": ""
+ },
+ "diplomatic_status_foreign_league_balkan_tooltip": {
+  "en": "#T $foreign_league_balkan$#!\\nThis country is member of a foreign League.",
+  "uk": ""
+ },
+ "diplomatic_status_foreign_league_france_name": {
+  "en": "$foreign_league_france$",
+  "uk": ""
+ },
+ "diplomatic_status_foreign_league_france_tooltip": {
+  "en": "#T $foreign_league_france$#!\\nThis country is member of a foreign League.",
+  "uk": "#T $foreign_league_france$#!\\nЦя країна є членом іноземної ліги."
+ },
+ "diplomatic_status_foreign_league_hre_name": {
+  "en": "$foreign_league_hre$",
+  "uk": ""
+ },
+ "diplomatic_status_foreign_league_hre_tooltip": {
+  "en": "#T $foreign_league_hre$#!\\nThis country is member of a foreign League.",
+  "uk": "#T $foreign_league_hre$#!\\nЦя країна є членом іноземної ліги."
+ },
+ "diplomatic_status_foreign_league_iberia_name": {
+  "en": "$foreign_league_iberia$",
+  "uk": ""
+ },
+ "diplomatic_status_foreign_league_iberia_tooltip": {
+  "en": "#T $foreign_league_iberia$#!\\nThis country is member of a foreign League.",
+  "uk": "#T $foreign_league_iberia$#!\\nЦя країна є членом іноземної ліги."
+ },
+ "diplomatic_status_getting_economic_support_name": {
+  "en": "Getting Economic Support",
+  "uk": "Отримання економічної підтримки"
+ },
+ "diplomatic_status_getting_economic_support_tooltip": {
+  "en": "#T Economic Support#!\\nThis country is currently getting [economic_support|e] from these [countries|e].",
+  "uk": "#T Економічна підтримка#!\\nЦя країна зараз отримує [Concept('economic_support','економічну підтримку')|e] від цих [Concept('countries','країн')|e]."
+ },
+ "diplomatic_status_getting_war_reparations_name": {
+  "en": "Getting War Reparations",
+  "uk": "Отримання військових репарацій"
+ },
+ "diplomatic_status_getting_war_reparations_tooltip": {
+  "en": "#T War Reparations#!\\nThis country is currently getting [war_reparations|e] from these [countries|e].",
+  "uk": "#T Військові репарації#!\\nЦя країна зараз отримує [Concept('war_reparations','військові репарації')|e] від цих [Concept('countries','країн')|e]."
+ },
+ "diplomatic_status_ghibellines_io_name": {
+  "en": "$ghibellines_io$",
+  "uk": ""
+ },
+ "diplomatic_status_ghibellines_io_tooltip": {
+  "en": "#T $ghibellines_io$#!\\nThis country is a member of the $ghibellines_io$.",
+  "uk": "#T $ghibellines_io$#!\\nЦя країна є членом $ghibellines_io$."
+ },
+ "diplomatic_status_gives_fleet_basing_rights_name": {
+  "en": "Granting Fleet Basing Rights",
+  "uk": "Надання права базування флоту"
+ },
+ "diplomatic_status_gives_fleet_basing_rights_tooltip": {
+  "en": "#T Granting Fleet Basing Rights#!\\nThis country is granting [fleet_basing_rights|E] to these [countries|e].",
+  "uk": "#T Надання права базування флоту#!\\nЦя країна надає [fleet_basing_rights|E] цим [Concept('countries','країнам')|e]."
+ },
+ "diplomatic_status_gives_military_access_name": {
+  "en": "Granting Military Access",
+  "uk": "Надання військового доступу"
+ },
+ "diplomatic_status_gives_military_access_tooltip": {
+  "en": "#T Granting Military Access#!\\nThis country is granting [military_access|e] to these [countries|e].",
+  "uk": "#T Надання військового доступу#!\\nЦя країна надає [Concept('military_access','військовий доступ')|e] цим [Concept('countries','країнам')|e]."
+ },
+ "diplomatic_status_giving_economic_support_name": {
+  "en": "Giving Economic Support",
+  "uk": "Надання економічної підтримки"
+ },
+ "diplomatic_status_giving_economic_support_tooltip": {
+  "en": "#T Giving Economic Support#!\\nThis country is currently giving [economic_support|e] to these [countries|e].",
+  "uk": "#T Надання економічної підтримки#!\\nЦя країна зараз надає [Concept('economic_support','економічну підтримку')|e] цим [Concept('countries','країнам')|e]."
+ },
+ "diplomatic_status_giving_military_sponsorship_name": {
+  "en": "Sponsors",
+  "uk": "Спонсори"
+ },
+ "diplomatic_status_giving_military_sponsorship_tooltip": {
+  "en": "#T $diplomatic_status_giving_military_sponsorship_name$ #!\\nThis country sponsors the following Military Orders.",
+  "uk": "#T $diplomatic_status_giving_military_sponsorship_name$ #!\\nЦя країна спонсорує наступні військові ордени."
+ },
+ "diplomatic_status_giving_war_reparations_name": {
+  "en": "Giving War Reparations",
+  "uk": "Виплата військових репарацій"
+ },
+ "diplomatic_status_giving_war_reparations_tooltip": {
+  "en": "#T Giving War Reparations#!\\nThis country is currently giving [war_reparations|e] to these [countries|e].",
+  "uk": "#T Виплата військових репарацій#!\\nЦя країна зараз виплачує [Concept('war_reparations','військові репарації')|e] цим [Concept('countries','країнам')|e]."
+ },
+ "diplomatic_status_guaranteed_name": {
+  "en": "Guaranteed",
+  "uk": "Гарантовано"
+ },
+ "diplomatic_status_guaranteed_tooltip": {
+  "en": "#T Guaranteed#!\\nAll countries [guaranteeing|e] this nation will join them in any defensive [war|e].",
+  "uk": "#T Гарантовано#!\\nУсі країни, що [Concept('guaranteeing','гарантують')|e] цю державу, приєднаються до неї в будь-якій оборонній [Concept('war','війні')|e]."
+ },
+ "diplomatic_status_guaranteeing_name": {
+  "en": "Guaranteeing",
+  "uk": "Гарантування"
+ },
+ "diplomatic_status_guaranteeing_tooltip": {
+  "en": "#T Guaranteeing#!\\nThis country will automatically protect a nation they are [guaranteeing|e].",
+  "uk": "#T Гарантування#!\\nЦя країна автоматично захистить державу, яку вона [Concept('guaranteeing','гарантує')|e]."
+ },
+ "diplomatic_status_guelphs_io_name": {
+  "en": "$guelphs_io$",
+  "uk": ""
+ },
+ "diplomatic_status_guelphs_io_tooltip": {
+  "en": "#T $guelphs_io$#!\\nThis country is a member of the $guelphs_io$.",
+  "uk": "#T $guelphs_io$#!\\nЦя країна є членом $guelphs_io$."
+ },
+ "diplomatic_status_has_fleet_basing_rights_name": {
+  "en": "Allowed Fleet Basing Rights",
+  "uk": "Дозволене право базування флоту"
+ },
+ "diplomatic_status_has_fleet_basing_rights_tooltip": {
+  "en": "#T Allowed Fleet Basing Rights#!\\nThis country is allowed [fleet_basing_rights|E] by these [countries|e].",
+  "uk": "#T Дозволене право базування флоту#!\\nЦій країні дозволено [fleet_basing_rights|E] цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_has_food_access_name": {
+  "en": "Getting Food Access",
+  "uk": "Отримання доступу до їжі"
+ },
+ "diplomatic_status_has_food_access_tooltip": {
+  "en": "#T Getting Food Access#!\\nThis country has [food_access|e] on these [countries|e]!",
+  "uk": "#T Отримання доступу до їжі#!\\nЦя країна має [Concept('food_access','доступ до їжі')|e] від цих [Concept('countries','країн')|e]!"
+ },
+ "diplomatic_status_has_military_access_name": {
+  "en": "Allowed Military Access",
+  "uk": "Дозволений військовий доступ"
+ },
+ "diplomatic_status_has_military_access_tooltip": {
+  "en": "#T Allowed Military Access#!\\nThis country is allowed [military_access|e] by these [countries|e].",
+  "uk": "#T Дозволений військовий доступ#!\\nЦій країні дозволено [Concept('military_access','військовий доступ')|e] цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_high_kingship_name": {
+  "en": "High Kingship",
+  "uk": "Верховне королівство"
+ },
+ "diplomatic_status_high_kingship_tooltip": {
+  "en": "#T High Kingship#!\\nThis [country|e] is a member of a High Kingship.",
+  "uk": "#T Верховне королівство#!\\nЦя [Concept('country','країна')|e] є членом Верховного королівства."
+ },
+ "diplomatic_status_hindu_branch_name": {
+  "en": "Hindu Branch",
+  "uk": "Гілка індуїзму"
+ },
+ "diplomatic_status_hindu_branch_tooltip": {
+  "en": "#T Sect#!\\nThis country is a member of a branch of Hinduism.",
+  "uk": "#T Секта#!\\nЦя країна є членом гілки індуїзму."
+ },
+ "diplomatic_status_historical_enemies_name": {
+  "en": "Historical Enemies",
+  "uk": "Історичні вороги"
+ },
+ "diplomatic_status_historical_enemies_tooltip": {
+  "en": "#T Historical Enemies#!\\nThis country is being viewed as a long-term historical [rival|e] by these [countries|e].",
+  "uk": "#T Історичні вороги#!\\nЦю країну розглядають як довгострокового історичного [Concept('rival','суперника')|e] ці [Concept('countries','країни')|e]."
+ },
+ "diplomatic_status_historical_rivals_name": {
+  "en": "Historical Rivals",
+  "uk": "Історичні суперники"
+ },
+ "diplomatic_status_historical_rivals_tooltip": {
+  "en": "#T Historical Rivals#!\\nThis country views these [countries|e] as long-term historical [rivals|e].",
+  "uk": "#T Історичні суперники#!\\nЦя країна розглядає ці [Concept('countries','країни')|e] як довгострокових історичних [Concept('rivals','суперників')|e]."
+ },
+ "diplomatic_status_hre_name": {
+  "en": "Holy Roman Empire",
+  "uk": "Священна Римська імперія"
+ },
+ "diplomatic_status_hre_tooltip": {
+  "en": "#T Holy Roman Empire#!\\nThis country is a member of the Holy Roman Empire.",
+  "uk": "#T Священна Римська імперія#!\\nЦя країна є членом Священної Римської імперії."
+ },
+ "diplomatic_status_ilkhanate_name": {
+  "en": "$ilkhanate$",
+  "uk": ""
+ },
+ "diplomatic_status_ilkhanate_tooltip": {
+  "en": "#T $ilkhanate$#!\\nThis country is a member of the $ilkhanate$.",
+  "uk": "#T $ilkhanate$#!\\nЦя країна є членом $ilkhanate$."
+ },
+ "diplomatic_status_infiltrate_administration_name": {
+  "en": "Infiltrating Administration",
+  "uk": ""
+ },
+ "diplomatic_status_infiltrate_administration_target_name": {
+  "en": "Administration Being Infiltrated",
+  "uk": ""
+ },
+ "diplomatic_status_infiltrate_administration_target_tooltip": {
+  "en": "#T Administration Being Infiltrated#!\\nThis country's administration is being infiltrated by the following [countries|e], who can see through [fog_of_war|e] over their territory.",
+  "uk": ""
+ },
+ "diplomatic_status_infiltrate_administration_tooltip": {
+  "en": "#T Infiltrating Administration#!\\nThis country has infiltrated the administration of these [countries|e], lifting [fog_of_war|e] over their territory.",
+  "uk": ""
+ },
+ "diplomatic_status_italian_league_1_name": {
+  "en": "$italian_league_1$",
+  "uk": ""
+ },
+ "diplomatic_status_italian_league_1_tooltip": {
+  "en": "#T $italian_league_1$#!\\nThis country is member of an Italian League.",
+  "uk": "#T $italian_league_1$#!\\nЦя країна є членом італійської ліги."
+ },
+ "diplomatic_status_italian_league_2_name": {
+  "en": "$italian_league_2$",
+  "uk": ""
+ },
+ "diplomatic_status_italian_league_2_tooltip": {
+  "en": "#T $italian_league_2$#!\\nThis country is member of an Italian League.",
+  "uk": "#T $italian_league_2$#!\\nЦя країна є членом італійської ліги."
+ },
+ "diplomatic_status_italian_league_3_name": {
+  "en": "$italian_league_3$",
+  "uk": ""
+ },
+ "diplomatic_status_italian_league_3_tooltip": {
+  "en": "#T $italian_league_3$#!\\nThis country is member of an Italian League.",
+  "uk": "#T $italian_league_3$#!\\nЦя країна є членом італійської ліги."
+ },
+ "diplomatic_status_italian_league_sponsor_name": {
+  "en": "$italian_league_sponsor$",
+  "uk": ""
+ },
+ "diplomatic_status_italian_league_sponsor_tooltip": {
+  "en": "#T $italian_league_sponsor$#!\\nThis country is sponsoring an Italian League, providing gold and manpower to the League's leader.",
+  "uk": ""
+ },
+ "diplomatic_status_japanese_shogunate_name": {
+  "en": "$japanese_shogunate$",
+  "uk": ""
+ },
+ "diplomatic_status_japanese_shogunate_tooltip": {
+  "en": "#T $japanese_shogunate$#!\\nThis country is a member of the $japanese_shogunate$.",
+  "uk": "#T $japanese_shogunate$#!\\nЦя країна є членом $japanese_shogunate$."
+ },
+ "diplomatic_status_jihad_name": {
+  "en": "$jihad$",
+  "uk": ""
+ },
+ "diplomatic_status_jihad_tooltip": {
+  "en": "#T $jihad$#!\\nThis country is fighting a $jihad$.",
+  "uk": "#T $jihad$#!\\nЦя країна бере участь у $jihad$."
+ },
+ "diplomatic_status_jurchen_confederation_name": {
+  "en": "$jurchen_confederation$",
+  "uk": ""
+ },
+ "diplomatic_status_jurchen_confederation_tooltip": {
+  "en": "#T $jurchen_confederation$#!\\nThis country is a member of a $jurchen_confederation$.",
+  "uk": "#T $jurchen_confederation$#!\\nЦя країна є членом $jurchen_confederation$."
+ },
+ "diplomatic_status_lordship_of_ireland_name": {
+  "en": "Lordship of Ireland",
+  "uk": "Лордство Ірландії"
+ },
+ "diplomatic_status_lordship_of_ireland_tooltip": {
+  "en": "#T Lordship of Ireland#!\\nThis [country|e] is a member of the Lordship of Ireland.",
+  "uk": "#T Лордство Ірландії#!\\nЦя [Concept('country','країна')|e] є членом Лордства Ірландії."
+ },
+ "diplomatic_status_marriage_union_name": {
+  "en": "Marriage Unions",
+  "uk": "Шлюбні унії"
+ },
+ "diplomatic_status_marriage_union_tooltip": {
+  "en": "#T Marriage Unions#!\\nThis country has formed a marriage union with these [countries|e].",
+  "uk": "#T Шлюбні унії#!\\nЦя країна утворила шлюбну унію з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_middle_kingdom_name": {
+  "en": "The Middle Kingdom",
+  "uk": "Серединна держава"
+ },
+ "diplomatic_status_middle_kingdom_tooltip": {
+  "en": "#T Middle Kingdom#!\\nThis [country|e] is in the sphere of the Middle Kingdom.",
+  "uk": "#T Серединна держава#!\\nЦя [Concept('country','країна')|e] перебуває у сфері впливу Серединної держави."
+ },
+ "diplomatic_status_opinion_improvement_active_name": {
+  "en": "Improving Opinion",
+  "uk": "Покращення думки"
+ },
+ "diplomatic_status_opinion_improvement_active_tooltip": {
+  "en": "#T Improving Opinion#!\\nThis country is actively improving these countries' [opinion|e] of them.",
+  "uk": "#T Покращення думки#!\\nЦя країна активно покращує [Concept('opinion','думку')|e] цих країн про себе."
+ },
+ "diplomatic_status_opinion_improvement_passive_name": {
+  "en": "Opinion Being Improved",
+  "uk": "Думка покращується"
+ },
+ "diplomatic_status_opinion_improvement_passive_tooltip": {
+  "en": "#T Opinion Being Improved#!\\nThe following [countries|e] are improving this country's [opinion|e] of them.",
+  "uk": "#T Думка покращується#!\\nНаступні [Concept('countries','країни')|e] покращують [Concept('opinion','думку')|e] цієї країни про них."
+ },
+ "diplomatic_status_protestant_union_name": {
+  "en": "Protestant Union",
+  "uk": "Протестантська унія"
+ },
+ "diplomatic_status_protestant_union_tooltip": {
+  "en": "#T Protestant Union#!\\nThis country is a member of the Protestant Union",
+  "uk": "#T Протестантська унія#!\\nЦя країна є членом Протестантської унії"
+ },
+ "diplomatic_status_rebels_being_supported_name": {
+  "en": "Rebels Supported",
+  "uk": "Повстанці підтримуються"
+ },
+ "diplomatic_status_rebels_being_supported_tooltip": {
+  "en": "#T Rebels Supported#!\\nThis [country|e] has [rebels|e] in it supported by the following [countries|e].",
+  "uk": "#T Повстанці підтримуються#!\\nЦя [Concept('country','країна')|e] має [Concept('rebels','повстанців')|e], яких підтримують наступні [Concept('countries','країни')|e]."
+ },
+ "diplomatic_status_receiving_military_sponsorship_name": {
+  "en": "Sponsored by",
+  "uk": "Спонсоровано"
+ },
+ "diplomatic_status_receiving_military_sponsorship_tooltip": {
+  "en": "#T $diplomatic_status_receiving_military_sponsorship_name$ #!\\nThis Military Order has been sponsored by the following countries.",
+  "uk": "#T $diplomatic_status_receiving_military_sponsorship_name$ #!\\nЦей військовий орден спонсоровано наступними країнами."
+ },
+ "diplomatic_status_red_turban_rebels_name": {
+  "en": "$red_turban_rebels$",
+  "uk": ""
+ },
+ "diplomatic_status_red_turban_rebels_tooltip": {
+  "en": "#T $red_turban_rebels$#!\\nThis country is a member of the $red_turban_rebels$.",
+  "uk": "#T $red_turban_rebels$#!\\nЦя країна є членом $red_turban_rebels$."
+ },
+ "diplomatic_status_rivals_name": {
+  "en": "Rivals",
+  "uk": "Суперники"
+ },
+ "diplomatic_status_rivals_tooltip": {
+  "en": "#T Rivals#!\\nThis country views as a [rival|e] these [countries|e].",
+  "uk": "#T Суперники#!\\nЦя країна розглядає як [Concept('rival','суперників')|e] ці [Concept('countries','країни')|e]."
+ },
+ "diplomatic_status_royal_marriage_name": {
+  "en": "Royal Marriage",
+  "uk": "Королівський шлюб"
+ },
+ "diplomatic_status_royal_marriage_tooltip": {
+  "en": "#T Royal Marriage#!\\nThis country has [royal_marriages|e] with these [countries|e].",
+  "uk": "#T Королівський шлюб#!\\nЦя країна має [Concept('royal_marriages','королівські шлюби')|e] з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_sect_name": {
+  "en": "Sect",
+  "uk": "Секта"
+ },
+ "diplomatic_status_sect_tooltip": {
+  "en": "#T Sect#!\\nThis country is a member of a Sect.",
+  "uk": "#T Секта#!\\nЦя країна є членом секти."
+ },
+ "diplomatic_status_shinto_name": {
+  "en": "$shinto$",
+  "uk": ""
+ },
+ "diplomatic_status_shinto_tooltip": {
+  "en": "#T $shinto$#!\\nThis country follows the $shinto$ religion.",
+  "uk": "#T $shinto$#!\\nЦя країна сповідує релігію $shinto$."
+ },
+ "diplomatic_status_sikhism_name": {
+  "en": "$sikhism$",
+  "uk": ""
+ },
+ "diplomatic_status_sikhism_tooltip": {
+  "en": "#T $sikhism$#!\\nThis country follows the $sikhism$ religion.",
+  "uk": "#T $sikhism$#!\\nЦя країна сповідує релігію $sikhism$."
+ },
+ "diplomatic_status_supporting_rebels_name": {
+  "en": "Supporting Rebels",
+  "uk": "Підтримка повстанців"
+ },
+ "diplomatic_status_supporting_rebels_tooltip": {
+  "en": "#T Supporting Rebels#!\\nThis country supports [rebels|e] in the following [countries|e].",
+  "uk": "#T Підтримка повстанців#!\\nЦя країна підтримує [Concept('rebels','повстанців')|e] у наступних [Concept('countries','країнах')|e]."
+ },
+ "diplomatic_status_swiss_confederation_name": {
+  "en": "$swiss_confederation$",
+  "uk": ""
+ },
+ "diplomatic_status_swiss_confederation_tooltip": {
+  "en": "#T $swiss_confederation$#!\\nThis country is a member of the $swiss_confederation$.",
+  "uk": "#T $swiss_confederation$#!\\nЦя країна є членом $swiss_confederation$."
+ },
+ "diplomatic_status_tatar_yoke": {
+  "en": "$tatar_yoke$",
+  "uk": ""
+ },
+ "diplomatic_status_tatar_yoke_name": {
+  "en": "Tatar Yoke",
+  "uk": "Татарське ярмо"
+ },
+ "diplomatic_status_tatar_yoke_tooltip": {
+  "en": "#T Tatar Yoke#!\\nThis country is a member of the Tatar Yoke.",
+  "uk": "#T Татарське ярмо#!\\nЦя країна є членом Татарського ярма."
+ },
+ "diplomatic_status_tribal_confederation_name": {
+  "en": "$tribal_confederation$",
+  "uk": ""
+ },
+ "diplomatic_status_tribal_confederation_tooltip": {
+  "en": "#T $tribal_confederation$#!\\nThis country is a member of a $tribal_confederation$.",
+  "uk": "#T $tribal_confederation$#!\\nЦя країна є членом $tribal_confederation$."
+ },
+ "diplomatic_status_truce_name": {
+  "en": "Truce",
+  "uk": "Перемир'я"
+ },
+ "diplomatic_status_truce_tooltip": {
+  "en": "#T Truce#!\\nThis country is in a state of [truce|e] with these [countries|e].",
+  "uk": "#T Перемир'я#!\\nЦя країна перебуває у стані [truce|e] з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_union_name": {
+  "en": "Unions",
+  "uk": "Унії"
+ },
+ "diplomatic_status_union_tooltip": {
+  "en": "#T Unions#!\\nThis country has formed unions with these [countries|e].",
+  "uk": "#T Унії#!\\nЦя країна утворила унії з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_vassalized_name": {
+  "en": "Overlord",
+  "uk": "Сюзерен"
+ },
+ "diplomatic_status_vassalized_tooltip": {
+  "en": "#T Overlord#!\\nThis country may be protected by their [overlord|e], if we attack them.",
+  "uk": "#T Сюзерен#!\\nЦя країна може бути захищена своїм [Concept('overlord','сюзереном')|e], якщо ми на неї нападемо."
+ },
+ "diplomatic_status_vassalizing_name": {
+  "en": "Subject",
+  "uk": "Підданий"
+ },
+ "diplomatic_status_vassalizing_tooltip": {
+  "en": "#T Subjects#!\\nThese countries may come to the aid of their [overlord|e] if we attack them.",
+  "uk": "#T Піддані#!\\nЦі країни можуть прийти на допомогу своєму [Concept('overlord','сюзерену')|e], якщо ми на них нападемо."
+ },
+ "diplomatic_status_war_name": {
+  "en": "War",
+  "uk": "Війна"
+ },
+ "diplomatic_status_war_tooltip": {
+  "en": "#T War#!\\nThis country is at [war|e] with these [countries|e].",
+  "uk": "#T Війна#!\\nЦя країна перебуває у стані [Concept('war','війни')|e] з цими [Concept('countries','країнами')|e]."
+ },
+ "diplomatic_status_warned_name": {
+  "en": "Warned",
+  "uk": "Попереджено"
+ },
+ "diplomatic_status_warned_tooltip": {
+  "en": "#T Warned#!\\nNations being warned will give the country issuing the warning a [casus_belli|e] on them, if they attack any nation which borders both parties.",
+  "uk": "#T Попереджено#!\\nДержави, яких попереджено, дадуть країні, що видала попередження, [Concept('casus_belli','привід для війни')|e] на себе, якщо нападуть на будь-яку державу, що межує з обома сторонами."
+ },
+ "diplomatic_status_warning_name": {
+  "en": "Warning",
+  "uk": "Попередження"
+ },
+ "diplomatic_status_warning_tooltip": {
+  "en": "#T Warning#!\\nIf a country being warned attacks any nation bordering both themselves and the issuer of the warning, the warning country will receive a [casus_belli|e] on them.",
+  "uk": "#T Попередження#!\\nЯкщо країна, яку попереджено, нападе на будь-яку державу, що межує як з нею, так і з тим, хто видав попередження, країна-попереджувач отримає [Concept('casus_belli','привід для війни')|e] на неї."
+ },
+ "enemies_list_who_tt": {
+  "en": "$LIST$ has declared $WHO$ as their [rival|e].",
+  "uk": "$LIST$ оголосили $WHO$ своїм [Concept('rival','суперником')|e]."
+ },
+ "foreign_league_balkan_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('foreign_league_balkan').GetName] with $LIST$.",
+  "uk": ""
+ },
+ "foreign_league_france_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('foreign_league_france').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('foreign_league_france').GetName] з $LIST$."
+ },
+ "foreign_league_hre_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('foreign_league_hre').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('foreign_league_hre').GetName] з $LIST$."
+ },
+ "foreign_league_iberia_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('foreign_league_iberia').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('foreign_league_iberia').GetName] з $LIST$."
+ },
+ "foreign_no_country_selected": {
+  "en": "This [country|e] has not selected a rival yet",
+  "uk": "Ця [Concept('country','країна')|e] ще не обрала суперника"
+ },
+ "getting_economic_support_list_who_tt": {
+  "en": "$WHO$ is receiving [economic_support|e] from $LIST$",
+  "uk": "$WHO$ отримує [Concept('economic_support','економічну підтримку')|e] від $LIST$"
+ },
+ "getting_war_reparations_list_who_tt": {
+  "en": "$WHO$ is receiving [war_reparations|e] from $LIST$",
+  "uk": "$WHO$ отримує [Concept('war_reparations','військові репарації')|e] від $LIST$"
+ },
+ "ghibellines_io_list_who_tt": {
+  "en": "$WHO$ is in the $ghibellines_io$ with $LIST$",
+  "uk": "$WHO$ перебуває в $ghibellines_io$ з $LIST$"
+ },
+ "gives_fleet_basing_rights_list_who_tt": {
+  "en": "$WHO$ gives [fleet_basing_rights|E] to $LIST$. This allows the fleets of $LIST$ the ability to based in $WHO$, while also allowing their traders to be based out of their ports",
+  "uk": "$WHO$ надає [fleet_basing_rights|E] для $LIST$. Це дозволяє флотам $LIST$ можливість базуватися в $WHO$, а також дозволяє їхнім торговцям базуватися в їхніх портах"
+ },
+ "gives_military_access_list_who_tt": {
+  "en": "$WHO$ grants [military_access|E] to $LIST$. This allows the [armies|e] of $LIST$ the ability to march through $WHO$",
+  "uk": "$WHO$ надає [military_access|E] для $LIST$. Це дозволяє [Concept('armies','арміям')|e] $LIST$ можливість проходити через $WHO$"
+ },
+ "giving_economic_support_list_who_tt": {
+  "en": "$WHO$ is sending [economic_support|e] to $LIST$",
+  "uk": "$WHO$ надає [Concept('economic_support','економічну підтримку')|e] для $LIST$"
+ },
+ "giving_military_sponsorship_list_who_tt": {
+  "en": "$WHO$ is sponsoring $LIST$.",
+  "uk": "$WHO$ спонсорує $LIST$."
+ },
+ "giving_war_reparations_list_who_tt": {
+  "en": "$WHO$ is sending [war_reparations|e] to $LIST$",
+  "uk": "$WHO$ виплачує [Concept('war_reparations','військові репарації')|e] для $LIST$"
+ },
+ "guaranteed_list_who_tt": {
+  "en": "$WHO$ is [guaranteed|e] by $LIST$. This will make $LIST$ join any defensive [wars|e] $WHO$ ends up in.",
+  "uk": "$WHO$ [Concept('guaranteed','гарантовано')|e] $LIST$. Це змусить $LIST$ приєднатися до будь-яких оборонних [Concept('wars','воєн')|e], у які потрапить $WHO$."
+ },
+ "guaranteeing_list_who_tt": {
+  "en": "$WHO$ is [guaranteeing|e] $LIST$. This will make $WHO$ join any [war|e] where $LIST$ is attacked.",
+  "uk": "$WHO$ [Concept('guaranteeing','гарантує')|e] $LIST$. Це змусить $WHO$ приєднатися до будь-якої [Concept('war','війни')|e], де атаковано $LIST$."
+ },
+ "guelphs_io_list_who_tt": {
+  "en": "$WHO$ is in the $guelphs_io$ with $LIST$",
+  "uk": "$WHO$ перебуває в $guelphs_io$ з $LIST$"
+ },
+ "has_fleet_basing_rights_list_who_tt": {
+  "en": "$WHO$ has [fleet_basing_rights|E] in $LIST$. This allows the fleets of $WHO$ the ability to be based from $LIST$, and also allow their traders to be based out of their ports",
+  "uk": "$WHO$ має [fleet_basing_rights|E] у $LIST$. Це дозволяє флотам $WHO$ можливість базуватися з $LIST$, а також дозволяє їхнім торговцям базуватися в їхніх портах"
+ },
+ "has_military_access_list_who_tt": {
+  "en": "$WHO$ has [military_access|E] through $LIST$. This allows the [armies|e] of $WHO$ the ability to march through $LIST$",
+  "uk": "$WHO$ має [military_access|E] через $LIST$. Це дозволяє [Concept('armies','арміям')|e] $WHO$ можливість проходити через $LIST$"
+ },
+ "high_kingship_list_who_tt": {
+  "en": "$WHO$ is in a High Kingship with $LIST$",
+  "uk": "$WHO$ перебуває у Верховному королівстві з $LIST$"
+ },
+ "hindu_branch_list_who_tt": {
+  "en": "$WHO$ is in a [hindu_branch|e] with $LIST$",
+  "uk": "$WHO$ перебуває у [Concept('hindu_branch','гілці індуїзму')|e] з $LIST$"
+ },
+ "hre_list_who_tt": {
+  "en": "$WHO$ is in the Holy Roman Empire with $LIST$",
+  "uk": "$WHO$ перебуває у Священній Римській імперії з $LIST$"
+ },
+ "ilkhanate_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('ilkhanate').GetName] with $LIST$",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('ilkhanate').GetName] з $LIST$"
+ },
+ "infiltrate_administration_list_who_tt": {
+  "en": "$WHO$ has infiltrated the administration of $LIST$. [fog_of_war|E] over their territory is lifted until $EXTRA|Y$.",
+  "uk": ""
+ },
+ "infiltrate_administration_ongoing_tooltip": {
+  "en": "[fog_of_war|E] over their territory is lifted until $DATE$.",
+  "uk": ""
+ },
+ "infiltrate_administration_target_list_who_tt": {
+  "en": "$LIST$ is infiltrating the administration of $WHO$",
+  "uk": ""
+ },
+ "italian_league_1_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('italian_league_1').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('italian_league_1').GetName] з $LIST$."
+ },
+ "italian_league_2_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('italian_league_2').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('italian_league_2').GetName] з $LIST$."
+ },
+ "italian_league_3_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('italian_league_3').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('italian_league_3').GetName] з $LIST$."
+ },
+ "japanese_shogunate_list_who_tt": {
+  "en": "$WHO$ is part of the $japanese_shogunate$ with $LIST$",
+  "uk": "$WHO$ є частиною $japanese_shogunate$ з $LIST$"
+ },
+ "jihad_list_who_tt": {
+  "en": "$WHO$ is in a $jihad$ with $LIST$",
+  "uk": "$WHO$ бере участь у $jihad$ з $LIST$"
+ },
+ "jurchen_confederation_list_who_tt": {
+  "en": "$WHO$ is in a $jurchen_confederation$ with $LIST$",
+  "uk": "$WHO$ перебуває в $jurchen_confederation$ з $LIST$"
+ },
+ "lordship_of_ireland_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('lordship_of_ireland').GetName] with $LIST$.",
+  "uk": "$WHO$ перебуває у [GetUniqueInternationalOrganization('lordship_of_ireland').GetName] з $LIST$."
+ },
+ "marriage_union_list_who_tt": {
+  "en": "Marriage Union with $LIST$, as rulers have a [royal_marriage|e] between each other",
+  "uk": "Шлюбна унія з $LIST$, оскільки правителі мають [Concept('royal_marriage','королівський шлюб')|e] між собою"
+ },
+ "middle_kingdom_list_who_tt": {
+  "en": "$WHO$ is in the Middle Kingdom with $LIST$",
+  "uk": "$WHO$ перебуває у Серединній державі з $LIST$"
+ },
+ "no_country_selected": {
+  "en": "No [country|e] selected.",
+  "uk": "Не вибрано жодної [Concept('country','країни')|e]."
+ },
+ "opinion_improvement_active_list_who_tt": {
+  "en": "$WHO$ is improving $LIST$'s opinion of them. Each month their [opinion|e] will slightly improve!",
+  "uk": "$WHO$ покращує думку $LIST$ про себе. Щомісяця їхня [Concept('opinion','думка')|e] трохи покращуватиметься!"
+ },
+ "opinion_improvement_passive_list_who_tt": {
+  "en": "$LIST$ is improving $WHO$'s opinion of them. Each month their [opinion|e] will slightly improve!",
+  "uk": "$LIST$ покращують думку $WHO$ про себе. Щомісяця їхня [Concept('opinion','думка')|e] трохи покращуватиметься!"
+ },
+ "protestant_union_list_who_tt": {
+  "en": "$WHO$ is a member of the Protestant Union with $LIST$",
+  "uk": "$WHO$ є членом Протестантської унії з $LIST$"
+ },
+ "receiving_military_sponsorship_list_who_tt": {
+  "en": "$WHO$ is sponsored by $LIST$.",
+  "uk": "$WHO$ спонсоровано $LIST$."
+ },
+ "red_turban_rebels_list_who_tt": {
+  "en": "$WHO$ is in the $red_turban_rebels$ with $LIST$",
+  "uk": "$WHO$ перебуває в $red_turban_rebels$ з $LIST$"
+ },
+ "rivals_list_who_tt": {
+  "en": "$WHO$ has declared $LIST$ as their [rival|e].",
+  "uk": "$WHO$ оголосила $LIST$ своїм [Concept('rival','суперником')|e]."
+ },
+ "royal_marriage_list_who_tt": {
+  "en": "Dynastic ties with $WHO$ due to a [royal_marriage|e] between $FIRST$ and $SECOND$",
+  "uk": "Династичні зв'язки з $WHO$ через [Concept('royal_marriage','королівський шлюб')|e] між $FIRST$ та $SECOND$"
+ },
+ "sect_list_who_tt": {
+  "en": "$WHO$ is in a [sect|e] with $LIST$",
+  "uk": "$WHO$ перебуває у [Concept('sect','секті')|e] з $LIST$"
+ },
+ "shinto_list_who_tt": {
+  "en": "$WHO$ is a fellow $shinto$ with $LIST$",
+  "uk": "$WHO$ є співвірником $shinto$ з $LIST$"
+ },
+ "sikhism_list_who_tt": {
+  "en": "$WHO$ is a fellow $sikhism$ with $LIST$",
+  "uk": "$WHO$ є співвірником $sikhism$ з $LIST$"
+ },
+ "swiss_confederation_list_who_tt": {
+  "en": "$WHO$ is in the [GetUniqueInternationalOrganization('swiss_confederation').GetName] with $LIST$",
+  "uk": "$WHO$ перебуває в [GetUniqueInternationalOrganization('swiss_confederation').GetName] з $LIST$"
+ },
+ "tatar_yoke_list_who_tt": {
+  "en": "$WHO$ is in a Tatar Yoke under Tatar rule",
+  "uk": "$WHO$ перебуває під татарським ярмом під владою татар"
+ },
+ "tribal_confederation_list_who_tt": {
+  "en": "$WHO$ is in a $tribal_confederation$ with $LIST$",
+  "uk": "$WHO$ перебуває в $tribal_confederation$ з $LIST$"
+ },
+ "truce_list_who_tt": {
+  "en": "$WHO$ has a truce with $LIST$ until $EXTRA|Y$. Declaring [war|e] while having a truce will have the aggressor suffer a $PRICE$ hit",
+  "uk": "$WHO$ має перемир'я з $LIST$ до $EXTRA|Y$. Оголошення [Concept('war','війни')|e] під час перемир'я призведе до того, що агресор зазнає #R -50#! до [Concept('stability','стабільності')|e]"
+ },
+ "union_list_who_tt": {
+  "en": "Union with $LIST$, as they have the same [ruler|e]",
+  "uk": "Унія з $LIST$, оскільки вони мають одного [Concept('ruler','правителя')|e]"
+ },
+ "vassalized_list_who_tt": {
+  "en": "Vassal of $LIST$",
+  "uk": "Васал $LIST$"
+ },
+ "vassalizing_list_who_tt": {
+  "en": "Vassal",
+  "uk": "Васал"
+ },
+ "war_list_who_tt": {
+  "en": "$WHO$ is at #R War#! with $LIST$. They will be fighting each other until a peace has been signed.\\n\\n[WAR.GetName|Y]\\nThe [war|e] is fought over [WAR.GetWarGoal.GetName|Y], [WAR.GetAttackerWarLeader.GetName|Y] vs [WAR.GetDefenderWarLeader.GetName|Y]",
+  "uk": "$WHO$ перебуває у стані #R війни#! з $LIST$. Вони воюватимуть одне з одним, доки не підпишуть мир.\\n\\n[WAR.GetName|Y]\\n[Concept('war','Війна')|e] ведеться за [WAR.GetWarGoal.GetName|Y], [WAR.GetAttackerWarLeader.GetName|Y] проти [WAR.GetDefenderWarLeader.GetName|Y]"
+ }
+}

@@ -40,7 +40,13 @@ _SOURCE_DIRS = {
     ],
 }
 
-MOD_DIR_NAME = f'{MOD_NAME} 1.0'  # the folder name Paradox uses in the playset, independent of MOD_VERSION
+# Two folders under Documents/Paradox Interactive/Europa Universalis V/mod:
+#   MOD_DIR_NAME  - the pdx-workshop-manager working copy; publishing to the Workshop uploads THIS folder.
+#                   Only `install --release` writes here, right before publishing a new version.
+#   DEV_DIR_NAME  - the everyday build. Separate id, so the launcher lists it as its own mod.
+MOD_DIR_NAME = f'{MOD_NAME} 1.0'
+DEV_DIR_NAME = f'{MOD_NAME} DEV'
+DEV_MOD_ID = 'ukraina.universalis.dev'
 
 
 def ns_file(root, relpath):
@@ -296,14 +302,26 @@ def cmd_package(args):
     print(f'packaged {out}')
 
 
-def mod_dir():
-    return Path(os.environ['USERPROFILE']) / 'Documents' / 'Paradox Interactive' / 'Europa Universalis V' / 'mod' / MOD_DIR_NAME
+def mod_dir(release=False):
+    base = (Path(os.environ['USERPROFILE']) / 'Documents' / 'Paradox Interactive'
+            / 'Europa Universalis V' / 'mod')
+    return base / (MOD_DIR_NAME if release else DEV_DIR_NAME)
+
+
+def _mark_dev(dst):
+    """Give the installed copy its own id and a visible name, so the launcher lists two mods."""
+    path = dst / '.metadata' / 'metadata.json'
+    meta = load_json(path)
+    meta['id'] = DEV_MOD_ID
+    meta['name'] = f'[DEV] {meta["name"]}'
+    meta['version'] = f'{MOD_VERSION}-dev'
+    save_json(path, meta)
 
 
 def cmd_install(args):
     cmd_build(args)
     stage = DIST / MOD_NAME
-    dst = mod_dir()
+    dst = mod_dir(args.release)
     dst.mkdir(parents=True, exist_ok=True)
     for name in ('main_menu', 'loading_screen', '.metadata'):
         target = dst / name
@@ -314,11 +332,21 @@ def cmd_install(args):
     src_desc = stage / 'description.bbcode'
     if src_desc.exists():
         shutil.copy2(src_desc, dst / 'description.bbcode')
-    print(f'installed into {dst}')
+    if args.release:
+        print(f'installed RELEASE build into {dst}')
+        print('this is the workshop-manager folder: publishing from it uploads this build to the Workshop')
+    else:
+        _mark_dev(dst)
+        print(f'installed DEV build ({MOD_VERSION}-dev) into {dst}')
+        print('enable "[DEV] ..." in the launcher playset and disable the published mod')
 
 
 def cmd_uninstall(args):
-    dst = mod_dir()
+    dst = mod_dir(args.release)
+    if not args.release and dst.exists():
+        shutil.rmtree(dst)          # the dev folder is ours alone: remove it whole
+        print(f'removed {dst}')
+        return
     for name in ('main_menu', 'loading_screen'):
         p = dst / name
         if p.exists():
@@ -336,6 +364,9 @@ def main():
         sp.add_argument('--formatting', action='store_true', help='also warn when #tags or \\n differ from the original')
         sp.add_argument('--lenient', action='store_true',
                         help='compare only variable names and scope objects (legacy translations use other getters)')
+        if name in ('install', 'uninstall'):
+            sp.add_argument('--release', action='store_true',
+                            help=f'use the workshop-manager folder "{MOD_DIR_NAME}" instead of "{DEV_DIR_NAME}"')
     sub.add_parser('extract').add_argument('--baseline', default=None, help='read from this dir instead of --game')
     sub.add_parser('status').add_argument('--all', action='store_true', help='include untranslated namespaces')
     args = parser.parse_args()

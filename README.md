@@ -145,12 +145,21 @@ python uk.py check       звірити translations/ з поточною анг
 python uk.py status      покриття перекладу по розділах
 python uk.py build       зібрати мод у dist/
 python uk.py package     зібрати й запакувати мод у zip
-python uk.py install     зібрати й скопіювати мод у папку модів гри
-python uk.py uninstall   прибрати мод із папки модів гри
+python uk.py install     зібрати й поставити в гру тестову збірку «Ukraina Universalis DEV»
+python uk.py uninstall   прибрати тестову збірку
 ```
 
 Команди `check`/`build`/`package`/`install` потребують доступу до файлів гри: `--game <шлях>` або
 змінна середовища `EU5_DIR`.
+
+### Тестова і опублікована версії
+
+`install` ставить мод окремою текою `Ukraina Universalis DEV` з власним ідентифікатором. У лаунчері вона
+видно зветься `[DEV] …`, тож її не сплутати з версією зі Steam Workshop. У наборі модів має бути ввімкнена
+лише одна з двох: обидві підміняють ті самі рядки.
+
+`install --release` натомість пише в теку, з якої мод публікується у Workshop. Ця команда потрібна лише
+безпосередньо перед випуском нової версії.
 
 ---
 

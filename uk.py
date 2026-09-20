@@ -158,8 +158,26 @@ def markup_tokens(s, lenient=False):
     return collections.Counter(toks)
 
 
+_CALL_RE = re.compile(r"\[[^\]\[]*\]")
+
+
+def call_quotes_ok(s):
+    """Whether every script call's single quotes pair up.
+
+    The engine parses ' inside [Foo('bar')] as a string delimiter, so a Ukrainian
+    apostrophe there (об'єднання) or a stray " truncates the call and the whole
+    loc string fails to render. Word-internal apostrophes must be U+2019.
+    """
+    for m in _CALL_RE.finditer(s):
+        body = m.group(0)
+        if body.count("'") % 2 or '"' in body:
+            return False
+    return True
+
+
 def syntax_ok(s):
-    """Whether the string can be shipped: balanced [], even $ count, every #tag closed by #!.
+    """Whether the string can be shipped: balanced [], even $ count, every #tag closed by #!,
+    and paired quotes inside script calls.
     Missing variables are a quality issue for review; broken syntax is not."""
     depth = 0
     for ch in s:
@@ -167,6 +185,8 @@ def syntax_ok(s):
         if depth < 0:
             return False
     if depth or s.count('$') % 2:
+        return False
+    if not call_quotes_ok(s):
         return False
     tags = [t for t in _TOKEN_RE.findall(s) if t.startswith('#')]
     return sum(t != '#!' for t in tags) == tags.count('#!')

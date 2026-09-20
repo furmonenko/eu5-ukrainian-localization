@@ -281,13 +281,19 @@ def cmd_build(args):
 
     if OVERLAY.exists():
         overlay_count = 0
+        no_bom = []
         for src in OVERLAY.rglob('*'):
             if src.is_file():
                 dst = stage / src.relative_to(OVERLAY)
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(src, dst)
+                # the game refuses a .yml without the UTF-8 BOM: "Missing UTF8 BOM in ..."
+                if src.suffix == '.yml' and src.read_bytes()[:3] != b'\xef\xbb\xbf':
+                    no_bom.append(src.relative_to(OVERLAY).as_posix())
                 overlay_count += 1
         print(f'copied {overlay_count} overlay files')
+        for p in no_bom:
+            print(f'WARNING: overlay file without UTF-8 BOM, the game will not read it: {p}')
     print(f'built {stage}')
 
 

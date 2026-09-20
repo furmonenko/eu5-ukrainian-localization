@@ -190,20 +190,18 @@ def _syntax_flaws(s):
         flaws.add('dollars')
     if not call_quotes_ok(s):
         flaws.add('quotes')
-    tags = [t for t in _TOKEN_RE.findall(s) if t.startswith('#')]
-    if sum(t != '#!' for t in tags) != tags.count('#!'):
-        flaws.add('tags')
     return flaws
 
 
 def syntax_ok(s, en=None):
-    """Whether the string can be shipped: balanced [], even $ count, every #tag closed by #!,
-    and paired quotes inside script calls.
+    """Whether the string can be shipped: balanced [], even $ count and paired
+    quotes inside script calls.
 
-    The game's own strings break the #tag rule often enough (`#T $IRONMAN_LABEL$`,
-    `$VAL|+=2%/$#!`) that judging a translation by a stricter standard than its
-    source only blocks correct text. With `en` given, a flaw the source already
-    has is not the translation's fault.
+    #tags are deliberately NOT counted. Measured against the game's own shipped
+    russian localization, 447 of 17050 tagged strings leave a #tag unclosed
+    (`#TOOLTIP:RELIGIONGROUP,muslim,X #L мусульман#!`), so the engine clearly
+    does not require one #! per tag and a counting rule only blocks correct text.
+    With `en` given, a flaw the source already has is not the translation's fault.
     Missing variables are a quality issue for review; broken syntax is not."""
     flaws = _syntax_flaws(s)
     if en is not None:

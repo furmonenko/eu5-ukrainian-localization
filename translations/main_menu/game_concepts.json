@@ -821,7 +821,7 @@
  },
  "game_concept_cabinet_action_desc": {
   "en": "A member of the [cabinet|e] can be assigned to a $game_concept_cabinet_action$. These are performed either until they are finished, or until we decide to change it. \\nThese are the different actions available: \\n\\n#T $game_concept_adm_short$ $game_concept_actions$ #!\\n[ShowCabinetTypeDatabase('adm')] \\n\\n#T $game_concept_diplomatic_actions$ #!\\n[ShowCabinetTypeDatabase('dip')] \\n\\n#T $game_concept_mil_short$ $game_concept_actions$ #!\\n[ShowCabinetTypeDatabase('mil')] ",
-  "uk": "Учаснику [Concept('cabinet','ради')|e] можна доручати певні дії. Вони виконуються доти, доки не будуть завершені або доки ми не вирішимо їх змінити. \\nДоступні такі дії: \\n\\n#T Адміністративні дії #!\\n[ShowCabinetTypeDatabase('adm')] \\n\\n#T Дипломатичні дії #!\\n[ShowCabinetTypeDatabase('dip')] \\n\\n#T Військові дії #!\\n[ShowCabinetTypeDatabase('mil')]"
+  "uk": "Учаснику [Concept('cabinet','ради')|e] можна доручати певні дії. Вони виконуються доти, доки не будуть завершені або доки ми не вирішимо їх змінити. \\nДоступні такі дії: \\n\\n#T Адміністративні дії #!\\n[ShowCabinetTypeDatabase('adm')] \\n\\n#T $game_concept_diplomatic_actions$ #!\\n[ShowCabinetTypeDatabase('dip')] \\n\\n#T Військові дії #!\\n[ShowCabinetTypeDatabase('mil')]"
  },
  "game_concept_cabinet_actions": {
   "en": "Cabinet Actions",
@@ -1337,7 +1337,7 @@
  },
  "game_concept_conquistador_desc": {
   "en": "A $game_concept_conquistador$ is a [character|e] who has been assigned the task to conquer a foreign land and create a new [subject|e] of our [country|e].",
-  "uk": "Конкістадор — це [Concept('character', 'персонаж')|e], якому було доручено завоювати далекі землі й створити на їхній території нового [Concept('subject', 'васала')|e] для нашої [Concept('country', 'держави')|e]."
+  "uk": "$game_concept_conquistador$ — це [Concept('character', 'персонаж')|e], якому було доручено завоювати далекі землі й створити на їхній території нового [Concept('subject', 'васала')|e] для нашої [Concept('country', 'держави')|e]."
  },
  "game_concept_conquistadors": {
   "en": "Conquistadors",
@@ -1369,7 +1369,7 @@
  },
  "game_concept_construction_material_desc": {
   "en": "$game_concept_construction_materials$ are [raw_materials|e] which play a significant role in the [construction|e] of [buildings|e]. They are produced in a [rgo|e], and are usually essential for the development of [towns_and_cities|e].",
-  "uk": "Будівельні матеріали — це [Concept('raw_materials', 'ресурси')|e], які використовуються в [Concept('construction', 'будівництві')|e] [Concept('buildings', 'споруд')|e]. Будматеріали необхідні для розвитку [Concept('towns_and_cities', 'міст')|e], а основним їх джерелом є [Concept('rgo', 'видобуток ресурсів')|e]."
+  "uk": "Будівельні матеріали — це [Concept('raw_materials', 'ресурси')|e], які використовуються в [Concept('construction', 'будівництві')|e] [Concept('buildings', 'споруд')|e]. $game_concept_construction_materials$ необхідні для розвитку [Concept('towns_and_cities', 'міст')|e], а основним їх джерелом є [Concept('rgo', 'видобуток ресурсів')|e]."
  },
  "game_concept_construction_material_list_title": {
   "en": "List of $game_concept_construction_materials$",
@@ -1425,7 +1425,7 @@
  },
  "game_concept_conversion_desc": {
   "en": "This is the process by which [pops|e] change from one [religion|e] to another over time. The [cabinet|e] is the most reliable medium for a [country|e] to influence $game_concept_conversion$, but [laws|e], [privileges|e], [advances|e], and [societal_values|e] also play a substantial role.",
-  "uk": "Навернення — це процес поступової зміни [Concept('religion', 'релігії')|e] [Concept('pops', 'груп населення')|e]. [Concept('cabinet', 'Рада')|e] є найнадійнішим інструментом, за допомогою якого [Concept('country', 'держава')|e] може впливати на навернення, проте [Concept('laws', 'правила')|e], [Concept('privileges', 'привілеї')|e], [Concept('advances','вдосконалення')|e] і [Concept('societal_values', 'суспільні цінності')|e] також мають неабияке значення."
+  "uk": "$game_concept_conversion$ — це процес поступової зміни [Concept('religion', 'релігії')|e] [Concept('pops', 'груп населення')|e]. [Concept('cabinet', 'Рада')|e] є найнадійнішим інструментом, за допомогою якого [Concept('country', 'держава')|e] може впливати на навернення, проте [Concept('laws', 'правила')|e], [Concept('privileges', 'привілеї')|e], [Concept('advances','вдосконалення')|e] і [Concept('societal_values', 'суспільні цінності')|e] також мають неабияке значення."
  },
  "game_concept_conversion_rate": {
   "en": "Conversion Rate",
@@ -3045,7 +3045,7 @@
  },
  "game_concept_food_raw_material_desc": {
   "en": "On top of being traded and used like the other [goods|e], some [raw_materials|e] also produce [food|e]. They are produced in a [rgo|e], and constitute a much more efficient source of $game_concept_food$ than [subsistence_agriculture|e].\\n\\n$game_concept_food$ is also moved between [markets|e] when $game_concept_food_raw_materials$ are traded.",
-  "uk": "Як і інші [Concept('goods', 'товари')|e], [Concept('raw_materials', 'ресурси')|e] можна купувати, продавати та використовувати. Деякі з них при цьому застосовують у виробництві [Concept('food', 'їжі')|e]. Такі ресурси [Concept('rgo', 'видобуваються')|e] і вважаються значно ефективнішим джерелом їжі, ніж [Concept('subsistence_agriculture', 'натуральне господарство')|e].\\n\\nЇжа також переміщується між [Concept('markets', 'ринками')|e] при купівлі-продажу ресурсів для її виробництва."
+  "uk": "Як і інші [Concept('goods', 'товари')|e], [Concept('raw_materials', 'ресурси')|e] можна купувати, продавати та використовувати. Деякі з них при цьому застосовують у виробництві [Concept('food', 'їжі')|e]. Такі ресурси [Concept('rgo', 'видобуваються')|e] і вважаються значно ефективнішим джерелом їжі, ніж [Concept('subsistence_agriculture', 'натуральне господарство')|e].\\n\\n$game_concept_food$ також переміщується між [Concept('markets', 'ринками')|e] при купівлі-продажу ресурсів для її виробництва."
  },
  "game_concept_food_raw_material_list_title": {
   "en": "List of $game_concept_food_raw_materials$",
@@ -3541,7 +3541,7 @@
  },
  "game_concept_great_power_score_desc": {
   "en": "Great Power Score is the indisputable measure of which [country|e] is the best. The top highest scoring $game_concept_countries$ are the [great_powers|e]. The total number of Great Powers varies depending on the Score of the top Great Power compared with the rest.\\n\\n$game_concept_countries$ earn $game_concept_great_power_score_short$ by owning more [population|e], having higher [prestige|e], increasing [country_rank|e], and various other sources.\\n\\n[subjects|e] also forfeit a certain percentage of their Score to their [overlord|e], depending on their [subject_type|e].",
-  "uk": "Рахунок великої держави — незаперечний показник переваги. [Concept('country', 'Держави')|e] з найбільшим рахунком є [Concept('great_powers', 'великими державами')|e]. Загальна кількість великих держав залежить від різниці між рахунком найвеличнішої з них та всіма іншими.\\n\\nДержави можуть йти до успіху по-різному, зокрема збільшувати [Concept('population', 'населення')|e], а також підвищувати [Concept('prestige', 'престиж')|e] та [Concept('country_rank', 'ранг держави')|e].\\n\\nКрім того, [Concept('subjects', 'васали')|e] віддають [Concept('overlord', 'сюзерену')|e] певну частку свого рахунку, яка залежить від [Concept('subject_type', 'типу васала')|e]."
+  "uk": "$game_concept_great_power_score_short$ великої держави — незаперечний показник переваги. [Concept('country', 'Держави')|e] з найбільшим рахунком є [Concept('great_powers', 'великими державами')|e]. Загальна кількість великих держав залежить від різниці між рахунком найвеличнішої з них та всіма іншими.\\n\\nДержави можуть йти до успіху по-різному, зокрема збільшувати [Concept('population', 'населення')|e], а також підвищувати [Concept('prestige', 'престиж')|e] та [Concept('country_rank', 'ранг держави')|e].\\n\\nКрім того, [Concept('subjects', 'васали')|e] віддають [Concept('overlord', 'сюзерену')|e] певну частку свого рахунку, яка залежить від [Concept('subject_type', 'типу васала')|e]."
  },
  "game_concept_great_power_score_short": {
   "en": "Score",
@@ -3633,7 +3633,7 @@
  },
  "game_concept_heathenry_tolerance_desc": {
   "en": "The $game_concept_heathenry_tolerance$ represents the social and political discrimination [heathens|e] suffer in a [country|e]. It impacts the [pop_satisfaction|e] of heathen [pops|e], and modifies a Country's [diplomatic_opinion|e] towards heathen $game_concept_countries$.\\n\\n$game_concept_heathenry_tolerance$ is generally very low by default, and can be modified by certain [laws|e], [privileges|e], and [societal_values|e].",
-  "uk": "Терпимість до язичників відображає ступінь соціальної та політичної дискримінації, якої [Concept('heathens', 'язичники')|e] зазнають у [Concept('country', 'державі')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп язичників')|e] і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни, що впали в язичництво.\\n\\nЯк правило, терпимість до язичників має дуже низьке значення і може бути змінена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
+  "uk": "$game_concept_heathenry_tolerance$ відображає ступінь соціальної та політичної дискримінації, якої [Concept('heathens', 'язичники')|e] зазнають у [Concept('country', 'державі')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп язичників')|e] і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни, що впали в язичництво.\\n\\nЯк правило, терпимість до язичників має дуже низьке значення і може бути змінена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
  },
  "game_concept_heathens": {
   "en": "Heathens",
@@ -3721,7 +3721,7 @@
  },
  "game_concept_heretic_tolerance_desc": {
   "en": "The $game_concept_heretic_tolerance$ represents the social and political discrimination [heretics|e] suffer in a [country|e]. It impacts the [pop_satisfaction|e] of heretic [pops|e], and modifies a Country's [diplomatic_opinion|e] towards heretic $game_concept_countries$.\\n\\n$game_concept_heretic_tolerance$ is generally low by default, and can be modified by certain [laws|e], [privileges|e], and [societal_values|e].",
-  "uk": "Терпимість до єретиків відображає ступінь соціальної та політичної дискримінації, якої [Concept('heretics', 'єретики')|e] зазнають у [Concept('country', 'державі')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп єретиків')|e] і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни, що впали в єресь.\\n\\nЯк правило, терпимість до єретиків має низьке значення і може бути змінена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
+  "uk": "$game_concept_heretic_tolerance$ відображає ступінь соціальної та політичної дискримінації, якої [Concept('heretics', 'єретики')|e] зазнають у [Concept('country', 'державі')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп єретиків')|e] і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни, що впали в єресь.\\n\\nЯк правило, терпимість до єретиків має низьке значення і може бути змінена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
  },
  "game_concept_heretics": {
   "en": "Heretics",
@@ -3781,11 +3781,11 @@
  },
  "game_concept_holy_site_importance": {
   "en": "$game_concept_holy_site$ $game_concept_holy_site_importance_short$",
-  "uk": "Значущість святині"
+  "uk": "$game_concept_holy_site_importance_short$ святині"
  },
  "game_concept_holy_site_importance_desc": {
   "en": "The $game_concept_holy_site_importance_short$ of a [holy_site|e] scales any bonuses that apply in its [location|e] or [owner|e].",
-  "uk": "Значущість [Concept('holy_site','святині')|e] визначає величину бонусів, що надаються [Concept('location','району')|e] або [Concept('owner','власникові')|e]."
+  "uk": "$game_concept_holy_site_importance_short$ [Concept('holy_site','святині')|e] визначає величину бонусів, що надаються [Concept('location','району')|e] або [Concept('owner','власникові')|e]."
  },
  "game_concept_holy_site_importance_short": {
   "en": "Importance",
@@ -4693,7 +4693,7 @@
  },
  "game_concept_maritime_presence_desc": {
   "en": "The Maritime Presence we have along our coasts is vital both for [trade|e] and for our [control|e] over our territory.\\n\\nMaritime Presence builds up over time, if we are at peace, just from having [ports|e], while a [blockade|e] will quickly reduce our presence. A [navy|e] in a [seazone|e] can quickly build up the presence again.\\n\\nHigh $game_concept_maritime_presence$ reduces the [proximity|e] that is lost between [seazones|e] when calculating $game_concept_control$. $game_concept_maritime_presence$ in the coastal $game_concept_seazones$ of a [market|e] is also an important source of [merchant_power|e].",
-  "uk": "Морська присутність біля наших берегів необхідна як для [Concept('control', 'контролю')|e] над територією, так і для [Concept('trade', 'торгівлі')|e].\\n\\nУ мирний час морська присутність поступово збільшується — для цього потрібна лише наявність [Concept('ports', 'портів')|e], — а [Concept('blockade', 'блокада')|e], своєю чергою, швидко її зменшує. [Concept('navy', 'Флот')|e] в [Concept('seazone', 'акваторії')|e] може швидко відновити присутність.\\n\\nВисокий показник морської присутності скорочує [Concept('proximity', 'близькість')|e], втрачену між [Concept('seazones', 'акваторіями')|e] при визначенні контролю. Також морська присутність у прибережних акваторіях [Concept('market', 'ринку')|e] є важливим джерелом [Concept('merchant_power', 'купецької влади')|e]."
+  "uk": "$game_concept_maritime_presence$ біля наших берегів необхідна як для [Concept('control', 'контролю')|e] над територією, так і для [Concept('trade', 'торгівлі')|e].\\n\\nУ мирний час морська присутність поступово збільшується — для цього потрібна лише наявність [Concept('ports', 'портів')|e], — а [Concept('blockade', 'блокада')|e], своєю чергою, швидко її зменшує. [Concept('navy', 'Флот')|e] в [Concept('seazone', 'акваторії')|e] може швидко відновити присутність.\\n\\nВисокий показник морської присутності скорочує [Concept('proximity', 'близькість')|e], втрачену між [Concept('seazones', 'акваторіями')|e] при визначенні контролю. Також морська присутність у прибережних акваторіях [Concept('market', 'ринку')|e] є важливим джерелом [Concept('merchant_power', 'купецької влади')|e]."
  },
  "game_concept_maritime_presence_power": {
   "en": "Maritime Presence Power",
@@ -5337,7 +5337,7 @@
  },
  "game_concept_navy_based_desc": {
   "en": "A $game_concept_navy_based$ is a [country|e] that can [own|e] [locations|e], but its existence is relying entirely on its [navies|e]. If those are destroyed, then the $game_concept_country$ collapses.",
-  "uk": "Флотською вважається [Concept('country', 'держава')|e], яка може [Concept('own', 'володіти')|e] [Concept('locations', 'районами')|e], але своїм існуванням завдячує виключно [Concept('navies', 'флотам')|e]. Держава впаде, якщо флоти будуть розбиті."
+  "uk": "Флотською вважається [Concept('country', 'держава')|e], яка може [Concept('own', 'володіти')|e] [Concept('locations', 'районами')|e], але своїм існуванням завдячує виключно [Concept('navies', 'флотам')|e]. $game_concept_country$ впаде, якщо флоти будуть розбиті."
  },
  "game_concept_navy_desc": {
   "en": "Navies are what allows a [country|e] to project power beyond its own land. Navies are groups of [ships|e] led by a [character|e], which can fight [battles|e], [blockade|e] [hostile|e] coasts, disrupt enemy [maritime_presence|e], and transport [armies|e] where they are needed. They also help with logistics as they can [distribute_food|e] and [gather_food|e].",
@@ -5629,7 +5629,7 @@
  },
  "game_concept_parliament_desc": {
   "en": "A [country|e] can call its [estates|e] into a session of $game_concept_parliament$, to solve any [parliament_issue|e] they may have, while also giving the opportunities to create a [casus_belli|e], raise [taxes|e], increase [army_levies|e] and [navy_levies|e], or change any of the current [laws|e]. Any [estate|e] may have a [parliament_agenda|e] to resolve before they will pledge their support.\\n\\n$game_concept_parliament$ may take place in the [capital|e] or another [location|e] which receives some small benefits. If the [location] becomes [occupied|e], the $game_concept_parliament$ will fail.\\n\\n[international_organizations|e] such as the [GetUniqueInternationalOrganization('hre').GetName] can have a $game_concept_parliament$, too. However, the parliament system depends on the type of Organization as some require the support of [members|e] of a specific [special_status|e] and their [special_status_power|e] to pass.",
-  "uk": "[Concept('country','Держава')|e] може скликати [Concept('estates','стани')|e] на засідання парламенту. Там можна вирішувати будь-які [Concept('parliament_issue','парламентські питання')|e], створювати [Concept('casus_belli','приводи для війни')|e], підвищувати [Concept('taxes','податки')|e], поповнювати [Concept('army_levies','армійське')|e] й [Concept('navy_levies','флотське')|e] ополчення або змінювати чинний [Concept('laws','звід правил')|e]. У кожного [Concept('estate','стану')|e] може бути своя [Concept('parliament_agenda','парламентська вимога')|e]. Щоб заручитися підтримкою стану, цю вимогу потрібно задовольнити.\\n\\nПарламент може перебувати як у [Concept('capital','столичному')|e], так і в іншому [Concept('location','районі')|e], який отримує за це невеликі переваги. Якщо цей [Concept('location','район')] [Concept('occupied','окупований')|e], то парламент перестає працювати.\\n\\nУ [Concept('international_organizations','міжнародних об’єднань')|e] на кшталт #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! також може бути парламент, однак його устрій залежить від типу об'єднання. Наприклад, у деяких парламентах для вирішення питань потрібна [Concept('special_status_power','сила')|e] [Concept('members','учасників')|e] з [Concept('special_status','особливим статусом')|e]."
+  "uk": "[Concept('country','Держава')|e] може скликати [Concept('estates','стани')|e] на засідання парламенту. Там можна вирішувати будь-які [Concept('parliament_issue','парламентські питання')|e], створювати [Concept('casus_belli','приводи для війни')|e], підвищувати [Concept('taxes','податки')|e], поповнювати [Concept('army_levies','армійське')|e] й [Concept('navy_levies','флотське')|e] ополчення або змінювати чинний [Concept('laws','звід правил')|e]. У кожного [Concept('estate','стану')|e] може бути своя [Concept('parliament_agenda','парламентська вимога')|e]. Щоб заручитися підтримкою стану, цю вимогу потрібно задовольнити.\\n\\n$game_concept_parliament$ може перебувати як у [Concept('capital','столичному')|e], так і в іншому [Concept('location','районі')|e], який отримує за це невеликі переваги. Якщо цей [Concept('location','район')] [Concept('occupied','окупований')|e], то парламент перестає працювати.\\n\\nУ [Concept('international_organizations','міжнародних об’єднань')|e] на кшталт #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! також може бути парламент, однак його устрій залежить від типу об'єднання. Наприклад, у деяких парламентах для вирішення питань потрібна [Concept('special_status_power','сила')|e] [Concept('members','учасників')|e] з [Concept('special_status','особливим статусом')|e]."
  },
  "game_concept_parliament_issue": {
   "en": "Parliament Issue",
@@ -7069,7 +7069,7 @@
  },
  "game_concept_self_control_desc": {
   "en": "Self Control is a measure of how a [country|e] and its [ruler|e] are renouncing pleasures and material possessions, and how they follow the path of Yoga.\\n\\nHaving a positive value of $self_control$ will mean that they tend to asceticism, giving benefits to [stability|e], [migration|e], [annexation|e], and reduced [food|e] consumption, while having a negative $self_control$ means that they are tending towards depravity, giving increased [tax|e] and [food|e] consumption but reduced [war_exhaustion|e]. Having $self_control$ balanced gives in turn better [research|e] speed, [prestige|e], and [estate_satisfaction|e].",
-  "uk": "Самоконтроль характеризує готовність [Concept('country','держави')|e] та її [Concept('ruler','правителя')|e] відкинути насолоди та матеріальні блага, щоб іти шляхом йоги.\\n\\nПозитивне значення самоконтролю показує схильність до аскетизму та йде на користь [Concept('stability','стабільності')|e], [Concept('migration','міграції')|e], [Concept('annexation','приєднанню')|e], а також знижує споживання [Concept('food','їжі')|e], тоді як негативний самоконтроль показує схильність до порочності, знижуючи [Concept('tax','податки')|e] та підвищуючи споживання [Concept('food','їжі')|e], але при цьому знижуючи [Concept('war_exhaustion','втому від війни')|e]. Збалансований самоконтроль збільшує швидкість [Concept('research','досліджень')|e], [Concept('prestige','престиж')|e] та [Concept('estate_satisfaction','задоволеність станів')|e]."
+  "uk": "$self_control$ характеризує готовність [Concept('country','держави')|e] та її [Concept('ruler','правителя')|e] відкинути насолоди та матеріальні блага, щоб іти шляхом йоги.\\n\\nПозитивне значення самоконтролю показує схильність до аскетизму та йде на користь [Concept('stability','стабільності')|e], [Concept('migration','міграції')|e], [Concept('annexation','приєднанню')|e], а також знижує споживання [Concept('food','їжі')|e], тоді як негативний самоконтроль показує схильність до порочності, знижуючи [Concept('tax','податки')|e] та підвищуючи споживання [Concept('food','їжі')|e], але при цьому знижуючи [Concept('war_exhaustion','втому від війни')|e]. Збалансований самоконтроль збільшує швидкість [Concept('research','досліджень')|e], [Concept('prestige','престиж')|e] та [Concept('estate_satisfaction','задоволеність станів')|e]."
  },
  "game_concept_self_control_i": {
   "en": "@self_control!",
@@ -7421,7 +7421,7 @@
  },
  "game_concept_sub_continent_desc": {
   "en": "A Subcontinent is a group of [regions|e] that is part of a [continent|e]. [ShowSubContinentName('western_europe')] or $india$ are examples of a Subcontinent.",
-  "uk": "Макрорегіон — це група [Concept('regions','регіонів')|e]. Входить до складу [Concept('continent','континенту')|e]. Приклади: [ShowSubContinentName('western_europe')], Індія."
+  "uk": "Макрорегіон — це група [Concept('regions','регіонів')|e]. Входить до складу [Concept('continent','континенту')|e]. Приклади: [ShowSubContinentName('western_europe')], $india$."
  },
  "game_concept_sub_continents": {
   "en": "Subcontinents",
@@ -7705,7 +7705,7 @@
  },
  "game_concept_title_history_desc": {
   "en": "The $game_concept_title_history$ is the relation of all the [countries|e] that a [character|e] has ruled during their lives.",
-  "uk": "Історія титулів — це перелік усіх [Concept('countries', 'держав')|e], якими [Concept('character', 'персонаж')|e] правив протягом свого життя."
+  "uk": "$game_concept_title_history$ — це перелік усіх [Concept('countries', 'держав')|e], якими [Concept('character', 'персонаж')|e] правив протягом свого життя."
  },
  "game_concept_tolerance": {
   "en": "Tolerance",
@@ -7713,7 +7713,7 @@
  },
  "game_concept_tolerance_desc": {
   "en": "Tolerance represents how respectfully the population of a certain [religion|e] is treated in a society. Every [country|e] has a different $game_concept_tolerance$ value towards its [primary_religion|e], towards [heretics|e], and towards [heathens|e].\\n\\nA positive $game_concept_tolerance$ value increases the [pop_satisfaction|e] of [pops|e], as well as the [diplomatic_opinion|e] towards $game_concept_countries$ of that $game_concept_religion$. Reversely, a negative $game_concept_tolerance$ increases [unrest|e] and lowers $game_concept_diplomatic_opinions$.",
-  "uk": "Терпимість являє собою те, з якою повагою в суспільстві ставляться до населення, що сповідує певну [Concept('religion', 'релігію')|e]. У кожної [Concept('country', 'держави')|e] є показник терпимості до своєї [Concept('primary_religion', 'основної релігії')|e], [Concept('heretics', 'єретиків')|e] і [Concept('heathens', 'язичників')|e].\\n\\nПозитивне значення терпимості збільшує [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], а також [Concept('diplomatic_opinion', 'дипломатичну думку')|e] про держави, що дотримуються тієї ж релігії. З іншого боку, від'ємне значення терпимості збільшує [Concept('unrest', 'заворушення')|e] й зменшує дипломатичну думку."
+  "uk": "$game_concept_tolerance$ являє собою те, з якою повагою в суспільстві ставляться до населення, що сповідує певну [Concept('religion', 'релігію')|e]. У кожної [Concept('country', 'держави')|e] є показник терпимості до своєї [Concept('primary_religion', 'основної релігії')|e], [Concept('heretics', 'єретиків')|e] і [Concept('heathens', 'язичників')|e].\\n\\nПозитивне значення терпимості збільшує [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], а також [Concept('diplomatic_opinion', 'дипломатичну думку')|e] про держави, що дотримуються тієї ж релігії. З іншого боку, від'ємне значення терпимості збільшує [Concept('unrest', 'заворушення')|e] й зменшує дипломатичну думку."
  },
  "game_concept_tolerance_list": {
   "en": "$BULLET_WITH_TAB$[primary_religion_tolerance|e]\\n$BULLET_WITH_TAB$[heretic_tolerance|e]\\n$BULLET_WITH_TAB$[heathenry_tolerance|e]",
@@ -7857,7 +7857,7 @@
  },
  "game_concept_trade_range_desc": {
   "en": "This determines the maximum distance at which a [country|e] can conduct [trade|e] between two [markets|e], calculated from their [market_centers|e]. As long as a [country] has [merchant_capacity|e] in a [market], it will be able to [trade] with all [markets] within $game_concept_trade_range$.\\n\\n$game_concept_trade_range$ can be increased primarily through [advances|e], although some [laws|e], [privileges|e] and [reforms|e] may affect it too.",
-  "uk": "Максимальна дистанція, на якій [Concept('country','держава')|e] може вести [Concept('trade','торгівлю')|e] між двома [Concept('markets','ринками')|e]. Вимірюється від [Concept('market_centers','ринкових центрів')|e]. Якщо у [Concept('country','держави')] є [Concept('merchant_capacity','торговий потенціал')|e] на якомусь [Concept('markets','ринку')], вона може торгувати з усіма [Concept('markets','ринками')] в межах торгової дистанції.\\n\\nТоргова дистанція головним чином зростає завдяки [Concept('advances','поліпшенням')|e], однак її також можна збільшити за рахунок деяких [Concept('laws','правил')|e], [Concept('privileges','привілеїв')|e] та [Concept('reforms','принципів')|e]."
+  "uk": "Максимальна дистанція, на якій [Concept('country','держава')|e] може вести [Concept('trade','торгівлю')|e] між двома [Concept('markets','ринками')|e]. Вимірюється від [Concept('market_centers','ринкових центрів')|e]. Якщо у [Concept('country','держави')] є [Concept('merchant_capacity','торговий потенціал')|e] на якомусь [Concept('markets','ринку')], вона може торгувати з усіма [Concept('markets','ринками')] в межах торгової дистанції.\\n\\n$game_concept_trade_range$ головним чином зростає завдяки [Concept('advances','поліпшенням')|e], однак її також можна збільшити за рахунок деяких [Concept('laws','правил')|e], [Concept('privileges','привілеїв')|e] та [Concept('reforms','принципів')|e]."
  },
  "game_concept_trades": {
   "en": "Trades",
@@ -7965,7 +7965,7 @@
  },
  "game_concept_true_faith_tolerance_desc": {
   "en": "The $game_concept_primary_religion_tolerance$ represents how much a [country|e] favors the followers of its [primary_religion|e]. It impacts the [pop_satisfaction|e] of [pops|e] of the $game_concept_primary_religion$, and modifies a Country's [diplomatic_opinion|e] towards brethren $game_concept_countries$.\\n\\n$game_concept_primary_religion_tolerance$ is generally positive by default, and can be increased even further by certain [laws|e], [privileges|e], and [societal_values|e].",
-  "uk": "Терпимість до основної релігії відображає ступінь прихильності [Concept('country', 'держави')|e] до послідовників її [Concept('primary_religion', 'основної релігії')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], що сповідують основну релігію, і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни однієї з нею віри.\\n\\nЯк правило, терпимість до основної релігії має позитивне значення і може бути збільшена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
+  "uk": "$game_concept_primary_religion_tolerance$ відображає ступінь прихильності [Concept('country', 'держави')|e] до послідовників її [Concept('primary_religion', 'основної релігії')|e]. Вона впливає на [Concept('pop_satisfaction', 'задоволення')|e] [Concept('pops', 'груп населення')|e], що сповідують основну релігію, і змінює [Concept('diplomatic_opinion', 'дипломатичну думку')|e] держави про країни однієї з нею віри.\\n\\nЯк правило, терпимість до основної релігії має позитивне значення і може бути збільшена завдяки окремим [Concept('laws', 'правилам')|e], [Concept('privileges', 'привілеям')|e] та [Concept('societal_values', 'суспільним цінностям')|e]."
  },
  "game_concept_trust": {
   "en": "Trust",
@@ -8293,7 +8293,7 @@
  },
  "game_concept_war_exhaustion_desc": {
   "en": "War Exhaustion represents how much our [country|e] has been ravaged by [war|e]. If it is high enough, we will be forced to sign a [peace_treaty|e]. These are the effects at 1 $game_concept_war_exhaustion$:\\n[ShowAutoModifierEffect('war_exhaustion_impact')]",
-  "uk": "Втома від війни показує, наскільки наша [Concept('country','держава')|e] виснажена [Concept('war','воєнними діями')|e]. Якщо цей показник стане занадто великим, ми будемо змушені підписати [Concept('peace_treaty','мирний договір')|e]. Одиниця втоми від війни накладає такі ефекти:\\n[ShowAutoModifierEffect('war_exhaustion_impact')]"
+  "uk": "$game_concept_war_exhaustion$ показує, наскільки наша [Concept('country','держава')|e] виснажена [Concept('war','воєнними діями')|e]. Якщо цей показник стане занадто великим, ми будемо змушені підписати [Concept('peace_treaty','мирний договір')|e]. Одиниця втоми від війни накладає такі ефекти:\\n[ShowAutoModifierEffect('war_exhaustion_impact')]"
  },
  "game_concept_war_exhaustion_i": {
   "en": "@war_exhaustion!",

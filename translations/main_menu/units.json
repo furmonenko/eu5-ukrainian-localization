@@ -2081,7 +2081,7 @@
  },
  "FORT_IN_LOCATION": {
   "en": "$game_concept_fort$ in [CityMarker.GetLocation.GetNameWithNoTooltip]",
-  "uk": "Фортеця в [CityMarker.GetLocation.Custom('LR_PREP')|l] [CityMarker.GetLocation.GetNameWithNoTooltip]"
+  "uk": "$game_concept_fort$ в [CityMarker.GetLocation.Custom('LR_PREP')|l] [CityMarker.GetLocation.GetNameWithNoTooltip]"
  },
  "FORT_LEVEL": {
   "en": "$game_concept_fort$ Level",
@@ -3733,7 +3733,7 @@
  },
  "SIEGE_BREACH": {
   "en": "#T $SIEGE_MODIFIER_BREACH$#!\\nThe amount of times the walls have been breached in this siege. When the wall is breached, it is far easier to assault.",
-  "uk": "#T Проломи#!\\nКількість проломів у стінах, створених під час цієї облоги. Кожен пролом полегшує штурм укріплень."
+  "uk": "#T $SIEGE_MODIFIER_BREACH$#!\\nКількість проломів у стінах, створених під час цієї облоги. Кожен пролом полегшує штурм укріплень."
  },
  "SIEGE_BREACH_EXPLANATION": {
   "en": "In each siege phase, the attacker has a chance to breach the walls. Breaching the walls gives a $BREACHBONUS|=+$ bonus to siege roll. ",
@@ -3805,11 +3805,11 @@
  },
  "SIEGE_FALL_CHANCE_TXT": {
   "en": "The $game_concept_siege$ has a [Siege.GetFallChance|2%] chance to succeed in the next phase.",
-  "uk": "Облога має [Siege.GetFallChance|2%] шанс на успіх у наступній фазі."
+  "uk": "$game_concept_siege$ має [Siege.GetFallChance|2%] шанс на успіх у наступній фазі."
  },
  "SIEGE_FORT_IMPACT": {
   "en": "#T $SIEGE_MODIFIER_FORT_IMPACT$#!\\nEach level of fortifications in a territory will add #R -1#! to the siege roll.",
-  "uk": "#T Укріплення#!\\nКожний рівень укріплень на території дає #R -1#! до ходу облоги."
+  "uk": "#T $SIEGE_MODIFIER_FORT_IMPACT$#!\\nКожний рівень укріплень на території дає #R -1#! до ходу облоги."
  },
  "SIEGE_IN_X_DAYS": {
   "en": "The next siege phase is in $VAL|Y$ day(s).",
@@ -3833,7 +3833,7 @@
  },
  "SIEGE_MEMORY": {
   "en": "#T $SIEGE_MODIFIER_MEMORY$#!\\nThis the accumulated status of the siege. The maximum is [GetDefine('NCombat','SIEGE_MEMORY')|Y] after which you will not make any more progress until the besieged surrender.",
-  "uk": "#T Розвиток облоги#!\\nПідсумковий статус облоги. Коли він досягне значення [GetDefine('NCombat', 'SIEGE_MEMORY')|Y], розвиток припиниться доти, доки обложені не здадуться."
+  "uk": "#T $SIEGE_MODIFIER_MEMORY$#!\\nПідсумковий статус облоги. Коли він досягне значення [GetDefine('NCombat', 'SIEGE_MEMORY')|Y], розвиток припиниться доти, доки обложені не здадуться."
  },
  "SIEGE_MODIFIER_ARTILLERY": {
   "en": "Artillery",
@@ -5825,7 +5825,7 @@
  },
  "a_archers_desc": {
   "en": "$a_archers$ support our footmen with ranged fire, allowing them to advance towards enemy lines when attacking and also helping them better protect their position when defending.",
-  "uk": "Лучники ведуть вогонь здалеку та прикривають піхотинців, дозволяючи їм рухатися вперед при атаці та допомагаючи відбивати ворожі натиски під час оборони."
+  "uk": "$a_archers$ ведуть вогонь здалеку та прикривають піхотинців, дозволяючи їм рухатися вперед при атаці та допомагаючи відбивати ворожі натиски під час оборони."
  },
  "a_armored_horsemen": {
   "en": "Armored Horsemen",
@@ -6049,7 +6049,7 @@
  },
  "a_conscripts_desc": {
   "en": "Reluctant soldiers obligated to fight, massed $a_conscripts$ can overwhelm a trained army through numbers alone.",
-  "uk": "Це солдати поневолі, вимушено відправлені на війну. Рекрути можуть перемогти навчену армію лише за рахунок переважаючої чисельності."
+  "uk": "Це солдати поневолі, вимушено відправлені на війну. $a_conscripts$ можуть перемогти навчену армію лише за рахунок переважаючої чисельності."
  },
  "a_crossbowmen": {
   "en": "Crossbowmen",
@@ -6249,7 +6249,7 @@
  },
  "a_flying_battery_desc": {
   "en": "Artillery is devastating on the battlefield, but completely useless if the enemy does not enter its firing range. A $a_flying_battery$ has the capability of relocating itself to where it is most needed and quickly redeploy before any enemy's retaliation.",
-  "uk": "Артилерія завдає величезної шкоди на полі бою, але абсолютно марна, якщо ворог не перебуває в зоні ураження. Літуча батарея здатна переміщуватися туди, де вона потрібна найбільше, і швидко відходити, поки ворог не встиг відповісти."
+  "uk": "Артилерія завдає величезної шкоди на полі бою, але абсолютно марна, якщо ворог не перебуває в зоні ураження. $a_flying_battery$ здатна переміщуватися туди, де вона потрібна найбільше, і швидко відходити, поки ворог не встиг відповісти."
  },
  "a_footmen": {
   "en": "Footmen",
@@ -6873,7 +6873,7 @@
  },
  "a_naft_throwers_desc": {
   "en": "Using the secret of the Greek fire, these $a_naft_throwers$ throw incendiary grenades at the enemy, using that element in order to not only burn their opponents, but to sow confusion and panic in their ranks. They mainly serve to scare the enemy rather than kill.",
-  "uk": "Метальники нафти використовують секрет грецького вогню і закидають ворога запалювальними гранатами, завдаючи шкоди і сіючи паніку в його рядах. Полководці задіюють їх в основному для залякування, а не для знищення противника."
+  "uk": "$a_naft_throwers$ використовують секрет грецького вогню і закидають ворога запалювальними гранатами, завдаючи шкоди і сіючи паніку в його рядах. Полководці задіюють їх в основному для залякування, а не для знищення противника."
  },
  "a_noble_cavalry": {
   "en": "Noble Cavalry",
@@ -7681,7 +7681,7 @@
  },
  "n_baghlah_desc": {
   "en": "The $n_baghlah$ is a large deep-sea sailing vessel which is used as a merchant ship. It has its origins in the Arabian Peninsula, but spread as far as the Spice Islands as a used ship type.",
-  "uk": "Багала — це велике парусне морське судно, яке можна використовувати для перевезення товарів. Цей корабель створили на Арабському півострові, але використовують у найрізноманітніших місцях, включно з Островами прянощів."
+  "uk": "$n_baghlah$ — це велике парусне морське судно, яке можна використовувати для перевезення товарів. Цей корабель створили на Арабському півострові, але використовують у найрізноманітніших місцях, включно з Островами прянощів."
  },
  "n_baochuan": {
   "en": "Bǎochuán",

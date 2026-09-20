@@ -175,21 +175,40 @@ def call_quotes_ok(s):
     return True
 
 
-def syntax_ok(s):
-    """Whether the string can be shipped: balanced [], even $ count, every #tag closed by #!,
-    and paired quotes inside script calls.
-    Missing variables are a quality issue for review; broken syntax is not."""
+def _syntax_flaws(s):
+    """The set of syntax rules a string breaks, as short names."""
+    flaws = set()
     depth = 0
     for ch in s:
         depth += (ch == '[') - (ch == ']')
         if depth < 0:
-            return False
-    if depth or s.count('$') % 2:
-        return False
+            flaws.add('brackets')
+            break
+    if depth:
+        flaws.add('brackets')
+    if s.count('$') % 2:
+        flaws.add('dollars')
     if not call_quotes_ok(s):
-        return False
+        flaws.add('quotes')
     tags = [t for t in _TOKEN_RE.findall(s) if t.startswith('#')]
-    return sum(t != '#!' for t in tags) == tags.count('#!')
+    if sum(t != '#!' for t in tags) != tags.count('#!'):
+        flaws.add('tags')
+    return flaws
+
+
+def syntax_ok(s, en=None):
+    """Whether the string can be shipped: balanced [], even $ count, every #tag closed by #!,
+    and paired quotes inside script calls.
+
+    The game's own strings break the #tag rule often enough (`#T $IRONMAN_LABEL$`,
+    `$VAL|+=2%/$#!`) that judging a translation by a stricter standard than its
+    source only blocks correct text. With `en` given, a flaw the source already
+    has is not the translation's fault.
+    Missing variables are a quality issue for review; broken syntax is not."""
+    flaws = _syntax_flaws(s)
+    if en is not None:
+        flaws -= _syntax_flaws(en)
+    return not flaws
 
 
 def format_tokens(s):
@@ -243,7 +262,7 @@ def cmd_check(args, bad=None):
             a, b = markup_tokens(source[key], args.lenient), markup_tokens(entry['uk'], args.lenient)
             if a != b:
                 print(f'{where}: markup mismatch, missing {dict(a - b)}, extra {dict(b - a)}'); errors += 1
-            if not syntax_ok(entry['uk']):
+            if not syntax_ok(entry['uk'], source[key]):
                 print(f'{where}: broken markup syntax'); errors += 1
                 if bad is not None:
                     bad.add((root, relpath, key))

@@ -73,7 +73,7 @@
  },
  "ACCEPTANCE_CHANCE_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|+=0%$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|+=0%$"
  },
  "ACCEPTANCE_CHANCE_TOOLTIP_FOOTER": {
   "en": "This is a probability and is never guaranteed.",
@@ -145,15 +145,15 @@
  },
  "AI_SCRIPTED_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|+=5$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|+=5$"
  },
  "AI_WILL_ACCEPT_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|+=0$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|+=0$"
  },
  "AI_WILL_ATTACK_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|-=2$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|-=2$"
  },
  "ALLIES_LEADER": {
   "en": "Allies Leader",
@@ -353,7 +353,7 @@
  },
  "ANNEX_BASE_COST_ENTRY": {
   "en": "$NUM|0V$ [LOCATION_RANK.GetName]: $COST|-=2$",
-  "uk": ""
+  "uk": "$NUM|0V$ [LOCATION_RANK.GetName]: $COST|-=2$"
  },
  "ANNEX_BASE_COST_FLAT": {
   "en": "Base cost: $COST|-=2$",
@@ -469,7 +469,7 @@
  },
  "ANTAGONISM_ADDITIVE": {
   "en": "$NAME$: $VALUE|-=$",
-  "uk": ""
+  "uk": "$NAME$: $VALUE|-=$"
  },
  "ANTAGONISM_ALREADY_CORE": {
   "en": "Target [location|e] is a [core|e] of the aggressor",
@@ -525,7 +525,7 @@
  },
  "ANTAGONISM_MODIFIER": {
   "en": "$NAME$: $MODIFIER|%-=$",
-  "uk": ""
+  "uk": "$NAME$: $MODIFIER|%-=$"
  },
  "ANTAGONISM_MODIFIER_DIPLOMATIC_REPUTATION": {
   "en": "[diplomatic_reputation|e] of the aggressor",
@@ -537,7 +537,7 @@
  },
  "ANTAGONISM_MODIFIER_WITH_BREAKDOWN": {
   "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $MODIFIER|%-=$#!",
-  "uk": ""
+  "uk": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $MODIFIER|%-=$#!"
  },
  "ANTAGONISM_NOT_TARGET": {
   "en": "$NAME$ is not Target: $VAL|-=%$\\n",
@@ -689,19 +689,19 @@
  },
  "ARMY_SIZE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasArmySizeIntelOn(Country.Self), 'ARMY_SIZE_VALUE_EXISTS', 'INTEL_FOG_ARMY_SIZE_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasArmySizeIntelOn(Country.Self), 'ARMY_SIZE_VALUE_EXISTS', 'INTEL_FOG_ARMY_SIZE_UNKNOWN')]"
  },
  "ARMY_SIZE_VALUE_EXISTS": {
   "en": "[Country.GetRegularArmySize|L]",
-  "uk": ""
+  "uk": "[Country.GetRegularArmySize|L]"
  },
  "ARMY_TRADITION_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasArmyTraditionIntelOn(Country.Self), 'ARMY_TRADITION_VALUE_EXISTS', 'INTEL_FOG_ARMY_TRADITION_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasArmyTraditionIntelOn(Country.Self), 'ARMY_TRADITION_VALUE_EXISTS', 'INTEL_FOG_ARMY_TRADITION_UNKNOWN')]"
  },
  "ARMY_TRADITION_VALUE_EXISTS": {
   "en": "[Country.GetCurrencyValue('army_tradition')]%",
-  "uk": ""
+  "uk": "[Country.GetCurrencyValue('army_tradition')]%"
  },
  "ART_SALE_VALUE": {
   "en": "Value of the [work_of_art|e]",
@@ -817,7 +817,7 @@
  },
  "BATTLE_SCORE_ENTRY": {
   "en": "$NAME$: $VAL|+=2%/$#!",
-  "uk": ""
+  "uk": "$NAME$: $VAL|+=2%/$#!"
  },
  "BIAS_FOR_VOTE_AGAINST_IT": {
   "en": "Bias for voting against it",
@@ -845,11 +845,11 @@
  },
  "BREAK_appanage_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_appanage_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_appanage_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -877,11 +877,11 @@
  },
  "BREAK_direct_imperial_free_city_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_direct_imperial_free_city_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_direct_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Refuse to be a $direct_imperial_free_city$ of [TARGET_COUNTRY.GetName]",
@@ -909,11 +909,11 @@
  },
  "BREAK_dominion_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_dominion_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_dominion_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -941,11 +941,11 @@
  },
  "BREAK_fiefdom_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_fiefdom_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_fiefdom_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -957,7 +957,7 @@
  },
  "BREAK_hanseatic_member_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_imperial_free_cityTITLE": {
   "en": "Cancel $imperial_free_city$ Status",
@@ -977,11 +977,11 @@
  },
  "BREAK_imperial_free_city_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_imperial_free_city_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Refuse to be an $imperial_free_city$ of [TARGET_COUNTRY.GetName]",
@@ -1009,11 +1009,11 @@
  },
  "BREAK_maha_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_maha_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_maha_samanta_TOOLTIP_HEADER": {
   "en": "Refuse to be a $maha_samanta$ of [TARGET_COUNTRY.GetName]",
@@ -1041,11 +1041,11 @@
  },
  "BREAK_march_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_march_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_march_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -1073,11 +1073,11 @@
  },
  "BREAK_pradhana_maha_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_pradhana_maha_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_pradhana_maha_samanta_TOOLTIP_HEADER": {
   "en": "Refuse to be a $pradhana_maha_samanta$ of [TARGET_COUNTRY.GetName]",
@@ -1105,11 +1105,11 @@
  },
  "BREAK_pronoia_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_pronoia_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_pronoia_TOOLTIP_HEADER": {
   "en": "Refuse to be a $pronoia$ of [TARGET_COUNTRY.GetName]",
@@ -1137,11 +1137,11 @@
  },
  "BREAK_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_samanta_TOOLTIP_HEADER": {
   "en": "Refuse to be a $samanta$ of [TARGET_COUNTRY.GetName]",
@@ -1169,11 +1169,11 @@
  },
  "BREAK_state_bank_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_state_bank_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_state_bank_TOOLTIP_HEADER": {
   "en": "Refuse to be a $state_bank$ of [TARGET_COUNTRY.GetName]",
@@ -1201,11 +1201,11 @@
  },
  "BREAK_tributary_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_tributary_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_tributary_TOOLTIP_HEADER": {
   "en": "Refuse to be the $tributary$ of [TARGET_COUNTRY.GetName]",
@@ -1233,11 +1233,11 @@
  },
  "BREAK_tusi_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_tusi_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_tusi_TOOLTIP_HEADER": {
   "en": "Refuse to be the $tusi$ of [TARGET_COUNTRY.GetName]",
@@ -1265,11 +1265,11 @@
  },
  "BREAK_uc_bey_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_uc_bey_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_uc_bey_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -1297,11 +1297,11 @@
  },
  "BREAK_vassal_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "BREAK_vassal_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "BREAK_vassal_TOOLTIP_HEADER": {
   "en": "Refuse to be the [subject|e] of [TARGET_COUNTRY.GetName]",
@@ -1441,7 +1441,7 @@
  },
  "CALLREQ_LIST": {
   "en": "$DATA$",
-  "uk": ""
+  "uk": "$DATA$"
  },
  "CALLTITLE": {
   "en": "Call to Arms",
@@ -1697,11 +1697,11 @@
  },
  "CANCEL_appanage_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_appanage_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_appanage_TOOLTIP_HEADER": {
   "en": "Revoke Appanage status of [TARGET_COUNTRY.GetName]",
@@ -1729,11 +1729,11 @@
  },
  "CANCEL_direct_imperial_free_city_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_direct_imperial_free_city_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_direct_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Revoke $direct_imperial_free_city$ status of [TARGET_COUNTRY.GetName]",
@@ -1765,11 +1765,11 @@
  },
  "CANCEL_dominion_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_dominion_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_dominion_TOOLTIP_HEADER": {
   "en": "Cancel the Dominion of [TARGET_COUNTRY.GetName]",
@@ -1801,11 +1801,11 @@
  },
  "CANCEL_fiefdom_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_fiefdom_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_fiefdom_TOOLTIP_HEADER": {
   "en": "Cancel the Fiefdom of [TARGET_COUNTRY.GetName]",
@@ -1833,7 +1833,7 @@
  },
  "CANCEL_hanseatic_member_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_hanseatic_member_REQDESC": {
   "en": "We will revoke the membership.",
@@ -1865,11 +1865,11 @@
  },
  "CANCEL_imperial_free_city_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_imperial_free_city_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Revoke $imperial_free_city$ status of [TARGET_COUNTRY.GetName]",
@@ -1897,11 +1897,11 @@
  },
  "CANCEL_maha_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_maha_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_maha_samanta_TOOLTIP_HEADER": {
   "en": "Revoke $maha_samanta$ status of [TARGET_COUNTRY.GetName]",
@@ -1933,11 +1933,11 @@
  },
  "CANCEL_march_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_march_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_march_TOOLTIP_HEADER": {
   "en": "Cancel the March of [TARGET_COUNTRY.GetName]",
@@ -1965,11 +1965,11 @@
  },
  "CANCEL_pradhana_maha_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_pradhana_maha_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_pradhana_maha_samanta_TOOLTIP_HEADER": {
   "en": "Revoke $pradhana_maha_samanta$ status of [TARGET_COUNTRY.GetName]",
@@ -2001,11 +2001,11 @@
  },
  "CANCEL_pronoia_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_pronoia_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_pronoia_TOOLTIP_HEADER": {
   "en": "Make [TARGET_COUNTRY.GetName] stop being a $pronoia$",
@@ -2037,11 +2037,11 @@
  },
  "CANCEL_samanta_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_samanta_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_samanta_TOOLTIP_HEADER": {
   "en": "Revoke $samanta$ status of [TARGET_COUNTRY.GetName]",
@@ -2073,11 +2073,11 @@
  },
  "CANCEL_state_bank_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_state_bank_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_state_bank_TOOLTIP_HEADER": {
   "en": "Make [TARGET_COUNTRY.GetName] stop being a $state_bank$",
@@ -2109,11 +2109,11 @@
  },
  "CANCEL_tributary_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_tributary_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_tributary_TOOLTIP_HEADER": {
   "en": "Cancel the $tributary$ status of [TARGET_COUNTRY.GetName]",
@@ -2141,11 +2141,11 @@
  },
  "CANCEL_tusi_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_tusi_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_tusi_TOOLTIP_HEADER": {
   "en": "Cancel the $tusi$ of [TARGET_COUNTRY.GetName]",
@@ -2173,11 +2173,11 @@
  },
  "CANCEL_uc_bey_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_uc_bey_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_uc_bey_TOOLTIP_HEADER": {
   "en": "Cancel the $uc_bey$ of [TARGET_COUNTRY.GetName]",
@@ -2209,11 +2209,11 @@
  },
  "CANCEL_vassal_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
-  "uk": ""
+  "uk": "$not_possible_to_break_subject_in_truce$"
  },
  "CANCEL_vassal_REQDESC": {
   "en": "$MONARCHTITLE$",
-  "uk": ""
+  "uk": "$MONARCHTITLE$"
  },
  "CANCEL_vassal_TOOLTIP_HEADER": {
   "en": "Cancel the Vassalage of [TARGET_COUNTRY.GetName]",
@@ -2405,7 +2405,7 @@
  },
  "CB_ON_COUNTRY_ENTRY_NO_EXPIRE": {
   "en": "• $CASUS_BELLI$",
-  "uk": ""
+  "uk": "• $CASUS_BELLI$"
  },
  "CB_REASON_IMPORTANT_CB": {
   "en": "Important Casus Belli",
@@ -2769,15 +2769,15 @@
  },
  "CURRENCY_ENTRY_favors": {
   "en": "$VAL|0$ [$ICON$_i]",
-  "uk": ""
+  "uk": "$VAL|0$ [$ICON$_i]"
  },
  "CURRENCY_ENTRY_spy_network": {
   "en": "$VAL|0$ [$ICON$_i]",
-  "uk": ""
+  "uk": "$VAL|0$ [$ICON$_i]"
  },
  "CURRENCY_ENTRY_trust": {
   "en": "$VAL|0$ [$ICON$_i]",
-  "uk": ""
+  "uk": "$VAL|0$ [$ICON$_i]"
  },
  "CURRENT_SIZE_COMPARED_TO_TARGET": {
   "en": "Relative size",
@@ -3141,7 +3141,7 @@
  },
  "DIPLOREASON_ANTAGONISM": {
   "en": "[antagonism|e]",
-  "uk": ""
+  "uk": "[antagonism|e]"
  },
  "DIPLOREASON_ATTACKING_SIEGES": {
   "en": "Progressing [sieges|e]",
@@ -4373,11 +4373,11 @@
  },
  "DISCIPLINE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'DISCIPLINE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'DISCIPLINE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "DISCIPLINE_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('discipline')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('discipline')]"
  },
  "DISLOYAL_SUBJECT_ON_REVENUE": {
   "en": "[disloyal_subject|e]: $VAL|+=%2$",
@@ -4401,7 +4401,7 @@
  },
  "DP_MODIFIER_SCALE_FORMAT": {
   "en": "$KEY$: $VALUE+=\"$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE+=\"$"
  },
  "ECONIMIC_SUPPORT_PROPOSE": {
   "en": "Are we sure we wish to send $AMOUNT$ each month in [economic_support|e] to $RECIPIENT$? This will raise their opinion of us by $IMPACT|+=2$.",
@@ -4593,19 +4593,19 @@
  },
  "FORT_DEFENSE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'FORT_DEFENSE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'FORT_DEFENSE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "FORT_DEFENSE_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('global_defensive')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('global_defensive')]"
  },
  "FORT_LIMIT_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasFortCountIntelOn(Country.Self), 'FORT_LIMIT_VALUE_EXISTS', 'INTEL_FOG_FORT_COUNT_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasFortCountIntelOn(Country.Self), 'FORT_LIMIT_VALUE_EXISTS', 'INTEL_FOG_FORT_COUNT_UNKNOWN')]"
  },
  "FORT_LIMIT_VALUE_EXISTS": {
   "en": "[Country.GetCurrentFortsAmount|2W]#medium /[Country.GetFortLimit|2]#!",
-  "uk": ""
+  "uk": "[Country.GetCurrentFortsAmount|2W]#medium /[Country.GetFortLimit|2]#!"
  },
  "FREE_DIPLO_CAPACITY": {
   "en": "Available Diplomatic Capacity",
@@ -4645,47 +4645,47 @@
  },
  "GP_HEGEMON_LIST_cultural_hegemon": {
   "en": "[ShowGreatPowersSortedBy('cultural_influence')]",
-  "uk": ""
+  "uk": "[ShowGreatPowersSortedBy('cultural_influence')]"
  },
  "GP_HEGEMON_LIST_diplomatic_hegemon": {
   "en": "[ShowGreatPowersSortedBy('diplomatic_reputation')]",
-  "uk": ""
+  "uk": "[ShowGreatPowersSortedBy('diplomatic_reputation')]"
  },
  "GP_HEGEMON_LIST_economic_hegemon": {
   "en": "[ShowGreatPowersSortedBy('monthly_income_trade_and_tax')]",
-  "uk": ""
+  "uk": "[ShowGreatPowersSortedBy('monthly_income_trade_and_tax')]"
  },
  "GP_HEGEMON_LIST_military_hegemon": {
   "en": "[ShowGreatPowersSortedBy('regular_army_size')]",
-  "uk": ""
+  "uk": "[ShowGreatPowersSortedBy('regular_army_size')]"
  },
  "GP_HEGEMON_LIST_naval_hegemon": {
   "en": "[ShowGreatPowersSortedBy('navy_heavy_ship')]",
-  "uk": ""
+  "uk": "[ShowGreatPowersSortedBy('navy_heavy_ship')]"
  },
  "GP_SORTED_BY_ENTRY_army_size": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $MEN|0$",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $MEN|0$"
  },
  "GP_SORTED_BY_ENTRY_cultural_influence": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$"
  },
  "GP_SORTED_BY_ENTRY_diplomatic_reputation": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$"
  },
  "GP_SORTED_BY_ENTRY_monthly_income_trade_and_tax": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$@gold!",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $VAL|2$@gold!"
  },
  "GP_SORTED_BY_ENTRY_navy_heavy_ship": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $VAL|0$@navy_heavy_ship!",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $VAL|0$@navy_heavy_ship!"
  },
  "GP_SORTED_BY_ENTRY_regular_army_size": {
   "en": "[COUNTRY.GetLongNameWithFlag]: $MEN|0$@army_strength!",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: $MEN|0$@army_strength!"
  },
  "GP_SORTED_BY_HEADER_army_size": {
   "en": "Great Powers by Size of [army|e]",
@@ -4757,7 +4757,7 @@
  },
  "GREAT_POWER_SCORE_INFO": {
   "en": "$WHY$",
-  "uk": ""
+  "uk": "$WHY$"
  },
  "GREAT_POWER_SCORE_OVERLORD": {
   "en": "[SUBJECT_TYPE.GetName] Forfeit $PERCENT|+=0%$ to [overlord|e] $OVERLORD$: $VAL|+=0$",
@@ -4765,7 +4765,7 @@
  },
  "GREAT_POWER_SCORE_POINTS": {
   "en": "[great_power_points|e]: $VAL$",
-  "uk": ""
+  "uk": "[great_power_points|e]: $VAL$"
  },
  "GREAT_POWER_SCORE_POP": {
   "en": "$POP$ Population: $VAL|+=2$",
@@ -4773,7 +4773,7 @@
  },
  "GREAT_POWER_SCORE_SUBJECT": {
   "en": "$SUBJECT$: $VAL|+=0$",
-  "uk": ""
+  "uk": "$SUBJECT$: $VAL|+=0$"
  },
  "GREAT_POWER_SCORE_SUBJECT_BREAKDOWN_FORMAT": {
   "en": "#T Great Power Score from subjects#!\\n$BREAKDOWN$",
@@ -5281,11 +5281,11 @@
  },
  "INTEL_FOG_UNKNOWN_VALUE": {
   "en": "???",
-  "uk": ""
+  "uk": "???"
  },
  "INTERNATIONAL_ORGANIZATION_PAYS_ENTRY": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] ($PAYMENT_NAME$): $CHANGE$",
-  "uk": ""
+  "uk": "[INTERNATIONAL_ORGANIZATION.GetName] ($PAYMENT_NAME$): $CHANGE$"
  },
  "INTERVENE_AGAINST": {
   "en": "Intervene against $DATA$",
@@ -5621,11 +5621,11 @@
  },
  "LAND_MORALE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'LAND_MORALE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'LAND_MORALE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "LAND_MORALE_VALUE_EXISTS": {
   "en": "[Country.GetDefaultLandMorale|+=2]",
-  "uk": ""
+  "uk": "[Country.GetDefaultLandMorale|+=2]"
  },
  "LATIN_RECONQUEST_WAR_NAME": {
   "en": "The $NUM$$ORDER$ Reconquest against $SECONDNAME$",
@@ -5781,19 +5781,19 @@
  },
  "LEVY_COMBAT_EFFICIENCY_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'LEVY_COMBAT_EFFICIENCY_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'LEVY_COMBAT_EFFICIENCY_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "LEVY_COMBAT_EFFICIENCY_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('levy_combat_efficiency_modifier')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('levy_combat_efficiency_modifier')]"
  },
  "LEVY_RAISEDANDPOTENTIAL_EXISTS": {
   "en": "[Country.GetRaisedAndPotentialLevyStrength|L]",
-  "uk": ""
+  "uk": "[Country.GetRaisedAndPotentialLevyStrength|L]"
  },
  "LEVY_STRENGTH_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasLevyStrengthIntelOn(Country.Self), 'LEVY_RAISEDANDPOTENTIAL_EXISTS', 'INTEL_FOG_LEVY_STRENGTH_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasLevyStrengthIntelOn(Country.Self), 'LEVY_RAISEDANDPOTENTIAL_EXISTS', 'INTEL_FOG_LEVY_STRENGTH_UNKNOWN')]"
  },
  "LIST_OF_DEMANDS": {
   "en": "List of Demands:\\n",
@@ -5805,11 +5805,11 @@
  },
  "LOCATION_SUPPLY_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasSupplyLimitIntelOn(Location.Self), 'LOCATION_SUPPLY_VALUE_EXISTS', 'INTEL_FOG_LOC_SUPPLY_LIMIT_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasSupplyLimitIntelOn(Location.Self), 'LOCATION_SUPPLY_VALUE_EXISTS', 'INTEL_FOG_LOC_SUPPLY_LIMIT_UNKNOWN')]"
  },
  "LOCATION_SUPPLY_VALUE_EXISTS": {
   "en": "[SelectLocalization(Location.IsHiddenByFoW, 'LOCATION_VIEW_USED_SUPPLY_IN_FOW', 'LOCATION_VIEW_USED_SUPPLY')]",
-  "uk": ""
+  "uk": "[SelectLocalization(Location.IsHiddenByFoW, 'LOCATION_VIEW_USED_SUPPLY_IN_FOW', 'LOCATION_VIEW_USED_SUPPLY')]"
  },
  "LOCATION_UNDER_SIEGE": {
   "en": "@trigger_no![LOCATION.GetName] is under siege",
@@ -5817,11 +5817,11 @@
  },
  "LOCATION_WAR_WORTH_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasWarWorthIntelOn(Location.Self), 'LOCATION_WAR_WORTH_VALUE_EXISTS', 'INTEL_FOG_LOC_WAR_WORTH_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasWarWorthIntelOn(Location.Self), 'LOCATION_WAR_WORTH_VALUE_EXISTS', 'INTEL_FOG_LOC_WAR_WORTH_UNKNOWN')]"
  },
  "LOCATION_WAR_WORTH_VALUE_EXISTS": {
   "en": "[Location.GetWarWorth|2]",
-  "uk": ""
+  "uk": "[Location.GetWarWorth|2]"
  },
  "LOW_QUALITY_ART": {
   "en": "Low [art_quality|e]",
@@ -5845,11 +5845,11 @@
  },
  "MANPOWER_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasManpowerIntelOn(Country.Self), 'MANPOWER_VALUE_EXISTS', 'INTEL_FOG_MANPOWER_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasManpowerIntelOn(Country.Self), 'MANPOWER_VALUE_EXISTS', 'INTEL_FOG_MANPOWER_UNKNOWN')]"
  },
  "MANPOWER_VALUE_EXISTS": {
   "en": "[Country.GetCurrencyValue('manpower')]",
-  "uk": ""
+  "uk": "[Country.GetCurrencyValue('manpower')]"
  },
  "MAX_WAR_SCORE": {
   "en": "Max [war_score|e] is $MAX$ in a separate sue for peace.",
@@ -5869,15 +5869,15 @@
  },
  "MILITARY_TACTICS_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'MILITARY_TACTICS_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'MILITARY_TACTICS_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "MILITARY_TACTICS_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('military_tactics')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('military_tactics')]"
  },
  "MODIFIER_REASON": {
   "en": "@trigger_no!$MODIFIER_TYPE$",
-  "uk": ""
+  "uk": "@trigger_no!$MODIFIER_TYPE$"
  },
  "NANBOKUCHOU_WAR_NAME": {
   "en": "The $NUM$$ORDER$ War Against $SECONDNAME$ in the $nanbokuchou$",
@@ -5885,19 +5885,19 @@
  },
  "NAVAL_DAMAGE_DONE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'NAVAL_DAMAGE_DONE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'NAVAL_DAMAGE_DONE_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "NAVAL_DAMAGE_DONE_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('naval_damage_done')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('naval_damage_done')]"
  },
  "NAVAL_DAMAGE_TAKEN_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'NAVAL_DAMAGE_TAKEN_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'NAVAL_DAMAGE_TAKEN_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "NAVAL_DAMAGE_TAKEN_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('naval_damage_taken')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('naval_damage_taken')]"
  },
  "NAVAL_SUPERIORITY": {
   "en": "Show Naval Superiority",
@@ -5905,31 +5905,31 @@
  },
  "NAVY_LEVY_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasNavyLevyStrengthIntelOn(Country.Self), 'NAVY_LEVY_VALUE_EXISTS', 'INTEL_FOG_NAVY_LEVY_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasNavyLevyStrengthIntelOn(Country.Self), 'NAVY_LEVY_VALUE_EXISTS', 'INTEL_FOG_NAVY_LEVY_UNKNOWN')]"
  },
  "NAVY_LEVY_VALUE_EXISTS": {
   "en": "[Country.GetNavyLevyPower|L]",
-  "uk": ""
+  "uk": "[Country.GetNavyLevyPower|L]"
  },
  "NAVY_SIZE_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasNavyStrengthIntelOn(Country.Self), 'NAVY_SIZE_VALUE_EXISTS', 'INTEL_FOG_NAVY_STRENGTH_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasNavyStrengthIntelOn(Country.Self), 'NAVY_SIZE_VALUE_EXISTS', 'INTEL_FOG_NAVY_STRENGTH_UNKNOWN')]"
  },
  "NAVY_SIZE_VALUE_EXISTS": {
   "en": "[Country.GetNavySizeValue]",
-  "uk": ""
+  "uk": "[Country.GetNavySizeValue]"
  },
  "NAVY_TRADITION_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasNavyTraditionIntelOn(Country.Self), 'NAVY_TRADITION_VALUE_EXISTS', 'INTEL_FOG_NAVY_TRADITION_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasNavyTraditionIntelOn(Country.Self), 'NAVY_TRADITION_VALUE_EXISTS', 'INTEL_FOG_NAVY_TRADITION_UNKNOWN')]"
  },
  "NAVY_TRADITION_VALUE_EXISTS": {
   "en": "[Country.GetCurrencyValue('navy_tradition')|0]%",
-  "uk": ""
+  "uk": "[Country.GetCurrencyValue('navy_tradition')|0]%"
  },
  "NORMALPOWER_TITLE_HEADER": {
   "en": "[Country.GetLongNameWithNoTooltip]",
-  "uk": ""
+  "uk": "[Country.GetLongNameWithNoTooltip]"
  },
  "NORMAL_WAR_NAME": {
   "en": "$NUM$$ORDER$ $FIRSTNAME$–$SECONDNAME$ War",
@@ -5957,7 +5957,7 @@
  },
  "NOT_A_SUBJECT_MATE": {
   "en": "---",
-  "uk": ""
+  "uk": "---"
  },
  "NOT_A_SUBJECT_SPECIFIC": {
   "en": "[COUNTRY.GetName] is NOT a [SUBJECT_TYPE.GetName].",
@@ -6401,11 +6401,11 @@
  },
  "OFFER_appanage_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_appanage_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_appanage_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6417,7 +6417,7 @@
  },
  "OFFER_appanage_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_appanage_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our appanage? This will have the following effect:\\n$INFO$",
@@ -6449,11 +6449,11 @@
  },
  "OFFER_direct_imperial_free_city_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_direct_imperial_free_city_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_direct_imperial_free_city_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6465,7 +6465,7 @@
  },
  "OFFER_direct_imperial_free_city_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_direct_imperial_free_city_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $direct_imperial_free_city$, and this will have the following effect:\\n$INFO$",
@@ -6493,11 +6493,11 @@
  },
  "OFFER_dominion_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_dominion_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_dominion_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6513,7 +6513,7 @@
  },
  "OFFER_dominion_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_dominion_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our Dominion?",
@@ -6545,11 +6545,11 @@
  },
  "OFFER_fiefdom_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_fiefdom_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_fiefdom_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6565,7 +6565,7 @@
  },
  "OFFER_fiefdom_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_fiefdom_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our Fiefdom?",
@@ -6597,11 +6597,11 @@
  },
  "OFFER_hanseatic_member_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_hanseatic_member_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_hanseatic_member_CATEGORY": {
   "en": "CATEGORY_FRIENDLY_ACTIONS",
@@ -6613,7 +6613,7 @@
  },
  "OFFER_hanseatic_member_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_hanseatic_member_NEWDESC": {
   "en": "Do we wish to offer [COUNTRY.GetName] a membership in the Hanseatic League",
@@ -6645,11 +6645,11 @@
  },
  "OFFER_imperial_free_city_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_imperial_free_city_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_imperial_free_city_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6661,7 +6661,7 @@
  },
  "OFFER_imperial_free_city_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_imperial_free_city_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $imperial_free_city$, and this will have the following effect:\\n$INFO$",
@@ -6689,11 +6689,11 @@
  },
  "OFFER_maha_samanta_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_maha_samanta_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_maha_samanta_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6705,7 +6705,7 @@
  },
  "OFFER_maha_samanta_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_maha_samanta_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $maha_samanta$, and this will have the following effect:\\n$INFO$",
@@ -6733,11 +6733,11 @@
  },
  "OFFER_march_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_march_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_march_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6753,7 +6753,7 @@
  },
  "OFFER_march_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_march_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our March?",
@@ -6789,11 +6789,11 @@
  },
  "OFFER_pradhana_maha_samanta_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_pradhana_maha_samanta_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_pradhana_maha_samanta_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6805,7 +6805,7 @@
  },
  "OFFER_pradhana_maha_samanta_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_pradhana_maha_samanta_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $pradhana_maha_samanta$, and this will have the following effect:\\n$INFO$",
@@ -6833,11 +6833,11 @@
  },
  "OFFER_pronoia_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_pronoia_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_pronoia_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6853,7 +6853,7 @@
  },
  "OFFER_pronoia_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_pronoia_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $pronoia$?",
@@ -6885,11 +6885,11 @@
  },
  "OFFER_samanta_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_samanta_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_samanta_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6905,7 +6905,7 @@
  },
  "OFFER_samanta_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_samanta_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $samanta$, and this will have the following effect:\\n$INFO$",
@@ -6937,11 +6937,11 @@
  },
  "OFFER_state_bank_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_state_bank_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_state_bank_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -6957,7 +6957,7 @@
  },
  "OFFER_state_bank_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_state_bank_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $state_bank$?",
@@ -6989,11 +6989,11 @@
  },
  "OFFER_tributary_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_tributary_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_tributary_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -7009,7 +7009,7 @@
  },
  "OFFER_tributary_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_tributary_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $tributary$?",
@@ -7041,11 +7041,11 @@
  },
  "OFFER_tusi_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_tusi_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_tusi_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -7057,7 +7057,7 @@
  },
  "OFFER_tusi_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_tusi_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $tusi$?",
@@ -7089,11 +7089,11 @@
  },
  "OFFER_uc_bey_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_uc_bey_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_uc_bey_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -7105,7 +7105,7 @@
  },
  "OFFER_uc_bey_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_uc_bey_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $uc_bey$? This will have the following effect:\\n$INFO$",
@@ -7133,11 +7133,11 @@
  },
  "OFFER_vassal_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "OFFER_vassal_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "OFFER_vassal_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -7153,7 +7153,7 @@
  },
  "OFFER_vassal_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_vassal_NEWDESC": {
   "en": "Do we wish to demand that [COUNTRY.GetName] becomes our vassal?",
@@ -7241,7 +7241,7 @@
  },
  "ORGANIZATIONS_MEMBERS": {
   "en": "$NUM$",
-  "uk": ""
+  "uk": "$NUM$"
  },
  "ORG_CANT_ANNEX": {
   "en": "@trigger_no! [TARGET_COUNTRY.GetName] cannot be annexed in [INTERNATIONAL_ORGANIZATION.GetName] due to the following conditions:\\n$CONDITIONS$",
@@ -7293,7 +7293,7 @@
  },
  "PAYMENT_TO_OVERLORD_BREAKDOWN_MODIFIER": {
   "en": "$MODIFIER_NAME$: [COUNTRY.GetModifierValueNoSign('payment_to_overlord_modifier')]",
-  "uk": ""
+  "uk": "$MODIFIER_NAME$: [COUNTRY.GetModifierValueNoSign('payment_to_overlord_modifier')]"
  },
  "PAY_ECONOMIC_SUPPPORT_ENTRY": {
   "en": "[economic_support|e] to [COUNTRY.GetName]: $CHANGE$",
@@ -7321,7 +7321,7 @@
  },
  "PEACECOST_C_CAP": {
   "en": "[capital|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[capital|e]: $VAL|<+=$"
  },
  "PEACECOST_INDEPENDENCE_BASE": {
   "en": "Base: $VAL|V$",
@@ -7333,7 +7333,7 @@
  },
  "PEACECOST_PROV_BUILDINGS": {
   "en": "[buildings|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[buildings|e]: $VAL|<+=$"
  },
  "PEACECOST_PROV_CAP": {
   "en": "[province_capital|e]: $VAL|<+=$",
@@ -7341,19 +7341,19 @@
  },
  "PEACECOST_PROV_CITIZENS": {
   "en": "[population|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[population|e]: $VAL|<+=$"
  },
  "PEACECOST_PROV_DEVELOPMENT": {
   "en": "[development|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[development|e]: $VAL|<+=$"
  },
  "PEACECOST_PROV_PORT": {
   "en": "[port|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[port|e]: $VAL|<+=$"
  },
  "PEACECOST_PROV_RGO": {
   "en": "[rgo|e]: $VAL|<+=$",
-  "uk": ""
+  "uk": "[rgo|e]: $VAL|<+=$"
  },
  "PEACECOST_PROV_TAX": {
   "en": "[tax_base|e]: $VAL|<+=$",
@@ -7465,7 +7465,7 @@
  },
  "PEACE_COST_SCRIPTED_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|+=0$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|+=0$"
  },
  "PEACE_COST_UNOCCUPIED": {
   "en": "[LOCATION.GetName] has a [fort|e] and is not occupied: $VAL|-=%$\\n",
@@ -7649,11 +7649,11 @@
  },
  "PEACE_TREATY_ANTAGONISM_ANTAGONISEE_ENTRY": {
   "en": "[COUNTRY.GetLongNameWithFlag]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#! ($NEWTOTAL|Y$)",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#! ($NEWTOTAL|Y$)"
  },
  "PEACE_TREATY_ANTAGONISM_ANTAGONISEE_ENTRY_BAD": {
   "en": "[COUNTRY.GetLongNameWithFlag]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#! ($NEWTOTAL|R$)",
-  "uk": ""
+  "uk": "[COUNTRY.GetLongNameWithFlag]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#! ($NEWTOTAL|R$)"
  },
  "PEACE_TREATY_ANTAGONISM_ANTAGONISER_ENTRY": {
   "en": "This translates to:",
@@ -7677,11 +7677,11 @@
  },
  "PEACE_TREATY_ANTAGONISM_GAINED": {
   "en": "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!",
-  "uk": ""
+  "uk": "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!"
  },
  "PEACE_TREATY_ANTAGONISM_GAINED_NO_TOOLTIP": {
   "en": "$VAL|+-2=$",
-  "uk": ""
+  "uk": "$VAL|+-2=$"
  },
  "PEACE_TREATY_ANTAGONISM_MORE": {
   "en": "... and from $COUNT|Y$ more [locations|e]: $VAL|-=2$\\n",
@@ -7757,7 +7757,7 @@
  },
  "PEACE_TREATY_CEDE_CITY_short": {
   "en": "[LOCATION.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "[LOCATION.GetNameWithNoTooltip]"
  },
  "PEACE_TREATY_CEDE_PROVINCE": {
   "en": "[PROVINCE.GetCountry.GetFlagIcon] [PROVINCE.GetDefinition.GetName] [province|e] to [TARGET_COUNTRY.GetNameWithFlag]",
@@ -7769,11 +7769,11 @@
  },
  "PEACE_TREATY_CEDE_PROVINCE_MIXED_short": {
   "en": "@[PROVINCE.GetCountry.GetFlag]! [PROVINCE.GetDefinition.GetNameWithNoTooltip] [Localize('game_concept_province')]",
-  "uk": ""
+  "uk": "@[PROVINCE.GetCountry.GetFlag]! [PROVINCE.GetDefinition.GetNameWithNoTooltip] [Localize('game_concept_province')]"
  },
  "PEACE_TREATY_CEDE_PROVINCE_short": {
   "en": "@[PROVINCE.GetCountry.GetFlag]! [PROVINCE.GetDefinition.GetNameWithNoTooltip] [Localize('game_concept_province')]",
-  "uk": ""
+  "uk": "@[PROVINCE.GetCountry.GetFlag]! [PROVINCE.GetDefinition.GetNameWithNoTooltip] [Localize('game_concept_province')]"
  },
  "PEACE_TREATY_CEDE_RETURN_CORE": {
   "en": "@trigger_no![LOCATION.GetName] is already selected to be ceded",
@@ -7789,11 +7789,11 @@
  },
  "PEACE_TREATY_EFFECT_ENTRY": {
   "en": "$EFFECT$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!",
-  "uk": ""
+  "uk": "$EFFECT$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!"
  },
  "PEACE_TREATY_EFFECT_ENTRY_LOCATION": {
   "en": "$EFFECT$ ([LOCATION.GetName]): #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!",
-  "uk": ""
+  "uk": "$EFFECT$ ([LOCATION.GetName]): #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+-2=$#!"
  },
  "PEACE_TREATY_FORCE_MIGRATE": {
   "en": "[COUNTRY.GetNameWithFlag] migrates away from [PROVINCE.GetName]",
@@ -7837,15 +7837,15 @@
  },
  "PEACE_TREATY_IN_UI_ENTRY": {
   "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=L$#!",
-  "uk": ""
+  "uk": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=L$#!"
  },
  "PEACE_TREATY_IN_UI_ENTRY_POS": {
   "en": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2+=L$#!",
-  "uk": ""
+  "uk": "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2+=L$#!"
  },
  "PEACE_TREATY_IN_UI_ENTRY_POS_NO_BREAKDOWN": {
   "en": "$NAME$: $VAL|2+=$",
-  "uk": ""
+  "uk": "$NAME$: $VAL|2+=$"
  },
  "PEACE_TREATY_JUNOR_PARTNER": {
   "en": "Have new [ruler|e] installed: $VAL|+=$",
@@ -8009,7 +8009,7 @@
  },
  "PEACE_TREATY_S_NEW_RELATION": {
   "en": "[RELATION_TYPE.GetName]: $VAL|+=$",
-  "uk": ""
+  "uk": "[RELATION_TYPE.GetName]: $VAL|+=$"
  },
  "PEACE_TREATY_S_WAR_REPARATIONS": {
   "en": "[war_reparations|e]: $VAL|+=$",
@@ -8025,7 +8025,7 @@
  },
  "PEACE_TREATY_TYPE_MODIFIER": {
   "en": "$NAME$: $VAL|2-=%$",
-  "uk": ""
+  "uk": "$NAME$: $VAL|2-=%$"
  },
  "PEACE_TREATY_UNION": {
   "en": "[COUNTRY.GetNameWithFlag] installs [Character.GetName] as [ruler|e] of [TARGET_COUNTRY.GetName], creating a Personal Union if necessary",
@@ -8269,7 +8269,7 @@
  },
  "RELATION_TYPE_ITEM_TOOLTIP_TITLE_DEFAULT": {
   "en": "[RelationTypeItem.GetName|e]",
-  "uk": ""
+  "uk": "[RelationTypeItem.GetName|e]"
  },
  "RELATIVE_ARMY_SIZE": {
   "en": "Relative Size of [armies|e]",
@@ -8357,11 +8357,11 @@
  },
  "REQUEST_appanage_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_appanage_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_appanage_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8373,7 +8373,7 @@
  },
  "REQUEST_appanage_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_appanage_NEWDESC": {
   "en": "Do we wish to request that we become an appanage of [COUNTRY.GetName]? This will have the following effect:\\n$INFO$",
@@ -8405,11 +8405,11 @@
  },
  "REQUEST_dominion_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_dominion_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_dominion_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8425,7 +8425,7 @@
  },
  "REQUEST_dominion_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_dominion_NEWDESC": {
   "en": "Do we wish to request that we become a Dominion of [COUNTRY.GetName]?",
@@ -8461,11 +8461,11 @@
  },
  "REQUEST_fiefdom_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_fiefdom_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_fiefdom_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8477,7 +8477,7 @@
  },
  "REQUEST_fiefdom_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_fiefdom_NEWDESC": {
   "en": "Do we wish to request that we become a Fiefdom of [COUNTRY.GetName]?",
@@ -8509,11 +8509,11 @@
  },
  "REQUEST_hanseatic_member_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_hanseatic_member_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_hanseatic_member_CATEGORY": {
   "en": "CATEGORY_FRIENDLY_ACTIONS",
@@ -8525,7 +8525,7 @@
  },
  "REQUEST_hanseatic_member_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_hanseatic_member_NEWDESC": {
   "en": "Do we wish to request a membership in the Hanseatic League",
@@ -8569,11 +8569,11 @@
  },
  "REQUEST_march_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_march_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_march_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8589,7 +8589,7 @@
  },
  "REQUEST_march_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_march_NEWDESC": {
   "en": "Do we wish to request that we become a March of [COUNTRY.GetName]?",
@@ -8737,11 +8737,11 @@
  },
  "REQUEST_tributary_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_tributary_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_tributary_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8757,7 +8757,7 @@
  },
  "REQUEST_tributary_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_tributary_NEWDESC": {
   "en": "Do we wish to request that we become a $tributary$ of [COUNTRY.GetName]?",
@@ -8789,11 +8789,11 @@
  },
  "REQUEST_tusi_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_tusi_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_tusi_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8805,7 +8805,7 @@
  },
  "REQUEST_tusi_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_tusi_NEWDESC": {
   "en": "Do we wish to request that we become a $tusi$ of [COUNTRY.GetName]?",
@@ -8837,11 +8837,11 @@
  },
  "REQUEST_uc_bey_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_uc_bey_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_uc_bey_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8853,7 +8853,7 @@
  },
  "REQUEST_uc_bey_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_uc_bey_NEWDESC": {
   "en": "Do we wish to request that we become an $uc_bey$ of [COUNTRY.GetName]? This will have the following effect:\\n$INFO$",
@@ -8881,11 +8881,11 @@
  },
  "REQUEST_vassal_ALREADY_SUBJECT": {
   "en": "$country_already_a_subject$",
-  "uk": ""
+  "uk": "$country_already_a_subject$"
  },
  "REQUEST_vassal_AT_WAR": {
   "en": "$country_is_at_war$",
-  "uk": ""
+  "uk": "$country_is_at_war$"
  },
  "REQUEST_vassal_CATEGORY": {
   "en": "CATEGORY_SUBJECT_ACTIONS",
@@ -8901,7 +8901,7 @@
  },
  "REQUEST_vassal_LOWER_IN_SUBJECT_CHAIN": {
   "en": "$country_lower_in_subject_chain$",
-  "uk": ""
+  "uk": "$country_lower_in_subject_chain$"
  },
  "REQUEST_vassal_NEWDESC": {
   "en": "Do we wish to request that we become a Vassal of [COUNTRY.GetName]?",
@@ -9101,7 +9101,7 @@
  },
  "RIVALS_SELECT_RIVAL_DESC": {
   "en": "$game_concept_rival_desc$",
-  "uk": ""
+  "uk": "$game_concept_rival_desc$"
  },
  "RIVALS_SELECT_RIVAL_SPECIFIC_DESC": {
   "en": "Select [COUNTRY.GetName] as [rival|e].",
@@ -9253,11 +9253,11 @@
  },
  "SAILORS_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasSailorsIntelOn(Country.Self), 'SAILORS_VALUE_EXISTS', 'INTEL_FOG_SAILORS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasSailorsIntelOn(Country.Self), 'SAILORS_VALUE_EXISTS', 'INTEL_FOG_SAILORS_UNKNOWN')]"
  },
  "SAILORS_VALUE_EXISTS": {
   "en": "[Country.GetCurrencyValue('sailors')|0]",
-  "uk": ""
+  "uk": "[Country.GetCurrencyValue('sailors')|0]"
  },
  "SAME_UNION": {
   "en": "Same [union|e]",
@@ -9533,11 +9533,11 @@
  },
  "SELECT_WARGOAL_CASUS_BELLI": {
   "en": "$CASUS_BELLI$ $ON_BEHALF_OF$",
-  "uk": ""
+  "uk": "$CASUS_BELLI$ $ON_BEHALF_OF$"
  },
  "SELECT_WARGOAL_ON_BEHALF_OF": {
   "en": "- [COUNTRY.GetNameWithFlagWithNoTooltip]",
-  "uk": ""
+  "uk": "- [COUNTRY.GetNameWithFlagWithNoTooltip]"
  },
  "SELLLOCATIONDESC": {
   "en": "Pick a target Location to fulfill this action with $COUNTRY$.",
@@ -9649,11 +9649,11 @@
  },
  "SIEGE_ABILITY_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'SIEGE_ABILITY_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasCombatModifiersIntelOn(Country.Self), 'SIEGE_ABILITY_VALUE_EXISTS', 'INTEL_FOG_COMBAT_MODIFIERS_UNKNOWN')]"
  },
  "SIEGE_ABILITY_VALUE_EXISTS": {
   "en": "[Country.GetModifierValueNoFormat('siege_ability')]",
-  "uk": ""
+  "uk": "[Country.GetModifierValueNoFormat('siege_ability')]"
  },
  "SPYNETWORK_BENEFITS_SIEGE": {
   "en": "• It speeds up our sieges of their land by $VAL|+=2%$",
@@ -9709,11 +9709,11 @@
  },
  "STABILITY_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasStabilityIntelOn(Country.Self), 'STABILITY_VALUE_EXISTS', 'INTEL_FOG_STABILITY_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasStabilityIntelOn(Country.Self), 'STABILITY_VALUE_EXISTS', 'INTEL_FOG_STABILITY_UNKNOWN')]"
  },
  "STABILITY_VALUE_EXISTS": {
   "en": "[ForeignCountryView.GetCountry.GetFixedPointCurrencyValue('stability')|2]",
-  "uk": ""
+  "uk": "[ForeignCountryView.GetCountry.GetFixedPointCurrencyValue('stability')|2]"
  },
  "STATUS_ANTAGONISM_ALERT_TT": {
   "en": "Status",
@@ -9797,7 +9797,7 @@
  },
  "SUBJECT_INCOME_BREAKDOWN_MODIFIER": {
   "en": "$MODIFIER_NAME$: [COUNTRY.GetModifierValueNoSign('subject_income_modifier')]",
-  "uk": ""
+  "uk": "$MODIFIER_NAME$: [COUNTRY.GetModifierValueNoSign('subject_income_modifier')]"
  },
  "SUBJECT_INSTITUTION_SPREAD": {
   "en": "$EFFECT_LIST_BULLET$$NAME$ spreads $VAL|+=2%$ [embraced|e] [institutions|e] to $CAPITAL$.",
@@ -9853,7 +9853,7 @@
  },
  "SUBJECT_PAYS_ENTRY": {
   "en": "[COUNTRY.GetName]($TYPE$): $CHANGE$",
-  "uk": ""
+  "uk": "[COUNTRY.GetName]($TYPE$): $CHANGE$"
  },
  "SUBJECT_PAYS_OVERLORD_ENTRY": {
   "en": "$SUBJECT$ pays $COST$",
@@ -10533,7 +10533,7 @@
  },
  "TRUST_DIPLOMATIC_REPUTATION_RECOVERY": {
   "en": "[diplomatic_reputation|e]: $VAL|+=2$",
-  "uk": ""
+  "uk": "[diplomatic_reputation|e]: $VAL|+=2$"
  },
  "TRUST_MODIFIER": {
   "en": "[trust|e]: $VALUE|-=%Y$",
@@ -10545,27 +10545,27 @@
  },
  "TWO_DP_ENTRY_FORMAT_MULTIPLIER": {
   "en": "$KEY|Y$: $VALUE|2$",
-  "uk": ""
+  "uk": "$KEY|Y$: $VALUE|2$"
  },
  "TWO_DP_ENTRY_FORMAT_MULTIPLIER_SIGNED": {
   "en": "$KEY|Y$: $VALUE|=$",
-  "uk": ""
+  "uk": "$KEY|Y$: $VALUE|=$"
  },
  "TWO_DP_ENTRY_FORMAT_PERCENT": {
   "en": "$KEY|Y$: $VALUE|+2%$",
-  "uk": ""
+  "uk": "$KEY|Y$: $VALUE|+2%$"
  },
  "TWO_DP_ENTRY_FORMAT_PERCENT_MULTIPLIER": {
   "en": "$KEY|Y$: $VALUE|+=2%$",
-  "uk": ""
+  "uk": "$KEY|Y$: $VALUE|+=2%$"
  },
  "TWO_DP_ENTRY_FORMAT_PERCENT_MULTIPLIER_NEG": {
   "en": "$KEY|Y$: $VALUE|-=2%$",
-  "uk": ""
+  "uk": "$KEY|Y$: $VALUE|-=2%$"
  },
  "TWO_DP_NEG_ENTRY_FORMAT": {
   "en": "$KEY$: $VALUE|-=2$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|-=2$"
  },
  "UNCONDITIONALSURRENDEROFFERDESC": {
   "en": "[COUNTRY.GetName] have [unconditionally_surrendered|e] to us. We have $MONTHS$ months to agree a [peace_treaty|e] before we start accumulating serious [war_exhaustion|e]. Let's set our diplomats to work!",
@@ -10641,7 +10641,7 @@
  },
  "UPKEEP_BLOC_SATURATION": {
   "en": "[alliance_bloc|e]",
-  "uk": ""
+  "uk": "[alliance_bloc|e]"
  },
  "UPKEEP_GUARANTEE": {
   "en": "[guarantee|e]",
@@ -10709,7 +10709,7 @@
  },
  "VOTED_ENTRY_BREAKDOWN_FORMAT": {
   "en": "$KEY$: $VALUE|0$",
-  "uk": ""
+  "uk": "$KEY$: $VALUE|0$"
  },
  "VS": {
   "en": "vs",
@@ -10765,11 +10765,11 @@
  },
  "WAR_ARMY_STRENGTH_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasLevyStrengthIntelOn(Country.Self), 'WAR_ARMY_STRENGTH_VALUE_EXISTS', 'INTEL_FOG_LEVY_STRENGTH_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasLevyStrengthIntelOn(Country.Self), 'WAR_ARMY_STRENGTH_VALUE_EXISTS', 'INTEL_FOG_LEVY_STRENGTH_UNKNOWN')]"
  },
  "WAR_ARMY_STRENGTH_VALUE_EXISTS": {
   "en": "[Country.GetRaisedAndPotentialLevyStrength] [levies_icon] / [Country.GetRegularArmySize|0L] [regulars_icon]",
-  "uk": ""
+  "uk": "[Country.GetRaisedAndPotentialLevyStrength] [levies_icon] / [Country.GetRegularArmySize|0L] [regulars_icon]"
  },
  "WAR_AS_GOOD_AS_OVER": {
   "en": "@trigger_no! The war is as good as over",
@@ -10921,11 +10921,11 @@
  },
  "WAR_NAVY_STRENGTH_VALUE_DISPLAY": {
   "en": "[SelectLocalization(HasNavyLevyStrengthIntelOn(Country.Self), 'WAR_NAVY_STRENGTH_VALUE_EXISTS', 'INTEL_FOG_NAVY_LEVY_STRENGTH_UNKNOWN')]",
-  "uk": ""
+  "uk": "[SelectLocalization(HasNavyLevyStrengthIntelOn(Country.Self), 'WAR_NAVY_STRENGTH_VALUE_EXISTS', 'INTEL_FOG_NAVY_LEVY_STRENGTH_UNKNOWN')]"
  },
  "WAR_NAVY_STRENGTH_VALUE_EXISTS": {
   "en": "[Country.GetNavyLevyPower|0L] [navy_levies_icon] ([Country.GetNavySizeValue|0L] @naval_regular!)",
-  "uk": ""
+  "uk": "[Country.GetNavyLevyPower|0L] [navy_levies_icon] ([Country.GetNavySizeValue|0L] @naval_regular!)"
  },
  "WAR_PARTICIPATION": {
   "en": "War Participation",
@@ -11153,7 +11153,7 @@
  },
  "direct_imperial_free_city_subject_modifier": {
   "en": "$direct_imperial_free_city$",
-  "uk": ""
+  "uk": "$direct_imperial_free_city$"
  },
  "economic_hegemon": {
   "en": "Economic Hegemon",
@@ -11257,7 +11257,7 @@
  },
  "imperial_free_city_subject_modifier": {
   "en": "$imperial_free_city$",
-  "uk": ""
+  "uk": "$imperial_free_city$"
  },
  "integrated_LEVELNAME": {
   "en": "an Integrated",
@@ -11365,7 +11365,7 @@
  },
  "sell_buy_send_offer": {
   "en": "$PEACE_OFFER_SEND_OFFER$",
-  "uk": ""
+  "uk": "$PEACE_OFFER_SEND_OFFER$"
  },
  "sell_province_final": {
   "en": "[SCOPE.sLocation('target_location').GetName] will be sold to [SCOPE.sCountry('recipient').GetName] for [SCOPE.GetValue('target_price')|0][gold_i]",
@@ -11405,7 +11405,7 @@
  },
  "war_goal_clan_expansion_wargoal_desc": {
   "en": "$war_goal_destroy_army_desc$",
-  "uk": ""
+  "uk": "$war_goal_destroy_army_desc$"
  },
  "war_goal_conquer_province": {
   "en": "Take [PROVINCE.GetNameWithNoTooltip]",
@@ -11417,19 +11417,19 @@
  },
  "war_goal_crusade_conquest": {
   "en": "$generic_war_goal_take_province$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province$"
  },
  "war_goal_crusade_conquest_desc": {
   "en": "$generic_war_goal_take_province_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province_desc$"
  },
  "war_goal_defend_capital": {
   "en": "$generic_war_goal_defend_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_defend_capital$"
  },
  "war_goal_defend_capital_desc": {
   "en": "$generic_war_goal_defend_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_defend_capital$"
  },
  "war_goal_demand_military_access": {
   "en": "$generic_war_goal_superiority$",
@@ -11441,11 +11441,11 @@
  },
  "war_goal_destroy_army": {
   "en": "$generic_war_goal_destroy_army$",
-  "uk": ""
+  "uk": "$generic_war_goal_destroy_army$"
  },
  "war_goal_destroy_army_desc": {
   "en": "$generic_war_goal_destroy_army_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_destroy_army_desc$"
  },
  "war_goal_dissolve_tatar_yoke_wargoal": {
   "en": "Dissolve the Tatar Yoke",
@@ -11453,23 +11453,23 @@
  },
  "war_goal_dissolve_tatar_yoke_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_enforce_military_access": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_enforce_military_access_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_excommunication_conquest": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_excommunication_conquest_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_fabricated_conquer_province": {
   "en": "Take [PROVINCE.GetNameWithNoTooltip]",
@@ -11481,11 +11481,11 @@
  },
  "war_goal_false_ilkhan_claimant_wargoal": {
   "en": "$cb_false_ilkhan_claimant$",
-  "uk": ""
+  "uk": "$cb_false_ilkhan_claimant$"
  },
  "war_goal_false_ilkhan_claimant_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_great_northern_conflict_conquest": {
   "en": "$great_northern_conflict$ Conquest",
@@ -11493,7 +11493,7 @@
  },
  "war_goal_great_northern_conflict_conquest_desc": {
   "en": "$great_northern_conflict_desc$",
-  "uk": ""
+  "uk": "$great_northern_conflict_desc$"
  },
  "war_goal_high_kingship_reclamation_wargoal": {
   "en": "High Kingship Reclamation",
@@ -11501,7 +11501,7 @@
  },
  "war_goal_high_kingship_reclamation_wargoal_desc": {
   "en": "$generic_war_goal_take_province$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province$"
  },
  "war_goal_high_kingship_subjugate_wargoal": {
   "en": "High Kingship Subjugation",
@@ -11509,7 +11509,7 @@
  },
  "war_goal_high_kingship_subjugate_wargoal_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_high_kingship_superiority_wargoal": {
   "en": "High Kingship Superiority",
@@ -11517,7 +11517,7 @@
  },
  "war_goal_high_kingship_superiority_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_humiliate": {
   "en": "Humiliate",
@@ -11533,39 +11533,39 @@
  },
  "war_goal_hundred_years_war_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_imperial_ban_conquer_province": {
   "en": "$war_goal_conquer_province$",
-  "uk": ""
+  "uk": "$war_goal_conquer_province$"
  },
  "war_goal_imperial_ban_conquer_province_desc": {
   "en": "$war_goal_conquer_province_desc$",
-  "uk": ""
+  "uk": "$war_goal_conquer_province_desc$"
  },
  "war_goal_independence": {
   "en": "$generic_war_goal_independence$",
-  "uk": ""
+  "uk": "$generic_war_goal_independence$"
  },
  "war_goal_independence_annexing_me": {
   "en": "$generic_war_goal_independence$",
-  "uk": ""
+  "uk": "$generic_war_goal_independence$"
  },
  "war_goal_independence_annexing_me_desc": {
   "en": "$generic_war_goal_independence_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_independence_desc$"
  },
  "war_goal_independence_desc": {
   "en": "$generic_war_goal_independence_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_independence_desc$"
  },
  "war_goal_jihad_conquest": {
   "en": "$generic_war_goal_take_province$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province$"
  },
  "war_goal_jihad_conquest_desc": {
   "en": "$generic_war_goal_take_province_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province_desc$"
  },
  "war_goal_league_of_public_weal_wargoal": {
   "en": "War of the Public Weal",
@@ -11577,11 +11577,11 @@
  },
  "war_goal_nanbokuchou_wargoal": {
   "en": "$nanbokuchou$",
-  "uk": ""
+  "uk": "$nanbokuchou$"
  },
  "war_goal_nanbokuchou_wargoal_desc": {
   "en": "$war_goal_destroy_army_desc$",
-  "uk": ""
+  "uk": "$war_goal_destroy_army_desc$"
  },
  "war_goal_naval": {
   "en": "Show Naval Superiority",
@@ -11609,19 +11609,19 @@
  },
  "war_goal_red_turban_rebellions_against_other_rebels_wargoal": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_red_turban_rebellions_against_other_rebels_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_red_turban_rebellions_wargoal": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_red_turban_rebellions_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_religious_conquer_province": {
   "en": "Take [PROVINCE.GetNameWithNoTooltip]",
@@ -11633,11 +11633,11 @@
  },
  "war_goal_religious_superiority_wargoal": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_religious_superiority_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_secure_italy_wargoal": {
   "en": "Secure [ShowRegionName('italy_region')]",
@@ -11649,31 +11649,31 @@
  },
  "war_goal_sengoku_wargoal": {
   "en": "$sengoku$",
-  "uk": ""
+  "uk": "$sengoku$"
  },
  "war_goal_sengoku_wargoal_desc": {
   "en": "$war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$war_goal_superiority_desc$"
  },
  "war_goal_shed_shackles_of_ilkhanate_wargoal": {
   "en": "$cb_shed_shackles_of_the_ilkahante$",
-  "uk": ""
+  "uk": "$cb_shed_shackles_of_the_ilkahante$"
  },
  "war_goal_shed_shackles_of_ilkhanate_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_against_hordes": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_against_hordes_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_beaver_war": {
   "en": "Beaver War",
@@ -11681,7 +11681,7 @@
  },
  "war_goal_superiority_beaver_war_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_chinese_unification": {
   "en": "Conquer China",
@@ -11689,7 +11689,7 @@
  },
  "war_goal_superiority_chinese_unification_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_claim_china": {
   "en": "Conquest of China",
@@ -11697,23 +11697,23 @@
  },
  "war_goal_superiority_claim_china_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_coalition": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_coalition_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_coalition_scaliger_war": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_coalition_scaliger_war_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_desc": {
   "en": "[war_goal|e] is to win more battles than our enemy.",
@@ -11721,7 +11721,7 @@
  },
  "war_goal_superiority_flower_wars": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_flower_wars_desc": {
   "en": "[war_goal|e] is to capture enemy nobles.",
@@ -11729,15 +11729,15 @@
  },
  "war_goal_superiority_force_migration": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_force_migration_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_heretic": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_heretic_desc": {
   "en": "[war_goal|e] is to win more battles than our heretic enemy.",
@@ -11745,7 +11745,7 @@
  },
  "war_goal_superiority_horde": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_horde_desc": {
   "en": "[war_goal|e] is to show military superiority. Get bonus [war_score|e] from winning land battles.",
@@ -11757,19 +11757,19 @@
  },
  "war_goal_superiority_lat_reconquest_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_livonian_wars": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_livonian_wars_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_push_back_colonizers": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_push_back_colonizers_desc": {
   "en": "[war_goal|e] is to take enemy's locations of a non-Tribal neighbor.",
@@ -11777,11 +11777,11 @@
  },
  "war_goal_superiority_raiding": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_raiding_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_reclaim_andalucia": {
   "en": "Restoration of $ADU$",
@@ -11789,7 +11789,7 @@
  },
  "war_goal_superiority_reclaim_andalucia_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_superiority_restore_roman_borders": {
   "en": "Restore $ROM_ADJ$ Borders",
@@ -11801,11 +11801,11 @@
  },
  "war_goal_superiority_rival": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_superiority_rival_desc": {
   "en": "$war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$war_goal_superiority_desc$"
  },
  "war_goal_superiority_sco_invade_england": {
   "en": "Invasion of England",
@@ -11813,7 +11813,7 @@
  },
  "war_goal_superiority_sco_invade_england_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_take_border": {
   "en": "Take Border Province [PROVINCE.GetNameWithNoTooltip]",
@@ -11825,7 +11825,7 @@
  },
  "war_goal_take_capital": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_claim_throne": {
   "en": "Take the Capital [PROVINCE.GetNameWithNoTooltip] and install [CHARACTER.GetName] as their [ruler|e]",
@@ -11837,35 +11837,35 @@
  },
  "war_goal_take_capital_colony_war": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_colony_war_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_enforce_hegemon_demands": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_enforce_hegemon_demands_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_gag_force_country_into_faction": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_gag_force_country_into_faction_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_imperial": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_imperial_desc": {
   "en": "[war_goal|e] is to take Emperor's Capital.",
@@ -11877,7 +11877,7 @@
  },
  "war_goal_take_capital_liberate_hre_member_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_lodi_claims": {
   "en": "Claims over Delhi",
@@ -11885,39 +11885,39 @@
  },
  "war_goal_take_capital_lodi_claims_desc": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_prevent_annexation": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_prevent_annexation_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_sound_toll": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_sound_toll_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_subjugation": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_subjugation_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_capital_tributary": {
   "en": "$generic_war_goal_take_capital$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital$"
  },
  "war_goal_take_capital_tributary_desc": {
   "en": "$generic_war_goal_take_capital_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_capital_desc$"
  },
  "war_goal_take_country": {
   "en": "Take [COUNTRY.GetNameWithNoTooltip]",
@@ -11929,7 +11929,7 @@
  },
  "war_goal_take_province_nationalist": {
   "en": "$generic_war_goal_take_province$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province$"
  },
  "war_goal_take_province_nationalist_desc": {
   "en": "[war_goal|e] is to take the enemy country. Get bonus [war_score|e] from occupying enemy territory of our [culture_group|e].",
@@ -11937,7 +11937,7 @@
  },
  "war_goal_take_province_tribal_feud": {
   "en": "$generic_war_goal_take_province$",
-  "uk": ""
+  "uk": "$generic_war_goal_take_province$"
  },
  "war_goal_take_province_tribal_feud_desc": {
   "en": "[war_goal|e] is to take the target province. Get bonus [war_score|e] from occupying the target province. We will receive a ticking [war_score|e] from holding the province.",
@@ -11949,15 +11949,15 @@
  },
  "war_goal_take_shogunate_wargoal_desc": {
   "en": "$war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$war_goal_superiority_desc$"
  },
  "war_goal_timurs_war_superiority": {
   "en": "$generic_war_goal_superiority$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority$"
  },
  "war_goal_timurs_war_superiority_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_goal_unify_ilkhanate_wargoal": {
   "en": "Show Horde Superiority",
@@ -11965,7 +11965,7 @@
  },
  "war_goal_unify_ilkhanate_wargoal_desc": {
   "en": "$generic_war_goal_superiority_desc$",
-  "uk": ""
+  "uk": "$generic_war_goal_superiority_desc$"
  },
  "war_good_relations": {
   "en": "Declaring [war|e] with Good Relations",

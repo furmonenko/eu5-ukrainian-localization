@@ -267,7 +267,8 @@ def cmd_status(args):
             total_done += done
             total_all += len(keys)
             if done or args.all:
-                print(f'{root:15} {relpath:45} {done:5}/{len(keys):<5} {100 * done // len(keys):3}%')
+                pct = 100 * done // len(keys) if keys else 100
+                print(f'{root:15} {relpath:45} {done:5}/{len(keys):<5} {pct:3}%')
     if total_all:
         print(f'{"total":61} {total_done:5}/{total_all:<5} {100 * total_done // total_all:3}%')
 

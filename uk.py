@@ -309,11 +309,15 @@ def mod_dir(release=False):
 
 
 def _mark_dev(dst):
-    """Give the installed copy its own id and a visible name, so the launcher lists two mods."""
+    """Give the installed copy its own id and a visible name, so the launcher lists two mods.
+
+    No square brackets in the name: the game substitutes it into $MOD$ rows such as
+    MODS_GUI_MOD_CHECKSUM_WARNING, where [x] is parsed as a data-system function call
+    ("Could not find data system function 'DEV'") and the string fails to render."""
     path = dst / '.metadata' / 'metadata.json'
     meta = load_json(path)
     meta['id'] = DEV_MOD_ID
-    meta['name'] = f'[DEV] {meta["name"]}'
+    meta['name'] = f'DEV {meta["name"].replace("[", "(").replace("]", ")")}'
     meta['version'] = f'{MOD_VERSION}-dev'
     save_json(path, meta)
 

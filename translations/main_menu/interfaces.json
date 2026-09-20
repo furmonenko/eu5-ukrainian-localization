@@ -521,11 +521,11 @@
  },
  "AI_SETTING_HANDLE_INTERNATIONAL_ORGANIZATIONS": {
   "en": "Allow handling [international_organizations|e]",
-  "uk": "Дозволити взаємодію з [Concept('international_organizations','міжнародними об'єднаннями')|e]"
+  "uk": "Дозволити взаємодію з [Concept('international_organizations','міжнародними об’єднаннями')|e]"
  },
  "AI_SETTING_HANDLE_INTERNATIONAL_ORGANIZATIONS_TT": {
   "en": "Whether AI will interact with, create or join [international_organizations|e].",
-  "uk": "Визначає, чи будуть держави під керуванням комп'ютера взаємодіяти з [Concept('international_organizations','міжнародними об'єднаннями')|e], створювати їх або приєднуватися до них."
+  "uk": "Визначає, чи будуть держави під керуванням комп'ютера взаємодіяти з [Concept('international_organizations','міжнародними об’єднаннями')|e], створювати їх або приєднуватися до них."
  },
  "AI_SETTING_HANDLE_MARITIME_GEOPOLITICS": {
   "en": "Allow handling Maritime Geopolitics",
@@ -2169,15 +2169,15 @@
  },
  "BASE_ACP_LANGUAGE_FAMILY_COMMON": {
   "en": "[common_language|e] also in [LANGUAGE.GetFamily.GetName] [language_family_short|e]: $VAL|-=%2$",
-  "uk": "[Concept('common_language','Загальноприйнята мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім'ї')|e]: $VAL|-=%2$"
+  "uk": "[Concept('common_language','Загальноприйнята мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім’ї')|e]: $VAL|-=%2$"
  },
  "BASE_ACP_LANGUAGE_FAMILY_COURT": {
   "en": "[court_language|e] also in [LANGUAGE.GetFamily.GetName] [language_family_short|e]: $VAL|-=%2$",
-  "uk": "[Concept('court_language','Придворна мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім'ї')|e]: $VAL|-=%2$"
+  "uk": "[Concept('court_language','Придворна мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім’ї')|e]: $VAL|-=%2$"
  },
  "BASE_ACP_LANGUAGE_FAMILY_LITURGICAL": {
   "en": "[liturgical_language|e] also in [LANGUAGE.GetFamily.GetName] [language_family_short|e]: $VAL|-=%2$",
-  "uk": "[Concept('liturgical_language','Літургійна мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім'ї')|e]: $VAL|-=%2$"
+  "uk": "[Concept('liturgical_language','Літургійна мова')|e] теж входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short','сім’ї')|e]: $VAL|-=%2$"
  },
  "BASE_ACP_LANGUAGE_LITURGICAL": {
   "en": "[liturgical_language|e] also [LANGUAGE.GetName]: $VAL|-=%2$",
@@ -4781,7 +4781,7 @@
  },
  "CHILD_ED_ADULT": {
   "en": "@trigger_no![CHARACTER.GetName] is an [adult|e]",
-  "uk": "@trigger_no! [CHARACTER.GetName] вже [Concept('adult', 'Select_CString(CHARACTER.IsFemale,'доросла','дорослий')')|e]."
+  "uk": "@trigger_no! [CHARACTER.GetName] вже [Select_CString(CHARACTER.IsFemale,'доросла','дорослий')] — [Concept('adult','повнолітній вік')|e]."
  },
  "CHILD_ED_ALLOW_TRIGGER_NO": {
   "en": "$WHY$",
@@ -5429,7 +5429,7 @@
  },
  "CONTROL_GROUPS_TT_INTERNATIONAL_ORG_LEFT_CLICK": {
   "en": "Select this [international_organization|e]",
-  "uk": "Вибрати це [Concept('international_organization','міжнародне об'єднання')|e]"
+  "uk": "Вибрати це [Concept('international_organization','міжнародне об’єднання')|e]"
  },
  "CONTROL_GROUPS_TT_LOCATION_LEFT_CLICK": {
   "en": "Select this [location|e]",
@@ -7029,7 +7029,7 @@
  },
  "DIPLOMACY_ORGANIZATIONS_TAB_TEXT": {
   "en": "From here you can access the list of [international_organizations|e] known to your [country|e], as well as the list of eight [great_powers|e] who sit at the top of the international concert.",
-  "uk": "Тут можна переглянути відомі вашій [Concept('country', 'державі')|e] [Concept('international_organizations', 'міжнародні об'єднання')|e], а також ознайомитися зі списком з восьми [Concept('great_powers', 'великих держав')|e] — найсильніших цього світу."
+  "uk": "Тут можна переглянути відомі вашій [Concept('country', 'державі')|e] [Concept('international_organizations', 'міжнародні об’єднання')|e], а також ознайомитися зі списком з восьми [Concept('great_powers', 'великих держав')|e] — найсильніших цього світу."
  },
  "DIPLOMACY_OVERVIEW": {
   "en": "Diplomacy of [Player.GetName]",
@@ -7161,7 +7161,7 @@
  },
  "DIP_CASUS_BELLI_CREATION_ONGOING": {
   "en": "Creating the [casus_belli|e] [CASUS_BELLI.GetName] in [Country.GetLongNameWithNoTooltip]",
-  "uk": "Створення [Concept('casus_belli','приводу для війни')|e] «[CASUS_BELLI.GetName]» у державі [Country.GetLongNameWithNoTooltip"
+  "uk": "Створення [Concept('casus_belli','приводу для війни')|e] «[CASUS_BELLI.GetName]» у державі [Country.GetLongNameWithNoTooltip]"
  },
  "DIP_CASUS_BELLI_CREATION_ONGOING_TT": {
   "en": "Creating Casus Belli in [Country.GetLongNameWithNoTooltip]",
@@ -12101,7 +12101,7 @@
  },
  "LEGEND_KEY_TRUCE": {
   "en": "[truce|e]",
-  "uk": "[Concept('truce','Перемир'я')|e]"
+  "uk": "[Concept('truce','Перемир’я')|e]"
  },
  "LEGEND_KEY_VALUE": {
   "en": "$VALUE|0$",
@@ -14065,7 +14065,7 @@
  },
  "MAPMODE_INTERNATIONAL_ORGANIZATION": {
   "en": "#T $mapmode_international_organization_name$#!\\nThis colors the territory of the currently selected [international_organization|e]. Coloring differs depending on the type of the organization.",
-  "uk": "#T $mapmode_international_organization_name$#!\\nФарбує територію обраного [Concept('international_organization','міжнародного об'єднання')|e]. Фарбування змінюється залежно від типу організації."
+  "uk": "#T $mapmode_international_organization_name$#!\\nФарбує територію обраного [Concept('international_organization','міжнародного об’єднання')|e]. Фарбування змінюється залежно від типу організації."
  },
  "MAPMODE_LABORERS": {
   "en": "#T $mapmode_laborers_name$#!\\nEach [location|e] is colored from red to green depending on how many [ShowPopTypeName('laborers')] it has, compared to the most industrious location.",
@@ -14081,7 +14081,7 @@
  },
  "MAPMODE_LANGUAGE_FAMILY": {
   "en": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ the [language_family|e] of their [dominant_language|e].",
-  "uk": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ [Concept('language_family','мовної сім'ї')|e] [Concept('dominant_language','домінантної мови')|e]."
+  "uk": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ [Concept('language_family','мовної сім’ї')|e] [Concept('dominant_language','домінантної мови')|e]."
  },
  "MAPMODE_LANGUAGE_POWER": {
   "en": "#T $mapmode_language_power_name$#!\\n$mapmode_common_start$ the [language_power|e] of their [dominant_language|e].",
@@ -14865,7 +14865,7 @@
  },
  "MARKET_ATTRACTION_COUNTRY_COMMON_LANGUAGE_GROUP": {
   "en": "[COUNTRY.GetNameWithFlag] [common_language|e] in same [language_family|e]: $VAL|+0%$\\n",
-  "uk": "[Concept('common_language','Загальноприйнята мова')|e] @[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! належить до тієї ж [Concept('language_family','мовної сім'ї')|e]: $VAL|+0%$\\n"
+  "uk": "[Concept('common_language','Загальноприйнята мова')|e] @[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! належить до тієї ж [Concept('language_family','мовної сім’ї')|e]: $VAL|+0%$\\n"
  },
  "MARKET_ATTRACTION_FLOW": {
   "en": "Diplomatic Treaties: $FLOW$\\n",
@@ -14889,7 +14889,7 @@
  },
  "MARKET_ATTRACTION_LOCATION_DOMINANT_LANGUAGE_GROUP": {
   "en": "[LOCATION.GetName] [dominant_language|e] in same [language_family|e]: $VAL|+0%$\\n",
-  "uk": "[Concept('dominant_language','Домінуюча мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName] належить до тієї ж [Concept('language_family','мовної сім'ї')|e]: $VAL|+0%$\\n"
+  "uk": "[Concept('dominant_language','Домінуюча мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName] належить до тієї ж [Concept('language_family','мовної сім’ї')|e]: $VAL|+0%$\\n"
  },
  "MARKET_ATTRACTION_NO_PROTECTION": {
   "en": "[trade_protection|e] lifted, so no penalty of $PROTECTION|%$\\n",
@@ -14905,7 +14905,7 @@
  },
  "MARKET_ATTRACTION_POWER": {
   "en": "[market_attraction_with_icon|e]: #TOOLTIP:$BREAKDOWN_TAG$ $POWER|+0%$#!\\n",
-  "uk": "[Concept('market_attraction', '@market_attraction! Ринкова привабливість')|e]')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $POWER|+0%$#!\\n"
+  "uk": "[Concept('market_attraction', '@market_attraction! Ринкова привабливість')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $POWER|+0%$#!\\n"
  },
  "MARKET_ATTRACTION_POWER_DET": {
   "en": "Market Attraction of $VAL$ is due to:",
@@ -19061,7 +19061,7 @@
  },
  "NO_POSSIBLE_INTERNATIONAL_ORGANIZATIONS": {
   "en": "@trigger_no! There are no [international_organizations|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('international_organizations', 'міжнародних об'єднань')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('international_organizations', 'міжнародних об’єднань')|e]."
  },
  "NO_POSSIBLE_INTERNATIONAL_ORGANIZATION_LAND_OWNERSHIP_RULE": {
   "en": "@trigger_no! There are no [land_ownership_rule|e] possible to select for this.",
@@ -19077,7 +19077,7 @@
  },
  "NO_POSSIBLE_INTERNATIONAL_ORGANIZATION_TYPES": {
   "en": "@trigger_no! There are no [international_organization_types|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('international_organization_types', 'типів міжнародних об'єднань')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('international_organization_types', 'типів міжнародних об’єднань')|e]."
  },
  "NO_POSSIBLE_LANGUAGES": {
   "en": "@trigger_no! There are no [languages|e] possible to select for this.",
@@ -19889,7 +19889,7 @@
  },
  "OPEN_INTERNATIONAL_ORGANIZATION": {
   "en": "Show [international_organization|e]",
-  "uk": "Показати [Concept('international_organization','міжнародне об'єднання')|e]"
+  "uk": "Показати [Concept('international_organization','міжнародне об’єднання')|e]"
  },
  "OPEN_LOCATION": {
   "en": "Show [location|e]",
@@ -20061,7 +20061,7 @@
  },
  "ORGANIZATIONS_KNOWN_TAB_TEXT": {
   "en": "The list of [international_organizations|e] known to your [country|e].",
-  "uk": "Список відомих вашій [Concept('country', 'державі')|e] [Concept('international_organizations', 'міжнародних об'єднань')|e]."
+  "uk": "Список відомих вашій [Concept('country', 'державі')|e] [Concept('international_organizations', 'міжнародних об’єднань')|e]."
  },
  "ORIGIN_LINE": {
   "en": "Origin of the Line:",

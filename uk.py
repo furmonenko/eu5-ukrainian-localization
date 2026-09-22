@@ -124,7 +124,7 @@ def source_strings(root, game_dir=None, baseline=None):
 _TOKEN_RE = re.compile(r'\$[^$\s]*\$|\[[^\[\]]*\]|#[\w;:.\-]+|#!|£[^£\s]+£|@[^!\s]+!|§.|\\n')
 
 
-_CONCEPT_RE = re.compile(r"^\[Concept\('([^']+)'\s*,\s*'.*'\)\|[eE]\]$|^\[([A-Za-z0-9_]+)\|[eE]\]$")
+_CONCEPT_RE = re.compile(r"^\[Concept\('([^']+)'\s*,\s*'.*'\)(?:\|[eE])?\]$|^\[([A-Za-z0-9_]+)(?:\|[eE])?\]$")
 _FORMAT_RE = re.compile(r'^(#[\w;:.\-]+|#!|\\n)$')
 _VAR_RE = re.compile(r'^\$([^$|]+)(\|[^$]*)?\$$')
 _SCOPE_RE = re.compile(r'^\[(.+?)(\.[A-Za-z_]+(\([^()]*\))?)?(\|[^\]|]*)?\]$')

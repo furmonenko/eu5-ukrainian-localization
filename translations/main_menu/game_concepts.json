@@ -153,7 +153,7 @@
  },
  "game_concept_age_desc": {
   "en": "$game_concept_age_upper_desc$\\n\\n[ShowDatabase('age')]\\n\\n$game_concept_age_lower_desc$",
-  "uk": ""
+  "uk": "$game_concept_age_upper_desc$\\n\\n[ShowDatabase('age')]\\n\\n$game_concept_age_lower_desc$"
  },
  "game_concept_age_list_title": {
   "en": "List of Ages",
@@ -173,43 +173,43 @@
  },
  "game_concept_ai_disposition": {
   "en": "Country Disposition",
-  "uk": ""
+  "uk": "Ставлення держави"
  },
  "game_concept_ai_disposition_desc": {
   "en": "$game_concept_ai_disposition_upper_desc$\\n[ShowValues('ai_disposition')]",
-  "uk": ""
+  "uk": "$game_concept_ai_disposition_upper_desc$\\n[ShowValues('ai_disposition')]"
  },
  "game_concept_ai_disposition_list_title": {
   "en": "List Of Country Dispositions",
-  "uk": ""
+  "uk": "Список ставлень держав"
  },
  "game_concept_ai_disposition_upper_desc": {
   "en": "A country's disposition reflects how it currently views you, shaped by your relative power, whether they hold a claim on your lands, and any formal rivalry. Dispositions are reassessed continuously and can shift as the balance of power changes.\\n\\nThe dispositions below exist:",
-  "uk": ""
+  "uk": "Ставлення держави відображає її поточне сприйняття вас, яке формується відносною міццю сторін, наявністю претензій на ваші землі та будь-яким формальним суперництвом. Ставлення переоцінюється постійно й може змінюватися разом зі зміною балансу сил.\\n\\nІснують такі ставлення:"
  },
  "game_concept_ai_dispositions": {
   "en": "Country Dispositions",
-  "uk": ""
+  "uk": "Ставлення держав"
  },
  "game_concept_ai_personalities": {
   "en": "Country Personalities",
-  "uk": ""
+  "uk": "Характери держав"
  },
  "game_concept_ai_personality": {
   "en": "Country Personality",
-  "uk": ""
+  "uk": "Характер держави"
  },
  "game_concept_ai_personality_desc": {
   "en": "$game_concept_ai_personality_upper_desc$\\n[ShowDatabase('ai_personality')]",
-  "uk": ""
+  "uk": "$game_concept_ai_personality_upper_desc$\\n[ShowDatabase('ai_personality')]"
  },
  "game_concept_ai_personality_list_title": {
   "en": "List Of Country Personalities",
-  "uk": ""
+  "uk": "Список характерів держав"
  },
  "game_concept_ai_personality_upper_desc": {
   "en": "A nation's personality reflects its fundamental character and approach to statecraft, whether it prefers conquest, caution, diplomacy, or isolation. Personalities are set at the start of the game and can change only through events or game rules.\\n\\nThe personalities below exist:",
-  "uk": ""
+  "uk": "Характер нації відображає її фундаментальну сутність і підхід до управління державою — чи то схильність до завоювань, обережності, дипломатії, чи ізоляції. Характер визначається на початку гри й може змінюватися лише через події чи ігрові правила.\\n\\nІснують такі характери:"
  },
  "game_concept_alliance": {
   "en": "Alliance",
@@ -217,15 +217,15 @@
  },
  "game_concept_alliance_bloc": {
   "en": "Alliance Bloc",
-  "uk": ""
+  "uk": "Союзний блок"
  },
  "game_concept_alliance_bloc_desc": {
   "en": "An alliance bloc is a coalition of [great_powers|e] and [regional_powers|e] bound together by [alliances|e]. The more powerful allies a [country|e] has, the higher its #Y alliance bloc saturation#!, which increases the [diplomatic_capacity|e] cost of each [alliance|e] it maintains.\\n\\nA [great_power|e] ally contributes 1.0 to saturation; a [regional_power|e] ally contributes 0.5. These costs rise for every powerful [ally|e] added to the bloc, discouraging any single [country|e] from accumulating an overwhelming network of powerful [allies].",
-  "uk": ""
+  "uk": "Блок союзів — це коаліція [Concept('great_powers','великих держав')|e] і [Concept('regional_powers','регіональних держав')|e], пов’язаних [Concept('alliances','союзами')|e]. Що більше могутніх союзників має [country|e], то вища його #Y насиченість блоку союзів#!, яка збільшує вартість [Concept('diplomatic_capacity','дипломатичного потенціалу')|e] для кожного [Concept('alliance','союзу')|e], що він підтримує.\\n\\nСоюзник-[great_power|e] додає 1.0 до насиченості; союзник-[regional_power|e] додає 0.5. Ці витрати зростають з кожним новим могутнім [Concept('ally','союзником')|e] у блоці, що стримує накопичення однією [Concept('country','державою')|e] надто потужної мережі [allies]."
  },
  "game_concept_alliance_blocs": {
   "en": "Alliance Blocs",
-  "uk": ""
+  "uk": "Союзні блоки"
  },
  "game_concept_alliance_desc": {
   "en": "An alliance is a [treaty|e] between two [countries|e]. [countries] that are allied will not be able to declare [war|e] upon each other and can also be called to help in each other's [wars].",
@@ -348,8 +348,8 @@
   "uk": "Армійське ополчення"
  },
  "game_concept_army_levy_desc": {
-  "en": "An army levy is a [regiment|e] that has been raised directly from [pops|e]. When the unit is recruited, the [pops] they get recruited from are reduced, and when the unit is disbanded, any survivors return to the [pops]. These people are less trained than a regular [army|e] recruited from [manpower|e], and they do not reinforce.\\nA levy [regiment|e] also has the following effect:\\n[ShowModifierEffect('is_army_levy')]",
-  "uk": "Армійське ополчення — це [Concept('regiment','полк')|e], набраний безпосередньо з представників [Concept('pops','груп населення')|e]. При його наборі чисельність [Concept('pops','груп населення')] зменшується, а при розпуску ті, хто вижив, повертаються до своїх [Concept('pops','груп населення')]. Такі полки поступаються вишколом солдатам регулярної [Concept('army','армії')|e], що набирається за рахунок [Concept('manpower','кількості рекрутів')|e], до того ж ополчення не можна поповнювати.\\nЦі [Concept('regiment','полки')|e] перебувають під дією такого ефекту:\\n[ShowModifierEffect('is_army_levy')]"
+  "en": "An army levy is a [regiment|e] that has been raised directly from [pops|e]. When the unit is recruited, the [pops] they get recruited from are reduced, and when the unit is disbanded, any survivors return to the [pops]. These people are less trained than a regular [army|e] recruited from [manpower|e], and they do not reinforce.\\n\\nA levy [regiment|e] also has the following effect:\\n\\n[ShowModifierEffect('is_army_levy')]",
+  "uk": "Армійське ополчення — це [Concept('regiment','полк')|e], набраний безпосередньо з представників [Concept('pops','груп населення')|e]. При його наборі чисельність [Concept('pops','груп населення')] зменшується, а при розпуску ті, хто вижив, повертаються до своїх [Concept('pops','груп населення')]. Такі полки поступаються вишколом солдатам регулярної [Concept('army','армії')|e], що набирається за рахунок [Concept('manpower','кількості рекрутів')|e], до того ж ополчення не можна поповнювати.\\n\\nЦі [Concept('regiment','полки')|e] перебувають під дією такого ефекту:\\n\\n[ShowModifierEffect('is_army_levy')]"
  },
  "game_concept_army_maintenance": {
   "en": "Army Maintenance",
@@ -405,7 +405,7 @@
  },
  "game_concept_artist_desc": {
   "en": "$game_concept_artist_upper_desc$\\n[ShowDatabase('artist')]",
-  "uk": ""
+  "uk": "$game_concept_artist_upper_desc$\\n[ShowDatabase('artist')]"
  },
  "game_concept_artist_list_title": {
   "en": "List of Types of Artists",
@@ -460,8 +460,8 @@
   "uk": "Асиміляція"
  },
  "game_concept_assimilate_desc": {
-  "en": "This is the process where [pops|e] of one [culture|e] change over time to the [primary_culture|e] of the [country|e] that [owns|e] them.\\n\\nIt is sped up if the [primary_culture] has a high [culture_war_power|e] versus the [pop|e] culture.\\n\\nSome specific [cultures|e] are directly tied to their [faith|e], so they will not be able to be assimilated unless they are [converted|e] first.",
-  "uk": "У процесі асиміляції [Concept('pops','групи населення')|e], що належать до однієї [Concept('culture','культури')|e], поступово переймають [Concept('primary_culture','основну культуру')|e] [Concept('owns','держави')|e], якій вони належать.\\n\\nЦей процес прискорюється, якщо [Concept('culture_war_power','могутність')|e] [Concept('primary_culture','основної культури')] більша, ніж могутність культури в даній [Concept('pop','групі населення')|e].\\n\\nПевні [Concept('cultures','культури')|e] прив'язані до своєї [Concept('faith','віри')|e], що перешкоджає їхній асиміляції без попереднього [Concept('converted','навернення')|e]."
+  "en": "This is the process where [pops|e] of one [culture|e] change over time to the [primary_culture|e] of the [country|e] that [owns|e] them.\\n\\nIt is sped up if the [primary_culture] has a high [culture_war_power|e] versus the [pop|e] culture.\\n\\nSome specific [cultures|e] are directly tied to their [faith|e], so they will not be able to be assimilated unless they are [converted|e] first.\\n\\nA culture must either be present in a country or have a neutral or higher opinion of the player to be selectable.",
+  "uk": "У процесі асиміляції [Concept('pops','групи населення')|e] однієї [Concept('culture','культури')|e] поступово переймають [Concept('primary_culture','основну культуру')|e] [Concept('country','держави')|e], яка [Concept('owns','володіє')|e] ними.\\n\\nЦей процес прискорюється, якщо [Concept('culture_war_power','могутність')|e] [Concept('primary_culture','основної культури')|e] більша за могутність культури цієї [Concept('pop','групи населення')|e].\\n\\nПевні [Concept('cultures','культури')|e] прив’язані до своєї [Concept('faith','віри')|e] і не можуть бути асимільовані без попереднього [Concept('converted','навернення')|e].\\n\\nКультура має бути присутньою в державі або мати нейтральне чи вище ставлення до гравця, щоб її можна було обрати."
  },
  "game_concept_assimilated": {
   "en": "Assimilated",
@@ -593,11 +593,11 @@
  },
  "game_concept_bias": {
   "en": "Bias",
-  "uk": ""
+  "uk": "Упередженість"
  },
  "game_concept_bias_desc": {
   "en": "A bias is a certain attitude a [country|e] can have towards another one. It is split into three categories: [opinion|e], [trust|e] and [antagonism|e]. [country_interactions|e], [events|e] and historical setup have usually an impact on one of the three diplomatic aspects.",
-  "uk": ""
+  "uk": "Упередженість — це певне ставлення, яке одна [country|e] може мати до іншої. Воно поділяється на три категорії: [opinion|e], [trust|e] та [antagonism|e]. [country_interactions|e], [events|e] та історичні дані зазвичай впливають на один із цих трьох дипломатичних аспектів."
  },
  "game_concept_blockade": {
   "en": "Blockade",
@@ -665,11 +665,11 @@
  },
  "game_concept_bond_interest": {
   "en": "Bond Interest",
-  "uk": ""
+  "uk": "Відсоток за облігаціями"
  },
  "game_concept_bond_interest_desc": {
   "en": "The monthly [interest|e] rate paid on outstanding [government_bonds|e]. Unlike [estate|e] loan interest, this cost is a drain on the treasury with no recipient — it represents the ongoing cost of sovereign debt.",
-  "uk": ""
+  "uk": "Щомісячна ставка [Concept('interest','відсотка')|e], що сплачується за непогашеними [Concept('government_bonds','облігаціями')|e]. На відміну від відсотка за позикою [Concept('estate','стану')|e], ця витрата є прямим відтоком коштів зі скарбниці без отримувача — вона являє собою постійну вартість державного боргу."
  },
  "game_concept_borrower": {
   "en": "Borrower",
@@ -724,8 +724,8 @@
   "uk": "Утримання споруд"
  },
  "game_concept_building_maintenance_desc": {
-  "en": "[buildings] that do not produce [goods|e] incur an upkeep cost for their [owner]. The cost depends on the [market|e] price of the [goods] used by the building, and is affected by the [crown_power|e] of the owner.",
-  "uk": "[Concept('buildings','Споруди')|e], які не виробляють [Concept('goods','товари')|e], потребують витрат на своє утримання від [Concept('owner','власника')|e]. Вартість утримання залежить від [Concept('market','ринкової')|e] ціни [Concept('goods','товарів')], що використовуються спорудою, а також від [Concept('crown_power','влади правителя')|e]."
+  "en": "[buildings] that do not produce [goods|e] incur an upkeep cost for their [owner]. The cost depends on the [market_price|e] of the [goods] used by the building, and is affected by the [crown_power|e] of the owner.",
+  "uk": "[Concept('buildings','Споруди')|e], які не виробляють [Concept('goods','товари')|e], потребують витрат на своє утримання від [Concept('owner','власника')|e]. Вартість утримання залежить від [Concept('market_price','ринкової ціни')|e] [Concept('goods','товарів')], що використовуються спорудою, а також від [Concept('crown_power','влади правителя')|e]."
  },
  "game_concept_building_type": {
   "en": "Building Type",
@@ -745,35 +745,35 @@
  },
  "game_concept_bureaucracies": {
   "en": "Bureaucracies",
-  "uk": ""
+  "uk": "Бюрократії"
  },
  "game_concept_bureaucracy": {
   "en": "Bureaucracy",
-  "uk": ""
+  "uk": "Бюрократія"
  },
  "game_concept_bureaucracy_desc": {
   "en": "A $game_concept_bureaucracy$ is a branch of the [government|e] that grows over time, draws money from the [balance|e], and provides good and bad modifiers with dynamic strength.\\n\\nEach $game_concept_bureaucracy$ has positive, negative, and constant modifiers. Constant modifiers are constant.\\n\\nThe amount of [gold|e] spent on [bureaucracy_maintenance_short|e] impacts whether the negative or positive modifier is more dominant.\\n\\n[entrenchment|e] increases steadily over time, increasing the cost, but also increasing the power of both positive and negative modifiers. A $game_concept_bureaucracy$ with higher $game_concept_entrenchment$ is also more costly to remove.\\n\\n[estates|e] may like or dislike active $game_concept_bureaucracies$, which will impact their [estate_satisfaction|e] relative to the $game_concept_entrenchment$. They may also ask to increase or reduce the $game_concept_entrenchment$ via [parliament_agendas|e].",
-  "uk": ""
+  "uk": "$game_concept_bureaucracy$ — це галузь [government|e], яка з часом розростається, витрачає гроші з [Concept('balance','балансу')|e] і надає добрі й погані модифікатори динамічної сили.\\n\\nКожна $game_concept_bureaucracy$ має позитивні, негативні та постійні модифікатори. Постійні модифікатори незмінні.\\n\\nВід кількості [gold|e], витрачених на [bureaucracy_maintenance_short|e], залежить, який модифікатор — негативний чи позитивний — переважає.\\n\\n[entrenchment|e] постійно зростає з часом, збільшуючи вартість, але й посилюючи як позитивні, так і негативні модифікатори. $game_concept_bureaucracy$ із вищим $game_concept_entrenchment$ також коштовніше усунути.\\n\\n[estates|e] можуть схвалювати чи не схвалювати активні $game_concept_bureaucracies$, що впливає на їхнє [estate_satisfaction|e] відповідно до $game_concept_entrenchment$. Вони також можуть вимагати збільшити чи зменшити $game_concept_entrenchment$ через [parliament_agendas|e]."
  },
  "game_concept_bureaucracy_maintenance": {
   "en": "Bureaucracy Maintenance",
-  "uk": ""
+  "uk": "Утримання бюрократії"
  },
  "game_concept_bureaucracy_maintenance_desc": {
   "en": "This refers to the cost of running the [bureaucracy|e] reach month. A fully funded $game_concept_bureaucracy$ will have no negative modifiers, while a poorly funded will only have negatives.",
-  "uk": ""
+  "uk": "Це вартість функціонування [Concept('bureaucracy','бюрократії')|e] щомісяця. Повністю профінансована $game_concept_bureaucracy$ не матиме негативних модифікаторів, тоді як погано профінансована матиме лише негативні."
  },
  "game_concept_bureaucracy_maintenance_short": {
   "en": "Maintenance",
-  "uk": ""
+  "uk": "Утримання"
  },
  "game_concept_bureaucracy_type": {
   "en": "Bureaucracy Type",
-  "uk": ""
+  "uk": "Тип бюрократії"
  },
  "game_concept_bureaucracy_type_desc": {
   "en": "A $game_concept_bureaucracy_type$ is the blueprint of a [bureaucracy|e], and defines its characteristics.",
-  "uk": ""
+  "uk": "$game_concept_bureaucracy_type$ — це основа [Concept('bureaucracy','бюрократії')|e], яка визначає її характеристики."
  },
  "game_concept_burgher_trade": {
   "en": "$burghers$ Trading",
@@ -865,15 +865,15 @@
  },
  "game_concept_cabinet_trait": {
   "en": "Cabinet Trait",
-  "uk": ""
+  "uk": "Риса радника"
  },
  "game_concept_cabinet_trait_desc": {
   "en": "A $game_concept_cabinet_trait$ is a type of [trait|e] that is only active while a [character|e] is a [cabinet_member|e].\\n\\nA $game_concept_character$ with a $game_concept_cabinet_trait$ can give a boost to the [country|e] that employs them.\\n\\nThe effects of a $game_concept_cabinet_trait$ are doubled if the Character is promoted to [head_of_the_cabinet|e].",
-  "uk": ""
+  "uk": "$game_concept_cabinet_trait$ — це тип [Concept('trait','властивості')|e], активний лише поки [character|e] є [Concept('cabinet_member','членом ради')|e].\\n\\n$game_concept_character$ із $game_concept_cabinet_trait$ може дати перевагу [Concept('country','державі')|e], яка його наймає.\\n\\nЕфект $game_concept_cabinet_trait$ подвоюється, якщо персонажа підвищено до [Concept('head_of_the_cabinet','глави ради')|e]."
  },
  "game_concept_cabinet_traits": {
   "en": "Cabinet Traits",
-  "uk": ""
+  "uk": "Риси радників"
  },
  "game_concept_call_to_arms": {
   "en": "Call to Arms",
@@ -908,8 +908,8 @@
   "uk": "Канонізація"
  },
  "game_concept_canonization_desc": {
-  "en": "A former [ruler|e] of a [country|e] can be canonized, that is, made into a [saint|e]. This will confer upon the [country] extra benefits, scaled according to how able the [character|e] was when they were alive.",
-  "uk": "Колишнього [Concept('ruler','правителя')|e] [Concept('country','держави')|e] можна канонізувати, тобто оголосити [Concept('saint','святим')|e]. Завдяки цьому [Concept('country','держава')] отримає переваги, які залежать від навичок [Concept('character','персонажа')|e], здобутих за життя."
+  "en": "A former [ruler|e] of a [country|e] can be canonized, that is, made into a [saint|e]. This will please the [ShowEstateTypeName('clergy_estate')] and instantly confer [legitimacy|e] and [prestige|e] upon the [country], scaled according to how able the [character|e] was when they were alive.",
+  "uk": "Колишнього [Concept('ruler','правителя')|e] [Concept('country','держави')|e] можна канонізувати, тобто оголосити [Concept('saint','святим')|e]. Це порадує [ShowEstateTypeName('clergy_estate')] і миттєво підвищить [Concept('legitimacy','легітимність')|e] та [Concept('prestige','престиж')|e] [country], пропорційно до навичок [Concept('character','персонажа')|e] за життя."
  },
  "game_concept_canonize": {
   "en": "Canonize",
@@ -973,11 +973,11 @@
  },
  "game_concept_central_bank": {
   "en": "Central Bank",
-  "uk": ""
+  "uk": "Центральний банк"
  },
  "game_concept_central_bank_desc": {
   "en": "A central bank is a [building|e] in the [capital|e] that lets a [country|e] issue [government_bonds|e]. It provides bond capacity, reduces [bond_interest|e], and increases the size of each bond issued.",
-  "uk": ""
+  "uk": "Центральний банк — це [building|e] у [capital|e], що дозволяє [country|e] випускати [Concept('government_bonds','облігації')|e]. Він забезпечує ємність облігацій, знижує [Concept('bond_interest','відсоток за облігаціями')|e] та збільшує розмір кожної випущеної облігації."
  },
  "game_concept_character": {
   "en": "Character",
@@ -1049,35 +1049,35 @@
  },
  "game_concept_chivalric_order": {
   "en": "Chivalric Order",
-  "uk": ""
+  "uk": "Лицарський орден"
  },
  "game_concept_chivalric_order_desc": {
   "en": "A #Y Chivalric Order#! is an exclusive brotherhood of noble warriors dedicated to a country's martial ideals. Eligible characters may be invited to join, receiving the order's character modifiers and bonuses. The country itself gains the order's country modifiers as long as it has an active order and a ruler who is a member.",
-  "uk": ""
+  "uk": "#Y Лицарський орден#! — це закрите братство шляхетних воїнів, віддане військовим ідеалам держави. Придатних персонажів можна запросити приєднатися, отримуючи модифікатори персонажа й бонуси ордену. Сама держава отримує модифікатори держави ордену, доки має активний орден і правителя-члена."
  },
  "game_concept_chivalric_orders": {
   "en": "Chivalric Orders",
-  "uk": ""
+  "uk": "Лицарські ордени"
  },
  "game_concept_circle_leader": {
   "en": "Circle Leader",
-  "uk": ""
+  "uk": "Лідер округу"
  },
  "game_concept_circle_leader_desc": {
   "en": "The country which has been designated as as the leader of a [imperial_circle|e]. The [circle_leader] acts as an intermediary between the members of their [imperial_circle] and the [hre_emperor|e].",
-  "uk": ""
+  "uk": "Держава, призначена лідером [imperial_circle|e]. [circle_leader] діє як посередник між учасниками свого [imperial_circle] та [Concept('hre_emperor','імператором')|e]."
  },
  "game_concept_circle_leaders": {
   "en": "Circle Leaders",
-  "uk": ""
+  "uk": "Лідери округів"
  },
  "game_concept_circle_satisfaction": {
   "en": "Circle Satisfaction",
-  "uk": ""
+  "uk": "Задоволення округу"
  },
  "game_concept_circle_satisfaction_desc": {
   "en": "A measure of how content the members of an [imperial_circle|e] are with their [circle_leader|e]. Higher satisfaction rewards the [circle_leader] with [prestige|e] and [diplomatic_reputation|e].",
-  "uk": ""
+  "uk": "Показник того, наскільки учасники [imperial_circle|e] задоволені своїм [circle_leader|e]. Вища задоволеність винагороджує [circle_leader] [Concept('prestige','престижем')|e] та [Concept('diplomatic_reputation','дипломатичною репутацією')|e]."
  },
  "game_concept_civil_construction": {
   "en": "Civil Construction",
@@ -1109,7 +1109,7 @@
  },
  "game_concept_climate_desc": {
   "en": "$game_concept_climate_upper_desc$\\n[ShowDatabase('climate')]",
-  "uk": ""
+  "uk": "$game_concept_climate_upper_desc$\\n[ShowDatabase('climate')]"
  },
  "game_concept_climate_list_title": {
   "en": "List Of Climate Types",
@@ -1124,8 +1124,8 @@
   "uk": "Коаліція"
  },
  "game_concept_coalition_desc": {
-  "en": "[countries|e] whose [antagonism|e] towards a particular [country|e] has exceeded tempestuous bounds might decide to join a Coalition targeting that country.",
-  "uk": "[Concept('countries','Держави')|e], чия [Concept('antagonism', 'неприязнь')|e] до певної [Concept('country','держави')|e] перевищила терпиме значення, можуть сформувати проти неї коаліцію."
+  "en": "[countries|e] whose [antagonism|e] towards a particular [country|e] has exceeded acceptable bounds may decide to join a Coalition targeting that country. To join, a country requires [antagonism|e] above 50 and [opinion|e] below −50 towards the target, must be within diplomatic range, and cannot be at war, in a truce, or in a union with the target — nor a subject of the target (tributaries excepted). Members will defend each other if the target attacks one of them, and may collectively declare [war|e] on the target. A member cannot leave while at war with the target, but will automatically depart if their [antagonism|e] falls below 30 while at peace with the target. A Coalition dissolves immediately if its leader leaves, or if the target country ceases to exist.",
+  "uk": "[Concept('countries','Держави')|e], чия [Concept('antagonism', 'неприязнь')|e] до певної [Concept('country','держави')|e] перевищила терпиме значення, можуть сформувати проти неї коаліцію. Щоб приєднатися, держава повинна мати [Concept('antagonism','неприязнь')|e] понад 50 та [Concept('opinion','думку')|e] нижче −50 щодо цілі, перебувати в межах дипломатичної дистанції, не бути в стані війни, перемир’я чи унії з ціллю, а також не бути її підданим (за винятком данників). Учасники захищатимуть одне одного, якщо ціль нападе на когось із них, і можуть спільно оголосити [Concept('war','війну')|e] цілі. Учасник не може вийти з коаліції, поки триває війна з ціллю, але автоматично вийде з неї, якщо його [Concept('antagonism','неприязнь')|e] опуститься нижче 30 за умови миру з ціллю. Коаліція розпускається негайно, якщо з неї виходить лідер або якщо держава-ціль перестає існувати."
  },
  "game_concept_coast": {
   "en": "Coast",
@@ -1184,8 +1184,8 @@
   "uk": "Колонізаційна дистанція"
  },
  "game_concept_colonial_range_desc": {
-  "en": "This is simply how far away we can [colonize|e] or [explore|e].",
-  "uk": "Це максимальна відстань, на яку можна [Concept('explore', 'відправляти експедиції')|e] та [Concept('colonize', 'створювати колонії')|e]."
+  "en": "This is simply how far away we can [colonize|e].",
+  "uk": "Це максимальна відстань, на яку можна [Concept('colonize','колонізувати')|e]."
  },
  "game_concept_colonies": {
   "en": "Colonies",
@@ -1253,11 +1253,11 @@
  },
  "game_concept_combined_arms": {
   "en": "Combined Arms",
-  "uk": ""
+  "uk": "Поєднання родів військ"
  },
  "game_concept_combined_arms_desc": {
   "en": "[armies] and [navies] with balanced compositions of [unit_categories|e] receive a bonus to their [combat_power|e] in [battle|e] for each additional category involved. The strenght of the bonus may vary depending on technology and other sources.\\n\\nIn order to benefit from the Combined Arms bonus, an [army] cannot have #W 50%#! or more [regiments|e] of the same category. Examples of different [unit_categories|e] are [ShowUnitCategoryName('navy_light_ship')] and [ShowUnitCategoryName('navy_heavy_ship')], or [ShowUnitCategoryName('army_light_infantry')] and [ShowUnitCategoryName('army_heavy_cavalry')].",
-  "uk": ""
+  "uk": "[armies] і [navies] зі збалансованим складом [Concept('unit_categories','родів військ')|e] отримують бонус до [Concept('combat_power','бойової міці')|e] у [Concept('battle','битві')|e] за кожну додаткову категорію. Сила бонусу може відрізнятися залежно від технологій та інших джерел.\\n\\nЩоб отримати бонус комбінованих сил, [army] не повинна мати #W 50%#! або більше [Concept('regiments','полків')|e] однієї категорії. Прикладами різних [Concept('unit_categories','родів військ')|e] є [ShowUnitCategoryName('navy_light_ship')] та [ShowUnitCategoryName('navy_heavy_ship')], або [ShowUnitCategoryName('army_light_infantry')] та [ShowUnitCategoryName('army_heavy_cavalry')]."
  },
  "game_concept_commander": {
   "en": "Commander",
@@ -1293,11 +1293,11 @@
  },
  "game_concept_complacency": {
   "en": "Complacency",
-  "uk": ""
+  "uk": "Самовдоволення"
  },
  "game_concept_complacency_desc": {
   "en": "This represents how complacent the people of a [country|e] has become, when it has no outside threats to care about. Complacency naturally grows with our size and might, and can be kept at bay by having [rivals|e] that pose a [threat|e] to us, increasing our [diplomatic_maintenance|e], and keeping high average [control|e].\\n\\nHigh Complacency may inflict heavy penalties upon our [country], but its effects only activate in the context of certain [disasters|e].\\n\\n[GetComplacencyDisasters]",
-  "uk": ""
+  "uk": "Це показник того, наскільки народ [country|e] заспокоївся через відсутність зовнішніх загроз. Самозаспокоєність природно зростає з нашим розміром і могутністю, і її можна стримувати, маючи [Concept('rivals','суперників')|e], що становлять [Concept('threat','загрозу')|e] для нас, збільшуючи [Concept('diplomatic_maintenance','витрати на дипломатію')|e], і підтримуючи високий середній [Concept('control','контроль')|e].\\n\\nВисока самозаспокоєність може накласти важкі штрафи на нашу [country], але її ефекти проявляються лише в контексті певних [Concept('disasters','лих')|e].\\n\\n[GetComplacencyDisasters]"
  },
  "game_concept_complacency_i": {
   "en": "@complacency!",
@@ -1329,7 +1329,7 @@
  },
  "game_concept_conquest": {
   "en": "Conquest",
-  "uk": ""
+  "uk": "Завоювання"
  },
  "game_concept_conquistador": {
   "en": "Conquistador",
@@ -1452,8 +1452,8 @@
   "uk": "Національний район"
  },
  "game_concept_core_desc": {
-  "en": "A [location|e] that is a Core of a [country|e] is the integral part of that [country].\\nIf that [location] is ever lost in a [war|e], it is easy to fabricate a [casus_belli|e] to attempt to get it back.\\nAny [integrated|e] [location] who has a majority of the [owner_s|e] [primary_culture|e] or any [accepted_culture|e] will become a Core.",
-  "uk": "Національним називають [Concept('location','район')|e] [Concept('country','держави')|e], який вважається її невід'ємною частиною.\\nЯкщо такий [Concept('location','район')] втрачено під час [Concept('war','бойових дій')|e], то державі буде набагато легше сфабрикувати [Concept('casus_belli','привід для війни')|e], щоб спробувати його повернути.\\nБудь-який [Concept('integrated','інтегрований')|e] [Concept('location','район')], у якому переважає [Concept('primary_culture','основна культура')|e] [Concept('owner_s','власника')|e] або будь-яка з [Concept('accepted_culture','визнаних')|e], стає національним."
+  "en": "A [location|e] that is a Core of a [country|e] is the integral part of that [country].\\nIf that [location] is ever lost in a [war|e], it is easy to fabricate a [casus_belli|e] to attempt to get it back.\\nAny [integrated|e] [location] who has a majority of the [owner_s|e] [primary_culture|e] or any [accepted_culture|e] will become a Core.\\nCores gained through [effects|e] or those lost to other countries will disappear after [GetDefine('NCountry', 'SCRIPTED_CORE_DURATION_YEARS')] years if they do not have the correct [culture|e].",
+  "uk": "Національним називають [Concept('location','район')|e] [Concept('country','держави')|e], який вважається невід’ємною частиною [Concept('country','цієї держави')].\\nЯкщо такий [Concept('location','район')] втрачено під час [Concept('war','війни')|e], державі буде легко сфабрикувати [Concept('casus_belli','привід для війни')|e], щоб спробувати його повернути.\\nБудь-який [Concept('integrated','інтегрований')|e] [Concept('location','район')], у якому переважає [Concept('primary_culture','основна культура')|e] [Concept('owner_s','власника')|e] або будь-яка з [Concept('accepted_culture','визнаних культур')|e], стає національним.\\nНаціональні райони, отримані через [Concept('effects','ефекти')|e] або втрачені на користь інших держав, зникнуть через [GetDefine('NCountry', 'SCRIPTED_CORE_DURATION_YEARS')] р., якщо в них не буде відповідної [Concept('culture','культури')|e]."
  },
  "game_concept_core_list_title": {
   "en": "A Core [location] receives the following effects:",
@@ -1509,11 +1509,11 @@
  },
  "game_concept_country_disposition": {
   "en": "Country Disposition",
-  "uk": ""
+  "uk": "Ставлення держави"
  },
  "game_concept_country_dispositions": {
   "en": "Country Dispositions",
-  "uk": ""
+  "uk": "Ставлення держав"
  },
  "game_concept_country_interaction": {
   "en": "Country Interaction",
@@ -1541,11 +1541,11 @@
  },
  "game_concept_country_personalities": {
   "en": "Country Personalities",
-  "uk": ""
+  "uk": "Характери держав"
  },
  "game_concept_country_personality": {
   "en": "Country Personality",
-  "uk": ""
+  "uk": "Характер держави"
  },
  "game_concept_country_rank": {
   "en": "Country Rank",
@@ -1553,7 +1553,7 @@
  },
  "game_concept_country_rank_desc": {
   "en": "$game_concept_country_rank_upper_desc$\\n[ShowDatabaseWithIcon('country_rank')]",
-  "uk": ""
+  "uk": "$game_concept_country_rank_upper_desc$\\n[ShowDatabaseWithIcon('country_rank')]"
  },
  "game_concept_country_rank_list_title": {
   "en": "List of Country Ranks",
@@ -1601,19 +1601,19 @@
  },
  "game_concept_court_dialect": {
   "en": "Court Dialect",
-  "uk": ""
+  "uk": "Придворний діалект"
  },
  "game_concept_court_dialect_desc": {
   "en": "The main [dialect|e] of a [country|e]'s [court_language|e].",
-  "uk": ""
+  "uk": "Основний [Concept('dialect','діалект')|e] [Concept('court_language','придворної мови')|e] [Concept('country','держави')|e]."
  },
  "game_concept_court_language": {
   "en": "Court Language",
   "uk": "Придворна мова"
  },
  "game_concept_court_language_desc": {
-  "en": "The [language_with_icon|e] of government in a [country_with_icon|e].\\n\\nCertain Languages may affect the [estate_satisfaction|e] of different [estates|e]:\\n$BULLET$The [ShowEstateTypeName('nobles_estate')] prefer high [language_power_with_icon|e].\\n$BULLET$The [ShowEstateTypeName('clergy_estate')] prefer the [liturgical_language_with_icon|e].\\n$BULLET$The [ShowEstateTypeName('peasants_estate')] prefer the [common_language_with_icon|e].\\n$BULLET$Using the [market_language_with_icon|e] of our [capital] will increase the [trade_efficiency|e].\\n\\nThe Court Language receives an increase in its [language_power] relative to the total [political_power|e] of [pops|e] belonging to the [primary_culture|e] of the Country.\\n\\nWe can always change our Court Language to our [common_language] or [liturgical_language], to that of a [great_power|e] in our [religion_group|e], or to that of our [overlord|e].",
-  "uk": "Це [Concept('language', '@language! мова')|e] уряду [Concept('country', '@country! держави')|e].\\n\\nМови можуть по-різному впливати на [Concept('estate_satisfaction','задоволення')|e] [Concept('estates','станів')|e]:\\n$BULLET$#TOOLTIP:ESTATE_TYPE,nobles_estate,X #L Аристократам#!#! до вподоби велика [Concept('language_power', '@language_power! сила мови')|e].\\n$BULLET$#TOOLTIP:ESTATE_TYPE,clergy_estate,X #L Священники#!#! віддають перевагу [Concept('liturgical_language', '@liturgical_language! літургійній мові')|e].\\n$BULLET$#TOOLTIP:ESTATE_TYPE,peasants_estate,X #L Простолюдини#!#! віддають перевагу [Concept('common_language', '@common_language! загальноприйнятій мові')|e].\\n$BULLET$[Concept('trade_efficiency','Торгова ефективність')|e] підвищується при використанні [Concept('market_language', '@market_language! торгової мови')|e] нашої [Concept('capital','столиці')].\\n\\n[Concept('language_power','Сила')] придворної мови збільшується разом із загальним [Concept('political_power','політичним впливом')|e] [Concept('pops','груп населення')|e], що належать до [Concept('primary_culture','основної культури')|e] держави.\\n\\nПридворну мову завжди можна змінити на [Concept('common_language','загальноприйняту')] або [Concept('liturgical_language','літургійну')], на мову [Concept('great_power','великої держави')|e], що сповідує релігію з тієї самої [Concept('religion_group','групи')|e], що й ми, або на мову [Concept('overlord','сюзерена')|e]."
+  "en": "The [language_with_icon|e] of government in a [country_with_icon|e].\\n\\nCertain Languages may affect the [estate_satisfaction|e] of different [estates|e]:\\n$BULLET$The [ShowEstateTypeName('nobles_estate')] prefer high [language_power_with_icon|e].\\n$BULLET$The [ShowEstateTypeName('clergy_estate')] prefer the [liturgical_language_with_icon|e].\\n$BULLET$The [ShowEstateTypeName('peasants_estate')] prefer the [common_language_with_icon|e].\\n$BULLET$Using the [market_language_with_icon|e] of our [capital] will increase the [selling_efficiency|e].\\n\\nThe Court Language receives an increase in its [language_power] relative to the total [political_power|e] of [pops|e] belonging to the [primary_culture|e] of the Country.\\n\\nWe can change our Court Language to:\\n$BULLET$[common_language],\\n$BULLET$[liturgical_language],\\n$BULLET$[dominant_dialect|e],\\n$BULLET$The [market_language|e] of our [capital],\\n$BULLET$The language of an [accepted_culture|e],\\n$BULLET$Our ruler's language,\\n$BULLET$Our dynasty head's language,\\n$BULLET$The [court_language] of an [international_organization_leader|e],\\n$BULLET$The [court_language] of our [overlord|e].",
+  "uk": "Це [Concept('language_with_icon', '@language! мова')|e] уряду [Concept('country_with_icon', '@country! держави')|e].\\n\\nМови можуть по-різному впливати на [Concept('estate_satisfaction','задоволення')|e] [Concept('estates','станів')|e]:\\n$BULLET$[ShowEstateTypeName('nobles_estate')] надають перевагу високій [Concept('language_power_with_icon', '@language_power! силі мови')|e].\\n$BULLET$[ShowEstateTypeName('clergy_estate')] віддають перевагу [Concept('liturgical_language_with_icon', '@liturgical_language! літургійній мові')|e].\\n$BULLET$[ShowEstateTypeName('peasants_estate')] віддають перевагу [Concept('common_language_with_icon', '@common_language! загальноприйнятій мові')|e].\\n$BULLET$[Concept('selling_efficiency','Ефективність продажу')|e] підвищується при використанні [Concept('market_language_with_icon', '@market_language! торгової мови')|e] нашої [Concept('capital','столиці')].\\n\\n[Concept('language_power','Сила')] придворної мови збільшується разом із загальним [Concept('political_power','політичним впливом')|e] [Concept('pops','груп населення')|e], що належать до [Concept('primary_culture','основної культури')|e] держави.\\n\\nПридворну мову можна змінити на:\\n$BULLET$[Concept('common_language','загальноприйняту')],\\n$BULLET$[Concept('liturgical_language','літургійну')],\\n$BULLET$[Concept('dominant_dialect','домінантний діалект')|e],\\n$BULLET$[Concept('market_language','торгову мову')|e] нашої [Concept('capital','столиці')],\\n$BULLET$мову [Concept('accepted_culture','визнаної культури')|e],\\n$BULLET$мову нашого правителя,\\n$BULLET$мову голови нашої династії,\\n$BULLET$[Concept('court_language','придворну мову')] [Concept('international_organization_leader','лідера міжнародного об’єднання')|e],\\n$BULLET$[Concept('court_language','придворну мову')] нашого [Concept('overlord','сюзерена')|e]."
  },
  "game_concept_court_maintenance": {
   "en": "Cost of the Court",
@@ -1637,11 +1637,11 @@
  },
  "game_concept_creditworthiness": {
   "en": "Creditworthiness",
-  "uk": ""
+  "uk": "Кредитоспроможність"
  },
  "game_concept_creditworthiness_desc": {
   "en": "Creditworthiness measures how reliably a [country|e] repays its [debts|e]. It ranges from 0 to 100 with 50 as neutral. Higher values reduce the [interest|e] rate on all [loans|e] and make foreign lenders more willing to offer credit; lower values raise interest rates and make lenders reluctant. Going [bankrupt|e] causes a large drain on creditworthiness that recovers slowly over time.",
-  "uk": ""
+  "uk": "Кредитоспроможність вимірює, наскільки надійно [country|e] повертає свої [Concept('debts','борги')|e]. Вона коливається від 0 до 100, де 50 — нейтральне значення. Вищі значення знижують ставку [Concept('interest','відсотка')|e] за всіма [Concept('loans','позиками')|e] і роблять іноземних кредиторів більш готовими надавати кредит; нижчі значення підвищують ставку й роблять кредиторів неохочими. Оголошення себе [Concept('bankrupt','банкрутом')|e] спричиняє значне падіння кредитоспроможності, яке повільно відновлюється з часом."
  },
  "game_concept_crew_size": {
   "en": "Crew Size",
@@ -1656,8 +1656,8 @@
   "uk": "Форсування"
  },
  "game_concept_crossing_desc": {
-  "en": "An [army|e] crossing a river between two [locations|e], crossing a [strait|e], or landing from a [seazone|e] will get a penalty in [battle|e] if they are the [attacker|e].",
-  "uk": "[Concept('army','Армія')|e], яка переправляється через річку, що розділяє два [Concept('locations','райони')|e], через [Concept('strait','протоку')|e] або здійснює десант з [Concept('seazone','акваторії')|e], отримає в [Concept('battle','битві')|e] штраф, якщо це армія [Concept('attacker','сторони, що атакує')|e]."
+  "en": "An [army|e] crossing a river between two [locations|e], crossing a [strait|e], or landing from a [seazone|e] will get a penalty in [battle|e] if they are the [attacker|e].\\n\\nCrossing a [river] imposes a penalty on the [attacker] of [GetDefine('NCombat','RIVER_CROSSING_DICE')|R] on the dice roll. Crossing a [strait] imposes a penalty of [GetDefine('NCombat','STRAIT_CROSSING_DICE')|R].",
+  "uk": "[Concept('army','Армія')|e], яка переправляється через річку, що розділяє два [Concept('locations','райони')|e], через [Concept('strait','протоку')|e] або здійснює десант з [Concept('seazone','акваторії')|e], отримає в [Concept('battle','битві')|e] штраф, якщо це армія [Concept('attacker','сторони, що атакує')|e].\\n\\nФорсування [river] накладає на [attacker] штраф [GetDefine('NCombat','RIVER_CROSSING_DICE')|R] до кидка кубика. Форсування [strait] накладає штраф [GetDefine('NCombat','STRAIT_CROSSING_DICE')|R]."
  },
  "game_concept_crown_power": {
   "en": "Crown Power",
@@ -1817,7 +1817,7 @@
  },
  "game_concept_d10": {
   "en": "D10",
-  "uk": ""
+  "uk": "D10"
  },
  "game_concept_d100": {
   "en": "D100",
@@ -1829,7 +1829,7 @@
  },
  "game_concept_d10_desc": {
   "en": "A D10 is a ten-sided dice roll used in [combat|e], to determine how well a side is doing.",
-  "uk": ""
+  "uk": "D10 — це кидок десятигранного кубика, що використовується в [Concept('combat','бою')|e] для визначення того, наскільки успішно діє сторона."
  },
  "game_concept_d20": {
   "en": "D20",
@@ -1948,8 +1948,8 @@
   "uk": "Кидок кубика"
  },
  "game_concept_dice_desc": {
-  "en": "$game_concept_dice_upper_desc$\\n[d6|e]\\n[d20|e]\\n[d100|e]",
-  "uk": "$game_concept_dice_upper_desc$\\n[Concept('d6', 'к6')|e]\\n[Concept('d20', 'к20')|e]\\n[Concept('d100', 'к100')|e]"
+  "en": "$game_concept_dice_upper_desc$\\n[d10|e]\\n[d20|e]\\n[d100|e]",
+  "uk": "$game_concept_dice_upper_desc$\\n[Concept('d10','к10')|e]\\n[Concept('d20','к20')|e]\\n[Concept('d100','к100')|e]"
  },
  "game_concept_dice_upper_desc": {
   "en": "Dice are often rolled to determine the outcome of an action, like the [phases|e] of a [siege|e] or a [battle|e]. ",
@@ -2180,8 +2180,8 @@
   "uk": "Нелояльний васал"
  },
  "game_concept_disloyal_subjects_desc": {
-  "en": "When a [subject] has less than [GetDefine('NDiplomacy','TOO_DISLOYAL_THRESHOLD')] [subject_loyalty|e] towards its [overlord|e], it becomes a Disloyal Subject.\\n\\nWhen in such a state, it will no longer join the [wars|e] of its [overlord] and cannot be [annexed|e].",
-  "uk": "Коли [Concept('subject_loyalty','лояльність')|e] щодо [Concept('overlord','сюзерена')|e] становить менше [GetDefine('NDiplomacy','TOO_DISLOYAL_THRESHOLD')], [Concept('subject','васал')] стає нелояльним.\\n\\nТакий васал перестає брати участь у [Concept('wars','війнах')|e] свого [Concept('overlord','сюзерена')], і його неможливо [Concept('annexed','приєднати')|e]."
+  "en": "When a [subject] has less than [GetDefine('NDiplomacy','TOO_DISLOYAL_THRESHOLD')] [subject_loyalty|e] towards its [overlord|e], it becomes a Disloyal Subject.\\n\\nWhen in such a state, it will no longer help in the [wars|e] of its [overlord] and cannot be [annexed|e].",
+  "uk": "Коли [Concept('subject_loyalty','лояльність')|e] щодо [Concept('overlord','сюзерена')|e] становить менше [GetDefine('NDiplomacy','TOO_DISLOYAL_THRESHOLD')], [Concept('subject','васал')] стає нелояльним.\\n\\nТакий васал перестає допомагати у [Concept('wars','війнах')|e] свого [Concept('overlord','сюзерена')], і його неможливо [Concept('annexed','приєднати')|e]."
  },
  "game_concept_disloyal_subjects_short": {
   "en": "Disloyal",
@@ -2189,15 +2189,15 @@
  },
  "game_concept_distant_market": {
   "en": "Distant Market",
-  "uk": ""
+  "uk": "Віддалений ринок"
  },
  "game_concept_distant_market_desc": {
   "en": "A $game_concept_distant_market$ is a [market_with_icon|e] that lies beyond the [trade_range_with_icon|e] of all of your [domestic_markets_with_icon|e], so you cannot conduct any [trade_with_icon|e] with them.",
-  "uk": ""
+  "uk": "$game_concept_distant_market$ — це [market_with_icon|e], що лежить за межами [Concept('trade_range_with_icon','торгової дистанції')|e] усіх ваших [Concept('domestic_markets_with_icon','внутрішніх ринків')|e], тож ви не можете вести з ним жодну [trade_with_icon|e]."
  },
  "game_concept_distant_markets": {
   "en": "Distant Markets",
-  "uk": ""
+  "uk": "Віддалені ринки"
  },
  "game_concept_distribute_food": {
   "en": "Distribute Food",
@@ -2213,35 +2213,35 @@
  },
  "game_concept_divine_emperors": {
   "en": "Divine Emperors",
-  "uk": ""
+  "uk": "Божественні імператори"
  },
  "game_concept_divine_emperors_desc": {
   "en": "A Divine Emperor is a [character|e] that is recognized in a [ShowReligionGroupAdjective('hellenistic')] [religion|e] following the Imperial Cult aspect by having an extraordinary degree of holiness through their deeds. The process to become a Divine Emperor is known as canonization.",
-  "uk": ""
+  "uk": "Божественний імператор — це [character|e], визнаний у [ShowReligionGroupAdjective('hellenistic')] [religion|e], що дотримується культу імператора, завдяки надзвичайному ступеню святості своїх діянь. Процес перетворення на Божественного імператора називається канонізацією."
  },
  "game_concept_divorce": {
   "en": "Divorce",
-  "uk": ""
+  "uk": "Розлучення"
  },
  "game_concept_divorce_desc": {
   "en": "A way to end up a [marriage|e], often requires permission from a third party.",
-  "uk": ""
+  "uk": "Спосіб припинення [Concept('marriage','шлюбу')|e], часто вимагає дозволу третьої сторони."
  },
  "game_concept_divorced": {
   "en": "Divorced",
-  "uk": ""
+  "uk": "Розлучено"
  },
  "game_concept_domestic_market": {
   "en": "Domestic Market",
-  "uk": ""
+  "uk": "Внутрішній ринок"
  },
  "game_concept_domestic_market_desc": {
   "en": "A $game_concept_domestic_market$ is a [market_with_icon|e] in which you own [locations_with_icon|e]. Your [locations] depend on their [market] to buy all the stuff they need, be it for government [construction_with_icon|e], [buildings_with_icon|e], [pop_needs_with_icon|e], or [food_with_icon|e].\\n\\nEnsuring the supply of [goods] in your $game_concept_domestic_markets$ is paramount for the running of your [country], since you might not be able to build [buildings] or recruit [regiments|e] if the necessary [goods] are missing.",
-  "uk": ""
+  "uk": "$game_concept_domestic_market$ — це [market_with_icon|e], у якому ви володієте [locations_with_icon|e]. Ваші [locations] залежать від свого [market] у закупівлі всього необхідного — для державного [construction_with_icon|e], [buildings_with_icon|e], [pop_needs_with_icon|e] чи [food_with_icon|e].\\n\\nЗабезпечення постачання [goods] у ваших $game_concept_domestic_markets$ вкрай важливе для функціонування вашої [country], оскільки ви можете не мати змоги будувати [buildings] чи набирати [Concept('regiments','полки')|e], якщо потрібних [goods] бракує."
  },
  "game_concept_domestic_markets": {
   "en": "Domestic Markets",
-  "uk": ""
+  "uk": "Внутрішні ринки"
  },
  "game_concept_dominant_country": {
   "en": "Dominant Country",
@@ -2300,8 +2300,8 @@
   "uk": "Приреченість"
  },
  "game_concept_doom_desc": {
-  "en": "Doom is a special currency used by [countries|e] with the [ShowReligionAdjective('nahuatl')] [religion|e].\\n\\nOwning [locations|e]—especially [towns_and_cities|e]—passively increases Doom.\\n\\nHaving a high Doom value decreases [ShowModifierTypeName('loyalty_to_overlord')] and increases [ShowModifierTypeName('stability_decay')], but also increases [ShowModifierTypeName('global_estate_target_satisfaction')].\\n\\nThere are a number of ways that decrease Doom, including:\\n- Killing [enemy|e] troops in [combat|e]\\n- Looting [locations] with high [development|e]\\n\\nWhen the maximum Doom is finally reached, the [ruler|e] and their entire [dynasty|e] are sacrificed, and replaced with a new [ruler].",
-  "uk": "Приреченість — це особливий показник [Concept('countries','держав')|e], що сповідують #TOOLTIP:RELIGION,$nahuatl_tt$,X #L науаську#!#! [Concept('religion','релігію')|e].\\n\\nВолодіння [Concept('locations','районами')|e], особливо [Concept('towns_and_cities','міськими')|e], поступово підвищує приреченість.\\n\\nПри високій приреченості знижується [ShowModifierTypeName('loyalty_to_overlord')|l] і збільшується [ShowModifierTypeName('stability_decay')|l], але також збільшується [ShowModifierTypeName('global_estate_target_satisfaction')|l].\\n\\nЄ низка способів знизити приреченість, зокрема:\\n- Вбивство [Concept('enemy','ворожих')|e] військ у [Concept('combat','бою')|e]\\n- Пограбування [Concept('development','високорозвинених')|e] [Concept('locations','районів')]\\n\\nПри досягненні максимального рівня приреченості [Concept('ruler','правитель')|e] з усією своєю [Concept('dynasty','династією')|e] приноситься в жертву, і його місце займає новий [Concept('ruler','правитель')]."
+  "en": "Doom is a special currency used by [countries|e] with the [ShowReligionAdjective('nahuatl')] [religion|e].\\n\\nOwning [locations|e]—especially [towns_and_cities|e]—passively increases Doom.\\n\\nHaving a high Doom value decreases [ShowModifierTypeName('subject_loyalty')] and [ShowModifierTypeName('global_estate_target_satisfaction')] but increases [ShowModifierTypeName('stability_decay')].\\n\\nThere are a number of ways that decrease Doom, including:\\n- Killing [enemy|e] troops in [combat|e]\\n- Looting [locations] with high [development|e]\\n\\nWhen the maximum Doom is finally reached, the [ruler|e] and their entire [dynasty|e] are sacrificed, and replaced with a new [ruler].",
+  "uk": "Приреченість — це особливий показник [Concept('countries','держав')|e], що сповідують [ShowReligionAdjective('nahuatl')] [Concept('religion','релігію')|e].\\n\\nВолодіння [Concept('locations','районами')|e], особливо [Concept('towns_and_cities','міськими')|e], поступово підвищує приреченість.\\n\\nПри високій приреченості знижуються [ShowModifierTypeName('subject_loyalty')] та [ShowModifierTypeName('global_estate_target_satisfaction')], але збільшується [ShowModifierTypeName('stability_decay')].\\n\\nЄ низка способів знизити приреченість, зокрема:\\n- Вбивство [Concept('enemy','ворожих')|e] військ у [Concept('combat','бою')|e]\\n- Пограбування [Concept('development','високорозвинених')|e] [Concept('locations','районів')]\\n\\nПри досягненні максимального рівня приреченості [Concept('ruler','правитель')|e] з усією своєю [Concept('dynasty','династією')|e] приноситься в жертву, і його місце займає новий [Concept('ruler','правитель')]."
  },
  "game_concept_doom_i": {
   "en": "@doom!",
@@ -2361,15 +2361,15 @@
  },
  "game_concept_dynasty_modifier": {
   "en": "Dynasty Modifier",
-  "uk": ""
+  "uk": "Модифікатор династії"
  },
  "game_concept_dynasty_modifier_desc": {
   "en": "A [modifier|e] that applies to the [dynasty|e]. Modifier types which are supposed to target the [character|e] are active on every living member of the dynasty, though [country_modifiers|e] are only applied if the character is the [ruler|e] of that country.",
-  "uk": ""
+  "uk": "[Concept('modifier','Модифікатор')|e], що застосовується до [Concept('dynasty','династії')|e]. Типи модифікаторів, призначені для [Concept('character','персонажа')|e], активні для кожного живого члена династії, хоча [Concept('country_modifiers','модифікатори держави')|e] застосовуються лише якщо персонаж є [Concept('ruler','правителем')|e] цієї держави."
  },
  "game_concept_dynasty_modifiers": {
   "en": "Dynasty Modifiers",
-  "uk": ""
+  "uk": "Модифікатори династії"
  },
  "game_concept_dynasty_seat": {
   "en": "Dynastic Seat",
@@ -2392,8 +2392,8 @@
   "uk": "Економічна база"
  },
  "game_concept_economical_base_desc": {
-  "en": "This is based on the [tax_base|e] of a [country|e] plus the volume of all its [trades|e] and any [sound_tolls|e] they might get.",
-  "uk": "Обчислюється на основі [Concept('tax_base', 'податкової бази')|e] та загального обсягу [Concept('trades', 'торговельних угод')|e] [Concept('country', 'держави')|e], а також потенційного прибутку [Concept('sound_tolls', 'за прохід')|e]."
+  "en": "This is based on the total [wealth|e] and [population|e] of a [country|e], regardless of [control|e].\\n\\nThe number of [subjects|e] and [institutions|e] embraced also increases it, as well as any [income|e] from [interest|e] or [foreign_buildings|e].",
+  "uk": "Обчислюється на основі загального [Concept('wealth','багатства')|e] та [Concept('population','населення')|e] [Concept('country','держави')|e], незалежно від [Concept('control','контролю')|e].\\n\\nЦе значення також зростає з кількістю [Concept('subjects','васалів')|e] та впроваджених [Concept('institutions','інститутів')|e], а також завдяки будь-якому [Concept('income','доходу')|e] від [Concept('interest','відсотків')|e] чи [Concept('foreign_buildings','іноземних споруд')|e]."
  },
  "game_concept_education": {
   "en": "Education",
@@ -2553,23 +2553,23 @@
  },
  "game_concept_entrenched": {
   "en": "Entrenched",
-  "uk": ""
+  "uk": "Укорінена"
  },
  "game_concept_entrenchment": {
   "en": "Entrenchment",
-  "uk": ""
+  "uk": "Укоріненість"
  },
  "game_concept_entrenchment_desc": {
   "en": "This is how embedded into [government|e] a [bureaucracy|e] is. The higher the Entrenchment, the more it does, the more it costs, and the harder it is to get rid of.\\n\\nIt also impacts the [estate_satisfaction] of [estates|e] that like or dislike the $game_concept_bureaucracy$ in question.",
-  "uk": ""
+  "uk": "Це те, наскільки [bureaucracy|e] вкорінена в [Concept('government','уряді')|e]. Що вища укоріненість, то більше вона робить, то більше коштує і то важче її позбутися.\\n\\nВона також впливає на [estate_satisfaction] [Concept('estates','станів')|e], яким подобається чи не подобається дана $game_concept_bureaucracy$."
  },
  "game_concept_establishment": {
   "en": "Establishment",
-  "uk": ""
+  "uk": "Налагодження"
  },
  "game_concept_establishment_desc": {
   "en": "Newly constructed [buildings|e] start unestablished. Below the establishment threshold, they operate at reduced throughput, both consuming fewer inputs and producing less output. Once the threshold is reached, the building operates at full capacity and begins earning a bonus to [production_efficiency|e] proportional to how established it is, growing up to +[GetDefine('NEconomy','STARTUP_MAX_PE_BONUS')|+=2%] at full establishment. [establishment|e] is gained each month and is lost if the building closes.",
-  "uk": ""
+  "uk": "Щойно збудовані [buildings|e] спочатку ще не налагоджені. Нижче порогу налагодження вони працюють зі зниженою продуктивністю, споживаючи менше ресурсів і виробляючи менше продукції. Після досягнення порогу споруда працює на повну потужність і починає отримувати бонус до [Concept('production_efficiency','виробничої ефективності')|e], пропорційний ступеню налагодження, зростаючи до +[GetDefine('NEconomy','STARTUP_MAX_PE_BONUS')|+=2%] за повного налагодження. [establishment|e] набувається щомісяця й втрачається, якщо споруда закривається."
  },
  "game_concept_estate": {
   "en": "Estate",
@@ -2577,31 +2577,31 @@
  },
  "game_concept_estate_building": {
   "en": "Estate Building",
-  "uk": ""
+  "uk": "Будівля стану"
  },
  "game_concept_estate_building_desc": {
   "en": "Estate Buildings are [buildings|e] that are only built and maintained by [estates|e], seeking to increase their [political_power|e]. Their effects usually go against the interests of the [ShowEstateTypeName('crown_estate')]. [estates] will prefer to build them in [locations|e] with low [control|e], and they can be destroyed by the Crown if [control] is high enough, or through a [parliament_agenda|e].\\n\\n[estates] can also build regular [buildings] and [rgo|e] to increase their income, and to that end they will prefer low [control] [locations] where they already enjoy a high [wealth_share|e].\\n\\n[estates] pay #W [GetDefine('NEconomy','ESTATE_MAX_PRICE_MULTIPLIER')]#! times the regular construction [price|e].",
-  "uk": ""
+  "uk": "Споруди станів — це [buildings|e], що будуються й утримуються лише [Concept('estates','станами')|e], які прагнуть підвищити свій [political_power|e]. Їхні ефекти зазвичай суперечать інтересам [ShowEstateTypeName('crown_estate')]. [estates] воліють будувати їх у [locations|e] з низьким [control|e], і Корона може їх знищити за достатньо високого [control], або через [Concept('parliament_agenda','парламентську вимогу')|e].\\n\\n[estates] також можуть будувати звичайні [buildings] та [rgo|e], щоб збільшити свій дохід, і з цією метою обиратимуть [locations] з низьким [control], де вони вже мають високу [Concept('wealth_share','частку багатства')|e].\\n\\n[estates] сплачують #W [GetDefine('NEconomy','ESTATE_MAX_PRICE_MULTIPLIER')]#! разів більше за звичайну ціну будівництва [price|e]."
  },
  "game_concept_estate_buildings": {
   "en": "Estate Buildings",
-  "uk": ""
+  "uk": "Будівлі станів"
  },
  "game_concept_estate_culture": {
   "en": "Estate Culture",
-  "uk": ""
+  "uk": "Культура стану"
  },
  "game_concept_estate_culture_desc": {
   "en": "Each [estate|e] has a dominant Estate Culture, weighted by the [pops|e] holding political weight in a [country|e]. The dominant [language|e] among those pops is picked first, and then the dominant [culture|e] among pops who speak that language.\\n\\nAn estate whose culture is the [primary_culture|e] or an [accepted_culture|e] enjoys higher [estate_satisfaction|e] and [estate_power|e]. A [tolerated_culture|e] is neutral, while any other culture lowers both.",
-  "uk": ""
+  "uk": "Кожен [estate|e] має домінантну культуру стану, зважену за [pops|e], що мають політичну вагу в [country|e]. Спочатку визначається домінантна [language|e] серед цих груп населення, а потім домінантна [culture|e] серед тих, хто говорить цією мовою.\\n\\nСтан, чия культура є [primary_culture|e] або [accepted_culture|e], користується вищим [estate_satisfaction|e] та [estate_power|e]. [tolerated_culture|e] нейтральна, тоді як будь-яка інша культура знижує обидва показники."
  },
  "game_concept_estate_cultures": {
   "en": "Estate Cultures",
-  "uk": ""
+  "uk": "Культури станів"
  },
  "game_concept_estate_desc": {
-  "en": "Special interest groups within a [country_with_icon|e], Estates have [estate_power_with_icon|e] representing their political strength within government, [estate_satisfaction_with_icon|e] representing how well their needs are fulfilled, and [estate_opinions|e] of other Countries.\\n\\nEstates may also have [estate_privileges_with_icon|e], which are special rights that increase their power and can be granted or revoked by the government. In turn, [estates] provide [taxes_with_icon|e], [army_levies_with_icon|e], and [navy_levies_with_icon|e] to their [country].\\n\\nEstates collect the [tax_base_with_icon|e] from the [locations_with_icon|e], as well as part of the profit of [trade|e], and they use that wealth to build [buildings_with_icon|e] and pay for [pop_needs_with_icon|e]. If their [estate_satisfaction] is low, they will only build estate buildings to support their own [estate_power].\\n\\nEach [character_with_icon|e] belongs to one of the Estates and increase its power when appointed to the [cabinet_with_icon|e], or when commanding [armies|e] and [navies|e]. Some [heir_selections|e] limit their [heirs|e] to specific estates.",
-  "uk": "Це група людей з особливими інтересами в складі [Concept('country', '@country! держави')|e]. Стани мають низку показників: [Concept('estate_power_with_icon', '@estate_power_with_icon! влада')|e] відображає рівень їхнього впливу в уряді, [Concept('estate_satisfaction', '@estate_satisfaction! задоволення')|e] — ступінь задоволення їхніх потреб, а [Concept('estate_opinions', 'думка')|e] — їхнє ставлення до інших держав.\\n\\nУряд може наділяти стани [Concept('estate_privileges', '@estate_privileges! привілеями')|e] — особливими правами, що посилюють їхні позиції в суспільстві, — які, втім, не завжди вдається зберегти. Натомість [Concept('estates', 'стани')] платять [Concept('country', 'державі')] [Concept('taxes', '@taxes! податки')|e], а також поповнюють [Concept('army_levies', '@army_levies! армійське')|e] і [Concept('navy_levies', '@navy_levies! флотське ополчення')|e].\\n\\nКрім того, стани відповідальні за збір [Concept('tax_base', '@tax_base! податків')|e] у [Concept('locations', '@locations! районах')|e], забезпечують частину доходів від [Concept('trade', 'торгівлі')|e], фінансують будівництво [Concept('buildings', '@buildings! споруд')|e] і виділяють кошти на задоволення [Concept('pop_needs', '@pop_needs! потреб населення')|e]. При низькому показнику [Concept('estate_satisfaction', 'задоволення')] стани зводять лише споруди, що зміцнюють їхню власну [Concept('estate_power', 'владу')].\\n\\nКожен [Concept('character', '@character! персонаж')|e] — представник якогось стану. Засідаючи в [Concept('cabinet', '@cabinet! раді')|e], командуючи [Concept('armies', 'армією')|e] або [Concept('navies', 'флотом')|e], він підвищує вплив своєї групи. Деякі [Concept('heirs', 'спадкоємці')|e] можуть належати лише до певного стану згідно з [Concept('heir_selections','правилами престолонаслідування')|e]."
+  "en": "Special interest groups within a [country_with_icon|e], Estates have [estate_power_with_icon|e] representing their political strength within government, [estate_satisfaction_with_icon|e] representing how well their needs are fulfilled, an [estate_culture_with_icon|e] and [estate_religion_with_icon|e] inherited from their dominant [pops|e], and [estate_opinions|e] of other Countries.\\n\\nEstates may also have [estate_privileges_with_icon|e], which are special rights that increase their power and can be granted or revoked by the government. In turn, [estates] provide [taxes_with_icon|e], [army_levies_with_icon|e], and [navy_levies_with_icon|e] to their [country].\\n\\nEstates collect the [tax_base_with_icon|e] from the [locations_with_icon|e], as well as part of the profit of [trade|e], and they use that wealth to build [buildings_with_icon|e] and pay for [pop_needs_with_icon|e]. If their [estate_satisfaction] is low, they will only build estate buildings to support their own [estate_power].\\n\\nEach [character_with_icon|e] belongs to one of the Estates and increase its power when appointed to the [cabinet_with_icon|e], or when commanding [armies|e] and [navies|e]. Some [heir_selections|e] limit their [heirs|e] to specific estates.",
+  "uk": "Стани — це групи з особливими інтересами в складі [Concept('country_with_icon','держави')|e]. Вони мають такі показники: [Concept('estate_power_with_icon','владу')|e], що відображає їхню політичну вагу в уряді, [Concept('estate_satisfaction_with_icon','задоволення')|e] — наскільки задоволені їхні потреби, [Concept('estate_culture_with_icon','культуру')|e] та [Concept('estate_religion_with_icon','релігію')|e], успадковані від домінантних [Concept('pops','груп населення')|e], а також [Concept('estate_opinions','думку')|e] про інші держави.\\n\\nСтани можуть мати [Concept('estate_privileges_with_icon','привілеї')|e] — особливі права, що посилюють їхню владу й можуть надаватися або скасовуватися урядом. Натомість [Concept('estates','стани')] дають [Concept('country','своїй державі')] [Concept('taxes_with_icon','податки')|e], [Concept('army_levies_with_icon','армійське ополчення')|e] та [Concept('navy_levies_with_icon','флотське ополчення')|e].\\n\\nСтани збирають [Concept('tax_base_with_icon','податкову базу')|e] з [Concept('locations_with_icon','районів')|e], а також частину прибутку від [Concept('trade','торгівлі')|e] і витрачають ці статки на будівництво [Concept('buildings_with_icon','споруд')|e] та на [Concept('pop_needs_with_icon','потреби населення')|e]. Якщо їхнє [Concept('estate_satisfaction','задоволення')] низьке, вони зводитимуть лише будівлі станів, що зміцнюють їхню власну [Concept('estate_power','владу')].\\n\\nКожен [Concept('character_with_icon','персонаж')|e] належить до одного зі станів і підвищує його владу, коли його призначають до [Concept('cabinet_with_icon','ради')|e] або коли він командує [Concept('armies','арміями')|e] чи [Concept('navies','флотами')|e]. Деякі [Concept('heir_selections','правила престолонаслідування')|e] обмежують вибір [Concept('heirs','спадкоємців')|e] певними станами."
  },
  "game_concept_estate_enrichment": {
   "en": "Estates Enrichment",
@@ -2649,15 +2649,15 @@
  },
  "game_concept_estate_religion": {
   "en": "Estate Religion",
-  "uk": ""
+  "uk": "Релігія стану"
  },
  "game_concept_estate_religion_desc": {
   "en": "Each [estate|e] has a dominant Estate Religion, picked from whichever [religion|e] holds the most political weight among the estate's [pops|e].\\n\\nThe estate's [estate_satisfaction|e] and [estate_power|e] are modified based on the [country|e]'s tolerance of the estate's religion — [primary_religion_tolerance|e] when it matches the [state_religion|e], [heretic_tolerance|e] when it is a [heretic|e] faith of the same group, and [heathenry_tolerance|e] when it belongs to a different religion group.",
-  "uk": ""
+  "uk": "Кожен [estate|e] має домінантну релігію стану, обрану з тієї [religion|e], яка має найбільшу політичну вагу серед [pops|e] стану.\\n\\n[estate_satisfaction|e] та [estate_power|e] стану змінюються залежно від терпимості [Concept('country','держави')|e] до релігії стану — [primary_religion_tolerance|e], якщо вона збігається з [state_religion|e], [heretic_tolerance|e], якщо це [Concept('heretic','єретична')|e] віра тієї самої групи, та [heathenry_tolerance|e], якщо вона належить до іншої релігійної групи."
  },
  "game_concept_estate_religions": {
   "en": "Estate Religions",
-  "uk": ""
+  "uk": "Релігії станів"
  },
  "game_concept_estate_satisfaction": {
   "en": "Estate Satisfaction",
@@ -2709,11 +2709,11 @@
  },
  "game_concept_ethnicity": {
   "en": "Ethnicity",
-  "uk": ""
+  "uk": "Етнічність"
  },
  "game_concept_ethnicity_desc": {
   "en": "$game_concept_ethnicity$ is what defines the main physical features of a [character|e].",
-  "uk": ""
+  "uk": "$game_concept_ethnicity$ визначає основні фізичні риси [Concept('character','персонажа')|e]."
  },
  "game_concept_event": {
   "en": "Event",
@@ -2864,16 +2864,16 @@
   "uk": "Експорт"
  },
  "game_concept_export_desc": {
-  "en": "An export is a [trade|e] moving [goods|e] out from a [market|e], increasing the [demand|e] of those goods in that market.\\n\\nIf there are multiple trades trying to export the same goods, then the goods are given in order of [merchant_power|e].",
-  "uk": "Експорт — це [Concept('trade', 'торгівля')|e], за якої [Concept('goods', 'товари')|e] вивозяться з [Concept('market', 'ринку')|e], збільшуючи [Concept('demand', 'попит')|e] на ці товари на конкретному ринку.\\n\\nЯкщо один і той самий товар експортується в кількох угодах, його кількість розподіляється за зменшенням [Concept('merchant_power', 'торгової переваги')|e]."
+  "en": "An Export is a [trade|e] moving [goods|e] out from a [market|e], and thus increasing its [demand|e] in that [market].\\n\\nIf there are multiple trades trying to export the same goods, then the goods are given in order of [merchant_power|e].",
+  "uk": "Експорт — це [Concept('trade','торгівля')|e], за якої [Concept('goods','товари')|e] вивозяться з [Concept('market','ринку')|e], збільшуючи на них [Concept('demand','попит')|e] на цьому [Concept('market','ринку')|e].\\n\\nЯкщо кілька торгових угод намагаються експортувати один товар, він розподіляється відповідно до [Concept('merchant_power','торгової переваги')|e]."
  },
  "game_concept_export_efficiency": {
   "en": "Export Efficiency",
-  "uk": ""
+  "uk": "Ефективність експорту"
  },
  "game_concept_export_efficiency_desc": {
   "en": "This modifies how profitable a [trade|e] will be on the sell side, by directly impacting the price received when exporting [goods|e] to a foreign [market|e].",
-  "uk": ""
+  "uk": "Це модифікує прибутковість [Concept('trade','торгівлі')|e] з боку продажу, безпосередньо впливаючи на ціну, отриману при експорті [Concept('goods','товарів')|e] на іноземний [Concept('market','ринок')|e]."
  },
  "game_concept_export_market": {
   "en": "Export Market",
@@ -3004,12 +3004,12 @@
   "uk": "$game_concept_food_capacity_desc$"
  },
  "game_concept_food_consumption": {
-  "en": "Food Consumption",
-  "uk": "Споживання їжі полком"
+  "en": "Daily Food Consumption",
+  "uk": "Щоденне споживання їжі"
  },
  "game_concept_food_consumption_desc": {
-  "en": "This is how much [food|e] a [regiment|e] will consume each month.",
-  "uk": "Це кількість [Concept('food','їжі')|e], що її щомісяця споживає [Concept('regiment','полк')|e]."
+  "en": "This is how much [food|e] a [regiment|e] will consume each day.",
+  "uk": "Це кількість [Concept('food','їжі')|e], що її щодня споживає [Concept('regiment','полк')|e]."
  },
  "game_concept_food_consumption_per_strength": {
   "en": "Food Consumption",
@@ -3021,11 +3021,11 @@
  },
  "game_concept_food_decay": {
   "en": "Food Decay",
-  "uk": ""
+  "uk": "Псування їжі"
  },
  "game_concept_food_decay_desc": {
   "en": "[food|e] does not last forever, and some are spoiled every month.",
-  "uk": ""
+  "uk": "[food|e] не зберігається вічно, і частина її псується щомісяця."
  },
  "game_concept_food_desc": {
   "en": "What [armies|e] march on, and what [pops|e] survive on. Without $game_concept_food$, armies will suffer [attrition|e] and $game_concept_pops$ will suffer [starvation|e]. [food_raw_materials|e] are the primary source of $game_concept_food$, although some [buildings|e] also play a role.\\n\\nThere are 3 layers involved in the production and distribution of $game_concept_food$:\\n\\n@location! [local_food|e]:\\n$game_concept_food$ is produced and consumed in the [locations|e], and any excess or deficit is added to the $game_concept_provincial_food$.\\n\\n@province! [provincial_food|e]:\\nThe $game_concept_provincial_food$ is the most important layer. If a [province|e] does not produce enough $game_concept_food$ to sustain the consumption of all its $game_concept_locations$, the Provincial storage will decrease. When it depletes, all $game_concept_locations$ inside a $game_concept_province$ will suffer [starvation|e]. But before that happens, the $game_concept_province$ will try to [buy_food|e] from its $game_concept_market$.\\n\\n@market! [market_food|e]:\\nAll $game_concept_provinces$ in a [market|e] will try to [sell_food|e] when their storage is full, and try to [buy_food] when it is low. As long as there is enough $game_concept_food$ inside a $game_concept_market$, no one will starve.",
@@ -3096,7 +3096,7 @@
   "uk": "Чужа споруда"
  },
  "game_concept_foreign_building_desc": {
-  "en": "This is a [building|e] that belongs to another [country|e] than the [owner|e] of the [location|e].",
+  "en": "This is a [building|e] that belongs to a [country|e] different from the [owner|e] of the [location|e].",
   "uk": "Це [Concept('building','споруда')|e], яка належить іншій [Concept('country','державі')|e], а не [Concept('owner','власнику')|e] [Concept('location','району')|e]."
  },
  "game_concept_foreign_buildings": {
@@ -3129,15 +3129,15 @@
  },
  "game_concept_foreign_market": {
   "en": "Foreign Market",
-  "uk": ""
+  "uk": "Іноземний ринок"
  },
  "game_concept_foreign_market_desc": {
   "en": "A $game_concept_foreign_market$ is a [market_with_icon|e] in which you do not [own|e] any territory, nor have any [merchant_capacity_with_icon|e]. That means you cannot conduct [trade_with_icon|e] from them, but you can still trade with them using your [merchant_capacity] in other [markets] within [trade_range_with_icon|e].",
-  "uk": ""
+  "uk": "$game_concept_foreign_market$ — це [market_with_icon|e], у якому ви не [own|e] жодної території і не маєте [merchant_capacity_with_icon|e]. Це означає, що ви не можете вести [trade_with_icon|e] з нього, але все ще можете торгувати з ним, використовуючи свою [merchant_capacity] на інших [markets] у межах [trade_range_with_icon|e]."
  },
  "game_concept_foreign_markets": {
   "en": "Foreign Markets",
-  "uk": ""
+  "uk": "Іноземні ринки"
  },
  "game_concept_formable": {
   "en": "Formable",
@@ -3248,8 +3248,8 @@
   "uk": "Друг"
  },
  "game_concept_friend_desc": {
-  "en": "A friendly [country|e] is one who is either our [subject|e], our [overlord|e], or a [war|e] ally. Of course, our own country is also considered friendly.",
-  "uk": "Дружньою вважається [Concept('country','держава')|e] або сторона, яка є нашим [Concept('subject','васалом')|e], [Concept('overlord','сюзереном')|e] або [Concept('war','воєнним')|e] союзником. Звісно, наша держава для нас завжди дружня."
+  "en": "A friendly [country|e] is one who is either our [subject|e], our [overlord|e], or a [war_ally|e]. Of course, our own country is also considered friendly.",
+  "uk": "Дружньою вважається [Concept('country','держава')|e], яка є нашим [Concept('subject','васалом')|e], [Concept('overlord','сюзереном')|e] або [Concept('war_ally','воєнним союзником')|e]. Звісно, наша власна держава також вважається дружньою."
  },
  "game_concept_friendly": {
   "en": "Friendly",
@@ -3309,11 +3309,11 @@
  },
  "game_concept_gdp_per_capita": {
   "en": "GDP per capita",
-  "uk": ""
+  "uk": "ВВП на душу населення"
  },
  "game_concept_gdp_per_capita_desc": {
   "en": "The Gross Domestic Product per capita is the total [income|e] of a [country|e] divied by its total [population|e].",
-  "uk": ""
+  "uk": "Валовий внутрішній продукт на душу населення — це загальний [Concept('income','дохід')|e] [Concept('country','держави')|e], поділений на загальне [Concept('population','населення')|e]."
  },
  "game_concept_general": {
   "en": "General",
@@ -3341,15 +3341,15 @@
  },
  "game_concept_geographical_term": {
   "en": "Geographical Term",
-  "uk": ""
+  "uk": "Географічний термін"
  },
  "game_concept_geographical_term_desc": {
   "en": "An arbitrary collection of geographical concepts like [continents|e], [sub_continents|e], [regions|e], [areas|e], [provinces|e] and [locations|e].",
-  "uk": ""
+  "uk": "Довільна сукупність географічних понять, як-от [continents|e], [sub_continents|e], [regions|e], [areas|e], [provinces|e] та [locations|e]."
  },
  "game_concept_geographical_terms": {
   "en": "Geographical Terms",
-  "uk": ""
+  "uk": "Географічні терміни"
  },
  "game_concept_geography": {
   "en": "Geography",
@@ -3369,11 +3369,11 @@
  },
  "game_concept_god_emperors": {
   "en": "God Emperors",
-  "uk": ""
+  "uk": "Боги-імператори"
  },
  "game_concept_god_emperors_desc": {
   "en": "A God Emperor is a [character|e] that is recognized in a [ShowReligionGroupAdjective('hellenistic')] [religion|e] by having an extraordinary degree of holiness through their deeds. The process to become a God Emperor is known as canonization.",
-  "uk": ""
+  "uk": "Бог-імператор — це [character|e], визнаний у [ShowReligionGroupAdjective('hellenistic')] [religion|e] завдяки надзвичайному ступеню святості своїх діянь. Процес перетворення на Бога-імператора називається канонізацією."
  },
  "game_concept_goddess": {
   "en": "Goddess",
@@ -3429,15 +3429,15 @@
  },
  "game_concept_government_bond": {
   "en": "Government Bond",
-  "uk": ""
+  "uk": "Державна облігація"
  },
  "game_concept_government_bond_desc": {
   "en": "A government bond is a form of long-term [debt|e] issued by a [country|e]. Unlike an [estate|e] [loan|e], a bond has no expiry date and is never repaid automatically. The [country|e] receives gold upfront and pays a monthly [bond_interest|e] indefinitely until choosing to redeem the bond by paying back the face value.",
-  "uk": ""
+  "uk": "Державна облігація — це форма довгострокового [debt|e], випущеного [Concept('country','державою')|e]. На відміну від [loan|e] [Concept('estate','стану')|e], облігація не має терміну дії й ніколи не погашається автоматично. [country|e] отримує золото наперед і безстроково сплачує щомісячний [Concept('bond_interest','відсоток за облігаціями')|e], доки не вирішить погасити облігацію, повернувши її номінальну вартість."
  },
  "game_concept_government_bonds": {
   "en": "Government Bonds",
-  "uk": ""
+  "uk": "Державні облігації"
  },
  "game_concept_government_desc": {
   "en": "Every [country|e] has a Government of a specific [government_type|e] located in its [capital|e].\\n\\nGovernments consist of the [ruler|e] and the [cabinet|e], and are shaped by [societal_values|e], [government_reforms|e], and [laws|e].",
@@ -3481,7 +3481,7 @@
  },
  "game_concept_government_type_desc": {
   "en": "$game_concept_government_type_upper_desc$\\n[ShowDatabase('government_type')]",
-  "uk": ""
+  "uk": "$game_concept_government_type_upper_desc$\\n[ShowDatabase('government_type')]"
  },
  "game_concept_government_type_list_title": {
   "en": "List of Government Types",
@@ -3497,31 +3497,31 @@
  },
  "game_concept_graphical_culture": {
   "en": "Graphical Culture",
-  "uk": ""
+  "uk": "Графічна культура"
  },
  "game_concept_graphical_culture_desc": {
   "en": "The main [culture|e] used for the representation of the in-game graphics and visuals.",
-  "uk": ""
+  "uk": "Основна [culture|e], що використовується для представлення внутрішньоігрової графіки та візуального оформлення."
  },
  "game_concept_great_power": {
   "en": "Great Power",
   "uk": "Велика держава"
  },
  "game_concept_great_power_desc": {
-  "en": "A [great_power] is a [country|e] that through [advances|e], [population|e], land area, [development|e], and other factors has risen to be one of the most powerful countries in the world, and as such gains the ability to influence other countries simply by throwing its weight around.\\n\\nThe [countries] with the highest [great_power_score|e] become [great_powers]. The total number of Great Powers varies depending on the [great_power_score|e] of the top Great Power compared with the rest.\\n\\n[subjects|e] and [countries] fighting for their independence may not become Great Powers.",
-  "uk": "[Concept('great_power', 'Великою')] вважається [Concept('country', 'держава')|e], яка завдяки своїм [Concept('advances', 'покращенням')|e], [Concept('population', 'населенню')|e], площі, [Concept('development', 'розвитку')|e] та іншим чинникам стала однією з найсильніших у світі. За допомогою цього статусу можна впливати на інші держави.\\n\\n[Concept('countries', 'Держави')|e] з найбільшим [Concept('great_power_score', 'рахунком великої держави')|e] стають [Concept('great_powers', 'великими')]. Загальна кількість великих держав залежить від [Concept('great_power_score','рахунку')|e] найсильнішої з них порівняно з рештою.\\n\\n[Concept('subjects', 'Васали')|e], а також [Concept('countries', 'держави')|e], що борються за свою незалежність, не можуть стати великими."
+  "en": "A [great_power] is a [country|e] that has accumulated enough [great_power_points|e] by dominating areas of high economic value to project its influence across the world.\\n\\nA [country] dominates an [area|e] when it controls at least two-thirds of the area's ownable [locations|e], counting [subjects|e] at a reduced rate. Each area is worth 1–10 [great_power_points|e] depending on its potential tax base relative to the world median.\\n\\nOnce a [country] crosses the [great_power_points|e] threshold it gains extra [diplomatic_capacity|e], [diplomats|e], [power_projection|e], [prestige|e], and [ShowModifierTypeName('mercenary_range')], as well as the ability to #T Enforce Peace, Intervene in Wars, and Threaten War#! anywhere in the world.",
+  "uk": "[great_power] — це [Concept('country','держава')|e], яка накопичила достатньо [Concept('great_power_points','пунктів великої держави')|e], домінуючи в областях високої економічної цінності, щоб поширювати свій вплив по всьому світу.\\n\\n[Concept('country','Держава')] домінує в [Concept('area','області')|e], коли контролює щонайменше дві третини придатних до володіння [Concept('locations','районів')|e] в цій області, причому [Concept('subjects','васали')|e] враховуються зі зниженою вагою. Кожна область варта 1–10 [Concept('great_power_points','пунктів великої держави')|e] залежно від її потенційної податкової бази відносно світового медіанного значення.\\n\\nЩойно [country] перетинає поріг [Concept('great_power_points','пунктів великої держави')|e], вона отримує додаткові [Concept('diplomatic_capacity','дипломатичний потенціал')|e], [Concept('diplomats','дипломатів')|e], [Concept('power_projection','дипломатичну вагу')|e], [Concept('prestige','престиж')|e] та [ShowModifierTypeName('mercenary_range')], а також можливість #T Примушувати до миру, Втручатися у війни та Погрожувати війною#! будь-де у світі."
  },
  "game_concept_great_power_points": {
   "en": "Great Power $game_concept_great_power_points_short$",
-  "uk": ""
+  "uk": "$game_concept_great_power_points_short$ великої держави"
  },
  "game_concept_great_power_points_desc": {
   "en": "Great Power Points measure how much of the world's economic territory a [country|e] dominates. A [country] earns points by controlling at least two-thirds of the ownable [locations|e] in an [area|e], counting [subjects|e] at a reduced rate. Each area is worth 1-10 points based on its potential tax base relative to the world median.\\n\\nAccumulate enough points to become a [regional_power|e] or [great_power|e].",
-  "uk": ""
+  "uk": "Пункти великої держави вимірюють, наскільки велику частку економічної території світу контролює [country|e]. [country] отримує пункти, контролюючи щонайменше дві третини придатних до володіння [locations|e] в [Concept('area','області')|e], причому [subjects|e] враховуються зі зниженою вагою. Кожна область варта 1–10 пунктів залежно від її потенційної податкової бази відносно світового медіанного значення.\\n\\nНакопичте достатньо пунктів, щоб стати [regional_power|e] чи [great_power|e]."
  },
  "game_concept_great_power_points_short": {
   "en": "Points",
-  "uk": ""
+  "uk": "Пункти"
  },
  "game_concept_great_power_rank": {
   "en": "Great Power $game_concept_great_power_rank_short$",
@@ -3569,7 +3569,7 @@
  },
  "game_concept_gurus": {
   "en": "Gurus",
-  "uk": ""
+  "uk": "Гуру"
  },
  "game_concept_harbor_capacity": {
   "en": "Harbor Capacity",
@@ -3601,19 +3601,19 @@
  },
  "game_concept_health_trait": {
   "en": "Health Trait",
-  "uk": ""
+  "uk": "Риса здоров’я"
  },
  "game_concept_health_trait_desc": {
   "en": "A $game_concept_health_trait$ is a type of [trait|e] that reflects the health (or unhealth) of a [character|e].\\n\\nA $game_concept_character$ can end up with any number of $game_concept_health_traits$ throughout their life.\\n\\nThey can be received from various sources, such as [events|e], [diseases|e], or [battle|e]. They may even be saddled with a $game_concept_health_trait$ from birth.\\n\\n$game_concept_traits$ borne of $game_concept_battle$ increase in their likliness depending on the number of friendly casualties.",
-  "uk": ""
+  "uk": "$game_concept_health_trait$ — це тип [Concept('trait','властивості')|e], що відображає здоров’я (чи нездоров’я) [character|e].\\n\\n$game_concept_character$ може отримати будь-яку кількість $game_concept_health_traits$ упродовж свого життя.\\n\\nЇх можна отримати з різних джерел, як-от [events|e], [diseases|e] чи [battle|e]. Персонаж навіть може мати $game_concept_health_trait$ від народження.\\n\\nЙмовірність $game_concept_traits$, породжених $game_concept_battle$, зростає залежно від кількості втрат серед своїх військ."
  },
  "game_concept_health_trait_short": {
   "en": "Health",
-  "uk": ""
+  "uk": "Здоров’я"
  },
  "game_concept_health_traits": {
   "en": "Health Traits",
-  "uk": ""
+  "uk": "Риси здоров’я"
  },
  "game_concept_heathen": {
   "en": "Heathen",
@@ -3625,7 +3625,7 @@
  },
  "game_concept_heathenry": {
   "en": "Heathenry",
-  "uk": ""
+  "uk": "Поганство"
  },
  "game_concept_heathenry_tolerance": {
   "en": "Tolerance of Heathens",
@@ -3705,7 +3705,7 @@
  },
  "game_concept_heresy": {
   "en": "Heresy",
-  "uk": ""
+  "uk": "Єресь"
  },
  "game_concept_heretic": {
   "en": "Heretic",
@@ -3729,11 +3729,11 @@
  },
  "game_concept_heroes": {
   "en": "Heroes",
-  "uk": ""
+  "uk": "Герої"
  },
  "game_concept_heroes_desc": {
   "en": "A Hero is a [character|e] that is recognized in a [ShowReligionGroupAdjective('hellenistic')] [religion|e] following the Heroic Cults aspect by having an extraordinary degree of holiness through their deeds. The process to become a Hero is known as canonization.",
-  "uk": ""
+  "uk": "Герой — це [character|e], визнаний у [ShowReligionGroupAdjective('hellenistic')] [religion|e], що дотримується культу героїв, завдяки надзвичайному ступеню святості своїх діянь. Процес перетворення на Героя називається канонізацією."
  },
  "game_concept_hidden": {
   "en": "Hidden",
@@ -3797,7 +3797,7 @@
  },
  "game_concept_holy_site_type_desc": {
   "en": "$game_concept_holy_site_type_upper_desc$\\n[ShowDatabase('holy_site_type')]",
-  "uk": ""
+  "uk": "$game_concept_holy_site_type_upper_desc$\\n[ShowDatabase('holy_site_type')]"
  },
  "game_concept_holy_site_type_list_title": {
   "en": "List of Holy Site Types",
@@ -3913,15 +3913,15 @@
  },
  "game_concept_imperial_circle": {
   "en": "Imperial Circle",
-  "uk": ""
+  "uk": "Імперський округ"
  },
  "game_concept_imperial_circle_desc": {
   "en": "A regional grouping of [holy_roman_empire|e] members. The [hre_emperor|e] can target certain actions directly at an entire [imperial_circle|e] through the [circle_leader|e].",
-  "uk": ""
+  "uk": "Регіональне об’єднання членів [Concept('holy_roman_empire','Священної Римської Імперії')|e]. [hre_emperor|e] може спрямовувати певні дії безпосередньо на весь [imperial_circle|e] через [Concept('circle_leader','лідера округу')|e]."
  },
  "game_concept_imperial_circles": {
   "en": "Imperial Circles",
-  "uk": ""
+  "uk": "Імперські округи"
  },
  "game_concept_imperial_religion": {
   "en": "Imperial Religion",
@@ -3940,16 +3940,16 @@
   "uk": "Імпорт"
  },
  "game_concept_import_desc": {
-  "en": "An import is a [trade|e] moving [goods|e] into a [market|e], increasing the [supply|e] of that goods in that market.",
-  "uk": "Імпорт — це [Concept('trade','торгівля')|e], за якої [Concept('goods','товари')|e] постачаються на [Concept('market','ринок')|e], збільшуючи [Concept('supply','пропозицію')|e] цих товарів на конкретному ринку."
+  "en": "An Import is a [trade|e] moving [goods|e] into a [market|e], and thus increasing its [supply|e] in that [market].",
+  "uk": "Імпорт — це [Concept('trade','торгівля')|e], за якої [Concept('goods','товари')|e] постачаються на [Concept('market','ринок')|e], збільшуючи [Concept('supply','пропозицію')|e] на цьому [market]."
  },
  "game_concept_import_efficiency": {
   "en": "Import Efficiency",
-  "uk": ""
+  "uk": "Ефективність імпорту"
  },
  "game_concept_import_efficiency_desc": {
   "en": "This reduces the cost paid when importing [goods|e] from a foreign [market|e].",
-  "uk": ""
+  "uk": "Це знижує вартість, яку сплачують при імпорті [Concept('goods','товарів')|e] з іноземного [Concept('market','ринку')|e]."
  },
  "game_concept_import_market": {
   "en": "Import Market",
@@ -4097,7 +4097,7 @@
  },
  "game_concept_integration_status_list": {
   "en": "$BULLET$[colonized|e]\\n$BULLET$[conquered|e]\\n$BULLET$[integrated|e]\\n$BULLET$[core|e]",
-  "uk": ""
+  "uk": "$BULLET$[colonized|e]\\n$BULLET$[conquered|e]\\n$BULLET$[integrated|e]\\n$BULLET$[core|e]"
  },
  "game_concept_integration_status_lower_desc": {
   "en": "Any [conquered] [location] can be [integrated] with a [cabinet_action|e], but reaching [core] status requires a large proportion of [pops|e] of the [primary_culture|e] or any of the [accepted_cultures|e].",
@@ -4149,7 +4149,7 @@
  },
  "game_concept_international_organization_type_desc": {
   "en": "$game_concept_international_organization_type_upper_title$\\n\\n$game_concept_international_organization_type_upper_desc$\\n[ShowDatabaseWithIcon('international_organization_type')]",
-  "uk": ""
+  "uk": "$game_concept_international_organization_type_upper_title$\\n\\n$game_concept_international_organization_type_upper_desc$\\n[ShowDatabaseWithIcon('international_organization_type')]"
  },
  "game_concept_international_organization_type_list_title": {
   "en": "List of International Organization Types",
@@ -4440,8 +4440,8 @@
   "uk": "Ефективність ополчення у бою"
  },
  "game_concept_levy_combat_efficiency_desc": {
-  "en": "This impacts how effective will a [regiment|e] of [levies|e] perform in [combat|e] compared the a [regular|e] regiment.",
-  "uk": "Ефективність [Concept('levies','ополчення')|e] у [Concept('combat','бою')|e]. Впливає на бойові показники полків ополченців."
+  "en": "This impacts how effective will a [regiment|e] of [levies|e] perform in [combat|e] compared to a [regular_regiment|e].",
+  "uk": "Впливає на те, наскільки ефективним буде [Concept('regiment','полк')|e] [Concept('levies','ополчення')|e] у [Concept('combat','бою')|e] порівняно з [Concept('regular_regiment','регулярним полком')|e]."
  },
  "game_concept_levy_desc": {
   "en": "A levy is a military unit that a [pop|e] will raise when called. It is either an [army_levy|e] or a [navy_levy|e].",
@@ -4469,11 +4469,11 @@
  },
  "game_concept_liturgical_dialect": {
   "en": "Liturgical Dialect",
-  "uk": ""
+  "uk": "Літургійний діалект"
  },
  "game_concept_liturgical_dialect_desc": {
   "en": "The main [dialect|e] of a [country|e]'s [liturgical_language|e].",
-  "uk": ""
+  "uk": "Основний [Concept('dialect','діалект')|e] [Concept('liturgical_language','літургійної мови')|e] [Concept('country','держави')|e]."
  },
  "game_concept_liturgical_language": {
   "en": "Liturgical Language",
@@ -4556,8 +4556,8 @@
   "uk": "Ранг району"
  },
  "game_concept_location_rank_desc": {
-  "en": "Each [location|e] has a rank, which can be described as an [urban_location|e] or a [rural_location|e].\\n\\n[ShowDatabase('location_rank')]",
-  "uk": "Кожен [Concept('location', 'район')|e] має свій ранг. Район може бути [Concept('urban_location','міським')|e] або [Concept('rural_location', 'сільським')|e].\\n\\n[ShowDatabase('location_rank')]"
+  "en": "Each [location|e] has a rank, which can be described as an [urban_location|e] or a [rural_location|e].\\n\\n[ShowDatabaseWithIcon('location_rank')]",
+  "uk": "Кожен [Concept('location', 'район')|e] має свій ранг. Район може бути [Concept('urban_location','міським')|e] або [Concept('rural_location', 'сільським')|e].\\n\\n[ShowDatabaseWithIcon('location_rank')]"
  },
  "game_concept_location_size": {
   "en": "Location Size",
@@ -4612,8 +4612,8 @@
   "uk": "Нижче суспільство"
  },
  "game_concept_lower_class_desc": {
-  "en": "This is a group of [pop_types|e] that belong to the lower strata of society, including the following [pop_types]:\\n$BULLET_WITH_TAB$[ShowPopTypeName('peasants')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('slaves')]",
-  "uk": "Ця категорія [Concept('pop_types','суспільних класів')|e] належить до нижчого стану, до якого входять такі [Concept('pop_types','класи')]:\\n$BULLET_WITH_TAB$[ShowPopTypeName('peasants')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('slaves')]"
+  "en": "This is a group of [pop_types|e] that belong to the lower strata of society, including the following [pop_types]:\\n$BULLET_WITH_TAB$[ShowPopTypeName('laborers')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('soldiers')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('peasants')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('tribesmen')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('slaves')]",
+  "uk": "Ця категорія [Concept('pop_types','суспільних класів')|e] належить до нижчого стану, до якого входять такі [Concept('pop_types','класи')]:\\n$BULLET_WITH_TAB$[ShowPopTypeName('laborers')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('soldiers')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('peasants')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('tribesmen')]\\n$BULLET_WITH_TAB$[ShowPopTypeName('slaves')]"
  },
  "game_concept_loyal_subject": {
   "en": "Loyal Subject",
@@ -4673,15 +4673,15 @@
  },
  "game_concept_map_mode_slot": {
   "en": "Map Mode Slot",
-  "uk": ""
+  "uk": "Комірка режиму карти"
  },
  "game_concept_map_mode_slot_desc": {
   "en": "A Map Mode Slot is a container with several map modes. Click the slot repeatedly to cycle through them. Open any map mode category and right click on any map mode to add it to a slot.",
-  "uk": ""
+  "uk": "Комірка режимів мапи — це контейнер з кількома режимами мапи. Клацайте по ній, щоб перемикатися між ними. Відкрийте будь-яку категорію режимів мапи та клацніть правою кнопкою миші на потрібному режимі, щоб додати його до комірки."
  },
  "game_concept_map_mode_slots": {
   "en": "Map Mode Slots",
-  "uk": ""
+  "uk": "Комірки режимів карти"
  },
  "game_concept_maritime": {
   "en": "Maritime",
@@ -4744,8 +4744,8 @@
   "uk": "Ринкові центри"
  },
  "game_concept_market_desc": {
-  "en": "A Market is where [goods|e] are bought and sold.\\nIt is based in a [market_center|e], but includes other locations based on their [market_access|e] and [protectionism|e].\\nAll these locations will exclusively buy from and sell to this market's [stockpile|e].\\n\\n[markets] are color-coded depending on how relevant they are to you:\\n\\n$BULLET$ #G Green [market]#!: You own locations in this [market], and therefore you need to worry about its [pop_needs|e].\\n\\n$BULLET$ #E Blue [market]#!: You do not own [locations|e], but have [merchant_capacity|e], and therefore can [trade|e] from them.\\n\\n$BULLET$ #L Brown [market]#!: You do not [own|e] any [location|e] nor have any [merchant_capacity|e].\\n\\n$BULLET$ Grey [market]: [markets] that are out of your [trade_range|e] and therefore you cannot interact with them.",
-  "uk": "На ринку купують і продають [Concept('goods','товари')|e].\\nВін розташований у [Concept('market_center','ринковому центрі')|e] та охоплює інші райони залежно від їхнього [Concept('market_access','доступу до ринку')|e] та рівня [Concept('protectionism','протекціонізму')|e].\\nУсі ці райони купуватимуть і продаватимуть товари лише із [Concept('stockpile','запасів')|e] свого ринку.\\n\\n[Concept('markets','Ринки')] позначені різними кольорами залежно від їхньої важливості для держави.\\n\\n$BULLET$ #G Зелений колір#! означає, що ви володієте районами, що належать до цього [Concept('market','ринку')], а тому повинні стежити за [Concept('pop_needs','потребами')|e] місцевого населення.\\n\\n$BULLET$ #E Синій колір#! означає, що ви не володієте районами, що належать до цього [Concept('market','ринку')], але у вас є на ньому [Concept('merchant_capacity','торговий потенціал')|e], тому ви можете там [Concept('trade', 'торгувати')|e].\\n\\n$BULLET$ #L Коричневий колір#! означає, що у вас немає ні торгового потенціалу, ні [Concept('location', 'районів')|e] [Concept('own', 'у володінні')|e], що належать до цього [Concept('market','ринку')].\\n\\n$BULLET$ Сірий колір означає, що [Concept('market','ринок')] перебуває за межами вашої [Concept('trade_range','торгової дистанції')|e] і ви не можете з ним взаємодіяти."
+  "en": "A Market is where [goods|e] are bought and sold.\\nIt is based in a [market_center|e], but includes other locations based on their [market_access|e] and [protectionism|e].\\nAll these locations will exclusively buy from and sell to this market's [stockpile|e].\\n\\n[markets] are color-coded depending on how relevant they are to you:\\n\\nDepending on your relation with them, [markets] can be [domestic_markets], [trading_markets], [foreign_markets], or [distant_markets].",
+  "uk": "На ринку купують і продають [Concept('goods','товари')|e].\\nВін розташований у [Concept('market_center','ринковому центрі')|e] та охоплює інші райони залежно від їхнього [Concept('market_access','доступу до ринку')|e] та рівня [Concept('protectionism','протекціонізму')|e].\\nУсі ці райони купуватимуть і продаватимуть товари лише із [Concept('stockpile','запасів')|e] свого ринку.\\n\\n[Concept('markets','Ринки')] позначені різними кольорами залежно від їхньої важливості для держави.\\n\\nЗалежно від ваших стосунків із ними [markets] можуть бути [domestic_markets], [trading_markets], [foreign_markets] або [distant_markets]."
  },
  "game_concept_market_food": {
   "en": "Market Food",
@@ -4760,8 +4760,8 @@
   "uk": "Торгова мова"
  },
  "game_concept_market_language_desc": {
-  "en": "This is the [language|e] spoken by the majority of the [ShowPopTypeName('burghers')] in the [market_center|e].",
-  "uk": "Це [Concept('language','мова')|e], якою розмовляє більшість #TOOLTIP:POPTYPE,burghers,X #L городян#!#! в [Concept('market_center','ринковому центрі')|e]."
+  "en": "This is the [language|e] spoken by the majority of the [ShowPopTypeName('burghers')] in the [market_center|e].\\n\\n[ShowPopTypeNameWithNoTooltip('burghers')] who already speak their market's $game_concept_market_language$ are reluctant to give it up. Their [assimilate|e] rate toward cultures that don't share that language is reduced in proportion to the location's [market_access|e] — strong commercial ties slow assimilation, while weak ties barely affect it.",
+  "uk": "Це [Concept('language','мова')|e], якою розмовляє більшість [ShowPopTypeName('burghers')] у [Concept('market_center','ринковому центрі')|e].\\n\\n[ShowPopTypeNameWithNoTooltip('burghers')], які вже розмовляють $game_concept_market_language$ свого ринку, неохоче відмовляються від неї. Їхній темп [Concept('assimilate','асиміляції')|e] до культур, що не використовують цю мову, знижується пропорційно до [Concept('market_access','доступу до ринку')|e] району — сильні торгові зв’язки уповільнюють асиміляцію, тоді як слабкі майже на неї не впливають."
  },
  "game_concept_market_owner": {
   "en": "Market Owner",
@@ -4976,8 +4976,8 @@
   "uk": "Об'єднана культурна група"
  },
  "game_concept_merged_culture_group_desc": {
-  "en": "Some [culture_groups|e] can be $game_concept_merged_culture_group_merged$ into a single [culture|e].\\n\\nA country can $game_concept_merged_culture_group_merge$ one of their [primary_culture|e]'s [culture_groups], which will cause a new [culture] to be created. [pops|e] of the old [primary_culture|e] and those of [accepted_cultures|e] that are in the same [culture_group_short] and use the same [language|e] will be immediately assimilated.\\n\\nA [culture_group] can only be $game_concept_merged_culture_group_merged$ once.",
-  "uk": "Деякі [Concept('culture_groups','культурні групи')|e] можна об'єднати в одну [Concept('culture','культуру')|e].\\n\\nДержави можуть об'єднувати культурні групи своєї [Concept('primary_culture','основної культури')|e], що призводить до створення нової культури. У такому разі [Concept('pops','групи населення')|e] попередньої основної культури та [Concept('accepted_cultures','визнаних культур')|e], що перебувають в одній культурній групі та говорять однією [Concept('language','мовою')|e], миттєво асимілюються.\\n\\nКультурну групу можна об'єднати з іншою лише один раз."
+  "en": "Some [culture_groups|e] can be $game_concept_merged_culture_group_merged$ into a single [culture|e].\\n\\nA country can $game_concept_merged_culture_group_merge$ one of their [primary_culture|e]'s [culture_groups], which will cause a new [culture] to be created. [pops|e] of the old [primary_culture|e] and those of [accepted_cultures|e] that are in the same [culture_group_short] and use the same [language|e] will be immediately assimilated.\\n\\n$game_concept_merged_culture_groups$ have a significant bonus to [assimilating|e] Cultures of that $game_concept_culture_group$.\\n\\nA [culture_group] can only be $game_concept_merged_culture_group_merged$ once.",
+  "uk": "Деякі [Concept('culture_groups','культурні групи')|e] можна $game_concept_merged_culture_group_merged$ в одну [Concept('culture','культуру')|e].\\n\\nДержава може $game_concept_merged_culture_group_merge$ одну з [Concept('culture_groups','культурних груп')] своєї [Concept('primary_culture','основної культури')|e], що призведе до створення нової [Concept('culture','культури')]. [Concept('pops','Групи населення')|e] попередньої [Concept('primary_culture','основної культури')|e] та [Concept('accepted_cultures','визнаних культур')|e], що належать до тієї самої [Concept('culture_group_short','групи')] й говорять тією самою [Concept('language','мовою')|e], одразу асимілюються.\\n\\n$game_concept_merged_culture_groups$ мають значний бонус до [Concept('assimilating','асиміляції')|e] культур цієї групи ($game_concept_culture_group$).\\n\\n[Concept('culture_group','Культурну групу')] можна $game_concept_merged_culture_group_merged$ лише один раз."
  },
  "game_concept_merged_culture_group_merge": {
   "en": "Unify",
@@ -5001,7 +5001,7 @@
  },
  "game_concept_merged_culture_groups": {
   "en": "Unified Culture Groups",
-  "uk": ""
+  "uk": "Об’єднані культурні групи"
  },
  "game_concept_migrate": {
   "en": "Migrate",
@@ -5097,15 +5097,15 @@
  },
  "game_concept_minor_revolt": {
   "en": "Minor Revolt",
-  "uk": ""
+  "uk": "Дрібний заколот"
  },
  "game_concept_minor_revolt_desc": {
   "en": "If a [rebel_movement|e] has not managed to garner enough support when it reaches #W 100%#!, it will not break away in open [revolt|e], but cause a [ShowModifier('minor_rebel_uprising')] in the affected [locations|e], with the following penalties:\\n\\n[ShowModifierEffect('minor_rebel_uprising')].",
-  "uk": ""
+  "uk": "Якщо [Concept('rebel_movement','повстанський рух')|e] не встиг набрати достатньої підтримки, коли досягає #W 100%#!, він не переростає у відкритий [Concept('revolt','заколот')|e], а натомість спричиняє [ShowModifier('minor_rebel_uprising')] у постраждалих [Concept('locations','районах')|e] з такими штрафами:\\n\\n[ShowModifierEffect('minor_rebel_uprising')]."
  },
  "game_concept_minor_revolts": {
   "en": "Minor Revolts",
-  "uk": ""
+  "uk": "Дрібні заколоти"
  },
  "game_concept_mint": {
   "en": "Mint",
@@ -5229,35 +5229,35 @@
  },
  "game_concept_movement": {
   "en": "Movement",
-  "uk": ""
+  "uk": "Рух"
  },
  "game_concept_movement_definition": {
   "en": "Movement Type",
-  "uk": ""
+  "uk": "Тип руху"
  },
  "game_concept_movement_definition_desc": {
   "en": "A Movement encapsulates ideas moving through a population. This can have various effects on each [pop|e] it touches.",
-  "uk": ""
+  "uk": "Рух втілює ідеї, що поширюються серед населення. Це може по-різному впливати на кожну [Concept('pop','групу населення')|e], якої він торкається."
  },
  "game_concept_movement_definitions": {
   "en": "Movement Types",
-  "uk": ""
+  "uk": "Типи рухів"
  },
  "game_concept_movement_desc": {
   "en": "A Movement is when a new [movement_definition|e] breaks out in a [location|e]. These serve as epicenters for each [movement_definition].",
-  "uk": ""
+  "uk": "Рух виникає, коли в [location|e] спалахує новий [movement_definition|e]. Він слугує осередком для кожного [movement_definition]."
  },
  "game_concept_movement_modifier": {
   "en": "Movement Modifier",
-  "uk": ""
+  "uk": "Модифікатор руху"
  },
  "game_concept_movement_modifier_desc": {
   "en": "A [modifier|e] that applies to the [movement|e]. These will apply to each [location|e] a movement affects.",
-  "uk": ""
+  "uk": "[Concept('modifier','Модифікатор')|e], що застосовується до [Concept('movement','руху')|e]. Він діятиме в кожному [Concept('location','районі')|e], якого торкається рух."
  },
  "game_concept_movement_modifiers": {
   "en": "Movement Modifiers",
-  "uk": ""
+  "uk": "Модифікатори руху"
  },
  "game_concept_movement_speed": {
   "en": "Movement Speed",
@@ -5269,7 +5269,7 @@
  },
  "game_concept_movements": {
   "en": "Movements",
-  "uk": ""
+  "uk": "Рухи"
  },
  "game_concept_nation": {
   "en": "Nation",
@@ -5308,8 +5308,8 @@
   "uk": "Мореплавна дистанція"
  },
  "game_concept_naval_range_desc": {
-  "en": "This is simply how far our [ships|e] can go before they need to turn back for more supplies. ",
-  "uk": "Це максимальна відстань, яку можуть подолати наші [Concept('ships', 'кораблі')|e] без потреби повернутися та поповнити припаси."
+  "en": "This is simply how far our [ships|e] can [explore|e] before they need to turn back for more supplies.",
+  "uk": "Це максимальна відстань, на яку наші [Concept('ships','кораблі')|e] можуть [Concept('explore','вирушити з дослідницькою місією')|e], перш ніж їм доведеться повернутися за припасами."
  },
  "game_concept_naval_strength": {
   "en": "Naval Strength",
@@ -5356,8 +5356,8 @@
   "uk": "Флотське ополчення"
  },
  "game_concept_navy_levy_desc": {
-  "en": "A naval levy is a transport [ship|e] that has been commandeered directly from [pops|e]. When the unit is recruited, the [pops] that own the ship and their crew are taken from [pops] in [locations|e], and when the unit is disbanded, any survivors return to the [pops]. These ships are generally flimsier than a [navy|e] recruited from [sailors|e], and should be guarded by proper ships with cannons.\\nA levy [ship|e] also has the following effect:\\n[ShowModifierEffect('is_navy_levy')]",
-  "uk": "Флотське ополчення — це [Concept('ship','корабель')|e], екіпаж якого набраний безпосередньо з представників [Concept('pops','груп населення')|e]. При наборі його власників та екіпажу зменшується чисельність [Concept('pops','груп населення')] з відповідних [Concept('locations','районів')|e], а при розпуску ті, хто вижив, повертаються до своїх [Concept('pops','груп населення')]. Такі кораблі поступаються надійністю [Concept('navy','флоту')|e], що набирається за рахунок [Concept('sailors','моряків')|e], до того ж ополченню потрібна підтримка кораблів з гарматами.\\nЦі [Concept('ship','кораблі')|e] перебувають під дією такого ефекту:\\n[ShowModifierEffect('is_navy_levy')]"
+  "en": "A naval levy is a transport [ship|e] that has been commandeered directly from [pops|e]. When the unit is recruited, the [pops] that own the ship and their crew are taken from [pops] in [locations|e], and when the unit is disbanded, any survivors return to the [pops]. These ships are generally flimsier than a [navy|e] recruited from [sailors|e], and should be guarded by proper ships with cannons.\\n\\nA levy [ship|e] also has the following effect:\\n\\n[ShowModifierEffect('is_navy_levy')]",
+  "uk": "Флотське ополчення — це транспортний [Concept('ship','корабель')|e], реквізований безпосередньо в [Concept('pops','груп населення')|e]. Під час набору власників корабля та екіпаж забирають із [Concept('pops','груп населення')] у [Concept('locations','районах')|e], тож ці [Concept('pops','групи населення')] зменшуються, а при розпуску ті, хто вижив, повертаються до своїх [Concept('pops','груп населення')]. Такі кораблі зазвичай значно вразливіші за [Concept('navy','флот')|e], набраний із [Concept('sailors','моряків')|e], тож їх мають прикривати справжні кораблі з гарматами.\\n\\nТакий [Concept('ship','корабель')|e] також має ефект:\\n\\n[ShowModifierEffect('is_navy_levy')] "
  },
  "game_concept_navy_maintenance": {
   "en": "Navy Maintenance",
@@ -5404,8 +5404,8 @@
   "uk": "Неминуче виснаження"
  },
  "game_concept_non_avoidable_attrition_desc": {
-  "en": "Usually [armies|e] do not take [attrition|e] if they are within the [zone_of_control|e] of a [fort|e] that they [own|e] and [control|e], but some things like the [ShowSituationName('black_death')] can not be avoided like that.",
-  "uk": "[Concept('armies','Армії')|e] в [Concept('zone_of_control','зоні контролю')|e] [Concept('fort','фортеці')|e], що перебуває [Concept('own','у володінні')|e] та [Concept('control','під контролем')|e] їхньої держави, зазвичай не зазнають [Concept('attrition','виснаження')|e]. Однак деяким явищам (наприклад, таким як [ShowSituationName('black_death')|l]) не страшні навіть фортечні стіни."
+  "en": "Usually [armies|e] do not take [attrition|e] if they are within the [zone_of_control|e] of a [fort|e] owned and controlled by themselves, their direct [subjects|e], or their direct [overlord|e], but some things like the [ShowSituationName('black_death')] can not be avoided like that.",
+  "uk": "[Concept('armies','Армії')|e] в [Concept('zone_of_control','зоні контролю')|e] [Concept('fort','фортеці')|e], що належить і перебуває під контролем їх самих, їхніх прямих [Concept('subjects','васалів')|e] або їхнього прямого [Concept('overlord','сюзерена')|e], зазвичай не зазнають [Concept('attrition','виснаження')|e]. Однак деяким явищам (наприклад, таким як [ShowSituationName('black_death')]) не страшні навіть фортечні стіни."
  },
  "game_concept_non_sovereign_subject": {
   "en": "Non-Sovereign Subject",
@@ -5465,11 +5465,11 @@
  },
  "game_concept_offered_omens": {
   "en": "Offered Omens",
-  "uk": ""
+  "uk": "Даровані знамення"
  },
  "game_concept_offered_omens_desc": {
   "en": "The number of [omens|e] our country can have summoned at the same time. Set by the $MODIFIER_TYPE_NAME_omens_offered$ modifier from our [religion|e] and [religious_aspects|e].",
-  "uk": ""
+  "uk": "Кількість [Concept('omens','знамень')|e], які наша держава може викликати одночасно. Визначається модифікатором $MODIFIER_TYPE_NAME_omens_offered$ від нашої [Concept('religion','релігії')|e] та [Concept('religious_aspects','релігійних аспектів')|e]."
  },
  "game_concept_official_religion": {
   "en": "Primary Religion",
@@ -5477,15 +5477,15 @@
  },
  "game_concept_omen": {
   "en": "Omen",
-  "uk": ""
+  "uk": "Знамення"
  },
  "game_concept_omen_desc": {
   "en": "$game_concept_omens$ are phenomena in the [ShowReligionAdjective('hellenism_religion')] [religion|e] associated with [gods|e]. They are summoned with [ShowGenericActionName('select_omen_god')] and [ShowGenericActionName('select_omen')]. Their power is increased by the [ability|e] of the [ruler|e].",
-  "uk": ""
+  "uk": "$game_concept_omens$ — це явища в [ShowReligionAdjective('hellenism_religion')] [religion|e], пов’язані з [gods|e]. Їх викликають за допомогою [ShowGenericActionName('select_omen_god')] та [ShowGenericActionName('select_omen')]. Їхня сила зростає залежно від [Concept('ability','навички')|e] [Concept('ruler','правителя')|e]."
  },
  "game_concept_omens": {
   "en": "Omens",
-  "uk": ""
+  "uk": "Знамення"
  },
  "game_concept_opinion": {
   "en": "Opinion",
@@ -5501,11 +5501,11 @@
  },
  "game_concept_original_location_rank": {
   "en": "Original Location Rank",
-  "uk": ""
+  "uk": "Початковий ранг району"
  },
  "game_concept_original_location_rank_desc": {
   "en": "The [location_rank|e] that each [location|e] had at the start of the campaign.\\n\\n[ShowDatabase('original_location_rank')]",
-  "uk": ""
+  "uk": "[Concept('location_rank','Ранг району')|e], який кожен [Concept('location','район')|e] мав на початку кампанії.\\n\\n[ShowDatabase('original_location_rank')]"
  },
  "game_concept_outbreak": {
   "en": "Outbreak",
@@ -5536,8 +5536,8 @@
   "uk": "Заморська територія"
  },
  "game_concept_overseas_desc": {
-  "en": "This is a [location|e] that has no land connection to the [capital|e] of a [country|e] and is on another [continent|e].",
-  "uk": "Цей [Concept('location','район')|e] не має сухопутного зв'язку зі [Concept('capital','столицею')|e] своєї [Concept('country','держави')|e], оскільки знаходиться на іншому [Concept('continent','континенті')|e]."
+  "en": "This is a [location|e] that has no land connection to the [capital|e] of a [country|e], is on another [continent|e], and is not on an adjacent [sub_continent|e].",
+  "uk": "Цей [Concept('location','район')|e] не має сухопутного зв’язку зі [Concept('capital','столицею')|e] своєї [Concept('country','держави')|e], оскільки знаходиться на іншому [Concept('continent','континенті')|e] і не на сусідньому [Concept('sub_continent','субконтиненті')|e]."
  },
  "game_concept_own": {
   "en": "Own",
@@ -5576,8 +5576,8 @@
   "uk": "Папський авторитет"
  },
  "game_concept_papal_authority_desc": {
-  "en": "Papal Authority is a measure of how respected and acknowledged the [pope|e] is. The higher the authority, the more likely that [ShowReligionAdjective('catholic')] [countries|e] follow the orders of the Papacy. In return, low Papal Authority makes [countries] more likely to take actions for their own interests which might conflict with the [ShowReligionAdjectiveWithNoTooltip('catholic')] ambitions.\\n\\nThe effectiveness of [papal_bulls|e] scales with the authority by a factor of #Y 2#! (that means a [papal_bull|e] enacted with 100% Papal Authority is #G 200.0%#! more effective while with 0% Papal Authority the effect of the bull is reduced to #R 0.0%#!).",
-  "uk": "Папський авторитет — це міра поваги та визнання [Concept('pope','папи')|e]. Авторитет підвищує ймовірність того, що #L [ShowReligionAdjective('catholic')|l]ькі#! [Concept('countries','держави')|e] виконуватимуть розпорядження папства. Низький авторитет призведе до того, що [Concept('countries','держави')] частіше діятимуть у своїх інтересах, іноді всупереч інтересам #L [ShowReligionAdjectiveWithNoTooltip('catholic')|l]ької#! віри.\\n\\nЕфективність [Concept('papal_bulls','папських булл')|e] зростає пропорційно авторитету з множником #Y 2#! — тобто у [Concept('papal_bull','папської булли')|e], виданої при 100%-му авторитеті, ефективність становитиме #G 200%#!, а при 0%-му авторитеті знизиться до #R 0%#!."
+  "en": "Papal Authority is a measure of how respected and acknowledged the [pope|e] is. It is an [international_organization_variable|e] of the [GetInternationalOrganizationType('catholic_church').GetName], with monthly changes driven by: [reform_desire|e], internal peace, doctrines, [cardinals|e], [excommunications|e], and other factors.\\n$PA_TOOLTIP_THRESHOLDS$",
+  "uk": "Папський авторитет — це міра поваги та визнання [Concept('pope','папи')|e]. Це [Concept('international_organization_variable','змінна міжнародного об’єднання')|e] [GetInternationalOrganizationType('catholic_church').GetName], щомісячна зміна якої залежить від: [Concept('reform_desire','прагнення реформ')|e], внутрішнього миру, доктрин, [Concept('cardinals','кардиналів')|e], [Concept('excommunications','відлучень від церкви')|e] та інших чинників.\\n$PA_TOOLTIP_THRESHOLDS$"
  },
  "game_concept_papal_bull": {
   "en": "Papal Bull",
@@ -5628,8 +5628,8 @@
   "uk": "Базова підтримка"
  },
  "game_concept_parliament_desc": {
-  "en": "A [country|e] can call its [estates|e] into a session of $game_concept_parliament$, to solve any [parliament_issue|e] they may have, while also giving the opportunities to create a [casus_belli|e], raise [taxes|e], increase [army_levies|e] and [navy_levies|e], or change any of the current [laws|e]. Any [estate|e] may have a [parliament_agenda|e] to resolve before they will pledge their support.\\n\\n$game_concept_parliament$ may take place in the [capital|e] or another [location|e] which receives some small benefits. If the [location] becomes [occupied|e], the $game_concept_parliament$ will fail.\\n\\n[international_organizations|e] such as the [GetUniqueInternationalOrganization('hre').GetName] can have a $game_concept_parliament$, too. However, the parliament system depends on the type of Organization as some require the support of [members|e] of a specific [special_status|e] and their [special_status_power|e] to pass.",
-  "uk": "[Concept('country','Держава')|e] може скликати [Concept('estates','стани')|e] на засідання парламенту. Там можна вирішувати будь-які [Concept('parliament_issue','парламентські питання')|e], створювати [Concept('casus_belli','приводи для війни')|e], підвищувати [Concept('taxes','податки')|e], поповнювати [Concept('army_levies','армійське')|e] й [Concept('navy_levies','флотське')|e] ополчення або змінювати чинний [Concept('laws','звід правил')|e]. У кожного [Concept('estate','стану')|e] може бути своя [Concept('parliament_agenda','парламентська вимога')|e]. Щоб заручитися підтримкою стану, цю вимогу потрібно задовольнити.\\n\\n$game_concept_parliament$ може перебувати як у [Concept('capital','столичному')|e], так і в іншому [Concept('location','районі')|e], який отримує за це невеликі переваги. Якщо цей [Concept('location','район')] [Concept('occupied','окупований')|e], то парламент перестає працювати.\\n\\nУ [Concept('international_organizations','міжнародних об’єднань')|e] на кшталт #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! також може бути парламент, однак його устрій залежить від типу об'єднання. Наприклад, у деяких парламентах для вирішення питань потрібна [Concept('special_status_power','сила')|e] [Concept('members','учасників')|e] з [Concept('special_status','особливим статусом')|e]."
+  "en": "A [country|e] can call its [estates|e] into a session of $game_concept_parliament$, to solve any [parliament_issue|e] they may have, while also giving the opportunities to create a [casus_belli|e], raise [taxes|e], increase [army_levies|e] and [navy_levies|e], or change any of the current [laws|e]. Any [estate|e] may have a [parliament_agenda|e] to resolve before they will pledge their support.\\n\\n$game_concept_parliament$ may take place in the [capital|e] or another [location|e], as long as it's a city, town, or [province_capital|e], and has more than one [proximity|e], which receives some small benefits. If the [location] becomes [occupied|e], the $game_concept_parliament$ will fail.\\n\\n[international_organizations|e] such as the [GetUniqueInternationalOrganization('hre').GetName] can have a $game_concept_parliament$, too. However, the parliament system depends on the type of Organization as some require the support of [members|e] of a specific [special_status|e] and their [special_status_power|e] to pass.",
+  "uk": "[Concept('country','Держава')|e] може скликати свої [Concept('estates','стани')|e] на засідання $game_concept_parliament$, щоб вирішити будь-які [Concept('parliament_issue','парламентські питання')|e], а також створити [Concept('casus_belli','привід для війни')|e], підвищити [Concept('taxes','податки')|e], поповнити [Concept('army_levies','армійське')|e] й [Concept('navy_levies','флотське ополчення')|e] або змінити чинні [Concept('laws','закони')|e]. У кожного [Concept('estate','стану')|e] може бути своя [Concept('parliament_agenda','парламентська вимога')|e], яку потрібно задовольнити, перш ніж він пообіцяє підтримку.\\n\\n$game_concept_parliament$ може відбуватися в [Concept('capital','столиці')|e] або в іншому [Concept('location','районі')|e], якщо це місто, містечко чи [Concept('province_capital','столиця провінції')|e], і має більш ніж одну [Concept('proximity','близькість')|e], що дає невеликі переваги. Якщо цей [Concept('location','район')|e] стане [Concept('occupied','окупованим')|e], $game_concept_parliament$ зазнає невдачі.\\n\\n[Concept('international_organizations','Міжнародні об’єднання')|e], такі як [GetUniqueInternationalOrganization('hre').GetName], також можуть мати $game_concept_parliament$. Однак устрій парламенту залежить від типу об’єднання, оскільки для ухвалення рішень у деяких потрібна підтримка [Concept('members','учасників')|e] з певним [Concept('special_status','особливим статусом')|e] та їхня [Concept('special_status_power','сила')|e]."
  },
  "game_concept_parliament_issue": {
   "en": "Parliament Issue",
@@ -5732,7 +5732,7 @@
   "uk": "Мир"
  },
  "game_concept_peace_cost": {
-  "en": "Peace Cost",
+  "en": "Peace Offer value",
   "uk": "Вартість миру"
  },
  "game_concept_peace_cost_desc": {
@@ -5760,8 +5760,8 @@
   "uk": "Мирний договір"
  },
  "game_concept_peace_treaty_desc": {
-  "en": "This will be the conditions of a [peace_offer|e], which include the transfer of a [location|e] between two [countries|e], or a tribute in [gold|e] between them, or even some special treaties like [ShowPeaceTreatyTypeName('abandon_colonial_claim')], [ShowPeaceTreatyTypeName('peace_take_over_market_center')], or [ShowPeaceTreatyTypeName('peace_humiliate')].",
-  "uk": "Це умови [Concept('peace_offer','пропозиції про мир')|e], до яких належать передача [Concept('location','районів')|e] між двома [Concept('countries','державами')|e], виплата [Concept('gold','дукатів')|e] або навіть особливі договори, наприклад, #TOOLTIP:SCRIPTED_PEACE_TREATY,abandon_colonial_claim,X #L відмова від претензії на колонію#!#!, #TOOLTIP:SCRIPTED_PEACE_TREATY,peace_take_over_market_center,X #L захоплення ринкового центру#!#! або #TOOLTIP:SCRIPTED_PEACE_TREATY,peace_humiliate,X #L приниження#!#!."
+  "en": "This will be the conditions of a [peace_offer|e], which include the transfer of a [location|e] between two [countries|e], or a tribute in [gold|e] between them, or even some special treaties like [ShowPeaceTreatyTypeName('abandon_colonial_claim')], [ShowPeaceTreatyTypeName('execute_ruler')], or [ShowPeaceTreatyTypeName('peace_humiliate')].",
+  "uk": "Це умови [Concept('peace_offer','пропозиції про мир')|e], до яких належать передача [Concept('location','районів')|e] між двома [Concept('countries','державами')|e], виплата [Concept('gold','дукатів')|e] між ними або навіть особливі договори, наприклад, [ShowPeaceTreatyTypeName('abandon_colonial_claim')], [ShowPeaceTreatyTypeName('execute_ruler')] або [ShowPeaceTreatyTypeName('peace_humiliate')]."
  },
  "game_concept_peasant_enfranchisement": {
   "en": "$MODIFIER_TYPE_NAME_global_peasant_enfranchisment$",
@@ -5769,15 +5769,15 @@
  },
  "game_concept_peasant_enfranchisement_desc": {
   "en": "$MODIFIER_TYPE_DESC_global_peasant_enfranchisment$\\n\\nEnfranchisement depends mostly on the [ShowSocietyDirectionName('free_subjects')] [societal_value_with_icon|e]. [towns_and_cities|e] have a higher level than [rural_locations|e], and some [buildings|e] can increase it or decrease it.",
-  "uk": ""
+  "uk": "$MODIFIER_TYPE_DESC_global_peasant_enfranchisment$\\n\\nРівень наділення правами залежить переважно від [Concept('societal_value_with_icon','@societal_value! суспільної цінності')|e] [ShowSocietyDirectionName('free_subjects')]. [Concept('towns_and_cities','Міські райони')|e] мають вищий рівень, ніж [Concept('rural_locations','сільські райони')|e], а деякі [Concept('buildings','споруди')|e] можуть його підвищувати чи знижувати."
  },
  "game_concept_pentarchy": {
   "en": "Pentarchy",
-  "uk": ""
+  "uk": "Пентархія"
  },
  "game_concept_pentarchy_desc": {
   "en": "The Pentarchy represents the traditional seats of power of [ShowReligionName('orthodox')]. Each of the [locations|e] that serve as a seat of the Pentarchy will give a different [modifier|e] to the [country|e] that owns it, and once a [country] owns all five seats those [modifiers] will be doubled.",
-  "uk": ""
+  "uk": "Пентархія уособлює традиційні осередки влади [ShowReligionName('orthodox')]. Кожен з [locations|e], що є кафедрою Пентархії, надає окремий [modifier|e] [Concept('country','державі')|e], яка ним володіє, а щойно [country] отримає всі п’ять кафедр, ці [modifiers] подвояться."
  },
  "game_concept_people": {
   "en": "People",
@@ -5901,7 +5901,7 @@
  },
  "game_concept_pop_type_desc": {
   "en": "$game_concept_pop_type_upper_desc$\\n[ShowDatabase('pop_type')]",
-  "uk": ""
+  "uk": "$game_concept_pop_type_upper_desc$\\n[ShowDatabase('pop_type')]"
  },
  "game_concept_pop_type_list_title": {
   "en": "List of Social Classes",
@@ -6152,8 +6152,8 @@
   "uk": "Прибуток"
  },
  "game_concept_profit_desc": {
-  "en": "This is the amount that a [building|e] or a [rgo|e] contributes to the [tax_base|e] of its [location], already taking [control|e] into account. In other words, it is the [gold|e] that are actually created from the [building].",
-  "uk": "Величина внеску [Concept('building','споруди')|e] або [Concept('rgo','видобутку ресурсів')|e] до [Concept('tax_base','податкової бази')|e] [Concept('location','району')] з урахуванням [Concept('control','контролю')|e]. Іншими словами, це кількість [Concept('gold','золота')|e], що створюється цією [Concept('building','спорудою')]."
+  "en": "This is the amount that a [building|e] or a [rgo|e] contributes to the [wealth|e] of its [location]. In other words, the [gold|e] that are created from the [building].\\n\\nIf it is negative, the building will be considered unprofitable and stop working.",
+  "uk": "Величина внеску [Concept('building','споруди')|e] або [Concept('rgo','видобутку ресурсів')|e] до [Concept('wealth','багатства')|e] свого [Concept('location','району')]. Іншими словами, це [Concept('gold','золото')|e], що створюється цією [Concept('building','спорудою')].\\n\\nЯкщо це значення від’ємне, споруда вважається збитковою та припиняє працювати."
  },
  "game_concept_promote": {
   "en": "Promote",
@@ -6208,12 +6208,12 @@
   "uk": "Столиця провінції"
  },
  "game_concept_province_capital_desc": {
-  "en": "The Province Capital is the [location|e] that is the figurative heart of its [province|e]. The most populated or developed [location] in a [province] will be automatically selected as the Province Capital. When this [location] gets [occupied|e] during a [war|e], the remaining [locations] of the [province] fall automatically in the hands of the invader over a short period of time.\\n\\nThe Province Capital also determines the [market|e] from which the whole [province|e] buys and sells [food|e].",
-  "uk": "Столиця провінції — це [Concept('location', 'район')|e], який є центром відповідної [Concept('province', 'провінції')|e]. Найбільш густонаселений або розвинений [Concept('location', 'район')|e] у [Concept('province', 'провінції')|e] автоматично стає її столицею. Якщо столицю [Concept('occupied', 'окупують')|e] під час [Concept('war', 'війни')|e], то решта районів провінції швидко й автоматично перейде під контроль загарбника.\\n\\nСтолиця також визначає, на якому [Concept('market','ринку')|e] купує та продає [Concept('food','їжу')|e] вся [Concept('province', 'провінція')|e]."
+  "en": "The Province Capital is the [location|e] that is the figurative heart of its [province|e]. The most populated or developed [location] in a [province] will be automatically selected as the Province Capital, although it can be manually changed from the Location Panel. When this [location] gets [occupied|e] during a [war|e], the remaining [locations] of the [province] fall automatically in the hands of the invader over a short period of time.\\n\\nThe Province Capital also determines the [market|e] from which the whole [province|e] buys and sells [food|e].",
+  "uk": "Столиця провінції — це [Concept('location', 'район')|e], який є центром відповідної [Concept('province', 'провінції')|e]. Найбільш густонаселений або розвинений [Concept('location', 'район')] у [Concept('province', 'провінції')] автоматично стає її столицею, хоча її можна змінити вручну на панелі району. Якщо цей [Concept('location', 'район')] [Concept('occupied', 'окупують')|e] під час [Concept('war', 'війни')|e], то решта [Concept('locations', 'районів')] [Concept('province', 'провінції')] незабаром автоматично перейде під контроль загарбника.\\n\\nСтолиця провінції також визначає, на якому [Concept('market','ринку')|e] купує та продає [Concept('food','їжу')|e] вся [Concept('province', 'провінція')|e]. "
  },
  "game_concept_province_capitals": {
   "en": "Province Capitals",
-  "uk": ""
+  "uk": "Столиці провінцій"
  },
  "game_concept_province_definition": {
   "en": "Province Definition",
@@ -6225,7 +6225,7 @@
  },
  "game_concept_province_definitions": {
   "en": "Province Definitions",
-  "uk": ""
+  "uk": "Визначення провінцій"
  },
  "game_concept_province_desc": {
   "en": "A province is a group of [locations|e] [owned|e] by the same [country|e]. The province shares and distributes [food|e] between its locations, and [army_levies|e] and [navy_levies|e] are raised from an entire province at once. Several [cabinet_actions|e] target a province.",
@@ -6380,7 +6380,7 @@
   "uk": "Регент"
  },
  "game_concept_regent_desc": {
-  "en": "This a [character|e] that is acting as the [ruler|e] of the [country|e] during a [regency|e].",
+  "en": "This is a [character|e] that is acting as the [ruler|e] of the [country|e] during a [regency|e].",
   "uk": "Це [Concept('character','персонаж')|e], що виконує обов'язки [Concept('ruler','правителя')|e] [Concept('country','держави')|e] в період [Concept('regency','регентства')|e]."
  },
  "game_concept_regents": {
@@ -6409,15 +6409,15 @@
  },
  "game_concept_regional_power": {
   "en": "Regional Power",
-  "uk": ""
+  "uk": "Регіональна держава"
  },
  "game_concept_regional_power_desc": {
   "en": "A [regional_power] is a [country|e] that has accumulated enough [great_power_points|e] to dominate its region but has not yet reached [great_power|e] status.\\n\\nA [regional_power] earns half the bonuses of a [great_power] — extra [diplomatic_capacity|e], [diplomats|e], [power_projection|e], [prestige|e], and [ShowModifierTypeName('mercenary_range')] — but its #T Enforce Peace, Intervene in Wars, and Threaten War#! anywhere in the world actions are limited to [countries|e] whose capital lies in an adjacent [region|e].",
-  "uk": ""
+  "uk": "[regional_power] — це [country|e], яка накопичила достатньо [great_power_points|e], щоб домінувати у своєму регіоні, але ще не досягла статусу [great_power|e].\\n\\n[regional_power] отримує половину бонусів [Concept('great_power','великої держави')|e] — додаткову [diplomatic_capacity|e], [diplomats|e], [power_projection|e], [prestige|e] та [ShowModifierTypeName('mercenary_range')] — але її дії #T «Примус до миру», «Втрутитися у війну» та «Загроза війною»#! по всьому світу обмежені [countries|e], столиця яких лежить у суміжному [Concept('region','регіоні')|e]."
  },
  "game_concept_regional_powers": {
   "en": "Regional Powers",
-  "uk": ""
+  "uk": "Регіональні держави"
  },
  "game_concept_regions": {
   "en": "Regions",
@@ -6545,7 +6545,7 @@
  },
  "game_concept_religious_figure_desc": {
   "en": "$game_concept_religious_figure_upper_desc$\\n[ShowDatabase('religious_figures')]",
-  "uk": ""
+  "uk": "$game_concept_religious_figure_upper_desc$\\n[ShowDatabase('religious_figures')]"
  },
  "game_concept_religious_figure_list_title": {
   "en": "List of Types of Religious Figures",
@@ -6704,8 +6704,8 @@
   "uk": "Прогрес дослідження"
  },
  "game_concept_research_progress_desc": {
-  "en": "Our [research|e] progress depends mainly on the power of our [liturgical_language_with_icon|e], the average [literacy_with_icon|e] of our [pops_with_icon|e], the [estate_satisfaction|e] of our [ShowEstateTypeName('clergy_estate')], and the number of [institutions_with_icon|e] we have [embraced|e].",
-  "uk": "Прогрес [Concept('research', 'дослідження')|e] здебільшого визначається силою [Concept('liturgical_language', '@liturgical_language! літургійної мови')|e], середнім рівнем [Concept('literacy', '@literacy! грамотності')|e] [Concept('pops', '@pops! населення')|e], ступенем [Concept('estate_satisfaction', 'задоволення')|e] #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L священиків#!#! і тим, скільки [Concept('institutions', '@institutions! інститутів')|e] уже було [Concept('embraced', 'впроваджено')|e]."
+  "en": "Our [research_progress|e] depends mainly on the power of our [liturgical_language_with_icon|e], the average [literacy_with_icon|e] of our [pops_with_icon|e], the [estate_satisfaction|e] of our [ShowEstateTypeName('clergy_estate')], and the number of [institutions_with_icon|e] we have [embraced|e].",
+  "uk": "[Concept('research_progress','Прогрес дослідження')|e] здебільшого визначається силою нашої [Concept('liturgical_language','@liturgical_language! літургійної мови')|e], середнім рівнем [Concept('literacy','@literacy! грамотності')|e] наших [Concept('pops','@pops! груп населення')|e], ступенем [Concept('estate_satisfaction','задоволення')|e] [ShowEstateTypeName('clergy_estate')] і тим, скільки [Concept('institutions','@institutions! інститутів')|e] уже було [Concept('embraced','впроваджено')|e]."
  },
  "game_concept_researched": {
   "en": "Researched",
@@ -6897,11 +6897,11 @@
  },
  "game_concept_roman_borders": {
   "en": "Roman Borders",
-  "uk": ""
+  "uk": "Римські кордони"
  },
  "game_concept_roman_borders_desc": {
   "en": "These are the lands that denote the height of power of the Roman Empire. The regions included are; [ShowRegionName('italy_region')], [ShowRegionName('france_region')], [ShowRegionName('iberia_region')], [ShowRegionName('great_britain_region')], [ShowRegionName('balkan_region')], [ShowRegionName('anatolia_region')], [ShowRegionName('crescent_region')], [ShowRegionName('egypt_region')] and [ShowRegionName('maghreb_region')].",
-  "uk": ""
+  "uk": "Це землі, що позначають вершину могутності Римської Імперії. До них належать регіони: [ShowRegionName('italy_region')], [ShowRegionName('france_region')], [ShowRegionName('iberia_region')], [ShowRegionName('great_britain_region')], [ShowRegionName('balkan_region')], [ShowRegionName('anatolia_region')], [ShowRegionName('crescent_region')], [ShowRegionName('egypt_region')] і [ShowRegionName('maghreb_region')]."
  },
  "game_concept_royal_marriage": {
   "en": "Royal Marriage",
@@ -7021,7 +7021,7 @@
  },
  "game_concept_secondary_culture": {
   "en": "Secondary Culture",
-  "uk": ""
+  "uk": "Другорядна культура"
  },
  "game_concept_sect": {
   "en": "Sect",
@@ -7053,14 +7053,14 @@
  },
  "game_concept_secure_flanks_defense": {
   "en": "Secure Flanks Defense",
-  "uk": ""
+  "uk": "Захист флангів"
  },
  "game_concept_secure_flanks_defense_desc": {
   "en": "$game_concept_secure_flanks_desc$",
   "uk": "$game_concept_secure_flanks_desc$"
  },
  "game_concept_secure_flanks_desc": {
-  "en": "This provides a defensive bonus when there are [friendly|e] troops in a neighboring [section|e]. If both flanks are secure, the bonus is doubled. ",
+  "en": "This provides a defensive bonus when there are [friendly|e] troops in a neighboring [section|e]. If both flanks are secure, the bonus is doubled.",
   "uk": "Дає надбавку до захисту, якщо в сусідній [Concept('section','частині бойового порядку')|e] є [Concept('friendly','дружні')|e] війська. Подвоюється, якщо захищені обидва фланги."
  },
  "game_concept_self_control": {
@@ -7068,8 +7068,8 @@
   "uk": "Самоконтроль"
  },
  "game_concept_self_control_desc": {
-  "en": "Self Control is a measure of how a [country|e] and its [ruler|e] are renouncing pleasures and material possessions, and how they follow the path of Yoga.\\n\\nHaving a positive value of $self_control$ will mean that they tend to asceticism, giving benefits to [stability|e], [migration|e], [annexation|e], and reduced [food|e] consumption, while having a negative $self_control$ means that they are tending towards depravity, giving increased [tax|e] and [food|e] consumption but reduced [war_exhaustion|e]. Having $self_control$ balanced gives in turn better [research|e] speed, [prestige|e], and [estate_satisfaction|e].",
-  "uk": "$self_control$ характеризує готовність [Concept('country','держави')|e] та її [Concept('ruler','правителя')|e] відкинути насолоди та матеріальні блага, щоб іти шляхом йоги.\\n\\nПозитивне значення самоконтролю показує схильність до аскетизму та йде на користь [Concept('stability','стабільності')|e], [Concept('migration','міграції')|e], [Concept('annexation','приєднанню')|e], а також знижує споживання [Concept('food','їжі')|e], тоді як негативний самоконтроль показує схильність до порочності, знижуючи [Concept('tax','податки')|e] та підвищуючи споживання [Concept('food','їжі')|e], але при цьому знижуючи [Concept('war_exhaustion','втому від війни')|e]. Збалансований самоконтроль збільшує швидкість [Concept('research','досліджень')|e], [Concept('prestige','престиж')|e] та [Concept('estate_satisfaction','задоволеність станів')|e]."
+  "en": "Self Control is a measure of how a [country|e] and its [ruler|e] are renouncing pleasures and material possessions, and how they follow the path of Yoga.\\n\\nHaving a positive value of $self_control$ will mean that they tend to asceticism, giving benefits to [stability|e], [migration|e], [annexation|e], and reduced [food_consumption|e], while having a negative $self_control$ means that they are tending towards depravity, giving increased [tax|e] and [food_consumption|e] but reduced [war_exhaustion|e]. Having $self_control$ balanced gives in turn better [research|e] speed, [prestige|e], and [estate_satisfaction|e].",
+  "uk": "Самоконтроль показує, наскільки [Concept('country','держава')|e] та її [Concept('ruler','правитель')|e] зрікаються насолод і матеріальних благ та йдуть шляхом йоги.\\n\\nДодатне значення $self_control$ означає схильність до аскетизму, що йде на користь [Concept('stability','стабільності')|e], [Concept('migration','міграції')|e], [Concept('annexation','приєднанню')|e] та знижує [Concept('food_consumption','споживання їжі')|e]. Від’ємне значення $self_control$ означає схильність до розпусти, що збільшує [Concept('tax','податки')|e] та [Concept('food_consumption','споживання їжі')|e], але зменшує [Concept('war_exhaustion','втому від війни')|e]. Збалансований $self_control$ натомість пришвидшує [Concept('research','дослідження')|e], а також підвищує [Concept('prestige','престиж')|e] та [Concept('estate_satisfaction','задоволеність станів')|e]."
  },
  "game_concept_self_control_i": {
   "en": "@self_control!",
@@ -7093,11 +7093,11 @@
  },
  "game_concept_selling_efficiency": {
   "en": "Selling Efficiency",
-  "uk": ""
+  "uk": "Ефективність продажу"
  },
  "game_concept_selling_efficiency_desc": {
   "en": "This modifies how profitable a [trade|e] will be, by directly impacting the price you sell [goods|e] to the target [market|e].",
-  "uk": ""
+  "uk": "Це впливає на прибутковість [Concept('trade','торгівлі')|e], безпосередньо змінюючи ціну, за якою ви продаєте [Concept('goods','товари')|e] на цільовому [Concept('market','ринку')|e]."
  },
  "game_concept_selling_food": {
   "en": "Selling Food",
@@ -7192,16 +7192,16 @@
   "uk": "Ситуативні дії"
  },
  "game_concept_situation_desc": {
-  "en": "A Situation is what the game uses for the most important historical incidents that involve more than one [country|e], and/or are happening over a period of time.\\n\\nSome of the most important Situations include the [ShowSituationName('black_death')] and [ShowSituationName('reformation')].\\n\\nThe Situations of the [ShowAgeName('age_1_traditions')]:\\n$BULLET$Hundred Years' War\\n$BULLET$Guelphs and Ghibellines\\n$BULLET$Rise of the Turks\\n$BULLET$Nanbokuchō Jidai\\n$BULLET$Fall of Delhi\\n\\nThe Situations of the [ShowAgeName('age_2_renaissance')]:\\n$BULLET$Black Death\\n$BULLET$Hussite Wars\\n$BULLET$Red Turban Rebellions\\n$BULLET$Rise of $name_temur$\\n$BULLET$Western Schism\\n\\nThe Situations of the [ShowAgeName('age_3_discovery')]:\\n$BULLET$Great Pestilence\\n$BULLET$Italian Wars\\n$BULLET$The Reformation\\n$BULLET$Sengoku Jidai\\n$BULLET$Treaty of Tordesillas\\n\\nThe Situations of the [ShowAgeName('age_4_reformation')]:\\n$BULLET$Council of Trent\\n$BULLET$War of Religions\\n\\nThe Situations of the [ShowAgeName('age_5_absolutism')]:\\n$BULLET$Columbian Exchange\\n$BULLET$Golden Age of Piracy\\n$BULLET$Little Ice Age\\n\\nThe Situations of the [ShowAgeName('age_6_revolutions')]:\\n$BULLET$Colonial Revolution\\n$BULLET$People's Uprising",
-  "uk": "Ситуація — це найважливіша історична подія, в якій бере участь кілька [Concept('country','держав')|e] і яка може бути тривалою в часі.\\n\\nДо найважливіших ситуацій належать #TOOLTIP:SITUATION,black_death,X #L Чорна смерть#!#! та #TOOLTIP:SITUATION,reformation,X #L Реформація#!#!.\\n\\nСитуації епохи #TOOLTIP:AGE,age_1_traditions,X #L Традицій#!#!:\\n$BULLET$Столітня війна\\n$BULLET$Гвельфи та гібеліни\\n$BULLET$Сходження турків\\n$BULLET$Період Намбокутьо\\n$BULLET$Падіння Делі\\n\\nСитуації епохи #TOOLTIP:AGE,age_2_renaissance,X #L Відродження#!#!:\\n$BULLET$Чорна смерть\\n$BULLET$Гуситські війни\\n$BULLET$Повстання «Червоних пов'язок»\\n$BULLET$Сходження Тимура\\n$BULLET$Великий західний розкол\\n\\nСитуації епохи #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!:\\n$BULLET$Велика чума\\n$BULLET$Італійські війни\\n$BULLET$Реформація\\n$BULLET$Період Сенґоку\\n$BULLET$Тордесільяський договір\\n\\nСитуації епохи #TOOLTIP:AGE,age_4_reformation,X #L Реформації#!#!:\\n$BULLET$Тридентський собор\\n$BULLET$Релігійна війна\\n\\nСитуації епохи #TOOLTIP:AGE,age_5_absolutism,X #L Абсолютизму#!#!:\\n$BULLET$Колумбів обмін\\n$BULLET$Золота доба піратства\\n$BULLET$Малий льодовиковий період\\n\\nСитуації епохи #TOOLTIP:AGE,age_6_revolutions,X #L Революцій#!#!:\\n$BULLET$Колоніальна революція\\n$BULLET$Народне повстання"
+  "en": "A Situation is what the game uses for the most important historical incidents that involve more than one [country|e], and/or are happening over a period of time.\\n\\nSome of the most important Situations include the [ShowSituationName('black_death')] and [ShowSituationName('reformation')].\\n\\nThe Situations of the [ShowAgeName('age_1_traditions')]:\\n$BULLET$Hundred Years' War\\n$BULLET$Guelphs and Ghibellines\\n$BULLET$Rise of the Turks\\n$BULLET$Nanbokuchō Jidai\\n$BULLET$Fall of Delhi\\n\\nThe Situations of the [ShowAgeName('age_2_renaissance')]:\\n$BULLET$Black Death\\n$BULLET$Hussite Wars\\n$BULLET$Red Turban Rebellions\\n$BULLET$Rise of $name_timur$\\n$BULLET$Western Schism\\n\\nThe Situations of the [ShowAgeName('age_3_discovery')]:\\n$BULLET$Great Pestilence\\n$BULLET$Italian Wars\\n$BULLET$The Reformation\\n$BULLET$Sengoku Jidai\\n$BULLET$Treaty of Tordesillas\\n\\nThe Situations of the [ShowAgeName('age_4_reformation')]:\\n$BULLET$Council of Trent\\n$BULLET$War of Religions\\n\\nThe Situations of the [ShowAgeName('age_5_absolutism')]:\\n$BULLET$Columbian Exchange\\n$BULLET$Golden Age of Piracy\\n$BULLET$Little Ice Age\\n\\nThe Situations of the [ShowAgeName('age_6_revolutions')]:\\n$BULLET$Colonial Revolution\\n$BULLET$People's Uprising",
+  "uk": "Ситуація — це найважливіша історична подія, в якій бере участь кілька [Concept('country','держав')|e] і/або яка триває протягом певного часу.\\n\\nДо найважливіших ситуацій належать [ShowSituationName('black_death')] і [ShowSituationName('reformation')].\\n\\nСитуації епохи [ShowAgeName('age_1_traditions')]:\\n$BULLET$Столітня війна\\n$BULLET$Гвельфи та гібеліни\\n$BULLET$Сходження турків\\n$BULLET$Період Намбокутьо\\n$BULLET$Падіння Делі\\n\\nСитуації епохи [ShowAgeName('age_2_renaissance')]:\\n$BULLET$Чорна смерть\\n$BULLET$Гуситські війни\\n$BULLET$Повстання «Червоних пов’язок»\\n$BULLET$Сходження $name_timur$\\n$BULLET$Великий західний розкол\\n\\nСитуації епохи [ShowAgeName('age_3_discovery')]:\\n$BULLET$Велика чума\\n$BULLET$Італійські війни\\n$BULLET$Реформація\\n$BULLET$Період Сенгоку\\n$BULLET$Тордесільяський договір\\n\\nСитуації епохи [ShowAgeName('age_4_reformation')]:\\n$BULLET$Тридентський собор\\n$BULLET$Релігійна війна\\n\\nСитуації епохи [ShowAgeName('age_5_absolutism')]:\\n$BULLET$Колумбів обмін\\n$BULLET$Золотий вік піратства\\n$BULLET$Малий льодовиковий період\\n\\nСитуації епохи [ShowAgeName('age_6_revolutions')]:\\n$BULLET$Колоніальна революція\\n$BULLET$Народне повстання"
  },
  "game_concept_situation_tension": {
   "en": "Tension",
-  "uk": ""
+  "uk": "Напруга"
  },
  "game_concept_situation_tension_desc": {
   "en": "Measures how inflamed the [ShowSituationName('italian_wars')] have become. It rises passively each month and faster when League leaders are actively at war. Higher Tension makes all League leaders more aggressive and shortens the time between their wars.\\n\\nTension drops significantly when a League is dissolved via a peace deal.",
-  "uk": ""
+  "uk": "Вимірює, наскільки загострилися [ShowSituationName('italian_wars')]. Напруга зростає пасивно щомісяця і швидше, коли лідери Ліги активно воюють. Вища напруга робить усіх лідерів Ліги агресивнішими та скорочує час між їхніми війнами.\\n\\nНапруга значно спадає, коли Ліга розпускається внаслідок мирної угоди."
  },
  "game_concept_situations": {
   "en": "Situations",
@@ -7221,7 +7221,7 @@
  },
  "game_concept_societal_value_desc": {
   "en": "$game_concept_societal_value_upper_desc$\\n\\n[ShowDatabase('societal_values')]",
-  "uk": ""
+  "uk": "$game_concept_societal_value_upper_desc$\\n\\n[ShowDatabase('societal_values')]"
  },
  "game_concept_societal_value_list_title": {
   "en": "List of Societal Values",
@@ -7301,11 +7301,11 @@
  },
  "game_concept_spy_network_fog": {
   "en": "Intelligence Fog",
-  "uk": ""
+  "uk": "Туман розвідки"
  },
  "game_concept_spy_network_fog_desc": {
   "en": "Some information about foreign [countries|e] and their [locations|e] is hidden unless you have a sufficient [spy_network|e] in that country. Building a stronger spy network reveals more detailed data, including [population|e] composition, economic output, military strength, and more.",
-  "uk": ""
+  "uk": "Деяка інформація про іноземні [Concept('countries','держави')|e] та їхні [Concept('locations','райони')|e] прихована, якщо у вас немає достатньої [Concept('spy_network','шпигунської мережі')|e] в цій державі. Створення потужнішої шпигунської мережі відкриває детальніші дані, включно зі складом [Concept('population','населення')|e], економічним випуском, військовою потугою та іншим."
  },
  "game_concept_spy_network_i": {
   "en": "@spy_network!",
@@ -7477,11 +7477,11 @@
  },
  "game_concept_subject_territory_connectivity": {
   "en": "Subject Territory Connectivity",
-  "uk": ""
+  "uk": "Зв’язність території васала"
  },
  "game_concept_subject_territory_connectivity_desc": {
   "en": "Subject Territory Connectivity measures how well connected a [subject|e]'s territory is to its [overlord|e], scored from 0 to 100.\\n\\nA land connection starts at 100 and loses points for each area traversed based on how low its average [control|e] is. Areas with full control cost nothing; areas with no control reduce the score by up to 20 per area.\\n\\nA maritime connection is scored from three components: the [maritime_presence|e] at the subject's exit port, the naval distance between the ports, and the [maritime_presence|e] at the overlord's arrival port. [subject_type|e] can increase or reduce the tolerated path distance.\\n\\nNo connection scores 0.\\n\\nHigher connectivity increases its [subject_loyalty|e].",
-  "uk": ""
+  "uk": "Зв’язність території васала вимірює, наскільки добре територія [Concept('subject','васала')|e] пов’язана з [Concept('overlord','сюзереном')|e], за шкалою від 0 до 100.\\n\\nСухопутне з’єднання починається зі 100 і втрачає бали за кожну область на шляху залежно від того, наскільки низьким є її середній [control|e]. Області з повним контролем не коштують нічого; області без контролю знижують оцінку до 20 балів за область.\\n\\nМорське з’єднання оцінюється за трьома складовими: [maritime_presence|e] у порту виходу васала, морська відстань між портами та [maritime_presence|e] у порту прибуття сюзерена. [subject_type|e] може збільшувати або зменшувати допустиму відстань шляху.\\n\\nВідсутність з’єднання оцінюється як 0.\\n\\nВища зв’язність підвищує [subject_loyalty|e]."
  },
  "game_concept_subject_type": {
   "en": "Subject Type",
@@ -7624,12 +7624,12 @@
   "uk": "Податкова база"
  },
  "game_concept_tax_base_desc": {
-  "en": "This is the total amount of [gold|e] generated in a [location|e] each month, which comes from the profit of its [rgo|e] and [buildings|e] multiplied by [control|e].\\n\\nEvery [estate|e] in a [location] receives a [tax_base_share|e], and pays a portion of it to the [treasury|e] according to the [tax_rate|e] imposed on them.",
-  "uk": "Сума [Concept('gold','золота')|e], яку [Concept('location','район')|e] заробляє щомісяця. Розраховується множенням доходу від [Concept('rgo','видобутку ресурсів')|e] та [Concept('buildings','споруд')|e] на показник [Concept('control','контролю')|e].\\n\\nНа кожен [Concept('estate','стан')|e] у [Concept('location','районі')] припадає своя [Concept('tax_base_share','частка податкової бази')|e], частину якої вони сплачують до [Concept('treasury','скарбниці')|e] відповідно до своєї [Concept('tax_rate','податкової ставки')|e]."
+  "en": "The Tax Base is the total amount of [wealth|e] that can be affected by [taxes|e] in a [location], which directly depends on its [control|e]. Wealth without [control] goes directly to the [estates], and cannot be taxed.\\n\\n[wealth] is divided among the [estates] according to their [wealth_share|e] in the [location]. Every [estate] then pays a portion of that Tax Base to the [treasury|e] according to the [tax_rate|e] imposed on them.",
+  "uk": "Податкова база — це загальна сума [Concept('wealth','багатства')|e] в [Concept('location','районі')], яку можна обкласти [Concept('taxes','податками')|e]; вона безпосередньо залежить від [Concept('control','контролю')|e] над ним. Багатство поза [Concept('control','контролем')] відразу надходить [Concept('estates','станам')] і оподаткуванню не підлягає.\\n\\n[Concept('wealth','Багатство')] розподіляється між [Concept('estates','станами')] відповідно до їхньої [Concept('wealth_share','частки багатства')|e] в [Concept('location','районі')]. Потім кожен [Concept('estate','стан')] сплачує частину цієї податкової бази до [Concept('treasury','скарбниці')|e] відповідно до встановленої для нього [Concept('tax_rate','податкової ставки')|e]."
  },
  "game_concept_tax_desc": {
-  "en": "We can elect to collect taxes from our [estates|e]. This will increase our [treasury|e], but higher taxes will decrease their [estate_satisfaction|e].\\n\\nThe amount of taxes you can collect depends on our [control|e] of our [locations|e] generating wealth for the estates.",
-  "uk": "Ми можемо ухвалити рішення збирати податки з наших [Concept('estates','станів')|e]. Це поповнить [Concept('treasury','скарбницю')|e], однак високі податки знижуватимуть [Concept('estate_satisfaction','задоволення станів')|e].\\n\\nОбсяг податків, доступних для збору, залежить від нашого [Concept('control','контролю')|e] над [Concept('locations','районами')|e], які є джерелами багатства для станів."
+  "en": "We can elect to collect taxes from our [estates|e]. This will increase our [treasury|e], but higher taxes will decrease their [estate_satisfaction|e].\\n\\nThe amount of [wealth|e] that can be taxed depends on the [control|e] of the [locations|e] generating [wealth] for the [estates].",
+  "uk": "Ми можемо ухвалити рішення збирати податки з наших [Concept('estates','станів')|e]. Це поповнить [Concept('treasury','скарбницю')|e], однак високі податки знижуватимуть [Concept('estate_satisfaction','задоволення станів')|e].\\n\\nОбсяг [Concept('wealth','багатства')|e], який можна оподаткувати, залежить від [Concept('control','контролю')|e] над [Concept('locations','районами')|e], що дають [Concept('wealth','багатство')] [Concept('estates','станам')]."
  },
  "game_concept_tax_efficiency": {
   "en": "Tax Efficiency",
@@ -7649,11 +7649,11 @@
  },
  "game_concept_taxable_profit": {
   "en": "Taxable Profit",
-  "uk": ""
+  "uk": "Оподатковуваний прибуток"
  },
  "game_concept_taxable_profit_desc": {
   "en": "This is the amount of [gold|e] created by a [building] or [rgo] that is affected by [taxes|e], taking [control|e] into account.",
-  "uk": ""
+  "uk": "Це обсяг [Concept('gold','золота')|e], створюваний [building] або [rgo], на який впливають [Concept('taxes','податки')|e] з урахуванням [Concept('control','контролю')|e]."
  },
  "game_concept_taxes": {
   "en": "Taxes",
@@ -7669,15 +7669,15 @@
  },
  "game_concept_threat": {
   "en": "Threat",
-  "uk": ""
+  "uk": "Загроза"
  },
  "game_concept_threat_desc": {
   "en": "This describes how worried a [country|e] is about another country. A more powerful neighbor will have a high threat level.",
-  "uk": ""
+  "uk": "Це показує, наскільки [Concept('country','держава')|e] занепокоєна іншою державою. Могутніший сусід матиме вищий рівень загрози."
  },
  "game_concept_threatening": {
   "en": "Threatening",
-  "uk": ""
+  "uk": "Загрозливий"
  },
  "game_concept_tier": {
   "en": "Tier",
@@ -7728,8 +7728,8 @@
   "uk": "Прийнятна культура"
  },
  "game_concept_tolerated_culture_desc": {
-  "en": "Each [country|e] can have a handful of [cultures|e] that are treated better than [non_accepted_cultures|e] but not as good as [primary_culture|e].\\n\\nThe exact amount of cultures a country can afford to accept without penalties is variable, and can be increased by some [advances|e].\\n\\n[pops|e] belonging to an Accepted Culture can be raised as [army_levies|e] and [navy_levies|e] without requiring any special [law|e].\\n\\n[pops_with_icon|e] belonging to an $game_concept_accepted_culture$ will see their [pop_satisfaction_with_icon|e] increased by [GetDefine('NPop','TOLERATED_CULTURE_SATISFACTION')|%G].",
-  "uk": "У кожній [Concept('country','державі')|e] може бути кілька [Concept('cultures','культур')|e], які мають більше прав, ніж [Concept('non_accepted_cultures', 'пригноблені культури')|e], але займають становище нижче за [Concept('primary_culture','основну')|e].\\n\\nТочна кількість визнаних культур, за якої держава не отримує штраф, може бути різною та збільшується за допомогою [Concept('advances','вдосконалень')|e].\\n\\n[Concept('pops','Групи населення')|e], що належать до визнаної культури, можуть складати [Concept('army_levies','армійське')|e] і [Concept('navy_levies','флотське')|e] ополчення, навіть якщо не прийнято особливе [Concept('law','правило')|e].\\n\\n[Concept('pop_satisfaction', '@pop_satisfaction! Задоволення')|e] [Concept('pops', '@pops! груп населення')|e] прийнятної культури збільшується на [GetDefine('NPop','TOLERATED_CULTURE_SATISFACTION')|%G]."
+  "en": "Each [country|e] can have a handful of [cultures|e] that are treated better than [non_accepted_cultures|e] but not as good as [primary_culture|e].\\n\\nThe exact amount of cultures a country can afford to tolerate without penalties is variable, and can be increased by some [advances|e].\\n\\n[pops|e] belonging to a Tolerated Culture can be raised as [army_levies|e] and [navy_levies|e] without requiring any special [law|e].\\n\\n[pops_with_icon|e] belonging to an $game_concept_tolerated_culture$ will see their [pop_satisfaction_with_icon|e] increased by [GetDefine('NPop','TOLERATED_CULTURE_SATISFACTION')|%G].",
+  "uk": "У кожній [Concept('country','державі')|e] може бути кілька [Concept('cultures','культур')|e], які мають більше прав, ніж [Concept('non_accepted_cultures', 'пригноблені культури')|e], але займають становище нижче за [Concept('primary_culture','основну')|e].\\n\\nТочна кількість культур, яку держава може прийнятно терпіти без штрафу, може бути різною та збільшується за допомогою деяких [Concept('advances','вдосконалень')|e].\\n\\n[Concept('pops','Групи населення')|e], що належать до прийнятної культури, можуть складати [Concept('army_levies','армійське')|e] і [Concept('navy_levies','флотське')|e] ополчення, навіть якщо не прийнято особливе [Concept('law','правило')|e].\\n\\n[Concept('pop_satisfaction_with_icon', '@pop_satisfaction! Задоволення')|e] [Concept('pops', '@pops! груп населення')|e], що належать до $game_concept_tolerated_culture$, збільшується на [GetDefine('NPop','TOLERATED_CULTURE_SATISFACTION')|%G]."
  },
  "game_concept_tolerated_culture_short": {
   "en": "Tolerated",
@@ -7776,8 +7776,8 @@
   "uk": "Міський район"
  },
  "game_concept_town_and_city_desc": {
-  "en": "This is a [location|e] with a significant human settlement. It can contain more specialized [buildings|e], and allows for the flourishing of [ShowPopTypeName('burghers')]. It is the opposite of a [rural_location|e].\\n\\nDepending on its size, an [urban_location] can be a [ShowLocationRankName('town')] or a [ShowLocationRankName('city')].",
-  "uk": "У цьому [Concept('location','районі')|e] розташоване велике поселення, що сприяє розвитку стану #TOOLTIP:POPTYPE,burghers,X #L городян#!#!. Крім того, тут можна будувати особливі [Concept('buildings','споруди')|e]. Цей тип району протилежний [Concept('rural_location','сільському')|e].\\n\\nЗалежно від розміру [Concept('urban_location','міські райони')] поділяються на #TOOLTIP:LOCATIONRANK,town,X #L містечка#!#! та #TOOLTIP:LOCATIONRANK,city,X #L міста#!#!."
+  "en": "This is a [location|e] with a significant human settlement. It can contain more specialized [buildings|e], and allows for the flourishing of [ShowPopTypeName('burghers')]. It is the opposite of a [rural_location|e].\\n\\nDepending on its size, an [urban_location] can be a [ShowLocationRankName('town')], a [ShowLocationRankName('city')], or a [ShowLocationRankName('megalopolis')].",
+  "uk": "У цьому [Concept('location','районі')|e] розташоване велике поселення. Тут можуть будуватися особливі [Concept('buildings','споруди')|e], що сприяє розквіту [ShowPopTypeName('burghers')]. Це протилежність [Concept('rural_location','сільському району')|e].\\n\\nЗалежно від розміру [Concept('urban_location','міський район')|e] може бути [ShowLocationRankName('town')], [ShowLocationRankName('city')] або [ShowLocationRankName('megalopolis')]."
  },
  "game_concept_town_or_city": {
   "en": "Urban Location",
@@ -7785,11 +7785,11 @@
  },
  "game_concept_town_rights": {
   "en": "Urban Rights",
-  "uk": ""
+  "uk": "Міські права"
  },
  "game_concept_town_rights_desc": {
   "en": "Urban Rights are special privileges that a [country|e] can grant to a [town_or_city|e]. These can impact the [location|e] and/or the [country|e].\\n\\nSome [countries] start with access to historical Urban Rights, and a number of them are granted from 1337. Later on, starting in the [ShowAgeName('age_3_discovery')], all [countries] can research the [advance_icon][ShowAdvanceName('town_rights_enable')] [advance|e], giving access to Urban Rights that allow for the specialization of [urban_locations|e] in a particular purpose, like producing a specific [good|e].\\n\\nBy default, a [ShowLocationRankName('town')] can have 1 Urban Right, a [ShowLocationRankName('city')] can have 2, and a [ShowLocationRankName('megalopolis')] can have 3, although some [government_reforms|e] can increase these values.",
-  "uk": ""
+  "uk": "Міські права — це особливі привілеї, які [country|e] може надати [town_or_city|e]. Вони можуть впливати на [location|e] та/або [Concept('country','державу')|e].\\n\\nДеякі [countries] отримують доступ до історичних міських прав від початку гри, і низку з них надають з 1337 року. Пізніше, з настанням [ShowAgeName('age_3_discovery')], усі [countries] можуть дослідити [advance_icon][ShowAdvanceName('town_rights_enable')] [advance|e], що відкриває доступ до міських прав, які дозволяють спеціалізувати [urban_locations|e] під конкретну мету, наприклад виробництво певного [Concept('good','товару')|e].\\n\\nЗа замовчуванням [ShowLocationRankName('town')] може мати 1 міське право, [ShowLocationRankName('city')] — 2, а [ShowLocationRankName('megalopolis')] — 3, хоча деякі [government_reforms|e] можуть збільшувати ці значення."
  },
  "game_concept_towns_and_cities": {
   "en": "Urban Locations",
@@ -7825,19 +7825,19 @@
  },
  "game_concept_trade_income_share": {
   "en": "Trade Income Share",
-  "uk": ""
+  "uk": "Частка торгового доходу"
  },
  "game_concept_trade_order": {
   "en": "Trade Order",
-  "uk": ""
+  "uk": "Торгове замовлення"
  },
  "game_concept_trade_orders": {
   "en": "Trade Orders",
-  "uk": ""
+  "uk": "Торгові замовлення"
  },
  "game_concept_trade_orders_desc": {
   "en": "Trade Orders allow you to allocate [merchant_capacity|e] to automatically [import|e] or [export|e] a specific [good|e] without specifying a destination. The AI will pick the best route each day.",
-  "uk": ""
+  "uk": "Торгові накази дозволяють спрямовувати [Concept('merchant_capacity','торговий потенціал')|e] на автоматичний [Concept('import','імпорт')|e] або [Concept('export','експорт')|e] конкретного [Concept('good','товару')|e] без вказання пункту призначення. ШІ обиратиме найкращий маршрут щодня."
  },
  "game_concept_trade_profit": {
   "en": "Trade Profit",
@@ -7856,8 +7856,8 @@
   "uk": "Торгова дистанція"
  },
  "game_concept_trade_range_desc": {
-  "en": "This determines the maximum distance at which a [country|e] can conduct [trade|e] between two [markets|e], calculated from their [market_centers|e]. As long as a [country] has [merchant_capacity|e] in a [market], it will be able to [trade] with all [markets] within $game_concept_trade_range$.\\n\\n$game_concept_trade_range$ can be increased primarily through [advances|e], although some [laws|e], [privileges|e] and [reforms|e] may affect it too.",
-  "uk": "Максимальна дистанція, на якій [Concept('country','держава')|e] може вести [Concept('trade','торгівлю')|e] між двома [Concept('markets','ринками')|e]. Вимірюється від [Concept('market_centers','ринкових центрів')|e]. Якщо у [Concept('country','держави')] є [Concept('merchant_capacity','торговий потенціал')|e] на якомусь [Concept('markets','ринку')], вона може торгувати з усіма [Concept('markets','ринками')] в межах торгової дистанції.\\n\\n$game_concept_trade_range$ головним чином зростає завдяки [Concept('advances','поліпшенням')|e], однак її також можна збільшити за рахунок деяких [Concept('laws','правил')|e], [Concept('privileges','привілеїв')|e] та [Concept('reforms','принципів')|e]."
+  "en": "Defines how far a [country|e] can trade without extra cost. Routes within $game_concept_trade_range$ have no additional transport penalty. Routes that exceed it remain possible, but transport costs increase with the distance beyond the range limit.\\n\\nA larger $game_concept_trade_range$ makes long-haul routes — such as colonial goods from the New World or spices from Asia — more affordable by pushing more of each route into the free zone.\\n\\n$game_concept_trade_range$ can be increased primarily through [advances|e], although some [laws|e], [privileges|e] and [reforms|e] may affect it too.",
+  "uk": "Визначає, наскільки далеко [country|e] може торгувати без додаткових витрат. Маршрути в межах $game_concept_trade_range$ не мають додаткового штрафу на транспортування. Маршрути, що виходять за цю межу, залишаються можливими, але витрати на транспортування зростають з відстанню понад межу.\\n\\nБільший $game_concept_trade_range$ робить далекі маршрути — як-от колоніальні товари з Нового Світу чи прянощі з Азії — дешевшими, оскільки більша частина такого маршруту потрапляє у безкоштовну зону.\\n\\n$game_concept_trade_range$ зростає головним чином завдяки [Concept('advances','поліпшенням')|e], хоча деякі [laws|e], [privileges|e] та [reforms|e] також можуть на нього впливати."
  },
  "game_concept_trades": {
   "en": "Trades",
@@ -7869,15 +7869,15 @@
  },
  "game_concept_trading_market": {
   "en": "Trading Market",
-  "uk": ""
+  "uk": "Торговий ринок"
  },
  "game_concept_trading_market_desc": {
   "en": "A $game_concept_trading_market$ is a [market_with_icon|e] in which you do not [own|e] any territory, but have [merchant_capacity_with_icon|e] from your [foreign_buildings_with_icon|e].\\n\\nThis means that you do not necessarily care about the [good_with_icon|e] needs of that [market], its [food|e] supply, or its [population|e], but you can use your [merchant_capacity] there to make profit, or to supply your [domestic_markets_with_icon|e].",
-  "uk": ""
+  "uk": "$game_concept_trading_market$ — це [market_with_icon|e], на території якого ви нічого не [own|e], але маєте [merchant_capacity_with_icon|e] завдяки своїм [foreign_buildings_with_icon|e].\\n\\nЦе означає, що вам не обов’язково турбуватися про потреби цього [market] у [good_with_icon|e], його постачання [food|e] чи його [population|e], проте ви можете використовувати там свою [merchant_capacity], щоб отримувати прибуток або постачати свої [domestic_markets_with_icon|e]."
  },
  "game_concept_trading_markets": {
   "en": "Trading Markets",
-  "uk": ""
+  "uk": "Торгові ринки"
  },
  "game_concept_trait": {
   "en": "Trait",
@@ -7888,8 +7888,8 @@
   "uk": "$game_concept_trait_upper_desc$"
  },
  "game_concept_trait_upper_desc": {
-  "en": "$game_concept_traits$ define the personality and behavior of a [character|e] under various circumstances. Different types of $game_concept_traits$ can be earned while fulfilling specific [roles|e], but a $game_concept_character$ will only make use of those $game_concept_traits$ relevant for their current $game_concept_role$.",
-  "uk": "$game_concept_traits$ визначають характер і поведінку [Concept('character','персонажа')|e] в різних обставинах. Їх можна отримати при виконанні певних [Concept('roles','ролей')|e], однак $game_concept_character$ використовуватиме лише ті $game_concept_traits$, які відповідають виконуваній [Concept('role','ролі')|e]."
+  "en": "$game_concept_traits$ define the personality and behavior of a [character|e] under various circumstances. Different types of $game_concept_traits$ can be earned while fulfilling specific [roles|e], but a $game_concept_character$ will only make use of those $game_concept_traits$ relevant for their current $game_concept_role$.\\n\\n",
+  "uk": "$game_concept_traits$ визначають характер і поведінку [Concept('character','персонажа')|e] в різних обставинах. Їх можна отримати при виконанні певних [Concept('roles','ролей')|e], однак $game_concept_character$ використовуватиме лише ті $game_concept_traits$, які відповідають виконуваній [Concept('role','ролі')|e].\\n\\n"
  },
  "game_concept_traits": {
   "en": "Traits",
@@ -7977,11 +7977,11 @@
  },
  "game_concept_trust_equilibrium": {
   "en": "Trust Equilibrium",
-  "uk": ""
+  "uk": "Рівновага довіри"
  },
  "game_concept_trust_equilibrium_desc": {
   "en": "Trust equilibrium represents the amount [trust|e] with another [country] will drift towards. Trust is a crucial component in forging lasting agreements.",
-  "uk": ""
+  "uk": "Рівновага довіри показує значення, до якого прагне [Concept('trust','довіра')|e] з іншою [country]. Довіра — ключова складова для укладання тривалих угод."
  },
  "game_concept_trust_i": {
   "en": "@trust!",
@@ -7997,23 +7997,23 @@
  },
  "game_concept_unconditional_surrender": {
   "en": "Unconditional Surrender",
-  "uk": ""
+  "uk": "Беззастережна капітуляція"
  },
  "game_concept_unconditional_surrender_desc": {
   "en": "Upon offering unconditional surrender, all of the currently unoccupied [locations|e]] will fall under enemy control and the enemy will gain 100% [war_score|e]. [armies|e] of the [country|e] that surrendered will become [exiled|e] and unable to fight in future [battles|e] until [peace|e] is signed. The recipient of an unconditional surrender will be alerted of the enemy's surrender and from then on will be able to enforce any possible peace up to 100% warscore cost. If the recipient country does not sign peace after a couple of months, they will get a call for peace giving them monthly [war_exhaustion|e] which increases faster than normal. The peace will be automatically accepted by the country that surrendered. When naturally reaching 100% warscore, the AI will usually unconditionally surrender. There are also some other cases in which the AI unconditionally surrenders.",
-  "uk": ""
+  "uk": "Пропонуючи беззастережну капітуляцію, усі наразі неокуповані [Concept('locations','райони')|e]] переходять під контроль ворога, і ворог отримує 100% [Concept('war_score','воєнного рахунку')|e]. [Concept('armies','Армії')|e] [Concept('country','держави')|e], що капітулювала, стають [Concept('exiled','вигнаними')|e] і не можуть брати участь у майбутніх [Concept('battles','битвах')|e] до підписання [Concept('peace','миру')|e]. Сторона, що отримала беззастережну капітуляцію, дізнається про капітуляцію ворога і відтоді зможе нав’язати будь-який можливий мир вартістю до 100% воєнного рахунку. Якщо сторона, що отримала капітуляцію, не підпише мир протягом кількох місяців, вона щомісяця отримуватиме прагнення до миру, яке підвищує [Concept('war_exhaustion','втому від війни')|e] швидше за звичайне. Мир буде автоматично прийнято державою, що капітулювала. Коли ШІ природним чином досягає 100% воєнного рахунку, він зазвичай капітулює беззастережно. Є й інші випадки, коли ШІ капітулює беззастережно."
  },
  "game_concept_unconditionally_surrender": {
   "en": "Unconditionally Surrender",
-  "uk": ""
+  "uk": "Беззастережно капітулювати"
  },
  "game_concept_unconditionally_surrendered": {
   "en": "Unconditionally Surrendered",
-  "uk": ""
+  "uk": "Беззастережно капітулювали"
  },
  "game_concept_unconditionally_surrenders": {
   "en": "Unconditionally Surrenders",
-  "uk": ""
+  "uk": "Беззастережно капітулює"
  },
  "game_concept_unemploy": {
   "en": "Available Population",
@@ -8089,7 +8089,7 @@
  },
  "game_concept_unit_category_desc": {
   "en": "$game_concept_unit_category_upper_desc$\\n[ShowDatabase('unit_category')]",
-  "uk": ""
+  "uk": "$game_concept_unit_category_upper_desc$\\n[ShowDatabase('unit_category')]"
  },
  "game_concept_unit_category_list_title": {
   "en": "List of Unit Categories",
@@ -8109,11 +8109,11 @@
  },
  "game_concept_unit_formation_preference": {
   "en": "Unit Formation Preference",
-  "uk": ""
+  "uk": "Уподобання формування загонів"
  },
  "game_concept_unit_formation_preference_desc": {
   "en": "This determines the Formation logic that is applied when using the #W $BALANCE_ARMY$#! action, or when the Formation of your Units is automated.",
-  "uk": ""
+  "uk": "Це визначає логіку формування, що застосовується при використанні дії #W $BALANCE_ARMY$#! або коли формування ваших загонів автоматизоване."
  },
  "game_concept_unit_modifier": {
   "en": "Unit Modifier",
@@ -8129,15 +8129,15 @@
  },
  "game_concept_unit_template": {
   "en": "Unit Template",
-  "uk": ""
+  "uk": "Шаблон загону"
  },
  "game_concept_unit_template_desc": {
   "en": "A unit template is a collection of [unit_types|e] that can be used to recruit different [units|e] directly. It can be used to create both [regiments|e] and [ships|e].",
-  "uk": ""
+  "uk": "Шаблон загону — це набір [Concept('unit_types','типів загонів')|e], який можна використовувати для безпосереднього набору різних [Concept('units','загонів')|e]. Він може застосовуватися для створення як [Concept('regiments','полків')|e], так і [Concept('ships','кораблів')|e]."
  },
  "game_concept_unit_templates": {
   "en": "Unit Templates",
-  "uk": ""
+  "uk": "Шаблони загонів"
  },
  "game_concept_unit_type": {
   "en": "Unit Type",
@@ -8253,27 +8253,27 @@
  },
  "game_concept_war_attacker": {
   "en": "Attacker",
-  "uk": ""
+  "uk": "Нападник"
  },
  "game_concept_war_attacker_desc": {
   "en": "In a [war_with_icon|e], the Attacker is the side whose leader initiated the conflict and chose the [casus_belli_with_icon|e].\\n\\nIn order to earn [war_score_with_icon|e], the Attacker side needs to fulfil the [war_goal_with_icon|e].",
-  "uk": ""
+  "uk": "У [Concept('war_with_icon','війні')|e] Нападник — це сторона, чий лідер розпочав конфлікт і обрав [casus_belli_with_icon|e].\\n\\nЩоб отримати [war_score_with_icon|e], сторона Нападника має виконати [war_goal_with_icon|e]."
  },
  "game_concept_war_attackers": {
   "en": "Attackers",
-  "uk": ""
+  "uk": "Нападники"
  },
  "game_concept_war_defender": {
   "en": "Defender",
-  "uk": ""
+  "uk": "Захисник"
  },
  "game_concept_war_defender_desc": {
   "en": "In a [war_with_icon|e], the Defender is the side whose leader was declared war upon. The Defender side will automatically call their [allies_with_icon|e] into the [war].\\n\\nIn order to earn [war_score_with_icon|e], the Defender side needs to prevent the [war_attacker|e] from fulfilling the [war_goal_with_icon|e].",
-  "uk": ""
+  "uk": "У [Concept('war_with_icon','війні')|e] Захисник — це сторона, чиєму лідеру оголосили війну. Сторона Захисника автоматично закличе своїх [allies_with_icon|e] до [Concept('war','війни')].\\n\\nЩоб отримати [war_score_with_icon|e], сторона Захисника має завадити [Concept('war_attacker','Нападнику')|e] виконати [war_goal_with_icon|e]."
  },
  "game_concept_war_defenders": {
   "en": "Defenders",
-  "uk": ""
+  "uk": "Захисники"
  },
  "game_concept_war_desc": {
   "en": "A war is created when one [country|e] uses a [diplomat|e] on another country to start a conflict. Countries that are [allied|e] with either side may get called into the war.\\n\\nDuring a war, [armies|e] and [navies|e] from each side that encounter each other will [battle|e] each other. [armies] will be able to [siege|e] the [enemies|e] [locations|e], while [navies|e] can [blockade|e] their [ports|e].\\n\\nA war continue until a [peace_treaty|e] is signed, and [peace|e] reigns again between the involved [countries]. ",
@@ -8361,27 +8361,27 @@
  },
  "game_concept_wealth": {
   "en": "Wealth",
-  "uk": ""
+  "uk": "Багатство"
  },
  "game_concept_wealth_desc": {
   "en": "The Wealth of a [location|e] is the combined profit of its [rgo|e] and [buildings|e] from selling their [goods|e] to the [market|e]. If there are [ShowPopTypeName('burghers')] present in the [location], [burgher_trade|e] may also increase the Location Wealth.\\n\\nThe Wealth of a [location] is divided among the [estates|e] according to their [wealth_share] in the [location]. Location Wealth multiplied by [control|e] forms the [tax_base|e] of a [location], which is the [gold|e] that can be taxed by the government. Wealth without [control] goes directly to the [estates], and cannot be taxed.",
-  "uk": ""
+  "uk": "Багатство [location|e] — це сукупний прибуток його [rgo|e] та [buildings|e] від продажу товарів [goods|e] на [market|e]. Якщо в [location] присутні [ShowPopTypeName('burghers')], [burgher_trade|e] також може збільшувати Багатство району.\\n\\nБагатство [location] розподіляється між [estates|e] відповідно до їхньої частки багатства ([wealth_share]) у [location]. Багатство району, помножене на [control|e], формує [Concept('tax_base','податкову базу')|e] [Concept('location','району')] — [Concept('gold','золото')|e], яке може оподатковувати уряд. Багатство без [control] надходить безпосередньо до [estates] і не оподатковується."
  },
  "game_concept_wealth_impact": {
   "en": "Wealth Impact",
-  "uk": ""
+  "uk": "Вплив на багатство"
  },
  "game_concept_wealth_impact_desc": {
   "en": "Wealth Impact is the ratio between an [estate|e]'s monthly [gold|e] income and its monthly expenses.\\n\\nA value above 100% means the estate earns more than it spends, letting it accumulate wealth and invest in [buildings|e] and [roads|e]. A low Wealth Impact makes an estate cautious, restricting it to building only for its own [estate_power|e] and limiting how much it is willing to fund.",
-  "uk": ""
+  "uk": "Вплив на багатство — це співвідношення між місячним доходом [Concept('gold','золотом')|e] [Concept('estate','стану')|e] та його місячними витратами.\\n\\nЗначення понад 100% означає, що стан заробляє більше, ніж витрачає, дозволяючи накопичувати багатство й інвестувати у [buildings|e] та [roads|e]. Низький Вплив на багатство робить стан обережним, обмежуючи будівництво лише для власної [Concept('estate_power','станової влади')|e] та зменшуючи обсяг фінансування, яке він готовий надавати."
  },
  "game_concept_wealth_share": {
   "en": "Wealth Share",
-  "uk": ""
+  "uk": "Частка багатства"
  },
  "game_concept_wealth_share_desc": {
   "en": "The [wealth|e] of a [location|e] is distributed among the [estates|e] according to their relative [population|e] in the [location]. [ShowPopTypeName('nobles')] get a much bigger share per capita than [ShowPopTypeName('burghers')], which in turn get a much bigger share per capita than [ShowPopTypeName('peasants')].\\n\\nDepending on the [ShowModifierTypeName('local_peasant_enfranchisment')] in a [location], a percentage of the share of the [ShowEstateTypeName('peasants_estate')] is transferred to the [ShowEstateTypeName('nobles_estate')].",
-  "uk": ""
+  "uk": "[wealth|e] [Concept('location','району')|e] розподіляється між [estates|e] відповідно до їхньої відносної частки [population|e] у [location]. [ShowPopTypeName('nobles')] отримують значно більшу частку на душу населення, ніж [ShowPopTypeName('burghers')], які, своєю чергою, отримують значно більшу частку на душу населення, ніж [ShowPopTypeName('peasants')].\\n\\nЗалежно від [ShowModifierTypeName('local_peasant_enfranchisment')] у [location] частина частки [ShowEstateTypeName('peasants_estate')] передається [ShowEstateTypeName('nobles_estate')]."
  },
  "game_concept_weather_system": {
   "en": "Weather System",
@@ -8416,8 +8416,8 @@
   "uk": "Рівень зими"
  },
  "game_concept_winter_level_desc": {
-  "en": "Winter Level is the severity of [winter|e] in a [location|e]. Harsher [winter] will halt [constructions|e] and even [frozen_freeze_over|e] some shallow [seazones|e].\\n\\n[armies|e] are unable to move into [locations] with [ShowTopographyName('mountains')] [topography|e] during Normal or Severe [winter].\\n\\nThe maximum Winter Level that a [location] can experience is dependent on the local [climate|e].\\n\\nThe Winter Levels are as follows:\\n- [ShowModifier('winter_none')]\\n- [ShowModifier('winter_mild')]\\n- [ShowModifier('winter_normal')]\\n- [ShowModifier('winter_severe')]",
-  "uk": "Рівень зими характеризує суворість [Concept('winter','зими')|e] в [Concept('location','районі')|e]. При вищому рівні [Concept('winter','зими')] зупиняється [Concept('constructions','будівництво')|e], а неглибокі [Concept('seazones','акваторії')|e] навіть можуть [Concept('frozen_freeze_over','замерзнути')|e].\\n\\nПід час звичайної або суворої [Concept('winter','зими')] [Concept('armies','армії')|e] не можуть переміщуватися в [Concept('locations','райони')] з #L [ShowTopographyName('mountains')|l]ним#! [Concept('topography','рельєфом')|e].\\n\\nМаксимальний рівень зими в [Concept('location','районі')] залежить від місцевого [Concept('climate','клімату')|e].\\n\\nІснує кілька рівнів зими:\\n[ShowModifier('winter_none')]\\n[ShowModifier('winter_mild')]\\n[ShowModifier('winter_normal')]\\n[ShowModifier('winter_severe')]"
+  "en": "Winter Level is the severity of [winter|e] in a [location|e]. Harsher [winter] will halt [constructions|e] and even [frozen_freeze_over|e] some shallow [seazones|e].\\n\\n[armies|e] are unable to move into [locations] with [ShowTopographyName('mountains')] [topography|e] during Normal or Severe [winter].\\n\\n[armies] sheltered in a friendly [fort|e] or within its [zone_of_control|e] do not suffer winter [attrition|e]. This shelter extends to forts owned by your direct [subjects|e] and to your direct [overlord|e].\\n\\nThe maximum Winter Level that a [location] can experience is dependent on the local [climate|e].\\n\\nThe Winter Levels are as follows:\\n- [ShowModifier('winter_none')]\\n- [ShowModifier('winter_mild')]\\n- [ShowModifier('winter_normal')]\\n- [ShowModifier('winter_severe')]",
+  "uk": "Рівень зими характеризує суворість [Concept('winter','зими')|e] в [Concept('location','районі')|e]. Сувора [Concept('winter','зима')] зупиняє [Concept('constructions','будівництво')|e], а деякі неглибокі [Concept('seazones','акваторії')|e] навіть можуть [Concept('frozen_freeze_over','замерзнути')|e].\\n\\nПід час звичайної або суворої [Concept('winter','зими')] [Concept('armies','армії')|e] не можуть переміщуватися в [Concept('locations','райони')] з [Concept('topography','рельєфом')|e] «[ShowTopographyName('mountains')]».\\n\\n[Concept('armies','Армії')], що перебувають у дружній [Concept('fort','фортеці')|e] або в її [Concept('zone_of_control','зоні контролю')|e], не зазнають зимового [Concept('attrition','виснаження')|e]. Цей захист поширюється й на фортеці Ваших прямих [Concept('subjects','васалів')|e] та Вашого прямого [Concept('overlord','сюзерена')|e].\\n\\nМаксимальний рівень зими в [Concept('location','районі')] залежить від місцевого [Concept('climate','клімату')|e].\\n\\nРівні зими:\\n- [ShowModifier('winter_none')]\\n- [ShowModifier('winter_mild')]\\n- [ShowModifier('winter_normal')]\\n- [ShowModifier('winter_severe')]"
  },
  "game_concept_winter_level_max": {
   "en": "Max Winter Level",
@@ -8468,8 +8468,8 @@
   "uk": "Зона контролю"
  },
  "game_concept_zone_of_control_desc": {
-  "en": "It represents the defensive capabilities of a [fortification|e] to block the movement of [enemy|e] [armies|e] through the [locations|e] adjacent to it. An invading [army] standing on an [enemy] [location] adjacent to an [enemy] [fort] will have to [siege|e] the [fort] first before it can move past it to any other adjacent [location] of that [fort].",
-  "uk": "Характеризує здатність [Concept('fortification','укріплення')|e] блокувати пересування [Concept('enemy','ворожих')|e] [Concept('armies','армій')|e] через [Concept('locations','райони')|e], що межують із цим укріпленням. [Concept('army','Армія')], що атакує, та яка розташована у [Concept('enemy','ворожому')] [Concept('location','районі')] поблизу [Concept('enemy','ворожої')] [Concept('fort','фортеці')], буде змушена спочатку [Concept('siege','облягти')|e] цю [Concept('fort','фортецю')] і лише потім зможе пройти повз неї до будь-якого [Concept('location','району')], що межує з цією [Concept('fort','фортецею')]."
+  "en": "It represents the defensive capabilities of a [fortification|e] to block the movement of [enemy|e] [armies|e] through the [locations|e] adjacent to it. An invading [army] standing on an [enemy] [location] adjacent to an [enemy] [fort] will have to [siege|e] the [fort] first before it can move past it to any other adjacent [location] of that [fort].\\n\\nFriendly Zone of Control also shelters [armies] from local [attrition|e] sources, including [winter|e]. This shelter extends to forts owned by your direct [subjects|e] and to your direct [overlord|e].",
+  "uk": "Характеризує здатність [Concept('fortification','укріплення')|e] блокувати пересування [Concept('enemy','ворожих')|e] [Concept('armies','армій')|e] через [Concept('locations','райони')|e], що межують із цим укріпленням. [Concept('army','Армія')], що вторглася й розташована у [Concept('enemy','ворожому')] [Concept('location','районі')] поблизу [Concept('enemy','ворожої')] [Concept('fort','фортеці')], буде змушена спочатку [Concept('siege','облягти')|e] цю [Concept('fort','фортецю')] і лише потім зможе пройти повз неї до будь-якого суміжного [Concept('location','району')] цієї [Concept('fort','фортеці')].\\n\\nДружня Зона контролю також захищає [Concept('armies','армії')] від місцевих джерел [Concept('attrition','виснаження')|e], зокрема [Concept('winter','зими')|e]. Цей захист поширюється на фортеці, що належать вашим прямим [Concept('subjects','васалам')|e], а також вашому прямому [Concept('overlord','сюзерену')|e]."
  },
  "game_concept_zones_of_control": {
   "en": "Zones of Control",

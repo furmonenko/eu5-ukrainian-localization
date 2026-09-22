@@ -279,6 +279,7 @@ def cmd_status(args):
     total_done = total_all = 0
     for root in ROOTS:
         for relpath, keys in sorted(source_strings(root, game_dir=args.game).items()):
+            keys = {k for k, en in keys.items() if en}   # empty source strings need no translation
             path = ns_file(root, relpath)
             done = sum(1 for k, e in load_json(path).items() if k in keys and e.get('uk')) if path.exists() else 0
             total_done += done

@@ -25,7 +25,7 @@
  },
  "every_location_in_province_gets_dry_spell_modifier_tt": {
   "en": "Every location in the [target_charter.GetName] [province|e] will suffer from the [ShowModifier('dry_spell_modifier')] decaying [modifier|e]",
-  "uk": "Every location in the [target_charter.GetName] [Concept('province','провінція')|e] will suffer from the [ShowModifier('dry_spell_modifier')] decaying [Concept('modifier','модифікатор')|e]"
+  "uk": "Кожен район [Concept('province','провінції')|e] [target_charter.GetName] потерпатиме від згасного [Concept('modifier','модифікатора')|e] [ShowModifier('dry_spell_modifier')]"
  },
  "extreme_outcome_variable_tt_a": {
   "en": "$outcome_base_key$ #R -25.00%#! [prosperity|e]",
@@ -41,11 +41,11 @@
  },
  "freeze_greenland_tt": {
   "en": "The [seazones|e] that surround [ShowAreaNameWithNoTooltip('greenland_area')] will suffer from the [ShowModifier('encroaching_cold_modifier')] decaying [modifier|e]",
-  "uk": "The [seazones|e] that surround [ShowAreaNameWithNoTooltip('greenland_area')] will suffer from the [ShowModifier('encroaching_cold_modifier')] decaying [Concept('modifier','модифікатор')|e]"
+  "uk": "[seazones|e] навколо [ShowAreaNameWithNoTooltip('greenland_area')] потерпатимуть від згасного [Concept('modifier','модифікатора')|e] [ShowModifier('encroaching_cold_modifier')]"
  },
  "freeze_iceland_tt": {
   "en": "The [seazones|e] that surround the [ShowProvinceDefinitionNameWithNoTooltip('icelandic_coast_province')] will suffer from the [ShowModifier('floating_ices_modifier')] decaying [modifier|e]",
-  "uk": "The [seazones|e] that surround the [ShowProvinceDefinitionNameWithNoTooltip('icelandic_coast_province')] will suffer from the [ShowModifier('floating_ices_modifier')] decaying [Concept('modifier','модифікатор')|e]"
+  "uk": "[seazones|e] навколо [ShowProvinceDefinitionNameWithNoTooltip('icelandic_coast_province')] потерпатимуть від згасного [Concept('modifier','модифікатора')|e] [ShowModifier('floating_ices_modifier')]"
  },
  "livestock_provinces_suffer_tt": {
   "en": "This loss of [food|e] will apply to [ROOT.GetVariable('num_affected_provinces_variable').GetValue] [provinces|e] which produce [ShowGoodsName('livestock')] and will scale based on their provincial [control|e]",
@@ -53,7 +53,7 @@
  },
  "locations_affected_with_prosperity_loss_tt": {
   "en": "[ROOT.GetVariable('num_affected_locations_variable').GetValue] [locations|e] that produce [ShowGoodsNameWithNoTooltip('wine')] (such as [target_location.GetName]) will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]",
-  "uk": "[ROOT.GetVariable('num_affected_locations_variable').GetValue] [Concept('locations','райони')|e] that produce [ShowGoodsNameWithNoTooltip('wine')] (such as [target_location.GetName]) will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
+  "uk": "[ROOT.GetVariable('num_affected_locations_variable').GetValue] [Concept('locations','районів')|e], що виробляють [ShowGoodsNameWithNoTooltip('wine')] (як-от [target_location.GetName]), втратять [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
  },
  "mild_outcome_variable_tt_a": {
   "en": "$outcome_base_key$ #R -10.00%#! [prosperity|e]",
@@ -65,7 +65,7 @@
  },
  "outcome_base_key": {
   "en": "Every owned [location|e] in [target_province_1.GetName] will suffer",
-  "uk": "Every owned [Concept('location','район')|e] in [target_province_1.GetName] will suffer"
+  "uk": "Кожен наш [Concept('location','район')|e] у [target_province_1.GetName] постраждає"
  },
  "scales_with_location_tax_base_tt": {
   "en": "The aid paid scales with the [tax_base|e] of [target_location.GetName]",
@@ -85,7 +85,7 @@
  },
  "target_province_loses_10_prosperity_tt": {
   "en": "Every owned [location|e] in [target_province.GetName] will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]",
-  "uk": "Every owned [Concept('location','район')|e] in [target_province.GetName] will lose [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
+  "uk": "Кожен наш [Concept('location','район')|e] у [target_province.GetName] втратить [ShowNamedValue('prosperity_weak_penalty')|+=2%] [prosperity|e]"
  },
  "very_mild_outcome_variable_tt_a": {
   "en": "$outcome_base_key$ #R -5.00%#! [prosperity|e]",
@@ -425,6 +425,6 @@
  },
  "workers_may_quit_or_have_accidents_here_tt": {
   "en": "Workers at $lumber$ [rgo|e] in the aforementioned [locations|e] may suffer fatal accidents or shift their occupations",
-  "uk": "Workers at $lumber$ [rgo|e] in the aforementioned [Concept('locations','райони')|e] may suffer fatal accidents or shift their occupations"
+  "uk": "Робітники на [rgo|e] $lumber$ у згаданих [Concept('locations','районах')|e] можуть загинути в нещасних випадках або змінити заняття"
  }
 }

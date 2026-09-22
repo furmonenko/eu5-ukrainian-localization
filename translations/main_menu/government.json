@@ -5,15 +5,15 @@
  },
  "ADD_BUREAUCRACY_ALREADY_HAVE": {
   "en": "@trigger_no! We already have this [bureaucracy|e].",
-  "uk": ""
+  "uk": "@trigger_no! Ми вже маємо цю [Concept('bureaucracy','бюрократію')|e]."
  },
  "ADD_BUREAUCRACY_ALREADY_HAVE_ENOUGH": {
   "en": "@trigger_no! We have already filled our allocation of [bureaucracies|e].",
-  "uk": ""
+  "uk": "@trigger_no! Ми вже заповнили нашу квоту [Concept('bureaucracies','бюрократій')|e]."
  },
  "ADD_BUREAUCRACY_NOT_ALLOWED": {
   "en": "@trigger_no! We are not allowed [bureaucracies|e].",
-  "uk": ""
+  "uk": "@trigger_no! Нам не дозволено мати [bureaucracies|e]."
  },
  "ADD_REFORM_AGE_NOT_YET": {
   "en": "@trigger_no! The [GOVERNMENT_REFORM.GetName] is too complex for this age, we need to be in [AGE.GetName] before it can be added",
@@ -69,7 +69,7 @@
  },
  "AREA_HARBOR_CAPACITY_SUM_INFO": {
   "en": "Combined [harbor_capacity|e] from #V $NUM$#! [port|e] in [AREA.GetName]:\\n#V $SUM|W2$#!\\n$BREAKDOWN$",
-  "uk": ""
+  "uk": "Сумарна [harbor_capacity|e] від #V $NUM$#! [Concept('port','порту')|e] у [AREA.GetName]:\\n#V $SUM|W2$#!\\n$BREAKDOWN$"
  },
  "AREA_MARITIME_ENTRY": {
   "en": "[LOCATION.GetName]: $VAL|/V$",
@@ -85,43 +85,43 @@
  },
  "ASSIMILATE_ACCEPTED_CULTURE": {
   "en": "[TARGET_CULTURE.GetName] is an [accepted_culture|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [accepted_culture|e]: $VAL|+=%2$"
  },
  "ASSIMILATE_ACTOR_AND_TARGET_HAVE_MARKET_LANGUAGE": {
   "en": "[LANGUAGE.GetName] [market_language|e] is used by both ([LOCATION.GetMarketAccess|%V] [market_access|e]): $VAL|+=%2$",
-  "uk": ""
+  "uk": "[LANGUAGE.GetName] [market_language|e] використовується обома ([LOCATION.GetMarketAccess|%V] [market_access|e]): $VAL|+=%2$"
  },
  "ASSIMILATE_ACTOR_HAS_MARKET_LANGUAGE": {
   "en": "[LANGUAGE.GetName] [market_language|e] is used by [CULTURE.GetName] ([LOCATION.GetMarketAccess|%V] [market_access|e]): $VAL|+=%2$",
-  "uk": ""
+  "uk": "[LANGUAGE.GetName] [market_language|e] використовується [CULTURE.GetName] ([LOCATION.GetMarketAccess|%V] [market_access|e]): $VAL|+=%2$"
  },
  "ASSIMILATE_ALREADY_CULTURE": {
   "en": "[CULTURE.GetName] is already the only [culture|e] in [LOCATION.GetName]",
-  "uk": ""
+  "uk": "[CULTURE.GetName] вже є єдиною [culture|e] в [LOCATION.GetName]"
  },
  "ASSIMILATE_CULTURE_ASSIMILATING_DESCRIPTION": {
   "en": "[pops|e] of this [location|e] can be [assimilated_with_icon|e] into this [culture|e]. Assimilation is usually restricted to the [primary_culture|e] of the owner, although [cabinet_actions|e] and other sources may also allow [assimilation] into different [cultures].",
-  "uk": ""
+  "uk": "[pops|e] цього [Concept('location','району')|e] можуть бути [assimilated_with_icon|e] у цю [Concept('culture','культуру')|e]. Асиміляція зазвичай обмежена [Concept('primary_culture','основної культури')|e] власника, хоча [cabinet_actions|e] та інші джерела також можуть дозволяти [Concept('assimilation','асиміляцію')|e] в інші [cultures]."
  },
  "ASSIMILATE_CULTURE_DISCRIMINATED": {
   "en": "[TARGET_CULTURE.GetName] is [non_accepted_culture_short|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [non_accepted_culture_short|e]: $VAL|+=%2$"
  },
  "ASSIMILATE_CULTURE_INDIVIDUAL": {
   "en": "[TARGET_CULTURE.GetName] [pops|e] Assimilating to [CULTURE.GetName]: $VAL|+=2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] [pops|e] асимілюються до [CULTURE.GetName]: $VAL|+=2$"
  },
  "ASSIMILATE_CULTURE_LOCKED_RELIGION": {
   "en": "@warning_icon! Some [TARGET_CULTURE.GetName] [pops|e] follow [RELIGION.GetName] and cannot change [culture|e].",
-  "uk": ""
+  "uk": "@warning_icon! Деякі [pops|e] [TARGET_CULTURE.GetName] сповідують [RELIGION.GetName] і не можуть змінити [Concept('culture','культуру')|e]."
  },
  "ASSIMILATE_CULTURE_NON_PRIMARY_HEADER": {
   "en": "Monthly [assimilation_with_icon|e] into [CULTURE.GetName] is $VAL$ due to:",
-  "uk": ""
+  "uk": "Щомісячна [assimilation_with_icon|e] у [CULTURE.GetName] становить $VAL$ через:"
  },
  "ASSIMILATE_CULTURE_PRIMARY_DESCRIPTION": {
   "en": "This is the [primary_culture_with_icon|e] in [COUNTRY.GetName]. [pops|e] of other [cultures|e] in this [location|e] may [assimilate|e] into [CULTURE.GetName] every month.",
-  "uk": ""
+  "uk": "Це [primary_culture_with_icon|e] в [COUNTRY.GetName]. [pops|e] інших [Concept('cultures','культур')|e] у цьому [Concept('location','районі')|e] можуть [assimilate|e] у [CULTURE.GetName] щомісяця."
  },
  "ASSIMILATE_CULTURE_WAR": {
   "en": "[CULTURE.GetName] [cultural_influence|e] vs [TARGET_CULTURE.GetName] [cultural_tradition|e]: $VAL|+=2%$",
@@ -129,19 +129,19 @@
  },
  "ASSIMILATE_DIFFERENT_CULTURE": {
   "en": "[TARGET_CULTURE.GetName] is the [dominant_culture|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [dominant_culture|e]: $VAL|+=%2$"
  },
  "ASSIMILATE_MERGED_CULTURE_GROUP": {
   "en": "[CULTURE.GetName] is a [merged_culture_group|e] of [TARGET_CULTURE.GetName]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[CULTURE.GetName] є [merged_culture_group|e] для [TARGET_CULTURE.GetName]: $VAL|+=%2$"
  },
  "ASSIMILATE_OWNER_OPINION_OF_TARGET": {
   "en": "[CULTURE.GetName] has $OPINION$ [cultural_opinion_short|e] of [TARGET_CULTURE.GetName]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[CULTURE.GetName] має $OPINION$ [Concept('cultural_opinion_short','думку')|e] до [TARGET_CULTURE.GetName]: $VAL|+=%2$"
  },
  "ASSIMILATE_PRIMARY_CULTURE": {
   "en": "[TARGET_CULTURE.GetName] is the [primary_culture|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [primary_culture|e]: $VAL|+=%2$"
  },
  "ASSIMILATE_SAME_CULTURE": {
   "en": "[CULTURE.GetName] is the [dominant_culture|e]: $VAL|+=%2$",
@@ -149,27 +149,27 @@
  },
  "ASSIMILATE_SAME_LANGUAGE": {
   "en": "Both use the [LANGUAGE.GetName] [language|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "Обидва використовують [Concept('language','мову')|e] [LANGUAGE.GetName]: $VAL|+=%2$"
  },
  "ASSIMILATE_SAME_LANGUAGE_FAMILY": {
   "en": "Both use a [language|e] from the [LANGUAGE.GetFamily.GetName] [language_family_short|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "Обидва використовують [Concept('language','мову')|e] з [Concept('language_family_short','сім’ї')|e] [LANGUAGE.GetFamily.GetName]: $VAL|+=%2$"
  },
  "ASSIMILATE_SHARED_CULTURE_GROUPS": {
   "en": "$NUM$ of $TOTAL$ Shared [culture_groups|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "$NUM$ з $TOTAL$ спільних [Concept('culture_groups','культурних груп')|e]: $VAL|+=%2$"
  },
  "ASSIMILATE_TARGET_HAS_MARKET_LANGUAGE": {
   "en": "[LANGUAGE.GetName] [market_language|e] is used by [TARGET_CULTURE.GetName] ([LOCATION.GetMarketAccess|2%V]): $VAL|+=%2$",
-  "uk": ""
+  "uk": "[LANGUAGE.GetName] [market_language|e] використовується [TARGET_CULTURE.GetName] ([LOCATION.GetMarketAccess|2%V]): $VAL|+=%2$"
  },
  "ASSIMILATE_TARGET_OPINION_OF_OWNER": {
   "en": "[TARGET_CULTURE.GetName] has $OPINION$ [cultural_opinion_short|e] of [CULTURE.GetName]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] має $OPINION$ [Concept('cultural_opinion_short','думку')|e] до [CULTURE.GetName]: $VAL|+=%2$"
  },
  "ASSIMILATE_TOLERATED_CULTURE": {
   "en": "[TARGET_CULTURE.GetName] is a [tolerated_culture|e]: $VAL|+=%2$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [tolerated_culture|e]: $VAL|+=%2$"
  },
  "BANK_OLDER_HEIR_DESC": {
   "en": "• Score per years of age",
@@ -217,7 +217,7 @@
  },
  "CHANGE_REFORM_PER_AGE_TITLE": {
   "en": "Change $game_concept_government_reform$ from Reform Explorer",
-  "uk": ""
+  "uk": "Змінити $game_concept_government_reform$ у переглядачі реформ"
  },
  "CHANGE_REFORM_TITLE": {
   "en": "Change $game_concept_government_reform$",
@@ -233,15 +233,15 @@
  },
  "COMPACT_CABINET_VIEW": {
   "en": "Compact Cabinet View",
-  "uk": ""
+  "uk": "Компактний вигляд ради"
  },
  "CONVERT_RELIGION_NON_PRIMARY_HEADER": {
   "en": "Monthly [conversion_with_icon|e] into [RELIGION.GetName] is $VAL$ due to:",
-  "uk": ""
+  "uk": "Щомісячне [conversion_with_icon|e] у [RELIGION.GetName] становить $VAL$ через:"
  },
  "CONVERT_RELIGION_PRIMARY_DESCRIPTION": {
   "en": "This is the [state_religion_with_icon|e] in [COUNTRY.GetName]. [pops|e] of other [religions|e] in this [location|e] may convert to [RELIGION.GetName] every month.",
-  "uk": ""
+  "uk": "Це [state_religion_with_icon|e] в [COUNTRY.GetName]. [pops|e] інших [Concept('religions','релігій')|e] у цьому [Concept('location','районі')|e] можуть навернутися до [RELIGION.GetName] щомісяця."
  },
  "COUNTRY_RANK_NO": {
   "en": "It is not possible to become a new [COUNTRY_RANK.GetName] due to:\\n$WHY$",
@@ -353,23 +353,23 @@
  },
  "ESTATE_LOCATIONS_POWER_TITLE": {
   "en": "Locations power of [ESTATE.GetName] in [COUNTRY.GetName]",
-  "uk": ""
+  "uk": "Влада районів [ESTATE.GetName] у [COUNTRY.GetName]"
  },
  "ESTATE_LOCATION_POWER_BREAKDOWN": {
   "en": "$VAL$ due to\\nAmount of [POP_TYPE.GetName] in [Location.GetName]: $SIZE$\\nBase for [ESTATE.GetName]: x$BASE$\\n$MODIFIER$",
-  "uk": ""
+  "uk": "$VAL$ через\\nКількість [POP_TYPE.GetName] у [Location.GetName]: $SIZE$\\nБаза для [ESTATE.GetName]: x$BASE$\\n$MODIFIER$"
  },
  "ESTATE_LOCATION_POWER_GLOBAL_MODIFIER_HEADER": {
   "en": "$BULLET_WITH_TAB$ #T Global modifiers from [Country.GetName]#!\\n",
-  "uk": ""
+  "uk": "$BULLET_WITH_TAB$ #T Глобальні модифікатори від [Country.GetName]#!\\n"
  },
  "ESTATE_LOCATION_POWER_LOCAL_MODIFIER_HEADER": {
   "en": "$BULLET_WITH_TAB$ #T $MODIFIER$ from [LOCATION.GetName]#!\\n",
-  "uk": ""
+  "uk": "$BULLET_WITH_TAB$ #T $MODIFIER$ від [LOCATION.GetName]#!\\n"
  },
  "ESTATE_OPINION_ACCEPTED_ESTATE_CULTURE": {
   "en": "Accepts our [estate|e]'s [culture|e]",
-  "uk": ""
+  "uk": "Приймає [Concept('culture','культуру')|e] нашого [Concept('estate','стану')|e]"
  },
  "ESTATE_OPINION_BASE": {
   "en": "Country [opinion|e]",
@@ -389,7 +389,7 @@
  },
  "ESTATE_OPINION_COURT_LANGUAGE_IS_OUR_COMMON_LANGUAGE": {
   "en": "[court_language|e] is our [common_language|e]",
-  "uk": ""
+  "uk": "[court_language|e] є нашою [Concept('common_language','загальноприйнятою мовою')|e]"
  },
  "ESTATE_OPINION_DIFFERENT_CULTURE_GROUP": {
   "en": "Different [culture_group|e]",
@@ -441,19 +441,19 @@
  },
  "ESTATE_OPINION_OUR_MARKET_LANGUAGE": {
   "en": "Same [market_language|e]",
-  "uk": ""
+  "uk": "Та сама [market_language|e]"
  },
  "ESTATE_OPINION_OUR_MERCHANT_IN_THEIR_CAPITAL": {
   "en": "[merchant|e] in their home [market|e]",
-  "uk": ""
+  "uk": "[merchant|e] на їхньому домашньому [Concept('market','ринку')|e]"
  },
  "ESTATE_OPINION_OVERLORD_DISLOYAL": {
   "en": "We are their [disloyal_subject|e]",
-  "uk": ""
+  "uk": "Ми їхній [disloyal_subject|e]"
  },
  "ESTATE_OPINION_OVERLORD_LOYAL": {
   "en": "We are their [loyal_subject|e]",
-  "uk": ""
+  "uk": "Ми їхній [loyal_subject|e]"
  },
  "ESTATE_OPINION_PEASANT_REPUBLIC": {
   "en": "[ShowGovernmentReformName('peasant_republic_reform')]",
@@ -481,15 +481,15 @@
  },
  "ESTATE_OPINION_SAME_COURT_LANGUAGE": {
   "en": "Same [court_language|e]",
-  "uk": ""
+  "uk": "Та сама [Concept('court_language','придворна мова')|e]"
  },
  "ESTATE_OPINION_SAME_ESTATE_CULTURE": {
   "en": "Shared [culture|e] with our [estate|e]",
-  "uk": ""
+  "uk": "Спільна [culture|e] з нашим [Concept('estate','станом')|e]"
  },
  "ESTATE_OPINION_SAME_ESTATE_RELIGION": {
   "en": "Shared [religion|e] with our [estate|e]",
-  "uk": ""
+  "uk": "Спільна [religion|e] з нашим [Concept('estate','станом')|e]"
  },
  "ESTATE_OPINION_SAME_LITURGICAL": {
   "en": "Same [liturgical_language|e]",
@@ -497,11 +497,11 @@
  },
  "ESTATE_OPINION_SUBJECT_DISLOYAL": {
   "en": "They are our [disloyal_subject|e]",
-  "uk": ""
+  "uk": "Вони наш [disloyal_subject|e]"
  },
  "ESTATE_OPINION_SUBJECT_LOYAL": {
   "en": "They are our [loyal_subject|e]",
-  "uk": ""
+  "uk": "Вони наш [loyal_subject|e]"
  },
  "ESTATE_OPINION_TARGET_ADVANCED": {
   "en": "More [advances|e]",
@@ -517,7 +517,7 @@
  },
  "ESTATE_OPINION_TARGET_DIPLOMATIC_REPUTATION": {
   "en": "Their [diplomatic_reputation|e]",
-  "uk": ""
+  "uk": "Їхня [diplomatic_reputation|e]"
  },
  "ESTATE_OPINION_TARGET_N_ESTATE_POWER": {
   "en": "[ShowEstateTypeName('nobles_estate')] [estate_power|e] in [target.GetNameWithNoTooltip]",
@@ -541,7 +541,7 @@
  },
  "ESTATE_OPINION_TOLERATED_ESTATE_CULTURE": {
   "en": "Tolerates our [estate|e]'s [culture|e]",
-  "uk": ""
+  "uk": "Терпить [Concept('culture','культуру')|e] нашого [Concept('estate','стану')|e]"
  },
  "ESTATE_OPINION_TRIBE": {
   "en": "Has [ShowGovernmentTypeName('tribe')] [government_type|e]",
@@ -597,7 +597,7 @@
  },
  "ESTATE_TYPE_GIVE_TAX_TO_OTHER": {
   "en": "$BULLET_WITH_TAB$Depending on [ShowModifierTypeName('global_peasant_enfranchisment')] income will go to [ESTATE_TYPE.GetName].",
-  "uk": ""
+  "uk": "$BULLET_WITH_TAB$Залежно від [ShowModifierTypeName('global_peasant_enfranchisment')] дохід піде до [ESTATE_TYPE.GetName]."
  },
  "ESTATE_TYPE_POLITICAL_POWER": {
   "en": "$BULLET_WITH_TAB$Each #G 1,000#! [pops|e] gives the estate $VAL|+=2$ [estate_power|e]",
@@ -625,7 +625,7 @@
  },
  "EXPANDED_CABINET_VIEW": {
   "en": "Expanded Cabinet View",
-  "uk": ""
+  "uk": "Розширений вигляд ради"
  },
  "FORMAT_NO_VALUE": {
   "en": "$KEY$",
@@ -641,11 +641,11 @@
  },
  "GOTO_REFORMS": {
   "en": "See our [government_reforms]",
-  "uk": ""
+  "uk": "Дивитися наші [government_reforms]"
  },
  "GOVERNMENT_REFORM_EXCLUSIVE_FOR_COUNTRY": {
   "en": "This reform is exclusive for [Country.GetName]",
-  "uk": ""
+  "uk": "Ця реформа доступна лише для [Country.GetName]"
  },
  "GOVERNMENT_WINDOW_CONSORT_AGE": {
   "en": "[Player.GetGovernment.GetConsort.GetAge]",
@@ -705,7 +705,7 @@
  },
  "GOV_REFORMS_BASED_ON": {
   "en": "$game_concept_reforms$ unlocked by",
-  "uk": ""
+  "uk": "$game_concept_reforms$ розблоковано через"
  },
  "GOV_USES_POWER": {
   "en": "[government_power|e] is $POWER$",
@@ -720,12 +720,12 @@
   "uk": "@trigger_no! Ми вже надаємо [ESTATE_PRIVILEGE.GetName] [ESTATE.GetName]"
  },
  "GRANT_PRIVILEDGE_TT": {
-  "en": "Granting to [ESTATE.GetName] at a cost of $COST$ gives:\\nImmediate $VAL|+=2%$ to their [estate_satisfaction|e]\\n$OTHER$\\n[ESTATE_PRIVILEGE.GetEffectText]",
-  "uk": "Надання [ESTATE.GetName] за вартість $COST$ дає:\\nНегайно $VAL|+=2%$ до їхньої [Concept('estate_satisfaction','задоволення стану')|e]\\n$OTHER$\\n[ESTATE_PRIVILEGE.GetEffectText]"
+  "en": "Granting to [ESTATE.GetName] will have the following impact on [estate_satisfaction|e]\\n[ESTATE.GetName]: $IMPACT$\\n$OTHER$",
+  "uk": "Надання [ESTATE.GetName] матиме такий вплив на [Concept('estate_satisfaction','задоволення стану')|e]\\n[ESTATE.GetName]: $IMPACT$\\n$OTHER$"
  },
  "GRANT_PRIVILEGE_ACTION": {
   "en": "Grant $NAME$",
-  "uk": ""
+  "uk": "Надати $NAME$"
  },
  "GRANT_PRIVILEGE_TRIGGER_NO": {
   "en": "It is not possible to grant [ESTATE_PRIVILEGE.GetName] due to:\\n$WHY$",
@@ -773,7 +773,7 @@
  },
  "HEIR_SELECTION_ALL_IN_OVERLORD": {
   "en": "• All in [overlord|e] Considered",
-  "uk": ""
+  "uk": "• Враховано всіх у [Concept('overlord','сюзерені')|e]"
  },
  "HEIR_SELECTION_APPOINTED_HEIR_DESC": {
   "en": "• Score for Appointed Heir",
@@ -781,11 +781,11 @@
  },
  "HEIR_SELECTION_BLIND_DESC": {
   "en": "• Is [ShowTraitName('blind')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('blind')]"
  },
  "HEIR_SELECTION_BORN_IN_THE_PURPLE_DESC": {
   "en": "• Was [ShowModifierTypeName('byz_born_in_the_purple')]",
-  "uk": ""
+  "uk": "• Мав модифікатор [ShowModifierTypeName('byz_born_in_the_purple')]"
  },
  "HEIR_SELECTION_BY_ELECTION": {
   "en": "• Decided by an [election|e]",
@@ -805,7 +805,7 @@
  },
  "HEIR_SELECTION_CASTRATED_DESC": {
   "en": "• Is [ShowTraitName('castrated')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('castrated')]"
  },
  "HEIR_SELECTION_COUNTRY_PRESTIGE": {
   "en": "• Score for [country|e] [prestige|e]",
@@ -821,7 +821,7 @@
  },
  "HEIR_SELECTION_DISFIGURED_DESC": {
   "en": "• Is [ShowTraitName('disfigured')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('disfigured')]"
  },
  "HEIR_SELECTION_ECONOMICAL_TRAITS": {
   "en": "• Score for #Y Economical#! [traits|e]",
@@ -877,7 +877,7 @@
  },
  "HEIR_SELECTION_HUNCHBACK_DESC": {
   "en": "• Is [ShowTraitName('hunchback')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('hunchback')]"
  },
  "HEIR_SELECTION_IGNORE_RULER": {
   "en": "• Current Ruler is Ignored",
@@ -917,7 +917,7 @@
  },
  "HEIR_SELECTION_MAIMED_DESC": {
   "en": "• Is [ShowTraitName('maimed')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('maimed')]"
  },
  "HEIR_SELECTION_MALE_DESC": {
   "en": "• Score for Male",
@@ -973,7 +973,7 @@
  },
  "HEIR_SELECTION_ONE_EYED_DESC": {
   "en": "• Is [ShowTraitName('one_eyed')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('one_eyed')]"
  },
  "HEIR_SELECTION_PAPAL_ELECTION_HAS_NO_HEIR": {
   "en": "• A new Pope is elected through a process after the previous one is dead!",
@@ -993,11 +993,11 @@
  },
  "HEIR_SELECTION_PODESTA_NO_HEIR": {
   "en": "• A new ruler is invited, not pre-selected",
-  "uk": ""
+  "uk": "• Нового правителя запрошують, а не обирають заздалегідь"
  },
  "HEIR_SELECTION_POLAND_FEMALE_DESC": {
   "en": "• Score for Female in Poland",
-  "uk": ""
+  "uk": "• Бали за жіночу стать у Польщі"
  },
  "HEIR_SELECTION_RANDOM_DESC": {
   "en": "• Candidate gets random score (from #Y 0.00#! up to #G +200.00#!)",
@@ -1013,7 +1013,7 @@
  },
  "HEIR_SELECTION_SCARRED_DESC": {
   "en": "• Is [ShowTraitName('scarred')]",
-  "uk": ""
+  "uk": "• Має властивість [ShowTraitName('scarred')]"
  },
  "HEIR_SELECTION_SOCIAL_TRAITS": {
   "en": "• Score for #Y Social#! [traits|e]",
@@ -1081,7 +1081,7 @@
  },
  "INTEGRATE_CLAMPED_NEGATIVE": {
   "en": "@trigger_no!Progress is stalled until these modifiers are positive again.",
-  "uk": ""
+  "uk": "@trigger_no!Прогрес зупинено, поки ці модифікатори знову не стануть додатними."
  },
  "INTEGRATE_CULTURE_WAR": {
   "en": "[CULTURE.GetName] [cultural_influence|e] vs [TARGET_CULTURE.GetName] [cultural_tradition|e]: $VAL|+=%2$",
@@ -1089,7 +1089,7 @@
  },
  "INTEGRATE_DIFFERENT_CULTURE": {
   "en": "[TARGET_CULTURE.GetName] is the [dominant_culture|e]: $VAL|+=2%$",
-  "uk": ""
+  "uk": "[TARGET_CULTURE.GetName] є [dominant_culture|e]: $VAL|+=2%$"
  },
  "INTEGRATE_SAME_CULTURE": {
   "en": "[CULTURE.GetName] is the [dominant_culture|e]: $VAL|+=2%$",
@@ -1101,7 +1101,7 @@
  },
  "IO_POLICY_IMPLEMENTED_ON": {
   "en": "Implemented #V $DATE$#!",
-  "uk": ""
+  "uk": "Впроваджено #V $DATE$#!"
  },
  "LAW_CAN_NOT_CHANGE": {
   "en": "@trigger_no! We can not change the [LAW.GetName] due to:\\n$WHY$",
@@ -1133,7 +1133,7 @@
  },
  "LOCATION_PEASANT_ENFRANCHISMENT_TITLE": {
   "en": "[peasant_enfranchisement] in [Location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "[peasant_enfranchisement] у [Location.GetNameWithNoTooltip]"
  },
  "LOCK_CABINET": {
   "en": "Lock Cabinet",
@@ -1145,7 +1145,7 @@
  },
  "LOCK_CABINET_TOOLTIP": {
   "en": "#T [SelectLocalization(Not(CabinetItem.GetCabinet.IsLocked), 'LOCK_CABINET', 'UNLOCK_CABINET')]#!\\n[SelectLocalization(Not(CabinetItem.GetCabinet.IsLocked), 'LOCK_CABINET_DESC', 'UNLOCK_CABINET_DESC')]",
-  "uk": ""
+  "uk": "#T [SelectLocalization(Not(CabinetItem.GetCabinet.IsLocked), 'LOCK_CABINET', 'UNLOCK_CABINET')]#!\\n[SelectLocalization(Not(CabinetItem.GetCabinet.IsLocked), 'LOCK_CABINET_DESC', 'UNLOCK_CABINET_DESC')]"
  },
  "LOCK_ONGOING_RELATION": {
   "en": "Lock Ongoing Diplomacy",
@@ -1160,8 +1160,8 @@
   "uk": "[Concept('major_reform','велика реформа')|e]"
  },
  "MAJOR_REFORM_content": {
-  "en": "Country can only have one $game_concept_major_reform$ at a time.",
-  "uk": "Країна може мати лише одну $game_concept_major_reform$ одночасно."
+  "en": "#G [major_reform]#!: Only one $game_concept_major_reform$ at a time",
+  "uk": "#G [major_reform]#!: Лише одна $game_concept_major_reform$ одночасно"
  },
  "MAX_CONTROL_TT_HEADER": {
   "en": "Maximum Control",
@@ -1189,14 +1189,14 @@
  },
  "MODIFIER_REBEL_TITLE": {
   "en": "On the [rebels|e]:",
-  "uk": ""
+  "uk": "Про [Concept('rebels','бунтівників')|e]:"
  },
  "MODIFIER_WHILE_RESEARCHING": {
   "en": "While researching:",
   "uk": "Під час дослідження:"
  },
  "MONTHLY_CONTROL_TT_HEADER": {
-  "en": "Monthly Control Change:",
+  "en": "Monthly Control Change",
   "uk": "Щомісячна зміна контролю:"
  },
  "MONTHLY_CONTROL_TT_TEXT": {
@@ -1249,23 +1249,23 @@
  },
  "PEASANT_ENFRANCHISMENT": {
   "en": "Min $MIN|2%$ and Max is $MAX|2%$",
-  "uk": ""
+  "uk": "Мінімум $MIN|2%$, максимум $MAX|2%$"
  },
  "PEASANT_ENFRANCHISMENT_TITLE": {
   "en": "[peasant_enfranchisement|e] is [Location.GetPeasantEnfranchisment|2G%] due to:",
-  "uk": ""
+  "uk": "[peasant_enfranchisement|e] становить [Location.GetPeasantEnfranchisment|2G%] через:"
  },
  "PEASANT_ENFRANCHISMENT_TT_TABLE": {
   "en": "The global modifier in [Country.GetNameWithNoTooltip] is [Country.GetModifierValueNoFormat('global_peasant_enfranchisment')] due to:",
-  "uk": ""
+  "uk": "Глобальний модифікатор у [Country.GetNameWithNoTooltip] становить [Country.GetModifierValueNoFormat('global_peasant_enfranchisment')] через:"
  },
  "PEASANT_ENFRANCHISMENT_TT_TEXT": {
   "en": "[pops|e] of this [estate|e] have an average Enfranchisement of #W [Estate.GetAvgEnfranchisment|0%]#![peasant_enfranchisement_icon], so they only receive that percentage of their [wealth_share|e]. The rest of their income is transferred to the [ShowEstateTypeName('nobles_estate')].",
-  "uk": ""
+  "uk": "[pops|e] цього [Concept('estate','стану')|e] мають середню участь #W [Estate.GetAvgEnfranchisment|0%]#![peasant_enfranchisement_icon], тож вони отримують лише цей відсоток своєї [Concept('wealth_share','частки багатства')|e]. Решта їхнього доходу передається до [ShowEstateTypeName('nobles_estate')]."
  },
  "PEASANT_ENFRANCHISMENT_TT_TITLE": {
   "en": "Average $game_concept_peasant_enfranchisement$ of [Country.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Середнє значення $game_concept_peasant_enfranchisement$ у [Country.GetNameWithNoTooltip]"
  },
  "POLICY_IS_PART_OF_LAW": {
   "en": "This is a [policy|e] of the [LAW.GetName] [law|e].",
@@ -1301,7 +1301,7 @@
  },
  "REMOVE_BUREAUCRACY_DONT_HAVE": {
   "en": "@trigger_no! We do not have this [bureaucracy|e].",
-  "uk": ""
+  "uk": "@trigger_no! У нас немає цієї [Concept('bureaucracy','бюрократії')|e]."
  },
  "REMOVE_REFORM_NOT_CHANGE": {
   "en": "@trigger_no! We can not remove the [GOVERNMENT_REFORM.GetName] due to #TOOLTIP:$WHY_TAG$ #L one or more blockers#!#!",
@@ -1349,7 +1349,7 @@
  },
  "SELECT_THIS_CABINET": {
   "en": "Select this Cabinet Slot",
-  "uk": ""
+  "uk": "Вибрати цю посаду ради"
  },
  "SET_CABINET_ACTION": {
   "en": "Assign [CABINET_ACTION.GetName] to the [cabinet|e]",
@@ -1473,7 +1473,7 @@
  },
  "STATIC_MODIFIER_NAME_enforce_peace_declined": {
   "en": "Enforce Peace Declined",
-  "uk": ""
+  "uk": "Примус до миру відхилено"
  },
  "SUBTAB_GOVERNMENT_CABINET": {
   "en": "$game_concept_cabinet$",
@@ -1509,7 +1509,7 @@
  },
  "SUBTAB_GOVERNMENT_PARLIAMENT_TT_FLAVOR_TEXT": {
   "en": "\"What is the Third Estate? Everything.\"",
-  "uk": ""
+  "uk": "\"Що таке третій стан? Все.\""
  },
  "SUBTAB_GOVERNMENT_PARLIAMENT_TT_TEXT": {
   "en": "This window allows you to call our [estates|e] to [parliament|e].",
@@ -1553,15 +1553,15 @@
  },
  "TARGET_SATISFACTION_CULTURE_MISMATCH_ACCEPTED": {
   "en": "[CULTURE.GetName] is only [accepted_culture_short|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[CULTURE.GetName] лише [accepted_culture_short|e]: $VAL|+2V%$"
  },
  "TARGET_SATISFACTION_CULTURE_MISMATCH_DISCRIMINATED": {
   "en": "[CULTURE.GetName] is [non_accepted_culture_short|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[CULTURE.GetName] є [non_accepted_culture_short|e]: $VAL|+2V%$"
  },
  "TARGET_SATISFACTION_CULTURE_MISMATCH_TOLERATED": {
   "en": "[CULTURE.GetName] is only [tolerated_culture_short|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[CULTURE.GetName] лише [tolerated_culture_short|e]: $VAL|+2V%$"
  },
  "TARGET_SATISFACTION_HEADER": {
   "en": "The [estate_satisfaction|e] of the [ESTATE.GetName] is moving towards $VALUE|2V%$ due to:",
@@ -1569,23 +1569,23 @@
  },
  "TARGET_SATISFACTION_RELIGION_MISMATCH_HEATHEN": {
   "en": "[RELIGION.GetName] is [heathen|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[RELIGION.GetName] є [heathen|e]: $VAL|+2V%$"
  },
  "TARGET_SATISFACTION_RELIGION_MISMATCH_HERETIC": {
   "en": "[RELIGION.GetName] is [heretic|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[RELIGION.GetName] є [heretic|e]: $VAL|+2V%$"
  },
  "TARGET_SATISFACTION_RELIGION_SAME": {
   "en": "[RELIGION.GetName] is the [state_religion|e]: $VAL|+2V%$",
-  "uk": ""
+  "uk": "[RELIGION.GetName] є [state_religion|e]: $VAL|+2V%$"
  },
  "TAX_BASE_PEASANT_ENFRANCH": {
   "en": "[peasant_enfranchisement|e]: [Location.GetPeasantEnfranchisment|2G%] [peasant_enfranchisement_icon]",
   "uk": "[peasant_enfranchisement|e]: [Location.GetPeasantEnfranchisment|2G%] [peasant_enfranchisement_icon]"
  },
  "TIME_TO_IMPLEMENT": {
-  "en": "This takes $DAYS$ days to fully implement.",
-  "uk": "Це займає $DAYS$ днів для повного впровадження."
+  "en": "@time! This takes #W $DAYS$#! days to fully implement.",
+  "uk": "@time! Це займає #W $DAYS$#! днів для повного впровадження."
  },
  "TIME_TO_LAW": {
   "en": "[Policy.GetImplementableTooltip]",
@@ -1605,11 +1605,11 @@
  },
  "UNIQUE_POLICY_DESC": {
   "en": "This Policy is unique to [Country.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Ця політика унікальна для [Country.GetNameWithNoTooltip]"
  },
  "UNIQUE_POLICY_TITLE": {
   "en": "Unique Policy",
-  "uk": ""
+  "uk": "Унікальна політика"
  },
  "UNLOCK_CABINET": {
   "en": "Unlock Cabinet",
@@ -1629,7 +1629,7 @@
  },
  "UNSTABLE_UNION_WARNING": {
   "en": "#Y This $game_concept_succession_law$ might have unintended repercussions for any of our current or future unions.#!",
-  "uk": ""
+  "uk": "#Y Цей $game_concept_succession_law$ може мати непередбачені наслідки для будь-яких наших нинішніх чи майбутніх уній.#!"
  },
  "VECHE_HAS_NO_HEIR": {
   "en": "• A new prince is invited, not pre-selected",
@@ -1660,8 +1660,8 @@
   "uk": "Абсолютний когнатичний примогенітура"
  },
  "absolute_cognatic_primogeniture_desc": {
-  "en": "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] in which the [heir|e] is the oldest child (male or female) of the current [ruler|e].",
-  "uk": "Це тип [Concept('heir_selection','престолонаслідування')|e] [ShowGovernmentTypeName('monarchy')], в якому [Concept('heir','спадкоємець')|e] є найстаршою дитиною (чоловічої або жіночої статі) поточного [Concept('ruler','правитель')|e]."
+  "en": "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] that follows the eldest line of the ruling family regardless of gender. The descendants of a deceased [heir|e] inherit their parent's place in the line of succession before the [ruler|e]'s other children.",
+  "uk": "Це тип [Concept('heir_selection','престолонаслідування')|e] [ShowGovernmentTypeName('monarchy')], за якого спадкоємцем стає найстарша лінія правлячої родини незалежно від статі. Нащадки померлого [Concept('heir','спадкоємця')|e] успадковують місце свого батька чи матері в черзі спадкування перед іншими дітьми [Concept('ruler','правителя')|e]."
  },
  "absolutism_focus": {
   "en": "Absolutism",
@@ -1749,11 +1749,11 @@
  },
  "appease_estate": {
   "en": "Appease Estate",
-  "uk": ""
+  "uk": "Умиротворити стан"
  },
  "appease_estate_action": {
   "en": "Appease Estates",
-  "uk": ""
+  "uk": "Умиротворення станів"
  },
  "appease_estate_action_progress": {
   "en": "[SCOPE.sEstate('target').GetSatisfaction|2%]",
@@ -1761,63 +1761,63 @@
  },
  "appease_estate_action_progress_long_wordier": {
   "en": "[estate_satisfaction|e] of [SCOPE.sEstate('target').GetName] is [SCOPE.sEstate('target').GetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[estate_satisfaction|e] [SCOPE.sEstate('target').GetName] становить [SCOPE.sEstate('target').GetSatisfaction|2%]"
  },
  "appease_estate_action_progress_tooltip": {
   "en": "The [SCOPE.sEstate('target').GetName] [estate|e] currently has [SCOPE.sEstate('target').GetSatisfaction|2%] [estate_satisfaction|e] with a target of [SCOPE.sEstate('target').GetTargetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[SCOPE.sEstate('target').GetName] [Concept('estate','стан')|e] наразі має [SCOPE.sEstate('target').GetSatisfaction|2%] [estate_satisfaction|e] із цільовим показником [SCOPE.sEstate('target').GetTargetSatisfaction|2%]"
  },
  "appease_estate_action_progress_wordier": {
   "en": "[estate_satisfaction|e] is [SCOPE.sEstate('target').GetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[estate_satisfaction|e] становить [SCOPE.sEstate('target').GetSatisfaction|2%]"
  },
  "appease_estate_active": {
   "en": "Appeasing Estates",
-  "uk": ""
+  "uk": "Умиротворення станів"
  },
  "appease_estate_active_modifier": {
   "en": "Selected [estate|e] bonuses:",
-  "uk": ""
+  "uk": "Бонуси обраного [Concept('estate','стану')|e]:"
  },
  "appease_estate_desc": {
   "en": "This will increase the [estate|e]'s [estate_satisfaction|e].",
-  "uk": ""
+  "uk": "Це збільшить [estate_satisfaction|e] [Concept('estate','стану')|e]."
  },
  "appease_estate_hover": {
   "en": "Will grant the selected [estate|e] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть обраному [Concept('estate','стану')|e] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_burghers": {
   "en": "Will grant [ShowEstateTypeName('burghers_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('burghers_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_clergy": {
   "en": "Will grant [ShowEstateTypeName('clergy_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('clergy_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_cossacks": {
   "en": "Will grant [ShowEstateTypeName('cossacks_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('cossacks_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_dhimmi": {
   "en": "Will grant [ShowEstateTypeName('dhimmi_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('dhimmi_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_nobles": {
   "en": "Will grant [ShowEstateTypeName('nobles_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('nobles_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_peasants": {
   "en": "Will grant [ShowEstateTypeName('peasants_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('peasants_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_hover_tribes": {
   "en": "Will grant [ShowEstateTypeName('tribes_estate')] [estate_satisfaction|e] recovery and [estate_satisfaction_equilibrium|e] bonuses.",
-  "uk": ""
+  "uk": "Надасть [ShowEstateTypeName('tribes_estate')] відновлення [estate_satisfaction|e] та бонуси [estate_satisfaction_equilibrium|e]."
  },
  "appease_estate_selected_estate_will_receive": {
   "en": "The selected [estate|e] will receive [estate_satisfaction|e] bonuses.",
-  "uk": ""
+  "uk": "Обраний [estate|e] отримає бонуси [estate_satisfaction|e]."
  },
  "aptekarsky": {
   "en": "Aptekarsky",
@@ -1825,31 +1825,31 @@
  },
  "aptekarsky_action": {
   "en": "Managing $aptekarsky$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $aptekarsky$"
  },
  "aptekarsky_action_progress": {
-  "en": "$aptekarsky$ Prikaz",
-  "uk": "$aptekarsky$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
  },
  "aptekarsky_action_progress_long_wordier": {
   "en": "@disease_resistance! [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]",
   "uk": "@disease_resistance! [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
  },
  "aptekarsky_action_progress_tooltip": {
-  "en": "$aptekarsky$ Prikaz",
-  "uk": "$aptekarsky$ приказ"
+  "en": "Increases $MODIFIER_TYPE_NAME_global_disease_resistance$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_disease_resistance')]",
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_global_disease_resistance$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_disease_resistance')]"
  },
  "aptekarsky_action_progress_wordier": {
-  "en": "$aptekarsky$ Prikaz",
-  "uk": "$aptekarsky$ приказ"
+  "en": "@disease_resistance!: [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]",
+  "uk": "@disease_resistance!: [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
  },
  "aptekarsky_active": {
-  "en": "$aptekarsky$ Prikaz",
-  "uk": "$aptekarsky$ приказ"
+  "en": "Managing $aptekarsky$ prikaz",
+  "uk": "Управління приказом $aptekarsky$"
  },
  "aptekarsky_active_action_title": {
   "en": "Managing $aptekarsky$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $aptekarsky$"
  },
  "aptekarsky_desc": {
   "en": "This will let our cabinet focus on the prikaz of health and medicinal related matters, allowing for better distribution of medicines and rapid distribution of any knowledge concerning potential treatments.",
@@ -1861,7 +1861,7 @@
  },
  "aptekarsky_select_province": {
   "en": "Select the [province|e] to increase [disease_resistance|e] in:",
-  "uk": ""
+  "uk": "Виберіть [Concept('province','провінцію')|e], у якій збільшити [disease_resistance|e]:"
  },
  "area_primary_culture_percentage": {
   "en": "Primary Culture Percentage",
@@ -1916,7 +1916,7 @@
   "uk": "Асиміляція [SCOPE.sArea('target').GetNameWithHighlightOnly]"
  },
  "assimilate_area_desc": {
-  "en": "As a [ShowHegemonyName('cultural_hegemon')] we can promote our culture over a larger area of the country at once.",
+  "en": "As a [ShowHegemonyName('cultural_hegemon')] we can promote a culture over a larger area of the country at once.",
   "uk": "Як [ShowHegemonyName('cultural_hegemon')] ми можемо просувати нашу культуру на більшій території країни одночасно."
  },
  "assimilate_area_no_areas": {
@@ -2009,31 +2009,31 @@
  },
  "bolshogo_dvortsa_action": {
   "en": "Managing $bolshogo_dvortsa$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $bolshogo_dvortsa$"
  },
  "bolshogo_dvortsa_action_progress": {
-  "en": "$bolshogo_dvortsa$ Prikaz",
-  "uk": "$bolshogo_dvortsa$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]"
  },
  "bolshogo_dvortsa_action_progress_long_wordier": {
   "en": "@religious_influence! [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\\n    @court_spending! [SCOPE.sCountry('actor').GetCourtSpendingCost]",
-  "uk": ""
+  "uk": "@religious_influence! [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\\n    @court_spending! [SCOPE.sCountry('actor').GetCourtSpendingCost]"
  },
  "bolshogo_dvortsa_action_progress_tooltip": {
-  "en": "$bolshogo_dvortsa$ Prikaz",
-  "uk": "$bolshogo_dvortsa$ приказ"
+  "en": "Increases $MODIFIER_TYPE_NAME_monthly_religious_influence$\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_religious_influence')]",
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_monthly_religious_influence$\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_religious_influence')]"
  },
  "bolshogo_dvortsa_action_progress_tooltip_1": {
   "en": "Reduces Court Spending Cost\\n[SCOPE.sCountry('actor').GetCourtSpendingCostDetails]",
-  "uk": ""
+  "uk": "Зменшує вартість утримання двору\\n[SCOPE.sCountry('actor').GetCourtSpendingCostDetails]"
  },
  "bolshogo_dvortsa_action_progress_wordier": {
-  "en": "$bolshogo_dvortsa$ Prikaz",
-  "uk": "$bolshogo_dvortsa$ приказ"
+  "en": "@religious_influence!: [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\\n@court_spending!: [SCOPE.sCountry('actor').GetCourtSpendingCost]",
+  "uk": "@religious_influence!: [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\\n@court_spending!: [SCOPE.sCountry('actor').GetCourtSpendingCost]"
  },
  "bolshogo_dvortsa_active": {
-  "en": "$bolshogo_dvortsa$ Prikaz",
-  "uk": "$bolshogo_dvortsa$ приказ"
+  "en": "Managing $bolshogo_dvortsa$ prikaz",
+  "uk": "Управління приказом $bolshogo_dvortsa$"
  },
  "bolshogo_dvortsa_desc": {
   "en": "This will let our cabinet focus on the maintenance of palaces and the reduction of court-related expenses. Religious monasteries are also overseen to ensure they are aligned with state doctrine and abide by the law.",
@@ -2041,11 +2041,11 @@
  },
  "bolster_bureaucratic_efficiency": {
   "en": "Reduce Bureaucratic Upkeep",
-  "uk": ""
+  "uk": "Знизити бюрократичне утримання"
  },
  "bolster_bureaucratic_efficiency_action": {
   "en": "Reducing Bureaucratic Upkeep",
-  "uk": ""
+  "uk": "Зниження бюрократичного утримання"
  },
  "bolster_bureaucratic_efficiency_action_progress": {
   "en": "[SCOPE.sCountry('actor').GetModifierValue('maintain_bureaucracy_price_cost_modifier')]",
@@ -2057,7 +2057,7 @@
  },
  "bolster_bureaucratic_efficiency_action_progress_tooltip": {
   "en": "Reduces $MODIFIER_TYPE_NAME_maintain_bureaucracy_price_cost_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('maintain_bureaucracy_price_cost_modifier')]",
-  "uk": ""
+  "uk": "Зменшує $MODIFIER_TYPE_NAME_maintain_bureaucracy_price_cost_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('maintain_bureaucracy_price_cost_modifier')]"
  },
  "bolster_bureaucratic_efficiency_action_progress_wordier": {
   "en": "@bureaucracy_entrenchment! [SCOPE.sCountry('actor').GetModifierValue('maintain_bureaucracy_price_cost_modifier')]",
@@ -2073,7 +2073,7 @@
  },
  "bolster_bureaucratic_efficiency_desc": {
   "en": "Our administration is dependent on many bureaucratic cornerstones, many of which are old and costly to maintain. Assigning a capable cabinet member to oversee their operations will cut down on the upkeep they demand from our treasury.",
-  "uk": ""
+  "uk": "Наше управління спирається на численні бюрократичні основи, багато з яких застарілі й дорогі в утриманні. Призначення здібного члена ради для нагляду за їхньою роботою скоротить видатки, які вони вимагають від нашої скарбниці."
  },
  "byz_aid_constantinople_action_no_provinces": {
   "en": "@trigger_no! No valid [provinces|e] available",
@@ -2113,11 +2113,11 @@
  },
  "byzantine_succession": {
   "en": "Byzantine Succession",
-  "uk": ""
+  "uk": "Візантійське престолонаслідування"
  },
  "byzantine_succession_desc": {
   "en": "A complex system of succession that combines elements of primogeniture and elective monarchy, allowing for a more flexible approach to choosing a ruler while still maintaining a connection to the imperial lineage.",
-  "uk": ""
+  "uk": "Складна система престолонаслідування, що поєднує елементи первородства та виборної монархії, дозволяючи гнучкіше обирати правителя, зберігаючи при цьому зв’язок з імперською лінією."
  },
  "cab_diplomatic_corps": {
   "en": "Diplomatic Corps",
@@ -2252,8 +2252,8 @@
   "uk": "Когнатичний примогенітура"
  },
  "cognatic_primogeniture_desc": {
-  "en": "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] in which the [heir|e] is the oldest male child of the current [ruler|e], although females may also inherit if there is not a more suitable male.",
-  "uk": "Це тип [Concept('heir_selection','престолонаслідування')|e] [ShowGovernmentTypeName('monarchy')], в якому [Concept('heir','спадкоємець')|e] є найстаршою дитиною чоловічої статі поточного [Concept('ruler','правитель')|e], хоча жінки також можуть успадкувати, якщо немає більш підходящого чоловіка."
+  "en": "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] that follows the eldest line of the ruling family, preferring males over females. The descendants of a deceased [heir|e] inherit their parent's place in the line of succession before the [ruler|e]'s other children.",
+  "uk": "Це тип [Concept('heir_selection','престолонаслідування')|e] [ShowGovernmentTypeName('monarchy')], за яким спадкоємець іде за найстаршою лінією правлячої родини, віддаючи перевагу чоловікам перед жінками. Нащадки померлого [Concept('heir','спадкоємця')|e] успадковують місце свого батька в черзі престолонаслідування раніше за інших дітей [Concept('ruler','правителя')|e]."
  },
  "communalism_focus": {
   "en": "Communalism",
@@ -2381,7 +2381,7 @@
  },
  "diplomatic_endeavors_action_progress_long_wordier": {
   "en": "@diplomatic_reputation! [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] \\n\\n@improve_relation_impact! [SCOPE.sCountry('actor').GetModifierValue('improve_relation_impact')]",
-  "uk": ""
+  "uk": "@diplomatic_reputation! [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] \\n\\n@improve_relation_impact! [SCOPE.sCountry('actor').GetModifierValue('improve_relation_impact')]"
  },
  "diplomatic_endeavors_action_progress_tooltip": {
   "en": "[diplomatic_reputation|e]: [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] \\n\\n[improve_relations|e]: [SCOPE.sCountry('actor').GetModifierValue('improve_relation_impact')]",
@@ -2453,7 +2453,7 @@
  },
  "encourage_migration_action_progress_long_wordier": {
   "en": "@migration_attraction! [SCOPE.sLocation('target').GetMigrationChange] \\n\\n@migration_speed! [SCOPE.sCountry('actor').GetModifierValue('global_migration_speed_modifier')]",
-  "uk": ""
+  "uk": "@migration_attraction! [SCOPE.sLocation('target').GetMigrationChange] \\n\\n@migration_speed! [SCOPE.sCountry('actor').GetModifierValue('global_migration_speed_modifier')]"
  },
  "encourage_migration_action_progress_tooltip": {
   "en": "Global Migration Speed: [SCOPE.sLocation('target').GetModifierValue('local_migration_speed')] \\n [SCOPE.sLocation('target').GetMigrationInfo]",
@@ -2464,12 +2464,12 @@
   "uk": "[SCOPE.sLocation('target').GetMigrationChange] груп населення мігрувало минулого місяця."
  },
  "encourage_migration_active": {
-  "en": "Encouraging Migration to [SCOPE.sLocation('target').GetNameWithNoTooltip]",
-  "uk": "Заохочуємо міграцію до [SCOPE.sLocation('target').GetNameWithNoTooltip]"
+  "en": "Encouraging Migration to [SCOPE.sLocation('target').GetName]",
+  "uk": "Заохочуємо міграцію до [SCOPE.sLocation('target').GetName]"
  },
  "encourage_migration_desc": {
-  "en": "This will make [pops|e] more likely [migrate|e] to this [location|e].",
-  "uk": "Це зробить більш імовірним, що [Concept('pops','населення')|e] будуть [Concept('migrate','мігрувати')|e] до цієї [Concept('location','локація')|e]."
+  "en": "This will make [pops|e] more likely to [migrate|e] to this [location|e].\\n\\nNote: the cabinet assignment also speeds up [migration|e] across all owned locations, not just the selected one.",
+  "uk": "Це зробить більш імовірним, що [Concept('pops','групи населення')|e] будуть [Concept('migrate','мігрувати')|e] до цього [Concept('location','району')|e].\\n\\nПримітка: призначення в раду також прискорює [Concept('migration','міграцію')|e] в усіх наших районах, а не лише у вибраному."
  },
  "encourage_migration_select_province": {
   "en": "Select the [location|e] to encourage [migration|e] to:",
@@ -2501,7 +2501,7 @@
  },
  "expel_people_action_progress_long_wordier": {
   "en": "@migration_attraction! [SCOPE.sProvince('target').GetMigrationChange] \\n\\n@migration_speed! [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed')|+=2] \\n\\n@migration_speed! [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed_modifier')|+=2%]",
-  "uk": ""
+  "uk": "@migration_attraction! [SCOPE.sProvince('target').GetMigrationChange] \\n\\n@migration_speed! [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed')|+=2] \\n\\n@migration_speed! [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed_modifier')|+=2%]"
  },
  "expel_people_action_progress_tooltip": {
   "en": "Pops Migration Speed: [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed')|+=2] \\n @migration_speed! Global Migration Speed: [SCOPE.sProvince('target').GetProvinceLocationModifier('local_migration_speed_modifier')|+=2%] \\n [SCOPE.sProvince('target').GetMigrationInfo]",
@@ -2604,8 +2604,8 @@
   "uk": "[SCOPE.sCountry('actor').GetModifierValue('hostile_diplomatic_annexation_efficiency')]"
  },
  "frustrate_annexation_action_progress_wordier": {
-  "en": "Annexation Cost: [SCOPE.sCountry('actor').GetModifierValue('hostile_diplomatic_annexation_cost')]",
-  "uk": "Вартість анексії: [SCOPE.sCountry('actor').GetModifierValue('diplomatic_annexation_cost')]"
+  "en": "Annexation Efficiency: [SCOPE.sCountry('actor').GetModifierValue('hostile_diplomatic_annexation_efficiency')]",
+  "uk": "Ефективність приєднання: [SCOPE.sCountry('actor').GetModifierValue('hostile_diplomatic_annexation_efficiency')]"
  },
  "frustrate_annexation_active": {
   "en": "Frustrating Annexation",
@@ -2705,7 +2705,7 @@
  },
  "hellenization_focus": {
   "en": "Rōmanismós",
-  "uk": ""
+  "uk": "Романісмос"
  },
  "horde_unity": {
   "en": "Horde Unity",
@@ -2717,11 +2717,11 @@
  },
  "increase_bureaucratic_entrenchment": {
   "en": "Accelerate Bureaucratic Entrenchment",
-  "uk": ""
+  "uk": "Прискорити бюрократичне укорінення"
  },
  "increase_bureaucratic_entrenchment_action": {
   "en": "Accelerating Bureaucratic Entrenchment",
-  "uk": ""
+  "uk": "Прискорення бюрократичного укорінення"
  },
  "increase_bureaucratic_entrenchment_action_progress": {
   "en": "[SCOPE.sCountry('actor').GetModifierValue('global_bureaucracy_entrenchment_speed_modifier')]",
@@ -2733,7 +2733,7 @@
  },
  "increase_bureaucratic_entrenchment_action_progress_tooltip": {
   "en": "Increases $MODIFIER_TYPE_NAME_global_bureaucracy_entrenchment_speed_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_bureaucracy_entrenchment_speed_modifier')]",
-  "uk": ""
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_global_bureaucracy_entrenchment_speed_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_bureaucracy_entrenchment_speed_modifier')]"
  },
  "increase_bureaucratic_entrenchment_action_progress_wordier": {
   "en": "@bureaucracy_entrenchment! [SCOPE.sCountry('actor').GetModifierValue('global_bureaucracy_entrenchment_speed_modifier')]",
@@ -2749,7 +2749,7 @@
  },
  "increase_bureaucratic_entrenchment_desc": {
   "en": "Our cabinet can be directed to actively push bureaucratic structures toward entrenchment, speeding up the consolidation of our administrative order and making these institutions harder to dislodge.",
-  "uk": ""
+  "uk": "Наша рада може спрямувати зусилля на активне просування укорінення бюрократичних структур, прискорюючи консолідацію нашого управлінського порядку та ускладнюючи усунення цих інститутів."
  },
  "increase_control_area": {
   "en": "Increase Area Control",
@@ -2792,8 +2792,8 @@
   "uk": "Збільшити контроль провінції"
  },
  "increase_control_province_action": {
-  "en": "Increase Control in [SCOPE.sProvince('selected_province').GetName]",
-  "uk": "Збільшити контроль у [SCOPE.sProvince('selected_province').GetName]"
+  "en": "Increase Control in [SCOPE.sProvince('selected_province').GetName] (currently [SCOPE.sProvince('selected_province').GetAverageControl|%]).",
+  "uk": "Збільшити контроль у [SCOPE.sProvince('selected_province').GetName] (наразі [SCOPE.sProvince('selected_province').GetAverageControl|%])."
  },
  "increase_control_province_action_progress": {
   "en": "[SCOPE.sProvince('selected_province').GetAverageControl|V%2]",
@@ -2801,7 +2801,7 @@
  },
  "increase_control_province_action_progress_long_wordier": {
   "en": "@monthly_control! [SCOPE.sProvince('selected_province').GetAverageControl|V%2] \\n\\n@max_control! [SCOPE.sProvince('selected_province').GetProvinceLocationModifier('local_max_control')|+=2%]",
-  "uk": ""
+  "uk": "@monthly_control! [SCOPE.sProvince('selected_province').GetAverageControl|V%2] \\n\\n@max_control! [SCOPE.sProvince('selected_province').GetProvinceLocationModifier('local_max_control')|+=2%]"
  },
  "increase_control_province_action_progress_tooltip": {
   "en": "[SCOPE.sProvince('selected_province').GetAverageControlInfo]",
@@ -2853,7 +2853,7 @@
  },
  "integrate_area_action_progress_long_wordier": {
   "en": "@province_integration_speed! [SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionProgress]#!",
-  "uk": ""
+  "uk": "@province_integration_speed! [SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionProgress]#!"
  },
  "integrate_area_action_progress_tooltip": {
   "en": "[integration|e] at #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#! \\n[SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationFinishedInfo]",
@@ -2889,15 +2889,15 @@
  },
  "integrate_province_action_progress_long_wordier": {
   "en": "@province_integration_speed! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!",
-  "uk": ""
+  "uk": "@province_integration_speed! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!"
  },
  "integrate_province_action_progress_tooltip": {
   "en": "[integration|e] at #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nIntegration should be done on [SCOPE.sProvince('target').GetIntegrationETA|Y]",
   "uk": "[Concept('integration','інтеграція')|e] на #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nІнтеграція має завершитися [SCOPE.sProvince('target').GetIntegrationETA|Y]"
  },
  "integrate_province_action_progress_tooltip_1": {
-  "en": "The Province progress growth is [SCOPE.sProvince('target').GetIntegrationModifiers|+=2] each month due to:\\n[SCOPE.sProvince('target').GetIntegrationModifiersBreakdown]",
-  "uk": "Зростання прогресу провінції становить [SCOPE.sProvince('target').GetIntegrationModifiers|+=2] кожного місяця через:\\n[SCOPE.sProvince('target').GetIntegrationModifiersBreakdown]"
+  "en": "The Province progress growth is [SCOPE.sProvince('target').GetIntegrationSpeed|+=2] each month due to:\\n[SCOPE.sProvince('target').GetIntegrationSpeedBreakdown]",
+  "uk": "Зростання прогресу провінції становить [SCOPE.sProvince('target').GetIntegrationSpeed|+=2] щомісяця через:\\n[SCOPE.sProvince('target').GetIntegrationSpeedBreakdown]"
  },
  "integrate_province_action_progress_tooltip_2": {
   "en": "Progress growth in [SCOPE.sProvince('target').GetNumIntegrationLocations|V0] [locations]:\\n[SCOPE.sProvince('target').GetNumIntegrationLocationsBreakdown]",
@@ -2929,31 +2929,31 @@
  },
  "ispolneniya_zakonov_action": {
   "en": "Managing $ispolneniya_zakonov$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $ispolneniya_zakonov$"
  },
  "ispolneniya_zakonov_action_progress": {
-  "en": "$ispolneniya_zakonov$ Prikaz",
-  "uk": "$ispolneniya_zakonov$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')]"
  },
  "ispolneniya_zakonov_action_progress_long_wordier": {
   "en": " @legislative_efficiency! [SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')]\\n@monthly_control! [SCOPE.sCountry('actor').GetModifierValue('global_monthly_control')]",
-  "uk": ""
+  "uk": " @legislative_efficiency! [SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')]\\n@monthly_control! [SCOPE.sCountry('actor').GetModifierValue('global_monthly_control')]"
  },
  "ispolneniya_zakonov_action_progress_tooltip": {
-  "en": "$ispolneniya_zakonov$ Prikaz",
-  "uk": "$ispolneniya_zakonov$ приказ"
+  "en": "Increases $MODIFIER_TYPE_NAME_legislative_efficiency$\\n[SCOPE.sCountry('actor').GetDescriptionFor('legislative_efficiency')]",
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_legislative_efficiency$\\n[SCOPE.sCountry('actor').GetDescriptionFor('legislative_efficiency')]"
  },
  "ispolneniya_zakonov_action_progress_tooltip_1": {
   "en": "Increases $MODIFIER_TYPE_NAME_global_monthly_control$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_monthly_control')]",
-  "uk": ""
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_global_monthly_control$\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_monthly_control')]"
  },
  "ispolneniya_zakonov_action_progress_wordier": {
-  "en": "$ispolneniya_zakonov$ Prikaz",
-  "uk": "$ispolneniya_zakonov$ приказ"
+  "en": "[legislative_efficiency|e]: [SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')] @monthly_control!: [SCOPE.sCountry('actor').GetModifierValue('global_monthly_control')]",
+  "uk": "[legislative_efficiency|e]: [SCOPE.sCountry('actor').GetModifierValue('legislative_efficiency')] @monthly_control!: [SCOPE.sCountry('actor').GetModifierValue('global_monthly_control')]"
  },
  "ispolneniya_zakonov_active": {
-  "en": "$ispolneniya_zakonov$ Prikaz",
-  "uk": "$ispolneniya_zakonov$ приказ"
+  "en": "Managing $ispolneniya_zakonov$ prikaz",
+  "uk": "Управління приказом $ispolneniya_zakonov$"
  },
  "ispolneniya_zakonov_desc": {
   "en": "This will let our cabinet focus on the prikaz of judicial matters and law enforcement, optimizing the implementation of legal decisions and sentences, as well as maintaining law and order.",
@@ -2961,7 +2961,7 @@
  },
  "ispolneniya_zakonovy_active_action_title": {
   "en": "Managing $ispolneniya_zakonov$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $ispolneniya_zakonov$"
  },
  "judicial_election": {
   "en": "Judicial Election",
@@ -2981,35 +2981,35 @@
  },
  "kazenny_action": {
   "en": "Managing $kazenny$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $kazenny$"
  },
  "kazenny_action_progress": {
-  "en": "$kazenny$ Prikaz",
-  "uk": "$kazenny$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')]"
  },
  "kazenny_action_progress_long_wordier": {
   "en": "@tax_efficiency! [SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')]\\n @proximity_cost! [SCOPE.sCountry('actor').GetModifierValue('global_distance_from_capital_speed_propagation')]",
-  "uk": ""
+  "uk": "@tax_efficiency! [SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')]\\n @proximity_cost! [SCOPE.sCountry('actor').GetModifierValue('global_distance_from_capital_speed_propagation')]"
  },
  "kazenny_action_progress_tooltip": {
-  "en": "$kazenny$ Prikaz",
-  "uk": "$kazenny$ приказ"
+  "en": "This cabinet action increases [ShowModifierTypeName('tax_income_efficiency')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('tax_income_efficiency')]",
+  "uk": "Ця дія ради збільшує [ShowModifierTypeName('tax_income_efficiency')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('tax_income_efficiency')]"
  },
  "kazenny_action_progress_tooltip_1": {
   "en": "This cabinet action increases [ShowModifierTypeName('global_distance_from_capital_speed_propagation')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_distance_from_capital_speed_propagation')]",
-  "uk": ""
+  "uk": "Ця дія ради збільшує [ShowModifierTypeName('global_distance_from_capital_speed_propagation')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('global_distance_from_capital_speed_propagation')]"
  },
  "kazenny_action_progress_wordier": {
-  "en": "$kazenny$ Prikaz",
-  "uk": "$kazenny$ приказ"
+  "en": "@tax_efficiency!: [SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')] @proximity_cost!: [SCOPE.sCountry('actor').GetModifierValue('global_distance_from_capital_speed_propagation')]",
+  "uk": "@tax_efficiency!: [SCOPE.sCountry('actor').GetModifierValue('tax_income_efficiency')] @proximity_cost!: [SCOPE.sCountry('actor').GetModifierValue('global_distance_from_capital_speed_propagation')]"
  },
  "kazenny_active": {
-  "en": "$kazenny$ Prikaz",
-  "uk": "$kazenny$ приказ"
+  "en": "Managing $kazenny$ prikaz",
+  "uk": "Управління приказом $kazenny$"
  },
  "kazenny_active_action_title": {
   "en": "Managing $kazenny$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $kazenny$"
  },
  "kazenny_desc": {
   "en": "This will let our cabinet focus on the prikaz of the treasury, streamlining the collection of taxes and keeping state expenditures in check.",
@@ -3089,11 +3089,11 @@
  },
  "lat_reintegrate_province": {
   "en": "Reintegrate the [GetCountry('LAT').GetLongNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Реінтегрувати [GetCountry('LAT').GetLongNameWithNoTooltip]"
  },
  "lat_reintegrate_province_action": {
   "en": "Reintegrate [SCOPE.sProvince('target').GetNameWithNoTooltip].",
-  "uk": ""
+  "uk": "Реінтегрувати [SCOPE.sProvince('target').GetNameWithNoTooltip]."
  },
  "lat_reintegrate_province_action_progress": {
   "en": "[Cabinet.GetActionNumProgress|%]",
@@ -3101,7 +3101,7 @@
  },
  "lat_reintegrate_province_action_progress_tooltip": {
   "en": "[integration|e] at #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nIntegration should be done on [SCOPE.sProvince('target').GetIntegrationETA|Y]",
-  "uk": ""
+  "uk": "[Concept('integration','інтеграція')|e] на #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nІнтеграція має завершитися [SCOPE.sProvince('target').GetIntegrationETA|Y]"
  },
  "lat_reintegrate_province_action_progress_wordier": {
   "en": "$lat_reintegrate_province_active$",
@@ -3109,31 +3109,31 @@
  },
  "lat_reintegrate_province_active": {
   "en": "Reintegrating [SCOPE.sProvince('target').GetNameWithHighlightOnly]",
-  "uk": ""
+  "uk": "Реінтеграція [SCOPE.sProvince('target').GetNameWithHighlightOnly]"
  },
  "lat_reintegrate_province_desc": {
   "en": "When we have retaken a [province|e] within [ShowScriptedGeographyName('frankokratia_geography')], we need to [integrate|e] it before it will be a part of our [country|e].",
-  "uk": ""
+  "uk": "Коли ми повертаємо [Concept('province','провінцію')|e] в межах [ShowScriptedGeographyName('frankokratia_geography')], нам потрібно [Concept('integrate','інтегрувати')|e] її, перш ніж вона стане частиною нашої [Concept('country','держави')|e]."
  },
  "lat_reintegrate_province_progress_long_wordier": {
   "en": "@province_integration_speed! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!",
-  "uk": ""
+  "uk": "@province_integration_speed! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!"
  },
  "lat_reintegrate_province_progress_wordier": {
   "en": "[integration|e] will be finished on [SCOPE.sProvince('target').GetIntegrationETA]",
-  "uk": ""
+  "uk": "[Concept('integration','інтеграція')|e] буде завершена [SCOPE.sProvince('target').GetIntegrationETA]"
  },
  "latinization_focus": {
   "en": "Latinitas",
-  "uk": ""
+  "uk": "Латинітас"
  },
  "latinization_vs_hellenization": {
   "en": "$latinization_focus$ vs $hellenization_focus$",
-  "uk": ""
+  "uk": "$latinization_focus$ проти $hellenization_focus$"
  },
  "latinization_vs_hellenization_desc": {
   "en": "A [country|e] embracing $latinization_focus$ looks to the powers of the Latin West—Italian republics, Frankish courts, and the currents of the Renaissance—for support, partnership, and renewal through diplomacy and selective accommodation. One rooted in $hellenization_focus$ holds fast to its unbroken Roman inheritance, upheld by the Orthodox faith, the institutions of the imperial administration, and the enduring tradition of Constantinople.",
-  "uk": ""
+  "uk": "[Concept('country','Держава')|e], що обирає $latinization_focus$, звертається за підтримкою, партнерством і оновленням через дипломатію та вибіркове пристосування до сил Латинського Заходу — італійських республік, франкських дворів і течій Відродження. Та, що тримається $hellenization_focus$, міцно стоїть на своїй незламній римській спадщині, підтримуваній православною вірою, установами імперської адміністрації та вічною традицією Константинополя."
  },
  "legitimacy": {
   "en": "Legitimacy",
@@ -3181,7 +3181,7 @@
  },
  "location_located_in_frankokratia_region": {
   "en": "Is a [conquered|e] [location|e] within [ShowScriptedGeographyName('frankokratia_geography')]",
-  "uk": ""
+  "uk": "Є [Concept('conquered','завойованим')|e] [Concept('location','районом')|e] у межах [ShowScriptedGeographyName('frankokratia_geography')]"
  },
  "lottery_election": {
   "en": "Lottery Election",
@@ -3233,11 +3233,11 @@
  },
  "matrilineal_customary_law_policy": {
   "en": "Matrilineal Customary Law",
-  "uk": ""
+  "uk": "Матрилінійне звичаєве право"
  },
  "matrilineal_customary_law_policy_desc": {
   "en": "Codify the traditional customs of the realm, recognizing inheritance through the female line while allowing [rulers|e] of either gender.",
-  "uk": ""
+  "uk": "Кодифікувати традиційні звичаї царства, визнаючи спадкування по жіночій лінії, дозволяючи при цьому [Concept('rulers','правителям')|e] будь-якої статі."
  },
  "matrilineal_non_exclusive": {
   "en": "Matrilineal Non-Exclusive",
@@ -3361,11 +3361,11 @@
  },
  "mlo_restore_kingdom_lombardy_action_progress_long_wordier": {
   "en": "@restore_lombardy! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!",
-  "uk": ""
+  "uk": "@restore_lombardy! [SCOPE.sProvince('target').GetIntegrationETA] \\n\\n@province_integration_speed! #W [Cabinet.GetActionNumProgress|%]#!"
  },
  "mlo_restore_kingdom_lombardy_action_progress_tooltip": {
   "en": "$mlo_restore_kingdom_lombardy_active$ \\n [integration|e] at #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\n Integration should be done on [SCOPE.sProvince('target').GetIntegrationETA|Y]",
-  "uk": ""
+  "uk": "$mlo_restore_kingdom_lombardy_active$ \\n [Concept('integration','інтеграція')|e] на #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\n Інтеграцію має бути завершено [SCOPE.sProvince('target').GetIntegrationETA|Y]"
  },
  "mlo_restore_kingdom_lombardy_action_progress_wordier": {
   "en": "$mlo_restore_kingdom_lombardy_active$",
@@ -3405,7 +3405,7 @@
  },
  "no_female_heirs_for_poland": {
   "en": "• Heir can NOT be female for [GetCountry('POL').GetName]",
-  "uk": ""
+  "uk": "• Спадкоємець НЕ може бути жінкою для [GetCountry('POL').GetName]"
  },
  "no_parliament": {
   "en": "No Parliament",
@@ -3417,11 +3417,11 @@
  },
  "noblesse_oblige_cabinet_action": {
   "en": "Noblesse Oblige",
-  "uk": ""
+  "uk": "Обов’язок шляхетності"
  },
  "noblesse_oblige_cabinet_action_action": {
   "en": "Increase Control in [SCOPE.sProvince('selected_province').GetName]",
-  "uk": ""
+  "uk": "Збільшити контроль у [SCOPE.sProvince('selected_province').GetName]"
  },
  "noblesse_oblige_cabinet_action_action_progress": {
   "en": "[SCOPE.sProvince('selected_province').GetAverageControl|V%2]",
@@ -3429,7 +3429,7 @@
  },
  "noblesse_oblige_cabinet_action_action_progress_long_wordier": {
   "en": "@monthly_control! [SCOPE.sProvince('selected_province').GetAverageControl|V%2] \\n\\n@max_control! [SCOPE.sProvince('selected_province').GetProvinceLocationModifier('local_max_control')|+=2%]",
-  "uk": ""
+  "uk": "@monthly_control! [SCOPE.sProvince('selected_province').GetAverageControl|V%2] \\n\\n@max_control! [SCOPE.sProvince('selected_province').GetProvinceLocationModifier('local_max_control')|+=2%]"
  },
  "noblesse_oblige_cabinet_action_action_progress_tooltip": {
   "en": "[SCOPE.sProvince('selected_province').GetAverageControlInfo]",
@@ -3437,11 +3437,11 @@
  },
  "noblesse_oblige_cabinet_action_action_progress_wordier": {
   "en": "Average [control|e] of [SCOPE.sProvince('selected_province').GetNameWithNoTooltip]: [SCOPE.sProvince('selected_province').GetAverageControl|V%2]",
-  "uk": ""
+  "uk": "Середній [Concept('control','контроль')|e] [SCOPE.sProvince('selected_province').GetNameWithNoTooltip]: [SCOPE.sProvince('selected_province').GetAverageControl|V%2]"
  },
  "noblesse_oblige_cabinet_action_active": {
   "en": "Increasing Control in [SCOPE.sProvince('selected_province').GetNameWithHighlightOnly]",
-  "uk": ""
+  "uk": "Збільшення контролю в [SCOPE.sProvince('selected_province').GetNameWithHighlightOnly]"
  },
  "noblesse_oblige_cabinet_action_desc": {
   "en": "$increase_control_province_desc$",
@@ -3449,11 +3449,11 @@
  },
  "noblesse_oblige_cabinet_action_select_province": {
   "en": "Select the [province|e] to increase [control|e] in:",
-  "uk": ""
+  "uk": "Виберіть [Concept('province','провінція')|e] для збільшення [Concept('control','контроль')|e] в:"
  },
  "not_while_decrease_bureaucratic_entrenchment_active": {
   "en": "We cannot use this [cabinet_action|e] while [ShowCabinetActionName('decrease_bureaucratic_entrenchment')] is currently active",
-  "uk": ""
+  "uk": "Ми не можемо використати цю [Concept('cabinet_action','дію ради')|e], поки активна [ShowCabinetActionName('decrease_bureaucratic_entrenchment')]"
  },
  "offensive_focus": {
   "en": "Offensive",
@@ -3492,8 +3492,8 @@
   "uk": "Наверняємо загублені душі"
  },
  "office_of_new_converts_desc": {
-  "en": "A [cabinet|e] member is assigned to manage the Office of New Converts, devoted to the conversion of heathen souls. Operating in [ShowLocationName('kazan')], it takes an assertive approach to speed up conversion through any means necessary, sending a powerful and provocative message that all must adhere to the [ShowReligionAdjective('orthodox')] faith.",
-  "uk": "Член [Concept('cabinet','кабінет')|e] призначений для управління Офісом нових новонавернених, присвяченим наверненню язичницьких душ. Діючи в [ShowLocationName('kazan')], він використовує наполегливий підхід для прискорення навернення будь-якими необхідними засобами, надсилаючи потужне і провокаційне послання, що всі повинні дотримуватися [ShowReligionAdjective('orthodox')] віри."
+  "en": "A [cabinet_member|e] is assigned to manage the Office of New Converts, devoted to the conversion of heathen souls. Operating in [ShowLocationName('kazan')], it takes an assertive approach to speed up conversion through any means necessary, sending a powerful and provocative message that all must adhere to the [ShowReligionAdjective('orthodox')] faith.",
+  "uk": "[cabinet_member|e] призначений для управління Новохрещенською конторою, присвяченою наверненню язичницьких душ. Діючи в [ShowLocationName('kazan')], вона використовує наполегливий підхід для прискорення навернення будь-якими необхідними засобами, надсилаючи потужне й провокаційне послання про те, що всі повинні дотримуватися [ShowReligionAdjective('orthodox')] віри."
  },
  "oligarchic_elective": {
   "en": "Oligarchic Elective",
@@ -3645,11 +3645,11 @@
  },
  "peasant_labor_rights_action": {
   "en": "Oversee Labor Rights",
-  "uk": ""
+  "uk": "Наглядати за правами робітників"
  },
  "peasant_labor_rights_action_action": {
   "en": "Oversee Labor Rights",
-  "uk": ""
+  "uk": "Наглядати за правами робітників"
  },
  "peasant_labor_rights_action_action_progress": {
   "en": "[SCOPE.sProvince('target').GetAverageProsperity|%V2]",
@@ -3665,15 +3665,15 @@
  },
  "peasant_labor_rights_action_action_progress_wordier": {
   "en": "Average [prosperity|e] of [SCOPE.sProvince('target').GetNameWithNoTooltip]: [SCOPE.sProvince('target').GetAverageProsperity|%V2]",
-  "uk": ""
+  "uk": "Середній [Concept('prosperity','процвітання')|e] [SCOPE.sProvince('target').GetNameWithNoTooltip]: [SCOPE.sProvince('target').GetAverageProsperity|%V2]"
  },
  "peasant_labor_rights_action_active": {
   "en": "Helping [SCOPE.sProvince('target').GetNameWithHighlightOnly] Propser",
-  "uk": ""
+  "uk": "Допомагаємо [SCOPE.sProvince('target').GetNameWithHighlightOnly] процвітати"
  },
  "peasant_labor_rights_action_desc": {
   "en": "While we ensured the rights of our laborers and farmers, we can only ensure their wellbeing with direct oversight in a [province|e].",
-  "uk": ""
+  "uk": "Хоча ми забезпечили права наших робітників і селян, ми можемо гарантувати їхнє благополуччя лише через безпосередній нагляд у [Concept('province','провінції')|e]."
  },
  "peasant_labor_rights_action_no_provinces": {
   "en": "$no_valid_provinces$",
@@ -3725,19 +3725,19 @@
  },
  "pop_promote_action_action_progress_long_wordier": {
   "en": "@employees! [SCOPE.sProvince('target').GetMissingWorkersRaw]\\n@population! [SCOPE.sCountry('actor').GetDoubleModifierValue('global_pop_promotion_speed','global_pop_promotion_speed_modifier')]",
-  "uk": ""
+  "uk": "@employees! [SCOPE.sProvince('target').GetMissingWorkersRaw]\\n@population! [SCOPE.sCountry('actor').GetDoubleModifierValue('global_pop_promotion_speed','global_pop_promotion_speed_modifier')]"
  },
  "pop_promote_action_action_progress_tooltip": {
   "en": "Urbanization of @province! [SCOPE.sProvince('target').GetName]:\\n@local_pop_promotion_speed_positive! [Localize('MODIFIER_TYPE_NAME_local_pop_promotion_speed')]: [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect]\\nMissing employees: [SCOPE.sProvince('target').GetMissingWorkersRaw]@employees!",
-  "uk": ""
+  "uk": "Урбанізація @province! [SCOPE.sProvince('target').GetName]:\\n@local_pop_promotion_speed_positive! [Localize('MODIFIER_TYPE_NAME_local_pop_promotion_speed')]: [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect]\\nБракує працівників: [SCOPE.sProvince('target').GetMissingWorkersRaw]@employees!"
  },
  "pop_promote_action_action_progress_wordier": {
   "en": "@employees! [SCOPE.sProvince('target').GetMissingWorkersRaw]",
   "uk": "@employees! [SCOPE.sProvince('target').GetMissingWorkersRaw]"
  },
  "pop_promote_action_active": {
-  "en": "Encouraging Urbanization",
-  "uk": "Заохочення урбанізації"
+  "en": "Urbanizing [SCOPE.sProvince('target').GetNameWithHighlightOnly]",
+  "uk": "Урбанізація [SCOPE.sProvince('target').GetNameWithHighlightOnly]"
  },
  "pop_promote_action_desc": {
   "en": "This will make our [population|e] to be [promoted|e] more quickly.",
@@ -3749,35 +3749,35 @@
  },
  "posolsky_action": {
   "en": "Managing $posolsky$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $posolsky$"
  },
  "posolsky_action_progress": {
-  "en": "$posolsky$ Prikaz",
-  "uk": "$posolsky$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]"
  },
  "posolsky_action_progress_long_wordier": {
   "en": "@diplomatic_reputation! [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')]\\n@annexation_speed! [SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]",
-  "uk": ""
+  "uk": "@diplomatic_reputation! [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')]\\n@annexation_speed! [SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]"
  },
  "posolsky_action_progress_tooltip": {
-  "en": "$posolsky$ Prikaz",
-  "uk": "$posolsky$ приказ"
+  "en": "Improves $MODIFIER_TYPE_NAME_diplomatic_reputation$\\n[SCOPE.sCountry('actor').GetDescriptionFor('diplomatic_reputation')]",
+  "uk": "Покращує $MODIFIER_TYPE_NAME_diplomatic_reputation$\\n[SCOPE.sCountry('actor').GetDescriptionFor('diplomatic_reputation')]"
  },
  "posolsky_action_progress_tooltip_1": {
   "en": "Improves $MODIFIER_TYPE_NAME_annexation_speed_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('annexation_speed_modifier')]",
-  "uk": ""
+  "uk": "Покращує $MODIFIER_TYPE_NAME_annexation_speed_modifier$\\n[SCOPE.sCountry('actor').GetDescriptionFor('annexation_speed_modifier')]"
  },
  "posolsky_action_progress_wordier": {
-  "en": "$posolsky$ Prikaz",
-  "uk": "$posolsky$ приказ"
+  "en": "[diplomatic_reputation|e]: [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] [annexation|e]: [SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]",
+  "uk": "[diplomatic_reputation|e]: [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] [annexation|e]: [SCOPE.sCountry('actor').GetModifierValue('annexation_speed_modifier')]"
  },
  "posolsky_active": {
-  "en": "$posolsky$ Prikaz",
-  "uk": "$posolsky$ приказ"
+  "en": "Managing $posolsky$ prikaz",
+  "uk": "Управління приказом $posolsky$"
  },
  "posolsky_active_action_title": {
   "en": "Managing $posolsky$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $posolsky$"
  },
  "posolsky_desc": {
   "en": "This will let our cabinet focus on the prikaz of foreign affairs, improving the integration of subjects and ensuring good relations with other [countries|e].",
@@ -3797,7 +3797,7 @@
  },
  "promote_culture_action_progress_long_wordier": {
   "en": "@culture! [SCOPE.sProvince('target_1').GetCulturePercentage(SCOPE.sCulture('target'))|V2%] \\n\\n@pop_assimilation_speed! [SCOPE.sProvince('target_1').GetProvinceLocationModifier('local_pop_assimilation_speed')|+=2]",
-  "uk": ""
+  "uk": "@culture! [SCOPE.sProvince('target_1').GetCulturePercentage(SCOPE.sCulture('target'))|V2%] \\n\\n@pop_assimilation_speed! [SCOPE.sProvince('target_1').GetProvinceLocationModifier('local_pop_assimilation_speed')|+=2]"
  },
  "promote_culture_action_progress_tooltip": {
   "en": "Assimilating into [SCOPE.sCulture('target').GetName] in @province! [SCOPE.sProvince('target_1').GetName]:\\n[SCOPE.sProvince('target_1').GetCulturalInfo]",
@@ -3820,8 +3820,8 @@
   "uk": "Виберіть [Concept('culture','культура')|e] для спрямування до:"
  },
  "promote_culture_select_province": {
-  "en": "Select the [province|e] to promote [culture|e] to:",
-  "uk": "Виберіть [Concept('province','провінція')|e] для просування [Concept('culture','культура')|e] до:"
+  "en": "Select the [province|e] to assimilate [pops|e] into our [culture|e]:",
+  "uk": "Виберіть [Concept('province','провінцію')|e], у якій асимілювати [Concept('pops','групи населення')|e] до нашої [Concept('culture','культури')|e]:"
  },
  "promote_religion": {
   "en": "Convert Province",
@@ -3837,11 +3837,11 @@
  },
  "promote_religion_action_progress_long_wordier": {
   "en": "@religious_unity! [SCOPE.sProvince('target_province').GetReligionPercentage(SCOPE.sReligion('target_religion'))|V2%] \\n\\n@pop_assimilation_speed! [SCOPE.sProvince('target_province').GetProvinceLocationModifier('local_pop_conversion_speed')|+=2]",
-  "uk": ""
+  "uk": "@religious_unity! [SCOPE.sProvince('target_province').GetReligionPercentage(SCOPE.sReligion('target_religion'))|V2%] \\n\\n@pop_assimilation_speed! [SCOPE.sProvince('target_province').GetProvinceLocationModifier('local_pop_conversion_speed')|+=2]"
  },
  "promote_religion_action_progress_tooltip": {
   "en": "Converting to [SCOPE.sReligion('target_religion').GetName] in @province! [SCOPE.sProvince('target_province').GetName]:\\n[SCOPE.sProvince('target_province').GetReligionInfo]",
-  "uk": ""
+  "uk": "Навернення до [SCOPE.sReligion('target_religion').GetName] у @province! [SCOPE.sProvince('target_province').GetName]:\\n[SCOPE.sProvince('target_province').GetReligionInfo]"
  },
  "promote_religion_action_progress_wordier": {
   "en": "[religious_unity|e] of [SCOPE.sProvince('target_province').GetNameWithNoTooltip] is [SCOPE.sProvince('target_province').GetReligionPercentage(SCOPE.sReligion('target_religion'))|V2%]",
@@ -3852,8 +3852,8 @@
   "uk": "Навернення [SCOPE.sProvince('target_province').GetNameWithHighlightOnly]"
  },
  "promote_religion_desc": {
-  "en": "This will increase the amount of [pops|e] that will [convert|e] to the selected [religion|e] each month.",
-  "uk": "Це збільшить кількість [Concept('pops','населення')|e], які [Concept('convert','навернути')|e] до вибраної [Concept('religion','релігія')|e] кожного місяця."
+  "en": "This will increase the amount of [pops|e] that will [convert|e] to the selected [religion|e] each month.\\n\\nOnly the country's [primary_religion|e] and religions within the same [religion_group|e] that have at least 1% presence in the country may be selected.",
+  "uk": "Це збільшить кількість [Concept('pops','груп населення')|e], які [Concept('convert','навернуться')|e] до вибраної [Concept('religion','релігії')|e] кожного місяця.\\n\\nМожна вибрати лише [Concept('primary_religion','основну релігію')|e] держави та релігії з тієї самої [Concept('religion_group','релігійної групи')|e], що мають щонайменше 1% присутності в державі."
  },
  "promote_religion_select_province": {
   "en": "Select the [province|e] to [convert|e] [pops|e] in:",
@@ -3865,11 +3865,11 @@
  },
  "promote_religious_reformation": {
   "en": "Promote [ShowReligionAdjectiveWithNoTooltip('nahuatl')] Reformation",
-  "uk": ""
+  "uk": "Просувати [ShowReligionAdjectiveWithNoTooltip('nahuatl')] Реформацію"
  },
  "promote_religious_reformation_action": {
   "en": "Promoting [ShowReligionAdjectiveWithNoTooltip('nahuatl')] Reformation",
-  "uk": ""
+  "uk": "Просування [ShowReligionAdjectiveWithNoTooltip('nahuatl')] Реформації"
  },
  "promote_religious_reformation_action_progress": {
   "en": "",
@@ -3877,11 +3877,11 @@
  },
  "promote_religious_reformation_action_progress_tooltip": {
   "en": "This cabinet action increases [ShowModifierTypeName('monthly_nahualt_reform_progress')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_nahualt_reform_progress')]",
-  "uk": ""
+  "uk": "Ця дія ради збільшує [ShowModifierTypeName('monthly_nahualt_reform_progress')]:\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_nahualt_reform_progress')]"
  },
  "promote_religious_reformation_action_progress_wordier": {
   "en": "Working to promote religious reformation",
-  "uk": ""
+  "uk": "Робота над просуванням релігійної реформації"
  },
  "promote_religious_reformation_active": {
   "en": "$promote_religious_reformation_action$",
@@ -3889,7 +3889,7 @@
  },
  "promote_religious_reformation_desc": {
   "en": "Faith is the beating heart of our people and the sacred bond between our rulers, our gods, and the world. New teachings must be guided with care, so they do not fracture the balance that sustains our lands and our destiny. By appointing a trusted voice of the court to oversee this sacred work, we will hasten the reform and ensure it brings strength instead of unnecesary unrest.",
-  "uk": ""
+  "uk": "Віра — це серце, що б’ється в грудях нашого народу, і священний зв’язок між нашими правителями, нашими богами і світом. Нові вчення слід спрямовувати обережно, щоб не порушити рівновагу, яка підтримує наші землі та нашу долю. Призначивши довірену особу двору наглядати за цією священною справою, ми прискоримо реформу і забезпечимо, щоб вона принесла силу, а не зайві заворушення."
  },
  "pru_deal_with_robber_barons": {
   "en": "Deal With the Robber Barons",
@@ -3900,12 +3900,12 @@
   "uk": "Впоратися з баронами-розбійниками"
  },
  "pru_deal_with_robber_barons_action_progress": {
-  "en": "Dealing with the Robber Barons",
-  "uk": "Впораємося з баронами-розбійниками"
+  "en": "[SCOPE.sCabinet('cabinet').GetDaysUntilFullyImplementedInDays]",
+  "uk": "[SCOPE.sCabinet('cabinet').GetDaysUntilFullyImplementedInDays]"
  },
  "pru_deal_with_robber_barons_action_progress_tooltip": {
-  "en": "Dealing with the Robber Barons",
-  "uk": "Впораємося з баронами-розбійниками"
+  "en": "Dealing with the Robber Barons at #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nShould be done in [SCOPE.sCabinet('cabinet').GetDaysUntilFullyImplementedInDays], on [SCOPE.sCabinet('cabinet').GetFullyImplementedDateString]",
+  "uk": "Впораємося з баронами-розбійниками на #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\\nМає завершитися через [SCOPE.sCabinet('cabinet').GetDaysUntilFullyImplementedInDays] днів, [SCOPE.sCabinet('cabinet').GetFullyImplementedDateString]"
  },
  "pru_deal_with_robber_barons_action_progress_tooltip_1": {
   "en": "[SCOPE.sCabinet('cabinet').GetAction().GetModifiers()]",
@@ -3916,12 +3916,12 @@
   "uk": "Впораємося з баронами-розбійниками"
  },
  "pru_deal_with_robber_barons_active": {
-  "en": "Dealing with the Robber Barons",
-  "uk": "Впораємося з баронами-розбійниками"
+  "en": "Dealing with the Robber Barons in [SCOPE.sProvince('target').GetNameWithNoTooltip]",
+  "uk": "Впораємося з баронами-розбійниками в [SCOPE.sProvince('target').GetNameWithNoTooltip]"
  },
  "pru_deal_with_robber_barons_desc": {
-  "en": "The local robber barons are a threat to our hold over the province and to our prestige even more. We must get rid of them for the good of our splendor! And perhaps for the good of the local peasantry, too.",
-  "uk": "Місцеві барони-розбійники є загрозою нашому контролю над провінцією і ще більше нашому престижу. Ми повинні позбутися їх заради нашої слави! І, можливо, заради місцевого селянства теж."
+  "en": "The local Robber Barons are a threat to our hold over the province and to our prestige even more. We must get rid of them for the good of our splendor! And perhaps for the good of the local peasantry, too.",
+  "uk": "Місцеві барони-розбійники — загроза нашій владі над провінцією, а ще більше — нашому престижу. Ми повинні позбутися їх заради нашої слави! А можливо, і заради місцевого селянства теж."
  },
  "quality_focus": {
   "en": "Quality",
@@ -3945,35 +3945,35 @@
  },
  "razryadny_action": {
   "en": "Managing $razryadny$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $razryadny$"
  },
  "razryadny_action_progress": {
-  "en": "$razryadny$ Prikaz",
-  "uk": "$razryadny$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')]"
  },
  "razryadny_action_progress_long_wordier": {
   "en": "@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')]\\n @supply_depot_capacity! [SCOPE.sCountry('actor').GetModifierValue('supply_depot_capacity')]",
-  "uk": ""
+  "uk": "@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')]\\n @supply_depot_capacity! [SCOPE.sCountry('actor').GetModifierValue('supply_depot_capacity')]"
  },
  "razryadny_action_progress_tooltip": {
-  "en": "$razryadny$ Prikaz",
-  "uk": "$razryadny$ приказ"
+  "en": "Reduces $MODIFIER_TYPE_NAME_army_tradition_decay$\\n[SCOPE.sCountry('actor').GetDescriptionFor('army_tradition_decay')]",
+  "uk": "Зменшує $MODIFIER_TYPE_NAME_army_tradition_decay$\\n[SCOPE.sCountry('actor').GetDescriptionFor('army_tradition_decay')]"
  },
  "razryadny_action_progress_tooltip_1": {
   "en": "Improves $MODIFIER_TYPE_NAME_supply_depot_capacity$\\n[SCOPE.sCountry('actor').GetDescriptionFor('supply_depot_capacity')]",
-  "uk": ""
+  "uk": "Покращує $MODIFIER_TYPE_NAME_supply_depot_capacity$\\n[SCOPE.sCountry('actor').GetDescriptionFor('supply_depot_capacity')]"
  },
  "razryadny_action_progress_wordier": {
-  "en": "$razryadny$ Prikaz",
-  "uk": "$razryadny$ приказ"
+  "en": "[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')] [supply_depot|e]: [SCOPE.sCountry('actor').GetModifierValue('supply_depot_capacity')]",
+  "uk": "[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('army_tradition_decay')] [supply_depot|e]: [SCOPE.sCountry('actor').GetModifierValue('supply_depot_capacity')]"
  },
  "razryadny_active": {
-  "en": "$razryadny$ Prikaz",
-  "uk": "$razryadny$ приказ"
+  "en": "Managing $razryadny$ prikaz",
+  "uk": "Управління приказом $razryadny$"
  },
  "razryadny_active_action_title": {
   "en": "Managing $razryadny$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $razryadny$"
  },
  "razryadny_desc": {
   "en": "This will let our cabinet focus on the prikaz of military affairs, overseeing the distribution of military supplies and weapons, and overseeing the recruitment and organization of the [army|e].",
@@ -4024,8 +4024,8 @@
   "uk": "Зусилля відновлення"
  },
  "recovery_effort_action": {
-  "en": "Help [SCOPE.sProvince('target').GetName] Recover.\\n\\n[SCOPE.sProvince('target').GetAverageProsperityInfo]",
-  "uk": "Допомогти [SCOPE.sProvince('target').GetName] відновитися.\\n\\n[SCOPE.sProvince('target').GetAverageProsperityInfo]"
+  "en": "Help [SCOPE.sProvince('target').GetName] Recover",
+  "uk": "Допомогти [SCOPE.sProvince('target').GetName] відновитися"
  },
  "recovery_effort_action_progress": {
   "en": "[SCOPE.sProvince('target').GetAverageProsperity|%V2]",
@@ -4101,11 +4101,11 @@
  },
  "reduce_war_exhaustion_action_progress_long_wordier": {
   "en": "@war_exhaustion! [SCOPE.sCountry('actor').GetFixedPointCurrencyValue('war_exhaustion')|R] \\n\\n@war_exhaustion! [Cabinet.GetEffectiveSkillOnlyEffect]",
-  "uk": ""
+  "uk": "@war_exhaustion! [SCOPE.sCountry('actor').GetFixedPointCurrencyValue('war_exhaustion')|R] \\n\\n@war_exhaustion! [Cabinet.GetEffectiveSkillOnlyEffect]"
  },
  "reduce_war_exhaustion_action_progress_tooltip": {
   "en": "$war_exhaustion$: [SCOPE.sCountry('actor').GetFixedPointCurrencyValue('war_exhaustion')|R] \\n $reduce_war_exhaustion_action$: [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect]",
-  "uk": ""
+  "uk": "$war_exhaustion$: [SCOPE.sCountry('actor').GetFixedPointCurrencyValue('war_exhaustion')|R] \\n $reduce_war_exhaustion_action$: [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect]"
  },
  "reduce_war_exhaustion_action_progress_wordier": {
   "en": "$reduce_war_exhaustion_action$",
@@ -4297,11 +4297,11 @@
  },
  "send_people_to_the_colonies_action_progress_tooltip": {
   "en": "[SCOPE.sProvince('target').GetTotalPopulationInfo]\\n[SCOPE.sProvince('target_2').GetTotalPopulationInfo]",
-  "uk": ""
+  "uk": "[SCOPE.sProvince('target').GetTotalPopulationInfo]\\n[SCOPE.sProvince('target_2').GetTotalPopulationInfo]"
  },
  "send_people_to_the_colonies_action_progress_wordier": {
   "en": "send_people_to_the_colonies_action",
-  "uk": ""
+  "uk": "Відправити людей до колоній"
  },
  "send_people_to_the_colonies_active": {
   "en": "Sending [pops|e] from [SCOPE.sProvince('target').GetName] to [SCOPE.sProvince('target_2').GetName]",
@@ -4425,7 +4425,7 @@
  },
  "settle_the_frontier_no_provinces": {
   "en": "@trigger_no! We cannot find anywhere suitable to push into. A target must be:\\nNot already being colonized by us or at least 3 other countries;\\nHave liveable locations;\\nBe discovered;\\nBe adjacent to us or one of our subjects, or within range.",
-  "uk": ""
+  "uk": "@trigger_no! Ми не можемо знайти відповідне місце для просування. Ціль має:\\nЩе не колонізуватися нами чи щонайменше 3 іншими державами;\\nМати придатні для життя райони;\\nБути відкритою;\\nБути суміжною з нами чи одним із наших васалів, або в межах досяжності."
  },
  "settle_the_frontier_select_character": {
   "en": "Select [character|e] to send off:",
@@ -4437,7 +4437,7 @@
  },
  "settle_the_frontier_select_province_none": {
   "en": "@trigger_no! None of our [provinces|e] along our border next to any target Province meet the following criteria:",
-  "uk": ""
+  "uk": "@trigger_no! Жодна з наших [Concept('provinces','провінцій')|e] уздовж кордону поруч із цільовою провінцією не відповідає таким критеріям:"
  },
  "settle_the_frontier_specific_tt": {
   "en": "We enable [events|e] for the period of the next #Y 10 years#! which describe the process of settling [SCOPE.sProvinceDefinition('target').GetName]",
@@ -4609,7 +4609,7 @@
  },
  "stabilize_country_action_progress_tooltip": {
   "en": "Gives [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect] @stability! [stability|e] each month resulting in a total change of [SCOPE.sCountry('actor').GetCurrencyBalance('stability')|+=2].\\nIt would take us #W [SCOPE.sCountry('actor').GetCurrencyMonthsToMax('stability')]#! months to reach the maximum.",
-  "uk": ""
+  "uk": "Дає [SCOPE.sCabinet('cabinet').GetEffectiveSkillOnlyEffect] @stability! [Concept('stability','стабільності')|e] щомісяця, що загалом становить зміну [SCOPE.sCountry('actor').GetCurrencyBalance('stability')|+=2].\\nНам знадобиться #W [SCOPE.sCountry('actor').GetCurrencyMonthsToMax('stability')]#! місяців, щоб досягти максимуму."
  },
  "stabilize_country_action_progress_wordier": {
   "en": "[stability|e]: [SCOPE.sCountry('actor').GetCurrencyValue('stability')|2%]",
@@ -4629,35 +4629,35 @@
  },
  "streltsy_action": {
   "en": "Managing $streltsy$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $streltsy$"
  },
  "streltsy_action_progress": {
-  "en": "$streltsy$ Prikaz",
-  "uk": "$streltsy$ приказ"
+  "en": "[SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]",
+  "uk": "[SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]"
  },
  "streltsy_action_progress_long_wordier": {
   "en": "@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]\\n      @spy_network! [SCOPE.sCountry('actor').GetModifierValue('counter_espionage')]",
-  "uk": ""
+  "uk": "@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]\\n      @spy_network! [SCOPE.sCountry('actor').GetModifierValue('counter_espionage')]"
  },
  "streltsy_action_progress_tooltip": {
-  "en": "$streltsy$ Prikaz",
-  "uk": "$streltsy$ приказ"
+  "en": "Increases $MODIFIER_TYPE_NAME_monthly_army_tradition$\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_army_tradition')]",
+  "uk": "Збільшує $MODIFIER_TYPE_NAME_monthly_army_tradition$\\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_army_tradition')]"
  },
  "streltsy_action_progress_tooltip_1": {
   "en": "Improves $MODIFIER_TYPE_NAME_counter_espionage$\\n[SCOPE.sCountry('actor').GetDescriptionFor('counter_espionage')]",
-  "uk": ""
+  "uk": "Покращує $MODIFIER_TYPE_NAME_counter_espionage$\\n[SCOPE.sCountry('actor').GetDescriptionFor('counter_espionage')]"
  },
  "streltsy_action_progress_wordier": {
-  "en": "$streltsy$ Prikaz",
-  "uk": "$streltsy$ приказ"
+  "en": "[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')] @spy_network!: [SCOPE.sCountry('actor').GetModifierValue('counter_espionage')]",
+  "uk": "[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')] @spy_network!: [SCOPE.sCountry('actor').GetModifierValue('counter_espionage')]"
  },
  "streltsy_active": {
-  "en": "$streltsy$ Prikaz",
-  "uk": "$streltsy$ приказ"
+  "en": "Managing $streltsy$ prikaz",
+  "uk": "Управління приказом $streltsy$"
  },
  "streltsy_active_action_title": {
   "en": "Managing $streltsy$ prikaz",
-  "uk": ""
+  "uk": "Управління приказом $streltsy$"
  },
  "streltsy_desc": {
   "en": "This will let our cabinet focus on the prikaz of musketeers, which includes overseeing their recruitment, training, organization, and their responsibilities for internal security and law enforcement.",
@@ -4681,7 +4681,7 @@
  },
  "strengthen_government_action_progress_tooltip": {
   "en": "Gives [SCOPE.sCabinet('cabinet').GetGovernmentPowerMonthlyModifier|+=2] @[SCOPE.sCountry('actor').GetGovernmentPowerKey]! [SCOPE.sCountry('actor').GetGovernmentPowerConcept] each month resulting in a total change of [SCOPE.sCountry('actor').GetCurrencyBalance('government_power')|+=2].\\nIt would take us #W [SCOPE.sCountry('actor').GetCurrencyMonthsToMax('government_power')]#! months to reach the maximum.",
-  "uk": ""
+  "uk": "Дає [SCOPE.sCabinet('cabinet').GetGovernmentPowerMonthlyModifier|+=2] @[SCOPE.sCountry('actor').GetGovernmentPowerKey]! [SCOPE.sCountry('actor').GetGovernmentPowerConcept] щомісяця, що загалом становить зміну [SCOPE.sCountry('actor').GetCurrencyBalance('government_power')|+=2].\\nНам знадобиться #W [SCOPE.sCountry('actor').GetCurrencyMonthsToMax('government_power')]#! місяців, щоб досягти максимуму."
  },
  "strengthen_government_action_progress_wordier": {
   "en": "[government_power|e]: [SCOPE.sCountry('actor').GetCurrencyValue('government_power')|2%]",
@@ -4724,12 +4724,12 @@
   "uk": "Наявність члена династії Строганових, призначеного до кабінету, дозволяє нам спрямовувати багатство, владу та історичні зв'язки родини із соляною промисловістю для значних переваг."
  },
  "study_institutions": {
-  "en": "Promote Institutions",
-  "uk": "Просувати інституції"
+  "en": "Foster Institutions",
+  "uk": "Просувати інститути"
  },
  "study_institutions_action": {
-  "en": "Promote Institutions in [SCOPE.sProvince('target').GetNameWithNoTooltip]",
-  "uk": "Просувати інституції в [SCOPE.sProvince('target').GetNameWithNoTooltip]"
+  "en": "Foster Institutions in [SCOPE.sProvince('target').GetNameWithNoTooltip]",
+  "uk": "Просувати інститути в [SCOPE.sProvince('target').GetNameWithNoTooltip]"
  },
  "study_institutions_action_progress": {
   "en": "[SCOPE.sProvince('target').GetInstitutionProgress]",
@@ -4748,16 +4748,16 @@
   "uk": "[SCOPE.sProvince('target').GetInstitutionSummary]"
  },
  "study_institutions_active": {
-  "en": "Promoting Institutions in [SCOPE.sProvince('target').GetNameWithHighlightOnly]",
-  "uk": "Просування інституцій у [SCOPE.sProvince('target').GetNameWithHighlightOnly]"
+  "en": "Fostering Institutions in [SCOPE.sProvince('target').GetNameWithHighlightOnly]",
+  "uk": "Просування інститутів у [SCOPE.sProvince('target').GetNameWithHighlightOnly]"
  },
  "study_institutions_desc": {
-  "en": "This will attempt to promote an [institution|e] in the selected [province|e]. This is the primary way to get institutions to spread quicker in our [country|e].",
-  "uk": "Це спробує просунути [Concept('institution','інститут')|e] у вибраній [Concept('province','провінція')|e]. Це основний спосіб змусити інституції поширюватися швидше в нашій [Concept('country','країна')|e]."
+  "en": "This focuses our cabinet on speeding the spread of an [institution|e] that is already reaching the selected [province|e] through trade, neighboring lands, or our market. It hastens adoption where an institution has begun to take root, but cannot conjure one in a [province|e] it has yet to reach.",
+  "uk": "Це спрямовує нашу раду на прискорення поширення [Concept('institution','інституту')|e], який уже досягає вибраної [Concept('province','провінції')|e] через торгівлю, сусідні землі чи наш ринок. Це прискорює впровадження там, де інститут уже почав укорінюватися, але не може створити його в [Concept('province','провінції')|e], якої він ще не досяг."
  },
  "study_institutions_select_province": {
-  "en": "Select the [province|e] to promote [institution|e] in:",
-  "uk": "Виберіть [Concept('province','провінція')|e] для просування [Concept('institution','інститут')|e] в:"
+  "en": "Select the [province|e] in which to foster [institution|e] spread",
+  "uk": "Виберіть [Concept('province','провінцію')|e], у якій сприяти поширенню [Concept('institution','інституту')|e]"
  },
  "support_patriarchate": {
   "en": "Support Patriarchate",
@@ -4793,7 +4793,7 @@
  },
  "supported_heirs_rule": {
   "en": "• Characters must be supported by a foreign country using [ShowRelationTypeName('support_heir')] or is favored by us through [ShowCharacterInteractionName('favor_heir')]",
-  "uk": ""
+  "uk": "• Персонажів має підтримувати чужа держава через [ShowRelationTypeName('support_heir')] або вони мають нашу прихильність через [ShowCharacterInteractionName('favor_heir')]"
  },
  "swe_slash_and_burn_new_farms": {
   "en": "Support New Farms in North or East",
@@ -4909,11 +4909,11 @@
  },
  "tyranny_of_the_capital_action": {
   "en": "Align Estate",
-  "uk": ""
+  "uk": "Вирівняти стан"
  },
  "tyranny_of_the_capital_action_action": {
   "en": "Align Estates",
-  "uk": ""
+  "uk": "Вирівняти стани"
  },
  "tyranny_of_the_capital_action_action_progress": {
   "en": "[SCOPE.sEstate('target').GetSatisfaction|2%]",
@@ -4921,31 +4921,31 @@
  },
  "tyranny_of_the_capital_action_action_progress_long_wordier": {
   "en": "[estate_satisfaction|e] of [SCOPE.sEstate('target').GetName] is [SCOPE.sEstate('target').GetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[estate_satisfaction|e] [SCOPE.sEstate('target').GetName] становить [SCOPE.sEstate('target').GetSatisfaction|2%]"
  },
  "tyranny_of_the_capital_action_action_progress_tooltip": {
   "en": "The [SCOPE.sEstate('target').GetName] [estate|e] currently has [SCOPE.sEstate('target').GetSatisfaction|2%] [estate_satisfaction|e] with a target of [SCOPE.sEstate('target').GetTargetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[SCOPE.sEstate('target').GetName] [Concept('estate','стан')|e] наразі має [SCOPE.sEstate('target').GetSatisfaction|2%] [estate_satisfaction|e] із цільовим показником [SCOPE.sEstate('target').GetTargetSatisfaction|2%]"
  },
  "tyranny_of_the_capital_action_action_progress_wordier": {
   "en": "[estate_satisfaction|e] is [SCOPE.sEstate('target').GetSatisfaction|2%]",
-  "uk": ""
+  "uk": "[estate_satisfaction|e] становить [SCOPE.sEstate('target').GetSatisfaction|2%]"
  },
  "tyranny_of_the_capital_action_active": {
   "en": "Aligning Estates",
-  "uk": ""
+  "uk": "Вирівнювання станів"
  },
  "tyranny_of_the_capital_action_desc": {
   "en": "This will increase the [estate|e]'s [estate_satisfaction|e].",
-  "uk": ""
+  "uk": "Це збільшить [estate_satisfaction|e] [Concept('estate','стану')|e]."
  },
  "tyranny_of_the_capital_action_tt": {
   "en": "The chosen Estate will receive a reduction in their Rebel Growth",
-  "uk": ""
+  "uk": "Обраний стан отримає зниження зростання своїх повстанців"
  },
  "tyranny_of_the_capital_rebel_growth_tt": {
   "en": "[rebels|e] associated with the [estate|e] will receive a reduction in their growth.",
-  "uk": ""
+  "uk": "[Concept('rebels','Повстанці')|e], пов’язані зі [Concept('estate','станом')|e], отримають зниження свого зростання."
  },
  "unigeniture": {
   "en": "Unigeniture",

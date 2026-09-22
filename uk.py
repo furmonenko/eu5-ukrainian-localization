@@ -75,7 +75,7 @@ def translation_files():
 
 # ---------------------------------------------------------------- yml parsing
 
-_LINE_RE = re.compile(r'^\s*(?P<key>[A-Za-z0-9_.\-]+):\d*\s*"(?P<text>.*)"\s*$')
+_LINE_RE = re.compile(r'^\s*(?P<key>[A-Za-z0-9_.\-]+):\d*\s*"(?P<text>.*)"\s*(?:#[^"]*)?$')
 
 
 def parse_yml(text):

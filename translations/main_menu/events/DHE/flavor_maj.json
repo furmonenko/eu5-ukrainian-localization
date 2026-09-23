@@ -1,7 +1,7 @@
 {
  "MAJ_we_will_play_as_malacca": {
-  "en": "We will continue playing as [ShowFormableCountryName('MLC_f')].",
-  "uk": "Ми продовжимо грати за #TOOLTIP:FORMABLE_COUNTRY,MLC_f,X #L Малакку#!#!."
+  "en": "We will abandon playing as [ROOT.GetCountry.GetName] and will continue playing as newly released [ShowFormableCountryName('MLC_f')].",
+  "uk": "Ми покинемо гру за [ROOT.GetCountry.GetName] і продовжимо грати за щойно звільнену [ShowFormableCountryName('MLC_f')]."
  },
  "demak_progress_at_least_20": {
   "en": "Sunni Dominance is at least #r 20.0%#!",
@@ -184,12 +184,12 @@
   "uk": "Східна кампанія"
  },
  "flavor_maj.16.a": {
-  "en": "They are welcome in [ROOT.GetCountry.GetNameWithNoTooltip]",
-  "uk": "Жителі [ROOT.GetCountry.Custom('CL_GEN')] їм будуть раді."
+  "en": "They are welcome in [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Жителі #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! будуть їм раді."
  },
  "flavor_maj.16.a.entry": {
   "en": "They are welcome in our country.",
-  "uk": ""
+  "uk": "Ми раді бачити їх у нашій державі."
  },
  "flavor_maj.16.b": {
   "en": "We must stop this.",
@@ -201,7 +201,7 @@
  },
  "flavor_maj.16.entry": {
   "en": "Landfall of Islam",
-  "uk": ""
+  "uk": "Прихід ісламу"
  },
  "flavor_maj.16.title": {
   "en": "Landfall of [target_religion.GetGroup.GetNameWithNoTooltip]",
@@ -212,12 +212,12 @@
   "uk": "Турбуватися нема про що."
  },
  "flavor_maj.17.desc": {
-  "en": "A truly exceptional character has made [target_character.GetHisHer] way to our country. [target_character.GetName], as [target_character.GetSheHe] is known, is a [target_religion.GetAdjective] preacher from all the way in [birth_location.GetArea.GetName]. Before arriving in [ROOT.GetCountry.GetName], [target_character.GetShortNameWithNoTooltip] was also proselytizing in [ShowAreaName('champa_area')] and has now moved onto building a new [target_religion.GetGroup.GetAdjective] community in our [ROOT.GetCountry.GetFlavorRank].",
-  "uk": "До нашої держави прибула справді видатна людина. [Select_CString(target_character.IsFemale, 'Її', 'Його')] звати [target_character.GetName], і [Select_CString(target_character.IsFemale, 'вона — проповідниця', 'він — проповідник')] #L [target_religion.GetAdjective|l]ої#! віри з далекої області [birth_location.GetArea.GetName]. До прибуття на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! [target_character.GetShortNameWithNoTooltip] також [Select_CString(target_character.IsFemale, 'проповідувала', 'проповідував')] в #TOOLTIP:AREA,champa_area,X #L Тямпі#!#! і тепер [Select_CString(target_character.IsFemale, 'має намір', 'має намір')] створити нову #L [target_religion.GetGroup.GetAdjective|l]у#! громаду на території [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  "en": "A truly exceptional character has made his way to our country. [target_character.GetName], as he is known, is a [target_religion.GetAdjective] preacher from all the way in [birth_location.GetArea.GetName]. Before arriving in [ROOT.GetCountry.GetName], [target_character.GetShortNameWithNoTooltip] was also proselytizing in [ShowAreaName('champa_area')] and has now moved onto building a new [target_religion.GetGroup.GetAdjective] community in our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "До нашої держави прибула справді видатна людина. Його звати [target_character.GetName], і він — [target_religion.GetAdjective] проповідник, що прийшов аж із далекої області [birth_location.GetArea.GetName]. До прибуття в [ROOT.GetCountry.Custom('CL_PREP')] [target_character.GetShortNameWithNoTooltip] також проповідував у #TOOLTIP:AREA,champa_area,X #L Тямпі#!#!, а тепер узявся будувати нову [target_religion.GetGroup.GetAdjective] громаду в нашій державі — [ROOT.GetCountry.GetFlavorRank]."
  },
  "flavor_maj.17.entry": {
   "en": "Malik Ibrahim, the Muslim Preacher",
-  "uk": ""
+  "uk": "Малік Ібрахім, мусульманський проповідник"
  },
  "flavor_maj.17.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -244,48 +244,48 @@
   "uk": "Ми цього не потерпимо."
  },
  "flavor_maj.19.desc": {
-  "en": "A certain [target_religion.GetAdjective] preacher has become active in the [ROOT.GetCountry.GetLongName]. [target_character.GetHerHis|U] name is [target_character.GetName] and [target_character.GetSheHe] has managed to gain a large following to the extent that [target_character.GetSheHe] had a [target_religion.GetAdjectiveWithNoTooltip] school founded to facilitate [target_character.GetHerHis] conversion work. [target_character.GetSheHe|U] is a highly respected member and has become identified one of the leaders of the [target_religion.GetGroup.GetAdjectiveWithNoTooltip] community within the [ROOT.GetCountry.GetName].",
-  "uk": "[ROOT.GetCountry.GetLongName] — тут [Select_CString(target_character.IsFemale, 'розпочала', 'розпочав')] активну діяльність [Select_CString(target_character.IsFemale, 'якась проповідниця, що поширює', 'якийсь проповідник, що поширює')] #L [target_religion.GetAdjective|l]у#! віру. [Select_CString(target_character.IsFemale, 'Її', 'Його')] звати [target_character.GetName], і [Select_CString(target_character.IsFemale, 'вона зуміла', 'він зумів')] здобути безліч послідовників. Дійшло навіть до того, що для полегшення своєї місіонерської роботи [Select_CString(target_character.IsFemale, 'вона відкрила', 'він відкрив')] [target_religion.GetAdjectiveWithNoTooltip]у школу. Зараз [Select_CString(target_character.IsFemale, 'вона', 'він')] є дуже шанованим лідером і членом [target_religion.GetGroup.GetAdjectiveWithNoTooltip|l]ої громади в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
+  "en": "A certain [target_religion.GetAdjective] preacher has become active in the [ROOT.GetCountry.GetLongName]. His name is [target_character.GetName] and he has managed to gain a large following to the extent that he had a [target_religion.GetAdjectiveWithNoTooltip] school founded to facilitate his conversion work. He is a highly respected member and has become identified one of the leaders of the [target_religion.GetGroup.GetAdjectiveWithNoTooltip] community within the [ROOT.GetCountry.GetName].",
+  "uk": "У державі [ROOT.GetCountry.GetLongName] розпочав активну діяльність один [target_religion.GetAdjective] проповідник. Його звати [target_character.GetName], і він здобув стільки послідовників, що навіть заснував [target_religion.GetAdjectiveWithNoTooltip] школу для полегшення своєї місіонерської роботи. Він дуже шанований і вважається одним із лідерів [target_religion.GetGroup.GetAdjectiveWithNoTooltip] громади в державі [ROOT.GetCountry.GetName]."
  },
  "flavor_maj.19.entry": {
   "en": "A New Sunni Preacher",
-  "uk": ""
+  "uk": "Новий сунітський проповідник"
  },
  "flavor_maj.19.title": {
   "en": "A New [target_religion.GetGroup.GetAdjectiveWithNoTooltip] Preacher",
   "uk": "[Select_CString(target_character.IsFemale, 'Нова', 'Новий')] [target_religion.GetGroup.GetAdjectiveWithNoTooltip|l][Select_CString(target_character.IsFemale, 'а проповідниця', 'ий проповідник')]"
  },
  "flavor_maj.2.a": {
-  "en": "[target_character.GetHerHis|U] success will reflect upon the reign of [target_character2.GetNameWithNoTooltip]!",
-  "uk": "На тлі [Select_CString(target_character.IsFemale, 'її', 'його')] успіхів [target_character2.GetNameWithNoTooltip] виглядатиме краще!"
+  "en": "His success will reflect upon the reign of [target_character2.GetNameWithNoTooltip]!",
+  "uk": "Його успіхи прославлять правління [target_character2.GetNameWithNoTooltip]!"
  },
  "flavor_maj.2.a.entry": {
   "en": "His success will reflect upon his reign!",
-  "uk": ""
+  "uk": "Його успіхи прославлять його правління!"
  },
  "flavor_maj.2.desc": {
-  "en": "In a move that has been mocked by [target_character.GetHerHis] political rivals, [target_character.GetName] has proclaimed [target_character.GetHerHis] official oath to cease the consumption of luxurious sustenance and the enjoyment of culture and entertainment until [target_character.GetSheHe] successfully subjugates the entirety of [ShowRegionName('indonesia_region')]. Our armies are moved by such a display of conviction and feel confident to follow this great person to the ends of the Earth.",
-  "uk": "Попри глузування політичних противників, [target_character.GetName] офіційно [Select_CString(target_character.IsFemale, 'поклялася', 'поклявся')] не вживати дорогих страв, не шукати розваг і не насолоджуватися мистецтвом, поки не підкорить собі всю #TOOLTIP:REGION,indonesia_region,X #L Індонезію#!#!. Наші солдати надзвичайно зворушені такою демонстрацією твердості намірів і готові йти за цією людиною хоч на край світу."
+  "en": "In a move that has been mocked by his political rivals, [target_character.GetName] has proclaimed his official oath to cease the consumption of luxurious sustenance and the enjoyment of culture and entertainment until he successfully subjugates the entirety of [ShowRegionName('indonesia_region')]. Our armies are moved by such a display of conviction and feel confident to follow this great person to the ends of the Earth.",
+  "uk": "Під глузування політичних суперників [target_character.GetName] офіційно поклявся не вживати вишуканих страв і не втішатися мистецтвом та розвагами, поки не підкорить увесь регіон [ShowRegionName('indonesia_region')]. Наші армії зворушені такою непохитністю й готові йти за цією великою людиною хоч на край світу."
  },
  "flavor_maj.2.entry": {
   "en": "Gajah Mada's Sumpah Palapa",
-  "uk": ""
+  "uk": "Присяга Палапи Гаджі Мади"
  },
  "flavor_maj.2.title": {
   "en": "[target_character.GetNameWithNoTooltip]'s $maj_sumpah_palapa$",
   "uk": "[target_character.GetNameWithNoTooltip] і присяга Палапи"
  },
  "flavor_maj.20.a": {
-  "en": "Perhaps [target_character.GetSheHe] is our savior.",
-  "uk": "Можливо, [Select_CString(target_character.IsFemale, 'вона', 'він')] і справді [Select_CString(target_character.IsFemale, 'наша рятівниця', 'наш рятівник')]."
+  "en": "Perhaps he is our savior.",
+  "uk": "Можливо, він і справді наш рятівник."
  },
  "flavor_maj.20.b": {
   "en": "This would make for a good story!",
   "uk": "З цього вийде гарна історія!"
  },
  "flavor_maj.20.desc": {
-  "en": "A [target_character.GetDaughterSon] of a member of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] not long ago, everything about him was completely unknown but [target_character.GetHerHis] name - Damarwulan. [target_character.GetSheHe|U] served us as a stable servant, but soon the rumors of [target_character.GetHerHis] natural beauty reached the prime minister's daughter and there are few fires harder to extinguish than young love.\\n\\nThe fate that awaits [target_character.GetHerHim] for [target_character.GetHerHis] affront should be clear as a summer day, however, [target_character.GetSheHe] has won favor of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and many see [target_character.GetHerHim] as a prophesized savior of the [ROOT.GetCountry.GetFlavorRank].",
-  "uk": "Не так давно при нашому дворі [Select_CString(target_character.IsFemale, 'з’явилася донька', 'з’явився син')] дворянина зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]»; про [Select_CString(target_character.IsFemale, 'неї', 'нього')] не відомо нічого, крім імені — Дамарвулан. [Select_CString(target_character.IsFemale, 'Вона служила', 'Він служив')] у нас конюхом, але незабаром чутки про [Select_CString(target_character.IsFemale, 'її', 'його')] вроджену красу досягли дочки першого міністра, а немає вогню сильнішого, ніж юна любов.\\n\\nДоля, яка [Select_CString(target_character.IsFemale, 'їй', 'йому')] уготована за таку зухвалість, ясна як день, однак [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] ставиться до [Select_CString(target_character.IsFemale, 'неї', 'нього')] прихильно, і багато хто бачить у [Select_CString(target_character.IsFemale, 'ній рятівницю', 'ньому рятівника')] [ROOT.GetCountry.Custom('CF_RP')|l] з пророцтв."
+  "en": "A [target_character.GetDaughterSon] of a member of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle] not long ago, everything about him was completely unknown but his name - Damarwulan. He served us as a stable servant, but soon the rumors of his natural beauty reached the prime minister's daughter and there are few fires harder to extinguish than young love.\\n\\nThe fate that awaits him for his affront should be clear as a summer day, however, he has won favor of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and many see him as a prophesized savior of the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Не так давно при нашому дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) з’явився нащадок — [target_character.GetDaughterSon] — одного з членів стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]»; про нього не відомо нічого, крім імені — Дамарвулан. Він служив у нас конюхом, але незабаром чутки про його вроджену красу дійшли до дочки першого міністра, а мало який вогонь так важко загасити, як юне кохання.\\n\\nДоля, що чекає на нього за таку зухвалість, ясна як літній день, проте він здобув прихильність двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle]), і багато хто бачить у ньому провіщеного рятівника держави — [ROOT.GetCountry.GetFlavorRank]."
  },
  "flavor_maj.20.entry": {
   "en": "$flavor_maj.20.title$",
@@ -305,7 +305,7 @@
  },
  "flavor_maj.21.entry": {
   "en": "Victory of a Damarwulan Champion",
-  "uk": ""
+  "uk": "Перемога поборника Дамарвулана"
  },
  "flavor_maj.21.title": {
   "en": "Victory of [target_character.GetNameWithNoTooltip]",
@@ -321,7 +321,7 @@
  },
  "flavor_maj.22.b.entry": {
   "en": "We do wonder where that might get him.",
-  "uk": ""
+  "uk": "Цікаво, куди це його заведе."
  },
  "flavor_maj.22.desc": {
   "en": "[target_character.GetName] has fallen out of grace in [target_country.GetName]. Having blatantly gone against the policies of [ROOT.GetCountry.GetName], [target_character.GetSheHe] was promptly attacked by one of our loyal contingents in the area, with [target_character.GetHerHis] capital being put under siege. In such a desparate situation, [target_character.GetNameWithNoTooltip] has chosen to flee with few members of [target_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle] from [target_location.GetName]. Much is not known about [target_character.GetHerHis] future plans, but one thing is for certain, whatever [target_character.GetHerHis] next move is, it will not be to our benefit.",
@@ -329,7 +329,7 @@
  },
  "flavor_maj.22.entry": {
   "en": "The Demise of Temasek",
-  "uk": ""
+  "uk": "Загибель Темасека"
  },
  "flavor_maj.22.title": {
   "en": "The Demise of [target_location.GetNameWithNoTooltip]",
@@ -345,7 +345,7 @@
  },
  "flavor_maj.23.b.entry": {
   "en": "He is welcome here!",
-  "uk": ""
+  "uk": "Ми йому раді!"
  },
  "flavor_maj.23.c": {
   "en": "We will not tolerate such upstarts.",
@@ -397,19 +397,19 @@
  },
  "flavor_maj.26.a.entry": {
   "en": "The character would be a good leader.",
-  "uk": ""
+  "uk": "З цієї людини вийде добрий лідер."
  },
  "flavor_maj.26.b": {
   "en": "We cannot fund such expeditions.",
   "uk": "У нас немає коштів на такі експедиції."
  },
  "flavor_maj.26.desc": {
-  "en": "We have been approached by a certain high-ranking minister, the [target_character.GetName] of the [target_country.GetLongName]. [target_character.GetSheHe|U] has served us in the past and has offered to lead an expedition into [ShowAreaName('south_sumatra_area')] in order to strengthen our grip on our subjects as well as to subdue [target_country2.GetName].",
-  "uk": "До нас звернувся високопоставлений міністр, [target_character.GetName] з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. [Select_CString(target_character.IsFemale, 'Вона служила', 'Він служив')] нам у минулому і тепер пропонує очолити експедицію в #TOOLTIP:AREA,south_sumatra_area,X #L Південну Суматру#!#!, щоб зміцнити нашу владу над підданими, а також підкорити #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_ACC')|L]#!#!."
+  "en": "We have been approached by a certain high-ranking minister, the [target_character.GetName] of the [target_country.GetLongName]. He has served us in the past and has offered to lead an expedition into [ShowAreaName('south_sumatra_area')] in order to strengthen our grip on our subjects as well as to subdue [target_country2.GetName].",
+  "uk": "До нас звернувся один високопоставлений міністр — [target_character.GetName] із держави [target_country.GetLongName]. Він служив нам у минулому, а тепер пропонує очолити експедицію в #TOOLTIP:AREA,south_sumatra_area,X #L Південну Суматру#!#!, щоб зміцнити нашу владу над васалами й підкорити [target_country2.GetName]."
  },
  "flavor_maj.26.entry": {
   "en": "An Uparaja for Sumatra",
-  "uk": ""
+  "uk": "Упараджа для Суматри"
  },
  "flavor_maj.26.title": {
   "en": "An Uparaja for [target_country.GetNameWithNoTooltip]",
@@ -433,7 +433,7 @@
  },
  "flavor_maj.27.title": {
   "en": "The $PGR$",
-  "uk": ""
+  "uk": "Справа «$PGR$»"
  },
  "flavor_maj.28.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
@@ -449,19 +449,19 @@
  },
  "flavor_maj.28.entry": {
   "en": "Splendor of Trowulan",
-  "uk": ""
+  "uk": "Пишнота Тровулана"
  },
  "flavor_maj.28.title": {
   "en": "Splendor of [target_location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Пишнота: [target_location.GetNameWithNoTooltip]"
  },
  "flavor_maj.29.a": {
-  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] is truly the center of the world.",
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] are truly the center of the world.",
   "uk": "[ROOT.GetCountry.GetNameWithNoTooltip] — справжній центр світу."
  },
  "flavor_maj.29.a.entry": {
   "en": "We are truly the center of the world.",
-  "uk": ""
+  "uk": "Ми — справжній центр світу."
  },
  "flavor_maj.29.b": {
   "en": "And we must strive to export it to our subjects!",
@@ -497,7 +497,7 @@
  },
  "flavor_maj.3.title": {
   "en": "The $maj_nagarakretagama_woa$",
-  "uk": ""
+  "uk": "Твір «$maj_nagarakretagama_woa$»"
  },
  "flavor_maj.4.a": {
   "en": "Let the boy have [target_character.GetHerHis] crown.",
@@ -505,7 +505,7 @@
  },
  "flavor_maj.4.a.entry": {
   "en": "Let the boy have his crown.",
-  "uk": ""
+  "uk": "Нехай хлопець отримає свою корону."
  },
  "flavor_maj.4.b": {
   "en": "[target_character2.GetShortNameWithNoTooltip] shall not let go of power just yet!",
@@ -513,7 +513,7 @@
  },
  "flavor_maj.4.b.entry": {
   "en": "The character shall not let go of power just yet!",
-  "uk": ""
+  "uk": "Ця людина ще не відпустить владу!"
  },
  "flavor_maj.4.desc": {
   "en": "At the cusp of our golden era and the joyous prestige that shines from our powerful position across [ShowRegionName('indonesia_region')] and our many subjects, a glimmer of immortality in the history books shines upon the face of [target_character.GetName].\\n\\nThat glimmer is none other than [target_character.GetHerHis] own heir, who has shown great promise as [target_character.GetSheHe] has excelled in every aspect of [target_character.GetHerHis] education. A peaceful transfer of power would undoubtedly reinforce our stability, as well.",
@@ -521,7 +521,7 @@
  },
  "flavor_maj.4.entry": {
   "en": "Gajah Mada's Sumpah Palapa",
-  "uk": ""
+  "uk": "Присяга Палапи Гаджі Мади"
  },
  "flavor_maj.4.title": {
   "en": "Rise of [target_character.GetNameWithNoTooltip]",
@@ -601,7 +601,7 @@
  },
  "flavor_maj.8.entry": {
   "en": "The Demands of Majapahit",
-  "uk": ""
+  "uk": "Вимоги Маджапахіта"
  },
  "flavor_maj.8.historical_info": {
   "en": "The marriage between King Hayam Wuruk and Princess Dyah Pitaloka of the Sudanese Kingdom came to a horrid end when Gajah Mada, then #italic mahapatih#! of the Majapahit Empire, saw the arrival of the princess as an opportunity to demand the immediate subjugation of the Sudanese Kingdom. The ensuing battles after such a betrayal eventually led to the death of the Sudanese royal family and the fall of their Kingdom.",
@@ -625,7 +625,7 @@
  },
  "flavor_maj.9.entry": {
   "en": "History of the $SUN_ADJ$ Realm",
-  "uk": ""
+  "uk": "Історія $SUN_ADJ$ царства"
  },
  "flavor_maj.9.historical_info": {
   "en": "Largely regarded as a vital Sudanese manuscript, the #italic Carita Parahyangan#! recounts the history of the Kingdom of Sunda, including the legendary rulers of the western part of Java, particularly during the time of the Sunda Kingdom, predecessor to the later Kingdom of Pajajaran.",
@@ -665,7 +665,7 @@
  },
  "variable_maj_had_temples_event_variable_tt": {
   "en": "Our Temples have been Restored",
-  "uk": ""
+  "uk": "Наші храми відновлено"
  },
  "wali_songo_tt": {
   "en": "When [THIS.GetCharacter.GetName] will die, a [ShowBuildingTypeName('wali_songo_shrine')] will be built in a prominent [owned|e] [ShowReligionAdjective('sunni')] [location|e].",

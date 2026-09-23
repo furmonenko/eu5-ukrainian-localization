@@ -8,24 +8,24 @@
   "uk": "Скасування принципу «[ShowGovernmentReformName('powerful_vizierships_reform')]» вимагатиме менше [Concept('crown_power','влади правителя')|e]"
  },
  "every_location_with_wool_gains_tt": {
-  "en": "Every owned [location|e] with [ShowGoodsName('wool')], such as [target_location.GetName], will gain the [ShowModifier('banu_marin_wool_modifier')] [modifier|e]",
-  "uk": "Всі належні нам [Concept('location','райони')|e], де виробляється #TOOLTIP:GOODS,wool,X #L вовна#!#! (наприклад, [target_location.GetName]), отримають [Concept('modifier','модифікатор')|e] «[ShowModifier('banu_marin_wool_modifier')]»"
+  "en": "Every owned [location|e] with [ShowGoodsName('wool')], such as [target_location.GetName], will gain the [ShowModifier('banu_marin_wool_modifier')] [modifier|e] for 10 years",
+  "uk": "Усі наші [Concept('location','райони')|e] з товаром [ShowGoodsName('wool')], як-от [target_location.GetName], на 10 років отримають [Concept('modifier','модифікатор')|e] «[ShowModifier('banu_marin_wool_modifier')]»"
  },
  "flavor_mor.1.a": {
-  "en": "Grant [target_character.GetHerHim] patronage.",
-  "uk": "Надамо [Select_CString(target_character.IsFemale,'їй','йому')] підтримку."
+  "en": "Grant him patronage.",
+  "uk": "Надати йому заступництво."
  },
  "flavor_mor.1.b": {
   "en": "We need not more idle wanderers around our halls.",
   "uk": "У наших чертогах і без того вистачає мандрівних ледарів."
  },
  "flavor_mor.1.desc": {
-  "en": "Known by many names such as Imām [target_character.GetLastName] or Shaykh [target_character.GetLastNameWithNoTooltip], [target_character.GetShortNameWithNoTooltip] has gained great prominence recently on account of [target_character.GetHerHis] great display of piety, devoutness, and knowledge of sacred texts. Claiming Shurfā' status as a direct descendant of the Prophet, [target_character.GetSheHe] has recently offered [target_character.GetHerHis] skills and services to us.",
-  "uk": "[target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'відома','відомий')] під різними іменами: імам [target_character.GetLastName], [Select_CString(target_character.IsFemale,'шейха','шейх')] [target_character.GetLastNameWithNoTooltip] і не тільки. Останнім часом [Select_CString(target_character.IsFemale,'вона отримала','він отримав')] велике визнання завдяки своїй побожності, праведності та знанню священних текстів. Будучи прямим нащадком Пророка, [Select_CString(target_character.IsFemale,'вона','він')] має намір отримати титул шаріфа і застосувати свої таланти, служачи нам."
+  "en": "Known by many names such as Imām [target_character.GetLastName] or Shaykh [target_character.GetLastNameWithNoTooltip], [target_character.GetShortNameWithNoTooltip] has gained great prominence recently on account of his great display of piety, devoutness, and knowledge of sacred texts. Claiming Shurfā' status as a direct descendant of the Prophet, he has recently offered his skills and services to us.",
+  "uk": "[target_character.GetShortNameWithNoTooltip] відомий під різними іменами — імам [target_character.GetLastName] чи шейх [target_character.GetLastNameWithNoTooltip]. Останнім часом він здобув велике визнання завдяки своїй побожності, праведності та знанню священних текстів. Претендуючи на титул шаріфа як прямий нащадок Пророка, він нещодавно запропонував нам свої таланти й служіння."
  },
  "flavor_mor.1.entry": {
   "en": "Muhammad al-Jazuli, Sufi Scholar",
-  "uk": ""
+  "uk": "Мухаммад аль-Джазулі, суфійський учений"
  },
  "flavor_mor.1.historical_info": {
   "en": "Al-Jazuli, a 15th-century Moroccan Sufi, was a key figure in the Shadhiliya order. Born in the Sous region, he studied in Fez and became famous for Dala'il al-Khayrat, a widely recited collection of prayers invoking blessings on the Prophet Muhammad (peace be upon him). His work left a lasting impact on Moroccan Sufi practices.",
@@ -49,7 +49,7 @@
  },
  "flavor_mor.1000.entry": {
   "en": "Employing Ottoman Mercenaries",
-  "uk": ""
+  "uk": "Наймання османських найманців"
  },
  "flavor_mor.1000.title": {
   "en": "Employing [target_country.GetAdjectiveWithNoTooltip] Mercenaries",
@@ -65,7 +65,7 @@
  },
  "flavor_mor.1001.b.entry": {
   "en": "They stay in the capital.",
-  "uk": ""
+  "uk": "Вони лишаються в столиці."
  },
  "flavor_mor.1001.desc": {
   "en": "[prev_country.GetName] has informed us that part of our military wishes to join them, serving as fortune seekers in their army. They have not only agreed to pay for their employment, but also grant us extra gold in order to further persuade them that we allow these men to go in [prev_country.GetCapital.GetName] as soldiers.",
@@ -89,7 +89,7 @@
  },
  "flavor_mor.1100.entry": {
   "en": "Strengthening Sugar Production",
-  "uk": ""
+  "uk": "Посилення виробництва цукру"
  },
  "flavor_mor.1100.title": {
   "en": "Strengthening [ShowGoodsNameWithNoTooltip('sugar')] Production",
@@ -124,8 +124,8 @@
   "uk": "Столицею залишиться [ShowLocationNameWithNoTooltip('fez')]."
  },
  "flavor_mor.12.b": {
-  "en": "We will choose [ShowLocationNameWithNoTooltip('marrakesh')]",
-  "uk": "[ShowLocationNameWithNoTooltip('marrakesh')] стане столицею."
+  "en": "We will choose [ShowLocationNameWithNoTooltip('marrakesh')].",
+  "uk": "Ми оберемо [ShowLocationNameWithNoTooltip('marrakesh')]."
  },
  "flavor_mor.12.b2": {
   "en": "[ShowLocationNameWithNoTooltip('marrakesh')] will continue being our capital.",
@@ -148,8 +148,8 @@
   "uk": "[ShowLocationNameWithNoTooltip('rabat')] залишиться нашою столицею."
  },
  "flavor_mor.12.desc": {
-  "en": "Throughout their history, several great cities have had the honor of being the political center of the [ROOT.GetCountry.GetLongName]. Under the Idrisids and [ShowDynastyName('marinid_dynasty')], the northern city of [ShowLocationName('fez')] has been the favored seat of government, allowing its rulers to lead the charge against their enemies in [ShowRegionName('iberia_region')] and the eastern [ShowRegionName('maghreb_region')]. The Almavorids and Almohads favored the southern city of [ShowLocationName('marrakesh')], while Ḵalīfa Ya'qūb al-Manṣūr attempted to establish the capital at [ShowLocationName('rabat')]. Some in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] argue that [ShowLocationName('meknes')] could also serve as a political center. Any of these cities would make a fine capital for our nation.",
-  "uk": "За час свого існування деякі великі міста удостоїлися честі бути політичним центром #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. При Ідрісідах і #TOOLTIP:DYNASTY,$marinid_dynasty_tt$,X #L Марінідах#!#! місцем зосередження влади стало північне місто [ShowLocationName('fez')], що дозволило правителям очолити битву зворогами в #TOOLTIP:REGION,iberia_region,X #L Іберії#!#! і східному #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!. Альморавіди й Альмохади віддавали перевагу [ShowLocationName('marrakesh')], а халіф Якуб аль-Мансур спробував зробити своєю столицею [ShowLocationName('rabat')]. Деякі сановники переконані, що [ShowLocationName('meknes')] теж підходить на роль політичного центру. Будь-яке з цих міст може стати прекрасною столицею нашої держави."
+  "en": "Throughout their history, several great cities have had the honor of being the political center of the [ROOT.GetCountry.GetLongName]. Under the Idrisids and [ShowDynastyName('marinid_dynasty')], the northern city of [ShowLocationName('fez')] has been the favored seat of government, allowing its rulers to lead the charge against their enemies in [ShowRegionName('iberia_region')] and the eastern [ShowRegionName('maghreb_region')]. The Almoravids and Almohads favored the southern city of [ShowLocationName('marrakesh')], while Ḵalīfa Ya'qūb al-Manṣūr attempted to establish the capital at [ShowLocationName('rabat')]. Some in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] argue that [ShowLocationName('meknes')] could also serve as a political center. Any of these cities would make a fine capital for our nation.",
+  "uk": "За час існування держави [ROOT.GetCountry.GetLongName] кілька великих міст удостоїлися честі бути її політичним центром. За Ідрісидів і [ShowDynastyName('marinid_dynasty')] осідком влади було північне місто [ShowLocationName('fez')], звідки правителі очолювали боротьбу з ворогами в #TOOLTIP:REGION,iberia_region,X #L Іберії#!#! і на сході #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!. Альморавіди й Альмохади віддавали перевагу південному місту [ShowLocationName('marrakesh')], а халіф Якуб аль-Мансур намагався зробити столицею [ShowLocationName('rabat')]. Дехто в [ROOT.GetCountry.GetGovernment.GetCourtTitle] вважає, що й [ShowLocationName('meknes')] може стати політичним центром. Будь-яке з цих міст буде прекрасною столицею для нашої держави."
  },
  "flavor_mor.12.entry": {
   "en": "$flavor_mor.12.title$",
@@ -165,7 +165,7 @@
  },
  "flavor_mor.1200.a.entry": {
   "en": "Let us get them to support us.",
-  "uk": ""
+  "uk": "Здобудьмо їхню підтримку."
  },
  "flavor_mor.1200.b": {
   "en": "This expedition is not worth it.",
@@ -264,20 +264,20 @@
   "uk": "Суспільне життя [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого народу"
  },
  "flavor_mor.16.a": {
-  "en": "We will sponsor [target_character.GetHerHis] work.",
-  "uk": "Ми підтримаємо [Select_CString(target_character.IsFemale,'її','його')] праці."
+  "en": "We will sponsor his work.",
+  "uk": "Ми підтримаємо його праці."
  },
  "flavor_mor.16.b": {
   "en": "Better not...",
   "uk": "Краще не треба."
  },
  "flavor_mor.16.desc": {
-  "en": "Widely heralded as one of the world's best philosopher, [target_character.GetName] has offered us the opportunity to sponsor [target_character.GetHerHis] works. Due to his family's established prestige, [target_character.GetShortNameWithNoTooltip] was allowed to study under some of the most prominent scholars in the [ShowRegionName('maghreb_region')].\\n\\nAs a result, he excelled in many subjects such as jurisprudence, religious law, and linguistics. Such an addition to our cultural sphere would surely go a long way.",
-  "uk": "[target_character.GetName], що здобув славу одного з кращих філософів світу, пропонує нам підтримати його праці. Оскільки [target_character.GetShortNameWithNoTooltip] походить з впливової родини, йому довелося навчатися в кращих розумів #TOOLTIP:REGION,maghreb_region,X #L Магрибу#!#!.\\n\\nВрешті він досяг успіху в багатьох галузях юриспруденції, релігійного права і лінгвістики. Безсумнівно, такий талант збагатить нашу культуру."
+  "en": "Widely heralded as one of the world's best philosopher, [target_character.GetName] has offered us the opportunity to sponsor his works. Due to his family's established prestige, [target_character.GetShortNameWithNoTooltip] was allowed to study under some of the most prominent scholars in the [ShowRegionName('maghreb_region')].\\n\\nAs a result, he excelled in many subjects such as jurisprudence, religious law, and linguistics. Such an addition to our cultural sphere would surely go a long way.",
+  "uk": "[target_character.GetName], якого повсюдно славлять як одного з найкращих філософів світу, пропонує нам підтримати його праці. Завдяки престижу своєї родини [target_character.GetShortNameWithNoTooltip] мав змогу навчатися в найвідоміших учених #TOOLTIP:REGION,maghreb_region,X #L Магрибу#!#!.\\n\\nТож він досяг успіху в багатьох науках: юриспруденції, релігійному праві, мовознавстві. Такий здобуток, безперечно, збагатить нашу культуру."
  },
  "flavor_mor.16.entry": {
   "en": "Ibn Khaldun, the Philosopher",
-  "uk": ""
+  "uk": "Ібн Хальдун, філософ"
  },
  "flavor_mor.16.historical_info": {
   "en": "Ibn Khaldūn was a renowned Arab sociologist, philosopher, and historian, recognized as one of the foremost thinkers of the Medieval period and often hailed as a pioneer in historiography, sociology, economics, and demography. His most famous work, the #italic Muqaddimah#!, composed in just six months, had a profound impact on later historians who used its insights to understand the dynamics of empires. Comparisons have been drawn between Ibn Khaldun's theories and those of European intellectuals such as Machiavelli, Hegel, and Adam Smith, underscoring his groundbreaking influence. His scholarship continues to shape contemporary Islamic thought and various academic fields.",
@@ -288,12 +288,12 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_mor.17.desc": {
-  "en": "It is no secret that the [ShowReligionGroupAdjective('muslim')] world is home to some of the greatest polymaths to ever bless our people. Among them, [target_character.GetName] is grealty distinguished as outstanding in his many fields. A great writer and, at times, poet with great literary works that are inspired by [target_character.GetHerHis] life in the [ShowRegionName('maghreb_region')], [target_character.GetSheHe] is a master of the rhymed prose, known also as saj'.",
-  "uk": "Не секрет, що #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламський#!#! світ виростив ряд найвеличніших мислителів, яких коли-небудь бачив світ. [Select_CString(target_character.IsFemale,'Одна з них','Один з них')] — [target_character.GetName], [Select_CString(target_character.IsFemale,'відома','відомий')] видатними досягненнями в численних галузях. [Select_CString(target_character.IsFemale,'Її','Його')] перу належать прекрасні прозові та поетичні праці, натхненні життям у #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!. [target_character.GetName] — майстер саджа, або римованої поезії."
+  "en": "It is no secret that the [ShowReligionGroupAdjective('muslim')] world is home to some of the greatest polymaths to ever bless our people. Among them, [target_character.GetName] is greatly distinguished as outstanding in his many fields. A great writer and, at times, poet with great literary works that are inspired by his life in the [ShowRegionName('maghreb_region')], he is a master of the rhymed prose, known also as saj'.",
+  "uk": "Не секрет, що [ShowReligionGroupAdjective('muslim')] світ виростив чимало найвидатніших енциклопедистів, якими будь-коли був благословенний наш народ. Серед них вирізняється [target_character.GetName], видатний у багатьох галузях. Чудовий письменник, а часом і поет, автор визначних творів, натхненних життям у #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!, він — майстер римованої прози, відомої як садж."
  },
  "flavor_mor.17.entry": {
   "en": "Lisan al-Din ibn al-Khatib",
-  "uk": ""
+  "uk": "Лісан ад-Дін ібн аль-Хатіб"
  },
  "flavor_mor.17.historical_info": {
   "en": "Lisān al-Dīn ibn al-Khaṭīb was a distinguished Arab polymath from the Emirate of Granada, excelling as a poet, writer, historian, philosopher, physician, and politician. His renowned poems, including #italic Jadaka al-Ghaithu#! and #italic Lamma Bada Yatathanna#!, adorn the Alhambra's walls. His major historical work, #italic al-Iḥāṭa fī akhbār Gharnāṭa#!, written in 1369 and featuring his autobiography, remains untranslated.\\n\\nDespite his significant contributions, he faced periods of exile and was executed for heresy in 1374, likely due to political conflicts with the Nasrid dynasty. His poetry, known for its rhymed prose, drew inspiration from eastern Islamic poets, and his treatise on the plague described disease transmission through contagion, predating European scientific advancements by centuries.",
@@ -309,7 +309,7 @@
  },
  "flavor_mor.18.a.entry": {
   "en": "Then he will lose his head.",
-  "uk": ""
+  "uk": "Тоді він втратить голову."
  },
  "flavor_mor.18.b": {
   "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
@@ -325,7 +325,7 @@
  },
  "flavor_mor.18.entry": {
   "en": "The Heir's Scheme Against the Wattasids",
-  "uk": ""
+  "uk": "Змова спадкоємця проти Ваттасидів"
  },
  "flavor_mor.18.title": {
   "en": "The Scheme of [target_character2.GetNameWithNoTooltip]",
@@ -353,7 +353,7 @@
  },
  "flavor_mor.2.a.entry": {
   "en": "Welcome our brothers in faith in the capital.",
-  "uk": ""
+  "uk": "Прийняти наших братів по вірі в столиці."
  },
  "flavor_mor.2.b": {
   "en": "Let them settle around [target_location2.GetNameWithNoTooltip].",
@@ -361,7 +361,7 @@
  },
  "flavor_mor.2.b.entry": {
   "en": "Let them settle around the location.",
-  "uk": ""
+  "uk": "Нехай оселяться в околицях."
  },
  "flavor_mor.2.c": {
   "en": "Only their very best can integrate into our society.",
@@ -372,8 +372,8 @@
   "uk": "[target_country.GetName] вирішує вигнати #TOOLTIP:CULTURE,andalusi_tt,X #L андалусців#!#!, що все ще живуть у державі. Тепер до наших портів прибуває безліч біженців, які просять пустити їх до держави. Нам шкода цих людей, змушених покинути свої домівки, але, можливо, для [ROOT.GetCountry.Custom('CF_RP')|l] це стане благом.\\n\\nБільша частина цих біженців — міщани, ремісники, вчені, творці та управлінці. З їхньою допомогою ми постараємося зміцнити свій престиж і навіки прославити знамена нашої держави."
  },
  "flavor_mor.2.title": {
-  "en": "Andalusi Refugees",
-  "uk": "Андалуські біженці"
+  "en": "[ShowCultureNameWithNoTooltip('andalusi')] Refugees",
+  "uk": "[ShowCultureNameWithNoTooltip('andalusi')]: біженці"
  },
  "flavor_mor.20.a": {
   "en": "What is one more office?",
@@ -433,7 +433,7 @@
  },
  "flavor_mor.23.a.entry": {
   "en": "That blasted traitor!",
-  "uk": ""
+  "uk": "Клятий зрадник!"
  },
  "flavor_mor.23.desc": {
   "en": "To the dismay of many powerful [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], the recent attempts to sway the balance of power back to the favor of the [target_country.Custom('GetRulerOrRegentTitle')] has been met with unmitigated backlash. Behind close doors, shady deals and subterfuge, moves are made to ensure that [target_character.GetName] meets an untimely demise, under the guiding hand of [target_character2.GetName], before [target_character.GetSheHe] takes power back from these hungry vultures.",
@@ -448,20 +448,20 @@
   "uk": "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] готують змову"
  },
  "flavor_mor.24.a": {
-  "en": "[target_character.GetSheHe|U] is most welcome!",
-  "uk": "Ми будемо [Select_CString(target_character.IsFemale,'їй','йому')] раді!"
+  "en": "He is most welcome!",
+  "uk": "Ми йому щиро раді!"
  },
  "flavor_mor.24.b": {
   "en": "We have no need for more clerics.",
   "uk": "У нас і без того вистачає богословів."
  },
  "flavor_mor.24.desc": {
-  "en": "Known for [target_character.GetHerHis] great piety and attention to [ShowReligionGroupAdjective('muslim')] disciplines, [target_character.GetName] has made a name for [target_character.GetHerselfHimself] as a great spiritual leader within our domain. Hailing from a town near the rocky mountains of [ShowLocationName('eastern_anti_atlas')], [target_character.GetSheHe] has amassed many followers around [target_character.GetHerHis] zāwiyah, where [target_character.GetSheHe] speaks about mystical teachings. It is up to us to decide whether or not we wish to have men such as [target_character.GetHerHim] in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale,'відома','відомий')] своєю набожністю і ретельним вивченням #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламських#!#! дисциплін, [Select_CString(target_character.IsFemale,'здобула','здобув')] славу великого духовного лідера в наших володіннях. [Select_CString(target_character.IsFemale,'Вона прибула','Він прибув')] з містечка біля скелястих гір #TOOLTIP:LOCATION,eastern_anti_atlas_tt,X #L східного Антіатласа#!#! і [Select_CString(target_character.IsFemale,'зібрала','зібрав')] у своїй завії безліч послідовників, міркуючи про містичні вчення. Чи потребує [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] подібних людей? Вирішувати нам."
+  "en": "Known for his great piety and attention to [ShowReligionGroupAdjective('muslim')] disciplines, [target_character.GetName] has made a name for [target_character.GetHerselfHimself] as a great spiritual leader within our domain. Hailing from a town near the rocky mountains of [ShowLocationName('eastern_anti_atlas')], he has amassed many followers around his zāwiyah, where he speaks about mystical teachings. It is up to us to decide whether or not we wish to have men such as him in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Відомий своєю великою набожністю та відданістю #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманським#!#! дисциплінам, [target_character.GetName] зарекомендував [target_character.GetHerselfHimself] як великий духовний лідер у наших володіннях. Він походить із містечка біля скелястих гір [ShowLocationName('eastern_anti_atlas')] і зібрав безліч послідовників у своїй завії, де розповідає про містичні вчення. Нам вирішувати, чи хочемо ми бачити таких людей у [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
  },
  "flavor_mor.24.entry": {
   "en": "Sidi Ahmad ou Moussa, Sufi Master",
-  "uk": ""
+  "uk": "Сіді Ахмад у Мусса, суфійський наставник"
  },
  "flavor_mor.24.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -485,7 +485,7 @@
  },
  "flavor_mor.25.entry": {
   "en": "GRAVEYARD",
-  "uk": ""
+  "uk": "КЛАДОВИЩЕ"
  },
  "flavor_mor.25.title": {
   "en": "The Passing of [target_character.GetNameWithNoTooltip]",
@@ -497,7 +497,7 @@
  },
  "flavor_mor.26.a.entry": {
   "en": "The character will guide us to splendor.",
-  "uk": ""
+  "uk": "Цей персонаж приведе нас до величі."
  },
  "flavor_mor.26.b": {
   "en": "The lions are to be trusted with the future of our people.",
@@ -509,7 +509,7 @@
  },
  "flavor_mor.26.entry": {
   "en": "A Ruler's Prophetic Visions",
-  "uk": ""
+  "uk": "Пророчі видіння правителя"
  },
  "flavor_mor.26.title": {
   "en": "The Visions of [target_character.GetShortNameWithNoTooltip]",
@@ -525,7 +525,7 @@
  },
  "flavor_mor.27.entry": {
   "en": "The Just Defense of the Tun",
-  "uk": ""
+  "uk": "Справедливий захист Туна"
  },
  "flavor_mor.27.title": {
   "en": "The Just Defense of the [GetCountry('TUN').GetLongNameWithNoTooltip]",
@@ -536,12 +536,12 @@
   "uk": "Повертаємося до столиці!"
  },
  "flavor_mor.28.b": {
-  "en": "Accept the demands of [usurper_scope.GetNameWithNoTooltip]",
-  "uk": "Ми приймемо [Select_CString(usurper_scope.IsFemale,'її','його')] вимоги."
+  "en": "Accept the demands of [usurper_scope.GetNameWithNoTooltip].",
+  "uk": "Прийняти вимоги [usurper_scope.GetNameWithNoTooltip]."
  },
  "flavor_mor.28.b.entry": {
   "en": "Accept the demands of the usurper.",
-  "uk": ""
+  "uk": "Прийняти вимоги узурпатора."
  },
  "flavor_mor.28.desc": {
   "en": "The son of our ruler [usurper_scope.GetName], who until this point was governing the new lands conquered in [ShowAreaNameWithNoTooltip('algiers_area')], has made use of our absence from the capital during our current campaign to race to our capital [capital_scope.GetName] and has declared himself [ROOT.GetCountry.GetGovernment.GetRulerTitle].\\n\\nHe accuses us of abandoning our people to war and famine and demands that we recognize his ascension to the throne.",
@@ -585,7 +585,7 @@
  },
  "flavor_mor.3.entry": {
   "en": "Al-Jazuli and the Dalail al-Khayrat",
-  "uk": ""
+  "uk": "Аль-Джазулі та «Далаїль аль-Хайрат»"
  },
  "flavor_mor.3.title": {
   "en": "[target_character.GetNameWithNoTooltip] and the $dalai_al_khayarat$",
@@ -633,11 +633,11 @@
  },
  "flavor_mor.31.entry": {
   "en": "Creating the Guich Garrison",
-  "uk": ""
+  "uk": "Створення гарнізону гіш"
  },
  "flavor_mor.31.title": {
   "en": "Creating the [ShowBuildingTypeNameWithNoTooltip('guich_garrison')]",
-  "uk": ""
+  "uk": "Створення: [ShowBuildingTypeNameWithNoTooltip('guich_garrison')]"
  },
  "flavor_mor.32.a": {
   "en": "We shall improve it.",
@@ -681,7 +681,7 @@
  },
  "flavor_mor.33.title": {
   "en": "The $el_badi_palace$",
-  "uk": ""
+  "uk": "Величний $el_badi_palace$"
  },
  "flavor_mor.34.a": {
   "en": "Let us replace [target_character2.GetNameWithNoTooltip].",
@@ -689,23 +689,23 @@
  },
  "flavor_mor.34.a.entry": {
   "en": "Let us replace him.",
-  "uk": ""
+  "uk": "Замінімо його."
  },
  "flavor_mor.34.b": {
-  "en": "[target_character.GetHerHis|U] new [ROOT.GetCountry.GetFlavorRank]?",
-  "uk": "Що [target_character.GetName] про себе [Select_CString(target_character.IsFemale,'возомнила','возомнив')]?"
+  "en": "His new [ROOT.GetCountry.GetFlavorRank]?",
+  "uk": "Його нова [ROOT.GetCountry.GetFlavorRank]?"
  },
  "flavor_mor.34.b.entry": {
   "en": "His new realm?",
-  "uk": ""
+  "uk": "Його нове царство?"
  },
  "flavor_mor.34.desc": {
-  "en": "Due to the instability within [ROOT.GetCountry.GetName], many people have started seeing [target_character2.GetName] as a weak [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Now, they rally behind a minor member of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] known as [target_character.GetName]. Wishing to overthrow the regime under [target_character2.GetNameWithNoTooltip], [target_character.GetSheHe] promises peace, freedom, justice, and security to [target_character.GetHerHis] new [ROOT.GetCountry.GetFlavorRank].",
-  "uk": "Через нестабільність в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! багато хто починає думати, що [target_character2.GetName] — [Select_CString(target_character2.IsFemale,'слабка','слабкий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]. Вони вважають, що [target_character.GetName] з дрібного знатного роду — набагато кращий кандидат на цю роль, і підтримують [Select_CString(target_character.IsFemale,'її','його')]. Маючи намір скинути [Select_CString(target_character2.IsFemale,'нинішню правительку','нинішнього правителя')] і зайняти [Select_CString(target_character2.IsFemale,'її','його')] місце, [target_character.GetName] обіцяє мир, свободу і справедливість в [ROOT.GetCountry.Custom('rank_ru_PREP')|l]."
+  "en": "Due to the instability within [ROOT.GetCountry.GetName], many people have started seeing [target_character2.GetName] as a weak [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Now, they rally behind a minor member of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] known as [target_character.GetName]. Wishing to overthrow the regime under [target_character2.GetNameWithNoTooltip], he promises peace, freedom, justice, and security to his new [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Через нестабільність у державі [ROOT.GetCountry.GetName] багато хто вважає, що [target_character2.GetName] — слабкий [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Тепер люди гуртуються довкола незначного представника стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]» на ім’я [target_character.GetName]. Прагнучи повалити режим, який очолює [target_character2.GetNameWithNoTooltip], він обіцяє мир, свободу, справедливість і безпеку своїй новій державі — [ROOT.GetCountry.GetFlavorRank]."
  },
  "flavor_mor.34.entry": {
   "en": "Rise of the Saadi Dynasty",
-  "uk": ""
+  "uk": "Піднесення династії Саадитів"
  },
  "flavor_mor.34.title": {
   "en": "Rise of the [ShowDynastyNameWithNoTooltip('saadi_dynasty')] Dynasty",
@@ -725,7 +725,7 @@
  },
  "flavor_mor.35.entry": {
   "en": "Rise of the Isawiyya School",
-  "uk": ""
+  "uk": "Піднесення школи Ісавія"
  },
  "flavor_mor.35.title": {
   "en": "Rise of the [ShowReligiousSchoolNameWithNoTooltip('isawiyya_school')]",
@@ -773,7 +773,7 @@
  },
  "flavor_mor.38.entry": {
   "en": "Granada Defiant",
-  "uk": ""
+  "uk": "Непокірна Ґранада"
  },
  "flavor_mor.38.title": {
   "en": "[target_country.GetNameWithNoTooltip] Defiant",
@@ -793,7 +793,7 @@
  },
  "flavor_mor.4.entry": {
   "en": "Idrisid Supporters in Fez",
-  "uk": ""
+  "uk": "Прихильники Ідрісидів у Фесі"
  },
  "flavor_mor.4.title": {
   "en": "Idrisid Supporters in [target_location.GetNameWithNoTooltip]",
@@ -804,12 +804,12 @@
   "uk": "Цікавий розвиток подій."
  },
  "flavor_mor.5.desc": {
-  "en": "In all but name, the influence of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] resides within the grasp of powerful [ROOT.GetCountry.GetGovernment.GetCabinetTitle] members and strongmen. Attaining popularity after [target_character.GetHerHis] successful rise to power within the ranks of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], [target_character.GetName] has ensured that the [ROOT.GetCountry.GetGovernment.GetAdjective] bureaucracy is both well-functioning and under [target_character.GetHerHis] firm control.\\n\\nAs the [ShowDynastyName('wattasid_dynasty')] are related to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] rulers, this is in itself perhaps not a worrying development. By all accounts, we should be glad that such a capable administrator has risen to serve our people, surely [target_character.GetSheHe] will not covet power for [target_character.GetHerselfHimself]...",
-  "uk": "По суті, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] перебуває у владі впливових радників і могутніх людей. [target_character.GetName] [Select_CString(target_character.IsFemale,'домоглася популярності', 'домігся популярності')], коли [Select_CString(target_character.IsFemale,'її', 'його')] піднесення підтримали інші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Після цього [Select_CString(target_character.IsFemale,'вона зробила', 'він зробив')] все, аби #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]а#! бюрократія працювала належним чином і залишалася під [Select_CString(target_character.IsFemale,'її', 'його')] суворим контролем.\\n\\nОскільки #TOOLTIP:DYNASTY,$wattasid_dynasty_tt$,X #L Ваттасіди#!#! є в спорідненні з правителями династії [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], нам, можливо, і нема про що хвилюватися. Варто радіти, що такий яскравий управлінський талант тепер служить на благо нашому народу. Навряд чи [target_character.GetName] лише жадає влади…"
+  "en": "In all but name, the influence of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] resides within the grasp of powerful [ROOT.GetCountry.GetGovernment.GetCabinetTitle] members and strongmen. Attaining popularity after his successful rise to power within the ranks of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], [target_character.GetName] has ensured that the [ROOT.GetCountry.GetGovernment.GetAdjective] bureaucracy is both well-functioning and under his firm control.\\n\\nAs the [ShowDynastyName('wattasid_dynasty')] are related to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] rulers, this is in itself perhaps not a worrying development. By all accounts, we should be glad that such a capable administrator has risen to serve our people, surely he will not covet power for [target_character.GetHerselfHimself]...",
+  "uk": "Хоч формально це й не так, вплив у [ROOT.GetCountry.GetGovernment.GetCourtTitle] зосереджений у руках могутніх членів ради ([ROOT.GetCountry.GetGovernment.GetCabinetTitle]) і сильних людей. Здобувши популярність після успішного піднесення в лавах стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]», [target_character.GetName] подбав, щоб бюрократія ([ROOT.GetCountry.GetGovernment.GetAdjective]) працювала справно й перебувала під його твердим контролем.\\n\\nОскільки [ShowDynastyName('wattasid_dynasty')] споріднені з правителями династії [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], це саме по собі, мабуть, не тривожно. Судячи з усього, варто радіти, що такий здібний управитель служить нашому народу, — певно ж, він не прагне влади для [target_character.GetHerselfHimself]…"
  },
  "flavor_mor.5.entry": {
   "en": "Abu Zakariya, Rise of the Wattasids",
-  "uk": ""
+  "uk": "Абу Закарія, піднесення Ваттасидів"
  },
  "flavor_mor.5.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -829,7 +829,7 @@
  },
  "flavor_mor.6.entry": {
   "en": "CONSPIRATION",
-  "uk": ""
+  "uk": "ЗМОВА"
  },
  "flavor_mor.6.title": {
   "en": "A [ShowDynastyNameWithNoTooltip('wattasid_dynasty')] Conspiracy?",
@@ -893,7 +893,7 @@
  },
  "variable_accepted_sidi_ahmed_ou_moussa_variable_tt": {
   "en": "Sidi Ahmed ou Moussa was Welcomed",
-  "uk": ""
+  "uk": "Сіді Ахмеда у Муссу прийнято"
  },
  "wattasid_rebels": {
   "en": "[ShowDynastyName('wattasid_dynasty')] Rebels",

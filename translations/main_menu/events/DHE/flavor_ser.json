@@ -64,16 +64,16 @@
   "uk": "Слабкість корони"
  },
  "flavor_ser.100.a": {
-  "en": "The city is ours and it will be renamed.",
-  "uk": "Місто наше, і ми дамо йому нову назву."
+  "en": "Another triumph for our people.",
+  "uk": "Ще один тріумф нашого народу."
  },
  "flavor_ser.100.b": {
-  "en": "We will keep its original name.",
-  "uk": "Ми збережемо стару назву."
+  "en": "Show respect for the locals.",
+  "uk": "Виявімо повагу до місцевих."
  },
  "flavor_ser.100.desc": {
-  "en": "For centuries, our people have dreamt of owning the City of World's Desire. Now, our armies have managed to conquer the city and our banners fly, proud, over the most iconic places in it.\\n\\nOur ruler, [target_character.GetName], can now be considered a true Tsar or Emperor as [target_character.GetSheHe] has the most beautiful and powerful of all cities under [target_character.GetHerHis] grasp.\\n\\nOne might ask if the city should not change its name to a more fitting one: #Italic The city of the Tsars#!.",
-  "uk": "Упродовж століть наш народ мріяв заволодіти Царицею міст, і тепер ця мрія здійснилася. Місто впало під натиском наших армій, над його стінами й палацами гордо маюють наші знамена.\\n\\nВідтепер [Select_CString(target_character.IsFemale,'наша правителька', 'наш правитель')], [target_character.GetName], має право називати себе [Select_CString(target_character.IsFemale,'царицею й імператрицею', 'царем і імператором')], адже [Select_CString(target_character.IsFemale,'їй', 'йому')] покорилася найвеличніша зі столиць світу!\\n\\nЧи не час дати місту більш відповідну назву — #Italic  Царський град#!?"
+  "en": "For centuries, our people have dreamt of owning the #italic City of World's Desire#!. Now, our armies have managed to conquer [target_location.GetName] and our banners fly, proud, over the most iconic places in it.\\n\\n[target_character.GetName] can now be considered a true Tsar or Emperor as [target_character.GetSheHe] has the most beautiful and powerful of all cities under [target_character.GetHerHis] grasp.\\n\\nOne might ask if the location should bend to emulate the elevated culture of its newest masters.",
+  "uk": "Століттями наш народ мріяв заволодіти #italic Жаданим містом світу#!. І ось наші армії завоювали [target_location.GetName], а над найвідомішими його місцями гордо майорять наші знамена.\\n\\nВідтепер [target_character.GetName] може по праву зватися справжнім царем чи імператором, адже [target_character.GetSheHe] тримає у своїй руці найпрекрасніше й наймогутніше з усіх міст. Під владою [target_character.GetHerHis] опинилася сама перлина світу.\\n\\nЧи не варто місту схилитися перед вишуканою культурою своїх нових господарів?"
  },
  "flavor_ser.100.title": {
   "en": "The Conquest of Tsarigrad",
@@ -121,7 +121,7 @@
  },
  "flavor_ser.110.entry": {
   "en": "Novo Brdo grows",
-  "uk": ""
+  "uk": "Ново-Брдо зростає"
  },
  "flavor_ser.110.title": {
   "en": "[target_location.GetNameWithNoTooltip] Grows",
@@ -165,7 +165,7 @@
  },
  "flavor_ser.120.entry": {
   "en": "Gold found in Lece",
-  "uk": ""
+  "uk": "Золото в Лече"
  },
  "flavor_ser.120.title": {
   "en": "[ShowGoodsNameWithNoTooltip('goods_gold')] found in Lece",
@@ -185,23 +185,23 @@
  },
  "flavor_ser.130.entry": {
   "en": "The Fortress of Smederevo",
-  "uk": ""
+  "uk": "Фортеця Смедерево"
  },
  "flavor_ser.130.title": {
   "en": "The Fortress of [ShowLocationNameWithNoTooltip('smederevo')]",
   "uk": "Фортеця [ShowLocationNameWithNoTooltip('smederevo')]"
  },
  "flavor_ser.140.a": {
-  "en": "[target_character.GetSheHe|U] should work for the government.",
-  "uk": "[Select_CString(target_character.IsFemale,'Її','Його')] місце в уряді."
+  "en": "He should work for the government.",
+  "uk": "Його місце в уряді."
  },
  "flavor_ser.140.b": {
-  "en": "[target_character.GetSheHe|U] is an inspiration for our people.",
-  "uk": "[Select_CString(target_character.IsFemale,'Ця жінка','Ця людина')] — справжнє джерело натхнення для нашого народу."
+  "en": "He is an inspiration for our people.",
+  "uk": "Він — справжнє джерело натхнення для нашого народу."
  },
  "flavor_ser.140.desc": {
-  "en": "Born in [target_character.GetBirthDate], [target_character.GetName] is a prominent [ShowCultureName('serbian')] scholar, writer, and educator. [target_character.GetHerHis|U] life's work has significantly impacted not only [ShowCultureNameWithNoTooltip('serbian')] culture but also the broader realm of European Enlightenment.\\n\\nInspired by Western learning, [target_character.GetLastNameWithNoTooltip] has made it [target_character.GetHerHis] mission to transform [ShowCultureNameWithNoTooltip('serbian')] literature and language to align more closely with the vernacular spoken by ordinary people, distinct from the predominantly ecclesiastical language of [ROOT.GetCountry.GetReligion.GetLanguage.GetName]\\n\\nSeveral voices in our government are proposing [target_character.GetHerHis] name as a possible minister, while others claim that [target_character.GetSheHe] is not special.",
-  "uk": "[target_character.GetName] [target_character.GetBirthDate] року народження — [Select_CString(target_character.IsFemale,'великий', 'великий')] #TOOLTIP:CULTURE,$serbian_tt$,X #L [Select_CString(target_character.IsFemale,'сербська', 'сербський')]#!#! [Select_CString(target_character.IsFemale,'вчена', 'вчений')], [Select_CString(target_character.IsFemale,'письменниця', 'письменник')] і [Select_CString(target_character.IsFemale,'просвітителька', 'просвітитель')]. [Select_CString(target_character.IsFemale,'Її', 'Його')] праці справили великий вплив не лише на сербську культуру, а й на загальноєвропейські ідеї Просвітництва.\\n\\nПід впливом західних мислителів [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale,'зайнялася', 'зайнявся')] оновленням мови й приведенням сербської літератури у відповідність із розмовною мовою. Твори, написані #L [ROOT.GetCountry.GetReligion.GetLanguage.GetName|l]ою#!, — переважно мовою богослужіння, — раніше були малозрозумілі для простого народу.\\n\\nДеякі члени уряду виступають за те, щоб запропонувати [Select_CString(target_character.IsFemale,'їй', 'йому')] посаду радника. Їхні опоненти стверджують, що [target_character.GetLastNameWithNoTooltip] не є нічим особливим."
+  "en": "Born in [target_character.GetBirthDate], [target_character.GetName] is a prominent [ShowCultureName('serbian')] scholar, writer, and educator. His life's work has significantly impacted not only [ShowCultureNameWithNoTooltip('serbian')] culture but also the broader realm of European Enlightenment.\\n\\nInspired by Western learning, [target_character.GetLastNameWithNoTooltip] has made it his mission to transform [ShowCultureNameWithNoTooltip('serbian')] literature and language to align more closely with the vernacular spoken by ordinary people, distinct from the predominantly ecclesiastical language of [ROOT.GetCountry.GetReligion.GetLanguage.GetName]\\n\\nSeveral voices in our government are proposing his name as a possible minister, while others claim that he is not special.",
+  "uk": "[target_character.GetName], народжений [target_character.GetBirthDate], — видатний вчений, письменник і просвітитель, носій культури [ShowCultureName('serbian')]. Його праці справили великий вплив не лише на культуру [ShowCultureNameWithNoTooltip('serbian')], а й на ширший світ європейського Просвітництва.\\n\\nНатхненний західною вченістю, [target_character.GetLastNameWithNoTooltip] поставив собі за мету наблизити літературу й мову [ShowCultureNameWithNoTooltip('serbian')] до живої мови простого люду, відмінної від переважно церковної мови — [ROOT.GetCountry.GetReligion.GetLanguage.GetName]\\n\\nДехто в уряді пропонує його на посаду міністра, інші ж стверджують, що нічим особливим він не вирізняється."
  },
  "flavor_ser.140.entry": {
   "en": "$flavor_ser.140.title$",
@@ -225,7 +225,7 @@
  },
  "flavor_ser.150.entry": {
   "en": "The Recapture of Belgrade",
-  "uk": ""
+  "uk": "Повернення Белграда"
  },
  "flavor_ser.150.title": {
   "en": "The Recapture of [target_location.GetNameWithNoTooltip]",
@@ -241,7 +241,7 @@
  },
  "flavor_ser.160.entry": {
   "en": "Battle of Kosovo",
-  "uk": ""
+  "uk": "Косовська битва"
  },
  "flavor_ser.160.historical_info": {
   "en": "The Battle of Kosovo, fought on June 28th, 1389, was a significant and pivotal conflict between the Serbian-led Christian forces and the expanding Ottoman Empire. This battle took place on the Kosovo Field, near the town of Priština, and is remembered as one of the most crucial battles in the history of the Balkans. One of the most notable aspects of the Battle of Kosovo was the death of the Ottoman Sultan Murad I. According to historical accounts, Murad was assassinated in his tent by the Serbian knight Miloš Obilić, who infiltrated the Ottoman camp under the pretense of defecting. This assassination marked the only time in history that an Ottoman sultan died in battle.",
@@ -261,7 +261,7 @@
  },
  "flavor_ser.170.entry": {
   "en": "Belgrade - the White Phoenix",
-  "uk": ""
+  "uk": "Белград — Білий фенікс"
  },
  "flavor_ser.170.title": {
   "en": "[target_location.GetNameWithNoTooltip] - the White Phoenix",
@@ -341,7 +341,7 @@
  },
  "flavor_ser.210.entry": {
   "en": "The Novo Brdo Code",
-  "uk": ""
+  "uk": "Ново-Брдоський законник"
  },
  "flavor_ser.210.historical_info": {
   "en": "The Mining Code of Novo Brdo, established in 1412 by Stefan Lazarević, was a comprehensive set of regulations governing mining operations, workers' rights, and the organization of mining towns in medieval Serbia. It provided detailed guidelines on property rights, safety measures, and economic practices, significantly influencing the development and prosperity of mining communities.",
@@ -356,16 +356,16 @@
   "uk": "Відкриває правило #TOOLTIP:POLICY,novo_brdo_mining_law,X #L «Ново-Брдоський законник»#!#! у сфері гірничого права."
  },
  "flavor_ser.220.a": {
-  "en": "We are indebted to [target_character.GetHimHer]!",
-  "uk": "Ми перед [Select_CString(target_character.IsFemale,'нею', 'ним')] у боргу!"
+  "en": "We are indebted to him!",
+  "uk": "Ми перед ним у боргу!"
  },
  "flavor_ser.220.desc": {
-  "en": "[target_character.GetName] and [target_character.GetHisHer] elite corps of Germanic warriors, called the Allemanic Guard, play a crucial role in safeguarding the [ROOT.GetCountry.GetFlavorRank] and enforcing [GetCharacter('ser_stefan_dusan').GetName]'s will. Under [target_character.GetHisHer] command, the Allemanic Guard has become known for their discipline, valor, and loyalty, and it stands as a symbol of strength and stability during turbulent times.",
-  "uk": "[target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] Алеманнська гвардія — відбірний загін німецьких солдатів, — відіграють найважливішу роль у захисті [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. [GetCharacter('ser_stefan_dusan').GetName] довіряє [Select_CString(target_character.IsFemale,'їй', 'йому')] як [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'самій', 'самому')] собі. Алеманнська гвардія прославилася своєю дисципліною, вірністю й відвагою, в ці неспокійні часи вона залишається прикладом надійності й сили."
+  "en": "[target_character.GetName] and his elite corps of Germanic warriors, called the Allemanic Guard, play a crucial role in safeguarding the [ROOT.GetCountry.GetFlavorRank] and enforcing [GetCharacter('ser_stefan_dusan').GetName]'s will. Under his command, the Allemanic Guard has become known for their discipline, valor, and loyalty, and it stands as a symbol of strength and stability during turbulent times.",
+  "uk": "[target_character.GetName] і його відбірний загін германських воїнів, Алеманнська гвардія, відіграють ключову роль у захисті держави ([ROOT.GetCountry.GetFlavorRank]) і втіленні волі, яку проголошує [GetCharacter('ser_stefan_dusan').GetName]. Під його командуванням Алеманнська гвардія прославилася дисципліною, відвагою й вірністю і в ці неспокійні часи стала символом сили та стабільності."
  },
  "flavor_ser.220.entry": {
   "en": "Palman Bracht",
-  "uk": ""
+  "uk": "Палман Брахт"
  },
  "flavor_ser.220.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -420,12 +420,12 @@
   "uk": "Ось [Select_CString(target_character.IsFemale,'істинна служителька','істинний служитель')] Христа!"
  },
  "flavor_ser.250.desc": {
-  "en": "[target_character.GetName], appointed as the esteemed head of the [ROOT.GetCountry.GetAdjective] Patriarchate, stands as a pillar of spiritual strength for our nation. Under [target_character.GetHisHer] leadership, [ROOT.GetCountry.GetName] shines brightly as a bastion of Christendom, fostering unity and moral guidance among our people. [target_character.GetHisHer|U] steadfast commitment to religious integrity and wisdom has elevated [ROOT.GetCountry.GetNameWithNoTooltip]'s influence in the [ShowReligionAdjective('orthodox')] world.",
-  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale,'шанована','шанований')] глава #L [ROOT.GetCountry.GetAdjective]ого#! Патріархату — справжня духовна опора для нашого народу. Під [Select_CString(target_character.IsFemale,'її','його')] керівництвом [ROOT.GetCountry.GetName] залишається бастіоном християнства, а церква зберігає єдність нації й підтримує її дух. [Select_CString(target_character.IsFemale,'Її','Його')] непохитна відданість заповідям Христа сприяє зміцненню авторитету [ROOT.GetCountry.Custom('CL_GEN')] у всьому #L [ShowReligionAdjective('orthodox')|l]ому#! світі."
+  "en": "[target_character.GetName], appointed as the esteemed head of the [ROOT.GetCountry.GetAdjective] Patriarchate, stands as a pillar of spiritual strength for our nation. Under his leadership, [ROOT.GetCountry.GetName] shines brightly as a bastion of Christendom, fostering unity and moral guidance among our people. His steadfast commitment to religious integrity and wisdom has elevated [ROOT.GetCountry.GetNameWithNoTooltip]'s influence in the [ShowReligionAdjective('orthodox')] world.",
+  "uk": "[target_character.GetName], шанований глава [ROOT.GetCountry.GetAdjective] Патріархату, — справжня духовна опора нашого народу. Під його проводом [ROOT.GetCountry.GetName] яскраво сяє як бастіон християнства, плекаючи єдність і моральні орієнтири серед людей. Його непохитна відданість чистоті віри й мудрість зміцнили вплив [ROOT.GetCountry.Custom('CL_GEN')] у [ShowReligionAdjective('orthodox')] світі."
  },
  "flavor_ser.250.entry": {
   "en": "Makarije Sokolovic",
-  "uk": ""
+  "uk": "Макарій Соколович"
  },
  "flavor_ser.250.historical_info": {
   "en": "Sokolović was historically significant as the Serbian Patriarch during a critical period of Ottoman rule. He played a pivotal role in preserving Serbian Orthodox traditions and identity, providing spiritual guidance and leadership amidst political upheaval. Makarije's tenure laid the foundation for the resilience of Serbian Orthodoxy and contributed to the cultural and religious continuity of the Serbian people under Ottoman domination.",
@@ -437,31 +437,31 @@
  },
  "flavor_ser.260.a": {
   "en": "We cannot hold them.",
-  "uk": ""
+  "uk": "Нам їх не втримати."
  },
  "flavor_ser.260.b": {
   "en": "They will be crushed!",
-  "uk": ""
+  "uk": "Їх буде розчавлено!"
  },
  "flavor_ser.260.c": {
   "en": "The future lies with [GetCountry('ZTA').GetNameWithNoTooltip].",
-  "uk": ""
+  "uk": "Майбутнє — за [GetCountry('ZTA').GetNameWithNoTooltip]."
  },
  "flavor_ser.260.desc": {
   "en": "The passing of [GetCharacter('ser_stefan_dusan').GetName] shattered the unity of the [ROOT.GetCountry.GetFlavorRank], with regional [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] fighting for power and influence throughout the entirety of [ROOT.GetCountry.GetName]. In the province of [ShowProvinceDefinitionName('zeta_province')], the situation is especially dire. [target_character.GetName] has grown too powerful to be restrained, and the region has effectively slipped from our grasp.",
-  "uk": ""
+  "uk": "Смерть, що забрала [GetCharacter('ser_stefan_dusan').GetName], розбила єдність держави ([ROOT.GetCountry.GetFlavorRank]): регіональні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] борються за владу й вплив по всій країні — [ROOT.GetCountry.GetName]. Особливо скрутне становище в провінції [ShowProvinceDefinitionName('zeta_province')]. [target_character.GetName] став надто могутнім, щоб його стримати, і край фактично вислизнув з-під нашої влади."
  },
  "flavor_ser.260.entry": {
   "en": "The Secession of Zeta",
-  "uk": ""
+  "uk": "Відокремлення Зети"
  },
  "flavor_ser.260.historical_info": {
   "en": "After the death of Serbian Emperor Stefan Dušan in 1355, regional lords gained strength across the Empire, including the House of Balšić. By 1360, the Balšići were the most powerful nobles in Zeta, and over the years, they became the undisputed regional lords. After Emperor Uroš's death in 1371, Zeta became effectively indepdendent and remained as such until 1421, when it was once again reunited with Serbia.",
-  "uk": ""
+  "uk": "Після смерті сербського імператора Стефана Душана 1355 року по всій імперії посилилися місцеві володарі, зокрема рід Балшичів. До 1360 року Балшичі стали наймогутнішими вельможами Зети, а згодом — її беззаперечними господарями. Після смерті імператора Уроша 1371 року Зета фактично здобула незалежність і зберігала її до 1421 року, коли знову возз’єдналася із Сербією."
  },
  "flavor_ser.260.title": {
   "en": "The Secession of [GetCountry('ZTA').GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Відокремлення: [GetCountry('ZTA').GetNameWithNoTooltip]"
  },
  "flavor_ser.30.a": {
   "en": "To the gates of [ShowLocationNameWithNoTooltip('constantinople')], the glory of Rome awaits!",
@@ -473,7 +473,7 @@
  },
  "flavor_ser.30.entry": {
   "en": "The Dreams of Stefan $dusan$",
-  "uk": ""
+  "uk": "Мрії Стефана $dusan$"
  },
  "flavor_ser.30.historical_info": {
   "en": "Stefan Uroš IV Dušan was proclaimed Emperor in 1346, marking the zenith of medieval Serbian power. His reign was defined by military conquests and legal reforms that transformed Serbia into a dominant Balkan empire. Capitalizing on the weakening Byzantine Empire, Dušan expanded his realm to include large parts of Macedonia, Thessaly, and even Epirus. In a grand ecclesiastical assembly held in Skopje, he was crowned Emperor of the Serbs and Greeks, asserting both political supremacy and ecclesiastical independence by elevating the Serbian Archbishopric to a Patriarchate. This imperial proclamation symbolized Serbia's ambition to succeed Byzantium as the leading Orthodox Christian power in the region.",
@@ -508,20 +508,20 @@
   "uk": "Розквіт нового царства"
  },
  "flavor_ser.40.a": {
-  "en": "[target_character.GetSheHe|U] will make a fine addition to our ranks.",
-  "uk": "[Select_CString(target_character.IsFemale,'Вона', 'Він')] стане непоганим доповненням до наших воїнів."
+  "en": "He will make a fine addition to our ranks.",
+  "uk": "Він стане гідним поповненням наших лав."
  },
  "flavor_ser.40.b": {
   "en": "We have no need for turncoats!",
   "uk": "Перебіжчикам у нас не раді!"
  },
  "flavor_ser.40.desc": {
-  "en": "It is no secret that the court of our foe is full of power-hungry vultures ready to devour the body of their own country at the first sight of weakness. As times of war are upon us, the faltering of the [GetCountry('BYZ').GetName] has become apparent to those with high aspirations. One such individual is [target_character.GetName]. Scorned by [target_character.GetHerHis] peers and having [target_character.GetHerHis] dreams of royalty crushed, [target_character.GetSheHe] has offered [target_character.GetHerHis] sword against our enemies.",
-  "uk": "Не секрет, що при дворі нашого ворога вистачає жадібних стерв'ятників, готових розірвати власну державу на частини при першій же ознаці слабкості. З початком війни хитке становище #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! стало очевидним для всіх придворних із честолюбними прагненнями. [Select_CString(target_character.IsFemale,'Однією', 'Одним')] із них [Select_CString(target_character.IsFemale,'стала', 'став')] [target_character.GetName]. Позбавившись прихильників і втративши надію захопити трон, [Select_CString(target_character.IsFemale,'вона вирішила', 'він вирішив')] перейти на наш бік."
+  "en": "It is no secret that the court of our foe is full of power-hungry vultures ready to devour the body of their own country at the first sight of weakness. As times of war are upon us, the faltering of the [GetCountry('BYZ').GetName] has become apparent to those with high aspirations. One such individual is [target_character.GetName]. Scorned by his peers and having his dreams of royalty crushed, he has offered his sword against our enemies.",
+  "uk": "Не секрет, що двір нашого ворога кишить жадібними до влади стерв’ятниками, готовими розтерзати власну державу за першої ж ознаки слабкості. З початком війни хиткість, якою позначена [GetCountry('BYZ').GetName], стала очевидною для всіх честолюбців. Один із них — [target_character.GetName]. Зневажений рівними собі, з розтоптаними мріями про трон, він запропонував свій меч проти наших ворогів."
  },
  "flavor_ser.40.entry": {
   "en": "The Flight of John Kantakouzenos",
-  "uk": ""
+  "uk": "Втеча Іоанна Кантакузіна"
  },
  "flavor_ser.40.title": {
   "en": "The Flight of [target_character.GetNameWithNoTooltip]",
@@ -561,7 +561,7 @@
  },
  "flavor_ser.50.entry": {
   "en": "Stefan Dušan's Code",
-  "uk": ""
+  "uk": "Законник Стефана Душана"
  },
  "flavor_ser.50.historical_info": {
   "en": "The legal code, commonly known as the #italic Law of the Pious Emperor Stefan#!, is a significant historical document for the entire region as well as Serbian history. It was introduced during the reign of Dušan, who ruled over the Greeks and Serbs in the mid-14th century. This legal system is formally known as Dušan's Code, named after its primary author, and it played a crucial role in shaping the legal and administrative structure of the newly born Serbian Empire. This code is particularly noteworthy for drawing upon Byzantine and Roman legal traditions, reflecting the empire's diverse cultural influences. Dušan's Code covered various aspects of law, governance, and social organization, offering regulations on issues such as property rights, marriage, criminal justice, and taxation. It significantly contributed to the development of a uniform legal framework within the Serbian Empire during this period, leaving a lasting impact on the legal history of the entire region.",
@@ -837,18 +837,18 @@
  },
  "variable_battle_of_kosovo_var_tt": {
   "en": "The Battle of [ShowProvinceDefinitionName('kosovo_province')] has been Fought",
-  "uk": ""
+  "uk": "Битва в [ShowProvinceDefinitionName('kosovo_province')] відбулася"
  },
  "variable_had_serbian_disaster_variable_tt": {
   "en": "Serbia has Suffered a Time of Troubles",
-  "uk": ""
+  "uk": "Сербія пережила Смутний час"
  },
  "variable_manasija_built_tt": {
   "en": "The Manasija Monastery has been Built",
-  "uk": ""
+  "uk": "Монастир Манасія збудовано"
  },
  "variable_vidovdan_variable_tt": {
   "en": "The Vidovdan is Commemorated",
-  "uk": ""
+  "uk": "Видовдан вшановано"
  }
 }

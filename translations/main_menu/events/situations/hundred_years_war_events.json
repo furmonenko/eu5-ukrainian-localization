@@ -1,11 +1,11 @@
 {
  "able_to_defect_via_event_tt": {
   "en": "We will be able to defect via [event|e] should the other side accept",
-  "uk": ""
+  "uk": "Ми зможемо перейти на інший бік через [Concept('event','подію')|e], якщо інша сторона погодиться"
  },
  "able_to_request_peace_via_event_tt": {
   "en": "We may choose to abstain from the ongoing [war|e] between the [GetCountry('ENG').GetAdjectiveWithNoTooltip] and the [GetCountry('FRA').GetAdjectiveWithNoTooltip]",
-  "uk": ""
+  "uk": "Ми можемо вирішити не брати участі в поточній [Concept('war','війні')|e] між [GetCountry('ENG').GetAdjectiveWithNoTooltip] і [GetCountry('FRA').GetAdjectiveWithNoTooltip] сторонами"
  },
  "armies_demoralized_tt": {
   "en": "The [morale|e] of our [armies|e] will suffer",
@@ -21,19 +21,19 @@
  },
  "england_wont_request_for_at_least_x_years_tt": {
   "en": "[actor.GetName] will not approach us with such an offer for at least #Y 3#! years",
-  "uk": ""
+  "uk": "[actor.GetName] не звертатиметься до нас із такою пропозицією щонайменше #Y 3#! роки"
  },
  "explain_eng_interactions_tt": {
-  "en": "We will gain access to unique [actions|e] such as [ShowGenericActionName('fra_diplomacy_with_subjects')] and [ShowGenericActionName('request_papal_delegates')] through the [situation|e] panel",
-  "uk": "На панелі [Concept('situation', 'ситуації')|e] стануть доступними особливі [Concept('actions', 'дії')|e], такі як #TOOLTIP:GENERIC_ACTION,fra_diplomacy_with_subjects,X #L присвоєння титулів васалам#!#! i #TOOLTIP:GENERIC_ACTION,request_papal_delegates,X #L запит [GetCountry('PAP').GetAdjectiveWithNoTooltip|l]их делегатів#!#!"
+  "en": "We will gain access to unique [actions|e] such as [ShowGenericActionName('influence_french_subject')] and [ShowGenericActionName('request_papal_delegates')] through the [situation|e] panel. Bribing a [GetCountry('FRA').GetAdjectiveWithNoTooltip] subject grants them the [ShowModifier('diplomatic_betrayal_modifier')], preventing [GetCountry('FRA').GetNameWithNoTooltip] from calling them to war for 5 years — though [GetCountry('FRA').GetNameWithNoTooltip] can shield subjects with [ShowGenericActionName('fra_diplomacy_with_subjects')] to block our bribes.",
+  "uk": "На панелі [Concept('situation','ситуації')|e] стануть доступними особливі [Concept('actions','дії')|e], такі як [ShowGenericActionName('influence_french_subject')] і [ShowGenericActionName('request_papal_delegates')]. Підкуплений васал сторони [GetCountry('FRA').GetAdjectiveWithNoTooltip] отримує [ShowModifier('diplomatic_betrayal_modifier')], і [GetCountry('FRA').GetNameWithNoTooltip] не може закликати його на війну протягом 5 років — утім, [GetCountry('FRA').GetNameWithNoTooltip] може захистити васалів дією [ShowGenericActionName('fra_diplomacy_with_subjects')] і так заблокувати наші хабарі."
  },
  "explain_fra_interactions_tt": {
-  "en": "We will gain access to unique [actions|e] such as [ShowGenericActionName('influence_french_subject')] and [ShowGenericActionName('request_papal_delegates')] through the [situation|e] panel",
-  "uk": "На панелі [Concept('situation', 'ситуації')|e] стануть доступними особливі [Concept('actions', 'дії')|e], такі як #TOOLTIP:GENERIC_ACTION,influence_french_subject,X #L вплив на [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]ого васала#!#! i #TOOLTIP:GENERIC_ACTION,request_papal_delegates,X #L запит [GetCountry('PAP').GetAdjectiveWithNoTooltip|l]их делегатів#!#!"
+  "en": "We will gain access to unique [actions|e] such as [ShowGenericActionName('fra_diplomacy_with_subjects')] and [ShowGenericActionName('request_papal_delegates')] through the [situation|e] panel. Using [ShowGenericActionName('fra_diplomacy_with_subjects')] shields our subjects with the [ShowModifier('strong_diplomacy_modifier')], preventing [GetCountry('ENG').GetNameWithNoTooltip] from bribing them while it is active.",
+  "uk": "На панелі [Concept('situation','ситуації')|e] стануть доступними особливі [Concept('actions','дії')|e], такі як [ShowGenericActionName('fra_diplomacy_with_subjects')] і [ShowGenericActionName('request_papal_delegates')]. Дія [ShowGenericActionName('fra_diplomacy_with_subjects')] дає нашим васалам [ShowModifier('strong_diplomacy_modifier')], і, поки він діє, [GetCountry('ENG').GetNameWithNoTooltip] не може їх підкупити."
  },
  "explain_subject_interactions_tt": {
-  "en": "As a [subject|e] of [GetCountry('FRA').GetNameWithNoTooltip], our [subject_loyalty|e] will determine whether or not we will be called to arms in the defense of our overlord. For the duration of the [situation|e], we may gain access to unique [actions|e] such as [ShowGenericActionName('demand_autonomy')] and [ShowGenericActionName('demand_appanage_promotion')] through the [situation|e] panel",
-  "uk": "Як [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]их [Concept('subject', 'васалів')|e], нас можуть покликати на захист сюзерена — це залежить від нашої [Concept('subject_loyalty', 'лояльності')|e]. Поки [Concept('situation', 'ситуація')|e] зберігається, на панелі [Concept('situation', 'ситуації')|e] можуть стати доступними особливі [Concept('actions', 'дії')|e], такі як #TOOLTIP:GENERIC_ACTION,demand_autonomy,X #L «[GetCountry('FRA').GetLongNameWithNoTooltip] — вимога автономії від цієї держави»#!#! i #TOOLTIP:GENERIC_ACTION,demand_appanage_promotion,X #L «Вимога підвищення до апанажу»#!#!"
+  "en": "As a [subject|e] of [GetCountry('FRA').GetNameWithNoTooltip], our [subject_loyalty|e] will determine whether or not we will be called to arms in the defense of our overlord. For the duration of the [situation|e], we may gain access to unique [actions|e] such as [ShowGenericActionName('demand_autonomy')] and [ShowGenericActionName('demand_appanage_promotion')] through the [situation|e] panel. Be aware that [GetCountry('ENG').GetNameWithNoTooltip] may attempt to bribe us, granting us the [ShowModifier('diplomatic_betrayal_modifier')] and preventing us from being called to war — while [GetCountry('FRA').GetNameWithNoTooltip] can use [ShowGenericActionName('fra_diplomacy_with_subjects')] to shield us from such bribes.",
+  "uk": "Як [Concept('subject','васали')|e] держави [GetCountry('FRA').GetNameWithNoTooltip], ми можемо бути покликані на захист сюзерена — це залежить від нашої [Concept('subject_loyalty','лояльності')|e]. Поки триває [Concept('situation','ситуація')|e], на панелі [Concept('situation','ситуації')|e] можуть стати доступними особливі [Concept('actions','дії')|e], такі як [ShowGenericActionName('demand_autonomy')] і [ShowGenericActionName('demand_appanage_promotion')]. Зважайте: [GetCountry('ENG').GetNameWithNoTooltip] може спробувати нас підкупити — тоді ми отримаємо [ShowModifier('diplomatic_betrayal_modifier')] і нас не зможуть закликати на війну, — а [GetCountry('FRA').GetNameWithNoTooltip] може захистити нас від таких хабарів дією [ShowGenericActionName('fra_diplomacy_with_subjects')]."
  },
  "genoese_mercs_name": {
   "en": "$ligurian$ $merc_company$",
@@ -89,7 +89,7 @@
  },
  "hundred_years_war.101.entry": {
   "en": "$FRA$ Wins the Hundred Years War",
-  "uk": ""
+  "uk": "$FRA$ перемагає у Столітній війні"
  },
  "hundred_years_war.101.title": {
   "en": "[GetCountry('FRA').GetNameWithNoTooltip] Wins the [ShowSituationNameWithNoTooltip('hundred_years_war')]",
@@ -161,7 +161,7 @@
  },
  "hundred_years_war.200.entry": {
   "en": "Fugitive Robert De Artois Flees to $ENG$",
-  "uk": ""
+  "uk": "Утікач Робер д’Артуа тікає до $ENG$"
  },
  "hundred_years_war.200.title": {
   "en": "[fugitive_robert_de_artois.GetNameWithNoTooltip] Flees to [GetCountry('ENG').GetNameWithNoTooltip]",
@@ -189,7 +189,7 @@
  },
  "hundred_years_war.201.entry": {
   "en": "$FRA$ Demands Fugitive Robert De Artois",
-  "uk": ""
+  "uk": "$FRA$ вимагає видати втікача Робера д’Артуа"
  },
  "hundred_years_war.201.title": {
   "en": "[GetCountry('FRA').GetNameWithNoTooltip] Demands [fugitive_robert_de_artois.GetNameWithNoTooltip]",
@@ -217,7 +217,7 @@
  },
  "hundred_years_war.202.entry": {
   "en": "$ENG$ Refuses to Surrender of Fugitive Robert De Artois",
-  "uk": ""
+  "uk": "$ENG$ відмовляється видати втікача Робера д’Артуа"
  },
  "hundred_years_war.202.title": {
   "en": "[GetCountry('ENG').GetNameWithNoTooltip] Refuses to Surrender of [fugitive_robert_de_artois.GetNameWithNoTooltip]",
@@ -249,7 +249,7 @@
  },
  "hundred_years_war.203.entry": {
   "en": "England Returns Robert",
-  "uk": ""
+  "uk": "Англія повертає Робера"
  },
  "hundred_years_war.203.title": {
   "en": "[GetCountry('ENG').GetNameWithNoTooltip] Surrenders [fugitive_robert_de_artois.GetNameWithNoTooltip]",
@@ -260,8 +260,8 @@
   "uk": "[SCOPE.sCharacter('fugitive_robert_de_artois').GetShortNameWithNoTooltip] не буде [Select_CString(SCOPE.sCharacter('fugitive_robert_de_artois').IsFemale, 'страчена', 'страчений' )] через свою належність до аристократів."
  },
  "hundred_years_war.203.tt.d": {
-  "en": "[SCOPE.sCharacter('fugitive_robert_de_artois').GetShortNameWithNoTooltip] will become Lord of [GetCountry('ARS').GetLongNameWithNoTooltip], creating a new Vassal from [GetCountry('BUR').GetAdjective] lands!",
-  "uk": "[SCOPE.sCharacter('fugitive_robert_de_artois').GetShortNameWithNoTooltip] стане правити територією під назвою [GetCountry('ARS').GetLongNameWithNoTooltip], а у нас з'явиться новий васал — [GetCountry('BUR').GetName]!"
+  "en": "[SCOPE.sCharacter('fugitive_robert_de_artois').GetShortNameWithNoTooltip] will become Lord of [GetCountry('ARS').GetLongNameWithNoTooltip], becoming a Vassal of [ROOT.GetName]!",
+  "uk": "[SCOPE.sCharacter('fugitive_robert_de_artois').GetShortNameWithNoTooltip] стане володарем [GetCountry('ARS').GetLongNameWithNoTooltip] і васалом [ROOT.GetName]!"
  },
  "hundred_years_war.204.a": {
   "en": "The [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip] will rule the throne of [GetCountry('FRA').GetNameWithNoTooltip]!",
@@ -281,7 +281,7 @@
  },
  "hundred_years_war.204.entry": {
   "en": "Fugitive Robert De Artois and the $FRA_ADJ$ Crown",
-  "uk": ""
+  "uk": "Утікач Робер д’Артуа і корона $FRA_ADJ$"
  },
  "hundred_years_war.204.title": {
   "en": "[fugitive_robert_de_artois.GetNameWithNoTooltip] and the [GetCountry('FRA').GetAdjectiveWithNoTooltip] Crown",
@@ -305,7 +305,7 @@
  },
  "hundred_years_war.205.entry": {
   "en": "The Lord of $ARS$",
-  "uk": ""
+  "uk": "Володар $ARS$"
  },
  "hundred_years_war.205.title": {
   "en": "The Lord of [GetCountry('ARS').GetNameWithNoTooltip]",
@@ -380,12 +380,12 @@
   "uk": "Ми ніколи не зрадимо свого сюзерена!"
  },
  "hundred_years_war.209.desc": {
-  "en": "[GetCountry('ENG').GetName] has approached us, a subject of [GetCountry('FRA').GetName], seeking to sway us away from our overlord. They offer compensation in exchange for our neutrality, ensuring that we do not take up arms in any future defensive wars that [GetCountry('FRA').GetNameWithNoTooltip] may find itself in. Accepting could bring security and wealth — but at what cost to our loyalties?",
-  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#! пропонує нам, васалам #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, відвернутися від свого сюзерена. Якщо ми відмовимося брати участь в оборонних війнах [GetCountry('FRA').Custom('CL_GEN')], нас щедро винагородять за нейтралітет. Прийнявши цю пропозицію, ми отримаємо багатство і гарантуємо свою безпеку… але що станеться з нашою честю?"
+  "en": "[GetCountry('ENG').GetName] has approached us, a subject of [GetCountry('FRA').GetName], seeking to buy our neutrality. They acknowledge our obligations to the [GetCountry('FRA').GetNameWithNoTooltip] crown, but ask that we refrain from engaging their armies directly, should war come. In return, they offer generous compensation. Security and wealth await at what cost to our loyalty.",
+  "uk": "[GetCountry('ENG').GetName] звертається до нас, васалів [GetCountry('FRA').Custom('CL_GEN')], і хоче купити наш нейтралітет. Там визнають наші зобов’язання перед короною [GetCountry('FRA').Custom('CL_GEN')], але просять, щоб у разі війни ми не вступали в бій з їхніми арміями. Натомість пропонують щедру винагороду. Безпека й багатство чекають на нас… але якою ціною для нашої вірності?"
  },
  "hundred_years_war.209.title": {
-  "en": "[actor.GetNameWithNoTooltip] Approaches [target_subject.GetName]",
-  "uk": "[actor.GetNameWithNoTooltip] пропонує #ONCLICK:COUNTRY,[target_subject.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_subject.Custom('CL_tt')],X [target_subject.Custom('CL_DAT')|L]#!#! угоду"
+  "en": "[actor.GetNameWithNoTooltip] Approaches [target_subject.GetNameWithNoTooltip]",
+  "uk": "[actor.GetNameWithNoTooltip] звертається до [target_subject.Custom('CL_GEN')]"
  },
  "hundred_years_war.21.a": {
   "en": "And War it shall be!",
@@ -548,8 +548,8 @@
   "uk": "Ми не готові давати таку обіцянку."
  },
  "hundred_years_war.218.desc": {
-  "en": "The [target_asker.GetGovernment.GetCourtTitle] of [target_asker.GetName] has approached us with a formal proposal: a truce, not born of battle, but of foresight. Though our nations are not presently at war, the tides of the ongoing conflict in [ShowRegionName('france_region')] threaten to drag us into its current. To prevent such a fate, they offer gold and the promise of peace.Their message is clear, they seek no quarrel, only distance from entanglements that might yet unfold.\\n\\nThe question before us is whether we value caution over opportunity. Our advisors support the notion that such a gesture may yet be a form of diplomatic play! Indeed, [target_character1.GetName] could possibly wish to secure [target_character1.GetHerHis] border against [target_character2.GetName] in preparation for a military campaign elsewhere...",
-  "uk": "До нас з офіційною пропозицією звертається [target_asker.GetGovernment.GetCourtTitle|l] #ONCLICK:COUNTRY,[target_asker.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_asker.Custom('CL_tt')],X [target_asker.Custom('CL_GEN')|L]#!#!. З нами бажають укласти перемир'я, поки пожираюча #TOOLTIP:REGION,france_region,X #L Францію#!#! війна не втягнула в конфлікт і наші мирно співіснуючі держави. Цей передбачливий крок супроводжується пропозицією золота і обіцянками підтримувати мир. Очевидно, що інша сторона не шукає з нами сварки — вона лише хоче відсторонитися від прийдешніх перипетій. Така обережність похвальна… але чи варто нам жертвувати заради неї цим сприятливим мигом? Радники стверджують, що такий жест — лише хід у великій дипломатичній грі: ймовірно, [target_character1.GetName] хоче убезпечити свої кордони, на яких стоїть [target_character2.GetName], щоб здійснити похід кудись інде…"
+  "en": "The [target_asker.GetGovernment.GetCourtTitle] of [target_asker.GetName] has approached us with a formal proposal: a truce, not born of battle, but of foresight. Though our nations are not presently at war, the tides of the ongoing conflict in [ShowRegionName('france_region')] threaten to drag us into its current. To prevent such a fate, they offer gold and the promise of peace. Their message is clear, they seek no quarrel, only distance from entanglements that might yet unfold.\\n\\nThe question before us is whether we value caution over opportunity. Our advisors support the notion that such a gesture may yet be a form of diplomatic play! Indeed, [target_character1.GetName] could possibly wish to secure [target_character1.GetHerHis] border against [target_character2.GetName] in preparation for a military campaign elsewhere...",
+  "uk": "До нас з офіційною пропозицією звертається [target_asker.GetGovernment.GetCourtTitle] [target_asker.GetName]: перемир’я, народжене не битвою, а передбачливістю. Хоча наші держави нині не воюють, хвилі війни, що вирує в регіоні [ShowRegionName('france_region')], загрожують затягнути в свою течію і нас. Щоб уникнути такої долі, нам пропонують золото й обіцянку миру. Їхній намір ясний: вони не шукають сварки, а лише хочуть триматися осторонь перипетій, які ще можуть розгорнутися.\\n\\nПитання в тому, що для нас важливіше — обережність чи сприятлива нагода. Радники вважають, що такий жест цілком може бути ходом у дипломатичній грі! Можливо, [target_character1.GetName] прагне убезпечити [target_character1.GetHerHis] кордон від [target_character2.GetName], готуючись до походу деінде…"
  },
  "hundred_years_war.218.title": {
   "en": "A Pact of Caution",
@@ -569,7 +569,7 @@
  },
  "hundred_years_war.219.entry": {
   "en": "The Status of Normandy",
-  "uk": ""
+  "uk": "Статус Нормандії"
  },
  "hundred_years_war.219.historical_info": {
   "en": "Normandy was once the cornerstone of the Anglo-Norman realm, ruled by English monarchs ever since William the Conqueror claimed the English throne from these very lands. Its strategic and economic importance made it a constant point of friction between England and France. Though reconquered by the French crown under Philip II in the early 13th century, the English never fully relinquished their claims. At the outbreak of the Hundred Years' War, these old grievances resurfaced, with English kings asserting their right not just to the French throne, but to territories long lost — Normandy foremost among them. The region's dual heritage placed it at the center of dynastic rivalry and made it a flashpoint in the conflict to come.",
@@ -593,7 +593,7 @@
  },
  "hundred_years_war.220.entry": {
   "en": "The Brewer of Ghent",
-  "uk": ""
+  "uk": "Гентський пивовар"
  },
  "hundred_years_war.220.historical_info": {
   "en": "Jacob van Artevelde, a wealthy merchant and brewer from Ghent, emerged as a political leader during the early stages of the Hundred Years' War. Flanders, though a vassal of the French crown, relied heavily on English wool to sustain its powerful textile economy. As tensions between France and England escalated, van Artevelde championed a pro-English stance, securing trade and internal autonomy while resisting direct French control. His leadership briefly stabilized Flemish cities, but his growing power made him a target. In 1345, he would be murdered by a mob in Ghent, accused of attempting to impose English rule too directly.",
@@ -605,35 +605,35 @@
  },
  "hundred_years_war.230.a": {
   "en": "Our plan is coming together nicely...",
-  "uk": ""
+  "uk": "Наш задум чудово складається…"
  },
  "hundred_years_war.230.b": {
   "en": "We shall not deal with petty backstabbers!",
-  "uk": ""
+  "uk": "Ми не матимемо справ із дрібними зрадниками!"
  },
  "hundred_years_war.230.desc": {
   "en": "Despite their overlord's best efforts, it appears that the frustration of [actor.GetName] has reached a boiling point. A messenger from [actor.GetCapital.GetName] has arrived bringing word of a valuable opportunity. Indeed, [actor.GetGovernment.GetRulerOrRegent.GetName] is willing to join our side, before any hostilities break out between us and [target_enemy.GetName] erupt!",
-  "uk": ""
+  "uk": "Попри всі зусилля сюзерена, схоже, невдоволення [actor.GetName] досягло точки кипіння. Гонець із [actor.GetCapital.GetName] приніс звістку про цінну нагоду: [actor.GetGovernment.GetRulerOrRegent.GetName] готовий перейти на наш бік, ще до того як спалахне війна між нами та [target_enemy.GetName]!"
  },
  "hundred_years_war.230.title": {
   "en": "[actor.GetNameWithNoTooltip] Wishes to Defect",
-  "uk": ""
+  "uk": "[actor.GetNameWithNoTooltip] бажає перейти на наш бік"
  },
  "hundred_years_war.240.a": {
   "en": "Let us not escalate tensions!",
-  "uk": ""
+  "uk": "Не загострюймо напругу!"
  },
  "hundred_years_war.240.b": {
   "en": "To war!",
-  "uk": ""
+  "uk": "Оголошуємо війну!"
  },
  "hundred_years_war.240.desc": {
   "en": "Influential members of the [actor.GetAdjective] sphere have long been displeased with the technicality of a union between their [actor.GetFlavorRank] and us. While both sides consider this union an affront to God, they have taken things even further with the illegitimate crowning of [target_character.GetName] as [actor.GetGovernment.GetRulerTitle]! This is a valid cause for war, they should be eradicated!",
-  "uk": ""
+  "uk": "Впливові особи [actor.GetAdjective] сфери давно невдоволені формальною унією між їхньою державою ([actor.GetFlavorRank]) і нами. Обидві сторони вважають цю унію образою Бога, але вони пішли ще далі, незаконно коронувавши [target_character.GetName] як [actor.GetGovernment.GetRulerTitle]! Це законний привід до війни — їх слід знищити!"
  },
  "hundred_years_war.240.title": {
   "en": "[target_character.GetNameWithNoTooltip] Crowned in [actor.GetCapital.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "[target_character.GetNameWithNoTooltip] коронується в [actor.GetCapital.GetNameWithNoTooltip]"
  },
  "hundred_years_war.3.a": {
   "en": "The [GetCountry('ENG').GetAdjectiveWithNoTooltip] are fools!",
@@ -685,7 +685,7 @@
  },
  "ruler_regent_heir_not_overlord_dynasty_tt": {
   "en": "Our [heir|e] AND either our [ruler|e] or [regent|e] do not share the [dynasty|e] of our [overlord|e]",
-  "uk": ""
+  "uk": "Наш [heir|e], а також наш [Concept('ruler','правитель')|e] чи [Concept('regent','регент')|e] не належать до [Concept('dynasty','династії')|e] нашого [Concept('overlord','сюзерена')|e]"
  },
  "scope_actor_allowed_to_attack_other_subjects_of_fra_tt": {
   "en": "[actor.GetName] will be allowed to declare war against our other subjects without us intervening for #Y 20 years#!",
@@ -697,7 +697,7 @@
  },
  "slightly_discourage_existing_subjects_from_defecting_tt": {
   "en": "Our trustworthy stance to not accept the backstabbing [actor.GetAdjective] will slightly discourage our existing [subjects|e] from defecting",
-  "uk": ""
+  "uk": "Наша надійна позиція — не приймати підступну пропозицію [actor.GetAdjective] сторони — трохи утримає наших нинішніх [Concept('subjects','васалів')|e] від переходу на інший бік"
  },
  "sovereign_100_yw_215_effect_tt": {
   "en": "Should they accept, we will join their side against [scuffed_side_country.GetName] in the ongoing war",

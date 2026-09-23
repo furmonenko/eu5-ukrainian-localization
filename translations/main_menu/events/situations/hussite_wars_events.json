@@ -4,16 +4,16 @@
   "uk": "Оборонний [Concept('alliance','союз')|e] проти Богемії"
  },
  "DEFENDERS_HUSSITISM": {
-  "en": "Defensive [alliance|e] against $PAP$",
-  "uk": "Оборонний [Concept('alliance','союз')|e] проти Риму"
+  "en": "Defensive [alliance|e] against the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]",
+  "uk": "Оборонний [Concept('alliance','союз')|e] проти: [GetUniqueInternationalOrganization('hre').GetLeaderTitle]"
  },
  "HERETICS_CONVERTED": {
   "en": "Tribunal Conversions",
-  "uk": ""
+  "uk": "Навернені трибуналом"
  },
  "HERETICS_KILLED": {
   "en": "Tribunal Deaths",
-  "uk": ""
+  "uk": "Страчені трибуналом"
  },
  "HUSSITE_WARS_SIDE_BOHEMIA": {
   "en": "The [THIS.GetLocation.GetOwner.GetLongName|Y] is supporting the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!",
@@ -21,7 +21,7 @@
  },
  "HUSSITE_WARS_SIDE_EMPEROR": {
   "en": "The [THIS.GetLocation.GetOwner.GetLongName|Y] opposes the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!",
-  "uk": ""
+  "uk": "[THIS.GetLocation.GetOwner.GetLongName|Y] виступає проти держави [GetCountry('BOH').GetLongName] у ситуації «[ShowSituationName('hussite_wars')]»!"
  },
  "align_with_moderates_help_hw_action": {
   "en": "Align with the Moderates",
@@ -44,8 +44,8 @@
   "uk": "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] пожертвують кошти, які будуть спрямовані на піднесення духу нашого народу"
  },
  "boh_every_neighboring_country_tt": {
-  "en": "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] [opinion|e] towards us",
-  "uk": "Кожна несоюзна [Concept('country', 'держава')|e], що межує з нами, або будь-який наш [Concept('subjects', 'васал')|e] отримають [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] од. до [Concept('opinion', 'думки')|e] про нас"
+  "en": "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|+=0] [opinion|e] towards us",
+  "uk": "Кожна несоюзна [Concept('country','держава')|e], що межує з нами або з будь-яким нашим [Concept('subjects','васалом')|e], втратить [ShowBiasValue('violated_congress_of_visegrad_modifier')|+=0] од. [Concept('opinion','думки')|e] про нас"
  },
  "boh_hw_tt": {
   "en": "This is the [GetCountry('BOH').GetLongName], defenders of [ShowReligionName('hussite')]!",
@@ -53,7 +53,7 @@
  },
  "bohemia_and_emperor_at_war_with_both_being_leaders_tt": {
   "en": "[GetCountry('BOH').GetName] and [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] are at war with each other and each [country|e] is the [war_leader|e] of their respective side",
-  "uk": ""
+  "uk": "[GetCountry('BOH').GetName] і [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] воюють одна з одною, і кожна [Concept('country','держава')|e] є [Concept('war_leader','лідером війни')|e] свого боку"
  },
  "catholic_victory_tt": {
   "en": "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory",
@@ -105,19 +105,19 @@
  },
  "emperor_hw_tt": {
   "en": "This is the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRulerTitle], hellbent on destroying [ShowReligionName('hussite')]!",
-  "uk": ""
+  "uk": "Це [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRulerTitle], який понад усе прагне знищити [ShowReligionName('hussite')]!"
  },
  "end_hussite_wars_situation_tt": {
-  "en": "This will prevent the [ShowSituationName('hussite_wars')] [situation|e]",
-  "uk": "Це запобіжить виникненню [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,hussite_wars,X #L «Гуситські війни»#!#!"
+  "en": "The [ShowSituationName('hussite_wars')] [situation|e] will not occur as long as we do not convert to [ShowReligionName('hussite')]",
+  "uk": "[Concept('situation','Ситуація')|e] «[ShowSituationName('hussite_wars')]» не виникне, доки ми не навернемося в [ShowReligionName('hussite')]"
  },
  "every_neighbor_of_bohemia_gets_hussite_wars.3_tt": {
   "en": "The event '#Y A Pious Call to Arms#!' happens for every [ShowReligionAdjective('catholic')] non-allied neighboring country of [target_country.GetName]",
   "uk": "Подія #Y «Правовірні закликають до зброї»#! відбувається в кожній #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькій#!#! несоюзній державі неподалік від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#!"
  },
  "explain_situation_peace_treaty_tt": {
-  "en": "During this [war|e], we can eradicate [ShowReligionName('hussite')] through the [ShowPeaceTreatyTypeName('force_convert')] and [ShowPeaceTreatyTypeName('supress_hussite_faith')] [peace_treaties|e] and bring an end to the [ShowSituationName('hussite_wars')]",
-  "uk": "У ході цієї [Concept('war', 'війни')|e] ми зможемо знищити #TOOLTIP:RELIGION,hussite_tt,X #L гуситство#!#! за допомогою [Concept('peace_treaties', 'мирних договорів')|e] «[ShowPeaceTreatyTypeName('force_convert')]» та «[ShowPeaceTreatyTypeName('supress_hussite_faith')]» і покласти край #TOOLTIP:SITUATION,hussite_wars,X #L Гуситським війнам#!#!"
+  "en": "During this [war|e], we can eradicate [ShowReligionName('hussite')] through the #italic Force Convert#! and [ShowPeaceTreatyTypeName('supress_hussite_faith')] [peace_treaties|e] and bring an end to the [ShowSituationName('hussite_wars')]",
+  "uk": "У ході цієї [Concept('war','війни')|e] ми зможемо знищити [ShowReligionName('hussite')] за допомогою [Concept('peace_treaties','мирних договорів')|e] #italic «Примусове навернення»#! та «[ShowPeaceTreatyTypeName('supress_hussite_faith')]» і покласти край ситуації «[ShowSituationName('hussite_wars')]»"
  },
  "has_not_had_this_situation_before_tt": {
   "en": "This [situation|e] has not occurred before",
@@ -148,20 +148,20 @@
   "uk": "Ми не можемо собі дозволити розколи в католицизмі."
  },
  "hussite_wars.1.desc": {
-  "en": "Angered crowds led by [jan_zelivsky_scope.GetName] have flooded the streets of [target_boh_capital_scope.GetName], petitioning for expanded rights and the absolution of several [ShowReligionAdjective('hussite')] prisoners by the city's council. Unfortunately, the judge and his entourage have declined the demands of the protesters, leading to erupting violence in a vicious cycle of reforms being stalled and mob uprisings. Perhaps it is time we break the cycle...",
-  "uk": "Розгнівані юрби на чолі зі священником на ім'я [jan_zelivsky_scope.GetName] заполонили вулиці міста [target_boh_capital_scope.GetName]. Вони вимагають від міської ради розширення прав та звільнення кількох ув'язнених-#TOOLTIP:RELIGION,$hussite_tt$,X #L гуситів#!#!. На жаль, суддя та його помічники не виконали вимог протестувальників, що призвело до зростання невдоволення відсутністю реформ та спалаху насильства. Можливо, настав час розірвати це порочне коло…"
+  "en": "$hussite_wars.1.desc.generic$ Unfortunately, the judge and his entourage have declined the demands of the protesters, leading to erupting violence in a vicious cycle of reforms being stalled and mob uprisings. Perhaps it is time we break the cycle...",
+  "uk": "$hussite_wars.1.desc.generic$ На жаль, суддя та його почет відхилили вимоги протестувальників, і це призвело до спалаху насильства: реформи гальмуються, юрби бунтують, і так по колу. Можливо, настав час розірвати це порочне коло…"
  },
  "hussite_wars.1.desc.generic": {
   "en": "Angered crowds led by [jan_zelivsky_scope.GetName] have flooded the streets of [target_boh_capital_scope.GetName], petitioning for expanded rights and the absolution of several [ShowReligionAdjective('hussite')] prisoners by the city's council.",
-  "uk": ""
+  "uk": "Розгнівані юрби на чолі з [jan_zelivsky_scope.GetName] заполонили вулиці міста [target_boh_capital_scope.GetName]. Вони вимагають від міської ради розширення прав і звільнення кількох ув’язнених, що сповідують [ShowReligionAdjective('hussite')] віру."
  },
  "hussite_wars.1.desc.other_heresy": {
   "en": "$hussite_wars.1.desc.generic$ The mostly [ROOT.GetCountry.GetReligion.GetAdjective] council is more than sympathetic towards their [ShowReligionAdjectiveWithNoTooltip('hussite')] brethren, but [ShowReligionAdjective('catholic')] agents try to undermine to sabotage their cause. No matter if we decide to stay loyal to our faith, or support [ShowReligionNameWithNoTooltip('hussite')], one thing is for sure: the [ShowReligionAdjectiveWithNoTooltip('catholic')] world will perceive us as a heretic threat which needs to be destroyed...",
-  "uk": ""
+  "uk": "$hussite_wars.1.desc.generic$ Рада, що здебільшого сповідує [ROOT.GetCountry.GetReligion.GetAdjective] віру, щиро співчуває своїм [ShowReligionAdjectiveWithNoTooltip('hussite')] братам, але [ShowReligionAdjective('catholic')] агенти намагаються підірвати їхню справу. Хоч би що ми вирішили — лишитися вірними своїй вірі чи підтримати [ShowReligionNameWithNoTooltip('hussite')], — одне певне: [ShowReligionAdjectiveWithNoTooltip('catholic')] світ бачитиме в нас єретичну загрозу, яку слід знищити…"
  },
  "hussite_wars.1.entry": {
   "en": "Jan Želivský's Congregation",
-  "uk": ""
+  "uk": "Громада Яна Желівського"
  },
  "hussite_wars.1.title": {
   "en": "[jan_zelivsky_scope.GetNameWithNoTooltip]'s Congregation",
@@ -173,15 +173,15 @@
  },
  "hussite_wars.10.b": {
   "en": "We will cleanse their heresy!",
-  "uk": ""
+  "uk": "Ми випалимо їхню єресь!"
  },
  "hussite_wars.10.c": {
   "en": "Their reckoning can wait...",
-  "uk": ""
+  "uk": "Розплата почекає…"
  },
  "hussite_wars.10.desc": {
-  "en": "The rise of [ShowReligionName('hussite')] has pushed [target_bohemia.GetName] to become a pariah of the [ShowReligionAdjective('catholic')] world, as it teeters on the brink. The execution of [GetCharacter('boh_jan_hus').GetName] has not quelled dissent, it has emboldened it. Heretical preachers now rally the [GetCountry('BOH').GetGovernment.GetEstateName('peasants_estate')] and the [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')] alike, calling for a new Church free from the authority of [target_location1.GetName].\\n\\nThe [GetCountry('BOH').GetFlavorRank] spirals into unrest as [target_location2.GetName] burns with reformist zeal. For the members of the [GetUniqueInternationalOrganization('hre').GetName], this is no mere rebellion. It is a heresy with armies, a revolt with purpose. If [target_bohemia.GetNameWithNoTooltip] prevails, the infection may spread beyond its borders, threatening the very unity of [ShowReligionGroupName('christian')].",
-  "uk": "[target_bohemia.GetName] на краю катастрофи. Дедалі більше невдоволених долучається до руху #TOOLTIP:RELIGION,hussite_tt,X #L гуситів#!#!, і в очах #TOOLTIP:RELIGION,catholic_tt,X #L католицьких#!#! держав країна перетворюється на ізгоя. Після того як [Select_CString(GetCharacter('boh_jan_hus').IsFemale, 'була страчена', 'був страчений' )] [GetCharacter('boh_jan_hus').GetName], розкольництво лише посилилося. І [GetCountry('BOH').GetGovernment.GetEstateName('peasants')|l], і [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')|l] — кожен сьогодні вслухається в єретичні проповіді із закликами заснувати нову церкву, над якою [target_location1.GetRank.GetNameWithNoTooltip|l] [target_location1.GetName] не матиме жодної влади.\\n\\n[GetCountry('BOH').Custom('CF_VP')] охоплюють заворушення. У [target_location2.Custom('LR_PP')|l] [target_location2.GetName] розгоряється вогонь реформації. Для учасників #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! те, що відбувається, — вже не просто народний бунт: це цілеспрямований заколот, і єретики готові домагатися свого зі зброєю в руках. Якщо не стримати поширення цієї чуми на території [target_bohemia.Custom('CL_RP')], вона пошириться за межі держави, і тоді загроза нависне над усім #TOOLTIP:RELIGIONGROUP,christian,X #L християнським#!#! світом."
+  "en": "The rise of [ShowReligionName('hussite')] has pushed [target_country.GetName] to become a pariah of the [ShowReligionAdjective('catholic')] world, as it teeters on the brink. The execution of [GetCharacter('boh_jan_hus').GetName] has not quelled dissent, it has emboldened it. Heretical preachers now rally the [GetCountry('BOH').GetGovernment.GetEstateName('peasants_estate')] and the [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')] alike, calling for a new Church free from the authority of [target_location1.GetName].\\n\\nThe [GetCountry('BOH').GetFlavorRank] spirals into unrest as [target_location2.GetName] burns with reformist zeal. For the members of the [GetUniqueInternationalOrganization('hre').GetName], this is no mere rebellion. It is a heresy with armies, a revolt with purpose. If [target_country.GetNameWithNoTooltip] prevails, the infection may spread beyond its borders, threatening the very unity of [ShowReligionGroupName('christian')].",
+  "uk": "Піднесення вчення [ShowReligionName('hussite')] зробило державу [target_country.GetName] ізгоєм [ShowReligionAdjective('catholic')] світу, і вона балансує на краю прірви. Страта, якої зазнав [GetCharacter('boh_jan_hus').GetName], не вгамувала розколу, а лише посилила його. Єретичні проповідники тепер згуртовують і [GetCountry('BOH').GetGovernment.GetEstateName('peasants_estate')], і [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')], закликаючи до нової Церкви, вільної від влади [target_location1.GetName].\\n\\n[GetCountry('BOH').GetFlavorRank] поринає в заворушення, а [target_location2.GetName] палає реформаторським запалом. Для учасників організації [GetUniqueInternationalOrganization('hre').GetName] це не просто бунт. Це єресь зі зброєю в руках, заколот із метою. Якщо [target_country.GetNameWithNoTooltip] переможе, зараза може поширитися за її межі й загрожуватиме самій єдності світу, що сповідує [ShowReligionGroupName('christian')]."
  },
  "hussite_wars.10.historical_info": {
   "en": "The Hussite Wars (1419-1434) were a series of religious and civil conflicts in Bohemia sparked by the execution of Jan Hus, a Czech reformer who criticized the Catholic Church. His followers, known as Hussites, demanded reforms including communion for all and a national Church independent of Rome. The wars pitted radical Hussite factions against Catholic loyalists and crusading armies sent by the Holy Roman Emperor and the Pope. Despite being outnumbered, the Hussites used innovative tactics and internal unity to repeatedly defeat their enemies, forcing the Church to eventually negotiate and grant limited concessions.",
@@ -193,15 +193,15 @@
  },
  "hussite_wars.11.a": {
   "en": "We fight for our faith and our people!",
-  "uk": ""
+  "uk": "Ми боремося за нашу віру й наш народ!"
  },
  "hussite_wars.11.desc": {
   "en": "From the pulpits of [target_boh_capital_scope.GetName] to the outermost village chapel, the word has spread: the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] has declared us dangerous heretics, to be put down or forcefully converted. The flame of [ShowReligionName('hussite')] that we have kindled is now both beacon and target. While crusader armies muster beyond our borders, our people look to us for strength. We have chosen our faith over the authority of [ShowReligionName('catholic')] and now we must be prepared to defend it.",
-  "uk": ""
+  "uk": "З кафедр [target_boh_capital_scope.GetName] до найвіддаленішої сільської каплиці розійшлася звістка: [GetUniqueInternationalOrganization('hre').GetLeaderTitle] оголосив нас небезпечними єретиками, яких слід придушити або силоміць навернути. Полум’я вчення [ShowReligionName('hussite')], яке ми розпалили, тепер і маяк, і мішень. Поки за нашими кордонами збираються війська хрестоносців, народ шукає в нас опори. Ми обрали свою віру замість влади, яку уособлює [ShowReligionName('catholic')], і тепер мусимо бути готові її захищати."
  },
  "hussite_wars.11.title": {
   "en": "The [ShowSituationNameWithNoTooltip('hussite_wars')]",
-  "uk": ""
+  "uk": "Гуситські війни"
  },
  "hussite_wars.3.a": {
   "en": "To arms!",
@@ -212,8 +212,8 @@
   "uk": "Давайте не поспішатимемо."
  },
  "hussite_wars.3.desc": {
-  "en": "In a bid to eradicate heresy, the [GetCountry('PAP').GetGovernment.GetRulerTitle] has taken up arms against the people of [target_country.GetName]. He demands we do our [ShowReligionAdjective('catholic')] duty and take up arms against this vile heresy. Whatever we may decide, we must be wary not to make powerful enemies in a fruitless pursuit of pious glory.",
-  "uk": "Бажаючи викорінити єресь, [GetCountry('PAP').GetGovernment.GetRulerTitle|l] ополчився проти народу #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Він вимагає, щоб ми виконали свій #TOOLTIP:RELIGION,$catholic_tt$,X #L католицький#!#! обов'язок і приєдналися до священного воїнства. Нам варто добре подумати. Не хотілося б нажити собі могутніх ворогів у безглуздій спробі довести свою правовірність."
+  "en": "In a bid to eradicate heresy, the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] has taken up arms against the people of [target_country.GetName], with the blessing of [ShowReligionName('catholic')]. [war_leader_scope.GetGovernment.GetRulerOrRegent.GetSheHe|U] demands we do our [ShowReligionAdjective('catholic')] duty and take up arms against this vile heresy. Whatever we may decide, we must be wary not to make powerful enemies in a fruitless pursuit of pious glory.",
+  "uk": "Прагнучи викорінити єресь, [GetUniqueInternationalOrganization('hre').GetLeaderTitle] з благословення, яке дає [ShowReligionName('catholic')], підняв зброю проти народу держави [target_country.GetName]. [war_leader_scope.GetGovernment.GetRulerOrRegent.GetSheHe|U] вимагає, щоб ми виконали свій [ShowReligionAdjective('catholic')] обов’язок і виступили проти цієї мерзенної єресі. Хоч би що ми вирішили, слід остерігатися нажити могутніх ворогів у марній гонитві за славою правовірних."
  },
  "hussite_wars.3.title": {
   "en": "A Pious Call to Arms",
@@ -237,47 +237,47 @@
  },
  "hussite_wars.4.c": {
   "en": "The Church has prevailed!",
-  "uk": ""
+  "uk": "Церква перемогла!"
  },
  "hussite_wars.4.c.desc": {
   "en": "Our crusade against heresy has been crowned with divine success. The fires of [ShowReligionName('hussite')] have been extinguished within [GetCountry('BOH').GetName], and the righteous authority of [ShowReligionName('catholic')] has been restored across the faithful lands. Let the world see that the Church's resolve is unbreakable.",
-  "uk": ""
+  "uk": "Наш хрестовий похід проти єресі увінчався Божим успіхом. Вогні вчення [ShowReligionName('hussite')] згасли в межах держави [GetCountry('BOH').GetName], а праведна влада, яку уособлює [ShowReligionName('catholic')], відновлена по всіх землях вірних. Хай світ бачить, що рішучість Церкви непохитна."
  },
  "hussite_wars.4.d": {
   "en": "The heresy endures...",
-  "uk": ""
+  "uk": "Єресь живе…"
  },
  "hussite_wars.4.d.desc": {
   "en": "Despite the righteousness of our cause, the followers of [ShowReligionName('hussite')] have prevailed in [target_capital.GetNameWithNoTooltip]. The [GetCountry('BOH').GetName] emerges from this conflict emboldened, their heretical faith recognized by all. We must accept this bitter peace and seek another path to restore the unity of [ShowReligionName('catholic')].",
-  "uk": ""
+  "uk": "Попри праведність нашої справи, прихильники вчення [ShowReligionName('hussite')] здобули гору в [target_capital.GetNameWithNoTooltip]. [GetCountry('BOH').GetName] виходить із цього конфлікту осмілілою, а її єретичну віру визнали всі. Ми мусимо прийняти цей гіркий мир і шукати іншого шляху, щоб відновити єдність, яку дає [ShowReligionName('catholic')]."
  },
  "hussite_wars.4.e": {
   "en": "Our faith endures, even in defeat.",
-  "uk": ""
+  "uk": "Наша віра живе навіть у поразці."
  },
  "hussite_wars.4.e.desc": {
   "en": "The shadow of defeat falls upon our [ShowReligionAdjectiveWithNoTooltip('hussite')] cause. Despite standing alongside our brethren in [GetCountry('BOH').GetName], the forces of [ShowReligionName('catholic')] have prevailed and the old order has been restored. Yet our faith endures, and the ideas for which we fought cannot so easily be silenced.",
-  "uk": ""
+  "uk": "Тінь поразки впала на нашу [ShowReligionAdjectiveWithNoTooltip('hussite')] справу. Хоч ми й стояли пліч-о-пліч із братами в державі [GetCountry('BOH').GetName], сили, які уособлює [ShowReligionName('catholic')], перемогли, і старий лад відновлено. Та наша віра живе, а ідеї, за які ми боролися, не так легко змусити замовкнути."
  },
  "hussite_wars.4.f": {
   "en": "Together for victory!",
-  "uk": ""
+  "uk": "Разом до перемоги!"
  },
  "hussite_wars.4.g": {
   "en": "So ends this chapter.",
-  "uk": ""
+  "uk": "Так закінчується цей розділ."
  },
  "hussite_wars.4.g.desc": {
   "en": "The flames of the [ShowReligionName('hussite')] movement have, in the end, given way to another reformed creed. The struggle that began over the chalice has carried [GetCountry('BOH').GetName] down a path none could have foreseen, and the [ShowSituationNameWithNoTooltip('hussite_wars')] now draw to their close.",
-  "uk": ""
+  "uk": "Полум’я руху [ShowReligionName('hussite')] зрештою поступилося іншому реформованому віровченню. Боротьба, що почалася за чашу, повела державу [GetCountry('BOH').GetName] шляхом, якого ніхто не міг передбачити, і ситуація «[ShowSituationNameWithNoTooltip('hussite_wars')]» добігає кінця."
  },
  "hussite_wars.4.title.catholic_victory": {
   "en": "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]",
-  "uk": ""
+  "uk": "[ShowReligionAdjectiveWithNoTooltip('catholic')] перемога: [ShowSituationNameWithNoTooltip('hussite_wars')]"
  },
  "hussite_wars.4.title.hussite_victory": {
   "en": "[ShowReligionAdjectiveWithNoTooltip('hussite')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]",
-  "uk": ""
+  "uk": "[ShowReligionAdjectiveWithNoTooltip('hussite')] перемога: [ShowSituationNameWithNoTooltip('hussite_wars')]"
  },
  "hussite_wars.5.a": {
   "en": "A great hero in our hour of need.",
@@ -289,7 +289,7 @@
  },
  "hussite_wars.5.entry": {
   "en": "The One-Eyed Žižka",
-  "uk": ""
+  "uk": "Одноокий Жижка"
  },
  "hussite_wars.5.historical_info": {
   "en": "Also known as Jan Žižka z Trocnova a Kalicha, he was a prominent military leader in the 15th century, heralded as one of the most prominent figures of the Hussite movement. He led the Hussites to numerous victories using innovative military tactics, including the use of war wagons for mobile defense. His strategic brilliance and charismatic leadership were key to their successes against multiple crusades launched by the Catholic Church.",
@@ -304,12 +304,12 @@
   "uk": "Ми знищимо цих єретиків!"
  },
  "hussite_wars.6.b": {
-  "en": "We are not papal lapdogs!",
-  "uk": "Ми не цепні пси папізму!"
+  "en": "We are not the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]'s servants!",
+  "uk": "Ми не слуги, яких має [GetUniqueInternationalOrganization('hre').GetLeaderTitle]!"
  },
  "hussite_wars.6.desc": {
-  "en": "In dire times, when our faith is threatened by external heretics, it falls upon our shoulders to carry the burden of a renewed crusade against those who wish to harm our pious people.\\n\\nAs such, the head of the [ShowReligionName('catholic')] himself has requested we take up the banners of zealous and just war in their struggle against the [GetCountry('BOH').GetLongName].",
-  "uk": "У важкі часи, коли світ навколо став розсадником єресі, ми маємо зібрати волю в кулак і розпочати хрестовий похід проти тих, хто бажає нашкодити нашому правовірному народу.\\n\\n[GetCountry('BOH').GetLongName] — наш ворог, і сам голова католицької церкви попросив нас підняти прапор ревної священної війни, щоб підтримати його боротьбу. За [ShowReligionName('catholic')|l]!"
+  "en": "In dire times, when our faith is threatened by external heretics, it falls upon our shoulders to carry the burden of a renewed crusade against those who wish to harm our pious people.\\n\\nAs such, the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] — blessed by the authority of [ShowReligionName('catholic')] — has called upon us to join [target_ruler1.GetHerHim] in a crusade against the [GetCountry('BOH').GetLongName].",
+  "uk": "У скрутні часи, коли нашій вірі загрожують чужі єретики, саме на наші плечі лягає тягар нового хрестового походу проти тих, хто бажає зла нашому правовірному народу.\\n\\nТож [GetUniqueInternationalOrganization('hre').GetLeaderTitle], благословенний владою, яку уособлює [ShowReligionName('catholic')], закликав нас приєднатися до [target_ruler1.GetHerHim] у хрестовому поході проти держави [GetCountry('BOH').GetLongName]."
  },
  "hussite_wars.6.title": {
   "en": "The Sword of [ShowReligionNameWithNoTooltip('catholic')]",
@@ -328,8 +328,8 @@
   "uk": "Ми не вороги самі собі…"
  },
  "hussite_wars.7.desc": {
-  "en": "A battered messenger has made his way into our court. He brings word of the [GetCountry('PAP').GetName]'s vile crusade against [GetCountry('BOH').GetName]. Tales of brutality, scorched earth, and relentless fighting have flooded the streets as soldiers and peasants clash alike.\\n\\nThe messenger sings the praise of the bond our two nations hold, that of brothers, as he requests we come to the aid of his bloodied people. [GetCountry('BOH').GetNameWithNoTooltip] calls for aid!",
-  "uk": "Побитий гонець приніс нам жахливу звістку. Він розповів про підступний хрестовий похід, розпочатий #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_TP')|L]#!#!. Територія #ONCLICK:COUNTRY,[GetCountry('BOH').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BOH').Custom('CL_tt')],X [GetCountry('BOH').Custom('CL_RP')|L]#!#! потопає у крові: хрестоносці залишають по собі випалені землі, а на вулицях зійшлися у смертельній сутичці тисячі вояків та селян.\\n\\nГонець нагадує про міцні узи братерства, що пов'язують наші народи, й просить нас не залишати його людей у біді. Влада [GetCountry('BOH').Custom('CL_RP')] благає про допомогу!"
+  "en": "A battered messenger has made his way into our court. He brings word of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]'s crusade against [GetCountry('BOH').GetName], backed by the authority of [ShowReligionName('catholic')]. Tales of brutality, scorched earth, and relentless fighting have flooded the streets as soldiers and peasants clash alike.\\n\\nThe messenger sings the praise of the bond our two nations hold, that of brothers, as he requests we come to the aid of his bloodied people. [GetCountry('BOH').GetNameWithNoTooltip] calls for aid!",
+  "uk": "До нашого двору дістався побитий гонець. Він приніс звістку про хрестовий похід, який [GetUniqueInternationalOrganization('hre').GetLeaderTitle] розпочав проти держави [GetCountry('BOH').GetName] з благословення, яке дає [ShowReligionName('catholic')]. Вулиці повняться розповідями про жорстокість, випалену землю й безупинні бої, де стикаються і вояки, і селяни.\\n\\nГонець вихваляє братерські узи, що єднають наші народи, й просить прийти на допомогу його скривавленому люду. [GetCountry('BOH').GetNameWithNoTooltip] благає про допомогу!"
  },
  "hussite_wars.7.title": {
   "en": "The Plight of the [ShowReligionAdjectiveWithNoTooltip('hussite')] Faithful",
@@ -373,7 +373,7 @@
  },
  "hussite_wars_11_tt": {
   "en": "The [ShowSituationName('hussite_wars')] [situation|e] has commenced",
-  "uk": ""
+  "uk": "[Concept('situation','Ситуація')|e] «[ShowSituationName('hussite_wars')]» почалася"
  },
  "hussite_wars_desc": {
   "en": "A series of conflicts between the followers of [ShowReligionName('hussite')] and [ShowReligionName('catholic')], it quickly escalated into a full-blown war for the very identity of the country itself.",
@@ -389,31 +389,31 @@
  },
  "join_current_war_against_bohemia_tt": {
   "en": "We will join the ongoing [war|e] of the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] against the [GetCountry('BOH').GetLongName]",
-  "uk": ""
+  "uk": "Ми приєднаємося до поточної [Concept('war','війни')|e], яку [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] веде проти держави [GetCountry('BOH').GetLongName]"
  },
  "join_current_war_against_emperor_tt": {
   "en": "We will join the ongoing [war|e] of the [GetCountry('BOH').GetLongName] against the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName]",
-  "uk": ""
+  "uk": "Ми приєднаємося до поточної [Concept('war','війни')|e], яку [GetCountry('BOH').GetLongName] веде проти держави [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName]"
  },
  "join_the_hussite_side_hw_action": {
   "en": "Side with the [GetCountry('BOH').GetLongNameWithNoTooltip]",
   "uk": "Стати на бік держави [GetCountry('BOH').GetLongNameWithNoTooltip]"
  },
  "join_the_hussite_side_hw_action_desc": {
-  "en": "We should not stand idly as the [GetCountry('PAP').GetLongName] perpetrate heinous brutalities against the less fortunate. We must therefore defend the [GetCountry('BOH').GetLongName] and put a stop to unreasonable [GetCountry('PAP').GetAdjectiveWithNoTooltip] crusades!",
-  "uk": "Ми не можемо заплющувати очі на безчинства, які [GetCountry('PAP').GetLongName] чинить щодо нещасних. [GetCountry('BOH').GetLongName] буде під нашим захистом, і разом ми покладемо край цьому божевільному [GetCountry('PAP').GetAdjectiveWithNoTooltip|l]ому хрестовому походу!"
+  "en": "We should not stand idly as the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] perpetrate heinous brutalities against the less fortunate. We must therefore defend the [GetCountry('BOH').GetLongName] and put a stop to unreasonable [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip] crusades!",
+  "uk": "Ми не можемо стояти осторонь, поки [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] чинить мерзенні жорстокості щодо знедолених. Тож ми мусимо захистити державу [GetCountry('BOH').GetLongName] і покласти край безглуздим хрестовим походам, які веде [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip] влада!"
  },
  "join_the_imperial_side_hw_action": {
   "en": "Side with the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Стати на бік: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongNameWithNoTooltip]"
  },
  "join_the_imperial_side_hw_action_desc": {
   "en": "It is our duty to join the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] in their struggle to wipe out heresy from the face of [ShowContinentName('europe')]!",
-  "uk": ""
+  "uk": "Наш обов’язок — приєднатися до держави [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] у її боротьбі, щоб стерти єресь з обличчя континенту [ShowContinentName('europe')]!"
  },
  "loc_key_desc_tribunal": {
   "en": "During the [ShowSituationName('hussite_wars')] [situation|e], enemies of [ShowReligionName('hussite')] gain access to the unique [unit|e] [action|e] [ShowUnitAbilityName('hussite_tribunal')] on [locations|e] controlled by a [ShowReligionAdjective('catholic')] [enemy|e]. This action will [convert|e] some [ShowReligionAdjectiveWithNoTooltip('hussite')] [pops|e] while putting others to the sword.",
-  "uk": ""
+  "uk": "Під час [Concept('situation','ситуації')|e] «[ShowSituationName('hussite_wars')]» вороги вчення [ShowReligionName('hussite')] отримують доступ до унікальної [Concept('action','дії')|e] [Concept('unit','загону')|e] «[ShowUnitAbilityName('hussite_tribunal')]» у [Concept('locations','районах')|e], які контролює [ShowReligionAdjective('catholic')] [enemy|e]. Ця дія [Concept('convert','наверне')|e] частину [ShowReligionAdjectiveWithNoTooltip('hussite')] [Concept('pops','груп населення')|e], а інших віддасть мечу."
  },
  "prepare_defenses_hw_action": {
   "en": "Prepare the Defenses",
@@ -429,7 +429,7 @@
  },
  "recent_tribunal_tt": {
   "en": "A [ShowUnitAbilityName('hussite_tribunal')] was held here in the last #Y 5#! years",
-  "uk": ""
+  "uk": "Тут за останні #Y 5#! років відбувся «[ShowUnitAbilityName('hussite_tribunal')]»"
  },
  "recognized_hussites_tt": {
   "en": "We have emerged victorious out of the #Y Hussite Wars#!",

@@ -29,27 +29,27 @@
  },
  "flavor_mei.1.entry": {
   "en": "Second Freiberger Berggeschrey",
-  "uk": ""
+  "uk": "Друга Фрайберзька срібна лихоманка"
  },
  "flavor_mei.1.title": {
   "en": "Silver Rush in [ShowLocationNameWithNoTooltip('freiberg')]",
   "uk": "Срібна лихоманка у Фрайберзі"
  },
  "flavor_mei.10.a": {
-  "en": "Bring [target_character.GetHerHim] to the court.",
-  "uk": "Наблизити [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+  "en": "Bring him to the court.",
+  "uk": "Наблизити його до двору."
  },
  "flavor_mei.10.b": {
-  "en": "We do not need [target_character.GetHerHim].",
-  "uk": "Ми не потребуємо [Select_CString(target_character.IsFemale,'її', 'його')] послуг."
+  "en": "We do not need him.",
+  "uk": "Він нам не потрібен."
  },
  "flavor_mei.10.desc": {
-  "en": "[target_character.GetName], a virtuous composer from [ShowLocationName('eisenach')] and now living in [ShowLocationName('leipzig')] has been heard complaining about the high costs of living in [ShowLocationNameWithNoTooltip('leipzig')] and the low salary [target_character.GetSheHe] is receiving as #italic Thomaskantor#!. [target_character.GetSheHe|U] has also shown [target_character.GetHerHis] desire to be a court musician in our capital.",
-  "uk": "[target_character.GetName] — віртуозний композитор з #TOOLTIP:LOCATION,eisenach_tt,X #L Айзенаха#!#!, який нині [Select_CString(target_character.IsFemale,'мешкає', 'мешкає')] в #TOOLTIP:LOCATION,leipzig_tt,X #L Лейпцизі#!#!, скаржиться на низьку оплату праці #italic томаскантора#! — [Select_CString(target_character.IsFemale,'керівниці', 'керівника')] відомого хору хлопчиків. [Select_CString(target_character.IsFemale,'Вона', 'Він')] також висловлює бажання вирушити до столиці й стати придворним музикантом."
+  "en": "[target_character.GetName], a virtuous composer from [ShowLocationName('eisenach')] and now living in [ShowLocationName('leipzig')] has been heard complaining about the high costs of living in [ShowLocationNameWithNoTooltip('leipzig')] and the low salary he is receiving as #italic Thomaskantor#!. He has also shown his desire to be a court musician in our capital.",
+  "uk": "[target_character.GetName], доброчесний композитор з [ShowLocationName('eisenach')], який нині живе в [ShowLocationName('leipzig')], скаржиться на дороге життя в [ShowLocationNameWithNoTooltip('leipzig')] і мізерну платню, яку отримує як #italic томаскантор#!. Він також висловив бажання стати придворним музикантом у нашій столиці."
  },
  "flavor_mei.10.entry": {
   "en": "Johann Sebastian Bach",
-  "uk": ""
+  "uk": "Йоганн Себастьян Бах"
  },
  "flavor_mei.10.historical_info": {
   "en": "Johann Sebastian Bach was a composer of the Baroque era and the most celebrated member of a large family of northern German musicians. Although he was admired by his contemporaries primarily as an outstanding harpsichordist, organist, and expert on organ building, Bach is now generally regarded as one of the greatest composers of all time.",
@@ -120,8 +120,8 @@
   "uk": "Наші спроби укласти союз, спрямований проти #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#!, можуть вилитися в превентивну війну."
  },
  "flavor_mei.1001.b": {
-  "en": "There is nothing we can do.",
-  "uk": "Нічого не вдієш."
+  "en": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]",
+  "uk": "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  },
  "flavor_mei.1001.b.entry": {
   "en": "$common_string_nothing_we_can_do_about_it$",
@@ -220,12 +220,12 @@
   "uk": "Ми продали їх не просто так."
  },
  "flavor_mei.120.desc": {
-  "en": "[target_character.GetName] inherited the [GetCountry('LDB').GetLongName] after [target_character.GetHerHis] marriage with [target_spouse.GetName] and wants to sell it to us.\\n\\nThe Lands of [GetCountry('LDB').GetNameWithNoTooltip] belonged to us not long ago and this could be an opportunity to get them back. What should we do?",
-  "uk": "Після того, як [target_spouse.GetName] та [target_character.GetName] взяли шлюб, [Select_CString(target_character.IsFemale,'остання успадкувала', 'останній успадкував')] [GetCountry('LDB').GetLongName] і хоче продати його нам.\\n\\nНе так давно землі Ландсберга входили до нашої держави, і зараз у нас з'явився шанс повернути їх собі. Як нам вчинити?"
+  "en": "[target_character.GetName] inherited the [GetCountry('LDB').GetLongName] after his marriage with [target_spouse.GetName] and wants to sell it to us.\\n\\nThe Lands of [GetCountry('LDB').GetNameWithNoTooltip] belonged to us not long ago and this could be an opportunity to get them back. What should we do?",
+  "uk": "[target_character.GetName] успадкував [GetCountry('LDB').GetLongName] після шлюбу з [target_spouse.GetName] і хоче продати ці володіння нам.\\n\\nЗемлі [GetCountry('LDB').GetNameWithNoTooltip] ще недавно належали нам, і це нагода повернути їх. Як нам учинити?"
  },
  "flavor_mei.120.entry": {
   "en": "The Acquisition of Landsberg",
-  "uk": ""
+  "uk": "Придбання Ландсберга"
  },
  "flavor_mei.120.historical_info": {
   "en": "Originally a Wettin land, the Margraviate of Landsberg was sold to the House of Ascania in 1291. In 1347, the Duke Magnus I of Brunswick-Lüneburg sold the Margraviate that he inherited after his marriage with Sophia of Brandenburg-Stendal, Margrave of Landsberg, back to Margrave Frederick II of Meissen, reuniting the Wettin lands again.",
@@ -237,19 +237,19 @@
  },
  "flavor_mei.121.a": {
   "en": "Selling this land is the right thing to do.",
-  "uk": ""
+  "uk": "Продати ці землі — правильне рішення."
  },
  "flavor_mei.121.a.tt": {
   "en": "We will continue playing as [GetCountry('MEI').GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Ми продовжимо гру за [GetCountry('MEI').GetNameWithNoTooltip]"
  },
  "flavor_mei.121.b": {
   "en": "We can not part way with this land!",
-  "uk": ""
+  "uk": "Ми не можемо розлучитися з цими землями!"
  },
  "flavor_mei.121.desc": {
   "en": "[GetCountry('MEI').GetName] has entered advanced negotiations with [target_character.GetName] with the goal of purchasing the [GetCountry('LDB').GetName]! While this is a dangerous threat to our autonomy, it is not too late yet to prevent this agreement and sway [target_character.GetNameWithNoTooltip] with the help of [target_spouse.GetName].",
-  "uk": ""
+  "uk": "[GetCountry('MEI').GetName] веде вже далекі переговори з [target_character.GetName] про купівлю [GetCountry('LDB').GetName]! Це серйозна загроза нашій автономії, та ще не пізно зірвати угоду й переконати [target_character.GetNameWithNoTooltip] за допомогою [target_spouse.GetName]."
  },
  "flavor_mei.122.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_negative')]",
@@ -261,7 +261,7 @@
  },
  "flavor_mei.122.desc": {
   "en": "[GetCountry('LDB').GetName] has suddenly withdrawn from our negotiations about the acquisition of their lands. This leaves us no choice but to pursue their lands through the means of war.",
-  "uk": ""
+  "uk": "[GetCountry('LDB').GetName] раптово вийшла з переговорів про придбання своїх земель. Тепер нам не лишається нічого іншого, як здобути ці землі війною."
  },
  "flavor_mei.130.a": {
   "en": "Good idea!",
@@ -272,8 +272,8 @@
   "uk": "[Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'Вона не гідна', 'Він не гідний')] такої честі"
  },
  "flavor_mei.130.desc": {
-  "en": "[GetCountry('SWB').GetName]'s [target_character.GetName] has died without heirs and the [GetCountry('SWB').GetFlavorRank] has been left vacant.\\n\\nBecause that seat is something that cannot be left unoccupied, we need a new holder of this dignity.\\n\\nAmong the several candidates, our advisors have proposed the [GetCountry('MEI').GetGovernment.GetRulerTitle] of [GetCountry('MEI').GetName] as a good choice. Should we decide to elevate [GetCountry('MEI').GetGovernment.GetRuler.GetHerHim] to [GetCountry('SWB').GetGovernment.GetRulerTitle] we could get a new friend in the area.",
-  "uk": "[target_character.GetName] з #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_RP')|L]#!#! [Select_CString(target_character.IsFemale,'померла', 'помер')], не залишивши спадкоємця, і тепер [Select_CString(target_character.IsFemale,'її', 'його')] місце вільне.\\n\\nМи маємо якнайшвидше знайти гідного кандидата.\\n\\nНаші радники вважають, що [GetCountry('MEI').GetGovernment.GetRulerTitle] з #ONCLICK:COUNTRY,[GetCountry('MEI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('MEI').Custom('CL_tt')],X [GetCountry('MEI').Custom('CL_RP')|L]#!#! — [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'відмінна претендентка', 'відмінний претендент')]. Якщо ми зробимо [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'її правителькою', 'його правителем')] #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_RP')|L]#!#!, то [Select_CString(GetCountry('MEI').GetGovernment.GetRuler.IsFemale,'вона', 'він')] ніколи цього не забуде."
+  "en": "[GetCountry('SWB').GetName]'s [target_character.GetName] has died without a direct heir to assume [target_character.GetHerHis] duties and the [GetCountry('SWB').GetFlavorRank] has been left vacant.\\n\\nBecause that seat is something that cannot be left unoccupied, we need a new holder of this dignity.\\n\\nAmong the several candidates, our advisors have proposed the [GetCountry('MEI').GetGovernment.GetRulerTitle] of [GetCountry('MEI').GetName] as a good choice. Should we decide to elevate [GetCountry('MEI').GetGovernment.GetRuler.GetHerHim] to [GetCountry('SWB').GetGovernment.GetRulerTitle] we could get a new friend in the area.",
+  "uk": "[target_character.GetName] з [GetCountry('SWB').Custom('CL_GEN')] помер, не залишивши прямого спадкоємця, який перебрав би [target_character.GetHerHis] обов’язки, і [GetCountry('SWB').GetFlavorRank] лишився без правителя.\\n\\nЦе місце не може довго пустувати, тож потрібен новий носій цієї гідності.\\n\\nСеред кількох кандидатів наші радники вважають вдалим вибором [GetCountry('MEI').GetGovernment.GetRulerTitle] [GetCountry('MEI').GetName]. Якщо ми вирішимо звести [GetCountry('MEI').GetGovernment.GetRuler.GetHerHim] у гідність «[GetCountry('SWB').GetGovernment.GetRulerTitle]», то матимемо нового друга в цій області."
  },
  "flavor_mei.130.historical_info": {
   "en": "In 1423, Friedrich the Quarrelsome, Margrave of Meissen, acquired the Duchy of Saxony-Wittenberg, along with the electoral dignity, resulting in the merger of the Margraviate of Meissen into the Electorate of Saxony, losing its status as an independent principality.",
@@ -288,8 +288,8 @@
   "uk": "Ми з честю приймемо [Select_CString(target_emperor.IsFemale,'її', 'його')] пропозицію."
  },
  "flavor_mei.131.desc": {
-  "en": "The ruler of the [GetCountry('SWB').GetLongName] has died heirless, leaving the [GetCountry('SWB').GetFlavorRank] empty. The Emperor [target_emperor.GetName] has offered us being the new elector.",
-  "uk": "Правитель #ONCLICK:COUNTRY,[GetCountry('SWB').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWB').Custom('CL_tt')],X [GetCountry('SWB').Custom('CL_GEN')|L]#!#! помер, не залишивши спадкоємця, і тепер трон [GetCountry('SWB').Custom('rank_ru_GEN')|l] порожній. [Select_CString(target_emperor.IsFemale,'Імператриця', 'Імператор')] [target_emperor.GetName] пропонує нам стати новим виборщиком."
+  "en": "The ruler of the [GetCountry('SWB').GetLongName] has died without a direct heir, leaving the [GetCountry('SWB').GetFlavorRank] empty. The Emperor [target_emperor.GetName] has offered us being the new elector.",
+  "uk": "Правитель [GetCountry('SWB').Custom('CL_GEN')] помер, не залишивши прямого спадкоємця, і [GetCountry('SWB').GetFlavorRank] лишився без господаря. Імператор [target_emperor.GetName] пропонує нам стати новим виборцем."
  },
  "flavor_mei.131.title": {
   "en": "An Imperial Offer",
@@ -300,20 +300,20 @@
   "uk": "Ми станемо курфюрством Саксонія"
  },
  "flavor_mei.140.a": {
-  "en": "Let [target_character.GetHisHer] guide our affairs.",
-  "uk": "Дозволимо [Select_CString(target_character.IsFemale, 'їй', 'йому')] вершити наші справи."
+  "en": "Let his guide our affairs.",
+  "uk": "Хай він вершить наші справи."
  },
  "flavor_mei.140.b": {
-  "en": "We cannot allow [target_character.GetHimHer] to become the power behind the throne.",
-  "uk": "Ми не можемо дозволити [Select_CString(target_character.IsFemale, 'їй', 'йому')] стати сірим кардиналом."
+  "en": "We cannot allow him to become the power behind the throne.",
+  "uk": "Ми не можемо дозволити йому стати сірим кардиналом."
  },
  "flavor_mei.140.desc": {
-  "en": "[target_ruler.GetName] has been advocating for employing [target_character.GetName], one of [target_ruler.GetHisHer] closest personal advisors, to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. However, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] are worried, since it is rumoured that [target_character.GetLastNameWithNoTooltip] wields more power than [target_ruler.GetNameWithNoTooltip] [target_ruler.GetHerselfHimself], which could give [target_character.GetLastNameWithNoTooltip] unmatched diplomatic leverage and lead to the abuse of power to fulfill [target_character.GetHisHer] ambitions.",
-  "uk": "[target_ruler.GetName] наполягає на тому, щоб [target_character.GetName], [Select_CString(target_character.IsFemale, 'одна', 'один')] з [Select_CString(target_ruler.IsFemale, 'її', 'його')] найближчих особистих радників, [Select_CString(target_character.IsFemale, 'вступила', 'вступив')] на службу при дворі. Однак багато хто при дворі стурбований, оскільки ходять чутки, що [target_character.GetLastNameWithNoTooltip] має більшу владу, ніж [Select_CString(target_ruler.IsFemale, 'сама', 'сам')] [target_ruler.GetNameWithNoTooltip|l]. Це може надати [Select_CString(target_character.IsFemale, 'їй', 'йому')] небувалий дипломатичний вплив і призвести до зловживання владою задля досягнення власних амбіцій."
+  "en": "[target_ruler.GetName] has been advocating for employing [target_character.GetName], one of [target_ruler.GetHisHer] closest personal advisors, to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. However, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] are worried, since it is rumoured that [target_character.GetLastNameWithNoTooltip] wields more power than [target_ruler.GetNameWithNoTooltip] [target_ruler.GetHerselfHimself], which could give [target_character.GetLastNameWithNoTooltip] unmatched diplomatic leverage and lead to the abuse of power to fulfill his ambitions.",
+  "uk": "[target_ruler.GetName] наполягає на тому, щоб прийняти до [ROOT.GetCountry.GetGovernment.GetCourtTitle] [target_character.GetName], одного з [target_ruler.GetHisHer] найближчих особистих радників. Однак багато хто при [ROOT.GetCountry.GetGovernment.GetCourtTitle] стурбований, адже ходять чутки, що [target_character.GetLastNameWithNoTooltip] має більше влади, ніж [target_ruler.GetNameWithNoTooltip] [target_ruler.GetHerselfHimself]. Це може дати [target_character.GetLastNameWithNoTooltip] небувалий дипломатичний вплив і призвести до зловживання владою задля власних амбіцій."
  },
  "flavor_mei.140.entry": {
   "en": "Heinrich von Brühl",
-  "uk": ""
+  "uk": "Генріх фон Брюль"
  },
  "flavor_mei.140.historical_info": {
   "en": "Heinrich von Brühl was the influential chief minister of Saxony and Poland during the reign of Frederick August II, also known as Augustus III of Poland. As a diplomat and courtier, Brühl effectively controlled Saxon and Polish politics for decades, managing alliances and state appointments. He managed to centralize the court under his rule so much that the King could only be accessed through him.",
@@ -324,20 +324,20 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_mei.150.a": {
-  "en": "[target_character.GetHisHer|U] art will exalt our piety.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його')] мистецтво зробить нас благочестивішими."
+  "en": "His art will exalt our piety.",
+  "uk": "Його мистецтво піднесе наше благочестя."
  },
  "flavor_mei.150.b": {
   "en": "We cannot afford such luxuries.",
   "uk": "Ми не можемо дозволити собі таку розкіш."
  },
  "flavor_mei.150.desc": {
-  "en": "[target_character.GetName] has been gaining renown for [target_character.GetHisHer] masterfully crafted organs which are said to possess unmatched clarity and are gaining fame across the nation. Many members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have expressed desire to employ [target_character.GetLastNameWithNoTooltip] to elevate our churches and glorify our faith, but they lack the funds required to commission [target_character.GetHimHer].",
-  "uk": "[target_character.GetName] здобуває дедалі більшу відомість завдяки своїм майстерно створеним органам, які, як кажуть, мають неперевершену чистоту звучання, і слава про них розноситься по всій країні. Багато хто з [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] висловив бажання найняти [Select_CString(target_character.IsFemale, 'її', 'його')], щоб звеличити наші церкви й прославити нашу віру, але їм бракує коштів, щоб зробити замовлення."
+  "en": "[target_character.GetName] has been gaining renown for his masterfully crafted organs which are said to possess unmatched clarity and are gaining fame across the nation. Many members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have expressed desire to employ [target_character.GetLastNameWithNoTooltip] to elevate our churches and glorify our faith, but they lack the funds required to commission him.",
+  "uk": "[target_character.GetName] здобуває дедалі більшу славу завдяки майстерно створеним органам, які, кажуть, мають неперевершену чистоту звучання; слава про них розходиться по всій країні. Чимало з [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] хочуть найняти [target_character.GetLastNameWithNoTooltip], щоб прикрасити наші церкви й прославити нашу віру, але їм бракує коштів на замовлення."
  },
  "flavor_mei.150.entry": {
   "en": "Gottfried Silbermann",
-  "uk": ""
+  "uk": "Готфрід Зільберман"
  },
  "flavor_mei.150.historical_info": {
   "en": "Gottfried Silbermann was one of the most renowned organ builders of the Baroque era. Working primarily in Saxony, Silbermann built over 50 organs known for their tonal brilliance and mechanical innovation. Silbermann refined earlier French and German designs by combining craftsmanship with acoustical engineering. His organs earned the admiration of many important personalities, including Johann Sebastian Bach and Frederick the Great.",
@@ -389,7 +389,7 @@
  },
  "flavor_mei.170.entry": {
   "en": "University of Freiberg",
-  "uk": ""
+  "uk": "Фрайберзький університет"
  },
  "flavor_mei.170.historical_info": {
   "en": "The Freiberg University of Mining and Technology, founded in 1765, is the world's oldest still operational university of mining and metallurgy. It was established in response to the increasing complexity of mining in the Ore Mountains and the Enlightenment drive to replace tradition with empirical knowledge. The university soon became a model institution for mining education across Europe, and its students even discovered two new elements - Indium and Germanium.",
@@ -433,7 +433,7 @@
  },
  "flavor_mei.190.b.entry": {
   "en": "Support the traditional views of the character.",
-  "uk": ""
+  "uk": "Підтримати традиційні погляди персонажа."
  },
  "flavor_mei.190.c": {
   "en": "[target_character.GetNameWithNoTooltip] raises valid concerns.",
@@ -441,7 +441,7 @@
  },
  "flavor_mei.190.c.entry": {
   "en": "The character raises valid concerns.",
-  "uk": ""
+  "uk": "Персонаж висловлює слушні застереження."
  },
  "flavor_mei.190.desc": {
   "en": "An intense academic disputation has unfolded in [ShowLocationName('leipzig')] between [target_character.GetName], a radical theologian and professor from [ShowLocationName('wittenberg')], and the renowned scholastic [target_character2.GetName]. They discuss the new claims presented by the advocates of the Reformation, such as that authority should stem from Scripture rather than tradition, that the [GetUniqueInternationalOrganization('catholic_church').GetName] has erred in doctrine, and that the [GetCountry('PAP').GetGovernment.GetRulerTitle] does not wield supreme power by divine right.",
@@ -449,7 +449,7 @@
  },
  "flavor_mei.190.entry": {
   "en": "The Leipzig Debate",
-  "uk": ""
+  "uk": "Лейпцизький диспут"
  },
  "flavor_mei.190.historical_info": {
   "en": "The Leipzig Debate of 1519 was an academic dispute held at the University of Leipzig between Johann Eck and Andreas Karlstadt. The debate was initiated by Eck's negative commentary on Luther's 95 theses, and initially focused on questions of free will and ecclesial authority. It soon expanded into a full discussion of the Church's legitimacy, the supremacy of Scripture over tradition, and the nature of Papal power. Though no consensus was reached, the debate significantly raised the profile of reformist ideas and accelerated the growing theological and political divisions within the Holy Roman Empire.",
@@ -473,15 +473,15 @@
  },
  "flavor_mei.2.b.entry": {
   "en": "He should better leave to them.",
-  "uk": ""
+  "uk": "Хай краще лишить це їм."
  },
  "flavor_mei.2.desc": {
-  "en": "The talented playwright and poet, [target_character.GetName] has decided to select our country as [target_character.GetHerHis] residence and continue his writing efforts from our lands. [target_character.GetSheHe|U] is already an accomplished writer but shows no sign of stopping.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Талановита драматургиня і поетеса', 'Талановитий драматург і поет')] [target_character.GetName] [Select_CString(target_character.IsFemale, 'обрала', 'обрав')] нашу державу своїм новим пристановищем, щоб продовжити творчу діяльність на наших землях. [Select_CString(target_character.IsFemale, 'Вона вже здобула', 'Він уже здобув')] собі славу визнаного літератора, але явно не збирається зупинятися на досягнутому."
+  "en": "The talented playwright and poet, [target_character.GetName] has decided to select our country as his residence and continue his writing efforts from our lands. He is already an accomplished writer but shows no sign of stopping.",
+  "uk": "Талановитий драматург і поет [target_character.GetName] обрав нашу державу своєю оселею, щоб продовжити творчість на наших землях. Він уже визнаний письменник, але й не думає зупинятися."
  },
  "flavor_mei.2.entry": {
   "en": "Schiller",
-  "uk": ""
+  "uk": "Шіллер"
  },
  "flavor_mei.2.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -492,8 +492,8 @@
   "uk": "Усі ми брати у Христі."
  },
  "flavor_mei.20.b": {
-  "en": "[target_character.GetSheHe|U] should focus on one faith.",
-  "uk": "Нехай [Select_CString(target_character.IsFemale,'вона', 'він')] визначиться з вірою."
+  "en": "He should focus on one faith.",
+  "uk": "Нехай він визначиться з вірою."
  },
  "flavor_mei.20.desc": {
   "en": "As a close friend of Luther, [target_character.GetName] has feverishly embraced [ShowReligionName('lutheran')] but has always been open to work with [ShowReligionName('catholic')] Maecenas.\\n\\nAs a court artist, we wonder if these interactions with both sides could not become a problem for us. All across the continent, [ShowReligionNameWithNoTooltip('lutheran')] and [ShowReligionNameWithNoTooltip('catholic')] are fighting each other in a bloody conflict that could affect us.",
@@ -501,7 +501,7 @@
  },
  "flavor_mei.20.entry": {
   "en": "Lucas Cranach the Elder",
-  "uk": ""
+  "uk": "Лукас Кранах Старший"
  },
  "flavor_mei.20.historical_info": {
   "en": "Lucas Cranach #italic the Elder#!, renowned for his exceptional artistic talents, was a German Renaissance painter and printmaker specializing in woodcutting and engraving. He was the court painter to the Electors of Saxony, and is famous for capturing the essence of German princes and prominent leaders of the Protestant Reformation.\\n\\nHe was also a close confidant of Martin Luther whose cause he passionately embraced. While his subjects ranged from religious themes in the Catholic tradition to innovative portrayals of Lutheran religious matters, he consistently incorporated mythological and religious nudes in his captivating artwork.\\n\\nHis vast workshop produced numerous versions of his masterpieces, and even after his death, his son Lucas Cranach the Younger and others continued to replicate his brilliant works, solidifying his legacy as one of the most influential and accomplished German artists of his time.",
@@ -517,7 +517,7 @@
  },
  "flavor_mei.200.a.entry": {
   "en": "Shower him with riches.",
-  "uk": ""
+  "uk": "Засипати його багатствами."
  },
  "flavor_mei.200.b": {
   "en": "Serving the Emperor is enough reward.",
@@ -573,7 +573,7 @@
  },
  "flavor_mei.210.entry": {
   "en": "The Meissen Porcelain Factory",
-  "uk": ""
+  "uk": "Мейсенська порцелянова мануфактура"
  },
  "flavor_mei.210.historical_info": {
   "en": "The Meissen Porcelain Manufactory was founded in 1710 and financed by Augustus the Strong in the castle of Albrechtsburg. It was the first in Europe to produce hard-paste porcelain, previously imported only from China. This innovation had vast economic and cultural impact, turning Saxony into a leading porcelain producer and bolstering its prestige across Europe.",
@@ -584,20 +584,20 @@
   "uk": "Майсенська фарфорова мануфактура"
  },
  "flavor_mei.220.a": {
-  "en": "Offer [target_character.GetHimHer] patronage.",
-  "uk": "Запропонуємо [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво."
+  "en": "Offer him patronage.",
+  "uk": "Запропонуємо йому покровительство."
  },
  "flavor_mei.220.b": {
-  "en": "[target_character.GetHisHer|U] service would be too expensive.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Її', 'Його')] послуги обійдуться надто дорого."
+  "en": "His service would be too expensive.",
+  "uk": "Його послуги обійдуться надто дорого."
  },
  "flavor_mei.220.desc": {
-  "en": "[target_character.GetName] has astonished the [ROOT.GetCountry.GetFlavorRank] with [target_character.GetHisHer] elaborate and masterful creations, such as intricate goldsmithing that blends artistry with technical precision. Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggests we offer [target_character.GetHimHer] patronage, as they believe that with adequate funding, [target_character.GetLastNameWithNoTooltip] would greatly elevate our cultural prestige.",
-  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'вразила', 'вразив')] [ROOT.GetCountry.Custom('rank_ru_ACC')|l] своїми вишуканими та майстерними творіннями, серед яких складні ювелірні вироби, що поєднують художність і технічну точність. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує надати [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво, оскільки вважає, що за належного фінансування [target_character.GetLastNameWithNoTooltip] зможе значно підвищити наш культурний престиж."
+  "en": "[target_character.GetName] has astonished the [ROOT.GetCountry.GetFlavorRank] with his elaborate and masterful creations, such as intricate goldsmithing that blends artistry with technical precision. Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggests we offer him patronage, as they believe that with adequate funding, [target_character.GetLastNameWithNoTooltip] would greatly elevate our cultural prestige.",
+  "uk": "[target_character.GetName] вразив [ROOT.GetCountry.GetFlavorRank] своїми вишуканими й майстерними творіннями, як-от тонкими ювелірними виробами, що поєднують мистецтво з технічною точністю. Наш [ROOT.GetCountry.GetGovernment.GetCourtTitle] радить узяти його під заступництво, адже за належної підтримки [target_character.GetLastNameWithNoTooltip] значно піднесе наш культурний престиж."
  },
  "flavor_mei.220.entry": {
   "en": "Johann Melchior Dinglinger",
-  "uk": ""
+  "uk": "Йоганн Мельхіор Дінглінгер"
  },
  "flavor_mei.220.historical_info": {
   "en": "Johann Melchior Dinglinger was one of the most extraordinary goldsmiths of his time. His opulent works, often inlaid with thousands of gemstones, were symbols of Saxon court splendor. He was often commissioned by Augustus the Strong, and he greatly contributed to the aesthetic of Baroque Saxony.",
@@ -616,8 +616,8 @@
   "uk": "Це не більше ніж спекулятивні домисли."
  },
  "flavor_mei.230.desc": {
-  "en": "At the Mining Academy of [ShowLocationName('freiberg')], Professor [target_character.GetName] has presented a revolutionary theory of geological formation which [target_character.GetSheHe] calls Neptunism. According to [target_character.GetHimHer], all rocks were once precipitated from a primordial ocean through the process of crystallization. Though [target_character.GetHisHer] lectures attract many people, many critics reject [target_character.GetHisHer] ideas which are increasingly gaining academic traction.",
-  "uk": "У Гірничій академії #TOOLTIP:LOCATION,freiberg_tt,X #L Фрайберга#!#! професор [target_character.GetName] [Select_CString(target_character.IsFemale, 'представила', 'представив')] революційну теорію геологічного формування, яку [Select_CString(target_character.IsFemale, 'вона', 'він')] називає нептунізмом. Згідно з [Select_CString(target_character.IsFemale, 'її', 'його')] ідеями, всі гірські породи колись осіли з первісного океану шляхом кристалізації. Хоча [Select_CString(target_character.IsFemale, 'її', 'його')] лекції приваблюють чимало людей, багато критиків відкидають [Select_CString(target_character.IsFemale, 'її', 'його')] ідеї, які, тим не менш, набувають дедалі більшої популярності в академічних колах."
+  "en": "At the Mining Academy of [ShowLocationName('freiberg')], Professor [target_character.GetName] has presented a revolutionary theory of geological formation which he calls Neptunism. According to him, all rocks were once precipitated from a primordial ocean through the process of crystallization. Though his lectures attract many people, many critics reject his ideas which are increasingly gaining academic traction.",
+  "uk": "У Гірничій академії [ShowLocationName('freiberg')] професор [target_character.GetName] представив революційну теорію утворення гірських порід, яку він називає нептунізмом. За його словами, всі породи колись осіли з первісного океану внаслідок кристалізації. Хоча його лекції збирають чимало людей, багато критиків відкидають ці ідеї, які тим часом дедалі більше завойовують академічні кола."
  },
  "flavor_mei.230.entry": {
   "en": "$flavor_mei.230.title$",
@@ -632,20 +632,20 @@
   "uk": "Теорія нептунізму"
  },
  "flavor_mei.240.a": {
-  "en": "We will do what we can to make [target_character.GetHimHer] stay!",
-  "uk": "Ми зробимо все, щоб [Select_CString(target_character.IsFemale, 'вона залишилася', 'він залишився')]!"
+  "en": "We will do what we can to make him stay!",
+  "uk": "Ми зробимо все, щоб він залишився!"
  },
  "flavor_mei.240.b": {
-  "en": "[target_character.GetSheHe|U] is but another musician.",
+  "en": "He is but another musician.",
   "uk": "Це лише черговий музикант."
  },
  "flavor_mei.240.desc": {
-  "en": "A remarkable occasion graced [ShowLocationName('dresden')] as [target_character.GetName], one of the most celebrated composers of opera seria in [ShowContinentName('europe')], arrived to present [target_character.GetHisHer] latest work. As people flock to watch [target_character.GetHisHer] performances, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] whisper that [target_character.GetLastNameWithNoTooltip] might be persuaded to stay, should we extend our patronage and honor [target_character.GetHisHer] genius.",
-  "uk": "Знаменна подія сталася в #TOOLTIP:LOCATION,dresden_tt,X #L Дрездені#!#!: до міста [Select_CString(target_character.IsFemale, 'прибула', 'прибув')] [target_character.GetName], [Select_CString(target_character.IsFemale, 'одна', 'один')] з найславетніших [Select_CString(target_character.IsFemale, 'творців', 'творців')] опери-серіа в #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, щоб представити свою найновішу роботу. Поки городяни стікаються на [Select_CString(target_character.IsFemale, 'її', 'його')] вистави, багато хто при дворі шепочеться, що [target_character.GetLastNameWithNoTooltip], можливо, [Select_CString(target_character.IsFemale, 'могла', 'міг')] би залишитися, якщо ми запропонуємо [Select_CString(target_character.IsFemale, 'їй', 'йому')] заступництво та вшануємо [Select_CString(target_character.IsFemale, 'її', 'його')] геній."
+  "en": "A remarkable occasion graced [ShowLocationName('dresden')] as [target_character.GetName], one of the most celebrated composers of opera seria in [ShowContinentName('europe')], arrived to present his latest work. As people flock to watch his performances, many at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] whisper that [target_character.GetLastNameWithNoTooltip] might be persuaded to stay, should we extend our patronage and honor his genius.",
+  "uk": "Знаменна подія прикрасила [ShowLocationName('dresden')]: сюди прибув [target_character.GetName], один із найславетніших творців опери-серіа в #TOOLTIP:CONTINENT,europe,X #L Європі#!#!, щоб представити свою найновішу роботу. Поки люди юрмами сходяться на його вистави, багато хто при [ROOT.GetCountry.GetGovernment.GetCourtTitle] шепоче, що [target_character.GetLastNameWithNoTooltip], можливо, погодиться залишитися, якщо ми візьмемо його під заступництво й ушануємо його геній."
  },
  "flavor_mei.240.entry": {
   "en": "The Arrival of Hasse",
-  "uk": ""
+  "uk": "Прибуття Гассе"
  },
  "flavor_mei.240.historical_info": {
   "en": "Johann Adolph Hasse was a significant composer of the German Baroque. His arrival in Dresden marked a golden age of music at the Saxon court, particularly under the patronage of the Electress Maria Josepha and the Elector Augustus III. He later served as Kapellmeister and was instrumental in making Dresden a center of Italian opera north in Germany.",
@@ -656,20 +656,20 @@
   "uk": "[target_character.GetLastNameWithNoTooltip] прибуває"
  },
  "flavor_mei.30.a": {
-  "en": "Finance [target_character.GetHerHis] work.",
-  "uk": "Вкласти гроші в [Select_CString(target_character.IsFemale,'її', 'його')] дослідження."
+  "en": "Finance his work.",
+  "uk": "Фінансувати його дослідження."
  },
  "flavor_mei.30.b": {
   "en": "Our treasury should be used for other things.",
   "uk": "Прибережемо гроші для інших цілей."
  },
  "flavor_mei.30.desc": {
-  "en": "[target_character.GetName] has had a busy life, being a mathematician, philosopher, scientist, and diplomat. [target_character.GetSheHe|U] has shined in every of those fields and has become the pride of the nation.\\n\\nUnfortunately, [target_character.GetHerHis] character, curious and always looking for new challenges, makes [target_character.GetHerHim] pretty much a nomad, moving continuously all across Germany. Should we want to retain [target_character.GetHerHis] genius, we will need to finance [target_character.GetHerHis] work and keep [target_character.GetHerHim] in our nation.",
-  "uk": "[target_character.GetName] — математик, філософ, [Select_CString(target_character.IsFemale,'учена', 'учений')] і дипломат — веде насичене життя. Народ може пишатися [Select_CString(target_character.IsFemale,'її', 'його')] вражаючими досягненнями одразу в кількох галузях.\\n\\nНа жаль, [Select_CString(target_character.IsFemale,'її', 'його')] допитлива натура прагне нових вражень, тому [Select_CString(target_character.IsFemale,'вона', 'він')] довго не затримується на одному місці, мандруючи по всій Німеччині. Якщо ми хочемо, щоб [Select_CString(target_character.IsFemale,'вона', 'він')] й надалі [Select_CString(target_character.IsFemale,'приносила', 'приносив')] нам користь, ми маємо вкласти кошти в [Select_CString(target_character.IsFemale,'її', 'його')] дослідження й якось утримати [Select_CString(target_character.IsFemale,'її', 'його')] у своїй державі."
+  "en": "[target_character.GetName] has had a busy life, being a mathematician, philosopher, scientist, and diplomat. He has shined in every of those fields and has become the pride of the nation.\\n\\nUnfortunately, his character, curious and always looking for new challenges, makes him pretty much a nomad, moving continuously all across Germany. Should we want to retain his genius, we will need to finance his work and keep him in our nation.",
+  "uk": "[target_character.GetName] прожив насичене життя: математик, філософ, учений і дипломат. Він проявив себе в кожній із цих галузей і став гордістю нації.\\n\\nНа жаль, його допитлива натура, що завжди шукає нових викликів, робить його справжнім кочівником, який безупинно мандрує всією Німеччиною. Якщо ми хочемо зберегти його геній, доведеться фінансувати його працю й утримати його в нашій державі."
  },
  "flavor_mei.30.entry": {
   "en": "Gottfried Wilhelm Leibniz",
-  "uk": ""
+  "uk": "Готфрід Вільгельм Лейбніц"
  },
  "flavor_mei.30.historical_info": {
   "en": "Gottfried Wilhelm Leibniz, a brilliant polymath of the 17th and 18th centuries, made significant contributions to various fields of knowledge, including mathematics, philosophy, and science. Known for his pioneering work in calculus, he independently developed the principles of differential and integral calculus, laying the groundwork for modern mathematics. Leibniz also delved into metaphysics, proposing the concept of monads and advocating for the idea of a pre-established harmony in the universe.",
@@ -680,20 +680,20 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_mei.40.a": {
-  "en": "Make [target_character.GetHerHim] our court oculist.",
-  "uk": "Зробити [Select_CString(target_character.IsFemale,'її', 'його')] нашим придворним окулістом."
+  "en": "Make him our court oculist.",
+  "uk": "Зробити його нашим придворним окулістом."
  },
  "flavor_mei.40.b": {
-  "en": "[target_character.GetSheHe|U] believes in weird things and [target_character.GetSheHe] should not come close to our ruler.",
-  "uk": "Людину, яка вірить у таке, не можна підпускати до нашого правителя."
+  "en": "He believes in weird things and he should not come close to our ruler.",
+  "uk": "Людину, яка вірить у такі дивні речі, не можна підпускати до нашого правителя."
  },
  "flavor_mei.40.desc": {
-  "en": "[target_character.GetName] is a renowned itinerant surgeon that has been offering [target_character.GetHerHis] services through [ShowAreaName('upper_saxony_area')], [ShowAreaName('bohemia_area')], and [ShowAreaName('silesia_area')].\\n\\n[target_character.GetHerHis|U] skills are undoubtedly impressive, but [target_character.GetSheHe] is also known for believing in magic, which [target_character.GetSheHe] considers linked to medicine, and that could be the cause of a scandal.",
-  "uk": "[target_character.GetName] — відомий мандрівний хірург, який подорожує по #TOOLTIP:AREA,upper_saxony_area,X #L Верхній Саксонії#!#!, #TOOLTIP:AREA,bohemia_area,X #L Богемії#!#! та #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#!, пропонуючи свої послуги.\\n\\n[Select_CString(target_character.IsFemale,'Її', 'Його')] майстерність не викликає сумнівів. Однак [Select_CString(target_character.IsFemale,'вона', 'він')] вірить у магію та її зв'язок із медициною, і цей факт може призвести до великого скандалу."
+  "en": "[target_character.GetName] is a renowned itinerant surgeon that has been offering his services through [ShowAreaName('upper_saxony_area')], [ShowAreaName('bohemia_area')], and [ShowAreaName('silesia_area')].\\n\\nHis skills are undoubtedly impressive, but he is also known for believing in magic, which he considers linked to medicine, and that could be the cause of a scandal.",
+  "uk": "[target_character.GetName] — відомий мандрівний хірург, який пропонує свої послуги в #TOOLTIP:AREA,upper_saxony_area,X #L Верхній Саксонії#!#!, #TOOLTIP:AREA,bohemia_area,X #L Богемії#!#! та #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#!.\\n\\nЙого майстерність безсумнівно вражає, але він також вірить у магію, яку вважає пов’язаною з медициною, і це може спричинити скандал."
  },
  "flavor_mei.40.entry": {
   "en": "Georg Bartisch",
-  "uk": ""
+  "uk": "Георг Бартіш"
  },
  "flavor_mei.40.historical_info": {
   "en": "Georg Bartisch, a prominent German physician and surgeon, is renowned for his significant contributions to ophthalmology. In the 16th century, he authored one of the earliest comprehensive books on eye diseases and their treatment, titled \"Ophthalmodouleia,\" which became a seminal work in the field. Bartisch's pioneering observations and innovative surgical techniques advanced the understanding and care of various eye conditions, leaving a lasting impact on the development of ophthalmology as a medical discipline.",
@@ -717,7 +717,7 @@
  },
  "flavor_mei.50.entry": {
   "en": "The Rise of Dresden",
-  "uk": ""
+  "uk": "Піднесення Дрездена"
  },
  "flavor_mei.50.historical_info": {
   "en": "While Dresden was not an important city until it was made the ducal residence of the Saxon rulers in 1485, it became a center of culture and one of the most important cities in the HRE.",
@@ -776,16 +776,16 @@
   "uk": "Вимоги збудувати нову #italic Фрауенкірхе#!"
  },
  "flavor_mei.80.a": {
-  "en": "Bring [target_character.GetHerHim] to our court, regardless.",
-  "uk": "Все одно наблизити [Select_CString(target_character.IsFemale,'її', 'його')] до двору."
+  "en": "Bring him to our court, regardless.",
+  "uk": "Все одно запросити його до нашого двору."
  },
  "flavor_mei.80.b": {
-  "en": "[target_character.GetSheHe|U] has bad fame, we do not need [target_character.GetHerHim].",
+  "en": "He has bad fame, we do not need him.",
   "uk": "Нам не потрібен автор із поганою славою."
  },
  "flavor_mei.80.desc": {
-  "en": "A young writer, named [target_character.GetName], has become a celebrity in literary circles after the publishing of [target_character.GetHerHis] work #italic The Sorrows of Young Werther#!. This novel has been criticized by some for the reaction some lectors have had after reading it. Trying to emulate the protagonist of the novel and his tragic unrequited love, several people have killed themselves in the same fashion as him. From a literary point of view, the novel is undisputedly an excellent work but the influence it has on impressionable people can be dangerous.",
-  "uk": "[Select_CString(target_character.IsFemale,'Молода письменниця', 'Молодий письменник')] [target_character.GetName] [Select_CString(target_character.IsFemale,'здобула', 'здобув')] широку відомість у літературних колах після виходу [Select_CString(target_character.IsFemale,'її', 'його')] роману #italic «Страждання молодого Вертера»#!. Цей твір зазнав серйозної критики через його згубний вплив на читачів. Кілька людей покінчили життя самогубством, наслідуючи головного героя, який страждає від нещасливого кохання. Художня цінність роману безсумнівна, але він може становити небезпеку для особливо вразливих натур."
+  "en": "A young writer, named [target_character.GetName], has become a celebrity in literary circles after the publishing of his work #italic The Sorrows of Young Werther#!. This novel has been criticized by some for the reaction some lectors have had after reading it. Trying to emulate the protagonist of the novel and his tragic unrequited love, several people have killed themselves in the same fashion as him. From a literary point of view, the novel is undisputedly an excellent work but the influence it has on impressionable people can be dangerous.",
+  "uk": "Молодий письменник на ім’я [target_character.GetName] здобув широку славу в літературних колах після виходу його твору #italic «Страждання молодого Вертера»#!. Декотрі критикують цей роман через те, як на нього відреагували деякі читачі. Намагаючись наслідувати головного героя та його трагічне нерозділене кохання, кілька людей покінчили з собою в той самий спосіб, що й він. З літературного погляду роман, безперечно, чудовий, але його вплив на вразливих людей може бути небезпечним."
  },
  "flavor_mei.80.entry": {
   "en": "$flavor_mei.80.title$",
@@ -821,6 +821,6 @@
  },
  "variable_mei_werner_event_tt": {
   "en": "The Neptunist Theory is Being Studied",
-  "uk": ""
+  "uk": "Теорію нептунізму вивчають"
  }
 }

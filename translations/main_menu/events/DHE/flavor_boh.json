@@ -44,8 +44,8 @@
   "uk": "Кожен [Concept('location', 'район')|e] у провінції [target_capital.GetName] отримає:\\n#G 10%#! процвітання"
  },
  "boh_widespread_condemnation_tt": {
-  "en": "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|-=0] opinion towards us",
-  "uk": "Думка кожної #TOOLTIP:RELIGION,catholic_tt,X #L католицької#!#! держави про нас погіршиться на [ShowBiasValue('opinion_hussite_aggression_modifier')|-=0]"
+  "en": "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|+=0] opinion towards us",
+  "uk": "Думка кожної [ShowReligionAdjective('catholic')] держави про нас погіршиться на [ShowBiasValue('opinion_hussite_aggression_modifier')|+=0]"
  },
  "crown_of_bohemia_tt": {
   "en": "We will change our name to #Y Crown of [GetCountry('BOH').GetNameWithNoTooltip]#!",
@@ -65,7 +65,7 @@
  },
  "flavor_boh.1.a.entry": {
   "en": "$name_john.czechslovak_language$ $Hus$ knew the truth.",
-  "uk": ""
+  "uk": "$name_john.czechslovak_language$ $Hus$ знав правду."
  },
  "flavor_boh.1.b": {
   "en": "Let the [ROOT.GetCountry.GetGovernment.GetRulerTitle] follow Hus, the nation follows Rome.",
@@ -73,7 +73,7 @@
  },
  "flavor_boh.1.b.entry": {
   "en": "Let him follow Hus, the nation follows Rome.",
-  "uk": ""
+  "uk": "Хай він іде за Гусом, а народ іде за Римом."
  },
  "flavor_boh.1.c": {
   "en": "We will be loyal to Rome!",
@@ -85,7 +85,7 @@
  },
  "flavor_boh.1.entry": {
   "en": "Return of Hussite!",
-  "uk": ""
+  "uk": "Повернення гусита!"
  },
  "flavor_boh.1.historical_info": {
   "en": "George of Kunštát and Poděbrady was a Bohemian noble and leader of the Hussites. Due to tensions between those faithful to Catholicism and Hussites during the reign of King Ladislaus, he gathered an army and marched to the capital and afterwards defeated all nobility still loyal to the Pope. In 1451, he was granted the administration of Bohemia by the Holy Roman Emperor Frederik III, and subsequently in 1458 he was elected by the estates of Bohemia, even by those still loyal to the Pope. His reign was marked by policies of peace and cooperation, but the Catholic opposition organized a rebellion with the help of King Matthias Corvinus of Hungary, who invaded Bohemia to restore it to Catholicism.",
@@ -136,16 +136,16 @@
   "uk": "Розбрід у церкві"
  },
  "flavor_boh.14.a": {
-  "en": "Burn [target_character.GetNameWithNoTooltip] at the Stake",
-  "uk": "Нехай [target_character.GetNameWithNoTooltip] згорить на вогнищі."
+  "en": "Burn [target_character.GetNameWithNoTooltip] at the Stake.",
+  "uk": "Спалити [target_character.GetNameWithNoTooltip] на вогнищі."
  },
  "flavor_boh.14.a.entry": {
   "en": "Burn him at the Stake.",
-  "uk": ""
+  "uk": "Спалити його на вогнищі."
  },
  "flavor_boh.14.b": {
-  "en": "Pardon the Heretic",
-  "uk": "Єретика слід помилувати."
+  "en": "Pardon the Heretic.",
+  "uk": "Помилувати єретика."
  },
  "flavor_boh.14.desc": {
   "en": "At the grand assembly of the Council of [ShowLocationName('konstanz')], the winds of destiny blow fiercely, carrying with them the weight of religious turmoil and the fate of one man. [target_character.GetName], the [GetCountry('BOH').GetAdjective] reformer and advocate of religious freedom, stands before the powerful council, his life hanging in the balance. The echoes of [target_character.GetLastNameWithNoTooltip]'s teachings resound through the hallowed halls, challenging the authority of the [ShowReligionAdjective('catholic')] Church and demanding reform. His followers, the Hussites, watch with bated breath as the council deliberates on his fate.",
@@ -165,7 +165,7 @@
  },
  "flavor_boh.15.entry": {
   "en": "Jan Hus Burned at the Stake",
-  "uk": ""
+  "uk": "Яна Гуса спалено на вогнищі"
  },
  "flavor_boh.15.title": {
   "en": "[target_character.GetNameWithNoTooltip] Burned at the Stake",
@@ -181,7 +181,7 @@
  },
  "flavor_boh.16.entry": {
   "en": "Jan Hus Released",
-  "uk": ""
+  "uk": "Яна Гуса звільнено"
  },
  "flavor_boh.16.title": {
   "en": "[target_character.GetNameWithNoTooltip] let go...",
@@ -201,7 +201,7 @@
  },
  "flavor_boh.17.entry": {
   "en": "The First Congress of Visegrad",
-  "uk": ""
+  "uk": "Перший Вишеградський конгрес"
  },
  "flavor_boh.17.title": {
   "en": "The First Congress of [ShowLocationNameWithNoTooltip('visegrad')]",
@@ -213,7 +213,7 @@
  },
  "flavor_boh.18.a.entry": {
   "en": "This is a benefit for our royal standing!",
-  "uk": ""
+  "uk": "Це піде на користь нашому королівському становищу!"
  },
  "flavor_boh.18.b": {
   "en": "We should not upset the status quo.",
@@ -252,7 +252,7 @@
   "uk": "Районні права на побори"
  },
  "flavor_boh.2.a": {
-  "en": "Bend knee to Rome",
+  "en": "Bend knee to Rome.",
   "uk": "Схилити коліно перед Римом."
  },
  "flavor_boh.2.b": {
@@ -285,7 +285,7 @@
  },
  "flavor_boh.20.entry": {
   "en": "The University of Prague",
-  "uk": ""
+  "uk": "Празький університет"
  },
  "flavor_boh.20.title": {
   "en": "The University of [ShowLocationNameWithNoTooltip('prague')]",
@@ -345,7 +345,7 @@
  },
  "flavor_boh.23.entry": {
   "en": "The Land Court of Moravia",
-  "uk": ""
+  "uk": "Моравський земський суд"
  },
  "flavor_boh.23.title": {
   "en": "The Land Court of [target_area.GetNameWithNoTooltip]",
@@ -380,8 +380,8 @@
   "uk": "Ці картини явно переоцінені…"
  },
  "flavor_boh.25.desc": {
-  "en": "One of our most talented artists, [target_artist.GetName] has risen to prominence in recent years. With an illustrious portfolio of works, there is high praise and recognition for such a capable painter. Inviting [target_artist.GetHerHim] to our court will only benefit the prestige and glory of our culture as well as our attention to great art.",
-  "uk": "За останні кілька років немалу славу в нашій державі [Select_CString(target_artist.IsFemale, 'здобула художниця', 'здобув художник' )] [target_artist.GetName]. Численні картини [Select_CString(target_artist.IsFemale, 'її', 'його' )] настільки вражають, що ми всерйоз замислюємося над тим, щоб запросити такий талант до свого двору. Такий жест не тільки піднесе нашу культуру в очах інших, але й втішить наш художній смак."
+  "en": "One of our most talented artists, [target_artist.GetName] has risen to prominence in recent years. With an illustrious portfolio of works, there is high praise and recognition for such a capable painter. Inviting him to our court will only benefit the prestige and glory of our culture as well as our attention to great art.",
+  "uk": "За останні роки славу здобув один із наших найталановитіших митців — [target_artist.GetName]. Його численні видатні твори викликають щиру хвалу й визнання, адже такий вправний художник трапляється нечасто. Запросивши його до нашого двору, ми лише примножимо престиж і славу нашої культури та покажемо, що цінуємо велике мистецтво."
  },
  "flavor_boh.25.entry": {
   "en": "$flavor_boh.25.title$",
@@ -429,7 +429,7 @@
  },
  "flavor_boh.27.entry": {
   "en": "The Cathedral of Saint Vitus",
-  "uk": ""
+  "uk": "Собор святого Віта"
  },
  "flavor_boh.27.historical_info": {
   "en": "The cathedral was initially founded in 930 by Wenceslaus I, Duke of Bohemia, as an early Romanesque rotunda. Over time, due to the increasing Christian community and the desire for a larger church, a grander Romanesque basilica was constructed in 1060 by Prince Spytihněv II, incorporating the southern apse of the original rotunda. The cathedral's design drew inspiration from Romanesque architecture in the Holy Roman Empire, particularly from the Hildesheim abbey church and the Speyer Cathedral. The Gothic version of the cathedral started to be constructed in 1344, when Prague became an archbishopric, but the Hussite wars in the 14th century caused construction to stop. Several attempts to continue the construction were made through the centuries, but it wasn't until 1844 when serious work on it started again, and the cathedral wasn't finished until 1929.",
@@ -460,16 +460,16 @@
   "uk": "Рідка радість"
  },
  "flavor_boh.29.a": {
-  "en": "[target_character.GetSheHe|U] will make a fine leader!",
-  "uk": "З [Select_CString(target_character.IsFemale, 'неї', 'нього')] вийде чудовий командир!"
+  "en": "He will make a fine leader!",
+  "uk": "З нього вийде чудовий командир!"
  },
  "flavor_boh.29.b": {
-  "en": "[target_character.GetSheHe|U] forgets [target_character.GetHerHis] place.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Їй', 'Йому' )] не варто було забувати своє місце."
+  "en": "He forgets his place.",
+  "uk": "Він забуває своє місце."
  },
  "flavor_boh.29.desc": {
-  "en": "Many [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] dream of a life full of adventure, ascending the social ladder and going from rags to riches. Despite our wish to see our people prosper and ascend, there is honesty, valor, and respect to being a farmer.\\n\\nHowever, not every peasant is cut from the same cloth. Word has traveled to [target_capital_location.GetName] of a man with great military and combat prowess. [target_character.GetHerHis|U] story seems straight out of a fairytale. Truthfully, we are not certain which parts are myth and which are factual.\\n\\nRaised as the son of a blacksmith, [target_character.GetName] was forced to take up the sword from a young age when [target_character.GetHerHis] village, Stříbrná Skalice, near [target_location.GetName] was burnt by the fires of war. Since then, [target_character.GetSheHe] trained to become a great warrior, embarking on a journey that led [target_character.GetHerHim] away from [target_character.GetHerHis] peaceful beginnings and into a world of warfare and adventure. Now, [target_character.GetShortNameWithNoTooltip] has come to see us.",
-  "uk": "Багато [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] мріють про яскраве життя та високе становище. Ми не проти, щоб народ прагнув до успіху, однак немає нічого ганебного в тому, щоб обробляти землю: це чесна й шанована праця.\\n\\nДеяким, утім, все-таки вдається втілити свою мрію. У [target_capital_location.Custom('LR_PP')|l] [target_capital_location.GetName] зараз обговорюють нову чутку: начебто в окрузі [Select_CString(target_character.IsFemale, 'з’явилася вмілий і доблесна воїтелька', 'з’явився вмілий і доблесний воїн' )], але обставини [Select_CString(target_character.IsFemale, 'її', 'його' )] появи такі, що важко сказати, де правда, а де вигадка.\\n\\n[target_character.GetName] — [Select_CString(target_character.IsFemale, 'дочка', 'син' )] коваля. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] рідне село Стршібрна-Скаліце поряд із [target_location.Custom('LR_TP')|l] [target_location.GetName] спалили під час війни. [Select_CString(target_character.IsFemale, 'Вона була змушена', 'Він був змушений' )] змалку взятися за меч. Навчившись військовому мистецтву та помінявши мирне життя на битви та подвиги, [Select_CString(target_character.IsFemale, 'вона вирушила', 'він вирушив' )] мандрувати. І ось, тепер [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'прийшла', 'прийшов' )] до нас."
+  "en": "Many [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] dream of a life full of adventure, ascending the social ladder and going from rags to riches. Despite our wish to see our people prosper and ascend, there is honesty, valor, and respect to being a farmer.\\n\\nHowever, not every peasant is cut from the same cloth. Word has traveled to [target_capital_location.GetName] of a man with great military and combat prowess. His story seems straight out of a fairytale. Truthfully, we are not certain which parts are myth and which are factual.\\n\\nRaised as the son of a blacksmith, [target_character.GetName] was forced to take up the sword from a young age when his village, Stříbrná Skalice, near [target_location.GetName] was burnt by the fires of war. Since then, he trained to become a great warrior, embarking on a journey that led him away from his peaceful beginnings and into a world of warfare and adventure. Now, [target_character.GetShortNameWithNoTooltip] has come to see us.",
+  "uk": "Багато хто з [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] мріє про життя, повне пригод, про високе становище й шлях із злиднів до багатства. Ми не проти, щоб народ прагнув до успіху, однак у праці хлібороба є і чесність, і доблесть, і гідність.\\n\\nТа не всі селяни скроєні з одного сукна. До [target_capital_location.GetName] дійшла чутка про чоловіка з неабиякою військовою вправністю. Його історія наче зійшла зі сторінок казки, і, правду кажучи, важко сказати, де в ній вигадка, а де правда.\\n\\n[target_character.GetName], син коваля, змалку був змушений узятися за меч, коли його рідне село Стршібрна-Скаліце поблизу [target_location.GetName] спалила війна. Відтоді він навчався, щоб стати великим воїном, і вирушив у мандри, що повели його від мирного життя у світ битв і пригод. І ось тепер [target_character.GetShortNameWithNoTooltip] прийшов до нас."
  },
  "flavor_boh.29.entry": {
   "en": "$flavor_boh.29.title$",
@@ -509,7 +509,7 @@
  },
  "flavor_boh.30.entry": {
   "en": "Silver Found in Jáchymov",
-  "uk": ""
+  "uk": "У Яхимові знайдено срібло"
  },
  "flavor_boh.30.title": {
   "en": "[ShowGoodsNameWithNoTooltip('silver')] Found in [target_location.GetNameWithNoTooltip]",
@@ -521,7 +521,7 @@
  },
  "flavor_boh.31.a.entry": {
   "en": "From now we are the Crown of $BOH$.",
-  "uk": ""
+  "uk": "Відтепер ми — Корона $BOH$."
  },
  "flavor_boh.31.b": {
   "en": "Our title is fine as it is.",
@@ -553,7 +553,7 @@
  },
  "flavor_boh.32.entry": {
   "en": "The Fate of $LUX$",
-  "uk": ""
+  "uk": "Доля $LUX$"
  },
  "flavor_boh.32.title": {
   "en": "The Fate of [GetCountry('LUX').GetNameWithNoTooltip]",
@@ -573,7 +573,7 @@
  },
  "flavor_boh.33.entry": {
   "en": "The Purchase of $BRA$",
-  "uk": ""
+  "uk": "Купівля $BRA$"
  },
  "flavor_boh.33.historical_info": {
   "en": "In 1373 Charles IV King of Bohemia and Emperor of the Holy Roman Empire was able to purchase the Margraviate of Brandenburg for his son and heir the future king Wenceslaus IV. As he was still a child, it was Charles who ruled on behalf of him. That also secured the election to the imperial throne, but the power of the Luxembourg dynasty declined during later rulers, and when it was the turn for Sigismund, also the son of Charles IV, to be elected Emperor, Bohemia secured the election in exchange for giving hereditary rulership over Brandenburg to the Hohenzollern dynasty.",
@@ -644,8 +644,8 @@
   "uk": "$flavor_boh.36.title$"
  },
  "flavor_boh.36.historical_info": {
-  "en": "The Four Articles of Prague, also known as the Prague Articles, are a set of demands made by the followers of [GetCharacter('boh_jan_hus').GetName], a Bohemian reformer, during the Council of Basel in the 15th century. These articles would go on to play a significant role in the Hussite movement, which was a precursor to the Protestant Reformation. The articles included clauses such as the freedom to preach the word of god, communion, a general reform of the Church institution, and exclusion of mortal sinners from the Church.",
-  "uk": "Чотири празькі статті (вони ж просто чотири статті) — список вимог, висунутих у XV столітті на Ферраро-Флорентійському соборі послідовниками богемського реформатора на ім'я [GetCharacter('boh_jan_hus').GetName]. Відіграли важливу роль в історії руху гуситів — провісників протестантської Реформації. Серед заявлених вимог були свобода проповідування слова Божого та причастя, реформа церкви як інституту та вигнання з її лав грішників."
+  "en": "The Four Articles of Prague, also known as the Prague Articles, are a set of demands made by the followers of Jan Hus, a Bohemian reformer, during the Council of Basel in the 15th century. These articles would go on to play a significant role in the Hussite movement, which was a precursor to the Protestant Reformation. The articles included clauses such as the freedom to preach the word of god, communion, a general reform of the Church institution, and exclusion of mortal sinners from the Church.",
+  "uk": "Чотири празькі статті — перелік вимог, висунутих у XV столітті на Базельському соборі послідовниками богемського реформатора Яна Гуса. Ці статті відіграли важливу роль у гуситському русі — провіснику протестантської Реформації. Серед вимог були свобода проповідувати слово Боже, причастя, загальна реформа Церкви як інституту та вигнання зі співдружності Церкви смертних грішників."
  },
  "flavor_boh.36.title": {
   "en": "The Four Articles of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
@@ -685,7 +685,7 @@
  },
  "flavor_boh.38.entry": {
   "en": "The Unification of Prague",
-  "uk": ""
+  "uk": "Об’єднання Праги"
  },
  "flavor_boh.38.historical_info": {
   "en": "In 1784, Prague was united into a single city by merging four historical royal towns - the Old Town, the New Town, Malá Strana and Hradčany.",
@@ -753,7 +753,7 @@
  },
  "flavor_boh.40.entry": {
   "en": "Expanding Kutná Hora",
-  "uk": ""
+  "uk": "Розширення Кутної Гори"
  },
  "flavor_boh.40.title": {
   "en": "Expanding [ShowLocationNameWithNoTooltip('kutna_hora')]",
@@ -777,7 +777,7 @@
  },
  "flavor_boh.41.entry": {
   "en": "The Flooding of Kutná Hora",
-  "uk": ""
+  "uk": "Затоплення Кутної Гори"
  },
  "flavor_boh.41.historical_info": {
   "en": "Kutná Hora faced a series of devastating floods during the 16th and 17th centuries which led to a massive decline in the mining activity from which it never fully recovered.",
@@ -797,7 +797,7 @@
  },
  "flavor_boh.42.entry": {
   "en": "The Pan-Slavic Congress",
-  "uk": ""
+  "uk": "Всеслов’янський конгрес"
  },
  "flavor_boh.42.historical_info": {
   "en": "The First Pan-Slavic Congress which convened in Prague was a significant step towards the promotion of unity between the Slavic nations. It also led to the adoption of the blue-white-red Pan-Slavic flag and the adoption of 'Hey, Slavs' as the Pan-Slavic anthem.",
@@ -808,20 +808,20 @@
   "uk": "Загальнослов'янський з'їзд [GetCurrentYear] року"
  },
  "flavor_boh.43.a": {
-  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] could make use of [target_character.GetHimHer].",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] напевно знайде користь такому таланту."
+  "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] could make use of him.",
+  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] знайде йому застосування."
  },
  "flavor_boh.43.a.entry": {
   "en": "The court could make use of him.",
-  "uk": ""
+  "uk": "Двір знайде йому застосування."
  },
  "flavor_boh.43.desc": {
-  "en": "[target_character.GetName], a Utraquist bishop and an advocate of universal education, is known as the 'Teacher of Nations'. [target_character.GetHisHer|U] innovative educational methods and efforts to reform education have had a profound impact on our society. With the increasing recognition of [target_character.GetHisHer] educational theories, we find ourselves presented with an opportunity to harness [target_character.GetHisHer] expertise for the advancement of [ROOT.GetCountry.GetName].",
-  "uk": "[Select_CString(target_character.IsFemale, 'Черниця-каліксинка', 'Чернець-каліксинець' )] [target_character.GetName] — [Select_CString(target_character.IsFemale, 'поборниця', 'поборник' )] загальної освіти, [Select_CString(target_character.IsFemale, 'відома', 'відомий' )] під прізвиськом [Select_CString(target_character.IsFemale, '«Народна вчителька»', '«Народний вчитель»' )]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] винахідливі підходи до навчання та спроби перебудувати систему освіти в цілому вже справили неабиякий вплив на наше суспільство та поступово здобувають все більше визнання. Не варто упускати таку можливість поставити подібний безцінний досвід на службу #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#!."
+  "en": "[target_character.GetName], a Utraquist bishop and an advocate of universal education, is known as the 'Teacher of Nations'. His innovative educational methods and efforts to reform education have had a profound impact on our society. With the increasing recognition of his educational theories, we find ourselves presented with an opportunity to harness his expertise for the advancement of [ROOT.GetCountry.GetName].",
+  "uk": "[target_character.GetName], утраквістський єпископ і поборник загальної освіти, відомий як «Учитель народів». Його новаторські методи навчання та спроби реформувати освіту справили глибокий вплив на наше суспільство. Його ідеї здобувають дедалі більше визнання, і ми маємо нагоду поставити його знання на службу розвитку [ROOT.GetCountry.Custom('CL_GEN')]."
  },
  "flavor_boh.43.entry": {
   "en": "Jan Amos Komenský",
-  "uk": ""
+  "uk": "Ян Амос Коменський"
  },
  "flavor_boh.43.historical_info": {
   "en": "Jan Amos Komenský, also known as Comenius, was significant for his pioneering work in modern education, advocating for universal education and progressive teaching methods that emphasized understanding and critical thinking over rote memorization.",
@@ -841,7 +841,7 @@
  },
  "flavor_boh.44.entry": {
   "en": "Prague - The Golden City",
-  "uk": ""
+  "uk": "Прага — Золоте місто"
  },
  "flavor_boh.44.historical_info": {
   "en": "During the reign of Charles IV, Prague flourised and became a major political, cultural and economic center. As the seat of the Emperor, Prague became de-facto capital city of the Holy Roman Empire and the city experienced a significant growth and development. Under his rule, important landmarks such as the Charles Bridge, the New Town and the Saint Vitus Cathedral were built.",
@@ -884,12 +884,12 @@
   "uk": "$common_string_brilliant$"
  },
  "flavor_boh.46.desc": {
-  "en": "[target_character.GetName], a significant figure in the [ShowReligionAdjective('hussite')] movement, serves as the Archbishop of [ShowLocationName('prague')] during a time of great religious upheaval. [target_character.GetHisHer|U] steadfast commitment to the [ShowReligionAdjectiveWithNoTooltip('hussite')] cause and [target_character.GetHisHer] efforts to reconcile the moderate and radical factions have left a lasting impact on [ROOT.GetCountry.GetName]. [target_character.GetLastNameWithNoTooltip]'s deep understanding of theology and [target_character.GetHisHer] skill in religious debate could be invaluable in spreading our faith.",
-  "uk": "[target_character.GetName] — важливий представник #TOOLTIP:RELIGION,hussite_tt,X #L гуситського#!#! руху — служить архієпископом #TOOLTIP:LOCATION,prague_tt,X #L Праги#!#!. І хоча навколо точаться запеклі релігійні конфлікти, [Select_CString(target_character.IsFemale, 'її', 'його' )] відданість справі гуситів і спроби примирити поміж собою поміркований і радикальний напрями не залишилися непоміченими на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. [target_character.GetLastNameWithNoTooltip] чудово розбирається в богослов'ї та вміє вести релігійні диспути, а тому ніхто інший не впорається з поширенням нашої віри краще за [Select_CString(target_character.IsFemale, 'неї', 'нього' )]."
+  "en": "[target_character.GetName], a significant figure in the [ShowReligionAdjective('hussite')] movement, serves as the Archbishop of [ShowLocationName('prague')] during a time of great religious upheaval. His steadfast commitment to the [ShowReligionAdjectiveWithNoTooltip('hussite')] cause and his efforts to reconcile the moderate and radical factions have left a lasting impact on [ROOT.GetCountry.GetName]. [target_character.GetLastNameWithNoTooltip]'s deep understanding of theology and his skill in religious debate could be invaluable in spreading our faith.",
+  "uk": "[target_character.GetName], визначний діяч [ShowReligionAdjective('hussite')] руху, служить архієпископом [ShowLocationName('prague')] у часи великих релігійних потрясінь. Його непохитна відданість [ShowReligionAdjectiveWithNoTooltip('hussite')] справі та спроби примирити поміркованих і радикалів залишили помітний слід у [ROOT.GetCountry.Custom('CL_PREP')]. Глибокі знання богослов’я та вміння вести диспути роблять [target_character.GetLastNameWithNoTooltip] безцінним помічником у поширенні нашої віри."
  },
  "flavor_boh.46.entry": {
   "en": "Jan Rokycana",
-  "uk": ""
+  "uk": "Ян Рокицана"
  },
  "flavor_boh.46.historical_info": {
   "en": "Rokycana played a key role in the Czech Hussite movement, where he significantly influenced religious and political reforms in the lands of the Bohemian Crown. As a prominent leader and theologian, he promoted Hussite principles and sought to unite the various factions, which greatly shaped the religious scene of the kingdom.",
@@ -900,16 +900,16 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_boh.47.a": {
-  "en": "We will surely make use of [target_character.GetHisHer] skills.",
-  "uk": "Не можна, щоб така вправність пропадала даремно."
+  "en": "We will surely make use of his skills.",
+  "uk": "Ми неодмінно знайдемо застосування його вмінням."
  },
  "flavor_boh.47.desc": {
-  "en": "[target_character.GetName] is a significant figure in the development of [ShowDialectName('czech_dialect')] literature, serving as a publisher, printer, and translator. [target_character.GetHisHer|U] contributions to the [ShowDialectNameWithNoTooltip('czech_dialect')] language and efforts to make literature accessible to the masses have left a lasting impact on our nation's literacy. As [target_character.GetHisHer] influence continues to grow, we have the opportunity to utilize [target_character.GetHisHer] expertise for the benefit of our [ROOT.GetCountry.GetFlavorRank].",
-  "uk": "[target_character.GetName] — гучне ім'я в #TOOLTIP:DIALECT,czech_dialect,X #L чеській#!#! літературі: видавець, [Select_CString(target_character.IsFemale, 'друкарка', 'друкар' )] і [Select_CString(target_character.IsFemale, 'перекладачка', 'перекладач' )]. Завдяки [Select_CString(target_character.IsFemale, 'її', 'його' )] внеску в розвиток чеської мови та прагненню зробити книги доступними для народу в нашій державі зростає рівень грамотності. Разом із цим зростає і вплив, яким користується [target_character.GetName], тому [Select_CString(target_character.IsFemale, 'її', 'його' )] знання слід поставити на службу [ROOT.GetCountry.Custom('rank_ru_DAT')|l] — така можливість у нас є."
+  "en": "[target_character.GetName] is a significant figure in the development of [ShowDialectName('czech_dialect')] literature, serving as a publisher, printer, and translator. His contributions to the [ShowDialectNameWithNoTooltip('czech_dialect')] language and efforts to make literature accessible to the masses have left a lasting impact on our nation's literacy. As his influence continues to grow, we have the opportunity to utilize his expertise for the benefit of our [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "[target_character.GetName] — визначна постать у розвитку [ShowDialectName('czech_dialect')] літератури: видавець, друкар і перекладач. Його внесок у #TOOLTIP:DIALECT,czech_dialect,X #L чеську#!#! мову та прагнення зробити книги доступними для народу помітно підняли грамотність у нашій державі. Його вплив дедалі зростає, і ми маємо нагоду поставити його знання на службу нашому [ROOT.GetCountry.GetFlavorRank]."
  },
  "flavor_boh.47.entry": {
   "en": "Jiří Melantrich z Aventina",
-  "uk": ""
+  "uk": "Їржі Мелантріх з Авентина"
  },
  "flavor_boh.47.historical_info": {
   "en": "Jiří Melantrich z Aventina significantly influenced the cultural and intellectual landscape of Bohemia with his extensive printing and publishing work. His efforts in producing and disseminating important literary and scholarly works helped preserve and promote Czech language and literature during a pivotal time of cultural revival.",
@@ -920,16 +920,16 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_boh.48.a": {
-  "en": "[target_character.GetHisHer|U] service is greatly appreciated.",
-  "uk": "Ми вельми цінуємо [Select_CString(target_character.IsFemale, 'її', 'його' )] труди."
+  "en": "His service is greatly appreciated.",
+  "uk": "Ми вельми цінуємо його службу."
  },
  "flavor_boh.48.desc": {
-  "en": "[target_character.GetName] is one of the most prominent architects of the Baroque era in [ROOT.GetCountry.GetName]. [target_character.GetHisHer|U] architectural masterpieces, such as the Church of Saint Nicholas in [ShowLocationName('prague')] and the Břevnov Monastery, leave a lasting impact on the landscape of our country. [target_character.GetLastNameWithNoTooltip]'s innovative designs and attention to detail garner growing acclaim and admiration. Having contributed to over fourty architectural wonders, it would be wise to reward [target_character.GetHimHer] with a position at our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "[target_character.GetName] — [Select_CString(target_character.IsFemale, 'одна', 'один' )] із найвидатніших архітекторів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, що працюють у стилі бароко. Кожному відомі такі знамениті [Select_CString(target_character.IsFemale, 'її', 'його' )] шедеври, як церква Святого Миколая в #TOOLTIP:LOCATION,prague_tt,X #L Празі#!#! або Бржевновський монастир. Під час роботи [target_character.GetLastNameWithNoTooltip] постійно винаходить щось нове та виявляє ретельну увагу до деталей, за що користується великою повагою. Число споруд, до яких [Select_CString(target_character.IsFemale, 'вона доклала', 'він доклав' )] руку, уже перевалило за сорок. Напевно [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] зрадіє, якщо ця людина отримає придворну посаду."
+  "en": "[target_character.GetName] is one of the most prominent architects of the Baroque era in [ROOT.GetCountry.GetName]. His architectural masterpieces, such as the Church of Saint Nicholas in [ShowLocationName('prague')] and the Břevnov Monastery, leave a lasting impact on the landscape of our country. [target_character.GetLastNameWithNoTooltip]'s innovative designs and attention to detail garner growing acclaim and admiration. Having contributed to over fourty architectural wonders, it would be wise to reward him with a position at our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "[target_character.GetName] — один із найвидатніших архітекторів доби бароко в [ROOT.GetCountry.Custom('CL_PREP')]. Його шедеври, як-от церква святого Миколая в [ShowLocationName('prague')] та Бржевновський монастир, назавжди змінили обличчя нашої держави. Новаторські задуми й увага до деталей приносять [target_character.GetLastNameWithNoTooltip] дедалі більше визнання та захоплення. Він доклав руку до понад сорока архітектурних див, тож було б мудро винагородити його посадою при нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
  },
  "flavor_boh.48.entry": {
   "en": "Kilián Ignác Dientzenhofer",
-  "uk": ""
+  "uk": "Кіліан Ігнац Дінценхофер"
  },
  "flavor_boh.48.historical_info": {
   "en": "Dientzenhofer's Baroque-style architecture left a lasting impact with his masterpieces like the Church of Saint John of Nepomuk and the Loreta Church in Prague. His innovative designs and attention to detail significantly shaped the architectural landscape and cultural heritage of the kingdom.",
@@ -940,20 +940,20 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_boh.49.a": {
-  "en": "We will support [target_character.GetHisHer] efforts!",
-  "uk": "Ми підтримаємо [Select_CString(target_character.IsFemale, 'її', 'його' )] старання!"
+  "en": "We will support his efforts!",
+  "uk": "Ми підтримаємо його старання!"
  },
  "flavor_boh.49.b": {
-  "en": "Supporting [target_character.GetHimHer] might enrage the country's minorities.",
-  "uk": "Підтримавши [Select_CString(target_character.IsFemale, 'її', 'його' )], ми розлютимо меншини."
+  "en": "Supporting him might enrage the country's minorities.",
+  "uk": "Підтримавши його, ми можемо розлютити меншини держави."
  },
  "flavor_boh.49.desc": {
-  "en": "[target_character.GetName], a distinguished [ShowCultureName('czech')] philologist and historian, is emerging as a pivotal figure in the [ShowCultureNameWithNoTooltip('czech')] National Revival. Influenced by the [ShowInstitutionName('enlightenment')] and the burgeoning ideas of nation-state, [target_character.GetLastNameWithNoTooltip] is passionately advocating for the preservation and revitalization of [ShowCultureNameWithNoTooltip('czech')] language, culture, and identity.\\n\\n[target_character.GetHisHer|U] scholarly works and dedication to the [ShowCultureNameWithNoTooltip('czech')] heritage are inspiring a renewed sense of national pride and unity among the [ShowCultureNameWithNoTooltip('czech')] people. This cultural awakening is fostering a collective consciousness that may significantly alter the future of our nation.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Знаменита', 'Знаменитий' )] мовознавець та історик [target_character.GetName] — [Select_CString(target_character.IsFemale, 'одна', 'один' )] із найважливіших діячів чеського національного відродження, [Select_CString(target_character.IsFemale, 'яка надихається', 'який надихається' )] ідеями #TOOLTIP:INSTITUTION,enlightenment,X #L Просвітництва#!#! та лише почала складатися уявленнями про національні держави. [target_character.GetLastNameWithNoTooltip] палко закликає інших зберігати та відроджувати чеські мову, культуру та самосвідомість.\\n\\n[Select_CString(target_character.IsFemale, 'Її', 'Його' )] наукові праці та відданість справі підтримання культурної спадщини викликають неабияку гордість і почуття єдності в чеського народу. У ньому починає прокидатися масове усвідомлення, яке напевно визначить майбутнє всієї держави."
+  "en": "[target_character.GetName], a distinguished [ShowCultureName('czech')] philologist and historian, is emerging as a pivotal figure in the [ShowCultureNameWithNoTooltip('czech')] National Revival. Influenced by the [ShowInstitutionName('enlightenment')] and the burgeoning ideas of nation-state, [target_character.GetLastNameWithNoTooltip] is passionately advocating for the preservation and revitalization of [ShowCultureNameWithNoTooltip('czech')] language, culture, and identity.\\n\\nHis scholarly works and dedication to the [ShowCultureNameWithNoTooltip('czech')] heritage are inspiring a renewed sense of national pride and unity among the [ShowCultureNameWithNoTooltip('czech')] people. This cultural awakening is fostering a collective consciousness that may significantly alter the future of our nation.",
+  "uk": "[target_character.GetName] — видатний філолог та історик, носій культури «[ShowCultureName('czech')]», стає однією з ключових постатей національного відродження народу культури «[ShowCultureNameWithNoTooltip('czech')]». Під впливом інституту «[ShowInstitutionName('enlightenment')]» і нових ідей про національну державу [target_character.GetLastNameWithNoTooltip] палко закликає берегти й відроджувати мову, культуру та самосвідомість, які несе культура «[ShowCultureNameWithNoTooltip('czech')]».\\n\\nЙого наукові праці та відданість спадщині культури «[ShowCultureNameWithNoTooltip('czech')]» пробуджують нове почуття національної гордості та єдності серед народу культури «[ShowCultureNameWithNoTooltip('czech')]». Це культурне пробудження формує спільну свідомість, яка може докорінно змінити майбутнє нашої держави."
  },
  "flavor_boh.49.entry": {
   "en": "Josef Dobrovský",
-  "uk": ""
+  "uk": "Йозеф Добровський"
  },
  "flavor_boh.49.historical_info": {
   "en": "Josef Dobrovský was crucial to the Czech National Revival as he passionately promoted the preservation and revitalization of the Czech language and culture, sparking a renewed sense of national identity and pride among the Czech people. His scholarly work and dedication to Czech heritage significantly influenced the cultural and national consciousness of the era.",
@@ -985,7 +985,7 @@
  },
  "flavor_boh.51.a": {
   "en": "Na zdraví!",
-  "uk": ""
+  "uk": "На здраві!"
  },
  "flavor_boh.51.a.tt": {
   "en": "Every owned location with a [ShowBuildingTypeName('brewery')], [ShowBuildingTypeName('beer_workshop')], [ShowBuildingTypeName('brewery_manufactory')], or [ShowBuildingTypeName('brewery_mill')] gains [ShowNamedValue('prosperity_severe_bonus')|+=2%] [prosperity|e].",
@@ -1017,7 +1017,7 @@
  },
  "flavor_boh.52.entry": {
   "en": "The Swamp Monster of Vizovice",
-  "uk": ""
+  "uk": "Болотяне чудовисько з Візовиць"
  },
  "flavor_boh.52.title": {
   "en": "The Swamp Monster of [ShowLocationNameWithNoTooltip('vizovice')]",
@@ -1032,8 +1032,8 @@
   "uk": "Досить даремно витріщатися в небо!"
  },
  "flavor_boh.6.desc": {
-  "en": "Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has become a beacon of scientific progress, attracting the greatest minds of the age. Among them, the renowned Danish astronomer [target_character.GetName] has arrived in [ROOT.GetCountry.GetCapital.GetName], bringing [target_character.GetHerHis] unparalleled expertise in celestial observation. Seeking to refine [target_character.GetHerHis] theories, [target_character.GetSheHe] is joined by the brilliant mathematician [target_character2.GetName], whose analytical prowess may revolutionize our understanding of the heavens. Their collaboration could bring prestige and knowledge to our realm, but their work challenges traditional views.",
-  "uk": "[ROOT.GetCountry.GetCapital.GetName] — справжній оплот наукового прогресу, сюди збігаються найвидатніші уми нашого часу. Серед них і [Select_CString(target_character.IsFemale, 'знаменита данська', 'знаменитий данський' )] астроном [target_character.GetName], [Select_CString(target_character.IsFemale, 'що прославилася', 'що прославився' )] своїми спостереженнями за небесними тілами. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] прагне перевірити свої теорії, і в цьому [Select_CString(target_character.IsFemale, 'їй', 'йому' )] допоможе [Select_CString(target_character2.IsFemale, 'прославлена', 'прославлений' )] математик [target_character2.GetName], [Select_CString(target_character2.IsFemale, 'власниця', 'власник' )] видатного аналітичного розуму. Їхні дослідження можуть кардинально змінити наші уявлення про небеса та підняти престиж нашої держави до заоблачних висот, однак останні знахідки учених ідуть урозріз з усталеними поглядами…"
+  "en": "Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has become a beacon of scientific progress, attracting the greatest minds of the age. Among them, the renowned Danish astronomer [target_character.GetName] has arrived in [ROOT.GetCountry.GetCapital.GetName], bringing his unparalleled expertise in celestial observation. Seeking to refine his theories, he is joined by the brilliant mathematician [target_character2.GetName], whose analytical prowess may revolutionize our understanding of the heavens. Their collaboration could bring prestige and knowledge to our realm, but their work challenges traditional views.",
+  "uk": "Наш [ROOT.GetCountry.GetGovernment.GetCourtTitle] став осередком наукового поступу, що притягує найвидатніші уми епохи. Серед них — знаменитий данський астроном [target_character.GetName], який прибув до [ROOT.GetCountry.GetCapital.GetName] зі своїм неперевершеним досвідом спостережень за небесними тілами. Прагнучи вдосконалити свої теорії, він об’єднався з блискучим математиком [target_character2.GetName], чий аналітичний хист може докорінно змінити наші уявлення про небеса. Їхня співпраця може принести нашому царству престиж і знання, однак їхні праці кидають виклик усталеним поглядам."
  },
  "flavor_boh.6.entry": {
   "en": "$flavor_boh.6.title$",
@@ -1057,7 +1057,7 @@
  },
  "flavor_boh.7.b.entry": {
   "en": "We shall join the Reformation. For Luther and $Hus$!",
-  "uk": ""
+  "uk": "Ми приєднаємося до Реформації. За Лютера і $Hus$!"
  },
  "flavor_boh.7.desc": {
   "en": "[ShowReligionAdjective('hussite')] traditions are still remembered amongst the people of [ROOT.GetCountry.GetName]. Now that the thesis of Luther has been widely known, more and more important people are openly declaring themselves to be [ShowReligionAdjective('lutheran')] rather than [ShowReligionAdjectiveWithNoTooltip('hussite')]. We must decide whether to retain a distinct [ShowReligionAdjectiveWithNoTooltip('hussite')] identity or join the wider [ShowReligionAdjectiveWithNoTooltip('lutheran')] Reformation.",
@@ -1065,7 +1065,7 @@
  },
  "flavor_boh.7.entry": {
   "en": "Hussite Traditions",
-  "uk": ""
+  "uk": "Гуситські традиції"
  },
  "flavor_boh.7.title": {
   "en": "[ShowReligionAdjectiveWithNoTooltip('hussite')] Traditions",
@@ -1101,7 +1101,7 @@
  },
  "flavor_boh.9.a.entry": {
   "en": "We must condemn him and his house.",
-  "uk": ""
+  "uk": "Ми маємо засудити його та його дім."
  },
  "flavor_boh.9.b": {
   "en": "We must seek reconciliation with [GetCountry('BOH').GetNameWithNoTooltip].",
@@ -1109,7 +1109,7 @@
  },
  "flavor_boh.9.b.entry": {
   "en": "We must seek reconciliation with $BOH$.",
-  "uk": ""
+  "uk": "Ми маємо шукати примирення з $BOH$."
  },
  "flavor_boh.9.desc": {
   "en": "A new [GetCountry('BOH').GetGovernment.GetRulerTitle] has started [target_character.GetHerHis] rule in the [GetCountry('BOH').GetLongName]. Surely tempted by the devil, [target_character.GetName] has chosen to follow the heretic [ShowReligionAdjective('hussite')] faith, in open defiance to all that is proper. The College of Cardinals identifies this as an affront to [ShowReligionNameWithNoTooltip('catholic')] and to [ROOT.GetCountry.GetGovernment.GetRuler.GetName] personally.",
@@ -1157,11 +1157,11 @@
  },
  "variable_tt_boh_force_crown_st_wenceslas": {
   "en": "Force the Crown of Saint Wenceslas",
-  "uk": ""
+  "uk": "Нав’язати Корону Святого Вацлава"
  },
  "variable_tt_not_prevent_kutna_hora_flood": {
   "en": "[ShowLocationName('kutna_hora')] has not Received Flood Prevention",
-  "uk": ""
+  "uk": "[ShowLocationName('kutna_hora')] не отримала захисту від повеней"
  },
  "voynich_manuscript": {
   "en": "Voynich Manuscript",

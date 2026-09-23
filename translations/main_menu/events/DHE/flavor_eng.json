@@ -425,7 +425,7 @@
  },
  "flavor_eng.1.desc": {
   "en": "In the hallowed halls of [target_location.GetName], a new religious movement has emerged, challenging the established order. [john_wycliffe.GetName], a respected philosopher, advocates for a radical vision of [ShowReligionGroupName('christian')], aimed at empowering the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] while suppressing the corrupt [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and their obscene hierarchy.\\n\\nHis teachings are unique in that he calls for the Bible to be translated into [ROOT.GetCountry.GetCulture.GetLanguage.GetName], so that it can be read and understood by the common people.\\n\\nWe are faced with a choice to actively suppress the heretics, or simply ignore the harmless musings.",
-  "uk": "У священних стінах [target_location.GetName] постав новий релігійний рух, що кидає виклик усталеному порядку. [john_wycliffe.GetName], шановний філософ, проповідує радикальне бачення віри, якою є [ShowReligionGroupName('christian')]: понад усе мають стояти [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], а не зіпсовані [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] з їхньою непристойною ієрархією.\\n\\nЙого вчення вирізняється тим, що він закликає перекласти Біблію народною мовою — [ROOT.GetCountry.GetCulture.GetLanguage.GetName], щоб її міг читати й розуміти простий люд.\\n\\nПеред нами вибір: рішуче придушити єретиків або просто не зважати на їхні нешкідливі мудрування."
+  "uk": "У священних стінах [target_location.GetName] постав новий релігійний рух, що кидає виклик усталеному порядку. [john_wycliffe.GetName], шановний філософ, проповідує радикальне бачення віри, якою є [ShowReligionGroupName('christian')], спрямоване на те, щоб дати владу [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], водночас приборкуючи зіпсованих [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] з їхньою непристойною ієрархією.\\n\\nЙого вчення вирізняється тим, що він закликає перекласти Біблію мовою [ROOT.GetCountry.GetCulture.GetLanguage.GetName], щоб її міг читати й розуміти простий люд.\\n\\nПеред нами вибір: рішуче придушити єретиків або просто не зважати на їхні нешкідливі мудрування."
  },
  "flavor_eng.1.entry": {
   "en": "The Lollardy Heresy",
@@ -1965,7 +1965,7 @@
  },
  "flavor_eng.14.a": {
   "en": "Seize it for the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')].",
-  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')|l] потребують підтримки."
+  "uk": "Забрати це на користь стану «[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]»."
  },
  "flavor_eng.14.a.entry": {
   "en": "Seize it for the $crown_estate$.",
@@ -1977,7 +1977,7 @@
  },
  "flavor_eng.14.c": {
   "en": "It must befall the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')].",
-  "uk": "Наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] цього заслуговують."
+  "uk": "Це має відійти станові «[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]»."
  },
  "flavor_eng.14.c.entry": {
   "en": "It must befall the $clergy_estate$.",
@@ -3417,7 +3417,7 @@
  },
  "flavor_eng.177.tt3": {
   "en": "Her ongoing presence continues to amuse the [ShowPopTypeName('nobles')]",
-  "uk": "Її присутність і далі тішить: [ShowPopTypeName('nobles')]"
+  "uk": "Її присутність і далі тішить [ShowPopTypeName('nobles')]"
  },
  "flavor_eng.177.tt4": {
   "en": "The narrative of Rolfe evolves into a cherished cultural heritage",
@@ -6777,7 +6777,7 @@
  },
  "flavor_eng.51.order_tt": {
   "en": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] will join the [ShowChivalricOrderName('order_of_the_garter')] as a founding member, gaining #Y +15#! [dip|e] and #Y +0.05#! Monthly Prestige. Our realm also gains #Y +0.05#! Monthly Prestige.",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] стане одним із засновників ордену [ShowChivalricOrderName('order_of_the_garter')] і отримає #Y +15#! [dip|e] та #Y +0.05#! престижу за місяць. Наша держава також отримує #Y +0.05#! престижу за місяць."
+  "uk": "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] стане одним із засновників ордену [ShowChivalricOrderName('order_of_the_garter')] і отримає #Y +15#! [Concept('dip','дипломатії')|e] та #Y +0.05#! престижу за місяць. Наша держава також отримує #Y +0.05#! престижу за місяць."
  },
  "flavor_eng.51.title": {
   "en": "The Order of the Garter",
@@ -7225,7 +7225,7 @@
  },
  "flavor_eng.7.desc": {
   "en": "The unwillingness of [current_wife.GetName] to deliver a male heir remains a cause of great concern for [ROOT.GetCountry.GetGovernment.GetRuler.GetName], who has grown weary and instead become infatuated with the tenacious [anne_boleyn.GetName]. In an attempt to secure her hand in marriage, [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] has dispatched an envoy to the [GetCountry('PAP').GetGovernment.GetRulerTitle] requesting dispensation to annul [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] current marriage, which was immediately refuted in accordance with canon law. The eager [ROOT.GetCountry.GetGovernment.GetRulerTitle] is now considering more drastic steps to allow the marriage, including a complete break from [GetCountry('PAP').GetAdjective] authority.",
-  "uk": "Те, що [current_wife.GetName] ніяк не народить спадкоємця-сина, досі тяжко непокоїть [ROOT.GetCountry.GetGovernment.GetRuler.GetName], який, утомившись чекати, закохався в наполегливу [anne_boleyn.GetName]. Щоб здобути її руку, [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] відрядив посла до [GetCountry('PAP').GetGovernment.GetRulerTitle] з проханням дозволу анулювати нинішній шлюб ([ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer]), але відповіддю стала негайна відмова згідно з канонічним правом. Нетерплячий [ROOT.GetCountry.GetGovernment.GetRulerTitle] тепер обмірковує рішучіші кроки, аж до повного розриву з владою ([GetCountry('PAP').GetAdjective])."
+  "uk": "Те, що [current_wife.GetName] ніяк не народить спадкоємця-сина, досі тяжко непокоїть [ROOT.GetCountry.GetGovernment.GetRuler.GetName], який, утомившись чекати, закохався в наполегливу [anne_boleyn.GetName]. Щоб здобути її руку, [ROOT.GetCountry.GetGovernment.GetRuler.GetSheHe] відрядив посла до [GetCountry('PAP').GetGovernment.GetRulerTitle] з проханням дозволу анулювати [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] нинішній шлюб, але відповіддю стала негайна відмова згідно з канонічним правом. Нетерплячий [ROOT.GetCountry.GetGovernment.GetRulerTitle] тепер обмірковує рішучіші кроки, аж до повного розриву з [GetCountry('PAP').GetAdjective] владою."
  },
  "flavor_eng.7.entry": {
   "en": "$flavor_eng.7.title$",
@@ -7821,7 +7821,7 @@
  },
  "flavor_eng.92.entry": {
   "en": "$BYZ_ADJ$ Emperor visits $ENG$",
-  "uk": "Імператор ($BYZ_ADJ$) відвідує $ENG$"
+  "uk": "$BYZ_ADJ$ імператор відвідує $ENG$"
  },
  "flavor_eng.92.historical_info": {
   "en": "In December 1400, the Byzantine emperor traveled to England to meet King Henry IV. It was part of a diplomatic offensive to rally support against the growing threat of the Ottoman Empire, which was dangerously close to conquering the city of Constantinople, the capital of Byzantium. The visit was a moderate success but failed to secure enough funds to shore up the empire's fortunes.",

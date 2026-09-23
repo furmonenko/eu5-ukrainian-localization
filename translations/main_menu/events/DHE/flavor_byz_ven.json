@@ -1,7 +1,7 @@
 {
  "BYZ_crown_jewels_tt": {
   "en": "If [THIS.GetCountry.GetName] accept, they will [loan|e] us [SCOPE.GetLocalVariable('loan_size').GetValue|+=] [gold_i|e] and we will suffer from [ShowModifier('BYZ_lacking_jewels')] until the [work_of_art|e] of [target_woa.GetName] is returned",
-  "uk": ""
+  "uk": "Якщо [THIS.GetCountry.GetName] погодяться, вони [Concept('loan','позичать')|e] нам [SCOPE.GetLocalVariable('loan_size').GetValue|+=] [gold_i|e], а ми потерпатимемо від [ShowModifier('BYZ_lacking_jewels')], доки нам не повернуть [Concept('work_of_art','витвір мистецтва')|e] [target_woa.GetName]"
  },
  "LOAN_NAME_pawning_of_crown_jewels_B": {
   "en": "$pawning_of_crown_jewels$",
@@ -25,23 +25,23 @@
  },
  "LOAN_TOOLTIP_pawning_of_crown_jewels": {
   "en": "A mutual agreement has been reached wherein the lender grants a loan to the borrower against the possession of $byzantine_crown_jewels$. When the loan is repaid, the pawned jewels should be returned as well — at least, in theory.",
-  "uk": ""
+  "uk": "Сторони дійшли згоди: позикодавець надає позичальникові позику під заставу $byzantine_crown_jewels$. Коли позику сплатять, заставлені коштовності мають повернути — принаймні теоретично."
  },
  "byz_woa_was_moved": {
   "en": "[target_woa.GetName] was moved to [target.GetName]",
-  "uk": ""
+  "uk": "[target_woa.GetName] перевезено до [target.GetName]"
  },
  "flavor_byz_ven.1.a": {
   "en": "Desperate times call for equally desperate measures.",
-  "uk": ""
+  "uk": "Відчайдушні часи вимагають відчайдушних заходів."
  },
  "flavor_byz_ven.1.b": {
   "en": "That is preposterous.",
-  "uk": ""
+  "uk": "Про це не може бути й мови."
  },
  "flavor_byz_ven.1.desc": {
   "en": "As the [ShowDisasterName('byzantine_succession_crisis')] rages on, our treasury is being drained, making our position more and more untenable as the conflicts continue. Should our internal turmoil persist, the very existence of the [origin_country.GetLongName] will be in jeopardy.\\n\\nIn such dire circumstances, a once-unbelievable idea is being floated around — pawning the [target_woa.GetName] as collateral for a loan from one of the merchant republics.",
-  "uk": ""
+  "uk": "Поки [ShowDisasterName('byzantine_succession_crisis')] вирує, наша скарбниця порожніє, і з кожною новою сутичкою наше становище стає дедалі безнадійнішим. Якщо внутрішні чвари не вщухнуть, під загрозою опиниться саме існування [origin_country.GetLongName].\\n\\nЗа таких скрутних обставин дедалі частіше лунає колись немислима ідея — заставити [target_woa.GetName] під позику в одній із купецьких республік."
  },
  "flavor_byz_ven.1.entry": {
   "en": "$flavor_byz_ven.1.title$",
@@ -49,15 +49,15 @@
  },
  "flavor_byz_ven.1.title": {
   "en": "In Dire Straits",
-  "uk": ""
+  "uk": "У скрутному становищі"
  },
  "flavor_byz_ven.10.a": {
   "en": "So be it.",
-  "uk": ""
+  "uk": "Залишимо все як є."
  },
  "flavor_byz_ven.10.desc": {
   "en": "Our envoys have returned empty-handed. The [target_country.GetLongName] has refused our offer, unwilling to provide a loan even with the [target_woa.GetName] as collateral. The insult stings almost as much as the blow to our finances. We must seek other means to weather this crisis.",
-  "uk": ""
+  "uk": "Наші посли повернулися ні з чим. [target_country.GetLongName] відхилила нашу пропозицію й не бажає давати позику навіть під заставу [target_woa.GetName]. Ця образа пече майже так само, як удар по нашій скарбниці. Мусимо шукати інших способів пережити цю кризу."
  },
  "flavor_byz_ven.10.entry": {
   "en": "$flavor_byz_ven.10.title$",
@@ -65,15 +65,15 @@
  },
  "flavor_byz_ven.10.title": {
   "en": "Refused by the Serenissima",
-  "uk": ""
+  "uk": "Відмова Найяснішої"
  },
  "flavor_byz_ven.11.a": {
   "en": "A bitter loss in a bitter season.",
-  "uk": ""
+  "uk": "Гірка втрата в гірку пору."
  },
  "flavor_byz_ven.11.desc": {
   "en": "Our treasury lies in ruins. Among the obligations made void by our financial collapse is the loan we extended to the [origin_country.GetLongName], with the [target_woa.GetName] as collateral. The contract being annulled, the jewels revert to [origin_country.GetAdjectiveWithNoTooltip] hands, and the leverage we hoped to wield over them slips through our fingers.",
-  "uk": ""
+  "uk": "Наша скарбниця лежить у руїнах. Серед зобов’язань, анульованих через наш крах, — і позика, яку ми надали [origin_country.GetLongName] під заставу [target_woa.GetName]. Угоду розірвано, коштовності повертаються до [origin_country.GetAdjectiveWithNoTooltip] рук, а важіль впливу, на який ми сподівалися, вислизає крізь пальці."
  },
  "flavor_byz_ven.11.entry": {
   "en": "$flavor_byz_ven.11.title$",
@@ -81,15 +81,15 @@
  },
  "flavor_byz_ven.11.title": {
   "en": "Collateral Lost",
-  "uk": ""
+  "uk": "Втрачена застава"
  },
  "flavor_byz_ven.12.a": {
   "en": "Providence has spared us this indignity.",
-  "uk": ""
+  "uk": "Провидіння вберегло нас від цієї ганьби."
  },
  "flavor_byz_ven.12.desc": {
   "en": "Word has reached the [ROOT.GetCountry.GetGovernment.GetCourtTitle] from the lagoon. The [target_country.GetLongName] has gone bankrupt, their creditors closing in upon what remains of the Serenissima's wealth. In the disarray, the [target_woa.GetName] held by [target_country.GetNameWithNoTooltip] as collateral against our pawning loan have been quietly returned to our possession. The contract is void, and our jewels are once more our own.",
-  "uk": ""
+  "uk": "З лагуни до [ROOT.GetCountry.GetGovernment.GetCourtTitle] дійшла звістка: [target_country.GetLongName] збанкрутувала, і кредитори обсіли рештки багатств Найяснішої. У цьому безладі [target_woa.GetName], які [target_country.GetNameWithNoTooltip] тримала в заставу нашої позики, тихо повернули нам. Угода втратила силу, і наші коштовності знову наші."
  },
  "flavor_byz_ven.12.entry": {
   "en": "$flavor_byz_ven.12.title$",
@@ -97,15 +97,15 @@
  },
  "flavor_byz_ven.12.title": {
   "en": "A Venetian Collapse",
-  "uk": ""
+  "uk": "Крах Венеції"
  },
  "flavor_byz_ven.13.a": {
   "en": "Our honor follows our treasury into the abyss.",
-  "uk": ""
+  "uk": "Наша честь іде слідом за скарбницею в прірву."
  },
  "flavor_byz_ven.13.desc": {
   "en": "Our coffers are empty, our debts repudiated. The loan we took from the [target_country.GetLongName] against the [target_woa.GetName] is now in default. By the terms of the agreement, the jewels are forfeit to [target_country.GetNameWithNoTooltip], and word of our shame travels swiftly through the courts of Christendom.",
-  "uk": ""
+  "uk": "Наші скрині порожні, від боргів ми відмовилися. Позика, яку ми взяли в [target_country.GetLongName] під заставу [target_woa.GetName], тепер не сплачена. За умовами угоди коштовності відходять до [target_country.GetNameWithNoTooltip], і звістка про нашу ганьбу швидко облітає двори всього християнського світу."
  },
  "flavor_byz_ven.13.entry": {
   "en": "$flavor_byz_ven.13.title$",
@@ -113,15 +113,15 @@
  },
  "flavor_byz_ven.13.title": {
   "en": "Default and Forfeit",
-  "uk": ""
+  "uk": "Неплатіж і втрата застави"
  },
  "flavor_byz_ven.14.a": {
   "en": "Their loss is our enduring gain.",
-  "uk": ""
+  "uk": "Їхня втрата — наш тривалий здобуток."
  },
  "flavor_byz_ven.14.desc": {
   "en": "Distressing tidings reach the [ROOT.GetCountry.GetGovernment.GetCourtTitle] from the [origin_country.GetLongName], who have repudiated their debts and brought ruin upon their treasury. The loan we extended against the [target_woa.GetName] will not be repaid. Yet the collateral is ours by right of the agreement, and it adorns the Serenissima as a prize of our prudence.",
-  "uk": ""
+  "uk": "До [ROOT.GetCountry.GetGovernment.GetCourtTitle] дійшли тривожні вісті: [origin_country.GetLongName] відмовилися від своїх боргів і довели скарбницю до руїни. Позику, яку ми надали під заставу [target_woa.GetName], не повернуть. Та застава належить нам за правом угоди й прикрашає Найяснішу як нагорода за нашу розважливість."
  },
  "flavor_byz_ven.14.entry": {
   "en": "$flavor_byz_ven.14.title$",
@@ -129,83 +129,83 @@
  },
  "flavor_byz_ven.14.title": {
   "en": "The Debtor's Default",
-  "uk": ""
+  "uk": "Неплатіж боржника"
  },
  "flavor_byz_ven.15.a": {
   "en": "Send envoys to propose a joint pact.",
-  "uk": ""
+  "uk": "Відправити послів і запропонувати спільний пакт."
  },
  "flavor_byz_ven.15.b": {
   "en": "We will pursue our interests alone.",
-  "uk": ""
+  "uk": "Ми обстоюватимемо свої інтереси самотужки."
  },
  "flavor_byz_ven.15.desc": {
   "en": "The [GetCountry('GEN').GetAdjective] seizure of [ShowLocationName('chios')] and the neighboring islands from the [GetCountry('BYZ').GetLongName] has greatly worried the merchants of the lagoon. Our [ROOT.GetCountry.GetFlavorRank] cannot tolerate [GetCountry('GEN').GetAdjectiveWithNoTooltip] dominance in the [ShowAreaName('aegean_sea_area')], and the wounded [GetCountry('BYZ').GetAdjectiveWithNoTooltip] state make for the most natural of allies.\\n\\nShould we extend a hand of friendship to the [GetCountry('BYZ').GetAdjectiveWithNoTooltip] [GetCountry('BYZ').GetGovernment.GetCourtTitle]?",
-  "uk": ""
+  "uk": "[GetCountry('GEN').GetAdjective] захоплення [ShowLocationName('chios')] та сусідніх островів у [GetCountry('BYZ').GetLongName] вельми стривожило купців лагуни. Наша [ROOT.GetCountry.GetFlavorRank] не може терпіти [GetCountry('GEN').GetAdjectiveWithNoTooltip] панування в [ShowAreaName('aegean_sea_area')], а поранена [GetCountry('BYZ').GetAdjectiveWithNoTooltip] держава — найприродніший союзник.\\n\\nЧи простягнути нам руку дружби [GetCountry('BYZ').GetAdjectiveWithNoTooltip] [GetCountry('BYZ').GetGovernment.GetCourtTitle]?"
  },
  "flavor_byz_ven.15.entry": {
   "en": "An Opportunity against the Genoese Threat",
-  "uk": ""
+  "uk": "Нагода протидіяти генуезькій загрозі"
  },
  "flavor_byz_ven.15.title": {
   "en": "An Opportunity against the [GetCountry('GEN').GetAdjectiveWithNoTooltip] Threat",
-  "uk": ""
+  "uk": "Нагода протидіяти [GetCountry('GEN').GetAdjectiveWithNoTooltip] загрозі"
  },
  "flavor_byz_ven.16.a": {
   "en": "An old rival becomes a useful ally against a greater foe.",
-  "uk": ""
+  "uk": "Давній суперник стає корисним союзником проти сильнішого ворога."
  },
  "flavor_byz_ven.16.b": {
   "en": "None of these Latins are of trust.",
-  "uk": ""
+  "uk": "Жодному з цих латинян не можна довіряти."
  },
  "flavor_byz_ven.16.desc": {
   "en": "Envoys of the [GetCountry('VEN').GetLongName] approach our [ROOT.GetCountry.GetGovernment.GetCourtTitle] bearing a most welcome proposal, a joint understanding against the [GetCountry('GEN').GetLongName], whose merchant fleets have grown too bold in the [ShowAreaName('aegean_sea_area')] since their seizure of [ShowLocationName('chios')].\\n\\nThough our recent dealings with [GetCountry('VEN').GetNameWithNoTooltip] have not always been amicable, being both opposed to [GetCountry('GEN').GetAdjectiveWithNoTooltip] ambition makes for an unusual alignment of interests.",
-  "uk": ""
+  "uk": "Посли [GetCountry('VEN').GetLongName] прибули до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle] з вельми бажаною пропозицією — спільно протистояти [GetCountry('GEN').GetLongName], чиї торгові флоти надто зухвало поводяться в [ShowAreaName('aegean_sea_area')] відтоді, як захопили [ShowLocationName('chios')].\\n\\nХоча наші недавні стосунки з [GetCountry('VEN').GetNameWithNoTooltip] не завжди були приязними, спільна протидія [GetCountry('GEN').GetAdjectiveWithNoTooltip] амбіціям незвично зближує наші інтереси."
  },
  "flavor_byz_ven.16.entry": {
   "en": "The Venetian Overture",
-  "uk": ""
+  "uk": "Венеціанська пропозиція"
  },
  "flavor_byz_ven.16.title": {
   "en": "The [GetCountry('VEN').GetAdjectiveWithNoTooltip] Overture",
-  "uk": ""
+  "uk": "[GetCountry('VEN').GetAdjectiveWithNoTooltip] пропозиція"
  },
  "flavor_byz_ven.2.a": {
   "en": "It will make a fine addition to our collection.",
-  "uk": ""
+  "uk": "Вони стануть чудовим поповненням нашої колекції."
  },
  "flavor_byz_ven.2.b": {
   "en": "Let the wicked [origin_country.GetFlavorRank] fall.",
-  "uk": ""
+  "uk": "Хай падуть ці нечестиві [origin_country.GetFlavorRank]."
  },
  "flavor_byz_ven.2.b.entry": {
   "en": "Let the wicked realm fall.",
-  "uk": ""
+  "uk": "Хай падуть ці нечестиві."
  },
  "flavor_byz_ven.2.desc": {
   "en": "The [origin_country.GetLongName] is in the most dire of straits. Suffering from the [ShowDisasterName('byzantine_succession_crisis')], they are actively burning through their war chest, and are in critical need of additional funds. Their situation seems so terrible, in fact, that they have made us a most surprising offer: a request for a loan, offering the [target_woa.GetName] as collateral. This may be considered a sign of trust by some... or an act of desperation by others.",
-  "uk": ""
+  "uk": "[origin_country.GetLongName] у вкрай скрутному становищі. Через [ShowDisasterName('byzantine_succession_crisis')] вони стрімко спустошують воєнну скарбницю й гостро потребують додаткових коштів. Їхнє становище, схоже, настільки жахливе, що вони зробили нам вельми несподівану пропозицію: просять позику, пропонуючи в заставу [target_woa.GetName]. Дехто вважатиме це знаком довіри… а дехто — актом відчаю."
  },
  "flavor_byz_ven.2.entry": {
   "en": "Pawning the $BYZ_ADJ$ Crown Jewels",
-  "uk": ""
+  "uk": "Застава $BYZ_ADJ$ коронних коштовностей"
  },
  "flavor_byz_ven.2.title": {
   "en": "Pawning the [origin_country.GetAdjectiveWithNoTooltip] Crown Jewels",
-  "uk": ""
+  "uk": "Застава [origin_country.GetAdjectiveWithNoTooltip] коронних коштовностей"
  },
  "flavor_byz_ven.3.a": {
   "en": "We cannot risk such a mark on our reputation.",
-  "uk": ""
+  "uk": "Ми не можемо ризикувати такою плямою на репутації."
  },
  "flavor_byz_ven.3.b": {
   "en": "After all, why not? Why should we not keep it?",
-  "uk": ""
+  "uk": "А зрештою, чому б і ні? Чому б нам їх не залишити?"
  },
  "flavor_byz_ven.3.desc": {
   "en": "The [origin_country.GetLongName] has just repaid the loan we granted them, and are now demanding that the [target_woa.GetName] be restored to their possession. According to our agreement, we must oblige — but doing so would make us lose what leverage we have on them.\\n\\nSurely, should we not return the jewels, nothing significant will happen...",
-  "uk": ""
+  "uk": "[origin_country.GetLongName] щойно сплатили надану нами позику й тепер вимагають повернути їм [target_woa.GetName]. За угодою ми мусимо погодитися — але тоді втратимо той важіль впливу, що маємо на них.\\n\\nНапевно, якщо ми не повернемо коштовності, нічого особливого не станеться…"
  },
  "flavor_byz_ven.3.entry": {
   "en": "$flavor_byz_ven.3.title$",
@@ -213,7 +213,7 @@
  },
  "flavor_byz_ven.3.title": {
   "en": "Loan Repaid",
-  "uk": ""
+  "uk": "Позику виплачено"
  },
  "flavor_byz_ven.4.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
@@ -225,23 +225,23 @@
  },
  "flavor_byz_ven.4.desc": {
   "en": "Per our agreement, we have repaid our loan to the [target_country.GetLongName] and the [target_woa.GetName] was subsequently returned, restored to [origin_country.GetAdjective] possession in [target_location.GetName].\\n\\nIt was a pleasure doing business with the most serene [ShowGovernmentReformName('merchant_republic')] of all.",
-  "uk": ""
+  "uk": "Згідно з угодою, ми сплатили позику [target_country.GetLongName], і [target_woa.GetName] повернули — вони знову у [origin_country.GetAdjective] володінні в [target_location.GetName].\\n\\nПриємно було вести справи з найяснішою з усіх [ShowGovernmentReformName('merchant_republic')]."
  },
  "flavor_byz_ven.4.title": {
   "en": "Crown Jewels Returned",
-  "uk": ""
+  "uk": "Коронні коштовності повернуто"
  },
  "flavor_byz_ven.5.a": {
   "en": "We should not have dealt with the Devil.",
-  "uk": ""
+  "uk": "Не варто було укладати угоду з дияволом."
  },
  "flavor_byz_ven.5.desc": {
   "en": "Despite repaying our loan per the agreement we made, the [target_country.GetAdjective] side has ignored our request to return the [target_woa.GetName]. There is only one way we can interpret this — a grand theft!\\n\\nThey will face the wrath of the [origin_country.GetLongName]...",
-  "uk": ""
+  "uk": "Хоча ми сплатили позику згідно з угодою, [target_country.GetAdjective] сторона знехтувала нашою вимогою повернути [target_woa.GetName]. Це можна витлумачити лише одним чином — велика крадіжка!\\n\\nВони відчують на собі гнів [origin_country.GetLongName]…"
  },
  "flavor_byz_ven.5.title": {
   "en": "Agreement Broken",
-  "uk": ""
+  "uk": "Угоду порушено"
  },
  "flavor_byz_ven.6.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
@@ -253,11 +253,11 @@
  },
  "flavor_byz_ven.6.desc": {
   "en": "The [target_army.GetName] has finally returned the [target_woa.GetName] to our possession. Our property has been brought back to [target.GetName], where it was warmly received by the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. No longer can our enemies use these jewels to leverage their will upon us!",
-  "uk": ""
+  "uk": "[target_army.GetName] нарешті повернула нам [target_woa.GetName]. Нашу власність доставили до [target.GetName], де її тепло прийняв [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Відтепер наші вороги не зможуть використовувати ці коштовності, щоб нав’язувати нам свою волю!"
  },
  "flavor_byz_ven.6.desc_recovered": {
   "en": "The [target_woa.GetName] are once more in our possession, recovered along with [target.GetName]. Our property has been brought back to where it belongs, warmly received by the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. No longer can our enemies use these jewels to leverage their will upon us!",
-  "uk": ""
+  "uk": "[target_woa.GetName] знову в наших руках — їх повернуто разом із [target.GetName]. Нашу власність доставили туди, де їй належить бути, і її тепло прийняв [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Відтепер наші вороги не зможуть використовувати ці коштовності, щоб нав’язувати нам свою волю!"
  },
  "flavor_byz_ven.6.title": {
   "en": "$flavor_byz_ven.4.title$",
@@ -265,15 +265,15 @@
  },
  "flavor_byz_ven.7.a": {
   "en": "We shall return them to our dear allies.",
-  "uk": ""
+  "uk": "Повернімо їх нашим дорогим союзникам."
  },
  "flavor_byz_ven.7.b": {
   "en": "But it is rightfully ours by theft!",
-  "uk": ""
+  "uk": "Але ж вони наші по праву крадіжки!"
  },
  "flavor_byz_ven.7.desc": {
   "en": "The recent takeover of [location.GetName] has been a great success for [ROOT.GetCountry.GetName]. Our forces, [target_army.GetName], have conducted a comprehensive 'survey' of the land, acquiring the [target_woa.GetName] in the process, an important asset to our allies in [origin_country.GetName]. We could return it to them... but do we not deserve an equal share of the spoils of war?",
-  "uk": ""
+  "uk": "Недавнє захоплення [location.GetName] стало великим успіхом для [ROOT.GetCountry.GetName]. Наші війська, [target_army.GetName], провели ретельний «огляд» місцевості й заразом здобули [target_woa.GetName] — цінний скарб наших союзників із [origin_country.GetName]. Ми могли б повернути його їм… але хіба ми не заслуговуємо на рівну частку воєнної здобичі?"
  },
  "flavor_byz_ven.7.title": {
   "en": "[target_woa.GetNameWithNoTooltip]",
@@ -281,15 +281,15 @@
  },
  "flavor_byz_ven.8.a": {
   "en": "Is there anything they can do right, besides hoarding gold?",
-  "uk": ""
+  "uk": "Чи вміють вони робити щось як слід, окрім як громадити золото?"
  },
  "flavor_byz_ven.8.desc": {
   "en": "Reports have reached us of our lenders' utter incompetence! Having loaned us gold with the venerable [target_woa.GetName] as collateral, they have managed to get those same jewels stolen right from under their noses. We devoutly hope they will recover our goods. If not, we will have to take them back them from [target.GetName] ourselves...",
-  "uk": ""
+  "uk": "До нас дійшли звістки про цілковиту бездарність наших позикодавців! Позичивши нам золото під заставу шанованих [target_woa.GetName], вони примудрилися дозволити викрасти ці коштовності просто в себе з-під носа. Ми щиро сподіваємося, що вони повернуть наше добро. Якщо ж ні — доведеться самим забирати його з [target.GetName]…"
  },
  "flavor_byz_ven.8.title": {
   "en": "Jewels Stolen!",
-  "uk": ""
+  "uk": "Коштовності викрадено!"
  },
  "flavor_byz_ven.9.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
@@ -301,7 +301,7 @@
  },
  "flavor_byz_ven.9.desc": {
   "en": "Our envoys have returned from [target_country.GetName] with most welcome news: the [target_country.GetAdjective] merchants have agreed to our offer. In exchange for the [target_woa.GetName], a loan has been extended to us, giving our treasury the breathing room it so desperately needed. Let us make the most of this reprieve.",
-  "uk": ""
+  "uk": "Наші посли повернулися з [target_country.GetName] з вельми добрими вістями: [target_country.GetAdjective] купці прийняли нашу пропозицію. Під заставу [target_woa.GetName] нам надали позику, що дасть нашій скарбниці так потрібний перепочинок. Скористаймося цим відтермінуванням якнайкраще."
  },
  "flavor_byz_ven.9.entry": {
   "en": "$flavor_byz_ven.9.title$",
@@ -309,10 +309,10 @@
  },
  "flavor_byz_ven.9.title": {
   "en": "A Deal is Struck",
-  "uk": ""
+  "uk": "Угоду укладено"
  },
  "pawning_of_crown_jewels": {
   "en": "Pawning the Crown Jewels",
-  "uk": ""
+  "uk": "Застава коронних коштовностей"
  }
 }

@@ -1,7 +1,7 @@
 {
  "CHI_event_will_fire_within_10_to_20_years": {
   "en": "The construction finish will be marked by an [event|e] that will fire within 10 to 20 years, which will do the following:",
-  "uk": ""
+  "uk": "Завершення будівництва ознаменує [event|e], яка відбудеться протягом 10–20 років і матиме такі наслідки:"
  },
  "NORTHERN_YUA": {
   "en": "Northern $YUA$",
@@ -140,8 +140,8 @@
   "uk": "Коли експедиція повернеться в #ONCLICK:COUNTRY,[expedition_initiator.Custom('CL_tt')] #TOOLTIP:COUNTRY,[expedition_initiator.Custom('CL_tt')],X [expedition_initiator.Custom('CL_ACC')|L]#!#!:"
  },
  "destroy_grand_canal_china_tt": {
-  "en": "The Grand Canal will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')].",
-  "uk": "Великий канал стане практично непридатним. Ефект «[ShowModifier('chi_grand_canal')]» буде замінено ефектом «[ShowModifier('chi_grand_canal_destruction')]»."
+  "en": "The [ShowScriptedGeographyName('chinese_canal_geography')] will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')]",
+  "uk": "[ShowScriptedGeographyName('chinese_canal_geography')] стане практично непридатним. Ефект «[ShowModifier('chi_grand_canal')]» буде замінено ефектом «[ShowModifier('chi_grand_canal_destruction')]»"
  },
  "every_location_in_province_food_prosperity_satisfaction_tt": {
   "en": "[target_province.GetName]'s [locations|e] will gain #G +[ROOT.GetVariable('target_province_control_prosperity_variable_display').GetValue]%#! [prosperity|e] and their [pops|e] will gain #G +[ROOT.GetVariable('target_province_control_pop_satisfaction_variable_display').GetValue]%#! [pop_satisfaction|e] based on our [control|e] there",
@@ -229,7 +229,7 @@
  },
  "flavor_chi.1.entry": {
   "en": "The Strategic Decision after Zhèng Hé's Journey",
-  "uk": ""
+  "uk": "Стратегічне рішення після плавання Чжен Хе"
  },
  "flavor_chi.1.historical_info": {
   "en": "In the 14th century, China's relations with the outside world began to change. Under the Yuán Dynasty, China had made contact with the West by reopening the old silk routes and bringing Muslim, Christian, and Jewish traders into China. The expulsion of the Mongols in 1367 and the seizure of power by the Míng reversed the processes that were tying China more strongly to the outside. Following the seven expeditions (1405-1433) of admiral Zhèng Hé, who sailed the imperial fleet into the Indian Ocean and to the coast of Africa, China folded in on itself and closed off its external connections.",
@@ -269,23 +269,23 @@
  },
  "flavor_chi.100.a.entry": {
   "en": "Let us bring him to serve us.",
-  "uk": ""
+  "uk": "Візьмімо його до себе на службу."
  },
  "flavor_chi.100.b": {
-  "en": "[target_character.GetSheHe|U] is not permitted in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
-  "uk": "У місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'їй', 'йому' )] не раді."
+  "en": "He is not permitted in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "У місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] йому не раді."
  },
  "flavor_chi.100.b.entry": {
   "en": "He is not permitted in the capital.",
-  "uk": ""
+  "uk": "У столиці йому не раді."
  },
  "flavor_chi.100.desc": {
-  "en": "[target_character.GetName] has risen to prominence as one of the greatest artists in [ROOT.GetCountry.GetName]. Though born to the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and supported by only a few patrons, [target_character.GetHerHis] ability to replicate various art styles has earned [target_character.GetHerHim] respect. [target_character.GetSheHe] has even joined the [ShowCultureName('wu_culture')] school to further refine [target_character.GetHerHis] craft. Perhaps [target_character.GetNameWithNoTooltip] belongs in our [ROOT.GetCountry.GetGovernment.GetCourtTitle], even if it strengthens [ShowLocationName('wuxian')]'s cultural influence.",
-  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'здобула', 'здобув' )] славу [Select_CString(target_character.IsFemale, 'однієї', 'одного' )] з найвидатніших живописців #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Хоча [Select_CString(target_character.IsFemale, 'її', 'його' )] батьками були [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], а покровителів було небагато, [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'заробила', 'заробив' )] повагу своєю здатністю відтворювати різні художні стилі і навіть [Select_CString(target_character.IsFemale, 'стала послідовницею', 'став послідовником' )] #TOOLTIP:CULTURE,wu_culture,X #L школи У#!#!, щоб далі розвивати свій талант. Можливо, [Select_CString(target_character.IsFemale, 'їй', 'йому' )] знайдеться місце при нашому дворі, навіть якщо [Select_CString(target_character.IsFemale, 'вона', 'він' )] посилить тут культурний вплив #TOOLTIP:LOCATION,wuxian_tt,X #L Усяня#!#!."
+  "en": "[target_character.GetName] has risen to prominence as one of the greatest artists in [ROOT.GetCountry.GetName]. Though born to the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] and supported by only a few patrons, his ability to replicate various art styles has earned him respect. he has even joined the [ShowCultureName('wu_culture')] school to further refine his craft. Perhaps [target_character.GetNameWithNoTooltip] belongs in our [ROOT.GetCountry.GetGovernment.GetCourtTitle], even if it strengthens [ShowLocationName('wuxian')]'s cultural influence.",
+  "uk": "[target_character.GetName] здобув славу одного з найвидатніших митців держави [ROOT.GetCountry.GetName]. Хоча він походить зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]», а покровителів мав небагато, його здатність відтворювати різні художні стилі заслужила повагу. Він навіть долучився до школи [ShowCultureName('wu_culture')], щоб далі шліфувати свою майстерність. Можливо, [target_character.GetNameWithNoTooltip] заслуговує на місце при нашому дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle]), навіть якщо це посилить культурний вплив [ShowLocationName('wuxian')]."
  },
  "flavor_chi.100.entry": {
   "en": "$name_qiu2.wu_language$ $name_ying.wu_language$, Versatile Painter",
-  "uk": ""
+  "uk": "$name_qiu2.wu_language$ $name_ying.wu_language$, різнобічний живописець"
  },
  "flavor_chi.100.historical_info": {
   "en": "$flavor_chi_masters_of_the_ming_historical_info$",
@@ -301,7 +301,7 @@
  },
  "flavor_chi.1000.a.entry": {
   "en": "Close us to the outside world.",
-  "uk": ""
+  "uk": "Закритися від зовнішнього світу."
  },
  "flavor_chi.1000.b": {
   "en": "Keep trade open for all.",
@@ -313,7 +313,7 @@
  },
  "flavor_chi.1000.c.entry": {
   "en": "Offer them the location.",
-  "uk": ""
+  "uk": "Запропонувати їм район."
  },
  "flavor_chi.1000.c.tt": {
   "en": "We will send them an offer to [target_foreign_country.GetName] for [target_location.GetName]. If they accept, they will belong the owners of it",
@@ -384,24 +384,24 @@
   "uk": "$flavor_chi.1002.title$"
  },
  "flavor_chi.101.a": {
-  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] needs [target_character.GetHerHim].",
-  "uk": "[ROOT.GetCountry.Custom('CL_DAT')] [Select_CString(target_character.IsFemale, 'вона', 'він' )] потрібен."
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] need him.",
+  "uk": "[ROOT.GetCountry.GetNameWithNoTooltip]: він нам потрібен."
  },
  "flavor_chi.101.a.entry": {
   "en": "We need him.",
-  "uk": ""
+  "uk": "Він нам потрібен."
  },
  "flavor_chi.101.b": {
   "en": "We will choose to follow other artistic schools instead.",
   "uk": "Краще ми звернемо увагу на інші школи."
  },
  "flavor_chi.101.desc": {
-  "en": "Although the [ShowCultureName('wu_culture')] school continues to spread, some [ROOT.GetCountry.GetAdjective] officials are uneasy about the bold ideas of its artists. One of the more controversial figures is [target_character.GetName], who believes painting should express one's moral character. Though dismissed by many as a radical, [target_character.GetSheHe] has captured the admiration of the youth. With the proper support, [target_character.GetHerHis] movement could flourish, but at what cost?",
-  "uk": "Хоча серед художників продовжує поширюватися вплив школи У, деяких чиновників сміливі ідеї її представників лякають. Одна зі скандальних фігур руху — [target_character.GetName], [Select_CString(target_character.IsFemale, 'яка', 'який' )] вважає, що картина має відображати моральний образ свого автора. Більшість художників відмахнулася від [Select_CString(target_character.IsFemale, 'неї', 'нього' )] як [Select_CString(target_character.IsFemale, 'радикальної шаленої', 'радикального шаленого' )], але [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'зуміла', 'зумів' )] завоювати повагу молоді. За належної підтримки [Select_CString(target_character.IsFemale, 'її', 'його' )] рух зміцніє, але якою ціною?"
+  "en": "Although the [ShowCultureName('wu_culture')] school continues to spread, some [ROOT.GetCountry.GetAdjective] officials are uneasy about the bold ideas of its artists. One of the more controversial figures is [target_character.GetName], who believes painting should express one's moral character. Though dismissed by many as a radical, he has captured the admiration of the youth. With the proper support, his movement could flourish, but at what cost?",
+  "uk": "Хоча школа [ShowCultureName('wu_culture')] і далі поширюється, деяких [ROOT.GetCountry.GetAdjective] чиновників непокоять сміливі ідеї її митців. Одна зі скандальних фігур — [target_character.GetName], який вважає, що картина має виражати моральний образ автора. Багато хто відмахується від нього як від радикала, проте він здобув захоплення молоді. За належної підтримки його рух може розквітнути, але якою ціною?"
  },
  "flavor_chi.101.entry": {
   "en": "$name_yun4$ $name_shou.wu_language$ $name_ping.wu_language$, Innovative Painter",
-  "uk": ""
+  "uk": "$name_yun4$ $name_shou.wu_language$ $name_ping.wu_language$, живописець-новатор"
  },
  "flavor_chi.101.historical_info": {
   "en": "$flavor_chi_six_masters_of_the_qing$",
@@ -412,24 +412,24 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.102.a": {
-  "en": "Let us invite [target_character.GetHerHim] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] виграє від [Select_CString(target_character.IsFemale,'її', 'його')] присутності."
+  "en": "Let us invite him to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Запросімо його до нашого двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle])."
  },
  "flavor_chi.102.a.entry": {
   "en": "Let us invite him to our court.",
-  "uk": ""
+  "uk": "Запросімо його до нашого двору."
  },
  "flavor_chi.102.b": {
-  "en": "Exile [target_character.GetHerHim] from [ROOT.GetCountry.GetNameWithNoTooltip].",
-  "uk": "Вигнати [Select_CString(target_character.IsFemale, 'її', 'його' )] з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
+  "en": "Exile him from [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Вигнати його з держави [ROOT.GetCountry.GetNameWithNoTooltip]."
  },
  "flavor_chi.102.b.entry": {
   "en": "Exile him from us.",
-  "uk": ""
+  "uk": "Вигнати його від нас."
  },
  "flavor_chi.102.desc": {
-  "en": "Thanks to the efforts of [target_character.GetName], the [ShowCultureName('wu_culture')] school has become one of the most prestigious art movements in $china$. Once an outsider, [target_character.GetSheHe] now sits at the pinnacle of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] culture. With a growing group of disciples, [target_character.GetSheHe] seeks to create a more personal, emotionally driven form of literati painting, honoring tradition while forging a new path.",
-  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'постаралася', 'постарався' )], щоб школа У стала однією з найпрестижніших течій у мистецтві #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!. Колись [Select_CString(target_character.IsFemale, 'чужоземка', 'чужоземець' )], тепер [Select_CString(target_character.IsFemale, 'вона', 'він' )] вважається найважливішим [ROOT.GetCountry.GetAdjectiveWithNoTooltip]им живописцем. За підтримки численних послідовників [Select_CString(target_character.IsFemale, 'вона', 'він' )] прагне надати живопису вчених більш особисту, емоційну форму, яка вшанує традиції і водночас прокладе новий шлях у майбутнє."
+  "en": "Thanks to the efforts of [target_character.GetName], the [ShowCultureName('wu_culture')] school has become one of the most prestigious art movements in $china$. Once an outsider, he now sits at the pinnacle of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] culture. With a growing group of disciples, he seeks to create a more personal, emotionally driven form of literati painting, honoring tradition while forging a new path.",
+  "uk": "Завдяки зусиллям, яких доклав [target_character.GetName], школа [ShowCultureName('wu_culture')] стала однією з найпрестижніших мистецьких течій у $china$. Колись чужинець, тепер він стоїть на вершині культури ([ROOT.GetCountry.GetAdjectiveWithNoTooltip]). Маючи дедалі більше учнів, він прагне створити особистішу, емоційнішу форму живопису вчених, що шанує традицію й водночас прокладає новий шлях."
  },
  "flavor_chi.102.entry": {
   "en": "$flavor_chi.102.title$",
@@ -449,19 +449,19 @@
  },
  "flavor_chi.103.a.entry": {
   "en": "The character shall serve us.",
-  "uk": ""
+  "uk": "Цей персонаж служитиме нам."
  },
  "flavor_chi.103.b": {
-  "en": "Let [target_character.GetHerHim] travel around instead, gain inspirations that way.",
-  "uk": "Хай краще набирається натхнення в мандрах."
+  "en": "Let him travel around instead, gain inspirations that way.",
+  "uk": "Хай краще мандрує й набирається натхнення в дорозі."
  },
  "flavor_chi.103.desc": {
-  "en": "Following the decline of the [ShowCultureName('wu_culture')] school, [target_character.GetName], a student of Dǒng Qíchāng, has emerged as a promising painter. Though not a revolutionary, [target_character.GetSheHe] is respected for [target_character.GetHerHis] refined techniques and serene compositions. Artists like [target_character.GetNameWithNoTooltip] serve as a bridge between eras, preserving our [ROOT.GetCountry.GetCulture.GetName] identity while appealing to traditional sensibilities.",
-  "uk": "Після занепаду школи У відомість [Select_CString(target_character.IsFemale, 'здобула учениця', 'здобув учень ' )] Дун Цічана [target_character.GetName]. Хоча [Select_CString(target_character.IsFemale, 'її', 'його' )] стиль не можна назвати революційним, знавці високо оцінюють [Select_CString(target_character.IsFemale, 'її', 'його' )] техніку і спокійні композиції. Такі художники як [target_character.GetNameWithNoTooltip] служать мостом між епохами, зберігаючи нашу #L [ROOT.GetCountry.GetCulture.GetName]у#! ідентичність і водночас відсилаючи до традиційних цінностей."
+  "en": "Following the decline of the [ShowCultureName('wu_culture')] school, [target_character.GetName], a student of Dǒng Qíchāng, has emerged as a promising painter. Though not a revolutionary, he is respected for his refined techniques and serene compositions. Artists like [target_character.GetNameWithNoTooltip] serve as a bridge between eras, preserving our [ROOT.GetCountry.GetCulture.GetName] identity while appealing to traditional sensibilities.",
+  "uk": "Після занепаду школи [ShowCultureName('wu_culture')] перспективним живописцем показав себе [target_character.GetName], учень Дун Цічана. Він не революціонер, проте його шанують за витончену техніку й спокійні композиції. Такі художники, як [target_character.GetNameWithNoTooltip], служать мостом між епохами, зберігаючи нашу ідентичність ([ROOT.GetCountry.GetCulture.GetName]) і водночас відповідаючи традиційним смакам."
  },
  "flavor_chi.103.entry": {
   "en": "$name_wang.wu_language$ $name_shi.wu_language$ $name_min.wu_language$, Qing Literati Painter",
-  "uk": ""
+  "uk": "$name_wang.wu_language$ $name_shi.wu_language$ $name_min.wu_language$, живописець-вчений доби Цін"
  },
  "flavor_chi.103.historical_info": {
   "en": "$flavor_chi_six_masters_of_the_qing$",
@@ -477,19 +477,19 @@
  },
  "flavor_chi.104.a.entry": {
   "en": "Let us employ him.",
-  "uk": ""
+  "uk": "Нехай працює на нас."
  },
  "flavor_chi.104.b": {
   "en": "We already have a collection of great artists.",
   "uk": "У нас уже є багато чудових митців."
  },
  "flavor_chi.104.desc": {
-  "en": "The ways and influence of the previous dynasty remain within some of the scholars in $china$. Though many remain loyal to the ideals of the former court, some have turned to art to keep the styles of old alive. Among them is [target_character.GetName], a former government official who now lives in seclusion. [target_character.GetSheHe] spends [target_character.GetHerHis] days painting the forests and rivers of [ROOT.GetCountry.GetName], thinking of it as a way to connect with the ages of the past. Some believe that [target_character.GetSheHe] might serve as a cultural bridge in these turbulent times.",
-  "uk": "Окремі вчені в #TOOLTIP:SUB_CONTINENT,china,X #L Китаї#!#! зберігають звичаї та вплив попередньої династії. Хоча багато хто й залишається вірним ідеалам старого двору, інші вирішили зберегти художні смаки предків у мистецтві. [Select_CString(target_character.IsFemale, 'Одна', 'Один' )] з таких людей — [target_character.GetName], [Select_CString(target_character.IsFemale, 'яка', 'який' )] колись [Select_CString(target_character.IsFemale, 'служила', 'служив' )] при дворі, а тепер живе далеко від світу. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] проводить дні за малюванням лісів і річок #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, прагнучи через свою творчість повернутися в часи минулого. Хтось вважає, що [Select_CString(target_character.IsFemale, 'вона', 'він' )] допоможе нам зблизити культури народів у ці непрості часи."
+  "en": "The ways and influence of the previous dynasty remain within some of the scholars in $china$. Though many remain loyal to the ideals of the former court, some have turned to art to keep the styles of old alive. Among them is [target_character.GetName], a former government official who now lives in seclusion. he spends his days painting the forests and rivers of [ROOT.GetCountry.GetName], thinking of it as a way to connect with the ages of the past. Some believe that he might serve as a cultural bridge in these turbulent times.",
+  "uk": "Звичаї та вплив попередньої династії досі живуть серед деяких учених у $china$. Хоча багато хто лишається вірним ідеалам колишнього двору, дехто звернувся до мистецтва, щоб зберегти давні стилі. Серед них — [target_character.GetName], колишній урядовець, який тепер живе в усамітненні. Він проводить дні, малюючи ліси й річки держави [ROOT.GetCountry.GetName], вважаючи це способом поєднатися з минулими епохами. Дехто вірить, що він може стати культурним мостом у ці буремні часи."
  },
  "flavor_chi.104.entry": {
   "en": "$name_wang.wu_language$ $name_jian4$, Reclusive Painter",
-  "uk": ""
+  "uk": "$name_wang.wu_language$ $name_jian4$, живописець-самітник"
  },
  "flavor_chi.104.historical_info": {
   "en": "$flavor_chi_six_masters_of_the_qing$",
@@ -505,19 +505,19 @@
  },
  "flavor_chi.105.a.entry": {
   "en": "The court would benefit with him in it.",
-  "uk": ""
+  "uk": "Двір лише виграє від його присутності."
  },
  "flavor_chi.105.b": {
   "en": "Let us not favor any schools.",
   "uk": "Не будемо віддавати перевагу конкретним школам."
  },
  "flavor_chi.105.desc": {
-  "en": "[target_character2.GetName] has been searching for talents to serve the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Thankfully, [target_character.GetName], a member of the Four Wáng, has approached us, wishing to be employed. [target_character.GetHerHis|U] reason being that [target_character.GetSheHe] seeks to spread the ideas of [target_character.GetHerHis] conservative school by creating art inspired by the $YUA_ADJ$ Dynasty, creating an abstract design in [target_character.GetHerHis] landscapes. Such offer is quite intriguing, but employing [target_character.GetHerHim] will be seen as a sign of us favoring one artistic school over the others.",
-  "uk": "[target_character2.GetName] уже не перший день шукає таланти, яких можна запросити служити при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. На щастя, [target_character.GetName], один із чотирьох Ванів, звернувся до нас із бажанням вступити до нас на службу. Причиною він називає бажання поширювати ідеї своєї консервативної школи, створювати твори, натхненні династією Юань, і наповнювати пейзажі абстрактними фігурами. Це цікава пропозиція, але якщо ми запропонуємо йому роботу, ми покажемо всім свою перевагу однієї школи над іншими."
+  "en": "[target_character2.GetName] has been searching for talents to serve the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Thankfully, [target_character.GetName], a member of the Four Wáng, has approached us, wishing to be employed. His reason being that he seeks to spread the ideas of his conservative school by creating art inspired by the $YUA_ADJ$ Dynasty, creating an abstract design in his landscapes. Such offer is quite intriguing, but employing him will be seen as a sign of us favoring one artistic school over the others.",
+  "uk": "[target_character2.GetName] шукає таланти для служби при [ROOT.GetCountry.GetAdjective] дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle]). На щастя, до нас звернувся [target_character.GetName], один із Чотирьох Ванів, із бажанням вступити на службу. Він прагне поширювати ідеї своєї консервативної школи, творячи мистецтво, натхненне династією $YUA_ADJ$, і наповнюючи пейзажі абстрактними формами. Пропозиція цікава, проте, найнявши його, ми покажемо, що віддаємо перевагу одній мистецькій школі над іншими."
  },
  "flavor_chi.105.entry": {
   "en": "$name_wang.wu_language$ $name_yuan21.wu_language$ $name_qi21$, One of the Four $name_wang.mandarin_language$",
-  "uk": ""
+  "uk": "$name_wang.wu_language$ $name_yuan21.wu_language$ $name_qi21$, один із Чотирьох $name_wang.mandarin_language$"
  },
  "flavor_chi.105.historical_info": {
   "en": "$flavor_chi_six_masters_of_the_qing$",
@@ -528,20 +528,20 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.106.a": {
-  "en": "Accept [target_character.GetHerHis] offer.",
-  "uk": "Прийняти [Select_CString(target_character.IsFemale,'її', 'його')] пропозицію."
+  "en": "Accept his offer.",
+  "uk": "Прийняти його пропозицію."
  },
  "flavor_chi.106.b": {
   "en": "We do not need people copying old artstyles.",
   "uk": "Нам ні до чого ті, хто копіює старі стилі."
  },
  "flavor_chi.106.desc": {
-  "en": "As the latest great master of the literati tradition, [target_character.GetName] has earned the admiration of scholars and statesmen alike. Though born long after the style's golden age, [target_character.GetHerHis] works embody its highest ideals: subtlety, serenity, and philosophical depth. With the support of the [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetNameWithNoTooltip] has established a new studio, where the next generation of painters can learn from the past while envisioning the future.",
-  "uk": "Останній великий майстер традиції живопису вчених, [target_character.GetName] [Select_CString(target_character.IsFemale, 'заробила', 'заробив' )] повагу і мислителів, і сановників. Хоча [Select_CString(target_character.IsFemale, 'вона народилася', 'він народився' )] через багато років після золотої доби цієї течії, [Select_CString(target_character.IsFemale, 'її', 'його' )] роботи втілюють найвищі її ідеали: тонкість, спокій і філософську глибину. За підтримки двору [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'збудувала', 'збудував' )] нову студію, де нове покоління живописців зможе почерпнути уроки минулого і зазирнути в майбутнє."
+  "en": "As the latest great master of the literati tradition, [target_character.GetName] has earned the admiration of scholars and statesmen alike. Though born long after the style's golden age, his works embody its highest ideals: subtlety, serenity, and philosophical depth. With the support of the [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetNameWithNoTooltip] has established a new studio, where the next generation of painters can learn from the past while envisioning the future.",
+  "uk": "Останній великий майстер традиції живопису вчених, [target_character.GetName] заслужив захоплення і мислителів, і сановників. Хоча він народився через багато років після золотої доби цього стилю, його роботи втілюють найвищі його ідеали: тонкість, спокій і філософську глибину. За підтримки двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) [target_character.GetNameWithNoTooltip] заснував нову майстерню, де нове покоління живописців зможе вчитися в минулого й зазирати в майбутнє."
  },
  "flavor_chi.106.entry": {
   "en": "$name_wang.wu_language$ $name_hui12$, Literati Tradition Master",
-  "uk": ""
+  "uk": "$name_wang.wu_language$ $name_hui12$, майстер традиції живопису вчених"
  },
  "flavor_chi.106.historical_info": {
   "en": "$flavor_chi_six_masters_of_the_qing$",
@@ -657,7 +657,7 @@
  },
  "flavor_chi.1100.entry": {
   "en": "Controversy over Chinese Group Rites",
-  "uk": ""
+  "uk": "Суперечка про китайські обряди"
  },
  "flavor_chi.1100.title": {
   "en": "Controversy over [ShowCultureGroupNameWithNoTooltip('chinese_group')] Rites",
@@ -717,7 +717,7 @@
  },
  "flavor_chi.111.c.entry": {
   "en": "Beat him with a heavy stick!",
-  "uk": ""
+  "uk": "Відлупцювати його важкою палицею!"
  },
  "flavor_chi.111.desc": {
   "en": "One of the experts on the [ROOT.GetCountry.GetAdjective] Law, [target_character.GetName], has presented an appeal in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] today. [target_character.GetSheHe|U] argues that many judges' understanding of the law is inadequate and that the right to judge be withheld from all but those who can pass a new type of exam. The opponents of [target_character.GetShortNameWithNoTooltip] argue however, that [target_character.GetHerHis] criticisms are politicized and should not be taken seriously.",
@@ -752,12 +752,12 @@
   "uk": "Невже все настільки погано?"
  },
  "flavor_chi.113.b": {
-  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] is truly lost.",
-  "uk": "#ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! навряд чи можна врятувати."
+  "en": "[ROOT.GetCountry.GetNameWithNoTooltip] are truly lost.",
+  "uk": "[ROOT.GetCountry.GetNameWithNoTooltip]: нас уже не врятувати."
  },
  "flavor_chi.113.b.entry": {
   "en": "We are truly lost.",
-  "uk": ""
+  "uk": "Нас уже не врятувати."
  },
  "flavor_chi.113.desc": {
   "en": "[ROOT.GetCountry.GetName|U] are experiencing a period of unprecedented decline that is of great worry to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Believing the fate of the dynasty is sealed, [target_character.GetName], one of our generals, has fled the country to the island of [ShowAreaName('taiwan_area')], establishing [target_character.GetHerselfHimself] as a prince there who will carry on our legacy.",
@@ -768,8 +768,8 @@
   "uk": "[target_character.GetNameWithNoTooltip] тікає на Тайвань"
  },
  "flavor_chi.114.a": {
-  "en": "Hire [target_character.GetHerHim].",
-  "uk": "Наймемо [Select_CString(target_character.IsFemale,'її', 'його')]."
+  "en": "Hire him.",
+  "uk": "Наймемо його."
  },
  "flavor_chi.114.b": {
   "en": "[recommending_character.GetNameWithNoTooltip] knows nothing about good candidates.",
@@ -777,7 +777,7 @@
  },
  "flavor_chi.114.b.entry": {
   "en": "The character knows nothing about good candidates.",
-  "uk": ""
+  "uk": "Цей персонаж нічого не знає про гідних кандидатів."
  },
  "flavor_chi.114.desc": {
   "en": "Since the abolishment of the [ShowLawName('imperial_examination_law')], the [ROOT.GetCountry.GetLongName] has been reliant on personal recommendations to fill the cabinet and other government positions. Well, [recommending_character.GetName] has just made one such recommendation, openly vouching for [target_character.GetName] to be a competent clerk who could help aid the [ROOT.GetCountry.GetGovernment.GetAdjective] matters.",
@@ -805,7 +805,7 @@
  },
  "flavor_chi.116.a.entry": {
   "en": "Accept them as the [GetInternationalOrganizationType('middle_kingdom').GetNameWithNoTooltip].",
-  "uk": ""
+  "uk": "Визнати їх як [GetInternationalOrganizationType('middle_kingdom').GetNameWithNoTooltip]."
  },
  "flavor_chi.116.b": {
   "en": "They are nothing more than false pretenders!",
@@ -828,8 +828,8 @@
   "uk": "Ми знищимо [Select_CString(target_character.IsFemale,'цю негідницю', 'цього негідника')]!"
  },
  "flavor_chi.117.b": {
-  "en": "[target_character.GetSheHe|U] seems rather charismatic.",
-  "uk": "Схоже, чарівності [Select_CString(target_character.IsFemale,'їй', 'йому')] не бракує."
+  "en": "He seems rather charismatic.",
+  "uk": "Схоже, чарівності йому не бракує."
  },
  "flavor_chi.117.desc": {
   "en": "Recent events in [target_area.GetName] have led to an increase in treasonous behavior amongst the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]. Robberies, violent disputes, formation of armed bands, are just a few tell-tale signs of a time of troubles that has engulfed the area. At the helm of this is [target_character.GetName], a [target_character.GetWomanMan] that has gained much fame and has earned [target_character.GetHerselfHimself] a reputation of taking away from the rich and giving to the poor. [target_character.GetShortNameWithNoTooltip] is a leader of a sizeable armed [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] band that is slowly taking over [target_area.GetRegion.GetName].",
@@ -868,12 +868,12 @@
   "uk": "Ми заявимо права на Небесний мандат."
  },
  "flavor_chi.119.b": {
-  "en": "We have no ambition to dethrone the [target_country.GetAdjectiveWithNoTooltip]",
-  "uk": "Ми не підемо проти [target_country.GetAdjectiveWithNoTooltip|l]ої влади."
+  "en": "We have no ambition to dethrone the [target_country.GetLongNameWithNoTooltip].",
+  "uk": "Ми не прагнемо скинути владу, яку має [target_country.GetLongNameWithNoTooltip]."
  },
  "flavor_chi.119.b.entry": {
   "en": "We have no ambition to dethrone them.",
-  "uk": ""
+  "uk": "Ми не прагнемо їх скинути."
  },
  "flavor_chi.119.desc": {
   "en": "The [target_location.GetRank.GetName] of [target_location.GetName] has fallen to the [ROOT.GetCountry.GetLongName]. This monumental victory has allowed the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetFlavorRank] to lay claim to the Mandate of Heaven and the [GetInternationalOrganizationType('middle_kingdom').GetName]. Unless [target_country.GetName] can halt the spread of this rebellion, soon their [ShowSubjectTypeName('tributary')] System will kowtow to us instead.",
@@ -881,11 +881,11 @@
  },
  "flavor_chi.119.entry": {
   "en": "$CSH_ADJ$ Captures $beiping$",
-  "uk": ""
+  "uk": "$CSH_ADJ$ захоплює $beiping$"
  },
  "flavor_chi.119.title": {
   "en": "Liberation of [target_location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Звільнення району [target_location.GetNameWithNoTooltip]"
  },
  "flavor_chi.12.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_ok')]",
@@ -933,11 +933,11 @@
  },
  "flavor_chi.121.entry": {
   "en": "The $huolongjing$ Treatise",
-  "uk": ""
+  "uk": "Трактат $huolongjing$"
  },
  "flavor_chi.121.title": {
   "en": "The [target_work_of_art.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Мистецький твір «[target_work_of_art.GetNameWithNoTooltip]»"
  },
  "flavor_chi.122.a": {
   "en": "We shall work on the project ceaseless.",
@@ -964,8 +964,8 @@
   "uk": "$common_string_curses$"
  },
  "flavor_chi.123.desc": {
-  "en": "A vile agitator has been spreading wicked propaganda amongst the the workers currently working on rerouting the Yellow River. As per our records, the character in question is [target_character.GetName], a zealot of the White Lotus sect, who is prophesizing the imminent forthcoming of the Maitreya Buddha. We believe that [target_character.GetHeShe] had his followers bury a one-eyed stone statue in the route of the project so that the workers would dig it up. The statue was inscribed with a text spelling the end of the [ROOT.GetCountry.GetName] dynasty.\\n\\nThough our forces did their best to stop this upstart from detracting workers from their project, many did defect. As of now, we are not sure of the whereabouts of the White Lotus chieftain.",
-  "uk": "Хтось поширює підлу пропаганду серед робітників, які повертають річку Хуанхе в русло. Згідно з отриманими відомостями, цю людину звати [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] очолює місцеве «Товариство Білого Лотоса» і вірить у швидке пришестя будди Майтреї. Схоже, [Select_CString(target_character.IsFemale,'вона підмовила', 'він підмовив')] своїх послідовників закопати на березі однооку кам'яну статую, на якій викарбуване пророцтво неминучого краху династії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#!, щоб робітники нібито випадково її знайшли.\\n\\nХоча наші війська всіма силами намагалися захистити робітників від згубного впливу, деякі все ж піддалися йому й утекли. Наразі ми точно не знаємо, де перебуває голова сектантів."
+  "en": "A vile agitator has been spreading wicked propaganda amongst the the workers currently working on rerouting the Yellow River. As per our records, the character in question is [target_character.GetName], a zealot of the White Lotus sect, who is prophesizing the imminent forthcoming of the Maitreya Buddha. We believe that he had his followers bury a one-eyed stone statue in the route of the project so that the workers would dig it up. The statue was inscribed with a text spelling the end of the [ROOT.GetCountry.GetName] dynasty.\\n\\nThough our forces did their best to stop this upstart from detracting workers from their project, many did defect. As of now, we are not sure of the whereabouts of the White Lotus chieftain.",
+  "uk": "Підлий підбурювач поширює лиху пропаганду серед робітників, які повертають русло Хуанхе. За нашими відомостями, це [target_character.GetName], фанатик секти Білого Лотоса, який пророкує неминуче пришестя будди Майтреї. Ми вважаємо, що його послідовники закопали на шляху робіт одноокову кам’яну статую, щоб робітники її відкопали. На статуї викарбувано напис, що пророкує кінець династії [ROOT.GetCountry.GetName].\\n\\nХоча наші війська всіма силами намагалися не дати цьому вискочці відвернути робітників від справи, багато хто таки втік. Наразі ми не знаємо, де перебуває ватажок Білого Лотоса."
  },
  "flavor_chi.123.title": {
   "en": "Yellow River Works Disrupted",
@@ -1005,7 +1005,7 @@
  },
  "flavor_chi.125.entry": {
   "en": "The Case of $name_han2.mandarin_language$ $name_shan.mandarin_language$ $name_tong2.mandarin_language$",
-  "uk": ""
+  "uk": "Справа $name_han2.mandarin_language$ $name_shan.mandarin_language$ $name_tong2.mandarin_language$"
  },
  "flavor_chi.125.title": {
   "en": "The Case of [target_character.GetNameWithNoTooltip]",
@@ -1097,7 +1097,7 @@
  },
  "flavor_chi.14.a.entry": {
   "en": "Dismiss him.",
-  "uk": ""
+  "uk": "Він нам не потрібен."
  },
  "flavor_chi.14.b": {
   "en": "As long as [target_character.GetSheHe] does [target_character.GetHerHis] job.",
@@ -1105,7 +1105,7 @@
  },
  "flavor_chi.14.b.entry": {
   "en": "As long as he does his job.",
-  "uk": ""
+  "uk": "Аби лише виконував свою роботу."
  },
  "flavor_chi.14.desc": {
   "en": "It seems that [target_character.GetName], one [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle] at our [ROOT.GetCountry.GetGovernment.GetCourtTitle], has become fascinated by the culture and knowledge of the missionaries from the West. While we do stand to gain from the insights [target_character.GetSheHe] has gained through the contacts [target_character.GetSheHe] has made, [target_character.GetHerHis] recent conversion to [ShowReligionName('catholic')] is perhaps a bit too much to stomach.",
@@ -1121,7 +1121,7 @@
  },
  "flavor_chi.15.a.entry": {
   "en": "End his tenure immediately.",
-  "uk": ""
+  "uk": "Негайно звільнити його з посади."
  },
  "flavor_chi.15.b": {
   "en": "Arrange a one-way trip for [target_character2.GetShortNameWithNoTooltip] to return home.",
@@ -1129,7 +1129,7 @@
  },
  "flavor_chi.15.b.entry": {
   "en": "Arrange a one-way trip for him to return home.",
-  "uk": ""
+  "uk": "Влаштувати йому подорож додому в один бік."
  },
  "flavor_chi.15.c": {
   "en": "Give [target_character2.GetHerHim] another chance...",
@@ -1137,7 +1137,7 @@
  },
  "flavor_chi.15.c.entry": {
   "en": "Give him another chance...",
-  "uk": ""
+  "uk": "Дати йому ще один шанс…"
  },
  "flavor_chi.15.desc": {
   "en": "Our administration is home to illustrious positions around the [ROOT.GetCountry.GetGovernment.GetCourtTitle] of [target_character.GetName]. Despite our attempts to promote and maintain a [ROOT.GetCountry.GetGovernment.GetCabinetTitle] of capable individuals, sometimes incompetence slips through.\\n\\nSuch is the case with [target_character2.GetName] who, despite [target_character2.GetHerHis] best efforts, has managed to cause issues and congestion in our bureaucratic process.",
@@ -1153,7 +1153,7 @@
  },
  "flavor_chi.16.a.entry": {
   "en": "Away with him.",
-  "uk": ""
+  "uk": "Геть його."
  },
  "flavor_chi.16.b": {
   "en": "Our [ROOT.GetCountry.GetGovernment.GetCourtTitle] fears no such criticisms!",
@@ -1161,7 +1161,7 @@
  },
  "flavor_chi.16.b.entry": {
   "en": "Our court fears no such criticisms!",
-  "uk": ""
+  "uk": "Наш двір не боїться такої критики!"
  },
  "flavor_chi.16.desc": {
   "en": "Whispers and intrigue are no foreigners to the daily life of the palace. However, recent gossip has stirred the maids and the Eunuchs into a frenzy. It appears that [target_character2.GetName] has denounced the fine elegance of [ROOT.GetCountry.GetCulture.GetName] culture. In fact, [target_character2.GetSheHe] insists that [target_culture.GetName] is superior in every way. This scandalous behavior threatens the stability and health of our internal affairs, like a weed in the garden...",
@@ -1193,7 +1193,7 @@
  },
  "flavor_chi.18.a.entry": {
   "en": "Family is important, let him go.",
-  "uk": ""
+  "uk": "Сім’я — це важливо, відпустімо його."
  },
  "flavor_chi.18.b": {
   "en": "And who will tend to our bureaucracy?",
@@ -1233,7 +1233,7 @@
  },
  "flavor_chi.2.b.entry": {
   "en": "We could repair extensively the section in the province.",
-  "uk": ""
+  "uk": "Ми могли б ґрунтовно відремонтувати ділянку в цій провінції."
  },
  "flavor_chi.2.c": {
   "en": "[target_province2.GetNameWithNoTooltip] will benefit from substantial repairs.",
@@ -1241,7 +1241,7 @@
  },
  "flavor_chi.2.c.entry": {
   "en": "The province will benefit from substantial repairs.",
-  "uk": ""
+  "uk": "Провінція виграє від значного ремонту."
  },
  "flavor_chi.2.d": {
   "en": "Let us rebuilt [target_province3.GetNameWithNoTooltip]'s section of the wall.",
@@ -1249,7 +1249,7 @@
  },
  "flavor_chi.2.d.entry": {
   "en": "Let us rebuilt the province's section of the wall.",
-  "uk": ""
+  "uk": "Відбудуймо ділянку стіни в цій провінції."
  },
  "flavor_chi.2.desc": {
   "en": "Ever since times of old, security on the northern frontier has been an important issue. One problem is the sorry state of the [ShowBuildingTypeName('ruined_great_wall_of_china')], built in ancient times, but left to crumble in recent centuries. We could repair it, but it would be expensive and the effort, both physical and fiscal, would likely cause some unrest among the people. However, with improved defenses, the provinces in the area would likely become more productive and secure, while without them, people may leave for safer havens. What shall we do?",
@@ -1337,7 +1337,7 @@
  },
  "flavor_chi.2004.a.entry": {
   "en": "Welcome them to the court!",
-  "uk": ""
+  "uk": "Раді вітати їх при дворі!"
  },
  "flavor_chi.2004.desc": {
   "en": "At daybreak, the [target_stop.GetRank.GetName] dwellers of [target_stop.GetName] were greeted with a most terrifying yet astounding sight. The entire horizon over the [coastal_sea_tile.GetName] was covered in ships of none other than the [GetInternationalOrganization('middle_kingdom').GetName], the [expedition_initiator.GetLongName]. The leader of the fleet, $expedition_leader_name$, promptly disembarked at our port and obtained permit to restock over at [target_stop.GetNameWithNoTooltip]. What followed next is truly bizarre, as the [expedition_initiator.GetAdjectiveWithNoTooltip] sailors got in contact with the local bailiffs, showering them in gifts and asking for an audience with the [ROOT.GetCountry.GetGovernment.GetRulerTitle].",
@@ -1445,7 +1445,7 @@
  },
  "flavor_chi.2011.a.entry": {
   "en": "There is more to the world than just the $middle_kingdom$?",
-  "uk": ""
+  "uk": "Невже світ більший, ніж $middle_kingdom$?"
  },
  "flavor_chi.2011.desc": {
   "en": "Though our expedition to [ROOT.GetVariable('chinese_treasure_target_location').GetLocation.GetName] was not exploratory in nature, correspondence with local rulers along the way has allowed our voyagers to discover new routes. With their return, we can use this expertise to better map out the lands beyond the [GetInternationalOrganization('middle_kingdom').GetName].",
@@ -1513,7 +1513,7 @@
  },
  "flavor_chi.2015.b.entry": {
   "en": "Have him beheaded.",
-  "uk": ""
+  "uk": "Відрубати йому голову."
  },
  "flavor_chi.2015.c": {
   "en": "Issue the #italic língchí,#! slow slicing.",
@@ -1525,7 +1525,7 @@
  },
  "flavor_chi.2015.d.entry": {
   "en": "Pardon the dissident, his skills might be useful.",
-  "uk": ""
+  "uk": "Помилувати дисидента, його вміння можуть знадобитися."
  },
  "flavor_chi.2015.desc": {
   "en": "During the $expedition_name_treasure_voyage$, $expedition_leader_name$ and $expedition_leader_name_herhis$ loyal sailors have managed to track down a high-profile dissident named [extradited_character.GetName]. [extradited_character.GetShortNameWithNoTooltip] escaped [ROOT.GetCountry.GetName] long time ago, fleeing from due justice. Our expedition however not only did manage to find [extradited_character.GetHerHim], but also to wrestle [extradited_character.GetHerHim] from [extradited_character.GetHerHis] asylum keepers in [asylum_country.GetName] and they brought [extradited_character.GetHerHim] back to $china$ for justice to be served.",
@@ -1553,7 +1553,7 @@
  },
  "flavor_chi.2017.a.entry": {
   "en": "Make an example out of him.",
-  "uk": ""
+  "uk": "Покарати його для острахи іншим."
  },
  "flavor_chi.2017.b": {
   "en": "Show a benevolent attitude.",
@@ -1573,7 +1573,7 @@
  },
  "flavor_chi.2018.a.entry": {
   "en": "Send him to rule as our viceroy.",
-  "uk": ""
+  "uk": "Відправити його правити як нашого віце-короля."
  },
  "flavor_chi.2018.b": {
   "en": "The local figurehead can stay.",
@@ -1616,8 +1616,8 @@
   "uk": "Сподіваємося, це не погана прикмета."
  },
  "flavor_chi.2021.desc": {
-  "en": "Word has reached us that our $expedition_name_treasure_voyage$ leader, $expedition_leader_name$, has perished while on $expedition_leader_name_herhis$ journey. The second in command, [new_leader.GetName], has assumed command and will have to lead the journey on [new_leader.GetHerHis] own.",
-  "uk": "Ми дізналися, що $expedition_leader_name$, глава нашої експедиції «$expedition_name_treasure_voyage$», більше не з нами. На жаль, часом подорожі бувають смертельно небезпечними. Тепер експедицію очолить [new_leader.GetName]. Відтепер її доля залежить від нового лідера."
+  "en": "Word has reached us that our $expedition_name_treasure_voyage$ leader, $expedition_leader_name$, has perished while on $expedition_leader_name_herhis$ journey. The second in command, [new_leader.GetName], has assumed command and will have to lead the journey on his own.",
+  "uk": "До нас дійшла звістка, що $expedition_leader_name$, очільник нашої експедиції «$expedition_name_treasure_voyage$», загинув у мандрах ($expedition_leader_name_herhis$ подорож). Командування перебрав заступник, [new_leader.GetName], — тепер він сам вестиме експедицію."
  },
  "flavor_chi.2021.title": {
   "en": "Death of [target.GetNameWithNoTooltip]",
@@ -1641,7 +1641,7 @@
  },
  "flavor_chi.21.a.entry": {
   "en": "Let the complex grace the beauty of the province.",
-  "uk": ""
+  "uk": "Хай цей комплекс прикрасить провінцію."
  },
  "flavor_chi.21.b": {
   "en": "We cannot afford this.",
@@ -1696,8 +1696,8 @@
   "uk": "Євнухам не можна довіряти!"
  },
  "flavor_chi.22.desc": {
-  "en": "More often than not, commoners and prisoners of war find it difficult to rise through the social ranks. Yet, it is quite remarkable when one such individual appears. This is the case of a eunuch by the name of [target_character.GetName]. Having been captured and castrated at a young age, [target_character.GetNameWithNoTooltip] began his servitude at the house of a local prince in [ShowAreaName('yunnan_area')]. After winning the prince's trust, [target_character.GetSheHe] was sent to [ShowLocationName('dadu')] to hone [target_character.GetHerHis] education, where he excelled. It is no miracle that such a man has made a great impression on [target_character2.GetName]. It is without a doubt that [target_character.GetNameWithNoTooltip] will make a fine admiral and leader for our glorious people.",
-  "uk": "Простолюдинам і військовополоненим рідко випадає нагода піднятися соціальними сходами, і якщо це все ж таки відбувається, значить, ідеться про людину справді виняткову. Саме такий євнух на ім'я [target_character.GetName]. Ще дитиною він потрапив у полон, був оскоплений і взятий на службу до князя #TOOLTIP:AREA,yunnan_area,X #L Юньнаню#!#!. [target_character.GetShortNameWithNoTooltip] швидко здобув довіру свого пана, і його відправили продовжувати освіту в [ShowLocationName('dadu')]. Невдовзі [target_character2.GetName] [Select_CString(target_character2.IsFemale,'помітила', 'помітив')] молодого євнуха й [Select_CString(target_character2.IsFemale,'оцінила', 'оцінив')] його старання. [target_character.GetShortNameWithNoTooltip] має всі шанси стати великим адміралом і видатним провідником нашого великого народу."
+  "en": "More often than not, commoners and prisoners of war find it difficult to rise through the social ranks. Yet, it is quite remarkable when one such individual appears. This is the case of a eunuch by the name of [target_character.GetName]. Having been captured and castrated at a young age, [target_character.GetNameWithNoTooltip] began his servitude at the house of a local prince in [ShowAreaName('yunnan_area')]. After winning the prince's trust, he was sent to [ShowLocationName('dadu')] to hone his education, where he excelled. It is no miracle that such a man has made a great impression on [target_character2.GetName]. It is without a doubt that [target_character.GetNameWithNoTooltip] will make a fine admiral and leader for our glorious people.",
+  "uk": "Простолюдинам і військовополоненим здебільшого важко піднятися соціальними сходами, тож появу такої людини годі не помітити. Саме такий євнух на ім’я [target_character.GetName]. Ще змалку потрапивши в полон і бувши оскопленим, [target_character.GetNameWithNoTooltip] почав службу в домі місцевого князя в [ShowAreaName('yunnan_area')]. Здобувши довіру князя, він був відправлений до [ShowLocationName('dadu')] здобувати освіту, де й відзначився. Не дивно, що такий чоловік справив велике враження, і [target_character2.GetName] це помітив. Безсумнівно, [target_character.GetNameWithNoTooltip] стане чудовим адміралом і провідником нашого славного народу."
  },
  "flavor_chi.22.entry": {
   "en": "$flavor_chi.22.title$",
@@ -1745,7 +1745,7 @@
  },
  "flavor_chi.2202.a.entry": {
   "en": "Punish the $burghers_estate$!",
-  "uk": ""
+  "uk": "Покарати стан «$burghers_estate$»!"
  },
  "flavor_chi.2202.b": {
   "en": "Hold the sailors accountable.",
@@ -1765,7 +1765,7 @@
  },
  "flavor_chi.2203.a.entry": {
   "en": "Follow the requests of the $nobles_estate$.",
-  "uk": ""
+  "uk": "Виконати вимоги стану «$nobles_estate$»."
  },
  "flavor_chi.2203.b": {
   "en": "We cannot risk to upset the [ShowCultureGroupNameWithNoTooltip('chinese_group')].",
@@ -1804,8 +1804,8 @@
   "uk": "Це повний абсурд!"
  },
  "flavor_chi.2205.desc": {
-  "en": "The $expedition_name_treasure_voyage$ has identified one of our courtiers, [target_escapee.GetName], as a renegade escapee from [expedition_initiator.GetName]. The [ShowCultureGroupName('chinese_group')] voyage elites, headed by $expedition_leader_name$, demand that the [target_escapee.GetShortNameWithNoTooltip] is handed over to them and extradited back to the [GetInternationalOrganization('middle_kingdom').GetName], where [target_escapee.GetSheHe] can be tried.",
-  "uk": "Члени експедиції «$expedition_name_treasure_voyage$» кажуть, що [Select_CString(target_escapee.IsFemale, 'одна', 'один' )] з наших придворних, [target_escapee.GetName], — [Select_CString(target_escapee.IsFemale, 'бунтівниця', 'бунтівник' )], [Select_CString(target_escapee.IsFemale, 'що втекла', 'що втік' )] з #ONCLICK:COUNTRY,[expedition_initiator.Custom('CL_tt')] #TOOLTIP:COUNTRY,[expedition_initiator.Custom('CL_tt')],X [expedition_initiator.Custom('CL_GEN')|L]#!#!. $expedition_leader_name$ та #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайські#!#! еліти вимагають передати [Select_CString(target_escapee.IsFemale, 'її', 'його' )] #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom_tt,X #L Серединній Державі#!#!, де [Select_CString(target_escapee.IsFemale, 'її', 'його' )] судитимуть за всією суворістю закону."
+  "en": "The $expedition_name_treasure_voyage$ has identified one of our courtiers, [target_escapee.GetName], as a renegade escapee from [expedition_initiator.GetName]. The [ShowCultureGroupName('chinese_group')] voyage elites, headed by $expedition_leader_name$, demand that the [target_escapee.GetShortNameWithNoTooltip] is handed over to them and extradited back to the [GetInternationalOrganization('middle_kingdom').GetName], where he can be tried.",
+  "uk": "Учасники експедиції «$expedition_name_treasure_voyage$» упізнали в одному з наших придворних, [target_escapee.GetName], утікача-відступника з держави [expedition_initiator.GetName]. [ShowCultureGroupName('chinese_group')] еліти експедиції на чолі з $expedition_leader_name$ вимагають видати їм [target_escapee.GetShortNameWithNoTooltip] й екстрадувати його назад до [GetInternationalOrganization('middle_kingdom').GetName], де його судитимуть."
  },
  "flavor_chi.2205.title": {
   "en": "Demand of Extradition",
@@ -2024,12 +2024,12 @@
   "uk": "Нічого не вдієш, без таких умілих чиновників держава як без рук."
  },
  "flavor_chi.23.desc": {
-  "en": "Our armies just quelled a minor rebellion led by a petty bureaucrat named [target_character.GetName]. Disgruntled by our policies, [target_character.GetSheHe] led a brutal rebellion in which [target_character.GetSheHe] took over the [target_location.GetRank.GetName] of [target_location.GetName] and executed many government officials.\\n\\nMost of the [ROOT.GetCountry.GetCulture.GetName] members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] agree that the lead cause of that tragedy was the disloyalty of the [ShowCultureGroupName('chinese_group')] officials, whose privileges must be limited in order to prevent another such tragedy.",
-  "uk": "Наші війська щойно придушили повстання. Заколотників [Select_CString(target_character.IsFemale, 'очолювала одна дрібна чиновниця', 'очолював один дрібний чиновник' )] на ім'я [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Невдоволена', 'Невдоволений' )] нашою політикою, [Select_CString(target_character.IsFemale, 'вона спровокувала', 'він спровокував' )] бунт, [Select_CString(target_character.IsFemale, 'захопила', 'захопив' )] #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_VP')|l]#!#! [target_location.GetName] і [Select_CString(target_character.IsFemale, 'стратила', 'стратив' )] багатьох державних службовців.\\n\\nБільшість #L [ROOT.GetCountry.GetCulture.GetName|l]их#! придворних сходяться на думці, що в усьому винна недостатня лояльність #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайських#!#! чиновників. Ми повинні обмежити їхні привілеї, щоб подібні події ніколи не повторилися."
+  "en": "Our armies just quelled a minor rebellion led by a petty bureaucrat named [target_character.GetName]. Disgruntled by our policies, he led a brutal rebellion in which he took over the [target_location.GetRank.GetName] of [target_location.GetName] and executed many government officials.\\n\\nMost of the [ROOT.GetCountry.GetCulture.GetName] members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] agree that the lead cause of that tragedy was the disloyalty of the [ShowCultureGroupName('chinese_group')] officials, whose privileges must be limited in order to prevent another such tragedy.",
+  "uk": "Наші війська щойно придушили невеликий заколот, який очолив дрібний чиновник на ім’я [target_character.GetName]. Невдоволений нашою політикою, він підняв жорстокий заколот, захопив [target_location.GetRank.GetName] [target_location.GetName] і стратив багатьох урядовців.\\n\\nБільшість придворних ([ROOT.GetCountry.GetGovernment.GetCourtTitle]), що належать до культури [ROOT.GetCountry.GetCulture.GetName], погоджуються, що головною причиною трагедії стала нелояльність чиновників групи [ShowCultureGroupName('chinese_group')], чиї привілеї слід обмежити, щоб таке не повторилося."
  },
  "flavor_chi.23.entry": {
   "en": "Rebellion of $name_fan.mandarin_language$ $name_meng4.mandarin_language$",
-  "uk": ""
+  "uk": "Заколот $name_fan.mandarin_language$ $name_meng4.mandarin_language$"
  },
  "flavor_chi.23.title": {
   "en": "Rebellion of [target_character.GetNameWithNoTooltip]",
@@ -2045,7 +2045,7 @@
  },
  "flavor_chi.24.b.entry": {
   "en": "Reveal his plot.",
-  "uk": ""
+  "uk": "Викрити його змову."
  },
  "flavor_chi.24.c": {
   "en": "Have [couped_character.GetNameWithNoTooltip] deposed and pull the rug.",
@@ -2053,15 +2053,15 @@
  },
  "flavor_chi.24.c.entry": {
   "en": "Have him deposed and pull the rug.",
-  "uk": ""
+  "uk": "Скинути його та вибити ґрунт з-під ніг."
  },
  "flavor_chi.24.desc": {
-  "en": "The authoritarian policies of [couped_character.GetName] have significantly altered the political atmosphere of the [ROOT.GetCountry.GetLongName] in the last couple of years. [couped_character.GetSheHe|U] wields almost absolute control of the government and is feared even by the entire [ROOT.GetCountry.GetGovernment.GetCourtTitle] and even the [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ruler_scope.GetHerselfHimself].\\n\\nTo end [couped_character.GetShortNameWithNoTooltip]'s reign of terror, a plot has been forged by [recipient.GetName], who wishes to topple [recipient.GetHerHis] uncle in a perfidious coup, perhaps even becoming the new Grand Chancellor [recipient.GetHerselfHimself]. Unsurprisingly, even [ruler_scope.GetName] is in on the plot, hoping to limit the power of this powerful aristocrat.",
-  "uk": "Через деспотичну політику, яку останні кілька років проводить [couped_character.GetName], політичний клімат на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! цілковито змінився. [Select_CString(couped_character.IsFemale, 'Вона', 'Він' )] має практично необмежену владу, [Select_CString(couped_character.IsFemale, 'її', 'його' )] боїться [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] — і навіть [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'сама', 'сам' )] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!\\n\\nБажаючи покласти край [Select_CString(couped_character.IsFemale, 'її', 'його' )] тиранії, [recipient.GetName] [Select_CString(recipient.IsFemale, 'задумала', 'задумав' )] палацовий переворот. [Select_CString(recipient.IsFemale, 'Вона', 'Він' )] планує скинути свого дядька — а якщо вдасться, то й [Select_CString(recipient.IsFemale, 'самій', 'самому' )] зайняти посаду верховного канцлера. У змові [Select_CString(ruler_scope.IsFemale, 'замішана', 'замішаний' )] навіть [ruler_scope.GetName] — і не дивно, адже [Select_CString(ruler_scope.IsFemale, 'їй', 'йому' )] не терпиться звільнитися від впливу могутнього вельможі."
+  "en": "The authoritarian policies of [couped_character.GetName] have significantly altered the political atmosphere of the [ROOT.GetCountry.GetLongName] in the last couple of years. He wields almost absolute control of the government and is feared even by the entire [ROOT.GetCountry.GetGovernment.GetCourtTitle] and even the [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ruler_scope.GetHerselfHimself].\\n\\nTo end [couped_character.GetShortNameWithNoTooltip]'s reign of terror, a plot has been forged by [recipient.GetName], who wishes to topple his uncle in a perfidious coup, perhaps even becoming the new Grand Chancellor [recipient.GetHerselfHimself]. Unsurprisingly, even [ruler_scope.GetName] is in on the plot, hoping to limit the power of this powerful aristocrat.",
+  "uk": "За останні кілька років деспотична політика, яку проводить [couped_character.GetName], помітно змінила політичний клімат держави [ROOT.GetCountry.GetLongName]. Він має майже необмежену владу над урядом, і його бояться весь двір ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) і навіть сам [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ruler_scope.GetHerselfHimself].\\n\\nЩоб покласти край терору, який чинить [couped_character.GetShortNameWithNoTooltip], [recipient.GetName] задумав змову: підступним переворотом скинути свого дядька й, можливо, самому стати верховним канцлером ([recipient.GetHerselfHimself]). Не дивно, що до змови долучився навіть [ruler_scope.GetName], сподіваючись обмежити владу цього могутнього аристократа."
  },
  "flavor_chi.24.entry": {
   "en": "Coup of $name_toqta$",
-  "uk": ""
+  "uk": "Переворот $name_toqta$"
  },
  "flavor_chi.24.title": {
   "en": "Coup of [recipient.GetNameWithNoTooltip]",
@@ -2073,19 +2073,19 @@
  },
  "flavor_chi.25.a.entry": {
   "en": "Appoint him.",
-  "uk": ""
+  "uk": "Призначити його."
  },
  "flavor_chi.25.b": {
   "en": "We do not need another dictator.",
   "uk": "Нам не потрібен ще один тиран."
  },
  "flavor_chi.25.desc": {
-  "en": "The death of [dead_character.GetName] has left [ROOT.GetCountry.GetName] without a leading chancellor to take care of the courtly matters. It would seem that there is a natural successor though, for [dead_character.GetHerHis] nephew, [recipient.GetName], is a skilled statesman, who would be fit for the role. Many do fear [recipient.GetHerHis] appointment though, for [dead_character.GetShortNameWithNoTooltip]'s tenure was absolute and brutal, and many are worried that [recipient.GetNameWithNoTooltip] could follow in his uncle's footsteps.",
-  "uk": "[dead_character.GetName] [Select_CString(dead_character.IsFemale, 'мертва', 'мертвий' )], і поблога провідного радника у справах #L [ROOT.GetCountry.GetAdjective|l]ого#! двору лишається вакантною. Втім, у [Select_CString(dead_character.IsFemale, 'покійної', 'покійного' )] є наступник — [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(recipient.IsFemale, 'племінниця', 'племінник' )] [recipient.GetName]. [Select_CString(recipient.IsFemale, 'Ця жінка', 'Ця людина' )] володіє всіма навичками, потрібними для царедворця, і чудово підходить на цю посаду. Проте багато хто при дворі проти цього призначення — [dead_character.GetShortNameWithNoTooltip] [Select_CString(dead_character.IsFemale, 'запам’яталася', 'запам’ятався' )] своїми жорстокими та деспотичними методами, і придворні побоюються, що [recipient.GetNameWithNoTooltip] чинитиме так само."
+  "en": "The death of [dead_character.GetName] has left [ROOT.GetCountry.GetName] without a leading chancellor to take care of the courtly matters. It would seem that there is a natural successor though, for his nephew, [recipient.GetName], is a skilled statesman, who would be fit for the role. Many do fear his appointment though, for [dead_character.GetShortNameWithNoTooltip]'s tenure was absolute and brutal, and many are worried that [recipient.GetNameWithNoTooltip] could follow in his uncle's footsteps.",
+  "uk": "Смерть, що спіткала [dead_character.GetName], залишила державу [ROOT.GetCountry.GetName] без верховного канцлера, який опікувався б придворними справами. Утім, природний наступник є: його небіж [recipient.GetName] — вправний державний муж, що пасує на цю посаду. Проте багато хто боїться цього призначення, адже врядування, яке вів [dead_character.GetShortNameWithNoTooltip], було самовладним і жорстоким, і чимало хто тривожиться, що [recipient.GetNameWithNoTooltip] піде слідами свого дядька."
  },
  "flavor_chi.25.entry": {
   "en": "Appointment of $name_toqta$",
-  "uk": ""
+  "uk": "Призначення $name_toqta$"
  },
  "flavor_chi.25.title": {
   "en": "Appointment of [recipient.GetNameWithNoTooltip]",
@@ -2101,7 +2101,7 @@
  },
  "flavor_chi.26.b.entry": {
   "en": "Perhaps he was right.",
-  "uk": ""
+  "uk": "Можливо, він мав рацію."
  },
  "flavor_chi.26.desc": {
   "en": "$flavor_chi.26_27.common_desc$\\n\\nOne of them is the [ShowPolicyName('direct_appointment')]. The result of this policy was detrimental to our bureaucracy, as it ended the one institution that, for centuries, promoted many skilled students to positions in the government of [ROOT.GetCountry.GetName] and its predecessors.\\n\\nNow that [target_character.GetShortNameWithNoTooltip] is looking into bringing back the [ShowLawName('keju_examination')], we can only hope the faith in the system will be restored and we will subsequently receive many new applicants.",
@@ -2109,7 +2109,7 @@
  },
  "flavor_chi.26.entry": {
   "en": "Fate of the $keju_examination$",
-  "uk": ""
+  "uk": "Доля $keju_examination$"
  },
  "flavor_chi.26.title": {
   "en": "Fate of the [ShowLawNameWithNoTooltip('keju_examination')]",
@@ -2128,12 +2128,12 @@
   "uk": "Збереження цієї політики в наших інтересах."
  },
  "flavor_chi.27.desc": {
-  "en": "$flavor_chi.26_27.common_desc$\\n\\nAs [target_character.GetHerHis] next target, [target_character.GetHeShe] is set to reverse the policy of [ShowPolicyName('limit_the_han_powers')], which has alienated many [ShowCultureGroupName('chinese_group')] citizens and pushed them towards various rebellions aiming at overthrowing the [ROOT.GetCountry.GetFlavorRank]. Even during [dead_character.GetName]'s lifetime, the policy was secretly criticized as too harsh but noone could have opposed the powerful dictator.",
-  "uk": "$flavor_chi.26_27.common_desc$\\n\\n[Select_CString(target_character.IsFemale, 'Вона вирішила', 'Він вирішив' )] згорнути політику #TOOLTIP:POLICY,limit_the_han_powers,X #L заборони на чиновницькі посади#!#!, яка викликала стільки обурення серед наших #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайських#!#! підданих і стала причиною повстань в усіх куточках [ROOT.GetCountry.Custom('CF_RP')|l]. Поки був живий [dead_character.GetName], ніхто не наважувався відкрито виступати проти цієї заборони, але навіть тоді більшість вельмож вважали її надмірно суворою."
+  "en": "$flavor_chi.26_27.common_desc$\\n\\nAs his next target, he is set to reverse the policy of [ShowPolicyName('limit_the_han_powers')], which has alienated many [ShowCultureGroupName('chinese_group')] citizens and pushed them towards various rebellions aiming at overthrowing the [ROOT.GetCountry.GetFlavorRank]. Even during [dead_character.GetName]'s lifetime, the policy was secretly criticized as too harsh but noone could have opposed the powerful dictator.",
+  "uk": "$flavor_chi.26_27.common_desc$\\n\\nНаступною його ціллю стало скасування політики [ShowPolicyName('limit_the_han_powers')], яка відштовхнула багатьох підданих групи [ShowCultureGroupName('chinese_group')] і штовхнула їх до численних повстань, що мали на меті повалити [ROOT.GetCountry.GetFlavorRank]. Навіть за життя, яке прожив [dead_character.GetName], цю політику таємно критикували як надто суворої, та ніхто не міг протистояти могутньому диктаторові."
  },
  "flavor_chi.27.entry": {
   "en": "Status Of The Han Law",
-  "uk": ""
+  "uk": "Становище ханьців"
  },
  "flavor_chi.27.title": {
   "en": "[ShowLawNameWithNoTooltip('status_of_the_han_law')]",
@@ -2164,12 +2164,12 @@
   "uk": "Ми не можемо дозволити собі скандал при дворі."
  },
  "flavor_chi.29.desc": {
-  "en": "For many years now, it has been abundantly clear that [target_character.GetName], the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s secondary consort, has been [ruler_scope.GetHerHis] true favorite. However, [target_character.GetSheHe] could never gain the primacy in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] due to the scandal that would inevitably erupt, were [target_character.GetSheHe] elevated to the status of a primary consort. Now, with the death of [deceased_wife.GetName], the [ROOT.GetCountry.GetGovernment.GetRulerTitle] has been given the most favorable time to elevate [target_character.GetHerHim] to the status of Empress Consort.",
-  "uk": "Усім давно відомо, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] і [Select_CString(ruler_scope.IsFemale, 'її', 'його' )] [Select_CString(target_character.IsFemale, 'наложниця', 'наложник' )] [target_character.GetName] не надишаться одне одним. Проте [target_character.GetShortNameWithNoTooltip] не може претендувати на високе становище при дворі, адже зведення [Select_CString(target_character.IsFemale, 'простої наложниці', 'простого наложника' )] в ранг [Select_CString(target_character.IsFemale, 'імператорської дружини', 'імператорського чоловіка' )] викличе грандіозний скандал. Але тепер, коли [deceased_wife.GetName] [Select_CString(target_character.IsFemale, 'покинула', 'покинув' )] цей світ, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ruler_scope.IsFemale, 'отримала', 'отримав' )] шанс призначити [Select_CString(target_character.IsFemale, 'свою кохану імператрицею-консортом', 'свого коханого імператором-консортом' )]."
+  "en": "For many years now, it has been abundantly clear that [target_character.GetName], the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s secondary consort, has been his true favorite. However, she could never gain the primacy in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] due to the scandal that would inevitably erupt, were she elevated to the status of a primary consort. Now, with the death of [deceased_wife.GetName], the [ROOT.GetCountry.GetGovernment.GetRulerTitle] has been given the most favorable time to elevate her to the status of Empress Consort.",
+  "uk": "Уже багато років цілком очевидно, що [target_character.GetName], друга дружина, якої має [ROOT.GetCountry.GetGovernment.GetRulerTitle], — його справжня улюблениця. Проте вона ніколи не могла здобути першість при дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) через скандал, який неминуче спалахнув би, якби її звели в ранг головної дружини. Тепер, коли [deceased_wife.GetName] відійшла у засвіти, [ROOT.GetCountry.GetGovernment.GetRulerTitle] має найсприятливішу нагоду звести її в ранг імператриці-консорта."
  },
  "flavor_chi.29.entry": {
   "en": "Elevation of Empress Consort Gi",
-  "uk": ""
+  "uk": "Піднесення імператриці-консорта Гі"
  },
  "flavor_chi.29.title": {
   "en": "Elevation of [target_character.GetNameWithNoTooltip]",
@@ -2180,12 +2180,12 @@
   "uk": "Це справжня трагедія для нашої держави."
  },
  "flavor_chi.30.desc": {
-  "en": "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowModifier('chi_grand_canal')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\\n\\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?",
-  "uk": "На провінцію [target_province.GetName] обрушилася ціла серія природних катаклізмів. Негода завдала величезної шкоди, цілі села були буквально стерті з лиця землі. Гірше того, [ShowModifier('chi_grand_canal')|l] через зливи вийшов з берегів. Судноплавство зупинилося, південь і північ держави опинилися фактично відрізаними одне від одного.\\n\\nТеоретично канал можна відновити, але це потребуватиме величезних коштів, яких у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! зараз просто немає. Але як [ROOT.GetCountry.Custom('CF_DP')|l] жити без Великого каналу?"
+  "en": "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowScriptedGeographyName('chinese_canal_geography')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\\n\\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?",
+  "uk": "На провінцію [target_province.GetName] обрушилася низка катастрофічних негод, що спричинили величезні руйнування й страждання. Це вже саме по собі лихо, але зливи досягли й [ShowScriptedGeographyName('chinese_canal_geography')], і той переповнився та вийшов з берегів. Ця небачена подія порушила роботу каналу, розірвавши зв’язок між півднем і північчю.\\n\\nТеоретично шкоду можна виправити, але це коштуватиме величезних грошей, яких ми в нинішньому становищі не маємо. Та чи зможе [ROOT.GetCountry.GetName] вижити без Великого каналу?"
  },
  "flavor_chi.30.entry": {
   "en": "Catastrophic Rains and the Grand Canal",
-  "uk": ""
+  "uk": "Катастрофічні зливи та Великий канал"
  },
  "flavor_chi.30.title": {
   "en": "Catastrophic Rains in [target_province.GetNameWithNoTooltip]",
@@ -2205,7 +2205,7 @@
  },
  "flavor_chi.32.entry": {
   "en": "Capture of $dadu$",
-  "uk": ""
+  "uk": "Захоплення $dadu$"
  },
  "flavor_chi.32.title": {
   "en": "Capture of [target_location.GetNameWithNoTooltip]",
@@ -2245,7 +2245,7 @@
  },
  "flavor_chi.34.entry": {
   "en": "Rise of the $oirat_culture$ Culture Confederation",
-  "uk": ""
+  "uk": "Постання конфедерації культури $oirat_culture$"
  },
  "flavor_chi.34.title": {
   "en": "Rise of the [ShowCultureNameWithNoTooltip('oirat_culture')] Confederation",
@@ -2257,7 +2257,7 @@
  },
  "flavor_chi.36.a.entry": {
   "en": "Open the gates to [ShowLocationNameWithNoTooltip('shangdu')]!",
-  "uk": ""
+  "uk": "Відчинити ворота [ShowLocationNameWithNoTooltip('shangdu')]!"
  },
  "flavor_chi.36.b": {
   "en": "Truly a terrible fate.",
@@ -2269,7 +2269,7 @@
  },
  "flavor_chi.36.entry": {
   "en": "Fleeing to $shangdu$",
-  "uk": ""
+  "uk": "Втеча до $shangdu$"
  },
  "flavor_chi.36.title": {
   "en": "Fleeing to [target_location.GetNameWithNoTooltip]",
@@ -2289,7 +2289,7 @@
  },
  "flavor_chi.37.entry": {
   "en": "Destruction of the Summer Capital",
-  "uk": ""
+  "uk": "Руйнування літньої столиці"
  },
  "flavor_chi.37.title": {
   "en": "Destruction of [target.GetNameWithNoTooltip]",
@@ -2301,7 +2301,7 @@
  },
  "flavor_chi.38.a.entry": {
   "en": "We will be back in the capital.",
-  "uk": ""
+  "uk": "Ми ще повернемося до столиці."
  },
  "flavor_chi.38.b": {
   "en": "We cannot abandon our post.",
@@ -2313,19 +2313,19 @@
  },
  "flavor_chi.38.entry": {
   "en": "Retreat to $karakorum$",
-  "uk": ""
+  "uk": "Відступ до $karakorum$"
  },
  "flavor_chi.38.title": {
   "en": "Retreat to [target_location.GetNameWithNoTooltip]",
   "uk": "Відступ до [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
  },
  "flavor_chi.39.a": {
-  "en": "Pass it to the [target_country.GetAdjectiveWithNoTooltip].",
-  "uk": "Ми передамо [subject_country.Custom('CL_ACC')] під [target_country.GetAdjectiveWithNoTooltip|l]ий контроль."
+  "en": "Pass it to the [target_country.GetLongNameWithNoTooltip].",
+  "uk": "Передати його: [target_country.GetLongNameWithNoTooltip]."
  },
  "flavor_chi.39.a.entry": {
   "en": "Pass it to them.",
-  "uk": ""
+  "uk": "Передати його їм."
  },
  "flavor_chi.39.b": {
   "en": "We will hold onto it, despite the problems.",
@@ -2337,7 +2337,7 @@
  },
  "flavor_chi.39.entry": {
   "en": "Fate of Subject Country",
-  "uk": ""
+  "uk": "Доля васальної держави"
  },
  "flavor_chi.39.title": {
   "en": "Fate of [subject_country.GetNameWithNoTooltip]",
@@ -2357,7 +2357,7 @@
  },
  "flavor_chi.4.entry": {
   "en": "A General's Army Reforms",
-  "uk": ""
+  "uk": "Військові реформи генерала"
  },
  "flavor_chi.4.title": {
   "en": "[target_character.GetNameWithNoTooltip]'s Army Reforms",
@@ -2377,7 +2377,7 @@
  },
  "flavor_chi.40.entry": {
   "en": "$china$ Yields Subject Country",
-  "uk": ""
+  "uk": "$china$ поступається васальною державою"
  },
  "flavor_chi.40.title": {
   "en": "[chain_initiator.GetNameWithNoTooltip] Yields [subject_country.GetNameWithNoTooltip]",
@@ -2428,12 +2428,12 @@
   "uk": "Ми раді цьому посольству."
  },
  "flavor_chi.43.desc": {
-  "en": "Reports have reached us that a diplomatic mission has arrived at our shores from the far-off western barbarian nation of [target_country.GetName], led by a certain Lord, [target_character.GetName]. [target_character.GetSheHe|U] is said to bring with [target_character.GetHerHim] the friendly greetings of [target_character.GetHerHis] [target_country.GetGovernment.GetRulerTitle], ideas for facilitating the trade between our nations, and various mechanical wonders.",
-  "uk": "Нам доповіли, що до держави прибула дипломатична місія з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! — далекої варварської країни на Заході. Посольство очолює знатна особа на ім'я [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона має намір', 'Він має намір')] представити нам вигідні торговельні пропозиції та запевнення дружби від [Select_CString(target_country.GetGovernment.GetRuler.IsFemale,'правительки', 'правителя')] своєї держави, а також показати безліч дивовижних механічних диковин."
+  "en": "Reports have reached us that a diplomatic mission has arrived at our shores from the far-off western barbarian nation of [target_country.GetName], led by a certain Lord, [target_character.GetName]. He is said to bring with him the friendly greetings of his [target_country.GetGovernment.GetRulerTitle], ideas for facilitating the trade between our nations, and various mechanical wonders.",
+  "uk": "Нам доповіли, що до наших берегів прибула дипломатична місія з далекої західної варварської держави [target_country.GetName] на чолі з якимсь лордом, [target_character.GetName]. Кажуть, він привіз дружні вітання від свого правителя ([target_country.GetGovernment.GetRulerTitle]), ідеї щодо полегшення торгівлі між нашими державами й різноманітні механічні дива."
  },
  "flavor_chi.43.entry": {
   "en": "Lord Macartney's Mission to China",
-  "uk": ""
+  "uk": "Місія лорда Макартні до Китаю"
  },
  "flavor_chi.43.title": {
   "en": "[target_character.GetNameWithNoTooltip]'s Mission to $china$",
@@ -2468,72 +2468,72 @@
   "uk": "$common_string_brilliant$"
  },
  "flavor_chi.45.desc": {
-  "en": "One of the great poets of our era, [target_character.GetName] is the pride of [target_character.GetHerHis] home province of [target_province.GetName]. Known by multiple art names like Shēng Ān, Bónán Shānrén and Diānnán Shùshǐ, [target_character.GetSheHe] is a master writer and lyricist, having already produced great quantities of works, generally around the theme of nature and culture. Some of [target_character.GetHerHis] works have already reached such widespread notoriety, that [target_character.GetHerHis] name is sure to be etched forever in the pages of history.",
-  "uk": "[target_character.GetName], [Select_CString(target_character.IsFemale, 'гідна донька', 'гідний син' )] провінції [target_province.GetName] — [Select_CString(target_character.IsFemale, 'одна', 'один' )] з найвидатніших поетів і письменників нашого часу. Виступаючи під кількома літературними псевдонімами, такими як Шеньань, Бонань-шань-жень і Дяньнань-шу-ши, [Select_CString(target_character.IsFemale, 'вона опублікувала', 'він опублікував' )] безліч творів, переважно присвячених темі природи та культури. Деякі з [Select_CString(target_character.IsFemale, 'її', 'його' )] творів уже прославилися на всю державу, тож можна не сумніватися, що [Select_CString(target_character.IsFemale, 'її', 'його' )] ім'я назавжди буде вписано в історію [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  "en": "One of the great poets of our era, [target_character.GetName] is the pride of his home province of [target_province.GetName]. Known by multiple art names like Shēng Ān, Bónán Shānrén and Diānnán Shùshǐ, he is a master writer and lyricist, having already produced great quantities of works, generally around the theme of nature and culture. Some of his works have already reached such widespread notoriety, that his name is sure to be etched forever in the pages of history.",
+  "uk": "[target_character.GetName], один із великих поетів нашої доби, — гордість рідної провінції [target_province.GetName]. Відомий під кількома літературними іменами, як-от Шеньань, Бонань Шаньжень і Дяньнань Шуши, він майстер слова й лірики, що вже створив безліч творів, здебільшого про природу й культуру. Деякі з них здобули таку широку славу, що його ім’я напевно назавжди закарбується на сторінках історії."
  },
  "flavor_chi.45.entry": {
   "en": "$name_yang.mandarin_language$ $name_shen4.mandarin_language$, Poet of the Ming",
-  "uk": ""
+  "uk": "$name_yang.mandarin_language$ $name_shen4.mandarin_language$, поет доби Мін"
  },
  "flavor_chi.45.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.46.a": {
-  "en": "We need [target_character.GetHerHim] in the military!",
-  "uk": "Ми запропонуємо [Select_CString(target_character.IsFemale, 'їй', 'йому' )] військову посаду."
+  "en": "We need her in the military!",
+  "uk": "Вона потрібна нам у війську!"
  },
  "flavor_chi.46.b": {
-  "en": "Let [target_character.GetHerHim] write us poems.",
+  "en": "Let her write us poems.",
   "uk": "Хай пише для нас вірші."
  },
  "flavor_chi.46.c": {
-  "en": "[target_character.GetSheHe|U] must serve in our [ROOT.GetCountry.GetGovernment.GetCabinetTitle].",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetCabinetTitle|U] потребує таких людей, як [Select_CString(target_character.IsFemale, 'вона', 'він' )]!"
+  "en": "She must serve in our [ROOT.GetCountry.GetGovernment.GetCabinetTitle].",
+  "uk": "Вона мусить служити в нашій раді ([ROOT.GetCountry.GetGovernment.GetCabinetTitle])."
  },
  "flavor_chi.46.c.entry": {
   "en": "She must serve in our our cabinet.",
-  "uk": ""
+  "uk": "Вона мусить служити в нашій раді."
  },
  "flavor_chi.46.desc": {
-  "en": "A battle-hardened general by the name of [target_character.GetName] has once again blessed us with [target_character.GetHerHis] presence. [target_character.GetHerHis|U] father made sure that [target_character.GetSheHe] got the same education as [target_character.GetHerHis] brothers and [target_character.GetSheHe] is well-learned in history, the classics, martial arts, archery, and riding, with a reputation for creating beautiful and thought-provoking poems. With [target_character.GetHerHis] recent involvement in military matters, it is clear as day that [target_character.GetSheHe] would be a great fit.",
-  "uk": "Нас знову [Select_CString(target_character.IsFemale, 'вшанувала', 'вшанував' )] своєю присутністю [Select_CString(target_character.IsFemale, 'відома воєначальниця', 'відомий воєначальник' )] на ім'я [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] батько подбав про те, щоб [Select_CString(target_character.IsFemale, 'вона здобула', 'він здобув' )] чудову освіту, таку ж, як і [Select_CString(target_character.IsFemale, 'її', 'його' )] брати: [target_character.GetNameWithNoTooltip] чудово знає історію, розуміється в класичній літературі, володіє бойовими мистецтвами, вміє стріляти з лука і скакати верхи. До всього іншого, [Select_CString(target_character.IsFemale, 'вона', 'він' )] пише прекрасні вірші. [Select_CString(target_character.IsFemale, 'Ця жінка', 'Ця людина' )] стане прекрасним доповненням до нашого двору, зважаючи на [Select_CString(target_character.IsFemale, 'її', 'його' )] військовий досвід."
+  "en": "A battle-hardened general by the name of [target_character.GetName] has once again blessed us with her presence. Her father made sure that she got the same education as her brothers and she is well-learned in history, the classics, martial arts, archery, and riding, with a reputation for creating beautiful and thought-provoking poems. With her recent involvement in military matters, it is clear as day that she would be a great fit.",
+  "uk": "Загартована в боях воєначальниця на ім’я [target_character.GetName] знову вшанувала нас своєю присутністю. Її батько подбав, щоб вона здобула таку саму освіту, як її брати: вона добре знає історію, класику, бойові мистецтва, стрільбу з лука та верхову їзду, а ще славиться прекрасними й глибокими віршами. З огляду на її недавню участь у військових справах, цілком ясно, що вона нам чудово підійде."
  },
  "flavor_chi.46.entry": {
   "en": "$name_qin.mandarin_language$ $name_liang2.mandarin_language$ $name_yu4.mandarin_language$, General and Poet",
-  "uk": ""
+  "uk": "$name_qin.mandarin_language$ $name_liang2.mandarin_language$ $name_yu4.mandarin_language$, воєначальниця й поетеса"
  },
  "flavor_chi.46.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.47.a": {
-  "en": "We need [target_character.GetHerHim] at the [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] потребує таких [Select_CString(target_character.IsFemale, 'жінок', 'чоловіків' )], як [target_character.GetNameWithNoTooltip]!"
+  "en": "We need her at the [ROOT.GetCountry.GetGovernment.GetCourtTitle]!",
+  "uk": "Вона потрібна нам при дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle])!"
  },
  "flavor_chi.47.a.entry": {
   "en": "We need her at the court!",
-  "uk": ""
+  "uk": "Вона потрібна нам при дворі!"
  },
  "flavor_chi.47.b": {
   "en": "We are not exactly interested.",
   "uk": "Нам це не цікаво."
  },
  "flavor_chi.47.desc": {
-  "en": "Word has reached us of a most curious and impressive character. [target_character.GetName] is a talented [ShowArtistTypeName('scientist')] of many skills that [target_character.GetSheHe] has acquired over [target_character.GetHerHis] lifetime. Since a young age, [target_character.GetSheHe] has shown promise with an aptitude for quick learning. Throughout [target_character.GetHerHis] childhood, [target_character.GetSheHe] received an excellent education, mostly through [target_character.GetHerHis] family, and was able to make a name for [target_character.GetHerselfHimself], defying many social norms present in the [ROOT.GetCountry.GetAdjective] society.\\n\\n[target_character.GetSheHe|U] would make a great fit in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "До нас дійшли чутки про [Select_CString(target_character.IsFemale, 'одну вельми видатну жінку', 'одну вельми видатну людину' )]. [target_character.GetName] — не просто талановитий [ShowArtistTypeName('scientist')|l], [Select_CString(target_character.IsFemale, 'вона', 'він' )] змалку [Select_CString(target_character.IsFemale, 'виявляла', 'виявляв' )] схильність до навчання і з роками [Select_CString(target_character.IsFemale, 'опанувала', 'опанував' )] безліч найрізноманітніших навичок і вмінь. Завдяки своїй родині [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'здобула', 'здобув' )] чудову освіту і [Select_CString(target_character.IsFemale, 'зуміла', 'зумів' )] проявити себе, попри панівні в #L [ROOT.GetCountry.GetAdjective|l]ому#! суспільстві упередження.\\n\\n[Select_CString(target_character.IsFemale, 'Така жінка', 'Така людина' )], як [Select_CString(target_character.IsFemale, 'вона', 'він' )], [Select_CString(target_character.IsFemale, 'могла', 'міг' )] б стати в пригоді при нашому дворі."
+  "en": "Word has reached us of a most curious and impressive character. [target_character.GetName] is a talented [ShowArtistTypeName('scientist')] of many skills that she has acquired over her lifetime. Since a young age, she has shown promise with an aptitude for quick learning. Throughout her childhood, she received an excellent education, mostly through her family, and was able to make a name for [target_character.GetHerselfHimself], defying many social norms present in the [ROOT.GetCountry.GetAdjective] society.\\n\\nShe would make a great fit in our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "До нас дійшли чутки про вельми цікаву й видатну особу. [target_character.GetName] — обдарований [ShowArtistTypeName('scientist')], що за життя опанувала безліч навичок. Змалку вона виявляла хист до швидкого навчання. У дитинстві здобула чудову освіту, здебільшого завдяки родині, і зуміла прославити [target_character.GetHerselfHimself], кинувши виклик багатьом нормам, панівним у [ROOT.GetCountry.GetAdjective] суспільстві.\\n\\nВона чудово пасувала б нашому двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle])."
  },
  "flavor_chi.47.entry": {
   "en": "$name_wang.mandarin_language$ $name_zhen.mandarin_language$ $name_yi2.mandarin_language$, Scientist and Scholar",
-  "uk": ""
+  "uk": "$name_wang.mandarin_language$ $name_zhen.mandarin_language$ $name_yi2.mandarin_language$, учена й дослідниця"
  },
  "flavor_chi.47.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.48.a": {
-  "en": "[target_character.GetSheHe|U] is due for a promotion.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Вона заслужила', 'Він заслужив' )] підвищення."
+  "en": "He is due for a promotion.",
+  "uk": "Він заслужив підвищення."
  },
  "flavor_chi.48.b": {
   "en": "Many such cases.",
@@ -2681,7 +2681,7 @@
  },
  "flavor_chi.53.entry": {
   "en": "Forbidden City",
-  "uk": ""
+  "uk": "Заборонене місто"
  },
  "flavor_chi.53.title": {
   "en": "[ShowBuildingTypeNameWithNoTooltip('forbidden_city')]",
@@ -2693,7 +2693,7 @@
  },
  "flavor_chi.54.a.entry": {
   "en": "The ruler is more than delighted.",
-  "uk": ""
+  "uk": "Правитель у захваті."
  },
  "flavor_chi.54.b": {
   "en": "More important matters remain in [current_capital.GetNameWithNoTooltip].",
@@ -2701,7 +2701,7 @@
  },
  "flavor_chi.54.b.entry": {
   "en": "More important matters remain in the capital.",
-  "uk": ""
+  "uk": "У столиці лишаються важливіші справи."
  },
  "flavor_chi.54.desc": {
   "en": "The construction of the magnificent [ShowBuildingTypeName('forbidden_city')] is finally complete. The complex is now ready for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to move in and it is certain that the palace will, at the very least, serve as the winter residence for the monarchs. What is certain, however, is that the [target_location.GetRank.GetName] of [target_location.GetName] has become a lot more important for our state.",
@@ -2785,7 +2785,7 @@
  },
  "flavor_chi.57.entry": {
   "en": "Tweaking the $keju_examination$",
-  "uk": ""
+  "uk": "Удосконалення $keju_examination$"
  },
  "flavor_chi.57.title": {
   "en": "Tweaking the [ShowLawNameWithNoTooltip('keju_examination')]",
@@ -2829,7 +2829,7 @@
  },
  "flavor_chi.59.entry": {
   "en": "Fate of the $keju_examination$",
-  "uk": ""
+  "uk": "Доля $keju_examination$"
  },
  "flavor_chi.59.title": {
   "en": "Fate of the [ShowLawNameWithNoTooltip('keju_examination')]",
@@ -2865,7 +2865,7 @@
  },
  "flavor_chi.60.b.entry": {
   "en": "Bah, he knows better!",
-  "uk": ""
+  "uk": "Тьху, йому видніше!"
  },
  "flavor_chi.60.desc": {
   "en": "One of the [new_ruler.GetName]'s ancestors, [ROOT.GetVariable('chi_ancestor').GetCharacter.GetName], once wrote a set of comprehensive recommendations for any future [ROOT.GetCountry.GetGovernment.GetRulerTitle] to uphold. Those rules have been compiled in a book titled $flavor_chi.56.title$ which contains a set of countries that are not to be invaded as well as thirteen sections dedicated to many aspects of statecraft. Should [new_ruler.GetShortNameWithNoTooltip] heed those warnings and suggestions?",
@@ -2961,7 +2961,7 @@
  },
  "flavor_chi.66.b.entry": {
   "en": "The less work he has, the better.",
-  "uk": ""
+  "uk": "Що менше в нього роботи, то краще."
  },
  "flavor_chi.66.desc": {
   "en": "Today, one of the high-ranking eunuchs has been spotted talking to a leading minister of the [ShowGovernmentReformName('three_departments_system')]. Ordinarily, the minister would have been talking to the [ROOT.GetCountry.GetGovernment.GetRulerTitle], but in this scenario it was the eunuch secretary that was both receiving the envoy as well as making the crucial decision. That has prompted [target_character.GetName] to ask a vital question, have the palace eunuchs been given too many rights and privileges?",
@@ -3141,7 +3141,7 @@
  },
  "flavor_chi.75.a.entry": {
   "en": "Execute him and disband the Grand Chancellery!",
-  "uk": ""
+  "uk": "Стратити його й розпустити Велику канцелярію!"
  },
  "flavor_chi.75.b": {
   "en": "Have the bureaucrats of Hànlín Academy serve in the Secretariat.",
@@ -3157,7 +3157,7 @@
  },
  "flavor_chi.75.entry": {
   "en": "A Chancellor's Alleged Plot",
-  "uk": ""
+  "uk": "Імовірна змова канцлера"
  },
  "flavor_chi.75.title": {
   "en": "[target_character.GetNameWithNoTooltip]'s Plot?",
@@ -3257,11 +3257,11 @@
  },
  "flavor_chi.8.entry": {
   "en": "British Diplomatic Mission",
-  "uk": ""
+  "uk": "Британська дипломатична місія"
  },
  "flavor_chi.8.title": {
   "en": "[target_character.GetNameWithNoTooltip]'s Mission",
-  "uk": ""
+  "uk": "Місія: [target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.80.a": {
   "en": "[target_character.GetSheHe|U] has our seal of approval.",
@@ -3269,7 +3269,7 @@
  },
  "flavor_chi.80.a.entry": {
   "en": "He has our seal of approval.",
-  "uk": ""
+  "uk": "Він має наше схвалення."
  },
  "flavor_chi.80.b": {
   "en": "Our resources are best spent elsewhere.",
@@ -3281,7 +3281,7 @@
  },
  "flavor_chi.80.entry": {
   "en": "Expedition into $manchuria_region$",
-  "uk": ""
+  "uk": "Експедиція в $manchuria_region$"
  },
  "flavor_chi.80.title": {
   "en": "Expedition into [ShowRegionNameWithNoTooltip('manchuria_region')]",
@@ -3293,7 +3293,7 @@
  },
  "flavor_chi.81.a.entry": {
   "en": "Of our realm? We shall!",
-  "uk": ""
+  "uk": "Нашого царства? Неодмінно!"
  },
  "flavor_chi.81.b": {
   "en": "We will not be subdued!",
@@ -3332,8 +3332,8 @@
   "uk": "$common_string_curses$"
  },
  "flavor_chi.83.desc": {
-  "en": "A local member of the White Lotus, a dissident named [target_character.GetName], has started stirring up unrest from [target_character.GetHerHis] home in [target_location.GetName]. Plenty of [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] of [target_province.GetName] got tricked into believing [target_character.GetHerHis] millenarian lies that promise good for those who choose to follow [target_character.GetHerHim].\\n\\nWe need to face the reality that there might be a new rebellion brewing.",
-  "uk": "Якийсь [target_character.GetName], [Select_CString(target_character.IsFemale, 'учасниця', 'учасник' )] «Товариства Білого Лотоса» з [target_location.Custom('LR_RP')|l] [target_location.GetName], сіє смуту в рідних краях. Багато [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] провінції [target_province.GetName] прислухаються до крамольних промов. Вони вірять в обіцянки благоденства для тих, хто приєднається до [Select_CString(target_character.IsFemale, 'бунтівниці', 'бунтівника' )].\\n\\nЧас визнати, що в державі назріває нове повстання."
+  "en": "A local member of the White Lotus, a dissident named [target_character.GetName], has started stirring up unrest from his home in [target_location.GetName]. Plenty of [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] of [target_province.GetName] got tricked into believing his millenarian lies that promise good for those who choose to follow him.\\n\\nWe need to face the reality that there might be a new rebellion brewing.",
+  "uk": "Місцевий член Білого Лотоса, дисидент на ім’я [target_character.GetName], почав сіяти смуту у своєму рідному краї — районі [target_location.GetName]. Чимало представників стану [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] з провінції [target_province.GetName] повірили його месіанській брехні, яка обіцяє благо всім, хто піде за ним.\\n\\nЧас визнати: можливо, назріває нове повстання."
  },
  "flavor_chi.83.title": {
   "en": "The White Lotus in [target_province.GetNameWithNoTooltip]!",
@@ -3349,15 +3349,15 @@
  },
  "flavor_chi.84.a.entry": {
   "en": "Cease your illicit behavior, in the name of the ruler!",
-  "uk": ""
+  "uk": "Іменем правителя — припиніть свої беззаконня!"
  },
  "flavor_chi.84.b": {
   "en": "Allow them the autonomy they demand.",
   "uk": "Якщо вони хочуть правити автономно, то й нехай."
  },
  "flavor_chi.84.desc": {
-  "en": "Eunuch circles have at times accumulated much influence in both external and internal affairs. However, recent reports have circulated the palace about a group of 8 prominent Eunuchs whose power, it is said, rivals that of the [ruler_scope.GetName] [ruler_scope.GetHerselfHimself]! Going by the title 'Eight Tigers', these oligarchs are aiming for controlling the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and crushing all opposing factions within the [ROOT.GetCountry.GetFlavorRank].\\n\\nTheir leader is considered to be a prominent character named [target_character.GetName], a eunuch whose influence in politics has earned [target_character.GetHerHim] a nickname implying [target_character.GetSheHe] is the real monarch.",
-  "uk": "В історії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! й раніше були періоди, коли євнухи мали величезний вплив на зовнішню та внутрішню політику [ROOT.GetCountry.Custom('CF_RP')|l]. Але останнім часом у палаці дедалі частіше говорять про кліку з восьми могутніх євнухів, з якими не може впоратися навіть [Select_CString(ruler_scope.IsFemale, 'сама', 'сам' )] [ruler_scope.GetName]! Ця група сановників, відома як «Вісім тигрів», повністю контролює #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий#! двір і жорстоко розправляється з будь-якими суперниками.\\n\\nЛідером угруповання вважається всесильний євнух на ім'я [target_character.GetName]. Вплив [Select_CString(target_character.IsFemale, 'цієї жінки', 'цієї людини' )] настільки великий, що за [Select_CString(target_character.IsFemale, 'нею', 'ним' )] закріпилося прізвисько, яке недвозначно натякає на те, що [Select_CString(target_character.IsFemale, 'вона', 'він' )] і є [Select_CString(target_character.IsFemale, 'істинна володарка', 'істинний володар' )] держави."
+  "en": "Eunuch circles have at times accumulated much influence in both external and internal affairs. However, recent reports have circulated the palace about a group of 8 prominent Eunuchs whose power, it is said, rivals that of the [ruler_scope.GetName] [ruler_scope.GetHerselfHimself]! Going by the title 'Eight Tigers', these oligarchs are aiming for controlling the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and crushing all opposing factions within the [ROOT.GetCountry.GetFlavorRank].\\n\\nTheir leader is considered to be a prominent character named [target_character.GetName], a eunuch whose influence in politics has earned him a nickname implying he is the real monarch.",
+  "uk": "Кліки євнухів не раз набували великого впливу і в зовнішніх, і у внутрішніх справах. Проте останнім часом палацом ширяться чутки про гурт із восьми впливових євнухів, чия влада, кажуть, не поступається владі самого правителя — [ruler_scope.GetName] [ruler_scope.GetHerselfHimself]! Ці олігархи, що звуть себе «Вісім тигрів», прагнуть підкорити собі [ROOT.GetCountry.GetGovernment.GetCourtTitle] і розчавити всі ворожі фракції по всій державі ([ROOT.GetCountry.GetFlavorRank]).\\n\\nЇхнім ватажком вважають впливового євнуха на ім’я [target_character.GetName], чия політична вага принесла йому прізвисько, що натякає: справжній монарх — саме він."
  },
  "flavor_chi.84.entry": {
   "en": "$flavor_chi.84.title$",
@@ -3432,12 +3432,12 @@
   "uk": "Дивовижно!"
  },
  "flavor_chi.88.desc": {
-  "en": "The Jesuit mission is beneficial in bringing us many fascinating characters from across the seas. Worth the mention is the arrival of [target_character.GetName], who is a [target_character.GetWomanMan] truly fascinated with our rich culture and our beautiful land. Since [target_character.GetHerHis] arrival, [target_character.GetShortNameWithNoTooltip] has compiled many records on our fascinating flora and fauna as well as our medicine.",
-  "uk": "Завдяки єзуїтській місії [ROOT.GetCountry.Custom('rank_ru_ACC')|l] відвідало чимало заморських гостей, і не останнє місце серед них посідає [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Ця дивовижна жінка', 'Ця дивовижна людина' )] щиро захоплюється нашою прекрасною державою, давня #L [ROOT.GetCountry.GetAdjective|l]а#! культура вражає [Select_CString(target_character.IsFemale, 'її', 'його' )] уяву. Оселившись серед наших підданих, [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'склала', 'склав' )] безліч записів про флору й фауну [ROOT.GetCountry.Custom('rank_ru_GEN')|l], [Select_CString(target_character.IsFemale, 'її', 'його' )] також цікавлять секрети [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої медицини."
+  "en": "The Jesuit mission is beneficial in bringing us many fascinating characters from across the seas. Worth the mention is the arrival of [target_character.GetName], who is a [target_character.GetWomanMan] truly fascinated with our rich culture and our beautiful land. Since his arrival, [target_character.GetShortNameWithNoTooltip] has compiled many records on our fascinating flora and fauna as well as our medicine.",
+  "uk": "Єзуїтська місія приносить нам користь, приводячи з-за морів чимало дивовижних людей. Варто згадати прибуття [target_character.GetName] — [target_character.GetWomanMan], що щиро захоплюється нашою багатою культурою й прекрасною землею. Відтоді [target_character.GetShortNameWithNoTooltip] склав безліч записів про нашу дивовижну флору й фауну, а також про нашу медицину."
  },
  "flavor_chi.88.entry": {
   "en": "Michał Boym, Jesuit Naturalist",
-  "uk": ""
+  "uk": "Міхал Бойм, єзуїт-натураліст"
  },
  "flavor_chi.88.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -3473,19 +3473,19 @@
  },
  "flavor_chi.9.a.entry": {
   "en": "Welcome him to our court.",
-  "uk": ""
+  "uk": "Вітаймо його при нашому дворі."
  },
  "flavor_chi.9.b": {
   "en": "Go back to [ShowContinentNameWithNoTooltip('europe')]!",
   "uk": "Хай забирається назад до Європи!"
  },
  "flavor_chi.9.desc": {
-  "en": "An unusual Jesuit has approached the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_character.GetName] dresses like a [ShowCultureGroupName('chinese_group')] person, has adopted many [ShowCultureGroupNameWithNoTooltip('chinese_group')] customs, and talks in a way similar to the [ShowCultureGroupNameWithNoTooltip('chinese_group')] people. A scholar as well as a missionary, [target_character.GetLastNameWithNoTooltip] seems to be as interested in the customs, cartography, and science of the [ShowCultureGroupNameWithNoTooltip('chinese_group')] world as [target_character.GetSheHe] is to inform us of [target_character.GetHerHis] own one. This does mean that [target_character.GetSheHe] has had a lot more success than many of [target_character.GetHerHis] brethren when it comes to attracting converts, but [target_character.GetHerHis] skills, especially relating to astronomy and cartography, could undoubtedly come of use to us.",
-  "uk": "До #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого#! двору [Select_CString(target_character.IsFemale,'прибула незвичайна єзуїтська черниця', 'прибув незвичайний чернець-єзуїт')] на ім'я [target_character.GetName]. [Select_CString(target_character.IsFemale,'Вона', 'Він')] одягається на #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайський#!#! манер, дотримується багатьох китайських звичаїв і навіть говорить, як китаєць. Схоже, що [Select_CString(target_character.IsFemale,'ця вчена', 'цей учений')] і місіонер серйозно цікавиться науками, традиціями та географією нашої держави — і з готовністю розповість нам про свою далеку батьківщину. На відміну від багатьох своїх колег, [target_character.GetLastNameWithNoTooltip] явно [Select_CString(target_character.IsFemale,'досягла успіху', 'досяг успіху')] у справі навернення наших підданих до своєї віри, і це змушує нас непокоїтися — однак [Select_CString(target_character.IsFemale,'її', 'його')] пізнання в астрономії та картографії будуть нам дуже корисні."
+  "en": "An unusual Jesuit has approached the [ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_character.GetName] dresses like a [ShowCultureGroupName('chinese_group')] person, has adopted many [ShowCultureGroupNameWithNoTooltip('chinese_group')] customs, and talks in a way similar to the [ShowCultureGroupNameWithNoTooltip('chinese_group')] people. A scholar as well as a missionary, [target_character.GetLastNameWithNoTooltip] seems to be as interested in the customs, cartography, and science of the [ShowCultureGroupNameWithNoTooltip('chinese_group')] world as he is to inform us of his own one. This does mean that he has had a lot more success than many of his brethren when it comes to attracting converts, but his skills, especially relating to astronomy and cartography, could undoubtedly come of use to us.",
+  "uk": "До двору ([ROOT.GetCountry.GetGovernment.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]) прибув незвичайний єзуїт. [target_character.GetName] вдягається як людина культурної групи [ShowCultureGroupName('chinese_group')], перейняв чимало звичаїв групи [ShowCultureGroupNameWithNoTooltip('chinese_group')] і навіть говорить на їхній манер ([ShowCultureGroupNameWithNoTooltip('chinese_group')]). Учений і місіонер водночас, [target_character.GetLastNameWithNoTooltip], схоже, цікавиться звичаями, картографією та наукою світу [ShowCultureGroupNameWithNoTooltip('chinese_group')] не менше, ніж прагне розповісти нам про свій. Тож він має куди більший успіх у наверненні, ніж багато його братів, але його знання, особливо в астрономії та картографії, безперечно, стануть нам у пригоді."
  },
  "flavor_chi.9.entry": {
   "en": "Matteo Ricci, Jesuit Scholar",
-  "uk": ""
+  "uk": "Маттео Річчі, єзуїт-учений"
  },
  "flavor_chi.9.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -3528,16 +3528,16 @@
   "uk": "Давайте проспонсоруємо автора."
  },
  "flavor_chi.92.b": {
-  "en": "We will allow [target_character.GetNameWithNoTooltip] to write it on [target_character.GetHerHis] own.",
-  "uk": "[target_character.GetNameWithNoTooltip] зможе писати роман на власний розсуд."
+  "en": "We will allow [target_character.GetNameWithNoTooltip] to write it on his own.",
+  "uk": "Дозволимо [target_character.GetNameWithNoTooltip] писати на власний розсуд."
  },
  "flavor_chi.92.b.entry": {
   "en": "We will allow him to write it on his own.",
-  "uk": ""
+  "uk": "Дозволимо йому писати на власний розсуд."
  },
  "flavor_chi.92.desc": {
-  "en": "Due to [target_character2.GetName]'s passion for book collecting, there has been a growing interest within the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] to gather the finest literature and the greatest writers in the [ROOT.GetCountry.GetFlavorRank]. Fortunately, a talented artist named [target_character.GetName] has emerged. Coming from a once-glorious [ROOT.GetCountry.GetAdjectiveWithNoTooltip] family now in decline, [target_character.GetSheHe] has known sorrow, but plans to use these memories as inspiration for [target_character.GetHerHis] new work, titled [ShowWorkOfArtName('hong_lu_meng')]. [target_character.GetSheHe|U] seeks to tell the tale of a wealthy and influential family that eventually falls from grace due to political turmoil. While the novel is sure to bring us fame, the only way to ensure its completion is by supporting its author.",
-  "uk": "[target_character2.GetName] має особливу пристрасть до колекціонування книг, і тому в #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі зростає інтерес до вишуканої літератури та найталановитіших авторів [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. На щастя, нам на очі [Select_CString(target_character.IsFemale, 'потрапила талановита письменниця', 'потрапив талановитий письменник' )] на ім'я [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] походить із колись славної, але нині занепалої [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ої династії. [target_character.GetName] [Select_CString(target_character.IsFemale, 'пізнала', 'пізнав' )] чимало горя, але [Select_CString(target_character.IsFemale, 'вона', 'він' )] хоче закарбувати свої спогади в новій праці під назвою «[ShowWorkOfArtName('hong_lu_meng')]». У ній [Select_CString(target_character.IsFemale, 'вона', 'він' )] розповість історію багатої й впливової родини, яка втратила все в політичному хаосі. Цей роман напевно нас прославить, але щоб він побачив світ, нам доведеться надати авторові підтримку."
+  "en": "Due to [target_character2.GetName]'s passion for book collecting, there has been a growing interest within the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] to gather the finest literature and the greatest writers in the [ROOT.GetCountry.GetFlavorRank]. Fortunately, a talented artist named [target_character.GetName] has emerged. Coming from a once-glorious [ROOT.GetCountry.GetAdjectiveWithNoTooltip] family now in decline, he has known sorrow, but plans to use these memories as inspiration for his new work, titled [ShowWorkOfArtName('hong_lu_meng')]. He seeks to tell the tale of a wealthy and influential family that eventually falls from grace due to political turmoil. While the novel is sure to bring us fame, the only way to ensure its completion is by supporting its author.",
+  "uk": "Завдяки пристрасті [target_character2.GetName] до колекціонування книг при дворі ([ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle]) дедалі більше прагнуть зібрати найкращу літературу й найвидатніших письменників держави ([ROOT.GetCountry.GetFlavorRank]). На щастя, з’явився талановитий митець на ім’я [target_character.GetName]. Він походить із колись славного, а нині занепалого роду ([ROOT.GetCountry.GetAdjectiveWithNoTooltip]), зазнав чимало горя, але хоче перетворити ці спогади на натхнення для нової праці — «[ShowWorkOfArtName('hong_lu_meng')]». Це розповідь про багату й впливову родину, яка врешті втрачає все через політичні негаразди. Роман напевно нас прославить, але завершити його можна, лише підтримавши автора."
  },
  "flavor_chi.92.entry": {
   "en": "$hong_lu_meng$",
@@ -3552,24 +3552,24 @@
   "uk": "[ShowWorkOfArtNameWithNoTooltip('hong_lu_meng')]"
  },
  "flavor_chi.93.a": {
-  "en": "Let us invite [target_character.GetHerHim] to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "[ROOT.GetCountry.GetGovernment.GetCourtTitle] виграє від [Select_CString(target_character.IsFemale,'її', 'його')] присутності."
+  "en": "Let us invite him to our [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Запросімо його до нашого двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle])."
  },
  "flavor_chi.93.a.entry": {
   "en": "Let us invite him to our court.",
-  "uk": ""
+  "uk": "Запросімо його до нашого двору."
  },
  "flavor_chi.93.b": {
   "en": "Ensure that $china$ grows larger instead.",
   "uk": "Давайте краще подбаємо про розширення Китаю."
  },
  "flavor_chi.93.desc": {
-  "en": "Although the golden age of [ROOT.GetCountry.GetAdjective] culture has passed, artists continue to spread the literati painting style. One of the most prominent is [target_character.GetName]. Born during the Sòng dynasty, [target_character.GetSheHe] is a devout follower of [ShowPolicyName('daoism_policy')], opposing our rule, yet [target_character.GetHerHis] artistic talents are said to rival those of the ancient masters with [target_character.GetHerHis] creation of numerous ink wash paintings. To reject such talent would be a shame, though embracing it might limit our [ROOT.GetCountry.GetCulture.GetName] influence over $china$.",
-  "uk": "Хоча золота епоха #L [ROOT.GetCountry.GetAdjective|l]ої#! культури вже минула, художники продовжують розвивати стиль «живопису вчених». [Select_CString(target_character.IsFemale, 'Одна', 'Один' )] з найяскравіших представників #TOOLTIP:POLICY,daoism_policy,X #L даосизму#!#! — [target_character.GetName]. [Select_CString(target_character.IsFemale, 'Вона народилася', 'Він народився' )] за часів імперії Сун і є [Select_CString(target_character.IsFemale, 'суворою послідовницею', 'суворим послідовником' )] #TOOLTIP:POLICY,daoism_policy,X #L даосизму#!#!, ворожого нашим правилам, але [Select_CString(target_character.IsFemale, 'її', 'його' )] майстерність живопису тушшю гідна давніх майстрів. Упускати такий талант було б нерозумно, хоча якщо ми дамо [Select_CString(target_character.IsFemale, 'їй', 'йому' )] свободу творчості, це обмежить вплив нашої #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! культури в #TOOLTIP:SUB_CONTINENT,china,X #L Китаї#!#!."
+  "en": "Although the golden age of [ROOT.GetCountry.GetAdjective] culture has passed, artists continue to spread the literati painting style. One of the most prominent is [target_character.GetName]. Born during the Sòng dynasty, he is a devout follower of [ShowPolicyName('daoism_policy')], opposing our rule, yet his artistic talents are said to rival those of the ancient masters with his creation of numerous ink wash paintings. To reject such talent would be a shame, though embracing it might limit our [ROOT.GetCountry.GetCulture.GetName] influence over $china$.",
+  "uk": "Хоча золота доба культури ([ROOT.GetCountry.GetAdjective]) минула, митці й далі поширюють стиль «живопису вчених». Один із найвідоміших — [target_character.GetName]. Народжений за династії Сун, він палкий прихильник вчення [ShowPolicyName('daoism_policy')] і противник нашої влади, проте його хист, кажуть, не поступається давнім майстрам — він створив безліч картин тушшю. Відкинути такий талант було б шкода, хоча прийняти його означало б обмежити вплив нашої культури ([ROOT.GetCountry.GetCulture.GetName]) на $china$."
  },
  "flavor_chi.93.entry": {
   "en": "$name_huang2.wu_language$ $name_gong1.wu_language$ $name_wang4.wu_language$, Master Painter",
-  "uk": ""
+  "uk": "$name_huang2.wu_language$ $name_gong1.wu_language$ $name_wang4.wu_language$, майстер живопису"
  },
  "flavor_chi.93.historical_info": {
   "en": "$flavor_chi_four_masters_of_yuan_historical_info$",
@@ -3580,28 +3580,28 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.94.a": {
-  "en": "We will allow [target_character.GetHerHim] in the [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
-  "uk": "Ми введемо [Select_CString(target_character.IsFemale, 'її', 'його' )] до двору."
+  "en": "We will allow him in the [ROOT.GetCountry.GetGovernment.GetCourtTitle].",
+  "uk": "Допустимо його до двору ([ROOT.GetCountry.GetGovernment.GetCourtTitle])."
  },
  "flavor_chi.94.a.entry": {
   "en": "We will allow him in the court.",
-  "uk": ""
+  "uk": "Допустимо його до двору."
  },
  "flavor_chi.94.b": {
-  "en": "[target_character.GetSheHe|U] shall live a life away from [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
-  "uk": "[Select_CString(target_character.IsFemale, 'Вона', 'Він' )] залишиться жити далеко від столиці."
+  "en": "He shall live a life away from [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip].",
+  "uk": "Хай живе далеко від [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
  },
  "flavor_chi.94.b.entry": {
   "en": "He shall live a life away from the capital.",
-  "uk": ""
+  "uk": "Хай живе далеко від столиці."
  },
  "flavor_chi.94.desc": {
-  "en": "In an effort to expand the reach of literati painting, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has found [target_character.GetName], a master of landscape art. Though educated in philosophy and martial arts, [target_character.GetSheHe] chose a simpler life as a painter, learning from friends and eventually surpassing them in skill. Now favored within the [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetSheHe] has the opportunity to paint for the most esteemed individuals in all of $china$.",
-  "uk": "У прагненні розширити популярність живопису вчених наші придворні знайшли [Select_CString(target_character.IsFemale, 'талановиту художницю', 'талановитого художника' )] на ім'я [target_character.GetName], майстра пейзажу. Пройшовши навчання філософії та військовій справі, [Select_CString(target_character.IsFemale, 'вона віддала перевагу', 'він віддав перевагу' )] спокійному ремеслу живопису, [Select_CString(target_character.IsFemale, 'перейняла', 'перейняв' )] майстерність друзів і врешті-решт [Select_CString(target_character.IsFemale, 'перевершила', 'перевершив' )] їх. Тепер [target_character.GetName] [Select_CString(target_character.IsFemale, 'представлена', 'представлений' )] двору й може писати для найважливіших панів усього #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!."
+  "en": "In an effort to expand the reach of literati painting, the [ROOT.GetCountry.GetGovernment.GetCourtTitle] has found [target_character.GetName], a master of landscape art. Though educated in philosophy and martial arts, he chose a simpler life as a painter, learning from friends and eventually surpassing them in skill. Now favored within the [ROOT.GetCountry.GetGovernment.GetCourtTitle], he has the opportunity to paint for the most esteemed individuals in all of $china$.",
+  "uk": "Прагнучи поширити живопис вчених, двір ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) відшукав [target_character.GetName], майстра пейзажу. Здобувши освіту у філософії та бойових мистецтвах, він обрав простіше життя художника, учився в друзів і врешті перевершив їх. Тепер, у милості при дворі ([ROOT.GetCountry.GetGovernment.GetCourtTitle]), він може писати для найшановніших осіб усього краю $china$."
  },
  "flavor_chi.94.entry": {
   "en": "$name_wu.mandarin_language$ $name_zhen4.mandarin_language$, Landscape Painter",
-  "uk": ""
+  "uk": "$name_wu.mandarin_language$ $name_zhen4.mandarin_language$, пейзажист"
  },
  "flavor_chi.94.historical_info": {
   "en": "$flavor_chi_four_masters_of_yuan_historical_info$",
@@ -3612,16 +3612,16 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.95.a": {
-  "en": "Let us allow [target_character.GetNameWithNoTooltip] to distribute [target_character.GetHerHis] art.",
-  "uk": "Нехай [target_character.GetNameWithNoTooltip] пише й поширює свої картини."
+  "en": "Let us allow [target_character.GetNameWithNoTooltip] to distribute his art.",
+  "uk": "Дозволимо [target_character.GetNameWithNoTooltip] поширювати свої картини."
  },
  "flavor_chi.95.a.entry": {
   "en": "Let us allow him to distribute his art.",
-  "uk": ""
+  "uk": "Дозволимо йому поширювати свої картини."
  },
  "flavor_chi.95.b": {
-  "en": "[target_character.GetSheHe|U] shall not follow the ways of the past.",
-  "uk": "Ми не дозволимо [Select_CString(target_character.IsFemale, 'їй', 'йому' )] творити, як раніше."
+  "en": "He shall not follow the ways of the past.",
+  "uk": "Він не йтиме шляхами минулого."
  },
  "flavor_chi.95.desc": {
   "en": "Though the former dynasties of $china$ have fallen and we now dominate the region, their cultural legacy lives on in language, art, and values across every village and city. After our successful conquest of the Sòng dynasty, many traditionalist artists remained. One such artist is [target_character.GetName], who now travels across southern $china$ in search of inspiration. We must decide whether to let such artists flourish within our [ROOT.GetCountry.GetFlavorRank] or reinforce our [ROOT.GetCountry.GetCulture.GetName] values.",
@@ -3629,7 +3629,7 @@
  },
  "flavor_chi.95.entry": {
   "en": "$name_ni.wu_language$ $name_zan$, Traditionalist Artist",
-  "uk": ""
+  "uk": "$name_ni.wu_language$ $name_zan$, митець-традиціоналіст"
  },
  "flavor_chi.95.historical_info": {
   "en": "$flavor_chi_four_masters_of_yuan_historical_info$",
@@ -3640,24 +3640,24 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.96.a": {
-  "en": "Let us comply to [target_character.GetHerHis] demands.",
-  "uk": "Давайте поступимося [Select_CString(target_character.IsFemale, 'її', 'його' )] вимогам."
+  "en": "Let us comply to his demands.",
+  "uk": "Поступимося його вимогам."
  },
  "flavor_chi.96.b": {
-  "en": "If [target_character.GetSheHe] wants to ruin our [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] heritage, [target_character.GetSheHe] will have to do it alone.",
-  "uk": "Якщо [Select_CString(target_character.IsFemale, 'вона', 'він' )] хоче зруйнувати нашу спадщину, ми [Select_CString(target_character.IsFemale, 'їй', 'йому' )] допомагати не станемо."
+  "en": "If he wants to ruin our [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] heritage, he will have to do it alone.",
+  "uk": "Якщо він хоче зруйнувати нашу спадщину ([ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]), хай робить це сам."
  },
  "flavor_chi.96.b.entry": {
   "en": "If he wants to ruin our heritage, he will have to do it alone.",
-  "uk": ""
+  "uk": "Якщо він хоче зруйнувати нашу спадщину, хай робить це сам."
  },
  "flavor_chi.96.desc": {
-  "en": "Despite the recent collapse of the Sòng dynasty, its cultural legacy persists in $china$. Among its remnants is [target_character.GetName], an accomplished literati-style painter. Already the creator of several masterpieces, [target_character.GetSheHe] continues to uphold local traditions, diverging from our [ROOT.GetCountry.GetCulture.GetName] ways. We can choose to slowly adopt the customs of the people, pleasing [target_character.GetNameWithNoTooltip] and securing [target_character.GetHerHis] loyalty, or we can remain steadfast in our traditions.",
-  "uk": "Попри нещодавнє падіння імперії Сун, її культурна спадщина в #TOOLTIP:SUB_CONTINENT,china,X #L Китаї#!#! зберігається. Одним із носіїв старої культури є [target_character.GetName], [Select_CString(target_character.IsFemale, 'відома художниця', 'відомий художник' )] у стилі живопису вчених. Автор цілої низки шедеврів, [Select_CString(target_character.IsFemale, 'вона', 'він' )] продовжує зберігати місцеві традиції, відмінні від нашої #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! культури. Ми можемо почати поступово переймати місцеві звичаї — [target_character.GetNameWithNoTooltip] буде цьому [Select_CString(target_character.IsFemale, 'рада', 'радий' )] і напевно запропонує нам свої послуги. Або ж ми можемо зберегти вірність своїм традиціям."
+  "en": "Despite the recent collapse of the Sòng dynasty, its cultural legacy persists in $china$. Among its remnants is [target_character.GetName], an accomplished literati-style painter. Already the creator of several masterpieces, he continues to uphold local traditions, diverging from our [ROOT.GetCountry.GetCulture.GetName] ways. We can choose to slowly adopt the customs of the people, pleasing [target_character.GetNameWithNoTooltip] and securing his loyalty, or we can remain steadfast in our traditions.",
+  "uk": "Попри нещодавнє падіння династії Сун, її культурна спадщина живе в краї $china$. Серед її останніх носіїв — [target_character.GetName], визнаний майстер живопису вчених. Автор уже кількох шедеврів, він і далі береже місцеві традиції, відмінні від наших звичаїв ([ROOT.GetCountry.GetCulture.GetName]). Ми можемо поступово переймати звичаї народу, догодивши [target_character.GetNameWithNoTooltip] і здобувши його вірність, або ж лишитися непохитними у своїх традиціях."
  },
  "flavor_chi.96.entry": {
   "en": "$name_wang.wu_language$ $name_meng2.wu_language$, Literati Painter",
-  "uk": ""
+  "uk": "$name_wang.wu_language$ $name_meng2.wu_language$, майстер живопису вчених"
  },
  "flavor_chi.96.historical_info": {
   "en": "$flavor_chi_four_masters_of_yuan_historical_info$",
@@ -3673,7 +3673,7 @@
  },
  "flavor_chi.97.a.entry": {
   "en": "These artists are better off in our court.",
-  "uk": ""
+  "uk": "Цим митцям краще бути при нашому дворі."
  },
  "flavor_chi.97.b": {
   "en": "They can have their own group.",
@@ -3685,7 +3685,7 @@
  },
  "flavor_chi.97.entry": {
   "en": "Birth of the $wu_culture$ School",
-  "uk": ""
+  "uk": "Народження школи $wu_culture$"
  },
  "flavor_chi.97.historical_info": {
   "en": "$flavor_chi_masters_of_the_ming_historical_info$",
@@ -3701,19 +3701,19 @@
  },
  "flavor_chi.98.a.entry": {
   "en": "Let us bring him to our court.",
-  "uk": ""
+  "uk": "Запросімо його до нашого двору."
  },
  "flavor_chi.98.b": {
-  "en": "[target_character.GetSheHe|U] will not have our support.",
-  "uk": "[Select_CString(target_character.IsFemale, 'Вона', 'Він' )] нашої підтримки не отримає."
+  "en": "He will not have our support.",
+  "uk": "Він не матиме нашої підтримки."
  },
  "flavor_chi.98.desc": {
-  "en": "As the [ShowCultureName('wu_culture')] school gains popularity in [ROOT.GetCountry.GetName], a new wave of artists has emerged. Among them is [target_character.GetName], a distant relative of the statesman Wén Tiānxiáng, who resisted [GetCharacter('kublai_khan').GetName]'s influence. Though [target_character.GetHerHis|U] family served in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] military, [target_character.GetSheHe] now aspires to inspire fellow amateur artists through the style of [target_character.GetHerHis] school.",
-  "uk": "Зі зростанням популярності школи У в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! з'явилася нова хвиля художників. Серед них є [Select_CString(target_character.IsFemale, 'якась', 'якийсь' )] [target_character.GetName], [Select_CString(target_character.IsFemale, 'далека родичка', 'далекий родич' )] чиновника Вень Тяньсяна, який обороняв державу від монгольських завойовників, якими керував [GetCharacter('kublai_khan').GetName]. Попри славну історію свого роду на службі в [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ому війську, [Select_CString(target_character.IsFemale, 'сама', 'сам' )] [target_character.GetNameWithNoTooltip] воліє творити пліч-о-пліч з іншими учнями-живописцями своєї школи."
+  "en": "As the [ShowCultureName('wu_culture')] school gains popularity in [ROOT.GetCountry.GetName], a new wave of artists has emerged. Among them is [target_character.GetName], a distant relative of the statesman Wén Tiānxiáng, who resisted [GetCharacter('kublai_khan').GetName]'s influence. Though His family served in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] military, he now aspires to inspire fellow amateur artists through the style of his school.",
+  "uk": "Зі зростанням популярності школи [ShowCultureName('wu_culture')] у [ROOT.GetCountry.GetName] з’явилася нова хвиля митців. Серед них — [target_character.GetName], далекий родич державного діяча Вень Тяньсяна, що опирався владі [GetCharacter('kublai_khan').GetName]. Хоча його рід служив у війську ([ROOT.GetCountry.GetAdjectiveWithNoTooltip]), сам він прагне надихати інших митців-аматорів стилем своєї школи."
  },
  "flavor_chi.98.entry": {
   "en": "$name_wen.wu_language$ $name_zheng1.wu_language$ $name_ming.wu_language$, $wu_culture$ School Painter",
-  "uk": ""
+  "uk": "$name_wen.wu_language$ $name_zheng1.wu_language$ $name_ming.wu_language$, художник школи $wu_culture$"
  },
  "flavor_chi.98.historical_info": {
   "en": "$flavor_chi_masters_of_the_ming_historical_info$",
@@ -3724,12 +3724,12 @@
   "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_chi.99.a": {
-  "en": "We will allow the influence of the [ShowCultureNameWithNoTooltip('wu_culture')] school to reach our [ROOT.GetCountry.GetNameWithNoTooltip].",
-  "uk": "Ми дозволимо впливу школи У досягти земель [ROOT.GetCountry.Custom('CL_GEN')|l]."
+  "en": "We will allow the influence of the [ShowCultureNameWithNoTooltip('wu_culture')] school to reach [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "Дозволимо впливу школи [ShowCultureNameWithNoTooltip('wu_culture')] сягнути [ROOT.GetCountry.GetNameWithNoTooltip]."
  },
  "flavor_chi.99.a.entry": {
   "en": "We will allow the influence of the [ShowCultureNameWithNoTooltip('wu_culture')] school to reach us.",
-  "uk": ""
+  "uk": "Дозволимо впливу школи [ShowCultureNameWithNoTooltip('wu_culture')] сягнути й нас."
  },
  "flavor_chi.99.b": {
   "en": "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] will not be influenced by the ways of [ShowLocationNameWithNoTooltip('wuxian')].",
@@ -3737,15 +3737,15 @@
  },
  "flavor_chi.99.b.entry": {
   "en": "The court will not be influenced by the ways of [ShowLocationNameWithNoTooltip('wuxian')].",
-  "uk": ""
+  "uk": "Двір не піддасться звичаям [ShowLocationNameWithNoTooltip('wuxian')]."
  },
  "flavor_chi.99.desc": {
-  "en": "The growing influence of the [ShowCultureName('wu_culture')] school has drawn many [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] into its orbit. One such member is [target_character.GetName], a once-impoverished artist who now enjoys the patronage of elites thanks to [target_character.GetHerHis] remarkable talent. Having profited greatly from [target_character.GetHerHis] work, [target_character.GetSheHe] now confidently pursues a distinctive style. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] seeks to employ [target_character.GetHerHim], showcasing [target_character.GetHerHis] uniqueness to the world.",
-  "uk": "Зі зростанням впливу школи У до неї почали активно долучатися [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')].[Select_CString(target_character.IsFemale, 'Одна', 'Один' )] з її нових учасників, [target_character.GetName], колись [Select_CString(target_character.IsFemale, 'була бідною художницею', 'був бідним художником' )], але тепер завдяки своєму таланту [Select_CString(target_character.IsFemale, 'вона', 'він' )] користується покровительством впливових еліт. Отримавши за свої роботи пристойний статок, [target_character.GetNameWithNoTooltip] впевнено розвиває свій власний впізнаваний стиль. [ROOT.GetCountry.GetGovernment.GetCourtTitle] бажає прийняти [Select_CString(target_character.IsFemale, 'її', 'його' )] на службу і відкрити [Select_CString(target_character.IsFemale, 'її', 'його' )] унікальний талант світові."
+  "en": "The growing influence of the [ShowCultureName('wu_culture')] school has drawn many [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] into its orbit. One such member is [target_character.GetName], a once-impoverished artist who now enjoys the patronage of elites thanks to his remarkable talent. Having profited greatly from his work, he now confidently pursues a distinctive style. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] seeks to employ him, showcasing his uniqueness to the world.",
+  "uk": "Зростаючий вплив школи [ShowCultureName('wu_culture')] притягнув до неї чимало представників стану [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]. Один із них — [target_character.GetName], колись бідний митець, який завдяки неабиякому хисту тепер тішиться заступництвом еліти. Добре заробивши на своїх творах, він упевнено розвиває власний стиль. Двір ([ROOT.GetCountry.GetGovernment.GetCourtTitle]) прагне взяти його на службу й показати його неповторність світові."
  },
  "flavor_chi.99.entry": {
   "en": "$name_tang.wu_language$ $name_yin21.wu_language$, $wu_culture$ School Artist",
-  "uk": ""
+  "uk": "$name_tang.wu_language$ $name_yin21.wu_language$, митець школи $wu_culture$"
  },
  "flavor_chi.99.historical_info": {
   "en": "$flavor_chi_masters_of_the_ming_historical_info$",
@@ -3777,7 +3777,7 @@
  },
  "flavor_chi_pap.1.entry": {
   "en": "Delegation from Rome",
-  "uk": ""
+  "uk": "Посольство з Рима"
  },
  "flavor_chi_pap.1.title": {
   "en": "Delegation from [target_country.GetNameWithNoTooltip]",
@@ -3892,8 +3892,8 @@
   "uk": "Погіршено ефекти [Concept('country_modifiers', 'модифікаторів держави')|e] до і під час #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#! на $VALUE|R2%$ (поточне значення модифікатора: #Y [COUNTRY.MakeScope.GetVariable('chi_rtr_modifier_intensity').GetValue|2%]#!)"
  },
  "repair_grand_canal_china_tt": {
-  "en": "The Grand Canal will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')].",
-  "uk": "Великий канал буде відновлено. Ефект «[ShowModifier('chi_grand_canal_destruction')]» зміниться на «[ShowModifier('chi_grand_canal')]»."
+  "en": "The [ShowScriptedGeographyName('chinese_canal_geography')] will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')]",
+  "uk": "[ShowScriptedGeographyName('chinese_canal_geography')] буде відновлено, і його ефект зміниться з «[ShowModifier('chi_grand_canal_destruction')]» на «[ShowModifier('chi_grand_canal')]»"
  },
  "rtr_sped_up_red_turban_rebellions": {
   "en": "Arrested Leader of the Red Turbans via an [event|e]",
@@ -3945,15 +3945,15 @@
  },
  "variable_enabled_treasure_voyages_tt": {
   "en": "The Treasure Voyages have been Authorized",
-  "uk": ""
+  "uk": "Експедиції золотого флоту дозволено"
  },
  "variable_li_zicheng_rebellion_var_tt": {
   "en": "Lǐ Zìchéng's Rebellion Rages",
-  "uk": ""
+  "uk": "Вирує заколот Лі Цзичена"
  },
  "variable_mng_accepted_jesuits_tt": {
   "en": "The Jesuits have been Accepted at Court",
-  "uk": ""
+  "uk": "Єзуїтів прийнято при дворі"
  },
  "white_lotus_rebellion": {
   "en": "White Lotus Rebellion",

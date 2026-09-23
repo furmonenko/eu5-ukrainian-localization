@@ -120,8 +120,8 @@
   "uk": "Створення розвиненої інфраструктури в нашій столиці має величезне значення для її процвітання."
  },
  "discount_on_parliament_action_tt": {
-  "en": "The [ShowGenericActionName('prepare_for_war')] [parliament|e] request of the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] will be cheaper for the duration of this [mission_task|e]",
-  "uk": "[Concept('parliament','Парламентський')|e] запит «[ShowGenericActionName('prepare_for_war')]» від [ROOT.GetCountry.Custom('parliament_ru_GEN')|l] буде менш витратним на час цього [Concept('mission_task','етапу завдання')|e]"
+  "en": "The [ShowGenericActionName('prepare_for_war')] [parliament_request|e] of the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] will be cheaper for the duration of this [mission_task|e]",
+  "uk": "[Concept('parliament_request','Парламентський запит')|e] «[ShowGenericActionName('prepare_for_war')]» від [ROOT.GetCountry.GetGovernment.GetParliament.GetName] буде дешевшим на час цього [Concept('mission_task','етапу місії')|e]"
  },
  "entrepot_task_reward_tt": {
   "en": "One of our best [urban_locations|e] with the [ShowBuildingTypeName('entrepot')] [building|e] will gain the [ShowModifier('influx_of_merchants_modifier')] [modifier|e] for #Y 5#! years",
@@ -360,8 +360,8 @@
   "uk": "У рамках [Concept('event','події')|e] на них буде впливати [Concept('modifier','модифікатор')|e] «[ShowModifier('foreign_destabilization_efforts_modifier')]»"
  },
  "increase_estate_satisfaction_tip": {
-  "en": "You have a few options to increase [estate_satisfaction_with_icon|e]:\\n$TAB$@arrow_bonus_tier_1! Grant a new [privilege_with_icon|e].\\n$TAB$@arrow_bonus_tier_1! [ShowGenericActionName('bribe_estate')].\\n$TAB$@arrow_bonus_tier_1! Lower [taxes_with_icon|e] from [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Budget')].\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')].",
-  "uk": "Існує кілька способів підвищити [Concept('estate_satisfaction', '@estate_satisfaction! задоволеність стану')|e]:\\n$TAB$@arrow_bonus_tier_1! Надання нового [Concept('privilege', '@privilege! привілею')|e].\\n$TAB$@arrow_bonus_tier_1! #TOOLTIP:GENERIC_ACTION,bribe_estate,X #L Підкуп стану#!#!.\\n$TAB$@arrow_bonus_tier_1! Зниження [Concept('taxes', '@taxes! податків')|e], для цього перейдіть у [Link('economy', '', '@economy_panel!Панель економіки > Бюджет')].\\n\\n #italic Докладніше про це Ви можете прочитати в пораді [Link('hints', 'selected_hint = hint_estates', '@hint! Стани')]."
+  "en": "You have a few options to increase [estate_satisfaction_with_icon|e]:\\n$TAB$@arrow_bonus_tier_1! Grant a new [privilege_with_icon|e].\\n$TAB$@arrow_bonus_tier_1! [ShowGenericActionName('bribe_estate')].\\n$TAB$@arrow_bonus_tier_1! Lower [taxes_with_icon|e] from [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Balance')].\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')].",
+  "uk": "Існує кілька способів підвищити [Concept('estate_satisfaction_with_icon','задоволення стану')|e]:\\n$TAB$@arrow_bonus_tier_1! Надати новий [Concept('privilege_with_icon','привілей')|e].\\n$TAB$@arrow_bonus_tier_1! [ShowGenericActionName('bribe_estate')].\\n$TAB$@arrow_bonus_tier_1! Знизити [Concept('taxes_with_icon','податки')|e] у [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Баланс')].\\n\\n #italic Докладніше про це Ви можете прочитати в пораді [Link('hints', 'selected_hint = hint_estates', '@hint! Стани')]."
  },
  "justify_religious_war": {
   "en": "Justify Religious War",
@@ -589,7 +589,7 @@
  },
  "mission_capital_influence_desc": {
   "en": "The growing presence and influence of members of the [estate|e] in our capital will lead to more tranquility and coordination.",
-  "uk": ""
+  "uk": "Дедалі більша присутність і вплив представників стану «[estate|e]» у нашій столиці принесуть більше спокою та злагодженості."
  },
  "mission_capital_influence_tip": {
   "en": "@arrow_bonus_tier_3! Go to your [capital_with_icon|e], @location![Player.GetCapital.GetName], to see its [buildings_with_icon|e].\\n\\n@arrow_bonus_tier_2! Make sure most of its [buildings] are fully [employed|e].\\n\\n@arrow_bonus_tier_1! You can increase [stability_with_icon|e] to help with [ShowModifierTypeName('local_pop_promotion_speed')].\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_lack_pop_promotion_to_fill_buildings', '@hint! Estates Hint')].",
@@ -861,7 +861,7 @@
  },
  "mission_estate_privileges_desc": {
   "en": "In order to secure the cooperation of the [estate|e], we must grant them some offices and privileges.",
-  "uk": ""
+  "uk": "Щоб заручитися співпрацею стану «[estate|e]», ми мусимо надати йому певні посади й привілеї."
  },
  "mission_estate_privileges_tip": {
   "en": "@arrow_bonus_tier_3! Go to [Link('government', 'tabcontent = estates', '@government_panel! Government Panel > Estates')] to see your [estates_with_icon|e].\\n\\n@arrow_bonus_tier_2! Grant a new [privilege_with_icon|e] to the chosen [estate] by clicking on the #V Plus Button#!.\\n\\n@arrow_bonus_tier_1! Choose a [privilege] that increases [estate_satisfaction_with_icon|e].\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')].",
@@ -873,7 +873,7 @@
  },
  "mission_estate_satisfaction_desc": {
   "en": "It is of vital interest to our internal affairs to work towards gaining the favor of influential [estate|e] for our future endeavors.",
-  "uk": ""
+  "uk": "Для наших внутрішніх справ життєво важливо здобути прихильність впливового стану «[estate|e]» заради наших майбутніх задумів."
  },
  "mission_estate_satisfaction_tip": {
   "en": "@arrow_bonus_tier_3! Go to [Link('government', 'tabcontent = estates', '@government_panel! Government Panel > Estates')] to see your [estates_with_icon|e].\\n\\n@arrow_bonus_tier_2! $increase_estate_satisfaction_tip$",
@@ -977,7 +977,7 @@
  },
  "mission_fund_construction_projects_desc": {
   "en": "To showcase our willingness towards cooperation with [estate|e], we will encourage our engineers to fund construction projects to boost development and improve the estate's facilities.",
-  "uk": ""
+  "uk": "Щоб показати нашу готовність співпрацювати зі станом «[estate|e]», ми заохотимо наших інженерів фінансувати будівельні роботи, які посприяють розвитку й поліпшать споруди цього стану."
  },
  "mission_fund_construction_projects_tip": {
   "en": "@arrow_bonus_tier_3! Go to your [capital_with_icon|e], @location![Player.GetCapital.GetName].\\n\\n@arrow_bonus_tier_2! Click on the appropriate [pop_type_with_icon|e] button to the left of the Panel to see the [buildings_with_icon|e] you can build for that [pop_type|e].\\n\\n@arrow_bonus_tier_1! Start the [construction_with_icon|e] of the requested [building].",
@@ -1225,7 +1225,7 @@
  },
  "mission_marketplace_of_capital": {
   "en": "The [ShowBuildingTypeNameWithNoTooltip('marketplace')] of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "[ShowBuildingTypeNameWithNoTooltip('marketplace')] міста [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
  },
  "mission_marketplace_of_capital_desc": {
   "en": "Our capital can be second to none! If we wish to attain wealth through trade, we must convert it into a glorious and vibrant hub for trade from every corner of the Earth!",
@@ -1476,8 +1476,8 @@
   "uk": "Виберіть [Concept('estate','стан')|e]"
  },
  "mission_select_goods": {
-  "en": "Select a [goods|e] for the [mission]",
-  "uk": "Виберіть [Concept('goods','товари')|e] для цього [Concept('mission', 'завдання')]"
+  "en": "Select a [good|e] for the [mission]",
+  "uk": "[Concept('mission', 'Завдання')]: виберіть [Concept('good','товар')|e]"
  },
  "mission_select_market": {
   "en": "Select a [market|e] for the [mission|e]",
@@ -1509,7 +1509,7 @@
  },
  "mission_shape_society_desc": {
   "en": "The currents of change sweep across the halls of power within our domain. If we are to elevate and cultivate a strong bond between our court and the [estate|e] then we must shape our society accordingly.",
-  "uk": ""
+  "uk": "Вітри змін проносяться залами влади в наших володіннях. Якщо ми прагнемо зміцнити й плекати міцний зв’язок між нашим двором і станом «[estate|e]», то мусимо відповідно перебудувати наше суспільство."
  },
  "mission_shape_society_tip": {
   "en": "@arrow_bonus_tier_3! Go to [Link('societal_values', '', '@government_panel! Government Panel > Values')] to check your [societal_values_with_icon|e].\\n\\n@arrow_bonus_tier_2! Go to [Link('government', 'tabcontent = cabinet', '@government_panel! Government Panel > Cabinet')] to see your [cabinet_with_icon|e].\\n\\n@arrow_bonus_tier_1! Assign a [cabinet_member_with_icon|e] to the [ShowCabinetActionName('change_societal_values')] [cabinet_action|e].\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_has_possible_cabinet_action', '@hint! $hint_has_possible_cabinet_action$')] and [Link('hints', 'selected_hint = hint_has_possible_cabinet_action', '@hint! $hint_lack_cabinet_for_cabinet_action$')] Hints.",
@@ -1521,7 +1521,7 @@
  },
  "mission_shared_enrichment_desc": {
   "en": "Proper taxation, ledgers and the ensured enrichment of the [estate|e] will settle a great standard for taxation across our realm.",
-  "uk": ""
+  "uk": "Справедливе оподаткування, ретельні рахункові книги та певний добробут стану «[estate|e]» стануть чудовим взірцем оподаткування для всього нашого царства."
  },
  "mission_shared_enrichment_tip": {
   "en": "@arrow_bonus_tier_3! Go to [Link('government', 'tabcontent = estates', '@government_panel! Government Panel > Estates')] to see your [estates_with_icon|e].\\n\\n@arrow_bonus_tier_2! [ShowGenericActionName('bribe_estate')] by clicking on the #V Bribe Button#!.\\n\\n@arrow_bonus_tier_1! You can also lower [taxes_with_icon|e] to the [estate] from [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Budget')] and wait for them to amass wealth.\\n\\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')].",
@@ -1600,8 +1600,8 @@
   "uk": "$no_valid_town_or_city$"
  },
  "mission_task_select_goods": {
-  "en": "Select a [goods|e] for the [task]",
-  "uk": "Виберіть [Concept('goods','товари')|e] для цього [Concept('task', 'етапу')]"
+  "en": "Select a [good|e] for the [task]",
+  "uk": "[Concept('task', 'Етап')]: виберіть [Concept('good','товар')|e]"
  },
  "mission_task_select_market": {
   "en": "Select a [market|e] for the [task|e]",
@@ -1864,8 +1864,8 @@
   "uk": "Обраний [Concept('rural_location','сільський район')|e] буде [Concept('proximity','близько')|e] до нашої [Concept('capital','столиці')|e], а його [Concept('population_capacity','межа населення')|e] буде менше #Y 90%#!."
  },
  "should_complete_stronger_than_rival_tt": {
-  "en": "Completing this [task|e] with higher [relative_strength|e] compared to [target_rival.GetName] grants #G 20#! [prestige|e].",
-  "uk": "Виконання цього [Concept('task', 'етапу')|e] з вищим значенням [Concept('relative_strength', 'відносної сили')|e], ніж у Вашого суперника, держави [target_rival.GetName], принесе #G 20#! од. [Concept('prestige', 'престижу')|e]."
+  "en": "Completing this [task|e] with higher [military_strength|e] compared to [target_rival.GetName] grants #G 20#! [prestige|e].",
+  "uk": "Виконання цього [Concept('task','етапу')|e] з вищою [Concept('military_strength','військовою силою')|e], ніж у держави [target_rival.GetName], принесе #G 20#! од. [Concept('prestige','престижу')|e]."
  },
  "should_we_have_non_rural_fund_construction_projects_tt": {
   "en": "If we complete this [mission_task|e] with at least #G 1#! [urban_location|e], the most developed one will gain a [development|e] bonus.",

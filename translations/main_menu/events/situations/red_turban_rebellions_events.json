@@ -80,8 +80,8 @@
   "uk": "Після того, як [che_youliang_chen.GetName] зрадив лідера повстанців на ім'я [GetCharacter('ctw_shouhui_xu').GetName], влада #ONCLICK:COUNTRY,[GetCountry('CHE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHE').Custom('CL_tt')],X [GetCountry('CHE').Custom('CL_RP')|L]#!#! стала помітною регіональною силою і головною загрозою для #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!. Однак не всі схилили коліна перед новоспеченим імператором.\\n\\n[target_character.GetName] відмовляється вважати, що [GetCountry('CHE').GetLongNameWithNoTooltip] — могутній лідер для всіх, хто підтримує #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#!. [Select_CString(target_character.IsFemale,'Вона', 'Він')] оголошує про створення #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючої держави #!#! під назвою [target_country.GetName] в [target_location.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [target_location.GetName], вступивши в конфлікт проти [GetCountry('CHE').Custom('CL_RP')] та [GetCountry('CHI').Custom('CL_RP')].\\n\\nПроте головними ворогами бунтівників залишаються [GetCountry('CHI').GetName] та #L [GetCountry('CHI').GetCulture.GetName|l]а#! влада."
  },
  "red_turban_rebellions.10.desc.fallback": {
-  "en": "Following the treachery of [che_youliang_chen.GetName] against [GetCharacter('ctw_shouhui_xu').GetName], [GetCountry('CHE').GetNameWithNoTooltip] became a regional power and a major threat to [GetCountry('CHI').GetName]. Yet, their might could not protect them from the wrath of [GetCountry('CHI').GetName].\\n\\n[target_character.GetName], witnessing the brutality of the [GetCountry('CHI').GetCulture.GetName] warriors, has gathered [target_character.GetHerHis] own loyalists who shall declare their [ShowGovernmentReformName('warring_state')] of [target_country.GetName], rebelling against their former overlord..",
-  "uk": "Після того, як [che_youliang_chen.GetName] зрадив лідера повстанців на ім'я [GetCharacter('ctw_shouhui_xu').GetName], держава [GetCountry('CHE').GetNameWithNoTooltip] стала помітною регіональною силою і головною загрозою [GetCountry('CHI').Custom('CL_DP')]. Але це не врятувало її від гніву #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#!.\\n\\nНадивившись на жорстокість #L [GetCountry('CHI').GetCulture.GetName|l]их#! воїнів, [target_character.GetName] збирає своїх прихильників. Незабаром їхня #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#! [target_country.GetName] стане справжньою загрозою для їхнього колишнього сюзерена…"
+  "en": "Following the treachery of [che_youliang_chen.GetName] against [GetCharacter('ctw_shouhui_xu').GetName], [GetCountry('CHE').GetNameWithNoTooltip] became a regional power and a major threat to [GetCountry('CHI').GetName]. Yet, their might could not protect them from the wrath of [GetCountry('CHI').GetName].\\n\\n[target_character.GetName], witnessing the brutality of the [GetCountry('CHI').GetCulture.GetName] warriors, has gathered [target_character.GetHerHis] own loyalists who shall declare their [ShowGovernmentReformName('warring_state')] of [target_country.GetName], rebelling against their former overlord.",
+  "uk": "Після того, як [che_youliang_chen.GetName] зрадив лідера повстанців на ім’я [GetCharacter('ctw_shouhui_xu').GetName], держава [GetCountry('CHE').GetNameWithNoTooltip] стала регіональною силою і головною загрозою для держави [GetCountry('CHI').GetName]. Але вся її міць не врятувала її від гніву держави [GetCountry('CHI').GetName].\\n\\nНадивившись на жорстокість воїнів культури [GetCountry('CHI').GetCulture.GetName], [target_character.GetName] скликає [target_character.GetHerHis] прихильників, які проголосять #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воюючу державу#!#! [target_country.GetName] і повстануть проти колишнього сюзерена."
  },
  "red_turban_rebellions.100.a": {
   "en": "Long live the new [target_character.Custom('GetEmpressEmperor')]!",
@@ -108,8 +108,8 @@
   "uk": "#R Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! може порахувати, що ми оголосили їм війну за [ShowCasusBelliName('cb_independence_war')|l]!#!"
  },
  "red_turban_rebellions.1000.b": {
-  "en": "Now is not a good time for such risks.",
-  "uk": "Зараз не слід так ризикувати."
+  "en": "@[GetCountry('CHI').GetFlag]! Now is not a good time for such risks.",
+  "uk": "@[GetCountry('CHI').GetFlag]! Зараз не слід так ризикувати."
  },
  "red_turban_rebellions.1000.desc": {
   "en": "Due to the [ShowSituationName('red_turban_rebellions')] within [target_country.GetName], their influence over us is barely present nowadays. We can utilize their moment of great weakness, and declare independence from this servitude to their imbecile rule.",
@@ -232,16 +232,16 @@
   "uk": "Ми перегорнемо сторінку історії!"
  },
  "red_turban_rebellions.19.a.tt": {
-  "en": "[target_country.GetName] is a [ShowGovernmentReformName('warring_state')] and part of the [ShowSituationName('red_turban_rebellions')]. While we might start as rebels against [GetCountry('CHI').GetName], our diplomatic stance towards the [GetInternationalOrganizationType('red_turban_rebels').GetName] is depicted by our #Y $rtr_yuan_allegiance$#! (currently: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!). If the [situation|e] ends with a [GetCountry('CHI').GetAdjectiveWithNoTooltip] victory while we have more than 50 $rtr_yuan_allegiance$, we will get #R annexed#! by [GetCountry('CHI').GetNameWithNoTooltip]!",
-  "uk": "[target_country.GetName] — це #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#!, що приєдналася до #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#!. Формально ми належимо до числа противників [GetCountry('CHI').Custom('CL_GEN')|L]. При цьому наша дипломатична позиція щодо повстанців залежить від показника #Y відданості династії Юань#! (зараз: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!). Якщо [Concept('situation', 'ситуація')|e] закінчиться [GetCountry('CHI').GetAdjectiveWithNoTooltip|l]ою перемогою, а наш показник вірності становитиме понад 50 од., то [GetCountry('CHI').GetNameWithNoTooltip] #R приєдна[GetCountry('CHI').Custom('end_ityat')]#! наші території!"
+  "en": "[target_country.GetName] is a [ShowGovernmentReformName('warring_state')] and part of the [ShowSituationName('red_turban_rebellions')]. We stand in open rebellion against [GetCountry('CHI').GetName] as part of the [GetInternationalOrganizationType('red_turban_rebels').GetName], our #Y $rtr_yuan_allegiance$#! (currently: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!) governing our standing among the factions. Should the [situation|e] end in a [GetCountry('CHI').GetAdjectiveWithNoTooltip] victory while we hold more than #Y 50#! $rtr_yuan_allegiance$, we will be #R annexed#! by [GetCountry('CHI').GetNameWithNoTooltip]. The [situation|e] ends when the [GetInternationalOrganizationType('red_turban_rebels').GetName] seizes #R 65%#! of $china$ and its leader proclaims a new dynasty, or when [GetCountry('CHI').GetName] restores #Y 90#! [legitimacy|e], #Y 30#! [stability|e], and #Y 50#! Celestial Authority.",
+  "uk": "[target_country.GetName] — це [ShowGovernmentReformName('warring_state')], що бере участь у ситуації [ShowSituationName('red_turban_rebellions')]. Ми відкрито повстали проти держави [GetCountry('CHI').GetName] у складі організації [GetInternationalOrganizationType('red_turban_rebels').GetName], а наша позиція серед фракцій залежить від показника #Y $rtr_yuan_allegiance$#! (зараз: #Y [target_country.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!). Якщо [Concept('situation','ситуація')|e] закінчиться перемогою сторони [GetCountry('CHI').GetAdjectiveWithNoTooltip], а наш показник «$rtr_yuan_allegiance$» перевищуватиме #Y 50#!, то [GetCountry('CHI').GetNameWithNoTooltip] нас #R приєднає#!. [Concept('situation','Ситуація')|e] закінчується, коли [GetInternationalOrganizationType('red_turban_rebels').GetName] захопить #R 65%#! території $china$ і її лідер проголосить нову династію, або коли [GetCountry('CHI').GetName] відновить #Y 90#! [Concept('legitimacy','легітимності')|e], #Y 30#! [Concept('stability','стабільності')|e] і #Y 50#! Небесного авторитету."
  },
  "red_turban_rebellions.19.b": {
   "en": "Let us bide our time for now.",
-  "uk": ""
+  "uk": "Поки що перечекаймо."
  },
  "red_turban_rebellions.19.b.tt": {
   "en": "Our #Y $rtr_yuan_allegiance$#! is reset to #Y 0#!. We do not fully commit to the [GetInternationalOrganizationType('red_turban_rebels').GetName]'s cause, though any war with [from_country.GetName] continues. Should our $rtr_yuan_allegiance$ rise #G above 50#!, we will stand as a #G loyalist#! for [from_country.GetName] and leave the [GetInternationalOrganizationType('red_turban_rebels').GetName]. Should it fall #R below 0#! again, we will be drawn back into open rebellion.",
-  "uk": ""
+  "uk": "Наш показник #Y $rtr_yuan_allegiance$#! скидається до #Y 0#!. Ми не віддаємося повністю справі організації [GetInternationalOrganizationType('red_turban_rebels').GetName], хоча будь-яка війна з державою [from_country.GetName] триває. Якщо показник «$rtr_yuan_allegiance$» зросте #G понад 50#!, ми станемо #G лоялістами#! держави [from_country.GetName] і покинемо [GetInternationalOrganizationType('red_turban_rebels').GetName]. Якщо ж він знову впаде #R нижче 0#!, нас знову втягне у відкрите повстання."
  },
  "red_turban_rebellions.19.desc": {
   "en": "The [ShowGovernmentReformName('warring_state')] of [target_country.GetName] is one of many countries that have declared their autonomy from [GetCountry('CHI').GetName]. Our fate is tied to our decisions to stay loyal to our [GetCountry('CHI').GetCulture.GetName] orverlord, or to join the [GetInternationalOrganizationType('red_turban_rebels').GetName] and try to seize the [GetInternationalOrganization('middle_kingdom').GetName] for ourselves...\\n\\nIn the end, the fate of [target_country.GetNameWithNoTooltip] is in the hands of [target_character.GetName] and [target_character.GetHisHer] trusted advisors.",
@@ -309,19 +309,19 @@
  },
  "red_turban_rebellions.23.a": {
   "en": "A long road lies ahead of us...",
-  "uk": ""
+  "uk": "Попереду в нас довгий шлях…"
  },
  "red_turban_rebellions.23.desc": {
   "en": "As the rightful rulers of the [GetUniqueInternationalOrganization('middle_kingdom').GetName], our authority should be respected. However, we gained that right through conquest, and many of our [ShowCultureGroupName('chinese_group')] subjects continue to look at us as simple foreign invaders. Even if we have adopted the [ShowSocietyDirectionName('sinicized')] form of government, some do not see past our [ShowCultureName('mongolian_culture')] roots and may rise in rebellion if our rule becomes weak.",
-  "uk": ""
+  "uk": "Як законні правителі [GetUniqueInternationalOrganization('middle_kingdom').GetName], ми заслуговуємо на повагу. Проте це право ми здобули завоюванням, і багато наших підданих із групи [ShowCultureGroupName('chinese_group')] досі вважають нас звичайними чужоземними загарбниками. Хоч ми й перейняли [ShowSocietyDirectionName('sinicized')] устрій правління, дехто не бачить нічого, крім нашого [ShowCultureName('mongolian_culture')] коріння, і може повстати, щойно наша влада ослабне."
  },
  "red_turban_rebellions.23.title": {
   "en": "A Storm Approaches",
-  "uk": ""
+  "uk": "Насувається буря"
  },
  "red_turban_rebellions.23.tt": {
   "en": "Low [legitimacy|e], [stability|e] or [estate_satisfaction|e] may trigger the [ShowSituationName('red_turban_rebellions')]\\n$BULLET$During the [situation|e], warlords will emerge across $china$ one at a time over roughly #Y 20 years#!:\\n$BULLET$#Y $CSO$#! around [ShowLocationName('qiaoxian')]\\n$BULLET$#Y $CTW$#! around [ShowLocationName('hanchuan')]\\n$BULLET$#Y $CHE$#! around [ShowLocationName('dehua_jiujiang')]\\n$BULLET$#Y $WUU$#! around [ShowLocationName('gaoyou')]\\n$BULLET$#Y $CFN$#! around [ShowLocationName('yongjia')]\\n$BULLET$#Y $CMO$#! around [ShowLocationName('zichuan')]\\n$BULLET$#Y $CXI$#! around [ShowLocationName('baxian')]\\n$BULLET$#Y $CGU$#! around [ShowLocationName('zhongli')]\\n$BULLET$#Y $MNG$#! around [ShowLocationName('shangyuan')]\\n$BULLET$#Y $CNP$#! around [ShowLocationName('nanping')]\\n$BULLET$#Y $CDN$#! around [ShowLocationName('dongguan')]\\n$BULLET$#Y $CSI$#! around [ShowLocationName('jingzhao')]\\n$BULLET$#Y $CKO$#! around [ShowLocationName('kaifeng')]\\n$BULLET$#Y $CNA$#! around [ShowLocationName('liaoyang')]",
-  "uk": ""
+  "uk": "Низька [Concept('legitimacy','легітимність')|e], [Concept('stability','стабільність')|e] чи [Concept('estate_satisfaction','задоволення станів')|e] можуть спричинити ситуацію [ShowSituationName('red_turban_rebellions')]\\n$BULLET$Під час [Concept('situation','ситуації')|e] по всьому $china$ приблизно за #Y 20 років#! по черзі з’являтимуться воєначальники:\\n$BULLET$#Y $CSO$#! біля [ShowLocationName('qiaoxian')]\\n$BULLET$#Y $CTW$#! біля [ShowLocationName('hanchuan')]\\n$BULLET$#Y $CHE$#! біля [ShowLocationName('dehua_jiujiang')]\\n$BULLET$#Y $WUU$#! біля [ShowLocationName('gaoyou')]\\n$BULLET$#Y $CFN$#! біля [ShowLocationName('yongjia')]\\n$BULLET$#Y $CMO$#! біля [ShowLocationName('zichuan')]\\n$BULLET$#Y $CXI$#! біля [ShowLocationName('baxian')]\\n$BULLET$#Y $CGU$#! біля [ShowLocationName('zhongli')]\\n$BULLET$#Y $MNG$#! біля [ShowLocationName('shangyuan')]\\n$BULLET$#Y $CNP$#! біля [ShowLocationName('nanping')]\\n$BULLET$#Y $CDN$#! біля [ShowLocationName('dongguan')]\\n$BULLET$#Y $CSI$#! біля [ShowLocationName('jingzhao')]\\n$BULLET$#Y $CKO$#! біля [ShowLocationName('kaifeng')]\\n$BULLET$#Y $CNA$#! біля [ShowLocationName('liaoyang')]"
  },
  "red_turban_rebellions.3.a": {
   "en": "Their claims will not protect them from the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] wrath!",
@@ -464,12 +464,12 @@
   "uk": "Поки #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#! б'ються з нами на національних китайських територіях, представники #L [target_culture.GetName|l]ої#! культури з [target_location.Custom('LR_GEN')|l] [target_location.GetName] починають боротьбу за незалежність. [target_character.GetName] збирає тих, хто присягнувся [Select_CString(target_character.IsFemale,'їй', 'йому')] на вірність, і оголошує про відкрите протистояння #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! #L [ROOT.GetCountry.GetCulture.GetName|l]ому#! правлінню."
  },
  "red_turban_rebellions.40.a": {
-  "en": "Anything to prevent further rebellion.",
-  "uk": "Заради запобігання заколотам ми готові на будь-що."
+  "en": "Rotate the troops. Preventing rebellion outweighs battlefield efficiency.",
+  "uk": "Провести ротацію військ. Запобігти заколотам важливіше, ніж зберегти боєздатність."
  },
  "red_turban_rebellions.40.b": {
-  "en": "We cannot afford military defeats.",
-  "uk": "Військові поразки неприпустимі."
+  "en": "No — our generals must remain exactly where they are.",
+  "uk": "Ні — наші генерали мають лишатися саме там, де є."
  },
  "red_turban_rebellions.40.desc": {
   "en": "In these trying times, the risk of treason and rebellion follows us on every step. To alleviate this risk of general desertion and further civil war, one of our [ROOT.GetCountry.GetGovernment.GetCabinetTitle] ministers, [target_character.GetName], has proposed to institute the concept of [ShowModifier('yua_troop_rotation')]. As per this policy, the generals, as well as their troops, would constantly be exchanged between different regions so as to prevent one leader from gaining too much influence. This, however, would obviously impact the efficiency of our forces on the battlefield.\\n\\nIs it worth the risk? Will this actually prevent generals from putting on the Red Turban?",
@@ -480,12 +480,12 @@
   "uk": "Ротація військ"
  },
  "red_turban_rebellions.41.a": {
-  "en": "Print the extra funds.",
-  "uk": "Надрукувати додаткові кошти."
+  "en": "Print the funds — and brace for the inflation that follows.",
+  "uk": "Надрукувати кошти — і готуватися до інфляції, що настане."
  },
  "red_turban_rebellions.41.b": {
-  "en": "The economy is terrible as-is.",
-  "uk": "Економіка і так страждає."
+  "en": "We will not print. Bear the shortages instead.",
+  "uk": "Друкувати не будемо. Краще перетерпіти нестачу."
  },
  "red_turban_rebellions.41.desc": {
   "en": "The [ShowSituationName('red_turban_rebellions')] have put a severe strain on our resources. With dozens of rebellions all across the [ROOT.GetCountry.GetFlavorRank], it is apparent that our forces are not plentiful enough to face them head on. In order to be able to afford a larger army, we could print more of our paper currency. However, the quantities needed would surely result in its further devaluation for the years to come.",
@@ -504,8 +504,8 @@
   "uk": "#R Усі належні нам [Concept('locations','райони')|e] в #TOOLTIP:REGION,manchuria_region,X #L Маньчжурії#!#! виявляються покинутими#!"
  },
  "red_turban_rebellions.42.b.tt": {
-  "en": "#R Every [subject|e] with its [capital|e] in [ShowRegionName('manchuria_region')] becomes independent#!",
-  "uk": "#R Кожен [Concept('subject', 'васал')|e] зі [Concept('capital', 'столицею')|e] в #TOOLTIP:REGION,manchuria_region,X #L Маньчжурії#!#! стає незалежним#!"
+  "en": "#R Every [subject|e] that is not [ROOT.GetCountry.GetCulture.GetName] with its [capital|e] in [ShowRegionName('manchuria_region')] becomes independent#!",
+  "uk": "#R Кожен [Concept('subject','васал')|e], що не належить до культури [ROOT.GetCountry.GetCulture.GetName] і має [Concept('capital','столицю')|e] в регіоні [ShowRegionName('manchuria_region')], стає незалежним#!"
  },
  "red_turban_rebellions.42.desc": {
   "en": "The [ShowSituationName('red_turban_rebellions')] affects not only the entirety of core regions of [ROOT.GetCountry.GetName], but also the long fringe areas of the [ROOT.GetCountry.GetFlavorRank]. Most notably are the distanced lands of the [ShowRegionName('manchuria_region')] which have been conquered by our predecessors. While nominally under our control, due to the boiling conflict in our heartland there is nobody who can enforce our rule over [ShowRegionNameWithNoTooltip('manchuria_region')], making it abandoned in effect.",
@@ -516,20 +516,20 @@
   "uk": "Маньчжурія відколюється!"
  },
  "red_turban_rebellions.43.a": {
-  "en": "We need these officers immediately!",
-  "uk": "Нам конче потрібні ці офіцери!"
- },
- "red_turban_rebellions.43.b": {
   "en": "They must not leave their position in [target_country.GetNameWithNoTooltip].",
   "uk": "Хай і далі обіймають свої посади в [target_country.Custom('CL_PREP')]."
  },
+ "red_turban_rebellions.43.b": {
+  "en": "@[GetCountry('CHI').GetFlag]! We need these officers immediately!",
+  "uk": "@[GetCountry('CHI').GetFlag]! Нам конче потрібні ці офіцери!"
+ },
  "red_turban_rebellions.43.b.at": {
   "en": "Half of the [ShowCultureName('mongolian_culture')] [characters|e] in [target_country.GetName] move to [ROOT.GetCountry.GetName], giving #G 1#! [army_tradition|e] and #G 1#! [stability|e] per character",
-  "uk": ""
+  "uk": "Половина [Concept('characters','персонажів')|e] культури [ShowCultureName('mongolian_culture')] у [target_country.GetName] переходить до [ROOT.GetCountry.GetName], даючи #G 1#! [Concept('army_tradition','військової традиції')|e] і #G 1#! [Concept('stability','стабільності')|e] за кожного персонажа"
  },
  "red_turban_rebellions.43.b.bt": {
   "en": "#R [target_country.GetName] becomes more likely to break away from us#!",
-  "uk": ""
+  "uk": "#R Імовірність того, що [target_country.GetName] від нас відколеться, зростає#!"
  },
  "red_turban_rebellions.43.desc": {
   "en": "As the rebels threaten us further to fracture our state, the need for competent personal becomes increasingly more apparent. Fortunately for us, many loyal [ShowCultureName('mongolian_culture')] officers are still present in [target_country.GetName]. We could call them back to bolster our military at the cost of an increased risk that the [ShowCultureName('korean_culture')] people break away from us in the future.",

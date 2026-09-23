@@ -69,7 +69,7 @@
  },
  "guelphs_and_ghibellines.1000.title": {
   "en": "The [target.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Партія: [target.GetNameWithNoTooltip]"
  },
  "guelphs_and_ghibellines.1001.a": {
   "en": "For the [target_1.Custom('GetGAGOwnFactionWithNoTooltip')]!",
@@ -108,8 +108,8 @@
   "uk": "Нам потрібно більше солдатів."
  },
  "guelphs_and_ghibellines.1100.b.tt": {
-  "en": "We will request [manpower|e] from [target_country.GetName] (they have currently #Y [target_country.GetCurrencyValue('manpower')]#! and would transfer #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue]#! to us)",
-  "uk": "Ми запросимо [Concept('manpower', 'рекрутів')|e] у#ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_RP')|L]#!#! (зараз у неї #Y [target_country.GetCurrencyValue('manpower')] од. живої сили#!. Ми отримаємо #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue] од.#!)"
+  "en": "We will request [manpower|e] from [target_country.GetName] (they have currently #Y [target_country.GetCurrencyValue('manpower')]#! and would transfer #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue|0]#! to us)",
+  "uk": "Ми вимагатимемо [Concept('manpower','рекрутів')|e] від [target_country.Custom('CL_GEN')] (зараз у неї #Y [target_country.GetCurrencyValue('manpower')]#!, і нам буде передано #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue|0]#!)"
  },
  "guelphs_and_ghibellines.1100.c": {
   "en": "A diplomatic alliance would be more than welcome.",
@@ -365,14 +365,14 @@
  },
  "guelphs_and_ghibellines_ghibellines_victory_effects_tt": {
   "en": "The Leader of the [target_io.GetNameWithNoTooltip] will be able to request the Kingdom of Italy Title from the [hre_emperor] at much reduced requirements for 10 years.",
-  "uk": ""
+  "uk": "Протягом 10 років лідер [target_io.GetNameWithNoTooltip] зможе вимагати в [hre_emperor] титул короля Італії за значно зменшених вимог."
  },
  "guelphs_and_ghibellines_guelph_victory_effects_2_tt": {
   "en": "Every [country] with their [capital] in [ShowRegionName('italy_region')] will be blocked from joining the [GetInternationalOrganization('hre').GetName] for 50 years",
-  "uk": ""
+  "uk": "Кожній [Concept('country','державі')|e], чия [Concept('capital','столиця')|e] розташована в регіоні [ShowRegionName('italy_region')], буде заборонено вступати до [GetInternationalOrganization('hre').GetName] протягом 50 років"
  },
  "guelphs_and_ghibellines_guelph_victory_effects_tt": {
   "en": "The Leader of the [target_io.GetNameWithNoTooltip] will be able to form $ITA_f$ without the requirements to hold [ShowLocationName('milano')], [ShowLocationName('florence')], and [ShowLocationName('naples')] for 30 years",
-  "uk": ""
+  "uk": "Протягом 30 років лідер [target_io.GetNameWithNoTooltip] зможе утворити $ITA_f$, не володіючи [ShowLocationName('milano')], [ShowLocationName('florence')] і [ShowLocationName('naples')]"
  }
 }

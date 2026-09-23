@@ -13,35 +13,35 @@
  },
  "ensuing_chaos_distabilizes_peasants_estate_tt": {
   "en": "The brewing chaos spreads, damaging the [estate_satisfaction|e] of our [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]",
-  "uk": ""
+  "uk": "Хаос, що назріває, шириться й підриває [Concept('estate_satisfaction','задоволення стану')|e] наших [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]"
  },
  "lancaster_rebel_name": {
   "en": "The Lancaster Pretenders",
   "uk": "Ланкастерські повстанці"
  },
  "lancaster_rebels_joining": {
-  "en": "All [pops|e] in [ShowProvinceDefinitionName('lancashire_province')] will join [lancaster_rebel.GetName]",
-  "uk": "Група повстанців «[lancaster_rebel.GetName]» отримає підтримку всіх [Concept('pops', 'груп населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,lancashire_province,X #L Ланкаширі#!#!"
+  "en": "All [pops|e] in [ShowProvinceDefinitionName('lancashire_province')] and [ShowProvinceDefinitionName('cheshire_province')] will join the rebellion of [target_lancaster_head.GetName]",
+  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,lancashire_province,X #L Ланкаширі#!#! і [ShowProvinceDefinitionName('cheshire_province')] приєднаються до заколоту, який очолює [target_lancaster_head.GetName]"
  },
  "war_of_the_roses.1.a": {
-  "en": "Support the House of Lancaster.",
-  "uk": "Ми підтримуємо претендента з дому Ланкастерів."
+  "en": "Support the House of [ShowDynastyNameWithNoTooltip('lancaster_dynasty')].",
+  "uk": "Підтримати дім [ShowDynastyNameWithNoTooltip('lancaster_dynasty')]."
  },
  "war_of_the_roses.1.b": {
-  "en": "Support the House of York.",
-  "uk": "Ми підтримуємо претендента з дому Йорків."
+  "en": "Support the House of [ShowDynastyNameWithNoTooltip('york_dynasty')].",
+  "uk": "Підтримати дім [ShowDynastyNameWithNoTooltip('york_dynasty')]."
  },
  "war_of_the_roses.1.desc": {
-  "en": "Two junior branches of the House of Plantagenet, the House of Lancaster and the House of York, both claim to be the rightful heir to the throne of England. Sporadic fights between their supporters have already broken out in a number of provinces around the country.\\n\\nTheir heraldic symbols, a red rose and a white rose, have already become synonymous with the conflict now commonly known as the War of the Roses.",
-  "uk": "На англійський трон претендують представники дому Ланкастерів і дому Йорків — двох молодших гілок династії Плантагенетів. В окремих провінціях уже відбуваються сутички між прихильниками суперницьких претендентів.\\n\\nГеральдичним символом династії Йорків була біла троянда, прихильники Ланкастерів обрали своїм знаком червону. Їхня боротьба увійде в історію як війна Червоної та Білої троянди…"
+  "en": "Two junior branches of the House of [ShowDynastyName('plantagenet_dynasty')], the House of [ShowDynastyName('lancaster_dynasty')] and the House of [ShowDynastyName('york_dynasty')], both claim to be the rightful heir to the throne of [ROOT.GetCountry.GetName]. Sporadic fights between their supporters have already broken out in a number of provinces around the country.\\n\\nTheir heraldic symbols, a red rose and a white rose, have already become synonymous with the conflict now commonly known as the [ShowDisasterName('war_of_the_roses')].",
+  "uk": "Дві молодші гілки дому [ShowDynastyName('plantagenet_dynasty')] — дім [ShowDynastyName('lancaster_dynasty')] і дім [ShowDynastyName('york_dynasty')] — обидві вважають себе законними спадкоємцями трону держави [ROOT.GetCountry.GetName]. В окремих провінціях країни вже спалахують сутички між їхніми прихильниками.\\n\\nЇхні геральдичні символи, червона й біла троянди, уже стали синонімами конфлікту, який тепер усі звуть «[ShowDisasterName('war_of_the_roses')]»."
  },
  "war_of_the_roses.1.desc.lancaster_ruler": {
   "en": "The House of [ShowDynastyName('york_dynasty')], a junior branch of the House of [ShowDynastyName('plantagenet_dynasty')], has long disputed the right of the ruling House of [ShowDynastyName('lancaster_dynasty')] to the throne of [ROOT.GetCountry.GetName]. Now their supporters have taken up arms, and even within the House of [ShowDynastyNameWithNoTooltip('lancaster_dynasty')] a rival claimant has emerged to challenge [ROOT.GetGovernment.GetRuler.GetName].\\n\\nThe heraldic symbols of the two cadet houses, a red rose and a white rose, have already become synonymous with the conflict now commonly known as the [ShowDisasterName('war_of_the_roses')].",
-  "uk": ""
+  "uk": "Дім [ShowDynastyName('york_dynasty')], молодша гілка дому [ShowDynastyName('plantagenet_dynasty')], давно заперечує право правлячого дому [ShowDynastyName('lancaster_dynasty')] на трон держави [ROOT.GetCountry.GetName]. Тепер його прихильники взялися за зброю, і навіть у самому домі [ShowDynastyNameWithNoTooltip('lancaster_dynasty')] з’явився суперник-претендент, що кидає виклик правителю [ROOT.GetGovernment.GetRuler.GetName].\\n\\nГеральдичні символи двох молодших домів, червона й біла троянди, уже стали синонімами конфлікту, який тепер усі звуть «[ShowDisasterName('war_of_the_roses')]»."
  },
  "war_of_the_roses.1.title": {
-  "en": "War of the Roses",
-  "uk": "Війна Червоної та Білої троянди"
+  "en": "[ShowDisasterNameWithNoTooltip('war_of_the_roses')]",
+  "uk": "[ShowDisasterNameWithNoTooltip('war_of_the_roses')]"
  },
  "war_of_the_roses.100.a": {
   "en": "Order has finally been restored.",
@@ -205,7 +205,7 @@
  },
  "war_of_the_roses.18.title": {
   "en": "The Conflict of the [ShowDisasterNameWithNoTooltip('war_of_the_roses')]",
-  "uk": ""
+  "uk": "Конфлікт: [ShowDisasterNameWithNoTooltip('war_of_the_roses')]"
  },
  "war_of_the_roses.2.a": {
   "en": "This is most welcome.",
@@ -336,7 +336,7 @@
   "uk": "Повстанці-йоркісти"
  },
  "york_rebels_joining": {
-  "en": "All [pops|e] in [ShowProvinceDefinitionName('north_riding_province')] will join [york_rebel.GetName]",
-  "uk": "Група повстанців «[york_rebel.GetName]» отримає підтримку всіх [Concept('pops', 'груп населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,north_riding_province,X #L Північному Райдингу#!#!"
+  "en": "All [pops|e] in [ShowProvinceDefinitionName('north_riding_province')] and [ShowProvinceDefinitionName('west_riding_province')] will join the rebellion of [target_york_head.GetName]",
+  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:PROVINCE_DEFINITION,north_riding_province,X #L Північному Райдингу#!#! і [ShowProvinceDefinitionName('west_riding_province')] приєднаються до заколоту, який очолює [target_york_head.GetName]"
  }
 }

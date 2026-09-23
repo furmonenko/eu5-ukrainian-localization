@@ -8,32 +8,32 @@
   "uk": "Реконструкція Осло"
  },
  "flavor_nor.1.a": {
-  "en": "He could be of use to the realm",
-  "uk": "Він стане в пригоді нашій державі."
+  "en": "He could be of use to the [ROOT.GetCountry.GetFlavorRank].",
+  "uk": "Він стане в пригоді нашій державі — [ROOT.GetCountry.GetFlavorRank]."
  },
  "flavor_nor.1.a.entry": {
   "en": "He could be of use to the realm.",
-  "uk": ""
+  "uk": "Він стане в пригоді нашій державі."
  },
  "flavor_nor.1.b": {
-  "en": "We do not want to antagonize the Hansa",
-  "uk": "Ми не будемо сваритися з Ганзою."
+  "en": "We do not want to antagonize [target_country.GetNameWithNoTooltip].",
+  "uk": "Ми не будемо сваритися з [target_country.GetNameWithNoTooltip]."
  },
  "flavor_nor.1.b.entry": {
   "en": "We do not want to antagonize them.",
-  "uk": ""
+  "uk": "Ми не будемо з ними сваритися."
  },
  "flavor_nor.1.desc": {
-  "en": "The Norwegian nobleman and knight, Sigurd Jonsson, is a former drottsete, a man who could rule the country in the King's name, and regent of Norway. He is a direct descendant of the old Norwegian royal family and the commander of Akershus Fortress from 1440 to 1445. Sigurd Jonsson is one of the leading proponents of the anti-Hanseatic policies in Norway.",
-  "uk": "Норвезький дворянин і лицар Сігур Йонсон у минулому був дроттсете — людиною, яка могла керувати країною за відсутності короля, — і регентом Норвегії. Він є прямим нащадком давньої норвезької королівської династії і з 1440 по 1445 рік виконував роль начальника фортеці Акерхус. Нарешті, Йонсон — один із головних прихильників антиганзейської політики в Норвегії."
+  "en": "The [target_character.GetCulture.GetName] nobleman and knight, [target_character.GetName], is a former drottsete, a man who could rule the country in the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s name, and regent of [ROOT.GetCountry.GetName]. He is a direct descendant of the old [ROOT.GetCountry.GetAdjectiveWithNoTooltip] royal family and the commander of Akershus Fortress from 1440 to 1445. [target_character.GetNameWithNoTooltip] is one of the leading proponents of the anti-[target_country.GetAdjective] policies in [ROOT.GetCountry.GetNameWithNoTooltip].",
+  "uk": "[target_character.GetName], дворянин і лицар ([target_character.GetCulture.GetName]), у минулому був дроттсете — людиною, яка могла керувати країною від імені правителя (титул — [ROOT.GetCountry.GetGovernment.GetRulerTitle]), — і регентом держави [ROOT.GetCountry.GetName]. Він є прямим нащадком давньої королівської династії ([ROOT.GetCountry.GetAdjectiveWithNoTooltip]) і з 1440 по 1445 рік був начальником фортеці Акерсхус. [target_character.GetNameWithNoTooltip] — один із головних прихильників політики проти держави [target_country.GetAdjective] у країні [ROOT.GetCountry.GetNameWithNoTooltip]."
  },
  "flavor_nor.1.entry": {
   "en": "Sigurd Jonsson, Norwegian Statesman",
-  "uk": ""
+  "uk": "Сігур Йонсон, норвезький державний діяч"
  },
  "flavor_nor.1.title": {
-  "en": "Sigurd Jonsson",
-  "uk": "Сігур Йонсон"
+  "en": "[target_character.GetNameWithNoTooltip]",
+  "uk": "[target_character.GetNameWithNoTooltip]"
  },
  "flavor_nor.16.a": {
   "en": "The time of the Dutch has come.",
@@ -52,7 +52,7 @@
   "uk": "Голландський період"
  },
  "flavor_nor.2.a": {
-  "en": "Let him become an advisor",
+  "en": "Let him become an advisor.",
   "uk": "Він підходить на роль радника."
  },
  "flavor_nor.2.desc": {
@@ -77,7 +77,7 @@
  },
  "flavor_nor.21.entry": {
   "en": "Tordenskiøld",
-  "uk": ""
+  "uk": "Турденшельд"
  },
  "flavor_nor.21.title": {
   "en": "[tordenskiold.GetNameWithNoTooltip]",
@@ -93,7 +93,7 @@
  },
  "flavor_nor.22.entry": {
   "en": "Cort Adeler",
-  "uk": ""
+  "uk": "Курт Аделер"
  },
  "flavor_nor.22.title": {
   "en": "[cort_adeler.GetNameWithNoTooltip]",
@@ -136,16 +136,16 @@
   "uk": "Зміцнення відносин Норвегії та Нідерландів"
  },
  "flavor_nor.3.a": {
-  "en": "Fortify the fortress further",
+  "en": "Fortify the fortress further.",
   "uk": "Ми підвищимо обороноздатність фортеці."
  },
  "flavor_nor.3.b": {
-  "en": "Increase defenses in the whole of Norway",
+  "en": "Increase defenses in the whole of Norway.",
   "uk": "Ми зміцнимо оборонні споруди по всій Норвегії."
  },
  "flavor_nor.3.c": {
-  "en": "Do nothing",
-  "uk": "Нічого не будемо робити."
+  "en": "Do nothing.",
+  "uk": "Ми нічого не зробимо."
  },
  "flavor_nor.3.desc": {
   "en": "The first fortification in Vardø Municipality in Finnmark county was built in 1306 and was called Varghøya. The second fortification was built in Østervågen, erected between 1450 and 1500, a rectangular fortification with two corner bastions.",
@@ -172,8 +172,8 @@
   "uk": "Ми ніколи не відмовимося від цих земель!"
  },
  "flavor_nor.5.desc": {
-  "en": "Ever since the 13th century treaty of Perth, [GetCountry('SCO').GetName] has been obligated to pay a yearly sum to the [ROOT.GetCountry.GetLongName] in exchange for control of the Hebrides. These payments are by now long overdue, however, and this has been the cause for tensions on and off. Regardless of our ancestral claims, however, our ability to project power in the [ShowAreaName('scottish_highlands')] is not what it was, and we have bigger issues closer to home to handle. It has been suggested that this conflict be settled once and for all. The Jarldom of [ShowLocationName('orkney')] will be pawned and then transferred to the Scots.\\n\\n[ShowLocationNameWithNoTooltip('orkney')] remains one of the highest ranked titles in the [ROOT.GetCountry.GetLongNameWithNoTooltip] however, one that has at times been a stepping stone to the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] throne. While they remain a weak factor, the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are very wary of this deal.",
-  "uk": "Згідно з Пертським договором, підписаним у XIII столітті, [ROOT.GetCountry.GetLongName] відмовляється від претензій на Гебридські острови, а натомість [GetCountry('SCO').GetName] щороку виплачує колишній суперниці компенсацію. Однак борги все накопичуються, і напруження між країнами періодично виривається назовні. Що б не пообіцяли одне одному наші предки, сьогодні наші можливості силового впливу на мешканців #TOOLTIP:AREA,scottish_highlands_area,X #L Шотландського високогір'я#!#! значно зменшилися, і до того ж поруч назрівають більш нагальні проблеми. Нещодавно нам надійшла пропозиція про остаточне вирішення питання: ми можемо за непогану плату передати шотландцям графство [ShowLocationName('orkney')].\\n\\nПроблема в тому, що титул графа Оркні — один із найвищих у [ROOT.GetCountry.Custom('CL_PP')], і він не раз ставав ключовою перевагою в боротьбі за престол. [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ькі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] дуже стурбовані такою перспективою, хоча їхня думка й не є вирішальною."
+  "en": "Ever since the 13th century treaty of Perth, [GetCountry('SCO').GetName] has been obligated to pay a yearly sum to the [ROOT.GetCountry.GetLongName] in exchange for control of the Hebrides. These payments are by now long overdue, however, and this has been the cause for tensions on and off. Regardless of our ancestral claims, however, our ability to project power in the [ShowAreaName('scottish_highlands_area')] is not what it was, and we have bigger issues closer to home to handle. It has been suggested that this conflict be settled once and for all. The Jarldom of [ShowLocationName('orkney')] will be pawned and then transferred to the Scots.\\n\\n[ShowLocationNameWithNoTooltip('orkney')] remains one of the highest ranked titles in the [ROOT.GetCountry.GetLongNameWithNoTooltip] however, one that has at times been a stepping stone to the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] throne. While they remain a weak factor, the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are very wary of this deal.",
+  "uk": "Ще з часів Пертського договору XIII століття [GetCountry('SCO').GetName] зобов’язана щороку сплачувати [ROOT.GetCountry.Custom('CL_DAT')] певну суму в обмін на владу над Гебридами. Проте ці виплати давно прострочені, і через це між нами раз у раз спалахує напруга. Хай які давні претензії ми маємо, наша змога впливати на #TOOLTIP:AREA,scottish_highlands_area,X #L Шотландське високогір’я#!#! вже не та, що колись, а ближче до дому назрівають нагальніші справи. Нам запропонували залагодити цей конфлікт раз і назавжди: Ярлство [ShowLocationName('orkney')] буде віддано в заставу, а згодом передано шотландцям.\\n\\nОднак [ShowLocationNameWithNoTooltip('orkney')] лишається одним із найвищих титулів у [ROOT.GetCountry.GetLongNameWithNoTooltip] — не раз він ставав сходинкою до трону (престол: [ROOT.GetCountry.GetAdjectiveWithNoTooltip]). Хоч вони й досі слабка сила, [ROOT.GetCountry.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вельми насторожено ставляться до цієї угоди."
  },
  "flavor_nor.5.entry": {
   "en": "$flavor_nor.5.title$",

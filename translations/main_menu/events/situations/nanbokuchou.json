@@ -1,11 +1,11 @@
 {
  "betrayed_court_support": {
-  "en": "Betrayed their loyalty towards us",
+  "en": "Betrayed their Loyalty Towards Us",
   "uk": "Зраджує нашу довіру"
  },
  "destroy_all_clan_buildings_tt": {
   "en": "All our clan buildings will be destroyed and we will cease to exist",
-  "uk": ""
+  "uk": "Усі наші кланові споруди буде зруйновано, і ми припинимо існування"
  },
  "nanbokucho_neutrality": {
   "en": "We will declare neutrality, supporting neither Court.",
@@ -56,8 +56,8 @@
   "uk": "Нарешті мир і стабільність."
  },
  "nanbokuchou.2.desc": {
-  "en": "The turbulent times of a divided court are at an end. The constant squabbles initiated by [GetCharacter('jap_go_daigo_tenno').GetName] have been resolved by the unification under the [target_emperor.GetLongName]. No longer will our country see itself divided due to multiple conflicting loyalties. The legitimacy of [target_emperor.GetGovernment.GetRuler.GetName] is unquestioned and people will rally together under [target_emperor.GetGovernment.GetRuler.GetHerHis] authority and that of the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]. There will be no more internal struggles and division, and all clans will be unified towards a common goal.",
-  "uk": "Часи невизначеності добігли кінця. [target_emperor.GetLongName] — це держава, яка об'єднала наші землі та поклала край інтригам імператора [GetCharacter('jap_go_daigo_tenno').GetName]. Сильна єдина влада прийшла на зміну державі, що була роздирана міжусобицями. Усі розуміють, що [target_emperor.GetGovernment.GetRuler.GetName] по праву займає своє місце. [Select_CString(target_emperor.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] і [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle|l] стають у нашій державі незаперечними авторитетами. Нарешті всі клани будуть переслідувати спільну мету."
+  "en": "The turbulent times of a divided court are at an end. The constant squabbles initiated by [GetCharacter('jap_go_daigo_tenno').GetName] have been resolved by the unification under the [target_emperor.GetLongName]. No longer will our country see itself divided due to multiple conflicting loyalties. The legitimacy of [target_character.GetName] is unquestioned and people will rally together under [target_character.GetHerHis] authority and that of the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]. There will be no more internal struggles and division, and all clans will be unified towards a common goal.",
+  "uk": "Бурхливі часи розколотого двору добігли кінця. Нескінченним чварам, які розпочав [GetCharacter('jap_go_daigo_tenno').GetName], поклало край об’єднання під владою [target_emperor.GetLongName]. Відтепер наша держава не буде роздерта суперечливими вірностями. Легітимність правління [target_character.GetName] незаперечна, і люди згуртуються довкола [target_character.GetHerHis] влади та влади [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]. Не буде більше внутрішніх міжусобиць і розбрату — усі клани об’єднаються заради спільної мети."
  },
  "nanbokuchou.2.title": {
   "en": "End of the $nanbokuchou$",
@@ -72,8 +72,8 @@
   "uk": "Не можна втрачати таку можливість."
  },
  "nanbokuchou.3.desc": {
-  "en": "The current conflict between the [target_supported_court.GetLongName] and the [target_enemy_court.GetLongName] has been shaking the [GetUniqueInternationalOrganization('japanese_shogunate').GetName] for a while. [target_shogun.GetGovernment.GetRuler.GetName] and [GetCountry('NTC').GetGovernment.GetRuler.GetName] continue to oppose the claim to the throne of [GetCountry('STC').GetGovernment.GetRuler.GetName]. We have been until now also giving our loyal support to the [target_supported_court.GetLongNameWithNoTooltip], but winds of change are on the horizon.\\n\\nWeary of so much struggle, both sides seem to take their support for granted, and that does not sit well with many among our [ROOT.GetCountry.GetFlavorRank]. Envoys from the [target_enemy_court.GetLongNameWithNoTooltip] has approached us and [target_enemy_court.GetGovernment.GetRuler.GetNameWithNoTooltip] promises better rewards if we offer our loyalty to [target_enemy_court.GetGovernment.GetRuler.GetHerHim].",
-  "uk": "Уже якийсь час у #TOOLTIP:INTERNATIONAL_ORGANIZATION,$japanese_shogunate_tt$,X #L японському сьоґунаті#!#! триває конфлікт — ворогують двори [target_supported_court.GetLongName] і [target_enemy_court.GetLongName]. [target_shogun.GetGovernment.GetRuler.GetName] і [GetCountry('NTC').GetGovernment.GetRuler.GetName] продовжують протистояти [Select_CString(GetCountry('STC').GetGovernment.GetRuler.IsFemale,'правителька', 'правителю')] [GetCountry('STC').GetGovernment.GetRuler.GetName], [Select_CString(GetCountry('STC').GetGovernment.GetRuler.IsFemale,'яка мріє', 'який мріє')] зайняти трон. [target_supported_court.GetLongNameWithNoTooltip] — досі ми підтримували їхній бік, але вітер змін починає набирати силу.\\n\\nВтомившись від напруженої боротьби, обидві сторони, здається, забули, що за підтримку треба платити, і це викликало невдоволення серед їхніх прихильників. [target_enemy_court.GetLongNameWithNoTooltip] — цей двір надсилає до нас посланців, які стверджують, що [target_enemy_court.GetGovernment.GetRuler.GetNameWithNoTooltip] не пошкодує нагород, якщо ми присягнемо [Select_CString(target_enemy_court.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] на вірність."
+  "en": "The current conflict between the [target_supported_court.GetLongName] and the [target_enemy_court.GetLongName] has been shaking the [GetUniqueInternationalOrganization('japanese_shogunate').GetName] for a while. [target_shogun.GetGovernment.GetRulerOrRegent.GetName] and [GetCountry('NTC').GetGovernment.GetRulerOrRegent.GetName] continue to oppose the claim to the throne of [GetCountry('STC').GetGovernment.GetRulerOrHeirIfRegent.GetName]. We have been until now also giving our loyal support to the [target_supported_court.GetLongNameWithNoTooltip], but winds of change are on the horizon.\\n\\nWeary of so much struggle, both sides seem to take their support for granted, and that does not sit well with many among our [ROOT.GetCountry.GetFlavorRank]. Envoys from the [target_enemy_court.GetLongNameWithNoTooltip] have approached us and they promise better rewards if we offer our loyalty to [target_enemy_emperor.GetNameWithNoTooltip].",
+  "uk": "Уже якийсь час [GetUniqueInternationalOrganization('japanese_shogunate').GetName] потрясає конфлікт між [target_supported_court.GetLongName] і [target_enemy_court.GetLongName]. [target_shogun.GetGovernment.GetRulerOrRegent.GetName] і [GetCountry('NTC').GetGovernment.GetRulerOrRegent.GetName] досі заперечують претензію на трон, яку висуває [GetCountry('STC').GetGovernment.GetRulerOrHeirIfRegent.GetName]. Досі ми вірно підтримували [target_supported_court.GetLongNameWithNoTooltip], але на обрії вже віють вітри змін.\\n\\nВтомившись від нескінченної боротьби, обидві сторони, здається, вважають підтримку чимось самоочевидним, і це не до вподоби багатьом у нашому [ROOT.GetCountry.GetFlavorRank]. До нас прибули посланці від [target_enemy_court.GetLongNameWithNoTooltip] й обіцяють щедріші нагороди, якщо ми присягнемо на вірність [target_enemy_emperor.GetNameWithNoTooltip]."
  },
  "nanbokuchou.3.title": {
   "en": "Window of Opportunity",
@@ -84,8 +84,8 @@
   "uk": "Зрадники!"
  },
  "nanbokuchou.4.desc": {
-  "en": "The vile rats of the [target_betrayer.GetLongName] are just animals without honor. Seeing our constant struggles with the [target_enemy_court.GetLongName], they have abandoned their ties of loyalty towards us and have run towards their side, seduced by the false promises of [target_enemy_court.GetGovernment.GetRuler.GetName]. They no doubt see our position as weak and think they may take advantage of the situation, but we will prove them otherwise. Now we will meet on the battlefield.",
-  "uk": "[target_betrayer.GetLongName] — підлі щури, позбавлені честі. У розпал нашого протистояння з ворогом — [target_enemy_court.GetLongName] — вони порушили свою клятву й перебігли на бік ворога, спокушені брехливими обіцянками [Select_CString(target_enemy_court.GetGovernment.GetRuler.IsFemale,'правительки', 'правителя')] [target_enemy_court.GetGovernment.GetRuler.GetName]. Очевидно, вони вважають, що ми приречені на провал. Настав час довести їм протилежне на полі бою."
+  "en": "The vile rats of the [target_betrayer.GetLongName] are just animals without honor. Seeing our constant struggles with the [target_enemy_court.GetLongName], they have abandoned their ties of loyalty towards us and have run towards their side, seduced by the false promises of the court of [target_enemy_emperor.GetName]. They no doubt see our position as weak and think they may take advantage of the situation, but we will prove them otherwise. Now we will meet on the battlefield.",
+  "uk": "[target_betrayer.GetLongName] — підлі щури, тварини без честі. Бачачи нашу безперервну боротьбу з ворогом — [target_enemy_court.GetLongName], — вони розірвали узи вірності нам і перебігли на інший бік, спокушені брехливими обіцянками двору, яким править [target_enemy_emperor.GetName]. Вони, безперечно, вважають нас слабкими й сподіваються скористатися ситуацією, але ми доведемо їм протилежне. Тепер зустрінемося на полі бою."
  },
  "nanbokuchou.4.title": {
   "en": "Betrayal",
@@ -165,22 +165,22 @@
  },
  "nanbokuchou.9.a": {
   "en": "We must pay the ultimate sacrifice in favor of unity.",
-  "uk": ""
+  "uk": "Ми маємо принести найвищу жертву заради єдності."
  },
  "nanbokuchou.9.b": {
   "en": "Our line must be accepted as the true one first.",
-  "uk": ""
+  "uk": "Спершу нашу лінію мають визнати істинною."
  },
  "nanbokuchou.9.desc": {
   "en": "The struggle between the two courts of the Imperial line has already been dragging on for some years. It is threatening to split the whole nation in two, without a clear resolution in sight. There are many in the [ROOT.GetCountry.GetLongName] that are in favor of renouncing our rights in favor of the [target_emperor.GetLongName], arguing it is worth a sacrifice to keep the unity of the throne. On the other hand, our divine right to rule is not something we can easily yield. However, there are worrying sings for the future of the nation, and we may find ourselves in worse troubles with a divided line.",
-  "uk": ""
+  "uk": "Боротьба між двома дворами імператорського роду триває вже кілька років. Вона загрожує розколоти всю націю навпіл, і ясного вирішення не видно. Багато хто в [ROOT.GetCountry.GetLongName] схиляється до того, щоб зректися наших прав на користь [target_emperor.GetLongName], кажучи, що єдність трону варта жертви. З іншого боку, нашим божественним правом на правління не можна легко поступитися. Проте майбутнє нації віщує тривожні знаки, і з розколотою лінією на нас можуть чекати ще гірші біди."
  },
  "nanbokuchou.9.title": {
   "en": "$nanbokuchou$ Without End",
-  "uk": ""
+  "uk": "$nanbokuchou$ без кінця"
  },
  "refused_changing_court_support": {
-  "en": "Refused to support our [ROOT.GetCountry.GetFlavorRank]",
-  "uk": "Відмовляється підтримати наш двір"
+  "en": "Refused to Support our Side",
+  "uk": "Відмовляється підтримати наш бік"
  }
 }

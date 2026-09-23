@@ -117,15 +117,15 @@
  },
  "horde_civil_war.11.a": {
   "en": "At least it is not the pretender...",
-  "uk": ""
+  "uk": "Принаймні це не претендент…"
  },
  "horde_civil_war.11.desc": {
   "en": "The lack of a recognized ruler within our country has led to more intrigues and rebellion. Despite [target_ruler.GetName]'s best attempt to stabilize the situation, [target_ruler.GetHerHis] lack of authority was [target_ruler.GetHerHis] undoing as [target_character.GetName] and [target_character.GetHerHis] followers have shortly overthrown [target_ruler.GetShortNameWithNoTooltip] and has taken over as our new ruler.",
-  "uk": ""
+  "uk": "Без визнаного правителя наша держава потонула в інтригах і заколотах. Хоч [target_ruler.GetName] з усіх сил намагалися стабілізувати становище, брак [target_ruler.GetHerHis] авторитету став для [target_ruler.GetHerHis] влади згубним: [target_character.GetName] і [target_character.GetHerHis] прибічники невдовзі скинули [target_ruler.GetShortNameWithNoTooltip] й захопили владу. Тепер у нас новий правитель."
  },
  "horde_civil_war.11.title": {
   "en": "Horde Coup",
-  "uk": ""
+  "uk": "Переворот в Орді"
  },
  "horde_civil_war.2.a": {
   "en": "Only over our dead, rotting bodies!",
@@ -176,8 +176,8 @@
   "uk": "Наша влада майже відновлена!"
  },
  "horde_civil_war.4.desc": {
-  "en": "The long struggle against our bitter enemy, [target_character.GetName] has finally found its end. With the complete annexation of [target.GetName], the [target_country.GetLongName] prevails, and the authority of [target_ruler.GetName] is restored! [target_character.GetShortNameWithNoTooltip] has been brought to justice, and shortly afterward to the sword as [target_character.GetSheHe] deserves it.",
-  "uk": "[target_country.GetLongName] — переможець у затяжному протистоянні із заклятим ворогом. Завоювавши #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_ACC')|L]#!#!, [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'довела', 'довів')] своє право на трон, а [target_character.GetName] [Select_CString(target_character.IsFemale,'закінчила', 'закінчив')] життя на плахі."
+  "en": "The long struggle against our bitter enemy, [target_character.GetName] has finally found its end. With the complete annexation of [loser.GetName], the [target_country.GetLongName] prevails, and the authority of [target_ruler.GetName] is restored! [target_character.GetShortNameWithNoTooltip] has been brought to justice, and shortly afterward to the sword as [target_character.GetSheHe] deserves it.",
+  "uk": "Затяжна боротьба із заклятим ворогом, [target_character.GetName], нарешті скінчилася. Після повного приєднання [loser.Custom('CL_GEN')] [target_country.GetLongName] перемагає, а владу [target_ruler.GetName] відновлено! [target_character.GetShortNameWithNoTooltip] постає перед судом, а невдовзі — і під мечем, як [target_character.GetSheHe] на те й заслуговує."
  },
  "horde_civil_war.4.desc.end": {
   "en": "$horde_civil_war.4.desc$\\n\\nAfter such devastating defeat by the pretender, any further attempts on the [target_country.GetAdjectiveWithNoTooltip] throne seem to have ceased. Stability has once again returned to [target_country.GetName].",
@@ -212,8 +212,8 @@
   "uk": "Хай тільки спробують!"
  },
  "horde_civil_war.6.desc": {
-  "en": "The old order of the [target_country.GetLongName] is no more, and [target_character.GetName] has become the new ruler of the steppes. However, [target_character.GetHerHis] actions have caused much suffering and bloodshed, and other warlords may intend to try their own coups against the new [target.GetGovernment.GetRulerTitle]...",
-  "uk": "Зі старими порядками покінчено, тепер [target_country.GetLongName] — зовсім інша країна, а степом править [target_character.GetName]. На жаль, у боротьбі за трон [Select_CString(target_character.IsFemale,'нова', 'новий')] [target.GetGovernment.GetRulerTitle|l] [Select_CString(target_character.IsFemale,'пролила', 'пролив')] ріки крові й [Select_CString(target_character.IsFemale,'завдала', 'завдав')] нашому народові величезних страждань. Інші воєначальники жадають помсти й теж подумують про узурпацію влади…"
+  "en": "The old order of the [target_country.GetLongName] is no more, and [target_character.GetName] has become the new ruler of the steppes. However, [target_character.GetHerHis] actions have caused much suffering and bloodshed, and other warlords may intend to try their own coups against the new [target_country.GetGovernment.GetRulerTitle]...",
+  "uk": "Старим порядкам у [target_country.GetLongName] настав кінець, і тепер степом править [target_character.GetName]. Проте [target_character.GetHerHis] дії принесли чимало страждань і пролитої крові, тож інші воєначальники цілком можуть задумати власні перевороти проти нового правителя з титулом [target_country.GetGovernment.GetRulerTitle]…"
  },
  "horde_civil_war.6.title": {
   "en": "The Rule of [target_character.GetShortNameWithNoTooltip]",

@@ -1,35 +1,35 @@
 {
  "ap_diplomatic_desc_key": {
   "en": "With the incorporation of [target_location.GetName] into the [scope:winner.GetFlavorRank] of [scope:winner.GetName],",
-  "uk": ""
+  "uk": "Після включення [target_location.GetName] до складу [scope:winner.GetFlavorRank] [scope:winner.GetName]"
  },
  "ap_falls_desc_key": {
-  "en": "After a turbulent siege and a valiant defense of the resident garrison, [target_location.GetName] has fallen to the might of our great armies. Within its walls resides a powerful religious authority, as the [target_location.GetRank.GetNameWithNoTooltip] once hosted dignitaries of the [ShowReligionAdjective('orthodox')] faith. The question remains yet, should we abolish this kindred institution or adopt it under our protection?",
-  "uk": "Після тривалої облоги оборону відважного гарнізону було зламано, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] впав перед нашими могутніми арміями. Усередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут чи прийняти його під своє покровительство?"
+  "en": "After a turbulent siege and a valiant defense of the resident garrison, [target_location.GetName] has fallen to the might of our great armies.",
+  "uk": "Після запеклої облоги та відважної оборони місцевого гарнізону [target_location.GetName] впав перед могуттю наших великих армій."
  },
  "ap_falls_desc_key_2": {
   "en": "Within its walls resides a powerful religious authority, as the [target_location.GetRank.GetNameWithNoTooltip] once hosted dignitaries of the [ShowReligionAdjective('orthodox')] faith. The question remains yet, should we abolish this kindred institution or adopt it under our protection?",
-  "uk": ""
+  "uk": "У його стінах перебуває впливова релігійна влада, адже цей [target_location.GetRank.GetNameWithNoTooltip] колись приймав достойників [ShowReligionAdjective('orthodox')] віри. Питання досі відкрите: скасувати цей споріднений інститут чи взяти його під наш захист?"
  },
  "autocephalous_patriarchates.1.a": {
-  "en": "Dissolve the Patriarchate.",
-  "uk": "Розпустимо патріархат."
+  "en": "There is no need for their Patriarchate when we have ours.",
+  "uk": "Навіщо нам їхній патріархат, коли маємо власний."
  },
  "autocephalous_patriarchates.1.b": {
-  "en": "Keep the Patriarchate.",
-  "uk": "Збережемо патріархат."
+  "en": "We will not interfere with the authority of the Patriarch.",
+  "uk": "Ми не зазіхатимемо на владу патріарха."
  },
  "autocephalous_patriarchates.1.c": {
   "en": "Now we will be the ones to deal with the Patriarch.",
-  "uk": ""
+  "uk": "Відтепер ми самі матимемо справу з патріархом."
  },
  "autocephalous_patriarchates.1.desc": {
   "en": "$ap_falls_desc_key$ It was the seat of the [target_ap.GetName], and now it comes to us to decide what to do with this Patriarchal authority.",
-  "uk": ""
+  "uk": "$ap_falls_desc_key$ Тут була кафедра [target_ap.GetName], і тепер нам вирішувати, що робити з цією патріаршою владою."
  },
  "autocephalous_patriarchates.1.desc_diplomatic": {
   "en": "$ap_diplomatic_desc_key$ the seat of the [target_ap.GetName] now falls under our authority. It comes to us to decide what to do with this Patriarchal institution.",
-  "uk": ""
+  "uk": "$ap_diplomatic_desc_key$ кафедра [target_ap.GetName] переходить під нашу владу. Тепер нам вирішувати, що робити з цим патріаршим інститутом."
  },
  "autocephalous_patriarchates.1.title": {
   "en": "Autocephalous Patriarchate Seat Falls!",
@@ -49,7 +49,7 @@
  },
  "autocephalous_patriarchates.2.desc_diplomatic": {
   "en": "$ap_diplomatic_desc_key$ it comes to us to decide upon matters of its faith. $ap_falls_desc_key_2$",
-  "uk": ""
+  "uk": "$ap_diplomatic_desc_key$ нам тепер вирішувати питання його віри. $ap_falls_desc_key_2$"
  },
  "autocephalous_patriarchates.2.title": {
   "en": "Autocephalous Patriarchate Seat Falls!",
@@ -57,15 +57,15 @@
  },
  "autocephalous_patriarchates.3.a": {
   "en": "For the greater glory of [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]!",
-  "uk": ""
+  "uk": "На більшу славу [ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]!"
  },
  "autocephalous_patriarchates.3.desc": {
   "en": "With the relocation of the [recipient.GetName] to [target_location.GetName], the glory of the [target.GetType.GetName] has been restored. From now on, the Patriarchate will lead the matters of the faith with the majesty and reverence that befits such lofty seat.",
-  "uk": ""
+  "uk": "Із перенесенням [recipient.GetName] до [target_location.GetName] славу [target.GetType.GetName] відновлено. Відтепер патріархат провадитиме справи віри з величчю та благоговінням, гідними такої високої кафедри."
  },
  "autocephalous_patriarchates.3.title": {
   "en": "Restoration of the Patriarchate of [target_location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Відновлення патріархату [target_location.GetNameWithNoTooltip]"
  },
  "every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt": {
   "en": "Every member of the [target_ap.GetName] will lose [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] opinion of us",
@@ -73,6 +73,6 @@
  },
  "every_member_of_winner_ap_gains_opinion_of_scopewinner_tt": {
   "en": "Every member of the [target_winner_ap.GetName] will gain [ShowBiasValue('destroyed_another_autocephalous_patriarchate')|+=0] opinion of us",
-  "uk": ""
+  "uk": "Кожен учасник [target_winner_ap.GetName] отримає [ShowBiasValue('destroyed_another_autocephalous_patriarchate')|+=0] до думки про нас"
  }
 }

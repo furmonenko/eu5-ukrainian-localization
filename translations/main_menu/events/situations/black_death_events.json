@@ -40,8 +40,8 @@
   "uk": "[GetDisease('bubonic_plague').GetOrigin.GetRank.GetNameWithNoTooltip] [GetDisease('bubonic_plague').GetOrigin.GetName] стає джерелом епідемії #TOOLTIP:SITUATION,black_death,X #L Чорної смерті#!#!"
  },
  "black_death.1.desc": {
-  "en": "Disturbing news has reached us from [GetDisease('bubonic_plague').GetOrigin.GetName], as we recently received the following report from there.\\n\\nAlas! our ships enter the port, but of a thousand sailors hardly ten are spared. We reach our homes; our kindred and our neighbors come from all parts to visit us. Woe to us for we cast at them the darts of death! Whilst we spoke to them, whilst they embraced us and kissed us, we scattered the poison from our lips. Going back to their homes, they in turn soon infected their whole families, who in three days succumbed, and were buried in one common grave. Priests and doctors visiting the sick returned from their duties ill, and soon were numbered with the dead. O death! cruel, bitter, impious death! which thus breaks the bonds of affection and divides father and mother, brother and sister, husband and wife. Lamenting our misery, we feared to fly, yet we dared not remain.",
-  "uk": "У [GetDisease('bubonic_plague').GetOrigin.Custom('LR_PP')] [GetDisease('bubonic_plague').GetOrigin.GetName] сталася жахлива трагедія. Нещодавно ми отримали звідти сумну звістку.\\n\\nГоре нам! З тисячі моряків, що зайшли до порту, вижило не більше десятка. Ми повернулися додому, до своїх родин. Родичі та сусіди прийшли провідати нас, а ми випустили в них стріли смерті, самі того не відаючи! Ми розмовляли і сміялися, цілували й обіймали своїх дружин і дітей, а наші губи джерелили отруту. Наші рідні та друзі передали її своїм близьким. Через три дні всі вони загинули, і їхні тіла було поховано у братській могилі. Священники і лікарі, що провідували хворих, невдовзі теж заснули вічним сном. О смерте! Жорстока і мерзенна лиходійко! Ти розриваєш узи родинства та дружби і розлучаєш батька з матір'ю, брата з сестрою, чоловіка з дружиною. Глибокий смуток опанував наші душі. Ми боялися тікати, але й не наважувалися залишитися."
+  "en": "Disturbing news has reached us from [GetDisease('bubonic_plague').GetOrigin.GetName], as a new epidemic seems to have taken root. A certain Mediterranean merchant fleet that encountered it apparently made the following report:\\n\\nAlas! our ships enter the port, but of a thousand sailors hardly ten are spared. We reach our homes; our kindred and our neighbors come from all parts to visit us. Woe to us for we cast at them the darts of death! Whilst we spoke to them, whilst they embraced us and kissed us, we scattered the poison from our lips. Going back to their homes, they in turn soon infected their whole families, who in three days succumbed, and were buried in one common grave. Priests and doctors visiting the sick returned from their duties ill, and soon were numbered with the dead. O death! cruel, bitter, impious death! which thus breaks the bonds of affection and divides father and mother, brother and sister, husband and wife. Lamenting our misery, we feared to fly, yet we dared not remain.",
+  "uk": "Тривожні звістки дійшли до нас із [GetDisease('bubonic_plague').GetOrigin.GetName]: схоже, там укорінилася нова пошесть. Один середземноморський купецький флот, що зіткнувся з нею, нібито залишив таке свідчення:\\n\\nГоре нам! Наші кораблі заходять до порту, але з тисячі моряків ледве десятеро вціліли. Ми повертаємося додому; родичі й сусіди сходяться звідусіль провідати нас. Горе нам, бо ми кидаємо в них стріли смерті! Поки ми розмовляли з ними, поки вони обіймали й цілували нас, ми сіяли отруту з наших уст. Повернувшись додому, вони невдовзі заразили свої родини, і за три дні всі ті померли й були поховані в спільній могилі. Священники й лікарі, що провідували хворих, поверталися зі своєї служби недужими й незабаром поповнювали лік мертвих. О смерте! Жорстока, гірка, нечестива смерте! Ти рвеш узи любові й розлучаєш батька з матір’ю, брата з сестрою, чоловіка з дружиною. Оплакуючи нашу недолю, ми боялися тікати, але й не наважувалися лишитися."
  },
  "black_death.1.title": {
   "en": "The [ShowSituationNameWithNoTooltip('black_death')] in [GetDisease('bubonic_plague').GetOrigin.GetNameWithNoTooltip]",
@@ -92,8 +92,8 @@
   "uk": "Протистояння двох крайнощів"
  },
  "black_death.1003.a": {
-  "en": "Rest in peace...",
-  "uk": "Спочивай з миром…"
+  "en": "We pray for [target_portrait_character.GetHerHim]!",
+  "uk": "Молімося за [target_portrait_character.GetHerHim]!"
  },
  "black_death.1003.b": {
   "en": "Gather every doctor in the capital!",
@@ -101,15 +101,15 @@
  },
  "black_death.1003.c": {
   "en": "There is nothing we can do...",
-  "uk": ""
+  "uk": "Ми нічого не можемо вдіяти…"
  },
  "black_death.1003.desc": {
-  "en": "[target_portrait_character.GetName] has been hiding the symptoms for some time. But alas, on their deathbed, it is clear that they too had fallen to this terrible ailment that haunts the [ROOT.GetCountry.GetFlavorRank].\\n\\nNot much can be done for [target_portrait_character.GetHerHim] now, only darkness awaits, for [target_portrait_character.GetHerHim], and us.",
-  "uk": "[target_portrait_character.GetName] якийсь час [Select_CString(target_portrait_character.IsFemale,'приховувала', 'приховував')] свої симптоми, але все таємне стає явним. Нещодавно ми дізналися, що [Select_CString(target_portrait_character.IsFemale,'вона впала', 'він упав')] жертвою хвороби, яка лютує у наших землях.\\n\\nВже надто пізно. Ми нічим не можемо допомогти. [Select_CString(target_portrait_character.IsFemale,'Її', 'Його')] чекає темрява, яка незабаром поглине й нас."
+  "en": "[target_portrait_character.GetName] has been hiding the symptoms for some time. But alas, today it is clear that [target_portrait_character.GetHerHim] too has fallen to this terrible ailment that haunts the [ROOT.GetCountry.GetFlavorRank].\\n\\nThere is little we can do for [target_portrait_character.GetHerHim] now save pray — and hope the physicians know their work.",
+  "uk": "[target_portrait_character.GetName] вже певний час приховує симптоми. Та, на жаль, сьогодні стало ясно: і [target_portrait_character.GetHerHim] здолала ця страшна недуга, що переслідує [ROOT.GetCountry.GetFlavorRank].\\n\\nНавряд чи тепер ми зможемо [target_portrait_character.GetHerHim] врятувати. Лишається тільки молитися — і сподіватися, що лікарі знають свою справу."
  },
  "black_death.1003.t": {
-  "en": "Black Death Claims the Throne",
-  "uk": "Чорна чума на троні"
+  "en": "Black Death Reaches the Throne",
+  "uk": "Чорна смерть дісталася трону"
  },
  "black_death.1004.a": {
   "en": "Fill every hole!",
@@ -488,8 +488,8 @@
   "uk": "Ми розберемося з заколотниками силою."
  },
  "black_death.1025.b": {
-  "en": "Quickly, print our propaganda!",
-  "uk": "Друкуйте листівки, терміново!"
+  "en": "Quickly, distract them with festivities!",
+  "uk": "Швидко, відволічіть їх святкуваннями!"
  },
  "black_death.1025.c": {
   "en": "Blame the [blame_target.GetAdjectiveWithNoTooltip] people.",
@@ -601,6 +601,6 @@
  },
  "total_death_toll_tt": {
   "en": "Throughout the [ShowSituationName('black_death')] [situation|e], the #R Reaper#! claimed the souls of [ROOT.GetVariable('bd_total_death_toll_variable').GetValue|V0] #Y K#! of our [pops|e]",
-  "uk": ""
+  "uk": "За весь час [Concept('situation','ситуації')|e] [ShowSituationName('black_death')] #R Жнець#! забрав душі [ROOT.GetVariable('bd_total_death_toll_variable').GetValue|V0] #Y тис.#! наших [Concept('pops','груп населення')|e]"
  }
 }

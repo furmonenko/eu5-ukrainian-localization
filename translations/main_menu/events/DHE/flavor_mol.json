@@ -4,8 +4,8 @@
   "uk": "Заснування #Y Молдавії#! і створення #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#! на становищі [Concept('subject','васала')|e] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_RP')|L]#!#!"
  },
  "flavor_mol.1000.a": {
-  "en": "Let [target_character.GetHerHim] found the [ShowSubjectTypeNameWithNoTooltip('march')].",
-  "uk": "Хай керує маркою."
+  "en": "Let him found the [ShowSubjectTypeNameWithNoTooltip('march')].",
+  "uk": "Хай засновує [ShowSubjectTypeNameWithNoTooltip('march')]."
  },
  "flavor_mol.1000.a.at": {
   "en": "[target_character.GetName] will venture into [target_area.GetName] to establish the $MOL_ADJ$ [ShowSubjectTypeName('march')]",
@@ -16,20 +16,20 @@
   "uk": "#R Це може призвести до конфлікту з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_TP')|L]#!#!#!"
  },
  "flavor_mol.1000.b": {
-  "en": "We cannot risk the wrath of [target_country.GetNameWithNoTooltip]",
-  "uk": "Ми не хочемо накликати на себе гнів [target_country.Custom('CL_GEN')]."
+  "en": "We cannot risk the wrath of [target_country.GetNameWithNoTooltip].",
+  "uk": "Ми не можемо накликати на себе гнів держави [target_country.GetNameWithNoTooltip]."
  },
  "flavor_mol.1000.b.entry": {
   "en": "We cannot risk their wrath.",
-  "uk": ""
+  "uk": "Ми не можемо накликати на себе їхній гнів."
  },
  "flavor_mol.1000.desc": {
-  "en": "Since the establishment of the [target_country.GetLongName], [root_country.GetName] has been in constant conflict with the marauding, [target_country.GetCulture.GetName] raiders. [target_character.GetShortName] of [target_location.GetName] intends to unite [target_area.GetName] under [target_character.GetHerHis] and our banners. [target_character.GetShortNameWithNoTooltip] has sworn loyalty towards [root_character.GetName], and promises us to settle the borderlands and serve the [root_country.GetFlavorRank] as a loyal [ShowSubjectTypeName('march')].",
-  "uk": "Відколи існує [target_country.GetLongName], [root_country.GetName] постійно бореться з лютими #L [target_country.GetCulture.GetName|l]ими#! набіжниками. [target_character.GetShortName] з #L [target_location.Custom('LR_GEN')|l]#! [target_location.GetName] має намір об'єднати область [target_area.GetName] під своїми та нашими прапорами. [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'присягнулася','присягнувся')], що [root_character.GetName] завжди може розраховувати на [Select_CString(target_character.IsFemale,'її','його')] відданість. [Select_CString(target_character.IsFemale,'Вона','Він')] обіцяє нам, що наведе лад на кордонах і вірно служитиме [root_country.Custom('rank_ru_DAT')|l] на посаді голови #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#!."
+  "en": "Since the establishment of the [target_country.GetLongName], [root_country.GetName] has been in constant conflict with the marauding, [target_country.GetCulture.GetName] raiders. [target_character.GetShortName] of [target_location.GetName] intends to unite [target_area.GetName] under his and our banners. [target_character.GetShortNameWithNoTooltip] has sworn loyalty towards [root_character.GetName], and promises us to settle the borderlands and serve the [root_country.GetFlavorRank] as a loyal [ShowSubjectTypeName('march')].",
+  "uk": "Відколи постала [target_country.GetLongName], [root_country.GetName] безперервно воює з грабіжниками-набіжниками, що належать до культури [target_country.GetCulture.GetName]. [target_character.GetShortName] з району [target_location.GetName] має намір об’єднати область [target_area.GetName] під своїми й нашими прапорами. [target_character.GetShortNameWithNoTooltip] присягає на вірність правителю [root_character.GetName] й обіцяє заселити прикордоння та вірно служити нашій державі — [root_country.GetFlavorRank] — як відданий васал типу [ShowSubjectTypeName('march')]."
  },
  "flavor_mol.1000.entry": {
   "en": "Dragoș Vodă, Founder of Moldavia",
-  "uk": ""
+  "uk": "Драгош Вода, засновник Молдавії"
  },
  "flavor_mol.1000.historical_info": {
   "en": "Dragoș Vodă, also known as Dragoș the Founder, was the first Voivode of Moldavia and vassal to the Hungarian Crown. After the resounding victory against the Golden Horde in 1345, Dragoș and other men from Maramureş made their way to the Moldova River to settle the land. Though the 'Dismounting' on the banks of the said river is shrouded in myth and as such the founding of Moldavia itself is a debated topic.",
@@ -45,7 +45,7 @@
  },
  "flavor_mol.1001.a.entry": {
   "en": "We cannot afford a conflict with them over it.",
-  "uk": ""
+  "uk": "Ми не можемо дозволити собі конфлікт із ними через це."
  },
  "flavor_mol.1001.b": {
   "en": "This is a declaration of war!",
@@ -56,8 +56,8 @@
   "uk": "[target_character.GetName] з #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_character.IsFemale,'увійшла','увійшов')] до області [target_area.GetName] з парадним військом [root_country.GetAdjectiveWithNoTooltip|l]их вояків. Зовсім не зважаючи на нашу владу, ці люди оселилися в [target_location.Custom('LR_PREP')|l] [target_location.GetName] і створили державу [release_country.GetName] просто в нас під носом!"
  },
  "flavor_mol.1001.historical_info": {
-  "en": "After the crucial defeat against Hungary in 1345, Dragoș Vodă, also known as Dragoș the Founder, and his followers moved to Moldavia to establish a march for the Hungarian king. Though the 'Dismounting' on the banks of the said river is shrouded in myth and as such the founding of Moldavia itself is a debated topic, it is often noted as the origin story of the Voivodship of Moldavia.",
-  "uk": "Зазнавши нищівної поразки від угорських військ у 1345 році, Драгош Воде, також відомий як Драгош Засновник, відступив до Молдавії і заснував марку для угорського короля. Історія заснування Молдавії оповита таємницею, і правдивість легенди про пристановище на берегах річки ставиться під сумнів, однак цю подію часто вважають початком молдавського воєводства."
+  "en": "After the crucial defeat against Hungary in 1345, Dragoș Vodă, also known as Dragoș the Founder, and his followers moved to Moldavia to establish a march for the Hungarian king. Though the 'Dismounting' on the banks of the said river is shrouded in myth and as such the founding of Moldavia itself is a debated topic, it is often noted as the origin story of the Voivodeship of Moldavia.",
+  "uk": "Після вирішальної поразки від Угорщини 1345 року Драгош Вода, відомий також як Драгош Засновник, разом зі своїми прибічниками перебрався до Молдавії, щоб заснувати марку для угорського короля. Хоча «Спішення» на берегах тієї річки оповите легендами, а саме заснування Молдавії досі викликає суперечки, цю подію часто вважають початком Молдавського воєводства."
  },
  "flavor_mol.1001.title": {
   "en": "The [ShowSubjectTypeNameWithNoTooltip('march')] of [GetCountry('MOL').GetNameWithNoTooltip]",
@@ -76,12 +76,12 @@
   "uk": "#L [target_country.GetAdjective|l]ий#! напад"
  },
  "flavor_mol.1003.a": {
-  "en": "Seek the protection of [root_country.GetNameWithNoTooltip]",
-  "uk": "Попросимо захисту в [root_country.Custom('CL_GEN')]"
+  "en": "Seek the protection of [root_country.GetNameWithNoTooltip].",
+  "uk": "Шукати захисту в держави [root_country.GetNameWithNoTooltip]."
  },
  "flavor_mol.1003.a.entry": {
   "en": "Seek the protection of $MOL$.",
-  "uk": ""
+  "uk": "Шукати захисту в держави $MOL$."
  },
  "flavor_mol.1003.a.tt": {
   "en": "All other countries in [target_area.GetName] get the option to join us",
@@ -105,7 +105,7 @@
  },
  "flavor_mol.1004.a.entry": {
   "en": "The lands of the area shall stand united!",
-  "uk": ""
+  "uk": "Землі цієї області стоятимуть єдині!"
  },
  "flavor_mol.1004.b": {
   "en": "We cannot turn our back to the [target_country.GetLongNameWithNoTooltip].",
@@ -113,7 +113,7 @@
  },
  "flavor_mol.1004.b.entry": {
   "en": "We cannot turn our back to them.",
-  "uk": ""
+  "uk": "Ми не можемо відвернутися від них."
  },
  "flavor_mol.1004.desc": {
   "en": "$flavor_mol.1003.desc$\\n\\n[target_character.GetHerHis|U] men have now come to us in hopes to persuade us to join [release_country.GetName] as well.",

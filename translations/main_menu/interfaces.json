@@ -297,7 +297,7 @@
  },
  "AGE_ENDING_TT": {
   "en": "The [Age.GetNameWithNoTooltip] [GetAgeEndingDate(Age.Self)].",
-  "uk": ""
+  "uk": "[Age.GetNameWithNoTooltip] закінчиться [GetAgeEndingDate(Age.Self)]."
  },
  "AGE_EVENT_TT_ADMINISTRATIVE": {
   "en": "Administrative Focus",
@@ -4919,6 +4919,10 @@
   "en": "Our Colonial Charters are:",
   "uk": "Наші колоніальні поселення:"
  },
+ "COLONIAL_CHARTERS_TT_TEXT": {
+  "en": "The [Country.GetLongName] have [Country.GetTotalColonialCharters|0V] $game_concept_colonial_charters$.",
+  "uk": "У [Country.GetLongName] є [Country.GetTotalColonialCharters|0V] $game_concept_colonial_charters$."
+ },
  "COLONIAL_LATERALVIEW": {
   "en": "The [Player.GetAdjective] Colonial Charters",
   "uk": "#L [Player.GetAdjective]і#! колоніальні поселення"
@@ -8733,7 +8737,7 @@
  },
  "EXPLORATION_TAB_TT_FLAVOR_TEXT": {
   "en": "Hic sunt dracones!",
-  "uk": ""
+  "uk": "Hic sunt dracones! («Тут водяться дракони!»)"
  },
  "EXPLORATION_TAB_TT_TEXT": {
   "en": "This tab allows you to send [exploration|e] missions to unveil the mysteries beyond the [terra_incognita|e].",
@@ -9252,8 +9256,8 @@
   "uk": "Їжа"
  },
  "FOOD_TAB_TT_TEXT": {
-  "en": "In this Tab you can address the [food|e] situation of your [provinces|e] and [markets|e]. We can also attempt to remedy [food] shortage plights through the [construction|e] of [food] [buildings|e] or the expansion of [food_raw_materials|e].",
-  "uk": "У цій вкладці Ви можете отримати відомості про [Concept('food','їжу')|e] у Ваших [Concept('provinces','провінціях')|e] та на Ваших [Concept('markets','ринках')|e]. Тут же можна спробувати виправити нестачу [Concept('food','їжі')], [Concept('construction','побудувавши')|e] [Concept('food','продовольчі')] [Concept('buildings','споруди')|e], або розширивши видобуток [Concept('food_raw_materials','ресурсів для виробництва їжі')|e]."
+  "en": "In this Tab you can address the [food|e] situation of your [provinces|e] and [markets|e]. You can also attempt to remedy [food] shortage plights through the [construction|e] of [food] [buildings|e] or the expansion of [food_raw_materials|e].",
+  "uk": "У цій вкладці Ви можете дізнатися про стан [Concept('food','їжі')|e] у Ваших [Concept('provinces','провінціях')|e] та на Ваших [Concept('markets','ринках')|e]. Також можна спробувати виправити нестачу [food] через [Concept('construction','будівництво')|e] [Concept('buildings','споруд')|e] для виробництва [Concept('food','їжі')] або розширення [Concept('food_raw_materials','видобутку сировини для їжі')|e]."
  },
  "FOOD_TOTAL_CONSUMPTION": {
   "en": "Total Food Consumption $VAL|+=2$ due to:",
@@ -9697,7 +9701,7 @@
  },
  "F_OCCUPIED_STATUS": {
   "en": "@trigger_no![LOCATION.GetName] is [occupied|e].",
-  "uk": ""
+  "uk": "@trigger_no![LOCATION.GetName] [Concept('occupied','окуповано')|e]."
  },
  "F_SIEGE_STATUS": {
   "en": "@trigger_no![LOCATION.GetName] is under [siege|e].",
@@ -11455,6 +11459,10 @@
   "en": "The World known to [Country.GetNameWithNoTooltip]",
   "uk": "Світ, відомий [Country.Custom('CL_DAT')]"
  },
+ "KNOWN_WORLD_TEXT": {
+  "en": "[Country.GetNameWithNoTooltip] has [discovered|e] this portion of the World. Who knows what lies beyond the uncharted shores?",
+  "uk": "[Country.GetNameWithNoTooltip] [Concept('discovered','відкрила')|e] цю частину світу. Хто знає, що лежить за невідомими берегами?"
+ },
  "LABEL": {
   "en": "Label",
   "uk": "Позначка"
@@ -12173,7 +12181,7 @@
  },
  "LEGITIMACY_INVESTMENT_TOOLTIP_T": {
   "en": "$game_concept_court_maintenance$ of [CEconomy.GetCountry.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_court_maintenance$ держави [CEconomy.GetCountry.GetNameWithNoTooltip]"
  },
  "LEGITIMACY_INVESTMENT_TT_TEXT": {
   "en": "At [CEconomy.GetMaintenancePercentage('court_maintenance')|2=%V] investment, the #V $game_concept_court_maintenance$#! of [CEconomy.GetCountry.GetName] is [CEconomy.GetExpenseSettingInvestmentExpenseInfo('court_maintenance')|2R]@gold!, for a monthly increase of [CEconomy.GetExpenseSettingChange('court_maintenance')|2=G]@[CEconomy.GetCountry.GetGovernment.GetGovernmentType.GetPowerKey]!.",
@@ -14017,7 +14025,7 @@
  },
  "MAPMODE_GREAT_POWER_AREAS": {
   "en": "#T $mapmode_great_power_areas_name$#!\\nEach [area|e] is colored by the [country|e] that dominates it (owns at least ⅔ of its locations). Undominated [areas|e] are shown in grey.",
-  "uk": ""
+  "uk": "#T $mapmode_great_power_areas_name$#!\\nКожну [Concept('area','область')|e] пофарбовано в колір [Concept('country','держави')|e], що її домінує (володіє щонайменше ⅔ її районів). Недомінові [Concept('areas','області')|e] показано сірим."
  },
  "MAPMODE_GUI_PIN": {
   "en": "Click to pin the map mode menu",
@@ -17081,7 +17089,7 @@
  },
  "MISSIONS_SUBTAB_CURRENT_TASKS_TT_FLAVOR_TEXT": {
   "en": "'Facta, non verba'.",
-  "uk": ""
+  "uk": "«Facta, non verba» («Діла, а не слова»)."
  },
  "MISSIONS_SUBTAB_CURRENT_TASKS_TT_TEXT": {
   "en": "These are the possible tasks from the ongoing mission tree.",
@@ -17093,7 +17101,7 @@
  },
  "MISSIONS_SUBTAB_MISSION_FOCUS_TT_FLAVOR_TEXT": {
   "en": "'Ducunt volentem fata, nolentem trahunt'.",
-  "uk": ""
+  "uk": "«Ducunt volentem fata, nolentem trahunt» («Того, хто хоче, доля веде, а того, хто не хоче, тягне»)."
  },
  "MISSIONS_SUBTAB_MISSION_FOCUS_TT_TEXT": {
   "en": "These are the mission trees from the different play styles.",
@@ -17625,7 +17633,7 @@
  },
  "MODS_GUI_MOD_CHECKSUM_WARNING": {
   "en": "$BULLET$$MOD$ modifies the checksum.  \\n",
-  "uk": ""
+  "uk": "$BULLET$$MOD$ змінює контрольну суму.  \\n"
  },
  "MODS_GUI_MOD_LOAD_AFTER": {
   "en": "Load this mod after",
@@ -17641,7 +17649,7 @@
  },
  "MODS_GUI_MOD_UNSUPPORTED_GAME_VERSION": {
   "en": "$BULLET$$MOD$ supports a game version different to the current one, could provoke problems. \\n",
-  "uk": ""
+  "uk": "$BULLET$$MOD$ підтримує іншу версію гри, ніж поточна, що може спричинити проблеми. \\n"
  },
  "MODS_GUI_MOD_VERSION": {
   "en": "Version: [LocalMod.Version]",
@@ -17977,7 +17985,7 @@
  },
  "NAVAL_RANGE_TT_FLAVOR_TEXT": {
   "en": "Et non plus ultra.",
-  "uk": ""
+  "uk": "Et non plus ultra («І не далі»)."
  },
  "NAVAL_RANGE_TT_TEXT": {
   "en": "The $game_concept_naval_range$ of [Country.GetDoubleModifierValueNoFormat('naval_range','naval_range_modifier')] is due to:",
@@ -19452,8 +19460,8 @@
   "uk": "@trigger_no! Для цього [Concept('unit_type', 'типу військ')|e] немає підрозділів."
  },
  "NO_SUPPLY_LOC": {
-  "en": "@trigger_no!Not able to get [food|e] in [LOCATION.GetName]",
-  "uk": "@trigger_no! Не може отримати [Concept('food', 'їжу')|e] з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]"
+  "en": "@trigger_no!Not able to get food in [LOCATION.GetNameWithNoTooltip], as the maximum logistics distance is [Unit.GetMaxSupplyDistanceCost|L].",
+  "uk": "@trigger_no!Неможливо отримати їжу в районі [LOCATION.GetNameWithNoTooltip]: максимальна дальність постачання — [Unit.GetMaxSupplyDistanceCost|L]."
  },
  "NO_SURPLUS_FROM_MARKET": {
   "en": "@trigger_no! Not enough [PossibleTrade.GetGoods.GetName] surplus in [PossibleTrade.GetFromMarket.GetName]",
@@ -21163,6 +21171,10 @@
   "en": "Their Maximum Literacy is #important_number $VAL|2/%$#! due to:",
   "uk": "Їхня максимальна грамотність становить #important_number $VAL|2/%$#!. Причини:"
  },
+ "POP_MIGRATING_IN": {
+  "en": "[migrated|e] in",
+  "uk": "[Concept('migrated','мігрували')|e] сюди"
+ },
  "POP_MIGRATING_IN_FIXED_START": {
   "en": "Some are due to:",
   "uk": "Часткові причини:"
@@ -21190,6 +21202,10 @@
  "POP_MIGRATING_LINE_NAME": {
   "en": "Pop Migration",
   "uk": "Міграція групи населення"
+ },
+ "POP_MIGRATING_OUT": {
+  "en": "[migrated|e] out",
+  "uk": "[Concept('migrated','мігрували')|e] звідси"
  },
  "POP_MIGRATING_OUT_NO_TYPE": {
   "en": "• $SIZE|R$ [POP_TYPE.GetName] [migrated|e] from [LOCATION.GetName] to [TARGET_LOCATION.GetName] last month.",
@@ -21729,7 +21745,7 @@
  },
  "PRESTIGE_RESOURCE_TOOLTIP_T": {
   "en": "$game_concept_prestige$ of [Country.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_prestige$ держави [Country.GetNameWithNoTooltip]"
  },
  "PRESTIGE_RESOURCE_TT_TEXT": {
   "en": "[Country.GetFixedPointCurrencyValue('prestige')|V]@prestige! has the following effects:",
@@ -22261,7 +22277,7 @@
  },
  "PROVINCES_TAB_TT_FLAVOR_TEXT": {
   "en": "'Cuius est solum, eius est usque ad coelum et ad inferos.'",
-  "uk": ""
+  "uk": "«Cuius est solum, eius est usque ad coelum et ad inferos» («Чия земля, тому належить і небо над нею, і надра під нею»)."
  },
  "PROVINCES_TAB_TT_TEXT": {
   "en": "From here you can see all your owned [provinces|e].",
@@ -24021,7 +24037,7 @@
  },
  "RESEARCH_SUBTAB_TT_FLAVOR_TEXT": {
   "en": "'Eppur si muove'.",
-  "uk": ""
+  "uk": "«Eppur si muove» («А все-таки вона крутиться»)."
  },
  "RESEARCH_SUBTAB_TT_TEXT": {
   "en": "From here you can manage your [research|e] and access the [advances|e] available to your [country|e].",

@@ -13,7 +13,7 @@
  },
  "CANT_BREAK_COBELLIGERENT_TRUCE": {
   "en": "This [country|e] cannot be called while having a [truce|e] with the enemy",
-  "uk": ""
+  "uk": "Цю [Concept('country','державу')|e] не можна покликати, поки вона має [Concept('truce','перемир’я')|e] з ворогом"
  },
  "DECLARE_WAR_CONFIRMATION_STABHIT": {
   "en": "Immediate Effects:",
@@ -52,8 +52,8 @@
   "uk": "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName] приєднаються до [Concept('war','війна')|e], оскільки вони в $TYPE$ з @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]"
  },
  "DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER": {
-  "en": "And they will take over as [war|e] leader since they consider themselves stronger than @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]",
-  "uk": "І вони візьмуть на себе роль лідера [Concept('war','війна')|e], оскільки вважають себе сильнішими за @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]"
+  "en": "And they will take over as [war_leader|e] since they consider themselves stronger than @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]",
+  "uk": "І вони перейму́ть роль [Concept('war_leader','лідера війни')|e], оскільки вважають себе сильнішими за @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]"
  },
  "DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_ALLIES": {
   "en": "Possible defenders joining @[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y]:",
@@ -81,15 +81,15 @@
  },
  "INTERVENE_IN_WAR_CONFIRM_ACCEPT": {
   "en": "Intervene Anyway",
-  "uk": ""
+  "uk": "Все одно втрутитися"
  },
  "INTERVENE_WAR_UNION_MEMBER_WARNING_DESC": {
   "en": "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] is your union member and will be on the opposing side of this war. Intervening will break the union! Are you sure you want to intervene?",
-  "uk": ""
+  "uk": "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] — Ваш член унії й опиниться на протилежному боці цієї війни. Втручання розірве унію! Ви впевнені, що хочете втрутитися?"
  },
  "INTERVENE_WAR_UNION_MEMBER_WARNING_TITLE": {
   "en": "Intervening against Union Member",
-  "uk": ""
+  "uk": "Втручання проти члена унії"
  },
  "PRICE_ON_WAR_ANTAGONISM": {
   "en": "It will also make other [countries|e] have [antagonism|e] towards us, exactly how much will depend on how much they care about this war:",
@@ -101,7 +101,7 @@
  },
  "PRICE_ON_WAR_ANTAGONISM_ENTRY_LOCATION": {
   "en": "$NAME$ ([LOCATION.GetRank.GetIcon] [LOCATION.GetName]): Base of $VAL|Y$[antagonism_i]",
-  "uk": ""
+  "uk": "$NAME$ ([LOCATION.GetRank.GetIcon] [LOCATION.GetName]): базове значення $VAL|Y$[antagonism_i]"
  },
  "PRICE_ON_WAR_IMPACT_ENTRY": {
   "en": "@trigger_yes!$NAME$ : $PRICE$",
@@ -117,7 +117,7 @@
  },
  "PRICE_ON_WAR_TRUST": {
   "en": "Declaring war will immediatelly lower our [trust|e] with the defenders by [GetDefine('NDiplomacy', 'TRUST_CHANGE_DECLARE_WAR')|R] and by additional [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_DEFENDER')|R] if we are breaking a [truce|e] with them. Breaking a truce will lower our trust with every other nation in range by [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_IN_RANGE')|R].",
-  "uk": ""
+  "uk": "Оголошення війни негайно знизить нашу [Concept('trust','довіру')|e] до захисників на [GetDefine('NDiplomacy', 'TRUST_CHANGE_DECLARE_WAR')|R], а якщо ми порушуємо [Concept('truce','перемир’я')|e] з ними — ще на [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_DEFENDER')|R]. Порушення перемир’я знизить нашу довіру в усіх інших націй у межах досяжності на [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_IN_RANGE')|R]."
  },
  "WILL_ACCEPT_PROMISE_LAND": {
   "en": "[Country.GetName] will accept the [call_to_arms] if you promise to give them land in the [peace_treaty|e].",

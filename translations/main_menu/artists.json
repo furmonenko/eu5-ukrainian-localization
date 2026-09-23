@@ -17,7 +17,7 @@
  },
  "ARTIST_TYPE_DESC_doctor": {
   "en": "Physicians, surgeons, and learned healers who have studied the nature of the human body and the causes of disease. Renowned doctors of the era include Ibn Sina, Paracelsus, and Andreas Vesalius.",
-  "uk": ""
+  "uk": "Лікарі, хірурги й учені цілителі, що вивчали природу людського тіла та причини хвороб. Серед славетних лікарів доби — Ібн Сіна, Парацельс і Андреас Везалій."
  },
  "ARTIST_TYPE_DESC_iconographer": {
   "en": "Iconographers create religious icons for Orthodox and Miaphysite churches. Famous iconographers of the era include Eulalios, Georgios Kallergis, and Manuel Panselinos.",
@@ -73,7 +73,7 @@
  },
  "ARTIST_TYPE_NAME_doctor": {
   "en": "Doctor",
-  "uk": ""
+  "uk": "Лікар"
  },
  "ARTIST_TYPE_NAME_iconographer": {
   "en": "Iconographer",
@@ -132,12 +132,12 @@
   "uk": "Наступні твори були захоплені і доставлені до [COUNTRY.GetCapital.GetRank.Custom('LR_VP')|l] [COUNTRY.GetCapital.GetName]: $LIST$."
  },
  "ART_WAS_DESTROYED": {
-  "en": "The following works of art were destroyed: $LIST$.",
-  "uk": "Наступні твори були знищені: $LIST$"
+  "en": "The following [works_of_art|e] were destroyed: $LIST$.",
+  "uk": "Наступні [Concept('works_of_art','твори мистецтва')|e] були знищені: $LIST$."
  },
  "CHAR_WORKING_ON": {
-  "en": "[CHARACTER.GetSheHe|U] is working on a new [CHARACTER.GetArtInProgress.GetName], and is about [CHARACTER.GetArtProgress|%0Y] done.",
-  "uk": "[CHARACTER.GetSheHe|U] працює над новим твором [CHARACTER.GetArtInProgress.GetName], він завершений на [CHARACTER.GetArtProgress|%0Y]."
+  "en": "[CHARACTER.GetSheHe|U] is working on a new [CHARACTER.GetArtInProgress.GetName], and is about [CHARACTER.GetArtProgress|%0Y] done.\\nThe [work_of_art|e] progress depends on the level of [court_maintenance|e].",
+  "uk": "[CHARACTER.GetSheHe|U] працює над новим твором [CHARACTER.GetArtInProgress.GetName], він завершений на [CHARACTER.GetArtProgress|%0Y].\\nПрогрес [Concept('work_of_art','твору мистецтва')|e] залежить від рівня [Concept('court_maintenance','утримання двору')|e]."
  },
  "CHAR_WORK_OF_ART_ENTRY": {
   "en": "• [WORK_OF_ART.GetName]",
@@ -205,7 +205,7 @@
  },
  "WORK_OF_ART_MODIFIER_SCALE_DESC": {
   "en": "The benefits given by a [WORK_OF_ART_TYPE.GetName] are impacted by these modifiers:",
-  "uk": ""
+  "uk": "Переваги від [WORK_OF_ART_TYPE.GetName] залежать від таких модифікаторів:"
  },
  "WORK_OF_ART_NAME": {
   "en": "[WORK_OF_ART.GetCreator.GetArtistType.GetBasicWorkName] ",
@@ -317,7 +317,7 @@
  },
  "apoheteftiko_systhma_byzantio": {
   "en": "Apochetephtikó Sýstēma",
-  "uk": ""
+  "uk": "Апохетефтікон Систима"
  },
  "apoheteftiko_systhma_byzantio_desc": {
   "en": "An exemplary treatise on the grand designs and the engineering sewage and water-purification systems under the city of $constantinople$, allegedly written by a member of the $Kantakouzenos$ family.",
@@ -349,11 +349,43 @@
  },
  "art_of_war_desc": {
   "en": "Attributed to Sun Tzu and composed around the 5th century BC, $art_of_war$ is one of the most influential military treatises in history. Rooted in early Chinese statecraft and strategy, it systematized the principles of warfare, intelligence, and leadership. By the 13th and 14th centuries, it was already a classical text studied by generals and scholars across East Asia. Its emphasis on adaptability and psychological warfare profoundly shaped both Chinese and later global military thought.",
-  "uk": ""
+  "uk": "Трактат $art_of_war$, що його приписують Сунь-цзи й було складено близько V століття до н. е., — один із найвпливовіших військових трактатів в історії. Він постав на ґрунті раннього китайського мистецтва управління державою та стратегії й систематизував засади війни, розвідки та керівництва. У XIII–XIV століттях це вже був класичний текст, який вивчали полководці й учені по всій Східній Азії. Його наголос на пристосовності та психологічній війні глибоко вплинув як на китайську, так і на пізнішу світову військову думку."
+ },
+ "art_quality_above_average": {
+  "en": "Renowned in Area",
+  "uk": "Відомий в області"
+ },
+ "art_quality_average": {
+  "en": "Well Known in Area",
+  "uk": "Добре відомий в області"
+ },
+ "art_quality_bad": {
+  "en": "Locally Known",
+  "uk": "Відомий у місцевості"
+ },
+ "art_quality_below_average": {
+  "en": "Locally Well Known",
+  "uk": "Добре відомий у місцевості"
+ },
+ "art_quality_best": {
+  "en": "Magnum Opus",
+  "uk": "Головна праця життя"
+ },
+ "art_quality_good": {
+  "en": "Regionally Well Known",
+  "uk": "Добре відомий у регіоні"
+ },
+ "art_quality_great": {
+  "en": "Masterpiece",
+  "uk": "Шедевр"
+ },
+ "art_quality_very_good": {
+  "en": "Regionally Renowned",
+  "uk": "Славетний у регіоні"
  },
  "artis_magnae_artilleriae": {
   "en": "Artis Magnae Artilleriae",
-  "uk": ""
+  "uk": "Артіс Маґне Артілеріє"
  },
  "artis_magnae_artilleriae_desc": {
   "en": "A treatise with the intention of being used as a manual on artillery, rocketry, and pyrotechnics.",
@@ -465,27 +497,27 @@
  },
  "boccaccio_concerning_famous_women": {
   "en": "Concerning Famous Women",
-  "uk": ""
+  "uk": "Про славетних жінок"
  },
  "boccaccio_concerning_famous_women_desc": {
   "en": "Written by [GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip], #italic $boccaccio_concerning_famous_women$#! contains a collection of stories associated with many prominent women in history, largely covering Classical figures.",
-  "uk": ""
+  "uk": "Написана [GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip], книга #italic $boccaccio_concerning_famous_women$#! містить збірку оповідей про багатьох видатних жінок в історії, переважно античних."
  },
  "boccaccio_on_the_fates_of_famous_men": {
   "en": "On the Fates of Famous Men",
-  "uk": ""
+  "uk": "Про долі славетних чоловіків"
  },
  "boccaccio_on_the_fates_of_famous_men_desc": {
   "en": "Written by [GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip], this work covers the various histories of important men, ranging from Biblical figures to those who lived within [GetCharacter('nap_giovanni_boccaccio').GetHisHer] lifetime.",
-  "uk": ""
+  "uk": "Написана [GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip], ця праця охоплює історії важливих чоловіків — від біблійних постатей до тих, хто жив за життя [GetCharacter('nap_giovanni_boccaccio').GetHisHer]."
  },
  "boccaccio_the_decameron": {
   "en": "The Decameron",
-  "uk": ""
+  "uk": "Декамерон"
  },
  "boccaccio_the_decameron_desc": {
   "en": "#italic $boccaccio_the_decameron$#! offers an interesting tale of ten individuals who flee to the countryside, escaping the [ShowSituationNameWithNoTooltip('black_death')] for a period of brief respite.",
-  "uk": ""
+  "uk": "#italic $boccaccio_the_decameron$#! розповідає цікаву історію про десятьох людей, що тікають у сільську місцевість від [ShowSituationNameWithNoTooltip('black_death')], аби ненадовго перепочити."
  },
  "bogurodzica": {
   "en": "Bogurodzica",
@@ -513,11 +545,11 @@
  },
  "book_of_kells": {
   "en": "Book of Kells",
-  "uk": ""
+  "uk": "Келлська книга"
  },
  "book_of_kells_desc": {
   "en": "Produced by Celtic monks around 800 AD, the Book of Kells is an illuminated Gospel manuscript renowned for its intricate calligraphy and breathtaking decoration. Originally created at the monastery of Iona and later kept at Kells, it is one of the finest surviving works of Insular art and a masterpiece of the early medieval world.",
-  "uk": ""
+  "uk": "Створена кельтськими ченцями близько 800 року, Келлська книга — це ілюмінований рукопис Євангелія, уславлений майстерною каліграфією та захопливим оздобленням. Її створили в монастирі на Айоні, а згодом зберігали в Келлсі; вона є одним із найдосконаліших зразків острівного мистецтва та шедевром раннього середньовіччя."
  },
  "book_of_light": {
   "en": "Mashafa Berhan",
@@ -557,11 +589,11 @@
  },
  "boyana_church_frescoes": {
   "en": "Boyana Church Frescoes",
-  "uk": ""
+  "uk": "Фрески Бояньської церкви"
  },
  "boyana_church_frescoes_desc": {
   "en": "Painted in 1259, these medieval murals adorn the small Boyana Church near $ORIGIN$. They mark a breakthrough in Byzantine art, anticipating Renaissance humanism with individualized portraits and dynamic compositions, and represent diverse religious figures, including Christ and the Virgin. These frescoes stand out for their lively realism, subtle modeling of faces, expressive gestures, and a sense of individual character that gives the figures an almost lifelike presence, marking a significant artistic advance in the medieval Balkans.",
-  "uk": ""
+  "uk": "Ці середньовічні розписи 1259 року прикрашають невелику Бояньську церкву поблизу $ORIGIN$. Вони позначають прорив у візантійському мистецтві: індивідуалізовані портрети й динамічні композиції передбачають гуманізм Відродження. Тут зображено різних релігійних діячів, зокрема Христа та Богородицю. Фрески вирізняються живим реалізмом, тонкою моделюванням облич, виразними жестами та відчуттям окремого характеру, що надає постатям майже живої присутності, — це значний мистецький здобуток середньовічних Балкан."
  },
  "brandenburger_tor": {
   "en": "Brandenburger Tor",
@@ -581,11 +613,11 @@
  },
  "byzantine_crown_jewels": {
   "en": "$BYZ_ADJ$ Crown Jewels",
-  "uk": ""
+  "uk": "Коронні коштовності: $BYZ_ADJ$"
  },
  "byzantine_crown_jewels_desc": {
   "en": "A set of beautiful gems that adorn the crowns and other symbols of [GetCountry('BYZ').GetAdjective] power.",
-  "uk": ""
+  "uk": "Набір прекрасних дорогоцінних каменів, що прикрашають корони та інші символи [GetCountry('BYZ').GetAdjective] влади."
  },
  "ca_foscari": {
   "en": "Ca' Foscari",
@@ -645,11 +677,11 @@
  },
  "carta_monastery": {
   "en": "Cârța Monastery",
-  "uk": ""
+  "uk": "Монастир Кирца"
  },
  "carta_monastery_desc": {
   "en": "Founded in the 13th century as a Cistercian abbey in the southern Carpathians of Transylvania, the monastery was established under the patronage of the Hungarian crown and settled by monks following the austere ideals of the White Monks. Its church, built in a transitional Romanesque-to-Gothic style, featured a tall facade, pointed arches, and ribbed vaults. Its construction both introduced and helped develop French Gothic art in the region. The complex included monastic buildings arranged around a cloister, reflecting the Cistercian emphasis on simplicity, manual labor, and contemplation. ",
-  "uk": ""
+  "uk": "Заснований у XIII столітті як цистерціанське абатство в південних Карпатах Трансільванії, монастир постав під заступництвом угорської корони, і оселилися в ньому ченці, що дотримувалися суворих ідеалів білих ченців. Його церква, споруджена в перехідному стилі від романського до готичного, мала високий фасад, стрілчасті арки та ребристі склепіння. Її будівництво водночас принесло й допомогло розвинути французьку готику в краї. Комплекс охоплював монастирські будівлі навколо внутрішнього двору, що відбивало цистерціанський наголос на простоті, ручній праці та спогляданні."
  },
  "cartes_de_cassini": {
   "en": "The Cassini Map",
@@ -817,7 +849,7 @@
  },
  "cluny_abbey": {
   "en": "Cluny Abbey",
-  "uk": ""
+  "uk": "Абатство Клюні"
  },
  "cluny_abbey_desc": {
   "en": "Founded in 910 in Burgundy, Cluny Abbey became the spiritual heart of a major monastic reform movement that reshaped Western Christendom. Its influence spread through hundreds of daughter houses emphasizing liturgical rigor and papal independence. The third abbey church, completed in the early 12th century, was the largest in Europe until St. Peter's in Rome.",
@@ -829,7 +861,7 @@
  },
  "codex_balduini_trevirensis_desc": {
   "en": "This Chronicle, also called #italic Kaiser Heinrichs Romfahrt#!, not only depicts the Italian Campaign of Henry VII of Luxembourg, where he was crowned as the King of Italy and Emperor, but also shows depictions of the College of Electors of the Holy Roman Empire, legitimizing their claim to the prestigious roles.",
-  "uk": ""
+  "uk": "Ця хроніка, також відома як #italic Kaiser Heinrichs Romfahrt#!, не лише зображує італійський похід Генріха VII Люксембурзького, де його коронували королем Італії та імператором, а й містить зображення колегії виборців Священної Римської імперії, що узаконює їхні претензії на престижні ролі."
  },
  "codex_calixtinus": {
   "en": "Codex Calixtinus",
@@ -845,7 +877,7 @@
  },
  "codex_manesse_desc": {
   "en": "This manuscript contains some of the most famous works of #italic Minnesang#! in the $central_german_dialect$ dialect. The gathered songs are accompanied by beautiful illustrations, not only of significant members of the medieval German nobility, like members of the Hohenstaufen dynasty, but also of the individual poets who originally wrote the songs.",
-  "uk": ""
+  "uk": "Цей рукопис містить одні з найвідоміших творів #italic Minnesang#! діалектом $central_german_dialect$. Зібрані пісні супроводжують прекрасні ілюстрації не лише значних представників середньовічної німецької знаті, як-от Гогенштауфенів, а й окремих поетів, що первісно склали ці пісні."
  },
  "codex_marianus": {
   "en": "Codex Marianus",
@@ -1120,8 +1152,8 @@
   "uk": "«Історія Церкви»"
  },
  "ecclesiastica_historia_desc": {
-  "en": "Eusebius's $ecclesiastica_historia$ records the early history of Christianity. It describes the growth of the Church, the lives of martyrs, and key events in its development. The work is a major source for understanding the early Christian era.",
-  "uk": "$ecclesiastica_historia$ Євсевія Кесарійського описує становлення християнства, життя мучеників та ключові події в розвитку церкви. Це найважливіше літературне джерело, що дозволяє вивчити та зрозуміти ранню історію християнства."
+  "en": "The $ecclesiastica_historia$ is a 23-volume work on the history of the Church written by Nikephoros Kallistos Xanthopoulos, a priest at Hagia Sophia in Constantinople. It covers a timeline that spans from the time of Christ to the reign of Emperor Phocas and was dedicated to Emperor Andronikos II Palaiologos.",
+  "uk": "$ecclesiastica_historia$ — 23-томна праця з історії Церкви, написана Нікефоросом Калістом Ксантопулосом, священником собору Святої Софії в Константинополі. Вона охоплює період від часів Христа до правління імператора Фоки й була присвячена імператору Андроніку II Палеологу."
  },
  "eight_questions_on_the_power_of_the_pope": {
   "en": "Eight Questions on the Power of the Pope",
@@ -1221,11 +1253,11 @@
  },
  "euphrasian_basilica": {
   "en": "Euphrasian Basilica",
-  "uk": ""
+  "uk": "Євфразієва базиліка"
  },
  "euphrasian_basilica_desc": {
   "en": "Erected in the 6th century in the coastal city of Poreč by Bishop Euphrasius, this grand early Christian basilica replaced an earlier church and became a showcase of Byzantine art in the Adriatic region. Its interior is dominated by an apse mosaic depicting Christ enthroned among saints and martyrs, surrounded by shimmering gold tesserae and vivid figures that convey divine majesty and serene authority.",
-  "uk": ""
+  "uk": "Ця велична раннєхристиянська базиліка, зведена в VI столітті в прибережному місті Пореч єпископом Євфразієм на місці давнішої церкви, стала взірцем візантійського мистецтва в Адріатичному регіоні. Інтер’єру домінує мозаїка апсиди із зображенням Христа на троні серед святих і мучеників, оточеного мерехтливою золотою смальтою та яскравими постатями, що передають божественну велич і спокійну владу."
  },
  "fairy_tales_for_childred": {
   "en": "Fairy Tales for Children",
@@ -1313,7 +1345,7 @@
  },
  "gaude_mater_polonia": {
   "en": "Gaude Mater Polonia",
-  "uk": ""
+  "uk": "Ґауде Матер Полонія"
  },
  "gaude_mater_polonia_desc": {
   "en": "#italic Gaude Mater Polonia#! is a hymnal created in 1253 by Vincent of Kielcza. It is dedicated to Saint Stanislaus from Szczepanów who became a martyr after he was taken captive and killed on orders of King Bolesław II. It served as one of the unofficial anthems of medieval Poland and later the Polish-Lithuanian Commonwealth.",
@@ -1369,7 +1401,7 @@
  },
  "giant_wild_goose_pagoda": {
   "en": "Giant Wild Goose Pagoda",
-  "uk": ""
+  "uk": "Пагода Великого дикого гусака"
  },
  "giant_wild_goose_pagoda_desc": {
   "en": "Erected in 652 AD under Emperor Gāozōng of the Táng dynasty, the $giant_wild_goose_pagoda$ in $xian_province$ was built to store Buddhist scriptures brought from India by the monk Xuánzàng. Originally five stories high and later expanded, it became a major center for translation and dissemination of Buddhist texts. It remains one of China's most iconic religious monuments, linking spiritual devotion and scholarly exchange.",
@@ -1425,11 +1457,11 @@
  },
  "gospels_of_tsar_ivan_alexander": {
   "en": "Gospels of Tsar Ivan Alexander",
-  "uk": ""
+  "uk": "Євангеліє царя Івана Олександра"
  },
  "gospels_of_tsar_ivan_alexander_desc": {
   "en": "The Gospels of Tsar Ivan Alexander is a lavishly illuminated book that embodies the cultural ambition and the religious devotion of Bulgaria's second golden age.",
-  "uk": ""
+  "uk": "Євангеліє царя Івана Олександра — розкішно ілюмінована книга, що втілює культурні устремління та релігійне завзяття другого золотого віку Болгарії."
  },
  "gramatica_de_la_lengua_castellana": {
   "en": "Gramática de la Lengua Castellana",
@@ -1797,7 +1829,7 @@
  },
  "kaogongji": {
   "en": "Kǎogōngjì",
-  "uk": ""
+  "uk": "Каогунцзи"
  },
  "kaogongji_desc": {
   "en": "Compiled during the late Zhōu dynasty (ca. 5th century BC), the $kaogongji$ is the oldest known Chinese text on technology and urban planning. It details state workshops, materials, and craft organization, outlining how bronze, jade, and ritual items were produced. It also provides a model for ideal city design based on ritual and cosmology. Rediscovered and studied throughout imperial history, it offers critical insight into the technological and bureaucratic sophistication of early China.",
@@ -1829,11 +1861,11 @@
  },
  "kiev_missal": {
   "en": "Kiev Missal",
-  "uk": ""
+  "uk": "Київський місал"
  },
  "kiev_missal_desc": {
   "en": "The Kiev Missal consists of a small group of parchment leaves dating from the late 10th century and written in the earliest form of the Glagolitic script. Containing portions of a Roman-rite missal translated into Old Church Slavonic, the text reflects the transitional period when Slavic Christians were adopting liturgical practices from both Eastern and Western traditions. Preserved through centuries, these fragments remain one of the most important surviving documents for understanding the early spread of Christianity among the Slavs and the development of their written culture.",
-  "uk": ""
+  "uk": "Київський місал — невелика група пергаментних аркушів кінця X століття, написаних найдавнішою формою глаголиці. Містячи уривки місалу римського обряду, перекладеного староцерковнослов’янською, текст відображає перехідний період, коли слов’янські християни запозичували літургійні практики зі східних і західних традицій. Ці уривки, збережені крізь століття, лишаються одним із найважливіших джерел для розуміння раннього поширення християнства серед слов’ян і розвитку їхньої писемної культури."
  },
  "kilwa_chronicle": {
   "en": "$ZAN$ Chronicle",
@@ -2037,11 +2069,11 @@
  },
  "leaning_tower_of_pisa": {
   "en": "Leaning Tower of Pisa",
-  "uk": ""
+  "uk": "Пізанська вежа"
  },
  "leaning_tower_of_pisa_desc": {
   "en": "The $leaning_tower_of_pisa$ was constructed with an unstable foundation, leading to the famous slant that gives it its name. Its tilting silhouette has become iconic, and is now the defining feature of [ShowLocationName('pisa')].",
-  "uk": ""
+  "uk": "$leaning_tower_of_pisa$ збудовано на нестабільному фундаменті, через що вона набула свого знаменитого нахилу, від якого й отримала назву. Її похилий силует став символом і тепер є визначальною рисою [ShowLocationName('pisa')]."
  },
  "leshan_giant_buddha": {
   "en": "Lèshān Giant Buddha",
@@ -2273,7 +2305,7 @@
  },
  "mont_saint_michel": {
   "en": "Mont-Saint-Michel",
-  "uk": ""
+  "uk": "Мон-Сен-Мішель"
  },
  "mont_saint_michel_desc": {
   "en": "Rising dramatically from a tidal island off Normandy's coast, Mont Saint-Michel originated as a small oratory in the early 8th century and grew into a major Benedictine abbey by the 11th. Its a combination of religious devotion and military fortification. The abbey church, built atop the rocky peak, became a key pilgrimage site. By 1337, it was both a symbol of French faith and a formidable stronghold against English advances.",
@@ -2489,7 +2521,7 @@
  },
  "pagoda_of_fogong_temple": {
   "en": "Pagoda of Fógōng Temple",
-  "uk": ""
+  "uk": "Пагода храму Фогун"
  },
  "pagoda_of_fogong_temple_desc": {
   "en": "Constructed in 1056 during the Liáo dynasty, the $pagoda_of_fogong_temple$ in $shanxi_area$ is the oldest surviving fully wooden pagoda in China, standing nearly 70 meters high of advanced timber engineering and Buddhist architectural tradition. Built under the patronage of the Khitan rulers, it symbolized both piety and technical achievement.",
@@ -2945,11 +2977,11 @@
  },
  "rila_monastery_art": {
   "en": "Rila Monastery",
-  "uk": ""
+  "uk": "Рильський монастир"
  },
  "rila_monastery_art_desc": {
   "en": "Founded in the 10th century by the hermit St. John of Rila and nestled in the rugged mountains of the same name, this Orthodox monastery soon became a spiritual beacon for Slavic Christianity. The monastery was an important pilgrimage site, and received significant donations from every ruler of Bulgaria starting from its creation. It served as a vital center for preserving Bulgarian language, literature, and religious traditions during times of hardship, while the monks maintained a rich tradition of manuscript transcription, icon painting, and hymn composition.",
-  "uk": ""
+  "uk": "Заснований у X столітті відлюдником святим Іваном Рильським і схований у суворих однойменних горах, цей православний монастир невдовзі став духовним маяком слов’янського християнства. Він був важливим місцем паломництва й отримував значні пожертви від кожного правителя Болгарії від самого заснування. У часи випробувань він правив за осередок збереження болгарської мови, літератури та релігійних традицій, а ченці плекали багату традицію переписування рукописів, писання ікон і творення гімнів."
  },
  "ripoll_abbey": {
   "en": "Ripoll Abbey",
@@ -2977,11 +3009,11 @@
  },
  "roman_history": {
   "en": "Roman History",
-  "uk": ""
+  "uk": "Римська історія"
  },
  "roman_history_desc": {
   "en": "A 37-book series, $roman_history$ is a chronicle of events that happened in [GetCountry('BYZ').GetName] from the beginning of the 13th century to the middle of the 14th century.",
-  "uk": ""
+  "uk": "$roman_history$ у 37 книгах — хроніка подій, що відбувалися в [GetCountry('BYZ').GetName] від початку XIII до середини XIV століття."
  },
  "romeo_and_juliet": {
   "en": "Romeo and Juliet",
@@ -3057,7 +3089,7 @@
  },
  "sainte_chapelle": {
   "en": "Sainte-Chapelle",
-  "uk": ""
+  "uk": "Сен-Шапель"
  },
  "sainte_chapelle_desc": {
   "en": "Built between 1241 and 1248 by King Louis IX, $sainte_chapelle$ in $ORIGIN$ was designed to house Christ's Crown of Thorns and other Passion relics. The chapel's stained glass windows depicts over 1,000 biblical scenes. Located within the royal palace, it symbolized the unity of monarchy and divine authority.",
@@ -3137,7 +3169,7 @@
  },
  "sergius_sive_capitis_caput": {
   "en": "Sergius Sive Capitis Caput",
-  "uk": ""
+  "uk": "Сергіус Сіве Капітіс Капут"
  },
  "sergius_sive_capitis_caput_desc": {
   "en": "Written as a mockery of the cult around reliquaries, this play is a sharp critique of Catholicism and its more extreme tendencies.",
@@ -3177,7 +3209,7 @@
  },
  "simplicius_simplicissimus": {
   "en": "Simplicissimus Teutsch",
-  "uk": ""
+  "uk": "Сімплиціссімус Тайч"
  },
  "simplicius_simplicissimus_desc": {
   "en": "The account of the life of an odd Vagrant by the name of Melchior Sternfels von Fuchshain, where and which he came into this world, what he saw, learned, and experienced and why he voluntarily withdrew it.",
@@ -3393,7 +3425,7 @@
  },
  "tabula_hungariae": {
   "en": "Tabula Hungariae",
-  "uk": ""
+  "uk": "Табула Гунґаріє"
  },
  "tabula_hungariae_desc": {
   "en": "$tabula_hungariae$ is a groundbreaking map of Hungary, featuring over 1,300 settlements and is one of the earliest attempts at cartographic scale and regional accuracy.",
@@ -3833,7 +3865,7 @@
  },
  "vezelay_abbey": {
   "en": "Vézelay Abbey",
-  "uk": ""
+  "uk": "Абатство Везле"
  },
  "vezelay_abbey_desc": {
   "en": "The Abbey of Sainte-Marie-Madeleine at Vézelay was founded in the 9th century and became a vital pilgrimage center, claiming relics of Mary Magdalene. Its Romanesque basilica, consecrated in 1104, is celebrated for its sculpted tympana and harmonious proportions. Vézelay also played an important political role — it hosted the preaching of the Second and Third Crusades. By the 14th century, it remained a key spiritual and cultural landmark in Burgundy.",

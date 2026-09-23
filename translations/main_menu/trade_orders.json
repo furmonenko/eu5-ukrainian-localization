@@ -1,7 +1,7 @@
 {
  "TRADE_ORDERS_SCROLL_LIST_EMPTY": {
   "en": "#italic No [trade_orders|e] currently active in this [market|e].#!",
-  "uk": ""
+  "uk": "#italic Наразі в цьому [Concept('market','ринку')|e] немає активних [Concept('trade_orders','торгових замовлень')|e].#!"
  },
  "TRADE_ORDER_BELOW_PROFIT_CUTOFF": {
   "en": "@trigger_fail! No profitable [trade|e] route could be found.\\nBest route is [MARKET.GetNameWithNoTooltip] at $PROFIT_RATIO|+=2$@gold! per [merchant_capacity|e] (minimum required is $CUTOFF|=2$@gold!).\\nThe AI will keep trying each day.",
@@ -9,163 +9,163 @@
  },
  "TRADE_ORDER_CANCEL": {
   "en": "Cancel Trade Order",
-  "uk": ""
+  "uk": "Скасувати торгове замовлення"
  },
  "TRADE_ORDER_CANCEL_TT": {
   "en": "Remove this Trade Order",
-  "uk": ""
+  "uk": "Прибрати це торгове замовлення"
  },
  "TRADE_ORDER_CAPACITY_LABEL": {
   "en": "[merchant_capacity|e] to allocate:",
-  "uk": ""
+  "uk": "[merchant_capacity|e] для розподілу:"
  },
  "TRADE_ORDER_CAPACITY_TOOLTIP_SUMMARY": {
   "en": "This [trade_order|e] is managing to use [TradeOrderItem.GetUsedCapacity|2Y]@trade_capacity! out of the [TradeOrderItem.GetAllocatedCapacity|2Y]@trade_capacity! allocated for [TradeOrderItem.GetGoods.GetName].",
-  "uk": ""
+  "uk": "Це [Concept('trade_order','торгове замовлення')|e] використовує [TradeOrderItem.GetUsedCapacity|2Y]@trade_capacity! із [TradeOrderItem.GetAllocatedCapacity|2Y]@trade_capacity!, виділених для товару «[TradeOrderItem.GetGoods.GetName]»."
  },
  "TRADE_ORDER_CAPACITY_TOOLTIP_TITLE": {
   "en": "Automation allocation",
-  "uk": ""
+  "uk": "Розподіл автоматизації"
  },
  "TRADE_ORDER_CAPACITY_TOTAL": {
   "en": "Orders are using [GetTradeOrderTotalCapacity] / [GetAutomatedCapacity] [merchant_capacity|e]",
-  "uk": ""
+  "uk": "Замовлення використовують [GetTradeOrderTotalCapacity] / [GetAutomatedCapacity] [Concept('merchant_capacity','місткості купців')|e]"
  },
  "TRADE_ORDER_CREATE_EXPORT": {
   "en": "Set [export|e] Order",
-  "uk": ""
+  "uk": "Створити замовлення на [Concept('export','експорт')|e]"
  },
  "TRADE_ORDER_CREATE_IE_TT_EXPORT": {
   "en": "Allocate [merchant_capacity|e] to [export|e] this good with the best route.",
-  "uk": ""
+  "uk": "Виділити [Concept('merchant_capacity','місткість купців')|e], щоб [Concept('export','експортувати')|e] цей товар найкращим маршрутом."
  },
  "TRADE_ORDER_CREATE_IE_TT_IMPORT": {
   "en": "Allocate [merchant_capacity|e] to [import|e] this good with the best route.",
-  "uk": ""
+  "uk": "Виділити [Concept('merchant_capacity','місткість купців')|e], щоб [Concept('import','імпортувати')|e] цей товар найкращим маршрутом."
  },
  "TRADE_ORDER_CREATE_IMPORT": {
   "en": "Set [import|e] Order",
-  "uk": ""
+  "uk": "Створити замовлення на [Concept('import','імпорт')|e]"
  },
  "TRADE_ORDER_CREATE_TT": {
   "en": "Allocate [merchant_capacity|e] to [import|e] or [export|e] this good with the best route.",
-  "uk": ""
+  "uk": "Виділити [Concept('merchant_capacity','місткість купців')|e], щоб [Concept('import','імпортувати')|e] або [Concept('export','експортувати')|e] цей товар найкращим маршрутом."
  },
  "TRADE_ORDER_EXPORT": {
   "en": "Export Order",
-  "uk": ""
+  "uk": "Замовлення на експорт"
  },
  "TRADE_ORDER_EXPORT_ACTIVE": {
   "en": "You have an active [export|e] Order for this good.\\nThe AI will spend [GetTradeOrderCapacity] [merchant_capacity|e] finding the best destination.",
-  "uk": ""
+  "uk": "У Вас є активне замовлення на [Concept('export','експорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','місткості купців')|e] на пошук найкращого пункту призначення."
  },
  "TRADE_ORDER_IE_CAPACITY_TOOLTIP_SUMMARY": {
   "en": "This [trade_order|e] allocates [ImportExportLateralView.GetTradeOrderCapacity|2Y]@trade_capacity! for [ImportExportLateralView.GetGoods.GetNameWithNoTooltip].",
-  "uk": ""
+  "uk": "Це [Concept('trade_order','торгове замовлення')|e] виділяє [ImportExportLateralView.GetTradeOrderCapacity|2Y]@trade_capacity! для товару «[ImportExportLateralView.GetGoods.GetNameWithNoTooltip]»."
  },
  "TRADE_ORDER_IE_CARD_TITLE_EXPORT": {
   "en": "Export order of [GOODS.GetName] from [MARKET.GetName]",
-  "uk": ""
+  "uk": "Замовлення на експорт товару «[GOODS.GetName]» з ринку [MARKET.GetName]"
  },
  "TRADE_ORDER_IE_CARD_TITLE_IMPORT": {
   "en": "Import order of [GOODS.GetName] to [MARKET.GetName]",
-  "uk": ""
+  "uk": "Замовлення на імпорт товару «[GOODS.GetName]» до ринку [MARKET.GetName]"
  },
  "TRADE_ORDER_IMPORT": {
   "en": "Import Order",
-  "uk": ""
+  "uk": "Замовлення на імпорт"
  },
  "TRADE_ORDER_IMPORT_ACTIVE": {
   "en": "You have an active [import|e] Order for this good.\\nThe AI will spend [GetTradeOrderCapacity] [merchant_capacity|e] finding the best source.",
-  "uk": ""
+  "uk": "У Вас є активне замовлення на [Concept('import','імпорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','місткості купців')|e] на пошук найкращого джерела."
  },
  "TRADE_ORDER_MOVE_DOWN_TT": {
   "en": "Move this [trade_order] down in priority",
-  "uk": ""
+  "uk": "Знизити пріоритет цього [trade_order]"
  },
  "TRADE_ORDER_MOVE_UP_TT": {
   "en": "Move this [trade_order] up in priority",
-  "uk": ""
+  "uk": "Підвищити пріоритет цього [trade_order]"
  },
  "TRADE_ORDER_NO_PROFITABLE_ROUTE": {
   "en": "@trigger_fail! No profitable [trade|e] could be found. The AI will keep trying each day.",
-  "uk": ""
+  "uk": "@trigger_fail! Прибуткової [Concept('trade','торгівлі')|e] не знайдено. ШІ пробуватиме щодня."
  },
  "TRADE_ORDER_NO_ROUTES": {
   "en": "No [trade|e] has been assigned yet. The AI will set one up each day.",
-  "uk": ""
+  "uk": "Жодної [Concept('trade','торгової угоди')|e] ще не призначено. ШІ налаштує одну щодня."
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_DESC": {
   "en": "Opens the Trades tab for this market with your [trade|e] only, merchant capacity from this market, and the import or export filter matching this [trade_order|e].",
-  "uk": ""
+  "uk": "Відкриває вкладку торгових угод для цього ринку лише з Вашою [Concept('trade','торгівлею')|e], місткістю купців із цього ринку та фільтром імпорту чи експорту, що відповідає цьому [Concept('trade_order','торговому замовленню')|e]."
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_TITLE_EXPORT": {
   "en": "Open exports in this market",
-  "uk": ""
+  "uk": "Відкрити експорт у цьому ринку"
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_TITLE_IMPORT": {
   "en": "Open imports in this market",
-  "uk": ""
+  "uk": "Відкрити імпорт у цьому ринку"
  },
  "TRADE_ORDER_PRIORITY_INFO": {
   "en": "Orders listed earlier receive [merchant_capacity|e] first when there is not enough to fill all orders.",
-  "uk": ""
+  "uk": "Замовлення, розташовані вище, першими отримують [Concept('merchant_capacity','місткість купців')|e], коли її не вистачає на всі замовлення."
  },
  "TRADE_ORDER_QUICK_BUILDING_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for Building needs",
-  "uk": ""
+  "uk": "Торгові замовлення для потреб споруд"
  },
  "TRADE_ORDER_QUICK_BUILDING_NEEDS_OPEN": {
   "en": "Create Trade Order for Building needs",
-  "uk": ""
+  "uk": "Створити торгове замовлення для потреб споруд"
  },
  "TRADE_ORDER_QUICK_EXPORT_MENU_TITLE": {
   "en": "Create [export] [trade_order]",
-  "uk": ""
+  "uk": "Створити [export] [trade_order]"
  },
  "TRADE_ORDER_QUICK_EXPORT_OPEN": {
   "en": "Create [export] [trade_order]",
-  "uk": ""
+  "uk": "Створити [export] [trade_order]"
  },
  "TRADE_ORDER_QUICK_EXPORT_TT": {
   "en": "Create an [export|e] order with 1 [merchant_capacity|e]. The AI will find the best destination each day.",
-  "uk": ""
+  "uk": "Створити замовлення на [Concept('export','експорт')|e] з 1 [Concept('merchant_capacity','місткості купців')|e]. ШІ щодня шукатиме найкращий пункт призначення."
  },
  "TRADE_ORDER_QUICK_FOOD_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [food]",
-  "uk": ""
+  "uk": "Торгові замовлення на [food]"
  },
  "TRADE_ORDER_QUICK_FOOD_NEEDS_OPEN": {
   "en": "Create Trade Order for [food]",
-  "uk": ""
+  "uk": "Створити торгове замовлення на [food]"
  },
  "TRADE_ORDER_QUICK_GOV_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for Government Needs",
-  "uk": ""
+  "uk": "Торгові замовлення для потреб уряду"
  },
  "TRADE_ORDER_QUICK_GOV_NEEDS_OPEN": {
   "en": "Create Trade Order for Government Needs",
-  "uk": ""
+  "uk": "Створити торгове замовлення для потреб уряду"
  },
  "TRADE_ORDER_QUICK_IMPORT_MENU_TITLE": {
   "en": "Create [import] [trade_order]",
-  "uk": ""
+  "uk": "Створити [import] [trade_order]"
  },
  "TRADE_ORDER_QUICK_IMPORT_OPEN": {
   "en": "Create [import] [trade_order]",
-  "uk": ""
+  "uk": "Створити [import] [trade_order]"
  },
  "TRADE_ORDER_QUICK_IMPORT_TT": {
   "en": "Create an [import|e] order with 1 [merchant_capacity|e]. The AI will find the best source each day.",
-  "uk": ""
+  "uk": "Створити замовлення на [Concept('import','імпорт')|e] з 1 [Concept('merchant_capacity','місткості купців')|e]. ШІ щодня шукатиме найкраще джерело."
  },
  "TRADE_ORDER_QUICK_POP_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [pop_needs]",
-  "uk": ""
+  "uk": "Торгові замовлення для [pop_needs]"
  },
  "TRADE_ORDER_QUICK_POP_NEEDS_OPEN": {
   "en": "Create Trade Order for [pop_needs]",
-  "uk": ""
+  "uk": "Створити торгове замовлення для [pop_needs]"
  },
  "TRADE_ORDER_ROUTE_LINE": {
   "en": "[TRADE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ [TRADE.GetProfit|+=2]@gold!#!",
@@ -173,7 +173,7 @@
  },
  "TRADE_ORDER_TRADES_SCROLL_LIST_EMPTY": {
   "en": "There is no [trade|e] in the market for this good. You can manually add one or add a [trade_order|e] to set it for you.",
-  "uk": ""
+  "uk": "На ринку немає [Concept('trade','торгівлі')|e] цим товаром. Можна додати її вручну або додати [Concept('trade_order','торгове замовлення')|e], щоб воно зробило це за Вас."
  },
  "TRADE_ORDER_TRADES_TOOLTIP_SUMMARY": {
   "en": "[TradeOrderItem.GetTradeCount] active [trade|e] routes earning [TradeOrderItem.GetProfitPerCapacity|+=2]@gold! per [merchant_capacity|e].",
@@ -181,6 +181,6 @@
  },
  "TRADE_ORDER_TRADES_TOOLTIP_TITLE": {
   "en": "Trade Order Routes",
-  "uk": ""
+  "uk": "Маршрути торгового замовлення"
  }
 }

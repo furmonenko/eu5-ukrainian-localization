@@ -72,8 +72,8 @@
   "uk": "Країна [COUNTRY.GetName] претендує на трон країни [TARGET_COUNTRY.GetName] і готова воювати за нього."
  },
  "JOIN_WAR_REASON_DESC_Scripted": {
-  "en": "Scripted",
-  "uk": "Скриптована"
+  "en": "Events brought them to the war.",
+  "uk": "Події втягнули їх у війну."
  },
  "JOIN_WAR_REASON_DESC_Subject": {
   "en": "[COUNTRY.GetName] is a subject of [TARGET_COUNTRY.GetName].",
@@ -85,7 +85,7 @@
  },
  "JOIN_WAR_REASON_DESC_SupportRevoltToReunite": {
   "en": "[COUNTRY.GetName] wants [TARGET_COUNTRY.GetName] to secede to them.",
-  "uk": ""
+  "uk": "[COUNTRY.GetName] хоче, щоб [TARGET_COUNTRY.GetName] відокремилася до них."
  },
  "JOIN_WAR_REASON_DESC_Target": {
   "en": "[COUNTRY.GetName] is the country that [war|e] was declared upon.",
@@ -125,7 +125,7 @@
  },
  "JOIN_WAR_REASON_SupportRevoltToReunite": {
   "en": "Supporting our Secessionist Revolters",
-  "uk": ""
+  "uk": "Підтримка наших сепаратистських повстанців"
  },
  "JOIN_WAR_REASON_Target": {
   "en": "Original Target",
@@ -145,7 +145,7 @@
  },
  "LEAVE_WAR_REASON_BrokeFreeOfOverlord": {
   "en": "Broke free from their [overlord|e] [TARGET_COUNTRY.GetName]",
-  "uk": ""
+  "uk": "Звільнилися від влади свого [Concept('overlord','сюзерена')|e] [TARGET_COUNTRY.GetName]"
  },
  "LEAVE_WAR_REASON_CivilWar": {
   "en": "Fell into Civil War",
@@ -169,7 +169,7 @@
  },
  "LEAVE_WAR_REASON_Scripted": {
   "en": "Events forced them out",
-  "uk": ""
+  "uk": "Події змусили їх вийти"
  },
  "LEAVE_WAR_REASON_Union": {
   "en": "Formed a [union|e] with [TARGET_COUNTRY.GetName]",
@@ -240,8 +240,8 @@
   "uk": "@trigger_no! Військову ціль зберігали в безпеці недостатньо довго, і вона дає лише бонус $VAL|+=2$ захисникам, коли їм потрібно $NEED|+=0$."
  },
  "WARGOAL_TICKED_ENOUGH_DAYS": {
-  "en": "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to take it!",
-  "uk": "Минуло більше $NEED|Y$ днів з моменту повного контролю $NAME|Y$ з боку $WHO|Y$, який тепер може нав'язати мир і забрати це!"
+  "en": "More than $NEED|Y$ days have passed with $NAME|Y$ fully controlled by $WHO|Y$, who can now force a peace to take it!",
+  "uk": "Минуло понад $NEED|Y$ днів відтоді, як $NAME|Y$ перебуває під повним контролем $WHO|Y$, який тепер може нав’язати мир і забрати цю територію!"
  },
  "WARGOAL_TICKED_ENOUGH_DAYS_INDEPENDENCE": {
   "en": "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to get their independence!",
@@ -385,7 +385,7 @@
  },
  "WAR_FORBIDS_WHITE_PEACE_TOOLTIP": {
   "en": "#R [CASUS_BELLI.GetName] forbids a [white_peace|e]!#!",
-  "uk": ""
+  "uk": "#R [CASUS_BELLI.GetName] забороняє [Concept('white_peace','білий мир')|e]!#!"
  },
  "WAR_FR_L_A_D": {
   "en": "[COUNTRY.GetLongNameWithFlag]: [COUNTRY.GetTotalStrength]@army_strength!",
@@ -401,7 +401,7 @@
  },
  "WAR_LATERALVIEW_ANNEX_ALL_REVOLTERS": {
   "en": "Annex All Revolters",
-  "uk": ""
+  "uk": "Приєднати всіх повстанців"
  },
  "WAR_LATERALVIEW_ANNEX_REVOLTER": {
   "en": "Annex Revolter",
@@ -421,15 +421,15 @@
  },
  "WAR_LATERALVIEW_GRANT_INDEPENDENCE_THIRD_OUTCOME_HINT": {
   "en": "#S Tip: This is not your only option. If you negotiate peace without granting independence — or simply win this war — [COUNTRY.GetName] will return to being your [subject|e].#!",
-  "uk": ""
+  "uk": "#S Порада: це не єдиний варіант. Якщо Ви укладете мир без надання незалежності — або просто переможете у цій війні — [COUNTRY.GetName] знову стане Вашим [Concept('subject','васалом')|e].#!"
  },
  "WAR_LATERALVIEW_REIN_IN_SUBJECT": {
   "en": "Rein In Subject",
-  "uk": ""
+  "uk": "Приборкати васала"
  },
  "WAR_LATERALVIEW_REIN_IN_SUBJECT_TOOLTIP": {
   "en": "Open peace negotiations to end this independence war while keeping [COUNTRY.GetName] as your subject.\\n\\nIf you make peace without granting independence, [COUNTRY.GetName] will return to their [subject|e] status. You can also simply negotiate [white_peace|e] to end the war with no territorial changes.\\n\\n#S You have sufficient [war_score|e] to force [COUNTRY.GetName] to accept peace.#!",
-  "uk": ""
+  "uk": "Розпочати мирні переговори, щоб завершити цю війну за незалежність, залишивши [COUNTRY.GetName] своїм васалом.\\n\\nЯкщо Ви укладете мир без надання незалежності, [COUNTRY.GetName] повернеться до статусу [Concept('subject','васала')|e]. Також можна просто домовитися про [Concept('white_peace','білий мир')|e], щоб завершити війну без територіальних змін.\\n\\n#S Ви маєте достатньо [Concept('war_score','рахунку війни')|e], щоб змусити [COUNTRY.GetName] прийняти мир.#!"
  },
  "WAR_LATERALVIEW_SUBJECT": {
   "en": "@trigger_no!We cannot sue for [peace|e] while being a [subject|e] of our war leader",
@@ -461,11 +461,11 @@
  },
  "WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_ARMY": {
   "en": "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@army_strength!",
-  "uk": ""
+  "uk": "Загальні втрати від [Concept('attrition','виснаження')|e] на цей момент: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@army_strength!"
  },
  "WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_NAVAL": {
   "en": "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@navy_strength!",
-  "uk": ""
+  "uk": "Загальні втрати від [Concept('attrition','виснаження')|e] на цей момент: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@navy_strength!"
  },
  "WAR_OVERVIEW_BATTLES_LOST": {
   "en": "Battles lost",
@@ -521,7 +521,7 @@
  },
  "WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER": {
   "en": "[attrition|e] Loses Breakdown",
-  "uk": ""
+  "uk": "Опис втрат від [Concept('attrition','виснаження')|e]"
  },
  "WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER_ENTRY": {
   "en": "[COUNTRY.GetNameWithFlag]: $VAL|V$",
@@ -541,15 +541,15 @@
  },
  "WAR_REQUIRES_ATTACKER_PEACE_TREATIES_TOOLTIP": {
   "en": "The following [peace_treaties|e] must be enforced by the attacker to end this war: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "Щоб завершити цю війну, нападник має нав’язати такі [Concept('peace_treaties','мирні договори')|e]: $PEACE_TREATIES$"
  },
  "WAR_REQUIRES_DEFENDER_PEACE_TREATIES_TOOLTIP": {
   "en": "The following [peace_treaties|e] must be enforced by the defender to end this war: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "Щоб завершити цю війну, захисник має нав’язати такі [Concept('peace_treaties','мирні договори')|e]: $PEACE_TREATIES$"
  },
  "WAR_REQUIRES_PEACE_TREATIES_TOOLTIP": {
   "en": "The following [peace_treaties|e] must be enforced to end this war: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "Щоб завершити цю війну, потрібно нав’язати такі [Concept('peace_treaties','мирні договори')|e]: $PEACE_TREATIES$"
  },
  "WAR_SCROLL_LIST_EMPTY": {
   "en": "No countries available with this search criteria",

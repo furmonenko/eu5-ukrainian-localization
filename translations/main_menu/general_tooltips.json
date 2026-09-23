@@ -24,8 +24,8 @@
   "uk": "[advance_icon] $ADVANCE$ ($AGE$)"
  },
  "AI_CONQUER_DESIRE_TOOLTIP": {
-  "en": "The [COUNTRY.GetLongName] calculated desire to conquer [LOCATION.GetName] is $SCORE|Y$, cached value is $CACHE|Y$.\\n",
-  "uk": "Бажання [COUNTRY.GetLongName] завоювати [LOCATION.GetName] становить $SCORE|Y$.\\n"
+  "en": "The [COUNTRY.GetLongName] calculated desire to conquer [LOCATION.GetName] is $SCORE|2Y$, cached value is $CACHE|Y$.\\n",
+  "uk": "Розрахована бажаність завоювання [LOCATION.GetName] для [COUNTRY.GetLongName] становить $SCORE|2Y$, кешоване значення — $CACHE|Y$.\\n"
  },
  "AI_CONTROLLER_AREA_TOOLTIP": {
   "en": "[LOCATION.GetName] is in a controller area with $NUMBER$ other locations.\\nController is [COUNTRY.GetName].\\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$.",
@@ -53,11 +53,11 @@
  },
  "AREA_GREAT_POWER_INFO_CONTESTED": {
   "en": "[great_power_points|e]: $VAL$ · Contested",
-  "uk": ""
+  "uk": "[great_power_points|e]: $VAL$ · Оскаржується"
  },
  "AREA_GREAT_POWER_INFO_DOMINATED": {
   "en": "[great_power_points|e]: $VAL$ · Dominated by [COUNTRY.GetNameWithFlag]",
-  "uk": ""
+  "uk": "[great_power_points|e]: $VAL$ · Домінує [COUNTRY.GetNameWithFlag]"
  },
  "AREA_MEMBERS_ENTRY": {
   "en": "@province! [PROVINCE_DEFINITION.GetName]: [PROVINCE_DEFINITION.GetNumLocations]",
@@ -69,35 +69,35 @@
  },
  "AREA_MERCENARIES_AVAILABLE": {
   "en": "Available to recruit: $MEN$",
-  "uk": ""
+  "uk": "Доступно для набору: $MEN$"
  },
  "AREA_MERCENARIES_CAPTAINS": {
   "en": "Free captains: $NUM$",
-  "uk": ""
+  "uk": "Вільні капітани: $NUM$"
  },
  "AREA_MERCENARIES_ELIGIBLE": {
   "en": "Can become mercenaries: $MEN$",
-  "uk": ""
+  "uk": "Можуть стати найманцями: $MEN$"
  },
  "AREA_MERCENARIES_HIRED": {
   "en": "Hired out: $MEN$ in $COMPANIES$ companies",
-  "uk": ""
+  "uk": "Найняті: $MEN$ у $COMPANIES$ загонах"
  },
  "AREA_MERCENARIES_LAND_HEADER": {
   "en": "[mercenary|e] (Land)",
-  "uk": ""
+  "uk": "[mercenary|e] (сухопутні)"
  },
  "AREA_MERCENARIES_NAVAL_HEADER": {
   "en": "[mercenary|e] (Naval)",
-  "uk": ""
+  "uk": "[mercenary|e] (морські)"
  },
  "AREA_MERCENARIES_RESERVE": {
   "en": "Manpower forming: $MEN$",
-  "uk": ""
+  "uk": "Формуються рекрути: $MEN$"
  },
  "AREA_MERCENARIES_RESERVE_NAVAL": {
   "en": "Sailors forming: $MEN$",
-  "uk": ""
+  "uk": "Формуються моряки: $MEN$"
  },
  "AREA_POPULATION_INFO": {
   "en": "[population|e]: [AREA.GetTotalPopulation]",
@@ -128,16 +128,16 @@
   "uk": "Понад [Concept('supply_limit','ліміт постачання')|e]: $VAL|-=2$"
  },
  "ATTRITION_DUE_TO": {
-  "en": "#T [food_consumption] Penalty#!\\nThe $VAL|R2%$ [food_consumption|e] Penalty is due to",
-  "uk": "#T Втрати#!\\n$VAL|R2%$ [Concept('attrition','виснаження')|e] обумовлені"
+  "en": "#T [attrition]#!\\nThe $VAL|R2%$ [attrition|e] is due to",
+  "uk": "#T [attrition]#!\\n$VAL|R2%$ [Concept('attrition','виснаження')|e] спричинені"
  },
  "ATTRITION_NONE_SOURCE": {
-  "en": "$BULLET_WITH_TAB$Currently not taking any penalties to [food_consumption].",
-  "uk": "$BULLET_WITH_TAB$Наразі не зазнає жодних втрат"
+  "en": "$BULLET_WITH_TAB$Currently not taking any attrition.",
+  "uk": "$BULLET_WITH_TAB$Наразі виснаження не зазнає."
  },
  "ATTRITION_TOOLTIP_HEADER": {
   "en": "#R Attrition#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!",
-  "uk": ""
+  "uk": "#R Виснаження#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!"
  },
  "AVATAR_MODIFIER": {
   "en": "$AVATAR$ [avatar|e]",
@@ -289,7 +289,7 @@
  },
  "COUNTRY_RELIGION_TOOLTIP_HEADER": {
   "en": "$RELIGION_TOOLTIP_HEADER_BASE$ of [Country.GetName]",
-  "uk": ""
+  "uk": "$RELIGION_TOOLTIP_HEADER_BASE$ держави [Country.GetName]"
  },
  "COUNTRY_TOOLTIP": {
   "en": "#T [COUNTRY.GetName]#!",
@@ -341,7 +341,7 @@
  },
  "COUNTRY_TOOLTIP_INTERNATIONAL_ORGANIZATION": {
   "en": "$TITLES$ of $ORG$",
-  "uk": ""
+  "uk": "$TITLES$ організації $ORG$"
  },
  "COUNTRY_TOOLTIP_INTERNATIONAL_ORGANIZATION_MEMBER": {
   "en": "Member",
@@ -665,7 +665,7 @@
  },
  "DISEASE_ENDEMIC_LOCATION_TOOLTIP": {
   "en": "#T [DISEASE.GetNameWithNoTooltip]#!\\nEndemic Area\\nBase infection rate per interval: $RATE|2R%2$\\nThis location's geography makes it naturally susceptible to this disease.",
-  "uk": ""
+  "uk": "#T [DISEASE.GetNameWithNoTooltip]#!\\nЕндемічна область\\nБазова швидкість поширення за проміжок: $RATE|2R%2$\\nГеографія цього району робить його природно вразливим до цієї хвороби."
  },
  "DISEASE_PRESENCE_LOCATION_TOOLTIP": {
   "en": "#T [DISEASE.GetNameWithNoTooltip]#!\\nPresence: $PRESENCE|2R%2$\\nResistance: $RESISTANCE|%2$",
@@ -733,11 +733,11 @@
  },
  "FOOD_CONSUMPTION_PENALTY_DUE_TO": {
   "en": "#R Food Consumption Penalty#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!",
-  "uk": ""
+  "uk": "#R Штраф до споживання їжі#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|RL%$#!"
  },
  "FOOD_CONSUMPTION_PENALTY_TO_WEIGHT": {
   "en": "#T Food Consumption Penalty#!\\n$VAL|2%$ due to Lack of Supply in [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nNeeded: $NEED|2V$",
-  "uk": ""
+  "uk": "#T Штраф до споживання їжі#!\\n$VAL|2%$ через брак пропозиції в [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nПотрібно: $NEED|2V$"
  },
  "FROZEN_ATTRITION": {
   "en": "[frozen|e] Sea: $VALUE|2-=$",
@@ -749,11 +749,11 @@
  },
  "GEOGRAPHY_AREA": {
   "en": "$BULLET$$NUM$ [areas|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [areas|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_CONTINENT": {
   "en": "$BULLET$$NUM$ [continents|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [continents|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_ENTRY_AREA": {
   "en": "#L [AREA.GetName]#!",
@@ -781,27 +781,27 @@
  },
  "GEOGRAPHY_IN_SCRIPTED_GEOGRAPHY": {
   "en": "[ScriptedGeography.GetName] consists of:",
-  "uk": ""
+  "uk": "[ScriptedGeography.GetName] складається з:"
  },
  "GEOGRAPHY_LOCATION": {
   "en": "$BULLET$$NUM$ [locations|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [locations|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_PROVINCE_DEFINITION": {
   "en": "$BULLET$$NUM$ [province_definitions|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [province_definitions|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_REGION": {
   "en": "$BULLET$$NUM$ [regions|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [regions|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_SUB_CONTINENT": {
   "en": "$BULLET$$NUM$ [sub_continents|e], including $ENTRIES$.",
-  "uk": ""
+  "uk": "$BULLET$$NUM$ [sub_continents|e], зокрема $ENTRIES$."
  },
  "GEOGRAPHY_SUFFIX": {
   "en": ", and $NUM$ others",
-  "uk": ""
+  "uk": " та ще $NUM$"
  },
  "GET_HEIR_TITLE_STATIC": {
   "en": "[heir|e]",
@@ -860,8 +860,8 @@
   "uk": "Морська відстань $VALUE|2Y$ в межах нашого [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|G] [colonial_range|E]"
  },
  "INSIDE_NAVAL_RANGE_TT": {
-  "en": "Naval distance $VALUE|2Y$ is within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]",
-  "uk": "Морська відстань $VALUE|2Y$ в межах нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]"
+  "en": "Naval distance $VALUE|2Y$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]) — within range.",
+  "uk": "Морська відстань $VALUE|2Y$ ($PCT|0Y$% нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]) — у межах досяжності."
  },
  "INSIDE_TRADE_RANGE_TT": {
   "en": "Trade distance $VALUE|2Y$ from [Market.GetName] is within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|G] [trade_range|E].",
@@ -1036,12 +1036,12 @@
   "uk": "[Concept('language_family','мовна сім’я')|e]: [Concept('isolated_language_short','ізольована мова')|e]"
  },
  "LANGUAGE_POWER_BREAKDOWN": {
-  "en": "[LANGUAGE.GetNameWithNoTooltip] has a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$\\n\\n",
-  "uk": "[LANGUAGE.GetNameWithNoTooltip] має силу $VAL|2G$, тоді як [TARGET_LANGUAGE.GetName] має $HIGH|Y2$\\n\\n"
+  "en": "[LANGUAGE.GetNameWithNoTooltip] has a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$.",
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] має міць $VAL|2G$, тоді як [TARGET_LANGUAGE.GetName] — $TARGET_VAL|Y2$."
  },
  "LANGUAGE_POWER_BREAKDOWN_SECOND": {
   "en": "$PERC|V%2$ power due to [LANGUAGE.GetNameWithNoTooltip] having a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$.",
-  "uk": ""
+  "uk": "$PERC|V%2$ міці через те, що [LANGUAGE.GetNameWithNoTooltip] має міць $VAL|2G$, тоді як [TARGET_LANGUAGE.GetName] — $TARGET_VAL|Y2$."
  },
  "LANGUAGE_POWER_CLERGY_ENTRY": {
   "en": "$BULLET_WITH_TAB$$CLERGY|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
@@ -1069,7 +1069,7 @@
  },
  "LANGUAGE_POWER_COMMON_USAGE_TITLE": {
   "en": "[merchant_capacity|E] in countries where this is the [common_language|e]",
-  "uk": ""
+  "uk": "[merchant_capacity|E] у державах, де це [common_language|e]"
  },
  "LANGUAGE_POWER_COURT_ENTRY": {
   "en": "$BULLET_WITH_TAB$$COURT|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
@@ -1085,11 +1085,11 @@
  },
  "LANGUAGE_POWER_COURT_PRESTIGE_TITLE": {
   "en": "[primary_culture|E] [political_power|e] scaled by [country_rank|e] in countries where this is the [court_language|e]",
-  "uk": ""
+  "uk": "[primary_culture|E] [political_power|e] з поправкою на [country_rank|e] у державах, де це [court_language|e]"
  },
  "LANGUAGE_POWER_CULTURAL_INFLUENCE_TITLE": {
   "en": "[cultural_influence|E] from [cultures|e] using this [language|e]",
-  "uk": ""
+  "uk": "[cultural_influence|E] від [cultures|e], що послуговуються цією [language|e]"
  },
  "LANGUAGE_POWER_CULTURE_ENTRY": {
   "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ from [CULTURE.GetName]: $VAL|2+=$",
@@ -1105,7 +1105,7 @@
  },
  "LANGUAGE_POWER_LITURGICAL_REACH_TITLE": {
   "en": "[ShowPopTypeName('clergy')] [pops|E] in countries where this is the [liturgical_language|e]",
-  "uk": ""
+  "uk": "[ShowPopTypeName('clergy')] [pops|E] у державах, де це [liturgical_language|e]"
  },
  "LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_ENTRY": {
   "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ [merchant_power|e] from [MARKET.GetShortName]: $VAL|2+=$",
@@ -1173,11 +1173,11 @@
  },
  "LOCAL_ATTRITION_SHELTERED_BY_FORT": {
   "en": "Sheltered in friendly [fort|e]: $VALUE|2-=$",
-  "uk": ""
+  "uk": "Укриття в дружній [fort|e]: $VALUE|2-=$"
  },
  "LOCAL_ATTRITION_SHELTERED_BY_FORT_ZOC": {
   "en": "Within friendly [fort|e] [zone_of_control|e]: $VALUE|2-=$",
-  "uk": ""
+  "uk": "У [zone_of_control|e] дружньої [fort|e]: $VALUE|2-=$"
  },
  "LOCAL_PROXIMITY_PROPAGATION_INFO": {
   "en": "local [proximity|e] propagation importance to Capital: $VAL|Y$",
@@ -1245,7 +1245,7 @@
  },
  "LOCATION_CLICK_RECRUIT_TEMPLATE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start a [unit_template|e] recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
-  "uk": ""
+  "uk": "Клацніть лівою кнопкою, щоб обрати цей [location|e] і почати набір за [unit_template|e]\\nКлацніть правою кнопкою, щоб обрати цей [location|e] і скасувати поточний набір"
  },
  "LOCATION_CLICK_RISE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start raising [levies|e] here\\nRight click to select this [location|e] to remove an ongoing raising",
@@ -1277,11 +1277,11 @@
  },
  "LOCATION_CULTURE_TOOLTIP_HEADER": {
   "en": "$game_concept_culture$ of [Location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_culture$ локації [Location.GetNameWithNoTooltip]"
  },
  "LOCATION_DEBUG_TOOLTIP": {
   "en": "\\n#D ID: [LOCATION.GetId] [LOCATION.GetTag]#!",
-  "uk": ""
+  "uk": "\\n#D Ідентифікатор: [LOCATION.GetId] [LOCATION.GetTag]#!"
  },
  "LOCATION_DISEASE_HEADER": {
   "en": "Diseases in [Location.GetNameWithNoTooltip]",
@@ -1297,11 +1297,11 @@
  },
  "LOCATION_MOVEMENTS_HEADER": {
   "en": "Movements in [Location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Рухи в [Location.GetNameWithNoTooltip]"
  },
  "LOCATION_MOVEMENTS_INFO_HEADER": {
   "en": "#col_t Location#! #col_t Movement#! #col_t Followers#!",
-  "uk": ""
+  "uk": "#col_t Район#! #col_t Рух#! #col_t Послідовники#!"
  },
  "LOCATION_NAME_WITH_ICON": {
   "en": "@location! $NAME$",
@@ -1333,7 +1333,7 @@
  },
  "LOCATION_NO_MOVEMENTS_INFO": {
   "en": "[LOCATION.GetNameWithNoTooltip] doesn't have any movements at this moment.",
-  "uk": ""
+  "uk": "У [LOCATION.GetNameWithNoTooltip] наразі немає жодних рухів."
  },
  "LOCATION_OCCUPIED": {
   "en": "\\nPart of [LOCATION.GetOwner.GetLongNameWithFlag|U] but [occupied|e] by [LOCATION.GetController.GetLongNameWithFlag|U]",
@@ -1381,7 +1381,7 @@
  },
  "LOCATION_RANK_CAPITAL_MODIFIER": {
   "en": "[capital|e] has $LOCATION_RANK$ [location_rank|e]",
-  "uk": ""
+  "uk": "[capital|e] має [location_rank|e]: $LOCATION_RANK$"
  },
  "LOCATION_RANK_MODIFIER": {
   "en": "$LOCATION_RANK$ [location_rank|e]",
@@ -1389,7 +1389,7 @@
  },
  "LOCATION_RELIGION_TOOLTIP_HEADER": {
   "en": "$game_concept_religion$ of [Location.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_religion$ локації [Location.GetNameWithNoTooltip]"
  },
  "LOCATION_SEAZONE_TOOLTIP": {
   "en": "\\nType: [LOCATION.GetTopography.GetName]\\n[region|e]: [LOCATION.GetRegion.GetName]\\n[climate|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#![LOCATION.GetCurrentDirection]",
@@ -1401,7 +1401,7 @@
  },
  "LOCATION_SUPPLY_MISSING_STRENGTH": {
   "en": "Some [units] are missing [strength]\\n$BULLET$Weight at full strength: $VAL|R$",
-  "uk": ""
+  "uk": "Деяким [units] бракує [strength]\\n$BULLET$Вага при повній чисельності: $VAL|R$"
  },
  "LOCATION_TOOLTIP": {
   "en": "#T [LOCATION.GetName]#!",
@@ -1465,7 +1465,7 @@
  },
  "LOCATION_TOOLTIP_MARITIME": {
   "en": "[maritime_presence|E] of [COUNTRY.GetName]: $VAL|Y/%2$",
-  "uk": ""
+  "uk": "[maritime_presence|E] держави [COUNTRY.GetName]: $VAL|Y/%2$"
  },
  "LOCATION_TOOLTIP_MARITIME_NONE": {
   "en": "[COUNTRY.GetName] has no [maritime_presence|E]",
@@ -1537,23 +1537,23 @@
  },
  "MOVEMENT_PRESENCE_LOCATION_TOOLTIP": {
   "en": "#col [LOCATION.GetName]#! #col_m [MOVEMENT.GetName]#! #col $AFFECTED$ [pops|e] out of $TOTAL$ ($VAL|%2$)#!",
-  "uk": ""
+  "uk": "#col [LOCATION.GetName]#! #col_m [MOVEMENT.GetName]#! #col $AFFECTED$ із $TOTAL$ [pops|e] ($VAL|%2$)#!"
  },
  "MOVEMENT_PRESENCE_POP_TOOLTIP": {
   "en": "[POP.GetName]: [MOVEMENT.GetName]: $AFFECTED$ [pops|e] are followers out of $TOTAL$",
-  "uk": ""
+  "uk": "[POP.GetName]: [MOVEMENT.GetName]: $AFFECTED$ із $TOTAL$ [pops|e] — послідовники"
  },
  "MOVEMENT_PRESENCE_SUB_UNIT_TOOLTIP": {
   "en": "[SUBUNIT.GetName]: [MOVEMENT.GetName]: $AFFECTED$ troops are followers out of $TOTAL$",
-  "uk": ""
+  "uk": "[SUBUNIT.GetName]: [MOVEMENT.GetName]: $AFFECTED$ із $TOTAL$ вояків — послідовники"
  },
  "MOVEMENT_PRESENCE_UNIT_TOOLTIP": {
   "en": "[UNIT.GetName]: [MOVEMENT.GetName]: $NUM|Y$ sub units affected, $AFFECTED$ troops out of $TOTAL$",
-  "uk": ""
+  "uk": "[UNIT.GetName]: [MOVEMENT.GetName]: підрозділів зачеплено — $NUM|Y$, вояків — $AFFECTED$ із $TOTAL$"
  },
  "MOVEMENT_RESISTANCES_LABEL": {
   "en": "$game_concept_movement$ resistances in the [location|e]",
-  "uk": ""
+  "uk": "Опір руху $game_concept_movement$ у [Concept('location','районі')|e]"
  },
  "MOVEMENT_RESISTANCE_VALUE": {
   "en": "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|L1%$#!",
@@ -1565,7 +1565,7 @@
  },
  "NAVAL_RANGE_MAPMODE_LAND_NOT_ON_NAVAL_GRAPH_TT": {
   "en": "This [location|e] is not a [port|e] or [seazone|e] on the naval routing map, so it has no naval path distance from our [country|e].",
-  "uk": ""
+  "uk": "Цей [location|e] не є [port|e] чи [seazone|e] на морській навігаційній мапі, тож морського шляху від нашої [country|e] до нього немає."
  },
  "NAVY_FROZEN_ATTRITION": {
   "en": "Stuck in [frozen|e] Sea: $VALUE|2/-=$",
@@ -1584,12 +1584,12 @@
   "uk": "@trigger_no! Морська відстань $VALUE|2R$ НЕ в межах нашого [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|Y] [colonial_range|E]"
  },
  "NOT_INSIDE_NAVAL_RANGE_TT": {
-  "en": "@trigger_no! Naval distance $VALUE|2R$ is NOT within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]",
-  "uk": "@trigger_no! Морська відстань $VALUE|2R$ НЕ в межах нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]"
+  "en": "@trigger_no! Naval distance $VALUE|2R$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]) — out of range.",
+  "uk": "@trigger_no! Морська відстань $VALUE|2R$ ($PCT|0Y$% нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]) — поза межами досяжності."
  },
  "NOT_INSIDE_TRADE_RANGE_TT": {
-  "en": "@trigger_no! Trade distance $VALUE|2R$ from [Market.GetName] is NOT within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E].",
-  "uk": "@trigger_no! Торговельна відстань $VALUE|2R$ від [Market.GetName] НЕ в межах нашого [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]."
+  "en": "Trade distance $VALUE|2Y$ from [Market.GetName] exceeds our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Transport costs will be higher for this route.",
+  "uk": "Торговельна відстань $VALUE|2Y$ від [Market.GetName] перевищує наш [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Транспортні витрати на цьому маршруті будуть вищими."
  },
  "NOT_POSSIBLE_WHILE_EVENT_WINDOW_SHOWN": {
   "en": "@trigger_no! It is not possible to do this while an event demands our attention.\\n",
@@ -1625,7 +1625,7 @@
  },
  "NO_PATH_AVAILABLE": {
   "en": "@trigger_no! There is no valid path to the target location.",
-  "uk": ""
+  "uk": "@trigger_no! До цільового району немає доступного шляху."
  },
  "NO_PORT_TO_TRACE_FLEET_FROM": {
   "en": "We have no [port|e] to trace a naval range from.",
@@ -1645,7 +1645,7 @@
  },
  "OPEN_KNOWN_COUNTRIES_TAB": {
   "en": "Open Known Countries",
-  "uk": ""
+  "uk": "Відкрити відомі держави"
  },
  "OPEN_SEA_AREA_TOOLTIP": {
   "en": "[AREA.GetNameWithNoTooltip]: Open [seazones|e] area",
@@ -1756,8 +1756,8 @@
   "uk": "[LOCATION.GetName]: [Concept('seazone','морська зона')|e]"
  },
  "PROXIMITY_ADJACENT_DISTANCE": {
-  "en": "#V Proximity cost of this segment is $DISTANCE|+=$ due to:#!\\n$BREAKDOWN$",
-  "uk": "#V Вартість близькості цього сегмента становить $DISTANCE|+=$ через:#!\\n$BREAKDOWN$"
+  "en": "#V Segment cost ([LOCATION.GetName]@button_simple_smaller![TARGET_LOCATION.GetName]) is $DISTANCE|+=$ due to:#!\\n$BREAKDOWN$",
+  "uk": "#V Вартість сегмента ([LOCATION.GetName]@button_simple_smaller![TARGET_LOCATION.GetName]) становить $DISTANCE|+=$ через:#!\\n$BREAKDOWN$"
  },
  "PROXIMITY_ADJACENT_DISTANCE_NUM": {
   "en": "Proximity cost of this segment:: $DISTANCE$",
@@ -1957,7 +1957,7 @@
  },
  "SCRIPTED_GEOGRAPHY_NUM_OF_LOCATIONS": {
   "en": "[ScriptedGeography.GetName] has [ScriptedGeography.GetNumberOfLocationsForScriptedGeography] [locations|e] in total.",
-  "uk": ""
+  "uk": "[ScriptedGeography.GetName] налічує загалом [ScriptedGeography.GetNumberOfLocationsForScriptedGeography] [locations|e]."
  },
  "SCRIPTED_GEOGRAPHY_TITLE_TT": {
   "en": "[ScriptedGeography.GetName]",
@@ -2077,7 +2077,7 @@
  },
  "TOWN_RIGHTS_TYPE_NOT_ADVANCE": {
   "en": "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [TOWN_RIGHTS_TYPE.GetName]",
-  "uk": ""
+  "uk": "@trigger_no! Щоб збудувати [TOWN_RIGHTS_TYPE.GetName], потрібно дослідити [advance|e]: $ADVANCE_LIST$"
  },
  "TRADITION_DECAY_BY": {
   "en": "It decays by $VAL|+=$($PERC|%Y2$) each month",
@@ -2141,7 +2141,7 @@
  },
  "ZOC_BLOCKS_MOVEMENT": {
   "en": "@trigger_no! The army is blocked from moving past the [zone_of_control|e] of a nearby [fort|e].",
-  "uk": ""
+  "uk": "@trigger_no! Армія не може пройти повз [zone_of_control|e] сусідньої [fort|e]."
  },
  "culture_opinion_enemy": {
   "en": "#R Enemy#!",

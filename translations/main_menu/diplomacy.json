@@ -109,7 +109,7 @@
  },
  "ACTIVE_RELATIONS_SUBJECT_TYPE": {
   "en": "[COUNTRY.GetNameWithFlag] is a [SUBJECT_TYPE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=2$#!@diplomatic_capacity!",
-  "uk": ""
+  "uk": "[COUNTRY.GetNameWithFlag] — це [SUBJECT_TYPE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=2$#!@diplomatic_capacity!"
  },
  "ACTUAL_BUILD_SPY_TT": {
   "en": "Base Value: $BASE|Y$\\n[COUNTRY.GetName] Spy Network Construction: [COUNTRY.GetModifierValue('spy_network_construction')]\\n[TARGET_COUNTRY.GetName] Counterespionage: [TARGET_COUNTRY.GetModifierValueInverse('counter_espionage')]\\n[COUNTRY.GetCulture.GetName] [cultural_influence|e] vs [TARGET_COUNTRY.GetCulture.GetName] [cultural_tradition|e]: $CULTURE|+=2%$",
@@ -2104,8 +2104,8 @@
   "uk": "Виберіть, яку [Concept('country', 'державу')|e] позбавити статусу #TOOLTIP:SUBJECT_TYPE,tributary,X #L данника#!#!"
  },
  "CANCEL_tributary_NEWDESC": {
-  "en": "Do we wish end $tributary$ status of [COUNTRY.GetName]?",
-  "uk": "Ви хочете скасувати статус данника #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!?"
+  "en": "Do we wish to end $tributary$ status of [COUNTRY.GetName]?",
+  "uk": "Ми хочемо скасувати статус $tributary$ для #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!?"
  },
  "CANCEL_tributary_NOT_IN_TRUCE": {
   "en": "$not_possible_to_break_subject_in_truce$",
@@ -6468,12 +6468,12 @@
   "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_direct_imperial_free_city_NEWDESC": {
-  "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $direct_imperial_free_city$, and this will have the following effect:\\n$INFO$",
-  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашим вільним імперським містом прямого підпорядкування? Це спричинить такі ефекти:\\n$INFO$"
+  "en": "Do we wish to request that [COUNTRY.GetName] becomes an $direct_imperial_free_city$, and this will have the following effect:\\n$INFO$",
+  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашим $direct_imperial_free_city$? Це спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_direct_imperial_free_city_REQDESC": {
-  "en": "[COUNTRY.GetName] is asking us to become a $direct_imperial_free_city$, and this will have the following effect:\\n$INFO$",
-  "uk": "Держава [COUNTRY.GetName] просить нас стати вільним імперським містом прямого підпорядкування, що спричинить такі ефекти:\\n$INFO$"
+  "en": "[COUNTRY.GetName] is requesting that we become a $direct_imperial_free_city$, and this will have the following effect:\\n$INFO$",
+  "uk": "Держава [COUNTRY.GetName] просить нас стати $direct_imperial_free_city$, що спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_direct_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Request that [TARGET_COUNTRY.GetName] becomes a $direct_imperial_free_city$",
@@ -6664,12 +6664,12 @@
   "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_imperial_free_city_NEWDESC": {
-  "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $imperial_free_city$, and this will have the following effect:\\n$INFO$",
-  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашим вільним імперським містом? Це спричинить такі ефекти:\\n$INFO$"
+  "en": "Do we wish to request that [COUNTRY.GetName] becomes an $imperial_free_city$, and this will have the following effect:\\n$INFO$",
+  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашим $imperial_free_city$? Це спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_imperial_free_city_REQDESC": {
-  "en": "[COUNTRY.GetName] is asking us to become an $imperial_free_city$, and this will have the following effect:\\n$INFO$",
-  "uk": "Держава [COUNTRY.GetName] просить нас стати вільним імперським містом, що спричинить такі ефекти:\\n$INFO$"
+  "en": "[COUNTRY.GetName] is offering to become an $imperial_free_city$, and this will have the following effect:\\n$INFO$",
+  "uk": "Держава [COUNTRY.GetName] пропонує стати $imperial_free_city$, що спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_imperial_free_city_TOOLTIP_HEADER": {
   "en": "Request that [TARGET_COUNTRY.GetName] becomes an $imperial_free_city$",
@@ -6708,12 +6708,12 @@
   "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_maha_samanta_NEWDESC": {
-  "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $maha_samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою махасамантою? Це спричинить такі ефекти:\\n$INFO$"
+  "en": "Do we wish to request that [COUNTRY.GetName] becomes our $maha_samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою $maha_samanta$? Це спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_maha_samanta_REQDESC": {
-  "en": "[COUNTRY.GetName] is asking us to become a $maha_samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Держава [COUNTRY.GetName] просить нас стати махасамантою, що спричинить такі ефекти:\\n$INFO$"
+  "en": "[COUNTRY.GetName] is requesting that we become their $maha_samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Держава [COUNTRY.GetName] просить нас стати їхньою $maha_samanta$, що спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_maha_samanta_TOOLTIP_HEADER": {
   "en": "Request that [TARGET_COUNTRY.GetName] becomes a $maha_samanta$",
@@ -6808,12 +6808,12 @@
   "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_pradhana_maha_samanta_NEWDESC": {
-  "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $pradhana_maha_samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою прадхана-махасамантою? Це спричинить такі ефекти:\\n$INFO$"
+  "en": "Do we wish to request that [COUNTRY.GetName] becomes our $pradhana_maha_samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою $pradhana_maha_samanta$? Це спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_pradhana_maha_samanta_REQDESC": {
-  "en": "[COUNTRY.GetName] is asking us to become a $pradhana_maha_samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Держава [COUNTRY.GetName] просить нас стати прадхана-махасамантою, що спричинить такі ефекти:\\n$INFO$"
+  "en": "[COUNTRY.GetName] is requesting that we become their $pradhana_maha_samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Держава [COUNTRY.GetName] просить нас стати їхньою $pradhana_maha_samanta$, що спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_pradhana_maha_samanta_TOOLTIP_HEADER": {
   "en": "Request that [TARGET_COUNTRY.GetName] becomes a $pradhana_maha_samanta$",
@@ -6908,12 +6908,12 @@
   "uk": "$country_lower_in_subject_chain$"
  },
  "OFFER_samanta_NEWDESC": {
-  "en": "Do we wish to demand that [COUNTRY.GetName] becomes our $samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою самантою? Це спричинить такі ефекти:\\n$INFO$"
+  "en": "Do we wish to request that [COUNTRY.GetName] becomes our $samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Ми хочемо зажадати від #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#! стати нашою $samanta$? Це спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_samanta_REQDESC": {
-  "en": "[COUNTRY.GetName] is asking us to become a $samanta$, and this will have the following effect:\\n$INFO$",
-  "uk": "Держава [COUNTRY.GetName] просить нас стати самантою, що спричинить такі ефекти:\\n$INFO$"
+  "en": "[COUNTRY.GetName] is requesting that we become their $samanta$, and this will have the following effect:\\n$INFO$",
+  "uk": "Держава [COUNTRY.GetName] просить нас стати їхньою $samanta$, що спричинить такі ефекти:\\n$INFO$"
  },
  "OFFER_samanta_REQTITLE": {
   "en": "Request we become a $samanta$",

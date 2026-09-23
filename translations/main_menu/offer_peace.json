@@ -5,7 +5,7 @@
  },
  "AI_DESIRE_ANNEXATION": {
   "en": "Close to Annexing",
-  "uk": ""
+  "uk": "Близько до приєднання"
  },
  "AI_DESIRE_BORDERGORE": {
   "en": "Would Create Bordergore",
@@ -137,11 +137,11 @@
  },
  "CANNOT_ANNEX_ALL_LOCATIONS": {
   "en": "@trigger_no!Cannot select all locations",
-  "uk": ""
+  "uk": "@trigger_no!Не можна вибрати всі райони"
  },
  "CANNOT_SELECT_ALL_LOCATIONS": {
-  "en": "@trigger_no!Can not select all locations",
-  "uk": "@trigger_no! Неможливо вибрати всі райони."
+  "en": "@trigger_no!All locations selected",
+  "uk": "@trigger_no!Вибрано всі райони"
  },
  "CEDE_CITY": {
   "en": "Cede Location",
@@ -172,12 +172,12 @@
   "uk": "[COUNTRY.GetName] вважає, що ми можемо натиснути і отримати вигідніший договір."
  },
  "FAVORS_GAIN_FROM_LAND": {
-  "en": "[COUNTRY.GetName] is given more land than they expect from their $CONT|%Y$ War Contribution, and will owe you $AMT|Y$ [favors|e].",
-  "uk": "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DP')|L]#!#! передається більше земель, ніж передбачає внесок цієї держави у війну ($CONT|%Y$). Ви отримаєте $AMT|Y$ од. [Concept('favors', 'прихильності')|e] з боку цієї держави."
+  "en": "[COUNTRY.GetName] is given more land than they expect from their $CONT|%Y$ War Contribution. Giving them $PERC|%Y$ of the offer will make them owe you $AMT|Y$ [favors|e].",
+  "uk": "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DP')|L]#!#! передається більше земель, ніж передбачає внесок цієї держави у війну ($CONT|%Y$). Якщо віддати їй $PERC|%Y$ пропозиції, вона буде винна Вам $AMT|Y$ од. [Concept('favors', 'прихильності')|e]."
  },
  "FAVORS_GAIN_FROM_LAND_NOT_PROMISED": {
   "en": "[COUNTRY.GetName] is given land even though they weren't promised any. Based on their $CONT|%Y$ War Contribution, giving them $PERC|%Y$ of the offer will make them owe you $AMT|Y$ [favors|e].",
-  "uk": ""
+  "uk": "[COUNTRY.GetName] отримує землі, хоча їх не було обіцяно. З огляду на внесок у війну ($CONT|%Y$), якщо віддати цій державі $PERC|%Y$ пропозиції, вона буде винна Вам $AMT|Y$ од. [Concept('favors','прихильності')|e]."
  },
  "GET_PART_OF_CASH": {
   "en": "[COUNTRY.GetLongNameWithFlag] will get $VAL|+=2$[gold_i] of this amount.",
@@ -336,8 +336,8 @@
   "uk": "[PeaceOfferWarScoreTreatyGlue.GetDecWarScoreTooltip]"
  },
  "PEACE_OFFER_DESC": {
-  "en": "Send a peace offer to [TARGET_COUNTRY.GetName]. A [truce|e] will be in effect until $DATE|Y$.",
-  "uk": "Дозволяє надіслати пропозицію про мир #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DP')|L]#!#!. [Concept('truce','Перемир’я')|e] діятиме до $DATE|Y$."
+  "en": "Send a peace offer to [TARGET_COUNTRY.GetName].",
+  "uk": "Надіслати пропозицію про мир #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DP')|L]#!#!."
  },
  "PEACE_OFFER_ENFORCED_DEFENDER_IN_REVOLT_WAR_SCORE": {
   "en": "Defender in a revolt war's war score is at least $MAX_WAR_SCORE$",
@@ -389,35 +389,35 @@
  },
  "PEACE_OFFER_LIMITED_DIPLOMACY": {
   "en": "@trigger_no! As a loyal [subject|e] with limited [diplomacy|e], [COUNTRY.GetName] cannot negotiate for themselves, negotiate with their [overlord|e].",
-  "uk": ""
+  "uk": "@trigger_no! Як вірний [subject|e] з обмеженою [Concept('diplomacy','дипломатією')|e], [COUNTRY.GetName] не може вести переговори самостійно — переговори ведуться з його [Concept('overlord','сюзереном')|e]."
  },
  "PEACE_OFFER_NO_WHITE_PEACE": {
   "en": "@trigger_no! [CASUS_BELLI.GetName] does NOT allow any White Peace!",
-  "uk": ""
+  "uk": "@trigger_no! [CASUS_BELLI.GetName] НЕ допускає жодного миру «статус-кво»!"
  },
  "PEACE_OFFER_REQUIRES_ATTACKER_PEACE_TREATIES": {
   "en": "@trigger_no! As an attacker, the [CASUS_BELLI.GetName] requires the following [peace_treaties|e]: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "@trigger_no! Для нападника [CASUS_BELLI.GetName] вимагає таких [Concept('peace_treaties','мирних договорів')|e]: $PEACE_TREATIES$"
  },
  "PEACE_OFFER_REQUIRES_ATTACKER_PEACE_TREATY": {
   "en": "@trigger_no! As an attacker, the [CASUS_BELLI.GetName] requires the $NAME$ [peace_treaty|e], or else peace cannot be negotiated",
-  "uk": ""
+  "uk": "@trigger_no! Для нападника [CASUS_BELLI.GetName] вимагає [Concept('peace_treaty','мирного договору')|e] «$NAME$», інакше мир неможливий"
  },
  "PEACE_OFFER_REQUIRES_DEFENDER_PEACE_TREATIES": {
   "en": "@trigger_no! As a defender, the [CASUS_BELLI.GetName] requires the following [peace_treaties|e]: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "@trigger_no! Для захисника [CASUS_BELLI.GetName] вимагає таких [Concept('peace_treaties','мирних договорів')|e]: $PEACE_TREATIES$"
  },
  "PEACE_OFFER_REQUIRES_DEFENDER_PEACE_TREATY": {
   "en": "@trigger_no! As a defender, the [CASUS_BELLI.GetName] requires the $NAME$ [peace_treaty|e], or else peace cannot be negotiated",
-  "uk": ""
+  "uk": "@trigger_no! Для захисника [CASUS_BELLI.GetName] вимагає [Concept('peace_treaty','мирного договору')|e] «$NAME$», інакше мир неможливий"
  },
  "PEACE_OFFER_REQUIRES_PEACE_TREATIES": {
   "en": "@trigger_no! The [CASUS_BELLI.GetName] requires the following [peace_treaties|e]: $PEACE_TREATIES$",
-  "uk": ""
+  "uk": "@trigger_no! [CASUS_BELLI.GetName] вимагає таких [Concept('peace_treaties','мирних договорів')|e]: $PEACE_TREATIES$"
  },
  "PEACE_OFFER_REQUIRES_PEACE_TREATY": {
   "en": "@trigger_no! The [CASUS_BELLI.GetName] requires the $NAME$ [peace_treaty|e], or else peace cannot be negotiated",
-  "uk": ""
+  "uk": "@trigger_no! [CASUS_BELLI.GetName] вимагає [Concept('peace_treaty','мирного договору')|e] «$NAME$», інакше мир неможливий"
  },
  "PEACE_OFFER_RETURN_LAND": {
   "en": "This peace offer will cause all disconnected unintegrated land to return to original owners.",
@@ -428,8 +428,8 @@
   "uk": "Надсилання вимоги"
  },
  "PEACE_OFFER_SEND_MAX_WAR_SCORE": {
-  "en": "@trigger_no! We cannot send an offer with a total over the maximum war score!",
-  "uk": "@trigger_no! Ми не можемо надіслати пропозицію, яка перевищує максимальний воєнний рахунок!"
+  "en": "@trigger_no! We cannot send a [peace_offer|e] for more than #W 100#! [peace_cost_with_icon|e]!",
+  "uk": "@trigger_no! Ми не можемо надіслати [peace_offer|e] понад #W 100#! [peace_cost_with_icon|e]!"
  },
  "PEACE_OFFER_SEND_OFFER": {
   "en": "Send Offer",
@@ -517,7 +517,7 @@
  },
  "SCALE_WITH_NUM_MEMBERS": {
   "en": "Number of [members|e]",
-  "uk": ""
+  "uk": "Кількість [Concept('members','учасників')|e]"
  },
  "SEIZE_LAND_CATEGORY": {
   "en": "Seize Land Treaties",
@@ -533,11 +533,11 @@
  },
  "SOUND_TOLL_EXEMPTION_COALITION": {
   "en": "Coalition war",
-  "uk": ""
+  "uk": "Війна коаліції"
  },
  "SOUND_TOLL_EXEMPTION_NO_MERCHANTS": {
   "en": "No relevant sound toll",
-  "uk": ""
+  "uk": "Немає відповідної плати за прохід"
  },
  "SUGGEST_PEACE": {
   "en": "Suggest",
@@ -689,19 +689,19 @@
  },
  "challenge_league_leadership_peace_treaty": {
   "en": "Claim League Leadership",
-  "uk": ""
+  "uk": "Претендувати на лідерство в лізі"
  },
  "challenge_league_leadership_peace_treaty_desc": {
   "en": "Through force of arms we have proven ourselves the dominant power in Italy. The leadership of their League now passes to us while their former leader is stripped of command by right of conquest.",
-  "uk": ""
+  "uk": "Силою зброї ми довели, що є домінівною державою в Італії. Лідерство в їхній лізі переходить до нас, а їхній колишній лідер за правом завоювання позбавляється влади."
  },
  "challenge_league_leadership_peace_treaty_entry": {
   "en": "Claim Italian League leadership",
-  "uk": ""
+  "uk": "Претендувати на лідерство в Італійській лізі"
  },
  "challenge_league_leadership_peace_treaty_entry_short": {
   "en": "Claim Italian League leadership",
-  "uk": ""
+  "uk": "Претендувати на лідерство в Італійській лізі"
  },
  "chi_recapture_emperor": {
   "en": "Recapture Emperor",
@@ -813,19 +813,19 @@
  },
  "dissolve_hanseatic_league_peace_deal": {
   "en": "Dissolve Hanseatic League",
-  "uk": ""
+  "uk": "Розпустити Ганзейську лігу"
  },
  "dissolve_hanseatic_league_peace_deal_desc": {
   "en": "The Hanseatic League has outlived its usefulness and is causing more harm than good with its influence in many European cities. All of the subjects under the League will be set free.",
-  "uk": ""
+  "uk": "Ганзейська ліга віджила своє й через вплив у багатьох європейських містах приносить більше шкоди, ніж користі. Усіх васалів ліги буде звільнено."
  },
  "dissolve_hanseatic_league_peace_deal_entry": {
   "en": "Dissolve Hanseatic League",
-  "uk": ""
+  "uk": "Розпустити Ганзейську лігу"
  },
  "dissolve_hanseatic_league_peace_deal_entry_short": {
   "en": "Dissolve Hanseatic League",
-  "uk": ""
+  "uk": "Розпустити Ганзейську лігу"
  },
  "dissolve_league_peace_deal": {
   "en": "Dissolve League",
@@ -836,12 +836,12 @@
   "uk": "Їхню лігу буде розпущено, і всім її учасникам доведеться укласти мир і відмовитися від своїх союзницьких зобов'язань. Це дозволить значно змінити баланс сил вході #TOOLTIP:SITUATION,italian_wars,X #L Італійських воєн#!#!."
  },
  "dissolve_league_peace_deal_entry": {
-  "en": "Dissolve their League",
-  "uk": "Розпуск їхньої ліги"
+  "en": "[TARGET_COUNTRY.GetNameWithFlag] will dissolve their League in the [GetSituationByKey('italian_wars').GetName]",
+  "uk": "[TARGET_COUNTRY.GetNameWithFlag] розпустить свою лігу в межах ситуації [GetSituationByKey('italian_wars').GetName]"
  },
  "dissolve_league_peace_deal_entry_short": {
-  "en": "Dissolve their League",
-  "uk": "Розпуск їхньої ліги"
+  "en": "[TARGET_COUNTRY.GetNameWithFlag] will dissolve their League in the [GetSituationByKey('italian_wars').GetName]",
+  "uk": "[TARGET_COUNTRY.GetNameWithFlag] розпустить свою лігу в межах ситуації [GetSituationByKey('italian_wars').GetName]"
  },
  "dissolve_tatar_yoke": {
   "en": "Dissolve $tatar_yoke$",
@@ -881,7 +881,7 @@
  },
  "expand_clan_influence_no_target_tt": {
   "en": "We will get ownership of their territory in the target [location|e]",
-  "uk": ""
+  "uk": "Ми отримаємо володіння територією в цільовому [Concept('location','районі')|e]"
  },
  "expand_clan_influence_other.tt": {
   "en": "We will get ownership of [loser.GetName]'s territory in [target.GetName]",
@@ -941,7 +941,7 @@
  },
  "hegemon_demand_force_change_court_language_desc": {
   "en": "We will enforce our demands as the Hegemon through military means.",
-  "uk": ""
+  "uk": "Ми доб’ємося виконання своїх вимог як Гегемон військовими засобами."
  },
  "hegemon_demand_force_change_court_language_entry": {
   "en": "$force_change_court_language$ of [TARGET_COUNTRY.GetNameWithFlag]",
@@ -957,7 +957,7 @@
  },
  "hegemon_demand_force_divert_trade_desc": {
   "en": "We will enforce our demands as the Hegemon through military means.",
-  "uk": ""
+  "uk": "Ми доб’ємося виконання своїх вимог як Гегемон військовими засобами."
  },
  "hegemon_demand_force_divert_trade_entry": {
   "en": "$force_divert_trade$ of [TARGET_COUNTRY.GetNameWithFlag]",
@@ -973,15 +973,15 @@
  },
  "hegemon_demand_force_embargo_desc": {
   "en": "We will enforce our demands as the Hegemon through military means.",
-  "uk": ""
+  "uk": "Ми доб’ємося виконання своїх вимог як Гегемон військовими засобами."
  },
  "hegemon_demand_force_embargo_entry": {
   "en": "$force_embargo$ for [TARGET_COUNTRY.GetNameWithFlag]",
-  "uk": ""
+  "uk": "$force_embargo$ для [TARGET_COUNTRY.GetNameWithFlag]"
  },
  "hegemon_demand_force_embargo_entry_short": {
   "en": "$force_embargo$ for [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]",
-  "uk": ""
+  "uk": "$force_embargo$ для [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
  },
  "hegemon_demand_violate_sovereignty": {
   "en": "$violate_sovereignty$",
@@ -989,7 +989,7 @@
  },
  "hegemon_demand_violate_sovereignty_desc": {
   "en": "We will enforce our demands as the Hegemon through military means.",
-  "uk": ""
+  "uk": "Ми доб’ємося виконання своїх вимог як Гегемон військовими засобами."
  },
  "hegemon_demand_violate_sovereignty_entry": {
   "en": "$violate_sovereignty$ of [TARGET_COUNTRY.GetNameWithFlag]",
@@ -1085,23 +1085,23 @@
  },
  "peace_destroy_autocephalous_patriarchate": {
   "en": "Destroy the [target_ap.GetName]",
-  "uk": ""
+  "uk": "Знищити [target_ap.GetName]"
  },
  "peace_destroy_autocephalous_patriarchate_desc": {
   "en": "Their patriarchate shall be dissolved by treaty, its hierarchy cast down and its members left to find a new spiritual lord.",
-  "uk": ""
+  "uk": "Їхній патріархат буде розпущено за договором, його ієрархію скинуто, а його учасникам доведеться шукати нового духовного володаря."
  },
  "peace_destroy_autocephalous_patriarchate_entry": {
   "en": "Destroy their $autocephalous_patriarchate$",
-  "uk": ""
+  "uk": "Знищити їхній $autocephalous_patriarchate$"
  },
  "peace_destroy_autocephalous_patriarchate_entry_short": {
   "en": "Destroy their $autocephalous_patriarchate$",
-  "uk": ""
+  "uk": "Знищити їхній $autocephalous_patriarchate$"
  },
  "peace_destroy_autocephalous_patriarchate_members_tt": {
   "en": "Every member of the [target_ap.GetName] will lose [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] [opinion|e] of us and gain [ShowBiasValue('antagonism_destroyed_autocephalous_patriarchate')|+=0] [antagonism|e] toward us",
-  "uk": ""
+  "uk": "Кожен учасник [target_ap.GetName] втратить [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] [Concept('opinion','думки')|e] про нас і здобуде [ShowBiasValue('antagonism_destroyed_autocephalous_patriarchate')|+=0] [Concept('antagonism','неприязні')|e] до нас"
  },
  "peace_dismantle_hre": {
   "en": "Dismantle the $hre$",
@@ -1184,12 +1184,12 @@
   "uk": "$peace_gag_force_faction_change$"
  },
  "peace_gain_clan_autonomy": {
-  "en": "Reform into a $daimyo$",
-  "uk": "Отримання статусу даймьо"
+  "en": "Gain Clan Autonomy",
+  "uk": "Здобути автономію клану"
  },
  "peace_gain_clan_autonomy_desc": {
-  "en": "Our clan shall walk more freely, their authority recognized and protected by this treaty.",
-  "uk": "Наш клан отримає більше прав і свобод, які будуть закріплені в цьому договорі."
+  "en": "We will establish ourselves as an independent domain, no longer will our territory be ruled by other clans.",
+  "uk": "Ми утвердимося як незалежне володіння, і наші землі більше не належатимуть під владу інших кланів."
  },
  "peace_gain_clan_autonomy_entry": {
   "en": "$peace_gain_clan_autonomy$",
@@ -1312,20 +1312,20 @@
   "uk": "$peace_seize_opposition_leadership$"
  },
  "peace_take_over_market_center": {
-  "en": "Take over Market Center",
-  "uk": "Захоплення ринкового центру"
+  "en": "Take over [target_market.GetName]",
+  "uk": "Захопити [target_market.GetName]"
  },
  "peace_take_over_market_center_desc": {
   "en": "The beating heart of their economy shall be ours, seized for the glory and profit of our country.",
   "uk": "Важливий торговельний центр наших ворогів перейде під наш контроль, що не лише забезпечить нам більший прибуток, але й принесе славу нашій державі."
  },
  "peace_take_over_market_center_entry": {
-  "en": "Take Over Market Center from [TARGET_COUNTRY.GetNameWithFlag]",
-  "uk": "Захоплення ринкового центру в держави [TARGET_COUNTRY.GetNameWithFlag]"
+  "en": "Take Over [target_market.GetName] from [TARGET_COUNTRY.GetNameWithFlag]",
+  "uk": "Захопити [target_market.GetName] в держави [TARGET_COUNTRY.GetNameWithFlag]"
  },
  "peace_take_over_market_center_entry_short": {
-  "en": "Take Over Market Center from [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]",
-  "uk": "Захоплення ринкового центру в держави [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+  "en": "Take Over [target_market.GetName] from [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]",
+  "uk": "Захопити [target_market.GetName] в держави [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
  },
  "peace_take_shogunate": {
   "en": "Take the Shogunate",
@@ -1381,7 +1381,7 @@
  },
  "relative_mil_strength_tt": {
   "en": "[military_strength|e] of [loser.GetName] compared to us",
-  "uk": ""
+  "uk": "[Concept('military_strength','Військова чисельність')|e] держави [loser.GetName] порівняно з нашою"
  },
  "religious_supremacy": {
   "en": "Religious Supremacy",
@@ -1401,11 +1401,11 @@
  },
  "rtr_demand_all_chinese_territories": {
   "en": "Demand All Chinese Territories",
-  "uk": ""
+  "uk": "Вимога всіх китайських територій"
  },
  "rtr_demand_all_chinese_territories_desc": {
   "en": "Demand every [location|e] owned by the target [country|e] and their [subjects|e], including unoccupied territories.",
-  "uk": ""
+  "uk": "Вимагати кожен [Concept('location','район')|e], що належить цільовій [Concept('country','державі')|e] та її [Concept('subjects','васалам')|e], зокрема неокуповані території."
  },
  "rtr_demand_all_chinese_territories_entry": {
   "en": "$rtr_demand_all_chinese_territories$",
@@ -1417,15 +1417,15 @@
  },
  "rtr_demand_all_chinese_territories_tt": {
   "en": "Every [loser.GetAdjective] [location|e], and every [location|e] owned by [loser.GetName]'s [subjects|e], is seized by [winner.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Кожен [loser.GetAdjective] [Concept('location','район')|e] і кожен [Concept('location','район')|e] у володінні [Concept('subjects','васалів')|e] держави [loser.GetName] захоплює [winner.GetNameWithNoTooltip]"
  },
  "rtr_demand_complete_annexation": {
   "en": "Demand Complete Annexation",
   "uk": "Вимога повного приєднання"
  },
  "rtr_demand_complete_annexation_desc": {
-  "en": "Only under one banner can $china$ return to peace!",
-  "uk": "Тільки під єдиним прапором $china$ може повернутися до миру!"
+  "en": "Only under one banner can $china$ return to peace! Fully annexes the target [country|e] and integrates all their territories — no occupation required.",
+  "uk": "Лише під одним прапором $china$ може повернутися до миру! Повністю приєднує цільову [Concept('country','державу')|e] та інтегрує всі її території — окупація не потрібна."
  },
  "rtr_demand_complete_annexation_entry": {
   "en": "$rtr_demand_complete_annexation$",
@@ -1453,7 +1453,7 @@
  },
  "rtr_demand_occupied_territories_no_winner_loser_tt": {
   "en": "Any [location|e] the winner occupies from the loser is seized.",
-  "uk": ""
+  "uk": "Кожен [Concept('location','район')|e], який переможець окупував у переможеного, захоплюється."
  },
  "rtr_demand_occupied_territories_tt": {
   "en": "Every [loser.GetAdjective] [location|e] occupied by [winner.GetName] gets seized by [winner.GetNameWithNoTooltip]",
@@ -1481,15 +1481,15 @@
  },
  "scaligeri_victory": {
   "en": "Enforce Scaliger Demands",
-  "uk": ""
+  "uk": "Виконати вимоги Скаліджері"
  },
  "scaligeri_victory_desc": {
   "en": "A set of hostile countries had the gall to oppose and shrink the domains of the [ShowDynastyName('scala_dynasty')]. It is time to cull the weak!",
-  "uk": ""
+  "uk": "Низка ворожих держав мала зухвалість виступити проти [ShowDynastyName('scala_dynasty')] і скоротити їхні володіння. Час викорінити слабких!"
  },
  "scaligeri_victory_entry": {
   "en": "Enforce Scaliger Demands",
-  "uk": ""
+  "uk": "Виконати вимоги Скаліджері"
  },
  "scaligeri_victory_entry_short": {
   "en": "$scaligeri_victory_entry$",
@@ -1521,19 +1521,19 @@
  },
  "steal_maps_treaty": {
   "en": "Take Maps",
-  "uk": ""
+  "uk": "Забрати мапи"
  },
  "steal_maps_treaty_desc": {
   "en": "We shall take their knowledge of far away lands to use for our own gain.",
-  "uk": ""
+  "uk": "Ми заберемо їхні знання про далекі землі й використаємо їх собі на користь."
  },
  "steal_maps_treaty_entry": {
   "en": "Take Maps of [target.GetName]",
-  "uk": ""
+  "uk": "Забрати мапи в [target.GetName]"
  },
  "steal_maps_treaty_entry_short": {
   "en": "Take Maps of [target.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Забрати мапи в [target.GetNameWithNoTooltip]"
  },
  "steal_pops": {
   "en": "Kidnap Pops",
@@ -1621,15 +1621,15 @@
  },
  "ver_florentine_demands": {
   "en": "$FLO_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $FLO_ADJ$"
  },
  "ver_florentine_demands_desc": {
   "en": "All that is desired by the [GetCountry('FLO').GetLongName] in the $SCALIGER_WAR_NAME$.",
-  "uk": ""
+  "uk": "Усе, чого бажає [GetCountry('FLO').GetLongName] у $SCALIGER_WAR_NAME$."
  },
  "ver_florentine_demands_entry": {
   "en": "$FLO_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $FLO_ADJ$"
  },
  "ver_florentine_demands_entry_short": {
   "en": "$ver_florentine_demands_entry$",
@@ -1637,15 +1637,15 @@
  },
  "ver_milanese_demands": {
   "en": "$MLO_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $MLO_ADJ$"
  },
  "ver_milanese_demands_desc": {
   "en": "A comprehensive set of demands in the $SCALIGER_WAR_NAME$ that are issued by the [GetCountry('MLO').GetLongName].",
-  "uk": ""
+  "uk": "Вичерпний перелік вимог у $SCALIGER_WAR_NAME$, які висуває [GetCountry('MLO').GetLongName]."
  },
  "ver_milanese_demands_entry": {
   "en": "$MLO_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $MLO_ADJ$"
  },
  "ver_milanese_demands_entry_short": {
   "en": "$ver_milanese_demands_entry$",
@@ -1653,15 +1653,15 @@
  },
  "ver_venetian_demands": {
   "en": "$VEN_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $VEN_ADJ$"
  },
  "ver_venetian_demands_desc": {
   "en": "Our demands for the $SCALIGER_WAR_NAME$.",
-  "uk": ""
+  "uk": "Наші вимоги в $SCALIGER_WAR_NAME$."
  },
  "ver_venetian_demands_entry": {
   "en": "$VEN_ADJ$ Demands",
-  "uk": ""
+  "uk": "Вимоги: $VEN_ADJ$"
  },
  "ver_venetian_demands_entry_short": {
   "en": "$ver_venetian_demands_entry$",

@@ -68,8 +68,8 @@
   "uk": "[Concept('colonial_charter','Колоніальне поселення')|e] в провінції [PROVINCE_DEFINITION.GetName] на $PERC|2V%$ [Concept('fully_settled','повністю заселено')|e]"
  },
  "COLONIAL_CHARTER_NO_SOURCE": {
-  "en": "No migrations can happen because there are no locations to migrate from with our [culture|e] and [religion|e] greater than 1000 [pops|e].",
-  "uk": "Міграція неможлива, оскільки у Вашій державі немає районів для імміграції, де проживає більше 1000 [Concept('pops','груп населення')|e] Вашої [Concept('culture','культури')|e] та [Concept('religion','релігії')|e]."
+  "en": "No migrations can happen because no [location|e] in our capital [region|e] or adjacent to it has enough [ShowPopTypeName('peasants')] to sustain a month of migration.",
+  "uk": "Міграція неможлива, оскільки жоден [Concept('location','район')|e] у Вашому столичному [Concept('region','регіоні')|e] чи поруч із ним не має достатньо [ShowPopTypeName('peasants')], щоб забезпечити місяць міграції."
  },
  "COLONIAL_CHARTER_TOTAL_MIGRATION": {
   "en": "Total [migration|e] $VAL|y$ [pops|e] per month.",
@@ -105,7 +105,7 @@
  },
  "COLONIAL_TARGET_ENTRY": {
   "en": "$BULLET_WITH_TAB$[LOCATION.GetName]: Moved - $MOVED|V$; Need - #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#!",
-  "uk": ""
+  "uk": "$BULLET_WITH_TAB$[LOCATION.GetName]: переселено — $MOVED|V$; потрібно — #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#!"
  },
  "COLONIAL_TARGET_IS_ABOUT_TO_BE_OTHERS": {
   "en": "[LOCATION.GetName] is about to be owned by [TARGET_COUNTRY.GetName]!",
@@ -128,12 +128,12 @@
   "uk": "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] може перейти у володіння #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
  },
  "COLONIAL_TARGET_LOCATION_NOBODY_LIVES_THERE": {
-  "en": "$BULLET_WITH_TAB$There are not enough people living in [LOCATION.GetName]\\nCurrently: [LOCATION.GetTotalPopulation]\\nMinimum needed population: $NEED|V$\\nPercentage correct religion & culture needed: #TOOLTIP:$BREAKDOWN_TAG$ $TARGET_PERCENTAGE|%L2$#!",
-  "uk": "$BULLET_WITH_TAB$В [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName] живе занадто мало людей\\nЗараз: [LOCATION.GetTotalPopulation]\\nМінімально необхідне населення: $NEED|V$\\nНеобхідна частка представників правильної релігії і культури: #TOOLTIP:$BREAKDOWN_TAG$ $TARGET_PERCENTAGE|%L2$#!"
+  "en": "$BULLET_WITH_TAB$There are not enough people living in [LOCATION.GetName].\\nCurrently: [LOCATION.GetTotalPopulation]\\nMinimum needed population: #TOOLTIP:$BREAKDOWN_TAG$ $NEED|V$#!",
+  "uk": "$BULLET_WITH_TAB$У [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName] живе замало людей.\\nЗараз: [LOCATION.GetTotalPopulation]\\nМінімально необхідне населення: #TOOLTIP:$BREAKDOWN_TAG$ $NEED|V$#!"
  },
  "COLONIAL_TARGET_LOCATION_NOT_ENOUGH_MIGRANTS": {
   "en": "$BULLET_WITH_TAB$Only $MOVED|V$ of our [pops|e] have moved to [LOCATION.GetName], once we have at least #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#! the location will be ours.",
-  "uk": ""
+  "uk": "$BULLET_WITH_TAB$Лише $MOVED|V$ з наших [Concept('pops','груп населення')|e] переселилися до [LOCATION.GetName]; щойно їх стане щонайменше #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#!, район стане нашим."
  },
  "COLONIAL_TARGET_LOCATION_NOT_ENOUGH_POWER_PROJECTION": {
   "en": "$BULLET_WITH_TAB$[TARGET_COUNTRY.GetName] need to have $VAL|0Y$ more [power_projection|e] than the current owner ([COUNTRY.GetName]: [COUNTRY.GetPowerProjection|0]) to have a chance of flipping this location to their [country|e].",
@@ -173,23 +173,23 @@
  },
  "COLONY_POP_TARGET_LOCATION_POPULATION": {
   "en": "Scaling between those with the [location|e] [population|e] of $POPULATION$ results in a population target of $NEED$",
-  "uk": ""
+  "uk": "Масштабування між тими, хто має [Concept('population','населення')|e] [Concept('location','району')|e] в $POPULATION$, дає цільове населення $NEED$"
  },
  "COLONY_POP_TARGET_MAX_POPS": {
   "en": "Max [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$",
-  "uk": ""
+  "uk": "Максимум [Concept('pops','груп населення')|e], потрібних у [LOCATION.GetName], без урахування [Concept('population','населення')|e]: $VAL$"
  },
  "COLONY_POP_TARGET_MIN_POPS": {
   "en": "Min [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$",
-  "uk": ""
+  "uk": "Мінімум [Concept('pops','груп населення')|e], потрібних у [LOCATION.GetName], без урахування [Concept('population','населення')|e]: $VAL$"
  },
  "COLONY_POP_TARGET_PP_COUNTRY": {
   "en": "[power_projection|e] of [COUNTRY.GetName]: $VAL$",
-  "uk": ""
+  "uk": "[Concept('power_projection','Проєкція сили')|e] держави [COUNTRY.GetName]: $VAL$"
  },
  "COLONY_POP_TARGET_PP_EXISTS": {
   "en": "[power_projection|e] in [LOCATION.GetName]: $VAL$",
-  "uk": ""
+  "uk": "[Concept('power_projection','Проєкція сили')|e] у [LOCATION.GetName]: $VAL$"
  },
  "NO_COLONIAL_CHARTER_EXCLUSIVE": {
   "en": "This is claimed by [COUNTRY.GetName] due to $NAME$.",

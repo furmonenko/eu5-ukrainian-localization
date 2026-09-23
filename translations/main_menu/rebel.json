@@ -108,8 +108,8 @@
   "uk": "Станові повстанці"
  },
  "REBELS_CATEGORY_estate_DESC": {
-  "en": "These rebels are working to further the neglected interests of the [ESTATE_TYPE.GetName], and will start a [civil_war|e] when they are ready.",
-  "uk": "Ці повстанці діють в інтересах стану «[ESTATE_TYPE.GetName]», який відчуває, що ним нехтують. Вони розпочнуть [Concept('civil_war', 'громадянську війну')|e], як тільки будуть готові."
+  "en": "These rebels are working to further the neglected interests of the [ESTATE_TYPE.GetName], and will start a [civil_war_with_icon|e] when they are ready.",
+  "uk": "Ці повстанці діють в інтересах стану «[ESTATE_TYPE.GetName]», який відчуває, що ним нехтують. Вони розпочнуть [civil_war_with_icon|e], як тільки будуть готові."
  },
  "REBELS_CATEGORY_estate_concept": {
   "en": "[estate_rebels|e]",
@@ -120,8 +120,8 @@
   "uk": "Націоналістичні повстанці"
  },
  "REBELS_CATEGORY_nationalist_DESC": {
-  "en": "These rebels are working towards [CULTURE.GetName] independence. They will create a [revolt|e] when they are ready.",
-  "uk": "Ці повстанці прагнуть до незалежності #L [CULTURE.GetName|l]ої#! культури. Вони розпочнуть [Concept('revolt', 'повстання')|e] одразу, як будуть готові."
+  "en": "These rebels are working towards [CULTURE.GetName] independence. They will create a [revolt_with_icon|e] when they are ready.",
+  "uk": "Ці повстанці прагнуть до незалежності #L [CULTURE.GetName|l]ої#! культури. Вони розпочнуть [revolt_with_icon|e] одразу, як будуть готові."
  },
  "REBELS_CATEGORY_nationalist_concept": {
   "en": "[nationalist_rebels|e]",
@@ -144,12 +144,12 @@
   "uk": "Релігійні повстанці"
  },
  "REBELS_CATEGORY_religious_DESC": {
-  "en": "These rebels are working towards [RELIGION.GetName] independence. They will create a [revolt|e] when they are ready.",
-  "uk": "Ці повстанці прагнуть до незалежності #L [RELIGION.GetAdjective|l]ої#! віри. Вони розпочнуть [Concept('revolt', 'повстання')|e] одразу, як будуть готові."
+  "en": "These rebels are working towards [RELIGION.GetName] independence. They will create a [revolt_with_icon|e] when they are ready.",
+  "uk": "Ці повстанці прагнуть до незалежності #L [RELIGION.GetAdjective|l]ої#! віри. Вони розпочнуть [revolt_with_icon|e] одразу, як будуть готові."
  },
  "REBELS_CATEGORY_religious_DESC_CONVERT": {
-  "en": "These rebels will attempt to start a [civil_war|e] to change the [primary_religion|e] of [REBEL.GetOwner.GetName] to [RELIGION.GetName].",
-  "uk": "Ці повстанці спробують розпочати [Concept('civil_war', 'громадянську війну')|e], щоб [Concept('primary_religion', 'основна релігія')|e] #ONCLICK:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')],X [REBEL.GetOwner.Custom('CL_RP')|L]#!#! змінилася на #L [RELIGION.GetAdjective|l]у#!."
+  "en": "These rebels will attempt to start a [civil_war_with_icon|e] to change the [primary_religion|e] of [REBEL.GetOwner.GetName] to [RELIGION.GetName].",
+  "uk": "Ці повстанці спробують розпочати [civil_war_with_icon|e], щоб [Concept('primary_religion', 'основна релігія')|e] #ONCLICK:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[REBEL.GetOwner.Custom('CL_tt')],X [REBEL.GetOwner.Custom('CL_RP')|L]#!#! змінилася на #L [RELIGION.GetAdjective|l]у#!."
  },
  "REBELS_CATEGORY_religious_concept": {
   "en": "[religious_rebels|e]",
@@ -197,15 +197,15 @@
  },
  "REBEL_LACK_OF_INTEGRATION": {
   "en": "Lack of [integration|e]: $VAL|2=-%$",
-  "uk": ""
+  "uk": "Брак [Concept('integration','інтеграції')|e]: $VAL|2=-%$"
  },
  "REBEL_LEGEND_HAS_SUPPORT": {
   "en": "Has some rebel support",
-  "uk": ""
+  "uk": "Має певну підтримку повстанців"
  },
  "REBEL_LEGEND_WILL_REVOLT": {
   "en": "Will join the revolt",
-  "uk": ""
+  "uk": "Приєднається до повстання"
  },
  "REBEL_LOCATION_TITLE": {
   "en": "Rebels in [Location.GetNameWithNoTooltip]",
@@ -268,8 +268,8 @@
   "uk": "$POP_TOOLTIP_STRING$"
  },
  "REBEL_POWER_OF_SUPPORT": {
-  "en": "Base Rebel [political_power|e]: $VAL|-2V$\\nTotal [political_power|e] of [primary_culture|e]: #G -#!$SIZE|V2+$\\n[political_power|e] of [primary_culture|e] factor: $SIZE_FACTOR|V2+%$\\nScale: $SCALE|V2%$\\nIf the rebel power is over $PERC|%2V$ of the power of primary culture, they get progress.",
-  "uk": "Базова [Concept('political_power','політична вага')|e] повстанців: $VAL|-2V$\\nЗагальна [Concept('political_power', 'політична вага')|e] [Concept('primary_culture', 'основної культури')|e]: #G –#!$SIZE|V2+$\\nФактор [Concept('political_power','політичної ваги')|e] [Concept('primary_culture', 'основної культури')|e]: $SIZE_FACTOR|V2+%$\\nМасштаб: $SCALE|V2%$\\nПовстанці отримують прогрес, якщо їхня політична вага перевищує $PERC|%2V$ політичної ваги основної культури."
+  "en": "Rebel [political_power|e]: $VAL|V2$\\n[political_power] Required: $REQUIRED_POWER|V2$\\nPolitical Power Shortfall: $SHORTFALL|V2$\\nMonthly Progress: $PROGRESS|+=2%$",
+  "uk": "[Concept('political_power','Політична вага')|e] повстанців: $VAL|V2$\\nПотрібна [political_power]: $REQUIRED_POWER|V2$\\nНестача політичної ваги: $SHORTFALL|V2$\\nМісячний прогрес: $PROGRESS|+=2%$"
  },
  "REBEL_PROGRESS_ESTATE": {
   "en": "[estate_power|e]: $VAL|2-=%$",
@@ -293,11 +293,11 @@
  },
  "REBEL_PROGRESS_NATIONALISM": {
   "en": "Nationalism: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!",
-  "uk": ""
+  "uk": "Націоналізм: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!"
  },
  "REBEL_PROGRESS_POPULATION": {
   "en": "Support from $POP|V$@population!: $VAL|2-=%$",
-  "uk": ""
+  "uk": "Підтримка від $POP|V$@population!: $VAL|2-=%$"
  },
  "REBEL_PROGRESS_SIZE": {
   "en": "Power of Support: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=%L$#!",
@@ -308,8 +308,8 @@
   "uk": "Зупинено через [Concept('civil_war', 'громадянську війну')|e]."
  },
  "REBEL_STALLED_NOT_ENOUGH": {
-  "en": "Frozen due to not having enough supporters.",
-  "uk": "Зупинено через недостатню підтримку."
+  "en": "Frozen due to not having enough supporters: #V +/-0.0%#!",
+  "uk": "Заморожено через брак прихильників: #V +/-0.0%#!"
  },
  "REBEL_SUPPORT_COUNTRY_TT": {
   "en": "#T Foreign Support#!\\nThey have support from the following [countries|e]",
@@ -337,43 +337,43 @@
  },
  "REBEL_SUPPRESS_PRIORITY_DESC": {
   "en": "Armies using the Suppress Rebels automation will be sent to this rebellion before others.",
-  "uk": ""
+  "uk": "Армії з автоматизацією «Придушення повстанців» надсилатимуться до цього заколоту раніше за інші."
  },
  "REBEL_SUPPRESS_PRIORITY_MARK": {
   "en": "Mark this rebellion as priority",
-  "uk": ""
+  "uk": "Позначити цей заколот пріоритетним"
  },
  "REBEL_SUPPRESS_PRIORITY_TITLE": {
   "en": "Prioritize Suppression",
-  "uk": ""
+  "uk": "Пріоритет придушення"
  },
  "REBEL_SUPPRESS_PRIORITY_TOOLTIP_OFF": {
   "en": "Prioritize Suppression: #R Inactive#!\\n\\nClick to mark this rebellion as priority. Armies using the Suppress Rebels automation will be sent here before others.",
-  "uk": ""
+  "uk": "Пріоритет придушення: #R неактивний#!\\n\\nНатисніть, щоб позначити цей заколот пріоритетним. Армії з автоматизацією «Придушення повстанців» надсилатимуться сюди раніше за інші."
  },
  "REBEL_SUPPRESS_PRIORITY_TOOLTIP_ON": {
   "en": "Prioritize Suppression: #G Active#!\\n\\nArmies using the Suppress Rebels automation will be sent to this rebellion before others.",
-  "uk": ""
+  "uk": "Пріоритет придушення: #G активний#!\\n\\nАрмії з автоматизацією «Придушення повстанців» надсилатимуться до цього заколоту раніше за інші."
  },
  "REBEL_SUPPRESS_PRIORITY_UNMARK": {
   "en": "Unmark this rebellion as priority",
-  "uk": ""
+  "uk": "Зняти позначку пріоритету із цього заколоту"
  },
  "REBEL_TT_TEXT_CIVIL_WAR": {
   "en": "[revolt_icon] These Rebels will start a [revolt|e] when their progress reaches #W 100%#!.",
-  "uk": ""
+  "uk": "[revolt_icon] Ці повстанці розпочнуть [Concept('revolt','повстання')|e], коли їхній прогрес сягне #W 100%#!."
  },
  "REBEL_TT_TEXT_MINOR_REVOLT": {
   "en": "[minor_revolt_icon] These Rebels will start a [minor_revolt|e] when their progress reaches #W 100%#!.",
-  "uk": ""
+  "uk": "[minor_revolt_icon] Ці повстанці розпочнуть [Concept('minor_revolt','мале повстання')|e], коли їхній прогрес сягне #W 100%#!."
  },
  "REBEL_TT_TEXT_REVOLT": {
   "en": "[civil_war_icon] These Rebels will start a [civil_war|e] when their progress reaches #W 100%#!.",
-  "uk": ""
+  "uk": "[civil_war_icon] Ці повстанці розпочнуть [Concept('civil_war','громадянську війну')|e], коли їхній прогрес сягне #W 100%#!."
  },
  "REBEL_VICTORY_DEMANDS_TOOLTIP_TITLE": {
   "en": "If They Win",
-  "uk": ""
+  "uk": "Якщо вони переможуть"
  },
  "REVOLT_NAME_ENTRY": {
   "en": "$NAME$ Revolt",
@@ -385,7 +385,7 @@
  },
  "RSI_ESTATE": {
   "en": "$BULLET$[estate|e] [ESTATE.GetNameWithNoTooltip] reasons",
-  "uk": ""
+  "uk": "$BULLET$Причини [Concept('estate','стану')|e] [ESTATE.GetNameWithNoTooltip]"
  },
  "RSI_HEADER": {
   "en": "Reasons for [pops|e] to support these rebels.",
@@ -401,7 +401,7 @@
  },
  "all_other_pops_tt": {
   "en": "All other [pops|e] loses #R 20#! [pop_satisfaction|e].",
-  "uk": ""
+  "uk": "Усі інші [pops|e] втрачають #R 20#! [Concept('pop_satisfaction','задоволення')|e]."
  },
  "alpujarras_rebels_country": {
   "en": "$alpujarras_rebels$",

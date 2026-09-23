@@ -8,12 +8,12 @@
   "uk": "[economical_base|e] ([Player.GetEconomicalBaseWithLabel|2]): $VAL|-=%$"
  },
  "ARMY_MAINTENANCE_COST": {
-  "en": "Army Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!",
-  "uk": "Утримання армії: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+  "en": "#italic $BULLET$Army Maintenance: $VAL$#!",
+  "uk": "#italic $BULLET$Утримання армії: $VAL$#!"
  },
  "ARMY_REINFORCE_COST": {
-  "en": "Armies Reinforcing: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!",
-  "uk": "Підкріплення армій: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+  "en": "#italic $BULLET$Armies Reinforcing: $VAL$#!",
+  "uk": "#italic $BULLET$Поповнення армій: $VAL$#!"
  },
  "ARMY_TRADITION_DECAY": {
   "en": "Tradition Decay: $VAL|+=2$\\n",
@@ -41,7 +41,7 @@
  },
  "BORROWER_CREDITWORTHINESS": {
   "en": "Borrower Creditworthiness",
-  "uk": ""
+  "uk": "Кредитоспроможність позичальника"
  },
  "BUILD_BUILD_SELECT_TITLE": {
   "en": "Select building to produce more [GOODS.GetName]",
@@ -57,11 +57,11 @@
  },
  "BUREAUCRACY_BASE_COST_DUE_TO": {
   "en": "Base cost of $FULL|<+=2$[$ICON$_i] is due to:",
-  "uk": ""
+  "uk": "Базова вартість $FULL|<+=2$[$ICON$_i] зумовлена таким:"
  },
  "BUREAUCRACY_INVESTMENT_PAID_LINE": {
   "en": "With $MAINTENANCE|2%$ [bureaucracy_maintenance|e] we pay $ACTUAL|<+=2$[$ICON$_i] of that $FULL|<+=2$[$ICON$_i].",
-  "uk": ""
+  "uk": "За $MAINTENANCE|2%$ [Concept('bureaucracy_maintenance','утримання бюрократії')|e] ми сплачуємо $ACTUAL|<+=2$[$ICON$_i] із цих $FULL|<+=2$[$ICON$_i]."
  },
  "BUREAUCRACY_MAINTENANCE_COST": {
   "en": "[bureaucracy|e]: $VAL|<+=2$[$ICON$_i]",
@@ -73,103 +73,103 @@
  },
  "CREDITWORTHINESS_BASE_HOVER_DESC": {
   "en": "Our stored [creditworthiness|e] before any [bankruptcy|e] penalty. Ranges from 0 to 100 with 50 as neutral. Each month it drifts toward the Equilibrium Target by the Monthly Pull, and is adjusted by events such as repaying a [loan|e] on time, extending a [loan|e] we cannot afford, declaring war on a creditor, or going [bankrupt|e].",
-  "uk": ""
+  "uk": "Наша збережена [creditworthiness|e] до будь-якого штрафу за [bankruptcy|e]. Коливається від 0 до 100, де 50 — нейтральне значення. Щомісяця вона зміщується до рівноважної цілі на величину місячного тяжіння й змінюється під впливом таких подій, як вчасне повернення [loan|e], видача [loan|e], яку ми не можемо собі дозволити, оголошення війни кредитору чи [bankrupt|e]."
  },
  "CREDITWORTHINESS_BASE_HOVER_TITLE": {
   "en": "Base Rating",
-  "uk": ""
+  "uk": "Базовий рейтинг"
  },
  "CREDITWORTHINESS_CURRENT_EFFECTS": {
   "en": "Current Effects",
-  "uk": ""
+  "uk": "Поточні ефекти"
  },
  "CREDITWORTHINESS_DRAIN_HOVER_DESC": {
   "en": "A separate penalty applied when we declare [bankruptcy|e]. It is subtracted from the Base Rating to give the Effective Rating, and decays back to zero slowly over many years.",
-  "uk": ""
+  "uk": "Окремий штраф, що накладається, коли ми оголошуємо [Concept('bankruptcy','банкрутство')|e]. Його віднімають від базового рейтингу, щоб отримати ефективний рейтинг; він повільно спадає до нуля впродовж багатьох років."
  },
  "CREDITWORTHINESS_DRAIN_HOVER_TITLE": {
   "en": "Bankruptcy Penalty",
-  "uk": ""
+  "uk": "Штраф за банкрутство"
  },
  "CREDITWORTHINESS_DRAIN_LABEL": {
   "en": "Bankruptcy Penalty",
-  "uk": ""
+  "uk": "Штраф за банкрутство"
  },
  "CREDITWORTHINESS_DRAIN_TT": {
   "en": "Bankruptcy Penalty: $VAL|R$",
-  "uk": ""
+  "uk": "Штраф за банкрутство: $VAL|R$"
  },
  "CREDITWORTHINESS_EFFECTIVE_HOVER_DESC": {
   "en": "Base Rating minus the Bankruptcy Penalty, clamped to the range 0 to 100. This is the value the rest of the game reads. Below 50 raises [interest|e] on all our [loans|e] and makes banking nations reluctant to lend; above 50 lowers interest and makes them eager.",
-  "uk": ""
+  "uk": "Базовий рейтинг мінус штраф за банкрутство, обмежений діапазоном від 0 до 100. Саме це значення використовує решта гри. Нижче за 50 зростає [Concept('interest','відсоток')|e] за всіма нашими [Concept('loans','позиками')|e], а банківські нації неохоче кредитують; вище за 50 відсоток знижується, а вони охоче дають в борг."
  },
  "CREDITWORTHINESS_EFFECTIVE_HOVER_TITLE": {
   "en": "Effective Rating",
-  "uk": ""
+  "uk": "Ефективний рейтинг"
  },
  "CREDITWORTHINESS_EFFECTIVE_LABEL": {
   "en": "Effective Rating",
-  "uk": ""
+  "uk": "Ефективний рейтинг"
  },
  "CREDITWORTHINESS_EFFECTIVE_TT": {
   "en": "Effective Rating: $VAL|Y$",
-  "uk": ""
+  "uk": "Ефективний рейтинг: $VAL|Y$"
  },
  "CREDITWORTHINESS_MONTHLY_CHANGE": {
   "en": "Monthly Pull: $VAL|2+=$",
-  "uk": ""
+  "uk": "Щомісячний зсув: $VAL|2+=$"
  },
  "CREDITWORTHINESS_MONTHLY_CHANGE_LABEL": {
   "en": "Monthly Pull",
-  "uk": ""
+  "uk": "Щомісячний зсув"
  },
  "CREDITWORTHINESS_PULL_BREAKDOWN": {
   "en": "Sources",
-  "uk": ""
+  "uk": "Джерела"
  },
  "CREDITWORTHINESS_PULL_DIRECT": {
   "en": "Monthly Creditworthiness modifier: $VAL|2+=$",
-  "uk": ""
+  "uk": "Щомісячний модифікатор кредитоспроможності: $VAL|2+=$"
  },
  "CREDITWORTHINESS_PULL_EQUILIBRIUM": {
   "en": "Pull from Equilibrium (gap $GAP|2+=$ at $RATE|%$/month): $VAL|2+=$",
-  "uk": ""
+  "uk": "Зсув до рівноваги (розрив $GAP|2+=$ при $RATE|%$/міс.): $VAL|2+=$"
  },
  "CREDITWORTHINESS_PULL_HOVER_DESC": {
   "en": "How much the Base Rating moves toward the Equilibrium Target this month. Equal to (Target minus Base) multiplied by a fixed rate, plus anything granted by the Monthly Creditworthiness modifier.",
-  "uk": ""
+  "uk": "На скільки базовий рейтинг зміщується цього місяця до рівноважної цілі. Дорівнює (ціль мінус база), помноженому на сталий коефіцієнт, плюс усе, що дає щомісячний модифікатор кредитоспроможності."
  },
  "CREDITWORTHINESS_PULL_HOVER_TITLE": {
   "en": "Monthly Pull",
-  "uk": ""
+  "uk": "Щомісячний зсув"
  },
  "CREDITWORTHINESS_RATING_LABEL": {
   "en": "Base Rating",
-  "uk": ""
+  "uk": "Базовий рейтинг"
  },
  "CREDITWORTHINESS_RATING_TT": {
   "en": "Base Rating: $VAL|Y$",
-  "uk": ""
+  "uk": "Базовий рейтинг: $VAL|Y$"
  },
  "CREDITWORTHINESS_TARGET_BREAKDOWN": {
   "en": "Sources",
-  "uk": ""
+  "uk": "Джерела"
  },
  "CREDITWORTHINESS_TARGET_HOVER_DESC": {
   "en": "The value that the Base Rating drifts toward each month. Anchored at 50, then shifted by the Creditworthiness Bonus modifier granted by laws, advances, [societal_values|e] and active modifiers.",
-  "uk": ""
+  "uk": "Значення, до якого щомісяця зміщується базовий рейтинг. Опорне значення — 50, змінюване бонусом до кредитоспроможності від законів, покращень, [Concept('societal_values','суспільних цінностей')|e] та активних модифікаторів."
  },
  "CREDITWORTHINESS_TARGET_HOVER_TITLE": {
   "en": "Equilibrium Target",
-  "uk": ""
+  "uk": "Рівноважна ціль"
  },
  "CREDITWORTHINESS_TARGET_LABEL": {
   "en": "Equilibrium Target",
-  "uk": ""
+  "uk": "Рівноважна ціль"
  },
  "CREDITWORTHINESS_TARGET_TT": {
   "en": "Equilibrium Target: $VAL|Y$",
-  "uk": ""
+  "uk": "Рівноважна ціль: $VAL|Y$"
  },
  "CURRENCY_CHANGE_TOOLTIP": {
   "en": "Monthly $NAME$",
@@ -312,8 +312,8 @@
   "uk": "... і $VAL|+=2$ з ще $NUM$ джерел."
  },
  "CURRENT_NEEDS_TITLE": {
-  "en": "#T Our [GOODS.GetNameWithNoTooltip] needs at the [MARKET.GetNameWithNoTooltip]#!",
-  "uk": "#T Наші потреби в [GOODS.GetNameWithNoTooltip] на [MARKET.GetNameWithNoTooltip]#!"
+  "en": "#T Our [GOODS.GetNameWithNoTooltip] needs at the [MARKET.GetName]#!",
+  "uk": "#T Наші потреби в [GOODS.GetNameWithNoTooltip] на [MARKET.GetName]#!"
  },
  "CURRENT_NUMBER_OF_LOANS": {
   "en": "Current Loans",
@@ -321,7 +321,7 @@
  },
  "DEBT_TOOLTIP_T": {
   "en": "$game_concept_debt$ of [Player.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_debt$ держави [Player.GetNameWithNoTooltip]"
  },
  "DEBT_TT_TEXT": {
   "en": "The amount of current [loans|e] is [Player.GetEconomy.GetNumberOfLoans|V], with a total sum of [EconomyView.GetTotalLoanDebt|2V]@gold! including [interest|e].",
@@ -1372,28 +1372,28 @@
   "uk": "Виробництво [GOODS.GetName]"
  },
  "GREATEST_NEEDS": {
-  "en": "Greatest Needs",
-  "uk": "Найбільші потреби"
+  "en": "Greatest Local Deficits",
+  "uk": "Найбільший локальний дефіцит"
  },
  "GREATEST_SURPLUS": {
-  "en": "Greatest Surplus",
-  "uk": "Найбільший надлишок"
+  "en": "Greatest Local Surplus",
+  "uk": "Найбільший локальний надлишок"
  },
  "HARMONY_TT_CURRENT_TEXT": {
   "en": "With [harmony|V] at [Country.GetFixedPointCurrencyValue('harmony')|W], we get the following effects:",
   "uk": "З [harmony|V] на рівні [Country.GetFixedPointCurrencyValue('harmony')|W], ми отримуємо такі ефекти:"
  },
  "HARMONY_TT_IF_HIGH_T": {
-  "en": "If we had [harmony|V] above #V 10#!, we would get:",
-  "uk": "Якби у нас було [harmony|V] вище #V 10#!, ми б отримали:"
+  "en": "If we have [harmony|V] above #V 10#!, we could get up to:",
+  "uk": "Якщо наша [harmony|V] вища за #V 10#!, ми можемо отримати до:"
  },
  "HARMONY_TT_IF_LOW_T": {
-  "en": "If we had [harmony|V] below #V -10#!, we would get:",
-  "uk": "Якби у нас було [harmony|V] нижче #V -10#!, ми б отримали:"
+  "en": "If our [harmony|V] drops below #V -10#!, we could get up to:",
+  "uk": "Якщо наша [harmony|V] падає нижче #V -10#!, ми можемо отримати до:"
  },
  "HARMONY_TT_IF_NEUTRAL_T": {
-  "en": "If we had [harmony|V] between #V -10#! and #V 10#!, we would get:",
-  "uk": "Якби у нас було [harmony|V] між #V -10#! та #V 10#!, ми б отримали:"
+  "en": "[harmony|V] between #V -10#! and #V 10#! gives us up to:",
+  "uk": "[harmony|V] між #V -10#! та #V 10#! дає нам до:"
  },
  "HARMONY_TT_TEXT": {
   "en": "We have [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('harmony')|W] [harmony|V] and it changes by [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_harmony')] each month.",
@@ -1417,11 +1417,11 @@
  },
  "HONOR_TT_IF_HIGH_T": {
   "en": "If we have [honor|V] above #V 75#!, we could get up to:",
-  "uk": ""
+  "uk": "Якщо наша [honor|V] вища за #V 75#!, ми можемо отримати до:"
  },
  "HONOR_TT_IF_LOW_T": {
   "en": "If our [honor|V] drops below #V 25#!, we could get up to:",
-  "uk": ""
+  "uk": "Якщо наша [honor|V] падає нижче #V 25#!, ми можемо отримати до:"
  },
  "HONOR_TT_TEXT": {
   "en": "We have [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('honor')|W] [honor|V] and it changes by [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_honor')] each month.",
@@ -1484,12 +1484,12 @@
   "uk": "З [karma|V] на рівні [Country.GetFixedPointCurrencyValue('karma')|W], ми отримуємо такі ефекти:"
  },
  "KARMA_TT_IF_HIGH_T": {
-  "en": "If we had [karma|V] above #V 33#!, we would get:",
-  "uk": "Якби у нас було [karma|V] вище #V 33#!, ми б отримали:"
+  "en": "If our [karma|V] is above #V 33#!, we would get:",
+  "uk": "Якщо наша [karma|V] вища за #V 33#!, ми отримаємо:"
  },
  "KARMA_TT_IF_LOW_T": {
-  "en": "If we had [karma|V] below #V -33#!, we would get:",
-  "uk": "Якби у нас було [karma|V] нижче #V -33#!, ми б отримали:"
+  "en": "If our [karma|V] drops below #V -33#!, we would get:",
+  "uk": "Якщо наша [karma|V] падає нижче #V -33#!, ми отримаємо:"
  },
  "KARMA_TT_IF_NEUTRAL_T": {
   "en": "If we had [karma|V] between #V -33#! and #V 33#!, we would get:",
@@ -1509,7 +1509,7 @@
  },
  "LOCAL_BALANCE": {
   "en": "Local Balance",
-  "uk": ""
+  "uk": "Локальний баланс"
  },
  "MANPOWER_FROM_POPS": {
   "en": "[manpower|e] from Pops: $VAL$ [manpower_i|e]",
@@ -1545,19 +1545,19 @@
  },
  "MINTING_FULL_EFFICIENCY_INCOME": {
   "en": "With the selected [minting|e] setting, income at full efficiency would've been $VAL|2+=$@income!",
-  "uk": ""
+  "uk": "За обраного налаштування [Concept('minting','карбування')|e] дохід за повної ефективності становив би $VAL|2+=$@income!"
  },
  "NAME_SORT": {
   "en": "Source",
   "uk": "Джерело"
  },
  "NAVY_MAINTENANCE_COST": {
-  "en": "Navy Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!",
-  "uk": "Утримання флоту: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+  "en": "#italic $BULLET$Navy Maintenance: $VAL$#!",
+  "uk": "#italic $BULLET$Утримання флоту: $VAL$#!"
  },
  "NAVY_REINFORCE_COST": {
-  "en": "Ships Repairing: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!",
-  "uk": "Ремонт кораблів: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+  "en": "#italic $BULLET$Ships Repairing: $VAL$#!#!",
+  "uk": "#italic $BULLET$Ремонт кораблів: $VAL$#!#!"
  },
  "NAVY_TRADITION_DECAY": {
   "en": "Tradition Decay: $VAL|+=2$\\n",
@@ -1620,12 +1620,12 @@
   "uk": "З [purity|V] на рівні [Country.GetFixedPointCurrencyValue('purity')|W], ми отримуємо такі ефекти:"
  },
  "PURITY_TT_IF_HIGH_T": {
-  "en": "If we had [purity|V] above #V 75#!, we would get:",
-  "uk": "Якби у нас було [purity|V] вище #V 75#!, ми б отримали:"
+  "en": "If we have [purity|V] above #V 75#!, we could get up to:",
+  "uk": "Якщо наша [purity|V] вища за #V 75#!, ми можемо отримати до:"
  },
  "PURITY_TT_IF_LOW_T": {
-  "en": "If we had [purity|V] below #V 25#!, we would get:",
-  "uk": "Якби у нас було [purity|V] нижче #V 25#!, ми б отримали:"
+  "en": "If our [purity|V] drops below #V 25#!, we could get up to:",
+  "uk": "Якщо наша [purity|V] падає нижче #V 25#!, ми можемо отримати до:"
  },
  "PURITY_TT_TEXT": {
   "en": "We have [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('purity')|W] [purity|V] and it changes by [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_purity')] each month.",
@@ -1649,7 +1649,7 @@
  },
  "RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST": {
   "en": "From default market price of [GOODS.GetName] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$",
-  "uk": ""
+  "uk": "Від типової ринкової ціни [GOODS.GetName] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
  },
  "RIGHTEOUSNESS_TT_EFFECTS_TEXT": {
   "en": "With [righteousness|V] at [Country.GetFixedPointCurrencyValue('righteousness')|W], we get the following effects:",
@@ -1701,7 +1701,7 @@
  },
  "SELECT_ALL_LOCATIONS": {
   "en": "Select All Locations",
-  "uk": ""
+  "uk": "Вибрати всі райони"
  },
  "SELECT_LOCATION": {
   "en": "Select Location",
@@ -1712,16 +1712,16 @@
   "uk": "З [self_control|V] на рівні [Country.GetFixedPointCurrencyValue('self_control')|W], ми отримуємо такі ефекти:"
  },
  "SELF_CONTROL_TT_IF_HIGH_T": {
-  "en": "If we had [self_control|V] above #V 10#!, we would get:",
-  "uk": "Якби у нас було [self_control|V] вище #V 10#!, ми б отримали:"
+  "en": "If we have [self_control|V] above #V 10#!, we could get up to:",
+  "uk": "Якби [self_control|V] було вище #V 10#!, ми б отримали до:"
  },
  "SELF_CONTROL_TT_IF_LOW_T": {
-  "en": "If we had [self_control|V] below #V -10#!, we would get:",
-  "uk": "Якби у нас було [self_control|V] нижче #V -10#!, ми б отримали:"
+  "en": "If our [self_control|V] drops below #V -10#!, we could get up to:",
+  "uk": "Якби [self_control|V] впало нижче #V -10#!, ми б отримали до:"
  },
  "SELF_CONTROL_TT_IF_NEUTRAL_T": {
-  "en": "If we had [self_control|V] between #V -10#! and #V 10#!, we would get:",
-  "uk": "Якби у нас було [self_control|V] між #V -10#! та #V 10#!, ми б отримали:"
+  "en": "[self_control|V] between #V -10#! and #V 10#! gives us at best:",
+  "uk": "[self_control|V] між #V -10#! та #V 10#! дає щонайбільше:"
  },
  "SELF_CONTROL_TT_TEXT": {
   "en": "We have [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('self_control')|W] [self_control|V] and it changes by [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_self_control')] each month.",
@@ -1729,7 +1729,7 @@
  },
  "SORT_BY_BURGHER_TRADING_TT": {
   "en": "Sort by [burgher_trade|e] capacity in the [market|e]",
-  "uk": ""
+  "uk": "Сортувати за торговою спроможністю [Concept('burgher_trade','міських купців')|e] на [Concept('market','ринку')|e]"
  },
  "SORT_BY_DEMAND_MARKETS_TT": {
   "en": "Sort by highest demanded [goods|e] in the [market|e]",
@@ -1805,7 +1805,7 @@
  },
  "SPECIFIC_BUREAUCRACY_MAINTENANCE_COST": {
   "en": "[BUREAUCRACY_TYPE.GetName] at $MAINTENANCE|2%$ [bureaucracy_maintenance|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|<+=2$[$ICON$_i]#!",
-  "uk": ""
+  "uk": "[BUREAUCRACY_TYPE.GetName] за $MAINTENANCE|2%$ [Concept('bureaucracy_maintenance','утримання бюрократії')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|<+=2$[$ICON$_i]#!"
  },
  "STABILITY_DECAY": {
   "en": "Stability Decay: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!\\n",
@@ -1817,7 +1817,7 @@
  },
  "STABILITY_DECAY_CURRENT_VALUE": {
   "en": "Current Stability: $VAL|2$",
-  "uk": ""
+  "uk": "Поточна стабільність: $VAL|2$"
  },
  "STABILITY_FORMAT": {
   "en": "$VAL|+=2$\\n",
@@ -1860,8 +1860,8 @@
   "uk": "Торговий баланс"
  },
  "TRADE_OVERVIEW_NON_ZERO_MERCHANTS": {
-  "en": "Markets with [Player.GetAdjective] [merchant_capacity|e]:",
-  "uk": "Ринки з [Player.GetAdjective] [Concept('merchant_capacity','торгова спроможність')|e]:"
+  "en": "Markets with [Player.GetAdjective] [merchant_capacity|]:",
+  "uk": "Ринки з [merchant_capacity|] ([Player.GetAdjective]):"
  },
  "TRADE_TEXT": {
   "en": "Trade",
@@ -1880,16 +1880,16 @@
   "uk": "З [yanantin|V] на рівні [Country.GetFixedPointCurrencyValue('yanantin')|W], ми отримуємо такі ефекти:"
  },
  "YANANTIN_TT_IF_HIGH_T": {
-  "en": "If we had [yanantin|V] above #V 0#!, we would get:",
-  "uk": "Якби у нас було [yanantin|V] вище #V 0#!, ми б отримали:"
+  "en": "If we have [yanantin|V] above #V 0#!, we could get up to:",
+  "uk": "Якби [yanantin|V] було вище #V 0#!, ми б отримали до:"
  },
  "YANANTIN_TT_IF_LOW_T": {
-  "en": "If we had [yanantin|V] below #V 0#!, we would get:",
-  "uk": "Якби у нас було [yanantin|V] нижче #V 0#!, ми б отримали:"
+  "en": "If our [yanantin|V] drops below #V 0#!, we could get up to:",
+  "uk": "Якби [yanantin|V] впало нижче #V 0#!, ми б отримали до:"
  },
  "YANANTIN_TT_IF_NEUTRAL_T": {
-  "en": "If we had [yanantin|V] at #V 0#!, we would get:",
-  "uk": "Якби у нас було [yanantin|V] на рівні #V 0#!, ми б отримали:"
+  "en": "[yanantin|V] at #V 0#! gives us at best:",
+  "uk": "[yanantin|V] на рівні #V 0#! дає нам щонайбільше:"
  },
  "YANANTIN_TT_TEXT": {
   "en": "We have [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('yanantin')|W] [yanantin|V] and it changes by [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_yanantin')] each month.",
@@ -1969,51 +1969,51 @@
  },
  "army_heavy_cavalry_build": {
   "en": "Heavy Cavalry Build Cost",
-  "uk": ""
+  "uk": "Вартість створення важкої кавалерії"
  },
  "army_heavy_cavalry_maintenance": {
   "en": "Heavy Cavalry Maintenance Cost",
-  "uk": ""
+  "uk": "Вартість утримання важкої кавалерії"
  },
  "army_heavy_cavalry_reinforce": {
   "en": "Heavy Cavalry Reinforcement Cost",
-  "uk": ""
+  "uk": "Вартість поповнення важкої кавалерії"
  },
  "army_heavy_infantry_build": {
   "en": "Heavy Infantry Build Cost",
-  "uk": ""
+  "uk": "Вартість створення важкої піхоти"
  },
  "army_heavy_infantry_maintenance": {
   "en": "Heavy Infantry Maintenance Cost",
-  "uk": ""
+  "uk": "Вартість утримання важкої піхоти"
  },
  "army_heavy_infantry_reinforce": {
   "en": "Heavy Infantry Reinforcement Cost",
-  "uk": ""
+  "uk": "Вартість поповнення важкої піхоти"
  },
  "army_light_cavalry_build": {
   "en": "Light Cavalry Build Cost",
-  "uk": ""
+  "uk": "Вартість створення легкої кавалерії"
  },
  "army_light_cavalry_maintenance": {
   "en": "Light Cavalry Maintenance Cost",
-  "uk": ""
+  "uk": "Вартість утримання легкої кавалерії"
  },
  "army_light_cavalry_reinforce": {
   "en": "Light Cavalry Reinforcement Cost",
-  "uk": ""
+  "uk": "Вартість поповнення легкої кавалерії"
  },
  "army_light_infantry_build": {
   "en": "Light Infantry Build Cost",
-  "uk": ""
+  "uk": "Вартість створення легкої піхоти"
  },
  "army_light_infantry_maintenance": {
   "en": "Light Infantry Maintenance Cost",
-  "uk": ""
+  "uk": "Вартість утримання легкої піхоти"
  },
  "army_light_infantry_reinforce": {
   "en": "Light Infantry Reinforcement Cost",
-  "uk": ""
+  "uk": "Вартість поповнення легкої піхоти"
  },
  "army_tradition": {
   "en": "Army Tradition",
@@ -2077,19 +2077,19 @@
  },
  "capitalism_prioritising_infrastructure_trade": {
   "en": "Infrastructure, Trade, then Most Profitable",
-  "uk": ""
+  "uk": "Інфраструктура, торгівля, потім найприбутковіше"
  },
  "capitalism_prioritising_infrastructure_trade_and_culture": {
   "en": "Infrastructure, Trade, Culture, then Most Profitable",
-  "uk": ""
+  "uk": "Інфраструктура, торгівля, культура, потім найприбутковіше"
  },
  "capitalism_prioritising_infrastructure_trade_and_culture_desc": {
   "en": "Buildings are filled infrastructure first, then trade, then culture, and then in order of which makes the most profit.",
-  "uk": ""
+  "uk": "Споруди заповнюються спершу інфраструктурою, потім торгівлею, потім культурою, а далі за прибутковістю."
  },
  "capitalism_prioritising_infrastructure_trade_desc": {
   "en": "Buildings are filled infrastructure first, then trade, and then in order of which makes the most profit.",
-  "uk": ""
+  "uk": "Споруди заповнюються спершу інфраструктурою, потім торгівлею, а далі за прибутковістю."
  },
  "cardinal_price": {
   "en": "Cardinal Price",
@@ -2201,7 +2201,7 @@
  },
  "creditworthiness_desc": {
   "en": "Represents how reliable [ROOT.GetName] is perceived to be as a borrower. Higher values grant better [interest|e] rates on all [loans|e] and make banking nations more willing to lend.",
-  "uk": ""
+  "uk": "Показує, наскільки надійним позичальником вважають [ROOT.GetName]. Вищі значення дають кращі ставки [Concept('interest','відсотка')|e] за всіма [Concept('loans','позиками')|e] і роблять банківські нації охочішими кредитувати."
  },
  "deselect_expensive_child_education": {
   "en": "Stop Expensive Child Education",
@@ -2325,7 +2325,7 @@
  },
  "hre_army_building": {
   "en": "Imperial Army Building",
-  "uk": ""
+  "uk": "Будівництво імперської армії"
  },
  "hussite_wars_actions_price": {
   "en": "$hussite_wars$ Situation Actions Cost",
@@ -2337,7 +2337,7 @@
  },
  "improve_our_cultural_view_price": {
   "en": "$improve_our_cultural_view$ Cost",
-  "uk": ""
+  "uk": "Вартість: $improve_our_cultural_view$"
  },
  "inflation": {
   "en": "Inflation",
@@ -2353,7 +2353,7 @@
  },
  "jurchen_confederation_law_price": {
   "en": "Jurchen Confederation Law Price",
-  "uk": ""
+  "uk": "Ціна закону конфедерації чжурчженів"
  },
  "karma": {
   "en": "Karma",
@@ -2377,19 +2377,19 @@
  },
  "megalopolis": {
   "en": "Megalopolis",
-  "uk": ""
+  "uk": "Мегаполіс"
  },
  "megalopolis_desc": {
   "en": "Perhaps the grandest feat of all mankind, a Megalopolis is a sprawling urban center that showcases the pinnacle of architectural and cultural achievement.",
-  "uk": ""
+  "uk": "Мабуть, найвеличніше звершення людства: мегаполіс — розлоге міське осердя, що втілює вершину архітектурних і культурних здобутків."
  },
  "megalopolis_upgrade": {
   "en": "Upgrade to Megalopolis",
-  "uk": ""
+  "uk": "Розвинути до мегаполіса"
  },
  "merchant_guild_chapel_price": {
   "en": "$merchant_guild_chapel$ Price",
-  "uk": ""
+  "uk": "Ціна: $merchant_guild_chapel$"
  },
  "merchants": {
   "en": "Merchants",
@@ -2397,7 +2397,7 @@
  },
  "merge_colonies_price": {
   "en": "$merge_colonies$ Cost",
-  "uk": ""
+  "uk": "Вартість: $merge_colonies$"
  },
  "miaphysite_monastery_building": {
   "en": "Miaphysite Monastery Building Cost",
@@ -2481,11 +2481,11 @@
  },
  "negotiate_rebels_buy_off_price": {
   "en": "Buy off Rebels",
-  "uk": ""
+  "uk": "Відкупитися від бунтівників"
  },
  "opinion_defaulted_on_loan": {
   "en": "Defaulted on Loan",
-  "uk": ""
+  "uk": "Невиплачена позика"
  },
  "orthodox_monastery_building": {
   "en": "Orthodox Monastery Building Cost",
@@ -2577,7 +2577,7 @@
  },
  "profess_trust_price": {
   "en": "Profess Trust Cost",
-  "uk": ""
+  "uk": "Вартість підкріплення довіри"
  },
  "propose_curia_action": {
   "en": "Propose Curia Action",
@@ -2589,7 +2589,7 @@
  },
  "provoke_rebels_price": {
   "en": "$provoke_rebels$ Main Actions Price",
-  "uk": ""
+  "uk": "Ціна основних дій: $provoke_rebels$"
  },
  "purity": {
   "en": "Purity",
@@ -2653,7 +2653,7 @@
  },
  "request_divorce_price": {
   "en": "$request_divorce$ Cost",
-  "uk": ""
+  "uk": "Вартість: $request_divorce$"
  },
  "restrict_peranakan_trading_rights_price": {
   "en": "$restrict_peranakan_trading_rights$ Cost",
@@ -2669,7 +2669,7 @@
  },
  "rise_of_the_szlachta_actions_price": {
   "en": "$rise_of_the_szlachta$ Main Actions Price",
-  "uk": ""
+  "uk": "Ціна основних дій: $rise_of_the_szlachta$"
  },
  "rot_reform_into_monarchy_price": {
   "en": "$rot_reform_into_monarchy$ Cost",
@@ -2685,7 +2685,7 @@
  },
  "rtr_demand_annexation_price": {
   "en": "$rtr_demand_annexation$ Cost",
-  "uk": ""
+  "uk": "Вартість: $rtr_demand_annexation$"
  },
  "rtr_grant_titles_price": {
   "en": "$rtr_grant_titles$ Cost",
@@ -2796,8 +2796,8 @@
   "uk": "Почати дослідження"
  },
  "start_exploration_on": {
-  "en": "Start preparing an Exploration in [Area.GetName]",
-  "uk": "Почати підготовку дослідження в [Area.GetName]"
+  "en": "Start preparing an Exploration",
+  "uk": "Почати підготовку експедиції"
  },
  "start_exploration_sea": {
   "en": "Start Exploration",
@@ -2849,11 +2849,11 @@
  },
  "template_maintenance": {
   "en": "Template Maintenance Cost",
-  "uk": ""
+  "uk": "Вартість утримання шаблону"
  },
  "total_debt": {
   "en": "Total Outstanding Debt",
-  "uk": ""
+  "uk": "Загальний непогашений борг"
  },
  "town": {
   "en": "Town",
@@ -2869,11 +2869,11 @@
  },
  "transfer_subject_price": {
   "en": "$transfer_subject$ Cost",
-  "uk": ""
+  "uk": "Вартість: $transfer_subject$"
  },
  "twilight_of_the_tsardom_disaster_actions_price": {
   "en": "$twilight_of_the_tsardom$ Actions Cost",
-  "uk": ""
+  "uk": "Вартість дій: $twilight_of_the_tsardom$"
  },
  "uc_bey_pays": {
   "en": "$uc_bey$ pays Overlord",

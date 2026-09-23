@@ -5,7 +5,7 @@
  },
  "AFFECTED_FOREIGN_POPS_ENTRY": {
   "en": "$AMOUNT$ of your [pops|e] outside your country are also affected.",
-  "uk": ""
+  "uk": "$AMOUNT$ Ваших [Concept('pops','груп населення')|e] за межами держави також зазнають впливу."
  },
  "AFFECTED_LOCATIONS": {
   "en": "Affected Locations",
@@ -13,15 +13,15 @@
  },
  "AFFECTED_LOCATIONS_ENTRY": {
   "en": "$AMOUNT$ are a $TYPE$",
-  "uk": ""
+  "uk": "$AMOUNT$ — це $TYPE$"
  },
  "AFFECTED_MY_POPS_ENTRY": {
   "en": "$AMOUNT$ other [pops|e] inside your country are affected, maybe migrants from other areas.",
-  "uk": ""
+  "uk": "$AMOUNT$ інших [Concept('pops','груп населення')|e] всередині держави зазнають впливу, можливо, мігранти з інших областей."
  },
  "AFFECTED_OTHER_POPS_ENTRY": {
   "en": "$AMOUNT$ other foreign [pops|e] inside your country are affected, maybe immigrants.",
-  "uk": ""
+  "uk": "$AMOUNT$ інших чужих [Concept('pops','груп населення')|e] всередині держави зазнають впливу, можливо, іммігранти."
  },
  "ALLY_OF_DELHI": {
   "en": "They are an [ally|e] or a #Y supporter#! of [GetCountry('DLH').GetName] during the [ShowSituationName('fall_of_delhi')] [situation|e].",
@@ -49,7 +49,7 @@
  },
  "ALREADY_MEMBER_OF_LEAGUE": {
   "en": "Already [member|e] of a League",
-  "uk": ""
+  "uk": "Вже [member|e] Ліги"
  },
  "ANGLICAN_STATE": {
   "en": "$anglican_ADJ$",
@@ -76,8 +76,8 @@
   "uk": "[THIS.GetLocation.GetName|Y]\\nПоточне населення: [THIS.GetLocation.GetTotalPopulation|Y]\\n#R Чорна смерть#! поширилася тут на [THIS.GetLocation.GetDiseaseInfectionPercentage('bubonic_plague')|R2%]."
  },
  "BOH_STR_TT": {
-  "en": "Strength [GetCountry('BOH').GetRelativeMilitaryStrength(GetCountry('PAP').Self)|V2%]",
-  "uk": "Чисельність [GetCountry('BOH').GetRelativeMilitaryStrength(GetCountry('PAP').Self)|V2%]"
+  "en": "Strength [GetCountry('BOH').GetRelativeMilitaryStrength(GetUniqueInternationalOrganization('hre').GetLeaderCountry.Self)|V2%]",
+  "uk": "Чисельність [GetCountry('BOH').GetRelativeMilitaryStrength(GetUniqueInternationalOrganization('hre').GetLeaderCountry.Self)|V2%]"
  },
  "BUILD_PLAGUE_BUILDINS_TITLE": {
   "en": "Building Actions",
@@ -85,15 +85,15 @@
  },
  "CALVINISTS_IN_CATHOLIC_STATE": {
   "en": "$calvinist_preachers$ in $CATHOLIC_STATE$",
-  "uk": ""
+  "uk": "$calvinist_preachers$ у $CATHOLIC_STATE$"
  },
  "CALVINISTS_IN_JESUIT_STATE": {
   "en": "$calvinist_preachers$ in $JESUIT_STATE$",
-  "uk": ""
+  "uk": "$calvinist_preachers$ у $JESUIT_STATE$"
  },
  "CALVINISTS_IN_REFORMER_STATE": {
   "en": "$calvinist_preachers$ in $REFORMER_STATE$",
-  "uk": ""
+  "uk": "$calvinist_preachers$ у $REFORMER_STATE$"
  },
  "CALVINIST_STATE": {
   "en": "$calvinist_ADJ$",
@@ -113,11 +113,11 @@
  },
  "CHALLENGER_BEYLIK": {
   "en": "Challenger for the strongest Beylik",
-  "uk": ""
+  "uk": "Претендент на найсильніший бейлик"
  },
  "CONQUEST_DESIRE_ON_US": {
   "en": "Conquest Desire against us",
-  "uk": ""
+  "uk": "Бажання завоювати нас"
  },
  "CONVERTED_COUNTRIES": {
   "en": "Converted countries",
@@ -149,7 +149,7 @@
  },
  "COUNCIL_OF_TRENT_NO_DEBATE_ACTIVE": {
   "en": "\\n[ShowLawName('cc_indulgences')]\\n[ShowLawName('cc_papal_authority')]\\n[ShowLawName('cc_veneration_of_saints_and_reliquaries')]\\n[ShowLawName('cc_simony')]\\n[ShowLawName('cc_society_of_jesus')]\\n[ShowLawName('cc_witchcraft')]\\n[ShowLawName('cc_marriage_of_priest')]",
-  "uk": ""
+  "uk": "\\n[ShowLawName('cc_indulgences')]\\n[ShowLawName('cc_papal_authority')]\\n[ShowLawName('cc_veneration_of_saints_and_reliquaries')]\\n[ShowLawName('cc_simony')]\\n[ShowLawName('cc_society_of_jesus')]\\n[ShowLawName('cc_witchcraft')]\\n[ShowLawName('cc_marriage_of_priest')]"
  },
  "COUNCIL_OF_TRENT_NO_POLICY_IN_DEBATE": {
   "en": "No [policy|e] in debate",
@@ -193,11 +193,11 @@
  },
  "CURRENT_LEAGUE_LEADER_DIP_REP": {
   "en": "Current League Leader [diplomatic_reputation|e]",
-  "uk": ""
+  "uk": "[diplomatic_reputation|e] нинішнього лідера Ліги"
  },
  "CURRENT_LEAGUE_LEADER_OPINION": {
   "en": "Current League Leader [opinion|e]",
-  "uk": ""
+  "uk": "[opinion|e] нинішнього лідера Ліги"
  },
  "DEC_WAR_ON_ENGLAND": {
   "en": "Declare [war|e] on the [GetCountry('ENG').GetLongNameWithNoTooltip]",
@@ -241,7 +241,7 @@
  },
  "EMPEROR_STR_TT": {
   "en": "Strength [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetRelativeMilitaryStrength(GetCountry('BOH').Self)|V2%]",
-  "uk": ""
+  "uk": "Чисельність [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetRelativeMilitaryStrength(GetCountry('BOH').Self)|V2%]"
  },
  "END_REQUIREMENTS": {
   "en": "End Requirements",
@@ -293,7 +293,7 @@
  },
  "FOREIGN_LEAGUE": {
   "en": "Our League is Foreign",
-  "uk": ""
+  "uk": "Наша Ліга — чужа"
  },
  "FOREIGN_LEAGUE_VICTORY": {
   "en": "Foreign League Victory",
@@ -313,19 +313,19 @@
  },
  "GAG_COUNTRY_PROGRESS_MONTHLY_TT": {
   "en": "The amount of faction progress this country contributes each month, based on its [tax_base|e] share among all members",
-  "uk": ""
+  "uk": "Обсяг прогресу фракції, який ця держава вносить щомісяця, на основі її частки [Concept('tax_base','податкової бази')|e] серед усіх учасників"
  },
  "GAG_COUNTRY_PROGRESS_MONTHLY_TT_TITLE": {
   "en": "Monthly $GAG_COUNTRY_PROGRESS_TT_TITLE$",
-  "uk": ""
+  "uk": "Щомісячно: $GAG_COUNTRY_PROGRESS_TT_TITLE$"
  },
  "GAG_COUNTRY_PROGRESS_TT": {
   "en": "This country's share of its faction's total [tax_base|e], which determines its total contribution to faction progress",
-  "uk": ""
+  "uk": "Частка цієї держави в загальній [Concept('tax_base','податковій базі')|e] фракції, яка визначає її внесок у прогрес фракції"
  },
  "GAG_COUNTRY_PROGRESS_TT_TITLE": {
   "en": "Country Faction Tax Base Share",
-  "uk": ""
+  "uk": "Частка держави в податковій базі фракції"
  },
  "GAG_FACTION_VOTES_TITLE": {
   "en": "[VoteTargetGlue.GetVoterCount|V0] voters support [VoteTargetGlue.GetVoteTarget.GetCountry.MakeScope.GetVariable('guelphs_and_ghibellines_side').GetCardinal.GetLocation.GetName]",
@@ -337,7 +337,7 @@
  },
  "GAG_GHIBELLINES_MEMBERS_TITLE": {
   "en": "Ghibellines Members",
-  "uk": ""
+  "uk": "Учасники Гібелінів"
  },
  "GAG_GHIBELLINES_TITLE": {
   "en": "[GetUniqueInternationalOrganization('ghibellines_io').GetName]",
@@ -349,7 +349,7 @@
  },
  "GAG_GHIBELLINES_VICTORY_TT": {
   "en": "The [GetUniqueInternationalOrganization('ghibellines_io').GetName] win when their progress reaches #Y 100%#!.\\n\\nThe $ghibellines_io$ leader may request the Kingdom of [ShowRegionName('italy_region')] title from the [GetUniqueInternationalOrganization('hre').GetName] Emperor at reduced requirements for #Y 10 years#!.",
-  "uk": ""
+  "uk": "[GetUniqueInternationalOrganization('ghibellines_io').GetName] перемагають, коли їхній прогрес досягає #Y 100%#!.\\n\\nЛідер $ghibellines_io$ може вимагати титул королівства [ShowRegionName('italy_region')] в Імператора [GetUniqueInternationalOrganization('hre').GetName] на пільгових умовах протягом #Y 10 років#!."
  },
  "GAG_GHIBELLINE_SUPPORTER": {
   "en": "Ghibelline Support",
@@ -357,7 +357,7 @@
  },
  "GAG_GUELPHS_MEMBERS_TITLE": {
   "en": "Guelphs Members",
-  "uk": ""
+  "uk": "Учасники Гвельфів"
  },
  "GAG_GUELPHS_TITLE": {
   "en": "[GetUniqueInternationalOrganization('guelphs_io').GetName]",
@@ -369,7 +369,7 @@
  },
  "GAG_GUELPHS_VICTORY_TT": {
   "en": "The [GetUniqueInternationalOrganization('guelphs_io').GetName] win when their progress reaches #Y 100%#!.\\n\\nThe $guelphs_io$ leader may form [ShowRegionName('italy_region')] without the usual location requirements.\\n\\nAll Italian countries are blocked from joining the [GetUniqueInternationalOrganization('hre').GetName] for #Y 50 years#!.",
-  "uk": ""
+  "uk": "[GetUniqueInternationalOrganization('guelphs_io').GetName] перемагають, коли їхній прогрес досягає #Y 100%#!.\\n\\nЛідер $guelphs_io$ може створити [ShowRegionName('italy_region')] без звичайних вимог до районів.\\n\\nУсім італійським державам буде заблоковано вступ до [GetUniqueInternationalOrganization('hre').GetName] на #Y 50 років#!."
  },
  "GAG_GUELPH_LEADER": {
   "en": "Guelph Leader",
@@ -381,23 +381,23 @@
  },
  "GAG_INVITE_ACCEPTANCE_TITLE": {
   "en": "Invite Acceptance",
-  "uk": ""
+  "uk": "Прийняття запрошення"
  },
  "GAG_INVITE_NOT_FACTION_LEADER_TT": {
   "en": "You must be the leader of your faction to invite countries.",
-  "uk": ""
+  "uk": "Щоб запрошувати держави, Ви маєте бути лідером своєї фракції."
  },
  "GAG_INVITE_NOT_IN_FACTION_TT": {
   "en": "You are not a member of either the Guelphs or Ghibellines faction.",
-  "uk": ""
+  "uk": "Ви не є учасником ні фракції Гвельфів, ні Гібелінів."
  },
  "GAG_INVITE_TARGET_IN_FACTION_TT": {
   "en": "This country is already a member of your faction.",
-  "uk": ""
+  "uk": "Ця держава вже є учасником Вашої фракції."
  },
  "GAG_INVITE_TO_FACTION_TITLE": {
   "en": "Invite to Faction",
-  "uk": ""
+  "uk": "Запросити до фракції"
  },
  "GAG_NEUTRALS_TITLE": {
   "en": "Neutral",
@@ -405,15 +405,15 @@
  },
  "GAG_STALEMATE_TT": {
   "en": "#italic If neither faction reaches 100% before the [ShowAgeName('age_3_discovery')], the conflict ends in a stalemate.#!",
-  "uk": ""
+  "uk": "#italic Якщо жодна з фракцій не досягне 100% до [ShowAgeName('age_3_discovery')], конфлікт завершиться нічиєю.#!"
  },
  "GAG_VICTORY_CONDITIONS_TITLE": {
   "en": "Victory Conditions",
-  "uk": ""
+  "uk": "Умови перемоги"
  },
  "GAOP_MIGHTIEST_PIRATE_DESC_TT": {
-  "en": "The most influential and powerful of the pirates is monthly determined by who has the greatest [great_power_score|e]!",
-  "uk": "Найвпливовішим і найсильнішим піратом щомісяця стає власник найбільшого [Concept('great_power_score', 'рахунку великої держави')|e]!"
+  "en": "The most influential and powerful of the pirates is monthly determined by who has the largest navy!",
+  "uk": "Найвпливовішим і найсильнішим піратом щомісяця стає власник найбільшого флоту!"
  },
  "GAOP_MIGHTIEST_PIRATE_TITLE": {
   "en": "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_pirate_variable').GetCountry.GetLongName]",
@@ -529,95 +529,95 @@
  },
  "IW_ADMIN_CENTER_MAP_LEGEND": {
   "en": "Has an [ShowBuildingTypeName('italian_administration_center')]",
-  "uk": ""
+  "uk": "Має [ShowBuildingTypeName('italian_administration_center')]"
  },
  "IW_ADMIN_CENTER_MAP_TOOLTIP": {
   "en": "This province hosts an [ShowBuildingTypeName('italian_administration_center')]",
-  "uk": ""
+  "uk": "У цій провінції розташований [ShowBuildingTypeName('italian_administration_center')]"
  },
  "IW_ALREADY_IN_WAR_TT": {
   "en": "You are already a participant in this war.",
-  "uk": ""
+  "uk": "Ви вже є учасником цієї війни."
  },
  "IW_BALANCE_OF_POWER": {
-  "en": "Balance of Power",
-  "uk": "Баланс сил"
+  "en": "Size of the Foreign League",
+  "uk": "Розмір чужої Ліги"
  },
  "IW_BRIBE_NOT_LEAGUE_LEADER_TT": {
   "en": "You must be the leader of an Italian Wars league to bribe countries.",
-  "uk": ""
+  "uk": "Щоб підкуповувати держави, Ви маєте бути лідером ліги Італійських війн."
  },
  "IW_CURRENT_WARS_TT": {
   "en": "Current Wars by League Leaders",
-  "uk": ""
+  "uk": "Поточні війни між лідерами Ліг"
  },
  "IW_FOREIGN_LEAGUE_BALKAN_VICTORY_DLC_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]\\n$BULLET$As $ROM$ or $BYZ$, gain the permanent [ShowModifier('iw_rom_byz_latin_victory_dlc_modifier')] or [ShowModifier('iw_byz_hellenic_victory_dlc_modifier')] based on your [ShowSocietyDirectionName('latinization')] and [ShowSocietyDirectionName('hellenization')] [societal_values|e]\\n$BULLET$Otherwise, gain the Empire [country_rank|e], or the permanent [ShowModifier('iw_balkan_victory_cabinet_modifier')] if already an Empire",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]\\n$BULLET$Якщо це $ROM$ або $BYZ$, отримує постійний [ShowModifier('iw_rom_byz_latin_victory_dlc_modifier')] або [ShowModifier('iw_byz_hellenic_victory_dlc_modifier')] залежно від своїх [Concept('societal_values','суспільних цінностей')|e] [ShowSocietyDirectionName('latinization')] і [ShowSocietyDirectionName('hellenization')]\\n$BULLET$В інших випадках отримує [country_rank|e] Імперії, або постійний [ShowModifier('iw_balkan_victory_cabinet_modifier')], якщо вже є Імперією"
  },
  "IW_FOREIGN_LEAGUE_BALKAN_VICTORY_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]\\n$BULLET$As $ROM$ or $BYZ$ with the #bold Fate of the Phoenix#! DLC, gain [ShowModifier('iw_rom_byz_latin_victory_dlc_modifier')] or [ShowModifier('iw_byz_hellenic_victory_dlc_modifier')] based on their [ShowSocietyDirectionName('latinization')] and [ShowSocietyDirectionName('hellenization')] [societal_values|e]\\n$BULLET$Without the DLC, $ROM$ or $BYZ$ instead gain the permanent [ShowModifier('iw_balkan_victory_no_dlc_modifier')]\\n$BULLET$Otherwise, gain the Empire [country_rank|e], or the permanent [ShowModifier('iw_balkan_victory_cabinet_modifier')] if already an Empire",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]\\n$BULLET$Якщо це $ROM$ або $BYZ$ з доповненням #bold Fate of the Phoenix#!, отримує [ShowModifier('iw_rom_byz_latin_victory_dlc_modifier')] або [ShowModifier('iw_byz_hellenic_victory_dlc_modifier')] залежно від своїх [Concept('societal_values','суспільних цінностей')|e] [ShowSocietyDirectionName('latinization')] і [ShowSocietyDirectionName('hellenization')]\\n$BULLET$Без доповнення $ROM$ або $BYZ$ натомість отримує постійний [ShowModifier('iw_balkan_victory_no_dlc_modifier')]\\n$BULLET$В інших випадках отримує [country_rank|e] Імперії, або постійний [ShowModifier('iw_balkan_victory_cabinet_modifier')], якщо вже є Імперією"
  },
  "IW_FOREIGN_LEAGUE_FRANCE_VICTORY_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader gains [prestige|e] and [ShowModifier('iw_france_victory_modifier')] for [ShowNamedValue('modifier_duration_years_long')|0] years, scaled by [locations|e] held by the [international_organization|e] in [ShowRegionName('italy_region')]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$Лідер Ліги отримує [prestige|e] і [ShowModifier('iw_france_victory_modifier')] на [ShowNamedValue('modifier_duration_years_long')|0] років, масштабовано за кількістю [Concept('locations','районів')|e], що належать [Concept('international_organization','міжнародному об’єднанню')|e] в [ShowRegionName('italy_region')]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]"
  },
  "IW_FOREIGN_LEAGUE_HRE_VICTORY_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader gains [prestige|e] and [ShowNamedValue('imperial_authority_unique_bonus')|+=2] Imperial Authority in the [holy_roman_empire|e]\\n$BULLET$Non-Prince [members|e] of the league are elevated to Princes of the [holy_roman_empire|e]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$Лідер Ліги отримує [prestige|e] і [ShowNamedValue('imperial_authority_unique_bonus')|+=2] імперської влади в [Concept('holy_roman_empire','Священній Римській Імперії')|e]\\n$BULLET$Учасники, що не є князями, підносяться до князів [Concept('holy_roman_empire','Священної Римської Імперії')|e]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]"
  },
  "IW_FOREIGN_LEAGUE_IBERIA_VICTORY_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader gains [prestige|e] and [ShowModifier('iw_iberia_victory_modifier')] for [ShowNamedValue('modifier_duration_years_long')|0] years, scaled by [locations|e] held by the [international_organization|e] in [ShowRegionName('italy_region')]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$Лідер Ліги отримує [prestige|e] і [ShowModifier('iw_iberia_victory_modifier')] на [ShowNamedValue('modifier_duration_years_long')|0] років, масштабовано за кількістю [Concept('locations','районів')|e], що належать [Concept('international_organization','міжнародному об’єднанню')|e] в [ShowRegionName('italy_region')]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]"
  },
  "IW_INVITE_ACCEPTANCE_TITLE": {
   "en": "Invite Acceptance",
-  "uk": ""
+  "uk": "Прийняття запрошення"
  },
  "IW_INVITE_NOT_IN_LEAGUE_TT": {
   "en": "You are not a member of any Italian Wars league.",
-  "uk": ""
+  "uk": "Ви не є учасником жодної ліги Італійських війн."
  },
  "IW_INVITE_NOT_LEAGUE_LEADER_TT": {
   "en": "You must be the leader of your Italian Wars league to invite countries.",
-  "uk": ""
+  "uk": "Щоб запрошувати держави, Ви маєте бути лідером своєї ліги Італійських війн."
  },
  "IW_INVITE_SHORT": {
   "en": "Invite",
-  "uk": ""
+  "uk": "Запросити"
  },
  "IW_INVITE_TARGET_IN_LEAGUE_TT": {
   "en": "This country is already a member of your league.",
-  "uk": ""
+  "uk": "Ця держава вже є учасником Вашої ліги."
  },
  "IW_INVITE_TO_LEAGUE_TITLE": {
   "en": "Invite to League",
-  "uk": ""
+  "uk": "Запросити до Ліги"
  },
  "IW_ITALIAN_LEAGUE_VICTORY_TT": {
   "en": "#T Victory#!\\n$BULLET$All [members|e] gain [prestige|e] and [stability|e]\\n$BULLET$League leader gains the permanent [ShowModifier('iw_victory_in_the_italian_wars_modifier')] [modifier|e]\\n$BULLET$League leader's [ruler|e] gains increased [abilities|e]\\n$BULLET$League leader enacts the [ShowLawName('administration_of_italian_lands_law')] [law|e]\\n$BULLET$Non-subject [members|e] may submit as a [ShowSubjectTypeName('vassal')] to the Leader based on [opinion|e]",
-  "uk": ""
+  "uk": "#T Перемога#!\\n$BULLET$Усі [members|e] отримують [prestige|e] і [stability|e]\\n$BULLET$Лідер Ліги отримує постійний [modifier|e] [ShowModifier('iw_victory_in_the_italian_wars_modifier')]\\n$BULLET$[ruler|e] лідера Ліги отримує підвищені [abilities|e]\\n$BULLET$Лідер Ліги запроваджує [law|e] [ShowLawName('administration_of_italian_lands_law')]\\n$BULLET$Учасники, що не є підданими, можуть стати [ShowSubjectTypeName('vassal')] Лідера залежно від [Concept('opinion','думки')|e]"
  },
  "IW_ITALY_LOCATION_COUNT_TITLE": {
   "en": "Locations in Italy",
-  "uk": ""
+  "uk": "Райони в Італії"
  },
  "IW_ITALY_LOCATION_COUNT_TT": {
   "en": "Number of [locations|e] in [ShowRegionName('italy_region')] this country owns that count toward its league's total.",
-  "uk": ""
+  "uk": "Кількість [Concept('locations','районів')|e] в [ShowRegionName('italy_region')], якими володіє ця держава та які зараховуються до загального підсумку її ліги."
  },
  "IW_JOIN_WAR_SHORT": {
   "en": "Join",
-  "uk": ""
+  "uk": "Приєднатися"
  },
  "IW_NOT_OWNED": {
   "en": "Not owned by any league",
-  "uk": ""
+  "uk": "Не належить жодній лізі"
  },
  "IW_NO_CURRENT_WARS": {
   "en": "No active wars between League Leaders",
-  "uk": ""
+  "uk": "Немає активних воєн між лідерами Ліг"
  },
  "IW_PIE_LOCATION_COUNT": {
   "en": "#yellow_titles [ItalianWarsLeaguePieSlice.GetLocationCount]/200 #!",
@@ -629,35 +629,35 @@
  },
  "IW_PIE_SLICE_NOT_OWNED_TT": {
   "en": "#bold [ItalianWarsLeaguePieSlice.GetLocationCount]#! [locations|e] in Italy are not owned by any of the leagues.",
-  "uk": ""
+  "uk": "#bold [ItalianWarsLeaguePieSlice.GetLocationCount]#! [locations|e] в Італії не належать жодній з ліг."
  },
  "IW_PIE_SLICE_TT": {
   "en": "Controls #bold [ItalianWarsLeaguePieSlice.GetLocationCount] / 200#! [locations|e] in Italy\\n#weak A league must control 200 Italian [locations|e] to win the Italian Wars.#!",
-  "uk": ""
+  "uk": "Контролює #bold [ItalianWarsLeaguePieSlice.GetLocationCount] / 200#! [locations|e] в Італії\\n#weak Щоб перемогти в Італійських війнах, ліга повинна контролювати 200 італійських [locations|e].#!"
  },
  "IW_SORT_DIPLOMACY": {
   "en": "Sort by willingness to accept invite to Our League",
-  "uk": ""
+  "uk": "Сортувати за наміром прийняти запрошення до Нашої Ліги"
  },
  "IW_SORT_LOCATIONS": {
   "en": "Sort by number of [locations|e] owned in [ShowRegionName('italy_region')]",
-  "uk": ""
+  "uk": "Сортувати за кількістю [Concept('locations','районів')|e] у власності в [ShowRegionName('italy_region')]"
  },
  "IW_STALEMATE_GOV_PENALTY_TT": {
   "en": "$IW_STALEMATE_TT$\\n$BULLET$Foreign League leaders suffer [ShowNamedValue('government_power_ultimate_penalty')|+=2] [government_power|e]",
-  "uk": ""
+  "uk": "$IW_STALEMATE_TT$\\n$BULLET$Лідери чужих Ліг зазнають штрафу [ShowNamedValue('government_power_ultimate_penalty')|+=2] [Concept('government_power','владу уряду')|e]"
  },
  "IW_STALEMATE_TT": {
   "en": "#T Stalemate#!\\n$BULLET$Every [ShowBuildingTypeName('italian_administration_center')] in our territories will be replaced by the [modifier|e] [ShowModifier('center_of_authority_ruins_modifier')] for [ShowNamedValue('modifier_duration_years_normal')|0] years",
-  "uk": ""
+  "uk": "#T Нічия#!\\n$BULLET$Кожен [ShowBuildingTypeName('italian_administration_center')] на наших територіях буде замінено на [modifier|e] [ShowModifier('center_of_authority_ruins_modifier')] на [ShowNamedValue('modifier_duration_years_normal')|0] років"
  },
  "IW_TENSION_LABEL": {
   "en": "Tension",
-  "uk": ""
+  "uk": "Напруга"
  },
  "JESUIT_STATE": {
   "en": "Jesuit",
-  "uk": ""
+  "uk": "Єзуїтський"
  },
  "KILLS_IN_BATTLES": {
   "en": "Kills in Battles",
@@ -677,7 +677,7 @@
  },
  "LEADER_BALKANS_POWER_TOOLTIP": {
   "en": "Leader of the Balkan League",
-  "uk": ""
+  "uk": "Лідер Балканської ліги"
  },
  "LEADER_FRENCH_POWER_TOOLTIP": {
   "en": "Leader of the French League",
@@ -729,15 +729,15 @@
  },
  "LUTHERANS_IN_CATHOLIC_STATE": {
   "en": "$lutheran_preachers$ in $CATHOLIC_STATE$",
-  "uk": ""
+  "uk": "$lutheran_preachers$ у $CATHOLIC_STATE$"
  },
  "LUTHERANS_IN_JESUIT_STATE": {
   "en": "$lutheran_preachers$ in $JESUIT_STATE$",
-  "uk": ""
+  "uk": "$lutheran_preachers$ у $JESUIT_STATE$"
  },
  "LUTHERANS_IN_REFORMER_STATE": {
   "en": "$lutheran_preachers$ in $REFORMER_STATE$",
-  "uk": ""
+  "uk": "$lutheran_preachers$ у $REFORMER_STATE$"
  },
  "LUTHERAN_STATE": {
   "en": "$lutheran_ADJ$",
@@ -753,7 +753,7 @@
  },
  "MEMBER_BALKANS_POWER_TOOLTIP": {
   "en": "Member of the Balkan League",
-  "uk": ""
+  "uk": "Учасник Балканської ліги"
  },
  "MEMBER_FRENCH_POWER_TOOLTIP": {
   "en": "Member of the French League",
@@ -792,12 +792,12 @@
   "uk": "[Concept('raw_materials','Ресурси')|e], виявлені в #TOOLTIP:CONTINENT,america,X #L Америці#!#! та привезені до #Y Старого Світу#! — до #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, #TOOLTIP:CONTINENT,asia,X #L Азії#!#! або #TOOLTIP:CONTINENT,africa,X #L Африки#!#!."
  },
  "NEW_WORLD_GOODS_DISTRIBUTION": {
-  "en": "Present [Scope.GetGoods.GetPresentOutsideContinent('america')] times",
-  "uk": "Присутній у [Scope.GetGoods.GetPresentOutsideContinent('america')] місцях"
+  "en": "Present [Goods.GetPresentOutsideContinent('america')] times",
+  "uk": "Присутній [Goods.GetPresentOutsideContinent('america')] разів"
  },
  "NEW_WORLD_GOODS_DISTRIBUTION_TOOLTIP": {
-  "en": "[Scope.GetGoods.GetName] is present in [Scope.GetGoods.GetPresentOutsideContinent('america')] locations in the #Y Old World#!, which would be [ShowContinentName('europe')], [ShowContinentName('asia')], and [ShowContinentName('africa')]",
-  "uk": "Товар «[Scope.GetGoods.GetName]» присутній у [Scope.GetGoods.GetPresentOutsideContinent('america')] місцях #Y Старого Світу#!: це [ShowContinentName('europe')], [ShowContinentName('asia')] і [ShowContinentName('africa')]."
+  "en": "[Goods.GetName] is present in [Goods.GetPresentOutsideContinent('america')] locations in the #Y Old World#!, which would be [ShowContinentName('europe')], [ShowContinentName('asia')], and [ShowContinentName('africa')]",
+  "uk": "[Goods.GetName] присутній у [Goods.GetPresentOutsideContinent('america')] районах #Y Старого Світу#!, тобто в [ShowContinentName('europe')], [ShowContinentName('asia')] і [ShowContinentName('africa')]"
  },
  "NEW_WORLD_GOODS_TITLE": {
   "en": "Goods of the New World",
@@ -840,12 +840,12 @@
   "uk": "[Concept('raw_materials','Ресурси')|e], завезені до #TOOLTIP:CONTINENT,america,X #L Америки#!#! зі #Y Старого Світу#! — з #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, #TOOLTIP:CONTINENT,asia,X #L Азії#!#! або #TOOLTIP:CONTINENT,africa,X #L Африки#!#!."
  },
  "OLD_WORLD_GOODS_DISTRIBUTION": {
-  "en": "Present [Scope.GetGoods.GetPresentInContinent('america')] times",
-  "uk": "Присутній у [Scope.GetGoods.GetPresentInContinent('america')] місцях"
+  "en": "Present [Goods.GetPresentInContinent('america')] times",
+  "uk": "Присутній [Goods.GetPresentInContinent('america')] разів"
  },
  "OLD_WORLD_GOODS_DISTRIBUTION_TOOLTIP": {
-  "en": "[Scope.GetGoods.GetName] is present in [Scope.GetGoods.GetPresentInContinent('america')] locations in [ShowContinentName('america')]",
-  "uk": "Товар «[Scope.GetGoods.GetName]» присутній у [Scope.GetGoods.GetPresentInContinent('america')] місцях в #TOOLTIP:CONTINENT,america,X #L Америці#!#!."
+  "en": "[Goods.GetName] is present in [Goods.GetPresentInContinent('america')] locations in [ShowContinentName('america')]",
+  "uk": "[Goods.GetName] присутній у [Goods.GetPresentInContinent('america')] районах [ShowContinentName('america')]"
  },
  "OLD_WORLD_GOODS_TITLE": {
   "en": "Goods of the Old World",
@@ -869,7 +869,7 @@
  },
  "PART_OF_ITALY_TT": {
   "en": "Part of the geographical [region|e] of [ShowRegionName('italy_region')]",
-  "uk": ""
+  "uk": "Частина географічного [Concept('region','регіону')|e] [ShowRegionName('italy_region')]"
  },
  "PEACE_100": {
   "en": "Negotiate Peace",
@@ -889,15 +889,15 @@
  },
  "REFORMATION_BUILD_CALVINIST_PREACHERS": {
   "en": "Build [ShowBuildingTypeName('calvinist_preachers')]",
-  "uk": ""
+  "uk": "Побудувати [ShowBuildingTypeName('calvinist_preachers')]"
  },
  "REFORMATION_BUILD_JESUIT_COLLEGE": {
   "en": "Build [ShowBuildingTypeName('jesuit_college')]",
-  "uk": ""
+  "uk": "Побудувати [ShowBuildingTypeName('jesuit_college')]"
  },
  "REFORMATION_BUILD_LUTHERAN_PREACHERS": {
   "en": "Build [ShowBuildingTypeName('lutheran_preachers')]",
-  "uk": ""
+  "uk": "Побудувати [ShowBuildingTypeName('lutheran_preachers')]"
  },
  "REFORMATION_CALVINIST_POPS": {
   "en": "[ShowReligionName('calvinist')]",
@@ -909,15 +909,15 @@
  },
  "REFORMATION_COUNTRIES_TAB": {
   "en": "Countries",
-  "uk": ""
+  "uk": "Держави"
  },
  "REFORMATION_COUNTRIES_TAB_TT": {
   "en": "All countries whose state religion is a western Christian faith.",
-  "uk": ""
+  "uk": "Усі держави, чия державна релігія — західнохристиянська віра."
  },
  "REFORMATION_HAS_CALVINIST_MOVEMENT": {
   "en": "[ShowReligionName('calvinist')] movement active (Calvinism spreading)",
-  "uk": ""
+  "uk": "Активний рух [ShowReligionName('calvinist')] (поширюється кальвінізм)"
  },
  "REFORMATION_HAS_CALVINIST_PREACHERS": {
   "en": "Has [ShowBuildingTypeName('calvinist_preachers')] active",
@@ -929,7 +929,7 @@
  },
  "REFORMATION_HAS_LUTHERAN_MOVEMENT": {
   "en": "[ShowReligionName('lutheran')] movement active (Lutheranism spreading)",
-  "uk": ""
+  "uk": "Активний рух [ShowReligionName('lutheran')] (поширюється лютеранство)"
  },
  "REFORMATION_HAS_LUTHERAN_PREACHERS": {
   "en": "Has [ShowBuildingTypeName('lutheran_preachers')] active",
@@ -941,11 +941,11 @@
  },
  "REFORMATION_LOCATIONS_AFFETED_IN": {
   "en": "Locations affected in",
-  "uk": ""
+  "uk": "Уражені райони в"
  },
  "REFORMATION_LOCATION_RELIGION": {
   "en": "Predominantly [ROOT.GetLocation.GetDominantReligion.GetAdjective]",
-  "uk": ""
+  "uk": "Переважно [ROOT.GetLocation.GetDominantReligion.GetAdjective]"
  },
  "REFORMATION_LUTHERAN_POPS": {
   "en": "[ShowReligionName('lutheran')]",
@@ -953,51 +953,51 @@
  },
  "REFORMATION_MAIN_RELIGION": {
   "en": "[countries|E] have this [religion|e] as [primary_religion|e]",
-  "uk": ""
+  "uk": "[countries|E] мають цю [Concept('religion','релігію')|e] як [Concept('primary_religion','основну релігію')|e]"
  },
  "REFORMATION_MAP_NO_MOVEMENT_PRESENT": {
   "en": "No active [reformation|e] movement in this location",
-  "uk": ""
+  "uk": "Немає активного руху [Concept('reformation','реформації')|e] в цьому районі"
  },
  "REFORMATION_MOVEMENTS_COUNTRIES_TT": {
   "en": "countries affected worldwide",
-  "uk": ""
+  "uk": "держав уражено по всьому світу"
  },
  "REFORMATION_MOVEMENTS_HEADER": {
   "en": "Active Religious [movements|E]",
-  "uk": ""
+  "uk": "Активні релігійні [movements|E]"
  },
  "REFORMATION_MOVEMENT_LOCATIONS": {
   "en": "Spreading in $AMOUNT$ @location!",
-  "uk": ""
+  "uk": "Поширюється в $AMOUNT$ @location!"
  },
  "REFORMATION_MOVEMENT_LOCATIONS_TT": {
   "en": "locations affected",
-  "uk": ""
+  "uk": "уражені райони"
  },
  "REFORMATION_PIE_SLICE_TT": {
   "en": "[ReformationPieSliceItem.GetPercentage|%2] ([ReformationPieSliceItem.GetDisplayPopCount]) pops of this religion exist worldwide.",
-  "uk": ""
+  "uk": "[ReformationPieSliceItem.GetPercentage|%2] ([ReformationPieSliceItem.GetDisplayPopCount]) груп населення цієї релігії існують у всьому світі."
  },
  "REFORMATION_POP_PIE_SLICE_TT": {
   "en": "[ReformationPopReligionSlice.GetPercentage|%2] ([ReformationPopReligionSlice.GetDisplayPopCount]) pops of this religion in this social class in your country.",
-  "uk": ""
+  "uk": "[ReformationPopReligionSlice.GetPercentage|%2] ([ReformationPopReligionSlice.GetDisplayPopCount]) груп населення цієї релігії в цьому суспільному класі у Вашій державі."
  },
  "REFORMATION_REFORMERS_TAB": {
   "en": "Reformers",
-  "uk": ""
+  "uk": "Реформатори"
  },
  "REFORMATION_REFORMERS_TAB_TT": {
   "en": "Shows all [reformation|E] reformers.",
-  "uk": ""
+  "uk": "Показує всіх реформаторів [Concept('reformation','реформації')|e]."
  },
  "REFORMATION_RELIGION_FILTER_CATEGORY": {
   "en": "Religion",
-  "uk": ""
+  "uk": "Релігія"
  },
  "REFORMATION_RELIGION_TT_AND_MORE": {
   "en": "...and [Subtract_int32(GetDataModelSize(ReformationReligionItem.GetReligion.GetCountries), '(int32)4')] more.",
-  "uk": ""
+  "uk": "…та ще [Subtract_int32(GetDataModelSize(ReformationReligionItem.GetReligion.GetCountries), '(int32)4')]."
  },
  "REFORMATION_TOTAL_NUMBERS_CALVINIST_PREACHERS": {
   "en": "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('reformation_calvinist_preachers_counter').GetValue|Y0] [ShowBuildingTypeName('calvinist_preachers')] active",
@@ -1009,7 +1009,7 @@
  },
  "REFORMER_STATE": {
   "en": "Reformer",
-  "uk": ""
+  "uk": "Реформатор"
  },
  "REFORM_DESIRE_CURRENT_AND_CHANGE_TT_TEXT": {
   "en": "The [reform_desire] is currently [GetReligionByKey('catholic').GetReformDesire|2%Y] and it changes monthly by [GetReligionByKey('catholic').GetModifierValue('monthly_reform_desire')|+=2]",
@@ -1032,8 +1032,8 @@
   "uk": "Потенційне [GetCountry('BOH').GetAdjectiveWithNoTooltip|l]е [Concept('levy','ополчення')|e]: [GetCountry('BOH').GetArmyLevyPower]"
  },
  "RELATIVE_MILITARY_STRENGTH_BOH_TT_TEXT": {
-  "en": "[GetCountry('BOH').GetAdjectiveWithNoTooltip] Relative Military Strength to [GetCountry('PAP').GetName] is: [GetCountry('BOH').GetRelativeMilitaryStrength(GetCountry('PAP').Self)|V0%]",
-  "uk": "Військова чисельність [GetCountry('BOH').GetAdjectiveWithNoTooltip|l]ої сторони відносно #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_GEN')|L]#!#!: [GetCountry('BOH').GetRelativeMilitaryStrength(GetCountry('PAP').Self)|V0%]"
+  "en": "[GetCountry('BOH').GetAdjectiveWithNoTooltip] Relative Military Strength to [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] is: [GetCountry('BOH').GetRelativeMilitaryStrength(GetUniqueInternationalOrganization('hre').GetLeaderCountry.Self)|V0%]",
+  "uk": "Військова чисельність [GetCountry('BOH').GetAdjectiveWithNoTooltip] сторони відносно [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] становить: [GetCountry('BOH').GetRelativeMilitaryStrength(GetUniqueInternationalOrganization('hre').GetLeaderCountry.Self)|V0%]"
  },
  "RELATIVE_MILITARY_STRENGTH_BOH_TT_TITLE": {
   "en": "[GetCountry('BOH').GetAdjectiveWithNoTooltip] Military Strength",
@@ -1041,15 +1041,15 @@
  },
  "RELATIVE_MILITARY_STRENGTH_EMPEROR_TT_ARMY_STRENGTH": {
   "en": "$RELATIVE_MILITARY_STRENGTH_EMPEROR_TT_TEXT$ \\n[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip] [army|e] Size: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetArmySize]\\n[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip] Potential [levy|e]: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetArmyLevyPotentialStrength]",
-  "uk": ""
+  "uk": "$RELATIVE_MILITARY_STRENGTH_EMPEROR_TT_TEXT$ \\nРозмір [Concept('army','армії')|e] [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip]ої сторони: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetArmySize]\\nПотенційне [levy|e] [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip]ої сторони: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetArmyLevyPotentialStrength]"
  },
  "RELATIVE_MILITARY_STRENGTH_EMPEROR_TT_TEXT": {
   "en": "The [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjective] Relative Military Strength to [GetCountry('BOH').GetName] is: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetRelativeMilitaryStrength(GetCountry('BOH').Self)|V0%]",
-  "uk": ""
+  "uk": "Військова чисельність [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjective]ої сторони відносно [GetCountry('BOH').GetName] становить: [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetRelativeMilitaryStrength(GetCountry('BOH').Self)|V0%]"
  },
  "RELATIVE_MILITARY_STRENGTH_EMPEROR_TT_TITLE": {
   "en": "[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip] Military Strength",
-  "uk": ""
+  "uk": "Військова чисельність [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetAdjectiveWithNoTooltip]ої сторони"
  },
  "RELATIVE_MILITARY_STRENGTH_ENG_TT_ARMY_STRENGTH": {
   "en": "$RELATIVE_MILITARY_STRENGTH_ENG_TT_TEXT$\\n[GetCountry('ENG').GetAdjectiveWithNoTooltip] [army|e] Size: [GetCountry('ENG').GetArmySize]\\n[GetCountry('ENG').GetAdjectiveWithNoTooltip] Potential [levy|e]: [GetCountry('ENG').GetArmyLevyPotentialStrength]",
@@ -1125,7 +1125,7 @@
  },
  "RELIGIOUS_DIVERSITY_COUNTRY": {
   "en": "[SituationView.GetPlayer.GetLongNameWithNoTooltip] Religious Diversity",
-  "uk": ""
+  "uk": "Релігійне розмаїття [SituationView.GetPlayer.GetLongNameWithNoTooltip]"
  },
  "RIVALS_TOTAL_DEATHS_TITLE": {
   "en": "Our rivals were also affected:",
@@ -1153,7 +1153,7 @@
  },
  "ROTT_LEADER_COUNTRY_SCORE_TT": {
   "en": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]",
-  "uk": ""
+  "uk": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]"
  },
  "ROTT_SECOND_COUNTRY": {
   "en": "##2 [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('second_strongest_strongest_beylik_variable').GetCountry.GetName]",
@@ -1169,7 +1169,7 @@
  },
  "ROTT_SECOND_COUNTRY_SCORE_TT": {
   "en": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]",
-  "uk": ""
+  "uk": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]"
  },
  "ROTT_THIRD_COUNTRY": {
   "en": "##3 [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('third_strongest_strongest_beylik_variable').GetCountry.GetName]",
@@ -1185,11 +1185,11 @@
  },
  "ROTT_THIRD_COUNTRY_SCORE_TT": {
   "en": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]",
-  "uk": ""
+  "uk": "[military_strength|e]: [Country.GetMilitaryStrength]\\n[tax_base|e]: [Country.GetTotalTaxBase|2]"
  },
  "ROT_CONQUEST_AMBITION": {
   "en": "Conquest Ambition Target of [GetCountry('TIM').GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "Ціль завоювання [GetCountry('TIM').GetNameWithNoTooltip]"
  },
  "ROT_CURRENTLY_INVADED": {
   "en": "Currently invaded by [GetCountry('TIM').GetName]",
@@ -1224,8 +1224,8 @@
   "uk": "#italic [GetCountry('CHI').GetName] завжди буде противником #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!.#!"
  },
  "RTR_GRAPH_FLAVOR_REBEL_TT": {
-  "en": "#italic The strongest of the [GetUniqueInternationalOrganization('red_turban_rebels').GetName] is determined by the [great_power_score] of the members on a monthly basis. Whoever has the highest score automatically becomes the warlord#!",
-  "uk": "#italic Найсильніша держава #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#! щомісяця визначається на основі [Concept('great_power_score','рахунку великої держави')|e] учасників. Держава з найбільшим рахунком автоматично стає новим, найсильнішим військовим ватажком.#!"
+  "en": "#italic The strongest of the [GetUniqueInternationalOrganization('red_turban_rebels').GetName] is determined by the military strength of the members on a monthly basis. Whoever has the highest military strength automatically becomes the warlord#!",
+  "uk": "#italic Найсильніша держава [GetUniqueInternationalOrganization('red_turban_rebels').GetName] щомісяця визначається на основі військової чисельності учасників. Держава з найбільшою чисельністю автоматично стає новим військовим ватажком#!"
  },
  "RTR_GRAPH_TITLE_TT": {
   "en": "Power of the Country",
@@ -1344,20 +1344,20 @@
   "uk": "Утрималися: [VoteTargetGlue.GetVotesCount|V0]"
  },
  "SITUATION_BREAKDOWN": {
-  "en": "Situation Breakdown",
+  "en": "Breakdown",
   "uk": "Опис ситуації"
  },
  "SITUATION_BREAKDOWN_TT_TEXT": {
   "en": "Shows the Situation Breakdown",
-  "uk": ""
+  "uk": "Показує опис ситуації"
  },
  "SITUATION_MEMBERS": {
   "en": "Members",
-  "uk": ""
+  "uk": "Учасники"
  },
  "SITUATION_MEMBERS_TT_TEXT": {
   "en": "Shows all the [members|e] in the [situation|e].",
-  "uk": ""
+  "uk": "Показує всіх [Concept('members','учасників')|e] у [Concept('situation','ситуації')|e]."
  },
  "SITUATION_MODIFIERS_TT": {
   "en": "Situation Modifiers",
@@ -1401,7 +1401,7 @@
  },
  "SITUATION_SENGOKU_STRONGEST_DAIMYO_PROGRESS": {
   "en": "The $game_concept_military_strength$ of [Country.GetNameWithNoTooltip]",
-  "uk": ""
+  "uk": "$game_concept_military_strength$ держави [Country.GetNameWithNoTooltip]"
  },
  "SITUATION_TORDESILLAS_RATIFICATION_PROGRESS_TEXT": {
   "en": "The current Progress to Ratification is [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_treaty_progress').GetValue]\\nIt is increasing each month by 0.5",
@@ -1433,15 +1433,15 @@
  },
  "SPONSOR_FIRST_ITALIAN_LEAGUE": {
   "en": "Sponsor of the First Italian League",
-  "uk": ""
+  "uk": "Спонсор Першої італійської ліги"
  },
  "SPONSOR_SECOND_ITALIAN_LEAGUE": {
   "en": "Sponsor of the Second Italian League",
-  "uk": ""
+  "uk": "Спонсор Другої італійської ліги"
  },
  "SPONSOR_THIRD_ITALIAN_LEAGUE": {
   "en": "Sponsor of the Third Italian League",
-  "uk": ""
+  "uk": "Спонсор Третьої італійської ліги"
  },
  "STALEMATE_TOOLTIP": {
   "en": "Stalemate Conditions",
@@ -1449,7 +1449,7 @@
  },
  "START_REQUIREMENTS": {
   "en": "Start Requirements",
-  "uk": ""
+  "uk": "Вимоги для початку"
  },
  "STARVING_PROVINCES": {
   "en": "[starving|e] [provinces|e]",
@@ -1465,7 +1465,7 @@
  },
  "STARVING_PROVINCE_ENTRY": {
   "en": "$PROVINCE$ with $AMOUNT|Y$",
-  "uk": ""
+  "uk": "$PROVINCE$ з $AMOUNT|Y$"
  },
  "STARVING_PROVINCE_ENTRY_REST": {
   "en": "...and up to $AMOUNT|Y0$ others!",
@@ -1553,7 +1553,7 @@
  },
  "WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER_ALLY": {
   "en": "[ally|e] of the $WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER$",
-  "uk": ""
+  "uk": "[Concept('ally','союзник')|e] $WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER$"
  },
  "WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_TITLE": {
   "en": "[GetUniqueInternationalOrganization('catholic_league').GetName]",
@@ -1581,7 +1581,7 @@
  },
  "WAR_OF_RELIGIONS_PROTESTANT_UNION_LEADER_ALLY": {
   "en": "[ally|e] of the $WAR_OF_RELIGIONS_PROTESTANT_UNION_LEADER$",
-  "uk": ""
+  "uk": "[Concept('ally','союзник')|e] $WAR_OF_RELIGIONS_PROTESTANT_UNION_LEADER$"
  },
  "WAR_OF_RELIGIONS_PROTESTANT_UNION_TITLE": {
   "en": "[GetUniqueInternationalOrganization('protestant_union').GetName]",
@@ -1685,7 +1685,7 @@
  },
  "antipiracy_request_cooldown_tt": {
   "en": "This country has NOT answered a similar request in the past 6 months",
-  "uk": ""
+  "uk": "Ця держава НЕ відповіла на подібний запит за останні 6 місяців"
  },
  "any_country_in_spread_of_revolution_disaster_tt": {
   "en": "No [country|e] is currently involved in the [ShowDisasterName('revolution_disaster')] [disaster|e]",
@@ -1756,16 +1756,16 @@
   "uk": "Місце походження: [ROOT.GetVariable('original_outbreak').GetDiseaseOutbreak.GetOrigin.GetName]"
  },
  "black_death_kills": {
-  "en": "• It will kill many [pops|E] and [characters|E] wherever it spreads.",
-  "uk": "• Там, куди вона прийде, загине багато [Concept('characters', 'персонажів')|e] і людей у [Concept('pops', 'групах населення')|e]."
+  "en": "$BULLET$It will kill many [pops|E] and [characters|E] wherever it spreads.",
+  "uk": "$BULLET$Там, куди вона прийде, загине багато [Concept('characters', 'персонажів')|e] і людей у [Concept('pops', 'групах населення')|e]."
  },
  "black_death_monthly": {
-  "en": "• This plague will spread to nearby [locations|e] and across trade routes\\n• It will kill many [pops|E], [armies|e], and [characters|E] wherever it spreads.",
-  "uk": "• Ця чума поширюватиметься в найближчих [Concept('locations','районах')|e] і торговими шляхами\\n• Там, куди вона прийде, загине багато [Concept('characters','персонажів')|e], а також людей у [Concept('pops','групах населення')|e] і [Concept('armies','арміях')|e]."
+  "en": "$BULLET$This plague will spread to nearby [locations|e] and across trade routes\\n$BULLET$It will kill many [pops|E], [armies|e], and [characters|E] wherever it spreads.",
+  "uk": "$BULLET$Ця чума поширюватиметься в найближчих [Concept('locations','районах')|e] і торговими шляхами\\n$BULLET$Там, куди вона прийде, загине багато [Concept('pops','групах населення')|e], [Concept('armies','арміях')|e] і [Concept('characters','персонажів')|e]."
  },
  "black_death_spreads": {
-  "en": "• This plague will spread to nearby [locations|e].",
-  "uk": "• Ця чума поширюватиметься в найближчих [Concept('locations','районах')|e]"
+  "en": "$BULLET$This plague will spread to nearby [locations|e].",
+  "uk": "$BULLET$Ця чума поширюватиметься в найближчих [Concept('locations','районах')|e]."
  },
  "byz_not_considering_proposal_from_another_beylik": {
   "en": "[GetCountry('BYZ').GetName] is not currently considering a proposal from another Beylik.",
@@ -1789,15 +1789,15 @@
  },
  "challenge_league_leadership": {
   "en": "Challenge for League Leadership",
-  "uk": ""
+  "uk": "Претензія на лідерство в Лізі"
  },
  "challenge_league_leadership_desc": {
   "en": "Our state has grown beyond what our current leader can command. We will seize leadership of the League and lead it to victory ourselves.",
-  "uk": ""
+  "uk": "Наша держава переросла те, чим може керувати наш нинішній лідер. Ми захопимо лідерство в Лізі й самі поведемо її до перемоги."
  },
  "challenge_league_leadership_price": {
   "en": "Challenge League Leadership Price",
-  "uk": ""
+  "uk": "Ціна претензії на лідерство в Лізі"
  },
  "choose_a_country": {
   "en": "Choose a [country|e]",
@@ -1829,11 +1829,11 @@
  },
  "choose_god": {
   "en": "Choose a [god|e]",
-  "uk": ""
+  "uk": "Обрати [Concept('god','бога')|e]"
  },
  "choose_holy_site": {
   "en": "Choose a [holy_site|e]",
-  "uk": ""
+  "uk": "Обрати [Concept('holy_site','святиню')|e]"
  },
  "choose_location": {
   "en": "Choose a [location|e]",
@@ -1845,7 +1845,7 @@
  },
  "choose_omen": {
   "en": "Choose an [omen|e]",
-  "uk": ""
+  "uk": "Обрати [omen|e]"
  },
  "choose_province": {
   "en": "Choose a [province|e]",
@@ -1905,11 +1905,11 @@
  },
  "columbian_exchange_new_world_goods_traded_tt": {
   "en": "A New World good is produced or traded in our market",
-  "uk": ""
+  "uk": "Товар Нового Світу виробляється або продається на нашому ринку"
  },
  "columbian_exchange_old_world_goods_traded_tt": {
   "en": "An Old World good is produced or traded in our market",
-  "uk": ""
+  "uk": "Товар Старого Світу виробляється або продається на нашому ринку"
  },
  "concluded_roto_as_not_ottos_tt": {
   "en": "We have emerged victorious from the [ShowSituationNameWithNoTooltip('rise_of_the_ottomans')] [situation|e] without adopting the [GetCountry('TUR').GetAdjectiveWithNoTooltip] tag",
@@ -1973,11 +1973,11 @@
  },
  "crown_new_ruler": {
   "en": "Crown a New Ruler",
-  "uk": ""
+  "uk": "Коронувати нового правителя"
  },
  "crown_new_ruler_desc": {
   "en": "We have unfortunately found ourselves in a union with our mortal enemies. This technicality stalls our war efforts and projects weakness in our accord. We must seek to elect a new ruler as long as this union is not spearheaded by us!",
-  "uk": ""
+  "uk": "На жаль, ми опинилися в унії з нашими смертельними ворогами. Ця формальність гальмує наші воєнні зусилля й демонструє слабкість у нашій згоді. Ми повинні прагнути обрати нового правителя, доки цю унію очолюємо не ми!"
  },
  "delhi_claimant_country_tt": {
   "en": "We are actively opposing [GetCountry('DLH').GetName] during the [GetSituationByKey('fall_of_delhi').GetName] [situation|e]",
@@ -2101,19 +2101,19 @@
  },
  "establish_italian_administration_center": {
   "en": "Establish Italian Administration Center",
-  "uk": ""
+  "uk": "Заснувати Італійський адміністративний центр"
  },
  "establish_italian_administration_center_desc": {
   "en": "By leveraging our presence in [ShowRegionName('italy_region')], we can establish a center of authority, a seat of governance that extends our administrative reach across the peninsula.",
-  "uk": ""
+  "uk": "Використовуючи нашу присутність у [ShowRegionName('italy_region')], ми можемо заснувати осередок влади — кафедру врядування, яка поширить наше адміністративне охоплення на весь півострів."
  },
  "establish_italian_administration_center_price": {
   "en": "Establish Italian Administration Center Price",
-  "uk": ""
+  "uk": "Ціна заснування Італійського адміністративного центру"
  },
  "establish_italian_administration_center_tt": {
   "en": "The selected [location|e] will begin construction of an [ShowBuildingTypeName('italian_administration_center')]",
-  "uk": ""
+  "uk": "Обраний [location|e] почне будівництво [ShowBuildingTypeName('italian_administration_center')]"
  },
  "estate_satisfaction_gain_scales_with_estate_power_tt": {
   "en": "The following scale with each [estate|e]'s [estate_power|e]:",
@@ -2157,11 +2157,11 @@
  },
  "expel_league_member": {
   "en": "Expel a League Member",
-  "uk": ""
+  "uk": "Виключити учасника Ліги"
  },
  "expel_league_member_desc": {
   "en": "A member of our League has proven disloyal. We must remove them from our ranks before their treachery weakens us further.",
-  "uk": ""
+  "uk": "Учасник нашої Ліги виявився нелояльним. Ми повинні виключити його з наших лав, доки його зрада не послабила нас іще більше."
  },
  "fall_of_delhi": {
   "en": "Fall of Delhi",
@@ -2285,19 +2285,19 @@
  },
  "fortify_key_location": {
   "en": "Fortify Key Location",
-  "uk": ""
+  "uk": "Укріпити ключову позицію"
  },
  "fortify_key_location_desc": {
   "en": "By investing in fortifications and garrisoning strategic positions, we can harden our most vital holdings against enemy assault.",
-  "uk": ""
+  "uk": "Інвестуючи в укріплення й розміщуючи гарнізони на стратегічних позиціях, ми можемо зміцнити наші найважливіші володіння проти ворожого штурму."
  },
  "fortify_key_location_no_target_tt": {
   "en": "The selected [location|e] will gain the [ShowModifier('iw_fortify_key_location_modifier')] [modifier|e] for #Y 5#! Years",
-  "uk": ""
+  "uk": "Обраний [location|e] отримає [ShowModifier('iw_fortify_key_location_modifier')] [modifier|e] на #Y 5#! років"
  },
  "fortify_key_location_price": {
   "en": "Fortify Key Location Price",
-  "uk": ""
+  "uk": "Ціна укріплення ключової позиції"
  },
  "fra_diplomacy_with_subjects": {
   "en": "Grant Subject Titles",
@@ -2317,15 +2317,15 @@
  },
  "french_subject_prevented_from_call_to_war_join_war_tt": {
   "en": "Does NOT have the [ShowModifier('french_subject_prevented_from_call_to_war')] [modifier|e]",
-  "uk": ""
+  "uk": "НЕ має [ShowModifier('french_subject_prevented_from_call_to_war')] [modifier|e]"
  },
  "gag_ghibellines_winner_may_request_kingdom_of_italy_title_tt": {
   "en": "We won the $guelphs_and_ghibellines$ Situation as the leader of the $ghibellines_io$",
-  "uk": ""
+  "uk": "Ми виграли ситуацію «$guelphs_and_ghibellines$» як лідер $ghibellines_io$"
  },
  "gag_guelphs_winner_may_form_italy_without_location_requirements_tt": {
   "en": "We won $guelphs_and_ghibellines$ Situation as the leader of the $guelphs_io$",
-  "uk": ""
+  "uk": "Ми виграли ситуацію «$guelphs_and_ghibellines$» як лідер $guelphs_io$"
  },
  "gag_strongest_ghibelline": {
   "en": "Strongest Ghibelline Supporter",
@@ -2377,7 +2377,7 @@
  },
  "great_pestilence_americas_spread_tt": {
   "en": "Has not yet experienced the [GetSituationByKey('great_pestilence').GetName]",
-  "uk": ""
+  "uk": "Ще не зазнала [GetSituationByKey('great_pestilence').GetName]"
  },
  "great_pestilence_desc": {
   "en": "Terrible news reaches us from abroad. Misery and plague sweep the land, and death runs with them, apparently brought by mysterious bearded foreigners. This plague is not something our elders have ever heard of, and no answers in our ancestors' memories could help us face the catastrophe if it reaches our settlements. Will our people perish, or will we somehow resist when this walking death reaches us?",
@@ -2396,16 +2396,16 @@
   "uk": "• Там, куди вона прийде, загине багато [Concept('characters', 'персонажів')|e] і [Concept('pops', 'груп населення')|e]."
  },
  "great_pestilence_monthly": {
-  "en": "• This plague will spread to nearby [locations|e], and across trade routes.\\n• It will kill many [pops|E], [armies|e], and [characters|E] where it has spread.",
-  "uk": "• Ця чума поширюватиметься в найближчих [Concept('locations', 'районах')|e] і торговими шляхами\\n• Там, куди вона прийде, загине багато [Concept('characters', 'персонажів')|e], а також людей у [Concept('pops', 'групах населення')|e] і [Concept('armies', 'арміях')|e]."
+  "en": "$BULLET$This plague will spread to nearby [locations|e], and across trade routes.\\n$BULLET$It will kill many [pops|E], [armies|e], and [characters|E] where it has spread.",
+  "uk": "$BULLET$Ця чума поширюватиметься в найближчих [Concept('locations', 'районах')|e] і торговими шляхами.\\n$BULLET$Там, куди вона прийде, загине багато [Concept('pops', 'групах населення')|e], [Concept('armies', 'арміях')|e] і [Concept('characters', 'персонажів')|e]."
  },
  "great_pestilence_regions_infected_tt": {
   "en": "The [ShowRegionName('caribbean_region')], [ShowRegionName('mesoamerica_region')], and the [ShowRegionName('andes_region')] have all been reached by the [GetSituationByKey('great_pestilence').GetName]",
-  "uk": ""
+  "uk": "[GetSituationByKey('great_pestilence').GetName] досягла [ShowRegionName('caribbean_region')], [ShowRegionName('mesoamerica_region')] та [ShowRegionName('andes_region')]"
  },
  "great_pestilence_spreads": {
-  "en": "• This plague will spread to nearby [locations|e].",
-  "uk": "• Ця чума поширюватиметься в найближчих [Concept('locations', 'районах')|e]"
+  "en": "$BULLET$This plague will spread to nearby [locations|e].",
+  "uk": "$BULLET$Ця чума поширюватиметься в найближчих [Concept('locations', 'районах')|e]."
  },
  "guelphs_and_ghibellines": {
   "en": "Guelphs and Ghibellines",
@@ -2448,8 +2448,8 @@
   "uk": "#ONCLICK:COUNTRY,[GetCountry('DLH').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DLH').Custom('CL_tt')],X [GetCountry('DLH').Custom('CL_DP')|L]#!#! довелося віддати землі в події #Y «$delhi_situation.16.title$»#!"
  },
  "has_demanded_autonomy_tt": {
-  "en": "As an [ShowSubjectTypeName('appanage')], we have the [ShowModifier('granted_autonomy_to_expand_modifier')] [modifier|e] from the [ShowGenericActionName('demand_autonomy')] [action|e] in the [ShowSituationName('hundred_years_war')] [situation|e]",
-  "uk": "Ми #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанаж#!#! і отримуємо [Concept('modifier','модифікатор')|e] «[ShowModifier('granted_autonomy_to_expand_modifier')]» від [Concept('action','дії')|e] «[ShowGenericActionName('demand_autonomy')]» у [Concept('situation','ситуації')|e] «[ShowSituationName('hundred_years_war')]»."
+  "en": "As an [ShowSubjectTypeName('appanage')], we either have the [ShowModifier('granted_autonomy_to_expand_modifier')] [modifier|e] from the [ShowGenericActionName('demand_autonomy')] [action|e] in the [ShowSituationName('hundred_years_war')] [situation|e], or we are declaring this [war|e] against [overlord.GetName]",
+  "uk": "Ми [ShowSubjectTypeName('appanage')] і отримуємо [Concept('modifier','модифікатор')|e] «[ShowModifier('granted_autonomy_to_expand_modifier')]» від [Concept('action','дії')|e] «[ShowGenericActionName('demand_autonomy')]» у [Concept('situation','ситуації')|e] «[ShowSituationName('hundred_years_war')]», або оголошуємо цю [Concept('war','війну')|e] проти [overlord.GetName]"
  },
  "has_emperor_status_tt": {
   "en": "Has '[ShowSpecialStatusName('japanese_emperor')]' status in the [GetUniqueInternationalOrganization('japanese_shogunate').GetName]",
@@ -2509,11 +2509,11 @@
  },
  "hyw_defect_action": {
   "en": "Attempt Defection",
-  "uk": ""
+  "uk": "Спробувати перейти"
  },
  "hyw_defect_action_desc": {
   "en": "Our frustration with our current overlord has reached a tipping point. Their mismanagement of the entire realm has left many of their subjects, us included, very frustrated. It is time for us to consider switching sides before any hostilities erupt!",
-  "uk": ""
+  "uk": "Наше невдоволення нинішнім сюзереном сягнуло критичної точки. Його безгосподарність у веденні всього царства залишила багатьох його підданих, зокрема й нас, дуже незадоволеними. Час подумати про перехід на інший бік, доки не вибухнули бойові дії!"
  },
  "hyw_sign_truce": {
   "en": "Sign a Truce",
@@ -2597,7 +2597,7 @@
  },
  "is_not_receiving_pending_aid_from_another_tt": {
   "en": "Is NOT currently receiving aid via pending [event|e]",
-  "uk": ""
+  "uk": "Наразі НЕ отримує допомогу через очікувану [Concept('event','подію')|e]"
  },
  "italian_league_1_200_tt": {
   "en": "The [GetUniqueInternationalOrganization('italian_league_1').GetName] owns at least #Y 200#! [locations|e] in [ShowRegionName('italy_region')]",
@@ -2633,7 +2633,7 @@
  },
  "italian_wars_militarization": {
   "en": "Italian Wars Militarized Economies",
-  "uk": ""
+  "uk": "Мілітаризовані економіки Італійських війн"
  },
  "italian_wars_notify_aggressor_tt": {
   "en": "Their aggression must be stopped by any means necessary!",
@@ -2645,15 +2645,15 @@
  },
  "iw_expel_league_has_members_tt": {
   "en": "The League has more than one member",
-  "uk": ""
+  "uk": "У Лізі більше одного учасника"
  },
  "iw_expel_member_choose_text": {
   "en": "Choose a member to expel from the League.",
-  "uk": ""
+  "uk": "Оберіть учасника для виключення з Ліги."
  },
  "iw_expel_no_members": {
   "en": "@trigger_no! There are no other members in your League",
-  "uk": ""
+  "uk": "@trigger_no! У Вашій Лізі немає інших учасників"
  },
  "iw_first_tension_threshold": {
   "en": "25%",
@@ -2665,15 +2665,15 @@
  },
  "iw_intervene_in_war": {
   "en": "Intervene in War",
-  "uk": ""
+  "uk": "Втрутитися у війну"
  },
  "iw_intervene_in_war_desc": {
   "en": "The instability incurred by constant wars between factions across the peninsula threatens to spill over and devastate all of [ShowRegionName('italy_region')]. This ongoing conflict is one we have a moral obligation to end, through direct intervention.",
-  "uk": ""
+  "uk": "Нестабільність, спричинена постійними війнами між фракціями по всьому півострову, загрожує перекинутися й спустошити всю [ShowRegionName('italy_region')]. Цей затяжний конфлікт ми маємо моральний обов’язок припинити шляхом прямого втручання."
  },
  "iw_is_stronger_than_league_leader_tt": {
   "en": "Our state is militarily stronger than our League's current leader",
-  "uk": ""
+  "uk": "Наша держава військово сильніша за нинішнього лідера нашої Ліги"
  },
  "iw_second_tension_threshold": {
   "en": "50%",
@@ -2697,31 +2697,31 @@
  },
  "iw_tension": {
   "en": "Tension",
-  "uk": ""
+  "uk": "Напруга"
  },
  "iw_tension_100_tt": {
   "en": "#T At 100 [situation_tension|e]#! \\n$BULLET$All truces between League leaders are annulled. Open, all-consuming conflict begins.\\n$BULLET$All League leaders gain the ability to call their members into offensive wars anywhere in [ShowRegionName('italy_region')] for the next decade.\\n$BULLET$[situation_tension|e] will then begin to decay slowly, taking #Y 5 to 10 years#! to return to 0 depending on how active the conflict remains.",
-  "uk": ""
+  "uk": "#T При 100 [situation_tension|e]#! \\n$BULLET$Усі перемир’я між лідерами Ліг анулюються. Починається відкритий, всепоглинальний конфлікт.\\n$BULLET$Усі лідери Ліг отримують здатність закликати своїх учасників у наступальні війни будь-де в [ShowRegionName('italy_region')] упродовж наступного десятиліття.\\n$BULLET$Потім [situation_tension|e] почне повільно спадати, і повернення до 0 займе від #Y 5 до 10 років#! залежно від того, наскільки активним лишається конфлікт."
  },
  "iw_tension_25_tt": {
   "en": "#T At 25 [situation_tension|e]#! \\n$BULLET$[ShowGenericActionName('fortify_key_location')] unlocks. League members can reinforce key cities and mountain passes with a defensive bonus.\\n$BULLET$[ShowCountryInteractionName('italian_wars_bribe_country')] unlocks. League leaders may spend [gold_with_icon|e] to recruit [countries_with_icon|e] from [ShowRegionName('italy_region')] directly into their League.",
-  "uk": ""
+  "uk": "#T При 25 [situation_tension|e]#! \\n$BULLET$Відкривається [ShowGenericActionName('fortify_key_location')]. Учасники Ліги можуть посилювати ключові міста й гірські перевали оборонним бонусом.\\n$BULLET$Відкривається [ShowCountryInteractionName('italian_wars_bribe_country')]. Лідери Ліг можуть витрачати [gold_with_icon|e], щоб вербувати [Concept('countries_with_icon','держав')|e] з [ShowRegionName('italy_region')] безпосередньо у свою Лігу."
  },
  "iw_tension_50_tt": {
   "en": "#T At 50 [situation_tension|e]#! \\n$BULLET$[ShowGenericActionName('iw_militarize_country')] unlocks. League leaders with an active parliament may push for immediate military preparedness, granting army tradition and unit experience.\\n$BULLET$[ShowGoodsDemandName('italian_wars_militarization')] rises across [ShowRegionName('italy_region')], increasing the value of firearms and artillery production.",
-  "uk": ""
+  "uk": "#T При 50 [situation_tension|e]#! \\n$BULLET$Відкривається [ShowGenericActionName('iw_militarize_country')]. Лідери Ліг з активним парламентом можуть наполягати на негайній військовій готовності, отримуючи армійську традицію та досвід загонів.\\n$BULLET$[ShowGoodsDemandName('italian_wars_militarization')] зростає по всій [ShowRegionName('italy_region')], підвищуючи цінність виробництва вогнепальної зброї та артилерії."
  },
  "iw_tension_75_tt": {
   "en": "#T At 75 [situation_tension|e]#! \\n$BULLET$All three #italic Italian Leagues#! begin automatically calling their members into defensive wars when attacked by [ShowRegionName('france_region')], [ShowRegionName('iberia_region')], or #italic Imperial#! League leaders.\\n$BULLET$[ShowGenericActionName('iw_intervene_in_war')] unlocks. League leaders, great and regional powers may join any ongoing League war.\\n$BULLET$[ShowCountryInteractionName('violate_italian_sovereignty')] unlocks. League leaders at war may forcibly obtain military access from [ShowRegionName('italy_region')] states.",
-  "uk": ""
+  "uk": "#T При 75 [situation_tension|e]#! \\n$BULLET$Усі три #italic Італійські Ліги#! починають автоматично закликати своїх учасників в оборонні війни, коли на них нападають лідери Ліг [ShowRegionName('france_region')], [ShowRegionName('iberia_region')] або #italic Імперської#! Ліги.\\n$BULLET$Відкривається [ShowGenericActionName('iw_intervene_in_war')]. Лідери Ліг, великі та регіональні держави можуть приєднатися до будь-якої війни Ліги, що триває.\\n$BULLET$Відкривається [ShowCountryInteractionName('violate_italian_sovereignty')]. Лідери Ліг, що воюють, можуть силоміць отримувати право на прохід військ від держав [ShowRegionName('italy_region')]."
  },
  "iw_tension_explain_tt": {
   "en": "Currently the tension is: [GetSituationByKey('italian_wars').MakeScope.GetVariable('iw_tension').GetValue|2]%\\nMeasures how inflamed the [ShowSituationName('italian_wars')] have become.\\n\\n#T Monthly Gains#!\\n$BULLET$#R +0.4#! passively every month\\n$BULLET$#R +0.4#! if any foreign League leader is at war\\n$BULLET$#R +0.4#! if any Italian League leader is at war\\n$BULLET$#R +0.025#! per great battle won between League members ([battles|e] yielding over 1% [war_score|e])\\n\\n#T Action Gains#!\\n$BULLET$#R +0.5#! when [ShowGenericActionName('create_italian_league')] [action|e] is taken\\n$BULLET$#R +1#! when [ShowGenericActionName('expel_league_member')] [action|e] is taken\\n$BULLET$#R +2#! when [ShowGenericActionName('challenge_league_leadership')] [action|e] is taken\\n\\n#T Relief#!\\n$BULLET$#G -1#! when [ShowGenericActionName('dissolve_italian_league')] [action|e] is taken\\n$BULLET$#G -2#! when a League is dissolved via the [ShowPeaceTreatyTypeName('dissolve_league_peace_deal')] [peace_treaty|e]\\n\\nHigher [situation_tension|e] makes all League leaders more aggressive and reduces the time between their wars.",
-  "uk": ""
+  "uk": "Наразі напруга становить: [GetSituationByKey('italian_wars').MakeScope.GetVariable('iw_tension').GetValue|2]%\\nПоказує, наскільки розпалились [ShowSituationName('italian_wars')].\\n\\n#T Щомісячний приріст#!\\n$BULLET$#R +0.4#! пасивно щомісяця\\n$BULLET$#R +0.4#! якщо будь-який чужоземний лідер Ліги воює\\n$BULLET$#R +0.4#! якщо будь-який італійський лідер Ліги воює\\n$BULLET$#R +0.025#! за кожну велику битву, виграну між учасниками Ліг ([battles|e] з понад 1% [Concept('war_score','воєнного рахунку')|e])\\n\\n#T Приріст від дій#!\\n$BULLET$#R +0.5#! коли вчинено [Concept('action','дію')|e] [ShowGenericActionName('create_italian_league')]\\n$BULLET$#R +1#! коли вчинено [Concept('action','дію')|e] [ShowGenericActionName('expel_league_member')]\\n$BULLET$#R +2#! коли вчинено [Concept('action','дію')|e] [ShowGenericActionName('challenge_league_leadership')]\\n\\n#T Полегшення#!\\n$BULLET$#G -1#! коли вчинено [Concept('action','дію')|e] [ShowGenericActionName('dissolve_italian_league')]\\n$BULLET$#G -2#! коли Лігу розпущено через [peace_treaty|e] [ShowPeaceTreatyTypeName('dissolve_league_peace_deal')]\\n\\nВища [situation_tension|e] робить усіх лідерів Ліг агресивнішими та скорочує час між їхніми війнами."
  },
  "iw_the_purge_is_in_effect_tt": {
   "en": "[situation_tension|e] has reached #Y 100#! in the last 10 years",
-  "uk": ""
+  "uk": "[situation_tension|e] сягнула #Y 100#! за останні 10 років"
  },
  "iw_third_tension_threshold": {
   "en": "75%",
@@ -2744,8 +2744,8 @@
   "uk": "Оберіть лігу, до якої хочете вступити."
  },
  "league_was_not_destroyed_in_the_last_2_years_tt": {
-  "en": "An Italian League was not destroyed in the last 2 years",
-  "uk": "Італійську лігу не було знищено за останні 2 роки"
+  "en": "An Italian League was not destroyed in the last 5 years",
+  "uk": "Італійську лігу не було знищено за останні 5 років"
  },
  "little_ice_age": {
   "en": "Little Ice Age",
@@ -2761,7 +2761,7 @@
  },
  "locations_with_extended_winter_will_be_affected_by_the_following_modifiers_tt": {
   "en": "[locations|e] affected by extended [winter|e] will suffer from the following [location_modifiers|e] until the end of this [situation|e]:",
-  "uk": ""
+  "uk": "[locations|e], зачеплені подовженою [Concept('winter','зимою')|e], потерпатимуть від таких [Concept('location_modifiers','модифікаторів району')|e] до кінця цієї [Concept('situation','ситуації')|e]:"
  },
  "loyal_member_of_the_english_side_tt": {
   "en": "This is a loyal [subject|e] of [GetCountry('ENG').GetName]",
@@ -2848,8 +2848,8 @@
   "uk": "@trigger_no! Немає [Concept('locations','районів')|e], де можна оглянути [ShowBuildingTypeName('castle')|l]."
  },
  "no_league_io_owns_any_land_in_italy_tt": {
-  "en": "@trigger_no! No League owns any locations in [ShowRegionName('italy_region')]",
-  "uk": "@trigger_no! Жодна ліга не володіє районами в #TOOLTIP:REGION,italy_region,X #L Італії#!#!."
+  "en": "No League owns any locations in [ShowRegionName('italy_region')]",
+  "uk": "Жодна ліга не володіє районами в [ShowRegionName('italy_region')]"
  },
  "no_link_exchange_location_for_guarantee_marriage_alliance_tt": {
   "en": "We will make them a proposal to gift us a [location|e] and a [royal_marriage|e] in exchange for closer diplomatic ties and an [alliance|e]",
@@ -2865,7 +2865,7 @@
  },
  "no_locations_available_fortify_key_location": {
   "en": "@trigger_no! We own no [locations|e] eligible for fortification. A [location|e] must either be our [capital|e], have at least city/megalopolis [location_rank|e], or have [ShowTopographyName('mountains')] [topography|e] — and must not already have the [ShowModifier('iw_fortify_key_location_modifier')] [modifier|e]",
-  "uk": ""
+  "uk": "@trigger_no! У нас немає [Concept('locations','районів')|e], придатних для укріплення. [location|e] має бути або нашою [Concept('capital','столицею')|e], або мати щонайменше [location_rank|e] міста/мегаполіса, або мати [topography|e] [ShowTopographyName('mountains')] — і не мати вже [modifier|e] [ShowModifier('iw_fortify_key_location_modifier')]"
  },
  "no_markets_available": {
   "en": "@trigger_no! No [markets|e] available",
@@ -2901,7 +2901,7 @@
  },
  "not_recently_asked_to_join_tt": {
   "en": "Was not asked to join our [war|e] via this [action|e] in the last #Y 10#! years",
-  "uk": ""
+  "uk": "Не запрошувалися до нашої [Concept('war','війни')|e] через цю [Concept('action','дію')|e] за останні #Y 10#! років"
  },
  "offer_diplomatic_protection": {
   "en": "Offer Diplomatic Protection",
@@ -2925,7 +2925,7 @@
  },
  "owned_by_fra_tt": {
   "en": "[owner|e] is [GetCountry('FRA').GetName]",
-  "uk": ""
+  "uk": "[owner|e] — [GetCountry('FRA').GetName]"
  },
  "pap_will_be_asked_to_enforce_wp_tt": {
   "en": "The [GetCountry('PAP').GetLongName] will be asked to enforce a [white_peace|e] between [GetCountry('FRA').GetName] and [GetCountry('ENG').GetName]",
@@ -3056,12 +3056,12 @@
   "uk": "Ми не зможемо вийти переможцями з цієї довгої кривавої війни наодинці. Потрібно звернутися до сусідньої держави і спонукати її взятися за зброю і приєднатися до нашої боротьби."
  },
  "revolution_in_country_tt": {
-  "en": "A Revolutionary [rebel|e] movement will be triggered in the selected [country|e]. However, if one already exists, we will bolster the progress and strength of that movement instead",
-  "uk": "В обраній [Concept('country','державі')|e] виникне [Concept('rebel','бунтівний')|e] революційний рух. Якщо ж такий вже існує, ми зміцнимо його і прискоримо його прогрес."
+  "en": "A Revolutionary [rebel_movement|e] will be triggered in the selected [country|e]. However, if one already exists, we will bolster the progress and strength of that movement instead",
+  "uk": "В обраній [Concept('country','державі')|e] виникне [Concept('rebel_movement','бунтівний рух')|e]. Якщо ж такий вже існує, ми зміцнимо його і прискоримо його прогрес."
  },
  "revolution_in_selected_country_tt": {
-  "en": "A Revolutionary [rebel|e] movement will be triggered in [target_country.GetName]. However, if one already exists, we will bolster the progress and strength of that movement instead",
-  "uk": "В #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! виникне [Concept('rebel','бунтівний')|e] революційний рух. Якщо ж такий вже існує, ми зміцнимо його і прискоримо його прогрес."
+  "en": "A Revolutionary [rebel_movement|e] will be triggered in [target_country.GetName]. However, if one already exists, we will bolster the progress and strength of that movement instead",
+  "uk": "У [target_country.GetName] виникне [Concept('rebel_movement','бунтівний рух')|e]. Якщо ж такий вже існує, ми зміцнимо його і прискоримо його прогрес."
  },
  "rise_of_the_ottomans": {
   "en": "Rise of the Turks",
@@ -3084,8 +3084,8 @@
   "uk": "[ROOT.GetVariable('rise_of_the_timur_unique_event_cooldown').GetValue|V0]"
  },
  "rise_of_timur": {
-  "en": "Rise of $name_temur$",
-  "uk": "Сходження Тимура"
+  "en": "Rise of $name_timur$",
+  "uk": "Сходження $name_timur$"
  },
  "rise_of_timur_desc": {
   "en": "Fueled by the ambition to follow in the steps of $genghis_khan_name$ and Caliphs, [GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetName] rallied [GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetHerHis] soldiers and loyalists, and founded a nascent Empire built on ruthless expansion and brilliant tactics. To [GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetNameWithNoTooltip], the lands of [ShowSubContinentName('central_asia')], [ShowSubContinentName('middle_east')], and $india$ are the ripest for [GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetHerHis] conquest, which will indelibly shape these regions over the coming centuries...",
@@ -3109,7 +3109,7 @@
  },
  "rto_create_uc_bey": {
   "en": "$create_uc_bey$ Price",
-  "uk": ""
+  "uk": "Ціна $create_uc_bey$"
  },
  "rto_press_claims_price": {
   "en": "Press Claims Price",
@@ -3289,7 +3289,7 @@
  },
  "selected_character_takes_actor_crown_tt": {
   "en": "The selected [character|e] will become our new [ruler|e] much to the dismay of our opponents in the ongoing [situation|e]. This may lead to a [war|e]",
-  "uk": ""
+  "uk": "Обраний [character|e] стане нашим новим [Concept('ruler','правителем')|e] на превелике невдоволення наших супротивників у поточній [Concept('situation','ситуації')|e]. Це може призвести до [Concept('war','війни')|e]"
  },
  "selected_character_will_be_executed_tt": {
   "en": "The selected [character|e] will meet their death at the hands of our executioners",
@@ -3337,7 +3337,7 @@
  },
  "sponsor_the_reformation_select_movement": {
   "en": "Select [movement|e] to invite",
-  "uk": ""
+  "uk": "Оберіть [movement|e] для запрошення"
  },
  "spread_revolutionary_sentiment": {
   "en": "Spread Revolutionary Sentiment",
@@ -3382,6 +3382,10 @@
  "target_country_will_be_asked_to_join_hyw_tt": {
   "en": "[target_country.GetName] will be asked to side with us during the ongoing [ShowSituationName('hundred_years_war')]",
   "uk": "#ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! попросять зайняти нашу сторону в #TOOLTIP:SITUATION,hundred_years_war,X #L Столітній війні#!#!"
+ },
+ "the_revolution": {
+  "en": "People's Uprising",
+  "uk": "Народне повстання"
  },
  "the_revolution_desc": {
   "en": "Wealth inequality, a declining standard of living, and increased literacy have led to the rise of individual awareness. The ongoing exploitation of the lower classes by the nobility, along with the unchecked power of the ruling class, has finally driven both our burghers and the peasantry to demand a change in government. This new movement challenges the established order of society, which for as long as we can recall has seen a dominant upper class oppress those below them.",
@@ -3429,7 +3433,7 @@
  },
  "timur_could_form_mughals_or_mongol_empire_tt": {
   "en": "[GetCountry('TIM').GetName] could form [GetFormableCountry('MGE').GetName] or [GetFormableCountry('MUG').GetName]",
-  "uk": ""
+  "uk": "[GetCountry('TIM').GetName] може утворити [GetFormableCountry('MGE').GetName] або [GetFormableCountry('MUG').GetName]"
  },
  "tordesillas_claim_area.tt.no_claims_in_area": {
   "en": "No other claims in the [area|e]",
@@ -3496,16 +3500,16 @@
   "uk": "[THIS.GetLocation.GetName] знаходиться на захід від уявної лінії, в центрі якої — [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_line_location').GetLocation.GetName]. По цій лінії і пройде розмежування світу за умовами Тордесільяського договору.\\n\\nПісля ратифікації договору цей [Concept('location','район')|e] отримає держава [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName]"
  },
  "treaty_of_tordesillas_desc": {
-  "en": "This treaty was signed in [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName] by the [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] and the [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName]. It establishes a set of rules and parameters that allow the two powers to claim exclusive rights to the colonization and exploitation of any newly discovered lands on the continent of [ShowContinentName('america')].",
-  "uk": "Договір було підписано в [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.Custom('LR_PP')|l] [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName]. [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] і [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName] підписали його. Там обумовлюються правила та права, що надають двом державам ексклюзивні права на колонізацію та експлуатацію нещодавно відкритих земель на #TOOLTIP:CONTINENT,america,X #L Американському#!#! континенті."
+  "en": "This treaty was signed in [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName] by the [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] and the [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName]. $treaty_of_tordesillas_desc_second_section$",
+  "uk": "Договір було підписано в [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName]. [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] і [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName] підписали його. $treaty_of_tordesillas_desc_second_section$"
  },
  "treaty_of_tordesillas_desc_second_section": {
   "en": "The document establishes a set of rules and parameters that allow the two powers to claim exclusive rights to the colonization and exploitation of any newly discovered lands on the continent of [ShowContinentName('america')].",
-  "uk": ""
+  "uk": "Документ встановлює набір правил і умов, що дозволяють двом державам претендувати на виключні права на колонізацію та експлуатацію будь-яких нещодавно відкритих земель на континенті [ShowContinentName('america')]."
  },
  "treaty_of_tordesillas_desc_single_signatory": {
   "en": "This treaty was signed in [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName] by the two main colonial powers, but nowadays, only the [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] upholds the treaty; their cosignatory defeated and forgotten. $treaty_of_tordesillas_desc_second_section$",
-  "uk": ""
+  "uk": "Цей договір було підписано в [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName] двома головними колоніальними державами, але нині лише [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] дотримується договору; їхнього співпідписанта переможено й забуто. $treaty_of_tordesillas_desc_second_section$"
  },
  "treaty_of_tordesillas_end_tooltip": {
   "en": "This Situation will end when the Treaty's Relevance drops to 0 during its second phase.",
@@ -3553,11 +3557,11 @@
  },
  "war_goal_owned_by_us_tt": {
   "en": "The [war_goal|e] is NOT a [location|e] or a [province|e] that we own",
-  "uk": ""
+  "uk": "[war_goal|e] НЕ є [location|e] чи [province|e], якою ми володіємо"
  },
  "war_going_on_longer_than_year_tt": {
   "en": "Has been going on for at least #Y 1#! year",
-  "uk": ""
+  "uk": "Триває вже щонайменше #Y 1#! рік"
  },
  "war_of_religions": {
   "en": "War of Religions",
@@ -3588,12 +3592,12 @@
   "uk": "Є кандидат для районів [ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] і [ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName]"
  },
  "western_schism_2_tt": {
-  "en": "[ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] has held more than 2 Councils",
-  "uk": "У районі [ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] рада скликалася більше двох разів"
+  "en": "[ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] has held 2 Councils",
+  "uk": "[ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] провів 2 Ради"
  },
  "western_schism_3_tt": {
-  "en": "[ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName] has held more than 2 Councils",
-  "uk": "У районі [ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName] рада скликалася більше двох разів"
+  "en": "[ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName] has held 2 Councils",
+  "uk": "[ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName] провів 2 Ради"
  },
  "western_schism_anti_pope_score": {
   "en": "Anti-Papal Candidate Score",
@@ -3648,12 +3652,12 @@
   "uk": "Ми будемо #Y підтримувати#! державу [GetCountry('DLH').GetName] у [Concept('situation','ситуації')|e] «[GetSituationByKey('fall_of_delhi').GetName]»"
  },
  "wont_join_vs_other_appanages_with_granted_autonomy_to_expand_modifier_during_hyw_tt": {
-  "en": "This [subject_type|e] will not automatically join [wars|e] against an [ShowSubjectTypeName('appanage')] that received the [ShowModifier('granted_autonomy_to_expand_modifier')] [modifier|e] from the [ShowGenericActionName('demand_autonomy')] [action|e] during the [ShowSituationName('hundred_years_war')]",
-  "uk": "Цей [Concept('subject_type','тип леника')|e] не буде автоматично вступати у [Concept('wars','війни')|e] проти #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанажу#!#!, що отримав [Concept('modifier','модифікатор')|e] «[ShowModifier('granted_autonomy_to_expand_modifier')]» від [Concept('action','дії')|e] «[ShowGenericActionName('demand_autonomy')]» у ситуації «[ShowSituationName('hundred_years_war')]»."
+  "en": "The war is not fought against an [ShowSubjectTypeName('appanage')] that received the [ShowModifier('granted_autonomy_to_expand_modifier')] [modifier|e] from the [ShowGenericActionName('demand_autonomy')] [action|e] during the [ShowSituationName('hundred_years_war')]",
+  "uk": "Ця війна не ведеться проти [ShowSubjectTypeName('appanage')], що отримав [Concept('modifier','модифікатор')|e] «[ShowModifier('granted_autonomy_to_expand_modifier')]» від [Concept('action','дії')|e] «[ShowGenericActionName('demand_autonomy')]» у ситуації «[ShowSituationName('hundred_years_war')]»"
  },
  "ws_schism_show_support_for_one_pope_tt": {
-  "en": "The selected Candidate will receive support in the vote of the $western_schism$",
-  "uk": "Обраний кандидат отримає підтримку при голосуванні щодо Великого західного розколу."
+  "en": "The selected Candidate will receive support in the vote of the $western_schism$. The gained support will depend on their number of cardinals, being halved.",
+  "uk": "Обраний кандидат отримає підтримку при голосуванні щодо $western_schism$. Отримана підтримка залежатиме від кількості його кардиналів, зменшена вдвічі."
  },
  "ws_show_unity_of_faith_tt": {
   "en": "Every [location|e] in the designated [province|e] will gain [ShowModifier('ws_show_unity_of_faith')]",

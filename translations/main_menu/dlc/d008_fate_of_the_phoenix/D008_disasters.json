@@ -25,15 +25,15 @@
  },
  "because_we_reformed_our_navy_in_DHE_desc": {
   "en": "Due to us reforming our [navy|e] in the $flavor_byz.15.title$ [event|e]",
-  "uk": "Оскільки ми реформували свій [navy|e] під час [Concept('event','події')|e] «$flavor_byz.15.title$»"
+  "uk": "Оскільки ми реформували свій [Concept('navy','флот')|e] під час [Concept('event','події')|e] «$flavor_byz.15.title$»"
  },
  "better_stats_because_reformation_of_the_school_of_admirals_modifier_tt": {
   "en": "The [abilities|e] of this [admiral|e] have been enchanced by #G +10#! due to the [ShowModifier('reformation_of_the_school_of_admirals_modifier')] [modifier|e] being active",
-  "uk": "[abilities|e] цього [Concept('admiral','адмірала')|e] покращено на #G +10#!, бо діє [modifier|e] [ShowModifier('reformation_of_the_school_of_admirals_modifier')]"
+  "uk": "[Concept('abilities','Навички')|e] цього [Concept('admiral','адмірала')|e] покращено на #G +10#!, бо діє [Concept('modifier','модифікатор')|e] [ShowModifier('reformation_of_the_school_of_admirals_modifier')]"
  },
  "building_set_to_max_level_tt": {
   "en": "The [building|e] will be set to its maximum level",
-  "uk": "[building|e] буде піднято до максимального рівня"
+  "uk": "[Concept('building','Будівлю')|e] буде піднято до максимального рівня"
  },
  "byzantines_left_fend_themselves_tt": {
   "en": "The [actor.GetLongName] is left to fend for itself",
@@ -101,7 +101,7 @@
  },
  "fate_of_the_phoenix.11.desc": {
   "en": "Our [target_unit.GetName] has achieved a great victory over an army led by [target_losing_country.GetName], at [target_location.GetName]. News of the triumph spreads swiftly, renewing confidence that the Phoenix yet endures. [target_character.GetShortName] is well on [target_character.GetHerHis] way to become a legendary figure.",
-  "uk": "Наш загін [target_unit.GetName] здобув велику перемогу над армією, яку очолювала держава [target_losing_country.GetName], біля [target_location.GetName]. Звістка про тріумф швидко ширится, відновлюючи віру в те, що Фенікс досі живий. [target_character.GetShortName] невпинно торує свій шлях ([target_character.GetHerHis]) до слави легендарної постаті."
+  "uk": "Наш загін [target_unit.GetName] здобув велику перемогу над армією, яку очолювала держава [target_losing_country.GetName], біля [target_location.GetName]. Звістка про тріумф швидко ширится, відновлюючи віру в те, що Фенікс досі живий. [target_character.GetShortName] невпинно торує свій шлях до слави легендарної постаті."
  },
  "fate_of_the_phoenix.11.title": {
   "en": "[target_character.GetNameWithNoTooltip] Achieves Great Victory",
@@ -197,7 +197,7 @@
  },
  "fate_of_the_phoenix.18.desc": {
   "en": "Sent at the recommendation of our trusted friends in [target_country.GetName], [target_character.GetName] has arrived from the [target_location.GetRank.GetName] of [target_location.GetName], bearing with [target_character.GetHerHim] the skills and learning for which the [target_culture.GetName] lands are renowned. Seasoned by foreign courts and disciplined by the methods of the peninsula, [target_character.GetSheHe] now offers [target_character.GetHerHis] services to our [ROOT.GetCountry.GetFlavorRank], a kind and warm gesture.\\n\\nSuch an arrival not only promises practical benefit, but also deepens the bonds that tie us to our [ShowCultureGroupName('italian_group')] brethren, whose knowledge and ingenuity continue to shape the affairs of princes and emperors alike.",
-  "uk": "За порадою наших вірних друзів із [target_country.GetName] до нас прибуває [target_character.GetName] — з [target_location.GetRank.GetName] [target_location.GetName], несучи з собою ([target_character.GetHerHim]) вміння й ученість, якими славляться [target_culture.GetName] землі. Загартована при чужих дворах і вишколена методами півострова, ця особа ([target_character.GetSheHe]) тепер пропонує свої ([target_character.GetHerHis]) послуги нашій державі ([ROOT.GetCountry.GetFlavorRank]) — щедрий і теплий жест.\\n\\nТакий приїзд обіцяє не лише практичну користь, а й зміцнює узи, що єднають нас із браттями з [ShowCultureGroupName('italian_group')], чиї знання й винахідливість і далі визначають справи князів та імператорів."
+  "uk": "За порадою наших вірних друзів із [target_country.GetName] до нас прибуває [target_character.GetName] — з [target_location.GetRank.GetName] [target_location.GetName], несучи з собою вміння й ученість, якими славляться [target_culture.GetName] землі. Загартована при чужих дворах і вишколена методами півострова, ця особа тепер пропонує свої послуги нашій державі ([ROOT.GetCountry.GetFlavorRank]) — щедрий і теплий жест.\\n\\nТакий приїзд обіцяє не лише практичну користь, а й зміцнює узи, що єднають нас із браттями з [ShowCultureGroupName('italian_group')], чиї знання й винахідливість і далі визначають справи князів та імператорів."
  },
  "fate_of_the_phoenix.18.title": {
   "en": "[target_character.GetNameWithNoTooltip] Arrives in [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]",
@@ -373,7 +373,7 @@
  },
  "fop_paramenters_bul_tur_ser_tt": {
   "en": "While the [GetCountry('BYZ').GetLongName] undergoes the [ShowDisasterName('fate_of_the_phoenix')] [disaster|e], we will be given opportunities to capitalize on their weakness",
-  "uk": "Поки [GetCountry('BYZ').GetLongName] переживає [Concept('disaster','лихо')|e] [ShowDisasterName('fate_of_the_phoenix')], ми матимемо нагоди скористатися її слабкістю"
+  "uk": "Поки [GetCountry('BYZ').GetLongName] переживає [Concept('disaster','лихо')|e] [ShowDisasterName('fate_of_the_phoenix')], ми матимемо нагоди скористатися слабкістю ворога"
  },
  "fop_parameters_a_tt": {
   "en": "The outcome of this disaster will determine our fate. During this turbulent time, we will gain access to unique [actions|e] via the [disaster|e] panel",
@@ -393,7 +393,7 @@
  },
  "grant_latin_merchants_privileges_tooltip": {
   "en": "Any [country|e] in [ShowRegionName('italy_region')] with the [ShowGovernmentReformName('merchant_republic')] is neither subject nor our rival",
-  "uk": "Будь-яка [country|e] в [ShowRegionName('italy_region')] з реформою [ShowGovernmentReformName('merchant_republic')], що не є ні васалом, ні нашим суперником"
+  "uk": "Будь-яка [Concept('country','держава')|e] в [ShowRegionName('italy_region')] з реформою [ShowGovernmentReformName('merchant_republic')], що не є ні нашим васалом, ні суперником"
  },
  "has_not_completed_all_six_reforms_tt": {
   "en": "We have not completed all #Y 6#! available reforms",
@@ -433,7 +433,7 @@
  },
  "patronize_orth_monastery_tt": {
   "en": "The selected [location|e] will receive the [ShowModifier('patronize_orthodox_monastery_modifier')] [modifier|e] while many of our [ShowReligionAdjective('orthodox')] [pops|e] will receive [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "Обраний [location|e] отримає [Concept('modifier','модифікатор')|e] [ShowModifier('patronize_orthodox_monastery_modifier')], а багато наших [ShowReligionAdjective('orthodox')] [Concept('pops','груп населення')|e] отримають [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
+  "uk": "Обраний [Concept('location','район')|e] отримає [Concept('modifier','модифікатор')|e] [ShowModifier('patronize_orthodox_monastery_modifier')], а багато наших [ShowReligionAdjective('orthodox')] [Concept('pops','груп населення')|e] отримають [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
  },
  "patronize_orthodox_monastery": {
   "en": "Patronize $orthodox_monastery$",
@@ -449,7 +449,7 @@
  },
  "reform_armed_forces_tt": {
   "en": "We will be able to reform our [army|e] or [navy|e], undoing the decay of the past centuries",
-  "uk": "Ми зможемо реформувати [Concept('army','армію')|e] або [navy|e], подолавши занепад минулих століть"
+  "uk": "Ми зможемо реформувати [Concept('army','армію')|e] або [Concept('navy','флот')|e], подолавши занепад минулих століть"
  },
  "reform_imperial_armies": {
   "en": "Reform the [GetCountry('BYZ').GetAdjectiveWithNoTooltip] Military",
@@ -461,11 +461,11 @@
  },
  "reformation_of_the_school_of_admirals_better_stats_tt": {
   "en": "As long as this [modifier|e] is active, using the [ShowGenericActionName('train_admiral')] [action|e] will yield [characters|e] with better overall [abilities|e]",
-  "uk": "Поки діє цей [modifier|e], [Concept('action','дія')|e] [ShowGenericActionName('train_admiral')] даватиме [Concept('characters','персонажів')|e] із кращими загальними [Concept('abilities','навичками')|e]"
+  "uk": "Поки діє цей [Concept('modifier','модифікатор')|e], [Concept('action','дія')|e] [ShowGenericActionName('train_admiral')] даватиме [Concept('characters','персонажів')|e] із кращими загальними [Concept('abilities','навичками')|e]"
  },
  "remember_no_turk_tt": {
   "en": "No other [country|e] with its [capital|e] in [ShowRegionName('anatolia_region')], besides us, owns more than #Y 100#! [locations|e] including their [subjects|e] and is either [ShowCultureName('turkish_culture')] or [ShowCultureName('turkoman_culture')], or has the [ShowGovernmentReformName('anatolian_beylik')] [government_reform|e]",
-  "uk": "Жодна інша [country|e] зі [Concept('capital','столицею')|e] в [ShowRegionName('anatolia_region')], окрім нас, не володіє понад #Y 100#! [Concept('locations','районами')|e] разом зі своїми [Concept('subjects','васалами')|e] й не є ні [ShowCultureName('turkish_culture')], ні [ShowCultureName('turkoman_culture')], і не має [Concept('government_reform','реформи уряду')|e] [ShowGovernmentReformName('anatolian_beylik')]"
+  "uk": "Жодна інша [Concept('country','держава')|e] зі [Concept('capital','столицею')|e] в [ShowRegionName('anatolia_region')], окрім нас, не володіє понад #Y 100#! [Concept('locations','районами')|e] разом зі своїми [Concept('subjects','васалами')|e] й не є ні [ShowCultureName('turkish_culture')], ні [ShowCultureName('turkoman_culture')], і не має [Concept('government_reform','реформи уряду')|e] [ShowGovernmentReformName('anatolian_beylik')]"
  },
  "request_papal_donation": {
   "en": "Request $PAP_ADJ$ Donation",
@@ -477,15 +477,15 @@
  },
  "selected_country_may_join_every_ongoing_war_against_heathen_and_heretics_tt": {
   "en": "The selected [country|e] may join our ongoing [wars|e] whose [war_leaders|e] are either [heathens|e] or [heretics|e]",
-  "uk": "Обрана [country|e] може приєднатися до наших поточних [Concept('wars','воєн')|e], [Concept('war_leaders','лідери')|e] яких є [Concept('heathens','поганами')|e] або [Concept('heretics','єретиками')|e]"
+  "uk": "Обрана [Concept('country','держава')|e] може приєднатися до наших поточних [Concept('wars','воєн')|e], [Concept('war_leaders','лідери')|e] яких — [Concept('heathens','погани')|e] або [Concept('heretics','єретики')|e]"
  },
  "selected_country_will_send_us_engineer_character_tt": {
   "en": "The selected [country|e] will send us one of their finest [characters|e]",
-  "uk": "Обрана [country|e] надішле нам одного зі своїх найкращих [Concept('characters','персонажів')|e]"
+  "uk": "Обрана [Concept('country','держава')|e] надішле нам одного зі своїх найкращих [Concept('characters','персонажів')|e]"
  },
  "selected_republic_may_donate_ships_to_our_cause_tt": {
   "en": "The selected $merchant_republic$ may donate galley [ships|e] and [sailors|e] in exchange for [merchant_power|e] in [ShowLocationName('constantinople')]",
-  "uk": "Обрана $merchant_republic$ може подарувати [Concept('ships','кораблі')|e]-галери та [Concept('sailors','моряків')|e] в обмін на [Concept('merchant_power','торговельну міць')|e] в [ShowLocationName('constantinople')]"
+  "uk": "Обрана $merchant_republic$ може надати галерні [Concept('ships','кораблі')|e] та [Concept('sailors','моряків')|e] в обмін на [Concept('merchant_power','торговельну міць')|e] в [ShowLocationName('constantinople')]"
  },
  "summon_patriarchate_member": {
   "en": "Summon Patriarchate Member",
@@ -505,11 +505,11 @@
  },
  "target_character_total_abilities": {
   "en": "[abilities|e] of [target_character.GetName]",
-  "uk": "[abilities|e] персонажа [target_character.GetName]"
+  "uk": "[Concept('abilities','Навички')|e] персонажа [target_character.GetName]"
  },
  "target_country_forced_to_give_tribute_tt": {
   "en": "The selected [country|e] may be persuaded to give us [gold|e] or [manpower|e]",
-  "uk": "Вибрану [Concept('country','державу')|e] можна переконати дати нам [Concept('gold','золото')|e] або [Concept('manpower','людські ресурси')|e]"
+  "uk": "Вибрану [Concept('country','державу')|e] можна переконати дати нам [Concept('gold','золото')|e] або [Concept('manpower','рекрутів')|e]"
  },
  "unlock_allelengyon_bureaucracy_kephalai_bureaucracy_tt": {
   "en": "Unlocks the $allelengyon_bureaucracy$ and $kephalai_bureaucracy$ [bureaucracies|e]",

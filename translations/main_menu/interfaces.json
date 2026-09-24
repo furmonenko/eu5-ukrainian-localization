@@ -1121,7 +1121,7 @@
  },
  "ART_ONLY_LOCATION_EFFECT": {
   "en": "This quality of art has the following effects in [LOCATION.GetName]:\\n$EFFECTS$",
-  "uk": "Ця якість твору справляє такі ефекти в [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName]:\\n$EFFECTS$"
+  "uk": "Ця якість твору справляє такі ефекти в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]:\\n$EFFECTS$"
  },
  "ART_TAB": {
   "en": "Works of Art",
@@ -2833,7 +2833,7 @@
  },
  "BUILDING_LEVELINFO_LABEL": {
   "en": "#T The [LOCATION.GetNumBuildingLevels] building Levels in [LOCATION.GetNameWithNoTooltip]#!",
-  "uk": "#T Рівні споруд ([LOCATION.GetNumBuildingLevels]) у [LOCATION.Custom('LR_PP')|l] [LOCATION.GetNameWithNoTooltip]#!"
+  "uk": "#T Рівні споруд ([LOCATION.GetNumBuildingLevels]) у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]#!"
  },
  "BUILDING_LEVELS_LABEL": {
   "en": "Building Levels in [Location.GetNameWithNoTooltip]",
@@ -3405,7 +3405,7 @@
  },
  "BUILD_LOCATION_AVAILABLE_LABORERS": {
   "en": "#T Available Laborers #! There are [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|+] [ShowPopTypeName('laborers')] [unemployed|e] in @location![Location.GetName].",
-  "uk": "#T Доступні робітники #! В @location![Location.Custom('LR_PP')|l] [Location.GetName] [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|+] осіб [Concept('unemployed', 'незайнятих')|e] #TOOLTIP:POPTYPE,laborers,X #L робітників#!#!."
+  "uk": "#T Доступні робітники #! В @location![Location.Custom('LR_PREP')|l] [Location.GetName] [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|+] осіб [Concept('unemployed', 'незайнятих')|e] #TOOLTIP:POPTYPE,laborers,X #L робітників#!#!."
  },
  "BUILD_LOCATION_AVAILABLE_LABORERS_TT": {
   "en": "[unemployed|e] [ShowPopTypeName('laborers')] in @location![Location.GetName]:",
@@ -3437,7 +3437,7 @@
  },
  "BUILD_LOCATION_NUMBER": {
   "en": "#T Number of [LocationToBuildItem.GetBuildingType.GetNameWithNoTooltip] in [LocationToBuildItem.GetLocation.GetNameWithNoTooltip]#!\\nThere are currently [LocationToBuildItem.GetBuilding.GetLevel|Y0] [LocationToBuildItem.GetBuildingType.GetName] in [LocationToBuildItem.GetLocation.GetName]",
-  "uk": "#T Кількість споруд «[LocationToBuildItem.GetBuildingType.GetNameWithNoTooltip]» у [LocationToBuildItem.GetLocation.Custom('LR_PP')|l] [LocationToBuildItem.GetLocation.GetNameWithNoTooltip]#!\\nУ [LocationToBuildItem.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [LocationToBuildItem.GetLocation.GetName] зараз [LocationToBuildItem.GetBuilding.GetLevel|Y0] од. споруд типу «[LocationToBuildItem.GetBuildingType.GetName]»."
+  "uk": "#T Кількість споруд «[LocationToBuildItem.GetBuildingType.GetNameWithNoTooltip]» у [LocationToBuildItem.GetLocation.Custom('LR_PREP')|l] [LocationToBuildItem.GetLocation.GetNameWithNoTooltip]#!\\nУ [LocationToBuildItem.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [LocationToBuildItem.GetLocation.GetName] зараз [LocationToBuildItem.GetBuilding.GetLevel|Y0] од. споруд типу «[LocationToBuildItem.GetBuildingType.GetName]»."
  },
  "BUILD_LOCATION_NUMBER_MAP": {
   "en": "Number of [LocationToBuildItem.GetBuildingType.GetName] in [LocationToBuildItem.GetLocation.GetName]",
@@ -3445,7 +3445,7 @@
  },
  "BUILD_LOCATION_POP": {
   "en": "#T Available [LocationToBuildItem.GetBuildingType.GetPopType.GetNameWithNoTooltip]#!\\nThere are [LocationToBuildItem.GetLocation.GetEffectiveUnEmployed(LocationToBuildItem.GetBuildingType.GetPopType)|w] [LocationToBuildItem.GetBuildingType.GetPopType.GetName] [unemployed|e] in @location![LocationToBuildItem.GetLocation.GetName].",
-  "uk": "#T Доступні [LocationToBuildItem.GetBuildingType.GetPopType.GetNameWithNoTooltip|l]#!\\nУ @location![LocationToBuildItem.GetLocation.Custom('LR_PP')|l] [LocationToBuildItem.GetLocation.GetName] є [Concept('unemployed', 'незайняті')|e] [LocationToBuildItem.GetBuildingType.GetPopType.GetName|l] ([LocationToBuildItem.GetLocation.GetEffectiveUnEmployed(LocationToBuildItem.GetBuildingType.GetPopType)|w] осіб)."
+  "uk": "#T Доступні [LocationToBuildItem.GetBuildingType.GetPopType.GetNameWithNoTooltip|l]#!\\nУ @location![LocationToBuildItem.GetLocation.Custom('LR_PREP')|l] [LocationToBuildItem.GetLocation.GetName] є [Concept('unemployed', 'незайняті')|e] [LocationToBuildItem.GetBuildingType.GetPopType.GetName|l] ([LocationToBuildItem.GetLocation.GetEffectiveUnEmployed(LocationToBuildItem.GetBuildingType.GetPopType)|w] осіб)."
  },
  "BUILD_LOCATION_POP_PERCENTAGE": {
   "en": "Percentage of [LocationToBuildItem.GetBuildingType.GetPopType.GetName] employed in [LocationToBuildItem.GetLocation.GetName]",
@@ -3457,7 +3457,7 @@
  },
  "BUILD_LOCATION_POP_RGO": {
   "en": "#T Available Population in [Location.GetNameWithNoTooltip] #!\\n[unemployed|e] [ShowPopTypeName('laborers')]:: [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|w] @laborers!\\n[unemployed|e] [ShowPopTypeName('peasants')]:: [Location.GetEffectiveUnEmployed(GetPopTypeByName('peasants'))|w] @peasants!",
-  "uk": "#T Доступне населення у [Location.Custom('LR_PP')|l] [Location.GetNameWithNoTooltip] #!\\n[Concept('unemployed', 'Незайняті')|e] #TOOLTIP:POPTYPE,laborers,X #L робітники#!#!: [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|w] @laborers!\\n[Concept('unemployed', 'Незайняті')|e] #TOOLTIP:POPTYPE,peasants,X #L селяни#!#!: [Location.GetEffectiveUnEmployed(GetPopTypeByName('peasants'))|w] @peasants!"
+  "uk": "#T Доступне населення у [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip] #!\\n[Concept('unemployed', 'Незайняті')|e] #TOOLTIP:POPTYPE,laborers,X #L робітники#!#!: [Location.GetEffectiveUnEmployed(GetPopTypeByName('laborers'))|w] @laborers!\\n[Concept('unemployed', 'Незайняті')|e] #TOOLTIP:POPTYPE,peasants,X #L селяни#!#!: [Location.GetEffectiveUnEmployed(GetPopTypeByName('peasants'))|w] @peasants!"
  },
  "BUILD_LOCATION_SORT_BUILDINGS": {
   "en": "Sort by number of [buildings|e]",
@@ -4977,7 +4977,7 @@
  },
  "COLONIAL_RANGE_VAL_INFO": {
   "en": "Distance to [PROVINCE_DEFINITION.GetName] from [LOCATION.GetName]: $VAL|V2$\\n[COUNTRY.GetNameWithFlag] [colonial_range|e]: [COUNTRY.GetDoubleModifierValue('colonial_range','colonial_range_modifier')]",
-  "uk": "Відстань між провінцією [PROVINCE_DEFINITION.GetName] та [LOCATION.Custom('LR_TP')|l] [LOCATION.GetName]: $VAL|V2$\\n[Concept('colonial_range','Колонізаційна відстань')|e] @[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!: [COUNTRY.GetDoubleModifierValue('colonial_range','colonial_range_modifier')]"
+  "uk": "Відстань між провінцією [PROVINCE_DEFINITION.GetName] та [LOCATION.Custom('LR_INST')|l] [LOCATION.GetName]: $VAL|V2$\\n[Concept('colonial_range','Колонізаційна відстань')|e] @[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_RP')|L]#!#!: [COUNTRY.GetDoubleModifierValue('colonial_range','colonial_range_modifier')]"
  },
  "COLONIAL_TAB": {
   "en": "Colonies",
@@ -9137,7 +9137,7 @@
  },
  "FOOD_INCOME_BREAKDOWN": {
   "en": "Food Income\\nPrice for [food|e] in [market|e]: $PRICE|2$@gold!\\nAmount Sold: $AMOUNT|2$\\nMultiplied by [control|e] of [LOCATION.GetName]: [LOCATION.GetControl|Y2%]",
-  "uk": "Дохід від їжі\\nЦіна [Concept('food', 'їжі')|e] на [Concept('market', 'ринку')|e]: $PRICE|2$@gold!\\nПродана кількість: $AMOUNT|2$\\nМножиться на кількість [Concept('control', 'контролю')|e] в #L #TOOLTIP:LOCATIONRANK,[LOCATION.Custom('LR_tt')],X [LOCATION.Custom('LR_RP')]#!#! [LOCATION.GetName]: [LOCATION.GetControl|Y2%]"
+  "uk": "Дохід від їжі\\nЦіна [Concept('food', 'їжі')|e] на [Concept('market', 'ринку')|e]: $PRICE|2$@gold!\\nПродана кількість: $AMOUNT|2$\\nМножиться на кількість [Concept('control', 'контролю')|e] в #L #TOOLTIP:LOCATIONRANK,[LOCATION.Custom('LR_tt')],X [LOCATION.Custom('LR_PREP')]#!#! [LOCATION.GetName]: [LOCATION.GetControl|Y2%]"
  },
  "FOOD_INCOME_ENTRY": {
   "en": "Selling @food! in [MARKET.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$[gold_i]#!",
@@ -13329,11 +13329,11 @@
  },
  "LOC_HOLY_SITES": {
   "en": "#T Holy Sites in [LocationView.GetLocation.GetNameWithNoTooltip]#!\\nThis [location|e] has the following [holy_sites]:\\n",
-  "uk": "#T Святині в [LocationView.GetLocation.Custom('LR_PP')|l] [LocationView.GetLocation.GetNameWithNoTooltip]#!\\nУ цьому [Concept('location','районі')|e] знаходяться такі [Concept('holy_sites','святині')]:\\n"
+  "uk": "#T Святині в [LocationView.GetLocation.Custom('LR_PREP')|l] [LocationView.GetLocation.GetNameWithNoTooltip]#!\\nУ цьому [Concept('location','районі')|e] знаходяться такі [Concept('holy_sites','святині')]:\\n"
  },
  "LOC_HOLY_SITES_EXTENSIVE": {
   "en": "#T Holy Sites in [LOCATION.GetNameWithNoTooltip]#!\\nThis [location|e] has the following [holy_sites]:\\n",
-  "uk": "#T Святині в [LOCATION.Custom('LR_PP')|l] [LOCATION.GetNameWithNoTooltip]#!\\nУ цьому [Concept('location','районі')|e] знаходяться такі [Concept('holy_sites','святині')]:\\n"
+  "uk": "#T Святині в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]#!\\nУ цьому [Concept('location','районі')|e] знаходяться такі [Concept('holy_sites','святині')]:\\n"
  },
  "LOC_INF_SOURCES": {
   "en": "Locations",
@@ -14865,7 +14865,7 @@
  },
  "MARKET_ATTRACTION_CENTER_IMPACT_TITLE": {
   "en": "Market Center Impact\\nImpact of [LOCATION.GetName] [market_center|e]: $VAL|+2%$\\n",
-  "uk": "Вплив ринкового центру\\nВплив #L #TOOLTIP:LOCATIONRANK,[LOCATION.Custom('LR_tt')],X [LOCATION.Custom('LR_RP')]#!#! [LOCATION.GetName] як [Concept('market_center', 'ринкового центру')|e]: $VAL|+2%$\\n"
+  "uk": "Вплив ринкового центру\\nВплив #L #TOOLTIP:LOCATIONRANK,[LOCATION.Custom('LR_tt')],X [LOCATION.Custom('LR_GEN')]#!#! [LOCATION.GetName] як [Concept('market_center', 'ринкового центру')|e]: $VAL|+2%$\\n"
  },
  "MARKET_ATTRACTION_COUNTRY_COMMON_LANGUAGE": {
   "en": "Is [common_language|e] of [COUNTRY.GetNameWithFlag]: $VAL|+0%$\\n",
@@ -22065,11 +22065,11 @@
  },
  "PRODUCTION_METHOD_TOTAL_PROFIT_ENTRY": {
   "en": "[BUILDING.GetName] in [BUILDING.GetLocation.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$@gold!#!",
-  "uk": "[BUILDING.GetName] у [BUILDING.GetLocation.Custom('LR_PP')|l] [BUILDING.GetLocation.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$@gold!#!"
+  "uk": "[BUILDING.GetName] у [BUILDING.GetLocation.Custom('LR_PREP')|l] [BUILDING.GetLocation.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$@gold!#!"
  },
  "PRODUCTION_METHOD_TOTAL_PROFIT_ENTRY_BRK_TT": {
   "en": "[BUILDING.GetNameWithNoTooltip] in [BUILDING.GetLocation.GetNameWithNoTooltip]\\n",
-  "uk": "[BUILDING.GetNameWithNoTooltip] у [BUILDING.GetLocation.Custom('LR_PP')|l] [BUILDING.GetLocation.GetNameWithNoTooltip]\\n"
+  "uk": "[BUILDING.GetNameWithNoTooltip] у [BUILDING.GetLocation.Custom('LR_PREP')|l] [BUILDING.GetLocation.GetNameWithNoTooltip]\\n"
  },
  "PRODUCTION_METHOD_TOTAL_PROFIT_INFO": {
   "en": "Total potential profit of [ProductionMethod.GetName]",
@@ -23289,7 +23289,7 @@
  },
  "RECRUIT_LOCATION_NUMBER_SIMPLE": {
   "en": "#T Number of [RecruitInLocationLateralView.GetUnitType.GetNameWithNoTooltip] in [LocationToRecruitItem.GetLocation.GetNameWithNoTooltip] #! Number of [RecruitInLocationLateralView.GetUnitType.GetName] in [LocationToRecruitItem.GetLocation.GetName] that are being recruited",
-  "uk": "#T Кількість підрозділів «[RecruitInLocationLateralView.GetUnitType.GetNameWithNoTooltip]» у [LocationToRecruitItem.GetLocation.Custom('LR_PP')|l] [LocationToRecruitItem.GetLocation.GetNameWithNoTooltip] #! Кількість загонів «[RecruitInLocationLateralView.GetUnitType.GetName]», що набираються, у [LocationToRecruitItem.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [LocationToRecruitItem.GetLocation.GetName]"
+  "uk": "#T Кількість підрозділів «[RecruitInLocationLateralView.GetUnitType.GetNameWithNoTooltip]» у [LocationToRecruitItem.GetLocation.Custom('LR_PREP')|l] [LocationToRecruitItem.GetLocation.GetNameWithNoTooltip] #! Кількість загонів «[RecruitInLocationLateralView.GetUnitType.GetName]», що набираються, у [LocationToRecruitItem.GetLocation.GetRank.GetNameAltWithNoTooltip('LR_PP')|l] [LocationToRecruitItem.GetLocation.GetName]"
  },
  "RECRUIT_LOCATION_NUMBER_TEMPLATE_SIMPLE": {
   "en": "#T Number of [RecruitInLocationLateralView.GetUnitTemplate.GetNameWithNoTooltip] in [LocationToRecruitItem.GetLocation.GetNameWithNoTooltip] #! Number of [RecruitInLocationLateralView.GetUnitTemplate.GetName] in [LocationToRecruitItem.GetLocation.GetName] that are being recruited",
@@ -24817,7 +24817,7 @@
  },
  "SELL_PRICE_FOR": {
   "en": "Sell Price for #T 1#! [GOODS.GetNameWithNoTooltip] in [LOCATION.GetNameWithNoTooltip] is $VAL|2$@gold!",
-  "uk": "Ціна продажу #T 1#! од. товару «[GOODS.GetNameWithNoTooltip]» у [LOCATION.Custom('LR_PP')|l] [LOCATION.GetNameWithNoTooltip] становить $VAL|2$@gold!"
+  "uk": "Ціна продажу #T 1#! од. товару «[GOODS.GetNameWithNoTooltip]» у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip] становить $VAL|2$@gold!"
  },
  "SELL_PRICE_FOR_BUILDING": {
   "en": "Income for this [Building.GetNameWithNoTooltip]",
@@ -29185,7 +29185,7 @@
  },
  "UNIT_SELL_PRICE_BREAKDOWN": {
   "en": "#T 1#! [GOODS.GetName] in [LOCATION.GetName] sells for: $SELL_PRICE|2Y$[gold_i]",
-  "uk": "#T 1#! од. товару «[GOODS.GetName]» у [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName] продається за: $SELL_PRICE|2Y$[gold_i]"
+  "uk": "#T 1#! од. товару «[GOODS.GetName]» у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] продається за: $SELL_PRICE|2Y$[gold_i]"
  },
  "UNIT_SELL_PRICE_TT": {
   "en": "#TOOLTIP:$BREAKDOWN_TAG$ $NUM|2L$#! #subtle_name [GOODS.GetIcon][GOODS.GetNameNoUnderline]#!: $VAL$",

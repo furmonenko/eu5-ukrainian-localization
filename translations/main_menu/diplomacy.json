@@ -2257,15 +2257,15 @@
  },
  "CANNOT_TRANSFER_NOT_AT_WAR": {
   "en": "Cannot transfer [LOCATION.GetName] as we are not at war with the owner",
-  "uk": "Неможливо передати [LOCATION.Custom('LR_VP')|l] [LOCATION.GetName], оскільки ми не воюємо з власником району"
+  "uk": "Неможливо передати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName], оскільки ми не воюємо з власником району"
  },
  "CANNOT_TRANSFER_NOT_AT_WAR_DEST": {
   "en": "Cannot transfer [LOCATION.GetName] as [COUNTRY.GetName] are not at war with the owner",
-  "uk": "Неможливо передати [LOCATION.Custom('LR_VP')|l] [LOCATION.GetName], оскільки держава [COUNTRY.GetName] не воює з власником району"
+  "uk": "Неможливо передати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName], оскільки держава [COUNTRY.GetName] не воює з власником району"
  },
  "CANNOT_TRANSFER_NOT_IN_CHARGE": {
   "en": "Cannot transfer [LOCATION.GetName] as the controller is not us or one of our [subjects|e]",
-  "uk": "Неможливо передати [LOCATION.Custom('LR_VP')|l] [LOCATION.GetName], оскільки контролююча сторона не ми і не один з наших [Concept('subjects','васалів')|e]"
+  "uk": "Неможливо передати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName], оскільки контролююча сторона не ми і не один з наших [Concept('subjects','васалів')|e]"
  },
  "CANNOT_TRANSFER_NOT_OCCUPIED": {
   "en": "[LOCATION.GetName] is not occupied",
@@ -2273,7 +2273,7 @@
  },
  "CANNOT_TRANSFER_NO_POSSIBLE_COUNTRIES": {
   "en": "Cannot transfer [LOCATION.GetName] as there are no possible countries to transfer control to",
-  "uk": "Неможливо передати [LOCATION.Custom('LR_VP')|l] [LOCATION.GetName], оскільки немає підходящих держав, яким можна передати контроль"
+  "uk": "Неможливо передати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName], оскільки немає підходящих держав, яким можна передати контроль"
  },
  "CANNOY_BUY_RELATION": {
   "en": "@trigger_no! We cannot buy [RELATION_TYPE.GetName] for any price.",
@@ -7469,7 +7469,7 @@
  },
  "PEACE_COST_UNOCCUPIED": {
   "en": "[LOCATION.GetName] has a [fort|e] and is not occupied: $VAL|+=%$\\n",
-  "uk": "У [LOCATION.Custom('LR_PP')|l] [LOCATION.GetName] є [Concept('fort', 'фортеця')|e], і район не окупований: $VAL|+=%$\\n"
+  "uk": "У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] є [Concept('fort', 'фортеця')|e], і район не окупований: $VAL|+=%$\\n"
  },
  "PEACE_DESC": {
   "en": "Negotiate [peace_treaty|e].",
@@ -7945,11 +7945,11 @@
  },
  "PEACE_TREATY_REVOKE_CORE": {
   "en": "Revoke cores of [TARGET_COUNTRY.GetNameWithFlag] in [LOCATION.GetName]",
-  "uk": "Скасування статусу [LOCATION.Custom('LR_RP')|l] [LOCATION.GetName] як національного району @[TARGET_COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
+  "uk": "Скасування статусу [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] як національного району @[TARGET_COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_RP')|L]#!#!"
  },
  "PEACE_TREATY_REVOKE_CORE_short": {
   "en": "Revoke cores of [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip] in [LOCATION.GetNameWithNoTooltip]",
-  "uk": "Скасування статусу [LOCATION.Custom('LR_RP')|l] [LOCATION.GetNameWithNoTooltip] як національного району @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_RP')]"
+  "uk": "Скасування статусу [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetNameWithNoTooltip] як національного району @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_RP')]"
  },
  "PEACE_TREATY_REVOLTER_NO_REVOLTER": {
   "en": "@trigger_no!The [COUNTRY.GetLongName] is not a revolter.",
@@ -9361,7 +9361,7 @@
  },
  "SCRIPTED_RELATION_INSTITUTION_SPREAD": {
   "en": "$EFFECT_LIST_BULLET$[COUNTRY.GetName] spreads $VAL|+=2$ [embraced|e] [institutions|e] to [TARGET_COUNTRY.GetCapital.GetName].",
-  "uk": "$EFFECT_LIST_BULLET$[COUNTRY.GetName] поширює [Concept('embraced', 'впроваджені')|e] [Concept('institutions', 'інститути')|e] ($VAL|+=2$) у [TARGET_COUNTRY.GetCapital.Custom('LR_PP')|l] [TARGET_COUNTRY.GetCapital.GetName]."
+  "uk": "$EFFECT_LIST_BULLET$[COUNTRY.GetName] поширює [Concept('embraced', 'впроваджені')|e] [Concept('institutions', 'інститути')|e] ($VAL|+=2$) у [TARGET_COUNTRY.GetCapital.Custom('LR_PREP')|l] [TARGET_COUNTRY.GetCapital.GetName]."
  },
  "SCRIPTED_RELATION_INSTITUTION_SPREAD_UNKNOWN": {
   "en": "$EFFECT_LIST_BULLET$[COUNTRY.GetName] spreads $VAL|+=2$ [embraced|e] [institutions|e] to the Capital of the Target Country.",

@@ -29,7 +29,7 @@
  },
  "BYZ_DEAL_WITH_THESSALONIKI_COMMUNE": {
   "en": "Should we not manage to gain [ROOT.GetVariable('thessaloniki_pop_sat').GetValue|V0%] [pop_satisfaction|e] in [target_location.GetName] within #Y 3 Years#!, [target_location.GetProvince.GetName] will #Y Rise Up#!.",
-  "uk": "Якщо ми не досягнемо [ROOT.GetVariable('thessaloniki_pop_sat').GetValue|V0%] [Concept('pop_satisfaction', 'вдоволення')|e] в [target_location.Custom('LR_PP')|l] [target_location.GetName] протягом #Y 3 років#!, провінція [target_location.GetProvince.GetName] #Y повстане#!."
+  "uk": "Якщо ми не досягнемо [ROOT.GetVariable('thessaloniki_pop_sat').GetValue|V0%] [Concept('pop_satisfaction', 'вдоволення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] протягом #Y 3 років#!, провінція [target_location.GetProvince.GetName] #Y повстане#!."
  },
  "BYZ_FALL_OF_BYZANTIUM_CONVERSION": {
   "en": "All of our [ShowCultureName('greek_culture')] [pops|e] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
@@ -741,7 +741,7 @@
  },
  "flavor_byz.1502.desc": {
   "en": "For quite some time the presence of [target_character.GetName] has complimented our artistic and cultural endeavors. [target_character.GetHerHis] teachings in matters of jurisprudence and scholarly pursuits are second to none, attracting many disciplines who will surely impact the [ShowInstitutionName('renaissance')] in their own ways.\\n\\nHowever, recently [target_character.GetSheHe] has become more open about [target_character.GetHerHis] true faith, [ShowReligionName('hellenism_religion')], much to the dismay of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] in [ROOT.GetCountry.GetCapital.GetName]. According to them, such heresy threatens our traditions and the stability of the entire [ROOT.GetCountry.GetFlavorRank].",
-  "uk": "Ось уже кілька років [target_character.GetName] робить неоціненний внесок у розвиток нашої культури. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] видатні пізнання в галузі юриспруденції та філософії приваблюють безліч учнів, які й самі колись стануть впливовими постатями #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!.\\n\\nНа жаль, останнім часом [Select_CString(target_character.IsFemale, 'вона', 'він' )] відкрито демонструє свою симпатію до #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністичної релігії#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [ROOT.GetCountry.GetCapital.Custom('LR_RP')|l] [ROOT.GetCountry.GetCapital.GetName] обурені цим проявом язичництва — вони вважають, що [target_character.GetNameWithNoTooltip] загрожує нашим традиціям і стабільності [ROOT.GetCountry.Custom('CF_RP')|l]."
+  "uk": "Ось уже кілька років [target_character.GetName] робить неоціненний внесок у розвиток нашої культури. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] видатні пізнання в галузі юриспруденції та філософії приваблюють безліч учнів, які й самі колись стануть впливовими постатями #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!.\\n\\nНа жаль, останнім часом [Select_CString(target_character.IsFemale, 'вона', 'він' )] відкрито демонструє свою симпатію до #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністичної релігії#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] обурені цим проявом язичництва — вони вважають, що [target_character.GetNameWithNoTooltip] загрожує нашим традиціям і стабільності [ROOT.GetCountry.Custom('CF_RP')|l]."
  },
  "flavor_byz.1502.e": {
   "en": "Maybe [target_character.GetSheHe] is right after all.",
@@ -1597,7 +1597,7 @@
  },
  "flavor_byz.44.desc": {
   "en": "[target_artist.GetName], born in the [target_location.GetName] as a [ShowCultureName('greek_culture')] citizen, has been making a name for himself in the [ShowProvinceDefinitionName('ionian_islands_province')]. His art follows the #italic Maniera Greca#! style, mixing the [GetCountry('BYZ').GetAdjective] and [GetCountry('VEN').GetAdjective] artistic styles.",
-  "uk": "Художник на ім'я [target_artist.GetName], #TOOLTIP:CULTURE,greek_culture_tt,X #L грек#!#! з [target_location.Custom('LR_RP')|l] [target_location.GetName], доволі відомий на #TOOLTIP:PROVINCE_DEFINITION,ionian_islands_province,X #L Іонічних островах#!#!. Він працює в стилі #italic Maniera Greca#!, у якому поєднуються елементи #L [GetCountry('BYZ').GetAdjective|l]ого#! та #L [GetCountry('VEN').GetAdjective|l]ого#! мистецтва."
+  "uk": "Художник на ім'я [target_artist.GetName], #TOOLTIP:CULTURE,greek_culture_tt,X #L грек#!#! з [target_location.Custom('LR_GEN')|l] [target_location.GetName], доволі відомий на #TOOLTIP:PROVINCE_DEFINITION,ionian_islands_province,X #L Іонічних островах#!#!. Він працює в стилі #italic Maniera Greca#!, у якому поєднуються елементи #L [GetCountry('BYZ').GetAdjective|l]ого#! та #L [GetCountry('VEN').GetAdjective|l]ого#! мистецтва."
  },
  "flavor_byz.44.entry": {
   "en": "Maniera Greca",

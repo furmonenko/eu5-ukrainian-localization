@@ -29,7 +29,7 @@
  },
  "castilian_civil_war.100.desc.inheritance": {
   "en": "Although prepared for a difficult civil war, the tensions in the court and the constant betrayals at the hands of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have left [target_ruler.GetName] in a state of mental distress. Eventually, the mental exhaustion has proven to be too much for [target_ruler.GetHerHim], and [target_ruler.GetShortNameWithNoTooltip] has been to abdicate, making [target_pretender.GetName] the legitimate ruler of [from_country.GetName].",
-  "uk": "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'була готова', 'був готовий')] відстоювати свої права в громадянській війні, однак постійні конфлікти при дворі підірвали [Select_CString(target_ruler.IsFemale,'її', 'його')] душевне здоров'я. Останньою краплею стали [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], масово перекинувшися на бік [Select_CString(target_pretender.IsFemale,'суперниці', 'суперника')]. Не витримавши тиску, [target_ruler.GetShortNameWithNoTooltip|l] [Select_CString(target_ruler.IsFemale,'зреклася', 'зрікся')] престолу. Відтепер [Select_CString(target_pretender.IsFemale,'законною правителькою', 'законним правителем')] #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! є [target_pretender.GetName]."
+  "uk": "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'була готова', 'був готовий')] відстоювати свої права в громадянській війні, однак постійні конфлікти при дворі підірвали [Select_CString(target_ruler.IsFemale,'її', 'його')] душевне здоров’я. Останньою краплею стали [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], масово перекинувшися на бік [Select_CString(target_pretender.IsFemale,'суперниці', 'суперника')]. Не витримавши тиску, [target_ruler.GetShortNameWithNoTooltip|l] [Select_CString(target_ruler.IsFemale,'зреклася', 'зрікся')] престолу. Відтепер [Select_CString(target_pretender.IsFemale,'законною правителькою', 'законним правителем')] #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! є [target_pretender.GetName]."
  },
  "castilian_civil_war.100.desc.pretender_death": {
   "en": "Alas, the divine has given [target_ruler.GetName] a hand of grace. [target_pretender.GetName], leader of the brewing rebellion threatening to throw the entire [from_country.GetAdjective] domain in a civil war, has perished. A sign of intervention or a dice roll of luck? For better or worse, [from_country.GetNameWithNoTooltip] regained control of its internal affairs.",
@@ -85,7 +85,7 @@
  },
  "castilian_civil_war.1000.desc.common": {
   "en": "The years of the affairs of [from_father.GetName] with [from_father.GetHerHis] [from_mother.Custom('GetLover')] have finally shown their repercussions. While [from_father.GetHerHis] [target_legitimate.GetDaughterSon], [target_legitimate.GetName] may be the legitimate ruler of [from_country.GetName], [target_legitimate.GetHerHis] bastard [target_bastard.GetSisterBrother], [target_bastard.GetName], has raised an army to claim the throne for [target_bastard.GetHerselfHimself].",
-  "uk": "[from_father.GetName] і [Select_CString(from_father.IsFemale,'її', 'його')] [from_mother.Custom('GetLover')|l] роками віддавалися розпусті на очах у всього двору, і тепер їхній гріховний зв'язок призвів до жахливих наслідків. За законом [Select_CString(target_legitimate.IsFemale,'правителькою', 'правителем')] #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_legitimate.IsFemale,'стала законнонароджена дочка', 'став законнонароджений син')] монарха [target_legitimate.GetName], однак [Select_CString(target_legitimate.IsFemale,'її', 'його')] [Select_CString(target_bastard.IsFemale,'сестра', 'брат')]-бастард [target_bastard.GetName] [Select_CString(target_bastard.IsFemale,'зібрала', 'зібрав')] армію, щоб відібрати корону силою."
+  "uk": "[from_father.GetName] і [Select_CString(from_father.IsFemale,'її', 'його')] [from_mother.Custom('GetLover')|l] роками віддавалися розпусті на очах у всього двору, і тепер їхній гріховний зв’язок призвів до жахливих наслідків. За законом [Select_CString(target_legitimate.IsFemale,'правителькою', 'правителем')] #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_legitimate.IsFemale,'стала законнонароджена дочка', 'став законнонароджений син')] монарха [target_legitimate.GetName], однак [Select_CString(target_legitimate.IsFemale,'її', 'його')] [Select_CString(target_bastard.IsFemale,'сестра', 'брат')]-бастард [target_bastard.GetName] [Select_CString(target_bastard.IsFemale,'зібрала', 'зібрав')] армію, щоб відібрати корону силою."
  },
  "castilian_civil_war.1000.title": {
   "en": "The [from_country.GetAdjectiveWithNoTooltip] Crown Conflict",
@@ -137,7 +137,7 @@
  },
  "castilian_civil_war.1003.desc": {
   "en": "$castilian_civil_war.1003.desc.common$ Our most esteemed ally, [target_country.GetName], has expressed their will to aid [target_pretender.GetShortNameWithNoTooltip] in exchange for favors and land in [ShowRegionName('iberia_region')]. Siding with [target_country.GetNameWithNoTooltip] in this conflict might present us with an opportunity to claim some of the [from_country.GetAdjectiveWithNoTooltip] lands for ourselves while also strengthening our bond with the [target_country.GetAdjectiveWithNoTooltip] [target_country.GetFlavorRank]. That is if the pretender wins the upcoming civil war...",
-  "uk": "$castilian_civil_war.1003.desc.common$ [target_pretender.GetShortNameWithNoTooltip] уже [Select_CString(target_pretender.IsFemale,'заручилася', 'заручився')] допомогою нашого найближчого союзника — #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. В обмін [target_country.GetAdjectiveWithNoTooltip|l][Select_CString(target_country.GetGovernment.GetRuler.IsFemale,'а', 'ий')] [target_country.GetGovernment.GetRulerTitle|l] розраховує отримати землі в #TOOLTIP:REGION,iberia_region,X #L Іберії#!#!. Якщо ми приєднаємося до [target_country.Custom('CL_DAT')], це зміцнить братерські узи між нашими державами — а крім того, у нас теж з'явиться можливість заволодіти частиною [from_country.GetAdjectiveWithNoTooltip|l]их територій. Якщо, звісно, переможе наш претендент…"
+  "uk": "$castilian_civil_war.1003.desc.common$ [target_pretender.GetShortNameWithNoTooltip] уже [Select_CString(target_pretender.IsFemale,'заручилася', 'заручився')] допомогою нашого найближчого союзника — #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. В обмін [target_country.GetAdjectiveWithNoTooltip|l][Select_CString(target_country.GetGovernment.GetRuler.IsFemale,'а', 'ий')] [target_country.GetGovernment.GetRulerTitle|l] розраховує отримати землі в #TOOLTIP:REGION,iberia_region,X #L Іберії#!#!. Якщо ми приєднаємося до [target_country.Custom('CL_DAT')], це зміцнить братерські узи між нашими державами — а крім того, у нас теж з’явиться можливість заволодіти частиною [from_country.GetAdjectiveWithNoTooltip|l]их територій. Якщо, звісно, переможе наш претендент…"
  },
  "castilian_civil_war.1003.desc.common": {
   "en": "The conflict between the two half-siblings, [target_ruler.GetName] and [target_pretender.GetName], grows in [from_country.GetName] in tension. Both sides are looking for support against their competitor for the upcoming war for the [from_country.GetAdjectiveWithNoTooltip] Crown.",
@@ -185,7 +185,7 @@
  },
  "castilian_civil_war.101.a.tt": {
   "en": "All obligations and rewards regarding [from_country.GetName] and their conflict between [target_ruler.GetName] and [target_pretender.GetName] are nullified",
-  "uk": "Будь-які зобов'язання та нагороди, пов'язані з боротьбою персонажів [target_ruler.GetName] і [target_pretender.GetName] за #L [from_country.GetAdjective|l]ий#! престол, більше не чинні"
+  "uk": "Будь-які зобов’язання та нагороди, пов’язані з боротьбою персонажів [target_ruler.GetName] і [target_pretender.GetName] за #L [from_country.GetAdjective|l]ий#! престол, більше не чинні"
  },
  "castilian_civil_war.1020.a": {
   "en": "[pretender_mother.GetSheHe|U] shall be executed for treason against [from_country.GetNameWithNoTooltip]!",
@@ -261,7 +261,7 @@
  },
  "castilian_civil_war.1022.desc": {
   "en": "[maria_scope.GetName], child of [target_country.GetName], has been banished from [from_country.GetName]. [maria_scope.GetHerHis|U] marriage to the once great [alfonso_scope.GetName] could no longer keep our states tied together.",
-  "uk": "[maria_scope.GetName], [Select_CString(maria_scope.IsFemale,'дочка', 'син')] #L [target_country.GetAdjective|l]ої#! землі, [Select_CString(maria_scope.IsFemale,'вигнана', 'вигнаний')] з #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!. Поки [Select_CString(maria_scope.IsFemale,'вона', 'він')] і [Select_CString(alfonso_scope.IsFemale,'велика', 'великий')] [alfonso_scope.GetName] залишалися подружжям, наші дві держави були тісно пов'язані, але тепер нас ніщо не об'єднує."
+  "uk": "[maria_scope.GetName], [Select_CString(maria_scope.IsFemale,'дочка', 'син')] #L [target_country.GetAdjective|l]ої#! землі, [Select_CString(maria_scope.IsFemale,'вигнана', 'вигнаний')] з #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#!. Поки [Select_CString(maria_scope.IsFemale,'вона', 'він')] і [Select_CString(alfonso_scope.IsFemale,'велика', 'великий')] [alfonso_scope.GetName] залишалися подружжям, наші дві держави були тісно пов’язані, але тепер нас ніщо не об’єднує."
  },
  "castilian_civil_war.1022.title": {
   "en": "The Banishment of [maria_scope.GetNameWithNoTooltip]",
@@ -297,7 +297,7 @@
  },
  "castilian_civil_war.1025.desc": {
   "en": "Married to [alfonso_scope.GetName] from the age of 15, the relationship between [maria_scope.GetName] and [alfonso_scope.GetHerHim] has been nothing but unhappy. The [from_country.GetAdjective] ruler found [alfonso_scope.GetHerHis] love in the arms of [alfonso_scope.GetHerHis] [leonor_scope.Custom('GetLover')] while [maria_scope.GetShortNameWithNoTooltip] had only [maria_scope.GetHerHis] [target_ruler.GetDaughterSon] for company. However, even [target_ruler.GetSheHe] has proven treacherous in the eyes of the fair [maria_scope.Custom('GetLadyLord')] [maria_scope.GetShortName]. Alas, [maria_scope.GetSheHe], beloved child of [target_country.GetName], has returned to [maria_scope.GetHerHis] home.",
-  "uk": "[maria_scope.GetName] і [alfonso_scope.GetName] одружилися, коли [Select_CString(maria_scope.IsFemale,'їй', 'йому')] було п'ятнадцять років, але стосунки між молодятами не склалися. #L [from_country.GetAdjective][Select_CString(alfonso_scope.IsFemale,'а', 'ий')]#! [Select_CString(alfonso_scope.IsFemale,'королева шукала', 'монарх шукав')] втіхи в обіймах [Select_CString(leonor_scope.IsFemale,'коханки', 'коханця')], тоді як [maria_scope.GetShortNameWithNoTooltip] [Select_CString(maria_scope.IsFemale,'всю', 'всього')] себе [Select_CString(maria_scope.IsFemale,'присвятила', 'присвятив')] [Select_CString(target_ruler.IsFemale,'дочці', 'синові')]. Але й [Select_CString(target_ruler.IsFemale,'вона принесла', 'він приніс')] [Select_CString(maria_scope.IsFemale,'нашій пані', 'нашому панові')] лише розчарування, і сьогодні [maria_scope.GetName], [Select_CString(maria_scope.IsFemale,'улюблена дочка', 'улюблений син')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, повертається додому."
+  "uk": "[maria_scope.GetName] і [alfonso_scope.GetName] одружилися, коли [Select_CString(maria_scope.IsFemale,'їй', 'йому')] було п’ятнадцять років, але стосунки між молодятами не склалися. #L [from_country.GetAdjective][Select_CString(alfonso_scope.IsFemale,'а', 'ий')]#! [Select_CString(alfonso_scope.IsFemale,'королева шукала', 'монарх шукав')] втіхи в обіймах [Select_CString(leonor_scope.IsFemale,'коханки', 'коханця')], тоді як [maria_scope.GetShortNameWithNoTooltip] [Select_CString(maria_scope.IsFemale,'всю', 'всього')] себе [Select_CString(maria_scope.IsFemale,'присвятила', 'присвятив')] [Select_CString(target_ruler.IsFemale,'дочці', 'синові')]. Але й [Select_CString(target_ruler.IsFemale,'вона принесла', 'він приніс')] [Select_CString(maria_scope.IsFemale,'нашій пані', 'нашому панові')] лише розчарування, і сьогодні [maria_scope.GetName], [Select_CString(maria_scope.IsFemale,'улюблена дочка', 'улюблений син')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, повертається додому."
  },
  "castilian_civil_war.1025.title": {
   "en": "[maria_scope.GetNameWithNoTooltip]'s Return",
@@ -413,7 +413,7 @@
  },
  "castilian_civil_war.1035.desc": {
   "en": "While our diplomacy was focused on establishing ties with [target_country.GetName] for the upcoming war against [target_pretender.GetName], it is clear that one state in particular will be interested in joining on either side: [root_country.GetName]. Due to their close alliance with [target_country.GetName], however, the [root_country.GetAdjectiveWithNoTooltip] Crown might see little value in supporting us lest we promise them certain [ShowCultureName('basque')] lands.",
-  "uk": "Поки наші дипломати зайняті переговорами з владою #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, [target_pretender.GetName] продовжує готуватися до війни. Уже зрозуміло, що одна держава точно зацікавлена в нашому конфлікті — це [root_country.GetName]. Однак через тісні зв'язки між нами та #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L]#!#! [root_country.GetAdjectiveWithNoTooltip|l]а корона не бачить особливих підстав надавати нам підтримку, хіба що ми пообіцяємо їй деякі #TOOLTIP:CULTURE,$basque_tt$,X #L баскські#!#! території."
+  "uk": "Поки наші дипломати зайняті переговорами з владою #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, [target_pretender.GetName] продовжує готуватися до війни. Уже зрозуміло, що одна держава точно зацікавлена в нашому конфлікті — це [root_country.GetName]. Однак через тісні зв’язки між нами та #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L]#!#! [root_country.GetAdjectiveWithNoTooltip|l]а корона не бачить особливих підстав надавати нам підтримку, хіба що ми пообіцяємо їй деякі #TOOLTIP:CULTURE,$basque_tt$,X #L баскські#!#! території."
  },
  "castilian_civil_war.1035.title": {
   "en": "An Alliance with [root_country.GetNameWithNoTooltip]?",
@@ -581,7 +581,7 @@
  },
  "castilian_civil_war.202.desc": {
   "en": "$castilian_civil_war.201.desc.common$ Our wretched, [target_country.GetAdjectiveWithNoTooltip] allies have broken their promise, and betrayed the [from_country.GetAdjective] crown! Our obligations to them are no more.",
-  "uk": "$castilian_civil_war.201.desc.common$ Наші так звані союзники порушили свої обіцянки та відвернулися від #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! в годину потреби. У нас більше немає жодних зобов'язань перед ними."
+  "uk": "$castilian_civil_war.201.desc.common$ Наші так звані союзники порушили свої обіцянки та відвернулися від #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! в годину потреби. У нас більше немає жодних зобов’язань перед ними."
  },
  "castilian_civil_war.202.title": {
   "en": "[target_country.GetNameWithNoTooltip] abandons Us!",
@@ -617,7 +617,7 @@
  },
  "castilian_civil_war.301.desc": {
   "en": "$castilian_civil_war.201.desc.common$ The accursed [target_country.GetLongNameWithNoTooltip] honors its alliance with [target_pretender.GetName] and have already sent their support to the rebels.",
-  "uk": "$castilian_civil_war.201.desc.common$ [target_country.GetLongNameWithNoTooltip] виконає свої зобов'язання перед союзником, і [target_pretender.GetName] отримає обіцяну допомогу."
+  "uk": "$castilian_civil_war.201.desc.common$ [target_country.GetLongNameWithNoTooltip] виконає свої зобов’язання перед союзником, і [target_pretender.GetName] отримає обіцяну допомогу."
  },
  "castilian_civil_war.301.desc.gold": {
   "en": "$castilian_civil_war.301.desc$ They have gifted them with a generous pile of gold which should aid the rebels in their war effort!",
@@ -641,7 +641,7 @@
  },
  "castilian_civil_war.302.desc": {
   "en": "$castilian_civil_war.201.desc.common$ Apparently, the cause of [target_pretender.GetName] could not convince the [target_country.GetAdjectiveWithNoTooltip] people. As such, they have decided to remain neutral during our conflict.",
-  "uk": "$castilian_civil_war.201.desc.common$ Як з'ясувалося, [target_pretender.GetName] і [Select_CString(target_pretender.IsFemale,'її', 'його')] претензії на #L [from_country.GetAdjective|l]ий#! престол зовсім не цікавлять [target_country.GetAdjectiveWithNoTooltip|l]их підданих. [target_country.GetNameWithNoTooltip] не бажає втручатися в конфлікт."
+  "uk": "$castilian_civil_war.201.desc.common$ Як з’ясувалося, [target_pretender.GetName] і [Select_CString(target_pretender.IsFemale,'її', 'його')] претензії на #L [from_country.GetAdjective|l]ий#! престол зовсім не цікавлять [target_country.GetAdjectiveWithNoTooltip|l]их підданих. [target_country.GetNameWithNoTooltip] не бажає втручатися в конфлікт."
  },
  "castilian_civil_war.302.title": {
   "en": "Neutrality of [target_country.GetNameWithNoTooltip]",
@@ -797,7 +797,7 @@
  },
  "ccw_from_country_joins_target_country_in_100yw_issues_tt": {
   "en": "[from_country.GetName] joins [target_country.GetName] in all conflicts connected to the [ShowSituationName('hundred_years_war')]",
-  "uk": "Влада #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! виступить на боці #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! в усіх конфліктах, пов'язаних зі #TOOLTIP:SITUATION,hundred_years_war,X #L Столітньою війною#!#!"
+  "uk": "Влада #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! виступить на боці #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! в усіх конфліктах, пов’язаних зі #TOOLTIP:SITUATION,hundred_years_war,X #L Столітньою війною#!#!"
  },
  "ccw_hire_mercs_tt": {
   "en": "[THIS.GetCountry.GetName] hires the [mercenaries|e] of [target_country.GetName]",

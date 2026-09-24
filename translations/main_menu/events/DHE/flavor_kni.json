@@ -29,7 +29,7 @@
  },
  "flavor_kni.100.desc": {
   "en": "A band of legendary knights, their metal tested in the fiery pits of battlefields across the Mediterranean have arrived at our court with a petition at hand. Being driven from the island of [ShowLocationName('rodos')] by [target_rodos_owner.GetLongName], [GetCountry('KNI').GetName] have wandered homeless, seeking a new home to continue their pious defense of our faith until in [GetCurrentYear] the [GetUniqueInternationalOrganization('hre').GetLeaderTitle], [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.GetName], agreed to confer upon them the sovereignty of the island of [ShowLocationName('malta')], pending our approval.",
-  "uk": "Загін легендарних лицарів, чиї мечі були загартовані в жорстоких битвах по всьому Середземномор'ю, прибув до нашого двору з проханням. Після того, як [target_rodos_owner.GetLongName] [Select_CString(target_rodos_owner.IsFemale, 'вигнала', 'вигнав')] їх з #TOOLTIP:LOCATION,rodos_tt,X #L Родоса#!#!, [GetCountry('KNI').GetName] мандрували світом у пошуках нового дому, плекаючи надію знову стати благородними захисниками нашої віри. Нарешті в [GetCurrentYear] році [GetUniqueInternationalOrganization('hre').GetLeaderTitle] [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.GetName] [Select_CString(GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.IsFemale, 'погодилася', 'погодився')] пожалувати їм острів [ShowLocationName('malta')], але лише з нашої згоди."
+  "uk": "Загін легендарних лицарів, чиї мечі були загартовані в жорстоких битвах по всьому Середземномор’ю, прибув до нашого двору з проханням. Після того, як [target_rodos_owner.GetLongName] [Select_CString(target_rodos_owner.IsFemale, 'вигнала', 'вигнав')] їх з #TOOLTIP:LOCATION,rodos_tt,X #L Родоса#!#!, [GetCountry('KNI').GetName] мандрували світом у пошуках нового дому, плекаючи надію знову стати благородними захисниками нашої віри. Нарешті в [GetCurrentYear] році [GetUniqueInternationalOrganization('hre').GetLeaderTitle] [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.GetName] [Select_CString(GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.IsFemale, 'погодилася', 'погодився')] пожалувати їм острів [ShowLocationName('malta')], але лише з нашої згоди."
  },
  "flavor_kni.100.title": {
   "en": "[GetCountry('KNI').GetNameWithNoTooltip]",
@@ -53,7 +53,7 @@
  },
  "flavor_kni.1000.historical_info": {
   "en": "In 1651, under the leadership of Grand Master Giovanni Paolo Lascaris, the Knights Hospitaller expanded their influence beyond the Mediterranean by purchasing several Caribbean islands from the French #italic Compagnie des Îles de l'Amérique#!. These included Saint Christopher, Saint Martin, Saint Barthélemy, and Saint Croix. However, the Order struggled to maintain its foothold due to logistical difficulties, financial burdens, and threats from rival European powers. Ultimately, in 1665, the Knights sold their Caribbean holdings back to the French.",
-  "uk": "У 1651 році Орден госпітальєрів, очолюваний тоді великим магістром Джованні Паоло Ласкарісом, зумів поширити свій вплив за межі Середземномор'я: лицарі придбали у французької #italic Compagnie des Îles de l'Amérique#! кілька островів у Карибському морі — Сент-Крістофер, Сен-Мартен, Сен-Бартельмі та Сен-Круа. Однак закріпитися на них виявилося дуже важко: окрім складнощів із постачанням орден зіткнувся з фінансовими труднощами й загрозами з боку європейських держав — суперниць. У 1665 році лицарі були змушені продати свої володіння на Карибах назад."
+  "uk": "У 1651 році Орден госпітальєрів, очолюваний тоді великим магістром Джованні Паоло Ласкарісом, зумів поширити свій вплив за межі Середземномор’я: лицарі придбали у французької #italic Compagnie des Îles de l'Amérique#! кілька островів у Карибському морі — Сент-Крістофер, Сен-Мартен, Сен-Бартельмі та Сен-Круа. Однак закріпитися на них виявилося дуже важко: окрім складнощів із постачанням орден зіткнувся з фінансовими труднощами й загрозами з боку європейських держав — суперниць. У 1665 році лицарі були змушені продати свої володіння на Карибах назад."
  },
  "flavor_kni.1000.title": {
   "en": "Expanding the [ShowRegionNameWithNoTooltip('caribbean_region')] Possessions",
@@ -69,7 +69,7 @@
  },
  "flavor_kni.1001.desc": {
   "en": "An unexpected request has arrived from [from_country.GetName]. Though known primarily for their defense of the Mediterranean, they now seek to establish a foothold in the New World. Their offer is simple: they wish to purchase one of our [ShowRegionName('caribbean_region')] holdings, namely [target_location.GetName], in order to expand their mission.",
-  "uk": "Ми отримали несподівану пропозицію від #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! — відомого захисника Середземномор'я, що прагне сьогодні закріпитися в Новому Світі. Пропозиція дуже проста: нас просять продати одне з наших #TOOLTIP:REGION,caribbean_region,X #L карибських#!#! володінь, а саме — [target_location.GetName]."
+  "uk": "Ми отримали несподівану пропозицію від #ONCLICK:COUNTRY,[from_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from_country.Custom('CL_tt')],X [from_country.Custom('CL_GEN')|L]#!#! — відомого захисника Середземномор’я, що прагне сьогодні закріпитися в Новому Світі. Пропозиція дуже проста: нас просять продати одне з наших #TOOLTIP:REGION,caribbean_region,X #L карибських#!#! володінь, а саме — [target_location.GetName]."
  },
  "flavor_kni.1001.title": {
   "en": "An Offer from [from_country.GetNameWithNoTooltip]",
@@ -113,7 +113,7 @@
  },
  "flavor_kni.1003.desc": {
   "en": "Our offer has been met with refusal. [target_country.GetName] has deemed [target_location.GetName] too valuable to part with, leaving our plans for a New World crusade unfulfilled. Though some among us argue that we should continue seeking another opportunity, others see this as a sign that our focus should remain on the Mediterranean.",
-  "uk": "Відповіддю на нашу пропозицію стала відмова: [target_country.GetName] вважає, що [target_location.GetName] — занадто важлива територія, щоб із нею розлучатися. Серед братів почалися розбіжності: хтось вважає, що ще зарано відмовлятися від задуму влаштувати хрестовий похід у Новий Світ і варто пошукати іншу можливість, інші ж стверджують, що нам дали знак і далі обороняти Середземномор'я."
+  "uk": "Відповіддю на нашу пропозицію стала відмова: [target_country.GetName] вважає, що [target_location.GetName] — занадто важлива територія, щоб із нею розлучатися. Серед братів почалися розбіжності: хтось вважає, що ще зарано відмовлятися від задуму влаштувати хрестовий похід у Новий Світ і варто пошукати іншу можливість, інші ж стверджують, що нам дали знак і далі обороняти Середземномор’я."
  },
  "flavor_kni.1003.entry": {
   "en": "$flavor_kni.1003.title$",
@@ -173,7 +173,7 @@
  },
  "flavor_kni.111.desc": {
   "en": "The past centuries in the [ShowAreaName('levant_area')] have been coated in blood, dust, and sweat as we struggled to wrestle control of the Holy Land from our [ShowReligionGroupAdjective('muslim')] foes. Despite our failures, our deeds have been immortalized in history and serve as an inspiration to many prospecting knights and warriors who wish to take up the cause. As such, [GetCountry('KNI').GetName] has approached us with the proposition of sponsoring a renewed Crusade, a new bid to reclaim what is rightfully ours.",
-  "uk": "Останні століття в #TOOLTIP:AREA,levant_area,X #L Леванті#!#! пропахли потом, кров'ю та пилом: ми невпинно билися з нашими ворогами-#TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманами#!#! за контроль над Святою землею. Хоча ми припустилися чимало помилок, наші подвиги увійшли в історію, надихнувши багатьох завзятих лицарів і воїнів на продовження нашої справи. [GetCountry('KNI').GetName] пропонує нам профінансувати новий хрестовий похід, під час якого ми отримаємо ще один шанс повернути те, що по праву належить нам."
+  "uk": "Останні століття в #TOOLTIP:AREA,levant_area,X #L Леванті#!#! пропахли потом, кров’ю та пилом: ми невпинно билися з нашими ворогами-#TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманами#!#! за контроль над Святою землею. Хоча ми припустилися чимало помилок, наші подвиги увійшли в історію, надихнувши багатьох завзятих лицарів і воїнів на продовження нашої справи. [GetCountry('KNI').GetName] пропонує нам профінансувати новий хрестовий похід, під час якого ми отримаємо ще один шанс повернути те, що по праву належить нам."
  },
  "flavor_kni.111.title": {
   "en": "The Knights' Renewal of the Crusades",
@@ -253,7 +253,7 @@
  },
  "flavor_kni.121.desc": {
   "en": "[target_location.GetName] is an island in a very advantageous position. Its proximity to the coast of [target_location.GetRegion.GetName] elevates it to a valuable anchorage for our naval activities across the neighboring coasts. At the same time, serving as a passage between East and West, many merchants from abroad have sought to make [target_location.GetNameWithNoTooltip] a stop in their voyages to and from the Near East.",
-  "uk": "Острів [target_location.GetName] має дуже вдале розташування. Завдяки своїй близькості до #L [target_location.GetRegion.GetAdjective]ого#! узбережжя він служить важливою стратегічною точкою в наших військово-морських операціях уздовж сусідніх берегів. Водночас він пов'язує між собою схід і захід, і багато закордонних купців використовують його як зупинку в подорожах на Близький Схід і назад."
+  "uk": "Острів [target_location.GetName] має дуже вдале розташування. Завдяки своїй близькості до #L [target_location.GetRegion.GetAdjective]ого#! узбережжя він служить важливою стратегічною точкою в наших військово-морських операціях уздовж сусідніх берегів. Водночас він пов’язує між собою схід і захід, і багато закордонних купців використовують його як зупинку в подорожах на Близький Схід і назад."
  },
  "flavor_kni.121.entry": {
   "en": "Naval Business in Rhodes",
@@ -349,7 +349,7 @@
  },
  "flavor_kni.14.historical_info": {
   "en": "Giovanni Paolo Lascaris served as Grand Master of the Knights Hospitaller from 1636 to 1657. His rule was marked by efforts to reinforce Mediterranean fortifications to ensure proper defense against the Ottomans. Lascaris also skillfully managed diplomatic relations, securing financial aid from European monarchs to support the Order's activities. His rule strengthened the Order's position in the Mediterranean, though he also faced internal struggles regarding the administration of the Order's overseas possessions.",
-  "uk": "Джованні Паоло Ласкаріс з 1636 по 1657 рр. обіймав посаду великого магістра Ордену госпітальєрів. Займався зміцненням оборони ордену на Середземному морі, щоб місцеві брати були в змозі відбитися від османів. Крім того, Ласкаріс був умілим дипломатом і зміг домогтися фінансової допомоги ордену від кількох європейських монархів. Завдяки йому госпітальєри зміцнили свої позиції на Середземномор'ї, однак не обійшлося й без міжусобиць щодо управління заморськими володіннями ордену."
+  "uk": "Джованні Паоло Ласкаріс з 1636 по 1657 рр. обіймав посаду великого магістра Ордену госпітальєрів. Займався зміцненням оборони ордену на Середземному морі, щоб місцеві брати були в змозі відбитися від османів. Крім того, Ласкаріс був умілим дипломатом і зміг домогтися фінансової допомоги ордену від кількох європейських монархів. Завдяки йому госпітальєри зміцнили свої позиції на Середземномор’ї, однак не обійшлося й без міжусобиць щодо управління заморськими володіннями ордену."
  },
  "flavor_kni.14.title": {
   "en": "[target_character.GetNameWithNoTooltip]",
@@ -365,7 +365,7 @@
  },
  "flavor_kni.15.desc": {
   "en": "Bands of [ShowCultureName('carib')] warriors have launched devastating raids on [target_location.GetName], pillaging homes, burning crops, and slaughtering many of our people. These fierce warriors have long resisted European encroachment, and their attacks have left our island holdings in turmoil. Some within our [ROOT.GetCountry.GetFlavorRank] argue that responding with force would only escalate the bloodshed and provoke even fiercer retaliation. Others insist that we must strike back, raiding their villages to ensure they can no longer threaten our settlements.",
-  "uk": "#TOOLTIP:CULTURE,carib_culture_tt,X #L Калінагські#!#! воїни влаштували низку жорстоких нальотів на район [target_location.GetName]. Вони розорюють наші домівки, спалюють посіви й убивають поселенців. Ці нещадні аборигени вже довго чинять опір спробам європейців заселити острови, і тепер наших підданих охопило справжнє сум'яття. Дехто стверджує, що якщо [ROOT.GetCountry.GetFlavorRank|l] відповість силою, то кровопролиття лише посилиться, а відповідні нальоти стануть ще нещаднішими. Інші ж наполягають, що необхідно завдати удару у відповідь по селах аборигенів, щоб усунути загрозу нашим поселенням."
+  "uk": "#TOOLTIP:CULTURE,carib_culture_tt,X #L Калінагські#!#! воїни влаштували низку жорстоких нальотів на район [target_location.GetName]. Вони розорюють наші домівки, спалюють посіви й убивають поселенців. Ці нещадні аборигени вже довго чинять опір спробам європейців заселити острови, і тепер наших підданих охопило справжнє сум’яття. Дехто стверджує, що якщо [ROOT.GetCountry.GetFlavorRank|l] відповість силою, то кровопролиття лише посилиться, а відповідні нальоти стануть ще нещаднішими. Інші ж наполягають, що необхідно завдати удару у відповідь по селах аборигенів, щоб усунути загрозу нашим поселенням."
  },
  "flavor_kni.15.entry": {
   "en": "Natives Attack Our Colonies",
@@ -441,7 +441,7 @@
  },
  "flavor_kni.16.historical_info": {
   "en": "As the Knights Hospitaller settled on Malta, they faced increasing economic difficulties. Their traditional sources of income dwindled, and the financial burdens of maintaining a fleet to patrol the Mediterranean grew heavier. In response, many turned to privateering, raiding Muslim merchant ships under the guise of defending Christendom. Over time, some knights took this further, embracing piracy as a way of life, living in luxury off their plunder, and even joining the navies of France and Spain in search of wealth and adventure.",
-  "uk": "Під час освоєння Мальти лицарі Ордену госпітальєрів зіткнулися зі значними фінансовими труднощами: колишні джерела доходу вичерпувалися, а витрати на підтримання сторожових кораблів у Середземномор'ї лише зростали. Багато госпітальєрів перейшли до каперства й почали грабувати кораблі торговців-мусульман під приводом захисту християнського світу. Згодом обстановка лише погіршилася, і деякі лицарі остаточно перетворилися на піратів, що живуть на награбовану здобич. Хтось із них поповнив лави моряків французького та іспанського флотів, що обіцяли багате й насичене життя."
+  "uk": "Під час освоєння Мальти лицарі Ордену госпітальєрів зіткнулися зі значними фінансовими труднощами: колишні джерела доходу вичерпувалися, а витрати на підтримання сторожових кораблів у Середземномор’ї лише зростали. Багато госпітальєрів перейшли до каперства й почали грабувати кораблі торговців-мусульман під приводом захисту християнського світу. Згодом обстановка лише погіршилася, і деякі лицарі остаточно перетворилися на піратів, що живуть на награбовану здобич. Хтось із них поповнив лави моряків французького та іспанського флотів, що обіцяли багате й насичене життя."
  },
  "flavor_kni.16.title": {
   "en": "The Knights Turn to Piracy",
@@ -561,7 +561,7 @@
  },
  "flavor_kni.2002.desc": {
   "en": "Our offer has been accepted, and we have officially transferred control of our [ShowRegionName('caribbean_region')] possessions to [target_country.GetName]. The payment we have received will go a long way in strengthening our financial standing, allowing us to better maintain our presence in the Mediterranean and our core holdings.",
-  "uk": "На нашу пропозицію відповіли згодою. Ми передали #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! владу над #TOOLTIP:REGION,caribbean_region,X #L Карибами#!#!, відобразивши це й у документах. Гроші, виручені за продаж, підуть на зміцнення нашого становища — тепер захищати Середземномор'я й наші головні володіння буде простіше."
+  "uk": "На нашу пропозицію відповіли згодою. Ми передали #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! владу над #TOOLTIP:REGION,caribbean_region,X #L Карибами#!#!, відобразивши це й у документах. Гроші, виручені за продаж, підуть на зміцнення нашого становища — тепер захищати Середземномор’я й наші головні володіння буде простіше."
  },
  "flavor_kni.2002.title": {
   "en": "[target_country.GetNameWithNoTooltip] Purchases Our Colonies",
@@ -577,7 +577,7 @@
  },
  "flavor_kni.2003.desc": {
   "en": "Despite our offer, [target_country.GetName] has declined to purchase our [ShowRegionName('caribbean_region')] islands. It seems they do not see enough value in acquiring these distant holdings or are unwilling to invest the necessary resources. For now, we remain the rulers of these islands, though the financial burden of their upkeep remains a pressing issue.",
-  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! не погодилася купити наші #TOOLTIP:REGION,caribbean_region,X #L Карибські#!#! острови. Вони або вважають ці далекі володіння недостатньо цінними, або просто не бажають вкладати кошти в їхнє утримання. Поки що влада над островами залишається в нас — так само як і фінансовий тягар, нерозривно пов'язаний з їхнім утриманням."
+  "uk": "Влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! не погодилася купити наші #TOOLTIP:REGION,caribbean_region,X #L Карибські#!#! острови. Вони або вважають ці далекі володіння недостатньо цінними, або просто не бажають вкладати кошти в їхнє утримання. Поки що влада над островами залишається в нас — так само як і фінансовий тягар, нерозривно пов’язаний з їхнім утриманням."
  },
  "flavor_kni.2003.title": {
   "en": "[target_country.GetNameWithNoTooltip] Declines the Offer",
@@ -701,7 +701,7 @@
  },
  "kni_receive_stronger_events_about_building_capital_tt": {
   "en": " Potential events about the development of our capital will be more potent",
-  "uk": "Подальші події, пов'язані з розвитком нашої столиці, стануть ефективнішими."
+  "uk": "Подальші події, пов’язані з розвитком нашої столиці, стануть ефективнішими."
  },
  "lose_100_opinion_with_pope_tt": {
   "en": "Relations between us and the [target_pope_country.GetName] will deteriorate by #R -100#!",

@@ -461,7 +461,7 @@
  },
  "GHIBELLINES_PROGRESS_TOOLTIP_CONTEXT": {
   "en": "The [GetUniqueInternationalOrganization('ghibellines_io').GetName] gain #Y Progress#! through the fraction of the total [tax_base|e] of all members.\\n\\nCurrent monthly progress: [GetUniqueInternationalOrganization('ghibellines_io').GetVariable('ghibellines_progress_monthly')|V2%]",
-  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,ghibellines_io,X #L Гібеліни#!#! отримують #Y прогрес#! у вигляді частки від загальної [Concept('tax_base','податкової бази')|e] всіх учасників свого об'єднання.\\n\\nПоточний щомісячний прогрес: [GetUniqueInternationalOrganization('ghibellines_io').GetVariable('ghibellines_progress_monthly')|V2%]"
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,ghibellines_io,X #L Гібеліни#!#! отримують #Y прогрес#! у вигляді частки від загальної [Concept('tax_base','податкової бази')|e] всіх учасників свого об’єднання.\\n\\nПоточний щомісячний прогрес: [GetUniqueInternationalOrganization('ghibellines_io').GetVariable('ghibellines_progress_monthly')|V2%]"
  },
  "GHIBELLINES_PROGRESS_TOOLTIP_TEXT": {
   "en": "#Y Current Progress: [GetUniqueInternationalOrganization('ghibellines_io').GetVariable('ghibellines_progress')|V2%]#!",
@@ -481,7 +481,7 @@
  },
  "GUELPHS_PROGRESS_TOOLTIP_CONTEXT": {
   "en": "The [GetUniqueInternationalOrganization('guelphs_io').GetName] gain #Y Progress#! through the fraction of the total [tax_base|e] of all members.\\n\\nCurrent monthly progress: [GetUniqueInternationalOrganization('guelphs_io').GetVariable('guelphs_progress_monthly')|V2%]",
-  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,guelphs_io,X #L Гвельфи#!#! отримують #Y прогрес#! у вигляді частки від загальної [Concept('tax_base','податкової бази')|e] всіх учасників свого об'єднання.\\n\\nПоточний щомісячний прогрес: [GetUniqueInternationalOrganization('guelphs_io').GetVariable('guelphs_progress_monthly')|V2%]"
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,guelphs_io,X #L Гвельфи#!#! отримують #Y прогрес#! у вигляді частки від загальної [Concept('tax_base','податкової бази')|e] всіх учасників свого об’єднання.\\n\\nПоточний щомісячний прогрес: [GetUniqueInternationalOrganization('guelphs_io').GetVariable('guelphs_progress_monthly')|V2%]"
  },
  "GUELPHS_PROGRESS_TOOLTIP_TEXT": {
   "en": "#Y Current Progress: [GetUniqueInternationalOrganization('guelphs_io').GetVariable('guelphs_progress')|V2%]#!",
@@ -1221,7 +1221,7 @@
  },
  "RTR_GRAPH_FLAVOR_CHINA_TT": {
   "en": "#italic [GetCountry('CHI').GetName] is always the antagonist of the [GetInternationalOrganizationType('red_turban_rebels').GetName]#!",
-  "uk": "#italic [GetCountry('CHI').GetName] завжди буде противником #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!.#!"
+  "uk": "#italic [GetCountry('CHI').GetName] завжди буде противником #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов’язок»#!#!.#!"
  },
  "RTR_GRAPH_FLAVOR_REBEL_TT": {
   "en": "#italic The strongest of the [GetUniqueInternationalOrganization('red_turban_rebels').GetName] is determined by the military strength of the members on a monthly basis. Whoever has the highest military strength automatically becomes the warlord#!",
@@ -1277,7 +1277,7 @@
  },
  "RTR_SITUATION_TOOLTIP": {
   "en": "Every country released during this situation has a predefined #Y $rtr_yuan_allegiance$#! value which reflects their loyalty towards [GetCountry('CHI').GetName]. When below #R 0.00%#!, these states will join the [GetInternationalOrganizationType('red_turban_rebels').GetName]. Warring states that have over #Y 0.00%#! $rtr_yuan_allegiance$ will be neutral instead, while those with over #G 50.00%#! count as loyal",
-  "uk": "У кожної держави, звільненої під час цієї ситуації, є заздалегідь заданий показник #Y відданості Юаню#!, що відображає вірність #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_DP')|L]#!#!. Коли показник опускається нижче #R 0,00%#!, держава приєднується до #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!. Держави з відданістю Юаню понад #Y 0,00%#! будуть нейтральними, а ті, у кого показник вище #G 50,00%#!, вважаються лояльними."
+  "uk": "У кожної держави, звільненої під час цієї ситуації, є заздалегідь заданий показник #Y відданості Юаню#!, що відображає вірність #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_DP')|L]#!#!. Коли показник опускається нижче #R 0,00%#!, держава приєднується до #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов’язок»#!#!. Держави з відданістю Юаню понад #Y 0,00%#! будуть нейтральними, а ті, у кого показник вище #G 50,00%#!, вважаються лояльними."
  },
  "RTR_STRONGEST_REBEL": {
   "en": "Strongest Rebel Warlord [THIS.GetLocation.GetOwner.GetName] ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)",
@@ -1285,7 +1285,7 @@
  },
  "RTR_STRONGEST_REBEL_TITLE": {
   "en": "The Greatest Red Turban Threat",
-  "uk": "Найгрізніша «Червона пов'язка»"
+  "uk": "Найгрізніша «Червона пов’язка»"
  },
  "RTR_YUAN_VICTORY": {
   "en": "[GetCountry('CHI').GetAdjectiveWithNoTooltip] Victory",
@@ -1593,7 +1593,7 @@
  },
  "WAR_OF_RELIGIONS_TOOLTIP": {
   "en": "In order to end the [SituationView.GetActiveSituation.GetSituation.GetName], either the [GetUniqueInternationalOrganization('protestant_union').GetName] or the [GetUniqueInternationalOrganization('catholic_league').GetName] must claim hegemony in the [GetUniqueInternationalOrganization('hre').GetName] by enforcing their [ShowPeaceTreatyTypeName('religious_supremacy')] through the [ShowCasusBelliName('cb_religious_superiority')] [war|e].\\n\\nThe #Y Peace of Westphalia#! is achieved instead when #Y 80%#! of all participants desire [peace|e]",
-  "uk": "[SituationView.GetActiveSituation.GetSituation.GetName] закінчиться, якщо #TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_tt,X #L Євангелічна унія#!#! або #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_tt,X #L Католицька ліга#!#! домовляться гегемонії в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!, нав'язавши #TOOLTIP:SCRIPTED_PEACE_TREATY,religious_supremacy,X #L релігійне панування#!#! в [Concept('war', 'війні')|e] з приводом «[ShowCasusBelliName('cb_religious_superiority')]».\\n\\n#Y Вестфальський мир#! буде підписано, коли #Y 80%#! учасників запросять [Concept('peace', 'миру')|e]."
+  "uk": "[SituationView.GetActiveSituation.GetSituation.GetName] закінчиться, якщо #TOOLTIP:INTERNATIONAL_ORGANIZATION,protestant_union_tt,X #L Євангелічна унія#!#! або #TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_league_tt,X #L Католицька ліга#!#! домовляться гегемонії в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!, нав’язавши #TOOLTIP:SCRIPTED_PEACE_TREATY,religious_supremacy,X #L релігійне панування#!#! в [Concept('war', 'війні')|e] з приводом «[ShowCasusBelliName('cb_religious_superiority')]».\\n\\n#Y Вестфальський мир#! буде підписано, коли #Y 80%#! учасників запросять [Concept('peace', 'миру')|e]."
  },
  "WAR_OF_RELIGIONS_VOTES_TITLE": {
   "en": "[VoteTargetGlue.GetVoterCount|V0] [VoteTargetGlue.GetVoteTarget.GetCountry.Custom('GetWarOfReligionsPosition')]",
@@ -2097,7 +2097,7 @@
  },
  "england_has_enforced_union_through_claim_french_throne_treaty_tt": {
   "en": "[GetCountry('ENG').GetName] has enforced the [ShowPeaceTreatyTypeName('claim_french_throne')] [peace_treaty|e]",
-  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#! нав'язала [Concept('peace_treaty','мирний договір')|e] «[ShowPeaceTreatyTypeName('claim_french_throne')]»"
+  "uk": "Влада #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#! нав’язала [Concept('peace_treaty','мирний договір')|e] «[ShowPeaceTreatyTypeName('claim_french_throne')]»"
  },
  "establish_italian_administration_center": {
   "en": "Establish Italian Administration Center",
@@ -2145,7 +2145,7 @@
  },
  "exchange_location_for_guarantee_marriage_alliance_tt": {
   "en": "We will make them a proposal to exchange [target_2.GetName] for closer diplomatic ties and an [alliance|e]",
-  "uk": "Ми запропонуємо обміняти [target_2.Custom('LR_ACC')|l] [target_2.GetName] на тісніші дипломатичні зв'язки та [Concept('alliance','союз')|e]"
+  "uk": "Ми запропонуємо обміняти [target_2.Custom('LR_ACC')|l] [target_2.GetName] на тісніші дипломатичні зв’язки та [Concept('alliance','союз')|e]"
  },
  "expand_provincial_food_production": {
   "en": "Expand Provincial Food Production",
@@ -2249,7 +2249,7 @@
  },
  "fall_of_delhi_reaffirm_vassal_relations_desc": {
   "en": "Our position and wealth may be under threat, but we must remind those who bow their head to us who their overlord is. By demanding tribute and holding delegations of their rulers, we will reaffirm and bolster the relations between us and our subservient vassals.",
-  "uk": "Наше становище хитке, а скарбниця загрожує от-от спорожніти, однак наш обов'язок — нагадати леникам, перед ким вони схиляють коліно. Зажадавши данину і прийнявши у себе їхніх правителів, ми сприятимемо зміцненню відносин між лениками і сюзереном."
+  "uk": "Наше становище хитке, а скарбниця загрожує от-от спорожніти, однак наш обов’язок — нагадати леникам, перед ким вони схиляють коліно. Зажадавши данину і прийнявши у себе їхніх правителів, ми сприятимемо зміцненню відносин між лениками і сюзереном."
  },
  "fall_of_delhi_resolution": {
   "en": "Fall of Delhi",
@@ -2477,7 +2477,7 @@
  },
  "has_relevant_event_to_the_disaster_tt": {
   "en": "Is currently resolving an [event|e] that is relevant to this [disaster|e]",
-  "uk": "Зараз робить вибір у [Concept('event', 'події')|e], пов'язаній з цим [Concept('disaster','лихом')|e]"
+  "uk": "Зараз робить вибір у [Concept('event', 'події')|e], пов’язаній з цим [Concept('disaster','лихом')|e]"
  },
  "has_timurids_stagnate_tt": {
   "en": "[GetCountry('TIM').GetName] have either a [ruler|e] with less than #Y 150#! points in the [abilities|e], OR has neither a ruler nor an [heir|e]",
@@ -2517,11 +2517,11 @@
  },
  "hyw_sign_truce": {
   "en": "Sign a Truce",
-  "uk": "Підписання перемир'я"
+  "uk": "Підписання перемир’я"
  },
  "hyw_sign_truce_desc": {
   "en": "Though pride calls for victory, prudence may demand restraint. It is time to seek terms with our enemy, if only to catch our breath and prepare for what lies ahead.",
-  "uk": "Гордість вимагає йти до переможного кінця, але розсудливість підказує, що краще проявити стриманість і піти на перемир'я з ворогом — хоча б заради того, щоб зробити передишку і підготуватися до наступного кроку."
+  "uk": "Гордість вимагає йти до переможного кінця, але розсудливість підказує, що краще проявити стриманість і піти на перемир’я з ворогом — хоча б заради того, щоб зробити передишку і підготуватися до наступного кроку."
  },
  "hyw_will_soon_fire_tt": {
   "en": "The [ShowSituationName('hundred_years_war')] [situation|e] may soon commence",
@@ -2569,7 +2569,7 @@
  },
  "invade_neighbor_beylik_desc": {
   "en": "Despite our neighbors subscribing to the same faith as us, many have failed to apply the teachings of our creed to their administration. This has resulted in an unstable and dangerous rule. We must intervene and bring peace!\\n",
-  "uk": "Наші сусіди сповідують ту саму віру, що і ми, однак мало хто виявився здатним впровадити основи цього віровчення в управління державою. Такі правителі непередбачувані та небезпечні. Ми зобов'язані вторгнутися і принести їм мир!\\n"
+  "uk": "Наші сусіди сповідують ту саму віру, що і ми, однак мало хто виявився здатним впровадити основи цього віровчення в управління державою. Такі правителі непередбачувані та небезпечні. Ми зобов’язані вторгнутися і принести їм мир!\\n"
  },
  "invade_neighbor_beylik_price": {
   "en": "Invade Neighboring Beylik Price",
@@ -2753,7 +2753,7 @@
  },
  "little_ice_age_desc": {
   "en": "The bone-chilling cold of the Little Ice Age tests our resilience, forcing our leader to adapt or watch their domain descend into frozen hell. Whether through careful governance or sheer survival instinct, history will remember those who make it through this time of great hardship.",
-  "uk": "Похолодання, викликане малим льодовиковим періодом, — важке випробування для нашого народу. Правителі можуть пристосуватися до суворих умов або безпорадно спостерігати, як їхні землі переживають важкі часи. Історія запам'ятає тих, хто пережив це випробування за рахунок вмілого управління — або просто завдяки волі до життя."
+  "uk": "Похолодання, викликане малим льодовиковим періодом, — важке випробування для нашого народу. Правителі можуть пристосуватися до суворих умов або безпорадно спостерігати, як їхні землі переживають важкі часи. Історія запам’ятає тих, хто пережив це випробування за рахунок вмілого управління — або просто завдяки волі до життя."
  },
  "locations_in_designated_market_get_enforced_rationing_policy_tt": {
   "en": "Every [province_capital|e] that we own in the designated [market|e] will gain [ShowModifier('enforced_rationing_policy')] for #Y 10#! years",
@@ -2777,7 +2777,7 @@
  },
  "matter_of_robert_is_settled_tt": {
   "en": "The matter of the fugitive [GetCharacter('eng_robert_iii_artois').GetName] has been settled",
-  "uk": "Улагоджено питання, що стосується втікача на ім'я [GetCharacter('eng_robert_iii_artois').GetName]"
+  "uk": "Улагоджено питання, що стосується втікача на ім’я [GetCharacter('eng_robert_iii_artois').GetName]"
  },
  "member_of_a_league_already": {
   "en": "Already [member|e] of an $italian_group$ League",
@@ -2853,7 +2853,7 @@
  },
  "no_link_exchange_location_for_guarantee_marriage_alliance_tt": {
   "en": "We will make them a proposal to gift us a [location|e] and a [royal_marriage|e] in exchange for closer diplomatic ties and an [alliance|e]",
-  "uk": "Ми запропонуємо подарувати нам [Concept('location','район')|e] і укласти [Concept('royal_marriage','династичний шлюб')|e] в обмін на тісніші дипломатичні зв'язки та [Concept('alliance','союз')|e]"
+  "uk": "Ми запропонуємо подарувати нам [Concept('location','район')|e] і укласти [Concept('royal_marriage','династичний шлюб')|e] в обмін на тісніші дипломатичні зв’язки та [Concept('alliance','союз')|e]"
  },
  "no_location_is_capital_tt": {
   "en": "@trigger_no! No [location|e] in the selected [province|e] is our [capital|e]",
@@ -2929,7 +2929,7 @@
  },
  "pap_will_be_asked_to_enforce_wp_tt": {
   "en": "The [GetCountry('PAP').GetLongName] will be asked to enforce a [white_peace|e] between [GetCountry('FRA').GetName] and [GetCountry('ENG').GetName]",
-  "uk": "Державу [GetCountry('PAP').GetLongName] попросять нав'язати [Concept('white_peace','мир на умовах «статус-кво»')|e] між #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_INST')|L]#!#! і #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_INST')|L]#!#!"
+  "uk": "Державу [GetCountry('PAP').GetLongName] попросять нав’язати [Concept('white_peace','мир на умовах «статус-кво»')|e] між #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_INST')|L]#!#! і #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_INST')|L]#!#!"
  },
  "plan_campaign_in_italy": {
   "en": "Campaign in Italy",
@@ -2945,11 +2945,11 @@
  },
  "press_claims": {
   "en": "Press Claims",
-  "uk": "Нав'язування претензій"
+  "uk": "Нав’язування претензій"
  },
  "press_claims_desc": {
   "en": "[ShowRegionName('anatolia_region')] is under threat by outside forces. The remnants of the once-great empires that ruled these lands vie futilely for power. It is up to us to unite them all under #italic our#! banner!",
-  "uk": "Ще трохи — і #TOOLTIP:REGION,anatolia_region,X #L Анатолія#!#! впаде жертвою вторгнення інших держав. Пережитки колись великих імперій, що правили цими краями, тепер гризуться за владу. Об'єднати їх під одним прапором можемо тільки ми!"
+  "uk": "Ще трохи — і #TOOLTIP:REGION,anatolia_region,X #L Анатолія#!#! впаде жертвою вторгнення інших держав. Пережитки колись великих імперій, що правили цими краями, тепер гризуться за владу. Об’єднати їх під одним прапором можемо тільки ми!"
  },
  "procure_core_claim": {
   "en": "Procure Core Claim",
@@ -2997,7 +2997,7 @@
  },
  "red_turban_rebellions": {
   "en": "Red Turban Rebellions",
-  "uk": "Повстання «Червоних пов'язок»"
+  "uk": "Повстання «Червоних пов’язок»"
  },
  "red_turban_rebellions_desc": {
   "en": "The [ShowCultureGroupName('chinese_group')] are revolting against their [GetCountry('CHI').GetCulture.GetName] overlords. The rebels have declared the establishment of their independent states, throwing the entirety of [GetCountry('CHI').GetName] into a civil war that threatens to devour the $YUA$ dynasty...",
@@ -3005,7 +3005,7 @@
  },
  "red_turban_rebellions_strongest_red_turban_rebel_tt": {
   "en": "The [GetInternationalOrganizationType('red_turban_rebels').GetName] have a leader who will need to own #Y 65.00%#! of the [locations|e] that are part of the [GetUniqueInternationalOrganization('middle_kingdom').GetName]",
-  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов'язки»#!#! очолює лідер, якому необхідно володіти #Y 65,00%#! [Concept('locations','районів')|e], що входять до #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom,X #L Серединної держави#!#!"
+  "uk": "#TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоні пов’язки»#!#! очолює лідер, якому необхідно володіти #Y 65,00%#! [Concept('locations','районів')|e], що входять до #TOOLTIP:INTERNATIONAL_ORGANIZATION,middle_kingdom,X #L Серединної держави#!#!"
  },
  "reestablish_the_parliament": {
   "en": "Reestablish the Parliament",
@@ -3033,7 +3033,7 @@
  },
  "request_antipiracy_policy_tt": {
   "en": "We will reach out and attempt to persuade them to change their law",
-  "uk": "Ми зв'яжемося з ними і спробуємо переконати їх змінити закон."
+  "uk": "Ми зв’яжемося з ними і спробуємо переконати їх змінити закон."
  },
  "request_location_in_exchange": {
   "en": "Request a [location|e] in exchange",
@@ -3073,7 +3073,7 @@
  },
  "rise_of_the_ottomans_desc": {
   "en": "Driven by a potent combination of ambition, martial skill, and strategic vision, many [ShowCultureName('turkish_culture')] Beyliks carved their own paths through the fragmented realms of [ShowRegionName('anatolia_region')]. Their nomadic origins merged with the sophistication of settled societies, creating a formidable blend of military might and administrative acumen.\\n\\nAs the regional principalities lay divided and vulnerable, the most formidable among them seized the opportunity to unite their ranks under a single banner. Charismatic leaders such as [GetCharacter('tur_osman').GetName], the founder of [GetCountry('TUR').GetName], ignited flames of inspiration that would burn brightly for centuries to come.\\n\\nWith every victory, these Beyliks gather momentum, transforming themselves into a force to be reckoned with. The conquest of vital towns and cities across the region all heralded their inexorable rise.",
-  "uk": "Роздроблена [ShowRegionName('anatolia_region')] прийняла на себе всю міць удару #L [ShowCultureName('turkish_culture')]их#! бейликів, керованих сміливими задумами, нестримною силою та грандіозними планами. Кочовий народ, що осягнув цивілізаційні тонкощі осілого суспільства, виявився здатним породжувати не тільки грізних воїнів, а й умілих керівників.\\n\\nМісцеві князівства, розділені та вразливі, не здатні протистояти своїм сильнішим суперникам, які вловили момент об'єднати роздроблені землі під своїм прапором. [GetCountry('TUR').GetName], дітище великого діяча на ім'я [GetCharacter('tur_osman').GetName], діє в єдиному пориві, який триватиме ще багато століть.\\n\\nКожна перемога — це крок вперед для бейликів, що поступово набирають сили, з якою доведеться рахуватися будь-кому. Покорення знаменитих міст знаменує настання нової епохи — епохи османського тріумфу."
+  "uk": "Роздроблена [ShowRegionName('anatolia_region')] прийняла на себе всю міць удару #L [ShowCultureName('turkish_culture')]их#! бейликів, керованих сміливими задумами, нестримною силою та грандіозними планами. Кочовий народ, що осягнув цивілізаційні тонкощі осілого суспільства, виявився здатним породжувати не тільки грізних воїнів, а й умілих керівників.\\n\\nМісцеві князівства, розділені та вразливі, не здатні протистояти своїм сильнішим суперникам, які вловили момент об’єднати роздроблені землі під своїм прапором. [GetCountry('TUR').GetName], дітище великого діяча на ім’я [GetCharacter('tur_osman').GetName], діє в єдиному пориві, який триватиме ще багато століть.\\n\\nКожна перемога — це крок вперед для бейликів, що поступово набирають сили, з якою доведеться рахуватися будь-кому. Покорення знаменитих міст знаменує настання нової епохи — епохи османського тріумфу."
  },
  "rise_of_the_timur_event_cooldown": {
   "en": "[ROOT.GetVariable('rise_of_the_timur_event_cooldown').GetValue|V0]",
@@ -3113,7 +3113,7 @@
  },
  "rto_press_claims_price": {
   "en": "Press Claims Price",
-  "uk": "Ціна нав'язування претензій"
+  "uk": "Ціна нав’язування претензій"
  },
  "rtr_appease_the_court": {
   "en": "Appease the Court",
@@ -3133,11 +3133,11 @@
  },
  "rtr_call_loyalists_to_arms_ct": {
   "en": "The loyalist joins every active [ShowCasusBelliName('cb_red_turban_rebellions')] [war|e] on the side of [actor.GetName] against the members of [GetInternationalOrganizationType('red_turban_rebels').GetName]",
-  "uk": "Прихильники вступають у всі [Concept('war', 'війни')|e] за допомогою приводу #TOOLTIP:CASUS_BELLI,cb_red_turban_rebellions,X #L «Повстання „Червоних пов'язок\"»#!#! на боці #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_RP')|L]#!#!, виступаючи проти учасників #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов'язок»#!#!."
+  "uk": "Прихильники вступають у всі [Concept('war', 'війни')|e] за допомогою приводу #TOOLTIP:CASUS_BELLI,cb_red_turban_rebellions,X #L «Повстання „Червоних пов’язок\"»#!#! на боці #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_RP')|L]#!#!, виступаючи проти учасників #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,red_turban_rebels,X #L «Червоних пов’язок»#!#!."
  },
  "rtr_call_loyalists_to_arms_desc": {
   "en": "#flavor The lands of [GetCountry('CHI').GetName] burn as the marauding warlords soak the very soil that feeds them in blood. We must call on all those who see themselves loyal to the Celestial Throne to take up arms!#!\\n\\nThe selected [ShowGovernmentReformName('warring_state')] country which is #G loyal#! (equal or more than [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2] $rtr_yuan_allegiance$) towards [actor.GetName] will join [ShowCasusBelliName('cb_red_turban_rebellions')] wars on our side.",
-  "uk": "#flavor Землі #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#! в вогні. Під ногами розбійників стогне земля, що вигодувала тих, хто її топче. Потрібно терміново закликати до зброї тих, хто ще вірний небесному престолу!#!\\n\\nОбрана #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#!, #G вірна#! #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_DP')|L]#!#! (відданість Юаню має бути не менше [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2]), приєднається до наших воєн за допомогою приводу #TOOLTIP:CASUS_BELLI,cb_red_turban_rebellions,X #L «Повстання „Червоних пов'язок\"»#!#!."
+  "uk": "#flavor Землі #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_RP')|L]#!#! в вогні. Під ногами розбійників стогне земля, що вигодувала тих, хто її топче. Потрібно терміново закликати до зброї тих, хто ще вірний небесному престолу!#!\\n\\nОбрана #TOOLTIP:GOVERNMENT_REFORM,warring_state,X #L воююча держава#!#!, #G вірна#! #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_DP')|L]#!#! (відданість Юаню має бути не менше [ShowNamedValue('RTR_IS_LOYAL_VALUE')|+=2]), приєднається до наших воєн за допомогою приводу #TOOLTIP:CASUS_BELLI,cb_red_turban_rebellions,X #L «Повстання „Червоних пов’язок\"»#!#!."
  },
  "rtr_call_loyalists_to_arms_select_country": {
   "en": "Select Loyalist of [GetCountry('CHI').GetNameWithNoTooltip]",
@@ -3145,7 +3145,7 @@
  },
  "rtr_call_loyalists_to_arms_tt": {
   "en": "Every member of the [GetInternationalOrganizationType('red_turban_rebels').GetName] is currently at war with [actor.GetName]",
-  "uk": "Будь-який учасник об'єднання [GetInternationalOrganizationType('red_turban_rebels').GetName] зараз воює з державою [actor.GetName]"
+  "uk": "Будь-який учасник об’єднання [GetInternationalOrganizationType('red_turban_rebels').GetName] зараз воює з державою [actor.GetName]"
  },
  "rtr_declare_independence": {
   "en": "Declare Independence",
@@ -3189,7 +3189,7 @@
  },
  "rtr_join_chinese_defense_desc": {
   "en": "#flavor Although the [ShowSituationName('red_turban_rebellions')] might be an opportunity for us to break away from the [GetCountry('CHI').GetLongName], it is their strength and our diplomatic bond which protects us from foreign threats. As such, we should aim to support the [GetCountry('CHI').GetFlavorRank] in crushing the rebellions.#!",
-  "uk": "#flavor Хоча #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов'язок»#!#! може дати нам можливість звільнитися від держави [GetCountry('CHI').GetLongName], її сила та наші дипломатичні вузи захищають нас від іноземних загроз. А тому ми маємо підтримати [GetCountry('CHI').Custom('CF_VP')|l] і допомогти придушити бунт.#!"
+  "uk": "#flavor Хоча #TOOLTIP:SITUATION,red_turban_rebellions,X #L повстання «Червоних пов’язок»#!#! може дати нам можливість звільнитися від держави [GetCountry('CHI').GetLongName], її сила та наші дипломатичні вузи захищають нас від іноземних загроз. А тому ми маємо підтримати [GetCountry('CHI').Custom('CF_VP')|l] і допомогти придушити бунт.#!"
  },
  "rtr_negotiate_with_rebels": {
   "en": "Negotiate with Rebels",
@@ -3237,7 +3237,7 @@
  },
  "rtr_rekindle_revolt_desc": {
   "en": "#flavor Although we have forged a truce with our tyrannical former overlords, our ambition yearns to fight for the liberation of the Chinese once again!#!\\n",
-  "uk": "#flavor Ми уклали перемир'я з покровителями, що нас гнобили, однак не збираємося відмовлятися від наміру остаточно визволити Китай!#!\\n"
+  "uk": "#flavor Ми уклали перемир’я з покровителями, що нас гнобили, однак не збираємося відмовлятися від наміру остаточно визволити Китай!#!\\n"
  },
  "rtr_support_faction": {
   "en": "Support Faction",
@@ -3265,7 +3265,7 @@
  },
  "seek_relations_with_the_byzantines": {
   "en": "Seek Relations with [GetCountry('BYZ').GetNameWithNoTooltip]",
-  "uk": "Пошук зв'язків з [GetCountry('BYZ').Custom('CL_TP')]"
+  "uk": "Пошук зв’язків з [GetCountry('BYZ').Custom('CL_TP')]"
  },
  "seek_relations_with_the_byzantines_desc": {
   "en": "The [GetCountry('BYZ').GetAdjective] people are what remains of once-powerful Rome. As such, it would be wise to approach them and gain their favor...",
@@ -3281,7 +3281,7 @@
  },
  "select_character_to_marry_into_them": {
   "en": "Select our [character|e] to enter this marriage",
-  "uk": "Вибір нашого [Concept('character','персонажа')|e], який увійде в їхню сім'ю шляхом шлюбу"
+  "uk": "Вибір нашого [Concept('character','персонажа')|e], який увійде в їхню сім’ю шляхом шлюбу"
  },
  "select_market": {
   "en": "Select a [market|e]",
@@ -3325,7 +3325,7 @@
  },
  "sengoku_desc": {
   "en": "It is a time of upheaval. The central authority of the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] has waned, and [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderCountry.GetGovernment.GetRuler.GetHerHis] power to control the different clans diminished. Fueled by their own conflicts, the clans have increased their autonomy and independence, and have become masters of their own territory. Japan will be engulfed in war unless someone is powerful enough to grab the reins of government once again...",
-  "uk": "Настав час великих потрясінь. [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] більше не користується колишнім впливом; інші клани все частіше починають проявляти незалежність. Проходячи через горнило власних чвар, вони поступово беруть владу над своїми землями. Якщо в країні не з'явиться могутній володар, здатний перехопити вожжі правління, Японія поринає у вир війни."
+  "uk": "Настав час великих потрясінь. [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] більше не користується колишнім впливом; інші клани все частіше починають проявляти незалежність. Проходячи через горнило власних чвар, вони поступово беруть владу над своїми землями. Якщо в країні не з’явиться могутній володар, здатний перехопити вожжі правління, Японія поринає у вир війни."
  },
  "side_with_opponent_tt": {
   "en": "Our cardinals will #V oppose#! the Pope in Rome",
@@ -3345,7 +3345,7 @@
  },
  "spread_revolutionary_sentiment_desc": {
   "en": "The struggle of the common folk to break their chains is long and arduous. Frequently, we must look outside our borders and convince foreign powers to embrace our ideals. This is not easy, but it is all in the service of a greater purpose!",
-  "uk": "Боротьба простого народу, якому нема що втрачати, крім своїх ланцюгів, — довгий і важкий процес, якому часто буває потрібна допомога збоку. Ми готові взяти на себе цю відповідальність і підштовхнути іншу державу до прийняття наших ідеалів — в ім'я великої мети!"
+  "uk": "Боротьба простого народу, якому нема що втрачати, крім своїх ланцюгів, — довгий і важкий процес, якому часто буває потрібна допомога збоку. Ми готові взяти на себе цю відповідальність і підштовхнути іншу державу до прийняття наших ідеалів — в ім’я великої мети!"
  },
  "strengthen_neighbor_relations": {
   "en": "Strengthen Relations with Neighbors",
@@ -3569,7 +3569,7 @@
  },
  "war_of_religions_desc": {
   "en": "After several decades of religious strife, dissent over the correct practice of [ShowReligionGroupAdjective('christian')] worship in the [GetInternationalOrganization('hre').GetName] has reached a point where armed conflict between the [GetInternationalOrganizationType('protestant_union').GetName] and [GetInternationalOrganizationType('catholic_league').GetName] seems impossible to avoid. While these organizations of Imperial princes are mainly concerned with the protection of their respective faiths, many leaders in [ShowContinentName('europe')] look at the turbulent Empire with greedy eyes. Whether it be charged with religious fervor or worldly desire, the mightiest powers of [ShowContinentNameWithNoTooltip('europe')] are preparing their armies for a fight, as the peace of the Empire hangs in a delicate balance.",
-  "uk": "Після кількох десятиліть релігійних чвар через прихильність різним течіям #TOOLTIP:RELIGIONGROUP,christian,X #L християнства#!#! в #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священній Римській Імперії#!#! збройне зіткнення між #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,protestant_union,X #L Євангелічною унією#!#! і #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,catholic_league,X #L Католицькою лігою#!#! здається неминучим. Князі імперії створили ці об'єднання передусім заради захисту своєї віри, однак багато європейських держав жадібними очима дивляться на охоплену безладами країну. Мир в імперії висить на волоску, і держави #TOOLTIP:CONTINENT,europe,X #L Європи#!#! готують свої армії до бою, керовані як релігійним завзяттям, так і цілком світськими прагненнями."
+  "uk": "Після кількох десятиліть релігійних чвар через прихильність різним течіям #TOOLTIP:RELIGIONGROUP,christian,X #L християнства#!#! в #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священній Римській Імперії#!#! збройне зіткнення між #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,protestant_union,X #L Євангелічною унією#!#! і #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,catholic_league,X #L Католицькою лігою#!#! здається неминучим. Князі імперії створили ці об’єднання передусім заради захисту своєї віри, однак багато європейських держав жадібними очима дивляться на охоплену безладами країну. Мир в імперії висить на волоску, і держави #TOOLTIP:CONTINENT,europe,X #L Європи#!#! готують свої армії до бою, керовані як релігійним завзяттям, так і цілком світськими прагненнями."
  },
  "war_of_religions_neutral.tt": {
   "en": "Neutral",
@@ -3581,7 +3581,7 @@
  },
  "war_of_religions_peace_treaty_enforced_tt": {
   "en": "Either side has enforced [ShowPeaceTreatyTypeName('religious_supremacy')] through the [ShowCasusBelliName('cb_religious_superiority')] [war|e]",
-  "uk": "Будь-яка зі сторін нав'язала #TOOLTIP:SCRIPTED_PEACE_TREATY,religious_supremacy,X #L панування релігії#!#! в ході [Concept('war', 'війни')|e] з приводом «[ShowCasusBelliName('cb_religious_superiority')]»"
+  "uk": "Будь-яка зі сторін нав’язала #TOOLTIP:SCRIPTED_PEACE_TREATY,religious_supremacy,X #L панування релігії#!#! в ході [Concept('war', 'війни')|e] з приводом «[ShowCasusBelliName('cb_religious_superiority')]»"
  },
  "western_schism": {
   "en": "Western Schism",

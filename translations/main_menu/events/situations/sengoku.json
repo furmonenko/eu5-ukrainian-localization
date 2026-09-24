@@ -9,7 +9,7 @@
  },
  "sengoku.1.desc": {
   "en": "The [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] has proved to be unable to manage the clans. The gradual lenience and delegation of authority towards the local rulers has become the Shogunate's downfall, and the many conflicts that have been brewing for centuries are now in the open. Virtually independent from any central authority, many $daimyo$ rule supreme in their own domains. We can not fall behind, lest we risk being extinguished by the flames of war that will soon engulf the whole country.",
-  "uk": "[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] [Select_CString(target_character.IsFemale,'показала', 'показав')] повну нездатність керувати кланами. Причинами краху сьоґунату стали надмірна м'якість і поступове делегування повноважень місцевим правителям. Тепер усі конфлікти, що назрівали століттями, вирвалися назовні. Багато даймьо фактично здобули незалежність від центральної влади. Варто нам трохи відстати — і нас знесе цунамі війни, яке ось-ось захлесне всю державу."
+  "uk": "[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] [Select_CString(target_character.IsFemale,'показала', 'показав')] повну нездатність керувати кланами. Причинами краху сьоґунату стали надмірна м’якість і поступове делегування повноважень місцевим правителям. Тепер усі конфлікти, що назрівали століттями, вирвалися назовні. Багато даймьо фактично здобули незалежність від центральної влади. Варто нам трохи відстати — і нас знесе цунамі війни, яке ось-ось захлесне всю державу."
  },
  "sengoku.1.desc.shogun": {
   "en": "The tensions between the different clans and ourselves have spiraled out of control, and now war has broken out. The ramifications of this are felt throughout the Japanese islands, as our fellow $daimyo$ begin to take sides, and alliances are brought into play.\\n\\nWhoever may win this current civil war, however, it is clear that the current [ROOT.GetCountry.GetLongName] was too weak to prevent it. We are not the only ones who have noticed this, and it is quite likely that this great war of the Ōnin period will result in a prolonged period of strife and warfare between the different Japanese states.",
@@ -53,7 +53,7 @@
  },
  "sengoku.12.desc": {
   "en": "The authorities of the [actor.GetLongNameWithNoTooltip] have come to us with an extreme petition. We are to relinquish our autonomy and all our lands would go back to being owned by the [actor.GetFlavorRank] directly, with us being only their appointed officials under their leadership. This would curb all our individual [ROOT.GetCountry.GetFlavorRank] achievements, but it would definitely contribute to the stability of the land.",
-  "uk": "[actor.GetLongNameWithNoTooltip] звернувся до нас із неймовірно зухвалою вимогою. Він вважає, що ми зобов'язані відмовитися від своєї автономії і перетворитися на його намісників, передавши свої землі під його пряме управління. Це стане кінцем [ROOT.GetCountry.Custom('rank_ru_GEN')] як незалежної держави, але сприятиме миру та стабільності в регіоні."
+  "uk": "[actor.GetLongNameWithNoTooltip] звернувся до нас із неймовірно зухвалою вимогою. Він вважає, що ми зобов’язані відмовитися від своєї автономії і перетворитися на його намісників, передавши свої землі під його пряме управління. Це стане кінцем [ROOT.GetCountry.Custom('rank_ru_GEN')] як незалежної держави, але сприятиме миру та стабільності в регіоні."
  },
  "sengoku.12.title": {
   "en": "The [actor.GetLongNameWithNoTooltip] Demands Subjugation",
@@ -81,7 +81,7 @@
  },
  "sengoku.14.desc": {
   "en": "The [target_country.GetLongName] agree to foster closer bonds between our clans, and have accepted to host [target_character.GetName] among themselves. As long as [target_character.GetSheHe] is in their care, both clans will share close ties of trust and friendship.",
-  "uk": "Влада [target_country.Custom('CL_GEN')] погодилася піти нам назустріч: [target_character.GetName] тепер проживає в них. Поки вони піклуються про [Select_CString(target_character.IsFemale,'неї', 'нього')], наші клани будуть пов'язані узами довіри та дружби."
+  "uk": "Влада [target_country.Custom('CL_GEN')] погодилася піти нам назустріч: [target_character.GetName] тепер проживає в них. Поки вони піклуються про [Select_CString(target_character.IsFemale,'неї', 'нього')], наші клани будуть пов’язані узами довіри та дружби."
  },
  "sengoku.14.title": {
   "en": "[target_country.GetNameWithNoTooltip] Accept [target_character.GetNameWithNoTooltip]",
@@ -145,11 +145,11 @@
  },
  "sengoku.19.b": {
   "en": "Yes... we will go, eventually...",
-  "uk": "Так, ми з'явимося… колись…"
+  "uk": "Так, ми з’явимося… колись…"
  },
  "sengoku.19.desc": {
   "en": "It is clear that the [actor.GetLongName] grip over the land is slipping, as more and more clans are acting independently of their authority. In an attempt to keep the clans contained, the [actor.GetFlavorRank] has no other option but to summon clan leaders to the capital to ask for concrete justifications of their actions. Such summon has come now for [target_ruler.GetName], asking [target_ruler.GetHerHim] to appear before the [actor.GetGovernment.GetAdjective] [actor.GetGovernment.GetCourtTitle]. It is our duty to obey, but that would definitely put a black mark on our own authority.",
-  "uk": "Очевидно, що [actor.GetLongName] втрачає хватку: дедалі більше кланів живуть без огляду на центральну владу. Намагаючись утримати клани під контролем, [actor.GetFlavorRank] викликає їхніх глав до столиці з вимогою обґрунтувати свою політику перед [actor.GetGovernment.GetAdjective]им двором. Нещодавно такий виклик [Select_CString(target_ruler.IsFemale,'отримала', 'отримав')] і [target_ruler.GetName]. Ми зобов'язані підкоритися, однак таке рішення заплямує наш власний авторитет."
+  "uk": "Очевидно, що [actor.GetLongName] втрачає хватку: дедалі більше кланів живуть без огляду на центральну владу. Намагаючись утримати клани під контролем, [actor.GetFlavorRank] викликає їхніх глав до столиці з вимогою обґрунтувати свою політику перед [actor.GetGovernment.GetAdjective]им двором. Нещодавно такий виклик [Select_CString(target_ruler.IsFemale,'отримала', 'отримав')] і [target_ruler.GetName]. Ми зобов’язані підкоритися, однак таке рішення заплямує наш власний авторитет."
  },
  "sengoku.19.title": {
   "en": "[actor.GetGovernment.GetAdjective] [actor.GetGovernment.GetCourtTitle] Summons",
@@ -169,7 +169,7 @@
  },
  "sengoku.2.desc.absolute": {
   "en": "$sengoku.2.desc.common$ our banner. No clan will be able to question our leadership anymore, and we will lead the country into an era of peace and prosperity like never seen before. All [ShowRegionNameWithNoTooltip('japan_region')] bows to us!",
-  "uk": "$sengoku.2.desc.common$ об'єдналися під нашими прапорами. Більше жоден клан не засумнівається в нашому лідерстві, а ми, своєю чергою, зробимо все, щоб наша держава стала мирною та процвітаючою. Вся Японія схиляється перед нами!"
+  "uk": "$sengoku.2.desc.common$ об’єдналися під нашими прапорами. Більше жоден клан не засумнівається в нашому лідерстві, а ми, своєю чергою, зробимо все, щоб наша держава стала мирною та процвітаючою. Вся Японія схиляється перед нами!"
  },
  "sengoku.2.desc.common": {
   "en": "The conflicts of the Sengoku Jidai are a thing of the past. After many years of constant war, the islands of [ShowRegionName('japan_region')] are once again united under",
@@ -209,7 +209,7 @@
  },
  "sengoku.22.desc": {
   "en": "The role of the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] is to rule the land in the name of the [ShowSpecialStatusName('japanese_emperor')], relieving the Chrysanthemum Throne from the hassle of direct governorship. However, the [actor.GetLongName] has taken advantage of these turbulent times and has gathered enough support to condemn our authority and attempt to restore direct power under the Imperial line. We have been branded as traitors and rebels against the true ruler of [ShowRegionName('japan_region')].",
-  "uk": "Традиційно #TOOLTIP:SPECIAL_STATUS,japanese_emperor,X #L тенно#!#! присуджує титул «[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle|l]» людині, призначеній керувати державою від імені Хризантемового трону, тим самим звільняючи себе від необхідності владарювати безпосередньо та пов'язаних із цим труднощів. Однак у ці неспокійні часи традиції відходять у минуле, і винна в цьому [actor.GetLongName]. Ця держава, заручившись достатньою підтримкою, таврує нашу владу незаконною і стверджує, що імператорському роду час знову взяти на себе пряме управління державою. Нас оголосили зрадниками та бунтарями, які наважилися повстати проти справжнього володаря #TOOLTIP:REGION,japan_region,X #L Японії#!#!."
+  "uk": "Традиційно #TOOLTIP:SPECIAL_STATUS,japanese_emperor,X #L тенно#!#! присуджує титул «[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle|l]» людині, призначеній керувати державою від імені Хризантемового трону, тим самим звільняючи себе від необхідності владарювати безпосередньо та пов’язаних із цим труднощів. Однак у ці неспокійні часи традиції відходять у минуле, і винна в цьому [actor.GetLongName]. Ця держава, заручившись достатньою підтримкою, таврує нашу владу незаконною і стверджує, що імператорському роду час знову взяти на себе пряме управління державою. Нас оголосили зрадниками та бунтарями, які наважилися повстати проти справжнього володаря #TOOLTIP:REGION,japan_region,X #L Японії#!#!."
  },
  "sengoku.22.title": {
   "en": "The [actor.GetLongNameWithNoTooltip] Rebels against the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]",
@@ -253,7 +253,7 @@
  },
  "sengoku.4.desc": {
   "en": "It is a time of constant conflict. The [target_enemy.GetLongName] have recently been trying to expand their influence at the expense of other clans, but they have also been showing their own fair share of weakness. We could take advantage of such weakness and exploit it for our benefit while expanding our own territory. In such times of the whole country at war, who would complain if we start yet another one?",
-  "uk": "Японію роздирає ворожнеча. [target_enemy.GetLongName] — це держава, чия влада нещодавно спробувала розширити свій вплив за рахунок інших кланів, але лише показала власну слабкість. Ми могли б скористатися нею у своїх інтересах і прирости землями. У часи потрясінь і воєн ніхто навіть слова не скаже, якщо ми розв'яжемо ще одну."
+  "uk": "Японію роздирає ворожнеча. [target_enemy.GetLongName] — це держава, чия влада нещодавно спробувала розширити свій вплив за рахунок інших кланів, але лише показала власну слабкість. Ми могли б скористатися нею у своїх інтересах і прирости землями. У часи потрясінь і воєн ніхто навіть слова не скаже, якщо ми розв’яжемо ще одну."
  },
  "sengoku.4.title": {
   "en": "A Moment of Weakness",

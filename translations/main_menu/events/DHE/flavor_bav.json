@@ -37,7 +37,7 @@
  },
  "flavor_bav.10.desc": {
   "en": "An ill-intended rumor has started to get traction on the many courts of the [ShowReligionAdjective('catholic')] kings. The rumor says that the court of [hre_emperor.GetName] is a haven for heretics and non-believers, where the laws of God are mocked and the teachings of the Church ignored.\\n\\nWe must put an end to this evil gossip and regain our prestige, we could expel the excommunicated friar [william_ockham_scope.GetName] and [michael_cesena_scope.GetName], such a gesture of zealotry will surely lay the rumor to rest.",
-  "uk": "У багатьох дворах, що служать королям-#TOOLTIP:RELIGION,catholic_tt,X #L католикам#!#!, почула поширюватися погана чутка: нібито [hre_emperor.GetName|l] приваблює до свого двору єретиків і невірних, насміхається над законами Божими і нехтує вченням церкви.\\n\\nНеобхідно покласти край цим пліткам і відновити своє славне ім'я. Для цього можна вигнати відлучених від церкви ченців на ім'я [william_ockham_scope.GetName] та [michael_cesena_scope.GetName]. Такий ревний жест напевно оцінять належним чином."
+  "uk": "У багатьох дворах, що служать королям-#TOOLTIP:RELIGION,catholic_tt,X #L католикам#!#!, почула поширюватися погана чутка: нібито [hre_emperor.GetName|l] приваблює до свого двору єретиків і невірних, насміхається над законами Божими і нехтує вченням церкви.\\n\\nНеобхідно покласти край цим пліткам і відновити своє славне ім’я. Для цього можна вигнати відлучених від церкви ченців на ім’я [william_ockham_scope.GetName] та [michael_cesena_scope.GetName]. Такий ревний жест напевно оцінять належним чином."
  },
  "flavor_bav.10.entry": {
   "en": "$flavor_bav.10.title$",
@@ -261,7 +261,7 @@
  },
  "flavor_bav.1300.desc": {
   "en": "With the death of [old_ruler.GetName] we are now faced with the inheritance of [old_ruler.GetHerHis] lands between [old_ruler.GetHerHis] male heirs according to the laws of the [ShowCultureGroupName('german_group')]. [old_ruler.GetNameWithNoTooltip] death comes at an unfortunate time for our country, with [target_ruler.GetHerHis] project of reunifying $BAV$ failing at the final stages.\\n\\n[target_ruler.GetName] will now have to work against [target_ruler.GetHerHis] siblings to undo the damage of separation and proclaim [target_ruler.GetHerHis] sovereignty over Bavaria.",
-  "uk": "Після того як [Select_CString(old_ruler.IsFemale, 'померла', 'помер' )] [old_ruler.GetName], постало питання про поділ [Select_CString(old_ruler.IsFemale, 'її', 'його' )] земель між спадкоємцями чоловічої статі згідно з #TOOLTIP:CULTUREGROUP,german_group,X #L германським#!#! законом. [old_ruler.GetNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'відійшла', 'відійшов' )] у інший світ вкрай несвоєчасно, адже ще трохи — і [Select_CString(old_ruler.IsFemale, 'її', 'його' )] задум про об'єднання Баварії увінчався б успіхом.\\n\\nТепер [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'змушена', 'змушений' )] буде суперничати зі своїми родичами, щоб подолати роздробленість і проголосити свою владу над Баварією."
+  "uk": "Після того як [Select_CString(old_ruler.IsFemale, 'померла', 'помер' )] [old_ruler.GetName], постало питання про поділ [Select_CString(old_ruler.IsFemale, 'її', 'його' )] земель між спадкоємцями чоловічої статі згідно з #TOOLTIP:CULTUREGROUP,german_group,X #L германським#!#! законом. [old_ruler.GetNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'відійшла', 'відійшов' )] у інший світ вкрай несвоєчасно, адже ще трохи — і [Select_CString(old_ruler.IsFemale, 'її', 'його' )] задум про об’єднання Баварії увінчався б успіхом.\\n\\nТепер [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'змушена', 'змушений' )] буде суперничати зі своїми родичами, щоб подолати роздробленість і проголосити свою владу над Баварією."
  },
  "flavor_bav.1300.entry": {
   "en": "$flavor_bav.1300.title$",
@@ -289,7 +289,7 @@
  },
  "flavor_bav.1301.title": {
   "en": "The Reunification of [ROOT.GetCountry.GetNameWithNoTooltip]",
-  "uk": "Возз'єднання [ROOT.GetCountry.Custom('CL_GEN')]"
+  "uk": "Возз’єднання [ROOT.GetCountry.Custom('CL_GEN')]"
  },
  "flavor_bav.1302.a": {
   "en": "Allow the division of $BAV$.",
@@ -485,7 +485,7 @@
  },
  "flavor_bav.25.desc": {
   "en": "In the year [GetCurrentYear], [target_ruler.GetName] of [target_country.GetName] has decreed the Reinheitsgebot, a new law that governs the brewing of [ShowGoodsName('beer')] across the [target_country.GetFlavorRank]. By restricting the ingredients to barley, hops, and water, the [target_country.GetGovernment.GetRulerTitle] aims to ensure the quality of [target_country.GetAdjectiveWithNoTooltip] beer and protect his subjects from harmful additives. This law not only guarantees better tasting [ShowGoodsNameWithNoTooltip('beer')] but also stabilizes prices and strengthens the reputation of [target_country.GetAdjectiveWithNoTooltip] brews throughout the [GetInternationalOrganization('hre').GetName].",
-  "uk": "Року [GetCurrentYear] [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'видала', 'видав' )] «Закон про чистоту пива», що встановлює правила виробництва #TOOLTIP:GOODS,beer,X #L пива#!#! в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#!. Закон включає заборону на використання будь-яких інгредієнтів, крім солоду, хмелю та води, — так [target_country.GetGovernment.GetRulerTitle|l] сподівається забезпечити високу якість [target_country.GetAdjectiveWithNoTooltip|l]ого пива, а заразом убезпечити здоров'я підданих від шкідливих домішок і добавок. Цей указ сприятиме поліпшенню смакових якостей нашого пива, стабілізує ціни та зміцнить репутацію [target_country.Custom('CL_GEN')] як провідного пивоварного регіону #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!."
+  "uk": "Року [GetCurrentYear] [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'видала', 'видав' )] «Закон про чистоту пива», що встановлює правила виробництва #TOOLTIP:GOODS,beer,X #L пива#!#! в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#!. Закон включає заборону на використання будь-яких інгредієнтів, крім солоду, хмелю та води, — так [target_country.GetGovernment.GetRulerTitle|l] сподівається забезпечити високу якість [target_country.GetAdjectiveWithNoTooltip|l]ого пива, а заразом убезпечити здоров’я підданих від шкідливих домішок і добавок. Цей указ сприятиме поліпшенню смакових якостей нашого пива, стабілізує ціни та зміцнить репутацію [target_country.Custom('CL_GEN')] як провідного пивоварного регіону #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!."
  },
  "flavor_bav.25.entry": {
   "en": "The Reinheitsgebot of The Current Year",
@@ -589,7 +589,7 @@
  },
  "flavor_bav.3.desc": {
   "en": "The Duke of Lower Bavaria [target_cousin.GetName] has died! While he was suffering from leprosy and his death comes as no surprise, our family is still in mourning and has to discuss what will happen with [GetCountry('LBV').GetName] after his passing.\\n\\n[target_ruler.GetName] has been asked to act as a leading figure for the young heir and we could use this to work towards a reunification of Bavaria, a long sought-after goal for [target_ruler.GetNameWithNoTooltip].",
-  "uk": "Герцог Нижньої Баварії [target_cousin.GetName] помер! І хоча сама його смерть нікого не здивувала, оскільки покійний страждав від прокази, наша родина все-таки зодягнулася в жалобу. У цей важкий час необхідно обговорити, яка доля чекає на #ONCLICK:COUNTRY,[GetCountry('LBV').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('LBV').Custom('CL_tt')],X [GetCountry('LBV').Custom('CL_RP')|L]#!#! після смерті правителя.\\n\\nНаставником юного спадкоємця тепер виступає [target_ruler.GetName]. Нам надалася можливість спробувати досягти возз'єднання Баварії — про це [target_ruler.GetNameWithNoTooltip] мріє вже давно."
+  "uk": "Герцог Нижньої Баварії [target_cousin.GetName] помер! І хоча сама його смерть нікого не здивувала, оскільки покійний страждав від прокази, наша родина все-таки зодягнулася в жалобу. У цей важкий час необхідно обговорити, яка доля чекає на #ONCLICK:COUNTRY,[GetCountry('LBV').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('LBV').Custom('CL_tt')],X [GetCountry('LBV').Custom('CL_RP')|L]#!#! після смерті правителя.\\n\\nНаставником юного спадкоємця тепер виступає [target_ruler.GetName]. Нам надалася можливість спробувати досягти возз’єднання Баварії — про це [target_ruler.GetNameWithNoTooltip] мріє вже давно."
  },
  "flavor_bav.3.entry": {
   "en": "$LBV$ comes under Ludwigs Rule",
@@ -789,11 +789,11 @@
  },
  "flavor_bav.9.b": {
   "en": "No, we will not replace a cherished monument.",
-  "uk": "Ні, ми не жертвуватимемо пам'яткою старовини."
+  "uk": "Ні, ми не жертвуватимемо пам’яткою старовини."
  },
  "flavor_bav.9.desc": {
   "en": "The old Marienkapelle on the northwest side of the city, built beside the old city walls, has served as a loved parish church for the people of the city and provided a burial place for the Münchner [ShowDynastyName('wittelsbach_dynasty')] for centuries.\\n\\nNonetheless, a $BAV_ADJ$ architect called [george_halsbach_scope.GetName] has proposed a grandiose plan for a new cathedral made out of red brick and crowned by two massive towers that will be visible from any point in the city.",
-  "uk": "Стара каплиця Діви Марії, розташована в північно-західній частині міста, поруч зі старими міськими стінами, вже не перше століття вірно служить місцевим парафіянам. Тут же знаходиться усипальниця мюнхенських #TOOLTIP:DYNASTY,wittelsbach_tt,X #L Віттельсбахів#!#!.\\n\\nТим несподіваніше, що баварський архітектор на ім'я [george_halsbach_scope.GetName] запропонував побудувати на цьому місці новий величний собор з червоної цегли. Прикрашати його, за задумом архітектора, будуть дві величезні вежі, які містяни зможуть бачити звідусіль."
+  "uk": "Стара каплиця Діви Марії, розташована в північно-західній частині міста, поруч зі старими міськими стінами, вже не перше століття вірно служить місцевим парафіянам. Тут же знаходиться усипальниця мюнхенських #TOOLTIP:DYNASTY,wittelsbach_tt,X #L Віттельсбахів#!#!.\\n\\nТим несподіваніше, що баварський архітектор на ім’я [george_halsbach_scope.GetName] запропонував побудувати на цьому місці новий величний собор з червоної цегли. Прикрашати його, за задумом архітектора, будуть дві величезні вежі, які містяни зможуть бачити звідусіль."
  },
  "flavor_bav.9.entry": {
   "en": "$flavor_bav.9.title$",

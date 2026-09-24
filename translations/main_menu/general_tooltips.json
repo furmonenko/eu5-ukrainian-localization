@@ -129,7 +129,7 @@
  },
  "ATTRITION_DUE_TO": {
   "en": "#T [attrition]#!\\nThe $VAL|R2%$ [attrition|e] is due to",
-  "uk": "#T [attrition]#!\\n$VAL|R2%$ [Concept('attrition','виснаження')|e] спричинені"
+  "uk": "#T [attrition]#!\\n$VAL|R2%$ [Concept('attrition','виснаження')|e] спричинене"
  },
  "ATTRITION_NONE_SOURCE": {
   "en": "$BULLET_WITH_TAB$Currently not taking any attrition.",
@@ -737,7 +737,7 @@
  },
  "FOOD_CONSUMPTION_PENALTY_TO_WEIGHT": {
   "en": "#T Food Consumption Penalty#!\\n$VAL|2%$ due to Lack of Supply in [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nNeeded: $NEED|2V$",
-  "uk": "#T Штраф до споживання їжі#!\\n$VAL|2%$ через брак пропозиції в [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nПотрібно: $NEED|2V$"
+  "uk": "#T Штраф до споживання їжі#!\\n$VAL|2%$ через брак постачання в [LOCATION.GetName]\\n[supply_limit]: $SUPPLY_LIMIT|2V$\\nПотрібно: $NEED|2V$"
  },
  "FROZEN_ATTRITION": {
   "en": "[frozen|e] Sea: $VALUE|2-=$",
@@ -861,7 +861,7 @@
  },
  "INSIDE_NAVAL_RANGE_TT": {
   "en": "Naval distance $VALUE|2Y$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]) — within range.",
-  "uk": "Морська відстань $VALUE|2Y$ ($PCT|0Y$% нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]) — у межах досяжності."
+  "uk": "Морська відстань $VALUE|2Y$ ($PCT|0Y$% нашої [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [Concept('naval_range','морської дальності')|e]) — у межах досяжності."
  },
  "INSIDE_TRADE_RANGE_TT": {
   "en": "Trade distance $VALUE|2Y$ from [Market.GetName] is within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|G] [trade_range|E].",
@@ -1085,11 +1085,11 @@
  },
  "LANGUAGE_POWER_COURT_PRESTIGE_TITLE": {
   "en": "[primary_culture|E] [political_power|e] scaled by [country_rank|e] in countries where this is the [court_language|e]",
-  "uk": "[primary_culture|E] [political_power|e] з поправкою на [country_rank|e] у державах, де це [court_language|e]"
+  "uk": "[political_power|E] [Concept('primary_culture','основної культури')|e] з поправкою на [country_rank|e] у державах, де це [court_language|e]"
  },
  "LANGUAGE_POWER_CULTURAL_INFLUENCE_TITLE": {
   "en": "[cultural_influence|E] from [cultures|e] using this [language|e]",
-  "uk": "[cultural_influence|E] від [cultures|e], що послуговуються цією [language|e]"
+  "uk": "[cultural_influence|E] від [Concept('cultures','культур')|e], що послуговуються цією [Concept('language','мовою')|e]"
  },
  "LANGUAGE_POWER_CULTURE_ENTRY": {
   "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ from [CULTURE.GetName]: $VAL|2+=$",
@@ -1105,7 +1105,7 @@
  },
  "LANGUAGE_POWER_LITURGICAL_REACH_TITLE": {
   "en": "[ShowPopTypeName('clergy')] [pops|E] in countries where this is the [liturgical_language|e]",
-  "uk": "[ShowPopTypeName('clergy')] [pops|E] у державах, де це [liturgical_language|e]"
+  "uk": "[pops|E] типу [ShowPopTypeName('clergy')] у державах, де це [liturgical_language|e]"
  },
  "LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_ENTRY": {
   "en": "$BULLET_WITH_TAB$$AMOUNT|Y$ [merchant_power|e] from [MARKET.GetShortName]: $VAL|2+=$",
@@ -1173,11 +1173,11 @@
  },
  "LOCAL_ATTRITION_SHELTERED_BY_FORT": {
   "en": "Sheltered in friendly [fort|e]: $VALUE|2-=$",
-  "uk": "Укриття в дружній [fort|e]: $VALUE|2-=$"
+  "uk": "Укриття в дружній [Concept('fort','фортеці')|e]: $VALUE|2-=$"
  },
  "LOCAL_ATTRITION_SHELTERED_BY_FORT_ZOC": {
   "en": "Within friendly [fort|e] [zone_of_control|e]: $VALUE|2-=$",
-  "uk": "У [zone_of_control|e] дружньої [fort|e]: $VALUE|2-=$"
+  "uk": "У [Concept('zone_of_control','зоні контролю')|e] дружньої [Concept('fort','фортеці')|e]: $VALUE|2-=$"
  },
  "LOCAL_PROXIMITY_PROPAGATION_INFO": {
   "en": "local [proximity|e] propagation importance to Capital: $VAL|Y$",
@@ -1245,7 +1245,7 @@
  },
  "LOCATION_CLICK_RECRUIT_TEMPLATE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start a [unit_template|e] recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
-  "uk": "Клацніть лівою кнопкою, щоб обрати цей [location|e] і почати набір за [unit_template|e]\\nКлацніть правою кнопкою, щоб обрати цей [location|e] і скасувати поточний набір"
+  "uk": "Клацніть лівою кнопкою, щоб обрати цей [location|e] і почати набір за [Concept('unit_template','шаблоном')|e]\\nКлацніть правою кнопкою, щоб обрати цей [location|e] і скасувати поточний набір"
  },
  "LOCATION_CLICK_RISE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start raising [levies|e] here\\nRight click to select this [location|e] to remove an ongoing raising",
@@ -1277,7 +1277,7 @@
  },
  "LOCATION_CULTURE_TOOLTIP_HEADER": {
   "en": "$game_concept_culture$ of [Location.GetNameWithNoTooltip]",
-  "uk": "$game_concept_culture$ локації [Location.GetNameWithNoTooltip]"
+  "uk": "$game_concept_culture$ району [Location.GetNameWithNoTooltip]"
  },
  "LOCATION_DEBUG_TOOLTIP": {
   "en": "\\n#D ID: [LOCATION.GetId] [LOCATION.GetTag]#!",
@@ -1389,7 +1389,7 @@
  },
  "LOCATION_RELIGION_TOOLTIP_HEADER": {
   "en": "$game_concept_religion$ of [Location.GetNameWithNoTooltip]",
-  "uk": "$game_concept_religion$ локації [Location.GetNameWithNoTooltip]"
+  "uk": "$game_concept_religion$ району [Location.GetNameWithNoTooltip]"
  },
  "LOCATION_SEAZONE_TOOLTIP": {
   "en": "\\nType: [LOCATION.GetTopography.GetName]\\n[region|e]: [LOCATION.GetRegion.GetName]\\n[climate|e]: #subtle_name [Location.GetClimate.GetNameNoUnderline] [Location.GetClimate.GetIcon]#![LOCATION.GetCurrentDirection]",
@@ -1553,7 +1553,7 @@
  },
  "MOVEMENT_RESISTANCES_LABEL": {
   "en": "$game_concept_movement$ resistances in the [location|e]",
-  "uk": "Опір руху $game_concept_movement$ у [Concept('location','районі')|e]"
+  "uk": "$game_concept_movement$: опір у [Concept('location','районі')|e]"
  },
  "MOVEMENT_RESISTANCE_VALUE": {
   "en": "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|L1%$#!",
@@ -1565,7 +1565,7 @@
  },
  "NAVAL_RANGE_MAPMODE_LAND_NOT_ON_NAVAL_GRAPH_TT": {
   "en": "This [location|e] is not a [port|e] or [seazone|e] on the naval routing map, so it has no naval path distance from our [country|e].",
-  "uk": "Цей [location|e] не є [port|e] чи [seazone|e] на морській навігаційній мапі, тож морського шляху від нашої [country|e] до нього немає."
+  "uk": "Цей [location|e] не є [port|e] чи [seazone|e] на морській навігаційній мапі, тож морського шляху від нашої [Concept('country','держави')|e] до нього немає."
  },
  "NAVY_FROZEN_ATTRITION": {
   "en": "Stuck in [frozen|e] Sea: $VALUE|2/-=$",
@@ -1585,11 +1585,11 @@
  },
  "NOT_INSIDE_NAVAL_RANGE_TT": {
   "en": "@trigger_no! Naval distance $VALUE|2R$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]) — out of range.",
-  "uk": "@trigger_no! Морська відстань $VALUE|2R$ ($PCT|0Y$% нашого [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]) — поза межами досяжності."
+  "uk": "@trigger_no! Морська відстань $VALUE|2R$ ($PCT|0Y$% нашої [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [Concept('naval_range','морської дальності')|e]) — поза межами досяжності."
  },
  "NOT_INSIDE_TRADE_RANGE_TT": {
   "en": "Trade distance $VALUE|2Y$ from [Market.GetName] exceeds our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Transport costs will be higher for this route.",
-  "uk": "Торговельна відстань $VALUE|2Y$ від [Market.GetName] перевищує наш [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Транспортні витрати на цьому маршруті будуть вищими."
+  "uk": "Торговельна відстань $VALUE|2Y$ від [Market.GetName] перевищує наш [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Перевезення цим маршрутом коштуватиме дорожче."
  },
  "NOT_POSSIBLE_WHILE_EVENT_WINDOW_SHOWN": {
   "en": "@trigger_no! It is not possible to do this while an event demands our attention.\\n",
@@ -2141,7 +2141,7 @@
  },
  "ZOC_BLOCKS_MOVEMENT": {
   "en": "@trigger_no! The army is blocked from moving past the [zone_of_control|e] of a nearby [fort|e].",
-  "uk": "@trigger_no! Армія не може пройти повз [zone_of_control|e] сусідньої [fort|e]."
+  "uk": "@trigger_no! Армія не може пройти повз [Concept('zone_of_control','зону контролю')|e] сусідньої [Concept('fort','фортеці')|e]."
  },
  "culture_opinion_enemy": {
   "en": "#R Enemy#!",

@@ -73,7 +73,7 @@
  },
  "CREDITWORTHINESS_BASE_HOVER_DESC": {
   "en": "Our stored [creditworthiness|e] before any [bankruptcy|e] penalty. Ranges from 0 to 100 with 50 as neutral. Each month it drifts toward the Equilibrium Target by the Monthly Pull, and is adjusted by events such as repaying a [loan|e] on time, extending a [loan|e] we cannot afford, declaring war on a creditor, or going [bankrupt|e].",
-  "uk": "Наша збережена [creditworthiness|e] до будь-якого штрафу за [bankruptcy|e]. Коливається від 0 до 100, де 50 — нейтральне значення. Щомісяця вона зміщується до рівноважної цілі на величину місячного тяжіння й змінюється під впливом таких подій, як вчасне повернення [loan|e], видача [loan|e], яку ми не можемо собі дозволити, оголошення війни кредитору чи [bankrupt|e]."
+  "uk": "Наша збережена [Concept('creditworthiness','кредитоспроможність')|e] до будь-якого штрафу за [Concept('bankruptcy','банкрутство')|e]. Коливається від 0 до 100, де 50 — нейтральне значення. Щомісяця вона зміщується до рівноважної цілі на величину місячного тяжіння й змінюється під впливом таких подій, як вчасне повернення [Concept('loan','позики')|e], видача [Concept('loan','позики')|e], яку ми не можемо собі дозволити, оголошення війни кредитору чи [Concept('bankrupt','банкрутство')|e]."
  },
  "CREDITWORTHINESS_BASE_HOVER_TITLE": {
   "en": "Base Rating",
@@ -313,7 +313,7 @@
  },
  "CURRENT_NEEDS_TITLE": {
   "en": "#T Our [GOODS.GetNameWithNoTooltip] needs at the [MARKET.GetName]#!",
-  "uk": "#T Наші потреби в [GOODS.GetNameWithNoTooltip] на [MARKET.GetName]#!"
+  "uk": "#T Наші потреби: [GOODS.GetNameWithNoTooltip], ринок [MARKET.GetName]#!"
  },
  "CURRENT_NUMBER_OF_LOANS": {
   "en": "Current Loans",
@@ -1649,7 +1649,7 @@
  },
  "RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST": {
   "en": "From default market price of [GOODS.GetName] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$",
-  "uk": "Від типової ринкової ціни [GOODS.GetName] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
+  "uk": "Від типової ринкової ціни ([GOODS.GetName]: [GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
  },
  "RIGHTEOUSNESS_TT_EFFECTS_TEXT": {
   "en": "With [righteousness|V] at [Country.GetFixedPointCurrencyValue('righteousness')|W], we get the following effects:",
@@ -1713,11 +1713,11 @@
  },
  "SELF_CONTROL_TT_IF_HIGH_T": {
   "en": "If we have [self_control|V] above #V 10#!, we could get up to:",
-  "uk": "Якби [self_control|V] було вище #V 10#!, ми б отримали до:"
+  "uk": "Якщо [self_control|V] перевищує #V 10#!, ми можемо отримати до:"
  },
  "SELF_CONTROL_TT_IF_LOW_T": {
   "en": "If our [self_control|V] drops below #V -10#!, we could get up to:",
-  "uk": "Якби [self_control|V] впало нижче #V -10#!, ми б отримали до:"
+  "uk": "Якщо [self_control|V] опускається нижче #V -10#!, ми можемо отримати до:"
  },
  "SELF_CONTROL_TT_IF_NEUTRAL_T": {
   "en": "[self_control|V] between #V -10#! and #V 10#! gives us at best:",
@@ -1881,11 +1881,11 @@
  },
  "YANANTIN_TT_IF_HIGH_T": {
   "en": "If we have [yanantin|V] above #V 0#!, we could get up to:",
-  "uk": "Якби [yanantin|V] було вище #V 0#!, ми б отримали до:"
+  "uk": "Якщо [yanantin|V] перевищує #V 0#!, ми можемо отримати до:"
  },
  "YANANTIN_TT_IF_LOW_T": {
   "en": "If our [yanantin|V] drops below #V 0#!, we could get up to:",
-  "uk": "Якби [yanantin|V] впало нижче #V 0#!, ми б отримали до:"
+  "uk": "Якщо [yanantin|V] опускається нижче #V 0#!, ми можемо отримати до:"
  },
  "YANANTIN_TT_IF_NEUTRAL_T": {
   "en": "[yanantin|V] at #V 0#! gives us at best:",
@@ -2085,11 +2085,11 @@
  },
  "capitalism_prioritising_infrastructure_trade_and_culture_desc": {
   "en": "Buildings are filled infrastructure first, then trade, then culture, and then in order of which makes the most profit.",
-  "uk": "Споруди заповнюються спершу інфраструктурою, потім торгівлею, потім культурою, а далі за прибутковістю."
+  "uk": "Спершу заповнюються інфраструктурні споруди, потім торговельні, потім культурні, а далі — за прибутковістю."
  },
  "capitalism_prioritising_infrastructure_trade_desc": {
   "en": "Buildings are filled infrastructure first, then trade, and then in order of which makes the most profit.",
-  "uk": "Споруди заповнюються спершу інфраструктурою, потім торгівлею, а далі за прибутковістю."
+  "uk": "Спершу заповнюються інфраструктурні споруди, потім торговельні, а далі — за прибутковістю."
  },
  "cardinal_price": {
   "en": "Cardinal Price",

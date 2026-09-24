@@ -1,7 +1,7 @@
 {
  "TRADE_ORDERS_SCROLL_LIST_EMPTY": {
   "en": "#italic No [trade_orders|e] currently active in this [market|e].#!",
-  "uk": "#italic Наразі в цьому [Concept('market','ринку')|e] немає активних [Concept('trade_orders','торгових замовлень')|e].#!"
+  "uk": "#italic Наразі на цьому [Concept('market','ринку')|e] немає активних [Concept('trade_orders','торгових замовлень')|e].#!"
  },
  "TRADE_ORDER_BELOW_PROFIT_CUTOFF": {
   "en": "@trigger_fail! No profitable [trade|e] route could be found.\\nBest route is [MARKET.GetNameWithNoTooltip] at $PROFIT_RATIO|+=2$@gold! per [merchant_capacity|e] (minimum required is $CUTOFF|=2$@gold!).\\nThe AI will keep trying each day.",
@@ -81,11 +81,11 @@
  },
  "TRADE_ORDER_MOVE_DOWN_TT": {
   "en": "Move this [trade_order] down in priority",
-  "uk": "Знизити пріоритет цього [trade_order]"
+  "uk": "Знизити пріоритет цього [Concept('trade_order','торгового замовлення')|e]"
  },
  "TRADE_ORDER_MOVE_UP_TT": {
   "en": "Move this [trade_order] up in priority",
-  "uk": "Підвищити пріоритет цього [trade_order]"
+  "uk": "Підвищити пріоритет цього [Concept('trade_order','торгового замовлення')|e]"
  },
  "TRADE_ORDER_NO_PROFITABLE_ROUTE": {
   "en": "@trigger_fail! No profitable [trade|e] could be found. The AI will keep trying each day.",
@@ -93,7 +93,7 @@
  },
  "TRADE_ORDER_NO_ROUTES": {
   "en": "No [trade|e] has been assigned yet. The AI will set one up each day.",
-  "uk": "Жодної [Concept('trade','торгової угоди')|e] ще не призначено. ШІ налаштує одну щодня."
+  "uk": "Жодної [Concept('trade','торгівлі')|e] ще не налагоджено. ШІ щодня намагатиметься її налагодити."
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_DESC": {
   "en": "Opens the Trades tab for this market with your [trade|e] only, merchant capacity from this market, and the import or export filter matching this [trade_order|e].",
@@ -101,11 +101,11 @@
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_TITLE_EXPORT": {
   "en": "Open exports in this market",
-  "uk": "Відкрити експорт у цьому ринку"
+  "uk": "Відкрити експорт на цьому ринку"
  },
  "TRADE_ORDER_OPEN_TRADES_TAB_TITLE_IMPORT": {
   "en": "Open imports in this market",
-  "uk": "Відкрити імпорт у цьому ринку"
+  "uk": "Відкрити імпорт на цьому ринку"
  },
  "TRADE_ORDER_PRIORITY_INFO": {
   "en": "Orders listed earlier receive [merchant_capacity|e] first when there is not enough to fill all orders.",
@@ -121,11 +121,11 @@
  },
  "TRADE_ORDER_QUICK_EXPORT_MENU_TITLE": {
   "en": "Create [export] [trade_order]",
-  "uk": "Створити [export] [trade_order]"
+  "uk": "Створити [Concept('trade_order','торгове замовлення')|e] на [Concept('export','експорт')|e]"
  },
  "TRADE_ORDER_QUICK_EXPORT_OPEN": {
   "en": "Create [export] [trade_order]",
-  "uk": "Створити [export] [trade_order]"
+  "uk": "Створити [Concept('trade_order','торгове замовлення')|e] на [Concept('export','експорт')|e]"
  },
  "TRADE_ORDER_QUICK_EXPORT_TT": {
   "en": "Create an [export|e] order with 1 [merchant_capacity|e]. The AI will find the best destination each day.",
@@ -133,11 +133,11 @@
  },
  "TRADE_ORDER_QUICK_FOOD_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [food]",
-  "uk": "Торгові замовлення на [food]"
+  "uk": "Торгові замовлення на [Concept('food','їжу')|e]"
  },
  "TRADE_ORDER_QUICK_FOOD_NEEDS_OPEN": {
   "en": "Create Trade Order for [food]",
-  "uk": "Створити торгове замовлення на [food]"
+  "uk": "Створити торгове замовлення на [Concept('food','їжу')|e]"
  },
  "TRADE_ORDER_QUICK_GOV_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for Government Needs",
@@ -149,11 +149,11 @@
  },
  "TRADE_ORDER_QUICK_IMPORT_MENU_TITLE": {
   "en": "Create [import] [trade_order]",
-  "uk": "Створити [import] [trade_order]"
+  "uk": "Створити [Concept('trade_order','торгове замовлення')|e] на [Concept('import','імпорт')|e]"
  },
  "TRADE_ORDER_QUICK_IMPORT_OPEN": {
   "en": "Create [import] [trade_order]",
-  "uk": "Створити [import] [trade_order]"
+  "uk": "Створити [Concept('trade_order','торгове замовлення')|e] на [Concept('import','імпорт')|e]"
  },
  "TRADE_ORDER_QUICK_IMPORT_TT": {
   "en": "Create an [import|e] order with 1 [merchant_capacity|e]. The AI will find the best source each day.",
@@ -161,11 +161,11 @@
  },
  "TRADE_ORDER_QUICK_POP_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [pop_needs]",
-  "uk": "Торгові замовлення для [pop_needs]"
+  "uk": "Торгові замовлення для [Concept('pop_needs','потреб груп населення')|e]"
  },
  "TRADE_ORDER_QUICK_POP_NEEDS_OPEN": {
   "en": "Create Trade Order for [pop_needs]",
-  "uk": "Створити торгове замовлення для [pop_needs]"
+  "uk": "Створити торгове замовлення для [Concept('pop_needs','потреб груп населення')|e]"
  },
  "TRADE_ORDER_ROUTE_LINE": {
   "en": "[TRADE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ [TRADE.GetProfit|+=2]@gold!#!",

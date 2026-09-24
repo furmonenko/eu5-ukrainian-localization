@@ -45,7 +45,7 @@
  },
  "SPREADABLE_REQUIRED_TOOLTIP_HEADING": {
   "en": "[pops|e] must belong to the following to be affected:",
-  "uk": "Щоб зазнати впливу, [pops|e] мають належати до:"
+  "uk": "Щоб зазнати впливу, [Concept('pops','групи населення')|e] мають належати до:"
  },
  "SPREADABLE_REQUIRED_TOOLTIP_LANGUAGE": {
   "en": "[languages|e]: $LIST$",
@@ -61,11 +61,11 @@
  },
  "SPREADABLE_TOOLTIP_DEVELOPMENT_NEG": {
   "en": "[development|e]: #R Negative#!",
-  "uk": "[development|E]: #R негативний#!"
+  "uk": "[development|e]: #R негативний#!"
  },
  "SPREADABLE_TOOLTIP_DEVELOPMENT_POS": {
   "en": "[development|e]: #G Positive#!",
-  "uk": "[development|E]: #G позитивний#!"
+  "uk": "[development|e]: #G позитивний#!"
  },
  "SPREADABLE_TOOLTIP_HEADING": {
   "en": "The following have an impact on the spread:",
@@ -73,27 +73,27 @@
  },
  "SPREADABLE_TOOLTIP_LITERACY_NEG": {
   "en": "[literacy|e]: #R Negative#!",
-  "uk": "[literacy|E]: #R негативна#!"
+  "uk": "[literacy|e]: #R негативна#!"
  },
  "SPREADABLE_TOOLTIP_LITERACY_POS": {
   "en": "[literacy|e]: #G Positive#!",
-  "uk": "[literacy|E]: #G позитивна#!"
+  "uk": "[literacy|e]: #G позитивна#!"
  },
  "SPREADABLE_TOOLTIP_LOCAL_CONTROL_NEG": {
   "en": "[control|e]: #R Negative#!",
-  "uk": "[control|E]: #R негативний#!"
+  "uk": "[control|e]: #R негативний#!"
  },
  "SPREADABLE_TOOLTIP_LOCAL_CONTROL_POS": {
   "en": "[control|e]: #G Positive#!",
-  "uk": "[control|E]: #G позитивний#!"
+  "uk": "[control|e]: #G позитивний#!"
  },
  "SPREADABLE_TOOLTIP_POP_SATISFACTION_NEG": {
   "en": "[pop_satisfaction|e]: #R Negative#!",
-  "uk": "[pop_satisfaction|E]: #R негативне#!"
+  "uk": "[pop_satisfaction|e]: #R негативне#!"
  },
  "SPREADABLE_TOOLTIP_POP_SATISFACTION_POS": {
   "en": "[pop_satisfaction|e]: #G Positive#!",
-  "uk": "[pop_satisfaction|E]: #G позитивне#!"
+  "uk": "[pop_satisfaction|e]: #G позитивне#!"
  },
  "SPREAD_CULTURE_ENTRY": {
   "en": "$CULTURE$ [culture|e] gets $AMOUNT|%0$ faster",
@@ -185,11 +185,11 @@
  },
  "hellenism_religion_movement_allow_tt": {
   "en": "[GetCountry('BYZ').GetName] must do this through the [ShowGenericActionName('reestablish_hellenism')] action or the Gemistos Plethon [events|e].",
-  "uk": "[GetCountry('BYZ').GetName] має зробити це через дію [ShowGenericActionName('reestablish_hellenism')] або через [Concept('events','події')|e] Гемістоса Пліфона."
+  "uk": "[GetCountry('BYZ').GetName] має зробити це через дію [ShowGenericActionName('reestablish_hellenism')] або через [Concept('events','події')|e] Гемістоса Плетона."
  },
  "hellenism_religion_movement_desc": {
   "en": "Among the Greek and Roman Christian peoples, a movement stirs — a yearning to reclaim the ancient ways and wisdom of their Hellenic forebears.",
-  "uk": "Серед греків і римських християн ворушиться рух — прагнення повернути давні звичаї та мудрість своїх елліністичних предків."
+  "uk": "Серед греків і римських християн зароджується рух — прагнення повернути давні звичаї та мудрість своїх еллінських предків."
  },
  "hellenism_religion_movement_location_modifier": {
   "en": "$hellenism_religion_movement$ Modifier",
@@ -217,23 +217,23 @@
  },
  "movement_factor_paper_guild": {
   "en": "[ShowBuildingTypeName('paper_guild')] in the [location|e]",
-  "uk": "[ShowBuildingTypeName('paper_guild')] у [Concept('location','локації')|e]"
+  "uk": "[ShowBuildingTypeName('paper_guild')] у [Concept('location','районі')|e]"
  },
  "movement_factor_paper_workshop": {
   "en": "[ShowBuildingTypeName('paper_workshop')] in the [location|e]",
-  "uk": "[ShowBuildingTypeName('paper_workshop')] у [Concept('location','локації')|e]"
+  "uk": "[ShowBuildingTypeName('paper_workshop')] у [Concept('location','районі')|e]"
  },
  "movement_factor_printing_press_shop": {
   "en": "[ShowBuildingTypeName('printing_press_shop')] in the [location|e]",
-  "uk": "[ShowBuildingTypeName('printing_press_shop')] у [Concept('location','локації')|e]"
+  "uk": "[ShowBuildingTypeName('printing_press_shop')] у [Concept('location','районі')|e]"
  },
  "movement_factor_scriptorium": {
   "en": "[ShowBuildingTypeName('scriptorium')] in the [location|e]",
-  "uk": "[ShowBuildingTypeName('scriptorium')] у [Concept('location','локації')|e]"
+  "uk": "[ShowBuildingTypeName('scriptorium')] у [Concept('location','районі')|e]"
  },
  "movement_factor_university": {
   "en": "[ShowBuildingTypeName('university')] in the [location|e]",
-  "uk": "[ShowBuildingTypeName('university')] у [Concept('location','локації')|e]"
+  "uk": "[ShowBuildingTypeName('university')] у [Concept('location','районі')|e]"
  },
  "roman_culture_movement": {
   "en": "Latin Revival",
@@ -241,7 +241,7 @@
  },
  "roman_culture_movement_allow_tt": {
   "en": "[GetCountry('BYZ').GetName] must be leaning towards [ShowSocietyDirectionName('latinization')] and own an [urban_location|e] with a [ShowLanguageFamilyName('romance_language_family')] [dominant_language|e] that has [average_satisfaction|e] over 50%",
-  "uk": "[GetCountry('BYZ').GetName] має тяжіти до [ShowSocietyDirectionName('latinization')] та володіти [Concept('urban_location','міською локацією')|e], де [Concept('dominant_language','домінантна мова')|e] належить до [ShowLanguageFamilyName('romance_language_family')] і має [Concept('average_satisfaction','середнє задоволення')|e] понад 50%"
+  "uk": "[GetCountry('BYZ').GetName] має тяжіти до [ShowSocietyDirectionName('latinization')] та володіти [Concept('urban_location','міським районом')|e], де [Concept('dominant_language','домінантна мова')|e] належить до [ShowLanguageFamilyName('romance_language_family')], а [Concept('average_satisfaction','середнє задоволення')|e] перевищує 50%"
  },
  "roman_culture_movement_desc": {
   "en": "The renaissance of the Latin ways within the rebirthed Roman Empire.",

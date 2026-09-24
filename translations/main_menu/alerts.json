@@ -245,11 +245,11 @@
  },
  "ALERT_CAN_JOIN_SECT": {
   "en": "We can join a [sect|e].",
-  "uk": "Ми можемо приєднатися до [Concept('sect','напряму')|e]."
+  "uk": "Ми можемо приєднатися до [Concept('sect','течії')|e]."
  },
  "ALERT_CAN_JOIN_SECT_TITLE": {
   "en": "Can Join Sect",
-  "uk": "Можна приєднатися до напряму"
+  "uk": "Можна приєднатися до течії"
  },
  "ALERT_CAN_JOIN_TARGETTED_IO": {
   "en": "We can join an International Organization",
@@ -489,7 +489,7 @@
  },
  "ALERT_DISCRIMINATED_CULTURE_ESTATES_TT": {
   "en": "The following [estates|e] have over [GetDefine('NEstate','ESTATE_DISCRIMINATED_CULTURE_POWER_ALERT_THRESHOLD')|V2%] [estate_power|e] but their [estate_culture|e] is [non_accepted_culture_short|e]:",
-  "uk": "Такі [Concept('estates','стани')|e] мають понад [GetDefine('NEstate','ESTATE_DISCRIMINATED_CULTURE_POWER_ALERT_THRESHOLD')|V2%] [Concept('estate_power','сили стану')|e], але їхня [Concept('estate_culture','культура стану')|e] є [Concept('non_accepted_culture_short','непринятою')|e]:"
+  "uk": "Такі [Concept('estates','стани')|e] мають понад [GetDefine('NEstate','ESTATE_DISCRIMINATED_CULTURE_POWER_ALERT_THRESHOLD')|V2%] [Concept('estate_power','станової влади')|e], але їхня [Concept('estate_culture','культура стану')|e] є [Concept('non_accepted_culture_short','пригнобленою')|e]:"
  },
  "ALERT_DISCRIMINATED_CULTURE_ESTATE_ENTRY": {
   "en": "[ESTATE.GetName] ($POWER|V2%$): [ESTATE.GetCulture.GetName]",
@@ -501,11 +501,11 @@
  },
  "ALERT_DISEASE_OUTBREAK": {
   "en": "These [diseases|e] are affecting our country: $INFO$.",
-  "uk": "Наша держава страждає від таких [Concept('diseases', 'епідемій')|e]: $INFO$."
+  "uk": "Наша держава страждає від таких [Concept('diseases', 'хвороб')|e]: $INFO$."
  },
  "ALERT_DISEASE_OUTBREAK_TITLE": {
   "en": "Disease affecting our Country",
-  "uk": "Епідемія в державі"
+  "uk": "Хвороба в державі"
  },
  "ALERT_DISLOYAL_SUBJECTS_ENTRY": {
   "en": "$BULLET_WITH_TAB$[COUNTRY.GetName]: $LOYALTY$",
@@ -769,7 +769,7 @@
  },
  "ALERT_HEIR_UNDERAGE": {
   "en": "Our current [heir|e] [CHARACTER.GetName] is a mere [child|e] of [CHARACTER.GetAgeInYears], but [CHARACTER.GetHeSheFormal] cannot become the [ruler|e] until [CHARACTER.GetSheHe] is an [adult|e]. We may be ruled by a [regency|e] until that time.",
-  "uk": "[CHARACTER.GetName], наш поточний [Concept('heir', 'спадкоємець')|e], — [CHARACTER.GetAgeInYears]-річна [Concept('child', 'дитина')|e], яка не зможе [Concept('ruler', 'правити')|e] країною до свого [Concept('adult', 'повноліття')|e]. Увесь цей час у державі діятиме [Concept('regency', 'регентство')|e]."
+  "uk": "[CHARACTER.GetName], наш поточний [Concept('heir', 'спадкоємець')|e], — [CHARACTER.GetAgeInYears]-річна [Concept('child', 'дитина')|e], яка не зможе [Concept('ruler', 'правити')|e] державою до свого [Concept('adult', 'повноліття')|e]. Увесь цей час у державі діятиме [Concept('regency', 'регентство')|e]."
  },
  "ALERT_HEIR_UNDERAGE_TITLE": {
   "en": "Underage Heir",
@@ -885,7 +885,7 @@
  },
  "ALERT_IO_NO_ACTIVE_POLICY": {
   "en": "#T No Active Policy#!\\n$LAW$ [law|e] in $INTERNATIONAL_ORGANIZATION$ has no active [policy|e]!\\n",
-  "uk": "#T Немає чинної політики#!\\nНемає чинної [Concept('policy', 'політики')|e] для [Concept('law','правила')|e] «$LAW$» об'єднання «$INTERNATIONAL_ORGANIZATION$»!\\n"
+  "uk": "#T Немає чинної політики#!\\nНемає чинної [Concept('policy', 'політики')|e] для [Concept('law','закону')|e] «$LAW$» об’єднання «$INTERNATIONAL_ORGANIZATION$»!\\n"
  },
  "ALERT_IS_AT_FORT_LIMIT": {
   "en": "We are at the limit of our [fortification|e] [buildings|e] score of $LIMIT|w$. Finishing construction of the following buildings will result in $VALUE|-=2%$ [fort_maintenance|e]:",
@@ -1113,7 +1113,7 @@
  },
  "ALERT_NO_SUPPLIES_ENTRY": {
   "en": "[TRADE.GetName] is getting outcompeted by $WHO$ who has a higher [merchant_power|e] in [TRADE.GetFromMarket.GetName].",
-  "uk": "[TRADE.GetName] — цю угоду перебиває конкурент ($WHO$). [TRADE.GetFromMarket.GetName] — тут у нього більше [Concept('merchant_power','купецької влади')|e]."
+  "uk": "[TRADE.GetName] — цю угоду перебиває конкурент ($WHO$). [TRADE.GetFromMarket.GetName] — тут у нього більша [Concept('merchant_power','торговельна перевага')|e]."
  },
  "ALERT_NO_SUPPLIES_ENTRY_DEFAULT": {
   "en": "[TRADE.GetName] has run out of supply, as there is nothing available for [export|e].",
@@ -1205,15 +1205,15 @@
  },
  "ALERT_POSSIBLE_LAWS": {
   "en": "The following [laws|e] have not been written:",
-  "uk": "Ці [Concept('laws','правила')|e] не були записані."
+  "uk": "Ці [Concept('laws','закони')|e] не були записані."
  },
  "ALERT_POSSIBLE_LAWS_TITLE": {
   "en": "Laws not Codified",
-  "uk": "Правила не систематизовані"
+  "uk": "Закони не систематизовані"
  },
  "ALERT_POSSIBLE_REVOLTS": {
   "en": "There are [rebels|e] in our [country|e].",
-  "uk": "У нашій [Concept('country','державі')|e] є [Concept('rebels','бунтівники')|e]."
+  "uk": "У нашій [Concept('country','державі')|e] є [Concept('rebels','повстанці')|e]."
  },
  "ALERT_POSSIBLE_REVOLTS_TITLE": {
   "en": "Rebel Movements",
@@ -1293,19 +1293,19 @@
  },
  "ALERT_RAISED_REBELS": {
   "en": "#T Raised Rebels#!\\nSome [rebels|e] raised in our [country|e]:",
-  "uk": "#T Повстання бунтівників#!\\nУ нашій [Concept('country','державі')|e] повстали [Concept('rebels','бунтівники')|e]:"
+  "uk": "#T Виступ повстанців#!\\nУ нашій [Concept('country','державі')|e] повстали [Concept('rebels','повстанці')|e]:"
  },
  "ALERT_RAISED_REBELS_ENTRY": {
   "en": "$VAL$ [rebels|e] in [LOCATION.GetName]",
-  "uk": "[Concept('rebels','Бунтівники')|e] ($VAL$) у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
+  "uk": "[Concept('rebels','Повстанці')|e] ($VAL$) у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
  },
  "ALERT_REBEL_ESTATES_TITLE": {
   "en": "Rebellious Estates",
-  "uk": "Бунтівні стани"
+  "uk": "Повсталі стани"
  },
  "ALERT_REBEL_ESTATES_TT": {
   "en": "The following [estates|e] have too low [estate_satisfaction|e] and are joining [rebels|e]:",
-  "uk": "Такі [Concept('estates','стани')|e] приєдналися до [Concept('rebels','бунтівників')|e] через надто низьке [Concept('estate_satisfaction','вдоволення')|e]:"
+  "uk": "Такі [Concept('estates','стани')|e] приєдналися до [Concept('rebels','повстанців')|e] через надто низьке [Concept('estate_satisfaction','задоволення')|e]:"
  },
  "ALERT_REBEL_ESTATE_ENTRY": {
   "en": "$BULLET_WITH_TAB$[ESTATE.GetName]: [ESTATE.GetSatisfaction|V2%]([ESTATE.GetMonthlySatisfactionChange|<+2%=]@satisfaction!)",

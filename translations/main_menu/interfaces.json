@@ -9,7 +9,7 @@
  },
  "ABANDON_COLONIAL_CHARTER_LOC": {
   "en": "Abandon Colonial Charter in [ProvinceDefinition.GetNameWithNoTooltip]",
-  "uk": "Покинути колоніальне поселення в провінції [ProvinceDefinition.GetNameWithNoTooltip]"
+  "uk": "Покинути колоніальну грамоту в провінції [ProvinceDefinition.GetNameWithNoTooltip]"
  },
  "ABILITY_IF_ADMIRAL": {
   "en": "If leading a [navy|e] as an admiral, the $VAL|Y$ $ABILITY$ of [CHARACTER.GetNameWithNoTooltip] gives the following effect of $NAME$:\\n$EFFECT$",
@@ -37,7 +37,7 @@
  },
  "ABILITY_TOOLTIP_AS_ARTIST_HEADER": {
   "en": "While serving as an [artist|e], the [abilities|e] of [Character.GetName] have the following effects:",
-  "uk": "Поки [Character.GetName] є [Concept('artist', 'творцем')|e], [Select_CString(Character.IsFemale,'її', 'його')] [Concept('abilities', 'навички')|e] мають наступні ефекти:"
+  "uk": "Поки [Character.GetName] є [Concept('artist', 'митцем')|e], [Select_CString(Character.IsFemale,'її', 'його')] [Concept('abilities', 'навички')|e] мають наступні ефекти:"
  },
  "ABILITY_TOOLTIP_AS_ARTIST_TITLE": {
   "en": "[Character.GetShortNameWithNoTooltip]'s Abilities As Artist",
@@ -121,11 +121,11 @@
  },
  "ACTIVE_LAWS_DESC": {
   "en": "The laws currently active in our country.",
-  "uk": "Цей звід правил зараз діє в нашій державі."
+  "uk": "Закони, що зараз діють у нашій державі."
  },
  "ACTIVE_LAWS_TOOLTIP": {
   "en": "Active Laws",
-  "uk": "Чинний звід правил"
+  "uk": "Чинні закони"
  },
  "ACTIVE_NOT_PRESENT_INSTITUTIONS_TITLE": {
   "en": "Progressing Institutions in [Location.GetNameWithNoTooltip]",
@@ -185,7 +185,7 @@
  },
  "ADMINISTRATIVE_LAW_CATEGORY": {
   "en": "Administrative Laws",
-  "uk": "Адміністративні правила"
+  "uk": "Адміністративні закони"
  },
  "ADMIN_EFFICIENCY": {
   "en": "$game_concept_legislative_efficiency$",
@@ -357,7 +357,7 @@
  },
  "AGE_SPECIFIC_COST": {
   "en": "[AGE.GetName] [advance|e]: $VAL|-=%2$",
-  "uk": "[Concept('advance','Поліпшення')|e] епохи «[AGE.GetName]»: $VAL|-=%2$"
+  "uk": "[Concept('advance','Покращення')|e] епохи «[AGE.GetName]»: $VAL|-=%2$"
  },
  "AGE_UNLOCKS_THESE_REFORMS": {
   "en": "This [age] gives access to these [government_reforms|e]: $NAME$",
@@ -557,7 +557,7 @@
  },
  "AI_SETTING_HANDLE_POLITICS_TT": {
   "en": "Whether AI will add, change or remove currently selected [reforms|e] and [laws|e].",
-  "uk": "Визначає, чи будуть держави під керуванням комп'ютера додавати, замінювати або видаляти обрані [Concept('reforms','реформи')|e] і [Concept('laws','правила')|e]."
+  "uk": "Визначає, чи будуть держави під керуванням комп’ютера додавати, замінювати або видаляти обрані [Concept('reforms','реформи')|e] і [Concept('laws','закони')|e]."
  },
  "AI_SETTING_HANDLE_RELIGION": {
   "en": "Allow handling [religion|e]",
@@ -849,7 +849,7 @@
  },
  "AREA_OPEN_SEA_NO_ADVANCE": {
   "en": "@trigger_no![AREA.GetName] is open sea, and we do not have the [advances|e] to explore that yet.",
-  "uk": "@trigger_no! Область [AREA.GetName] — відкрите море, і у нас немає [Concept('advances','поліпшень')|e], що дозволяють відправити туди експедицію."
+  "uk": "@trigger_no! Область [AREA.GetName] — відкрите море, і у нас немає [Concept('advances','покращень')|e], що дозволяють відправити туди експедицію."
  },
  "AREA_POPULATION_TT": {
   "en": "#T Total Population#!\\nThe [population|e] of [AREA.GetNameWithNoTooltip] is [AREA.GetTotalPopulation] from:\\n$BREAKDOWN$",
@@ -1057,7 +1057,7 @@
  },
  "ARTIST_AVAILABLE": {
   "en": "#T Artist Availability#! This Artist is available and ready to craft a [work_of_art|e] by a commission.",
-  "uk": "#T Доступність творця#! Цей творець доступний і готовий створити [Concept('work_of_art','творіння')|e] на замовлення."
+  "uk": "#T Доступність митця#! Цей митець доступний і готовий створити [Concept('work_of_art','витвір мистецтва')|e] на замовлення."
  },
  "ARTIST_IDLE": {
   "en": "Idle",
@@ -1109,7 +1109,7 @@
  },
  "ART_IN_LOCATION": {
   "en": "There is currently $NUM|V$ [works_of_art|E] in [LOCATION.GetName], which is $FRACTION|2V%$ of all art in the world.",
-  "uk": "Кількість [Concept('works_of_art','творів')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $NUM|V$, і це $FRACTION|2V%$ усіх творів у світі."
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $NUM|V$, і це $FRACTION|2V%$ усіх витворів у світі."
  },
  "ART_LOCATION_EFFECT": {
   "en": "This level of art has the following effects:\\n$EFFECTS$",
@@ -1345,7 +1345,7 @@
  },
  "AUTOMATED_SYSTEM_COLONIES_DESC": {
   "en": "Let the game create automatically [colonial_charters|e] to [colonize|e] unowned [provinces|e] and reclaim new lands for your [country|e].",
-  "uk": "Дозволить грі автоматично засновувати [Concept('colonial_charters', 'поселення')|e] для [Concept('colonize', 'колонізації')|e] вільних [Concept('provinces', 'провінцій')|e] та включати нові землі до складу [Concept('country', 'держави')|e]."
+  "uk": "Дозволить грі автоматично створювати [Concept('colonial_charters', 'колоніальні грамоти')|e] для [Concept('colonize', 'колонізації')|e] вільних [Concept('provinces', 'провінцій')|e] та включати нові землі до складу [Concept('country', 'держави')|e]."
  },
  "AUTOMATED_SYSTEM_CREDIT": {
   "en": "Credit Management",
@@ -1481,15 +1481,15 @@
  },
  "AUTOMATED_SYSTEM_LAWS": {
   "en": "Laws",
-  "uk": "Звід правил"
+  "uk": "Закони"
  },
  "AUTOMATED_SYSTEM_LAWS_CLICK": {
   "en": "Open Laws",
-  "uk": "Відкрити звід правил"
+  "uk": "Відкрити закони"
  },
  "AUTOMATED_SYSTEM_LAWS_DESC": {
   "en": "Manage the [laws|e] and [policies|e] in your [country|e] automatically.",
-  "uk": "Автоматично змінювати [Concept('laws','звід правил')|e] та [Concept('policies','політики')|e] Вашої [Concept('country','держави')|e]."
+  "uk": "Автоматично змінювати [Concept('laws','закони')|e] та [Concept('policies','політики')|e] Вашої [Concept('country','держави')|e]."
  },
  "AUTOMATED_SYSTEM_NAVYBUILDER": {
   "en": "Navy construction",
@@ -1585,7 +1585,7 @@
  },
  "AUTOMATED_SYSTEM_RESEARCH_DESC": {
   "en": "Manage automatically our country's [advances|e] tree.",
-  "uk": "Автоматично вивчати дерево [Concept('advances','поліпшень')|e] нашої держави."
+  "uk": "Автоматично вивчати дерево [Concept('advances','покращень')|e] нашої держави."
  },
  "AUTOMATED_SYSTEM_RGO": {
   "en": "R.G.O.",
@@ -3485,7 +3485,7 @@
  },
  "BUILD_LOCATION_SORT_UNEMPLOYED": {
   "en": "Sort by number of [unemployed|e] [pop|e]",
-  "uk": "Сортувати за кількістю [Concept('unemployed','безробітних')|e] [Concept('pop','груп населення')|e]"
+  "uk": "Сортувати за кількістю [Concept('unemployed','незайнятих')|e] [Concept('pop','груп населення')|e]"
  },
  "BUILD_LOCATION_TITLE": {
   "en": "Building [BuildInLocationLateralView.GetBuildingType.GetName]",
@@ -3817,7 +3817,7 @@
  },
  "CALC_ROAD_PATH_PROXIMITY_DESC": {
   "en": "This will minimize the [proximity|e] cost to the destination, help increase [control|e] here.",
-  "uk": "Це скоротить витрати на [Concept('proximity', 'досяжність')|e] до мети, завдяки чому підвищиться [Concept('control', 'контроль')|e]."
+  "uk": "Це скоротить вартість [Concept('proximity', 'близькості')|e] до мети, завдяки чому підвищиться [Concept('control', 'контроль')|e]."
  },
  "CALC_ROAD_PATH_PROXIMITY_NAME": {
   "en": "Proximity",
@@ -4193,11 +4193,11 @@
  },
  "CAN_ADD_MERCHANT_CAPACITY_MAX": {
   "en": "@trigger_no! We cannot assign more [merchant_capacity|e] to this [trade|e]",
-  "uk": "@trigger_no! Ми не можемо виділити більше [Concept('merchant_capacity','торгового потенціалу')|e] на цю [Concept('trade','угоду')|e]."
+  "uk": "@trigger_no! Ми не можемо виділити більше [Concept('merchant_capacity','торговельного потенціалу')|e] на цю [Concept('trade','угоду')|e]."
  },
  "CAN_ADD_MERCHANT_CAPACITY_MIN": {
   "en": "@trigger_no! We cannot assign less [merchant_capacity|e] to this [trade|e]",
-  "uk": "@trigger_no! Ми не можемо виділити менше [Concept('merchant_capacity','торгового потенціалу')|e] на цю [Concept('trade','угоду')|e]."
+  "uk": "@trigger_no! Ми не можемо виділити менше [Concept('merchant_capacity','торговельного потенціалу')|e] на цю [Concept('trade','угоду')|e]."
  },
  "CAN_AFFORD_REPAY_SOME_LOANS": {
   "en": "Immediately repay $AMOUNT$ of our [loans|e] with their remaining interest for a total of $COST|2Y$[gold_i]",
@@ -4345,7 +4345,7 @@
  },
  "CCI_ALREADY": {
   "en": "@trigger_no!We already have a [colonial_charter|e] in [PROVINCE_DEFINITION.GetName].",
-  "uk": "@trigger_no! У нас вже є [Concept('colonial_charter','колоніальне поселення')|e] у провінції [PROVINCE_DEFINITION.GetName]."
+  "uk": "@trigger_no! У нас вже є [Concept('colonial_charter','колоніальна грамота')|e] у провінції [PROVINCE_DEFINITION.GetName]."
  },
  "CCI_BIG_POP": {
   "en": "@trigger_no!We can not colonize [LOCATION.GetName] as the population is already above $VAL$.",
@@ -4369,7 +4369,7 @@
  },
  "CCI_MAX": {
   "en": "@trigger_no!There are already $VAL$ [colonial_charters|e] in [PROVINCE_DEFINITION.GetName].",
-  "uk": "@trigger_no! У провінції [PROVINCE_DEFINITION.GetName] вже є [Concept('colonial_charters', 'колоніальні поселення')|e] ($VAL$)."
+  "uk": "@trigger_no! У провінції [PROVINCE_DEFINITION.GetName] вже є [Concept('colonial_charters', 'колоніальні грамоти')|e] ($VAL$)."
  },
  "CCI_NOT_SO_FAR": {
   "en": "@trigger_no!Subjects that are [ShowSubjectTypeName('colonial_nation')]s can not go outside their [sub_continent|e].",
@@ -4401,7 +4401,7 @@
  },
  "CENTRALIZATION_LAW_CATEGORY": {
   "en": "Centralization Laws",
-  "uk": "Правила централізації"
+  "uk": "Закони централізації"
  },
  "CHANGE": {
   "en": "Change",
@@ -4917,7 +4917,7 @@
  },
  "COLONIAL_CHARTERS_TT_SOURCES": {
   "en": "Our Colonial Charters are:",
-  "uk": "Наші колоніальні поселення:"
+  "uk": "Наші колоніальні грамоти:"
  },
  "COLONIAL_CHARTERS_TT_TEXT": {
   "en": "The [Country.GetLongName] have [Country.GetTotalColonialCharters|0V] $game_concept_colonial_charters$.",
@@ -4925,7 +4925,7 @@
  },
  "COLONIAL_LATERALVIEW": {
   "en": "The [Player.GetAdjective] Colonial Charters",
-  "uk": "#L [Player.GetAdjective]і#! колоніальні поселення"
+  "uk": "#L [Player.GetAdjective]і#! колоніальні грамоти"
  },
  "COLONIAL_MAINTENANCE_FOR_COLONY_HEADER": {
   "en": "$game_concept_colonial_maintenance$ in [ColonialCharter.GetNameWithNoTooltip]",
@@ -4989,15 +4989,15 @@
  },
  "COLONIAL_TAB_TT_TEXT": {
   "en": "From here you can create [colonial_charters|e] to [colonize|e] unowned [provinces|e] and reclaim new lands for your [country|e].",
-  "uk": "Тут можна засновувати [Concept('colonial_charters', 'колоніальні поселення')|e] для [Concept('colonize', 'колонізації')|e] вільних [Concept('provinces', 'провінцій')|e] і включати нові землі до складу [Concept('country', 'держави')|e]."
+  "uk": "Тут можна створювати [Concept('colonial_charters', 'колоніальні грамоти')|e] для [Concept('colonize', 'колонізації')|e] вільних [Concept('provinces', 'провінцій')|e] і включати нові землі до складу [Concept('country', 'держави')|e]."
  },
  "COLONIAL_TAB_TT_TEXT_NOT_THIS_TYPE": {
   "en": "@trigger_no! As a [Player.GetCountryTypeName] you can not create any [colonial_charters|e].",
-  "uk": "@trigger_no! Ви [Player.GetCountryTypeName|l] і не можете засновувати [Concept('colonial_charters','колоніальні поселення')|e]."
+  "uk": "@trigger_no! Ви [Player.GetCountryTypeName|l] і не можете створювати [Concept('colonial_charters','колоніальні грамоти')|e]."
  },
  "COLONIAL_TOOLTIP_REMOVED": {
   "en": "This is a remain from a colonial charter that does not exist anymore.",
-  "uk": "Це залишки торговельного шляху неіснуючого більше колоніального поселення."
+  "uk": "Це залишки колоніальної грамоти, якої більше не існує."
  },
  "COLONIZE_MAP_MODE_OWNER": {
   "en": "@trigger_no![Location.GetName] is a part of [Location.GetOwner.GetLongNameWithFlag]",
@@ -5409,7 +5409,7 @@
  },
  "CONTRIBUTION_LAW_CATEGORY": {
   "en": "Contribution Laws",
-  "uk": "Правила внеску"
+  "uk": "Закони внеску"
  },
  "CONTROL_EXPAND_RGO_TOOLTIP_TITLE_TEXT": {
   "en": "Control in [Location.GetName]",
@@ -5585,7 +5585,7 @@
  },
  "COUNTRY_ART_IN_LOCATION": {
   "en": "There are a total of $NUM|V$ [works_of_art|E] in [COUNTRY.GetName], which is $FRACTION|2V%$ of all art in the world.",
-  "uk": "Сумарна кількість [Concept('works_of_art','творінь')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! становить $NUM|V$, це $FRACTION|2V%$ усіх творінь у світі."
+  "uk": "Сумарна кількість [Concept('works_of_art','витворів мистецтва')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! становить $NUM|V$, це $FRACTION|2V%$ усіх витворів у світі."
  },
  "COUNTRY_AVERAGE_CULTURE_TT": {
   "en": "#T Culture#!\\nThe percentage of the [population|e] with their [culture|e] being [CULTURE.GetName] in [COUNTRY.GetNameWithNoTooltip] is $PERCENTAGE|Y%$",
@@ -5677,7 +5677,7 @@
  },
  "COUNTRY_NO_WORK_OF_ART_HERE": {
   "en": "@trigger_no! There are no [works_of_art|E] in [COUNTRY.GetName]",
-  "uk": "@trigger_no! У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! немає [Concept('works_of_art', 'творінь')|e]."
+  "uk": "@trigger_no! У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! немає [Concept('works_of_art', 'витворів мистецтва')|e]."
  },
  "COUNTRY_POP_TYPES_TOOLTIP_HEADER": {
   "en": "$game_concept_pop_types$ of [Country.GetNameWithNoTooltip]",
@@ -5801,15 +5801,15 @@
  },
  "CREATE_COLONIAL_CHARTER": {
   "en": "Create Colonial Charter",
-  "uk": "Створити колоніальне поселення"
+  "uk": "Створити колоніальну грамоту"
  },
  "CREATE_COLONIAL_CHARTER_LOC": {
   "en": "Create Colonial Charter in [ProvinceDefinition.GetNameWithNoTooltip] ([ProvinceDefinition.GetArea.GetRegion.GetNameWithNoTooltip])",
-  "uk": "Створити колоніальне поселення в провінції [ProvinceDefinition.GetNameWithNoTooltip] ([ProvinceDefinition.GetArea.GetRegion.GetNameWithNoTooltip])"
+  "uk": "Створити колоніальну грамоту в провінції [ProvinceDefinition.GetNameWithNoTooltip] ([ProvinceDefinition.GetArea.GetRegion.GetNameWithNoTooltip])"
  },
  "CREATE_COLONIAL_CHARTER_TT_LOC": {
   "en": "Create Colonial Charter in [ProvinceDefinition.GetNameWithNoTooltip]",
-  "uk": "Створити колоніальне поселення в провінції [ProvinceDefinition.GetNameWithNoTooltip]"
+  "uk": "Створити колоніальну грамоту в провінції [ProvinceDefinition.GetNameWithNoTooltip]"
  },
  "CREATE_CONQUISTADOR_T": {
   "en": "#T $create_conquistador$#!",
@@ -6033,11 +6033,11 @@
  },
  "CULTURE_LATERAL_VIEW_WORKS_OF_ART": {
   "en": "Works Of Art",
-  "uk": "Творіння"
+  "uk": "Витвори мистецтва"
  },
  "CULTURE_LATERAL_VIEW_WORKS_OF_ART_DESC": {
   "en": "We have [CountryCultureLateralView.GetCountry.GetNumWorksOfArt|Y] [works_of_art|e]",
-  "uk": "Число наших [Concept('works_of_art','творів')|e]: [CountryCultureLateralView.GetCountry.GetNumWorksOfArt|Y]"
+  "uk": "Число наших [Concept('works_of_art','витворів мистецтва')|e]: [CountryCultureLateralView.GetCountry.GetNumWorksOfArt|Y]"
  },
  "CULTURE_MAINTENANCE_IMPACT": {
   "en": "With a maintenance of $VAL|%0Y$ we gain $CHANGE|2+=$[prestige_i]",
@@ -6221,7 +6221,7 @@
  },
  "CURRENT_OUTBREAKS_TAB_TT_TEXT": {
   "en": "This tab allows you to check all [disease_outbreaks|e] present in the world.",
-  "uk": "У цій вкладці Ви можете дізнатися про всі [Concept('disease_outbreaks','спалахи епідемії')|e] у світі."
+  "uk": "У цій вкладці Ви можете дізнатися про всі [Concept('disease_outbreaks','спалахи хвороб')|e] у світі."
  },
  "CURRENT_PRICE": {
   "en": "Current [price|e] of [ImportExportLateralView.GetGoods.GetName] in this [market|e]",
@@ -6657,7 +6657,7 @@
  },
  "DEFAULT_LAW_CATEGORY": {
   "en": "Fundamental Laws",
-  "uk": "Фундаментальні правила"
+  "uk": "Фундаментальні закони"
  },
  "DEFENDER_HAS_LOST": {
   "en": "[BattleResultMessage.GetBattleResult.GetDefender.GetMainParticipant.GetName] have lost.",
@@ -7269,7 +7269,7 @@
  },
  "DISEASES_TAB": {
   "en": "Diseases",
-  "uk": "Епідемії"
+  "uk": "Хвороби"
  },
  "DISEASES_TAB_TT_FLAVOR_TEXT": {
   "en": "'And I looked, and there before me was a pale horse: and his name was Death, and Hell followed with him. '",
@@ -7277,11 +7277,11 @@
  },
  "DISEASES_TAB_TT_TEXT": {
   "en": "Here you can access the [diseases|e] that are present in your [country|e].",
-  "uk": "Тут Ви можете дізнатися, які [Concept('diseases','епідемії')|e] присутні у Вашій [Concept('country','державі')|e]."
+  "uk": "Тут Ви можете дізнатися, які [Concept('diseases','хвороби')|e] присутні у Вашій [Concept('country','державі')|e]."
  },
  "DISEASES_TT_SUB_HEADER": {
   "en": "Due to the following diseases",
-  "uk": "Через такі епідемії"
+  "uk": "Через такі хвороби"
  },
  "DISEASE_CHART_MAX": {
   "en": "The maximum amount of $game_concept_population$ of [Player.GetFlagIcon] [Player.GetNameWithNoTooltip] had throughout whole history of [country|E] existence.",
@@ -7301,7 +7301,7 @@
  },
  "DISEASE_EACH_LOCATION": {
   "en": "When the [disease|e] reaches a certain level in each [location|e], the following happens:",
-  "uk": "Коли [Concept('disease','епідемія')|e] досягає певного рівня в кожному [Concept('location','районі')|e], відбувається наступне:"
+  "uk": "Коли [Concept('disease','хвороба')|e] досягає певного рівня в кожному [Concept('location','районі')|e], відбувається наступне:"
  },
  "DISEASE_LOCATIONS_PRESENT": {
   "en": "@area! Present in $AMOUNT$ owned locations",
@@ -7313,7 +7313,7 @@
  },
  "DISEASE_OUTBREAK_AFFECTED_COUNTRIES_TITLE": {
   "en": "Countries affected by [PossibleDisease.GetName]",
-  "uk": "Держави, уражені епідемією «[PossibleDisease.GetName]»"
+  "uk": "Держави, уражені хворобою «[PossibleDisease.GetName]»"
  },
  "DISEASE_OUTBREAK_AMOUNT_DEATH": {
   "en": "Total amount of population death by this disease outbreak",
@@ -7321,15 +7321,15 @@
  },
  "DISEASE_OUTBREAK_AMOUNT_DEATH_TITLE": {
   "en": "Total deaths from [PossibleDisease.GetName]",
-  "uk": "Всього загиблих від епідемії «[PossibleDisease.GetName]»"
+  "uk": "Всього загиблих від хвороби «[PossibleDisease.GetName]»"
  },
  "DISEASE_OUTBREAK_COUNTRY_AMOUNT": {
   "en": "Total amount of outbreaks of this disease affecting [Player.GetFlagIcon] [Player.GetNameWithNoTooltip].",
-  "uk": "Загальна кількість спалахів цієї епідемії, що вразили [Player.GetFlagIcon] [Player.Custom('CL_ACC')]"
+  "uk": "Загальна кількість спалахів цієї хвороби, що вразили [Player.GetFlagIcon] [Player.Custom('CL_ACC')]"
  },
  "DISEASE_OUTBREAK_COUNTRY_AMOUNT_TITLE": {
   "en": "Outbreaks of [PossibleDisease.GetName] in [Player.GetNameWithNoTooltip]",
-  "uk": "Спалахи епідемії «[PossibleDisease.GetName]» в [Player.Custom('CL_PREP')]"
+  "uk": "Спалахи хвороби «[PossibleDisease.GetName]» в [Player.Custom('CL_PREP')]"
  },
  "DISEASE_OUTBREAK_NAME": {
   "en": "The $SEVERITY$ [DISEASE.GetNameWithNoTooltip] outbreak in [LOCATION.GetNameWithNoTooltip] of $YEAR$",
@@ -7345,7 +7345,7 @@
  },
  "DISEASE_RESISTANCE_TT_HEADER": {
   "en": "Disease Resistance in [Player.GetNameWithNoTooltip]",
-  "uk": "Стійкість до епідемій у [Player.Custom('CL_PREP')]"
+  "uk": "Стійкість до хвороб у [Player.Custom('CL_PREP')]"
  },
  "DISEASE_SEVERITY_MINOR": {
   "en": "minor",
@@ -7821,11 +7821,11 @@
  },
  "ELECTION_LAW_CATEGORY": {
   "en": "Election Laws",
-  "uk": "Правила виборів"
+  "uk": "Закони виборів"
  },
  "ELECTOR_LAW_CATEGORY": {
   "en": "Electorate Laws",
-  "uk": "Правила виборців"
+  "uk": "Закони виборців"
  },
  "EMBARKED_ARMIES": {
   "en": "Embarked Armies",
@@ -8009,7 +8009,7 @@
  },
  "ENVIRONMENTAL_DISEASE": {
   "en": "Environmental [disease|e].",
-  "uk": "Природна [Concept('disease','епідемія')|e]."
+  "uk": "Природна [Concept('disease','хвороба')|e]."
  },
  "ENVIRONMENTAL_MOVEMENT": {
   "en": "Environmental [movement|e].",
@@ -8033,7 +8033,7 @@
  },
  "ESTATES_LAW_CATEGORY": {
   "en": "Estate Laws",
-  "uk": "Станові правила"
+  "uk": "Станові закони"
  },
  "ESTATES_NUMBER": {
   "en": "Total number of [ESTATE.GetName]: $VAL$@population!",
@@ -8569,7 +8569,7 @@
  },
  "EXPANSION_TAB_TT_TEXT": {
   "en": "From here you can start your [exploration|e] of the World and establish [colonial_charters|e].",
-  "uk": "Тут можна розпочати [Concept('exploration', 'експедицію')|e] у невивчені краї та заснувати [Concept('colonial_charters', 'колоніальні поселення')|e]."
+  "uk": "Тут можна розпочати [Concept('exploration', 'експедицію')|e] у невивчені краї та заснувати [Concept('colonial_charters', 'колоніальні грамоти')|e]."
  },
  "EXPECTED_ARMY_SIZE_SIMPLE": {
   "en": "#T Expected Army Size#! This is the expected total [strength|e] of our [armies|e]",
@@ -8713,7 +8713,7 @@
  },
  "EXPLORATION_NOT_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to start exploration!",
-  "uk": "@trigger_no! Щоб відправити експедицію, потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Щоб відправити експедицію, потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "EXPLORATION_OUTSIDE": {
   "en": "Beyond Naval Range (Distance = $DISTANCE|0V$ > Range = $RANGE|V0$): $VAL|-=2$",
@@ -8965,7 +8965,7 @@
  },
  "FEDERAL_LAW_CATEGORY": {
   "en": "Federal Laws",
-  "uk": "Федеральні правила"
+  "uk": "Федеральні закони"
  },
  "FEMALE_IN_COUNTRY": {
   "en": "Unmarried females for marriages: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|VL0$#!",
@@ -9309,7 +9309,7 @@
  },
  "FOREIGN_LOCATION": {
   "en": "@trigger_no! This [location|e] is not [owned|e] by us, but by [COUNTRY.GetLongName].",
-  "uk": "@trigger_no! [COUNTRY.GetLongName] — [Concept('owned','власник')|e] цього [Concept('location','району')|e], а не ми."
+  "uk": "@trigger_no! Цей [Concept('location','район')|e] [Concept('owned','належить')|e] не нам, а [COUNTRY.GetLongName]."
  },
  "FOREIGN_LOCATION_SHORT": {
   "en": "This [location|e] is not [owned|e] by us",
@@ -9317,7 +9317,7 @@
  },
  "FOREIGN_POLICY_LAW_CATEGORY": {
   "en": "Foreign Laws",
-  "uk": "Правила зовнішніх справ"
+  "uk": "Закони зовнішніх справ"
  },
  "FOREIGN_REL_ARMY_SIZE": {
   "en": "[regulars] of [Country.GetNameWithNoTooltip]",
@@ -9641,7 +9641,7 @@
  },
  "FOUNDATION_LAW_CATEGORY": {
   "en": "Foundation Laws",
-  "uk": "Правила заснування"
+  "uk": "Закони заснування"
  },
  "FOUND_city": {
   "en": "Found City",
@@ -9673,7 +9673,7 @@
  },
  "FREE_CITY_LAW_CATEGORY": {
   "en": "Free City Laws",
-  "uk": "Правила вільного міста"
+  "uk": "Закони вільного міста"
  },
  "FROM_MARKET": {
   "en": "From",
@@ -10169,7 +10169,7 @@
  },
  "GOODS_IS_RAW_MATERIAL": {
   "en": "[Goods.GetNameWithNoTooltip] is a [raw_material|E]",
-  "uk": "[Goods.GetNameWithNoTooltip] — це [Concept('raw_material','ресурс')|e]"
+  "uk": "[Goods.GetNameWithNoTooltip] — це [Concept('raw_material','сировина')|e]"
  },
  "GOODS_LOC_BALANCE_DEMAND_ENTRY": {
   "en": "Demand: $VAL|+=3$",
@@ -10453,7 +10453,7 @@
  },
  "GOODS_VIEW_RAW_MATERIAL": {
   "en": "[GoodsItem.GetGoods.GetNameWithNoTooltip] is a [raw_material|E]",
-  "uk": "[GoodsItem.GetGoods.GetNameWithNoTooltip] — це [Concept('raw_material','ресурс')|e]"
+  "uk": "[GoodsItem.GetGoods.GetNameWithNoTooltip] — це [Concept('raw_material','сировина')|e]"
  },
  "GOODS_WEALTH_REACH_ENTRY": {
   "en": "[POP_TYPE.GetIcon] [POP_TYPE.GetName] (full demand at $THRESHOLD|%2V$#! wealth): $PCT|2%Y$",
@@ -10905,7 +10905,7 @@
  },
  "HRE_CONTRIBUTION_MILITARY_MULTIPLIER": {
   "en": "Total [monthly_manpower|e] of specific members",
-  "uk": "Сумарний [Concept('monthly_manpower', 'щомісячний приріст робочої сили')|e] для конкретних учасників"
+  "uk": "Сумарна [Concept('monthly_manpower', 'кількість рекрутів на місяць')|e] для конкретних учасників"
  },
  "HRE_IMPERIAL_AUTORHITY_BONUS": {
   "en": "Imperial Authority Bonus",
@@ -11573,7 +11573,7 @@
  },
  "LAW_ALLOW_TRIGGER_NO": {
   "en": "It is not possible to select a [policy|e] for [LAW.GetName] due to:\\n$WHY$",
-  "uk": "Не можна вибрати [Concept('policy','політику')|e] для правила «[LAW.GetName]». Причини:\\n$WHY$"
+  "uk": "Не можна вибрати [Concept('policy','політику')|e] для закону «[LAW.GetName]». Причини:\\n$WHY$"
  },
  "LAW_IO_CONTEXT_TOOLTIP_POLICY_ACTIVE": {
   "en": "Active [policy|e]: [SelectInteractionTargetView.GetCurrentParams.GetTargetObjectFromFlag('recipient').GetInternationalOrganization.GetPolicyForLaw(Law.Self).GetName].",
@@ -11593,15 +11593,15 @@
  },
  "LAW_SELECT_POLICY_NEXT_LAW": {
   "en": "Select next law",
-  "uk": "Вибрати наступне правило"
+  "uk": "Вибрати наступний закон"
  },
  "LAW_SELECT_POLICY_PREV_LAW": {
   "en": "Select previous law",
-  "uk": "Вибрати попереднє правило"
+  "uk": "Вибрати попередній закон"
  },
  "LAW_SIDEMENU": {
   "en": "Click to select [policy|e] for [LAW.GetNameWithNoTooltip]",
-  "uk": "Клацніть, щоб вибрати [Concept('policy','політику')|e] для правила «[LAW.GetNameWithNoTooltip]»"
+  "uk": "Клацніть, щоб вибрати [Concept('policy','політику')|e] для закону «[LAW.GetNameWithNoTooltip]»"
  },
  "LAW_SITUATION_TOOLTIP_POLICY_ACTIVE": {
   "en": "Active [policy|e]: [SituationView.GetInternationalOrganizationForLaws.GetPolicyForLaw(Law.Self).GetName].",
@@ -11629,7 +11629,7 @@
  },
  "LEADERSHIP_LAW_CATEGORY": {
   "en": "Leadership Laws",
-  "uk": "Правила лідерства"
+  "uk": "Закони лідерства"
  },
  "LEAVE_IO_MEMBERSHIP": {
   "en": "Leave the [InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]",
@@ -11717,7 +11717,7 @@
  },
  "LEGEND_KEY_COLONIAL_CHARTER": {
   "en": "Colonial Charter",
-  "uk": "Колоніальне поселення"
+  "uk": "Колоніальна грамота"
  },
  "LEGEND_KEY_COLONIAL_CLAIM": {
   "en": "Colonial Claim",
@@ -12785,7 +12785,7 @@
  },
  "LOCATION_CULTURE_GROUPS_TT_DESC": {
   "en": "The [dominant_culture|e] in [Location.GetName] is [Location.GetDominantCulture.GetName], which shares the same culture groups with: [Location.GetDominantCulture.GetCultureGroupsCulturesString]",
-  "uk": "[Concept('dominant_culture','Домінуюча культура')|e] у [Location.Custom('LR_PREP')|l] [Location.GetName] — #L [Location.GetDominantCulture.GetName|l]а#!. Вона входить до тих самих культурних груп, що й: [Location.GetDominantCulture.GetCultureGroupsCulturesString]"
+  "uk": "[Concept('dominant_culture','Домінантна культура')|e] у [Location.Custom('LR_PREP')|l] [Location.GetName] — #L [Location.GetDominantCulture.GetName|l]а#!. Вона входить до тих самих культурних груп, що й: [Location.GetDominantCulture.GetCultureGroupsCulturesString]"
  },
  "LOCATION_CULTURE_GROUPS_TT_DESC2": {
   "en": "[Location.GetDominantCulture.GetName] is grouped as: [Location.GetDominantCulture.GetCultureGroupsWithTooltips]",
@@ -13285,7 +13285,7 @@
  },
  "LOC_BUILD_ROAD_TYPE_CONDITIONS": {
   "en": "@trigger_no!Requires [advance|e]",
-  "uk": "@trigger_no! Потрібне [Concept('advance','поліпшення')|e]"
+  "uk": "@trigger_no! Потрібне [Concept('advance','покращення')|e]"
  },
  "LOC_BUILD_ROAD_TYPE_DESC": {
   "en": "[RoadTypeItem.GetRoadType.GetDesc]",
@@ -13401,7 +13401,7 @@
  },
  "LOC_TT_CULTURE": {
   "en": "$BULLET_WITH_TAB$[dominant_culture|e]: [LocationWrap.GetLocation.GetDominantCulture.GetName]",
-  "uk": "$BULLET_WITH_TAB$[Concept('dominant_culture','Домінуюча культура')|e]: [LocationWrap.GetLocation.GetDominantCulture.GetName|l]а"
+  "uk": "$BULLET_WITH_TAB$[Concept('dominant_culture','Домінантна культура')|e]: [LocationWrap.GetLocation.GetDominantCulture.GetName|l]а"
  },
  "LOC_TT_FOOD": {
   "en": "$BULLET_WITH_TAB$[food|e]: [LocationWrap.GetLocation.GetFoodsOutput|+=2]",
@@ -13409,7 +13409,7 @@
  },
  "LOC_TT_GOODS": {
   "en": "$BULLET_WITH_TAB$[raw_material|e]: [LocationWrap.GetLocation.GetRawMaterial.GetName]",
-  "uk": "$BULLET_WITH_TAB$[Concept('raw_material','Ресурси')|e]: [LocationWrap.GetLocation.GetRawMaterial.GetName|l]"
+  "uk": "$BULLET_WITH_TAB$[Concept('raw_material','Сировина')|e]: [LocationWrap.GetLocation.GetRawMaterial.GetName|l]"
  },
  "LOC_TT_MARKET": {
   "en": "$BULLET_WITH_TAB$[market|e]: [LocationWrap.GetLocation.GetMarket.GetName]",
@@ -13421,7 +13421,7 @@
  },
  "LOC_TT_RELIGIOM": {
   "en": "$BULLET_WITH_TAB$[dominant_religion|e]: [LocationWrap.GetLocation.GetDominantReligion.GetName]",
-  "uk": "$BULLET_WITH_TAB$[Concept('dominant_religion','Домінуюча релігія')|e]: [LocationWrap.GetLocation.GetDominantReligion.GetName]"
+  "uk": "$BULLET_WITH_TAB$[Concept('dominant_religion','Панівна релігія')|e]: [LocationWrap.GetLocation.GetDominantReligion.GetName]"
  },
  "LOC_TT_TAX": {
   "en": "$BULLET_WITH_TAB$[tax_base|e]: [LocationWrap.GetLocation.GetTotalTaxBase|L2]@gold",
@@ -13881,7 +13881,7 @@
  },
  "MAPMODE_COLONIAL": {
   "en": "#T $mapmode_colonial_name$#!\\nThis colors the [locations|e] owned by the selected [country|e] in green, [foreign|e] locations with their [buildings|e] in cyan, and their [colonial_charters|e] in blue.",
-  "uk": "#T $mapmode_colonial_name$#!\\nФарбує [Concept('locations','райони')|e] у володінні обраної [Concept('country','держави')|e] в зелений, [Concept('foreign','чужі')|e] райони з її [Concept('buildings','спорудами')|e] в блакитний, а [Concept('colonial_charters','колоніальні поселення')|e] в синій."
+  "uk": "#T $mapmode_colonial_name$#!\\nФарбує [Concept('locations','райони')|e] у володінні обраної [Concept('country','держави')|e] в зелений, [Concept('foreign','чужі')|e] райони з її [Concept('buildings','спорудами')|e] в блакитний, а [Concept('colonial_charters','колоніальні грамоти')|e] в синій."
  },
  "MAPMODE_COMMON_LANGUAGE": {
   "en": "#T $mapmode_common_language_name$#!\\n$mapmode_common_start$ the [common_language|e] of the [owner|e]",
@@ -13953,11 +13953,11 @@
  },
  "MAPMODE_DIALECT": {
   "en": "#T $mapmode_dialect_name$#!\\n$mapmode_common_start$ their [dominant_language|e] [dialect|e].",
-  "uk": "#T $mapmode_dialect_name$#!\\n$mapmode_common_start$ [Concept('dialect', 'діалекту')|e] [Concept('dominant_language', 'домінантної мови')|e]."
+  "uk": "#T $mapmode_dialect_name$#!\\n$mapmode_common_start$ [Concept('dialect', 'діалекту')|e] [Concept('dominant_language', 'панівної мови')|e]."
  },
  "MAPMODE_DIPLOMACY": {
   "en": "#T $mapmode_diplomacy_name$#!\\n$mapmode_common_start$ their [owner_s|e] [diplomatic_capacity_used|e] towards the selected [country|e], where dark grey indicates that they are outside their [diplomatic_range|e]. Stripes indicate if the selected country has a [core|e] on it.",
-  "uk": "#T $mapmode_diplomacy_name$#!\\n$mapmode_common_start$ [Concept('diplomatic_capacity_used','використаного дипломатичного потенціалу')|e] [Concept('owner_s','володаря')|e] стосовно обраної [Concept('country','держави')|e]. Темно-сірий колір показує, що держава перебуває за межами [Concept('diplomatic_range','дипломатичної дистанції')|e]. Штрихування показує, чи є [Concept('core','район національним')|e] для обраної держави."
+  "uk": "#T $mapmode_diplomacy_name$#!\\n$mapmode_common_start$ [Concept('diplomatic_capacity_used','використаного дипломатичного потенціалу')|e] [Concept('owner_s','володаря')|e] стосовно обраної [Concept('country','держави')|e]. Темно-сірий колір показує, що держава перебуває за межами [Concept('diplomatic_range','дипломатичної дистанції')|e]. Штрихування показує, чи є він [Concept('core','національним районом')|e] для обраної держави."
  },
  "MAPMODE_DIPLOMACY_POLITICAL": {
   "en": "#T $mapmode_diplomacy_political_name$#!\\nEach nation is colored with its specific nation color. Stripes indicate [location|e] with a [controller|e] that is not the [owner|e]",
@@ -13965,7 +13965,7 @@
  },
  "MAPMODE_DISEASE": {
   "en": "#T $mapmode_disease_name$#!\\nColors the [locations|e] by [disease|e] prevalence.",
-  "uk": "#T $mapmode_disease_name$#!\\nФарбує [Concept('locations','райони')|e] залежно від поширеності там [Concept('disease','епідемій')|e]."
+  "uk": "#T $mapmode_disease_name$#!\\nФарбує [Concept('locations','райони')|e] залежно від поширеності там [Concept('disease','хвороб')|e]."
  },
  "MAPMODE_DISEASE_LOCATION_TT_HEADER": {
   "en": "#indent_newline:3 Active [diseases|e] (#indent_newline:2 estimated share of local population infected):",
@@ -14085,15 +14085,15 @@
  },
  "MAPMODE_LANGUAGE": {
   "en": "#T $mapmode_language_name$#!\\n$mapmode_common_start$ their [dominant_language|e].",
-  "uk": "#T $mapmode_language_name$#!\\n$mapmode_common_start$ [Concept('dominant_language','домінантної мови')|e]."
+  "uk": "#T $mapmode_language_name$#!\\n$mapmode_common_start$ [Concept('dominant_language','панівної мови')|e]."
  },
  "MAPMODE_LANGUAGE_FAMILY": {
   "en": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ the [language_family|e] of their [dominant_language|e].",
-  "uk": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ [Concept('language_family','мовної сім’ї')|e] [Concept('dominant_language','домінантної мови')|e]."
+  "uk": "#T $mapmode_language_family_name$#!\\n$mapmode_common_start$ [Concept('language_family','мовної сім’ї')|e] [Concept('dominant_language','панівної мови')|e]."
  },
  "MAPMODE_LANGUAGE_POWER": {
   "en": "#T $mapmode_language_power_name$#!\\n$mapmode_common_start$ the [language_power|e] of their [dominant_language|e].",
-  "uk": "#T $mapmode_language_power_name$#!\\n$mapmode_common_start$ [Concept('language_power', 'сили')|e] [Concept('dominant_language', 'домінантної мови')|e]."
+  "uk": "#T $mapmode_language_power_name$#!\\n$mapmode_common_start$ [Concept('language_power', 'міці')|e] [Concept('dominant_language', 'панівної мови')|e]."
  },
  "MAPMODE_LITERACY": {
   "en": "#T $mapmode_literacy_name$#!\\n$mapmode_common_start$ the average [literacy|e] present.",
@@ -14109,11 +14109,11 @@
  },
  "MAPMODE_LOCATION_RELIGION": {
   "en": "#T $mapmode_location_religion_name$#!\\nThis colors each [location|e] by the color of its [dominant_religion|e].",
-  "uk": "#T $mapmode_location_religion_name$#!\\nФарбує [Concept('location','райони')|e] в кольори [Concept('dominant_religion','домінантної релігії')|e]."
+  "uk": "#T $mapmode_location_religion_name$#!\\nФарбує [Concept('location','райони')|e] в кольори [Concept('dominant_religion','панівної релігії')|e]."
  },
  "MAPMODE_LOCATION_RELIGION_GROUP": {
   "en": "#T $mapmode_location_religion_group_name$#!\\nThis colors each [location|e] by the [religion_group|e] color of its [dominant_religion|e].",
-  "uk": "#T $mapmode_location_religion_group_name$#!\\nФарбує [Concept('location', 'райони')|e] в колір [Concept('religion_group','релігійної групи')|e], до якої належить їхня [Concept('dominant_religion', 'домінантна релігія')|e]."
+  "uk": "#T $mapmode_location_religion_group_name$#!\\nФарбує [Concept('location', 'райони')|e] в колір [Concept('religion_group','релігійної групи')|e], до якої належить їхня [Concept('dominant_religion', 'панівна релігія')|e]."
  },
  "MAPMODE_LOCKED": {
   "en": "This Map Mode is locked to the current View",
@@ -14265,7 +14265,7 @@
  },
  "MAPMODE_RAW_MATERIAL": {
   "en": "#T $mapmode_raw_material_name$#!\\n$mapmode_common_start$ what [raw_materials|e] they produce.",
-  "uk": "#T $mapmode_raw_material_name$#!\\n$mapmode_common_start$ вироблюваних там [Concept('raw_materials','ресурсів')|e]."
+  "uk": "#T $mapmode_raw_material_name$#!\\n$mapmode_common_start$ вироблювану там [Concept('raw_materials','сировину')|e]."
  },
  "MAPMODE_REACTIVE_TRADE_GOOD": {
   "en": "#T $mapmode_reactive_trade_good_name$#!\\nMarket information about [goods|e].",
@@ -14589,7 +14589,7 @@
  },
  "MAP_MARKER_SETTING_NAME_COLONYCHARTER": {
   "en": "Colonial Charter",
-  "uk": "Колоніальне поселення"
+  "uk": "Колоніальна грамота"
  },
  "MAP_MARKER_SETTING_NAME_COMBAT": {
   "en": "Ongoing Combat",
@@ -14893,11 +14893,11 @@
  },
  "MARKET_ATTRACTION_LOCATION_DOMINANT_LANGUAGE": {
   "en": "Is [dominant_language|e] of [LOCATION.GetName]: $VAL|+0%$\\n",
-  "uk": "[Concept('dominant_language','Домінуюча мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName]: $VAL|+0%$\\n"
+  "uk": "[Concept('dominant_language','Панівна мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName]: $VAL|+0%$\\n"
  },
  "MARKET_ATTRACTION_LOCATION_DOMINANT_LANGUAGE_GROUP": {
   "en": "[LOCATION.GetName] [dominant_language|e] in same [language_family|e]: $VAL|+0%$\\n",
-  "uk": "[Concept('dominant_language','Домінуюча мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName] належить до тієї ж [Concept('language_family','мовної сім’ї')|e]: $VAL|+0%$\\n"
+  "uk": "[Concept('dominant_language','Панівна мова')|e] [LOCATION.GetRank.GetNameAltWithNoTooltip('LR_RP')|l] [LOCATION.GetName] належить до тієї ж [Concept('language_family','мовної сім’ї')|e]: $VAL|+0%$\\n"
  },
  "MARKET_ATTRACTION_NO_PROTECTION": {
   "en": "[trade_protection|e] lifted, so no penalty of $PROTECTION|%$\\n",
@@ -15409,7 +15409,7 @@
  },
  "MARKET_MERCHANT_POWER": {
   "en": "The amount of [merchant_power|e] our merchants have in the [market|e]",
-  "uk": "Обсяг [Concept('merchant_power','купецької влади')|e] наших купців на [Concept('market','ринку')|e]"
+  "uk": "Обсяг [Concept('merchant_power','торговельної переваги')|e] наших купців на [Concept('market','ринку')|e]"
  },
  "MARKET_NOT_IN_RANGE": {
   "en": "@trigger_no! [market|e] is NOT within [trade_range|e].\\n[Player.GetTradeRangeTooltip(Market.GetCenterLocation)]",
@@ -15681,7 +15681,7 @@
  },
  "MARRIED_IN_COUNTRY": {
   "en": "Important non-[royal_marriages|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|VL0$#!",
-  "uk": "Важливі шлюби поза [Concept('royal_marriages','королівськими')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|VL0$#!"
+  "uk": "Важливі шлюби поза [Concept('royal_marriages','династичними')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|VL0$#!"
  },
  "MARRIED_NON_RULER_ENTRY": {
   "en": "$BULLET$[CHARACTER.GetName]",
@@ -16185,7 +16185,7 @@
  },
  "MERCHANT_POWER": {
   "en": "[merchant_power|e]",
-  "uk": "[Concept('merchant_power','Купецька влада')|e]"
+  "uk": "[Concept('merchant_power','Торговельна перевага')|e]"
  },
  "MERCHANT_POWER_ENTRY": {
   "en": "[owned|e] [locations|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!",
@@ -16217,7 +16217,7 @@
  },
  "MERCHANT_POWER_TITLE": {
   "en": "[COUNTRY.GetAdjectiveWithNoTooltip] [merchant_power|e] in [MARKET.GetShortNameWithNoTooltip]",
-  "uk": "[MARKET.GetShortNameWithNoTooltip] — [COUNTRY.GetAdjectiveWithNoTooltip]а [Concept('merchant_power','купецька влада')|e]"
+  "uk": "[MARKET.GetShortNameWithNoTooltip] — [COUNTRY.GetAdjectiveWithNoTooltip]а [Concept('merchant_power','торговельна перевага')|e]"
  },
  "MERCHANT_POWER_TT_HEADER": {
   "en": "Impacts on $game_concept_merchant_power$ of [Player.GetNameWithNoTooltip]",
@@ -16453,7 +16453,7 @@
  },
  "MILITARY_LAW_CATEGORY": {
   "en": "Military Laws",
-  "uk": "Військові правила"
+  "uk": "Військові закони"
  },
  "MILITARY_L_TAB": {
   "en": "Military",
@@ -16665,11 +16665,11 @@
  },
  "MILITARY_OBJECTIVE_TYPE_ACTION_suppress_rebels": {
   "en": "Put down any revolts",
-  "uk": "Придушувати будь-які заколоти"
+  "uk": "Придушувати будь-які повстання"
  },
  "MILITARY_OBJECTIVE_TYPE_ACTION_tactical_suppress_rebels": {
   "en": "#T Suppress Rebels#!\\nPut down any possible revolts by reducing unrest in locations.",
-  "uk": "#T Придушення заколотів#!\\nПридушення будь-яких можливих заколотів і зниження безладдя в районах."
+  "uk": "#T Придушення повстанців#!\\nПридушення будь-яких можливих повстань зниженням безладдя в районах."
  },
  "MILITARY_OBJECTIVE_TYPE_ACTION_transport_troops": {
   "en": "Being transported to [LOCATION.GetName]",
@@ -16817,7 +16817,7 @@
  },
  "MILITARY_OBJECTIVE_TYPE_DESC_tactical_suppress_rebels": {
   "en": "Our [armies|e] will try to reduce unrest in locations with rebellious pops where it would permanently remove the pop from the revolt.",
-  "uk": "Наші [Concept('armies','армії')|e] намагатимуться знижувати безладдя в районах із заколотними групами населення, що назавжди відвадить групу населення від заколоту."
+  "uk": "Наші [Concept('armies','армії')|e] намагатимуться знижувати безладдя в районах із повстанськими групами населення, що назавжди відвадить групу населення від повстання."
  },
  "MILITARY_OBJECTIVE_TYPE_DESC_transport_troops": {
   "en": "[armies|e] will be transported to the target with the help of assigned [navies|e].",
@@ -18257,7 +18257,7 @@
  },
  "NEW_SUCCESSION_LAW": {
   "en": "Select new Succession Law",
-  "uk": "Обрати нове правило престолонаслідування"
+  "uk": "Обрати новий закон престолонаслідування"
  },
  "NEXT_BTN": {
   "en": "Next",
@@ -18329,7 +18329,7 @@
  },
  "NONE_DIES_TO_DISEASES": {
   "en": "Nobody has dies to any [disease|e] in our [country|e]",
-  "uk": "Ніхто не вмирає від [Concept('disease','епідемій')|e] у нашій [Concept('country','державі')|e]"
+  "uk": "Ніхто не вмирає від [Concept('disease','хвороб')|e] у нашій [Concept('country','державі')|e]"
  },
  "NON_ENGAGED_SPEED_TITLE": {
   "en": "Regiments trying to engage based on their [combat_speed_with_icon|e]:",
@@ -18461,7 +18461,7 @@
  },
  "NO_ALLOW_SUBJECTS_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to create subjects!",
-  "uk": "@trigger_no! Щоб створювати васалів, потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Щоб створювати васалів, потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "NO_ALLOW_SUBJECTS_TYPE_BLOCKS": {
   "en": "@trigger_no! We are a [SUBJECT_TYPE.GetName] and thus can not create new [subjects|e].",
@@ -18509,7 +18509,7 @@
  },
  "NO_BUILD_ROAD_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to build [roads|e]",
-  "uk": "@trigger_no! Щоб будувати [Concept('roads','дороги')|e], потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»."
+  "uk": "@trigger_no! Щоб будувати [Concept('roads','дороги')|e], потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»."
  },
  "NO_CABINET_ACTION": {
   "en": "No $game_concept_cabinet_action$ assigned",
@@ -18545,7 +18545,7 @@
  },
  "NO_COURT_COST_ENABLED": {
   "en": "@trigger_no! We need [ADVANCE_DEFINITION.GetName] to collect [tax|e] and have an expected cost for our [court|e]",
-  "uk": "@trigger_no! Для збору [Concept('tax','податків')|e] потрібне поліпшення «[ADVANCE_DEFINITION.GetName]», і нашому [Concept('court','двору')|e] доведеться заплатити за це."
+  "uk": "@trigger_no! Для збору [Concept('tax','податків')|e] потрібне покращення «[ADVANCE_DEFINITION.GetName]», і нашому [Concept('court','двору')|e] доведеться заплатити за це."
  },
  "NO_CULTURE_PENALTY_LIMIT": {
   "en": "#T Accepted Cultures#!\\nFor each [culture|e] above what we can support, we will get the following penalties:\\n$EFFECT$",
@@ -18585,7 +18585,7 @@
  },
  "NO_DISEASE_OUTBREAK": {
   "en": "@trigger_no! There is no presence of this [disease|e]",
-  "uk": "@trigger_no! Зараз немає цієї [Concept('disease','епідемії')|e]"
+  "uk": "@trigger_no! Зараз немає цієї [Concept('disease','хвороби')|e]"
  },
  "NO_DISEASE_OUTBREAK_IN_COUNTRY": {
   "en": "@area! No presence in our country",
@@ -18777,7 +18777,7 @@
  },
  "NO_NUMBER_OF_ARTISTS": {
   "en": "We currently have no [artists|e] available.",
-  "uk": "Зараз у нас немає доступних [Concept('artists','творців')|e]."
+  "uk": "Зараз у нас немає доступних [Concept('artists','митців')|e]."
  },
  "NO_NUM_PRIVILEDGE_TT": {
   "en": "#T Granted Privileges#!\\nWe currently have no [estate_privileges|e] granted to our [estates|e]",
@@ -18837,7 +18837,7 @@
  },
  "NO_POSSIBLE_ADVANCE_DEFINITION": {
   "en": "@trigger_no! There are no possible [advances|e] for this.",
-  "uk": "@trigger_no! Немає придатних для цього [Concept('advances', 'поліпшень')|e]."
+  "uk": "@trigger_no! Немає придатних для цього [Concept('advances', 'покращень')|e]."
  },
  "NO_POSSIBLE_AGE": {
   "en": "@trigger_no! There is no possible [age|e] for this.",
@@ -18973,11 +18973,11 @@
  },
  "NO_POSSIBLE_DISEASE": {
   "en": "@trigger_no! There are no [diseases|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('diseases', 'епідемій')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('diseases', 'хвороб')|e]."
  },
  "NO_POSSIBLE_DISEASE_OUTBREAK": {
   "en": "@trigger_no! There are no [disease_outbreaks|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('disease_outbreaks', 'спалахів епідемії')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('disease_outbreaks', 'спалахів хвороб')|e]."
  },
  "NO_POSSIBLE_DYNASTIES": {
   "en": "@trigger_no! There are no [dynasties|e] possible to select for this.",
@@ -19053,7 +19053,7 @@
  },
  "NO_POSSIBLE_HEIR_SELECTIONS": {
   "en": "@trigger_no! There are no succession laws possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору правил престолонаслідування."
+  "uk": "@trigger_no! Немає придатних для вибору законів престолонаслідування."
  },
  "NO_POSSIBLE_HOLY_SITES": {
   "en": "@trigger_no! There are no [holy_sites|e] possible to select for this.",
@@ -19109,7 +19109,7 @@
  },
  "NO_POSSIBLE_LAWS": {
   "en": "@trigger_no! There are no [laws|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('laws', 'правил')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('laws', 'законів')|e]."
  },
  "NO_POSSIBLE_LEVIES_FOREIGN": {
   "en": "@trigger_no! We can only raise levies from our own [provinces|e]!",
@@ -19377,23 +19377,23 @@
  },
  "NO_POSSIBLE_WORKS_OF_ART": {
   "en": "@trigger_no! There are no [works_of_art|e] possible to select for this.",
-  "uk": "@trigger_no! Немає придатних для вибору [Concept('works_of_art', 'творів')|e]."
+  "uk": "@trigger_no! Немає придатних для вибору [Concept('works_of_art', 'витворів мистецтва')|e]."
  },
  "NO_POSSIBLE_WORK_OF_ART_DEFINITION": {
   "en": "@trigger_no! There are no possible [work_of_art|e] types for this.",
-  "uk": "@trigger_no! Немає придатних для цього типів [Concept('work_of_art', 'творів')|e]."
+  "uk": "@trigger_no! Немає придатних для цього типів [Concept('work_of_art', 'витворів мистецтва')|e]."
  },
  "NO_PRISONERS": {
   "en": "@trigger_no! There are no [prisoners|e] in this unit.",
-  "uk": "@trigger_no! У цьому загоні немає [Concept('prisoners', 'бранців')|e]."
+  "uk": "@trigger_no! У цьому загоні немає [Concept('prisoners', 'полонених')|e]."
  },
  "NO_PRISONERS_CAN_BE_ENSLAVED": {
   "en": "@trigger_no! There are no [prisoners|e] in this unit that can be enslaved because of our religious beliefs.",
-  "uk": "@trigger_no! У цьому загоні немає [Concept('prisoners', 'бранців')|e], яких можна поневолити, це пов'язано з нашими релігійними віруваннями."
+  "uk": "@trigger_no! У цьому загоні немає [Concept('prisoners', 'полонених')|e], яких можна поневолити, це пов’язано з нашими релігійними віруваннями."
  },
  "NO_PRISONERS_CAN_BE_RANSOMED": {
   "en": "These [prisoners|e] were recently ransomed, the country will not pay for them again.",
-  "uk": "Цих [Concept('prisoners','бранців')|e] нещодавно викупили, держава не стане знову платити за них."
+  "uk": "Цих [Concept('prisoners','полонених')|e] нещодавно викупили, держава не стане знову платити за них."
  },
  "NO_PRIVATEERING_MAPMODE_TT": {
   "en": "[ROOT.GetLocation.GetName] does not have any [privateer|e].",
@@ -19405,7 +19405,7 @@
  },
  "NO_PRIVATEER_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to hire privateers!",
-  "uk": "@trigger_no! Щоб найняти каперів, потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Щоб найняти каперів, потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "NO_PROVINCE_SIDEMENU_INSTRUCTION": {
   "en": "This [location|e] is not owned",
@@ -19453,7 +19453,7 @@
  },
  "NO_STAB_INVEST_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to invest in [stability|e]!",
-  "uk": "@trigger_no! Щоб вкласти кошти в [Concept('stability','стабільність')|e], потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Щоб вкласти кошти в [Concept('stability','стабільність')|e], потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "NO_SUBUNITS": {
   "en": "@trigger_no! There are no subunits for this [unit_type|e]",
@@ -19541,11 +19541,11 @@
  },
  "NO_WORKS_OF_ART_MAPMODE_TT": {
   "en": "[ROOT.GetLocation.GetName] does not have any [works_of_art|e].",
-  "uk": "[ROOT.GetLocation.GetName] не володіє жодними [Concept('works_of_art', 'твореннями')|e]."
+  "uk": "[ROOT.GetLocation.GetName] не володіє жодними [Concept('works_of_art', 'витворами мистецтва')|e]."
  },
  "NO_WORK_OF_ART_HERE": {
   "en": "@trigger_no! There are no [works_of_art|E] in [LOCATION.GetName]",
-  "uk": "@trigger_no! У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] немає [Concept('works_of_art', 'творів')|e]."
+  "uk": "@trigger_no! У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] немає [Concept('works_of_art', 'витворів мистецтва')|e]."
  },
  "NUMBER_BUILDING": {
   "en": "#T Number of [BuildingItem.GetBuildingType.GetNameWithNoTooltip]#!\\n[BuildingItem.GetBuildingBreakdown]",
@@ -19589,7 +19589,7 @@
  },
  "NUM_OF_CURR_ARTISTS": {
   "en": "These are our [artists|e]:",
-  "uk": "Це наші [Concept('artists','творці')|e]:"
+  "uk": "Це наші [Concept('artists','митці')|e]:"
  },
  "NUM_POSSIBLE_ARTITS_WHY": {
   "en": "There are currently [Country.GetCharacterArtistsAmount|W] $game_concept_artists$ in our [country|e].\\n\\n#italic We could pay to hire up to [Country.GetModifierCappedValueWithNoTooltip('num_possible_artists')|W] $game_concept_artists$ if we had fewer than that, but more could come to our [country] by other means, such as [events|e].#!",
@@ -20041,7 +20041,7 @@
  },
  "OPEN_WORK_OF_ART_VIEW": {
   "en": "Click to open [work_of_art|e] list in Society panel",
-  "uk": "Клацніть, щоб відкрити список [Concept('work_of_art','творів')|e] на панелі «Суспільство»"
+  "uk": "Клацніть, щоб відкрити список [Concept('work_of_art','витворів мистецтва')|e] на панелі «Суспільство»"
  },
  "OPTION_FONT_SET_DEFAULT": {
   "en": "All Serif (Default)",
@@ -20117,7 +20117,7 @@
  },
  "OTHER_TRADE_ENTRY": {
   "en": "$BULLET$[TRADE.GetOwner.GetNameWithFlag] exporting [TRADE.GetQuantityOfGoodsActuallyMoved|2Y] to [TRADE.GetToMarket.GetName]: Relative [merchant_power|e] $VAL|-=2$",
-  "uk": "$BULLET$[TRADE.GetToMarket.GetName] — держава @[TRADE.GetOwner.GetFlag]! [TRADE.GetOwner.GetName] експортує сюди [TRADE.GetQuantityOfGoodsActuallyMoved|2Y] од. Відносна [Concept('merchant_power', 'купецька влада')|e]: $VAL|-=2$"
+  "uk": "$BULLET$[TRADE.GetToMarket.GetName] — держава @[TRADE.GetOwner.GetFlag]! [TRADE.GetOwner.GetName] експортує сюди [TRADE.GetQuantityOfGoodsActuallyMoved|2Y] од. Відносна [Concept('merchant_power', 'торговельна перевага')|e]: $VAL|-=2$"
  },
  "OUR_CURRENT_REBELS": {
   "en": "Our Possible Rebels",
@@ -20149,15 +20149,15 @@
  },
  "OUTBREAK_AMOUNT_COUNTRY_POPULATION_DEATH": {
   "en": "Total amount of population death in [Player.GetFlagIcon] [Player.GetNameWithNoTooltip] by this disease outbreak.",
-  "uk": "Загальна чисельність населення [Player.GetFlagIcon] [Player.Custom('CL_GEN')], що загинуло від цього спалаху епідемії"
+  "uk": "Загальна чисельність населення [Player.GetFlagIcon] [Player.Custom('CL_GEN')], що загинуло від цього спалаху хвороби"
  },
  "OUTBREAK_AMOUNT_COUNTRY_POPULATION_DEATH_TITLE": {
   "en": "Deaths from [PossibleDisease.GetName] in [Player.GetNameWithNoTooltip]",
-  "uk": "Загиблі від епідемії «[PossibleDisease.GetName]» в [Player.Custom('CL_PREP')]"
+  "uk": "Загиблі від хвороби «[PossibleDisease.GetName]» в [Player.Custom('CL_PREP')]"
  },
  "OUTBREAK_AMOUNT_COUNTRY_UNITS_DEATH": {
   "en": "Total amount of units death from our country by this disease outbreak",
-  "uk": "Загальна кількість загонів нашої держави, що загинули від цього спалаху епідемії"
+  "uk": "Загальна кількість загонів нашої держави, що загинули від цього спалаху хвороби"
  },
  "OUTCOMPETED_INFO": {
   "en": "$WHO$ are also [exporting|e] [GOODS.GetIcon][GOODS.GetName] from @market! [TRADE.GetFromMarket.GetShortName]. Their higher [merchant_power|e] might prevent this [trade|e] from securing more [goods|e].",
@@ -20381,7 +20381,7 @@
  },
  "PEOPLE_LATERAL_VIEW_REBELS": {
   "en": "Rebels",
-  "uk": "Бунтівники"
+  "uk": "Повстанці"
  },
  "PEOPLE_TAB": {
   "en": "People",
@@ -20853,7 +20853,7 @@
  },
  "POP_DEMAND_FROM_DISEASE": {
   "en": "Disease present: x$VAL|2G$",
-  "uk": "Присутня епідемія: x$VAL|2G$"
+  "uk": "Присутня хвороба: x$VAL|2G$"
  },
  "POP_DEMAND_FROM_ESTATE_DEFICIT": {
   "en": "[ESTATE.GetName] in deficit: x$VAL|2R$",
@@ -20893,7 +20893,7 @@
  },
  "POP_DISEASE": {
   "en": "Died from disease",
-  "uk": "Померли від епідемії"
+  "uk": "Померли від хвороби"
  },
  "POP_DISEASE_WT": {
   "en": "• $SIZE|G$ $TYPE$ died from disease.",
@@ -21449,11 +21449,11 @@
  },
  "POSSIBLE_ADVANCES_FOR_FORMABLE": {
   "en": "Possible [advances|e]",
-  "uk": "Можливі [Concept('advances','поліпшення')|e]"
+  "uk": "Можливі [Concept('advances','покращення')|e]"
  },
  "POSSIBLE_COLONIAL_CHARTERS": {
   "en": "Possible new [colonial_charters|e]",
-  "uk": "Можливі [Concept('colonial_charters','колоніальні поселення')|e]"
+  "uk": "Можливі [Concept('colonial_charters','колоніальні грамоти')|e]"
  },
  "POSSIBLE_EXPLORATIONS": {
   "en": "Possible new explorations",
@@ -21901,11 +21901,11 @@
  },
  "PRISONERS_NAME": {
   "en": "[COUNTRY.GetAdjective] [prisoners|e] in [LOCATION.GetName]",
-  "uk": "[COUNTRY.GetAdjective]і [Concept('prisoners','бранці')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
+  "uk": "[COUNTRY.GetAdjective]і [Concept('prisoners','полонені')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
  },
  "PRISONERS_TT": {
   "en": "[prisoners|e] in a camp in [LOCATION.GetName]:",
-  "uk": "[Concept('prisoners','Бранці')|e] у таборі [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]:"
+  "uk": "[Concept('prisoners','Полонені')|e] у таборі [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]:"
  },
  "PRIVATEERING_MAPMODE_TT": {
   "en": "[ROOT.GetLocation.GetName] is being tormented by a [privateer|e]",
@@ -22565,11 +22565,11 @@
  },
  "PROXIMITY_CAPITAL_TEXT": {
   "en": "This is the [capital_icon] [capital|e]. It will always have #W 100%#! [proximity].",
-  "uk": "Це [capital_icon] [Concept('capital','столиця')|e]. Її [Concept('proximity', 'досяжність')] завжди дорівнює #W 100%#!."
+  "uk": "Це [capital_icon] [Concept('capital','столиця')|e]. Її [Concept('proximity', 'близькість')] завжди дорівнює #W 100%#!."
  },
  "PROXIMITY_CAPITAL_TEXT_2": {
   "en": "Building [road_icon] [roads|e] from here will improve the [proximity] of other [location_icon] [locations|e].",
-  "uk": "Прокладання [road_icon] [Concept('roads','доріг')|e] у цьому районі підвищить [Concept('proximity', 'досяжність')] інших [location_icon] [Concept('locations','районів')|e]."
+  "uk": "Прокладання [road_icon] [Concept('roads','доріг')|e] у цьому районі підвищить [Concept('proximity', 'близькість')] інших [location_icon] [Concept('locations','районів')|e]."
  },
  "PROXIMITY_FROM_INFO": {
   "en": "From [LOCATION.GetName] to [TARGET_LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=$#! $ICON$",
@@ -22629,7 +22629,7 @@
  },
  "PROXIMITY_LIST_TITLE": {
   "en": "The [proximity] of [Location.GetName] to the nearest source is [Location.GetProximityToOwnerCapital|2W]% due to:",
-  "uk": "[Concept('proximity', 'Досяжність')] [Location.Custom('LR_GEN')|l] [Location.GetName] відносно найближчого джерела — [Location.GetProximityToOwnerCapital|2W]%. Причини:"
+  "uk": "[Concept('proximity', 'Близькість')] [Location.Custom('LR_GEN')|l] [Location.GetName] відносно найближчого джерела — [Location.GetProximityToOwnerCapital|2W]%. Причини:"
  },
  "PROXIMITY_NO_PATH_FOUND": {
   "en": "No path can be found to a Proximity Source.",
@@ -22897,7 +22897,7 @@
  },
  "RAW_MATERIAL_LOC": {
   "en": "[raw_material|e]",
-  "uk": "[Concept('raw_material','Ресурси')|e]"
+  "uk": "[Concept('raw_material','Сировина')|e]"
  },
  "RAW_MATERIAL_LOCATION_DETAILS_TT": {
   "en": "[LOCATION.GetName] produces #TOOLTIP:$BREAKDOWN_TAG$ $OUTPUT|VL$#! [GOODS.GetName] each month with [LOCATION.GetRGOWorkers|V] [rgo_pops|e] working with it.\\nThese are then sold for $VAL|2V$[gold_i] in [MARKET.GetName].\\n\\nThe [GOODS.GetNameWithNoTooltip|V] #V $game_concept_rgo$#! in [LOCATION.GetNameWithNoTooltip|V] is currently at [LOCATION.GetMaxRGOWorkersForUI|Y].\\nWhen fully upgraded, [LOCATION.GetNameWithNoTooltip|V] can support [LOCATION.GetMaximumMaxRGOWorkers|V] working with it.",
@@ -22977,7 +22977,7 @@
  },
  "REBEL_ESTATES": {
   "en": "Rebel Estates",
-  "uk": "Бунтівні стани"
+  "uk": "Повстанські стани"
  },
  "REBEL_GROWTH_TT": {
   "en": "Base growth of Rebel Faction is [Player.GetModifierValueNoFormat('monthly_rebel_growth')] due to:",
@@ -23133,7 +23133,7 @@
  },
  "RECRUIT_ARMY_GOLD": {
   "en": "[gold|e] cost for recruiting this [unit_type|e]",
-  "uk": "Витрати [Concept('gold','золота')|e] на набір цього [Concept('unit_type','типу військ')|e]"
+  "uk": "Витрати [Concept('gold','дукатів')|e] на набір цього [Concept('unit_type','типу військ')|e]"
  },
  "RECRUIT_ARMY_LEVIES": {
   "en": "Raise [army_levies|e] in a province",
@@ -23225,7 +23225,7 @@
  },
  "RECRUIT_EXPLORER_NOT_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to recruit an [explorer|e]!",
-  "uk": "@trigger_no! Щоб найняти [Concept('explorer','дослідника')|e], потрібне [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Щоб найняти [Concept('explorer','дослідника')|e], потрібне [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "RECRUIT_EXPLORER_REBEL": {
   "en": "@trigger_no![CHARACTER.GetName] is a [rebel|e], and can not be in an [exploration|e].",
@@ -23841,7 +23841,7 @@
  },
  "RELIGIOUS_LAW_CATEGORY": {
   "en": "Religious Laws",
-  "uk": "Релігійні правила"
+  "uk": "Релігійні закони"
  },
  "RELIGIOUS_UNITY_IN_HEADER": {
   "en": "$game_concept_religious_unity$ in [Country.GetNameWithNoTooltip]",
@@ -24041,7 +24041,7 @@
  },
  "RESEARCH_SUBTAB_TT_TEXT": {
   "en": "From here you can manage your [research|e] and access the [advances|e] available to your [country|e].",
-  "uk": "Тут можна керувати [Concept('research', 'дослідженнями')|e] та доступними Вашій [Concept('country', 'державі')|e] [Concept('advances', 'поліпшеннями')|e]."
+  "uk": "Тут можна керувати [Concept('research', 'дослідженнями')|e] та доступними Вашій [Concept('country', 'державі')|e] [Concept('advances', 'покращеннями')|e]."
  },
  "RESEARCH_TEXT": {
   "en": "Research",
@@ -25037,7 +25037,7 @@
  },
  "SOCIOECONOMIC_LAW_CATEGORY": {
   "en": "Socioeconomic Laws",
-  "uk": "Соціально-економічні правила"
+  "uk": "Соціально-економічні закони"
  },
  "SOCVAL_ONE_SIDE": {
   "en": "When $NAME|Y$ is dominant, it scales up to:\\n$EFFECT$",
@@ -25121,7 +25121,7 @@
  },
  "SORT_BY_ARTIST_TT": {
   "en": "Sort by [artist|e]",
-  "uk": "Сортувати за [Concept('artist','творцем')|e]"
+  "uk": "Сортувати за [Concept('artist','митцем')|e]"
  },
  "SORT_BY_ART_TT": {
   "en": "Sort by number of [works_of_art|e]",
@@ -25429,7 +25429,7 @@
  },
  "SORT_BY_OWNER_TT": {
   "en": "Sort by [owner|e]",
-  "uk": "Сортувати за [Concept('owner','володарем')|e]"
+  "uk": "Сортувати за [Concept('owner','власником')|e]"
  },
  "SORT_BY_PATRIARCH_TT": {
   "en": "Sort by patriarch",
@@ -25465,7 +25465,7 @@
  },
  "SORT_BY_RAW_MATERIAL_TT": {
   "en": "Sort by [raw_materials|e]",
-  "uk": "Сортувати за [Concept('raw_materials','ресурсами')|e]"
+  "uk": "Сортувати за [Concept('raw_materials','сировиною')|e]"
  },
  "SORT_BY_RELATIVE_PRICE_TT": {
   "en": "Sort the [goods|E] by the [market_price|E] the selected [market|e], relative to its default",
@@ -25581,11 +25581,11 @@
  },
  "SORT_CHARTER_NAME": {
   "en": "Colonial Charter Name",
-  "uk": "Назва колоніального поселення"
+  "uk": "Назва колоніальної грамоти"
  },
  "SORT_CHARTER_PROGRESS": {
   "en": "Colonial Charter Progress",
-  "uk": "Прогрес колоніального поселення"
+  "uk": "Прогрес колоніальної грамоти"
  },
  "SORT_COUNTRY_AE": {
   "en": "AE",
@@ -25821,7 +25821,7 @@
  },
  "SORT_MARITIME_MERCHANT_POWER": {
   "en": "Sort by maritime [merchant_power|e]",
-  "uk": "Сортувати за [Concept('merchant_power','купецькою владою')|e] на морі"
+  "uk": "Сортувати за морською [Concept('merchant_power','торговельною перевагою')|e]"
  },
  "SORT_MARITIME_NAME": {
   "en": "Sort by [seazone|e]",
@@ -26429,7 +26429,7 @@
  },
  "SUBTAB_MARKETS_TT_TEXT": {
   "en": "In this Tab you can see the list of [markets|e] relevant to your economy.\\n\\n$BULLET$[markets] with a green header are those [markets] where you [own] [locations|e].\\n$BULLET$Blue Markets are [markets] where you do not [own] [locations], but have [merchant_capacity|e], and therefore can conduct [trades|e] from there.",
-  "uk": "У цій вкладці перелічено [Concept('markets','ринки')|e], значущі для Вашої економіки.\\n\\n$BULLET$Зеленим позначено [Concept('markets','ринки')], у яких у Вас [Concept('own','є')] [Concept('locations','райони')|e].\\n$BULLET$Синім позначено [Concept('markets','ринки')], у яких у Вас [Concept('own','немає')] [Concept('locations','районів')], але є [Concept('merchant_capacity','торговельний потенціал')|e], завдяки чому Ви можете проводити на них [Concept('trades','торговельні угоди')|e]."
+  "uk": "У цій вкладці перелічено [Concept('markets','ринки')|e], значущі для Вашої економіки.\\n\\n$BULLET$Зеленим позначено [Concept('markets','ринки')], у яких Ви [Concept('own','володієте')] [Concept('locations','районами')|e].\\n$BULLET$Синім позначено [Concept('markets','ринки')], у яких Ви не [Concept('own','володієте')] [Concept('locations','районами')], але маєте [Concept('merchant_capacity','торговельний потенціал')|e], завдяки чому можете проводити на них [Concept('trades','торгові угоди')|e]."
  },
  "SUBTAB_MARKET_TRADE_GOODS": {
   "en": "$game_concept_goods$",
@@ -26529,7 +26529,7 @@
  },
  "SUB_UNIT_PRISONERS": {
   "en": "[prisoners|e] from [COUNTRY.GetName].",
-  "uk": "[Concept('prisoners', 'Бранці')|e] з #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
+  "uk": "[Concept('prisoners', 'Полонені')|e] з #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
  },
  "SUGGESTED_TRADE_LABEL_FOR_EXPORT": {
   "en": "@trade_capacity![PossibleTrade.GetFromMarket.GetShortNameWithNoTooltip] @orange_right! [PossibleTrade.GetToMarket.GetShortNameWithNoTooltip]",
@@ -26681,7 +26681,7 @@
  },
  "TAB_TOOLTIP_ADVANCES_TEXT": {
   "en": "This window allows you to manage your country's [advances|e] tree. Each [age|e] has a new [advances|e] tree.",
-  "uk": "Це вікно дозволяє керувати деревом [Concept('advances','поліпшень')|e] нашої держави. У кожної [Concept('age','епохи')|e] нове дерево [Concept('advances','поліпшень')|e]."
+  "uk": "Це вікно дозволяє керувати деревом [Concept('advances','покращень')|e] нашої держави. У кожної [Concept('age','епохи')|e] нове дерево [Concept('advances','покращень')|e]."
  },
  "TAB_TOOLTIP_ADVANCES_TITLE": {
   "en": "Advances",
@@ -26777,7 +26777,7 @@
  },
  "TAB_TOOLTIP_GEOPOLTICS_TEXT": {
   "en": "This window allows you to manage [maritime|e], [privateers|e], [colonial_charters|e] and [exploration|e].",
-  "uk": "Це вікно дозволяє керувати [Concept('maritime','морською присутністю')|e], [Concept('privateers','каперами')|e], [Concept('colonial_charters','колоніальними поселеннями')|e] та [Concept('exploration','експедиціями')|e]."
+  "uk": "Це вікно дозволяє керувати [Concept('maritime','морською присутністю')|e], [Concept('privateers','каперами')|e], [Concept('colonial_charters','колоніальними грамотами')|e] та [Concept('exploration','експедиціями')|e]."
  },
  "TAB_TOOLTIP_GEOPOLTICS_TITLE": {
   "en": "Geopolitics",
@@ -26793,7 +26793,7 @@
  },
  "TAB_TOOLTIP_GOVERNMENT_TEXT": {
   "en": "This window allows you to view the [country|e] and [ruler|e] overviews, country [estates|e], manage political aspects such as [laws|e], [reforms|e] and the [cabinet|e] and see the [societal_values|e].",
-  "uk": "У цьому вікні можна отримати відомості про [Concept('country','державу')|e], її [Concept('ruler','правителя')|e] і [Concept('estates','стани')|e], а також визначити її політичні аспекти, наприклад, [Concept('laws','звід правил')|e], [Concept('reforms','реформи')|e], [Concept('cabinet','раду')|e] і [Concept('societal_values','суспільні цінності')|e]."
+  "uk": "У цьому вікні можна отримати відомості про [Concept('country','державу')|e], її [Concept('ruler','правителя')|e] і [Concept('estates','стани')|e], а також визначити її політичні аспекти, наприклад, [Concept('laws','закони')|e], [Concept('reforms','реформи')|e], [Concept('cabinet','раду')|e] і [Concept('societal_values','суспільні цінності')|e]."
  },
  "TAB_TOOLTIP_GOVERNMENT_TITLE": {
   "en": "Government",
@@ -26801,7 +26801,7 @@
  },
  "TAB_TOOLTIP_LEDGER_TT_TEXT": {
   "en": "This window allows you to browse the [population|e] of our [country|e], the [works_of_art|e] around the world, gain a good overview of [goods|e] and see the [demands|e] inside our country.",
-  "uk": "У цьому вікні відображене [Concept('population','населення')|e] нашої [Concept('country','держави')|e] та [Concept('works_of_art','творіння')|e] по всьому світу, а також наведений огляд [Concept('goods','товарів')|e] та [Concept('demands','попит')|e] на них у нашій державі."
+  "uk": "У цьому вікні відображене [Concept('population','населення')|e] нашої [Concept('country','держави')|e] та [Concept('works_of_art','витвори мистецтва')|e] по всьому світу, а також наведений огляд [Concept('goods','товарів')|e] та [Concept('demands','попит')|e] на них у нашій державі."
  },
  "TAB_TOOLTIP_LEDGER_TT_TITLE": {
   "en": "Ledger",
@@ -26881,15 +26881,15 @@
  },
  "TAB_TOOLTIP_SOCIETY_CULTURE_ART_TEXT": {
   "en": "From here you can see [works_of_art|e] present in the [country|e] and check their [art_quality|e] and which [artist|e] is their creator.",
-  "uk": "Тут можна переглядати наявні в [Concept('country', 'державі')|e] [Concept('works_of_art', 'творіння')|e]. Відображаються також їхня [Concept('art_quality', 'якість')|e] та [Concept('artist', 'творці')|e]."
+  "uk": "Тут можна переглядати наявні в [Concept('country', 'державі')|e] [Concept('works_of_art', 'витвори мистецтва')|e]. Відображаються також їхня [Concept('art_quality', 'якість')|e] та [Concept('artist', 'митці')|e]."
  },
  "TAB_TOOLTIP_SOCIETY_CULTURE_ART_TITLE": {
   "en": "Works of Art",
-  "uk": "Творіння"
+  "uk": "Витвори мистецтва"
  },
  "TAB_TOOLTIP_SOCIETY_CULTURE_BREAKDOWN_TEXT": {
   "en": "From here you can manage [cultures|e] present in your [country|e]. You can see [primary_culture|e] of the $game_concept_country$, [accepted_cultures|e] and [non_accepted_cultures|e] and change their [cultural_status|e].",
-  "uk": "Тут можна управляти наявними в [Concept('country', 'державі')|e] [Concept('cultures', 'культурами')|e] та змінювати їхній [Concept('cultural_status', 'статус')|e]. Відображаються [Concept('primary_culture', 'основна культура')|e], а також [Concept('accepted_cultures', 'визнані')|e] та [Concept('non_accepted_cultures', 'невизнані')|e] культури."
+  "uk": "Тут можна керувати наявними в [Concept('country', 'державі')|e] [Concept('cultures', 'культурами')|e] та змінювати їхній [Concept('cultural_status', 'статус')|e]. Відображаються [Concept('primary_culture', 'основна культура')|e], а також [Concept('accepted_cultures', 'визнані')|e] та [Concept('non_accepted_cultures', 'пригноблені')|e] культури."
  },
  "TAB_TOOLTIP_SOCIETY_CULTURE_BREAKDOWN_TITLE": {
   "en": "Culture Breakdown",
@@ -26957,15 +26957,15 @@
  },
  "TAB_TOOLTIP_SOCIETY_PEOPLE_REBELS_TEXT": {
   "en": "From here you can see [rebels|e] with presence in your [country|e] and their progress towards starting a [revolt|e].",
-  "uk": "Тут відображаються наявні в [Concept('country', 'державі')|e] [Concept('rebels', 'бунтівники')|e] та їхні успіхи на шляху до підняття [Concept('revolt','повстання')|e]."
+  "uk": "Тут відображаються наявні в [Concept('country', 'державі')|e] [Concept('rebels', 'повстанці')|e] та їхні успіхи на шляху до підняття [Concept('revolt','повстання')|e]."
  },
  "TAB_TOOLTIP_SOCIETY_PEOPLE_REBELS_TITLE": {
   "en": "Rebels",
-  "uk": "Бунтівники"
+  "uk": "Повстанці"
  },
  "TAB_TOOLTIP_SOCIETY_PEOPLE_TEXT": {
   "en": "From here you can see [rebels|e] with presence in your [country|e], see and interact with [characters|e], get an overview of your [dynasties|e], and check detailed breakdown of [pops|e].",
-  "uk": "Тут можна побачити [Concept('rebels', 'бунтівників')|e] [Concept('country', 'держави')|e], переглядати [Concept('characters', 'персонажів')|e] та взаємодіяти з ними, вивчити Ваші [Concept('dynasties', 'династії')|e], а також дізнаватися подробиці про [Concept('pops', 'населення')|e]."
+  "uk": "Тут можна побачити [Concept('rebels', 'повстанців')|e] [Concept('country', 'держави')|e], переглядати [Concept('characters', 'персонажів')|e] та взаємодіяти з ними, вивчити Ваші [Concept('dynasties', 'династії')|e], а також дізнаватися подробиці про [Concept('pops', 'групи населення')|e]."
  },
  "TAB_TOOLTIP_SOCIETY_PEOPLE_TITLE": {
   "en": "People",
@@ -26981,7 +26981,7 @@
  },
  "TAB_TOOLTIP_SOCIETY_RELIGION_DOCTRINE_TEXT": {
   "en": "From here you can perform various religious actions like changing [liturgical_language|e], [religious_school|e], [religious_focus|e] or [religious_aspect|e].",
-  "uk": "Тут можна виконувати різні релігійні дії, наприклад змінювати [Concept('liturgical_language', 'літургійну мову')|e], [Concept('religious_school', 'релігійну школу')|e], [Concept('religious_focus', 'мету')|e] або [Concept('religious_aspect', 'особливість')|e]."
+  "uk": "Тут можна виконувати різні релігійні дії, наприклад змінювати [Concept('liturgical_language', 'літургійну мову')|e], [Concept('religious_school', 'релігійну школу')|e], [Concept('religious_focus', 'релігійну ціль')|e] або [Concept('religious_aspect', 'релігійну особливість')|e]."
  },
  "TAB_TOOLTIP_SOCIETY_RELIGION_DOCTRINE_TITLE": {
   "en": "Religious Doctrine",
@@ -26989,7 +26989,7 @@
  },
  "TAB_TOOLTIP_SOCIETY_RELIGION_TEXT": {
   "en": "From here you can check [religion|e] breakdown in your [country|e] and perform various religious actions like changing [religious_school|e], [religious_focus|e] and other.",
-  "uk": "Тут можна переглядати наявні в [Concept('country', 'державі')|e] [Concept('religion', 'релігії')|e] та виконувати різні дії, наприклад змінювати [Concept('religious_school', 'релігійну школу')|e] або [Concept('religious_focus', 'мету')|e] тощо."
+  "uk": "Тут можна переглядати наявні в [Concept('country', 'державі')|e] [Concept('religion', 'релігії')|e] та виконувати різні дії, наприклад змінювати [Concept('religious_school', 'релігійну школу')|e] або [Concept('religious_focus', 'релігійну ціль')|e] тощо."
  },
  "TAB_TOOLTIP_SOCIETY_RELIGION_TITLE": {
   "en": "Religion",
@@ -27013,7 +27013,7 @@
  },
  "TAKE_ESTATE_LOAN": {
   "en": "Take out a [loan|e] of $AMOUNT|V$@gold! for $MONTHS|Y$ months with a yearly [interest|e] of [COUNTRY.GetModifierValue('bank_interest')].\\n\\nThe [estates|e] have made [COUNTRY.GetEconomy.GetRemainingLoanCapacity|V2]@gold! available for us to borrow.",
-  "uk": "Взяти [Concept('loan','позику')|e] в розмірі $AMOUNT|V$@gold! на $MONTHS|Y$ міс. під [COUNTRY.GetModifierValue('bank_interest')] [Concept('interest', 'річних')|e].\\n\\n[Concept('estates','Стани')|e] можуть позичити нам до [COUNTRY.GetEconomy.GetRemainingLoanCapacity|V2]@gold!"
+  "uk": "Взяти [Concept('loan','позику')|e] в розмірі $AMOUNT|V$@gold! на $MONTHS|Y$ міс. під [COUNTRY.GetModifierValue('bank_interest')] [Concept('interest', 'відсотків')|e] річних.\\n\\n[Concept('estates','Стани')|e] можуть позичити нам до [COUNTRY.GetEconomy.GetRemainingLoanCapacity|V2]@gold!"
  },
  "TAKE_LOAN_BUTTON": {
   "en": "Take [loan|e]\\nHold Ctrl: $VAL$ [loans|e]\\nHold Shift: all [loans|e]",
@@ -27557,7 +27557,7 @@
  },
  "TOGGLE_LAW_CATEGORY": {
   "en": "Toggle Law Category",
-  "uk": "Показати або сховати категорію правил"
+  "uk": "Показати або сховати категорію законів"
  },
  "TOGGLE_LOCATION_SELECTION": {
   "en": "Toggle Location Selection",
@@ -28245,7 +28245,7 @@
  },
  "TRADE_TOOLTIP_NOT_ABLE_TO_BUY": {
   "en": "@trigger_no! Not able to buy [TRADE.GetGoods.GetName] from [TRADE.GetFromMarket.GetName] due to too little [merchant_power|e] to compete efficiently.",
-  "uk": "@trigger_no! [TRADE.GetFromMarket.GetName] — тут неможливо купувати товар «[TRADE.GetGoods.GetName]» через недостатню [Concept('merchant_power','купецьку владу')|e] для ефективної конкуренції."
+  "uk": "@trigger_no! [TRADE.GetFromMarket.GetName] — тут неможливо купувати товар «[TRADE.GetGoods.GetName]» через недостатню [Concept('merchant_power','торговельну перевагу')|e] для ефективної конкуренції."
  },
  "TRADE_TOOLTIP_PORTS": {
   "en": "[export|e] is through [TRADE.GetFromPort.GetName|Y] and the [import|e] is through [TRADE.GetToPort.GetName|Y]",
@@ -28301,7 +28301,7 @@
  },
  "TRAIT_INFO": {
   "en": "[traits|e]: $LIST$",
-  "uk": "[Concept('traits','Властивості')|e]: $LIST$"
+  "uk": "[Concept('traits','Риси')|e]: $LIST$"
  },
  "TRANSFER_OCCUPATION": {
   "en": "Transfer Occupation",
@@ -28529,7 +28529,7 @@
  },
  "TT_CONSTRUCTION_TEXT": {
   "en": "The [construction|e] cost for [SubUnitType.GetName] are as follows:",
-  "uk": "[Concept('construction','Створення')|e] типу «[SubUnitType.GetName]» коштує:"
+  "uk": "[Concept('construction','Будівництво')|e] типу «[SubUnitType.GetName]» коштує:"
  },
  "TT_CONSTRUCTION_TITLE": {
   "en": "$game_concept_construction$ of [SubUnitType.GetNameWithNoTooltip]",
@@ -28561,7 +28561,7 @@
  },
  "TT_FOODSTORAGE_TEXT": {
   "en": "The [food_storage|e] for [SubUnitType.GetName] are as follows:",
-  "uk": "[Concept('food_storage','Об’єм їжі')|e] у типу «[SubUnitType.GetName]» становить:"
+  "uk": "[Concept('food_storage','Обсяг їжі')|e] у типу «[SubUnitType.GetName]» становить:"
  },
  "TT_FOODSTORAGE_TITLE": {
   "en": "$game_concept_food_storage$ of [SubUnitType.GetNameWithNoTooltip]",
@@ -28905,7 +28905,7 @@
  },
  "UNIT_ACTIVITY_MovingPrisoners": {
   "en": "Prisoner transport to [LOCATION.GetName]",
-  "uk": "Перевезення бранців у [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName]"
+  "uk": "Перевезення полонених у [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName]"
  },
  "UNIT_ACTIVITY_MovingToBuildSupplyDepot": {
   "en": "Moving to build a supply depot in [LOCATION.GetName]",
@@ -28993,7 +28993,7 @@
  },
  "UNIT_ACTIVITY_WaitingForRebels": {
   "en": "Waiting for suitable rebel targets.",
-  "uk": "Очікування підходящих бунтівних цілей."
+  "uk": "Очікування підходящих цілей серед повстанців."
  },
  "UNIT_ACTIVITY_WaitingOutWinter": {
   "en": "Waiting Out Winter",
@@ -29429,7 +29429,7 @@
  },
  "UPGRADE_LOC_RANK_NOT_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to found a town or a city",
-  "uk": "@trigger_no! Щоб заснувати нові міста і містечка, потрібно дослідити [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»."
+  "uk": "@trigger_no! Щоб заснувати нові міста і містечка, потрібно дослідити [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»."
  },
  "UPGRADE_LOC_RANK_NOT_OCCUPIED": {
   "en": "@trigger_no! It is not possible to found a town or a city when a [location|e] is occupied.",
@@ -29461,7 +29461,7 @@
  },
  "UPGRADE_RAW_MAT_NOT_ADVANCE": {
   "en": "@trigger_no! It is not possible to $NAME$ for [GOODS.GetName], we lack the [advances|e] required for it.\\n$INFO$",
-  "uk": "@trigger_no! $NAME$ — для цього неможливо виробляти товар «[GOODS.GetName]». Нам потрібні [Concept('advances', 'поліпшення')|e].\\n$INFO$"
+  "uk": "@trigger_no! $NAME$ — для цього неможливо виробляти товар «[GOODS.GetName]». Нам потрібні [Concept('advances', 'покращення')|e].\\n$INFO$"
  },
  "UPGRADE_RAW_MAT_NOT_TYPE": {
   "en": "@trigger_no! It is not possible to $NAME$ for [GOODS.GetName], we need to build a specific [plantation|E] for it",
@@ -29793,7 +29793,7 @@
  },
  "WORKS_OF_ART_MAPMODE_TT": {
   "en": "[ROOT.GetLocation.GetName] has [ROOT.GetLocation.GetNumWorksOfArt|Y] [works_of_art|e].\\n\\n[ROOT.GetLocation.GetArtTooltip]",
-  "uk": "[ROOT.GetLocation.GetName] володіє [ROOT.GetLocation.GetNumWorksOfArt|Y] шт. [Concept('works_of_art', 'творінь')|e].\\n\\n[ROOT.GetLocation.GetArtTooltip]"
+  "uk": "[ROOT.GetLocation.GetName] володіє [ROOT.GetLocation.GetNumWorksOfArt|Y] шт. [Concept('works_of_art', 'витворів мистецтва')|e].\\n\\n[ROOT.GetLocation.GetArtTooltip]"
  },
  "WORK_OF_ART_DEFINITION_COUNTRY_MODIFIER": {
   "en": "$BULLET_WITH_TAB$A [WORK_OF_ART_TYPE.GetName] gives the following benefits to the owner:\\n$MODIFIER$",
@@ -29865,11 +29865,11 @@
  },
  "art_location": {
   "en": "Art Location",
-  "uk": "Місцезнаходження творіння"
+  "uk": "Місцезнаходження витвору"
  },
  "art_quality": {
   "en": "Art Quality",
-  "uk": "Якість творіння"
+  "uk": "Якість витвору"
  },
  "blockade_ports_ENTRY": {
   "en": "[LOCATION.GetName]: [LOCATION.GetBlockadeProgress|2%]",
@@ -29925,7 +29925,7 @@
  },
  "choose_colonial_charter": {
   "en": "Choose Colonial Charter",
-  "uk": "Вибір колоніального поселення"
+  "uk": "Вибір колоніальної грамоти"
  },
  "civil_construction_queue": {
   "en": "Ongoing civil constructions",
@@ -29969,7 +29969,7 @@
  },
  "create_colonial_charter_column": {
   "en": "Colonial Charter",
-  "uk": "Колоніальне поселення"
+  "uk": "Колоніальна грамота"
  },
  "create_conquistador": {
   "en": "Commission Conquistador",
@@ -30353,7 +30353,7 @@
  },
  "mapmode_dialect_name": {
   "en": "Dominant Dialects",
-  "uk": "Домінантні діалекти"
+  "uk": "Панівні діалекти"
  },
  "mapmode_diplomacy_name": {
   "en": "Diplomacy",
@@ -30457,7 +30457,7 @@
  },
  "mapmode_language_name": {
   "en": "Dominant Languages",
-  "uk": "Домінантні мови"
+  "uk": "Панівні мови"
  },
  "mapmode_language_power_name": {
   "en": "Language Power",
@@ -30705,7 +30705,7 @@
  },
  "mapmode_select_target_colonial_name": {
   "en": "Select Colonial Charter",
-  "uk": "Вибір колоніального поселення"
+  "uk": "Вибір колоніальної грамоти"
  },
  "mapmode_select_target_country_name": {
   "en": "Select Target Country",
@@ -31041,7 +31041,7 @@
  },
  "prestige_topbar_hint": {
   "en": "There are many ways to gain prestige, including winning [battles|e], but the primary way to increase it is through spending the [budget|e] on [cultural_maintenance|e].",
-  "uk": "Є багато способів отримати престиж, включно з перемогами у [Concept('battles','битвах')|e], але основним з них є витрати з [Concept('budget','бюджету')|e] на [Concept('cultural_maintenance','вкладення в культуру')|e]."
+  "uk": "Є багато способів отримати престиж, включно з перемогами у [Concept('battles','битвах')|e], але основним з них є витрати з [Concept('budget','балансу')|e] на [Concept('cultural_maintenance','вкладення в культуру')|e]."
  },
  "primary_culture_percentage": {
   "en": "Primary Culture percentage",
@@ -31081,7 +31081,7 @@
  },
  "rebel_size": {
   "en": "Rebel Size",
-  "uk": "Розмір бунтівників"
+  "uk": "Розмір повстанців"
  },
  "recruit_conquistador": {
   "en": "$create_conquistador$",

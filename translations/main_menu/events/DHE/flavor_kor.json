@@ -1,7 +1,7 @@
 {
  "KOR_increase_favor_of_confucianism": {
   "en": "The $sect_favor$ [international_organization_variable|e] of [target_international_organization.GetName] will be increased by #g +5.0%#!.",
-  "uk": "[Concept('international_organization_variable', 'Змінна')|e] «$sect_favor$» в об'єднання «[target_international_organization.GetName]» збільшиться на #g 5,0%#!."
+  "uk": "[Concept('international_organization_variable', 'Показник')|e] «$sect_favor$» в об’єднання «[target_international_organization.GetName]» збільшиться на #g 5,0%#!."
  },
  "flavor_kor.1.a": {
   "en": "We shall break free from their barbaric rule!",
@@ -17,7 +17,7 @@
  },
  "flavor_kor.1.a.tt": {
   "en": "We take a hostile stance against [GetCountry('CHI').GetName], decreasing the opinions of each other by [ShowBiasValue('kor_hostile_attitude')|0]. If we remove all [ShowCultureName('mongolian_culture')] [THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [characters|e] from the country we will be able to remove [ShowGovernmentReformName('son_in_law_rule')]",
-  "uk": "Ми обрали ворожнечу з [GetCountry('CHI').Custom('CL_INST')], і думка сторін одна про одну погіршилася на [ShowBiasValue('kor_hostile_attitude')|0]. Коли нашу державу залишать усі #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольські#!#! [Concept('characters', 'піддані')|e]-[THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ми зможемо скасувати #TOOLTIP:GOVERNMENT_REFORM,son_in_law_rule,X #L правило «зятя»#!#!."
+  "uk": "Ми обрали ворожнечу з [GetCountry('CHI').Custom('CL_INST')], і думка сторін одна про одну погіршилася на [ShowBiasValue('kor_hostile_attitude')|0]. Коли нашу державу залишать усі #TOOLTIP:CULTURE,mongolian_culture_tt,X #L монгольські#!#! [Concept('characters', 'персонажі')|e]-[THIS.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ми зможемо скасувати #TOOLTIP:GOVERNMENT_REFORM,son_in_law_rule,X #L правило «зятя»#!#!."
  },
  "flavor_kor.1.b": {
   "en": "What will happen without the Mongol guidance?",
@@ -229,7 +229,7 @@
  },
  "flavor_kor.14.a.tt": {
   "en": "Unlock the following:\\n- [ShowAdvanceName('confucian_academy_advance')] [advances|e] for the #Y $age_2_renaissance$#!\\n- [ShowEstatePrivilegeName('petty_bureaucracy')] and [ShowEstatePrivilegeName('scholar_officials')] [estate_privileges|e]\\n- [ShowLawName('imperial_examination_law')] [policy|e] of the [ShowLawName('bureaucracy_law')] [law|e]",
-  "uk": "Вам доступне наступне:\\n • [Concept('advances', 'покращення')|e] #TOOLTIP:ADVANCE_DEFINITION,confucian_academy_advance,X #L «Конфуціанська академія»#!#! для епохи #Y $age_2_renaissance$#!\\n • [Concept('estate_privileges', 'станові привілеї')|e] #TOOLTIP:ESTATE_PRIVILEGE,petty_bureaucracy,X #L «Мала бюрократія»#!#! та #TOOLTIP:ESTATE_PRIVILEGE,scholar_officials,X #L «Вчені-чиновники»#!#!\\n • [Concept('policy', 'політика')|e] #TOOLTIP:LAW,imperial_examination_law,X #L «Система іспитів»#!#! для [Concept('law', 'правила')|e] #TOOLTIP:LAW,bureaucracy_law,X #L «Бюрократія»#!#!"
+  "uk": "Вам доступне наступне:\\n • [Concept('advances', 'покращення')|e] #TOOLTIP:ADVANCE_DEFINITION,confucian_academy_advance,X #L «Конфуціанська академія»#!#! для епохи #Y $age_2_renaissance$#!\\n • [Concept('estate_privileges', 'станові привілеї')|e] #TOOLTIP:ESTATE_PRIVILEGE,petty_bureaucracy,X #L «Мала бюрократія»#!#! та #TOOLTIP:ESTATE_PRIVILEGE,scholar_officials,X #L «Вчені-чиновники»#!#!\\n • [Concept('policy', 'політика')|e] #TOOLTIP:LAW,imperial_examination_law,X #L «Система іспитів»#!#! для [Concept('law', 'закону')|e] #TOOLTIP:LAW,bureaucracy_law,X #L «Бюрократія»#!#!"
  },
  "flavor_kor.14.desc": {
   "en": "The political stability of the [ROOT.GetCountry.GetLongName] has been disrupted by the emergence of a new group known as the Neo-Confucians. These are scholars from the countryside who had not traditionally been part of the conservative [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] elite that governed the country. Their obvious merits encourage the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to employ them in government; however, their reformist notions along with competition with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] establishment for land and positions led to ever more frequent clashes between the different factions in [ROOT.GetCountry.GetAdjectiveWithNoTooltip] politics.",
@@ -993,7 +993,7 @@
  },
  "flavor_kor.7.a.tt": {
   "en": "[from_country.GetName] will receive the [gold|e]",
-  "uk": "[from_country.GetName] отримає [Concept('gold', 'золото')|e]"
+  "uk": "[from_country.GetName] отримає [Concept('gold', 'дукати')|e]"
  },
  "flavor_kor.7.b": {
   "en": "Let us gift them our precious artifacts.",

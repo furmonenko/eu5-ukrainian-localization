@@ -157,7 +157,7 @@
  },
  "court_and_country.8.desc": {
   "en": "The attempts of [target_character.GetName] to unify the legal traditions, taxes and obligations of the provinces in the [ROOT.GetCountry.GetLongName] has led to the leaders of the [target_rebel.GetName] to call their compatriots to arms. They claim we have violated the rules we swore to uphold when their lands came under our control and that they have no choice but to once again raise the rebellious banners.\\n\\nOur local representatives implore us to strike a deal, from our seat of power in [target_location.GetName], before it is too late. If we guarantee to uphold some of their autonomy, they may yet be convinced the abolition of others.",
-  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'спробувала', 'спробував' )] сформулювати єдині закони, податки та зобов'язання для всіх провінцій держави [ROOT.GetCountry.GetLongName], але у відповідь на це [target_rebel.GetName] почали закликати своїх побратимів до зброї. Їхні лідери заявляють, що ми порушили закони, які поклялися захищати, і що в них немає іншого вибору, окрім як знову підняти прапори повстання.\\n\\nНаші місцеві представники благають нас почати переговори з бунтівниками, поки не стало надто пізно. Якщо ми пообіцяємо зберегти частину їхньої автономії, вони постараються переконати решту скласти зброю."
+  "uk": "[target_character.GetName] [Select_CString(target_character.IsFemale, 'спробувала', 'спробував' )] сформулювати єдині закони, податки та зобов’язання для всіх провінцій держави [ROOT.GetCountry.GetLongName], але у відповідь на це [target_rebel.GetName] почали закликати своїх побратимів до зброї. Їхні лідери заявляють, що ми порушили закони, які поклялися захищати, і що в них немає іншого вибору, окрім як знову підняти прапори повстання.\\n\\nНаші місцеві представники благають нас почати переговори з повстанцями, поки не стало надто пізно. Якщо ми пообіцяємо зберегти частину їхньої автономії, вони постараються переконати решту скласти зброю."
  },
  "court_and_country.8.title": {
   "en": "Brewing Dissent",
@@ -205,7 +205,7 @@
  },
  "every_supporter_pop_loses_5_satisfaction_tt": {
   "en": "[pops|e] that support a [rebellion|e] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
-  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'заколот')|e], знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
+  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'повстання')|e], знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
  },
  "gain_modifier_loc_key": {
   "en": "Every [location|e] in the [province|e] will gain the",
@@ -217,18 +217,18 @@
  },
  "non_rebel_pops_in_target_province_gain_5_satisfaction_tt": {
   "en": "[pops|e] that #Y do not#! support a [rebellion|e] in [target_province.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що #Y не підтримують#! [Concept('rebellion', 'заколот')|e], у провінції [target_province.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%]"
+  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що #Y не підтримують#! [Concept('rebellion', 'повстання')|e], у провінції [target_province.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%]"
  },
  "non_rebel_pops_in_target_province_lose_5_satisfaction_tt": {
   "en": "[pops|e] that #Y do not#! support a [rebellion|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]",
-  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що #Y не підтримують#! [Concept('rebellion', 'заколот')|e], у провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
+  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що #Y не підтримують#! [Concept('rebellion', 'повстання')|e], у провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
  },
  "rebel_pops_in_target_province_gain_10_satisfaction_tt": {
   "en": "[pops|e] that support a [rebellion|e] in [target_province.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'заколот')|e], у провінції [target_province.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
+  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'повстання')|e], у провінції [target_province.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
  },
  "rebel_pops_in_target_province_lose_10_satisfaction_tt": {
   "en": "[pops|e] that support a [rebellion|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]",
-  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'заколот')|e], у провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
+  "uk": "[Concept('pop_satisfaction', 'Задоволення ')|e] [Concept('pops', 'груп населення')|e], що підтримують [Concept('rebellion', 'повстання')|e], у провінції [target_province.GetNameWithNoTooltip] знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
  }
 }

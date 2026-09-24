@@ -1,7 +1,7 @@
 {
  "ACTIVE_OUTBREAK_TRIGGER": {
   "en": "Active [disease_outbreak|e] is $DISEASE_OUTBREAK|Y$",
-  "uk": "[Concept('disease_outbreak', 'Спалах епідемії')|e] — $DISEASE_OUTBREAK|Y$"
+  "uk": "[Concept('disease_outbreak', 'Спалах хвороби')|e] — $DISEASE_OUTBREAK|Y$"
  },
  "ACTIVE_RELIGIOUS_FOCUS_TRIGGER": {
   "en": "Is researching [TARGET_RELIGIOUS_FOCUS.GetName]",
@@ -21,7 +21,7 @@
  },
  "ADVANCE_TRIGGER": {
   "en": "Has the $ADVANCE$ [advance|e]",
-  "uk": "Є [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Є [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "AGENDA_FOR_ESTATE_TYPE_TRIGGER": {
   "en": "Is a [parliament_agenda|e] for the [TARGET_ESTATE_TYPE.GetName]",
@@ -81,7 +81,7 @@
  },
  "ANTAGONISM_TRIGGER": {
   "en": "[antagonism|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
  },
  "ANTAGONISM_TYPE_TRIGGER": {
   "en": "Has the $ANTAGONISM|Y$ antagonism bias of [TARGET_COUNTRY.GetName]",
@@ -149,7 +149,7 @@
  },
  "ART_PROGRESS_TRIGGER": {
   "en": "Is $COMPARATOR$ $NUM|Y%$ of the way through a [work_of_art|e]",
-  "uk": "[Concept('work_of_art', 'Твір')|e] створено на $COMPARATOR$, ніж $NUM|Y%$"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] створено на $COMPARATOR$, ніж $NUM|Y%$"
  },
  "ART_QUALITY_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
@@ -197,7 +197,7 @@
  },
  "AVERAGE_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "The average [special_status_power_short|e] of $STATUS$ is $COMPARATOR$ $NUM|V2$",
-  "uk": "Середня [Concept('special_status_power_short','сила статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
+  "uk": "Середня [Concept('special_status_power_short','міць статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
  },
  "AVIALBLE_TRIGGER_TOOLTIP": {
   "en": "due to the following requirements: $WHY$",
@@ -481,7 +481,7 @@
  },
  "CAN_RESEARCH_ADVANCE": {
   "en": "Can research the $ADVANCE$ [advance|e]",
-  "uk": "Може досліджувати [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Може досліджувати [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "CAN_RIVAL_TRIGGER": {
   "en": "Would be able to make [TARGET_COUNTRY.GetName] their [rival|e]",
@@ -721,7 +721,7 @@
  },
  "CHARACTER_NUM_OF_TRAITS_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|Y$ [traits|e]",
-  "uk": "Має $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'властивостей')|e]"
+  "uk": "Має $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'рис')|e]"
  },
  "CHARACTER_PREGNANT_TRIGGER": {
   "en": "Is pregnant",
@@ -769,7 +769,7 @@
  },
  "COMBINED_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [special_statuses|e] have a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] $COMPARATOR$ $NUM|V2$"
  },
  "CONQUER_DESIRE_TRIGGER": {
   "en": "Desire to conquer [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V2$",
@@ -789,7 +789,7 @@
  },
  "COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] становить $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витвору')|e] становить $COMPARATOR$ $NUM|2Y$"
  },
  "COUNTRY_AVERAGE_CONTROL_TRIGGER": {
   "en": "Has an average [control|e] of $COMPARATOR$ $NUM|V0%$",
@@ -861,7 +861,7 @@
  },
  "COUNTRY_HAS_THIS_OPINION_OF_TARGET_OR_ABOVE": {
   "en": "[COUNTRY.GetName|U]'s [opinion|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "COUNTRY_HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE": {
   "en": "[COUNTRY.GetName|U]'s [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
@@ -1133,11 +1133,11 @@
  },
  "DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Deaths from [TARGET_DISEASE.GetName] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Смертей від епідемії «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2Y$"
+  "uk": "Смертей від хвороби «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2Y$"
  },
  "DISEASE_HAS_STAGNATED_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] has stagnated",
-  "uk": "Епідемія «[TARGET_DISEASE.GetName]» призупинилася"
+  "uk": "Хвороба «[TARGET_DISEASE.GetName]» призупинилася"
  },
  "DISEASE_IS_ACTIVE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] is active",
@@ -1161,11 +1161,11 @@
  },
  "DISEASE_PRESENCE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] presence is $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Присутність епідемії «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Присутність хвороби «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2%Y$"
  },
  "DISEASE_RESISTANCE_TRIGGER": {
   "en": "Resistance to [TARGET_DISEASE.GetName] is $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Опір епідемії «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Опір хворобі «[TARGET_DISEASE.GetName]» $COMPARATOR$ $NUM|2%Y$"
  },
  "DISEASE_TOTAL_DEATHS_TRIGGER": {
   "en": "Total number of deaths is $COMPARATOR$ $NUM|2Y$",
@@ -1541,7 +1541,7 @@
  },
  "FIRST_CAN_RESEARCH_ADVANCE": {
   "en": "We can research the $ADVANCE$ [advance|e]",
-  "uk": "Ми можемо досліджувати [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Ми можемо досліджувати [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "FIRST_CAN_RIVAL_TRIGGER": {
   "en": "We would be able to make [TARGET_COUNTRY.GetName] their [rival|e]",
@@ -1753,7 +1753,7 @@
  },
  "FIRST_DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of our dead from [TARGET_DISEASE.GetName] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[TARGET_DISEASE.GetName]» у нашій державі $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[TARGET_DISEASE.GetName]» у нашій державі $COMPARATOR$ $NUM|2Y$"
  },
  "FIRST_DISEASE_OUTBREAK_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of our dead from [TARGET_DISEASE_OUTBREAK.GetName] is $COMPARATOR$ $NUM|2Y$",
@@ -1865,7 +1865,7 @@
  },
  "FIRST_HAS_ADVANCE_AVAILABLE": {
   "en": "We have the $ADVANCE$ [advance|e] available to research",
-  "uk": "У нас є доступне для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У нас є доступне для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "FIRST_HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "We have the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -1873,7 +1873,7 @@
  },
  "FIRST_HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "We have the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "У нас є необхідне вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "У нас є необхідне покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "FIRST_HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "We view [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -1925,7 +1925,7 @@
  },
  "FIRST_HAS_CHARTERS_TRIGGER": {
   "en": "We have a [colonial_charter|E]",
-  "uk": "У нас є [Concept('colonial_charter', 'колоніальне поселення')|e]"
+  "uk": "У нас є [Concept('colonial_charter', 'колоніальна грамота')|e]"
  },
  "FIRST_HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "We have a national [chivalric_order|e]",
@@ -1957,19 +1957,19 @@
  },
  "FIRST_HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has [antagonism|e] towards us",
-  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'ворожість')|e] до нас"
+  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'неприязнь')|e] до нас"
  },
  "FIRST_HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName] against us",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
  },
  "FIRST_HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] against us and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName] against us",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'ворожості')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'неприязні')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
  },
  "FIRST_HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has temporary [antagonism|e] towards us",
-  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'ворожість')|e] до нас"
+  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'неприязнь')|e] до нас"
  },
  "FIRST_HAS_DIFFERENT_ORDER_OF_CHIVALRY_TRIGGER": {
   "en": "We have a different [chivalric_order|e] than [TARGET_COUNTRY.GetName]",
@@ -2205,7 +2205,7 @@
  },
  "FIRST_IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "We are an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "Ми [Concept('elector','виборці')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "Ми [Concept('elector','курфюрсти')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "FIRST_IS_ENEMY_OF_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "We are an enemy of [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
@@ -2377,7 +2377,7 @@
  },
  "FIRST_IS_VALID_COLONIAL_CHARTER_TRIGGER": {
   "en": "We can start a [colonial_charter|e] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "Ми можемо створити [Concept('colonial_charter','колоніальне поселення')|e] в об'єднанні «[TARGET_PROVINCE_DEFINITION.GetName]»"
+  "uk": "Ми можемо створити [Concept('colonial_charter','колоніальну грамоту')|e] у провінції «[TARGET_PROVINCE_DEFINITION.GetName]»"
  },
  "FIRST_IS_WAR_LEADER_OF_TRIGGER": {
   "en": "We are a [war_leader|e] of [TARGET_WAR.GetName]",
@@ -2509,7 +2509,7 @@
  },
  "FIRST_NUM_ADVANCES_TRIGGER": {
   "en": "We have $COMPARATOR$ $NUM|V0$ [advances|E] researched",
-  "uk": "Кількість досліджених нами [Concept('advances','вдосконалень')|E] $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість досліджених нами [Concept('advances','покращень')|E] $COMPARATOR$ $NUM|V0$"
  },
  "FIRST_NUM_ARTISTS_TRIGGER": {
   "en": "We have $COMPARATOR$ $NUM|V0$ [artists|e]",
@@ -2661,7 +2661,7 @@
  },
  "FIRST_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "We have $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] у нашій державі $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] у нашій державі $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "FIRST_OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Our offensive alliance strength is $COMPARATOR$ $NUM|2Y$",
@@ -2773,7 +2773,7 @@
  },
  "FIRST_PREV_ANTAGONISM_TOWARDS_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] [antagonism|E] of us is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до нас $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до нас $COMPARATOR$ $NUM|V00$"
  },
  "FIRST_PREV_FAVORS_WITH_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] [favors|E] with us are $COMPARATOR$ $NUM|V00$",
@@ -2781,7 +2781,7 @@
  },
  "FIRST_PREV_OPINION_OF_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] [opinion|E] of us is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до нас $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! про нас $COMPARATOR$ $NUM|V00$"
  },
  "FIRST_PREV_SPY_NETWORK_IN_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] [spy_network|E] in our country is $COMPARATOR$ $NUM|V00$",
@@ -2921,7 +2921,7 @@
  },
  "FIRST_THIS_ANTAGONISM_TOWARDS_PREV_TRIGGER": {
   "en": "Our [antagonism|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "Наша [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
+  "uk": "Наша [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
  },
  "FIRST_THIS_FAVORS_WITH_PREV_TRIGGER": {
   "en": "Our [favors|E] with [TARGET_COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$",
@@ -2929,7 +2929,7 @@
  },
  "FIRST_THIS_OPINION_OF_PREV_TRIGGER": {
   "en": "Our [opinion|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "Наше [Concept('opinion','ставлення')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "Наша [Concept('opinion','думка')|e] про #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "FIRST_THIS_SPY_NETWORK_IN_PREV_TRIGGER": {
   "en": "Our [spy_network|E] in [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
@@ -2973,7 +2973,7 @@
  },
  "FIRST_TOTAL_HEATHEN_POPULATION_TRIGGER": {
   "en": "We have a [heathen|e] population of $COMPARATOR$ $NUM|V0$",
-  "uk": "Наше [Concept('heathen','поганське')|e] населення $COMPARATOR$ $NUM|V0$"
+  "uk": "Наше [Concept('heathen','язичницьке')|e] населення $COMPARATOR$ $NUM|V0$"
  },
  "FIRST_TOTAL_HERETIC_POPULATION_TRIGGER": {
   "en": "We have a [heretic|e] population of $COMPARATOR$ $NUM|V0$",
@@ -3225,7 +3225,7 @@
  },
  "HAS_ADVANCE_AVAILABLE": {
   "en": "Has the $ADVANCE$ [advance|e] available to research",
-  "uk": "Є доступне для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Є доступне для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "Has the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -3233,7 +3233,7 @@
  },
  "HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "Has the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "Є необхідне вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "Є необхідне покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "Views [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -3261,7 +3261,7 @@
  },
  "HAS_ANY_DISEASE_PRESENT_TRIGGER": {
   "en": "Has any [disease|e] present",
-  "uk": "Присутня будь-яка [Concept('disease', 'епідемія')|e]"
+  "uk": "Присутня будь-яка [Concept('disease', 'хвороба')|e]"
  },
  "HAS_ANY_MISSION_ACTIVE_TRIGGER": {
   "en": "Has currently any [mission|e] active",
@@ -3285,7 +3285,7 @@
  },
  "HAS_ART_IN_PROGRESS_TRIGGER": {
   "en": "Is working on a [work_of_art|e]",
-  "uk": "Створює [Concept('work_of_art', 'твір')|e]"
+  "uk": "Створює [Concept('work_of_art', 'витвір мистецтва')|e]"
  },
  "HAS_AUTOCEPHALOUS_PATRIARCHATES_TRIGGER": {
   "en": "Uses [autocephalous_patriarchates|E]",
@@ -3341,7 +3341,7 @@
  },
  "HAS_CHARTERS_TRIGGER": {
   "en": "Has a [colonial_charter|E]",
-  "uk": "Є [Concept('colonial_charter', 'колоніальне поселення')|e]"
+  "uk": "Є [Concept('colonial_charter', 'колоніальна грамота')|e]"
  },
  "HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "Has a national [chivalric_order|e]",
@@ -3357,7 +3357,7 @@
  },
  "HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "Has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "Є [Concept('colonial_charter', 'колоніальне поселення')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "Є [Concept('colonial_charter', 'колоніальна грамота')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "HAS_COLONIAL_CLAIM_TRIGGER": {
   "en": "Has a claim in [TARGET_PROVINCE_DEFINITION.GetName]",
@@ -3385,19 +3385,19 @@
  },
  "HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has [antagonism|e]",
-  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'ворожість')|e]"
+  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'неприязнь')|e]"
  },
  "HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName]",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
  },
  "HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName]",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [Concept('antagonism', 'ворожості')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [Concept('antagonism', 'неприязні')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
  },
  "HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has temporary [antagonism|e]",
-  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'ворожість')|e]"
+  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'неприязнь')|e]"
  },
  "HAS_CULTURE_GROUP_TRIGGER": {
   "en": "Belongs to the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]",
@@ -3781,7 +3781,7 @@
  },
  "HAS_SECTS_TRIGGER": {
   "en": "Uses [sects|E]",
-  "uk": "Застосовується поняття [Concept('sects', 'напрямів')|e]"
+  "uk": "Застосовується поняття [Concept('sects', 'течій')|e]"
  },
  "HAS_SELLABLE_ART_TRIGGER": {
   "en": "Has a [work_of_art|e] available for sale",
@@ -3833,7 +3833,7 @@
  },
  "HAS_THIS_OPINION_OF_TARGET_OR_ABOVE": {
   "en": "[opinion|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] про #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE": {
   "en": "[trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
@@ -3857,7 +3857,7 @@
  },
  "HAS_TRAIT_CATEGORY_TRIGGER": {
   "en": "Has a $TRAIT_CATEGORY$ [trait|e]",
-  "uk": "Має [Concept('trait', 'властивість')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "Має [Concept('trait', 'рису')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "HAS_TRAIT_TRIGGER": {
   "en": "Is $TRAIT$",
@@ -3997,7 +3997,7 @@
  },
  "INTERNATIONAL_ORGANIZATION_HAS_LAWS_TRIGGER": {
   "en": "Has enacted [laws|e]",
-  "uk": "Встановлено [Concept('laws','звід правил')|e]"
+  "uk": "Встановлено [Concept('laws','закони')|e]"
  },
  "INTERNATIONAL_ORGANIZATION_HAS_LAW_TRIGGER": {
   "en": "Has enacted [TARGET_LAW.GetName]",
@@ -4057,7 +4057,7 @@
  },
  "INTRINSIC_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Intrinsic [disease_resistance|e] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Початкова [Concept('disease_resistance', 'стійкість до епідемій')|e] становить $COMPARATOR$ $NUM|2Y$"
+  "uk": "Початкова [Concept('disease_resistance', 'стійкість до хвороб')|e] становить $COMPARATOR$ $NUM|2Y$"
  },
  "IN_ASSAULT_TRIGGER": {
   "en": "In an assault",
@@ -4289,7 +4289,7 @@
  },
  "IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "Is an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "[Concept('elector','Виборець')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "[Concept('elector','Курфюрст')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "IS_ELIGIBLE_FOR_MARRIAGE": {
   "en": "Is eligible for any kind of marriage",
@@ -4845,11 +4845,11 @@
  },
  "LAW_IS_LOCKED_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] can NOT be changed",
-  "uk": "Правило «[LAW.GetName]» НЕ МОЖНА змінити"
+  "uk": "Закон «[LAW.GetName]» НЕ МОЖНА змінити"
  },
  "LAW_POLICY": {
   "en": "[Policy|e] for [LAW.GetName] is [POLICY.GetName]",
-  "uk": "[Concept('Policy', 'Політика')|e] правила «[LAW.GetName]» — «[POLICY.GetName]»"
+  "uk": "[Concept('Policy', 'Політика')|e] закону «[LAW.GetName]» — «[POLICY.GetName]»"
  },
  "LAW_REQUIRES_VOTE_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "Requires a vote to pass in the [international_organization|e]",
@@ -4869,11 +4869,11 @@
  },
  "LEADER_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] have a combined [special_status_power_short|e] percentage of $COMPARATOR$ $NUM|%V2$",
-  "uk": "Сукупний відсоток [Concept('special_status_power_short','сили')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] $COMPARATOR$ $NUM|%V2$"
+  "uk": "Сукупний відсоток [Concept('special_status_power_short','міці')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] $COMPARATOR$ $NUM|%V2$"
  },
  "LEADER_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] have a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] $COMPARATOR$ $NUM|V2$"
  },
  "LEADER_TYPE_TRIGGER": {
   "en": "Has the $TYPE|Y$ [leader_type|e]",
@@ -4921,7 +4921,7 @@
  },
  "LOCATION_ART_QUALITY_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] становить $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витвору')|e] становить $COMPARATOR$ $NUM|2Y$"
  },
  "LOCATION_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "Does NOT have $MODIFIER_NAME$",
@@ -5037,7 +5037,7 @@
  },
  "LOCATION_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0$ [works_of_art|e]",
-  "uk": "Кількість [Concept('works_of_art', 'творінь')|e] становить $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість [Concept('works_of_art', 'витворів мистецтва')|e] становить $COMPARATOR$ $NUM|V0$"
  },
  "LOCATION_PEACE_COST_TRIGGER": {
   "en": "[location|E] peace cost is $COMPARATOR$ $NUM|2Y$",
@@ -5073,7 +5073,7 @@
  },
  "LOCATION_WORKS_OF_ART_STAR_RATING_TRIGGER": {
   "en": "Has a [work_of_art|e] quality rating of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Рейтинг якості [Concept('work_of_art', 'творіння')|e] становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Рейтинг якості [Concept('work_of_art', 'витвору мистецтва')|e] становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "MAINTENANCE_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V02%$ $NAME$",
@@ -5197,7 +5197,7 @@
  },
  "MAX_SECTS_TRIGGER": {
   "en": "Allows $COMPARATOR$ $NUM|0V$ [sects|E]",
-  "uk": "Дозволяє $COMPARATOR$ $NUM|0V$ [Concept('sects', 'напрямів')|e]"
+  "uk": "Дозволяє $COMPARATOR$ $NUM|0V$ [Concept('sects', 'течій')|e]"
  },
  "MERCENARY_HAS_MODIFIER_TRIGGER": {
   "en": "Has $MODIFIER|Y$",
@@ -5301,7 +5301,7 @@
  },
  "MONTHS_SINCE_WAR_TRIGGER": {
   "en": "Has been $COMPARATOR$ $NUM|V0$ months since [war|e]",
-  "uk": "[Concept('war','Воєнний час')|e] закінчився $COMPARATOR$ $NUM|V0$ міс. тому"
+  "uk": "[Concept('war','Війна')|e] закінчилася $COMPARATOR$ $NUM|V0$ міс. тому"
  },
  "MORALE_PERCENTAGE": {
   "en": "Has $COMPARATOR$ $NUM|%Y$ [morale|e]",
@@ -5337,7 +5337,7 @@
  },
  "NONE_ART_DESTROYED_TRIGGER": {
   "en": "[work_of_art|e] is destroyed",
-  "uk": "[Concept('work_of_art', 'Твір')|e] знищено"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] знищено"
  },
  "NONE_ART_PRICE_TRIGGER": {
   "en": "[work_of_art|e] has a sale price of $COMPARATOR$ $NUM|2Y$[gold_i]",
@@ -5345,7 +5345,7 @@
  },
  "NONE_ART_QUALITY_TRIGGER": {
   "en": "[work_of_art|e] has $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
-  "uk": "[Concept('art_quality', 'Якість')|e] [Concept('work_of_art', 'твору')|e] становить $COMPARATOR$ $NUM|Y2/%$"
+  "uk": "[Concept('art_quality', 'Якість')|e] [Concept('work_of_art', 'витвору мистецтва')|e] становить $COMPARATOR$ $NUM|Y2/%$"
  },
  "NONE_ART_WORTH_TRIGGER": {
   "en": "[work_of_art|e] has a base worth of $COMPARATOR$ $NUM|2Y$[gold_i]",
@@ -5529,7 +5529,7 @@
  },
  "NONE_HAS_PERIPHORA_TRIGGER": {
   "en": "[work_of_art|e] is on Periphora",
-  "uk": "[Concept('work_of_art', 'Твір')|e] бере участь у процесії"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] бере участь у процесії"
  },
  "NONE_HAS_PRESENCE_IN_TRIGGER": {
   "en": "[country|e] has a presence in $GEOGRAPHY$",
@@ -5801,7 +5801,7 @@
  },
  "NONE_RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in [market|e] local to the [location|e] relative to the default price is $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на [Concept('market', 'ринку')|e] [Concept('location', 'району')|e] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на [Concept('market', 'ринку')|e] [Concept('location', 'району')|e] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "NONE_RELIGION_GROUP_PERCENTAGE_TRIGGER": {
   "en": "$NONE_GEOGRAPHY$ has $COMPARATOR$ $NUM|%Y$ of pops which are [TARGET_RELIGION_GROUP.GetName]",
@@ -5937,7 +5937,7 @@
  },
  "NOT_ADVANCE_TRIGGER": {
   "en": "Does NOT have the $ADVANCE$ [advance|e]",
-  "uk": "НЕМАЄ [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "НЕМАЄ [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_AGENDA_FOR_ESTATE_TYPE_TRIGGER": {
   "en": "Is NOT a [parliament_agenda|e] for the [TARGET_ESTATE_TYPE.GetName]",
@@ -5981,7 +5981,7 @@
  },
  "NOT_ANTAGONISM_TRIGGER": {
   "en": "[antagonism|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
  },
  "NOT_ANTAGONISM_TYPE_TRIGGER": {
   "en": "Does NOT have the $ANTAGONISM|Y$ antagonism bias of [TARGET_COUNTRY.GetName]",
@@ -6049,7 +6049,7 @@
  },
  "NOT_ART_PROGRESS_TRIGGER": {
   "en": "Is NOT $COMPARATOR$ $NUM|Y%$ of the way through a [work_of_art|e]",
-  "uk": "[Concept('work_of_art', 'Твір')|e] створено на НЕ $COMPARATOR$, ніж $NUM|Y%$"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] створено на НЕ $COMPARATOR$, ніж $NUM|Y%$"
  },
  "NOT_ART_QUALITY_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
@@ -6097,7 +6097,7 @@
  },
  "NOT_AVERAGE_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "The average [special_status_power_short|e] of $STATUS$ is NOT $COMPARATOR$ $NUM|V2$",
-  "uk": "Середня [Concept('special_status_power_short','сила статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Середня [Concept('special_status_power_short','міць статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_BANKRUPT_TRIGGER": {
   "en": "Is currently NOT [bankrupt|E]",
@@ -6369,7 +6369,7 @@
  },
  "NOT_CAN_RESEARCH_ADVANCE": {
   "en": "Can NOT research the $ADVANCE$ [advance|e]",
-  "uk": "НЕ може досліджувати [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "НЕ може досліджувати [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_CAN_RIVAL_TRIGGER": {
   "en": "Would NOT be able to make [TARGET_COUNTRY.GetName] their [rival|e]",
@@ -6609,7 +6609,7 @@
  },
  "NOT_CHARACTER_NUM_OF_TRAITS_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|Y$ [traits|e]",
-  "uk": "Має НЕ $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'властивостей')|e]"
+  "uk": "Має НЕ $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'рис')|e]"
  },
  "NOT_CHARACTER_PREGNANT_TRIGGER": {
   "en": "Is NOT pregnant",
@@ -6657,7 +6657,7 @@
  },
  "NOT_COMBINED_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [special_statuses|e] have NOT a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_CONQUER_DESIRE_TRIGGER": {
   "en": "Desire to conquer [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V2$",
@@ -6677,7 +6677,7 @@
  },
  "NOT_COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витвору')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_COUNTRY_AVERAGE_CONTROL_TRIGGER": {
   "en": "Does NOT have an average [control|e] of $COMPARATOR$ $NUM|V0%$",
@@ -7025,11 +7025,11 @@
  },
  "NOT_DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Deaths from [TARGET_DISEASE.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Смертей від епідемії «[TARGET_DISEASE.GetName]» НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Смертей від хвороби «[TARGET_DISEASE.GetName]» НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_DISEASE_HAS_STAGNATED_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] has NOT stagnated",
-  "uk": "Епідемія «[TARGET_DISEASE.GetName]» НЕ призупинилася"
+  "uk": "Хвороба «[TARGET_DISEASE.GetName]» НЕ призупинилася"
  },
  "NOT_DISEASE_IS_ACTIVE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] is NOT active",
@@ -7053,11 +7053,11 @@
  },
  "NOT_DISEASE_PRESENCE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] presence is NOT $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Присутність епідемії «[TARGET_DISEASE.GetName]» становить НЕ $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Присутність хвороби «[TARGET_DISEASE.GetName]» становить НЕ $COMPARATOR$ $NUM|2%Y$"
  },
  "NOT_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Resistance to [TARGET_DISEASE.GetName] is NOT $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Опір епідемії «[TARGET_DISEASE.GetName]» становить НЕ $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Опір хворобі «[TARGET_DISEASE.GetName]» становить НЕ $COMPARATOR$ $NUM|2%Y$"
  },
  "NOT_DISEASE_TOTAL_DEATHS_TRIGGER": {
   "en": "Total number of deaths is NOT $COMPARATOR$ $NUM|2Y$",
@@ -7429,7 +7429,7 @@
  },
  "NOT_FIRST_CAN_RESEARCH_ADVANCE": {
   "en": "We can NOT research the $ADVANCE$ [advance|e]",
-  "uk": "Ми НЕ можемо досліджувати [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Ми НЕ можемо досліджувати [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_FIRST_CAN_RIVAL_TRIGGER": {
   "en": "We would NOT be able to make [TARGET_COUNTRY.GetName] their [rival|e]",
@@ -7641,7 +7641,7 @@
  },
  "NOT_FIRST_DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of our dead from [TARGET_DISEASE.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[TARGET_DISEASE.GetName]» у нашій державі НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[TARGET_DISEASE.GetName]» у нашій державі НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_FIRST_DISEASE_OUTBREAK_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of our dead from [TARGET_DISEASE_OUTBREAK.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
@@ -7753,7 +7753,7 @@
  },
  "NOT_FIRST_HAS_ADVANCE_AVAILABLE": {
   "en": "We have NOT the $ADVANCE$ [advance|e] available to research",
-  "uk": "У нас НЕМАЄ доступного для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У нас НЕМАЄ доступного для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_FIRST_HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "We do NOT have the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -7761,7 +7761,7 @@
  },
  "NOT_FIRST_HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "We do NOT have the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "У нас НЕМАЄ необхідного вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "У нас НЕМАЄ необхідного покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "NOT_FIRST_HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "We do NOT view [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -7813,7 +7813,7 @@
  },
  "NOT_FIRST_HAS_CHARTERS_TRIGGER": {
   "en": "We do NOT have a [colonial_charter|E]",
-  "uk": "У нас НЕМАЄ [Concept('colonial_charter', 'колоніального поселення')|e]"
+  "uk": "У нас НЕМАЄ [Concept('colonial_charter', 'колоніальної грамоти')|e]"
  },
  "NOT_FIRST_HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "We do NOT have a national [chivalric_order|e]",
@@ -7845,19 +7845,19 @@
  },
  "NOT_FIRST_HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has [antagonism|e] towards us",
-  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'ворожості')|e] до нас"
+  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'неприязні')|e] до нас"
  },
  "NOT_FIRST_HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName] against us",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
  },
  "NOT_FIRST_HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] against us and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName] against us",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'ворожості')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'неприязні')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти нас"
  },
  "NOT_FIRST_HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has temporary [antagonism|e] towards us",
-  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'ворожості')|e] до нас"
+  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'неприязні')|e] до нас"
  },
  "NOT_FIRST_HAS_DIFFERENT_ORDER_OF_CHIVALRY_TRIGGER": {
   "en": "We do NOT have a different [chivalric_order|e] than [TARGET_COUNTRY.GetName]",
@@ -8093,7 +8093,7 @@
  },
  "NOT_FIRST_IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "We are NOT an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "Ми НЕ [Concept('elector','виборці')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "Ми НЕ [Concept('elector','курфюрсти')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "NOT_FIRST_IS_ENEMY_OF_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "We are NOT an enemy of [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
@@ -8265,7 +8265,7 @@
  },
  "NOT_FIRST_IS_VALID_COLONIAL_CHARTER_TRIGGER": {
   "en": "We can NOT start a [colonial_charter|e] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "Ми НЕ можемо створити [Concept('colonial_charter','колоніальне поселення')|e] в об'єднанні «[TARGET_PROVINCE_DEFINITION.GetName]»"
+  "uk": "Ми НЕ можемо створити [Concept('colonial_charter','колоніальну грамоту')|e] в об’єднанні «[TARGET_PROVINCE_DEFINITION.GetName]»"
  },
  "NOT_FIRST_IS_WAR_LEADER_OF_TRIGGER": {
   "en": "We are NOT a [war_leader|e] of [TARGET_WAR.GetName]",
@@ -8397,7 +8397,7 @@
  },
  "NOT_FIRST_NUM_ADVANCES_TRIGGER": {
   "en": "We do NOT have $COMPARATOR$ $NUM|V0$ [advances|E] researched",
-  "uk": "Кількість досліджених нами [Concept('advances','вдосконалень')|E] НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість досліджених нами [Concept('advances','покращень')|E] НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_FIRST_NUM_ARTISTS_TRIGGER": {
   "en": "We do NOT have $COMPARATOR$ $NUM|V0$ [artists|e]",
@@ -8549,7 +8549,7 @@
  },
  "NOT_FIRST_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "We do NOT have $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] у нашій державі НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] у нашій державі НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_FIRST_OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Our offensive alliance strength is NOT $COMPARATOR$ $NUM|2Y$",
@@ -8805,7 +8805,7 @@
  },
  "NOT_FIRST_THIS_ANTAGONISM_TOWARDS_PREV_TRIGGER": {
   "en": "Our [antagonism|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "Наша [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
+  "uk": "Наша [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
  },
  "NOT_FIRST_THIS_FAVORS_WITH_PREV_TRIGGER": {
   "en": "Our [favors|E] with [TARGET_COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$",
@@ -8857,7 +8857,7 @@
  },
  "NOT_FIRST_TOTAL_HEATHEN_POPULATION_TRIGGER": {
   "en": "We do NOT have a [heathen|e] population of $COMPARATOR$ $NUM|V0$",
-  "uk": "Наше [Concept('heathen','поганське')|e] населення НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Наше [Concept('heathen','язичницьке')|e] населення НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_FIRST_TOTAL_HERETIC_POPULATION_TRIGGER": {
   "en": "We do NOT have a [heretic|e] population of $COMPARATOR$ $NUM|V0$",
@@ -9109,7 +9109,7 @@
  },
  "NOT_HAS_ADVANCE_AVAILABLE": {
   "en": "Has NOT the $ADVANCE$ [advance|e] available to research",
-  "uk": "НЕМАЄ доступного для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "НЕМАЄ доступного для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "Does NOT have the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -9117,7 +9117,7 @@
  },
  "NOT_HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "Does NOT have the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "НЕМАЄ необхідного вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "НЕМАЄ необхідного покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "NOT_HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "Does NOT view [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -9145,7 +9145,7 @@
  },
  "NOT_HAS_ANY_DISEASE_PRESENT_TRIGGER": {
   "en": "Has NOT any [disease|e] present",
-  "uk": "НЕ присутня жодна [Concept('disease', 'епідемія')|e]"
+  "uk": "НЕ присутня жодна [Concept('disease', 'хвороба')|e]"
  },
  "NOT_HAS_ANY_MISSION_ACTIVE_TRIGGER": {
   "en": "Has NOT currently any [mission|e] active",
@@ -9169,7 +9169,7 @@
  },
  "NOT_HAS_ART_IN_PROGRESS_TRIGGER": {
   "en": "Is NOT working on a [work_of_art|e]",
-  "uk": "НЕ створює [Concept('work_of_art', 'твір')|e]"
+  "uk": "НЕ створює [Concept('work_of_art', 'витвір мистецтва')|e]"
  },
  "NOT_HAS_AUTOCEPHALOUS_PATRIARCHATES_TRIGGER": {
   "en": "Does NOT use [autocephalous_patriarchates|E]",
@@ -9225,7 +9225,7 @@
  },
  "NOT_HAS_CHARTERS_TRIGGER": {
   "en": "Does NOT have a [colonial_charter|E]",
-  "uk": "НЕМАЄ [Concept('colonial_charter', 'колоніального поселення')|e]"
+  "uk": "НЕМАЄ [Concept('colonial_charter', 'колоніальної грамоти')|e]"
  },
  "NOT_HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "Does NOT have a national [chivalric_order|e]",
@@ -9241,7 +9241,7 @@
  },
  "NOT_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "Does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "НЕМАЄ [Concept('colonial_charter', 'колоніального поселення')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "НЕМАЄ [Concept('colonial_charter', 'колоніальної грамоти')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "NOT_HAS_COLONIAL_CLAIM_TRIGGER": {
   "en": "Does NOT have a claim in [TARGET_PROVINCE_DEFINITION.GetName]",
@@ -9269,19 +9269,19 @@
  },
  "NOT_HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has [antagonism|e]",
-  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'ворожості')|e]"
+  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'неприязні')|e]"
  },
  "NOT_HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName]",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
  },
  "NOT_HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName]",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'ворожості')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'неприязні')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#!"
  },
  "NOT_HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has temporary [antagonism|e]",
-  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'ворожості')|e]"
+  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'неприязні')|e]"
  },
  "NOT_HAS_CULTURE_GROUP_TRIGGER": {
   "en": "Does NOT belong to the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]",
@@ -9661,7 +9661,7 @@
  },
  "NOT_HAS_SECTS_TRIGGER": {
   "en": "Does NOT use [sects|E]",
-  "uk": "НЕ застосовується поняття [Concept('sects', 'напрямів')|e]"
+  "uk": "НЕ застосовується поняття [Concept('sects', 'течій')|e]"
  },
  "NOT_HAS_SELLABLE_ART_TRIGGER": {
   "en": "Has NO [work_of_art|e] available for sale",
@@ -9737,7 +9737,7 @@
  },
  "NOT_HAS_TRAIT_CATEGORY_TRIGGER": {
   "en": "Does NOT have a $TRAIT_CATEGORY$ [trait|e]",
-  "uk": "НЕ має [Concept('trait', 'властивості')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "НЕ має [Concept('trait', 'риси')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "NOT_HAS_TRAIT_TRIGGER": {
   "en": "Is NOT $TRAIT$",
@@ -9877,7 +9877,7 @@
  },
  "NOT_INTERNATIONAL_ORGANIZATION_HAS_LAWS_TRIGGER": {
   "en": "Has NOT enacted [laws|e]",
-  "uk": "НЕ встановлено [Concept('laws','звід правил')|e]"
+  "uk": "НЕ встановлено [Concept('laws','законів')|e]"
  },
  "NOT_INTERNATIONAL_ORGANIZATION_HAS_LAW_TRIGGER": {
   "en": "Has NOT enacted [TARGET_LAW.GetName]",
@@ -9937,7 +9937,7 @@
  },
  "NOT_INTRINSIC_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Intrinsic [disease_resistance|e] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Початкова [Concept('disease_resistance', 'стійкість до епідемій')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Початкова [Concept('disease_resistance', 'стійкість до хвороб')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_IN_ASSAULT_TRIGGER": {
   "en": "Is NOT in an assault",
@@ -10157,7 +10157,7 @@
  },
  "NOT_IS_DOMINANT_COUNTRY_OF_TRIGGER": {
   "en": "Is NOT the [dominant_country|e] of the [TARGET_CULTURE.GetName] [culture|e]",
-  "uk": "НЕ [Concept('dominant_country', 'домінантна держава')|e] #L [TARGET_CULTURE.GetName|l]ої#! [Concept('culture','культури')|e]"
+  "uk": "НЕ [Concept('dominant_country', 'панівна держава')|e] #L [TARGET_CULTURE.GetName|l]ої#! [Concept('culture','культури')|e]"
  },
  "NOT_IS_DORMANT_IMPERIAL_CIRCLE_TRIGGER": {
   "en": "Is NOT a dormant Imperial Circle",
@@ -10169,7 +10169,7 @@
  },
  "NOT_IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "Is NOT an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "Не [Concept('elector','виборець')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "Не [Concept('elector','курфюрст')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "NOT_IS_ELIGIBLE_FOR_MARRIAGE": {
   "en": "Is NOT eligible for any kind of marriage",
@@ -10673,7 +10673,7 @@
  },
  "NOT_I_HAVE_THIS_OPINION_OF_TARGET_OR_ABOVE": {
   "en": "Our [opinion|E] of [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "Наше [Concept('opinion','ставлення')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
+  "uk": "Наша [Concept('opinion','думка')|e] про #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_ACC')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
  },
  "NOT_I_HAVE_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE": {
   "en": "Our [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
@@ -10713,11 +10713,11 @@
  },
  "NOT_LAW_IS_LOCKED_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] can be changed",
-  "uk": "Правило «[LAW.GetName]» можна змінити"
+  "uk": "Закон «[LAW.GetName]» можна змінити"
  },
  "NOT_LAW_POLICY": {
   "en": "[Policy|e] for [LAW.GetName] is NOT [POLICY.GetName]",
-  "uk": "[Concept('Policy', 'Політика')|e] правила «[LAW.GetName]» — НЕ «[POLICY.GetName]»"
+  "uk": "[Concept('Policy', 'Політика')|e] закону «[LAW.GetName]» — НЕ «[POLICY.GetName]»"
  },
  "NOT_LAW_REQUIRES_VOTE_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "Does NOT require a vote to pass in the [international_organization|e]",
@@ -10737,11 +10737,11 @@
  },
  "NOT_LEADER_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] have NOT a combined [special_status_power_short|e] percentage of $COMPARATOR$ $NUM|%V2$",
-  "uk": "Сукупний відсоток [Concept('special_status_power_short','сили')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] НЕ $COMPARATOR$ $NUM|%V2$"
+  "uk": "Сукупний відсоток [Concept('special_status_power_short','міці')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] НЕ $COMPARATOR$ $NUM|%V2$"
  },
  "NOT_LEADER_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] have NOT a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_LEADER_TYPE_TRIGGER": {
   "en": "Has NOT the $TYPE|Y$ [leader_type|e]",
@@ -10789,7 +10789,7 @@
  },
  "NOT_LOCATION_ART_QUALITY_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витворів')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_LOCATION_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "Has $MODIFIER_NAME$",
@@ -10905,7 +10905,7 @@
  },
  "NOT_LOCATION_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0$ [works_of_art|e]",
-  "uk": "Кількість [Concept('works_of_art', 'творінь')|e] становить НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість [Concept('works_of_art', 'витворів мистецтва')|e] становить НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_LOCATION_PEACE_COST_TRIGGER": {
   "en": "[location|E] peace cost is NOT $COMPARATOR$ $NUM|2Y$",
@@ -10941,7 +10941,7 @@
  },
  "NOT_LOCATION_WORKS_OF_ART_STAR_RATING_TRIGGER": {
   "en": "Does NOT have a [work_of_art|e] quality rating of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Рейтинг якості [Concept('work_of_art', 'творіння')|e] становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Рейтинг якості [Concept('work_of_art', 'витвору мистецтва')|e] становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_MAINTENANCE_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V02%$ $NAME$",
@@ -11065,7 +11065,7 @@
  },
  "NOT_MAX_SECTS_TRIGGER": {
   "en": "Does NOT allow $COMPARATOR$ $NUM|0V$ [sects|E]",
-  "uk": "Дозволяє НЕ $COMPARATOR$ $NUM|0V$ [Concept('sects', 'напрямів')|e]"
+  "uk": "Дозволяє НЕ $COMPARATOR$ $NUM|0V$ [Concept('sects', 'течій')|e]"
  },
  "NOT_MERCENARY_HAS_MODIFIER_TRIGGER": {
   "en": "Does NOT have $MODIFIER|Y$",
@@ -11169,7 +11169,7 @@
  },
  "NOT_MONTHS_SINCE_WAR_TRIGGER": {
   "en": "Has NOT been $COMPARATOR$ $NUM|V0$ months since [war|e]",
-  "uk": "[Concept('war','Воєнний час')|e] закінчився НЕ $COMPARATOR$ $NUM|V0$ міс. тому"
+  "uk": "[Concept('war','Війна')|e] закінчилася НЕ $COMPARATOR$ $NUM|V0$ міс. тому"
  },
  "NOT_MORALE_PERCENTAGE": {
   "en": "Does NOT have $COMPARATOR$ $NUM|%Y$ [morale|e]",
@@ -11205,7 +11205,7 @@
  },
  "NOT_NONE_ART_DESTROYED_TRIGGER": {
   "en": "[work_of_art|e] is NOT destroyed",
-  "uk": "[Concept('work_of_art', 'Твір')|e] НЕ знищено"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] НЕ знищено"
  },
  "NOT_NONE_ART_PRICE_TRIGGER": {
   "en": "[work_of_art|e] does NOT have a sale price of $COMPARATOR$ $NUM|2Y$[gold_i]",
@@ -11213,7 +11213,7 @@
  },
  "NOT_NONE_ART_QUALITY_TRIGGER": {
   "en": "[work_of_art|e] does NOT have $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
-  "uk": "[Concept('art_quality', 'Якість')|e] [Concept('work_of_art', 'твору')|e] становить НЕ $COMPARATOR$ $NUM|Y2/%$"
+  "uk": "[Concept('art_quality', 'Якість')|e] [Concept('work_of_art', 'витвору мистецтва')|e] становить НЕ $COMPARATOR$ $NUM|Y2/%$"
  },
  "NOT_NONE_ART_WORTH_TRIGGER": {
   "en": "[work_of_art|e] does NOT have a base worth of $COMPARATOR$ $NUM|2Y$[gold_i]",
@@ -11397,7 +11397,7 @@
  },
  "NOT_NONE_HAS_PERIPHORA_TRIGGER": {
   "en": "[work_of_art|e] is NOT on Periphora",
-  "uk": "[Concept('work_of_art', 'Твір')|e] НЕ бере участі у процесії"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] НЕ бере участі у процесії"
  },
  "NOT_NONE_HAS_PRESENCE_IN_TRIGGER": {
   "en": "[country|e] does NOT have a presence in $GEOGRAPHY$",
@@ -11669,7 +11669,7 @@
  },
  "NOT_NONE_RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in [market|e] local to the [location|e] relative to the default price is NOT $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на [Concept('market', 'ринку')|e] [Concept('location', 'району')|e] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на [Concept('market', 'ринку')|e] [Concept('location', 'району')|e] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "NOT_NONE_RELIGION_GROUP_PERCENTAGE_TRIGGER": {
   "en": "$NONE_GEOGRAPHY$ does NOT have $COMPARATOR$ $NUM|%Y$ of pops which are [TARGET_RELIGION_GROUP.GetName]",
@@ -11797,7 +11797,7 @@
  },
  "NOT_NUM_ADVANCES_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0$ [advances|E] researched",
-  "uk": "Кількість досліджених [Concept('advances','вдосконалень')|E] НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість досліджених [Concept('advances','покращень')|E] НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_NUM_AFFECTED_LOCATIONS_TRIGGER": {
   "en": "Is NOT affecting $COMPARATOR$ $NUM|Y0$ [locations|e]",
@@ -11937,7 +11937,7 @@
  },
  "NOT_NUM_OF_ELECTORS_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0$ [electors|e] $current_value_V0$",
-  "uk": "Кількість [Concept('electors','виборців')|e] НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('electors','курфюрстів')|e] НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_NUM_OF_LOCATIONS_OWNED_BY_IO_TRIGGER": {
   "en": "Do NOT own $COMPARATOR$ $NUM|Y$ locations in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_0Y$",
@@ -11981,7 +11981,7 @@
  },
  "NOT_NUM_OF_TRAITS_OF_CATEGORY_TRIGGER": {
   "en": "Has NOT $COMPARATOR$ $NUM|Y$ $TRAIT_CATEGORY$ [traits|e]",
-  "uk": "НЕ має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'властивостей')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "НЕ має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'рис')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "NOT_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots",
@@ -12077,7 +12077,7 @@
  },
  "NOT_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Offensive alliance strength is NOT $COMPARATOR$ $NUM|2Y$",
@@ -12221,7 +12221,7 @@
  },
  "NOT_PLAYER_ADVANCE_TRIGGER": {
   "en": "We do NOT have the $ADVANCE$ [advance|e]",
-  "uk": "У нас НЕМАЄ [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У нас НЕМАЄ [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_PLAYER_COUNTRY_RELIGION_TRIGGER": {
   "en": "Our nation is NOT $RELIGION$",
@@ -12297,7 +12297,7 @@
  },
  "NOT_PLAYER_MONTHS_SINCE_WAR_TRIGGER": {
   "en": "We do NOT have had $COMPARATOR$ $NUM|V0$ months since we last were at [war|e]",
-  "uk": "[Concept('war','Воєнний час')|e] у нашій державі закінчився НЕ $COMPARATOR$ $NUM|V0$ міс. тому"
+  "uk": "[Concept('war','Війна')|e] у нашій державі закінчилася НЕ $COMPARATOR$ $NUM|V0$ міс. тому"
  },
  "NOT_PLAYER_PAY_PRICE_TRIGGER": {
   "en": "We can NOT afford $PRICE$",
@@ -12489,7 +12489,7 @@
  },
  "NOT_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "Does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]",
-  "uk": "НЕМАЄ [Concept('colonial_charter','колоніального поселення')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
+  "uk": "НЕМАЄ [Concept('colonial_charter','колоніальної грамоти')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
  },
  "NOT_PROVINCE_HAS_MODIFIER_TRIGGER": {
   "en": "Does NOT have $MODIFIER|Y$",
@@ -12521,7 +12521,7 @@
  },
  "NOT_RAW_MATERIAL_AMOUNT_TRIGGER": {
   "en": "Does NOT have a total [TARGET_GOODS.GetName] [raw_material|e] occurrence of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Поширеність [Concept('raw_material', 'ресурсу')|e] «[TARGET_GOODS.GetName|l]» становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Поширеність [Concept('raw_material', 'сировини')|e] «[TARGET_GOODS.GetName|l]» становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_RAW_MATERIAL_OCCURRENCE_TRIGGER": {
   "en": "Does NOT appear in $COMPARATOR$ $NUM|0Y$ [locations|e] in the world $current_value_0Y$",
@@ -12529,7 +12529,7 @@
  },
  "NOT_RAW_MATERIAL_OUTPUT_TRIGGER": {
   "en": "The [raw_material|e] output is NOT $COMPARATOR$ $NUM|Y$ $current_value$",
-  "uk": "Обсяг випуску [Concept('raw_material', 'ресурсів')|e] становить НЕ $COMPARATOR$ $NUM|Y$ од. $current_value$"
+  "uk": "Обсяг випуску [Concept('raw_material', 'сировини')|e] становить НЕ $COMPARATOR$ $NUM|Y$ од. $current_value$"
  },
  "NOT_REBEL_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "Has $MODIFIER_NAME$",
@@ -12645,7 +12645,7 @@
  },
  "NOT_RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in local [market|e] relative to the default price is NOT $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на місцевому [Concept('market', 'ринку')|e] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на місцевому [Concept('market', 'ринку')|e] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "NOT_RELATIVE_STRENGTH_TRIGGER": {
   "en": "Does NOT have $COMPARATOR$ $NUM|V0%$ of the total combined strength of them and [TARGET_COUNTRY.GetName]",
@@ -12849,7 +12849,7 @@
  },
  "NOT_THIRD_ACTIVE_OUTBREAK_TRIGGER": {
   "en": "Active [disease_outbreak|e] in $IN|Y$ is NOT $DISEASE_OUTBREAK|Y$",
-  "uk": "[Concept('disease_outbreak', 'Спалах')|e] у місці $IN|Y$ епідемія — НЕ $DISEASE_OUTBREAK|Y$"
+  "uk": "[Concept('disease_outbreak', 'Спалах хвороби')|e] у місці $IN|Y$ — НЕ $DISEASE_OUTBREAK|Y$"
  },
  "NOT_THIRD_ACTIVE_RELIGIOUS_FOCUS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is NOT researching [TARGET_RELIGIOUS_FOCUS.GetName]",
@@ -12981,7 +12981,7 @@
  },
  "NOT_THIRD_ART_PROGRESS_TRIGGER": {
   "en": "[CHARACTER.GetName] is NOT $COMPARATOR$ $NUM|Y%$ of the way through a [work_of_art|e]",
-  "uk": "[Concept('work_of_art', 'Твір')|e] персонажа [CHARACTER.GetName] створено на НЕ $COMPARATOR$, ніж $NUM|Y%$"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] персонажа [CHARACTER.GetName] створено на НЕ $COMPARATOR$, ніж $NUM|Y%$"
  },
  "NOT_THIRD_ART_QUALITY_TRIGGER": {
   "en": "[WORK_OF_ART.GetName] does NOT have $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
@@ -13025,7 +13025,7 @@
  },
  "NOT_THIRD_AVERAGE_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "The average [special_status_power_short|e] of $STATUS$ in [INTERNATIONAL_ORGANIZATION.GetName] is NOT $COMPARATOR$ $NUM|V2$",
-  "uk": "Середня [Concept('special_status_power_short','сила статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Середня [Concept('special_status_power_short','міць')|e] статусу «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_BANKRUPT_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is currently NOT [bankrupt|E]",
@@ -13285,7 +13285,7 @@
  },
  "NOT_THIRD_CAN_RESEARCH_ADVANCE": {
   "en": "[COUNTRY.GetName|U] can NOT research the $ADVANCE$ [advance|e]",
-  "uk": "Держава [COUNTRY.GetName] НЕ може досліджувати [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "Держава [COUNTRY.GetName] НЕ може досліджувати [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_THIRD_CAN_RIVAL_TRIGGER": {
   "en": "[COUNTRY.GetName|U] would NOT be able to make [TARGET_COUNTRY.GetName] their [rival|e]",
@@ -13521,7 +13521,7 @@
  },
  "NOT_THIRD_CHARACTER_NUM_OF_TRAITS_TRIGGER": {
   "en": "[CHARACTER.GetName] does NOT have $COMPARATOR$ $NUM|Y$ [traits|e]",
-  "uk": "[CHARACTER.GetName] має НЕ $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'властивостей')|e]"
+  "uk": "[CHARACTER.GetName] має НЕ $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'рис')|e]"
  },
  "NOT_THIRD_CHARACTER_PATRILINEAL_DESCENDANT_OF_TRIGGER": {
   "en": "[CHARACTER.GetName] is NOT a patrilineal dynastic descendant of [TARGET_DYNASTY.GetName]",
@@ -13573,7 +13573,7 @@
  },
  "NOT_THIRD_COMBINED_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have NOT a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_CONQUER_DESIRE_TRIGGER": {
   "en": "[COUNTRY.GetAdjective] desire to conquer [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V2$",
@@ -13593,7 +13593,7 @@
  },
  "NOT_THIRD_COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витворів')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_THIRD_COUNTRY_AVERAGE_CONTROL_TRIGGER": {
   "en": "[COUNTRY.GetName] does NOT have an average [control|e] of $COMPARATOR$ $NUM|V0%$",
@@ -13905,11 +13905,11 @@
  },
  "NOT_THIRD_DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of dead in [COUNTRY.GetName] from [TARGET_DISEASE.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[TARGET_DISEASE.GetName]» у державі [COUNTRY.GetName] НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[TARGET_DISEASE.GetName]» у державі [COUNTRY.GetName] НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_THIRD_DISEASE_HAS_STAGNATED_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] has NOT stagnated in $SOURCE$",
-  "uk": "Епідемія «[TARGET_DISEASE.GetName]» у місці $SOURCE$ НЕ призупинилася"
+  "uk": "Хвороба «[TARGET_DISEASE.GetName]» у місці $SOURCE$ НЕ призупинилася"
  },
  "NOT_THIRD_DISEASE_IS_ACTIVE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] is NOT active",
@@ -13933,15 +13933,15 @@
  },
  "NOT_THIRD_DISEASE_PRESENCE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] presence in $SOURCE$ is NOT $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Присутність епідемії «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить НЕ $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Присутність хвороби «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить НЕ $COMPARATOR$ $NUM|2%Y$"
  },
  "NOT_THIRD_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Resistance to [TARGET_DISEASE.GetName] in $SOURCE$ is NOT $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Опір епідемії «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить НЕ $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Опір хворобі «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить НЕ $COMPARATOR$ $NUM|2%Y$"
  },
  "NOT_THIRD_DISEASE_TOTAL_DEATHS_TRIGGER": {
   "en": "Total number killed by [DISEASE.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[DISEASE.GetName]» НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[DISEASE.GetName]» НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_THIRD_DOES_ESTATE_WANT_POLICY_TRIGGER": {
   "en": "$ESTATE$ in [COUNTRY.GetName] does not want another policy in the $LAW$",
@@ -13949,7 +13949,7 @@
  },
  "NOT_THIRD_DYNASTIC_POWER_TRIGGER": {
   "en": "$DYNASTY$ does NOT have $COMPARATOR$ $NUM|Y2$ [dynastic_power|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_Y2$",
-  "uk": "[Concept('dynastic_power', 'Влада')|e] династії $DYNASTY$ в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]» становить НЕ $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
+  "uk": "[Concept('dynastic_power', 'Вплив')|e] династії $DYNASTY$ в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]» становить НЕ $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
  },
  "NOT_THIRD_DYNASTY_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "[DYNASTY.GetName] has $MODIFIER_NAME$",
@@ -14273,7 +14273,7 @@
  },
  "NOT_THIRD_HAS_ADVANCE_AVAILABLE": {
   "en": "[COUNTRY.GetName|U] has NOT the $ADVANCE$ [advance|e] available to research",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ доступного для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ доступного для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "NOT_THIRD_HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -14281,7 +14281,7 @@
  },
  "NOT_THIRD_HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ необхідного вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ необхідного покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "NOT_THIRD_HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT view [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -14309,7 +14309,7 @@
  },
  "NOT_THIRD_HAS_ANY_DISEASE_PRESENT_TRIGGER": {
   "en": "$SOURCE$ has NOT any [disease|e] present",
-  "uk": "У місці $SOURCE$ НЕ присутня жодна [Concept('disease', 'епідемія')|e]"
+  "uk": "У місці $SOURCE$ НЕ присутня жодна [Concept('disease', 'хвороба')|e]"
  },
  "NOT_THIRD_HAS_ANY_MISSION_ACTIVE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has NOT currently any [mission|e] active",
@@ -14333,7 +14333,7 @@
  },
  "NOT_THIRD_HAS_ART_IN_PROGRESS_TRIGGER": {
   "en": "[CHARACTER.GetName] is NOT working on a [work_of_art|e]",
-  "uk": "[CHARACTER.GetName] НЕ створює [Concept('work_of_art', 'твір')|e]"
+  "uk": "[CHARACTER.GetName] НЕ створює [Concept('work_of_art', 'витвір мистецтва')|e]"
  },
  "NOT_THIRD_HAS_AUTOCEPHALOUS_PATRIARCHATES_TRIGGER": {
   "en": "[RELIGION.GetName] does NOT use [autocephalous_patriarchates|E]",
@@ -14385,7 +14385,7 @@
  },
  "NOT_THIRD_HAS_CHARTERS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have a [colonial_charter|E]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ [Concept('colonial_charter', 'колоніального поселення')|e]"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ [Concept('colonial_charter', 'колоніальної грамоти')|e]"
  },
  "NOT_THIRD_HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have a national [chivalric_order|e]",
@@ -14401,7 +14401,7 @@
  },
  "NOT_THIRD_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "У провінції [PROVINCE_DEFINITION.GetName] НЕМАЄ [Concept('colonial_charter', 'колоніального поселення')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "У провінції [PROVINCE_DEFINITION.GetName] НЕМАЄ [Concept('colonial_charter', 'колоніальної грамоти')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "NOT_THIRD_HAS_COLONIAL_CLAIM_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have a claim in [TARGET_PROVINCE_DEFINITION.GetName]",
@@ -14429,19 +14429,19 @@
  },
  "NOT_THIRD_HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has [antagonism|e] towards [COUNTRY.GetName]",
-  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'ворожості')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "Жодна з [Concept('country','держав')|e] не відчуває [Concept('antagonism', 'неприязні')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "NOT_THIRD_HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName] against [COUNTRY.GetName]",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і не може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "NOT_THIRD_HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] against us and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName] against [COUNTRY.GetName]",
-  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'ворожості')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Жодна [Concept('country','держава')|e] не має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'неприязні')|e] і не близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "NOT_THIRD_HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "No [country|e] has temporary [antagonism|e] towards [COUNTRY.GetName]",
-  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'ворожості')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "Жодна [Concept('country','держава')|e] не відчуває тимчасової [Concept('antagonism', 'неприязні')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "NOT_THIRD_HAS_CULTURE_GROUP_TRIGGER": {
   "en": "[CULTURE.GetName] does NOT belong to the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]",
@@ -14713,7 +14713,7 @@
  },
  "NOT_THIRD_HAS_PRIMARY_OR_ACCEPTED_OR_TOLERATED_CULTURE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have [TARGET_CULTURE.GetName] as a [primary_culture|e] or [accepted_culture|e] or [tolerated_culture|e]",
-  "uk": "#L [TARGET_CULTURE.GetName]ська#! культура — НЕ одна з [Concept('primary_culture','основних')|e], [Concept('accepted_culture','прийнятих')|e] або [Concept('tolerated_culture','прийнятних')|e] в #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
+  "uk": "#L [TARGET_CULTURE.GetName]ська#! культура — НЕ одна з [Concept('primary_culture','основних')|e], [Concept('accepted_culture','визнаних')|e] або [Concept('tolerated_culture','прийнятних')|e] в #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
  },
  "NOT_THIRD_HAS_PRISONERS_TRIGGER": {
   "en": "[UNIT.GetName] does NOT have [prisoners|e]",
@@ -14821,7 +14821,7 @@
  },
  "NOT_THIRD_HAS_SECTS_TRIGGER": {
   "en": "[RELIGION.GetName] does NOT use [sects|E]",
-  "uk": "[RELIGION.GetName] НЕ застосовує поняття [Concept('sects', 'напрямів')|e]"
+  "uk": "[RELIGION.GetName] НЕ застосовує поняття [Concept('sects', 'течій')|e]"
  },
  "NOT_THIRD_HAS_SELLABLE_ART_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has NO [work_of_art|e] available for sale",
@@ -14869,7 +14869,7 @@
  },
  "NOT_THIRD_HAS_TRAIT_CATEGORY_TRIGGER": {
   "en": "[CHARACTER.GetName] does NOT have a $TRAIT_CATEGORY$ [trait|e]",
-  "uk": "[CHARACTER.GetName] НЕ має [Concept('trait', 'властивості')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "[CHARACTER.GetName] НЕ має [Concept('trait', 'риси')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "NOT_THIRD_HAS_TRAIT_TRIGGER": {
   "en": "[CHARACTER.GetName] is NOT $TRAIT$",
@@ -15001,7 +15001,7 @@
  },
  "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_LAWS_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT enacted [laws|e]",
-  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ встановило [Concept('laws','звід правил')|e]"
+  "uk": "Об’єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ встановило [Concept('laws','законів')|e]"
  },
  "NOT_THIRD_INTERNATIONAL_ORGANIZATION_HAS_LAW_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT enacted [TARGET_LAW.GetName]",
@@ -15061,7 +15061,7 @@
  },
  "NOT_THIRD_INTRINSIC_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Intrinsic [disease_resistance|e] in [LOCATION.GetName] is NOT $COMPARATOR$ $NUM|2Y$",
-  "uk": "Початкова [Concept('disease_resistance', 'стійкість')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до епідемій становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Початкова [Concept('disease_resistance', 'стійкість до хвороб')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_THIRD_IN_ASSAULT_TRIGGER": {
   "en": "[SIEGE.GetName] is NOT in an assault",
@@ -15281,7 +15281,7 @@
  },
  "NOT_THIRD_IS_DOMINANT_COUNTRY_OF_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is NOT the [dominant_country|e] of the [TARGET_CULTURE.GetName] [culture|e]",
-  "uk": "[COUNTRY.GetName] — НЕ [Concept('dominant_country', 'домінантна держава')|e] #L [TARGET_CULTURE.GetName|l]ої#! [Concept('culture','культури')|e]"
+  "uk": "[COUNTRY.GetName] — НЕ [Concept('dominant_country', 'панівна держава')|e] #L [TARGET_CULTURE.GetName|l]ої#! [Concept('culture','культури')|e]"
  },
  "NOT_THIRD_IS_DORMANT_IMPERIAL_CIRCLE_TRIGGER": {
   "en": "[IMPERIAL_CIRCLE.GetName] is NOT dormant",
@@ -15293,7 +15293,7 @@
  },
  "NOT_THIRD_IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is NOT an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "[COUNTRY.GetName|U] — НЕ [Concept('elector','виборець')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "[COUNTRY.GetName|U] — НЕ [Concept('elector','курфюрст')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "NOT_THIRD_IS_ELIGIBLE_FOR_MARRIAGE": {
   "en": "[CHARACTER.GetName] is NOT eligible for any kind of marriage",
@@ -15749,7 +15749,7 @@
  },
  "NOT_THIRD_IS_VALID_COLONIAL_CHARTER_TRIGGER": {
   "en": "[COUNTRY.GetName|U] can NOT start a [colonial_charter|e] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "Держава [COUNTRY.GetName|U] НЕ може створити [Concept('colonial_charter','колоніальне поселення')|e] в [TARGET_PROVINCE_DEFINITION.GetName]"
+  "uk": "Держава [COUNTRY.GetName|U] НЕ може створити [Concept('colonial_charter','колоніальну грамоту')|e] в [TARGET_PROVINCE_DEFINITION.GetName]"
  },
  "NOT_THIRD_IS_VISIBLE_FOR_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "$WHAT$ is NOT visible to [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $WHY$",
@@ -15805,15 +15805,15 @@
  },
  "NOT_THIRD_LAW_IS_LOCKED_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] can be changed in [INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "[INTERNATIONAL_ORGANIZATION.GetName] може змінити правило «[LAW.GetName]»"
+  "uk": "[INTERNATIONAL_ORGANIZATION.GetName] може змінити закон «[LAW.GetName]»"
  },
  "NOT_THIRD_LAW_POLICY": {
   "en": "[Policy|e] for [LAW.GetName] is NOT [POLICY.GetName]",
-  "uk": "[Concept('Policy', 'Політика')|e] правила «[LAW.GetName]» — НЕ «[POLICY.GetName]»"
+  "uk": "[Concept('Policy', 'Політика')|e] закону «[LAW.GetName]» — НЕ «[POLICY.GetName]»"
  },
  "NOT_THIRD_LAW_REQUIRES_VOTE_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] does NOT require a vote to pass in the [international_organization|e]",
-  "uk": "Для ухвалення правила «[LAW.GetName]» НЕ потрібне голосування в [Concept('international_organization','міжнародному об’єднанні')|e]"
+  "uk": "Для ухвалення закону «[LAW.GetName]» НЕ потрібне голосування в [Concept('international_organization','міжнародному об’єднанні')|e]"
  },
  "NOT_THIRD_LAW_VISIBLE_TO_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[TARGET_LAW.GetName] is NOT available to [INTERNATIONAL_ORGANIZATION.GetName]",
@@ -15829,11 +15829,11 @@
  },
  "NOT_THIRD_LEADER_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have NOT a combined [special_status_power_short|e] percentage of $COMPARATOR$ $NUM|%V2$",
-  "uk": "Сукупний відсоток [Concept('special_status_power_short','сили')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|%V2$"
+  "uk": "Сукупний відсоток [Concept('special_status_power_short','міці')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|%V2$"
  },
  "NOT_THIRD_LEADER_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have NOT a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_LEADER_TYPE_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has NOT the $TYPE|Y$ [leader_type|e]",
@@ -15973,7 +15973,7 @@
  },
  "NOT_THIRD_LOCATION_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "[LOCATION.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [works_of_art|e]",
-  "uk": "Кількість [Concept('works_of_art', 'творінь')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість [Concept('works_of_art', 'витворів мистецтва')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_THIRD_LOCATION_PEACE_COST_TRIGGER": {
   "en": "[LOCATION.GetName] peace cost is NOT $COMPARATOR$ $NUM|2Y$",
@@ -16009,7 +16009,7 @@
  },
  "NOT_THIRD_LOCATION_WORKS_OF_ART_STAR_RATING_TRIGGER": {
   "en": "[LOCATION.GetName] does NOT have a [work_of_art|e] quality rating of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Рейтинг якості [Concept('work_of_art', 'творіння')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Рейтинг якості [Concept('work_of_art', 'витвору мистецтва')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_THIRD_MAINTENANCE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V02%$ $NAME$",
@@ -16133,7 +16133,7 @@
  },
  "NOT_THIRD_MAX_SECTS_TRIGGER": {
   "en": "[RELIGION.GetName] does NOT allow $COMPARATOR$ $NUM|0V$ [sects|E]",
-  "uk": "[RELIGION.GetName] дозволяє НЕ $COMPARATOR$ $NUM|0V$ [Concept('sects', 'напрямів')|e]"
+  "uk": "[RELIGION.GetName] дозволяє НЕ $COMPARATOR$ $NUM|0V$ [Concept('sects', 'течій')|e]"
  },
  "NOT_THIRD_MERCENARY_HAS_MODIFIER_TRIGGER": {
   "en": "[MERCENARY.GetName] does NOT have $MODIFIER|Y$",
@@ -16281,7 +16281,7 @@
  },
  "NOT_THIRD_NUM_ADVANCES_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V0$ [advances|E] researched",
-  "uk": "Кількість досліджених #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_INST')|L]#!#! [Concept('advances','вдосконалень')|E] НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість досліджених #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_INST')|L]#!#! [Concept('advances','покращень')|E] НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_THIRD_NUM_AFFECTED_LOCATIONS_TRIGGER": {
   "en": "[DISEASE_OUTBREAK.GetName] is NOT affecting $COMPARATOR$ $NUM|Y0$ [locations|e]",
@@ -16409,7 +16409,7 @@
  },
  "NOT_THIRD_NUM_OF_ELECTORS_TRIGGER": {
   "en": "The [INTERNATIONAL_ORGANIZATION.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [electors|e] $current_value_V0$",
-  "uk": "Кількість [Concept('electors','виборців')|e] об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
+  "uk": "Кількість [Concept('electors','курфюрстів')|e] об’єднання «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
  },
  "NOT_THIRD_NUM_OF_LOCATIONS_OWNED_BY_IO_TRIGGER": {
   "en": "[COUNTRY.GetName|U] owns $COMPARATOR$ $NUM|Y$ locations in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_0Y$",
@@ -16453,7 +16453,7 @@
  },
  "NOT_THIRD_NUM_OF_TRAITS_OF_CATEGORY_TRIGGER": {
   "en": "[CHARACTER.GetName] has NOT $COMPARATOR$ $NUM|Y$ $TRAIT_CATEGORY$ [traits|e]",
-  "uk": "[CHARACTER.GetName] НЕ має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'властивостей')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "[CHARACTER.GetName] НЕ має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'рис')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "NOT_THIRD_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots",
@@ -16525,7 +16525,7 @@
  },
  "NOT_THIRD_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_THIRD_OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Offensive alliance strength of $COUNTRY$ is NOT $COMPARATOR$ $NUM|2Y$",
@@ -16741,7 +16741,7 @@
  },
  "NOT_THIRD_PREV_ANTAGONISM_TOWARDS_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [antagonism|E] of [COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
  },
  "NOT_THIRD_PREV_FAVORS_WITH_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [favors|E] with [COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$",
@@ -16749,7 +16749,7 @@
  },
  "NOT_THIRD_PREV_OPINION_OF_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [opinion|E] of [COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
  },
  "NOT_THIRD_PREV_SPY_NETWORK_IN_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [spy_network|E] in [COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
@@ -16829,7 +16829,7 @@
  },
  "NOT_THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "[PROVINCE_DEFINITION.GetName] does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ [Concept('colonial_charter','колоніального поселення')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕМАЄ [Concept('colonial_charter','колоніальної грамоти')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
  },
  "NOT_THIRD_PROVINCE_HAS_MODIFIER_TRIGGER": {
   "en": "[PROVINCE.GetName] does NOT have $MODIFIER|Y$",
@@ -16861,7 +16861,7 @@
  },
  "NOT_THIRD_RAW_MATERIAL_AMOUNT_TRIGGER": {
   "en": "$GEOGRAPHY$ does NOT have a total [TARGET_GOODS.GetName] [raw_material|e] occurrence of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Поширеність [Concept('raw_material', 'ресурсу')|e] «[TARGET_GOODS.GetName|l]» на території $GEOGRAPHY$ становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Поширеність [Concept('raw_material', 'сировини')|e] «[TARGET_GOODS.GetName|l]» на території $GEOGRAPHY$ становить НЕ $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "NOT_THIRD_RAW_MATERIAL_OCCURRENCE_TRIGGER": {
   "en": "[GOODS.GetName] does NOT appear in $COMPARATOR$ $NUM|0Y$ [locations|e] in the world $current_value_0Y$",
@@ -16869,7 +16869,7 @@
  },
  "NOT_THIRD_RAW_MATERIAL_OUTPUT_TRIGGER": {
   "en": "[LOCATION.GetName]'s [raw_material|e] output is NOT $COMPARATOR$ $NUM|Y$ $current_value$",
-  "uk": "Обсяг випуску [Concept('raw_material', 'ресурсів')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|Y$ од. $current_value$"
+  "uk": "Обсяг випуску [Concept('raw_material', 'сировини')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|Y$ од. $current_value$"
  },
  "NOT_THIRD_REBEL_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "[REBEL.GetName] has $MODIFIER_NAME$",
@@ -16981,7 +16981,7 @@
  },
  "NOT_THIRD_RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in [market|e] local to [LOCATION.GetName] relative to the default price is NOT $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на місцевому [Concept('market', 'ринку')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на місцевому [Concept('market', 'ринку')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] становить НЕ $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "NOT_THIRD_RELATIVE_STRENGTH_TRIGGER": {
   "en": "[COUNTRY.GetName|U] do NOT have $COMPARATOR$ $NUM|V0%$ of the total combined strength of them and [TARGET_COUNTRY.GetName]",
@@ -17117,11 +17117,11 @@
  },
  "NOT_THIRD_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|%V2$ [special_status_power_short|e] in [INTERNATIONAL_ORGANIZATION.GetName] due to having the $STATUS$ [special_status|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|%V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|%V2$"
  },
  "NOT_THIRD_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V2$ [special_status_power_short|e] in [INTERNATIONAL_ORGANIZATION.GetName] due to having the $STATUS$ [special_status|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_STATE_RELIGION_CLERGY_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|V%2$ [ShowPopTypeName('clergy')] of [state_religion|e]",
@@ -17233,7 +17233,7 @@
  },
  "NOT_THIRD_TOTAL_DYNASTIC_POWER_TRIGGER": {
   "en": "$DYNASTY$ does NOT have $COMPARATOR$ $NUM|Y2$ [dynastic_power|e] in total $current_value_Y2$",
-  "uk": "[Concept('dynastic_power', 'Влада')|e] династії $DYNASTY$ загалом становить НЕ $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
+  "uk": "[Concept('dynastic_power', 'Вплив')|e] династії $DYNASTY$ загалом становить НЕ $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
  },
  "NOT_THIRD_TOTAL_EFFECTIVE_BUILDING_LEVELS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have $COMPARATOR$ $NUM|Y0$ fully staffed $NAME$. It currently has $CURRENT|Y0$",
@@ -17289,11 +17289,11 @@
  },
  "NOT_THIRD_TOTAL_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] in [INTERNATIONAL_ORGANIZATION.GetName] have NOT a combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_TOTAL_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] in [INTERNATIONAL_ORGANIZATION.GetName] do NOT have combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "Сукупна [Concept('special_status_power_short','сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_THIRD_TOTAL_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] does NOT have a population of $COMPARATOR$ $NUM|V0$ from [tolerated_cultures|e] $current_value_V0$",
@@ -17569,7 +17569,7 @@
  },
  "NOT_THIS_ANTAGONISM_TOWARDS_PREV_TRIGGER": {
   "en": "[antagonism|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
  },
  "NOT_THIS_FAVORS_WITH_PREV_TRIGGER": {
   "en": "[favors|E] with [TARGET_COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$",
@@ -17577,7 +17577,7 @@
  },
  "NOT_THIS_OPINION_OF_PREV_TRIGGER": {
   "en": "[opinion|E] of [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$"
  },
  "NOT_THIS_SPY_NETWORK_IN_PREV_TRIGGER": {
   "en": "[spy_network|E] in [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
@@ -17645,7 +17645,7 @@
  },
  "NOT_TOTAL_HEATHEN_POPULATION_TRIGGER": {
   "en": "Does NOT have a [heathen|e] population of $COMPARATOR$ $NUM|V0$",
-  "uk": "[Concept('heathen','Поганське')|e] населення НЕ $COMPARATOR$ $NUM|V0$"
+  "uk": "[Concept('heathen','Язичницьке')|e] населення НЕ $COMPARATOR$ $NUM|V0$"
  },
  "NOT_TOTAL_HERETIC_POPULATION_TRIGGER": {
   "en": "Does NOT have a [heretic|e] population of $COMPARATOR$ $NUM|V0$",
@@ -17681,11 +17681,11 @@
  },
  "NOT_TOTAL_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] have NOT a combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_TOTAL_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] do NOT have combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "Сукупна [Concept('special_status_power_short','сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» НЕ $COMPARATOR$ $NUM|V2$"
  },
  "NOT_TOTAL_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "Does NOT have a population of $COMPARATOR$ $NUM|V0$ from [tolerated_cultures|e] $current_value_V0$",
@@ -17913,7 +17913,7 @@
  },
  "NOT_WE_ANTAGONISM_TRIGGER": {
   "en": "Our [antagonism|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$",
-  "uk": "Наша [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
+  "uk": "Наша [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! НЕ $COMPARATOR$ $NUM|V00$ од."
  },
  "NOT_WE_ANTAGONISM_TYPE_TRIGGER": {
   "en": "We do NOT have the $ANTAGONISM|Y$ antagonism bias of [TARGET_COUNTRY.GetName]",
@@ -17921,7 +17921,7 @@
  },
  "NOT_WE_COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "We do NOT have $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Наша загальна [Concept('art_quality', 'якість творіння')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Наша загальна [Concept('art_quality', 'якість витворів')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "NOT_WE_COUNTRY_HAS_DISEASE_OUTBREAK_TRIGGER": {
   "en": "[TARGET_DISEASE_OUTBREAK.GetName] is NOT present in our country",
@@ -18565,19 +18565,19 @@
  },
  "NOT_any_international_organization_elector": {
   "en": "No [elector|e]",
-  "uk": "Жоден з [Concept('elector', 'виборців')|e]"
+  "uk": "Жоден з [Concept('elector', 'курфюрстів')|e]"
  },
  "NOT_any_international_organization_elector_all": {
   "en": "Not all [electors|e]",
-  "uk": "Не всі [Concept('electors', 'виборці')|e]"
+  "uk": "Не всі [Concept('electors', 'курфюрсти')|e]"
  },
  "NOT_any_international_organization_elector_count": {
   "en": "Not $PARAMETERS$ [electors|e]",
-  "uk": "Будь-яка кількість [Concept('electors', 'виборців')|e], крім $PARAMETERS$,"
+  "uk": "Будь-яка кількість [Concept('electors', 'курфюрстів')|e], крім $PARAMETERS$,"
  },
  "NOT_any_international_organization_elector_percent": {
   "en": "Not $PARAMETERS$ [electors|e]",
-  "uk": "Будь-яка кількість [Concept('electors', 'виборців')|e], крім $PARAMETERS$,"
+  "uk": "Будь-яка кількість [Concept('electors', 'курфюрстів')|e], крім $PARAMETERS$,"
  },
  "NOT_any_international_organization_member": {
   "en": "No [international_organizations|e] member",
@@ -18901,19 +18901,19 @@
  },
  "NOT_any_policy_in_law": {
   "en": "No [policy|e] in [LAW.GetName]",
-  "uk": "Жодна з [Concept('policy', 'політик')|e] правила «[LAW.GetName]»"
+  "uk": "Жодна з [Concept('policy', 'політик')|e] закону «[LAW.GetName]»"
  },
  "NOT_any_policy_in_law_all": {
   "en": "Not all [policies|e] in [LAW.GetName]",
-  "uk": "Не всі [Concept('policies', 'політики')|e] правила «[LAW.GetName]»"
+  "uk": "Не всі [Concept('policies', 'політики')|e] закону «[LAW.GetName]»"
  },
  "NOT_any_policy_in_law_count": {
   "en": "Not $PARAMETERS$ [policies|e] in [LAW.GetName]",
-  "uk": "Будь-яка кількість [Concept('policies', 'політик')|e] правила «[LAW.GetName]», крім $PARAMETERS$"
+  "uk": "Будь-яка кількість [Concept('policies', 'політик')|e] закону «[LAW.GetName]», крім $PARAMETERS$"
  },
  "NOT_any_policy_in_law_percentage": {
   "en": "Not $PARAMETERS$ [policies|e] in [LAW.GetName]",
-  "uk": "Будь-яка кількість [Concept('policies', 'політик')|e] правила «[LAW.GetName]», крім $PARAMETERS$"
+  "uk": "Будь-яка кількість [Concept('policies', 'політик')|e] закону «[LAW.GetName]», крім $PARAMETERS$"
  },
  "NOT_any_possible_parliament_issue": {
   "en": "No possible [parliament_issue|e]",
@@ -19433,7 +19433,7 @@
  },
  "NOT_country_dominant_dialect_equal": {
   "en": "The [dominant_dialect|e] of [COUNTRY.GetName] is NOT [TARGET_DIALECT.GetName]",
-  "uk": "[Concept('dominant_dialect', 'Домінантним діалектом')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕ є #L [TARGET_DIALECT.GetName|l]ий#!"
+  "uk": "[Concept('dominant_dialect', 'Панівним діалектом')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕ є #L [TARGET_DIALECT.GetName|l]ий#!"
  },
  "NOT_country_dominant_language_equal": {
   "en": "The [dominant_language|e] is NOT [TARGET_LANGUAGE.GetName]",
@@ -19441,7 +19441,7 @@
  },
  "NOT_country_dominant_religion_equal": {
   "en": "The [dominant_religion|e] of [COUNTRY.GetName] is NOT [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion', 'Домінантною релігією')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕ є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion', 'Панівною релігією')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! НЕ є [TARGET_RELIGION.GetName|l]"
  },
  "NOT_country_dominant_upper_class_culture_equal": {
   "en": "The [dominant_upper_class_culture|e] of [COUNTRY.GetName] is NOT [TARGET_CULTURE.GetName]",
@@ -20157,15 +20157,15 @@
  },
  "NOT_location_dominant_dialect_equal": {
   "en": "The [dominant_dialect|e] of [LOCATION.GetName] is NOT [TARGET_DIALECT.GetName]",
-  "uk": "[Concept('dominant_dialect','Домінантним діалектом')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] НЕ є #L [TARGET_DIALECT.GetName|l]ий#!"
+  "uk": "[Concept('dominant_dialect','Панівним діалектом')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] НЕ є #L [TARGET_DIALECT.GetName|l]ий#!"
  },
  "NOT_location_dominant_language_equal": {
   "en": "The [dominant_language|e] of [LOCATION.GetName] is NOT [TARGET_LANGUAGE.GetName]",
-  "uk": "[Concept('dominant_language', 'Домінантна мова')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — НЕ #L [TARGET_LANGUAGE.GetName|l]а#!"
+  "uk": "[Concept('dominant_language', 'Панівна мова')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — НЕ #L [TARGET_LANGUAGE.GetName|l]а#!"
  },
  "NOT_location_dominant_religion_equal": {
   "en": "The [dominant_religion|e] of [LOCATION.GetName] is NOT [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion', 'Домінантна релігія')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — НЕ [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion', 'Панівна релігія')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — НЕ [TARGET_RELIGION.GetName|l]"
  },
  "NOT_location_equal": {
   "en": "Is NOT [TARGET_LOCATION.GetName]",
@@ -20201,7 +20201,7 @@
  },
  "NOT_location_religion_equal": {
   "en": "The [dominant_religion|e] of [LOCATION.GetName] is NOT [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion','Домінантною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] НЕ є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion','Панівною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] НЕ є [TARGET_RELIGION.GetName|l]"
  },
  "NOT_location_root_equal": {
   "en": "Is NOT [TARGET_LOCATION.GetName]",
@@ -20701,11 +20701,11 @@
  },
  "NOT_revolutionary_target_equal": {
   "en": "The [revolutionary_target|e] is NOT [TARGET_COUNTRY.GetName]",
-  "uk": "[Concept('revolutionary_target', 'Ціллю-революціонером')|e] НЕ є держава [TARGET_COUNTRY.GetName]"
+  "uk": "[Concept('revolutionary_target', 'Осередком революції')|e] НЕ є держава [TARGET_COUNTRY.GetName]"
  },
  "NOT_revolutionary_target_not_equal": {
   "en": "The [revolutionary_target|e] is [TARGET_COUNTRY.GetName]",
-  "uk": "[Concept('revolutionary_target', 'Ціллю-революціонером')|e] є держава [TARGET_COUNTRY.GetName]"
+  "uk": "[Concept('revolutionary_target', 'Осередком революції')|e] є держава [TARGET_COUNTRY.GetName]"
  },
  "NOT_road_type_scope_equal": {
   "en": "Is NOT [ROAD_TYPE.GetName]",
@@ -20853,11 +20853,11 @@
  },
  "NOT_succession_law_equal": {
   "en": "Succession Law is NOT [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "Правило престолонаслідування НЕ [TARGET_HEIR_SELECTION.GetName|l]"
+  "uk": "Закон престолонаслідування НЕ [TARGET_HEIR_SELECTION.GetName|l]"
  },
  "NOT_succession_law_not_equal": {
   "en": "Succession Law is [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "Правило престолонаслідування — [TARGET_HEIR_SELECTION.GetName|l]"
+  "uk": "Закон престолонаслідування — [TARGET_HEIR_SELECTION.GetName|l]"
  },
  "NOT_to_market_equal": {
   "en": "Is NOT imported to [TARGET_MARKET.GetName]",
@@ -21013,11 +21013,11 @@
  },
  "NOT_work_of_art_type_equal": {
   "en": "[work_of_art|e] is NOT a [TARGET_WORK_OF_ART_TYPE.GetName]",
-  "uk": "[Concept('work_of_art','Творіння')|e] НЕ [TARGET_WORK_OF_ART_TYPE.GetName]"
+  "uk": "[Concept('work_of_art','Витвір мистецтва')|e] НЕ [TARGET_WORK_OF_ART_TYPE.GetName]"
  },
  "NOT_work_of_art_type_not_equal": {
   "en": "[work_of_art|e] is a [TARGET_WORK_OF_ART_TYPE.GetName]",
-  "uk": "[Concept('work_of_art','Творіння')|e] — [TARGET_WORK_OF_ART_TYPE.GetName]"
+  "uk": "[Concept('work_of_art','Витвір мистецтва')|e] — [TARGET_WORK_OF_ART_TYPE.GetName]"
  },
  "NOT_work_of_art_type_scope_equal": {
   "en": "Is NOT [WORK_OF_ART_TYPE.GetName]",
@@ -21037,7 +21037,7 @@
  },
  "NUM_ADVANCES_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0$ [advances|E] researched",
-  "uk": "Кількість досліджених [Concept('advances','вдосконалень')|E] $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість досліджених [Concept('advances','покращень')|E] $COMPARATOR$ $NUM|V0$"
  },
  "NUM_AFFECTED_LOCATIONS_TRIGGER": {
   "en": "Affects $COMPARATOR$ $NUM|0Y$ [locations|e]",
@@ -21177,7 +21177,7 @@
  },
  "NUM_OF_ELECTORS_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0$ [electors|e] $current_value_V0$",
-  "uk": "Кількість [Concept('electors','виборців')|e] $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
+  "uk": "Кількість [Concept('electors','курфюрстів')|e] $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
  },
  "NUM_OF_LOCATIONS_OWNED_BY_IO_TRIGGER": {
   "en": "Own $COMPARATOR$ $NUM|Y$ locations in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_0Y$",
@@ -21221,7 +21221,7 @@
  },
  "NUM_OF_TRAITS_OF_CATEGORY_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|Y$ $TRAIT_CATEGORY$ [traits|e]",
-  "uk": "Має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'властивостей')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "Має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'рис')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots",
@@ -21317,7 +21317,7 @@
  },
  "NUM_WORKS_OF_ART_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Offensive alliance strength is $COMPARATOR$ $NUM|2Y$",
@@ -21473,7 +21473,7 @@
  },
  "PLAYER_ADVANCE_TRIGGER": {
   "en": "We have $ADVANCE$ [advance|e]",
-  "uk": "У нас є [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У нас є [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "PLAYER_COUNTRYTAG_TRIGGER": {
   "en": "We are currently playing $NAME|Y$",
@@ -21569,7 +21569,7 @@
  },
  "PLAYER_MONTHS_SINCE_WAR_TRIGGER": {
   "en": "We have had $COMPARATOR$ $NUM|V0$ months since we last were at [war|e]",
-  "uk": "[Concept('war','Воєнний час')|e] у нашій державі закінчився $COMPARATOR$ $NUM|V0$ міс. тому"
+  "uk": "[Concept('war','Війна')|e] у нашій державі закінчилася $COMPARATOR$ $NUM|V0$ міс. тому"
  },
  "PLAYER_ORIGINAL_TAG_TRIGGER": {
   "en": "We were originally $NAME|Y$",
@@ -21677,7 +21677,7 @@
  },
  "PREV_ANTAGONISM_TOWARDS_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [antagonism|E] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "PREV_FAVORS_WITH_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [favors|E] are $COMPARATOR$ $NUM|V00$",
@@ -21685,7 +21685,7 @@
  },
  "PREV_OPINION_OF_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [opinion|E] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('opinion','Ставлення')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('opinion','Думка')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "PREV_SPY_NETWORK_IN_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [spy_network|E] is $COMPARATOR$ $NUM|V00$",
@@ -21765,7 +21765,7 @@
  },
  "PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "Has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]",
-  "uk": "Є [Concept('colonial_charter','колоніальне поселення')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
+  "uk": "Є [Concept('colonial_charter','колоніальна грамота')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
  },
  "PROVINCE_HAS_MODIFIER_TRIGGER": {
   "en": "Has $MODIFIER|Y$",
@@ -21797,7 +21797,7 @@
  },
  "RAW_MATERIAL_AMOUNT_TRIGGER": {
   "en": "Has a total [TARGET_GOODS.GetName] [raw_material|e] occurrence of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Поширеність [Concept('raw_material', 'ресурсу')|e] «[TARGET_GOODS.GetName|l]» становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Поширеність [Concept('raw_material', 'сировини')|e] «[TARGET_GOODS.GetName|l]» становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "RAW_MATERIAL_OCCURRENCE_TRIGGER": {
   "en": "Appears in $COMPARATOR$ $NUM|0Y$ [locations|e] in the world $current_value_0Y$",
@@ -21805,7 +21805,7 @@
  },
  "RAW_MATERIAL_OUTPUT_TRIGGER": {
   "en": "The [raw_material|e] output is $COMPARATOR$ $NUM|Y$ $current_value$",
-  "uk": "Обсяг випуску [Concept('raw_material', 'ресурсів')|e] становить $COMPARATOR$ $NUM|Y$ од. $current_value$"
+  "uk": "Обсяг випуску [Concept('raw_material', 'сировини')|e] становить $COMPARATOR$ $NUM|Y$ од. $current_value$"
  },
  "REBEL_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "Does NOT have $MODIFIER_NAME$",
@@ -21917,7 +21917,7 @@
  },
  "RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in local [market|e] relative to the default price is $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на місцевому [Concept('market', 'ринку')|e] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на місцевому [Concept('market', 'ринку')|e] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "RELATIVE_STRENGTH_TRIGGER": {
   "en": "Has $COMPARATOR$ $NUM|V0%$ of the total combined strength of them and [TARGET_COUNTRY.GetName]",
@@ -22277,7 +22277,7 @@
  },
  "THIRD_ART_PROGRESS_TRIGGER": {
   "en": "[CHARACTER.GetName] is $COMPARATOR$ $NUM|Y%$ of the way through a [work_of_art|e]",
-  "uk": "[Concept('work_of_art', 'Твір')|e] персонажа [CHARACTER.GetName] створено на $COMPARATOR$, ніж $NUM|Y%$"
+  "uk": "[Concept('work_of_art', 'Витвір мистецтва')|e] персонажа [CHARACTER.GetName] створено на $COMPARATOR$, ніж $NUM|Y%$"
  },
  "THIRD_ART_QUALITY_TRIGGER": {
   "en": "[WORK_OF_ART.GetName] has $COMPARATOR$ $NUM|Y2/%$ [art_quality|e]",
@@ -22321,7 +22321,7 @@
  },
  "THIRD_AVERAGE_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "The average [special_status_power_short|e] of $STATUS$ in [INTERNATIONAL_ORGANIZATION.GetName] is $COMPARATOR$ $NUM|V2$",
-  "uk": "Середня [Concept('special_status_power_short','сила статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
+  "uk": "Середня [Concept('special_status_power_short','міць статусу')|e] «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_BANKRUPT_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is currently [bankrupt|E]",
@@ -22829,7 +22829,7 @@
  },
  "THIRD_CHARACTER_NUM_OF_TRAITS_TRIGGER": {
   "en": "[CHARACTER.GetName] has $COMPARATOR$ $NUM|Y$ [traits|e]",
-  "uk": "[CHARACTER.GetName] має $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'властивостей')|e]"
+  "uk": "[CHARACTER.GetName] має $COMPARATOR$ ніж $NUM|Y$ [Concept('traits', 'рис')|e]"
  },
  "THIRD_CHARACTER_PREGNANT_TRIGGER": {
   "en": "[CHARACTER.GetName] is pregnant",
@@ -22877,7 +22877,7 @@
  },
  "THIRD_COMBINED_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_CONQUER_DESIRE_TRIGGER": {
   "en": "[COUNTRY.GetAdjective] desire to conquer [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V2$",
@@ -22897,7 +22897,7 @@
  },
  "THIRD_COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Загальна [Concept('art_quality', 'якість творіння')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна [Concept('art_quality', 'якість витвору')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|2Y$"
  },
  "THIRD_COUNTRY_AVERAGE_CONTROL_TRIGGER": {
   "en": "[COUNTRY.GetName] has an average [control|e] of $COMPARATOR$ $NUM|V0%$",
@@ -23209,11 +23209,11 @@
  },
  "THIRD_DISEASE_COUNTRY_DEATHS_TRIGGER": {
   "en": "Total number of dead in [COUNTRY.GetName] from [TARGET_DISEASE.GetName] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[TARGET_DISEASE.GetName]» у державі [COUNTRY.GetName] $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[TARGET_DISEASE.GetName]» у державі [COUNTRY.GetName] $COMPARATOR$ $NUM|2Y$"
  },
  "THIRD_DISEASE_HAS_STAGNATED_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] has stagnated in $SOURCE$",
-  "uk": "Епідемія «[TARGET_DISEASE.GetName]» у місці $SOURCE$ призупинилася"
+  "uk": "Хвороба «[TARGET_DISEASE.GetName]» у місці $SOURCE$ призупинилася"
  },
  "THIRD_DISEASE_IS_ACTIVE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] is active",
@@ -23237,15 +23237,15 @@
  },
  "THIRD_DISEASE_PRESENCE_TRIGGER": {
   "en": "[TARGET_DISEASE.GetName] presence in $SOURCE$ is $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Присутність епідемії «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Присутність хвороби «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить $COMPARATOR$ $NUM|2%Y$"
  },
  "THIRD_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Resistance to [TARGET_DISEASE.GetName] in $SOURCE$ is $COMPARATOR$ $NUM|2%Y$",
-  "uk": "Опір епідемії «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить $COMPARATOR$ $NUM|2%Y$"
+  "uk": "Опір хворобі «[TARGET_DISEASE.GetName]» у місці $SOURCE$ становить $COMPARATOR$ $NUM|2%Y$"
  },
  "THIRD_DISEASE_TOTAL_DEATHS_TRIGGER": {
   "en": "Total number killed by [DISEASE.GetName] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Загальна кількість померлих від епідемії «[DISEASE.GetName]» $COMPARATOR$ $NUM|2Y$"
+  "uk": "Загальна кількість померлих від хвороби «[DISEASE.GetName]» $COMPARATOR$ $NUM|2Y$"
  },
  "THIRD_DOES_ESTATE_WANT_POLICY_TRIGGER": {
   "en": "$ESTATE$ in [COUNTRY.GetName] wants another policy in the $LAW$",
@@ -23253,7 +23253,7 @@
  },
  "THIRD_DYNASTIC_POWER_TRIGGER": {
   "en": "$DYNASTY$ has $COMPARATOR$ $NUM|Y2$ [dynastic_power|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_Y2$",
-  "uk": "[Concept('dynastic_power', 'Влада')|e] династії $DYNASTY$ в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
+  "uk": "[Concept('dynastic_power', 'Вплив')|e] династії $DYNASTY$ в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
  },
  "THIRD_DYNASTY_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "[DYNASTY.GetName] does NOT have $MODIFIER_NAME$",
@@ -23577,7 +23577,7 @@
  },
  "THIRD_HAS_ADVANCE_AVAILABLE": {
   "en": "[COUNTRY.GetName|U] has the $ADVANCE$ [advance|e] available to research",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є доступне для дослідження [Concept('advance','поліпшення')|e] «$ADVANCE$»"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є доступне для дослідження [Concept('advance','покращення')|e] «$ADVANCE$»"
  },
  "THIRD_HAS_ADVANCE_FOR_EMPLOYMENT_SYSTEM_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has the necessary advance to be able to adopt the [employment_system|e] [TARGET_EMPLOYMENT_SYSTEM.GetName]",
@@ -23585,7 +23585,7 @@
  },
  "THIRD_HAS_ADVANCE_FOR_SUCCESSION_LAW_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has the necessary advance to be able to adopt the succession law [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є необхідне вдосконалення, щоб прийняти правило престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є необхідне покращення, щоб прийняти закон престолонаслідування «[TARGET_HEIR_SELECTION.GetName]»"
  },
  "THIRD_HAS_AI_DISPOSITION_TOWARD_ACTOR_TRIGGER": {
   "en": "[COUNTRY.GetName|U] views [actor.GetName] with a $VALUE$ [country_disposition|e]",
@@ -23613,7 +23613,7 @@
  },
  "THIRD_HAS_ANY_DISEASE_PRESENT_TRIGGER": {
   "en": "$SOURCE$ has any [disease|e] present",
-  "uk": "У місці $SOURCE$ присутня будь-яка [Concept('disease', 'епідемія')|e]"
+  "uk": "У місці $SOURCE$ присутня будь-яка [Concept('disease', 'хвороба')|e]"
  },
  "THIRD_HAS_ANY_MISSION_ACTIVE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has currently any [mission|e] active",
@@ -23637,7 +23637,7 @@
  },
  "THIRD_HAS_ART_IN_PROGRESS_TRIGGER": {
   "en": "[CHARACTER.GetName] is working on a [work_of_art|e]",
-  "uk": "[CHARACTER.GetName] створює [Concept('work_of_art', 'твір')|e]"
+  "uk": "[CHARACTER.GetName] створює [Concept('work_of_art', 'витвір мистецтва')|e]"
  },
  "THIRD_HAS_AUTOCEPHALOUS_PATRIARCHATES_TRIGGER": {
   "en": "[RELIGION.GetName] uses [autocephalous_patriarchates|E]",
@@ -23693,7 +23693,7 @@
  },
  "THIRD_HAS_CHARTERS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [colonial_charter|E]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [Concept('colonial_charter', 'колоніальне поселення')|e]"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [Concept('colonial_charter', 'колоніальна грамота')|e]"
  },
  "THIRD_HAS_CHIVALRIC_ORDER_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a national [chivalric_order|e]",
@@ -23709,7 +23709,7 @@
  },
  "THIRD_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]",
-  "uk": "У провінції [PROVINCE_DEFINITION.GetName] є [Concept('colonial_charter', 'колоніальне поселення')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "У провінції [PROVINCE_DEFINITION.GetName] є [Concept('colonial_charter', 'колоніальна грамота')|e], що належить #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "THIRD_HAS_COLONIAL_CLAIM_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a claim in [TARGET_PROVINCE_DEFINITION.GetName]",
@@ -23737,19 +23737,19 @@
  },
  "THIRD_HAS_COUNTRIES_WITH_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has [antagonism|e] towards [COUNTRY.GetName]",
-  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "Якась [Concept('country','держава')|e] відчуває [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "THIRD_HAS_COUNTRIES_WITH_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] [antagonism|e] and is thus able to form a [GetInternationalOrganizationType('coalition').GetName] against [COUNTRY.GetName]",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'ворожості')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION')|-=] од. [Concept('antagonism', 'неприязні')|e] і може створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "THIRD_HAS_COUNTRIES_WITH_NEAR_COALITION_GRADE_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has at least [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] [antagonism|e] against us and is thus close to being able to form a [GetInternationalOrganizationType('coalition').GetName] against [COUNTRY.GetName]",
-  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'ворожості')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Якась [Concept('country','держава')|e] має щонайменше [GetDefine('NDiplomacy','ANTAGONISM_FOR_COALITION_WARNING')|-=] од. [Concept('antagonism', 'неприязні')|e] і близька до можливості створити #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,coalition,X #L коаліцію#!#! проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "THIRD_HAS_COUNTRIES_WITH_TIMED_ANTAGONISM_TRIGGER": {
   "en": "Any [country|e] has temporary [antagonism|e] towards [COUNTRY.GetName]",
-  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
+  "uk": "Якась [Concept('country','держава')|e] відчуває тимчасову [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#!"
  },
  "THIRD_HAS_CULTURE_GROUP_TRIGGER": {
   "en": "[CULTURE.GetName] belongs to the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]",
@@ -24129,7 +24129,7 @@
  },
  "THIRD_HAS_SECTS_TRIGGER": {
   "en": "[RELIGION.GetName] uses [sects|E]",
-  "uk": "[RELIGION.GetName] застосовує поняття [Concept('sects', 'напрямів')|e]"
+  "uk": "[RELIGION.GetName] застосовує поняття [Concept('sects', 'течій')|e]"
  },
  "THIRD_HAS_SELLABLE_ART_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [work_of_art|e] available for sale",
@@ -24181,11 +24181,11 @@
  },
  "THIRD_HAS_TRAIT_CATEGORY_TRIGGER": {
   "en": "[CHARACTER.GetName] has a $TRAIT_CATEGORY$ [trait|e]",
-  "uk": "[CHARACTER.GetName] має [Concept('trait', 'властивість')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "[CHARACTER.GetName] має [Concept('trait', 'рису')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "THIRD_HAS_TRAIT_TRIGGER": {
   "en": "[CHARACTER.GetName] is $TRAIT$",
-  "uk": "[CHARACTER.GetName] має властивість $TRAIT$"
+  "uk": "[CHARACTER.GetName] має рису $TRAIT$"
  },
  "THIRD_HAS_TRUCE_WITH_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [truce|E] with [TARGET_COUNTRY.GetName]",
@@ -24313,7 +24313,7 @@
  },
  "THIRD_INTERNATIONAL_ORGANIZATION_HAS_LAWS_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has enacted [laws|e]",
-  "uk": "Об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» встановило [Concept('laws','звід правил')|e]"
+  "uk": "Об’єднання «[INTERNATIONAL_ORGANIZATION.GetName]» встановило [Concept('laws','закони')|e]"
  },
  "THIRD_INTERNATIONAL_ORGANIZATION_HAS_LAW_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has enacted [TARGET_LAW.GetName]",
@@ -24373,7 +24373,7 @@
  },
  "THIRD_INTRINSIC_DISEASE_RESISTANCE_TRIGGER": {
   "en": "Intrinsic [disease_resistance|e] in [LOCATION.GetName] is $COMPARATOR$ $NUM|2Y$",
-  "uk": "Початкова [Concept('disease_resistance', 'стійкість')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до епідемій становить $COMPARATOR$ $NUM|2Y$"
+  "uk": "Початкова [Concept('disease_resistance', 'стійкість')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до хвороб становить $COMPARATOR$ $NUM|2Y$"
  },
  "THIRD_IN_ASSAULT_TRIGGER": {
   "en": "[SIEGE.GetName] is in an assault",
@@ -24605,7 +24605,7 @@
  },
  "THIRD_IS_ELECTOR_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] is an [elector|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "[COUNTRY.GetName] — [Concept('elector','виборець')|e] в об'єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
+  "uk": "[COUNTRY.GetName] — [Concept('elector','курфюрст')|e] в об’єднанні «[TARGET_INTERNATIONAL_ORGANIZATION.GetName]»"
  },
  "THIRD_IS_ELIGIBLE_FOR_MARRIAGE": {
   "en": "[CHARACTER.GetName] is eligible for any kind of marriage",
@@ -25121,15 +25121,15 @@
  },
  "THIRD_LAW_IS_LOCKED_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] can NOT be changed in [INTERNATIONAL_ORGANIZATION.GetName]",
-  "uk": "[INTERNATIONAL_ORGANIZATION.GetName] НЕ МОЖЕ змінити правило «[LAW.GetName]»"
+  "uk": "[INTERNATIONAL_ORGANIZATION.GetName] НЕ МОЖЕ змінити закон «[LAW.GetName]»"
  },
  "THIRD_LAW_POLICY": {
   "en": "[Policy|e] for [LAW.GetName] is [POLICY.GetName]",
-  "uk": "[Concept('Policy', 'Політика')|e] правила «[LAW.GetName]» — «[POLICY.GetName]»"
+  "uk": "[Concept('Policy', 'Політика')|e] закону «[LAW.GetName]» — «[POLICY.GetName]»"
  },
  "THIRD_LAW_REQUIRES_VOTE_IN_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[LAW.GetName] requires a vote to pass in the [international_organization|e]",
-  "uk": "Для ухвалення правила «[LAW.GetName]» потрібне голосування в [Concept('international_organization','міжнародному об’єднанні')|e]"
+  "uk": "Для ухвалення закону «[LAW.GetName]» потрібне голосування в [Concept('international_organization','міжнародному об’єднанні')|e]"
  },
  "THIRD_LAW_VISIBLE_TO_INTERNATIONAL_ORGANIZATION_TRIGGER": {
   "en": "[TARGET_LAW.GetName] is available to [INTERNATIONAL_ORGANIZATION.GetName]",
@@ -25145,11 +25145,11 @@
  },
  "THIRD_LEADER_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have a combined [special_status_power_short|e] percentage of $COMPARATOR$ $NUM|%V2$",
-  "uk": "Сукупний відсоток [Concept('special_status_power_short','сили')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|%V2$"
+  "uk": "Сукупний відсоток [Concept('special_status_power_short','міці')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|%V2$"
  },
  "THIRD_LEADER_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [international_organization_leader_short|e] [special_statuses|e] in [INTERNATIONAL_ORGANIZATION.GetName] have a combined [special_status_power_short|e] of $COMPARATOR$ $NUM|V2$",
-  "uk": "Сукупна [Concept('special_status_power_short','сила')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць')|e] всіх [Concept('special_statuses', 'особливих статусів')|e] [Concept('international_organization_leader_short','лідерів')|e] в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_LEADER_TYPE_TRIGGER": {
   "en": "[INTERNATIONAL_ORGANIZATION.GetName] has the $TYPE|Y$ [leader_type|e]",
@@ -25293,7 +25293,7 @@
  },
  "THIRD_LOCATION_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "[LOCATION.GetName] has $COMPARATOR$ $NUM|V0$ [works_of_art|e]",
-  "uk": "Кількість [Concept('works_of_art', 'творінь')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|V0$"
+  "uk": "Кількість [Concept('works_of_art', 'витворів мистецтва')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|V0$"
  },
  "THIRD_LOCATION_PEACE_COST_TRIGGER": {
   "en": "[LOCATION.GetName] peace cost is $COMPARATOR$ $NUM|2Y$",
@@ -25329,7 +25329,7 @@
  },
  "THIRD_LOCATION_WORKS_OF_ART_STAR_RATING_TRIGGER": {
   "en": "[LOCATION.GetName] has a [work_of_art|e] quality rating of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Рейтинг якості [Concept('work_of_art', 'творіння')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Рейтинг якості [Concept('work_of_art', 'витвору мистецтва')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "THIRD_MAINTENANCE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V02%$ $NAME$",
@@ -25453,7 +25453,7 @@
  },
  "THIRD_MAX_SECTS_TRIGGER": {
   "en": "[RELIGION.GetName] allows $COMPARATOR$ $NUM|0V$ [sects|E]",
-  "uk": "[RELIGION.GetName] дозволяє $COMPARATOR$ $NUM|0V$ [Concept('sects', 'напрямів')|e]"
+  "uk": "[RELIGION.GetName] дозволяє $COMPARATOR$ $NUM|0V$ [Concept('sects', 'течій')|e]"
  },
  "THIRD_MERCENARY_HAS_MODIFIER_TRIGGER": {
   "en": "[MERCENARY.GetName] has $MODIFIER|Y$",
@@ -25737,7 +25737,7 @@
  },
  "THIRD_NUM_OF_ELECTORS_TRIGGER": {
   "en": "The [INTERNATIONAL_ORGANIZATION.GetName] has $COMPARATOR$ $NUM|V0$ [electors|e] $current_value_V0$",
-  "uk": "Кількість [Concept('electors','виборців')|e] об'єднання «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
+  "uk": "Кількість [Concept('electors','курфюрстів')|e] об’єднання «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V0$ осіб (зараз: $current_value_V0$)"
  },
  "THIRD_NUM_OF_LOCATIONS_OWNED_BY_IO_TRIGGER": {
   "en": "[COUNTRY.GetName|U] owns $COMPARATOR$ $NUM|Y$ locations in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_0Y$",
@@ -25781,7 +25781,7 @@
  },
  "THIRD_NUM_OF_TRAITS_OF_CATEGORY_TRIGGER": {
   "en": "[CHARACTER.GetName] has $COMPARATOR$ $NUM|Y$ $TRAIT_CATEGORY$ [traits|e]",
-  "uk": "[CHARACTER.GetName] має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'властивостей')|e] з категорії «$TRAIT_CATEGORY$»"
+  "uk": "[CHARACTER.GetName] має $COMPARATOR$ $NUM|Y$ [Concept('traits', 'рис')|e] з категорії «$TRAIT_CATEGORY$»"
  },
  "THIRD_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots",
@@ -25813,7 +25813,7 @@
  },
  "THIRD_NUM_REBELS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V0$ Rebels",
-  "uk": "[COUNTRY.GetName|U] має $COMPARATOR$ $NUM|V0$ бунтівників"
+  "uk": "[COUNTRY.GetName|U] має $COMPARATOR$ $NUM|V0$ повстанців"
  },
  "THIRD_NUM_REFORMS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V0$ [government_reforms|e]",
@@ -25853,7 +25853,7 @@
  },
  "THIRD_NUM_WORKS_OF_ART_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V0$ [works_of_art|e] $current_value_V0$",
-  "uk": "Кількість [Concept('works_of_art','творінь')|e] у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Кількість [Concept('works_of_art','витворів мистецтва')|e] у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "THIRD_OFFENSIVE_ALLIANCE_STRENGTH_TRIGGER": {
   "en": "Offensive alliance strength of $COUNTRY$ is $COMPARATOR$ $NUM|2Y$",
@@ -26069,7 +26069,7 @@
  },
  "THIRD_PREV_ANTAGONISM_TOWARDS_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [antagonism|E] of [COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$"
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! до #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$"
  },
  "THIRD_PREV_FAVORS_WITH_THIS_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U]'s [favors|E] with [COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$",
@@ -26157,7 +26157,7 @@
  },
  "THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER": {
   "en": "[PROVINCE_DEFINITION.GetName] has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]",
-  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [Concept('colonial_charter','колоніальне поселення')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
+  "uk": "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [Concept('colonial_charter','колоніальна грамота')|E] в провінції [TARGET_PROVINCE_DEFINITION.GetName]"
  },
  "THIRD_PROVINCE_HAS_MODIFIER_TRIGGER": {
   "en": "[PROVINCE.GetName] has $MODIFIER|Y$",
@@ -26189,7 +26189,7 @@
  },
  "THIRD_RAW_MATERIAL_AMOUNT_TRIGGER": {
   "en": "$GEOGRAPHY$ has a total [TARGET_GOODS.GetName] [raw_material|e] occurrence of $COMPARATOR$ $NUM|V0$ $current_value_V0$",
-  "uk": "Поширеність [Concept('raw_material', 'ресурсу')|e] «[TARGET_GOODS.GetName|l]» на території $GEOGRAPHY$ становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Поширеність [Concept('raw_material', 'сировини')|e] «[TARGET_GOODS.GetName|l]» на території $GEOGRAPHY$ становить $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "THIRD_RAW_MATERIAL_OCCURRENCE_TRIGGER": {
   "en": "[GOODS.GetName] appears in $COMPARATOR$ $NUM|0Y$ [locations|e] in the world $current_value_0Y$",
@@ -26197,7 +26197,7 @@
  },
  "THIRD_RAW_MATERIAL_OUTPUT_TRIGGER": {
   "en": "[LOCATION.GetName]'s [raw_material|e] output is $COMPARATOR$ $NUM|Y$ $current_value$",
-  "uk": "Обсяг випуску [Concept('raw_material', 'ресурсів')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|Y$ од. $current_value$"
+  "uk": "Обсяг випуску [Concept('raw_material', 'сировини')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|Y$ од. $current_value$"
  },
  "THIRD_REBEL_BOOL_MODIFIER_NO_TRIGGER": {
   "en": "[REBEL.GetName] does NOT have $MODIFIER_NAME$",
@@ -26309,7 +26309,7 @@
  },
  "THIRD_RELATIVE_RAW_MATERIAL_PRICE_TRIGGER": {
   "en": "Price of [raw_materials|e] in [market|e] local to [LOCATION.GetName] relative to the default price is $COMPARATOR$ $NUM|Y2%$",
-  "uk": "Ціна [Concept('raw_materials', 'ресурсів')|e] на місцевому [Concept('market', 'ринку')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
+  "uk": "Ціна [Concept('raw_materials', 'сировини')|e] на місцевому [Concept('market', 'ринку')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] становить $COMPARATOR$ $NUM|Y2%$ від типової ціни"
  },
  "THIRD_RELATIVE_STRENGTH_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V0%$ of the total combined strength of them and [TARGET_COUNTRY.GetName]",
@@ -26457,11 +26457,11 @@
  },
  "THIRD_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] has $COMPARATOR$ $NUM|%V2$ [special_status_power_short|e] in [INTERNATIONAL_ORGANIZATION.GetName] due to having the $STATUS$ [special_status|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|%V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|%V2$"
  },
  "THIRD_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "[TARGET_COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V2$ [special_status_power_short|e] in [INTERNATIONAL_ORGANIZATION.GetName] due to having the $STATUS$ [special_status|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_STATE_RELIGION_CLERGY_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|V%2$ [ShowPopTypeName('clergy')] of [state_religion|e]",
@@ -26573,7 +26573,7 @@
  },
  "THIRD_TOTAL_DYNASTIC_POWER_TRIGGER": {
   "en": "$DYNASTY$ has $COMPARATOR$ $NUM|Y2$ [dynastic_power|e] in total $current_value_Y2$",
-  "uk": "[Concept('dynastic_power', 'Влада')|e] династії $DYNASTY$ загалом $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
+  "uk": "[Concept('dynastic_power', 'Вплив')|e] династії $DYNASTY$ загалом $COMPARATOR$ $NUM|Y2$ од. $current_value_Y2$"
  },
  "THIRD_TOTAL_EFFECTIVE_BUILDING_LEVELS_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has $COMPARATOR$ $NUM|Y0$ fully staffed $NAME$. It currently has $CURRENT|Y0$",
@@ -26593,7 +26593,7 @@
  },
  "THIRD_TOTAL_HEATHEN_POPULATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [heathen|e] population of $COMPARATOR$ $NUM|V0$",
-  "uk": "[Concept('heathen','Поганське')|e] населення #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V0$"
+  "uk": "[Concept('heathen','Язичницьке')|e] населення #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! $COMPARATOR$ $NUM|V0$"
  },
  "THIRD_TOTAL_HERETIC_POPULATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a [heretic|e] population of $COMPARATOR$ $NUM|V0$",
@@ -26613,7 +26613,7 @@
  },
  "THIRD_TOTAL_NOT_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a population of $COMPARATOR$ $NUM|V0$ from [cultures|e] which are neither [tolerated_culture_short|e] nor [accepted_culture_short|e] $current_value_V0$",
-  "uk": "Населення #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! з [Concept('tolerated_culture_short','неприйнятною')|e] або [Concept('accepted_culture_short','невизнаною')|e] [Concept('cultures','культурою')|e] $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Населення #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! з [Concept('cultures','культур')|e], які не є ні [Concept('tolerated_culture_short','прийнятними')|e], ні [Concept('accepted_culture_short','визнаними')|e], $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "THIRD_TOTAL_POPULATION_IN_INTERNATIONAL_ORGANIZATION_PERCENTAGE_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a population percentage of $COMPARATOR$ $NUM|V%2$ in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_V0percent2$",
@@ -26629,11 +26629,11 @@
  },
  "THIRD_TOTAL_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] in [INTERNATIONAL_ORGANIZATION.GetName] have a $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_TOTAL_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] in [INTERNATIONAL_ORGANIZATION.GetName] have combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "Сукупна [Concept('special_status_power_short','сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об'єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» в об’єднанні «[INTERNATIONAL_ORGANIZATION.GetName]» $COMPARATOR$ $NUM|V2$"
  },
  "THIRD_TOTAL_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "[COUNTRY.GetName|U] has a population of $COMPARATOR$ $NUM|V0$ from [tolerated_cultures|e] $current_value_V0$",
@@ -26913,7 +26913,7 @@
  },
  "THIS_ANTAGONISM_TOWARDS_PREV_TRIGGER": {
   "en": "[antagonism|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "[Concept('antagonism', 'Ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
+  "uk": "[Concept('antagonism', 'Неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
  },
  "THIS_FAVORS_WITH_PREV_TRIGGER": {
   "en": "[favors|E] with [TARGET_COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$",
@@ -26993,7 +26993,7 @@
  },
  "TOTAL_HEATHEN_POPULATION_TRIGGER": {
   "en": "Has a [heathen|e] population of $COMPARATOR$ $NUM|V0$",
-  "uk": "[Concept('heathen','Поганське')|e] населення $COMPARATOR$ $NUM|V0$"
+  "uk": "[Concept('heathen','Язичницьке')|e] населення $COMPARATOR$ $NUM|V0$"
  },
  "TOTAL_HERETIC_POPULATION_TRIGGER": {
   "en": "Has a [heretic|e] population of $COMPARATOR$ $NUM|V0$",
@@ -27013,7 +27013,7 @@
  },
  "TOTAL_NOT_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "Has a population of $COMPARATOR$ $NUM|V0$ from [cultures|e] which are neither [tolerated_culture_short|e] nor [accepted_culture_short|e] $current_value_V0$",
-  "uk": "Населення з [Concept('tolerated_culture_short','неприйнятною')|e] або [Concept('accepted_culture_short','невизнаною')|e] [Concept('cultures','культурою')|e] $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+  "uk": "Населення з [Concept('cultures','культур')|e], які не є ні [Concept('tolerated_culture_short','прийнятними')|e], ні [Concept('accepted_culture_short','визнаними')|e], $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  },
  "TOTAL_POPULATION_IN_INTERNATIONAL_ORGANIZATION_PERCENTAGE_TRIGGER": {
   "en": "Has a population percentage of $COMPARATOR$ $NUM|V%2$ in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_V0percent2$",
@@ -27029,11 +27029,11 @@
  },
  "TOTAL_SPECIAL_STATUS_POWER_FRACTION_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] have a $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
  },
  "TOTAL_SPECIAL_STATUS_POWER_TRIGGER": {
   "en": "All [members|e] of the $STATUS$ [special_status|e] have combined $COMPARATOR$ $NUM|V2$ [special_status_power_short|e]",
-  "uk": "Сукупна [Concept('special_status_power_short','сила статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
+  "uk": "Сукупна [Concept('special_status_power_short','міць статусу')|e] всіх [Concept('members','учасників')|e] — власників [Concept('special_status','особливого статусу')|e] «$STATUS$» $COMPARATOR$ $NUM|V2$"
  },
  "TOTAL_TOLERATED_CULTURE_POPULATION_TRIGGER": {
   "en": "Has a population of $COMPARATOR$ $NUM|V0$ from [tolerated_cultures|e] $current_value_V0$",
@@ -27265,7 +27265,7 @@
  },
  "WE_ANTAGONISM_TRIGGER": {
   "en": "Our [antagonism|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$",
-  "uk": "Наша [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
+  "uk": "Наша [Concept('antagonism', 'неприязнь')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $COMPARATOR$ $NUM|V00$ од."
  },
  "WE_ANTAGONISM_TYPE_TRIGGER": {
   "en": "We have the $ANTAGONISM|Y$ antagonism bias of [TARGET_COUNTRY.GetName]",
@@ -27273,7 +27273,7 @@
  },
  "WE_COUNTRY_ART_QUALITY_TRIGGER": {
   "en": "We have $COMPARATOR$ $NUM|2Y$ total [art_quality|e]",
-  "uk": "Наша загальна [Concept('art_quality', 'якість творіння')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
+  "uk": "Наша загальна [Concept('art_quality', 'якість витвору')|e] становить НЕ $COMPARATOR$ $NUM|2Y$"
  },
  "WE_COUNTRY_HAS_DISEASE_OUTBREAK_TRIGGER": {
   "en": "[TARGET_DISEASE_OUTBREAK.GetName] is present in our country",
@@ -27493,7 +27493,7 @@
  },
  "ai_personality_equal": {
   "en": "The [ai_personality|e] is [TARGET_AI_PERSONALITY.GetName]",
-  "uk": "[Concept('ai_personality','Особистість ШІ')|e] — [TARGET_AI_PERSONALITY.GetName]"
+  "uk": "[Concept('ai_personality','Характер держави')|e] — [TARGET_AI_PERSONALITY.GetName]"
  },
  "all_active_disaster": {
   "en": "All active [disaster|e]",
@@ -27525,7 +27525,7 @@
  },
  "antagonism_less_than": {
   "en": "[country|e] has less [antagonism|e] than $NUM$",
-  "uk": "Значення [Concept('antagonism', 'ворожості')|e] [Concept('country', 'держави')|e] становить нижче $NUM$"
+  "uk": "Значення [Concept('antagonism', 'неприязні')|e] [Concept('country', 'держави')|e] становить нижче $NUM$"
  },
  "any_accepted_culture": {
   "en": "Any [accepted_culture|e]",
@@ -27841,7 +27841,7 @@
  },
  "any_colonial_charter": {
   "en": "Any [colonial_charter|E]",
-  "uk": "Будь-яке [Concept('colonial_charter', 'колоніальне поселення')|e]"
+  "uk": "Будь-яка [Concept('colonial_charter', 'колоніальна грамота')|e]"
  },
  "any_colonial_charter_count": {
   "en": "$PARAMETERS$ [colonial_charter|E]",
@@ -28269,19 +28269,19 @@
  },
  "any_current_law": {
   "en": "Any [law|e]",
-  "uk": "Будь-яке [Concept('law', 'правило')|e]"
+  "uk": "Будь-який [Concept('law', 'закон')|e]"
  },
  "any_current_law_all": {
   "en": "All [laws|e]",
-  "uk": "Увесь [Concept('laws', 'звід правил')|e]"
+  "uk": "Усі [Concept('laws', 'закони')|e]"
  },
  "any_current_law_count": {
   "en": "$PARAMETERS$ [laws|e]",
-  "uk": "$PARAMETERS$ з [Concept('laws', 'правил')|e]"
+  "uk": "$PARAMETERS$ з [Concept('laws', 'законів')|e]"
  },
  "any_current_law_percentage": {
   "en": "$PARAMETERS$ [laws|e]",
-  "uk": "$PARAMETERS$ з [Concept('laws', 'правил')|e]"
+  "uk": "$PARAMETERS$ з [Concept('laws', 'законів')|e]"
  },
  "any_current_policy": {
   "en": "Any [policy|e]",
@@ -28597,19 +28597,19 @@
  },
  "any_international_organization_elector": {
   "en": "Any [elector|e]",
-  "uk": "Будь-який [Concept('elector', 'виборець')|e]"
+  "uk": "Будь-який [Concept('elector', 'курфюрст')|e]"
  },
  "any_international_organization_elector_all": {
   "en": "All [electors|e]",
-  "uk": "Усі [Concept('electors', 'виборці')|e]"
+  "uk": "Усі [Concept('electors', 'курфюрсти')|e]"
  },
  "any_international_organization_elector_count": {
   "en": "$PARAMETERS$ [electors|e]",
-  "uk": "$PARAMETERS$ з [Concept('electors', 'виборців')|e]"
+  "uk": "$PARAMETERS$ з [Concept('electors', 'курфюрстів')|e]"
  },
  "any_international_organization_elector_percent": {
   "en": "$PARAMETERS$ [electors|e]",
-  "uk": "$PARAMETERS$ з [Concept('electors', 'виборців')|e]"
+  "uk": "$PARAMETERS$ з [Concept('electors', 'курфюрстів')|e]"
  },
  "any_international_organization_member": {
   "en": "Any [international_organizations|e] member",
@@ -29233,19 +29233,19 @@
  },
  "any_policy_in_law": {
   "en": "Any [policy|e] in [LAW.GetName]",
-  "uk": "Будь-яка [Concept('policy', 'політика')|e] правила «[LAW.GetName]»"
+  "uk": "Будь-яка [Concept('policy', 'політика')|e] закону «[LAW.GetName]»"
  },
  "any_policy_in_law_all": {
   "en": "All [policies|e] in [LAW.GetName]",
-  "uk": "Усі [Concept('policies', 'політики')|e] правила «[LAW.GetName]»"
+  "uk": "Усі [Concept('policies', 'політики')|e] закону «[LAW.GetName]»"
  },
  "any_policy_in_law_count": {
   "en": "$PARAMETERS$ [policies|e] in [LAW.GetName]",
-  "uk": "$PARAMETERS$ з [Concept('policies', 'політик')|e] правила «[LAW.GetName]»"
+  "uk": "$PARAMETERS$ з [Concept('policies', 'політик')|e] закону «[LAW.GetName]»"
  },
  "any_policy_in_law_percentage": {
   "en": "$PARAMETERS$ [policies|e] in [LAW.GetName]",
-  "uk": "$PARAMETERS$ з [Concept('policies', 'політик')|e] правила «[LAW.GetName]»"
+  "uk": "$PARAMETERS$ з [Concept('policies', 'політик')|e] закону «[LAW.GetName]»"
  },
  "any_political_border_location": {
   "en": "Any political border [location|e] in [COUNTRY.GetName]",
@@ -29645,7 +29645,7 @@
  },
  "any_sound_toll_in_country": {
   "en": "Any [sound_toll|e] in [COUNTRY.GetName]",
-  "uk": "Будь-яке [Concept('sound_toll','звукове мито')|e] в [COUNTRY.GetName]"
+  "uk": "Будь-яка [Concept('sound_toll','плата за прохід')|e] в [COUNTRY.GetName]"
  },
  "any_spy_network_built_in_us": {
   "en": "Any [country|e] actively building a [spy_network|e] in [COUNTRY.GetName]",
@@ -29777,35 +29777,35 @@
  },
  "any_work_of_art_by_creator": {
   "en": "Any [work_of_art|e] by [CHARACTER.GetName]",
-  "uk": "Будь-який [Concept('work_of_art', 'твір')|e], який [Select_CString(CHARACTER.IsFemale, 'створила', 'створив' )] [CHARACTER.GetName]"
+  "uk": "Будь-який [Concept('work_of_art', 'витвір мистецтва')|e], який [Select_CString(CHARACTER.IsFemale, 'створила', 'створив' )] [CHARACTER.GetName]"
  },
  "any_work_of_art_by_creator_all": {
   "en": "All [work_of_art|e] by [CHARACTER.GetName]",
-  "uk": "Усі [Concept('work_of_art', 'твори')|e], які [Select_CString(CHARACTER.IsFemale, 'створила', 'створив' )] [CHARACTER.GetName]"
+  "uk": "Усі [Concept('work_of_art', 'витвори мистецтва')|e], які [Select_CString(CHARACTER.IsFemale, 'створила', 'створив' )] [CHARACTER.GetName]"
  },
  "any_work_of_art_in_country": {
   "en": "Any [work_of_art|e] in [COUNTRY.GetName]",
-  "uk": "Будь-який [Concept('work_of_art', 'твір')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Будь-який [Concept('work_of_art', 'витвір мистецтва')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "any_work_of_art_in_country_all": {
   "en": "All [work_of_art|e] in [COUNTRY.GetName]",
-  "uk": "Усі [Concept('work_of_art', 'твори')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "Усі [Concept('work_of_art', 'витвори мистецтва')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "any_work_of_art_in_country_count": {
   "en": "$PARAMETERS$ [work_of_art|e] in [COUNTRY.GetName]",
-  "uk": "$PARAMETERS$ з [Concept('work_of_art', 'творів')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
+  "uk": "$PARAMETERS$ з [Concept('work_of_art', 'витворів мистецтва')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  },
  "any_work_of_art_in_location": {
   "en": "Any [work_of_art|e] in [LOCATION.GetName]",
-  "uk": "Будь-який [Concept('work_of_art', 'твір')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
+  "uk": "Будь-який [Concept('work_of_art', 'витвір мистецтва')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
  },
  "any_work_of_art_in_location_all": {
   "en": "All [work_of_art|e] in [LOCATION.GetName]",
-  "uk": "Усі [Concept('work_of_art', 'твори')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
+  "uk": "Усі [Concept('work_of_art', 'витвори мистецтва')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
  },
  "any_work_of_art_in_location_count": {
   "en": "$PARAMETERS$ [work_of_art|e] in [LOCATION.GetName]",
-  "uk": "$PARAMETERS$ з [Concept('work_of_art', 'творів')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
+  "uk": "$PARAMETERS$ з [Concept('work_of_art', 'витворів мистецтва')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]"
  },
  "area_capital_equal": {
   "en": "The [capital|e] of [AREA.GetName] is [TARGET_LOCATION.GetName]",
@@ -30181,15 +30181,15 @@
  },
  "country_dominant_dialect_equal": {
   "en": "The [dominant_dialect|e] of [COUNTRY.GetName] is [TARGET_DIALECT.GetName]",
-  "uk": "[Concept('dominant_dialect', 'Домінантним діалектом')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є #L [TARGET_DIALECT.GetName|l]ий#!"
+  "uk": "[Concept('dominant_dialect', 'Панівним діалектом')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є #L [TARGET_DIALECT.GetName|l]ий#!"
  },
  "country_dominant_language_equal": {
   "en": "The [dominant_language|e] is [TARGET_LANGUAGE.GetName]",
-  "uk": "[Concept('dominant_language','Домінантна мова')|e] — [TARGET_LANGUAGE.GetName]"
+  "uk": "[Concept('dominant_language','Панівна мова')|e] — [TARGET_LANGUAGE.GetName]"
  },
  "country_dominant_religion_equal": {
   "en": "The [dominant_religion|e] of [COUNTRY.GetName] is [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion', 'Домінантною релігією')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion', 'Панівною релігією')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [TARGET_RELIGION.GetName|l]"
  },
  "country_dominant_upper_class_culture_equal": {
   "en": "The [dominant_upper_class_culture|e] of [COUNTRY.GetName] is [TARGET_CULTURE.GetName]",
@@ -30201,11 +30201,11 @@
  },
  "country_gold_greater_or_equal": {
   "en": "[COUNTRY.GetName|U] has more [gold|e] than $NUM$",
-  "uk": "Кількість наявного у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! [Concept('gold', 'золота')|e] більша за $NUM$"
+  "uk": "Кількість наявних у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! [Concept('gold', 'дукатів')|e] більша за $NUM$"
  },
  "country_gold_greater_than": {
   "en": "[COUNTRY.GetName|U] has more [gold|e] than $NUM$",
-  "uk": "Кількість наявного у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! [Concept('gold', 'золота')|e] більша за $NUM$"
+  "uk": "Кількість наявних у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! [Concept('gold', 'дукатів')|e] більша за $NUM$"
  },
  "country_government_reform_fully_implemented_date_equal": {
   "en": "The [government_reform|e] was fully implemented on the given date",
@@ -30229,7 +30229,7 @@
  },
  "country_law_policy_equal": {
   "en": "The [policy|e] for the given [law|e] is [TARGET_POLICY.GetName]",
-  "uk": "[Concept('policy','Політика')|e] для вказаного [Concept('law','правила')|e] — [TARGET_POLICY.GetName]"
+  "uk": "[Concept('policy','Політика')|e] для вказаного [Concept('law','закону')|e] — [TARGET_POLICY.GetName]"
  },
  "country_modifier_less_than": {
   "en": "We have less than $VALUE|V0$ $MODIFIER_NAME$",
@@ -30593,7 +30593,7 @@
  },
  "disease_equal": {
   "en": "The [disease|e] is [TARGET_DISEASE.GetName]",
-  "uk": "[Concept('disease','Епідемія')|e] — [TARGET_DISEASE.GetName]"
+  "uk": "[Concept('disease','Хвороба')|e] — [TARGET_DISEASE.GetName]"
  },
  "disease_origin_equal": {
   "en": "The origin of the [disease|e] is [TARGET_LOCATION.GetName]",
@@ -30633,7 +30633,7 @@
  },
  "dominant_religion_equal": {
   "en": "The [dominant_religion|e] is [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion','Домінантною релігією')|e] є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion','Панівною релігією')|e] є [TARGET_RELIGION.GetName|l]"
  },
  "dominant_upper_class_culture_equal": {
   "en": "The [dominant_upper_class_culture|e] is [TARGET_CULTURE.GetName]",
@@ -30953,11 +30953,11 @@
  },
  "gold_greater_than": {
   "en": "Has more [gold|e] than $NUM$",
-  "uk": "Кількість наявного [Concept('gold','золота')|e] більша за $NUM$"
+  "uk": "Кількість наявних [Concept('gold','дукатів')|e] більша за $NUM$"
  },
  "gold_greater_than_or_equal": {
   "en": "Has equal or more [gold|e] than $NUM$",
-  "uk": "Кількість наявного [Concept('gold','золота')|e] більша або дорівнює $NUM$"
+  "uk": "Кількість наявних [Concept('gold','дукатів')|e] більша або дорівнює $NUM$"
  },
  "goods_demand_scope_equal": {
   "en": "Is [GOODS_DEMAND.GetName]",
@@ -31109,7 +31109,7 @@
  },
  "international_organization_law_policy_equal": {
   "en": "The [policy|e] of [INTERNATIONAL_ORGANIZATION.GetName] for the given [law|e] is [TARGET_POLICY.GetName]",
-  "uk": "[Concept('policy','Політика')|e] [INTERNATIONAL_ORGANIZATION.GetName] для вказаного [Concept('law','правила')|e] — [TARGET_POLICY.GetName]"
+  "uk": "[Concept('policy','Політика')|e] [INTERNATIONAL_ORGANIZATION.GetName] для вказаного [Concept('law','закону')|e] — [TARGET_POLICY.GetName]"
  },
  "international_organization_parliament_issue_equal": {
   "en": "Currently, debating [TARGET_PARLIAMENT_ISSUE.GetName]",
@@ -31317,7 +31317,7 @@
  },
  "location_art_quality_greater_than": {
   "en": "[art_quality|e] is higher than ($NUM$)",
-  "uk": "[Concept('art_quality','Якість творіння')|e] вища за ($NUM$)"
+  "uk": "[Concept('art_quality','Якість витвору')|e] вища за ($NUM$)"
  },
  "location_combat_equal": {
   "en": "[LOCATION.GetName] is the site of [TARGET_COMBAT.GetName]",
@@ -31357,11 +31357,11 @@
  },
  "location_dominant_dialect_equal": {
   "en": "The [dominant_dialect|e] of [LOCATION.GetName] is [TARGET_DIALECT.GetName]",
-  "uk": "[Concept('dominant_dialect','Домінантним діалектом')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є #L [TARGET_DIALECT.GetName|l]ий#!"
+  "uk": "[Concept('dominant_dialect','Панівним діалектом')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є #L [TARGET_DIALECT.GetName|l]ий#!"
  },
  "location_dominant_language_equal": {
   "en": "The [dominant_language|e] of [LOCATION.GetName] is [TARGET_LANGUAGE.GetName]",
-  "uk": "[Concept('dominant_language', 'Домінантна мова')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — #L [TARGET_LANGUAGE.GetName|l]а#!"
+  "uk": "[Concept('dominant_language', 'Панівна мова')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] — #L [TARGET_LANGUAGE.GetName|l]а#!"
  },
  "location_dominant_language_not_equal": {
   "en": "$NOT_location_dominant_language_equal$",
@@ -31369,7 +31369,7 @@
  },
  "location_dominant_religion_equal": {
   "en": "The [dominant_religion|e] of [LOCATION.GetName] is [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion','Домінантною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion','Панівною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є [TARGET_RELIGION.GetName|l]"
  },
  "location_dominant_religion_not_equal": {
   "en": "$NOT_location_dominant_religion_equal$",
@@ -31425,7 +31425,7 @@
  },
  "location_religion_equal": {
   "en": "The [dominant_religion|e] of [LOCATION.GetName] is [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion','Домінантною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion','Панівною релігією')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] є [TARGET_RELIGION.GetName|l]"
  },
  "location_root_equal": {
   "en": "Is [TARGET_LOCATION.GetName]",
@@ -31573,11 +31573,11 @@
  },
  "non_leader_countries_cannot_initiate_resolutions": {
   "en": "Non leaders cannot initiate law debates",
-  "uk": "Лише лідери можуть ініціювати обговорення правил"
+  "uk": "Лише лідери можуть ініціювати обговорення законів"
  },
  "non_member_countries_cannot_initiate_resolutions": {
   "en": "Non-members cannot initiate law debates",
-  "uk": "Лише учасники можуть ініціювати обговорення правил"
+  "uk": "Лише учасники можуть ініціювати обговорення законів"
  },
  "none_area_equal": {
   "en": "Is in [TARGET_AREA.GetName]",
@@ -31609,7 +31609,7 @@
  },
  "none_dominant_religion_equal": {
   "en": "The [dominant_religion|e] is [TARGET_RELIGION.GetName]",
-  "uk": "[Concept('dominant_religion','Домінантною релігією')|e] є [TARGET_RELIGION.GetName|l]"
+  "uk": "[Concept('dominant_religion','Панівною релігією')|e] є [TARGET_RELIGION.GetName|l]"
  },
  "none_dominant_upper_class_culture_equal": {
   "en": "The [dominant_upper_class_culture|e] is [TARGET_CULTURE.GetName]",
@@ -32237,11 +32237,11 @@
  },
  "revolutionary_target_equal": {
   "en": "The [revolutionary_target|e] is [TARGET_COUNTRY.GetName]",
-  "uk": "[Concept('revolutionary_target', 'Ціллю-революціонером')|e] є держава [TARGET_COUNTRY.GetName]"
+  "uk": "[Concept('revolutionary_target', 'Осередком революції')|e] є держава [TARGET_COUNTRY.GetName]"
  },
  "revolutionary_target_not_equal": {
   "en": "The [revolutionary_target|e] is NOT [TARGET_COUNTRY.GetName]",
-  "uk": "[Concept('revolutionary_target', 'Ціллю-революціонером')|e] НЕ є держава [TARGET_COUNTRY.GetName]"
+  "uk": "[Concept('revolutionary_target', 'Осередком революції')|e] НЕ є держава [TARGET_COUNTRY.GetName]"
  },
  "road_type_scope_equal": {
   "en": "Is [ROAD_TYPE.GetName]",
@@ -32341,7 +32341,7 @@
  },
  "special_status_power_fraction_greater_than": {
   "en": "Has $COMPARATOR$ $NUM|%V2$ [special_status_power_short|e] due to their $STATUS$ [special_status|e]",
-  "uk": "[Concept('special_status_power_short','Сила статусу')|e] через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|%V2$"
+  "uk": "[Concept('special_status_power_short','Міць статусу')|e] через [Concept('special_status','особливий статус')|e] «$STATUS$» $COMPARATOR$ $NUM|%V2$"
  },
  "special_status_scope_equal": {
   "en": "Is [SPECIAL_STATUS.GetName]",
@@ -32409,11 +32409,11 @@
  },
  "succession_law_equal": {
   "en": "Succession Law is [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "Правило престолонаслідування — [TARGET_HEIR_SELECTION.GetName|l]"
+  "uk": "Закон престолонаслідування — [TARGET_HEIR_SELECTION.GetName|l]"
  },
  "succession_law_not_equal": {
   "en": "Succession Law is NOT [TARGET_HEIR_SELECTION.GetName]",
-  "uk": "Правило престолонаслідування НЕ [TARGET_HEIR_SELECTION.GetName|l]"
+  "uk": "Закон престолонаслідування НЕ [TARGET_HEIR_SELECTION.GetName|l]"
  },
  "to_market_equal": {
   "en": "Is imported to [TARGET_MARKET.GetName]",
@@ -32565,11 +32565,11 @@
  },
  "work_of_art_location_equal": {
   "en": "The [work_of_art|e] is in [TARGET_LOCATION.GetName]",
-  "uk": "[Concept('work_of_art','Творіння')|e] перебуває в [TARGET_LOCATION.GetName]"
+  "uk": "[Concept('work_of_art','Витвір мистецтва')|e] перебуває в [TARGET_LOCATION.GetName]"
  },
  "work_of_art_origin_equal": {
   "en": "The origin of the [work_of_art|e] is [TARGET_LOCATION.GetName]",
-  "uk": "Походження [Concept('work_of_art','творіння')|e] — [TARGET_LOCATION.GetName]"
+  "uk": "Походження [Concept('work_of_art','витвору мистецтва')|e] — [TARGET_LOCATION.GetName]"
  },
  "work_of_art_owner_equal": {
   "en": "Is owned by [TARGET_COUNTRY.GetName]",
@@ -32581,11 +32581,11 @@
  },
  "work_of_art_type_equal": {
   "en": "[work_of_art|e] is a [TARGET_WORK_OF_ART_TYPE.GetName]",
-  "uk": "[Concept('work_of_art','Творіння')|e] — [TARGET_WORK_OF_ART_TYPE.GetName]"
+  "uk": "[Concept('work_of_art','Витвір мистецтва')|e] — [TARGET_WORK_OF_ART_TYPE.GetName]"
  },
  "work_of_art_type_not_equal": {
   "en": "[work_of_art|e] is NOT a [TARGET_WORK_OF_ART_TYPE.GetName]",
-  "uk": "[Concept('work_of_art','Творіння')|e] НЕ [TARGET_WORK_OF_ART_TYPE.GetName]"
+  "uk": "[Concept('work_of_art','Витвір мистецтва')|e] НЕ [TARGET_WORK_OF_ART_TYPE.GetName]"
  },
  "work_of_art_type_scope_equal": {
   "en": "Is [WORK_OF_ART_TYPE.GetName]",

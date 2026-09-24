@@ -53,7 +53,7 @@
  },
  "chamber_of_union_claims": {
   "en": "[ROOT.GetCountry.GetName] will gain claims on all neighboring locations that are dominant in the [GetCountry('FRA').GetAdjective] language",
-  "uk": "[ROOT.GetCountry.GetName] зможе заявити претензії на всі сусідні райони, де домінує #L [GetCountry('FRA').GetAdjective|l]а#! мова."
+  "uk": "[ROOT.GetCountry.GetName] зможе заявити претензії на всі сусідні райони, де панівною є #L [GetCountry('FRA').GetAdjective|l]а#! мова."
  },
  "cheapter_to_enact_unigenitus": {
   "en": "Should the Unigenitus come into law, the Cinquantième tax will be reflected in it.",
@@ -101,7 +101,7 @@
  },
  "enables_taille_laws": {
   "en": "[ROOT.GetCountry.GetName] will gain access to [ShowLawName('fra_taille')] laws",
-  "uk": "[ROOT.GetCountry.GetName] отримає доступ до правила #TOOLTIP:LAW,fra_taille,X #L «Талья»#!#!."
+  "uk": "[ROOT.GetCountry.GetName] отримає доступ до закону #TOOLTIP:LAW,fra_taille,X #L «Талья»#!#!."
  },
  "english_appeasement_reduced_reward_tt": {
   "en": "Reduced bonuses from appeasing the [GetCountry('ENG').GetAdjective] claims to [GetCountry('FRA').GetNameWithNoTooltip].",
@@ -601,7 +601,7 @@
  },
  "flavor_fra.1121.a": {
   "en": "The members of the revolt will have to be dealt with!",
-  "uk": "Заколотники будуть жорстоко покарані!"
+  "uk": "Повстанці будуть жорстоко покарані!"
  },
  "flavor_fra.1121.b": {
   "en": "Grant them autonomy.",
@@ -5369,11 +5369,11 @@
  },
  "flavor_fra_paris_gain_satisfaction_prosperity": {
   "en": "[ShowLocationName('paris')] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|E] and [ShowNamedValue('prosperity_mild_bonus')|+=2%] [prosperity|E].",
-  "uk": "[ShowLocationName('paris')] отримує [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','вдоволення')|e] і [ShowNamedValue('prosperity_mild_bonus')|+=2%] [Concept('prosperity','процвітання')|e]"
+  "uk": "[ShowLocationName('paris')] отримує [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','задоволення')|e] і [ShowNamedValue('prosperity_mild_bonus')|+=2%] [Concept('prosperity','процвітання')|e]"
  },
  "flavor_fra_province_gain_control_satisfaction": {
   "en": "All [locations|e] in [target_province.GetName] will gain [ShowNamedValue('control_severe_bonus')|+=2%] [control|e] and [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|E].",
-  "uk": "Усі [Concept('locations','райони')|e] провінції [target_province.GetName] отримують [ShowNamedValue('control_severe_bonus')|+=2%] [Concept('control','контролю')|e] і [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]."
+  "uk": "Усі [Concept('locations','райони')|e] провінції [target_province.GetName] отримують [ShowNamedValue('control_severe_bonus')|+=2%] [Concept('control','контролю')|e] і [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','задоволення')|e]."
  },
  "fleury_additional_dhe": {
   "en": "Additional [dynamic_historical_events|e] relating to [target_character.GetNameWithNoTooltip] tenure as chief minister may now fire.",
@@ -5397,7 +5397,7 @@
  },
  "fra_annexing_appanages_moves_towards_centralize": {
   "en": "Each Appanage [subject|e] annexed will move us towards the Centralization [societal_values|E] by 5 at the cost of reducing [opinion|e] with remaining Appanages by -25.",
-  "uk": "За кожен приєднаний [Concept('subject', 'апанаж')|e] наші [Concept('societal_values', 'суспільні цінності')|e] зсунуться на 5 у бік централізації, але апанажі, що залишилися, знизять свою [Concept('opinion', 'думку')|e] про нас на 25 од."
+  "uk": "За кожного приєднаного [Concept('subject', 'васала')|e]-апанажа наші [Concept('societal_values', 'суспільні цінності')|e] зсунуться на 5 у бік централізації, але апанажі, що залишилися, знизять свою [Concept('opinion', 'думку')|e] про нас на 25 од."
  },
  "fra_claimed_naples": {
   "en": "Claimed Naples",
@@ -5421,7 +5421,7 @@
  },
  "fra_high_negative_tolerance_warning": {
   "en": "High #R Intolerance#!, comes with the risk of increased rebellions",
-  "uk": "Високий рівень #R нетерпимості#! може призвести до заколотів."
+  "uk": "Високий рівень #R нетерпимості#! може призвести до повстань."
  },
  "fra_hostilities_with_catholic_nations": {
   "en": "All [ShowReligionAdjective('catholic')] nations that are not our subject will lose [ShowBiasValue('opinion_tolerance_to_protestants')|-=0] [opinion|e] of [ROOT.GetCountry.GetName]",
@@ -5433,7 +5433,7 @@
  },
  "fra_how_to_remove_feudal_nobility_info": {
   "en": "The French Feudal Nobility [government_reform|E] will become obsolete if there are no remaining Appanage [subjects|e] and will be removed.",
-  "uk": "Якщо в нас не залишиться [Concept('subjects', 'апанажів')|e], [Concept('government_reform', 'державний принцип')|e] «Французькі феодали» буде вилучено."
+  "uk": "Якщо в нас не залишиться [Concept('subjects', 'васалів')|e]-апанажів, [Concept('government_reform', 'державну реформу')|e] «Французькі феодали» буде вилучено."
  },
  "fra_maintain_current_colonial_policy_but_unlock": {
   "en": "Unlocks the [ShowPolicyName('french_east_india_company')] policy",
@@ -5533,7 +5533,7 @@
  },
  "improve_relations_with_neighbors_with_french_provinces": {
   "en": "[ROOT.GetCountry.GetName] will gain increased opinion with all neighbors that have locations that are dominant in the [GetCountry('FRA').GetAdjective] language",
-  "uk": "Всі сусідні райони, де домінує #L [GetCountry('FRA').GetAdjective|l]а#! мова, підвищать свою думку про #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
+  "uk": "Всі сусідні райони, де панівною є #L [GetCountry('FRA').GetAdjective|l]а#! мова, підвищать свою думку про #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
  },
  "jacquerie_revolt": {
   "en": "The Jacquerie",
@@ -5541,7 +5541,7 @@
  },
  "jacquerie_revolt_warning": {
   "en": "Approximately #Y [ROOT.GetVariable('jacquerie_revolt_total_num_pop_variable').GetValue|V0]K#! [pops|e] from [ROOT.GetVariable('jacquerie_revolt_total_num_provinces_variable').GetValue] [provinces|e] will join the [jacquerie_revolt.GetName]\\n",
-  "uk": "Частина наших [Concept('pops', 'груп населення')|e] (приблизно #Y [ROOT.GetVariable('jacquerie_revolt_total_num_pop_variable').GetValue|V0]K#!) із кількох [Concept('provinces', 'провінцій')|e] ([ROOT.GetVariable('jacquerie_revolt_total_num_provinces_variable').GetValue]) приєднаються до заколоту «[jacquerie_revolt.GetName]»\\n"
+  "uk": "Частина наших [Concept('pops', 'груп населення')|e] (приблизно #Y [ROOT.GetVariable('jacquerie_revolt_total_num_pop_variable').GetValue|V0]K#!) із кількох [Concept('provinces', 'провінцій')|e] ([ROOT.GetVariable('jacquerie_revolt_total_num_provinces_variable').GetValue]) приєднаються до повстання «[jacquerie_revolt.GetName]»\\n"
  },
  "janseism_unigenitus_conflict_events_wilL_occur": {
   "en": "Enables [dynamic_historical_events|e] related to the Unigenitus Papal Bull and Jansenism religious conflict.",
@@ -5749,7 +5749,7 @@
  },
  "unlocks_machault_tax_reforms": {
   "en": "[ROOT.GetCountry.GetName] will gain access to [ShowLawName('fra_5_percent_tax')] laws, an extension of the [ShowLawName('fra_taille')]",
-  "uk": "[ROOT.GetCountry.GetName] отримає доступ до правила #TOOLTIP:LAW,fra_5_percent_tax,X #L «П'ятивідсотковий податок Машо»#!#!, що розширює дію #TOOLTIP:LAW,fra_taille,X #L тальї#!#!."
+  "uk": "[ROOT.GetCountry.GetName] отримає доступ до закону #TOOLTIP:LAW,fra_5_percent_tax,X #L «П’ятивідсотковий податок Машо»#!#!, що розширює дію #TOOLTIP:LAW,fra_taille,X #L тальї#!#!."
  },
  "variable_fra_joan_peacefully_released_tt": {
   "en": "Joan of Arc was Peacefully Released",

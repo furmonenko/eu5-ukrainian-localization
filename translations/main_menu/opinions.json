@@ -165,7 +165,7 @@
  },
  "OPINION_BASE_FROM_ANTAGONISM": {
   "en": "#T Antagonism Impact#!\\nEach antagonism gives $EACH|+=$ [opinion|e]\\nFrom $BASE|R0$ [antagonism|e]: $VAL|+$",
-  "uk": "#T Вплив неприязні#!\\nКожна окрема неприязнь дає $EACH|+=$ до [Concept('opinion','ставлення')|e]\\nВід базового значення [Concept('antagonism', 'неприязні')|e] $BASE|R0$: $VAL|+$"
+  "uk": "#T Вплив неприязні#!\\nКожна окрема неприязнь дає $EACH|+=$ до [Concept('opinion','думки')|e]\\nВід базового значення [Concept('antagonism', 'неприязні')|e] $BASE|R0$: $VAL|+$"
  },
  "OPINION_CULTURE_ASSIMILATION_TOOLTIP": {
   "en": "[assimilation|e] of [TARGET_CULTURE.GetName] [pops|e]: $VAL|=+2%$",
@@ -249,7 +249,7 @@
  },
  "OPINION_RELIGIOUS_TOLERANCE_ENTRY": {
   "en": "#T Tolerance Reasons#!\\n[COUNTRY.GetAdjective] religious [tolerance|e] of [TARGET_RELIGION.GetName]: $VAL|0=+$\\n",
-  "uk": "#T Причини толерантності#!\\n#L [COUNTRY.GetAdjective]а#! [Concept('tolerance','толерантність')|e] до релігії «[TARGET_RELIGION.GetName]»: $VAL|0=+$\\n"
+  "uk": "#T Причини терпимості#!\\n#L [COUNTRY.GetAdjective]а#! релігійна [Concept('tolerance','терпимість')|e] до релігії «[TARGET_RELIGION.GetName]»: $VAL|0=+$\\n"
  },
  "OPINION_SAME_CULTURE_ENTRY": {
   "en": "Both have [CULTURE.GetName] [primary_culture|e]: $VAL|0=+$\\n",
@@ -757,11 +757,11 @@
  },
  "bav_awarded_with_electorship": {
   "en": "Awarded with $elector$ by the Emperor",
-  "uk": "Нагороджені імператором статусом виборця"
+  "uk": "Нагороджені імператором статусом курфюрста"
  },
  "bav_refused_electorship": {
   "en": "Emperor refused rewarding us with $elector$",
-  "uk": "Імператор відмовився нагородити нас статусом виборця"
+  "uk": "Імператор відмовився нагородити нас статусом курфюрста"
  },
  "belligerent_diplomacy": {
   "en": "Belligerent Diplomacy",
@@ -1093,7 +1093,7 @@
  },
  "io_opinion_catholic_church": {
   "en": "Fellow [members|e] of the Catholic Church",
-  "uk": "Так само [Concept('members','належать')|e] до католицької церкви"
+  "uk": "Так само [Concept('members','учасники')|e] католицької церкви"
  },
  "io_opinion_catholic_league": {
   "en": "[member|e] of the [GetUniqueInternationalOrganization('catholic_league').GetName]",
@@ -1145,7 +1145,7 @@
  },
  "io_opinion_high_kingship": {
   "en": "[member|e] of same High Kingship",
-  "uk": "[Concept('member','Перебувають')|e] у тому ж верховному королівстві"
+  "uk": "[Concept('member','Учасник')|e] того ж верховного королівства"
  },
  "io_opinion_hindu_branch": {
   "en": "Follow same branch of Hinduism",
@@ -1153,7 +1153,7 @@
  },
  "io_opinion_hre": {
   "en": "Fellow [member|e] of the Empire",
-  "uk": "[Concept('member','Перебувають')|e] у тій же імперії"
+  "uk": "Так само [Concept('member','учасник')|e] імперії"
  },
  "io_opinion_ilkhanate": {
   "en": "[member|e] of the [GetUniqueInternationalOrganization('ilkhanate').GetName]",
@@ -1193,7 +1193,7 @@
  },
  "io_opinion_lordship_of_ireland": {
   "en": "[member|e] of the Lordship of Ireland",
-  "uk": "[Concept('member','Входять')|e] до манору Ірландія"
+  "uk": "[Concept('member','Учасник')|e] манору Ірландія"
  },
  "io_opinion_middle_kingdom": {
   "en": "Fellow member of the $middle_kingdom$",
@@ -1209,7 +1209,7 @@
  },
  "io_opinion_sect": {
   "en": "In same Sect",
-  "uk": "Сповідують той же напрям"
+  "uk": "Сповідують ту ж течію"
  },
  "io_opinion_shinto": {
   "en": "Fellow Shintō",
@@ -1917,7 +1917,7 @@
  },
  "opinion_enforced_succession_law_changes": {
   "en": "Enforced Succession Law Changes",
-  "uk": "Примушення до зміни правил престолонаслідування"
+  "uk": "Примушення до зміни закону престолонаслідування"
  },
  "opinion_excommunicated": {
   "en": "Excommunicated",
@@ -1969,7 +1969,7 @@
  },
  "opinion_forced_succession_law_on_partner": {
   "en": "Forced Succession Law on Partner",
-  "uk": "Примусили партнера прийняти правило престолонаслідування"
+  "uk": "Примусили партнера прийняти закон престолонаслідування"
  },
  "opinion_forced_to_contribute_modifier": {
   "en": "Forced to Contribute",
@@ -2169,35 +2169,35 @@
  },
  "opinion_hre_passed_controversial_law": {
   "en": "Passed slightly Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для імператора"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для імператора"
  },
  "opinion_hre_passed_mild_prince_friendly_law": {
   "en": "Passed mild member friendly [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для її членів"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, помірно вигідного для її членів"
  },
  "opinion_hre_passed_opposed_law": {
   "en": "Passed Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для імператора"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для імператора"
  },
  "opinion_hre_passed_prince_friendly_law": {
   "en": "Passed member friendly [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для її членів"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, вигідного для її членів"
  },
  "opinion_hre_passed_prince_very_friendly_law": {
   "en": "Passed very member favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для її членів"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для її членів"
  },
  "opinion_hre_passed_rebellious_law": {
   "en": "Passed very Emperor favored [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для імператора"
+  "uk": "Прийняття [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, дуже вигідного для імператора"
  },
  "opinion_hre_passed_standard_law": {
   "en": "Passed Standard [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття звичайного [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+  "uk": "Прийняття звичайного [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
  },
  "opinion_hre_passed_uncontroversial_law": {
   "en": "Passed Uncontroversial [GetUniqueInternationalOrganization('hre').GetName] [law|e]",
-  "uk": "Прийняття непротирічливого [Concept('law','правила')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+  "uk": "Прийняття непротирічливого [Concept('law','закону')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
  },
  "opinion_hyw_enemies": {
   "en": "$hundred_years_war$",
@@ -2853,7 +2853,7 @@
  },
  "opinion_they_tolerate_our_culture": {
   "en": "They [tolerate|e] our [culture|e]",
-  "uk": "Вони [Concept('tolerate', 'приймають')|e] нашу [Concept('culture', 'культуру')|e]"
+  "uk": "Вони [Concept('tolerate', 'терплять')|e] нашу [Concept('culture', 'культуру')|e]"
  },
  "opinion_threatened_us": {
   "en": "Threatened us",
@@ -2941,7 +2941,7 @@
  },
  "opinion_we_tolerate_their_culture": {
   "en": "We [tolerate|e] their [culture|e]",
-  "uk": "Ми [Concept('tolerate', 'приймаємо')|e] їхню [Concept('culture', 'культуру')|e]"
+  "uk": "Ми [Concept('tolerate', 'терпимо')|e] їхню [Concept('culture', 'культуру')|e]"
  },
  "opinion_weakened_our_league": {
   "en": "Weakened our League",
@@ -3485,7 +3485,7 @@
  },
  "zaz_rejected_independence_support": {
   "en": "Rejected Rebellion Offer",
-  "uk": "Відхилили пропозицію про заколот"
+  "uk": "Відхилили пропозицію про повстання"
  },
  "zealot_reputation_opinion": {
   "en": "Religious Warrior",

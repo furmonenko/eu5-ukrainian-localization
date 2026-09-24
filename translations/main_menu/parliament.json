@@ -45,7 +45,7 @@
  },
  "HOSTILE_PARLIAMENT_MARKER": {
   "en": "#T Hostile [ParliamentMarker.GetCountry.GetGovernment.GetParliament.GetName] in Session#!\\nCan be interrupted by [occupying|e] the [location|e].",
-  "uk": "#T [ParliamentMarker.GetGovernment.GetParliament.GetName] на засіданні та в опозиції до законної влади#!\\nПерервати засідання можна, [Concept('occupying', 'окупувавши')|e] [Concept('location', 'місце')|e] його проведення."
+  "uk": "#T [ParliamentMarker.GetGovernment.GetParliament.GetName] на засіданні та в опозиції до законної влади#!\\nПерервати засідання можна, [Concept('occupying', 'окупувавши')|e] [Concept('location', 'район')|e] його проведення."
  },
  "IO_IF_DEBATE_FAILS": {
   "en": "#r If it fails#!",
@@ -73,7 +73,7 @@
  },
  "IO_PARLIAMENT_NO_LAWS_CALL_DIET": {
   "en": "@trigger_no! No [laws|e] available for debate. Check the Imperial Constitution to see all the Laws.",
-  "uk": "@trigger_no! Немає [Concept('laws','зводу правил')|e] для обговорення. Перевірте Імперську конституцію, щоб побачити всі закони."
+  "uk": "@trigger_no! Немає [Concept('laws','законів')|e] для обговорення. Перевірте Імперську конституцію, щоб побачити всі закони."
  },
  "IO_PARLIAMENT_OPPOSERS": {
   "en": "Opposers",
@@ -481,15 +481,15 @@
  },
  "ask_for_law_changes": {
   "en": "Ask for Law Changes",
-  "uk": "Запит зміни правил"
+  "uk": "Запит зміни законів"
  },
  "ask_for_law_changes_desc": {
   "en": "Asking the [estates|e] to approve us changing a specific [policy|e] in our [laws|e].",
-  "uk": "У разі успіху [Concept('estates','стан')|e] схвалить зміну конкретної [Concept('policy','політики')|e] у нашому [Concept('laws','зводі правил')|e]."
+  "uk": "У разі успіху [Concept('estates','стан')|e] схвалить зміну конкретної [Concept('policy','політики')|e] у наших [Concept('laws','законах')|e]."
  },
  "ask_for_law_changes_select_law_title": {
   "en": "Select a [law|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change.",
-  "uk": "Оберіть [Concept('law', 'правило')|e], зміну якого буде схвалено [Player.GetParliament.GetParliament.Custom('parliament_ru_INST')|l]."
+  "uk": "Оберіть [Concept('law', 'закон')|e], зміну якого буде схвалено [Player.GetParliament.GetParliament.Custom('parliament_ru_INST')|l]."
  },
  "ask_for_law_changes_select_policies_title": {
   "en": "Select a [policy|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change.",
@@ -565,7 +565,7 @@
  },
  "call_parliament_desc": {
   "en": "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\\n\\nDuring this session we will get the following effects\\n[ShowModifier('parliament_in_session')],\\n[ShowModifier('parliament_location')];\\nand either [ShowModifier('parliament_in_capital')] or [ShowModifier('parliament_outside_capital')] depending on selected [location|e].",
-  "uk": "Буде скликано парламент у спробі отримати підтримку таких аспектів, як вирішення [Concept('parliament_issue','парламентського питання')|e], зміна [Concept('policies','політик')|e] у нашому [Concept('laws','зводі правил')|e], створення [Concept('casus_belli','приводу для війни')|e], збір додаткових [Concept('taxes','податків')|e], набір додаткового [Concept('army_levies','армійського ополчення')|e] або [Concept('navy_levies','флотського ополчення')|e].\\n\\nНа час цього засідання діятимуть наступні ефекти\\n[ShowModifier('parliament_in_session')],\\n[ShowModifier('parliament_location')];\\nа також або [ShowModifier('parliament_in_capital')], або [ShowModifier('parliament_outside_capital')] залежно від обраного [Concept('location','району')|e]."
+  "uk": "Буде скликано парламент у спробі отримати підтримку таких аспектів, як вирішення [Concept('parliament_issue','парламентського питання')|e], зміна [Concept('policies','політик')|e] у наших [Concept('laws','законах')|e], створення [Concept('casus_belli','приводу для війни')|e], збір додаткових [Concept('taxes','податків')|e], набір додаткового [Concept('army_levies','армійського ополчення')|e] або [Concept('navy_levies','флотського ополчення')|e].\\n\\nНа час цього засідання діятимуть наступні ефекти\\n[ShowModifier('parliament_in_session')],\\n[ShowModifier('parliament_location')];\\nа також або [ShowModifier('parliament_in_capital')], або [ShowModifier('parliament_outside_capital')] залежно від обраного [Concept('location','району')|e]."
  },
  "charter_artisan_guilds": {
   "en": "Charter Artisan Guilds",
@@ -1097,11 +1097,11 @@
  },
  "hre_force_emperor_to_abdicate_desc": {
   "en": "The rule of the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] has been judged by the [ShowSpecialStatusNamePlural('elector')] as insufficient. The Imperial Diet has been called to discuss the future of the leadership of the [GetUniqueInternationalOrganization('hre').GetName].",
-  "uk": "#TOOLTIP:SPECIAL_STATUS,elector,X #L Князі-виборці#!#! визнали, що [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] більше не справля[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('endlong_etyut')]ться з управлінням #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священною Римською Імперією#!#!. Вони скликають рейхстаг, щоб обговорити зміну влади та визначити майбутнє імперії."
+  "uk": "#TOOLTIP:SPECIAL_STATUS,elector,X #L Курфюрсти#!#! визнали, що [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] більше не справля[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('endlong_etyut')]ться з управлінням #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священною Римською Імперією#!#!. Вони скликають рейхстаг, щоб обговорити зміну влади та визначити майбутнє імперії."
  },
  "hre_law_debate": {
   "en": "Imperial Law Debate",
-  "uk": "Обговорення імперського правила"
+  "uk": "Обговорення імперського закону"
  },
  "hre_law_debate_desc": {
   "en": "The [ShowSpecialStatusName('emperor')] of the [GetUniqueInternationalOrganization('hre').GetName] intends to implement a new law. Now is the opportunity for the Imperial Estates to negotiate in favor or against the proposal.",
@@ -1213,7 +1213,7 @@
  },
  "iw_militarize_country_desc": {
   "en": "Call upon [parliament|e] to support an emergency military buildup, granting [army_tradition|e] and hardening our most experienced [army|e].",
-  "uk": "Закликати [Concept('parliament','парламент')|e] підтримати надзвичайне військове нарощення, надавши [army_tradition|e] та загартувавши наше найдосвідченіше [Concept('army','військо')|e]."
+  "uk": "Закликати [Concept('parliament','парламент')|e] підтримати надзвичайне військове нарощення, надавши [army_tradition|e] та загартувавши нашу найдосвідченішу [Concept('army','армію')|e]."
  },
  "launch_religious_missions": {
   "en": "Launch Religious Missions",
@@ -1373,7 +1373,7 @@
  },
  "pa_accept_estate_culture_desc": {
   "en": "The [estate|e] demands that the dominant [culture|e] of its people be granted official acceptance.",
-  "uk": "[Concept('estate','Стан')|e] вимагає офіційного визнання домінантної [Concept('culture','культури')|e] свого населення."
+  "uk": "[Concept('estate','Стан')|e] вимагає офіційного визнання панівної [Concept('culture','культури')|e] свого населення."
  },
  "pa_accept_estate_culture_simple": {
   "en": "Bribe Estate",
@@ -1521,7 +1521,7 @@
  },
  "pa_hre_grant_imperial_titles_desc": {
   "en": "The $elector_plural$ would greatly appreciate additional titles and prestige from the crown.",
-  "uk": "Виборці напевно будуть вдячні за надання додаткових титулів."
+  "uk": "Курфюрсти напевно будуть вдячні за надання додаткових титулів."
  },
  "pa_hre_grant_imperial_titles_simple": {
   "en": "$pa_hre_grant_imperial_titles$",
@@ -3465,7 +3465,7 @@
  },
  "union_enforce_law_implementation": {
   "en": "Enforce Law Implementation",
-  "uk": "Забезпечення виконання правил"
+  "uk": "Забезпечення виконання законів"
  },
  "union_enforce_law_implementation_at": {
   "en": "Every [member|e] sets their [union_integration_level_member|e] in [THIS.GetInternationalOrganization.GetName] to [THIS.GetInternationalOrganization.GetModifierValueString('union_integration_level')]",

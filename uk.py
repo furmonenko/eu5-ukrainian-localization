@@ -5,6 +5,7 @@
     python uk.py status      translation coverage per namespace
     python uk.py leftovers   English left in the mod (missing/empty/uk == en/Latin words) -> work/leftovers.tsv
     python uk.py concepts    [Concept('key','text')] whose text strays from the game_concepts name -> work/concepts.tsv
+    python uk.py grep RX [--en RX] [--keys F]   rows whose uk (and en) match, as a keys file for translate.py fix
     python uk.py build       build the mod into dist/
     python uk.py package     build + zip the mod for distribution
     python uk.py install     build + copy the mod into the game's Documents mod folder
@@ -428,6 +429,10 @@ def cmd_concepts(args):
                 variant = ' '.join(sorted(stems(text))) or '(empty)'
                 per_key[ck][variant] += 1
                 lines.append(f'{ck}\t{name}\t{text}\t{ns}\t{key}')
+    if args.keys:
+        rows = sorted({f'{l.split(chr(9))[3]} {l.split(chr(9))[4]}' for l in lines})
+        Path(args.keys).write_text('\n'.join(rows) + '\n', encoding='utf-8')
+        print(f'{len(rows)} rows -> {args.keys}')
     out = WORK / 'concepts.tsv'
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text('\n'.join(sorted(lines)) + '\n', encoding='utf-8')
@@ -436,6 +441,21 @@ def cmd_concepts(args):
         print(f'{sum(c.values()):5}  {ck:32} {names.get(ck) or names.get(ck.removesuffix("s")) or ""!s:28} '
               + ' | '.join(f'{v} ×{n}' for v, n in c.most_common(4)))
     print(f'-> {out.relative_to(ROOT)}')
+
+
+def cmd_grep(args):
+    """Rows whose uk (and optionally en) match: counts per namespace, optionally a keys file for translate.py fix."""
+    uk_re, en_re = re.compile(args.uk), re.compile(args.en) if args.en else None
+    rows, per_ns = [], collections.Counter()
+    for path in translation_files():
+        ns = path.relative_to(TRANSLATIONS).with_suffix('').as_posix()
+        for key, e in load_json(path).items():
+            if uk_re.search((e.get('uk') or '').lower()) and (not en_re or en_re.search(e['en'].lower())):
+                rows.append(f'{ns} {key}'); per_ns[ns] += 1
+    print(f'{len(rows)} rows in {len(per_ns)} namespaces; top: '
+          + ', '.join(f'{n} {c}' for n, c in per_ns.most_common(5)))
+    if args.keys:
+        Path(args.keys).write_text('\n'.join(rows) + '\n', encoding='utf-8')
 
 
 # ---------------------------------------------------------------- build
@@ -566,7 +586,13 @@ def main():
     sub.add_parser('extract').add_argument('--baseline', default=None, help='read from this dir instead of --game')
     sub.add_parser('status').add_argument('--all', action='store_true', help='include untranslated namespaces')
     sub.add_parser('leftovers').add_argument('--top', type=int, default=30, help='namespaces and words to print')
-    sub.add_parser('concepts').add_argument('--top', type=int, default=40, help='concept keys to print')
+    sp = sub.add_parser('concepts')
+    sp.add_argument('--top', type=int, default=40, help='concept keys to print')
+    sp.add_argument('--keys', default=None, help='also write the rows as "<root>/<ns> <key>" lines for translate.py fix')
+    sp = sub.add_parser('grep')
+    sp.add_argument('uk', help='regex searched in the lower-cased uk text')
+    sp.add_argument('--en', default=None, help='and this regex in the lower-cased en text')
+    sp.add_argument('--keys', default=None, help='write the rows as "<root>/<ns> <key>" lines for translate.py fix')
     args = parser.parse_args()
     result = globals()[f'cmd_{args.cmd}'](args)
     sys.exit(1 if args.cmd == 'check' and result else 0)

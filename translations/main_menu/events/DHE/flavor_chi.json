@@ -41,7 +41,7 @@
  },
  "chi_able_to_send_treasure_voyages": {
   "en": "[ROOT.GetCountry.GetName] will be able to use the [ShowGenericActionName('start_a_treasure_voyage')] [action|e] to expend their [gold|e] in order to get more nations to join their [ShowSubjectTypeName('tributary')] network. This will only be possible as long as they are the [international_organization_leader_short|e] of the [GetInternationalOrganizationType('middle_kingdom').GetName].",
-  "uk": "[ROOT.GetCountry.GetName] отримає доступ до [Concept('action','дії')|e] «[ShowGenericActionName('start_a_treasure_voyage')]», яка дозволяє в обмін на [Concept('gold','золото')|e] залучати нові країни до системи #TOOLTIP:SUBJECT_TYPE,tributary,X #L данників#!#!. Це можливо лише доти, поки [ROOT.GetCountry.GetName] залишається [Concept('international_organization_leader_short','лідером')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединної Держави#!#!."
+  "uk": "[ROOT.GetCountry.GetName] отримає доступ до [Concept('action','дії')|e] «[ShowGenericActionName('start_a_treasure_voyage')]», яка дозволяє в обмін на [Concept('gold','дукати')|e] залучати нові держави до системи #TOOLTIP:SUBJECT_TYPE,tributary,X #L данників#!#!. Це можливо лише доти, поки [ROOT.GetCountry.GetName] залишається [Concept('international_organization_leader_short','лідером')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединної Держави#!#!."
  },
  "chi_adjust_pre_rtr_modifiers_base_text": {
   "en": "#Y This affects [ShowModifier('chi_factional_strife')] and [ShowModifier('rtr_red_turban_rebellions')]#!",
@@ -53,7 +53,7 @@
  },
  "chi_every_sunni_pop_gains_10_satisfaction": {
   "en": "Every [pop|e] of [target_religion.GetAdjective] [religion|e] gains [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e].",
-  "uk": "[Concept('pop_satisfaction', 'Задоволеність')|e] усіх [Concept('pop', 'груп населення')|e], що сповідують #L [target_religion.GetAdjective|l]у#! [Concept('religion','віру')|e], зросте на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]."
+  "uk": "[Concept('pop_satisfaction', 'Задоволення')|e] усіх [Concept('pop', 'груп населення')|e], що сповідують #L [target_religion.GetAdjective|l]у#! [Concept('religion','віру')|e], зросте на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]."
  },
  "chi_expedition_is_returning_to_china": {
   "en": "The $expedition_name_treasure_voyage$ is now on its route back to [ROOT.GetCountry.GetName].",
@@ -81,7 +81,7 @@
  },
  "chi_neighboring_nations_might_get_cb_on_us": {
   "en": "Neighboring [nations|e] visited by the $expedition_name_treasure_voyage$ will be given a chance to declare [war|e] on [ROOT.GetCountry.GetName] with their support.",
-  "uk": "Сусідні [Concept('nations', 'держави')|e], відвідані членами експедиції «$expedition_name_treasure_voyage$», зможуть оголосити [Concept('war', 'війну')|e] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! та отримати їхню підтримку."
+  "uk": "Сусідні [Concept('nations', 'нації')|e], відвідані членами експедиції «$expedition_name_treasure_voyage$», зможуть оголосити [Concept('war', 'війну')|e] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! та отримати їхню підтримку."
  },
  "chi_new_expedition_leader": {
   "en": "[new_leader.GetName] is now the leader of our $expedition_name_treasure_voyage$.",
@@ -897,7 +897,7 @@
  },
  "flavor_chi.12.desc": {
   "en": "The continued presence of [ShowReligionGroupAdjective('christian')] missionaries in [ROOT.GetCountry.GetName] has not been without effect. A number of inhabitants in one of our provinces have increasingly come under the sway of [ShowReligionGroupAdjectiveWithNoTooltip('christian')] missionaries and by now [ShowReligionGroupNameWithNoTooltip('christian')] has managed to become the dominant religion in the area.",
-  "uk": "Багаторічна активність #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! місіонерів не минула для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! безслідно. Помалу чужоземні проповідники навернули до своєї віри безліч жителів однієї з наших провінцій, і тепер християнство перетворилося на домінантну релігію цього регіону."
+  "uk": "Багаторічна активність #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! місіонерів не минула для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! безслідно. Помалу чужоземні проповідники навернули до своєї віри безліч жителів однієї з наших провінцій, і тепер християнство перетворилося на панівну релігію цього регіону."
  },
  "flavor_chi.12.title": {
   "en": "Spread of [ShowReligionGroupNameWithNoTooltip('christian')]",
@@ -3341,7 +3341,7 @@
  },
  "flavor_chi.83.tooltip": {
   "en": "Every [ShowPopTypeName('peasants')] [pop|e] in the [target_province.GetName] [province|e] will change allegiance to [target_rebel.GetName] and will have its [pop_satisfaction|e] reduced by [ROOT.ScriptValue('pop_satisfaction_mild_penalty')|%=+].\\nEvery [location|e] in in the [target_province.GetName] [province|e] will get the [ShowModifier('chi_white_lotus_agitation')] [location_modifier|e] for [SCOPE.GetLocalVariable('length_of_agitation').GetValue|2-] Years.",
-  "uk": "Група заколотників «[target_rebel.GetName]» здобуде в союзники всі #TOOLTIP:POPTYPE,peasants,X #L селянські#!#! [Concept('pop', 'групи населення')|e] в [Concept('province', 'провінції')|e] [target_province.GetName], і вони отримають [ROOT.ScriptValue('pop_satisfaction_mild_penalty')|%=+] до [Concept('pop_satisfaction', 'вдоволеності')|e].\\nУсі [Concept('location', 'райони')|e] [Concept('province', 'провінції')|e] [target_province.GetName] на [SCOPE.GetLocalVariable('length_of_agitation').GetValue|2-] р. отримають [Concept('location_modifier', 'модифікатор')|e] #TOOLTIP:STATIC_MODIFIER,chi_white_lotus_agitation,X #V #L «Пропаганда „Білого Лотоса\"»#!#!#!."
+  "uk": "Група повстанців «[target_rebel.GetName]» здобуде в союзники всі #TOOLTIP:POPTYPE,peasants,X #L селянські#!#! [Concept('pop', 'групи населення')|e] в [Concept('province', 'провінції')|e] [target_province.GetName], і вони отримають [ROOT.ScriptValue('pop_satisfaction_mild_penalty')|%=+] до [Concept('pop_satisfaction', 'задоволення')|e].\\nУсі [Concept('location', 'райони')|e] [Concept('province', 'провінції')|e] [target_province.GetName] на [SCOPE.GetLocalVariable('length_of_agitation').GetValue|2-] р. отримають [Concept('location_modifier', 'модифікатор')|e] #TOOLTIP:STATIC_MODIFIER,chi_white_lotus_agitation,X #V #L «Пропаганда „Білого Лотоса\"»#!#!#!."
  },
  "flavor_chi.84.a": {
   "en": "Cease your illicit behavior, in the name of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]!",
@@ -3949,7 +3949,7 @@
  },
  "variable_li_zicheng_rebellion_var_tt": {
   "en": "Lǐ Zìchéng's Rebellion Rages",
-  "uk": "Вирує заколот Лі Цзичена"
+  "uk": "Вирує повстання Лі Цзичена"
  },
  "variable_mng_accepted_jesuits_tt": {
   "en": "The Jesuits have been Accepted at Court",

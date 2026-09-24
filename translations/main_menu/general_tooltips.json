@@ -105,7 +105,7 @@
  },
  "AREA_TOOLTIP": {
   "en": "[region|e]: [AREA.GetRegion.GetName]\\nNumber of [locations|e]: [AREA.GetNumLocations]",
-  "uk": "[Concept('region','регіон')|e]: [AREA.GetRegion.GetName]\\nКількість [Concept('locations','локації')|e]: [AREA.GetNumLocations]"
+  "uk": "[Concept('region','регіон')|e]: [AREA.GetRegion.GetName]\\nКількість [Concept('locations','районів')|e]: [AREA.GetNumLocations]"
  },
  "ARMY_AT_SEA_ATTRITION": {
   "en": "At Sea: $VALUE|2-=$",
@@ -121,7 +121,7 @@
  },
  "ARMY_SUPPLY_WEIGHT": {
   "en": "[unit_weight|e] $NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $WEIGHT|2LV$#!",
-  "uk": "[Concept('unit_weight','вага підрозділу')|e] з $NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $WEIGHT|2LV$#!"
+  "uk": "[Concept('unit_weight','Розмір загону')|e] з $NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $WEIGHT|2LV$#!"
  },
  "ARMY_TOO_LARGE": {
   "en": "Above the [supply_limit|e]: $VAL|-=2$",
@@ -253,15 +253,15 @@
  },
  "CONTINENT_MEMBERS_HEADER": {
   "en": "The [sub_continents|e] of [CONTINENT.GetNameWithNoTooltip]",
-  "uk": "[Concept('sub_continents','субконтиненти')|e] [CONTINENT.GetNameWithNoTooltip]"
+  "uk": "[Concept('sub_continents','макрорегіони')|e] [CONTINENT.GetNameWithNoTooltip]"
  },
  "CONTINENT_TOOLTIP": {
   "en": "This [continent|e] is formed by [CONTINENT.GetNumSubContinents] [sub_continents|e] which are:\\n",
-  "uk": "Цей [Concept('continent','континент')|e] сформований [CONTINENT.GetNumSubContinents] [Concept('sub_continents','субконтиненти')|e], якими є:\\n"
+  "uk": "Цей [Concept('continent','континент')|e] сформований [CONTINENT.GetNumSubContinents] [Concept('sub_continents','макрорегіонами')|e], якими є:\\n"
  },
  "COUNTRIES_WITH_CULTURE": {
   "en": "[primary_culture|e] of the following [countries|e]:",
-  "uk": "[Concept('primary_culture','основна культура')|e] наступних [Concept('countries','країни')|e]:"
+  "uk": "[Concept('primary_culture','основна культура')|e] наступних [Concept('countries','держав')|e]:"
  },
  "COUNTRIES_WITH_CULTURE_LABEL": {
   "en": "Countries with [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] [culture|e]",
@@ -305,7 +305,7 @@
  },
  "COUNTRY_TOOLTIP_CORE": {
   "en": "[COUNTRY.GetLongNameWithNoTooltip] is a [country|e] ruled by a [ruler|e], with their [LOCATIONs|e] providing [manpower|e] for their [armies|e].\\n",
-  "uk": "[COUNTRY.GetLongNameWithNoTooltip] є [Concept('country','країна')|e], якою править [Concept('ruler','правитель')|e], а їхні [LOCATIONs|e] забезпечують [Concept('manpower','людські ресурси')|e] для їхніх [Concept('armies','армії')|e].\\n"
+  "uk": "[COUNTRY.GetLongNameWithNoTooltip] є [Concept('country','державою')|e], якою править [Concept('ruler','правитель')|e], а їхні [LOCATIONs|e] забезпечують [Concept('manpower','рекрутів')|e] для їхніх [Concept('armies','армій')|e].\\n"
  },
  "COUNTRY_TOOLTIP_CULTURE": {
   "en": "[culture|e]: [CULTURE.GetName]\\n",
@@ -357,7 +357,7 @@
  },
  "COUNTRY_TOOLTIP_NO_HEIR": {
   "en": "[heir_selection|e]: [COUNTRY.GetGovernment.GetHeirSelection.GetName]",
-  "uk": "[Concept('heir_selection','вибір спадкоємця')|e]: [COUNTRY.GetGovernment.GetHeirSelection.GetName]"
+  "uk": "[Concept('heir_selection','закон престолонаслідування')|e]: [COUNTRY.GetGovernment.GetHeirSelection.GetName]"
  },
  "COUNTRY_TOOLTIP_OPINION": {
   "en": "They have a $VAL|+=0$ [opinion|e] of [COUNTRY.GetLongNameWithFlag]",
@@ -417,7 +417,7 @@
  },
  "COUNTRY_WITH_DOMINANT": {
   "en": "[Country.GetLongNameWithFlag] ([dominant_country_dominant|e])",
-  "uk": "[Country.GetLongNameWithFlag] ([Concept('dominant_country_dominant','домінуюча країна')|e])"
+  "uk": "[Country.GetLongNameWithFlag] ([Concept('dominant_country_dominant','панує')|e])"
  },
  "CULTURAL_INFLUENCE_LABEL_COV": {
   "en": "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip] Influence",
@@ -441,7 +441,7 @@
  },
  "CULTURE_GROUP_MODIFIER_LOCATION": {
   "en": "$CULTURE_GROUP$ [dominant_culture|e] [culture_group_short|e]",
-  "uk": "$CULTURE_GROUP$ [Concept('dominant_culture','домінуюча культура')|e] [Concept('culture_group_short','культурна група')|e]"
+  "uk": "$CULTURE_GROUP$ [Concept('dominant_culture','панівна культура')|e] [Concept('culture_group_short','культурна група')|e]"
  },
  "CULTURE_GROUP_TT_CULTURES_NONE": {
   "en": "[cultures|e]: None",
@@ -473,11 +473,11 @@
  },
  "CULTURE_MODIFIER_LOCATION": {
   "en": "$CULTURE$ [dominant_culture|e]",
-  "uk": "$CULTURE$ [Concept('dominant_culture','домінуюча культура')|e]"
+  "uk": "$CULTURE$ [Concept('dominant_culture','панівна культура')|e]"
  },
  "CULTURE_OPINION_TOOLTIP": {
   "en": "#T Cultural Opinion#!\\nThe opinion of one [culture|e] towards another impact how [countries|e] behave to one another, and how the people of a certain culture accept the rule of another [culture|e].",
-  "uk": "#T Культурна думка#!\\nДумка однієї [Concept('culture','культура')|e] щодо іншої впливає на те, як [Concept('countries','країни')|e] поводяться одна з одною, і як люди певної культури приймають правління іншої [Concept('culture','культура')|e]."
+  "uk": "#T Культурна думка#!\\nДумка однієї [Concept('culture','культури')|e] щодо іншої впливає на те, як [Concept('countries','держави')|e] поводяться одна з одною, і як люди певної культури приймають правління іншої [Concept('culture','культури')|e]."
  },
  "CULTURE_TOOLTIP_HEADER_BASE": {
   "en": "Cultural Breakdown",
@@ -493,7 +493,7 @@
  },
  "CULTURE_TT_COUNTRY_MODIFIER": {
   "en": "When [primary_culture|e] of a [country|e]:",
-  "uk": "Коли [Concept('primary_culture','основна культура')|e] [Concept('country','країна')|e]:"
+  "uk": "Коли [Concept('primary_culture','основна культура')|e] [Concept('country','держави')|e]:"
  },
  "CULTURE_TT_INFO": {
   "en": "[language|e]: [CULTURE.GetDialect.GetNameWithLanguage]\\n$CULTURE_GROUPS$",
@@ -513,7 +513,7 @@
  },
  "CULTURE_TT_LOCATION_MODIFIER": {
   "en": "When [dominant_culture|e] of a [location|e]:",
-  "uk": "Коли [Concept('dominant_culture','домінуюча культура')|e] [Concept('location','локація')|e]:"
+  "uk": "Коли [Concept('dominant_culture','панівна культура')|e] [Concept('location','району')|e]:"
  },
  "DIALECTANGUAGE_IS_DEAD": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently used by any [pop|e].",
@@ -565,7 +565,7 @@
  },
  "DIALECT_HAS_COURT_DIALECTS_TOOLTIP": {
   "en": "[court_language|e] [Language.GetNameWithNoTooltip] for the following [countries|e]:",
-  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','країни')|e]:"
+  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','держав')|e]:"
  },
  "DIALECT_HAS_CULTURES_PLURAL": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is used by the $LIST$ [cultures|e].",
@@ -601,11 +601,11 @@
  },
  "DIALECT_HAS_NO_COMMON_DIALECTS": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [common_language|e] by any [country|e].",
-  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('common_language','спільна мова')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('common_language','загальноприйнята мова')|e] жодною [Concept('country','державою')|e]."
  },
  "DIALECT_HAS_NO_COURT_DIALECTS": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [court_language|e] by any [country|e].",
-  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','державою')|e]."
  },
  "DIALECT_HAS_NO_CULTURES": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently used by any [cultures|e].",
@@ -617,7 +617,7 @@
  },
  "DIALECT_HAS_NO_LITURGICAL_DIALECTS": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not used as a [liturgical_language|e] by any [country|e].",
-  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[DIALECT.GetNameWithNoTooltip] [Concept('dialect','діалект')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','державою')|e]."
  },
  "DIALECT_HAS_NO_MARKETS": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently the [market_language|e] of any [market|e].",
@@ -625,7 +625,7 @@
  },
  "DIALECT_HAS_NO_RELIGIONS": {
   "en": "Is not the [liturgical_language|e] of any [country|e].",
-  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','країна')|e]."
+  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','держави')|e]."
  },
  "DIALECT_HAS_NO_RELIGION_DEFINITIONS": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is not currently the [liturgical_language|e] of any [religion|e].",
@@ -641,7 +641,7 @@
  },
  "DIALECT_HAS_RELIGION_COUNTRIES": {
   "en": "all [countries|e] with $RELIGION_ADJECTIVES$ [primary_religion|e]",
-  "uk": "всіх [Concept('countries','країни')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
+  "uk": "всіх [Concept('countries','держав')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
  },
  "DIALECT_HAS_RELIGION_DEFINITIONS_PLURAL": {
   "en": "The [DIALECT.GetNameWithNoTooltip] [dialect|e] is the [liturgical_language|e] for the $LIST$ [religions|e].",
@@ -825,7 +825,7 @@
  },
  "HOLY_SITE_TT_INFO": {
   "en": "[holy_site_type_short|e]: [HOLY_SITE.GetType.GetName]\\n[location|e]: [LOCATION.GetName]",
-  "uk": "[Concept('holy_site_type_short','священне місце')|e]: [HOLY_SITE.GetType.GetName]\\n[Concept('location','локація')|e]: [LOCATION.GetName]"
+  "uk": "[Concept('holy_site_type_short','тип')|e]: [HOLY_SITE.GetType.GetName]\\n[Concept('location','район')|e]: [LOCATION.GetName]"
  },
  "HOSTILE_NAVAL_ATTRITION": {
   "en": "Hostile Naval Batteries & Forts: $VALUE|2-=$",
@@ -941,7 +941,7 @@
  },
  "LANGUAGE_HAS_COURT_LANGUAGES_TOOLTIP": {
   "en": "[court_language|e] [Language.GetNameWithNoTooltip] for the following [countries|e]:",
-  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','країни')|e]:"
+  "uk": "[Concept('court_language','мова двору')|e] [Language.GetNameWithNoTooltip] для наступних [Concept('countries','держав')|e]:"
  },
  "LANGUAGE_HAS_CULTURES_PLURAL": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is used by the $LIST$ [cultures|e].",
@@ -977,11 +977,11 @@
  },
  "LANGUAGE_HAS_NO_COMMON_LANGUAGES": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [common_language|e] by any [country|e].",
-  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('common_language','спільна мова')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('common_language','загальноприйнята мова')|e] жодною [Concept('country','державою')|e]."
  },
  "LANGUAGE_HAS_NO_COURT_LANGUAGES": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [court_language|e] by any [country|e].",
-  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('court_language','мова двору')|e] жодною [Concept('country','державою')|e]."
  },
  "LANGUAGE_HAS_NO_CULTURES": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently used by any [cultures|e].",
@@ -993,7 +993,7 @@
  },
  "LANGUAGE_HAS_NO_LITURGICAL_LANGUAGES": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not used as a [liturgical_language|e] by any [country|e].",
-  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','країна')|e]."
+  "uk": "[LANGUAGE.GetNameWithNoTooltip] [Concept('language','мова')|e] не використовується як [Concept('liturgical_language','літургійна мова')|e] жодною [Concept('country','державою')|e]."
  },
  "LANGUAGE_HAS_NO_MARKETS": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently the [market_language|e] of any [market|e].",
@@ -1001,7 +1001,7 @@
  },
  "LANGUAGE_HAS_NO_RELIGIONS": {
   "en": "Is not the [liturgical_language|e] of any [country|e].",
-  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','країна')|e]."
+  "uk": "Не є [Concept('liturgical_language','літургійна мова')|e] жодної [Concept('country','держави')|e]."
  },
  "LANGUAGE_HAS_NO_RELIGION_DEFINITIONS": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is not currently the [liturgical_language|e] of any [religion|e].",
@@ -1017,7 +1017,7 @@
  },
  "LANGUAGE_HAS_RELIGION_COUNTRIES": {
   "en": "all [countries|e] with $RELIGION_ADJECTIVES$ [primary_religion|e]",
-  "uk": "всіх [Concept('countries','країни')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
+  "uk": "всіх [Concept('countries','держав')|e] з $RELIGION_ADJECTIVES$ [Concept('primary_religion','основна релігія')|e]"
  },
  "LANGUAGE_HAS_RELIGION_DEFINITIONS_PLURAL": {
   "en": "The [LANGUAGE.GetNameWithNoTooltip] [language|e] is the [liturgical_language|e] for the $LIST$ [religions|e].",
@@ -1053,7 +1053,7 @@
  },
  "LANGUAGE_POWER_CLERGY_OTHER": {
   "en": "$BULLET_WITH_TAB$$CLERGY|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
-  "uk": "$BULLET_WITH_TAB$$CLERGY|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+  "uk": "$BULLET_WITH_TAB$$CLERGY|Y$ у $NUM$ інших [Concept('countries','державах')|e]: $VAL|2+=$"
  },
  "LANGUAGE_POWER_COMMON_ENTRY": {
   "en": "$BULLET_WITH_TAB$$COMMON|Y$ in [COUNTRY.GetName]: $VAL|2+=$",
@@ -1061,11 +1061,11 @@
  },
  "LANGUAGE_POWER_COMMON_HEAD": {
   "en": "#T Each [merchant_capacity|e] from [countries|e] where its the [common_language|e] gives $VAL|2Y$#!",
-  "uk": "#T Кожна [Concept('merchant_capacity','торгова спроможність')|e] від [Concept('countries','країни')|e], де це [Concept('common_language','спільна мова')|e], дає $VAL|2Y$#!"
+  "uk": "#T Кожен [Concept('merchant_capacity','торговельний потенціал')|e] від [Concept('countries','держав')|e], де це [Concept('common_language','загальноприйнята мова')|e], дає $VAL|2Y$#!"
  },
  "LANGUAGE_POWER_COMMON_OTHER": {
   "en": "$BULLET_WITH_TAB$$COMMON|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
-  "uk": "$BULLET_WITH_TAB$$COMMON|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+  "uk": "$BULLET_WITH_TAB$$COMMON|Y$ у $NUM$ інших [Concept('countries','державах')|e]: $VAL|2+=$"
  },
  "LANGUAGE_POWER_COMMON_USAGE_TITLE": {
   "en": "[merchant_capacity|E] in countries where this is the [common_language|e]",
@@ -1081,7 +1081,7 @@
  },
  "LANGUAGE_POWER_COURT_OTHER": {
   "en": "$BULLET_WITH_TAB$$COURT|Y$ in $NUM$ other [countries|e]: $VAL|2+=$",
-  "uk": "$BULLET_WITH_TAB$$COURT|Y$ у $NUM$ інших [Concept('countries','країни')|e]: $VAL|2+=$"
+  "uk": "$BULLET_WITH_TAB$$COURT|Y$ у $NUM$ інших [Concept('countries','державах')|e]: $VAL|2+=$"
  },
  "LANGUAGE_POWER_COURT_PRESTIGE_TITLE": {
   "en": "[primary_culture|E] [political_power|e] scaled by [country_rank|e] in countries where this is the [court_language|e]",
@@ -1121,15 +1121,15 @@
  },
  "LANGUAGE_POWER_NO_CLERGY": {
   "en": "$BULLET_WITH_TAB$There are no [countries|e] with it as [liturgical_language|e].",
-  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','країни')|e] з нею як [Concept('liturgical_language','літургійна мова')|e]."
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','держав')|e] з нею як [Concept('liturgical_language','літургійна мова')|e]."
  },
  "LANGUAGE_POWER_NO_COMMON": {
   "en": "$BULLET_WITH_TAB$There are no [merchants|e] from [countries|e] with it as [common_language|e].",
-  "uk": "$BULLET_WITH_TAB$Немає [Concept('merchants','купці')|e] від [Concept('countries','країни')|e] з нею як [Concept('common_language','спільна мова')|e]."
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('merchants','купців')|e] від [Concept('countries','держав')|e] з нею як [Concept('common_language','загальноприйнята мова')|e]."
  },
  "LANGUAGE_POWER_NO_COURT": {
   "en": "$BULLET_WITH_TAB$There are no [countries|e] with it as [court_language|e].",
-  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','країни')|e] з нею як [Concept('court_language','мова двору')|e]."
+  "uk": "$BULLET_WITH_TAB$Немає [Concept('countries','держав')|e] з нею як [Concept('court_language','мова двору')|e]."
  },
  "LANGUAGE_POWER_NO_CULTURE": {
   "en": "$BULLET_WITH_TAB$There are no [cultures|e] using this as its language.",
@@ -1185,15 +1185,15 @@
  },
  "LOCATION_CLICK_BUILD_BUILDING_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to build a [BUILDING_TYPE.GetName]",
-  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для будівництва [BUILDING_TYPE.GetName]"
+  "uk": "ЛКМ: обрати цей [Concept('location','район')|e] для будівництва [BUILDING_TYPE.GetName]"
  },
  "LOCATION_CLICK_DEGRADE_RGO_LATERALVIEW": {
   "en": "Right-click to reduce the [rgo|e] in this [location|e]",
-  "uk": "ПКМ: зменшити [Concept('rgo','ресурси')|e] у цій [Concept('location','локація')|e]"
+  "uk": "ПКМ: зменшити [Concept('rgo','видобуток ресурсів')|e] у цьому [Concept('location','районі')|e]"
  },
  "LOCATION_CLICK_DESTROY_BUILDING_LATERALVIEW": {
   "en": "Right-click to destroy a [BUILDING_TYPE.GetName] in this [location|e]",
-  "uk": "ПКМ: знищити [BUILDING_TYPE.GetName] у цій [Concept('location','локація')|e]"
+  "uk": "ПКМ: знищити [BUILDING_TYPE.GetName] у цьому [Concept('location','районі')|e]"
  },
  "LOCATION_CLICK_FOREIGN_LOCATION_LATERALVIEW": {
   "en": "[LOCATION.GetName] is not part of [COUNTRY.GetName].",
@@ -1205,7 +1205,7 @@
  },
  "LOCATION_CLICK_HIRE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start hiring [mercenaries|e] here\\nRight click to select this [location|e] to remove an ongoing hiring",
-  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку найму [Concept('mercenaries','найманці')|e] тут\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого найму"
+  "uk": "ЛКМ: обрати цей [Concept('location','район')|e] для початку найму [Concept('mercenaries','найманців')|e] тут\\nПКМ: обрати цей [Concept('location','район')|e] для скасування триваючого найму"
  },
  "LOCATION_CLICK_IMPORT_EXPORT_LATERALVIEW": {
   "en": "Left-click to select this [market|e] to start an $IMPORT$",
@@ -1213,7 +1213,7 @@
  },
  "LOCATION_CLICK_INSTRUCTION": {
   "en": "Left-click to select [location|e]\\nRight click to open [diplomacy|e] with the [owner|e]",
-  "uk": "ЛКМ: обрати [Concept('location','локація')|e]\\nПКМ: відкрити [Concept('diplomacy','дипломатія')|e] з [Concept('owner','власник')|e]"
+  "uk": "ЛКМ: обрати [Concept('location','район')|e]\\nПКМ: відкрити [Concept('diplomacy','дипломатію')|e] з [Concept('owner','власником')|e]"
  },
  "LOCATION_CLICK_INSTRUCTION_LOBBY": {
   "en": "Left-click to select to play as The [COUNTRY.GetLongNameWithNoTooltip]",
@@ -1221,15 +1221,15 @@
  },
  "LOCATION_CLICK_INSTRUCTION_ONLY_SELECT": {
   "en": "Left-click to select [location|e]",
-  "uk": "ЛКМ: обрати [Concept('location','локація')|e]"
+  "uk": "ЛКМ: обрати [Concept('location','район')|e]"
  },
  "LOCATION_CLICK_INSTRUCTION_WATER": {
   "en": "Left-click to select [seazone|e]",
-  "uk": "ЛКМ: обрати [Concept('seazone','морська зона')|e]"
+  "uk": "ЛКМ: обрати [Concept('seazone','акваторію')|e]"
  },
  "LOCATION_CLICK_INSTRUCTION_ZOOM": {
   "en": "Left-click to select [country|e]",
-  "uk": "ЛКМ: обрати [Concept('country','країна')|e]"
+  "uk": "ЛКМ: обрати [Concept('country','державу')|e]"
  },
  "LOCATION_CLICK_NO_GOOD_SELECTED_LATERALVIEW": {
   "en": "[LOCATION.GetName] does not have [GOODS.GetName].",
@@ -1241,7 +1241,7 @@
  },
  "LOCATION_CLICK_RECRUIT_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start a recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
-  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку рекрутування\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого рекрутування"
+  "uk": "ЛКМ: обрати цей [Concept('location','район')|e] для початку рекрутування\\nПКМ: обрати цей [Concept('location','район')|e] для скасування триваючого рекрутування"
  },
  "LOCATION_CLICK_RECRUIT_TEMPLATE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start a [unit_template|e] recruiment\\nRight click to select this [location|e] to remove an ongoing recruiment",
@@ -1249,19 +1249,19 @@
  },
  "LOCATION_CLICK_RISE_LATERALVIEW": {
   "en": "Left-click to select this [location|e] to start raising [levies|e] here\\nRight click to select this [location|e] to remove an ongoing raising",
-  "uk": "ЛКМ: обрати цю [Concept('location','локація')|e] для початку збору [Concept('levies','ополчення')|e] тут\\nПКМ: обрати цю [Concept('location','локація')|e] для скасування триваючого збору"
+  "uk": "ЛКМ: обрати цей [Concept('location','район')|e] для початку збору [Concept('levies','ополчення')|e] тут\\nПКМ: обрати цей [Concept('location','район')|e] для скасування триваючого збору"
  },
  "LOCATION_CLICK_STOP_BUILDING_LATERALVIEW": {
   "en": "Right-click to stop building a [BUILDING_TYPE.GetName] in this [location|e]",
-  "uk": "ПКМ: зупинити будівництво [BUILDING_TYPE.GetName] у цій [Concept('location','локація')|e]"
+  "uk": "ПКМ: зупинити будівництво [BUILDING_TYPE.GetName] у цьому [Concept('location','районі')|e]"
  },
  "LOCATION_CLICK_UPGRADE_RGO_LATERALVIEW": {
   "en": "Left-click to upgrade the [rgo|e] in this [location|e]",
-  "uk": "ЛКМ: покращити [Concept('rgo','ресурси')|e] у цій [Concept('location','локація')|e]"
+  "uk": "ЛКМ: покращити [Concept('rgo','видобуток ресурсів')|e] у цьому [Concept('location','районі')|e]"
  },
  "LOCATION_COLONIAL_BUILDINS": {
   "en": "[buildings|e]: $INFO$",
-  "uk": "[Concept('buildings','будівлі')|e]: $INFO$"
+  "uk": "[Concept('buildings','споруди')|e]: $INFO$"
  },
  "LOCATION_COLONIAL_CHARTER": {
   "en": "[colonial_charter|e]: [COLONIAL_CHARTER.GetName]",
@@ -1417,7 +1417,7 @@
  },
  "LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_CULTURE": {
   "en": "[dominant_culture|e]: [Location.GetDominantCulture.GetName]",
-  "uk": "[Concept('dominant_culture','домінуюча культура')|e]: [Location.GetDominantCulture.GetName]"
+  "uk": "[Concept('dominant_culture','домінантна культура')|e]: [Location.GetDominantCulture.GetName]"
  },
  "LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_RELIGION": {
   "en": "[dominant_religion|e]: #subtle_name [Location.GetDominantReligion.GetNameNoUnderline] [Location.GetDominantReligion.GetIcon]#!",
@@ -1453,11 +1453,11 @@
  },
  "LOCATION_TOOLTIP_BREAKDOWN_TOPOGRAPHY": {
   "en": "[topography|e]: #subtle_name [Location.GetTopography.GetNameNoUnderline] [Location.GetTopography.GetIcon]#!",
-  "uk": "[Concept('topography','топографія')|e]: #subtle_name [Location.GetTopography.GetNameNoUnderline] [Location.GetTopography.GetIcon]#!"
+  "uk": "[Concept('topography','рельєф')|e]: #subtle_name [Location.GetTopography.GetNameNoUnderline] [Location.GetTopography.GetIcon]#!"
  },
  "LOCATION_TOOLTIP_BREAKDOWN_VEGETATION": {
   "en": "[vegetation|e]: #subtle_name [Location.GetVegetation.GetNameNoUnderline] [Location.GetVegetation.GetIcon]#!",
-  "uk": "[Concept('vegetation','рослинність')|e]: #subtle_name [Location.GetVegetation.GetNameNoUnderline] [Location.GetVegetation.GetIcon]#!"
+  "uk": "[Concept('vegetation','флора')|e]: #subtle_name [Location.GetVegetation.GetNameNoUnderline] [Location.GetVegetation.GetIcon]#!"
  },
  "LOCATION_TOOLTIP_BREAKDOWN_VOLCANO": {
   "en": " : #subtle_name Volcano Present@volcano!#!",
@@ -1473,11 +1473,11 @@
  },
  "LOCATION_TOOLTIP_NOT_OWNED": {
   "en": "This [location] is not [owned|e] by any [country|e].",
-  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','країна')|e]."
+  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','державою')|e]."
  },
  "LOCATION_TOOLTIP_NOT_OWNED_FOOD": {
   "en": "This [location] is not [owned|e] by any [country|e], and consequently is not currently producing or storing [food|e] @food!.",
-  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','країна')|e], і тому наразі не виробляє та не зберігає [Concept('food','їжа')|e] @food!."
+  "uk": "Ця [location] не [Concept('owned','у володінні')|e] жодною [Concept('country','державою')|e], і тому наразі не виробляє та не зберігає [Concept('food','їжа')|e] @food!."
  },
  "LOCATION_TOOLTIP_OCCUPIED": {
   "en": "[occupied|e] by [Location.GetController.GetLongNameWithFlag].",
@@ -1609,7 +1609,7 @@
  },
  "NO_COUNTRIES_WITH_CULTURE": {
   "en": "No [countries|e] currently have this as their [primary_culture|e].",
-  "uk": "Жодна [Concept('countries','країни')|e] наразі не має цього як свою [Concept('primary_culture','основна культура')|e]."
+  "uk": "Жодна [Concept('countries','держава')|e] наразі не має цього як свою [Concept('primary_culture','основну культуру')|e]."
  },
  "NO_CULTURAL_MAINTENANCE_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to invest in [culture|e]!",
@@ -1649,7 +1649,7 @@
  },
  "OPEN_SEA_AREA_TOOLTIP": {
   "en": "[AREA.GetNameWithNoTooltip]: Open [seazones|e] area",
-  "uk": "[AREA.GetNameWithNoTooltip]: Область відкритого [Concept('seazones','морські зони')|e]"
+  "uk": "[AREA.GetNameWithNoTooltip]: Область відкритих [Concept('seazones','акваторій')|e]"
  },
  "OPEN_WORKS_OF_ART_TAB": {
   "en": "Show Works of Art",
@@ -1685,7 +1685,7 @@
  },
  "PROVICNE_AND_THE_FOLLOWING": {
   "en": "And includes the following [locations|e]",
-  "uk": "І включає наступні [Concept('locations','локації')|e]"
+  "uk": "І включає наступні [Concept('locations','райони')|e]"
  },
  "PROVINCE_CAPITAL": {
   "en": "The capital is the [LOCATION.GetRank.GetName] of [LOCATION.GetName|Y]",
@@ -1697,7 +1697,7 @@
  },
  "PROVINCE_DEFINITION_TOOLTIP": {
   "en": "Number of [locations|e]: [PROVINCE_DEFINITION.GetNumLocations]\\n[area|e]: [PROVINCE_DEFINITION.GetArea.GetName]",
-  "uk": "Кількість [Concept('locations','локації')|e]: [PROVINCE_DEFINITION.GetNumLocations]\\n[Concept('area','область')|e]: [PROVINCE_DEFINITION.GetArea.GetName]"
+  "uk": "Кількість [Concept('locations','районів')|e]: [PROVINCE_DEFINITION.GetNumLocations]\\n[Concept('area','область')|e]: [PROVINCE_DEFINITION.GetArea.GetName]"
  },
  "PROVINCE_ECONOMY_INFO": {
   "en": "[population|e]: [Province.GetTotalPopulation]@population!\\n[tax_base|e]: [Province.GetTotalTaxBase|2]@tax_base!\\nAverage [control|e]: [Province.GetAverageControl|V%2]",
@@ -1737,7 +1737,7 @@
  },
  "PROV_DEF_MEMBERS_HEADER": {
   "en": "The [locations|e] of [PROVINCE_DEFINITION.GetNameWithNoTooltip]",
-  "uk": "[Concept('locations','локації')|e] [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
+  "uk": "[Concept('locations','райони')|e] [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
  },
  "PROV_DEF_MEMBERS_IMPENTRY": {
   "en": "[LOCATION.GetName]: [impassable|e]",
@@ -1749,11 +1749,11 @@
  },
  "PROV_DEF_MEMBERS_RIVERENTRY": {
   "en": "[LOCATION.GetName]: [river|e]",
-  "uk": "[LOCATION.GetName]: [Concept('river','ріка')|e]"
+  "uk": "[LOCATION.GetName]: [Concept('river','річка')|e]"
  },
  "PROV_DEF_MEMBERS_SEAENTRY": {
   "en": "[LOCATION.GetName]: [seazone|e]",
-  "uk": "[LOCATION.GetName]: [Concept('seazone','морська зона')|e]"
+  "uk": "[LOCATION.GetName]: [Concept('seazone','акваторія')|e]"
  },
  "PROXIMITY_ADJACENT_DISTANCE": {
   "en": "#V Segment cost ([LOCATION.GetName]@button_simple_smaller![TARGET_LOCATION.GetName]) is $DISTANCE|+=$ due to:#!\\n$BREAKDOWN$",
@@ -1765,7 +1765,7 @@
  },
  "PROXIMITY_ADJACENT_DISTANCE_TEXT": {
   "en": "Building [roads|e] or increasing [maritime_presence|e] will reduce the Proximity cost between [locations|e].",
-  "uk": "Будівництво [Concept('roads','дороги')|e] або збільшення [Concept('maritime_presence','морська присутність')|e] зменшить вартість близькості між [Concept('locations','локації')|e]."
+  "uk": "Будівництво [Concept('roads','дороги')|e] або збільшення [Concept('maritime_presence','морська присутність')|e] зменшить вартість близькості між [Concept('locations','районами')|e]."
  },
  "PROXIMITY_ADJACENT_NAME": {
   "en": "Proximity Cost between $game_concept_locations$",
@@ -1789,7 +1789,7 @@
  },
  "REGION_TOOLTIP": {
   "en": "[sub_continent|e]: [REGION.GetSubContinent.GetName]",
-  "uk": "[Concept('sub_continent','субконтинент')|e]: [REGION.GetSubContinent.GetName]"
+  "uk": "[Concept('sub_continent','макрорегіон')|e]: [REGION.GetSubContinent.GetName]"
  },
  "RELIGIONGROUP_MODIFIER": {
   "en": "$NAME$ [religion_group|e]",
@@ -1829,7 +1829,7 @@
  },
  "RELIGION_HAS_DOOM": {
   "en": "Allows [doom|e] to impact the country",
-  "uk": "Дозволяє [Concept('doom','рок')|e] впливати на країну"
+  "uk": "Дозволяє [Concept('doom','приреченості')|e] впливати на державу"
  },
  "RELIGION_HAS_HONOR": {
   "en": "Allows [honor|e] to impact the country",
@@ -1881,7 +1881,7 @@
  },
  "RELIGION_IS_CULTURE_LOCKED": {
   "en": "[pops|e] can not be [assimilated|e] before [converted|e]",
-  "uk": "[Concept('pops','населення')|e] не можуть бути [Concept('assimilated','асимільовано')|e] до [Concept('converted','конвертовано')|e]"
+  "uk": "[Concept('pops','Групи населення')|e] не можуть бути [Concept('assimilated','асимільованими')|e] до того, як будуть [Concept('converted','навернені')|e]"
  },
  "RELIGION_MODIFIER": {
   "en": "$RELIGION$ [primary_religion|e]",
@@ -1897,7 +1897,7 @@
  },
  "RELIGION_OPINION_TOOLTIP": {
   "en": "#T Religion Opinion#!\\nThe opinion of one [religion|e] towards another impact how [countries|e] behave to one another, and how the people of a certain religion accept the rule of another religion.",
-  "uk": "#T Релігійна думка#!\\nДумка однієї [Concept('religion','релігія')|e] щодо іншої впливає на те, як [Concept('countries','країни')|e] поводяться одна з одною, і як люди певної релігії приймають правління іншої релігії."
+  "uk": "#T Релігійна думка#!\\nДумка однієї [Concept('religion','релігія')|e] щодо іншої впливає на те, як [Concept('countries','держави')|e] поводяться одна з одною, і як люди певної релігії приймають правління іншої релігії."
  },
  "RELIGION_REFORM_DESIRE": {
   "en": "The current [reform_desire|e] of [Player.GetReligion.GetName] is [Player.GetReligion.GetReformDesire|%Y].\\nThe [reform_desire|e] is currently changing by [RELIGION.GetModifierValue('monthly_reform_desire')] each month.",
@@ -1925,7 +1925,7 @@
  },
  "RESISTANCES_LABEL": {
   "en": "$game_concept_disease$ resistances in the [location|e]",
-  "uk": "Опір $game_concept_disease$ у [Concept('location','локація')|e]"
+  "uk": "Опір $game_concept_disease$ у [Concept('location','районі')|e]"
  },
  "RIVER_DIRECTION": {
   "en": "[LOCATION.GetName] to [TARGET_LOCATION.GetName]: $DIRECTION|Y$",
@@ -1969,7 +1969,7 @@
  },
  "SEA_AREA_TOOLTIP": {
   "en": "[AREA.GetNameWithNoTooltip]: Coastal [seazones|e] area",
-  "uk": "[AREA.GetNameWithNoTooltip]: Прибережна область [Concept('seazones','морські зони')|e]"
+  "uk": "[AREA.GetNameWithNoTooltip]: Прибережна область [Concept('seazones','акваторій')|e]"
  },
  "SEA_LOCATION_TOOLTIP": {
   "en": "#T [LOCATION.GetName]#!\\n(#Y Sea#!)\\n",
@@ -2037,7 +2037,7 @@
  },
  "TERRA_INCOGNITA_CTXMENU_DESC": {
   "en": "Nothing to do. Not [explored|e] yet.",
-  "uk": "Нічого не вдієш. Ще не [Concept('explored','досліджено')|e]."
+  "uk": "Нічого не вдієш. Ще не [Concept('explored','вивчено')|e]."
  },
  "TERRA_INCOGNITA_TOOLTIP": {
   "en": "#T Terra Incognita#!\\nThis is a part of the world that you have not yet explored.",
@@ -2069,7 +2069,7 @@
  },
  "TOPOGRAPHY_MODIFIER": {
   "en": "$TOPOGRAPHY$ [topography|e]",
-  "uk": "$TOPOGRAPHY$ [Concept('topography','топографія')|e]"
+  "uk": "$TOPOGRAPHY$ [Concept('topography','рельєф')|e]"
  },
  "TOP_N_LOCATIONS_HEADER": {
   "en": "#T Top $NUM$ Locations#!",
@@ -2089,7 +2089,7 @@
  },
  "TRADITION_LOCATIONS": {
   "en": "From [locations|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!",
-  "uk": "Від [Concept('locations','локації')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!"
+  "uk": "Від [Concept('locations','районів')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!"
  },
  "UNINHABITABLE_LOCATION_TOOLTIP": {
   "en": "#T [LOCATION.GetName|Y]#!\\n(Uninhabitable)",
@@ -2101,15 +2101,15 @@
  },
  "UNIT_HIDDEN_TT_FROM_LAND": {
   "en": "[hidden|e] from adjacent land [locations|e].",
-  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','локації')|e]."
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','районів')|e]."
  },
  "UNIT_HIDDEN_TT_FROM_LAND_AND_SEA": {
   "en": "[hidden|e] from adjacent land [locations|e] and [seazones|e].",
-  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','локації')|e] та [Concept('seazones','морські зони')|e]."
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх сухопутних [Concept('locations','районів')|e] та [Concept('seazones','акваторій')|e]."
  },
  "UNIT_HIDDEN_TT_FROM_SEA": {
   "en": "[hidden|e] from adjacent [seazones|e].",
-  "uk": "[Concept('hidden','приховано')|e] від сусідніх [Concept('seazones','морські зони')|e]."
+  "uk": "[Concept('hidden','приховано')|e] від сусідніх [Concept('seazones','акваторій')|e]."
  },
  "UNIT_WEIGHT_ENTRY": {
   "en": "[SUBUNIT.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2LV$#!",
@@ -2125,7 +2125,7 @@
  },
  "VEGETATION_MODIFIER": {
   "en": "$VEGETATION$ [vegetation|e]",
-  "uk": "$VEGETATION$ [Concept('vegetation','рослинність')|e]"
+  "uk": "$VEGETATION$ [Concept('vegetation','флора')|e]"
  },
  "VOLCANO_LOCATION_TOOLTIP": {
   "en": "#T Volcano Present#!\\nThere is a Volcano here that may or may not erupt.",
@@ -2197,7 +2197,7 @@
  },
  "integration_core": {
   "en": "[core|e]",
-  "uk": "[Concept('core','ядро')|e]"
+  "uk": "[Concept('core','національний район')|e]"
  },
  "integration_core_header": {
   "en": "Core [LOCATION_RANK.GetNameWithNoTooltip]",
@@ -2205,7 +2205,7 @@
  },
  "integration_core_info": {
   "en": "#T Core of [COUNTRY.GetName]#!\\n[LOCATION.GetName] is a full [core|e] of [COUNTRY.GetName]. This current status has the following effects:\\n$EFFECT$",
-  "uk": "#T Ядро [COUNTRY.GetName]#!\\n[LOCATION.GetName] є повним [Concept('core','ядро')|e] [COUNTRY.GetName]. Цей поточний статус має наступні ефекти:\\n$EFFECT$"
+  "uk": "#T Ядро [COUNTRY.GetName]#!\\n[LOCATION.GetName] є повним [Concept('core','національним районом')|e] [COUNTRY.GetName]. Цей поточний статус має наступні ефекти:\\n$EFFECT$"
  },
  "integration_integrated": {
   "en": "[integrated|e]",

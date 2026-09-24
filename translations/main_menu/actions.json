@@ -65,7 +65,7 @@
  },
  "EMPIRE_NEED_ELECTORS": {
   "en": "The Empire needs Electors",
-  "uk": "Імперії потрібні виборці"
+  "uk": "Імперії потрібні курфюрсти"
  },
  "ESTATE_ACTIONS_LATERALVIEW_T": {
   "en": "Interact with [EstateActionsLateralView.GetEstate.GetNameWithNoTooltip]",
@@ -101,7 +101,7 @@
  },
  "IO_ATTACKED_BY_OUTSIDERS": {
   "en": "Is attacked by non-[members|e]",
-  "uk": "Атаковані не-[Concept('members','членами')|e]"
+  "uk": "Атаковані не-[Concept('members','учасниками')|e]"
  },
  "IO_BIAS": {
   "en": "From [SCOPE.sInternationalOrganization('recipient').GetNameWithNoTooltip]",
@@ -141,7 +141,7 @@
  },
  "IRE_f_lordship_tt": {
   "en": "We cannot do this while being a [member|e] of the [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]. Only the [international_organization_leader_short|e] can do it through the [ShowGenericActionName('lordship_of_ireland_form_kingdom')] action.",
-  "uk": "Ми не можемо зробити це, будучи [Concept('member','членом')|e] [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]. Тільки [Concept('international_organization_leader_short','лідер міжнародної організації')|e] може зробити це через дію [ShowGenericActionName('lordship_of_ireland_form_kingdom')]."
+  "uk": "Ми не можемо зробити це, будучи [Concept('member','учасником')|e] [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]. Тільки [Concept('international_organization_leader_short','лідер')|e] може зробити це через дію [ShowGenericActionName('lordship_of_ireland_form_kingdom')]."
  },
  "IRE_f_sole_high_kingship_tt": {
   "en": "We are the sole remaining member of the High Kingship of Ireland.",
@@ -157,7 +157,7 @@
  },
  "IS_ELECTOR": {
   "en": "Is [elector|e]",
-  "uk": "Є [Concept('elector','виборець')|e]"
+  "uk": "Є [Concept('elector','курфюрст')|e]"
  },
  "IS_NON_MEMBER_OF_HRE": {
   "en": "Is not a member of the [GetUniqueInternationalOrganization('hre').GetName]",
@@ -169,11 +169,11 @@
  },
  "LOC_NOT_PLAYER": {
   "en": "@trigger_no! We do not [own|e] this [location|e].",
-  "uk": "@trigger_no! Ми не [Concept('own','власний')|e] цю [Concept('location','локацію')|e]."
+  "uk": "@trigger_no! Ми не [Concept('own','володіємо')|e] цим [Concept('location','районом')|e]."
  },
  "MAJ_for_as_long_as_this_modifier_is_active": {
   "en": "For as long as [ShowModifier('adipati_conversion_ban')] is active, we will no longer lose [cores|e] when a [location|e] becomes dominantly [ShowReligionAdjective('sunni')].",
-  "uk": "Поки [ShowModifier('adipati_conversion_ban')] активний, ми більше не втрачатимемо [Concept('cores','ядра')|e], коли [Concept('location','локація')|e] стане переважно [ShowReligionAdjective('sunni')]."
+  "uk": "Поки [ShowModifier('adipati_conversion_ban')] активний, ми більше не втрачатимемо [Concept('cores','національні райони')|e], коли [Concept('location','район')|e] стане переважно [ShowReligionAdjective('sunni')]."
  },
  "MAJ_reduce_sunni_dominance": {
   "en": "$demak_progress$ is reduced by #g -10.0%#!",
@@ -209,7 +209,7 @@
  },
  "OPINION_OF_ELECTORS": {
   "en": "Opinion of other [electors|e]",
-  "uk": "Думка інших [Concept('electors','виборці')|e]"
+  "uk": "Думка інших [Concept('electors','курфюрстів')|e]"
  },
  "OPINION_OF_FREE_CITIES": {
   "en": "Opinion of other [ShowSpecialStatusNamePlural('free_city')]",
@@ -265,7 +265,7 @@
  },
  "POLICY_BIAS_ANTAGONISM_OF_EMPEROR": {
   "en": "[antagonism|e] of Emperor",
-  "uk": "[Concept('antagonism','антагонізм')|e] імператора"
+  "uk": "[Concept('antagonism','неприязнь')|e] імператора"
  },
  "POLICY_BIAS_EMPEROR_ALWAYS_WANTS": {
   "en": "Emperor always wants to pass laws",
@@ -281,7 +281,7 @@
  },
  "POLICY_BIAS_FAVORS_OF_EMPEROR": {
   "en": "[favors|e] of Emperor",
-  "uk": "[Concept('favors','послуги')|e] імператора"
+  "uk": "[Concept('favors','прихильність')|e] імператора"
  },
  "POLICY_BIAS_GOOD_IDEA": {
   "en": "It seems like a good idea to us",
@@ -545,7 +545,7 @@
  },
  "VOTE_ALLIED_WITH_COUNTRY": {
   "en": "Has an [alliance|e] with [target.GetName]",
-  "uk": "Має [Concept('alliance','альянс')|e] з [target.GetName]"
+  "uk": "Має [Concept('alliance','союз')|e] з [target.GetName]"
  },
  "VOTE_ALREADY_CAST": {
   "en": "[COUNTRY.GetName] have already cast their vote for $VOTE$.",
@@ -553,7 +553,7 @@
  },
  "VOTE_ANTAGONISM_OF_COUNTRY": {
   "en": "[antagonism|e] of [target.GetName]",
-  "uk": "[Concept('antagonism','антагонізм')|e] до [target.GetName]"
+  "uk": "[Concept('antagonism','неприязнь')|e] до [target.GetName]"
  },
  "VOTE_BASE_VALUE": {
   "en": "Base Value",
@@ -721,7 +721,7 @@
  },
  "add_accepted_culture_desc": {
   "en": "Add a new [culture|e] as an [accepted_culture|e] in our [country|e]. If it is a kindred culture, it will not be costly to maintain.",
-  "uk": "Додати нову [Concept('culture','культуру')|e] як [Concept('accepted_culture','прийняту культуру')|e] в нашій [Concept('country','країні')|e]. Якщо це споріднена культура, вона не буде дорогою в обслуговуванні."
+  "uk": "Додати нову [Concept('culture','культуру')|e] як [Concept('accepted_culture','визнану культуру')|e] в нашій [Concept('country','державі')|e]. Якщо це споріднена культура, вона не буде дорогою в обслуговуванні."
  },
  "add_accepted_culture_no_cultures": {
   "en": "$no_valid_cultures$",
@@ -745,7 +745,7 @@
  },
  "add_location_to_international_organization_desc": {
   "en": "Adds the selected [location|e] to the specific [international_organization|e]",
-  "uk": "Додає обрану [Concept('location','локацію')|e] до конкретної [Concept('international_organization','міжнародної організації')|e]"
+  "uk": "Додає обраний [Concept('location','район')|e] до конкретного [Concept('international_organization','міжнародного об’єднання')|e]"
  },
  "add_location_to_international_organization_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -757,11 +757,11 @@
  },
  "add_location_to_international_organization_select_international_organization": {
   "en": "Select [international_organization|e] to add the [location|e] to:",
-  "uk": "Виберіть [Concept('international_organization','міжнародну організацію')|e] для додавання [Concept('location','локації')|e] до:"
+  "uk": "Виберіть [Concept('international_organization','міжнародне об’єднання')|e] для додавання [Concept('location','району')|e] до:"
  },
  "add_location_to_international_organization_select_location": {
   "en": "Select [location|e] to add:",
-  "uk": "Виберіть [Concept('location','локацію')|e] для додавання:"
+  "uk": "Виберіть [Concept('location','район')|e] для додавання:"
  },
  "add_location_to_international_organization_tt": {
   "en": "[target_1.GetOnAddedLocation(SCOPE.sLocation('target'))]",
@@ -777,7 +777,7 @@
  },
  "add_tolerated_culture_desc": {
   "en": "Add a new [culture|e] as a [tolerated_culture|e] in our [country|e]. If it is a kindred culture, it will not be costly to maintain.",
-  "uk": "Додати нову [Concept('culture','культуру')|e] як [Concept('tolerated_culture','толерантну культуру')|e] в нашій [Concept('country','країні')|e]. Якщо це споріднена культура, вона не буде дорогою в обслуговуванні."
+  "uk": "Додати нову [Concept('culture','культуру')|e] як [Concept('tolerated_culture','прийнятну культуру')|e] в нашій [Concept('country','державі')|e]. Якщо це споріднена культура, вона не буде дорогою в обслуговуванні."
  },
  "add_tolerated_culture_no_cultures": {
   "en": "@trigger_no! There are no cultures available to add",
@@ -805,7 +805,7 @@
  },
  "aid_colonial_war_tt": {
   "en": "We will aid our colonial [subject|e] with a quarter of our yearly [manpower|e] and reduce their [liberty_desire|e]",
-  "uk": "Ми допоможемо нашому колоніальному [Concept('subject','васалу')|e] чвертю нашого річного [Concept('manpower','людських ресурсів')|e] і зменшимо їхнє [Concept('liberty_desire','бажання свободи')|e]"
+  "uk": "Ми допоможемо нашому колоніальному [Concept('subject','васалу')|e] чвертю нашого річного [Concept('manpower','рекрутів')|e] і зменшимо їхнє [Concept('liberty_desire','прагнення до свободи')|e]"
  },
  "align_societal_values_member": {
   "en": "Align Societal Values",
@@ -813,7 +813,7 @@
  },
  "align_societal_values_member_desc": {
   "en": "Select a [member|e] to change its [societal_values|e] to the one of the [international_organization_leader|e].",
-  "uk": "Вибрати [Concept('member','член')|e], щоб змінити його [Concept('societal_values','суспільні цінності')|e] на ті, що належать [Concept('international_organization_leader','лідер міжнародної організації')|e]."
+  "uk": "Вибрати [Concept('member','учасника')|e], щоб змінити його [Concept('societal_values','суспільні цінності')|e] на ті, що належать [Concept('international_organization_leader','лідеру міжнародного об’єднання')|e]."
  },
  "allow_safe_refuge": {
   "en": "Allow Safe Refuge",
@@ -1009,7 +1009,7 @@
  },
  "bribe_elector_choose_candidate": {
   "en": "Select which [country|e] the elector should vote for:",
-  "uk": "Виберіть, за яку [Concept('country','державу')|e] має проголосувати виборець:"
+  "uk": "Виберіть, за яку [Concept('country','державу')|e] має проголосувати курфюрст:"
  },
  "bribe_elector_no_candidates": {
   "en": "@trigger_no! No eligible candidate to vote for.",
@@ -1021,11 +1021,11 @@
  },
  "bribe_estate_desc": {
   "en": "Give [gold|e] to temporarily improve the [estate_satisfaction|e].",
-  "uk": "Дати [Concept('gold','золото')|e], щоб тимчасово покращити [Concept('estate_satisfaction','задоволення стану')|e]."
+  "uk": "Дати [Concept('gold','дукати')|e], щоб тимчасово покращити [Concept('estate_satisfaction','задоволення стану')|e]."
  },
  "build_goods_building_select_building": {
   "en": "Select [building|e] to build for:",
-  "uk": "Виберіть [Concept('building','будівля')|e] для будівництва для:"
+  "uk": "Виберіть [Concept('building','споруду')|e] для будівництва для:"
  },
  "build_goods_building_select_goods": {
   "en": "Select [goods|e] to build for:",
@@ -1057,7 +1057,7 @@
  },
  "call_jihad.tt": {
   "en": "A new [GetInternationalOrganizationType('jihad').GetName] is created against the selected [country|e]",
-  "uk": "Створюється новий [GetInternationalOrganizationType('jihad').GetName] проти обраної [Concept('country','країни')|e]"
+  "uk": "Створюється новий [GetInternationalOrganizationType('jihad').GetName] проти обраної [Concept('country','держави')|e]"
  },
  "call_jihad_desc": {
   "en": "Choose an infidel country to bring down the might of Allāh upon.",
@@ -1157,7 +1157,7 @@
  },
  "change_employment_system_desc": {
   "en": "Set the [employment_system|e] our [country|e] will use to populate its [buildings|e].\\n[SCOPE.sCountry('actor').GetActiveEmploymentSystemInfo]",
-  "uk": "Встановити [Concept('employment_system','система зайнятості')|e], яку використовуватиме наша [Concept('country','країна')|e] для заповнення своїх [Concept('buildings','будівлі')|e].\\n[SCOPE.sCountry('actor').GetActiveEmploymentSystemInfo]"
+  "uk": "Встановити [Concept('employment_system','систему найму')|e], яку використовуватиме наша [Concept('country','держава')|e] для заповнення своїх [Concept('buildings','споруд')|e].\\n[SCOPE.sCountry('actor').GetActiveEmploymentSystemInfo]"
  },
  "change_explorer_no_areas": {
   "en": "$no_valid_areas$",
@@ -1181,7 +1181,7 @@
  },
  "change_main_school_desc": {
   "en": "Change the main [religious_school|e] of the [country|e]",
-  "uk": "Змінити основну [Concept('religious_school','релігійну школу')|e] [Concept('country','країни')|e]"
+  "uk": "Змінити основну [Concept('religious_school','релігійну школу')|e] [Concept('country','держави')|e]"
  },
  "change_military_stance": {
   "en": "Change Military Stance",
@@ -1209,7 +1209,7 @@
  },
  "change_primary_culture_desc": {
   "en": "Change the [primary_culture|e] of our [country|e] to another [accepted_culture|e].",
-  "uk": "Змінити [Concept('primary_culture','основну культуру')|e] нашої [Concept('country','країни')|e] на іншу [Concept('accepted_culture','прийняту культуру')|e]."
+  "uk": "Змінити [Concept('primary_culture','основну культуру')|e] нашої [Concept('country','держави')|e] на іншу [Concept('accepted_culture','визнану культуру')|e]."
  },
  "change_primary_culture_no_cultures": {
   "en": "$no_valid_cultures$",
@@ -1221,7 +1221,7 @@
  },
  "change_production_method_select_building": {
   "en": "Select a [building|e] to modify:",
-  "uk": "Виберіть [Concept('building','будівля')|e] для модифікації:"
+  "uk": "Виберіть [Concept('building','споруду')|e] для модифікації:"
  },
  "change_religious_aspect_no_religious_aspects": {
   "en": "$no_valid_religious_aspects$",
@@ -1253,7 +1253,7 @@
  },
  "choose_country": {
   "en": "Choose the [country|e]:",
-  "uk": "Виберіть [Concept('country','країну')|e]:"
+  "uk": "Виберіть [Concept('country','державу')|e]:"
  },
  "choose_country_for_diplo_action": {
   "en": "Choose country:",
@@ -1261,7 +1261,7 @@
  },
  "choose_country_to_demand_removal": {
   "en": "Choose [member|e] to demand Removal of",
-  "uk": "Виберіть [Concept('member','члена')|e] для вимоги видалення"
+  "uk": "Виберіть [Concept('member','учасника')|e] для вимоги видалення"
  },
  "choose_country_to_get_claim": {
   "en": "Choose a $game_concept_country$ to get a claim from the $imperial_court$",
@@ -1425,7 +1425,7 @@
  },
  "cmd_negotiate_with_rebels_tt": {
   "en": "By sacrificing #R 3#! [celestial_authority_gc|e] and depending on the #italic strength#! and backing of the [rebellion|e] the following may happen:",
-  "uk": "Жертвуючи #R 3#! [Concept('celestial_authority_gc','небесний авторитет')|e] і залежно від #italic сили#! та підтримки [Concept('rebellion','бунт')|e], може статися наступне:"
+  "uk": "Жертвуючи #R 3#! [Concept('celestial_authority_gc','небесний авторитет')|e] і залежно від #italic сили#! та підтримки [Concept('rebellion','повстання')|e], може статися наступне:"
  },
  "cmd_reform_the_cabinet": {
   "en": "Reform the Cabinet",
@@ -1497,7 +1497,7 @@
  },
  "contribute_to_organization_treasury_select_gold_amount": {
   "en": "Select the amount of [gold|e] donated to the Organization:",
-  "uk": "Виберіть кількість [Concept('gold','золото')|e], пожертвувану організації:"
+  "uk": "Виберіть кількість [Concept('gold','дукатів')|e], пожертвувану організації:"
  },
  "control_the_bhres": {
   "en": "Control the Bhres",
@@ -1617,7 +1617,7 @@
  },
  "create_market_desc": {
   "en": "Create a new [market|e] in a target [location|e]. The [price|e] depends on the current [market_access|e] of the [location|e].",
-  "uk": "Створити новий [Concept('market','ринок')|e] в цільовій [Concept('location','локації')|e]. [Concept('price','ціна')|e] залежить від поточного [Concept('market_access','доступу до ринку')|e] [Concept('location','локації')|e]."
+  "uk": "Створити новий [Concept('market','ринок')|e] в цільовому [Concept('location','районі')|e]. [Concept('price','ціна')|e] залежить від поточного [Concept('market_access','доступу до ринку')|e] [Concept('location','району')|e]."
  },
  "create_market_no_locations": {
   "en": "$no_valid_locations$",
@@ -1625,7 +1625,7 @@
  },
  "create_market_select_location": {
   "en": "Choose the [location|e] to create a new [market|e] in",
-  "uk": "Виберіть [Concept('location','локацію')|e] для створення нового [Concept('market','ринку')|e] в"
+  "uk": "Виберіть [Concept('location','район')|e] для створення нового [Concept('market','ринку')|e] в"
  },
  "create_province_subject_no_province": {
   "en": "@trigger_no! No [provinces|e] available.",
@@ -1713,7 +1713,7 @@
  },
  "delist_unit_desc": {
   "en": "Make one of our [units|e] we have made available to be hired stay home",
-  "uk": "Зробити один з наших [Concept('units','підрозділи')|e], який ми зробили доступним для найму, залишитися вдома"
+  "uk": "Зробити один з наших [Concept('units','загонів')|e], який ми зробили доступним для найму, залишитися вдома"
  },
  "delist_unit_merc_destroyed": {
   "en": "Unit is delisted",
@@ -1733,7 +1733,7 @@
  },
  "demand_extra_payment_from_shogun_court_desc": {
   "en": "We can ask for an immediate extra payment of [manpower|e] and [gold|e] through the $shogunate_court$.",
-  "uk": "Ми можемо попросити негайний додатковий платіж [Concept('manpower','людські ресурси')|e] та [Concept('gold','золото')|e] через $shogunate_court$."
+  "uk": "Ми можемо попросити негайний додатковий платіж [Concept('manpower','рекрутів')|e] та [Concept('gold','дукатів')|e] через $shogunate_court$."
  },
  "demand_member_removal": {
   "en": "Negotiate Member Removal",
@@ -1797,11 +1797,11 @@
  },
  "disfavor_sect_choose_sect": {
   "en": "Choose the [sect|e] to disfavor",
-  "uk": "Виберіть [Concept('sect','секта')|e] для несхвалення"
+  "uk": "Виберіть [Concept('sect','течію')|e] для несхвалення"
  },
  "disfavor_sect_desc": {
   "en": "Disfavor a [sect|e]. We will discourage its spread through our territory, although we will get extra penalties if we are in it.",
-  "uk": "Не схвалювати [Concept('sect','секта')|e]. Ми перешкоджатимемо її поширенню на нашій території, хоча отримаємо додаткові штрафи, якщо ми в ній."
+  "uk": "Не схвалювати [Concept('sect','течію')|e]. Ми перешкоджатимемо її поширенню на нашій території, хоча отримаємо додаткові штрафи, якщо ми в ній."
  },
  "disfavor_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -1813,7 +1813,7 @@
  },
  "dismiss_privateer_desc": {
   "en": "Dismiss the [privateer|e] operating in the chosen [area|e].",
-  "uk": "Звільнити [Concept('privateer','приватир')|e], що діє в обраній [Concept('area','області')|e]."
+  "uk": "Звільнити [Concept('privateer','капера')|e], що діє в обраній [Concept('area','області')|e]."
  },
  "dismiss_privateer_no_areas": {
   "en": "$no_valid_areas$",
@@ -1821,7 +1821,7 @@
  },
  "dismiss_privateer_select_area": {
   "en": "Select [area|e] to dismiss [privateer|e] from:",
-  "uk": "Виберіть [Concept('area','область')|e] для звільнення [Concept('privateer','приватир')|e] з:"
+  "uk": "Виберіть [Concept('area','область')|e] для звільнення [Concept('privateer','капера')|e] з:"
  },
  "dissolve_monasteries": {
   "en": "Dissolve Monasteries",
@@ -1845,7 +1845,7 @@
  },
  "donate_gold_to_international_organization_tt": {
   "en": "Every relevant member of [SCOPE.sInternationalOrganization('recipient').GetName] will improve their [opinion|e] of [SCOPE.sCountry('actor').GetName] scaling with the amount of [gold|e] donated compared to the current value of the treasury (scales up to #G 100#!)",
-  "uk": "Кожен відповідний учасник [SCOPE.sInternationalOrganization('recipient').GetName] покращить свою [Concept('opinion','думку')|e] про [SCOPE.sCountry('actor').GetName] пропорційно сумі пожертвуваного [Concept('gold','золота')|e] порівняно з поточним значенням скарбниці (до #G 100#!)"
+  "uk": "Кожен відповідний учасник [SCOPE.sInternationalOrganization('recipient').GetName] покращить свою [Concept('opinion','думку')|e] про [SCOPE.sCountry('actor').GetName] пропорційно сумі пожертвуваних [Concept('gold','дукатів')|e] порівняно з поточним значенням скарбниці (до #G 100#!)"
  },
  "election": {
   "en": "Election",
@@ -1857,7 +1857,7 @@
  },
  "election_select_country": {
   "en": "Select [country|e] to vote for:",
-  "uk": "Виберіть [Concept('country','країну')|e] для голосування за:"
+  "uk": "Виберіть [Concept('country','державу')|e] для голосування за:"
  },
  "election_select_no_countries": {
   "en": "$no_valid_countries$",
@@ -1881,7 +1881,7 @@
  },
  "embrace_the_reformation_tt": {
   "en": "Our [country|e] will convert to the selected [religion|e], including our [ruler|e], [consort|e], [heir|e], and the [children|e] of our [ruler|e].",
-  "uk": "Наша [Concept('country','країна')|e] перейде до обраної [Concept('religion','релігії')|e], включаючи нашого [Concept('ruler','правителя')|e], [Concept('consort','консорта')|e], [Concept('heir','спадкоємця')|e] та [Concept('children','дітей')|e] нашого [Concept('ruler','правителя')|e]."
+  "uk": "Наша [Concept('country','держава')|e] перейде до обраної [Concept('religion','релігії')|e], включаючи нашого [Concept('ruler','правителя')|e], [Concept('consort','консорта')|e], [Concept('heir','спадкоємця')|e] та [Concept('children','дітей')|e] нашого [Concept('ruler','правителя')|e]."
  },
  "enact_policy": {
   "en": "Enact Law",
@@ -2049,7 +2049,7 @@
  },
  "force_convert_member_desc": {
   "en": "Select a [member|e] to change its [religion|e] to the one of the [international_organization_leader|e].",
-  "uk": "Вибрати [Concept('member','член')|e], щоб змінити його [Concept('religion','релігія')|e] на ту, що належить [Concept('international_organization_leader','лідер міжнародної організації')|e]."
+  "uk": "Вибрати [Concept('member','учасника')|e], щоб змінити його [Concept('religion','релігію')|e] на ту, що належить [Concept('international_organization_leader','лідеру міжнародного об’єднання')|e]."
  },
  "force_embargo_no_countries": {
   "en": "$no_valid_countries$",
@@ -2093,7 +2093,7 @@
  },
  "gag_request_aid_from_faction_member_ct": {
   "en": "We have NOT called a [member|e] of our faction into our [wars|e] in the last #Y 1 year#!",
-  "uk": "Ми НЕ закликали [Concept('member','члена')|e] нашої фракції до наших [Concept('wars','воєн')|e] протягом останнього #Y 1 року#!"
+  "uk": "Ми НЕ закликали [Concept('member','учасника')|e] нашої фракції до наших [Concept('wars','воєн')|e] протягом останнього #Y 1 року#!"
  },
  "gag_request_aid_from_faction_member_desc": {
   "en": "Request aid from a fellow member of the [SCOPE.sCountry('actor').Custom('GetGAGOwnFaction')] so they join our war against the [SCOPE.sCountry('actor').Custom('GetGAGEnemyFaction')]",
@@ -2125,7 +2125,7 @@
  },
  "get_claim_from_imperial_court_tt": {
   "en": "Any neighbor [country|e] that is not our [subject|e] or [ally|e]",
-  "uk": "Будь-яка сусідня [Concept('country','країна')|e], яка не є нашим [Concept('subject','васалом')|e] або [Concept('ally','союзником')|e], до якої ми маємо менше ніж #Y 50#! [Concept('opinion','думки')|e], і на яку ми ще не маємо [ShowCasusBelliName('cb_japanese_clan_expand_authority')] [Concept('casus_belli','приводу для війни')|e]"
+  "uk": "Будь-яка сусідня [Concept('country','держава')|e], яка не є нашим [Concept('subject','васалом')|e] або [Concept('ally','союзником')|e], до якої ми маємо менше ніж #Y 50#! [Concept('opinion','думки')|e], і на яку ми ще не маємо [ShowCasusBelliName('cb_japanese_clan_expand_authority')] [Concept('casus_belli','приводу для війни')|e]"
  },
  "get_marriage_from_imperial_court": {
   "en": "Obtain Marriage",
@@ -2149,7 +2149,7 @@
  },
  "ghibellines_petition_for_imperial_support_tt": {
   "en": "We will ask the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] for support in the form of [gold|e], [manpower|e] or an [alliance|e]",
-  "uk": "Ми попросимо [GetUniqueInternationalOrganization('hre').GetLeaderTitle] про підтримку у формі [Concept('gold','золото')|e], [Concept('manpower','людські ресурси')|e] або [Concept('alliance','альянс')|e]"
+  "uk": "Ми попросимо [GetUniqueInternationalOrganization('hre').GetLeaderTitle] про підтримку у формі [Concept('gold','дукатів')|e], [Concept('manpower','рекрутів')|e] або [Concept('alliance','союзу')|e]"
  },
  "ghibellines_sanction_pope": {
   "en": "Sanction the $rank_kingdom_papacy$",
@@ -2161,7 +2161,7 @@
  },
  "ghibellines_specific_petition_for_imperial_support_tt": {
   "en": "We will ask the [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] for support in the form of [gold|e], [manpower|e] or an [alliance|e]",
-  "uk": "Ми попросимо [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] про підтримку у формі [Concept('gold','золото')|e], [Concept('manpower','людські ресурси')|e] або [Concept('alliance','альянс')|e]"
+  "uk": "Ми попросимо [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] про підтримку у формі [Concept('gold','дукатів')|e], [Concept('manpower','рекрутів')|e] або [Concept('alliance','союзу')|e]"
  },
  "give_colony_rebellion_support": {
   "en": "Give Colony Rebellion Support",
@@ -2205,7 +2205,7 @@
  },
  "grant_shugo_office_effect_tt": {
   "en": "We will grant governorship of the province by granting them a [ShowBuildingTypeName('kokufu')] in the [location|e], making them a [ShowSpecialStatusName('shugo_daimyo')] if they are not",
-  "uk": "Ми надамо губернаторство провінції, надавши їм [ShowBuildingTypeName('kokufu')] у [Concept('location','локації')|e], роблячи їх [ShowSpecialStatusName('shugo_daimyo')], якщо вони ще не є"
+  "uk": "Ми надамо губернаторство провінції, надавши їм [ShowBuildingTypeName('kokufu')] у [Concept('location','районі')|e], роблячи їх [ShowSpecialStatusName('shugo_daimyo')], якщо вони ще не є"
  },
  "great_pestilence_blame_the_minorities": {
   "en": "$blame_the_minorities$",
@@ -2293,7 +2293,7 @@
  },
  "has_completed_revised_tax_code_tt": {
   "en": "Has completed the [ShowCabinetActionName('reform_taxation_system')] [cabinet_action|e]",
-  "uk": "Завершив [ShowCabinetActionName('reform_taxation_system')] [Concept('cabinet_action','дія кабінету')|e]"
+  "uk": "Завершив [ShowCabinetActionName('reform_taxation_system')] [Concept('cabinet_action','дію ради')|e]"
  },
  "has_not_already_enacted_this_action_during_the_disaster_tt": {
   "en": "Has not already enacted this [action|e] during this [disaster|e]",
@@ -2301,7 +2301,7 @@
  },
  "has_revised_tax_code_action_tt": {
   "en": "We have completed the [ShowCabinetActionName('reform_taxation_system')] [cabinet_action|e] and the [ShowGenericActionName('cmd_revise_the_tax_code')] [disaster|e] [action|e]",
-  "uk": "Ми завершили [ShowCabinetActionName('reform_taxation_system')] [Concept('cabinet_action','дія кабінету')|e] та [ShowGenericActionName('cmd_revise_the_tax_code')] [Concept('disaster','лихо')|e] [Concept('action','дія')|e]"
+  "uk": "Ми завершили [ShowCabinetActionName('reform_taxation_system')] [Concept('cabinet_action','дію ради')|e] та [ShowGenericActionName('cmd_revise_the_tax_code')] [Concept('disaster','лихо')|e] [Concept('action','дія')|e]"
  },
  "hide_from_black_death": {
   "en": "Move Court into Hiding",
@@ -2341,7 +2341,7 @@
  },
  "hire_artist_effect": {
   "en": "A new [artist|e] is hired and enters our country.",
-  "uk": "Новий [Concept('artist','художник')|e] наймається і входить до нашої країни."
+  "uk": "Новий [Concept('artist','митець')|e] наймається і входить до нашої держави."
  },
  "hire_artist_from_member": {
   "en": "Hire Artist",
@@ -2349,7 +2349,7 @@
  },
  "hire_artist_from_member_desc": {
   "en": "Select and hire an [artist|e] from a [member|e] in the [international_organization|e].",
-  "uk": "Вибрати та найняти [Concept('artist','художника')|e] з [Concept('member','члена')|e] [Concept('international_organization','міжнародної організації')|e]."
+  "uk": "Вибрати та найняти [Concept('artist','митця')|e] з [Concept('member','учасника')|e] [Concept('international_organization','міжнародного об’єднання')|e]."
  },
  "hire_cabinet_character_from_member": {
   "en": "Hire Cabinet Member",
@@ -2357,7 +2357,7 @@
  },
  "hire_cabinet_character_from_member_desc": {
   "en": "Select and hire a [character|e] from a [member|e] in the [international_organization|e]. This character will only serve in the [cabinet|e].",
-  "uk": "Вибрати та найняти [Concept('character','персонаж')|e] з [Concept('member','члена')|e] [Concept('international_organization','міжнародної організації')|e]. Цей персонаж буде служити лише в [Concept('cabinet','кабінеті')|e]."
+  "uk": "Вибрати та найняти [Concept('character','персонаж')|e] з [Concept('member','учасника')|e] [Concept('international_organization','міжнародного об’єднання')|e]. Цей персонаж буде служити лише в [Concept('cabinet','раді')|e]."
  },
  "hire_military_leader_from_member": {
   "en": "Hire Military Leader",
@@ -2365,7 +2365,7 @@
  },
  "hire_military_leader_from_member_desc": {
   "en": "Select and hire a [character|e] from a [member|e] in the [international_organization|e]. This character will only serve in the [army|e] or [navy|e].",
-  "uk": "Вибрати та найняти [Concept('character','персонаж')|e] з [Concept('member','члена')|e] [Concept('international_organization','міжнародної організації')|e]. Цей персонаж буде служити лише в [Concept('army','армії')|e] або [Concept('navy','флоті')|e]."
+  "uk": "Вибрати та найняти [Concept('character','персонаж')|e] з [Concept('member','учасника')|e] [Concept('international_organization','міжнародного об’єднання')|e]. Цей персонаж буде служити лише в [Concept('army','армії')|e] або [Concept('navy','флоті')|e]."
  },
  "hire_privateer": {
   "en": "Hire Privateer",
@@ -2373,7 +2373,7 @@
  },
  "hire_privateer_desc": {
   "en": "Hire a [privateer|e] to pillage an [area|e]. ",
-  "uk": "Найняти [Concept('privateer','приватир')|e] для грабування [Concept('area','області')|e]."
+  "uk": "Найняти [Concept('privateer','капера')|e] для грабування [Concept('area','області')|e]."
  },
  "hire_privateer_no_areas": {
   "en": "$no_valid_areas$",
@@ -2381,7 +2381,7 @@
  },
  "hire_privateer_select_area": {
   "en": "Select [area|e] to [privateer|e]:",
-  "uk": "Виберіть [Concept('area','область')|e] для [Concept('privateer','приватир')|e]:"
+  "uk": "Виберіть [Concept('area','область')|e] для [Concept('privateer','каперства')|e]:"
  },
  "hold_public_kirishitan_mass": {
   "en": "Hold Public Kirishitan Mass",
@@ -2413,7 +2413,7 @@
  },
  "improve_opinion_with_all_catholics_tt": {
   "en": "We will improve the [opinion|e] of every [ShowReligionAdjective('catholic')] [country|e] towards us by [ShowBiasValue('opinion_bosnian_church_diplomacy')|+=0]",
-  "uk": "Ми покращимо [Concept('opinion','думку')|e] кожної [ShowReligionAdjective('catholic')] [Concept('country','країни')|e] до нас на [ShowBiasValue('opinion_bosnian_church_diplomacy')|+=0]"
+  "uk": "Ми покращимо [Concept('opinion','думку')|e] кожної [ShowReligionAdjective('catholic')] [Concept('country','держави')|e] до нас на [ShowBiasValue('opinion_bosnian_church_diplomacy')|+=0]"
  },
  "improve_our_cultural_view": {
   "en": "Improve our Cultural opinion",
@@ -2437,7 +2437,7 @@
  },
  "improve_relations_member_desc": {
   "en": "Invest in the relations of a [member|e], changing their opinion of the [international_organization_leader|e] significantly.",
-  "uk": "Інвестувати у відносини з [Concept('member','член')|e], значно змінюючи їхню думку про [Concept('international_organization_leader','лідер міжнародної організації')|e]."
+  "uk": "Інвестувати у відносини з [Concept('member','учасником')|e], значно змінюючи їхню думку про [Concept('international_organization_leader','лідера міжнародного об’єднання')|e]."
  },
  "increase_clergy_satisfaction_from_religious_sects": {
   "en": "Appease the Temples",
@@ -2517,7 +2517,7 @@
  },
  "invest_in_members_administration_desc": {
   "en": "Use the [international_organization|e] treasury to invest in the administration of the selected [member|e].",
-  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародна організація')|e] для інвестування в адміністрацію обраного [Concept('member','член')|e]."
+  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародного об’єднання')|e] для інвестування в адміністрацію обраного [Concept('member','учасника')|e]."
  },
  "invest_in_members_economy": {
   "en": "Invest in Member's Economy",
@@ -2525,7 +2525,7 @@
  },
  "invest_in_members_economy_desc": {
   "en": "Use the [international_organization|e] treasury to invest in the economy of the selected [member|e].",
-  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародна організація')|e] для інвестування в економіку обраного [Concept('member','член')|e]."
+  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародного об’єднання')|e] для інвестування в економіку обраного [Concept('member','учасника')|e]."
  },
  "invest_in_members_military": {
   "en": "Invest in Member's Military",
@@ -2533,7 +2533,7 @@
  },
  "invest_in_members_military_desc": {
   "en": "Use the [international_organization|e] treasury to invest in the military of the selected [member|e].",
-  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародна організація')|e] для інвестування у військо обраного [Concept('member','член')|e]."
+  "uk": "Використовувати скарбницю [Concept('international_organization','міжнародного об’єднання')|e] для інвестування у військо обраного [Concept('member','учасника')|e]."
  },
  "invite_artist_no_characters": {
   "en": "$no_valid_characters$",
@@ -2565,7 +2565,7 @@
  },
  "isolate_cities_effect_tt": {
   "en": "All [towns_and_cities|e] get [ShowModifier('isolating_cities')], scaled by how much [control|e] we have at the [location|e].",
-  "uk": "Всі [Concept('towns_and_cities','міста')|e] отримують [ShowModifier('isolating_cities')], масштабований за кількістю [Concept('control','контроль')|e], який ми маємо в [Concept('location','локація')|e]."
+  "uk": "Всі [Concept('towns_and_cities','міста')|e] отримують [ShowModifier('isolating_cities')], масштабований за кількістю [Concept('control','контролю')|e], який ми маємо в [Concept('location','районі')|e]."
  },
  "iw_intervene_in_war_no_countries": {
   "en": "@trigger_no! There are no leaders of foreign leagues currently leading a [war|e] against a leader of an Italian league",
@@ -2665,15 +2665,15 @@
  },
  "join_sect_choose_sect": {
   "en": "Choose the [sect|e] to join",
-  "uk": "Виберіть [Concept('sect','секта')|e] для приєднання"
+  "uk": "Виберіть [Concept('sect','течію')|e] для приєднання"
  },
  "join_sect_desc": {
   "en": "Join a [sect|e].",
-  "uk": "Приєднатися до [Concept('sect','секта')|e]."
+  "uk": "Приєднатися до [Concept('sect','течії')|e]."
  },
  "join_sect_max_sects_tt": {
   "en": "We are a member of fewer [sect|e] groups than our religion allows.",
-  "uk": "Ми — учасник меншої кількості груп [Concept('sect','сект')|e], ніж дозволяє наша релігія."
+  "uk": "Ми — учасник меншої кількості груп [Concept('sect','течій')|e], ніж дозволяє наша релігія."
  },
  "join_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -2753,11 +2753,11 @@
  },
  "leave_sect_choose_sect": {
   "en": "Choose the [sect|e] to leave",
-  "uk": "Виберіть [Concept('sect','секта')|e] для виходу"
+  "uk": "Виберіть [Concept('sect','течію')|e] для виходу"
  },
  "leave_sect_desc": {
   "en": "Leave a [sect|e].",
-  "uk": "Покинути [Concept('sect','секта')|e]."
+  "uk": "Покинути [Concept('sect','течію')|e]."
  },
  "leave_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -2789,7 +2789,7 @@
  },
  "lordship_of_ireland_casus_belli_none_tt": {
   "en": "Select a [country|e] to target!.",
-  "uk": "Виберіть [Concept('country','країну')|e] як ціль!."
+  "uk": "Виберіть [Concept('country','державу')|e] як ціль!."
  },
  "lordship_of_ireland_form_kingdom": {
   "en": "Claim the Kingdom",
@@ -2801,7 +2801,7 @@
  },
  "lordship_of_ireland_form_kingdom_region_tt": {
   "en": "Every [location|e] in the [ShowRegionName('ireland_region')] [region|e] must be [owned|e] by a [member|e] of the [GetUniqueInternationalOrganization('lordship_of_ireland').GetName].",
-  "uk": "Кожна [Concept('location','локація')|e] в [ShowRegionName('ireland_region')] [Concept('region','регіоні')|e] повинна [Concept('owned','у володінні')|e] [Concept('member','члена')|e] [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]."
+  "uk": "Кожен [Concept('location','район')|e] в [ShowRegionName('ireland_region')] [Concept('region','регіоні')|e] повинен [Concept('owned','належати')|e] [Concept('member','учаснику')|e] [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]."
  },
  "lordship_of_ireland_invite_planters": {
   "en": "Request Planters",
@@ -2837,7 +2837,7 @@
  },
  "make_unit_available_for_hire_desc": {
   "en": "Make one of our [units|e] available to be hired by a foreign [country|e]",
-  "uk": "Зробити один з наших [Concept('units','підрозділів')|e] доступним для найму іноземною [Concept('country','країною')|e]"
+  "uk": "Зробити один з наших [Concept('units','загонів')|e] доступним для найму іноземною [Concept('country','державою')|e]"
  },
  "make_unit_available_for_hire_no_units": {
   "en": "$no_valid_units$",
@@ -2853,7 +2853,7 @@
  },
  "make_unit_available_for_hire_select_unit": {
   "en": "Select [unit|e] to make available:",
-  "uk": "Виберіть [Concept('unit','підрозділ')|e], щоб зробити доступним:"
+  "uk": "Виберіть [Concept('unit','загін')|e], щоб зробити доступним:"
  },
  "market": {
   "en": "Market",
@@ -2877,7 +2877,7 @@
  },
  "migrate_pop_based_country_desc": {
   "en": "#T Migrate Pops#!\\nTransfer [pops|e] from one [location|e] to another.",
-  "uk": "#T Мігрувати групи населення#!\\nПеремістити [Concept('pops','населення')|e] з однієї [Concept('location','локації')|e] до іншої."
+  "uk": "#T Мігрувати групи населення#!\\nПеремістити [Concept('pops','групи населення')|e] з одного [Concept('location','району')|e] до іншого."
  },
  "migrate_pop_based_country_no_neighbor_provinces": {
   "en": "@trigger_no! There are no valid [provinces|e] available to move to.",
@@ -2929,15 +2929,15 @@
  },
  "move_nw_good_to_new_location_desc": {
   "en": "We can spread one of the goods found in [ShowContinentName('america')] to any of our [locations|e], but the locals will not like it, and we will need to restart the development of that location's [rgo|e]",
-  "uk": "Ми можемо поширити один із товарів, знайдених у [ShowContinentName('america')], на будь-яку з наших [Concept('locations','локації')|e], але місцеві не полюблять це, і нам потрібно буде перезапустити розвиток [Concept('rgo','ресурси')|e] цієї локації"
+  "uk": "Ми можемо поширити один із товарів, знайдених у [ShowContinentName('america')], на будь-який з наших [Concept('locations','районів')|e], але місцеві не полюблять це, і нам потрібно буде перезапустити розвиток [Concept('rgo','видобутку ресурсів')|e] цього району"
  },
  "move_nw_good_to_new_location_no_available_good": {
   "en": "@trigger_no! You have no [location|e] belonging to a market that trades or produces this [good]",
-  "uk": "@trigger_no! У Вас немає [Concept('location','локація')|e], що належить ринку, який торгує або виробляє цей [good]"
+  "uk": "@trigger_no! У Вас немає [Concept('location','району')|e], що належить ринку, який торгує або виробляє цей [good]"
  },
  "move_nw_good_to_new_location_no_available_location": {
   "en": "@trigger_no! You have no valid [location|e] that can replace its current [rgo|e] with a New World [good]",
-  "uk": "@trigger_no! У Вас немає дійсної [Concept('location','локація')|e], яка може замінити свій поточний [Concept('rgo','ресурси')|e] на товар Нового Світу"
+  "uk": "@trigger_no! У Вас немає дійсного [Concept('location','району')|e], який може замінити свій поточний [Concept('rgo','видобуток ресурсів')|e] на товар Нового Світу"
  },
  "move_ow_good_to_new_location": {
   "en": "Spread an Old World Good",
@@ -2945,7 +2945,7 @@
  },
  "move_ow_good_to_new_location_desc": {
   "en": "We can spread one of our traditional goods to our [locations|e] in [ShowContinentName('america')], but the locals will not like it, and we will need to restart the development of that location's [rgo|e]",
-  "uk": "Ми можемо поширити один з наших традиційних товарів на наші [Concept('locations','локації')|e] у [ShowContinentName('america')], але місцеві не полюблять це, і нам потрібно буде перезапустити розвиток [Concept('rgo','ресурси')|e] цієї локації"
+  "uk": "Ми можемо поширити один з наших традиційних товарів на наші [Concept('locations','райони')|e] у [ShowContinentName('america')], але місцеві не полюблять це, і нам потрібно буде перезапустити розвиток [Concept('rgo','видобутку ресурсів')|e] цього району"
  },
  "move_ow_good_to_new_location_no_available_good": {
   "en": "$move_nw_good_to_new_location_no_available_good$",
@@ -2953,7 +2953,7 @@
  },
  "move_ow_good_to_new_location_no_available_location": {
   "en": "@trigger_no! You have no valid [location|e] that can replace its current [rgo|e] with an Old World [good]",
-  "uk": "@trigger_no! У Вас немає дійсної [Concept('location','локація')|e], яка може замінити свій поточний [Concept('rgo','ресурси')|e] на товар Старого Світу"
+  "uk": "@trigger_no! У Вас немає дійсного [Concept('location','району')|e], який може замінити свій поточний [Concept('rgo','видобуток ресурсів')|e] на товар Старого Світу"
  },
  "move_subject_capital_no_locations": {
   "en": "$no_valid_locations$",
@@ -2989,19 +2989,19 @@
  },
  "negotiate_rebels_accept_demands_desc": {
   "en": "Cave in to their demands to avoid a [rebellion|e] or [civil_war|e].",
-  "uk": "Поступитися їхнім вимогам, щоб уникнути [Concept('rebellion','заколоту')|e] або [Concept('civil_war','громадянської війни')|e]."
+  "uk": "Поступитися їхнім вимогам, щоб уникнути [Concept('rebellion','повстання')|e] або [Concept('civil_war','громадянської війни')|e]."
  },
  "negotiate_rebels_accept_demands_no_target_tt": {
   "en": "No [rebellion|e] was selected.",
-  "uk": "Не вибрано жодного [Concept('rebellion','заколоту')|e]."
+  "uk": "Не вибрано жодного [Concept('rebellion','повстання')|e]."
  },
  "negotiate_rebels_buy_off": {
   "en": "Buy Off Rebels",
-  "uk": "Відкупитися від бунтівників"
+  "uk": "Відкупитися від повстанців"
  },
  "negotiate_rebels_buy_off_cooldown": {
   "en": "Buy Off Rebels",
-  "uk": "Відкупитися від бунтівників"
+  "uk": "Відкупитися від повстанців"
  },
  "negotiate_rebels_buy_off_desc": {
   "en": "Spend some gold to bribe leaders of the [rebels|e] and reduce their progress toward revolt.",
@@ -3009,7 +3009,7 @@
  },
  "negotiate_rebels_buy_off_no_target_tt": {
   "en": "No [rebellion|e] was selected.",
-  "uk": "Не вибрано жодного [Concept('rebellion','заколоту')|e]."
+  "uk": "Не вибрано жодного [Concept('rebellion','повстання')|e]."
  },
  "neither_highkingship_nor_lordship_exist_tt": {
   "en": "Neither the [GetUniqueInternationalOrganization('lordship_of_ireland').GetName] nor the [GetInternationalOrganizationType('high_kingship').GetName] of [ShowRegionName('ireland_region')] can exist.",
@@ -3065,7 +3065,7 @@
  },
  "no_valid_countries": {
   "en": "@trigger_no! No valid [countries|e] available",
-  "uk": "@trigger_no! Немає дійсних [Concept('countries','країн')|e]"
+  "uk": "@trigger_no! Немає дійсних [Concept('countries','держав')|e]"
  },
  "no_valid_cultures": {
   "en": "@trigger_no! No valid [cultures|e] available",
@@ -3105,7 +3105,7 @@
  },
  "no_valid_locations": {
   "en": "@trigger_no! No valid [locations|e] available",
-  "uk": "@trigger_no! Немає дійсних [Concept('locations','локацій')|e]"
+  "uk": "@trigger_no! Немає дійсних [Concept('locations','районів')|e]"
  },
  "no_valid_markets": {
   "en": "@trigger_no! No valid [markets|e] available",
@@ -3169,7 +3169,7 @@
  },
  "no_valid_units": {
   "en": "@trigger_no! No valid [units|e] available",
-  "uk": "@trigger_no! Немає дійсних [Concept('units','підрозділів')|e]"
+  "uk": "@trigger_no! Немає дійсних [Concept('units','загонів')|e]"
  },
  "no_valid_wars": {
   "en": "@trigger_no! No valid [wars|e] available",
@@ -3217,7 +3217,7 @@
  },
  "overrule_imperial_diet_desc": {
   "en": "The Imperial Diet may hold great political power within the [GetUniqueInternationalOrganization('hre').GetName], but the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] has the privilege to overrule the Diet in order to change a law.",
-  "uk": "Імперський рейхстаг має значну політичну вагу, але [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] має привілей скасувати рішення рейхстагу, щоб змінити правило."
+  "uk": "Імперський рейхстаг має значну політичну вагу, але [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] має привілей скасувати рішення рейхстагу, щоб змінити закон."
  },
  "overthrow_high_king": {
   "en": "$cb_high_kingship_overthrow$",
@@ -3465,11 +3465,11 @@
  },
  "promote_sect_choose_sect": {
   "en": "Choose the [sect|e] to promote",
-  "uk": "Виберіть [Concept('sect','секта')|e] для просування"
+  "uk": "Виберіть [Concept('sect','течію')|e] для просування"
  },
  "promote_sect_desc": {
   "en": "Promote a [sect|e]. By promoting a $sect$ we will make it spread through our territory, and we will get more benefits from it if we are in it, although if we are part of multiple sects the other ones may not like it.",
-  "uk": "Просувати [Concept('sect','секта')|e]. Просуваючи $sect$, ми зробимо так, щоб вона поширювалася на нашій території, і отримаємо більше переваг від неї, якщо ми в ній, хоча якщо ми є частиною кількох сект, інші можуть не схвалювати це."
+  "uk": "Просувати [Concept('sect','течію')|e]. Просуваючи $sect$, ми зробимо так, щоб вона поширювалася на нашій території, і отримаємо більше переваг від неї, якщо ми в ній, хоча якщо ми є частиною кількох течій, інші можуть не схвалювати це."
  },
  "promote_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -3485,7 +3485,7 @@
  },
  "provoke_rebels": {
   "en": "Provoke Rebels",
-  "uk": "Спровокувати бунтівників"
+  "uk": "Спровокувати повстанців"
  },
  "provoke_rebels_desc": {
   "en": "Provoke [rebels|e] into rising up against us.",
@@ -3569,7 +3569,7 @@
  },
  "reformation_diplomacy_tt": {
   "en": "We will improve our relations with all [countries|e] that are part of the Reformation.",
-  "uk": "Ми покращимо наші відносини з усіма [Concept('countries','країнами')|e], які є частиною Реформації."
+  "uk": "Ми покращимо наші відносини з усіма [Concept('countries','державами')|e], які є частиною Реформації."
  },
  "rein_estate_loc_key": {
   "en": "The estate influences within our nation will soon wither and weaken, allowing us to impose restrictions upon those who wield local power. This will surely improve the standing of our power within the [SCOPE.sCountry('actor').GetGovernment.GetCourtTitle]!\\n",
@@ -3665,7 +3665,7 @@
  },
  "relocate_market_desc": {
   "en": "Move a [market|e] to a different [location|e]",
-  "uk": "Перемістити [Concept('market','ринок')|e] до іншої [Concept('location','локації')|e]"
+  "uk": "Перемістити [Concept('market','ринок')|e] до іншого [Concept('location','району')|e]"
  },
  "relocate_market_no_locations": {
   "en": "$no_valid_locations$",
@@ -3677,7 +3677,7 @@
  },
  "relocate_market_select_location": {
   "en": "Select [location|e] to relocate [market|e] to:",
-  "uk": "Виберіть [Concept('location','локація')|e] для переміщення [Concept('market','ринок')|e] до:"
+  "uk": "Виберіть [Concept('location','район')|e] для переміщення [Concept('market','ринку')|e] до:"
  },
  "relocate_market_select_market": {
   "en": "Select [market|e] to relocate:",
@@ -3689,7 +3689,7 @@
  },
  "remove_accepted_culture_desc": {
   "en": "Demote one of the [accepted_cultures|e] of our [country|e] to [non_accepted_culture|e].",
-  "uk": "Знизити одну з [Concept('accepted_cultures','прийнятих культур')|e] нашої [Concept('country','країни')|e] до [Concept('non_accepted_culture','неприйнятої культури')|e]."
+  "uk": "Знизити одну з [Concept('accepted_cultures','визнаних культур')|e] нашої [Concept('country','держави')|e] до [Concept('non_accepted_culture','пригніченої культури')|e]."
  },
  "remove_accepted_culture_no_cultures": {
   "en": "$no_valid_cultures$",
@@ -3713,7 +3713,7 @@
  },
  "remove_location_from_international_organization_desc": {
   "en": "Removes the selected [location|e] from the specific [international_organization|e]",
-  "uk": "Видаляє обрану [Concept('location','локацію')|e] з конкретної [Concept('international_organization','міжнародної організації')|e]"
+  "uk": "Видаляє обраний [Concept('location','район')|e] з конкретного [Concept('international_organization','міжнародного об’єднання')|e]"
  },
  "remove_location_from_international_organization_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -3725,11 +3725,11 @@
  },
  "remove_location_from_international_organization_select_international_organization": {
   "en": "Select [international_organization|e] to remove the [location|e] from:",
-  "uk": "Виберіть [Concept('international_organization','міжнародну організацію')|e] для видалення [Concept('location','локації')|e] з:"
+  "uk": "Виберіть [Concept('international_organization','міжнародне об’єднання')|e] для видалення [Concept('location','району')|e] з:"
  },
  "remove_location_from_international_organization_select_location": {
   "en": "Select [location|e] to remove:",
-  "uk": "Виберіть [Concept('location','локацію')|e] для видалення:"
+  "uk": "Виберіть [Concept('location','район')|e] для видалення:"
  },
  "remove_location_from_international_organization_tt": {
   "en": "[SCOPE.sInternationalOrganization('target_1').GetOnRemovedLocation(SCOPE.sLocation('target'))]",
@@ -3745,7 +3745,7 @@
  },
  "remove_tolerated_culture_desc": {
   "en": "Demote one of the [tolerated_cultures|e] of our [country|e] to [non_accepted_culture|e].",
-  "uk": "Знизити одну з [Concept('tolerated_cultures','толерантних культур')|e] нашої [Concept('country','країни')|e] до [Concept('non_accepted_culture','неприйнятої культури')|e]."
+  "uk": "Знизити одну з [Concept('tolerated_cultures','прийнятних культур')|e] нашої [Concept('country','держави')|e] до [Concept('non_accepted_culture','пригніченої культури')|e]."
  },
  "remove_tolerated_culture_no_cultures": {
   "en": "@trigger_no! There are no culture available to remove.",
@@ -3881,11 +3881,11 @@
  },
  "rot_plan_invasion_desc": {
   "en": "Select a [country|e] to plan an invasion of.",
-  "uk": "Вибрати [Concept('country','країну')|e] для планування вторгнення."
+  "uk": "Вибрати [Concept('country','державу')|e] для планування вторгнення."
  },
  "rot_plan_invasion_no_countries": {
   "en": "@trigger_no! No valid neighbor [countries|e] which are neither [allies|e] of nor have no [truce|e] with [actor.GetName]",
-  "uk": "@trigger_no! Немає дійсних сусідніх [Concept('countries','країн')|e], які не є ні [Concept('allies','союзниками')|e], ні не мають [truce|e] з [actor.GetName]"
+  "uk": "@trigger_no! Немає дійсних сусідніх [Concept('countries','держав')|e], які не є ні [Concept('allies','союзниками')|e], ні не мають [truce|e] з [actor.GetName]"
  },
  "rot_plan_invasion_select_country": {
   "en": "Select a country to plan an invasion of",
@@ -3893,7 +3893,7 @@
  },
  "rot_plan_invasion_tt": {
   "en": "We gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on a target [country|e]",
-  "uk": "Ми отримуємо [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] на цільову [Concept('country','країну')|e]"
+  "uk": "Ми отримуємо [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] на цільову [Concept('country','державу')|e]"
  },
  "rot_promote_regional_culture": {
   "en": "Promote a Regional Culture",
@@ -3945,7 +3945,7 @@
  },
  "rot_select_core_region_no_regions": {
   "en": "@trigger_no! No valid [region|e] with #Y 40.0%#! of its [locations|e] under our rule available",
-  "uk": "@trigger_no! Немає дійсного [Concept('region','регіону')|e] з #Y 40.0%#! його [Concept('locations','локацій')|e] під нашим правлінням"
+  "uk": "@trigger_no! Немає дійсного [Concept('region','регіону')|e] з #Y 40.0%#! його [Concept('locations','районів')|e] під нашим правлінням"
  },
  "rot_select_core_region_select_region": {
   "en": "Select a region to promote as a Core Region",
@@ -3957,7 +3957,7 @@
  },
  "rot_select_core_region_tt_generic": {
   "en": "Every [location|e] in that region becomes our [core|e] and gains [ShowModifier('rot_timurs_core_region')] as long as [ShowModifier('timmy_wants_to_play')] is active. Additionally, locations conquered in this region will automatically become a core if they are not a core already.",
-  "uk": "Кожна [Concept('location','локація')|e] в цьому регіоні стає нашим [Concept('core','ядром')|e] і отримує [ShowModifier('rot_timurs_core_region')], поки [ShowModifier('timmy_wants_to_play')] активний. Додатково, локації, завойовані в цьому регіоні, автоматично стануть ядром, якщо вони ще не є ядром."
+  "uk": "Кожен [Concept('location','район')|e] в цьому регіоні стає нашим [Concept('core','національним районом')|e] і отримує [ShowModifier('rot_timurs_core_region')], поки [ShowModifier('timmy_wants_to_play')] активний. Додатково, райони, завойовані в цьому регіоні, автоматично стануть національними районами, якщо вони ще ними не є."
  },
  "rot_select_core_region_tt_specific": {
   "en": "[SCOPE.sRegion('target').GetName] will be designated as our #Y Core Region#!. $rot_select_core_region_tt_generic$",
@@ -4185,7 +4185,7 @@
  },
  "settle_country_desc": {
   "en": "We have established our religion and culture in these lands, let's make it official and [settle|e] here permanently so that we can work the fields and build improvements to better our situation in life.",
-  "uk": "Ми встановили нашу релігію та культуру на цих землях, давайте зробимо це офіційним і [Concept('settle','поселити')|e] тут назавжди, щоб ми могли обробляти поля та будувати покращення для покращення нашої ситуації в житті."
+  "uk": "Ми встановили нашу релігію та культуру на цих землях, давайте зробимо це офіційним і [Concept('settle','осядемо')|e] тут назавжди, щоб ми могли обробляти поля та будувати покращення для покращення нашої ситуації в житті."
  },
  "shugo_province_default": {
   "en": "[ROOT.GetLocation.GetProvince.GetName]",
@@ -4277,7 +4277,7 @@
  },
  "start_exploration_no_launch_point": {
   "en": "@trigger_no! No [locations|e] available to start constructing the exploration.",
-  "uk": "@trigger_no! Немає доступних [Concept('locations','локацій')|e] для підготовки експедиції."
+  "uk": "@trigger_no! Немає доступних [Concept('locations','районів')|e] для підготовки експедиції."
  },
  "start_exploration_select_area": {
   "en": "Select an [area|e] to explore:",
@@ -4289,7 +4289,7 @@
  },
  "start_exploration_select_launch_point": {
   "en": "Select a [location|e] to start constructing the exploration",
-  "uk": "Виберіть [Concept('location','локацію')|e] для підготовки експедиції"
+  "uk": "Виберіть [Concept('location','район')|e] для підготовки експедиції"
  },
  "start_resolution_issue_in_international_organization_select_resolution": {
   "en": "Select which resolution to propose",
@@ -4369,11 +4369,11 @@
  },
  "stop_disfavoring_sect_choose_sect": {
   "en": "Choose the [sect|e] to stop disfavoring",
-  "uk": "Виберіть [Concept('sect','секта')|e], щоб припинити несхвалення"
+  "uk": "Виберіть [Concept('sect','течію')|e], щоб припинити несхвалення"
  },
  "stop_disfavoring_sect_desc": {
   "en": "Stop disfavoring a [sect|e]. We will stop discouraging its spread through our territory and stop getting penalties if we are in it.",
-  "uk": "Припинити несхвалення [Concept('sect','секта')|e]. Ми припинимо перешкоджати її поширенню на нашій території і припинимо отримувати штрафи, якщо ми в ній."
+  "uk": "Припинити несхвалення [Concept('sect','течії')|e]. Ми припинимо перешкоджати її поширенню на нашій території і припинимо отримувати штрафи, якщо ми в ній."
  },
  "stop_disfavoring_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -4429,11 +4429,11 @@
  },
  "stop_promoting_sect_choose_sect": {
   "en": "Choose the [sect|e] to stop promoting",
-  "uk": "Виберіть [Concept('sect','секта')|e], щоб припинити просування"
+  "uk": "Виберіть [Concept('sect','течію')|e], щоб припинити просування"
  },
  "stop_promoting_sect_desc": {
   "en": "Stop promoting a [sect|e]. We will stop encouraging the spread of the $sect$ through our territory, and we will stop getting the extra benefits if we are in it.",
-  "uk": "Припинити просування [Concept('sect','секта')|e]. Ми припинимо заохочувати поширення $sect$ на нашій території і припинимо отримувати додаткові переваги, якщо ми в ній."
+  "uk": "Припинити просування [Concept('sect','течії')|e]. Ми припинимо заохочувати поширення $sect$ на нашій території і припинимо отримувати додаткові переваги, якщо ми в ній."
  },
  "stop_promoting_sect_no_ios": {
   "en": "$no_valid_international_organizations$",
@@ -4577,7 +4577,7 @@
  },
  "take_estate_loan_desc": {
   "en": "[Player.GetTakeLoanInfo]\\n\\nWe could also ask for a loan from a banking [country|e].",
-  "uk": "[Player.GetTakeLoanInfo]\\n\\nМи також могли б попросити позику у банківської [Concept('country','країни')|e]."
+  "uk": "[Player.GetTakeLoanInfo]\\n\\nМи також могли б попросити позику у банківської [Concept('country','держави')|e]."
  },
  "target_vote_in_election": {
   "en": "Choose target of Vote",
@@ -4661,7 +4661,7 @@
  },
  "tordesillas_move_the_line.tt": {
   "en": "The imaginary line that divides the world between the signatories will be moved to a new [location|e]",
-  "uk": "Уявна лінія, що розділяє світ між підписантами, буде переміщена до нової [Concept('location','локація')|e]"
+  "uk": "Уявна лінія, що розділяє світ між підписантами, буде переміщена до нового [Concept('location','району')|e]"
  },
  "tordesillas_move_the_line.tt2": {
   "en": "The Progress to Ratification will be delayed by #R 5#!",
@@ -4777,7 +4777,7 @@
  },
  "treasure_voyage_select_location": {
   "en": "Select starting [location|e]:",
-  "uk": "Виберіть початкову [Concept('location','локацію')|e]:"
+  "uk": "Виберіть початковий [Concept('location','район')|e]:"
  },
  "treasure_voyage_select_location_no_locations": {
   "en": "$no_valid_locations$",
@@ -4785,7 +4785,7 @@
  },
  "treasure_voyage_select_value_of_gifts": {
   "en": "Select amount of [gold|e] to be put in gifts:",
-  "uk": "Виберіть кількість [Concept('gold','золото')|e] для подарунків:"
+  "uk": "Виберіть кількість [Concept('gold','дукатів')|e] для подарунків:"
  },
  "tribal_arrange_marriage_no_characters": {
   "en": "$no_valid_characters$",
@@ -4893,7 +4893,7 @@
  },
  "warn_about_loss_of_content_tt": {
   "en": "We may #R lose#! access to certain aspects of our current [government_type|e] such as [policies|e], [laws|e], [buildings|e] and more",
-  "uk": "Ми можемо #R втратити#! доступ до певних аспектів нашого поточного [Concept('government_type','форма правління')|e], таких як [Concept('policies','політики')|e], [Concept('laws','закони')|e], [Concept('buildings','будівлі')|e] тощо"
+  "uk": "Ми можемо #R втратити#! доступ до певних аспектів нашої поточної [Concept('government_type','форми правління')|e], таких як [Concept('policies','політики')|e], [Concept('laws','закони')|e], [Concept('buildings','споруди')|e] тощо"
  },
  "we_are_not_already_ap_leader_tt": {
   "en": "We are not already leading our own [autocephalous_patriarchate|e]",
@@ -4913,6 +4913,6 @@
  },
  "withdraw_from_organization_treasury_select_gold_amount": {
   "en": "Select the amount of [gold|e] withdrawn from the Organization:",
-  "uk": "Виберіть суму [Concept('gold','золота')|e], яку буде виведено з Організації:"
+  "uk": "Виберіть суму [Concept('gold','дукатів')|e], яку буде виведено з Організації:"
  }
 }

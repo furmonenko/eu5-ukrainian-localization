@@ -125,7 +125,7 @@
  },
  "HOLY_SITES_SORT_BY_IMPORTANCE": {
   "en": "Sort by [holy_site_importance_short|e]",
-  "uk": "Сортувати за [Concept('holy_site_importance_short','важливість священного місця')|e]"
+  "uk": "Сортувати за [Concept('holy_site_importance_short','значущістю')|e]"
  },
  "HOLY_SITES_SORT_BY_NAME": {
   "en": "Sort by the name of the [holy_site|e]",
@@ -145,11 +145,11 @@
  },
  "HOLY_SITE_TT_LOCATION": {
   "en": "Due to [holy_site_importance|e] level $LEVEL$, [LOCATION.GetName] [location|e] gains:\\n$INFO$",
-  "uk": "Завдяки рівню [Concept('holy_site_importance','важливість священного місця')|e] $LEVEL$, [LOCATION.GetName] [Concept('location','локація')|e] отримує:\\n$INFO$"
+  "uk": "Завдяки рівню [Concept('holy_site_importance','значущості святині')|e] $LEVEL$, [LOCATION.GetName] [Concept('location','район')|e] отримує:\\n$INFO$"
  },
  "HOLY_SITE_TT_RELIGION": {
   "en": "Due to [holy_site_importance|e] level $LEVEL$, all $RELIGIONS$ [countries|e] gain:\\n$INFO$",
-  "uk": "Завдяки рівню [Concept('holy_site_importance','важливість священного місця')|e] $LEVEL$, всі $RELIGIONS$ [Concept('countries','країни')|e] отримують:\\n$INFO$"
+  "uk": "Завдяки рівню [Concept('holy_site_importance','значущості святині')|e] $LEVEL$, всі $RELIGIONS$ [Concept('countries','держави')|e] отримують:\\n$INFO$"
  },
  "HOLY_SITE_TT_RELIGION_INFO": {
   "en": "Holy Site for: #subtle_name [RELIGION.GetNameNoUnderline]#![RELIGION.GetIcon]",
@@ -349,7 +349,7 @@
  },
  "RELIGIOUS_FIGURE_IN_CABINET": {
   "en": "@trigger_no! [CHARACTER.GetName] is working in our [cabinet|e].",
-  "uk": "@trigger_no! [CHARACTER.GetName] працює в нашому [Concept('cabinet','кабінет')|e]."
+  "uk": "@trigger_no! [CHARACTER.GetName] працює в нашій [Concept('cabinet','раді')|e]."
  },
  "RELIGIOUS_FOCUS_ADD_TO_QUEUE": {
   "en": "Add to queue",
@@ -1697,7 +1697,7 @@
  },
  "change_liturgical_language_desc": {
   "en": "Change our [country|e]'s [liturgical_language|e]",
-  "uk": "Змінити [Concept('liturgical_language','літургійна мова')|e] нашої [Concept('country','країна')|e]"
+  "uk": "Змінити [Concept('liturgical_language','літургійну мову')|e] нашої [Concept('country','держави')|e]"
  },
  "change_liturgical_language_select_dailect": {
   "en": "Select a new [dialect|e]",
@@ -1993,7 +1993,7 @@
  },
  "convert_religion_desc": {
   "en": "Change our [country|e]'s religion",
-  "uk": "Змінити [Concept('religion','релігія')|e] нашої [Concept('country','країна')|e]"
+  "uk": "Змінити [Concept('religion','релігію')|e] нашої [Concept('country','держави')|e]"
  },
  "convert_religion_select_religion": {
   "en": "Select [religion|e] to convert to",
@@ -2557,7 +2557,7 @@
  },
  "excommunicate_select_country": {
   "en": "Select the [country|e] to try to [excommunicate|e]",
-  "uk": "Виберіть [Concept('country','країна')|e] для спроби [Concept('excommunicate','відлучити від церкви')|e]"
+  "uk": "Виберіть [Concept('country','державу')|e] для спроби [Concept('excommunicate','відлучити від церкви')|e]"
  },
  "excommunicate_tt": {
   "en": "The target ruler will get [ShowModifier('excommunicated')] and every [ShowReligionAdjective('catholic')] country will get [THIS.GetCountry.GetBiasConfig('opinion_excommunicated').GetValue|+=0] opinion of them. Every [ShowReligionAdjectiveWithNoTooltip('catholic')] country bordering the target country will receive the [ShowCasusBelliName('cb_excommunication')] [casus_belli|e] against it.",
@@ -2617,7 +2617,7 @@
  },
  "flower_war_cb_against_country_tt": {
   "en": "We will gain a [ShowCasusBelliName('cb_flower_wars')] [casus_belli|e] against the selected neighbor [country|e]",
-  "uk": "Ми отримаємо [ShowCasusBelliName('cb_flower_wars')] [Concept('casus_belli','привід для війни')|e] проти вибраної сусідньої [Concept('country','країна')|e]"
+  "uk": "Ми отримаємо [ShowCasusBelliName('cb_flower_wars')] [Concept('casus_belli','привід для війни')|e] проти вибраної сусідньої [Concept('country','держави')|e]"
  },
  "flower_wars_tt": {
   "en": "This Religious Focus will give us access to the Flower War CB.",
@@ -3645,7 +3645,7 @@
  },
  "ismaili_school_desc": {
   "en": "The $ismaili_school$ Madhhab is named after Ismā'īl ibn Ja'far, the successor of Ja'far al-Ṣādiq, and was the dominant school of faith in the Fatimid Caliphate but has lost much ground since its fall. The $ismaili_school$ school encompasses a number of increasingly divergent branches, and in many ways, they focus on the esoteric elements of [ShowReligionAdjective('shia')] faith more than the [ShowReligiousSchoolName('jafari_school')] or [ShowReligiousSchoolName('zaidi_school')].",
-  "uk": "Мазхаб $ismaili_school$ названий на честь Ісмаїла ібн Джафара, наступника Джафара ас-Садіка, і був домінуючою школою віри в халіфаті Фатімідів, але втратив багато позицій після його падіння. Школа $ismaili_school$ охоплює ряд дедалі більш розбіжних гілок і багато в чому зосереджується на езотеричних елементах [ShowReligionAdjective('shia')] віри більше, ніж [ShowReligiousSchoolName('jafari_school')] або [ShowReligiousSchoolName('zaidi_school')]."
+  "uk": "Мазхаб $ismaili_school$ названий на честь Ісмаїла ібн Джафара, наступника Джафара ас-Садіка, і був панівною школою віри в халіфаті Фатімідів, але втратив багато позицій після його падіння. Школа $ismaili_school$ охоплює ряд дедалі більш розбіжних гілок і багато в чому зосереджується на езотеричних елементах [ShowReligionAdjective('shia')] віри більше, ніж [ShowReligiousSchoolName('jafari_school')] або [ShowReligiousSchoolName('zaidi_school')]."
  },
  "israelite_group": {
   "en": "Israelite",
@@ -5297,7 +5297,7 @@
  },
  "nhialic_god_desc": {
   "en": "$nhialic_god$ is the main [gods|e] of the [ShowReligionAdjective('muonyjang_religion')] pantheon.",
-  "uk": "$nhialic_god$ є головним [Concept('gods','бог')|e] пантеону [ShowReligionAdjective('muonyjang_religion')]."
+  "uk": "$nhialic_god$ є головним [Concept('gods','богом')|e] пантеону [ShowReligionAdjective('muonyjang_religion')]."
  },
  "nicobarese_religion": {
   "en": "Nicobarese",
@@ -5409,7 +5409,7 @@
  },
  "nyambe_god_desc": {
   "en": "$nyambe_god$ is the main [gods|e] and Sky Father for many [ShowLanguageFamilyName('bantu_language_family')] speaking people.",
-  "uk": "$nyambe_god$ є головним [Concept('gods','бог')|e] і Небесним Батьком для багатьох [ShowLanguageName('bantu_language_family')] народів, що говорять."
+  "uk": "$nyambe_god$ є головним [Concept('gods','богом')|e] і Небесним Батьком для багатьох [ShowLanguageFamilyName('bantu_language_family')] народів, що говорять."
  },
  "nyang_serai_religion": {
   "en": "Nyang Serai",
@@ -5849,7 +5849,7 @@
  },
  "periphora_desc": {
   "en": "Organize a periphora (Greek for 'procession'). This takes an icon [work_of_art|e] on the road, relocating it to another [location|e]! The icon spends about a month in each location along the route, granting those locations its art quality bonuses while in transit. Track its progress in the Works of Art map mode.",
-  "uk": "Організувати перифору (грецькою — «процесія»): ікону, [Concept('work_of_art','творіння')|e] мистецтва, понесуть дорогою до іншого [Concept('location','району')|e]! У кожному районі на шляху ікона проводить близько місяця й, поки перебуває там, дає йому бонуси своєї художньої якості. Стежте за її поступом у режимі карти творінь."
+  "uk": "Організувати перифору (грецькою — «процесія»): ікону, [Concept('work_of_art','витвір')|e] мистецтва, понесуть дорогою до іншого [Concept('location','району')|e]! У кожному районі на шляху ікона проводить близько місяця й, поки перебуває там, дає йому бонуси своєї художньої якості. Стежте за її поступом у режимі карти витворів мистецтва."
  },
  "periphora_select_destination": {
   "en": "Select the final destination for the Periphora",
@@ -6285,7 +6285,7 @@
  },
  "request_cardinal_tt": {
   "en": "The designated [location|e] will gain a [ShowBuildingTypeName('seat_of_cardinal')], if sanctioned by [GetCountry('PAP').GetAdjective] authority.",
-  "uk": "Призначена [Concept('location','локація')|e] отримає [ShowBuildingTypeName('seat_of_cardinal')], якщо санкціоновано [GetCountry('PAP').GetAdjective] владою."
+  "uk": "Призначений [Concept('location','район')|e] отримає [ShowBuildingTypeName('seat_of_cardinal')], якщо санкціоновано [GetCountry('PAP').GetAdjective] владою."
  },
  "revoke_papal_bull": {
   "en": "Revoke Papal Bull Cost",
@@ -6661,7 +6661,7 @@
  },
  "shiva_god_desc": {
   "en": "$shiva_god$ is one of the main [gods|e] of [ShowReligionName('hindu')], and the supreme being in [ShowPolicyName('shaivism')]. He is the patron of asceticism and yoga.",
-  "uk": "$shiva_god$ є одним з головних [Concept('gods','бог')|e] [ShowReligionName('hindu')] і верховною істотою в [ShowPolicyName('shaivism')]. Він є покровителем аскетизму і йоги."
+  "uk": "$shiva_god$ є одним з головних [Concept('gods','богів')|e] [ShowReligionName('hindu')] і верховною істотою в [ShowPolicyName('shaivism')]. Він є покровителем аскетизму і йоги."
  },
  "shogunate_court": {
   "en": "Shogunate Court",
@@ -7613,7 +7613,7 @@
  },
  "vishnu_god_desc": {
   "en": "$vishnu_god$ is one of the main [gods|e] of [ShowReligionName('hindu')], and the main one in [ShowPolicyName('vaishnavism')]. He is regarded as the supreme being, manifesting himself on earth in the form of his ten [avatars|e].",
-  "uk": "$vishnu_god$ є одним з головних [Concept('gods','бог')|e] [ShowReligionName('hindu')] і основним в [ShowPolicyName('vaishnavism')]. Його вважають верховною істотою, що проявляється на землі у формі своїх десяти [Concept('avatars','аватарам')|e]."
+  "uk": "$vishnu_god$ є одним з головних [Concept('gods','богів')|e] [ShowReligionName('hindu')] і основним в [ShowPolicyName('vaishnavism')]. Його вважають верховною істотою, що проявляється на землі у формі своїх десяти [Concept('avatars','аватарів')|e]."
  },
  "vodun_religion": {
   "en": "Vodun",

@@ -1,7 +1,7 @@
 {
  "5_years_cd": {
   "en": "We have changed this law in the past #G 5#! years.",
-  "uk": "Ми вже змінювали це правило в останні #G 5#! років."
+  "uk": "Ми вже змінювали цей закон в останні #G 5#! років."
  },
  "ACTIVE_DECREES": {
   "en": "Active Decrees",
@@ -81,7 +81,7 @@
  },
  "CANNOT_VOTE_NOT_AN_ELECTOR": {
   "en": "[COUNTRY.GetName] is not an Elector",
-  "uk": "Держава [COUNTRY.GetName] не є виборцем"
+  "uk": "Держава [COUNTRY.GetName] не є курфюрстом"
  },
  "CANNOT_VOTE_NOT_A_MEMBER": {
   "en": "[COUNTRY.GetName] is not a member of the [INTERNATIONAL_ORGANIZATION.GetName]",
@@ -193,7 +193,7 @@
  },
  "CURRENT_LAWS": {
   "en": "Current Laws",
-  "uk": "Поточний звід правил"
+  "uk": "Поточні закони"
  },
  "CURRENT_RESOLUTIONS": {
   "en": "Current Voted Resolutions",
@@ -241,7 +241,7 @@
  },
  "ELECTORS": {
   "en": "Electors",
-  "uk": "Виборці"
+  "uk": "Курфюрсти"
  },
  "EMPEROR_ABILITIES": {
   "en": "[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] [ability|e]",
@@ -493,7 +493,7 @@
  },
  "HRE_DOMINANT_NATION": {
   "en": "Dominant Nation in the Empire ([total_population|e] above 1 Million)",
-  "uk": "Домінуюча держава імперії ([Concept('total_population', 'сукупне населення')|e] понад 1 млн.)"
+  "uk": "Панівна держава імперії ([Concept('total_population', 'сукупне населення')|e] понад 1 млн.)"
  },
  "HRE_ELECTION_GERMAN_COURT_LANGUAGE": {
   "en": "German Court Language",
@@ -529,7 +529,7 @@
  },
  "HRE_EMPROR_DESC": {
   "en": "The [InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip] is led by the [ShowSpecialStatusName('emperor')]. It is the duty of the [ShowSpecialStatusNameWithNoTooltip('emperor')] to protect the members of the Empire from foreign threats, maintain internal peace and stability, and ensure religious unity within the Empire.\\n\\nIn exchange, the [ShowSpecialStatusNameWithNoTooltip('emperor')] gains #Y $imperial_authority$#! which shall be used to propose [laws|e] and [parliament_issues|e] as well as other bonuses to support them.",
-  "uk": "Об'єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» очолює #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператор#!#!. Його обов'язок — захищати держави, що входять до імперії, від загроз ззовні, підтримувати всередині своїх володінь мир і стабільність, а також боротися за релігійну єдність серед підданих.\\n\\nНатомість імператор отримує #Y імперську владу#!, яку можна витрачати на пропозиції [Concept('laws', 'правил')|e] і [Concept('parliament_issues', 'парламентських питань')|e], а також інші корисні бонуси."
+  "uk": "Об’єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» очолює #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператор#!#!. Його обов’язок — захищати держави, що входять до імперії, від загроз ззовні, підтримувати всередині своїх володінь мир і стабільність, а також боротися за релігійну єдність серед підданих.\\n\\nНатомість імператор отримує #Y імперську владу#!, яку можна витрачати на пропозиції [Concept('laws', 'законів')|e] і [Concept('parliament_issues', 'парламентських питань')|e], а також інші корисні бонуси."
  },
  "HRE_EMPROR_TITLE": {
   "en": "Privileges and Duties of the $emperor$",
@@ -541,7 +541,7 @@
  },
  "HRE_HAS_ANOTHER_ELECTOR_SUBJUGATED": {
   "en": "Has subjugated another [elector|e]",
-  "uk": "Підкоряє собі іншого [Concept('elector','виборця')|e]"
+  "uk": "Підкоряє собі іншого [Concept('elector','курфюрста')|e]"
  },
  "HRE_LARGE_NATION": {
   "en": "Large Nation in the Empire ([total_population|e] above 500 Thousand)",
@@ -697,7 +697,7 @@
  },
  "IMPERIAL_LAWS_GOLDEN_BULL_DESC": {
   "en": "The [InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip] is in a state of administrative anarchy. [laws|e] and [policies|e] to adjust and amend the nature of the Empire cannot be proposed until the [ShowLawName('golden_bull')] has been codified.",
-  "uk": "В органах управління об'єднанням «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» панує безлад. [Concept('laws', 'Правила')] і [Concept('policies', 'політики')|e], що впливають на сутність імперії, можливо буде пропонувати лише після законодавчого закріплення #TOOLTIP:LAW,golden_bull,X #L Золотої булли#!#!."
+  "uk": "В органах управління об’єднанням «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» панує безлад. [Concept('laws', 'Закони')|e] і [Concept('policies', 'політики')|e], що впливають на сутність імперії, можливо буде пропонувати лише після законодавчого закріплення #TOOLTIP:LAW,golden_bull,X #L Золотої булли#!#!."
  },
  "IMPERIAL_LAWS_TITLE": {
   "en": "The Power of the [InternationalOrganizationsView.GetInternationalOrganization.GetLeaderTitle]",
@@ -1157,7 +1157,7 @@
  },
  "IO_GOTO_LAW": {
   "en": "Show [InternationalOrganizationLawAlert.GetLawName] [law|e]",
-  "uk": "Показати [Concept('law','правило')|e]: [InternationalOrganizationLawAlert.GetLawName] [law|e]"
+  "uk": "Показати [Concept('law','закон')|e]: [InternationalOrganizationLawAlert.GetLawName] [law|e]"
  },
  "IO_HRE_VOTE_DESC": {
   "en": "[Policy.GetDesc]\\n\\n[Policy.GetEffectTextWithContext(InternationalOrganizationsView.GetInternationalOrganization)]",
@@ -1417,11 +1417,11 @@
  },
  "LACK_OF_ARCHBISHOP_ELECTORS": {
   "en": "Lack of Archbishop-Electors",
-  "uk": "Брак архієпископів-виборців"
+  "uk": "Брак архієпископів-курфюрстів"
  },
  "LACK_OF_ELECTORS": {
   "en": "Lack of Electors",
-  "uk": "Брак виборців"
+  "uk": "Брак курфюрстів"
  },
  "LAND_OWNED_BY_INTERNATIONAL_ORGANIZATION": {
   "en": "[LOCATION.GetName] is owned by the [INTERNATIONAL_ORGANIZATION.GetName]",
@@ -1433,7 +1433,7 @@
  },
  "LAWS": {
   "en": "Laws",
-  "uk": "Правила"
+  "uk": "Закони"
  },
  "LAWS_COMPACTED_VIEW": {
   "en": "Compacted View",
@@ -1745,7 +1745,7 @@
  },
  "NUMBER_OF_SECT_FOLLOWERS": {
   "en": "Number of Sect Followers",
-  "uk": "Кількість прихильників напряму"
+  "uk": "Кількість прихильників течії"
  },
  "NUMBER_OF_TRIBUTARIES": {
   "en": "Number of Friendly Tributaries",
@@ -2017,7 +2017,7 @@
  },
  "SECT_ENEMIES": {
   "en": "Sect Enemies",
-  "uk": "Вороги напряму"
+  "uk": "Вороги течії"
  },
  "SECT_FAVOR_DISPLAY": {
   "en": "$VAL|0$%",
@@ -2073,7 +2073,7 @@
  },
  "SECT_NAME": {
   "en": "Sect",
-  "uk": "Напрям"
+  "uk": "Течія"
  },
  "SECT_NICHIREN_NAME": {
   "en": "Nichiren",
@@ -2101,7 +2101,7 @@
  },
  "SECT_SUPPORTERS": {
   "en": "Sect Supporters",
-  "uk": "Прихильники напряму"
+  "uk": "Прихильники течії"
  },
  "SECT_TENDAI_NAME": {
   "en": "Tendai",
@@ -2229,7 +2229,7 @@
  },
  "SUBTAB_IO_LAWS_TT_TEXT": {
   "en": "This window allows you to inspect and initiate the [laws|e] and [policies|e] of the [international_organization|e].",
-  "uk": "Це вікно дозволяє Вам вивчати і запускати процес прийняття [Concept('laws','зводів правил')|e] та [Concept('policies','політик')|e] [Concept('international_organization','міжнародного об’єднання')|e]."
+  "uk": "Це вікно дозволяє Вам вивчати і запускати процес прийняття [Concept('laws','законів')|e] та [Concept('policies','політик')|e] [Concept('international_organization','міжнародного об’єднання')|e]."
  },
  "SUBTAB_IO_MIDDLE_KINGDOM_EXPEDITION_TT_FLAVOR_TEXT": {
   "en": "\"We have traversed more than one hundred thousand li of immense water spaces, and have beheld in the ocean huge waves like mountains rising sky-high.\"",
@@ -2405,11 +2405,11 @@
  },
  "UNION_IO_PARLIAMENT_TOOLTIP": {
   "en": "The [parliament|e] of the [InternationalOrganizationsView.GetInternationalOrganization.GetName] serves a different purpose than the ones from other [international_organizations|e]. While most Parliaments concern themselves with [parliament_issues|e], the one of the [InternationalOrganizationsView.GetInternationalOrganization.GetType.GetName] is reserved for the [ShowSpecialStatusName('senior_partner')] to implement the [laws|e] of the Union for new members.",
-  "uk": "[Concept('parliament', 'Парламент')|e] об'єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetName]» відіграє дещо іншу роль, ніж парламенти інших [Concept('international_organizations', 'міжнародних об’єднань')|e]: якщо ті переважно займаються розглядом [Concept('parliament_issues', 'парламентських питань')|e], то парламент об'єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetType.GetName]» призначений для його #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшого партнера#!#! і впровадження в дію [Concept('laws', 'правил')|e] для нових учасників унії."
+  "uk": "[Concept('parliament', 'Парламент')|e] об’єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetName]» відіграє дещо іншу роль, ніж парламенти інших [Concept('international_organizations', 'міжнародних об’єднань')|e]: якщо ті переважно займаються розглядом [Concept('parliament_issues', 'парламентських питань')|e], то парламент об’єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetType.GetName]» призначений для його #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшого партнера#!#! і впровадження в дію [Concept('laws', 'законів')|e] для нових учасників унії."
  },
  "UNION_LAWS_DESC": {
   "en": "Certain [laws|e] of the [InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip] have [policies|e] which intend to centralize its many realms into a single political entity, while others support the protection of individual Union member sovereignty. Only the most powerful and diplomatically astute member of the Union can take the role of the [ShowSpecialStatusName('senior_partner')] and centralize the Union, while #italic every#! member can propose federal policies to maintain the status quo.",
-  "uk": "Певним [Concept('laws', 'правилам')|e] в об'єднанні «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» відповідають [Concept('policies', 'політики')|e], спрямовані на політичну централізацію держав, що входять до нього. Інші політики націлені на захист індивідуального суверенітету учасників унії. Лише найвпливовіший і найвправніший у дипломатії учасник здатний взяти на себе роль #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшого партнера#!#! і централізувати унію; #italic інші#! ж держави можуть пропонувати федеральні політики, що зберігають статус-кво."
+  "uk": "Певним [Concept('laws', 'законам')|e] в об’єднанні «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]» відповідають [Concept('policies', 'політики')|e], спрямовані на політичну централізацію держав, що входять до нього. Інші політики націлені на захист індивідуального суверенітету учасників унії. Лише найвпливовіший і найвправніший у дипломатії учасник здатний взяти на себе роль #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшого партнера#!#! і централізувати унію; #italic інші#! ж держави можуть пропонувати федеральні політики, що зберігають статус-кво."
  },
  "UNION_LAWS_TITLE": {
   "en": "Centralization vs. Federalization",
@@ -2437,11 +2437,11 @@
  },
  "VASSALISED_ARCHBISHOP_ELECTORS": {
   "en": "Vassalized Archbishop-Electors",
-  "uk": "Архієпископи-виборці — васали"
+  "uk": "Архієпископи-курфюрсти — васали"
  },
  "VASSALISED_ELECTORS": {
   "en": "Vassalized Electors",
-  "uk": "Виборці-васали"
+  "uk": "Курфюрсти-васали"
  },
  "VOTED_TT": {
   "en": "'[VoteGlue.GetVoteObject.GetName]' Votes: [VoteGlue.GetTotalNumVotes|0L]",
@@ -2517,7 +2517,7 @@
  },
  "WE_ARE_PROTESTANT": {
   "en": "We follow a [religion|e] of the [reformation|e]",
-  "uk": "Ми — прихильники [Concept('reformation', 'протестантських')|e] [Concept('religion', 'церков')|e]"
+  "uk": "Ми — прихильники [Concept('reformation', 'протестантських')|e] [Concept('religion', 'релігій')|e]"
  },
  "WE_ARE_SMALL": {
   "en": "We are small",
@@ -2557,7 +2557,7 @@
  },
  "archbishop_elector": {
   "en": "Archbishop-Elector",
-  "uk": "Архієпископ-виборець"
+  "uk": "Архієпископ-курфюрст"
  },
  "archbishop_elector_desc": {
   "en": "The $archbishop_elector$ is a [special_status|e] of the [GetUniqueInternationalOrganization('hre').GetName]. They are capable of voting for the next [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. Only a state with the [ShowGovernmentTypeName('theocracy')] [government_type|e] can assume this [special_status].",
@@ -2565,7 +2565,7 @@
  },
  "archbishop_elector_plural": {
   "en": "Archbishop-Electors",
-  "uk": "Архієпископи-виборці"
+  "uk": "Архієпископи-курфюрсти"
  },
  "ascendancy": {
   "en": "Ascendancy",
@@ -2637,7 +2637,7 @@
  },
  "call_organization_parliament_desc": {
   "en": "This will call a meeting of the Parliament of the [international_organization|e] in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in the [laws|e], create a [casus_belli|e], and raise higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].",
-  "uk": "Буде скликано парламент [Concept('international_organization','міжнародного об’єднання')|e] у спробі отримати підтримку таких аспектів, як вирішення [Concept('parliament_issue','парламентського питання')|e], зміна [Concept('policies','політик')|e] у [Concept('laws','зводі правил')|e], створення [Concept('casus_belli','приводу для війни')|e], збір додаткових [Concept('taxes','податків')|e], набір додаткового [Concept('army_levies','армійського')|e] або [Concept('navy_levies','флотського ополчення')|e]."
+  "uk": "Буде скликано парламент [Concept('international_organization','міжнародного об’єднання')|e] у спробі отримати підтримку таких аспектів, як вирішення [Concept('parliament_issue','парламентського питання')|e], зміна [Concept('policies','політик')|e] у [Concept('laws','законах')|e], створення [Concept('casus_belli','приводу для війни')|e], збір додаткових [Concept('taxes','податків')|e], набір додаткового [Concept('army_levies','армійського')|e] або [Concept('navy_levies','флотського ополчення')|e]."
  },
  "catholic_church": {
   "en": "Catholic Church",
@@ -2725,11 +2725,11 @@
  },
  "clan_diplomacy": {
   "en": "Clan Diplomacy Law",
-  "uk": "Правило кланової дипломатії"
+  "uk": "Закон кланової дипломатії"
  },
  "clan_diplomacy_desc": {
   "en": "This law describes how diplomacy will be handled by our people.",
-  "uk": "Це правило встановлює наш підхід до дипломатії."
+  "uk": "Цей закон встановлює наш підхід до дипломатії."
  },
  "clan_embassies_policy": {
   "en": "Clan Embassies",
@@ -2777,11 +2777,11 @@
  },
  "court_etiquette": {
   "en": "Court Etiquette Law",
-  "uk": "Правило придворного етикету"
+  "uk": "Закон придворного етикету"
  },
  "court_etiquette_desc": {
   "en": "This law establishes which court etiquette rules will be applied.",
-  "uk": "Це правило встановить суворість придворного етикету."
+  "uk": "Цей закон встановить суворість придворного етикету."
  },
  "crusade": {
   "en": "Crusade",
@@ -2849,15 +2849,15 @@
  },
  "economic_framework": {
   "en": "Economic Law",
-  "uk": "Економічне правило"
+  "uk": "Економічний закон"
  },
  "economic_framework_desc": {
   "en": "This law defines the distribution of all crops grown in our settlements.",
-  "uk": "Це правило встановлює розподіл усіх культур, які вирощуються в поселеннях."
+  "uk": "Цей закон встановлює розподіл усіх культур, які вирощуються в поселеннях."
  },
  "elector": {
   "en": "Prince-Elector",
-  "uk": "Князь-виборець"
+  "uk": "Князь-курфюрст"
  },
  "elector_desc": {
   "en": "The $elector$ is a [special_status|e] of the [GetUniqueInternationalOrganization('hre').GetName]. Electors are capable of voting for the next [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. Only a state with the [ShowGovernmentTypeName('monarchy')] [government_type|e] can assume this [special_status].",
@@ -2865,7 +2865,7 @@
  },
  "elector_plural": {
   "en": "Prince-Electors",
-  "uk": "Князі-виборці"
+  "uk": "Князі-курфюрсти"
  },
  "emperor": {
   "en": "Emperor",
@@ -2937,11 +2937,11 @@
  },
  "formal_script": {
   "en": "Formal Script Law",
-  "uk": "Правило канцелярської писемності"
+  "uk": "Закон канцелярської писемності"
  },
  "formal_script_desc": {
   "en": "This law declares which script or writing system must be used to write official documentation.",
-  "uk": "Це правило встановить систему письма, якою ми користуватимемося при складанні офіційних документів."
+  "uk": "Цей закон встановить систему письма, якою ми користуватимемося при складанні офіційних документів."
  },
  "free_city": {
   "en": "Free Imperial City",
@@ -3089,7 +3089,7 @@
  },
  "hre_bi_camerial_imperial_diet_desc": {
   "en": "The [ShowParliamentTypeName('hre_bi_camerial_imperial_diet')] expands representation by granting voting rights to ecclesiastical dignitaries and princely rulers alike, forming two chambers within the Diet.\\n\\n$BULLET_WITH_TAB$ Standard power for [ShowSpecialStatusNamePlural('emperor')], [ShowSpecialStatusNamePlural('elector')], [ShowSpecialStatusNamePlural('archbishop_elector')], and [ShowSpecialStatusNamePlural('imperial_prince')]\\n$BULLET_WITH_TAB$ [ShowSpecialStatusNamePlural('imperial_prelate')] gain meaningful influence\\n$BULLET_WITH_TAB$ [ShowSpecialStatusNamePlural('free_city')] and [ShowSpecialStatusNamePlural('imperial_peasant_republic')] still lack representation",
-  "uk": "При #TOOLTIP:PARLIAMENT_TYPE,hre_bi_camerial_imperial_diet,X #L двопалатному рейхстазі#!#! правом голосу наділені як церковні сановники, так і правлячі князі — вони складають дві палати рейхстагу.\\n\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,emperor,X #L Імператори#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князі-виборці#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископи-виборці#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперські князі#!#! мають звичайні повноваження\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L Імп. прелати#!#! користуються відчутним впливом\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,free_city,X #L Вільні імперські міста#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імперські селянські республіки#!#! все так само не представлені"
+  "uk": "При #TOOLTIP:PARLIAMENT_TYPE,hre_bi_camerial_imperial_diet,X #L двопалатному рейхстазі#!#! правом голосу наділені як церковні сановники, так і правлячі князі — вони складають дві палати рейхстагу.\\n\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,emperor,X #L Імператори#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князі-курфюрсти#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископи-курфюрсти#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперські князі#!#! мають звичайні повноваження\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L Імп. прелати#!#! користуються відчутним впливом\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,free_city,X #L Вільні імперські міста#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імперські селянські республіки#!#! все так само не представлені"
  },
  "hre_court_assembly": {
   "en": "Court Assembly",
@@ -3097,7 +3097,7 @@
  },
  "hre_court_assembly_desc": {
   "en": "From the old days of [GetCharacter('ogk_otto_liudolfinger').GetName], the $hre_court_assembly$ is an ancient and primitive style of assembly within the [GetUniqueInternationalOrganization('hre').GetName]. Due to the lack of codified processes, discussing law implementations with the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] tend to be not as efficient as they could be.\\n\\n$BULLET_WITH_TAB$ Greatly increases voting power for the [ShowSpecialStatusName('emperor')], [ShowSpecialStatusNamePlural('elector')], and [ShowSpecialStatusNamePlural('archbishop_elector')]\\n$BULLET_WITH_TAB$ Significantly reduces [ShowSpecialStatusNamePlural('free_city')], [ShowSpecialStatusNamePlural('imperial_prelate')], [ShowSpecialStatusNamePlural('primas_germaniae')], and [ShowSpecialStatusNamePlural('legatus_natus')] influence\\n$BULLET_WITH_TAB$ [ShowSpecialStatusNamePlural('imperial_peasant_republic')] have standard power",
-  "uk": "$hre_court_assembly$ існує з часів, коли [Select_CString(GetCharacter('ogk_otto_liudolfinger').IsFemale,'правила','правив')] [GetCharacter('ogk_otto_liudolfinger').GetName]. Це стародавні і досить примітивні збори у #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!. Через відсутність єдиноманітних процедур [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] не може достатньо ефективно встановлювати нові правила.\\n\\n$BULLET_WITH_TAB$ Сила голосу #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператора#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князів-виборців#!#! та #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископів-виборців#!#! значно збільшується\\n$BULLET_WITH_TAB$ Вплив #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільних імперських міст#!#!, #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L імперських прелатів#!#!, #TOOLTIP:SPECIAL_STATUS,primas_germaniae,X #L примасів Німеччини#!#! та #TOOLTIP:SPECIAL_STATUS,legatus_natus,X #L папських легатів#!#! значно зменшується\\n$BULLET_WITH_TAB$ Влада #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імп. селянських республік#!#! стандартна"
+  "uk": "$hre_court_assembly$ існує з часів, коли [Select_CString(GetCharacter('ogk_otto_liudolfinger').IsFemale,'правила','правив')] [GetCharacter('ogk_otto_liudolfinger').GetName]. Це стародавні і досить примітивні збори у #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!. Через відсутність єдиноманітних процедур [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] не може достатньо ефективно встановлювати нові закони.\\n\\n$BULLET_WITH_TAB$ Сила голосу #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператора#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князів-курфюрстів#!#! та #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископів-курфюрстів#!#! значно збільшується\\n$BULLET_WITH_TAB$ Вплив #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільних імперських міст#!#!, #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L імперських прелатів#!#!, #TOOLTIP:SPECIAL_STATUS,primas_germaniae,X #L примасів Німеччини#!#! та #TOOLTIP:SPECIAL_STATUS,legatus_natus,X #L папських легатів#!#! значно зменшується\\n$BULLET_WITH_TAB$ Влада #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імп. селянських республік#!#! стандартна"
  },
  "hre_defended_imperial_cities_tt": {
   "en": "If the defender is a [ShowSpecialStatusName('free_city')] and the Empire has enacted a policy to protect them",
@@ -3113,7 +3113,7 @@
  },
  "hre_early_imperial_diet_desc": {
   "en": "The earliest form of [ShowLawName('imperial_diet_law')] represents the traditional order of the [GetInternationalOrganizationType('hre').GetName]. Only the [ShowSpecialStatusNamePlural('elector')], [ShowSpecialStatusNamePlural('archbishop_elector')], and [ShowSpecialStatusNamePlural('imperial_prince')] may participate, excluding [ShowSpecialStatusNamePlural('free_city')] and lower ecclesiastical entities from the legislative process.\\n\\n$BULLET_WITH_TAB$ Strong voting power for the [ShowSpecialStatusNamePlural('emperor')], [ShowSpecialStatusNamePlural('elector')], [ShowSpecialStatusNamePlural('archbishop_elector')], and [ShowSpecialStatusNamePlural('imperial_prince')]\\n$BULLET_WITH_TAB$ [ShowSpecialStatusNamePlural('free_city')] and [ShowSpecialStatusNamePlural('imperial_peasant_republic')] have no voting power\\n$BULLET_WITH_TAB$ Minor ecclesiastical roles like [ShowSpecialStatusNamePlural('imperial_prelate')], [ShowSpecialStatusNamePlural('primas_germaniae')], and [ShowSpecialStatusNamePlural('legatus_natus')] have limited power",
-  "uk": "Найраніша різновид #TOOLTIP:LAW,imperial_diet_law,X #L Рейхстагу#!#! втілює собою традиційний порядок #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,hre,X #L Священної Римської Імперії#!#!. Брати участь можуть лише #TOOLTIP:SPECIAL_STATUS,elector,X #L князі-виборці#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископи-виборці#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперські князі#!#!; #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільні імперські міста#!#! та нижчі церковні суб'єкти виключаються із законодавчого процесу.\\n\\n$BULLET_WITH_TAB$ Велика сила голосу у #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператорів#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князів-виборців#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископів-виборців#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперських князів#!#!\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,free_city,X #L Вільні імперські міста#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імперські селянські республіки#!#! не мають права голосу\\n$BULLET_WITH_TAB$ Володарі менш значних церковних посад, наприклад #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L імперські прелати#!#!, #TOOLTIP:SPECIAL_STATUS,primas_germaniae,X #L примаси Німеччини#!#! та #TOOLTIP:SPECIAL_STATUS,legatus_natus,X #L папські легати#!#!, мають обмежену владу"
+  "uk": "Найраніша різновид #TOOLTIP:LAW,imperial_diet_law,X #L Рейхстагу#!#! втілює собою традиційний порядок #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,hre,X #L Священної Римської Імперії#!#!. Брати участь можуть лише #TOOLTIP:SPECIAL_STATUS,elector,X #L князі-курфюрсти#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископи-курфюрсти#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперські князі#!#!; #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільні імперські міста#!#! та нижчі церковні суб’єкти виключаються із законодавчого процесу.\\n\\n$BULLET_WITH_TAB$ Велика сила голосу у #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператорів#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князів-курфюрстів#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископів-курфюрстів#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імперських князів#!#!\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,free_city,X #L Вільні імперські міста#!#! та #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L імперські селянські республіки#!#! не мають права голосу\\n$BULLET_WITH_TAB$ Володарі менш значних церковних посад, наприклад #TOOLTIP:SPECIAL_STATUS,imperial_prelate,X #L імперські прелати#!#!, #TOOLTIP:SPECIAL_STATUS,primas_germaniae,X #L примаси Німеччини#!#! та #TOOLTIP:SPECIAL_STATUS,legatus_natus,X #L папські легати#!#!, мають обмежену владу"
  },
  "hre_election": {
   "en": "Imperial Election",
@@ -3121,7 +3121,7 @@
  },
  "hre_election_desc": {
   "en": "The [hre_emperor|e] of the [GetUniqueInternationalOrganization('hre').GetName] is chosen based on the votes of the [electors|e]. [GetUniqueInternationalOrganization('hre').Custom('GetHREElectionDescription')]",
-  "uk": "[Concept('electors', 'Виборці')|e] обирають [Concept('hre_emperor', 'імператора')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! шляхом голосування. [GetUniqueInternationalOrganization('hre').Custom('GetHREElectionDescription')]"
+  "uk": "[Concept('electors', 'Курфюрсти')|e] обирають [Concept('hre_emperor', 'імператора')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! шляхом голосування. [GetUniqueInternationalOrganization('hre').Custom('GetHREElectionDescription')]"
  },
  "hre_election_specific": {
   "en": "$hre_election$",
@@ -3189,11 +3189,11 @@
  },
  "hre_max_archbishop_elector": {
   "en": "Max Archbishop-Electors",
-  "uk": "Межа архієпископів-виборців"
+  "uk": "Межа архієпископів-курфюрстів"
  },
  "hre_max_elector": {
   "en": "Max Prince-Electors",
-  "uk": "Межа князів-виборців"
+  "uk": "Межа князів-курфюрстів"
  },
  "hre_rank_upgrade_duchy": {
   "en": "Change rank through the $ask_for_dukedom$ [diplomatic_action|e]",
@@ -3221,7 +3221,7 @@
  },
  "hre_tri_camerial_imperial_diet_desc": {
   "en": "With the [ShowParliamentTypeName('hre_tri_camerial_imperial_diet')], [ShowSpecialStatusNamePlural('free_city')] finally gain a decisive voice. The Imperial Diet now consists of three chambers — ecclesiastical, princely, and civic — reflecting a more inclusive balance of power.\\n\\n$BULLET_WITH_TAB$ Balanced power among [ShowSpecialStatusName('emperor')], [ShowSpecialStatusNamePlural('elector')], [ShowSpecialStatusNamePlural('archbishop_elector')], [ShowSpecialStatusNamePlural('imperial_prince')], [ShowSpecialStatusNamePlural('free_city')], and minor theocratic roles\\n$BULLET_WITH_TAB$ [ShowSpecialStatusNamePlural('imperial_peasant_republic')] gain the highest influence here\\n$BULLET_WITH_TAB$ Most inclusive form of the Diet",
-  "uk": "При #TOOLTIP:PARLIAMENT_TYPE,hre_tri_camerial_imperial_diet,X #L трипалатному рейхстазі#!#! вирішальний голос нарешті отримують #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільні імперські міста#!#!. Тепер рейхстаг складається з трьох палат, що дозволяє підтримувати рівновагу трьох типів влади — духовної, князівської та громадянської.\\n\\n$BULLET_WITH_TAB$ Баланс сил між #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператором#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князями-виборцями#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископами-виборцями#!#!, #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імператорськими князями#!#!, #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільними імперськими містами#!#! та володарями малих теократичних посад\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L Імператорські селянські республіки#!#! користуються тут найбільшим впливом\\n$BULLET_WITH_TAB$ Найдемократичніша різновид рейхстагу"
+  "uk": "При #TOOLTIP:PARLIAMENT_TYPE,hre_tri_camerial_imperial_diet,X #L трипалатному рейхстазі#!#! вирішальний голос нарешті отримують #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільні імперські міста#!#!. Тепер рейхстаг складається з трьох палат, що дозволяє підтримувати рівновагу трьох типів влади — духовної, князівської та громадянської.\\n\\n$BULLET_WITH_TAB$ Баланс сил між #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператором#!#!, #TOOLTIP:SPECIAL_STATUS,elector,X #L князями-курфюрстами#!#!, #TOOLTIP:SPECIAL_STATUS,archbishop_elector,X #L архієпископами-курфюрстами#!#!, #TOOLTIP:SPECIAL_STATUS,imperial_prince,X #L імператорськими князями#!#!, #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільними імперськими містами#!#! та володарями малих теократичних посад\\n$BULLET_WITH_TAB$ #TOOLTIP:SPECIAL_STATUS,imperial_peasant_republic,X #L Імператорські селянські республіки#!#! користуються тут найбільшим впливом\\n$BULLET_WITH_TAB$ Найдемократичніша різновид рейхстагу"
  },
  "ilkhan_claimant": {
   "en": "Claimant to the $ilkhanate$",
@@ -3281,7 +3281,7 @@
  },
  "imperial_gold_contribution_desc": {
   "en": "The contributions in [gold|e] from the different members of the [GetUniqueInternationalOrganization('hre').GetName].",
-  "uk": "[Concept('gold', 'Золото')|e], що виплачується різними державами у складі #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!."
+  "uk": "[Concept('gold', 'Дукати')|e], що виплачуються різними державами у складі #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!."
  },
  "imperial_peasant_republic": {
   "en": "Imperial Peasant Republic",
@@ -3301,7 +3301,7 @@
  },
  "imperial_prelate_desc": {
   "en": "The $imperial_prelate$ is a [special_status|e] reserved for all members which are a [ShowGovernmentTypeName('theocracy')] without being [ShowSpecialStatusName('archbishop_elector')].",
-  "uk": "$imperial_prelate$ — це [Concept('special_status', 'особливий статус')|e], призначений для учасників з #TOOLTIP:GOVTYPE,theocracy,X #L теократичною#!#! формою правління, які не є #TOOLTIP:SPECIAL_STATUS,archbishop_elector_tt,X #L архієпископом-виборцем#!#!."
+  "uk": "$imperial_prelate$ — це [Concept('special_status', 'особливий статус')|e], призначений для учасників з #TOOLTIP:GOVTYPE,theocracy,X #L теократичною#!#! формою правління, які не є #TOOLTIP:SPECIAL_STATUS,archbishop_elector_tt,X #L архієпископом-курфюрстом#!#!."
  },
  "imperial_prelate_plural": {
   "en": "Imperial Prelates",
@@ -3529,11 +3529,11 @@
  },
  "legal_framework": {
   "en": "Bureaucratic Law",
-  "uk": "Бюрократичне правило"
+  "uk": "Бюрократичний закон"
  },
  "legal_framework_desc": {
   "en": "This law lays out the legal framework employed by our bureaucracy.",
-  "uk": "Це правило встановлює правові основи нашої бюрократії."
+  "uk": "Цей закон встановлює правові основи нашої бюрократії."
  },
  "lieutenant": {
   "en": "Lieutenant",
@@ -3549,11 +3549,11 @@
  },
  "local_administration": {
   "en": "Administration Law",
-  "uk": "Адміністративне правило"
+  "uk": "Адміністративний закон"
  },
  "local_administration_desc": {
   "en": "This law defines the way our people will be administered.",
-  "uk": "Це правило встановлює способи організації влади над народом."
+  "uk": "Цей закон встановлює способи організації влади над народом."
  },
  "lord_of_ireland": {
   "en": "Lord of Ireland",
@@ -3769,7 +3769,7 @@
  },
  "protestant_union_desc": {
   "en": "The $protestant_union$ is a defensive alliance of countries of the [reformation|e] which want to protect themselves from the growing hostilities of the [ShowReligionAdjective('catholic')] states of the [GetUniqueInternationalOrganization('hre').GetName]. Although founded by states of the [ShowReligionAdjective('lutheran')] and [ShowReligionAdjective('calvinist')] faiths, every member of the Empire who feels threatened by the overzealous counter-reformers may join this [international_organization|e].",
-  "uk": "$protestant_union$ — це оборонний союз [Concept('reformation', 'протестантських')|e] країн, які хочуть захистити себе від зростаючої ворожості #TOOLTIP:RELIGION,catholic_tt,X #L католицьких#!#! держав у складі #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!. Попри те що унія була заснована #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранами#!#! та #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністами#!#!, будь-який учасник імперії, який відчуває загрозу з боку надто ревних противників Реформації, може приєднатися до цього [Concept('international_organization', 'міжнародного об’єднання')|e]."
+  "uk": "$protestant_union$ — це оборонний союз [Concept('reformation', 'протестантських')|e] держав, які хочуть захистити себе від зростаючої ворожості #TOOLTIP:RELIGION,catholic_tt,X #L католицьких#!#! держав у складі #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської Імперії#!#!. Попри те що унія була заснована #TOOLTIP:RELIGION,lutheran_tt,X #L лютеранами#!#! та #TOOLTIP:RELIGION,calvinist_tt,X #L кальвіністами#!#!, будь-який учасник імперії, який відчуває загрозу з боку надто ревних противників Реформації, може приєднатися до цього [Concept('international_organization', 'міжнародного об’єднання')|e]."
  },
  "protestant_union_name": {
   "en": "[GetUniqueInternationalOrganization('protestant_union').GetName]",
@@ -3833,7 +3833,7 @@
  },
  "sect": {
   "en": "Sect",
-  "uk": "Напрям"
+  "uk": "Течія"
  },
  "sect_desc": {
   "en": "A $sect$ is one of the many branches of [ShowReligionGroupName('buddhist')], each one focusing on different teachings and ways of following the path of the Buddha to reach enlightenment.",
@@ -3849,7 +3849,7 @@
  },
  "sect_land_ownership": {
   "en": "Sect Influence Territory",
-  "uk": "Територія впливу напряму"
+  "uk": "Територія впливу течії"
  },
  "senior_partner": {
   "en": "$game_concept_senior_partner$",
@@ -3997,11 +3997,11 @@
  },
  "tax_obligations": {
   "en": "Clan Taxation Law",
-  "uk": "Правило кланового оподаткування"
+  "uk": "Закон кланового оподаткування"
  },
  "tax_obligations_desc": {
   "en": "This law defines the level of Taxation that will be applied to our people.",
-  "uk": "Це правило встановлює рівень оподаткування нашого народу."
+  "uk": "Цей закон встановлює рівень оподаткування нашого народу."
  },
  "tithe": {
   "en": "Tithe",
@@ -4017,11 +4017,11 @@
  },
  "trade_relations": {
   "en": "Trade Relations Law",
-  "uk": "Правило торговельних відносин"
+  "uk": "Закон торговельних відносин"
  },
  "trade_relations_desc": {
   "en": "This law sets out constraints for trade partnerships.",
-  "uk": "Це правило обмежує можливості торговельної співпраці."
+  "uk": "Цей закон обмежує можливості торговельної співпраці."
  },
  "tribal_administration_policy": {
   "en": "Tribal Administration",
@@ -4045,7 +4045,7 @@
  },
  "unification_law": {
   "en": "Unification Law",
-  "uk": "Правило про об'єднання"
+  "uk": "Закон про об’єднання"
  },
  "unification_law_desc": {
   "en": "States whether the tribes of the Confederation can either act independently, or be forced to submit to a central authority.",
@@ -4153,7 +4153,7 @@
  },
  "union_royal_assembly_desc": {
   "en": "The $union_royal_assembly$ is a rather rudimentary council for the entire [GetInternationalOrganizationType('union').GetName]. The [estates|e] of the members are summoned in the assembly to discuss and negotiate the implementation of centralizing [laws|e].",
-  "uk": "$union_royal_assembly$ — зачаткова форма дорадчого органу для всієї #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!. [Concept('estates', 'Стани')|e] учасників унії збираються для переговорів щодо впровадження централізованого [Concept('laws', 'зводу правил')|e]."
+  "uk": "$union_royal_assembly$ — зачаткова форма дорадчого органу для всієї #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!. [Concept('estates', 'Стани')|e] учасників унії збираються для переговорів щодо впровадження централізованих [Concept('laws', 'законів')|e]."
  },
  "vote_against_organization_issue": {
   "en": "Cast Vote against the Issue",
@@ -4213,7 +4213,7 @@
  },
  "vote_in_organization_parliament_no_policy_vote_tt": {
   "en": "No [law|e] is currently being debated, as votes are not cast via the [parliament|e]",
-  "uk": "Зараз не обговорюється жодне [Concept('law', 'правило')|e], в [Concept('parliament', 'парламенті')|e] немає голосування"
+  "uk": "Зараз не обговорюється жоден [Concept('law', 'закон')|e], в [Concept('parliament', 'парламенті')|e] немає голосування"
  },
  "vote_in_organization_parliament_tt": {
   "en": "We will vote for or against the proposed [parliament_issue|e]",

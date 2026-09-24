@@ -169,11 +169,11 @@
  },
  "assume_fort_command_desc": {
   "en": "The [character|e] will assume control over the defenses of the target area and will be incapable of leading [armies|e] and [navies|e] and working in the [cabinet|e] for #Y 10#! years.",
-  "uk": "[Concept('character','персонаж')|e] прийме контроль над обороною цільової області і буде нездатний вести [Concept('armies','армії')|e] та [Concept('navies','флоти')|e] і працювати в [Concept('cabinet','кабінет')|e] протягом #Y 10#! років."
+  "uk": "[Concept('character','персонаж')|e] прийме контроль над обороною цільової області і буде нездатний вести [Concept('armies','армії')|e] та [Concept('navies','флоти')|e] і працювати в [Concept('cabinet','раді')|e] протягом #Y 10#! років."
  },
  "assume_fort_command_desc_specific": {
   "en": "[SCOPE.sCharacter('recipient').GetName] assumes control over the defenses of the target area, making [SCOPE.sCharacter('recipient').GetHimHer] incapable of leading [armies|e] and [navies|e] and working in the [cabinet|e] for #Y 10#! years.",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] приймає контроль над обороною цільової області, що робить [SCOPE.sCharacter('recipient').GetHimHer] нездатним вести [Concept('armies','армії')|e] та [Concept('navies','флоти')|e] і працювати в [Concept('cabinet','кабінет')|e] протягом #Y 10#! років."
+  "uk": "[SCOPE.sCharacter('recipient').GetName] приймає контроль над обороною цільової області, що робить [SCOPE.sCharacter('recipient').GetHimHer] нездатним вести [Concept('armies','армії')|e] та [Concept('navies','флоти')|e] і працювати в [Concept('cabinet','раді')|e] протягом #Y 10#! років."
  },
  "assume_fort_command_past": {
   "en": "[SCOPE.sCharacter('recipient').GetName] assumes Areal Defense",
@@ -185,7 +185,7 @@
  },
  "assume_fort_command_tt": {
   "en": "The target [area|e] gains the [ShowModifier('assume_fort_command_modifier')] for #Y 10 years#!\\nThe effect scales with the administrative [ability|e] of [SCOPE.sCharacter('recipient').GetName]",
-  "uk": "Цільова [Concept('area','область')|e] отримує [ShowModifier('assume_fort_command_modifier')] на #Y 10 років#!\\nЕфект масштабується з адміністративною [Concept('ability','здібність')|e] [SCOPE.sCharacter('recipient').GetName]"
+  "uk": "Цільова [Concept('area','область')|e] отримує [ShowModifier('assume_fort_command_modifier')] на #Y 10 років#!\\nЕфект масштабується з адміністративною [Concept('ability','навичкою')|e] [SCOPE.sCharacter('recipient').GetName]"
  },
  "banish_character": {
   "en": "Banish",
@@ -205,7 +205,7 @@
  },
  "banish_character_desc": {
   "en": "The [character|e] will be banished from the [country|e].",
-  "uk": "[Concept('character','персонаж')|e] буде вигнаний з [Concept('country','країна')|e]."
+  "uk": "[Concept('character','персонаж')|e] буде вигнаний з [Concept('country','держави')|e]."
  },
  "banish_character_desc_specific": {
   "en": "[SCOPE.sCharacter('recipient').GetName] will be banished from [SCOPE.sCountry('actor').GetName].",
@@ -225,7 +225,7 @@
  },
  "burghers_estate_head_of_cabinet_influence_effect_tt": {
   "en": "Due to the estate of [SCOPE.sCharacter('recipient').GetName], we gain the following effects until the [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] leaves the [cabinet|e]:\\n[ShowModifierEffect('burghers_estate_head_of_cabinet_influence')]",
-  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','кабінет')|e]:\\n[ShowModifierEffect('burghers_estate_head_of_cabinet_influence')]"
+  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','раду')|e]:\\n[ShowModifierEffect('burghers_estate_head_of_cabinet_influence')]"
  },
  "character_can_join_order_of_chivalry_tt": {
   "en": "[SCOPE.sCharacter('recipient').GetName] can join an available #Y Order of Chivalry#!",
@@ -253,11 +253,11 @@
  },
  "choose_theologian_duelist_desc": {
   "en": "The [character|e] will represent the [country|e] in the religious debate and influence its religious fate.",
-  "uk": "[Concept('character','персонаж')|e] представлятиме [Concept('country','країна')|e] у релігійних дебатах і вплине на її релігійну долю."
+  "uk": "[Concept('character','персонаж')|e] представлятиме [Concept('country','державу')|e] у релігійних дебатах і вплине на її релігійну долю."
  },
  "choose_theologian_duelist_desc_specific": {
   "en": "[recipient.GetName] will represent us in the religious debate ahead of us. [recipient.GetHerHis|U] [ability|e] will decide the religious fate of our country. ([recipient.GetTotalAbility])",
-  "uk": "[recipient.GetName] представлятиме нас у релігійних дебатах надалі. [recipient.GetHerHis|U] [Concept('ability','здібність')|e] вирішить релігійну долю нашої країни. ([recipient.GetTotalAbility])"
+  "uk": "[recipient.GetName] представлятиме нас у релігійних дебатах надалі. [recipient.GetHerHis|U] [Concept('ability','навичка')|e] вирішить релігійну долю нашої держави. ([recipient.GetTotalAbility])"
  },
  "choose_theologian_duelist_past": {
   "en": "[recipient.GetName] Chosen",
@@ -265,7 +265,7 @@
  },
  "clergy_estate_head_of_cabinet_influence_effect_tt": {
   "en": "Due to the estate of [SCOPE.sCharacter('recipient').GetName], we gain the following effects until the [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] leaves the [cabinet|e]:\\n[ShowModifierEffect('clergy_estate_head_of_cabinet_influence')]",
-  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','кабінет')|e]:\\n[ShowModifierEffect('clergy_estate_head_of_cabinet_influence')]"
+  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','раду')|e]:\\n[ShowModifierEffect('clergy_estate_head_of_cabinet_influence')]"
  },
  "commission_art": {
   "en": "Commission Art",
@@ -345,7 +345,7 @@
  },
  "dismiss_prince_desc": {
   "en": "The [character|e] will be dismissed as [ruler|e] of the [country|e].",
-  "uk": "[Concept('character','персонаж')|e] буде звільнений як [Concept('ruler','правитель')|e] [Concept('country','країна')|e]."
+  "uk": "[Concept('character','персонаж')|e] буде звільнений як [Concept('ruler','правитель')|e] [Concept('country','держави')|e]."
  },
  "dismiss_prince_desc_specific": {
   "en": "[SCOPE.sCharacter('recipient').GetName] will be dismissed as [ruler|e] of [SCOPE.sCountry('actor').GetName].\\n#italic This action costs no [republican_tradition|e] if we have less than 0 [stability|e]#!.",
@@ -481,19 +481,19 @@
  },
  "grant_cabinet_right_act_past": {
   "en": "[recipient.GetName] has been granted the right to serve [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] in the [cabinet|e].",
-  "uk": "[recipient.GetName] отримав право служити [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] в [Concept('cabinet','кабінет')|e]."
+  "uk": "[recipient.GetName] отримав право служити [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] в [Concept('cabinet','раді')|e]."
  },
  "grant_cabinet_right_concept": {
   "en": "[cabinet|e]",
-  "uk": "[Concept('cabinet','кабінет')|e]"
+  "uk": "[Concept('cabinet','Рада')|e]"
  },
  "grant_cabinet_right_desc": {
   "en": "The [character|e] gains the right to serve their ruler in the [cabinet|e].",
-  "uk": "[Concept('character','персонаж')|e] отримує право служити своєму правителю в [Concept('cabinet','кабінет')|e]."
+  "uk": "[Concept('character','персонаж')|e] отримує право служити своєму правителю в [Concept('cabinet','раді')|e]."
  },
  "grant_cabinet_right_desc_specific": {
   "en": "[recipient.GetName] gains the right to serve [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] in the [cabinet|e].",
-  "uk": "[recipient.GetName] отримує право служити [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] в [Concept('cabinet','кабінет')|e]."
+  "uk": "[recipient.GetName] отримує право служити [recipient.GetHerHis] [actor.GetGovernment.GetRulerTitle] в [Concept('cabinet','раді')|e]."
  },
  "grant_cabinet_right_past": {
   "en": "Cabinet Right granted to [recipient.GetName]",
@@ -501,7 +501,7 @@
  },
  "head_of_cabinet_influence_desc": {
   "en": "they leave the [cabinet|e]",
-  "uk": "вони залишають [Concept('cabinet','кабінет')|e]"
+  "uk": "вони залишають [Concept('cabinet','раду')|e]"
  },
  "head_of_cabinet_influence_effect_tt": {
   "en": "Due to the character being part of the [ESTATE.GetName], the following effects will happen:",
@@ -601,7 +601,7 @@
  },
  "make_regent_ruler_desc": {
   "en": "The [character|e] will become the new [ruler|e] of the [country|e].",
-  "uk": "[Concept('character','персонаж')|e] стане новим [Concept('ruler','правитель')|e] [Concept('country','країна')|e]."
+  "uk": "[Concept('character','персонаж')|e] стане новим [Concept('ruler','правителем')|e] [Concept('country','держави')|e]."
  },
  "make_regent_ruler_desc_specific": {
   "en": "Give [SCOPE.sCharacter('recipient').GetName] the throne of [SCOPE.sCountry('actor').GetLongName], so that they become the [SCOPE.sCountry('actor').GetGovernment.GetPossibleRulerTitle(SCOPE.sCharacter('recipient'),'(bool)no')].",
@@ -649,7 +649,7 @@
  },
  "marry_noble_act_past": {
   "en": "A marriage with a noble for [SCOPE.sCharacter('recipient').GetName], is a beneficial way for our [country|e] to ensure a succession without foreign influence!",
-  "uk": "Шлюб з дворянином для [SCOPE.sCharacter('recipient').GetName] - це вигідний спосіб для нашої [Concept('country','країна')|e] забезпечити спадкоємність без іноземного впливу!"
+  "uk": "Шлюб з дворянином для [SCOPE.sCharacter('recipient').GetName] - це вигідний спосіб для нашої [Concept('country','держави')|e] забезпечити спадкоємність без іноземного впливу!"
  },
  "marry_noble_concept": {
   "en": "[marriage|E]",
@@ -681,7 +681,7 @@
  },
  "move_child_to_court_act_past": {
   "en": "[SCOPE.sCharacter('recipient').GetName] moved to our [country|e]. This is so the education of [SCOPE.sCharacter('recipient').GetName] is firmly in our control.",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] переміститься до нашої [Concept('country','країна')|e]. Це для того, щоб освіта [SCOPE.sCharacter('recipient').GetName] була твердо під нашим контролем."
+  "uk": "[SCOPE.sCharacter('recipient').GetName] переміститься до нашої [Concept('country','держави')|e]. Це для того, щоб освіта [SCOPE.sCharacter('recipient').GetName] була твердо під нашим контролем."
  },
  "move_child_to_court_concept": {
   "en": "[character|e]",
@@ -689,11 +689,11 @@
  },
  "move_child_to_court_desc": {
   "en": "The [character|e] will move to our [country|e].",
-  "uk": "[Concept('character','персонаж')|e] переміститься до нашої [Concept('country','країна')|e]."
+  "uk": "[Concept('character','персонаж')|e] переміститься до нашої [Concept('country','держави')|e]."
  },
  "move_child_to_court_desc_specific": {
   "en": "[SCOPE.sCharacter('recipient').GetName] will move to our [country|e].",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] переміститься до нашої [Concept('country','країна')|e]."
+  "uk": "[SCOPE.sCharacter('recipient').GetName] переміститься до нашої [Concept('country','держави')|e]."
  },
  "move_child_to_court_past": {
   "en": "Child joins our Court",
@@ -701,7 +701,7 @@
  },
  "nobles_estate_head_of_cabinet_influence_effect_tt": {
   "en": "Due to the estate of [SCOPE.sCharacter('recipient').GetName], we gain the following effects until the [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] leaves the [cabinet|e]:\\n[ShowModifierEffect('nobles_estate_head_of_cabinet_influence')]",
-  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','кабінет')|e]:\\n[ShowModifierEffect('nobles_estate_head_of_cabinet_influence')]"
+  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','раду')|e]:\\n[ShowModifierEffect('nobles_estate_head_of_cabinet_influence')]"
  },
  "order_of_chivalry_country_cooldown": {
   "en": "No other [character|e] has joined an #Y Order of Chivalry#! in the last #Y 10 years#!.",
@@ -725,11 +725,11 @@
  },
  "pap_reassign_cleric_desc": {
   "en": "The [character|e] will leave our [country|e] and take up an assignment in another one. The character's [total_ability|e] will affect the cost and the [mil|e] will affect how much [spy_network|e] we gain in the new country.",
-  "uk": "[Concept('character','персонаж')|e] залишить нашу [Concept('country','країна')|e] і візьме призначення в іншій. [Concept('total_ability','загальна здібність')|e] персонажа вплине на вартість, а [Concept('mil','військова здібність')|e] вплине на те, скільки [Concept('spy_network','шпигунська мережа')|e] ми отримаємо в новій країні."
+  "uk": "[Concept('character','персонаж')|e] залишить нашу [Concept('country','державу')|e] і візьме призначення в іншій. [Concept('total_ability','Сума навичок')|e] персонажа вплине на вартість, а [Concept('mil','військова навичка')|e] вплине на те, скільки [Concept('spy_network','шпигунської мережі')|e] ми отримаємо в новій державі."
  },
  "pap_reassign_cleric_desc_specific": {
   "en": "Due to our primacy over all [ShowReligionAdjective('catholic')] clergymen, we can force [recipient.GetName] to leave [recipient.GetCourtCountry.GetName] and take up an assignment in another [country|e]. The cost will be proportionate to [recipient.GetHisHer] [total_ability|e]. We also gain [spy_network|e] in the new [country] proportional to [recipient.GetHisHer] [mil|e].",
-  "uk": "Завдяки нашому пріоритету над усіма [ShowReligionAdjective('catholic')] священнослужителями, ми можемо змусити [recipient.GetName] залишити [recipient.GetCourtCountry.GetName] і взяти призначення в іншій [Concept('country','країна')|e]. Вартість буде пропорційна [recipient.GetHisHer] [Concept('total_ability','загальна здібність')|e]. Ми також отримуємо [Concept('spy_network','шпигунська мережа')|e] у новій [Concept('country','країна')|e] пропорційно [recipient.GetHisHer] [Concept('mil','військова здібність')|e]."
+  "uk": "Завдяки нашому пріоритету над усіма [ShowReligionAdjective('catholic')] священнослужителями, ми можемо змусити [recipient.GetName] залишити [recipient.GetCourtCountry.GetName] і взяти призначення в іншій [Concept('country','державі')|e]. Вартість буде пропорційна [recipient.GetHisHer] [Concept('total_ability','сумі навичок')|e]. Ми також отримуємо [Concept('spy_network','шпигунську мережу')|e] у новій [Concept('country','державі')|e] пропорційно [recipient.GetHisHer] [Concept('mil','військовій навичці')|e]."
  },
  "pap_reassign_cleric_past": {
   "en": "[recipient.GetNameWithNoTooltip] Reassigned",
@@ -769,7 +769,7 @@
  },
  "peasants_estate_head_of_cabinet_influence_effect_tt": {
   "en": "Due to the estate of [SCOPE.sCharacter('recipient').GetName], we gain the following effects until the [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] leaves the [cabinet|e]:\\n[ShowModifierEffect('peasants_estate_head_of_cabinet_influence')]",
-  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','кабінет')|e]:\\n[ShowModifierEffect('peasants_estate_head_of_cabinet_influence')]"
+  "uk": "Через належність [SCOPE.sCharacter('recipient').GetName] до стану, ми отримуємо такі ефекти, поки [SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] не залишить [Concept('cabinet','раду')|e]:\\n[ShowModifierEffect('peasants_estate_head_of_cabinet_influence')]"
  },
  "prefection": {
   "en": "Prefection",
@@ -781,7 +781,7 @@
  },
  "prefection_act_past": {
   "en": "[SCOPE.sCharacter('recipient').GetName] is now eligible as an heir for a few [heir_selections|e] and niche [character_interactions|e].",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] тепер має право бути спадкоємцем для кількох [Concept('heir_selections','вибори спадкоємця')|e] і нішевих [Concept('character_interactions','взаємодії персонажів')|e]."
+  "uk": "[SCOPE.sCharacter('recipient').GetName] тепер має право бути спадкоємцем для кількох [Concept('heir_selections','законів престолонаслідування')|e] і нішевих [Concept('character_interactions','взаємодій з персонажем')|e]."
  },
  "prefection_common_desc": {
   "en": "will be promoted to the status of #italic praefecta#!—a [legal_male|e]—allowing her to be an eligible [heir|e] under certain conditions and granting access to niche interactions which are limited to male characters.",
@@ -813,15 +813,15 @@
  },
  "promote_to_head_of_cabinet_act_past": {
   "en": "[SCOPE.sCharacter('recipient').GetName] has been promoted to [head_of_the_cabinet|e] until [SCOPE.sCharacter('recipient').GetHisHer] death or removal from the [cabinet|e].",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] був підвищений до [Concept('head_of_the_cabinet','голова кабінету')|e] до [SCOPE.sCharacter('recipient').GetHisHer] смерті або видалення з [Concept('cabinet','кабінет')|e]."
+  "uk": "[SCOPE.sCharacter('recipient').GetName] був підвищений до [Concept('head_of_the_cabinet','глави ради')|e] до [SCOPE.sCharacter('recipient').GetHisHer] смерті або видалення з [Concept('cabinet','ради')|e]."
  },
  "promote_to_head_of_cabinet_concept": {
   "en": "[cabinet|e]",
-  "uk": "[Concept('cabinet','кабінет')|e]"
+  "uk": "[Concept('cabinet','рада')|e]"
  },
  "promote_to_head_of_cabinet_desc": {
   "en": "The [character|e] will become [head_of_the_cabinet|e] until death or removal from the [cabinet|e].",
-  "uk": "[Concept('character','персонаж')|e] стане [Concept('head_of_the_cabinet','голова кабінету')|e] до смерті або видалення з [Concept('cabinet','кабінет')|e]."
+  "uk": "[Concept('character','персонаж')|e] стане [Concept('head_of_the_cabinet','главою ради')|e] до смерті або видалення з [Concept('cabinet','ради')|e]."
  },
  "promote_to_head_of_cabinet_desc_specific": {
   "en": "[SCOPE.sCountry('actor').GetGovernment.GetCabinetMemberTitle] [SCOPE.sCharacter('recipient').GetName] becomes [head_of_the_cabinet|e] until [SCOPE.sCharacter('recipient').GetHisHer] death or removal from the [cabinet|e].",
@@ -829,7 +829,7 @@
  },
  "promote_to_head_of_cabinet_effect_tt": {
   "en": "[SCOPE.sCharacter('recipient').GetName] gets [ShowModifier('head_of_the_cabinet_modifier')] as long as [SCOPE.sCharacter('recipient').GetHeShe] works in the [cabinet|e]",
-  "uk": "[SCOPE.sCharacter('recipient').GetName] отримує [ShowModifier('head_of_the_cabinet_modifier')], поки [SCOPE.sCharacter('recipient').GetHeShe] працює в [Concept('cabinet','кабінет')|e]"
+  "uk": "[SCOPE.sCharacter('recipient').GetName] отримує [ShowModifier('head_of_the_cabinet_modifier')], поки [SCOPE.sCharacter('recipient').GetHeShe] працює в [Concept('cabinet','раді')|e]"
  },
  "promote_to_head_of_cabinet_past": {
   "en": "[SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] Promoted",
@@ -837,7 +837,7 @@
  },
  "promote_to_head_of_cabinet_timer": {
   "en": "Has served the [cabinet|e] for #Y 10 years#!",
-  "uk": "Служив у [Concept('cabinet','кабінет')|e] протягом #Y 10 років#!"
+  "uk": "Служив у [Concept('cabinet','раді')|e] протягом #Y 10 років#!"
  },
  "resign_as_grand_master": {
   "en": "Resign as Grandmaster",
@@ -857,7 +857,7 @@
  },
  "resign_as_grand_master_desc": {
   "en": "The [character|e] will resign as [ruler|e] of the [country|e].",
-  "uk": "[Concept('character','персонаж')|e] зречеться як [Concept('ruler','правитель')|e] [Concept('country','країна')|e]."
+  "uk": "[Concept('character','персонаж')|e] зречеться як [Concept('ruler','правитель')|e] [Concept('country','держави')|e]."
  },
  "resign_as_grand_master_desc_specific": {
   "en": "[SCOPE.sCharacter('recipient').GetName] will resign as [ruler|e] of [SCOPE.sCountry('actor').GetName].",
@@ -945,7 +945,7 @@
  },
  "tim_educational_governor_effects_tt": {
   "en": "Establish [SCOPE.sCharacter('recipient').GetName] as a [target_reform.GetName] in the [area|e]. This will ensure that [SCOPE.sCharacter('recipient').GetSheHe] will gain more [total_ability|e] from [events|e], but the [area|e] may lose [development|e] and [prosperity|e] in the process.\\n\\nThe [area|e] may be inherited after [SCOPE.sCharacter('recipient').GetName] has governed the [area|e] for #Y 10#! years, or [SCOPE.sCharacter('recipient').GetSheHe] could become a [ShowGovernmentReformName('soyurghal_governor_effective_governor_reform')].",
-  "uk": "Призначити [SCOPE.sCharacter('recipient').GetName] як [target_reform.GetName] в [Concept('area','область')|e]. Це забезпечить те, що [SCOPE.sCharacter('recipient').GetSheHe] отримуватиме більше [Concept('total_ability','загальна здібність')|e] з [Concept('events','події')|e], але [Concept('area','область')|e] може втратити [Concept('development','розвиток')|e] та [Concept('prosperity','процвітання')|e] в процесі.\\n\\n[Concept('area','область')|e] може бути успадкована після того, як [SCOPE.sCharacter('recipient').GetName] управлятиме [Concept('area','область')|e] протягом #Y 10#! років, або [SCOPE.sCharacter('recipient').GetSheHe] може стати [ShowGovernmentReformName('soyurghal_governor_effective_governor_reform')]."
+  "uk": "Призначити [SCOPE.sCharacter('recipient').GetName] як [target_reform.GetName] в [Concept('area','область')|e]. Це забезпечить те, що [SCOPE.sCharacter('recipient').GetSheHe] отримуватиме більше [Concept('total_ability','суми навичок')|e] з [Concept('events','події')|e], але [Concept('area','область')|e] може втратити [Concept('development','розвиток')|e] та [Concept('prosperity','процвітання')|e] в процесі.\\n\\n[Concept('area','область')|e] може бути успадкована після того, як [SCOPE.sCharacter('recipient').GetName] управлятиме [Concept('area','область')|e] протягом #Y 10#! років, або [SCOPE.sCharacter('recipient').GetSheHe] може стати [ShowGovernmentReformName('soyurghal_governor_effective_governor_reform')]."
  },
  "tim_is_related_to_ruler_tt": {
   "en": "The [character|e] is related to our [ruler|e]",
@@ -953,7 +953,7 @@
  },
  "tim_normal_governor_effects_tt": {
   "en": "Establish [SCOPE.sCharacter('recipient').GetName] as a [target_reform.GetName] in the [area|e]. This will ensure that [SCOPE.sCharacter('recipient').GetSheHe] will gain positive [events|e] that will increase the [prosperity|e] and [development|e] of the [area|e] depending on the [total_ability|e] of the [character|e].\\n\\nThe [area|e] will be annexed by us after the death of [SCOPE.sCharacter('recipient').GetName].",
-  "uk": "Призначити [SCOPE.sCharacter('recipient').GetName] як [target_reform.GetName] в [Concept('area','область')|e]. Це забезпечить те, що [SCOPE.sCharacter('recipient').GetSheHe] отримуватиме позитивні [Concept('events','події')|e], які збільшать [Concept('prosperity','процвітання')|e] та [Concept('development','розвиток')|e] [Concept('area','область')|e] залежно від [Concept('total_ability','загальна здібність')|e] [Concept('character','персонаж')|e].\\n\\n[Concept('area','область')|e] буде анексована нами після смерті [SCOPE.sCharacter('recipient').GetName]."
+  "uk": "Призначити [SCOPE.sCharacter('recipient').GetName] як [target_reform.GetName] в [Concept('area','область')|e]. Це забезпечить те, що [SCOPE.sCharacter('recipient').GetSheHe] отримуватиме позитивні [Concept('events','події')|e], які збільшать [Concept('prosperity','процвітання')|e] та [Concept('development','розвиток')|e] [Concept('area','області')|e] залежно від [Concept('total_ability','суми навичок')|e] [Concept('character','персонажа')|e].\\n\\n[Concept('area','область')|e] буде анексована нами після смерті [SCOPE.sCharacter('recipient').GetName]."
  },
  "tribal_arrange_marriage": {
   "en": "Arrange Marriage",

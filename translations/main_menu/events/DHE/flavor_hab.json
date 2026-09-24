@@ -129,7 +129,7 @@
  },
  "flavor_hab.1000.desc": {
   "en": "As the prime protector of the [GetUniqueInternationalOrganization('hre').GetName] from the south-eastern threats, the [ROOT.GetCountry.GetLongName] deserves to be elevated to the highest standing in the Empire! [GetCharacter('ogk_friedrich_i_hohenstaufen').GetName] granted #italic Privilegium minus#! to our predecessors, securing our independence from $BAV$ and granting us the title of [ROOT.GetCountry.GetFlavorRank].\\n\\nNow it is time to put additional pressure on [target_emperor.GetName] to expand those privileges, elevating us close to the status of [ShowSpecialStatusName('elector')]. There are skillful people in our [ROOT.GetCountry.GetGovernment.GetCourtTitle] that could be employed to forge a new document that could force [target_emperor.GetNameWithNoTooltip] to recognize our position.",
-  "uk": "[ROOT.GetCountry.GetLongName] — головний захисник #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! від загрози з південного сходу й заслуговує на особливе становище. [GetCharacter('ogk_friedrich_i_hohenstaufen').GetName] надав нашим предкам #italic Privilegium Minus#!, підтвердивши нашу незалежність від баварської корони та пожалувавши нам титул [ROOT.GetCountry.Custom('CF_RP')|l].\\n\\nЯкщо ми будемо досить переконливими, [target_emperor.GetName] може розширити ці привілеї, наблизивши нас до статусу #TOOLTIP:SPECIAL_STATUS,elector_tt,X #L князя-виборця#!#!. При нашому дворі є вправні майстри, здатні підробити документи, на підставі яких [target_emperor.GetNameWithNoTooltip] визнає наші права."
+  "uk": "[ROOT.GetCountry.GetLongName] — головний захисник #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! від загрози з південного сходу й заслуговує на особливе становище. [GetCharacter('ogk_friedrich_i_hohenstaufen').GetName] надав нашим предкам #italic Privilegium Minus#!, підтвердивши нашу незалежність від баварської корони та пожалувавши нам титул [ROOT.GetCountry.Custom('CF_RP')|l].\\n\\nЯкщо ми будемо досить переконливими, [target_emperor.GetName] може розширити ці привілеї, наблизивши нас до статусу #TOOLTIP:SPECIAL_STATUS,elector_tt,X #L курфюрста#!#!. При нашому дворі є вправні майстри, здатні підробити документи, на підставі яких [target_emperor.GetNameWithNoTooltip] визнає наші права."
  },
  "flavor_hab.1000.entry": {
   "en": "$flavor_hab.1000.title$",
@@ -385,7 +385,7 @@
  },
  "flavor_hab.11.desc": {
   "en": "[target_ruler.GetName] has been chosen as the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. [target_ruler.GetHisHer|U] election came to no surprise, considering [target_ruler.GetHisHer] talent in establishing diplomatic ties to the electors of the [GetUniqueInternationalOrganization('hre').GetName]. [target_ruler.GetHisHer|U] ambition and desire to win the election was already displayed in [target_ruler.GetHisHer] earlier chosen motto #italic Amor Electis, Iniustis Ordinor Ultor#!, which [target_ruler.GetHeShe] abbreviated to AEIOU in [target_ruler.GetHisHer] signatures.",
-  "uk": "Вибори завершилися, і відтепер [target_ruler.GetName] — [Select_CString(target_ruler.IsFemale,'законна', 'законний')] [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l]. Втім, [Select_CString(target_ruler.IsFemale,'її', 'його')] обрання не стало ні для кого несподіванкою, оскільки [Select_CString(target_ruler.IsFemale,'вона відома', 'він відомий')] своїм умінням вибудовувати відносини з виборцями #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської імперії#!#!. Більш того, [Select_CString(target_ruler.IsFemale,'вона', 'він')] з самого початку [Select_CString(target_ruler.IsFemale,'заявила', 'заявив')] про намір перемогти, обравши своїм девізом #italic «Amor Electis, Iniustis Ordinor Ultor»#!, що означає «любимий обраними, страшний для неправедних». Тепер же [target_ruler.GetShortNameWithNoTooltip] використовує абревіатуру AEIOU як свій підпис."
+  "uk": "Вибори завершилися, і відтепер [target_ruler.GetName] — [Select_CString(target_ruler.IsFemale,'законна', 'законний')] [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l]. Втім, [Select_CString(target_ruler.IsFemale,'її', 'його')] обрання не стало ні для кого несподіванкою, оскільки [Select_CString(target_ruler.IsFemale,'вона відома', 'він відомий')] своїм умінням вибудовувати відносини з курфюрстами #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_tt,X #L Священної Римської імперії#!#!. Більш того, [Select_CString(target_ruler.IsFemale,'вона', 'він')] з самого початку [Select_CString(target_ruler.IsFemale,'заявила', 'заявив')] про намір перемогти, обравши своїм девізом #italic «Amor Electis, Iniustis Ordinor Ultor»#!, що означає «любимий обраними, страшний для неправедних». Тепер же [target_ruler.GetShortNameWithNoTooltip] використовує абревіатуру AEIOU як свій підпис."
  },
  "flavor_hab.11.entry": {
   "en": "$flavor_hab.11.title$",
@@ -525,7 +525,7 @@
  },
  "flavor_hab.1202.a.tt": {
   "en": "Every [location|e] with a mining [raw_material|e] gains [ShowModifier('schladming_bergordnung')].",
-  "uk": "Кожен [Concept('location', 'район')|e], де видобуваються копалини [Concept('raw_material', 'ресурси')|e], отримує модифікатор «[ShowModifier('schladming_bergordnung')]»."
+  "uk": "Кожен [Concept('location', 'район')|e], де видобувається [Concept('raw_material', 'сировина')|e] з копалин, отримує модифікатор «[ShowModifier('schladming_bergordnung')]»."
  },
  "flavor_hab.1202.b": {
   "en": "We do not need his help.",
@@ -985,7 +985,7 @@
  },
  "flavor_hab.1603.historical_info": {
   "en": "After the defeat of the Schmalkaldic League in the battle of Mühlberg, Emperor Charles V worked toward restoring the religious unity of the Holy Roman Empire. On the Imperial Diet of Augsburg of 1548, he enforced the Augsburg Interim on the imperial estates, which should govern the religious policy of the Empire until a general council of the Catholic Church could be concluded. The Augsburg Interim primarily reflected a Catholic viewpoint; however, it did allow clerical marriage and communion in both kinds (bread and wine) for the laity. Several Protestant electors objected to the Catholic emphasis of the Augsburg Interim and refused to abide by it. Charles attempted to force its acceptance, an action that led the Protestants to adopt the Leipzig Interim, which upheld Protestant doctrines, at a subsequent Diet. Neither Interim was fully accepted so a German religious settlement was not brought about until the Peace of Augsburg in 1555, which established the principle #italic Cuius regio, eius religio#!, 'whose realm, their religion', dictating that the religion of each ruler would then be enforced for their subjects.",
-  "uk": "Після поразки Шмалькальденського союзу в битві при Мюльберзі імператор Карл V розпочав роботу над відновленням релігійної єдності Священної Римської Імперії. На Аугсбурзькому рейхстазі 1548 року він видав Аугсбурзьку тимчасову постанову, яка мала регулювати релігійну політику імперії до проведення загального собору католицької церкви. Вона дозволяла шлюби для духовенства й обидва види причастя (хліб і вино) для мирян, але через те, що вона відображала переважно католицьку точку зору, кілька протестантських виборців відмовилися її прийняти. Карл спробував примусити їх до цього, тому протестанти згодом прийняли Лейпцизьку тимчасову постанову, що відображала їхні власні погляди. Оскільки обидві постанови не були прийняті всіма сторонами, релігійну єдність імперії було відновлено лише в 1555 році з укладенням Аугсбурзького миру, який проголосив принцип #italic Cuius regio, eius religio#! (лат. «чия земля, того й віра»). Згідно з цим принципом, віросповідання кожного правителя поширювалося на його підданих."
+  "uk": "Після поразки Шмалькальденського союзу в битві при Мюльберзі імператор Карл V розпочав роботу над відновленням релігійної єдності Священної Римської Імперії. На Аугсбурзькому рейхстазі 1548 року він видав Аугсбурзьку тимчасову постанову, яка мала регулювати релігійну політику імперії до проведення загального собору католицької церкви. Вона дозволяла шлюби для духовенства й обидва види причастя (хліб і вино) для мирян, але через те, що вона відображала переважно католицьку точку зору, кілька протестантських курфюрстів відмовилися її прийняти. Карл спробував примусити їх до цього, тому протестанти згодом прийняли Лейпцизьку тимчасову постанову, що відображала їхні власні погляди. Оскільки обидві постанови не були прийняті всіма сторонами, релігійну єдність імперії було відновлено лише в 1555 році з укладенням Аугсбурзького миру, який проголосив принцип #italic Cuius regio, eius religio#! (лат. «чия земля, того й віра»). Згідно з цим принципом, віросповідання кожного правителя поширювалося на його підданих."
  },
  "flavor_hab.1603.title": {
   "en": "Strife in the [GetInternationalOrganization('hre').GetNameWithNoTooltip]",
@@ -2369,7 +2369,7 @@
  },
  "flavor_hab.37.desc": {
   "en": "The creation of the Electoral College has made the Imperial election more complex, as we now need to actively court the favor of individual electors through diplomacy, alliances, privileges, grants of land, and many other concessions. Despite the formalization of the Electoral election process via the recently passed Golden Bull, [austria_first_emperor.GetName] has managed to reclaim the imperial crown of the [GetUniqueInternationalOrganization('hre').GetName]. This monumental occasion cements [ROOT.GetCountry.GetAdjective] position as a dominant force in [ShowContinentName('europe')] and ushers in a new era of prestige and influence for our dynasty.",
-  "uk": "Створення колегії виборців ускладнило проведення імперських виборів. Тепер нам потрібно домагатися прихильності виборців, використовуючи всі доступні засоби: дипломатію, союзи, земельні пожалування тощо. Попри прийняття «Золотої булли», де чітко прописані нові виборчі норми, [austria_first_emperor.GetName] все ж зміг повернути собі корону #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!. Ця знакова подія закріплює за [ROOT.GetCountry.Custom('CL_INST')] статус головної сили #TOOLTIP:CONTINENT,europe,X #L Європи#!#! і значно підвищує вплив та престиж нашої династії."
+  "uk": "Створення колегії курфюрстів ускладнило проведення імперських виборів. Тепер нам потрібно домагатися прихильності курфюрстів, використовуючи всі доступні засоби: дипломатію, союзи, земельні пожалування тощо. Попри прийняття «Золотої булли», де чітко прописані нові виборчі норми, [austria_first_emperor.GetName] все ж зміг повернути собі корону #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!. Ця знакова подія закріплює за [ROOT.GetCountry.Custom('CL_INST')] статус головної сили #TOOLTIP:CONTINENT,europe,X #L Європи#!#! і значно підвищує вплив та престиж нашої династії."
  },
  "flavor_hab.37.entry": {
   "en": "$flavor_hab.37.title$",
@@ -2377,11 +2377,11 @@
  },
  "flavor_hab.37.historical_info": {
   "en": "The Habsburgs maintained their near-continuous hold on the Holy Roman Emperor's throne from 1438 to the Empire's dissolution in 1806 by skillfully managing the Electoral College. Through strategic marriages, territorial acquisitions, and alliances, the Habsburgs amassed immense wealth and political influence, allowing them to offer substantial financial incentives or political favors to secure votes.",
-  "uk": "З 1438 року до розпаду Священної Римської Імперії в 1806 році Габсбурги майже безперервно займали її престол, майстерно маніпулюючи колегією виборців. Завдяки стратегічним шлюбам, новим землям і союзам вони здобули величезне багатство й політичний вплив, що дозволило їм підкуповувати виборців: як грошима, так і обіцянками політичних привілеїв."
+  "uk": "З 1438 року до розпаду Священної Римської Імперії в 1806 році Габсбурги майже безперервно займали її престол, майстерно маніпулюючи колегією курфюрстів. Завдяки стратегічним шлюбам, новим землям і союзам вони здобули величезне багатство й політичний вплив, що дозволило їм підкуповувати курфюрстів: як грошима, так і обіцянками політичних привілеїв."
  },
  "flavor_hab.37.title": {
   "en": "The Electoral College Reaffirms [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Emperorship",
-  "uk": "Колегія виборців затверджує право [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ого претендента на імперський престол"
+  "uk": "Колегія курфюрстів затверджує право [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ого претендента на імперський престол"
  },
  "flavor_hab.38.a": {
   "en": "This tomb will inspire generations to come!",
@@ -2889,7 +2889,7 @@
  },
  "flavor_hab.57.b.tt": {
   "en": "All [ShowPopTypeName('peasants')] in [ShowAreaName('tirol_area')] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [tirolean_rebel.GetName]",
-  "uk": "Усі [ShowPopTypeName('peasants')|l] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e] та підтримають заколотників «[tirolean_rebel.GetName]»"
+  "uk": "Усі [ShowPopTypeName('peasants')|l] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e] та підтримають повстанців «[tirolean_rebel.GetName]»"
  },
  "flavor_hab.57.c": {
   "en": "We must concede - they are too powerful.",
@@ -3385,7 +3385,7 @@
  },
  "flavor_hab.78.a.tt": {
   "en": "All [pops|e] in [ShowAreaName('tirol_area')] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]"
+  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
  },
  "flavor_hab.78.b": {
   "en": "Let the parliament continue its work.",
@@ -3393,7 +3393,7 @@
  },
  "flavor_hab.78.b.tt": {
   "en": "All [pops|e] in [ShowAreaName('tirol_area')] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [Concept('pop_satisfaction','вдоволення')|e]"
+  "uk": "Усі [Concept('pops','групи населення')|e] в #TOOLTIP:AREA,tirol_area,X #L Тіролі та Трентіно#!#! отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [Concept('pop_satisfaction','задоволення')|e]"
  },
  "flavor_hab.78.desc": {
   "en": "The local parliament in [ShowAreaName('tirol_area')] has long served as a regional governing body, representing the estates of the land and safeguarding local privileges. However, in recent years, it has increasingly become a hindrance to our efforts toward centralization and reform. Many within the [ROOT.GetCountry.GetGovernment.GetCourtTitle] argue that its influence undermines the authority of the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')], suggesting it is time to disempower this institution and bring its functions under more direct control.",
@@ -3561,7 +3561,7 @@
  },
  "flavor_hab.84.a.tt": {
   "en": "All [ShowPopTypeName('nobles')] and Protestant [pops|e] in [ShowAreaName('slovakia_area')] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [bocskai_uprising_scope.GetName]",
-  "uk": "Усі [Concept('pops','мешканці')|e] #TOOLTIP:AREA,slovakia_area,X #L Словаччини#!#! з числа #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! та протестантів втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e] й підтримають [bocskai_uprising_scope.GetName]"
+  "uk": "Усі [Concept('pops','групи населення')|e] #TOOLTIP:AREA,slovakia_area,X #L Словаччини#!#! з числа #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! та протестантів втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e] й підтримають [bocskai_uprising_scope.GetName]"
  },
  "flavor_hab.84.b": {
   "en": "We should concede to their demands.",
@@ -3593,7 +3593,7 @@
  },
  "flavor_hab.85.a.tt": {
   "en": "All [ShowPopTypeName('nobles')] and Protestant [pops|e] in [ShowAreaName('slovakia_area')] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [bethlen_uprising_scope.GetName]",
-  "uk": "Усі [Concept('pops','мешканці')|e] #TOOLTIP:AREA,slovakia_area,X #L Словаччини#!#! з числа #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! та протестантів втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e] й підтримають [bethlen_uprising_scope.GetName]."
+  "uk": "Усі [Concept('pops','групи населення')|e] #TOOLTIP:AREA,slovakia_area,X #L Словаччини#!#! з числа #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! та протестантів втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e] й підтримають [bethlen_uprising_scope.GetName]."
  },
  "flavor_hab.85.b": {
   "en": "Negotiate a peace settlement.",
@@ -3625,7 +3625,7 @@
  },
  "flavor_hab.86.a.tt": {
   "en": "All [pops|e] in [ShowAreaName('slovakia_area')] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [rakoczi_uprising_scope.GetName]",
-  "uk": "Усі [Concept('pops','групи населення')|e] у #TOOLTIP:AREA,slovakia_area,X #L Словаччині#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','вдоволення')|e] і підтримають [rakoczi_uprising_scope.GetName]."
+  "uk": "Усі [Concept('pops','групи населення')|e] у #TOOLTIP:AREA,slovakia_area,X #L Словаччині#!#! втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','задоволення')|e] і підтримають [rakoczi_uprising_scope.GetName]."
  },
  "flavor_hab.86.b": {
   "en": "Offer them a compromise.",
@@ -3977,7 +3977,7 @@
  },
  "mailberger_noble_rebels_joining": {
   "en": "All [ShowPopTypeName('nobles')] [pops|e] in [ShowAreaName('austria_area')] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [target_mailberger_noble_rebels.GetName].",
-  "uk": "Усі [Concept('pops', 'жителі')|e]-#TOOLTIP:POPTYPE,nobles,X #L аристократи#!#! в #TOOLTIP:AREA,austria_area,X #L Австрії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення групи населення')|e] і приєднуються до фракції «[target_mailberger_noble_rebels.GetName]»."
+  "uk": "Усі [Concept('pops', 'групи населення')|e] зі стану #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! в #TOOLTIP:AREA,austria_area,X #L Австрії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e] і приєднуються до фракції «[target_mailberger_noble_rebels.GetName]»."
  },
  "rakoczi_uprising": {
   "en": "Rákoczi's War of Independence",
@@ -4001,11 +4001,11 @@
  },
  "styria_noble_rebels": {
   "en": "Styrian Revolt",
-  "uk": "Заколот у Штирії"
+  "uk": "Повстання у Штирії"
  },
  "styria_noble_rebels_joining": {
   "en": "All [ShowPopTypeName('nobles')] [pops|e] in [ShowAreaName('austria_area')] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e] and join [target_styria_noble_rebels.GetName].",
-  "uk": "Усі [Concept('pops', 'групи населення')|e] зі стану #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! в #TOOLTIP:AREA,austria_area,X #L Австрії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e] і приєднуються до фракції «[target_styria_noble_rebels.GetName]»."
+  "uk": "Усі [Concept('pops', 'групи населення')|e] зі стану #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! в #TOOLTIP:AREA,austria_area,X #L Австрії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e] і приєднуються до фракції «[target_styria_noble_rebels.GetName]»."
  },
  "variable_austria_first_emperor_variable_tt": {
   "en": "The First Holy Roman Emperor has Reigned",

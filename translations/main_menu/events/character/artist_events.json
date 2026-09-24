@@ -5,7 +5,7 @@
  },
  "artist_busy_tt": {
   "en": "While [target_character.GetNameWithNoTooltip] works to improve the production of [raw_material|e] in [target_location.GetNameWithNoTooltip] we will #R not#! be able to [ShowCharacterInteractionName('commission_art')] from [target_character.GetHerHim]",
-  "uk": "Поки [target_character.GetNameWithNoTooltip] покращує виробництво [Concept('raw_material','ресурсів')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip], ми не зможемо використовувати з [Select_CString(target_character.IsFemale,'нею','ним')] взаємодію «[ShowCharacterInteractionName('commission_art')]»."
+  "uk": "Поки [target_character.GetNameWithNoTooltip] покращує виробництво [Concept('raw_material','сировини')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip], ми не зможемо використовувати з [Select_CString(target_character.IsFemale,'нею','ним')] взаємодію «[ShowCharacterInteractionName('commission_art')]»."
  },
  "artist_event.6.a": {
   "en": "What words cannot say, art shall express!",
@@ -73,7 +73,7 @@
  },
  "artist_events.12.desc": {
   "en": "Stone often takes marvelous shapes, its white visage adorning our halls. As an ode to power and magnificence, few other [ROOT.GetCountry.GetGovernment.GetAdjective] lines are as enamored with the pale excellence of a well-sculpted statue or bust. Our experience and employment of capable individuals has given rise to many taking up works towards elevating our status and displaying our love for the finest arts.",
-  "uk": "Каменю можна надати будь-якої форми, і наші зали прикрашені найхимернішими білими скульптурами. У світі не так багато #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! держав, настільки ж зачарованих блідою досконалістю майстерно витесаних статуй і бюстів, як ми. Ми сприймаємо скульптуру як вираження величі та могутності. Завдяки нашому багатому досвіду в цьому і здатності підбирати талановитих людей у нас з'явилося багато охочих попрацювати над творінням, спрямованим на підвищення нашого статусу та демонстрацію нашої любові до високого мистецтва."
+  "uk": "Каменю можна надати будь-якої форми, і наші зали прикрашені найхимернішими білими скульптурами. У світі не так багато #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]их#! держав, настільки ж зачарованих блідою досконалістю майстерно витесаних статуй і бюстів, як ми. Ми сприймаємо скульптуру як вираження величі та могутності. Завдяки нашому багатому досвіду в цьому і здатності підбирати талановитих людей у нас з’явилося багато охочих попрацювати над витвором мистецтва, спрямованим на підвищення нашого статусу та демонстрацію нашої любові до високого мистецтва."
  },
  "artist_events.12.title": {
   "en": "A Display of Culture",
@@ -145,7 +145,7 @@
  },
  "artist_events.17.desc": {
   "en": "Day in and day out, our halls are filled with a terrifying mixture of screams, badly played chords, and off-key singing. One might assume we apply the most excruciating torture to our prisoners, but the truth is far more horrid. [target_character.GetName] is composing [target_character.GetHerHis] latest work, unfortunately...",
-  "uk": "Вдень і вночі нашими залами розносяться крижані стогони, погано зіграні акорди і спів повз ноти. Можна подумати, що ми застосовуємо до наших бранців найжорстокіші тортури, однак правда значно страшніша. [target_character.GetName] саме так створює свій черговий музичний шедевр…"
+  "uk": "Вдень і вночі нашими залами розносяться крижані стогони, погано зіграні акорди і спів повз ноти. Можна подумати, що ми застосовуємо до наших полонених найжорстокіші тортури, однак правда значно страшніша. [target_character.GetName] саме так створює свій черговий музичний шедевр…"
  },
  "artist_events.17.title": {
   "en": "Halls of Noise",
@@ -229,7 +229,7 @@
  },
  "artist_events.21.tt": {
   "en": "All our [pops|e] in [target_location.GetName] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e]"
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
  },
  "artist_events.22.a": {
   "en": "[ROOT.GetCountry.Custom('common_string_positive')]",
@@ -413,7 +413,7 @@
  },
  "artist_events.32.tt": {
   "en": "All [ROOT.GetCountry.GetReligion.GetAdjective] [pops|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName], які сповідують [ROOT.GetCountry.GetReligion.GetName|l], отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName], які сповідують [ROOT.GetCountry.GetReligion.GetName|l], отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
  },
  "artist_events.33.a": {
   "en": "We can cover the iconographer's expenses on their behalf.",
@@ -745,7 +745,7 @@
  },
  "artist_events.5.tt": {
   "en": "All our [pops|e] that reside in the [province|e] of our [capital|e] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pops', 'групи населення')|e] в нашій [Concept('capital', 'столичній')|e] [Concept('province', 'провінції')|e] отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
+  "uk": "Усі [Concept('pops', 'групи населення')|e] в нашій [Concept('capital', 'столичній')|e] [Concept('province', 'провінції')|e] отримають [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
  },
  "artist_events.50.a": {
   "en": "Nonsense, it is a fine work as it is now.",
@@ -757,7 +757,7 @@
  },
  "artist_events.50.desc": {
   "en": "[target_artist.GetName] appeared to be sufficiently pleased with [target_artist.GetHerHis] work in [target_art.GetName], but in reality [target_artist.GetSheHe] was internally disappointed by it. Now, [target_artist.GetSheHe] has come to [ROOT.GetCountry.GetGovernment.GetCourtTitle] with an idea on how to improve it. [target_artist.GetSheHe|U] claims that if we provide [target_artist.GetHerHim] some [ShowGoodsName('goods_gold')], [target_artist.GetSheHe] may be able to retrace the lines with a special mixture of ink and gold powder, greatly increasing the beauty of the work.",
-  "uk": "Здавалося, [target_artist.GetName] вважає, що творіння «[target_art.GetName]» вийшло непоганим. Однак насправді з'ясувалося, що [Select_CString(target_artist.IsFemale,'вона зовсім не задоволена','він зовсім не задоволений')] власною творчістю. Нещодавно в [Select_CString(target_artist.IsFemale,'неї','нього')] виникла ідея, як покращити свою працю. [target_artist.GetName] каже, що якщо ми виділимо трохи #TOOLTIP:GOODS,goods_gold,X #L золота#!#!, [Select_CString(target_artist.IsFemale,'вона','він')] підкреслить лінії особливим складом з чорнила і золотої пудри, від чого робота стане значно кращою."
+  "uk": "Здавалося, [target_artist.GetName] вважає, що витвір «[target_art.GetName]» вийшов непоганим. Однак насправді з’ясувалося, що [Select_CString(target_artist.IsFemale,'вона зовсім не задоволена','він зовсім не задоволений')] власною творчістю. Нещодавно в [Select_CString(target_artist.IsFemale,'неї','нього')] виникла ідея, як покращити свою працю. [target_artist.GetName] каже, що якщо ми виділимо трохи #TOOLTIP:GOODS,goods_gold,X #L золота#!#!, [Select_CString(target_artist.IsFemale,'вона','він')] підкреслить лінії особливим складом з чорнила і золотої пудри, від чого робота стане значно кращою."
  },
  "artist_events.50.title": {
   "en": "Golden Ink",
@@ -813,7 +813,7 @@
  },
  "artist_events.6.desc": {
   "en": "The many colors involved in the creation of art are but second nature to many painters such as [target_character.GetName]. [target_character.GetHerHis|U] strokes bring joy to the people, bringing together poor and rich, healthy and infirm, as they marvel at the sight of artwork imprinted around the center of [target_location.GetName]. Recently, we have been receiving a mounting number of requests to further fund this new art style by erecting more walls for [target_character.GetNameWithNoTooltip] to beautify.",
-  "uk": "Чимало художників дивують своєю здатністю працювати з фарбами. [target_character.GetName] — не виняток. [Select_CString(target_character.IsFemale,'Її', 'Його')] яскраві мазки приносять радість бідним і багатим, здоровим і хворим: дивлячись на творіння, що прикрашають центр [target_location.Custom('LR_GEN')|l] [target_location.GetName], кожен завмирає в захваті. Останнім часом до нас звідусіль надходять прохання й надалі фінансувати цей новий напрямок у мистецтві. [target_character.GetNameWithNoTooltip] використовуватиме як полотно ті стіни, що ми зведемо!"
+  "uk": "Чимало художників дивують своєю здатністю працювати з фарбами. [target_character.GetName] — не виняток. [Select_CString(target_character.IsFemale,'Її', 'Його')] яскраві мазки приносять радість бідним і багатим, здоровим і хворим: дивлячись на витвори мистецтва, що прикрашають центр [target_location.Custom('LR_GEN')|l] [target_location.GetName], кожен завмирає в захваті. Останнім часом до нас звідусіль надходять прохання й надалі фінансувати цей новий напрямок у мистецтві. [target_character.GetNameWithNoTooltip] використовуватиме як полотно ті стіни, що ми зведемо!"
  },
  "artist_events.6.title": {
   "en": "The Wall Art of [target_character.GetNameWithNoTooltip]",
@@ -889,7 +889,7 @@
  },
  "depends_on_change_policy_cost_tt": {
   "en": "The [stability|e] paid greatly depends on the current [costs|e] to change a [policy|e] in a [law|e]",
-  "uk": "На витрати [Concept('stability','стабільності')|e] значно впливає [Concept('costs','вартість')|e] зміни [Concept('policy','політичних')|e] [Concept('law','правил')|e]"
+  "uk": "На витрати [Concept('stability','стабільності')|e] значно впливає [Concept('costs','вартість')|e] зміни [Concept('policy','політики')|e] в [Concept('law','законі')|e]"
  },
  "depends_on_prosp_artist_skill_and_control_tt": {
   "en": "The [development|e] gained depends upon the [control|e] and [prosperity|e] of the [locations|e] as well as the skill of the [artist|e]",
@@ -897,7 +897,7 @@
  },
  "every_supporter_pop_gains_20_satisfaction_tt": {
   "en": "Every [pop|e] in support of the [target_rebel.GetName] [rebellion|e] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]",
-  "uk": "Усі [Concept('pop','групи населення')|e], що підтримують [Concept('rebellion','бунт')|e], на чию підтримку спирається [target_rebel.GetName], отримають [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction','вдоволення')|e]"
+  "uk": "Усі [Concept('pop','групи населення')|e], що підтримують [Concept('rebellion','повстання')|e], на яке спирається [target_rebel.GetName], отримають [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction','задоволення')|e]"
  },
  "jurist_busy_tt": {
   "en": "[target_character.GetShortName] will serve a #Y 5#! year term in our government, passively increasing our [cabinet_efficiency|e] and [tax_efficiency|e] by #G +10%#!\\nWhile [target_character.GetSheHe] serves, we will #R not#! be able to [ShowCharacterInteractionName('commission_art')] from [target_character.GetHerHim].",

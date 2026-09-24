@@ -429,7 +429,7 @@
  },
  "ANNEX_TARGET_REVOLT_WAR_PENALTY": {
   "en": "@trigger_no! #R [COUNTRY.GetName] is currently facing a revolt and annexation progress is paused until peace has been restored. #!",
-  "uk": "@trigger_no! #R У [COUNTRY.GetName] зараз триває заколот, і прогрес приєднання призупинено, доки не буде відновлено мир. #!"
+  "uk": "@trigger_no! #R У [COUNTRY.GetName] зараз триває повстання, і прогрес приєднання призупинено, доки не буде відновлено мир. #!"
  },
  "ANNEX_TINY_SUBJECT": {
   "en": "[TARGET_COUNTRY.GetName] is much smaller: $VAL|+=2%$",
@@ -2285,7 +2285,7 @@
  },
  "CANT_ANNEX_NO_SUITABLE_RELATION": {
   "en": "@trigger_no! [TARGET_COUNTRY.GetName] is not in an [international_organization|e] or [relation_type|e] with [COUNTRY.GetName] that permits annexation.",
-  "uk": "@trigger_no! [TARGET_COUNTRY.GetName] не перебуває в [Concept('international_organization', 'міжнародному об’єднанні')|e] і не знаходиться з державою [COUNTRY.GetName] у [Concept('relation_type', 'типі стосунків')|e], який дозволяє приєднання."
+  "uk": "@trigger_no! [TARGET_COUNTRY.GetName] не перебуває в [Concept('international_organization', 'міжнародному об’єднанні')|e] і не знаходиться з державою [COUNTRY.GetName] у [Concept('relation_type', 'типі відносин')|e], який дозволяє приєднання."
  },
  "CANT_INTERVENE_CIVIL_WAR": {
   "en": "@trigger_no!Can't intervene in a [civil_war|e]",
@@ -4225,7 +4225,7 @@
  },
  "DIPLO_REVOLTERS": {
   "en": "@trigger_no! We do not deal with revolters!",
-  "uk": "@trigger_no! Ми не маємо справ із заколотниками!"
+  "uk": "@trigger_no! Ми не маємо справ із повстанцями!"
  },
  "DIPLO_WEWAR": {
   "en": "@trigger_no! We are at [war|e] with $NAME|Y$. Sign a [peace_treaty|e] first!",
@@ -6081,7 +6081,7 @@
  },
  "NO_HEGEMONY_ENABLED": {
   "en": "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to proclaim hegemony!",
-  "uk": "@trigger_no! Для проголошення гегемонії потрібне [Concept('advance','поліпшення')|e] «[ADVANCE_DEFINITION.GetName]»!"
+  "uk": "@trigger_no! Для проголошення гегемонії потрібне [Concept('advance','покращення')|e] «[ADVANCE_DEFINITION.GetName]»!"
  },
  "NO_MILITARY_ACCESS": {
   "en": "@trigger_no! We do not have military access.",
@@ -6093,7 +6093,7 @@
  },
  "NO_OUTSIDE_DIPLO_IO": {
   "en": "@trigger_no! As member of $INTERNATIONAL_ORGANIZATION|Y$, this is prohibited by laws of the organization.",
-  "uk": "@trigger_no! Заборонено правилами об'єднання «$INTERNATIONAL_ORGANIZATION|Y$», до якого входить держава."
+  "uk": "@trigger_no! Заборонено законами об’єднання «$INTERNATIONAL_ORGANIZATION|Y$», до якого входить держава."
  },
  "NO_RIVALS_YET": {
   "en": "We have no [rivals|e] selected yet.",
@@ -6125,7 +6125,7 @@
  },
  "NO_SEPARATE_PEACE_SUBJECT_REVOLT": {
   "en": "@trigger_no! We cannot negotiate separate peace as an overlord in a subject revolt war.",
-  "uk": "@trigger_no! Як сюзерен ми не можемо домовитися про сепаратний мир у заколоті васала."
+  "uk": "@trigger_no! Як сюзерен ми не можемо домовитися про сепаратний мир у повстанні васала."
  },
  "NO_SUBJECTS_TOOLTIP_TITLE": {
   "en": "We have no subjects",
@@ -6249,7 +6249,7 @@
  },
  "NO_WAR_WITH_REBELS": {
   "en": "@trigger_no!We can not start a [war|e] when we have [rebels|e] close to raising up. $NAME$ has a progress above $VAL|2%$.",
-  "uk": "@trigger_no! Ми не можемо почати [Concept('war','війну')|e], коли знаходимось на межі [Concept('rebels','заколоту')|e]. Прогрес повстання $NAME$ вище $VAL|2%$."
+  "uk": "@trigger_no! Ми не можемо почати [Concept('war','війну')|e], коли [Concept('rebels','повстанці')|e] ось-ось розпочнуть повстання. Прогрес повстання $NAME$ вище $VAL|2%$."
  },
  "NUM_OF_INSTITUTION_BEHIND": {
   "en": "Lacking [institutions|e]",
@@ -7309,7 +7309,7 @@
  },
  "PAY_WAR_REPARATIONS_ENTRY": {
   "en": "[war_reparations|e] to [COUNTRY.GetName]: $CHANGE$",
-  "uk": "[Concept('war_reparations','Воєнні репарації')|e] на користь [COUNTRY.GetName]: $CHANGE$"
+  "uk": "[Concept('war_reparations','Контрибуції')|e] на користь [COUNTRY.GetName]: $CHANGE$"
  },
  "PEACEBETTER": {
   "en": "\\n(This deal is better than what we can expect)",
@@ -7417,7 +7417,7 @@
  },
  "PEACE_ANNEX_PERC": {
   "en": "This is $VAL|Y2%$ of all countries in [revolt|e] and [subjects|e] fighting for their independence.",
-  "uk": "Це $VAL|Y2%$ всіх держав, охоплених [Concept('revolt','заколотом')|e], та [Concept('subjects','васалів')|e], що воюють за незалежність."
+  "uk": "Це $VAL|Y2%$ всіх держав, охоплених [Concept('revolt','повстанням')|e], та [Concept('subjects','васалів')|e], що воюють за незалежність."
  },
  "PEACE_CANCEL_VASSALLS": {
   "en": "Cancel Vassals",
@@ -7625,11 +7625,11 @@
  },
  "PEACE_TREATY_ANNEX_REVOLTER": {
   "en": "[COUNTRY.GetName] annexes the [revolter|e] [TARGET_COUNTRY.GetNameWithFlag]",
-  "uk": "Держава [COUNTRY.GetName] приєднує [Concept('revolter', 'заколотну')|e] державу [TARGET_COUNTRY.GetNameWithFlag]"
+  "uk": "Держава [COUNTRY.GetName] приєднує [Concept('revolter', 'повстанську')|e] державу [TARGET_COUNTRY.GetNameWithFlag]"
  },
  "PEACE_TREATY_ANNEX_REVOLTER_short": {
   "en": "[COUNTRY.GetNameWithNoTooltip] annexes the revolter [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]",
-  "uk": "[COUNTRY.GetNameWithFlag] приєднує заколотні землі [TARGET_COUNTRY.GetNameWithFlag]"
+  "uk": "[COUNTRY.GetNameWithFlag] приєднує повстанські землі [TARGET_COUNTRY.GetNameWithFlag]"
  },
  "PEACE_TREATY_ANNUL_TREATIES": {
   "en": "[COUNTRY.GetNameWithFlag] annuls all #L #TOOLTIP:$TREATIES$ treaties#! #! with [TARGET_COUNTRY.GetNameWithFlag] for #Y $MONTHS$#! months",
@@ -7957,7 +7957,7 @@
  },
  "PEACE_TREATY_REVOLTER_SURVIVES": {
   "en": "[COUNTRY.GetNameWithFlag] continues to exist after the [revolt|e]",
-  "uk": "@[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DP')|L]#!#! вдалося вистояти під час [Concept('revolt', 'заколоту')|e]"
+  "uk": "@[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DP')|L]#!#! вдалося вистояти під час [Concept('revolt', 'повстання')|e]"
  },
  "PEACE_TREATY_REVOLTER_SURVIVES_short": {
   "en": "[COUNTRY.GetNameWithFlagWithNoTooltip] continues to exist after the [Localize('game_concept_revolt')]",
@@ -8013,7 +8013,7 @@
  },
  "PEACE_TREATY_S_WAR_REPARATIONS": {
   "en": "[war_reparations|e]: $VAL|+=$",
-  "uk": "[Concept('war_reparations','Репарації')|e]: $VAL|+=$"
+  "uk": "[Concept('war_reparations','Контрибуції')|e]: $VAL|+=$"
  },
  "PEACE_TREATY_TRANSFER_SUBJECT": {
   "en": "Transfer [COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip] [COUNTRY.GetNameWithFlag] from [COUNTRY.GetDiplomacy.GetOverlord.GetNameWithNoTooltip] to [TARGET_COUNTRY.GetNameWithNoTooltip]",
@@ -8053,7 +8053,7 @@
  },
  "PEACE_WARGOAL_MODIFIER": {
   "en": "[war_goal|e] $NAME$: $VAL|2-=%$",
-  "uk": "[Concept('war_goal', 'Ціль конфлікту')|e] «$NAME$»: $VAL|2-=%$"
+  "uk": "[Concept('war_goal', 'Мета війни')|e] «$NAME$»: $VAL|2-=%$"
  },
  "PEACE_WARSCORE": {
   "en": "[war_score|e]",
@@ -9053,7 +9053,7 @@
  },
  "RIVALS_NO_REVOLTER_SELF": {
   "en": "@trigger_no!Revolters cannot select [rivals|e].",
-  "uk": "@trigger_no!Заколотники не можуть обирати [rivals|e]."
+  "uk": "@trigger_no!Повстанці не можуть обирати [rivals|e]."
  },
  "RIVALS_NO_REVOLTER_TARGET": {
   "en": "@trigger_no![COUNTRY.GetName] is a [revolter|e] and cannot be selected as a [rival|e].",
@@ -9721,7 +9721,7 @@
  },
  "STOP_SUPPORTREB_DESC": {
   "en": "Abort our support for rebellions in $NAME$.",
-  "uk": "Ми відмовимося від підтримки заколотів в державі $NAME$."
+  "uk": "Ми відмовимося від підтримки повстань в державі $NAME$."
  },
  "STOP_SUPPORTREB_NOT_YET": {
   "en": "@trigger_no! We are not supporting for rebellions in [COUNTRY.GetName] yet.",
@@ -10129,7 +10129,7 @@
  },
  "SUPPORTREB_CANT_BACK_NOW": {
   "en": "@trigger_no! The Rebellion in $WHO$ is about to break out, so we can not back out now.",
-  "uk": "@trigger_no! Заколот в державі $WHO$ ось-ось почнеться, зараз ми не можемо відкликати свою підтримку."
+  "uk": "@trigger_no! Повстання в державі $WHO$ ось-ось почнеться, зараз ми не можемо відкликати свою підтримку."
  },
  "SUPPORTREB_CATEGORY": {
   "en": "CATEGORY_COVERT_ACTIONS",
@@ -10141,7 +10141,7 @@
  },
  "SUPPORTREB_FLAVOR": {
   "en": "Supporting rebels attempts to undermine another country without fighting them by increasing unrest among their wrong [culture|e] population, increasing the possibility for revolts or [civil_wars], but gives them a [casus_belli|e] on us while active.",
-  "uk": "Підтримка повстанців — це спроба нашкодити іншій державі без бою, збільшуючи безладдя серед населення іншої [Concept('culture', 'культури')|e], а також підвищуючи ймовірність заколотів або [Concept('civil_wars', 'громадянських воєн')]. У держави буде [Concept('casus_belli', 'привід для війни')|e] з нами, поки ми підтримуємо повстанців."
+  "uk": "Підтримка повстанців — це спроба нашкодити іншій державі без бою, збільшуючи безладдя серед населення іншої [Concept('culture', 'культури')|e], а також підвищуючи ймовірність повстань або [Concept('civil_wars', 'громадянських воєн')]. У держави буде [Concept('casus_belli', 'привід для війни')|e] з нами, поки ми підтримуємо повстанців."
  },
  "SUPPORTREB_NO_REBELS": {
   "en": "@trigger_no! There are no rebels in [COUNTRY.GetName] to support.",

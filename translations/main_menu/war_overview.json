@@ -49,7 +49,7 @@
  },
  "JOIN_WAR_REASON_DESC_CoBelligerent": {
   "en": "[COUNTRY.GetName] were declared on as a [cobelligerent|e].",
-  "uk": "Країна [COUNTRY.GetName] була оголошена як [Concept('cobelligerent','співвоюючий')|e]."
+  "uk": "Держава [COUNTRY.GetName] була оголошена як [Concept('cobelligerent','співвоюючий')|e]."
  },
  "JOIN_WAR_REASON_DESC_Instigator": {
   "en": "[COUNTRY.GetName] started the [war|e].",
@@ -313,7 +313,7 @@
  },
  "WAR_ENTHUSIASM_DESPERATION": {
   "en": "[occupied|e] and [besieged|e] [locations|e]: $VAL|+=2%$",
-  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','локації')|e]: $VAL|+=2%$"
+  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','райони')|e]: $VAL|+=2%$"
  },
  "WAR_ENTHUSIASM_INDEPENDENCE": {
   "en": "Striving for Independence: $VAL|+=2%$",
@@ -329,7 +329,7 @@
  },
  "WAR_ENTHUSIASM_OCCUPIED_LOCATIONS": {
   "en": "[occupied|e] and [besieged|e] [locations|e]: $VAL|+=2%$",
-  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','локації')|e]: $VAL|+=2%$"
+  "uk": "[Concept('occupied','Окуповані')|e] та [Concept('besieged','облягнуті')|e] [Concept('locations','райони')|e]: $VAL|+=2%$"
  },
  "WAR_ENTHUSIASM_ONGOING_BATTLES": {
   "en": "Ongoing Battles: $VAL|+=2%$",
@@ -377,7 +377,7 @@
  },
  "WAR_ENTHUSIASM_WAR_GOAL": {
   "en": "[war_goal|e] Achieved: $VAL|+=2%$",
-  "uk": "[Concept('war_goal','Воєнна ціль')|e] досягнуто: $VAL|+=2%$"
+  "uk": "[Concept('war_goal','Мета війни')|e] досягнута: $VAL|+=2%$"
  },
  "WAR_EXHAUSTION_TT": {
   "en": "[WarLateralViewParticipant.GetCountry.GetName] [war_exhaustion|e]: [WarLateralViewParticipant.GetCountry.GetFixedPointCurrencyValue('war_exhaustion')|+]\\nMaximum: [WarLateralViewParticipant.GetCountry.GetModifierValue('max_war_exhaustion')]",
@@ -429,11 +429,11 @@
  },
  "WAR_LATERALVIEW_REIN_IN_SUBJECT_TOOLTIP": {
   "en": "Open peace negotiations to end this independence war while keeping [COUNTRY.GetName] as your subject.\\n\\nIf you make peace without granting independence, [COUNTRY.GetName] will return to their [subject|e] status. You can also simply negotiate [white_peace|e] to end the war with no territorial changes.\\n\\n#S You have sufficient [war_score|e] to force [COUNTRY.GetName] to accept peace.#!",
-  "uk": "Розпочати мирні переговори, щоб завершити цю війну за незалежність, залишивши [COUNTRY.GetName] своїм васалом.\\n\\nЯкщо Ви укладете мир без надання незалежності, [COUNTRY.GetName] повернеться до статусу [Concept('subject','васала')|e]. Також можна просто домовитися про [Concept('white_peace','білий мир')|e], щоб завершити війну без територіальних змін.\\n\\n#S Ви маєте достатньо [Concept('war_score','рахунку війни')|e], щоб змусити [COUNTRY.GetName] прийняти мир.#!"
+  "uk": "Розпочати мирні переговори, щоб завершити цю війну за незалежність, залишивши [COUNTRY.GetName] своїм васалом.\\n\\nЯкщо Ви укладете мир без надання незалежності, [COUNTRY.GetName] повернеться до статусу [Concept('subject','васала')|e]. Також можна просто домовитися про [Concept('white_peace','білий мир')|e], щоб завершити війну без територіальних змін.\\n\\n#S Ви маєте достатньо [Concept('war_score','воєнного рахунку')|e], щоб змусити [COUNTRY.GetName] прийняти мир.#!"
  },
  "WAR_LATERALVIEW_SUBJECT": {
   "en": "@trigger_no!We cannot sue for [peace|e] while being a [subject|e] of our war leader",
-  "uk": "@trigger_no! Ми не можемо просити [Concept('peace','миру')|e], будучи [Concept('subject','підданим')|e] нашого лідера війни"
+  "uk": "@trigger_no! Ми не можемо просити [Concept('peace','миру')|e], будучи [Concept('subject','васалом')|e] нашого лідера війни"
  },
  "WAR_LATERALVIEW_SUE_FOR_PEACE": {
   "en": "Sue for peace",
@@ -477,7 +477,7 @@
  },
  "WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP": {
   "en": "$NUM$ of $MAX$ ports are [blockaded|e] in @[COUNTRY.GetFlag]! [COUNTRY.GetName]",
-  "uk": "$NUM$ з $MAX$ портів [Concept('blockaded','заблоковано')|e] у країні @[COUNTRY.GetFlag]! [COUNTRY.GetName]"
+  "uk": "$NUM$ з $MAX$ портів [Concept('blockaded','заблоковано')|e] у державі @[COUNTRY.GetFlag]! [COUNTRY.GetName]"
  },
  "WAR_OVERVIEW_DEFENDERS_LEADER": {
   "en": "Defender Leader",
@@ -577,7 +577,7 @@
  },
  "WAR_SORT_SHIPS_TT": {
   "en": "Sort by naval [strength|e]",
-  "uk": "Сортувати за морською [Concept('strength','силою')|e]"
+  "uk": "Сортувати за морською [Concept('strength','чисельністю')|e]"
  },
  "WAR_SORT_STABILITY_TT": {
   "en": "Sort by [stability|e]",
@@ -585,7 +585,7 @@
  },
  "WAR_SORT_STRENGTH_TT": {
   "en": "Sort by land [strength|e]",
-  "uk": "Сортувати за сухопутною [Concept('strength','силою')|e]"
+  "uk": "Сортувати за сухопутною [Concept('strength','чисельністю')|e]"
  },
  "WAR_SORT_WARSCORE_TT": {
   "en": "Sort by [war_score|e]",
@@ -593,7 +593,7 @@
  },
  "WAR_SORT_WAR_ENTHUSIASM_TT": {
   "en": "Sort by [war_enthusiasm|e]",
-  "uk": "Сортувати за [Concept('war_enthusiasm','ентузіазмом до війни')|e]"
+  "uk": "Сортувати за [Concept('war_enthusiasm','бажанням воювати')|e]"
  },
  "WAR_WARSCORE_TT": {
   "en": "[war_score|e]: [WarLateralView.GetWarScore|2+=/%]\\n\\n",

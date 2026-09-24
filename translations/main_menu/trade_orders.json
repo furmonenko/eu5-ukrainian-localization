@@ -5,7 +5,7 @@
  },
  "TRADE_ORDER_BELOW_PROFIT_CUTOFF": {
   "en": "@trigger_fail! No profitable [trade|e] route could be found.\\nBest route is [MARKET.GetNameWithNoTooltip] at $PROFIT_RATIO|+=2$@gold! per [merchant_capacity|e] (minimum required is $CUTOFF|=2$@gold!).\\nThe AI will keep trying each day.",
-  "uk": ""
+  "uk": "@trigger_fail! Прибуткового [Concept('trade','торговельного')|e] маршруту не знайдено.\\nНайкращий маршрут — [MARKET.GetNameWithNoTooltip], $PROFIT_RATIO|+=2$@gold! за одиницю [Concept('merchant_capacity','торговельного потенціалу')|e] (потрібно щонайменше $CUTOFF|=2$@gold!).\\nШІ пробуватиме щодня."
  },
  "TRADE_ORDER_CANCEL": {
   "en": "Cancel Trade Order",
@@ -29,7 +29,7 @@
  },
  "TRADE_ORDER_CAPACITY_TOTAL": {
   "en": "Orders are using [GetTradeOrderTotalCapacity] / [GetAutomatedCapacity] [merchant_capacity|e]",
-  "uk": "Замовлення використовують [GetTradeOrderTotalCapacity] / [GetAutomatedCapacity] [Concept('merchant_capacity','місткості купців')|e]"
+  "uk": "Замовлення використовують [GetTradeOrderTotalCapacity] / [GetAutomatedCapacity] [Concept('merchant_capacity','торговельного потенціалу')|e]"
  },
  "TRADE_ORDER_CREATE_EXPORT": {
   "en": "Set [export|e] Order",
@@ -57,7 +57,7 @@
  },
  "TRADE_ORDER_EXPORT_ACTIVE": {
   "en": "You have an active [export|e] Order for this good.\\nThe AI will spend [GetTradeOrderCapacity] [merchant_capacity|e] finding the best destination.",
-  "uk": "У Вас є активне замовлення на [Concept('export','експорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','місткості купців')|e] на пошук найкращого пункту призначення."
+  "uk": "У Вас є активне замовлення на [Concept('export','експорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','торговельного потенціалу')|e] на пошук найкращого пункту призначення."
  },
  "TRADE_ORDER_IE_CAPACITY_TOOLTIP_SUMMARY": {
   "en": "This [trade_order|e] allocates [ImportExportLateralView.GetTradeOrderCapacity|2Y]@trade_capacity! for [ImportExportLateralView.GetGoods.GetNameWithNoTooltip].",
@@ -77,7 +77,7 @@
  },
  "TRADE_ORDER_IMPORT_ACTIVE": {
   "en": "You have an active [import|e] Order for this good.\\nThe AI will spend [GetTradeOrderCapacity] [merchant_capacity|e] finding the best source.",
-  "uk": "У Вас є активне замовлення на [Concept('import','імпорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','місткості купців')|e] на пошук найкращого джерела."
+  "uk": "У Вас є активне замовлення на [Concept('import','імпорт')|e] цього товару.\\nШІ витратить [GetTradeOrderCapacity] [Concept('merchant_capacity','торговельного потенціалу')|e] на пошук найкращого джерела."
  },
  "TRADE_ORDER_MOVE_DOWN_TT": {
   "en": "Move this [trade_order] down in priority",
@@ -129,7 +129,7 @@
  },
  "TRADE_ORDER_QUICK_EXPORT_TT": {
   "en": "Create an [export|e] order with 1 [merchant_capacity|e]. The AI will find the best destination each day.",
-  "uk": "Створити замовлення на [Concept('export','експорт')|e] з 1 [Concept('merchant_capacity','місткості купців')|e]. ШІ щодня шукатиме найкращий пункт призначення."
+  "uk": "Створити замовлення на [Concept('export','експорт')|e] з 1 одиницею [Concept('merchant_capacity','торговельного потенціалу')|e]. ШІ щодня шукатиме найкращий пункт призначення."
  },
  "TRADE_ORDER_QUICK_FOOD_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [food]",
@@ -157,7 +157,7 @@
  },
  "TRADE_ORDER_QUICK_IMPORT_TT": {
   "en": "Create an [import|e] order with 1 [merchant_capacity|e]. The AI will find the best source each day.",
-  "uk": "Створити замовлення на [Concept('import','імпорт')|e] з 1 [Concept('merchant_capacity','місткості купців')|e]. ШІ щодня шукатиме найкраще джерело."
+  "uk": "Створити замовлення на [Concept('import','імпорт')|e] з 1 одиницею [Concept('merchant_capacity','торговельного потенціалу')|e]. ШІ щодня шукатиме найкраще джерело."
  },
  "TRADE_ORDER_QUICK_POP_NEEDS_MENU_TITLE": {
   "en": "Trade Orders for [pop_needs]",
@@ -177,7 +177,7 @@
  },
  "TRADE_ORDER_TRADES_TOOLTIP_SUMMARY": {
   "en": "[TradeOrderItem.GetTradeCount] active [trade|e] routes earning [TradeOrderItem.GetProfitPerCapacity|+=2]@gold! per [merchant_capacity|e].",
-  "uk": ""
+  "uk": "Активних [Concept('trade','торговельних')|e] шляхів: [TradeOrderItem.GetTradeCount], вони приносять [TradeOrderItem.GetProfitPerCapacity|+=2]@gold! на одиницю [Concept('merchant_capacity','торговельного потенціалу')|e]."
  },
  "TRADE_ORDER_TRADES_TOOLTIP_TITLE": {
   "en": "Trade Order Routes",

@@ -372,7 +372,7 @@ def cmd_install(args):
     stage = DIST / MOD_NAME
     dst = mod_dir(args.release)
     dst.mkdir(parents=True, exist_ok=True)
-    for name in ('main_menu', 'loading_screen', '.metadata'):
+    for name in ('main_menu', 'loading_screen', 'in_game', '.metadata'):
         target = dst / name
         shutil.rmtree(target, ignore_errors=True)
         src = stage / name
@@ -396,7 +396,7 @@ def cmd_uninstall(args):
         shutil.rmtree(dst)          # the dev folder is ours alone: remove it whole
         print(f'removed {dst}')
         return
-    for name in ('main_menu', 'loading_screen'):
+    for name in ('main_menu', 'loading_screen', 'in_game'):
         p = dst / name
         if p.exists():
             shutil.rmtree(p)

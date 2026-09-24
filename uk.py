@@ -3,6 +3,8 @@
     python uk.py extract     pull the original English localization out of the game into work/
     python uk.py check       validate translations/ against the current English source
     python uk.py status      translation coverage per namespace
+    python uk.py leftovers   English left in the mod (missing/empty/uk == en/Latin words) -> work/leftovers.tsv
+    python uk.py concepts    [Concept('key','text')] whose text strays from the game_concepts name -> work/concepts.tsv
     python uk.py build       build the mod into dist/
     python uk.py package     build + zip the mod for distribution
     python uk.py install     build + copy the mod into the game's Documents mod folder
@@ -291,6 +293,151 @@ def cmd_status(args):
         print(f'{"total":61} {total_done:5}/{total_all:<5} {100 * total_done // total_all:3}%')
 
 
+# ---------------------------------------------------------------- leftovers
+
+# Latin words a Ukrainian string may keep: acronyms, Roman numerals, brands, game modes.
+LEFTOVER_OK = {
+    'SPQR', 'Ironman', 'Paradox', 'Interactive', 'Steam', 'PDX', 'Europa', 'Universalis', 'DLC', 'OK', 'UI', 'FPS', 'HDR',
+    'VSync', 'Discord', 'Twitch', 'Windows', 'Tinto', 'Caesar', 'AI', 'ID', 'URL', 'BBCode', 'Clausewitz', 'Jomini',
+    'Ctrl', 'Shift', 'Alt', 'Tab', 'Esc', 'Enter', 'Space', 'VRAM', 'GPU', 'CPU', 'RAM',
+}
+LEFTOVER_SKIP_NS = re.compile(r'^main_menu/(_debug|qa_debug/.*|editor|issue_reporter|credits|caesar_tools|lateralviews)$')
+_CONCEPT_TEXT_RE = re.compile(r"\[Concept\('[^']*'\s*,\s*'([^']*)'\)[^\]]*\]")
+_LEFTOVER_MARKUP_RE = re.compile(r'\$[^$\s]*\$|#\S+|£[^£\s]+£|@[^!\s]+!|§.|\\n')
+_BRACKETS_RE = re.compile(r'\[[^\[\]]*\]')
+_CODE_RE = re.compile(r'\b[A-Za-z]\w*(?:[.:]\w+)+|\b[A-Za-z]+_\w+|\b[A-Z][a-z]+[A-Z]\w*')   # getters, TOOLTIP:X, Select_CString
+_LATIN_WORD_RE = re.compile(r'(?<![^\W\d_])[A-Za-z][A-Za-z\'’-]{2,}(?![^\W\d_])')
+_ROMAN_RE = re.compile(r'^[IVXLCDM]+$')
+# Frequent in the English source only inside kept Romance/German names ("Casa della Signoria"), not as English.
+_NAME_PARTICLES = {'del', 'dei', 'della', 'delle', 'degli', 'des', 'dem', 'der', 'die', 'das', 'und', 'von', 'van',
+                   'san', 'santa', 'alla', 'non', 'est', 'via', 'pro', 'real', 'inter', 'corpus', 'opus'}
+
+
+def prose(s):
+    """Visible words only: markup out, the text of [Concept('key','text')] kept."""
+    s = _CONCEPT_TEXT_RE.sub(lambda m: f' {m.group(1)} ', s)
+    while True:     # [Show...([ROOT.GetCountry])] nests
+        t = _BRACKETS_RE.sub(' ', s)
+        if t == s:
+            break
+        s = t
+    return _LEFTOVER_MARKUP_RE.sub(' ', s)
+
+
+def latin_words(s):
+    return [w for w in _LATIN_WORD_RE.findall(prose(s)) if w not in LEFTOVER_OK and not _ROMAN_RE.match(w)]
+
+
+def cmd_leftovers(args):
+    """English left in the mod. Kinds: missing (no entry), empty (the game shows en), same (uk == en with words),
+    code (markup leaked into visible text: a lost [ or #), english (a word the English source uses in lower case
+    at least 5 times), foreign (other Latin words: kept Latin/Italian names and mottos, usually deliberate)."""
+    kinds = ('missing', 'empty', 'same', 'code', 'english', 'foreign')
+    sources = {root: source_strings(root, game_dir=args.game) for root in ROOTS}
+    vocab = collections.Counter(w for src in sources.values() for keys in src.values() for en in keys.values()
+                                for w in re.findall(r'\b[a-z]{3,}\b', prose(en)))
+    per_ns = collections.defaultdict(collections.Counter)
+    words = collections.defaultdict(collections.Counter)
+    lines = []
+    for root in ROOTS:
+        for relpath, keys in sorted(sources[root].items()):
+            ns = f'{root}/{relpath}'
+            if LEFTOVER_SKIP_NS.match(ns):
+                continue
+            path = ns_file(root, relpath)
+            tr = load_json(path) if path.exists() else {}
+            for key, en in keys.items():
+                if not en or not re.search(r'[^\W\d_]{2,}', prose(en)):
+                    continue    # empty or markup-only source: nothing to translate
+                e = tr.get(key)
+                uk = e.get('uk') if isinstance(e, dict) else None
+                if uk is None:
+                    kind, extra = 'missing', ''
+                elif not uk:
+                    kind, extra = 'empty', ''
+                elif uk == en:
+                    if not latin_words(en):
+                        continue
+                    kind, extra = 'same', ''
+                else:
+                    code = collections.Counter(_CODE_RE.findall(prose(uk))) - collections.Counter(_CODE_RE.findall(prose(en)))
+                    lat = latin_words(uk)
+                    eng = [w for w in lat if vocab[w.lower()] >= 20 and w.lower() not in _NAME_PARTICLES]
+                    if code:
+                        kind, extra = 'code', ' '.join(code)
+                    elif eng:
+                        kind, extra = 'english', ' '.join(eng)
+                    elif lat:
+                        kind, extra = 'foreign', ' '.join(lat)
+                    else:
+                        continue
+                    words[kind].update(extra.split())
+                per_ns[ns][kind] += 1
+                lines.append(f'{kind}\t{ns}\t{key}\t{extra}\t{en[:120]}\t{(uk or "")[:120]}')
+    out = WORK / 'leftovers.tsv'
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    rows = sorted(per_ns.items(), key=lambda kv: -sum(kv[1].values()))
+    print(f'{"namespace":55} ' + ' '.join(f'{k:>7}' for k in kinds))
+    for ns, c in rows[:args.top]:
+        print(f'{ns:55} ' + ' '.join(f'{c[k]:7}' for k in kinds))
+    total = sum((c for c in per_ns.values()), collections.Counter())
+    print(f'{"total (" + str(len(per_ns)) + " namespaces)":55} ' + ' '.join(f'{total[k]:7}' for k in kinds))
+    for kind in ('code', 'english', 'foreign'):
+        print(f'top {kind}: ' + ', '.join(f'{w} {n}' for w, n in words[kind].most_common(args.top)))
+    print(f'-> {out.relative_to(ROOT)}')
+
+
+# ---------------------------------------------------------------- concepts
+
+_CONCEPT_CALL_RE = re.compile(r"\[Concept\('([^']+)'\s*,\s*'([^']*)'\)")
+_CYR_WORD_RE = re.compile(r"[А-Яа-яЇїІіЄєҐґ’'-]{4,}")
+
+
+def concept_names():
+    """{concept key: its Ukrainian name} from game_concepts ($game_concept_x$ references resolved)."""
+    gc = {k: e.get('uk') or '' for k, e in load_json(ns_file('main_menu', 'game_concepts')).items()}
+    resolve = lambda s: re.sub(r'\$(game_concept_\w+)\$', lambda m: gc.get(m.group(1), ''), s)
+    return {k[len('game_concept_'):]: resolve(resolve(v)) for k, v in gc.items()
+            if k.startswith('game_concept_') and not k.endswith('_desc')}
+
+
+def stems(text):
+    """Crude Ukrainian stems of the content words: the first 3 letters survive case endings (ринок/ринку, рада/раді)."""
+    return {w.lower()[:3] for w in _CYR_WORD_RE.findall(prose(text))}
+
+
+def cmd_concepts(args):
+    """[Concept('key','text')] whose text does not share the stems of the concept's name in game_concepts."""
+    names = concept_names()
+    per_key = collections.defaultdict(collections.Counter)
+    total = collections.Counter()
+    lines = []
+    for path in translation_files():
+        ns = path.relative_to(TRANSLATIONS).with_suffix('').as_posix()
+        for key, e in load_json(path).items():
+            for ck, text in _CONCEPT_CALL_RE.findall(e.get('uk') or ''):
+                name = names.get(ck) or names.get(ck.removesuffix('s')) or names.get(ck.removesuffix('_with_icon'))
+                total['calls'] += 1
+                if not name or not stems(name):
+                    total['no canon name'] += 1
+                    continue
+                if stems(name) & stems(text):
+                    continue    # a shortened name ("задоволення" for "задоволення групи населення") is fine
+                total['off'] += 1
+                variant = ' '.join(sorted(stems(text))) or '(empty)'
+                per_key[ck][variant] += 1
+                lines.append(f'{ck}\t{name}\t{text}\t{ns}\t{key}')
+    out = WORK / 'concepts.tsv'
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text('\n'.join(sorted(lines)) + '\n', encoding='utf-8')
+    print(', '.join(f'{k} {v}' for k, v in total.items()) + f'; {len(per_key)} concept keys off canon')
+    for ck, c in sorted(per_key.items(), key=lambda kv: -sum(kv[1].values()))[:args.top]:
+        print(f'{sum(c.values()):5}  {ck:32} {names.get(ck) or names.get(ck.removesuffix("s")) or ""!s:28} '
+              + ' | '.join(f'{v} ×{n}' for v, n in c.most_common(4)))
+    print(f'-> {out.relative_to(ROOT)}')
+
+
 # ---------------------------------------------------------------- build
 
 def cmd_build(args):
@@ -418,6 +565,8 @@ def main():
                             help=f'use the workshop-manager folder "{MOD_DIR_NAME}" instead of "{DEV_DIR_NAME}"')
     sub.add_parser('extract').add_argument('--baseline', default=None, help='read from this dir instead of --game')
     sub.add_parser('status').add_argument('--all', action='store_true', help='include untranslated namespaces')
+    sub.add_parser('leftovers').add_argument('--top', type=int, default=30, help='namespaces and words to print')
+    sub.add_parser('concepts').add_argument('--top', type=int, default=40, help='concept keys to print')
     args = parser.parse_args()
     result = globals()[f'cmd_{args.cmd}'](args)
     sys.exit(1 if args.cmd == 'check' and result else 0)

@@ -28,7 +28,7 @@ WORK, DIST, TRANSLATIONS, OVERLAY = ROOT / 'work', ROOT / 'dist', ROOT / 'transl
 DEFAULT_GAME = r'C:\Program Files\Steam\steamapps\common\Europa Universalis V'
 
 MOD_NAME = 'Ukraina Universalis'
-MOD_VERSION = '1.1.0'  # bump together with description.bbcode and the git tag
+MOD_VERSION = '1.2.0'  # bump together with description.bbcode and the git tag
 ROOTS = ['main_menu', 'loading_screen']
 TARGETS = ROOTS  # translate.py imports this name
 
